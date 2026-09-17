@@ -1,0 +1,29 @@
+{
+  "id": "6a9125afbe0ecc7866e90cd2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0"
+  ],
+  "question_type": "SA",
+  "question": "Consider the constraints $2x+y\\leq16$, $x+2y\\leq14$, $x\\geq0$ and $y\\geq0$. A student claims that $(5,4)$ is a feasible solution because it satisfies the first constraint. Examine the claim and justify your answer.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Verifying the first constraint</b><br>At $(5,4)$, $$2(5)+4=14\\leq16$$ Hence, the point does satisfy the first inequality, as stated by the student.<br><b>Step 2: Verifying the second constraint</b><br>For the second inequality, $$5+2(4)=13\\leq14$$ Therefore, the second constraint is also satisfied.<br><b>Step 3: Checking non-negative restrictions</b><br>The coordinates satisfy $$5\\geq0,\\quad4\\geq0$$ so the non-negative restrictions also hold.<br><b>Step 4: Using the condition for a feasible solution</b><br>A point is a feasible solution only when it satisfies all the constraints simultaneously. Merely checking one constraint is not sufficient to establish feasibility.<br><b>Step 5: Conclusion</b><br>The student's final claim is correct because $(5,4)$ does satisfy every constraint. However, the reasoning is incomplete because satisfaction of only the first constraint cannot by itself establish that a point is feasible.",
+  "explanation_image": [],
+  "options": {
+    "A": "The claim is incorrect because $(5,4)$ violates $x+2y\\leq14$",
+    "B": "The claim is correct solely because the first constraint is satisfied",
+    "C": "The final claim is correct because $(5,4)$ satisfies all constraints, but checking only the first constraint is insufficient",
+    "D": "The claim is incorrect because $(5,4)$ violates the non-negative restrictions"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

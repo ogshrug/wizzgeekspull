@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8e1b4b490c7cde3593e1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6c"
+  ],
+  "question_type": "VSA",
+  "question": "For $A=\\begin{bmatrix}1&2&0\\\\3&k&1\\\\2&-1&4\\end{bmatrix}$, the minors $M_{12}$ and $M_{21}$ are equal. Determine $k$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Calculate $M_{12}$</b><br>Deleting the first row and second column gives $$M_{12}=\\begin{vmatrix}3&1\\\\2&4\\end{vmatrix}=12-2=10$$<br><b>Step 2: Calculate $M_{21}$</b><br>Deleting the second row and first column gives $$M_{21}=\\begin{vmatrix}2&0\\\\-1&4\\end{vmatrix}=8$$<br><b>Step 3: Examine the condition</b><br>Both minors are independent of $k$. Their values are $10$ and $8$, respectively.<br><b>Step 4: Compare the values</b><br>Since $10\\ne8$, the equality $M_{12}=M_{21}$ cannot hold for any value of $k$.<br>Therefore, there is no value of $k$ satisfying the given condition.",
+  "explanation_image": [],
+  "options": {
+    "A": "No value of $k$ satisfies the condition.",
+    "B": "$k=2$",
+    "C": "$k=-2$",
+    "D": "$k=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

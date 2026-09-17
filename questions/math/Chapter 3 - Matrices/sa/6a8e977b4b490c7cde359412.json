@@ -1,0 +1,29 @@
+{
+  "id": "6a8e977b4b490c7cde359412",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d62"
+  ],
+  "question_type": "SA",
+  "question": "Let $$A=\\begin{bmatrix}1 & -1 \\\\ 2 & -2\\end{bmatrix},\\quad B=\\begin{bmatrix}p & q \\\\ p & q\\end{bmatrix},$$ where $p$ and $q$ are not both zero. Show that $AB=O$. What does this example establish?",
+  "answeroption": "C",
+  "explanation": "<b>Multiplication of the matrices</b><br>$$AB=\\begin{bmatrix}1 & -1 \\\\ 2 & -2\\end{bmatrix}\\begin{bmatrix}p & q \\\\ p & q\\end{bmatrix}=\\begin{bmatrix}p-p & q-q \\\\ 2p-2p & 2q-2q\\end{bmatrix}$$<br>Therefore, $$AB=\\begin{bmatrix}0 & 0 \\\\ 0 & 0\\end{bmatrix}=O$$<br><b>Non-zero factors</b><br>$A$ is non-zero, and since $p$ and $q$ are not both zero, $B$ is also non-zero.<br><b>Conclusion</b><br>This establishes that $AB=O$ does not necessarily imply $A=O$ or $B=O$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB=\\begin{bmatrix}p&q\\\\2p&2q\\end{bmatrix}$, so $AB\\ne O$ whenever $p$ or $q$ is non-zero.",
+    "B": "$AB=O$ implies $A=O$ because $B$ is non-zero.",
+    "C": "$AB=O$ even though both factors are non-zero; thus $AB=O$ need not imply $A=O$ or $B=O$.",
+    "D": "$AB=O$ implies $B=O$ because $A$ is non-zero."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a27b390233c5169a79c53d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "MCQ",
+  "question": "The least value of $f(x)=e^{-x}$ in [0, 3] is",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Compute the derivative of the function to test for monotonicity: $f'(x) = -e^{-x}$.<br />**Step 2:** Since exponential values are always positive, $e^{-x} > 0$, meaning $f'(x) < 0$ for all real values of $x$. Thus, $f(x)$ is strictly decreasing.<br />**Step 3:** For a strictly decreasing function over a closed domain interval $[0, 3]$, the absolute minimum/least value occurs precisely at the right-most boundary condition, $x = 3$. Evaluating gives $f(3) = e^{-3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^{-3}$",
+    "B": "-1",
+    "C": "1",
+    "D": "$-e^{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8edc2c2e54880055a0a6d7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f974"
+  ],
+  "question_type": "LA",
+  "question": "A particle moves along a straight line such that its displacement after $t$ seconds is $s(t)=t^4-4t^3+4t^2$ metres, where $t\\geq 0$.<br><br>(a) Obtain expressions for its instantaneous velocity and acceleration.<br><br>(b) Determine the positive instants at which the particle is at rest.<br><br>(c) Find the acceleration at each of these instants.<br><br>(d) Examine the direction of motion in the intervals determined by these instants.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The instantaneous velocity is the rate of change of displacement with respect to time.<br>$$v(t)=\\frac{ds}{dt}=4t^3-12t^2+8t$$<br>$$v(t)=4t(t-1)(t-2)$$<br>The acceleration is the rate of change of velocity.<br>$$a(t)=\\frac{dv}{dt}=12t^2-24t+8$$<br><br><b>(b)</b><br>The particle is at rest when $v(t)=0$. Therefore,<br>$$4t(t-1)(t-2)=0$$<br>Thus, $t=0$, $t=1$ or $t=2$. The required positive instants are<br>$$t=1\\ \\text{second}\\quad\\text{and}\\quad t=2\\ \\text{seconds}$$<br><br><b>(c)</b><br>At $t=1$,<br>$$a(1)=12(1)^2-24(1)+8=-4\\ \\text{m/s}^2$$<br>At $t=2$,<br>$$a(2)=12(2)^2-24(2)+8=8\\ \\text{m/s}^2$$<br><br><b>(d)</b><br>For $0<t<1$, the factors $t$, $t-1$ and $t-2$ have signs positive, negative and negative, respectively. Hence, $v(t)>0$.<br>For $1<t<2$, the factors have signs positive, positive and negative. Hence, $v(t)<0$.<br>For $t>2$, all three factors are positive. Hence, $v(t)>0$.<br>Therefore, the particle moves in the positive direction for $0<t<1$, in the negative direction for $1<t<2$, and again in the positive direction for $t>2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $v=4t^3-8t^2+4t$, $a=12t^2-16t+4$<br>(b) $t=1,2$ s<br>(c) $a(1)=0$, $a(2)=20$ m/s$^2$<br>(d) Positive for all $t>0$",
+    "B": "(a) $v=4t(t-1)(t-2)$, $a=12t^2-24t+8$<br>(b) $t=1,2$ s<br>(c) $a(1)=4$ m/s$^2$, $a(2)=-8$ m/s$^2$<br>(d) Negative on $0<t<1$, positive on $1<t<2$, negative on $t>2$",
+    "C": "(a) $v=4t(t-1)(t-2)$, $a=12t^2-24t+8$<br>(b) $t=1,2$ s<br>(c) $a(1)=-4$ m/s$^2$, $a(2)=8$ m/s$^2$<br>(d) Positive on $0<t<1$, negative on $1<t<2$, positive on $t>2$",
+    "D": "(a) $v=4t(t-1)(t-2)$, $a=12t^2-24t+8$<br>(b) $t=0,1$ s<br>(c) $a(0)=8$ m/s$^2$, $a(1)=-4$ m/s$^2$<br>(d) Positive on $0<t<1$ and negative for $t>1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

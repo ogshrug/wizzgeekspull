@@ -1,0 +1,30 @@
+{
+  "id": "6a8ebb6f2e54880055a0a6b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a matrix investigation, students select $A=\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}$ and $B=\\begin{bmatrix}2 & 0\\\\1 & 1\\end{bmatrix}$. They are asked to examine the inverse of the product $AB$. One student claims that $(AB)^{-1}=A^{-1}B^{-1}$, while another claims that the order of the inverse matrices must be reversed. The students calculate all the required matrices to determine which claim is correct.<br><br><b>(a)</b> Calculate $|A|$ and $|B|$ and determine whether their inverses exist.<br><br><b>(b)</b> Find $A^{-1}$ and $B^{-1}$.<br><br><b>(c)</b> Calculate $AB$ and $(AB)^{-1}$.<br><br><b>(d)</b> Compare $(AB)^{-1}$ with $A^{-1}B^{-1}$ and $B^{-1}A^{-1}$, and identify the correct relation.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>$$|A|=\\begin{vmatrix}1 & 1\\\\0 & 1\\end{vmatrix}=1$$<br>$$|B|=\\begin{vmatrix}2 & 0\\\\1 & 1\\end{vmatrix}=2$$<br>Since both determinants are non-zero, both inverses exist.<br><br><b>(b)</b><br>$$A^{-1}=\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}$$<br>Also,<br>$$B^{-1}=\\frac{1}{2}\\begin{bmatrix}1 & 0\\\\-1 & 2\\end{bmatrix}$$<br><br><b>(c)</b><br>$$AB=\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\begin{bmatrix}2 & 0\\\\1 & 1\\end{bmatrix}=\\begin{bmatrix}3 & 1\\\\1 & 1\\end{bmatrix}$$<br>Now,<br>$$|AB|=3(1)-1(1)=2$$<br>Therefore,<br>$$(AB)^{-1}=\\frac{1}{2}\\begin{bmatrix}1 & -1\\\\-1 & 3\\end{bmatrix}$$<br><br><b>(d)</b><br>First,<br>$$A^{-1}B^{-1}=\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\frac{1}{2}\\begin{bmatrix}1 & 0\\\\-1 & 2\\end{bmatrix}=\\frac{1}{2}\\begin{bmatrix}2 & -2\\\\-1 & 2\\end{bmatrix}$$<br>This is not equal to $(AB)^{-1}$.<br>Next,<br>$$B^{-1}A^{-1}=\\frac{1}{2}\\begin{bmatrix}1 & 0\\\\-1 & 2\\end{bmatrix}\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}$$<br>$$B^{-1}A^{-1}=\\frac{1}{2}\\begin{bmatrix}1 & -1\\\\-1 & 3\\end{bmatrix}=(AB)^{-1}$$<br>Therefore, the correct relation is<br>$$(AB)^{-1}=B^{-1}A^{-1}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=1,\\ |B|=2$<br>(b) $A^{-1}=\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}$, $B^{-1}=\\frac12\\begin{bmatrix}1&0\\\\-1&2\\end{bmatrix}$<br>(c) $AB=\\begin{bmatrix}3&1\\\\1&1\\end{bmatrix}$, $(AB)^{-1}=\\frac12\\begin{bmatrix}1&-1\\\\-1&3\\end{bmatrix}$<br>(d) $(AB)^{-1}=A^{-1}B^{-1}$",
+    "B": "(a) $|A|=1,\\ |B|=2$<br>(b) $A^{-1}=\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}$, $B^{-1}=\\frac12\\begin{bmatrix}1&0\\\\-1&2\\end{bmatrix}$<br>(c) $AB=\\begin{bmatrix}3&1\\\\1&1\\end{bmatrix}$, $(AB)^{-1}=\\frac12\\begin{bmatrix}1&-1\\\\-1&3\\end{bmatrix}$<br>(d) $(AB)^{-1}=B^{-1}A^{-1}$",
+    "C": "(a) $|A|=1,\\ |B|=2$<br>(b) $A^{-1}=\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}$, $B^{-1}=\\frac12\\begin{bmatrix}1&0\\\\1&2\\end{bmatrix}$<br>(c) $AB=\\begin{bmatrix}3&1\\\\1&1\\end{bmatrix}$, $(AB)^{-1}=\\frac12\\begin{bmatrix}3&-1\\\\-1&1\\end{bmatrix}$<br>(d) $(AB)^{-1}=A^{-1}B^{-1}$",
+    "D": "(a) $|A|=0,\\ |B|=2$<br>(b) Only $B^{-1}$ exists<br>(c) $AB=\\begin{bmatrix}3&1\\\\1&1\\end{bmatrix}$ is singular<br>(d) $(AB)^{-1}$ does not exist"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

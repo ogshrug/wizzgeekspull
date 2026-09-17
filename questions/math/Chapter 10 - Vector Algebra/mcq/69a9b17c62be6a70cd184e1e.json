@@ -1,0 +1,29 @@
+{
+  "id": "69a9b17c62be6a70cd184e1e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "MCQ",
+  "question": "For $\\vec{u} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k}$ and $\\vec{v} = 3\\hat{i} - 6\\hat{j} + 2\\hat{k}$, the area of the triangle with sides $\\vec{u}$ and $\\vec{v}$ is:",
+  "answeroption": "A",
+  "explanation": "Area of triangle $= \\frac{1}{2}|\\vec{u} \\times \\vec{v}|$<br /><br />$\\vec{u} \\times \\vec{v} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 3 & 6 \\\\ 3 & -6 & 2 \\end{vmatrix}$<br /><br />Expand:<br /><br />$\\hat{i}: (3)(2) - (6)(-6) = 6 + 36 = 42$<br /><br />$\\hat{j}: -[(2)(2) - (6)(3)] = -[4 - 18] = -[-14] = 14$<br /><br />$\\hat{k}: (2)(-6) - (3)(3) = -12 - 9 = -21$<br /><br />Thus $\\vec{u} \\times \\vec{v} = 42\\hat{i} + 14\\hat{j} - 21\\hat{k}$<br /><br />Magnitude $= \\sqrt{42^2 + 14^2 + (-21)^2} = \\sqrt{1764 + 196 + 441} = \\sqrt{2401} = 49$<br /><br />Area $= \\frac{1}{2} \\times 49 = \\frac{49}{2} = \\frac{1}{2}\\sqrt{2401} = \\frac{1}{2}\\sqrt{49^2} = \\frac{1}{2}\\sqrt{49}$<br /><br />Therefore, the correct option is A) $\\frac{1}{2}\\sqrt{49}$.<br /><br />**Answer:** Option (A)",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}\\sqrt{49}$",
+    "B": "$\\frac{1}{2}\\sqrt{94}$",
+    "C": "$\\frac{1}{2}\\sqrt{114}$",
+    "D": "$\\frac{1}{2}\\sqrt{124}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:38:20 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

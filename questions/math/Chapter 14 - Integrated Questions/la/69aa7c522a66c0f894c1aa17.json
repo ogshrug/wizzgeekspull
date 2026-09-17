@@ -1,0 +1,30 @@
+{
+  "id": "69aa7c522a66c0f894c1aa17",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d82",
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = e^{x^2}$.\n\n(a) Show that $f(x)$ is continuous and differentiable everywhere.\n\n(b) Compute $f'(x)$ and determine where $f'(x) = 0$.\n\n(c) Evaluate $\\lim_{x \\to 0} \\frac{f(x)-f(0)}{x}$ using first principles and verify this result agrees with (b).",
+  "answeroption": "A",
+  "explanation": "**Concepts Tested:** Continuity, Differentiability, Differentiation from First Principles<br /><br />**Solution:**<br /><br />(a) $f(x) = e^{x^2}$ is the composition of $g(x)=x^2$ (continuous everywhere) and $h(x)=e^x$ (continuous everywhere), so $f$ is continuous everywhere. Both $g$ and $h$ are differentiable everywhere, so $f$ is differentiable everywhere.<br /><br />(b) $f'(x) = \\frac{d}{dx}(e^{x^2}) = e^{x^2} \\cdot 2x = 2x e^{x^2}$<br /><br />For $f'(x) = 0$: $2x e^{x^2} = 0$.<br /><br />Since $e^{x^2} > 0$ for all real $x$, $f'(x) = 0$ only when $x=0$.<br /><br />(c) $\\lim_{x \\to 0} \\frac{e^{x^2} - 1}{x}$<br /><br />Let $L = \\lim_{x \\to 0} \\frac{e^{x^2} - 1}{x}$<br /><br />As $x \\to 0$, $e^{x^2} \\approx 1 + x^2 + \\frac{x^4}{2} + \\ldots$<br /><br />So numerator $= x^2 + O(x^4)$<br /><br />So $L = \\lim_{x \\to 0} \\frac{x^2 + O(x^4)}{x} = \\lim_{x \\to 0} (x + O(x^3)) = 0$<br /><br />This matches $f'(0) = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)$ is continuous and differentiable everywhere<br />(b) $f'(x)=2xe^{x^2}$ and $f'(x)=0$ only at $x=0$<br />(c) $\\lim_{x\\to0}\\frac{f(x)-f(0)}{x}=0$, agreeing with $f'(0)=0$",
+    "B": "(a) $f(x)$ is continuous everywhere but not differentiable at $x=0$<br />(b) $f'(x)=xe^{x^2}$ and $f'(x)=0$ at $x=1$<br />(c) The limit equals $1$",
+    "C": "(a) $f(x)$ is differentiable only for $x>0$<br />(b) $f'(x)=e^{2x}$ and $f'(x)=0$ has no solution<br />(c) The limit equals $e$",
+    "D": "(a) $f(x)$ is discontinuous at $x=0$<br />(b) $f'(x)=2e^{x^2}$ and $f'(x)=0$ only at $x=0$<br />(c) The limit equals $2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:03:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

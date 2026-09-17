@@ -1,0 +1,26 @@
+{
+  "id": "6a2ba8bce2870e79a90d76cf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "VSA",
+  "question": "If $x=e^{sin^{-1}t}$ and $y=e^{cos^{-1}t};$ then find $\\frac{dy}{dx}$ at $t=\\frac{1}{\\sqrt{2}}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Multiply the two equations together: $xy = e^{\\sin^{-1}t} \\cdot e^{\\cos^{-1}t} = e^{\\sin^{-1}t + \\cos^{-1}t}$.<br />**Step 2:** Apply the inverse trigonometric identity $\\sin^{-1}t + \\cos^{-1}t = \\frac{\\pi}{2}$ to simplify the product into a constant value: $xy = e^{\\pi/2}$.<br />**Step 3:** Differentiate implicitly with respect to $x$: $y + x\\frac{dy}{dx} = 0 \\implies \\frac{dy}{dx} = -\\frac{y}{x}$. At $t = \\frac{1}{\\sqrt{2}}$, both $x = e^{\\pi/4}$ and $y = e^{\\pi/4}$, so $\\frac{dy}{dx} = -1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

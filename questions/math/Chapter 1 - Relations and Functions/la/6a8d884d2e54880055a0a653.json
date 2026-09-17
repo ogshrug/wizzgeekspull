@@ -1,0 +1,30 @@
+{
+  "id": "6a8d884d2e54880055a0a653",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=[x]$, where $[x]$ denotes the greatest integer less than or equal to $x$. Examine whether $f$ is one-one and onto, giving complete mathematical justification.",
+  "answeroption": "C",
+  "explanation": "<b>Verification of one-one property</b><br>For a function to be one-one, distinct elements of the domain must have distinct images. Consider $x_1=\\frac{6}{5}$ and $x_2=\\frac{9}{5}$. Clearly, $$\\frac{6}{5}\\neq\\frac{9}{5}$$ but $$f\\left(\\frac{6}{5}\\right)=1\\quad\\text{and}\\quad f\\left(\\frac{9}{5}\\right)=1$$ Thus, two distinct real numbers have the same image. Therefore, $f$ is not one-one.<br><br><b>Verification of onto property</b><br>The value $[x]$ is always an integer for every $x\\in\\mathbb{R}$. Consider $\\frac{1}{2}\\in\\mathbb{R}$ in the co-domain. There is no $x\\in\\mathbb{R}$ such that $$[x]=\\frac{1}{2}$$ because the greatest integer function takes only integral values. Hence, $\\frac{1}{2}$ has no pre-image under $f$, so $f$ is not onto.<br><br><b>Final Result</b><br>The greatest integer function $f:\\mathbb{R}\\to\\mathbb{R}$ is neither one-one nor onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one and onto because every real number has a unique greatest integer.",
+    "B": "$f$ is one-one but not onto because its range is $\\mathbb{Z}$ rather than $\\mathbb{R}$.",
+    "C": "$f$ is neither one-one nor onto because distinct real numbers can have the same greatest integer, and non-integral real numbers have no pre-image.",
+    "D": "$f$ is onto but not one-one because every real number is the greatest integer of some real input."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

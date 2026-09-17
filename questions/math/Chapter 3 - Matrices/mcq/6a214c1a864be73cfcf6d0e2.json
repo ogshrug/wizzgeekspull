@@ -1,0 +1,32 @@
+{
+  "id": "6a214c1a864be73cfcf6d0e2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56",
+    "69c65fbf40512f018fa94d51"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A=\\begin{bmatrix}\\cos x & -\\sin x\\\\ \\sin x & \\cos x\\end{bmatrix}$ and $A+A^{\\prime}=I$, then the value of $x \\in [0,\\frac{\\pi}{2}]$ is",
+  "answeroption": "C",
+  "explanation": "**Step 1:** We first compute the transpose of matrix $A$, which is $A^{\\prime}=\\begin{bmatrix}\\cos x & \\sin x\\\\ -\\sin x & \\cos x\\end{bmatrix}$.<br /><br />**Step 2:** We add matrices $A$ and $A^{\\prime}$, resulting in $\\begin{bmatrix}2\\cos x & 0\\\\ 0 & 2\\cos x\\end{bmatrix}$.<br /><br />**Step 3:** We set this sum equal to the identity matrix $I=\\begin{bmatrix}1 & 0\\\\ 0 & 1\\end{bmatrix}$, yielding the equation $2\\cos x = 1$.<br /><br />**Step 4:** Solving for $\\cos x$ gives $\\cos x = \\frac{1}{2}$. Within the given interval $[0,\\frac{\\pi}{2}]$, the corresponding angle is $x = \\frac{\\pi}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$\\frac{\\pi}{4}$",
+    "C": "$\\frac{\\pi}{3}$",
+    "D": "$\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed5a8751910886affb9d8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\int xe^x\\,dx=e^x(ax+b)+C$, determine the value of $a+b$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> Apply integration by parts using $\\int u\\,dv=uv-\\int v\\,du$.<br><b>Step 2:</b> Choose $u=x$ and $dv=e^x\\,dx$. Then $du=dx$ and $v=e^x$.<br><b>Step 3:</b> Therefore, $$\\int xe^x\\,dx=xe^x-\\int e^x\\,dx.$$<br><b>Step 4:</b> Since $\\int e^x\\,dx=e^x$, we get $\\int xe^x\\,dx=xe^x-e^x+C=e^x(x-1)+C$.<br><b>Step 5:</b> Comparing $e^x(x-1)$ with $e^x(ax+b)$ gives $a=1$ and $b=-1$. Hence, $$\\boxed{a+b=0}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$-1$",
+    "B": "$1$",
+    "C": "$2$",
+    "D": "$0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

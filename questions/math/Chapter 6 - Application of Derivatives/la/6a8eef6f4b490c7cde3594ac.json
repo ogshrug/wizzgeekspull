@@ -1,0 +1,32 @@
+{
+  "id": "6a8eef6f4b490c7cde3594ac",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97b",
+    "6a13e98f8c819562f933f97c",
+    "6a13e98f8c819562f933f97d",
+    "6a13e98f8c819562f933f97e"
+  ],
+  "question_type": "LA",
+  "question": "Consider the curve $y=x^3-4x+1$.(a) Determine the slope of the tangent at the point whose abscissa is $2$.(b) Obtain the equations of the tangent and normal at this point.(c) Find the intercepts made by the tangent on the coordinate axes and interpret the sign of its slope geometrically.",
+  "answeroption": "C",
+  "explanation": "(a)At $x=2$,$$y=(2)^3-4(2)+1=1$$Therefore, the point is $(2,1)$. Differentiating the given equation,$$\\frac{dy}{dx}=3x^2-4$$At $x=2$,$$\\left.\\frac{dy}{dx}\\right|_{x=2}=3(2)^2-4=8$$Hence, the slope of the tangent is $8$.(b)The equation of the tangent at $(2,1)$ is$$y-1=8(x-2)$$Therefore,$$y=8x-15$$The slope of the normal is the negative reciprocal of $8$, that is, $-\\frac{1}{8}$. Hence, its equation is$$y-1=-\\frac{1}{8}(x-2)$$(c)For the $x$-intercept of the tangent, set $y=0$.$$0=8x-15$$$$x=\\frac{15}{8}$$Thus, the $x$-intercept is $\\left(\\frac{15}{8},0\\right)$.For the $y$-intercept, set $x=0$.$$y=-15$$Thus, the $y$-intercept is $(0,-15)$. Since the slope $8$ is positive, the tangent rises from left to right.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Slope $4$<br>(b) Tangent $y=4x-7$; normal $y-1=-\\frac{1}{4}(x-2)$<br>(c) Intercepts $\\left(\\frac{7}{4},0\\right)$ and $(0,-7)$; tangent rises",
+    "B": "(a) Slope $8$<br>(b) Tangent $y=8x+15$; normal $y-1=\\frac{1}{8}(x-2)$<br>(c) Intercepts negative on both axes; tangent falls",
+    "C": "(a) Slope $8$<br>(b) Tangent $y=8x-15$; normal $y-1=-\\frac{1}{8}(x-2)$<br>(c) Intercepts $\\left(\\frac{15}{8},0\\right)$ and $(0,-15)$; positive slope means the tangent rises left to right",
+    "D": "(a) Slope $-8$<br>(b) Tangent $y=-8x+17$; normal $y-1=\\frac{1}{8}(x-2)$<br>(c) Tangent falls left to right"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a901d25751910886affba2b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cc",
+    "6a13e7cad837c8c7efa6b8cd",
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a three-dimensional coordinate activity, two markers are placed at $A(1,2,-1)$ and $B(5,p,7)$, where the $y$-coordinate $p$ of the second marker is initially unknown. Observation of the straight line joining the markers shows that its direction ratios are proportional to $1,2,2$. This directional information is sufficient to determine the missing coordinate because the differences of the corresponding coordinates of two points on a line are proportional to its direction ratios. After determining $B$, students are required to describe the same line using direction cosines, Cartesian form, and vector form, and then test another point $S(3,6,3)$.<br><br><b>(a)</b> Determine the value of $p$.<br><br><b>(b)</b> Find the direction cosines of the directed line $AB$.<br><br><b>(c)</b> Find the Cartesian equation of the line $AB$.<br><br><b>(d)</b> Write a vector equation of $AB$ and use it to verify whether $S(3,6,3)$ lies on the line.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The coordinate differences from $A(1,2,-1)$ to $B(5,p,7)$ are<br>$$4,\\quad p-2,\\quad 8.$$<br>These must be proportional to the given direction ratios $(1,2,2)$. Thus,<br>$$\\frac{4}{1}=\\frac{p-2}{2}=\\frac{8}{2}.$$<br>Since $\\frac{4}{1}=4$ and $\\frac{8}{2}=4$, we have<br>$$\\frac{p-2}{2}=4.$$<br>Therefore, $p-2=8$ and hence $p=10$. Thus, $B=(5,10,7)$.<br><br><b>(b)</b><br>A convenient set of direction ratios is $(1,2,2)$. Their magnitude factor is<br>$$\\sqrt{1^2+2^2+2^2}=\\sqrt{9}=3.$$<br>Therefore, the direction cosines of the directed line $AB$ are<br>$$l=\\frac{1}{3},\\quad m=\\frac{2}{3},\\quad n=\\frac{2}{3}.$$<br><br><b>(c)</b><br>The line passes through $A(1,2,-1)$ and has direction ratios $(1,2,2)$. Hence, its Cartesian equation is<br>$$\\frac{x-1}{1}=\\frac{y-2}{2}=\\frac{z+1}{2}.$$<br><br><b>(d)</b><br>The position vector of $A$ is<br>$$\\hat i+2\\hat j-\\hat k,$$<br>and a vector parallel to $AB$ is<br>$$\\hat i+2\\hat j+2\\hat k.$$<br>Therefore, the vector equation is<br>$$\\vec r=(\\hat i+2\\hat j-\\hat k)+\\lambda(\\hat i+2\\hat j+2\\hat k).$$<br>For $S(3,6,3)$, comparing the $x$-coordinate gives<br>$$3=1+\\lambda,$$<br>so $\\lambda=2$.<br>For this value,<br>$$y=2+2(2)=6$$<br>and<br>$$z=-1+2(2)=3.$$<br>Both coordinates agree with those of $S$. Hence, $S(3,6,3)$ lies on the line $AB$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $p=6$<br>(b) $\\left(\\frac{1}{3},\\frac{2}{3},\\frac{2}{3}\\right)$<br>(c) $\\frac{x-1}{1}=\\frac{y-2}{2}=\\frac{z+1}{2}$<br>(d) $S$ does not lie on the line",
+    "B": "(a) $p=10$<br>(b) $\\left(\\frac{1}{3},\\frac{2}{3},\\frac{2}{3}\\right)$<br>(c) $\\frac{x-1}{1}=\\frac{y-2}{2}=\\frac{z+1}{2}$<br>(d) $\\vec r=(\\hat i+2\\hat j-\\hat k)+\\lambda(\\hat i+2\\hat j+2\\hat k)$ and $S(3,6,3)$ lies on the line for $\\lambda=2$",
+    "C": "(a) $p=10$<br>(b) $\\left(\\frac{1}{3},-\\frac{2}{3},\\frac{2}{3}\\right)$<br>(c) $\\frac{x-1}{1}=\\frac{y-2}{-2}=\\frac{z+1}{2}$<br>(d) $S$ lies on the line for $\\lambda=2$",
+    "D": "(a) $p=8$<br>(b) $\\left(\\frac{2}{3},\\frac{1}{3},\\frac{2}{3}\\right)$<br>(c) $\\frac{x-1}{2}=\\frac{y-2}{1}=\\frac{z+1}{2}$<br>(d) $S$ lies on the line for $\\lambda=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

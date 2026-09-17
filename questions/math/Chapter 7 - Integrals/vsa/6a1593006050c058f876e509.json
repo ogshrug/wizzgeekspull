@@ -1,0 +1,24 @@
+{
+  "id": "6a1593006050c058f876e509",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate: $\\int_{0}^{\\pi/2} \\frac{1}{1+\\cot^{5/2}x} \\, dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Convert the cotangent function to sine and cosine expressions**<br />Let the given definite integral be denoted as $I$. We rewrite the expression using the standard identity $\\cot x = \\frac{\\cos x}{\\sin x}$:<br />$I = \\int_{0}^{\\pi/2} \\frac{1}{1 + \\left(\\frac{\\cos x}{\\sin x}\\right)^{5/2}} \\, dx = \\int_{0}^{\\pi/2} \\frac{\\sin^{5/2}x}{\\sin^{5/2}x + \\cos^{5/2}x} \\, dx \\quad \\text{--- (Equation 1)}$<br /><br />**Step 2: Apply the definite integration reflection property**<br />We use the standard property $\\int_{0}^{a} f(x) \\, dx = \\int_{0}^{a} f(a-x) \\, dx$. Replacing $x$ with $\\left(\\frac{\\pi}{2} - x\\right)$ gives:<br />$I = \\int_{0}^{\\pi/2} \\frac{\\sin^{5/2}\\left(\\frac{\\pi}{2}-x\\right)}{\\sin^{5/2}\\left(\\frac{\\pi}{2}-x\\right) + \\cos^{5/2}\\left(\\frac{\\pi}{2}-x\\right)} \\, dx$<br />Since $\\sin\\left(\\frac{\\pi}{2}-x\\right) = \\cos x$ and $\\cos\\left(\\frac{\\pi}{2}-x\\right) = \\sin x$, our equation becomes:<br />$I = \\int_{0}^{\\pi/2} \\frac{\\cos^{5/2}x}{\\cos^{5/2}x + \\sin^{5/2}x} \\, dx \\quad \\text{--- (Equation 2)}$<br /><br />**Step 3: Add both integral equations together**<br />Adding Equation 1 and Equation 2 updates our system to:<br />$2I = \\int_{0}^{\\pi/2} \\frac{\\sin^{5/2}x + \\cos^{5/2}x}{\\sin^{5/2}x + \\cos^{5/2}x} \\, dx$<br />The numerator and denominator cancel out perfectly, simplifying the integrand to 1:<br />$2I = \\int_{0}^{\\pi/2} 1 \\, dx$<br /><br />**Step 4: Integrate to solve for $I$**<br />$2I = [x]_{0}^{\\pi/2} = \\frac{\\pi}{2} - 0 = \\frac{\\pi}{2}$<br />Isolating $I$ gives the final value: $I = \\frac{\\pi}{4}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

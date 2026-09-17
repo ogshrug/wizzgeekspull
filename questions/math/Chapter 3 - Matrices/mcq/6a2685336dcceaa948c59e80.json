@@ -1,0 +1,34 @@
+{
+  "id": "6a2685336dcceaa948c59e80",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d57"
+  ],
+  "question_type": "MCQ",
+  "question": "A and B are skew-symmetric matrices of same order. AB is symmetric, if:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Since $A$ and $B$ are given as skew-symmetric matrices, they satisfy $A^T = -A$ and $B^T = -B$.<br />**Step 2:** For the product matrix $AB$ to be symmetric, it must satisfy the transpose identity $(AB)^T = AB$. Using the reversal rule for transposes, we expand this to $B^T A^T = AB$.<br />**Step 3:** Substitute the skew-symmetric properties into the left side of the equation: $(-B)(-A) = AB \\implies BA = AB$. Thus, the product is symmetric if and only if the matrices commute, corresponding to option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB = O$",
+    "B": "$AB = -BA$",
+    "C": "$AB = BA$",
+    "D": "$BA = O$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

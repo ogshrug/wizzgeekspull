@@ -1,0 +1,29 @@
+{
+  "id": "6a8e945f2e54880055a0a679",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "SA",
+  "question": "Given $$A=\\begin{bmatrix}2 & 1 \\\\ -1 & 3\\end{bmatrix},\\quad B=\\begin{bmatrix}1 & 2 \\\\ 0 & -1\\end{bmatrix},\\quad C=\\begin{bmatrix}3 & 0 \\\\ 2 & 1\\end{bmatrix},$$ calculate $(AB)C$ and $A(BC)$ and verify that they are equal.",
+  "answeroption": "B",
+  "explanation": "<b>Product $AB$</b><br>$$AB=\\begin{bmatrix}2 & 3 \\\\ -1 & -5\\end{bmatrix}$$<br><b>Evaluation of $(AB)C$</b><br>$$(AB)C=\\begin{bmatrix}2 & 3 \\\\ -1 & -5\\end{bmatrix}\\begin{bmatrix}3 & 0 \\\\ 2 & 1\\end{bmatrix}=\\begin{bmatrix}12 & 3 \\\\ -13 & -5\\end{bmatrix}$$<br><b>Product $BC$</b><br>$$BC=\\begin{bmatrix}1 & 2 \\\\ 0 & -1\\end{bmatrix}\\begin{bmatrix}3 & 0 \\\\ 2 & 1\\end{bmatrix}=\\begin{bmatrix}7 & 2 \\\\ -2 & -1\\end{bmatrix}$$<br><b>Evaluation of $A(BC)$</b><br>$$A(BC)=\\begin{bmatrix}2 & 1 \\\\ -1 & 3\\end{bmatrix}\\begin{bmatrix}7 & 2 \\\\ -2 & -1\\end{bmatrix}=\\begin{bmatrix}12 & 3 \\\\ -13 & -5\\end{bmatrix}$$<br>Hence, $(AB)C=A(BC)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(AB)C=\\begin{bmatrix}12&3\\\\-13&-5\\end{bmatrix}$ and $A(BC)=\\begin{bmatrix}12&-3\\\\-13&5\\end{bmatrix}$",
+    "B": "$(AB)C=A(BC)=\\begin{bmatrix}12&3\\\\-13&-5\\end{bmatrix}$",
+    "C": "$(AB)C=A(BC)=\\begin{bmatrix}7&2\\\\-2&-1\\end{bmatrix}$",
+    "D": "$(AB)C=\\begin{bmatrix}2&3\\\\-1&-5\\end{bmatrix}$ and $A(BC)=\\begin{bmatrix}12&3\\\\-13&-5\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

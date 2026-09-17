@@ -1,0 +1,30 @@
+{
+  "id": "6a8d650f70e91fe851017dc7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the domain and range of $f(x)=\\tan^{-1}\\left(\\frac{1}{x^2-1}\\right)$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b><br>The denominator must be non-zero. Thus, $x^2-1\\neq0$, which gives $x\\neq-1$ and $x\\neq1$. Hence, the domain is $\\mathbb{R}\\setminus\\{-1,1\\}$.<br><br><b>Step 2:</b><br>Let $t=\\frac{1}{x^2-1}$. Since $x^2\\geq0$, if $x^2<1$, then $x^2-1\\in[-1,0)$ and hence $t\\in(-\\infty,-1]$.<br><br><b>Step 3:</b><br>If $x^2>1$, then $x^2-1>0$, so $t\\in(0,\\infty)$. Therefore, the complete range of the inner expression is $(-\\infty,-1]\\cup(0,\\infty)$.<br><br><b>Step 4:</b><br>Since $\\tan^{-1}t$ is increasing, these intervals transform into $$\\left(-\\frac{\\pi}{2},-\\frac{\\pi}{4}\\right]\\cup\\left(0,\\frac{\\pi}{2}\\right).$$<br><br><b>Final Answer:</b><br>The domain is $\\mathbb{R}\\setminus\\{-1,1\\}$ and the range is $\\left(-\\frac{\\pi}{2},-\\frac{\\pi}{4}\\right]\\cup\\left(0,\\frac{\\pi}{2}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $\\mathbb{R}\\setminus\\{1\\}$; Range: $\\left(-\\frac{\\pi}{2},-\\frac{\\pi}{4}\\right]\\cup\\left(0,\\frac{\\pi}{2}\\right)$",
+    "B": "Domain: $\\mathbb{R}\\setminus\\{-1,1\\}$; Range: $\\left(-\\frac{\\pi}{2},-\\frac{\\pi}{4}\\right]\\cup\\left(0,\\frac{\\pi}{2}\\right)$",
+    "C": "Domain: $\\mathbb{R}\\setminus\\{-1,1\\}$; Range: $\\left(-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right)$",
+    "D": "Domain: $[-1,1]$; Range: $\\left[-\\frac{\\pi}{4},\\frac{\\pi}{4}\\right]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fe2754b490c7cde359524",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a5"
+  ],
+  "question_type": "LA",
+  "question": "Form the differential equation representing the two-parameter family $$y^2=a(b^2-x^2),$$ where $a$ and $b$ are arbitrary constants, by differentiating successively and eliminating both constants completely.",
+  "answeroption": "C",
+  "explanation": "<b>Formation of Equation</b><br>The given family is $$y^2=a(b^2-x^2).$$ It may be written as $$y^2=ab^2-ax^2.$$ Since two arbitrary constants are involved, differentiate twice.<br><br>Differentiating once with respect to $x$, $$2y\\frac{dy}{dx}=-2ax,$$ so $$y\\frac{dy}{dx}=-ax.$$<br><br>Differentiating again, $$\\left(\\frac{dy}{dx}\\right)^2+y\\frac{d^2y}{dx^2}=-a.$$ Multiplying this equation by $x$, $$x\\left[\\left(\\frac{dy}{dx}\\right)^2+y\\frac{d^2y}{dx^2}\\right]=-ax.$$ From the first derivative relation, $$-ax=y\\frac{dy}{dx}.$$ Hence, $$x\\left[\\left(\\frac{dy}{dx}\\right)^2+y\\frac{d^2y}{dx^2}\\right]=y\\frac{dy}{dx}.$$<br><br><b>Simplification</b><br>Therefore, $$x\\left(\\frac{dy}{dx}\\right)^2+xy\\frac{d^2y}{dx^2}-y\\frac{dy}{dx}=0.$$ This equation is free from both arbitrary constants $a$ and $b$.<br><br><b>Final Result</b><br>The required differential equation is $$x\\left(\\frac{dy}{dx}\\right)^2+xy\\frac{d^2y}{dx^2}-y\\frac{dy}{dx}=0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x\\left(\\frac{dy}{dx}\\right)^2-xy\\frac{d^2y}{dx^2}-y\\frac{dy}{dx}=0$",
+    "B": "$x\\left(\\frac{dy}{dx}\\right)^2+xy\\frac{d^2y}{dx^2}+y\\frac{dy}{dx}=0$",
+    "C": "$x\\left(\\frac{dy}{dx}\\right)^2+xy\\frac{d^2y}{dx^2}-y\\frac{dy}{dx}=0$",
+    "D": "$x\\frac{dy}{dx}+xy\\frac{d^2y}{dx^2}-y\\left(\\frac{dy}{dx}\\right)^2=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

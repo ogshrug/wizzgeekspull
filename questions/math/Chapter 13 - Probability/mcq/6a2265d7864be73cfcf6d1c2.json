@@ -1,0 +1,31 @@
+{
+  "id": "6a2265d7864be73cfcf6d1c2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "MCQ",
+  "question": "A box has 4 green, 8 blue and 3 red pens. A student picks up a pen at random, checks its colour and replaces it in the box. He repeats this process 3 times. The probability that at least one pen picked was red is",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Calculate the total number of pens in the box: $4 + 8 + 3 = 15$ pens.<br />**Step 2:** Determine the fundamental probability of picking a single red pen, $P(R) = \\frac{3}{15} = \\frac{1}{5}$. The probability of NOT picking a red pen is $P(R') = 1 - \\frac{1}{5} = \\frac{4}{5}$.<br />**Step 3:** The problem involves replacement, meaning each draw is an independent event. The probability of an event happening \"at least once\" is easiest found by subtracting the probability of it \"never\" happening from 1.<br />**Step 4:** Calculate the probability of never picking a red pen in all 3 attempts: $P(\\text{No red}) = P(R') \\times P(R') \\times P(R') = (\\frac{4}{5})^3 = \\frac{64}{125}$.<br />**Step 5:** Calculate the final probability of getting at least one red pen: $P(\\text{At least 1 red}) = 1 - P(\\text{No red}) = 1 - \\frac{64}{125} = \\frac{61}{125}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{124}{125}$",
+    "B": "$\\frac{1}{125}$",
+    "C": "$\\frac{61}{125}$",
+    "D": "$\\frac{64}{125}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a2278dc864be73cfcf6d1e9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e766d837c8c7efa6b8c0"
+  ],
+  "question_type": "SA",
+  "question": "The scalar product of the vector $\\vec{a}=\\hat{i}-\\hat{j}+2\\hat{k}$ with a unit vector along sum of vectors $\\vec{b}=2\\hat{i}-4\\hat{j}+5\\hat{k}$ and $\\vec{c}=\\lambda\\hat{i}-2\\hat{j}-3\\hat{k}$ is equal to 1. Find the value of $\\lambda$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the sum vector be $\\vec{s} = \\vec{b} + \\vec{c}$. Add their corresponding components: $(2+\\lambda)\\hat{i} + (-4-2)\\hat{j} + (5-3)\\hat{k} = (2+\\lambda)\\hat{i} - 6\\hat{j} + 2\\hat{k}$.<br />**Step 2:** Find the magnitude of the sum vector: $|\\vec{s}| = \\sqrt{(2+\\lambda)^2 + (-6)^2 + 2^2} = \\sqrt{\\lambda^2+4\\lambda+4 + 36 + 4} = \\sqrt{\\lambda^2+4\\lambda+44}$.<br />**Step 3:** The unit vector along $\\vec{s}$ is $\\hat{s} = \\frac{\\vec{s}}{|\\vec{s}|} = \\frac{(2+\\lambda)\\hat{i} - 6\\hat{j} + 2\\hat{k}}{\\sqrt{\\lambda^2+4\\lambda+44}}$.<br />**Step 4:** The scalar product of $\\vec{a}$ with $\\hat{s}$ is equal to 1: $\\vec{a} \\cdot \\hat{s} = 1$. Substitute $\\vec{a} = \\hat{i}-\\hat{j}+2\\hat{k}$.<br />**Step 5:** Calculate the dot product: $\\frac{1(2+\\lambda) + (-1)(-6) + 2(2)}{\\sqrt{\\lambda^2+4\\lambda+44}} = 1$.<br />**Step 6:** Simplify the numerator: $\\frac{2+\\lambda + 6 + 4}{\\sqrt{\\lambda^2+4\\lambda+44}} = \\frac{\\lambda+12}{\\sqrt{\\lambda^2+4\\lambda+44}} = 1$.<br />**Step 7:** Set numerator equal to denominator: $\\lambda+12 = \\sqrt{\\lambda^2+4\\lambda+44}$.<br />**Step 8:** Square both sides: $(\\lambda+12)^2 = \\lambda^2+4\\lambda+44 \\implies \\lambda^2+24\\lambda+144 = \\lambda^2+4\\lambda+44$.<br />**Step 9:** Cancel $\\lambda^2$ and solve for $\\lambda$: $20\\lambda = 44 - 144 = -100 \\implies \\lambda = -5$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

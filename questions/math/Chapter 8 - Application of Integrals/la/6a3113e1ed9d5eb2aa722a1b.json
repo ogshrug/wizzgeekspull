@@ -1,0 +1,27 @@
+{
+  "id": "6a3113e1ed9d5eb2aa722a1b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f994",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "Using Integration, find the area of triangle whose vertices are (-1, 1), (0, 5) and (3, 2).",
+  "answeroption": "",
+  "explanation": "**Step 1: Find the Equations of the Three Sides**  \nLet the vertices be A(-1,1), B(0,5), and C(3,2). Using the two-point form $y - y_1 = \\frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$:  \n- Side AB through (-1,1) and (0,5): slope = $\\frac{5-1}{0-(-1)} = 4$, so $y = 4x + 5$.  \n- Side BC through (0,5) and (3,2): slope = $\\frac{2-5}{3-0} = -1$, so $y = -x + 5$.  \n- Side CA through (3,2) and (-1,1): slope = $\\frac{1-2}{-1-3} = \\frac{-1}{-4} = \\frac{1}{4}$, so $y - 2 = \\frac{1}{4}(x - 3) \\Rightarrow y = \\frac{x+5}{4}$.\n\n**Step 2: Identify Upper and Lower Boundaries**  \nPlotting the vertices, the triangle is bounded between $x = -1$ and $x = 3$. For $x \\in [-1, 0]$, the upper boundary is AB: $y = 4x+5$ and lower boundary is CA: $y = \\frac{x+5}{4}$. For $x \\in [0, 3]$, the upper boundary is BC: $y = -x+5$ and lower boundary is CA: $y = \\frac{x+5}{4}$.\n\n**Step 3: Set Up the Definite Integrals**  \nArea $A = \\int_{-1}^{0} \\left[(4x+5) - \\frac{x+5}{4}\\right] dx + \\int_{0}^{3} \\left[(-x+5) - \\frac{x+5}{4}\\right] dx$.\n\n**Step 4: Simplify and Evaluate**  \nFirst integrand: $4x+5 - \\frac{x+5}{4} = \\frac{16x+20 - x - 5}{4} = \\frac{15x+15}{4} = \\frac{15}{4}(x+1)$.  \nSecond integrand: $-x+5 - \\frac{x+5}{4} = \\frac{-4x+20 - x - 5}{4} = \\frac{15-5x}{4} = \\frac{5}{4}(3-x)$.  \n$A = \\frac{15}{4} \\int_{-1}^{0} (x+1) dx + \\frac{5}{4} \\int_{0}^{3} (3-x) dx$  \n$= \\frac{15}{4} \\left[\\frac{(x+1)^2}{2}\\right]_{-1}^{0} + \\frac{5}{4} \\left[3x - \\frac{x^2}{2}\\right]_{0}^{3}$  \n$= \\frac{15}{4} \\cdot \\frac{1}{2} + \\frac{5}{4} \\cdot \\frac{9}{2} = \\frac{15}{8} + \\frac{45}{8} = \\frac{60}{8} = \\frac{15}{2}$.\n\n**Step 5: State the Final Answer**  \nThe area of the triangle is $\\boxed{\\frac{15}{2}}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

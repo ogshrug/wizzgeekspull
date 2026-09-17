@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb3724b490c7cde359453",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "VSA",
+  "question": "If $y=\\sin^{-1}(2x)$, find $\\left.\\frac{dy}{dx}\\right|_{x=\\frac{1}{4}}$.",
+  "answeroption": "A",
+  "explanation": "Step 1: The given function is of the form $y=\\sin^{-1}u$, where $u=2x$.<br>Step 2: Using the derivative relation $\\frac{d}{dx}(\\sin^{-1}u)=\\frac{u'}{\\sqrt{1-u^2}}$, we have $u'=2$.<br>Step 3: Therefore, $\\frac{dy}{dx}=\\frac{2}{\\sqrt{1-4x^2}}$.<br>Step 4: At $x=\\frac{1}{4}$, $4x^2=4\\left(\\frac{1}{16}\\right)=\\frac{1}{4}$. Hence $\\frac{dy}{dx}=\\frac{2}{\\sqrt{1-\\frac{1}{4}}}=\\frac{2}{\\sqrt{\\frac{3}{4}}}$.<br>Step 5: Thus, $\\left.\\frac{dy}{dx}\\right|_{x=\\frac{1}{4}}=\\boxed{\\frac{4}{\\sqrt{3}}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{4}{\\sqrt{3}}$",
+    "B": "$\\frac{2}{\\sqrt{3}}$",
+    "C": "$\\frac{4}{3}$",
+    "D": "$\\frac{2}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

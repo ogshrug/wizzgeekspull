@@ -1,0 +1,26 @@
+{
+  "id": "6a21421f91ff8b4d4561097c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following Linear Programming Problem graphically : Maximise $Z=600x+400y$ subject to the constraints $x+2y\\le12$, $4x+5y\\ge20$, $2x+y\\le12$, $x, y \\ge 0$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Consider the constraint $x+2y\\le12$. Its boundary line is $x+2y=12$, which passes through the points $(12,0)$ and $(0,6)$. Testing the point $(0,0)$ gives $0\\le12$, so the feasible region lies on the side containing the origin.<br /><br /><b>Step 2</b> Consider the constraint $4x+5y\\ge20$. Its boundary line is $4x+5y=20$, which passes through the points $(5,0)$ and $(0,4)$. Testing the point $(0,0)$ gives $0\\ge20$, which is false. Hence, the feasible region lies on the side opposite to the origin.<br /><br /><b>Step 3</b> Consider the constraint $2x+y\\le12$. Its boundary line is $2x+y=12$, which passes through the points $(6,0)$ and $(0,12)$. Testing the point $(0,0)$ gives $0\\le12$, which is true. Therefore, the feasible region lies on the side containing the origin. Together with $x\\ge0$ and $y\\ge0$, the feasible region is restricted to the first quadrant.<br /><br /><b>Step 4</b> Determine the corner points of the feasible region. The intersection of $x+2y=12$ and $2x+y=12$ gives $(4,4)$. The boundary points on the axes satisfying all constraints are $(5,0)$, $(6,0)$ and $(0,4)$. Thus, the vertices of the feasible region are $(5,0)$, $(6,0)$, $(4,4)$ and $(0,4)$.<br /><br /><b>Step 5</b> Evaluate the objective function $Z=600x+400y$ at each vertex. At $(5,0)$, $Z=3000$. At $(6,0)$, $Z=3600$. At $(4,4)$, $Z=600(4)+400(4)=4000$. At $(0,4)$, $Z=1600$. Therefore, the maximum value of $Z$ is $4000$, attained at the point $(4,4)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

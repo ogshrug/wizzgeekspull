@@ -1,0 +1,28 @@
+{
+  "id": "6a214f82864be73cfcf6d10a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "Mother, Father and Son line up at random for a family picture. Let events E: Son on one end and F: Father in the middle. Find $P(E/F)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The total number of possible arrangements for 3 people (M, F, S) in a line is $3! = 6$. The sample space $S = \\{(M,F,S), (M,S,F), (F,M,S), (F,S,M), (S,M,F), (S,F,M)\\}$.<br /><br />**Step 2:** Identify the outcomes for Event F (Father in the middle): $F = \\{(M,F,S), (S,F,M)\\}$. There are 2 favorable outcomes, so $P(F) = 2/6 = 1/3$.<br /><br />**Step 3:** Identify the outcomes for Event E (Son on one end): $E = \\{(S,M,F), (S,F,M), (M,F,S), (F,M,S)\\}$.<br /><br />**Step 4:** Find the intersection of events E and F, $E \\cap F$. Looking at both sets, $E \\cap F = \\{(M,F,S), (S,F,M)\\}$. There are 2 outcomes, so $P(E \\cap F) = 2/6 = 1/3$.<br /><br />**Step 5:** Calculate the conditional probability $P(E/F) = \\frac{P(E \\cap F)}{P(F)}$. Substituting the values yields $\\frac{1/3}{1/3} = 1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a214f82864be73cfcf6d109",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "SA",
+  "question": "The probability of hitting the target by a trained sniper is three times the probability of not hitting the target on a stormy day due to high wind speed. The sniper fired two shots on the target on a stormy day when wind speed was very high. Find the probability that<br /><br />**(i)** target is hit<br /><br />**(ii)** atleast one shot misses the target.",
+  "answeroption": "",
+  "explanation": "**Step 1 (part i):** Let $P(H)$ be probability of hitting and $P(M)$ be missing. Given $P(H) = 3P(M)$. Since $P(H) + P(M) = 1$, we have $3P(M) + P(M) = 1 \\implies 4P(M) = 1$. Thus $P(M) = 1/4$ and $P(H) = 3/4$.<br /><br />**Step 2 (part i):** Two independent shots are fired. The probability the target is hit at least once is $1 - P(\\text{both miss})$.<br /><br />**Step 3 (part i):** $P(\\text{both miss}) = P(M) \\times P(M) = (1/4) \\times (1/4) = 1/16$. Therefore, probability target is hit is $1 - 1/16 = 15/16$.<br /><br />**Step 1 (part ii):** We need the probability that at least one shot misses. This is the exact complement of hitting the target with both shots.<br /><br />**Step 2 (part ii):** $P(\\text{both hit}) = P(H) \\times P(H) = (3/4) \\times (3/4) = 9/16$.<br /><br />**Step 3 (part ii):** The probability that at least one misses is $1 - 9/16 = 7/16$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a214f82864be73cfcf6d109/1782193410-0.png?t=1782213211230"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

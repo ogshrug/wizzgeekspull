@@ -1,0 +1,30 @@
+{
+  "id": "6a911402751910886affba50",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During an inter-house enrichment programme, 120 Class XII students may join the Mathematics Circle, the Science Club, or both. Records show that 72 students joined the Mathematics Circle, 54 joined the Science Club, and 30 joined both groups. One student is selected at random from these 120 students for a presentation. Let $M$ denote the event that the selected student belongs to the Mathematics Circle and $S$ denote the event that the student belongs to the Science Club. The coordinator wants to examine how knowledge of one membership affects the probability of the other and whether the two events can be regarded as independent.<br><br><b>(a)</b> Find $P(M\\cap S)$.<br><br><b>(b)</b> Calculate $P(M|S)$.<br><br><b>(c)</b> Calculate $P(S|M)$.<br><br><b>(d)</b> Determine whether the events $M$ and $S$ are independent. Justify your conclusion.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>There are 30 students who belong to both groups out of 120 students.<br>Therefore, $P(M\\cap S)=\\frac{30}{120}=\\frac{1}{4}$.<br><br><b>(b)</b><br>Using conditional probability,<br>$$P(M|S)=\\frac{P(M\\cap S)}{P(S)}$$<br>Here, $P(S)=\\frac{54}{120}=\\frac{9}{20}$.<br>Therefore,<br>$$P(M|S)=\\frac{\\frac{1}{4}}{\\frac{9}{20}}=\\frac{5}{9}$$<br>Hence, the required conditional probability is $\\frac{5}{9}$.<br><br><b>(c)</b><br>Similarly,<br>$$P(S|M)=\\frac{P(S\\cap M)}{P(M)}$$<br>Now, $P(M)=\\frac{72}{120}=\\frac{3}{5}$.<br>Thus,<br>$$P(S|M)=\\frac{\\frac{1}{4}}{\\frac{3}{5}}=\\frac{5}{12}$$<br>Hence, $P(S|M)=\\frac{5}{12}$.<br><br><b>(d)</b><br>For independence, we require $P(M\\cap S)=P(M)P(S)$.<br>Now,<br>$$P(M)P(S)=\\frac{3}{5}\\times\\frac{9}{20}=\\frac{27}{100}$$<br>But,<br>$$P(M\\cap S)=\\frac{1}{4}=\\frac{25}{100}$$<br>Since $\\frac{25}{100}\\neq\\frac{27}{100}$, the events $M$ and $S$ are not independent.<br>Equivalently, $P(M|S)=\\frac{5}{9}\\neq\\frac{3}{5}=P(M)$, showing that information about membership of the Science Club changes the probability of membership of the Mathematics Circle.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{1}{4}$<br>(b) $\\frac{5}{9}$<br>(c) $\\frac{5}{12}$<br>(d) $M$ and $S$ are not independent",
+    "B": "(a) $\\frac{1}{4}$<br>(b) $\\frac{3}{5}$<br>(c) $\\frac{9}{20}$<br>(d) $M$ and $S$ are independent",
+    "C": "(a) $\\frac{3}{10}$<br>(b) $\\frac{5}{9}$<br>(c) $\\frac{5}{12}$<br>(d) $M$ and $S$ are independent",
+    "D": "(a) $\\frac{9}{20}$<br>(b) $\\frac{1}{4}$<br>(c) $\\frac{3}{5}$<br>(d) $M$ and $S$ are not independent"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

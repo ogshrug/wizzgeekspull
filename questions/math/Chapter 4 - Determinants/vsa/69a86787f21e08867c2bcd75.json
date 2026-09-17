@@ -1,0 +1,29 @@
+{
+  "id": "69a86787f21e08867c2bcd75",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A = \\begin{pmatrix}1&2&3\\\\0&a&4\\\\0&0&b\\end{pmatrix}$, show that $|A| = ab$.",
+  "answeroption": "C",
+  "explanation": "$A$ is upper triangular.<br /><br />Determinant is product of diagonal entries:<br /><br />$|A| = 1\\cdot a \\cdot b = ab$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ is lower triangular, so $|A|=1+2+3+a+4+b=10+a+b$.",
+    "B": "$A$ is upper triangular, so $|A|$ is the sum of diagonal entries, hence $|A|=1+a+b$.",
+    "C": "$A$ is upper triangular, so its determinant is the product of diagonal entries: $|A|=1\\cdot a\\cdot b=ab$.",
+    "D": "$A$ has two zero entries, so its determinant is always $0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:10:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

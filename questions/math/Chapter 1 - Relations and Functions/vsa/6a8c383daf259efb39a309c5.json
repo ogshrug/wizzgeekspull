@@ -1,0 +1,29 @@
+{
+  "id": "6a8c383daf259efb39a309c5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d41"
+  ],
+  "question_type": "VSA",
+  "question": "For $A=\\{1,2,3\\}$, consider the relation $R=\\{(1,2),(2,1),(2,3),(3,3)\\}$. Determine the minimum number of ordered pairs that must be added to make $R$ symmetric.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> A relation is symmetric when $(a,b)\\in R$ implies $(b,a)\\in R$.<br><b>Step 2:</b> Since $(1,2)$ and $(2,1)$ are both present, these pairs already satisfy the symmetry requirement.<br><b>Step 3:</b> The pair $(3,3)$ is its own reverse and therefore requires no additional ordered pair.<br><b>Step 4:</b> Since $(2,3)\\in R$, symmetry requires $(3,2)\\in R$ also.<br><b>Step 5:</b> This is the only missing reverse pair.<br><b>Final Answer:</b> Only $(3,2)$ must be added. Hence, the minimum number of ordered pairs required is $\\boxed{1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$3$",
+    "C": "$0$",
+    "D": "$2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

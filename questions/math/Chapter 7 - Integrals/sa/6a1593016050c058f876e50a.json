@@ -1,0 +1,24 @@
+{
+  "id": "6a1593016050c058f876e50a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int \\frac{\\sin x}{\\sin(x-2a)} \\, dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Apply a variable substitution**<br />To simplify the denominator, let $x - 2a = t$. This gives $dx = dt$ and allows us to isolate $x$ as $x = t + 2a$. Substituting these variables into our integral expression:<br />$I = \\int \\frac{\\sin(t + 2a)}{\\sin t} \\, dt$<br /><br />**Step 2: Expand the numerator using trigonometric identities**<br />Using the standard identity $\\sin(A + B) = \\sin A\\cos B + \\cos A\\sin B$, we expand the numerator:<br />$I = \\int \\frac{\\sin t\\cos 2a + \\cos t\\sin 2a}{\\sin t} \\, dt$<br /><br />**Step 3: Separate the expression into individual fractional components**<br />$I = \\int \\left( \\frac{\\sin t\\cos 2a}{\\sin t} + \\frac{\\cos t\\sin 2a}{\\sin t} \\right) \\, dt = \\int (\\cos 2a + \\sin 2a \\cdot \\cot t) \\, dt$<br />Since $2a$ acts as a constant parameter, $\\cos 2a$ and $\\sin 2a$ are treated as constants during integration:<br />$I = \\cos 2a \\int 1 \\, dt + \\sin 2a \\int \\cot t \\, dt$<br /><br />**Step 4: Perform integration and substitute back to find the final answer**<br />Integrating each term gives:<br />$I = t \\cdot \\cos 2a + \\sin 2a \\cdot \\log|\\sin t| + C$<br />Now replace $t$ with $(x - 2a)$ to convert the equation back to our original variable $x$:<br />$I = (x - 2a)\\cos 2a + \\sin 2a \\cdot \\log|\\sin(x - 2a)| + C$<br />$I = x\\cos 2a - 2a\\cos 2a + \\sin 2a \\cdot \\log|\\sin(x - 2a)| + C$<br />Since $-2a\\cos 2a$ is a constant, it can be absorbed into the integration constant $C$, giving our final answer:<br />$I = x\\cos 2a + \\sin 2a \\cdot \\log|\\sin(x - 2a)| + C'$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8f005bbe0ecc7866e90c1e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97b",
+    "6a13e98f8c819562f933f97c",
+    "6a13e98f8c819562f933f97e"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics group studies the curve $x^2+xy+y^2=7$ at the points $P(1,2)$ and $Q(2,1)$. The group uses implicit differentiation because the curve is not initially expressed with $y$ as a function of $x$. They interpret the derivative at each point as the slope of the corresponding tangent and then compare the two tangent lines. The equations are finally used to locate the point at which the tangents intersect.(a) Verify that $P$ and $Q$ lie on the curve.(b) Obtain $\\frac{dy}{dx}$ in terms of $x$ and $y$.(c) Determine the slopes and equations of the tangents at $P$ and $Q$.(d) Find the point of intersection of the two tangents and interpret the unequal derivative values geometrically.",
+  "answeroption": "B",
+  "explanation": "(a)At $P(1,2)$,`x^2+xy+y^2=(1)^2+(1)(2)+(2)^2=1+2+4=7`At $Q(2,1)$,`x^2+xy+y^2=(2)^2+(2)(1)+(1)^2=4+2+1=7`Therefore, both points lie on the curve.(b)Differentiating $x^2+xy+y^2=7$ implicitly,`2x+x\\frac{dy}{dx}+y+2y\\frac{dy}{dx}=0`Collecting the derivative terms,`\\left(x+2y\\right)\\frac{dy}{dx}=-(2x+y)`Therefore,`\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}`(c)At $P(1,2)$, the slope is`m_P=-\\frac{2(1)+2}{1+2(2)}=-\\frac{4}{5}`The tangent at $P$ is`y-2=-\\frac{4}{5}(x-1)`or`4x+5y-14=0`At $Q(2,1)$, the slope is`m_Q=-\\frac{2(2)+1}{2+2(1)}=-\\frac{5}{4}`The tangent at $Q$ is`y-1=-\\frac{5}{4}(x-2)`or`5x+4y-14=0`(d)The intersection satisfies`4x+5y=14`and`5x+4y=14`Subtracting the equations gives`x-y=0`Thus, $x=y$. Substituting into either equation,`9x=14`Therefore, the point of intersection is`\\left(\\frac{14}{9},\\frac{14}{9}\\right)`The derivatives $-\\frac{4}{5}$ and $-\\frac{5}{4}$ are unequal, so the curve has different instantaneous directions at $P$ and $Q$. Consequently, the tangent lines are distinct and meet at the obtained point.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Both points satisfy the curve<br>(b) $\\frac{dy}{dx}=-\\frac{x+2y}{2x+y}$<br>(c) Slopes at $P,Q$ are $-\\frac{5}{4},-\\frac{4}{5}$; tangents $5x+4y-13=0$ and $4x+5y-13=0$<br>(d) Intersection $\\left(\\frac{13}{9},\\frac{13}{9}\\right)$",
+    "B": "(a) Both points satisfy the curve<br>(b) $\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}$<br>(c) Slopes at $P,Q$ are $-\\frac{4}{5},-\\frac{5}{4}$; tangents $4x+5y-14=0$ and $5x+4y-14=0$<br>(d) Intersection $\\left(\\frac{14}{9},\\frac{14}{9}\\right)$; unequal slopes give distinct tangents",
+    "C": "(a) Only $P$ satisfies the curve<br>(b) $\\frac{dy}{dx}=-\\frac{2x-y}{x-2y}$<br>(c) Slopes are $\\frac{4}{3},\\frac{3}{4}$<br>(d) The tangents are parallel and have no intersection",
+    "D": "(a) Both points satisfy the curve<br>(b) $\\frac{dy}{dx}=\\frac{2x+y}{x+2y}$<br>(c) Slopes at $P,Q$ are $\\frac{4}{5},\\frac{5}{4}$; tangents $4x-5y+6=0$ and $5x-4y-6=0$<br>(d) Intersection $(2,2)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

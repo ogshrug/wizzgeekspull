@@ -1,0 +1,33 @@
+{
+  "id": "6a214bcf864be73cfcf6d0dc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "MCQ",
+  "question": "A relation $R$ on set $A=\\{1,2,3\\}$ defined as $R=\\{(1,1), (2, 2), (1, 2)\\}$ is",
+  "answeroption": "D",
+  "explanation": "**Step 1:** To test for reflexivity, every element $a \\in A$ must have $(a,a) \\in R$. Since $(3,3) \\notin R$, the relation is not reflexive.<br /><br />**Step 2:** To test for symmetry, if $(a,b) \\in R$, then $(b,a)$ must be in $R$. We see $(1,2) \\in R$ but $(2,1) \\notin R$, so it is not symmetric.<br /><br />**Step 3:** To test for transitivity, if $(a,b)$ and $(b,c) \\in R$, then $(a,c) \\in R$. The pairs present do not violate this condition, making it transitive only.",
+  "explanation_image": [],
+  "options": {
+    "A": "Reflexive only",
+    "B": "Reflexive and Transitive",
+    "C": "Symmetric and Transitive",
+    "D": "Transitive only"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

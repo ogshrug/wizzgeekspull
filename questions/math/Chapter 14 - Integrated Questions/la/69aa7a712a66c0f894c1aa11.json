@@ -1,0 +1,30 @@
+{
+  "id": "69aa7a712a66c0f894c1aa11",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7d",
+    "6a13eb338c819562f933f991"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\cos^{-1}\\left(\\frac{x}{2}\\right)$. \n(a) Using calculus, find $f'(x)$ and state the domain.\n(b) Consider the region under the curve $f(x)$ from $x=0$ to $x=1$. Compute the exact area using definite integrals.\n(c) Suppose $y = \\cos^{-1}(x/2)$ and $z = \\sin^{-1}(x/2)$. Show that $y + z$ is a constant and analyze its value for $x$ in the allowed domain.",
+  "answeroption": "A",
+  "explanation": "(a) $f(x) = \\cos^{-1}(x/2)$<br />Domain: $-2 \\leq x \\leq 2$<br />Derivative:<br />$f'(x) = \\frac{d}{dx} \\cos^{-1} (x/2) = -\\frac{1}{\\sqrt{1 - (x/2)^2}} \\cdot \\frac{1}{2}$<br />$= -\\frac{1}{2\\sqrt{1 - x^2/4}} = -\\frac{1}{2\\sqrt{\\frac{4 - x^2}{4}}}$<br />$= -\\frac{1}{2} \\cdot \\frac{2}{\\sqrt{4 - x^2}} = -\\frac{1}{\\sqrt{4 - x^2}}$<br /><br />(b) Area $A = \\int_0^1 \\cos^{-1}\\left(\\frac{x}{2}\\right) dx$<br />Let $I = \\int_0^1 \\cos^{-1}\\left(\\frac{x}{2}\\right) dx$<br />Using integration by parts:<br />Let $u = \\cos^{-1}(x/2)$, $dv = dx$<br />$du = -\\frac{1}{\\sqrt{4 - x^2}} dx$, $v = x$<br />$I = x\\cos^{-1}(x/2) \\Big|_0^1 + \\int_0^1 \\frac{x}{\\sqrt{4 - x^2}} dx$<br />Let $J = \\int_0^1 \\frac{x}{\\sqrt{4 - x^2}} dx$<br />Let $w = 4 - x^2$, $dw = -2x dx$<br />When $x=0, w=4$, $x=1, w=3$<br />$J = -\\frac{1}{2} \\int_{4}^{3} \\frac{1}{\\sqrt{w}} dw = \\frac{1}{2}\\int_{3}^{4} w^{-1/2} dw$<br />$= \\frac{1}{2} [2w^{1/2}]_{3}^{4} = [w^{1/2}]_3^4 = 2-\\sqrt{3}$<br />Also $x\\cos^{-1}(x/2) \\Big|_0^1 = \\cos^{-1}(1/2) = \\frac{\\pi}{3}$<br />Thus $I = \\frac{\\pi}{3} + (2-\\sqrt{3}) = 2 + \\frac{\\pi}{3} - \\sqrt{3}$<br /><br />(c) $y = \\cos^{-1}(x/2)$ and $z = \\sin^{-1}(x/2)$<br />Using identity $\\sin^{-1} a + \\cos^{-1} a = \\frac{\\pi}{2}$ for $a \\in [-1,1]$<br />Here $a = x/2$ so $x \\in [-2,2]$<br />Thus $y + z = \\frac{\\pi}{2}$ which is constant in the allowed domain.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain: $[-2,2]$, and $f'(x)=-\\frac{1}{\\sqrt{4-x^2}}$ for $-2<x<2$<br />(b) Area $=2+\\frac{\\pi}{3}-\\sqrt3$<br />(c) $y+z=\\frac{\\pi}{2}$ for $x\\in[-2,2]$",
+    "B": "(a) Domain: $[-1,1]$, and $f'(x)=\\frac{1}{\\sqrt{4-x^2}}$<br />(b) Area $=2-\\frac{\\pi}{3}-\\sqrt3$<br />(c) $y+z=\\pi$",
+    "C": "(a) Domain: $[0,2]$, and $f'(x)=-\\frac{2}{\\sqrt{4-x^2}}$<br />(b) Area $=\\frac{\\pi}{3}-2+\\sqrt3$<br />(c) $y+z=0$",
+    "D": "(a) Domain: $(-2,2)$ only, and $f'(x)=\\frac{1}{2\\sqrt{1-x^2/4}}$<br />(b) Area $=\\frac{\\pi}{6}+2-\\sqrt3$<br />(c) $y+z=\\frac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:55:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

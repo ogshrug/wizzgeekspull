@@ -1,0 +1,29 @@
+{
+  "id": "69aa7839aff2be72fd28eb88",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A furniture maker produces tables and chairs. One table requires 2 hours carpentry and 1 hour painting; one chair requires 1 hour carpentry and 1 hour painting. Carpentry shop hours available per day = 8; painting shop = 5. At least 1 table must be produced daily; at least 2 chairs. Profit per table is ₹100, per chair ₹50.<br /><br />(a) Write the LPP.<br /><br />(b) Graph the feasible region and label corners.<br /><br />(c) State and justify the number of tables and chairs for maximum daily profit.",
+  "answeroption": "D",
+  "explanation": "Let $x =$ tables, $y =$ chairs.<br /><br />(a) LPP:<br /><br />Maximize $Z=100x+50y$<br /><br />Subject to:<br /><br />$2x+y\\leq8$<br /><br />$x+y\\leq5$<br /><br />$x\\geq1$, $y\\geq2$<br /><br />(b) $2x+y=8\\implies y=8-2x$<br /><br />$x+y=5\\implies y=5-x$<br /><br />Lines $x=1$, $y=2$.<br /><br />1. Intersect $2x+y=8$ and $x+y=5$:<br /><br />$2x+y=8$<br /><br />$x+y=5\\implies y=5-x$<br /><br />Plug in:<br /><br />$2x+5-x=8\\implies x=8-5=3, y=5-3=2$. So $(3,2)$<br /><br />2. $x=1$ in $2x+y=8$: $2*1+y=8\\implies y=6\\implies(1,6)$<br /><br />3. $x=1$, $x+y=5$: $1+y=5\\implies y=4\\implies(1,4)$<br /><br />4. $y=2$ in $2x+y=8$: $2x+2=8\\implies2x=6\\implies x=3\\implies(3,2)$<br /><br />5. $y=2$, $x+y=5$: $x+2=5\\implies x=3\\implies(3,2)$<br /><br />Now test which are within all constraints:<br /><br />At $(3,2)$: $2*3+2=6+2=8\\leq8$, $3+2=5\\leq5$, $x\\geq1,y\\geq2$ ok.<br /><br />At $(1,4)$: $2+4=6\\leq8$, $1+4=5\\leq5$,$x\\geq1, y\\geq2$ ok.<br /><br />At $(1,6)$: $2+6=8$, $1+6=7>5$ — not ok.<br /><br />(c) $Z$ at $(3,2)$: $100*3+50*2=300+100=400$<br /><br />At $(1,4)$: $100+200=300$<br /><br />Highest at $\\boxed{3}$ tables, $\\boxed{2}$ chairs ($Z=400$).",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Maximize $Z=100x+50y$, subject to $2x+y\\leq8$, $x+y\\leq5$, $x\\geq1$, $y\\geq2$<br />(b) Corners: $(1,4)$ and $(3,2)$<br />(c) Produce 1 table and 4 chairs; maximum profit ₹300.",
+    "B": "(a) Maximize $Z=100x+50y$, subject to $2x+y\\leq8$, $x+y\\leq5$, $x\\geq1$, $y\\geq2$<br />(b) Corners: $(1,6)$ and $(3,2)$<br />(c) Produce 1 table and 6 chairs; maximum profit ₹400.",
+    "C": "(a) Maximize $Z=100x+50y$, subject to $2x+y\\leq8$, $x+y\\leq5$, $x\\geq1$, $y\\geq2$<br />(b) Corners: $(1,4)$ and $(3,2)$<br />(c) Produce 2 tables and 3 chairs; maximum profit ₹350.",
+    "D": "(a) Maximize $Z=100x+50y$, subject to $2x+y\\leq8$, $x+y\\leq5$, $x\\geq1$, $y\\geq2$<br />(b) Corners: $(1,4)$ and $(3,2)$<br />(c) Produce 3 tables and 2 chairs; maximum profit ₹400."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:46:17 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

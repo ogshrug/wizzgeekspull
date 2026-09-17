@@ -1,0 +1,28 @@
+{
+  "id": "6a265c16850cc99714b54f24",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{\\frac{\\pi}{4}}\\frac{x\\,dx}{1+\\cos 2x+\\sin 2x}$.",
+  "answeroption": "$\\frac{\\pi}{16}\\log 2$",
+  "explanation": "<b>Step 1</b> Use the identities $1+\\cos2x=2\\cos^2x$ and $\\sin2x=2\\sin x\\cos x$. Thus the denominator becomes $2\\cos^2x(1+\\tan x)$.<br /><br /><b>Step 2</b> Rewrite the integral as $\\frac{1}{2}\\int_{0}^{\\frac{\\pi}{4}}\\frac{x\\sec^2x}{1+\\tan x}\\,dx$. Apply integration by parts with $u=x$ and $dv=\\frac{\\sec^2x}{1+\\tan x}dx$, giving $v=\\log(1+\\tan x)$.<br /><br /><b>Step 3</b> Using integration by parts, $I=\\frac{1}{2}\\left[x\\log(1+\\tan x)\\right]_0^{\\frac{\\pi}{4}}-\\frac{1}{2}\\int_0^{\\frac{\\pi}{4}}\\log(1+\\tan x)dx$. The boundary term equals $\\frac{\\pi}{8}\\log2$.<br /><br /><b>Step 4</b> Using the standard result $\\int_0^{\\frac{\\pi}{4}}\\log(1+\\tan x)dx=\\frac{\\pi}{8}\\log2$, we obtain $I=\\frac{\\pi}{8}\\log2-\\frac{1}{2}\\left(\\frac{\\pi}{8}\\log2\\right)=\\frac{\\pi}{16}\\log2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a98b1fd8e9ca3b293457b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let '$\\mathbb{N}$' be set of all natural numbers. '$R$' be a relation on $\\mathbb{N} \\times \\mathbb{N}$: $(a,b) R (c,d) \\leftrightarrow ad(b+c) = bc(a+d)$. Check if '$R$' is equivalence on $\\mathbb{N} \\times \\mathbb{N}$.",
+  "answeroption": "D",
+  "explanation": "The relation is defined by $(a,b)R(c,d)$ if $ad(b+c) = bc(a+d)$.<br /><br />Reflexive: For $(a,b)$, we have $ad(b+c)$ becomes $ab(a+b)$ and $bc(a+d)$ becomes $ab(a+b)$. Hence $(a,b)R(a,b)$ and the relation is reflexive.<br /><br />Symmetric: If $(a,b)R(c,d)$ then $ad(b+c)=bc(a+d)$. Interchanging the pairs gives $cb(d+a)=da(c+b)$ which is the same equality. Hence the relation is symmetric.<br /><br />Transitive: Suppose $(a,b)R(c,d)$ and $(c,d)R(e,f)$. From these relations we cannot necessarily derive $af(b+e)=be(a+f)$. Thus the required equality does not always hold.<br /><br />Hence the relation is not transitive.<br /><br />Therefore $R$ is reflexive and symmetric but not transitive, so it is not an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is reflexive, symmetric and transitive; hence it is an equivalence relation",
+    "B": "$R$ is not reflexive, but it is symmetric and transitive; hence it is not an equivalence relation",
+    "C": "$R$ is reflexive and transitive but not symmetric; hence it is not an equivalence relation",
+    "D": "$R$ is reflexive and symmetric but not transitive; hence it is not an equivalence relation"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:54:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

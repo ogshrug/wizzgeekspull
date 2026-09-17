@@ -1,0 +1,30 @@
+{
+  "id": "6a8d82cd65f47a3d0ecf0f29",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Consider the function $f:\\mathbb{R}\\to\\{y\\in\\mathbb{R}:-1<y<1\\}$ defined by $f(x)=\\frac{x}{1+|x|}$. Establish that $f$ is one-one and onto.",
+  "answeroption": "A",
+  "explanation": "<b>Form of the function</b><br>For $x\\geq0$, $|x|=x$, so $$f(x)=\\frac{x}{1+x}$$ For $x<0$, $|x|=-x$, so $$f(x)=\\frac{x}{1-x}$$<br><br><b>Verification of one-one property</b><br>Suppose $f(x_1)=f(x_2)$. If $x_1,x_2\\geq0$, then $$\\frac{x_1}{1+x_1}=\\frac{x_2}{1+x_2}$$ Cross multiplication gives $$x_1+x_1x_2=x_2+x_1x_2\\Rightarrow x_1=x_2$$ If $x_1,x_2<0$, then $$\\frac{x_1}{1-x_1}=\\frac{x_2}{1-x_2}$$ Therefore, $$x_1-x_1x_2=x_2-x_1x_2\\Rightarrow x_1=x_2$$ If one of $x_1,x_2$ is non-negative and the other is negative, their images have different signs, except that $f(0)=0$ and no negative input has image $0$. Hence, equality of images is impossible in this case. Therefore, $f(x_1)=f(x_2)$ always implies $x_1=x_2$, and $f$ is one-one.<br><br><b>Verification of onto property</b><br>Let $y\\in\\mathbb{R}$ with $-1<y<1$. If $0\\leq y<1$, choose $$x=\\frac{y}{1-y}$$ Then $x\\geq0$ and $$f(x)=\\frac{\\frac{y}{1-y}}{1+\\frac{y}{1-y}}=y$$ If $-1<y<0$, choose $$x=\\frac{y}{1+y}$$ Then $x<0$, so $|x|=-x$. Therefore, $$f(x)=\\frac{x}{1-x}=\\frac{\\frac{y}{1+y}}{1-\\frac{y}{1+y}}=y$$ Thus, every $y$ satisfying $-1<y<1$ has a pre-image in $\\mathbb{R}$. Hence, $f$ is onto.<br><br><b>Final Result</b><br>The function $f(x)=\\frac{x}{1+|x|}$ is both one-one and onto from $\\mathbb{R}$ to $\\{y\\in\\mathbb{R}:-1<y<1\\}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is both one-one and onto. For $0\\leq y<1$, a pre-image is $x=\\frac{y}{1-y}$, while for $-1<y<0$, a pre-image is $x=\\frac{y}{1+y}$.",
+    "B": "$f$ is one-one but not onto because neither $-1$ nor $1$ has a pre-image in the domain.",
+    "C": "$f$ is onto but not one-one because positive and negative inputs can have the same image.",
+    "D": "$f$ is neither one-one nor onto because its range is $[0,1)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

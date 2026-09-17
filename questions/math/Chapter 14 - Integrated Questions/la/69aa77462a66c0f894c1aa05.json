@@ -1,0 +1,30 @@
+{
+  "id": "69aa77462a66c0f894c1aa05",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = x^3 - 3x + 1$.\n\n(a) Find all local maxima and minima.\n\n(b) Prove whether $f$ is strictly increasing/decreasing in any interval and relate this to the solution set of $f'(x) > 0$.\n\n(c) Consider $g(x) = f(x) + a$ for some constant $a$. If $a$ is chosen such that $g(x)$ has a local minimum at $x=1$, find the required value of $a$ and verify your answer.",
+  "answeroption": "B",
+  "explanation": "**Concepts tested:** Application of derivatives, critical points, increasing/decreasing functions, use of first and second derivative tests, effect of shifting functions.<br /><br />(a) $f(x) = x^3 - 3x + 1$<br />First derivative:<br />$f'(x) = 3x^2 - 3$<br />Set $f'(x) = 0$:<br />$3x^2 - 3 = 0 \\implies x^2 = 1 \\implies x = 1, -1$<br /><br />Second derivative:<br />$f''(x) = 6x$<br />At $x=1$, $f''(1) = 6 > 0$ so $x=1$ is a local minimum.<br />At $x=-1$, $f''(-1) = -6 < 0$ so $x=-1$ is a local maximum.<br /><br />Max at $x=-1$; min at $x=1$.<br /><br />(b) For $f$ to be strictly increasing:<br />$f'(x) > 0 \\implies 3x^2 - 3 > 0 \\implies x^2 > 1 \\implies x > 1$ or $x < -1$<br />So $f$ is strictly increasing for $(-\\infty, -1)$ and $(1, \\infty)$, strictly decreasing for $(-1, 1)$.<br />Thus, the behaviour of $f$ is governed by the sign of $f'(x)$.<br /><br />(c) $g(x) = f(x) + a = x^3 - 3x + 1 + a$<br />To have a local minimum at $x=1$:<br />$g'(x) = f'(x) = 3x^2 - 3$. At $x=1$, $g'(1) = 0$ (already holds).<br />Now check $g''(x) = f''(x) = 6x$, $g''(1) = 6 > 0$; so $x=1$ is a local minimum for any $a$.<br />But the value of $a$ does not affect the position of the minimum, only its height. So $a$ can be any real number, and $g(x)$ will always have a local minimum at $x=1$ if $x=1$ is a stationary point.<br />To verify, $g'(1) = 0$ and $g''(1) = 6 > 0$. Yes, $x=1$ is a minimum for any $a$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Local maximum at $x=1$ and local minimum at $x=-1$<br />(b) $f$ is increasing on $(-1,1)$ and decreasing on $(-\\infty,-1)\\cup(1,\\infty)$<br />(c) Required value is $a=0$ only",
+    "B": "(a) Local maximum at $x=-1$ and local minimum at $x=1$<br />(b) $f$ is strictly increasing on $(-\\infty,-1)$ and $(1,\\infty)$, and strictly decreasing on $(-1,1)$<br />(c) $a$ can be any real number because vertical shifting does not change the position of the local minimum",
+    "C": "(a) Local maxima occur at both $x=-1$ and $x=1$<br />(b) $f$ is strictly increasing for all real $x$<br />(c) Required value is $a=-1$",
+    "D": "(a) There are no local maxima or minima<br />(b) $f'(x)>0$ has no solution<br />(c) No value of $a$ can make $x=1$ a local minimum"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:42:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

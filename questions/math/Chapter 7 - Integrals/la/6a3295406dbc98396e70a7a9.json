@@ -1,0 +1,26 @@
+{
+  "id": "6a3295406dbc98396e70a7a9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "LA",
+  "question": "Find: $\\int\\frac{dx}{\\sin x+\\sin 2x}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Expand the denominator using the double-angle identity: $\\sin x+\\sin 2x=\\sin x(1+2\\cos x)$. Multiplying numerator and denominator by $\\sin x$ gives $\\int\\frac{\\sin x}{\\sin^2 x(1+2\\cos x)}\\,dx=\\int\\frac{\\sin x}{(1-\\cos^2 x)(1+2\\cos x)}\\,dx$.<br /><br />**Step 2:** Let $t=\\cos x$. Then $dt=-\\sin x\\,dx$, and the integral becomes $\\int\\frac{-dt}{(1-t^2)(1+2t)}=\\int\\frac{dt}{(t-1)(t+1)(2t+1)}$.<br /><br />**Step 3:** Resolve into partial fractions: $\\frac{1}{(t-1)(t+1)(2t+1)}=\\frac{A}{t-1}+\\frac{B}{t+1}+\\frac{C}{2t+1}$. Solving gives $A=\\frac{1}{6}$, $B=\\frac{1}{2}$ and $C=-\\frac{4}{3}$.<br /><br />**Step 4:** Integrating term-by-term and substituting back $t=\\cos x$ gives $\\frac{1}{6}\\ln\\left|1-\\cos x\\right|+\\frac{1}{2}\\ln\\left|1+\\cos x\\right|-\\frac{2}{3}\\ln\\left|2\\cos x+1\\right|+C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

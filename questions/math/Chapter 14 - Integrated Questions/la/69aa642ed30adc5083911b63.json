@@ -1,0 +1,30 @@
+{
+  "id": "69aa642ed30adc5083911b63",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7d",
+    "6a13e98f8c819562f933f97c"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\cos^{-1}(x)$ for $x \\in [-1,1]$.\n\n(a) Prove that $f$ is continuous on $[-1,1]$ and differentiable on $(-1,1)$.\n\n(b) Find all points of maxima and minima of $f(x)$ in $(-1,1)$.\n\n(c) Write the equation of tangent to $y=f(x)$ at $x=0$.\n\n(d) If $g(x) = \\det\\begin{bmatrix} x & 1 \\\\ 1 & f(x) \\end{bmatrix}$, compute $g(0)$ and $g(1)$.\n\n(e) For which $x$ in $[-1,1]$ is $g(x)$ minimum?",
+  "answeroption": "B",
+  "explanation": "**Concepts Tested:** Inverse Trigonometric Functions, Differentiability, Determinants, Application of Derivatives.<br /><br />(a) $f(x)$ is continuous on $[-1,1]$ and differentiable on $(-1,1)$ (PDF property of inverse trig).<br /><br />(b) $f'(x) = -\\frac{1}{\\sqrt{1-x^2}}$. No critical points in $(-1,1)$. $f$ is decreasing.<br /><br />So minimum at $x=1$ ($f(1)=0$), maximum at $x=-1$ ($f(-1)=\\pi$) but endpoints.<br /><br />(c) $f(0)=\\frac{\\pi}{2}$, $f'(0)=-1$. So tangent at $(0,\\frac{\\pi}{2})$:<br /><br />$y - \\frac{\\pi}{2} = -1(x-0) \\implies y = -x + \\frac{\\pi}{2}$<br /><br />(d) $g(0)=\\det\\begin{bmatrix} 0 & 1 \\\\ 1 & \\frac{\\pi}{2} \\end{bmatrix}=0\\cdot\\frac{\\pi}{2} - 1\\cdot1 = -1$<br /><br />$g(1)=\\det\\begin{bmatrix} 1 & 1 \\\\ 1 & 0 \\end{bmatrix}=1\\cdot0-1\\cdot1=-1$<br /><br />(e) $g(x)=x f(x)-1$, $f(x)$ is decreasing, $x$ increases. Minimum of $g(x)$ at maximum $x$ and minimum $f(x)$. Since $g(x)$ is continuous, check boundary points.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is discontinuous at $x=0$<br />(b) $f$ has a local maximum at $x=0$<br />(c) Tangent is $y=x+\\frac{\\pi}{2}$<br />(d) $g(0)=1$, $g(1)=1$<br />(e) $g$ is minimum at $x=0$",
+    "B": "(a) $f$ is continuous on $[-1,1]$ and differentiable on $(-1,1)$<br />(b) $f'(x)=-\\frac{1}{\\sqrt{1-x^2}}$, so there are no interior maxima or minima in $(-1,1)$; endpoint maximum is at $x=-1$ and endpoint minimum is at $x=1$<br />(c) Tangent at $x=0$ is $y=-x+\\frac{\\pi}{2}$<br />(d) $g(0)=-1$ and $g(1)=-1$<br />(e) Checking boundaries for $g(x)=x\\cos^{-1}x-1$, the minimum occurs at $x=-1$",
+    "C": "(a) $f$ is differentiable on $[-1,1]$ including endpoints<br />(b) $f$ has minimum at $x=0$<br />(c) Tangent is $y=\\frac{\\pi}{2}$<br />(d) $g(0)=0$, $g(1)=0$<br />(e) $g$ is minimum at $x=1$ only",
+    "D": "(a) $f$ is not differentiable anywhere<br />(b) Every point is a critical point<br />(c) Tangent does not exist<br />(d) $g(0)=\\frac{\\pi}{2}$, $g(1)=0$<br />(e) $g$ has no minimum"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:20:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

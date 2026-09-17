@@ -1,0 +1,31 @@
+{
+  "id": "6a9001514b490c7cde359532",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f994"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "For a school mathematics exhibition, a backdrop is designed so that its upper edge is represented by the straight line $y=2+\\frac{x}{2}$ for $0\\leq x\\leq4$, where both coordinates are measured in metres. The lower edge lies along the $x$-axis, and vertical supports are placed at $x=0$, $x=2$ and $x=4$. The students use definite integration to calculate the amount of material required and to compare the portions on either side of the middle support.(a) Find the heights of the backdrop at $x=0$ and $x=4$.(b) Calculate the total area of the backdrop.(c) Determine the area lying between $x=0$ and $x=2$.(d) Calculate the area between $x=2$ and $x=4$ and determine its ratio to the area found in part (c).",
+  "answeroption": "C",
+  "explanation": "(a)At $x=0$,`y=2+\\frac{0}{2}=2`At $x=4$,`y=2+\\frac{4}{2}=4`Therefore, the endpoint heights are $2$ metres and $4$ metres.(b)The total area is`A=\\int_0^4\\left(2+\\frac{x}{2}\\right)dxA=\\left[2x+\\frac{x^2}{4}\\right]_0^4A=8+4=12`Hence, the total area of the backdrop is $12$ square metres.(c)The area between $x=0$ and $x=2$ is`A_1=\\int_0^2\\left(2+\\frac{x}{2}\\right)dxA_1=\\left[2x+\\frac{x^2}{4}\\right]_0^2=4+1=5`Thus, the required area is $5$ square metres.(d)The area between $x=2$ and $x=4$ is`A_2=A-A_1=12-5=7`Therefore, the required ratio is`A_2:A_1=7:5`The second portion is larger because the height of the increasing straight line is greater throughout $[2,4]$ than throughout $[0,2]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Heights $2$ m and $4$ m<br>(b) Total area $10$ m$^2$<br>(c) Area $=5$ m$^2$<br>(d) Area $=5$ m$^2$; ratio $1:1$",
+    "B": "(a) Heights $2$ m and $4$ m<br>(b) Total area $12$ m$^2$<br>(c) Area $=7$ m$^2$<br>(d) Area $=5$ m$^2$; ratio $5:7$",
+    "C": "(a) Heights $2$ m and $4$ m<br>(b) Total area $12$ m$^2$<br>(c) Area $=5$ m$^2$<br>(d) Area $=7$ m$^2$; ratio $7:5$",
+    "D": "(a) Heights $2$ m and $3$ m<br>(b) Total area $10$ m$^2$<br>(c) Area $=4$ m$^2$<br>(d) Area $=6$ m$^2$; ratio $3:2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

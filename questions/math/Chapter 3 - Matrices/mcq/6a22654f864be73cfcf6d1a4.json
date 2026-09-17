@@ -1,0 +1,34 @@
+{
+  "id": "6a22654f864be73cfcf6d1a4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d56"
+  ],
+  "question_type": "MCQ",
+  "question": "Let both $AB^{\\prime}$ and $B^{\\prime}A$ be defined for matrices $A$ and $B$. If order of $A$ is $n\\times m$, then the order of $B$ is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Let the order of matrix $B$ be $p \\times q$. Then the order of its transpose $B^{\\prime}$ is $q \\times p$.<br />**Step 2:** For the matrix product $AB^{\\prime}$ to be defined, the number of columns in $A$ must equal the number of rows in $B^{\\prime}$. Since $A$ is $n \\times m$, $m$ must equal $q$.<br />**Step 3:** For the matrix product $B^{\\prime}A$ to be defined, the number of columns in $B^{\\prime}$ must equal the number of rows in $A$. Since $B^{\\prime}$ is $q \\times p$, $p$ must equal $n$.<br />**Step 4:** Therefore, the order of matrix $B$, which is $p \\times q$, must be $n \\times m$. Wait, let's re-verify. If $B$ is $p \\times q$, $B^{\\prime}$ is $q \\times p$. $A$ is $n \\times m$. $AB^{\\prime}$ defined $\\implies m = q$. $B^{\\prime}A$ defined $\\implies p = n$. So $B$ is $n \\times m$. But wait, the options have $m \\times n$. Let's re-read carefully. $A$ is $n \\times m$. $AB^{\\prime}$ means $(n \\times m) \\times (q \\times p) \\implies m=q$. $B^{\\prime}A$ means $(q \\times p) \\times (n \\times m) \\implies p=n$. So $B^{\\prime}$ is $m \\times n$, meaning $B$ is $n \\times m$. Option B is $n \\times m$. Let me double check Option D. Ah, if $B$ is $m \\times n$, then $B^{\\prime}$ is $n \\times m$. Then $A(B^{\\prime}) = (n \\times m) \\times (n \\times m)$ which is only defined if $m=n$. Thus $B$ must be $n \\times m$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$n\\times n$",
+    "B": "$n\\times m$",
+    "C": "$m\\times m$",
+    "D": "$m\\times n$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

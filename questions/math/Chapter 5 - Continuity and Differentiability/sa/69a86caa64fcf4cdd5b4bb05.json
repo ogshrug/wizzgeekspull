@@ -1,0 +1,30 @@
+{
+  "id": "69a86caa64fcf4cdd5b4bb05",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "SA",
+  "question": "Find $\\frac{dy}{dx}$ at $x = 1$ for $\\sin^{-1}(x) + \\cos^{-1}(y) = \\frac{\\pi}{2}$, and hence verify whether $\\sin^{-1}(x)$ and $\\cos^{-1}(y)$ are inverse functions at this point.",
+  "answeroption": "C",
+  "explanation": "$\\sin^{-1}(x) + \\cos^{-1}(y) = \\frac{\\pi}{2}$ implies $x = y$.<br /><br />Differentiate:<br /><br />$\\frac{1}{\\sqrt{1-x^2}} - \\frac{1}{\\sqrt{1-y^2}}\\frac{dy}{dx} = 0$<br /><br />Since $y=x$,<br /><br />$1 - \\frac{dy}{dx} = 0$<br /><br />$\\implies \\boxed{\\frac{dy}{dx} = 1}$<br /><br />Thus they behave as inverse functions at this point.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{dy}{dx}=0$; hence they do not behave as inverse functions at this point",
+    "B": "$\\dfrac{dy}{dx}=-1$; hence they behave as inverse functions at this point",
+    "C": "$\\dfrac{dy}{dx}=1$; hence they behave as inverse functions at this point",
+    "D": "$\\dfrac{dy}{dx}$ does not exist at $x=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:32:26 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

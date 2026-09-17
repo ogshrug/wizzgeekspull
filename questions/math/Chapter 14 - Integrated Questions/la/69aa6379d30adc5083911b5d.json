@@ -1,0 +1,30 @@
+{
+  "id": "69aa6379d30adc5083911b5d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7e",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\tan^{-1}(x^2)$ and $g(x) = \\sin^{-1}(x)$ for $x \\in [-1,1]$. Define $h(x) = f(x) + g(x)$.\n\n(a) Find $h'(x)$.\n\n(b) For what $x \\in [0,1]$ does $h'(x) = 0$?\n\n(c) Construct a $2 \\times 2$ matrix $M$ where $M_{ij} = h(i-2+j-2),\\ i,j=1,2$ and compute $\\det(M)$.\n\n(d) At $x = 0$, find $h(x)$ and $h'(x)$ explicitly.\n\n(e) Is $h(x)$ strictly increasing or decreasing on $[0,1]$? Justify.",
+  "answeroption": "A",
+  "explanation": "**Concepts being tested:** Inverse trigonometric function differentiation/composition, chain rule, determinants.<br /><br />**(a) $h'(x)$:**<br /><br />$f'(x)=\\frac{2x}{1+x^4}$<br /><br />$g'(x)=\\frac{1}{\\sqrt{1-x^2}}$<br /><br />$h'(x)=\\frac{2x}{1+x^4}+\\frac{1}{\\sqrt{1-x^2}}$<br /><br />**(b) For $h'(x)=0$ on $[0,1]$: **<br /><br />$\\frac{2x}{1+x^4} + \\frac{1}{\\sqrt{1-x^2}} = 0$<br /><br />But for $x\\in[0,1)$, $\\frac{2x}{1+x^4}\\ge0$ and $\\frac{1}{\\sqrt{1-x^2}}>0$. So sum is positive,<br /><br />$h'(x)$ cannot be $0$ in $[0,1]$.<br /><br />**(c) $M$ matrix calculation:**<br /><br />For $i,j=1$, $h(-1)$; $i=1,j=2$, $h(0)$; $i=2,j=1$, $h(0)$; $i=2,j=2$, $h(1)$<br /><br />$h(-1)=\\tan^{-1}(1)+\\sin^{-1}(-1)=\\frac{\\pi}{4}-\\frac{\\pi}{2}=-\\frac{\\pi}{4}$<br /><br />$h(0)=\\tan^{-1}(0)+\\sin^{-1}(0)=0+0=0$<br /><br />$h(1)=\\tan^{-1}(1)+\\sin^{-1}(1)=\\frac{\\pi}{4}+\\frac{\\pi}{2}=\\frac{3\\pi}{4}$<br /><br />$M=\\begin{pmatrix}-\\frac{\\pi}{4} & 0\\\\0 & \\frac{3\\pi}{4}\\end{pmatrix}$<br /><br />$\\det(M)=-\\frac{\\pi}{4}\\cdot\\frac{3\\pi}{4}-0= -\\frac{3\\pi^2}{16}$<br /><br />**(d) $x=0$:**<br /><br />$h(0)=0$<br /><br />$h'(0)=0+1=1$<br /><br />**(e)** On $[0,1]$, $h'(x)>0$ for $x>0$, so $h(x)$ is strictly increasing.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $h'(x)=\\frac{2x}{1+x^4}+\\frac{1}{\\sqrt{1-x^2}}$<br />(b) No $x\\in[0,1]$ satisfies $h'(x)=0$<br />(c) $M=\\begin{pmatrix}-\\frac{\\pi}{4}&0\\\\0&\\frac{3\\pi}{4}\\end{pmatrix}$ and $\\det(M)=-\\frac{3\\pi^2}{16}$<br />(d) $h(0)=0$ and $h'(0)=1$<br />(e) Since $h'(x)>0$ on $[0,1)$, $h$ is strictly increasing on $[0,1]$",
+    "B": "(a) $h'(x)=\\frac{x}{1+x^2}+\\frac{1}{\\sqrt{1-x^2}}$<br />(b) $h'(x)=0$ at $x=0$<br />(c) $\\det(M)=\\frac{3\\pi^2}{16}$<br />(d) $h(0)=1$ and $h'(0)=0$<br />(e) $h$ is decreasing",
+    "C": "(a) $h'(x)=\\frac{2x}{1+x^4}-\\frac{1}{\\sqrt{1-x^2}}$<br />(b) $h'(x)=0$ at $x=1$<br />(c) $M=0$ and $\\det(M)=0$<br />(d) $h(0)=0$ and $h'(0)=-1$<br />(e) $h$ is constant",
+    "D": "(a) $h'(x)=\\frac{1}{1+x^4}+\\frac{x}{\\sqrt{1-x^2}}$<br />(b) $h'(x)=0$ for all $x$<br />(c) $\\det(M)=1$<br />(d) $h(0)=\\frac{\\pi}{2}$ and $h'(0)=1$<br />(e) $h$ is neither increasing nor decreasing"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:17:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a9c86b589ce36f368b48b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e766d837c8c7efa6b8c2"
+  ],
+  "question_type": "SA",
+  "question": "If $\\vec{a} = 2\\hat{i} - 3\\hat{j} + \\hat{k}$ and $\\vec{b} = \\hat{i} + 4\\hat{j} - 2\\hat{k}$, find the vector projection of $\\vec{a}$ on $\\vec{b}$ and verify that it is parallel to $\\vec{b}$.",
+  "answeroption": "C",
+  "explanation": "Vector projection of $\\vec{a}$ on $\\vec{b}$ is $\\text{proj}_{\\vec{b}}\\vec{a} = \\left(\\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|^2}\\right)\\vec{b}$.<br /><br />$\\vec{a}\\cdot\\vec{b} = (2)(1)+(-3)(4)+(1)(-2) = -12$.<br /><br />$|\\vec{b}|^2 = 1^2+4^2+(-2)^2 = 21$.<br /><br />Scalar factor $= -\\frac{12}{21} = -\\frac{4}{7}$.<br /><br />Thus projection $= -\\frac{4}{7}(\\hat{i}+4\\hat{j}-2\\hat{k}) = -\\frac{4}{7}\\hat{i}-\\frac{16}{7}\\hat{j}+\\frac{8}{7}\\hat{k}$.<br /><br />This is a scalar multiple of $\\vec{b}$, hence it is parallel to $\\vec{b}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{4}{7}\\hat{i}+\\frac{16}{7}\\hat{j}-\\frac{8}{7}\\hat{k}$",
+    "B": "$-\\frac{12}{21}\\hat{i}-\\frac{12}{21}\\hat{j}+\\frac{24}{21}\\hat{k}$",
+    "C": "$-\\frac{4}{7}\\hat{i}-\\frac{16}{7}\\hat{j}+\\frac{8}{7}\\hat{k}$",
+    "D": "$-\\frac{4}{7}\\hat{i}+\\frac{16}{7}\\hat{j}+\\frac{8}{7}\\hat{k}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:16:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8bf04b490c7cde3593cd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A=\\begin{bmatrix}1&x\\\\0&1\\end{bmatrix}$ and $B=\\begin{bmatrix}1&0\\\\y&1\\end{bmatrix}$. If $AB=BA$ and $x+y=5$, find $xy$.",
+  "answeroption": "A",
+  "explanation": "Step 1: Matrix multiplication is performed by taking row-by-column products. First, $$AB=\\begin{bmatrix}1+xy&x\\\\y&1\\end{bmatrix}.$$<br>Step 2: Similarly, $$BA=\\begin{bmatrix}1&x\\\\y&1+xy\\end{bmatrix}.$$<br>Step 3: Since $AB=BA$, their corresponding elements must be equal. Comparing the $(1,1)$ entries gives $$1+xy=1.$$<br>Step 4: Therefore, $xy=0$. The same condition follows by comparing the $(2,2)$ entries.<br>Step 5: The additional information $x+y=5$ is consistent with this result; one of $x$ or $y$ must be zero while the other is $5$. Hence, the required value is $xy=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$5$",
+    "C": "$25$",
+    "D": "$1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a94d8cd30adc5083911a4c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{bmatrix} 1 & a & a^2 \\\\ 1 & b & b^2 \\\\ 1 & c & c^2 \\end{bmatrix}$ with $a, b, c$ distinct real numbers. Prove that $|A| = (a-b)(b-c)(c-a)$ and hence discuss the singularity or non-singularity of $A$ for different values of $a, b, c$.",
+  "answeroption": "B",
+  "explanation": "Expand $|A|$ along first row:<br /><br />$|A| = 1 \\begin{vmatrix} b & b^2 \\\\ c & c^2 \\end{vmatrix} - a \\begin{vmatrix} 1 & b^2 \\\\ 1 & c^2 \\end{vmatrix} + a^2 \\begin{vmatrix} 1 & b \\\\ 1 & c \\end{vmatrix}$<br /><br />$= 1(b c^2 - c b^2) - a(1 \\cdot c^2 - 1 \\cdot b^2) + a^2(1 \\cdot c - 1 \\cdot b)$<br />$= b c^2 - c b^2 - a(c^2 - b^2) + a^2(c - b)$<br /><br />Rewrite $b c^2 - c b^2 = bc(c-b)$<br /><br />$- a(c^2 - b^2) = -a(c-b)(c+b)$<br /><br />$a^2(c-b)$<br /><br />So:<br />$|A| = bc(c-b) - a(c-b)(c+b) + a^2(c-b)$<br />$= (c-b)[bc - a(c+b) + a^2]$<br /><br />$= (c-b)[bc - a c - a b + a^2]$<br />$= (c-b)(bc - a b - a c + a^2)$<br /><br />Now factor $bc - ab - ac + a^2 = (b-a)(c-a)$<br /><br />So $|A| = (c-b)(b-a)(c-a)$. Changing signs and absolute value as per indexing, $|A| = (a-b)(b-c)(c-a)$.<br /><br />If any two of $a, b, c$ are equal, determinant vanishes, so $A$ is singular. If $a, b, c$ are all distinct, $A$ is non-singular.",
+  "explanation_image": [],
+  "options": {
+    "A": "$|A|=(a+b+c)$; hence $A$ is singular only when $a+b+c=0$.",
+    "B": "$|A|=(a-b)(b-c)(c-a)$; hence $A$ is non-singular when $a,b,c$ are distinct and singular when any two of them are equal.",
+    "C": "$|A|=(a-b)^2(b-c)^2(c-a)^2$; hence $A$ is always non-singular.",
+    "D": "$|A|=abc$; hence $A$ is singular only when one of $a,b,c$ is zero."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:31:56 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

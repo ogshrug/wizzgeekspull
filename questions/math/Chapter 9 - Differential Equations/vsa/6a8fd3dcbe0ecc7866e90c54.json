@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd3dcbe0ecc7866e90c54",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a3"
+  ],
+  "question_type": "VSA",
+  "question": "For the solution family $y=A\\cos x+B\\sin x$, the conditions $y=2$ and $\\frac{dy}{dx}=-3$ are satisfied at $x=0$. Determine the corresponding particular solution.",
+  "answeroption": "C",
+  "explanation": "Step 1: The given general solution is $y=A\\cos x+B\\sin x$. At $x=0$, the condition $y=2$ gives $2=A\\cos 0+B\\sin 0$, so $A=2$.<br>Step 2: Differentiate the given solution: $\\frac{dy}{dx}=-A\\sin x+B\\cos x$.<br>Step 3: Apply the second condition $\\frac{dy}{dx}=-3$ at $x=0$. Thus, $-3=-A\\sin 0+B\\cos 0=B$. Hence, $B=-3$.<br>Step 4: Substitute $A=2$ and $B=-3$ into the solution family.<br>Step 5: Therefore, the required particular solution is $y=2\\cos x-3\\sin x$. Both arbitrary constants have been fixed by the two supplied conditions.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=2\\cos x+3\\sin x$",
+    "B": "$y=3\\cos x-2\\sin x$",
+    "C": "$y=2\\cos x-3\\sin x$",
+    "D": "$y=-3\\cos x+2\\sin x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

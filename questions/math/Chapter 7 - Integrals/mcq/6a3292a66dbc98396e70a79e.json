@@ -1,0 +1,31 @@
+{
+  "id": "6a3292a66dbc98396e70a79e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int e^{x}(cos~x-sin~x)dx$ is equal to :",
+  "answeroption": "D",
+  "explanation": "**Step 1:** This calculus problem can be directly solved by utilizing the standard exponential integration rule: $\\int e^x [f(x) + f^{\\prime}(x)] \\, dx = e^x f(x) + C$. We identify the components inside the integrand.<br />**Step 2:** Let $f(x) = \\cos x$. Differentiating this trigonometric function with respect to $x$ gives its derivative as $f^{\\prime}(x) = -\\sin x$. The integrand perfectly matches this structural format.<br />**Step 3:** Applying the integration formula directly yields the final evaluation result as $e^x \\cos x + C$, which corresponds to choice D.",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^{x}sin~x+C$",
+    "B": "$-e^{x}sin~x+C$",
+    "C": "$-e^{x}cos~x+C$",
+    "D": "$e^{x}cos~x+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

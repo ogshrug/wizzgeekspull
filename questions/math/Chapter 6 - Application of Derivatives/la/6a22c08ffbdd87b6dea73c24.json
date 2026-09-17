@@ -1,0 +1,28 @@
+{
+  "id": "6a22c08ffbdd87b6dea73c24",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "LA",
+  "question": "The perimeter of a rectangular metallic sheet is 300 cm. It is rolled along one of its sides to form a cylinder. Find the dimensions of the rectangular sheet so that volume of cylinder so formed is maximum.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the sides of the rectangular metal sheet be denoted by $x$ and $y$. The total perimeter is given as $2(x + y) = 300 \\implies x + y = 150 \\implies y = 150 - x$. Suppose the sheet is rolled along the side of length $x$ to construct the cylinder. The perimeter of the base circle equals $x$, meaning $2\\pi r = x \\implies r = \\frac{x}{2\\pi}$, while the height of the cylinder matches the remaining side length $y$.<br />**Step 2:** Express the volume of the cylinder as a single-variable function: $V = \\pi r^2 y = \\pi \\left(\\frac{x}{2\\pi}\\right)^2 (150 - x) = \\frac{1}{4\\pi}(150x^2 - x^3)$. To locate the maximum point, find the derivative with respect to $x$: $\\frac{dV}{dx} = \\frac{1}{4\\pi}(300x - 3x^2)$. Setting $\\frac{dV}{dx} = 0$ yields $3x(100 - x) = 0$. Since a dimension cannot equal zero, we find $x = 100$.<br />**Step 3:** Perform the second derivative test to verify optimization: $\\frac{d^2V}{dx^2} = \\frac{1}{4\\pi}(300 - 6x)$. Evaluating this at $x = 100$ yields $\\frac{d^2V}{dx^2} = \\frac{300 - 600}{4\\pi} = -\\frac{300}{4\\pi} < 0$. The negative value confirms that maximum volume is attained. Substituting back gives $y = 150 - 100 = 50$. Hence, the optimal dimensions of the rectangular sheet are $100\\text{ cm}$ and $50\\text{ cm}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1",
+    "2024-3-2",
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

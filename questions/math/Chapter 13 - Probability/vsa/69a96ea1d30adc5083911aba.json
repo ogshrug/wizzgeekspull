@@ -1,0 +1,30 @@
+{
+  "id": "69a96ea1d30adc5083911aba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "VSA",
+  "question": "A and B throw a die alternately. The first to throw a 6 wins. What is the probability that A wins?",
+  "answeroption": "C",
+  "explanation": "Let $P$ be the probability that A wins. <br /> On A's first turn: <br /> P(A gets 6) $= \\frac{1}{6}$ <br /> P(A doesn't, and B doesn't, then A tries again) $= \\frac{5}{6} \\times \\frac{5}{6}$ <br /><br /> So, <br /> $P = \\frac{1}{6} + \\frac{25}{36}P$ <br /> $P - \\frac{25}{36}P = \\frac{1}{6}$ <br /> $\\frac{11}{36}P = \\frac{1}{6}$ <br /> $P = \\frac{6}{11}$ <br /><br /> Final answer: $\\frac{6}{11}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{5}{11}$",
+    "B": "$\\frac{1}{6}$",
+    "C": "$\\frac{6}{11}$",
+    "D": "$\\frac{11}{36}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:53:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

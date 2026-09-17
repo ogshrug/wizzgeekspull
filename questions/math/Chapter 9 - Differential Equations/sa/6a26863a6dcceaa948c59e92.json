@@ -1,0 +1,29 @@
+{
+  "id": "6a26863a6dcceaa948c59e92",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa",
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation : $\\frac{d}{dx}(xy^{2})=2y(1+x^{2})$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Expand the left side using the differentiation product rule: $y^2 + 2xy\\frac{dy}{dx} = 2y + 2yx^2$. Divide by $y$ (where $y \\ne 0$) to get $y + 2x\\frac{dy}{dx} = 2 + 2x^2$.<br />**Step 2:** Rearrange terms into standard first-order linear differential form: $2x\\frac{dy}{dx} + y = 2 + 2x^2 \\implies \\frac{dy}{dx} + \\frac{1}{2x}y = \\frac{1+x^2}{x}$.<br />**Step 3:** Find the integrating factor: $\\text{I.F.} = e^{\\int \\frac{1}{2x} dx} = e^{\\frac{1}{2}\\log x} = \\sqrt{x}$. Multiply and integrate: $y\\sqrt{x} = \\int \\sqrt{x}\\left(\\frac{1}{x}+x\\right) dx = \\int (x^{-1/2} + x^{3/2}) dx = 2x^{1/2} + \\frac{2}{5}x^{5/2} + C$. Dividing by $\\sqrt{x}$ gives $y = 2 + \\frac{2}{5}x^2 + C x^{-1/2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

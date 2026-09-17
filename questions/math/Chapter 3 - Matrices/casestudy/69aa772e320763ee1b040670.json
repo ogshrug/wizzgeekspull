@@ -1,0 +1,30 @@
+{
+  "id": "69aa772e320763ee1b040670",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d5d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Case Study: Three banks offer different interest schemes for a set of investments. The investments $I$ are given by:<br /><br />$I = \\begin{bmatrix} 10^5 & 2 \\times 10^5 & 1.5 \\times 10^5 \\end{bmatrix}$<br /><br />The annual interest rates (in decimals) for schemes X, Y, Z are as a column matrix $R = \\begin{bmatrix} 0.06 \\\\ 0.07 \\\\ 0.05 \\end{bmatrix}$.<br /><br />(a) Find the interest earned from each investment.<br /><br />(b) If the interest is to be distributed across three departments in the ratio 2:3:1 (use a distribution matrix $D$), calculate the interest allocated to each department for each scheme.<br /><br />(c) Find the total interest each department receives.",
+  "answeroption": "C",
+  "explanation": "(a) Interest earned (using matrix multiplication):<br /><br />$I \\times R = (10^5 \\times 0.06) + (2 \\times 10^5 \\times 0.07) + (1.5 \\times 10^5 \\times 0.05) = 6000 + 14000 + 7500 = 27500$<br /><br />(b) Distribution matrix for the ratio 2:3:1 is $D = \\begin{bmatrix} 2/6 & 3/6 & 1/6 \\end{bmatrix} = \\begin{bmatrix} 1/3 & 1/2 & 1/6 \\end{bmatrix}$.<br /><br />Interest for scheme X: $10^5 \\times 0.06 = 6000$; distributed: $6000 * D = [2000, 3000, 1000]$.<br /><br />Interest for scheme Y: $2 \\times 10^5 \\times 0.07 = 14000$; $14000 * D = [4666.67, 7000, 2333.33]$.<br /><br />Interest for scheme Z: $1.5 \\times 10^5 \\times 0.05 = 7500$; $7500 * D = [2500, 3750, 1250]$.<br /><br />(c) Total for each department:<br /><br />Dept 1: $2000 + 4666.67 + 2500 = 9166.67$<br /><br />Dept 2: $3000 + 7000 + 3750 = 13750$<br /><br />Dept 3: $1000 + 2333.33 + 1250 = 4583.33$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Individual interests are Rs $27500$, Rs $6000$, Rs $14000$.<br />(b) Distribution matrix is $D=\\begin{bmatrix}1&1&1\\end{bmatrix}$.<br />(c) Each department receives Rs $27500$.",
+    "B": "(a) Individual interests are Rs $6000$, Rs $14000$, and Rs $7500$, with total Rs $27500$.<br />(b) Distribution ratio $2:3:1$ gives $D=\\begin{bmatrix}\\frac12&\\frac13&\\frac16\\end{bmatrix}$.<br />(c) Department totals are Rs $13750$, Rs $9166.67$, and Rs $4583.33$.",
+    "C": "(a) Interest earned from the three investments is Rs $6000$, Rs $14000$, and Rs $7500$; total interest is Rs $27500$.<br />(b) Distribution matrix for ratio $2:3:1$ is $D=\\begin{bmatrix}\\frac13&\\frac12&\\frac16\\end{bmatrix}$, giving allocations:<br />Scheme X: $[2000,3000,1000]$<br />Scheme Y: $[4666.67,7000,2333.33]$<br />Scheme Z: $[2500,3750,1250]$.<br />(c) Total received by departments is approximately Rs $9166.67$, Rs $13750$, and Rs $4583.33$.",
+    "D": "(a) Interest earned is Rs $6000$ only.<br />(b) All interest goes to Department 1.<br />(c) Department totals are Rs $27500$, Rs $0$, and Rs $0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:41:50 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

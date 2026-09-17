@@ -1,0 +1,29 @@
+{
+  "id": "6a8e97594b490c7cde359403",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "SA",
+  "question": "For $A=\\begin{bmatrix}2&0&0\\\\0&3&0\\\\0&0&4\\end{bmatrix}$, find $\\operatorname{adj}A$ and verify that $A(\\operatorname{adj}A)=|A|I$.",
+  "answeroption": "A",
+  "explanation": "<b>Determinant of the diagonal matrix</b><br>The determinant is the product of the diagonal entries: $$|A|=(2)(3)(4)=24$$<br><b>Adjoint of the matrix</b><br>The diagonal cofactors are the products of the other two diagonal entries. All off-diagonal cofactors are zero. Therefore, $$\\operatorname{adj}A=\\begin{bmatrix}12&0&0\\\\0&8&0\\\\0&0&6\\end{bmatrix}$$<br><b>Matrix-product verification</b><br>Multiplying, $$A(\\operatorname{adj}A)=\\begin{bmatrix}24&0&0\\\\0&24&0\\\\0&0&24\\end{bmatrix}$$<br><b>Comparison with $|A|I$</b><br>Since this matrix equals $24I=|A|I$, the required identity is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\operatorname{adj}A=\\begin{bmatrix}12&0&0\\\\0&8&0\\\\0&0&6\\end{bmatrix}$ and $A(\\operatorname{adj}A)=24I$",
+    "B": "$\\operatorname{adj}A=\\begin{bmatrix}2&0&0\\\\0&3&0\\\\0&0&4\\end{bmatrix}$ and $A(\\operatorname{adj}A)=24I$",
+    "C": "$\\operatorname{adj}A=\\begin{bmatrix}6&0&0\\\\0&8&0\\\\0&0&12\\end{bmatrix}$ and $A(\\operatorname{adj}A)=24I$",
+    "D": "$\\operatorname{adj}A=\\begin{bmatrix}12&0&0\\\\0&6&0\\\\0&0&8\\end{bmatrix}$ and $A(\\operatorname{adj}A)=24I$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

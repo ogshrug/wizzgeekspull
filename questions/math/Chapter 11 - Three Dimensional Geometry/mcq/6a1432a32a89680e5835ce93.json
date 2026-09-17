@@ -1,0 +1,30 @@
+{
+  "id": "6a1432a32a89680e5835ce93",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "MCQ",
+  "question": "The vector equation of a line which passes through the point $(2, 4, 5)$ and is parallel to the line $\\frac{x+3}{3}=\\frac{4-y}{2}=\\frac{z+8}{6}$ is:",
+  "answeroption": "b",
+  "explanation": "**Step 1: Standardize the given line.** Rewrite $\\frac{4-y}{2}$ as $\\frac{y-4}{-2}$. The line is $\\frac{x+3}{3} = \\frac{y-4}{-2} = \\frac{z+8}{6}$. The direction vector is $\\vec{b} = 3\\hat{i} - 2\\hat{j} + 6\\hat{k}$.<br />**Step 2: Identify position vector.** The line passes through $(2, 4, 5)$, so $\\vec{a} = 2\\hat{i} + 4\\hat{j} + 5\\hat{k}$.<br />**Step 3: Form the equation.** The vector equation is $\\vec{r} = \\vec{a} + \\lambda\\vec{b} = (2\\hat{i} + 4\\hat{j} + 5\\hat{k}) + \\lambda(3\\hat{i} - 2\\hat{j} + 6\\hat{k})$. Note: Option (b) in the provided paper is the intended match for the direction vector $3\\hat{i} - 2\\hat{j} + 6\\hat{k}$.",
+  "explanation_image": [],
+  "options": {
+    "a": "$\\vec{r}=(-2\\hat{i}+4\\hat{j}-5\\hat{k})+\\lambda(3\\hat{i}+2\\hat{j}+6\\hat{k})$",
+    "b": "$\\vec{r}=(2\\hat{i}-4\\hat{j}+5\\hat{k})+\\lambda(3\\hat{i}-2\\hat{j}+6\\hat{k})$",
+    "c": "$\\vec{r}=(2\\hat{i}-4\\hat{j}+5\\hat{k})+\\lambda(3\\hat{i}+2\\hat{j}+6\\hat{k})$",
+    "d": "$\\vec{r}=(-2\\hat{i}+4\\hat{j}-5\\hat{k})+\\lambda(3\\hat{i}-2\\hat{j}-6\\hat{k})$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

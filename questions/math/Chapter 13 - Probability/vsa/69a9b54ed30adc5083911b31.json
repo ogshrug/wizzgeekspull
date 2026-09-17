@@ -1,0 +1,29 @@
+{
+  "id": "69a9b54ed30adc5083911b31",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "VSA",
+  "question": "A fair die is thrown three times. What is the probability that all outcomes are even, if it is known that at least one outcome is 2?",
+  "answeroption": "D",
+  "explanation": "Let $E$: All outcomes are even<br />Let $F$: At least one outcome is 2<br /><br />The even numbers on a die: 2, 4, 6<br />Total number of outcomes for throwing three times (for even): $3^3 = 27$<br />So, $P(E) = \\frac{27}{216} = \\frac{1}{8}$<br />But we want $P(E|F)$<br /><br />Number of ways all outcomes are even AND at least one is 2:<br />Total ways to have all even: 27<br />Number of ways none is 2: Only 4 and 6, so $2^3 = 8$<br />So, number of ways at least one is 2: $27 - 8 = 19$<br /><br />Number of ways to have at least one 2 in ANY outcome: complement<br />$P(E \\cap F) = \\frac{19}{216}$<br /><br />Number of possible outcomes with at least one 2 (all possible outcomes):<br />Total outcomes (all)<br />Outcomes with no 2 in three throws = $5^3=125$<br />Hence, outcomes with at least one 2: $6^3 - 5^3 = 216 - 125 = 91$<br /><br />Required probability:<br />$P(E|F) = \\frac{P(E \\cap F)}{P(F)} = \\frac{19/216}{91/216} = \\frac{19}{91}$<br /><br />So, the required probability is $\\boxed{\\frac{19}{91}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{19}{216}$",
+    "B": "$\\frac{27}{91}$",
+    "C": "$\\frac{1}{8}$",
+    "D": "$\\frac{19}{91}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:54:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

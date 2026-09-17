@@ -1,0 +1,31 @@
+{
+  "id": "6a314183ed9d5eb2aa722a29",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int e^{-x}(\\frac{x+1}{x^{2}})dx$ is equal to:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Algebraically split the term inside the integral's parentheses to yield the mathematical expression $\\int e^{-x}(\\frac{1}{x} + \\frac{1}{x^2}) dx$.\n\n**Step 2:** Identify the integral mathematically matches the specialized structure $-\\int e^{-x} (f(x) - f'(x)) dx$ by substituting $t = -x$.\n\n**Step 3:** By setting $f(x) = \\frac{1}{x}$, the strict derivative $f'(x) = -\\frac{1}{x^2}$, which means the integral systematically evaluates to $-\\frac{e^{-x}}{x} + C$, validating option D.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{e^{-x}}{x}+C$",
+    "B": "$\\frac{e^{x}}{x}+C$",
+    "C": "$\\frac{e^{x}}{x^{2}}+C$",
+    "D": "$-\\frac{e^{-x}}{x}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

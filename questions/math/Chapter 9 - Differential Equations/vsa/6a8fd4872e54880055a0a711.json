@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd4872e54880055a0a711",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a6"
+  ],
+  "question_type": "VSA",
+  "question": "The family of curves is represented by $y=ax^2+1$, where $a$ is an arbitrary constant. Eliminate $a$ to obtain the differential equation satisfied by the family.",
+  "answeroption": "B",
+  "explanation": "Step 1: The given family is $y=ax^2+1$, containing one arbitrary constant $a$.<br>Step 2: Differentiate once with respect to $x$ to obtain $\\frac{dy}{dx}=2ax$.<br>Step 3: From the original relation, $ax^2=y-1$. Hence, for $x\\neq0$, $a=\\frac{y-1}{x^2}$.<br>Step 4: Substitute this value in the derivative: $\\frac{dy}{dx}=2x\\left(\\frac{y-1}{x^2}\\right)=\\frac{2(y-1)}{x}$.<br>Step 5: Multiplying by $x$ and rearranging gives $x\\frac{dy}{dx}-2y+2=0$. Thus, the arbitrary constant has been eliminated and the required differential equation is $x\\frac{dy}{dx}-2y+2=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x\\frac{dy}{dx}+2y-2=0$",
+    "B": "$x\\frac{dy}{dx}-2y+2=0$",
+    "C": "$x\\frac{dy}{dx}-2y-2=0$",
+    "D": "$x\\frac{dy}{dx}+2y+2=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

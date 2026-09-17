@@ -1,0 +1,29 @@
+{
+  "id": "69a92f9d589ce36f368b478d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Prove that: $\\tan^{-1}\\left(\\frac{1}{2}\\sin^{-1}\\frac{3}{4}\\right) = \\frac{4-\\sqrt{7}}{3}$.",
+  "answeroption": "C",
+  "explanation": "Let $\\sin^{-1}\\frac{3}{4} = \\theta$. Then $\\sin\\theta = \\frac{3}{4}$.<br /><br />Thus $\\cos\\theta = \\sqrt{1-\\frac{9}{16}} = \\frac{\\sqrt7}{4}$.<br /><br />Let $\\alpha = \\frac{\\theta}{2}$. Then $\\theta = 2\\alpha$.<br /><br />Using identity $\\sin2\\alpha = 2\\sin\\alpha\\cos\\alpha = \\frac{3}{4}$.<br /><br />Also $\\cos2\\alpha = 2\\cos^2\\alpha - 1 = \\frac{\\sqrt7}{4}$.<br /><br />From this $\\cos^2\\alpha = \\frac{4+\\sqrt7}{8}$.<br /><br />Also $\\sin\\alpha\\cos\\alpha = \\frac{3}{8}$.<br /><br />Thus $\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha} = \\frac{3/8}{(4+\\sqrt7)/8} = \\frac{3}{4+\\sqrt7}$.<br /><br />Rationalising:<br /><br />$\\tan\\alpha = \\frac{3(4-\\sqrt7)}{16-7} = \\frac{4-\\sqrt7}{3}$.<br /><br />Hence $\\alpha = \\tan^{-1}\\left(\\frac{4-\\sqrt7}{3}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $\\sin^{-1}\\frac{3}{4}=\\theta$. Then $\\cos\\theta=\\frac{\\sqrt7}{4}$ and $\\tan\\frac{\\theta}{2}=\\frac{3}{4+\\sqrt7}=\\frac{4+\\sqrt7}{3}$.",
+    "B": "Let $\\sin^{-1}\\frac{3}{4}=\\theta$. Then $\\cos\\theta=\\frac{3}{4}$ and $\\tan\\frac{\\theta}{2}=\\frac{4-\\sqrt7}{3}$.",
+    "C": "Let $\\sin^{-1}\\frac{3}{4}=\\theta$. Then $\\cos\\theta=\\frac{\\sqrt7}{4}$ and $\\tan\\frac{\\theta}{2}=\\frac{3}{4+\\sqrt7}=\\frac{4-\\sqrt7}{3}$.",
+    "D": "Let $\\sin^{-1}\\frac{3}{4}=\\theta$. Then $\\cos\\theta=\\frac{\\sqrt7}{4}$ and $\\tan\\frac{\\theta}{2}=\\frac{4+\\sqrt7}{3}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:24:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

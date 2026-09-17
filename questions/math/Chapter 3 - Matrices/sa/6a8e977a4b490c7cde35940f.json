@@ -1,0 +1,29 @@
+{
+  "id": "6a8e977a4b490c7cde35940f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d61"
+  ],
+  "question_type": "SA",
+  "question": "For $$A=\\begin{bmatrix}1 & 0 \\\\ 0 & -1\\end{bmatrix},\\quad B=\\begin{bmatrix}0 & 1 \\\\ 1 & 0\\end{bmatrix},$$ calculate $AB$ and $BA$. What conclusion can you draw about matrix multiplication?",
+  "answeroption": "D",
+  "explanation": "<b>Product $AB$</b><br>$$AB=\\begin{bmatrix}1 & 0 \\\\ 0 & -1\\end{bmatrix}\\begin{bmatrix}0 & 1 \\\\ 1 & 0\\end{bmatrix}=\\begin{bmatrix}0 & 1 \\\\ -1 & 0\\end{bmatrix}$$<br><b>Product $BA$</b><br>$$BA=\\begin{bmatrix}0 & 1 \\\\ 1 & 0\\end{bmatrix}\\begin{bmatrix}1 & 0 \\\\ 0 & -1\\end{bmatrix}=\\begin{bmatrix}0 & -1 \\\\ 1 & 0\\end{bmatrix}$$<br><b>Comparison</b><br>Since $AB\\neq BA$, matrix multiplication is not commutative in general.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB=BA=\\begin{bmatrix}0&1\\\\-1&0\\end{bmatrix}$; matrix multiplication is commutative.",
+    "B": "$AB=\\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix}$ and $BA=\\begin{bmatrix}0&1\\\\-1&0\\end{bmatrix}$; hence $AB=BA$.",
+    "C": "$AB=BA=I_2$; matrix multiplication is commutative for square matrices.",
+    "D": "$AB=\\begin{bmatrix}0&1\\\\-1&0\\end{bmatrix}$ and $BA=\\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix}$; hence matrix multiplication is not commutative in general."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

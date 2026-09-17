@@ -1,0 +1,29 @@
+{
+  "id": "69a92dd8589ce36f368b4782",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Prove that $2\\tan^{-1}\\frac12 + \\tan^{-1}\\frac17 = \\sin^{-1}\\frac{31}{25\\sqrt2}$.",
+  "answeroption": "A",
+  "explanation": "Use double angle formula:<br /><br />$2\\tan^{-1}A=\\tan^{-1}\\frac{2A}{1-A^2}$.<br /><br />Thus $2\\tan^{-1}\\frac12=\\tan^{-1}\\frac43$.<br /><br />Now add $\\tan^{-1}\\frac43 + \\tan^{-1}\\frac17$.<br /><br />Using $\\tan^{-1}A+\\tan^{-1}B=\\tan^{-1}\\frac{A+B}{1-AB}$.<br /><br />We get $\\tan^{-1}\\frac{31}{17}$.<br /><br />Let $\\theta=\\tan^{-1}\\frac{31}{17}$.<br /><br />Construct triangle with opposite=31, adjacent=17.<br /><br />Hypotenuse $=\\sqrt{31^2+17^2}=25\\sqrt2$.<br /><br />Thus $\\sin\\theta=\\frac{31}{25\\sqrt2}$.<br /><br />Hence $\\theta=\\sin^{-1}\\frac{31}{25\\sqrt2}$.<br /><br />Therefore the identity holds.",
+  "explanation_image": [],
+  "options": {
+    "A": "Using $2\\tan^{-1}\\frac12=\\tan^{-1}\\frac43$ and then adding $\\tan^{-1}\\frac43+\\tan^{-1}\\frac17$ gives $\\tan^{-1}\\frac{31}{17}$. If $\\theta=\\tan^{-1}\\frac{31}{17}$, then $\\sin\\theta=\\frac{31}{25\\sqrt2}$, hence the result follows.",
+    "B": "Using $2\\tan^{-1}\\frac12=\\tan^{-1}\\frac34$ and then adding $\\tan^{-1}\\frac34+\\tan^{-1}\\frac17$ gives $\\tan^{-1}\\frac{31}{25\\sqrt2}$ directly.",
+    "C": "Using $2\\tan^{-1}\\frac12=\\tan^{-1}\\frac43$ and then adding $\\tan^{-1}\\frac43+\\tan^{-1}\\frac17$ gives $\\tan^{-1}\\frac{17}{31}$. Hence $\\sin\\theta=\\frac{17}{25\\sqrt2}$.",
+    "D": "Using $2\\tan^{-1}\\frac12=\\tan^{-1}1$ and then adding $\\tan^{-1}1+\\tan^{-1}\\frac17$ gives $\\sin^{-1}\\frac{31}{25\\sqrt2}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:16:40 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

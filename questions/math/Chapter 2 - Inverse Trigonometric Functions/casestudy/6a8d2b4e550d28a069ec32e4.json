@@ -1,0 +1,31 @@
+{
+  "id": "6a8d2b4e550d28a069ec32e4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Students analyse the function $g(x)=\\tan^{-1}\\left(\\dfrac{1}{x-2}\\right)$. The inner rational expression is undefined at $x=2$ and never equals $0$. For $x>2$ it is positive, while for $x<2$ it is negative. As $x$ approaches $2$ from either side, the magnitude of the argument becomes increasingly large; as the magnitude of $x$ increases, the argument approaches $0$. These observations allow the students to determine the domain, exact range, sign, missing intercepts, and two-branch structure of the graph using only inverse-tangent properties.<br><br><b>(a)</b> Determine the domain of $g$.<br><br><b>(b)</b> Determine the exact range of $g$.<br><br><b>(c)</b> Find the $y$-intercept and determine whether an $x$-intercept exists.<br><br><b>(d)</b> Describe the limiting behaviour near $x=2$ and for increasingly large positive or negative $x$.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The denominator $x-2$ cannot equal $0$. Therefore,<br>$$x\\neq2$$<br>Hence, the domain is<br>$$(-\\infty,2)\\cup(2,\\infty)$$<br><br><b>(b)</b><br>The quantity $\\dfrac{1}{x-2}$ can assume every non-zero real value but can never equal $0$. Since $\\tan^{-1}t$ has range $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ and equals $0$ only when $t=0$,<br>$$\\text{Range}=\\left(-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right)$$<br><br><b>(c)</b><br>For the $y$-intercept, put $x=0$:<br>$$g(0)=\\tan^{-1}\\left(-\\frac{1}{2}\\right)=-\\tan^{-1}\\left(\\frac{1}{2}\\right)$$<br>Thus, the $y$-intercept is $\\left(0,-\\tan^{-1}\\left(\\dfrac{1}{2}\\right)\\right)$. An $x$-intercept would require<br>$$\\tan^{-1}\\left(\\frac{1}{x-2}\\right)=0$$<br>which would require $\\dfrac{1}{x-2}=0$. This is impossible, so no $x$-intercept exists.<br><br><b>(d)</b><br>As $x$ approaches $2$ from the right, $\\dfrac{1}{x-2}$ becomes increasingly large and positive, so $g(x)$ approaches $\\dfrac{\\pi}{2}$. As $x$ approaches $2$ from the left, the argument becomes increasingly large and negative, so $g(x)$ approaches $-\\dfrac{\\pi}{2}$. For increasingly large positive $x$, $g(x)$ approaches $0$ through positive values. For increasingly large negative $x$, it approaches $0$ through negative values. None of these limiting range-boundary values is attained.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain: $\\mathbb{R}$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$<br><br>(c) $y$-intercept: $\\left(0,\\tan^{-1}\\left(\\dfrac{1}{2}\\right)\\right)$; $x$-intercept: $(2,0)$<br><br>(d) $g(x)$ attains $\\pm\\dfrac{\\pi}{2}$ at $x=2$ and approaches $0$ as $x\\to\\pm\\infty$",
+    "B": "(a) Domain: $(-\\infty,2)\\cup(2,\\infty)$<br><br>(b) Range: $\\left(-\\dfrac{\\pi}{2},0\\right)\\cup\\left(0,\\dfrac{\\pi}{2}\\right)$<br><br>(c) $y$-intercept: $\\left(0,-\\tan^{-1}\\left(\\dfrac{1}{2}\\right)\\right)$; no $x$-intercept<br><br>(d) $g(x)\\to-\\dfrac{\\pi}{2}$ as $x\\to2^{-}$, $g(x)\\to\\dfrac{\\pi}{2}$ as $x\\to2^{+}$, and $g(x)\\to0$ as $x\\to\\pm\\infty$",
+    "C": "(a) Domain: $(-\\infty,2]\\cup[2,\\infty)$<br><br>(b) Range: $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$<br><br>(c) $y$-intercept: $\\left(0,-\\dfrac{\\pi}{2}\\right)$; $x$-intercept: $(0,0)$<br><br>(d) $g(x)\\to0$ as $x\\to2$ and $g(x)\\to\\pm\\dfrac{\\pi}{2}$ as $x\\to\\pm\\infty$",
+    "D": "(a) Domain: $(2,\\infty)$<br><br>(b) Range: $\\left(0,\\dfrac{\\pi}{2}\\right)$<br><br>(c) No coordinate-axis intercepts<br><br>(d) $g(x)\\to\\dfrac{\\pi}{2}$ as $x\\to2^{+}$ and $g(x)\\to0$ through positive values as $x\\to\\infty$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a22b35bfbdd87b6dea73bee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "VSA",
+  "question": "Surface area of a balloon (spherical), when air is blown into it, increases at a rate of $5~\\text{mm}^{2}/\\text{s}$. When the radius of the balloon is 8 mm, find the rate at which the volume of the balloon is increasing.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Write down the geometric formulas for a sphere: surface area is $S = 4\\pi r^2$ and volume is $V = \\frac{4}{3}\\pi r^3$. Differentiating the surface area with respect to time $t$ gives: $\\frac{dS}{dt} = 8\\pi r \\frac{dr}{dt}$.<br /><br /><b>Step 2</b> Substitute the given values $\\frac{dS}{dt} = 5\\text{ mm}^2/\\text{s}$ and $r = 8\\text{ mm}$ to solve for $\\frac{dr}{dt}$ : $5 = 8\\pi(8)\\frac{dr}{dt} \\implies 5 = 64\\pi \\frac{dr}{dt} \\implies \\frac{dr}{dt} = \\frac{5}{64\\pi}\\text{ mm/s}$.<br /><br /><b>Step 3</b> Differentiate the volume formula with respect to time $t$: $\\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt}$. Substituting $r = 8\\text{ mm}$ and our calculated $\\frac{dr}{dt}$ gives: $\\frac{dV}{dt} = 4\\pi (8)^2 \\cdot \\left(\\frac{5}{64\\pi}\\right) = 4\\pi (64) \\cdot \\left(\\frac{5}{64\\pi}\\right) = 20\\text{ mm}^3/\\text{s}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

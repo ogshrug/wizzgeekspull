@@ -1,0 +1,29 @@
+{
+  "id": "69a9727f62be6a70cd184d9d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Case Study:<br /><br />Suppose you are given a set $A = \\{1, 2, 3, ..., n\\}$. Define a relation $R$ on $A \\times A$ as $((a, b), (c, d)) \\in R$ if and only if $a + d = b + c$.<br /><br />(a) Prove or disprove that $R$ is an equivalence relation on $A \\times A$.<br /><br />(b) Find the number of equivalence classes for $n = 4$.",
+  "answeroption": "C",
+  "explanation": "(a) Reflexive: For any $(a, b)\\in A\\times A$, $a + b = b + a$ always, so $((a,b),(a,b)) \\in R$.<br /><br />Symmetric: If $a + d = b + c$, then $c + b = d + a$ (by rearrangement), so $((c,d),(a,b)) \\in R$.<br /><br />Transitive: If $a + d = b + c$ and $c + f = d + e$ for $(a,b), (c,d), (e,f)$, then $a + d = b + c$ and $c + f = d + e$.<br /><br />From first, $a + d - b = c$; from second, $c = d + e - f$.<br /><br />So, $a + d - b = d + e - f \\implies a + d - b - d = e - f \\implies a - b = e - f \\implies a + f = b + e$.<br /><br />Therefore $((a,b),(e,f)) \\in R$.<br /><br />So, $R$ is an equivalence relation.<br /><br />(b) For $n=4$, possible values for $a$, $b$ are 1,2,3,4. The value $a+b$ ranges from $2$ (1+1) to $8$ (4+4), i.e., $7$ possible values. Each equivalence class is a set of all pairs where $a+b$ is constant. So, number of equivalence classes = $2n-1=7$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R$ is not an equivalence relation because it is not reflexive.<br />(b) For $n=4$, there are $4$ equivalence classes.",
+    "B": "(a) $R$ is reflexive and symmetric but not transitive.<br />(b) For $n=4$, there are $16$ equivalence classes.",
+    "C": "(a) $R$ is reflexive, symmetric and transitive, so it is an equivalence relation.<br />(b) For $n=4$, the number of equivalence classes is $2n-1=7$.",
+    "D": "(a) $R$ is symmetric only, so it is not an equivalence relation.<br />(b) For $n=4$, there is only $1$ equivalence class."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:09:35 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

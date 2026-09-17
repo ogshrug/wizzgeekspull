@@ -1,0 +1,29 @@
+{
+  "id": "6a229060864be73cfcf6d218",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f",
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate: $\\int_{0}^{\\frac{\\pi}{2}} \\sin 2x \\tan^{-1}(\\sin x) dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Start by simplifying the integrand using the double angle formula for sine: $\\sin 2x = 2\\sin x \\cos x$. The integral becomes $\\int_{0}^{\\frac{\\pi}{2}} 2\\sin x \\cos x \\tan^{-1}(\\sin x) dx$.<br />**Step 2:** We employ substitution to handle the inverse trigonometric part. Let $t = \\sin x$. Then differentiating both sides gives $dt = \\cos x dx$. The variable change allows us to substitute these directly.<br />**Step 3:** Change the limits of integration. When $x = 0$, $t = \\sin(0) = 0$. When $x = \\frac{\\pi}{2}$, $t = \\sin(\\frac{\\pi}{2}) = 1$. The definite integral transforms into $\\int_0^1 2t \\tan^{-1}(t) dt$.<br />**Step 4:** Now, apply integration by parts. Using the ILATE rule, the inverse trigonometric function $u = \\tan^{-1}(t)$ is the first function, and the algebraic term $dv = 2t dt$ is the second function. Differentiating $u$ gives $du = \\frac{1}{1+t^2} dt$. Integrating $dv$ gives $v = t^2$.<br />**Step 5:** Substitute these into the integration by parts formula $\\int u dv = uv - \\int v du$. We get $[t^2 \\tan^{-1}(t)]_0^1 - \\int_0^1 \\frac{t^2}{1+t^2} dt$.<br />**Step 6:** First evaluate the bracketed term at limits: $(1^2 \\tan^{-1}(1)) - (0^2 \\tan^{-1}(0)) = 1 \\cdot \\frac{\\pi}{4} - 0 = \\frac{\\pi}{4}$. For the remaining integral, add and subtract 1 in the numerator to simplify: $\\int_0^1 \\frac{t^2+1-1}{t^2+1} dt = \\int_0^1 (1 - \\frac{1}{t^2+1}) dt$.<br />**Step 7:** Evaluate this second integral. The antiderivative is $[t - \\tan^{-1}(t)]_0^1$. Evaluating at limits gives $(1 - \\tan^{-1}(1)) - (0 - 0) = 1 - \\frac{\\pi}{4}$. Combine all parts to get the final answer. We have $\\frac{\\pi}{4} - (1 - \\frac{\\pi}{4}) = \\frac{\\pi}{4} - 1 + \\frac{\\pi}{4}$. The fully simplified final result is $\\frac{\\pi}{2} - 1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1",
+    "2024-1-2",
+    "2024-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

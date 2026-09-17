@@ -1,0 +1,28 @@
+{
+  "id": "6a22659b864be73cfcf6d1b8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation: $x^{2}y\\,dx-(x^{3}+y^{3})dy=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rearrange the given differential equation to express it in the form $\\frac{dy}{dx}$. We get $\\frac{dy}{dx} = \\frac{x^2y}{x^3+y^3}$. Observe that every term in the numerator and denominator has a degree of 3, making it a homogeneous differential equation.<br />**Step 2:** Use the standard substitution for homogeneous equations: $y = vx$. Then, differentiate w.r.t $x$: $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 3:** Substitute $y$ and $\\frac{dy}{dx}$ into the equation: $v + x\\frac{dv}{dx} = \\frac{x^2(vx)}{x^3+(vx)^3}$.<br />**Step 4:** Factor out $x^3$ from the numerator and denominator to simplify: $v + x\\frac{dv}{dx} = \\frac{vx^3}{x^3(1+v^3)} = \\frac{v}{1+v^3}$.<br />**Step 5:** Isolate the $x\\frac{dv}{dx}$ term: $x\\frac{dv}{dx} = \\frac{v}{1+v^3} - v = \\frac{v - v(1+v^3)}{1+v^3} = \\frac{-v^4}{1+v^3}$.<br />**Step 6:** Separate the variables $v$ and $x$: $\\frac{1+v^3}{v^4} dv = -\\frac{dx}{x}$.<br />**Step 7:** Integrate both sides: $\\int (v^{-4} + \\frac{1}{v}) dv = -\\int \\frac{dx}{x}$. This yields $\\frac{v^{-3}}{-3} + \\log|v| = -\\log|x| + C$.<br />**Step 8:** Replace $v$ back with $\\frac{y}{x}$: $-\\frac{x^3}{3y^3} + \\log|\\frac{y}{x}| + \\log|x| = C$. Using logarithm properties, $\\log|\\frac{y}{x}| + \\log|x| = \\log|y|$. The final implicit solution is $\\log|y| - \\frac{x^3}{3y^3} = C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

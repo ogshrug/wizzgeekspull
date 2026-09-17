@@ -1,0 +1,30 @@
+{
+  "id": "6a8e77024b490c7cde3593b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Three finite sets are used in a function-mapping activity: $X=\\{1,2,3\\}$, $Y=\\{a,b,c\\}$ and $Z=\\{p,q,r\\}$. A function $f:X\\to Y$ is defined by $f(1)=a$, $f(2)=b$, $f(3)=c$, while $g:Y\\to Z$ is defined by $g(a)=q$, $g(b)=r$, $g(c)=p$. Each element of the codomain of each function occurs exactly once as an image. Students study the composite transformation from $X$ to $Z$ and then determine how the original elements can be recovered. They also compare the inverse of the composite function with applying the two inverse functions in reverse order.<br><br><b>(a)</b> Find $gof(1)$, $gof(2)$ and $gof(3)$.<br><br><b>(b)</b> Write $f^{-1}$ and $g^{-1}$ by specifying the image of every element in their domains.<br><br><b>(c)</b> Determine $(gof)^{-1}$.<br><br><b>(d)</b> Verify for every element of $Z$ that $(gof)^{-1}=f^{-1}og^{-1}$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>$gof(1)=g(f(1))=g(a)=q$. Similarly, $gof(2)=g(b)=r$ and $gof(3)=g(c)=p$. Therefore, $gof$ is given by $1\\mapsto q$, $2\\mapsto r$ and $3\\mapsto p$.<br><br><b>(b)</b><br>Since $f(1)=a$, $f(2)=b$ and $f(3)=c$, its inverse is $f^{-1}(a)=1$, $f^{-1}(b)=2$ and $f^{-1}(c)=3$. Since $g(a)=q$, $g(b)=r$ and $g(c)=p$, its inverse is $g^{-1}(q)=a$, $g^{-1}(r)=b$ and $g^{-1}(p)=c$.<br><br><b>(c)</b><br>From part (a), $gof$ maps $1$ to $q$, $2$ to $r$ and $3$ to $p$. Reversing these pairs gives $(gof)^{-1}(q)=1$, $(gof)^{-1}(r)=2$ and $(gof)^{-1}(p)=3$.<br><br><b>(d)</b><br>For $q\\in Z$, $f^{-1}(g^{-1}(q))=f^{-1}(a)=1=(gof)^{-1}(q)$. For $r\\in Z$, $f^{-1}(g^{-1}(r))=f^{-1}(b)=2=(gof)^{-1}(r)$. For $p\\in Z$, $f^{-1}(g^{-1}(p))=f^{-1}(c)=3=(gof)^{-1}(p)$. Hence, for every element of $Z$, $(gof)^{-1}=f^{-1}og^{-1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$gof(1)=p$, $gof(2)=q$, $gof(3)=r$; $(gof)^{-1}(p)=1$, $(gof)^{-1}(q)=2$, $(gof)^{-1}(r)=3$, and $(gof)^{-1}=g^{-1}of^{-1}$.",
+    "B": "$gof(1)=q$, $gof(2)=r$, $gof(3)=p$; $f^{-1}(a)=1$, $f^{-1}(b)=2$, $f^{-1}(c)=3$, but $(gof)^{-1}=g^{-1}of^{-1}$.",
+    "C": "$gof(1)=q$, $gof(2)=p$, $gof(3)=r$; $(gof)^{-1}(q)=1$, $(gof)^{-1}(p)=2$, $(gof)^{-1}(r)=3$, and $(gof)^{-1}=f^{-1}og^{-1}$.",
+    "D": "$gof(1)=q$, $gof(2)=r$, $gof(3)=p$; $f^{-1}(a)=1$, $f^{-1}(b)=2$, $f^{-1}(c)=3$, $g^{-1}(q)=a$, $g^{-1}(r)=b$, $g^{-1}(p)=c$, and $(gof)^{-1}(q)=1$, $(gof)^{-1}(r)=2$, $(gof)^{-1}(p)=3$. Hence, $(gof)^{-1}=f^{-1}og^{-1}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

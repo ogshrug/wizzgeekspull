@@ -1,0 +1,29 @@
+{
+  "id": "6a265cc5850cc99714b54f3c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $A=R-\\{5\\}$ and $B=R-\\{1\\}$. Consider the function $f:A\\rightarrow B$ defined by $f(x)=\\frac{x-3}{x-5}$. Show that $f$ is one-one and onto.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To prove that $f$ is one-one, assume that $f(x_1)=f(x_2)$ for some $x_1,x_2\\in A$. Then<br />$\\frac{x_1-3}{x_1-5}=\\frac{x_2-3}{x_2-5}$.<br />Cross-multiplying gives:<br />$(x_1-3)(x_2-5)=(x_2-3)(x_1-5)$.<br /><br /><b>Step 2</b> Expanding both sides:<br />$x_1x_2-5x_1-3x_2+15=x_1x_2-5x_2-3x_1+15$.<br />Cancelling common terms yields:<br />$-5x_1-3x_2=-5x_2-3x_1$<br />$\\implies -2x_1=-2x_2$<br />$\\implies x_1=x_2$. Hence, $f$ is one-one.<br /><br /><b>Step 3</b> To prove that $f$ is onto, let $y\\in B$. Then $y\\neq 1$. We must find an $x\\in A$ such that $f(x)=y$.<br />Set<br />$y=\\frac{x-3}{x-5}$.<br />Cross-multiplying:<br />$y(x-5)=x-3$<br />$xy-5y=x-3$<br />$xy-x=5y-3$<br />$x(y-1)=5y-3$.<br /><br /><b>Step 4</b> Since $y\\neq 1$, we obtain<br />$x=\\frac{5y-3}{y-1}$.<br />This is a real number. Also, $x\\neq 5$, because if $x=5$, then<br />$\\frac{5y-3}{y-1}=5$<br />$\\implies 5y-3=5y-5$, which is impossible. Thus, $x\\in A$.<br /><br /><b>Step 5</b> Therefore, for every $y\\in B$, there exists an $x\\in A$ such that $f(x)=y$. Hence, $f$ is onto. Since $f$ is both one-one and onto, $f$ is a bijection.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a91cacb4df445c7f648c92",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "SA",
+  "question": "A manufacturer makes two products, X and Y. Each unit of X requires 4 hours of labour and 2 units of raw material; each unit of Y requires 2 hours of labour and 5 units of raw material. He has 20 hours of labour and 25 units of raw material. The profit per unit of X and Y are ₹6 and ₹8 respectively. Formulate the LPP. Then identify all feasible corner points and find which combination maximizes profit. Also, provide the maximum profit.",
+  "answeroption": "A",
+  "explanation": "Let $x$ be units of X, $y$ units of Y to produce.<br /><br />Objective: Max $Z=6x+8y$<br /><br />Subject to:<br /><br />Labour: $4x+2y\\leq20$<br /><br />Raw: $2x+5y\\leq25$<br /><br />$x\\geq0$, $y\\geq0$<br /><br />Step 1: Find intersection points<br /><br />(1) $4x+2y=20$, divide by 2: $2x+y=10$<br /><br />(2) $2x+5y=25$<br /><br />Solve $2x+y=10$ and $2x+5y=25$<br /><br />Subtract: $[2x+5y=25] - [2x+y=10]\\implies 4y=15\\implies y=\\frac{15}{4}$<br /><br />$x=\\frac{10-y}{2}=\\frac{10-\\frac{15}{4}}{2}=\\frac{40-15}{8}=\\frac{25}{8}$<br /><br />So $\\left(\\frac{25}{8}, \\frac{15}{4}\\right)$<br /><br />(1) with $y=0$: $2x=10 \\implies x=5$; $(5,0)$<br /><br />(2) with $x=0$: $5y=25\\implies y=5$; $(0,5)$<br /><br />Check $y=0$ in (2): $2x=25 \\implies x=12.5$ (but (1) gives $2x=10\\implies x=5$)<br /><br />So $x$ cannot be more than 5 due to (1).<br /><br />Step 2: Check $x=0$ in (1): $y=10$; but $2\\times0+5\\times10=50>25$ ($x=0, y=10$ not feasible).<br /><br />Step 3: Now evaluate $Z$<br /><br />$(5,0): 6\\times5=30$<br /><br />$(0,5): 8\\times5=40$<br /><br />At $\\left(\\frac{25}{8},\\frac{15}{4}\\right)$<br /><br />$6\\times\\frac{25}{8}+8\\times\\frac{15}{4}=\\frac{150}{8}+\\frac{120}{4}=\\frac{150}{8}+30=18.75+30=48.75$<br /><br />So maximum profit is $48.75$ at $\\left(\\frac{25}{8},\\frac{15}{4}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximum profit is ₹48.75 at $\\left(\\frac{25}{8},\\frac{15}{4}\\right)$.",
+    "B": "Maximum profit is ₹30 at $(5,0)$.",
+    "C": "Maximum profit is ₹40 at $(0,5)$.",
+    "D": "Maximum profit is ₹80 at $(0,10)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:03:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

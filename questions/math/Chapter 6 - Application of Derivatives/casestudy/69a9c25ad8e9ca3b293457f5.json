@@ -1,0 +1,30 @@
+{
+  "id": "69a9c25ad8e9ca3b293457f5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f974"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A particle moves so that its position $(x, y)$ at time $t$ is given by $x = t^2 + t$, $y = t^3 - t$. Find the time(s) when the rate of change of $y$ with respect to $x$ is 2.<br /><br />a) Find expressions for $\\frac{dx}{dt}$ and $\\frac{dy}{dt}$.<br /><br />b) Use the chain rule to express $\\frac{dy}{dx}$ in terms of $t$.<br /><br />c) Determine the time(s) when $\\frac{dy}{dx}=2$.",
+  "answeroption": "B",
+  "explanation": "a) Given $x = t^2 + t$ and $y = t^3 - t$.<br /><br /> Differentiating with respect to $t$: $\\frac{dx}{dt} = 2t + 1$ and $\\frac{dy}{dt} = 3t^2 - 1$.<br /><br />b) Using the chain rule: $\\frac{dy}{dx} = \\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}} = \\frac{3t^2 - 1}{2t + 1}$.<br /><br />c) Set $\\frac{dy}{dx} = 2$: $\\frac{3t^2 -1}{2t+1}=2$. <br /><br />Solving: $3t^2 -1 = 4t +2 \\Rightarrow 3t^2 -4t -3 =0$.<br /><br /> Thus $t = \\frac{4 \\pm \\sqrt{16+36}}{6} = \\frac{2 \\pm \\sqrt{13}}{3}$.<br /><br /> Hence the required times are $t = \\frac{2 \\pm \\sqrt{13}}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "a) $\\frac{dx}{dt}=2t+1$, $\\frac{dy}{dt}=3t^2-1$<br />b) $\\frac{dy}{dx}=\\frac{2t+1}{3t^2-1}$<br />c) $t=\\frac{2\\pm\\sqrt{13}}{3}$.",
+    "B": "a) $\\frac{dx}{dt}=2t+1$, $\\frac{dy}{dt}=3t^2-1$<br />b) $\\frac{dy}{dx}=\\frac{3t^2-1}{2t+1}$<br />c) $t=\\frac{2\\pm\\sqrt{13}}{3}$.",
+    "C": "a) $\\frac{dx}{dt}=t^2+1$, $\\frac{dy}{dt}=3t^2-1$<br />b) $\\frac{dy}{dx}=\\frac{3t^2-1}{t^2+1}$<br />c) $t=\\frac{4\\pm\\sqrt{13}}{3}$.",
+    "D": "a) $\\frac{dx}{dt}=2t+1$, $\\frac{dy}{dt}=3t^2+1$<br />b) $\\frac{dy}{dx}=\\frac{3t^2+1}{2t+1}$<br />c) $t=\\frac{2\\pm\\sqrt{10}}{3}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:50:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

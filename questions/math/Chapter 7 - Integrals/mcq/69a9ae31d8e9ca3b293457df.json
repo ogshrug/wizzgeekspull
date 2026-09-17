@@ -1,0 +1,29 @@
+{
+  "id": "69a9ae31d8e9ca3b293457df",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "Evaluate the integral $\\int_{0}^{1} \\frac{2x}{1+x^2} dx$.",
+  "answeroption": "C",
+  "explanation": "Let $u=1+x^2$. Then $du=2x dx$.<br /><br />When $x=0$, $u=1$ and when $x=1$, $u=2$.<br /><br />Thus the integral becomes $\\int_1^2 \\frac{1}{u}du$.<br /><br />This equals $[\\log u]_1^2 = \\log 2 - \\log 1 = \\log 2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "$\\log 2$",
+    "D": "$2\\log 2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:24:17 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

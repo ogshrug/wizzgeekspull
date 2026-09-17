@@ -1,0 +1,30 @@
+{
+  "id": "69a9c7df589ce36f368b48b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "SA",
+  "question": "Given a matrix $A = \\begin{pmatrix} 2 & 3 & 1 \\\\ 4 & 1 & 2 \\\\ 3 & 5 & 6 \\end{pmatrix}$, express $A$ as the sum of a symmetric and a skew-symmetric matrix. Show, step-by-step, how each matrix is computed and verify that their sum gives $A$.",
+  "answeroption": "B",
+  "explanation": "To express $A$ as the sum of a symmetric and a skew-symmetric matrix, we use:<br /><br />$A = \\dfrac{1}{2}(A + A') + \\dfrac{1}{2}(A - A')$<br /><br />First, find the transpose $A'$:<br /><br />$A' = \\begin{pmatrix} 2 & 4 & 3 \\\\ 3 & 1 & 5 \\\\ 1 & 2 & 6 \\end{pmatrix}$<br /><br />Compute $A + A'$:<br /><br />$A + A' = \\begin{pmatrix} 2+2 & 3+4 & 1+3 \\\\ 4+3 & 1+1 & 2+5 \\\\ 3+1 & 5+2 & 6+6 \\end{pmatrix} = \\begin{pmatrix} 4 & 7 & 4 \\\\ 7 & 2 & 7 \\\\ 4 & 7 & 12 \\end{pmatrix}$<br /><br />Compute $A - A'$:<br /><br />$A - A' = \\begin{pmatrix} 2-2 & 3-4 & 1-3 \\\\ 4-3 & 1-1 & 2-5 \\\\ 3-1 & 5-2 & 6-6 \\end{pmatrix} = \\begin{pmatrix} 0 & -1 & -2 \\\\ 1 & 0 & -3 \\\\ 2 & 3 & 0 \\end{pmatrix}$<br /><br />Find the symmetric part:<br /><br />$S = \\dfrac{1}{2}(A + A') = \\dfrac{1}{2}\\begin{pmatrix} 4 & 7 & 4 \\\\ 7 & 2 & 7 \\\\ 4 & 7 & 12 \\end{pmatrix} = \\begin{pmatrix} 2 & 3.5 & 2 \\\\ 3.5 & 1 & 3.5 \\\\ 2 & 3.5 & 6 \\end{pmatrix}$<br /><br />Find the skew-symmetric part:<br /><br />$K = \\dfrac{1}{2}(A - A') = \\dfrac{1}{2}\\begin{pmatrix} 0 & -1 & -2 \\\\ 1 & 0 & -3 \\\\ 2 & 3 & 0 \\end{pmatrix} = \\begin{pmatrix} 0 & -0.5 & -1 \\\\ 0.5 & 0 & -1.5 \\\\ 1 & 1.5 & 0 \\end{pmatrix}$<br /><br />Add $S$ and $K$:<br /><br />$S + K = \\begin{pmatrix} 2+0 & 3.5 + (-0.5) & 2+(-1) \\\\ 3.5+0.5 & 1+0 & 3.5+(-1.5) \\\\ 2+1 & 3.5+1.5 & 6+0 \\end{pmatrix} = \\begin{pmatrix} 2 & 3 & 1 \\\\ 4 & 1 & 2 \\\\ 3 & 5 & 6 \\end{pmatrix}$<br /><br />This verifies $A = S + K$.<br /><br />Thus, the symmetric part is $\\begin{pmatrix} 2 & 3.5 & 2 \\\\ 3.5 & 1 & 3.5 \\\\ 2 & 3.5 & 6 \\end{pmatrix}$ and the skew-symmetric part is $\\begin{pmatrix} 0 & -0.5 & -1 \\\\ 0.5 & 0 & -1.5 \\\\ 1 & 1.5 & 0 \\end{pmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$S=\\begin{pmatrix}2&3&1\\\\4&1&2\\\\3&5&6\\end{pmatrix}$ and $K=0$",
+    "B": "$S=\\begin{pmatrix}2&\\frac{7}{2}&2\\\\\\frac{7}{2}&1&\\frac{7}{2}\\\\2&\\frac{7}{2}&6\\end{pmatrix}$ and $K=\\begin{pmatrix}0&-\\frac{1}{2}&-1\\\\\\frac{1}{2}&0&-\\frac{3}{2}\\\\1&\\frac{3}{2}&0\\end{pmatrix}$, so $A=S+K$",
+    "C": "$S=\\begin{pmatrix}0&-\\frac{1}{2}&-1\\\\\\frac{1}{2}&0&-\\frac{3}{2}\\\\1&\\frac{3}{2}&0\\end{pmatrix}$ and $K=\\begin{pmatrix}2&\\frac{7}{2}&2\\\\\\frac{7}{2}&1&\\frac{7}{2}\\\\2&\\frac{7}{2}&6\\end{pmatrix}$",
+    "D": "$S=0$ and $K=A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:13:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a9003aa4b490c7cde359540",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cd"
+  ],
+  "question_type": "SA",
+  "question": "Find a set of direction ratios of the line joining $A(-2,1,4)$ and $B(4,-3,10)$. Obtain another distinct set of direction ratios for the same line and justify why both sets represent the same direction.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Difference of corresponding coordinates</b><br>For the line joining $A(-2,1,4)$ and $B(4,-3,10)$, a set of direction ratios is obtained from the components of $\\overrightarrow{AB}$. Thus,<br>$$\\overrightarrow{AB}=(4+2)\\hat{i}+(-3-1)\\hat{j}+(10-4)\\hat{k}.$$<br>Hence the direction components are $6,-4,6$.<br><b>Step 2: First set of direction ratios</b><br>Therefore, one set of direction ratios is<br>$$6,-4,6.$$<br><b>Step 3: Simplification</b><br>Dividing all three numbers by the same non-zero number $2$, we obtain<br>$$3,-2,3.$$<br><b>Step 4: Justification</b><br>Direction ratios are determined only up to a common non-zero multiplier. Since<br>$$6=2(3),\\quad -4=2(-2),\\quad 6=2(3),$$<br>the two sets are proportional.<br><b>Step 5: Final result</b><br>Thus, $(6,-4,6)$ and $(3,-2,3)$ are two valid sets of direction ratios of the same line.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(6,4,6)$ and $(3,2,3)$; both are proportional",
+    "B": "$(6,-4,6)$ and $(3,2,3)$; both are proportional",
+    "C": "$(-6,4,-6)$ and $(3,-2,3)$; both represent the same directed sense",
+    "D": "$(6,-4,6)$ and $(3,-2,3)$; the two sets are proportional by a positive non-zero factor"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

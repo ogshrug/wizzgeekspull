@@ -1,0 +1,29 @@
+{
+  "id": "6a912075751910886affba5c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "VSA",
+  "question": "The constraints of a linear programming problem are $x+y \\ge 5$, $x \\ge 0$ and $y \\ge 0$. Determine whether the corresponding feasible region is bounded or unbounded.",
+  "answeroption": "C",
+  "explanation": "Step 1: The inequality $x+y \\ge 5$ represents the part of the first quadrant lying on or away from the origin relative to the line $x+y=5$.<br>Step 2: The restrictions $x \\ge 0$ and $y \\ge 0$ restrict the region to the first quadrant but do not impose any upper limit on $x$ or $y$.<br>Step 3: For example, every point $(t,0)$ with $t \\ge 5$ satisfies $x+y \\ge 5$ and the non-negative restrictions.<br>Step 4: Since $t$ can be increased without limit, feasible points extend indefinitely in the positive $x$-direction.<br>Step 5: Therefore, the feasible region cannot be enclosed within a finite boundary.<br>Hence, the corresponding feasible region is unbounded.",
+  "explanation_image": [],
+  "options": {
+    "A": "The feasible region is bounded",
+    "B": "The feasible region is infeasible",
+    "C": "The feasible region is unbounded",
+    "D": "The feasible region consists only of points on $x+y=5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

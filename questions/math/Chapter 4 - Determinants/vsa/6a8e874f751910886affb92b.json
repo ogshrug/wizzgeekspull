@@ -1,0 +1,29 @@
+{
+  "id": "6a8e874f751910886affb92b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\begin{vmatrix}1&2&3\\\\0&-1&4\\\\2&1&0\\end{vmatrix}$ by expanding along the first row.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Expand along the first row</b><br>Using the signs $+$, $-$ and $+$, $$\\begin{vmatrix}1&2&3\\\\0&-1&4\\\\2&1&0\\end{vmatrix}=1\\begin{vmatrix}-1&4\\\\1&0\\end{vmatrix}-2\\begin{vmatrix}0&4\\\\2&0\\end{vmatrix}+3\\begin{vmatrix}0&-1\\\\2&1\\end{vmatrix}$$<br><b>Step 2: Evaluate the smaller determinants</b><br>Their values are $-4$, $-8$ and $2$, respectively.<br><b>Step 3: Substitute these values</b><br>Thus, the determinant equals $$1(-4)-2(-8)+3(2)$$<br><b>Step 4: Simplify</b><br>Therefore, its value is $-4+16+6=18$. Hence, the required determinant is $18$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$18$",
+    "B": "$-18$",
+    "C": "$10$",
+    "D": "$26$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

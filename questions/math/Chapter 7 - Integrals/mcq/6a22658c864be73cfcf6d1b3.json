@@ -1,0 +1,33 @@
+{
+  "id": "6a22658c864be73cfcf6d1b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{x+5}{(x+6)^{2}}e^{x}dx$ is equal to :",
+  "answeroption": "C",
+  "explanation": "**Step 1:** The integral involves an exponential function multiplied by an algebraic fraction, suggesting the standard form $\\int e^x [f(x) + f^{\\prime}(x)] dx = e^x f(x) + C$.<br />**Step 2:** We need to manipulate the integrand to match this form. Add and subtract 1 in the numerator: $\\frac{x + 5}{(x + 6)^2} = \\frac{x + 6 - 1}{(x + 6)^2}$.<br />**Step 3:** Separate the fraction into two parts: $\\frac{x + 6}{(x + 6)^2} - \\frac{1}{(x + 6)^2} = \\frac{1}{x + 6} - \\frac{1}{(x + 6)^2}$.<br />**Step 4:** Let $f(x) = \\frac{1}{x + 6}$. Then its derivative is $f^{\\prime}(x) = -\\frac{1}{(x + 6)^2}$.<br />**Step 5:** The integral exactly matches the standard form: $\\int e^x [\\frac{1}{x + 6} + (-\\frac{1}{(x + 6)^2})] dx$.<br />**Step 6:** Applying the formula yields the result: $e^x \\cdot \\frac{1}{x + 6} + C = \\frac{e^x}{x + 6} + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\log(x+6)+C$",
+    "B": "$e^{x}+C$",
+    "C": "$\\frac{e^{x}}{x+6}+C$",
+    "D": "$\\frac{-1}{(x+6)^{2}}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd0c4751910886affb9ee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A group of students is asked to evaluate $$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin x}{\\sin x+\\cos x}\\,dx$$ without finding an antiderivative of the quotient. On the interval $\\left[0,\\frac{\\pi}{2}\\right]$, the denominator is positive, so the integrand is well defined. The students use the property that for an integral over $[a,b]$, replacing $x$ by $a+b-x$ produces an equivalent definite integral. In this case, the transformation interchanges the roles of $\\sin x$ and $\\cos x$. By comparing the original and transformed integrals, they obtain a much simpler integral and evaluate $I$ without directly integrating the original fraction.<br><br><b>(a)</b> Apply the transformation $x\\mapsto\\frac{\\pi}{2}-x$ and write an equivalent expression for $I$.<br><br><b>(b)</b> Add the original and transformed expressions and simplify the resulting integrand.<br><br><b>(c)</b> Evaluate $I$.<br><br><b>(d)</b> If $J=\\int_0^{\\frac{\\pi}{2}}\\frac{\\cos x}{\\sin x+\\cos x}\\,dx$, determine $J$ without further integration and justify your conclusion.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Using the property $$\\int_a^b f(x)\\,dx=\\int_a^b f(a+b-x)\\,dx$$ with $a=0$ and $b=\\frac{\\pi}{2}$, $$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin\\left(\\frac{\\pi}{2}-x\\right)}{\\sin\\left(\\frac{\\pi}{2}-x\\right)+\\cos\\left(\\frac{\\pi}{2}-x\\right)}\\,dx$$ Since $\\sin\\left(\\frac{\\pi}{2}-x\\right)=\\cos x$ and $\\cos\\left(\\frac{\\pi}{2}-x\\right)=\\sin x$, $$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\cos x}{\\sin x+\\cos x}\\,dx$$<br><br><b>(b)</b><br>Adding the original and transformed forms, $$2I=\\int_0^{\\frac{\\pi}{2}}\\left(\\frac{\\sin x}{\\sin x+\\cos x}+\\frac{\\cos x}{\\sin x+\\cos x}\\right)dx$$ Therefore, $$2I=\\int_0^{\\frac{\\pi}{2}}1\\,dx$$<br><br><b>(c)</b><br>Hence, $$2I=\\left[x\\right]_0^{\\frac{\\pi}{2}}=\\frac{\\pi}{2}$$ Therefore, $$I=\\frac{\\pi}{4}$$<br><br><b>(d)</b><br>From part (a), the transformed form of $I$ is exactly $$J=\\int_0^{\\frac{\\pi}{2}}\\frac{\\cos x}{\\sin x+\\cos x}\\,dx$$ Therefore, $J=I$. Hence, $$J=\\frac{\\pi}{4}$$ This conclusion follows from the symmetry property of definite integrals and requires no separate integration.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin x}{\\sin x+\\cos x}\\,dx$ remains unchanged<br>(b) $2I=\\int_0^{\\frac{\\pi}{2}}2\\,dx$<br>(c) $I=\\frac{\\pi}{2}$<br>(d) $J=0$",
+    "B": "(a) $I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\cos x}{\\sin x+\\cos x}\\,dx$<br>(b) $I+J=\\int_0^{\\frac{\\pi}{2}}1\\,dx$<br>(c) $I=\\frac{\\pi}{2}$<br>(d) $J=0$",
+    "C": "(a) $I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\cos x}{\\sin x+\\cos x}\\,dx$<br>(b) $2I=\\int_0^{\\frac{\\pi}{2}}1\\,dx$<br>(c) $I=\\frac{\\pi}{4}$<br>(d) $J=I=\\frac{\\pi}{4}$",
+    "D": "(a) $I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\cos x}{\\sin x-\\cos x}\\,dx$<br>(b) $2I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin x+\\cos x}{\\sin x-\\cos x}\\,dx$<br>(c) $I=0$<br>(d) $J=\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

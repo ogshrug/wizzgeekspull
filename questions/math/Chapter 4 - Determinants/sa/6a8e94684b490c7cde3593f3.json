@@ -1,0 +1,29 @@
+{
+  "id": "6a8e94684b490c7cde3593f3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "SA",
+  "question": "The determinant $\\begin{vmatrix}x&1&0\\\\0&x&1\\\\1&0&x\\end{vmatrix}$ has the value $9$. Determine the real value of $x$ and verify the result.",
+  "answeroption": "B",
+  "explanation": "<b>Expansion along the first row</b><br>Expanding the determinant gives $$x\\begin{vmatrix}x&1\\\\0&x\\end{vmatrix}-1\\begin{vmatrix}0&1\\\\1&x\\end{vmatrix}$$<br><b>Evaluation of the smaller determinants</b><br>Therefore, the value is $$x(x^2)-[0-(1)(1)]=x^3+1$$<br><b>Application of the given condition</b><br>Since the determinant equals $9$, $$x^3+1=9$$ Thus, $$x^3=8$$ and hence $$x=2$$<br><b>Verification</b><br>Substituting $x=2$, the determinant value is $$2^3+1=8+1=9$$<br>Therefore, the required real value is $x=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=-2$",
+    "B": "$x=2$",
+    "C": "$x=3$",
+    "D": "$x=\\sqrt[3]{10}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

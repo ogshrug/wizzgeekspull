@@ -1,0 +1,29 @@
+{
+  "id": "69a9a8f6589ce36f368b485e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int \\frac{x^2-1}{x^4+1} dx$.",
+  "answeroption": "D",
+  "explanation": "Rewrite the integrand suitably and use substitution.<br /><br />Let $t=x+\\frac{1}{x}$ so $dt=(1-\\frac{1}{x^2})dx$.<br /><br />The integral becomes $\\int \\frac{dt}{t^2-2}$.<br /><br />Integrating gives $\\frac{1}{2\\sqrt{2}}\\ln\\left|\\frac{t-\\sqrt{2}}{t+\\sqrt{2}}\\right|+C$.<br /><br />Substituting back $t=x+\\frac{1}{x}$ gives the required result.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2\\sqrt{2}} \\ln \\left| \\frac{x^2+\\sqrt{2}x+1}{x^2-\\sqrt{2}x+1} \\right| + C$",
+    "B": "$\\frac{1}{\\sqrt{2}} \\ln \\left| \\frac{x^2-\\sqrt{2}x+1}{x^2+\\sqrt{2}x+1} \\right| + C$",
+    "C": "$\\frac{1}{2\\sqrt{2}} \\tan^{-1}\\left(\\frac{x^2-1}{\\sqrt{2}x}\\right)+C$",
+    "D": "$\\frac{1}{2\\sqrt{2}} \\ln \\left| \\frac{x^2-\\sqrt{2}x+1}{x^2+\\sqrt{2}x+1} \\right| + C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:01:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

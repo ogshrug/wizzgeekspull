@@ -1,0 +1,30 @@
+{
+  "id": "69a96101d30adc5083911a76",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): For $A = \\begin{bmatrix}1 & 2 \\\\ 3 & 4\\end{bmatrix}$, $AA' = A'A$.<br /><br />Reason (R): $AA'$ is always symmetric for any $2 \\times 2$ matrix $A$.",
+  "answeroption": "D",
+  "explanation": "For the given $A$, calculate $AA'$ and $A'A$:<br /><br />$A = \\begin{bmatrix}1 & 2 \\\\ 3 & 4\\end{bmatrix}$,<br />$A' = \\begin{bmatrix}1 & 3 \\\\ 2 & 4\\end{bmatrix}$.<br /><br />$AA' = \\begin{bmatrix}1 & 2 \\\\ 3 & 4\\end{bmatrix} \\begin{bmatrix}1 & 3 \\\\ 2 & 4\\end{bmatrix} = \\begin{bmatrix}1 \\times 1 + 2 \\times 2 & 1 \\times 3 + 2 \\times 4 \\\\ 3 \\times 1 + 4 \\times 2 & 3 \\times 3 + 4 \\times 4\\end{bmatrix} = \\begin{bmatrix}5 & 11 \\\\ 11 & 25\\end{bmatrix}$.<br /><br />$A'A = \\begin{bmatrix}1 & 3 \\\\ 2 & 4\\end{bmatrix}\\begin{bmatrix}1 & 2 \\\\ 3 & 4\\end{bmatrix} = \\begin{bmatrix}1 \\times 1 + 3 \\times 3 & 1 \\times 2 + 3 \\times 4 \\\\ 2 \\times 1 + 4 \\times 3 & 2 \\times 2 + 4 \\times 4\\end{bmatrix} = \\begin{bmatrix}10 & 14 \\\\ 14 & 20\\end{bmatrix}$.<br /><br />Thus, $AA' \\neq A'A$ (Assertion is false). $AA'$ is symmetric: $(AA')' = (A')'(A') = AA'$. So $AA'$ is symmetric (Reason is true).<br /><br />So, (D)",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:54:57 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

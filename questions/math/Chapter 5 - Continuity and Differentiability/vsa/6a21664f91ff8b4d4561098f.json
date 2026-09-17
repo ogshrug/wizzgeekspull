@@ -1,0 +1,28 @@
+{
+  "id": "6a21664f91ff8b4d4561098f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "Show that the function $R(x)=\\begin{cases}\\frac{\\cos x}{-x+\\frac{\\pi}{2}},&x\\ne\\frac{\\pi}{2}\\\\ 1,&x=\\frac{\\pi}{2}\\end{cases}$ is continuous at $x=\\frac{\\pi}{2}$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To demonstrate continuity at $x = \\frac{\\pi}{2}$, we show that $\\lim_{x \\to \\frac{\\pi}{2}} R(x) = R\\left(\\frac{\\pi}{2}\\right) = 1$. Let us construct the limit expression from the non-equal functional branch: $\\lim_{x \\to \\frac{\\pi}{2}} \\frac{\\cos x}{\\frac{\\pi}{2} - x}$.<br /><br /><b>Step 2</b> Use variable substitution to simplify: define $x = \\frac{\\pi}{2} - h$. As the primary variable $x$ approaches the target value $\\frac{\\pi}{2}$, our new variable $h$ will approach $0$.<br /><br /><b>Step 3</b> Substitute this into the limit expression: $\\lim_{h \\to 0} \\frac{\\cos\\left(\\frac{\\pi}{2} - h\\right)}{\\frac{\\pi}{2} - \\left(\\frac{\\pi}{2} - h\\right)}$. Using the trigonometric co-function identity, we convert the numerator: $\\cos\\left(\\frac{\\pi}{2} - h\\right) = \\sin h$.<br /><br /><b>Step 4</b> The expression simplifies to the fundamental limit form: $\\lim_{h \\to 0} \\frac{\\sin h}{h}$. This is a standard calculus identity that evaluates exactly to $1$.<br /><br /><b>Step 5</b> We observe that the limit value matches the defined point value exactly ($1 = 1$). Since the limit as $x \\to \\frac{\\pi}{2}$ equals $R\\left(\\frac{\\pi}{2}\\right)$, the function $R(x)$ is continuous at $x = \\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a2265d6fbdd87b6dea73b72",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f(x)=\\begin{cases}3x-2,&0<x\\le1\\\\ 2x^{2}+ax,&1<x<2\\end{cases}$ is continuous for $x\\in(0,2)$, then a is equal to:",
+  "answeroption": "D",
+  "explanation": "<b>Step 1</b> Since the function is continuous over the entire open interval $(0, 2)$, it must be continuous at the internal transition point $x = 1$. This means the left-hand limit, right-hand limit, and function value at $x = 1$ must all be equal.<br /><br /><b>Step 2</b> Evaluate the left-hand limit using the first branch of the function: $\\lim_{x \\to 1^-} f(x) = \\lim_{x \\to 1^-} (3x - 2) = 3(1) - 2 = 1$.<br /><br /><b>Step 3</b> Evaluate the right-hand limit using the second branch of the function: $\\lim_{x \\to 1^+} f(x) = \\lim_{x \\to 1^+} (2x^2 + ax) = 2(1)^2 + a(1) = 2 + a$. Equating the two limits gives $2 + a = 1 \\implies a = -1$. This matches option D.",
+  "explanation_image": [],
+  "options": {
+    "A": "4",
+    "B": "$-\\frac{7}{2}$",
+    "C": "-2",
+    "D": "-1"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

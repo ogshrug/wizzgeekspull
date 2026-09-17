@@ -1,0 +1,30 @@
+{
+  "id": "6a9004024b490c7cde359549",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom investigation, students examine the decreasing curve $y=\\frac{1}{x+1}$ on the interval $0\\leq x\\leq3$. The region between the curve and the $x$-axis is divided by the vertical line $x=1$. Although the left interval has width $1$ and the right interval has width $2$, the students suspect that the two enclosed areas may still be equal because the function decreases as $x$ increases. They use logarithmic integration to test this observation.(a) Find the values of the function at $x=0$, $x=1$ and $x=3$.(b) Calculate the total area under the curve from $x=0$ to $x=3$.(c) Determine the area between $x=0$ and $x=1$.(d) Calculate the area between $x=1$ and $x=3$ and verify whether the two regions have equal areas.",
+  "answeroption": "A",
+  "explanation": "(a)The required values are`y(0)=\\frac{1}{0+1}=1y(1)=\\frac{1}{1+1}=\\frac{1}{2}y(3)=\\frac{1}{3+1}=\\frac{1}{4}`Thus, the function values are $1$, $\\frac{1}{2}$ and $\\frac{1}{4}$.(b)The total area is`A=\\int_0^3\\frac{1}{x+1}dxA=\\left[\\log\\left(x+1\\right)\\right]_0^3A=\\log4-\\log1=\\log4`Hence, the total area is $\\log4$ square units.(c)The area of the left region is`A_L=\\int_0^1\\frac{1}{x+1}dxA_L=\\left[\\log\\left(x+1\\right)\\right]_0^1A_L=\\log2`Thus, the left-region area is $\\log2$ square units.(d)The area of the right region is`A_R=\\int_1^3\\frac{1}{x+1}dxA_R=\\left[\\log\\left(x+1\\right)\\right]_1^3A_R=\\log4-\\log2=\\log2`Therefore,`A_L=A_R=\\log2`The two regions have equal areas even though their interval widths are different.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Values $1,\\frac{1}{2},\\frac{1}{4}$<br>(b) Total area $=\\log4$<br>(c) Left area $=\\log2$<br>(d) Right area $=\\log2$; areas are equal",
+    "B": "(a) Values $1,\\frac{1}{2},\\frac{1}{4}$<br>(b) Total area $=2\\log4$<br>(c) Left area $=\\log2$<br>(d) Right area $=3\\log2$; areas are unequal",
+    "C": "(a) Values $1,\\frac{1}{3},\\frac{1}{4}$<br>(b) Total area $=\\log4$<br>(c) Left area $=\\log2$<br>(d) Right area $=\\log2$; areas are equal",
+    "D": "(a) Values $1,\\frac{1}{2},\\frac{1}{4}$<br>(b) Total area $=\\log3$<br>(c) Left area $=\\log2$<br>(d) Right area $=\\log\\frac{3}{2}$; areas are unequal"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

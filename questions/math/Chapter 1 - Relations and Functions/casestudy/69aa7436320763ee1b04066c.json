@@ -1,0 +1,31 @@
+{
+  "id": "69aa7436320763ee1b04066c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 6 (E-Commerce – Pricing Scheme):**<br /><br />An e-commerce company assigns prices to products based on the function $f(x) = 2x + 3$ for $x \\in \\{1,2,3,4,5\\}$ (where $x$ is the product's base code and $f(x)$ is its price in tens of rupees).<br /><br />(a) Does $f$ define a one-one, onto, or bijective function from $X = \\{1,2,3,4,5\\}$ to $Y = \\{5,7,9,11,13\\}$?<br /><br />(b) Define $g : Y \\to X$ by $g(y) = \\frac{y-3}{2}$. Show that $g$ is the inverse of $f$.<br /><br />(c) If the company defines a new function $h(x) = (f(x) + 1) \\mod 10$ from $X$ to $Z = \\{0,1,2,3,4,5,6,7,8,9\\}$, is $h$ invertible on its image? Justify.",
+  "answeroption": "A",
+  "explanation": "(a)<br /><br />Compute $f(x)$ for all $x$:<br /><br />$f(1) = 2 \\cdot 1 + 3 = 5$<br /><br />$f(2) = 2 \\cdot 2 + 3 = 7$<br /><br />$f(3) = 2 \\cdot 3 + 3 = 9$<br /><br />$f(4) = 2 \\cdot 4 + 3 = 11$<br /><br />$f(5) = 2 \\cdot 5 + 3 = 13$<br /><br />The outputs are all unique, matching elements in $Y$.<br /><br />*One-one*: Yes, since different $x$ give different $f(x)$.<br /><br />*Onto*: For every $y \\in Y$, $y = 2x+3$ for some $x$ in $X$.<br /><br />Therefore, $f$ is bijective.<br /><br />(b)<br /><br />To show $g$ is the inverse of $f$:<br /><br />$g(f(x)) = g(2x+3) = \\frac{2x+3-3}{2} = \\frac{2x}{2} = x$<br /><br />$f(g(y)) = f\\left(\\frac{y-3}{2}\\right) = 2 \\cdot \\frac{y-3}{2} + 3 = (y-3)+3 = y$<br /><br />Thus, $g$ is the inverse of $f$.<br /><br />(c)<br /><br />$h(x) = (f(x) + 1) \\bmod 10$<br /><br />Calculate $h$ for $x = 1$ to $5$:<br /><br />$h(1) = (5+1) \\bmod 10 = 6$<br /><br />$h(2) = (7+1) \\bmod 10 = 8$<br /><br />$h(3) = (9+1) \\bmod 10 = 0$<br /><br />$h(4) = (11+1) \\bmod 10 = 12 \\bmod 10 = 2$<br /><br />$h(5) = (13+1) \\bmod 10 = 14 \\bmod 10 = 4$<br /><br />Image of $h$ is $\\{0,2,4,6,8\\}$.<br /><br />Is $h$ invertible on this image? From above, each $x \\in X$ produces a unique image.<br /><br />Therefore, $h$ is invertible as a function from $X$ to $\\{0,2,4,6,8\\}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is one-one and onto from $X$ to $Y$, hence bijective.<br />(b) $g(f(x))=x$ and $f(g(y))=y$, so $g=f^{-1}$.<br />(c) $h(X)=\\{0,2,4,6,8\\}$ and each value comes from a unique $x$, so $h$ is invertible on its image.",
+    "B": "(a) $f$ is one-one but not onto, so it is not bijective.<br />(b) $g$ is not the inverse of $f$.<br />(c) $h$ is not invertible on its image because all outputs repeat.",
+    "C": "(a) $f$ is onto but not one-one.<br />(b) $g(y)=\\frac{y+3}{2}$ is the inverse of $f$.<br />(c) $h(X)=\\{1,3,5,7,9\\}$ and is not invertible.",
+    "D": "(a) $f$ is neither one-one nor onto.<br />(b) $g(f(x))=2x$ and $f(g(y))=y+3$.<br />(c) $h$ maps every element of $X$ to $0$, so it is not invertible."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:29:10 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

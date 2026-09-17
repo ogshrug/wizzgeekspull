@@ -1,0 +1,30 @@
+{
+  "id": "6a8d695aa4c50c67348839b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the domain and range of $f(x)=\\cos^{-1}\\left(\\frac{1-x^2}{1+x^2}\\right)$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b><br>Since $1+x^2>0$ for every real $x$, the denominator never becomes zero.<br><br><b>Step 2:</b><br>Let $t=\\frac{1-x^2}{1+x^2}$. The inequalities $$-(1+x^2)\\leq1-x^2\\leq1+x^2$$ hold for every real $x$. Therefore, $-1\\leq t\\leq1$, and the domain of $f$ is $\\mathbb{R}$.<br><br><b>Step 3:</b><br>At $x=0$, $t=1$. As $|x|$ increases without bound, $t$ approaches $-1$, but $t$ never equals $-1$ for any finite real $x$. Thus, the range of $t$ is $(-1,1]$.<br><br><b>Step 4:</b><br>Since $\\cos^{-1}t$ is decreasing, $t\\in(-1,1]$ produces $\\cos^{-1}t\\in[0,\\pi)$.<br><br><b>Final Answer:</b><br>The domain is $\\mathbb{R}$ and the range is $$[0,\\pi).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $\\mathbb{R}$; Range: $[0,\\pi]$",
+    "B": "Domain: $\\mathbb{R}\\setminus\\{0\\}$; Range: $(0,\\pi)$",
+    "C": "Domain: $\\mathbb{R}$; Range: $(0,\\pi]$",
+    "D": "Domain: $\\mathbb{R}$; Range: $[0,\\pi)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

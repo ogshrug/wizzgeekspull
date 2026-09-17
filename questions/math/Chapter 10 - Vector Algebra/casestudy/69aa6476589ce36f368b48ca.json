@@ -1,0 +1,33 @@
+{
+  "id": "69aa6476589ce36f368b48ca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c4",
+    "6a13e767d837c8c7efa6b8c7",
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e766d837c8c7efa6b8c0"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Construction Engineering — Crane Movement**<br /><br />A construction company is tasked to lift a heavy steel beam from point A (with position vector $\\vec{OA} = 5\\hat{i} + 3\\hat{j} + 0\\hat{k}$) to the top of a building at point B ($\\vec{OB} = 15\\hat{i} + 19\\hat{j} + 15\\hat{k}$). The crane cable pulls along a vector $\\vec{F} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k}$ (in kN). The movement is assisted by a guide rope exerting a force $\\vec{G} = -\\hat{i} + 2\\hat{j} + 3\\hat{k}$ (in kN).<br /><br />(a) Find the displacement vector $\\vec{AB}$.<br /><br />(b) Compute the resultant force acting (vector sum of $\\vec{F}$ and $\\vec{G}$).<br /><br />(c) Find the magnitude of the displacement.<br /><br />(d) Calculate the work done by the resultant force in moving the beam from A to B.<br /><br />(e) If the vector representing the rooftop surface is $\\vec{u} = 4\\hat{i} - 4\\hat{j} + \\hat{k}$, find a unit vector perpendicular to both $\\vec{AB}$ and $\\vec{u}$.<br /><br />(f) Compute the area of the parallelogram formed by vectors $\\vec{AB}$ and $\\vec{u}$.",
+  "answeroption": "D",
+  "explanation": "(a) Displacement vector:<br /><br />$\\vec{AB} = \\vec{OB} - \\vec{OA}$<br /><br />$= (15\\hat{i} + 19\\hat{j} + 15\\hat{k}) - (5\\hat{i} + 3\\hat{j} + 0\\hat{k})$<br /><br />$= (15-5)\\hat{i} + (19-3)\\hat{j} + (15-0)\\hat{k}$<br /><br />$= 10\\hat{i} + 16\\hat{j} + 15\\hat{k}$<br /><br />(b) Resultant force:<br /><br />$\\vec{R} = \\vec{F} + \\vec{G}$<br /><br />$= (2\\hat{i} + 3\\hat{j} + 6\\hat{k}) + (-\\hat{i} + 2\\hat{j} + 3\\hat{k})$<br /><br />$= (2-1)\\hat{i} + (3+2)\\hat{j} + (6+3)\\hat{k}$<br /><br />$= 1\\hat{i} + 5\\hat{j} + 9\\hat{k}$<br /><br />(c) Magnitude of displacement:<br /><br />$|\\vec{AB}| = \\sqrt{10^2 + 16^2 + 15^2}$<br /><br />$= \\sqrt{100 + 256 + 225}$<br /><br />$= \\sqrt{581}$<br /><br />$|\\vec{AB}| \\approx 24.10$ units<br /><br />(d) Work done:<br /><br />$W = \\vec{R} \\cdot \\vec{AB}$<br /><br />$= (1\\hat{i} + 5\\hat{j} + 9\\hat{k}) \\cdot (10\\hat{i} + 16\\hat{j} + 15\\hat{k})$<br /><br />$= (1)(10) + (5)(16) + (9)(15)$<br /><br />$= 10 + 80 + 135$<br /><br />$= 225$<br /><br />Work done is $225$ kJ (since force in kN, displacement in m).<br /><br />(e) Unit vector perpendicular to both $\\vec{AB}$ and $\\vec{u}$:<br /><br />First, $\\vec{n} = \\vec{AB} \\times \\vec{u}$<br /><br />Set up determinant:<br /><br />$\\vec{n} = | \\begin{array}{ccc} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 10 & 16 & 15 \\\\ 4 & -4 & 1 \\end{array} |$<br /><br />$= \\hat{i}[(16 \\cdot 1)-(15 \\cdot -4)] - \\hat{j}[(10 \\cdot 1)-(15 \\cdot 4)] + \\hat{k}[(10 \\cdot -4)-(16 \\cdot 4)]$<br /><br />$= \\hat{i}[16 + 60] - \\hat{j}[10 - 60] + \\hat{k}[-40 - 64]$<br /><br />$= 76\\hat{i} + 50\\hat{j} - 104\\hat{k}$<br /><br />Now, magnitude:<br /><br />$|\\vec{n}| = \\sqrt{76^2 + 50^2 + 104^2}$<br /><br />$= \\sqrt{5776 + 2500 + 10816}$<br /><br />$= \\sqrt{19092}$<br /><br />$\\approx 138.24$<br /><br />Unit vector $\\hat{n} = \\dfrac{76}{138.24}\\hat{i} + \\dfrac{50}{138.24}\\hat{j} - \\dfrac{104}{138.24}\\hat{k}$.<br /><br />(f) Area of parallelogram:<br /><br />$|\\vec{AB} \\times \\vec{u}| = 138.24$ units².",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec{AB}=10\\hat{i}+16\\hat{j}+15\\hat{k}$<br />(b) $\\vec{R}=\\hat{i}+5\\hat{j}+9\\hat{k}$<br />(c) $|\\vec{AB}|=\\sqrt{581}$<br />(d) Work done $=225$ kJ<br />(e) Unit vector $=\\frac{76\\hat{i}+50\\hat{j}+104\\hat{k}}{\\sqrt{19092}}$<br />(f) Area $=138.24$ units²",
+    "B": "(a) $\\vec{AB}=15\\hat{i}+19\\hat{j}+15\\hat{k}$<br />(b) $\\vec{R}=\\hat{i}+5\\hat{j}+9\\hat{k}$<br />(c) $|\\vec{AB}|=\\sqrt{581}$<br />(d) Work done $=225$ kJ<br />(e) Unit vector $=\\frac{76\\hat{i}+50\\hat{j}-104\\hat{k}}{\\sqrt{19092}}$<br />(f) Area $=138.24$ units²",
+    "C": "(a) $\\vec{AB}=10\\hat{i}+16\\hat{j}+15\\hat{k}$<br />(b) $\\vec{R}=3\\hat{i}+5\\hat{j}+9\\hat{k}$<br />(c) $|\\vec{AB}|=\\sqrt{581}$<br />(d) Work done $=245$ kJ<br />(e) Unit vector $=\\frac{76\\hat{i}+50\\hat{j}-104\\hat{k}}{\\sqrt{19092}}$<br />(f) Area $=19092$ units²",
+    "D": "(a) $\\vec{AB}=10\\hat{i}+16\\hat{j}+15\\hat{k}$<br />(b) $\\vec{R}=\\hat{i}+5\\hat{j}+9\\hat{k}$<br />(c) $|\\vec{AB}|=\\sqrt{581}$<br />(d) Work done $=225$ kJ<br />(e) Unit vector $=\\frac{76\\hat{i}+50\\hat{j}-104\\hat{k}}{\\sqrt{19092}}$<br />(f) Area $=138.24$ units²"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:21:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

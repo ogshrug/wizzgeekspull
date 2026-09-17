@@ -1,0 +1,29 @@
+{
+  "id": "69aa6638589ce36f368b48d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Medical Science – Tumor Localization**<br /><br />An imaging device at $(10,-6,12)$ reflects across plane $4x-y+5z=8$.<br /><br />(1) Find coordinates of the image.<br /><br />(2) Obtain equation of line joining device and image.<br /><br />(3) Find length of segment from device to plane.<br /><br />(4) Explain how this reflection helps tumor mapping.",
+  "answeroption": "B",
+  "explanation": "Normal vector $(4,-1,5)$.<br /><br /> Using normal-line method gives foot $F(0.667,-3.667,0.333)$.<br /><br /> Image point $(-8.666,-1.334,-11.334)$.<br /><br /> Line through device and image: $(10,-6,12)+\\lambda(-18.666,4.666,-23.334)$.<br /><br /> Distance from point to plane $=\\frac{|4*10+6+60-8|}{\\sqrt{42}}=\\frac{98}{\\sqrt{42}}\\approx15.12$.<br /><br /> Reflection enables accurate mirrored localization of structures in scans.",
+  "explanation_image": [],
+  "options": {
+    "A": "(1) Image point is $\\left(\\frac{2}{3},-\\frac{11}{3},\\frac{1}{3}\\right)$<br />(2) Joining line is $(10,-6,12)+\\lambda(4,-1,5)$<br />(3) Length from device to plane is $\\frac{49}{\\sqrt{42}}$<br />(4) It identifies only the foot of perpendicular",
+    "B": "(1) Image point is $\\left(-\\frac{26}{3},-\\frac{4}{3},-\\frac{34}{3}\\right)$, approximately $(-8.666,-1.334,-11.334)$<br />(2) Joining line is $(10,-6,12)+\\lambda\\left(-\\frac{56}{3},\\frac{14}{3},-\\frac{70}{3}\\right)$<br />(3) Length from device to plane is $\\frac{98}{\\sqrt{42}}\\approx15.12$<br />(4) Reflection enables accurate mirrored localization of structures in scans",
+    "C": "(1) Image point is $\\left(\\frac{26}{3},\\frac{4}{3},\\frac{34}{3}\\right)$<br />(2) Joining line is $(10,-6,12)+\\lambda\\left(\\frac{56}{3},-\\frac{14}{3},\\frac{70}{3}\\right)$<br />(3) Length from device to plane is $\\frac{42}{98}$<br />(4) Reflection gives the plane normal only",
+    "D": "(1) Image point is $(10,-6,12)$<br />(2) Joining line is undefined<br />(3) Length from device to plane is $0$<br />(4) The device already lies on the plane"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:29:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a90044f4b490c7cde35954b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d0"
+  ],
+  "question_type": "SA",
+  "question": "Consider the lines $\\vec{r}=(\\hat{i}+2\\hat{j}+3\\hat{k})+\\lambda(\\hat{i}+\\hat{j}+\\hat{k})$ and $\\vec{r}=(2\\hat{i}+\\hat{j}+k\\hat{k})+\\mu(2\\hat{i}-\\hat{j}+\\hat{k})$. Determine the value of $k$ for which the lines intersect. Hence, state the values of $k$ for which they are skew.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Direction-vector comparison</b><br>The direction vectors are $(1,1,1)$ and $(2,-1,1)$. Since these are not proportional, the two lines cannot be parallel for any value of $k$.<br><b>Step 2: Intersection conditions</b><br>For an intersection, corresponding coordinates must be equal. Therefore,<br>$$1+\\lambda=2+2\\mu,\\quad 2+\\lambda=1-\\mu,\\quad 3+\\lambda=k+\\mu.$$<br><b>Step 3: Determination of parameters</b><br>The first two equations give<br>$$\\lambda-2\\mu=1,\\quad \\lambda+\\mu=-1.$$<br>Solving, we get $\\mu=-\\frac{2}{3}$ and $\\lambda=-\\frac{1}{3}$.<br><b>Step 4: Determination of $k$</b><br>Using the third equation,<br>$$3-\\frac{1}{3}=k-\\frac{2}{3}\\Rightarrow \\frac{8}{3}=k-\\frac{2}{3}\\Rightarrow k=\\frac{10}{3}.$$<br><b>Step 5: Final conclusion</b><br>The lines intersect when $k=\\frac{10}{3}$. Since they are never parallel, they are skew for every $k\\neq\\frac{10}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "They intersect for $k=\\frac{8}{3}$ and are skew for $k\\neq\\frac{8}{3}$.",
+    "B": "They intersect for $k=\\frac{10}{3}$ and are parallel for every other $k$.",
+    "C": "They intersect for $k=\\frac{10}{3}$ and are skew for every $k\\neq\\frac{10}{3}$.",
+    "D": "They are skew for every real value of $k$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

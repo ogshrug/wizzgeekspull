@@ -1,0 +1,29 @@
+{
+  "id": "69aa77628e6d1957407fd1be",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A factory makes gadgets and widgets. Each gadget takes 3 hours assembly, 2 hours testing; each widget 2 hours assembly, 4 hours testing. Available: 18 hours assembly, 24 hours testing per day. It is required to produce at least 2 gadgets and at least 3 widgets daily. The profit on one gadget is ₹60 and one widget is ₹80.<br /><br />(a) Formulate the LPP.<br /><br />(b) Find the vertices of the feasible region.<br /><br />(c) Compute the maximum profit and corresponding production numbers.",
+  "answeroption": "D",
+  "explanation": "Let $x$ = gadgets, $y$ = widgets.<br /><br />(a) LPP:<br /><br />Max $Z = 60x + 80y$<br /><br />$3x + 2y \\leq 18$<br /><br />$2x + 4y \\leq 24$<br /><br />$x \\geq 2, y \\geq 3$<br /><br />(b) $3x+2y=18\\implies y=(18-3x)/2$<br /><br />$2x+4y=24\\implies x+2y=12 \\implies y=(12-x)/2$<br /><br />Intersections:<br /><br />- $x=2$ in $3x+2y=18$: $3*2+2y=18\\implies 2y=18-6=12\\implies y=6$. (2,6)<br /><br />- $y=3$ in $3x+2y=18$: $3x+6=18\\implies 3x=12\\implies x=4$ (4,3)<br /><br />- $x=2$ in $x+2y=12$: $2+2y=12\\implies 2y=10\\implies y=5$ (2,5)<br /><br />- $y=3$ in $x+2y=12$: $x+6=12\\implies x=6$ (6,3)<br /><br />- $x=2, y=3$ point (2,3)<br /><br />Now check which are feasible:<br /><br />At (2,6): $2x+4y=2*2+4*6=4+24=28>24$—Not ok.<br /><br />At (2,5): $3*2+2*5=6+10=16\\leq18$, $2*2+4*5=4+20=24\\leq24$, $x\\geq2,y\\geq3$- OK.<br /><br />At (4,3): $3*4+2*3=12+6=18\\leq18$, $2*4+4*3=8+12=20\\leq24$, $x\\geq2,y\\geq3$ - OK.<br /><br />At (6,3): $3*6+2*3=18+6=24>18$—Not ok.<br /><br />At (2,3): $3*2+2*3=6+6=12<18$, $2*2+4*3=4+12=16<24$, ok.<br /><br />Vertices: (2,5), (4,3), (2,3)<br /><br />(c) $Z$ at (2,5): $60*2+80*5=120+400=520$<br /><br />At (4,3): $60*4+80*3=240+240=480$<br /><br />At (2,3): $60*2+80*3=120+240=360$<br /><br />Maximum at $\\boxed{(2,5)}, Z=520$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Maximize $Z=60x+80y$, subject to $3x+2y\\leq18$, $2x+4y\\leq24$, $x\\geq2$, $y\\geq3$<br />(b) Vertices: $(2,3)$, $(2,5)$, $(4,3)$<br />(c) Produce 4 gadgets and 3 widgets; maximum profit ₹480.",
+    "B": "(a) Maximize $Z=60x+80y$, subject to $3x+2y\\leq18$, $2x+4y\\leq24$, $x\\geq2$, $y\\geq3$<br />(b) Vertices: $(2,3)$, $(2,6)$, $(4,3)$<br />(c) Produce 2 gadgets and 6 widgets; maximum profit ₹600.",
+    "C": "(a) Maximize $Z=60x+80y$, subject to $3x+2y\\leq18$, $2x+4y\\leq24$, $x\\geq2$, $y\\geq3$<br />(b) Vertices: $(2,3)$, $(2,5)$, $(4,3)$<br />(c) Produce 2 gadgets and 3 widgets; maximum profit ₹360.",
+    "D": "(a) Maximize $Z=60x+80y$, subject to $3x+2y\\leq18$, $2x+4y\\leq24$, $x\\geq2$, $y\\geq3$<br />(b) Vertices: $(2,3)$, $(2,5)$, $(4,3)$<br />(c) Produce 2 gadgets and 5 widgets; maximum profit ₹520."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:42:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

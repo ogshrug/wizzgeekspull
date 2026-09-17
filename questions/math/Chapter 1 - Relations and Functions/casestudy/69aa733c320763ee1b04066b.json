@@ -1,0 +1,29 @@
+{
+  "id": "69aa733c320763ee1b04066b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study:**<br /><br />A university is analyzing the attendance records of students across multiple classes. Define the relation $R$ in the set $A$ of all students such that $(a, b) \\in R$ if and only if students $a$ and $b$ attended exactly the same number of classes throughout the semester.<br /><br />**Questions:**<br /><br />1. Prove that $R$ is an equivalence relation.<br /><br />2. For a given student $S$ who attended $20$ classes, describe the equivalence class $[S]$.<br /><br />3. If every student attended a unique number of classes, how many equivalence classes are there in $A$?",
+  "answeroption": "A",
+  "explanation": "1. To show $R$ is an equivalence relation, check:<br /><br />- Reflexivity: Every student attended as many classes as themselves, so $(a,a) \\in R$.<br /><br />- Symmetry: If $(a,b) \\in R$, $a$ and $b$ attended the same number of classes, so $(b,a) \\in R$.<br /><br />- Transitivity: If $(a,b) \\in R$ and $(b,c) \\in R$, then $a$, $b$, and $c$ all attended the same number of classes, so $(a,c) \\in R$.<br /><br />Therefore, $R$ is an equivalence relation.<br /><br />2. The equivalence class $[S]$ is the set of all students who attended $20$ classes.<br /><br />3. If every student attended a unique number of classes, then each equivalence class will have exactly one student. Thus, there will be as many equivalence classes as there are students in $A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "1. $R$ is reflexive, symmetric and transitive, hence it is an equivalence relation.<br />2. $[S]$ is the set of all students who attended exactly $20$ classes.<br />3. If every student attended a unique number of classes, each class is a singleton, so the number of equivalence classes equals $|A|$.",
+    "B": "1. $R$ is reflexive only, so it is not an equivalence relation.<br />2. $[S]$ is the set of all students who attended fewer than $20$ classes.<br />3. There is only one equivalence class.",
+    "C": "1. $R$ is symmetric but not transitive.<br />2. $[S]=\\emptyset$.<br />3. There are exactly $20$ equivalence classes.",
+    "D": "1. $R$ is not reflexive because students cannot be compared with themselves.<br />2. $[S]$ contains all students in $A$.<br />3. No equivalence classes exist."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:25:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

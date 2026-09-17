@@ -1,0 +1,30 @@
+{
+  "id": "6a8d252a77877fac8fdb9922",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a trigonometric identity investigation, two acute principal angles are defined by $\\alpha=\\sin^{-1}\\left(\\dfrac{7}{25}\\right)$ and $\\beta=\\sin^{-1}\\left(\\dfrac{15}{17}\\right)$. From the corresponding right-triangle ratios, $\\cos\\alpha=\\dfrac{24}{25}$ and $\\cos\\beta=\\dfrac{8}{17}$. The students analyse $\\alpha+\\beta$ using the sine and cosine addition formulas. Both the value and sign of $\\cos(\\alpha+\\beta)$ must be checked before the sum can be represented using a single inverse-sine principal value. The principal-value range of $\\sin^{-1}x$ is $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$.<br><br><b>(a)</b> Calculate $\\sin(\\alpha+\\beta)$.<br><br><b>(b)</b> Calculate $\\cos(\\alpha+\\beta)$.<br><br><b>(c)</b> Determine whether $\\alpha+\\beta$ lies in the principal-value range of inverse sine.<br><br><b>(d)</b> Express $\\alpha+\\beta$ as a single inverse-sine principal value.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Using the sine-addition formula,<br>$$\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta$$<br>$$=\\frac{7}{25}\\cdot\\frac{8}{17}+\\frac{24}{25}\\cdot\\frac{15}{17}$$<br>$$=\\frac{56+360}{425}=\\frac{416}{425}$$<br><br><b>(b)</b><br>Using the cosine-addition formula,<br>$$\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta$$<br>$$=\\frac{24}{25}\\cdot\\frac{8}{17}-\\frac{7}{25}\\cdot\\frac{15}{17}$$<br>$$=\\frac{192-105}{425}=\\frac{87}{425}$$<br><br><b>(c)</b><br>Both $\\sin(\\alpha+\\beta)$ and $\\cos(\\alpha+\\beta)$ are positive. Hence, $\\alpha+\\beta$ is an acute angle satisfying<br>$$0<\\alpha+\\beta<\\frac{\\pi}{2}$$<br>Therefore, it lies in the principal-value range of $\\sin^{-1}$.<br><br><b>(d)</b><br>Since<br>$$\\sin(\\alpha+\\beta)=\\frac{416}{425}$$<br>and $\\alpha+\\beta$ belongs to the principal range of inverse sine,<br>$$\\alpha+\\beta=\\sin^{-1}\\left(\\frac{416}{425}\\right)$$<br>Thus,<br>$$\\sin^{-1}\\left(\\frac{7}{25}\\right)+\\sin^{-1}\\left(\\frac{15}{17}\\right)=\\sin^{-1}\\left(\\frac{416}{425}\\right)$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\sin(\\alpha+\\beta)=\\dfrac{304}{425}$<br><br>(b) $\\cos(\\alpha+\\beta)=\\dfrac{297}{425}$<br><br>(c) $\\alpha+\\beta$ is acute and lies in the principal-value range<br><br>(d) $\\alpha+\\beta=\\sin^{-1}\\left(\\dfrac{304}{425}\\right)$",
+    "B": "(a) $\\sin(\\alpha+\\beta)=\\dfrac{416}{425}$<br><br>(b) $\\cos(\\alpha+\\beta)=\\dfrac{87}{425}$<br><br>(c) $\\alpha+\\beta$ is acute and lies in the principal-value range<br><br>(d) $\\alpha+\\beta=\\sin^{-1}\\left(\\dfrac{416}{425}\\right)$",
+    "C": "(a) $\\sin(\\alpha+\\beta)=\\dfrac{416}{425}$<br><br>(b) $\\cos(\\alpha+\\beta)=-\\dfrac{87}{425}$<br><br>(c) $\\alpha+\\beta$ lies in the second quadrant and outside the principal-value range<br><br>(d) $\\alpha+\\beta=\\pi-\\sin^{-1}\\left(\\dfrac{416}{425}\\right)$",
+    "D": "(a) $\\sin(\\alpha+\\beta)=\\dfrac{87}{425}$<br><br>(b) $\\cos(\\alpha+\\beta)=\\dfrac{416}{425}$<br><br>(c) $\\alpha+\\beta$ is acute and lies in the principal-value range<br><br>(d) $\\alpha+\\beta=\\sin^{-1}\\left(\\dfrac{87}{425}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

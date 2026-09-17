@@ -1,0 +1,31 @@
+{
+  "id": "69a9c48962be6a70cd184e39",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A logistics firm needs to design a right circular cylinder (closed at both ends) of fixed volume $1000 \\pi$ cm$^3$ that uses minimum metal for construction.<br /><br />(a) Express surface area as a function of the radius $r$.<br /><br />(b) Use calculus to find dimensions minimizing the area.<br /><br />(c) Prove via second derivative that it gives a minimum.",
+  "answeroption": "C",
+  "explanation": "Let height = $h$, radius = $r$<br /><br />Volume: $\\pi r^2 h = 1000 \\pi \\implies h = \\frac{1000}{r^2}$<br /><br />Surface area: $A = 2\\pi r^2 + 2\\pi r h$<br /><br />Substitute for $h$: $A(r) = 2\\pi r^2 + 2\\pi r \\frac{1000}{r^2} = 2\\pi r^2 + \\frac{2000\\pi}{r}$<br /><br />(b) $\\frac{dA}{dr} = 4\\pi r - \\frac{2000\\pi}{r^2}$<br /><br />Set to 0: $4r^3 = 2000 \\implies r^3 = 500 \\implies r = 5 \\sqrt[3]{4}$<br /><br />$h = \\frac{1000}{(5 \\sqrt[3]{4})^2}$<br /><br />(c) $\\frac{d^2A}{dr^2} = 4\\pi + \\frac{4000\\pi}{r^3}$, which is positive for $r>0$.<br /><br />Thus, area is minimum at $r = 5\\sqrt[3]{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A(r)=2\\pi r^2+\\frac{1000\\pi}{r}$<br />(b) $r=5\\sqrt[3]{2}$ and $h=\\frac{1000}{(5\\sqrt[3]{2})^2}$<br />(c) $\\frac{d^2A}{dr^2}<0$, so area is maximum.",
+    "B": "(a) $A(r)=\\pi r^2+\\frac{2000\\pi}{r}$<br />(b) $r=10$ and $h=10$<br />(c) $\\frac{d^2A}{dr^2}=0$, so the test is inconclusive.",
+    "C": "(a) $A(r)=2\\pi r^2+\\frac{2000\\pi}{r}$<br />(b) $r=5\\sqrt[3]{4}$ and $h=\\frac{1000}{(5\\sqrt[3]{4})^2}$<br />(c) $\\frac{d^2A}{dr^2}=4\\pi+\\frac{4000\\pi}{r^3}>0$ for $r>0$, so area is minimum.",
+    "D": "(a) $A(r)=2\\pi r^2+2000\\pi r$<br />(b) $r=\\sqrt[3]{500}$ and $h=\\frac{1000}{r}$<br />(c) $\\frac{d^2A}{dr^2}<0$, so area is maximum."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:59:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed2dd751910886affb9bf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "SA",
+  "question": "The volume of a cube increases at $54$ cm$^3$/s. Find the rate at which its total surface area increases when its edge is $3$ cm.",
+  "answeroption": "B",
+  "explanation": "Volume relationLet the edge of the cube be $x$ cm. Then $V=x^3$. Differentiating,$$\\frac{dV}{dt}=3x^2\\frac{dx}{dt}$$Rate of change of the edgeAt $x=3$ and $\\frac{dV}{dt}=54$,$$54=3(3)^2\\frac{dx}{dt}$$$$\\frac{dx}{dt}=2\\text{ cm/s}$$Surface-area relationThe total surface area is $S=6x^2$. Therefore,$$\\frac{dS}{dt}=12x\\frac{dx}{dt}$$Required rate$$\\frac{dS}{dt}=12(3)(2)=72\\text{ cm}^2/\\text{s}$$Final resultThe total surface area is increasing at $72$ cm$^2$/s.",
+  "explanation_image": [],
+  "options": {
+    "A": "$36$ cm$^2$/s",
+    "B": "$72$ cm$^2$/s",
+    "C": "$108$ cm$^2$/s",
+    "D": "$54$ cm$^2$/s"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

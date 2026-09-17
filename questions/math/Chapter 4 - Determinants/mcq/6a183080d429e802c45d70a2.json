@@ -1,0 +1,29 @@
+{
+  "id": "6a183080d429e802c45d70a2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6d"
+  ],
+  "question_type": "MCQ",
+  "question": "The cofactor of the element $a_{32}$ in the determinant $\\Delta=\\begin{vmatrix}1&2&3\\\\2&3&1\\\\3&1&2\\end{vmatrix}$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** The cofactor $A_{32}$ is defined as $(-1)^{3+2} M_{32} = -M_{32}$, where $M_{32}$ is the minor obtained by deleting row 3 and column 2.<br /><br />**Step 2:** Construct and evaluate the minor determinant: $M_{32} = \\begin{vmatrix}1&3\\\\2&1\\end{vmatrix} = (1 \\times 1) - (3 \\times 2) = 1 - 6 = -5$.<br /><br />**Step 3:** Compute the cofactor value: $A_{32} = -(-5) = 5$, which matches Option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\pm5$",
+    "B": "-5",
+    "C": "5",
+    "D": "0"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

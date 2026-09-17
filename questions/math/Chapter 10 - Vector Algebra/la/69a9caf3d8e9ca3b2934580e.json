@@ -1,0 +1,31 @@
+{
+  "id": "69a9caf3d8e9ca3b2934580e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c9",
+    "6a13e766d837c8c7efa6b8bc",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\vec{a} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$ and $\\vec{b} = -\\hat{i} + 4\\hat{j} + 2\\hat{k}$. A point R divides the line segment joining points A and B (with position vectors $\\vec{a}$ and $\\vec{b}$) externally in the ratio 2:1. Find:<br /><br />(a) The position vector of R,<br /><br />(b) The magnitude of vector $\\vec{AR}$,<br /><br />(c) Verify whether vector $\\vec{AR}$ is perpendicular to $\\vec{AB}$.",
+  "answeroption": "C",
+  "explanation": "(a) Position vector dividing externally in ratio 2:1:<br /><br />$\\vec{r} = \\frac{2\\vec{b} - 1\\vec{a}}{2-1} = 2\\vec{b} - \\vec{a}$.<br /><br />$= 2(-\\hat{i}+4\\hat{j}+2\\hat{k}) - (2\\hat{i}-\\hat{j}+3\\hat{k})$.<br /><br />$= (-4)\\hat{i} + 9\\hat{j} + \\hat{k}$.<br /><br />(b) $\\vec{AR} = \\vec{r} - \\vec{a}$.<br /><br />$= (-4\\hat{i}+9\\hat{j}+\\hat{k}) - (2\\hat{i}-\\hat{j}+3\\hat{k})$.<br /><br />$= -6\\hat{i} + 10\\hat{j} -2\\hat{k}$.<br /><br />$|\\vec{AR}| = \\sqrt{(-6)^2 + 10^2 + (-2)^2} = \\sqrt{140} = 2\\sqrt{35}$.<br /><br />(c) $\\vec{AB} = \\vec{b}-\\vec{a} = -3\\hat{i}+5\\hat{j}-\\hat{k}$.<br /><br />$\\vec{AR}\\cdot\\vec{AB} = (-6)(-3) + (10)(5) + (-2)(-1) = 70$.<br /><br />Since this is not zero, $\\vec{AR}$ is not perpendicular to $\\vec{AB}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec{r}=4\\hat{i}-9\\hat{j}-\\hat{k}$<br />(b) $|\\vec{AR}|=2\\sqrt{35}$<br />(c) $\\vec{AR}$ is perpendicular to $\\vec{AB}$.",
+    "B": "(a) $\\vec{r}=-4\\hat{i}+9\\hat{j}+\\hat{k}$<br />(b) $|\\vec{AR}|=\\sqrt{70}$<br />(c) $\\vec{AR}$ is perpendicular to $\\vec{AB}$.",
+    "C": "(a) $\\vec{r}=-4\\hat{i}+9\\hat{j}+\\hat{k}$<br />(b) $|\\vec{AR}|=2\\sqrt{35}$<br />(c) $\\vec{AR}$ is not perpendicular to $\\vec{AB}$.",
+    "D": "(a) $\\vec{r}=-3\\hat{i}+5\\hat{j}-\\hat{k}$<br />(b) $|\\vec{AR}|=2\\sqrt{35}$<br />(c) $\\vec{AR}$ is perpendicular to $\\vec{AB}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:26:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

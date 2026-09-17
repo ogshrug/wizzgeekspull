@@ -1,0 +1,30 @@
+{
+  "id": "69a9b21462be6a70cd184e2e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d5d"
+  ],
+  "question_type": "VSA",
+  "question": "If $A$ is a $2 \\times 2$ skew-symmetric matrix, show that $A^2$ is a scalar multiple of the identity matrix.",
+  "answeroption": "D",
+  "explanation": "Let $A = \\begin{bmatrix} 0 & \\alpha \\\\ -\\alpha & 0 \\end{bmatrix}$.<br /><br />Compute $A^2$:<br /><br />$A^2 = \\begin{bmatrix} 0 & \\alpha \\\\ -\\alpha & 0 \\end{bmatrix}\\begin{bmatrix} 0 & \\alpha \\\\ -\\alpha & 0 \\end{bmatrix} = \\begin{bmatrix} -\\alpha^2 & 0 \\\\ 0 & -\\alpha^2 \\end{bmatrix} = -\\alpha^2 I$.<br /><br />Thus $A^2$ is a scalar multiple of the identity matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^2=\\alpha^2I$",
+    "B": "$A^2=0$ for every skew-symmetric matrix",
+    "C": "$A^2=\\begin{bmatrix}0&-\\alpha^2\\\\\\alpha^2&0\\end{bmatrix}$",
+    "D": "$A^2=-\\alpha^2I$, hence it is a scalar multiple of the identity matrix"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:40:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

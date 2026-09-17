@@ -1,0 +1,30 @@
+{
+  "id": "6a9116cc751910886affba55",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A manufacturing unit produces identical components using three machines $M_1$, $M_2$ and $M_3$. Machine $M_1$ produces 50% of the total components, $M_2$ produces 30%, and $M_3$ produces the remaining 20%. From past inspection records, 1% of the components produced by $M_1$, 2% produced by $M_2$, and 4% produced by $M_3$ are defective. A component is selected at random from the combined production and is found to be defective. Let $D$ denote the event that the selected component is defective. The inspection team wants to use the production proportions and defect rates to analyse the source of the defective component.<br><br><b>(a)</b> Find the probability that a randomly selected component is both produced by $M_2$ and defective.<br><br><b>(b)</b> Using total probability, calculate $P(D)$.<br><br><b>(c)</b> Using Bayes’ theorem, determine $P(M_3|D)$.<br><br><b>(d)</b> Compare $P(M_1|D)$ and $P(M_3|D)$ and identify which of these two machines is more likely to have produced the defective component.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>We have $P(M_2)=0.30$ and $P(D|M_2)=0.02$.<br>Therefore,<br>$$P(M_2\\cap D)=P(M_2)P(D|M_2)$$<br>$$P(M_2\\cap D)=0.30\\times0.02=0.006$$<br>Hence, the required probability is $0.006$.<br><br><b>(b)</b><br>Using the theorem of total probability,<br>$$P(D)=P(M_1)P(D|M_1)+P(M_2)P(D|M_2)+P(M_3)P(D|M_3)$$<br>Substituting the given values,<br>$$P(D)=0.50\\times0.01+0.30\\times0.02+0.20\\times0.04$$<br>$$P(D)=0.005+0.006+0.008=0.019$$<br>Thus, $P(D)=0.019=\\frac{19}{1000}$.<br><br><b>(c)</b><br>By Bayes’ theorem,<br>$$P(M_3|D)=\\frac{P(M_3)P(D|M_3)}{P(D)}$$<br>Therefore,<br>$$P(M_3|D)=\\frac{0.20\\times0.04}{0.019}=\\frac{0.008}{0.019}=\\frac{8}{19}$$<br>Hence, given that the component is defective, the probability that it was produced by $M_3$ is $\\frac{8}{19}$.<br><br><b>(d)</b><br>By Bayes’ theorem,<br>$$P(M_1|D)=\\frac{0.50\\times0.01}{0.019}=\\frac{0.005}{0.019}=\\frac{5}{19}$$<br>From part (c),<br>$$P(M_3|D)=\\frac{8}{19}$$<br>Since $\\frac{8}{19}>\\frac{5}{19}$, machine $M_3$ is more likely than $M_1$ to have produced the defective component. Although $M_3$ produces a smaller proportion of the total output, its higher defect rate makes its posterior probability larger.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(M_2\\cap D)=0.006$<br>(b) $P(D)=0.019$<br>(c) $P(M_3|D)=\\frac{8}{19}$<br>(d) $P(M_1|D)=\\frac{5}{19}$ and $M_3$ is more likely",
+    "B": "(a) $P(M_2\\cap D)=0.006$<br>(b) $P(D)=0.020$<br>(c) $P(M_3|D)=\\frac{2}{5}$<br>(d) $P(M_1|D)=\\frac{1}{4}$ and $M_3$ is more likely",
+    "C": "(a) $P(M_2\\cap D)=0.012$<br>(b) $P(D)=0.019$<br>(c) $P(M_3|D)=\\frac{8}{19}$<br>(d) $P(M_1|D)=\\frac{5}{19}$ and $M_1$ is more likely",
+    "D": "(a) $P(M_2\\cap D)=0.006$<br>(b) $P(D)=0.019$<br>(c) $P(M_3|D)=\\frac{5}{19}$<br>(d) $P(M_1|D)=\\frac{8}{19}$ and $M_1$ is more likely"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

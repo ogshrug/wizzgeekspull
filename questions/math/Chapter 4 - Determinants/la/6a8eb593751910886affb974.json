@@ -1,0 +1,30 @@
+{
+  "id": "6a8eb593751910886affb974",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d75"
+  ],
+  "question_type": "LA",
+  "question": "The coefficient matrix of the equations<br>$$2x+ky=7$$<br>$$x+2y=8$$<br>has determinant $3$.<br><br><b>(a)</b> Determine the value of $k$.<br><br><b>(b)</b> For this value of $k$, solve the equations using the inverse-matrix method.<br><br><b>(c)</b> Verify the solution by matrix multiplication.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The coefficient matrix is<br>$$A=\\begin{bmatrix}2 & k\\\\1 & 2\\end{bmatrix}$$<br>Therefore,<br>$$|A|=4-k$$<br>Given that $|A|=3$,<br>$$4-k=3$$<br>Hence,<br>$$k=1$$<br><br><b>(b)</b><br>For $k=1$,<br>$$A=\\begin{bmatrix}2 & 1\\\\1 & 2\\end{bmatrix}$$<br>and<br>$$A^{-1}=\\frac{1}{3}\\begin{bmatrix}2 & -1\\\\-1 & 2\\end{bmatrix}$$<br>Thus,<br>$$\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\frac{1}{3}\\begin{bmatrix}2 & -1\\\\-1 & 2\\end{bmatrix}\\begin{bmatrix}7\\\\8\\end{bmatrix}$$<br>$$=\\frac{1}{3}\\begin{bmatrix}14-8\\\\-7+16\\end{bmatrix}=\\frac{1}{3}\\begin{bmatrix}6\\\\9\\end{bmatrix}$$<br>Therefore,<br>$$x=2,\\quad y=3$$<br><br><b>(c)</b><br>$$A\\begin{bmatrix}2\\\\3\\end{bmatrix}=\\begin{bmatrix}2 & 1\\\\1 & 2\\end{bmatrix}\\begin{bmatrix}2\\\\3\\end{bmatrix}=\\begin{bmatrix}7\\\\8\\end{bmatrix}$$<br>Hence, the solution is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $k=3$<br>(b) $A^{-1}=\\frac13\\begin{bmatrix}2&-3\\\\-1&2\\end{bmatrix}$ and $(x,y)=(2,3)$<br>(c) Matrix multiplication gives $\\begin{bmatrix}7\\\\8\\end{bmatrix}$",
+    "B": "(a) $k=-1$<br>(b) $(x,y)=(3,2)$<br>(c) Matrix multiplication verifies the result",
+    "C": "(a) $k=1$<br>(b) $A^{-1}=\\frac13\\begin{bmatrix}2&-1\\\\-1&2\\end{bmatrix}$ and $(x,y)=(3,2)$<br>(c) Matrix multiplication gives $\\begin{bmatrix}8\\\\7\\end{bmatrix}$",
+    "D": "(a) $k=1$<br>(b) $A^{-1}=\\frac13\\begin{bmatrix}2&-1\\\\-1&2\\end{bmatrix}$ and $(x,y)=(2,3)$<br>(c) $\\begin{bmatrix}2&1\\\\1&2\\end{bmatrix}\\begin{bmatrix}2\\\\3\\end{bmatrix}=\\begin{bmatrix}7\\\\8\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e874f751910886affb929",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "VSA",
+  "question": "The determinant $\\begin{vmatrix}x+1&2\\\\3&x-2\\end{vmatrix}$ is zero. Find the sum of all possible values of $x$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Expand the determinant</b><br>Using the determinant relation for a $2\\times2$ matrix, $$\\begin{vmatrix}x+1&2\\\\3&x-2\\end{vmatrix}=(x+1)(x-2)-6$$<br><b>Step 2: Apply the zero-determinant condition</b><br>Thus, $$(x+1)(x-2)-6=0$$<br><b>Step 3: Simplify</b><br>Expanding gives $x^2-x-2-6=0$, or $$x^2-x-8=0$$<br><b>Step 4: Obtain the required sum</b><br>For $ax^2+bx+c=0$, the sum of its roots is $-\\frac{b}{a}$. Here, $a=1$ and $b=-1$. Therefore, the sum of all possible values of $x$ is $$-\\frac{-1}{1}=1$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$-8$",
+    "B": "$-1$",
+    "C": "$1$",
+    "D": "$8$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

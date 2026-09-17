@@ -1,0 +1,29 @@
+{
+  "id": "69a91289f21e08867c2bcd8f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\begin{bmatrix} 1 & k & 1 \\\\ 1 & 1 & k \\\\ k & 1 & 1 \\end{bmatrix}$. For what values of $k$ does $|A| = 0$?",
+  "answeroption": "B",
+  "explanation": "Compute the determinant:<br />$|A| = \\begin{vmatrix}1 & k & 1 \\\\ 1 & 1 & k \\\\ k & 1 & 1\\end{vmatrix}$<br />Expanding along row 1:<br />$= 1\\begin{vmatrix}1 & k \\\\ 1 & 1\\end{vmatrix} - k\\begin{vmatrix}1 & k \\\\ k & 1\\end{vmatrix} + 1\\begin{vmatrix}1 & 1 \\\\ k & 1\\end{vmatrix}$<br />Now,<br />$\\begin{vmatrix}1 & k \\\\ 1 & 1\\end{vmatrix} = 1 - k$<br />$\\begin{vmatrix}1 & k \\\\ k & 1\\end{vmatrix} = 1 - k^2$<br />$\\begin{vmatrix}1 & 1 \\\\ k & 1\\end{vmatrix} = 1 - k$<br />So,<br />$|A| = (1-k) - k(1 - k^2) + (1 - k) = (2-2k) - k(1 - k^2)$<br />$= 2 - 2k - k + k^3 = k^3 - 3k + 2$<br />Set $=0$:<br />$k^3 - 3k + 2 = 0$<br />Factor: $(k-1)^2(k+2)=0 \\implies k=1\\;(repeated);\\;-2$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=1$ only",
+    "B": "$k=1$ or $k=-2$",
+    "C": "$k=-1$ or $k=2$",
+    "D": "$k=0$ or $k=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 05:20:09 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

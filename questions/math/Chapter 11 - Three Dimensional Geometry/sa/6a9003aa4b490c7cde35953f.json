@@ -1,0 +1,29 @@
+{
+  "id": "6a9003aa4b490c7cde35953f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cc"
+  ],
+  "question_type": "SA",
+  "question": "The line joining $P(1,-2,3)$ to $Q(3,1,k)$ is directed from $P$ to $Q$. If its direction cosine with the positive $z$-axis is $\\frac{6}{7}$ and $k>3$, find $k$. Hence, obtain all the direction cosines of the line.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Direction components</b><br>For the line directed from $P(1,-2,3)$ to $Q(3,1,k)$, the direction components are<br>$$2,\\quad 3,\\quad k-3.$$<br><b>Step 2: Length of the joining segment</b><br>Therefore,<br>$$PQ=\\sqrt{2^2+3^2+(k-3)^2}=\\sqrt{13+(k-3)^2}.$$<br><b>Step 3: Use of the given direction cosine</b><br>The direction cosine with the positive $z$-axis is<br>$$\\frac{k-3}{\\sqrt{13+(k-3)^2}}=\\frac{6}{7}.$$<br>Squaring and simplifying,<br>$$49(k-3)^2=36\\left[13+(k-3)^2\\right],$$<br>$$13(k-3)^2=468,$$<br>so $(k-3)^2=36$. Since $k>3$, $k-3=6$, giving $k=9$.<br><b>Step 4: Direction cosines</b><br>Now $PQ=\\sqrt{4+9+36}=7$. Hence the direction cosines are<br>$$\\frac{2}{7},\\quad \\frac{3}{7},\\quad \\frac{6}{7}.$$<br><b>Step 5: Final result</b><br>Thus, $k=9$ and the required direction cosines are $\\left(\\frac{2}{7},\\frac{3}{7},\\frac{6}{7}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=9$; direction cosines $\\left(\\frac{2}{7},\\frac{3}{7},\\frac{6}{7}\\right)$",
+    "B": "$k=-3$; direction cosines $\\left(\\frac{2}{7},\\frac{3}{7},-\\frac{6}{7}\\right)$",
+    "C": "$k=6$; direction cosines $\\left(\\frac{2}{\\sqrt{22}},\\frac{3}{\\sqrt{22}},\\frac{3}{\\sqrt{22}}\\right)$",
+    "D": "$k=10$; direction cosines $\\left(\\frac{2}{\\sqrt{62}},\\frac{3}{\\sqrt{62}},\\frac{7}{\\sqrt{62}}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a2fc7ddb51101141dc0dc9d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "Find the coordinates of the point where the line through $(5, 1, 6)$ and $(3, 4, 1)$ crosses the $zx$-plane.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find the equation of the line passing through $(5, 1, 6)$ and $(3, 4, 1)$.<br />$\\frac{x - 5}{3 - 5} = \\frac{y - 1}{4 - 1} = \\frac{z - 6}{1 - 6} \\implies \\frac{x - 5}{-2} = \\frac{y - 1}{3} = \\frac{z - 6}{-5}$<br />**Step 2:** Equate the line equation to a parameter $\\lambda$ to find the coordinates of a general point on the line.<br />$x = -2\\lambda + 5$, $y = 3\\lambda + 1$, $z = -5\\lambda + 6$<br />**Step 3:** Apply the condition for the $zx$-plane. On the $zx$-plane, the $y$-coordinate is zero.<br />$3\\lambda + 1 = 0 \\implies \\lambda = -\\frac{1}{3}$<br />**Step 4:** Substitute the value of $\\lambda$ back into the general point coordinates.<br />$x = -2(-\\frac{1}{3}) + 5 = \\frac{17}{3}$<br />$z = -5(-\\frac{1}{3}) + 6 = \\frac{23}{3}$<br />The required point is $(\\frac{17}{3}, 0, \\frac{23}{3})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

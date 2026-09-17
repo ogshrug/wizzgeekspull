@@ -1,0 +1,34 @@
+{
+  "id": "6a22b857864be73cfcf6d2c0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\tan(\\frac{x+y}{x-y}) = k$, then $\\frac{dy}{dx}$ is equal to",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Apply the inverse tangent function to both sides to simplify the expression: $\\frac{x+y}{x-y} = \\tan^{-1}k$. Let the constant $\\tan^{-1}k$ be denoted as $c$.<br />**Step 2:** Rearrange the equation to express $y$ in terms of $x$: $x+y = c(x-y) \\implies x+y = cx-cy$. Grouping $y$ terms gives $y(1+c) = x(c-1)$, so $y = x(\\frac{c-1}{c+1})$.<br />**Step 3:** The term $\\frac{c-1}{c+1}$ is just another mathematical constant, let's call it $m$. So the equation represents a straight line through the origin, $y = mx$.<br />**Step 4:** Differentiating both sides with respect to $x$ yields $\\frac{dy}{dx} = m$. Since $y = mx$, we can substitute $m$ back as $\\frac{y}{x}$. Thus, $\\frac{dy}{dx} = \\frac{y}{x}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{-y}{x}$",
+    "B": "$\\frac{y}{x}$",
+    "C": "$\\sec^2(\\frac{y}{x})$",
+    "D": "$-\\sec^2(\\frac{y}{x})$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

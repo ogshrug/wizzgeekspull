@@ -1,0 +1,29 @@
+{
+  "id": "69a9b260589ce36f368b488d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c9"
+  ],
+  "question_type": "SA",
+  "question": "Let $P(1,2,3)$, $Q(4, 5, 6)$, and $R$ lie on the line segment $PQ$, dividing it internally in the ratio $m:n$. If the position vector of $R$ is $\\vec{r} = 5\\hat{i} + 7\\hat{j} + 9\\hat{k}$, determine the ratio $m:n$ and whether $R$ lies between $P$ and $Q$.",
+  "answeroption": "B",
+  "explanation": "By internal section formula:<br /><br />$\\vec{r} = \\frac{m \\vec{b} + n \\vec{a}}{m+n}$<br /><br />Let $\\vec{a} = \\vec{OP} = \\hat{i} + 2 \\hat{j} + 3 \\hat{k}$<br /><br />$\\vec{b} = \\vec{OQ} = 4\\hat{i} + 5\\hat{j} + 6\\hat{k}$<br /><br />So<br /><br />$\\vec{r} = \\frac{m(4\\hat{i} + 5\\hat{j} + 6\\hat{k}) + n(\\hat{i} + 2\\hat{j} + 3\\hat{k})}{m+n}$<br /><br />Equate components to $5\\hat{i} + 7\\hat{j} + 9\\hat{k}$<br /><br />For $\\hat{i}$:<br /><br />$\\frac{4m + n}{m+n} =5$<br /><br />$4m + n = 5(m+n)$<br /><br />$4m + n = 5m + 5n$<br /><br />$-m = 4n$<br /><br />Thus, $m = -4n$<br /><br />Since $m$ is negative, the division is external. Thus, $R$ does not lie between $P$ and $Q$, but outside.<br /><br />Thus, $\\boxed{m:n = -4:1}$; $R$ is outside $PQ$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$m:n=-4:1$; $R$ lies externally on line $PQ$.",
+    "B": "No internal ratio exists; $R$ does not lie on line $PQ$ and hence does not lie between $P$ and $Q$.",
+    "C": "$m:n=4:1$; $R$ lies between $P$ and $Q$.",
+    "D": "$m:n=1:4$; $R$ lies between $P$ and $Q$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:42:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

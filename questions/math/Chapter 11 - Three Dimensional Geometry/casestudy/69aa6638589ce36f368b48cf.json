@@ -1,0 +1,29 @@
+{
+  "id": "69aa6638589ce36f368b48cf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Robotics – Path of a Robot Arm**<br /><br />A robot arm starts at $P(0,2,0)$ and moves to $Q(2,6,8)$. The motion lies in a plane containing $R(4,2,6)$.<br /><br />(1) Find direction ratios of $PQ$ and $PR$.<br /><br />(2) Write vector equation of the plane containing $P,Q,R$.<br /><br />(3) Write Cartesian equation of the plane.<br /><br />(4) Find equation of robot path.<br /><br />(5) Find direction cosines of plane normal.<br /><br />(6) Interpret the physical meaning of the normal vector.",
+  "answeroption": "D",
+  "explanation": "Direction ratios: $PQ=(2,4,8)$, $PR=(4,0,6)$. <br /><br />Cross product gives plane normal $(24,20,-16)$. <br /><br />Plane equation: $24(x-0)+20(y-2)-16(z-0)=0$ or $24x+20y-16z=40$.<br /><br /> Robot path line: $(x-0)/2=(y-2)/4=(z-0)/8$. <br /><br />Normal direction cosines: $(24,20,-16)/\\sqrt{1232}$.<br /><br /> Normal represents the direction perpendicular to the robot’s motion plane.",
+  "explanation_image": [],
+  "options": {
+    "A": "(1) $PQ=(2,4,8)$ and $PR=(4,0,6)$<br />(2) Plane normal is $(2,4,8)$<br />(3) Plane equation is $2x+4y+8z=40$<br />(4) Robot path is $\\frac{x}{4}=\\frac{y-2}{0}=\\frac{z}{6}$<br />(5) Direction cosines are $\\frac{(2,4,8)}{\\sqrt{84}}$<br />(6) Normal is along the robot path",
+    "B": "(1) $PQ=(2,4,8)$ and $PR=(4,0,6)$<br />(2) Plane normal is $(24,20,16)$<br />(3) Plane equation is $24x+20y+16z=40$<br />(4) Robot path is $\\frac{x}{2}=\\frac{y-2}{4}=\\frac{z}{8}$<br />(5) Direction cosines are $\\frac{(24,20,16)}{\\sqrt{1232}}$<br />(6) Normal lies inside the motion plane",
+    "C": "(1) $PQ=(4,0,6)$ and $PR=(2,4,8)$<br />(2) Plane normal is $(24,20,-16)$<br />(3) Plane equation is $24x+20y-16z=0$<br />(4) Robot path is $\\frac{x}{2}=\\frac{y}{4}=\\frac{z}{8}$<br />(5) Direction cosines are $\\frac{(6,5,-4)}{\\sqrt{77}}$<br />(6) Normal gives the robot arm length",
+    "D": "(1) Direction ratios: $PQ=(2,4,8)$ and $PR=(4,0,6)$<br />(2) A vector form of the plane is $\\vec r=(0,2,0)+s(2,4,8)+t(4,0,6)$<br />(3) Cartesian equation is $24x+20y-16z=40$<br />(4) Robot path is $\\frac{x-0}{2}=\\frac{y-2}{4}=\\frac{z-0}{8}$<br />(5) Direction cosines of the plane normal are $\\frac{(24,20,-16)}{\\sqrt{1232}}$<br />(6) The normal represents the direction perpendicular to the robot’s motion plane"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:29:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

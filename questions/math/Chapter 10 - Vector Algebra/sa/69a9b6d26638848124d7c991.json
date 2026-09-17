@@ -1,0 +1,30 @@
+{
+  "id": "69a9b6d26638848124d7c991",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8c7"
+  ],
+  "question_type": "SA",
+  "question": "If the projection of $\\vec{a} = x\\hat{i} + y\\hat{j}$ on $\\vec{b} = 4\\hat{i} - 3\\hat{j}$ is 3 and $\\vec{a}$ is perpendicular to $\\vec{b} + \\hat{j}$, find all the possible ordered pairs $(x, y)$.",
+  "answeroption": "B",
+  "explanation": "First, projection of $\\vec{a}$ on $\\vec{b}$:<br /><br />$\\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} = 3$<br /><br />$\\vec{a} \\cdot \\vec{b} = 4x - 3y$<br /><br />$|\\vec{b}| = 5$<br /><br />$\\implies 4x - 3y = 15$ (1)<br /><br />Now $\\vec{a} \\perp (\\vec{b} + \\hat{j}) = (4\\hat{i} - 2\\hat{j})$<br /><br />$\\vec{a} \\cdot (4\\hat{i} - 2\\hat{j}) = 4x - 2y = 0$<br /><br />$\\implies 4x = 2y \\implies x = y/2$<br /><br />Plug into (1):<br /><br />$4(y/2) - 3y = 15$<br /><br />$2y - 3y = 15 \\implies -y = 15 \\implies y = -15$, $x = -15/2$<br /><br />So only possible pair is $(-7.5, -15)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\left(\\frac{15}{2},15\\right)$",
+    "B": "$\\left(-\\frac{15}{2},-15\\right)$",
+    "C": "$(-15,-30)$",
+    "D": "$\\left(-\\frac{15}{4},-15\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:01:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

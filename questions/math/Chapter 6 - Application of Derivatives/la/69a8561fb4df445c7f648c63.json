@@ -1,0 +1,30 @@
+{
+  "id": "69a8561fb4df445c7f648c63",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f974",
+    "6a13e98e8c819562f933f973"
+  ],
+  "question_type": "LA",
+  "question": "A particle moves along a straight line so that its position at any time $t$ is given by $s = t^3 - 6t^2 + 9t + 5$. Find the time at which the particle changes its direction and also find the position of the particle at that instant.",
+  "answeroption": "B",
+  "explanation": "Velocity $v=\\frac{ds}{dt}=3t^2-12t+9=3(t-1)(t-3)$.<br /><br />Setting $v=0$ gives $t=1$ and $t=3$.<br /><br />Sign analysis shows velocity changes sign at both values.<br /><br />Thus particle changes direction at $t=1$ and $t=3$.<br /><br />Position at $t=1$ is $9$.<br /><br />Position at $t=3$ is $5$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The particle changes direction only at $t=1$, and its position is $s=9$.",
+    "B": "The particle changes direction at $t=1$ and $t=3$; the corresponding positions are $s=9$ and $s=5$.",
+    "C": "The particle changes direction at $t=0$ and $t=3$; the corresponding positions are $s=5$ and $s=5$.",
+    "D": "The particle does not change direction because velocity is never zero."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:56:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

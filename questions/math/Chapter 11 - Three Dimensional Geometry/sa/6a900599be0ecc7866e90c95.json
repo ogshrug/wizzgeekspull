@@ -1,0 +1,29 @@
+{
+  "id": "6a900599be0ecc7866e90c95",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "SA",
+  "question": "Find the acute angle between the line $\\vec{r}=(\\hat{i}-\\hat{j}+2\\hat{k})+\\lambda(2\\hat{i}-\\hat{j}+2\\hat{k})$ and the plane $x+2y+2z=6$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Direction vector and normal vector</b><br>The direction vector of the line is<br>$$\\vec{b}=2\\hat{i}-\\hat{j}+2\\hat{k},$$<br>while a normal vector to the plane is<br>$$\\vec{n}=\\hat{i}+2\\hat{j}+2\\hat{k}.$$<br><b>Step 2: Angle-between-line-and-plane relation</b><br>If $\\phi$ is the acute angle between the line and the plane, then<br>$$\\sin\\phi=\\frac{|\\vec{b}\\cdot\\vec{n}|}{|\\vec{b}||\\vec{n}|}.$$<br><b>Step 3: Scalar product</b><br>$$\\vec{b}\\cdot\\vec{n}=2(1)+(-1)(2)+2(2)=4.$$<br><b>Step 4: Magnitudes and substitution</b><br>$$|\\vec{b}|=\\sqrt{4+1+4}=3,\\quad |\\vec{n}|=\\sqrt{1+4+4}=3.$$<br>Thus,<br>$$\\sin\\phi=\\frac{4}{9}.$$<br><b>Step 5: Final result</b><br>Therefore, the acute angle between the line and the plane is<br>$$\\phi=\\sin^{-1}\\left(\\frac{4}{9}\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cos^{-1}\\left(\\frac{4}{9}\\right)$",
+    "B": "$\\sin^{-1}\\left(\\frac{5}{9}\\right)$",
+    "C": "$\\cos^{-1}\\left(\\frac{5}{9}\\right)$",
+    "D": "$\\sin^{-1}\\left(\\frac{4}{9}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

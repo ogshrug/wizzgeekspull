@@ -1,0 +1,26 @@
+{
+  "id": "6a22793c864be73cfcf6d1f4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation $\\frac{dy}{dx}=\\cos x-2y$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rearrange the given differential equation into the standard linear form $\\frac{dy}{dx} + P(x)y = Q(x)$. The equation becomes $\\frac{dy}{dx} + 2y = \\cos x$. Here, $P(x) = 2$ and $Q(x) = \\cos x$.<br />**Step 2:** Calculate the Integrating Factor (IF). The IF is given by $e^{\\int P(x) dx} = e^{\\int 2 dx} = e^{2x}$.<br />**Step 3:** Multiply the entire equation by the IF. The general solution is formulated as $y \\cdot \\text{IF} = \\int Q(x) \\cdot \\text{IF} \\, dx + C$.<br />**Step 4:** Substitute the IF and $Q(x)$: $y e^{2x} = \\int e^{2x} \\cos x dx + C$.<br />**Step 5:** Let $I = \\int e^{2x} \\cos x dx$. Solve this using integration by parts. Let $u = \\cos x$ and $dv = e^{2x} dx$. Then $du = -\\sin x dx$ and $v = \\frac{e^{2x}}{2}$.<br />**Step 6:** $I = \\frac{1}{2} e^{2x} \\cos x - \\int \\frac{1}{2} e^{2x} (-\\sin x) dx = \\frac{1}{2} e^{2x} \\cos x + \\frac{1}{2} \\int e^{2x} \\sin x dx$.<br />**Step 7:** Apply integration by parts again to $\\int e^{2x} \\sin x dx$. Let $u = \\sin x, dv = e^{2x} dx$. Then $du = \\cos x dx, v = \\frac{e^{2x}}{2}$. The integral becomes $\\frac{1}{2} e^{2x} \\sin x - \\frac{1}{2} \\int e^{2x} \\cos x dx$. Notice the integral is $I$ again.<br />**Step 8:** Substitute back: $I = \\frac{1}{2} e^{2x} \\cos x + \\frac{1}{2} [ \\frac{1}{2} e^{2x} \\sin x - \\frac{1}{2} I ] = \\frac{1}{2} e^{2x} \\cos x + \\frac{1}{4} e^{2x} \\sin x - \\frac{1}{4} I$.<br />**Step 9:** Bring $I$ terms together: $I + \\frac{1}{4} I = \\frac{5}{4} I = e^{2x} (\\frac{2\\cos x + \\sin x}{4})$. Solving for $I$, $I = \\frac{e^{2x}(2\\cos x + \\sin x)}{5}$.<br />**Step 10:** Substitute $I$ back into the general solution equation: $y e^{2x} = \\frac{e^{2x}(2\\cos x + \\sin x)}{5} + C$. Dividing by $e^{2x}$ gives the final answer: $y = \\frac{2\\cos x + \\sin x}{5} + Ce^{-2x}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

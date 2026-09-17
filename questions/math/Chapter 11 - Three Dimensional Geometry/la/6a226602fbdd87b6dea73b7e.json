@@ -1,0 +1,28 @@
+{
+  "id": "6a226602fbdd87b6dea73b7e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the equation of a line in vector and cartesian form which passes through the point $(1,2,-4)$ and is perpendicular to the lines $\\frac{x-8}{3}=\\frac{y+19}{-16}=\\frac{z-10}{7}$ and $\\vec{r}=15\\hat{i}+29\\hat{j}+5\\hat{k}+\\mu(3\\hat{i}+8\\hat{j}-5\\hat{k}).$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Let the directional components of the required line be represented by the vector $\\vec{n} = a\\hat{i} + b\\hat{j} + c\\hat{k}$. The problem states that this line is perpendicular to both given lines, which have directional vectors $\\vec{b}_1 = 3\\hat{i} - 16\\hat{j} + 7\\hat{k}$ and $\\vec{b}_2 = 3\\hat{i} + 8\\hat{j} - 5\\hat{k}$.<br /><br /><b>Step 2</b> Since the required line is perpendicular to both, its vector direction is parallel to the cross product $\\vec{b}_1 \\times \\vec{b}_2$. Let us evaluate this cross product using a determinant: $\\vec{b}_1 \\times \\vec{b}_2 = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & -16 & 7 \\\\ 3 & 8 & -5 \\end{vmatrix}$.<br /><br /><b>Step 3</b> Expanding the determinant gives: $\\hat{i}(80 - 56) - \\hat{j}(-15 - 21) + \\hat{k}(24 - (-48)) = 24\\hat{i} + 36\\hat{j} + 72\\hat{k}$. We can simplify these directional ratios by dividing through by their greatest common divisor, 12, which gives $(2, 3, 6)$.<br /><br /><b>Step 4</b> Formulate the vector equation of the line using the standard form $\\vec{r} = \\vec{a} + \\kappa\\vec{b}$, where the line passes through point $(1, 2, -4)$ with direction components $(2, 3, 6)$: $\\vec{r} = (\\hat{i} + 2\\hat{j} - 4\\hat{k}) + \\kappa(2\\hat{i} + 3\\hat{j} + 6\\hat{k})$.<br /><br /><b>Step 5</b> Convert this into Cartesian form by relating the coordinates to the directional ratios: $\\frac{x - 1}{2} = \\frac{y - 2}{3} = \\frac{z - (-4)}{6} \\implies \\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z+4}{6}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

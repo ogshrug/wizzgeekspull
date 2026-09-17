@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed537be0ecc7866e90bf4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97d"
+  ],
+  "question_type": "SA",
+  "question": "Obtain the equation of the normal to the curve $y=\\sin x$ at the origin. Verify that it is perpendicular to the tangent at that point.",
+  "answeroption": "A",
+  "explanation": "Slope of the tangentFor $y=\\sin x$,$$\\frac{dy}{dx}=\\cos x$$At the origin, $x=0$, so$$m_t=\\cos0=1$$Slope of the normal$$m_n=-\\frac{1}{m_t}=-1$$Equation through the originThe normal passes through $(0,0)$. Hence,$$y-0=-1(x-0)$$$$y=-x$$Perpendicularity verification$$m_tm_n=(1)(-1)=-1$$Therefore, the tangent and normal are perpendicular.ConclusionThe equation of the normal is $x+y=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x+y=0$; $m_t=1$, $m_n=-1$, so $m_tm_n=-1$",
+    "B": "$x-y=0$; $m_t=1$, $m_n=1$, so $m_tm_n=1$",
+    "C": "$y=0$; $m_t=1$, $m_n=0$",
+    "D": "$x=0$; the normal is parallel to the $y$-axis"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

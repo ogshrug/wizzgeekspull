@@ -1,0 +1,29 @@
+{
+  "id": "6a9003ab4b490c7cde359545",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "SA",
+  "question": "The line through $A(2,-1,4)$ and $B(5,m,10)$ is parallel to the vector $\\hat{i}+2\\hat{j}+2\\hat{k}$. Find $m$ and then obtain a vector equation of the line.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Direction vector from the two points</b><br>The vector joining $A(2,-1,4)$ to $B(5,m,10)$ is<br>$$\\overrightarrow{AB}=(5-2)\\hat{i}+(m+1)\\hat{j}+(10-4)\\hat{k}=3\\hat{i}+(m+1)\\hat{j}+6\\hat{k}.$$<br><b>Step 2: Parallel-vector condition</b><br>Since the line is parallel to $\\hat{i}+2\\hat{j}+2\\hat{k}$, its direction components must be proportional. Thus,<br>$$\\frac{3}{1}=\\frac{m+1}{2}=\\frac{6}{2}.$$<br><b>Step 3: Determination of $m$</b><br>Both the first and third ratios equal $3$. Hence,<br>$$\\frac{m+1}{2}=3,$$<br>which gives<br>$$m+1=6\\Rightarrow m=5.$$<br><b>Step 4: Vector equation</b><br>The position vector of $A$ is $2\\hat{i}-\\hat{j}+4\\hat{k}$. Using the given parallel vector as the direction vector, the equation is<br>$$\\vec{r}=2\\hat{i}-\\hat{j}+4\\hat{k}+\\lambda(\\hat{i}+2\\hat{j}+2\\hat{k}).$$<br><b>Step 5: Final result</b><br>Therefore, $m=5$, and the required vector equation is $\\vec{r}=2\\hat{i}-\\hat{j}+4\\hat{k}+\\lambda(\\hat{i}+2\\hat{j}+2\\hat{k})$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$m=3$; $\\vec r=(2\\hat i-\\hat j+4\\hat k)+\\lambda(\\hat i+2\\hat j+2\\hat k)$",
+    "B": "$m=5$; $\\vec r=(2\\hat i-\\hat j+4\\hat k)+\\lambda(\\hat i+2\\hat j+2\\hat k)$",
+    "C": "$m=5$; $\\vec r=(2\\hat i+\\hat j+4\\hat k)+\\lambda(\\hat i+2\\hat j+2\\hat k)$",
+    "D": "$m=7$; $\\vec r=(2\\hat i-\\hat j+4\\hat k)+\\lambda(2\\hat i+\\hat j+2\\hat k)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

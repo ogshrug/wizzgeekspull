@@ -1,0 +1,30 @@
+{
+  "id": "69aa65c3589ce36f368b48cc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study:**<br /><br />A consulting firm uses the function $g(x) = |x-4| + x$ to model travel expenses, where $x$ is the number of days a consultant stays at a client location. Management wants to know if there are days with abrupt jumps in cost. Specifically:<br /><br />(a) Is $g(x)$ continuous at $x=4$? Prove this.<br /><br />(b) Is $g(x)$ differentiable at $x=4$? If not, why? Show all necessary calculations and graphical arguments.<br /><br />(c) What practical conclusion can be drawn for the firm's travel planning from the (non-)differentiability at $x=4$?",
+  "answeroption": "C",
+  "explanation": "**Step 1:** The function $g(x) = |x-4| + x$<br /><br />**Step 2:** For $x < 4$, $|x-4| = -(x-4) = 4 - x$, so $g(x) = 4 - x + x = 4$.<br /><br />For $x \\geq 4$, $|x-4| = x-4$, so $g(x) = x-4 + x = 2x - 4$.<br /><br />**Step 3:** Write $g(x)$ as<br />$g(x) = \\begin{cases} 4, & x<4 \\\\ 2x-4, & x\\geq 4 \\end{cases}$<br /><br />**Step 4:** Check continuity at $x=4$:<br />Left limit: $\\lim_{x\\to 4^-} g(x) = 4$<br />Right limit: $\\lim_{x\\to 4^+} g(x) = 2(4) - 4 = 8 - 4 = 4$<br />So, both limits and the function value at $x=4$ are equal.<br /><br />So $g(x)$ is continuous at $x=4$.<br /><br />**Step 5:** Compute derivatives:<br />For $x<4$: $g'(x) = d/dx(4) = 0$<br />For $x\\geq4$: $g'(x) = d/dx(2x-4) = 2$<br /><br />**Step 6:** Compute left and right derivatives at $x=4$:<br />Left: $g'_{left}(4) = 0$<br />Right: $g'_{right}(4) = 2$<br /><br />**Step 7:** Left and right derivatives are not equal. Thus, $g(x)$ is not differentiable at $x=4$.<br /><br />**Step 8:** Graphically, at $x=4$, $g(x)$ has a corner. The absolute value causes a 'kink' in the graph.<br /><br />**Step 9:** Practical conclusion: While total cost does not jump suddenly at $x=4$, the rate of increase changes abruptly. For planning, rates for longer stays increase differently after 4 days, signaling a cost policy discontinuity.<br /><br />**Step 10:** $\\boxed{\\text{g(x) is continuous but not differentiable at }x=4}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $g(x)$ is discontinuous at $x=4$.<br />(b) It is not differentiable because the function value is undefined.<br />(c) There is an abrupt jump in total cost at 4 days.",
+    "B": "(a) $g(x)$ is continuous at $x=4$.<br />(b) It is differentiable at $x=4$ because both one-sided derivatives are $2$.<br />(c) Travel cost increases smoothly after 4 days.",
+    "C": "(a) $g(x)$ is continuous at $x=4$ since LHL = RHL = $g(4)=4$.<br />(b) It is not differentiable at $x=4$ because LHD $=0$ and RHD $=2$, giving a corner in the graph.<br />(c) There is no sudden jump in total cost, but the rate of increase changes abruptly after 4 days.",
+    "D": "(a) $g(x)$ is not continuous at $x=4$.<br />(b) It is differentiable because the left and right limits exist.<br />(c) The firm can ignore the change at 4 days."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:27:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa7e042a66c0f894c1aa22",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\vec{a} = (1,2,3)$ and $\\vec{b} = (4,5,6)$.\\\\\n(a) Find the vector equation of the plane passing through the point $(1,0,-1)$ and perpendicular to $\\vec{a} \\times \\vec{b}$.\\\\\n(b) A line has direction ratios in the same ratio as $\\vec{a} + \\vec{b}$ and passes through $(2,2,2)$. Find its vector equation.\\\\\n(c) At what point does the line in (b) intersect with the plane in (a)?",
+  "answeroption": "A",
+  "explanation": "**Concepts being tested:** Vector cross-product for normal, plane equations in space, line equations in space, intersection of line and plane using vectors and scalars.<br /><br />**(a)**<br />$\\vec{a} = <1,2,3>$, $\\vec{b} = <4,5,6>$<br />$\\vec{n} = \\vec{a} \\times \\vec{b}$<br />$= \\begin{vmatrix}\\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & 3 \\\\ 4 & 5 & 6\\end{vmatrix}$<br />$= (2\\times6-3\\times5)\\hat{i} - (1\\times6-3\\times4)\\hat{j} + (1\\times5-2\\times4)\\hat{k}$<br />$= (12-15)\\hat{i} - (6-12)\\hat{j} + (5-8)\\hat{k}$<br />$= -3 \\hat{i} + 6 \\hat{j} -3 \\hat{k}$<br /><br />So, normal is $(-3,6,-3)$, point $(1,0,-1)$<br />Equation: $-3(x-1) + 6(y-0) -3(z+1) = 0$<br />Or, $-3x + 3 + 6y -3z -3 = 0$<br />$-3x + 6y -3z = 0$<br />$x - 2y + z = 0$<br /><br />**(b)**<br />$\\vec{a}+\\vec{b} = (5,7,9)$<br />Direction vector $= (5,7,9)$<br />Vector equation through (2,2,2):<br />$\\vec{r} = (2,2,2) + \\lambda(5,7,9)$<br /><br />**(c)**<br />To find intersection, substitute coordinates of line into plane:<br />$x = 2 + 5\\lambda, y = 2 + 7\\lambda, z = 2 + 9\\lambda$<br />Substitute into $x-2y+z=0$:<br />$2+5\\lambda - 2(2+7\\lambda) + 2+9\\lambda = 0$<br />$2+5\\lambda -4 -14\\lambda +2+9\\lambda=0$<br />$(2-4+2)+(5\\lambda-14\\lambda+9\\lambda) = 0$<br />$0 + 0\\lambda = 0$<br /><br />So, true for all $\\lambda$, i.e., the line lies in the plane. (Check back)<br />Actually, $x-2y+z = (2+5\\lambda)-2(2+7\\lambda)+(2+9\\lambda)$<br />$= 2+5\\lambda-4-14\\lambda+2+9\\lambda$<br />$= (2-4+2)+(5-14+9)\\lambda$<br />$= 0 + 0\\lambda = 0$<br /><br />Thus, the line lies entirely in the plane, i.e., every point is an intersection point.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec a\\times\\vec b=(-3,6,-3)$ and the plane through $(1,0,-1)$ is $x-2y+z=0$<br />(b) Since $\\vec a+\\vec b=(5,7,9)$, the line is $\\vec r=(2,2,2)+\\lambda(5,7,9)$<br />(c) Substitution gives an identity, so the line lies entirely in the plane and every point of the line is an intersection point",
+    "B": "(a) Plane is $x+y+z=0$<br />(b) Line is $\\vec r=(1,0,-1)+\\lambda(5,7,9)$<br />(c) Intersection is $(0,0,0)$ only",
+    "C": "(a) Plane is $-3x+6y-3z=1$<br />(b) Direction vector is $(3,3,3)$<br />(c) Line is parallel and does not intersect",
+    "D": "(a) Plane is $x-2y+z=6$<br />(b) Line is $\\vec r=(2,2,2)+\\lambda(1,2,3)$<br />(c) Intersection is $(2,2,2)$ only"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:11:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

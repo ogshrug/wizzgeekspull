@@ -1,0 +1,30 @@
+{
+  "id": "69aa65ded30adc5083911b69",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{pmatrix} x & 1 \\\\ 0 & 2 \\end{pmatrix}$. Define $f(x) = \\det A$ and $g(x) = \\sin^{-1}\\left(\\frac{1}{f(x)}\\right)$ for $f(x) \\ge 1$.\n\n(a) Find for which $x$ is $f(x) \\ge 1$.\n\n(b) Compute $g(x)$ for $x \\ge 1$.\n\n(c) Find $\\frac{dg}{dx}$ for $x \\ge 1$.\n\n(d) Compute $\\frac{dg}{dx}$ at $x=2$ and interpret its meaning in terms of determinants and inverse trigonometric rates of change.",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:** Determinants, domain of inverse trigonometric function, rates of change.<br /><br />Step 1: For which $x$ is $f(x) \\ge 1$<br />$\\det A = x \\times 2 - 0 \\times 1 = 2x$<br />$2x \\ge 1$ implies $x \\ge \\frac{1}{2}$.<br /><br />Step 2: Compute $g(x)$ for $x \\ge 1$<br />$g(x) = \\sin^{-1}\\left(\\frac{1}{2x}\\right)$.<br /><br />Step 3: $\\frac{dg}{dx}$<br />If $g(x)=\\sin^{-1}(\\frac{1}{2x})$<br />$\\frac{dg}{dx} = \\frac{1}{\\sqrt{1-(1/(2x))^2}} \\cdot \\left(-\\frac{1}{2x^2}\\right)$.<br /><br />Simplifying:<br />$= -\\frac{1}{2x^2\\sqrt{1-\\frac{1}{4x^2}}}$<br />$= -\\frac{1}{x\\sqrt{4x^2-1}}$.<br /><br />Step 4: Evaluate at $x=2$<br />$g(2)=\\sin^{-1}(1/4)$.<br />$\\frac{dg}{dx}\\big|_{x=2} = -\\frac{1}{2\\sqrt{15}}$.<br /><br />Interpretation: When determinant increases with $x$, the rate at which the inverse sine of its reciprocal changes is negative.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=\\det A=2x$, so $f(x)\\ge1$ for $x\\ge\\frac12$<br />(b) For $x\\ge1$, $g(x)=\\sin^{-1}\\left(\\frac{1}{2x}\\right)$<br />(c) $\\frac{dg}{dx}=-\\frac{1}{x\\sqrt{4x^2-1}}$<br />(d) At $x=2$, $\\frac{dg}{dx}=-\\frac{1}{2\\sqrt{15}}$; as the determinant increases, the inverse sine of its reciprocal decreases",
+    "B": "(a) $f(x)=x+2$, so $f(x)\\ge1$ for $x\\ge-1$<br />(b) $g(x)=\\sin^{-1}\\left(\\frac{1}{x+2}\\right)$<br />(c) $\\frac{dg}{dx}=\\frac{1}{x\\sqrt{4x^2-1}}$<br />(d) At $x=2$, $\\frac{dg}{dx}=\\frac{1}{2\\sqrt{15}}$",
+    "C": "(a) $f(x)=2$, so $f(x)\\ge1$ for all $x$<br />(b) $g(x)=\\frac{\\pi}{6}$<br />(c) $\\frac{dg}{dx}=0$<br />(d) At $x=2$, $\\frac{dg}{dx}=0$",
+    "D": "(a) $f(x)=x$, so $f(x)\\ge1$ for $x\\ge1$<br />(b) $g(x)=\\sin^{-1}\\left(\\frac{1}{x}\\right)$<br />(c) $\\frac{dg}{dx}=-\\frac{1}{x\\sqrt{x^2-1}}$<br />(d) At $x=2$, $\\frac{dg}{dx}=-\\frac{1}{2\\sqrt3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:27:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

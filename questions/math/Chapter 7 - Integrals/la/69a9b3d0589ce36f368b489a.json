@@ -1,0 +1,29 @@
+{
+  "id": "69a9b3d0589ce36f368b489a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate the definite integral $\\int_{0}^{1} x e^{x^2} dx$ using substitution.",
+  "answeroption": "B",
+  "explanation": "Let $u=x^2$, so $du=2x\\,dx$ and $x\\,dx=\\frac{du}{2}$.<br /><br />Change limits: $x=0 \\Rightarrow u=0$, $x=1 \\Rightarrow u=1$.<br /><br />Thus $\\int_0^1 x e^{x^2}dx=\\frac{1}{2}\\int_0^1 e^u du$.<br /><br />$=\\frac{1}{2}[e^u]_0^1=\\frac{1}{2}(e-1)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$e-1$",
+    "B": "$\\frac{1}{2}(e-1)$",
+    "C": "$\\frac{1}{2}(e+1)$",
+    "D": "$\\frac{1}{2}e$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:48:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

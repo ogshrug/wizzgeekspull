@@ -1,0 +1,30 @@
+{
+  "id": "69aa77462a66c0f894c1aa04",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a3"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation $\\dfrac{dy}{dx} = x e^{-y}$ with initial condition $y(0) = 0$.\n\n(a) Separate the variables and integrate to find $y$ as an explicit function of $x$.\n\n(b) Determine if $y(x)$ is an invertible function and justify.\n\n(c) Compute $\\dfrac{d^2y}{dx^2}$ at $x=0$.\n\n(d) Express the solution in terms of inverse functions if possible.",
+  "answeroption": "C",
+  "explanation": "**Concepts tested:** Differential equations (separation), Integration, Initial value problems, Invertibility, Second derivatives, Inverse function concepts.<br /><br />(a) $\\frac{dy}{dx} = x e^{-y}$<br />Separate variables:<br />$e^y dy = x dx$<br />Integrate both sides:<br />$\\int e^y dy = \\int x dx$<br />$e^y = \\frac{1}{2} x^2 + C$<br />Use $y(0)=0$: $e^0 = 1 = 0 + C \\implies C = 1$<br />Thus,<br />$e^y = \\frac{1}{2} x^2 + 1$<br />Take $\\, \\ln$ both sides:<br />$y = \\ln\\left(\\frac{1}{2} x^2 + 1\\right)$<br /><br />(b) Is $y(x)$ invertible?<br />$y(x)$ is strictly increasing for $x > 0$, since $\\frac{dy}{dx} > 0$ for $x > 0$, and strictly decreasing for $x < 0$ (since $\\frac{dy}{dx} < 0$), but the function $\\ln\\left(\\frac{1}{2}x^2+1\\right)$ is an even function--so not injective everywhere, thus not globally invertible; it is invertible on $[0, \\infty)$ or $(-\\infty, 0]$ separately.<br /><br />(c) Compute $\\frac{d^2y}{dx^2}$ at $x=0$.<br />Already, $y = \\ln\\left(1 + \\frac{x^2}{2}\\right)$<br />So $\\frac{dy}{dx} = \\frac{1}{1 + \\frac{x^2}{2}} \\cdot x$<br />$= \\frac{x}{1 + \\frac{x^2}{2}}$<br />Now,<br />$\\frac{d^2y}{dx^2} = \\frac{d}{dx} \\left( \\frac{x}{1 + \\frac{x^2}{2}} \\right )$<br />Let $u = x$, $v = 1 + \\frac{x^2}{2}$<br />$\\frac{d}{dx} (\\frac{u}{v}) = \\frac{v \\cdot u' - u \\cdot v'}{v^2}$<br />$u' = 1$, $v' = x$<br />So:<br />$\\frac{d^2y}{dx^2} = \\frac{(1+\\frac{x^2}{2}) \\cdot 1 - x \\cdot x}{(1+\\frac{x^2}{2})^2}$<br />$= \\frac{1 + \\frac{x^2}{2} - x^2}{(1+\\frac{x^2}{2})^2}$<br />$= \\frac{1 - \\frac{x^2}{2}}{(1+\\frac{x^2}{2})^2}$<br />At $x=0$: $= 1/1^2 = 1$<br />So $\\frac{d^2y}{dx^2}|_{x=0} = 1$<br /><br />(d) Express the solution in terms of inverse function:<br />Invert $y = \\ln\\left( \\frac{1}{2} x^2 + 1 \\right )$<br />$e^y = \\frac{1}{2} x^2 + 1$<br />$\\implies x^2 = 2(e^y - 1)$<br />$\\implies x = \\pm \\sqrt{2(e^y - 1)}$<br />So $x$ is not single-valued in terms of $y$. For $x \\ge 0$: $x = \\sqrt{2(e^y-1)}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y=\\ln\\left(1+x^2\\right)$<br />(b) $y(x)$ is globally invertible because it is increasing for all real $x$<br />(c) $\\frac{d^2y}{dx^2}\\bigg|_{x=0}=2$<br />(d) $x=\\sqrt{e^y-1}$",
+    "B": "(a) $y=e^{x^2/2}$<br />(b) $y(x)$ is not invertible on any interval<br />(c) $\\frac{d^2y}{dx^2}\\bigg|_{x=0}=0$<br />(d) $x=\\ln y$",
+    "C": "(a) $y=\\ln\\left(1+\\frac{x^2}{2}\\right)$<br />(b) $y(x)$ is not globally invertible because it is even, but it is invertible on $[0,\\infty)$ or $(-\\infty,0]$ separately<br />(c) $\\frac{d^2y}{dx^2}\\bigg|_{x=0}=1$<br />(d) $x=\\pm\\sqrt{2(e^y-1)}$, and for $x\\ge0$, $x=\\sqrt{2(e^y-1)}$",
+    "D": "(a) $y=\\frac{x^2}{2}+1$<br />(b) $y(x)$ is globally invertible<br />(c) $\\frac{d^2y}{dx^2}\\bigg|_{x=0}=-1$<br />(d) $x=\\pm\\sqrt{2y}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:42:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

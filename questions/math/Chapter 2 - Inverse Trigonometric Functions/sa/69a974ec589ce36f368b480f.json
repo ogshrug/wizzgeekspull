@@ -1,0 +1,29 @@
+{
+  "id": "69a974ec589ce36f368b480f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Simplify: $\\cos^{-1}x + \\cos^{-1}\\left[\\frac{x}{2} + \\frac{\\sqrt{3-3x^2}}{2}\\right]$, where $\\frac{1}{2} \\le x \\le 1$.",
+  "answeroption": "D",
+  "explanation": "Let $\\cos^{-1}x=\\theta$ so $x=\\cos\\theta$ with $\\theta\\in[0,\\frac{\\pi}{3}]$.<br /><br />Then $\\frac{x}{2}+\\frac{\\sqrt{3-3x^2}}{2}=\\frac{\\cos\\theta}{2}+\\frac{\\sqrt3\\sin\\theta}{2}$.<br /><br />This equals $\\cos\\theta\\cos\\frac{\\pi}{3}+\\sin\\theta\\sin\\frac{\\pi}{3}=\\cos(\\theta-\\frac{\\pi}{3})$.<br /><br />Thus the expression becomes $\\theta+\\cos^{-1}[\\cos(\\theta-\\frac{\\pi}{3})]$.<br /><br />Since $\\theta\\in[0,\\frac{\\pi}{3}]$, we have $\\cos^{-1}[\\cos(\\theta-\\frac{\\pi}{3})]=\\frac{\\pi}{3}-\\theta$.<br /><br />Therefore the expression simplifies to $\\frac{\\pi}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{6}$",
+    "B": "$\\frac{\\pi}{2}$",
+    "C": "$\\pi$",
+    "D": "$\\frac{\\pi}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:19:56 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

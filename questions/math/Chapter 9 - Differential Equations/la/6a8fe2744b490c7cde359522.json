@@ -1,0 +1,30 @@
+{
+  "id": "6a8fe2744b490c7cde359522",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a5"
+  ],
+  "question_type": "LA",
+  "question": "Starting with the two-parameter general solution $$y=e^x(A\\cos x+B\\sin x),$$ where $A$ and $B$ are arbitrary constants, form the differential equation represented by this family by differentiating suitably and eliminating both arbitrary constants.",
+  "answeroption": "D",
+  "explanation": "<b>Given General Solution</b><br>The family is $$y=e^x(A\\cos x+B\\sin x).$$ Since it contains two arbitrary constants, differentiate twice to obtain sufficient relations for eliminating them.<br><br><b>Differentiation</b><br>Differentiating once, $$\\frac{dy}{dx}=e^x\\left[A(\\cos x-\\sin x)+B(\\sin x+\\cos x)\\right].$$ Therefore, subtracting $y$ from $y'$, $$\\frac{dy}{dx}-y=e^x(-A\\sin x+B\\cos x).$$<br><br>Differentiating $y'$ again gives $$\\frac{d^2y}{dx^2}=2e^x(-A\\sin x+B\\cos x).$$ Using the preceding relation, $$\\frac{d^2y}{dx^2}=2\\left(\\frac{dy}{dx}-y\\right).$$<br><br><b>Formation of Equation</b><br>Rearranging, $$\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+2y=0.$$ This equation contains neither $A$ nor $B$, so both arbitrary constants have been eliminated.<br><br><b>Final Result</b><br>The differential equation represented by the given general solution is $$\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+2y=0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}+2\\frac{dy}{dx}+2y=0$",
+    "B": "$\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+y=0$",
+    "C": "$\\frac{d^2y}{dx^2}+2\\frac{dy}{dx}-2y=0$",
+    "D": "$\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+2y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

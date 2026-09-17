@@ -1,0 +1,27 @@
+{
+  "id": "6a2669f3864be73cfcf6d370",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "VSA",
+  "question": "If $(x^{2}+y^{2})^{2}=xy$, then find $\\frac{dy}{dx}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate both sides with respect to $x$ using chain rule and product rule:  \n$$\\frac{d}{dx}[(x^2+y^2)^2] = 2(x^2+y^2)\\left(2x + 2y\\frac{dy}{dx}\\right)$$  \n$$\\frac{d}{dx}[xy] = x\\frac{dy}{dx} + y$$<br /><br />**Step 2:** Equate both differentiated sides:  \n$$2(x^2+y^2)\\left(2x + 2y\\frac{dy}{dx}\\right) = x\\frac{dy}{dx} + y$$  \nExpand the left side:  \n$$4x(x^2+y^2) + 4y(x^2+y^2)\\frac{dy}{dx} = x\\frac{dy}{dx} + y$$<br /><br />**Step 3:** Group all terms containing $\\frac{dy}{dx}$ on the left side:  \n$$4y(x^2+y^2)\\frac{dy}{dx} - x\\frac{dy}{dx} = y - 4x(x^2+y^2)$$  \nFactor out $\\frac{dy}{dx}$:  \n$$\\left[4y(x^2+y^2) - x\\right]\\frac{dy}{dx} = y - 4x(x^2+y^2)$$  \n$$\\frac{dy}{dx} = \\frac{y - 4x(x^2+y^2)}{4y(x^2+y^2) - x}$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

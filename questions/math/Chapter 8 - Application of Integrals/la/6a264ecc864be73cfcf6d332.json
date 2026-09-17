@@ -1,0 +1,29 @@
+{
+  "id": "6a264ecc864be73cfcf6d332",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995",
+    "6a13eb348c819562f933f999"
+  ],
+  "question_type": "LA",
+  "question": "If the area of the region bounded by the curve $y^{2}=4ax$ and the line $x=4a$ is $\\frac{256}{3}$ sq. units, then using integration, find the value of a, where $a>0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given curve $y^2 = 4ax$ is a parabola opening to the right, symmetric along the x-axis, and $x = 4a$ is a vertical line. The region bounded between them spans from $x = 0$ to $x = 4a$. Because the parabola is perfectly symmetric about the x-axis, the total area is twice the area of the upper half quadrant: $\\text{Area} = 2 \\int_{0}^{4a} y \\, dx$. Expressing $y$ for the upper curve gives $y = \\sqrt{4ax} = 2\\sqrt{a}\\sqrt{x}$.<br />**Step 2:** Substitute this expression into the definitive integral template: $\\text{Area} = 2 \\int_{0}^{4a} 2\\sqrt{a}\\sqrt{x} \\, dx = 4\\sqrt{a} \\int_{0}^{4a} x^{1/2} \\, dx$. Integrating $x^{1/2}$ using the power rule yields: $4\\sqrt{a} \\left[ \\frac{x^{3/2}}{3/2} \\right]_{0}^{4a} = \\frac{8}{3}\\sqrt{a} \\left[ x^{3/2} \\right]_{0}^{4a}$.<br />**Step 3:** Substitute the limits of integration into the expression: $\\frac{8}{3}\\sqrt{a} \\left( (4a)^{3/2} - 0 \\right) = \\frac{8}{3}\\sqrt{a} \\left( 8a\\sqrt{a} \\right) = \\frac{64}{3}a^2$. We are given that this evaluated area is equal to $\\frac{256}{3}$ square units. Equating these two values: $\\frac{64}{3}a^2 = \\frac{256}{3}$.<br />**Step 4:** Simplify the equation by canceling out the common denominator of 3 from both sides: $64a^2 = 256$. Solving for $a^2$ yields $a^2 = \\frac{256}{64} = 4$. Taking the square root gives $a = \\pm 2$. Since the problem explicitly states that $a > 0$, we reject the negative root, leaving the final answer as $a = 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-2",
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

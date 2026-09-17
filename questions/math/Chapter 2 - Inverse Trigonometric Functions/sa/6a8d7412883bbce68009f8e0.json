@@ -1,0 +1,30 @@
+{
+  "id": "6a8d7412883bbce68009f8e0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Solve for real $x$: $$\\cos^{-1}x=2\\sin^{-1}x.$$ Verify the solution using the principal value ranges.",
+  "answeroption": "A",
+  "explanation": "<b>Complementary inverse relation</b><br>For $x\\in[-1,1]$, $$\\cos^{-1}x=\\frac{\\pi}{2}-\\sin^{-1}x.$$<br><br><b>Substitution in the given equation</b><br>Using this relation, $$\\frac{\\pi}{2}-\\sin^{-1}x=2\\sin^{-1}x.$$ Therefore, $$3\\sin^{-1}x=\\frac{\\pi}{2}.$$<br><br><b>Determination of the inverse sine value</b><br>Dividing by $3$, we obtain $$\\sin^{-1}x=\\frac{\\pi}{6}.$$ Hence, $$x=\\sin\\frac{\\pi}{6}=\\frac{1}{2}.$$<br><br><b>Principal value verification</b><br>For $x=\\frac{1}{2}$, $$\\cos^{-1}\\frac{1}{2}=\\frac{\\pi}{3}$$ and $$2\\sin^{-1}\\frac{1}{2}=2\\times\\frac{\\pi}{6}=\\frac{\\pi}{3}.$$ Both values lie in their respective principal ranges.<br><br><b>Final solution</b><br>Therefore, $$x=\\frac{1}{2}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=\\frac{1}{2}$",
+    "B": "$x=-\\frac{1}{2}$",
+    "C": "$x=\\frac{\\sqrt{3}}{2}$",
+    "D": "$x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

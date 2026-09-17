@@ -1,0 +1,26 @@
+{
+  "id": "6a3235406dbc98396e70a762",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "LA",
+  "question": "Find $\\frac{dy}{dx}$ if $y=x^{\\tan x}+\\frac{\\sqrt{x^{2}+1}}{2}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let<br />$$y=x^{\\tan x}+\\frac{\\sqrt{x^2+1}}{2}=u+v.$$<br />Then<br />$$\\frac{dy}{dx}=\\frac{du}{dx}+\\frac{dv}{dx}.$$<br /><br />**Step 2:** For $u=x^{\\tan x}$, take logarithms:<br />$$\\ln u=(\\tan x)\\ln x.$$<br />Differentiating implicitly,<br />$$\\frac{1}{u}\\frac{du}{dx}=\\sec^2x\\ln x+\\frac{\\tan x}{x}.$$<br />Hence,<br />$$\\frac{du}{dx}=x^{\\tan x}\\left(\\sec^2x\\ln x+\\frac{\\tan x}{x}\\right).$$<br /><br />**Step 3:** For<br />$$v=\\frac12(x^2+1)^{1/2},$$<br />differentiate using the chain rule:<br />$$\\frac{dv}{dx}=\\frac12\\cdot\\frac12(x^2+1)^{-1/2}\\cdot2x=\\frac{x}{2\\sqrt{x^2+1}}.$$<br /><br />**Step 4:** Therefore,<br />$$\\frac{dy}{dx}=x^{\\tan x}\\left(\\sec^2x\\ln x+\\frac{\\tan x}{x}\\right)+\\frac{x}{2\\sqrt{x^2+1}}.$$<br />Hence,<br />$$\\boxed{\\frac{dy}{dx}=x^{\\tan x}\\left(\\sec^2x\\ln x+\\frac{\\tan x}{x}\\right)+\\frac{x}{2\\sqrt{x^2+1}}}.$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

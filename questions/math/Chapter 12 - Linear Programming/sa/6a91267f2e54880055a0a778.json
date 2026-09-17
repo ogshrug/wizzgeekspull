@@ -1,0 +1,30 @@
+{
+  "id": "6a91267f2e54880055a0a778",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "SA",
+  "question": "Consider the constraints $2x+y\\geq12$, $x+3y\\geq15$, $x\\geq0$ and $y\\geq0$.<br>(i) Verify that $(5,5)$ is a feasible solution.<br>(ii) Without drawing a graph, show that the feasible region is unbounded.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Testing the first constraint</b><br>At $(5,5)$, $$2(5)+5=15\\geq12$$ so the first inequality is satisfied.<br><b>Step 2: Testing the second constraint</b><br>Also, $$5+3(5)=20\\geq15$$ and both coordinates are non-negative. Hence, $(5,5)$ is a feasible solution.<br><b>Step 3: Constructing a family of feasible points</b><br>Consider points $(t,t)$ with $t\\geq5$. Then $$2t+t=3t\\geq15\\geq12$$ and $$t+3t=4t\\geq20\\geq15$$ Thus, every such point satisfies all the constraints.<br><b>Step 4: Examining indefinite extension</b><br>The parameter $t$ can be made arbitrarily large. Therefore, feasible points such as $(10,10)$, $(100,100)$ and $(1000,1000)$ exist.<br><b>Step 5: Conclusion</b><br>Since feasible points extend indefinitely and the region cannot be enclosed within finite limits, the feasible region is unbounded.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $(5,5)$ is infeasible<br>(ii) The feasible region is bounded",
+    "B": "(i) $(5,5)$ is feasible<br>(ii) The feasible region is bounded because $x,y\\geq0$",
+    "C": "(i) $(5,5)$ is feasible<br>(ii) The feasible region is unbounded; $(t,t)$ is feasible for every $t\\geq5$",
+    "D": "(i) $(5,5)$ is infeasible<br>(ii) The feasible region is unbounded"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a264ebd864be73cfcf6d330",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7",
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "LA",
+  "question": "Find the distance of the point (-1,5,10) from the point of intersection of the line $\\frac{x-2}{3}=\\frac{y+1}{4}=\\frac{z-2}{12}$ and the plane $x-y+z=5.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** First, we must find the point of intersection of the given line $\\frac{x-2}{3}=\\frac{y+1}{4}=\\frac{z-2}{12}$ and the plane $x-y+z=5$. Let's express a general point on this line by equating it to a parameter scalar $\\lambda$: $\\frac{x-2}{3}=\\frac{y+1}{4}=\\frac{z-2}{12} = \\lambda$. Solving for coordinates gives general point template $P(3\\lambda+2, 4\\lambda-1, 12\\lambda+2)$.<br />**Step 2:** Since this point $P$ lies on the plane intersection, these parameterized variables must fit the plane equation $x-y+z=5$. Substituting coordinates into this equation gives: $(3\\lambda+2) - (4\\lambda-1) + (12\\lambda+2) = 5$. Expanding and grouping like variables yields: $3\\lambda - 4\\lambda + 12\\lambda + 2 + 1 + 2 = 5 \\implies 11\\lambda + 5 = 5 \\implies 11\\lambda = 0 \\implies \\lambda = 0$.<br />**Step 3:** Substitute $\\lambda = 0$ back into the parameterized coordinate template of point $P$ to find the exact point of intersection: $x = 3(0)+2 = 2$, $y = 4(0)-1 = -1$, and $z = 12(0)+2 = 2$. Thus, the intersection point is $P(2, -1, 2)$.<br />**Step 4:** Now, calculate the distance between this intersection point $P(2, -1, 2)$ and the specified point $Q(-1, 5, 10)$ using the standard 3D coordinate distance formula: $d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}$. Substituting values gives $d = \\sqrt{(-1-2)^2 + (5-(-1))^2 + (10-2)^2} = \\sqrt{(-3)^2 + 6^2 + 8^2} = \\sqrt{9 + 36 + 64} = \\sqrt{109}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

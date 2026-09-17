@@ -1,0 +1,31 @@
+{
+  "id": "69a9c3f86638848124d7c9b1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A fisherman on a riverbank wants to get from point $A$ to point $B$, located across the river and downstream. He can row at $3$ km/h and walk at $5$ km/h. If the river is $2$ km wide and $B$ is $6$ km downstream, at what point along the bank should he land to minimize total time?<br /><br />a) Model the time function.<br /><br />(b) Use calculus to find minimum.<br /><br />(c) Verify the minimum with the second derivative test.",
+  "answeroption": "C",
+  "explanation": "Let land at $(x,0)$ ($0\\leq x\\leq 6$ km).<br /><br />Row from $A(0,2)$ to $(x,0)$: Row distance $= \\sqrt{x^2+4}$; time $= \\frac{\\sqrt{x^2+4}}{3}$<br /><br />Walk from $(x,0)$ to $B(6,0)$: distance $=6-x$; time $=\\frac{6-x}{5}$<br /><br />Total time $T(x)=\\frac{\\sqrt{x^2+4}}{3} + \\frac{6-x}{5}$<br /><br />$dT/dx = \\frac{x}{3\\sqrt{x^2+4}} - \\frac{1}{5}$<br /><br />Set to $0$: $\\frac{x}{3\\sqrt{x^2+4}} = \\frac{1}{5}$<br /><br />$25x^2 = 9(x^2+4) \\implies 16x^2 = 36 \\implies x=1.5$<br /><br />Second derivative $>0$, so minimum at $x=1.5$ km.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $T(x)=\\frac{\\sqrt{x^2+4}}{5}+\\frac{6-x}{3}$<br />(b) Minimum occurs at $x=2.5$ km.<br />(c) Second derivative is positive, so it is a minimum.",
+    "B": "(a) $T(x)=\\frac{\\sqrt{x^2+4}}{3}+\\frac{x}{5}$<br />(b) Minimum occurs at $x=6$ km.<br />(c) Second derivative is negative, so it is a maximum.",
+    "C": "(a) $T(x)=\\frac{\\sqrt{x^2+4}}{3}+\\frac{6-x}{5}$<br />(b) Minimum occurs at $x=1.5$ km.<br />(c) Second derivative is positive, so it is a minimum.",
+    "D": "(a) $T(x)=\\frac{x^2+4}{3}+\\frac{6-x}{5}$<br />(b) Minimum occurs at $x=3$ km.<br />(c) Second derivative is zero, so the test is inconclusive."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:57:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

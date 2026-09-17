@@ -1,0 +1,30 @@
+{
+  "id": "69a9727f62be6a70cd184da2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41"
+  ],
+  "question_type": "VSA",
+  "question": "Let $S = \\{1,2,3,4,5\\}$ and $R = \\{(a,b): a, b \\in S, |a-b| \\leq 1\\}$. How many elements are in $R$?",
+  "answeroption": "C",
+  "explanation": "For each $a$:<br /><br />$b=a$ contributes 5 pairs.<br /><br />$b=a+1$, possible for $a=1$ to $4$ (4 pairs).<br /><br />$b=a-1$, possible for $a=2$ to $5$ (4 pairs).<br /><br />Total: $5+4+4=13$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$9$",
+    "B": "$11$",
+    "C": "$13$",
+    "D": "$15$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:09:35 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

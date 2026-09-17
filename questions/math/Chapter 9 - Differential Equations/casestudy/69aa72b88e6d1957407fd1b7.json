@@ -1,0 +1,29 @@
+{
+  "id": "69aa72b88e6d1957407fd1b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A pharmaceutical company introduces a new drug that dissolves in the bloodstream at a rate proportional to the amount remaining to be dissolved. Let $A(t)$ denote the amount (in mg) of the drug yet to dissolve at time $t$ (in hours). Initially, $A(0) = 500$ mg. After 2 hours, 200 mg remains undissolved.<br /><br />a) Write the differential equation representing this scenario.<br /><br />b) Solve the differential equation to find $A(t)$ in terms of $t$.<br /><br />c) Estimate the time required for only 50 mg of the drug to remain undissolved. Discuss whether the drug will ever be completely dissolved according to this model.",
+  "answeroption": "A",
+  "explanation": "a) Let $k$ be the proportionality constant. The rate of decrease of $A$ is given by:<br /><br />$\\frac{dA}{dt} = -kA$<br /><br />b) Rearranging:<br /><br />$\\frac{dA}{A} = -k dt$<br /><br />Integrating both sides:<br /><br />$\\int \\frac{1}{A} dA = -k \\int dt$<br /><br />$\\ln|A| = -kt + C$<br /><br />Exponentiate both sides:<br /><br />$A = Ce^{-kt}$<br /><br />Substitute $A(0)=500$:<br /><br />$500 = Ce^{0} \\implies C=500$<br /><br />So, $A(t) = 500 e^{-kt}$<br /><br />Using $A(2) = 200$:<br /><br />$200 = 500 e^{-2k}$<br /><br />$\\frac{200}{500} = e^{-2k}$<br /><br />$\\frac{2}{5} = e^{-2k}$<br /><br />Taking log:<br /><br />$\\ln \\frac{2}{5} = -2k$<br /><br />$k = -\\frac{1}{2} \\ln \\left( \\frac{2}{5} \\right)$<br /><br />c) To find $t$ when $A(t)=50$ mg:<br /><br />$50 = 500 e^{-kt}$<br /><br />$\\frac{1}{10} = e^{-kt}$<br /><br />$\\ln \\frac{1}{10} = -kt$<br /><br />Substitute $k$ from above:<br /><br />$-kt = \\ln \\frac{1}{10}$<br /><br />$t = \\frac{-\\ln \\frac{1}{10}}{k}$<br /><br />Plug in $k$:<br /><br />$t = \\frac{-\\ln \\frac{1}{10}}{-\\frac{1}{2} \\ln \\frac{2}{5}}$<br /><br />Simplify numerator and denominator ($\\ln \\frac{1}{10} = -\\ln 10$):<br /><br />$t = \\frac{\\ln 10}{\\frac{1}{2} \\ln \\frac{5}{2}} = \\frac{2 \\ln 10}{\\ln \\frac{5}{2}}$<br /><br />Approximating $\\ln 10 \\approx 2.302$ and $\\ln \\frac{5}{2} \\approx 0.916$:<br /><br />$t \\approx \\frac{2 \\times 2.302}{0.916} \\approx \\frac{4.604}{0.916} \\approx 5.03$ hours<br /><br />Thus, it will take approximately 5.03 hours for only 50 mg to remain undissolved.<br /><br />As $t \\to \\infty$, $A(t) \\to 0$, but it never reaches zero exactly. Thus, the drug is never completely dissolved, though it becomes arbitrarily close to zero.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dA}{dt}=-kA$<br />(b) $A(t)=500e^{-kt}$, where $k=-\\frac{1}{2}\\ln\\left(\\frac{2}{5}\\right)$<br />(c) $t=\\frac{2\\ln10}{\\ln(5/2)}\\approx5.03$ hours; the drug approaches zero but never becomes exactly zero in the model",
+    "B": "(a) $\\frac{dA}{dt}=kA$<br />(b) $A(t)=500e^{kt}$, where $k=\\frac{1}{2}\\ln\\left(\\frac{2}{5}\\right)$<br />(c) $t\\approx2.50$ hours; the drug becomes zero exactly",
+    "C": "(a) $\\frac{dA}{dt}=-k$<br />(b) $A(t)=500-kt$<br />(c) $t=5$ hours; the drug reaches zero exactly later",
+    "D": "(a) $\\frac{dA}{dt}=-kA^2$<br />(b) $A(t)=\\frac{500}{1+kt}$<br />(c) $t\\approx10.06$ hours; the drug becomes zero exactly"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:22:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "69a9c5856638848124d7c9b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A beverage company needs to design a cylindrical can (closed at both ends) to hold a fixed volume of 500 $\\text{cm}^3$. The cost of the metallic sheet for the top and bottom is twice as expensive per $\\text{cm}^2$ as that for the curved side.<br /><br />(a) Formulate the cost function to be minimized in terms of $r$ only.<br /><br />(b) Find the critical value(s) of $r$ and determine, using the second derivative test, if the solution yields a minimum cost.<br /><br />(c) Calculate, correct to two decimal places, the optimal values of $r$ and $h$, and the minimum surface cost.",
+  "answeroption": "A",
+  "explanation": "**(a) Cost Function in Terms of $r$:**<br /><br />Let the cost per $\\text{cm}^2$ of the curved surface be Rs. $C$, so for top and bottom, it is Rs. $2C$ per $\\text{cm}^2$.<br /><br />Curved Surface Area = $2\\pi r h$, cost = $2\\pi r h \\times C$<br /><br />Top and Bottom Area = $2\\pi r^2$, cost = $2\\pi r^2 \\times 2C = 4\\pi r^2 C$<br /><br />Total cost:<br />$T = 2\\pi r h C + 4\\pi r^2 C$<br /><br />But $V = \\pi r^2 h = 500 \\implies h = \\frac{500}{\\pi r^2}$<br /><br />$T(r) = 2C\\left(\\frac{500}{r} + 2\\pi r^2\\right)$<br /><br />**(b) Find the minimum:**<br /><br />$\\frac{dT}{dr} = 2C\\left(-\\frac{500}{r^2} + 4\\pi r\\right)$<br /><br />Set $\\frac{dT}{dr} = 0$ gives $r^3 = \\frac{125}{\\pi}$<br /><br />Second derivative $>0$ therefore minimum.<br /><br />**(c) Numerical values:**<br /><br />$r \\approx 3.41\\ \\text{cm}$<br /><br />$h \\approx 13.68\\ \\text{cm}$<br /><br />Minimum cost $= 439.40C$ rupees.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $T(r)=2C\\left(\\frac{500}{r}+2\\pi r^2\\right)$.<br />(b) Critical value satisfies $r^3=\\frac{125}{\\pi}$ and the second derivative is positive, so the cost is minimum.<br />(c) $r\\approx3.41\\text{ cm}$, $h\\approx13.68\\text{ cm}$, and minimum cost $=439.40C$ rupees.",
+    "B": "(a) $T(r)=2C\\left(\\frac{500}{r}+\\pi r^2\\right)$.<br />(b) Critical value satisfies $r^3=\\frac{250}{\\pi}$ and the second derivative is negative, so the cost is maximum.<br />(c) $r\\approx4.30\\text{ cm}$, $h\\approx8.60\\text{ cm}$, and minimum cost $=500C$ rupees.",
+    "C": "(a) $T(r)=2C\\left(500r+2\\pi r^2\\right)$.<br />(b) Critical value satisfies $r^3=125\\pi$ and the second derivative is positive, so the cost is minimum.<br />(c) $r\\approx7.32\\text{ cm}$, $h\\approx2.97\\text{ cm}$, and minimum cost $=300C$ rupees.",
+    "D": "(a) $T(r)=2C\\left(\\frac{250}{r}+4\\pi r^2\\right)$.<br />(b) Critical value satisfies $r^3=\\frac{500}{\\pi}$ and the second derivative is positive, so the cost is minimum.<br />(c) $r\\approx5.42\\text{ cm}$, $h\\approx5.42\\text{ cm}$, and minimum cost $=620C$ rupees."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:03:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

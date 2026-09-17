@@ -1,0 +1,30 @@
+{
+  "id": "69a94896d30adc5083911a3f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67",
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$, and $|A| = 1$. Find $\\operatorname{adj}A$ and verify that $A(\\operatorname{adj}A) = I$.",
+  "answeroption": "B",
+  "explanation": "$|A|=ad-bc=1$.<br />$\\operatorname{adj}A = \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}$<br />$A\\operatorname{adj}A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}\\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}$<br />$= \\begin{bmatrix} ad-bc & -ab+ba \\\\ cd-dc & -cb+da \\end{bmatrix}$<br />$= \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} = I$<br />Therefore, $A(\\operatorname{adj}A) = |A|I = I$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\operatorname{adj}A=\\begin{bmatrix} a & -b \\\\ -c & d \\end{bmatrix}$ and $A(\\operatorname{adj}A)=A$.",
+    "B": "$\\operatorname{adj}A=\\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}$ and since $|A|=1$, $A(\\operatorname{adj}A)=I$.",
+    "C": "$\\operatorname{adj}A=\\begin{bmatrix} d & b \\\\ c & a \\end{bmatrix}$ and $A(\\operatorname{adj}A)=0$.",
+    "D": "$\\operatorname{adj}A=\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$ and $A(\\operatorname{adj}A)=I$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:10:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

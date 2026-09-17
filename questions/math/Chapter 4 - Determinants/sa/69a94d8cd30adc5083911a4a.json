@@ -1,0 +1,30 @@
+{
+  "id": "69a94d8cd30adc5083911a4a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "SA",
+  "question": "A matrix $P$ has elements $p_{ij} = i - j$ for $1 \\leq i,j \\leq 3$. Find $P$, calculate $|P|$, and interpret whether the matrix is invertible.",
+  "answeroption": "A",
+  "explanation": "Step 1: Write matrix $P$:<br />For $i=1$: $j=1\\to0, j=2\\to-1, j=3\\to-2$<br />$i=2$: $j=1\\to1, j=2\\to0, j=3\\to-1$<br />$i=3$: $j=1\\to2, j=2\\to1, j=3\\to0$<br />So $P=\\begin{bmatrix}0 & -1 & -2 \\\\ 1 & 0 & -1 \\\\ 2 & 1 & 0\\end{bmatrix}$<br /><br />Step 2: $|P| = 0 \\begin{vmatrix}0 & -1 \\\\ 1 & 0\\end{vmatrix} - (-1) \\begin{vmatrix}1 & -1 \\\\ 2 & 0\\end{vmatrix} + (-2) \\begin{vmatrix}1 & 0 \\\\ 2 & 1\\end{vmatrix}$<br /><br />First minor: $0*0-1*(-1)=0+1=1$<br />Second: $1*0-(-1)*2=0+2=2$<br />Third: $1*1-0*2=1-0=1$<br /><br />So $|P| = 0 - (-1)*2 + (-2)*1 = 0 + 2 -2 = 0$<br /><br />Hence, $P$ is singular; it is not invertible.",
+  "explanation_image": [],
+  "options": {
+    "A": "$P=\\begin{bmatrix}0&-1&-2\\\\1&0&-1\\\\2&1&0\\end{bmatrix}$, $|P|=0$, so $P$ is singular and not invertible.",
+    "B": "$P=\\begin{bmatrix}0&1&2\\\\-1&0&1\\\\-2&-1&0\\end{bmatrix}$, $|P|=0$, so $P$ is invertible.",
+    "C": "$P=\\begin{bmatrix}0&-1&-2\\\\1&0&-1\\\\2&1&0\\end{bmatrix}$, $|P|=2$, so $P$ is invertible.",
+    "D": "$P=\\begin{bmatrix}1&0&-1\\\\2&1&0\\\\3&2&1\\end{bmatrix}$, $|P|=1$, so $P$ is non-singular."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:31:56 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

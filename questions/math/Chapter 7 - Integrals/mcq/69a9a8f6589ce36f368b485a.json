@@ -1,0 +1,29 @@
+{
+  "id": "69a9a8f6589ce36f368b485a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "Evaluate $\\int \\frac{2x+1}{x^2+x+1}dx$.",
+  "answeroption": "A",
+  "explanation": "Observe that the derivative of the denominator is $(x^2+x+1)'=2x+1$.<br /><br />Thus the numerator equals the derivative of the denominator.<br /><br />Therefore $\\int \\frac{2x+1}{x^2+x+1}dx = \\ln|x^2+x+1| + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\log|x^2 + x + 1| + C$",
+    "B": "$\\log|x^2 + x + 1| + \\tan^{-1}(2x+1) + C$",
+    "C": "$\\log|x^2 + x + 1| + \\frac{1}{\\sqrt{3}} \\tan^{-1}\\left(\\frac{2x+1}{\\sqrt{3}}\\right) + C$",
+    "D": "None of these"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:01:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

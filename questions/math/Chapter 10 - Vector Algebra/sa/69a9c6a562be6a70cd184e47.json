@@ -1,0 +1,30 @@
+{
+  "id": "69a9c6a562be6a70cd184e47",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e766d837c8c7efa6b8c1"
+  ],
+  "question_type": "SA",
+  "question": "Given two non-coplanar vectors $\\vec{a}, \\vec{b}$, and a variable vector $\\vec{r}$ such that $\\vec{r} \\times (\\vec{a} + \\lambda \\vec{b}) = \\vec{0}$, for all real $\\lambda$, prove that $\\vec{r}$ must be the zero vector.",
+  "answeroption": "D",
+  "explanation": "Suppose $\\vec{a}, \\vec{b}$ are non-coplanar and $\\vec{r} \\times (\\vec{a} + \\lambda \\vec{b}) = \\vec{0}$ for all $\\lambda$.<br /><br />For any real $\\lambda$:<br /><br />$\\vec{r} \\times (\\vec{a} + \\lambda \\vec{b}) = \\vec{0}$.<br /><br />The cross product is zero iff the vectors are parallel.<br /><br />Thus $\\vec{r}$ is parallel to $(\\vec{a} + \\lambda \\vec{b})$ for all $\\lambda$.<br /><br />Suppose $\\vec{r} \\neq \\vec{0}$. Then $\\vec{r}$ must be parallel to every vector of the form $\\vec{a} + \\lambda \\vec{b}$.<br /><br />But as $\\vec{a}$ and $\\vec{b}$ are non-coplanar, vectors $\\vec{a} + \\lambda \\vec{b}$ span a plane and cannot all be collinear.<br /><br />No non-zero vector can be parallel to all directions in a plane.<br /><br />Therefore the only possibility is $\\vec{r} = \\vec{0}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\vec{r}=\\vec{a}$",
+    "B": "$\\vec{r}=\\vec{b}$",
+    "C": "$\\vec{r}=\\vec{a}+\\vec{b}$",
+    "D": "$\\vec{r}=\\vec{0}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:08:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

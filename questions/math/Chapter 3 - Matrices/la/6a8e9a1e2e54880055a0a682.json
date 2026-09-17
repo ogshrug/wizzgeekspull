@@ -1,0 +1,31 @@
+{
+  "id": "6a8e9a1e2e54880055a0a682",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d4e",
+    "69c65fbf40512f018fa94d50",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "LA",
+  "question": "Two bookshops sell three types of books. The numbers of books of the three types sold by the two shops are represented by $$Q=\\begin{bmatrix}20&15&10\\\\12&18&14\\end{bmatrix},$$ while their respective prices in rupees are represented by $$P=\\begin{bmatrix}50\\\\40\\\\30\\end{bmatrix}.$$ Using matrix multiplication, determine the total sales amount received by each shop and interpret the entries of the resulting matrix.",
+  "answeroption": "C",
+  "explanation": "<b>Required Condition</b><br><br>The matrix $Q$ has order $2\\times3$ and the matrix $P$ has order $3\\times1$. Since the number of columns of $Q$ equals the number of rows of $P$, the product $QP$ is defined and has order $2\\times1$.<br><br><b>Evaluation</b><br><br>We calculate $$QP=\\begin{bmatrix}20&15&10\\\\12&18&14\\end{bmatrix}\\begin{bmatrix}50\\\\40\\\\30\\end{bmatrix}$$ $$=\\begin{bmatrix}20(50)+15(40)+10(30)\\\\12(50)+18(40)+14(30)\\end{bmatrix}$$ For the first shop, $20(50)+15(40)+10(30)=1000+600+300=1900$. For the second shop, $12(50)+18(40)+14(30)=600+720+420=1740$. Hence, $$QP=\\begin{bmatrix}1900\\\\1740\\end{bmatrix}$$<br><br><b>Final Result</b><br><br>The first entry represents the total sales amount received by the first bookshop and the second entry represents the total sales amount received by the second bookshop. Therefore, the two shops receive Rs $1900$ and Rs $1740$, respectively.",
+  "explanation_image": [],
+  "options": {
+    "A": "$QP=\\begin{bmatrix}1740\\\\1900\\end{bmatrix}$, representing Rs $1740$ and Rs $1900$ for the first and second shops, respectively",
+    "B": "$QP=\\begin{bmatrix}1900\\\\1840\\end{bmatrix}$, representing Rs $1900$ and Rs $1840$ for the first and second shops, respectively",
+    "C": "$QP=\\begin{bmatrix}1900\\\\1740\\end{bmatrix}$, representing Rs $1900$ and Rs $1740$ for the first and second shops, respectively",
+    "D": "$QP=\\begin{bmatrix}1600\\\\1740\\end{bmatrix}$, representing Rs $1600$ and Rs $1740$ for the first and second shops, respectively"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

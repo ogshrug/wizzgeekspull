@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd81c4b490c7cde359515",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a6"
+  ],
+  "question_type": "SA",
+  "question": "Eliminate the arbitrary constants $a$ and $b$ from the family $y=a\\cos x+b\\sin x$ and hence obtain the differential equation satisfied by every member of the family.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Start with the given family</b><br>$$y=a\\cos x+b\\sin x.$$ Here $a$ and $b$ are arbitrary constants which must be eliminated.<br><b>Step 2: First differentiation</b><br>Differentiating with respect to $x$, $$\\frac{dy}{dx}=-a\\sin x+b\\cos x.$$<br><b>Step 3: Second differentiation</b><br>Differentiating again, $$\\frac{d^2y}{dx^2}=-a\\cos x-b\\sin x.$$<br><b>Step 4: Eliminate the constants</b><br>From the original relation, $a\\cos x+b\\sin x=y$. Therefore, the second derivative can be written directly as $$\\frac{d^2y}{dx^2}=-y.$$ This relation contains neither $a$ nor $b$.<br><b>Step 5: Required differential equation</b><br>Transposing $y$ to the left-hand side gives $$\\frac{d^2y}{dx^2}+y=0.$$ Thus, every member of the given two-parameter family satisfies this differential equation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}-y=0$",
+    "B": "$\\frac{dy}{dx}+y=0$",
+    "C": "$\\frac{d^2y}{dx^2}+\\frac{dy}{dx}=0$",
+    "D": "$\\frac{d^2y}{dx^2}+y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a9129892e54880055a0a784",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "LA",
+  "question": "Determine graphically the common region represented by $2x+y\\ge 6$, $x+2y\\ge 6$, $x\\ge0$ and $y\\ge0$, and establish from the boundary of the common region that it is an unbounded feasible region while points lying outside it are infeasible.",
+  "answeroption": "C",
+  "explanation": "<b>Graphical Representation</b><br>The line $2x+y=6$ passes through $(3,0)$ and $(0,6)$, while the line $x+2y=6$ passes through $(6,0)$ and $(0,3)$. Since both inequalities are of the type $\\ge$, the required half-planes are the sides of these lines away from the origin. The restrictions $x\\ge0$ and $y\\ge0$ restrict consideration to the first quadrant.<br><br>The two oblique lines intersect where $2x+y=6$ and $x+2y=6$. Subtracting the second equation from the first gives $x-y=0$, so $x=y$. Substituting in $2x+y=6$ gives $3x=6$, hence $x=2$ and $y=2$. Thus one boundary vertex is $(2,2)$. On the y-axis, both constraints are satisfied when $y\\ge6$, so $(0,6)$ is another boundary vertex. On the x-axis, both are satisfied when $x\\ge6$, giving the boundary vertex $(6,0)$.<br><br><b>Nature of the Region</b><br>The common region consists of all first-quadrant points lying on the required sides of both oblique lines. Its boundary contains the segment from $(0,6)$ to $(2,2)$, the segment from $(2,2)$ to $(6,0)$, a ray extending upward from $(0,6)$ and a ray extending to the right from $(6,0)$. Hence the feasible region extends indefinitely and cannot be enclosed within a finite boundary. It is therefore an unbounded region.<br><br>Any point outside this common region fails at least one of the inequalities. For example, $(1,1)$ gives $2(1)+1=3<6$ and $1+2(1)=3<6$, so it is infeasible. Thus the region outside the common solution region is the infeasible region.<br><br><b>Final Result</b><br>The feasible region has boundary vertices $(0,6)$, $(2,2)$ and $(6,0)$ and extends indefinitely upward and to the right; hence it is unbounded, while all points outside the common region are infeasible.",
+  "explanation_image": [],
+  "options": {
+    "A": "The feasible region is bounded with boundary vertices $(0,6)$, $(2,2)$ and $(6,0)$",
+    "B": "No feasible region exists because both inequalities are of the type $\\geq$",
+    "C": "The feasible region is unbounded with boundary vertices $(0,6)$, $(2,2)$ and $(6,0)$ and extends indefinitely upward and to the right",
+    "D": "The feasible region is unbounded with boundary vertices $(0,3)$, $(3,3)$ and $(3,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

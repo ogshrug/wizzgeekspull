@@ -1,0 +1,31 @@
+{
+  "id": "6a33d6e76dbc98396e70a7cd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "MCQ",
+  "question": "Chances that three persons A, B, and C go to the market are 30%, 60% and 50% respectively. The probability that at least one will go to the market is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Convert the percentage parameters into independent base decimal probabilities: $P(A) = 0.3$, $P(B) = 0.6$, and $P(C) = 0.5$.<br />**Step 2:** Compute the individual failure complement probabilities representing that a person does not go to the market: $P(A^{\\prime}) = 0.7$, $P(B^{\\prime}) = 0.4$, and $P(C^{\\prime}) = 0.5$.<br />**Step 3:** Calculate the joint probability that none of the three independent individuals go to the market: $P(\\text{None}) = P(A^{\\prime}) \\cdot P(B^{\\prime}) \\cdot P(C^{\\prime}) = 0.7 \\times 0.4 \\times 0.5 = 0.14$.<br />**Step 4:** Use the complement rule to find the target probability that at least one goes: $P(\\text{At least one}) = 1 - P(\\text{None}) = 1 - 0.14 = 0.86 = \\frac{86}{100} = \\frac{43}{50}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{14}{10}$",
+    "B": "$\\frac{43}{50}$",
+    "C": "$\\frac{9}{100}$",
+    "D": "$\\frac{7}{50}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

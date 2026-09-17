@@ -1,0 +1,33 @@
+{
+  "id": "6a8eaafe751910886affb966",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d4e",
+    "69c65fbf40512f018fa94d4f",
+    "69c65fbf40512f018fa94d50",
+    "69c65fbf40512f018fa94d51",
+    "69c65fbf40512f018fa94d52"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom investigation on organising numerical data, three groups P, Q and R record the number of practice sheets completed on four consecutive days. Their record is represented by the matrix $A=\\begin{bmatrix}12&15&18&20\\\\10&14&16&19\\\\8&12&15&17\\end{bmatrix}$. The rows, in order, represent groups P, Q and R, while the columns represent Day 1, Day 2, Day 3 and Day 4. The teacher writes the matrix in general notation as $A=[a_{ij}]$, where $a_{ij}$ denotes the entry in the $i$th row and $j$th column. A second record $B=[b_{ij}]$ is prepared in the same arrangement and satisfies $b_{ij}=a_{ij}$ for every corresponding position.<br><br><b>(a)</b> Determine the order of $A$ and the total number of its elements.<br><br><b>(b)</b> Find $a_{23}$ and interpret its meaning in the given situation.<br><br><b>(c)</b> Write the second row of $A$ separately as a matrix and identify its type and order.<br><br><b>(d)</b> Determine whether $A$ and $B$ are equal matrices. Justify your conclusion using the conditions for equality of matrices.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The matrix $A$ has 3 rows and 4 columns. Therefore, its order is $3\\times4$. The number of elements in an $m\\times n$ matrix is $mn$. Hence, the total number of elements is $3\\times4=12$. Thus, $A$ is an ordered rectangular array having 12 entries.<br><br><b>(b)</b><br>In the notation $A=[a_{ij}]$, $a_{ij}$ denotes the entry in the $i$th row and $j$th column. Therefore, $a_{23}$ is the entry in the second row and third column. From $A$, $a_{23}=16$. Since the second row represents group Q and the third column represents Day 3, the value 16 means that group Q completed 16 practice sheets on Day 3.<br><br><b>(c)</b><br>The second row of $A$ is $\\begin{bmatrix}10&14&16&19\\end{bmatrix}$. It has one row and four columns, so its order is $1\\times4$. A matrix having only one row is called a row matrix. Hence, the required matrix is a row matrix of order $1\\times4$.<br><br><b>(d)</b><br>Two matrices are equal when they have the same order and all corresponding elements are equal. Both $A$ and $B$ have the same arrangement, and it is given that $b_{ij}=a_{ij}$ for every corresponding position. Therefore, all corresponding entries are equal. Hence, $A=B$.",
+  "explanation_image": [],
+  "options": {
+    "A": "<b>(a)</b> Order $4\\times3$; 12 elements.<br><b>(b)</b> $a_{23}=16$, representing group Q on Day 3.<br><b>(c)</b> $\\begin{bmatrix}10&14&16&19\\end{bmatrix}$ is a row matrix of order $1\\times4$.<br><b>(d)</b> $A=B$ because corresponding entries are equal.",
+    "B": "<b>(a)</b> Order $3\\times4$; 12 elements.<br><b>(b)</b> $a_{23}=15$, representing group Q on Day 3.<br><b>(c)</b> $\\begin{bmatrix}10&14&16&19\\end{bmatrix}$ is a row matrix of order $1\\times4$.<br><b>(d)</b> $A=B$ because corresponding entries are equal.",
+    "C": "<b>(a)</b> Order $3\\times4$; 12 elements.<br><b>(b)</b> $a_{23}=16$, representing 16 practice sheets completed by group Q on Day 3.<br><b>(c)</b> $\\begin{bmatrix}10&14&16&19\\end{bmatrix}$ is a row matrix of order $1\\times4$.<br><b>(d)</b> $A=B$ because they have the same order and every pair of corresponding entries is equal.",
+    "D": "<b>(a)</b> Order $3\\times4$; 12 elements.<br><b>(b)</b> $a_{23}=16$, representing group Q on Day 3.<br><b>(c)</b> $\\begin{bmatrix}10&14&16&19\\end{bmatrix}$ is a column matrix of order $4\\times1$.<br><b>(d)</b> $A\\ne B$ because the matrices have different names."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

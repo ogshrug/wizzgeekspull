@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd3ddbe0ecc7866e90c57",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a5"
+  ],
+  "question_type": "VSA",
+  "question": "Eliminate the arbitrary constant $A$ from the family $y=Ae^{3x}$ and obtain the corresponding differential equation.",
+  "answeroption": "C",
+  "explanation": "Step 1: The given family is $y=Ae^{3x}$ and contains one arbitrary constant $A$. Therefore, differentiate once with respect to $x$ to obtain a relation that can be used to eliminate $A$.<br>Step 2: Differentiating gives $\\frac{dy}{dx}=3Ae^{3x}$.<br>Step 3: From the original relation, $Ae^{3x}=y$.<br>Step 4: Substitute this into the differentiated equation to obtain $\\frac{dy}{dx}=3y$.<br>Step 5: Rearranging, the required differential equation is $\\frac{dy}{dx}-3y=0$. The arbitrary constant has been completely eliminated, so this differential equation represents the entire given family of curves.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}+3y=0$",
+    "B": "$\\frac{dy}{dx}-y=0$",
+    "C": "$\\frac{dy}{dx}-3y=0$",
+    "D": "$\\frac{d^2y}{dx^2}-3y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

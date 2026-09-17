@@ -1,0 +1,29 @@
+{
+  "id": "6a8d41841cb3824448de86c6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Let $Y=\\{4n+3:n\\in\\mathbb{N}\\}$ and define $f:\\mathbb{N}\\to Y$ by $f(n)=4n+3$. Obtain the inverse function $f^{-1}:Y\\to\\mathbb{N}$ and verify it.",
+  "answeroption": "B",
+  "explanation": "<b>Expression for the pre-image</b><br>For $y\\in Y$,<br>$$y=4n+3$$<br>for some $n\\in\\mathbb{N}$. Therefore,<br>$$n=\\frac{y-3}{4}.$$<br><br><b>Inverse function</b><br>Define<br>$$f^{-1}(y)=\\frac{y-3}{4},\\qquad y\\in Y.$$<br><br><b>Verification on the domain</b><br>$$f^{-1}(f(n))=f^{-1}(4n+3)=\\frac{4n+3-3}{4}=n.$$<br><br><b>Verification on the range</b><br>$$f\\left(f^{-1}(y)\\right)=4\\left(\\frac{y-3}{4}\\right)+3=y.$$<br><br><b>Conclusion</b><br>Hence, $f$ is invertible with<br>$$f^{-1}(y)=\\frac{y-3}{4}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$f^{-1}(y)=\\frac{y+3}{4}$, with both compositions equal to the identity",
+    "B": "$f^{-1}(y)=\\frac{y-3}{4}$, with $f^{-1}(f(n))=n$ and $f(f^{-1}(y))=y$",
+    "C": "$f^{-1}(y)=4y-3$, with both compositions equal to the identity",
+    "D": "$f^{-1}(y)=\\frac{3-y}{4}$, with $f(f^{-1}(y))=-y$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

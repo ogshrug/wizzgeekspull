@@ -1,0 +1,31 @@
+{
+  "id": "6a33b81d6dbc98396e70a7c3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int_{0}^{1}\\frac{2x}{5x^{2}+1}dx$ is equal to :",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Use substitution method by letting $t = 5x^2 + 1$. Differentiating both sides gives $dt = 10x \\, dx \\implies 2x \\, dx = \\frac{1}{5} dt$.<br />**Step 2:** Update the definitive boundary integration limits based on our transformation: when $x = 0$, $t = 5(0) + 1 = 1$; when $x = 1$, $t = 5(1)^2 + 1 = 6$.<br />**Step 3:** Rewrite and solve the modified definite integral using standard logarithmic forms: $\\frac{1}{5} \\int_{1}^{6} \\frac{1}{t} dt = \\frac{1}{5} [\\ln|t|]_1^6 = \\frac{1}{5}(\\ln 6 - \\ln 1) = \\frac{1}{5}\\ln 6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{5}log~6$",
+    "B": "$\\frac{1}{5}log~5$",
+    "C": "$\\frac{1}{2}log~6$",
+    "D": "$\\frac{1}{2}log~5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

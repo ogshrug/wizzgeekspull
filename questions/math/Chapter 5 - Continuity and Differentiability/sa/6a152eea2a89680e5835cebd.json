@@ -1,0 +1,25 @@
+{
+  "id": "6a152eea2a89680e5835cebd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7a",
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "SA",
+  "question": "Differentiate $\\sin^{2}x$ w.r.t. $e^{\\cos x}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $u = \\sin^2 x$ and $v = e^{\\cos x}$. We need $\\frac{du}{dv}$. <br /><br /> **Step 2:** Differentiate $u$ w.r.t. $x$: <br /> $\\frac{du}{dx} = 2\\sin x \\cdot \\cos x = \\sin 2x$. <br /><br /> **Step 3:** Differentiate $v$ w.r.t. $x$: <br /> $\\frac{dv}{dx} = e^{\\cos x} \\cdot (-\\sin x) = -\\sin x \\, e^{\\cos x}$. <br /><br /> **Step 4:** Use $\\frac{du}{dv} = \\frac{du/dx}{dv/dx}$: <br /> $\\frac{du}{dv} = \\frac{2\\sin x \\cos x}{-\\sin x \\, e^{\\cos x}}$. <br /><br /> **Step 5:** Cancel $\\sin x$ (assuming $\\sin x \\neq 0$): <br /> $\\frac{du}{dv} = \\frac{2\\cos x}{-e^{\\cos x}} = -2\\cos x \\, e^{-\\cos x}$. <br /><br /> **Answer:** $-2\\cos x \\, e^{-\\cos x}$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

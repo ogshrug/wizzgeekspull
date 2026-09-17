@@ -1,0 +1,30 @@
+{
+  "id": "6a8c721b1cb3824448de86b0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "(a) Determine all real $x$ satisfying $\\sin^{-1}x=\\cos^{-1}\\sqrt{1-x^2}$ by carefully applying the domain and sign restrictions.<br><br>(b) Verify the obtained solution set using the principal-value ranges of both inverse functions.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The expression $\\sin^{-1}x$ requires $-1\\leq x\\leq1$. For this interval, $\\sqrt{1-x^2}$ lies in $[0,1]$, so the inverse-cosine expression is also defined.<br>Let<br>$$\\theta=\\sin^{-1}x$$<br>Then<br>$$\\sin\\theta=x,\\qquad -\\frac{\\pi}{2}\\leq\\theta\\leq\\frac{\\pi}{2}$$<br>Also,<br>$$\\cos\\theta=\\sqrt{1-x^2}$$<br>because $\\cos\\theta$ is non-negative throughout this interval. Therefore,<br>$$\\cos^{-1}\\sqrt{1-x^2}=\\cos^{-1}(\\cos\\theta)$$<br>Since $\\cos^{-1}$ returns a value in $[0,\\pi]$,<br>$$\\cos^{-1}(\\cos\\theta)=|\\theta|$$<br>The given equation becomes<br>$$\\theta=|\\theta|$$<br>This holds exactly when $\\theta\\geq0$. Since $\\sin^{-1}x$ has the same sign as $x$, the required condition is $x\\geq0$. Combining this with $-1\\leq x\\leq1$ gives<br>$$0\\leq x\\leq1$$<br><br><b>(b)</b><br>For every $x\\in[0,1]$, let $\\theta=\\sin^{-1}x$. Then $\\theta\\in\\left[0,\\dfrac{\\pi}{2}\\right]$ and<br>$$\\sqrt{1-x^2}=\\cos\\theta$$<br>Thus,<br>$$\\cos^{-1}\\sqrt{1-x^2}=\\cos^{-1}(\\cos\\theta)=\\theta=\\sin^{-1}x$$<br>For $x<0$, $\\sin^{-1}x<0$, whereas $\\cos^{-1}\\sqrt{1-x^2}\\geq0$, so equality is impossible. Hence, the solution set is $[0,1]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $x\\in[-1,1]$<br><br>(b) Both inverse expressions are equal throughout their complete common domain",
+    "B": "(a) $x\\in[-1,0]$<br><br>(b) Equality holds because both inverse expressions have non-positive principal values",
+    "C": "(a) $x=0$ only<br><br>(b) Equality fails for every non-zero value because the principal-value ranges are different",
+    "D": "(a) $x\\in[0,1]$<br><br>(b) For these values, both sides lie in $\\left[0,\\dfrac{\\pi}{2}\\right]$ and are equal; for $x<0$, the left side is negative while the right side is non-negative"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9782a62be6a70cd184dbb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation $\\frac{dy}{dx} = \\frac{x^2 + y^2}{2xy}$ for $y > 0$, given that $y(1) = 1$.",
+  "answeroption": "B",
+  "explanation": "Rewrite: $\\frac{dy}{dx} = \\frac{x^2 + y^2}{2xy}$<br /><br />Divide numerator and denominator by $x^2$: $\\frac{dy}{dx} = \\frac{1 + (y/x)^2}{2 (y/x)}$<br /><br />Let $v = y/x$, so $y = vx$. Then $\\frac{dy}{dx} = v + x \\frac{dv}{dx}$<br /><br />Substitute: $v + x \\frac{dv}{dx} = \\frac{1 + v^2}{2v}$<br /><br />$2v (v + x \\frac{dv}{dx}) = 1 + v^2 \\implies 2xv \\frac{dv}{dx} = 1 - v^2$<br /><br />Separate variables: $\\frac{2v}{1 - v^2} dv = \\frac{1}{x} dx$<br /><br />Integrate: $-\\ln|1 - v^2| = \\ln|x| + C \\implies 1 - (y/x)^2 = A/x$<br /><br />Apply $y(1) = 1$: $1 - 1^2 = A/1 \\implies A = 0$<br /><br />Thus $y = x$ (since $y>0$).",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=-x$",
+    "B": "$y=x$",
+    "C": "$y=x^2$",
+    "D": "$y=\\frac{1}{x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:33:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

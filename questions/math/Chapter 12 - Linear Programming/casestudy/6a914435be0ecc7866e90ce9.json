@@ -1,0 +1,32 @@
+{
+  "id": "6a914435be0ecc7866e90ce9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A cooperative society has 50 hectares of land available for growing two crops X and Y. One hectare of crop X requires 2 units of irrigation and 1 unit of labour, while one hectare of crop Y requires 1 unit of irrigation and 2 units of labour. At most 80 units of irrigation and 70 units of labour are available. The profit earned is Rs 5000 per hectare from crop X and Rs 4000 per hectare from crop Y. Let $x$ and $y$ represent the hectares allocated to X and Y respectively. The society wants to maximise its total profit by analysing the restrictions graphically.<br><br><b>(a)</b> Form all the linear constraints for the allocation problem.<br><br><b>(b)</b> Show that the boundary lines for land, irrigation and labour meet at the common point $(30,20)$.<br><br><b>(c)</b> The graphical analysis gives the corner points $(0,0)$, $(40,0)$, $(30,20)$ and $(0,35)$. Calculate the total profit at each point.<br><br><b>(d)</b> Determine the optimal allocation and explain which available resources are completely utilised at that allocation.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The total land available is 50 hectares, so<br>$$x+y\\leq 50$$<br><br>The irrigation requirement is 2 units per hectare for X and 1 unit per hectare for Y. Hence,<br>$$2x+y\\leq 80$$<br><br>The labour requirement is 1 unit per hectare for X and 2 units per hectare for Y. Hence,<br>$$x+2y\\leq 70$$<br><br>Also,<br>$$x\\geq 0,\\quad y\\geq 0$$<br><br>These are the required constraints.<br><br><b>(b)</b><br>At $(30,20)$, the land boundary gives<br>$$30+20=50$$<br>The irrigation boundary gives<br>$$2(30)+20=80$$<br>The labour boundary gives<br>$$30+2(20)=70$$<br>Thus, $(30,20)$ lies on all three boundary lines and is their common point.<br><br><b>(c)</b><br>The objective function for total profit is<br>$$Z=5000x+4000y$$<br><br>At $(0,0)$,<br>$$Z=0$$<br>At $(40,0)$,<br>$$Z=5000(40)=200000$$<br>At $(30,20)$,<br>$$Z=5000(30)+4000(20)=150000+80000=230000$$<br>At $(0,35)$,<br>$$Z=4000(35)=140000$$<br><br><b>(d)</b><br>The greatest value of $Z$ is Rs 230000 at $(30,20)$. Therefore, 30 hectares should be allocated to crop X and 20 hectares to crop Y.<br><br>At this allocation, land used is $30+20=50$ hectares, irrigation used is $2(30)+20=80$ units, and labour used is $30+2(20)=70$ units. Hence, all the available land, irrigation and labour are completely utilised.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $x+y\\leq50$, $2x+y\\leq80$, $x+2y\\leq70$, $x,y\\geq0$<br>(b) $(30,20)$ satisfies only the land and irrigation boundaries<br>(c) Maximum profit Rs $200000$ at $(40,0)$<br>(d) Only land and irrigation are completely utilised",
+    "B": "(a) $x+y\\leq50$, $2x+y\\leq80$, $x+2y\\leq70$, $x,y\\geq0$<br>(b) $(30,20)$ lies on all three boundary lines<br>(c) Profits at $(0,0),(40,0),(30,20),(0,35)$ are Rs $0,200000,230000,140000$ respectively<br>(d) Allocate $30$ hectares to X and $20$ hectares to Y; all three resources are completely utilised",
+    "C": "(a) $x+y\\geq50$, $2x+y\\leq80$, $x+2y\\leq70$, $x,y\\geq0$<br>(b) $(30,20)$ lies on all three boundaries<br>(c) Maximum profit Rs $230000$ at $(30,20)$<br>(d) Only irrigation and labour are completely utilised",
+    "D": "(a) $x+y\\leq50$, $x+2y\\leq80$, $2x+y\\leq70$, $x,y\\geq0$<br>(b) $(30,20)$ is not on all three boundaries<br>(c) Maximum profit Rs $220000$ at $(30,20)$<br>(d) Allocate $20$ hectares to X and $30$ hectares to Y"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

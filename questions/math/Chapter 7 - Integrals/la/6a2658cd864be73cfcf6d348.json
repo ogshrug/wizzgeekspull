@@ -1,0 +1,28 @@
+{
+  "id": "6a2658cd864be73cfcf6d348",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate: <br />$$\\int_{-2}^{1}\\sqrt{5-4x-x^{2}}dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To evaluate the definite integral $\\int_{-2}^{1}\\sqrt{5-4x-x^{2}}dx$, we first transform the quadratic expression under the radical by completing the square. Factor out a negative sign from the variable terms: $5 - (x^2 + 4x)$. Add and subtract the square of half the coefficient of $x$, which is $(\\frac{4}{2})^2 = 4$, inside the grouping: $5 - (x^2 + 4x + 4 - 4) = 5 - (x+2)^2 + 4 = 9 - (x+2)^2 = 3^2 - (x+2)^2$.<br />**Step 2:** Substitute this newly completed square form back under the radical in the integrand. This gives the modified definite integral: $\\int_{-2}^{1} \\sqrt{3^2 - (x+2)^2} dx$. We use linear substitution to simplify the boundaries and variables: let $t = x+2$, which implies that differentiating gives $dt = dx$. Next, adjust the integration limits to match $t$: when the lower bound is $x = -2$, $t = -2 + 2 = 0$; when the upper bound is $x = 1$, $t = 1 + 2 = 3$. This transforms the problem into: $\\int_{0}^{3} \\sqrt{3^2 - t^2} dt$.<br />**Step 3:** Apply the standard integral formula for square roots of squared differences: $\\int \\sqrt{a^2-t^2} dt = \\frac{t}{2}\\sqrt{a^2-t^2} + \\frac{a^2}{2}\\sin^{-1}(\\frac{t}{a})$. Here $a = 3$, so computing the indefinite integral gives us the following evaluation template: $\\left[ \\frac{t}{2}\\sqrt{9-t^2} + \\frac{9}{2}\\sin^{-1}\\left(\\frac{t}{3}\\right) \\right]_{0}^{3}$.<br />**Step 4:** Substitute the upper limit $t = 3$ and lower limit $t = 0$ into the template to find the final numeric answer. Evaluating at the upper boundary gives: $\\left( \\frac{3}{2}\\sqrt{9-9} + \\frac{9}{2}\\sin^{-1}(1) \\right) = 0 + \\frac{9}{2}\\left(\\frac{\\pi}{2}\\right) = \\frac{9\\pi}{4}$. Evaluating at the lower boundary gives: $\\left( 0 + \\frac{9}{2}\\sin^{-1}(0) \\right) = 0$. Subtracting the lower bound from the upper bound results in the final exact area value: $\\frac{9\\pi}{4}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1",
+    "2022-3-2",
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

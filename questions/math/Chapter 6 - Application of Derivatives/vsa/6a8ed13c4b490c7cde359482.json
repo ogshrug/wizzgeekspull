@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed13c4b490c7cde359482",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984"
+  ],
+  "question_type": "VSA",
+  "question": "For $a>0$, classify the critical point $x=a$ of the function $f(x)=x^3-3a^2x$ using the first derivative test.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> Differentiate the function with respect to $x$: $$f'(x)=3x^2-3a^2=3(x-a)(x+a)$$<br><b>Step 2:</b> Since $a>0$, consider the sign of $f'(x)$ immediately around $x=a$.<br><b>Step 3:</b> For $x<a$ but close to $a$, $(x-a)<0$ and $(x+a)>0$. Hence, $f'(x)<0$, so the function is decreasing.<br><b>Step 4:</b> For $x>a$, both $(x-a)$ and $(x+a)$ are positive. Hence, $f'(x)>0$, so the function is increasing.<br><b>Step 5:</b> Since the derivative changes from negative to positive, $x=a$ is a point of local minimum.",
+  "explanation_image": [],
+  "options": {
+    "A": "A point of local minimum",
+    "B": "A point of local maximum",
+    "C": "Neither a local maximum nor a local minimum",
+    "D": "A point at which the first derivative remains positive on both sides"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

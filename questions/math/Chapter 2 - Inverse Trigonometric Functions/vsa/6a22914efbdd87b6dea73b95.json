@@ -1,0 +1,28 @@
+{
+  "id": "6a22914efbdd87b6dea73b95",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Simplify $\\sin^{-1}\\left(\\frac{x}{\\sqrt{1+x^{2}}}\\right)$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To simplify the expression, we select a helpful trigonometric substitution. Let $x = \\tan\\theta$, which implies that the angle $\\theta = \\tan^{-1}x$.<br /><br /><b>Step 2</b> Substitute this into the argument of the inverse function: $\\frac{\\tan\\theta}{\\sqrt{1+\\tan^2\\theta}} = \\frac{\\tan\\theta}{\\sqrt{\\sec^2\\theta}} = \\frac{\\tan\\theta}{\\sec\\theta}$. Converting these terms into basic sines and cosines gives $\\frac{\\sin\\theta / \\cos\\theta}{1 / \\cos\\theta} = \\sin\\theta$.<br /><br /><b>Step 3</b> Substitute this simplified fraction back into the original expression to get $\\sin^{-1}(\\sin\\theta) = \\theta$. Replacing $\\theta$ with its definition gives the final simplified result: $\\tan^{-1}x$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

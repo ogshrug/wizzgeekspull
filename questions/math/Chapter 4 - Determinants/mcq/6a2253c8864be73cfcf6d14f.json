@@ -1,0 +1,33 @@
+{
+  "id": "6a2253c8864be73cfcf6d14f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c6603740512f018fa94d6e",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "MCQ",
+  "question": "If A is a square matrix of order 2 such that det $(A)=4$, then det (4 adj A) is equal to :",
+  "answeroption": "B",
+  "explanation": "**Step 1:** We apply the scalar multiplication property of determinants: $\\det(kM) = k^n \\det(M)$, where $n$ is the order of the square matrix $M$. Here $k = 4$ and $n = 2$. So, $\\det(4 \\text{ adj } A) = 4^2 \\det(\\text{adj } A) = 16 \\det(\\text{adj } A)$.<br />**Step 2:** Next, we use the vital property linking the determinant of an adjoint matrix to the determinant of the original matrix: $\\det(\\text{adj } A) = (\\det A)^{n-1}$.<br />**Step 3:** Substituting the given values ($n=2$, $\\det A = 4$), we get $\\det(\\text{adj } A) = (4)^{2-1} = 4$.<br />**Step 4:** Multiply these results to find the final value: $16 \\times 4 = 64$.",
+  "explanation_image": [],
+  "options": {
+    "A": "16",
+    "B": "64",
+    "C": "256",
+    "D": "512"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

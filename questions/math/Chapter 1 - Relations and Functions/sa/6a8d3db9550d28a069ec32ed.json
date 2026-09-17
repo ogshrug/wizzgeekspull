@@ -1,0 +1,29 @@
+{
+  "id": "6a8d3db9550d28a069ec32ed",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "SA",
+  "question": "Consider the function $f:\\mathbb{N}\\to\\mathbb{N}$ given by $f(n)=n^2$. Verify that $f$ is one-one.",
+  "answeroption": "C",
+  "explanation": "<b>Equality of images</b><br>Let $n_1,n_2\\in\\mathbb{N}$ and suppose $f(n_1)=f(n_2)$. Then<br>$$n_1^2=n_2^2.$$<br><br><b>Factorisation</b><br>$$n_1^2-n_2^2=0$$<br>gives<br>$$(n_1-n_2)(n_1+n_2)=0.$$<br>Since $n_1,n_2\\in\\mathbb{N}$, equality of their squares implies<br>$$n_1=n_2.$$<br><br><b>Conclusion</b><br>Hence, $f(n_1)=f(n_2)$ implies $n_1=n_2$, so $f$ is one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is not one-one because $f(1)=f(-1)$",
+    "B": "$f$ is not one-one because some natural numbers are not perfect squares",
+    "C": "$f$ is one-one because $n_1^2=n_2^2$ for $n_1,n_2\\in\\mathbb{N}$ implies $n_1=n_2$",
+    "D": "$f$ is one-one only when the domain contains exactly one natural number"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

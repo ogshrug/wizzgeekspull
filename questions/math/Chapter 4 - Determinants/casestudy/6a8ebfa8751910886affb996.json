@@ -1,0 +1,32 @@
+{
+  "id": "6a8ebfa8751910886affb996",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d71",
+    "69c6603740512f018fa94d72",
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A class compares three mathematical models that share the equations $x+y+z=6$ and $x-y+z=2$. Model A includes the additional equation $x+z=4$, Model B includes $x+z=5$, and Model C includes $x+2y+3z=14$. The students must determine how the choice of the third equation affects consistency and the number of solutions. They first extract the information common to all three models and then analyse each model separately.<br><br><b>(a)</b> Use the two common equations to determine $y$ and obtain a relation between $x$ and $z$.<br><br><b>(b)</b> Examine Model A and state its number of solutions.<br><br><b>(c)</b> Examine Model B and justify whether it is consistent.<br><br><b>(d)</b> Evaluate the coefficient determinant of Model C and hence solve it.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The common equations are<br>$$x+y+z=6$$<br>$$x-y+z=2$$<br>Subtracting the second equation from the first gives<br>$$2y=4$$<br>$$y=2$$<br>Substituting in the first equation,<br>$$x+z=4$$<br><br><b>(b)</b><br>Model A adds the equation<br>$$x+z=4$$<br>This is exactly the relation already obtained from the first two equations. Therefore, no new independent condition is introduced. Let $z=t$. Then,<br>$$x=4-t,\\quad y=2,\\quad z=t$$<br>Hence, Model A is consistent and has infinitely many solutions.<br><br><b>(c)</b><br>Model B requires<br>$$x+z=5$$<br>However, the common equations require $x+z=4$. These conditions contradict each other. Therefore, Model B is inconsistent and has no solution.<br><br><b>(d)</b><br>The coefficient determinant of Model C is<br>$$D=\\begin{vmatrix}1 & 1 & 1\\\\1 & -1 & 1\\\\1 & 2 & 3\\end{vmatrix}$$<br>$$D=(-3-2)-(3-1)+(2+1)=-5-2+3=-4$$<br>Since $D\\neq0$, Model C has a unique solution.<br>Using $y=2$ and $x+z=4$, the third equation becomes<br>$$x+4+3z=14$$<br>$$x+3z=10$$<br>Subtracting $x+z=4$ gives<br>$$2z=6$$<br>$$z=3$$<br>Therefore, $x=1$. Hence, the unique solution is<br>$$(x,y,z)=(1,2,3)$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y=2,\\ x+z=4$<br>(b) Model A has a unique solution<br>(c) Model B has infinitely many solutions<br>(d) Model C has determinant $-4$ and solution $(1,2,3)$",
+    "B": "(a) $y=2,\\ x+z=4$<br>(b) Model A has infinitely many solutions<br>(c) Model B is inconsistent and has no solution<br>(d) Model C has determinant $-4$ and unique solution $(1,2,3)$",
+    "C": "(a) $y=4,\\ x+z=2$<br>(b) Model A is inconsistent<br>(c) Model B has a unique solution<br>(d) Model C has determinant $4$ and solution $(3,2,1)$",
+    "D": "(a) $y=2,\\ x+z=4$<br>(b) Model A has infinitely many solutions<br>(c) Model B is inconsistent<br>(d) Model C has determinant $0$ and infinitely many solutions"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

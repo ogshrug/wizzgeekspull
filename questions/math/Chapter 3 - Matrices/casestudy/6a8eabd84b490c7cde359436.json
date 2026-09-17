@@ -1,0 +1,31 @@
+{
+  "id": "6a8eabd84b490c7cde359436",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A group of students studies special square matrices by comparing each matrix with its transpose. They are given $S=\\begin{bmatrix}2&-1&3\\\\-1&4&0\\\\3&0&5\\end{bmatrix}$ and $K=\\begin{bmatrix}0&2&-4\\\\-2&0&3\\\\4&-3&0\\end{bmatrix}$. They are also told that $P=\\begin{bmatrix}4&x&2\\\\3&5&-1\\\\2&-1&6\\end{bmatrix}$ is symmetric. Finally, another matrix $Q=[q_{ij}]$ of order 3 is known to be skew-symmetric with $q_{12}=4$, $q_{13}=-2$ and $q_{23}=5$. The students must use the defining relations between a matrix and its transpose to examine and complete these matrices.<br><br><b>(a)</b> Find $S^T$ and determine whether $S$ is symmetric.<br><br><b>(b)</b> Find $K^T$ and determine whether $K$ is skew-symmetric.<br><br><b>(c)</b> Determine the value of $x$ so that $P$ is symmetric.<br><br><b>(d)</b> Construct the complete matrix $Q$ using the given entries and the condition that $Q$ is skew-symmetric.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Transposing $S$ gives $S^T=\\begin{bmatrix}2&-1&3\\\\-1&4&0\\\\3&0&5\\end{bmatrix}$. Thus, $S^T=S$. A square matrix satisfying $S^T=S$ is symmetric. Hence, $S$ is a symmetric matrix.<br><br><b>(b)</b><br>Transposing $K$ gives $K^T=\\begin{bmatrix}0&-2&4\\\\2&0&-3\\\\-4&3&0\\end{bmatrix}$. Also, $-K=\\begin{bmatrix}0&-2&4\\\\2&0&-3\\\\-4&3&0\\end{bmatrix}$. Therefore, $K^T=-K$. Hence, $K$ is a skew-symmetric matrix.<br><br><b>(c)</b><br>For a symmetric matrix, entries placed symmetrically about the principal diagonal must be equal. In $P$, the entries in positions $(1,2)$ and $(2,1)$ are $x$ and 3 respectively. Therefore, $x=3$. The other corresponding pairs already agree, so $P$ is symmetric when $x=3$.<br><br><b>(d)</b><br>For a skew-symmetric matrix, $q_{ji}=-q_{ij}$ and each diagonal entry is zero. Therefore, $q_{21}=-4$, $q_{31}=2$ and $q_{32}=-5$, while $q_{11}=q_{22}=q_{33}=0$. Hence, $Q=\\begin{bmatrix}0&4&-2\\\\-4&0&5\\\\2&-5&0\\end{bmatrix}$. Its transpose is $Q^T=\\begin{bmatrix}0&-4&2\\\\4&0&-5\\\\-2&5&0\\end{bmatrix}=-Q$, verifying that the constructed matrix is skew-symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "<b>(a)</b> $S^T=S$, so $S$ is symmetric.<br><b>(b)</b> $K^T=-K$, so $K$ is skew-symmetric.<br><b>(c)</b> $x=-3$.<br><b>(d)</b> $Q=\\begin{bmatrix}0&4&-2\\\\-4&0&5\\\\2&-5&0\\end{bmatrix}$.",
+    "B": "<b>(a)</b> $S^T=S$, so $S$ is symmetric.<br><b>(b)</b> $K^T=K$, so $K$ is symmetric.<br><b>(c)</b> $x=3$.<br><b>(d)</b> $Q=\\begin{bmatrix}0&4&-2\\\\4&0&5\\\\-2&5&0\\end{bmatrix}$.",
+    "C": "<b>(a)</b> $S^T=\\begin{bmatrix}2&-1&3\\\\-1&4&0\\\\3&0&5\\end{bmatrix}=S$, so $S$ is symmetric.<br><b>(b)</b> $K^T=\\begin{bmatrix}0&-2&4\\\\2&0&-3\\\\-4&3&0\\end{bmatrix}=-K$, so $K$ is skew-symmetric.<br><b>(c)</b> $x=3$.<br><b>(d)</b> $Q=\\begin{bmatrix}0&4&-2\\\\-4&0&5\\\\2&-5&0\\end{bmatrix}$.",
+    "D": "<b>(a)</b> $S^T=-S$, so $S$ is skew-symmetric.<br><b>(b)</b> $K^T=-K$, so $K$ is skew-symmetric.<br><b>(c)</b> $x=3$.<br><b>(d)</b> $Q=\\begin{bmatrix}0&4&-2\\\\-4&0&-5\\\\2&5&0\\end{bmatrix}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

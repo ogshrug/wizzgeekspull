@@ -1,0 +1,19 @@
+{
+  "id": "69a984ce62be6a70cd184dc8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "question_type": "LA",
+  "question": "Let $f: \\mathbb{N} \\to \\mathbb{N}$ be given by $f(n) = n^2$.<br /><br />(a) Is $f$ invertible? Justify.<br /><br />(b) Find the function $g: \\mathbb{N} \\to \\mathbb{N}$ defined by $g(f(n)) = n$ wherever possible.<br /><br />(c) Can $g$ be a function from $\\mathbb{N}$ to $\\mathbb{N}$? Explain with detailed reasoning regarding the \"well-defined\" property for inverse functions.",
+  "options": {
+    "A": "(a) $f$ is invertible on $\\mathbb{N}\\to\\mathbb{N}$.<br />(b) $g(m)=m^2$.<br />(c) $g$ is a function from $\\mathbb{N}$ to $\\mathbb{N}$ for all natural numbers.",
+    "B": "(a) $f$ is not one-one, so it is not invertible.<br />(b) $g(m)=m+1$.<br />(c) $g$ cannot be defined even on perfect squares.",
+    "C": "(a) $f$ is one-one but not onto, so it is not invertible as a function $\\mathbb{N}\\to\\mathbb{N}$.<br />(b) For perfect squares $m=n^2$, $g(m)=\\sqrt m=n$.<br />(c) $g$ cannot be a function from all of $\\mathbb{N}$ to $\\mathbb{N}$ because it is undefined for non-perfect squares such as $2$.",
+    "D": "(a) $f$ is onto but not one-one.<br />(b) $g(m)=\\frac{1}{m}$.<br />(c) $g$ is well-defined on all of $\\mathbb{N}$."
+  },
+  "difficulty": "Medium",
+  "imageurl": null,
+  "is_diagram": false,
+  "diagram": [],
+  "test_type": "Initial"
+}

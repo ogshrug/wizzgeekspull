@@ -1,0 +1,31 @@
+{
+  "id": "69a9c3f86638848124d7c9ae",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A warehouse is to be built in the form of a cuboid with a square base such that the cost of flooring is Rs. 300 per sq m, cost of walls is Rs. 200 per sq m, and cost of ceiling is Rs. 500 per sq m. The volume must be $162$ m$^3$.<br /><br />(a) Find the cost function in terms of base side $x$.<br /><br />(b) Determine the value of $x$ minimizing the total cost.<br /><br />(c) Establish minimum using the second derivative.",
+  "answeroption": "A",
+  "explanation": "Let base side = $x$ m, height = $h$ m.<br /><br />Volume: $x^2 h = 162 \\implies h= \\frac{162}{x^2}$<br /><br />Floor area: $x^2$; Cost: $300x^2$<br /><br />Walls: $4xh$; Cost: $200\\times 4xh = 800xh$<br /><br />Ceiling: $x^2$; Cost: $500x^2$<br /><br />Total Cost: $C(x) = 300x^2 + 800xh + 500x^2 = 800x^2 + 800x h$<br /><br />$=800x^2 + 800x\\left(\\frac{162}{x^2}\\right)= 800x^2 + \\frac{129600}{x}$<br /><br />$dC/dx = 1600x - \\frac{129600}{x^2}$; set to $0$:<br /><br />$16x^3=1296$, $x^3=81$, $x=4.326$<br /><br />$d^2C/dx^2=1600+\\frac{259200}{x^3}>0$ so minimum at $x \\approx4.326$ m.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $C(x)=800x^2+\\frac{129600}{x}$<br />(b) $x^3=81$, so $x\\approx4.326$ m.<br />(c) $\\frac{d^2C}{dx^2}=1600+\\frac{259200}{x^3}>0$, so the cost is minimum.",
+    "B": "(a) $C(x)=500x^2+\\frac{129600}{x}$<br />(b) $x^3=129.6$, so $x\\approx5.06$ m.<br />(c) $\\frac{d^2C}{dx^2}<0$, so the cost is maximum.",
+    "C": "(a) $C(x)=800x^2+129600x$<br />(b) $x=4.326$ m.<br />(c) $\\frac{d^2C}{dx^2}=0$, so the test is inconclusive.",
+    "D": "(a) $C(x)=300x^2+\\frac{129600}{x}$<br />(b) $x^3=216$, so $x=6$ m.<br />(c) $\\frac{d^2C}{dx^2}>0$, so the cost is minimum."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:57:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

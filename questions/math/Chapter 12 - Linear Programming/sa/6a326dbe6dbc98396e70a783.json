@@ -1,0 +1,28 @@
+{
+  "id": "6a326dbe6dbc98396e70a783",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "The feasible region along with corner points for a linear programming problem are shown in the graph.<br /><br />Write all the constraints for the given linear programing problem.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Identify the lines forming the boundaries of the feasible region. Line 1 passes through $(35,0)$ and $(0,70)$, which gives the equation $\\frac{x}{35} + \\frac{y}{70} = 1 \\implies 2x + y = 70$. Since the shaded region is towards the origin, the inequality is $2x + y \\le 70$ .<br />**Step 2:** Line 2 passes through $A(0,30)$ and $B(15,25)$. Its equation is found using the slope formula: $y - 30 = -\\frac{1}{3}x \\implies x + 3y = 90$. The corresponding inequality constraint is $x + 3y \\le 90$ .<br />**Step 3:** Line 3 passes through $B(15,25)$ and $C(30,10)$, yielding the linear equation $x + y = 40$. The inequality constraint bounding the origin side is $x + y \\le 40$. Adding non-negativity parameters forms the complete set: $2x+y \\le 70$, $x+y \\le 40$, $x+3y \\le 90$, $x \\ge 0, y \\ge 0$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a326dbe6dbc98396e70a783/1782196041-0.png?t=1782215842204"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

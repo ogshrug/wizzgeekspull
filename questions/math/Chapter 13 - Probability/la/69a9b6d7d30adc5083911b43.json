@@ -1,0 +1,30 @@
+{
+  "id": "69a9b6d7d30adc5083911b43",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "LA",
+  "question": "A pair of dice is thrown 5 times. Find the probability that a sum of 7 appears at least once. \n(b) Find the expected number of times a sum of 7 will appear.\n(c) If it appears exactly 2 times, what is the probability the sum is 7 in the first two throws?",
+  "answeroption": "A",
+  "explanation": "Probability of sum 7 in one throw:<br />There are 6 ways: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1); total 36 outcomes, probability = 6/36 = 1/6.<br /><br />(a) Probability at least once: $1 - P(\\text{never in 5})$<br />$P(\\text{not 7})=5/6$ each time<br />$P(\\text{never})=(5/6)^5$<br />$P(\\text{at least once})=1-(5/6)^5$<br />$(5/6)^5 = 3125/7776$<br />So $=1-3125/7776=4651/7776$<br /><br />(b) Expected number = $5\\times1/6=5/6$<br /><br />(c) Probability sum = 7 in first two, not in next three:<br />That is: success, success, fail, fail, fail<br />$=(1/6)^2\\times(5/6)^3=1/36\\times125/216=125/7776$<br /><br />Final answers:<br />(a)$4651/7776$<br />(b)$5/6$<br />(c)$125/7776$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{4651}{7776}$<br />(b) $\\frac{5}{6}$<br />(c) $\\frac{1}{10}$",
+    "B": "(a) $\\frac{3125}{7776}$<br />(b) $\\frac{1}{6}$<br />(c) $\\frac{125}{7776}$",
+    "C": "(a) $\\frac{4651}{7776}$<br />(b) $\\frac{5}{6}$<br />(c) $\\frac{125}{7776}$",
+    "D": "(a) $\\frac{1}{6}$<br />(b) $\\frac{5}{6}$<br />(c) $\\frac{1}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:01:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

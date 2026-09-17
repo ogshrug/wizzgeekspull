@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed96d4b490c7cde3594a4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int\\frac{dx}{\\sqrt{16-(x+2)^2}}$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> Compare the given integral with the standard form $$\\int\\frac{dt}{\\sqrt{a^2-t^2}}=\\sin^{-1}\\left(\\frac{t}{a}\\right)+C.$$<br><b>Step 2:</b> Put $t=x+2$. Then $dt=dx$.<br><b>Step 3:</b> The integral becomes $$\\int\\frac{dt}{\\sqrt{16-t^2}}=\\int\\frac{dt}{\\sqrt{4^2-t^2}}.$$<br><b>Step 4:</b> Using the standard form with $a=4$, we get $\\sin^{-1}\\left(\\frac{t}{4}\\right)+C$.<br><b>Step 5:</b> Replacing $t$ by $x+2$, the required integral is $$\\boxed{\\sin^{-1}\\left(\\frac{x+2}{4}\\right)+C}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sin^{-1}\\left(\\frac{x+2}{2}\\right)+C$",
+    "B": "$\\frac{1}{4}\\sin^{-1}\\left(\\frac{x+2}{4}\\right)+C$",
+    "C": "$\\sin^{-1}\\left(\\frac{x+2}{4}\\right)+C$",
+    "D": "$\\tan^{-1}\\left(\\frac{x+2}{4}\\right)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

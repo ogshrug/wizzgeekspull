@@ -1,0 +1,32 @@
+{
+  "id": "6a8e72c32e54880055a0a65a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Let $A$ be the set of all ordered pairs of positive integers. A relation $R$ is defined on $A$ by $(x,y)R(u,v)$ if and only if $xv=yu$. To understand this relation, students consider the ordered pairs $P=(2,3)$, $Q=(4,6)$, $S=(6,9)$ and $T=(3,5)$. They first test the relation for these particular pairs and then examine whether the defining equation always satisfies the properties of reflexivity, symmetry and transitivity. All entries are positive integers, so none of the quantities involved is zero.<br><br><b>(a)</b> Determine whether $PRQ$ and $PRT$ are true.<br><br><b>(b)</b> Verify that $R$ is symmetric.<br><br><b>(c)</b> Show that $R$ is reflexive.<br><br><b>(d)</b> Prove that $R$ is transitive and hence determine whether it is an equivalence relation.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>For $P=(2,3)$ and $Q=(4,6)$, the required condition is $2\\times6=3\\times4$. Both sides are $12$, so $PRQ$ is true. For $P=(2,3)$ and $T=(3,5)$, the condition would require $2\\times5=3\\times3$. Since $10\\neq9$, $PRT$ is false.<br><br><b>(b)</b><br>Suppose $(x,y)R(u,v)$. Then $xv=yu$. Rewriting the same equality gives $uy=vx$. This is precisely the condition for $(u,v)R(x,y)$. Hence, $R$ is symmetric.<br><br><b>(c)</b><br>For any $(x,y)\\in A$, we have $xy=yx$. Therefore, $(x,y)R(x,y)$. Hence, $R$ is reflexive.<br><br><b>(d)</b><br>Suppose $(x,y)R(u,v)$ and $(u,v)R(a,b)$. Then $xv=yu$ and $ub=va$. Multiplying the first equality by $b$ gives $xvb=yub$. Using $ub=va$, we obtain $xvb=yva$. Since $v$ is a positive integer, $v\\neq0$, so cancelling $v$ gives $xb=ya$. Therefore, $(x,y)R(a,b)$. Hence, $R$ is transitive. Since $R$ is reflexive, symmetric and transitive, it is an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$PRQ$ is true and $PRT$ is false; $R$ is reflexive, symmetric and transitive, so it is an equivalence relation.",
+    "B": "$PRQ$ and $PRT$ are both true; $R$ is reflexive and symmetric but not transitive, so it is not an equivalence relation.",
+    "C": "$PRQ$ is false and $PRT$ is true; $R$ is symmetric and transitive but not reflexive, so it is not an equivalence relation.",
+    "D": "$PRQ$ and $PRT$ are both false; $R$ is reflexive and transitive but not symmetric, so it is not an equivalence relation."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

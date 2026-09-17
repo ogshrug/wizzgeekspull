@@ -1,0 +1,29 @@
+{
+  "id": "69a91fbd64fcf4cdd5b4bb1b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "MCQ",
+  "question": "In a transportation problem, a company must ship products from two warehouses to two stores. At least 20 units must go to each store. Warehouse 1 can supply at most 40 units, warehouse 2 at most 30 units. Let $x$ and $y$ be units shipped from warehouse 1 to store 1 and 2 respectively. Which of the following is a correct constraint involving $x$ and $y$?",
+  "answeroption": "A",
+  "explanation": "Warehouse 1 can supply at most 40 units in total. If $x$ and $y$ represent shipments from warehouse 1 to the two stores, their sum cannot exceed 40.<br /><br />Thus the constraint is $x + y \\leq 40$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x + y \\leq 40$",
+    "B": "$x + y \\geq 30$",
+    "C": "$x \\leq 20$",
+    "D": "$y \\geq 40$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:16:29 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

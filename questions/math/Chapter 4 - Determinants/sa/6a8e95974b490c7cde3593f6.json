@@ -1,0 +1,29 @@
+{
+  "id": "6a8e95974b490c7cde3593f6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "SA",
+  "question": "Using suitable determinant operations, show that $$\\begin{vmatrix}1+a&1&1\\\\1&1+b&1\\\\1&1&1+c\\end{vmatrix}=ab+bc+ca+abc.$$",
+  "answeroption": "D",
+  "explanation": "<b>Row simplification</b><br>Apply $R_2\\to R_2-R_1$ and $R_3\\to R_3-R_1$. The determinant becomes $$\\begin{vmatrix}1+a&1&1\\\\-a&b&0\\\\-a&0&c\\end{vmatrix}$$<br><b>Expansion along the first row</b><br>Expanding the transformed determinant, $$D=(1+a)bc-1\\begin{vmatrix}-a&0\\\\-a&c\\end{vmatrix}+1\\begin{vmatrix}-a&b\\\\-a&0\\end{vmatrix}$$<br><b>Evaluation of the minors</b><br>Therefore, $$D=bc(1+a)-(-ac)+ab$$<br><b>Algebraic simplification</b><br>Thus, $$D=bc+abc+ac+ab=ab+bc+ca+abc$$<br>Hence, the required result is established.",
+  "explanation_image": [],
+  "options": {
+    "A": "$ab+bc+ca$",
+    "B": "$ab+bc+ca-abc$",
+    "C": "$abc$",
+    "D": "$ab+bc+ca+abc$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

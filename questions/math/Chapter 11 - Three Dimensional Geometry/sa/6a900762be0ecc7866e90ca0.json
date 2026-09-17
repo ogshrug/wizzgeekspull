@@ -1,0 +1,29 @@
+{
+  "id": "6a900762be0ecc7866e90ca0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "SA",
+  "question": "The line $\\vec{r}=\\vec{a}+\\lambda(\\hat{i}+p\\hat{j}+\\hat{k})$ makes an angle of $30^\\circ$ with the plane $x+z=5$. Find all possible values of $p$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Direction and normal vectors</b><br>The direction vector of the line is<br>$$\\vec{b}=\\hat{i}+p\\hat{j}+\\hat{k},$$<br>and a normal vector to the plane $x+z=5$ is<br>$$\\vec{n}=\\hat{i}+\\hat{k}.$$<br><b>Step 2: Angle-between-line-and-plane formula</b><br>If $\\phi$ is the angle between the line and the plane, then<br>$$\\sin\\phi=\\frac{|\\vec{b}\\cdot\\vec{n}|}{|\\vec{b}||\\vec{n}|}.$$<br><b>Step 3: Substitution of $\\phi=30^\\circ$</b><br>Here $\\vec{b}\\cdot\\vec{n}=2$, $|\\vec{b}|=\\sqrt{p^2+2}$ and $|\\vec{n}|=\\sqrt{2}$. Therefore,<br>$$\\frac{1}{2}=\\frac{2}{\\sqrt{2}\\sqrt{p^2+2}}.$$<br><b>Step 4: Algebraic simplification</b><br>$$\\sqrt{2}\\sqrt{p^2+2}=4.$$<br>Squaring,<br>$$2(p^2+2)=16\\Rightarrow p^2=6.$$<br><b>Step 5: Final result</b><br>Hence, the possible values are<br>$$p=\\sqrt{6}\\quad\\text{or}\\quad p=-\\sqrt{6}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$p=\\pm\\sqrt2$",
+    "B": "$p=\\pm\\sqrt6$",
+    "C": "$p=\\pm2$",
+    "D": "$p=\\pm3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

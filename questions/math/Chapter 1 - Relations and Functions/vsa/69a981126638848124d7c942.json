@@ -1,0 +1,29 @@
+{
+  "id": "69a981126638848124d7c942",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "VSA",
+  "question": "If $R$ is a relation on set $A=\\{1,2,3,4\\}$ defined as $R=\\{(a,b):(a-b)$ is divisible by $3, a,b \\in A\\}$, is $R$ an equivalence relation? Justify your answer.",
+  "answeroption": "C",
+  "explanation": "To check for equivalence relation, $R$ must be reflexive, symmetric, and transitive.<br /><br />• Reflexive: $a-a=0$ is divisible by $3$ for all $a \\in A$, so all $(a,a) \\in R$.<br /><br />• Symmetric: If $(a,b) \\in R$, $a-b$ is divisible by $3$. Then $b-a=-(a-b)$ is also divisible by $3$, so $(b,a) \\in R$.<br /><br />• Transitive: If $(a,b) \\in R$ and $(b,c) \\in R$, then $a-b$ and $b-c$ divisible by $3$ ⇒ $a-c=(a-b)+(b-c)$ is divisible by $3$.<br /><br />Therefore, $R$ is an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "No, because $R$ is reflexive but not symmetric",
+    "B": "No, because $R$ is symmetric but not transitive",
+    "C": "Yes, because $R$ is reflexive, symmetric and transitive",
+    "D": "Yes, because every relation defined on a finite set is an equivalence relation"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:11:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

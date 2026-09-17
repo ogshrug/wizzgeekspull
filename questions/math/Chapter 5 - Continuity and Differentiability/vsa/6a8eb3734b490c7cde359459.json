@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb3734b490c7cde359459",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "VSA",
+  "question": "The variables $x$ and $y$ satisfy $x^2+xy+y^2=7$. Find $\\frac{dy}{dx}$ at the point $(1,2)$.",
+  "answeroption": "D",
+  "explanation": "Step 1: Since $x$ and $y$ are related implicitly, differentiate the given equation with respect to $x$.<br>Step 2: Differentiating $x^2+xy+y^2=7$ gives $2x+x\\frac{dy}{dx}+y+2y\\frac{dy}{dx}=0$.<br>Step 3: Collecting the terms containing $\\frac{dy}{dx}$ gives $(x+2y)\\frac{dy}{dx}=-(2x+y)$.<br>Step 4: Therefore, $\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}$.<br>Step 5: At $(1,2)$, $\\frac{dy}{dx}=-\\frac{2(1)+2}{1+2(2)}=-\\frac{4}{5}$. Hence, the required derivative is $\\boxed{-\\frac{4}{5}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{4}{5}$",
+    "B": "$-\\frac{5}{4}$",
+    "C": "$\\frac{5}{4}$",
+    "D": "$-\\frac{4}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

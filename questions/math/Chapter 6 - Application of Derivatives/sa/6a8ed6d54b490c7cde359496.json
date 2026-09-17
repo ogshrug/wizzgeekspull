@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed6d54b490c7cde359496",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "SA",
+  "question": "The edge of a cube is measured with a possible percentage error of $0.8\\%$. Estimate the percentage errors in its calculated total surface area and volume.",
+  "answeroption": "C",
+  "explanation": "<b>Surface-area relation</b><br>For edge $x$, the total surface area is $S=6x^2$. Therefore,<br>$$\\frac{dS}{S}=2\\frac{dx}{x}$$<br>Hence, the percentage error in surface area is<br>$$2(0.8\\%)=1.6\\%$$<br><b>Volume relation</b><br>The volume is $V=x^3$. Therefore,<br>$$\\frac{dV}{V}=3\\frac{dx}{x}$$<br>Hence, the percentage error in volume is<br>$$3(0.8\\%)=2.4\\%$$<br><b>Comparison</b><br>The volume error is greater because volume depends on the third power of the edge, while surface area depends on its second power.<br><b>Conclusion</b><br>The estimated percentage errors are $1.6\\%$ in surface area and $2.4\\%$ in volume.",
+  "explanation_image": [],
+  "options": {
+    "A": "Surface area: $2.4\\%$; volume: $1.6\\%$",
+    "B": "Surface area: $0.8\\%$; volume: $2.4\\%$",
+    "C": "Surface area: $1.6\\%$; volume: $2.4\\%$",
+    "D": "Surface area: $1.6\\%$; volume: $3.2\\%$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

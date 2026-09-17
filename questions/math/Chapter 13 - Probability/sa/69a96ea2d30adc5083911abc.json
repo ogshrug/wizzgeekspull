@@ -1,0 +1,29 @@
+{
+  "id": "69a96ea2d30adc5083911abc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "SA",
+  "question": "There are 3 identical boxes, each containing 2 coins. Box I has two gold coins, Box II has two silver coins, and Box III has one gold and one silver coin. A box is chosen at random, and a coin drawn at random is found to be gold. What is the probability that the other coin in the same box is also gold?",
+  "answeroption": "C",
+  "explanation": "Let A: box I, B: box II, C: box III. <br /> $P(A) = P(B) = P(C) = 1/3$ <br /><br /> Probability of drawing a gold coin given box: <br /> - Box I: both coins gold: $P(G|A) = 1$ <br /> - Box II: none: $P(G|B) = 0$ <br /> - Box III: one of two: $P(G|C) = 1/2$ <br /><br /> Total probability drawing gold: <br /> $P(G) = P(A)P(G|A) + P(B)P(G|B) + P(C)P(G|C) = 1/3 \\times 1 + 1/3 \\times 0 + 1/3 \\times 1/2 = 1/3 + 0 + 1/6 = 1/2$ <br /><br /> We want $P(A|G) = \\frac{P(A)P(G|A)}{P(G)} = \\frac{1/3}{1/2} = 2/3$ <br /><br /> Final answer: $\\boxed{\\dfrac{2}{3}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}$",
+    "B": "$\\frac{1}{3}$",
+    "C": "$\\frac{2}{3}$",
+    "D": "$\\frac{3}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:53:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

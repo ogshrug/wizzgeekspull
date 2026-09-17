@@ -1,0 +1,30 @@
+{
+  "id": "6a911402751910886affba51",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "At a school mathematics activity, a box contains 6 white counters, 5 black counters and 4 green counters. Two counters are drawn successively at random without replacement. Let $W_1$ denote the event that the first counter is white, $B_2$ the event that the second counter is black, $B_1$ the event that the first counter is black, and $W_2$ the event that the second counter is white. Since the first counter is not replaced, the composition of the box changes before the second draw. The students use this experiment to analyse conditional probabilities and probabilities of successive events.<br><br><b>(a)</b> Find $P(W_1)$.<br><br><b>(b)</b> Calculate $P(B_2|W_1)$.<br><br><b>(c)</b> Using the multiplication theorem, find $P(W_1\\cap B_2)$.<br><br><b>(d)</b> Find $P(B_1\\cap W_2)$ and compare it with $P(W_1\\cap B_2)$. Justify the result.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The box initially contains $6+5+4=15$ counters.<br>Hence,<br>$$P(W_1)=\\frac{6}{15}=\\frac{2}{5}$$<br><br><b>(b)</b><br>Given that the first counter is white, 14 counters remain. The number of black counters remains 5.<br>Therefore,<br>$$P(B_2|W_1)=\\frac{5}{14}$$<br><br><b>(c)</b><br>By the multiplication theorem,<br>$$P(W_1\\cap B_2)=P(W_1)P(B_2|W_1)$$<br>Substituting the values,<br>$$P(W_1\\cap B_2)=\\frac{6}{15}\\times\\frac{5}{14}=\\frac{1}{7}$$<br>Hence, the probability of drawing a white counter first and a black counter second is $\\frac{1}{7}$.<br><br><b>(d)</b><br>First,<br>$$P(B_1)=\\frac{5}{15}$$<br>If the first counter is black, 14 counters remain and all 6 white counters are still present. Thus,<br>$$P(W_2|B_1)=\\frac{6}{14}$$<br>By the multiplication theorem,<br>$$P(B_1\\cap W_2)=\\frac{5}{15}\\times\\frac{6}{14}=\\frac{1}{7}$$<br>Therefore, $P(B_1\\cap W_2)=P(W_1\\cap B_2)=\\frac{1}{7}$. The two probabilities are equal because in each ordered selection the product of the relevant favourable counts is $6\\times5$, while the denominators are $15\\times14$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{2}{5}$<br>(b) $\\frac{5}{15}$<br>(c) $\\frac{2}{15}$<br>(d) $P(B_1\\cap W_2)=\\frac{1}{7}$, so the probabilities are unequal",
+    "B": "(a) $\\frac{1}{3}$<br>(b) $\\frac{5}{14}$<br>(c) $\\frac{5}{42}$<br>(d) $P(B_1\\cap W_2)=\\frac{1}{7}$, so the probabilities are unequal",
+    "C": "(a) $\\frac{2}{5}$<br>(b) $\\frac{5}{14}$<br>(c) $\\frac{1}{7}$<br>(d) $P(B_1\\cap W_2)=\\frac{1}{7}$, so the probabilities are equal",
+    "D": "(a) $\\frac{2}{5}$<br>(b) $\\frac{5}{14}$<br>(c) $\\frac{1}{6}$<br>(d) $P(B_1\\cap W_2)=\\frac{1}{6}$, so the probabilities are equal"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

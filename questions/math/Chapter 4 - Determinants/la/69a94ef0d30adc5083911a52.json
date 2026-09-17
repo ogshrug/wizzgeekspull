@@ -1,0 +1,35 @@
+{
+  "id": "69a94ef0d30adc5083911a52",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d71",
+    "69c6603740512f018fa94d76",
+    "69c6603640512f018fa94d68",
+    "69c6603740512f018fa94d6e",
+    "69c6603740512f018fa94d6f",
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "LA",
+  "question": "Given the following system of equations:\n\n$2x + 3y + 5z = 4$\n\n$4x - 2y + z = 3$\n\n$6x + 5y + 8z = 10$\n\nExamine the consistency of the system and, if consistent, solve it using the matrix method. Clearly state each step, including computation of determinants, adjoint, inverse, and all intermediate steps.",
+  "answeroption": "B",
+  "explanation": "Let $A = \\begin{bmatrix} 2 & 3 & 5 \\\\ 4 & -2 & 1 \\\\ 6 & 5 & 8 \\end{bmatrix}$, $X = \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix}$, $B = \\begin{bmatrix} 4 \\\\ 3 \\\\ 10 \\end{bmatrix}$<br /><br />$AX = B$<br /><br />Step 1: Find $|A|$.<br /><br />$|A| = 2\\begin{vmatrix}-2 & 1 \\\\ 5 & 8\\end{vmatrix} - 3\\begin{vmatrix}4 & 1 \\\\ 6 & 8\\end{vmatrix} + 5\\begin{vmatrix}4 & -2 \\\\ 6 & 5\\end{vmatrix}$<br /><br />$= 2((-2)(8) - (1)(5)) - 3((4)(8)-(1)(6)) + 5((4)(5) - (-2)(6))$<br /><br />$= 2(-16 - 5) - 3(32 - 6) + 5(20 + 12)$<br /><br />$= 2(-21) - 3(26) + 5(32)$<br /><br />$= -42 - 78 + 160$<br /><br />$= 40$<br /><br />Since $|A| \\neq 0$, system has a unique solution.<br /><br />Step 2: Find Minors and Cofactors, then adj $A$.<br /><br />$M_{11} = \\begin{vmatrix}-2 & 1 \\\\ 5 & 8\\end{vmatrix} = (-2)(8)-(1)(5) = -16-5 = -21$<br /><br />$C_{11} = (-1)^{1+1}(-21) = -21$<br /><br />$M_{12} = \\begin{vmatrix}4 & 1 \\\\ 6 & 8\\end{vmatrix} = (4)(8) - (1)(6) = 32-6 = 26$<br /><br />$C_{12} = (-1)^{1+2}(26) = -26$<br /><br />$M_{13} = \\begin{vmatrix}4 & -2 \\\\ 6 & 5\\end{vmatrix} = (4)(5) - (-2)(6) = 20+12=32$<br /><br />$C_{13} = (+1)(32)=32$<br /><br />Repeat for row 2 (cofactors $C_{21}, C_{22}, C_{23}$):<br /><br />$M_{21} = \\begin{vmatrix}3 & 5 \\\\ 5 & 8\\end{vmatrix} = (3)(8)-(5)(5)= 24-25=-1$<br /><br />$C_{21} = (-1)^{2+1}(-1)= +1$<br /><br />$M_{22} = \\begin{vmatrix}2 & 5 \\\\ 6 & 8\\end{vmatrix} = (2)(8)-(5)(6)=16-30=-14$<br /><br />$C_{22} = (+1)(-14) = -14$<br /><br />$M_{23} = \\begin{vmatrix}2 & 3 \\\\ 6 & 5\\end{vmatrix} = (2)(5)-(3)(6) = 10-18=-8$<br /><br />$C_{23} = (-1)^{2+3}(-8)= +8$<br /><br />For row 3:<br /><br />$M_{31} = \\begin{vmatrix}3 & 5 \\\\ -2 & 1\\end{vmatrix} = (3)(1)-(-2)(5)=3+10=13$<br /><br />$C_{31}=(-1)^{3+1}(13)=+13$<br /><br />$M_{32} = \\begin{vmatrix}2 & 5 \\\\ 4 & 1\\end{vmatrix} = (2)(1)-(5)(4)=2-20=-18$<br /><br />$C_{32}=(-1)^{3+2}(-18)=-18$<br /><br />$M_{33} = \\begin{vmatrix}2 & 3 \\\\ 4 & -2\\end{vmatrix} = (2)(-2)-(3)(4) = -4-12=-16$<br /><br />$C_{33} = (+1)(-16) = -16$<br /><br />Cofactor matrix:<br /><br />$C = \\begin{bmatrix} -21 & -26 & 32 \\\\ 1 & -14 & 8 \\\\ 13 & -18 & -16 \\end{bmatrix}$<br /><br />adj $A$ is the transpose:<br /><br />$\\text{adj }A = \\begin{bmatrix} -21 & 1 & 13 \\\\ -26 & -14 & -18 \\\\ 32 & 8 & -16 \\end{bmatrix}$<br /><br />Step 3: Find $A^{-1}$<br /><br />$A^{-1} = \\frac{1}{|A|} \\text{adj }A = \\frac{1}{40}\\begin{bmatrix} -21 & 1 & 13 \\\\ -26 & -14 & -18 \\\\ 32 & 8 & -16 \\end{bmatrix}$<br /><br />Step 4: Compute $X = A^{-1}B$<br /><br />Adj $A$ x $B$:<br /><br />$= \\begin{bmatrix} -21 & 1 & 13 \\\\ -26 & -14 & -18 \\\\ 32 & 8 & -16 \\end{bmatrix} \\begin{bmatrix}4 \\\\ 3 \\\\ 10\\end{bmatrix}$<br /><br />First row: $-21\\times 4 + 1 \\times 3 + 13\\times 10 = -84 + 3 + 130 = 49$<br /><br />Second row: $-26\\times4 +(-14)\\times3 + (-18)\\times10 = -104 - 42 - 180 = -326$<br /><br />Third row: $32 \\times 4 + 8 \\times 3 + (-16)\\times10 = 128 + 24 - 160 = -8$<br /><br />So $A^{-1}B = \\frac{1}{40}\\begin{bmatrix}49 \\\\ -326 \\\\ -8\\end{bmatrix} = \\begin{bmatrix} \\frac{49}{40} \\\\ -\\frac{326}{40} \\\\ -\\frac{8}{40} \\end{bmatrix} = \\begin{bmatrix}1.225 \\\\ -8.15 \\\\ -0.2\\end{bmatrix}$<br /><br />Final answer:<br />$x = 1.225$, $y = -8.15$, $z = -0.2$",
+  "explanation_image": [],
+  "options": {
+    "A": "The system is inconsistent because $|A|=0$, so no solution exists.",
+    "B": "The system is consistent with a unique solution because $|A|=40\\ne0$, and $x=\\frac{49}{40}$, $y=\\frac{17}{20}$, $z=-\\frac{1}{5}$.",
+    "C": "The system is consistent with a unique solution because $|A|=40\\ne0$, and $x=\\frac{49}{40}$, $y=-\\frac{163}{20}$, $z=-\\frac{1}{5}$.",
+    "D": "The system has infinitely many solutions because $|A|\\ne0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:37:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

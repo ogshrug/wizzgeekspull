@@ -1,0 +1,572 @@
+[
+  {
+    "id": "6a8e945f2e54880055a0a676",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "SA",
+    "question": "Given $$A=\\begin{bmatrix}2 & -1 & 3 \\\\ 4 & 0 & -2\\end{bmatrix},\\quad B=\\begin{bmatrix}-3 & 5 & 1 \\\\ 2 & -4 & 6\\end{bmatrix},\\quad C=\\begin{bmatrix}1 & 2 & -1 \\\\ -2 & 3 & 0\\end{bmatrix},$$ find $A+B-C$.",
+    "options": {
+      "A": "$\\begin{bmatrix}-2&2&3\\\\8&-7&4\\end{bmatrix}$",
+      "B": "$\\begin{bmatrix}0&6&3\\\\4&-1&4\\end{bmatrix}$",
+      "C": "$\\begin{bmatrix}-2&2&5\\\\8&-7&4\\end{bmatrix}$",
+      "D": "$\\begin{bmatrix}0&2&5\\\\4&-7&4\\end{bmatrix}$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e9a1e2e54880055a0a682",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "LA",
+    "question": "Two bookshops sell three types of books. The numbers of books of the three types sold by the two shops are represented by $$Q=\\begin{bmatrix}20&15&10\\\\12&18&14\\end{bmatrix},$$ while their respective prices in rupees are represented by $$P=\\begin{bmatrix}50\\\\40\\\\30\\end{bmatrix}.$$ Using matrix multiplication, determine the total sales amount received by each shop and interpret the entries of the resulting matrix.",
+    "options": {
+      "A": "$QP=\\begin{bmatrix}1740\\\\1900\\end{bmatrix}$, representing Rs $1740$ and Rs $1900$ for the first and second shops, respectively",
+      "B": "$QP=\\begin{bmatrix}1900\\\\1840\\end{bmatrix}$, representing Rs $1900$ and Rs $1840$ for the first and second shops, respectively",
+      "C": "$QP=\\begin{bmatrix}1900\\\\1740\\end{bmatrix}$, representing Rs $1900$ and Rs $1740$ for the first and second shops, respectively",
+      "D": "$QP=\\begin{bmatrix}1600\\\\1740\\end{bmatrix}$, representing Rs $1600$ and Rs $1740$ for the first and second shops, respectively"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9b94fd8e9ca3b293457f4",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "MCQ",
+    "question": "Which of the following expressions always gives a symmetric matrix for any $n \\times n$ matrix $A$?",
+    "options": {
+      "A": "$A - A^T$",
+      "B": "$A + A^T$",
+      "C": "$AA^T$",
+      "D": "Both B and C"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9b94ed8e9ca3b293457ec",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "AR",
+    "question": "Assertion (A): If $A$ is a square matrix such that $A = A'$, then all the diagonal elements of $A$ may not be zero.<br /><br />Reason (R): A matrix is symmetric if $A = A'$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e926e751910886affb938",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "SA",
+    "question": "A matrix contains exactly $18$ elements. Determine all possible orders of the matrix.",
+    "options": {
+      "A": "$1\\times18,\\ 2\\times9,\\ 3\\times6$",
+      "B": "$1\\times18,\\ 2\\times9,\\ 3\\times6,\\ 6\\times3,\\ 9\\times2,\\ 18\\times1$",
+      "C": "$2\\times9,\\ 3\\times6,\\ 6\\times3,\\ 9\\times2$",
+      "D": "$1\\times18,\\ 3\\times6,\\ 6\\times3,\\ 18\\times1$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8ea6822e54880055a0a69f",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "LA",
+    "question": "Using elementary row transformations on the matrix and the identity matrix simultaneously, find the inverse of $$A=\\begin{bmatrix}1&2\\\\2&5\\end{bmatrix}$$ and verify the result by matrix multiplication.",
+    "options": {
+      "A": "$A^{-1}=\\begin{bmatrix}5&2\\\\2&1\\end{bmatrix}$",
+      "B": "$A^{-1}=\\begin{bmatrix}5&-2\\\\-2&1\\end{bmatrix}$",
+      "C": "$A^{-1}=\\begin{bmatrix}1&-2\\\\-2&5\\end{bmatrix}$",
+      "D": "$A^{-1}=\\begin{bmatrix}-5&2\\\\2&-1\\end{bmatrix}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9b94fd8e9ca3b293457f3",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "AR",
+    "question": "Assertion (A): If $A$ and $B$ are both symmetric matrices of the same order, then $A+B$ is always a symmetric matrix.<br /><br />Reason (R): The sum of two symmetric matrices is always skew-symmetric.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e926f751910886affb93b",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "SA",
+    "question": "Determine $p$ and $q$ if $$\\begin{bmatrix}2p+q & p-q \\\\ q & 3\\end{bmatrix}=\\begin{bmatrix}8 & 1 \\\\ 2 & 3\\end{bmatrix}.$$ Also verify that the remaining corresponding entry is equal.",
+    "options": {
+      "A": "$p=3,\\ q=2$; also $2p+q=8$",
+      "B": "$p=2,\\ q=3$; also $2p+q=7$",
+      "C": "$p=3,\\ q=1$; also $2p+q=7$",
+      "D": "$p=4,\\ q=2$; also $2p+q=10$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9b21462be6a70cd184e30",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "MCQ",
+    "question": "Suppose $A = [a_{ij}]$ is an $n \\times n$ matrix satisfying $A^{2} = O$, where $O$ is the zero matrix of the same order. Which of the following must be true about $A$?",
+    "options": {
+      "A": "$A$ is the zero matrix",
+      "B": "$A$ cannot be invertible",
+      "C": "$A$ is symmetric",
+      "D": "$A$ is diagonal"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9ccff62be6a70cd184e55",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "MCQ",
+    "question": "Let $A,B$ be $3 \\times 3$ matrices and $A$ is invertible. Consider the matrix equation $AXB = I_{3}$, where $X$ is unknown. If $B$ is also invertible, which of the following gives $X$?",
+    "options": {
+      "A": "$X = A^{-1}B^{-1}$",
+      "B": "$X = B^{-1}A^{-1}$",
+      "C": "$X = B A$",
+      "D": "$X = A' B'$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9ab6662be6a70cd184e0d",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "AR",
+    "question": "Assertion (A): Any square matrix $A$ can always be uniquely written as the sum of a symmetric matrix $S$ and a skew-symmetric matrix $K$.<br /><br />Reason (R): $S = \\frac{1}{2}(A + A')$ and $K = \\frac{1}{2}(A - A')$ are always, respectively, symmetric and skew-symmetric for any square matrix $A$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e8cd14b490c7cde3593d3",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "VSA",
+    "question": "Starting with $A=\\begin{bmatrix}1&2\\\\2&5\\end{bmatrix}$, first apply $R_2\\to R_2-2R_1$ and then $C_2\\to C_2-2C_1$. Find the sum of the diagonal elements of the resulting matrix.",
+    "options": {
+      "A": "$1$",
+      "B": "$2$",
+      "C": "$0$",
+      "D": "$-2$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e8cd14b490c7cde3593d4",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "VSA",
+    "question": "If $A+B=\\begin{bmatrix}5&1\\\\2&7\\end{bmatrix}$ and $A-B=\\begin{bmatrix}1&3\\\\-4&5\\end{bmatrix}$, find the $(2,1)$th element of $A$.",
+    "options": {
+      "A": "$1$",
+      "B": "$-2$",
+      "C": "$2$",
+      "D": "$-1$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9c968589ce36f368b48bb",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "SA",
+    "question": "Let $A = \\begin{pmatrix}0 & 2 \\\\ 2 & 0 \\end{pmatrix}$ and $B = \\begin{pmatrix}1 & 0 \\\\ 0 & -1 \\end{pmatrix}$. Compute $A^2$, $B^2$, $AB$, $BA$, and verify whether $AB = BA$ and if $A$ and $B$ commute under multiplication.",
+    "options": {
+      "A": "$A^2=I$, $B^2=4I$, $AB=BA$, so $A$ and $B$ commute",
+      "B": "$A^2=4I$, $B^2=I$, $AB=\\begin{pmatrix}0&2\\\\-2&0\\end{pmatrix}$, $BA=\\begin{pmatrix}0&-2\\\\2&0\\end{pmatrix}$, so $A$ and $B$ commute",
+      "C": "$A^2=0$, $B^2=I$, $AB=BA=0$, so $A$ and $B$ commute",
+      "D": "$A^2=4I$, $B^2=I$, $AB=\\begin{pmatrix}0&-2\\\\2&0\\end{pmatrix}$, $BA=\\begin{pmatrix}0&2\\\\-2&0\\end{pmatrix}$, so $AB\\ne BA$ and $A,B$ do not commute"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9cfffd8e9ca3b29345818",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "SA",
+    "question": "Let $A = \\begin{bmatrix} 0 & -1 \\\\ 1 & 0 \\end{bmatrix}$. Compute $A^2$, $A^3$, and $A^4$, and hence deduce $(I + A)^{-1}$, where $I$ is the $2 \\times 2$ identity matrix.",
+    "options": {
+      "A": "$A^2=I,\\ A^3=A,\\ A^4=I$ and $(I+A)^{-1}=I+A$",
+      "B": "$A^2=-I,\\ A^3=-A,\\ A^4=I$ and $(I+A)^{-1}=\\begin{bmatrix}\\frac12&\\frac12\\\\-\\frac12&\\frac12\\end{bmatrix}$",
+      "C": "$A^2=-I,\\ A^3=A,\\ A^4=-I$ and $(I+A)^{-1}=\\begin{bmatrix}1&1\\\\-1&1\\end{bmatrix}$",
+      "D": "$A^2=0,\\ A^3=0,\\ A^4=0$ and $(I+A)^{-1}$ does not exist"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9cfffd8e9ca3b29345815",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "AR",
+    "question": "Assertion (A): For any $3 \\times 3$ matrices $A$ and $B$ such that $AB$ is defined and $AB = 0$ (zero matrix), it always follows that either $A = 0$ or $B = 0$.<br /><br />Reason (R): The cancellation law holds for matrix multiplication, i.e., if $AC = BC$ and $C \\neq 0$, then $A = B$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9b94ed8e9ca3b293457eb",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "MCQ",
+    "question": "Choose the correct statement about matrix multiplication:",
+    "options": {
+      "A": "Matrix multiplication is always commutative",
+      "B": "Matrix multiplication is always associative",
+      "C": "Matrix multiplication is always distributive over addition",
+      "D": "Both B and C"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9cdd76638848124d7c9c2",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "LA",
+    "question": "Let $A$ be a $3\\times3$ matrix such that $A^2 = 2A + I$ where $I$ is the identity matrix of order 3. (a) Prove $A^3 = 3A^2 + 2A + I$. (b) Without direct computation of $A^4$, express $A^4$ in terms of $A$ and $I$. (c) Evaluate $A^n$ for any positive integer $n \\ge 2$.",
+    "options": {
+      "A": "(a) $A^3=3A^2+2A+I$.<br />(b) $A^4=4A+4I$.<br />(c) $A^n=nA+I$ for all $n\\ge2$.",
+      "B": "(a) $A^3=A^2+A+I$.<br />(b) $A^4=8A+3I$.<br />(c) $A^n=2^nA+I$.",
+      "C": "(a) $A^3=0$.<br />(b) $A^4=0$.<br />(c) $A^n=0$ for all $n\\ge2$.",
+      "D": "(a) The stated claim $A^3=3A^2+2A+I$ is not correct; actually $A^3=2A^2+A=5A+2I$.<br />(b) $A^4=12A+5I$.<br />(c) For $n\\ge2$, $A^n=p_nA+q_nI$, where $p_{n+1}=2p_n+q_n$, $q_{n+1}=p_n$, with $p_2=2$, $q_2=1$."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e8bef4b490c7cde3593c8",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "VSA",
+    "question": "If $A=\\begin{bmatrix}3&2x-1\\\\x+5&4\\end{bmatrix}$ is a symmetric matrix, find $x$.",
+    "options": {
+      "A": "$4$",
+      "B": "$5$",
+      "C": "$7$",
+      "D": "$6$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e8e56751910886affb933",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "VSA",
+    "question": "While attempting to find the inverse of a square matrix $A$ by elementary row operations on $A=IA$, the left-hand side is reduced to $\\begin{bmatrix}1&3\\\\0&0\\end{bmatrix}$. State whether $A^{-1}$ exists.",
+    "options": {
+      "A": "$A^{-1}$ exists and equals $I_2$",
+      "B": "$A^{-1}$ does not exist",
+      "C": "$A^{-1}$ exists and equals $A$",
+      "D": "$A^{-1}$ exists only if the entry $3$ is replaced by $0$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9ada1589ce36f368b4873",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "AR",
+    "question": "Assertion (A): If $A$ is a skew-symmetric matrix, all its diagonal entries are zero.<br /><br />Reason (R): If $A$ is skew-symmetric, then $A' = -A$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9ada0589ce36f368b486f",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "VSA",
+    "question": "Given $A=\\begin{bmatrix} \\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta \\end{bmatrix}$, show that $A^2 = \\begin{bmatrix} \\cos 2\\theta & -\\sin 2\\theta \\\\ \\sin 2\\theta & \\cos 2\\theta \\end{bmatrix}$.",
+    "options": {
+      "A": "$A^2=\\begin{bmatrix}\\cos 2\\theta&-\\sin 2\\theta\\\\\\sin 2\\theta&\\cos 2\\theta\\end{bmatrix}$",
+      "B": "$A^2=\\begin{bmatrix}\\cos^2 \\theta&-\\sin^2 \\theta\\\\\\sin^2 \\theta&\\cos^2 \\theta\\end{bmatrix}$",
+      "C": "$A^2=\\begin{bmatrix}\\cos \\theta&\\sin \\theta\\\\-\\sin \\theta&\\cos \\theta\\end{bmatrix}$",
+      "D": "$A^2=I$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e9f144b490c7cde35942e",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "LA",
+    "question": "Matrices $X$ and $Y$ of order $2\\times2$ satisfy $$X+Y=\\begin{bmatrix}3&-1\\\\5&2\\end{bmatrix}$$ and $$2X-Y=\\begin{bmatrix}6&4\\\\1&7\\end{bmatrix}.$$ Using matrix operations and equality of corresponding entries, determine $X$ and $Y$ and verify that the obtained matrices satisfy both the given equations.",
+    "options": {
+      "A": "$X=\\begin{bmatrix}3&-1\\\\2&3\\end{bmatrix},\\quad Y=\\begin{bmatrix}0&0\\\\3&-1\\end{bmatrix}$",
+      "B": "$X=\\begin{bmatrix}3&1\\\\3&2\\end{bmatrix},\\quad Y=\\begin{bmatrix}0&-2\\\\2&0\\end{bmatrix}$",
+      "C": "$X=\\begin{bmatrix}3&1\\\\2&3\\end{bmatrix},\\quad Y=\\begin{bmatrix}0&-2\\\\3&-1\\end{bmatrix}$",
+      "D": "$X=\\begin{bmatrix}2&1\\\\2&3\\end{bmatrix},\\quad Y=\\begin{bmatrix}1&-2\\\\3&-1\\end{bmatrix}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9c88f6638848124d7c9bf",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "MCQ",
+    "question": "Let $A$ and $B$ be $2 \\times 2$ matrices such that $A$ is skew-symmetric and $B$ is symmetric. If $C = AB + BA$, what is the nature of $C$?",
+    "options": {
+      "A": "$C$ is symmetric",
+      "B": "$C$ is skew symmetric",
+      "C": "$C$ is diagonal",
+      "D": "$C$ is a zero matrix"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9b21462be6a70cd184e2d",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "LA",
+    "question": "If $A = \\begin{bmatrix} x+1 & 2 \\\\ 0 & x-3 \\end{bmatrix}$ and $B = \\begin{bmatrix} x & 2 \\\\ 0 & x \\end{bmatrix}$, find $A^2 - 2AB + B^2$.",
+    "options": {
+      "A": "$\\begin{bmatrix}1&-8\\\\0&9\\end{bmatrix}$",
+      "B": "$\\begin{bmatrix}1&0\\\\0&9\\end{bmatrix}$",
+      "C": "$\\begin{bmatrix}1&8\\\\0&9\\end{bmatrix}$",
+      "D": "$\\begin{bmatrix}x^2&-8x\\\\0&x^2\\end{bmatrix}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9c88f6638848124d7c9bb",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "LA",
+    "question": "Let $A = \\begin{pmatrix}1 & 2 \\\\ 3 & 4 \\\\ 5 & 6\\end{pmatrix}$ and $B = \\begin{pmatrix}7 & 8 & 9 \\\\ 10 & 11 & 12\\end{pmatrix}$. Compute $C = AB$ and verify that $(AB)' = B'A'$.",
+    "options": {
+      "A": "$AB=\\begin{pmatrix}27&61&95\\\\30&68&106\\\\33&75&117\\end{pmatrix}$ and $(AB)'=A'B'$.",
+      "B": "$AB=\\begin{pmatrix}17&20&23\\\\39&46&53\\\\61&72&83\\end{pmatrix}$ and $(AB)'\\ne B'A'$.",
+      "C": "$AB$ is not defined because the orders are not compatible.",
+      "D": "$AB=\\begin{pmatrix}27&30&33\\\\61&68&75\\\\95&106&117\\end{pmatrix}$ and $(AB)'=\\begin{pmatrix}27&61&95\\\\30&68&106\\\\33&75&117\\end{pmatrix}=B'A'$."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9ccff62be6a70cd184e53",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "AR",
+    "question": "Assertion (A): Any $2 \\times 2$ matrix $A$ can be expressed uniquely as the sum of a symmetric and a skew-symmetric matrix.<br /><br />Reason (R): $A = \\frac{1}{2}(A + A') + \\frac{1}{2}(A - A')$ is the required decomposition.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9ab6662be6a70cd184e0e",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "SA",
+    "question": "Does there exist a non-zero $2 \\times 2$ matrix $A$ such that both $A$ and $A^2$ are symmetric, but $A$ is not a diagonal matrix? Justify.",
+    "options": {
+      "A": "Yes; for example, $A=\\begin{bmatrix}1&2\\\\2&-1\\end{bmatrix}$ is non-zero, symmetric and not diagonal, and $A^2$ is also symmetric",
+      "B": "No; if $A$ and $A^2$ are symmetric, then $A$ must be diagonal",
+      "C": "No; every non-zero symmetric matrix must be diagonal",
+      "D": "Yes; but only the zero matrix satisfies the condition"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9b94fd8e9ca3b293457ee",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "MCQ",
+    "question": "Which property of matrix multiplication is illustrated by $A(BC) = (AB)C$?",
+    "options": {
+      "A": "Commutativity",
+      "B": "Distributivity",
+      "C": "Associativity",
+      "D": "Identity"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9cf7162be6a70cd184e5c",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f29681ebad583540304",
+    "question_type": "VSA",
+    "question": "Let $A = \\begin{bmatrix} 1 & 2 \\\\ 2 & 3 \\end{bmatrix}$. Show that $A$ cannot be expressed as a skew-symmetric matrix.",
+    "options": {
+      "A": "$A$ is skew-symmetric because $A'=A$",
+      "B": "$A$ is skew-symmetric because all diagonal elements are non-zero",
+      "C": "$A$ is not skew-symmetric because $A'\\neq -A$",
+      "D": "$A$ is skew-symmetric because $A=-A'$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  }
+]

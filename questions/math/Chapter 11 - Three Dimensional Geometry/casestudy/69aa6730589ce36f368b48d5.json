@@ -1,0 +1,29 @@
+{
+  "id": "69aa6730589ce36f368b48d5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Game Development — Coplanarity and Intersection Analysis<br /><br />Laser beams are modeled by lines:<br />$L_1:(0,1,2)+t_1(2,-1,3)$<br />$L_2:(4,0,1)+t_2(-1,1,-2)$<br />$L_3:(2,3,2)+t_3(4,-3,6)$<br /><br />(a) Check if $L_1$ and $L_2$ are coplanar.<br /><br />(b) If coplanar, find their intersection point.<br /><br />(c) Determine whether $L_3$ passes through that point.",
+  "answeroption": "C",
+  "explanation": "(a) Coplanarity condition: $(a_2-a_1)\\cdot(b_1\\times b_2)=0$. Here $(4,-1,-1)\\cdot(-1,1,3)=-8\\neq0$, so not coplanar.<br /><br />(b) Since they are not coplanar, the lines do not intersect.<br /><br />(c) Not applicable.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $L_1$ and $L_2$ are coplanar because the scalar triple product is zero<br />(b) Their intersection point is $(2,0,5)$<br />(c) $L_3$ passes through this point",
+    "B": "(a) $L_1$ and $L_2$ are coplanar<br />(b) Their intersection point is $(4,0,1)$<br />(c) $L_3$ does not pass through this point",
+    "C": "(a) $L_1$ and $L_2$ are not coplanar since the scalar triple product is non-zero<br />(b) Hence they do not intersect<br />(c) Not applicable because no intersection point exists",
+    "D": "(a) $L_1$ and $L_2$ are parallel<br />(b) They have infinitely many common points<br />(c) $L_3$ is the same line"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:33:36 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

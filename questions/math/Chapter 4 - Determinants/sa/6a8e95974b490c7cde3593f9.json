@@ -1,0 +1,29 @@
+{
+  "id": "6a8e95974b490c7cde3593f9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "SA",
+  "question": "Using determinants, find the equation of the line through $(2,3)$ and $(5,9)$. If $(k,7)$ lies on this line, determine $k$ and justify the result.",
+  "answeroption": "A",
+  "explanation": "<b>Formation of the determinant</b><br>For an arbitrary point $(x,y)$ on the line, $$\\begin{vmatrix}x&y&1\\\\2&3&1\\\\5&9&1\\end{vmatrix}=0$$<br><b>Expansion and simplification</b><br>Expanding gives $$x(3-9)-y(2-5)+(18-15)=0$$ Therefore, $$-6x+3y+3=0$$ Dividing by $3$, $$2x-y-1=0$$<br><b>Application of the point condition</b><br>Since $(k,7)$ lies on the line, $$2k-7-1=0$$<br><b>Determination and verification</b><br>Thus, $2k=8$ and $k=4$. The point $(4,7)$ satisfies $2(4)-7-1=0$, verifying the result.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2x-y-1=0$ and $k=4$",
+    "B": "$2x-y+1=0$ and $k=3$",
+    "C": "$x-2y+4=0$ and $k=10$",
+    "D": "$2x+y-7=0$ and $k=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

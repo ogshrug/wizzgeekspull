@@ -1,0 +1,29 @@
+{
+  "id": "6a912528751910886affba6d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8de"
+  ],
+  "question_type": "SA",
+  "question": "A feasible region is determined by $x+y\\leq12$, $x\\leq8$, $y\\leq7$, $x\\geq0$ and $y\\geq0$. Without drawing the region, determine whether it is bounded. Give mathematical justification.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Determining the possible values of $x$</b><br>The constraints $x\\geq0$ and $x\\leq8$ give $$0\\leq x\\leq8$$ Thus, $x$ cannot increase indefinitely.<br><b>Step 2: Determining the possible values of $y$</b><br>Similarly, from $y\\geq0$ and $y\\leq7$, $$0\\leq y\\leq7$$ Hence, $y$ is also restricted to a finite interval.<br><b>Step 3: Locating the feasible region within finite limits</b><br>Every feasible point must lie inside the rectangular region determined by $$0\\leq x\\leq8,\\quad0\\leq y\\leq7$$ The additional condition $x+y\\leq12$ can only reduce this region further.<br><b>Step 4: Applying the boundedness criterion</b><br>A feasible region that can be enclosed within a circle is bounded. Since the entire feasible region lies inside a finite rectangle, such a circle can enclose it.<br><b>Step 5: Conclusion</b><br>Therefore, the feasible region is bounded.",
+  "explanation_image": [],
+  "options": {
+    "A": "The region is unbounded because $x+y\\leq12$ allows arbitrarily large $x$",
+    "B": "The region is unbounded because only lower bounds are imposed",
+    "C": "The region is infeasible because $x\\leq8$ and $y\\leq7$ conflict",
+    "D": "The region is bounded because $0\\leq x\\leq8$ and $0\\leq y\\leq7$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8fdff0be0ecc7866e90c72",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a6",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "LA",
+  "question": "Form the differential equation representing the two-parameter family $$y=ae^{3x}+be^{-2x},$$ where $a$ and $b$ are arbitrary constants, by differentiating sufficiently many times and eliminating both arbitrary constants.",
+  "answeroption": "D",
+  "explanation": "<b>Given Family</b><br>The family is $$y=ae^{3x}+be^{-2x}.$$ Since two arbitrary constants $a$ and $b$ occur, the equation is differentiated twice so that sufficient relations are available for their elimination.<br><br><b>Formation of Equation</b><br>Differentiating with respect to $x$, $$\\frac{dy}{dx}=3ae^{3x}-2be^{-2x}.$$ Differentiating again, $$\\frac{d^2y}{dx^2}=9ae^{3x}+4be^{-2x}.$$ Now subtract $\\frac{dy}{dx}$ from $\\frac{d^2y}{dx^2}$: $$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}=6ae^{3x}+6be^{-2x}.$$ From the original family, $$ae^{3x}+be^{-2x}=y.$$ Therefore, $$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}=6y.$$<br><br><b>Final Result</b><br>Hence, after eliminating the arbitrary constants $a$ and $b$, the required differential equation is $$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-6y=0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}+\\frac{dy}{dx}-6y=0$",
+    "B": "$\\frac{d^2y}{dx^2}-5\\frac{dy}{dx}+6y=0$",
+    "C": "$\\frac{d^2y}{dx^2}+\\frac{dy}{dx}-2y=0$",
+    "D": "$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-6y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8c152e54880055a0a65f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "VSA",
+  "question": "A point $(2,y)$ lies on the line joining $(1,3)$ and $(3,7)$. Using a determinant, find $y$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Form the determinant</b><br>Since the three points lie on the same straight line, their coordinate determinant must be zero: $$\\begin{vmatrix}1&3&1\\\\3&7&1\\\\2&y&1\\end{vmatrix}=0$$<br><b>Step 2: Expand the determinant</b><br>Expanding along the first row gives $$1(7-y)-3(3-2)+(3y-14)=0$$<br><b>Step 3: Simplify</b><br>Therefore, $$7-y-3+3y-14=0$$ which gives $$2y-10=0$$<br><b>Step 4: Determine the ordinate</b><br>Solving the equation gives $2y=10$ and hence $$y=5$$<br>Therefore, the required point is $(2,5)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=4$",
+    "B": "$y=6$",
+    "C": "$y=5$",
+    "D": "$y=7$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

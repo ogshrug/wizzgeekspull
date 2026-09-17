@@ -1,0 +1,30 @@
+{
+  "id": "6a911f504b490c7cde3595b4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8d8"
+  ],
+  "question_type": "VSA",
+  "question": "Consider the constraints $x+y \\ge 8$, $3x+5y \\le 15$, $x \\ge 0$ and $y \\ge 0$. Without drawing the graph, decide whether these constraints can determine a feasible region.",
+  "answeroption": "B",
+  "explanation": "Step 1: From $x+y \\ge 8$, multiplying throughout by 3 gives $3x+3y \\ge 24$.<br>Step 2: Since $y \\ge 0$, we have $2y \\ge 0$. Adding this to the left-hand side gives $3x+5y \\ge 24$.<br>Step 3: However, another given constraint requires $3x+5y \\le 15$.<br>Step 4: A quantity cannot simultaneously be at least $24$ and at most $15$. Hence, no ordered pair $(x,y)$ can satisfy all the given inequalities.<br>Step 5: Therefore, the corresponding half-planes have no common region. Thus, the linear programming problem has no feasible region and consequently no feasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "The feasible region is bounded",
+    "B": "No feasible region exists",
+    "C": "The feasible region is unbounded",
+    "D": "The feasible region consists only of the origin"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a22b887864be73cfcf6d2d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation: $(x^2 + 1)\\frac{dy}{dx} + 2xy = \\sqrt{x^2 + 4}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Convert the given expression logically to the required standard linear mathematical form $\\frac{dy}{dx} + P(x)y = Q(x)$. Divide all terms exactly by $(x^2 + 1)$ to obtain $\\frac{dy}{dx} + \\frac{2x}{x^2 + 1}y = \\frac{\\sqrt{x^2 + 4}}{x^2 + 1}$.<br />**Step 2:** Mathematically formulate the correct Integrating Factor (I.F.): $e^{\\int P(x) dx} = e^{\\int \\frac{2x}{x^2 + 1} dx}$. Implementing the substitution $x^2+1 = t$, $2xdx=dt$, integrating perfectly yields $e^{\\log(x^2 + 1)} = x^2 + 1$.<br />**Step 3:** The established formula for the general solution is invariably given by $y \\cdot \\text{I.F.} = \\int Q(x) \\cdot \\text{I.F.} dx$. Correctly substitute the strictly known values: $y(x^2 + 1) = \\int \\frac{\\sqrt{x^2 + 4}}{x^2 + 1} \\cdot (x^2 + 1) dx = \\int \\sqrt{x^2 + 4} dx$.<br />**Step 4:** Accurately integrate utilizing the prescribed standard mathematical formula for this specific radical $\\int \\sqrt{x^2 + a^2} dx = \\frac{x}{2}\\sqrt{x^2 + a^2} + \\frac{a^2}{2}\\log|x + \\sqrt{x^2 + a^2}|$.<br />**Step 5:** The strictly correct final solution simplifies clearly to $y(x^2 + 1) = \\frac{x}{2}\\sqrt{x^2 + 4} + 2\\log|x + \\sqrt{x^2 + 4}| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

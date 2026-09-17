@@ -1,0 +1,29 @@
+{
+  "id": "69aa692d6638848124d7c9d8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Robotics & Automation<br /><br />A robotic tool at $(2,5,-3)$ must reach the mirror image of calibration marker $C(1,3,2)$ with respect to the line $x=1+2t,\\;y=3-t,\\;z=2+t$.<br /><br />(1) Find coordinates of the image of $C$ in the line.<br /><br />(2) Find shortest path distance from tool to the image.<br /><br />(3) Explain relevance to robotic calibration.",
+  "answeroption": "D",
+  "explanation": "The line passes through $C(1,3,2)$, so the image of $C$ with respect to the line is the same point $C$.<br /><br />Distance from tool $(2,5,-3)$ to $C$:<br /><br />$\\sqrt{(2-1)^2+(5-3)^2+(-3-2)^2}=\\sqrt{30}\\approx5.48$.<br /><br />Direct motion to this point minimizes calibration time and movement error.",
+  "explanation_image": [],
+  "options": {
+    "A": "(1) Image of $C$ is $(3,2,3)$<br />(2) Shortest path distance is $\\sqrt{14}$<br />(3) It gives a shifted calibration target",
+    "B": "(1) Image of $C$ is $(1,3,-2)$<br />(2) Shortest path distance is $\\sqrt{10}$<br />(3) It reverses the marker across the $xy$-plane",
+    "C": "(1) Image of $C$ is $(2,2,3)$<br />(2) Shortest path distance is $5$<br />(3) It gives a perpendicular alignment point",
+    "D": "(1) Image of $C$ is $(1,3,2)$ because $C$ lies on the given line<br />(2) Shortest path distance from $(2,5,-3)$ to the image is $\\sqrt{30}\\approx5.48$<br />(3) Direct motion to this point minimizes calibration time and movement error"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:42:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a265aad864be73cfcf6d35f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e766d837c8c7efa6b8c0"
+  ],
+  "question_type": "SA",
+  "question": "If $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ are mutually perpendicular vectors of equal magnitude, then prove that the vector $(2\\vec{a}+\\vec{b}+2\\vec{c})$ is equally inclined to both $\\vec{a}$ and $\\vec{c}$. Also, find the angle between $\\vec{a}$ and $(2\\vec{a}+\\vec{b}+2\\vec{c})$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the equal magnitudes of the mutually perpendicular vectors be defined by the scalar constant $x$, so $|\\vec{a}| = |\\vec{b}| = |\\vec{c}| = x$. Since they are mutually perpendicular, their dot products between different vectors are all zero: $\\vec{a}\\cdot\\vec{b} = \\vec{b}\\cdot\\vec{c} = \\vec{c}\\cdot\\vec{a} = 0$. Let's define the combined vector as $\\vec{v} = 2\\vec{a}+\\vec{b}+2\\vec{c}$. First, compute the squared magnitude $|\\vec{v}|^2$ using dot product expansion properties:<br />$|\\vec{v}|^2 = (2\\vec{a}+\\vec{b}+2\\vec{c}) \\cdot (2\\vec{a}+\\vec{b}+2\\vec{c}) = 4|\\vec{a}|^2 + |\\vec{b}|^2 + 4|\\vec{c}|^2 + 4(\\vec{a}\\cdot\\vec{b}) + 4(\\vec{b}\\cdot\\vec{c}) + 8(\\vec{c}\\cdot\\vec{a})$. Substituting the perpendicular dot product zeros simplifies this to: $4x^2 + x^2 + 4x^2 = 9x^2$. Taking the square root gives the magnitude: $|\\vec{v}| = 3x$.<br />**Step 2:** To prove equal inclination, find the angles $\\alpha$ and $\\gamma$ that vector $\\vec{v}$ makes with vectors $\\vec{a}$ and $\\vec{c}$ respectively. Using the dot product formula for $\\alpha$: $\\cos\\alpha = \\frac{\\vec{v} \\cdot \\vec{a}}{|\\vec{v}||\\vec{a}|} = \\frac{(2\\vec{a}+\\vec{b}+2\\vec{c}) \\cdot \\vec{a}}{3x \\cdot x} = \\frac{2|\\vec{a}|^2 + \\vec{b}\\cdot\\vec{a} + 2\\vec{c}\\cdot\\vec{a}}{3x^2} = \\frac{2x^2 + 0 + 0}{3x^2} = \\frac{2}{3}$.<br />**Step 3:** Similarly, calculate the angle $\\gamma$ with vector $\\vec{c}$: $\\cos\\gamma = \\frac{\\vec{v} \\cdot \\vec{c}}{|\\vec{v}||\\vec{c}|} = \\frac{(2\\vec{a}+\\vec{b}+2\\vec{c}) \\cdot \\vec{c}}{3x \\cdot x} = \\frac{2\\vec{a}\\cdot\\vec{c} + \\vec{b}\\cdot\\vec{c} + 2|\\vec{c}|^2}{3x^2} = \\frac{0 + 0 + 2x^2}{3x^2} = \\frac{2}{3}$. Since $\\cos\\alpha = \\cos\\gamma = \\frac{2}{3}$, it proves that the vector is equally inclined to both $\\vec{a}$ and $\\vec{c}$. The angle between $\\vec{a}$ and the vector is $\\alpha = \\cos^{-1}\\left(\\frac{2}{3}\\right)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

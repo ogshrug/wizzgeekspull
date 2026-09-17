@@ -1,0 +1,29 @@
+{
+  "id": "6a9003ab4b490c7cde359544",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "SA",
+  "question": "Find the vector equation of the line passing through the points $A(1,2,-1)$ and $B(3,-1,5)$. Hence, check whether $C(5,-4,11)$ lies on the line.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Position vector of a point on the line</b><br>The position vector of $A(1,2,-1)$ is<br>$$\\vec{a}=\\hat{i}+2\\hat{j}-\\hat{k}.$$<br><b>Step 2: Direction vector of the line</b><br>The vector from $A$ to $B$ is<br>$$\\overrightarrow{AB}=(3-1)\\hat{i}+(-1-2)\\hat{j}+(5+1)\\hat{k}=2\\hat{i}-3\\hat{j}+6\\hat{k}.$$<br><b>Step 3: Vector equation</b><br>Therefore, the required line is<br>$$\\vec{r}=\\hat{i}+2\\hat{j}-\\hat{k}+\\lambda(2\\hat{i}-3\\hat{j}+6\\hat{k}).$$<br><b>Step 4: Verification of point $C$</b><br>For $C(5,-4,11)$, comparison of the $x$-coordinate gives<br>$$1+2\\lambda=5\\Rightarrow \\lambda=2.$$<br>For $\\lambda=2$, the remaining coordinates are<br>$$2-3(2)=-4,\\quad -1+6(2)=11.$$<br><b>Step 5: Final conclusion</b><br>Both coordinates agree with $C$. Hence, $C(5,-4,11)$ lies on the given line.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\vec r=(\\hat i+2\\hat j-\\hat k)+\\lambda(2\\hat i+3\\hat j+6\\hat k)$; $C$ does not lie on it",
+    "B": "$\\vec r=(\\hat i-2\\hat j-\\hat k)+\\lambda(2\\hat i-3\\hat j+6\\hat k)$; $C$ corresponds to $\\lambda=2$",
+    "C": "$\\vec r=(\\hat i+2\\hat j-\\hat k)+\\lambda(2\\hat i-3\\hat j-6\\hat k)$; $C$ corresponds to $\\lambda=2$",
+    "D": "$\\vec r=(\\hat i+2\\hat j-\\hat k)+\\lambda(2\\hat i-3\\hat j+6\\hat k)$; $C$ lies on it with $\\lambda=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

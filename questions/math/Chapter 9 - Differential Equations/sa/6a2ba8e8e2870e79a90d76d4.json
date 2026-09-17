@@ -1,0 +1,27 @@
+{
+  "id": "6a2ba8e8e2870e79a90d76d4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation $sin~x~cos~y~dx+cos~x~sin~y~dy=0$, given that $y=\\frac{\\pi}{4}$ when $x=0.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Separate variables by dividing the entire differential equation by the joint product term $\\cos x \\cos y$: $\\tan x \\, dx + \\tan y \\, dy = 0$.<br />**Step 2:** Integrate both terms independently to find the primitive relationship: $\\int \\tan x \\, dx + \\int \\tan y \\, dy = 0 \\implies \\ln|\\sec x| + \\ln|\\sec y| = \\ln C \\implies \\sec x \\sec y = C$.<br />**Step 3:** Substitute the given particular boundary condition values $x = 0$ and $y = \\frac{\\pi}{4}$ into the equation to resolve the constant: $\\sec(0) \\sec(\\frac{\\pi}{4}) = C \\implies 1 \\cdot \\sqrt{2} = C \\implies C = \\sqrt{2}$. The particular solution path is $\\sec x \\sec y = \\sqrt{2}$ or $\\cos x \\cos y = \\frac{1}{\\sqrt{2}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

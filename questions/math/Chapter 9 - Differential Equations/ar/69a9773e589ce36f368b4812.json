@@ -1,0 +1,29 @@
+{
+  "id": "69a9773e589ce36f368b4812",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): If $\\frac{dx}{dy} + x\\tan y = \\sin y$, then the integrating factor is $e^{\\int \\tan y dy}$.<br /><br />Reason (R): $\\int \\tan y dy = -\\ln|\\cos y|$ so the integrating factor is $1/\\cos y$.",
+  "answeroption": "B",
+  "explanation": "Assertion: The integrating factor $=e^{\\int \\tan y dy} = e^{\\ln|\\sec y|} = \\sec y$. So Assertion is correct.<br /><br />Reason: But $\\int \\tan y dy = -\\ln|\\cos y|$ is also correct, so integrating factor $= e^{-\\ln|\\cos y|} = 1/\\cos y = \\sec y$. Here, Reason is correct, but it does not directly explain why the integrating factor for the original equation is $e^{\\int \\tan y dy}$. Hence option (B) is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:29:50 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

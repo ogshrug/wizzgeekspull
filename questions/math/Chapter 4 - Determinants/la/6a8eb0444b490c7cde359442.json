@@ -1,0 +1,31 @@
+{
+  "id": "6a8eb0444b490c7cde359442",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d71",
+    "69c6603740512f018fa94d72",
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "LA",
+  "question": "Examine the system<br>$$kx+2y=3$$<br>$$2x+ky=3$$<br>for different real values of $k$.<br><br><b>(a)</b> Determine the values of $k$ for which the system has a unique solution.<br><br><b>(b)</b> Examine the system when $k=2$ and state the number of solutions.<br><br><b>(c)</b> Examine the system when $k=-2$ and justify whether it is consistent.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The coefficient determinant is<br>$$D=\\begin{vmatrix}k & 2\\\\2 & k\\end{vmatrix}=k^2-4=(k-2)(k+2)$$<br>The system has a unique solution when $D\\neq0$. Therefore,<br>$$k\\neq2\\quad\\text{and}\\quad k\\neq-2$$<br><br><b>(b)</b><br>When $k=2$, the equations become<br>$$2x+2y=3$$<br>$$2x+2y=3$$<br>The two equations are identical. Therefore, the system is consistent and has infinitely many solutions satisfying<br>$$x+y=\\frac{3}{2}$$<br><br><b>(c)</b><br>When $k=-2$, the equations become<br>$$-2x+2y=3$$<br>$$2x-2y=3$$<br>Multiplying the first equation by $-1$ gives<br>$$2x-2y=-3$$<br>This contradicts $2x-2y=3$. Therefore, the system is inconsistent and has no solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Unique solution for $k\\neq2,-2$<br>(b) For $k=2$, infinitely many solutions satisfying $x+y=\\frac{3}{2}$<br>(c) For $k=-2$, the system is inconsistent and has no solution",
+    "B": "(a) Unique solution for $k\\neq2$ only<br>(b) For $k=2$, there is a unique solution<br>(c) For $k=-2$, infinitely many solutions exist",
+    "C": "(a) Unique solution for $k\\neq-2$ only<br>(b) For $k=2$, the system is inconsistent<br>(c) For $k=-2$, the two equations are identical",
+    "D": "(a) Unique solution for every real $k$<br>(b) For $k=2$, $x=y=\\frac34$ is the only solution<br>(c) For $k=-2$, $x=-\\frac34,y=\\frac34$ is the only solution"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

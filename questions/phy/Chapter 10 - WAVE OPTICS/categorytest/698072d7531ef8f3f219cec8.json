@@ -1,0 +1,19 @@
+{
+  "id": "698072d7531ef8f3f219cec8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "697dd9ac6be903bdc704ee3b",
+  "question": "In a Young’s Double Slit Experiment (YDSE), the slit separation is $d$ and the screen is placed at a finite distance $D$ from the slit plane (so you cannot assume $D\\gg d$). Let $P$ be a point on the screen at a vertical displacement $y$ from the central point $O$.\n\nA student uses the approximation $\\Delta \\approx \\dfrac{dy}{D}$ to locate fringes even when $D$ is not much larger than $d$.\n\nEvaluate the validity of this approximation by doing the following:\n\n(i) write the exact path difference $\\Delta=S_1P-S_2P$ in terms of $D$, $d$, and $y$, and\n\n(ii) explain under what condition(s) this exact expression reduces to the approximate form $\\Delta\\approx \\dfrac{dy}{D}$.\n\nConclude whether the student’s use of the approximation is justified in the finite-distance setup.",
+  "options": {
+    "A": "The approximation is always valid because the path difference in YDSE is exactly $\\Delta=\\dfrac{dy}{D}$ for any $D$.",
+    "B": "The approximation is invalid in general. The exact path difference is $\\Delta=\\sqrt{D^2+\\left(y+\\dfrac{d}{2}\\right)^2}-\\sqrt{D^2+\\left(y-\\dfrac{d}{2}\\right)^2}$, and it reduces to $\\Delta\\approx\\dfrac{dy}{D}$ only when $D\\gg d$ and $|y|\\ll D$ (small-angle region).",
+    "C": "The approximation is valid whenever $d\\gg D$ because then the rays are nearly parallel and $\\Delta\\approx\\dfrac{dy}{D}$.",
+    "D": "The approximation fails because the exact path difference depends only on angle and is $\\Delta=d\\sin\\theta$ for all screen positions."
+  },
+  "question_type": "LA",
+  "category": "Analysing, Evaluating, Creating",
+  "imageurl": null,
+  "categories": [
+    "Analysing, Evaluating, Creating"
+  ]
+}

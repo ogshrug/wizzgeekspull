@@ -1,0 +1,29 @@
+{
+  "id": "6a8e775c4b490c7cde3593bb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Consider the set $\\mathbb{R}^{+}$ of all non-negative real numbers and the function $f:\\mathbb{R}^{+}\\to[4,\\infty)$ defined by $f(x)=x^2+4$. A classroom investigation examines whether every output of this function can be uniquely reversed to recover its original non-negative input. The restriction $x\\geq0$ is important because it determines which value must be selected when the equation $y=x^2+4$ is solved for $x$. Students construct a proposed reverse function and verify it by composing the two functions in both possible orders.<br><br><b>(a)</b> Find $f(0)$ and $f(3)$.<br><br><b>(b)</b> If $y=f(x)$ with $x\\in\\mathbb{R}^{+}$, express $x$ in terms of $y$.<br><br><b>(c)</b> Define the corresponding reverse function $g:[4,\\infty)\\to\\mathbb{R}^{+}$ and verify that $gof(x)=x$.<br><br><b>(d)</b> Verify that $fog(y)=y$ and hence determine $f^{-1}(y)$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Using $f(x)=x^2+4$, we get $f(0)=0^2+4=4$ and $f(3)=3^2+4=13$.<br><br><b>(b)</b><br>Let $y=x^2+4$. Then $x^2=y-4$. Since $x\\in\\mathbb{R}^{+}$, we must take the non-negative square root. Therefore, $x=\\sqrt{y-4}$. Also, $y\\geq4$, so the square root is defined.<br><br><b>(c)</b><br>Define $g:[4,\\infty)\\to\\mathbb{R}^{+}$ by $g(y)=\\sqrt{y-4}$. Then $gof(x)=g(x^2+4)=\\sqrt{x^2+4-4}=\\sqrt{x^2}$. Since $x\\geq0$, $\\sqrt{x^2}=x$. Hence, $gof(x)=x$.<br><br><b>(d)</b><br>For $y\\geq4$, $fog(y)=f(\\sqrt{y-4})=(\\sqrt{y-4})^2+4=y-4+4=y$. Thus, $gof$ and $fog$ are the required identity functions on their respective sets. Hence, $f$ is invertible and $f^{-1}(y)=\\sqrt{y-4}$ for $y\\in[4,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(0)=0$ and $f(3)=9$; $x=\\sqrt{y+4}$, so $f^{-1}(y)=\\sqrt{y+4}$.",
+    "B": "$f(0)=4$ and $f(3)=13$; $x=\\pm\\sqrt{y-4}$, so the function has two inverse values for every $y>4$.",
+    "C": "$f(0)=4$ and $f(3)=13$; $x=\\sqrt{y-4}$, and defining $g(y)=\\sqrt{y-4}$ gives $gof(x)=x$ and $fog(y)=y$. Hence, $f^{-1}(y)=\\sqrt{y-4}$.",
+    "D": "$f(0)=4$ and $f(3)=13$; $x=y^2-4$, so $f^{-1}(y)=y^2-4$, although $gof$ is not the identity function."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

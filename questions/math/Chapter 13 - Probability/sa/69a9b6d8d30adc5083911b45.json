@@ -1,0 +1,29 @@
+{
+  "id": "69a9b6d8d30adc5083911b45",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "SA",
+  "question": "Urn I contains 4 red and 6 green balls. Urn II contains 3 red and 7 green balls. A ball is transferred from Urn I to Urn II and then a ball is drawn from Urn II. What is the probability that the drawn ball is red?",
+  "answeroption": "C",
+  "explanation": "Case 1: Red ball is transferred (prob $= \\frac{4}{10}$)<br />Urn II: 4 red, 7 green<br />Prob (draw red) $= \\frac{4}{11}$<br /><br />Case 2: Green ball is transferred (prob $= \\frac{6}{10}$)<br />Urn II: 3 red, 8 green<br />Prob (draw red) $= \\frac{3}{11}$<br /><br />Using Total Probability theorem:<br />$P(\\text{draw red}) = \\frac{4}{10} \\times \\frac{4}{11} + \\frac{6}{10} \\times \\frac{3}{11}$<br />$= \\frac{16}{110} + \\frac{18}{110} = \\frac{34}{110} = \\frac{17}{55}$<br /><br />Required probability is $\\boxed{\\frac{17}{55}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{11}$",
+    "B": "$\\frac{4}{11}$",
+    "C": "$\\frac{17}{55}$",
+    "D": "$\\frac{19}{55}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:01:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a9753862be6a70cd184db7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A = \\{1, 2, 3, 4\\}$, and $B = \\{1, 2, 3, 4\\}$. Show that every one-one function from $A$ to $B$ is onto, and every onto function from $A$ to $B$ is one-one.",
+  "answeroption": "D",
+  "explanation": "With finite set $A$, $|A| = |B| = n$:<br /><br />Any one-one function: Each $a \\in A$ maps to a unique $b \\in B$, using all $n$ elements; thus, the range has $n$ elements and must be $B$ — the function is onto.<br /><br />Any onto function: The range is all $n$ elements; since $|A| = |B| = n$, each range value must be hit exactly once, so the function must be one-one.<br /><br />Conclusion: For a finite set $A$ and $B$ with $|A| = |B|$, every injective function is surjective and vice versa.",
+  "explanation_image": [],
+  "options": {
+    "A": "Every one-one function is onto, but an onto function need not be one-one",
+    "B": "Every onto function is one-one, but a one-one function need not be onto",
+    "C": "Neither statement is true because $A$ and $B$ are finite sets",
+    "D": "Both statements are true because $A$ and $B$ are finite sets with equal number of elements"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:21:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

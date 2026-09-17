@@ -1,0 +1,30 @@
+{
+  "id": "6a8eb24b4b490c7cde359450",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "VSA",
+  "question": "Let $F=f\\circ g$. If $g(2)=3$, $g'(2)=-2$ and $f'(3)=5$, determine $F'(2)$.",
+  "answeroption": "B",
+  "explanation": "Step 1: Since $F=f\\circ g$, we have $F(x)=f(g(x))$, which is a composite function.<br>Step 2: The derivative of a composite function is obtained using the chain rule: $F'(x)=f'(g(x))g'(x)$.<br>Step 3: At $x=2$, the given value $g(2)=3$ implies $f'(g(2))=f'(3)$.<br>Step 4: From the given information, $f'(3)=5$ and $g'(2)=-2$.<br>Step 5: Therefore, $F'(2)=5(-2)=-10$. Hence the derivative of the composite function at $x=2$ is $\\boxed{-10}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$10$",
+    "B": "$-10$",
+    "C": "$-7$",
+    "D": "$3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

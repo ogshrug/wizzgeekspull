@@ -1,0 +1,28 @@
+{
+  "id": "6a2262c0864be73cfcf6d17e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977"
+  ],
+  "question_type": "VSA",
+  "question": "Find the values of 'a' for which $f(x)=\\sin x-ax+b$ is increasing on $\\mathbb{R}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To determine the behavior of the function, find its first derivative with respect to $x$: $f'(x) = \\cos x - a$.<br />**Step 2:** For the function to be monotonically increasing on the entire set of real numbers $\\mathbb{R}$, its derivative must be non-negative for all real values of $x$. Thus, we require $f'(x) \\ge 0$.<br />**Step 3:** Substitute the derivative into the inequality: $\\cos x - a \\ge 0$.<br />**Step 4:** Rearrange the inequality to isolate the constant '$a$': $a \\le \\cos x$.<br />**Step 5:** For this inequality to hold true for *all* $x \\in \\mathbb{R}$, '$a$' must be less than or equal to the absolute minimum value of the cosine function.<br />**Step 6:** The minimum value of $\\cos x$ over real numbers is $-1$. Therefore, we conclude that $a \\le -1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "6a158acf6050c058f876e4fc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "VSA",
+  "question": "If $y=(sin^{-1}x)^{2}$, then find $(1-x^{2})\\frac{d^{2}y}{dx^{2}}-x\\frac{dy}{dx}$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Compute the first derivative**<br />Differentiating $y = (\\sin^{-1}x)^2$ with respect to $x$ using the Chain Rule gives:<br />$\\frac{dy}{dx} = 2(\\sin^{-1}x) \\cdot \\frac{1}{\\sqrt{1-x^2}}$<br /><br />**Step 2: Rearrange and square to simplify**<br />Multiply both sides by $\\sqrt{1-x^2}$ to clear the fraction:<br />$\\sqrt{1-x^2} \\cdot \\frac{dy}{dx} = 2\\sin^{-1}x$<br />Square both sides to eliminate the square root radical:<br />$(1-x^2) \\cdot \\left(\\frac{dy}{dx}\\right)^2 = 4(\\sin^{-1}x)^2$<br />Substitute the original equation $y = (\\sin^{-1}x)^2$ back into our expression:<br />$(1-x^2) \\cdot \\left(\\frac{dy}{dx}\\right)^2 = 4y$<br /><br />**Step 3: Compute the second derivative**<br />Differentiate both sides with respect to $x$ using the Product Rule on the left side:<br />$(1-x^2) \\cdot \\frac{d}{dx}\\left[\\left(\\frac{dy}{dx}\\right)^2\\right] + \\left(\\frac{dy}{dx}\\right)^2 \\cdot \\frac{d}{dx}(1-x^2) = 4\\frac{dy}{dx}$<br />$(1-x^2) \\cdot \\left[2\\left(\\frac{dy}{dx}\\right)\\frac{d^2y}{dx^2}\\right] + \\left(\\frac{dy}{dx}\\right)^2 \\cdot (-2x) = 4\\frac{dy}{dx}$<br />$2(1-x^2)\\frac{dy}{dx}\\frac{d^2y}{dx^2} - 2x\\left(\\frac{dy}{dx}\\right)^2 = 4\\frac{dy}{dx}$<br /><br />**Step 4: Factor and simplify to the final form**<br />Divide the entire equation by the common factor $2\\frac{dy}{dx}$:<br />$(1-x^2)\\frac{d^2y}{dx^2} - x\\frac{dy}{dx} = 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "6a1585116050c058f876e4de",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "SA",
+  "question": "It is known that 20% of the students in a school have above 90% attendance and 80% of the students are irregular. Past year results show that 80% of students who have above 90% attendance and 20% of irregular students get 'A' grade in their annual examination. At the end of a year, a student is chosen at random from the school and is found to have an 'A' grade. What is the probability that the student is irregular ?",
+  "answeroption": "",
+  "explanation": "**Step 1: Define individual event probabilities**<br />Let us organize the given information into distinct events:<br />- Let $E_1$ be the event that a student has >90% attendance (regular): $P(E_1) = 20\\% = 0.20$<br />- Let $E_2$ be the event that a student is irregular: $P(E_2) = 80\\% = 0.80$<br />- Let $A$ be the event that a randomly chosen student receives an 'A' grade.<br /><br />**Step 2: Identify conditional probabilities from the text**<br />- Probability of a regular student getting an 'A' grade: $P(A|E_1) = 80\\% = 0.80$<br />- Probability of an irregular student getting an 'A' grade: $P(A|E_2) = 20\\% = 0.20$<br /><br />**Step 3: Compute total probability $P(A)$**<br />Using the Law of Total Probability, we find the overall probability of any student getting an 'A' grade:<br />$P(A) = P(E_1) \\cdot P(A|E_1) + P(E_2) \\cdot P(A|E_2)$<br />$P(A) = (0.20 \\cdot 0.80) + (0.80 \\cdot 0.20) = 0.16 + 0.16 = 0.32$<br /><br />**Step 4: Apply Bayes' Theorem to find the final probability**<br />We want to find the probability that a student who received an 'A' grade is irregular ($P(E_2|A)$):<br />$P(E_2|A) = \\frac{P(E_2) \\cdot P(A|E_2)}{P(A)} = \\frac{0.80 \\cdot 0.20}{0.32} = \\frac{0.16}{0.32} = \\frac{1}{2} = 0.50$<br />Thus, the probability that the chosen student is irregular is **0.50 (or 50%)**.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a9125b0be0ecc7866e90cd6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "SA",
+  "question": "A feasible region has corner points $O(0,0)$, $A(6,0)$, $B(4,3)$ and $C(0,5)$. For $Z=x+2y$, find the maximum value of $Z$. Examine whether the optimal feasible solution is unique and justify your answer.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Evaluating the objective function</b><br>At the four corner points, $$Z_O=0,\\quad Z_A=6,\\quad Z_B=4+2(3)=10,\\quad Z_C=2(5)=10$$<br><b>Step 2: Identifying the maximum value</b><br>The largest value obtained is $$Z_{\\max}=10$$ and it occurs at both $B(4,3)$ and $C(0,5)$.<br><b>Step 3: Examining uniqueness</b><br>Since two distinct feasible corner points give the same maximum value, the optimal feasible solution is not unique.<br><b>Step 4: Applying the equal-optimum result</b><br>When two corner points give the same maximum value, every point on the line segment joining those two points also gives the same maximum value of the objective function.<br><b>Step 5: Conclusion</b><br>Thus, the maximum value of $Z$ is $10$. Every feasible point on the line segment joining $B(4,3)$ and $C(0,5)$ is an optimal feasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximum value $10$; unique optimum at $B(4,3)$",
+    "B": "Maximum value $10$; unique optimum at $C(0,5)$",
+    "C": "Maximum value $12$; non-unique optimum on segment $BC$",
+    "D": "Maximum value $10$; the optimum is not unique and every point on segment $BC$ is optimal"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

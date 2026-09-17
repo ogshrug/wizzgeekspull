@@ -1,0 +1,29 @@
+{
+  "id": "69a9aa1862be6a70cd184dfb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate the integral $\\int \\frac{dx}{x^2 - 4}$.",
+  "answeroption": "B",
+  "explanation": "Factor the denominator.<br /><br />$x^2-4=(x-2)(x+2)$.<br /><br />Use partial fractions:<br /><br />$\\frac{1}{x^2-4}=\\frac{A}{x-2}+\\frac{B}{x+2}$.<br /><br />Solving gives $A=\\frac{1}{4}$ and $B=-\\frac{1}{4}$.<br /><br />Thus the integral becomes $\\frac{1}{4}\\int\\frac{dx}{x-2}-\\frac{1}{4}\\int\\frac{dx}{x+2}$.<br /><br />Integrating gives $\\frac{1}{4}\\ln|x-2|-\\frac{1}{4}\\ln|x+2|+C$.<br /><br />Combining logarithms gives $\\frac{1}{4}\\ln\\left|\\frac{x-2}{x+2}\\right|+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}\\ln\\left|\\frac{x-2}{x+2}\\right|+C$",
+    "B": "$\\frac{1}{4}\\ln\\left|\\frac{x-2}{x+2}\\right|+C$",
+    "C": "$\\frac{1}{4}\\ln\\left|\\frac{x+2}{x-2}\\right|+C$",
+    "D": "$\\ln|x^2-4|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:06:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

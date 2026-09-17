@@ -1,0 +1,31 @@
+{
+  "id": "6a2ba8d9e2870e79a90d76d1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{cos~x}{\\sqrt{sin^{2}x+1}}dx$ is equal to:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Use substitution by setting $t = \\sin x$, which means $dt = \\cos x \\, dx$.<br />**Step 2:** Substitute these into the integrand to get a standard integration format: $\\int \\frac{dt}{\\sqrt{t^2+1}}$.<br />**Step 3:** Integrate using the standard formula $\\int \\frac{dt}{\\sqrt{t^2+a^2}} = \\ln|t + \\sqrt{t^2+a^2}| + C$, which simplifies to $\\ln|\\sin x + \\sqrt{\\sin^2 x + 1}| + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$tan^{-1}(sin~x)+C$",
+    "B": "$sin^{-1}(sin~x)+C$",
+    "C": "$log|sin~x+\\sqrt{1+sin^{2}x}|+C$",
+    "D": "$log|sin~x-\\sqrt{sin^{2}x+1}|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

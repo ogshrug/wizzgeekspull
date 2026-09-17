@@ -1,0 +1,31 @@
+{
+  "id": "6a22b370fbdd87b6dea73bf4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\sqrt{1+\\sin~x}dx$ is equal to :",
+  "answeroption": "B",
+  "explanation": "<b>Step 1</b> Use trigonometric identities to convert the expression under the square root into a perfect square. We can rewrite 1 as $\\cos^2\\frac{x}{2} + \\sin^2\\frac{x}{2}$ and $\\sin x$ as $2\\sin\\frac{x}{2}\\cos\\frac{x}{2}$.<br /><br /><b>Step 2</b> Substitute these into the radical to form a perfect square trinomial: $\\sqrt{\\sin^2\\frac{x}{2} + \\cos^2\\frac{x}{2} + 2\\sin\\frac{x}{2}\\cos\\frac{x}{2}} = \\sqrt{\\left(\\sin\\frac{x}{2} + \\cos\\frac{x}{2}\\right)^2} = \\sin\\frac{x}{2} + \\cos\\frac{x}{2}$.<br /><br /><b>Step 3</b> Integrate each term independently: $\\int \\left(\\sin\\frac{x}{2} + \\cos\\frac{x}{2}\\right) dx = \\frac{-2}{1}\\cos\\frac{x}{2} + \\frac{2}{1}\\sin\\frac{x}{2} + C = 2\\left(\\sin\\frac{x}{2} - \\cos\\frac{x}{2}\\right) + C$. This matches option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2(-sin\\frac{x}{2}+cos\\frac{x}{2})+C$",
+    "B": "$2(sin\\frac{x}{2}-cos\\frac{x}{2})+C$",
+    "C": "$-2(sin\\frac{x}{2}+cos\\frac{x}{2})+C$",
+    "D": "$2(sin\\frac{x}{2}+cos\\frac{x}{2})+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

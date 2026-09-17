@@ -1,0 +1,27 @@
+{
+  "id": "6a22579c864be73cfcf6d173",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Find the absolute maximum and absolute minimum of function $f(x)=2x^3-15x^2+36x+1$ on [1, 5].",
+  "answeroption": "",
+  "explanation": "**Step 1:** To comprehensively determine the absolute extrema of the given continuous polynomial function strictly on the closed interval $[1, 5]$, we systematically compute its first derivative directly with respect to $x$. Differentiating the equation $f(x) = 2x^3 - 15x^2 + 36x + 1$ precisely yields the quadratic derivative $f'(x) = 6x^2 - 30x + 36$.<br />**Step 2:** To accurately identify the critical points where the geometric slope of the tangent line is horizontal, we strictly set the first derivative equal to exactly zero. This produces the equation $6x^2 - 30x + 36 = 0$. By factoring out the common multiplier 6, we simplify it cleanly to $x^2 - 5x + 6 = 0$.<br />**Step 3:** We effectively factor the simplified quadratic equation into the explicit product $(x-2)(x-3) = 0$. Consequently, the exact roots, definitively representing the critical points of the function, are identified strictly as exactly $x = 2$ and exactly $x = 3$. We emphatically verify that both of these calculated critical values lie securely within our explicitly specified closed interval $[1, 5]$.<br />**Step 4:** The extreme value theorem requires us to rigorously evaluate the original function $f(x)$ at all internal critical points and strictly at the boundary endpoints of the defined interval. First, evaluate the left endpoint: $f(1) = 2 - 15 + 36 + 1 = 24$.<br />**Step 5:** Next, we evaluate the target function precisely at the first identified critical point: $f(2) = 16 - 60 + 72 + 1 = 29$. We repeat the exact substitution process for the second critical point: $f(3) = 54 - 135 + 108 + 1 = 28$.<br />**Step 6:** Finally, we decisively evaluate the continuous function exactly at the right boundary endpoint position: $f(5) = 250 - 375 + 180 + 1 = 56$. By strictly comparing these computed output values, we firmly conclude the absolute maximum value is unquestionably 56, and the absolute minimum value is exactly 24.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1",
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

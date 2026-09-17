@@ -1,0 +1,30 @@
+{
+  "id": "6a8eadf4751910886affb970",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "LA",
+  "question": "Let $A=\\begin{bmatrix}4 & 1\\\\2 & 3\\end{bmatrix}$ and $B=2A$.<br><br><b>(a)</b> Find $\\operatorname{adj}A$ and $A^{-1}$.<br><br><b>(b)</b> Determine $\\operatorname{adj}B$ and $B^{-1}$.<br><br><b>(c)</b> Compare $B^{-1}$ with $A^{-1}$ and establish the relation between them.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>For<br>$$A=\\begin{bmatrix}4 & 1\\\\2 & 3\\end{bmatrix}$$<br>$$|A|=4(3)-1(2)=10$$<br>Therefore,<br>$$\\operatorname{adj}A=\\begin{bmatrix}3 & -1\\\\-2 & 4\\end{bmatrix}$$<br>and<br>$$A^{-1}=\\frac{1}{10}\\begin{bmatrix}3 & -1\\\\-2 & 4\\end{bmatrix}$$<br><br><b>(b)</b><br>Since $B=2A$,<br>$$B=\\begin{bmatrix}8 & 2\\\\4 & 6\\end{bmatrix}$$<br>Therefore,<br>$$\\operatorname{adj}B=\\begin{bmatrix}6 & -2\\\\-4 & 8\\end{bmatrix}=2\\operatorname{adj}A$$<br>Also,<br>$$|B|=8(6)-2(4)=40$$<br>Hence,<br>$$B^{-1}=\\frac{1}{40}\\begin{bmatrix}6 & -2\\\\-4 & 8\\end{bmatrix}=\\frac{1}{20}\\begin{bmatrix}3 & -1\\\\-2 & 4\\end{bmatrix}$$<br><br><b>(c)</b><br>Since<br>$$A^{-1}=\\frac{1}{10}\\begin{bmatrix}3 & -1\\\\-2 & 4\\end{bmatrix}$$<br>and<br>$$B^{-1}=\\frac{1}{20}\\begin{bmatrix}3 & -1\\\\-2 & 4\\end{bmatrix}$$<br>we obtain<br>$$B^{-1}=\\frac{1}{2}A^{-1}$$<br>Thus, $(2A)^{-1}=\\frac{1}{2}A^{-1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\operatorname{adj}A=\\begin{bmatrix}3&-1\\\\-2&4\\end{bmatrix}$ and $A^{-1}=\\frac{1}{10}\\begin{bmatrix}3&-1\\\\-2&4\\end{bmatrix}$<br>(b) $\\operatorname{adj}B=\\begin{bmatrix}6&-2\\\\-4&8\\end{bmatrix}=2\\operatorname{adj}A$ and $B^{-1}=\\frac{1}{20}\\begin{bmatrix}3&-1\\\\-2&4\\end{bmatrix}$<br>(c) $B^{-1}=\\frac12A^{-1}$",
+    "B": "(a) $A^{-1}=\\frac{1}{10}\\operatorname{adj}A$<br>(b) $\\operatorname{adj}B=4\\operatorname{adj}A$ and $B^{-1}=\\frac{1}{10}\\operatorname{adj}A$<br>(c) $B^{-1}=A^{-1}$",
+    "C": "(a) $\\operatorname{adj}A=\\begin{bmatrix}4&-1\\\\-2&3\\end{bmatrix}$<br>(b) $\\operatorname{adj}B=\\operatorname{adj}A$<br>(c) $B^{-1}=2A^{-1}$",
+    "D": "(a) $|A|=20$ and $A^{-1}=\\frac{1}{20}\\operatorname{adj}A$<br>(b) $|B|=40$<br>(c) $B^{-1}=\\frac14A^{-1}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

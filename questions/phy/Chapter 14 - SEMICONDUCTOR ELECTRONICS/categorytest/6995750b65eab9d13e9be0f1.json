@@ -1,0 +1,19 @@
+{
+  "id": "6995750b65eab9d13e9be0f1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "698eb6089d20b56bde515bb7",
+  "question": "An NPN transistor is used in a CE amplifier with voltage-divider bias:\n\n- $V_{CC}=12\\,\\text{V}$\n- $R_C=2.2\\,\\text{k}\\Omega$\n- $R_E=1.0\\,\\text{k}\\Omega$ (bypassed by a large capacitor for AC, so emitter is AC-grounded)\n- Bias resistors: $R_1=100\\,\\text{k}\\Omega$ (from $V_{CC}$ to base) and $R_2=20\\,\\text{k}\\Omega$ (from base to ground)\n- Transistor: $\\beta=100$, $V_{BE}=0.7\\,\\text{V}$\n\nAssume $V_T\\approx 25\\,\\text{mV}$ for small-signal and take $r_e\\approx \\dfrac{V_T}{I_E}$.\n\nFind the DC Q-point $(I_C, V_{CE})$ and the midband voltage gain magnitude $|A_v|\\approx \\dfrac{R_C}{r_e}$.",
+  "options": {
+    "A": "$I_C\\approx 1.1\\,\\text{mA},\\ V_{CE}\\approx 8.5\\,\\text{V},\\ A_v\\approx -100$",
+    "B": "$I_C\\approx 2.0\\,\\text{mA},\\ V_{CE}\\approx 6.0\\,\\text{V},\\ A_v\\approx -50$",
+    "C": "$I_C\\approx 0.35\\,\\text{mA},\\ V_{CE}\\approx 10.5\\,\\text{V},\\ A_v\\approx -300$",
+    "D": "$I_C\\approx 1.1\\,\\text{mA},\\ V_{CE}\\approx 8.5\\,\\text{V},\\ A_v\\approx -10$"
+  },
+  "question_type": "mcq",
+  "category": "JEE",
+  "imageurl": null,
+  "categories": [
+    "JEE"
+  ]
+}

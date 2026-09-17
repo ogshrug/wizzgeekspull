@@ -1,0 +1,29 @@
+{
+  "id": "6a8edd9cbe0ecc7866e90c08",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f988"
+  ],
+  "question_type": "SA",
+  "question": "A function $F$ satisfies $F'(x)=3x^2+\\frac{2}{x}$ for $x>0$ and $F(1)=4$. Find $F(x)$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Interpreting the derivative</b><br>The given relation $F'(x)=3x^2+\\frac{2}{x}$ means that $F(x)$ is an antiderivative of $3x^2+\\frac{2}{x}$. Hence integration, being the inverse process of differentiation, is used.<br><b>Step 2: Forming the indefinite integral</b><br>$$F(x)=\\int\\left(3x^2+\\frac{2}{x}\\right)dx$$<br><b>Step 3: Integrating the terms</b><br>Using $\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C$ and $\\int\\frac{1}{x}\\,dx=\\log|x|+C$,<br>$$F(x)=x^3+2\\log x+C$$<br>since $x>0$.<br><b>Step 4: Applying the given condition</b><br>Since $F(1)=4$,<br>$$1^3+2\\log 1+C=4$$<br>As $\\log 1=0$, we get $C=3$.<br><b>Step 5: Writing the required function</b><br>Therefore,<br>$$\\boxed{F(x)=x^3+2\\log x+3}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x^3+2\\log x+4$",
+    "B": "$x^3+2\\log x+3$",
+    "C": "$x^3-2\\log x+3$",
+    "D": "$3x^3+2\\log x+1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

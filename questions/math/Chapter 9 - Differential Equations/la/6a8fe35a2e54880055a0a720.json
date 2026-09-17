@@ -1,0 +1,30 @@
+{
+  "id": "6a8fe35a2e54880055a0a720",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a6",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "LA",
+  "question": "Form the differential equation representing the family of curves $$y^2=4a(x-a),$$ where $a$ is an arbitrary constant, by differentiating the given relation and eliminating the arbitrary constant completely.",
+  "answeroption": "B",
+  "explanation": "<b>Given Information</b><br>The given family is $$y^2=4a(x-a).$$ Since the family contains one arbitrary constant $a$, differentiate once with respect to $x$ and then eliminate $a$.<br><br><b>Differentiation</b><br>Differentiating with respect to $x$, $$2y\\frac{dy}{dx}=4a.$$ Therefore, $$a=\\frac{y}{2}\\frac{dy}{dx}.$$<br><br><b>Elimination of the Arbitrary Constant</b><br>Substituting this value of $a$ into the given family, $$y^2=4\\left(\\frac{y}{2}\\frac{dy}{dx}\\right)\\left(x-\\frac{y}{2}\\frac{dy}{dx}\\right).$$ Simplifying, $$y^2=2xy\\frac{dy}{dx}-y^2\\left(\\frac{dy}{dx}\\right)^2.$$ Hence, $$y^2\\left(\\frac{dy}{dx}\\right)^2-2xy\\frac{dy}{dx}+y^2=0.$$<br><br><b>Final Result</b><br>The required differential equation free from the arbitrary constant is $$y^2\\left(\\frac{dy}{dx}\\right)^2-2xy\\frac{dy}{dx}+y^2=0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y^2\\left(\\frac{dy}{dx}\\right)^2+2xy\\frac{dy}{dx}+y^2=0$",
+    "B": "$y^2\\left(\\frac{dy}{dx}\\right)^2-2xy\\frac{dy}{dx}+y^2=0$",
+    "C": "$y\\left(\\frac{dy}{dx}\\right)^2-2x\\frac{dy}{dx}+y=0$",
+    "D": "$y^2\\left(\\frac{dy}{dx}\\right)^2-4xy\\frac{dy}{dx}+y^2=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "6a152ebe2a89680e5835ceba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "LA",
+  "question": "If $A^{-1} = \\begin{bmatrix} 3 & -1 & 1 \\\\ -15 & 6 & -5 \\\\ 5 & -2 & 2 \\end{bmatrix}$ and $B = \\begin{bmatrix} 1 & 2 & -2 \\\\ -1 & 3 & 0 \\\\ 0 & -2 & 1 \\end{bmatrix}$, find $(AB)^{-1}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use property $(AB)^{-1} = B^{-1} A^{-1}$. <br /><br /> **Step 2:** Find $|B|$: <br /> $|B| = 1\\begin{vmatrix}3 & 0 \\\\ -2 & 1\\end{vmatrix} - 2\\begin{vmatrix}-1 & 0 \\\\ 0 & 1\\end{vmatrix} + (-2)\\begin{vmatrix}-1 & 3 \\\\ 0 & -2\\end{vmatrix}$ <br /> $= 1(3 \\times 1 - 0 \\times (-2)) - 2((-1)\\times 1 - 0 \\times 0) - 2((-1)\\times (-2) - 3 \\times 0)$ <br /> $= 1(3 - 0) - 2(-1 - 0) - 2(2 - 0)$ <br /> $= 3 + 2 - 4 = 1$. <br /><br /> **Step 3:** Find adjoint of $B$ (cofactor matrix transposed): <br /> Cofactors: <br /> $C_{11} = +(3\\times1 - 0\\times(-2)) = 3$ <br /> $C_{12} = -((-1)\\times1 - 0\\times0) = 1$ <br /> $C_{13} = +((-1)\\times(-2) - 3\\times0) = 2$ <br /> $C_{21} = -(2\\times1 - (-2)\\times(-2)) = -(2 - 4) = 2$ <br /> $C_{22} = +(1\\times1 - (-2)\\times0) = 1$ <br /> $C_{23} = -(1\\times(-2) - 2\\times0) = 2$ <br /> $C_{31} = +(2\\times0 - (-2)\\times3) = 0 + 6 = 6$ <br /> $C_{32} = -(1\\times0 - (-2)\\times(-1)) = -(0 - 2) = 2$ <br /> $C_{33} = +(1\\times3 - 2\\times(-1)) = 3 + 2 = 5$ <br /> So adj$(B) = \\begin{bmatrix} 3 & 2 & 6 \\\\ 1 & 1 & 2 \\\\ 2 & 2 & 5 \\end{bmatrix}$. <br /><br /> **Step 4:** $B^{-1} = \\frac{1}{|B|}\\text{adj}(B) = \\begin{bmatrix} 3 & 2 & 6 \\\\ 1 & 1 & 2 \\\\ 2 & 2 & 5 \\end{bmatrix}$. <br /><br /> **Step 5:** $(AB)^{-1} = B^{-1} A^{-1} = \\begin{bmatrix} 3 & 2 & 6 \\\\ 1 & 1 & 2 \\\\ 2 & 2 & 5 \\end{bmatrix} \\begin{bmatrix} 3 & -1 & 1 \\\\ -15 & 6 & -5 \\\\ 5 & -2 & 2 \\end{bmatrix}$. <br /><br /> **Step 6:** Multiply: <br /> Row1: $3(3)+2(-15)+6(5) = 9-30+30=9$; $3(-1)+2(6)+6(-2) = -3+12-12=-3$; $3(1)+2(-5)+6(2)=3-10+12=5$ <br /> Row2: $1(3)+1(-15)+2(5) = 3-15+10=-2$; $1(-1)+1(6)+2(-2) = -1+6-4=1$; $1(1)+1(-5)+2(2)=1-5+4=0$ <br /> Row3: $2(3)+2(-15)+5(5) = 6-30+25=1$; $2(-1)+2(6)+5(-2) = -2+12-10=0$; $2(1)+2(-5)+5(2)=2-10+10=2$ <br /><br /> **Answer:** $(AB)^{-1} = \\begin{bmatrix} 9 & -3 & 5 \\\\ -2 & 1 & 0 \\\\ 1 & 0 & 2 \\end{bmatrix}$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

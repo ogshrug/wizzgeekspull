@@ -1,0 +1,30 @@
+{
+  "id": "69a8561fb4df445c7f648c5e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "LA",
+  "question": "Find the value(s) of $k$ for which the function $f(x) = x^3 - 3kx^2 + 12x + 7$ has a local maximum at $x = k$.",
+  "answeroption": "D",
+  "explanation": "$f'(x)=3x^2-6kx+12$.<br /><br />At $x=k$, $f'(k)=-3k^2+12=0$.<br /><br />So $k^2=4$ giving $k=2$ or $k=-2$.<br /><br />For $k=2$, $f'(x)=3(x-2)^2$ which is always non-negative, so no maximum.<br /><br />For $k=-2$, $f'(x)=3(x+2)^2$ which is also always non-negative, so no maximum.<br /><br />Hence, there is no value of $k$ for which the function has a local maximum at $x=k$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=2$ only",
+    "B": "$k=-2$ only",
+    "C": "$k=2$ or $k=-2$",
+    "D": "No value of $k$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:56:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

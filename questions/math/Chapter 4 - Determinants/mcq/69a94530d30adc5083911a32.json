@@ -1,0 +1,31 @@
+{
+  "id": "69a94530d30adc5083911a32",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "MCQ",
+  "question": "Suppose $P$ is a $3 \\times 3$ non-singular matrix such that $\\text{adj} (P) = 2P$. What is $|P|$?",
+  "answeroption": "C",
+  "explanation": "Recall, for $n \\times n$ matrix:<br />$\\text{adj}(P) = |P| P^{-1}$<br />Given $\\text{adj}(P) = 2P$.<br />Equate:<br />$|P| P^{-1} = 2P$<br />$\\Rightarrow |P| I = 2P^2$<br />So $P^2 = \\frac{1}{2}|P| I$.<br />Take determinants:<br />$|P^2| = \\left| \\frac{1}{2}|P| I \\right|$<br />$|P|^2 = \\left( \\frac{1}{2}|P| \\right)^3$<br />$|P|^2 = \\frac{1}{8}|P|^3$<br />$|P|^3 - 8|P|^2 = 0$<br />$|P|^2 (|P| - 8) = 0$<br />$|P| = 0$ or $|P| = 8$.<br />But $P$ is non-singular, so $|P| \\ne 0$.<br />Thus $|P| = 8$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4$",
+    "B": "$2$",
+    "C": "$8$",
+    "D": "$1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 08:56:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

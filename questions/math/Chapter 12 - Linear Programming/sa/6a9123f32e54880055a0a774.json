@@ -1,0 +1,29 @@
+{
+  "id": "6a9123f32e54880055a0a774",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "A bounded feasible region of a linear programming problem has corner points $O(0,0)$, $A(6,0)$, $B(6,2)$, $C(2,6)$ and $D(0,6)$. The objective function is $Z=2x+2y$. Using the corner point method:<br>(i) Find the maximum value of $Z$.<br>(ii) Examine whether the maximum solution is unique. Justify your answer.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Evaluating the objective function at the corner points</b><br>Using $Z=2x+2y$, we obtain $$Z_O=0,\\quad Z_A=12,\\quad Z_B=16,\\quad Z_C=16,\\quad Z_D=12$$<br><b>Step 2: Determining the maximum value</b><br>The largest value is $16$, and it occurs at both $B(6,2)$ and $C(2,6)$. Hence, the maximum value is $$Z_{\\max}=16$$<br><b>Step 3: Examining uniqueness</b><br>Since two distinct corner points give the same maximum value, the optimal solution is not unique.<br><b>Step 4: Using the multiple-optimum result</b><br>Whenever two corner points give the same optimal value, every point on the line segment joining them also gives that optimal value.<br><b>Step 5: Conclusion</b><br>Therefore, every point on the segment joining $B(6,2)$ and $C(2,6)$ is an optimal solution, and all such points give the maximum value $16$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) Maximum value $16$<br>(ii) The solution is unique at $B(6,2)$",
+    "B": "(i) Maximum value $16$<br>(ii) The solution is not unique; every point on segment $BC$ is optimal",
+    "C": "(i) Maximum value $12$<br>(ii) The solution is not unique; $A$ and $D$ are optimal",
+    "D": "(i) Maximum value $20$<br>(ii) The solution is unique at $C(2,6)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

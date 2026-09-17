@@ -1,0 +1,29 @@
+{
+  "id": "6a8c383eaf259efb39a309c7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "VSA",
+  "question": "On $A=\\{0,1,2,\\ldots,11\\}$, a relation $R$ is defined by $aRb$ if $4\\mid(a-b)$. Find all elements of $A$ that are related to $3$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> An element $x\\in A$ is related to $3$ when $4\\mid(x-3)$.<br><b>Step 2:</b> Thus, $x-3$ must be an integral multiple of $4$, so $x=3+4k$ for some integer $k$.<br><b>Step 3:</b> Restricting the values to $A=\\{0,1,2,\\ldots,11\\}$ gives $x=3,7,11$.<br><b>Step 4:</b> Indeed, $3-3=0$, $7-3=4$ and $11-3=8$, each of which is divisible by $4$.<br><b>Step 5:</b> Hence, these elements belong to the equivalence class containing $3$.<br><b>Final Answer:</b> The required set is $\\boxed{\\{3,7,11\\}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\{1,5,9\\}$",
+    "B": "$\\{3,7,11\\}$",
+    "C": "$\\{0,4,8\\}$",
+    "D": "$\\{2,6,10\\}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a9a483d30adc5083911afa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "SA",
+  "question": "A coin is tossed 8 times. What is the probability that<br /><br /> (a) exactly 4 heads occur; <br /><br />(b) at least 6 heads occur;<br /><br /> (c) what are the mean and variance of the number of heads observed?",
+  "answeroption": "A",
+  "explanation": "Each toss: Bernoulli(p=1/2); n=8<br />(a) $P(X=4)=C(8,4)\\times(1/2)^4\\times(1/2)^4=70\\times1/256=35/128$<br />(b) $P(\\text{at least 6 heads})=P(6)+P(7)+P(8)$<br />$=C(8,6)/256 + C(8,7)/256 + 1/256$<br />$=28/256+8/256+1/256=37/256$<br />(c) For binomial distribution:<br />Mean=$np=8\\times1/2=4$<br />Variance=$npq=8\\times1/2\\times1/2=2$<br /><br />Final answers:<br />(a)$35/128$<br /><br />(b)$37/256$<br /><br />(c)Mean:4, Variance:2",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{35}{128}$<br />(b) $\\frac{37}{256}$<br />(c) Mean $=4$, Variance $=2$",
+    "B": "(a) $\\frac{70}{128}$<br />(b) $\\frac{37}{128}$<br />(c) Mean $=4$, Variance $=4$",
+    "C": "(a) $\\frac{35}{256}$<br />(b) $\\frac{37}{256}$<br />(c) Mean $=2$, Variance $=4$",
+    "D": "(a) $\\frac{35}{128}$<br />(b) $\\frac{28}{256}$<br />(c) Mean $=8$, Variance $=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:42:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

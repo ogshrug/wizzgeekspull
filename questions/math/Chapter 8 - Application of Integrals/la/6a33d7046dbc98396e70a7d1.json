@@ -1,0 +1,26 @@
+{
+  "id": "6a33d7046dbc98396e70a7d1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991"
+  ],
+  "question_type": "LA",
+  "question": "Use integration to find the area of the region enclosed by curve $y=-x^{2}$ and the straight lines $x=-3$, $x=2$ and $y=0$ Sketch a rough figure to illustrate the bounded region.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The equation $y = -x^2$ describes an inverted vertical parabola opening downwards with its vertex at the coordinate origin $(0,0)$. The bounding constraints are vertical lines at $x = -3$ and $x = 2$, along with the horizontal x-axis line $y = 0$. Since the parabola opens downwards, the entire enclosed region lies below the horizontal axis line.<br /><br />**Step 2:** Because the bounded region lies completely below the x-axis, we calculate its physical area using the absolute value of the function over the integration interval limits extending from $-3$ to $2$: $\\text{Area} = \\int_{-3}^{2} |y| \\, dx = \\int_{-3}^{2} x^2 \\, dx$.<br /><br />**Step 3:** Find the polynomial antiderivative expression and evaluate it across the boundary limits: $\\int x^2 \\, dx = \\left[ \\frac{x^3}{3} \\right]_{-3}^{2} = \\frac{(2)^3}{3} - \\frac{(-3)^3}{3} = \\frac{8}{3} - \\left(-\\frac{27}{3}\\right) = \\frac{8}{3} + 9 = \\frac{35}{3}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa63d6d30adc5083911b60",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "6a13e98f8c819562f933f97c"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ for $x \\in [-1,1]$.\n\n(a) Show that $f(x) = 2\\tan^{-1}(x)$ for $x \\in [-1,1]$.\n\n(b) Prove that $f$ is differentiable on $(-1,1)$.\n\n(c) Compute $\\frac{df}{dx}$.\n\n(d) Find the equation of the tangent to $y=f(x)$ at $x=\\frac{1}{2}$.\n\n(e) Let $g(x) = \\det\\begin{bmatrix} f(x) & 1 \\\\ 1 & f(-x) \\end{bmatrix}$, compute $g(\\frac{1}{2})$.",
+  "answeroption": "C",
+  "explanation": "**Concepts Tested:** Inverse Trigonometric Functions, Differentiability, Determinants, Application of Derivatives.<br /><br />(a) Use $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right) = 2\\tan^{-1}(x)$ (PDF identity for inverse trig).<br /><br />(b) Both sides are continuous and differentiable on $(-1,1)$.<br /><br />(c) $\\frac{df}{dx} = 2 \\frac{d}{dx} \\tan^{-1} x = 2\\cdot \\frac{1}{1+x^2}$<br /><br />(d) At $x=\\frac{1}{2}$, $f(\\frac{1}{2})=2\\tan^{-1}(\\frac{1}{2})$<br /><br />$\\frac{df}{dx}|_{x=1/2}=2\\cdot\\frac{1}{1+(1/2)^2}=2\\cdot\\frac{1}{1+1/4}=2\\cdot\\frac{4}{5}=\\frac{8}{5}$<br /><br />Tangent: $y-y_0=m(x-x_0)$<br /><br />$y=2\\tan^{-1}(\\frac{1}{2})+\\frac{8}{5}\\left(x-\\frac{1}{2}\\right)$<br /><br />(e) $g(\\frac{1}{2})=\\det\\begin{bmatrix} 2\\tan^{-1}(1/2) & 1 \\\\ 1 & 2\\tan^{-1}(-1/2) \\end{bmatrix}$<br /><br />Since $\\tan^{-1}(-a) = -\\tan^{-1}(a)$,<br /><br />$g(\\frac{1}{2}) = 2\\tan^{-1}(\\frac{1}{2})\\cdot2(-\\tan^{-1}(\\frac{1}{2})) - 1\\cdot1 = -4(\\tan^{-1}(\\frac{1}{2}))^2 - 1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=\\tan^{-1}x$<br />(b) $f$ is not differentiable on $(-1,1)$<br />(c) $\\frac{df}{dx}=\\frac{1}{1+x^2}$<br />(d) Tangent is $y=\\tan^{-1}(\\frac12)+\\frac45(x-\\frac12)$<br />(e) $g(\\frac12)=0$",
+    "B": "(a) $f(x)=2\\sin^{-1}x$<br />(b) $f$ is differentiable only at $x=0$<br />(c) $\\frac{df}{dx}=\\frac{2}{\\sqrt{1-x^2}}$<br />(d) Tangent is $y=\\frac{\\pi}{3}+2(x-\\frac12)$<br />(e) $g(\\frac12)=1$",
+    "C": "(a) $f(x)=2\\tan^{-1}x$<br />(b) $f$ is differentiable on $(-1,1)$<br />(c) $\\frac{df}{dx}=\\frac{2}{1+x^2}$<br />(d) At $x=\\frac12$, the tangent is $y=2\\tan^{-1}\\left(\\frac12\\right)+\\frac85\\left(x-\\frac12\\right)$<br />(e) $g\\left(\\frac12\\right)=-4\\left(\\tan^{-1}\\frac12\\right)^2-1$",
+    "D": "(a) $f(x)=-2\\tan^{-1}x$<br />(b) $f$ is discontinuous at $x=0$<br />(c) $\\frac{df}{dx}=-\\frac{2}{1+x^2}$<br />(d) Tangent is $y=-2\\tan^{-1}(\\frac12)-\\frac85(x-\\frac12)$<br />(e) $g(\\frac12)=4(\\tan^{-1}\\frac12)^2-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:19:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

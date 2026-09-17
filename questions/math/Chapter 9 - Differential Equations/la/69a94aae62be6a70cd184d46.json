@@ -1,0 +1,29 @@
+{
+  "id": "69a94aae62be6a70cd184d46",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "LA",
+  "question": "Find the general solution of the equation: $\\frac{dy}{dx} + y \\frac{1}{x} = x^3$",
+  "answeroption": "B",
+  "explanation": "Linear differential equation:<br />$\\frac{dy}{dx} + \\frac{1}{x} y = x^3$<br />Integrating factor: $I.F. = e^{\\int \\frac{1}{x} dx} = |x|$<br />Multiply both sides:<br />$|x| \\frac{dy}{dx} + y = x^4$<br />$\\frac{d}{dx}(y x) = x^4$<br />Integrate:<br />$y x = \\frac{x^5}{5} + C$<br />$y = \\frac{x^4}{5} + \\frac{C}{x}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\frac{x^5}{5}+\\frac{C}{x}$",
+    "B": "$y=\\frac{x^4}{5}+\\frac{C}{x}$",
+    "C": "$y=\\frac{x^4}{4}+Cx$",
+    "D": "$y=x^4+\\frac{C}{x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:19:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

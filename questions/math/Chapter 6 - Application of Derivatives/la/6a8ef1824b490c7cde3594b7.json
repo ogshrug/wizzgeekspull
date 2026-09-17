@@ -1,0 +1,31 @@
+{
+  "id": "6a8ef1824b490c7cde3594b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "A wire of length $40\\ \\text{cm}$ is cut into two parts. One part is bent to form a square and the other part is bent to form a circle.<br><br>(a) If $x\\ \\text{cm}$ is used to form the square, express the sum of the enclosed areas as a function of $x$.<br><br>(b) Determine how the wire should be divided so that the sum of the areas is minimum.<br><br>(c) Verify the minimum using the second derivative test and calculate the minimum total area.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The side of the square is $\\frac{x}{4}\\ \\text{cm}$, so its area is<br>$$A_1=\\left(\\frac{x}{4}\\right)^2=\\frac{x^2}{16}$$<br>The length used for the circle is $(40-x)\\ \\text{cm}$. If its radius is $r$, then<br>$$2\\pi r=40-x$$<br>$$r=\\frac{40-x}{2\\pi}$$<br>Therefore, the area of the circle is<br>$$A_2=\\pi r^2=\\frac{(40-x)^2}{4\\pi}$$<br>Thus, the total area is<br>$$A(x)=\\frac{x^2}{16}+\\frac{(40-x)^2}{4\\pi}$$<br><br><b>(b)</b><br>Differentiating,<br>$$A'(x)=\\frac{x}{8}-\\frac{40-x}{2\\pi}$$<br>For a stationary value,<br>$$\\frac{x}{8}=\\frac{40-x}{2\\pi}$$<br>$$2\\pi x=8(40-x)$$<br>$$\\pi x=4(40-x)$$<br>$$x(\\pi+4)=160$$<br>Therefore,<br>$$x=\\frac{160}{\\pi+4}\\ \\text{cm}$$<br>The length used for the circle is<br>$$40-x=40-\\frac{160}{\\pi+4}=\\frac{40\\pi}{\\pi+4}\\ \\text{cm}$$<br><br><b>(c)</b><br>The second derivative is<br>$$A''(x)=\\frac{1}{8}+\\frac{1}{2\\pi}>0$$<br>Hence, the stationary value gives the minimum total area.<br>Substituting $x=\\frac{160}{\\pi+4}$,<br>$$A_{\\min}=\\frac{1}{16}\\left(\\frac{160}{\\pi+4}\\right)^2+\\frac{1}{4\\pi}\\left(\\frac{40\\pi}{\\pi+4}\\right)^2$$<br>$$A_{\\min}=\\frac{1600}{(\\pi+4)^2}+\\frac{400\\pi}{(\\pi+4)^2}$$<br>$$A_{\\min}=\\frac{400(4+\\pi)}{(\\pi+4)^2}$$<br>Therefore,<br>$$A_{\\min}=\\frac{400}{\\pi+4}\\ \\text{cm}^2$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A(x)=\\frac{x^2}{16}+\\frac{(40-x)^2}{4\\pi}$<br>(b) Square length $\\frac{160}{\\pi+4}$ cm and circle length $\\frac{40\\pi}{\\pi+4}$ cm<br>(c) Minimum total area $\\frac{400}{\\pi+4}$ cm$^2$",
+    "B": "(a) $A(x)=\\frac{x^2}{4}+\\frac{(40-x)^2}{\\pi}$<br>(b) Equal wire lengths $20$ cm each<br>(c) Minimum area $\\frac{800}{\\pi+4}$ cm$^2$",
+    "C": "(a) $A(x)=\\frac{x^2}{16}+\\frac{(40-x)^2}{2\\pi}$<br>(b) Square length $\\frac{80}{\\pi+2}$ cm<br>(c) Minimum area $\\frac{200}{\\pi+2}$ cm$^2$",
+    "D": "(a) $A(x)=\\frac{x^2}{16}+\\frac{(40-x)^2}{4\\pi}$<br>(b) Square length $\\frac{40\\pi}{\\pi+4}$ cm and circle length $\\frac{160}{\\pi+4}$ cm<br>(c) Minimum total area $\\frac{400\\pi}{\\pi+4}$ cm$^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

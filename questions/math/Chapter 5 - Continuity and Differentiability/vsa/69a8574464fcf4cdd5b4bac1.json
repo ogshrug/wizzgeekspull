@@ -1,0 +1,30 @@
+{
+  "id": "69a8574464fcf4cdd5b4bac1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78",
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f(x) = \\left\\{ \\begin{array}{ll} ax + b, & x < 1 \\\\ 2x, & x \\geq 1 \\end{array} \\right.$. For what values of $a$ and $b$ is $f(x)$ differentiable at $x=1$?",
+  "answeroption": "C",
+  "explanation": "Continuity at $x=1$:<br /><br />$a(1) + b = 2(1) \\Rightarrow a + b = 2$.<br /><br />Left derivative at $1$ is $a$. Right derivative is $2$.<br /><br />Set equal for differentiability: $a = 2$.<br /><br />Substitute in $a + b = 2$:<br /><br />$2 + b = 2 \\Rightarrow b = 0$.<br /><br />Therefore, $a = 2$ and $b = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=0,\\ b=2$",
+    "B": "$a=1,\\ b=1$",
+    "C": "$a=2,\\ b=0$",
+    "D": "$a=2,\\ b=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:01:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

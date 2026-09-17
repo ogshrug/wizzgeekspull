@@ -1,0 +1,30 @@
+{
+  "id": "69a8542e96358125c95a0d52",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "SA",
+  "question": "If $f(x) = x^5 - 5x^3 + 10x + 7$, find all points of local maxima and minima.",
+  "answeroption": "B",
+  "explanation": "First derivative:<br /><br />f'(x) = 5x⁴ − 15x² + 10.<br /><br />Set equal to zero:<br /><br />5x⁴ − 15x² + 10 = 0<br /><br />Divide by 5:<br /><br />x⁴ − 3x² + 2 = 0.<br /><br />Factor:<br /><br />(x² − 1)(x² − 2) = 0.<br /><br />So x = ±1, ±√2.<br /><br />Second derivative:<br /><br />f''(x) = 20x³ − 30x.<br /><br />At x = 1:<br /><br />f''(1) = −10 < 0, local maximum.<br /><br />At x = −1:<br /><br />f''(−1) = 10 > 0, local minimum.<br /><br />At x = √2:<br /><br />f''(√2) > 0, local minimum.<br /><br />At x = −√2:<br /><br />f''(−√2) < 0, local maximum.<br /><br />Thus maxima at x = 1 and x = −√2.<br /><br />Minima at x = −1 and x = √2.",
+  "explanation_image": [],
+  "options": {
+    "A": "Local maxima at $x=-1$ and $x=\\sqrt{2}$; local minima at $x=1$ and $x=-\\sqrt{2}$.",
+    "B": "Local maxima at $x=1$ and $x=-\\sqrt{2}$; local minima at $x=-1$ and $x=\\sqrt{2}$.",
+    "C": "Local maximum at $x=1$ only; local minimum at $x=-1$ only.",
+    "D": "No local maxima or minima exist."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:47:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

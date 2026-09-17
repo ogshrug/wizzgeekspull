@@ -1,0 +1,32 @@
+{
+  "id": "6a8d7412883bbce68009f8e1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4c",
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "SA",
+  "question": "The function $f(x)=\\operatorname{cosec}^{-1}(x-2)$ is obtained from $y=\\operatorname{cosec}^{-1}x$.<br><br>(i) State the translation involved.<br><br>(ii) Determine the domain and range of $f$.<br><br>(iii) Find the values of $x$ corresponding to the extreme principal values $-\\frac{\\pi}{2}$ and $\\frac{\\pi}{2}$. Do not draw the graph.",
+  "answeroption": "D",
+  "explanation": "<b>Horizontal translation</b><br>Replacing $x$ by $x-2$ translates the graph of $y=\\operatorname{cosec}^{-1}x$ two units to the right.<br><br><b>Domain condition</b><br>The inverse cosecant function is defined when the magnitude of its argument is at least $1$. Thus, $$|x-2|\\geq1.$$ This gives $x-2\\leq-1$ or $x-2\\geq1$, and hence $$x\\leq1\\quad\\text{or}\\quad x\\geq3.$$ Therefore, the domain is $$(-\\infty,1]\\cup[3,\\infty).$$<br><br><b>Principal range</b><br>A horizontal translation does not change the range. Hence, the range is $$\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right].$$<br><br><b>Inputs for the extreme principal values</b><br>For $f(x)=-\\frac{\\pi}{2}$, we require $x-2=-1$, giving $x=1$. For $f(x)=\\frac{\\pi}{2}$, we require $x-2=1$, giving $x=3$.<br><br><b>Final values</b><br>The corresponding inputs are $x=1$ and $x=3$, respectively.",
+  "explanation_image": [],
+  "options": {
+    "A": "Shift left by $2$; Domain: $(-\\infty,-3]\\cup[-1,\\infty)$; Range: $\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$; the inputs are $x=-3$ and $x=-1$",
+    "B": "Shift right by $2$; Domain: $[1,3]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; the inputs are $x=1$ and $x=3$",
+    "C": "Shift right by $2$; Domain: $(-\\infty,1]\\cup[3,\\infty)$; Range: $\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$; the inputs are $x=3$ and $x=1$, respectively",
+    "D": "Shift right by $2$; Domain: $(-\\infty,1]\\cup[3,\\infty)$; Range: $\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$; the inputs are $x=1$ and $x=3$, respectively"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

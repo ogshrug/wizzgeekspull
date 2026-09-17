@@ -1,0 +1,32 @@
+{
+  "id": "69aa7399aff2be72fd28eb82",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study:**<br /><br />A tech company assigns projects to teams. Let $A$ be the set of all teams and define a relation $R$ on $A$ where $(a, b) \\in R$ if and only if teams $a$ and $b$ are working on the same project.<br /><br />**Questions:**<br /><br />1. Explain which properties (reflexivity, symmetry, transitivity) the relation $R$ must satisfy to be considered an equivalence relation.<br /><br />2. If there are $4$ projects and $12$ teams, with each project having an equal number of teams, how many equivalence classes exist under $R$?<br /><br />3. Describe the significance of an equivalence class in this context.",
+  "answeroption": "C",
+  "explanation": "1. For $R$ to be an equivalence relation:<br /><br />- Reflexivity: Every team is working on the same project as itself.<br /><br />- Symmetry: If $a$ is working on the same project as $b$, then $b$ is working on the same project as $a$.<br /><br />- Transitivity: If $a$ and $b$ are working on the same project, and $b$ and $c$ are too, then $a$ and $c$ are working on the same project.<br /><br />So $R$ is an equivalence relation.<br /><br />2. The number of equivalence classes equals the number of distinct projects, so there are $4$ equivalence classes.<br /><br />3. An equivalence class under this relation consists of all teams working on the same project—a project group.",
+  "explanation_image": [],
+  "options": {
+    "A": "1. $R$ must be symmetric only.<br />2. There are $12$ equivalence classes.<br />3. An equivalence class represents one individual team.",
+    "B": "1. $R$ must be reflexive and symmetric but not transitive.<br />2. There are $3$ equivalence classes.<br />3. An equivalence class represents all teams in the company.",
+    "C": "1. $R$ satisfies reflexivity, symmetry and transitivity because “working on the same project” has all three properties.<br />2. There are $4$ equivalence classes, one for each project.<br />3. Each equivalence class is the set of all teams working on the same project.",
+    "D": "1. $R$ is not an equivalence relation because no team can be related to itself.<br />2. There are no equivalence classes.<br />3. Equivalence classes cannot be interpreted in this context."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:26:33 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a902e7d2e54880055a0a746",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "LA",
+  "question": "Two fair dice are thrown simultaneously and the random variable $X$ denotes the absolute difference between the numbers appearing on the two dice. Determine all possible values of $X$ and construct its probability distribution.",
+  "answeroption": "D",
+  "explanation": "<b>Possible Values of the Random Variable</b><br>When two dice are thrown, there are $36$ equally likely ordered outcomes. Since $X$ denotes the absolute difference between the two numbers, $X$ can take the values<br>$$0,1,2,3,4,5.$$<br><br><b>Formation of the Probability Distribution</b><br>For $X=0$, both dice show the same number. There are $6$ such outcomes. Therefore,<br>$$P(X=0)=\\frac{6}{36}=\\frac{1}{6}.$$<br>For $X=1$, there are $10$ outcomes, giving<br>$$P(X=1)=\\frac{10}{36}=\\frac{5}{18}.$$<br>For $X=2$, there are $8$ outcomes, so<br>$$P(X=2)=\\frac{8}{36}=\\frac{2}{9}.$$<br>For $X=3$, there are $6$ outcomes, hence<br>$$P(X=3)=\\frac{6}{36}=\\frac{1}{6}.$$<br>For $X=4$, there are $4$ outcomes, giving<br>$$P(X=4)=\\frac{4}{36}=\\frac{1}{9}.$$<br>For $X=5$, the favourable outcomes are $(1,6)$ and $(6,1)$, so<br>$$P(X=5)=\\frac{2}{36}=\\frac{1}{18}.$$<br><br>Thus the probability distribution is<br>$$X:0,1,2,3,4,5$$<br>$$P(X):\\frac{1}{6},\\frac{5}{18},\\frac{2}{9},\\frac{1}{6},\\frac{1}{9},\\frac{1}{18}.$$<br><br><b>Verification</b><br>The sum of the probabilities is<br>$$\\frac{1}{6}+\\frac{5}{18}+\\frac{2}{9}+\\frac{1}{6}+\\frac{1}{9}+\\frac{1}{18}=1.$$<br><br><b>Final Result</b><br>Hence, the possible values of $X$ are $0,1,2,3,4,5$ with the probability distribution obtained above.",
+  "explanation_image": [],
+  "options": {
+    "A": "$X=0,1,2,3,4,5$ with $P(X)=\\frac{1}{6},\\frac{2}{9},\\frac{5}{18},\\frac{1}{6},\\frac{1}{9},\\frac{1}{18}$ respectively",
+    "B": "$X=0,1,2,3,4,5$ with $P(X)=\\frac{1}{6},\\frac{5}{18},\\frac{1}{6},\\frac{2}{9},\\frac{1}{9},\\frac{1}{18}$ respectively",
+    "C": "$X=1,2,3,4,5$ with $P(X)=\\frac{5}{18},\\frac{2}{9},\\frac{1}{6},\\frac{1}{9},\\frac{1}{18}$ respectively",
+    "D": "$X=0,1,2,3,4,5$ with $P(X)=\\frac{1}{6},\\frac{5}{18},\\frac{2}{9},\\frac{1}{6},\\frac{1}{9},\\frac{1}{18}$ respectively"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

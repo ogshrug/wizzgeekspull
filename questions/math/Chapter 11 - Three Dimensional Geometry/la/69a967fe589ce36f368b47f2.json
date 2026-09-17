@@ -1,0 +1,29 @@
+{
+  "id": "69a967fe589ce36f368b47f2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "Let $L_1: \\frac{x-1}{3} = \\frac{y+2}{-4} = \\frac{z}{1}$ and $L_2: \\frac{x}{2} = \\frac{y}{-3} = \\frac{z+4}{2}$ be two lines in space. Prove that they are skew and find the length and equation of their common perpendicular.",
+  "answeroption": "C",
+  "explanation": "Direction ratios of $L_1$ are $(3,-4,1)$ and of $L_2$ are $(2,-3,2)$.<br /><br />Solving parametric equations shows they do not intersect and are not parallel, hence they are skew.<br /><br />Common perpendicular direction is $\\vec d_1 \\times \\vec d_2=(-5,-4,-1)$.<br /><br />$\\vec a_2-\\vec a_1=(-1,2,-4)$.<br /><br />Distance between skew lines $=\\frac{|(\\vec a_2-\\vec a_1)\\cdot(\\vec d_1 \\times \\vec d_2)|}{|\\vec d_1 \\times \\vec d_2|}$.<br /><br />Thus shortest distance $=\\frac{1}{\\sqrt{42}}$.<br /><br />Equation of common perpendicular: $\\frac{x-1}{-5}=\\frac{y+2}{-4}=\\frac{z}{-1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The lines are parallel.<br />Length of common perpendicular $=0$.<br />Equation: $\\frac{x-1}{3}=\\frac{y+2}{-4}=\\frac{z}{1}$.",
+    "B": "The lines are skew.<br />Length of common perpendicular $=\\sqrt{42}$.<br />Equation: $\\frac{x-1}{-5}=\\frac{y+2}{-4}=\\frac{z}{-1}$.",
+    "C": "The lines are skew since they are neither parallel nor intersecting.<br />Length of common perpendicular $=\\frac{1}{\\sqrt{42}}$.<br />Equation: $\\frac{x-\\frac{79}{14}}{-5}=\\frac{y+\\frac{172}{21}}{-4}=\\frac{z-\\frac{65}{42}}{-1}$.",
+    "D": "The lines intersect.<br />Length of common perpendicular $=0$.<br />Equation: $\\frac{x}{2}=\\frac{y}{-3}=\\frac{z+4}{2}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:24:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a98789d8e9ca3b293457ae",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "VSA",
+  "question": "Define a relation $R$ on $\\mathbb{Z}$ by $aRb$ if $|a-b|\\le 2$. Is $R$ transitive?",
+  "answeroption": "D",
+  "explanation": "Suppose $aRb$ and $bRc\\implies |a-b|\\leq2$ and $|b-c|\\le2$<br /><br />But $|a-c| \\le |a-b|+|b-c| \\le 4$ (Triangle inequality), but not necessarily $\\leq 2$; Counter-example: $a=0, b=2, c=4$<br /><br />$|0-2|=2, |2-4|=2$, $|0-4|=4>2$.<br /><br />Hence, $R$ is not transitive.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes, $R$ is transitive because $|a-b|\\le 2$ and $|b-c|\\le 2$ always imply $|a-c|\\le 2$",
+    "B": "Yes, $R$ is transitive because it is defined on $\\mathbb{Z}$",
+    "C": "No, $R$ is not transitive because $|a-c|$ is always greater than $2$",
+    "D": "No, $R$ is not transitive; for example, $0R2$ and $2R4$, but $0R4$ is false"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:39:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

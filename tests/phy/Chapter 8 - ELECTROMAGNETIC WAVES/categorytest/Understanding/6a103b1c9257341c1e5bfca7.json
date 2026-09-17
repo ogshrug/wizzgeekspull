@@ -1,0 +1,16 @@
+{
+  "id": "6a103b1c9257341c1e5bfca7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "696a6354a9a40524b47ef8e3",
+  "question": "Using the example of a charging capacitor, justify that the displacement current is essential for the generalization of Ampere’s circuital law. Hence write the complete expression for the generalized law.",
+  "options": {
+    "A": "For a charging capacitor, no current exists between the plates, so the original law remains $\\oint\\vec{B}\\cdot d\\vec{l}=\\mu_0I_C$ for every surface.<br />A changing electric flux has no magnetic effect.",
+    "B": "Displacement current is $I_D=\\mu_0\\dfrac{d\\Phi_E}{dt}$.<br />The generalized law is $\\oint\\vec{B}\\cdot d\\vec{l}=I_C+I_D$.",
+    "C": "The original Ampere law fails because conduction current is different through different surfaces; this is resolved by setting $I_C=0$ everywhere.<br />The generalized law is $\\oint\\vec{B}\\cdot d\\vec{l}=\\mu_0\\varepsilon_0\\Phi_E$.",
+    "D": "In a charging capacitor, the wire carries conduction current whereas no charge crosses the gap. The changing electric flux in the gap supplies displacement current $I_D=\\varepsilon_0\\dfrac{d\\Phi_E}{dt}$, preventing different results for the same loop.<br />Thus $\\oint\\vec{B}\\cdot d\\vec{l}=\\mu_0(I_C+I_D)=\\mu_0I_C+\\mu_0\\varepsilon_0\\dfrac{d\\Phi_E}{dt}$."
+  },
+  "question_type": "LA",
+  "category": "Understanding",
+  "imageurl": null
+}

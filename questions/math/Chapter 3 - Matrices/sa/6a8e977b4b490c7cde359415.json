@@ -1,0 +1,29 @@
+{
+  "id": "6a8e977b4b490c7cde359415",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d64"
+  ],
+  "question_type": "SA",
+  "question": "A matrix $A$ has order $2\\times3$. Examine whether an inverse of $A$ can exist under matrix multiplication. Justify your answer using the orders of the required products.",
+  "answeroption": "C",
+  "explanation": "<b>Possible order of a multiplying matrix</b><br>For $AB$ to be defined as a square matrix, $B$ would have to be of order $3\\times2$, giving $AB$ of order $2\\times2$.<br><b>Reverse product</b><br>With the same $B$, the product $BA$ would have order $3\\times3$. Thus, $AB$ and $BA$ cannot both be the same identity matrix.<br><b>Existence of inverse</b><br>An inverse under matrix multiplication requires $AB=BA=I$ for square matrices of the same order. Therefore, the rectangular matrix $A$ does not possess an inverse.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes. A $2\\times3$ matrix can have an inverse of order $3\\times2$ because both products have order $2\\times2$.",
+    "B": "Yes. Any rectangular matrix has an inverse if all its entries are non-zero.",
+    "C": "No. With $B$ of order $3\\times2$, $AB$ is $2\\times2$ while $BA$ is $3\\times3$, so a two-sided inverse of $A$ cannot exist.",
+    "D": "No. The product of a $2\\times3$ matrix with any matrix is never defined."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

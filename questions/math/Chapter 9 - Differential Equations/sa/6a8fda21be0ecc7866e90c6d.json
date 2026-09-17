@@ -1,0 +1,29 @@
+{
+  "id": "6a8fda21be0ecc7866e90c6d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "SA",
+  "question": "Using an integrating factor, solve $$\\frac{dy}{dx}+y\\tan x=\\sin x$$ on an interval where $\\cos x\\neq0$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Identify $P$ and $Q$</b><br>The given equation is in the linear form $$\\frac{dy}{dx}+P(x)y=Q(x),$$ with $P(x)=\\tan x$ and $Q(x)=\\sin x$.<br><b>Step 2: Calculate the integrating factor</b><br>$$\\text{I.F.}=e^{\\int\\tan x\\,dx}=e^{\\log|\\sec x|}.$$ On the chosen interval, an integrating factor may be taken as $\\sec x$.<br><b>Step 3: Multiply the equation by the integrating factor</b><br>$$\\sec x\\frac{dy}{dx}+y\\sec x\\tan x=\\tan x.$$ Hence, $$\\frac{d}{dx}(y\\sec x)=\\tan x.$$<br><b>Step 4: Integrate</b><br>Integrating both sides gives $$y\\sec x=\\int\\tan x\\,dx+C=\\log|\\sec x|+C.$$<br><b>Step 5: Express $y$ explicitly</b><br>Therefore, the general solution is $$\\boxed{y=\\cos x\\left[\\log|\\sec x|+C\\right]}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\cos x\\left[\\log|\\sec x|+C\\right]$",
+    "B": "$y=\\sec x\\left[\\log|\\sec x|+C\\right]$",
+    "C": "$y=\\cos x\\left[\\log|\\cos x|+C\\right]$",
+    "D": "$y=\\sin x\\left[\\log|\\sec x|+C\\right]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

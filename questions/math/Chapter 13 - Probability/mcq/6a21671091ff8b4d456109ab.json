@@ -1,0 +1,31 @@
+{
+  "id": "6a21671091ff8b4d456109ab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "MCQ",
+  "question": "A box contains 4 red, 5 blue and 1 green marble. A child randomly takes out a marble from the box, notes down the colour and puts it back in the box. If the activity is repeated 3 times, what is the probability that at least one marble is red?",
+  "answeroption": "D",
+  "explanation": "<b>Step 1</b> Calculate the total number of marbles in the box and find the single-trial probabilities: $\\text{Total} = 4 + 5 + 1 = 10$. The probability of drawing a red marble in a single pick is $P(R) = \\frac{4}{10} = \\frac{2}{5}$. The probability of picking a non-red marble (either blue or green) is $P(R') = 1 - \\frac{2}{5} = \\frac{3}{5}$.<br /><br /><b>Step 2</b> Since the child replaces the marble after each turn, the individual draws are independent trials, meaning we can use a Binomial Distribution layout. The probability of getting 'at least one red marble' can be found more easily by subtracting the probability of getting no red marbles at all from 1: $P(\\text{at least one red}) = 1 - P(\\text{no red in 3 draws})$.<br /><br /><b>Step 3</b> Compute the probability of drawing zero red marbles across all three independent attempts: $P(\\text{no red in 3 draws}) = \\left(\\frac{3}{5}\\right)^3 = \\frac{27}{125}$. Subtracting this from 1 gives: $1 - \\frac{27}{125} = \\frac{125 - 27}{125} = \\frac{98}{125}$. This matches option (D).",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{27}{125}$",
+    "B": "$\\frac{8}{125}$",
+    "C": "$\\frac{2}{125}$",
+    "D": "$\\frac{98}{125}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

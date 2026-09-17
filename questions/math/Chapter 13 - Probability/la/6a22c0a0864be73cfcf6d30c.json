@@ -1,0 +1,29 @@
+{
+  "id": "6a22c0a0864be73cfcf6d30c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "LA",
+  "question": "A box contains 10 tickets, 2 of which carry a prize of 8 each, 5 of which carry a prize of 4 each, and remaining 3 carry a prize of 2 each. If one ticket is drawn at random, find the mean value of the prize.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Define the random variable. Let $X$ represent the prize value obtained when a single ticket is drawn randomly from the box. The possible values that $X$ can take are determined by the prize amounts printed on the tickets, namely ₹8, ₹4, and ₹2.<br /><br />**Step 2:** Construct the probability distribution. The total number of tickets in the box is 10. Since the ticket is drawn at random, each ticket has an equal chance of being selected. The probability of drawing a ticket with a prize of ₹8 is equal to the number of ₹8 tickets divided by the total number of tickets, which is $\\frac{2}{10}$. Similarly, the probability of drawing a ₹4 ticket is $\\frac{5}{10}$, and the probability of drawing a ₹2 ticket is $\\frac{3}{10}$. These probabilities sum to 1, confirming a valid distribution.<br /><br />**Step 3:** Apply the formula for the mean. The mean, or expected value, of a discrete random variable is calculated as $E(X) = \\sum [x \\cdot P(X=x)]$. Substituting the values, we get $E(X) = 8 \\times \\frac{2}{10} + 4 \\times \\frac{5}{10} + 2 \\times \\frac{3}{10}$.<br /><br />**Step 4:** Perform the arithmetic. Calculating each term: $8 \\times \\frac{2}{10} = \\frac{16}{10}$, $4 \\times \\frac{5}{10} = \\frac{20}{10}$, and $2 \\times \\frac{3}{10} = \\frac{6}{10}$. Summing these gives $\\frac{16 + 20 + 6}{10} = \\frac{42}{10} = 4.2$.<br /><br />**Conclusion:** The mean value of the prize obtained from a single random draw is ₹4.2. This represents the long-run average prize amount if the experiment of drawing a ticket is repeated many times.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-2",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

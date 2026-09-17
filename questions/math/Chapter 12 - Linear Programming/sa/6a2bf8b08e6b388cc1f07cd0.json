@@ -1,0 +1,26 @@
+{
+  "id": "6a2bf8b08e6b388cc1f07cd0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following Linear Programming Problem graphically: Maximize $Z=20x+10y$ subject to constraints $x+2y\\le28$, $3x+y\\le24$, $x\\ge2$, $x,y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Plot the boundary lines corresponding to the given inequalities: $x+2y=28$, $3x+y=24$, and $x=2$. Solving $x+2y=28$ and $3x+y=24$ simultaneously yields the key intersection point $(4,12)$.<br />**Step 2:** Identify the feasible region enclosed by all the given linear constraints. The corner vertices defining this bounded polygonal region are determined to be $(2,0)$, $(8,0)$, $(4,12)$, and $(2,13)$.<br />**Step 3:** Evaluate the objective function $Z = 20x + 10y$ at each vertex: $Z(2,0)=40$, $Z(8,0)=160$, $Z(2,13)=170$, and $Z(4,12)=200$. The maximum value of $Z$ is $200$ at $(4,12)$..",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

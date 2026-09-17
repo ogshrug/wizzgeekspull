@@ -1,0 +1,31 @@
+{
+  "id": "69a85b0a64fcf4cdd5b4bae7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "SA",
+  "question": "Let $C(x) = ax^2 + bx + c$ be the cost function for producing $x$ units. Find the point where the average cost is minimum and verify using derivative test.",
+  "answeroption": "B",
+  "explanation": "Average cost A(x) = C(x)/x = ax + b + c/x.<br /><br />Derivative: A'(x) = a - c/x^2.<br /><br />Set A'(x)=0 gives x^2 = c/a.<br /><br />Thus x = sqrt(c/a).<br /><br />Second derivative: A''(x) = 2c/x^3.<br /><br />Since a > 0 and c > 0, A''(x) > 0, so point gives local minimum.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=\\sqrt{\\frac{a}{c}}$",
+    "B": "$x=\\sqrt{\\frac{c}{a}}$",
+    "C": "$x=\\frac{c}{a}$",
+    "D": "$x=\\frac{a}{c}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:17:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

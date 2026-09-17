@@ -1,0 +1,31 @@
+{
+  "id": "6a33b81d6dbc98396e70a7c2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{cos~2x-cos~2\\theta}{cos~x-cos\\theta}dx$ is equal to:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Expand the double-angle cosine terms in the numerator using the identity $\\cos 2A = 2\\cos^2 A - 1$: $\\int \\frac{(2\\cos^2 x - 1) - (2\\cos^2\\theta - 1)}{\\cos x - \\cos\\theta} dx = \\int \\frac{2(\\cos^2 x - \\cos^2\\theta)}{\\cos x - \\cos\\theta} dx$.<br />**Step 2:** Factor the numerator using the difference of squares identity $a^2 - b^2 = (a-b)(a+b)$ and cancel out the matching denominator factor: $\\int \\frac{2(\\cos x - \\cos\\theta)(\\cos x + \\cos\\theta)}{\\cos x - \\cos\\theta} dx = 2\\int (\\cos x + \\cos\\theta) dx$.<br />**Step 3:** Integrate each component term individually with respect to $x$, keeping in mind that $\\cos\\theta$ is treated as a constant parameter: $2(\\sin x + x\\cos\\theta) + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "2(sin x+x cos θ)+C",
+    "B": "2(sin x-x cos θ)+C",
+    "C": "2(sin x+sin θ)+C",
+    "D": "2(sin x-x sin θ)+C"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

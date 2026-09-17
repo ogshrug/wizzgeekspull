@@ -1,0 +1,29 @@
+{
+  "id": "69a91fbe64fcf4cdd5b4bb21",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "SA",
+  "question": "Maximize $Z = 5x + 3y$ subject to $x + 2y \\leq 12$, $2x + y \\leq 12$, $x,y \\geq 0$. Find all corners, evaluate $Z$, and determine the optimal solution.",
+  "answeroption": "B",
+  "explanation": "Step 1: Constraints:<br /><br />$x + 2y \\leq 12$<br /><br />$2x + y \\leq 12$<br /><br />$x, y \\geq 0$<br /><br />Step 2: Intersection of the lines:<br /><br />$x + 2y = 12$<br /><br />$2x + y = 12$<br /><br />Multiply the first by 2:<br /><br />$2x + 4y = 24$<br /><br />Subtract the second:<br /><br />$3y = 12 \\Rightarrow y = 4$<br /><br />$x = 12 - 2y = 4$<br /><br />Thus intersection point $(4,4)$.<br /><br />Other intercepts:<br /><br />$(6,0)$ from $2x + y = 12$ with $y=0$<br /><br />$(0,6)$ from $x + 2y = 12$ with $x=0$<br /><br />Corner points: $(0,0)$, $(6,0)$, $(0,6)$, $(4,4)$.<br /><br />Step 3: Evaluate $Z = 5x + 3y$.<br /><br />$(0,0): 0$<br /><br />$(6,0): 30$<br /><br />$(0,6): 18$<br /><br />$(4,4): 20 + 12 = 32$<br /><br />Maximum value $Z = 32$ at $(4,4)$.<br /><br />Optimal solution is $x=4$, $y=4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximum value $Z=30$ at $(6,0)$",
+    "B": "Maximum value $Z=32$ at $(4,4)$",
+    "C": "Maximum value $Z=18$ at $(0,6)$",
+    "D": "Maximum value $Z=0$ at $(0,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:16:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

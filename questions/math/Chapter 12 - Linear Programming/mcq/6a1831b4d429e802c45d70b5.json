@@ -1,0 +1,30 @@
+{
+  "id": "6a1831b4d429e802c45d70b5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "MCQ",
+  "question": "In an LPP, corner points of the feasible region determined by the system of linear constraints are (1, 1), (3, 0) and (0, 3). If $Z=ax+by$, where $a, b>0$ is to be minimized, the condition on a and b, so that the minimum of Z occurs at (3, 0) and (1, 1), will be:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Evaluate objective function $Z$ at corner point $(3, 0)$: $Z_1 = a(3) + b(0) = 3a$.<br /><br />**Step 2:** Evaluate objective function $Z$ at corner point $(1, 1)$: $Z_2 = a(1) + b(1) = a + b$.<br /><br />**Step 3:** Since the minimum value occurs at both points, their objective values must be identical: $3a = a + b \\implies 2a = b \\implies a = \\frac{b}{2}$. This corresponds to Option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=2b$",
+    "B": "$a=\\frac{b}{2}$",
+    "C": "$a=3b$",
+    "D": "$a=b$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa79722a66c0f894c1aa0b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65c9340512f018fa94d43",
+    "69c6610140512f018fa94d82"
+  ],
+  "question_type": "LA",
+  "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a function defined by $f(x) = e^{x^2}$. Define a relation $R$ on $\\mathbb{R}$ by $aRb \\iff f(a) = f(b)$. <br /><br />(a) Show that $R$ is an equivalence relation on $\\mathbb{R}$.<br /><br />(b) Find the equivalence classes of $R$.<br /><br />(c) If $g(x) = e^x + e^{-x}$, find all $x$ such that $f(x) = g(x)$.<br /><br />(d) Considering your answers in (b) and (c), discuss whether there exists a one-to-one correspondence between the set of equivalence classes of $R$ and the set of real solutions to $f(x) = g(x)$.",
+  "answeroption": "B",
+  "explanation": "(a) $R$ is an equivalence relation if it is reflexive, symmetric, and transitive.<br />Reflexive: For any $a \\in \\mathbb{R}$, $f(a) = f(a)$, so $aRa$.<br />Symmetric: If $aRb$, then $f(a) = f(b)$, so $f(b) = f(a)$, hence $bRa$.<br />Transitive: If $aRb$ and $bRc$, then $f(a) = f(b)$ and $f(b) = f(c)$. Thus, $f(a) = f(c)$, so $aRc$.<br />$R$ is an equivalence relation.<br /><br />(b) The equivalence class of $a$ is $[a] = \\{ x \\in \\mathbb{R}: f(x) = f(a) \\}$.<br />But $f(x) = e^{x^2}$, so $f(x) = f(a)$ means $e^{x^2} = e^{a^2} \\implies x^2 = a^2 \\implies x = a$ or $x = -a$.<br />Therefore, $[a] = \\{a, -a\\}$ if $a \\neq 0$; $[0] = \\{0\\}$.<br /><br />(c) $f(x) = g(x) \\implies e^{x^2} = e^x + e^{-x}$<br />$e^{x^2} - e^x - e^{-x} = 0$<br />Let $x = 0:\\ e^{0} - e^0 - e^0 = 1-1-1 = -1 \\neq 0$<br />Let $x=1: e^{1} - e^1 - e^{-1} = -e^{-1} \\neq 0$<br />Let $x=-1: e^{1} - e^{-1} - e^{1} = -e^{-1} \\neq 0$<br />Thus $f(x) = g(x)$ has no real solutions by above tests.<br />Numerical or graphical methods show that for large $|x|$, $e^{x^2} >> e^x + e^{-x}$, so no solution.<br /><br />(d) There are infinitely many equivalence classes (namely, $\\{0\\}$ and each pair $\\{a, -a\\}$ for $a \\neq 0$), and zero real solutions for $f(x) = g(x)$, so there can be no one-to-one correspondence.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R$ is not an equivalence relation because it is not symmetric<br />(b) $[a]=\\{a\\}$ for every $a$<br />(c) $f(x)=g(x)$ has infinitely many real solutions<br />(d) A one-to-one correspondence always exists",
+    "B": "(a) $R$ is an equivalence relation on $\\mathbb R$<br />(b) $[a]=\\{a,-a\\}$ for $a\\ne0$ and $[0]=\\{0\\}$<br />(c) According to the given solution, $f(x)=g(x)$ has no real solution<br />(d) Hence there is no one-to-one correspondence between the equivalence classes and the set of real solutions",
+    "C": "(a) $R$ is reflexive but not transitive<br />(b) $[a]=\\mathbb R$ for all $a$<br />(c) $f(x)=g(x)$ has solution $x=0$ only<br />(d) There is exactly one equivalence class",
+    "D": "(a) $R$ is symmetric but not reflexive<br />(b) $[a]=\\{a+1,a-1\\}$<br />(c) $f(x)=g(x)$ has solutions $x=1,-1$<br />(d) There is a one-to-one correspondence with two classes"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:51:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

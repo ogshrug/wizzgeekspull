@@ -1,0 +1,30 @@
+{
+  "id": "69aa6379d30adc5083911b5c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\begin{cases}x^2 & x \\leq 1 \\\\ 2x + a & x > 1 \\end{cases}$, $a \\in \\mathbb{R}$.\n\n(a) For which $a$ is $f(x)$ continuous at $x=1$? Is it differentiable there for that $a$?\n\n(b) Let $g(x) = \\sin^{-1}(f(x)-1)$ for those $x$ for which it is defined. For the value $a$ found above, determine intervals where $g(x)$ is continuous and differentiable.\n\n(c) Evaluate $\\left. \\frac{d}{dx} g(x) \\right|_{x = 0}$ and $\\left. \\frac{d}{dx} g(x) \\right|_{x = 2}$ (where it exists).",
+  "answeroption": "D",
+  "explanation": "**Concepts tested:**<br />- Piecewise functions (continuity and differentiability)<br />- Inverse trigonometric function (domain analysis)<br />- Chain rule and endpoint evaluation<br /><br />**Solution:**<br /><br />(a) At $x=1$: $f(1^-) = 1$, $f(1^+) = 2 + a$.<br /><br />For continuity, $1 = 2 + a \\implies a = -1$.<br /><br />Now, $f(x) = x^2$ for $x \\le 1$, $f(x) = 2x -1$ for $x > 1$.<br /><br />Differentiability at $x=1$:<br /><br />Left derivative: $\\frac{d}{dx}x^2|_{x=1}=2$<br /><br />Right derivative: $\\frac{d}{dx}2x-1|_{x=1}=2$<br /><br />So, $f$ is differentiable at $x=1$ for $a=-1$.<br /><br />(b) For $g(x) = \\sin^{-1}(f(x)-1)$ to be defined, $|f(x)-1| \\le 1\\implies -1 \\le f(x) - 1 \\le 1\\implies 0 \\le f(x) \\le 2$<br /><br />For $x \\leq 1$, $f(x) = x^2 \\in [0,1]$ as $x \\in [-1,1]$.<br /><br />For $x > 1$, $f(x) = 2x-1$.<br /><br />$0 \\leq 2x-1 \\leq 2 \\implies 1 \\leq x \\leq 1.5$<br /><br />So $g(x)$ is defined for $x \\in [-1,1.5]$.<br /><br />Within this domain, $f$ is continuous and differentiable, so $g(x)$ is too except possibly at $x=1$.<br /><br />At $x=1$, $f$ is continuous and differentiable (from before), so $g(x)$ is as well.<br /><br />Thus, $g(x)$ is continuous and differentiable for $x \\in (-1,1.5)$.<br /><br />(c) For $x=0$, $f(0) = 0$, $g(0) = \\sin^{-1}(-1) = -\\pi/2$.<br /><br />$\\frac{d}{dx}g(x) = \\frac{f'(x)}{\\sqrt{1-(f(x)-1)^2}}$<br /><br />For $x=0$, $x \\leq 1$, $f'(0)=0$<br /><br />So, $g'(0) = 0$<br /><br />For $x=2$, $f(2) = 2*2-1 = 3$; $g(2) = \\sin^{-1}(3-1)=\\sin^{-1}2$ is undefined, as $|2| > 1$. So $g'(2)$ does not exist.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $a=1$ and $f$ is not differentiable at $x=1$<br />(b) $g$ is defined for all real $x$<br />(c) $g'(0)=1$ and $g'(2)=1$",
+    "B": "(a) $a=-1$ and $f$ is continuous but not differentiable at $x=1$<br />(b) $g$ is continuous only on $[-1,1]$<br />(c) $g'(0)$ does not exist and $g'(2)=0$",
+    "C": "(a) $a=0$ and $f$ is differentiable at $x=1$<br />(b) $g$ is defined on $[0,2]$<br />(c) $g'(0)=0$ and $g'(2)=2$",
+    "D": "(a) $a=-1$ makes $f$ continuous at $x=1$, and for this value $f$ is also differentiable there<br />(b) $g(x)=\\sin^{-1}(f(x)-1)$ is defined for $x\\in[-1,1.5]$ and is continuous and differentiable on $(-1,1.5)$ according to the explanation<br />(c) $g'(0)=0$; at $x=2$, $g$ is undefined, so $g'(2)$ does not exist"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:17:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

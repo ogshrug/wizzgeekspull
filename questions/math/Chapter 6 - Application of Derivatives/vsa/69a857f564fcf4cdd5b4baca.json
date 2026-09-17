@@ -1,0 +1,30 @@
+{
+  "id": "69a857f564fcf4cdd5b4baca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975",
+    "6a13e98e8c819562f933f973"
+  ],
+  "question_type": "VSA",
+  "question": "Find the rate of change of the surface area of a cube whose edge $x$ is increasing at the rate of $2$ cm/s at the instant when $x = 4$ cm.",
+  "answeroption": "C",
+  "explanation": "Surface area of a cube, $S = 6x^2$.<br /><br />Differentiate with respect to time:<br />$\\frac{dS}{dt} = 12x \\frac{dx}{dt}$.<br /><br />Given $x = 4$ and $\\frac{dx}{dt} = 2$.<br /><br />$\\frac{dS}{dt} = 12 \\times 4 \\times 2 = 96$ cm$^2$/s.<br /><br />Thus, the required rate of change is $96$ cm$^2$/s.",
+  "explanation_image": [],
+  "options": {
+    "A": "$48\\text{ cm}^2/\\text{s}$",
+    "B": "$64\\text{ cm}^2/\\text{s}$",
+    "C": "$96\\text{ cm}^2/\\text{s}$",
+    "D": "$192\\text{ cm}^2/\\text{s}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:04:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

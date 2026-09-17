@@ -1,0 +1,29 @@
+{
+  "id": "6a8e95974b490c7cde3593f8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "SA",
+  "question": "Using determinants, obtain the equation of the line joining $(a,0)$ and $(0,b)$, where $a\\ne0$ and $b\\ne0$. Hence, express it in intercept form.",
+  "answeroption": "B",
+  "explanation": "<b>Collinearity determinant</b><br>Let $(x,y)$ be any point on the line joining $(a,0)$ and $(0,b)$. The three points satisfy $$\\begin{vmatrix}x&y&1\\\\a&0&1\\\\0&b&1\\end{vmatrix}=0$$<br><b>Expansion of the determinant</b><br>Expanding along the first row, $$x(0-b)-y(a-0)+ab=0$$<br><b>Equation in standard form</b><br>This simplifies to $$bx+ay=ab$$<br><b>Conversion to intercept form</b><br>Since $a\\ne0$ and $b\\ne0$, divide throughout by $ab$: $$\\frac{x}{a}+\\frac{y}{b}=1$$<br>Hence, the intercepts of the line on the coordinate axes are $a$ and $b$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$ax+by=ab$, hence $\\frac{x}{b}+\\frac{y}{a}=1$",
+    "B": "$bx+ay=ab$, hence $\\frac{x}{a}+\\frac{y}{b}=1$",
+    "C": "$bx-ay=ab$, hence $\\frac{x}{a}-\\frac{y}{b}=1$",
+    "D": "$ax-by=ab$, hence $\\frac{x}{b}-\\frac{y}{a}=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

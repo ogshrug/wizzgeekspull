@@ -1,0 +1,26 @@
+{
+  "id": "6a33862bd5dca7dcb0bf0f08",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "Find $\\frac{dy}{dx}$ if $5^x + 5^y = 5^{x+y}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate the whole equation $5^x + 5^y = 5^{x+y}$ implicitly with respect to $x$: $5^x \\log 5 + 5^y \\log 5 \\cdot \\frac{dy}{dx} = 5^{x+y} \\log 5 \\cdot (1 + \\frac{dy}{dx})$.\n\n**Step 2:** Remove the common factor $\\log 5$ globally: $5^x + 5^y \\frac{dy}{dx} = 5^{x+y} + 5^{x+y} \\frac{dy}{dx}$.\n\n**Step 3:** Assemble derivative variables to one side of the algebraic relation: $(5^y - 5^{x+y}) \\frac{dy}{dx} = 5^{x+y} - 5^x$.\n\n**Step 4:** Re-apply the substitution constraint $5^{x+y} = 5^x + 5^y$ into the newly modified equation to collapse terms: $(5^y - (5^x + 5^y)) \\frac{dy}{dx} = (5^x + 5^y) - 5^x$.\n\n**Step 5:** This reduces simply to $-5^x \\frac{dy}{dx} = 5^y$, giving the explicit derivative result $\\frac{dy}{dx} = -5^{y-x}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

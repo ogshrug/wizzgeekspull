@@ -1,0 +1,29 @@
+{
+  "id": "69a984cd62be6a70cd184dc2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Define a relation $R$ on $A = \\mathbb{Z}$ (set of integers) by $aRb$ if and only if $a + b$ is divisible by 4. Is $R$ an equivalence relation? Justify your answer in one sentence.",
+  "answeroption": "D",
+  "explanation": "$R$ is NOT an equivalence relation because while it is symmetric (if $a + b$ is divisible by 4, then $b + a$ is also divisible by 4), it fails reflexivity (for $a = 1$, $a + a = 2$ is not divisible by 4) and transitivity (counterexample: $1R3$ since $1+3=4$ divisible by 4, and $3R1$ since $3+1=4$ divisible by 4, but $1R1$ is false since $1+1=2$ not divisible by 4).",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is an equivalence relation because it is reflexive, symmetric and transitive",
+    "B": "$R$ is an equivalence relation because it is symmetric and transitive",
+    "C": "$R$ is not an equivalence relation because it is reflexive but not symmetric",
+    "D": "$R$ is not an equivalence relation because it fails reflexivity and transitivity"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:27:41 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

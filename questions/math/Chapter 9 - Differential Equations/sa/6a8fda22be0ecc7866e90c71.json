@@ -1,0 +1,29 @@
+{
+  "id": "6a8fda22be0ecc7866e90c71",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af"
+  ],
+  "question_type": "SA",
+  "question": "At each point $(x,y)$ of a family of curves, the slope of the tangent satisfies $$\\frac{dy}{dx}=\\frac{y}{x}+x^2,\\quad x\\neq0.$$ Obtain the equation of the family using the linear differential equation method.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Rearrange into linear form</b><br>The given slope condition is $$\\frac{dy}{dx}=\\frac{y}{x}+x^2.$$ Hence, $$\\frac{dy}{dx}-\\frac{1}{x}y=x^2.$$ This is linear in $y$.<br><b>Step 2: Determine the integrating factor</b><br>Here $P(x)=-\\frac{1}{x}$. Therefore, $$\\text{I.F.}=e^{\\int-\\frac{1}{x}\\,dx}=e^{-\\log|x|}.$$ On an interval not containing $0$, an integrating factor may be taken as $\\frac{1}{x}$.<br><b>Step 3: Multiply the equation</b><br>Multiplying by $\\frac{1}{x}$ gives $$\\frac{1}{x}\\frac{dy}{dx}-\\frac{y}{x^2}=x.$$ Thus, $$\\frac{d}{dx}\\left(\\frac{y}{x}\\right)=x.$$<br><b>Step 4: Integrate</b><br>$$\\frac{y}{x}=\\frac{x^2}{2}+C.$$<br><b>Step 5: Obtain the required family</b><br>Therefore, $$\\boxed{y=\\frac{x^3}{2}+Cx}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\frac{x^3}{3}+Cx$",
+    "B": "$y=\\frac{x^3}{2}+Cx$",
+    "C": "$y=\\frac{x^2}{2}+C$",
+    "D": "$y=\\frac{x^3}{2}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

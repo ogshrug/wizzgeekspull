@@ -1,0 +1,28 @@
+{
+  "id": "6a22c094864be73cfcf6d307",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following Linear Programming Problem graphically: Maximize: $P=70x+40y$ subject to: $3x+2y\\le9$, $3x+y\\le9$, $x\\ge0$, $y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Convert inequalities to equations to find boundary lines. Line L1: $3x+2y=9$ gives intercepts $(0, 4.5)$ and $(3,0)$. Line L2: $3x+y=9$ gives intercepts $(0,9)$ and $(3,0)$.<br />**Step 2:** Find the intersection of L1 and L2. Subtract L2 from L1: $(3x+2y)-(3x+y)=9-9 \\implies y=0$. Substituting $y=0$ in L2 gives $3x=9 \\implies x=3$. Intersection point is $(3,0)$.<br />**Step 3:** Determine the feasible region. Testing $(0,0)$ satisfies both inequalities, so the region is below both lines in the first quadrant. The corner points are $(0,0)$, $(3,0)$, and $(0,4.5)$.<br />**Step 4:** Evaluate $P=70x+40y$ at each corner:<br />- $(0,0)$: $P=0$<br />- $(3,0)$: $P=70(3)+40(0)=210$<br />- $(0,4.5)$: $P=70(0)+40(4.5)=180$<br />**Step 5:** The maximum value is $210$ at $(3,0)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

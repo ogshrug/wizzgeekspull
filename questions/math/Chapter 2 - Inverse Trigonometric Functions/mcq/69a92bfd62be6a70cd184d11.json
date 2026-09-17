@@ -1,0 +1,29 @@
+{
+  "id": "69a92bfd62be6a70cd184d11",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\sin^{-1} x + \\sin^{-1} y = \\frac{\\pi}{2}$, then $x^2 + y^2$ equals:",
+  "answeroption": "A",
+  "explanation": "Given $\\sin^{-1}x + \\sin^{-1}y = \\frac{\\pi}{2}$.<br /><br />Then $\\sin^{-1}y = \\frac{\\pi}{2} - \\sin^{-1}x$.<br /><br />Thus $y = \\sin\\left(\\frac{\\pi}{2} - \\sin^{-1}x\\right)$.<br /><br />Using the identity $\\sin(\\frac{\\pi}{2}-\\theta)=\\cos\\theta$, we get $y = \\cos(\\sin^{-1}x)$.<br /><br />Hence $y = \\sqrt{1-x^2}$.<br /><br />Therefore $x^2 + y^2 = x^2 + (1-x^2) = 1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$2$",
+    "C": "$x^2 + (1-x^2)$",
+    "D": "$0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:08:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

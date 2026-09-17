@@ -1,0 +1,26 @@
+{
+  "id": "6a33862ad5dca7dcb0bf0f06",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "VSA",
+  "question": "If $y = A \\sin 2x + B \\cos 2x$ and $\\frac{d^2y}{dx^2} - ky = 0$, find the value of k.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Compute the first derivative with respect to $x$ of the initial equation $y = A \\sin 2x + B \\cos 2x$: $\\frac{dy}{dx} = 2A \\cos 2x - 2B \\sin 2x$.\n\n**Step 2:** Compute the second derivative by differentiating again: $\\frac{d^2y}{dx^2} = -4A \\sin 2x - 4B \\cos 2x$.\n\n**Step 3:** Factor the constant coefficient $-4$ from the resulting expression: $\\frac{d^2y}{dx^2} = -4(A \\sin 2x + B \\cos 2x)$.\n\n**Step 4:** Substitute the original function defining $y$ back into this equation to get $\\frac{d^2y}{dx^2} = -4y$.\n\n**Step 5:** Formulate the final structure $\\frac{d^2y}{dx^2} + 4y = 0$, which equates directly to the condition $\\frac{d^2y}{dx^2} - ky = 0$ thereby verifying $k = -4$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9a4bf589ce36f368b4842",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int x\\cos x dx$ using integration by parts.",
+  "answeroption": "B",
+  "explanation": "Use integration by parts.<br /><br />Let $u=x$ and $dv=\\cos x dx$.<br /><br />Then $du=dx$ and $v=\\sin x$.<br /><br />Using $\\int u dv = uv - \\int v du$.<br /><br />$= x\\sin x - \\int \\sin x dx$.<br /><br />$= x\\sin x + \\cos x + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x\\sin x - \\cos x + C$",
+    "B": "$x\\sin x + \\cos x + C$",
+    "C": "$x\\cos x + \\sin x + C$",
+    "D": "$x\\cos x - \\sin x + C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:43:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

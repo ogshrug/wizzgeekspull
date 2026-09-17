@@ -1,0 +1,34 @@
+{
+  "id": "6a229761864be73cfcf6d246",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e766d837c8c7efa6b8c0"
+  ],
+  "question_type": "MCQ",
+  "question": "The unit vector perpendicular to both vectors $\\hat{i}+\\hat{k}$ and $\\hat{i}-\\hat{k}$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** To find a vector perpendicular to two given vectors, we use the cross product. Let $\\vec{a} = \\hat{i} + \\hat{k}$ and $\\vec{b} = \\hat{i} - \\hat{k}$.<br />**Step 2:** Calculate the cross product $\\vec{v} = \\vec{a} \\times \\vec{b}$. Using the determinant method: $\\vec{v} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\ 1&0&1\\\\ 1&0&-1\\end{vmatrix}$.<br />**Step 3:** Expanding the determinant: $\\hat{i}(0 - 0) - \\hat{j}(-1 - 1) + \\hat{k}(0 - 0) = 0\\hat{i} - \\hat{j}(-2) + 0\\hat{k} = 2\\hat{j}$.<br />**Step 4:** The vector $2\\hat{j}$ is perpendicular to both original vectors. The question asks for the unit vector, so we must normalize this vector.<br />**Step 5:** The magnitude of $2\\hat{j}$ is $\\sqrt{0^2 + 2^2 + 0^2} = 2$. The unit vector is $\\frac{\\vec{v}}{|\\vec{v}|} = \\frac{2\\hat{j}}{2} = \\hat{j}$. Note that both $\\hat{j}$ and $-\\hat{j}$ are unit vectors perpendicular to both, but only $\\hat{j}$ is in the options.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\hat{i}+\\hat{k}$",
+    "B": "$\\hat{j}$",
+    "C": "$\\frac{\\hat{i}-\\hat{k}}{\\sqrt{2}}$",
+    "D": "$\\frac{\\hat{i}+\\hat{k}}{\\sqrt{2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

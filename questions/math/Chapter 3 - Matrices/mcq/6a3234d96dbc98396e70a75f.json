@@ -1,0 +1,31 @@
+{
+  "id": "6a3234d96dbc98396e70a75f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d4e"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A=[a_{ij}]$ be a square matrix of order 3 such that $a_{ij}=j-2i$ Then which of the following is true?",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Evaluate individual matrix elements to check the validity of each choice. For option A, calculate element $a_{12} = 2 - 2(1) = 0$, which means $a_{12} > 0$ is false.<br />**Step 2:** For option B, evaluate $a_{13} = 3 - 2(1) = 1$, which is positive, showing that the statement 'all $a_{ij} < 0$' is false. For option C, compute $a_{31} = 1 - 2(3) = -5$, so $a_{13} + a_{31} = 1 + (-5) = -4$, making option C false.<br />**Step 3:** For option D, calculate the entries $a_{23} = 3 - 2(2) = -1$ and $a_{32} = 2 - 2(3) = -4$. Since $-1 > -4$, the inequality $a_{23} > a_{32}$ is true.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a_{12}>0$",
+    "B": "all $a_{ij}<0$",
+    "C": "$a_{13}+a_{31}=-6$",
+    "D": "$a_{23}>a_{32}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a902a1fbe0ecc7866e90cb6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "Two fair dice are thrown simultaneously. Find the conditional probability that at least one die shows $3$, given that the sum of the numbers obtained is $8$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Identification of events</b><br>Let $A$ be the event that at least one die shows $3$, and let $B$ be the event that the sum of the two numbers is $8$. We have to calculate $P(A|B)$.<br><b>Step 2: Outcomes satisfying the given condition</b><br>The outcomes for which the sum is $8$ are $$B=\\{(2,6),(3,5),(4,4),(5,3),(6,2)\\}.$$ Thus, $B$ contains $5$ equally likely outcomes.<br><b>Step 3: Common favourable outcomes</b><br>Among these outcomes, those having at least one $3$ are $$(3,5)\\text{ and }(5,3).$$ Hence, $A\\cap B$ contains $2$ outcomes.<br><b>Step 4: Application of conditional probability</b><br>Therefore, $$P(A|B)=\\frac{P(A\\cap B)}{P(B)}=\\frac{2/36}{5/36}=\\frac25.$$<br><b>Step 5: Conclusion</b><br>The required conditional probability is $$\\boxed{\\frac25}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{5}$",
+    "B": "$\\frac{1}{5}$",
+    "C": "$\\frac{3}{5}$",
+    "D": "$\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

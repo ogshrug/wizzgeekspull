@@ -1,0 +1,35 @@
+{
+  "id": "6a8ef359be0ecc7866e90c19",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978",
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a",
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "For $f(x)=2\\sin x+\\cos 2x$ on the closed interval $[0,\\pi]$, determine all critical points and intervals of increase and decrease, classify the critical points using both derivative tests, and hence find the absolute maximum and minimum values of the function.",
+  "answeroption": "C",
+  "explanation": "<b>Critical Points</b><br>$$f'(x)=2\\cos x-2\\sin 2x$$<br>Using $\\sin 2x=2\\sin x\\cos x$,<br>$$f'(x)=2\\cos x(1-2\\sin x)$$<br>Therefore, $f'(x)=0$ when<br>$$\\cos x=0\\quad\\text{or}\\quad \\sin x=\\frac{1}{2}$$<br>In $(0,\\pi)$, the critical points are<br>$$x=\\frac{\\pi}{6},\\quad\\frac{\\pi}{2},\\quad\\frac{5\\pi}{6}$$<br><br><b>Intervals and First Derivative Test</b><br>The derivative is positive on $\\left(0,\\frac{\\pi}{6}\\right)$, negative on $\\left(\\frac{\\pi}{6},\\frac{\\pi}{2}\\right)$, positive on $\\left(\\frac{\\pi}{2},\\frac{5\\pi}{6}\\right)$ and negative on $\\left(\\frac{5\\pi}{6},\\pi\\right)$. Hence, $f$ is increasing on<br>$$\\left(0,\\frac{\\pi}{6}\\right)\\cup\\left(\\frac{\\pi}{2},\\frac{5\\pi}{6}\\right)$$<br>and decreasing on<br>$$\\left(\\frac{\\pi}{6},\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{5\\pi}{6},\\pi\\right)$$<br>The first derivative test gives local maxima at $x=\\frac{\\pi}{6}$ and $x=\\frac{5\\pi}{6}$, and a local minimum at $x=\\frac{\\pi}{2}$.<br><br><b>Second Derivative Test</b><br>$$f''(x)=-2\\sin x-4\\cos 2x$$<br>$$f''\\left(\\frac{\\pi}{6}\\right)=-3<0,\\qquad f''\\left(\\frac{\\pi}{2}\\right)=2>0$$<br>$$f''\\left(\\frac{5\\pi}{6}\\right)=-3<0$$<br>This confirms the classification.<br><br><b>Absolute Values</b><br>Evaluating the function at the critical points and endpoints,<br>$$f(0)=1,\\quad f\\left(\\frac{\\pi}{6}\\right)=\\frac{3}{2},\\quad f\\left(\\frac{\\pi}{2}\\right)=1$$<br>$$f\\left(\\frac{5\\pi}{6}\\right)=\\frac{3}{2},\\quad f(\\pi)=1$$<br>Therefore, the absolute maximum value is $\\frac{3}{2}$, attained at $x=\\frac{\\pi}{6}$ and $x=\\frac{5\\pi}{6}$, while the absolute minimum value is $1$, attained at $x=0$, $x=\\frac{\\pi}{2}$ and $x=\\pi$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Critical point $\\frac{\\pi}{2}$ only; increasing on $\\left(0,\\frac{\\pi}{2}\\right)$ and decreasing on $\\left(\\frac{\\pi}{2},\\pi\\right)$; absolute maximum $1$ and minimum $-1$",
+    "B": "Critical points $\\frac{\\pi}{3},\\frac{\\pi}{2},\\frac{2\\pi}{3}$; decreasing first, increasing next; absolute maximum $2$ and minimum $0$",
+    "C": "Critical points $\\frac{\\pi}{6},\\frac{\\pi}{2},\\frac{5\\pi}{6}$; increasing on $\\left(0,\\frac{\\pi}{6}\\right)\\cup\\left(\\frac{\\pi}{2},\\frac{5\\pi}{6}\\right)$ and decreasing on the other two subintervals; local maxima at $\\frac{\\pi}{6},\\frac{5\\pi}{6}$ and local minimum at $\\frac{\\pi}{2}$; absolute maximum $\\frac{3}{2}$ and absolute minimum $1$",
+    "D": "Critical points $\\frac{\\pi}{6},\\frac{5\\pi}{6}$ only; both are local minima; absolute minimum $\\frac{3}{2}$ and maximum $1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

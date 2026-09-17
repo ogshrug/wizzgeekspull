@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed3f2751910886affb9cd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "SA",
+  "question": "Determine the intervals on which $f(x)=\\frac{x^2}{x^2+1}$ is increasing and decreasing.",
+  "answeroption": "B",
+  "explanation": "<b>First derivative using the quotient rule</b><br>$$f'(x)=\\frac{2x(x^2+1)-x^2(2x)}{(x^2+1)^2}$$<br>Therefore,<br>$$f'(x)=\\frac{2x}{(x^2+1)^2}$$<br><b>Sign of the denominator</b><br>The denominator $(x^2+1)^2$ is positive for every real $x$. Hence, the sign of $f'(x)$ is determined by $x$.<br><b>Negative interval</b><br>For $x<0$, $f'(x)<0$, so the function is decreasing.<br><b>Positive interval</b><br>For $x>0$, $f'(x)>0$, so the function is increasing.<br><b>Conclusion</b><br>The function is decreasing on $(-\\infty,0)$ and increasing on $(0,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Increasing on $(-\\infty,0)$ and decreasing on $(0,\\infty)$",
+    "B": "Decreasing on $(-\\infty,0)$ and increasing on $(0,\\infty)$",
+    "C": "Increasing on $(-\\infty,\\infty)$",
+    "D": "Decreasing on $(-\\infty,\\infty)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

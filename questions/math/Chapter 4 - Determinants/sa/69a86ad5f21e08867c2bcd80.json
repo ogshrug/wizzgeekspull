@@ -1,0 +1,29 @@
+{
+  "id": "69a86ad5f21e08867c2bcd80",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "SA",
+  "question": "If $\\begin{vmatrix} 2 & 3 & 4 \\\\ 5 & x & 2 \\\\ 1 & 2 & x \\end{vmatrix} = 0$, find all possible values of $x$.",
+  "answeroption": "C",
+  "explanation": "Determinant:<br /><br />$\\delta = 2\\begin{vmatrix}x & 2 \\\\ 2 & x\\end{vmatrix} - 3\\begin{vmatrix}5 & 2 \\\\ 1 & x\\end{vmatrix} + 4\\begin{vmatrix}5 & x \\\\ 1 & 2\\end{vmatrix}$<br /><br />Calculate minors:<br /><br />$=2(x^2-4) - 3(5x-2) +4(10-x)$<br /><br />$=2x^2-8-15x+6+40-4x$<br /><br />$=2x^2-15x-4x-8+6+40$<br /><br />$=2x^2-19x+38$<br /><br />Set to zero: $2x^2-19x+38=0$<br /><br />Use quadratic formula:<br /><br />$x=\\frac{19\\pm\\sqrt{361-4\\cdot2\\cdot38}}{4}$<br /><br />$=\\frac{19\\pm\\sqrt{361-304}}{4}=\\frac{19 \\pm \\sqrt{57}}{4}$<br /><br />So $x=\\dfrac{19\\pm\\sqrt{57}}{4}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=\\frac{19\\pm\\sqrt{47}}{4}$",
+    "B": "$x=\\frac{-19\\pm\\sqrt{57}}{4}$",
+    "C": "$x=\\frac{19\\pm\\sqrt{57}}{4}$",
+    "D": "$x=\\frac{19\\pm\\sqrt{57}}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:24:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

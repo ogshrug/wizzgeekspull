@@ -1,0 +1,27 @@
+{
+  "id": "6a212518864be73cfcf6d0a7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8bc",
+    "6a13e766d837c8c7efa6b8c0"
+  ],
+  "question_type": "VSA",
+  "question": "Find the vector of magnitude 14 in the direction of $\\vec{QP}$ where P and Q are the points (1, 3, 2) and (-1, 0, 8) respectively.",
+  "answeroption": "",
+  "explanation": "**Step 1: Find the Vector $\\vec{QP}$**  \n$\\vec{QP} = \\vec{P} - \\vec{Q} = (1-(-1))\\hat{i} + (3-0)\\hat{j} + (2-8)\\hat{k} = 2\\hat{i} + 3\\hat{j} - 6\\hat{k}$.\n\n**Step 2: Find the Unit Vector in the Direction of $\\vec{QP}$**  \nMagnitude of $\\vec{QP}$: $|\\vec{QP}| = \\sqrt{2^2 + 3^2 + (-6)^2} = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7$.  \nUnit vector in the direction of $\\vec{QP}$ is:  \n$$\\hat{u} = \\frac{\\vec{QP}}{|\\vec{QP}|} = \\frac{2\\hat{i} + 3\\hat{j} - 6\\hat{k}}{7}$$\n\n**Step 3: Find the Required Vector**  \nWe need a vector of magnitude 14 in the direction of $\\vec{QP}$:  \n$$\\vec{v} = 14 \\times \\hat{u} = 14 \\times \\frac{2\\hat{i} + 3\\hat{j} - 6\\hat{k}}{7} = 2(2\\hat{i} + 3\\hat{j} - 6\\hat{k})$$  \n$$\\vec{v} = 4\\hat{i} + 6\\hat{j} - 12\\hat{k}$$  \nThus, the required vector is $4\\hat{i} + 6\\hat{j} - 12\\hat{k}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

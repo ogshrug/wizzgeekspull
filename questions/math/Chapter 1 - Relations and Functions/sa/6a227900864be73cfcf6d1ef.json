@@ -1,0 +1,29 @@
+{
+  "id": "6a227900864be73cfcf6d1ef",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Show that the function $f:R\\rightarrow R$ defined by $f(x)=4x^{3}-5$, $\\forall x\\in R$ is one-one and onto.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To prove one-one (injectivity), assume $f(x_1) = f(x_2)$ for $x_1, x_2 \\in \\mathbb{R}$.<br />**Step 2:** Substitute the function definition: $4x_1^3 - 5 = 4x_2^3 - 5$.<br />**Step 3:** Cancel the constants and divide by 4: $4x_1^3 = 4x_2^3 \\implies x_1^3 = x_2^3$.<br />**Step 4:** Taking the cube root of both sides over the real numbers yields a unique solution: $x_1 = x_2$. Therefore, $f$ is one-one.<br />**Step 5:** To prove onto (surjectivity), let $y$ be any arbitrary element in the codomain $\\mathbb{R}$. We seek an $x$ in the domain $\\mathbb{R}$ such that $f(x) = y$.<br />**Step 6:** Set $y = 4x^3 - 5$ and solve for $x$: $4x^3 = y + 5 \\implies x^3 = \\frac{y+5}{4} \\implies x = \\sqrt[3]{\\frac{y+5}{4}}$.<br />**Step 7:** For every real number $y$, the expression $\\sqrt[3]{\\frac{y+5}{4}}$ invariably yields a valid, unique real number. Since $x \\in \\mathbb{R}$ exists for every $y$, the function is onto.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

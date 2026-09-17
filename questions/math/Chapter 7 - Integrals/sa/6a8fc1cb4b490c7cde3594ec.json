@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc1cb4b490c7cde3594ec",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int \\frac{dx}{x^2-25}$ using the appropriate standard integral.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Recognising the particular form</b><br>The denominator can be written as $x^2-5^2$. Thus, the integral is of the standard form $\\displaystyle \\int\\frac{dx}{x^2-a^2}$.<br><b>Step 2: Using the standard integral</b><br>The required standard result is<br>$$\\int\\frac{dx}{x^2-a^2}=\\frac{1}{2a}\\log\\left|\\frac{x-a}{x+a}\\right|+C$$<br><b>Step 3: Substituting the value of $a$</b><br>Here $a=5$. Therefore,<br>$$\\int\\frac{dx}{x^2-25}=\\frac{1}{2(5)}\\log\\left|\\frac{x-5}{x+5}\\right|+C$$<br><b>Step 4: Simplifying the coefficient</b><br>$$\\frac{1}{2(5)}=\\frac{1}{10}$$<br><b>Step 5: Writing the final result</b><br>Hence,<br>$$\\boxed{\\int\\frac{dx}{x^2-25}=\\frac{1}{10}\\log\\left|\\frac{x-5}{x+5}\\right|+C}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{5}\\log\\left|\\frac{x-5}{x+5}\\right|+C$",
+    "B": "$\\frac{1}{10}\\log\\left|\\frac{x+5}{x-5}\\right|+C$",
+    "C": "$\\frac{1}{25}\\log\\left|\\frac{x-5}{x+5}\\right|+C$",
+    "D": "$\\frac{1}{10}\\log\\left|\\frac{x-5}{x+5}\\right|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

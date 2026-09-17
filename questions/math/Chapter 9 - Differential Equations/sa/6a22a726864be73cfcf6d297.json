@@ -1,0 +1,27 @@
+{
+  "id": "6a22a726864be73cfcf6d297",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation given by $x \\cdot dy - y \\cdot dx - \\sqrt{x^2+y^2} dx = 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rearrange the equation to isolate $\\frac{dy}{dx}$. First, group the $dx$ terms: $x \\cdot dy = (y + \\sqrt{x^2+y^2}) dx$. Dividing gives $\\frac{dy}{dx} = \\frac{y + \\sqrt{x^2+y^2}}{x}$. We can divide the numerator by $x$ (assuming $x>0$) to see it's homogeneous: $\\frac{dy}{dx} = \\frac{y}{x} + \\sqrt{1 + (\\frac{y}{x})^2}$.<br />**Step 2:** Use the standard substitution $y = vx$. Then $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 3:** Substitute these into the differential equation: $v + x\\frac{dv}{dx} = v + \\sqrt{1+v^2}$. The $v$ terms wonderfully cancel out, leaving $x\\frac{dv}{dx} = \\sqrt{1+v^2}$.<br />**Step 4:** Separate the variables: $\\frac{dv}{\\sqrt{1+v^2}} = \\frac{dx}{x}$. Integrate both sides. The left side is a standard integral formula: $\\int \\frac{dv}{\\sqrt{1+v^2}} = \\log|v + \\sqrt{1+v^2}|$. The right side is $\\log|x| + \\log C$.<br />**Step 5:** Equating the integrals gives $\\log|v + \\sqrt{1+v^2}| = \\log|Cx|$, which implies $v + \\sqrt{1+v^2} = Cx$. Substitute back $v = \\frac{y}{x}$ to get $\\frac{y}{x} + \\sqrt{1 + \\frac{y^2}{x^2}} = Cx$. Multiply by $x$ to clear fractions: $y + \\sqrt{x^2+y^2} = Cx^2$. This is the final solution.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

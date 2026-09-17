@@ -1,0 +1,30 @@
+{
+  "id": "6a8d675824617f26890bdec4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the domain and range of $f(x)=\\tan^{-1}\\left(\\sqrt{\\frac{1-x}{1+x}}\\right)$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b><br>The expression inside the square root must be non-negative, and its denominator must be non-zero. Thus, $$\\frac{1-x}{1+x}\\geq0,\\qquad x\\neq-1.$$<br><br><b>Step 2:</b><br>The critical values are $x=-1$ and $x=1$. Sign analysis shows that the quotient is non-negative for $-1<x\\leq1$. Therefore, the domain is $(-1,1]$.<br><br><b>Step 3:</b><br>On this domain, the square-root expression equals $0$ at $x=1$ and increases without bound as $x$ approaches $-1$ from the right. Hence, its range is $[0,\\infty)$.<br><br><b>Step 4:</b><br>Applying the increasing function $\\tan^{-1}$ transforms $[0,\\infty)$ into $\\left[0,\\frac{\\pi}{2}\\right)$.<br><br><b>Final Answer:</b><br>The domain is $(-1,1]$ and the range is $$\\left[0,\\frac{\\pi}{2}\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $(-1,1]$; Range: $\\left[0,\\frac{\\pi}{2}\\right)$",
+    "B": "Domain: $[-1,1]$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$",
+    "C": "Domain: $[-1,1)$; Range: $\\left(0,\\frac{\\pi}{2}\\right]$",
+    "D": "Domain: $(-\\infty,-1)\\cup[1,\\infty)$; Range: $\\left[0,\\frac{\\pi}{2}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

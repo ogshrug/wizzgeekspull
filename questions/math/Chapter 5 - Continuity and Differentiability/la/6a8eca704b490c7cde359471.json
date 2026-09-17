@@ -1,0 +1,31 @@
+{
+  "id": "6a8eca704b490c7cde359471",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7d",
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "LA",
+  "question": "Starting with $y=\\cos^{-1}x$, use the equivalent relation $x=\\cos y$ and implicit differentiation to establish the derivative formula $$\\frac{dy}{dx}=-\\frac{1}{\\sqrt{1-x^2}},\\qquad -1<x<1,$$ giving proper justification for the sign of $\\sin y$.",
+  "answeroption": "C",
+  "explanation": "<b>Formation of the Relation</b><br>Let $$y=\\cos^{-1}x.$$ By the definition of the inverse cosine function, $$x=\\cos y,$$ where $$0\\leq y\\leq\\pi.$$<br><br><b>Implicit Differentiation</b><br>Differentiating $x=\\cos y$ with respect to $x$, and regarding $y$ as a function of $x$, we obtain $$1=-\\sin y\\frac{dy}{dx}.$$ Therefore, $$\\frac{dy}{dx}=-\\frac{1}{\\sin y}.$$<br><br><b>Simplification</b><br>Since $x=\\cos y$, $$\\sin^2y=1-\\cos^2y=1-x^2.$$ For $-1<x<1$, we have $0<y<\\pi$. In this interval, $\\sin y>0$. Hence, $$\\sin y=\\sqrt{1-x^2}.$$ Substituting this value, $$\\frac{dy}{dx}=-\\frac{1}{\\sqrt{1-x^2}}.$$<br><br><b>Final Result</b><br>Hence, for $-1<x<1$, $$\\frac{d}{dx}(\\cos^{-1}x)=-\\frac{1}{\\sqrt{1-x^2}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{1}{\\sqrt{1-x^2}}$",
+    "B": "$\\frac{dy}{dx}=-\\frac{1}{1-x^2}$",
+    "C": "$\\frac{dy}{dx}=-\\frac{1}{\\sqrt{1-x^2}}$",
+    "D": "$\\frac{dy}{dx}=\\frac{1}{1-x^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

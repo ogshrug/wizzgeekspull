@@ -1,0 +1,16 @@
+{
+  "id": "6992bd5d65eab9d13e9be0c0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "698eb6089d20b56bde515bb7",
+  "question": "A full-wave bridge rectifier is connected to a transformer secondary of $12\\,\\text{V}_{rms}$ at $50\\,\\text{Hz}$. The load draws approximately constant current $I_L=0.10\\,\\text{A}$. A capacitor filter is to be connected across the load to reduce ripple.\n\nAssume each conducting diode has a forward drop of $0.70\\,\\text{V}$; two diodes conduct in a bridge. Let the ripple frequency be $f_r=2f$.\n\nUse the approximation for a capacitor-input filter:</br>\n\n$\\Delta V_{pp}\\approx \\frac{I_L}{f_r C}.$\n\n(a) Compute the peak of secondary voltage $V_m$ and the peak available across the filter capacitor $V_p\\approx V_m-2(0.70)$.\n\n(b) Design the minimum capacitance $C$ such that $\\Delta V_{pp}\\le 0.50\\,\\text{V}$.\n\n(c) Estimate the average dc output using</br>\n\n$V_{dc}\\approx V_p-\\frac{\\Delta V_{pp}}{2}.$\n\n(d) Determine the minimum PIV rating required for each diode in a bridge rectifier in terms of $V_m$, and compute its value here.\n\n(e) Draw the bridge rectifier circuit with capacitor filter and sketch the output waveform showing ripple ($\\Delta V_{pp}$) clearly.\n\nPresent the final designed values and reasoning.",
+  "options": {
+    "A": "$V_m\\approx 16.97\\,\\text{V}$, $V_p\\approx 15.57\\,\\text{V}$; $C_{min}=2000\\,\\mu\\text{F}$ so a standard choice is $2200\\,\\mu\\text{F}$; $V_{dc}\\approx 15.32\\,\\text{V}$; for bridge $\\text{PIV}\\approx V_m\\approx 17\\,\\text{V}$ per diode.",
+    "B": "$V_m\\approx 12\\,\\text{V}$, $V_p\\approx 10.6\\,\\text{V}$; $C_{min}=200\\,\\mu\\text{F}$; $V_{dc}\\approx 10.35\\,\\text{V}$; $\\text{PIV}\\approx 2V_m\\approx 24\\,\\text{V}$ per diode.",
+    "C": "$V_m\\approx 16.97\\,\\text{V}$, $V_p\\approx 15.57\\,\\text{V}$; $C_{min}=2000\\,\\mu\\text{F}$; but $V_{dc}$ must equal $12\\,\\text{V}$ because transformer is $12\\,\\text{V}_{rms}$; $\\text{PIV}=0$ because the capacitor blocks reverse voltage.",
+    "D": "$V_m\\approx 16.97\\,\\text{V}$, $V_p\\approx 15.57\\,\\text{V}$; $C_{min}=20000\\,\\mu\\text{F}$; $V_{dc}\\approx 15.57\\,\\text{V}$ with zero ripple; $\\text{PIV}\\approx 2V_m\\approx 34\\,\\text{V}$ per diode."
+  },
+  "question_type": "LA",
+  "category": "Analysing, Evaluating, Creating",
+  "imageurl": null
+}

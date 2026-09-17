@@ -1,0 +1,29 @@
+{
+  "id": "6a22c03c864be73cfcf6d2fd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An equation involving derivatives of the dependent variable with respect to the independent variables is called a differential equation. A differential equation of the form $\\frac{dy}{dx}=F(x,y)$ is said to be homogeneous if $F(x,y)$ is a homogeneous function of degree zero, whereas a function $F(x,y)$ is a homogenous function of degree n if $F(\\lambda x,\\lambda y)=\\lambda^{n}F(x,y).$ To solve a homogeneous differential equation of the type $\\frac{dy}{dx}=F(x,y)=g(\\frac{y}{x})$ we make the substitution $y=vx$ and then separate the variables.<br /><br />**(I)** Show that $(x^2-y^2) dx + 2xy dy = 0$ is a differential equation of the type $\\frac{dy}{dx}=g(\\frac{y}{x})$.<br />**(II)** Solve the above equation to find its general solution.",
+  "answeroption": "",
+  "explanation": "**(I)** **Step 1:** Rewrite the given equation to express $\\frac{dy}{dx}$: $(x^2-y^2) dx + 2xy dy = 0 \\implies 2xy dy = -(x^2-y^2) dx \\implies \\frac{dy}{dx} = \\frac{y^2-x^2}{2xy}$.<br />**Step 2:** Divide the numerator and denominator by $x^2$: $\\frac{dy}{dx} = \\frac{(y/x)^2-1}{2(y/x)}$. This is of the form $g(\\frac{y}{x})$, hence it is homogeneous.<br /><br />**(II)** **Step 1:** Substitute $y = vx \\implies \\frac{dy}{dx} = v + x\\frac{dv}{dx}$. The equation becomes $v + x\\frac{dv}{dx} = \\frac{v^2-1}{2v}$. Rearranging gives $x\\frac{dv}{dx} = \\frac{v^2-1-2v^2}{2v} = \\frac{-(v^2+1)}{2v}$.<br />**Step 2:** Separate variables and integrate: $\\int \\frac{2v}{v^2+1} dv = -\\int \\frac{1}{x} dx \\implies \\log(v^2+1) = -\\log|x| + \\log C \\implies \\log(v^2+1)\\cdot|x| = \\log C \\implies (v^2+1)x = C$. Substituting $v = \\frac{y}{x}$ gives $(\\frac{y^2}{x^2}+1)x = C \\implies x^2 + y^2 = Cx$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-2",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

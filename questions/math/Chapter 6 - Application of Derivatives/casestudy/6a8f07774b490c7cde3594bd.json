@@ -1,0 +1,30 @@
+{
+  "id": "6a8f07774b490c7cde3594bd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f",
+    "6a13e9908c819562f933f980"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A computational model uses the function $f(x)=\\log x$ and values of $x$ close to $1$. Answer the following connected questions using linear approximation: (a) Obtain the linear approximation of $\\log x$ near $x=1$. (b) Use it to estimate $\\log(1.03)$. (c) Use the same approximation to estimate $\\log(0.98)$. (d) Hence estimate $\\log\\left(\\frac{1.03}{0.98}\\right)$.",
+  "answeroption": "B",
+  "explanation": "(a) Let $f(x)=\\log x$. The linear approximation of $f$ near $x=a$ is `f(a+h)\\approx f(a)+hf'(a)` Here, $a=1$, $f(1)=\\log1=0$, and `f'(x)=\\frac{1}{x},\\qquad f'(1)=1` Therefore, `\\log(1+h)\\approx h`(b) Since $1.03=1+0.03$, take $h=0.03$. Thus, `\\log(1.03)\\approx0.03`(c) Since $0.98=1-0.02$, take $h=-0.02$. Therefore, `\\log(0.98)\\approx-0.02`(d) Using $\\log\\left(\\frac{a}{b}\\right)=\\log a-\\log b$, `\\log\\left(\\frac{1.03}{0.98}\\right)=\\log(1.03)-\\log(0.98)` Hence, `\\log\\left(\\frac{1.03}{0.98}\\right)\\approx0.03-(-0.02)=0.05`Final ResultThe linear approximation near $x=1$ is $\\log(1+h)\\approx h$, giving $\\log(1.03)\\approx0.03$, $\\log(0.98)\\approx-0.02$, and $\\log\\left(\\frac{1.03}{0.98}\\right)\\approx0.05$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\log(1+h)\\approx1+h$<br>(b) $\\log(1.03)\\approx1.03$<br>(c) $\\log(0.98)\\approx0.98$<br>(d) $\\log\\left(\\frac{1.03}{0.98}\\right)\\approx0.05$",
+    "B": "(a) $\\log(1+h)\\approx h$<br>(b) $\\log(1.03)\\approx0.03$<br>(c) $\\log(0.98)\\approx-0.02$<br>(d) $\\log\\left(\\frac{1.03}{0.98}\\right)\\approx0.05$",
+    "C": "(a) $\\log(1+h)\\approx-h$<br>(b) $\\log(1.03)\\approx-0.03$<br>(c) $\\log(0.98)\\approx0.02$<br>(d) $\\log\\left(\\frac{1.03}{0.98}\\right)\\approx-0.05$",
+    "D": "(a) $\\log(1+h)\\approx\\frac{h}{2}$<br>(b) $\\log(1.03)\\approx0.015$<br>(c) $\\log(0.98)\\approx-0.01$<br>(d) $\\log\\left(\\frac{1.03}{0.98}\\right)\\approx0.025$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

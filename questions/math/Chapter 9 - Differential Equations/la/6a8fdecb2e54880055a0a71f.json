@@ -1,0 +1,33 @@
+{
+  "id": "6a8fdecb2e54880055a0a71f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a3",
+    "6a13ebc98c819562f933f9a4",
+    "6a13ebc98c819562f933f9a5"
+  ],
+  "question_type": "LA",
+  "question": "For $x\\neq 0$, consider the two-parameter family $$y=Ax+\\frac{B}{x},$$ where $A$ and $B$ are arbitrary constants. By eliminating the constants, form the differential equation for which this family is the general solution. Hence use the initial conditions $y(1)=5$ and $y'(1)=1$ to obtain the particular solution and verify that it satisfies the differential equation formed.",
+  "answeroption": "A",
+  "explanation": "<b>Formation of Equation</b><br>Given $$y=Ax+\\frac{B}{x}.$$ Differentiating with respect to $x$, $$\\frac{dy}{dx}=A-\\frac{B}{x^2}.$$ Differentiating again, $$\\frac{d^2y}{dx^2}=\\frac{2B}{x^3}.$$ Now consider $$x^2\\frac{d^2y}{dx^2}+x\\frac{dy}{dx}-y.$$ Substituting the expressions obtained, $$x^2\\left(\\frac{2B}{x^3}\\right)+x\\left(A-\\frac{B}{x^2}\\right)-\\left(Ax+\\frac{B}{x}\\right)=\\frac{2B}{x}+Ax-\\frac{B}{x}-Ax-\\frac{B}{x}=0.$$ Therefore, after eliminating $A$ and $B$, the required differential equation is $$x^2\\frac{d^2y}{dx^2}+x\\frac{dy}{dx}-y=0.$$<br><br><b>Applying the Initial Conditions</b><br>Using $y(1)=5$, $$A+B=5.$$ From $y'(1)=1$, $$A-B=1.$$ Solving these equations gives $A=3$ and $B=2$. Hence the particular solution is $$y=3x+\\frac{2}{x}.$$<br><br><b>Verification</b><br>For this solution, $$y'=3-\\frac{2}{x^2},\\qquad y''=\\frac{4}{x^3}.$$ Therefore, $$x^2y''+xy'-y=\\frac{4}{x}+3x-\\frac{2}{x}-3x-\\frac{2}{x}=0.$$<br><br><b>Final Result</b><br>The differential equation is $x^2\\frac{d^2y}{dx^2}+x\\frac{dy}{dx}-y=0$, and the required particular solution is $y=3x+\\frac{2}{x}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x^2\\frac{d^2y}{dx^2}+x\\frac{dy}{dx}-y=0$; $y=3x+\\frac{2}{x}$",
+    "B": "$x^2\\frac{d^2y}{dx^2}-x\\frac{dy}{dx}+y=0$; $y=3x+\\frac{2}{x}$",
+    "C": "$x^2\\frac{d^2y}{dx^2}+x\\frac{dy}{dx}-y=0$; $y=2x+\\frac{3}{x}$",
+    "D": "$x\\frac{d^2y}{dx^2}+\\frac{dy}{dx}-y=0$; $y=3x+\\frac{2}{x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

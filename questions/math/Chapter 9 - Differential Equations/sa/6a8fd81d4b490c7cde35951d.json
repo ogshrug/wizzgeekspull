@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd81d4b490c7cde35951d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "SA",
+  "question": "Solve $$(x^2-y^2)\\,dx+2xy\\,dy=0$$ by using the homogeneous substitution $y=vx$ and reducing the resulting equation to variable separable form.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Express the equation in derivative form</b><br>From $$(x^2-y^2)+2xy\\frac{dy}{dx}=0,$$ we obtain $$\\frac{dy}{dx}=\\frac{y^2-x^2}{2xy}.$$<br><b>Step 2: Use the substitution</b><br>Put $y=vx$, so $$\\frac{dy}{dx}=v+x\\frac{dv}{dx}.$$ Substitution gives $$v+x\\frac{dv}{dx}=\\frac{v^2-1}{2v}.$$<br><b>Step 3: Reduce to variable separable form</b><br>Therefore, $$x\\frac{dv}{dx}=-\\frac{v^2+1}{2v},$$ or $$\\frac{2v}{v^2+1}\\,dv=-\\frac{dx}{x}.$$<br><b>Step 4: Integrate</b><br>Integrating both sides, $$\\log(v^2+1)=-\\log|x|+C.$$ Hence, $$\\log\\left(|x|(v^2+1)\\right)=C.$$<br><b>Step 5: Restore the original variables</b><br>Using $v=\\frac{y}{x}$ and absorbing constants appropriately, $$x\\left(1+\\frac{y^2}{x^2}\\right)=C.$$ Therefore, the required general solution is $$x^2+y^2=Cx.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x^2-y^2=Cx$",
+    "B": "$x^2+y^2=Cx$",
+    "C": "$x^2+y^2=C$",
+    "D": "$x^2-y^2=C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

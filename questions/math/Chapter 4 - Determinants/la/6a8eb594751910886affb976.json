@@ -1,0 +1,30 @@
+{
+  "id": "6a8eb594751910886affb976",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "LA",
+  "question": "Using the inverse-matrix method, solve<br>$$x+y+z=6$$<br>$$y+2z=8$$<br>$$2x+z=5$$<br><br><b>(a)</b> Form the matrices $A$, $X$, and $B$, and establish that $A^{-1}$ exists.<br><br><b>(b)</b> Find $A^{-1}$ using the adjoint method and hence determine $x$, $y$, and $z$.<br><br><b>(c)</b> Verify the solution in the given equations.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The system can be written as $AX=B$, where<br>$$A=\\begin{bmatrix}1 & 1 & 1\\\\0 & 1 & 2\\\\2 & 0 & 1\\end{bmatrix},\\quad X=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix},\\quad B=\\begin{bmatrix}6\\\\8\\\\5\\end{bmatrix}$$<br>Expanding the determinant,<br>$$|A|=1\\begin{vmatrix}1 & 2\\\\0 & 1\\end{vmatrix}-1\\begin{vmatrix}0 & 2\\\\2 & 1\\end{vmatrix}+1\\begin{vmatrix}0 & 1\\\\2 & 0\\end{vmatrix}$$<br>$$|A|=1-(-4)-2=3\\neq0$$<br>Therefore, $A^{-1}$ exists.<br><br><b>(b)</b><br>The adjoint of $A$ is<br>$$\\operatorname{adj}A=\\begin{bmatrix}1 & -1 & 1\\\\4 & -1 & -2\\\\-2 & 2 & 1\\end{bmatrix}$$<br>Therefore,<br>$$A^{-1}=\\frac{1}{3}\\begin{bmatrix}1 & -1 & 1\\\\4 & -1 & -2\\\\-2 & 2 & 1\\end{bmatrix}$$<br>Now,<br>$$X=A^{-1}B$$<br>$$X=\\frac{1}{3}\\begin{bmatrix}1 & -1 & 1\\\\4 & -1 & -2\\\\-2 & 2 & 1\\end{bmatrix}\\begin{bmatrix}6\\\\8\\\\5\\end{bmatrix}$$<br>$$X=\\frac{1}{3}\\begin{bmatrix}6-8+5\\\\24-8-10\\\\-12+16+5\\end{bmatrix}=\\frac{1}{3}\\begin{bmatrix}3\\\\6\\\\9\\end{bmatrix}$$<br>Hence,<br>$$x=1,\\quad y=2,\\quad z=3$$<br><br><b>(c)</b><br>$$1+2+3=6$$<br>$$2+2(3)=8$$<br>$$2(1)+3=5$$<br>Thus, the solution is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=\\begin{bmatrix}1&1&1\\\\0&1&2\\\\2&0&1\\end{bmatrix}$, $|A|=-3$<br>(b) $A^{-1}=-\\frac13\\begin{bmatrix}1&-1&1\\\\4&-1&-2\\\\-2&2&1\\end{bmatrix}$ and $(x,y,z)=(-1,-2,-3)$<br>(c) The equations are satisfied",
+    "B": "(a) $A=\\begin{bmatrix}1&1&1\\\\0&1&2\\\\2&0&1\\end{bmatrix}$, $|A|=3$<br>(b) $A^{-1}=\\frac13\\begin{bmatrix}1&-1&1\\\\4&-1&-2\\\\-2&2&1\\end{bmatrix}$ and $(x,y,z)=(1,2,3)$<br>(c) $1+2+3=6$, $2+2(3)=8$, and $2(1)+3=5$",
+    "C": "(a) $|A|=0$, so $A^{-1}$ does not exist<br>(b) The system has infinitely many solutions<br>(c) $(1,2,3)$ is one possible solution",
+    "D": "(a) $|A|=3$<br>(b) $(x,y,z)=(3,2,1)$<br>(c) All three equations are satisfied"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

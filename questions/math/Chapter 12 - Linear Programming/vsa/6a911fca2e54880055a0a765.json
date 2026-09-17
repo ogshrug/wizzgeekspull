@@ -1,0 +1,29 @@
+{
+  "id": "6a911fca2e54880055a0a765",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8"
+  ],
+  "question_type": "VSA",
+  "question": "A firm produces two articles A and B. The total number of articles produced in a day cannot exceed 40, and at least 10 articles of type A must be produced. If $x$ and $y$ denote the numbers of articles A and B respectively, write the two corresponding constraints.",
+  "answeroption": "D",
+  "explanation": "Step 1: Let $x$ and $y$ represent the numbers of articles A and B produced.<br>Step 2: The statement that the total number of articles cannot exceed 40 gives $x+y \\le 40$.<br>Step 3: The requirement that at least 10 articles of type A must be produced means that $x$ cannot be less than 10.<br>Step 4: Therefore, the second constraint is $x \\ge 10$.<br>Step 5: Since production quantities cannot be negative, $x \\ge 0$ and $y \\ge 0$ would also normally be imposed in the complete linear programming model.<br>Hence, the two constraints specifically obtained from the given conditions are $x+y \\le 40$ and $x \\ge 10$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x+y \\ge 40$ and $x \\le 10$",
+    "B": "$x+y \\le 40$ and $x \\le 10$",
+    "C": "$x+y \\ge 40$ and $x \\ge 10$",
+    "D": "$x+y \\le 40$ and $x \\ge 10$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

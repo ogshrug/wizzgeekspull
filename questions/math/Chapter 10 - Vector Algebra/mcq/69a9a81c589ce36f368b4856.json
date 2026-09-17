@@ -1,0 +1,30 @@
+{
+  "id": "69a9a81c589ce36f368b4856",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "MCQ",
+  "question": "Assertion (A): If three non-zero vectors $\\vec{a}$, $\\vec{b}$, $\\vec{c}$ in $\\mathbb{R}^3$ satisfy $\\vec{a} \\cdot (\\vec{b} \\times \\vec{c}) = 0$ and $\\vec{a}$ is not parallel to $\\vec{b}$, then $\\vec{a}$ and $\\vec{c}$ must be coplanar with $\\vec{b}$.<br /><br />Reason (R): $\\vec{a} \\cdot (\\vec{b} \\times \\vec{c}) = 0$ if and only if $\\vec{a}$, $\\vec{b}$, $\\vec{c}$ are linearly dependent.",
+  "answeroption": "A",
+  "explanation": "If $\\vec{a} \\cdot (\\vec{b} \\times \\vec{c}) = 0$, this means that $\\vec{a}$ is perpendicular to $\\vec{b} \\times \\vec{c}$, so $\\vec{a}$ lies in the plane determined by $\\vec{b}$ and $\\vec{c}$, i.e., all three vectors are coplanar.<br /><br />The Reason is also true: A scalar triple product being zero is the necessary and sufficient condition for three vectors to be linearly dependent (i.e., coplanar). Furthermore, the Reason directly explains why the assertion is true.<br /><br />Hence, option (A) is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:58:20 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

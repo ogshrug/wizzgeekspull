@@ -1,0 +1,30 @@
+{
+  "id": "69a86abf575fa42e09444827",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "LA",
+  "question": "Let $y = x^{\\cos x}$. Using logarithmic differentiation, find $\\frac{dy}{dx}$ and hence compute $\\frac{d^2 y}{dx^2}$ at $x = \\frac{\\pi}{2}$.",
+  "answeroption": "D",
+  "explanation": "Take log:<br /><br />$\\ln y=\\cos x \\ln x$.<br /><br />Differentiate:<br /><br />$\\frac{1}{y}\\frac{dy}{dx}=\\frac{\\cos x}{x}-\\sin x \\ln x$.<br /><br />So,<br /><br />$\\frac{dy}{dx}=x^{\\cos x}\\left(\\frac{\\cos x}{x}-\\sin x \\ln x\\right)$.<br /><br />At $x=\\frac{\\pi}{2}$:<br /><br />$y=1$, $\\frac{dy}{dx}=-\\ln(\\frac{\\pi}{2})$.<br /><br />Differentiating again and substituting values gives:<br /><br />$\\frac{d^2y}{dx^2}=\\left(\\ln(\\frac{\\pi}{2})\\right)^2-\\frac{4}{\\pi}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=x^{\\cos x}\\left(\\frac{\\sin x}{x}-\\cos x\\ln x\\right)$<br />$\\frac{d^2y}{dx^2}\\bigg|_{x=\\frac{\\pi}{2}}=\\left(\\ln\\frac{\\pi}{2}\\right)^2$",
+    "B": "$\\frac{dy}{dx}=x^{\\cos x}\\left(\\frac{\\cos x}{x}+\\sin x\\ln x\\right)$<br />$\\frac{d^2y}{dx^2}\\bigg|_{x=\\frac{\\pi}{2}}=\\left(\\ln\\frac{\\pi}{2}\\right)^2+\\frac{4}{\\pi}$",
+    "C": "$\\frac{dy}{dx}=\\cos x\\,x^{\\cos x-1}$<br />$\\frac{d^2y}{dx^2}\\bigg|_{x=\\frac{\\pi}{2}}=-\\frac{4}{\\pi}$",
+    "D": "$\\frac{dy}{dx}=x^{\\cos x}\\left(\\frac{\\cos x}{x}-\\sin x\\ln x\\right)$<br />$\\frac{d^2y}{dx^2}\\bigg|_{x=\\frac{\\pi}{2}}=\\left(\\ln\\frac{\\pi}{2}\\right)^2-\\frac{4}{\\pi}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:24:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

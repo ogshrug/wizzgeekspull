@@ -1,0 +1,30 @@
+{
+  "id": "6a911fcc2e54880055a0a76c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "VSA",
+  "question": "An unbounded feasible region has corner points $(0,3)$ and $(2,1)$. For the objective function $Z=x+y$, the smallest corner-point value is 3. Is this information alone sufficient to conclude that the minimum value of $Z$ is 3? Give the mathematical reason.",
+  "answeroption": "B",
+  "explanation": "Step 1: In a bounded feasible region, the smallest value obtained at the corner points would directly give the minimum value of the objective function.<br>Step 2: Here, however, the feasible region is stated to be unbounded.<br>Step 3: For an unbounded feasible region, merely obtaining the smallest value at a corner point is not sufficient to guarantee a minimum.<br>Step 4: One must additionally examine whether the open half-plane corresponding to values smaller than 3, namely $x+y<3$, has any point in common with the feasible region.<br>Step 5: If there is no common point, then 3 is the minimum; otherwise, no minimum exists at that value.<br>Hence, the given information alone is not sufficient to conclude that the minimum value is 3.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes. In every unbounded feasible region, the smallest corner-point value is automatically the minimum",
+    "B": "No. One must also check whether the feasible region contains any point satisfying $x+y<3$",
+    "C": "Yes. Since both listed corner points give $Z=3$, the minimum must be 3",
+    "D": "No. An unbounded feasible region can never have a minimum value"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed537be0ecc7866e90bf2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97c"
+  ],
+  "question_type": "SA",
+  "question": "The tangent to the curve $y=x^3+kx^2$ at $x=1$ passes through the point $(0,1)$. Determine $k$ and obtain the equation of the tangent.",
+  "answeroption": "B",
+  "explanation": "Point and slope on the curveAt $x=1$, the point of contact is $(1,1+k)$. Also,$$\\frac{dy}{dx}=3x^2+2kx$$so the tangent slope at $x=1$ is $3+2k$.Equation of the tangent$$y-(1+k)=(3+2k)(x-1)$$Use of the external pointSince $(0,1)$ lies on the tangent,$$1-(1+k)=(3+2k)(-1)$$$$-k=-3-2k$$Parameter valueTherefore, $k=-3$. The slope becomes $3+2(-3)=-3$.Tangent equationUsing the point $(1,-2)$,$$y+2=-3(x-1)$$ConclusionThe required value is $k=-3$, and the tangent is $y=-3x+1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=3$ and tangent $y=9x-5$",
+    "B": "$k=-3$ and tangent $y=-3x+1$",
+    "C": "$k=-1$ and tangent $y=x-1$",
+    "D": "$k=3$ and tangent $y=-3x+1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

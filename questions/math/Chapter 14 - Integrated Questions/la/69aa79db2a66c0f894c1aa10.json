@@ -1,0 +1,30 @@
+{
+  "id": "69aa79db2a66c0f894c1aa10",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "LA",
+  "question": "Consider the vectors $\\vec{a} = 2\\hat{i} - 3\\hat{j} + \\hat{k}$ and $\\vec{b} = -\\hat{i} + 4\\hat{j} + 5\\hat{k}$. \n(a) Find a vector $\\vec{c}$ perpendicular to both $\\vec{a}$ and $\\vec{b}$.\n(b) Show that $\\vec{c}$ is unique up to scalar multiple.\n(c) If $\\vec{c}$ makes an angle $\\theta$ with $\\vec{a} + \\vec{b}$, find $\\cos\\theta$.\n(d) Compute the projection of $\\vec{a}$ onto $\\vec{b}$ and interpret geometrically.",
+  "answeroption": "C",
+  "explanation": "(a) $\\vec{c} = \\vec{a} \\times \\vec{b}$<br />$= \\begin{vmatrix}\\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & -3 & 1 \\\\ -1 & 4 & 5\\end{vmatrix}$<br />$= \\hat{i}((-3)5 - 1\\cdot4) - \\hat{j}(2\\cdot5 - 1(-1)) + \\hat{k}(2\\cdot4 - (-3)(-1))$<br />$= \\hat{i}(-19) - \\hat{j}(11) + \\hat{k}(5)$<br />Thus $\\vec{c} = -19\\hat{i} - 11\\hat{j} + 5\\hat{k}$.<br /><br />(b) The cross product of two nonparallel vectors is perpendicular to both and unique up to nonzero scalar multiples. Thus $\\vec{c} = \\lambda (\\vec{a} \\times \\vec{b})$.<br /><br />(c) $\\vec{a}+\\vec{b} = (1,1,6)$<br />$\\cos \\theta = \\frac{\\vec{c} \\cdot (\\vec{a}+\\vec{b})}{|\\vec{c}|\\,|\\vec{a}+\\vec{b}|}$<br />Dot product: $-19(1) -11(1) +5(6) = 0$<br />Thus $\\cos\\theta = 0$. Hence angle is $\\frac{\\pi}{2}$.<br /><br />(d) Projection of $\\vec{a}$ onto $\\vec{b}$:<br />$\\text{proj}_{\\vec{b}} \\vec{a} = \\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|^2}\\vec{b}$<br />$\\vec{a}\\cdot\\vec{b} = -9$<br />$|\\vec{b}|^2 = 42$<br />$\\text{proj}_{\\vec{b}} \\vec{a} = \\frac{-9}{42}\\vec{b}$<br />$= \\frac{9}{42}\\hat{i} - \\frac{36}{42}\\hat{j} - \\frac{45}{42}\\hat{k}$<br />Geometrically this represents the component of $\\vec{a}$ along $\\vec{b}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec c=19\\hat i+11\\hat j-5\\hat k$<br />(b) $\\vec c$ is unique without scalar multiples<br />(c) $\\cos\\theta=1$<br />(d) $\\operatorname{proj}_{\\vec b}\\vec a=\\frac{9}{42}\\vec b$",
+    "B": "(a) $\\vec c=-19\\hat i+11\\hat j+5\\hat k$<br />(b) Any vector is perpendicular to both $\\vec a$ and $\\vec b$<br />(c) $\\cos\\theta=-1$<br />(d) $\\operatorname{proj}_{\\vec b}\\vec a=\\frac{9}{42}\\hat i-\\frac{36}{42}\\hat j+\\frac{45}{42}\\hat k$",
+    "C": "(a) $\\vec c=-19\\hat i-11\\hat j+5\\hat k$<br />(b) It is unique up to non-zero scalar multiple because any common perpendicular is parallel to $\\vec a\\times\\vec b$<br />(c) $\\cos\\theta=0$<br />(d) $\\operatorname{proj}_{\\vec b}\\vec a=\\frac{-9}{42}\\vec b=\\frac{9}{42}\\hat i-\\frac{36}{42}\\hat j-\\frac{45}{42}\\hat k$",
+    "D": "(a) $\\vec c=2\\hat i-3\\hat j+\\hat k$<br />(b) It is unique only when $\\vec a=\\vec b$<br />(c) $\\cos\\theta=\\frac12$<br />(d) $\\operatorname{proj}_{\\vec b}\\vec a=\\frac{-9}{14}\\vec b$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:53:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

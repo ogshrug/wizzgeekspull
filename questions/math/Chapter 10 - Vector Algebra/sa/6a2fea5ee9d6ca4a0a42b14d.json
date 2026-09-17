@@ -1,0 +1,27 @@
+{
+  "id": "6a2fea5ee9d6ca4a0a42b14d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "SA",
+  "question": "Let $\\vec{a}=\\hat{i}+\\hat{j}$, $\\vec{b}=\\hat{i}-\\hat{j}$ and $\\vec{c}=\\hat{i}+\\hat{j}+\\hat{k}$. If $\\hat{n}$ is a unit vector such that $\\vec{a}\\cdot\\hat{n}=0$ and $\\vec{b}\\cdot\\hat{n}=0$, then find $|\\vec{c}\\cdot\\hat{n}|$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Since $\\hat{n}$ is perpendicular to both $\\vec{a}$ and $\\vec{b}$ (as their dot products are zero), $\\hat{n}$ must be parallel to their cross product $\\vec{a} \\times \\vec{b}$.<br />$\\vec{a} \\times \\vec{b} = (\\hat{i}+\\hat{j}) \\times (\\hat{i}-\\hat{j}) = \\hat{i}\\times\\hat{i} - \\hat{i}\\times\\hat{j} + \\hat{j}\\times\\hat{i} - \\hat{j}\\times\\hat{j}$<br />$= 0 - \\hat{k} - \\hat{k} - 0 = -2\\hat{k}$<br />**Step 2:** Find the unit vector $\\hat{n}$ along $-2\\hat{k}$.<br />$\\hat{n} = \\pm \\frac{-2\\hat{k}}{|-2\\hat{k}|} = \\pm \\hat{k}$<br />**Step 3:** Calculate $|\\vec{c}\\cdot\\hat{n}|$.<br />$\\vec{c}\\cdot\\hat{n} = (\\hat{i}+\\hat{j}+\\hat{k}) \\cdot (\\pm \\hat{k}) = \\pm 1$<br />$|\\vec{c}\\cdot\\hat{n}| = |\\pm 1| = 1$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

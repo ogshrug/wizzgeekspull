@@ -1,0 +1,30 @@
+{
+  "id": "69aa6a01d30adc5083911b7c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65c9340512f018fa94d47",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\ln(1+x^2)$, $x \\in \\mathbb{R}$. Let $g(x) = f^{-1}(x)$.<br /><br />(a) Find $g(x)$ explicitly.<br /><br />(b) Show that $f$ is strictly increasing for $x>0$.<br /><br />(c) Let $h(x) = f(x) + f^{-1}(x)$. Show that $h(x)$ is one-one for $x>0$.<br /><br />(d) For $x=\\ln 2$, consider the $2\\times2$ matrix $M$ with rows $(x, g(x))$ and $(f(x), x)$. Compute $\\det(M)$.",
+  "answeroption": "C",
+  "explanation": "**Concepts being tested:** Functions, Logarithmic & Inverse Functions, Matrices<br /><br />(a)<br />If $y = \\ln(1+x^2)$, then $1+x^2 = e^y$, $x = \\pm \\sqrt{e^y-1}$. For $x>0$, $g(y) = \\sqrt{e^y - 1}$.<br /><br />(b)<br />$f'(x)=\\frac{2x}{1+x^2}$, which is $>0$ for $x>0$.<br />So strictly increasing.<br /><br />(c)<br />$h(x) = f(x) + g(x)$<br />For $x > 0$, both $f(x)$ and $g(x)$ are strictly increasing, so $h(x)$ is strictly increasing, thus one-one.<br /><br />(d)<br />At $x=\\ln2$, $g(\\ln2)=\\sqrt{e^{\\ln 2}-1} = \\sqrt{2-1}=1$<br />$f(x)=f(\\ln2) = \\ln(1+(\\ln 2)^2)$<br />$M=\\begin{bmatrix}\\ln 2 & 1\\\\ln(1+(\\ln2)^2) & \\ln2\\end{bmatrix}$<br />$\\det(M)=\\ln2 \\cdot \\ln2 - 1 \\cdot \\ln(1+(\\ln2)^2)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $g(x)=e^x-1$<br />(b) $f$ is strictly decreasing for $x>0$<br />(c) $h$ is not one-one for $x>0$<br />(d) $\\det(M)=\\ln(1+(\\ln2)^2)-(\\ln2)^2$",
+    "B": "(a) $g(x)=\\pm\\sqrt{e^x-1}$ for the unrestricted domain<br />(b) $f'(x)=\\frac{1}{1+x^2}$<br />(c) $h$ is constant for $x>0$<br />(d) $\\det(M)=0$",
+    "C": "(a) On $x>0$, $g(y)=\\sqrt{e^y-1}$<br />(b) $f'(x)=\\frac{2x}{1+x^2}>0$ for $x>0$, so $f$ is strictly increasing<br />(c) Since $f$ and $g$ are strictly increasing on the chosen domain, $h(x)=f(x)+g(x)$ is one-one for $x>0$<br />(d) For $x=\\ln2$, $g(x)=1$, so $M=\\begin{bmatrix}\\ln2&1\\\\\\ln(1+(\\ln2)^2)&\\ln2\\end{bmatrix}$ and $\\det(M)=(\\ln2)^2-\\ln(1+(\\ln2)^2)$",
+    "D": "(a) $g(x)=\\sqrt{x^2-1}$<br />(b) $f'(x)=2x(1+x^2)$<br />(c) $h$ is decreasing for $x>0$<br />(d) $\\det(M)=(\\ln2)^2+\\ln(1+(\\ln2)^2)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:45:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

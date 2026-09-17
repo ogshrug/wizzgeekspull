@@ -1,0 +1,30 @@
+{
+  "id": "6a9154994b490c7cde3595cd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c7",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A classroom investigation uses the vectors $\\vec{a}=\\hat{i}+2\\hat{j}$, $\\vec{b}=\\hat{j}+\\hat{k}$ and $\\vec{c}=2\\hat{i}-\\hat{k}$. The students examine the vector product of $\\vec{a}$ with the sum $\\vec{b}+\\vec{c}$ and compare it with the sum of the two separate vector products $\\vec{a}\\times\\vec{b}$ and $\\vec{a}\\times\\vec{c}$. They then interpret the magnitude of the resulting cross product geometrically as an area.(a) Calculate $\\vec{b}+\\vec{c}$.(b) Evaluate $\\vec{a}\\times\\vec{b}$ and $\\vec{a}\\times\\vec{c}$.(c) Verify the distributive relation $\\vec{a}\\times(\\vec{b}+\\vec{c})=\\vec{a}\\times\\vec{b}+\\vec{a}\\times\\vec{c}$.(d) Determine the area of the parallelogram having $\\vec{a}$ and $\\vec{b}+\\vec{c}$ as adjacent sides.",
+  "answeroption": "C",
+  "explanation": "(a)`\\vec{b}+\\vec{c}=(\\hat{j}+\\hat{k})+(2\\hat{i}-\\hat{k})\\vec{b}+\\vec{c}=2\\hat{i}+\\hat{j}`(b)\\\\vec{a}\\\\times\\\\vec{b}=\\\\begin{vmatrix}\\\\hat{i} & \\\\hat{j} & \\\\hat{k}\\\\\\\\1 & 2 & 0\\\\\\\\0 & 1 & 1\\\\end{vmatrix}`\\vec{a}\\times\\vec{b}=2\\hat{i}-\\hat{j}+\\hat{k}`Also,\\\\vec{a}\\\\times\\\\vec{c}=\\\\begin{vmatrix}\\\\hat{i} & \\\\hat{j} & \\\\hat{k}\\\\\\\\1 & 2 & 0\\\\\\\\2 & 0 & -1\\\\end{vmatrix}`\\vec{a}\\times\\vec{c}=-2\\hat{i}+\\hat{j}-4\\hat{k}`(c)\\\\vec{a}\\\\times(\\\\vec{b}+\\\\vec{c})=\\\\begin{vmatrix}\\\\hat{i} & \\\\hat{j} & \\\\hat{k}\\\\\\\\1 & 2 & 0\\\\\\\\2 & 1 & 0\\\\end{vmatrix}`\\vec{a}\\times(\\vec{b}+\\vec{c})=-3\\hat{k}`On the other hand,`\\vec{a}\\times\\vec{b}+\\vec{a}\\times\\vec{c}=(2\\hat{i}-\\hat{j}+\\hat{k})+(-2\\hat{i}+\\hat{j}-4\\hat{k})\\vec{a}\\times\\vec{b}+\\vec{a}\\times\\vec{c}=-3\\hat{k}`Hence, the distributive relation is verified.(d)The area of the parallelogram is`|\\vec{a}\\times(\\vec{b}+\\vec{c})|=|-3\\hat{k}|=3`Therefore, the required area is $3$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec{b}+\\vec{c}=2\\hat{i}+\\hat{j}$<br>(b) $\\vec{a}\\times\\vec{b}=2\\hat{i}+\\hat{j}-\\hat{k}$, $\\vec{a}\\times\\vec{c}=-2\\hat{i}-\\hat{j}+4\\hat{k}$<br>(c) $\\vec{a}\\times(\\vec{b}+\\vec{c})=3\\hat{k}$<br>(d) Area $=3$ square units",
+    "B": "(a) $\\vec{b}+\\vec{c}=2\\hat{i}+\\hat{j}$<br>(b) $\\vec{a}\\times\\vec{b}=2\\hat{i}-\\hat{j}+\\hat{k}$, $\\vec{a}\\times\\vec{c}=-2\\hat{i}+\\hat{j}-4\\hat{k}$<br>(c) $\\vec{a}\\times(\\vec{b}+\\vec{c})=-3\\hat{k}$<br>(d) Area $=\\frac{3}{2}$ square units",
+    "C": "(a) $\\vec{b}+\\vec{c}=2\\hat{i}+\\hat{j}$<br>(b) $\\vec{a}\\times\\vec{b}=2\\hat{i}-\\hat{j}+\\hat{k}$, $\\vec{a}\\times\\vec{c}=-2\\hat{i}+\\hat{j}-4\\hat{k}$<br>(c) Both sides of the distributive relation equal $-3\\hat{k}$<br>(d) Area $=3$ square units",
+    "D": "(a) $\\vec{b}+\\vec{c}=2\\hat{i}+\\hat{j}+2\\hat{k}$<br>(b) $\\vec{a}\\times\\vec{b}=2\\hat{i}-\\hat{j}+\\hat{k}$, $\\vec{a}\\times\\vec{c}=-2\\hat{i}+\\hat{j}-4\\hat{k}$<br>(c) The distributive relation does not hold<br>(d) Area $=\\sqrt{13}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

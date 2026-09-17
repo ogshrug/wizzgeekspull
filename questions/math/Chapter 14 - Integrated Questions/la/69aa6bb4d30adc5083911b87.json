@@ -1,0 +1,30 @@
+{
+  "id": "69aa6bb4d30adc5083911b87",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c6610140512f018fa94d7d"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{pmatrix} 1 & -x \\\\ x & 1 \\end{pmatrix}$, and define $f(x) = \\cos^{-1} \\left( \\frac{\\det A}{\\operatorname{tr} A} \\right)$ for $|x| < 1$ (where $\\operatorname{tr} A$ is the trace of $A$).\n\n(a) Find $\\det A$ and $\\operatorname{tr} A$ in terms of $x$.\n\n(b) Show that $f(x)$ is a real-valued function for $|x| < 1$.\n\n(c) Prove that $f(0) = 0$ and compute $f'(0)$.\n\n(d) Interpret the derivative $f'(0)$ as the instantaneous rate of change of the principal angle of $A$ as $x\\to 0$.",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:** Matrices, determinants, inverse trigonometric functions, differentiability, function analysis.<br /><br />(a) $\\det A = 1\\cdot1 - (-x)\\cdot x = 1 + x^2$<br />$\\operatorname{tr} A = 1 + 1 = 2$<br /><br />(b) $f(x) = \\cos^{-1}\\left(\\frac{1+x^2}{2}\\right)$<br />For $|x|<1$, $x^2<1$, so $0<\\frac{1+x^2}{2}<1$<br />So, $\\cos^{-1}(z)$ is real for $0 < z < 1$.<br /><br />(c) $f(0) = \\cos^{-1} \\left( \\frac{1+0^2}{2} \\right) = \\cos^{-1} \\left( \\frac{1}{2} \\right) = \\frac{\\pi}{3}$<br /><br />Find $f'(x)$:<br />$f'(x) = \\frac{d}{dx} \\cos^{-1} \\left( \\frac{1+x^2}{2} \\right)$<br />Let $u = \\frac{1+x^2}{2}$<br /><br />So,<br />$f'(x) = \\frac{-1}{\\sqrt{1-u^2}} \\cdot x$<br /><br />$1-u^2 = 1 - \\left(\\frac{1+x^2}{2}\\right)^2 = 1 - \\frac{(1+x^2)^2}{4}$<br /><br />$= \\frac{4 - (1 + 2x^2 + x^4)}{4} = \\frac{4 - 1 - 2x^2 - x^4}{4} = \\frac{3 - 2x^2 - x^4}{4}$<br /><br />At $x = 0$:<br />$u = 1/2$, $f'(0) = 0$<br /><br />(d) The derivative $f'(0) = 0$ means that as $x \\to 0$, the principal angle (as defined by $f(x)$) is stationary; i.e., a small perturbation in $x$ does not change the principal angle to first order.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\det A=1+x^2$ and $\\operatorname{tr}A=2$<br />(b) $f(x)=\\cos^{-1}\\left(\\frac{1+x^2}{2}\\right)$ is real-valued for $|x|<1$ because $0<\\frac{1+x^2}{2}<1$<br />(c) $f(0)=\\frac{\\pi}{3}$ and $f'(0)=0$<br />(d) $f'(0)=0$ means the principal angle is stationary to first order near $x=0$",
+    "B": "(a) $\\det A=1-x^2$ and $\\operatorname{tr}A=2x$<br />(b) $f(x)$ is real-valued only for $x=0$<br />(c) $f(0)=0$ and $f'(0)=1$<br />(d) The principal angle increases at unit rate near $x=0$",
+    "C": "(a) $\\det A=x^2-1$ and $\\operatorname{tr}A=1$<br />(b) $f(x)$ is not real-valued for $|x|<1$<br />(c) $f(0)=\\pi$ and $f'(0)=-1$<br />(d) The principal angle decreases at unit rate near $x=0$",
+    "D": "(a) $\\det A=1+x$ and $\\operatorname{tr}A=1-x$<br />(b) $f(x)$ is real-valued for all real $x$<br />(c) $f(0)=\\frac{\\pi}{2}$ and $f'(0)=2$<br />(d) The principal angle changes at rate $2$ near $x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:52:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

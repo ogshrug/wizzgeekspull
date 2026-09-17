@@ -1,0 +1,29 @@
+{
+  "id": "6a8d650e70e91fe851017dc3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the domain of $f(x)=\\tan^{-1}\\left(\\sqrt{4-x^2}\\right)$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b><br>The inverse tangent function accepts every real number as its argument. Therefore, the restriction in the given function arises only from the square-root expression.<br><br><b>Step 2:</b><br>For $\\sqrt{4-x^2}$ to be real, its radicand must be non-negative: $$4-x^2\\geq0.$$<br><br><b>Step 3:</b><br>This condition can be written as $$x^2\\leq4,$$ which gives $$-2\\leq x\\leq2.$$<br><br><b>Step 4:</b><br>At $x=-2$ and $x=2$, the square root equals $0$, and $\\tan^{-1}0$ is defined. Hence, both endpoints are included.<br><br><b>Final Answer:</b><br>The domain of $f$ is $$[-2,2].$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(-2,2)$",
+    "B": "$[-2,2]$",
+    "C": "$(-\\infty,-2]\\cup[2,\\infty)$",
+    "D": "$[-4,4]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

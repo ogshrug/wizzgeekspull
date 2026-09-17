@@ -1,0 +1,29 @@
+{
+  "id": "6a8d3db9550d28a069ec32f0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "SA",
+  "question": "A function $f:\\mathbb{R}\\to\\mathbb{R}$ is defined by $f(x)=x^2-4x+7$. Examine whether $f$ is one-one by finding two distinct elements having the same image.",
+  "answeroption": "D",
+  "explanation": "<b>Choice of distinct inputs</b><br>Consider $x=1$ and $x=3$, where<br>$$1\\ne3.$$<br><br><b>Evaluation of images</b><br>We have<br>$$f(1)=1^2-4(1)+7=1-4+7=4$$<br>and<br>$$f(3)=3^2-4(3)+7=9-12+7=4.$$<br>Hence,<br>$$f(1)=f(3).$$<br><br><b>Conclusion</b><br>Since two distinct elements of the domain have the same image, $f$ is not one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one because every real input has exactly one image",
+    "B": "$f$ is not one-one because $f(0)=f(2)$",
+    "C": "$f$ is not one-one because $f(1)=f(2)$",
+    "D": "$f$ is not one-one because $f(1)=f(3)=4$ although $1\\ne3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

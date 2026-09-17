@@ -1,0 +1,31 @@
+{
+  "id": "6a8d650e70e91fe851017dc5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4c",
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "The curve $y=\\cos^{-1}x$ is horizontally compressed by replacing $x$ with $2x$ and then translated $\\frac{\\pi}{2}$ units downward. Write the resulting equation and determine its domain and range.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b><br>Replacing $x$ by $2x$ in $y=\\cos^{-1}x$ produces the horizontally compressed curve $y=\\cos^{-1}(2x)$.<br><br><b>Step 2:</b><br>Translating this curve $\\frac{\\pi}{2}$ units downward gives $$y=\\cos^{-1}(2x)-\\frac{\\pi}{2}.$$<br><br><b>Step 3:</b><br>For the function to be defined, $-1\\leq2x\\leq1$. Dividing by $2$ gives the domain $$\\left[-\\frac{1}{2},\\frac{1}{2}\\right].$$<br><br><b>Step 4:</b><br>The range of $\\cos^{-1}(2x)$ is $[0,\\pi]$. Subtracting $\\frac{\\pi}{2}$ from its endpoints gives $$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right].$$<br><br><b>Final Answer:</b><br>The equation is $y=\\cos^{-1}(2x)-\\frac{\\pi}{2}$, with domain $\\left[-\\frac{1}{2},\\frac{1}{2}\\right]$ and range $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\cos^{-1}(2x)-\\frac{\\pi}{2}$; Domain: $\\left[-\\frac{1}{2},\\frac{1}{2}\\right]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$",
+    "B": "$y=\\cos^{-1}(2x)+\\frac{\\pi}{2}$; Domain: $\\left[-\\frac{1}{2},\\frac{1}{2}\\right]$; Range: $\\left[\\frac{\\pi}{2},\\frac{3\\pi}{2}\\right]$",
+    "C": "$y=\\cos^{-1}\\left(\\frac{x}{2}\\right)-\\frac{\\pi}{2}$; Domain: $[-2,2]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$",
+    "D": "$y=\\cos^{-1}(2x)-\\frac{\\pi}{2}$; Domain: $[-1,1]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

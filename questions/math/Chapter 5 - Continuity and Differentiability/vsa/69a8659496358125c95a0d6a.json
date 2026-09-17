@@ -1,0 +1,30 @@
+{
+  "id": "69a8659496358125c95a0d6a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f(x) = \\begin{cases} \\tan x, & x < 0 \\\\ ax + b, & x \\geq 0 \\end{cases}$. Find $a$ and $b$ so that $f(x)$ is both continuous and differentiable at $x=0$.",
+  "answeroption": "A",
+  "explanation": "For continuity at $x=0$:<br /><br />$\\lim_{x\\to 0^-} \\tan x = 0$<br /><br />$\\lim_{x\\to 0^+} ax + b = b$<br /><br />So $b=0$<br /><br />For differentiability:<br /><br />Left derivative: $\\lim_{x\\to 0^-} \\sec^2 x = 1$<br /><br />Right derivative: $a$<br /><br />So $a=1$<br /><br />Therefore, $a=1, b=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=1,\\ b=0$",
+    "B": "$a=0,\\ b=1$",
+    "C": "$a=1,\\ b=1$",
+    "D": "$a=0,\\ b=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:02:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

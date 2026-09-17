@@ -1,0 +1,29 @@
+{
+  "id": "6a9122d44b490c7cde3595ba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0"
+  ],
+  "question_type": "VSA",
+  "question": "A point $(3,1)$ satisfies $x+2y=5$ and also satisfies the remaining constraints $2x+y \\le 8$, $x \\ge 0$, $y \\ge 0$. Can it be regarded as a feasible solution even though it lies on a boundary line?",
+  "answeroption": "C",
+  "explanation": "Step 1: A feasible solution may lie either inside the feasible region or on its boundary, provided it satisfies every constraint.<br>Step 2: For $(3,1)$, $x+2y=3+2(1)=5$, so the point satisfies the corresponding inequality $x+2y \\le 5$ with equality.<br>Step 3: For the other linear restriction, $2x+y=2(3)+1=7 \\le 8$, so it is satisfied.<br>Step 4: Also, $3 \\ge 0$ and $1 \\ge 0$, satisfying the non-negative restrictions.<br>Step 5: Equality in one constraint does not make a point infeasible; it simply places the point on the boundary.<br>Therefore, $(3,1)$ is a feasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "No, because every boundary point is infeasible",
+    "B": "No, because equality in a constraint is not allowed",
+    "C": "Yes, because it satisfies all the constraints, including one with equality",
+    "D": "Yes, but only if both linear constraints hold with equality"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

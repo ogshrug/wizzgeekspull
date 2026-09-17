@@ -1,0 +1,29 @@
+{
+  "id": "6a906a2c2e54880055a0a756",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8bf"
+  ],
+  "question_type": "SA",
+  "question": "The vector $\\overrightarrow{AB}$ is equal to $\\overrightarrow{CD}$, where $A(1,2,-1)$, $B(4,0,3)$ and $C(-2,1,5)$. Find the coordinates of $D$ and verify the equality of the two vectors.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Calculation of the first vector</b><br>\\(\\overrightarrow{AB}=(4-1)\\hat{i}+(0-2)\\hat{j}+[3-(-1)]\\hat{k}=3\\hat{i}-2\\hat{j}+4\\hat{k}\\)<br><b>Step 2: Representation of the unknown point</b><br>Let $D=(x,y,z)$. Then<br>\\(\\overrightarrow{CD}=(x+2)\\hat{i}+(y-1)\\hat{j}+(z-5)\\hat{k}\\)<br><b>Step 3: Equality of corresponding components</b><br>Since $\\overrightarrow{AB}=\\overrightarrow{CD}$, we obtain $x+2=3$, $y-1=-2$ and $z-5=4$. Thus, $x=1$, $y=-1$ and $z=9$.<br><b>Step 4: Verification</b><br>For $D(1,-1,9)$, $\\overrightarrow{CD}=3\\hat{i}-2\\hat{j}+4\\hat{k}=\\overrightarrow{AB}$.<br><b>Final Answer</b><br>$D=(1,-1,9)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$D=(1,-1,9)$, and $\\overrightarrow{CD}=3\\hat{i}-2\\hat{j}+4\\hat{k}=\\overrightarrow{AB}$.",
+    "B": "$D=(1,1,9)$, and $\\overrightarrow{CD}=3\\hat{i}+4\\hat{k}$.",
+    "C": "$D=(-1,1,9)$, and $\\overrightarrow{CD}=\\overrightarrow{BA}$.",
+    "D": "$D=(1,-1,1)$, and $\\overrightarrow{CD}=3\\hat{i}-2\\hat{j}-4\\hat{k}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

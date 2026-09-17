@@ -1,0 +1,30 @@
+{
+  "id": "69a9c969589ce36f368b48c0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55",
+    "69c65fbf40512f018fa94d54"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A$ be a $2 \\times 2$ matrix with $A^2 + 2A + I = 0$. Which of the following holds?",
+  "answeroption": "A",
+  "explanation": "Given $A^2 + 2A + I = 0 \\implies A^2 + 2A = -I$<br /><br />$A^2 + 2A + I = 0 \\implies (A + I)^2 = 0$<br /><br />But expand $(A+I)^2 = A^2 + 2A I + I = A^2 + 2A + I$, so $(A+I)^2 = 0$.<br /><br />Thus, $A = -I$ is a root.<br /><br />But confirm invertibility:<br /><br />Suppose $A y = 0$. Then $A^2 y + 2A y + I y = 0$, but $A y = 0$, so $0 + 0 + I y = 0 \\implies y = 0$. So $A$ is invertible.<br /><br />Find $A^{-1}$:<br /><br />Multiply both sides by $A^{-1}$:<br /><br />$A^2 + 2A + I = 0$<br /><br />$A^2 + 2A = -I$<br /><br />$A (A + 2I) = -I$<br /><br />Multiply both sides by $-1$:<br /><br />$-A (A + 2I) = I$<br /><br />$A^{-1} = -A - 2I$<br /><br />So correct option: (a) $A$ is invertible with $A^{-1} = -A - 2I$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ is invertible with $A^{-1} = -A - 2I$",
+    "B": "$A$ is invertible but $A^{-1} = A + 2I$",
+    "C": "$A$ is not invertible",
+    "D": "$A$ is singular with $A^2 = I$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:20:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

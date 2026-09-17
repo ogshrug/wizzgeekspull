@@ -1,0 +1,32 @@
+{
+  "id": "6a22900a864be73cfcf6d201",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "If a function $f:X \\rightarrow Y$ defined as $f(x)=y$ is one-one and onto, then we can define a unique function $g:Y \\rightarrow X$ such that $g(y)=x$, where $x \\in X$ and $y=f(x)$, $y \\in Y$. Function $g$ is called the inverse of function $f$.<br /><br />The domain of sine function is $R$ and function sine: $R \\rightarrow R$ is neither one-one nor onto. The following graph shows the sine function.<br /><br />Let sine function be defined from set $A$ to $[-1, 1]$ such that inverse of sine function exists, i.e., $\\sin^{-1}x$ is defined from $[-1, 1]$ to $A$.<br /><br />**(i)** If $A$ is the interval other than principal value branch, give an example of one such interval.<br />**(ii)** If $\\sin^{-1}(x)$ is defined from $[-1, 1]$ to its principal value branch, find the value of $\\sin^{-1}(-\\frac{1}{2}) - \\sin^{-1}(1)$.<br />**(iii) (a)** Draw the graph of $\\sin^{-1}x$ from $[-1, 1]$ to its principal value branch.<br />OR<br />**(iii) (b)** Find the domain and range of $f(x) = 2 \\sin^{-1}(1-x)$.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The sine function is invertible when restricted to intervals of length $\\pi$ where it is monotonic. The principal branch is $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$.<br />**Step 2:** An example of an interval other than the principal value branch is $[\\frac{\\pi}{2}, \\frac{3\\pi}{2}]$ or $[-\\frac{3\\pi}{2}, -\\frac{\\pi}{2}]$.<br /><br />**(ii)** **Step 1:** The principal value of $\\sin^{-1}(-\\frac{1}{2})$ is $-\\frac{\\pi}{6}$.<br />**Step 2:** The value of $\\sin^{-1}(1)$ is $\\frac{\\pi}{2}$.<br />**Step 3:** Compute difference: $-\\frac{\\pi}{6} - \\frac{\\pi}{2} = -\\frac{4\\pi}{6} = -\\frac{2\\pi}{3}$.<br /><br />**(iii) (a)** **Step 1:** The graph of $y = \\sin^{-1}x$ reflects the sine graph across $y=x$.<br />**Step 2:** Plot points. Domain is $[-1, 1]$ on x-axis, range is $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ on y-axis. Connect $(-1, -\\frac{\\pi}{2})$, $(0, 0)$, and $(1, \\frac{\\pi}{2})$ smoothly.<br /><br />**(iii) (b)** **Step 1:** For domain, $-1 \\le 1-x \\le 1$.<br />**Step 2:** Subtract 1: $-2 \\le -x \\le 0$. Multiply by $-1$: $0 \\le x \\le 2$. Domain is $[0, 2]$.<br />**Step 3:** For range, $-\\frac{\\pi}{2} \\le \\sin^{-1}(1-x) \\le \\frac{\\pi}{2}$. Multiply by 2: $-\\pi \\le 2 \\sin^{-1}(1-x) \\le \\pi$. Range is $[-\\pi, \\pi]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1",
+    "2024-1-2",
+    "2024-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22900a864be73cfcf6d201/1782261523-0.png?t=1782281323348"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

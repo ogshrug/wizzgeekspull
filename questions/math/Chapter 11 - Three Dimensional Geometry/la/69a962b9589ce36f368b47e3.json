@@ -1,0 +1,29 @@
+{
+  "id": "69a962b9589ce36f368b47e3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "The line $\\frac{x+2}{1} = \\frac{y-3}{-2} = \\frac{z}{2}$ intersects the plane $x + y + z = 6$ at the point $P$. Find the equation of the plane passing through $P$ and containing the line $\\frac{x}{2} = \\frac{y+1}{1} = \\frac{z-4}{-2}$.",
+  "answeroption": "A",
+  "explanation": "Write the first line in parametric form:<br /><br />$x=-2+\\lambda$, $y=3-2\\lambda$, $z=2\\lambda$.<br /><br />Substitute into the plane $x+y+z=6$:<br /><br />$(-2+\\lambda)+(3-2\\lambda)+(2\\lambda)=6$.<br /><br />$1+\\lambda=6 \\Rightarrow \\lambda=5$.<br /><br />Thus the intersection point is $P(3,-7,10)$.<br /><br />The second line has direction ratios $(2,1,-2)$ and passes through $(0,-1,4)$.<br /><br />Vector $PQ=(3,-6,6)$.<br /><br />Normal vector of the required plane is $PQ \\times (2,1,-2)=(6,18,15)$.<br /><br />Equation of plane through $P$:<br /><br />$6(x-3)+18(y+7)+15(z-10)=0$.<br /><br />Simplifying gives $2x+6y+5z-14=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Intersection point: $P(3,-7,10)$<br />Required plane: $2x+6y+5z-14=0$",
+    "B": "Intersection point: $P(3,-7,10)$<br />Required plane: $2x+6y-5z-14=0$",
+    "C": "Intersection point: $P(-3,7,-10)$<br />Required plane: $2x+6y+5z-14=0$",
+    "D": "Intersection point: $P(5,-7,10)$<br />Required plane: $6x+2y+5z-14=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:02:17 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

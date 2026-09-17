@@ -1,0 +1,29 @@
+{
+  "id": "69a95be9589ce36f368b47d6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following differential equation involving separable variables:<br /><br />$x \\frac{dy}{dx} = y - x e^{y/x}$<br /><br />where $y(1) = 0$.",
+  "answeroption": "B",
+  "explanation": "Rewrite equation as:<br /><br />$x \\frac{dy}{dx} - y = - x e^{y/x}$<br /><br />$\\frac{dy}{dx} - \\frac{y}{x} = - e^{y/x}$<br /><br />Let $v = y/x$, so $y = v x, \\frac{dy}{dx} = v + x\\frac{dv}{dx}$<br /><br />Plug in:<br /><br />v + x\\frac{dv}{dx} - v = - e^{v}<br /><br />x\\frac{dv}{dx} = - e^{v}<br /><br />\\frac{dv}{dx} = - \\frac{e^{v}}{x}<br /><br />\\int e^{-v} dv = \\int \\frac{dx}{x}<br /><br />- e^{-v} = \\ln|x| + C<br /><br />Substitute $v = y/x$:<br /><br />- e^{-y/x} = \\ln|x| + C<br /><br />Use $y(1) = 0$:<br /><br />- e^{0} = \\ln 1 + C<br /><br />-1 = C<br /><br />So, - e^{-y/x} = \\ln|x| - 1<br /><br />or e^{-y/x} = 1 - \\ln|x|",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^{y/x}=1-\\ln|x|$",
+    "B": "$e^{-y/x}=1-\\ln|x|$",
+    "C": "$e^{-y/x}=1+\\ln|x|$",
+    "D": "$e^{-x/y}=1-\\ln|x|$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:33:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69aa61ded8e9ca3b2934581a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Robotics/AI: A warehouse robot measures angle $\\phi$ such that $\\phi=2\\tan^{-1}(x/5)$ where $x$ is the offset in cm.<br /><br />(a) Express $\\tan(\\phi)$ and $\\sin(\\phi)$ in terms of $x$.<br /><br />(b) If $\\sin(\\phi)=0.96$, find $x$.<br /><br />(c) Evaluate $d\\phi/dx$ at $x=5$ and interpret its meaning.",
+  "answeroption": "C",
+  "explanation": "(a) Using double-angle identities:<br />$\\tan(\\phi)=\\frac{10x}{25-x^2}$ and $\\sin(\\phi)=\\frac{10x}{25+x^2}$.<br /><br />(b) Solve $\\frac{10x}{25+x^2}=0.96$ giving $0.96x^2-10x+24=0$.<br /><br /> Hence $x=3.75$ cm or $6.67$ cm.<br /><br />(c) $\\frac{d\\phi}{dx}=\\frac{2}{5(1+x^2/25)}$. At $x=5$, derivative $=1/5$.<br /><br /> Thus a 1 cm change in offset changes $\\phi$ by about $0.2$ radians.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\tan\\phi=\\frac{10x}{25+x^2}$, $\\sin\\phi=\\frac{10x}{25-x^2}$; (b) $x=5$ cm only; (c) $\\frac{d\\phi}{dx}=\\frac{2}{5}$ at $x=5$",
+    "B": "(a) $\\tan\\phi=\\frac{5x}{25-x^2}$, $\\sin\\phi=\\frac{5x}{25+x^2}$; (b) $x=2.5$ cm or $5$ cm; (c) $\\frac{d\\phi}{dx}=\\frac{1}{10}$ at $x=5$",
+    "C": "(a) $\\tan\\phi=\\frac{10x}{25-x^2}$, $\\sin\\phi=\\frac{10x}{25+x^2}$; (b) $x=3.75$ cm or $6.67$ cm; (c) $\\frac{d\\phi}{dx}=\\frac{1}{5}$ at $x=5$, meaning about $0.2$ radians change per cm",
+    "D": "(a) $\\tan\\phi=\\frac{25-x^2}{10x}$, $\\sin\\phi=\\frac{25+x^2}{10x}$; (b) $x=1$ cm or $4$ cm; (c) $\\frac{d\\phi}{dx}=1$ at $x=5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:10:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

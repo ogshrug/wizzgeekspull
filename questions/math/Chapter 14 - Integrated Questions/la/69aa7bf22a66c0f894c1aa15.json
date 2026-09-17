@@ -1,0 +1,30 @@
+{
+  "id": "69aa7bf22a66c0f894c1aa15",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\vec{a} = 2\\hat{i} + 3\\hat{j} - \\hat{k}$ and $\\vec{b} = \\hat{i} - 4\\hat{j} + 2\\hat{k}$. \n\n(a) Find a unit vector $\\vec{n}$ perpendicular to both $\\vec{a}$ and $\\vec{b}$.\n\n(b) A plane passes through the point $(1, -2, 0)$ and is perpendicular to $\\vec{n}$. Find its equation.\n\n(c) The plane intersects the line $\\vec{r}(t) = (1 + t)\\hat{i} + (2 - 3t)\\hat{j} + (t)\\hat{k}$ at point $Q$. Find the coordinates of $Q$.\n\n(d) Compute the area of the parallelogram determined by $\\vec{a}$ and $\\vec{b}$.",
+  "answeroption": "A",
+  "explanation": "**Concepts Being Tested:**<br />- Vector algebra (cross product, unit vector)<br />- Equation of a plane<br />- 3D geometry (intersection of line & plane)<br />- Area of parallelogram using vectors<br /><br />**Solution:**<br /><br />(a) $\\vec{n}$ is perpendicular to both $\\vec{a}$ and $\\vec{b}$, so $\\vec{n} \\propto \\vec{a} \\times \\vec{b}$<br /><br />$\\vec{a}\\times\\vec{b}$ = $\\begin{vmatrix}\\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 3 & -1 \\\\ 1 & -4 & 2\\end{vmatrix}$<br /><br />$= \\hat{i}\\begin{vmatrix}3 & -1 \\\\ -4 & 2 \\end{vmatrix} - \\hat{j}\\begin{vmatrix}2 & -1 \\\\ 1 & 2\\end{vmatrix} + \\hat{k}\\begin{vmatrix}2 & 3 \\\\ 1 & -4\\end{vmatrix}$<br /><br />$= \\hat{i}(3\\times2 - (-1)\\times(-4)) - \\hat{j}(2\\times2 - (-1)\\times1) + \\hat{k}(2\\times(-4) - 3\\times1)$<br /><br />$= \\hat{i}(6 - 4) - \\hat{j}(4 + 1) + \\hat{k}(-8 - 3)$<br />$= 2\\hat{i} - 5\\hat{j} - 11\\hat{k}$<br /><br />Magnitude: $\\sqrt{2^2 + 5^2 + 11^2}= \\sqrt{4 + 25 + 121} = \\sqrt{150}$<br /><br />So, unit vector:<br />$\\vec{n} = \\frac{2\\hat{i} - 5\\hat{j} - 11\\hat{k}}{\\sqrt{150}}$<br /><br />(b) Equation of plane passing through $(1, -2, 0)$ perpendicular to $\\vec{n}$<br /><br />$2(x-1) - 5(y+2) - 11(z-0) = 0$<br /><br />$2x -2 -5y -10 -11z = 0$<br /><br />$2x - 5y - 11z = 12$<br /><br />(c) Set $\\vec{r}(t)$ into the plane equation:<br />Plug in $(1+t, 2-3t, t)$:<br />$2(1+t) -5(2-3t) -11(t) = 12$<br />$2 + 2t -10 + 15t -11t = 12$<br />$(-8) + (6t) = 12$<br />$6t = 20\\implies t = \\frac{10}{3}$<br /><br />Therefore,<br />$Q = (1 + \\frac{10}{3}, 2 - 3\\cdot\\frac{10}{3}, \\frac{10}{3}) = (\\frac{13}{3}, 2-10, \\frac{10}{3})$<br />$= (\\frac{13}{3}, -8, \\frac{10}{3})$<br /><br />(d) Area of parallelogram: $|\\vec{a}\\times\\vec{b}| = \\sqrt{150} = 5\\sqrt{6}$ units$^2$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec n=\\frac{2\\hat i-5\\hat j-11\\hat k}{\\sqrt{150}}$<br />(b) Plane: $2x-5y-11z=12$<br />(c) $Q=\\left(\\frac{13}{3},-8,\\frac{10}{3}\\right)$<br />(d) Area $=5\\sqrt6$ square units",
+    "B": "(a) $\\vec n=\\frac{2\\hat i+5\\hat j-11\\hat k}{\\sqrt{150}}$<br />(b) Plane: $2x+5y-11z=12$<br />(c) $Q=\\left(\\frac{10}{3},-8,\\frac{13}{3}\\right)$<br />(d) Area $=\\sqrt{150}/2$ square units",
+    "C": "(a) $\\vec n=\\frac{\\hat i-4\\hat j+2\\hat k}{\\sqrt{21}}$<br />(b) Plane: $x-4y+2z=9$<br />(c) $Q=(1,-2,0)$<br />(d) Area $=\\sqrt{21}$ square units",
+    "D": "(a) $\\vec n=\\frac{2\\hat i-5\\hat j-11\\hat k}{150}$<br />(b) Plane: $2x-5y-11z=0$<br />(c) $Q=\\left(\\frac{13}{3},8,-\\frac{10}{3}\\right)$<br />(d) Area $=150$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:02:10 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

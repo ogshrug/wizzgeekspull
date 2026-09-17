@@ -1,0 +1,33 @@
+{
+  "id": "6a2166dc91ff8b4d456109a1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "MCQ",
+  "question": "Three points $A(0,1,1)$, $B(2,0,-1)$ and $C(1,0,3)$ form $\\Delta ABC$. The $\\text{ar}(\\Delta ABC)$ is:",
+  "answeroption": "A",
+  "explanation": "<b>Step 1</b> To compute the area of $\\Delta ABC$ using vector geometry, we first calculate two position vectors representing adjacent sides of the triangle, such as $\\vec{AB}$ and $\\vec{AC}$. Vector $\\vec{AB} = (2-0)\\hat{i} + (0-1)\\hat{j} + (-1-1)\\hat{k} = 2\\hat{i} - \\hat{j} - 2\\hat{k}$.<br /><br /><b>Step 2</b> Find the adjacent side vector $\\vec{AC}$: $\\vec{AC} = (1-0)\\hat{i} + (0-1)\\hat{j} + (3-1)\\hat{k} = \\hat{i} - \\hat{j} + 2\\hat{k}$. The area of the triangle is given by the formula: $\\text{Area} = \\frac{1}{2} |\\vec{AB} \\times \\vec{AC}|$.<br /><br /><b>Step 3</b> Compute the cross product vector using a matrix determinant: $\\vec{AB} \\times \\vec{AC} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & -1 & -2 \\\\ 1 & -1 & 2 \\end{vmatrix} = -4\\hat{i} - 6\\hat{j} - \\hat{k}$. Finding its magnitude gives $\\sqrt{(-4)^2 + (-6)^2 + (-1)^2} = \\sqrt{53}$. Halving this gives the area: $\\frac{\\sqrt{53}}{2}$ sq. units, matching option (A).",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\sqrt{53}}{2}$ sq. units",
+    "B": "$\\sqrt{53}$ sq. units",
+    "C": "$\\frac{\\sqrt{11}}{2}$ sq. units",
+    "D": "$\\sqrt{11}$ sq. units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

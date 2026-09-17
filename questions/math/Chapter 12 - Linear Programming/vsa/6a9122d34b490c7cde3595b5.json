@@ -1,0 +1,29 @@
+{
+  "id": "6a9122d34b490c7cde3595b5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0"
+  ],
+  "question_type": "VSA",
+  "question": "For the constraints $2x+y \\le 9$, $x+2y \\le 8$, $x \\ge 0$ and $y \\ge 0$, determine whether $(2,3)$ is a feasible solution.",
+  "answeroption": "C",
+  "explanation": "Step 1: A point is a feasible solution only when it satisfies every given constraint simultaneously.<br>Step 2: Substitute $(x,y)=(2,3)$ in $2x+y \\le 9$. We get $2(2)+3=7 \\le 9$, so the first constraint is satisfied.<br>Step 3: Substitute the same point in $x+2y \\le 8$. We get $2+2(3)=8 \\le 8$, so the second constraint is also satisfied.<br>Step 4: Further, $x=2 \\ge 0$ and $y=3 \\ge 0$, so the non-negative restrictions are satisfied.<br>Step 5: Since all the constraints hold simultaneously, the point belongs to the solution region.<br>Therefore, $(2,3)$ is a feasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(2,3)$ is infeasible because $2x+y>9$",
+    "B": "$(2,3)$ is infeasible because $x+2y>8$",
+    "C": "$(2,3)$ is a feasible solution",
+    "D": "$(2,3)$ is infeasible because $x<0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

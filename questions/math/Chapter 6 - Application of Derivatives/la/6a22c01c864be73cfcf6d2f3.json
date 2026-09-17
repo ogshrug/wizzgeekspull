@@ -1,0 +1,28 @@
+{
+  "id": "6a22c01c864be73cfcf6d2f3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "LA",
+  "question": "The median of an equilateral triangle is increasing at the rate of $2\\sqrt{3}~cm/s$. Find the rate at which its side is increasing.",
+  "answeroption": "",
+  "explanation": "**Step 1 (Understanding the geometry and establishing the relationship):** In an equilateral triangle, all three sides are equal in length, and all three medians are also equal in length. The median of an equilateral triangle is unique because it coincides with the altitude, angle bisector, and perpendicular bisector. For an equilateral triangle with side length $a$, the median (or altitude) $h$ can be derived using the Pythagorean theorem. If we drop a median from one vertex to the midpoint of the opposite side, we obtain a right triangle with hypotenuse $a$, one leg $a/2$ (half the base), and the other leg equal to the median $h$. Applying the Pythagorean theorem: $h^2 + \\left(\\frac{a}{2}\\right)^2 = a^2$. This simplifies to $h^2 + \\frac{a^2}{4} = a^2 \\implies h^2 = a^2 - \\frac{a^2}{4} = \\frac{3a^2}{4}$. Taking the positive square root (since lengths are positive) gives $h = \\frac{\\sqrt{3}}{2}a$. This is the fundamental geometric relationship between the median $h$ and the side $a$ of an equilateral triangle.\n\n**Step 2 (Differentiating with respect to time):** The problem involves rates of change over time. Both the median $h$ and the side $a$ change as the triangle grows or shrinks. Therefore, we treat $h$ and $a$ as functions of time $t$. Differentiating both sides of the equation $h = \\frac{\\sqrt{3}}{2}a$ with respect to $t$, we obtain $\\frac{dh}{dt} = \\frac{\\sqrt{3}}{2} \\cdot \\frac{da}{dt}$. The constant $\\frac{\\sqrt{3}}{2}$ remains unchanged during differentiation, and we apply the chain rule to $a(t)$. This differential equation relates the rate of change of the median to the rate of change of the side.\n\n**Step 3 (Substituting the given rate and solving):** We are told in the problem statement that the median is increasing at the rate of $2\\sqrt{3}~\\text{cm/s}$. This means $\\frac{dh}{dt} = 2\\sqrt{3}$. Substitute this value into the differentiated equation: $2\\sqrt{3} = \\frac{\\sqrt{3}}{2} \\cdot \\frac{da}{dt}$. To solve for $\\frac{da}{dt}$, first cancel $\\sqrt{3}$ from both sides (since $\\sqrt{3} \\neq 0$). This yields $2 = \\frac{1}{2} \\cdot \\frac{da}{dt}$. Multiplying both sides by $2$ gives $\\frac{da}{dt} = 4$. Therefore, the side of the equilateral triangle is increasing at a rate of $4~\\text{cm/s}$. Note that the units are consistent: $\\frac{da}{dt}$ is expressed in cm/s because $\\frac{dh}{dt}$ was given in cm/s and the constant $\\frac{\\sqrt{3}}{2}$ is dimensionless.\n\n**Final Answer:** The side is increasing at $4~\\text{cm/s}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-2",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

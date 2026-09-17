@@ -1,0 +1,29 @@
+{
+  "id": "69a9212e64fcf4cdd5b4bb26",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "SA",
+  "question": "Formulate the LPP, find all feasible vertices and compute the minimum value of $Z = 5x + 7y$ subject to $2x + 3y \\geq 12$, $x + 2y \\geq 8$, $x \\geq 0, y \\geq 0$. Determine whether there could be multiple optimal solutions.",
+  "answeroption": "A",
+  "explanation": "Step 1: Constraints are $2x+3y \\geq 12$, $x+2y \\geq 8$, $x,y \\geq 0$. Objective: Minimize $Z=5x+7y$.<br /><br />Step 2: Find intersections.<br /><br />$2x+3y=12$, $x+2y=8$.<br /><br />Multiply second equation by 2: $2x+4y=16$.<br /><br />Subtract: $2x+4y-(2x+3y)=y=4$.<br /><br />Then $x+2×4=8\\implies x=0$. So vertex $(0,4)$.<br /><br />Check $y=0$ in $2x+3y=12\\implies x=6$. But $6+0\\ngeq8$ so not feasible.<br /><br />Check $y=0$ in $x+2y=8\\implies x=8$. This satisfies $2x+3y≥12$.<br /><br />Vertices: $(0,4)$ and $(8,0)$.<br /><br />Compute $Z$.<br /><br />$(0,4): Z=28$.<br /><br />$(8,0): Z=40$.<br /><br />Minimum value $Z=28$ at $(0,4)$. Unique minimum; no alternate optimal solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "Minimum value $=28$ at $(0,4)$; unique minimum.",
+    "B": "Minimum value $=40$ at $(8,0)$; unique minimum.",
+    "C": "Minimum value $=0$ at $(0,0)$; multiple optimal solutions.",
+    "D": "Minimum value $=28$ at $(8,0)$; no alternate optimal solution."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:22:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

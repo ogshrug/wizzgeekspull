@@ -1,0 +1,32 @@
+{
+  "id": "6a8d7a8358a28138a48f0d79",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let $A$ be the set of all points in a plane and define a relation $R$ on $A$ by $PRQ$ if the distance of $P$ from the origin is equal to the distance of $Q$ from the origin. Prove that $R$ is an equivalence relation and hence determine the set of all points related to $P=(3,4)$.",
+  "answeroption": "C",
+  "explanation": "<b>Reflexivity</b><br>For every point $P\\in A$, the distance of $P$ from the origin is equal to itself. Hence, $PRP$, and therefore $R$ is reflexive.<br><br><b>Symmetry</b><br>Suppose $PRQ$. Then the distance of $P$ from the origin equals the distance of $Q$ from the origin. Equality is symmetric, so the distance of $Q$ from the origin equals the distance of $P$ from the origin. Thus, $QRP$, and $R$ is symmetric.<br><br><b>Transitivity</b><br>Suppose $PRQ$ and $QRS$. Then the distance of $P$ from the origin equals the distance of $Q$ from the origin, and the distance of $Q$ from the origin equals the distance of $S$ from the origin. Hence, the distance of $P$ from the origin equals the distance of $S$ from the origin. Therefore, $PRS$, so $R$ is transitive.<br><br><b>Determination of related points</b><br>The distance of $P=(3,4)$ from the origin is<br>$$\\sqrt{3^2+4^2}=5.$$<br>Let $Q=(x,y)$ be any point related to $P$. Then its distance from the origin must also be $5$, so<br>$$\\sqrt{x^2+y^2}=5.$$<br>Squaring gives<br>$$x^2+y^2=25.$$<br>Therefore, the set of all points related to $P$ is<br>$$\\{(x,y)\\in\\mathbb{R}^2:x^2+y^2=25\\}.$$<br><br><b>Final Result</b><br>Since $R$ is reflexive, symmetric and transitive, it is an equivalence relation. All points related to $(3,4)$ are precisely those satisfying $x^2+y^2=25$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is an equivalence relation, and the points related to $(3,4)$ satisfy $x^2+y^2=5$",
+    "B": "$R$ is not an equivalence relation, and the points related to $(3,4)$ satisfy $x+y=7$",
+    "C": "$R$ is an equivalence relation, and the points related to $(3,4)$ form the set $\\{(x,y)\\in\\mathbb{R}^2:x^2+y^2=25\\}$",
+    "D": "$R$ is an equivalence relation, and only the points $(3,4)$ and $(-3,-4)$ are related to $(3,4)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a33b7bb6dbc98396e70a7bf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "VSA",
+  "question": "Let the volume of a metallic hollow sphere be constant. If the inner radius increases at the rate of 2 cm/s, find the rate of increase of the outer radius when the radii are 2 cm and 4 cm respectively.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $r$ be the inner radius and $R$ be the outer radius. The volume of a hollow sphere is $V=\\frac{4}{3}\\pi(R^3-r^3)$. Since the volume is constant, $\\frac{dV}{dt}=0$.<br />**Step 2:** Differentiate implicitly with respect to time: $\\frac{dV}{dt}=\\frac{4}{3}\\pi\\left(3R^2\\frac{dR}{dt}-3r^2\\frac{dr}{dt}\\right)=0$, giving $R^2\\frac{dR}{dt}=r^2\\frac{dr}{dt}$.<br />**Step 3:** Substitute $r=2$, $R=4$, and $\\frac{dr}{dt}=2$: $16\\frac{dR}{dt}=4\\times2=8$. Hence, $\\frac{dR}{dt}=\\frac{8}{16}=\\frac{1}{2}$ cm/s.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

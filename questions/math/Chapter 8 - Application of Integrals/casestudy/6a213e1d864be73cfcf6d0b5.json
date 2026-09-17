@@ -1,0 +1,30 @@
+{
+  "id": "6a213e1d864be73cfcf6d0b5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Roundabouts are often made on busy roads to ease the traffic and avoid red lights. One such round-about is made such that equation representing its boundary is given by $C_1: x^2 + y^2 = 64$. There is a circular pond with a fountain in the middle of the roundabout whose equation is given by $C_2: x^2 + y^2 = 4$.<br /><br />**(i)** Represent the given equations $C_1$ and $C_2$ with the help of a diagram.<br />**(ii)** Express $y$ as a function of $x$, $(y = f(x))$, for both $C_1$ and $C_2$.<br />**(iii) (a)** Using integration find the area of region covered by the roundabout.<br />OR<br />**(iii) (b)** Using integration, find the area of region covered by circular pond.",
+  "answeroption": "(i) Concentric circles at origin (ii) y = ±√(64 - x²) and y = ±√(4 - x²) (iii)(a) 64π sq units (iii)(b) 4π sq units",
+  "explanation": "**(i)** **Step 1:** The provided algebraic equation $C_1: x^2 + y^2 = 64$ represents the larger outer boundary circle of the roundabout, which is centered at the origin $(0,0)$ with a radius of $r_1 = \\sqrt{64} = 8$ units.<br />**Step 2:** The second equation $C_2: x^2 + y^2 = 4$ represents the smaller inner concentric circle delineating the pond, which is also centered at the origin $(0,0)$ but possesses a smaller radius of $r_2 = \\sqrt{4} = 2$ units. A diagram would graphically depict these as two nested concentric circles.<br /><br />**(ii)** **Step 1:** For the outer boundary defined by $C_1: x^2 + y^2 = 64$, we must isolate the variable $y$ to express it as a function of $x$. Subtracting $x^2$ from both sides gives $y^2 = 64 - x^2$. Extracting the square root yields $y = \\pm\\sqrt{64 - x^2}$.<br />**Step 2:** Following an identical algebraic procedure for the inner pond boundary $C_2: x^2 + y^2 = 4$, we subtract $x^2$ from both sides to obtain $y^2 = 4 - x^2$. Taking the square root results in the function $y = \\pm\\sqrt{4 - x^2}$.<br /><br />**(iii) (a)** **Step 1:** The total area enclosed by the roundabout circle $C_1$ exhibits perfect symmetry across all four quadrants of the Cartesian plane. Therefore, we can compute the total Area as $4 \\times \\int_{0}^{8} \\sqrt{64 - x^2} dx$.<br />**Step 2:** We utilize the standard integral formula $\\int \\sqrt{a^2 - x^2} dx = \\frac{x}{2}\\sqrt{a^2 - x^2} + \\frac{a^2}{2}\\sin^{-1}(\\frac{x}{a})$. Applying this integration technique from limits 0 to 8 yields $4 \\times [\\frac{x}{2}\\sqrt{64 - x^2} + 32\\sin^{-1}(\\frac{x}{8})]_{0}^{8}$.<br />**Step 3:** Evaluating this expression at the upper limit gives $32\\sin^{-1}(1) = 32(\\frac{\\pi}{2}) = 16\\pi$. The evaluation at the lower limit is exactly 0. Multiplying this evaluated result by 4 provides the final area of $4 \\times 16\\pi = 64\\pi$ square units.<br /><br />**(iii) (b)** **Step 1:** Similar to the larger roundabout, the area of the region covered by the circular pond $C_2$ is perfectly symmetric across all four quadrants. Consequently, the Area can be formulated as $4 \\times \\int_{0}^{2} \\sqrt{4 - x^2} dx$.<br />**Step 2:** Applying the identical standard integral formula for circular areas, we must evaluate the definite integral $4 \\times [\\frac{x}{2}\\sqrt{4 - x^2} + 2\\sin^{-1}(\\frac{x}{2})]_{0}^{2}$.<br />**Step 3:** Substituting the upper limit $x=2$ into our integrated expression results in $2\\sin^{-1}(1) = 2(\\frac{\\pi}{2}) = \\pi$. Substituting the lower limit $x=0$ safely yields 0. Multiplying this quadrant area by 4 gives the final area of the inner pond as precisely $4\\pi$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a213e1d864be73cfcf6d0b5/1782193045-0.png?t=1782212845810"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a911f504b490c7cde3595b0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "VSA",
+  "question": "For the system of constraints $2x+y \\le 8$, $x+2y \\le 8$, $x \\ge 0$ and $y \\ge 0$, determine whether the point $(3,2)$ represents a feasible solution.",
+  "answeroption": "C",
+  "explanation": "Step 1: A point is feasible only when it satisfies every constraint of the linear programming problem.<br>Step 2: Substitute $(x,y)=(3,2)$ in the first inequality: $2(3)+2=8$, so $2x+y \\le 8$ is satisfied.<br>Step 3: Substitute in the second inequality: $3+2(2)=7$, and $7 \\le 8$, so this constraint is also satisfied.<br>Step 4: The coordinates $3$ and $2$ are both non-negative, so $x \\ge 0$ and $y \\ge 0$ are satisfied.<br>Step 5: Since all the constraints hold simultaneously, $(3,2)$ lies within or on the boundary of the feasible region. Hence, $(3,2)$ is a feasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(3,2)$ is infeasible because $2x+y>8$",
+    "B": "$(3,2)$ is infeasible because $x+2y>8$",
+    "C": "$(3,2)$ is feasible because it satisfies all the constraints",
+    "D": "$(3,2)$ is infeasible because one coordinate must be zero"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

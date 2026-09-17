@@ -1,0 +1,30 @@
+{
+  "id": "69a9ab6562be6a70cd184e07",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f",
+    "69c65fc040512f018fa94d61"
+  ],
+  "question_type": "VSA",
+  "question": "Suppose $A$ and $B$ are both $2 \\times 2$ invertible matrices such that $(A+B)^2 = A^2 + 2AB + B^2$. Is this statement always true? Justify your answer.",
+  "answeroption": "D",
+  "explanation": "No, this statement is only true if $AB = BA$, i.e., $A$ and $B$ commute.<br /><br />In general, matrix multiplication is not commutative,<br /><br />so $(A+B)^2 = A^2 + AB + BA + B^2 \\ne A^2 + 2AB + B^2$ unless $AB=BA$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes, it is always true because matrix multiplication is commutative",
+    "B": "Yes, it is true for all invertible matrices only",
+    "C": "No, it is true only when $A+B=I$",
+    "D": "No, it is true only when $AB=BA$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:12:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

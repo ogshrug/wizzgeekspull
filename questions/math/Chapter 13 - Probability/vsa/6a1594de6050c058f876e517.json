@@ -1,0 +1,24 @@
+{
+  "id": "6a1594de6050c058f876e517",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "VSA",
+  "question": "A bag contains cards numbered 1 to 25. Two cards are drawn at random, one after the other, without replacement. Find the probability that the number on each card is a multiple of 7.",
+  "answeroption": "",
+  "explanation": "**Step 1: Identify sample spaces and count the successful items**<br />The total number of cards in the bag is 25. We identify and list the cards within this range that are multiples of 7:<br />$\\text{Multiples of 7} = \\{7, 14, 21\\}$<br />This gives us exactly 3 successful outcome options available inside the initial deck.<br /><br />**Step 2: Calculate the probability of the first event**<br />Let $A$ denote the event that the first card drawn is a multiple of 7. Using basic probability metrics rules:<br />$P(A) = \\frac{\\text{Number of cards that are multiples of 7}}{\\text{Total number of cards}} = \\frac{3}{25}$<br /><br />**Step 3: Calculate the conditional probability of the second event**<br />Let $B$ denote the event that the second card drawn is a multiple of 7. Since the cards are drawn **without replacement**, the total number of remaining cards drops to 24, and the number of remaining multiples of 7 drops to 2. The conditional probability $P(B|A)$ is calculated as:<br />$P(B|A) = \\frac{2}{24} = \\frac{1}{12}$<br /><br />**Step 4: Apply the Multiplication Theorem to find total probability**<br />According to the Multiplication Theorem on Probability, the total joint probability for both events occurring sequentially is:<br />$P(A \\cap B) = P(A) \\cdot P(B|A) = \\frac{3}{25} \\cdot \\frac{1}{12} = \\frac{3}{300} = \\frac{1}{100}$<br />Therefore, the probability that both chosen cards are multiples of 7 is **0.01 (or $\\frac{1}{100}$)**.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

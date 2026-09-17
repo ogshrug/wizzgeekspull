@@ -1,0 +1,31 @@
+{
+  "id": "6a913acf2e54880055a0a797",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c6",
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "LA",
+  "question": "The position vectors of the points $A$, $B$ and $C$ are $\\hat{i}+2\\hat{k}$, $3\\hat{i}-\\hat{j}+4\\hat{k}$ and $2\\hat{j}+5\\hat{k}$, respectively.(a) Obtain the component forms of $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$.(b) Find a vector perpendicular to both $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$ and verify the perpendicularity.(c) Determine the area of triangle $ABC$.",
+  "answeroption": "D",
+  "explanation": "(a)The coordinates of the points are $A(1,0,2)$, $B(3,-1,4)$ and $C(0,2,5)$. Therefore,`\\overrightarrow{AB}=(3-1)\\hat{i}+(-1-0)\\hat{j}+(4-2)\\hat{k}\\overrightarrow{AB}=2\\hat{i}-\\hat{j}+2\\hat{k}`Also,`\\overrightarrow{AC}=(0-1)\\hat{i}+(2-0)\\hat{j}+(5-2)\\hat{k}\\overrightarrow{AC}=-\\hat{i}+2\\hat{j}+3\\hat{k}`(b)A vector perpendicular to both vectors is their cross product.\\\\overrightarrow{AB}\\\\times\\\\overrightarrow{AC}=\\\\begin{vmatrix}\\\\hat{i} & \\\\hat{j} & \\\\hat{k}\\\\\\\\2 & -1 & 2\\\\\\\\-1 & 2 & 3\\\\end{vmatrix}`\\overrightarrow{AB}\\times\\overrightarrow{AC}=-7\\hat{i}-8\\hat{j}+3\\hat{k}`Verification with $\\overrightarrow{AB}$ gives`(-7)(2)+(-8)(-1)+(3)(2)=-14+8+6=0`Verification with $\\overrightarrow{AC}$ gives`(-7)(-1)+(-8)(2)+(3)(3)=7-16+9=0`Hence, the cross product is perpendicular to both vectors.(c)The area of triangle $ABC$ is`\\frac{1}{2}|\\overrightarrow{AB}\\times\\overrightarrow{AC}|=\\frac{1}{2}\\sqrt{(-7)^2+(-8)^2+3^2}=\\frac{\\sqrt{122}}{2}`Final ResultThe area of triangle $ABC$ is $\\frac{\\sqrt{122}}{2}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\overrightarrow{AB}=2\\hat{i}+\\hat{j}+2\\hat{k}$, $\\overrightarrow{AC}=-\\hat{i}+2\\hat{j}+3\\hat{k}$<br>(b) A perpendicular vector is $-7\\hat{i}+8\\hat{j}+3\\hat{k}$.<br>(c) Area $=\\frac{\\sqrt{122}}{2}$.",
+    "B": "(a) $\\overrightarrow{AB}=2\\hat{i}-\\hat{j}+2\\hat{k}$, $\\overrightarrow{AC}=\\hat{i}-2\\hat{j}-3\\hat{k}$<br>(b) A perpendicular vector is $7\\hat{i}+8\\hat{j}-3\\hat{k}$.<br>(c) Area $=\\sqrt{122}$.",
+    "C": "(a) $\\overrightarrow{AB}=2\\hat{i}-\\hat{j}+2\\hat{k}$, $\\overrightarrow{AC}=-\\hat{i}+2\\hat{j}+3\\hat{k}$<br>(b) Their cross product is $-7\\hat{i}-8\\hat{j}+3\\hat{k}$.<br>(c) Area $=\\sqrt{122}$.",
+    "D": "(a) $\\overrightarrow{AB}=2\\hat{i}-\\hat{j}+2\\hat{k}$, $\\overrightarrow{AC}=-\\hat{i}+2\\hat{j}+3\\hat{k}$<br>(b) $\\overrightarrow{AB}\\times\\overrightarrow{AC}=-7\\hat{i}-8\\hat{j}+3\\hat{k}$, which is perpendicular to both.<br>(c) Area $=\\frac{\\sqrt{122}}{2}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

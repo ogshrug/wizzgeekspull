@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed6d54b490c7cde359495",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "SA",
+  "question": "The measured radius of a circular plate is $2\\%$ greater than its actual radius. Estimate the percentage error in the calculated area and state whether the area is overestimated or underestimated.",
+  "answeroption": "D",
+  "explanation": "<b>Area relation</b><br>$$A=\\pi r^2$$<br><b>Relative differential</b><br>Differentiating and dividing by $A$,<br>$$dA=2\\pi r\\,dr$$<br>$$\\frac{dA}{A}=2\\frac{dr}{r}$$<br><b>Percentage-error relation</b><br>Therefore,<br>$$\\frac{dA}{A}\\times100=2\\left(\\frac{dr}{r}\\times100\\right)$$<br><b>Substitution</b><br>The radius has a positive error of $2\\%$. Hence, the approximate percentage error in area is<br>$$2(2\\%)=4\\%$$<br><b>Conclusion</b><br>The calculated area has an approximate positive error of $4\\%$. Therefore, the area is overestimated.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2\\%$ error; area is overestimated",
+    "B": "$4\\%$ error; area is underestimated",
+    "C": "$8\\%$ error; area is overestimated",
+    "D": "$4\\%$ error; area is overestimated"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

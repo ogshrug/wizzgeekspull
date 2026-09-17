@@ -1,0 +1,30 @@
+{
+  "id": "69a9b4626638848124d7c983",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e766d837c8c7efa6b8c0"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\vec{a}=2\\hat{i}+\\hat{j}-\\hat{k}$ and $\\vec{b}=\\hat{i}-2\\hat{j}+3\\hat{k}$, find a unit vector perpendicular to both $\\vec{a}$ and $\\vec{b}$, with positive $\\hat{k}$ component.",
+  "answeroption": "C",
+  "explanation": "Unit vector $\\propto \\vec{a} \\times \\vec{b}$<br /><br />$\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 1 & -1 \\\\ 1 & -2 & 3 \\end{vmatrix}$<br /><br />$= [1\\times3-(-1)\\times(-2)]\\hat{i} - [2\\times3-(-1)\\times1]\\hat{j} + [2\\times(-2)-1\\times1]\\hat{k}$<br /><br />$= (3-2)\\hat{i} - (6+1)\\hat{j} + (-4-1)\\hat{k}$<br /><br />$= 1\\hat{i} - 7\\hat{j} - 5\\hat{k}$<br /><br />But $\\hat{k}$ coefficient is negative, so take negative:<br /><br />$-(\\hat{i} - 7\\hat{j} - 5\\hat{k}) = -\\hat{i} + 7\\hat{j} + 5\\hat{k}$<br /><br />Magnitude $= \\sqrt{1+49+25} = \\sqrt{75} = 5\\sqrt{3}$<br /><br />So unit vector:<br /><br />$\\frac{-\\hat{i} + 7\\hat{j} + 5\\hat{k}}{5\\sqrt{3}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\hat{i}-7\\hat{j}-5\\hat{k}}{5\\sqrt{3}}$",
+    "B": "$\\frac{-\\hat{i}+7\\hat{j}-5\\hat{k}}{5\\sqrt{3}}$",
+    "C": "$\\frac{-\\hat{i}+7\\hat{j}+5\\hat{k}}{5\\sqrt{3}}$",
+    "D": "$\\frac{\\hat{i}+7\\hat{j}+5\\hat{k}}{5\\sqrt{3}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:50:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

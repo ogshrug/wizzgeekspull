@@ -1,0 +1,29 @@
+{
+  "id": "69a9209f575fa42e09444850",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d9"
+  ],
+  "question_type": "VSA",
+  "question": "Write the objective function and constraints in standard form for the following situation: A company produces tables and chairs. Each table requires 4 hours in carpentry and 2 hours in painting. Each chair requires 3 hours in carpentry and 2 hours in painting. The maximum available hours are 40 for carpentry and 20 for painting. Let profit per table be Rs 50 and per chair Rs 30. Find the LPP to maximize profit.",
+  "answeroption": "A",
+  "explanation": "Let $x =$ number of tables, $y =$ number of chairs.<br /><br />Objective function:<br /><br />Maximize $Z = 50x + 30y$<br /><br />Constraints:<br /><br />$4x + 3y \\leq 40$<br /><br />$2x + 2y \\leq 20$<br /><br />$x \\geq 0, \\; y \\geq 0$",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximize $Z=50x+30y$ subject to $4x+3y\\leq40$, $2x+2y\\leq20$, $x\\geq0$, $y\\geq0$",
+    "B": "Maximize $Z=30x+50y$ subject to $4x+3y\\leq40$, $2x+2y\\leq20$, $x\\geq0$, $y\\geq0$",
+    "C": "Minimize $Z=50x+30y$ subject to $4x+3y\\geq40$, $2x+2y\\geq20$, $x\\geq0$, $y\\geq0$",
+    "D": "Maximize $Z=50x+30y$ subject to $3x+4y\\leq40$, $2x+2y\\leq20$, $x\\geq0$, $y\\geq0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:20:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

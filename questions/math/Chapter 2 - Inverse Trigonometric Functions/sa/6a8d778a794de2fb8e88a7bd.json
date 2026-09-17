@@ -1,0 +1,29 @@
+{
+  "id": "6a8d778a794de2fb8e88a7bd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Show that $$\\cos^{-1}\\left(\\frac{5}{13}\\right)=\\tan^{-1}\\left(\\frac{12}{5}\\right).$$",
+  "answeroption": "D",
+  "explanation": "<b>Assignment of the inverse cosine angle</b><br>Let $$\\theta=\\cos^{-1}\\left(\\frac{5}{13}\\right).$$ Since the argument is positive, $\\theta\\in\\left(0,\\frac{\\pi}{2}\\right)$ and $$\\cos\\theta=\\frac{5}{13}.$$<br><br><b>Determination of the sine value</b><br>Using $\\sin^2\\theta+\\cos^2\\theta=1$, $$\\sin\\theta=\\sqrt{1-\\frac{25}{169}}=\\sqrt{\\frac{144}{169}}=\\frac{12}{13}.$$ The positive root is selected because $\\theta$ is acute.<br><br><b>Determination of the tangent value</b><br>Therefore, $$\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}=\\frac{12/13}{5/13}=\\frac{12}{5}.$$<br><br><b>Principal range verification</b><br>Since $\\theta\\in\\left(0,\\frac{\\pi}{2}\\right)$, it lies in the principal range of $\\tan^{-1}x$. Hence, $$\\theta=\\tan^{-1}\\left(\\frac{12}{5}\\right).$$<br><br><b>Established result</b><br>Thus, $$\\cos^{-1}\\left(\\frac{5}{13}\\right)=\\tan^{-1}\\left(\\frac{12}{5}\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan^{-1}\\left(\\frac{5}{12}\\right)$",
+    "B": "$\\tan^{-1}\\left(\\frac{13}{12}\\right)$",
+    "C": "$\\tan^{-1}\\left(\\frac{12}{13}\\right)$",
+    "D": "$\\tan^{-1}\\left(\\frac{12}{5}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

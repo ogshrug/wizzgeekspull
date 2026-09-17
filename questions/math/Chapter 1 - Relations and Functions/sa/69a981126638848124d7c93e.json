@@ -1,0 +1,30 @@
+{
+  "id": "69a981126638848124d7c93e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Let $f: \\mathbb{R} \\to (-1,1), f(x) = \\frac{x}{1+|x|}$. Prove that $f$ is bijective.",
+  "answeroption": "C",
+  "explanation": "Injective: Suppose $f(a) = f(b)$.<br /><br />$\\frac{a}{1+|a|} = \\frac{b}{1+|b|}$<br /><br />Suppose $a, b \\geq 0$: $\\frac{a}{1+a} = \\frac{b}{1+b} \\implies a(1+b) = b(1+a) \\implies a + ab = b + ab \\implies a = b$.<br /><br />Similarly for negative $a, b$; and opposite cases can be ruled out since then $f(a) < 0 < f(b)$ or vice versa.<br /><br />So, injective.<br /><br />Surjective: For any $y \\in (-1,1)$, set up $y = \\frac{x}{1+|x|}$.<br /><br />Case 1: $x \\geq 0$,<br /><br />$y = \\frac{x}{1+x}$, $x = \\frac{y}{1-y}$ ($y \\in [0,1)$)<br /><br />Case 2: $x < 0$,<br /><br />$y = \\frac{x}{1-x}$, $x = \\frac{y}{1+y}$ ($y \\in (-1,0)$)<br /><br />Thus, for every $y \\in (-1,1)$, there exists such an $x$, so $f$ is surjective.<br /><br />Conclusion: $f$ is bijective.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one but not onto",
+    "B": "$f$ is onto but not one-one",
+    "C": "$f$ is both one-one and onto, so it is bijective",
+    "D": "$f$ is neither one-one nor onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:11:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

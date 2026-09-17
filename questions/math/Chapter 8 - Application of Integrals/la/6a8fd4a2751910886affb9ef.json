@@ -1,0 +1,32 @@
+{
+  "id": "6a8fd4a2751910886affb9ef",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995",
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "The latus rectum $x=2$ of the parabola $y^2=8x$ encloses a finite region with the parabola. Determine the points at which the latus rectum meets the parabola, identify the boundaries when integrating with respect to $y$, and hence calculate the exact area of the enclosed region.",
+  "answeroption": "C",
+  "explanation": "Points of IntersectionSubstituting $x=2$ in $y^2=8x$ gives`y^2=16y=\\pm4`Hence, the points of intersection are $\\left(2,4\\right)$ and $\\left(2,-4\\right)$.Formation of the Area IntegralExpressing the parabola in terms of $x$ gives`x=\\frac{y^2}{8}`For $-4\\leq y\\leq4$, the line $x=2$ is the right boundary and the parabola $x=\\frac{y^2}{8}$ is the left boundary. Therefore,`A=\\int_{-4}^{4}\\left(2-\\frac{y^2}{8}\\right)dy`Since the integrand is even,`A=2\\int_0^4\\left(2-\\frac{y^2}{8}\\right)dy`Evaluation`A=2\\left[2y-\\frac{y^3}{24}\\right]_0^4A=2\\left(8-\\frac{64}{24}\\right)A=2\\left(8-\\frac{8}{3}\\right)=\\frac{32}{3}`Final ResultThe area enclosed by the parabola and its latus rectum is $\\frac{32}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "Intersections $(2,\\pm2)$; right boundary $x=2$; left boundary $x=\\frac{y^2}{8}$; area $=\\frac{32}{3}$ square units",
+    "B": "Intersections $(2,\\pm4)$; right boundary $x=\\frac{y^2}{8}$; left boundary $x=2$; area $=\\frac{32}{3}$ square units",
+    "C": "Intersections $(2,\\pm4)$; right boundary $x=2$; left boundary $x=\\frac{y^2}{8}$; area $=\\frac{32}{3}$ square units",
+    "D": "Intersections $(2,\\pm4)$; right boundary $x=2$; left boundary $x=\\frac{y^2}{8}$; area $=\\frac{16}{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

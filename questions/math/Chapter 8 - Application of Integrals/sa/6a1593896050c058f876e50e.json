@@ -1,0 +1,25 @@
+{
+  "id": "6a1593896050c058f876e50e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "SA",
+  "question": "Using integration, find the area of the region bounded by the parabola $y^{2}=4x$, the lines $x=0$ and $x=3$ and the x-axis.",
+  "answeroption": "",
+  "explanation": "**Step 1: Set up the area integration structure**<br />The region is bounded by a rightward-opening parabola $y^2 = 4x$. Since it is bounded by the horizontal axis in the first quadrant, we isolate $y$ as a function of $x$: $y = \\sqrt{4x} = 2\\sqrt{x}$. The horizontal integration bounds are given directly as $x = 0$ and $x = 3$.<br /><br />**Step 2: Construct the definite integral expression**<br />The area under the curve is calculated using a standard definite integral:<br />$\\text{Area} = \\int_{0}^{3} y \\, dx = \\int_{0}^{3} 2\\sqrt{x} \\, dx$<br /><br />**Step 3: Integrate using the Power Rule**<br />Convert the radical term into a fractional exponent and apply the integration Power Rule:<br />$\\text{Area} = 2 \\int_{0}^{3} x^{1/2} \\, dx = 2 \\cdot \\left[ \\frac{x^{3/2}}{3/2} \\right]_{0}^{3} = 2 \\cdot \\frac{2}{3} \\cdot \\left[ x^{3/2} \\right]_{0}^{3} = \\frac{4}{3} \\left[ x^{3/2} \\right]_{0}^{3}$<br /><br />**Step 4: Evaluate at the boundaries**<br />Substitute our upper and lower integration limits:<br />$\\text{Area} = \\frac{4}{3} \\left( 3^{3/2} - 0^{3/2} \\right)$<br />Since $3^{3/2} = 3\\sqrt{3}$:<br />$\\text{Area} = \\frac{4}{3} \\cdot 3\\sqrt{3} = 4\\sqrt{3}\\text{ square units}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

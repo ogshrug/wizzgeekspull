@@ -1,0 +1,30 @@
+{
+  "id": "69a9c88f6638848124d7c9ba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "VSA",
+  "question": "Express the matrix $A = \\begin{bmatrix}7 & 5 \\\\ 1 & 3\\end{bmatrix}$ as the sum of a symmetric matrix and a skew-symmetric matrix.",
+  "answeroption": "B",
+  "explanation": "$A' = \\begin{bmatrix}7 & 1 \\\\ 5 & 3\\end{bmatrix}$<br /><br />$S = \\frac{1}{2}(A + A') = \\frac{1}{2}\\begin{bmatrix}14 & 6 \\\\ 6 & 6\\end{bmatrix} = \\begin{bmatrix}7 & 3 \\\\ 3 & 3\\end{bmatrix}$<br /><br />$K = \\frac{1}{2}(A - A') = \\frac{1}{2}\\begin{bmatrix}0 & 4 \\\\ -4 & 0\\end{bmatrix} = \\begin{bmatrix}0 & 2 \\\\ -2 & 0\\end{bmatrix}$<br /><br />Thus $A = S + K$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A=\\begin{bmatrix}7&5\\\\5&3\\end{bmatrix}+\\begin{bmatrix}0&0\\\\-4&0\\end{bmatrix}$",
+    "B": "$A=\\begin{bmatrix}7&3\\\\3&3\\end{bmatrix}+\\begin{bmatrix}0&2\\\\-2&0\\end{bmatrix}$",
+    "C": "$A=\\begin{bmatrix}7&2\\\\2&3\\end{bmatrix}+\\begin{bmatrix}0&3\\\\-1&0\\end{bmatrix}$",
+    "D": "$A=\\begin{bmatrix}0&2\\\\-2&0\\end{bmatrix}+\\begin{bmatrix}7&5\\\\1&3\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:16:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

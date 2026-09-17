@@ -1,0 +1,30 @@
+{
+  "id": "6a8c721a1cb3824448de86ad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "(a) Prove that $\\tan^{-1}x+\\tan^{-1}\\left(\\dfrac{1}{x}\\right)=\\dfrac{\\pi}{2}$ when $x>0$ and equals $-\\dfrac{\\pi}{2}$ when $x<0$.<br><br>(b) Use the established result to evaluate $\\tan^{-1}(-2)+\\tan^{-1}\\left(-\\dfrac{1}{2}\\right)$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Let<br>$$A=\\tan^{-1}x,\\qquad B=\\tan^{-1}\\left(\\frac{1}{x}\\right)$$<br>Then<br>$$\\tan A=x,\\qquad\\tan B=\\frac{1}{x}$$<br>Using the tangent addition formula,<br>$$\\tan(A+B)=\\frac{x+\\frac{1}{x}}{1-x\\cdot\\frac{1}{x}}$$<br>The denominator is $0$, so $A+B$ is an odd multiple of $\\dfrac{\\pi}{2}$. Since both $A$ and $B$ lie in $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$, their sum lies in $(-\\pi,\\pi)$.<br>When $x>0$, both $A$ and $B$ are positive, so $A+B>0$. Hence,<br>$$A+B=\\frac{\\pi}{2}$$<br>When $x<0$, both angles are negative, so $A+B<0$. Hence,<br>$$A+B=-\\frac{\\pi}{2}$$<br>Therefore,<br>$$\\tan^{-1}x+\\tan^{-1}\\left(\\frac{1}{x}\\right)=\\begin{cases}\\dfrac{\\pi}{2}, & x>0\\\\-\\dfrac{\\pi}{2}, & x<0\\end{cases}$$<br><br><b>(b)</b><br>Taking $x=-2$, we have $x<0$ and $\\dfrac{1}{x}=-\\dfrac{1}{2}$. Therefore,<br>$$\\tan^{-1}(-2)+\\tan^{-1}\\left(-\\frac{1}{2}\\right)=-\\frac{\\pi}{2}$$<br>Hence, the required value is $-\\dfrac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\tan^{-1}x+\\tan^{-1}\\left(\\dfrac{1}{x}\\right)=\\begin{cases}\\dfrac{\\pi}{2}, & x>0\\\\-\\dfrac{\\pi}{2}, & x<0\\end{cases}$<br><br>(b) $-\\dfrac{\\pi}{2}$",
+    "B": "(a) $\\tan^{-1}x+\\tan^{-1}\\left(\\dfrac{1}{x}\\right)=\\dfrac{\\pi}{2}$ for every $x\\neq0$<br><br>(b) $\\dfrac{\\pi}{2}$",
+    "C": "(a) $\\tan^{-1}x+\\tan^{-1}\\left(\\dfrac{1}{x}\\right)=\\begin{cases}-\\dfrac{\\pi}{2}, & x>0\\\\\\dfrac{\\pi}{2}, & x<0\\end{cases}$<br><br>(b) $\\dfrac{\\pi}{2}$",
+    "D": "(a) $\\tan^{-1}x+\\tan^{-1}\\left(\\dfrac{1}{x}\\right)=0$ for every $x\\neq0$<br><br>(b) $0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

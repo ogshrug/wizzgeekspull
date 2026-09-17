@@ -1,0 +1,33 @@
+{
+  "id": "6a22a097864be73cfcf6d263",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "MCQ",
+  "question": "If inverse of matrix $\\begin{bmatrix}7&-3&-3\\\\ -1&1&0\\\\ -1&0&1\\end{bmatrix}$ is the matrix $\\begin{bmatrix}1&3&3\\\\ 1&\\lambda&3\\\\ 1&3&4\\end{bmatrix}$, then value of $\\lambda$ is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Let $A = \\begin{bmatrix}7&-3&-3\\\\ -1&1&0\\\\ -1&0&1\\end{bmatrix}$ and its inverse $A^{-1} = \\begin{bmatrix}1&3&3\\\\ 1&\\lambda&3\\\\ 1&3&4\\end{bmatrix}$. The core property of inverse matrices is $A \\cdot A^{-1} = I$, where $I$ is the identity matrix.<br />**Step 2:** To find the unknown $\\lambda$, we don't need to compute the entire product matrix. We can just pick an element that involves $\\lambda$ and equate it to the corresponding element in the identity matrix.<br />**Step 3:** The element $\\lambda$ is in the 2nd column of $A^{-1}$. Let's compute the element at position (2,2) of the product matrix $A \\cdot A^{-1}$.<br />**Step 4:** The (2,2) element is formed by multiplying the 2nd row of $A$ by the 2nd column of $A^{-1}$. This calculation is $(-1)(3) + (1)(\\lambda) + (0)(3) = -3 + \\lambda$.<br />**Step 5:** In the identity matrix, the element at position (2,2) is $1$. Therefore, we equate our result to 1: $-3 + \\lambda = 1$. Solving this yields $\\lambda = 4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "-4",
+    "B": "1",
+    "C": "3",
+    "D": "4"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

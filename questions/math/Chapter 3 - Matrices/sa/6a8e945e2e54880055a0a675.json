@@ -1,0 +1,30 @@
+{
+  "id": "6a8e945e2e54880055a0a675",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d59",
+    "69c65fc040512f018fa94d5a"
+  ],
+  "question_type": "SA",
+  "question": "A matrix $$A=\\begin{bmatrix}2 & 4 \\\\ 1 & 3\\end{bmatrix}$$ is transformed by $R_1\\rightarrow \\frac{1}{2}R_1$ and then $R_2\\rightarrow R_2-R_1$. Find the final matrix and identify the type of elementary operation used at each stage.",
+  "answeroption": "A",
+  "explanation": "<b>Multiplication of a row by a non-zero number</b><br>Applying $R_1\\rightarrow \\frac{1}{2}R_1$, $$\\begin{bmatrix}2 & 4 \\\\ 1 & 3\\end{bmatrix}\\rightarrow\\begin{bmatrix}1 & 2 \\\\ 1 & 3\\end{bmatrix}$$<br>This is multiplication of a row by the non-zero scalar $\\frac{1}{2}$.<br><b>Addition of a multiple of one row to another</b><br>Applying $R_2\\rightarrow R_2-R_1$, $$\\begin{bmatrix}1 & 2 \\\\ 1 & 3\\end{bmatrix}\\rightarrow\\begin{bmatrix}1 & 2 \\\\ 0 & 1\\end{bmatrix}$$<br>The second operation adds $-1$ times the first row to the second row.<br><b>Final matrix</b><br>$$\\begin{bmatrix}1 & 2 \\\\ 0 & 1\\end{bmatrix}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}$; first operation scales $R_1$ by $\\frac12$, second adds $-R_1$ to $R_2$.",
+    "B": "$\\begin{bmatrix}1&2\\\\1&1\\end{bmatrix}$; both operations are row interchanges.",
+    "C": "$\\begin{bmatrix}1&2\\\\0&3\\end{bmatrix}$; first operation interchanges rows, second scales $R_2$.",
+    "D": "$\\begin{bmatrix}2&4\\\\-1&1\\end{bmatrix}$; first operation adds rows, second interchanges rows."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

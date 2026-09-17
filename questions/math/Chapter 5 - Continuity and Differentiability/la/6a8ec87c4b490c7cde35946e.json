@@ -1,0 +1,29 @@
+{
+  "id": "6a8ec87c4b490c7cde35946e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d88"
+  ],
+  "question_type": "LA",
+  "question": "Verify the Mean Value Theorem for the function $$f(x)=x^2-2x+3$$ on the interval $[1,4]$, and determine the value of $c\\in(1,4)$ for which $$f'(c)=\\frac{f(4)-f(1)}{4-1}.$$",
+  "answeroption": "B",
+  "explanation": "<b>Required Conditions</b><br>The Mean Value Theorem states that if $f$ is continuous on $[a,b]$ and differentiable on $(a,b)$, then there exists at least one $c\\in(a,b)$ such that $$f'(c)=\\frac{f(b)-f(a)}{b-a}.$$ The function $$f(x)=x^2-2x+3$$ is a polynomial function. Therefore, it is continuous on $[1,4]$ and differentiable on $(1,4)$. Hence, the hypotheses of the Mean Value Theorem are satisfied.<br><br><b>Evaluation of the Average Rate</b><br>We have $$f(1)=1-2+3=2$$ and $$f(4)=16-8+3=11.$$ Therefore, $$\\frac{f(4)-f(1)}{4-1}=\\frac{11-2}{3}=3.$$<br><br><b>Determination of $c$</b><br>Differentiating the function, $$f'(x)=2x-2.$$ By the Mean Value Theorem, we require $$f'(c)=3.$$ Therefore, $$2c-2=3,$$ so $$2c=5$$ and hence $$c=\\frac{5}{2}.$$ Since $$1<\\frac{5}{2}<4,$$ this value belongs to the required open interval.<br><br><b>Final Result</b><br>Thus, the Mean Value Theorem is verified for the given function on $[1,4]$, and the required value is $$c=\\frac{5}{2}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "The Mean Value Theorem is verified and $c=2$.",
+    "B": "The Mean Value Theorem is verified and $c=\\frac{5}{2}$.",
+    "C": "The Mean Value Theorem is verified and $c=3$.",
+    "D": "The Mean Value Theorem is not applicable on $[1,4]$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69aa7a19320763ee1b040677",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A beverage firm must mix two juices (A and B). Each litre of A has 2 units vitamin, 4 units mineral; B has 3 vitamin, 2 mineral. At least 12 units vitamin, 16 units mineral are needed. A costs ₹10/litre, B ₹20/litre. Aim: minimize cost.<br /><br />(a) Formulate as LPP.<br /><br />(b) Sketch region, identify corners.<br /><br />(c) What blend minimizes cost?",
+  "answeroption": "A",
+  "explanation": "Let $x=$ litres of A, $y=$ litres of B<br /><br />(a) LPP:<br /><br />Min $Z=10x+20y$<br /><br />$2x+3y\\geq12$<br /><br />$4x+2y\\geq16$<br /><br />$x,y\\geq0$<br /><br />(b) $2x+3y=12\\implies x=(12-3y)/2$<br /><br />$4x+2y=16\\implies2x+y=8\\implies y=8-2x$<br /><br />Intersection:<br /><br />$2x+3y=12$<br /><br />$2x+y=8$<br /><br />$2x+3y=12$<br /><br />$2x+y=8$<br /><br />Subtract: $2x+3y-(2x+y)=12-8\\implies 2y=4\\implies y=2$<br /><br />So $2x+2=8\\implies2x=6\\implies x=3$<br /><br />But $2x+3*2=6+6=12$, so ok.<br /><br />Similarly, $x$- and $y$-intercepts. $x=6$ in $4x+2y=16$: $y=0$; $y=8$ in $2x+3y=12$: $y=4$, $x=0$. Test which feasible.<br /><br />Trying the intersection point $(3,2)$: $2*3+3*2=6+6=12$, $4*3+2*2=12+4=16$ ok.<br /><br />Test (0,8): $2*0+3*8=24>12$, $4*0+2*8=16\\geq16$ ok.<br /><br />Test (6,0): $2*6+0=12$, $4*6+0=24>16$ ok.<br /><br />At (0,8): $Z=10*0+20*8=160$; at (6,0): $Z=60$; at (3,2): $Z=10*3+20*2=30+40=70$. Lowest at (6,0).<br /><br />But (6,0): $4*6=24\\geq16$, $2*6=12\\geq12$. Ok. (3,2) also feasible, but $Z=70$.<br /><br />So blend is $6$ litres A, $0$ litres B. Minimum cost ₹60.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Min $Z=10x+20y$ with $2x+3y\\geq12$, $4x+2y\\geq16$, $x,y\\geq0$<br />(b) Corners checked: $(3,2)$, $(0,8)$, $(6,0)$<br />(c) Blend 6 litres A and 0 litres B; minimum cost ₹60.",
+    "B": "(a) Min $Z=10x+20y$ with $2x+3y\\geq12$, $4x+2y\\geq16$, $x,y\\geq0$<br />(b) Corners checked: $(3,2)$, $(0,8)$, $(6,0)$<br />(c) Blend 3 litres A and 2 litres B; minimum cost ₹70.",
+    "C": "(a) Min $Z=10x+20y$ with $2x+3y\\geq12$, $4x+2y\\geq16$, $x,y\\geq0$<br />(b) Corners checked: $(3,2)$, $(0,8)$, $(6,0)$<br />(c) Blend 0 litres A and 8 litres B; minimum cost ₹160.",
+    "D": "(a) Min $Z=10x+20y$ with $2x+3y\\geq12$, $4x+2y\\geq16$, $x,y\\geq0$<br />(b) Corners checked: $(3,2)$, $(0,4)$, $(6,0)$<br />(c) Blend 0 litres A and 4 litres B; minimum cost ₹80."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:54:17 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

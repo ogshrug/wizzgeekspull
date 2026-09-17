@@ -1,0 +1,33 @@
+{
+  "id": "6a22974e864be73cfcf6d242",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "MCQ",
+  "question": "The degree of the differential equation $(y^{\\prime\\prime})^{2}+(y^{\\prime})^{3}=x~sin(y^{\\prime})$ is :",
+  "answeroption": "D",
+  "explanation": "**Step 1:** First, identify the order of the differential equation. The order is determined by the highest derivative present. Here, the highest derivative is $y''$ (second derivative), so the order is 2.<br />**Step 2:** The degree of a differential equation is the power to which the highest order derivative is raised, provided the equation can be expressed as a polynomial equation in its derivatives (i.e., it consists of a sum of terms where derivatives only have non-negative integer powers).<br />**Step 3:** Let's examine the terms. We have $(y'')^2$, $(y')^3$, and $x\\sin(y')$. The term $\\sin(y')$ involves a transcendental function applied to a derivative. This cannot be expanded into a finite polynomial of derivatives.<br />**Step 4:** Because the differential equation cannot be expressed strictly as a polynomial in its derivatives due to the $\\sin(y')$ term, its degree is not defined mathematically according to standard conventions.",
+  "explanation_image": [],
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "not defined"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

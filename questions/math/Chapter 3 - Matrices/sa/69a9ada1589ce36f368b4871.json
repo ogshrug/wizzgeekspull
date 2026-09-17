@@ -1,0 +1,30 @@
+{
+  "id": "69a9ada1589ce36f368b4871",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "SA",
+  "question": "If $P = \\begin{bmatrix} 0 & 1 \\\\ 1 & 0 \\end{bmatrix}$, show that $P$ is its own inverse. Also, calculate $P^3$.",
+  "answeroption": "C",
+  "explanation": "To show $P$ is its own inverse, we must show $PP=I$.<br /><br />$PP = \\begin{bmatrix} 0 & 1 \\\\ 1 & 0 \\end{bmatrix}\\begin{bmatrix} 0 & 1 \\\\ 1 & 0 \\end{bmatrix} = \\begin{bmatrix} 0\\times0 + 1\\times1 & 0\\times1+1\\times0 \\\\ 1\\times0+0\\times1 & 1\\times1+0\\times0 \\end{bmatrix} = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$<br /><br />Hence, $P^{-1}=P$.<br /><br />Now, $P^3 = P \\cdot P \\cdot P = I \\cdot P = P$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$P^{-1}=I$ and $P^3=I$",
+    "B": "$P^{-1}=-P$ and $P^3=-P$",
+    "C": "$P^{-1}=P$ and $P^3=P=\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}$",
+    "D": "$P$ has no inverse and $P^3=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:21:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

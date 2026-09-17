@@ -1,0 +1,29 @@
+{
+  "id": "6a8e94674b490c7cde3593ed",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "SA",
+  "question": "For the matrix $A=[x^2-5x+6]$, determine all values of $x$ for which $|A|=0$. Hence, find the sum and product of the obtained values.",
+  "answeroption": "D",
+  "explanation": "<b>Expression for the determinant</b><br>Since $A$ is a matrix of order $1$, its determinant is equal to its only element. Thus, $$|A|=x^2-5x+6$$<br><b>Zero-determinant condition</b><br>Using $|A|=0$, we obtain $$x^2-5x+6=0$$<br><b>Factorisation</b><br>The quadratic expression can be factorised as $$(x-2)(x-3)=0$$ Therefore, $$x=2\\quad\\text{or}\\quad x=3$$<br><b>Required sum and product</b><br>The sum of the obtained values is $$2+3=5$$ and their product is $$(2)(3)=6$$<br>Hence, the possible values are $2$ and $3$, with sum $5$ and product $6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=1,6$; sum $=7$; product $=6$",
+    "B": "$x=-2,-3$; sum $=-5$; product $=6$",
+    "C": "$x=2,3$; sum $=6$; product $=5$",
+    "D": "$x=2,3$; sum $=5$; product $=6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

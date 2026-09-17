@@ -1,0 +1,29 @@
+{
+  "id": "6a9123f32e54880055a0a771",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "SA",
+  "question": "For a linear programming problem, four feasible production plans are $A(2,6)$, $B(4,4)$, $C(5,2)$ and $D(0,7)$. The profit function is $Z=80x+50y$. Determine the optimal plan among the given feasible alternatives and find the corresponding maximum profit.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Using the objective function</b><br>The profit corresponding to a feasible plan $(x,y)$ is obtained from $$Z=80x+50y$$<br><b>Step 2: Evaluating at $A(2,6)$</b><br>$$Z_A=80(2)+50(6)=160+300=460$$<br><b>Step 3: Evaluating at $B(4,4)$</b><br>$$Z_B=80(4)+50(4)=320+200=520$$<br><b>Step 4: Evaluating the remaining plans</b><br>For $C(5,2)$, $$Z_C=80(5)+50(2)=500$$ For $D(0,7)$, $$Z_D=80(0)+50(7)=350$$<br><b>Step 5: Identifying the optimum</b><br>The values obtained are $460,520,500,$ and $350$. The largest value is $520$. Therefore, among the given feasible alternatives, the optimal production plan is $B(4,4)$ and the maximum profit is ₹$520$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Plan $A(2,6)$ with maximum profit ₹$460$",
+    "B": "Plan $C(5,2)$ with maximum profit ₹$500$",
+    "C": "Plan $B(4,4)$ with maximum profit ₹$520$",
+    "D": "Plan $D(0,7)$ with maximum profit ₹$350$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

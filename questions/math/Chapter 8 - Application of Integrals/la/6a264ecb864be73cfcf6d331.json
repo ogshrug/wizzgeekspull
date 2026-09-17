@@ -1,0 +1,29 @@
+{
+  "id": "6a264ecb864be73cfcf6d331",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, find the area of the smaller region enclosed by the curve $4x^{2}+4y^{2}=9$ and the line $2x+2y=3$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the given boundary equations in standard algebraic formats. The curve $4x^2 + 4y^2 = 9$ can be rewritten as $x^2 + y^2 = \\frac{9}{4} = (\\frac{3}{2})^2$, which represents a circle centered at the origin with radius $R = \\frac{3}{2}$. The straight line $2x + 2y = 3$ can be expressed as $x + y = \\frac{3}{2}$, which has intercepts at $(\\frac{3}{2}, 0)$ and $(0, \\frac{3}{2})$. These match the intersections on the axes.<br />**Step 2:** The smaller region enclosed between the circle and the line sits entirely within the first quadrant from $x=0$ to $x=\\frac{3}{2}$. Expressing $y$ in terms of $x$ for both boundary curves yields: $y_{\\text{circle}} = \\sqrt{\\frac{9}{4}-x^2}$ and $y_{\\text{line}} = \\frac{3}{2}-x$. The area of this enclosed region is found by integrating the difference between these functions: $\\text{Area} = \\int_{0}^{3/2} \\left( \\sqrt{\\frac{9}{4}-x^2} - \\left(\\frac{3}{2}-x\\right) \\right) dx$.<br />**Step 3:** Use the standard circle area integral formula $\\int \\sqrt{a^2-x^2}dx = \\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2}\\sin^{-1}(\\frac{x}{a})$ to evaluate the circle part: $[\\frac{x}{2}\\sqrt{\\frac{9}{4}-x^2} + \\frac{9}{8}\\sin^{-1}(\\frac{2x}{3})]_{0}^{3/2}$. Evaluating at the upper limit gives $0 + \\frac{9}{8}\\sin^{-1}(1) = \\frac{9}{8}(\\frac{\\pi}{2}) = \\frac{9\\pi}{16}$, and the lower limit gives 0.<br />**Step 4:** Integrate the line part over the boundaries: $\\int_{0}^{3/2} (\\frac{3}{2}-x) dx = [\\frac{3}{2}x - \\frac{x^2}{2}]_{0}^{3/2} = \\left(\\frac{3}{2}(\\frac{3}{2}) - \\frac{9}{8}\\right) = \\frac{9}{4} - \\frac{9}{8} = \\frac{9}{8}$. Subtracting the line area from the circle sector area gives the final result: $\\left(\\frac{9\\pi}{16} - \\frac{9}{8}\\right) = \\frac{9}{16}(\\pi - 2)$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-2",
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

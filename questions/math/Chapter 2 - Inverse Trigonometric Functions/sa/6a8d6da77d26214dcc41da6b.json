@@ -1,0 +1,31 @@
+{
+  "id": "6a8d6da77d26214dcc41da6b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4c",
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "SA",
+  "question": "The function $f(x)=\\cot^{-1}\\left(\\frac{x-3}{2}\\right)-\\frac{\\pi}{2}$ is obtained from $y=\\cot^{-1}x$.<br><br>(i) Describe the transformations involved.<br><br>(ii) Determine its domain, range and the point where its graph meets the $x$-axis. Do not draw the graph.",
+  "answeroption": "B",
+  "explanation": "<b>Horizontal transformation</b><br>The argument can be written as $\\frac{x-3}{2}$. Replacing $x$ by $\\frac{x-3}{2}$ stretches the graph horizontally by a factor of $2$ and translates it three units to the right.<br><br><b>Vertical transformation</b><br>Subtracting $\\frac{\\pi}{2}$ translates the graph downward by $\\frac{\\pi}{2}$ units.<br><br><b>Domain and range</b><br>The function $\\cot^{-1}x$ is defined for every real $x$, so the domain remains $\\mathbb{R}$. Its range is $(0,\\pi)$. After the downward translation, the range becomes $$\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right).$$<br><br><b>Intersection with the $x$-axis</b><br>Setting $f(x)=0$ gives $$\\cot^{-1}\\left(\\frac{x-3}{2}\\right)=\\frac{\\pi}{2}.$$ Since $\\cot\\frac{\\pi}{2}=0$, we obtain $\\frac{x-3}{2}=0$, so $x=3$. Thus, the graph meets the $x$-axis at $(3,0)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Horizontal stretch by $2$, shift left by $3$ and downward shift by $\\frac{\\pi}{2}$; Domain: $\\mathbb{R}$; Range: $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$; $x$-axis intersection: $(-3,0)$",
+    "B": "Horizontal stretch by $2$, shift right by $3$ and downward shift by $\\frac{\\pi}{2}$; Domain: $\\mathbb{R}$; Range: $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$; $x$-axis intersection: $(3,0)$",
+    "C": "Horizontal compression by $\\frac{1}{2}$, shift right by $3$ and upward shift by $\\frac{\\pi}{2}$; Domain: $\\mathbb{R}$; Range: $\\left(\\frac{\\pi}{2},\\frac{3\\pi}{2}\\right)$; $x$-axis intersection: $(3,0)$",
+    "D": "Horizontal stretch by $2$, shift right by $3$ and downward shift by $\\frac{\\pi}{2}$; Domain: $\\mathbb{R}$; Range: $(0,\\pi)$; $x$-axis intersection: $\\left(3,-\\frac{\\pi}{2}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

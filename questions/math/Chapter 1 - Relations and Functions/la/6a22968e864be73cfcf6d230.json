@@ -1,0 +1,28 @@
+{
+  "id": "6a22968e864be73cfcf6d230",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Show that a function $f:R\\rightarrow R$ defined by $f(x)=\\frac{2x}{1+x^{2}}$ is neither one-one nor onto. Further, find set A so that the given function $f:R\\rightarrow A$ becomes an onto function.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To prove that the function $f(x) = \\frac{2x}{1+x^2}$ is not one-one, we need to find at least two distinct real numbers in the domain that map to the identical value in the codomain. Let's systematically test some simple values. If we plug in $x = 2$, we get $f(2) = \\frac{2(2)}{1+2^2} = \\frac{4}{1+4} = \\frac{4}{5}$. Now, let's test its reciprocal, $x = \\frac{1}{2}$. We get $f(1/2) = \\frac{2(1/2)}{1+(1/2)^2} = \\frac{1}{1+1/4} = \\frac{1}{5/4} = \\frac{4}{5}$. Because $f(2) = f(1/2)$ but $2 \\ne 1/2$, the function rigorously maps two distinct inputs to the same output. Therefore, it is definitively not a one-one (injective) function.<br />**Step 2:** To prove that the function is not onto, we must deeply analyze its range and show it does not cover the entire real number codomain $\\mathbb{R}$. Let $y = f(x) = \\frac{2x}{1+x^2}$. We need to express $x$ in terms of $y$. Rearranging the equation yields $y(1+x^2) = 2x$, which fundamentally rearranges into a quadratic equation in terms of $x$: $yx^2 - 2x + y = 0$.<br />**Step 3:** For the function to have real pre-images ($x \\in \\mathbb{R}$) for a given $y$, the discriminant of this quadratic equation must be greater than or equal to strictly zero. The discriminant $\\Delta = b^2 - 4ac = (-2)^2 - 4(y)(y) = 4 - 4y^2$. We set this condition: $4 - 4y^2 \\ge 0$.<br />**Step 4:** Solving the inequality $4(1 - y^2) \\ge 0$ gives $y^2 \\le 1$. Taking the square root implies that the values of $y$ must strictly lie in the closed interval $[-1, 1]$. This means the mathematical range of the function $f(x)$ is exactly $[-1, 1]$.<br />**Step 5:** Since the calculated range $[-1, 1]$ is merely a subset and not perfectly equal to the given codomain $\\mathbb{R}$, the function is conclusively not onto (surjective). Finally, for the modified function $f: \\mathbb{R} \\rightarrow A$ to magically become onto, the new codomain $A$ must be redefined to exactly match the function's natural range. Therefore, the required set is precisely $A = [-1, 1]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

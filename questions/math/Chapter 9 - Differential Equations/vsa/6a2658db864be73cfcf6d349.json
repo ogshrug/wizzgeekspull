@@ -1,0 +1,27 @@
+{
+  "id": "6a2658db864be73cfcf6d349",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa",
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "VSA",
+  "question": "Find the general solution of the differential equation: <br />$$e^{dy/dx}=x^{2}$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given first-order differential equation is $e^{\\frac{dy}{dx}}=x^{2}$. To solve this, we must isolate the derivative term $\\frac{dy}{dx}$ from the exponent. We can achieve this by taking the natural logarithm (base $e$) on both sides of the equation, which cancels out the exponential function on the left: $\\log\\left(e^{\\frac{dy}{dx}}\\right) = \\log(x^2)$. This simplifies directly to: $\\frac{dy}{dx} = \\log(x^2)$. Using logarithm power properties, we can write this as $\\frac{dy}{dx} = 2\\log|x|$.<br />**Step 2:** Now, we apply the method of separation of variables by moving the differential term $dx$ over to the right side of the equation: $dy = 2\\log|x| dx$. Integrate both sides independently to set up our solution: $\\int dy = \\int 2\\log|x| dx \\implies y = 2\\int \\log|x| dx$.<br />**Step 3:** To integrate $\\log|x|$, we use the method of integration by parts, treating the integrand as $\\log|x| \\cdot 1$. Choosing $u = \\log|x|$ and $dv = 1 dx$ gives $du = \\frac{1}{x} dx$ and $v = x$. The integration formula yields $\\int \\log|x| dx = x\\log|x| - \\int x \\cdot \\frac{1}{x} dx = x\\log|x| - x$. Substituting this back into our equation for $y$ and adding the constant of integration delivers the final general solution: $y = 2(x\\log|x| - x) + C = 2x\\log|x| - 2x + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

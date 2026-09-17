@@ -1,0 +1,29 @@
+{
+  "id": "6a229115fbdd87b6dea73b93",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "If $f:R^{+}\\rightarrow R$ is defined as $f(x)=\\log_{a}x \\ (a>0 \\text{ and } a\\ne1)$, prove that f is a bijection.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To show that $f(x) = \\log_a x$ is a bijection, we must demonstrate that it satisfies both the one-one (injective) property and the onto (surjective) property over its specified domain.<br /><br /><b>Step 2</b> First, we verify the one-one condition. Let $x_1, x_2 \\in R^+$ such that $f(x_1) = f(x_2)$, which gives the equation $\\log_a x_1 = \\log_a x_2$.<br /><br /><b>Step 3</b> By applying the exponential base $a$ to both sides, we can eliminate the logarithms: $a^{\\log_a x_1} = a^{\\log_a x_2}$. This simplifies directly to $x_1 = x_2$, confirming that the function is one-one.<br /><br /><b>Step 4</b> Next, we verify the onto condition. Let $y$ be any arbitrary real number in the codomain $R$. We set $y = \\log_a x$ and rearrange it to solve for the preimage input variable $x$.<br /><br /><b>Step 5</b> Converting the logarithmic equation to its equivalent exponential form yields $x = a^y$. Since the base $a$ is positive ($a > 0$), raising it to any real power $y$ always results in a strictly positive real number ($a^y > 0$). Thus, for every $y \\in R$, there exists a valid preimage $x = a^y \\in R^+$, proving $f$ is onto and therefore a bijection.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

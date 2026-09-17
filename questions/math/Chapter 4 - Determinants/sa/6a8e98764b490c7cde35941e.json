@@ -1,0 +1,29 @@
+{
+  "id": "6a8e98764b490c7cde35941e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d71"
+  ],
+  "question_type": "SA",
+  "question": "Find all real values of $k$ for which the system $kx+y=2$ and $2x+ky=3$ is consistent with a unique solution. Justify the restriction on $k$.",
+  "answeroption": "A",
+  "explanation": "<b>Coefficient matrix</b><br>The coefficient matrix of the system is $$A=\\begin{bmatrix}k&1\\\\2&k\\end{bmatrix}$$<br><b>Determinant calculation</b><br>Its determinant is $$|A|=k^2-2$$<br><b>Unique-solution condition</b><br>The system is consistent with a unique solution when the coefficient matrix is nonsingular. Therefore, $$k^2-2\\ne0$$<br><b>Restriction on the parameter</b><br>The excluded values satisfy $k^2=2$, giving $k=\\sqrt{2}$ or $k=-\\sqrt{2}$. Hence, the system has a unique solution for $$k\\in\\mathbb{R}\\setminus\\{-\\sqrt{2},\\sqrt{2}\\}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k\\in\\mathbb{R}\\setminus\\{-\\sqrt{2},\\sqrt{2}\\}$",
+    "B": "$k\\in\\mathbb{R}\\setminus\\{-2,2\\}$",
+    "C": "$k\\in\\{-\\sqrt{2},\\sqrt{2}\\}$",
+    "D": "$k\\in\\mathbb{R}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a91313bbe0ecc7866e90cdd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "For the constraints $2x+y\\le8$, $x+2y\\le8$, $x\\ge0$ and $y\\ge0$, consider the points $P_t=(4t,4-4t)$ for $0\\le t\\le1$. Show that every $P_t$ is a feasible solution and determine the optimal feasible solution for maximising $Z=3x+y$, justifying that no other feasible point can give a larger value.",
+  "answeroption": "D",
+  "explanation": "<b>Verification of Feasibility</b><br>For $0\\le t\\le1$, the coordinates of $P_t$ are $x=4t\\ge0$ and $y=4-4t=4(1-t)\\ge0$. Substitution in the first constraint gives $$2x+y=8t+4-4t=4+4t\\le8,$$ because $t\\le1$. Substitution in the second constraint gives $$x+2y=4t+8-8t=8-4t\\le8,$$ because $t\\ge0$. Hence every point $P_t$ with $0\\le t\\le1$ satisfies all the constraints and is a feasible solution.<br><br><b>Optimization</b><br>At $P_t$, the objective function has value $$Z=3(4t)+(4-4t)=4+8t.$$ This increases as $t$ increases from 0 to 1, so within this family its greatest value occurs at $t=1$, giving $P_1=(4,0)$ and $Z=12$.<br><br>It remains to verify that no other feasible solution gives a larger value. From $2x+y\\le8$ and $y\\ge0$, we obtain $2x\\le8$, so $x\\le4$. Therefore, for every feasible solution, $$Z=3x+y=(2x+y)+x\\le8+4=12.$$ Since the feasible point $(4,0)$ attains this upper bound, it is an optimal feasible solution for the complete problem.<br><br><b>Final Result</b><br>Every $P_t$ for $0\\le t\\le1$ is feasible, and the optimal feasible solution is $(4,0)$ with maximum value $Z=12$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Only $P_t$ for $0\\leq t\\leq\\frac{1}{2}$ are feasible; maximum $Z=8$ at $t=\\frac{1}{2}$",
+    "B": "Every $P_t$ is feasible; maximum $Z=12$ at $t=0$, corresponding to $(0,4)$",
+    "C": "Every $P_t$ is feasible; maximum $Z=16$ at $t=1$, corresponding to $(4,0)$",
+    "D": "Every $P_t$ for $0\\leq t\\leq1$ is feasible; maximum $Z=12$ at $t=1$, corresponding to $(4,0)$, and no feasible point can exceed $12$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

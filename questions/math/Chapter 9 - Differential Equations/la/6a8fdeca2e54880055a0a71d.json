@@ -1,0 +1,31 @@
+{
+  "id": "6a8fdeca2e54880055a0a71d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a4"
+  ],
+  "question_type": "LA",
+  "question": "Verify that the function $$y=x\\sin 2x$$ satisfies the differential equation $$\\frac{d^2y}{dx^2}+4y=4\\cos 2x,$$ and hence justify whether the given function represents a general solution or a particular solution of the differential equation.",
+  "answeroption": "C",
+  "explanation": "<b>Verification of the Function</b><br>Given $$y=x\\sin 2x.$$ Differentiating with respect to $x$, $$\\frac{dy}{dx}=\\sin 2x+2x\\cos 2x.$$ Differentiating again, $$\\frac{d^2y}{dx^2}=2\\cos 2x+2\\cos 2x-4x\\sin 2x=4\\cos 2x-4x\\sin 2x.$$<br><br>Now, $$\\frac{d^2y}{dx^2}+4y=4\\cos 2x-4x\\sin 2x+4x\\sin 2x=4\\cos 2x.$$ Thus the left-hand side is equal to the right-hand side, so $y=x\\sin 2x$ satisfies the given differential equation.<br><br><b>Nature of the Solution</b><br>The given differential equation is of second order. Its general solution would contain two arbitrary constants. The function $y=x\\sin 2x$ contains no arbitrary constant and represents one specific solution of the differential equation.<br><br><b>Final Result</b><br>Therefore, $y=x\\sin 2x$ is a particular solution of the given differential equation and not its general solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "The function does not satisfy the differential equation.",
+    "B": "The function satisfies the differential equation and is its general solution.",
+    "C": "The function satisfies the differential equation and is a particular solution.",
+    "D": "The function satisfies the differential equation only for $x=0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

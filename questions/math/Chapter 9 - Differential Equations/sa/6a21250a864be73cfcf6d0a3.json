@@ -1,0 +1,27 @@
+{
+  "id": "6a21250a864be73cfcf6d0a3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $xy \\frac{dy}{dx} = (x+2)(y+2)$ given that $y(1) = -1$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Separate Variables**  \nGiven $xy \\frac{dy}{dx} = (x+2)(y+2)$:  \n$$\\frac{y}{y+2} \\, dy = \\frac{x+2}{x} \\, dx$$  \nSimplify each side:  \n$$\\left(1 - \\frac{2}{y+2}\\right) dy = \\left(1 + \\frac{2}{x}\\right) dx$$\n\n**Step 2: Integrate Both Sides**  \n$$\\int \\left(1 - \\frac{2}{y+2}\\right) dy = \\int \\left(1 + \\frac{2}{x}\\right) dx$$  \n$$y - 2\\ln|y+2| = x + 2\\ln|x| + C$$\n\n**Step 3: Apply Initial Condition**  \nGiven $y(1) = -1$, i.e., $x=1, y=-1$:  \n$$-1 - 2\\ln|1| = 1 + 2\\ln|1| + C$$  \n$$-1 - 0 = 1 + 0 + C \\Rightarrow C = -2$$\n\n**Step 4: Write the Particular Solution**  \n$$y - 2\\ln|y+2| = x + 2\\ln|x| - 2$$  \n$$y - x + 2 = 2\\ln|y+2| + 2\\ln|x|$$  \n$$y - x + 2 = 2\\ln|x(y+2)|$$  \nThus, the particular solution is $y - x + 2 = 2\\ln|x(y+2)|$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

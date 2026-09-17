@@ -1,0 +1,29 @@
+{
+  "id": "6a2658dc864be73cfcf6d34b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation $x \\frac{dy}{dx}=y(log~y-log~x+1).$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the given differential equation $x \\frac{dy}{dx}=y(\\log y-\\log x+1)$ by grouping log terms using quotient properties: $x \\frac{dy}{dx} = y\\left(\\log\\left(\\frac{y}{x}\\right) + 1\\right)$. Dividing by $x$ isolates the derivative: $\\frac{dy}{dx} = \\frac{y}{x}\\left(\\log\\left(\\frac{y}{x}\\right) + 1\\right)$. Because the right side is expressed entirely as a function of the ratio $\\frac{y}{x}$, it is a homogeneous differential equation. We substitute $y = vx$, which on differentiation yields $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 2:** Substitute these expressions back into our modified layout: $v + x\\frac{dv}{dx} = v(\\log v + 1) = v\\log v + v$. Subtracting $v$ from both sides simplifies the equation to: $x\\frac{dv}{dx} = v\\log v$. Now, separate variables to group $v$ terms on the left and $x$ terms on the right: $\\frac{1}{v\\log v} dv = \\frac{1}{x} dx$. Integrate both sides: $\\int \\frac{1}{v\\log v} dv = \\int \\frac{1}{x} dx$.<br />**Step 3:** To solve the left integral, use substitution. Let $t = \\log v$, then $dt = \\frac{1}{v} dv$. The expression transforms to $\\int \\frac{1}{t} dt = \\log|t| = \\log|\\log v|$. The right side integrates to $\\log|x| + C'$. Equating them gives $\\log|\\log v| = \\log|x| + \\log|C| = \\log|Cx|$, where $C'$ is written as $\\log|C|$. Taking exponentials on both sides removes the outer logs: $\\log v = Cx$.<br />**Step 4:** Finally, reverse the initial substitution by replacing $v$ with $\\frac{y}{x}$. This gives $\\log\\left(\\frac{y}{x}\\right) = Cx$. Expressing this explicitly by taking the exponential base on both sides delivers our clean general solution: $\\frac{y}{x} = e^{Cx} \\implies y = xe^{Cx}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1",
+    "2022-3-2",
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

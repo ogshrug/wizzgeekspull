@@ -1,0 +1,30 @@
+{
+  "id": "69a859f664fcf4cdd5b4badc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "SA",
+  "question": "If $y = x^4 + 2x^3 - 8x^2 + 1$, find the local maxima and minima and their values.",
+  "answeroption": "B",
+  "explanation": "$y'=4x^3+6x^2-16x=2x(2x^2+3x-8)$.<br /><br />Critical points: $x=0$, $x=\\frac{-3\\pm\\sqrt{73}}{4}$.<br /><br />$y''=12x^2+12x-16$.<br /><br />At $x=0$, $y''<0$ so local maximum at $(0,1)$.<br /><br />Other points classified using sign of $y''$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Local maximum at $(0,1)$ only; no local minima exist.",
+    "B": "Local maximum at $(0,1)$; local minima occur at $x=\\frac{-3-\\sqrt{73}}{4}$ and $x=\\frac{-3+\\sqrt{73}}{4}$.",
+    "C": "Local minimum at $(0,1)$; local maxima occur at $x=\\frac{-3-\\sqrt{73}}{4}$ and $x=\\frac{-3+\\sqrt{73}}{4}$.",
+    "D": "Local maxima occur at $x=\\frac{-3\\pm\\sqrt{73}}{4}$ only; no local minimum exists."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:12:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

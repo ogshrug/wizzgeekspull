@@ -1,0 +1,29 @@
+{
+  "id": "69a9203eb4df445c7f648ca2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Let $x, y \\in [-1,1]$ be such that $\\sin^{-1}x = \\cos^{-1}y$. Prove that $x^2 + y^2 = 1$ and identify all pairs $(x,y)$ that satisfy the equation.",
+  "answeroption": "B",
+  "explanation": "Let $\\sin^{-1}x = \\cos^{-1}y = \\beta$.<br /><br />Then $x = \\sin\\beta$ and $y = \\cos\\beta$.<br /><br />Using the identity $\\sin^2\\beta + \\cos^2\\beta = 1$.<br /><br />Thus $x^2 + y^2 = \\sin^2\\beta + \\cos^2\\beta = 1$.<br /><br />For $\\beta \\in [0,\\frac{\\pi}{2}]$, both $x$ and $y$ are non-negative.<br /><br />Hence the pairs satisfying the equation are $(x,y)=(\\sin\\beta,\\cos\\beta)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $\\sin^{-1}x=\\cos^{-1}y=\\beta$. Then $x=\\cos\\beta$ and $y=\\sin\\beta$, so the pairs are $(x,y)=(\\cos\\beta,\\sin\\beta)$ only.",
+    "B": "Let $\\sin^{-1}x=\\cos^{-1}y=\\beta$. Then $x=\\sin\\beta$ and $y=\\cos\\beta$, so $x^2+y^2=1$ and the pairs are $(x,y)=(\\sin\\beta,\\cos\\beta)$.",
+    "C": "Let $\\sin^{-1}x=\\cos^{-1}y=\\beta$. Then $x=\\tan\\beta$ and $y=\\cot\\beta$, so $xy=1$.",
+    "D": "Let $\\sin^{-1}x=\\cos^{-1}y=\\beta$. Then $x=y$, so the satisfying pairs are only $(0,0)$ and $(1,1)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:18:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8f13cbbe0ecc7866e90c20",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998"
+  ],
+  "question_type": "VSA",
+  "question": "The line $y=x+2$ and the parabola $y=x^2$ enclose a finite region. Calculate its area using integration.",
+  "answeroption": "B",
+  "explanation": "Step 1: The points of intersection satisfy $x^2=x+2$. Hence, $x^2-x-2=0$, which gives $(x-2)(x+1)=0$. Therefore, the limits are $x=-1$ and $x=2$. Step 2: Between these limits, the line $y=x+2$ lies above the parabola $y=x^2$. Thus, $A=\\int_{-1}^{2}(x+2-x^2)\\,dx$. Step 3: Integrating, $A=\\left[\\frac{x^2}{2}+2x-\\frac{x^3}{3}\\right]_{-1}^{2}$. Step 4: Substitution gives $A=\\frac{10}{3}-\\left(-\\frac{7}{6}\\right)=\\frac{27}{6}=\\frac{9}{2}$. Final Answer: The enclosed area is $\\frac{9}{2}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{2}$ square units",
+    "B": "$\\frac{9}{2}$ square units",
+    "C": "$\\frac{7}{2}$ square units",
+    "D": "$\\frac{11}{2}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

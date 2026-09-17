@@ -1,0 +1,30 @@
+{
+  "id": "69a9859962be6a70cd184dd0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $f(x)$ and $g(x)$ be defined on $\\mathbb{R}$ by $f(x) = 2x+3$, $g(x) = 3x-2$. Which of the following is true?",
+  "answeroption": "A",
+  "explanation": "Compute $g\\circ f(x) = g(f(x))=g(2x+3)=3(2x+3)-2=6x+9-2=6x+7$.<br /><br />$f$ and $g$ are invertible. $f^{-1}(y)=\\frac{y-3}{2}$, $g^{-1}(y)=\\frac{y+2}{3}$.<br /><br />Compute $f^{-1} \\circ g^{-1}(z) = f^{-1}(g^{-1}(z)) = f^{-1}(\\frac{z+2}{3}) = \\frac{\\frac{z+2}{3}-3}{2} = \\frac{z+2-9}{6} = \\frac{z-7}{6}$.<br /><br />But $g\\circ f(x)=6x+7 \\implies (g\\circ f)^{-1}(y)= \\frac{y-7}{6}$.<br /><br />Thus, $f^{-1}\\circ g^{-1}(y) = \\frac{y-7}{6}$ matches $(g\\circ f)^{-1}(y)$.<br /><br />Thus, (A) is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "$g \\circ f$ is invertible, and $(g \\circ f)^{-1} = f^{-1} \\circ g^{-1}$",
+    "B": "$f \\circ g$ is the identity function on $\\mathbb{R}$",
+    "C": "$(g \\circ f)^{-1} = g^{-1} \\circ f^{-1}$",
+    "D": "$f$ is not invertible"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:31:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

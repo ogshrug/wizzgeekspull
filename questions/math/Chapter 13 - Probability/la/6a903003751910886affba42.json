@@ -1,0 +1,30 @@
+{
+  "id": "6a903003751910886affba42",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "LA",
+  "question": "A coin is biased so that a head is three times as likely to occur as a tail. The coin is tossed twice independently, and $X$ denotes the number of tails obtained. Determine the probability distribution of $X$ and hence find $P(X\\leq1)$.",
+  "answeroption": "A",
+  "explanation": "<b>Given Information</b><br>Let the probability of a tail be $p$. Then the probability of a head is $3p$. Since the two probabilities add to $1$,<br>$$p+3p=1,$$<br>so<br>$$P(T)=\\frac{1}{4},\\qquad P(H)=\\frac{3}{4}.$$<br>The two tosses are independent, so probabilities of combined outcomes are obtained by multiplying the corresponding probabilities.<br><br><b>Formation of the Probability Distribution</b><br>The random variable $X$ can take the values $0,1,2$. For no tail, the outcome is $HH$, so<br>$$P(X=0)=\\frac{3}{4}\\times\\frac{3}{4}=\\frac{9}{16}.$$<br>Exactly one tail occurs in the mutually exclusive outcomes $HT$ and $TH$. Therefore,<br>$$P(X=1)=\\frac{3}{4}\\times\\frac{1}{4}+\\frac{1}{4}\\times\\frac{3}{4}=\\frac{6}{16}=\\frac{3}{8}.$$<br>For two tails,<br>$$P(X=2)=\\frac{1}{4}\\times\\frac{1}{4}=\\frac{1}{16}.$$<br>Thus the distribution is<br>$$X:0,1,2$$<br>$$P(X):\\frac{9}{16},\\frac{3}{8},\\frac{1}{16}.$$<br>Also,<br>$$\\frac{9}{16}+\\frac{3}{8}+\\frac{1}{16}=1,$$<br>which verifies the distribution.<br><br><b>Evaluation</b><br>Therefore,<br>$$P(X\\leq1)=P(X=0)+P(X=1)=\\frac{9}{16}+\\frac{6}{16}=\\frac{15}{16}.$$<br><br><b>Final Result</b><br>The probability distribution is as obtained above and $P(X\\leq1)=\\frac{15}{16}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$X=0,1,2$ with probabilities $\\frac{9}{16},\\frac{6}{16},\\frac{1}{16}$ respectively; $P(X\\leq1)=\\frac{15}{16}$",
+    "B": "$X=0,1,2$ with probabilities $\\frac{9}{16},\\frac{3}{16},\\frac{4}{16}$ respectively; $P(X\\leq1)=\\frac{3}{4}$",
+    "C": "$X=0,1,2$ with probabilities $\\frac{1}{16},\\frac{6}{16},\\frac{9}{16}$ respectively; $P(X\\leq1)=\\frac{7}{16}$",
+    "D": "$X=0,1,2$ with probabilities $\\frac{9}{16},\\frac{4}{16},\\frac{3}{16}$ respectively; $P(X\\leq1)=\\frac{13}{16}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

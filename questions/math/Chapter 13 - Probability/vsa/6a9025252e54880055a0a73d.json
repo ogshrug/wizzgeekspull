@@ -1,0 +1,29 @@
+{
+  "id": "6a9025252e54880055a0a73d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "VSA",
+  "question": "A box contains $5$ white, $4$ black and $3$ red balls. Three balls are drawn successively without replacement. Find the probability that they are white, black and red respectively.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> There are initially $12$ balls. The probability that the first ball is white is $\\frac{5}{12}$.<br><b>Step 2:</b> After a white ball has been drawn, $11$ balls remain, including $4$ black balls. Hence, the conditional probability that the second ball is black is $\\frac{4}{11}$.<br><b>Step 3:</b> After a white and a black ball have been removed, $10$ balls remain, including $3$ red balls. Thus, the probability that the third ball is red is $\\frac{3}{10}$.<br><b>Step 4:</b> By the multiplication theorem, the required probability is $\\frac{5}{12}\\times\\frac{4}{11}\\times\\frac{3}{10}$.<br><b>Step 5:</b> Simplifying, the probability is $\\frac{60}{1320}=\\frac{1}{22}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{18}$",
+    "B": "$\\frac{5}{44}$",
+    "C": "$\\frac{1}{22}$",
+    "D": "$\\frac{3}{22}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

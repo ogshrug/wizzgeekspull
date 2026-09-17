@@ -1,0 +1,31 @@
+{
+  "id": "6a8fdff1be0ecc7866e90c74",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "LA",
+  "question": "Show that the differential equation $$(x^2+xy)\\frac{dy}{dx}=x^2+y^2$$ is homogeneous of the first order and solve it completely by using a suitable substitution that reduces it to a variable separable differential equation.",
+  "answeroption": "C",
+  "explanation": "<b>Homogeneous Form</b><br>The given equation can be written as $$\\frac{dy}{dx}=\\frac{x^2+y^2}{x^2+xy}=\\frac{1+\\left(\\frac{y}{x}\\right)^2}{1+\\frac{y}{x}}.$$ The right-hand side is a function of $\\frac{y}{x}$ only. Hence the given first order differential equation is homogeneous.<br><br><b>Substitution and Reduction</b><br>Put $$y=vx.$$ Then $$\\frac{dy}{dx}=v+x\\frac{dv}{dx}.$$ Substituting in the differential equation gives $$v+x\\frac{dv}{dx}=\\frac{1+v^2}{1+v}.$$ Therefore, $$x\\frac{dv}{dx}=\\frac{1-v}{1+v}.$$ Hence the variables can be separated as $$\\frac{1+v}{1-v}dv=\\frac{dx}{x}.$$<br><br><b>Integration</b><br>Since $$\\frac{1+v}{1-v}=-1+\\frac{2}{1-v},$$ integrating both sides gives $$-v-2\\log|1-v|=\\log|x|+C.$$ Replacing $v$ by $\\frac{y}{x}$, $$-\\frac{y}{x}-2\\log\\left|1-\\frac{y}{x}\\right|=\\log|x|+C.$$ Rearranging the logarithmic terms and absorbing constants appropriately, this may be written as $$\\frac{y}{x}+2\\log|x-y|-\\log|x|=C.$$<br><br><b>Final Result</b><br>Thus the homogeneous differential equation is reduced to variable separable form by the substitution $y=vx$, and its general solution is $$\\frac{y}{x}+2\\log|x-y|-\\log|x|=C.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{y}{x}-2\\log|x-y|-\\log|x|=C$",
+    "B": "$\\frac{y}{x}+2\\log|x+y|-\\log|x|=C$",
+    "C": "$\\frac{y}{x}+2\\log|x-y|-\\log|x|=C$",
+    "D": "$\\frac{y}{x}+\\log|x-y|-2\\log|x|=C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

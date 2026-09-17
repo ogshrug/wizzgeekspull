@@ -1,0 +1,26 @@
+{
+  "id": "6a326da66dbc98396e70a77f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "LA",
+  "question": "Find: $\\int\\frac{5x}{(x+1)(x^{2}+9)}dx.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** We begin by rewriting the rational integrand using the method of partial fractions decomposition. The given expression has a linear factor and an irreducible quadratic factor in the denominator, so we can assume the form: $\\frac{5x}{(x+1)(x^2+9)} = \\frac{A}{x+1} + \\frac{Bx+C}{x^2+9}$. Multiplying both sides by the common denominator yields the identity $5x = A(x^2+9) + (Bx+C)(x+1)$.<br /><br />**Step 2:** To determine the unknown constant coefficients, we substitute convenient values for $x$. Setting $x = -1$ eliminates the second term, giving $-5 = A((-1)^2+9) \\implies -5 = 10A \\implies A = -\\frac{1}{2}$. Next, we equate the coefficients of the corresponding $x^2$ terms from both sides of the polynomial equation, which yields $0 = A + B \\implies B = -A = \\frac{1}{2}$. Finally, comparing the constant terms on both sides gives $0 = 9A + C \\implies C = -9A = \\frac{9}{2}$ .<br /><br />**Step 3:** Substituting these resolved values back into the partial fractions decomposition allows us to rewrite the original integral as the sum of three simpler, independent integrals: $\\int \\frac{5x}{(x+1)(x^2+9)}dx = -\\frac{1}{2}\\int \\frac{1}{x+1}dx + \\frac{1}{2}\\int \\frac{x}{x^2+9}dx + \\frac{9}{2}\\int \\frac{1}{x^2+9}dx$ .<br /><br />**Step 4:** We integrate each component step-by-step. The first term evaluates directly to $-\\frac{1}{2}\\ln|x+1|$. For the second term, we apply the substitution $u = x^2+9 \\implies du = 2xdx$, resulting in $\\frac{1}{4}\\ln(x^2+9)$. The third term is a standard inverse tangent form, which evaluates to $\\frac{9}{2} \\cdot \\frac{1}{3}\\tan^{-1}(\\frac{x}{3}) = \\frac{3}{2}\\tan^{-1}(\\frac{x}{3})$. Combining these yields the final solution: $-\\frac{1}{2}\\ln|x+1| + \\frac{1}{4}\\ln(x^2+9) + \\frac{3}{2}\\tan^{-1}(\\frac{x}{3}) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

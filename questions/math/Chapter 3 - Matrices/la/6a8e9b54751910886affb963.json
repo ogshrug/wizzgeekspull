@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9b54751910886affb963",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d59",
+    "69c65fc040512f018fa94d5a"
+  ],
+  "question_type": "LA",
+  "question": "Starting with the matrix $$A=\\begin{bmatrix}1&2&0\\\\2&1&3\\\\3&0&1\\end{bmatrix},$$ apply successively the elementary transformations $R_1\\leftrightarrow R_3$, $R_2\\to R_2-2R_3$, $C_2\\to C_2+C_1$ and $C_3\\to C_3-C_1$, in the stated order, and determine the matrix obtained after the complete transformation.",
+  "answeroption": "A",
+  "explanation": "<b>Successive Matrix Transformations</b><br><br>Initially, $$A=\\begin{bmatrix}1&2&0\\\\2&1&3\\\\3&0&1\\end{bmatrix}$$ Applying $R_1\\leftrightarrow R_3$, we obtain $$\\begin{bmatrix}3&0&1\\\\2&1&3\\\\1&2&0\\end{bmatrix}$$ Now apply $R_2\\to R_2-2R_3$. Since $R_2=[2,1,3]$ and $2R_3=[2,4,0]$, the new second row is $[0,-3,3]$. Hence the matrix becomes $$\\begin{bmatrix}3&0&1\\\\0&-3&3\\\\1&2&0\\end{bmatrix}$$ Next apply $C_2\\to C_2+C_1$. The new second column is $$\\begin{bmatrix}0\\\\-3\\\\2\\end{bmatrix}+\\begin{bmatrix}3\\\\0\\\\1\\end{bmatrix}=\\begin{bmatrix}3\\\\-3\\\\3\\end{bmatrix}$$ Therefore, the matrix becomes $$\\begin{bmatrix}3&3&1\\\\0&-3&3\\\\1&3&0\\end{bmatrix}$$ Finally, apply $C_3\\to C_3-C_1$. The new third column is $$\\begin{bmatrix}1\\\\3\\\\0\\end{bmatrix}-\\begin{bmatrix}3\\\\0\\\\1\\end{bmatrix}=\\begin{bmatrix}-2\\\\3\\\\-1\\end{bmatrix}$$ Hence, after all the stated elementary transformations, the required matrix is $$\\begin{bmatrix}3&3&-2\\\\0&-3&3\\\\1&3&-1\\end{bmatrix}$$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix}3&3&-2\\\\0&-3&3\\\\1&3&-1\\end{bmatrix}$",
+    "B": "$\\begin{bmatrix}3&3&2\\\\0&-3&3\\\\1&3&1\\end{bmatrix}$",
+    "C": "$\\begin{bmatrix}3&3&-2\\\\0&3&3\\\\1&3&-1\\end{bmatrix}$",
+    "D": "$\\begin{bmatrix}3&0&-2\\\\0&-3&3\\\\1&2&-1\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

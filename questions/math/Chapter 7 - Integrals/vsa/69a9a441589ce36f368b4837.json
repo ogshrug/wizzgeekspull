@@ -1,0 +1,29 @@
+{
+  "id": "69a9a441589ce36f368b4837",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int (\\sin(\\log x)+\\cos(\\log x))dx$.",
+  "answeroption": "C",
+  "explanation": "Let $t=\\log x$. Then $x=e^t$ and $dx=e^t dt$.<br /><br />Integral becomes $\\int (\\sin t+\\cos t)e^t dt$.<br /><br />Observe that $\\frac{d}{dt}(e^t\\sin t)=e^t(\\sin t+\\cos t)$.<br /><br />Therefore the integral is $e^t\\sin t + C$.<br /><br />Substituting $t=\\log x$ gives $x\\sin(\\log x)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x\\cos(\\log x)+C$",
+    "B": "$\\sin(\\log x)+\\cos(\\log x)+C$",
+    "C": "$x\\sin(\\log x)+C$",
+    "D": "$x[\\sin(\\log x)+\\cos(\\log x)]+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:41:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

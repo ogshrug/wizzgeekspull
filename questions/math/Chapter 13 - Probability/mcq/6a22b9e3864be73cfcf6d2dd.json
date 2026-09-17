@@ -1,0 +1,31 @@
+{
+  "id": "6a22b9e3864be73cfcf6d2dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "MCQ",
+  "question": "If the sum of numbers obtained on throwing a pair of dice is 9, then the probability that number obtained on one of the dice is 4, is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Determine the restricted sample space where the sum of the dice is exactly 9. The favorable combinations are $S = \\{(3,6), (4,5), (5,4), (6,3)\\}$. The total number of restricted outcomes is $n(S) = 4$.<br />**Step 2:** Define event $E$ as the condition where the number 4 appears on at least one of the dice. From the restricted sample space, the matching pairs are $E = \\{(4,5), (5,4)\\}$. Thus, $n(E) = 2$.<br />**Step 3:** Calculate the required conditional probability by dividing the number of successful events by the total restricted outcomes: $P(E) = \\frac{n(E)}{n(S)} = \\frac{2}{4} = \\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{9}$",
+    "B": "$\\frac{4}{9}$",
+    "C": "$\\frac{1}{18}$",
+    "D": "$\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

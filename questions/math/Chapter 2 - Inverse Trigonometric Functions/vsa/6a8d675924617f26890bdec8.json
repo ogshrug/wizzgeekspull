@@ -1,0 +1,31 @@
+{
+  "id": "6a8d675924617f26890bdec8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4c"
+  ],
+  "question_type": "VSA",
+  "question": "For $f(x)=\\sec^{-1}(x^2+1)$, determine its domain and range, and state whether its graph is symmetric about the $y$-axis.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b><br>Since $x^2\\geq0$, we have $x^2+1\\geq1$ for every real $x$. This satisfies the condition $|x^2+1|\\geq1$ required for the inverse secant function. Hence, the domain is $\\mathbb{R}$.<br><br><b>Step 2:</b><br>The inner expression takes all values in $[1,\\infty)$. For positive arguments in this interval, $\\sec^{-1}$ takes values from $0$ up to, but not including, $\\frac{\\pi}{2}$. Thus, the range is $\\left[0,\\frac{\\pi}{2}\\right)$.<br><br><b>Step 3:</b><br>Also, $$f(-x)=\\sec^{-1}((-x)^2+1)=\\sec^{-1}(x^2+1)=f(x).$$<br><br><b>Step 4:</b><br>Therefore, $f$ is an even function.<br><br><b>Final Answer:</b><br>The domain is $\\mathbb{R}$, the range is $\\left[0,\\frac{\\pi}{2}\\right)$, and the graph is symmetric about the $y$-axis.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $\\mathbb{R}$; Range: $\\left[0,\\frac{\\pi}{2}\\right)$; the graph is symmetric about the $y$-axis",
+    "B": "Domain: $\\mathbb{R}$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$; the graph is symmetric about the $y$-axis",
+    "C": "Domain: $[-1,1]$; Range: $\\left[0,\\frac{\\pi}{2}\\right)$; the graph is symmetric about the $y$-axis",
+    "D": "Domain: $\\mathbb{R}$; Range: $\\left[0,\\frac{\\pi}{2}\\right)$; the graph is symmetric about the $x$-axis"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a2aaa82941aafe86231e9f5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{dx}{\\sqrt{e^{-2x}-1}}$ is equal to:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Rewrite the exponential term inside the radical using positive powers: $\\int \\frac{dx}{\\sqrt{\\frac{1}{e^{2x}}-1}} = \\int \\frac{e^x dx}{\\sqrt{1-e^{2x}}}$.<br />**Step 2:** Use the integration method of substitution by letting $t = e^x$, which implies $dt = e^x dx$.<br />**Step 3:** The integral transforms to $\\int \\frac{dt}{\\sqrt{1-t^2}} = \\sin^{-1}(t) + C$. Substituting back $t = e^x$ results in $\\sin^{-1}(e^x) + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$sin^{-1}e^{-x}+C$",
+    "B": "$log|e^{-x}+\\sqrt{e^{-2x}-1}|+C$",
+    "C": "$sin^{-1}e^{x}+C$",
+    "D": "$log|e^{-x}-\\sqrt{e^{-2x}-1}|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

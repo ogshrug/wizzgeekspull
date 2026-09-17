@@ -1,0 +1,29 @@
+{
+  "id": "6a2259d7864be73cfcf6d176",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d70"
+  ],
+  "question_type": "LA",
+  "question": "A school wants to allocate students into three clubs: Sports, Music and Drama, under following conditions:<br /><ul><li>The number of students in Sports club should be equal to the sum of the number of students in Music and Drama club.</li><li>The number of students in Music club should be 20 more than half the number of students in Sports club.</li><li>The total number of students to be allocated in all three clubs are 180.</li></ul>Find the number of students allocated to different clubs, using matrix method.",
+  "answeroption": "",
+  "explanation": "<strong>Step 1:</strong> Let variables $x, y, z$ represent the number of students assigned to the Sports, Music, and Drama clubs respectively. We systematically formulate a rigorous system of linear equations based directly on the given conditions.<br /><strong>Step 2:</strong> The first condition states the Sports club equals the sum of the remaining two clubs: $x = y + z$, which strategically rearranges to $x - y - z = 0$.<br /><strong>Step 3:</strong> The second condition specifies the Music club has 20 more students than half of the Sports club: $y = \\frac{x}{2} + 20$. Multiplying uniformly by 2 and rearranging gives the linear equation $-x + 2y = 40$.<br /><strong>Step 4:</strong> The final condition caps the total allocation at exactly 180 students, establishing the third equation as $x + y + z = 180$.<br /><strong>Step 5:</strong> We compactly express this mathematical system in the standard matrix format $AX = B$, where $A$ is the coefficient matrix. We compute its determinant, yielding exactly $|A| = 4$. Since $|A| \\neq 0$, the inverse definitively exists, ensuring a unique solution.<br /><strong>Step 6:</strong> We systematically determine the adjoint matrix by computing all matrix cofactors and applying the transpose. Multiplying this by the scalar $\\frac{1}{4}$ yields the inverse matrix $A^{-1}$.<br /><strong>Step 7:</strong> Finally, we strictly solve the variable matrix by executing the multiplication $X = A^{-1}B$. Performing the exact matrix arithmetic yields the values $x=90$, $y=65$, and $z=25$. Therefore, exactly 90 students join Sports, 65 join Music, and exactly 25 join Drama.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1",
+    "2025-1-2",
+    "2025-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

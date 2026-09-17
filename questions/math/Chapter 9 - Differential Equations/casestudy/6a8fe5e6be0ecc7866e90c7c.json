@@ -1,0 +1,32 @@
+{
+  "id": "6a8fe5e6be0ecc7866e90c7c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a3",
+    "6a13ebc98c819562f933f9a4"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a classroom investigation, students are given the differential equation $\\frac{dy}{dx}-2y=0$ together with the family of functions $y=Ce^{2x}$, where $C$ is an arbitrary constant. They are told that different values of $C$ give different members of the family. One particular member of the family is required to pass through the point $(0,3)$. The students must use this condition to select the appropriate value of the arbitrary constant and then check directly whether the resulting function satisfies the given differential equation.<br><br><b>(a)</b> Explain why $y=Ce^{2x}$ represents a general solution of the differential equation.<br><br><b>(b)</b> Using the condition $y=3$ when $x=0$, determine the value of $C$.<br><br><b>(c)</b> Write the corresponding particular solution.<br><br><b>(d)</b> Verify that the particular solution obtained satisfies $\\frac{dy}{dx}-2y=0$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The function is $y=Ce^{2x}$, where $C$ is arbitrary.<br><br>Differentiating with respect to $x$, $$\\frac{dy}{dx}=2Ce^{2x}=2y$$<br><br>Therefore, $$\\frac{dy}{dx}-2y=0$$<br><br>Hence every value of $C$ gives a solution, and because the solution contains the arbitrary constant $C$, it is a general solution.<br><br><b>(b)</b><br>The initial condition is $y=3$ when $x=0$. Substituting in $y=Ce^{2x}$, $$3=Ce^0$$<br><br>Since $e^0=1$, we get $C=3$.<br><br><b>(c)</b><br>Substituting $C=3$ in the general solution gives $$y=3e^{2x}$$<br><br>This solution contains no arbitrary constant and satisfies the given condition. Hence it is the required particular solution.<br><br><b>(d)</b><br>For $y=3e^{2x}$, $$\\frac{dy}{dx}=6e^{2x}$$<br><br>Substituting in the differential equation, $$\\frac{dy}{dx}-2y=6e^{2x}-2\\left(3e^{2x}\\right)=0$$<br><br>Thus the left-hand side equals the right-hand side, so $y=3e^{2x}$ is verified as a solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y=Ce^{2x}$ is a general solution because it contains arbitrary $C$ and gives $\\frac{dy}{dx}=2y$<br>(b) $C=3$<br>(c) $y=3e^{2x}$<br>(d) $\\frac{dy}{dx}-2y=6e^{2x}-6e^{2x}=0$",
+    "B": "(a) $y=Ce^{2x}$ is a particular solution for every $C$<br>(b) $C=2$<br>(c) $y=2e^{2x}$<br>(d) $\\frac{dy}{dx}-2y=0$",
+    "C": "(a) $y=Ce^{2x}$ is a general solution because $C$ is fixed<br>(b) $C=3e^2$<br>(c) $y=3e^{2x+2}$<br>(d) $\\frac{dy}{dx}-2y=3e^{2x}$",
+    "D": "(a) $y=Ce^{2x}$ is a general solution because $\\frac{dy}{dx}=Ce^{2x}$<br>(b) $C=1$<br>(c) $y=e^{2x}$<br>(d) $\\frac{dy}{dx}-2y=-e^{2x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

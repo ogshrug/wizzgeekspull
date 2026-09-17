@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed6d44b490c7cde359490",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f980"
+  ],
+  "question_type": "SA",
+  "question": "Apply the method of differentials to estimate $\\sqrt{99.8}$. Explain the effect of the negative increment on the approximation.",
+  "answeroption": "B",
+  "explanation": "<b>Choice of variables</b><br>Let $y=\\sqrt{x}$, with $x=100$ and $dx=-0.2$. The increment is negative because $99.8<100$.<br><b>Differential of the function</b><br>$$dy=\\frac{1}{2\\sqrt{x}}dx$$<br><b>Substitution</b><br>At $x=100$,<br>$$dy=\\frac{-0.2}{2\\sqrt{100}}=\\frac{-0.2}{20}=-0.01$$<br><b>Approximation</b><br>$$\\sqrt{99.8}\\approx\\sqrt{100}+dy$$<br>$$\\sqrt{99.8}\\approx10-0.01=9.99$$<br><b>Sign interpretation</b><br>The negative differential reduces the value from $10$, which is consistent with $99.8$ being less than $100$.<br><b>Conclusion</b><br>Therefore, $\\sqrt{99.8}\\approx9.99$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$10.01$; the negative increment increases the approximation",
+    "B": "$9.99$; the negative increment reduces the approximation from $10$",
+    "C": "$9.90$; the negative increment reduces the approximation from $10$",
+    "D": "$10.00$; the negative increment produces no change"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

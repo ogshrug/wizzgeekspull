@@ -1,0 +1,33 @@
+{
+  "id": "6a8fe5e7be0ecc7866e90c7f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a3",
+    "6a13ebc98c819562f933f9a4",
+    "6a13ebc98c819562f933f9a5"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A family of concentric circles centred at the origin is represented by $x^2+y^2=C$, where $C$ is an arbitrary positive constant. Each value of $C$ gives a different circle, but every member of the family must satisfy one common differential equation that does not contain $C$. In a classroom activity, students first obtain this differential equation by differentiating the family equation. They are then told that one member passes through the point $(0,4)$, which allows them to fix the arbitrary constant and identify a particular member. Finally, they check that this selected member satisfies the differential equation formed from the entire family.<br><br><b>(a)</b> Explain why $x^2+y^2=C$ represents a general solution for this family.<br><br><b>(b)</b> Differentiate the general solution and eliminate $C$ to form the corresponding differential equation.<br><br><b>(c)</b> Using the condition $y=4$ when $x=0$, determine $C$ and hence write the particular solution.<br><br><b>(d)</b> Verify that the particular solution obtained satisfies the differential equation formed in part (b).",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The equation $$x^2+y^2=C$$ contains the arbitrary constant $C$. Different positive values of $C$ give different circles centred at the origin. Therefore, it represents a family of solutions and serves as a general solution containing one arbitrary constant.<br><br><b>(b)</b><br>Differentiating $x^2+y^2=C$ with respect to $x$, $$2x+2y\\frac{dy}{dx}=0$$<br><br>Dividing by $2$, $$x+y\\frac{dy}{dx}=0$$<br><br>The arbitrary constant $C$ no longer occurs. Hence the differential equation representing the family is $$x+y\\frac{dy}{dx}=0$$<br><br><b>(c)</b><br>The condition is $y=4$ when $x=0$. Substituting into $x^2+y^2=C$, $$0^2+4^2=C$$<br><br>Therefore, $C=16$. The particular solution is $$x^2+y^2=16$$<br><br><b>(d)</b><br>Differentiate the particular solution $x^2+y^2=16$: $$2x+2y\\frac{dy}{dx}=0$$<br><br>Dividing by $2$, $$x+y\\frac{dy}{dx}=0$$<br><br>This is exactly the differential equation formed from the general solution. Hence $x^2+y^2=16$ is verified as a particular solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $x^2+y^2=C$ is a family with arbitrary $C$<br>(b) $x+y\\frac{dy}{dx}=0$<br>(c) $C=16$ and the particular solution is $x^2+y^2=16$<br>(d) Differentiation of the particular solution again gives $x+y\\frac{dy}{dx}=0$",
+    "B": "(a) $x^2+y^2=C$ contains no arbitrary constant<br>(b) $x-y\\frac{dy}{dx}=0$<br>(c) $C=4$ and $x^2+y^2=4$<br>(d) Differentiation gives $x+y\\frac{dy}{dx}=0$",
+    "C": "(a) $x^2+y^2=C$ is a particular solution only<br>(b) $2x+y\\frac{dy}{dx}=0$<br>(c) $C=16$ and $x^2+y^2=16$<br>(d) Differentiation does not satisfy the formed equation",
+    "D": "(a) $x^2+y^2=C$ is a family with arbitrary $C$<br>(b) $x+y\\frac{dy}{dx}=C$<br>(c) $C=4$ and $x^2+y^2=4$<br>(d) The particular member gives $C=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

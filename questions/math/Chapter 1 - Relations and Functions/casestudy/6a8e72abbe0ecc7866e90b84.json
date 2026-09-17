@@ -1,0 +1,32 @@
+{
+  "id": "6a8e72abbe0ecc7866e90b84",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A college library studies a collection of books using the number of pages in each book. On the set $B$ of all books in the library, a relation $R$ is defined by $xRy$ if and only if book $x$ and book $y$ have the same number of pages. For a small sample, books $P,Q,R,S,T$ contain $180,240,180,300,240$ pages respectively. The librarian wants to know whether this rule consistently groups books into classes and therefore examines the mathematical properties of the relation.<br><br><b>(a)</b> From the given sample, find all books related to $P$.<br><br><b>(b)</b> Show that the relation is reflexive.<br><br><b>(c)</b> Show that the relation is symmetric.<br><br><b>(d)</b> Verify transitivity and hence determine whether the relation is an equivalence relation.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Book $P$ has $180$ pages. Among the given books, $R$ also has $180$ pages, while $Q$ and $T$ have $240$ pages and $S$ has $300$ pages. Since every book is also related to itself, the books related to $P$ are $P$ and $R$.<br><br><b>(b)</b><br>Every book has the same number of pages as itself. Therefore, for every book $x\\in B$, $xRx$. Hence, $R$ is reflexive.<br><br><b>(c)</b><br>Suppose $xRy$. Then $x$ and $y$ have the same number of pages. Therefore, $y$ and $x$ also have the same number of pages, so $yRx$. Hence, $R$ is symmetric.<br><br><b>(d)</b><br>Suppose $xRy$ and $yRz$. Then $x$ and $y$ have the same number of pages, and $y$ and $z$ have the same number of pages. Therefore, $x$ and $z$ have the same number of pages, so $xRz$. Thus, $R$ is transitive. Since the relation is reflexive, symmetric and transitive, it is an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "Only book $R$ is related to $P$; the relation is symmetric and transitive but not reflexive, so it is not an equivalence relation.",
+    "B": "Books $P,Q$ and $R$ are related to $P$; the relation is reflexive and symmetric but not transitive, so it is not an equivalence relation.",
+    "C": "Books $P$ and $R$ are related to $P$; the relation is reflexive, symmetric and transitive, so it is an equivalence relation.",
+    "D": "Books $P$ and $T$ are related to $P$; the relation is reflexive and transitive but not symmetric, so it is not an equivalence relation."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8edd9dbe0ecc7866e90c0b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int \\frac{5x+7}{x^2+3x+2}\\,dx$ by resolving the rational function into partial fractions.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Factorising the denominator</b><br>We have<br>$$x^2+3x+2=(x+1)(x+2)$$<br>Hence the integrand can be expressed using partial fractions.<br><b>Step 2: Setting up the partial fractions</b><br>Let<br>$$\\frac{5x+7}{(x+1)(x+2)}=\\frac{A}{x+1}+\\frac{B}{x+2}$$<br><b>Step 3: Determining the constants</b><br>Multiplying throughout by $(x+1)(x+2)$ gives<br>$$5x+7=A(x+2)+B(x+1)$$<br>Comparing coefficients,<br>$$A+B=5,\\qquad 2A+B=7$$<br>Therefore, $A=2$ and $B=3$.<br><b>Step 4: Rewriting the integral</b><br>$$\\int\\frac{5x+7}{x^2+3x+2}\\,dx=\\int\\left(\\frac{2}{x+1}+\\frac{3}{x+2}\\right)dx$$<br><b>Step 5: Integrating the partial fractions</b><br>Hence,<br>$$\\boxed{2\\log|x+1|+3\\log|x+2|+C}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$3\\log|x+1|+2\\log|x+2|+C$",
+    "B": "$2\\log|x+1|+3\\log|x+2|+C$",
+    "C": "$2\\log|x+1|-3\\log|x+2|+C$",
+    "D": "$5\\log|x+1|+2\\log|x+2|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

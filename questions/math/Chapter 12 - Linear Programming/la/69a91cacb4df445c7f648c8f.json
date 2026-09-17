@@ -1,0 +1,29 @@
+{
+  "id": "69a91cacb4df445c7f648c8f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A factory manufactures two types of products P and Q. Each unit of P requires 3 units of material and 2 units of labour. Each unit of Q requires 4 units of material and 1 unit of labour. 60 units of material and 40 units of labour are available. The profit on each unit of P is Rs 50 and on Q is Rs 40. Formulate the LPP, graph the feasible region, find the corner points, and compute the maximum profit.",
+  "answeroption": "B",
+  "explanation": "Let $x$ = units of P, $y$ = units of Q.<br /><br />Step 1: Objective: $Z=50x+40y$<br /><br />Step 2: Material: $3x+4y\\leq60$<br /><br />Step 3: Labour: $2x+y\\leq40$<br /><br />Step 4: $x\\geq0$, $y\\geq0$<br /><br />Step 5: Find intersection points:<br /><br />Rewrite constraints:<br /><br />Material: $3x+4y=60 \\implies y=(60-3x)/4$<br /><br />Labour: $2x+y=40 \\implies y=40-2x$<br /><br />Set $y=(60-3x)/4=40-2x$<br /><br />$60-3x=4(40-2x)\\implies60-3x=160-8x\\implies5x=100\\implies x=20$<br /><br />Then $y=40-2x=40-40=0$<br /><br />So one point is $(20,0)$<br /><br />Find intercepts:<br /><br />Material: $x=0,y=15$; $y=0,x=20$<br /><br />Labour: $x=0,y=40$; $y=0,x=20$<br /><br />Check which are feasible:<br /><br />$(0,15):3\\times0+4\\times15=60,2\\times0+15=15<40$, OK.<br /><br />$(0,40):3\\times0+4\\times40=160>60$, not feasible.<br /><br />$(20,0):3\\times20+4\\times0=60,2\\times20+0=40$, OK.<br /><br />$(0,0):$ OK.<br /><br />Intersection point by solving both constraints: $3x+4y=60,2x+y=40$<br /><br />Multiply second equation by 4: $8x+4y=160$<br /><br />Subtract first: $5x=100\\implies x=20,y=0$<br /><br />Above found already.<br /><br />Other intercept:<br /><br />Set $x=0,y=15$ in labour: $2\\times0+15=15\\leq40$; OK.<br /><br />Set $y=0,x=20$ in material: $3\\times20=60\\leq60$; OK.<br /><br />Another intersection: set $y=0$:<br /><br />$2x+0=40\\implies x=20$, $3x+0=60\\implies x=20$<br /><br />So all feasible corner points: $(0,0), (0,15), (20,0)$<br /><br />Step 6: Evaluate $Z$:<br /><br />$(0,0):0$<br /><br />$(0,15):0+40\\times15=600$<br /><br />$(20,0):50\\times20=1000$<br /><br />Maximum profit is Rs 1000 at $(20,0)$.<br /><br />Factory should manufacture 20 units of P and 0 units of Q.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Maximize $Z=50x+40y$ with $3x+4y\\leq60$, $2x+y\\leq40$, $x,y\\geq0$<br />(b) Corner points: $(0,0)$, $(0,15)$, $(20,0)$<br />(c) Maximum profit Rs 600 at $(0,15)$.",
+    "B": "(a) Maximize $Z=50x+40y$ with $3x+4y\\leq60$, $2x+y\\leq40$, $x,y\\geq0$<br />(b) Corner points: $(0,0)$, $(0,15)$, $(20,0)$<br />(c) Maximum profit Rs 1000 at $(20,0)$.",
+    "C": "(a) Maximize $Z=50x+40y$ with $3x+4y\\leq60$, $2x+y\\leq40$, $x,y\\geq0$<br />(b) Corner points: $(0,0)$, $(0,40)$, $(20,0)$<br />(c) Maximum profit Rs 1600 at $(0,40)$.",
+    "D": "(a) Maximize $Z=50x+40y$ with $3x+4y\\leq60$, $2x+y\\leq40$, $x,y\\geq0$<br />(b) Corner points: $(0,0)$, $(10,10)$, $(20,0)$<br />(c) Maximum profit Rs 900 at $(10,10)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:03:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

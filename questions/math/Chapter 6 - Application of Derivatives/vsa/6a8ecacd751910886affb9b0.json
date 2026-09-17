@@ -1,0 +1,29 @@
+{
+  "id": "6a8ecacd751910886affb9b0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "VSA",
+  "question": "A ladder $13$ m long rests against a vertical wall. Its lower end moves away from the wall at $3$ m/s. Find the rate at which its upper end moves vertically when the lower end is $5$ m from the wall.",
+  "answeroption": "C",
+  "explanation": "Step 1: Let $x$ be the distance of the lower end from the wall and $y$ be the height of the upper end. Since the ladder has fixed length, $$x^2+y^2=13^2$$Step 2: When $x=5$, $$y=\\sqrt{169-25}=12$$Step 3: Differentiate the relation with respect to time: $$2x\\frac{dx}{dt}+2y\\frac{dy}{dt}=0$$Step 4: Substitute $x=5$, $y=12$ and $\\frac{dx}{dt}=3$: $$5(3)+12\\frac{dy}{dt}=0$$Step 5: Therefore, $\\frac{dy}{dt}=-\\frac{15}{12}=-\\frac{5}{4}$ m/s. Thus, the upper end moves downward at $\\frac{5}{4}$ m/s.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{5}{4}$ m/s upward",
+    "B": "$\\frac{12}{5}$ m/s downward",
+    "C": "$\\frac{5}{4}$ m/s downward",
+    "D": "$\\frac{15}{13}$ m/s downward"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

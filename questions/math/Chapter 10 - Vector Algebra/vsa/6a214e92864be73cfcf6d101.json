@@ -1,0 +1,29 @@
+{
+  "id": "6a214e92864be73cfcf6d101",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c7",
+    "6a13e767d837c8c7efa6b8c9"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\vec{AB}=\\hat{j}+\\hat{k}$ and $\\vec{AC}=3\\hat{i}-\\hat{j}+4\\hat{k}$ represent the two vectors along the sides AB and AC of $\\Delta ABC$, prove that the median $\\vec{AD}=\\frac{\\vec{AB}+\\vec{AC}}{2}$ where D is midpoint of BC.<br /><br />Hence, find the length of median AD.",
+  "answeroption": "",
+  "explanation": "**Step 1:** By the triangle law of vector addition, $\\vec{AB} + \\vec{BD} = \\vec{AD}$. Since D is the midpoint of BC, $\\vec{BD} = \\frac{1}{2}\\vec{BC}$.<br /><br />**Step 2:** We can express $\\vec{BC}$ in terms of the given sides: $\\vec{BC} = \\vec{AC} - \\vec{AB}$. Substituting this back gives $\\vec{BD} = \\frac{1}{2}(\\vec{AC} - \\vec{AB})$.<br /><br />**Step 3:** Now, substitute $\\vec{BD}$ into the first equation: $\\vec{AD} = \\vec{AB} + \\frac{1}{2}(\\vec{AC} - \\vec{AB}) = \\frac{1}{2}\\vec{AB} + \\frac{1}{2}\\vec{AC} = \\frac{\\vec{AB} + \\vec{AC}}{2}$, which completes the proof.<br /><br />**Step 4:** To find the length, first calculate vector $\\vec{AD}$: $\\vec{AD} = \\frac{(\\hat{j}+\\hat{k}) + (3\\hat{i}-\\hat{j}+4\\hat{k})}{2} = \\frac{3\\hat{i} + 5\\hat{k}}{2} = 1.5\\hat{i} + 2.5\\hat{k}$.<br /><br />**Step 5:** The length is the magnitude of $\\vec{AD}$: $|\\vec{AD}| = \\sqrt{(1.5)^2 + (2.5)^2} = \\sqrt{2.25 + 6.25} = \\sqrt{8.5} = \\frac{\\sqrt{34}}{2}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

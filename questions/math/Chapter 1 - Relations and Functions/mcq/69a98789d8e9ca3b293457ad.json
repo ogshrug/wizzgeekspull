@@ -1,0 +1,29 @@
+{
+  "id": "69a98789d8e9ca3b293457ad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A = \\mathbb{N}$ and consider the relation $R = \\{(a, b): a-b \\text{ is divisible by } 5\\}$ on $A$. For which of the following sets does $R$ partition $A$ into exactly $5$ equivalence classes, and which class does $[3]$ belong to?",
+  "answeroption": "D",
+  "explanation": "The relation $R$ is the congruence modulo 5. Hence, it partitions $\\mathbb{N}$ into 5 equivalence classes: $[k] = \\{n \\in \\mathbb{N}: n \\equiv k \\pmod{5}\\}$, with $k = 1,2,3,4,5$.<br /><br />Specifically, $[3] = \\{n \\in \\mathbb{N} : n \\equiv 3 \\pmod{5}\\} = \\{3, 8, 13, 18, ...\\}$.<br /><br />So, both B) and C) are correct. Hence, Option D.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A = \\{1, 2, 3, 4, 5\\}$; $[3] = \\{3\\}$",
+    "B": "$A = \\mathbb{N}$; $[3] = \\{3, 8, 13, 18, ...\\}$",
+    "C": "$A = \\mathbb{N}$; $[3] = \\{n \\in \\mathbb{N} : n \\equiv 3 \\pmod{5}\\}$",
+    "D": "Both B) and C) are correct"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:39:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

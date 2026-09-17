@@ -1,0 +1,31 @@
+{
+  "id": "69aa75588e6d1957407fd1bc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 2 (E-Commerce – Discount Mappings):**<br /><br />An online shop offers discounts based on user's purchase quantity. For purchase quantity set $Q = \\{1, 2, 3, 4, 5\\}$, the discount function $d : Q \\to D$ is defined as:<br /><br />$$ d(q) = \\begin{cases} 0, & \\text{if } q = 1 \\\\ 10, & \\text{if } q = 2 \\text{ or } 3 \\\\ 20, & \\text{if } q = 4 \\text{ or } 5 \\end{cases} $$<br /><br />$D = \\{0, 10, 20\\}$ (in percent).<br /><br />(a) Is the function $d$ one-one, onto, or bijective? Justify each property.<br /><br />(b) Define the relation $R$ on $Q$ by $q_1 R q_2$ if $d(q_1) = d(q_2)$. Prove whether $R$ is an equivalence relation.<br /><br />(c) How many equivalence classes does relation $R$ have, and what are their sizes?",
+  "answeroption": "D",
+  "explanation": "(a) Analyzing $d$:<br /><br />**Step 1:** Is $d$ one-one (injective)?<br /><br />$d(2) = d(3) = 10$, and $d(4) = d(5) = 20$.<br /><br />So, $d$ is **not one-one**.<br /><br />**Step 2:** Is $d$ onto (surjective)?<br /><br />For each $y \\in D$:<br /><br />$0$ is achieved by $d(1)$.<br /><br />$10$ is achieved by $d(2), d(3)$.<br /><br />$20$ is achieved by $d(4), d(5)$.<br /><br />So, $d$ is **onto**.<br /><br />**Step 3:** Is $d$ bijective?<br /><br />Since it is not injective, it cannot be bijective.<br /><br />**Conclusion:** $d$ is *onto*, but neither *one-one* nor *bijective*.<br /><br />(b) Define $R$ by $q_1 R q_2$ iff $d(q_1) = d(q_2)$.<br /><br />**Step 1:** Reflexivity: $d(q_1) = d(q_1)$ for any $q_1$. So, $R$ is reflexive.<br /><br />**Step 2:** Symmetry: If $d(q_1) = d(q_2)$, then $d(q_2) = d(q_1)$. So, $R$ is symmetric.<br /><br />**Step 3:** Transitivity: If $d(q_1) = d(q_2)$ and $d(q_2) = d(q_3)$, then $d(q_1) = d(q_3)$. So, $R$ is transitive.<br /><br />$R$ is therefore an **equivalence relation**.<br /><br />(c) **Equivalence classes of $R$: **<br /><br />$\\text{Elements with same discount value form equivalence classes}$<br /><br />$\\text{Class 1: } \\{1\\} \\text{ (discount 0%)}$<br /><br />$\\text{Class 2: } \\{2, 3\\} \\text{ (discount 10%)}$<br /><br />$\\text{Class 3: } \\{4, 5\\} \\text{ (discount 20%)}$<br /><br />$\\text{Number of equivalence classes} = 3$<br /><br />$\\text{Sizes: } 1, 2, 2$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $d$ is one-one and onto, so it is bijective.<br />(b) $R$ is not an equivalence relation.<br />(c) There are $5$ equivalence classes, each of size $1$.",
+    "B": "(a) $d$ is one-one but not onto.<br />(b) $R$ is reflexive only.<br />(c) There are $2$ equivalence classes of sizes $2$ and $3$.",
+    "C": "(a) $d$ is neither one-one nor onto.<br />(b) $R$ is symmetric but not transitive.<br />(c) There is only $1$ equivalence class of size $5$.",
+    "D": "(a) $d$ is onto but not one-one, hence not bijective.<br />(b) $R$ is an equivalence relation because equality of discount values is reflexive, symmetric and transitive.<br />(c) There are $3$ equivalence classes: $\\{1\\}$, $\\{2,3\\}$ and $\\{4,5\\}$, with sizes $1,2,2$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:34:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

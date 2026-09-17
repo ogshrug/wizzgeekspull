@@ -1,0 +1,32 @@
+{
+  "id": "6a2ba8bce2870e79a90d76ce",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $2~cos^{-1}x=y$ then $\\frac{dy}{dx}$ is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Isolate the inverse term: $\\cos^{-1}x = \\frac{y}{2}$, which can be rewritten as $x = \\cos\\frac{y}{2}$.<br />**Step 2:** Differentiate both sides with respect to $x$: $1 = -\\sin\\frac{y}{2} \\cdot \\frac{1}{2} \\frac{dy}{dx} \\implies \\frac{dy}{dx} = \\frac{-2}{\\sin(y/2)}$.<br />**Step 3:** Convert back to trigonometric identities: $\\frac{-2}{\\sin(y/2)} = -2\\csc\\frac{y}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-2~sin^{-1}x$",
+    "B": "$-\\frac{1}{2}sin\\frac{y}{2}$",
+    "C": "$\\frac{-1}{\\sqrt{1-2x^{2}}}$",
+    "D": "$-2~cosec\\frac{y}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

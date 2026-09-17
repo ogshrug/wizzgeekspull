@@ -1,0 +1,29 @@
+{
+  "id": "69a92396b4df445c7f648cb4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A cottage industry manufactures two types of products: chairs and tables. Both products are processed on three machines: A, B, and C. Each chair requires 2 hours on machine A, 1 hour on B, and 1 hour on C. Each table requires 1 hour on A, 1 hour on B, and 3 hours on C. The maximum time available per week on machine A is 20 hours, on B is 15 hours, and on C is 30 hours. If the profit per chair is ₹50 and per table is ₹80, formulate the LPP to maximize profit and find the optimal production mix using the graphical method. Also, determine if there is any alternative optimal solution.",
+  "answeroption": "B",
+  "explanation": "Let $x =$ number of chairs, $y =$ number of tables.<br /><br />Objective: Maximize $Z = 50x + 80y$<br /><br />Subject to:<br />$2x + y \\leq 20$ (A)<br />$x + y \\leq 15$ (B)<br />$x + 3y \\leq 30$ (C)<br />$x \\geq 0$, $y \\geq 0$<br /><br />Find corner points:<br />(1) $2x + y = 20$ (i)<br />(2) $x + y = 15$ (ii)<br />(3) $x + 3y = 30$ (iii)<br /><br />Intersection (i) & (ii):<br />$2x + y = 20$, $x + y = 15$<br />Subtract:<br />$x = 5; y = 10$<br /><br />Intersection (ii) & (iii):<br />$x + y = 15$, $x + 3y = 30$<br />Subtract:<br />$2y = 15 \\implies y = 7.5$<br />$x = 15 - 7.5 = 7.5$<br /><br />Intersection (i) & (iii):<br />$2x + y = 20$, $x + 3y = 30$<br />From (i): $y = 20 - 2x$<br />Substitute in (iii): $x + 3(20 - 2x) = 30$<br />$x + 60 - 6x = 30$<br />$-5x = -30 \\implies x = 6$<br />$y = 20 - 2 \\times 6 = 8$<br /><br />Now, intercepts:<br />$x=0:\\ y=20,15,10$; $y=0:\\ x=10,15,30$<br /><br />Corner points:<br />$(0,0), (0,10), (5,10), (7.5,7.5), (6,8), (10,0)$<br /><br />Now check which are feasible for all constraints:<br />At $y=10,\\ x+3\\times10=30$→ $x=0$<br />At $x=5,y=10:\\ 2\\times5+10=20$; $5+10=15$; $5+3\\times10=35>30$ (Not feasible)<br />At $x=7.5,y=7.5:\\ 2\\times7.5+7.5=22.5>20$ (Not feasible)<br />At $x=6,y=8:\\2\\times6+8=20;6+8=14;6+24=30$<br />At $x=0,y=10:\\2\\times0+10=10;0+10=10;0+30=30$<br />At $x=10,y=0:\\ 2\\times10=20;10+0=10;10+0=10$<br /><br />Feasible corner points:<br />$(0,0), (0,10), (6,8), (10,0)$<br /><br />Compute $Z$:<br />$(0,0): 0$<br />$(0,10): 800$<br />$(6,8): 50\\times6+80\\times8=300+640=940$<br />$(10,0): 500$<br /><br />Maximum profit at $(6,8)$ is ₹940.<br /><br />Alternative optimal solution? Check if $Z$ at any other corner equals 940: it does not, so unique solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 0 chairs and 10 tables; maximum profit ₹800; unique solution",
+    "B": "Produce 6 chairs and 8 tables; maximum profit ₹940; unique solution",
+    "C": "Produce 10 chairs and 0 tables; maximum profit ₹500; unique solution",
+    "D": "Produce 5 chairs and 10 tables; maximum profit ₹1050; alternative optimal solution exists"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:32:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

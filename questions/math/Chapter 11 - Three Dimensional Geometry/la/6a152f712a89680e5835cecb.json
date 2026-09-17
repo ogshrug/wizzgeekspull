@@ -1,0 +1,25 @@
+{
+  "id": "6a152f712a89680e5835cecb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2",
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the shortest distance between the following lines: $\\frac{x+1}{7} = \\frac{y+1}{-6} = \\frac{z+1}{1}$ and $\\frac{x-3}{1} = \\frac{y-5}{-2} = \\frac{z-7}{1}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Write points and direction vectors: <br /> $\\vec{a_1} = -\\hat{i} - \\hat{j} - \\hat{k}$, $\\vec{b_1} = 7\\hat{i} - 6\\hat{j} + \\hat{k}$ <br /> $\\vec{a_2} = 3\\hat{i} + 5\\hat{j} + 7\\hat{k}$, $\\vec{b_2} = \\hat{i} - 2\\hat{j} + \\hat{k}$ <br /><br /> **Step 2:** $\\vec{a_2} - \\vec{a_1} = (3+1)\\hat{i} + (5+1)\\hat{j} + (7+1)\\hat{k} = 4\\hat{i} + 6\\hat{j} + 8\\hat{k}$. <br /><br /> **Step 3:** Compute $\\vec{b_1} \\times \\vec{b_2}$: <br /> $\\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 7 & -6 & 1 \\\\ 1 & -2 & 1 \\end{vmatrix} = \\hat{i}((-6)(1) - (1)(-2)) - \\hat{j}((7)(1) - (1)(1)) + \\hat{k}((7)(-2) - (-6)(1))$ <br /> $= \\hat{i}(-6 + 2) - \\hat{j}(7 - 1) + \\hat{k}(-14 + 6)$ <br /> $= -4\\hat{i} - 6\\hat{j} - 8\\hat{k}$. <br /><br /> **Step 4:** Magnitude $|\\vec{b_1} \\times \\vec{b_2}| = \\sqrt{(-4)^2 + (-6)^2 + (-8)^2} = \\sqrt{16 + 36 + 64} = \\sqrt{116} = 2\\sqrt{29}$. <br /><br /> **Step 5:** Shortest distance $d = \\frac{|(\\vec{a_2} - \\vec{a_1}) \\cdot (\\vec{b_1} \\times \\vec{b_2})|}{|\\vec{b_1} \\times \\vec{b_2}|}$ <br /> $(\\vec{a_2} - \\vec{a_1}) \\cdot (\\vec{b_1} \\times \\vec{b_2}) = (4)(-4) + (6)(-6) + (8)(-8) = -16 -36 -64 = -116$. <br /> Absolute value = $116$. <br /><br /> **Step 6:** $d = \\frac{116}{2\\sqrt{29}} = \\frac{58}{\\sqrt{29}} = 2\\sqrt{29}$. <br /><br /> **Answer:** $2\\sqrt{29}$ units",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

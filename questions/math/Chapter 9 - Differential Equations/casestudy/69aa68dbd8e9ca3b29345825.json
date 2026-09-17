@@ -1,0 +1,30 @@
+{
+  "id": "69aa68dbd8e9ca3b29345825",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Case Study 3: Investment and Continuous Compound Interest<br /><br />A business invests a principal amount $P_0$ at time $t=0$ in a fund that earns interest at a continuously compounded annual rate $r$, but is subject to a continuous withdrawal, that is proportional to the current capital at any instant ($kP$, $k>0$).<br /><br />a) Formulate the differential equation for the capital $P(t)$ at time $t$ (in years).<br /><br />b) Solve the equation to find the capital at time $t$. What is the long-term behaviour as $t \\to \\infty$?<br /><br />c) If the withdrawal rate $k$ is slightly less than the interest rate $r$, discuss the practical implications for sustainable investment and how the model fails if $k > r$.",
+  "answeroption": "A",
+  "explanation": "(a) The rate of change of capital is<br /><br />$\\dfrac{dP}{dt} = rP - kP = (r - k)P$<br /><br />(b) This is a separable, first order linear equation:<br /><br />$\\dfrac{dP}{dt} = (r - k)P$<br /><br />$\\Rightarrow \\frac{dP}{P} = (r - k) dt$<br /><br />Integrate both sides:<br /><br />$\\int \\frac{1}{P} dP = \\int (r-k) dt$<br /><br />$\\ln |P| = (r-k)t + C$<br /><br />$P(t) = A e^{(r-k)t}$<br /><br />Using $P(0) = P_0$, $A = P_0$, so<br /><br />$P(t) = P_0 e^{(r-k)t}$<br /><br />As $t \\to \\infty$:<br /><br />- If $k < r$: $P(t) \\to \\infty$<br /><br />- If $k > r$: $P(t) \\to 0$<br /><br />- If $k = r$: $P(t) = P_0$ (constant capital)<br /><br />(c) If $k < r$, the investment grows exponentially and is sustainable—withdrawals can be supported in perpetuity. If $k = r$, the capital remains constant. If $k > r$, the capital depletes to zero, so continuous withdrawal at this rate is not sustainable; eventually, funds will run out, which is not modeled in reality (as negative capital is not possible). Limitations arise as soon as the capital is exhausted, which the model does not restrict. In practice, withdrawals cannot exceed interest earned; otherwise, principal is eroded.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dP}{dt}=(r-k)P$<br />(b) $P(t)=P_0e^{(r-k)t}$; if $r>k$, $P(t)\\to\\infty$, if $r=k$, $P(t)=P_0$, and if $k>r$, $P(t)\\to0$<br />(c) If $k<r$, investment is sustainable; if $k>r$, capital depletes and the model fails once funds are exhausted",
+    "B": "(a) $\\frac{dP}{dt}=(r+k)P$<br />(b) $P(t)=P_0e^{(r+k)t}$ always grows<br />(c) Withdrawals never affect sustainability",
+    "C": "(a) $\\frac{dP}{dt}=r-kP$<br />(b) $P(t)=P_0+(r-k)t$<br />(c) The capital always remains constant",
+    "D": "(a) $\\frac{dP}{dt}=kP-rP$<br />(b) $P(t)=P_0e^{(k-r)t}$; if $k<r$, $P(t)\\to0$<br />(c) Investment is sustainable only when $k>r$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:40:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a26590c864be73cfcf6d353",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "VSA",
+  "question": "A pair of dice is thrown and the sum of the numbers appearing on the dice is observed to be 7. Find the probability that the number 5 has appeared on atleast one die.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $A$ be the event that the sum of numbers on the two thrown dice is observed to be 7, and $B$ be the event that the number 5 appears on at least one of the dice. We are asked to find the conditional probability $P(B|A) = \\frac{n(B \\cap A)}{n(A)}$.<br />**Step 2:** First, list all the elements belonging to our given condition event $A$ (sum equals 7): $A = \\{(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)\\}$. This shows $n(A) = 6$ total outcomes. Next, find the subset of these outcomes that also satisfy event $B$ (contains number 5): $B \\cap A = \\{(2,5), (5,2)\\}$, which shows $n(B \\cap A) = 2$ outcomes.<br />**Step 3:** Substitute these counts back into our conditional probability formula: $P(B|A) = \\frac{2}{6} = \\frac{1}{3}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1",
+    "2022-3-2",
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

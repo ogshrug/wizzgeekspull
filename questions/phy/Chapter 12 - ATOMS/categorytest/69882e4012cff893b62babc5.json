@@ -1,0 +1,19 @@
+{
+  "id": "69882e4012cff893b62babc5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "697dd9f364ea1d65e30d4c30",
+  "question": "Two isotopes of hydrogen are used: protium ($^1\\mathrm{H}$, nuclear mass $M_p=m_p$) and deuterium ($^2\\mathrm{H}$, nuclear mass $M_d=m_d$). The reduced-mass corrected Rydberg constant is\n\n$$R(M)=\\frac{R_\\infty}{1+\\frac{m_e}{M}}.$$\n\nFor each isotope, two Balmer lines are measured:\n\n- Line (I): $3\\to 2$ with wavelength $\\lambda_{32}$.\n- Line (II): $4\\to 2$ with wavelength $\\lambda_{42}$.\n\nThe measured isotope shifts (protium minus deuterium) are\n\n$$\\Delta\\lambda_{32}=\\lambda_{32}(^1\\mathrm{H})-\\lambda_{32}(^2\\mathrm{H})=0.180\\,\\text{nm},$$\n$$\\Delta\\lambda_{42}=\\lambda_{42}(^1\\mathrm{H})-\\lambda_{42}(^2\\mathrm{H})=0.133\\,\\text{nm}.$$\n\nAssume point nuclei and ignore fine structure. Using only the Rydberg formula\n\n$$\\frac{1}{\\lambda}=R(M)\\left(\\frac{1}{n_f^2}-\\frac{1}{n_i^2}\\right),$$\n\ndetermine whether these two measured shifts are mutually consistent with the reduced-mass model to first order.\n\nYou may use $\\lambda_{32}\\approx 656\\,\\text{nm}$ and $\\lambda_{42}\\approx 486\\,\\text{nm}$.",
+  "options": {
+    "A": "Yes. The reduced-mass model predicts $\\dfrac{\\Delta\\lambda_{32}}{\\Delta\\lambda_{42}}\\approx \\left(\\dfrac{\\lambda_{32}}{\\lambda_{42}}\\right)^2$, and the given data satisfy this.",
+    "B": "Yes. The reduced-mass model predicts $\\dfrac{\\Delta\\lambda_{32}}{\\Delta\\lambda_{42}}\\approx \\dfrac{\\lambda_{32}}{\\lambda_{42}}$, and the given data satisfy this.",
+    "C": "No. The reduced-mass model predicts $\\Delta\\lambda_{32}=\\Delta\\lambda_{42}$, independent of transition.",
+    "D": "No. The reduced-mass model predicts $\\dfrac{\\Delta\\lambda_{32}}{\\Delta\\lambda_{42}}\\approx \\left(\\dfrac{\\lambda_{42}}{\\lambda_{32}}\\right)^2$, which the given data contradict."
+  },
+  "question_type": "mcq",
+  "category": "JEE",
+  "imageurl": null,
+  "categories": [
+    "JEE"
+  ]
+}

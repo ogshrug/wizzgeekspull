@@ -1,0 +1,31 @@
+{
+  "id": "6a9004014b490c7cde359546",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f993",
+    "6a13eb338c819562f933f994"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A triangular display panel is placed beside a vertical reference axis. At height $y$, its horizontal width is modelled by $x=6-2y$ for $0\\leq y\\leq3$, where both coordinates are measured in metres. Thus, the panel extends from the $y$-axis to the decreasing straight line. The designers want to install a horizontal divider at $y=h$, where $0<h<3$, so that the areas below and above the divider are equal. Definite integration with respect to $y$ is used for the calculations.(a) Find the widths of the panel at $y=0$ and $y=3$.(b) Calculate the total area of the panel.(c) Express the area below $y=h$ in terms of $h$.(d) Determine the exact value of $h$ that divides the panel into two equal areas.",
+  "answeroption": "C",
+  "explanation": "(a)At $y=0$,`x=6-2\\left(0\\right)=6`At $y=3$,`x=6-2\\left(3\\right)=0`Hence, the widths are $6$ metres and $0$ metres, respectively.(b)The panel extends from $x=0$ to $x=6-2y$. Therefore,`A=\\int_0^3\\left(6-2y\\right)dyA=\\left[6y-y^2\\right]_0^3A=18-9=9`Thus, the total area is $9$ square metres.(c)The area below $y=h$ is`A_h=\\int_0^h\\left(6-2y\\right)dyA_h=\\left[6y-y^2\\right]_0^h=6h-h^2`Hence, the required expression is $6h-h^2$ square metres.(d)For equal division, the area below the divider must be $\\frac{9}{2}$ square metres. Therefore,`6h-h^2=\\frac{9}{2}2h^2-12h+9=0`Using the quadratic formula,`h=\\frac{12\\pm\\sqrt{144-72}}{4}h=3\\pm\\frac{3\\sqrt{2}}{2}`Since $0<h<3$, the acceptable value is`h=3-\\frac{3\\sqrt{2}}{2}`The remaining area is $9-\\frac{9}{2}=\\frac{9}{2}$ square metres, confirming that the divider produces two equal areas.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Widths $6$ m and $0$ m<br>(b) Total area $=18$ m$^2$<br>(c) $A_h=6h-h^2$<br>(d) $h=3-\\frac{3\\sqrt{2}}{2}$",
+    "B": "(a) Widths $6$ m and $0$ m<br>(b) Total area $=9$ m$^2$<br>(c) $A_h=6h-2h^2$<br>(d) $h=3-\\frac{3\\sqrt{2}}{2}$",
+    "C": "(a) Widths $6$ m and $0$ m<br>(b) Total area $=9$ m$^2$<br>(c) $A_h=6h-h^2$<br>(d) $h=3-\\frac{3\\sqrt{2}}{2}$",
+    "D": "(a) Widths $6$ m and $0$ m<br>(b) Total area $=9$ m$^2$<br>(c) $A_h=6h-h^2$<br>(d) $h=\\frac{3}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

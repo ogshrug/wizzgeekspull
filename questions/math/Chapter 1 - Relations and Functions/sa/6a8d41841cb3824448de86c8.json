@@ -1,0 +1,29 @@
+{
+  "id": "6a8d41841cb3824448de86c8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=5-x$. Show that $f$ is its own inverse.",
+  "answeroption": "B",
+  "explanation": "<b>Composition of the function with itself</b><br>$$(f\\circ f)(x)=f(5-x)=5-(5-x)=x.$$<br><br><b>Identity function</b><br>Thus,<br>$$f\\circ f=I_{\\mathbb{R}}.$$<br><br><b>Inverse relation</b><br>A function that gives the identity function when composed with itself is its own inverse.<br><br><b>Conclusion</b><br>Therefore,<br>$$f^{-1}=f$$<br>and hence<br>$$f^{-1}(x)=5-x.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$f^{-1}(x)=x-5$ because $f(x)=5-x$",
+    "B": "$f^{-1}(x)=5-x$ because $(f\\circ f)(x)=x$",
+    "C": "$f^{-1}(x)=\\frac{1}{5-x}$ because the inverse is the reciprocal",
+    "D": "$f$ has no inverse because it is a decreasing function"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a22a0f4864be73cfcf6d27f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8cc"
+  ],
+  "question_type": "VSA",
+  "question": "Find the vector equation of the line passing through the point (2, 3, -5) and making equal angles with the co-ordinate axes.",
+  "answeroption": "",
+  "explanation": "**Step 1:** If a line makes equal angles $\\alpha$ with all three coordinate axes, its direction cosines $l, m, n$ are equal. So $l = m = n = \\cos\\alpha$.<br />**Step 2:** We know the fundamental identity for direction cosines is $l^2 + m^2 + n^2 = 1$. Substitute to get $3\\cos^2\\alpha = 1$, yielding $\\cos\\alpha = \\pm\\frac{1}{\\sqrt{3}}$.<br />**Step 3:** The direction ratios of the line are proportional to its direction cosines, so we can simply use $(1, 1, 1)$ or $(-1, -1, -1)$ as the direction ratios. Let's use the vector $\\vec{b} = \\hat{i} + \\hat{j} + \\hat{k}$.<br />**Step 4:** The line must pass through the specific point $(2, 3, -5)$. The position vector of this point is $\\vec{a} = 2\\hat{i} + 3\\hat{j} - 5\\hat{k}$.<br />**Step 5:** The standard vector equation of a line is $\\vec{r} = \\vec{a} + \\lambda\\vec{b}$. Substituting the vectors gives $\\vec{r} = (2\\hat{i} + 3\\hat{j} - 5\\hat{k}) + \\lambda(\\hat{i} + \\hat{j} + \\hat{k})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

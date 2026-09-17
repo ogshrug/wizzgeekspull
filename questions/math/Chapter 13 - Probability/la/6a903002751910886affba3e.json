@@ -1,0 +1,29 @@
+{
+  "id": "6a903002751910886affba3e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "LA",
+  "question": "Two fair coins are tossed simultaneously. Let $A$ be the event that the first coin shows a head, $B$ the event that the second coin shows a head, and $C$ the event that both coins show the same face. Examine whether $A$, $B$ and $C$ are pairwise independent and whether they are mutually independent.",
+  "answeroption": "D",
+  "explanation": "<b>Given Information</b><br>The sample space is $S=\\{HH,HT,TH,TT\\}$, with each outcome having probability $\\frac{1}{4}$. The events are<br>$$A=\\{HH,HT\\},\\quad B=\\{HH,TH\\},\\quad C=\\{HH,TT\\}.$$<br>Therefore,<br>$$P(A)=P(B)=P(C)=\\frac{1}{2}.$$<br><br><b>Verification of Pairwise Independence</b><br>We have<br>$$A\\cap B=\\{HH\\},\\quad A\\cap C=\\{HH\\},\\quad B\\cap C=\\{HH\\}.$$<br>Hence,<br>$$P(A\\cap B)=P(A\\cap C)=P(B\\cap C)=\\frac{1}{4}.$$<br>Also,<br>$$P(A)P(B)=P(A)P(C)=P(B)P(C)=\\frac{1}{2}\\times\\frac{1}{2}=\\frac{1}{4}.$$<br>Thus every pair satisfies the condition for independence, so $A$, $B$ and $C$ are pairwise independent.<br><br><b>Verification of Mutual Independence</b><br>For mutual independence of three events, it is also necessary that<br>$$P(A\\cap B\\cap C)=P(A)P(B)P(C).$$<br>Now $A\\cap B\\cap C=\\{HH\\}$, so<br>$$P(A\\cap B\\cap C)=\\frac{1}{4},$$<br>whereas<br>$$P(A)P(B)P(C)=\\frac{1}{2}\\times\\frac{1}{2}\\times\\frac{1}{2}=\\frac{1}{8}.$$<br>Since $\\frac{1}{4}\\ne\\frac{1}{8}$, the three events are not mutually independent.<br><br><b>Final Result</b><br>Thus, $A$, $B$ and $C$ are pairwise independent but not mutually independent.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$, $B$ and $C$ are mutually independent but not pairwise independent",
+    "B": "$A$, $B$ and $C$ are pairwise independent and mutually independent",
+    "C": "$A$, $B$ and $C$ are neither pairwise nor mutually independent",
+    "D": "$A$, $B$ and $C$ are pairwise independent but not mutually independent"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

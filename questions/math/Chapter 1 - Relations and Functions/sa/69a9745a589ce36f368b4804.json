@@ -1,0 +1,30 @@
+{
+  "id": "69a9745a589ce36f368b4804",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47",
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "SA",
+  "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a function defined by $f(x) = 2x+3$. Find the inverse of $f$ and verify that $f^{-1}$ is also a function. Show both algebraically and using composition of functions.",
+  "answeroption": "A",
+  "explanation": "Given $f(x) = 2x+3$,<br /><br />Let $y = 2x + 3$<br /><br />$\\implies x = \\frac{y - 3}{2}$<br /><br />So $f^{-1}(y) = \\frac{y-3}{2}$<br /><br />Let us check if $f^{-1}$ is a function:<br /><br />For any real $y$, we have one value of $f^{-1}(y)$. So it is a function.<br /><br />Now, check composition:<br /><br />First, $f^{-1}(f(x)) = f^{-1}(2x+3) = \\frac{(2x+3)-3}{2} = \\frac{2x}{2}=x$<br /><br />Second, $f(f^{-1}(y)) = 2 \\cdot \\frac{y-3}{2} + 3 = (y-3)+3 = y$<br /><br />Hence, $f^{-1}$ exists, is also a function, and the compositions yield identity functions.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f^{-1}(y)=\\dfrac{y-3}{2}$ and $f^{-1}$ is a function",
+    "B": "$f^{-1}(y)=\\dfrac{y+3}{2}$ and $f^{-1}$ is a function",
+    "C": "$f^{-1}(y)=2y+3$ and $f^{-1}$ is a function",
+    "D": "$f$ has no inverse function"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:17:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

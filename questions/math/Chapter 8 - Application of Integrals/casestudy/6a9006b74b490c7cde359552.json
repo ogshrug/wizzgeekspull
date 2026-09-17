@@ -1,0 +1,30 @@
+{
+  "id": "6a9006b74b490c7cde359552",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f997",
+    "6a13eb348c819562f933f998"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An elliptical walking track lies between two concentric ellipses. The outer boundary is represented by $\\frac{x^2}{25}+\\frac{y^2}{9}=1$, while the inner boundary is represented by $\\frac{x^2}{9}+\\frac{y^2}{4}=1$. Both ellipses have their centre at the origin and axes along the coordinate axes. A mathematics group calculates the area of each ellipse using integration and then determines the area occupied by the track. The group also compares the track area with the total area enclosed by the outer boundary.(a) Identify the semi-major and semi-minor axes of both ellipses.(b) Using integration, calculate the area enclosed by the outer ellipse.(c) Using integration, calculate the area enclosed by the inner ellipse.(d) Determine the area of the track and express it as a fraction of the outer elliptical area.",
+  "answeroption": "B",
+  "explanation": "(a)For the outer ellipse,`\\frac{x^2}{5^2}+\\frac{y^2}{3^2}=1`Thus, its semi-major and semi-minor axes are $5$ and $3$, respectively. For the inner ellipse,`\\frac{x^2}{3^2}+\\frac{y^2}{2^2}=1`Thus, its semi-major and semi-minor axes are $3$ and $2$, respectively.(b)In the first quadrant, the outer ellipse is`y=\\frac{3}{5}\\sqrt{25-x^2}`Using symmetry,`A_o=4\\int_0^5\\frac{3}{5}\\sqrt{25-x^2}\\,dx`The integral $\\int_0^5\\sqrt{25-x^2}\\,dx$ is the area of a quadrant of a circle of radius $5$, so its value is $\\frac{25\\pi}{4}$. Therefore,`A_o=4\\times\\frac{3}{5}\\times\\frac{25\\pi}{4}=15\\pi`Hence, the outer ellipse has area $15\\pi$ square units.(c)In the first quadrant, the inner ellipse is`y=\\frac{2}{3}\\sqrt{9-x^2}`Therefore,`A_i=4\\int_0^3\\frac{2}{3}\\sqrt{9-x^2}\\,dx`Since $\\int_0^3\\sqrt{9-x^2}\\,dx=\\frac{9\\pi}{4}$,`A_i=4\\times\\frac{2}{3}\\times\\frac{9\\pi}{4}=6\\pi`Hence, the inner ellipse has area $6\\pi$ square units.(d)The area of the track is`A_t=A_o-A_iA_t=15\\pi-6\\pi=9\\pi`As a fraction of the outer area,`\\frac{A_t}{A_o}=\\frac{9\\pi}{15\\pi}=\\frac{3}{5}`Thus, the track occupies $9\\pi$ square units, which is $\\frac{3}{5}$ of the outer elliptical area.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Outer axes $5,3$; inner axes $3,2$<br>(b) Outer area $=15\\pi$<br>(c) Inner area $=9\\pi$<br>(d) Track area $=6\\pi$; fraction $=\\frac{2}{5}$",
+    "B": "(a) Outer axes $5,3$; inner axes $3,2$<br>(b) Outer area $=15\\pi$<br>(c) Inner area $=6\\pi$<br>(d) Track area $=9\\pi$; fraction $=\\frac{3}{5}$",
+    "C": "(a) Outer axes $5,3$; inner axes $3,2$<br>(b) Outer area $=30\\pi$<br>(c) Inner area $=12\\pi$<br>(d) Track area $=18\\pi$; fraction $=\\frac{3}{5}$",
+    "D": "(a) Outer axes $3,5$; inner axes $2,3$<br>(b) Outer area $=15\\pi$<br>(c) Inner area $=6\\pi$<br>(d) Track area $=9\\pi$; fraction $=\\frac{3}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

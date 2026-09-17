@@ -1,0 +1,29 @@
+{
+  "id": "6a8e98774b490c7cde359422",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "SA",
+  "question": "Determine the number of solutions of $(k-1)x+2y=3$ and $2(k-1)x+4y=6$ for all real values of $k$. Justify your answer.",
+  "answeroption": "A",
+  "explanation": "<b>Relationship between the equations</b><br>Multiplying the first equation by $2$ gives $$2(k-1)x+4y=6$$ which is exactly the second equation.<br><b>Dependence on the parameter</b><br>This relationship is valid for every real value of $k$, including $k=1$. When $k=1$, both equations reduce to equivalent equations in $y$.<br><b>Interpretation</b><br>The system contains only one independent linear equation in two variables. Every ordered pair satisfying the first equation also satisfies the second.<br><b>Number of solutions</b><br>Therefore, the system has infinitely many solutions for every $$k\\in\\mathbb{R}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "The system has infinitely many solutions for every $k\\in\\mathbb{R}$.",
+    "B": "The system has a unique solution for every $k\\ne1$ and infinitely many solutions for $k=1$.",
+    "C": "The system has no solution for $k=1$ and a unique solution otherwise.",
+    "D": "The system has no solution for every $k\\in\\mathbb{R}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

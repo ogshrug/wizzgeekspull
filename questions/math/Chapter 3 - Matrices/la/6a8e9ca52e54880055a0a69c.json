@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9ca52e54880055a0a69c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d64"
+  ],
+  "question_type": "LA",
+  "question": "For $$A=\\begin{bmatrix}2&1\\\\1&1\\end{bmatrix}$$ and $$B=\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix},$$ verify from the definition of inverse that $A$ is invertible and determine its inverse by examining both products $AB$ and $BA$.",
+  "answeroption": "A",
+  "explanation": "<b>Required Condition</b><br><br>A square matrix $A$ is invertible if there exists a square matrix $B$ of the same order such that $AB=BA=I$.<br><br><b>Evaluation of $AB$</b><br><br>We have $$AB=\\begin{bmatrix}2&1\\\\1&1\\end{bmatrix}\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix}$$ $$=\\begin{bmatrix}2(1)+1(-1)&2(-1)+1(2)\\\\1(1)+1(-1)&1(-1)+1(2)\\end{bmatrix}=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}=I$$<br><br><b>Evaluation of $BA$</b><br><br>Similarly, $$BA=\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix}\\begin{bmatrix}2&1\\\\1&1\\end{bmatrix}$$ $$=\\begin{bmatrix}1(2)+(-1)(1)&1(1)+(-1)(1)\\\\(-1)(2)+2(1)&(-1)(1)+2(1)\\end{bmatrix}=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}=I$$ Since $AB=BA=I$, the matrix $B$ satisfies the defining condition for the inverse of $A$. Therefore, $A$ is invertible and $$A^{-1}=\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix}$$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB=BA=I$ and $A^{-1}=\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix}$",
+    "B": "$AB=BA=I$ and $A^{-1}=\\begin{bmatrix}2&-1\\\\-1&1\\end{bmatrix}$",
+    "C": "$AB=I$, $BA\\ne I$ and $A^{-1}=\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix}$",
+    "D": "$AB=BA=I$ and $A^{-1}=\\begin{bmatrix}1&1\\\\1&2\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

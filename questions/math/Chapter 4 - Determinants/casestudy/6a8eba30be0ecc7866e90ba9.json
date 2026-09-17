@@ -1,0 +1,32 @@
+{
+  "id": "6a8eba30be0ecc7866e90ba9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6c",
+    "69c6603740512f018fa94d6d",
+    "69c6603740512f018fa94d6e",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A classroom coding model represents an original column matrix $X$ by an encoded matrix $Y=AX$, where $A=\\begin{bmatrix}1 & 2 & 0\\\\0 & 1 & 1\\\\1 & 0 & 1\\end{bmatrix}$. The encoded data received by a student is $Y=\\begin{bmatrix}4\\\\4\\\\5\\end{bmatrix}$. To recover the original data, the student must calculate the minors and cofactors of $A$, construct its adjoint, and use the inverse matrix. The determinant must first be checked to ensure that decoding is possible.<br><br><b>(a)</b> Evaluate $|A|$ and determine whether $A^{-1}$ exists.<br><br><b>(b)</b> Find the cofactor matrix of $A$.<br><br><b>(c)</b> Obtain $\\operatorname{adj}A$ and $A^{-1}$.<br><br><b>(d)</b> Decode the data by calculating $X=A^{-1}Y$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>Expanding along the first row,<br>$$|A|=1\\begin{vmatrix}1 & 1\\\\0 & 1\\end{vmatrix}-2\\begin{vmatrix}0 & 1\\\\1 & 1\\end{vmatrix}$$<br>$$|A|=1-2(-1)=3$$<br>Since $|A|=3\\neq0$, the inverse of $A$ exists.<br><br><b>(b)</b><br>Using the minors and the sign pattern of cofactors, the cofactors are<br>$$A_{11}=1,\\quad A_{12}=1,\\quad A_{13}=-1$$<br>$$A_{21}=-2,\\quad A_{22}=1,\\quad A_{23}=2$$<br>$$A_{31}=2,\\quad A_{32}=-1,\\quad A_{33}=1$$<br>Therefore, the cofactor matrix is<br>$$C=\\begin{bmatrix}1 & 1 & -1\\\\-2 & 1 & 2\\\\2 & -1 & 1\\end{bmatrix}$$<br><br><b>(c)</b><br>The adjoint is the transpose of the cofactor matrix:<br>$$\\operatorname{adj}A=C^T=\\begin{bmatrix}1 & -2 & 2\\\\1 & 1 & -1\\\\-1 & 2 & 1\\end{bmatrix}$$<br>Hence,<br>$$A^{-1}=\\frac{1}{|A|}\\operatorname{adj}A$$<br>$$A^{-1}=\\frac{1}{3}\\begin{bmatrix}1 & -2 & 2\\\\1 & 1 & -1\\\\-1 & 2 & 1\\end{bmatrix}$$<br><br><b>(d)</b><br>$$X=A^{-1}Y$$<br>$$X=\\frac{1}{3}\\begin{bmatrix}1 & -2 & 2\\\\1 & 1 & -1\\\\-1 & 2 & 1\\end{bmatrix}\\begin{bmatrix}4\\\\4\\\\5\\end{bmatrix}$$<br>$$X=\\frac{1}{3}\\begin{bmatrix}4-8+10\\\\4+4-5\\\\-4+8+5\\end{bmatrix}=\\frac{1}{3}\\begin{bmatrix}6\\\\3\\\\9\\end{bmatrix}$$<br>Therefore,<br>$$X=\\begin{bmatrix}2\\\\1\\\\3\\end{bmatrix}$$<br>The decoded data is $2$, $1$, and $3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=1$, so $A^{-1}$ exists<br>(b) $C=\\begin{bmatrix}1&-1&1\\\\2&1&-2\\\\-2&1&1\\end{bmatrix}$<br>(c) $A^{-1}=\\begin{bmatrix}1&2&-2\\\\-1&1&1\\\\1&-2&1\\end{bmatrix}$<br>(d) $X=\\begin{bmatrix}1\\\\2\\\\3\\end{bmatrix}$",
+    "B": "(a) $|A|=3$, so $A^{-1}$ exists<br>(b) $C=\\begin{bmatrix}1&-2&2\\\\1&1&-1\\\\-1&2&1\\end{bmatrix}$<br>(c) $A^{-1}=\\frac{1}{3}\\begin{bmatrix}1&1&-1\\\\-2&1&2\\\\2&-1&1\\end{bmatrix}$<br>(d) $X=\\begin{bmatrix}2\\\\3\\\\1\\end{bmatrix}$",
+    "C": "(a) $|A|=0$, so $A^{-1}$ does not exist<br>(b) $C=\\begin{bmatrix}1&1&-1\\\\-2&1&2\\\\2&-1&1\\end{bmatrix}$<br>(c) $\\operatorname{adj}A$ exists but $A^{-1}$ does not<br>(d) The data cannot be decoded uniquely",
+    "D": "(a) $|A|=3$, so $A^{-1}$ exists<br>(b) $C=\\begin{bmatrix}1&1&-1\\\\-2&1&2\\\\2&-1&1\\end{bmatrix}$<br>(c) $A^{-1}=\\frac{1}{3}\\begin{bmatrix}1&-2&2\\\\1&1&-1\\\\-1&2&1\\end{bmatrix}$<br>(d) $X=\\begin{bmatrix}2\\\\1\\\\3\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

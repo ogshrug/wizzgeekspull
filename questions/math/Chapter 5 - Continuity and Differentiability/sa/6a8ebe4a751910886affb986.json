@@ -1,0 +1,29 @@
+{
+  "id": "6a8ebe4a751910886affb986",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "SA",
+  "question": "For $$f(x)=(2x^2+3x-1)^5,$$ find $f'(x)$ and hence calculate $f'(1)$.",
+  "answeroption": "D",
+  "explanation": "<b>Differentiating the composite function</b><br>Let $u=2x^2+3x-1$. Then $f(x)=u^5$.<br>$$\\frac{df}{du}=5u^4,\\qquad \\frac{du}{dx}=4x+3$$<br>Hence, $$f'(x)=5(2x^2+3x-1)^4(4x+3)$$<br><b>Evaluation at $x=1$</b><br>At $x=1$, $$2x^2+3x-1=4\\quad\\text{and}\\quad 4x+3=7$$<br>Therefore, $$f'(1)=5(4)^4(7)=5\\times256\\times7=8960$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$f'(x)=5(2x^2+3x-1)^4$ and $f'(1)=1280$",
+    "B": "$f'(x)=5(2x^2+3x-1)^4(2x+3)$ and $f'(1)=6400$",
+    "C": "$f'(x)=(2x^2+3x-1)^4(4x+3)$ and $f'(1)=1792$",
+    "D": "$f'(x)=5(2x^2+3x-1)^4(4x+3)$ and $f'(1)=8960$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a8e9f144b490c7cde35942f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d52",
+    "69c65fbf40512f018fa94d53",
+    "69c65fbf40512f018fa94d54",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "LA",
+  "question": "Consider $$A=\\begin{bmatrix}2&0&0\\\\0&-1&0\\\\0&0&3\\end{bmatrix},\\quad B=\\begin{bmatrix}-2&0&0\\\\0&1&0\\\\0&0&-3\\end{bmatrix}$$ and the identity matrix $I_3$. Evaluate $P=A+B$ and $Q=A-B+2I_3$, and classify the resulting matrices $P$ and $Q$ by examining their entries.",
+  "answeroption": "A",
+  "explanation": "<b>Evaluation of $P$</b><br><br>Adding the corresponding elements of $A$ and $B$, $$P=A+B=\\begin{bmatrix}2&0&0\\\\0&-1&0\\\\0&0&3\\end{bmatrix}+\\begin{bmatrix}-2&0&0\\\\0&1&0\\\\0&0&-3\\end{bmatrix}$$ $$P=\\begin{bmatrix}0&0&0\\\\0&0&0\\\\0&0&0\\end{bmatrix}=O$$ Thus, $P$ is the zero matrix of order $3\\times3$.<br><br><b>Evaluation of $Q$</b><br><br>Since $$A-B=\\begin{bmatrix}4&0&0\\\\0&-2&0\\\\0&0&6\\end{bmatrix}$$ and $$2I_3=\\begin{bmatrix}2&0&0\\\\0&2&0\\\\0&0&2\\end{bmatrix},$$ we obtain $$Q=A-B+2I_3=\\begin{bmatrix}6&0&0\\\\0&0&0\\\\0&0&8\\end{bmatrix}$$ All non-diagonal entries of $Q$ are zero, so $Q$ is a diagonal matrix. Its diagonal elements are not all equal, so it is not a scalar matrix, and since its diagonal elements are not all $1$, it is not an identity matrix.<br><br><b>Final Result</b><br><br>Therefore, $$P=O$$ is a zero matrix and $$Q=\\begin{bmatrix}6&0&0\\\\0&0&0\\\\0&0&8\\end{bmatrix}$$ is a diagonal matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "$P=O$ and $Q=\\begin{bmatrix}6&0&0\\\\0&0&0\\\\0&0&8\\end{bmatrix}$, where $Q$ is diagonal",
+    "B": "$P=I_3$ and $Q=\\begin{bmatrix}6&0&0\\\\0&0&0\\\\0&0&8\\end{bmatrix}$, where $Q$ is diagonal",
+    "C": "$P=O$ and $Q=\\begin{bmatrix}6&0&0\\\\0&2&0\\\\0&0&8\\end{bmatrix}$, where $Q$ is scalar",
+    "D": "$P=O$ and $Q=\\begin{bmatrix}4&0&0\\\\0&-2&0\\\\0&0&6\\end{bmatrix}$, where $Q$ is diagonal"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

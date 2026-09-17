@@ -1,0 +1,34 @@
+{
+  "id": "6a22967b864be73cfcf6d22e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "AR",
+  "question": "**Assertion (A):** For any symmetric matrix A, $B^{\\prime}AB$ is a skew-symmetric matrix.<br />**Reason (R):** A square matrix P is skew-symmetric if $P^{\\prime}=-P$",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Analyze the Assertion. We are given that A is a symmetric matrix, so $A' = A$. We need to check if $B'AB$ is skew-symmetric by taking its transpose.<br />**Step 2:** Apply the reversal law of transposes: $(B'AB)' = B'A'(B')'$.<br />**Step 3:** Since $(B')' = B$ and $A' = A$, substitute these back to get $B'AB$.<br />**Step 4:** We found that $(B'AB)' = B'AB$. This means $B'AB$ is a symmetric matrix, not a skew-symmetric one. Thus, Assertion (A) is false.<br />**Step 5:** Analyze the Reason. The definition states a square matrix P is skew-symmetric if $P' = -P$. This is the standard, true mathematical definition. Therefore, Reason (R) is true. Hence, Assertion is false, but Reason is true.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

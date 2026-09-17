@@ -1,0 +1,32 @@
+{
+  "id": "6a8d7a8358a28138a48f0d77",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "A relation $R$ on $\\mathbb{R}$ is defined by $R=\\{(a,b):a\\leq b^2\\}$. Examine each of the reflexive, symmetric and transitive properties of $R$ using suitable mathematical arguments and hence determine whether $R$ is an equivalence relation.",
+  "answeroption": "D",
+  "explanation": "<b>Reflexivity</b><br>For $R$ to be reflexive, $a\\leq a^2$ must hold for every $a\\in\\mathbb{R}$. Taking $a=\\frac{1}{2}$,<br>$$\\frac{1}{2}\\nleq\\left(\\frac{1}{2}\\right)^2=\\frac{1}{4}.$$<br>Hence, $\\left(\\frac{1}{2},\\frac{1}{2}\\right)\\notin R$, so $R$ is not reflexive.<br><br><b>Symmetry</b><br>Take $a=1$ and $b=2$. Since<br>$$1\\leq2^2=4,$$<br>we have $(1,2)\\in R$. For the reversed pair,<br>$$2\\nleq1^2=1.$$<br>Hence, $(2,1)\\notin R$. Therefore, $R$ is not symmetric.<br><br><b>Transitivity</b><br>Consider $a=1$, $b=-1$ and $c=0$. We have<br>$$1\\leq(-1)^2=1,$$<br>so $(1,-1)\\in R$, and<br>$$-1\\leq0^2=0,$$<br>so $(-1,0)\\in R$. However,<br>$$1\\nleq0^2=0,$$<br>and therefore $(1,0)\\notin R$. Thus, $R$ is not transitive.<br><br><b>Final Result</b><br>The relation $R$ is neither reflexive nor symmetric nor transitive. Hence, $R$ is not an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is reflexive, symmetric and transitive; hence, it is an equivalence relation",
+    "B": "$R$ is reflexive and transitive but not symmetric; hence, it is not an equivalence relation",
+    "C": "$R$ is symmetric but neither reflexive nor transitive; hence, it is not an equivalence relation",
+    "D": "$R$ is neither reflexive nor symmetric nor transitive; hence, it is not an equivalence relation"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

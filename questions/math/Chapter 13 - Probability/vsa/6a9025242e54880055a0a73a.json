@@ -1,0 +1,29 @@
+{
+  "id": "6a9025242e54880055a0a73a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "VSA",
+  "question": "Events $A$ and $B$ satisfy $P(A\\mid B)=P(B\\mid A)=\\frac{3}{5}$, with $P(A)>0$ and $P(B)>0$. If $P(B)=\\frac{5}{8}$, determine $P(A)$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> Using conditional probability, $P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}$ and $P(B\\mid A)=\\frac{P(A\\cap B)}{P(A)}$.<br><b>Step 2:</b> Both conditional probabilities are equal to $\\frac{3}{5}$, so $P(A\\cap B)$ is non-zero.<br><b>Step 3:</b> Since $\\frac{P(A\\cap B)}{P(B)}=\\frac{P(A\\cap B)}{P(A)}$, the common non-zero numerator can be cancelled, giving $P(A)=P(B)$.<br><b>Step 4:</b> The given value is $P(B)=\\frac{5}{8}$. Therefore, $P(A)=\\frac{5}{8}$.<br><b>Step 5:</b> Hence, the required probability is $\\frac{5}{8}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{8}$",
+    "B": "$\\frac{3}{5}$",
+    "C": "$\\frac{15}{32}$",
+    "D": "$\\frac{5}{8}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a214c58864be73cfcf6d0f1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a",
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{x+2}{\\sqrt{9x-x^{2}}}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To solve integrals of the form $\\frac{\\text{linear}}{\\sqrt{\\text{quadratic}}}$, we express the numerator as $A(\\text{derivative of quadratic}) + B$.<br /><br />**Step 2:** We set $x+2 = A(9-2x) + B$. Expanding yields $x+2 = -2Ax + 9A + B$. Equating coefficients, $-2A = 1 \\implies A = -\\frac{1}{2}$ and $9A + B = 2 \\implies -\\frac{9}{2} + B = 2 \\implies B = \\frac{13}{2}$.<br /><br />**Step 3:** Rewrite the integral into two parts: $-\\frac{1}{2}\\int\\frac{9-2x}{\\sqrt{9x-x^2}}dx + \\frac{13}{2}\\int\\frac{1}{\\sqrt{9x-x^2}}dx$.<br /><br />**Step 4:** The first part integrates simply via substitution to $-\\frac{1}{2}(2\\sqrt{9x-x^2}) = -\\sqrt{9x-x^2}$.<br /><br />**Step 5:** For the second part, complete the square in the quadratic: $9x-x^2 = -(x^2-9x) = -((x-4.5)^2 - 20.25) = 4.5^2 - (x-4.5)^2$.<br /><br />**Step 6:** The integral becomes $\\int\\frac{1}{\\sqrt{4.5^2 - (x-4.5)^2}}dx$, which evaluates to $sin^{-1}(\\frac{x-4.5}{4.5}) = sin^{-1}(\\frac{2x-9}{9})$. Add $C$ for final answer.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

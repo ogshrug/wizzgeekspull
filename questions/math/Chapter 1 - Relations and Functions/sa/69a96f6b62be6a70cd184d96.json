@@ -1,0 +1,31 @@
+{
+  "id": "69a96f6b62be6a70cd184d96",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Let $f:\\mathbb{R} \\setminus \\{3\\} \\to \\mathbb{R} \\setminus \\{1\\}$ be defined by $f(x) = \\frac{2x}{x-3}$. Prove that $f$ is bijective and find $f^{-1}$ explicitly.",
+  "answeroption": "D",
+  "explanation": "Assume $f(x_1)=f(x_2)$. Then $\\frac{2x_1}{x_1-3}=\\frac{2x_2}{x_2-3}$. <br /><br />Cross multiplying gives $2x_1(x_2-3)=2x_2(x_1-3)$. <br /><br />This simplifies to $-6x_1=-6x_2$ which implies $x_1=x_2$. Hence $f$ is injective. <br /><br />Let $y=f(x)=\\frac{2x}{x-3}$. Solve for $x$: $y(x-3)=2x$. <br /><br />Thus $yx-3y=2x$ giving $x(y-2)=3y$. <br /><br />Hence $x=\\frac{3y}{y-2}$. <br /><br />Therefore the inverse function is $f^{-1}(y)=\\frac{3y}{y-2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is not one-one, so inverse does not exist",
+    "B": "$f$ is bijective and $f^{-1}(y)=\\dfrac{y-3}{2y}$",
+    "C": "$f$ is bijective and $f^{-1}(y)=\\dfrac{2y}{y-3}$",
+    "D": "$f$ is bijective and $f^{-1}(y)=\\dfrac{3y}{y-2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:56:27 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd4882e54880055a0a716",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "VSA",
+  "question": "For $\\frac{dy}{dx}=\\frac{x+2y}{2x+y}$, put $y=vx$. Obtain the differential equation in $v$ and $x$ after substitution.",
+  "answeroption": "A",
+  "explanation": "Step 1: The right-hand side contains homogeneous expressions of equal degree, so use the substitution $y=vx$.<br>Step 2: Differentiating $y=vx$ gives $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$.<br>Step 3: Substitute $y=vx$ into the right-hand side: $\\frac{x+2vx}{2x+vx}=\\frac{1+2v}{2+v}$.<br>Step 4: Therefore, $v+x\\frac{dv}{dx}=\\frac{1+2v}{2+v}$. Subtracting $v$ from both sides gives $x\\frac{dv}{dx}=\\frac{1+2v-v(2+v)}{2+v}$.<br>Step 5: Simplifying the numerator gives $1-v^2$. Hence, the transformed equation is $x\\frac{dv}{dx}=\\frac{1-v^2}{2+v}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x\\frac{dv}{dx}=\\frac{1-v^2}{2+v}$",
+    "B": "$x\\frac{dv}{dx}=\\frac{1+v^2}{2+v}$",
+    "C": "$x\\frac{dv}{dx}=\\frac{1-v^2}{2-v}$",
+    "D": "$x\\frac{dv}{dx}=\\frac{1+2v}{2+v}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

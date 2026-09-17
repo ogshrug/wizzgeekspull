@@ -1,0 +1,30 @@
+{
+  "id": "69aa9fea8e6d1957407fd1cd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d56"
+  ],
+  "question_type": "SA",
+  "question": "Show that if $A$ is an invertible $2 \\times 2$ matrix, then $(A')^{-1} = (A^{-1})'$, where $A'$ denotes the transpose of $A$.",
+  "answeroption": "B",
+  "explanation": "Let $A$ be an invertible matrix.<br /><br />- By the definition of inverse, $AA^{-1} = I$.<br /><br />- Take transpose of both sides: $(AA^{-1})' = (I)'$.<br /><br />- Property: $(AB)' = B'A'$ and $I' = I$.<br /><br />- So, $(AA^{-1})' = (A^{-1})'A' = I$.<br /><br />- Thus, $A'$ is invertible and its inverse is $(A^{-1})'$.<br /><br />Therefore, $(A')^{-1} = (A^{-1})'$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(A')^{-1}=A^{-1}$ for every invertible matrix $A$",
+    "B": "$(A')^{-1}=(A^{-1})'$ for every invertible matrix $A$",
+    "C": "$(A')^{-1}=A'$ for every invertible matrix $A$",
+    "D": "$(A')^{-1}=A$ only when $A$ is invertible"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 09:35:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

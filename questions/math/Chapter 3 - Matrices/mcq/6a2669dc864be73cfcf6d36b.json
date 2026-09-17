@@ -1,0 +1,33 @@
+{
+  "id": "6a2669dc864be73cfcf6d36b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f",
+    "69c65fbf40512f018fa94d54"
+  ],
+  "question_type": "MCQ",
+  "question": "If A is a square matrix and $A^{2}=A$ then $(I+A)^{2}-3A$ is equal to :",
+  "answeroption": "a",
+  "explanation": "**Step 1:** Expand the squared binomial matrix expression $(I+A)^2$ using basic algebraic distributive expansion rules while paying close attention to matrix ordering properties: $(I+A)^2 = (I+A)(I+A) = I^2 + IA + AI + A^2$. Since the identity matrix $I$ commutes with any square matrix, we have $IA = AI = A$. Additionally, squaring the identity matrix yields $I^2 = I$. Substituting these into the expansion gives: $I + A + A + A^2 = I + 2A + A^2$.<br />**Step 2:** We are given that the square matrix satisfies the characteristic property $A^2 = A$. Substitute this condition into our expanded binomial equation to combine like terms: $(I+A)^2 = I + 2A + A = I + 3A$.<br />**Step 3:** Now substitute this expression into our full formula: $(I+A)^2 - 3A = (I + 3A) - 3A$. The $+3A$ and $-3A$ matrix terms cancel out completely, leaving only the identity matrix $I$. This matches option (a).",
+  "explanation_image": [],
+  "options": {
+    "A": "$I$",
+    "B": "$A$",
+    "C": "$2A$",
+    "D": "$3I$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

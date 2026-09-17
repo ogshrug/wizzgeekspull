@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb85e2e54880055a0a6b0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "VSA",
+  "question": "A student writes $\\log y=x\\log(x-2)$ while attempting logarithmic differentiation of $y=(x-2)^x$ at $x=1$. Decide whether this step is valid over the real numbers and justify.",
+  "answeroption": "A",
+  "explanation": "Step 1: Logarithmic differentiation requires taking logarithms of the function and its variable base.<br>Step 2: For the relation $\\log y=x\\log(x-2)$ to be meaningful over the real numbers, the quantities to which logarithms are applied must be positive.<br>Step 3: At $x=1$, the base $x-2$ equals $-1$, which is not positive.<br>Step 4: Therefore, $\\log(x-2)=\\log(-1)$ is not defined as a real logarithm. The required positivity condition for logarithmic differentiation fails.<br>Step 5: Hence, the student's step is not valid over the real numbers at $x=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Invalid, since $\\log(x-2)=\\log(-1)$ is not defined over the real numbers.",
+    "B": "Valid, since $(x-2)^x$ is defined at $x=1$.",
+    "C": "Valid, since $\\log(-1)=0$ over the real numbers.",
+    "D": "Invalid, since $x\\log(x-2)$ must always be positive."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

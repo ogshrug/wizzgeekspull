@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffe7b4b490c7cde359531",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "VSA",
+  "question": "The line $\\vec{r}=(\\hat{i}+2\\hat{j})+\\lambda(m\\hat{i}+\\hat{j})$ makes an angle of $30^\\circ$ with the plane $x+z=4$. Determine the possible values of $m$.",
+  "answeroption": "C",
+  "explanation": "Step 1: The direction vector of the line is $\\vec{b}=(m,1,0)$, and a normal vector to the plane $x+z=4$ is $\\vec{n}=(1,0,1)$. Step 2: If $\\phi$ is the angle between the line and the plane, then $$\\sin\\phi=\\frac{|\\vec{b}\\cdot\\vec{n}|}{|\\vec{b}||\\vec{n}|}.$$ Step 3: Since $\\phi=30^\\circ$, $$\\frac{|m|}{\\sqrt{m^2+1}\\sqrt{2}}=\\frac{1}{2}.$$ Step 4: Squaring both sides gives $$\\frac{m^2}{2(m^2+1)}=\\frac{1}{4}.$$ Hence, $4m^2=2m^2+2$, so $m^2=1$. Step 5: Therefore, the possible values are $$m=1\\quad\\text{or}\\quad m=-1.$$ Both values give the required acute angle of $30^\\circ$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$m=1$ only",
+    "B": "$m=-1$ only",
+    "C": "$m=1$ or $m=-1$",
+    "D": "$m=2$ or $m=-2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

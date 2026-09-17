@@ -1,0 +1,26 @@
+{
+  "id": "6a339b00d5dca7dcb0bf0f2d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "LA",
+  "question": "Find: $\\int\\frac{(3 \\cos x-2)\\sin x}{5-\\sin^{2}x-4 \\cos x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Simplify the Denominator**  \nUse $\\sin^2 x = 1 - \\cos^2 x$:  \n$$5 - \\sin^2 x - 4\\cos x = 5 - (1 - \\cos^2 x) - 4\\cos x$$  \n$$= \\cos^2 x - 4\\cos x + 4 = (\\cos x - 2)^2$$  \nSo, $I = \\int \\frac{(3\\cos x - 2)\\sin x}{(\\cos x - 2)^2} \\, dx$.\n\n**Step 2: Substitution**  \nLet $t = \\cos x$, then $dt = -\\sin x \\, dx \\Rightarrow \\sin x \\, dx = -dt$.  \n$$I = \\int \\frac{(3t - 2)}{(t - 2)^2} \\cdot (-dt) = \\int \\frac{2 - 3t}{(t - 2)^2} \\, dt$$\n\n**Step 3: Let $u = t - 2$**  \nThen $t = u + 2$ and $dt = du$:  \n$$I = \\int \\frac{2 - 3(u + 2)}{u^2} \\, du = \\int \\frac{-3u - 4}{u^2} \\, du$$  \n$$= \\int \\left( -\\frac{3}{u} - \\frac{4}{u^2} \\right) du$$\n\n**Step 4: Integrate**  \n$$I = -3\\ln|u| + \\frac{4}{u} + C$$  \nSubstitute back $u = t - 2 = \\cos x - 2$:  \n$$I = -3\\ln|\\cos x - 2| + \\frac{4}{\\cos x - 2} + C$$  \nSince $\\cos x - 2 < 0$, we can write:  \n$$I = -3\\ln(2 - \\cos x) + \\frac{4}{\\cos x - 2} + C$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

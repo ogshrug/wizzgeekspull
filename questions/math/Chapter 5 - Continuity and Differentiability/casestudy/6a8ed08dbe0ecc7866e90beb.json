@@ -1,0 +1,30 @@
+{
+  "id": "6a8ed08dbe0ecc7866e90beb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7e"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "For a mathematical data table, students study the function $g(x)=\\tan^{-1}x$ for all real $x$. Instead of examining the values of the inverse tangent function itself, they focus on its derivative and how that derivative changes when $x$ is replaced by $-x$. They calculate derivative values at several symmetric points and then determine the inputs at which the derivative attains a specified positive value. This investigation helps them recognise an important feature of the derivative expression arising from the presence of $x^2$ in its denominator.<br><br><b>(a)</b> Find $g'(x)$ and state the values of $x$ for which it is defined.<br><br><b>(b)</b> Calculate $g'(-1)$, $g'(0)$ and $g'(1)$.<br><br><b>(c)</b> Show that $g'(-x)=g'(x)$ for every real $x$.<br><br><b>(d)</b> Determine all real values of $x$ for which $g'(x)=\\frac{1}{5}$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>For $g(x)=\\tan^{-1}x$,<br><br>$$g'(x)=\\frac{1}{1+x^2}.$$<br><br>Since $1+x^2>0$ for every real $x$, this derivative is defined for all $x\\in\\mathbb{R}$.<br><br><b>(b)</b><br>At $x=-1$,<br><br>$$g'(-1)=\\frac{1}{1+(-1)^2}=\\frac{1}{2}.$$<br><br>At $x=0$,<br><br>$$g'(0)=\\frac{1}{1+0}=1.$$<br><br>At $x=1$,<br><br>$$g'(1)=\\frac{1}{1+1}=\\frac{1}{2}.$$<br><br><b>(c)</b><br>Replacing $x$ by $-x$ in the derivative formula,<br><br>$$g'(-x)=\\frac{1}{1+(-x)^2}=\\frac{1}{1+x^2}=g'(x).$$<br><br>Hence, $g'(-x)=g'(x)$ for every real $x$.<br><br><b>(d)</b><br>Given<br><br>$$\\frac{1}{1+x^2}=\\frac{1}{5},$$<br><br>we obtain<br><br>$$1+x^2=5,$$<br><br>$$x^2=4.$$<br><br>Therefore,<br><br>$$x=\\pm2.$$<br><br>Both values are real and valid. Hence, $g'(x)=\\frac{1}{5}$ at $x=-2$ and $x=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $g'(x)=\\frac{1}{1+x^2}$ for all $x\\in\\mathbb{R}$<br>(b) $g'(-1)=\\frac12,\\ g'(0)=1,\\ g'(1)=\\frac12$<br>(c) $g'(-x)=g'(x)$<br>(d) $x=\\pm2$",
+    "B": "(a) $g'(x)=\\frac{1}{1-x^2}$ for $x\\neq\\pm1$<br>(b) $g'(-1),g'(1)$ are undefined and $g'(0)=1$<br>(c) $g'(-x)=g'(x)$<br>(d) $x=\\pm2$",
+    "C": "(a) $g'(x)=\\frac{1}{1+x^2}$ for all $x\\in\\mathbb{R}$<br>(b) $g'(-1)=-\\frac12,\\ g'(0)=1,\\ g'(1)=\\frac12$<br>(c) $g'(-x)=-g'(x)$<br>(d) $x=2$ only",
+    "D": "(a) $g'(x)=\\frac{1}{\\sqrt{1-x^2}}$ for $-1<x<1$<br>(b) $g'(0)=1$<br>(c) $g'(-x)=g'(x)$<br>(d) $x=\\pm\\frac45$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

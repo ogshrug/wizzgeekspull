@@ -1,0 +1,27 @@
+{
+  "id": "6a2bf1148e6b388cc1f07cbe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "SA",
+  "question": "If $A=\\begin{bmatrix}1&2&2\\\\ 2&1&2\\\\ 2&2&1\\end{bmatrix},$ then compute $A^{2}-4A-5~I.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Compute the matrix product $A^2 = A \\cdot A$. Multiplying rows by columns yields $A^2 = \\begin{bmatrix} 1+4+4 & 2+2+4 & 2+4+2 \\\\ 2+2+4 & 4+1+4 & 4+2+2 \\\\ 2+4+2 & 4+2+2 & 4+4+1 \\end{bmatrix} = \\begin{bmatrix} 9 & 8 & 8 \\\\ 8 & 9 & 8 \\\\ 8 & 8 & 9 \\end{bmatrix}$ [cite: 2596].<br />**Step 2:** Substitute $A^2$, $4A$, and $5I$ into the polynomial expression: $A^2 - 4A - 5I = \\begin{bmatrix} 9 & 8 & 8 \\\\ 8 & 9 & 8 \\\\ 8 & 8 & 9 \\end{bmatrix} - \\begin{bmatrix} 4 & 8 & 8 \\\\ 8 & 4 & 8 \\\\ 8 & 8 & 4 \\end{bmatrix} - \\begin{bmatrix} 5 & 0 & 0 \\\\ 0 & 5 & 0 \\\\ 0 & 0 & 5 \\end{bmatrix}$[cite: 2596].<br />**Step 3:** Perform the element-wise matrix subtraction to obtain the final null matrix: $\\begin{bmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{bmatrix} = O$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

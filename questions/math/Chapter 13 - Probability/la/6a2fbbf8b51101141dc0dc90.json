@@ -1,0 +1,26 @@
+{
+  "id": "6a2fbbf8b51101141dc0dc90",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "LA",
+  "question": "A man is known to speak truth 7 out of 10 times. He threw a pair of dice and reports that doublet appeared. Find the probability that it was actually a doublet.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $E_1$ be the event that a doublet actually appears when a pair of fair dice is thrown, and $E_2$ be the event that a doublet does not appear. The total number of outcomes when throwing two dice is strictly $6 \\times 6 = 36$. The set of doublets includes (1,1), (2,2), (3,3), (4,4), (5,5), and (6,6), which equates to exactly 6 possible successful outcomes.<br />**Step 2:** We must calculate the initial base probabilities for these events before applying any conditional logic. $P(E_1) = \\frac{6}{36} = \\frac{1}{6}$. The probability of no doublet appearing is the complement of $E_1$, therefore $P(E_2) = 1 - P(E_1) = 1 - \\frac{1}{6} = \\frac{5}{6}$.<br />**Step 3:** Let $A$ represent the distinct event that the man explicitly reports a doublet has appeared. The conditional probability $P(A|E_1)$ represents the man telling the truth (reporting a doublet when it is indeed a doublet on the dice). Given the problem states he speaks truth 7 out of 10 times, we set $P(A|E_1) = \\frac{7}{10}$.<br />**Step 4:** The conditional probability $P(A|E_2)$ represents the man lying (reporting a doublet when the actual result is not a doublet). The probability of him lying is calculated as $1 - \\frac{7}{10} = \\frac{3}{10}$. Thus, $P(A|E_2) = \\frac{3}{10}$.<br />**Step 5:** We must find the posterior probability that a doublet actually appeared given that the man reported it. This is denoted as $P(E_1|A)$. Using Bayes' Theorem, the comprehensive formula is $P(E_1|A) = \\frac{P(E_1) \\cdot P(A|E_1)}{P(E_1) \\cdot P(A|E_1) + P(E_2) \\cdot P(A|E_2)}$.<br />**Step 6:** We now substitute all the rigorously calculated probabilities into the Bayes' theorem expression: $P(E_1|A) = \\frac{\\frac{1}{6} \\cdot \\frac{7}{10}}{\\frac{1}{6} \\cdot \\frac{7}{10} + \\frac{5}{6} \\cdot \\frac{3}{10}}$.<br />**Step 7:** Finally, simplify the entire expression by calculating the products and then eliminating the common denominators. The numerator is $\\frac{7}{60}$ and the denominator is $\\frac{7}{60} + \\frac{15}{60} = \\frac{22}{60}$. The fraction simplifies to $\\frac{7}{7 + 15} = \\frac{7}{22}$. Therefore, the exact probability that it was actually a doublet is $\\frac{7}{22}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

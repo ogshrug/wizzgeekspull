@@ -1,0 +1,29 @@
+{
+  "id": "6a8f14d04b490c7cde3594dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "VSA",
+  "question": "The curve $y=1-x^3$ and the coordinate axes enclose a region in the first quadrant. Obtain its area using integration.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b><br>The curve meets the y-axis at $(0,1)$. Its positive x-intercept is obtained from $1-x^3=0$, which gives $x=1$.<br><br><b>Step 2:</b><br>For $0\\leq x\\leq1$, the function $1-x^3$ is non-negative. Hence, the bounded first-quadrant area is represented by its definite integral.<br><br><b>Step 3:</b><br>Thus, $A=\\int_0^1(1-x^3)dx=\\left[x-\\frac{x^4}{4}\\right]_0^1$.<br><br><b>Step 4:</b><br>Substituting the limits, $A=1-\\frac{1}{4}=\\frac{3}{4}$.<br><br><b>Final Answer:</b><br>The enclosed area is $\\frac{3}{4}$ square unit.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{4}$ square unit",
+    "B": "$\\frac{1}{4}$ square unit",
+    "C": "$\\frac{1}{2}$ square unit",
+    "D": "$\\frac{4}{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

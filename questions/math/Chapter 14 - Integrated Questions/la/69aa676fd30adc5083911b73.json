@@ -1,0 +1,30 @@
+{
+  "id": "69aa676fd30adc5083911b73",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$ ($a,b,c,d \\in \\mathbb{R}$, $ad-bc \\neq 0$). Define $f(x) = (a x + b)/(c x + d)$.\n\n(a) Show that $f$ is a one-one function on $\\mathbb{R} \\setminus \\{ -d/c \\}$ if $c \\neq 0$.\n\n(b) Prove that $f^{-1}(x) = (d x - b)/(-c x + a)$.\n\n(c) Construct the composite function $f \\circ f (x)$ and show it is also of the same rational form.\n\n(d) Using determinant properties, discuss whether the composition $(f \\circ f)$ is invertible, and if so, find its inverse.",
+  "answeroption": "A",
+  "explanation": "**Concepts Tested:**<br />- One-one and invertible functions (Relations & Functions)<br />- Inverse of rational functions<br />- Function composition<br />- Determinant and invertibility (Determinants)<br /><br />(a) $f$ is one-one on $\\mathbb{R} \\setminus \\{ -d/c \\}$<br /><br />Suppose $f(x_1) = f(x_2)$<br /><br />$(a x_1 + b)/(c x_1 + d) = (a x_2 + b)/(c x_2 + d)$<br /><br />Cross-multiply:<br /><br />$(a x_1 + b)(c x_2 + d) = (a x_2 + b)(c x_1 + d)$<br /><br />After expansion and simplification, $ad - bc \\neq 0$ means $x_1 = x_2$.<br /><br />Thus $f$ is one-one.<br /><br />(b) Let $y = f(x) = \\frac{a x + b}{c x + d}$<br /><br />$y (c x + d) = a x + b$<br /><br />$yc x + y d = a x + b$<br /><br />$(y c - a)x = b - y d$<br /><br />$x = \\frac{b - y d}{y c - a} = \\frac{d y - b}{-c y + a}$<br /><br />So $f^{-1}(x) = \\frac{d x - b}{-c x + a}$<br /><br />(c) $f(f(x)) = f\\left(\\frac{a x + b}{c x + d}\\right)$<br /><br />$= \\frac{a(a x + b) + b(c x + d)}{c(a x + b) + d(c x + d)}$<br /><br />Numerator: $[a^2 + b c] x + [a b + b d]$<br /><br />Denominator: $[c a + d c] x + [c b + d^2]$<br /><br />So $f \\circ f(x)$ is also a rational function of same type.<br /><br />(d) As long as $ad-bc \\neq 0$, $f$ is invertible and so is $f\\circ f$.<br /><br />If $g(x) = f(f(x))$, then $g^{-1}(x) = f^{-1}(f^{-1}(x))$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is one-one on $\\mathbb{R}\\setminus\\{-d/c\\}$ because $ad-bc\\ne0$ implies $x_1=x_2$ whenever $f(x_1)=f(x_2)$<br />(b) $f^{-1}(x)=\\frac{dx-b}{-cx+a}$<br />(c) $f\\circ f(x)=\\frac{(a^2+bc)x+(ab+bd)}{(ca+dc)x+(cb+d^2)}$, which is of the same rational form<br />(d) Since $f$ is invertible, $f\\circ f$ is also invertible, and $(f\\circ f)^{-1}=f^{-1}\\circ f^{-1}$",
+    "B": "(a) $f$ is not one-one even when $ad-bc\\ne0$<br />(b) $f^{-1}(x)=\\frac{ax+b}{cx+d}$<br />(c) $f\\circ f(x)=x$ always<br />(d) $f\\circ f$ is never invertible",
+    "C": "(a) $f$ is one-one only when $ad-bc=0$<br />(b) $f^{-1}(x)=\\frac{-dx+b}{cx-a}$<br />(c) $f\\circ f(x)$ is polynomial<br />(d) Its inverse does not exist",
+    "D": "(a) $f$ is one-one only on $\\mathbb{R}$ including $-d/c$<br />(b) $f^{-1}(x)=\\frac{cx+d}{ax+b}$<br />(c) $f\\circ f(x)=\\frac{x+1}{x-1}$ for all matrices<br />(d) $f\\circ f$ is invertible only when $a=d=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:34:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

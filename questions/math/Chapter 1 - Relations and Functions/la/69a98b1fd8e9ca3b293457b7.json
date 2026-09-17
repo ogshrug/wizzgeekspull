@@ -1,0 +1,29 @@
+{
+  "id": "69a98b1fd8e9ca3b293457b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "If $A = \\{1, 2, 3, ... , 9\\}$ and $R$ is the relation in $A \\times A$ defined by $(a, b) R (c, d)$, if $a + d = b + c$ for $(a, b), (c, d)$ in $A \\times A$. Prove that $R$ is an equivalence relation. Also, obtain the equivalence class $[(2, 5)]$.",
+  "answeroption": "A",
+  "explanation": "Reflexive: For $(a,b)R(a,b)$ we check $a+b = b+a$, which is always true by commutativity of addition. Hence the relation is reflexive.<br /><br />Symmetric: If $(a,b)R(c,d)$ then $a+d = b+c$. Rearranging gives $c+b = d+a$, hence $(c,d)R(a,b)$. Therefore the relation is symmetric.<br /><br />Transitive: If $(a,b)R(c,d)$ and $(c,d)R(e,f)$ then $a+d = b+c$ and $c+f = d+e$. Adding both equations gives $a+d+c+f = b+c+d+e$. Cancelling $c$ and $d$ gives $a+f = b+e$. Hence $(a,b)R(e,f)$ and the relation is transitive.<br /><br />Thus $R$ is reflexive, symmetric and transitive, so it is an equivalence relation.<br /><br />Equivalence class of $(2,5)$: $(a,b)R(2,5)$ if $a+5 = b+2$. This gives $b-a = 3$.<br /><br />Possible pairs in $A \\times A$ satisfying $b-a = 3$ are $(1,4), (2,5), (3,6), (4,7), (5,8), (6,9)$.<br /><br />Hence $[(2,5)] = \\{(1,4), (2,5), (3,6), (4,7), (5,8), (6,9)\\}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is reflexive, symmetric and transitive, so it is an equivalence relation; $[(2,5)] = \\{(1,4),(2,5),(3,6),(4,7),(5,8),(6,9)\\}$",
+    "B": "$R$ is reflexive and symmetric but not transitive, so it is not an equivalence relation; $[(2,5)] = \\{(2,5)\\}$",
+    "C": "$R$ is symmetric and transitive but not reflexive, so it is not an equivalence relation; $[(2,5)] = \\{(5,2)\\}$",
+    "D": "$R$ is reflexive, symmetric and transitive, so it is an equivalence relation; $[(2,5)] = \\{(1,5),(2,6),(3,7),(4,8),(5,9)\\}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:54:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a9ada0589ce36f368b486d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "VSA",
+  "question": "Express the matrix $M = \\begin{bmatrix}0 & a & b \\\\ -a & 0 & c \\\\ -b & -c & 0\\end{bmatrix}$ as the sum of a symmetric and a skew-symmetric matrix.",
+  "answeroption": "C",
+  "explanation": "Let $S = \\frac{1}{2}(M + M')$ and $K = \\frac{1}{2}(M - M')$.<br /><br />But $M'$ (transpose): $M' = \\begin{bmatrix}0 & -a & -b \\\\ a & 0 & -c \\\\ b & c & 0\\end{bmatrix}$<br /><br />$S = \\frac{1}{2}(M + M') = \\frac{1}{2}\\begin{bmatrix}0 & a-a & b-b \\\\ -a+a & 0 & c-c \\\\ -b+b & -c+c & 0\\end{bmatrix} = \\begin{bmatrix}0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0\\end{bmatrix}$<br /><br />$K = \\frac{1}{2}(M - M') = \\frac{1}{2}\\begin{bmatrix}0 & a-(-a) & b-(-b) \\\\ -a-a & 0 & c-(-c) \\\\ -b-b & -c-c & 0\\end{bmatrix}$<br /><br />$=\\frac{1}{2} \\begin{bmatrix}0 & 2a & 2b \\\\ -2a & 0 & 2c \\\\ -2b & -2c & 0\\end{bmatrix} = \\begin{bmatrix}0 & a & b \\\\ -a & 0 & c \\\\ -b & -c & 0\\end{bmatrix}$<br /><br />So,<br /><br />$M = 0 + M$ (i.e., $M$ is purely skew-symmetric).",
+  "explanation_image": [],
+  "options": {
+    "A": "$M=\\begin{bmatrix}0&a&b\\\\a&0&c\\\\b&c&0\\end{bmatrix}+\\begin{bmatrix}0&0&0\\\\0&0&0\\\\0&0&0\\end{bmatrix}$",
+    "B": "$M=\\begin{bmatrix}0&0&0\\\\0&0&0\\\\0&0&0\\end{bmatrix}+\\begin{bmatrix}0&-a&-b\\\\a&0&-c\\\\b&c&0\\end{bmatrix}$",
+    "C": "$M=\\begin{bmatrix}0&0&0\\\\0&0&0\\\\0&0&0\\end{bmatrix}+\\begin{bmatrix}0&a&b\\\\-a&0&c\\\\-b&-c&0\\end{bmatrix}$",
+    "D": "$M=\\begin{bmatrix}0&a&b\\\\-a&0&c\\\\-b&-c&0\\end{bmatrix}+\\begin{bmatrix}0&a&b\\\\-a&0&c\\\\-b&-c&0\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:21:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

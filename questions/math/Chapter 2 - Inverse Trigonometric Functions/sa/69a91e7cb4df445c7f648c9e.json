@@ -1,0 +1,30 @@
+{
+  "id": "69a91e7cb4df445c7f648c9e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "SA",
+  "question": "Using only the principal value branches, show that $\\tan(\\sin^{-1}x) = \\frac{x}{\\sqrt{1-x^2}}$ for $x \\in (-1,1)$.",
+  "answeroption": "D",
+  "explanation": "Let $\\theta = \\sin^{-1}x$, so $\\theta \\in \\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$.<br /><br />Then $x = \\sin\\theta$.<br /><br />Now $\\tan(\\sin^{-1}x) = \\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$.<br /><br />Since $\\cos\\theta = \\sqrt{1-\\sin^2\\theta} = \\sqrt{1-x^2}$, we get $\\tan(\\sin^{-1}x) = \\frac{x}{\\sqrt{1-x^2}}$.<br /><br />The principal value range ensures the cosine is non-negative.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $\\theta=\\sin^{-1}x$. Then $x=\\cos\\theta$, so $\\tan(\\sin^{-1}x)=\\frac{\\sqrt{1-x^2}}{x}$.",
+    "B": "Let $\\theta=\\sin^{-1}x$. Then $x=\\sin\\theta$, but $\\cos\\theta=-\\sqrt{1-x^2}$, so $\\tan(\\sin^{-1}x)=\\frac{-x}{\\sqrt{1-x^2}}$.",
+    "C": "Let $\\theta=\\sin^{-1}x$. Then $x=\\tan\\theta$, so $\\tan(\\sin^{-1}x)=x$.",
+    "D": "Let $\\theta=\\sin^{-1}x$. Then $x=\\sin\\theta$ and $\\cos\\theta=\\sqrt{1-x^2}$ in the principal range, so $\\tan(\\sin^{-1}x)=\\frac{x}{\\sqrt{1-x^2}}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:11:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

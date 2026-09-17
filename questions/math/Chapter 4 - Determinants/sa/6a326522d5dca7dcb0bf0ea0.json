@@ -1,0 +1,26 @@
+{
+  "id": "6a326522d5dca7dcb0bf0ea0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "SA",
+  "question": "Show that the determinant $\\begin{vmatrix}x&sin~\\theta&cos~\\theta\\\\ -sin~\\theta&-x&1\\\\ cos~\\theta&1&x\\end{vmatrix}$ is independent of $\\theta$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Expand the given determinant along the first row: $D = x \\begin{vmatrix} -x & 1 \\\\ 1 & x \\end{vmatrix} - \\sin\\theta \\begin{vmatrix} -\\sin\\theta & 1 \\\\ \\cos\\theta & x \\end{vmatrix} + \\cos\\theta \\begin{vmatrix} -\\sin\\theta & -x \\\\ \\cos\\theta & 1 \\end{vmatrix}$.\n\n**Step 2:** Evaluate the 2x2 minors: $D = x(-x^2 - 1) - \\sin\\theta(-x\\sin\\theta - \\cos\\theta) + \\cos\\theta(-\\sin\\theta + x\\cos\\theta)$.\n\n**Step 3:** Distribute the terms: $D = -x^3 - x + x\\sin^2\\theta + \\sin\\theta\\cos\\theta - \\sin\\theta\\cos\\theta + x\\cos^2\\theta$.\n\n**Step 4:** Simplify the expression by cancelling $\\sin\\theta\\cos\\theta$ and factoring x: $D = -x^3 - x + x(\\sin^2\\theta + \\cos^2\\theta)$.\n\n**Step 5:** Apply the identity $\\sin^2\\theta + \\cos^2\\theta = 1$: $D = -x^3 - x + x(1) = -x^3$. Thus, the value is independent of $\\theta$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

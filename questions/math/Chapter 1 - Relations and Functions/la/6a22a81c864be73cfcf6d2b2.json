@@ -1,0 +1,30 @@
+{
+  "id": "6a22a81c864be73cfcf6d2b2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "LA",
+  "question": "A relation R is defined on a set of real numbers R as $R=\\{(x,y):x.y\\text{ is an irrational number}\\}$. Check whether R is reflexive, symmetric and transitive or not.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To rigorously check reflexivity, we must establish if every element directly relates to itself. We need $(x,x) \\in R$ for all real numbers $x$, which demands $x \ncdot x = x^2$ is an irrational number for every $x \\in \\mathbb{R}$. This is fundamentally false. For a specific counterexample, let $x = \\sqrt{2}$, which is a real number. The product is $\\sqrt{2} \ncdot \\sqrt{2} = 2$. Since 2 is a rational integer, not irrational, $(\\sqrt{2}, \\sqrt{2}) \\notin R$. Hence, the relation R is absolutely not reflexive.<br />**Step 2:** To strictly check symmetry, we assume $(x,y) \\in R$ and determine if it logically forces $(y,x) \\in R$. The premise $(x,y) \\in R$ means that the mathematical product $x \ncdot y$ is an irrational number. By the fundamental commutative property of multiplication for real numbers, the product $x \ncdot y$ is exactly identical to $y \ncdot x$. Therefore, since $x \ncdot y$ is irrational, $y \ncdot x$ must undeniably also be irrational. This confirms that $(y,x) \\in R$. Consequently, the relation R is definitively symmetric.<br />**Step 3:** To check transitivity, we assume $(x,y) \\in R$ and $(y,z) \\in R$. This implies $x \ncdot y$ is irrational and $y \ncdot z$ is irrational. We must determine if this invariably guarantees $x \ncdot z$ is irrational. We can easily disprove this with a single counterexample. Let $x = \\sqrt{2}$, $y = \\sqrt{3}$, and $z = \\sqrt{2}$.<br />**Step 4:** Evaluate the specific relationships. $x \ncdot y = \\sqrt{2} \\times \\sqrt{3} = \\sqrt{6}$, which is correctly an irrational number, so $(x,y) \\in R$. $y \ncdot z = \\sqrt{3} \\times \\sqrt{2} = \\sqrt{6}$, which is also irrational, so $(y,z) \\in R$. Both initial premises hold true.<br />**Step 5:** Now crucially check the relationship between $x$ and $z$. $x \ncdot z = \\sqrt{2} \\times \\sqrt{2} = 2$. The number 2 is distinctly a rational number, not irrational. Thus, $(x,z) \\notin R$ despite the premises holding. Because the implication fails even once, the relation R is conclusively not transitive.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2",
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

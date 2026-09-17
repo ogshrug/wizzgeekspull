@@ -1,0 +1,30 @@
+{
+  "id": "69a9acd5d30adc5083911b18",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "There are three boxes. Box I contains 2 red and 1 white ball, Box II contains 1 red and 2 white balls, Box III contains 3 white balls. If a box is chosen at random and a ball is drawn from it, what is the probability that it is red?",
+  "answeroption": "B",
+  "explanation": "Probability of choosing each box: $\\frac{1}{3}$<br />Box I: $P(\\text{red}|I) = \\frac{2}{3}$<br />Box II: $P(\\text{red}|II) = \\frac{1}{3}$<br />Box III: $P(\\text{red}|III) = 0$<br /><br />Total probability:<br />$= \\frac{1}{3} \\times \\frac{2}{3} + \\frac{1}{3} \\times \\frac{1}{3} + \\frac{1}{3} \\times 0$<br /><br />$= \\frac{2}{9} + \\frac{1}{9} + 0 = \\frac{3}{9} = \\frac{1}{3}$<br /><br />Final answer: $\\boxed{\\frac{1}{3}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{9}$",
+    "B": "$\\frac{1}{3}$",
+    "C": "$\\frac{1}{2}$",
+    "D": "$\\frac{4}{9}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:18:29 GMT",
+  "updated_at": "Fri, 31 Jul 2026 11:36:17 GMT"
+}

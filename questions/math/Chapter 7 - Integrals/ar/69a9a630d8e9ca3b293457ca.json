@@ -1,0 +1,29 @@
+{
+  "id": "69a9a630d8e9ca3b293457ca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): $\\int e^x(1+\\sin x)dx=e^x(1+\\frac{1}{2}\\sin x-\\frac{1}{2}\\cos x)+C$.<br /><br />Reason (R): $\\int e^x[f(x)+f'(x)]dx=e^x f(x)+C$.",
+  "answeroption": "B",
+  "explanation": "Evaluating directly gives $e^x+\\frac{e^x}{2}(\\sin x-\\cos x)+C$, which simplifies to the assertion.<br /><br />The reason states a valid integration property.<br /><br />However $1+\\sin x$ cannot be written exactly as $f(x)+f'(x)$, so the reason is not the correct explanation.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both A and R are true and R explains A",
+    "B": "Both A and R are true but R does not explain A",
+    "C": "A is true but R is false",
+    "D": "A is false but R is true"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:50:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

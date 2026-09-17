@@ -1,0 +1,31 @@
+{
+  "id": "69a95bbcd30adc5083911a62",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "VSA",
+  "question": "Given $A$ is a $3 \\times 3$ invertible matrix such that $A^T = 2A^{-1}$, find the value of $|A|$.",
+  "answeroption": "B",
+  "explanation": "Take determinant both sides: <br /><br /> $|A^T| = |2A^{-1}|$ <br /><br /> But $|A^T| = |A|$ and $|2A^{-1}| = 2^3|A^{-1}|$ (since $A$ is $3 \\times 3$). <br /><br /> So, <br /><br /> $|A| = 8 \\cdot \\frac{1}{|A|}$ <br /><br /> $\\implies |A|^2 = 8$ <br /><br /> $\\implies |A| = 2\\sqrt{2}$ or $-2\\sqrt{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2$ or $-2$",
+    "B": "$2\\sqrt{2}$ or $-2\\sqrt{2}$",
+    "C": "$\\sqrt{2}$ or $-\\sqrt{2}$",
+    "D": "$8$ or $-8$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:32:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

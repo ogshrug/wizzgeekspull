@@ -1,0 +1,29 @@
+{
+  "id": "69aa77b6320763ee1b040673",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A juice bar sells two drinks: Citrus and Berry. Each glass of Citrus has 2 oranges and 1 lemon; each glass of Berry has 1 orange and 2 lemons. There are 10 oranges and 8 lemons. Profit per Citrus is ₹10; Berry ₹12. How many glasses of each should be sold for maximum profit? Write and solve the LPP graphically.",
+  "answeroption": "A",
+  "explanation": "Let $x$ = Citrus, $y$ = Berry<br /><br />Maximize $Z=10x+12y$<br /><br />Oranges: $2x+y\\leq10$<br /><br />Lemons: $x+2y\\leq8$<br /><br />$x,y\\geq0$<br /><br />$2x+y=10\\implies y=10-2x$<br /><br />$x+2y=8\\implies y=(8-x)/2$<br /><br />Set equal:<br /><br />$10-2x=(8-x)/2\\implies2(10-2x)=8-x\\implies20-4x=8-x\\implies-4x+x=8-20\\implies-3x=-12\\implies x=4$, $y=10-2*4=2$<br /><br />At $x=0$, $y=8/2=4$<br /><br />At $y=0$, $x=10/2=5$<br /><br />Points: $(0,0)$, $(0,4)$, $(4,2)$, $(5,0)$<br /><br />Calculate $Z$:<br /><br />$(0,0):0$<br /><br />$(0,4):48$<br /><br />$(4,2):40+24=64$<br /><br />$(5,0):50$<br /><br />Maximum at $(4,2):64$<br /><br />So, 4 Citrus, 2 Berry glasses, profit ₹64.",
+  "explanation_image": [],
+  "options": {
+    "A": "LPP: Maximize $Z=10x+12y$, subject to $2x+y\\leq10$, $x+2y\\leq8$, $x,y\\geq0$; sell 4 Citrus and 2 Berry glasses; maximum profit ₹64.",
+    "B": "LPP: Maximize $Z=10x+12y$, subject to $2x+y\\leq10$, $x+2y\\leq8$, $x,y\\geq0$; sell 0 Citrus and 4 Berry glasses; maximum profit ₹48.",
+    "C": "LPP: Maximize $Z=10x+12y$, subject to $2x+y\\leq10$, $x+2y\\leq8$, $x,y\\geq0$; sell 5 Citrus and 0 Berry glasses; maximum profit ₹50.",
+    "D": "LPP: Maximize $Z=10x+12y$, subject to $2x+y\\leq10$, $x+2y\\leq8$, $x,y\\geq0$; sell 0 Citrus and 0 Berry glasses; maximum profit ₹0."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:44:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

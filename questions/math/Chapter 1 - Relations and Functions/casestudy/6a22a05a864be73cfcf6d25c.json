@@ -1,0 +1,32 @@
+{
+  "id": "6a22a05a864be73cfcf6d25c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Students of a school are taken to a railway museum to learn about railways heritage and its history. An exhibit in the museum depicted many rail lines on the track near the railway station. Let $L$ be the set of all rail lines on the railway track and $R$ be the relation on $L$ defined by $R=\\{(l_{1},l_{2}):l_{1}$ is parallel to $l_{2}\\}$<br /><br />**(i)** Find whether the relation R is symmetric or not.<br />**(ii)** Find whether the relation R is transitive or not.<br />**(iii) (a)** If one of the rail lines on the railway track is represented by the equation $y=3x+2$, then find the set of rail lines in R related to it.<br />OR<br />**(iii) (b)** Let S be the relation defined by $S=\\{(l_{1},l_{2}):l_{1}$ is perpendicular to $l_{2}\\}$ check whether the relation S is symmetric and transitive.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** A relation R is symmetric if $(l_1, l_2) \\in R \\Rightarrow (l_2, l_1) \\in R$.<br />**Step 2:** If line $l_1$ is parallel to line $l_2$, then geometrically, line $l_2$ is also parallel to line $l_1$. Thus, $(l_2, l_1) \\in R$. The relation R is symmetric.<br /><br />**(ii)** **Step 1:** A relation R is transitive if $(l_1, l_2) \\in R$ and $(l_2, l_3) \\in R \\Rightarrow (l_1, l_3) \\in R$.<br />**Step 2:** If line $l_1$ is parallel to $l_2$, and $l_2$ is parallel to $l_3$, then by the properties of parallel lines in a plane, $l_1$ must be parallel to $l_3$. Thus, $(l_1, l_3) \\in R$. The relation R is transitive.<br /><br />**(iii) (a)** **Step 1:** The given line is $y = 3x + 2$. The slope of this line is $m = 3$.<br />**Step 2:** The set of all lines related to this line in relation R will be all lines parallel to it. Parallel lines have the same slope.<br />**Step 3:** The general equation of lines parallel to $y = 3x + 2$ is $y = 3x + c$, where $c$ is any real number.<br /><br />**(iii) (b)** **Step 1:** For symmetry of S: If $l_1 \\perp l_2$, then $l_2 \\perp l_1$. So $(l_1, l_2) \\in S \\Rightarrow (l_2, l_1) \\in S$. S is symmetric.<br />**Step 2:** For transitivity of S: Let $l_1 \\perp l_2$ and $l_2 \\perp l_3$. In a 2D plane, if two lines are perpendicular to the same line, they are parallel to each other, meaning $l_1 \\parallel l_3$, not perpendicular. Thus $(l_1, l_3) \\notin S$. S is not transitive.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22a05a864be73cfcf6d25c/1782266229-0.png?t=1782286029475"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

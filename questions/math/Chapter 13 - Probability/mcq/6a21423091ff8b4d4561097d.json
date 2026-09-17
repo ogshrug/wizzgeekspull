@@ -1,0 +1,34 @@
+{
+  "id": "6a21423091ff8b4d4561097d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "MCQ",
+  "question": "If E and F are two independent events such that $P(E)=\\frac{3}{10}$, $P(E\\cup F)=\\frac{1}{2}$, then $P(E|F)-P(F|E)$ is equal to :",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> Recall the definitions related to independent events. If two events E and F are independent, then knowing one occurred does not affect the probability of the other. Therefore, $P(E|F) = P(E)$ and $P(F|E) = P(F)$. The problem already states that $P(E) = \\frac{3}{10}$.<br /><br /><b>Step 2</b> Use the probability formula for the union of two independent events: $P(E \\cup F) = P(E) + P(F) - P(E)P(F)$. Substitute the known values into this equation to get $\\frac{1}{2} = \\frac{3}{10} + P(F) - \\frac{3}{10}P(F)$.<br /><br /><b>Step 3</b> Solve the algebraic equation for $P(F)$. Rearranging terms gives $\\frac{1}{2} - \\frac{3}{10} = P(F)(1 - \\frac{3}{10})$, which simplifies to $\\frac{5-3}{10} = \\frac{7}{10}P(F)$. This means $\\frac{2}{10} = \\frac{7}{10}P(F)$, resulting in $P(F) = \\frac{2}{7}$. Finally, calculate the requested difference: $P(E|F) - P(F|E) = P(E) - P(F) = \\frac{3}{10} - \\frac{2}{7}$. Finding a common denominator of 70 yields $\\frac{21}{70} - \\frac{20}{70} = \\frac{1}{70}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{7}$",
+    "B": "$\\frac{3}{35}$",
+    "C": "$\\frac{1}{70}$",
+    "D": "$\\frac{1}{7}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8d8c9a4b490c7cde3593b2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "LA",
+  "question": "Let $f,g,h:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=2x-1$, $g(x)=x^2+1$ and $h(x)=3x+2$. Obtain $(h\\circ g\\circ f)(x)$ and $(g\\circ h\\circ f)(x)$, compare the two composite functions, and hence determine all real values of $x$ for which $(h\\circ g\\circ f)(x)=29$.",
+  "answeroption": "D",
+  "explanation": "<b>Formation of $h\\circ g\\circ f$</b><br>First, $$g(f(x))=g(2x-1)=(2x-1)^2+1=4x^2-4x+2$$ Therefore, $$(h\\circ g\\circ f)(x)=h(4x^2-4x+2)=3(4x^2-4x+2)+2$$ Hence, $$(h\\circ g\\circ f)(x)=12x^2-12x+8$$<br><br><b>Formation of $g\\circ h\\circ f$</b><br>We have $$h(f(x))=h(2x-1)=3(2x-1)+2=6x-1$$ Therefore, $$(g\\circ h\\circ f)(x)=g(6x-1)=(6x-1)^2+1$$ Thus, $$(g\\circ h\\circ f)(x)=36x^2-12x+2$$<br><br><b>Comparison of the compositions</b><br>The expressions $$12x^2-12x+8$$ and $$36x^2-12x+2$$ are not identical. Therefore, $$h\\circ g\\circ f\\neq g\\circ h\\circ f$$<br><br><b>Required value of $x$</b><br>Given $$(h\\circ g\\circ f)(x)=29$$ we obtain $$12x^2-12x+8=29$$ Hence, $$12x^2-12x-21=0$$ Dividing by $3$, $$4x^2-4x-7=0$$ Using the quadratic formula, $$x=\\frac{4\\pm\\sqrt{16+112}}{8}=\\frac{4\\pm8\\sqrt{2}}{8}$$ Therefore, $$x=\\frac{1}{2}\\pm\\sqrt{2}$$<br><br><b>Final Result</b><br>The two composite functions are not equal, and the required real values are $$x=\\frac{1}{2}+\\sqrt{2}\\quad\\text{or}\\quad x=\\frac{1}{2}-\\sqrt{2}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(h\\circ g\\circ f)(x)=12x^2-12x+8$, $(g\\circ h\\circ f)(x)=36x^2-12x+2$; the functions are equal, and $x=\\frac{1}{2}\\pm\\sqrt{2}$.",
+    "B": "$(h\\circ g\\circ f)(x)=36x^2-12x+2$, $(g\\circ h\\circ f)(x)=12x^2-12x+8$; the functions are unequal, and $x=\\frac{1}{2}\\pm\\sqrt{2}$.",
+    "C": "$(h\\circ g\\circ f)(x)=12x^2-12x+8$, $(g\\circ h\\circ f)(x)=36x^2-12x+2$; the functions are unequal, and $x=\\frac{1}{2}\\pm\\frac{\\sqrt{2}}{2}$.",
+    "D": "$(h\\circ g\\circ f)(x)=12x^2-12x+8$, $(g\\circ h\\circ f)(x)=36x^2-12x+2$; the functions are unequal, and $x=\\frac{1}{2}\\pm\\sqrt{2}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

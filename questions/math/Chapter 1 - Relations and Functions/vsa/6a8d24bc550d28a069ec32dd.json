@@ -1,0 +1,29 @@
+{
+  "id": "6a8d24bc550d28a069ec32dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "VSA",
+  "question": "For $f:\\mathbb{Z}\\to\\mathbb{Z}$ given by $f(x)=x^2$, use the images of $2$ and $-2$ to determine whether $f$ is one-one.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> To test whether a function is one-one, it is enough to check whether two distinct elements can have the same image.<br><b>Step 2:</b> For $x=2$, $f(2)=2^2=4$.<br><b>Step 3:</b> For $x=-2$, $f(-2)=(-2)^2=4$.<br><b>Step 4:</b> Thus, $f(2)=f(-2)$, although $2\\ne-2$. Therefore, equality of images does not imply equality of the corresponding elements of the domain.<br><b>Step 5:</b> This violates the condition required for a one-one function.<br><b>Final Answer:</b> Since $f(2)=f(-2)=4$ with $2\\ne-2$, $f$ is not one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(2)=4$ and $f(-2)=-4$; hence, $f$ is one-one",
+    "B": "$f(2)=f(-2)=4$ with $2\\ne-2$; hence, $f$ is not one-one",
+    "C": "$f(2)=2$ and $f(-2)=-2$; hence, $f$ is one-one",
+    "D": "$f(2)=f(-2)=2$ with $2\\ne-2$; hence, $f$ is not one-one"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

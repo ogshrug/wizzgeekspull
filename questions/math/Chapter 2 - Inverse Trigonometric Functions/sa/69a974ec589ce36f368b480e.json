@@ -1,0 +1,29 @@
+{
+  "id": "69a974ec589ce36f368b480e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Solve for $x$: $\\cos^{-1}x + \\sin^{-1}\\frac{x}{2} = \\frac{\\pi}{6}$.",
+  "answeroption": "B",
+  "explanation": "Rewrite $\\sin^{-1}\\frac{x}{2}=\\frac{\\pi}{2}-\\cos^{-1}\\frac{x}{2}$.<br /><br />Substitute into equation: $\\cos^{-1}x+\\frac{\\pi}{2}-\\cos^{-1}\\frac{x}{2}=\\frac{\\pi}{6}$.<br /><br />Thus $\\cos^{-1}x-\\cos^{-1}\\frac{x}{2}=-\\frac{\\pi}{3}$.<br /><br />Solving the resulting equation gives $x^2=1$.<br /><br />Check values: for $x=1$, LHS $=0+\\frac{\\pi}{6}=\\frac{\\pi}{6}$ which satisfies the equation.<br /><br />For $x=-1$, LHS $=\\pi-\\frac{\\pi}{6}=\\frac{5\\pi}{6}$ which does not satisfy.<br /><br />Hence the solution is $x=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=-1$",
+    "B": "$x=1$",
+    "C": "$x=\\frac{1}{2}$",
+    "D": "$x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:19:56 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

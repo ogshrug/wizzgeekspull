@@ -1,0 +1,31 @@
+{
+  "id": "6a33b8366dbc98396e70a7c5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "MCQ",
+  "question": "The integrating factor of the differential equation $\\frac{dx}{dy}=\\frac{-(1+sin~x)}{x+y~cos~x}$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Invert both sides of the derivative equation to check for linearity with respect to the variable $y$: $\\frac{dy}{dx} = -\\frac{x + y\\cos x}{1+\\sin x} = -\\frac{\\cos x}{1+\\sin x}y - \\frac{x}{1+\\sin x}$.<br />**Step 2:** Move the linear variable $y$ component to the left side to rewrite the expression into standard first-order linear form $\\frac{dy}{dx} + P(x)y = Q(x)$: $\\frac{dy}{dx} + \\left(\\frac{\\cos x}{1+\\sin x}\\right)y = -\\frac{x}{1+\\sin x}$. Here, $P(x) = \\frac{\\cos x}{1+\\sin x}$.<br />**Step 3:** Calculate the integrating factor using the formula $\\text{I.F.} = e^{\\int P(x) dx}$: $\\text{I.F.} = e^{\\int \\frac{\\cos x}{1+\\sin x} dx} = e^{\\ln|1+\\sin x|} = 1+\\sin x$, matching option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "log cos x",
+    "B": "1+sin x",
+    "C": "$e^{(1+sin~x)}$",
+    "D": "$e^{log~cos~x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

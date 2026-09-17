@@ -1,0 +1,29 @@
+{
+  "id": "6a912528751910886affba70",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "SA",
+  "question": "A system of constraints is given by $2x+y\\geq8$, $x+2y\\geq10$, $x\\geq0$ and $y\\geq0$. Without using a graph, show that its feasible region is unbounded. Give a suitable family of feasible points to justify your conclusion.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Choosing a family of points</b><br>Consider points of the form $(t,t)$, where $t\\geq4$. These points automatically satisfy the non-negative restrictions.<br><b>Step 2: Testing the first inequality</b><br>For $(x,y)=(t,t)$, $$2x+y=2t+t=3t$$ Since $t\\geq4$, $3t\\geq12>8$. Thus, $2x+y\\geq8$.<br><b>Step 3: Testing the second inequality</b><br>Similarly, $$x+2y=t+2t=3t\\geq12>10$$ Hence, the second inequality is also satisfied.<br><b>Step 4: Examining indefinite extension</b><br>The parameter $t$ has no finite upper bound. Thus, points $(4,4)$, $(10,10)$, $(100,100)$ and points with still larger coordinates all remain feasible.<br><b>Step 5: Conclusion</b><br>The feasible region extends indefinitely and cannot be enclosed within a circle. Therefore, it is an unbounded region.",
+  "explanation_image": [],
+  "options": {
+    "A": "The region is bounded because $(t,t)$ is feasible only for $t=4$",
+    "B": "The region is unbounded because every $(t,t)$ with $t\\geq4$ is feasible",
+    "C": "The region is infeasible because the two lower-bound inequalities conflict",
+    "D": "The region is bounded because $x,y\\geq0$ restricts it to the first quadrant"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

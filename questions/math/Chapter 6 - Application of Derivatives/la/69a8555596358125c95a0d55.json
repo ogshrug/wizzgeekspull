@@ -1,0 +1,31 @@
+{
+  "id": "69a8555596358125c95a0d55",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e98f8c819562f933f976",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "A manufacturer can sell $x$ items per week at a price of Rs $(200 - x)$ per item. The cost price for $x$ items is Rs $(x^2 + 10x + 500)$ per week. How many items should be sold per week to maximize the profit? Also find the maximum profit.",
+  "answeroption": "B",
+  "explanation": "Revenue $R=x(200-x)=200x-x^2$.<br /><br />Cost $C=x^2+10x+500$.<br /><br />Profit $P=R-C=200x-x^2-(x^2+10x+500)=190x-2x^2-500$.<br /><br />$P'(x)=190-4x$.<br /><br />Setting $P'(x)=0$ gives $x=47.5$.<br /><br />$P''(x)=-4<0$ so maximum profit at $x=47.5$.<br /><br />Maximum profit $P(47.5)=4012.5$.<br /><br />Thus approximately 47 or 48 items should be sold and maximum profit is Rs 4012.5.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=45$ items and maximum profit is Rs $4000$.",
+    "B": "$x=47.5$ items and maximum profit is Rs $4012.5$.",
+    "C": "$x=50$ items and maximum profit is Rs $4000$.",
+    "D": "$x=95$ items and maximum profit is Rs $8512.5$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:52:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

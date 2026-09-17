@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd3ddbe0ecc7866e90c58",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a5"
+  ],
+  "question_type": "VSA",
+  "question": "The family $y=Ae^{2x}+Be^{-x}$ contains two arbitrary constants. By eliminating $A$ and $B$, form the differential equation satisfied by the family.",
+  "answeroption": "B",
+  "explanation": "Step 1: Start with $y=Ae^{2x}+Be^{-x}$. Since there are two arbitrary constants, differentiate twice.<br>Step 2: The first derivative is $\\frac{dy}{dx}=2Ae^{2x}-Be^{-x}$.<br>Step 3: Differentiating again gives $\\frac{d^2y}{dx^2}=4Ae^{2x}+Be^{-x}$.<br>Step 4: Consider $\\frac{d^2y}{dx^2}-\\frac{dy}{dx}$. Substitution gives $4Ae^{2x}+Be^{-x}-2Ae^{2x}+Be^{-x}=2Ae^{2x}+2Be^{-x}=2y$.<br>Step 5: Hence, $\\frac{d^2y}{dx^2}-\\frac{dy}{dx}=2y$. Rearranging gives the required differential equation $\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-2y=0$, which contains neither $A$ nor $B$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}+\\frac{dy}{dx}-2y=0$",
+    "B": "$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-2y=0$",
+    "C": "$\\frac{d^2y}{dx^2}-3\\frac{dy}{dx}+2y=0$",
+    "D": "$\\frac{d^2y}{dx^2}+\\frac{dy}{dx}+2y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8fc9802e54880055a0a705",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989",
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int \\frac{3x+7}{x^2+4x+8}dx$ by expressing the numerator suitably in terms of the derivative of the denominator and reducing the remaining integral to a standard form.",
+  "answeroption": "B",
+  "explanation": "Consider<br><br>$$I=\\int \\frac{3x+7}{x^2+4x+8}dx$$<br><br>The derivative of the denominator $x^2+4x+8$ is $2x+4$. Express the numerator in terms of this derivative:<br><br>$$3x+7=\\frac{3}{2}(2x+4)+1$$<br><br>Therefore,<br><br>$$I=\\frac{3}{2}\\int \\frac{2x+4}{x^2+4x+8}dx+\\int \\frac{dx}{x^2+4x+8}$$<br><br>For the first integral, put $t=x^2+4x+8$, so that $dt=(2x+4)dx$. Hence,<br><br>$$\\frac{3}{2}\\int \\frac{2x+4}{x^2+4x+8}dx=\\frac{3}{2}\\log(x^2+4x+8)$$<br><br>For the remaining integral, complete the square:<br><br>$$x^2+4x+8=(x+2)^2+4$$<br><br>Thus,<br><br>$$\\int \\frac{dx}{x^2+4x+8}=\\int \\frac{dx}{(x+2)^2+2^2}$$<br><br>Using $\\int \\frac{dx}{x^2+a^2}=\\frac{1}{a}\\tan^{-1}\\left(\\frac{x}{a}\\right)+C$, we get<br><br>$$\\int \\frac{dx}{(x+2)^2+4}=\\frac{1}{2}\\tan^{-1}\\left(\\frac{x+2}{2}\\right)$$<br><br>Combining the results,<br><br>$$I=\\frac{3}{2}\\log(x^2+4x+8)+\\frac{1}{2}\\tan^{-1}\\left(\\frac{x+2}{2}\\right)+C$$<br><br>Therefore, the required integral is $\\frac{3}{2}\\log(x^2+4x+8)+\\frac{1}{2}\\tan^{-1}\\left(\\frac{x+2}{2}\\right)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{2}\\log(x^2+4x+8)+\\tan^{-1}\\left(\\frac{x+2}{2}\\right)+C$",
+    "B": "$\\frac{3}{2}\\log(x^2+4x+8)+\\frac{1}{2}\\tan^{-1}\\left(\\frac{x+2}{2}\\right)+C$",
+    "C": "$\\frac{3}{2}\\log(x^2+4x+8)-\\frac{1}{2}\\tan^{-1}\\left(\\frac{x+2}{2}\\right)+C$",
+    "D": "$3\\log(x^2+4x+8)+\\frac{1}{2}\\tan^{-1}\\left(\\frac{x+2}{2}\\right)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

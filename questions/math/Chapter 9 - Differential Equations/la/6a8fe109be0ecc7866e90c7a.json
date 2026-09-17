@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe109be0ecc7866e90c7a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ae",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "LA",
+  "question": "Determine the general solution of the differential equation $$\\frac{dy}{dx}+y\\tan x=\\sin x,$$ on an interval where $\\cos x\\neq 0$, by identifying its standard linear form and applying the integrating factor method.",
+  "answeroption": "D",
+  "explanation": "<b>Standard Form</b><br>The given equation is $$\\frac{dy}{dx}+y\\tan x=\\sin x.$$ It is already in the standard form $$\\frac{dy}{dx}+Py=Q,$$ with $P=\\tan x$ and $Q=\\sin x$.<br><br><b>Integrating Factor</b><br>The integrating factor is $$\\text{I.F.}=e^{\\int\\tan x\\,dx}.$$ Since $$\\int\\tan x\\,dx=\\log|\\sec x|,$$ we may take $$\\text{I.F.}=\\sec x.$$ Multiplying the differential equation by $\\sec x$, $$\\sec x\\frac{dy}{dx}+y\\sec x\\tan x=\\tan x.$$ The left-hand side is the derivative of $y\\sec x$, so $$\\frac{d}{dx}(y\\sec x)=\\tan x.$$<br><br><b>Evaluation</b><br>Integrating, $$y\\sec x=\\int\\tan x\\,dx+C=\\log|\\sec x|+C.$$ Therefore, $$y=\\cos x\\left(\\log|\\sec x|+C\\right).$$<br><br><b>Final Result</b><br>The general solution of the given linear differential equation is $$y=\\cos x\\left(\\log|\\sec x|+C\\right),$$ on an interval where $\\cos x\\neq 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\cos x\\left(\\log|\\cos x|+C\\right)$",
+    "B": "$y=\\sec x\\left(\\log|\\sec x|+C\\right)$",
+    "C": "$y=\\cos x\\left(\\tan x+C\\right)$",
+    "D": "$y=\\cos x\\left(\\log|\\sec x|+C\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

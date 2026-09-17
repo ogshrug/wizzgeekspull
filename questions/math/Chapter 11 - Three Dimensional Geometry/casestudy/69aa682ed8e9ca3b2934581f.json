@@ -1,0 +1,29 @@
+{
+  "id": "69aa682ed8e9ca3b2934581f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Civil Engineering – Shortest Distance Between Utility Lines<br /><br />Line 1 passes through $P(0,0,0)$ and $Q(4,4,2)$. Line 2 passes through $A(1,-1,3)$ and $B(5,3,5)$.<br /><br />(1) Write vector equations of both lines.<br /><br />(2) Compute cross product of direction vectors.<br /><br />(3) Find vector $PA$.<br /><br />(4) Compute shortest distance between lines.<br /><br />(5) Interpret the geometric meaning.<br /><br />(6) What does nonzero distance imply?",
+  "answeroption": "A",
+  "explanation": "Direction vectors: $(4,4,2)$ for both lines.<br /><br />Vector equations:<br />$\\vec r_1=\\lambda(4,4,2)$ and $\\vec r_2=(1,-1,3)+\\mu(4,4,2)$.<br /><br />Since direction vectors are identical, cross product is $(0,0,0)$ and the lines are parallel.<br /><br />Vector $PA=(1,-1,3)$. Using distance formula between parallel lines gives $d=\\sqrt{10}$.<br /><br />This represents the minimum separation between the two utility lines.<br /><br />Nonzero distance implies the lines are parallel but distinct.",
+  "explanation_image": [],
+  "options": {
+    "A": "(1) $\\vec r_1=\\lambda(4,4,2)$ and $\\vec r_2=(1,-1,3)+\\mu(4,4,2)$<br />(2) Cross product of direction vectors is $(0,0,0)$<br />(3) $\\vec{PA}=(1,-1,3)$<br />(4) Shortest distance is $\\sqrt{10}$<br />(5) It is the minimum separation between the utility lines<br />(6) Nonzero distance implies the lines are parallel but distinct",
+    "B": "(1) $\\vec r_1=\\lambda(4,4,2)$ and $\\vec r_2=(1,-1,3)+\\mu(5,3,5)$<br />(2) Cross product is $(4,-10,8)$<br />(3) $\\vec{PA}=(1,-1,3)$<br />(4) Shortest distance is $0$<br />(5) The lines intersect<br />(6) Nonzero distance implies skew lines",
+    "C": "(1) $\\vec r_1=(0,0,0)+\\lambda(1,-1,3)$ and $\\vec r_2=(4,4,2)+\\mu(4,4,2)$<br />(2) Cross product is $(0,0,0)$<br />(3) $\\vec{PA}=(4,4,2)$<br />(4) Shortest distance is $6$<br />(5) Lines are coincident<br />(6) Nonzero distance implies same line",
+    "D": "(1) $\\vec r_1=\\lambda(4,4,2)$ and $\\vec r_2=(1,-1,3)+\\mu(4,4,2)$<br />(2) Cross product is $(1,-1,3)$<br />(3) $\\vec{PA}=(0,0,0)$<br />(4) Shortest distance is $\\sqrt{30}$<br />(5) It is distance from origin to $A$<br />(6) Nonzero distance implies perpendicular lines"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:37:50 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

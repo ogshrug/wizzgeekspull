@@ -1,0 +1,26 @@
+{
+  "id": "6a2262d0864be73cfcf6d181",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate: $\\int_{0}^{\\frac{\\pi}{4}}\\sqrt{1+\\sin 2x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Simplify the expression inside the square root by using fundamental trigonometric identities. We know $1 = \\sin^2 x + \\cos^2 x$ and $\\sin 2x = 2\\sin x\\cos x$.<br />**Step 2:** Substitute these identities into the integrand: $\\sqrt{\\sin^2 x + \\cos^2 x + 2\\sin x\\cos x}$.<br />**Step 3:** Recognize the expression as a perfect square: $\\sqrt{(\\sin x + \\cos x)^2}$.<br />**Step 4:** The square root of a square yields the absolute value: $|\\sin x + \\cos x|$. Since $x \\in [0, \\pi/4]$, both sine and cosine are positive, so we can write it as $\\sin x + \\cos x$.<br />**Step 5:** Integrate the simplified function: $\\int_{0}^{\\pi/4} (\\sin x + \\cos x) dx = [-\\cos x + \\sin x]_0^{\\pi/4}$.<br />**Step 6:** Evaluate the definite integral at the boundaries: $(-\\cos(\\pi/4) + \\sin(\\pi/4)) - (-\\cos(0) + \\sin(0)) = (-\\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{2}}) - (-1 + 0) = 0 - (-1) = 1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

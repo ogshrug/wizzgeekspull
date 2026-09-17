@@ -1,0 +1,27 @@
+{
+  "id": "6a2aaa76941aafe86231e9f4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "VSA",
+  "question": "Find the sub-interval of (0,∞) in which $f(x)=x^{2}e^{-x}$ is increasing.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find the first derivative of the function using the product rule: $f'(x) = 2x e^{-x} + x^2(-e^{-x}) = x(2 - x)e^{-x}$.<br />**Step 2:** For a function to be strictly increasing, its derivative must be greater than zero: $x(2 - x)e^{-x} > 0$.<br />**Step 3:** Since $e^{-x}$ is always positive, the inequality reduces to $x(2 - x) > 0 \\implies x \\in (0, 2)$. Thus, the increasing sub-interval within $(0, \\infty)$ is $(0, 2)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

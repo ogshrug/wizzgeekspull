@@ -1,0 +1,26 @@
+{
+  "id": "6a33863dd5dca7dcb0bf0f0e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "A relation R is defined on $N \\times N$ (where N is the set of natural numbers) as $(a, b) R (c, d) \\Leftrightarrow \\frac{a}{c} = \\frac{b}{d}$. Show that R is an equivalence relation.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Investigate reflexive relation limits. By evaluating pairs relative to themselves $(a,b) R (a,b)$, the operational ratio dictates $\\frac{a}{a} = \\frac{b}{b} = 1$. The identity holds, establishing reflexivity.\n\n**Step 2:** Formulate symmetric tests on arbitrary elements. Presume $(a,b) R (c,d)$, leading directly to the fraction relation $\\frac{a}{c} = \\frac{b}{d}$. Executing an inversion across the equality yields $\\frac{c}{a} = \\frac{d}{b}$, mapping equivalent to $(c,d) R (a,b)$. Therefore, it is symmetric.\n\n**Step 3:** Determine bounds on transitivity. Provide assumptions $(a,b) R (c,d)$ and $(c,d) R (e,f)$, establishing linked equations $\\frac{a}{c} = \\frac{b}{d}$ and $\\frac{c}{e} = \\frac{d}{f}$.\n\n**Step 4:** Merge these relationships through pure fraction multiplication: $(\\frac{a}{c})(\\frac{c}{e}) = (\\frac{b}{d})(\\frac{d}{f})$. The intermediary elements $c$ and $d$ perfectly cross-cancel.\n\n**Step 5:** This generates $\\frac{a}{e} = \\frac{b}{f}$, formally equating to $(a,b) R (e,f)$. Since all testing states verify, R holds strict form as an equivalence relation.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

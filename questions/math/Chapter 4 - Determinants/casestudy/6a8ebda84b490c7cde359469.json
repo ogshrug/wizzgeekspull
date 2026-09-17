@@ -1,0 +1,32 @@
+{
+  "id": "6a8ebda84b490c7cde359469",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d71",
+    "69c6603740512f018fa94d72",
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A class investigates how two parameters affect the system $x+y+z=3$, $x+ky+2z=4$, and $x+2y+kz=m$. The coefficient determinant depends on $k$, while the right-hand side of the third equation depends on $m$. The students want to classify the system according to whether it has one solution, infinitely many solutions, or no solution, paying special attention to values of $k$ for which the coefficient determinant becomes zero.<br><br><b>(a)</b> Evaluate the coefficient determinant in terms of $k$.<br><br><b>(b)</b> Determine the values of $k$ for which the system has a unique solution.<br><br><b>(c)</b> Examine the system when $k=0$ and classify it according to $m$.<br><br><b>(d)</b> Examine the system when $k=2$ and classify it according to $m$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The coefficient determinant is<br>$$D=\\begin{vmatrix}1 & 1 & 1\\\\1 & k & 2\\\\1 & 2 & k\\end{vmatrix}$$<br>Expanding along the first row,<br>$$D=(k^2-4)-(k-2)+(2-k)$$<br>$$D=k^2-2k=k(k-2)$$<br><br><b>(b)</b><br>The system has a unique solution when $D\\neq0$. Therefore,<br>$$k(k-2)\\neq0$$<br>Hence, the system has a unique solution for<br>$$k\\neq0\\quad\\text{and}\\quad k\\neq2$$<br><br><b>(c)</b><br>When $k=0$, the system becomes<br>$$x+y+z=3$$<br>$$x+2z=4$$<br>$$x+2y=m$$<br>From the first two equations,<br>$$z-y=1$$<br>Let $y=t$. Then $z=t+1$, and from $x+2z=4$,<br>$$x=4-2(t+1)=2-2t$$<br>Therefore,<br>$$x+2y=(2-2t)+2t=2$$<br>Thus, the system is consistent only when $m=2$. For $m=2$, it has infinitely many solutions<br>$$x=2-2t,\\quad y=t,\\quad z=t+1$$<br>For $m\\neq2$, the system is inconsistent and has no solution.<br><br><b>(d)</b><br>When $k=2$, the last two equations become<br>$$x+2y+2z=4$$<br>$$x+2y+2z=m$$<br>They are compatible only when $m=4$. For $m=4$, subtracting the first equation from the second gives<br>$$y+z=1$$<br>and hence $x=2$. Let $z=t$. Then,<br>$$x=2,\\quad y=1-t,\\quad z=t$$<br>Thus, the system has infinitely many solutions when $m=4$. For $m\\neq4$, it is inconsistent and has no solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $D=(k-1)(k-2)$<br>(b) Unique solution for $k\\neq1,2$<br>(c) At $k=0$, infinitely many solutions when $m=4$<br>(d) At $k=2$, infinitely many solutions when $m=2$",
+    "B": "(a) $D=k(k+2)$<br>(b) Unique solution for $k\\neq0,-2$<br>(c) At $k=0$, infinitely many solutions for every $m$<br>(d) At $k=2$, the system always has a unique solution",
+    "C": "(a) $D=k(k-2)$<br>(b) Unique solution for $k\\neq0,2$<br>(c) At $k=0$, infinitely many solutions when $m=4$ and none otherwise<br>(d) At $k=2$, infinitely many solutions when $m=2$ and none otherwise",
+    "D": "(a) $D=k(k-2)$<br>(b) Unique solution for $k\\neq0,2$<br>(c) At $k=0$, infinitely many solutions when $m=2$ and no solution when $m\\neq2$<br>(d) At $k=2$, infinitely many solutions when $m=4$ and no solution when $m\\neq4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

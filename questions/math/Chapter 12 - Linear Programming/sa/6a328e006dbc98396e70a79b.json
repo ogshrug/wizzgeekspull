@@ -1,0 +1,26 @@
+{
+  "id": "6a328e006dbc98396e70a79b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following Linear Programming Problem graphically : Minimise $Z=3x+5y$ subject to the constraints $x+2y\\ge10$, $x+y\\ge6$, $3x+y\\ge8$, x, $y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** We convert the given system of linear inequalities into boundary equations: $x + 2y = 10$, $x + y = 6$, and $3x + y = 8$. By solving these lines simultaneously, we determine the intersection coordinates forming the boundaries of our feasible region polygon.<br />**Step 2:** The intersection of $3x+y=8$ and $x+y=6$ yields $(1,5)$, while intersecting $x+y=6$ and $x+2y=10$ gives $(2,4)$. Combined with the axis boundary intercepts, the corner vertices of the unbounded feasible region are determined to be $(0,8)$, $(1,5)$, $(2,4)$, and $(10,0)$.<br />**Step 3:** Finally, we evaluate the objective cost function $Z = 3x + 5y$ at each corner vertex: $Z(0,8)=40$, $Z(1,5)=28$, $Z(2,4)=26$, and $Z(10,0)=30$. Comparing these values, the absolute minimum value is $26$, achieved at the point $(2,4)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

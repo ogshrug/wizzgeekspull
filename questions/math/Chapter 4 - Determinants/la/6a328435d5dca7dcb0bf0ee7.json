@@ -1,0 +1,26 @@
+{
+  "id": "6a328435d5dca7dcb0bf0ee7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "LA",
+  "question": "Find $A^{-1}$, if $A = \\begin{bmatrix}1 & 2 & 1 \\\\ 2 & 3 & -1 \\\\ 1 & 0 & 1\\end{bmatrix}$. Hence, solve the following system of equations: $x+2y+z=5$, $2x+3y=1$, $x-y+z=8$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find determinant $|A| = 1(3) - 2(2+1) + 1(-3) = 3 - 6 - 3 = -6$.\n\n**Step 2:** Determine the adjoint by finding the cofactor matrix. Co-factors are $C_{11}=3, C_{12}=-3, C_{13}=-3, C_{21}=-2, C_{22}=0, C_{23}=2, C_{31}=-5, C_{32}=3, C_{33}=-1$. $Adj(A) = \\begin{bmatrix}3 & -2 & -5 \\\\ -3 & 0 & 3 \\\\ -3 & 2 & -1\\end{bmatrix}$.\n\n**Step 3:** Form $A^{-1} = \\frac{1}{-6} \\begin{bmatrix}3 & -2 & -5 \\\\ -3 & 0 & 3 \\\\ -3 & 2 & -1\\end{bmatrix}$.\n\n**Step 4:** The equations matrix forms $A^T X = B$, where $B = [5, 1, 8]^T$. Therefore, $X = (A^T)^{-1}B = (A^{-1})^TB$.\n\n**Step 5:** Multiply: $X = \\frac{1}{-6} \\begin{bmatrix}3 & -3 & -3 \\\\ -2 & 0 & 2 \\\\ -5 & 3 & -1\\end{bmatrix} \\begin{bmatrix}5 \\\\ 1 \\\\ 8\\end{bmatrix} = \\frac{-1}{6}\\begin{bmatrix}15-3-24 \\\\ -10+0+16 \\\\ -25+3-8\\end{bmatrix} = \\frac{-1}{6}\\begin{bmatrix}-12 \\\\ 6 \\\\ -30\\end{bmatrix} = \\begin{bmatrix}2 \\\\ -1 \\\\ 5\\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

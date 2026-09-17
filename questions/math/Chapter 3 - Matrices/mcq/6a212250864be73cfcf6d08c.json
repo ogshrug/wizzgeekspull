@@ -1,0 +1,31 @@
+{
+  "id": "6a212250864be73cfcf6d08c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A$ and $B$ are skew symmetric matrices of same order, then which of the following matrices is also skew symmetric?",
+  "answeroption": "D",
+  "explanation": "**Step 1: Recall the Definition of Skew-Symmetric Matrix**  \nA matrix $A$ is skew-symmetric if $A' = -A$, where $A'$ denotes the transpose of $A$. Given $A$ and $B$ are skew-symmetric, we have:  \n$$A' = -A \\quad \\text{and} \\quad B' = -B$$\n\n**Step 2: Test Each Option**  \nWe need to check which option satisfies the property $(M)' = -M$.  \n- For $A - B$: $(A - B)' = A' - B' = (-A) - (-B) = -A + B = -(A - B)$  \nThus, $A - B$ is skew-symmetric.\n\n**Step 3: Verify the Other Options (Briefly)**  \n- $AB$: $(AB)' = B'A' = (-B)(-A) = BA$, which is not necessarily $-AB$.  \n- $AB + BA$: $(AB + BA)' = (AB)' + (BA)' = BA + AB = AB + BA$, so it is symmetric, not skew-symmetric.  \n- $(A+B)^2$: $(A+B)^2 = A^2 + AB + BA + B^2$. Its transpose may not equal its negative.  \nTherefore, the correct option is **D** ($A - B$).",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB$",
+    "B": "$AB+BA$",
+    "C": "$(A+B)^2$",
+    "D": "$A-B$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

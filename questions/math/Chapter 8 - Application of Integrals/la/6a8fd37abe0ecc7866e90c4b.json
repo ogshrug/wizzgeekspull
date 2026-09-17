@@ -1,0 +1,32 @@
+{
+  "id": "6a8fd37abe0ecc7866e90c4b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f997",
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "The horizontal line $y=\\frac{3}{2}$ cuts the upper half of the ellipse $\\frac{x^2}{16}+\\frac{y^2}{9}=1$.(a) Determine the points at which the line intersects the ellipse.(b) Express the upper half of the ellipse as a function of $x$ and identify the boundaries of the smaller enclosed region.(c) Using integration, calculate the exact area of the smaller region enclosed by the line and the ellipse.",
+  "answeroption": "A",
+  "explanation": "(a)Substituting $y=\\frac{3}{2}$ in the equation of the ellipse gives`\\frac{x^2}{16}+\\frac{\\left(\\frac{3}{2}\\right)^2}{9}=1\\frac{x^2}{16}+\\frac{1}{4}=1\\frac{x^2}{16}=\\frac{3}{4}`Thus, $x^2=12$ and $x=\\pm2\\sqrt{3}$. Hence, the points of intersection are $\\left(-2\\sqrt{3},\\frac{3}{2}\\right)$ and $\\left(2\\sqrt{3},\\frac{3}{2}\\right)$.(b)For the upper half of the ellipse,`y=3\\sqrt{1-\\frac{x^2}{16}}=\\frac{3}{4}\\sqrt{16-x^2}`Between $x=-2\\sqrt{3}$ and $x=2\\sqrt{3}$, the ellipse is the upper boundary and $y=\\frac{3}{2}$ is the lower boundary.(c)By symmetry, the required area is`A=2\\int_0^{2\\sqrt{3}}\\left(\\frac{3}{4}\\sqrt{16-x^2}-\\frac{3}{2}\\right)dx`Using`\\int\\sqrt{a^2-x^2}\\,dx=\\frac{x}{2}\\sqrt{a^2-x^2}+\\frac{a^2}{2}\\sin^{-1}\\left(\\frac{x}{a}\\right)`we get`\\int_0^{2\\sqrt{3}}\\sqrt{16-x^2}\\,dx=2\\sqrt{3}+\\frac{8\\pi}{3}`Therefore,`A=2\\left[\\frac{3}{4}\\left(2\\sqrt{3}+\\frac{8\\pi}{3}\\right)-\\frac{3}{2}\\left(2\\sqrt{3}\\right)\\right]A=2\\left(2\\pi-\\frac{3\\sqrt{3}}{2}\\right)=4\\pi-3\\sqrt{3}`Hence, the required area is $4\\pi-3\\sqrt{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(\\pm2\\sqrt{3},\\frac{3}{2})$<br>(b) Upper: $y=\\frac{3}{4}\\sqrt{16-x^2}$; lower: $y=\\frac{3}{2}$<br>(c) Area $=4\\pi-3\\sqrt{3}$ square units",
+    "B": "(a) $(\\pm\\sqrt{3},\\frac{3}{2})$<br>(b) Upper: $y=\\frac{3}{4}\\sqrt{16-x^2}$; lower: $y=\\frac{3}{2}$<br>(c) Area $=4\\pi-3\\sqrt{3}$ square units",
+    "C": "(a) $(\\pm2\\sqrt{3},\\frac{3}{2})$<br>(b) Upper: $y=\\frac{3}{2}$; lower: $y=\\frac{3}{4}\\sqrt{16-x^2}$<br>(c) Area $=4\\pi+3\\sqrt{3}$ square units",
+    "D": "(a) $(\\pm2\\sqrt{3},\\frac{3}{2})$<br>(b) Upper: $y=\\frac{3}{4}\\sqrt{16-x^2}$; lower: $y=\\frac{3}{2}$<br>(c) Area $=2\\pi-3\\sqrt{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

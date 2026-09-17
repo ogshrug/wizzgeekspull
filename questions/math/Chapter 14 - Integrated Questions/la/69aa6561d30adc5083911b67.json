@@ -1,0 +1,30 @@
+{
+  "id": "69aa6561d30adc5083911b67",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = |x|$ and $A = \\begin{bmatrix} f(-1) & f(0) \\\\ f(1) & f(2) \\end{bmatrix}$. \n\n(a) Write $A$ explicitly.\n\n(b) Find $\\det(A)$.\n\n(c) Let $g(x) = \\sin^{-1}(x)$, compute $g(f(-1))$, $g(f(0))$, $g(f(1))$.\n\n(d) Explain why $g(A)$ is not defined for all entries, and which ones are undefined.\n\n(e) For only defined entries, calculate $g(A)$ and its trace.",
+  "answeroption": "B",
+  "explanation": "**Concepts Tested:** Relations & Functions, Determinants, Inverse Trigonometric Functions, Matrices.<br /><br />(a) $f(-1) = 1$, $f(0) = 0$, $f(1) = 1$, $f(2)=2$<br /><br />So $A = \\begin{bmatrix} 1 & 0 \\\\ 1 & 2 \\end{bmatrix}$<br /><br />(b) $\\det(A)=1\\cdot2-0\\cdot1=2$<br /><br />(c) $g(f(-1)) = g(1) = \\sin^{-1} 1 = \\frac{\\pi}{2}$<br /><br />$g(f(0)) = g(0) = 0$<br /><br />$g(f(1)) = g(1) = \\frac{\\pi}{2}$<br /><br />$g(f(2)) =$ undefined (as $2$ is not in $[-1,1]$)<br /><br />(d) $g(A)$ not defined for entry $f(2)$ as $g(2)$ undefined.<br /><br />(e) Defined entries:<br /><br />$g(A) = \\begin{bmatrix} \\frac{\\pi}{2} & 0 \\\\ \\frac{\\pi}{2} & ? \\end{bmatrix}$<br /><br />Trace is $\\frac{\\pi}{2}$ (summing defined diagonal entries only).",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=\\begin{bmatrix}-1&0\\\\1&2\\end{bmatrix}$<br />(b) $\\det(A)=-2$<br />(c) $g(f(-1))=-\\frac{\\pi}{2}$, $g(f(0))=0$, $g(f(1))=\\frac{\\pi}{2}$<br />(d) All entries of $g(A)$ are defined<br />(e) Trace is $0$",
+    "B": "(a) $A=\\begin{bmatrix}1&0\\\\1&2\\end{bmatrix}$<br />(b) $\\det(A)=2$<br />(c) $g(f(-1))=\\frac{\\pi}{2}$, $g(f(0))=0$, $g(f(1))=\\frac{\\pi}{2}$<br />(d) $g(A)$ is not defined for the entry $f(2)=2$ because $2\\notin[-1,1]$<br />(e) For defined entries, $g(A)=\\begin{bmatrix}\\frac{\\pi}{2}&0\\\\\\frac{\\pi}{2}&?\\end{bmatrix}$ and the trace using defined diagonal entries is $\\frac{\\pi}{2}$",
+    "C": "(a) $A=\\begin{bmatrix}0&1\\\\1&2\\end{bmatrix}$<br />(b) $\\det(A)=-1$<br />(c) $g(f(-1))=0$, $g(f(0))=\\frac{\\pi}{2}$, $g(f(1))=0$<br />(d) No entry is undefined<br />(e) Trace is $\\pi$",
+    "D": "(a) $A=\\begin{bmatrix}1&1\\\\1&1\\end{bmatrix}$<br />(b) $\\det(A)=0$<br />(c) All three values are $\\frac{\\pi}{2}$<br />(d) $g(A)$ is undefined for all entries<br />(e) Trace is undefined"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:25:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a9027964b490c7cde359562",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "VSA",
+  "question": "One of two boxes is selected at random. Box I contains $3$ red and $2$ black balls, while Box II contains $4$ red and $3$ black balls. A ball drawn from the selected box is red. Find the probability that it was drawn from Box I.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> Let $B_1$ and $B_2$ represent the selection of Box I and Box II respectively, and let $R$ denote drawing a red ball.<br><b>Step 2:</b> Since either box is selected at random, $P(B_1)=P(B_2)=\\frac{1}{2}$. Also, $P(R\\mid B_1)=\\frac{3}{5}$ and $P(R\\mid B_2)=\\frac{4}{7}$.<br><b>Step 3:</b> By Bayes’ theorem, $P(B_1\\mid R)=\\frac{P(B_1)P(R\\mid B_1)}{P(B_1)P(R\\mid B_1)+P(B_2)P(R\\mid B_2)}$.<br><b>Step 4:</b> This becomes $\\frac{\\frac{3}{5}}{\\frac{3}{5}+\\frac{4}{7}}=\\frac{21}{41}$.<br><b>Step 5:</b> Hence, the required probability is $\\frac{21}{41}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{20}{41}$",
+    "B": "$\\frac{3}{5}$",
+    "C": "$\\frac{4}{7}$",
+    "D": "$\\frac{21}{41}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

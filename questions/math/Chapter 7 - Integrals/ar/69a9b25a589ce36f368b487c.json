@@ -1,0 +1,29 @@
+{
+  "id": "69a9b25a589ce36f368b487c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): $\\displaystyle \\int x e^{x^2} dx$ can be integrated by using substitution $u=x^2$.<br /><br />Reason (R): With the substitution $u = x^2$, $dx = \\frac{du}{2x}$, simplifying the integral to $\\frac{1}{2} \\int e^u du$.",
+  "answeroption": "A",
+  "explanation": "Let $u=x^2$, so $du=2x dx$ and $dx=\\frac{du}{2x}$.<br /><br />Then $\\int x e^{x^2} dx = \\int x e^u \\frac{du}{2x} = \\frac{1}{2}\\int e^u du$.<br /><br />Thus the substitution works correctly.<br /><br />Both Assertion and Reason are true and Reason explains Assertion.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:42:02 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8d757f883bbce68009f8e5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $$\\sec^{-1}\\left(\\sec\\frac{5\\pi}{3}\\right)+\\operatorname{cosec}^{-1}\\left(\\operatorname{cosec}\\frac{7\\pi}{6}\\right).$$",
+  "answeroption": "D",
+  "explanation": "<b>Principal value of the inverse secant term</b><br>The principal range of $\\sec^{-1}x$ is $[0,\\pi]-\\left\\{\\frac{\\pi}{2}\\right\\}$. Since $$\\sec\\frac{5\\pi}{3}=2,$$ the angle in the principal range whose secant is $2$ is $\\frac{\\pi}{3}$. Therefore, $$\\sec^{-1}\\left(\\sec\\frac{5\\pi}{3}\\right)=\\frac{\\pi}{3}.$$<br><br><b>Principal value of the inverse cosecant term</b><br>The principal range of $\\operatorname{cosec}^{-1}x$ is $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]-\\{0\\}$. Also, $$\\operatorname{cosec}\\frac{7\\pi}{6}=-2.$$ The required principal angle is therefore $-\\frac{\\pi}{6}$.<br><br><b>Addition of principal values</b><br>Hence, the required value is $$\\frac{\\pi}{3}-\\frac{\\pi}{6}=\\frac{\\pi}{6}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{\\pi}{6}$",
+    "B": "$\\frac{\\pi}{2}$",
+    "C": "$\\frac{7\\pi}{6}$",
+    "D": "$\\frac{\\pi}{6}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

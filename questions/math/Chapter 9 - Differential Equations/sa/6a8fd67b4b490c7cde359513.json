@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd67b4b490c7cde359513",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "SA",
+  "question": "A student makes the following statement: \"Every differential equation containing a second-order derivative is a partial differential equation.\" Examine the validity of this statement by considering<br>$$\\frac{d^2y}{dx^2}+y=0$$<br>and<br>$$\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial t}=0.$$<br>Classify both equations and justify your answer.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Identify the classification criterion</b><br>The distinction between ordinary and partial differential equations depends on the number of independent variables with respect to which differentiation occurs; it does not depend on whether the derivative is first, second or higher order.<br><b>Step 2: Examine the first equation</b><br>In $\\frac{d^2y}{dx^2}+y=0$, the dependent variable $y$ is differentiated only with respect to $x$. Therefore, despite containing a second-order derivative, it is an ordinary differential equation.<br><b>Step 3: Examine the second equation</b><br>In $\\frac{\\partial u}{\\partial x}+\\frac{\\partial u}{\\partial t}=0$, the dependent variable $u$ is differentiated with respect to two independent variables, $x$ and $t$. Hence, it is a partial differential equation.<br><b>Step 4: Conclusion</b><br>The student's statement is false. The type is determined by the number of independent variables involved in differentiation, not by the order of the derivative.",
+  "explanation_image": [],
+  "options": {
+    "A": "The statement is true; both equations are partial differential equations.",
+    "B": "The statement is false; the first equation is an ordinary differential equation and the second is a partial differential equation.",
+    "C": "The statement is false; both equations are ordinary differential equations.",
+    "D": "The statement is true; the first equation is partial and the second is ordinary."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

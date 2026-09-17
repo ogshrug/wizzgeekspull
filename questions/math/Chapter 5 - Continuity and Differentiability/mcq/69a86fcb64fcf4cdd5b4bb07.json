@@ -1,0 +1,29 @@
+{
+  "id": "69a86fcb64fcf4cdd5b4bb07",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $y = [\\sin^2 x]^{\\cos x}$ for $x \\in (0,\\pi)$. What is $\\dfrac{dy}{dx}$ at $x = \\frac{\\pi}{3}$?",
+  "answeroption": "C",
+  "explanation": "Use logarithmic differentiation:<br /><br />Let $y = [\\sin^2 x]^{\\cos x}$<br /><br />$\\ln y = \\cos x \\cdot \\ln (\\sin^2 x) = 2\\cos x \\ln(\\sin x)$<br /><br />Differentiate both sides:<br /><br />$\\dfrac{1}{y} \\dfrac{dy}{dx} = -2\\sin x \\ln(\\sin x) + 2\\cos x \\dfrac{\\cos x}{\\sin x}$<br /><br />$= -2 \\sin x \\ln(\\sin x) + 2 \\dfrac{\\cos^2 x}{\\sin x}$<br /><br />So,<br /><br />$\\dfrac{dy}{dx} = y\\left[ -2 \\sin x \\ln(\\sin x) + 2 \\dfrac{\\cos^2 x}{\\sin x} \\right]$<br /><br />At $x=\\pi/3$, substitute values and simplify.<br /><br />This yields $-\\dfrac{1}{2}$.<br /><br />So, answer is (C) $-\\dfrac{1}{2}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$-\\dfrac{1}{4}$",
+    "C": "$-\\dfrac{1}{2}$",
+    "D": "$\\dfrac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:45:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

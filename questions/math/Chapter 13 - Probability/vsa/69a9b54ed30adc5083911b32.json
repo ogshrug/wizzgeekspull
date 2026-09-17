@@ -1,0 +1,29 @@
+{
+  "id": "69a9b54ed30adc5083911b32",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "VSA",
+  "question": "An urn contains 4 white and 6 black balls. Two balls are drawn successively without replacement. Find the probability that the first is black and the second is white.",
+  "answeroption": "C",
+  "explanation": "Let $E$: first ball is black<br />$P(E) = \\frac{6}{10} = \\frac{3}{5}$<br />After one black is removed: white = 4, black = 5, total = 9<br />$P(F|E) = \\frac{4}{9}$<br /><br />Hence,<br />$P(E \\cap F) = P(E) P(F|E) = \\frac{3}{5} \\times \\frac{4}{9} = \\frac{12}{45} = \\frac{4}{15}$<br /><br />So, required probability is $\\boxed{\\frac{4}{15}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{15}$",
+    "B": "$\\frac{3}{10}$",
+    "C": "$\\frac{4}{15}$",
+    "D": "$\\frac{2}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:54:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

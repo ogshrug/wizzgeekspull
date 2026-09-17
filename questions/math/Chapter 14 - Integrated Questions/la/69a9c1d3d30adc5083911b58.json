@@ -1,0 +1,30 @@
+{
+  "id": "69a9c1d3d30adc5083911b58",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ for $x \\in [-1,1]$.<br /><br />(a) Show that $f(x) = 2\\tan^{-1}(x)$.<br /><br />(b) Consider the relation $R$ on $[-1,1]$ defined by $xRy$ if $f(x) = f(y)$. Is $R$ an equivalence relation?<br /><br />(c) Using the result in (a), find all $x$ in $(-1,1)$ such that $f(x) = 0$.<br /><br />(d) Evaluate $\\sum_{x \\in S} f(x)$ where $S$ is the set of all $x \\in [-1,1]$ such that $f(x)$ is a maximum or minimum.",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:**<br />- Inverse trigonometric identities<br />- Properties of relations (equivalence)<br />- Characterization of solutions<br />- Max/min values and summation<br /><br />**Solution:**<br /><br />(a) $\\frac{2x}{1+x^2} = \\sin(2\\tan^{-1}x)$<br /><br />So $f(x) = 2\\tan^{-1}x$ for $x \\in [-1,1]$.<br /><br />(b) $R$ is reflexive, symmetric and transitive: so $R$ is an equivalence relation.<br /><br />(c) $f(x) = 0 \\implies 2\\tan^{-1}(x)=0 \\implies x=0$<br /><br />(d) Maximum of $f(x):$ $x=1$, $f(1) = 2\\tan^{-1}1 = \\pi/2$<br /><br />Minimum at $x=-1$, $f(-1) = 2\\tan^{-1}(-1) = -\\pi/2$<br /><br />Sum: $\\pi/2 + (-\\pi/2) = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=2\\tan^{-1}x$<br />(b) $R$ is an equivalence relation<br />(c) $x=0$<br />(d) Maximum value is $\\frac{\\pi}{2}$ at $x=1$, minimum value is $-\\frac{\\pi}{2}$ at $x=-1$, and the required sum is $0$",
+    "B": "(a) $f(x)=\\tan^{-1}x$<br />(b) $R$ is not reflexive<br />(c) $x=1$<br />(d) Required sum is $\\pi$",
+    "C": "(a) $f(x)=\\sin^{-1}x$<br />(b) $R$ is not symmetric<br />(c) $x=-1$<br />(d) Required sum is $-\\pi$",
+    "D": "(a) $f(x)=2\\cos^{-1}x$<br />(b) $R$ is not transitive<br />(c) $x=\\pm1$<br />(d) Required sum is $\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:48:03 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

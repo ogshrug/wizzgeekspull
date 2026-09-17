@@ -1,0 +1,30 @@
+{
+  "id": "69a9c969589ce36f368b48be",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A$ be a $3 \\times 3$ matrix such that $A' = -A$. Which of the following properties must be true for $A^3$?",
+  "answeroption": "B",
+  "explanation": "Given $A'= -A$ (so $A$ is skew symmetric). Recall: the transpose distributes over products and powers:<br /><br />$(A^3)' = (A A A )' = A' A' A' = (-A)(-A)(-A) = -A^3$<br /><br />So $A^3$ is also skew symmetric: $(A^3)' = -A^3$.<br /><br />Therefore, correct answer is (b) $A^3$ is skew symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^3$ is symmetric",
+    "B": "$A^3$ is skew symmetric",
+    "C": "$A^3$ is diagonal",
+    "D": "$A^3$ has zero trace"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:20:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

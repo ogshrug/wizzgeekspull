@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd505751910886affb9fc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "VSA",
+  "question": "A curve passes through $(0,1)$ and its slope at $(x,y)$ is $y+e^x$. Determine the equation of the curve.",
+  "answeroption": "C",
+  "explanation": "Step 1: The slope condition gives $\\frac{dy}{dx}=y+e^x$, or $\\frac{dy}{dx}-y=e^x$. This is a first-order linear differential equation.<br>Step 2: Here, $P=-1$, so the integrating factor is $e^{\\int-1\\,dx}=e^{-x}$.<br>Step 3: Multiplying throughout by $e^{-x}$ gives $\\frac{d}{dx}(ye^{-x})=1$. Integrating, $ye^{-x}=x+C$.<br>Step 4: The curve passes through $(0,1)$. Therefore, $1\\cdot e^0=0+C$, giving $C=1$.<br>Step 5: Hence, $ye^{-x}=x+1$, and multiplying by $e^x$ gives the required equation of the curve as $y=e^x(x+1)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=e^x(x-1)$",
+    "B": "$y=e^{-x}(x+1)$",
+    "C": "$y=e^x(x+1)$",
+    "D": "$y=e^x+x+1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

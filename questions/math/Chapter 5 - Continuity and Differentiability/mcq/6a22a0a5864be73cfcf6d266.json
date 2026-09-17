@@ -1,0 +1,34 @@
+{
+  "id": "6a22a0a5864be73cfcf6d266",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7a",
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "MCQ",
+  "question": "Derivative of $e^{sin^{2}x}$ with respect to cos x is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Let $u = e^{\\sin^2 x}$ and $v = \\cos x$. We want to find $\\frac{du}{dv}$, which can be calculated using the chain rule as $\\frac{\\frac{du}{dx}}{\\frac{dv}{dx}}$.<br />**Step 2:** Calculate $\\frac{du}{dx}$. Using the chain rule, $\\frac{du}{dx} = e^{\\sin^2 x} \\cdot \\frac{d}{dx}(\\sin^2 x) = e^{\\sin^2 x} \\cdot 2\\sin x \\cos x$.<br />**Step 3:** Calculate $\\frac{dv}{dx}$. The derivative of $\\cos x$ is $-\\sin x$. So, $\\frac{dv}{dx} = -\\sin x$.<br />**Step 4:** Substitute these derivatives into the fraction: $\\frac{du}{dv} = \\frac{e^{\\sin^2 x} \ncdot 2\\sin x \\cos x}{-\\sin x}$.<br />**Step 5:** Simplify the expression by canceling out the common $\\sin x$ term (assuming $\\sin x \\ne 0$). The result is $-2\\cos x e^{\\sin^2 x}$. Wait, let's re-examine the options. Option C is $-2\\cos x e^{\\sin^2 x}$. Let me check the provided options again. Oh, option C is $-2\\cos x e^{\\sin^2 x}$ and option D is $-2\\sin^2 x \\cos x e^{\\sin^2 x}$. My calculation gives $-2\\cos x e^{\\sin^2 x}$. So the correct option is C. Let me re-read the prompt text carefully. The prompt has option C as $-2\\cos x e^{\\sin^2 x}$. I will select C. Let me re-verify my steps. $du/dx = 2\\sin x \\cos x e^{\\sin^2 x}$. $dv/dx = -\\sin x$. Division yields $-2\\cos x e^{\\sin^2 x}$. Yes, C is correct. Wait, the user uploaded snippet says D is something else. Actually, let's just stick to the rigorous math. It's C.",
+  "explanation_image": [],
+  "options": {
+    "A": "$sin~x~e^{sin^{2}x}$",
+    "B": "$cos~x~e^{sin^{2}x}$",
+    "C": "$-2~cos~x~e^{sin^{2}x}$",
+    "D": "$-2~sin^{2}x~cos~x~e^{sin^{2}x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

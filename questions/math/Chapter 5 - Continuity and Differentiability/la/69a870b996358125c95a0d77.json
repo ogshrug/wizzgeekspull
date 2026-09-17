@@ -1,0 +1,32 @@
+{
+  "id": "69a870b996358125c95a0d77",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "LA",
+  "question": "Given $x^2 y^2 = \\sin^{-1} y$ for $|y| < 1$, use implicit differentiation and the chain rule to show that $\\frac{d^2y}{dx^2} = \\frac{2y^2 + 2x^2y\\frac{dy}{dx} - \\frac{y}{1-y^2}\\left(\\frac{dy}{dx}\\right)^2}{2x^2 y + \\frac{1}{\\sqrt{1-y^2}}}$ at a general point $(x, y)$.",
+  "answeroption": "C",
+  "explanation": "Differentiate both sides:<br />$2x y^2 + 2x^2 y \\frac{dy}{dx} = \\frac{1}{\\sqrt{1 - y^2}} \\frac{dy}{dx}$<br /><br />Solve for $\\frac{dy}{dx}$:<br />$\\frac{dy}{dx} = \\frac{2x y^2}{\\frac{1}{\\sqrt{1-y^2}} - 2x^2 y}$<br /><br />Let $A = 2x y^2$, $B = \\frac{1}{\\sqrt{1-y^2}} - 2x^2 y$<br />Then $\\frac{dy}{dx} = \\frac{A}{B}$<br /><br />Differentiate again using quotient rule:<br />$\\frac{d^2y}{dx^2} = \\frac{B \\frac{dA}{dx} - A \\frac{dB}{dx}}{B^2}$<br /><br />Compute derivatives and simplify to obtain:<br />$\\frac{d^2y}{dx^2} = \\frac{2y^2 + 2x^2y\\frac{dy}{dx} - \\frac{y}{1-y^2}\\left(\\frac{dy}{dx}\\right)^2}{2x^2 y + \\frac{1}{\\sqrt{1-y^2}}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}=\\frac{2y^2-2x^2y\\frac{dy}{dx}+\\frac{y}{1-y^2}\\left(\\frac{dy}{dx}\\right)^2}{2x^2y-\\frac{1}{\\sqrt{1-y^2}}}$",
+    "B": "$\\frac{d^2y}{dx^2}=\\frac{2xy+2x^2\\frac{dy}{dx}}{\\sqrt{1-y^2}}$",
+    "C": "$\\frac{d^2y}{dx^2}=\\frac{2y^2+2x^2y\\frac{dy}{dx}-\\frac{y}{1-y^2}\\left(\\frac{dy}{dx}\\right)^2}{2x^2y+\\frac{1}{\\sqrt{1-y^2}}}$",
+    "D": "$\\frac{d^2y}{dx^2}=\\frac{2x y^2}{\\frac{1}{\\sqrt{1-y^2}}-2x^2y}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:49:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

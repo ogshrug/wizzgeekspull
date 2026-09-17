@@ -1,0 +1,28 @@
+{
+  "id": "6a2166dc91ff8b4d456109a3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "VSA",
+  "question": "Let two rods placed on the ground be represented by vectors $4\\hat{i}-\\hat{j}+3\\hat{k}$ and $-2\\hat{i}+\\hat{j}-2\\hat{k}$. Find a vector representing a flag-post of height 5 m that has to be erected perpendicular to both the rods.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Represent the rods as vectors $\\vec{u} = 4\\hat{i}-\\hat{j}+3\\hat{k}$ and $\\vec{v} = -2\\hat{i}+\\hat{j}-2\\hat{k}$. A direction perpendicular to both rods can be found by calculating their cross product vector $\\vec{u} \\times \\vec{v}$.<br /><br /><b>Step 2</b> Set up and expand the vector cross product determinant: $\\vec{u} \\times \\vec{v} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 4 & -1 & 3 \\\\ -2 & 1 & -2 \\end{vmatrix} = \\hat{i}(2 - 3) - \\hat{j}(-8 - (-6)) + \\hat{k}(4 - 2) = -\\hat{i} + 2\\hat{j} + 2\\hat{k}$.<br /><br /><b>Step 3</b> Compute the magnitude of this cross product vector: $|\\vec{u} \\times \\vec{v}| = \\sqrt{(-1)^2 + 2^2 + 2^2} = \\sqrt{1 + 4 + 4} = 3$.<br /><br /><b>Step 4</b> Find the unit normal vector $\\hat{n}$ by dividing the cross product vector by its magnitude: $\\hat{n} = \\frac{-\\hat{i} + 2\\hat{j} + 2\\hat{k}}{3}$.<br /><br /><b>Step 5</b> Construct the final flag-post vector by scaling this unit normal vector by the required height of $5\\text{ m}$: $\\vec{F} = 5\\hat{n} = \\frac{5}{3}(-\\hat{i} + 2\\hat{j} + 2\\hat{k})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

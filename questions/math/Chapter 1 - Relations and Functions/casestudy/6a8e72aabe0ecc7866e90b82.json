@@ -1,0 +1,32 @@
+{
+  "id": "6a8e72aabe0ecc7866e90b82",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics club considers the set $A=\\{0,1,2,3,4,5,6,7,8,9,10,11\\}$. The students define a relation $R$ on $A$ by saying that $aRb$ whenever $a-b$ is divisible by $4$. They want to use the relation to organise the elements of $A$ into groups whose members have the same remainder when divided by $4$. Before accepting this grouping, they investigate whether the relation satisfies the standard properties required of an equivalence relation. All conclusions must be justified directly from the definition of $R$.<br><br><b>(a)</b> Find all elements of $A$ that are related to $2$.<br><br><b>(b)</b> Verify that $R$ is reflexive.<br><br><b>(c)</b> Verify that $R$ is symmetric.<br><br><b>(d)</b> Show that $R$ is transitive and hence determine whether $R$ is an equivalence relation.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>An element $x\\in A$ is related to $2$ when $x-2$ is divisible by $4$. The elements satisfying this condition are $2,6$ and $10$, since $2-2=0$, $6-2=4$ and $10-2=8$. Therefore, the elements related to $2$ are $\\{2,6,10\\}$.<br><br><b>(b)</b><br>For any $a\\in A$, we have $a-a=0$. Since $0$ is divisible by $4$, $(a,a)\\in R$ for every $a\\in A$. Therefore, $R$ is reflexive.<br><br><b>(c)</b><br>Suppose $(a,b)\\in R$. Then $a-b$ is divisible by $4$, so $a-b=4k$ for some integer $k$. Hence $b-a=-4k=4(-k)$, which is also divisible by $4$. Therefore, $(b,a)\\in R$, and $R$ is symmetric.<br><br><b>(d)</b><br>Suppose $(a,b)\\in R$ and $(b,c)\\in R$. Then $a-b=4m$ and $b-c=4n$ for some integers $m$ and $n$. Adding, $a-c=(a-b)+(b-c)=4(m+n)$. Thus $a-c$ is divisible by $4$, so $(a,c)\\in R$. Hence $R$ is transitive. Since $R$ is reflexive, symmetric and transitive, $R$ is an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "The elements related to $2$ are $\\{0,4,8\\}$; $R$ is reflexive and transitive but not symmetric, so it is not an equivalence relation.",
+    "B": "The elements related to $2$ are $\\{2,6,10\\}$; $R$ is reflexive and symmetric but not transitive, so it is not an equivalence relation.",
+    "C": "The elements related to $2$ are $\\{1,5,9\\}$; $R$ is symmetric and transitive but not reflexive, so it is not an equivalence relation.",
+    "D": "The elements related to $2$ are $\\{2,6,10\\}$; $R$ is reflexive, symmetric and transitive, so it is an equivalence relation."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

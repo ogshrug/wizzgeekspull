@@ -1,0 +1,29 @@
+{
+  "id": "69a9735962be6a70cd184daf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Case Study:<br /><br />A binary relation $R$ is defined on the power set of $A = \\{1,2,3\\}$ by $ARB$ if and only if $|A| = |B|$ (cardinalities are equal).<br /><br />(a) List all equivalence classes of $R$.<br /><br />(b) How many elements are there in each equivalence class?",
+  "answeroption": "D",
+  "explanation": "(a) Power set of $A$ has $2^3 = 8$ subsets:<br /><br />$\\emptyset, \\{1\\}, \\{2\\}, \\{3\\}, \\{1,2\\}, \\{1,3\\}, \\{2,3\\}, \\{1,2,3\\}$.<br /><br />Equivalence classes by set size:<br /><br />Size 0: $\\{\\emptyset\\}$<br /><br />Size 1: $\\{\\{1\\}, \\{2\\}, \\{3\\}\\}$<br /><br />Size 2: $\\{\\{1,2\\}, \\{1,3\\}, \\{2,3\\}\\}$<br /><br />Size 3: $\\{\\{1,2,3\\}\\}$<br /><br />(b) Number of elements in each class:<br /><br />Size 0: 1<br /><br />Size 1: 3<br /><br />Size 2: 3<br /><br />Size 3: 1",
+  "explanation_image": [],
+  "options": {
+    "A": "There are $3$ equivalence classes with $1,2,3$ elements respectively",
+    "B": "There is only one equivalence class containing all subsets of $A$",
+    "C": "There are $8$ equivalence classes, each containing one subset",
+    "D": "The equivalence classes are by sizes $0,1,2,3$ with numbers of elements $1,3,3,1$ respectively"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:13:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

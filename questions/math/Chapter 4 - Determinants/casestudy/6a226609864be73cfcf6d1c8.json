@@ -1,0 +1,28 @@
+{
+  "id": "6a226609864be73cfcf6d1c8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Three students, Neha, Rani and Sam go to a market to purchase stationery items. Neha buys 4 pens, 3 notepads and 2 erasers and pays ₹ 60. Rani buys 2 pens, 4 notepads and 6 erasers for ₹ 90. Sam pays ₹ 70 for 6 pens, 2 notepads and 3 erasers. Based upon the above information, answer the following questions :<br /><br />**(i)** Form the equations required to solve the problem of finding the price of each item, and express it in the matrix form $AX=B$<br />**(ii)** Find $|A|$ and confirm if it is possible to find $A^{-1}$<br />**(iii) (a)** Find $A^{-1}$, if possible, and write the formula to find $X$.<br />OR<br />**(iii) (b)** Find $A^{2}-8I$ where $I$ is an identity matrix.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Let the cost of one pen be $x$, one notepad be $y$, and one eraser be $z$. Construct linear equations based on the purchases.<br />**Step 2:** Neha's purchase gives: $4x + 3y + 2z = 60$. Rani's gives: $2x + 4y + 6z = 90$. Sam's gives: $6x + 2y + 3z = 70$.<br />**Step 3:** Translate these into the matrix equation $AX=B$: $\\begin{bmatrix}4&3&2\\\\2&4&6\\\\6&2&3\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix} = \\begin{bmatrix}60\\\\90\\\\70\\end{bmatrix}$.<br /><br />**(ii)** **Step 1:** Calculate the determinant of the coefficient matrix $A$.<br />**Step 2:** Expanding along the first row: $|A| = 4(12 - 12) - 3(6 - 36) + 2(4 - 24)$.<br />**Step 3:** Simplify: $0 - 3(-30) + 2(-20) = 90 - 40 = 50$.<br />**Step 4:** Since $|A| = 50 \\ne 0$, matrix $A$ is non-singular. Thus, finding the inverse matrix $A^{-1}$ is mathematically possible.<br /><br />**(iii) (a)** **Step 1:** The formula to find the solution vector $X$ is $X = A^{-1}B$. Find the cofactors of $A$ to build the adjoint matrix. $C_{11}=0, C_{12}=30, C_{13}=-20$; $C_{21}=-5, C_{22}=0, C_{23}=10$; $C_{31}=10, C_{32}=-20, C_{33}=10$.<br />**Step 2:** Construct the adjoint matrix by transposing the cofactor matrix: $\\text{adj}(A) = \\begin{bmatrix}0&-5&10\\\\30&0&-20\\\\-20&10&10\\end{bmatrix}$.<br />**Step 3:** Compute $A^{-1} = \\frac{1}{|A|}\\text{adj}(A) = \\frac{1}{50}\\begin{bmatrix}0&-5&10\\\\30&0&-20\\\\-20&10&10\\end{bmatrix}$.<br /><br />**(iii) (b)** **Step 1:** Calculate $A^2$ by multiplying matrix $A$ with itself: $\\begin{bmatrix}4&3&2\\\\2&4&6\\\\6&2&3\\end{bmatrix} \\begin{bmatrix}4&3&2\\\\2&4&6\\\\6&2&3\\end{bmatrix}$.<br />**Step 2:** Compute elements: $c_{11} = 16+6+12=34$, $c_{12}=12+12+4=28$, $c_{13}=8+18+6=32$. $c_{21}=8+8+36=52$, $c_{22}=6+16+12=34$, $c_{23}=4+24+18=46$. $c_{31}=24+4+18=46$, $c_{32}=18+8+6=32$, $c_{33}=12+12+9=33$.<br />**Step 3:** Calculate $A^2 - 8I = \\begin{bmatrix}34&28&32\\\\52&34&46\\\\46&32&33\\end{bmatrix} - \\begin{bmatrix}8&0&0\\\\0&8&0\\\\0&0&8\\end{bmatrix} = \\begin{bmatrix}26&28&32\\\\52&26&46\\\\46&32&25\\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

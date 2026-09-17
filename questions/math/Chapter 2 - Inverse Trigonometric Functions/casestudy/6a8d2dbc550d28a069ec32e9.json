@@ -1,0 +1,31 @@
+{
+  "id": "6a8d2dbc550d28a069ec32e9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A graphing exercise considers $h(x)=\\sec^{-1}(2x)$ under the convention that the principal range of $\\sec^{-1}x$ is $[0,\\pi]-\\left\\{\\frac{\\pi}{2}\\right\\}$. The input of an inverse secant function must have absolute value at least $1$. Consequently, the graph of $h$ consists of two separated branches rather than one continuous curve over all real numbers. Students are asked to connect the restriction on the input with the endpoints, range, and location of these branches.<br><br><b>(a)</b> Determine the domain of $h$.<br><br><b>(b)</b> State the range of $h$.<br><br><b>(c)</b> Find the values of $h\\left(-\\frac{1}{2}\\right)$, $h\\left(\\frac{1}{2}\\right)$, and $h(1)$.<br><br><b>(d)</b> Describe the two branches of the graph and explain why the graph has no point with ordinate $\\frac{\\pi}{2}$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>For $\\sec^{-1}u$ to be defined, $|u|\\geq1$. Here $u=2x$, so $|2x|\\geq1$, giving $|x|\\geq\\frac{1}{2}$. Hence, the domain is $$\\left(-\\infty,-\\frac{1}{2}\\right]\\cup\\left[\\frac{1}{2},\\infty\\right)$$<br><br><b>(b)</b><br>The complete admissible input set of $\\sec^{-1}$ is obtained because $2x$ assumes every value in $(-\\infty,-1]\\cup[1,\\infty)$. Therefore, the range is $$[0,\\pi]-\\left\\{\\frac{\\pi}{2}\\right\\}$$<br><br><b>(c)</b><br>Using principal values, $h\\left(-\\frac{1}{2}\\right)=\\sec^{-1}(-1)=\\pi$ and $h\\left(\\frac{1}{2}\\right)=\\sec^{-1}(1)=0$. Also, $h(1)=\\sec^{-1}(2)=\\frac{\\pi}{3}$ because $\\sec\\frac{\\pi}{3}=2$.<br><br><b>(d)</b><br>The negative branch is defined for $x\\leq-\\frac{1}{2}$ and ends at $\\left(-\\frac{1}{2},\\pi\\right)$. The positive branch begins at $\\left(\\frac{1}{2},0\\right)$ and includes $\\left(1,\\frac{\\pi}{3}\\right)$. No graph point has ordinate $\\frac{\\pi}{2}$ because $\\sec\\frac{\\pi}{2}$ is undefined, so $\\frac{\\pi}{2}$ is excluded from the principal range.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain: $\\left[-\\dfrac{1}{2},\\dfrac{1}{2}\\right]$<br><br>(b) Range: $[0,\\pi]$<br><br>(c) $h\\left(-\\dfrac{1}{2}\\right)=0$, $h\\left(\\dfrac{1}{2}\\right)=\\pi$, and $h(1)=\\dfrac{2\\pi}{3}$<br><br>(d) The graph has one continuous branch and includes the ordinate $\\dfrac{\\pi}{2}$",
+    "B": "(a) Domain: $(-\\infty,-1]\\cup[1,\\infty)$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$<br><br>(c) $h\\left(-\\dfrac{1}{2}\\right)$ and $h\\left(\\dfrac{1}{2}\\right)$ are undefined, while $h(1)=\\dfrac{\\pi}{3}$<br><br>(d) The branches begin at $x=-1$ and $x=1$",
+    "C": "(a) Domain: $\\left(-\\infty,-\\dfrac{1}{2}\\right)\\cup\\left(\\dfrac{1}{2},\\infty\\right)$<br><br>(b) Range: $(0,\\pi)-\\left\\{\\dfrac{\\pi}{2}\\right\\}$<br><br>(c) $h\\left(-\\dfrac{1}{2}\\right)$ and $h\\left(\\dfrac{1}{2}\\right)$ are undefined, while $h(1)=\\dfrac{\\pi}{3}$<br><br>(d) Both branch endpoints are excluded because the arguments $-1$ and $1$ are not permitted",
+    "D": "(a) Domain: $\\left(-\\infty,-\\dfrac{1}{2}\\right]\\cup\\left[\\dfrac{1}{2},\\infty\\right)$<br><br>(b) Range: $[0,\\pi]-\\left\\{\\dfrac{\\pi}{2}\\right\\}$<br><br>(c) $h\\left(-\\dfrac{1}{2}\\right)=\\pi$, $h\\left(\\dfrac{1}{2}\\right)=0$, and $h(1)=\\dfrac{\\pi}{3}$<br><br>(d) The negative branch ends at $\\left(-\\dfrac{1}{2},\\pi\\right)$, the positive branch begins at $\\left(\\dfrac{1}{2},0\\right)$, and $\\dfrac{\\pi}{2}$ is excluded because $\\sec\\dfrac{\\pi}{2}$ is undefined"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

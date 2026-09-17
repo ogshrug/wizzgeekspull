@@ -1,0 +1,27 @@
+{
+  "id": "6a3238c7d5dca7dcb0bf0e87",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6",
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the image of the point $(2,-1,5)$ in the line $\\frac{x-11}{10}=\\frac{y+2}{-4}=\\frac{z+8}{-11}$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Parametric Form of the Line**  \nLet the line be written in parametric form using parameter $\\lambda$:  \n$$\\frac{x-11}{10} = \\frac{y+2}{-4} = \\frac{z+8}{-11} = \\lambda$$  \nSo, any point Q on the line is:  \n$$Q = (10\\lambda + 11, -4\\lambda - 2, -11\\lambda - 8)$$\n\n**Step 2: Direction Ratios of PQ**  \nLet P = (2, -1, 5). The direction ratios of PQ are:  \n$$PQ = (10\\lambda + 11 - 2, -4\\lambda - 2 - (-1), -11\\lambda - 8 - 5)$$  \n$$= (10\\lambda + 9, -4\\lambda - 1, -11\\lambda - 13)$$\n\n**Step 3: Apply Perpendicularity Condition**  \nSince PQ is perpendicular to the line, the dot product of PQ with the line's direction ratios (10, -4, -11) must be zero:  \n$$10(10\\lambda + 9) + (-4)(-4\\lambda - 1) + (-11)(-11\\lambda - 13) = 0$$  \n$$100\\lambda + 90 + 16\\lambda + 4 + 121\\lambda + 143 = 0$$  \n$$237\\lambda + 237 = 0 \\Rightarrow \\lambda = -1$$\n\n**Step 4: Find the Foot of Perpendicular Q**  \nSubstitute $\\lambda = -1$ into Q:  \n$$Q = (10(-1) + 11, -4(-1) - 2, -11(-1) - 8)$$  \n$$Q = (-10 + 11, 4 - 2, 11 - 8) = (1, 2, 3)$$\n\n**Step 5: Find the Image Point P'**  \nSince Q is the midpoint of P and its image P', we have:  \n$$Q = \\frac{P + P'}{2} \\Rightarrow P' = 2Q - P$$  \n$$P' = 2(1, 2, 3) - (2, -1, 5) = (2, 4, 6) - (2, -1, 5) = (0, 5, 1)$$  \nThus, the image of point P in the given line is $(0, 5, 1)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

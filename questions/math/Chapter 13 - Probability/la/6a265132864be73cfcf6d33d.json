@@ -1,0 +1,26 @@
+{
+  "id": "6a265132864be73cfcf6d33d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "LA",
+  "question": "Three persons A, B and C apply for a job of manager in a private company. Chances of their selection are in the ratio 1: 2: 4. The probability that A, B and C can introduce changes to increase the profits of a company are 0.8, 0.5 and 0.3 respectively. If increase in the profit does not take place, find the probability that it is due to the appointment of A.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Define the base events for selection. Let $E_1, E_2, E_3$ be the events that candidates A, B, and C are selected, respectively. Their selection chances are in the ratio $1:2:4$, so total shares = $1+2+4=7$. The prior probabilities are $P(E_1) = \\frac{1}{7}$, $P(E_2) = \\frac{2}{7}$, and $P(E_3) = \\frac{4}{7}$. Let $E$ be the event that an increase in profit does not take place.<br />**Step 2:** Identify conditional probabilities for profit increase and compute their complements (no increase). The probabilities that they increase profit are given as $0.8, 0.5, 0.3$. Therefore, the conditional probabilities for no profit increase are: $P(E|E_1) = 1 - 0.8 = 0.2 = \\frac{2}{10}$, $P(E|E_2) = 1 - 0.5 = 0.5 = \\frac{5}{10}$, and $P(E|E_3) = 1 - 0.3 = 0.7 = \\frac{7}{10}$.<br />**Step 3:** We need to evaluate the posterior probability that A was appointed given that profit did not increase, which is $P(E_1|E)$. Applying Bayes' Theorem: $P(E_1|E) = \\frac{P(E_1) \\cdot P(E|E_1)}{P(E_1) \\cdot P(E|E_1) + P(E_2) \\cdot P(E|E_2) + P(E_3) \\cdot P(E|E_3)}$. Substitute our values into this formula: $P(E_1|E) = \\frac{\\frac{1}{7} \\cdot \\frac{2}{10}}{\\left(\\frac{1}{7} \\cdot \\frac{2}{10}\\right) + \\left(\\frac{2}{7} \\cdot \\frac{5}{10}\\right) + \\left(\\frac{4}{7} \\cdot \\frac{7}{10}\\right)}$.<br />**Step 4:** Simplify the expression by canceling the common denominator factor of $7 \\times 10 = 70$ across all terms: $P(E_1|E) = \\frac{2}{2 + 10 + 28} = \\frac{2}{40} = \\frac{1}{20}$. Thus, the final required probability value is $\\frac{1}{20}$ (or 0.05).",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

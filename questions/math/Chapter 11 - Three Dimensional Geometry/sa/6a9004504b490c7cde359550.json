@@ -1,0 +1,29 @@
+{
+  "id": "6a9004504b490c7cde359550",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "SA",
+  "question": "A plane passes through the point $P(1,-2,3)$ and is perpendicular to the vector $2\\hat{i}+\\hat{j}-2\\hat{k}$.<br>(i) Obtain its vector equation.<br>(ii) Hence obtain its Cartesian equation.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Position and normal vectors</b><br>The position vector of $P(1,-2,3)$ is<br>$$\\vec{a}=\\hat{i}-2\\hat{j}+3\\hat{k},$$<br>and a normal vector to the plane is<br>$$\\vec{N}=2\\hat{i}+\\hat{j}-2\\hat{k}.$$<br><b>Step 2: Point-normal form of the plane</b><br>A plane through a point with position vector $\\vec{a}$ and perpendicular to $\\vec{N}$ satisfies<br>$$\\vec{N}\\cdot(\\vec{r}-\\vec{a})=0.$$<br><b>Step 3: Vector equation</b><br>Since $\\vec{a}\\cdot\\vec{N}=2-2-6=-6$, the vector equation becomes<br>$$\\vec{r}\\cdot(2\\hat{i}+\\hat{j}-2\\hat{k})=-6.$$<br><b>Step 4: Cartesian conversion</b><br>Putting $\\vec{r}=x\\hat{i}+y\\hat{j}+z\\hat{k}$ gives<br>$$2x+y-2z=-6.$$<br><b>Step 5: Final result</b><br>Thus, the vector equation is $\\vec{r}\\cdot(2\\hat{i}+\\hat{j}-2\\hat{k})=-6$, and the Cartesian equation is<br>$$2x+y-2z+6=0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $\\vec r\\cdot(2\\hat i+\\hat j-2\\hat k)=6$<br>(ii) $2x+y-2z-6=0$",
+    "B": "(i) $\\vec r\\cdot(2\\hat i+\\hat j-2\\hat k)=-6$<br>(ii) $2x+y-2z+6=0$",
+    "C": "(i) $\\vec r\\cdot(2\\hat i-\\hat j-2\\hat k)=-6$<br>(ii) $2x-y-2z+6=0$",
+    "D": "(i) $\\vec r\\cdot(2\\hat i+\\hat j+2\\hat k)=-6$<br>(ii) $2x+y+2z+6=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a9a81c589ce36f368b4854",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e766d837c8c7efa6b8bc"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\vec{a}$ and $\\vec{b}$ be non-zero, non-parallel vectors. Find the locus of all points $P$ with position vector $\\vec{r}$ such that the area of triangle $OAP$ (with $O$ as origin and $A$ with position vector $\\vec{a}$) is twice the area of triangle $OBP$ (with $B$ having position vector $\\vec{b}$), and $P$ lies in the plane of $OAB$.",
+  "answeroption": "A",
+  "explanation": "Area of $OAP = \\dfrac{1}{2}|\\vec{a} \\times \\vec{r}|$<br /><br />Area of $OBP = \\dfrac{1}{2}|\\vec{b} \\times \\vec{r}|$<br /><br />Given: $\\dfrac{1}{2}|\\vec{a} \\times \\vec{r}| = 2 \\times \\dfrac{1}{2}|\\vec{b} \\times \\vec{r}|$<br /><br />$|\\vec{a} \\times \\vec{r}| = 2|\\vec{b} \\times \\vec{r}|$<br /><br />Since $P$ is in the plane $OAB$, $\\vec{r} = \\lambda \\vec{a} + \\mu \\vec{b}$<br /><br />Compute $\\vec{a} \\times \\vec{r}$:<br /><br />$\\vec{a} \\times (\\lambda \\vec{a} + \\mu \\vec{b}) = \\lambda \\vec{a} \\times \\vec{a} + \\mu \\vec{a} \\times \\vec{b}$<br /><br />$= 0 + \\mu (\\vec{a} \\times \\vec{b}) = \\mu (\\vec{a} \\times \\vec{b})$<br /><br />Similarly, $\\vec{b} \\times \\vec{r} = \\lambda (\\vec{b} \\times \\vec{a}) + \\mu (\\vec{b} \\times \\vec{b}) = \\lambda (-\\vec{a} \\times \\vec{b}) + 0 = -\\lambda (\\vec{a} \\times \\vec{b})$<br /><br />Therefore, $|\\vec{a} \\times \\vec{r}| = |\\mu| |\\vec{a} \\times \\vec{b}|$, $|\\vec{b} \\times \\vec{r}| = |\\lambda||\\vec{a} \\times \\vec{b}|$<br /><br />So,<br /><br />$|\\mu| |\\vec{a} \\times \\vec{b}| = 2|\\lambda||\\vec{a} \\times \\vec{b}|$<br /><br />$|\\mu| = 2|\\lambda|$<br /><br />So, possible values are $\\mu = 2\\lambda$ or $\\mu = -2\\lambda$.<br /><br />Thus,<br /><br />$\\vec{r} = \\lambda \\vec{a} + 2\\lambda \\vec{b}$ or $\\vec{r} = \\lambda \\vec{a} - 2\\lambda \\vec{b}$, $\\lambda \\in \\mathbb{R}$<br /><br />Discard solution $\\lambda = 0$ gives $\\vec{r} = \\vec{0}$ (the origin), which is a valid point.<br /><br />So the locus is the union of the two straight lines through the origin with direction vectors $\\vec{a} + 2\\vec{b}$ and $\\vec{a} - 2\\vec{b}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The locus is the union of two straight lines through the origin with direction vectors $\\vec{a}+2\\vec{b}$ and $\\vec{a}-2\\vec{b}$.",
+    "B": "The locus is a single straight line through the origin with direction vector $\\vec{a}+\\vec{b}$.",
+    "C": "The locus is a circle in the plane of $OAB$ with centre at the origin.",
+    "D": "The locus is the union of two straight lines with direction vectors $2\\vec{a}+\\vec{b}$ and $2\\vec{a}-\\vec{b}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:58:20 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

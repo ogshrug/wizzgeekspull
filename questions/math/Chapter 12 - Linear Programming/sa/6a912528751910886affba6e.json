@@ -1,0 +1,29 @@
+{
+  "id": "6a912528751910886affba6e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8de"
+  ],
+  "question_type": "SA",
+  "question": "Consider the feasible region corresponding to $3x+y\\leq15$, $x+2y\\leq10$, $x\\geq0$ and $y\\geq0$. Establish, without drawing a graph, that the feasible region is bounded by obtaining finite upper bounds for both $x$ and $y$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Obtaining an upper bound for $x$</b><br>From $$3x+y\\leq15$$ and $y\\geq0$, we have $3x\\leq15$. Therefore, $$0\\leq x\\leq5$$<br><b>Step 2: Obtaining an upper bound for $y$</b><br>From $$x+2y\\leq10$$ and $x\\geq0$, we get $2y\\leq10$. Hence, $$0\\leq y\\leq5$$<br><b>Step 3: Restricting all feasible points</b><br>Every feasible point therefore satisfies $$0\\leq x\\leq5,\\quad0\\leq y\\leq5$$ Thus, the feasible region lies completely inside a square of finite dimensions.<br><b>Step 4: Applying the bounded-region criterion</b><br>Since this square, and consequently the feasible region contained in it, can be enclosed within a circle, the region cannot extend indefinitely in any direction.<br><b>Step 5: Conclusion</b><br>Hence, the feasible region determined by the given inequalities is bounded.",
+  "explanation_image": [],
+  "options": {
+    "A": "The region is unbounded because $x$ and $y$ have no upper bounds",
+    "B": "The region is bounded because $0\\leq x\\leq5$ and $0\\leq y\\leq5$",
+    "C": "The region is bounded because $0\\leq x\\leq15$ and $0\\leq y\\leq10$",
+    "D": "The region is infeasible because the two inequalities cannot hold together"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

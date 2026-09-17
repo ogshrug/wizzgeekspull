@@ -1,0 +1,572 @@
+[
+  {
+    "id": "6a912075751910886affba5c",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "VSA",
+    "question": "The constraints of a linear programming problem are $x+y \\ge 5$, $x \\ge 0$ and $y \\ge 0$. Determine whether the corresponding feasible region is bounded or unbounded.",
+    "options": {
+      "A": "The feasible region is bounded",
+      "B": "The feasible region is infeasible",
+      "C": "The feasible region is unbounded",
+      "D": "The feasible region consists only of points on $x+y=5$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91a9164fcf4cdd5b4bb12",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "AR",
+    "question": "Assertion (A): In the case of an unbounded feasible region, the mere existence of corner points does not guarantee the existence of a maximum or minimum value for the objective function.<br /><br />Reason (R): In such cases, we need to check if the value at the corner point is a true optimal value by ensuring that the corresponding open half-plane (based on the inequality for maximisation or minimisation) does not intersect the feasible region further.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a9128792e54880055a0a77d",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "LA",
+    "question": "A workshop manufactures two products P and Q. One unit of P requires 2 hours on machine A and 1 hour on machine B, while one unit of Q requires 1 hour on machine A and 2 hours on machine B. Machine A is available for at most 10 hours and machine B for at most 8 hours per day. The profit is Rs 300 on each unit of P and Rs 400 on each unit of Q. Formulate the linear programming problem and determine graphically the daily production plan that maximises the profit, together with the maximum profit.",
+    "options": {
+      "A": "Maximise $Z=300x+400y$ subject to $2x+y\\leq10$, $x+2y\\leq8$, $x\\geq0$, $y\\geq0$; optimal plan $(4,2)$ with maximum profit Rs $2000$",
+      "B": "Maximise $Z=400x+300y$ subject to $2x+y\\leq10$, $x+2y\\leq8$, $x\\geq0$, $y\\geq0$; optimal plan $(4,2)$ with maximum profit Rs $2200$",
+      "C": "Maximise $Z=300x+400y$ subject to $x+2y\\leq10$, $2x+y\\leq8$, $x\\geq0$, $y\\geq0$; optimal plan $(2,4)$ with maximum profit Rs $2200$",
+      "D": "Minimise $Z=300x+400y$ subject to $2x+y\\leq10$, $x+2y\\leq8$, $x\\geq0$, $y\\geq0$; optimal plan $(0,0)$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a912075751910886affba60",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "VSA",
+    "question": "For the restrictions $x \\ge 1$, $y \\ge 2$ and $x+y \\le k$, find the least value of $k$ for which a non-empty bounded feasible region exists.",
+    "options": {
+      "A": "$k=2$",
+      "B": "$k=3$",
+      "C": "$k=4$",
+      "D": "$k=5$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a9123f32e54880055a0a770",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "SA",
+    "question": "A transport agency uses two types of vehicles $A$ and $B$. The operating cost per trip is ₹$40$ for vehicle $A$ and ₹$55$ for vehicle $B$. Let $x$ and $y$ represent the numbers of trips made by vehicles $A$ and $B$, respectively.<br>(i) Express the total operating cost as an objective function to be minimised.<br>(ii) Find its value for the trip plans $(25,15)$ and $(20,20)$ and determine which plan has the lower cost.",
+    "options": {
+      "A": "(i) Minimise $Z=40x+55y$<br>(ii) ₹$1825$ for $(25,15)$ and ₹$1900$ for $(20,20)$; $(25,15)$ has the lower cost",
+      "B": "(i) Maximise $Z=40x+55y$<br>(ii) ₹$1825$ for $(25,15)$ and ₹$1900$ for $(20,20)$; $(20,20)$ has the lower cost",
+      "C": "(i) Minimise $Z=55x+40y$<br>(ii) ₹$1975$ for $(25,15)$ and ₹$1900$ for $(20,20)$; $(20,20)$ has the lower cost",
+      "D": "(i) Minimise $Z=40x+55y$<br>(ii) ₹$1900$ for $(25,15)$ and ₹$1825$ for $(20,20)$; $(20,20)$ has the lower cost"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a91313abe0ecc7866e90cd9",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "LA",
+    "question": "A linear programming problem has the constraints $x+y=6$, $x+2y\\le10$, $2x+y\\le10$, $x\\ge0$ and $y\\ge0$. Representing a point satisfying $x+y=6$ as $P(t,6-t)$, determine all values of $t$ for which $P$ is a feasible solution and hence obtain the optimal feasible solution that maximises $Z=2x+5y$.",
+    "options": {
+      "A": "$0\\leq t\\leq4$; maximum $Z=24$ at $(2,4)$",
+      "B": "$2\\leq t\\leq6$; maximum $Z=18$ at $(4,2)$",
+      "C": "$2\\leq t\\leq4$; maximum $Z=18$ at $(4,2)$",
+      "D": "$2\\leq t\\leq4$; maximum $Z=24$ at $(2,4)$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91f1996358125c95a0da4",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "MCQ",
+    "question": "In a manufacturing problem, which of the following is most likely to be a constraint?",
+    "options": {
+      "A": "The total profit",
+      "B": "Maximum demand for products",
+      "C": "Number of machines owned by the factory",
+      "D": "The objective function"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91da6575fa42e09444844",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "LA",
+    "question": "A bicycle manufacturer makes frames and wheels, using steel and machine hours. Each frame needs 3 kg steel and 1 hour, each wheel needs 2 kg steel and 0.5 hour. Weekly limits: 180 kg steel, 60 hours. Maximum 40 frames due to demand. Each frame gets ₹400 profit, each wheel ₹150. Find the production plan for maximum profit and check if alternate optima are present.",
+    "options": {
+      "A": "Produce 0 frames and 90 wheels; maximum profit ₹13,500; no alternate optima.",
+      "B": "Produce 40 frames and 0 wheels; maximum profit ₹16,000; no alternate optima.",
+      "C": "Produce 60 frames and 0 wheels; maximum profit ₹24,000; alternate optima exist.",
+      "D": "Produce 40 frames and 30 wheels; maximum profit ₹20,500; no alternate optima."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91e79575fa42e0944484d",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "LA",
+    "question": "A dietician wishes to mix two types of foods $F_1$ and $F_2$ in such a way that the mixture contains at least 60 units of protein and at least 48 units of calcium. $F_1$ contains 3 units of protein and 4 units of calcium per kg. $F_2$ contains 5 units of protein and 2 units of calcium per kg. The cost per kg of $F_1$ is Rs 50 and $F_2$ is Rs 70. Formulate the LPP to minimize cost, graph the feasible region, identify the corner points, and find the minimum cost.",
+    "options": {
+      "A": "Use 0 kg of $F_1$ and 24 kg of $F_2$; minimum cost Rs 1680.",
+      "B": "Use 20 kg of $F_1$ and 0 kg of $F_2$; minimum cost Rs 1000.",
+      "C": "Use $\\frac{60}{7}$ kg of $F_1$ and $\\frac{48}{7}$ kg of $F_2$; minimum cost approximately Rs 908.57.",
+      "D": "Use $\\frac{48}{7}$ kg of $F_1$ and $\\frac{60}{7}$ kg of $F_2$; minimum cost approximately Rs 944.29."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91a9164fcf4cdd5b4bb14",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "AR",
+    "question": "Assertion (A): If the feasible region is empty, the LPP has no feasible solution.<br /><br />Reason (R): A solution is called feasible only if it satisfies all the constraints of the LPP.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a92396b4df445c7f648cb8",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "LA",
+    "question": "A company makes two products A and B. Each unit of product A requires 2 hours in machine I and 1 hour in machine II. Each unit of B requires 1 hour in machine I and 2 hours in machine II. Machine I is available for at most 10 hours per day and Machine II is available for at most 8 hours per day. The profit on each unit of A is Rs 30 and on B is Rs 50. Formulate the LPP, graph the feasible region, find all corner points, and determine the production plan for maximum profit.",
+    "options": {
+      "A": "Produce 4 units of A and 2 units of B; maximum profit Rs 220",
+      "B": "Produce 0 units of A and 4 units of B; maximum profit Rs 200",
+      "C": "Produce 5 units of A and 0 units of B; maximum profit Rs 150",
+      "D": "Produce 0 units of A and 0 units of B; maximum profit Rs 0"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91f1996358125c95a0da5",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "MCQ",
+    "question": "If the objective function is $Z = 2x + 3y$ and the feasible region is bounded by the points $(0,0)$, $(4,0)$, $(2,3)$, and $(0,5)$, at which point does $Z$ attain its maximum?",
+    "options": {
+      "A": "$(0,0)$",
+      "B": "$(4,0)$",
+      "C": "$(2,3)$",
+      "D": "$(0,5)$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91cacb4df445c7f648c93",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "AR",
+    "question": "Assertion (A): The feasible region of an LPP is always convex if it is non-empty.<br /><br />Reason (R): The intersection of finitely many half-planes determined by linear inequalities is convex.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a912074751910886affba59",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "VSA",
+    "question": "For the constraints $x+2y \\le 10$, $3x+y \\le 12$, $x \\ge 0$ and $y \\ge 0$, determine whether the point $(2,3)$ belongs to the feasible region.",
+    "options": {
+      "A": "$(2,3)$ belongs to the feasible region",
+      "B": "$(2,3)$ is infeasible because $x+2y>10$",
+      "C": "$(2,3)$ is infeasible because $3x+y>12$",
+      "D": "$(2,3)$ is infeasible because $y<0$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a9123f32e54880055a0a773",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "SA",
+    "question": "Consider the linear programming problem:<br>Maximise $Z=3x+5y$ subject to $x+y\\leq8$, $x+2y\\leq10$, $x\\geq0$, $y\\geq0$. Without drawing the graph, the boundary lines determine the corner points $(0,0)$, $(8,0)$, $(6,2)$ and $(0,5)$. Using the corner point method, determine the maximum value of $Z$ and the point at which it is attained.",
+    "options": {
+      "A": "Maximum value $25$ at $(0,5)$",
+      "B": "Maximum value $24$ at $(8,0)$",
+      "C": "Maximum value $28$ at $(6,2)$",
+      "D": "Maximum value $30$ at $(6,2)$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91e7a575fa42e0944484f",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "MCQ",
+    "question": "Which statement regarding the corner point method is correct?",
+    "options": {
+      "A": "The optimal value always occurs at the center of the feasible region",
+      "B": "The objective function is to be evaluated only at boundary points not intersected by constraints",
+      "C": "The optimal value, if it exists, occurs at a vertex (corner point) of the feasible region",
+      "D": "The objective function is always maximum inside the region and minimum at the boundary"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a924b7575fa42e0944485d",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "AR",
+    "question": "Assertion (A): In a bounded feasible region, the objective function of an LPP will always attain both its maximum and minimum values at some corner points of the region.<br /><br />Reason (R): The optimal value of the objective function cannot lie on the open edge between two corner points in a bounded region.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a9122d34b490c7cde3595b5",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "VSA",
+    "question": "For the constraints $2x+y \\le 9$, $x+2y \\le 8$, $x \\ge 0$ and $y \\ge 0$, determine whether $(2,3)$ is a feasible solution.",
+    "options": {
+      "A": "$(2,3)$ is infeasible because $2x+y>9$",
+      "B": "$(2,3)$ is infeasible because $x+2y>8$",
+      "C": "$(2,3)$ is a feasible solution",
+      "D": "$(2,3)$ is infeasible because $x<0$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a924e7575fa42e09444862",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "VSA",
+    "question": "Suppose $x, y \\geq 0$, $x + 3y \\leq 9$, $3x + y \\leq 9$. Find the maximum value of $Z = x + y$.",
+    "options": {
+      "A": "$3$",
+      "B": "$\\frac{9}{4}$",
+      "C": "$\\frac{9}{2}$",
+      "D": "$9$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91a9164fcf4cdd5b4bb11",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "MCQ",
+    "question": "Which of the following is TRUE regarding the solution of a linear programming problem (LPP) whose feasible region is bounded and has at least one feasible solution?",
+    "options": {
+      "A": "The optimal value (maximum or minimum) of the objective function may occur at a point inside the feasible region, but not at a vertex.",
+      "B": "The optimal value of the objective function must occur at a vertex (corner point) of the feasible region.",
+      "C": "The feasible region cannot have more than three vertices.",
+      "D": "The feasible region is always unbounded."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91f1a96358125c95a0da9",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "MCQ",
+    "question": "In a Linear Programming Problem, which one of the following is NOT a valid objective function?",
+    "options": {
+      "A": "$Z = 3x + 2y$",
+      "B": "$Z = 4x - y$",
+      "C": "$Z = 2x^2 + 3y$",
+      "D": "$Z = 7x$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a912528751910886affba6f",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "SA",
+    "question": "The inequalities $x+y\\geq6$, $x\\geq0$ and $y\\geq0$ determine a feasible region. Without drawing its graph, examine whether the region is bounded or unbounded. Justify your answer by exhibiting feasible points that extend indefinitely.",
+    "options": {
+      "A": "The region is bounded; all feasible points satisfy $x\\leq6$",
+      "B": "The region is infeasible because $x+y\\geq6$ conflicts with non-negativity",
+      "C": "The region is unbounded; points $(t,0)$ are feasible for every $t\\geq6$",
+      "D": "The region is bounded; only points on $x+y=6$ are feasible"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a91267f2e54880055a0a777",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "SA",
+    "question": "The feasible region of a linear programming problem is determined by $x+2y\\leq12$, $3x+y\\leq15$, $x\\geq0$ and $y\\geq0$. Without drawing a graph:<br>(i) Obtain the corner points of the feasible region by using the boundary equations.<br>(ii) Justify whether the feasible region is bounded.",
+    "options": {
+      "A": "(i) $(0,0)$, $(5,0)$, $\\left(\\frac{18}{5},\\frac{21}{5}\\right)$, $(0,6)$<br>(ii) The feasible region is bounded",
+      "B": "(i) $(0,0)$, $(12,0)$, $(5,5)$, $(0,15)$<br>(ii) The feasible region is unbounded",
+      "C": "(i) $(0,0)$, $(5,0)$, $\\left(\\frac{21}{5},\\frac{18}{5}\\right)$, $(0,6)$<br>(ii) The feasible region is bounded",
+      "D": "(i) $(0,0)$, $(6,0)$, $\\left(\\frac{18}{5},\\frac{21}{5}\\right)$, $(0,5)$<br>(ii) The feasible region is unbounded"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a911f504b490c7cde3595b4",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "VSA",
+    "question": "Consider the constraints $x+y \\ge 8$, $3x+5y \\le 15$, $x \\ge 0$ and $y \\ge 0$. Without drawing the graph, decide whether these constraints can determine a feasible region.",
+    "options": {
+      "A": "The feasible region is bounded",
+      "B": "No feasible region exists",
+      "C": "The feasible region is unbounded",
+      "D": "The feasible region consists only of the origin"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91e79575fa42e09444848",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "SA",
+    "question": "A factory produces two products A and B. Each unit of A requires 2 units of labour and 1 unit of raw material. Each unit of B requires 1 unit of labour and 2 units of raw material. The manufacturer has 8 units of labour and 8 units of raw material. If the profit per unit of A is ₹5 and B is ₹4, what should be the respective production of A and B for maximum profit? Also, what is the maximum profit?",
+    "options": {
+      "A": "Produce 4 units of A and 0 units of B; maximum profit is ₹20.",
+      "B": "Produce 0 units of A and 4 units of B; maximum profit is ₹16.",
+      "C": "Produce $\\frac{8}{3}$ units each of A and B; maximum profit is ₹24.",
+      "D": "Produce 2 units of A and 2 units of B; maximum profit is ₹18."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a92396b4df445c7f648cb7",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "AR",
+    "question": "Assertion (A): An LPP with two variables can be solved graphically by plotting all the inequalities on the XY-plane.<br /><br />Reason (R): In a graphical solution, the optimal value always occurs at a point where two constraints intersect.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a9129892e54880055a0a787",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "LA",
+    "question": "Determine the feasible region represented by $x\\ge1$, $y\\ge2$ and $x+y\\ge6$, identify the points at which its finite boundary segments meet, and justify graphically why the region is unbounded and why points on the opposite sides of the required boundary lines are infeasible.",
+    "options": {
+      "A": "The region is bounded with vertices $(1,5)$ and $(4,2)$",
+      "B": "The region is unbounded with boundary vertices $(1,5)$ and $(4,2)$, extending upward and to the right",
+      "C": "The region is unbounded with boundary vertices $(1,2)$ and $(4,5)$",
+      "D": "No feasible region exists because $x+y\\geq6$ is incompatible with $x\\geq1$ and $y\\geq2$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91da6575fa42e09444843",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "AR",
+    "question": "Assertion (A): In a diet problem, constraints are generally given in the form of inequalities related to nutrients.<br /><br />Reason (R): Such a diet problem can be solved graphically only if there are two decision variables.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a91a9164fcf4cdd5b4bb13",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "MCQ",
+    "question": "A diet problem requires a person to consume at least 80 units of vitamin A and at least 40 units of vitamin C per day. Each apple provides 20 units of vitamin A and 4 units of vitamin C. Each orange provides 5 units of vitamin A and 20 units of vitamin C. Let x and y denote the number of apples and oranges consumed. Which set of inequalities represents these constraints?",
+    "options": {
+      "A": "20x + 4y ≥ 80, 5x + 20y ≥ 40",
+      "B": "20x + 4y ≤ 80, 5x + 20y ≤ 40",
+      "C": "20x + 5y ≥ 80, 4x + 20y ≥ 40",
+      "D": "4x + 20y ≥ 80, 20x + 5y ≥ 40"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a9126802e54880055a0a77c",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90ed5681ebad583540303",
+    "question_type": "SA",
+    "question": "A manufacturer produces products $A$ and $B$. Each unit of $A$ requires $2$ units of resource I and $1$ unit of resource II, while each unit of $B$ requires $1$ unit of resource I and $2$ units of resource II. At most $12$ units of each resource are available. The profit per unit is ₹300 for $A$ and ₹400 for $B$. Let $x$ and $y$ be the numbers of units produced.<br>(i) Write the constraints and the profit function.<br>(ii) Check whether $(5,4)$ is feasible.<br>(iii) If the feasible corner points are $(0,0)$, $(6,0)$, $(4,4)$ and $(0,6)$, determine the optimal feasible solution.",
+    "options": {
+      "A": "(i) $2x+y\\leq12$, $x+2y\\leq12$, $x,y\\geq0$; maximise $Z=300x+400y$<br>(ii) $(5,4)$ is feasible<br>(iii) Optimal solution $(4,4)$ with profit ₹$2800$",
+      "B": "(i) $2x+y\\leq12$, $x+2y\\leq12$, $x,y\\geq0$; maximise $Z=300x+400y$<br>(ii) $(5,4)$ is infeasible<br>(iii) Optimal solution $(4,4)$ with profit ₹$2800$",
+      "C": "(i) $x+2y\\leq12$, $2x+y\\leq12$, $x,y\\geq0$; minimise $Z=300x+400y$<br>(ii) $(5,4)$ is infeasible<br>(iii) Optimal solution $(0,6)$ with profit ₹$2400$",
+      "D": "(i) $2x+y\\geq12$, $x+2y\\geq12$, $x,y\\geq0$; maximise $Z=400x+300y$<br>(ii) $(5,4)$ is feasible<br>(iii) Optimal solution $(6,0)$ with profit ₹$2400$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  }
+]

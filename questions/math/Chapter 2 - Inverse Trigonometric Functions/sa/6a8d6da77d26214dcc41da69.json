@@ -1,0 +1,30 @@
+{
+  "id": "6a8d6da77d26214dcc41da69",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "SA",
+  "question": "Consider the function $f(x)=\\sin^{-1}\\left(\\sqrt{1-x^2}\\right)$.<br><br>(i) Determine its domain and range.<br><br>(ii) Find the values of $x$ at which the least and greatest values of $f$ are attained.",
+  "answeroption": "A",
+  "explanation": "<b>Condition for the square root</b><br>For the square root to be real, $$1-x^2\\geq0.$$ Therefore, $x^2\\leq1$, giving the domain $$[-1,1].$$<br><br><b>Range of the inner expression</b><br>On $[-1,1]$, the expression $1-x^2$ varies from $0$ to $1$. Hence, $$0\\leq\\sqrt{1-x^2}\\leq1.$$<br><br><b>Application of inverse sine</b><br>Since $\\sin^{-1}t$ is increasing for $t\\in[0,1]$, $$\\sin^{-1}0\\leq f(x)\\leq\\sin^{-1}1.$$ Therefore, the range is $$\\left[0,\\frac{\\pi}{2}\\right].$$<br><br><b>Extreme values</b><br>The least value $0$ occurs when $\\sqrt{1-x^2}=0$, giving $x=\\pm1$. The greatest value $\\frac{\\pi}{2}$ occurs when $\\sqrt{1-x^2}=1$, giving $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $[-1,1]$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$; least value at $x=\\pm1$ and greatest value at $x=0$",
+    "B": "Domain: $[-1,1]$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$; least value at $x=0$ and greatest value at $x=\\pm1$",
+    "C": "Domain: $\\mathbb{R}$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$; least value at $x=\\pm1$ and greatest value at $x=0$",
+    "D": "Domain: $[-1,1]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; least value at $x=-1$ and greatest value at $x=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

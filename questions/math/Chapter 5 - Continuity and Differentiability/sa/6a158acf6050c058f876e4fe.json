@@ -1,0 +1,24 @@
+{
+  "id": "6a158acf6050c058f876e4fe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "If $x~sin(a+y)-sin~y=0$, prove that $\\frac{dy}{dx}=\\frac{sin^{2}(a+y)}{sin~a}$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Isolate variable $x$**<br />From the given equation $x\\sin(a+y) - \\sin y = 0$, we can express $x$ directly in terms of $y$:<br />$x\\sin(a+y) = \\sin y \\implies x = \\frac{\\sin y}{\\sin(a+y)}$<br /><br />**Step 2: Differentiate $x$ with respect to $y$**<br />Using the Quotient Rule $\\frac{d}{dy}\\left(\\frac{u}{v}\\right) = \\frac{v \\cdot u' - u \\cdot v'}{v^2}$:<br />$\\frac{dx}{dy} = \\frac{\\sin(a+y) \\cdot \\frac{d}{dy}(\\sin y) - \\sin y \\cdot \\frac{d}{dy}[\\sin(a+y)]}{\\sin^2(a+y)}$<br />$\\frac{dx}{dy} = \\frac{\\sin(a+y)\\cos y - \\sin y\\cos(a+y)}{\\sin^2(a+y)}$<br /><br />**Step 3: Simplify using trigonometric identities**<br />The numerator matches the sine subtraction identity formula: $\\sin(A)\\cos(B) - \\cos(A)\\sin(B) = \\sin(A - B)$. Let $A = a+y$ and $B = y$:<br />$\\text{Numerator} = \\sin((a+y) - y) = \\sin a$<br />Substituting this simplified numerator back into our equation gives:<br />$\\frac{dx}{dy} = \\frac{\\sin a}{\\sin^2(a+y)}$<br /><br />**Step 4: Take the reciprocal to find $\\frac{dy}{dx}$**<br />Using the identity $\\frac{dy}{dx} = \\frac{1}{\\frac{dx}{dy}}$, we invert the fraction:<br />$\\frac{dy}{dx} = \\frac{\\sin^2(a+y)}{\\sin a}$. This completes the proof.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

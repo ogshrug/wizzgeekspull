@@ -1,0 +1,31 @@
+{
+  "id": "6a265187864be73cfcf6d342",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2",
+    "6a13e7cbd837c8c7efa6b8d4"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Two motorcycles A and B are running at the speed more than the allowed speed on the roads represented by the lines $\\vec{r}=\\lambda(\\hat{i}+2\\hat{j}-\\hat{k})$ and $\\vec{r}=(3\\hat{i}+3\\hat{j})+\\mu(2\\hat{i}+\\hat{j}+\\hat{k})$ respectively.<br /><br />Based on the above information, answer the following questions :<br />**(a)** Find the shortest distance between the given lines.<br />**(b)** Find the point at which the motorcycles may collide.",
+  "answeroption": "",
+  "explanation": "**(a)** **Step 1:** For line 1, passing point $\\vec{a_1} = \\vec{0}$ and direction $\\vec{b_1} = \\hat{i}+2\\hat{j}-\\hat{k}$. For line 2, passing point $\\vec{a_2} = 3\\hat{i}+3\\hat{j}$ and direction $\\vec{b_2} = 2\\hat{i}+\\hat{j}+\\hat{k}$. Compute point difference $\\vec{a_2}-\\vec{a_1} = 3\\hat{i}+3\\hat{j}$. Compute cross product $\\vec{b_1} \\times \\vec{b_2}$ using determinants: $\\hat{i}(2+1) - \\hat{j}(1+2) + \\hat{k}(1-4) = 3\\hat{i} - 3\\hat{j} - 3\\hat{k}$.<br />**Step 2:** The magnitude $|\\vec{b_1} \\times \\vec{b_2}| = \\sqrt{3^2+(-3)^2+(-3)^2} = \\sqrt{27} = 3\\sqrt{3}$. The shortest distance formula is $d = \\frac{|(\\vec{a_2}-\\vec{a_1}) \\cdot (\\vec{b_1} \\times \\vec{b_2})|}{|\\vec{b_1} \\times \\vec{b_2}|}$. The dot product is $(3\\hat{i}+3\\hat{j}) \\cdot (3\\hat{i}-3\\hat{j}-3\\hat{k}) = 9 - 9 = 0$. Since the dot product is 0, the shortest distance $d = 0$.<br /><br />**(b)** **Step 1:** Since the shortest distance is 0, the lines intersect, which is where they collide. Equating general lines to find intersection: $\\lambda = 3 + 2\\mu$, $2\\lambda = 3 + \\mu$, and $-\\lambda = \\mu$. From the third equation, substitute $\\lambda = -\\mu$ into the second: $2(-\\mu) = 3 + \\mu \\implies -3\\mu = 3 \\implies \\mu = -1$. This gives $\\lambda = 1$.<br />**Step 2:** Check consistency in the first equation: $1 = 3 + 2(-1) = 1$, which is valid. Now substitute $\\lambda = 1$ into line 1 to get the exact collision coordinates: $\\vec{r} = 1(\\hat{i}+2\\hat{j}-\\hat{k}) = \\hat{i}+2\\hat{j}-\\hat{k}$. Thus, expressed as a standard coordinate point, the motorcycles may collide at $(1, 2, -1)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1",
+    "2022-5-2",
+    "2022-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a265187864be73cfcf6d342/1782279785-0.png?t=1782299585501"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

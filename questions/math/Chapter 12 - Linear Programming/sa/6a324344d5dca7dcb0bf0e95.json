@@ -1,0 +1,26 @@
+{
+  "id": "6a324344d5dca7dcb0bf0e95",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically: Maximise $z=5x+3y$ subject to the constraints $3x+5y \\le 15$, $5x+2y \\le 10$, $x, y \\ge 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Graph the Constraints**  \nPlot the lines $3x+5y=15$ (intercepts: (5,0), (0,3)) and $5x+2y=10$ (intercepts: (2,0), (0,5)). Since both inequalities are $\\le$, shade the regions towards the origin. Also, $x \\ge 0$ and $y \\ge 0$ restrict to the first quadrant. The feasible region is the bounded polygon in the first quadrant satisfying all constraints.\n\n**Step 2: Find the Corner Points**  \nThe vertices of the feasible region are:  \n- Origin: $(0,0)$  \n- Intersection of $5x+2y=10$ with x-axis: $(2,0)$  \n- Intersection of $3x+5y=15$ with y-axis: $(0,3)$  \n- Intersection of $3x+5y=15$ and $5x+2y=10$: Solve simultaneously:  \nMultiply first by 2: $6x+10y=30$; second by 5: $25x+10y=50$. Subtract: $19x=20 \\Rightarrow x=\\frac{20}{19}$. Then $3(\\frac{20}{19})+5y=15 \\Rightarrow \\frac{60}{19}+5y=\\frac{285}{19} \\Rightarrow 5y=\\frac{225}{19} \\Rightarrow y=\\frac{45}{19}$. So vertex = $(\\frac{20}{19}, \\frac{45}{19})$.\n\n**Step 3: Evaluate Objective Function at Each Vertex**  \n$z = 5x + 3y$:  \n- At $(0,0)$: $z = 0$  \n- At $(2,0)$: $z = 5(2) + 3(0) = 10$  \n- At $(0,3)$: $z = 5(0) + 3(3) = 9$  \n- At $(\\frac{20}{19}, \\frac{45}{19})$: $z = 5(\\frac{20}{19}) + 3(\\frac{45}{19}) = \\frac{100}{19} + \\frac{135}{19} = \\frac{235}{19} \\approx 12.37$\n\n**Step 4: Identify the Maximum Value**  \nComparing all values, the maximum $z$ is $\\frac{235}{19}$ at the vertex $(\\frac{20}{19}, \\frac{45}{19})$.\n\n**Step 5: State the Optimal Solution**  \nThe maximum value of $z$ is $\\frac{235}{19}$, achieved at $x = \\frac{20}{19}$ and $y = \\frac{45}{19}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a229733864be73cfcf6d23e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{-2}^{2}\\sqrt{\\frac{2-x}{2+x}}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To simplify the square root expression, we can rationalize the numerator by multiplying both the numerator and the denominator inside the square root by $(2-x)$. The integrand becomes $\\sqrt{\\frac{(2-x)(2-x)}{(2+x)(2-x)}} = \\sqrt{\\frac{(2-x)^2}{4-x^2}}$.<br />**Step 2:** Assuming $x \\in [-2, 2]$, the term $2-x \\ge 0$, so we can bring it out of the square root. The integral transforms into $\\int_{-2}^{2} \\frac{2-x}{\\sqrt{4-x^2}} dx$. We can split this single integral into two separate integrals: $I_1 - I_2 = \\int_{-2}^{2} \\frac{2}{\\sqrt{4-x^2}} dx - \\int_{-2}^{2} \\frac{x}{\\sqrt{4-x^2}} dx$.<br />**Step 3:** Evaluate the second integral, $I_2$. Let $f(x) = \\frac{x}{\\sqrt{4-x^2}}$. We check if it's an even or odd function. $f(-x) = \\frac{-x}{\\sqrt{4-(-x)^2}} = -\\frac{x}{\\sqrt{4-x^2}} = -f(x)$. Since it's an odd function and the limits are symmetric from $-a$ to $a$, by the property of definite integrals, $I_2 = \\int_{-2}^{2} f(x) dx = 0$.<br />**Step 4:** Now evaluate the first integral, $I_1 = 2 \\int_{-2}^{2} \\frac{1}{\\sqrt{2^2-x^2}} dx$. We know the standard integral formula $\\int \\frac{1}{\\sqrt{a^2-x^2}} dx = \\sin^{-1}(\\frac{x}{a})$. The function is even, so we could write it as $4 \\int_0^2$, but direct evaluation is also easy. $I_1 = 2 [\\sin^{-1}(\\frac{x}{2})]_{-2}^2$.<br />**Step 5:** Substitute the upper and lower limits. $I_1 = 2 (\\sin^{-1}(\\frac{2}{2}) - \\sin^{-1}(\\frac{-2}{2})) = 2 (\\sin^{-1}(1) - \\sin^{-1}(-1))$. Since $\\sin^{-1}(1) = \\frac{\\pi}{2}$ and $\\sin^{-1}(-1) = -\\frac{\\pi}{2}$, we get $2 (\\frac{\\pi}{2} - (-\\frac{\\pi}{2})) = 2 (\\pi) = 2\\pi$. The final evaluated result is $2\\pi$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

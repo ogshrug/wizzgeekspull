@@ -1,0 +1,30 @@
+{
+  "id": "6a91267e2e54880055a0a776",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e1"
+  ],
+  "question_type": "SA",
+  "question": "For the constraints $x+y\\leq9$, $2x+3y\\leq18$, $x\\geq0$ and $y\\geq0$, let $k\\geq0$. Determine the values of $k$ for which $(3,k)$ is a feasible solution. Hence state the values of $k$ for which it is an infeasible solution.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Applying the first constraint</b><br>Substituting $(x,y)=(3,k)$ in $x+y\\leq9$, we get $$3+k\\leq9$$ Therefore, $$k\\leq6$$<br><b>Step 2: Applying the second constraint</b><br>Substitution in $2x+3y\\leq18$ gives $$2(3)+3k\\leq18$$ Hence, $$6+3k\\leq18\\Rightarrow3k\\leq12\\Rightarrow k\\leq4$$<br><b>Step 3: Applying non-negativity</b><br>The given condition $k\\geq0$ ensures that the second coordinate is non-negative, while $x=3>0$.<br><b>Step 4: Finding the feasible range</b><br>All the constraints are simultaneously satisfied for $$0\\leq k\\leq4$$ Thus, $(3,k)$ is feasible in this interval.<br><b>Step 5: Identifying infeasible values</b><br>For $k>4$, the constraint $2x+3y\\leq18$ is violated. Hence, under $k\\geq0$, $(3,k)$ is infeasible for $k>4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Feasible for $0\\leq k\\leq6$; infeasible for $k>6$",
+    "B": "Feasible for $0\\leq k\\leq4$; infeasible for $k>4$",
+    "C": "Feasible for $0\\leq k<4$; infeasible for $k\\geq4$",
+    "D": "Feasible for $4\\leq k\\leq6$; infeasible for $0\\leq k<4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

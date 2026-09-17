@@ -1,0 +1,30 @@
+{
+  "id": "6a8c6398550d28a069ec32da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "Consider $p(x)=\\csc^{-1}\\left(\\dfrac{4}{x+2}\\right)$.<br><br>(a) Determine the domain and range of $p$.<br><br>(b) Find all values of $x$ for which $p(x)=\\dfrac{\\pi}{6}$.<br><br>(c) Examine whether $p(x)=-\\dfrac{\\pi}{2}$ is possible, and determine the corresponding value of $x$ if it exists.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The expression is undefined at $x=-2$. For $\\csc^{-1}$ to be defined,<br>$$\\left|\\frac{4}{x+2}\\right|\\geq1$$<br>Therefore,<br>$$0<|x+2|\\leq4$$<br>This gives<br>$$-4\\leq x+2<0\\quad\\text{or}\\quad0<x+2\\leq4$$<br>Hence, the domain is<br>$$[-6,-2)\\cup(-2,2]$$<br>The argument assumes every value satisfying $|t|\\geq1$. Therefore, the range is<br>$$\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$$<br><br><b>(b)</b><br>Given that<br>$$\\csc^{-1}\\left(\\frac{4}{x+2}\\right)=\\frac{\\pi}{6}$$<br>taking cosecant on both sides gives<br>$$\\frac{4}{x+2}=2$$<br>Therefore,<br>$$2x+4=4$$<br>$$x=0$$<br>Since $0$ belongs to the domain, the required value is $x=0$.<br><br><b>(c)</b><br>The value $-\\dfrac{\\pi}{2}$ belongs to the range of $\\csc^{-1}$. Setting<br>$$\\csc^{-1}\\left(\\frac{4}{x+2}\\right)=-\\frac{\\pi}{2}$$<br>gives<br>$$\\frac{4}{x+2}=\\csc\\left(-\\frac{\\pi}{2}\\right)=-1$$<br>Therefore,<br>$$x+2=-4$$<br>$$x=-6$$<br>Since $-6$ belongs to the domain, $p(x)=-\\dfrac{\\pi}{2}$ is possible and occurs at $x=-6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $[-6,-2)\\cup(-2,2]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; $p(x)=\\frac{\\pi}{6}$ at $x=0$; $p(x)=-\\frac{\\pi}{2}$ is possible at $x=-6$",
+    "B": "Domain: $(-\\infty,-6]\\cup[2,\\infty)$; Range: $\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$; $p(x)=\\frac{\\pi}{6}$ at $x=0$; $p(x)=-\\frac{\\pi}{2}$ is possible at $x=-6$",
+    "C": "Domain: $[-6,-2)\\cup(-2,2]$; Range: $\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$; $p(x)=\\frac{\\pi}{6}$ at $x=0$; $p(x)=-\\frac{\\pi}{2}$ is possible at $x=-6$",
+    "D": "Domain: $[-6,-2)\\cup(-2,2]$; Range: $\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$; $p(x)=\\frac{\\pi}{6}$ at $x=0$; $p(x)=-\\frac{\\pi}{2}$ is not possible"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

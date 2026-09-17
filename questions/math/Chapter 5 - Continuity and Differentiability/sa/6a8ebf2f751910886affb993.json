@@ -1,0 +1,29 @@
+{
+  "id": "6a8ebf2f751910886affb993",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "If $$x^3+x^2y+xy^2+y^3=81,$$ find $\\frac{dy}{dx}$.",
+  "answeroption": "C",
+  "explanation": "<b>Implicit differentiation of each term</b><br>Differentiating with respect to $x$, $$3x^2+2xy+x^2\\frac{dy}{dx}+y^2+2xy\\frac{dy}{dx}+3y^2\\frac{dy}{dx}=0.$$<br><b>Collecting derivative terms</b><br>$$\\left(x^2+2xy+3y^2\\right)\\frac{dy}{dx}=-(3x^2+2xy+y^2)$$<br><b>Required derivative</b><br>Therefore, $$\\frac{dy}{dx}=-\\frac{3x^2+2xy+y^2}{x^2+2xy+3y^2}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{3x^2+2xy+y^2}{x^2+2xy+3y^2}$",
+    "B": "$\\frac{dy}{dx}=-\\frac{x^2+2xy+3y^2}{3x^2+2xy+y^2}$",
+    "C": "$\\frac{dy}{dx}=-\\frac{3x^2+2xy+y^2}{x^2+2xy+3y^2}$",
+    "D": "$\\frac{dy}{dx}=-\\frac{3x^2+xy+y^2}{x^2+xy+3y^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

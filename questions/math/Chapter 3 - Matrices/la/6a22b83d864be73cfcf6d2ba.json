@@ -1,0 +1,28 @@
+{
+  "id": "6a22b83d864be73cfcf6d2ba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "LA",
+  "question": "If $f(\\alpha) = \\begin{bmatrix} \\cos \\alpha & -\\sin \\alpha & 0 \\\\ \\sin \\alpha & \\cos \\alpha & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}$, prove that $f(\\alpha) \\cdot f(-\\beta) = f(\\alpha - \\beta)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** First, we must explicitly determine the matrix for $f(-\\beta)$ using the fundamental definition of the given function. By carefully substituting $-\\beta$ into the trigonometric arguments of the original matrix function, we obtain the intermediate matrix representation $f(-\\beta) = \\begin{bmatrix} \\cos(-\\beta) & -\\sin(-\\beta) & 0 \\\\ \\sin(-\\beta) & \\cos(-\\beta) & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}$. Using fundamental trigonometric identities, specifically $\\cos(-x) = \\cos x$ (even function) and $\\sin(-x) = -\\sin x$ (odd function), this matrix simplifies exactly to $\\begin{bmatrix} \\cos \\beta & \\sin \\beta & 0 \\\\ -\\sin \\beta & \\cos \\beta & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}$.<br />**Step 2:** Next, we need to carefully multiply the two matrices $f(\\alpha)$ and $f(-\\beta)$ sequentially using standard matrix multiplication algorithms, taking the dot product of rows from the first matrix and columns from the second matrix. The multiplication setup is $\\begin{bmatrix} \\cos \\alpha & -\\sin \\alpha & 0 \\\\ \\sin \\alpha & \\cos \\alpha & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} \\begin{bmatrix} \\cos \\beta & \\sin \\beta & 0 \\\\ -\\sin \\beta & \\cos \\beta & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}$.<br />**Step 3:** Calculate the individual elements of the new resulting $3 \\times 3$ matrix one by one. For the first row and first column intersection, we compute $\\cos \\alpha \\cos \\beta + (-\\sin \\alpha)(-\\sin \\beta) + (0)(0) = \\cos \\alpha \\cos \\beta + \\sin \\alpha \\sin \\beta$. This precisely matches the standard compound angle trigonometric identity for $\\cos(\\alpha - \\beta)$. For the first row and second column intersection, we calculate $\\cos \\alpha \\sin \\beta - \\sin \\alpha \\cos \\beta = -(\\sin \\alpha \\cos \\beta - \\cos \\alpha \\sin \\beta) = -\\sin(\\alpha - \\beta)$.<br />**Step 4:** Continue this exact arithmetic process for the second row. The element at position $(2,1)$ expands to $\\sin \\alpha \\cos \\beta - \\cos \\alpha \\sin \\beta = \\sin(\\alpha - \\beta)$. The element at position $(2,2)$ evaluates to $\\sin \\alpha \\sin \\beta + \\cos \\alpha \\cos \\beta = \\cos(\\alpha - \\beta)$. The third row and third column elements uniformly resolve to $0$ and $1$, preserving the identity structure in that specific sector.<br />**Step 5:** Thus, combining all derived terms, the final resulting product matrix strictly equates to $\\begin{bmatrix} \\cos(\\alpha - \\beta) & -\\sin(\\alpha - \\beta) & 0 \\\\ \\sin(\\alpha - \\beta) & \\cos(\\alpha - \\beta) & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}$, which completely satisfies the formal definition of the matrix $f(\\alpha - \\beta)$, concluding the rigorous proof.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

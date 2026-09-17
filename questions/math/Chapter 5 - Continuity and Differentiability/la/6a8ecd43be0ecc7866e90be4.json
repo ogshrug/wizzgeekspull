@@ -1,0 +1,31 @@
+{
+  "id": "6a8ecd43be0ecc7866e90be4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d81",
+    "69c6610140512f018fa94d83",
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "LA",
+  "question": "Using logarithmic differentiation, find $\\frac{dy}{dx}$ for $$y=\\frac{(x+1)^x}{x^{x+1}},\\qquad x>0,$$ and hence evaluate the derivative at $x=1$.",
+  "answeroption": "D",
+  "explanation": "<b>Applying Logarithmic Differentiation</b><br>Given $$y=\\frac{(x+1)^x}{x^{x+1}},\\qquad x>0.$$ Since $y>0$, taking logarithm on both sides gives $$\\log y=x\\log(x+1)-(x+1)\\log x.$$ Differentiating both sides with respect to $x$, $$\\frac{1}{y}\\frac{dy}{dx}=\\log(x+1)+\\frac{x}{x+1}-\\log x-\\frac{x+1}{x}.$$ Therefore, $$\\frac{dy}{dx}=y\\left[\\log(x+1)+\\frac{x}{x+1}-\\log x-\\frac{x+1}{x}\\right].$$ Substituting the value of $y$, $$\\frac{dy}{dx}=\\frac{(x+1)^x}{x^{x+1}}\\left[\\log(x+1)-\\log x+\\frac{x}{x+1}-\\frac{x+1}{x}\\right].$$<br><br><b>Evaluation</b><br>At $x=1$, $$y=\\frac{2^1}{1^2}=2.$$ Also, $$\\log2-\\log1+\\frac{1}{2}-2=\\log2-\\frac{3}{2}.$$ Hence, $$\\left.\\frac{dy}{dx}\\right|_{x=1}=2\\left(\\log2-\\frac{3}{2}\\right)=2\\log2-3.$$<br><br><b>Final Result</b><br>Thus, $$\\frac{dy}{dx}=\\frac{(x+1)^x}{x^{x+1}}\\left[\\log(x+1)-\\log x+\\frac{x}{x+1}-\\frac{x+1}{x}\\right]$$ and $$\\left.\\frac{dy}{dx}\\right|_{x=1}=2\\log2-3.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{(x+1)^x}{x^{x+1}}\\left[\\log(x+1)-\\log x+\\frac{x+1}{x}-\\frac{x}{x+1}\\right]$; at $x=1$, $\\frac{dy}{dx}=2\\log2+3$",
+    "B": "$\\frac{dy}{dx}=\\frac{(x+1)^x}{x^{x+1}}\\left[\\log(x+1)-\\log x+\\frac{x}{x+1}+\\frac{x+1}{x}\\right]$; at $x=1$, $\\frac{dy}{dx}=2\\log2+5$",
+    "C": "$\\frac{dy}{dx}=\\frac{(x+1)^x}{x^{x+1}}\\left[\\log(x+1)+\\log x+\\frac{x}{x+1}-\\frac{x+1}{x}\\right]$; at $x=1$, $\\frac{dy}{dx}=2\\log2-3$",
+    "D": "$\\frac{dy}{dx}=\\frac{(x+1)^x}{x^{x+1}}\\left[\\log(x+1)-\\log x+\\frac{x}{x+1}-\\frac{x+1}{x}\\right]$; at $x=1$, $\\frac{dy}{dx}=2\\log2-3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

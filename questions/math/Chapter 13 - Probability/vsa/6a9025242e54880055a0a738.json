@@ -1,0 +1,29 @@
+{
+  "id": "6a9025242e54880055a0a738",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "VSA",
+  "question": "Two fair dice are thrown simultaneously. Given that the first die shows an even number, find the probability that the sum of the numbers obtained is greater than $9$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> Let $F$ denote the event that the first die shows an even number and $E$ denote the event that the sum exceeds $9$. Under the condition $F$, the first die can show $2,4$ or $6$.<br><b>Step 2:</b> Corresponding to each of these three values, the second die has $6$ possible values. Hence, $F$ contains $3\\times6=18$ equally likely outcomes.<br><b>Step 3:</b> For a sum greater than $9$, the favourable outcomes under $F$ are $(4,6),(6,4),(6,5),(6,6)$, giving $4$ outcomes.<br><b>Step 4:</b> Therefore, $P(E\\mid F)=\\frac{4}{18}=\\frac{2}{9}$.<br><b>Step 5:</b> Thus, the required probability is $\\frac{2}{9}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{6}$",
+    "B": "$\\frac{1}{3}$",
+    "C": "$\\frac{2}{9}$",
+    "D": "$\\frac{5}{18}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

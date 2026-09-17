@@ -1,0 +1,31 @@
+{
+  "id": "6a327a03d5dca7dcb0bf0ec2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\int_{-2}^3 x^2 dx = k \\int_0^2 x^2 dx + \\int_2^3 x^2 dx$, then the value of k is:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Split the integral using the additive property $\\int_a^c f(x)dx = \\int_a^b f(x)dx + \\int_b^c f(x)dx$: $\\int_{-2}^3 x^2 dx = \\int_{-2}^0 x^2 dx + \\int_0^2 x^2 dx + \\int_2^3 x^2 dx$.\n\n**Step 2:** Use the even function property $\\int_{-a}^0 f(x)dx = \\int_0^a f(x)dx$ for $x^2$: $\\int_{-2}^0 x^2 dx = \\int_0^2 x^2 dx$.\n\n**Step 3:** Substitute back: $\\int_0^2 x^2 dx + \\int_0^2 x^2 dx + \\int_2^3 x^2 dx = 2\\int_0^2 x^2 dx + \\int_2^3 x^2 dx$. Thus, $k = 2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "2",
+    "B": "1",
+    "C": "0",
+    "D": "$\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

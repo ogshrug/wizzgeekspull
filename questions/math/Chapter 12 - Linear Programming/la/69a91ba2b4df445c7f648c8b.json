@@ -1,0 +1,29 @@
+{
+  "id": "69a91ba2b4df445c7f648c8b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "A diet supplement must contain at least 30g protein and 20g fat. Two foods, A and B, contain per gram: Food A: 2g protein, 1g fat. Food B: 1g protein, 2g fat. Food A costs Rs 4/g and Food B costs Rs 5/g. Find the mixture with minimum cost that meets the requirements.",
+  "answeroption": "C",
+  "explanation": "Let x grams of A and y grams of B.<br /><br />Constraints:<br />2x + y ≥ 30.<br />x + 2y ≥ 20.<br />x ≥ 0, y ≥ 0.<br /><br />Objective function:<br />Minimize Z = 4x + 5y.<br /><br />Convert to equalities:<br />2x + y = 30 ⇒ y = 30 − 2x.<br />x + 2y = 20 ⇒ y = (20 − x)/2.<br /><br />Set equal:<br />30 − 2x = (20 − x)/2.<br /><br />Solve:<br />60 − 4x = 20 − x ⇒ −3x = −40 ⇒ x = 40/3 ≈ 13.33.<br />y = 30 − 2x ≈ 3.33.<br /><br />Minimum cost:<br />Z = 4(13.33) + 5(3.33) ≈ 69.97.<br /><br />Thus minimum cost ≈ Rs 69.97 at x ≈ 13.33g and y ≈ 3.33g.",
+  "explanation_image": [],
+  "options": {
+    "A": "Use 0g of A and 20g of B; minimum cost Rs 100.",
+    "B": "Use 15g of A and 0g of B; minimum cost Rs 60.",
+    "C": "Use approximately 13.33g of A and 3.33g of B; minimum cost approximately Rs 69.97.",
+    "D": "Use approximately 3.33g of A and 13.33g of B; minimum cost approximately Rs 79.97."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 05:58:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

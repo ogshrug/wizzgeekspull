@@ -1,0 +1,29 @@
+{
+  "id": "6a22a0f4864be73cfcf6d280",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6",
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the co-ordinates of the foot of the perpendicular drawn from the point (2, 3, -8) to the line $\\frac{4-x}{2}=\\frac{y}{6}=\\frac{1-z}{3}$ Also, find the perpendicular distance of the given point from the line.",
+  "answeroption": "",
+  "explanation": "**Step 1:** First, rewrite the given line equation into its strict standard Cartesian form. The equation is $\\frac{-(x-4)}{2} = \\frac{y-0}{6} = \\frac{-(z-1)}{3}$. Multiply the first and third fractions by -1 in numerator and denominator: $\\frac{x-4}{-2} = \\frac{y}{6} = \\frac{z-1}{-3}$. This is line L. The direction ratios of L are $(-2, 6, -3)$.<br />**Step 2:** Let $P(2, 3, -8)$ be the given point. Let $M$ be the foot of the perpendicular from $P$ to line L. Since $M$ completely lies on line L, we can assume its general coordinates by setting the line equation equal to a parameter $\\lambda$. So, $M = (-2\\lambda + 4, 6\\lambda, -3\\lambda + 1)$.<br />**Step 3:** Calculate the direction ratios of the line segment $PM$ connecting the point to the foot. The direction ratios are the difference in coordinates: $(-2\\lambda + 4 - 2, 6\\lambda - 3, -3\\lambda + 1 - (-8))$, which simplifies meticulously to $(-2\\lambda + 2, 6\\lambda - 3, -3\\lambda + 9)$.<br />**Step 4:** The crucial geometric condition is that line segment $PM$ is strictly perpendicular to line L. Therefore, the dot product of their respective direction ratios must be zero. We set up the equation: $-2(-2\\lambda + 2) + 6(6\\lambda - 3) - 3(-3\\lambda + 9) = 0$. Expanding this gives $4\\lambda - 4 + 36\\lambda - 18 + 9\\lambda - 27 = 0$. Summing the like terms yields $49\\lambda - 49 = 0$, which solves cleanly to $\\lambda = 1$.<br />**Step 5:** Substitute $\\lambda = 1$ back into the parameterized coordinates of $M$ to find the exact location of the foot. $M = (-2(1)+4, 6(1), -3(1)+1) = (2, 6, -2)$. This perfectly answers the first part. Finally, apply the standard 3D distance formula to rigidly calculate the perpendicular distance between $P(2, 3, -8)$ and $M(2, 6, -2)$. Distance $PM = \\sqrt{(2-2)^2 + (6-3)^2 + (-2 - (-8))^2} = \\sqrt{0^2 + 3^2 + 6^2} = \\sqrt{0 + 9 + 36} = \\sqrt{45} = 3\\sqrt{5}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

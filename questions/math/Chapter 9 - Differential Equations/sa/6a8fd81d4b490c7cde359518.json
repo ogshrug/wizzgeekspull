@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd81d4b490c7cde359518",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Examine the differential equation $$(x-y)\\frac{dy}{dx}=x+2y.$$ Show that it is a homogeneous differential equation of first order by expressing its right-hand side as a function of $\\frac{y}{x}$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Express the equation in derivative form</b><br>From $$(x-y)\\frac{dy}{dx}=x+2y,$$ we obtain $$\\frac{dy}{dx}=\\frac{x+2y}{x-y}.$$<br><b>Step 2: Divide numerator and denominator by $x$</b><br>For $x\\neq0$, $$\\frac{dy}{dx}=\\frac{1+2\\frac{y}{x}}{1-\\frac{y}{x}}.$$<br><b>Step 3: Identify the functional dependence</b><br>The right-hand side depends only on the ratio $\\frac{y}{x}$. If $$g(v)=\\frac{1+2v}{1-v},$$ then the equation can be written as $$\\frac{dy}{dx}=g\\left(\\frac{y}{x}\\right).$$<br><b>Step 4: Apply the homogeneous-equation criterion</b><br>A first-order differential equation whose right-hand side is a homogeneous function of degree zero, equivalently a function of $\\frac{y}{x}$, is homogeneous.<br><b>Step 5: Conclusion</b><br>Hence, the given equation is a homogeneous differential equation of first order.",
+  "explanation_image": [],
+  "options": {
+    "A": "It is homogeneous because $\\frac{dy}{dx}=\\frac{1+2\\frac{y}{x}}{1-\\frac{y}{x}}$, a function only of $\\frac{y}{x}$.",
+    "B": "It is non-homogeneous because the numerator and denominator contain different signs.",
+    "C": "It is homogeneous because $\\frac{dy}{dx}=1+2\\frac{y}{x}$.",
+    "D": "It is non-homogeneous because $x$ and $y$ both occur."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

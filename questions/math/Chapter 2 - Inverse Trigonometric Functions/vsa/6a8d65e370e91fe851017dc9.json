@@ -1,0 +1,30 @@
+{
+  "id": "6a8d65e370e91fe851017dc9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the domain and range of $f(x)=\\cos^{-1}|x|$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b><br>For $\\cos^{-1}|x|$ to be defined, its argument must satisfy $$-1\\leq|x|\\leq1.$$<br><br><b>Step 2:</b><br>Since $|x|$ is always non-negative, the lower condition is automatically satisfied. Thus, $|x|\\leq1$, which gives the domain $[-1,1]$.<br><br><b>Step 3:</b><br>On this domain, $|x|$ assumes every value in $[0,1]$. Since $\\cos^{-1}t$ is decreasing, its maximum occurs at $t=0$ and its minimum occurs at $t=1$.<br><br><b>Step 4:</b><br>The endpoint values are $$\\cos^{-1}0=\\frac{\\pi}{2}\\quad\\text{and}\\quad\\cos^{-1}1=0.$$<br><br><b>Final Answer:</b><br>The domain is $[-1,1]$ and the range is $$\\left[0,\\frac{\\pi}{2}\\right].$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $\\mathbb{R}$; Range: $[0,\\pi]$",
+    "B": "Domain: $[-1,1]$; Range: $[0,\\pi]$",
+    "C": "Domain: $[-1,1]$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$",
+    "D": "Domain: $[0,1]$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

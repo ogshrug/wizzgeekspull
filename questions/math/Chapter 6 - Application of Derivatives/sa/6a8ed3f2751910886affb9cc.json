@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed3f2751910886affb9cc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "SA",
+  "question": "The function $f(x)=x^3+px^2+qx+1$ has critical points at $x=1$ and $x=2$. Determine the values of $p$ and $q$.",
+  "answeroption": "A",
+  "explanation": "<b>Derivative of the function</b><br>$$f'(x)=3x^2+2px+q$$<br><b>Use of the given critical points</b><br>Since $x=1$ and $x=2$ are the zeros of this quadratic derivative, it can be written as<br>$$f'(x)=3(x-1)(x-2)$$<br>The coefficient $3$ is used because the coefficient of $x^2$ in $f'(x)$ is $3$.<br><b>Expansion</b><br>$$3(x-1)(x-2)=3x^2-9x+6$$<br><b>Comparison of coefficients</b><br>Comparing with $3x^2+2px+q$,<br>$$2p=-9,\\qquad q=6$$<br><b>Conclusion</b><br>Therefore, $p=-\\frac{9}{2}$ and $q=6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$p=-\\frac{9}{2},\\ q=6$",
+    "B": "$p=\\frac{9}{2},\\ q=6$",
+    "C": "$p=-3,\\ q=6$",
+    "D": "$p=-\\frac{9}{2},\\ q=-6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

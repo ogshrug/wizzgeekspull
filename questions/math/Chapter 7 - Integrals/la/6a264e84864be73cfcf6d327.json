@@ -1,0 +1,28 @@
+{
+  "id": "6a264e84864be73cfcf6d327",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989",
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate:<br />$$\\int_{0}^{1}x(1-x)^{n}dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the given definite integral be denoted by $I = \\int_{0}^{1}x(1-x)^{n}dx$. To solve this, we can utilize a fundamental property of definite integrals, which states that $\\int_{a}^{b} f(x) dx = \\int_{a}^{b} f(a+b-x) dx$. For this problem, our boundaries are $a=0$ and $b=1$, so we replace every instance of $x$ in the integrand with $(1+0-x) = (1-x)$.<br />**Step 2:** Substituting $(1-x)$ into the integral equation yields: $I = \\int_{0}^{1} (1-x) \\left(1 - (1-x)\\right)^n dx$. Simplifying the inside of the powered parenthesis gives $\\left(1 - 1 + x\\right)^n = x^n$. The transformed integral expression is now: $I = \\int_{0}^{1} (1-x)x^n dx$. This eliminates the binomial base restriction, letting us expand the terms directly.<br />**Step 3:** Distribute the single variable term $x^n$ into the parentheses to create basic independent power functions: $I = \\int_{0}^{1} (x^n - x^{n+1}) dx$. Now, apply the standard power rule of integration, $\\int x^m dx = \\frac{x^{m+1}}{m+1}$, term by term. This gives the following integrated function: $I = \\left[ \\frac{x^{n+1}}{n+1} - \\frac{x^{n+2}}{n+2} \\right]_{0}^{1}$.<br />**Step 4:** Substitute the upper limit $x = 1$ and lower limit $x = 0$ into the expression. At $x = 1$, we get $\\left(\\frac{1^{n+1}}{n+1} - \\frac{1^{n+2}}{n+2}\\right) = \\frac{1}{n+1} - \\frac{1}{n+2}$. At $x = 0$, both terms become 0. Find a common denominator to unify the final fractional values: $I = \\frac{(n+2) - (n+1)}{(n+1)(n+2)} = \\frac{1}{(n+1)(n+2)}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

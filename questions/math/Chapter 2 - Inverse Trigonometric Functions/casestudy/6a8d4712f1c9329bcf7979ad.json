@@ -1,0 +1,31 @@
+{
+  "id": "6a8d4712f1c9329bcf7979ad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "For $0<x\\leq1$, students compare $A(x)=\\cos^{-1}x$ with $B(x)=\\sec^{-1}\\left(\\frac{1}{x}\\right)$. The restriction $x>0$ ensures that $\\frac{1}{x}\\geq1$, while both expressions produce principal values in the first-quadrant interval. The class uses the reciprocal relationship between cosine and secant to establish an identity, determine the set of possible common values and solve an equation involving both expressions.<br><br><b>(a)</b> Establish that $A(x)=B(x)$ for every $0<x\\leq1$.<br><br><b>(b)</b> Determine the range of their common value.<br><br><b>(c)</b> Evaluate $A\\left(\\frac{\\sqrt{3}}{2}\\right)+B\\left(\\frac{\\sqrt{3}}{2}\\right)$.<br><br><b>(d)</b> Solve $A(x)+B(x)=\\frac{2\\pi}{3}$ and verify the solution using principal values.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Let $A(x)=\\theta$. Since $0<x\\leq1$, $$0\\leq\\theta<\\frac{\\pi}{2}$$ and $x=\\cos\\theta$. Therefore, $$\\frac{1}{x}=\\frac{1}{\\cos\\theta}=\\sec\\theta$$ Since $\\theta$ lies in the applicable principal branch of inverse secant, $$B(x)=\\sec^{-1}(\\sec\\theta)=\\theta=A(x)$$ Hence, $A(x)=B(x)$.<br><br><b>(b)</b><br>When $x=1$, the common value is $\\cos^{-1}(1)=0$. As $x$ approaches $0$ through positive values, $\\cos^{-1}x$ approaches $\\frac{\\pi}{2}$ but does not attain it because $x=0$ is excluded. Hence, the range is $\\left[0,\\frac{\\pi}{2}\\right)$.<br><br><b>(c)</b><br>Using the established identity, $$A\\left(\\frac{\\sqrt{3}}{2}\\right)=B\\left(\\frac{\\sqrt{3}}{2}\\right)=\\cos^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right)=\\frac{\\pi}{6}$$ Therefore, their sum is $$\\frac{\\pi}{6}+\\frac{\\pi}{6}=\\frac{\\pi}{3}$$<br><br><b>(d)</b><br>Since $A(x)=B(x)$, $$A(x)+B(x)=\\frac{2\\pi}{3}$$ becomes $$2\\cos^{-1}x=\\frac{2\\pi}{3}$$ Thus, $$\\cos^{-1}x=\\frac{\\pi}{3}$$ and $$x=\\cos\\frac{\\pi}{3}=\\frac{1}{2}$$ Verification gives $$A\\left(\\frac{1}{2}\\right)=\\frac{\\pi}{3}$$ and $$B\\left(\\frac{1}{2}\\right)=\\sec^{-1}(2)=\\frac{\\pi}{3}$$ Their sum is $\\frac{2\\pi}{3}$. Therefore, $x=\\frac{1}{2}$ is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A(x)=\\pi-B(x)$<br><br>(b) Range: $\\left(\\dfrac{\\pi}{2},\\pi\\right]$<br><br>(c) The sum is $\\dfrac{2\\pi}{3}$<br><br>(d) $x=-\\dfrac{1}{2}$",
+    "B": "(a) $A(x)=B(x)$ for every $0<x\\leq1$<br><br>(b) Range: $\\left[0,\\dfrac{\\pi}{2}\\right)$<br><br>(c) The sum is $\\dfrac{\\pi}{3}$<br><br>(d) $x=\\dfrac{1}{2}$, with $A\\left(\\dfrac{1}{2}\\right)=B\\left(\\dfrac{1}{2}\\right)=\\dfrac{\\pi}{3}$",
+    "C": "(a) $A(x)=\\dfrac{π}{2}-B(x)$<br><br>(b) Range: $\\left[0,\\dfrac{\\pi}{2}\\right]$<br><br>(c) The sum is $\\dfrac{\\pi}{2}$<br><br>(d) $x=\\dfrac{\\sqrt{3}}{2}$",
+    "D": "(a) $A(x)=-B(x)$<br><br>(b) Range: $\\left(-\\dfrac{\\pi}{2},0\\right]$<br><br>(c) The sum is $0$<br><br>(d) $x=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

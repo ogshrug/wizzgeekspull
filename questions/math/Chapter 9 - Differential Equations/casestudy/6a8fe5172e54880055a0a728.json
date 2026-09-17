@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe5172e54880055a0a728",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99d",
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom investigation, four equations are written on the board for comparison: $E_1:x^2-5x+6=0$, $E_2:\\frac{dy}{dx}+xy=0$, $E_3:\\frac{d^2y}{dx^2}+\\left(\\frac{dy}{dx}\\right)^3+y=0$, and $E_4:\\sin\\left(\\frac{dy}{dx}\\right)+y=0$. The students are asked to distinguish equations involving only variables from those involving derivatives of a dependent variable. They must also examine the highest-order derivative present and decide whether the equation is polynomial in its derivatives before assigning a degree. These observations are to be used without solving any of the equations.<br><br><b>(a)</b> Identify which of $E_1,E_2,E_3,E_4$ are differential equations.<br><br><b>(b)</b> Determine the order of $E_3$.<br><br><b>(c)</b> Determine the degree of $E_3$.<br><br><b>(d)</b> Explain why the degree of $E_4$ is not defined.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>A differential equation contains one or more derivatives of a dependent variable with respect to an independent variable.<br><br>$E_1:x^2-5x+6=0$ contains no derivative, so it is not a differential equation.<br><br>$E_2$, $E_3$ and $E_4$ contain derivatives of $y$ with respect to $x$. Hence, $E_2$, $E_3$ and $E_4$ are differential equations.<br><br><b>(b)</b><br>In $E_3$, the derivatives present are $\\frac{dy}{dx}$ and $\\frac{d^2y}{dx^2}$.<br><br>The highest-order derivative is $\\frac{d^2y}{dx^2}$. Therefore, the order of $E_3$ is $2$.<br><br><b>(c)</b><br>The equation $E_3$ is $$\\frac{d^2y}{dx^2}+\\left(\\frac{dy}{dx}\\right)^3+y=0$$<br><br>It is polynomial in its derivatives. The highest-order derivative is $\\frac{d^2y}{dx^2}$ and its power is $1$. Therefore, the degree of $E_3$ is $1$.<br><br><b>(d)</b><br>The equation $E_4$ is $$\\sin\\left(\\frac{dy}{dx}\\right)+y=0$$<br><br>Here, $\\frac{dy}{dx}$ occurs inside the sine function. Hence the equation is not polynomial in its derivative. Since degree is defined only when the differential equation is polynomial in its derivatives, the degree of $E_4$ is not defined.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Only $E_2$ and $E_3$ are differential equations<br>(b) Order of $E_3=2$<br>(c) Degree of $E_3=3$<br>(d) Degree of $E_4$ is not defined because it contains a trigonometric function of $y$",
+    "B": "(a) $E_2,E_3,E_4$ are differential equations<br>(b) Order of $E_3=3$<br>(c) Degree of $E_3=1$<br>(d) Degree of $E_4$ is not defined because $\\frac{dy}{dx}$ occurs inside $\\sin$",
+    "C": "(a) $E_2,E_3,E_4$ are differential equations<br>(b) Order of $E_3=2$<br>(c) Degree of $E_3=1$<br>(d) Degree of $E_4$ is not defined because the equation is not polynomial in its derivative",
+    "D": "(a) All $E_1,E_2,E_3,E_4$ are differential equations<br>(b) Order of $E_3=2$<br>(c) Degree of $E_3=3$<br>(d) Degree of $E_4=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,572 @@
+[
+  {
+    "id": "6a8d24bd550d28a069ec32e1",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "VSA",
+    "question": "Let $A=\\{1,2,3,4\\}$ and let $f:A\\to A$ be one-one. If $f(1)=3$, $f(2)=1$ and $f(3)=4$, determine $f(4)$ and state whether $f$ is onto.",
+    "options": {
+      "A": "$f(4)=2$ and $f$ is onto",
+      "B": "$f(4)=2$ and $f$ is not onto",
+      "C": "$f(4)=3$ and $f$ is onto",
+      "D": "$f(4)=4$ and $f$ is not onto"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a98340589ce36f368b481c",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "MCQ",
+    "question": "Let $S$ be the set of all $3 \\times 3$ real matrices with zero determinant. The relation $R$ on $S$ is defined by $A\\,R\\,B$ if and only if $A$ and $B$ have the same rank. Which of the following is correct?",
+    "options": {
+      "A": "$R$ is an equivalence relation, and the equivalence classes correspond to possible ranks",
+      "B": "$R$ is not reflexive",
+      "C": "$R$ is not symmetric",
+      "D": "$R$ is not transitive"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a98340589ce36f368b481d",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "SA",
+    "question": "Let $A=\\{1,2,3,4\\}$. Define a binary operation $* : A \\times A \\to A$ by $a*b = \\min(5-(a+b), \\max(a,b)).$ Determine whether $*$ is associative and/or commutative. Justify each answer with calculations.",
+    "options": {
+      "A": "$*$ is commutative but not associative",
+      "B": "$*$ is associative but not commutative",
+      "C": "$*$ is both associative and commutative",
+      "D": "$*$ is neither associative nor commutative"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a981116638848124d7c93c",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "LA",
+    "question": "Let $A = \\{1, 2, 3, 4\\}$ and $R$ be a relation on $A$ defined by $R = \\{(a, b) : a \\leq b\\}$. Represent $R$ as a digraph. Is $R$ an equivalence relation? Justify your answer and find the total number of relations on $A$ that are reflexive and transitive.",
+    "options": {
+      "A": "Digraph has loops at $1,2,3,4$ and arrows from each element to every greater element: $(1,2),(1,3),(1,4),(2,3),(2,4),(3,4)$.<br />$R$ is reflexive and transitive but not symmetric, so it is not an equivalence relation.<br />The total number of reflexive and transitive relations on $A$ is $168$.",
+      "B": "Digraph has only loops at $1,2,3,4$.<br />$R$ is reflexive, symmetric and transitive, so it is an equivalence relation.<br />The total number of reflexive and transitive relations on $A$ is $16$.",
+      "C": "Digraph has arrows both ways between every pair of distinct elements.<br />$R$ is symmetric but not reflexive, so it is not an equivalence relation.<br />The total number of reflexive and transitive relations on $A$ is $64$.",
+      "D": "Digraph has arrows only from greater elements to smaller elements.<br />$R$ is transitive but neither reflexive nor symmetric, so it is not an equivalence relation.<br />The total number of reflexive and transitive relations on $A$ is $256$."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8d3db9550d28a069ec32ed",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "SA",
+    "question": "Consider the function $f:\\mathbb{N}\\to\\mathbb{N}$ given by $f(n)=n^2$. Verify that $f$ is one-one.",
+    "options": {
+      "A": "$f$ is not one-one because $f(1)=f(-1)$",
+      "B": "$f$ is not one-one because some natural numbers are not perfect squares",
+      "C": "$f$ is one-one because $n_1^2=n_2^2$ for $n_1,n_2\\in\\mathbb{N}$ implies $n_1=n_2$",
+      "D": "$f$ is one-one only when the domain contains exactly one natural number"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a970356638848124d7c92f",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "MCQ",
+    "question": "The relation $R$ on $\\mathbb{Z}$ defined by $a R b \\iff a - b$ is divisible by 3 is:",
+    "options": {
+      "A": "reflexive, symmetric, transitive",
+      "B": "only symmetric",
+      "C": "only reflexive",
+      "D": "only transitive"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9898062be6a70cd184dd6",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "AR",
+    "question": "Assertion (A): The operation $*$ on $\\mathbb{Z}$ defined by $a*b = a-b$ is commutative.<br /><br />Reason (R): For operation to be commutative, $a*b = b*a$ for all $a, b \\in \\mathbb{Z}$; but $a-b \\ne b-a$ if $a \\ne b$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8d2ba1f1c9329bcf7979a6",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "VSA",
+    "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=\\frac{x-1}{2}$. If $f^{-1}(m)=9$, determine $m$ without explicitly obtaining the complete inverse function.",
+    "options": {
+      "A": "$m=5$",
+      "B": "$m=9$",
+      "C": "$m=16$",
+      "D": "$m=4$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8d82cd65f47a3d0ecf0f28",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "LA",
+    "question": "Let $\\mathbb{R}^{*}$ denote the set of all non-zero real numbers. Consider the function $f:\\mathbb{R}^{*}\\to\\mathbb{R}^{*}$ defined by $f(x)=\\frac{1}{x}$. Prove that $f$ is both one-one and onto.",
+    "options": {
+      "A": "$f$ is one-one but not onto because some non-zero real numbers have no pre-image.",
+      "B": "$f$ is onto but not one-one because $f(x)=f(-x)$ for every $x\\in\\mathbb{R}^{*}$.",
+      "C": "$f$ is both one-one and onto because $f(x_1)=f(x_2)$ implies $x_1=x_2$, and every $y\\in\\mathbb{R}^{*}$ has the pre-image $x=\\frac{1}{y}$.",
+      "D": "$f$ is neither one-one nor onto because the value $0$ is excluded from both the domain and the co-domain."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a970356638848124d7c92e",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "MCQ",
+    "question": "If $f,g : \\mathbb{R}\\to\\mathbb{R}$ are given by $f(x) = 2x$ and $g(x) = x+3$, find fog(x).",
+    "options": {
+      "A": "$3+2x$",
+      "B": "$2x$",
+      "C": "$x+3$",
+      "D": "$2(x+3)$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a970356638848124d7c92a",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "LA",
+    "question": "Let $A = \\mathbb{R} \\setminus \\{0\\}$ and define $f : A \\to \\mathbb{R}$ as $f(x) = \\dfrac{x^2 + 1}{x}$.<br /><br />(a) Prove that $f$ is neither one-one nor onto.<br /><br />(b) Find the range of $f$.",
+    "options": {
+      "A": "(a) $f$ is one-one and onto.<br />(b) Range of $f$ is $\\mathbb{R}$.",
+      "B": "(a) $f$ is one-one but not onto.<br />(b) Range of $f$ is $[0,\\infty)$.",
+      "C": "(a) $f$ is onto but not one-one.<br />(b) Range of $f$ is $(-1,1)$.",
+      "D": "(a) $f$ is neither one-one nor onto because $f(x_1)=f(x_2)$ can occur when $x_1x_2=1$, and no values with $|y|<2$ are obtained.<br />(b) Range of $f$ is $(-\\infty,-2]\\cup[2,\\infty)$."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a98340589ce36f368b4821",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "VSA",
+    "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be defined as $f(x) = 2x + 5$. Write the explicit formula for $f^{-1}$ if it exists, else write 'Not invertible'.",
+    "options": {
+      "A": "$f^{-1}(x)=2x-5$",
+      "B": "$f^{-1}(x)=\\dfrac{x-5}{2}$",
+      "C": "$f^{-1}(x)=\\dfrac{x+5}{2}$",
+      "D": "Not invertible"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8d1e45af259efb39a309d2",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "VSA",
+    "question": "A relation $R$ on $\\mathbb{Z}$ is defined by $aRb$ if $4\\mid(a-b)$. If $aRb$ and $bRc$, show in one relation involving $a$ and $c$ what must follow.",
+    "options": {
+      "A": "$4\\mid(a+c)$",
+      "B": "$a=4c$",
+      "C": "$aRc$, equivalently $4\\mid(a-c)$",
+      "D": "$a-c=4$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8c383eaf259efb39a309c7",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "VSA",
+    "question": "On $A=\\{0,1,2,\\ldots,11\\}$, a relation $R$ is defined by $aRb$ if $4\\mid(a-b)$. Find all elements of $A$ that are related to $3$.",
+    "options": {
+      "A": "$\\{1,5,9\\}$",
+      "B": "$\\{3,7,11\\}$",
+      "C": "$\\{0,4,8\\}$",
+      "D": "$\\{2,6,10\\}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a982256638848124d7c946",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "AR",
+    "question": "Assertion (A): Every bijective function from a finite set to itself is invertible.<br /><br />Reason (R): For a function to be invertible, it must be both one-one and onto.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9735962be6a70cd184dac",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "LA",
+    "question": "**Case Study:**<br /><br />Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a polynomial function of degree $n$. Consider the relation $R$ on $\\mathbb{R}$ defined as $(a,b) \\in R$ iff $f(a) = f(b)$.<br /><br />1. Prove that $R$ is always an equivalence relation.<br /><br />2. For even $n$, describe the minimum and maximum possible number of equivalence classes.<br /><br />3. For odd $n$, what can you say about the number of equivalence classes?",
+    "options": {
+      "A": "1. $R$ is always an equivalence relation because $f(a)=f(b)$ satisfies reflexivity, symmetry and transitivity.<br />2. For even $n$, the minimum possible number of equivalence classes is $1$ and the maximum is infinite.<br />3. For odd $n$, each equivalence class is a singleton, so there are uncountably many equivalence classes.",
+      "B": "1. $R$ is never an equivalence relation.<br />2. For even $n$, there are exactly $n$ equivalence classes.<br />3. For odd $n$, there is only one equivalence class.",
+      "C": "1. $R$ is reflexive but not symmetric.<br />2. For even $n$, the maximum number of classes is $1$.<br />3. For odd $n$, no equivalence classes exist.",
+      "D": "1. $R$ is symmetric but not transitive.<br />2. For even $n$, there are exactly two equivalence classes.<br />3. For odd $n$, the number of equivalence classes is finite."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9898062be6a70cd184dd7",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "AR",
+    "question": "Assertion (A): If $f: \\text{R} \\{0\\} \\to \\text{R}$ is defined by $f(x) = \\frac{1}{x}$, then $f$ is its own inverse.<br /><br />Reason (R): Every involutive function (that is, $f(f(x))=x$) is necessarily injective.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8d41851cb3824448de86ca",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "SA",
+    "question": "On $\\mathbb{Z}^{+}$, an operation $*$ is defined by $a*b=a-b$. Determine whether $*$ is a binary operation on $\\mathbb{Z}^{+}$. Justify your answer.",
+    "options": {
+      "A": "$*$ is a binary operation because the difference of two positive integers is always a positive integer",
+      "B": "$*$ is a binary operation only when $a>b$",
+      "C": "$*$ is not a binary operation because, for example, $3*5=-2\\notin\\mathbb{Z}^{+}$",
+      "D": "$*$ is not a binary operation only because subtraction is not commutative"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a98be46638848124d7c95e",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "VSA",
+    "question": "An equivalence relation $R$ in $A$ divides it into equivalence classes $A_1$, $A_2$, $A_3$. What is the value of $A_1 \\cup A_2 \\cup A_3$ & $A_1 \\cap A_2 \\cap A_3$.",
+    "options": {
+      "A": "$A_1 \\cup A_2 \\cup A_3 = A$ and $A_1 \\cap A_2 \\cap A_3 = \\emptyset$",
+      "B": "$A_1 \\cup A_2 \\cup A_3 = \\emptyset$ and $A_1 \\cap A_2 \\cap A_3 = A$",
+      "C": "$A_1 \\cup A_2 \\cup A_3 = A$ and $A_1 \\cap A_2 \\cap A_3 = A$",
+      "D": "$A_1 \\cup A_2 \\cup A_3 = \\emptyset$ and $A_1 \\cap A_2 \\cap A_3 = \\emptyset$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a984cd62be6a70cd184dc5",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "AR",
+    "question": "Assertion (A): The intersection of two equivalence relations on a set $A$ is always an equivalence relation on $A$.<br /><br />Reason (R): The union of two equivalence relations on $A$ is always an equivalence relation on $A$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9745a589ce36f368b4804",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "SA",
+    "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a function defined by $f(x) = 2x+3$. Find the inverse of $f$ and verify that $f^{-1}$ is also a function. Show both algebraically and using composition of functions.",
+    "options": {
+      "A": "$f^{-1}(y)=\\dfrac{y-3}{2}$ and $f^{-1}$ is a function",
+      "B": "$f^{-1}(y)=\\dfrac{y+3}{2}$ and $f^{-1}$ is a function",
+      "C": "$f^{-1}(y)=2y+3$ and $f^{-1}$ is a function",
+      "D": "$f$ has no inverse function"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a982266638848124d7c94c",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "SA",
+    "question": "Consider two equivalence relations $R_1$ and $R_2$ on a finite set $A$. Prove that $R = R_1 \\cap R_2$ is also an equivalence relation on $A$.",
+    "options": {
+      "A": "$R_1 \\cap R_2$ is not an equivalence relation because intersection destroys reflexivity",
+      "B": "$R_1 \\cap R_2$ is not an equivalence relation because it is symmetric only",
+      "C": "$R_1 \\cap R_2$ is an equivalence relation because it is reflexive, symmetric and transitive",
+      "D": "$R_1 \\cap R_2$ is a universal relation for every finite set $A$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9735862be6a70cd184da9",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "SA",
+    "question": "Let $f: \\mathbb{R}^* \\to \\mathbb{R}^*$ (the set of nonzero real numbers) be defined by $f(x) = \\frac{1}{x}$. Prove that $f$ is bijective and its own inverse, i.e., $f^{-1} = f$.",
+    "options": {
+      "A": "$f$ is not bijective and has no inverse",
+      "B": "$f$ is bijective and $f^{-1}=f$",
+      "C": "$f$ is injective but not surjective",
+      "D": "$f$ is surjective but not injective"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8d8abb4b490c7cde3593ad",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "LA",
+    "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=2x+3$ and let $g:\\mathbb{R}\\to\\mathbb{R}$ be a function such that $(g\\circ f)(x)=4x^2+12x+11$ for every $x\\in\\mathbb{R}$. Determine $g(x)$ and verify the result using the definition of composition of functions.",
+    "options": {
+      "A": "$g(x)=x^2-2$, because $g(2x+3)=(2x+3)^2-2=4x^2+12x+7$.",
+      "B": "$g(x)=2x^2+1$, because $g(2x+3)=2(2x+3)^2+1$.",
+      "C": "$g(x)=x^2+2$, because $g(2x+3)=(2x+3)^2+2=4x^2+12x+11$.",
+      "D": "$g(x)=x^2+3x+2$, because substituting $f(x)=2x+3$ gives the required composition."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9898162be6a70cd184dda",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "AR",
+    "question": "Assertion (A): If a binary operation $*$ on $A$ is associative and $e$ is an identity element, then every element of $A$ has an inverse with respect to $*$.<br /><br />Reason (R): Associativity and the existence of an identity do not necessarily imply the existence of inverses for every element.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a981126638848124d7c943",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "MCQ",
+    "question": "Let $A = \\{0, 1\\}$. What is the total number of relations on $A$ that are both reflexive and symmetric?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8d8c9a4b490c7cde3593b4",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "LA",
+    "question": "Let $A=\\mathbb{N}\\times\\mathbb{N}$ and define $*$ on $A$ by $(a,b)*(c,d)=(a+c,b+d)$. Show that $*$ is a binary operation on $A$, establish whether it is commutative and associative, and determine whether an identity element exists in $A$.",
+    "options": {
+      "A": "$*$ is a binary operation and is associative but not commutative; its identity element is $(1,1)$.",
+      "B": "$*$ is a commutative binary operation but is not associative, and it has no identity element in $A$.",
+      "C": "$*$ is a commutative and associative binary operation, but it has no identity element in $A$ because the only possible identity, $(0,0)$, does not belong to $\\mathbb{N}\\times\\mathbb{N}$.",
+      "D": "$*$ is a commutative and associative binary operation with identity element $(0,0)$ in $A$."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a984cd62be6a70cd184dc4",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "AR",
+    "question": "Assertion (A): The function $f: \\mathbb{R} \\to \\mathbb{R}$ defined by $f(x) = \\lfloor x \\rfloor$ (greatest integer function) is neither injective nor surjective.<br /><br />Reason (R): For every $y \\in \\mathbb{R}$, there exists an $x \\in \\mathbb{R}$ such that $f(x)=y$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a970bb589ce36f368b4801",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "MCQ",
+    "question": "Let $A = \\{1, 2, 3\\}$. The number of reflexive relations on $A$ is:",
+    "options": {
+      "A": "8",
+      "B": "16",
+      "C": "64",
+      "D": "27"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a988986638848124d7c95b",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a92678681ebad583540307",
+    "question_type": "MCQ",
+    "question": "Let $S = \\{x \\in \\mathbb{R}\\ :\\ x > 0\\}$. Let $f: S \\to S$ be given by $f(x) = x^{k}$, where $k$ is a fixed real constant $> 0$ and $k \\neq 1$. For which values of $k$ is $f$ invertible, and which of the following best describes $f^{-1}(y)$ for $y \\in S$?",
+    "options": {
+      "A": "Invertible for all $k > 0,\\ k \\neq 1$; $f^{-1}(y) = y^{1/k}$",
+      "B": "Invertible for all $k > 0,\\ k \\neq 1$; $f^{-1}(y) = y^{k}$",
+      "C": "Invertible for $k>0$ only if $k>1$; $f^{-1}(y) = y^{1/k}$",
+      "D": "Invertible for $k<1$ only; $f^{-1}(y) = y^{k}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  }
+]

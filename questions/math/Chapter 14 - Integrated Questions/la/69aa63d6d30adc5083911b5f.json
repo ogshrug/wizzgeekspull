@@ -1,0 +1,30 @@
+{
+  "id": "69aa63d6d30adc5083911b5f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = x^{x}$ for $x > 0$. Define a function $g(x) = \\frac{d}{dx}f(x)$. Consider the matrix $A = \\begin{pmatrix} g(1) & g(2) \\\\ g\\left(\\frac{1}{2}\\right) & g(e) \\end{pmatrix}$.\n\n(a) Calculate all entries of $A$.\n\n(b) Compute $|A|$ (the determinant of $A$).\n\n(c) Discuss the properties of the function $f$ and the matrix $A$ in the context of continuity and differentiability.\n\n(d) Considering the minors of $A$, form a relation $R$ on the set $\\{g(1), g(2), g(\\frac{1}{2}), g(e)\\}$ such that $a R b$ if $|a-b|$ is a rational number, and determine whether $R$ is an equivalence relation.",
+  "answeroption": "B",
+  "explanation": "**Concepts being tested:**<br />- Differentiation (Continuity & Differentiability)<br />- Determinants of order $2$ matrices (Determinants)<br />- Properties of relations and equivalence relations (Relations and Functions)<br />- Properties of $x^x$<br /><br />(a) **Calculate entries of $A$**<br /><br />$f(x)=x^x$<br /><br />$\\ln f(x)=x\\ln x$<br /><br />$f'(x)=\\frac{d}{dx}(e^{x\\ln x})=e^{x\\ln x}\\frac{d}{dx}(x\\ln x)$<br /><br />But $e^{x\\ln x}=x^x$, and $\\frac{d}{dx}(x\\ln x)=\\ln x+1$<br /><br />So $g(x)=x^x(\\ln x+1)$<br /><br />Now plug in:<br /><br />g(1): $1^{1}(\\ln 1+1)=1(0+1)=1$<br /><br />g(2): $2^{2}(\\ln 2+1) = 4(\\ln 2+1)$<br /><br />g(1/2): $(1/2)^{1/2}(\\ln(1/2)+1)=\\frac{1}{\\sqrt{2}}(-\\ln 2+1)$<br /><br />g(e): $e^{e}(\\ln e+1) = e^{e}(1+1)=2e^e$<br /><br />So $A=\\begin{pmatrix}1 & 4(\\ln 2+1)\\\\ \\frac{1}{\\sqrt{2}}(-\\ln 2+1) & 2e^e\\end{pmatrix}$<br /><br />(b) **Compute $|A|$**<br /><br />$|A|=1\\cdot2e^e-4(\\ln 2+1)\\frac{1}{\\sqrt{2}}(-\\ln 2+1)$<br /><br />Expand:<br /><br />$1\\cdot2e^e=2e^e$<br /><br />$-4(\\ln 2+1)\\frac{1}{\\sqrt{2}}(-\\ln 2+1)=\\frac{-4(\\ln 2+1)(-\\ln 2+1)}{\\sqrt{2}}$<br /><br />$(\\ln 2+1)(-\\ln 2+1)=1-(\\ln 2)^2$<br /><br />So $|A|=2e^e+\\frac{4}{\\sqrt{2}}(1-(\\ln 2)^2)$<br /><br />$\\frac{4}{\\sqrt{2}}=2\\sqrt{2}$<br /><br />Therefore, $|A|=2e^e+2\\sqrt{2}(1-(\\ln 2)^2)$<br /><br />(c) **Properties of $f$ and $A$ w.r.t. continuity, differentiability**<br /><br />For $x>0$, $x^x$ is smooth: $f$ continuous/differentiable $\\forall x>0$. Thus all $g(x)$ are defined for the given evaluations, and $A$ is a real matrix. $A$ is therefore a real, non-singular matrix (unless $|A|=0$ for some reason).<br /><br />(d) **Relation $R$ on $\\{g(1),g(2),g(1/2),g(e)\\}$; $a R b$ iff $|a-b|$ rational. Is $R$ an equivalence relation?**<br /><br />- Reflexive: $|a-a|=0$ (rational), so $R$ is reflexive.<br /><br />- Symmetric: $|a-b|$ rational $\\implies |b-a|$ rational, so symmetric.<br /><br />- Transitive: $aRb$, $bRc$ means $|a-b|$, $|b-c|$ rational; but $|a-c|$ can be irrational.<br /><br />Specific to our set: $g(e)-g(1)=2e^e-1$ (not rational); $g(2)-g(1)=4(\\ln2+1)-1=4\\ln2+3$ (irrational); $g(1/2)$ also involves $\\ln2$, so irrational. None of these differences are rational, so within this set, $R$ reduces to identity only, which is a trivial equivalence relation: each element only equivalent to itself.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $g(x)=x^x$ and $A=\\begin{pmatrix}1&4\\\\\\frac{1}{\\sqrt{2}}&e^e\\end{pmatrix}$<br />(b) $|A|=e^e-\\frac{4}{\\sqrt{2}}$<br />(c) $f$ is not differentiable for $x>0$<br />(d) $R$ is not reflexive",
+    "B": "(a) $g(x)=x^x(\\ln x+1)$, so $A=\\begin{pmatrix}1&4(\\ln 2+1)\\\\\\frac{1}{\\sqrt{2}}(1-\\ln 2)&2e^e\\end{pmatrix}$<br />(b) $|A|=2e^e+2\\sqrt{2}(1-(\\ln 2)^2)$ as obtained in the explanation<br />(c) $f(x)=x^x$ is continuous and differentiable for all $x>0$, so all entries of $A$ are real and defined<br />(d) On the given set, the relation reduces to identity only, hence it is a trivial equivalence relation",
+    "C": "(a) $g(x)=\\ln x+1$ and $A=\\begin{pmatrix}1&\\ln 2+1\\\\1-\\ln 2&2\\end{pmatrix}$<br />(b) $|A|=0$<br />(c) $f$ is continuous but not differentiable<br />(d) $R$ is symmetric but not reflexive",
+    "D": "(a) $g(x)=x^{x-1}$ and $A=\\begin{pmatrix}1&2\\\\2&e\\end{pmatrix}$<br />(b) $|A|=e-4$<br />(c) $A$ is always singular<br />(d) $R$ is not an equivalence relation"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:19:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

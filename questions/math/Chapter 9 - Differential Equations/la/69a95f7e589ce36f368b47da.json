@@ -1,0 +1,29 @@
+{
+  "id": "69a95f7e589ce36f368b47da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "LA",
+  "question": "Let $y(x)$ be the particular solution to<br /><br />$\\frac{dy}{dx} = \\frac{x^2 + 2y^2}{2 x y}$<br /><br />with initial condition $y(1) = \\sqrt{2}$.<br /><br />(a) Show that the equation is homogeneous and reduce it to a separable form using $y = v x$.<br /><br />(b) Find the general solution.<br /><br />(c) Using the particular solution, find the value of $y(\\sqrt{2})$.",
+  "answeroption": "D",
+  "explanation": "(a) Let $y = v x$, $\\frac{dy}{dx} = v + x \\frac{dv}{dx}$.<br /><br />$\\frac{dy}{dx} = \\frac{x^2 + 2y^2}{2 x y} = \\frac{x^2 + 2(vx)^2}{2x v x} = \\frac{x^2 + 2v^2 x^2}{2 v x^2} = \\frac{1 + 2v^2}{2v}$<br /><br />So:<br /><br />$v + x \\frac{dv}{dx} = \\frac{1 + 2v^2}{2v}$<br /><br />$x \\frac{dv}{dx} = \\frac{1 + 2v^2}{2v} - v = \\frac{1 + 2v^2 - 2v^2}{2v} = \\frac{1}{2v}$<br /><br />$2 v x \\frac{dv}{dx} = 1$<br /><br />$2 v dv = \\frac{dx}{x}$<br /><br />(b) Integrate both sides:<br /><br />$2 \\int v dv = \\int \\frac{dx}{x}$<br /><br />$2 \\cdot \\frac{v^2}{2} = \\ln|x| + C$<br /><br />$v^2 = \\ln|x| + C$<br /><br />Recall $v = \\frac{y}{x}$:<br /><br />$\\left( \\frac{y}{x} \\right)^2 = \\ln|x| + C$<br /><br />$y^2 = x^2 (\\ln|x| + C)$<br /><br />(c) At $y(1) = \\sqrt{2}$:<br /><br />Substitute:<br /><br />$(\\sqrt{2})^2 = (1)^2 (\\ln 1 + C)$<br /><br />$2 = 0 + C$, thus $C = 2$<br /><br />So,<br /><br />$y^2 = x^2 (\\ln|x| + 2)$<br /><br />At $x = \\sqrt{2}$:<br /><br />$\\ln \\sqrt{2} = \\frac{1}{2} \\ln 2$<br /><br />$y^2 = 2 (\\frac{1}{2} \\ln 2 + 2) = \\ln 2 + 4$<br /><br />$y(\\sqrt{2}) = \\sqrt{\\ln 2 + 4}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Homogeneous<br />(b) $y^2=x^2(\\ln|x|+C)$<br />(c) $y(\\sqrt2)=\\sqrt{\\ln2+2}$",
+    "B": "(a) Not homogeneous<br />(b) $y^2=x^2+C$<br />(c) $y(\\sqrt2)=2$",
+    "C": "(a) Homogeneous<br />(b) $y^2=x^2(2\\ln|x|+C)$<br />(c) $y(\\sqrt2)=\\sqrt{2\\ln2+4}$",
+    "D": "(a) Homogeneous<br />(b) $y^2=x^2(\\ln|x|+C)$<br />(c) $y(\\sqrt2)=\\sqrt{\\ln2+4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:48:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

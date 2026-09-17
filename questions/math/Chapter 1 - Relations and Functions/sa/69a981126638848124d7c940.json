@@ -1,0 +1,31 @@
+{
+  "id": "69a981126638848124d7c940",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Let $f: \\mathbb{R} \\setminus \\{1\\} \\to \\mathbb{R} \\setminus \\{2\\}$ be defined by $f(x) = \\dfrac{x+1}{x-1}$. Prove that $f$ is bijective and find $f^{-1}$.",
+  "answeroption": "A",
+  "explanation": "**Injectivity:**<br /><br />Let $f(x_1) = f(x_2)$<br /><br />$\\Rightarrow \\frac{x_1 + 1}{x_1 - 1} = \\frac{x_2 + 1}{x_2 - 1}$<br /><br />$\\Rightarrow (x_1 + 1)(x_2 - 1) = (x_2 + 1)(x_1 - 1)$<br /><br />$\\Rightarrow x_1 x_2 - x_1 + x_2 - 1 = x_2 x_1 - x_2 + x_1 -1$<br /><br />$\\Rightarrow -x_1 + x_2 = -x_2 + x_1$<br /><br />$\\Rightarrow 2(x_2 - x_1) = 0 \\implies x_1 = x_2$<br /><br />Hence, $f$ is injective.<br /><br />**Surjectivity:**<br /><br />Let $y \\in \\mathbb{R} \\setminus \\{2\\}$<br /><br />Set $y = \\dfrac{x+1}{x-1}$<br /><br />$\\Rightarrow y(x-1) = x+1 \\implies yx - y = x + 1 \\implies yx - x = y + 1$<br /><br />$\\Rightarrow x(y-1) = y + 1 \\implies x = \\frac{y+1}{y-1}$<br /><br />For $y \\neq 1$, this is always defined and $x = 1$ is never obtained for $y \\neq 2$ (since $x=1$ would give $f(1) = \\infty$, not in domain). Since $y \\neq 2$, $x \\neq 1$.<br /><br />So, $f$ is surjective.<br /><br />Therefore, $f$ is bijective.<br /><br />**Inverse:**<br /><br />$y=\\dfrac{x+1}{x-1} \\implies x = \\frac{y+1}{y-1}$<br /><br />$\\implies f^{-1}(y) = \\frac{y+1}{y-1}, \\quad y \\neq 1$",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is bijective and $f^{-1}(y)=\\dfrac{y+1}{y-1}$",
+    "B": "$f$ is not injective and hence not bijective",
+    "C": "$f$ is bijective and $f^{-1}(y)=\\dfrac{y-1}{y+1}$",
+    "D": "$f$ is injective but not surjective"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:11:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

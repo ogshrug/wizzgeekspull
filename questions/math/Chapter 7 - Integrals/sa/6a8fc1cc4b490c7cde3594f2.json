@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc1cc4b490c7cde3594f2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Using a suitable property of definite integrals, evaluate $\\displaystyle I=\\int_0^{\\frac{\\pi}{2}}x(\\sin x+\\cos x)\\,dx$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Applying the transformation property</b><br>Use $\\displaystyle \\int_0^a f(x)\\,dx=\\int_0^a f(a-x)\\,dx$ with $a=\\frac{\\pi}{2}$. Therefore,<br>$$I=\\int_0^{\\frac{\\pi}{2}}\\left(\\frac{\\pi}{2}-x\\right)\\left[\\sin\\left(\\frac{\\pi}{2}-x\\right)+\\cos\\left(\\frac{\\pi}{2}-x\\right)\\right]dx$$<br><b>Step 2: Simplifying the transformed expression</b><br>Since the bracket becomes $\\cos x+\\sin x$,<br>$$I=\\int_0^{\\frac{\\pi}{2}}\\left(\\frac{\\pi}{2}-x\\right)(\\sin x+\\cos x)\\,dx$$<br><b>Step 3: Adding the two forms</b><br>$$2I=\\frac{\\pi}{2}\\int_0^{\\frac{\\pi}{2}}(\\sin x+\\cos x)\\,dx$$<br><b>Step 4: Evaluating the simple integral</b><br>$$\\int_0^{\\frac{\\pi}{2}}(\\sin x+\\cos x)\\,dx=2$$<br>Thus, $2I=\\pi$.<br><b>Step 5: Obtaining the value</b><br>Hence, $\\boxed{I=\\frac{\\pi}{2}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{2}$",
+    "B": "$\\pi$",
+    "C": "$\\frac{\\pi}{4}$",
+    "D": "$1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9212e64fcf4cdd5b4bb25",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "A manufacturer makes two types of toys, A and B. Type A requires 2 hours on machine I and 1 hour on machine II. Type B requires 1 hour on machine I and 3 hours on machine II. The manufacturer has 80 hours on machine I and 120 hours on machine II available per week. Each toy of type A gives a profit of ₹30 and each toy of type B gives a profit of ₹50. The manufacturer wants to earn at least ₹1000 per week. Formulate an LPP to maximize profit. Also, find the optimal number of toys of each type to be produced and the maximum profit. Further, does the solution remain optimal if the profit per toy of type A is changed to ₹40?",
+  "answeroption": "C",
+  "explanation": "Let $x$ = number of toys of type A and $y$ = number of toys of type B.<br /><br />Objective function: Maximize $Z = 30x + 50y$.<br /><br />Constraints:<br /><br />Machine I: $2x + y \\leq 80$.<br /><br />Machine II: $x + 3y \\leq 120$.<br /><br />Minimum profit: $30x + 50y \\geq 1000$.<br /><br />Non-negativity: $x \\geq 0, y \\geq 0$.<br /><br />Convert the third constraint: $30x + 50y \\geq 1000 \\implies 3x + 5y \\geq 100$.<br /><br />Solve $2x + y = 80$ and $x + 3y = 120$.<br /><br />$y = 80 - 2x$. Substitute into second equation.<br /><br />$x + 3(80 - 2x) = 120 \\implies x + 240 - 6x = 120 \\implies -5x = -120 \\implies x = 24$.<br /><br />$y = 80 - 2×24 = 32$.<br /><br />Corner points: $(0,20)$, $(0,40)$, $(24,32)$, $(40,0)$, $(33.33,0)$.<br /><br />Evaluate $Z$.<br /><br />At $(0,20)$: $Z=1000$.<br /><br />At $(0,40)$: $Z=2000$.<br /><br />At $(24,32)$: $Z=2320$.<br /><br />At $(40,0)$: $Z=1200$.<br /><br />At $(33.33,0)$: $Z=1000$.<br /><br />Maximum at $(24,32)$ giving profit ₹2320.<br /><br />If profit of type A becomes ₹40, new objective $Z' = 40x + 50y$.<br /><br />At $(24,32)$: $Z' = 2560$.<br /><br />Other points give smaller values. Hence $(24,32)$ remains optimal.",
+  "explanation_image": [],
+  "options": {
+    "A": "Optimal production is $(0,40)$ with maximum profit ₹2000; it remains optimal if type A profit becomes ₹40.",
+    "B": "Optimal production is $(40,0)$ with maximum profit ₹1200; it does not remain optimal if type A profit becomes ₹40.",
+    "C": "Optimal production is $(24,32)$ with maximum profit ₹2320; it remains optimal if type A profit becomes ₹40.",
+    "D": "Optimal production is $(33.33,0)$ with maximum profit ₹1000; it remains optimal if type A profit becomes ₹40."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:22:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a2650cd864be73cfcf6d334",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: <br />$$\\int_{0}^{\\pi/4}\\frac{dx}{1+tan~x}$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the given definite integral be denoted by $I = \\int_{0}^{\\pi/4}\\frac{dx}{1+\\tan x}$. Convert the tangent function into sine and cosine terms using $\\tan x = \\frac{\\sin x}{\\cos x}$ to help simplify. This converts the integral into $I = \\int_{0}^{\\pi/4} \\frac{dx}{1 + \\frac{\\sin x}{\\cos x}} = \\int_{0}^{\\pi/4} \\frac{\\cos x}{\\cos x + \\sin x} dx$. Let this be Equation (1).<br />**Step 2:** Apply the fundamental definite integral property $\\int_{a}^{b} f(x) dx = \\int_{a}^{b} f(a+b-x) dx$. Here, our limits are $a = 0$ and $b = \\frac{\\pi}{4}$, so we replace every instance of $x$ with $(\\frac{\\pi}{4} - x)$ in the integrand: $I = \\int_{0}^{\\pi/4} \\frac{\\cos(\\frac{\\pi}{4} - x)}{\\cos(\\frac{\\pi}{4} - x) + \\sin(\\frac{\\pi}{4} - x)} dx$. Using standard trigonometric addition formulas, we simplify the terms: $\\cos(\\frac{\\pi}{4}-x) = \\frac{1}{\\sqrt{2}}(\\cos x + \\sin x)$ and $\\sin(\\frac{\\pi}{4}-x) = \\frac{1}{\\sqrt{2}}(\\cos x - \\sin x)$. Substituting these back gives: $I = \\int_{0}^{\\pi/4} \\frac{\\cos x + \\sin x}{(\\cos x + \\sin x) + \\cos x - \\sin x} dx = \\int_{0}^{\\pi/4} \\frac{\\cos x + \\sin x}{2\\cos x} dx = \\int_{0}^{\\pi/4} \\left(\\frac{1}{2} + \\frac{1}{2}\\tan x\\right) dx$. This simplifies directly to $I = \\frac{1}{2} \\int_{0}^{\\pi/4} (1 + \\tan x) dx$.<br />**Step 3:** To combine both perspectives, let us return to Equation (1) and look at another method by applying the property directly to $I = \\int_{0}^{\\pi/4} \\frac{1}{1+\\tan x} dx$. This yields $I = \\int_{0}^{\\pi/4} \\frac{1}{1+\\tan(\\frac{\\pi}{4}-x)} dx$. Since $\\tan(\\frac{\\pi}{4}-x) = \\frac{1-\\tan x}{1+\\tan x}$, the integrand becomes $\\frac{1}{1 + \\frac{1-\\tan x}{1+\\tan x}} = \\frac{1+\\tan x}{2}$. Thus, we obtain the expression $I = \\frac{1}{2}\\int_{0}^{\\pi/4}(1+\\tan x)dx$.<br />**Step 4:** Now integrate this expression directly term by term using standard formulas: $\\int 1 dx = x$ and $\\int \\tan x dx = \\log|\\sec x|$. This gives $I = \\frac{1}{2} [x + \\log|\\sec x|]_{0}^{\\pi/4}$. Now substitute upper and lower boundaries: $I = \\frac{1}{2} \\left[ \\left(\\frac{\\pi}{4} + \\log|\\sec\\frac{\\pi}{4}|\\right) - (0 + \\log|\\sec 0|) \\right]$. Since $\\sec\\frac{\\pi}{4} = \\sqrt{2}$ and $\\sec 0 = 1$, this evaluates to $\\frac{1}{2} \\left( \\frac{\\pi}{4} + \\log\\sqrt{2} - \\log 1 \\right)$. Knowing $\\log 1 = 0$ and $\\log\\sqrt{2} = \\frac{1}{2}\\log 2$, we get the final value: $\\frac{\\pi}{8} + \\frac{1}{4}\\log 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a33b8296dbc98396e70a7c4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991"
+  ],
+  "question_type": "LA",
+  "question": "In a rough sketch, mark the region bounded by $y=1+|x+1|$, $x=-2$, $x=2$ and $y=0$ Using integration, find the area of the marked region.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Analyze the nature of the absolute value function. The expression $|x+1|$ changes its algebraic behavior at the critical boundary point $x = -1$. For the interval $[-2, -1]$, $|x+1| = -(x+1)$, so $y = 1 - x - 1 = -x$. For the interval $[-1, 2]$, $|x+1| = x+1$, so $y = 1 + x + 1 = x + 2$. This splits our single area integral into two separate blocks.<br /><br />**Step 2:** Construct the definite integral formulation across both independent sub-intervals: $\\text{Area} = \\int_{-2}^{-1} (-x) \\, dx + \\int_{-1}^{2} (x+2) \\, dx$.<br /><br />**Step 3:** Evaluate the first segment using standard polynomial integration: $\\int_{-2}^{-1} -x \\, dx = \\left[ -\\frac{x^2}{2} \\right]_{-2}^{-1} = -\\frac{1}{2} - \\left(-\\frac{4}{2}\\right) = \\frac{3}{2}$ square units.<br /><br />**Step 4:** Evaluate the second segment across its limits: $\\int_{-1}^{2} (x+2) \\, dx = \\left[ \\frac{x^2}{2} + 2x \\right]_{-1}^{2} = \\left(\\frac{4}{2} + 4\\right) - \\left(\\frac{1}{2} - 2\\right) = 6 - \\left(-\\frac{3}{2}\\right) = \\frac{15}{2}$ square units. Summing both segments gives the total area: $\\frac{3}{2} + \\frac{15}{2} = 9$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a8d2f4977877fac8fdb9930",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Let $R_1$ and $R_2$ be two equivalence relations on a non-empty set $A$. Show that $R_1\\cap R_2$ is also an equivalence relation on $A$.",
+  "answeroption": "A",
+  "explanation": "<b>Reflexivity of the intersection</b><br>Since $R_1$ and $R_2$ are equivalence relations, $(a,a)\\in R_1$ and $(a,a)\\in R_2$ for every $a\\in A$. Hence, $(a,a)\\in R_1\\cap R_2$. Therefore, $R_1\\cap R_2$ is reflexive.<br><br><b>Symmetry of the intersection</b><br>Suppose $(a,b)\\in R_1\\cap R_2$. Then $(a,b)\\in R_1$ and $(a,b)\\in R_2$. Since both relations are symmetric, $(b,a)\\in R_1$ and $(b,a)\\in R_2$. Thus, $(b,a)\\in R_1\\cap R_2$, so the intersection is symmetric.<br><br><b>Transitivity of the intersection</b><br>Suppose $(a,b),(b,c)\\in R_1\\cap R_2$. Then both ordered pairs belong to each of $R_1$ and $R_2$. Since $R_1$ and $R_2$ are transitive, $(a,c)\\in R_1$ and $(a,c)\\in R_2$. Hence, $(a,c)\\in R_1\\cap R_2$. Therefore, the intersection is transitive.<br><br><b>Conclusion</b><br>Since $R_1\\cap R_2$ is reflexive, symmetric and transitive, it is an equivalence relation on $A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R_1\\cap R_2$ is reflexive, symmetric and transitive; hence, it is an equivalence relation",
+    "B": "$R_1\\cap R_2$ is reflexive and symmetric but need not be transitive",
+    "C": "$R_1\\cap R_2$ is symmetric and transitive but need not be reflexive",
+    "D": "$R_1\\cap R_2$ need not be an equivalence relation because intersections do not preserve any relation property"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

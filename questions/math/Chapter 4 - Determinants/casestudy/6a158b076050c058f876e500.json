@@ -1,0 +1,27 @@
+{
+  "id": "6a158b076050c058f876e500",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d75",
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An architect is developing a plot of land for a commercial complex. When asked about the dimensions of the plot, he said that if the length is decreased by 25 m and the breadth is increased by 25 m, then its area increases by 625 $m^{2}$. If the length is decreased by 20 m and the breadth is increased by 10 m, then its area decreases by 200 $m^2$.<br /><br />On the basis of the above information, answer the following questions:<br />(i) Formulate the linear equations in x and y to represent the given information.<br />(ii) Find the dimensions of the plot of land by matrix method.",
+  "answeroption": "",
+  "explanation": "**Step 1: Deep analysis and formulation of Part (i)**<br />Let the length of the commercial plot be $x$ meters and its breadth be $y$ meters. The original area of this rectangular plot is given by $x \\cdot y$ square meters.<br />- **First Scenario:** The length is decreased by 25 m $(x - 25)$ and the breadth is increased by 25 m $(y + 25)$, increasing the total area by 625 $m^2$.<br />  $(x - 25)(y + 25) = xy + 625$<br />  $xy + 25x - 25y - 625 = xy + 625$<br />  $25x - 25y = 1250 \\implies x - y = 50 \\quad \\text{--- (Equation 1)}$<br />- **Second Scenario:** The length is decreased by 20 m $(x - 20)$ and the breadth is increased by 10 m $(y + 10)$, decreasing the total area by 200 $m^2$.<br />  $(x - 20)(y + 10) = xy - 200$<br />  $xy + 10x - 20y - 200 = xy - 200$<br />  $10x - 20y = 0 \\implies x - 2y = 0 \\quad \\text{--- (Equation 2)}$<br />Thus, the linear equations representing the system are:<br />$x - y = 50$ and $x - 2y = 0$.<br /><br />**Step 2: Set up the matrix system for Part (ii)**<br />We can write the linear equations from Part (i) in matrix form as $AX = B$:<br />$\\begin{bmatrix}1&-1\\\\1&-2\\end{bmatrix} \\begin{bmatrix}x\\\\y\\end{bmatrix} = \\begin{bmatrix}50\\\\0\\end{bmatrix}$<br /><br />**Step 3: Compute the inverse matrix $A^{-1}$**<br />Find the determinant of coefficient matrix $A$: $|A| = 1(-2) - (-1)(1) = -2 + 1 = -1$. Since $|A| \\neq 0$, a unique solution exists.<br />Find the adjoint matrix of $A$: $\\text{adj}(A) = \\begin{bmatrix}-2&1\\\\-1&1\\end{bmatrix}$.<br />Calculate $A^{-1} = \\frac{1}{|A|}\\text{adj}(A) = \\frac{1}{-1}\\begin{bmatrix}-2&1\\\\-1&1\\end{bmatrix} = \\begin{bmatrix}2&-1\\\\1&-1\\end{bmatrix}$.<br /><br />**Step 4: Solve for dimensions vector $X$**<br />Using the matrix multiplication rule $X = A^{-1}B$:<br />$\\begin{bmatrix}x\\\\y\\end{bmatrix} = \\begin{bmatrix}2&-1\\\\1&-1\\end{bmatrix} \\begin{bmatrix}50\\\\0\\end{bmatrix} = \\begin{bmatrix}2(50) + (-1)(0)\\\\1(50) + (-1)(0)\\end{bmatrix} = \\begin{bmatrix}100\\\\50\\end{bmatrix}$<br />This gives us $x = 100$ and $y = 50$. Therefore, the length of the land plot is **100 meters** and the breadth is **50 meters**.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a158b076050c058f876e500/1782261012-0.png?t=1782280813093"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

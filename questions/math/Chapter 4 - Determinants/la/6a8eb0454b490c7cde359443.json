@@ -1,0 +1,32 @@
+{
+  "id": "6a8eb0454b490c7cde359443",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d71",
+    "69c6603740512f018fa94d72",
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "LA",
+  "question": "Consider the system<br>$$x+y+z=3$$<br>$$2x+3y+4z=8$$<br>$$3x+4y+5z=k$$<br><br><b>(a)</b> Show that the determinant of the coefficient matrix is zero.<br><br><b>(b)</b> Determine the value of $k$ for which the system is consistent.<br><br><b>(c)</b> For this value of $k$, state the number of solutions and express the solution in terms of one parameter.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The coefficient matrix is<br>$$A=\\begin{bmatrix}1 & 1 & 1\\\\2 & 3 & 4\\\\3 & 4 & 5\\end{bmatrix}$$<br>Since $R_3=R_1+R_2$, the rows are dependent. Therefore,<br>$$|A|=0$$<br><br><b>(b)</b><br>The left-hand side of the third equation is the sum of the left-hand sides of the first and second equations. For consistency, its right-hand side must also be their sum.<br>$$k=3+8=11$$<br>Thus, the system is consistent when $k=11$. If $k\\neq11$, it is inconsistent.<br><br><b>(c)</b><br>For $k=11$, the third equation is dependent on the first two equations. Hence, the system has infinitely many solutions.<br>Let $z=t$. From the first equation,<br>$$x+y=3-t$$<br>Subtracting twice the first equation from the second equation gives<br>$$y+2z=2$$<br>Therefore,<br>$$y=2-2t$$<br>Then,<br>$$x=3-t-(2-2t)=1+t$$<br>Hence, the infinitely many solutions are<br>$$x=1+t,\\quad y=2-2t,\\quad z=t,\\quad t\\in\\mathbb{R}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=1$<br>(b) $k=11$<br>(c) The system has the unique solution $(1,2,0)$",
+    "B": "(a) $|A|=0$<br>(b) $k=8$<br>(c) $x=1+t,\\ y=2-t,\\ z=t$",
+    "C": "(a) $|A|=0$<br>(b) $k=11$<br>(c) The system has the unique solution $(1,2,0)$",
+    "D": "(a) $|A|=0$ because $R_3=R_1+R_2$<br>(b) $k=11$<br>(c) Infinitely many solutions: $x=1+t,\\ y=2-2t,\\ z=t,\\ t\\in\\mathbb{R}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

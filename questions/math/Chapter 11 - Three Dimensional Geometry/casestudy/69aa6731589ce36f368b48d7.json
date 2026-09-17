@@ -1,0 +1,29 @@
+{
+  "id": "69aa6731589ce36f368b48d7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d5"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Construction — Plane Intersection and Coplanarity of Support Beams<br /><br />Planes: $2x-y+2z=3$ and $x+y+z=4$. Beam $AB$ joins $A(3,2,1)$ and $B(1,4,-1)$.<br /><br />(a) Find parametric equation of intersection line.<br /><br />(b) Check if $AB$ is coplanar with it.<br /><br />(c) Find angle between planes.",
+  "answeroption": "D",
+  "explanation": "(a) Let $z=\\lambda$. Solving gives $x=(7-3\\lambda)/3$, $y=5/3$, $z=\\lambda$. Vector form $(7/3,5/3,0)+\\mu(-1,0,1)$.<br /><br />(b) $AB$ direction $(-2,2,-2)$ not proportional to $(-1,0,1)$. Also point $A$ not on either plane, so not coplanar.<br /><br />(c) Normals $(2,-1,2)$ and $(1,1,1)$. $\\cos\\theta=\\frac{1}{\\sqrt3}$ so $\\theta=\\cos^{-1}(1/\\sqrt3)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Intersection line: $\\vec r=\\left(\\frac{7}{3},\\frac{5}{3},0\\right)+\\mu(1,0,-1)$<br />(b) $AB$ is coplanar with it because their directions are proportional<br />(c) $\\theta=90^\\circ$",
+    "B": "(a) Intersection line: $\\vec r=\\left(\\frac{7}{3},\\frac{5}{3},0\\right)+\\mu(-1,0,1)$<br />(b) $AB$ is coplanar because $A$ lies on both planes<br />(c) $\\theta=\\cos^{-1}\\left(\\frac{2}{\\sqrt3}\\right)$",
+    "C": "(a) Intersection line: $\\vec r=(3,2,1)+\\mu(-2,2,-2)$<br />(b) $AB$ is the same as the intersection line<br />(c) $\\theta=\\cos^{-1}\\left(\\frac{1}{3}\\right)$",
+    "D": "(a) Intersection line: $\\vec r=\\left(\\frac{7}{3},\\frac{5}{3},0\\right)+\\mu(-1,0,1)$<br />(b) $AB$ is not coplanar with it; its direction is not proportional to $(-1,0,1)$ and $A$ does not lie on either plane<br />(c) With normals $(2,-1,2)$ and $(1,1,1)$, $\\cos\\theta=\\frac{1}{\\sqrt3}$, so $\\theta=\\cos^{-1}\\left(\\frac{1}{\\sqrt3}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:33:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

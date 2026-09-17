@@ -1,0 +1,31 @@
+{
+  "id": "6a8eaafe751910886affb967",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d4f",
+    "69c65fbf40512f018fa94d50",
+    "69c65fbf40512f018fa94d51"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Two students independently represent the same six numerical readings by matrices. The first student writes $M=\\begin{bmatrix}2x+1&7&y-2\\\\5&z+3&9\\end{bmatrix}$, while the second writes $N=\\begin{bmatrix}9&7&4\\\\5&11&9\\end{bmatrix}$. Since both matrices are intended to describe exactly the same data in exactly the same positions, the students claim that $M=N$. Their teacher asks them to use equality of matrices to determine the unknown values. A third student arranges the same six numerical entries as $R=\\begin{bmatrix}9&5\\\\7&11\\\\4&9\\end{bmatrix}$ and argues that $R$ should also be equal to the other matrices because it contains the same numbers.<br><br><b>(a)</b> Determine the common order of $M$ and $N$.<br><br><b>(b)</b> Find the value of $x$ using the equality $M=N$.<br><br><b>(c)</b> Determine the values of $y$ and $z$.<br><br><b>(d)</b> Examine the third student's claim that $R=M$. Justify whether the claim is correct.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Both $M$ and $N$ contain 2 rows and 3 columns. Therefore, each matrix has order $2\\times3$. Having the same order is a necessary condition for two matrices to be equal.<br><br><b>(b)</b><br>Since $M=N$, corresponding elements are equal. Comparing the first-row, first-column entries gives $2x+1=9$. Therefore, $2x=8$, so $x=4$.<br><br><b>(c)</b><br>Comparing the first-row, third-column entries gives $y-2=4$. Hence, $y=6$. Comparing the second-row, second-column entries gives $z+3=11$. Hence, $z=8$. Therefore, $y=6$ and $z=8$. With these values, every corresponding entry of $M$ and $N$ agrees.<br><br><b>(d)</b><br>The matrix $R$ has 3 rows and 2 columns, so its order is $3\\times2$, whereas $M$ has order $2\\times3$. Two matrices cannot be equal unless they have the same order. Merely containing the same numerical entries is not sufficient; the entries must also occupy corresponding positions in matrices of the same order. Therefore, $R\\ne M$, and the third student's claim is incorrect.",
+  "explanation_image": [],
+  "options": {
+    "A": "<b>(a)</b> $M$ and $N$ have order $2\\times3$.<br><b>(b)</b> $x=4$.<br><b>(c)</b> $y=6$ and $z=8$.<br><b>(d)</b> $R\\ne M$ because $R$ has order $3\\times2$, whereas $M$ has order $2\\times3$.",
+    "B": "<b>(a)</b> $M$ and $N$ have order $2\\times3$.<br><b>(b)</b> $x=5$.<br><b>(c)</b> $y=6$ and $z=8$.<br><b>(d)</b> $R\\ne M$ because their orders differ.",
+    "C": "<b>(a)</b> $M$ and $N$ have order $3\\times2$.<br><b>(b)</b> $x=4$.<br><b>(c)</b> $y=6$ and $z=8$.<br><b>(d)</b> $R=M$ because both contain the same six entries.",
+    "D": "<b>(a)</b> $M$ and $N$ have order $2\\times3$.<br><b>(b)</b> $x=4$.<br><b>(c)</b> $y=2$ and $z=14$.<br><b>(d)</b> $R=M$ because rearranging entries does not affect equality."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

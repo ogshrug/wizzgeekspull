@@ -1,0 +1,26 @@
+{
+  "id": "6a329303d5dca7dcb0bf0eef",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = R - \\{3\\}$ and $B = R - \\{a\\}$. Find the value of 'a' such that the function $f: A \\rightarrow B$ defined by $f(x) = \\frac{x-2}{x-3}$ is onto. Also, check whether the given function is one-one or not.",
+  "answeroption": "",
+  "explanation": "**Step 1:** For the function to be onto, express $x$ in terms of $y$. Let $y = \\frac{x-2}{x-3}$.\n\n**Step 2:** Solve for $x$: $y(x-3) = x-2 \\Rightarrow xy - 3y = x - 2 \\Rightarrow x(y-1) = 3y - 2 \\Rightarrow x = \\frac{3y-2}{y-1}$.\n\n**Step 3:** For $x$ to be defined in $A$, the denominator cannot be zero. Thus, $y \\neq 1$. Since $f$ is onto, the codomain $B$ must be $R - \\{1\\}$, which means $a = 1$.\n\n**Step 4:** To check if $f$ is one-one, set $f(x_1) = f(x_2)$, which gives $\\frac{x_1-2}{x_1-3} = \\frac{x_2-2}{x_2-3}$.\n\n**Step 5:** Cross-multiply to solve: $(x_1-2)(x_2-3) = (x_2-2)(x_1-3) \\Rightarrow x_1x_2 - 3x_1 - 2x_2 + 6 = x_1x_2 - 2x_1 - 3x_2 + 6 \\Rightarrow -x_1 = -x_2 \\Rightarrow x_1 = x_2$. The function is one-one.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

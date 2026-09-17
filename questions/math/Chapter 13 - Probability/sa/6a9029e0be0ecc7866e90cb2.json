@@ -1,0 +1,29 @@
+{
+  "id": "6a9029e0be0ecc7866e90cb2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "SA",
+  "question": "Two fair dice are thrown simultaneously and $X$ denotes the greater of the two numbers obtained. Determine the possible values of $X$. Also list the outcomes for which $X=2$ and hence justify that $X$ is a random variable.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Description of the sample points</b><br>Each outcome is an ordered pair $(a,b)$, where $a,b\\in\\{1,2,3,4,5,6\\}$. The variable $X$ assigns to each ordered pair the greater of $a$ and $b$.<br><b>Step 2: Possible values of the greater number</b><br>The smallest possible greater value is $1$, occurring for $(1,1)$, while the largest possible value is $6$. Therefore, $$X\\in\\{1,2,3,4,5,6\\}.$$<br><b>Step 3: Outcomes corresponding to $X=2$</b><br>For the greater number to be exactly $2$, both numbers must not exceed $2$ and at least one must equal $2$. Thus, $$\\{(1,2),(2,1),(2,2)\\}$$ are precisely the required outcomes.<br><b>Step 4: Random-variable criterion</b><br>Every ordered pair in the sample space is assigned one definite real number.<br><b>Step 5: Conclusion</b><br>Hence, $X$ is a random variable with possible values $\\boxed{1,2,3,4,5,6}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$X\\in\\{0,1,2,3,4,5\\}$; for $X=2$: $(1,1),(1,2),(2,1)$",
+    "B": "$X\\in\\{1,2,3,4,5,6\\}$; for $X=2$: $(1,2),(2,1),(2,2)$; each outcome is assigned one real value",
+    "C": "$X\\in\\{1,2,3,4,5,6\\}$; for $X=2$: $(2,2)$ only",
+    "D": "$X\\in\\{2,3,4,5,6\\}$; for $X=2$: $(1,2),(2,1)$ only"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

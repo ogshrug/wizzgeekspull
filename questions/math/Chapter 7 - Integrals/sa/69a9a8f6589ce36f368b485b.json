@@ -1,0 +1,29 @@
+{
+  "id": "69a9a8f6589ce36f368b485b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{\\cos x}{1+e^x} dx$.",
+  "answeroption": "B",
+  "explanation": "Let $I=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{\\cos x}{1+e^x}dx$.<br /><br />Using the property $\\int_a^b f(x)dx=\\int_a^b f(a+b-x)dx$, we obtain $I=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{\\cos x}{1+e^{-x}}dx$.<br /><br />Adding the two expressions gives $2I=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\cos x dx$.<br /><br />Evaluating gives $2I=2$.<br /><br />Therefore $I=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2$",
+    "B": "$1$",
+    "C": "$\\frac{1}{2}$",
+    "D": "$0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:01:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

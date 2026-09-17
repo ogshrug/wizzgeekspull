@@ -1,0 +1,29 @@
+{
+  "id": "6a266af2864be73cfcf6d388",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A building contractor undertakes a job to construct 4 flats on a plot along with parking area. Due to strike the probability of many construction workers not being present for the job is 0.65. The probability that many are not present and still the work gets completed on time is 0.35. The probability that work will be completed on time when all workers are present is 0.80. Let: $E_{1}$: represent the event when many workers were not present for the job; $E_{2}$: represent the event when all workers were present; and E: represent completing the construction work on time.<br /><br />Based on the above information, answer the following questions:<br />**(i)** What is the probability that all the workers are present for the job?<br />**(ii)** What is the probability that construction will be completed on time?<br />**(iii) (a)** What is the probability that many workers are not present given that the construction work is completed on time?<br />OR<br />**(iii) (b)** What is the probability that all workers were present given that the construction job was completed on time.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The prior probability that many construction workers are not present is given as $P(E_1) = 0.65$. Since event $E_2$ is the exact complement case (all workers are present), its probability is evaluated as: $P(E_2) = 1 - P(E_1) = 1 - 0.65 = 0.35$.<br /><br />**(ii)** **Step 1:** We are given conditional data parameters: the text states the probability that work is completed given that workers are not present is $P(E|E_1) = 0.35$, and when all workers are present is $P(E|E_2) = 0.80$. Apply the Law of Total Probability to compute the overall completion probability $P(E)$: $P(E) = P(E_1)P(E|E_1) + P(E_2)P(E|E_2)$. Substituting values gives: $(0.65 \\times 0.35) + (0.35 \\times 0.80) = 0.2275 + 0.2800 = 0.5075$.<br /><br />**(iii) (a)** **Step 1:** We evaluate the posterior conditional probability $P(E_1|E)$. Apply Bayes' Theorem: $P(E_1|E) = \\frac{P(E_1) \\cdot P(E|E_1)}{P(E)}$. Substituting values from previous parts gives: $\\frac{0.65 \\times 0.35}{0.5075} = \\frac{0.2275}{0.5075} = \\frac{2275}{5075} = \\frac{13}{29}$.<br />OR<br />**(iii) (b)** **Step 1:** We evaluate the posterior conditional probability $P(E_2|E)$. Apply Bayes' Theorem template: $P(E_2|E) = \\frac{P(E_2) \\cdot P(E|E_2)}{P(E)}$. Substituting values from previous parts gives: $\\frac{0.35 \\times 0.80}{0.5075} = \\frac{0.2800}{0.5075} = \\frac{2800}{5075} = \\frac{16}{29}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

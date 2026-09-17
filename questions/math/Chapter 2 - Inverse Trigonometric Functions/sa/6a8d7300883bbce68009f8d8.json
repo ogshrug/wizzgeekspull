@@ -1,0 +1,29 @@
+{
+  "id": "6a8d7300883bbce68009f8d8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $$\\tan^{-1}\\left(\\tan\\frac{11\\pi}{6}\\right)+\\cot^{-1}\\left(\\cot\\frac{7\\pi}{4}\\right).$$",
+  "answeroption": "B",
+  "explanation": "<b>Principal value of the inverse tangent term</b><br>The principal range of $\\tan^{-1}x$ is $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$. Since $$\\tan\\frac{11\\pi}{6}=\\tan\\left(-\\frac{\\pi}{6}\\right),$$ we obtain $$\\tan^{-1}\\left(\\tan\\frac{11\\pi}{6}\\right)=-\\frac{\\pi}{6}.$$<br><br><b>Principal value of the inverse cotangent term</b><br>The principal range of $\\cot^{-1}x$ is $(0,\\pi)$. Also, $$\\cot\\frac{7\\pi}{4}=-1.$$ The angle in $(0,\\pi)$ whose cotangent is $-1$ is $\\frac{3\\pi}{4}$. Thus, $$\\cot^{-1}\\left(\\cot\\frac{7\\pi}{4}\\right)=\\frac{3\\pi}{4}.$$<br><br><b>Addition of principal values</b><br>Therefore, the required value is $$-\\frac{\\pi}{6}+\\frac{3\\pi}{4}=\\frac{-2\\pi+9\\pi}{12}=\\frac{7\\pi}{12}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{11\\pi}{12}$",
+    "B": "$\\frac{7\\pi}{12}$",
+    "C": "$\\frac{5\\pi}{12}$",
+    "D": "$\\frac{19\\pi}{12}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

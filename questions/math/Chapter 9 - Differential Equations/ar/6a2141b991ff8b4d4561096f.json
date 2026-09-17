@@ -1,0 +1,34 @@
+{
+  "id": "6a2141b991ff8b4d4561096f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): One of the particular solutions of the differential equation $\\frac{dy}{dx}=e^{x+y}$ can be $e^{x}+e^{-y}=-2$. <br />Reason (R): $e^{x}+e^{-y}=C$ is the general solution of the differential equation $\\frac{dy}{dx}=e^{x+y}$.",
+  "answeroption": "(D)",
+  "explanation": "<b>Step 1</b> Rewrite the differential equation as $\\frac{dy}{dx}=e^x e^y$. Separating variables gives $e^{-y}dy=e^x dx$.<br /><br /><b>Step 2</b> Integrate both sides: $\\int e^{-y}dy=\\int e^x dx$. This gives $-e^{-y}=e^x+C_1$. Rearranging, we obtain $e^x+e^{-y}=C$, which confirms the reason statement.<br /><br /><b>Step 3</b> Examine the assertion. Since $e^x>0$ and $e^{-y}>0$ for all real values of $x$ and $y$, their sum is always positive.<br /><br /><b>Step 4</b> Therefore, the equation $e^x+e^{-y}=-2$ can never be satisfied by any real solution.<br /><br /><b>Step 5</b> Hence Assertion (A) is false while Reason (R) is true.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

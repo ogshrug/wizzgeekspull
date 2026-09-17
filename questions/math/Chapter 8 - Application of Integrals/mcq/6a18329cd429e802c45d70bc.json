@@ -1,0 +1,29 @@
+{
+  "id": "6a18329cd429e802c45d70bc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995"
+  ],
+  "question_type": "MCQ",
+  "question": "The area bounded by the parabola $x^{2}=y$ and the line $y=1$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** The area bounded by the vertical opening parabola $x^2=y$ and the line $y=1$ is symmetric across the y-axis. The intersection points are found by setting $x^2 = 1 \\implies x = \\pm 1$.<br /><br />**Step 2:** Set up the definite integral with respect to $y$ from $y=0$ to $y=1$. Using symmetry, the total area is twice the area in the first quadrant:<br />$\\text{Area} = 2 \\int_{0}^{1} \\sqrt{y} \\, dy = 2 \\int_{0}^{1} y^{1/2} \\, dy$.<br /><br />**Step 3:** Evaluate the integral using the Power Rule:<br />$\\text{Area} = 2 \\cdot \\left[ \\frac{y^{3/2}}{3/2} \\right]_{0}^{1} = \\frac{4}{3} [1 - 0] = \\frac{4}{3}$ square units. This corresponds to Option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{3}\\text{ sq unit}$",
+    "B": "$\\frac{1}{3}\\text{ sq unit}$",
+    "C": "$\\frac{4}{3}\\text{ sq units}$",
+    "D": "$2\\text{ sq units}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

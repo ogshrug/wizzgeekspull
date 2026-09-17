@@ -1,0 +1,30 @@
+{
+  "id": "6a8e74b6be0ecc7866e90b8a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A linear coding rule assigns a real output to every real input according to the function $f:\\mathbb{R}\\to\\mathbb{R}$ defined by $f(x)=3-4x$. Students are asked to determine whether this rule gives a unique output for each distinct input and whether every real number can occur as an output. Because both the domain and codomain are $\\mathbb{R}$, they must work with arbitrary real numbers rather than only test a few numerical cases. For surjectivity, an arbitrary element $y$ of the codomain may be chosen and the equation $f(x)=y$ solved for $x$.<br><br><b>(a)</b> Find $f(-1)$ and $f(2)$.<br><br><b>(b)</b> If $f(x_1)=f(x_2)$, show that $x_1=x_2$.<br><br><b>(c)</b> For an arbitrary $y\\in\\mathbb{R}$, find a real number $x$ satisfying $f(x)=y$.<br><br><b>(d)</b> Hence classify $f$ with respect to the one-one and onto properties.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>$f(-1)=3-4(-1)=7$ and $f(2)=3-8=-5$.<br><br><b>(b)</b><br>Suppose $f(x_1)=f(x_2)$. Then $3-4x_1=3-4x_2$. Subtracting $3$ from both sides gives $-4x_1=-4x_2$, and hence $x_1=x_2$. Therefore, $f$ is one-one.<br><br><b>(c)</b><br>Let $y\\in\\mathbb{R}$. We require $3-4x=y$. Thus $-4x=y-3$, giving $x=\\frac{3-y}{4}$. Since $y$ is real, $\\frac{3-y}{4}$ is also real. Therefore, every $y\\in\\mathbb{R}$ has a pre-image.<br><br><b>(d)</b><br>Part (b) shows that $f$ is one-one, while part (c) shows that every element of the codomain has a pre-image, so $f$ is onto. Therefore, $f$ is both one-one and onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(-1)=7$ and $f(2)=-5$; equality of images implies $x_1=x_2$, and every $y\\in\\mathbb{R}$ has the pre-image $x=\\frac{3-y}{4}$. Hence, $f$ is both one-one and onto.",
+    "B": "$f(-1)=-1$ and $f(2)=5$; $f$ is one-one but not onto because negative real numbers have no pre-images.",
+    "C": "$f(-1)=7$ and $f(2)=-5$; every $y\\in\\mathbb{R}$ has the pre-image $x=\\frac{y-3}{4}$, so $f$ is onto but not one-one.",
+    "D": "$f(-1)=-7$ and $f(2)=11$; distinct real inputs can have the same image, and some real numbers have no pre-images, so $f$ is neither one-one nor onto."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,572 @@
+[
+  {
+    "id": "69a86a3d96358125c95a0d71",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "SA",
+    "question": "If $y = e^{x} (\\sin x + \\cos x)$, find $\\frac{dy}{dx}$.",
+    "options": {
+      "A": "$2e^x\\sin x$",
+      "B": "$2e^x\\cos x$",
+      "C": "$e^x(\\sin x-\\cos x)$",
+      "D": "$e^x(\\sin x+\\cos x)$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a86a3d96358125c95a0d74",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "MCQ",
+    "question": "If $f(g(x))$ is continuous at $x=a$, which of the following is sufficient?",
+    "options": {
+      "A": "$f$ and $g$ are both continuous at $x=a$",
+      "B": "$g$ is continuous at $x=a$ and $f$ is continuous at $g(a)$",
+      "C": "$f$ is continuous at $x=a$ and $g$ is continuous at $f(a)$",
+      "D": "$f$ is differentiable at $g(a)$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8eb3724b490c7cde359456",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "VSA",
+    "question": "For $-1<x<1$, let $F(x)=\\sin^{-1}x+\\cos^{-1}x$. Without evaluating $F(x)$ explicitly, determine $F'\\left(\\frac{1}{2}\\right)$.",
+    "options": {
+      "A": "$\\frac{2}{\\sqrt{3}}$",
+      "B": "$-\\frac{2}{\\sqrt{3}}$",
+      "C": "$0$",
+      "D": "$1$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a8697964fcf4cdd5b4baf7",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "SA",
+    "question": "For what value of $k$ is the function $f(x) = \\begin{cases} kx + 1 & x \\leq 1 \\\\ x^2 & x > 1 \\end{cases}$ continuous at $x=1$? Is it differentiable there?",
+    "options": {
+      "A": "$k=0$ and the function is not differentiable at $x=1$",
+      "B": "$k=2$ and the function is differentiable at $x=1$",
+      "C": "$k=1$ and the function is not differentiable at $x=1$",
+      "D": "$k=0$ and the function is differentiable at $x=1$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a86455575fa42e0944481b",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "VSA",
+    "question": "If $f(x) = \\sin(x) + |x|$, check continuity at $x=0$.",
+    "options": {
+      "A": "$f(x)$ is continuous at $x=0$ because LHL = RHL = $f(0)=0$",
+      "B": "$f(x)$ is discontinuous at $x=0$ because $|x|$ is not continuous at $0$",
+      "C": "$f(x)$ is discontinuous at $x=0$ because LHL $\\neq$ RHL",
+      "D": "$f(x)$ is continuous at $x=0$ only if $f(0)=1$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a86ba4b4df445c7f648c77",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "LA",
+    "question": "Let $y = e^{\\ln \\sin x}$ with $0 < x < \\pi$, and find $\\frac{d^2y}{dx^2}$ in the simplest form using logarithmic differentiation.",
+    "options": {
+      "A": "$\\frac{d^2y}{dx^2}=-\\sin x$",
+      "B": "$\\frac{d^2y}{dx^2}=\\cos x$",
+      "C": "$\\frac{d^2y}{dx^2}=\\sin x$",
+      "D": "$\\frac{d^2y}{dx^2}=-\\cos x$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a86ca964fcf4cdd5b4bafc",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "SA",
+    "question": "Let $y = [f(x)]^{g(x)}$ where $f(x) > 0$, $g(x)$ are differentiable. Using logarithmic differentiation, find $\\frac{d^2y}{dx^2}$ in terms of $f(x)$, $g(x)$, $f'(x)$, $f''(x)$, $g'(x)$, $g''(x)$.",
+    "options": {
+      "A": "$[f(x)]^{g(x)}\\left[g'(x)\\ln f(x)+g(x)\\frac{f'(x)}{f(x)}\\right]$",
+      "B": "$[f(x)]^{g(x)}\\left[g''(x)\\ln f(x)+g(x)\\frac{f''(x)}{f(x)}\\right]$",
+      "C": "$[f(x)]^{g(x)}\\left[\\left(g'(x)\\ln f(x)\\right)^2+g''(x)\\ln f(x)\\right]$",
+      "D": "$[f(x)]^{g(x)}\\left[\\left(g'(x)\\ln f(x)+g(x)\\frac{f'(x)}{f(x)}\\right)^2+g''(x)\\ln f(x)+2g'(x)\\frac{f'(x)}{f(x)}+g(x)\\frac{f''(x)f(x)-(f'(x))^2}{(f(x))^2}\\right]$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a858cf64fcf4cdd5b4bad6",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "MCQ",
+    "question": "Suppose $f(x)$ is defined as $f(x) = |x|$ on $\\mathbb{R}$. Which of the following is NOT true?",
+    "options": {
+      "A": "$f(x)$ is continuous at $x=0$",
+      "B": "$f(x)$ is differentiable at $x=0$",
+      "C": "$f(x)$ is continuous for all $x \\in \\mathbb{R}$",
+      "D": "$f(x)$ is not differentiable at $x=0$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a8574464fcf4cdd5b4bac2",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "VSA",
+    "question": "If $f(x)=x^2$ and $g(x)=|x|$, investigate the differentiability of $f(g(x))$ at $x=0$.",
+    "options": {
+      "A": "$f(g(x))=x^2$, so it is differentiable at $x=0$",
+      "B": "$f(g(x))=|x|$, so it is not differentiable at $x=0$",
+      "C": "$f(g(x))=x$, so it is differentiable at $x=0$",
+      "D": "$f(g(x))$ is not continuous at $x=0$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a8697964fcf4cdd5b4baf5",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "LA",
+    "question": "A company models its profit for the month as a function $P(x) = \\begin{cases} ax^2 + b, & \\text{if } x \\leq 4 \\\\ 3x + c, & \\text{if } x > 4 \\end{cases}$, where $x$ is the number of units sold in thousands. For optimal planning, the company wants $P(x)$ to be both continuous and differentiable at $x = 4$. Given that $a + b + c = 12$, determine $a$, $b$, and $c$, justifying all continuity and differentiability steps.",
+    "options": {
+      "A": "$a=\\frac{3}{8},\\ b=\\frac{45}{16},\\ c=\\frac{141}{16}$",
+      "B": "$a=\\frac{1}{8},\\ b=\\frac{141}{16},\\ c=\\frac{45}{16}$",
+      "C": "$a=\\frac{3}{8},\\ b=\\frac{141}{16},\\ c=\\frac{45}{16}$",
+      "D": "$a=\\frac{3}{4},\\ b=\\frac{93}{8},\\ c=6$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a86456575fa42e0944481d",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "AR",
+    "question": "Assertion (A): The function $f(x) = \\begin{cases} \\sin x, & x < 0 \\\\ x^2, & x \\geq 0 \\end{cases}$ is continuous at $x = 0$. \nReason (R): The left-hand limit and right-hand limit of $f(x)$ at $x = 0$ are equal to $f(0)$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a86ca964fcf4cdd5b4baff",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "AR",
+    "question": "Assertion (A): The function $f(x) = e^{\\log \\sin x}$ is defined and continuous for all $x$ such that $x \\in (0,\\pi)$.\n\nReason (R): The function $e^{\\log a} = a$ whenever $a > 0$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8eb24b4b490c7cde359452",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "VSA",
+    "question": "Let $F(x)=f(g(x^2))$. If $g(1)=4$, $g'(1)=5$ and $f'(4)=3$, find $F'(1)$.",
+    "options": {
+      "A": "$15$",
+      "B": "$20$",
+      "C": "$30$",
+      "D": "$40$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8ec21bbe0ecc7866e90bb1",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "SA",
+    "question": "If $$y=3e^{2x}+2e^{3x},$$ verify that $$\\frac{d^2y}{dx^2}-5\\frac{dy}{dx}+6y=0.$$",
+    "options": {
+      "A": "$\\frac{dy}{dx}=6e^{2x}+6e^{3x}$ and $\\frac{d^2y}{dx^2}=12e^{2x}+18e^{3x}$, giving the expression equal to $6e^{2x}$.",
+      "B": "$\\frac{dy}{dx}=6e^{2x}+6e^{3x}$ and $\\frac{d^2y}{dx^2}=12e^{2x}+12e^{3x}$, giving the expression equal to $0$.",
+      "C": "$\\frac{dy}{dx}=6e^{2x}+6e^{3x}$ and $\\frac{d^2y}{dx^2}=12e^{2x}+18e^{3x}$, giving the expression equal to $0$.",
+      "D": "$\\frac{dy}{dx}=3e^{2x}+2e^{3x}$ and $\\frac{d^2y}{dx^2}=6e^{2x}+6e^{3x}$, giving the expression equal to $0$."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a8632764fcf4cdd5b4baec",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "AR",
+    "question": "Assertion (A): If $f(x)$ is continuous at $x = a$, then $f(x)$ is always differentiable at $x = a$.<br /><br />Reason (R): Differentiability implies continuity.<br /><br />(A) Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a8632764fcf4cdd5b4baeb",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "MCQ",
+    "question": "If $f(x)$ is defined and continuous in $[a,b]$ but not differentiable at some point $c \\in (a,b)$, which of the following is possible?",
+    "options": {
+      "A": "$f$'s graph has a corner or cusp at $c$",
+      "B": "$f$ is not continuous at $c$",
+      "C": "$f$'s graph is discontinuous at $a$",
+      "D": "None of these"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a8574564fcf4cdd5b4bac7",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "SA",
+    "question": "If $y = [x^x]^x$ for $x>0$, find $\\frac{dy}{dx}$.",
+    "options": {
+      "A": "$x^x(\\ln x+1)$",
+      "B": "$x^{x^2}(2x\\ln x+x)$",
+      "C": "$x^{x^2}(x\\ln x+2x)$",
+      "D": "$x^{2x}(2\\ln x+1)$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8ec733751910886affb9a7",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "LA",
+    "question": "Let $b>1$ be a constant. Using the change-of-base relation for logarithms and the derivative of the natural logarithmic function, establish that $$\\frac{d}{dx}(\\log_b x)=\\frac{1}{x\\log b},\\quad x>0.$$",
+    "options": {
+      "A": "$\\frac{d}{dx}(\\log_b x)=\\frac{\\log b}{x}$",
+      "B": "$\\frac{d}{dx}(\\log_b x)=\\frac{1}{x\\log b}$",
+      "C": "$\\frac{d}{dx}(\\log_b x)=\\frac{1}{x\\log x}$",
+      "D": "$\\frac{d}{dx}(\\log_b x)=\\frac{1}{b\\log x}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8ec732751910886affb9a5",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "LA",
+    "question": "If $$y=\\log\\left(e^x+e^{-x}\\right),$$ find $\\frac{dy}{dx}$ and simplify the result completely to show that it can be written as $$\\frac{e^{2x}-1}{e^{2x}+1}.$$",
+    "options": {
+      "A": "$\\frac{dy}{dx}=\\frac{e^{2x}+1}{e^{2x}-1}$",
+      "B": "$\\frac{dy}{dx}=\\frac{e^{2x}-1}{e^{2x}}$",
+      "C": "$\\frac{dy}{dx}=\\frac{e^{2x}-1}{e^{2x}+1}$",
+      "D": "$\\frac{dy}{dx}=\\frac{e^x+e^{-x}}{e^x-e^{-x}}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a8574564fcf4cdd5b4bac5",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "MCQ",
+    "question": "Let $f(x)$ be differentiable at $x=a$. Which statement must be true?",
+    "options": {
+      "A": "$f$ is continuous at $x=a$",
+      "B": "$f$ may not be continuous at $x=a$",
+      "C": "$f$ is not continuous at $x=a$",
+      "D": "$f$ may be discontinuous at $x=a$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a86fcc64fcf4cdd5b4bb0b",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "LA",
+    "question": "Suppose $f(x) = \\sin^{-1}(\\sqrt{1-x^2})$ for $-1 \\leq x \\leq 1$. Show that: $\\frac{d^2f}{dx^2} + \\frac{x}{1-x^2} \\frac{df}{dx} = 0$",
+    "options": {
+      "A": "$\\frac{d^2f}{dx^2}+\\frac{x}{1-x^2}\\frac{df}{dx}=1$",
+      "B": "$\\frac{d^2f}{dx^2}+\\frac{x}{1-x^2}\\frac{df}{dx}=-1$",
+      "C": "$\\frac{d^2f}{dx^2}+\\frac{x}{1-x^2}\\frac{df}{dx}=0$",
+      "D": "$\\frac{d^2f}{dx^2}+\\frac{x}{1-x^2}\\frac{df}{dx}=\\frac{1}{\\sqrt{1-x^2}}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a8632764fcf4cdd5b4baef",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "MCQ",
+    "question": "Suppose $f(x)$ is defined by $\\begin{cases} \\sin x, & x < 0 \\\\ x^2, & x \\geq 0 \\end{cases}$. Which is true at $x=0$?",
+    "options": {
+      "A": "$f$ is continuous but not differentiable at $x=0$",
+      "B": "$f$ is differentiable at $x=0$",
+      "C": "$f$ is not continuous at $x=0$",
+      "D": "$f''(0)$ exists"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8eb85d2e54880055a0a6ae",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "VSA",
+    "question": "If $y=x^x$ for $x>0$, find $\\left.\\frac{dy}{dx}\\right|_{x=1}$.",
+    "options": {
+      "A": "$0$",
+      "B": "$e$",
+      "C": "$2$",
+      "D": "$1$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a86caa64fcf4cdd5b4bb04",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "SA",
+    "question": "Differentiate $y = \\tan^{-1}\\left(\\frac{x}{\\sqrt{a^2 - x^2}}\\right)$ with respect to $x$, and prove the result can be expressed in terms of $a$.",
+    "options": {
+      "A": "$\\dfrac{x}{\\sqrt{a^2-x^2}}$",
+      "B": "$\\dfrac{1}{\\sqrt{a^2-x^2}}$",
+      "C": "$\\dfrac{a}{a^2-x^2}$",
+      "D": "$\\dfrac{1}{a^2-x^2}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a86455575fa42e0944481a",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "AR",
+    "question": "Assertion (A): If $f(x) = e^{x^2}$, then $f'(0) = 0$. \nReason (R): For any function $f(x)$, if $f(0) = 1$, then $f'(0) = 0$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8eb3734b490c7cde359458",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "VSA",
+    "question": "If $y=\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ and $0<x<1$, find $\\frac{dy}{dx}$ at $x=\\frac{1}{2}$.",
+    "options": {
+      "A": "$\\frac{4}{5}$",
+      "B": "$\\frac{8}{5}$",
+      "C": "$\\frac{5}{8}$",
+      "D": "$\\frac{5}{4}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8ec497be0ecc7866e90bbb",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "LA",
+    "question": "Prove that if a real-valued function $f$ is differentiable at a point $x=c$, then $f$ must be continuous at $x=c$, using the definition of differentiability and the corresponding limit.",
+    "options": {
+      "A": "Differentiability at $c$ gives $\\lim_{x\\to c}f(x)=f'(c)$, so $f$ is continuous at $c$.",
+      "B": "Since $f'(c)=\\lim_{x\\to c}\\frac{f(x)-f(c)}{x-c}$ is finite, $\\lim_{x\\to c}[f(x)-f(c)]=f'(c)\\cdot0=0$, hence $\\lim_{x\\to c}f(x)=f(c)$.",
+      "C": "Since $\\lim_{x\\to c}(x-c)=0$, the difference quotient must be zero, so $f(c)=0$ and $f$ is continuous.",
+      "D": "Differentiability at $c$ implies $\\lim_{x\\to c}f(x)=0$, which equals $f(c)$ for every differentiable function."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a86ba5b4df445c7f648c78",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "MCQ",
+    "question": "Given $y = (\\tan^{-1} x)^n$, for integer $n>1$, what is the value of $\\left.\\dfrac{d^2y}{dx^2}\\right|_{x=0}$ ?",
+    "options": {
+      "A": "$n(n-1)$",
+      "B": "$n^2$",
+      "C": "$0$",
+      "D": "$n$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a8574564fcf4cdd5b4bac8",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "AR",
+    "question": "Assertion (A): If $f(x)$ is continuous at $x=2$ and $\\lim_{h \\to 0} \\frac{f(2+h)-f(2)}{h}$ exists, then $f'(2)$ exists.\n\nReason (R): The existence of the limit of the difference quotient at a point with continuity guarantees differentiability at that point.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a8632764fcf4cdd5b4baf0",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8317b681ebad5835402fc",
+    "question_type": "AR",
+    "question": "Assertion (A): The function $f(x) = |x - 5|$ is differentiable at $x = 5$.<br /><br />Reason (R): A function $f(x)$ is differentiable at $x=a$ if $\\lim_{h\\to 0}\\frac{f(a+h)-f(a)}{h}$ exists and is finite.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  }
+]

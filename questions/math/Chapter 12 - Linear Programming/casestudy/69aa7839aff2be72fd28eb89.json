@@ -1,0 +1,29 @@
+{
+  "id": "69aa7839aff2be72fd28eb89",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A publishing house publishes two types of books: fiction (F) and non-fiction (N). Each F takes 3 hours editing, 1 hour typesetting. Each N takes 2 hours editing, 2 hours typesetting. There are 24 hours available for editing and 12 for typesetting per week. The house wants to publish at least 2 F and 3 N per week. Profit on F is ₹40, on N is ₹60.<br /><br />(a) Write the LPP.<br /><br />(b) Identify all corner points of the feasible region.<br /><br />(c) Find the optimal weekly publication plan.",
+  "answeroption": "A",
+  "explanation": "Let $x$ = fiction, $y$ = non-fiction.<br /><br />(a) LPP:<br /><br />Max $Z=40x+60y$<br /><br />$3x+2y\\leq24$<br /><br />$x+2y\\leq12$<br /><br />$x\\geq2$, $y\\geq3$<br /><br />(b) $3x+2y=24 \\implies y=(24-3x)/2$<br /><br />$x+2y=12 \\implies y=(12-x)/2$<br /><br />Intersections:<br /><br />$x=2$ in $3x+2y=24$: $6+2y=24\\implies2y=18\\implies y=9$. (2,9)<br /><br />$y=3$ in $3x+2y=24$: $3x+6=24\\implies3x=18\\implies x=6$. (6,3)<br /><br />$x=2$ in $x+2y=12$: $2+2y=12\\implies2y=10\\implies y=5$. (2,5)<br /><br />$y=3$ in $x+2y=12$: $x+6=12\\implies x=6$. (6,3)<br /><br />$(2,3): $3*2+2*3=6+6=12<24$, $2+6=8<12$. Ok.<br /><br />So feasible: (2,9)? $x+2*9=2+18=20>12$. Not ok. (2,5): $3*2+2*5=6+10=16<24$, $2+10=12$; $x\\geq2, y\\geq3$ ok. (6,3): $3*6+2*3=18+6=24\\leq24$, $6+6=12$, ok.<br /><br />(c) $Z$ at (2,5):$40*2+60*5=80+300=380$<br /><br />At (6,3):$40*6+60*3=240+180=420$<br /><br />(2,3):$40*2+60*3=80+180=260$<br /><br />Maximum at (6,3): $Z=420$.<br /><br />So, publish 6 fiction, 3 non-fiction.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Maximize $Z=40x+60y$, subject to $3x+2y\\leq24$, $x+2y\\leq12$, $x\\geq2$, $y\\geq3$<br />(b) Feasible corner points: $(2,3)$, $(2,5)$, $(6,3)$<br />(c) Publish 6 fiction and 3 non-fiction; maximum profit ₹420.",
+    "B": "(a) Maximize $Z=40x+60y$, subject to $3x+2y\\leq24$, $x+2y\\leq12$, $x\\geq2$, $y\\geq3$<br />(b) Feasible corner points: $(2,3)$, $(2,5)$, $(6,3)$<br />(c) Publish 2 fiction and 5 non-fiction; maximum profit ₹380.",
+    "C": "(a) Maximize $Z=40x+60y$, subject to $3x+2y\\leq24$, $x+2y\\leq12$, $x\\geq2$, $y\\geq3$<br />(b) Feasible corner points: $(2,3)$, $(2,9)$, $(6,3)$<br />(c) Publish 2 fiction and 9 non-fiction; maximum profit ₹620.",
+    "D": "(a) Maximize $Z=40x+60y$, subject to $3x+2y\\leq24$, $x+2y\\leq12$, $x\\geq2$, $y\\geq3$<br />(b) Feasible corner points: $(2,3)$, $(2,5)$, $(6,3)$<br />(c) Publish 2 fiction and 3 non-fiction; maximum profit ₹260."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:46:17 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

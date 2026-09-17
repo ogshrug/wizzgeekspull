@@ -1,0 +1,29 @@
+{
+  "id": "6a8ebc6d2e54880055a0a6bc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d89"
+  ],
+  "question_type": "VSA",
+  "question": "For $f(x)=|x|$ on $[-1,1]$, determine whether Rolle’s Theorem can be applied, although $f(-1)=f(1)$.",
+  "answeroption": "A",
+  "explanation": "Step 1: The endpoint values are $f(-1)=|-1|=1$ and $f(1)=|1|=1$, so the endpoint condition $f(-1)=f(1)$ is satisfied.<br>Step 2: The modulus function $|x|$ is continuous throughout $[-1,1]$.<br>Step 3: However, Rolle’s Theorem also requires the function to be differentiable at every point of the open interval $(-1,1)$.<br>Step 4: At $x=0$, the left-hand derivative is $-1$, whereas the right-hand derivative is $1$. Therefore, $f'(0)$ does not exist.<br>Step 5: Hence, the differentiability condition fails, and Rolle’s Theorem cannot be applied to $f(x)=|x|$ on $[-1,1]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Rolle’s Theorem cannot be applied because $f$ is not differentiable at $x=0$.",
+    "B": "Rolle’s Theorem can be applied because $f(-1)=f(1)$.",
+    "C": "Rolle’s Theorem cannot be applied because $f$ is not continuous at $x=0$.",
+    "D": "Rolle’s Theorem can be applied with $c=0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

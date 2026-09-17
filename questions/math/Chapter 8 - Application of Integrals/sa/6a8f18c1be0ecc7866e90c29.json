@@ -1,0 +1,29 @@
+{
+  "id": "6a8f18c1be0ecc7866e90c29",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "SA",
+  "question": "The curve $y=\\sin2x$ lies on both sides of the x-axis over $0\\leq x\\leq\\pi$. Calculate the total area between the curve and the x-axis.",
+  "answeroption": "B",
+  "explanation": "Step 1: Locating the sign change The curve meets the x-axis when $\\sin2x=0$. Within $[0,\\pi]$, this occurs at $x=0$, $x=\\frac{\\pi}{2}$ and $x=\\pi$. The function is positive on $\\left[0,\\frac{\\pi}{2}\\right]$ and negative on $\\left[\\frac{\\pi}{2},\\pi\\right]$. Step 2: Splitting the total area $A=\\int_0^{\\frac{\\pi}{2}}\\sin2x\\,dx-\\int_{\\frac{\\pi}{2}}^{\\pi}\\sin2x\\,dx$. Step 3: Evaluating the first region $\\int_0^{\\frac{\\pi}{2}}\\sin2x\\,dx=\\left[-\\frac{\\cos2x}{2}\\right]_0^{\\frac{\\pi}{2}}=1$. Step 4: Evaluating the second region The magnitude of the second integral is also $1$. Therefore, $A=1+1=2$. Final Answer The total area is $2$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$ square unit",
+    "B": "$2$ square units",
+    "C": "$4$ square units",
+    "D": "$\\frac{1}{2}$ square unit"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

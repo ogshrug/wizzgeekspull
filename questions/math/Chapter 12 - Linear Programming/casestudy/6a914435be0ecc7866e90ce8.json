@@ -1,0 +1,31 @@
+{
+  "id": "6a914435be0ecc7866e90ce8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A group of students investigates how changing the coefficients of an objective function can affect the optimal solution of a fixed linear programming problem. The restrictions are $x+y\\leq 8$, $2x+y\\leq 12$, $x\\geq 0$ and $y\\geq 0$. After plotting the boundary lines, the students obtain the corner points $O(0,0)$, $A(6,0)$, $B(4,4)$ and $C(0,8)$. They consider the objective function $Z=px+qy$, where $p>0$ and $q>0$. They want to determine a relation between $p$ and $q$ for which the two adjacent corner points $B$ and $C$ give the same highest value of the objective function.<br><br><b>(a)</b> Write the value of $Z$ at each of the four corner points.<br><br><b>(b)</b> Determine the relation between $p$ and $q$ for which $Z$ has equal values at $B$ and $C$.<br><br><b>(c)</b> Under the relation obtained in part (b), verify that the common value at $B$ and $C$ is greater than the values at $O$ and $A$.<br><br><b>(d)</b> Show that every point on the line segment joining $B$ and $C$ gives the same maximum value of $Z$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The objective function is $Z=px+qy$. Therefore,<br><br>At $O(0,0)$,<br>$$Z_O=0$$<br>At $A(6,0)$,<br>$$Z_A=6p$$<br>At $B(4,4)$,<br>$$Z_B=4p+4q$$<br>At $C(0,8)$,<br>$$Z_C=8q$$<br><br><b>(b)</b><br>For equal values at $B$ and $C$, require<br>$$4p+4q=8q$$<br>Therefore,<br>$$4p=4q$$<br>Hence,<br>$$p=q$$<br><br><b>(c)</b><br>Let $p=q$, with $p>0$. Then<br>$$Z_B=4p+4p=8p$$<br>and<br>$$Z_C=8p$$<br><br>At $A$, $Z_A=6p$, and at $O$, $Z_O=0$. Since $p>0$,<br>$$8p>6p>0$$<br>Thus, $B$ and $C$ both give the greatest value, namely $8p$.<br><br><b>(d)</b><br>The points $B(4,4)$ and $C(0,8)$ lie on the boundary line<br>$$x+y=8$$<br>Every point on the line segment $BC$ therefore satisfies $x+y=8$. Since $p=q$, the objective function becomes<br>$$Z=p(x+y)$$<br>Hence, for every point on $BC$,<br>$$Z=p(8)=8p$$<br>Thus every point on the segment joining $B$ and $C$ gives the same maximum value $8p$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $Z_O=0$, $Z_A=6p$, $Z_B=4p+4q$, $Z_C=8q$<br>(b) $p=2q$<br>(c) The common value is $12q$ and exceeds the other values<br>(d) Only $B$ and $C$ are optimal",
+    "B": "(a) $Z_O=0$, $Z_A=6p$, $Z_B=4p+4q$, $Z_C=8q$<br>(b) $p=q$<br>(c) $Z_B=Z_C=8p>6p=Z_A$<br>(d) Only the endpoints $B$ and $C$ give the maximum value",
+    "C": "(a) $Z_O=0$, $Z_A=6q$, $Z_B=4p+4q$, $Z_C=8p$<br>(b) $p=q$<br>(c) The common maximum is $6p$<br>(d) Every point on $OA$ is optimal",
+    "D": "(a) $Z_O=0$, $Z_A=6p$, $Z_B=4p+4q$, $Z_C=8q$<br>(b) $p=q$<br>(c) $Z_B=Z_C=8p>6p=Z_A>Z_O$<br>(d) Every point on segment $BC$ gives the same maximum value $8p$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

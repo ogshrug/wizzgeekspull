@@ -1,0 +1,29 @@
+{
+  "id": "6a900ce04b490c7cde359558",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "For the lines $\\vec{r}=(\\hat{i}-\\hat{k})+\\lambda(\\hat{i}+2\\hat{j}+2\\hat{k})$ and $\\vec{r}=(2\\hat{i}+3\\hat{j}+\\hat{k})+\\mu(\\hat{i}+2\\hat{j}+2\\hat{k})$, establish that the lines are distinct and parallel and hence determine the shortest distance between them.",
+  "answeroption": "C",
+  "explanation": "<b>Required Condition</b><br>Both lines have the same direction vector $\\vec{b}=\\hat{i}+2\\hat{j}+2\\hat{k}$. Hence, the lines are parallel. The first line passes through the point with position vector $\\vec{a_1}=(1,0,-1)$, while the second passes through the point with position vector $\\vec{a_2}=(2,3,1)$. Since $\\vec{a_2}-\\vec{a_1}=(1,3,2)$ is not proportional to $(1,2,2)$, the two lines are distinct.<br><br><b>Applying the Shortest Distance Formula</b><br>For distinct parallel lines $\\vec{r}=\\vec{a_1}+\\lambda\\vec{b}$ and $\\vec{r}=\\vec{a_2}+\\mu\\vec{b}$, the shortest distance is<br>$$d=\\frac{\\left|\\vec{b}\\times(\\vec{a_2}-\\vec{a_1})\\right|}{|\\vec{b}|}$$<br>Here,<br>$$\\vec{b}\\times(\\vec{a_2}-\\vec{a_1})=\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&2&2\\\\1&3&2\\end{vmatrix}=-2\\hat{i}+\\hat{k}$$<br>Therefore,<br>$$\\left|\\vec{b}\\times(\\vec{a_2}-\\vec{a_1})\\right|=\\sqrt{(-2)^2+0^2+1^2}=\\sqrt{5}$$<br>Also,<br>$$|\\vec{b}|=\\sqrt{1^2+2^2+2^2}=3$$<br>Hence,<br>$$d=\\frac{\\sqrt{5}}{3}$$<br><br><b>Final Result</b><br>The two lines are distinct and parallel, and their shortest distance is $\\frac{\\sqrt{5}}{3}$ units.",
+  "explanation_image": [],
+  "options": {
+    "A": "The lines are coincident; shortest distance $0$.",
+    "B": "The lines are distinct and parallel; shortest distance $\\frac{\\sqrt{5}}{2}$ units.",
+    "C": "The lines are distinct and parallel; shortest distance $\\frac{\\sqrt{5}}{3}$ units.",
+    "D": "The lines are skew; shortest distance $\\frac{\\sqrt{5}}{3}$ units."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

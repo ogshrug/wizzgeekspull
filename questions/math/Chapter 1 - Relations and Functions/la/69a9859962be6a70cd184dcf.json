@@ -1,0 +1,32 @@
+{
+  "id": "69a9859962be6a70cd184dcf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d47",
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be defined as $f(x) = 2x - 5$ and $g: \\mathbb{R} \\to \\mathbb{R}$ as $g(x) = x^3$.<br /><br />(a) Determine $h = g \\circ f$ and $k = f \\circ g$.<br /><br />(b) Show whether $h$ and $k$ are invertible functions (prove bijectivity).<br /><br />(c) If invertible, compute $h^{-1}$ and $k^{-1}$ explicitly.",
+  "answeroption": "B",
+  "explanation": "(a) $h(x) = g(f(x)) = g(2x-5) = (2x-5)^3$.<br /><br />$k(x) = f(g(x)) = f(x^3) = 2x^3 - 5$<br /><br />(b) $h(x)$ is a cubic function, strictly increasing on $\\mathbb{R}$ (since derivative is $6(2x-5)^2 > 0$), so it is one-one and hence bijective (onto $\\mathbb{R}$ as limits at $\\pm\\infty$ are $\\pm\\infty$).<br /><br />$k(x)$ is also strictly increasing as derivative $= 6x^2$, so $k$ is also a bijection (one-one and onto).<br /><br />(c) To find $h^{-1}$: Let $y = (2x-5)^3 \\implies 2x-5 = y^{1/3} \\implies 2x = 5 + y^{1/3} \\implies x = \\frac{5 + y^{1/3}}{2}$.<br /><br />Thus, $h^{-1}(y) = \\frac{5 + y^{1/3}}{2}$.<br /><br />To find $k^{-1}$: Let $y = 2x^3 - 5 \\implies 2x^3 = y + 5 \\implies x^3 = \\frac{y+5}{2} \\implies x = \\left(\\frac{y+5}{2}\\right)^{1/3}$.<br /><br />Thus, $k^{-1}(y) = \\left(\\frac{y+5}{2}\\right)^{1/3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $h(x)=2x^3-5$ and $k(x)=(2x-5)^3$.<br />(b) Neither $h$ nor $k$ is invertible.<br />(c) No inverse exists.",
+    "B": "(a) $h(x)=(2x-5)^3$ and $k(x)=2x^3-5$.<br />(b) Both $h$ and $k$ are bijective, hence invertible.<br />(c) $h^{-1}(y)=\\frac{5+\\sqrt[3]{y}}{2}$ and $k^{-1}(y)=\\sqrt[3]{\\frac{y+5}{2}}$.",
+    "C": "(a) $h(x)=g(x)+f(x)$ and $k(x)=f(x)+g(x)$.<br />(b) Only $h$ is invertible.<br />(c) $h^{-1}(y)=\\sqrt[3]{y}-5$.",
+    "D": "(a) $h(x)=x^3$ and $k(x)=2x-5$.<br />(b) Only $k$ is invertible.<br />(c) $k^{-1}(y)=\\frac{y+5}{2}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:31:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

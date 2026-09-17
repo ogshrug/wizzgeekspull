@@ -1,0 +1,33 @@
+{
+  "id": "6a2278dc864be73cfcf6d1e8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "MCQ",
+  "question": "If $|\\vec{a}+\\vec{b}|=|\\vec{a}-\\vec{b}|$ for any two vectors, then vectors $\\vec{a}$ and $\\vec{b}$ are:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** We are given the magnitude condition $|\\vec{a} + \\vec{b}| = |\\vec{a} - \\vec{b}|$.<br />**Step 2:** Square both sides of the equation to relate it to dot products: $|\\vec{a} + \\vec{b}|^2 = |\\vec{a} - \\vec{b}|^2$.<br />**Step 3:** Expand both sides using the property $|\\vec{v}|^2 = \\vec{v} \\cdot \\vec{v}$. Left side: $(\\vec{a} + \\vec{b}) \\cdot (\\vec{a} + \\vec{b}) = |\\vec{a}|^2 + |\\vec{b}|^2 + 2(\\vec{a} \\cdot \\vec{b})$.<br />**Step 4:** Right side: $(\\vec{a} - \\vec{b}) \\cdot (\\vec{a} - \\vec{b}) = |\\vec{a}|^2 + |\\vec{b}|^2 - 2(\\vec{a} \\cdot \\vec{b})$.<br />**Step 5:** Equate the expanded forms: $|\\vec{a}|^2 + |\\vec{b}|^2 + 2(\\vec{a} \\cdot \\vec{b}) = |\\vec{a}|^2 + |\\vec{b}|^2 - 2(\\vec{a} \\cdot \\vec{b})$.<br />**Step 6:** Subtract $|\\vec{a}|^2$ and $|\\vec{b}|^2$ from both sides, leaving: $2(\\vec{a} \\cdot \\vec{b}) = -2(\\vec{a} \\cdot \\vec{b})$.<br />**Step 7:** Bring all terms to one side: $4(\\vec{a} \\cdot \\vec{b}) = 0 \\implies \\vec{a} \\cdot \\vec{b} = 0$.<br />**Step 8:** A dot product of zero indicates that the vectors are perpendicular (orthogonal) to each other.",
+  "explanation_image": [],
+  "options": {
+    "A": "orthogonal vectors",
+    "B": "parallel to each other",
+    "C": "unit vectors",
+    "D": "collinear vectors"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

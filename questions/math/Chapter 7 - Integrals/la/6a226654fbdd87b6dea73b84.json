@@ -1,0 +1,26 @@
+{
+  "id": "6a226654fbdd87b6dea73b84",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate: $\\int_{0}^{\\pi}\\frac{dx}{a^{2}\\cos^{2}x+b^{2}\\sin^{2}x}$",
+  "answeroption": "$\\frac{\\pi}{ab}$",
+  "explanation": "<b>Step 1</b> Using symmetry, $I=2\\int_{0}^{\\pi/2}\\frac{dx}{a^2\\cos^2x+b^2\\sin^2x}$.<br /><br /><b>Step 2</b> Divide numerator and denominator by $\\cos^2x$: $I=2\\int_{0}^{\\pi/2}\\frac{\\sec^2x\\,dx}{a^2+b^2\\tan^2x}$.<br /><br /><b>Step 3</b> Let $t=b\\tan x$. Then $dt=b\\sec^2x\\,dx$, so $\\sec^2x\\,dx=\\frac{dt}{b}$. The limits become $0$ to $\\infty$.<br /><br /><b>Step 4</b> Therefore, $I=\\frac{2}{b}\\int_{0}^{\\infty}\\frac{dt}{a^2+t^2}$.<br /><br /><b>Step 5</b> Evaluating, $I=\\frac{2}{ab}\\left[\\tan^{-1}\\left(\\frac{t}{a}\\right)\\right]_{0}^{\\infty}=\\frac{2}{ab}\\left(\\frac{\\pi}{2}\\right)=\\frac{\\pi}{ab}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9270751910886affb943",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d50",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "SA",
+  "question": "A matrix $B$ is of order $2\\times4$. Another matrix $A$ is such that the product $AB$ is defined and has order $3\\times4$. Determine the order of $A$ and justify your answer.",
+  "answeroption": "B",
+  "explanation": "<b>Condition for matrix multiplication</b><br>Let the order of $A$ be $m\\times n$. Since $B$ has order $2\\times4$ and $AB$ is defined, the number of columns of $A$ must equal the number of rows of $B$. Hence, $n=2$.<br><b>Order of the product</b><br>The product of an $m\\times2$ matrix and a $2\\times4$ matrix has order $m\\times4$. Since $AB$ has order $3\\times4$, we get $m=3$.<br><b>Required order</b><br>Therefore, the order of $A$ is $$3\\times2$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$2\\times3$",
+    "B": "$3\\times2$",
+    "C": "$3\\times4$",
+    "D": "$4\\times2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

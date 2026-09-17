@@ -1,0 +1,30 @@
+{
+  "id": "69a9ccff62be6a70cd184e51",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{bmatrix}1 & 2\\\\3 & 4\\end{bmatrix}$, $X = \\begin{bmatrix}x \\\\ y\\end{bmatrix}$, and $B = \\begin{bmatrix}5 \\\\ 11\\end{bmatrix}$. (a) Solve $AX = B$ using the matrix method. (b) If $A$ is replaced by $A' = \\begin{bmatrix}4 & 3\\\\2 & 1\\end{bmatrix}$ and $B$ by $B' = \\begin{bmatrix}11 \\\\ 5\\end{bmatrix}$, check if the system $A'X = B'$ has a unique solution and explain why/why not.",
+  "answeroption": "A",
+  "explanation": "(a) First, check if $A$ is invertible by calculating its determinant.<br /><br />$|A| = 1 \\times 4 - 2 \\times 3 = 4 - 6 = -2 \\ne 0$, so $A$ is invertible.<br /><br />Find $A^{-1}$:<br /><br />$A^{-1} = \\frac{1}{|A|}\\begin{bmatrix}4 & -2\\\\-3 & 1\\end{bmatrix}$.<br /><br />$= \\frac{1}{-2}\\begin{bmatrix}4 & -2\\\\-3 & 1\\end{bmatrix} = \\begin{bmatrix}-2 & 1\\\\1.5 & -0.5\\end{bmatrix}$.<br /><br />Now, $X = A^{-1}B = \\begin{bmatrix}-2 & 1\\\\1.5 & -0.5\\end{bmatrix}\\begin{bmatrix}5\\\\11\\end{bmatrix}$.<br /><br />$x = -2\\times5 + 1\\times11 = -10 + 11 = 1$.<br /><br />$y = 1.5\\times5 + (-0.5)\\times11 = 7.5 - 5.5 = 2$.<br /><br />So, $X = \\begin{bmatrix}1\\\\2\\end{bmatrix}$.<br /><br />(b) $A' = \\begin{bmatrix}4 & 3\\\\2 & 1\\end{bmatrix}$.<br /><br />$|A'| = 4\\times1 - 3\\times2 = 4 - 6 = -2 \\ne 0$.<br /><br />So, $A'$ is also invertible, thus $A'X=B'$ has a unique solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $X=\\begin{bmatrix}1\\\\2\\end{bmatrix}$.<br />(b) For $A'=\\begin{bmatrix}4&3\\\\2&1\\end{bmatrix}$, $|A'|=-2\\ne0$, so $A'X=B'$ has a unique solution.",
+    "B": "(a) $X=\\begin{bmatrix}2\\\\1\\end{bmatrix}$.<br />(b) Since $|A'|=0$, the second system has no unique solution.",
+    "C": "(a) $X=\\begin{bmatrix}5\\\\11\\end{bmatrix}$.<br />(b) The second system is inconsistent because $A'$ is singular.",
+    "D": "(a) $X=\\begin{bmatrix}0\\\\0\\end{bmatrix}$.<br />(b) The second system has infinitely many solutions."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:35:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

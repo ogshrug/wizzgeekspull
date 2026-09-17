@@ -1,0 +1,30 @@
+{
+  "id": "69aa6378d30adc5083911b5b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "LA",
+  "question": "Let $A=\\begin{pmatrix}1 & 3\\\\2 & 4\\end{pmatrix}$ and let $F(x) = \\det(A+xI)$, $I$ being the $2\\times2$ identity matrix.\n\n(a) Find $F(x)$ as a quadratic in $x$.\n\n(b) For what $x$ is $F(x)=0$?\n\n(c) Let $g(x) = x^2+4$ and $f(x) = F(x)$. For what $x$ does $f(x)=g(x)$?\n\n(d) At these $x$, calculate $F'(x)$.\n\n(e) For $x$ such that $F(x) > 0$, compute $\\sin^{-1} \\left( \\frac{2}{F(x)} \\right )$ when defined.",
+  "answeroption": "C",
+  "explanation": "**Concepts being tested:** Determinants, quadratic equations, equalities of functions, inverse trigonometric domains.<br /><br />**(a) $F(x)$:**<br /><br />$A + xI = \\begin{pmatrix}1+x & 3\\\\2 & 4+x\\end{pmatrix}$<br /><br />$F(x) = (1+x)(4+x) - 2\\times3 = (1+x)(4+x)-6$<br /><br />$= (1\\times4+1\\times x+x\\times4+x\\times x)-6 = (4+1x+4x+x^2)-6 = x^2+5x-2$<br /><br />**(b) $F(x)=0$:**<br /><br />$x^2+5x-2=0$<br /><br />$x=\\frac{-5\\pm\\sqrt{25+8}}{2}=\\frac{-5\\pm\\sqrt{33}}{2}$<br /><br />**(c) $f(x)=g(x)$:**<br /><br />$x^2+5x-2=x^2+4\\implies5x-2=4\\implies5x=6\\implies x=\\frac{6}{5}$<br /><br />**(d) At $x=\\frac{6}{5}$, $F'(x)=2x+5=2\\times\\frac{6}{5}+5=\\frac{12}{5}+5=\\frac{37}{5}$<br /><br />**(e) For $F(x)>0$, $\\sin^{-1}(2/F(x))$ is defined for $|2/F(x)|\\leq1$, i.e., $|F(x)|\\geq2$ and $F(x)>0$. Plug $x$ such that $F(x)\\geq2$. E.g., $F(2)=4+10-2=12$, $2/12=1/6$, $\\sin^{-1}(1/6)$ defined. Similar for other $x$ such that $F(x)\\geq2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $F(x)=x^2+5x+2$<br />(b) $x=\\frac{-5\\pm\\sqrt{17}}{2}$<br />(c) $x=\\frac{5}{6}$<br />(d) $F'(x)=\\frac{27}{5}$<br />(e) $\\sin^{-1}\\left(\\frac{1}{6}\\right)$ for $x=2$",
+    "B": "(a) $F(x)=x^2+4x-2$<br />(b) $x=\\frac{-4\\pm\\sqrt{24}}{2}$<br />(c) $x=\\frac{6}{4}$<br />(d) $F'(x)=\\frac{32}{5}$<br />(e) $\\sin^{-1}\\left(\\frac{1}{5}\\right)$ for $x=2$",
+    "C": "(a) $F(x)=x^2+5x-2$<br />(b) $x=\\frac{-5\\pm\\sqrt{33}}{2}$<br />(c) $x=\\frac{6}{5}$<br />(d) $F'\\left(\\frac{6}{5}\\right)=\\frac{37}{5}$<br />(e) $\\sin^{-1}\\left(\\frac{2}{F(x)}\\right)$ is defined when $F(x)\\ge2$; for example, at $x=2$, it is $\\sin^{-1}\\left(\\frac{1}{6}\\right)$",
+    "D": "(a) $F(x)=x^2-5x-2$<br />(b) $x=\\frac{5\\pm\\sqrt{33}}{2}$<br />(c) $x=-\\frac{6}{5}$<br />(d) $F'(x)=\\frac{13}{5}$<br />(e) $\\sin^{-1}\\left(\\frac{1}{3}\\right)$ for $x=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:17:44 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

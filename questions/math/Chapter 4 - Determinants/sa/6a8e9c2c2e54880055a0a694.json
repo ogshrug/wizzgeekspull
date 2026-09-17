@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9c2c2e54880055a0a694",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "SA",
+  "question": "Using the inverse-matrix method, solve $4x+y=9$ and $3x+y=7$. Hence, calculate $2x-y$.",
+  "answeroption": "B",
+  "explanation": "<b>Matrix equation</b><br>$$\\begin{bmatrix}4&1\\\\3&1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}9\\\\7\\end{bmatrix}$$<br><b>Inverse of the coefficient matrix</b><br>The determinant is $1$, so $$A^{-1}=\\begin{bmatrix}1&-1\\\\-3&4\\end{bmatrix}$$<br><b>Solution matrix</b><br>$$X=A^{-1}B=\\begin{bmatrix}1&-1\\\\-3&4\\end{bmatrix}\\begin{bmatrix}9\\\\7\\end{bmatrix}=\\begin{bmatrix}2\\\\1\\end{bmatrix}$$<br><b>Required expression</b><br>Therefore, $$2x-y=2(2)-1=3$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=1$, $y=2$, and $2x-y=0$",
+    "B": "$x=2$, $y=1$, and $2x-y=3$",
+    "C": "$x=2$, $y=-1$, and $2x-y=5$",
+    "D": "$x=3$, $y=-3$, and $2x-y=9$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

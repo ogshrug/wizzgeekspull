@@ -1,0 +1,30 @@
+{
+  "id": "69aa6bb5d30adc5083911b8a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65c9340512f018fa94d43",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $R$ be a relation on the set $A = \\{1, 2, 3, 4\\}$ defined by $R = \\{(a, b) : a + b = 5\\}$. \nLet $M$ be the matrix representing this relation, and $B = (M) (M^{T})$.\n\n(a) Write the matrix $M$.\n\n(b) Compute $B$.\n\n(c) Is $B$ invertible? Justify your answer using properties of determinants.\n\n(d) Evaluate the differentiability of $det(B + tI)$ at $t=0$ where $I$ is the $4\\times 4$ identity matrix. Discuss what this indicates about the eigenvalues of $B$.",
+  "answeroption": "C",
+  "explanation": "**Concepts tested:** Relations, matrices, determinants, application of derivatives.<br /><br />(a) The relation includes pairs whose sum is 5: $(1,4), (2,3), (3,2), (4,1)$, on $A = \\{1,2,3,4\\}$.<br /><br />Thus, $M$ is a $4\\times4$ matrix where $M_{ij}=1$ if $i+j=5$, else $0$.<br /><br />So,<br /><br />$M = \\begin{pmatrix} 0 & 0 & 0 & 1 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\end{pmatrix}$<br /><br />(b) Compute $B = MM^T$.<br /><br />$M^T = M$ (matrix is symmetric).<br /><br />So,<br /><br />$B_{ij} = \\sum_k M_{ik}M_{jk}$<br /><br />The nonzero entries in each row and column are at unique positions.<br /><br />So,<br /><br />$B = I$ (the $4\\times 4$ identity matrix).<br /><br />(c) Yes, the identity matrix is always invertible. Its determinant is $1$ ($\\neq0$).<br /><br />(d) $B = I$, $det(B + tI) = det((1 + t)I) = (1 + t)^4$.<br /><br />$\\frac{d}{dt} det(B + tI) \\big\\rvert_{t=0} = 4(1)^3 = 4$.<br /><br />This shows all eigenvalues of $B$ are $1$ with algebraic multiplicity $4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $M=I_4$<br />(b) $B=0$<br />(c) $B$ is not invertible because $\\det B=0$<br />(d) $\\frac{d}{dt}\\det(B+tI)\\big|_{t=0}=0$, so all eigenvalues are $0$",
+    "B": "(a) $M=\\begin{pmatrix}1&0&0&0\\\\0&1&0&0\\\\0&0&1&0\\\\0&0&0&1\\end{pmatrix}$<br />(b) $B=I_4$<br />(c) $B$ is invertible<br />(d) $\\frac{d}{dt}\\det(B+tI)\\big|_{t=0}=1$, so one eigenvalue is $1$",
+    "C": "(a) $M=\\begin{pmatrix}0&0&0&1\\\\0&0&1&0\\\\0&1&0&0\\\\1&0&0&0\\end{pmatrix}$<br />(b) $B=MM^T=I_4$<br />(c) $B$ is invertible because $\\det B=1\\ne0$<br />(d) $\\det(B+tI)=(1+t)^4$ and $\\frac{d}{dt}\\det(B+tI)\\big|_{t=0}=4$, showing all eigenvalues of $B$ are $1$ with algebraic multiplicity $4$",
+    "D": "(a) $M=\\begin{pmatrix}0&1&0&0\\\\1&0&0&0\\\\0&0&0&1\\\\0&0&1&0\\end{pmatrix}$<br />(b) $B=2I_4$<br />(c) $B$ is invertible because $\\det B=16$<br />(d) $\\det(B+tI)=(2+t)^4$ and derivative at $t=0$ is $32$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:52:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

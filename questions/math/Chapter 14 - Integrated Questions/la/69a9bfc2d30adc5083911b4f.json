@@ -1,0 +1,30 @@
+{
+  "id": "69a9bfc2d30adc5083911b4f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65c9340512f018fa94d41",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $R$ be the relation on $A = \\{1,2,3,4\\}$ defined by $R = \\{(a,b) : a+b = 5\\}$. Let $f(x) = x^3 - 6x^2 + 11x - 6$.\n\n(a) List all pairs in $R$.\n\n(b) Prove that $R$ is symmetric but neither reflexive nor transitive.\n\n(c) Let $g(x) = f(x)$ restricted to $A$. Find the image of each $a \\in A$ under $g$.\n\n(d) Compute the determinant $\\det\\begin{pmatrix} g(1) & g(2) \\\\ g(3) & g(4) \\end{pmatrix}$.",
+  "answeroption": "B",
+  "explanation": "**Concepts tested:** Relations, properties of binary relations, determinant, functions over finite sets.<br /><br />**Step 1: List all pairs in $R$**<br />$a+b=5$ with $a,b \\in \\{1,2,3,4\\}$:<br />(1,4), (2,3), (3,2), (4,1)<br /><br />**Step 2: Symmetry and other properties**<br />Symmetry: If (a,b) in R, then a+b=5 ⇒ (b,a) in R.<br />Reflexivity: Needs (a,a) in R for all a, but $2a=5$ never true integer.<br />Transitivity: (1,4) and (4,1) in R, but (1,1) not in R.<br />Hence, symmetric not reflexive or transitive.<br /><br />**Step 3: $g(x)=f(x)$ for $x\\in A$**<br />$f(x)=x^3-6x^2+11x-6$<br />$f(1)=1-6+11-6=0$<br />$f(2)=8-24+22-6=0$<br />$f(3)=27-54+33-6=0$<br />$f(4)=64-96+44-6=6$<br />$g(1)=0$, $g(2)=0$, $g(3)=0$, $g(4)=6$<br /><br />**Step 4: Determinant**<br />$d = \\det\\begin{pmatrix} g(1) & g(2) \\\\ g(3) & g(4) \\end{pmatrix} = \\begin{vmatrix} 0 & 0 \\\\ 0 & 6 \\end{vmatrix} = 0\\times6 - 0\\times0 = 0$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R=\\{(1,1),(2,2),(3,3),(4,4)\\}$<br />(b) $R$ is reflexive and symmetric but not transitive<br />(c) $g(1)=1$, $g(2)=2$, $g(3)=3$, $g(4)=4$<br />(d) Determinant $= -2$",
+    "B": "(a) $R=\\{(1,4),(2,3),(3,2),(4,1)\\}$<br />(b) $R$ is symmetric but neither reflexive nor transitive<br />(c) $g(1)=0$, $g(2)=0$, $g(3)=0$, $g(4)=6$<br />(d) Determinant $=0$",
+    "C": "(a) $R=\\{(1,4),(4,1)\\}$<br />(b) $R$ is reflexive but not symmetric<br />(c) $g(1)=0$, $g(2)=1$, $g(3)=2$, $g(4)=3$<br />(d) Determinant $=-2$",
+    "D": "(a) $R=\\{(2,3),(3,2)\\}$<br />(b) $R$ is transitive but not symmetric<br />(c) $g(1)=6$, $g(2)=0$, $g(3)=0$, $g(4)=0$<br />(d) Determinant $=36$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:39:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

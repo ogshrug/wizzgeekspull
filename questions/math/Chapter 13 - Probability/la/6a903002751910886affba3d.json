@@ -1,0 +1,29 @@
+{
+  "id": "6a903002751910886affba3d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "LA",
+  "question": "A box contains $8$ red and $6$ blue balls. Three balls are drawn successively without replacement. Using the multiplication theorem on probability, find (a) the probability that the colours occur in the order red, blue, red and (b) the probability that exactly two of the three balls drawn are red.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Let $R$ and $B$ denote drawing a red and a blue ball respectively. By the multiplication theorem on probability,<br>$$P(RBR)=P(R)P(B|R)P(R|R\\cap B).$$<br>Initially there are $14$ balls, so $P(R)=\\frac{8}{14}$. After a red ball is drawn, $13$ balls remain of which $6$ are blue, so $P(B|R)=\\frac{6}{13}$. After one red and one blue ball have been drawn, $12$ balls remain of which $7$ are red, so $P(R|R\\cap B)=\\frac{7}{12}$. Therefore,<br>$$P(RBR)=\\frac{8}{14}\\times\\frac{6}{13}\\times\\frac{7}{12}=\\frac{2}{13}.$$<br><br><b>(b)</b><br>Exactly two red balls can occur in the mutually exclusive orders $RRB$, $RBR$ and $BRR$. Using the multiplication theorem for each order,<br>$$P(RRB)=\\frac{8}{14}\\times\\frac{7}{13}\\times\\frac{6}{12}=\\frac{2}{13},$$<br>$$P(RBR)=\\frac{2}{13},$$<br>and<br>$$P(BRR)=\\frac{6}{14}\\times\\frac{8}{13}\\times\\frac{7}{12}=\\frac{2}{13}.$$<br>Hence,<br>$$P(\\text{exactly two red})=\\frac{2}{13}+\\frac{2}{13}+\\frac{2}{13}=\\frac{6}{13}.$$<br><br><b>Final Result</b><br>The required probabilities are $\\frac{2}{13}$ for the order red, blue, red and $\\frac{6}{13}$ for exactly two red balls.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{2}{13}$<br>(b) $\\frac{6}{13}$",
+    "B": "(a) $\\frac{2}{13}$<br>(b) $\\frac{4}{13}$",
+    "C": "(a) $\\frac{3}{13}$<br>(b) $\\frac{6}{13}$",
+    "D": "(a) $\\frac{1}{13}$<br>(b) $\\frac{5}{13}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

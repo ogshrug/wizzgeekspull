@@ -1,0 +1,29 @@
+{
+  "id": "69a9728062be6a70cd184da5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\{1, 2, 3, 4\\}$ and define a relation $R$ on $A$ as $R = \\{(a, b) : a + b$ is even$\\}$.<br /><br />(a) Prove $R$ is an equivalence relation.<br /><br />(b) Find all distinct equivalence classes of $A$ under $R$.",
+  "answeroption": "A",
+  "explanation": "**Step 1: Reflexive**<br /><br />For all $a \\in A$, $a + a = 2a$ is even. Thus, $(a, a) \\in R$ for all $a$, so $R$ is reflexive.<br /><br />**Step 2: Symmetric**<br /><br />If $(a, b) \\in R$, $a + b$ is even, so $b + a$ is even, so $(b, a) \\in R$. Thus, $R$ is symmetric.<br /><br />**Step 3: Transitive**<br /><br />If $(a, b) \\in R$ and $(b, c) \\in R$, then $a + b$ and $b + c$ are even. Since the sum/difference of two even numbers is even, $(a + c) = (a + b) + (b + c) - 2b$ is even. Thus, $(a, c) \\in R$. So $R$ is transitive.<br /><br />$R$ is an equivalence relation.<br /><br />**Step 4: Find Equivalence Classes**<br /><br />Possible sums for $A = \\{1, 2, 3, 4\\}$:<br /><br />1 + 1 = 2 (even)<br /><br />1 + 2 = 3 (odd)<br /><br />1 + 3 = 4 (even)<br /><br />1 + 4 = 5 (odd)<br /><br />2 + 2 = 4 (even), etc.<br /><br />Check which numbers pair to make an even sum:<br /><br />(1,1), (1,3), (3,1), (3,3) — all odd numbers<br /><br />(2,2), (2,4), (4,2), (4,4) — all even numbers<br /><br />So equivalence classes:<br /><br />$[1]_R = \\{1, 3\\}$<br /><br />$[2]_R = \\{2, 4\\}$<br /><br />$[3]_R = \\{1, 3\\}$<br /><br />$[4]_R = \\{2, 4\\}$<br /><br />Thus, the distinct equivalence classes are:<br /><br />$\\{1, 3\\}, \\{2, 4\\}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is an equivalence relation with distinct equivalence classes $\\{1,3\\}$ and $\\{2,4\\}$",
+    "B": "$R$ is not an equivalence relation because it is not reflexive",
+    "C": "$R$ is an equivalence relation with classes $\\{1,2\\}$ and $\\{3,4\\}$",
+    "D": "$R$ is not an equivalence relation because it is not transitive"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:09:36 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a86abe575fa42e09444825",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "SA",
+  "question": "Let $y = (x^2 + 1)^{\\tan^{-1} x}$. Show using logarithmic differentiation that $\\frac{dy}{dx} = (x^2 +1)^{\\tan^{-1} x}\\left(\\frac{2x \\tan^{-1} x}{x^2 + 1} + \\frac{1}{1 + x^2} \\ln(x^2 + 1)\\right)$",
+  "answeroption": "C",
+  "explanation": "Take logarithm:<br /><br />$\\ln y = \\tan^{-1} x \\cdot \\ln(x^2+1)$.<br /><br />Differentiate:<br /><br />$\\frac{1}{y}\\frac{dy}{dx} = \\frac{1}{1+x^2}\\ln(x^2+1) + \\tan^{-1}x \\cdot \\frac{2x}{x^2+1}$.<br /><br />Thus,<br /><br />$\\frac{dy}{dx}=(x^2+1)^{\\tan^{-1}x}\\left(\\frac{2x\\tan^{-1}x}{x^2+1}+\\frac{1}{1+x^2}\\ln(x^2+1)\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(x^2+1)^{\\tan^{-1}x}\\left(\\frac{2x}{x^2+1}+\\frac{\\ln(x^2+1)}{1+x^2}\\right)$",
+    "B": "$(x^2+1)^{\\tan^{-1}x}\\left(\\frac{2x\\tan^{-1}x}{x^2+1}-\\frac{\\ln(x^2+1)}{1+x^2}\\right)$",
+    "C": "$(x^2+1)^{\\tan^{-1}x}\\left(\\frac{2x\\tan^{-1}x}{x^2+1}+\\frac{\\ln(x^2+1)}{1+x^2}\\right)$",
+    "D": "$(x^2+1)^{\\tan^{-1}x}\\left(\\frac{\\tan^{-1}x}{x^2+1}+2x\\ln(x^2+1)\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:24:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9b6d7d30adc5083911b42",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "LA",
+  "question": "A bag contains 7 red, 5 green, and 3 blue balls. Three balls are drawn at random without replacement. \n(a) Find the probability that all three are of different colours.\n(b) Find the probability that at least two are red.\n(c) If all three drawn are of different colours, what is the probability the first is red, second green and third blue?",
+  "answeroption": "D",
+  "explanation": "Total balls = 15<br />(a) Required: One red, one green, one blue: $7\\times5\\times3=105$ ways (arranged, since draws are ordered).<br />But number of ways for 1 red, 1 green, 1 blue, in any order: $C(7,1)C(5,1)C(3,1)\\times3!$ but that's if order matters. For just composition, $C(7,1)C(5,1)C(3,1)$.<br />Number of ways to choose any 3 balls: $C(15,3)=455$<br />So,<br />$P=\\dfrac{C(7,1)C(5,1)C(3,1)}{C(15,3)}=\\dfrac{7\\times5\\times3}{455}=\\dfrac{105}{455}=\\dfrac{21}{91}$<br /><br />(b) At least two red: either 2 red, one non-red; or all three red.<br />2 red, 1 non-red: $C(7,2)\\times C(8,1)=21\\times8=168$<br />3 red: $C(7,3)=35$<br />Total favourable: $168+35=203$<br />$P=\\dfrac{203}{455}$<br /><br />(c) If all are different colours, total such possibilities: $7\\times5\\times3=105$ (for a specific order: first red, second green, third blue, unique arrangement).<br />But, of all draws with one red, one green, one blue:<br />Ways for first: red (7), second: green (5), third: blue (3): total $7\\times5\\times3=105$<br />Given all three different, number of possible orderings = number of permutations of 3 colours $=3!=6$, so total such sets $=105\\times6=630$. But this is not possible; rather, given they're all different, each ordering is equally likely out of $6$ possible, so<br />$P=\\dfrac{1}{6}$<br /><br />Final answers:<br />(a) $\\dfrac{21}{91}$<br />(b) $\\dfrac{203}{455}$<br />(c) $\\dfrac{1}{6}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{21}{91}$<br />(b) $\\frac{168}{455}$<br />(c) $\\frac{1}{3}$",
+    "B": "(a) $\\frac{105}{15}$<br />(b) $\\frac{203}{455}$<br />(c) $\\frac{1}{6}$",
+    "C": "(a) $\\frac{24}{91}$<br />(b) $\\frac{29}{65}$<br />(c) $\\frac{1}{3}$",
+    "D": "(a) $\\frac{21}{91}$<br />(b) $\\frac{203}{455}$ or $\\frac{29}{65}$<br />(c) $\\frac{1}{6}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:01:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

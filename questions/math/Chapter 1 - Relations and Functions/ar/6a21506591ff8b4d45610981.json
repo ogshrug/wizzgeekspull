@@ -1,0 +1,34 @@
+{
+  "id": "6a21506591ff8b4d45610981",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): A function $f:N\\rightarrow N$ given by $f(x)=x^{3}+2$, $\\forall x\\in N$ is one-one but not onto.<br />Reason (R): Since $\\forall y\\in N$ (Codomain), there does not exist $x=(y-2)^{1/3}$ in N (Domain) such that $f(x)=x^{3}+2=y$.",
+  "answeroption": "(A)",
+  "explanation": "<b>Step 1</b> To evaluate Assertion (A), analyze the one-one (injective) property of the function $f(x) = x^3 + 2$ defined on natural numbers.<br /><br /><b>Step 2</b> Assume $f(x_1) = f(x_2)$ for some $x_1, x_2 \\in N$. This gives $x_1^3 + 2 = x_2^3 + 2$, which simplifies to $x_1^3 = x_2^3$. Taking the cube root gives $x_1 = x_2$, thus proving the function is strictly one-one.<br /><br /><b>Step 3</b> Evaluate the onto (surjective) property. For a function to be onto, every $y$ in the codomain must have a pre-image $x$ in the domain. Solving $y = x^3 + 2$ for $x$ yields $x = (y-2)^{1/3}$.<br /><br /><b>Step 4</b> Reason (R) states that for some $y \\in N$, $x = (y-2)^{1/3}$ is not a natural number (e.g., if $y=3$, $x=1^{1/3}=1$, but if $y=4$, $x=2^{1/3} \\notin N$). This accurately justifies why the function is not onto. Therefore, both A and R are true, and R is the correct explanation for A.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

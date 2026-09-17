@@ -1,0 +1,31 @@
+{
+  "id": "6a8fc8bf4b490c7cde359500",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f996"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, calculate the area enclosed by the circle $x^2+y^2=25$. In your solution:(a) express the area in the first quadrant as a definite integral;(b) evaluate this integral using the substitution $x=5\\sin\\theta$;(c) hence obtain the total area enclosed by the circle.",
+  "answeroption": "D",
+  "explanation": "(a)In the first quadrant, the equation of the circle gives`y=\\sqrt{25-x^2}`Therefore, the area in the first quadrant is`A_1=\\int_0^5\\sqrt{25-x^2}\\,dx`(b)Put $x=5\\sin\\theta$. Then $dx=5\\cos\\theta\\,d\\theta$ and`\\sqrt{25-x^2}=5\\cos\\theta`When $x=0$, $\\theta=0$, and when $x=5$, $\\theta=\\frac{\\pi}{2}$. Hence,`A_1=25\\int_0^{\\frac{\\pi}{2}}\\cos^2\\theta\\,d\\theta`Using $\\cos^2\\theta=\\frac{1+\\cos2\\theta}{2}$,`A_1=\\frac{25}{2}\\int_0^{\\frac{\\pi}{2}}\\left(1+\\cos2\\theta\\right)\\,d\\theta A_1=\\frac{25}{2}\\left[\\theta+\\frac{\\sin2\\theta}{2}\\right]_0^{\\frac{\\pi}{2}}=\\frac{25\\pi}{4}`(c)The circle is symmetric about both coordinate axes. Therefore, its total area is four times the area in the first quadrant:`A=4A_1=4\\times\\frac{25\\pi}{4}=25\\pi`Hence, the total area enclosed by the circle is $25\\pi$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A_1=\\int_0^5\\sqrt{25-x^2}\\,dx$<br>(b) $A_1=\\frac{25\\pi}{2}$<br>(c) Total area $=50\\pi$ square units",
+    "B": "(a) $A_1=\\int_0^5(25-x^2)\\,dx$<br>(b) $A_1=\\frac{25\\pi}{4}$<br>(c) Total area $=25\\pi$ square units",
+    "C": "(a) $A_1=\\int_{-5}^{5}\\sqrt{25-x^2}\\,dx$<br>(b) $A_1=\\frac{25\\pi}{4}$<br>(c) Total area $=25\\pi$ square units",
+    "D": "(a) $A_1=\\int_0^5\\sqrt{25-x^2}\\,dx$<br>(b) $A_1=\\frac{25\\pi}{4}$<br>(c) Total area $=25\\pi$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

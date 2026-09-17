@@ -1,0 +1,30 @@
+{
+  "id": "6a8edc2d2e54880055a0a6d9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "LA",
+  "question": "The length of a rectangular garden is decreasing at $2\\ \\text{m/min}$, while its width is increasing at $3\\ \\text{m/min}$. At an instant when its length is $30\\ \\text{m}$ and width is $20\\ \\text{m}$, determine:<br><br>(a) the rate of change of its area;<br><br>(b) the rate of change of its perimeter;<br><br>(c) the rate of change of the length of its diagonal.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>Let the length and width be $x$ and $y$, respectively. The given rates are<br>$$\\frac{dx}{dt}=-2\\ \\text{m/min},\\qquad \\frac{dy}{dt}=3\\ \\text{m/min}$$<br>The area is $A=xy$. Therefore,<br>$$\\frac{dA}{dt}=x\\frac{dy}{dt}+y\\frac{dx}{dt}$$<br>At $x=30$ and $y=20$,<br>$$\\frac{dA}{dt}=30(3)+20(-2)=90-40=50\\ \\text{m}^2/\\text{min}$$<br>Thus, the area is increasing at $50\\ \\text{m}^2/\\text{min}$.<br><br><b>(b)</b><br>The perimeter is<br>$$P=2(x+y)$$<br>Differentiating with respect to time,<br>$$\\frac{dP}{dt}=2\\left(\\frac{dx}{dt}+\\frac{dy}{dt}\\right)$$<br>$$\\frac{dP}{dt}=2(-2+3)=2\\ \\text{m/min}$$<br>Thus, the perimeter is increasing at $2\\ \\text{m/min}$.<br><br><b>(c)</b><br>Let $d$ be the length of the diagonal. Then<br>$$d^2=x^2+y^2$$<br>At the given instant,<br>$$d=\\sqrt{30^2+20^2}=10\\sqrt{13}\\ \\text{m}$$<br>Differentiating $d^2=x^2+y^2$ with respect to time,<br>$$2d\\frac{dd}{dt}=2x\\frac{dx}{dt}+2y\\frac{dy}{dt}$$<br>Therefore,<br>$$\\frac{dd}{dt}=\\frac{x\\frac{dx}{dt}+y\\frac{dy}{dt}}{d}$$<br>$$\\frac{dd}{dt}=\\frac{30(-2)+20(3)}{10\\sqrt{13}}=0$$<br>Hence, the length of the diagonal is momentarily unchanged.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Area decreases at $50$ m$^2$/min<br>(b) Perimeter increases at $2$ m/min<br>(c) Diagonal decreases at $2$ m/min",
+    "B": "(a) Area increases at $40$ m$^2$/min<br>(b) Perimeter increases at $1$ m/min<br>(c) Diagonal is unchanged",
+    "C": "(a) Area increases at $90$ m$^2$/min<br>(b) Perimeter increases at $6$ m/min<br>(c) Diagonal increases at $1$ m/min",
+    "D": "(a) Area increases at $50$ m$^2$/min<br>(b) Perimeter increases at $2$ m/min<br>(c) Diagonal is momentarily unchanged"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

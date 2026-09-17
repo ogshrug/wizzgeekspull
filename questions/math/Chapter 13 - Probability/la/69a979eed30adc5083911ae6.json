@@ -1,0 +1,30 @@
+{
+  "id": "69a979eed30adc5083911ae6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "LA",
+  "question": "In a lottery, there are 10 prizes and 90 blanks. A ticket is drawn at random. Find the probability that:<br />(a) the ticket is a prize,<br />(b) if 5 tickets are drawn, what is the probability that exactly one of them is a prize?<br />(c) What is the probability that at least one is a prize?",
+  "answeroption": "C",
+  "explanation": "Total tickets: 100. Prizes: 10<br />(a) Probability = $\\frac{10}{100}=\\frac{1}{10}$<br /><br />(b) Probability of exactly 1 prize in 5 draws (with replacement; binomial, n=5, p=1/10):<br />$P(1)=\\binom{5}{1}\\left(\\frac{1}{10}\\right)^1\\left(\\frac{9}{10}\\right)^{4}=5 \\times \\frac{1}{10}\\times \\frac{6561}{10000}=\\frac{5\\times 6561}{100000}=\\frac{32805}{100000}=0.32805$<br /><br />(c) At least one prize: $=1-P(0)$<br />$P(0)=\\left(\\frac{9}{10}\\right)^5=\\frac{59049}{100000}$<br />So, answer $=1-\\frac{59049}{100000}=\\frac{40951}{100000}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{1}{10}$<br />(b) $0.32805$<br />(c) $\\frac{40951}{100000}$",
+    "B": "(a) $\\frac{9}{10}$<br />(b) $\\frac{\\binom{90}{1}\\binom{10}{4}}{\\binom{100}{5}}$<br />(c) $\\frac{\\binom{90}{5}}{\\binom{100}{5}}$",
+    "C": "(a) $\\frac{1}{10}$<br />(b) $\\frac{\\binom{10}{1}\\binom{90}{4}}{\\binom{100}{5}}=\\frac{12905}{38024}$<br />(c) $1-\\frac{\\binom{90}{5}}{\\binom{100}{5}}=\\frac{79137}{190120}$",
+    "D": "(a) $\\frac{10}{90}$<br />(b) $\\frac{\\binom{10}{5}}{\\binom{100}{5}}$<br />(c) $\\frac{\\binom{10}{1}}{\\binom{100}{1}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:41:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

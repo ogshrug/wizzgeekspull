@@ -1,0 +1,27 @@
+{
+  "id": "6a3279e5d5dca7dcb0bf0ebd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d7e"
+  ],
+  "question_type": "SA",
+  "question": "If $y = (\\tan^{-1}x)^2$, show that $(x^2+1)^2\\frac{d^2y}{dx^2} + 2x(x^2+1)\\frac{dy}{dx} = 2$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Compute the first derivative using the chain rule: $\\frac{dy}{dx} = 2(\\tan^{-1}x) \\cdot \\frac{1}{1+x^2}$.\n\n**Step 2:** Rearrange to avoid quotient rule: $(1+x^2)\\frac{dy}{dx} = 2\\tan^{-1}x$.\n\n**Step 3:** Differentiate both sides with respect to $x$ using the product rule: $(1+x^2)\\frac{d^2y}{dx^2} + (2x)\\frac{dy}{dx} = \\frac{2}{1+x^2}$.\n\n**Step 4:** Multiply the entire equation by $(1+x^2)$ to achieve the final form: $(1+x^2)^2\\frac{d^2y}{dx^2} + 2x(1+x^2)\\frac{dy}{dx} = 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

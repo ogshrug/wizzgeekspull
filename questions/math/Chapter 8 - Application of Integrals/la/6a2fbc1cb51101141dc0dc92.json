@@ -1,0 +1,27 @@
+{
+  "id": "6a2fbc1cb51101141dc0dc92",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, find the area of the region enclosed by the curve $y=x^{2},$ the x-axis and the ordinates $x=-2$ and $x=1$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The region is strictly bounded by the upward-opening symmetric parabola given by the algebraic equation $y=x^2$, the horizontal x-axis where $y=0$, and the vertical ordinates represented by the lines $x=-2$ and $x=1$. We must first establish the nature of the curve over the required domain. Since the square of any real number is always non-negative ($x^2 \\ge 0$ for all real $x$), the parabolic curve lies entirely above or on the x-axis over the specified interval from $x=-2$ to $x=1$. No part of the region drops below the horizontal axis.<br />**Step 2:** We proceed to set up the appropriate definite integral to accurately calculate the completely bounded area. The total mathematical area $A$ under a curve $f(x)$ is evaluated by the integral formula $\\int_{a}^{b} f(x) dx$, where the function is $f(x)=x^2$, the given lower limit of integration is $a=-2$, and the designated upper limit is $b=1$. Therefore, the definite integral expression becomes $A = \\int_{-2}^{1} x^2 dx$.<br />**Step 3:** We must carefully evaluate the indefinite integral of the function $x^2$. Using the standard polynomial power rule for integration, which states that $\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$, we determine the antiderivative to be $\\int x^2 dx = \\frac{x^3}{3}$.<br />**Step 4:** Next, we apply the Fundamental Theorem of Calculus to evaluate the definite integral by methodically substituting the given upper and lower bounds of the specific region. The expression is $A = [\\frac{x^3}{3}]_{-2}^{1}$.<br />**Step 5:** First, meticulously substitute the upper limit boundary $x=1$ into the evaluated antiderivative expression: $\\frac{1^3}{3} = \\frac{1}{3}$.<br />**Step 6:** Second, meticulously substitute the lower limit boundary $x=-2$ into the evaluated antiderivative expression: $\\frac{(-2)^3}{3} = \\frac{-8}{3} = -\\frac{8}{3}$.<br />**Step 7:** Subtract the lower limit numerical evaluation from the upper limit numerical evaluation to find the true geometric area: Area $A = \\frac{1}{3} - (-\\frac{8}{3}) = \\frac{1}{3} + \\frac{8}{3} = \\frac{9}{3}$.<br />**Step 8:** Simplify the final fractional result to its lowest terms. The total enclosed area is exactly $3$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a227987864be73cfcf6d1f7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the point $Q$ on the line $\\frac{2x+4}{6}=\\frac{y+1}{2}=\\frac{-2z+6}{-4}$ at a distance of $3\\sqrt{2}$ from the point $P(1,2,3)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** First, rewrite the equation of the line into standard symmetric form by dividing numerators and denominators to isolate the variables. Line: $\\frac{2(x+2)}{6} = \\frac{y+1}{2} = \\frac{-2(z-3)}{-4} \\implies \\frac{x+2}{3} = \\frac{y+1}{2} = \\frac{z-3}{2}$.<br />**Step 2:** Express a general point $Q$ on this line using a parameter $\\lambda$: $Q(3\\lambda - 2, 2\\lambda - 1, 2\\lambda + 3)$.<br />**Step 3:** The distance between $P(1,2,3)$ and $Q$ is given as $3\\sqrt{2}$. Using the distance formula squared: $PQ^2 = (3\\sqrt{2})^2 = 18$.<br />**Step 4:** Substitute the coordinates into the distance formula: $(3\\lambda - 2 - 1)^2 + (2\\lambda - 1 - 2)^2 + (2\\lambda + 3 - 3)^2 = 18$.<br />**Step 5:** Simplify the equation: $(3\\lambda - 3)^2 + (2\\lambda - 3)^2 + (2\\lambda)^2 = 18$.<br />**Step 6:** Expand the squares: $(9\\lambda^2 - 18\\lambda + 9) + (4\\lambda^2 - 12\\lambda + 9) + 4\\lambda^2 = 18$.<br />**Step 7:** Combine like terms: $17\\lambda^2 - 30\\lambda + 18 = 18 \\implies 17\\lambda^2 - 30\\lambda = 0$.<br />**Step 8:** Solve for $\\lambda$: $\\lambda(17\\lambda - 30) = 0$, which gives $\\lambda = 0$ or $\\lambda = \\frac{30}{17}$.<br />**Step 9:** Substitute these values back into the general coordinates of $Q$. If $\\lambda = 0$, $Q_1 = (-2, -1, 3)$. If $\\lambda = 30/17$, $Q_2 = (3(30/17)-2, 2(30/17)-1, 2(30/17)+3) = (\\frac{56}{17}, \\frac{43}{17}, \\frac{111}{17})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

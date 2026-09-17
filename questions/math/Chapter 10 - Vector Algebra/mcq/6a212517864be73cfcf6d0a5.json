@@ -1,0 +1,33 @@
+{
+  "id": "6a212517864be73cfcf6d0a5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c3"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of m for which the points with position vectors $-\\hat{i}-\\hat{j}+2\\hat{k}$, $2\\hat{i}+m\\hat{j}+5\\hat{k}$ and $3\\hat{i}+11\\hat{j}+6\\hat{k}$ are collinear, is",
+  "answeroption": "A",
+  "explanation": "**Step 1: Define the Position Vectors**  \nLet the points be:  \n$A = -\\hat{i} - \\hat{j} + 2\\hat{k}$  \n$B = 2\\hat{i} + m\\hat{j} + 5\\hat{k}$  \n$C = 3\\hat{i} + 11\\hat{j} + 6\\hat{k}$\n\n**Step 2: Find the Direction Vectors**  \n$\\vec{AB} = B - A = (2+1)\\hat{i} + (m+1)\\hat{j} + (5-2)\\hat{k} = 3\\hat{i} + (m+1)\\hat{j} + 3\\hat{k}$  \n$\\vec{BC} = C - B = (3-2)\\hat{i} + (11-m)\\hat{j} + (6-5)\\hat{k} = 1\\hat{i} + (11-m)\\hat{j} + 1\\hat{k}$\n\n**Step 3: Apply Collinearity Condition**  \nFor collinear points, $\\vec{AB}$ and $\\vec{BC}$ must be parallel, i.e., their corresponding components must be proportional:  \n$$\\frac{3}{1} = \\frac{m+1}{11-m} = \\frac{3}{1}$$  \nFrom $\\frac{3}{1} = \\frac{m+1}{11-m}$:  \n$$3(11-m) = m+1$$  \n$$33 - 3m = m + 1$$  \n$$33 - 1 = m + 3m$$  \n$$32 = 4m \\Rightarrow m = 8$$  \nThus, the value of $m$ is 8, which corresponds to option **A**.",
+  "explanation_image": [],
+  "options": {
+    "A": "8",
+    "B": "-8",
+    "C": "2",
+    "D": "5/2"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a22b3cdfbdd87b6dea73c0e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "The probability that a student buys a colouring book is 0.7 and that she buys a box of colours is 0.2. The probability that she buys a colouring book, given that she buys a box of colours, is 0.3. Find the probability that the student:<br /><br />**(i)** Buys both the colouring book and the box of colours.<br />**(ii)** Buys a box of colours given that she buys the colouring book.",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> Let $C$ represent the event that the student buys a colouring book ($P(C) = 0.7$), and let $B$ represent the event that she buys a box of colours ($P(B) = 0.2$). We are given the conditional probability $P(C|B) = 0.3$.<br /><b>Step 2</b> Use the multiplication theorem of probability to find the probability of both events occurring simultaneously, $P(C \\cap B)$: $P(C \\cap B) = P(B) \\cdot P(C|B)$. Substituting our known values gives: $P(C \\cap B) = 0.2 \\times 0.3 = 0.06$.<br /><br /><b>(ii)</b><br /><br /><b>Step 3</b> We want to find the conditional probability that she buys a box of colours given that she buys the colouring book, which is denoted as $P(B|C)$. Write down the standard conditional probability formula: $P(B|C) = \\frac{P(C \\cap B)}{P(C)}$.<br /><b>Step 4</b> Substitute our calculated intersection value $0.06$ and the given point probability $P(C) = 0.7$ into this fraction: $P(B|C) = \\frac{0.06}{0.7}$.<br /><b>Step 5</b> Simplify the decimal fraction arithmetic to obtain the final answer: $\\frac{6}{70} = \\frac{3}{35}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

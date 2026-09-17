@@ -1,0 +1,30 @@
+{
+  "id": "69a9898062be6a70cd184dd7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47",
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): If $f: \\text{R} \\{0\\} \\to \\text{R}$ is defined by $f(x) = \\frac{1}{x}$, then $f$ is its own inverse.<br /><br />Reason (R): Every involutive function (that is, $f(f(x))=x$) is necessarily injective.",
+  "answeroption": "A",
+  "explanation": "$f(x)=\\frac{1}{x}$.<br /><br />Then $f(f(x)) = f\\left(\\frac{1}{x}\\right) = x$, so the function is its own inverse.<br /><br />Thus the Assertion is true.<br /><br />Every involutive function satisfies $f(f(x))=x$. If $f(a)=f(b)$, applying $f$ again gives $f(f(a))=f(f(b)) \\Rightarrow a=b$, hence such functions are injective.<br /><br />Therefore, the Reason is also true and correctly explains the Assertion.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:47:44 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

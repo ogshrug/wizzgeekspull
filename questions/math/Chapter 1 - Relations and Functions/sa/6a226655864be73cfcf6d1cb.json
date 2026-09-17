@@ -1,0 +1,31 @@
+{
+  "id": "6a226655864be73cfcf6d1cb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "A student wants to pair up natural numbers in such a way that they satisfy the equation $2x+y=41$, $x, y\\in N$. Find the domain and range of the relation. Check if the relation thus formed is reflexive, symmetric and transitive. Hence, state whether it is an equivalence relation or not.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The relation is defined on $N$ by $R = \\{(x, y): 2x+y = 41\\}$. Rewrite it as $y = 41 - 2x$. Since $y \\in N$, $y \\ge 1$, which implies $41 - 2x \\ge 1 \\implies 2x \\le 40 \\implies x \\le 20$. The domain is $\\{1, 2, 3, \\dots, 20\\}$. The range consists of the odd numbers from 1 to 39: $\\{39, 37, 35, \\dots, 1\\}$.<br />**Step 2:** Check Reflexivity: For $R$ to be reflexive, $(x,x) \\in R$ for all $x \\in N$. If $y=x$, then $2x+x=41 \\implies 3x=41$, which means $x=41/3$, not a natural number. Not reflexive.<br />**Step 3:** Check Symmetry: If $(1, 39) \\in R$ ($2(1)+39 = 41$), then $(39, 1)$ must be in $R$. But $2(39)+1 = 79 \\ne 41$. Not symmetric.<br />**Step 4:** Check Transitivity: If $(20, 1) \\in R$ and $(1, 39) \\in R$, then $(20, 39)$ should be in $R$. But $2(20)+39 = 79 \\ne 41$. Not transitive.<br />**Step 5:** Since it fails all three properties, it is definitely not an equivalence relation.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

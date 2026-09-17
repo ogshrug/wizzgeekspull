@@ -1,0 +1,29 @@
+{
+  "id": "6a9122d34b490c7cde3595b6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e1"
+  ],
+  "question_type": "VSA",
+  "question": "For the restrictions $x+y \\le 6$, $2x+y \\le 8$, $x \\ge 0$ and $y \\ge 0$, examine whether $(4,2)$ is a feasible or an infeasible solution.",
+  "answeroption": "B",
+  "explanation": "Step 1: To classify the point, each given restriction must be checked.<br>Step 2: For $x+y \\le 6$, substitution of $(4,2)$ gives $4+2=6$, so this condition is satisfied.<br>Step 3: For $2x+y \\le 8$, substitution gives $2(4)+2=10$. Since $10>8$, this condition is violated.<br>Step 4: The non-negative restrictions are satisfied because $4 \\ge 0$ and $2 \\ge 0$.<br>Step 5: However, satisfying only some of the restrictions is insufficient. A feasible solution must satisfy all constraints simultaneously.<br>Therefore, $(4,2)$ is an infeasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(4,2)$ is feasible because $x+y=6$",
+    "B": "$(4,2)$ is infeasible because $2x+y=10>8$",
+    "C": "$(4,2)$ is feasible because both coordinates are non-negative",
+    "D": "$(4,2)$ is infeasible because $x+y>6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

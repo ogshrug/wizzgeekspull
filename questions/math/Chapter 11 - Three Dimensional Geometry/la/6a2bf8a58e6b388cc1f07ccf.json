@@ -1,0 +1,27 @@
+{
+  "id": "6a2bf8a58e6b388cc1f07ccf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "LA",
+  "question": "Find the length of the perpendicular drawn from the point $P(1,2,3)$ to the line $\\frac{x-6}{3}=\\frac{y-7}{2}=\\frac{z-7}{-2}$ Also, find the equation of the perpendicular line joining P and the foot of the perpendicular.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To calculate the length of the perpendicular drawn from the point $P(1,2,3)$ to the given line, we first express any general point on this line using a scalar parameter $\\lambda$. This allows us to define coordinates for the foot of the perpendicular, denoted as $Q(3\\lambda + 6, 2\\lambda + 7, -2\\lambda + 7)$. The directional ratios of the line segment joining the external point $P$ and our point $Q$ are computed by taking component differences, giving $\\langle 3\\lambda + 5, 2\\lambda + 5, -2\\lambda + 4 \\rangle$.<br /><br />**Step 2:** Since line segment $PQ$ is strictly perpendicular to the given line, the dot product of their respective directional vectors must be zero. The direction vector of the line is $\\langle 3, 2, -2 \\rangle$. Setting up the dot product equation gives: $3(3\\lambda + 5) + 2(2\\lambda + 5) - 2(-2\\lambda + 4) = 0$. Expanding and simplifying this linear algebraic expression yields $9\\lambda + 15 + 4\\lambda + 10 + 4\\lambda - 8 = 0 \\implies 17\\lambda + 17 = 0$, which solves to $\\lambda = -1$. Substituting $\\lambda = -1$ back into our expression for point $Q$ locates the foot coordinates exactly at $Q(3, 5, 9)$.<br /><br />**Step 3:** Finally, we compute the length using the standard distance formula: $PQ = \\sqrt{(3-1)^2 + (5-2)^2 + (9-3)^2} = \\sqrt{4 + 9 + 36} = 7$ units. The direction ratios of the perpendicular line are $\\langle 2, 3, 6 \\rangle$. Thus, its symmetric Cartesian equation is written as $\\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z-3}{6}$ and the vector form is $\\vec{r} = (\\hat{i} + 2\\hat{j} + 3\\hat{k}) + t(2\\hat{i} + 3\\hat{j} + 6\\hat{k})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

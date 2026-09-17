@@ -1,0 +1,29 @@
+{
+  "id": "69a920a3b4df445c7f648cb0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Show that $\\sin^{-1}(\\frac{3}{5}) + \\sin^{-1}(\\frac{4}{5}) = \\frac{\\pi}{2}$.",
+  "answeroption": "B",
+  "explanation": "Let $x=\\sin^{-1}(\\frac{3}{5})$ and $y=\\sin^{-1}(\\frac{4}{5})$.<br /><br />Then $\\sin x=\\frac{3}{5}$ and $\\sin y=\\frac{4}{5}$.<br /><br />Compute cosines: $\\cos x=\\frac{4}{5}$ and $\\cos y=\\frac{3}{5}$.<br /><br />Using identity $\\sin(x+y)=\\sin x\\cos y + \\cos x\\sin y$.<br /><br />Substitute values: $\\frac{3}{5}\\cdot\\frac{3}{5}+\\frac{4}{5}\\cdot\\frac{4}{5}=1$.<br /><br />Thus $\\sin(x+y)=1$.<br /><br />Hence $x+y=\\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cos x=\\frac{3}{5}$ and $\\cos y=\\frac{4}{5}$, so $\\sin(x+y)=\\frac{24}{25}$",
+    "B": "$\\cos x=\\frac{4}{5}$ and $\\cos y=\\frac{3}{5}$, so $\\sin(x+y)=1$",
+    "C": "$\\sin x=\\frac{4}{5}$ and $\\sin y=\\frac{3}{5}$, so $\\cos(x+y)=1$",
+    "D": "$\\cos x=\\frac{4}{5}$ and $\\cos y=\\frac{3}{5}$, so $\\sin(x+y)=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:20:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

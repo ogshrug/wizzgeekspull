@@ -1,0 +1,26 @@
+{
+  "id": "6a2bf1578e6b388cc1f07cc4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following Linear Programming Problem graphically: Minimize $Z=20x+10y$ subject to $x+2y\\le40$ $3x+y\\ge30$ $4x+3y\\ge60$ $x,y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Plot the boundary lines for the given inequalities: $x+2y=40$, $3x+y=30$, and $4x+3y=60$[cite: 2608, 2609, 2612]. Solve the lines simultaneously to find the intersection vertices: L1 and L2 intersect at $(4,18)$, and L2 and L3 intersect at $(6,12)$.<br />**Step 2:** Identify the feasible region satisfying all constraints simultaneously ($x+2y \\le 40$, $3x+y \\ge 30$, $4x+3y \\ge 60$, $x,y \\ge 0$)[cite: 2608, 2609, 2612, 2613]. The corner points of this bounded region are $(15,0)$, $(40,0)$, $(4,18)$, and $(6,12)$.<br />**Step 3:** Evaluate the objective function $Z = 20x + 10y$ at each vertex: $Z(15,0)=300$, $Z(40,0)=800$, $Z(4,18)=260$, and $Z(6,12)=240$[cite: 2606]. The minimum value of $Z$ is $240$ at the point $(6,12)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

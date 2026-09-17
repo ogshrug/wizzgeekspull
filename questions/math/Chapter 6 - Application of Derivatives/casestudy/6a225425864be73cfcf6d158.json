@@ -1,0 +1,32 @@
+{
+  "id": "6a225425864be73cfcf6d158",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f985"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A technical company is designing a rectangular solar panel installation on a roof using 300 metres of boundary material. The design includes a partition running parallel to one of the sides dividing the area (roof) into two sections. Let the length of the side perpendicular to the partition be x metres and with parallel to the partition be y metres. Based on this information, answer the following questions:<br /><br />**(i)** Write the equation for the total boundary material used in the boundary and parallel to the partition in terms of x and y.<br />**(ii)** Write the area of the solar panel as a function of x.<br />**(iii) (a)** Find the critical points of the area function. Use second derivative test to determine critical points at the maximum area. Also, find the maximum area.<br />OR<br />**(iii) (b)** Using first derivative test, calculate the maximum area the company can enclose with the 300 metres of boundary material, considering the parallel partition.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The total perimeter material consists of two outer sides of length $x$ and three sides of length $y$ (the two outer boundaries and one internal partition). Therefore, the equation is $2x + 3y = 300$.<br /><br />**(ii)** **Step 1:** The total area of the rectangular panel is given by $A = x \\cdot y$. From the perimeter equation, we isolate $y$ to get $y = \\frac{300 - 2x}{3}$.<br />**Step 2:** Substitute this expression for $y$ into the area formula to obtain $A(x) = x(\\frac{300 - 2x}{3}) = 100x - \\frac{2x^2}{3}$.<br /><br />**(iii) (a)** **Step 1:** Find the first derivative $A'(x) = 100 - \\frac{4x}{3}$. Setting it to zero gives $100 = \\frac{4x}{3} \\implies 300 = 4x \\implies x = 75$. This is the single critical point.<br />**Step 2:** Apply the second derivative test: $A''(x) = -\\frac{4}{3}$. Since $A''(75) < 0$, the critical point $x = 75$ corresponds to a local maximum.<br />**Step 3:** The maximum area is calculated as $A(75) = 100(75) - \\frac{2(75)^2}{3} = 7500 - \\frac{2(5625)}{3} = 7500 - 3750 = 3750$ sq metres.<br /><br />**(iii) (b)** **Step 1:** Find $A'(x) = 100 - \\frac{4x}{3}$. The critical point is firmly found at $x = 75$.<br />**Step 2:** Apply the first derivative test. For a value $x < 75$ (e.g., $x=60$), $A'(60) = 100 - 80 = 20 > 0$. For a value $x > 75$ (e.g., $x=90$), $A'(90) = 100 - 120 = -20 < 0$. Since $A'(x)$ transitions from positive to negative, $x=75$ is definitively a maximum.<br />**Step 3:** The calculated maximum area is $3750$ sq metres.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1",
+    "2025-1-2",
+    "2025-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a225425864be73cfcf6d158/1782195517-0.png?t=1782215318189"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

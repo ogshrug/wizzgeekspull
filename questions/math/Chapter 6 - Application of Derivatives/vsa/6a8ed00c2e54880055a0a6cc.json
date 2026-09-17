@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed00c2e54880055a0a6cc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f980"
+  ],
+  "question_type": "VSA",
+  "question": "Apply the method of differentials to estimate $(15.9)^{\\frac{1}{4}}$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> Let $y=x^{\\frac{1}{4}}$. Choose $x=16$ and $dx=-0.1$, since $15.9=16-0.1$.<br><b>Step 2:</b> Differentiating, $$dy=\\frac{1}{4x^{\\frac{3}{4}}}dx$$<br><b>Step 3:</b> Since $16^{\\frac{3}{4}}=8$, $$dy=\\frac{-0.1}{4(8)}=-0.003125$$<br><b>Step 4:</b> Also, $16^{\\frac{1}{4}}=2$. Therefore, $$(15.9)^{\\frac{1}{4}}\\approx2-0.003125$$<br><b>Step 5:</b> Hence, $(15.9)^{\\frac{1}{4}}\\approx1.996875$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1.968750$",
+    "B": "$2.003125$",
+    "C": "$1.999375$",
+    "D": "$1.996875$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

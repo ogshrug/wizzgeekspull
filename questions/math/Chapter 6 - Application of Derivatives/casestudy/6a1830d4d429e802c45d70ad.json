@@ -1,0 +1,25 @@
+{
+  "id": "6a1830d4d429e802c45d70ad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A window is in the form of a rectangle surmounted by an equilateral triangle on its length. Let the rectangular part have length and breadth $x$ and $y$ metres respectively.<br /><br />On the basis of the given information, answer the following questions :<br />(i) If the perimeter of the window is 12 m, find the relation between $x$ and $y$.<br />(ii) Using the expression obtained in (i), write an expression for the area of the window as a function of $x$ only.<br />(iii) (a) Find the dimensions of the rectangle that will allow maximum light through the window.<br />OR<br />(iii) (b) If it is given that the area of the window is $50\\text{ m}^2$, find an expression for its perimeter in terms of $x$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Solve part (i). The perimeter consists of the bottom side $$x$$, two vertical sides $$2y$$, and the two upper triangle sides $$2x$$. Setting up the sum:<br>$$P = 3x + 2y = 12 \\implies 2y = 12 - 3x \\implies y = 6 - \\frac{3}{2}x$$<br><br>**Step 2:** Solve part (ii). The total area is the sum of the rectangular area $$xy$$ and the equilateral triangle area $$\\frac{\\sqrt{3}}{4}x^2$$. Substitute $$y$$:<br>$$A(x) = x\\left(6 - \\frac{3}{2}x\\right) + \\frac{\\sqrt{3}}{4}x^2$$<br>$$A(x) = 6x - \\frac{3}{2}x^2 + \\frac{\\sqrt{3}}{4}x^2$$<br>$$A(x) = 6x - \\left(\\frac{6 - \\sqrt{3}}{4}\\right)x^2$$<br><br>**Step 3:** Solve part (iii)(a). Differentiate the area function to find its maximum point:<br>$$A'(x) = 6 - 2\\left(\\frac{6 - \\sqrt{3}}{4}\\right)x$$<br>$$A'(x) = 6 - \\left(\\frac{6 - \\sqrt{3}}{2}\\right)x$$<br>Setting $$A'(x) = 0$$:<br>$$x = \\frac{12}{6 - \\sqrt{3}} = \\frac{4(6 + \\sqrt{3})}{11}\\,m$$<br>Substituting this value back gives breadth:<br>$$y = \\frac{6(3 - \\sqrt{3})}{6 - \\sqrt{3}}\\,m$$<br>Checking the second derivative confirms it is a maximum since $$A''(x) < 0$$.<br><br>**Step 4:** Solve part (iii)(b). If the area is fixed at $$A = 50$$, then:<br>$$xy + \\frac{\\sqrt{3}}{4}x^2 = 50$$<br>$$y = \\frac{50}{x} - \\frac{\\sqrt{3}}{4}x$$<br>Substitute this into the perimeter equation $$P = 3x + 2y$$:<br>$$P(x) = 3x + 2\\left(\\frac{50}{x} - \\frac{\\sqrt{3}}{4}x\\right)$$<br>$$P(x) = \\left(3 - \\frac{\\sqrt{3}}{2}\\right)x + \\frac{100}{x}$$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

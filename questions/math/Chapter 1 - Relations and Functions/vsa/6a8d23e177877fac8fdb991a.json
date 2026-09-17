@@ -1,0 +1,29 @@
+{
+  "id": "6a8d23e177877fac8fdb991a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "VSA",
+  "question": "For the function $f:\\mathbb{R}\\to\\mathbb{R}$ given by $f(x)=x^2+2x$, find two distinct real numbers having the same image and hence comment on its one-one nature.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> To disprove the one-one property, it is sufficient to find two distinct inputs having the same image.<br><b>Step 2:</b> Consider $x=0$. Then $f(0)=0^2+2(0)=0$.<br><b>Step 3:</b> Now consider $x=-2$. We get $f(-2)=(-2)^2+2(-2)=4-4=0$.<br><b>Step 4:</b> Thus, $f(0)=f(-2)$ even though $0\\ne-2$.<br><b>Step 5:</b> Hence, distinct elements of the domain have the same image under the function.<br><b>Final Answer:</b> The two numbers may be $0$ and $-2$, and the function is not one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$ and $2$; the function is not one-one",
+    "B": "$0$ and $-2$; the function is not one-one",
+    "C": "$1$ and $-2$; the function is one-one",
+    "D": "$-1$ and $1$; the function is one-one"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

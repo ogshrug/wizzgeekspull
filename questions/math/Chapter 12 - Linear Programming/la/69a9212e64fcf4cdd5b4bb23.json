@@ -1,0 +1,29 @@
+{
+  "id": "69a9212e64fcf4cdd5b4bb23",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A factory is to manufacture two types of gadgets $G_1$ and $G_2$. Each unit of $G_1$ requires 2 hours on machine A and 1 hour on machine B. Each unit of $G_2$ requires 1 hour on machine A and 3 hours on machine B. Each day, machine A is available for maximum 8 hours and machine B for maximum 12 hours. The profit per unit is Rs 30 for $G_1$ and Rs 40 for $G_2$. Formulate and solve the LPP graphically to determine the number of gadgets to be produced for maximum profit. List all steps.",
+  "answeroption": "A",
+  "explanation": "Let $x$ = units of $G_1$, $y$ = units of $G_2$.<br /><br />Step 1: Objective: $Z=30x+40y$ (maximize).<br /><br />Step 2: Machine A constraint: $2x+y\\leq8$.<br /><br />Step 3: Machine B constraint: $x+3y\\leq12$.<br /><br />Step 4: Non-negativity: $x\\geq0, y\\geq0$.<br /><br />Step 5: Find corner points.<br /><br />For $2x+y=8$, $y=8-2x$.<br /><br />For $x+3y=12$, $y=(12-x)/3$.<br /><br />Set $8-2x=(12-x)/3$.<br /><br />$3(8-2x)=12-x\\implies24-6x=12-x\\implies-5x=-12\\implies x=12/5=2.4$.<br /><br />Then $y=8-2x=8-4.8=3.2$. So intersection at $(2.4,3.2)$.<br /><br />Intercepts for $2x+y=8$: $(0,8)$ and $(4,0)$.<br /><br />For $x+3y=12$: $(0,4)$ and $(12,0)$.<br /><br />Feasible points: $(0,4)$, $(4,0)$, $(2.4,3.2)$.<br /><br />Step 6: Evaluate $Z$.<br /><br />At $(0,4): 30×0+40×4=160$.<br /><br />At $(4,0): 30×4=120$.<br /><br />At $(2.4,3.2): 30×2.4+40×3.2=72+128=200$.<br /><br />Maximum profit is Rs 200 at $(2.4,3.2)$. Produce $2.4$ units of $G_1$ and $3.2$ units of $G_2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce $2.4$ units of $G_1$ and $3.2$ units of $G_2$; maximum profit Rs 200.",
+    "B": "Produce $0$ units of $G_1$ and $4$ units of $G_2$; maximum profit Rs 160.",
+    "C": "Produce $4$ units of $G_1$ and $0$ units of $G_2$; maximum profit Rs 120.",
+    "D": "Produce $0$ units of $G_1$ and $8$ units of $G_2$; maximum profit Rs 320."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:22:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

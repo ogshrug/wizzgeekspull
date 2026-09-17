@@ -1,0 +1,29 @@
+{
+  "id": "69a9a3ac6638848124d7c967",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In urban planning, a park is proposed to be built in the region bounded above by $y=\\sqrt{x}$ and below by $y=x^3$ between $x=0$ and $x=1$.<br /><br />(a) Set up an integral for the area.<br /><br />(b) Evaluate the area.<br /><br />(c) Generalize the area when curves are $y=x^k$ and $y=x^m$ with $0<k<m$.",
+  "answeroption": "D",
+  "explanation": "(a) Area between curves is $A=\\int_0^1(\\sqrt{x}-x^3)dx$.<br /><br />(b) $\\int_0^1 x^{1/2}dx=\\frac{2}{3}$ and $\\int_0^1 x^3dx=\\frac{1}{4}$.<br /><br />Thus $A=\\frac{2}{3}-\\frac{1}{4}=\\frac{5}{12}$.<br /><br />(c) For $y=x^k$ and $y=x^m$, area $A=\\int_0^1(x^k-x^m)dx$.<br /><br />$A=\\left[\\frac{x^{k+1}}{k+1}-\\frac{x^{m+1}}{m+1}\\right]_0^1$.<br /><br />$A=\\frac{1}{k+1}-\\frac{1}{m+1}$.<br /><br />Decreasing $k$ increases the area while increasing $m$ decreases the lower curve, increasing the enclosed area.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=\\int_0^1(x^3-\\sqrt{x})dx$<br />(b) $A=-\\frac{5}{12}$<br />(c) $A=\\frac{1}{m+1}-\\frac{1}{k+1}$",
+    "B": "(a) $A=\\int_0^1(\\sqrt{x}+x^3)dx$<br />(b) $A=\\frac{11}{12}$<br />(c) $A=\\frac{1}{k+1}+\\frac{1}{m+1}$",
+    "C": "(a) $A=\\int_0^1(x^{1/2}-x^2)dx$<br />(b) $A=\\frac{1}{3}$<br />(c) $A=\\frac{m-k}{m+k}$",
+    "D": "(a) $A=\\int_0^1(\\sqrt{x}-x^3)dx$<br />(b) $A=\\frac{5}{12}$<br />(c) For $0<k<m$, $A=\\int_0^1(x^k-x^m)dx=\\frac{1}{k+1}-\\frac{1}{m+1}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:39:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

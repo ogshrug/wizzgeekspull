@@ -1,0 +1,32 @@
+{
+  "id": "6a8fe5172e54880055a0a729",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99d",
+    "6a13ebc98c819562f933f9a0",
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics group is sorting equations according to the variables and derivatives occurring in them. They record $A:\\frac{du}{dt}+u=0$, $B:\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=0$, and $C:\\left(\\frac{d^3y}{dx^3}\\right)^2+\\frac{dy}{dx}+y=0$. In equation $A$, the dependent variable $u$ is differentiated only with respect to $t$. In equation $B$, the dependent variable $z$ involves derivatives with respect to two independent variables, $x$ and $y$. Equation $C$ contains derivatives of different orders with respect to the single independent variable $x$. The group uses these observations to classify and analyse the equations.<br><br><b>(a)</b> Determine whether $A$ is an ordinary or partial differential equation.<br><br><b>(b)</b> Determine whether $B$ is an ordinary or partial differential equation and justify your answer.<br><br><b>(c)</b> Find the order and degree of $C$.<br><br><b>(d)</b> Explain why both $A$ and $C$ belong to the same broad type even though their orders are different.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Equation $A$ is $$\\frac{du}{dt}+u=0$$<br><br>The dependent variable $u$ is differentiated with respect to only one independent variable, $t$. Therefore, $A$ is an ordinary differential equation.<br><br><b>(b)</b><br>Equation $B$ is $$\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=0$$<br><br>The dependent variable $z$ has derivatives with respect to more than one independent variable, namely $x$ and $y$. Therefore, $B$ is a partial differential equation.<br><br><b>(c)</b><br>For $C$, the highest-order derivative is $\\frac{d^3y}{dx^3}$. Hence its order is $3$.<br><br>The equation is polynomial in its derivatives and the highest-order derivative occurs with power $2$. Therefore, the degree of $C$ is $2$.<br><br><b>(d)</b><br>In both $A$ and $C$, all derivatives of the dependent variable are taken with respect to only one independent variable. Therefore, both are ordinary differential equations.<br><br>The order depends on the highest-order derivative present, so $A$ has order $1$ whereas $C$ has order $3$. This difference in order does not change their classification as ordinary differential equations.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A$ is an ordinary differential equation<br>(b) $B$ is a partial differential equation because $z$ is differentiated with respect to both $x$ and $y$<br>(c) For $C$, order $=3$ and degree $=2$<br>(d) $A$ and $C$ are both ordinary differential equations because derivatives are with respect to one independent variable",
+    "B": "(a) $A$ is a partial differential equation<br>(b) $B$ is an ordinary differential equation<br>(c) For $C$, order $=2$ and degree $=3$<br>(d) $A$ and $C$ are both partial differential equations",
+    "C": "(a) $A$ is an ordinary differential equation<br>(b) $B$ is a partial differential equation<br>(c) For $C$, order $=3$ and degree $=1$<br>(d) $A$ and $C$ are of different broad types because their orders differ",
+    "D": "(a) $A$ is an ordinary differential equation<br>(b) $B$ is an ordinary differential equation because only first derivatives occur<br>(c) For $C$, order $=2$ and degree $=2$<br>(d) $A$ and $C$ are both ordinary differential equations because both are polynomial in derivatives"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8d6959a4c50c67348839b6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Simplify $\\tan^{-1}2-\\tan^{-1}\\left(\\frac{1}{2}\\right)$ as a single inverse tangent.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b><br>Use the inverse tangent subtraction property $$\\tan^{-1}a-\\tan^{-1}b=\\tan^{-1}\\left(\\frac{a-b}{1+ab}\\right),$$ with the principal value interpreted according to the signs of the terms.<br><br><b>Step 2:</b><br>Substitute $a=2$ and $b=\\frac{1}{2}$: $$\\frac{a-b}{1+ab}=\\frac{2-\\frac{1}{2}}{1+2\\times\\frac{1}{2}}.$$<br><br><b>Step 3:</b><br>Simplifying the numerator and denominator gives $$\\frac{\\frac{3}{2}}{2}=\\frac{3}{4}.$$<br><br><b>Step 4:</b><br>Since $\\tan^{-1}2>\\tan^{-1}\\left(\\frac{1}{2}\\right)$, their difference is positive and lies in the principal range of $\\tan^{-1}x$.<br><br><b>Final Answer:</b><br>$$\\tan^{-1}2-\\tan^{-1}\\left(\\frac{1}{2}\\right)=\\tan^{-1}\\left(\\frac{3}{4}\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan^{-1}\\left(\\frac{5}{4}\\right)$",
+    "B": "$\\tan^{-1}\\left(\\frac{3}{2}\\right)$",
+    "C": "$\\tan^{-1}\\left(\\frac{4}{3}\\right)$",
+    "D": "$\\tan^{-1}\\left(\\frac{3}{4}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

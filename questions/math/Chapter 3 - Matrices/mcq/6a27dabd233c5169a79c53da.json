@@ -1,0 +1,33 @@
+{
+  "id": "6a27dabd233c5169a79c53da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A=\\begin{bmatrix}\\frac{1}{2}\\cos x&-\\sin x\\\\ \\sin x&\\frac{1}{2}\\cos x\\end{bmatrix}$ and $A+A^{\\prime}=I$, then value of $x\\in\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$ is",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Find the transpose of matrix $A$:<br />$A' = \\begin{bmatrix}\\frac{1}{2}\\cos x&\\sin x\\\\-\\sin x&\\frac{1}{2}\\cos x\\end{bmatrix}$.<br /><br />**Step 2:** Add $A$ and $A'$:<br />$A+A' = \\begin{bmatrix}\\cos x&0\\\\0&\\cos x\\end{bmatrix}$.<br /><br />**Step 3:** Since $A+A'=I=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$, we get $\\cos x=1$.<br /><br />Within the interval $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$, the only solution is $x=0$.<br /><br />Hence, $\\boxed{x=0}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{2}$",
+    "B": "$\\frac{\\pi}{3}$",
+    "C": "$0$",
+    "D": "$-\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

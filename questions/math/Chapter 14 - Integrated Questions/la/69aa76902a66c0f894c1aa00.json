@@ -1,0 +1,30 @@
+{
+  "id": "69aa76902a66c0f894c1aa00",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c6603740512f018fa94d70"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 4 & 5 \\\\ 1 & 0 & 6 \\end{bmatrix}$. Let $B$ be the matrix obtained from $A$ by changing its first row to $[2,\\alpha,3]$.\n\n(a) Compute $|A|$.\n\n(b) For what values of $\\alpha$ is $|B|=0$?\n\n(c) Using your answer from (b), for those $\\alpha$, find the dimension of the solution space of the homogeneous system $B\\vec{x} = \\vec{0}$.\n\n(d) Relate the result in (c) to the possible geometric interpretation of the columns of $B$ in $\\mathbb{R}^3$.",
+  "answeroption": "C",
+  "explanation": "**Concepts being tested:** Determinants, Rank of Matrices, Homogeneous Systems, Geometric Interpretation (Linear Dependence), Dimensions of Solution Spaces.<br /><br />(a) $|A| = $ Expand along first row:<br /><br />$A = \\begin{vmatrix} 1 & 2 & 3 \\\\ 0 & 4 & 5 \\\\ 1 & 0 & 6 \\end{vmatrix}$<br /><br />$= 1 \\begin{vmatrix} 4 & 5 \\\\ 0 & 6 \\end{vmatrix} - 2 \\begin{vmatrix} 0 & 5 \\\\ 1 & 6 \\end{vmatrix} + 3 \\begin{vmatrix} 0 & 4 \\\\ 1 & 0 \\end{vmatrix}$<br /><br />$= 1(24-0) - 2(0-5) + 3(0-4)$<br /><br />$= 24 - 2(-5) + 3(-4)$<br /><br />$= 24 + 10 - 12$<br /><br />$= 22$<br /><br />---<br /><br />(b) $B$'s first row is $[2, \\alpha, 3]$, other rows unchanged:<br /><br />$|B| = \\begin{vmatrix} 2 & \\alpha & 3 \\\\ 0 & 4 & 5 \\\\ 1 & 0 & 6 \\end{vmatrix}$<br /><br />Expand along first row:<br /><br />$2 \\begin{vmatrix} 4 & 5 \\\\ 0 & 6 \\end{vmatrix} - \\alpha \\begin{vmatrix} 0 & 5 \\\\ 1 & 6 \\end{vmatrix} + 3 \\begin{vmatrix} 0 & 4 \\\\ 1 & 0 \\end{vmatrix}$<br /><br />$= 2(24-0) - \\alpha(0-5) + 3(0-4)$<br /><br />$= 48 - \\alpha(-5) - 12$<br /><br />$= 48 + 5\\alpha - 12$<br /><br />$= 36 + 5\\alpha$<br /><br />Set $|B|=0:\\ 36 + 5\\alpha = 0 \\implies \\alpha = -\\frac{36}{5}$<br /><br />---<br /><br />(c) For $\\alpha = -\\frac{36}{5}$, $|B| = 0$, so $\\text{rank}(B) < 3$.<br /><br />Since $B$ is a $3 \\times 3$ matrix and the determinant is $0$, but not all rows are multiples, so $\\text{rank}(B) = 2$, so<br /><br />dimension of solution space = $3 - 2 = 1$<br /><br />---<br /><br />(d) Geometric interpretation: The columns of $B$ are linearly dependent, i.e., they span a plane (2D subspace of $\\mathbb{R}^3$) and the solution space is a line (1D in $\\mathbb{R}^3$), so all solutions to $B\\vec{x} = 0$ are scalar multiples of a fixed vector orthogonal to the plane spanned by the columns.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=20$<br />(b) $\\alpha=-\\frac{30}{5}$<br />(c) Dimension of solution space $=2$<br />(d) Columns of $B$ span a line and the solution space is a plane",
+    "B": "(a) $|A|=22$<br />(b) $\\alpha=\\frac{36}{5}$<br />(c) Dimension of solution space $=0$<br />(d) Columns of $B$ are linearly independent and span $\\mathbb{R}^3$",
+    "C": "(a) $|A|=22$<br />(b) $\\alpha=-\\frac{36}{5}$<br />(c) Dimension of solution space $=1$<br />(d) Columns of $B$ are linearly dependent, span a plane in $\\mathbb{R}^3$, and solutions of $B\\vec{x}=\\vec0$ form a line",
+    "D": "(a) $|A|=24$<br />(b) $\\alpha=-\\frac{22}{5}$<br />(c) Dimension of solution space $=3$<br />(d) Columns of $B$ are zero vectors and the solution space is all of $\\mathbb{R}^3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:39:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

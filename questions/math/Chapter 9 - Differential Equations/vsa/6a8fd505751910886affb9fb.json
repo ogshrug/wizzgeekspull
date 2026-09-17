@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd505751910886affb9fb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af",
+    "6a13ebca8c819562f933f9ae"
+  ],
+  "question_type": "VSA",
+  "question": "The slope of a curve at $(x,y)$ satisfies $\\frac{dy}{dx}=x+y$. Express the resulting differential equation in standard linear form and identify $P$ and $Q$.",
+  "answeroption": "B",
+  "explanation": "Step 1: The slope condition directly gives $\\frac{dy}{dx}=x+y$.<br>Step 2: To express it as a first-order linear differential equation, collect the term involving $y$ on the left-hand side.<br>Step 3: Subtracting $y$ from both sides gives $\\frac{dy}{dx}-y=x$.<br>Step 4: Compare this with the standard form $\\frac{dy}{dx}+Py=Q$. Therefore, $P=-1$ and $Q=x$.<br>Step 5: Hence, the differential equation arising from the slope condition is linear and its standard form is $\\frac{dy}{dx}-y=x$, with $P=-1$ and $Q=x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}+y=x$; $P=1$, $Q=x$",
+    "B": "$\\frac{dy}{dx}-y=x$; $P=-1$, $Q=x$",
+    "C": "$\\frac{dy}{dx}-xy=1$; $P=-x$, $Q=1$",
+    "D": "$\\frac{dy}{dx}+xy=x$; $P=x$, $Q=x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

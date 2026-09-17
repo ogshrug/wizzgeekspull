@@ -1,0 +1,29 @@
+{
+  "id": "6a8ec21bbe0ecc7866e90bb0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "SA",
+  "question": "If $$y=A\\sin x+B\\cos x,$$ where $A$ and $B$ are constants, show that $$\\frac{d^2y}{dx^2}+y=0.$$",
+  "answeroption": "B",
+  "explanation": "<b>First differentiation</b><br>$$\\frac{dy}{dx}=A\\cos x-B\\sin x.$$<br><b>Second differentiation</b><br>$$\\frac{d^2y}{dx^2}=-A\\sin x-B\\cos x.$$<br><b>Substitution of the given function</b><br>Since $$y=A\\sin x+B\\cos x,$$ we have $$\\frac{d^2y}{dx^2}=-y.$$<br>Therefore, $$\\frac{d^2y}{dx^2}+y=0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}=y$, hence $\\frac{d^2y}{dx^2}-y=0$.",
+    "B": "$\\frac{d^2y}{dx^2}=-A\\sin x-B\\cos x=-y$, hence $\\frac{d^2y}{dx^2}+y=0$.",
+    "C": "$\\frac{d^2y}{dx^2}=A\\cos x-B\\sin x$, hence $\\frac{d^2y}{dx^2}+y=0$.",
+    "D": "$\\frac{d^2y}{dx^2}=-A\\cos x+B\\sin x$, hence $\\frac{d^2y}{dx^2}-y=0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

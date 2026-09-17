@@ -1,0 +1,32 @@
+{
+  "id": "6a229019864be73cfcf6d204",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A$ and $B$ are two non-zero square matrices of same order such that $(A+B)^2 = A^2 + B^2$, then:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Expand the expression $(A+B)^2$ using matrix multiplication distribution: $(A+B)(A+B) = A(A+B) + B(A+B) = A^2 + AB + BA + B^2$. Matrix multiplication is not generally commutative.<br />**Step 2:** The given condition states $(A+B)^2 = A^2 + B^2$. Set the expanded form equal to this: $A^2 + AB + BA + B^2 = A^2 + B^2$.<br />**Step 3:** Subtract $A^2$ and $B^2$ from both sides to get $AB + BA = O$, where $O$ is the zero matrix.<br />**Step 4:** Rearrange to get $AB = -BA$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB = O$",
+    "B": "$AB = -BA$",
+    "C": "$BA = O$",
+    "D": "$AB = BA$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1",
+    "2024-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

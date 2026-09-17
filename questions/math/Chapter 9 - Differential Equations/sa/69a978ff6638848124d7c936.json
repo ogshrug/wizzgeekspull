@@ -1,0 +1,29 @@
+{
+  "id": "69a978ff6638848124d7c936",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following homogeneous differential equation: $\\frac{dy}{dx} = \\frac{x + y}{x - y}$, given that when $x = 1$, $y = 0$.",
+  "answeroption": "C",
+  "explanation": "Let $v = y/x \\implies y = vx$, $dy/dx = v + x dv/dx$<br /><br />Equation: $v + x dv/dx = (1+v)/(1-v)$<br /><br />Solve: $x dv/dx = (1+v)/(1-v) - v = (1+v^2)/(1-v)$<br /><br />Separate: $(1-v)/(1+v^2) dv = dx/x = (1/(1+v^2) - v/(1+v^2)) dv = dx/x$<br /><br />Integrate: $tan^{-1}v - 1/2 ln|1+v^2| = ln|x| + C$, back-substitute $v=y/x$<br /><br />Apply $x=1, y=0$: C=0<br /><br />Final: $tan^{-1}(y/x) - 1/2 ln(x^2+y^2) + ln|x| = 0$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan^{-1}(y/x)+\\frac{1}{2}\\ln(x^2+y^2)+\\ln|x|=0$",
+    "B": "$\\tan^{-1}(y/x)-\\frac{1}{2}\\ln(x^2+y^2)-\\ln|x|=0$",
+    "C": "$\\tan^{-1}(y/x)-\\frac{1}{2}\\ln(x^2+y^2)+\\ln|x|=0$",
+    "D": "$\\tan^{-1}(x/y)-\\frac{1}{2}\\ln(x^2+y^2)+\\ln|x|=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:37:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

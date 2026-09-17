@@ -1,0 +1,29 @@
+{
+  "id": "6a9116cc751910886affba54",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom probability activity, a student first selects one of three boxes $B_1$, $B_2$ and $B_3$. The probabilities of selecting these boxes are $\\frac{1}{2}$, $\\frac{1}{3}$ and $\\frac{1}{6}$ respectively. Box $B_1$ contains 4 red and 6 white counters, box $B_2$ contains 3 red and 2 white counters, and box $B_3$ contains 1 red and 4 white counters. After selecting a box, one counter is drawn at random from that box. Let $R$ denote the event that the counter drawn is red and $W$ denote the event that it is white.<br><br><b>(a)</b> Verify that $B_1$, $B_2$ and $B_3$ form a valid partition for the selection process.<br><br><b>(b)</b> Find $P(R|B_1)$, $P(R|B_2)$ and $P(R|B_3)$.<br><br><b>(c)</b> Using the theorem of total probability, calculate $P(R)$.<br><br><b>(d)</b> Determine $P(W)$ using the same partition and verify that $P(R)+P(W)=1$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The probabilities of selecting the three boxes are<br>$$P(B_1)=\\frac{1}{2},\\quad P(B_2)=\\frac{1}{3},\\quad P(B_3)=\\frac{1}{6}$$<br>The selection of one box excludes the selection of either of the other two boxes, and one of the three boxes must be selected.<br>Also,<br>$$P(B_1)+P(B_2)+P(B_3)=\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{6}=1$$<br>Hence, $B_1$, $B_2$ and $B_3$ form a valid partition for the selection process.<br><br><b>(b)</b><br>For box $B_1$,<br>$$P(R|B_1)=\\frac{4}{10}=\\frac{2}{5}$$<br>For box $B_2$,<br>$$P(R|B_2)=\\frac{3}{5}$$<br>For box $B_3$,<br>$$P(R|B_3)=\\frac{1}{5}$$<br>Thus, the required conditional probabilities are $\\frac{2}{5}$, $\\frac{3}{5}$ and $\\frac{1}{5}$ respectively.<br><br><b>(c)</b><br>By the theorem of total probability,<br>$$P(R)=P(B_1)P(R|B_1)+P(B_2)P(R|B_2)+P(B_3)P(R|B_3)$$<br>Substituting the values,<br>$$P(R)=\\frac{1}{2}\\times\\frac{2}{5}+\\frac{1}{3}\\times\\frac{3}{5}+\\frac{1}{6}\\times\\frac{1}{5}$$<br>$$P(R)=\\frac{1}{5}+\\frac{1}{5}+\\frac{1}{30}=\\frac{13}{30}$$<br>Hence, $P(R)=\\frac{13}{30}$.<br><br><b>(d)</b><br>The probabilities of drawing a white counter are<br>$$P(W|B_1)=\\frac{6}{10}=\\frac{3}{5},\\quad P(W|B_2)=\\frac{2}{5},\\quad P(W|B_3)=\\frac{4}{5}$$<br>Therefore,<br>$$P(W)=\\frac{1}{2}\\times\\frac{3}{5}+\\frac{1}{3}\\times\\frac{2}{5}+\\frac{1}{6}\\times\\frac{4}{5}$$<br>$$P(W)=\\frac{3}{10}+\\frac{2}{15}+\\frac{2}{15}=\\frac{17}{30}$$<br>Now,<br>$$P(R)+P(W)=\\frac{13}{30}+\\frac{17}{30}=1$$<br>Hence, the result is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $B_1,B_2,B_3$ form a valid partition<br>(b) $P(R|B_1)=\\frac{2}{5},\\ P(R|B_2)=\\frac{3}{5},\\ P(R|B_3)=\\frac{1}{5}$<br>(c) $P(R)=\\frac{13}{30}$<br>(d) $P(W)=\\frac{17}{30}$ and $P(R)+P(W)=1$",
+    "B": "(a) $B_1,B_2,B_3$ do not form a valid partition<br>(b) $P(R|B_1)=\\frac{2}{5},\\ P(R|B_2)=\\frac{2}{5},\\ P(R|B_3)=\\frac{1}{5}$<br>(c) $P(R)=\\frac{2}{5}$<br>(d) $P(W)=\\frac{3}{5}$ and $P(R)+P(W)=1$",
+    "C": "(a) $B_1,B_2,B_3$ form a valid partition<br>(b) $P(R|B_1)=\\frac{3}{5},\\ P(R|B_2)=\\frac{3}{5},\\ P(R|B_3)=\\frac{4}{5}$<br>(c) $P(R)=\\frac{17}{30}$<br>(d) $P(W)=\\frac{13}{30}$ and $P(R)+P(W)=1$",
+    "D": "(a) $B_1,B_2,B_3$ form a valid partition<br>(b) $P(R|B_1)=\\frac{2}{5},\\ P(R|B_2)=\\frac{3}{5},\\ P(R|B_3)=\\frac{1}{5}$<br>(c) $P(R)=\\frac{14}{30}$<br>(d) $P(W)=\\frac{16}{30}$ and $P(R)+P(W)=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8e55751910886affb92e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "VSA",
+  "question": "For matrices of suitable orders, $AB=\\begin{bmatrix}2&1\\\\-1&3\\end{bmatrix}$ and $AC=\\begin{bmatrix}4&-2\\\\5&1\\end{bmatrix}$. Without finding $B$ or $C$, determine the sum of the elements in the first row of $A(B+C)$.",
+  "answeroption": "D",
+  "explanation": "Step 1: Matrix multiplication is distributive over matrix addition. Therefore, $A(B+C)=AB+AC$.<br>Step 2: Substitute the two products already given in the question: $$A(B+C)=\\begin{bmatrix}2&1\\\\-1&3\\end{bmatrix}+\\begin{bmatrix}4&-2\\\\5&1\\end{bmatrix}.$$<br>Step 3: Adding corresponding entries gives $$A(B+C)=\\begin{bmatrix}6&-1\\\\4&4\\end{bmatrix}.$$<br>Step 4: The first row of the resulting matrix is $[6,-1]$.<br>Step 5: Its elements have sum $6+(-1)=5$. Thus, by using the distributive property without separately determining $B$ and $C$, the required sum is $5$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$7$",
+    "B": "$6$",
+    "C": "$4$",
+    "D": "$5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

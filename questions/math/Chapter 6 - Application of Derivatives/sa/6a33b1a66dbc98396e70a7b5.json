@@ -1,0 +1,26 @@
+{
+  "id": "6a33b1a66dbc98396e70a7b5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977"
+  ],
+  "question_type": "SA",
+  "question": "Show that $f(x)=\\tan^{-1}(\\sin x+\\cos x)$ is an increasing function in $[0, \\frac{\\pi}{4}]$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate the function with respect to $x$ using the chain rule: $f^{\\prime}(x) = \\frac{1}{1+(\\sin x + \\cos x)^2} \\cdot (\\cos x - \\sin x)$.<br />**Step 2:** Analyze the sign of each component within the given domain interval $[0, \\frac{\\pi}{4}]$. The denominator term $1+(\\sin x + \\cos x)^2$ is a sum of 1 and a perfect square, which is always strictly positive.<br />**Step 3:** In the interval $[0, \\frac{\\pi}{4}]$, the value of $\\cos x$ is always greater than or equal to $\\sin x$, which means $(\\cos x - \\sin x) \\ge 0$. Since both components are non-negative, $f^{\\prime}(x) \\ge 0$, proving that $f(x)$ is an increasing function over the specified interval.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

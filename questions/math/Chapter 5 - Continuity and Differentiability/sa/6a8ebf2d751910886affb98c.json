@@ -1,0 +1,30 @@
+{
+  "id": "6a8ebf2d751910886affb98c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7d",
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "Using implicit differentiation, show that if $y=\\cos^{-1}x$, then $$\\frac{dy}{dx}=-\\frac{1}{\\sqrt{1-x^2}},\\qquad -1<x<1.$$",
+  "answeroption": "B",
+  "explanation": "<b>Conversion to trigonometric form</b><br>Since $$y=\\cos^{-1}x,$$ we have $$x=\\cos y.$$<br><b>Implicit differentiation</b><br>Differentiating with respect to $x$, $$1=-\\sin y\\frac{dy}{dx}$$<br>Thus, $$\\frac{dy}{dx}=-\\frac{1}{\\sin y}.$$<br><b>Expression in terms of $x$</b><br>For $y\\in(0,\\pi)$, $\\sin y>0$. Hence, $$\\sin y=\\sqrt{1-\\cos^2y}=\\sqrt{1-x^2}.$$<br>Therefore, $$\\frac{dy}{dx}=-\\frac{1}{\\sqrt{1-x^2}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=\\cos y$ gives $\\frac{dy}{dx}=\\frac{1}{\\sqrt{1-x^2}}$.",
+    "B": "$x=\\cos y$ gives $\\frac{dy}{dx}=-\\frac{1}{\\sqrt{1-x^2}}$.",
+    "C": "$x=\\sin y$ gives $\\frac{dy}{dx}=-\\frac{1}{\\sqrt{1-x^2}}$.",
+    "D": "$x=\\tan y$ gives $\\frac{dy}{dx}=\\frac{1}{1+x^2}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9859962be6a70cd184dce",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let $S = \\mathbb{R} \\setminus \\{0\\}$. Consider the relation $R$ on $S$ defined by: $a R b$ if $ab > 0$.<br /><br />(a) Show that $R$ is an equivalence relation on $S$.<br /><br />(b) Find the equivalence classes.<br /><br />(c) How does this partition $S$? Give explicit sets.",
+  "answeroption": "A",
+  "explanation": "(a) Reflexivity: $a R a$ iff $a^2 > 0$, which is true for all $a \\neq 0$. So $R$ is reflexive.<br /><br />Symmetry: If $a R b$, then $ab > 0$, so $ba > 0$, i.e., $b R a$.<br /><br />Transitivity: If $a R b$ ($ab > 0$) and $b R c$ ($bc > 0$), then $b > 0$ or $b < 0$.<br /><br />Case 1: $b > 0$. Then $a > 0$ and $c > 0$, so $ac > 0$.<br /><br />Case 2: $b < 0$. Then $a < 0$ and $c < 0$, so $ac > 0$.<br /><br />Thus, in either case, $a R c$.<br /><br />(b) The equivalence class of $1$ is $\\{x \\in S : x > 0\\}$ (the positive reals).<br /><br />The equivalence class of $-1$ is $\\{x \\in S : x < 0\\}$ (the negative reals).<br /><br />(c) Thus, $S$ is partitioned into the set of positive real numbers and the set of negative real numbers.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R$ is reflexive, symmetric and transitive, so it is an equivalence relation.<br />(b) The equivalence classes are $(0,\\infty)$ and $(-\\infty,0)$.<br />(c) $S$ is partitioned as $S=(0,\\infty)\\cup(-\\infty,0)$ with the two classes disjoint.",
+    "B": "(a) $R$ is reflexive and symmetric but not transitive.<br />(b) The equivalence classes are singleton sets.<br />(c) $S$ has no partition.",
+    "C": "(a) $R$ is not reflexive because $a^2<0$.<br />(b) The equivalence class of every element is empty.<br />(c) $S$ is partitioned into rational and irrational numbers.",
+    "D": "(a) $R$ is symmetric only.<br />(b) The only equivalence class is $S$.<br />(c) $S$ is not partitioned."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:31:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

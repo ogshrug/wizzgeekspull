@@ -1,0 +1,27 @@
+{
+  "id": "6a229081864be73cfcf6d21c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation given by $x^2 \\frac{dy}{dx} - xy = x^2 \\cos^2(\\frac{y}{2x})$ given that when $x = 1$, $y = \\frac{\\pi}{2}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite DE: $\\frac{dy}{dx} - \\frac{y}{x} = \\cos^2(\\frac{y}{2x})$. This is a homogeneous DE.<br />**Step 2:** Substitute $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 3:** Substitute: $v + x\\frac{dv}{dx} - v = \\cos^2(\\frac{v}{2}) \\Rightarrow x\\frac{dv}{dx} = \\cos^2(\\frac{v}{2})$.<br />**Step 4:** Separate variables and integrate: $\\int \\sec^2(v/2) dv = \\int \\frac{dx}{x} \\Rightarrow 2 \\tan(v/2) = \\ln|x| + C$.<br />**Step 5:** Substitute $v = y/x$ to get $2 \\tan(\\frac{y}{2x}) = \\ln|x| + C$. Apply $x=1, y=\\pi/2$: $2 \\tan(\\pi/4) = 0 + C \\Rightarrow C = 2$. Solution is $2 \\tan(\\frac{y}{2x}) = \\ln|x| + 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

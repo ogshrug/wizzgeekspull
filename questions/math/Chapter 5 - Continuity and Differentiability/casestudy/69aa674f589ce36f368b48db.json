@@ -1,0 +1,31 @@
+{
+  "id": "69aa674f589ce36f368b48db",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610140512f018fa94d7f",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 6: Economics - Demand and Supply (Logarithmic Differentiation with Implicit Functions)**<br /><br />In a competitive market, the relationship between price $p$ and quantity $q$ is given implicitly by $p^q = e^{q^2}$.<br /><br />(a) Use logarithmic differentiation to find $\\frac{dq}{dp}$ in terms of $p$ and $q$.<br /><br />(b) For $p=e$ and $q=1$, compute $\\frac{dq}{dp}$.<br /><br />(c) Find $\\frac{d^2q}{dp^2}$ at $p=e, q=1$.",
+  "answeroption": "A",
+  "explanation": "Step 1: Take log both sides:<br /><br />$\\ln(p^q) = \\ln(e^{q^2})$<br /><br />$q \\ln p = q^2$<br /><br />Differentiate both sides w.r.t $p$ (treat $q$ as function of $p$):<br /><br />$\\frac{d}{dp} [q \\ln p] = \\frac{d}{dp} [q^2]$<br /><br />Using product rule:<br /><br />$\\ln p \\frac{dq}{dp} + \\frac{q}{p} = 2q \\frac{dq}{dp}$<br /><br />Bring terms with $\\frac{dq}{dp}$ together:<br /><br />$\\ln p \\frac{dq}{dp} - 2q \\frac{dq}{dp} = -\\frac{q}{p}$<br /><br />$\\frac{dq}{dp} (\\ln p - 2q) = -\\frac{q}{p}$<br /><br />$\\frac{dq}{dp} = \\frac{-q}{p(\\ln p - 2q)}$<br /><br />Step 2: For $p=e$, $q=1$.<br /><br />$\\ln p = 1$<br /><br />So:<br /><br />$\\frac{dq}{dp} = \\frac{-1}{e (1 - 2 \\cdot 1)} = \\frac{-1}{e(-1)} = \\frac{1}{e}$<br /><br />Step 3: Compute $\\frac{d^2q}{dp^2}$ at $p=e, q=1$.<br /><br />Recall,<br /><br />$\\frac{dq}{dp} = \\frac{-q}{p(\\ln p - 2q)}$<br /><br />Let $u = -q$, $v = p(\\ln p - 2q)$<br /><br />$\\frac{d^2q}{dp^2} = \\frac{u'v - uv'}{v^2}$<br /><br />$u' = -\\frac{dq}{dp}$<br /><br />$v' = [\\ln p - 2q] + p \\cdot \\left( \\frac{1}{p} - 2 \\frac{dq}{dp} \\right ) = (\\ln p - 2q) + (1 - 2p \\frac{dq}{dp})$<br /><br />At $p = e$, $q = 1$, $\\ln p = 1$, $\\frac{dq}{dp} = 1/e$<br /><br />$v = e(1 - 2) = -e$<br /><br />$u = -1$<br /><br />$u' = -1/e$<br /><br />$v' = (1 - 2) + 1 - 2e \\times (1/e) = -1 +1 -2 = -2$<br /><br />So,<br /><br />$\\frac{d^2q}{dp^2} = \\frac{(-1/e)(-e) - (-1)(-2)}{(-e)^2} = \\frac{1 - 2}{e^2} = -\\frac{1}{e^2}$<br /><br />Final answers: $\\boxed{\\frac{dq}{dp}=1/e}$, $\\boxed{\\frac{d^2q}{dp^2} = -1/e^2}$ at $(p, q) = (e, 1)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\dfrac{dq}{dp}=\\dfrac{-q}{p(\\ln p-2q)}$<br />(b) At $p=e, q=1$, $\\dfrac{dq}{dp}=\\dfrac{1}{e}$<br />(c) $\\dfrac{d^2q}{dp^2}=-\\dfrac{1}{e^2}$",
+    "B": "(a) $\\dfrac{dq}{dp}=\\dfrac{q}{p(\\ln p+2q)}$<br />(b) At $p=e, q=1$, $\\dfrac{dq}{dp}=\\dfrac{1}{3e}$<br />(c) $\\dfrac{d^2q}{dp^2}=\\dfrac{1}{e^2}$",
+    "C": "(a) $\\dfrac{dq}{dp}=\\dfrac{q}{p(\\ln p-2q)}$<br />(b) At $p=e, q=1$, $\\dfrac{dq}{dp}=-\\dfrac{1}{e}$<br />(c) $\\dfrac{d^2q}{dp^2}=-\\dfrac{2}{e^2}$",
+    "D": "(a) $\\dfrac{dq}{dp}=\\dfrac{-p}{q(\\ln p-2q)}$<br />(b) At $p=e, q=1$, $\\dfrac{dq}{dp}=e$<br />(c) $\\dfrac{d^2q}{dp^2}=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:34:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

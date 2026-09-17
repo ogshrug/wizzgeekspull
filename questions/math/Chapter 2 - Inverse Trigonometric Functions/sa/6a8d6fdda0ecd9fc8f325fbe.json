@@ -1,0 +1,31 @@
+{
+  "id": "6a8d6fdda0ecd9fc8f325fbe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4c",
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "SA",
+  "question": "Consider $f(x)=\\tan^{-1}\\left(\\frac{1}{x^2+1}\\right)$.<br><br>(i) Determine its domain and range.<br><br>(ii) Verify whether its graph is symmetric about the $y$-axis.<br><br>(iii) Find its greatest value and the point at which it is attained. Do not draw the graph.",
+  "answeroption": "C",
+  "explanation": "<b>Domain of the function</b><br>Since $x^2+1>0$ for every real $x$, the inner expression is defined for all real values. Hence, the domain is $\\mathbb{R}$.<br><br><b>Range of the inner expression</b><br>For every real $x$, $$0<\\frac{1}{x^2+1}\\leq1.$$ The maximum value $1$ occurs at $x=0$. The expression approaches $0$ as $|x|$ increases without bound but never equals $0$.<br><br><b>Application of inverse tangent</b><br>Since $\\tan^{-1}$ is increasing, the range is $$\\left(0,\\frac{\\pi}{4}\\right].$$<br><br><b>Symmetry verification</b><br>Replacing $x$ by $-x$ gives $$f(-x)=\\tan^{-1}\\left(\\frac{1}{(-x)^2+1}\\right)=f(x).$$ Thus, $f$ is even, and its graph is symmetric about the $y$-axis.<br><br><b>Greatest-value point</b><br>The greatest value is $\\frac{\\pi}{4}$, attained at $x=0$. Hence, the corresponding point is $\\left(0,\\frac{\\pi}{4}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $\\mathbb{R}$; Range: $\\left[0,\\frac{\\pi}{4}\\right]$; the function is even; greatest-value point: $\\left(0,\\frac{\\pi}{4}\\right)$",
+    "B": "Domain: $\\mathbb{R}$; Range: $\\left(0,\\frac{\\pi}{4}\\right]$; the function is odd; greatest-value point: $\\left(0,\\frac{\\pi}{4}\\right)$",
+    "C": "Domain: $\\mathbb{R}$; Range: $\\left(0,\\frac{\\pi}{4}\\right]$; the function is even; greatest-value point: $\\left(0,\\frac{\\pi}{4}\\right)$",
+    "D": "Domain: $\\mathbb{R}-\\{0\\}$; Range: $\\left(0,\\frac{\\pi}{2}\\right)$; the function is even; greatest value is not attained"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

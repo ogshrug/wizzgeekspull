@@ -1,0 +1,31 @@
+{
+  "id": "6a33b1b76dbc98396e70a7b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\int_{0}^{a}\\frac{1}{1+4x^{2}}dx=\\frac{\\pi}{8},$ then the value of 'a' is :",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Rewrite the integrand to match the standard inverse tangent integration form: $\\int_{0}^{a} \\frac{1}{1+(2x)^2} dx$. Evaluating this yields the anti-derivative expression: $\\left[ \\frac{1}{2}\\tan^{-1}(2x) \\right]_0^a = \\frac{1}{2}\\tan^{-1}(2a)$.<br />**Step 2:** Set this evaluated expression equal to the given definite value: $\\frac{1}{2}\\tan^{-1}(2a) = \\frac{\\pi}{8} \\implies \\tan^{-1}(2a) = \\frac{\\pi}{4}$.<br />**Step 3:** Take the tangent on both sides to solve for the unknown parameter: $2a = \\tan(\\frac{\\pi}{4}) = 1 \\implies a = \\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{4}$",
+    "B": "$\\frac{1}{2}$",
+    "C": "$\\frac{1}{8}$",
+    "D": "4"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

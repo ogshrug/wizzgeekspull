@@ -1,0 +1,29 @@
+{
+  "id": "69a91e7cb4df445c7f648c9f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "If $x > 0$, prove that $2\\tan^{-1} x = \\tan^{-1} \\left(\\frac{2x}{1 - x^2}\\right)$ for $x^2 < 1$.",
+  "answeroption": "B",
+  "explanation": "Let $A = \\tan^{-1}x$. Then $\\tan A = x$.<br /><br />Using the double angle formula for tangent: $\\tan 2A = \\frac{2\\tan A}{1-\\tan^2 A}$.<br /><br />Substituting $\\tan A = x$ gives $\\tan 2A = \\frac{2x}{1-x^2}$.<br /><br />Thus $2A = \\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$.<br /><br />Since $A = \\tan^{-1}x$, we obtain $2\\tan^{-1}x = \\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$ for $x^2<1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $A=\\tan^{-1}x$. Then $\\tan A=x$. Using $\\tan2A=\\frac{1-x^2}{2x}$ gives $2\\tan^{-1}x=\\tan^{-1}\\left(\\frac{1-x^2}{2x}\\right)$.",
+    "B": "Let $A=\\tan^{-1}x$. Then $\\tan A=x$. Using $\\tan2A=\\frac{2\\tan A}{1-\\tan^2A}$ gives $\\tan2A=\\frac{2x}{1-x^2}$, hence $2\\tan^{-1}x=\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$.",
+    "C": "Let $A=\\tan^{-1}x$. Then $\\tan A=x$. Using $\\tan2A=\\frac{2x}{1+x^2}$ gives $2\\tan^{-1}x=\\tan^{-1}\\left(\\frac{2x}{1+x^2}\\right)$.",
+    "D": "Let $A=\\tan^{-1}x$. Then $\\tan A=x$. Using $\\tan2A=\\frac{x}{1-x^2}$ gives $2\\tan^{-1}x=\\tan^{-1}\\left(\\frac{x}{1-x^2}\\right)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:11:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

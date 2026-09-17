@@ -1,0 +1,28 @@
+{
+  "id": "6a22c0edfbdd87b6dea73c3a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "SA",
+  "question": "The chances of P, Q and R getting selected as CEO of a company are in the ratio 4: 1: 2 respectively. The probabilities for the company to increase its profits from the previous year under the new CEO, P, Q or R are 0.3, 0.8 and 0-5 respectively. If the company increased the profits from the previous year, find the probability that it is due to the appointment of R as CEO.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Calculate selection baseline probabilities: $P(E_1) = \\frac{4}{7}$, $P(E_2) = \\frac{1}{7}$, $P(E_3) = \\frac{2}{7}$. Let $A$ track profit increase: $P(A|E_1) = 0.3$, $P(A|E_2) = 0.8$, $P(A|E_3) = 0.5$.<br />**Step 2:** Find total probability $P(A) = \\frac{4}{7}(0.3) + \\frac{1}{7}(0.8) + \\frac{2}{7}(0.5) = \\frac{1.2 + 0.8 + 1.0}{7} = \\frac{3}{7}$.<br />**Step 3:** Apply Bayes' theorem to solve: $P(E_3|A) = \\frac{P(E_3)P(A|E_3)}{P(A)} = \\frac{(2/7) \\cdot 0.5}{3/7} = \\frac{1}{3}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1",
+    "2024-3-2",
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

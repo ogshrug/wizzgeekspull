@@ -1,0 +1,26 @@
+{
+  "id": "6a32784a6dbc98396e70a78f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically:<br />Minimise $Z=2x+y$<br />subject to the constraints:<br />$3x+y\\ge9$<br />$x+y\\ge7$<br />$x+2y\\ge8$<br />x, $y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Determine the corner vertices of the unbounded feasible region by solving the intersecting constraint boundary equations simultaneously.<br />**Step 2:** Intersecting $3x+y=9$ and $x+y=7$ gives vertex point $(1,6)$. Intersecting $x+y=7$ and $x+2y=8$ gives vertex point $(6,1)$. The boundary intercepts on the axes give additional corner vertices at $(0,9)$ and $(8,0)$.<br />**Step 3:** Evaluate the objective function $Z = 2x+y$ at each vertex: $Z(0,9)=9$, $Z(1,6)=8$, $Z(6,1)=13$, and $Z(8,0)=16$. The minimum value of $Z$ is $8$ at the coordinate point $(1,6)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

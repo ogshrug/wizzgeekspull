@@ -1,0 +1,29 @@
+{
+  "id": "69a9a98e62be6a70cd184df4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "LA",
+  "question": "Find the area bounded by the parabola $y=x^2$ and the line $y=4$ using definite integration.",
+  "answeroption": "B",
+  "explanation": "Find the intersection points by solving $x^2=4$. This gives $x=-2$ and $x=2$.<br /><br />Area between the curves is $\\int_{-2}^{2}(4-x^2)dx$.<br /><br />Split the integral:<br /><br />$\\int_{-2}^{2}4dx-\\int_{-2}^{2}x^2dx$.<br /><br />$4[x]_{-2}^{2}=16$ and $\\left[\\frac{x^3}{3}\\right]_{-2}^{2}=\\frac{16}{3}$.<br /><br />Hence area $=16-\\frac{16}{3}=\\frac{32}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{16}{3}$",
+    "B": "$\\frac{32}{3}$",
+    "C": "$16$",
+    "D": "$\\frac{64}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:04:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

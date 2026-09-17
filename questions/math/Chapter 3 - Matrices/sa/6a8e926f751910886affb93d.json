@@ -1,0 +1,31 @@
+{
+  "id": "6a8e926f751910886affb93d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d52",
+    "69c65fbf40512f018fa94d53",
+    "69c65fbf40512f018fa94d54"
+  ],
+  "question_type": "SA",
+  "question": "For $$M=\\begin{bmatrix}a & 0 & 0 \\\\ 0 & a & 0 \\\\ 0 & 0 & a\\end{bmatrix},$$ examine the type of matrix obtained in each case: (i) $a=0$, (ii) $a=1$, (iii) $a\\neq0,1$. State all applicable types among square, diagonal, scalar, zero and identity matrices.",
+  "answeroption": "D",
+  "explanation": "<b>Common structure</b><br>For every value of $a$, $M$ is a $3\\times3$ square matrix with all off-diagonal entries zero and all diagonal entries equal. Hence, it is always a diagonal matrix and a scalar matrix.<br><b>Case $a=0$</b><br>$$M=\\begin{bmatrix}0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0\\end{bmatrix}$$<br>Thus, $M$ is a zero matrix; it is also square, diagonal and scalar.<br><b>Case $a=1$</b><br>$$M=\\begin{bmatrix}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{bmatrix}=I_3$$<br>Thus, $M$ is an identity matrix; it is also square, diagonal and scalar.<br><b>Case $a\\neq0,1$</b><br>$M$ is a non-zero scalar matrix and hence is also diagonal and square, but it is neither the zero matrix nor the identity matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) square and zero only; (ii) identity only; (iii) diagonal only",
+    "B": "(i) square, diagonal and zero; (ii) square, diagonal and identity; (iii) square and diagonal",
+    "C": "(i) scalar and identity; (ii) zero and scalar; (iii) identity and diagonal",
+    "D": "(i) square, diagonal, scalar and zero; (ii) square, diagonal, scalar and identity; (iii) square, diagonal and scalar"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

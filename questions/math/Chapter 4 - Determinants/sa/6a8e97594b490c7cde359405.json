@@ -1,0 +1,29 @@
+{
+  "id": "6a8e97594b490c7cde359405",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "SA",
+  "question": "For $A=\\begin{bmatrix}k&2\\\\k-1&3\\end{bmatrix}$, determine $k$ if $\\operatorname{adj}A$ is symmetric. Hence, find $|A|$ for the obtained value and state whether $A$ is nonsingular.",
+  "answeroption": "C",
+  "explanation": "<b>Formation of the adjoint</b><br>For the given matrix, $$\\operatorname{adj}A=\\begin{bmatrix}3&-2\\\\1-k&k\\end{bmatrix}$$<br><b>Symmetry condition</b><br>A matrix is symmetric when its corresponding off-diagonal entries are equal. Therefore, $$-2=1-k$$<br><b>Determination of the parameter</b><br>Solving gives $$k=3$$<br><b>Determinant for the obtained value</b><br>For $k=3$, $$|A|=\\begin{vmatrix}3&2\\\\2&3\\end{vmatrix}=9-4=5$$<br><b>Nonsingularity conclusion</b><br>Since $|A|=5\\ne0$, the matrix $A$ is nonsingular.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=1$, $|A|=1$; $A$ is nonsingular.",
+    "B": "$k=2$, $|A|=2$; $A$ is nonsingular.",
+    "C": "$k=3$, $|A|=5$; $A$ is nonsingular.",
+    "D": "$k=3$, $|A|=0$; $A$ is singular."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

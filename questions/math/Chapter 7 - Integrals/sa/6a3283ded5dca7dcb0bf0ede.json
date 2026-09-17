@@ -1,0 +1,26 @@
+{
+  "id": "6a3283ded5dca7dcb0bf0ede",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int \\sec^3 \\theta d\\theta$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Apply integration by parts, rewriting the integral as $I = \\int \\sec\\theta \\cdot \\sec^2\\theta d\\theta$. Let $u = \\sec\\theta$ and $dv = \\sec^2\\theta d\\theta$.\n\n**Step 2:** Compute differentials: $du = \\sec\\theta\\tan\\theta d\\theta$ and $v = \\tan\\theta$.\n\n**Step 3:** Apply the formula $\\int u dv = uv - \\int v du$: $I = \\sec\\theta\\tan\\theta - \\int \\tan\\theta(\\sec\\theta\\tan\\theta) d\\theta = \\sec\\theta\\tan\\theta - \\int \\sec\\theta\\tan^2\\theta d\\theta$.\n\n**Step 4:** Use the identity $\\tan^2\\theta = \\sec^2\\theta - 1$: $I = \\sec\\theta\\tan\\theta - \\int \\sec\\theta(\\sec^2\\theta - 1) d\\theta = \\sec\\theta\\tan\\theta - \\int \\sec^3\\theta d\\theta + \\int \\sec\\theta d\\theta$.\n\n**Step 5:** Substitute $I$ and evaluate the standard integral: $I = \\sec\\theta\\tan\\theta - I + \\ln|\\sec\\theta + \\tan\\theta|$.\n\n**Step 6:** Solve for I: $2I = \\sec\\theta\\tan\\theta + \\ln|\\sec\\theta + \\tan\\theta| \\implies I = \\frac{1}{2}\\sec\\theta\\tan\\theta + \\frac{1}{2}\\ln|\\sec\\theta + \\tan\\theta| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

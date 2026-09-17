@@ -1,0 +1,32 @@
+{
+  "id": "6a9128792e54880055a0a77d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A workshop manufactures two products P and Q. One unit of P requires 2 hours on machine A and 1 hour on machine B, while one unit of Q requires 1 hour on machine A and 2 hours on machine B. Machine A is available for at most 10 hours and machine B for at most 8 hours per day. The profit is Rs 300 on each unit of P and Rs 400 on each unit of Q. Formulate the linear programming problem and determine graphically the daily production plan that maximises the profit, together with the maximum profit.",
+  "answeroption": "A",
+  "explanation": "<b>Mathematical Formulation</b><br>Let $x$ and $y$ denote the number of units of products P and Q manufactured per day respectively. Since production cannot be negative, $x\\ge 0$ and $y\\ge 0$. The machine A restriction gives $2x+y\\le 10$, while the machine B restriction gives $x+2y\\le 8$. Thus, the constraints are $2x+y\\le 10$, $x+2y\\le 8$, $x\\ge 0$, $y\\ge 0$. The profit function to be maximised is $Z=300x+400y$.<br><br><b>Graphical Evaluation</b><br>For $2x+y=10$, the intercepts are $(5,0)$ and $(0,10)$. For $x+2y=8$, the intercepts are $(8,0)$ and $(0,4)$. The common region satisfying all the constraints lies in the first quadrant and is bounded. The two boundary lines intersect at the point obtained from $2x+y=10$ and $x+2y=8$. From $y=10-2x$, substitution gives $x+2(10-2x)=8$, so $-3x=-12$ and hence $x=4$, $y=2$. Therefore, the corner points of the feasible region are $(0,0)$, $(5,0)$, $(4,2)$ and $(0,4)$.<br><br>The objective function values at these corner points are $Z(0,0)=0$, $Z(5,0)=1500$, $Z(4,2)=300(4)+400(2)=2000$, and $Z(0,4)=1600$. By the corner point method, the maximum value is attained at $(4,2)$.<br><br><b>Final Result</b><br>The workshop should manufacture 4 units of P and 2 units of Q per day. The maximum daily profit is Rs 2000.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximise $Z=300x+400y$ subject to $2x+y\\leq10$, $x+2y\\leq8$, $x\\geq0$, $y\\geq0$; optimal plan $(4,2)$ with maximum profit Rs $2000$",
+    "B": "Maximise $Z=400x+300y$ subject to $2x+y\\leq10$, $x+2y\\leq8$, $x\\geq0$, $y\\geq0$; optimal plan $(4,2)$ with maximum profit Rs $2200$",
+    "C": "Maximise $Z=300x+400y$ subject to $x+2y\\leq10$, $2x+y\\leq8$, $x\\geq0$, $y\\geq0$; optimal plan $(2,4)$ with maximum profit Rs $2200$",
+    "D": "Minimise $Z=300x+400y$ subject to $2x+y\\leq10$, $x+2y\\leq8$, $x\\geq0$, $y\\geq0$; optimal plan $(0,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a22b86f864be73cfcf6d2ca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Find $\\int e^{\\cot^{-1}x} (\\frac{1 - x + x^2}{1 + x^2}) dx$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Establish the core substitution logic by setting $\\cot^{-1}x = t$. This formally implies that $x = \\cot t$ and consequently $dx = -\\csc^2 t \\, dt$.<br />**Step 2:** Substitute all transformed variables carefully back into the original integral: $\\int e^t \\left(\\frac{1 - \\cot t + \\cot^2 t}{1 + \\cot^2 t}\\right)(-\\csc^2 t \\, dt)$.<br />**Step 3:** Leveraging the fundamental trigonometric identity $1 + \\cot^2 t = \\csc^2 t$, the complex fractional expression cleanly simplifies to $\\int e^t \\left(\\frac{\\csc^2 t - \\cot t}{\\csc^2 t}\\right)(-\\csc^2 t) dt = \\int e^t (\\cot t - \\csc^2 t) dt$.<br />**Step 4:** Observe that this formulation strictly matches the classic functional template $\\int e^t [f(t) + f'(t)] dt$, where $f(t) = \\cot t$ and its exact derivative is $f'(t) = -\\csc^2 t$.<br />**Step 5:** The universal analytic solution to this form is inherently $e^t f(t) + C = e^t \\cot t + C$. By formally substituting back the initial parameter $t = \\cot^{-1} x$, we achieve the final answer $x e^{\\cot^{-1} x} + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

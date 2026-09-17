@@ -1,0 +1,29 @@
+{
+  "id": "69a924e8575fa42e09444864",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "VSA",
+  "question": "Given constraints $x\\geq0$, $y\\geq0$, $x+2y\\leq6$, $2x+y\\leq6$, determine the value of $Z=5x+4y$ at the point where both inequalities become equations.",
+  "answeroption": "D",
+  "explanation": "Set $x+2y=6$<br />$2x+y=6$<br /><br />Multiply first by 2: $2x+4y=12$<br />Subtract second: $2x+4y-(2x+y)=12-6\\implies3y=6\\implies y=2$<br />$x+2*2=6\\implies x=2$<br /><br />So, $(2,2)$<br />$Z=5*2+4*2=10+8=18$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$12$",
+    "B": "$16$",
+    "C": "$20$",
+    "D": "$18$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:38:32 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

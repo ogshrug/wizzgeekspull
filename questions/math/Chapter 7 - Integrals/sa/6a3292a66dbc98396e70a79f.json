@@ -1,0 +1,26 @@
+{
+  "id": "6a3292a66dbc98396e70a79f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{cos~x~dx}{1+cos~x+sin~x}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** We can simplify this integral using half-angle trigonometric substitutions. Recall the identities $1 + \\cos x = 2\\cos^2\\frac{x}{2}$ and $\\sin x = 2\\sin\\frac{x}{2}\\cos\\frac{x}{2}$. The denominator becomes $2\\cos^2\\frac{x}{2} + 2\\sin\\frac{x}{2}\\cos\\frac{x}{2} = 2\\cos\\frac{x}{2}(\\cos\\frac{x}{2} + \\sin\\frac{x}{2})$.<br />**Step 2:** Expand the numerator using the double-angle cosine identity: $\\cos x = \\cos^2\\frac{x}{2} - \\sin^2\\frac{x}{2} = (\\cos\\frac{x}{2} - \\sin\\frac{x}{2})(\\cos\\frac{x}{2} + \\sin\\frac{x}{2})$. Substituting these terms back into the integrand allows us to cancel out the common factor $(\\cos\\frac{x}{2} + \\sin\\frac{x}{2})$ completely.<br />**Step 3:** The simplified integral is $\\int \\frac{\\cos(x/2) - \\sin(x/2)}{2\\cos(x/2)} \\, dx = \\frac{1}{2} \\int (1 - \\tan\\frac{x}{2}) \\, dx$. Integrating each term with respect to $x$ yields the final solution: $\\frac{x}{2} - \\ln|\\sec\\frac{x}{2}| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

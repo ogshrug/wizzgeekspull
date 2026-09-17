@@ -1,0 +1,28 @@
+{
+  "id": "6a229762864be73cfcf6d248",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8c4"
+  ],
+  "question_type": "SA",
+  "question": "The position vectors of vertices of $\\Delta$ ABC are $A(2\\hat{i}-\\hat{j}+\\hat{k})$, $B(\\hat{i}-3\\hat{j}-5\\hat{k})$ and $C(3\\hat{i}-4\\hat{j}-4\\hat{k})$ Find all the angles of $\\Delta$ ABC.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To analyze the triangle, we first need to find the vectors representing its sides. Side vector $\\vec{AB} = B - A = (1-2)\\hat{i} + (-3 - (-1))\\hat{j} + (-5-1)\\hat{k} = -\\hat{i} - 2\\hat{j} - 6\\hat{k}$. Side vector $\\vec{BC} = C - B = (3-1)\\hat{i} + (-4 - (-3))\\hat{j} + (-4 - (-5))\\hat{k} = 2\\hat{i} - \\hat{j} + \\hat{k}$. Side vector $\\vec{CA} = A - C = (2-3)\\hat{i} + (-1 - (-4))\\hat{j} + (1 - (-4))\\hat{k} = -\\hat{i} + 3\\hat{j} + 5\\hat{k}$.<br />**Step 2:** Next, we calculate the length (magnitude) of each side. $|\\vec{AB}| = \\sqrt{(-1)^2 + (-2)^2 + (-6)^2} = \\sqrt{1 + 4 + 36} = \\sqrt{41}$. $|\\vec{BC}| = \\sqrt{2^2 + (-1)^2 + 1^2} = \\sqrt{4 + 1 + 1} = \\sqrt{6}$. $|\\vec{CA}| = \\sqrt{(-1)^2 + 3^2 + 5^2} = \\sqrt{1 + 9 + 25} = \\sqrt{35}$.<br />**Step 3:** We observe a special relationship among the squares of these lengths: $(\\sqrt{41})^2 = (\\sqrt{6})^2 + (\\sqrt{35})^2$, which is $41 = 6 + 35$. This perfectly satisfies the Pythagorean theorem. Therefore, triangle ABC is a right-angled triangle. Because the longest side is AB, the right angle is opposite to it, at vertex C. So, angle $\\angle C = 90^\\circ = \\pi/2$.<br />**Step 4:** Now we find the remaining angles using the dot product formula $\\cos \\theta = \\frac{\\vec{u} \\cdot \\vec{v}}{|\\vec{u}||\\vec{v}|}$. To find angle A, we use vectors emerging from A: $\\vec{AB}$ and $\\vec{AC}$. Note $\\vec{AC} = -\\vec{CA} = \\hat{i} - 3\\hat{j} - 5\\hat{k}$. The dot product is $\\vec{AB} \\cdot \\vec{AC} = (-1)(1) + (-2)(-3) + (-6)(-5) = -1 + 6 + 30 = 35$. Thus, $\\cos A = \\frac{35}{\\sqrt{41}\\sqrt{35}} = \\sqrt{\\frac{35}{41}}$. So, $A = \\cos^{-1}\\sqrt{\\frac{35}{41}}$.<br />**Step 5:** Similarly, to find angle B, we use vectors $\\vec{BA}$ and $\\vec{BC}$. $\\vec{BA} = -\\vec{AB} = \\hat{i} + 2\\hat{j} + 6\\hat{k}$. The dot product is $\\vec{BA} \\cdot \\vec{BC} = (1)(2) + (2)(-1) + (6)(1) = 2 - 2 + 6 = 6$. Thus, $\\cos B = \\frac{6}{\\sqrt{41}\\sqrt{6}} = \\sqrt{\\frac{6}{41}}$. So, $B = \\cos^{-1}\\sqrt{\\frac{6}{41}}$. We have found all three angles: $C = 90^\\circ$, $A = \\cos^{-1}\\sqrt{\\frac{35}{41}}$, $B = \\cos^{-1}\\sqrt{\\frac{6}{41}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

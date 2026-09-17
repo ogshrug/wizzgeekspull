@@ -1,0 +1,30 @@
+{
+  "id": "6a8c721b1cb3824448de86b1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "(a) Prove that $\\tan^{-1}\\left(\\dfrac{1-x}{1+x}\\right)=\\dfrac{\\pi}{4}-\\tan^{-1}x$ for $x>-1$, explaining the importance of the stated restriction.<br><br>(b) Hence evaluate $\\tan^{-1}\\left(\\dfrac{1-\\sqrt{3}}{1+\\sqrt{3}}\\right)$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Let<br>$$A=\\tan^{-1}x$$<br>Then $A\\in\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$. Using the tangent-difference formula,<br>$$\\tan\\left(\\frac{\\pi}{4}-A\\right)=\\frac{1-\\tan A}{1+\\tan A}$$<br>Therefore,<br>$$\\tan\\left(\\frac{\\pi}{4}-A\\right)=\\frac{1-x}{1+x}$$<br>When $x>-1$, we have $A> -\\dfrac{\\pi}{4}$. Hence,<br>$$-\\frac{\\pi}{4}<\\frac{\\pi}{4}-A<\\frac{\\pi}{2}$$<br>Thus, $\\dfrac{\\pi}{4}-A$ lies in the principal-value range of $\\tan^{-1}$. Applying $\\tan^{-1}$ gives<br>$$\\tan^{-1}\\left(\\frac{1-x}{1+x}\\right)=\\frac{\\pi}{4}-A$$<br>Therefore,<br>$$\\tan^{-1}\\left(\\frac{1-x}{1+x}\\right)=\\frac{\\pi}{4}-\\tan^{-1}x$$<br>The restriction $x>-1$ ensures both that $1+x\\neq0$ and that the angle on the right belongs to the principal range of $\\tan^{-1}$.<br><br><b>(b)</b><br>Taking $x=\\sqrt{3}$ in the identity,<br>$$\\tan^{-1}\\left(\\frac{1-\\sqrt{3}}{1+\\sqrt{3}}\\right)=\\frac{\\pi}{4}-\\tan^{-1}(\\sqrt{3})$$<br>Since<br>$$\\tan^{-1}(\\sqrt{3})=\\frac{\\pi}{3}$$<br>we obtain<br>$$\\tan^{-1}\\left(\\frac{1-\\sqrt{3}}{1+\\sqrt{3}}\\right)=\\frac{\\pi}{4}-\\frac{\\pi}{3}=-\\frac{\\pi}{12}$$<br>Hence, the required value is $-\\dfrac{\\pi}{12}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) For $x>-1$, the identity is $\\tan^{-1}\\left(\\dfrac{1-x}{1+x}\\right)=\\dfrac{\\pi}{4}-\\tan^{-1}x$, and the restriction keeps the right side in the principal range<br><br>(b) $-\\dfrac{\\pi}{12}$",
+    "B": "(a) For $x>-1$, the identity is $\\tan^{-1}\\left(\\dfrac{1-x}{1+x}\\right)=\\dfrac{\\pi}{4}+\\tan^{-1}x$<br><br>(b) $\\dfrac{7\\pi}{12}$",
+    "C": "(a) For $x>-1$, the identity is $\\tan^{-1}\\left(\\dfrac{1-x}{1+x}\\right)=\\tan^{-1}x-\\dfrac{\\pi}{4}$<br><br>(b) $\\dfrac{\\pi}{12}$",
+    "D": "(a) For $x>-1$, the identity is $\\tan^{-1}\\left(\\dfrac{1-x}{1+x}\\right)=\\dfrac{\\pi}{2}-\\tan^{-1}x$<br><br>(b) $\\dfrac{\\pi}{6}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

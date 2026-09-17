@@ -1,0 +1,30 @@
+{
+  "id": "69a9cdd66638848124d7c9c0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d63"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{bmatrix}1 & x & y\\\\x & 1 & z\\\\y & z & 1\\end{bmatrix}$. For which real values of $x$, $y$, $z$ is $A$ both symmetric and invertible? Analyze and justify. If $A$ is not invertible for certain values, determine those values and interpret the result.",
+  "answeroption": "A",
+  "explanation": "$A$ is symmetric for all $x, y, z$.<br /><br />Invertibility: Compute $|A|$. Expanding along row 1:<br /><br />$|A| = 1\\cdot\\begin{vmatrix}1 & z\\\\z & 1\\end{vmatrix} - x\\cdot\\begin{vmatrix}x & z\\\\y & 1\\end{vmatrix} + y\\cdot\\begin{vmatrix}x & 1\\\\y & z\\end{vmatrix}$<br /><br />$= 1(1 - z^2) - x(x - y z) + y(x z - y)$<br /><br />$= (1-z^2) - (x^2 - x y z) + (x y z - y^2)$<br /><br />$= 1 - z^2 - x^2 + x y z + x y z - y^2$<br /><br />$= 1 - x^2 - y^2 - z^2 + 2 x y z$<br /><br />So $A$ is invertible (i.e., $|A| \\ne 0$) iff $1 - x^2 - y^2 - z^2 + 2 x y z \\ne 0$.<br /><br />It is non-invertible if $1 - x^2 - y^2 - z^2 + 2 x y z = 0$. This is the set of all real solutions to this equation, which geometrically forms a surface in $\\mathbb{R}^3$. If any $x, y, z$ satisfy this, the corresponding $A$ is not invertible and the linear system it would define is dependent.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ is symmetric for all real $x,y,z$. It is invertible iff $1-x^2-y^2-z^2+2xyz\\ne0$. It is non-invertible iff $1-x^2-y^2-z^2+2xyz=0$.",
+    "B": "$A$ is symmetric only when $x=y=z=0$, and it is invertible only when $x+y+z=0$.",
+    "C": "$A$ is always invertible because all diagonal entries are $1$.",
+    "D": "$A$ is non-invertible for all real $x,y,z$ because it is symmetric."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:39:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

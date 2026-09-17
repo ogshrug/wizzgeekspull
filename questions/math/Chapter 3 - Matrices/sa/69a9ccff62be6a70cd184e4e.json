@@ -1,0 +1,30 @@
+{
+  "id": "69a9ccff62be6a70cd184e4e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d56"
+  ],
+  "question_type": "SA",
+  "question": "Given $A$ is a $2 \\times 2$ matrix such that $A' = -A$ (i.e., $A$ is skew-symmetric). Verify that its diagonal entries must be $0$.",
+  "answeroption": "B",
+  "explanation": "Let $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ and $A' = -A$. Then $A' = \\begin{pmatrix} a & c \\\\ b & d \\end{pmatrix}$.<br /><br />So, $A' = -A \\implies \\begin{pmatrix} a & c \\\\ b & d \\end{pmatrix} = \\begin{pmatrix} -a & -b \\\\ -c & -d \\end{pmatrix}$.<br /><br />Thus $a=-a \\Rightarrow a=0$, $d=-d \\Rightarrow d=0$.<br /><br />Hence, both diagonal entries must be $0$ in any skew-symmetric matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "The diagonal entries must be equal to $1$",
+    "B": "The diagonal entries must be $0$ because $a=-a$ and $d=-d$ imply $a=d=0$",
+    "C": "The diagonal entries may be any real numbers",
+    "D": "The diagonal entries must be negatives of each other but need not be zero"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:35:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

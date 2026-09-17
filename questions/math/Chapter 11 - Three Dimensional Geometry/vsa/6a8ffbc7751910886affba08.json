@@ -1,0 +1,30 @@
+{
+  "id": "6a8ffbc7751910886affba08",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8cd"
+  ],
+  "question_type": "VSA",
+  "question": "The line $\\frac{x-2}{3}=\\frac{y+1}{-2}=\\frac{z-4}{5}$ contains a point $Q$ whose $x$-coordinate is $8$. Find $Q$ and hence obtain a simplest set of direction ratios of the segment joining $(2,-1,4)$ to $Q$.",
+  "answeroption": "B",
+  "explanation": "Step 1: Introduce a common parameter $\\lambda$ in the Cartesian equation: $$\\frac{x-2}{3}=\\frac{y+1}{-2}=\\frac{z-4}{5}=\\lambda.$$ Step 2: Since the $x$-coordinate of $Q$ is $8$, $8-2=3\\lambda$, giving $\\lambda=2$. Step 3: Substitute $\\lambda=2$ into the remaining relations. Then $y+1=-2(2)=-4$, so $y=-5$, and $z-4=5(2)=10$, so $z=14$. Hence, $Q=(8,-5,14)$. Step 4: From $P=(2,-1,4)$ to $Q$, the direction ratios are $(8-2,-5+1,14-4)=(6,-4,10)$. Step 5: Dividing by $2$ gives the simplest proportional set $(3,-2,5)$. Therefore, $Q=(8,-5,14)$ and the direction ratios are $3,-2,5$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$Q=(8,-3,14)$; direction ratios $3,-1,5$",
+    "B": "$Q=(8,-5,14)$; direction ratios $3,-2,5$",
+    "C": "$Q=(8,-5,9)$; direction ratios $3,-2,\\frac{5}{2}$",
+    "D": "$Q=(8,3,14)$; direction ratios $3,2,5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

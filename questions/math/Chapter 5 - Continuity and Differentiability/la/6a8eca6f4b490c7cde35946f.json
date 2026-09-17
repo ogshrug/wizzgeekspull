@@ -1,0 +1,30 @@
+{
+  "id": "6a8eca6f4b490c7cde35946f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "LA",
+  "question": "Examine the continuity and differentiability of the function $f(x)=|x^2-4|$ at $x=2$, using the appropriate one-sided limits and one-sided derivatives, and justify your conclusion.",
+  "answeroption": "D",
+  "explanation": "<b>Continuity at $x=2$</b><br>The value of the function at $x=2$ is $$f(2)=|2^2-4|=0.$$ For values of $x$ sufficiently close to $2$ with $x<2$, we have $x^2-4<0$, so $$f(x)=4-x^2.$$ Hence, $$\\lim_{x\\to2^-}f(x)=\\lim_{x\\to2^-}(4-x^2)=0.$$ For $x>2$, $x^2-4>0$, so $$f(x)=x^2-4.$$ Therefore, $$\\lim_{x\\to2^+}f(x)=\\lim_{x\\to2^+}(x^2-4)=0.$$ Thus, $$\\lim_{x\\to2^-}f(x)=\\lim_{x\\to2^+}f(x)=f(2)=0,$$ and hence $f$ is continuous at $x=2$.<br><br><b>Differentiability at $x=2$</b><br>For $x<2$ near $2$, $$f(x)=4-x^2,$$ so the left-hand derivative at $2$ is $$f'_-(2)=\\left.\\frac{d}{dx}(4-x^2)\\right|_{x=2}=-2(2)=-4.$$ For $x>2$, $$f(x)=x^2-4,$$ so the right-hand derivative is $$f'_+(2)=\\left.\\frac{d}{dx}(x^2-4)\\right|_{x=2}=2(2)=4.$$ Since $$f'_-(2)\\neq f'_+(2),$$ the derivative of $f$ at $x=2$ does not exist.<br><br><b>Final Result</b><br>The function $f(x)=|x^2-4|$ is continuous at $x=2$ but is not differentiable at $x=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is discontinuous but differentiable at $x=2$.",
+    "B": "$f$ is both continuous and differentiable at $x=2$.",
+    "C": "$f$ is neither continuous nor differentiable at $x=2$.",
+    "D": "$f$ is continuous but not differentiable at $x=2$, with $f'_-(2)=-4$ and $f'_+(2)=4$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

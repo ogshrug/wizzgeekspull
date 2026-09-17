@@ -1,0 +1,32 @@
+{
+  "id": "6a8fd37abe0ecc7866e90c4c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996",
+    "6a13eb338c819562f933f995",
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999"
+  ],
+  "question_type": "LA",
+  "question": "The circle $x^2+y^2=8x$ and the parabola $y^2=4x$ form two smaller regions between the left arc of the circle and the parabola.(a) Determine all the points of intersection of the circle and the parabola.(b) Express the left arc of the circle and the parabola in the form $x=f(y)$, and identify the right and left boundaries of the two smaller regions.(c) Hence calculate the combined area of the two smaller regions.",
+  "answeroption": "B",
+  "explanation": "(a)From the parabola,`x=\\frac{y^2}{4}`Substituting this in the equation of the circle gives`\\frac{y^4}{16}+y^2=2y^2y^2\\left(y^2-16\\right)=0`Thus, $y=0$ or $y=\\pm4$. The corresponding values of $x$ are $0$ and $4$. Hence, the points of intersection are $\\left(0,0\\right)$, $\\left(4,4\\right)$ and $\\left(4,-4\\right)$.(b)The equation of the circle can be written as`\\left(x-4\\right)^2+y^2=16`Therefore, its left arc is`x=4-\\sqrt{16-y^2}`The parabola is`x=\\frac{y^2}{4}`For $-4\\leq y\\leq4$, the parabola is the right boundary and the left arc of the circle is the left boundary.(c)The combined area is`A=\\int_{-4}^{4}\\left[\\frac{y^2}{4}-\\left(4-\\sqrt{16-y^2}\\right)\\right]dyA=\\int_{-4}^{4}\\frac{y^2}{4}dy-\\int_{-4}^{4}4\\,dy+\\int_{-4}^{4}\\sqrt{16-y^2}\\,dy`Now,`\\int_{-4}^{4}\\frac{y^2}{4}dy=\\frac{32}{3}\\int_{-4}^{4}4\\,dy=32`The final integral represents the area of a semicircle of radius $4$:`\\int_{-4}^{4}\\sqrt{16-y^2}\\,dy=8\\pi`Therefore,`A=\\frac{32}{3}-32+8\\pi=8\\pi-\\frac{64}{3}`Hence, the combined area of the two smaller regions is $8\\pi-\\frac{64}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,0),(4,4),(4,-4)$<br>(b) Right: $x=4-\\sqrt{16-y^2}$; left: $x=\\frac{y^2}{4}$<br>(c) Combined area $=8\\pi-\\frac{64}{3}$",
+    "B": "(a) $(0,0),(4,4),(4,-4)$<br>(b) Right: $x=\\frac{y^2}{4}$; left: $x=4-\\sqrt{16-y^2}$<br>(c) Combined area $=8\\pi-\\frac{64}{3}$",
+    "C": "(a) $(0,0),(4,4),(4,-4)$<br>(b) Right: $x=\\frac{y^2}{4}$; left: $x=4+\\sqrt{16-y^2}$<br>(c) Combined area $=8\\pi-\\frac{32}{3}$",
+    "D": "(a) $(0,0),(4,0)$<br>(b) Right: $x=\\frac{y^2}{4}$; left: $x=4-\\sqrt{16-y^2}$<br>(c) Combined area $=4\\pi-\\frac{32}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

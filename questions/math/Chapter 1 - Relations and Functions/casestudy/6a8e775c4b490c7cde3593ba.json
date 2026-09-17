@@ -1,0 +1,29 @@
+{
+  "id": "6a8e775c4b490c7cde3593ba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics class studies three successive transformations. The functions are defined by $f:\\mathbb{N}\\to\\mathbb{N}$ with $f(x)=2x$, $g:\\mathbb{N}\\to\\mathbb{N}$ with $g(y)=3y+4$, and $h:\\mathbb{N}\\to\\mathbb{R}$ with $h(z)=\\sin z$. Students want to examine whether grouping the first two compositions and then applying the third gives the same result as first composing the last two functions and then applying the result to $f$. They use the definitions of composition carefully and evaluate the functions in the order in which they are applied.<br><br><b>(a)</b> Find $gof(x)$.<br><br><b>(b)</b> Determine $ho(gof)(x)$.<br><br><b>(c)</b> Determine $hog(y)$ and hence find $(hog)of(x)$.<br><br><b>(d)</b> Compare $ho(gof)$ and $(hog)of$ and state the conclusion about the grouping of these compositions.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>By definition, $gof(x)=g(f(x))$. Since $f(x)=2x$, we get $gof(x)=g(2x)=3(2x)+4=6x+4$. Hence, $gof(x)=6x+4$.<br><br><b>(b)</b><br>Using the result $gof(x)=6x+4$, we have $ho(gof)(x)=h(6x+4)=\\sin(6x+4)$. Therefore, $ho(gof)(x)=\\sin(6x+4)$.<br><br><b>(c)</b><br>For $y\\in\\mathbb{N}$, $hog(y)=h(g(y))=h(3y+4)=\\sin(3y+4)$. Therefore, $(hog)of(x)=(hog)(f(x))=(hog)(2x)=\\sin(3(2x)+4)=\\sin(6x+4)$.<br><br><b>(d)</b><br>From parts (b) and (c), $ho(gof)(x)=\\sin(6x+4)$ and $(hog)of(x)=\\sin(6x+4)$ for every $x\\in\\mathbb{N}$. Hence, $ho(gof)=(hog)of$. Thus, the composition gives the same function under these two groupings.",
+  "explanation_image": [],
+  "options": {
+    "A": "$gof(x)=6x+4$, $ho(gof)(x)=\\sin(6x+4)$ and $(hog)of(x)=\\sin(6x+8)$; therefore, the two groupings give different functions.",
+    "B": "$gof(x)=6x+4$, $ho(gof)(x)=\\sin(6x+4)$, $hog(y)=\\sin(3y+4)$ and $(hog)of(x)=\\sin(6x+4)$; therefore, $ho(gof)=(hog)of$.",
+    "C": "$gof(x)=6x+8$, $ho(gof)(x)=\\sin(6x+8)$, $hog(y)=3\\sin y+4$ and $(hog)of(x)=3\\sin(2x)+4$; therefore, the compositions are equal.",
+    "D": "$gof(x)=5x+4$, $ho(gof)(x)=\\sin(5x+4)$ and $(hog)of(x)=\\sin(6x+4)$; therefore, function composition is not associative."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

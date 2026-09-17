@@ -1,0 +1,29 @@
+{
+  "id": "69a952c5589ce36f368b47cf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Let $P(5,7,1)$ and $L$ be the line of intersection of the planes $x-2y+3z=4$ and $2x+y-z=1$. Find the image of $P$ in the line $L$.",
+  "answeroption": "C",
+  "explanation": "Solve the planes simultaneously to obtain the line of intersection.<br /><br />Let $z=t$. Then solving the equations gives:<br /><br />$x = \\frac{6-t}{5}, y = \\frac{-7+7t}{5}, z=t$.<br /><br />Let the foot of perpendicular from $P$ to the line be $R$.<br /><br />Using perpendicular condition with the direction vector $(-1/5,7/5,1)$ and solving gives $t=4$.<br /><br />Thus $R(\\frac{2}{5},\\frac{21}{5},4)$.<br /><br />Since $R$ is midpoint of $P$ and its image $Q$,<br /><br />$Q = (2R - P)$.<br /><br />Therefore the image point is $Q(-\\frac{21}{5},\\frac{7}{5},7)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$Q\\left(\\frac{2}{5},\\frac{21}{5},4\\right)$",
+    "B": "$Q\\left(\\frac{21}{5},-\\frac{7}{5},7\\right)$",
+    "C": "$Q\\left(-\\frac{21}{5},\\frac{7}{5},7\\right)$",
+    "D": "$Q\\left(-\\frac{7}{5},\\frac{21}{5},4\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:54:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

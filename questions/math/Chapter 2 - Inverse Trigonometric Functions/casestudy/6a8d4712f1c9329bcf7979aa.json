@@ -1,0 +1,31 @@
+{
+  "id": "6a8d4712f1c9329bcf7979aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A group investigates the function $f(x)=\\cos^{-1}\\left(\\sqrt{\\frac{x-1}{x+1}}\\right)$. For the function to be defined, the expression under the square root must be non-negative, its denominator must be non-zero, and the resulting square root must lie in the domain $[-1,1]$ of inverse cosine. Since a square root is non-negative, these conditions can be combined to obtain the exact interval on which the graph exists. The students then examine the endpoint and the value approached as $x$ increases.<br><br><b>(a)</b> Determine the domain of $f$.<br><br><b>(b)</b> Find $f(1)$ and determine the value approached by $f(x)$ as $x$ increases without bound.<br><br><b>(c)</b> Determine the range of $f$.<br><br><b>(d)</b> Describe the variation and important features of its graph.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The required condition is $$0\\leq\\frac{x-1}{x+1}\\leq1$$ First, $\\frac{x-1}{x+1}\\geq0$ gives $x<-1$ or $x\\geq1$, with $x=-1$ excluded. Also, $$\\frac{x-1}{x+1}\\leq1$$ For $x<-1$, multiplication by the negative quantity $x+1$ reverses the inequality and gives $x-1\\geq x+1$, which is impossible. For $x\\geq1$, multiplication by $x+1>0$ gives $x-1\\leq x+1$, which is always true. Hence, the domain is $[1,\\infty)$.<br><br><b>(b)</b><br>At $x=1$, $$f(1)=\\cos^{-1}(0)=\\frac{\\pi}{2}$$ As $x$ increases without bound, $\\frac{x-1}{x+1}$ approaches $1$. Therefore, its square root approaches $1$, and $f(x)$ approaches $\\cos^{-1}(1)=0$. No finite $x$ makes $\\frac{x-1}{x+1}=1$, so $f(x)$ never equals $0$.<br><br><b>(c)</b><br>The greatest value is $\\frac{\\pi}{2}$ at $x=1$. The function approaches $0$ but does not attain it. Hence, the range is $\\left(0,\\frac{\\pi}{2}\\right]$.<br><br><b>(d)</b><br>For $x\\geq1$, the quantity $\\frac{x-1}{x+1}$ increases from $0$ towards $1$, and its square root also increases. Since $\\cos^{-1}u$ decreases as $u$ increases, $f$ decreases from the point $\\left(1,\\frac{\\pi}{2}\\right)$ and approaches the horizontal level $y=0$ without touching it.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain: $[1,\\infty)$<br><br>(b) $f(1)=\\dfrac{\\pi}{2}$ and $f(x)$ approaches $0$ as $x$ increases without bound<br><br>(c) Range: $\\left(0,\\dfrac{\\pi}{2}\\right]$<br><br>(d) The graph decreases from $\\left(1,\\dfrac{\\pi}{2}\\right)$ and approaches $y=0$ without attaining it",
+    "B": "(a) Domain: $(-\\infty,-1)\\cup[1,\\infty)$<br><br>(b) $f(1)=0$ and $f(x)$ approaches $\\dfrac{\\pi}{2}$ as $x$ increases without bound<br><br>(c) Range: $\\left[0,\\dfrac{\\pi}{2}\\right)$<br><br>(d) The graph increases throughout both branches",
+    "C": "(a) Domain: $(-1,1]$<br><br>(b) $f(1)=\\dfrac{\\pi}{2}$ and $f(x)$ approaches $\\pi$ as $x$ approaches $-1$ from the right<br><br>(c) Range: $\\left[\\dfrac{\\pi}{2},\\pi\\right)$<br><br>(d) The graph increases from $\\dfrac{\\pi}{2}$ towards $\\pi$",
+    "D": "(a) Domain: $[1,\\infty)$<br><br>(b) $f(1)=\\dfrac{\\pi}{2}$ and $f(x)$ approaches $0$ as $x$ increases without bound<br><br>(c) Range: $\\left[0,\\dfrac{\\pi}{2}\\right]$<br><br>(d) The graph decreases and reaches $y=0$ for a finite value of $x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc1cb4b490c7cde3594eb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int \\frac{\\sin x}{2+\\cos x}\\,dx$ by using a suitable substitution.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Identifying the suitable substitution</b><br>The denominator is $2+\\cos x$ and its derivative contains $-\\sin x$, which is present in the numerator. Hence substitution reduces the integral to a standard form.<br><b>Step 2: Changing the variable</b><br>Let<br>$$t=2+\\cos x$$<br>Then<br>$$dt=-\\sin x\\,dx\\quad\\Rightarrow\\quad \\sin x\\,dx=-dt$$<br><b>Step 3: Transforming the integral</b><br>Therefore,<br>$$\\int\\frac{\\sin x}{2+\\cos x}\\,dx=-\\int\\frac{dt}{t}$$<br><b>Step 4: Performing the integration</b><br>Using $\\int\\frac{dt}{t}=\\log|t|+C$,<br>$$-\\int\\frac{dt}{t}=-\\log|t|+C$$<br><b>Step 5: Substituting the original variable</b><br>Since $2+\\cos x>0$, the required result is<br>$$\\boxed{-\\log(2+\\cos x)+C}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\log(2+\\cos x)+C$",
+    "B": "$-\\log(2-\\cos x)+C$",
+    "C": "$-\\log(2+\\cos x)+C$",
+    "D": "$\\frac{1}{2+\\cos x}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a8eca704b490c7cde359473",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7e",
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "LA",
+  "question": "The variables $x$ and $y$ are related implicitly by $$\\tan^{-1}y+y=2x.$$ Using implicit differentiation and the derivative of the inverse tangent function, obtain $\\frac{dy}{dx}$ in terms of $y$ and hence find its value at the point $(0,0)$.",
+  "answeroption": "A",
+  "explanation": "<b>Implicit Differentiation</b><br>The given relation is $$\\tan^{-1}y+y=2x.$$ Since $y$ is a function of $x$, differentiation of $\\tan^{-1}y$ requires the chain rule. Using $$\\frac{d}{dx}(\\tan^{-1}u)=\\frac{1}{1+u^2}\\frac{du}{dx},$$ we obtain $$\\frac{1}{1+y^2}\\frac{dy}{dx}+\\frac{dy}{dx}=2.$$<br><br><b>Simplification</b><br>Taking $\\frac{dy}{dx}$ common, $$\\frac{dy}{dx}\\left(\\frac{1}{1+y^2}+1\\right)=2.$$ Combining the terms inside the bracket, $$\\frac{1}{1+y^2}+1=\\frac{2+y^2}{1+y^2}.$$ Therefore, $$\\frac{dy}{dx}\\frac{2+y^2}{1+y^2}=2.$$ Hence, $$\\frac{dy}{dx}=\\frac{2(1+y^2)}{2+y^2}.$$<br><br><b>Evaluation</b><br>The point $(0,0)$ satisfies the given relation because $$\\tan^{-1}0+0=0=2(0).$$ Substituting $y=0$ in the derivative, $$\\left.\\frac{dy}{dx}\\right|_{(0,0)}=\\frac{2(1+0)}{2+0}=1.$$<br><br><b>Final Result</b><br>Thus, $$\\frac{dy}{dx}=\\frac{2(1+y^2)}{2+y^2}$$ and at the point $(0,0)$, $$\\frac{dy}{dx}=1.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{2(1+y^2)}{2+y^2}$; at $(0,0)$, $\\frac{dy}{dx}=1$",
+    "B": "$\\frac{dy}{dx}=\\frac{2+y^2}{2(1+y^2)}$; at $(0,0)$, $\\frac{dy}{dx}=1$",
+    "C": "$\\frac{dy}{dx}=\\frac{2(1+y^2)}{1+2y^2}$; at $(0,0)$, $\\frac{dy}{dx}=2$",
+    "D": "$\\frac{dy}{dx}=\\frac{1+y^2}{2+y^2}$; at $(0,0)$, $\\frac{dy}{dx}=\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

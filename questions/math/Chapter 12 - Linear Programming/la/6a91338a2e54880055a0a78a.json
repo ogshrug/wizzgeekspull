@@ -1,0 +1,35 @@
+{
+  "id": "6a91338a2e54880055a0a78a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8de",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "Two foods A and B supply two nutrients. Each kilogram of food A supplies $1$ unit of nutrient P and $3$ units of nutrient Q, while each kilogram of food B supplies $2$ units of nutrient P and $1$ unit of nutrient Q. A diet must contain at least $8$ units of nutrient P and $9$ units of nutrient Q, and the total quantity of the mixture must not exceed $8\\text{ kg}$. If food A costs $\\text{Rs }50$ per kilogram and food B costs $\\text{Rs }40$ per kilogram, formulate the linear programming problem and determine graphically the quantities of the two foods that minimise the cost.",
+  "answeroption": "C",
+  "explanation": "<b>Mathematical Formulation</b><br>Let $x$ and $y$ be the quantities in kilograms of foods A and B respectively. The nutrient P requirement gives $x+2y\\ge8$, while the nutrient Q requirement gives $3x+y\\ge9$. The total quantity restriction gives $x+y\\le8$. Also, $x\\ge0$ and $y\\ge0$. The total cost is $$Z=50x+40y,$$ which has to be minimised.<br><br><b>Feasible Region</b><br>The relevant boundary lines are $x+2y=8$, $3x+y=9$ and $x+y=8$. Solving $x+2y=8$ and $3x+y=9$ gives $x=2$ and $y=3$. Solving $3x+y=9$ and $x+y=8$ gives $2x=1$, hence $x=\\frac{1}{2}$ and $y=\\frac{15}{2}$. The lines $x+2y=8$ and $x+y=8$ meet at $(8,0)$. Thus the feasible region is the bounded triangular region with corner points $\\left(\\frac{1}{2},\\frac{15}{2}\\right)$, $(2,3)$ and $(8,0)$.<br><br><b>Evaluation</b><br>At $\\left(\\frac{1}{2},\\frac{15}{2}\\right)$, $$Z=50\\left(\\frac{1}{2}\\right)+40\\left(\\frac{15}{2}\\right)=25+300=325.$$ At $(2,3)$, $Z=50(2)+40(3)=220$. At $(8,0)$, $Z=400$.<br><br><b>Final Result</b><br>The minimum cost is $\\text{Rs }220$, attained at $(x,y)=(2,3)$. Therefore, the diet should contain $2\\text{ kg}$ of food A and $3\\text{ kg}$ of food B.",
+  "explanation_image": [],
+  "options": {
+    "A": "Minimise $Z=40x+50y$ subject to $x+2y\\geq8$, $3x+y\\geq9$, $x+y\\leq8$, $x,y\\geq0$; optimum $(3,2)$ with cost Rs $220$",
+    "B": "Maximise $Z=50x+40y$ subject to $x+2y\\geq8$, $3x+y\\geq9$, $x+y\\leq8$, $x,y\\geq0$; optimum $(8,0)$ with value Rs $400$",
+    "C": "Minimise $Z=50x+40y$ subject to $x+2y\\geq8$, $3x+y\\geq9$, $x+y\\leq8$, $x,y\\geq0$; optimum $(2,3)$ with minimum cost Rs $220$",
+    "D": "Minimise $Z=50x+40y$ subject to $x+2y\\leq8$, $3x+y\\leq9$, $x+y\\geq8$, $x,y\\geq0$; optimum $(2,3)$ with cost Rs $220$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

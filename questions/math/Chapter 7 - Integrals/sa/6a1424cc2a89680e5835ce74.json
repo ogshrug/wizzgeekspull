@@ -1,0 +1,24 @@
+{
+  "id": "6a1424cc2a89680e5835ce74",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{\\pi/2}\\frac{x\\sin x\\cos x}{\\sin^{4}x+\\cos^{4}x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Apply Property.** Use $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$ to rewrite $I$. It becomes $\\int_{0}^{\\pi/2}\\frac{(\\pi/2-x)\\cos x\\sin x}{\\cos^{4}x+\\sin^{4}x}dx$.<br />**Step 2: Add Equations.** Adding the original and rewritten integrals yields $2I = \\frac{\\pi}{2} \\int_{0}^{\\pi/2}\\frac{\\sin x\\cos x}{\\sin^{4}x+\\cos^{4}x}dx$.<br />**Step 3: Divide and Substitute.** Divide numerator and denominator by $\\cos^4 x$ to get $\\frac{\\tan x\\sec^2 x}{\\tan^{4}x+1}$. Let $t = \\tan^2 x$, making $dt = 2\\tan x \\sec^2 x dx$.<br />**Step 4: Solve.** The integral becomes $\\frac{\\pi}{4} [\\tan^{-1}t]_0^{\\infty} = \\frac{\\pi^2}{8}$. Thus, $I = \\frac{\\pi^2}{16}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

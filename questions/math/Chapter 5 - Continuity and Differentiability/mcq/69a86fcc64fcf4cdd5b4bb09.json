@@ -1,0 +1,30 @@
+{
+  "id": "69a86fcc64fcf4cdd5b4bb09",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "MCQ",
+  "question": "If $y = \\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$ for $x \\in (-1,1)$, what is $d^2y/dx^2$ at $x=0$?",
+  "answeroption": "A",
+  "explanation": "We have $y = \\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$<br /><br />But $\\dfrac{2x}{1+x^2} = \\sin(2\\tan^{-1}x)$<br /><br />Thus $y = 2\\tan^{-1}x$<br /><br />Now $\\dfrac{dy}{dx} = 2 \\cdot \\dfrac{1}{1 + x^2}$<br /><br />$\\dfrac{d^2y}{dx^2} = 2 \\cdot \\left(-\\dfrac{2x}{(1 + x^2)^2}\\right) = -\\dfrac{4x}{(1 + x^2)^2}$<br /><br />At $x = 0$, $d^2y/dx^2 = 0$<br /><br />Answer: (A) 0",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "None of these"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:45:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

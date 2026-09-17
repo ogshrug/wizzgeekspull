@@ -1,0 +1,29 @@
+{
+  "id": "69a9af6e589ce36f368b487a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "VSA",
+  "question": "Let $\\vec{a} = 3\\hat{i} + 2\\hat{j} - \\hat{k}$ and $\\vec{b} = 2\\hat{i} - 2\\hat{j} + 4\\hat{k}$. Find the angle $\\theta$ between $\\vec{a}$ and $\\vec{b}$, leaving your answer in terms of $\\cos^{-1}$.",
+  "answeroption": "C",
+  "explanation": "Given:<br /><br />$\\vec{a} = 3\\hat{i} + 2\\hat{j} - \\hat{k}$<br /><br />$\\vec{b} = 2\\hat{i} - 2\\hat{j} + 4\\hat{k}$<br /><br />Step 1: Find $\\vec{a} \\cdot \\vec{b}$<br /><br />$\\vec{a} \\cdot \\vec{b} = 3 \\times 2 + 2 \\times (-2) + (-1) \\times 4$<br /><br />$= 6 - 4 - 4$<br /><br />$= -2$<br /><br />Step 2: Find $|\\vec{a}|$ and $|\\vec{b}|$<br /><br />$|\\vec{a}| = \\sqrt{3^2 + 2^2 + (-1)^2} = \\sqrt{9 + 4 + 1} = \\sqrt{14}$<br /><br />$|\\vec{b}| = \\sqrt{2^2 + (-2)^2 + 4^2} = \\sqrt{4 + 4 + 16} = \\sqrt{24}$<br /><br />Step 3: Use the dot product formula:<br /><br />$\\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}| \\cos\\theta$<br /><br />So,<br /><br />$-2 = \\sqrt{14} \\cdot \\sqrt{24} \\cdot \\cos\\theta$<br /><br />$\\cos\\theta = \\dfrac{-2}{\\sqrt{14} \\cdot \\sqrt{24}}$<br /><br />$\\displaystyle \\cos\\theta = \\frac{-2}{\\sqrt{336}}$<br /><br />$\\sqrt{336} = 2\\sqrt{84}$<br /><br />$\\cos\\theta = \\dfrac{-1}{\\sqrt{84}}$<br /><br />Step 4: Express $\\theta$ in terms of $\\cos^{-1}$:<br /><br />$\\theta = \\cos^{-1}\\left(\\dfrac{-1}{\\sqrt{84}}\\right)$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cos^{-1}\\left(\\dfrac{1}{\\sqrt{84}}\\right)$",
+    "B": "$\\cos^{-1}\\left(\\dfrac{-2}{\\sqrt{84}}\\right)$",
+    "C": "$\\cos^{-1}\\left(\\dfrac{-1}{\\sqrt{84}}\\right)$",
+    "D": "$\\cos^{-1}\\left(\\dfrac{-1}{84}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:29:34 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

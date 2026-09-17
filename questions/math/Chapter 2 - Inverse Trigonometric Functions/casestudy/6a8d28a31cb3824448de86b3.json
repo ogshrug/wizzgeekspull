@@ -1,0 +1,30 @@
+{
+  "id": "6a8d28a31cb3824448de86b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A class studies how inverse sine and inverse cosine reduce an angle lying in the third quadrant. Let $\\theta\\in\\left[\\pi,\\dfrac{3\\pi}{2}\\right]$, and define $P=\\sin^{-1}(\\sin\\theta)$ and $Q=\\cos^{-1}(\\cos\\theta)$. The principal-value ranges of inverse sine and inverse cosine are $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$ and $[0,\\pi]$, respectively. The students must replace $\\theta$ with angles in these intervals while preserving its sine and cosine values. They then compare $P$ and $Q$ and test the resulting relations at $\\theta=\\dfrac{7\\pi}{6}$.<br><br><b>(a)</b> Express $P$ in terms of $\\theta$.<br><br><b>(b)</b> Express $Q$ in terms of $\\theta$.<br><br><b>(c)</b> Determine $P+Q$ in terms of $\\theta$.<br><br><b>(d)</b> Evaluate $P$ and $Q$ when $\\theta=\\dfrac{7\\pi}{6}$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For $\\theta\\in\\left[\\pi,\\dfrac{3\\pi}{2}\\right]$, the angle $\\theta-2\\pi$ lies in $\\left[-\\pi,-\\dfrac{\\pi}{2}\\right]$, which is not completely inside the inverse-sine principal range. Instead, using<br>$$\\sin\\theta=\\sin(\\pi-\\theta)$$<br>and<br>$$-\\frac{\\pi}{2}\\leq\\pi-\\theta\\leq0$$<br>we obtain<br>$$P=\\sin^{-1}(\\sin\\theta)=\\pi-\\theta$$<br><br><b>(b)</b><br>Using the periodicity and symmetry of cosine,<br>$$\\cos\\theta=\\cos(2\\pi-\\theta)$$<br>For the given interval,<br>$$\\frac{\\pi}{2}\\leq2\\pi-\\theta\\leq\\pi$$<br>which lies in the principal range of inverse cosine. Therefore,<br>$$Q=\\cos^{-1}(\\cos\\theta)=2\\pi-\\theta$$<br><br><b>(c)</b><br>Using the obtained expressions,<br>$$P+Q=(\\pi-\\theta)+(2\\pi-\\theta)$$<br>$$P+Q=3\\pi-2\\theta$$<br><br><b>(d)</b><br>For $\\theta=\\dfrac{7\\pi}{6}$,<br>$$P=\\pi-\\frac{7\\pi}{6}=-\\frac{\\pi}{6}$$<br>and<br>$$Q=2\\pi-\\frac{7\\pi}{6}=\\frac{5\\pi}{6}$$<br>Hence, $P=-\\dfrac{\\pi}{6}$ and $Q=\\dfrac{5\\pi}{6}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P=\\theta-\\pi$<br><br>(b) $Q=\\theta-\\pi$<br><br>(c) $P+Q=2\\theta-2\\pi$<br><br>(d) $P=\\dfrac{\\pi}{6}$ and $Q=\\dfrac{\\pi}{6}$",
+    "B": "(a) $P=\\theta-2\\pi$<br><br>(b) $Q=2\\pi-\\theta$<br><br>(c) $P+Q=0$<br><br>(d) $P=-\\dfrac{5\\pi}{6}$ and $Q=\\dfrac{5\\pi}{6}$",
+    "C": "(a) $P=\\pi-\\theta$<br><br>(b) $Q=2\\pi-\\theta$<br><br>(c) $P+Q=3\\pi-2\\theta$<br><br>(d) $P=-\\dfrac{\\pi}{6}$ and $Q=\\dfrac{5\\pi}{6}$",
+    "D": "(a) $P=\\pi-\\theta$<br><br>(b) $Q=\\theta$<br><br>(c) $P+Q=\\pi$<br><br>(d) $P=-\\dfrac{\\pi}{6}$ and $Q=\\dfrac{7\\pi}{6}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

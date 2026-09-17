@@ -1,0 +1,29 @@
+{
+  "id": "6a8f118a4b490c7cde3594c4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "VSA",
+  "question": "The curve $y=\\cos x$ lies above the x-axis for $-\\frac{\\pi}{3}\\leq x\\leq\\frac{\\pi}{3}$. Obtain the area between the curve and the x-axis over this interval.",
+  "answeroption": "B",
+  "explanation": "Step 1\\:Since $\\cos x\\geq0$ on the given interval, its definite integral directly represents the required area.Step 2\\:Thus, $A=\\int_{-\\frac{\\pi}{3}}^{\\frac{\\pi}{3}}\\cos x\\,dx$.Step 3\\:Using $\\int\\cos x\\,dx=\\sin x$, we get $A=\\left[\\sin x\\right]_{-\\frac{\\pi}{3}}^{\\frac{\\pi}{3}}$.Step 4\\:Hence, $A=\\sin\\frac{\\pi}{3}-\\sin\\left(-\\frac{\\pi}{3}\\right)=\\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{3}}{2}=\\sqrt{3}$.Final Answer\\:The required area is $\\sqrt{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\sqrt{3}}{2}$ square units",
+    "B": "$\\sqrt{3}$ square units",
+    "C": "$2\\sqrt{3}$ square units",
+    "D": "$1$ square unit"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

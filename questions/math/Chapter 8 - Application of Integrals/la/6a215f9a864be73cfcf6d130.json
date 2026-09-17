@@ -1,0 +1,26 @@
+{
+  "id": "6a215f9a864be73cfcf6d130",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f997"
+  ],
+  "question_type": "LA",
+  "question": "Sketch the curve $\\{(x, y): 100x^2 + 25y^2 = 2500\\}$ and find the area of the region enclosed by it, using integration.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the equation in standard form by dividing by 2500: $\\frac{x^2}{25} + \\frac{y^2}{100} = 1$. This is an ellipse with $a=5$ and $b=10$.<br />**Step 2:** The total area of the ellipse is 4 times the area in the first quadrant. Area = $4 \\int_0^5 y dx$.<br />**Step 3:** Express y in terms of x: $y = 10\\sqrt{1 - \\frac{x^2}{25}} = 2\\sqrt{25-x^2}$.<br />**Step 4:** Integrate: Area = $4 \\int_0^5 2\\sqrt{25-x^2} dx = 8 [\\frac{x}{2}\\sqrt{25-x^2} + \\frac{25}{2}\\sin^{-1}(\\frac{x}{5})]_0^5$.<br />**Step 5:** Evaluate limits: $8 [0 + \\frac{25}{2}\\sin^{-1}(1)] - 0 = 8 (\\frac{25}{2} \\cdot \\frac{\\pi}{2}) = 50\\pi$ sq. units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

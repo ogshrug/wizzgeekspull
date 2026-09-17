@@ -1,0 +1,29 @@
+{
+  "id": "69a86455575fa42e0944481b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "If $f(x) = \\sin(x) + |x|$, check continuity at $x=0$.",
+  "answeroption": "A",
+  "explanation": "Left-hand limit:<br /><br />$\\lim_{x \\to 0^-} (\\sin x + |x|) = 0$.<br /><br />Right-hand limit:<br /><br />$\\lim_{x \\to 0^+} (\\sin x + |x|) = 0$.<br /><br />$f(0)=0$.<br /><br />Since LHL = RHL = $f(0)$, $f(x)$ is continuous at $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(x)$ is continuous at $x=0$ because LHL = RHL = $f(0)=0$",
+    "B": "$f(x)$ is discontinuous at $x=0$ because $|x|$ is not continuous at $0$",
+    "C": "$f(x)$ is discontinuous at $x=0$ because LHL $\\neq$ RHL",
+    "D": "$f(x)$ is continuous at $x=0$ only if $f(0)=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:56:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

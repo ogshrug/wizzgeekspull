@@ -1,0 +1,29 @@
+{
+  "id": "6a8d2ba1f1c9329bcf7979a8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "VSA",
+  "question": "On $\\mathbb{R}$, an operation $*$ is defined by $a*b=a+b-ab$. Determine whether $*$ is commutative.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Apply the commutativity condition</b><br>To test whether $*$ is commutative, compare $a*b$ and $b*a$ for arbitrary $a,b\\in\\mathbb{R}$.<br><br><b>Step 2: Calculate both expressions</b><br>By definition,<br>$$a*b=a+b-ab.$$<br>Interchanging $a$ and $b$ gives<br>$$b*a=b+a-ba.$$<br><br><b>Step 3: Compare the results</b><br>Since addition and multiplication of real numbers are commutative,<br>$$b+a=a+b\\quad\\text{and}\\quad ba=ab.$$<br>Therefore,<br>$$b*a=a+b-ab=a*b.$$<br><br><b>Final Answer:</b> The operation $*$ is $\\boxed{\\text{commutative}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$*$ is commutative for all $a,b\\in\\mathbb{R}$",
+    "B": "$*$ is not commutative for any $a,b\\in\\mathbb{R}$",
+    "C": "$*$ is commutative only when $a=b$",
+    "D": "$*$ is commutative only when $ab=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

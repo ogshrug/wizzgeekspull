@@ -1,0 +1,32 @@
+{
+  "id": "6a311334ed9d5eb2aa722a15",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d50",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "MCQ",
+  "question": "If A is a $2\\times3$ matrix such that AB and $AB'$ both are defined, then order of the matrix B is",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Understand the fundamental condition for standard matrix multiplication to be strictly defined: the column count of the left matrix must precisely match the row count of the right matrix.\n\n**Step 2:** Matrix A has an exact order of $2 \\times 3$. For the product AB to be mathematically valid, matrix B must necessarily have exactly 3 rows.\n\n**Step 3:** The transpose matrix $B'$ will subsequently have 3 corresponding columns. For the product $AB'$ to also be defined, $B'$ must have exactly 3 rows. Therefore, B is exactly a $3 \\times 3$ matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2\\times2$",
+    "B": "$2\\times1$",
+    "C": "$3\\times2$",
+    "D": "$3\\times3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

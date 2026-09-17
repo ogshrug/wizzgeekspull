@@ -1,0 +1,29 @@
+{
+  "id": "69a9acd4d30adc5083911b17",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "From a group of 4 boys and 3 girls, two children are selected at random. Find the probability that both are girls, given that at least one is a girl.",
+  "answeroption": "C",
+  "explanation": "Let $A$: both children are girls<br />Let $B$: at least one is a girl<br /><br />Total ways = $^7C_2 = 21$<br />$A$: both girls: $^3C_2=3$<br />$B$: at least one is a girl = total - none is a girl (both boys)<br />Boys: $^4C_2 = 6$<br />So, $n(B) = 21 - 6 = 15$<br />$A \\cap B$: both are girls = 3<br /><br />$P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{3/21}{15/21} = \\frac{3}{15} = \\frac{1}{5}$<br />So, the required probability is $\\boxed{\\frac{1}{5}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{7}$",
+    "B": "$\\frac{1}{7}$",
+    "C": "$\\frac{1}{5}$",
+    "D": "$\\frac{3}{15}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:18:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

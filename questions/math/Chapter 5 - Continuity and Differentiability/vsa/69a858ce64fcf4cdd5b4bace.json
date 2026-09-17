@@ -1,0 +1,29 @@
+{
+  "id": "69a858ce64fcf4cdd5b4bace",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "VSA",
+  "question": "If $y + \\sin y = \\cos x$, prove that $\\dfrac{dy}{dx} = -\\dfrac{\\sin x}{1 + \\cos y}$.",
+  "answeroption": "D",
+  "explanation": "Differentiate both sides with respect to $x$:<br /><br />$\\frac{d}{dx}[y + \\sin y] = \\frac{d}{dx}[\\cos x]$<br /><br />$\\implies \\frac{dy}{dx} + \\cos y \\frac{dy}{dx} = -\\sin x$<br /><br />$\\implies \\frac{dy}{dx}(1 + \\cos y) = -\\sin x$<br /><br />$\\implies \\frac{dy}{dx} = -\\frac{\\sin x}{1 + \\cos y}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{dy}{dx}=\\dfrac{\\cos x}{1+\\sin y}$",
+    "B": "$\\dfrac{dy}{dx}=\\dfrac{\\sin x}{1+\\cos y}$",
+    "C": "$\\dfrac{dy}{dx}=-\\dfrac{\\cos x}{1+\\sin y}$",
+    "D": "$\\dfrac{dy}{dx}=-\\dfrac{\\sin x}{1+\\cos y}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:07:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

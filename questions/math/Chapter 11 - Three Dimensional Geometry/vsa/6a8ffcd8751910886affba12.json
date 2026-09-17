@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffcd8751910886affba12",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "VSA",
+  "question": "A plane passes through the three points $A(1,0,1)$, $B(2,1,0)$ and $C(0,1,2)$. Determine its equation.",
+  "answeroption": "D",
+  "explanation": "Step 1: Two vectors lying in the plane are $\\overrightarrow{AB}=(2-1,1-0,0-1)=(1,1,-1)$ and $\\overrightarrow{AC}=(0-1,1-0,2-1)=(-1,1,1)$. Step 2: A normal vector to the plane is obtained from their vector product. Thus, $$\\overrightarrow{AB}\\times\\overrightarrow{AC}=(2,0,2),$$ which is proportional to $(1,0,1)$. Step 3: Therefore, a normal vector to the required plane has direction ratios $(1,0,1)$. Step 4: Using point $A(1,0,1)$, the plane equation is $(x-1)+0(y-0)+(z-1)=0$. Step 5: Simplifying gives $$x+z-2=0.$$ Each of the three given points satisfies this equation, so it is the required plane.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x+y+z-2=0$",
+    "B": "$x-z=0$",
+    "C": "$x+z=0$",
+    "D": "$x+z-2=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

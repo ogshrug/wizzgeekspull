@@ -1,0 +1,31 @@
+{
+  "id": "6a8d2dbb550d28a069ec32e7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics teacher studies the function $f(x)=\\cos^{-1}\\left(\\frac{x-1}{2}\\right)$ using the principal range $[0,\\pi]$ of $\\cos^{-1}x$. The expression inside the inverse cosine must lie between $-1$ and $1$. The graph is obtained from the graph of $y=\\cos^{-1}x$ by a horizontal stretch and a translation. The teacher wants to identify the complete interval on which the graph exists, the corresponding output values, and the points at which the function attains important principal values.<br><br><b>(a)</b> Determine the domain of $f$.<br><br><b>(b)</b> Find the range of $f$.<br><br><b>(c)</b> Calculate the coordinates of the points corresponding to $f(x)=\\pi$, $f(x)=\\frac{\\pi}{2}$, and $f(x)=0$.<br><br><b>(d)</b> Explain whether the graph is increasing or decreasing on its domain.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For $\\cos^{-1}u$ to be defined, $-1\\leq u\\leq1$. Therefore, $$-1\\leq\\frac{x-1}{2}\\leq1$$ Multiplying by $2$ gives $-2\\leq x-1\\leq2$, and adding $1$ gives $-1\\leq x\\leq3$. Hence, the domain is $[-1,3]$.<br><br><b>(b)</b><br>As $x$ varies from $-1$ to $3$, the quantity $\\frac{x-1}{2}$ varies through the entire interval $[-1,1]$. Since the principal range of $\\cos^{-1}x$ is $[0,\\pi]$, the range of $f$ is $[0,\\pi]$.<br><br><b>(c)</b><br>If $f(x)=\\pi$, then $\\frac{x-1}{2}=\\cos\\pi=-1$, giving $x=-1$. If $f(x)=\\frac{\\pi}{2}$, then $\\frac{x-1}{2}=0$, giving $x=1$. If $f(x)=0$, then $\\frac{x-1}{2}=1$, giving $x=3$. The required points are $(-1,\\pi)$, $\\left(1,\\frac{\\pi}{2}\\right)$, and $(3,0)$.<br><br><b>(d)</b><br>The expression $\\frac{x-1}{2}$ increases as $x$ increases, while $\\cos^{-1}u$ decreases as $u$ increases. Therefore, $f$ is decreasing throughout $[-1,3]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain: $[-3,1]$<br><br>(b) Range: $[0,\\pi]$<br><br>(c) Points: $(-3,\\pi)$, $\\left(-1,\\dfrac{\\pi}{2}\\right)$, and $(1,0)$<br><br>(d) The graph is decreasing on its domain",
+    "B": "(a) Domain: $[-1,3]$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$<br><br>(c) Points: $(-1,-\\dfrac{\\pi}{2})$, $(1,0)$, and $\\left(3,\\dfrac{\\pi}{2}\\right)$<br><br>(d) The graph is increasing on its domain",
+    "C": "(a) Domain: $[-1,3]$<br><br>(b) Range: $[0,\\pi]$<br><br>(c) Points: $(-1,\\pi)$, $\\left(1,\\dfrac{\\pi}{2}\\right)$, and $(3,0)$<br><br>(d) The graph is decreasing on its domain",
+    "D": "(a) Domain: $\\mathbb{R}$<br><br>(b) Range: $[0,\\pi]$<br><br>(c) Points: $(1,\\pi)$, $\\left(2,\\dfrac{\\pi}{2}\\right)$, and $(3,0)$<br><br>(d) The graph is increasing on its domain"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

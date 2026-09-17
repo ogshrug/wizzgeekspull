@@ -1,0 +1,29 @@
+{
+  "id": "69a924e8575fa42e09444866",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A = \\sin^{-1}\\left(\\frac{3}{5}\\right) + \\sin^{-1}\\left(\\frac{4}{5}\\right)$. What is the value of $A$?",
+  "answeroption": "A",
+  "explanation": "Let $\\alpha = \\sin^{-1}\\left(\\frac{3}{5}\\right)$ and $\\beta = \\sin^{-1}\\left(\\frac{4}{5}\\right)$.<br /><br />Then $\\sin \\alpha = \\frac{3}{5}$ and $\\sin \\beta = \\frac{4}{5}$.<br /><br />Thus $\\cos \\alpha = \\sqrt{1-\\left(\\frac{3}{5}\\right)^2}=\\frac{4}{5}$ and $\\cos \\beta = \\sqrt{1-\\left(\\frac{4}{5}\\right)^2}=\\frac{3}{5}$.<br /><br />Using the identity $\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta$.<br /><br />Substituting values gives $\\sin(\\alpha+\\beta)=\\frac{3}{5}\\cdot\\frac{3}{5}+\\frac{4}{5}\\cdot\\frac{4}{5}=\\frac{9}{25}+\\frac{16}{25}=1$.<br /><br />Thus $\\alpha+\\beta = \\sin^{-1}(1) = \\frac{\\pi}{2}$.<br /><br />Hence the value of $A$ is $\\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{2}$",
+    "B": "$\\frac{\\pi}{3}$",
+    "C": "$\\frac{2\\pi}{3}$",
+    "D": "$\\pi$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:38:32 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

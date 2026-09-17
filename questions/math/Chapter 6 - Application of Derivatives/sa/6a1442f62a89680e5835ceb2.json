@@ -1,0 +1,24 @@
+{
+  "id": "6a1442f62a89680e5835ceb2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97c"
+  ],
+  "question_type": "SA",
+  "question": "Find the equation of the tangent to the curve $y(1+x^{2})=2-x$ where it crosses x-axis.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Curve crosses x-axis when $y = 0$. Substitute into $y(1+x^2) = 2 - x$: <br /> $0 = 2 - x \\Rightarrow x = 2$. <br /> So the point is $(2, 0)$. <br /><br /> **Step 2:** Differentiate $y(1+x^2) = 2 - x$ w.r.t. $x$ using product rule: <br /> $\\frac{dy}{dx}(1+x^2) + y(2x) = -1$. <br /><br /> **Step 3:** Substitute $(2, 0)$ into the differentiated equation: <br /> $\\frac{dy}{dx}(1 + 4) + 0 = -1 \\Rightarrow 5\\frac{dy}{dx} = -1 \\Rightarrow \\frac{dy}{dx} = -\\frac{1}{5}$. <br /> Slope $m = -\\frac{1}{5}$. <br /><br /> **Step 4:** Tangent equation at $(x_1, y_1)$: $y - y_1 = m(x - x_1)$: <br /> $y - 0 = -\\frac{1}{5}(x - 2)$. <br /><br /> **Step 5:** Simplify: <br /> $5y = -x + 2 \\Rightarrow x + 5y = 2$. <br /><br /> **Answer:** $x + 5y = 2$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

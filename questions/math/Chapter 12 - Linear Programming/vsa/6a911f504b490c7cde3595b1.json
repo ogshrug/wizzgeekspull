@@ -1,0 +1,30 @@
+{
+  "id": "6a911f504b490c7cde3595b1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "VSA",
+  "question": "The corner points of a feasible region include $(3,4)$ and $(0,5)$. For the objective function $Z=px+qy$, where $p,q>0$, the same maximum value is attained at both these points. Determine the relation between $p$ and $q$.",
+  "answeroption": "D",
+  "explanation": "Step 1: Since both given corner points produce the same maximum value, the value of the objective function must be equal at these points.<br>Step 2: At $(3,4)$, $Z=3p+4q$.<br>Step 3: At $(0,5)$, $Z=0p+5q=5q$.<br>Step 4: Equating the two values gives $3p+4q=5q$.<br>Step 5: Simplifying, $3p=q$. Therefore, $q=3p$.<br>Step 6: Thus, the required relation is $q=3p$, or equivalently $q:p=3:1$. Under this condition, the objective function takes the same value at both specified corner points, allowing both to be optimal solutions.",
+  "explanation_image": [],
+  "options": {
+    "A": "$q=2p$",
+    "B": "$p=3q$",
+    "C": "$q=4p$",
+    "D": "$q=3p$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a22b9e4864be73cfcf6d2df",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "SA",
+  "question": "A and B throw a die alternately till one of them gets a '6' and wins the game. Find their respective probabilities of wining, if A starts the game first.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The probability of rolling a '6' on a standard die is $p = \\frac{1}{6}$, and the probability of not rolling a '6' is $q = \\frac{5}{6}$.<br />**Step 2:** Since player A starts the game, A will win if a '6' is obtained on the 1st, 3rd, 5th, or subsequent odd-numbered throws.<br />**Step 3:** The overall probability of A winning is the sum of an infinite geometric series: $P(A) = p + q^2p + q^4p + \\dots$<br />**Step 4:** Use the sum formula for an infinite geometric progression, $S = \\frac{a}{1-r}$. Here, the first term $a = \\frac{1}{6}$ and the common ratio $r = (\\frac{5}{6})^2 = \\frac{25}{36}$.<br />**Step 5:** Evaluate the sum: $P(A) = \\frac{1/6}{1 - 25/36} = \\frac{1/6}{11/36} = \\frac{6}{11}$. The respective probability of player B winning is the complement: $P(B) = 1 - P(A) = 1 - \\frac{6}{11} = \\frac{5}{11}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

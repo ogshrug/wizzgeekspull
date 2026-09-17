@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9efd4b490c7cde35942c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "LA",
+  "question": "Consider the matrix $A=\\begin{bmatrix}a & 1 & 1\\\\1 & a & 1\\\\1 & 1 & a\\end{bmatrix}$.<br><br><b>(a)</b> Evaluate $|A|$ as a polynomial in $a$.<br><br><b>(b)</b> Factorise the polynomial obtained.<br><br><b>(c)</b> Determine all real values of $a$ for which $|A|=0$, and verify each value by substitution in the factorised form.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Expanding along the first row,<br>$$|A|=a\\begin{vmatrix}a & 1\\\\1 & a\\end{vmatrix}-\\begin{vmatrix}1 & 1\\\\1 & a\\end{vmatrix}+\\begin{vmatrix}1 & a\\\\1 & 1\\end{vmatrix}$$<br>$$|A|=a(a^2-1)-(a-1)+(1-a)$$<br>$$|A|=a^3-a-a+1+1-a$$<br>$$|A|=a^3-3a+2$$<br><br><b>(b)</b><br>Since $a=1$ is a zero, $(a-1)$ is a factor. Dividing and factorising further gives<br>$$a^3-3a+2=(a-1)(a^2+a-2)$$<br>$$a^3-3a+2=(a-1)^2(a+2)$$<br><br><b>(c)</b><br>For $|A|=0$,<br>$$(a-1)^2(a+2)=0$$<br>Therefore,<br>$$a=1\\quad\\text{or}\\quad a=-2$$<br>For $a=1$,<br>$$|A|=(1-1)^2(1+2)=0$$<br>For $a=-2$,<br>$$|A|=(-2-1)^2(-2+2)=0$$<br>Hence, the required real values are $a=1$ and $a=-2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=a^3-3a+2$<br>(b) $|A|=(a-1)^2(a+2)$<br>(c) $a=1$ or $a=-2$",
+    "B": "(a) $|A|=a^3+3a+2$<br>(b) $|A|=(a+1)^2(a+2)$<br>(c) $a=-1$ or $a=-2$",
+    "C": "(a) $|A|=a^3-3a-2$<br>(b) $|A|=(a+1)^2(a-2)$<br>(c) $a=-1$ or $a=2$",
+    "D": "(a) $|A|=a^3-3a+2$<br>(b) $|A|=(a-1)(a+1)(a-2)$<br>(c) $a=-1,1,2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

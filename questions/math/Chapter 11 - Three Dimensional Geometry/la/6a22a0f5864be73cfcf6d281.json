@@ -1,0 +1,28 @@
+{
+  "id": "6a22a0f5864be73cfcf6d281",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "Find the shortest distance between the lines $L_{1}$ & $L_{2}$ given below :<br />$L_{1}$: The line passing through (2, -1, 1) and parallel to $\\frac{x}{1}=\\frac{y}{1}=\\frac{z}{3}$<br />$L_{2}:\\vec{r}=\\hat{i}+(2\\mu+1)\\hat{j}-(\\mu+2)\\hat{k}.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To precisely calculate the shortest distance, we must first express both given lines strictly in standard vector form, $\\vec{r} = \\vec{a} + \\lambda \\vec{b}$. Let's construct $L_1$ first. It passes entirely through the point $(2, -1, 1)$, giving position vector $\\vec{a}_1 = 2\\hat{i} - \\hat{j} + \\hat{k}$. It is perfectly parallel to a line with direction ratios $(1, 1, 3)$, providing direction vector $\\vec{b}_1 = \\hat{i} + \\hat{j} + 3\\hat{k}$. Thus, $L_1: \\vec{r} = (2\\hat{i} - \\hat{j} + \\hat{k}) + \\lambda(\\hat{i} + \\hat{j} + 3\\hat{k})$.<br />**Step 2:** Now, let's explicitly reformat line $L_2$. The given equation is $\\vec{r} = \\hat{i} + (2\\mu+1)\\hat{j} - (\\mu+2)\\hat{k}$. Expanding and meticulously grouping the non-parametric and parametric terms gives $\\vec{r} = (\\hat{i} + \\hat{j} - 2\\hat{k}) + \\mu(2\\hat{j} - \\hat{k})$. This directly identifies its components: $\\vec{a}_2 = \\hat{i} + \\hat{j} - 2\\hat{k}$ and direction vector $\\vec{b}_2 = 0\\hat{i} + 2\\hat{j} - \\hat{k}$. Notice that $\\vec{b}_1$ and $\\vec{b}_2$ are clearly not proportional, confirming these are definitively skew lines.<br />**Step 3:** The standard mathematical formula for the absolute shortest distance between two skew lines is $d = \\left| \\frac{(\\vec{a}_2 - \\vec{a}_1) \\cdot (\\vec{b}_1 \\times \\vec{b}_2)}{|\\vec{b}_1 \\times \\vec{b}_2|} \\right|$. We first calculate the difference vector connecting the position points: $\\vec{a}_2 - \\vec{a}_1 = (1-2)\\hat{i} + (1 - (-1))\\hat{j} + (-2-1)\\hat{k} = -\\hat{i} + 2\\hat{j} - 3\\hat{k}$.<br />**Step 4:** Next, we must rigorously compute the cross product $\\vec{b}_1 \\times \\vec{b}_2$ to find the common normal direction. Using a determinant: $\\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 1 & 3 \\\\ 0 & 2 & -1 \\end{vmatrix}$. Expanding this exactly gives $\\hat{i}(-1 - 6) - \\hat{j}(-1 - 0) + \\hat{k}(2 - 0) = -7\\hat{i} + \\hat{j} + 2\\hat{k}$. We immediately calculate the magnitude of this vital cross product vector: $|\\vec{b}_1 \\times \\vec{b}_2| = \\sqrt{(-7)^2 + 1^2 + 2^2} = \\sqrt{49 + 1 + 4} = \\sqrt{54} = 3\\sqrt{6}$.<br />**Step 5:** Finally, we evaluate the critical dot product in the numerator: $(\\vec{a}_2 - \\vec{a}_1) \\cdot (\\vec{b}_1 \\times \\vec{b}_2) = (-\\hat{i} + 2\\hat{j} - 3\\hat{k}) \\cdot (-7\\hat{i} + \\hat{j} + 2\\hat{k})$. This rigorously calculates to $(-1)(-7) + (2)(1) + (-3)(2) = 7 + 2 - 6 = 3$. We plug all calculated components into the main distance formula: $d = \\left| \\frac{3}{3\\sqrt{6}} \\right| = \\frac{1}{\\sqrt{6}}$. To present the answer in standard mathematical form, rationalize the denominator to get $d = \\frac{\\sqrt{6}}{6}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

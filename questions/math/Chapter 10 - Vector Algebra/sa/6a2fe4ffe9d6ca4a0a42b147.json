@@ -1,0 +1,26 @@
+{
+  "id": "6a2fe4ffe9d6ca4a0a42b147",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "SA",
+  "question": "If $\\vec{a}$ and $\\vec{b}$ are two vectors of equal magnitude and $\\alpha$ is the angle between them, then prove that $$\\frac{|\\vec{a}+\\vec{b}|}{|\\vec{a}-\\vec{b}|}=cot(\\frac{\\alpha}{2})$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $|\\vec{a}| = |\\vec{b}| = x$. Use the properties of the dot product to expand $|\\vec{a}+\\vec{b}|^2 = |\\vec{a}|^2 + |\\vec{b}|^2 + 2\\vec{a}\\cdot\\vec{b} = x^2 + x^2 + 2x^2\\cos\\alpha = 2x^2(1+\\cos\\alpha)$.<br />**Step 2:** Apply the half-angle formula $1+\\cos\\alpha = 2\\cos^2(\\frac{\\alpha}{2})$, so $|\\vec{a}+\\vec{b}|^2 = 4x^2\\cos^2(\\frac{\\alpha}{2}) \\implies |\\vec{a}+\\vec{b}| = 2x\\cos(\\frac{\\alpha}{2})$.<br />**Step 3:** Similarly, expand $|\\vec{a}-\\vec{b}|^2 = |\\vec{a}|^2 + |\\vec{b}|^2 - 2\\vec{a}\\cdot\\vec{b} = 2x^2(1-\\cos\\alpha)$. Apply $1-\\cos\\alpha = 2\\sin^2(\\frac{\\alpha}{2})$, resulting in $|\\vec{a}-\\vec{b}| = 2x\\sin(\\frac{\\alpha}{2})$.<br />**Step 4:** Divide the two magnitudes to prove the relation: $\\frac{|\\vec{a}+\\vec{b}|}{|\\vec{a}-\\vec{b}|} = \\frac{2x\\cos(\\alpha/2)}{2x\\sin(\\alpha/2)} = \\cot(\\frac{\\alpha}{2})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

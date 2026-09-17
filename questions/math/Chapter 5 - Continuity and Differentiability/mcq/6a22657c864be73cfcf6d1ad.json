@@ -1,0 +1,34 @@
+{
+  "id": "6a22657c864be73cfcf6d1ad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "MCQ",
+  "question": "If $y=a \\cos(\\log x)+b \\sin(\\log x)$, then $x^{2}y_{2}+xy_{1}$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Find the first derivative, $y_1 = \\frac{dy}{dx}$, using the chain rule: $y_1 = -a \\sin(\\log x) \\cdot \\frac{1}{x} + b \\cos(\\log x) \\cdot \\frac{1}{x}$.<br />**Step 2:** Multiply both sides by $x$ to simplify: $xy_1 = -a \\sin(\\log x) + b \\cos(\\log x)$.<br />**Step 3:** Differentiate the entire equation again with respect to $x$. Use the product rule on the left side: $x y_2 + y_1 \\cdot 1 = -a \\cos(\\log x) \\cdot \\frac{1}{x} - b \\sin(\\log x) \\cdot \\frac{1}{x}$.<br />**Step 4:** Multiply the entire equation by $x$ once more: $x^2 y_2 + xy_1 = -(a \\cos(\\log x) + b \\sin(\\log x))$.<br />**Step 5:** Recognize that the term inside the parenthesis is the original function $y$. Thus, $x^2 y_2 + xy_1 = -y$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cot(\\log x)$",
+    "B": "$y$",
+    "C": "$-y$",
+    "D": "$\\tan(\\log x)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a903002751910886affba3f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "LA",
+  "question": "A fair die is thrown. If one of the numbers $1,2,3,4$ appears, a fair coin is tossed; if $5$ or $6$ appears, a second coin for which the probability of a head is $\\frac{3}{4}$ is tossed. Determine the probability that the coin finally tossed shows a head, and hence obtain the probability that it shows a tail.",
+  "answeroption": "B",
+  "explanation": "<b>Given Information</b><br>Let $E_1$ be the event that the die shows one of $1,2,3,4$, and let $E_2$ be the event that it shows $5$ or $6$. Then $E_1$ and $E_2$ form a partition of the sample space and<br>$$P(E_1)=\\frac{4}{6}=\\frac{2}{3},\\qquad P(E_2)=\\frac{2}{6}=\\frac{1}{3}.$$<br>Let $H$ denote the event that the coin finally tossed shows a head. From the given information,<br>$$P(H|E_1)=\\frac{1}{2},\\qquad P(H|E_2)=\\frac{3}{4}.$$<br><br><b>Applying Total Probability</b><br>By the theorem of total probability,<br>$$P(H)=P(E_1)P(H|E_1)+P(E_2)P(H|E_2).$$<br>Substituting the values,<br>$$P(H)=\\frac{2}{3}\\times\\frac{1}{2}+\\frac{1}{3}\\times\\frac{3}{4}=\\frac{1}{3}+\\frac{1}{4}=\\frac{7}{12}.$$<br>The events head and tail are complementary. Therefore,<br>$$P(\\text{tail})=1-P(H)=1-\\frac{7}{12}=\\frac{5}{12}.$$<br><br><b>Final Result</b><br>The probability of a head is $\\frac{7}{12}$ and the probability of a tail is $\\frac{5}{12}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$P(H)=\\frac{5}{12}$ and $P(T)=\\frac{7}{12}$",
+    "B": "$P(H)=\\frac{7}{12}$ and $P(T)=\\frac{5}{12}$",
+    "C": "$P(H)=\\frac{2}{3}$ and $P(T)=\\frac{1}{3}$",
+    "D": "$P(H)=\\frac{3}{4}$ and $P(T)=\\frac{1}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

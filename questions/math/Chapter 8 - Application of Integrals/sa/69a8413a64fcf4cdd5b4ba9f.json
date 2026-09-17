@@ -1,0 +1,33 @@
+{
+  "id": "69a8413a64fcf4cdd5b4ba9f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995",
+    "6a13eb348c819562f933f99a",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "SA",
+  "question": "Find the area enclosed by the region bounded by $y^2 = x$, $x=1$, $x=4$, and the x-axis.",
+  "answeroption": "A",
+  "explanation": "First, express $y$ in terms of $x$: $y=\\sqrt{x}$.<br /><br />The area between $x=1$ to $x=4$ above x-axis is $\\int_{1}^{4} \\sqrt{x} \\, dx$.<br /><br />$=\\left[\\frac{2}{3} x^{3/2}\\right]_{1}^{4}$.<br /><br />At $x=4$: $\\frac{2}{3} \\times 8 = \\frac{16}{3}$.<br /><br />At $x=1$: $\\frac{2}{3} \\times 1 = \\frac{2}{3}$.<br /><br />Difference: $\\frac{16}{3} - \\frac{2}{3} = \\frac{14}{3}$.<br /><br />Thus, required area is $\\dfrac{14}{3}$ square units.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69a8413a64fcf4cdd5b4ba9f/1778585011-0.jpeg?t=1778585011469"
+  ],
+  "options": {
+    "A": "$\\frac{14}{3}$ square units",
+    "B": "$\\frac{16}{3}$ square units",
+    "C": "$\\frac{8}{3}$ square units",
+    "D": "$4$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 14:27:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:30:50 GMT"
+}

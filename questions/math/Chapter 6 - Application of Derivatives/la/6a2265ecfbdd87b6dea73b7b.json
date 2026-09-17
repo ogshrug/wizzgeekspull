@@ -1,0 +1,28 @@
+{
+  "id": "6a2265ecfbdd87b6dea73b7b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "LA",
+  "question": "The relation between the height of the plant (y cm) with respect to exposure to sunlight is governed by the equation $y=4x-\\frac{1}{2}x^{2},$ where x is the number of days exposed to sunlight. <br>(i) Find the rate of growth of the plant with respect to sunlight. <br>(ii) In how many days will the plant attain its maximum height ? What is the maximum height ?",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> The growth rate of the plant with respect to sunlight is defined by the first derivative of height $y$ with respect to the number of days $x$: $\\frac{dy}{dx} = \\frac{d}{dx}\\left(4x - \\frac{1}{2}x^2\\right) = 4 - x$. This answers part (i).<br /><br /><b>Step 2</b> To find when the plant reaches its maximum height for part (ii), we find the critical points by setting the first derivative equal to zero: $4 - x = 0 \\implies x = 4$ days.<br /><br /><b>Step 3</b> To confirm that this critical point represents a maximum height, we calculate the second derivative: $\\frac{d^2y}{dx^2} = \\frac{d}{dx}(4 - x) = -1$.<br /><br /><b>Step 4</b> Since the second derivative is strictly negative ($-1 < 0$), the function satisfies the Second Derivative Test for a local maximum at $x = 4$. Thus, the plant reaches its maximum height after exactly 4 days.<br /><br /><b>Step 5</b> Calculate the maximum height by substituting $x = 4$ back into the original height equation: $y_{\\text{max}} = 4(4) - \\frac{1}{2}(4)^2 = 16 - \\frac{1}{2}(16) = 16 - 8 = 8\\text{ cm}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

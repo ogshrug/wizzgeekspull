@@ -1,0 +1,32 @@
+{
+  "id": "6a22a739864be73cfcf6d299",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of $(\\hat{i} \\times \\hat{j}) \\cdot \\hat{j} + (\\hat{j} \\times \\hat{i}) \\cdot \\hat{k}$ is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Evaluate the cross products inside the parentheses using the standard right-hand rule for basis vectors.<br />**Step 2:** We know that $\\hat{i} \\times \\hat{j} = \\hat{k}$.<br />**Step 3:** We also know that the cross product is anti-commutative, so $\\hat{j} \\times \\hat{i} = -\\hat{k}$.<br />**Step 4:** Substitute these results back into the original expression: $(\\hat{k}) \\cdot \\hat{j} + (-\\hat{k}) \\cdot \\hat{k}$.<br />**Step 5:** Evaluate the dot products. Since orthogonal vectors have a zero dot product, $\\hat{k} \\cdot \\hat{j} = 0$. The dot product of a vector with itself is its magnitude squared, so $\\hat{k} \\cdot \\hat{k} = 1$. The expression becomes $0 + (-1)(1) = -1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "2",
+    "B": "0",
+    "C": "1",
+    "D": "-1"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

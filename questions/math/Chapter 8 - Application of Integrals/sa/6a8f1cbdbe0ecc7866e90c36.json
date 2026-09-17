@@ -1,0 +1,29 @@
+{
+  "id": "6a8f1cbdbe0ecc7866e90c36",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "SA",
+  "question": "For $a>0$, the curve $y=a(1-x)^2$ and the coordinate axes enclose an area of $3$ square units in the first quadrant. Determine $a$ and hence state the intercepts of the curve on the positive axes.",
+  "answeroption": "C",
+  "explanation": "Step 1: Determining the intercepts in terms of $a$ At $x=0$, $y=a$, so the y-intercept is $(0,a)$. The curve meets the x-axis when $(1-x)^2=0$, giving the x-intercept $(1,0)$. Step 2: Forming the area integral For $0\\leq x\\leq1$, the curve is non-negative. Therefore, $A=a\\int_0^1(1-x)^2dx$. Step 3: Evaluating in terms of $a$ $A=a\\left[x-x^2+\\frac{x^3}{3}\\right]_0^1=\\frac{a}{3}$. Step 4: Applying the specified area $\\frac{a}{3}=3\\Rightarrow a=9$. Thus, the positive intercepts are $(1,0)$ and $(0,9)$. Final Answer The required value is $a=9$, with intercepts $(1,0)$ and $(0,9)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=3$; intercepts $(1,0)$ and $(0,3)$",
+    "B": "$a=9$; intercepts $(3,0)$ and $(0,9)$",
+    "C": "$a=9$; intercepts $(1,0)$ and $(0,9)$",
+    "D": "$a=6$; intercepts $(1,0)$ and $(0,6)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

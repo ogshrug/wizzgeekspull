@@ -1,0 +1,31 @@
+{
+  "id": "6a901b09be0ecc7866e90ca4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d0",
+    "6a13e7cbd837c8c7efa6b8d4",
+    "6a13e7cad837c8c7efa6b8d1"
+  ],
+  "question_type": "LA",
+  "question": "Examine the lines $\\vec{r}=(\\hat{i}+\\hat{k})+\\lambda(\\hat{i}+\\hat{j})$ and $\\vec{r}=(\\hat{j}+2\\hat{k})+\\mu(\\hat{i}+\\hat{k})$. Establish that they are skew by applying the condition for coplanarity of two lines, and hence determine the acute angle between them.",
+  "answeroption": "A",
+  "explanation": "<b>Coplanarity Test</b><br>For the first line, $\\vec{a_1}=\\hat{i}+\\hat{k}$ and $\\vec{b_1}=\\hat{i}+\\hat{j}$. For the second line, $\\vec{a_2}=\\hat{j}+2\\hat{k}$ and $\\vec{b_2}=\\hat{i}+\\hat{k}$. Two lines are coplanar if<br>$$\\left(\\vec{a_2}-\\vec{a_1}\\right)\\cdot\\left(\\vec{b_1}\\times\\vec{b_2}\\right)=0$$<br>Here,<br>$$\\vec{a_2}-\\vec{a_1}=-\\hat{i}+\\hat{j}+\\hat{k}$$<br>and<br>$$\\vec{b_1}\\times\\vec{b_2}=\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&1&0\\\\1&0&1\\end{vmatrix}=\\hat{i}-\\hat{j}-\\hat{k}$$<br>Therefore,<br>$$(-\\hat{i}+\\hat{j}+\\hat{k})\\cdot(\\hat{i}-\\hat{j}-\\hat{k})=-1-1-1=-3\\ne0$$<br>Hence, the two lines are not coplanar. Their direction vectors are also not proportional, so the lines are skew.<br><br><b>Angle Between the Lines</b><br>If $\\theta$ is the acute angle between the lines, then<br>$$\\cos\\theta=\\frac{|\\vec{b_1}\\cdot\\vec{b_2}|}{|\\vec{b_1}||\\vec{b_2}|}$$<br>Now,<br>$$\\vec{b_1}\\cdot\\vec{b_2}=1(1)+1(0)+0(1)=1$$<br>and<br>$$|\\vec{b_1}|=\\sqrt{2},\\quad |\\vec{b_2}|=\\sqrt{2}$$<br>Thus,<br>$$\\cos\\theta=\\frac{1}{2}$$<br>Therefore,<br>$$\\theta=60^\\circ$$<br><br><b>Final Result</b><br>The two lines are skew, and the acute angle between them is $60^\\circ$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The scalar triple product is $-3\\neq0$, so the lines are skew; their acute angle is $60^\\circ$.",
+    "B": "The scalar triple product is $0$, so the lines are coplanar; their acute angle is $60^\\circ$.",
+    "C": "The lines are skew and perpendicular, so the acute angle is $90^\\circ$.",
+    "D": "The lines are parallel and the acute angle is $0^\\circ$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

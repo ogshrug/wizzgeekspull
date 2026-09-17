@@ -1,0 +1,30 @@
+{
+  "id": "69aa751a2a66c0f894c1a9fe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c65fc040512f018fa94d63"
+  ],
+  "question_type": "LA",
+  "question": "Suppose $f(x) = e^x$ and let $A = \\begin{bmatrix} 2x & e^x \\\\ 1 & x^2 \\end{bmatrix}$. Let $B$ be a matrix such that $AB = I$.\n\n(a) Find the determinant $|A|$ in terms of $x$.\n\n(b) For which values of $x$ is $A$ invertible?\n\n(c) For $x = 1$, construct $B$ explicitly.\n\n(d) Evaluate $\\dfrac{d}{dx}|A|$ at $x = 1$ and interpret.",
+  "answeroption": "D",
+  "explanation": "**Concepts Tested:** Matrices, Determinants, Differentiability, Analysis<br /><br />(a) **Determinant:**<br /><br />$|A| = 2x \\cdot x^2 - e^x \\cdot 1 = 2x^3 - e^x$<br /><br />(b) **Invertibility:**<br /><br />$A$ is invertible iff $|A| \\neq 0 \\implies 2x^3 \\neq e^x$<br /><br />(c) **For $x=1$:**<br /><br />$A = \\begin{bmatrix} 2 & e \\\\ 1 & 1 \\end{bmatrix}$<br /><br />$|A| = 2 \\times 1 - e \\times 1 = 2 - e$<br /><br />The inverse is $A^{-1} = \\frac{1}{|A|} \\begin{bmatrix} 1 & -e \\\\ -1 & 2 \\end{bmatrix}$<br /><br />So $B = \\frac{1}{2-e} \\begin{bmatrix} 1 & -e \\\\ -1 & 2 \\end{bmatrix}$<br /><br />(d) **$\\frac{d}{dx} |A|$ at $x=1$:**<br /><br />$|A| = 2x^3 - e^x$<br /><br />$\\frac{d}{dx}|A| = 6x^2 - e^x$<br /><br />At $x=1$: $6(1)^2 - e^1 = 6 - e$<br /><br />**Interpretation:** The determinant is increasing for $x < \\ln 6$, decreasing for $x > \\ln 6$: the rate of change at $x=1$ is positive if $6>e$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=2x^2-e^x$<br />(b) $A$ is invertible when $2x^2\\ne e^x$<br />(c) $B=\\frac{1}{2-e}\\begin{bmatrix}1&e\\\\1&2\\end{bmatrix}$<br />(d) $\\frac{d}{dx}|A|\\big|_{x=1}=4-e$",
+    "B": "(a) $|A|=2x^3+e^x$<br />(b) $A$ is invertible for all real $x$<br />(c) $B=\\frac{1}{2+e}\\begin{bmatrix}1&-e\\\\-1&2\\end{bmatrix}$<br />(d) $\\frac{d}{dx}|A|\\big|_{x=1}=6+e$",
+    "C": "(a) $|A|=x^3-2e^x$<br />(b) $A$ is invertible when $x^3\\ne2e^x$<br />(c) $B=\\frac{1}{1-2e}\\begin{bmatrix}2&-e\\\\-1&1\\end{bmatrix}$<br />(d) $\\frac{d}{dx}|A|\\big|_{x=1}=3-2e$",
+    "D": "(a) $|A|=2x^3-e^x$<br />(b) $A$ is invertible when $2x^3\\ne e^x$<br />(c) $B=\\frac{1}{2-e}\\begin{bmatrix}1&-e\\\\-1&2\\end{bmatrix}$<br />(d) $\\frac{d}{dx}|A|\\big|_{x=1}=6-e$, showing the determinant is increasing at $x=1$ since $6>e$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:32:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

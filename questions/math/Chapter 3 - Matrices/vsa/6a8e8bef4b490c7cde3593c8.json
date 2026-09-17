@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8bef4b490c7cde3593c8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57"
+  ],
+  "question_type": "VSA",
+  "question": "If $A=\\begin{bmatrix}3&2x-1\\\\x+5&4\\end{bmatrix}$ is a symmetric matrix, find $x$.",
+  "answeroption": "D",
+  "explanation": "Step 1: For a symmetric matrix, the transpose is equal to the matrix itself, that is, $A^T=A$.<br>Step 2: Hence, the elements situated symmetrically about the principal diagonal must be equal.<br>Step 3: In the given matrix, this requires $a_{12}=a_{21}$. Therefore, $$2x-1=x+5.$$<br>Step 4: Subtracting $x$ from both sides gives $x-1=5$, and hence $x=6$.<br>Step 5: For $x=6$, both off-diagonal elements become $11$, so the matrix satisfies the required symmetric condition. Therefore, the required value is $x=6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4$",
+    "B": "$5$",
+    "C": "$7$",
+    "D": "$6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

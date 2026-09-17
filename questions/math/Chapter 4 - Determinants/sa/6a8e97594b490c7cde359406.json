@@ -1,0 +1,29 @@
+{
+  "id": "6a8e97594b490c7cde359406",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "SA",
+  "question": "Find the inverse of $A=\\begin{bmatrix}1&1&0\\\\0&1&1\\\\0&0&1\\end{bmatrix}$ and verify the result by matrix multiplication.",
+  "answeroption": "B",
+  "explanation": "<b>Determinant and invertibility</b><br>The matrix is upper triangular, so $$|A|=(1)(1)(1)=1\\ne0$$ Therefore, its inverse exists.<br><b>Proposed inverse</b><br>Using the inverse relation, the inverse is obtained as $$A^{-1}=\\begin{bmatrix}1&-1&1\\\\0&1&-1\\\\0&0&1\\end{bmatrix}$$<br><b>Verification by multiplication</b><br>Multiplying the matrices, $$AA^{-1}=\\begin{bmatrix}1&1&0\\\\0&1&1\\\\0&0&1\\end{bmatrix}\\begin{bmatrix}1&-1&1\\\\0&1&-1\\\\0&0&1\\end{bmatrix}=\\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}$$<br><b>Conclusion</b><br>Since $AA^{-1}=I$, the stated inverse is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^{-1}=\\begin{bmatrix}1&1&1\\\\0&1&1\\\\0&0&1\\end{bmatrix}$",
+    "B": "$A^{-1}=\\begin{bmatrix}1&-1&1\\\\0&1&-1\\\\0&0&1\\end{bmatrix}$",
+    "C": "$A^{-1}=\\begin{bmatrix}1&-1&0\\\\0&1&-1\\\\0&0&1\\end{bmatrix}$",
+    "D": "$A^{-1}=\\begin{bmatrix}1&0&1\\\\0&1&0\\\\0&0&1\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

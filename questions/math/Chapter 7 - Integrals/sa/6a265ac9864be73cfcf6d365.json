@@ -1,0 +1,28 @@
+{
+  "id": "6a265ac9864be73cfcf6d365",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: <br />$$\\int_{1}^{4}\\{|x|+|3-x|\\}dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given definite integral is $\\int_{1}^{4}\\{|x|+|3-x|\\}dx$. First, look at the behavior of each absolute value term over the integration interval $[1, 4]$. For the first term $|x|$, since $x$ is strictly positive for all values between $1$ and $4$, it simplifies directly to $|x| = x$. For the second term $|3-x|$, the expression inside changes sign at the critical point $x = 3$. Therefore, we must split the full integration interval into two sub-intervals: $[1, 3]$ and $[3, 4]$.<br />**Step 2:** Define the piecewise behavior of the second term over these sub-intervals. For $x \\in [1, 3]$, $(3-x) \\ge 0$, so $|3-x| = 3-x$. Combining terms, the full integrand becomes $x + (3-x) = 3$. For $x \\in [3, 4]$, $(3-x) \\le 0$, so $|3-x| = -(3-x) = x-3$. Combining terms, the full integrand becomes $x + (x-3) = 2x-3$.<br />**Step 3:** Set up and evaluate the separate definite integrals over their respective sub-intervals: $\\int_{1}^{3} 3 \\, dx + \\int_{3}^{4} (2x-3) \\, dx$. Integrating the components gives: $[3x]_{1}^{3} + [x^2 - 3x]_{3}^{4}$. Substitute the boundaries into each part. For the first part: $3(3) - 3(1) = 9 - 3 = 6$. For the second part: $(4^2 - 3(4)) - (3^2 - 3(3)) = (16 - 12) - (9 - 9) = 4 - 0 = 4$. Summing the two evaluated values together gives the final result: $6 + 4 = 10$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1",
+    "2022-4-2",
+    "2022-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8ec733751910886affb9a6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d81",
+    "69c6610140512f018fa94d83",
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "LA",
+  "question": "Using logarithmic differentiation, find and simplify $\\frac{dy}{dx}$ when $$y=(x^2+1)^{\\log x},\\quad x>0.$$",
+  "answeroption": "A",
+  "explanation": "<b>Applying Logarithmic Differentiation</b><br>Since $x>0$ and $x^2+1>0$, the given function is positive and logarithms may be taken. From $$y=(x^2+1)^{\\log x},$$ taking logarithm on both sides gives $$\\log y=\\log x\\,\\log(x^2+1).$$<br><br>Differentiate both sides with respect to $x$. The left-hand side gives $$\\frac{1}{y}\\frac{dy}{dx}.$$ Differentiating the product on the right-hand side, $$\\frac{1}{y}\\frac{dy}{dx}=\\frac{1}{x}\\log(x^2+1)+\\log x\\left(\\frac{2x}{x^2+1}\\right).$$<br><br><b>Simplification</b><br>Multiplying throughout by $y$, $$\\frac{dy}{dx}=y\\left[\\frac{\\log(x^2+1)}{x}+\\frac{2x\\log x}{x^2+1}\\right].$$ Substituting the original value of $y$, $$\\frac{dy}{dx}=(x^2+1)^{\\log x}\\left[\\frac{\\log(x^2+1)}{x}+\\frac{2x\\log x}{x^2+1}\\right].$$<br><br><b>Final Result</b><br>Hence, for $x>0$, $$\\frac{dy}{dx}=(x^2+1)^{\\log x}\\left[\\frac{\\log(x^2+1)}{x}+\\frac{2x\\log x}{x^2+1}\\right].$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=(x^2+1)^{\\log x}\\left[\\frac{\\log(x^2+1)}{x}+\\frac{2x\\log x}{x^2+1}\\right]$",
+    "B": "$\\frac{dy}{dx}=(x^2+1)^{\\log x}\\left[\\frac{\\log(x^2+1)}{x}-\\frac{2x\\log x}{x^2+1}\\right]$",
+    "C": "$\\frac{dy}{dx}=(x^2+1)^{\\log x}\\left[\\log(x^2+1)+\\frac{2x}{x^2+1}\\right]$",
+    "D": "$\\frac{dy}{dx}=(x^2+1)^{\\log x-1}\\left[\\frac{\\log(x^2+1)}{x}+\\frac{2x\\log x}{x^2+1}\\right]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

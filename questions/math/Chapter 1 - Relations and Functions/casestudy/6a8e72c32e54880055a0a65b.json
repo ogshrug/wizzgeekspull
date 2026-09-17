@@ -1,0 +1,32 @@
+{
+  "id": "6a8e72c32e54880055a0a65b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A classroom investigation uses the set $X=\\{-3,-2,-1,0,1,2,3\\}$ and the function $f:X\\to\\mathbb{R}$ defined by $f(x)=x^2$. A relation $R$ is introduced on $X$ by declaring $aRb$ whenever $f(a)=f(b)$. Thus, two elements are related when they produce the same output under the function. The students examine the groups formed by this rule and then verify the properties required for an equivalence relation. They are particularly interested in how positive and negative integers having the same square are grouped together.<br><br><b>(a)</b> Find all elements of $X$ that are related to $2$.<br><br><b>(b)</b> Verify that $R$ is reflexive.<br><br><b>(c)</b> Verify that $R$ is symmetric.<br><br><b>(d)</b> Show that $R$ is transitive, conclude that it is an equivalence relation, and write all distinct equivalence classes in $X$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>We have $f(2)=2^2=4$. An element $x\\in X$ is related to $2$ when $f(x)=4$, that is, when $x^2=4$. The elements of $X$ satisfying this are $x=2$ and $x=-2$. Therefore, the elements related to $2$ are $\\{-2,2\\}$.<br><br><b>(b)</b><br>For every $a\\in X$, $f(a)=f(a)$. Therefore, $aRa$ for every $a\\in X$. Hence, $R$ is reflexive.<br><br><b>(c)</b><br>Suppose $aRb$. Then $f(a)=f(b)$. By symmetry of equality, $f(b)=f(a)$. Therefore, $bRa$. Hence, $R$ is symmetric.<br><br><b>(d)</b><br>Suppose $aRb$ and $bRc$. Then $f(a)=f(b)$ and $f(b)=f(c)$. Therefore, $f(a)=f(c)$, so $aRc$. Hence, $R$ is transitive. Since $R$ is reflexive, symmetric and transitive, it is an equivalence relation. The elements having the same square form the equivalence classes. Thus, the distinct equivalence classes are $\\{0\\}$, $\\{-1,1\\}$, $\\{-2,2\\}$ and $\\{-3,3\\}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Only $2$ is related to $2$; $R$ is reflexive and symmetric but not transitive, and its distinct classes are $\\{-3\\},\\{-2\\},\\{-1\\},\\{0\\},\\{1\\},\\{2\\},\\{3\\}$.",
+    "B": "The elements related to $2$ are $\\{-2,0,2\\}$; $R$ is symmetric and transitive but not reflexive, so it is not an equivalence relation.",
+    "C": "The elements related to $2$ are $\\{-2,2\\}$; $R$ is reflexive, symmetric and transitive, and its distinct classes are $\\{0\\}$, $\\{-1,1\\}$, $\\{-2,2\\}$ and $\\{-3,3\\}$.",
+    "D": "The elements related to $2$ are $\\{2,3\\}$; $R$ is reflexive and transitive but not symmetric, and its distinct classes are $\\{-3,-2,-1\\}$, $\\{0\\}$ and $\\{1,2,3\\}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

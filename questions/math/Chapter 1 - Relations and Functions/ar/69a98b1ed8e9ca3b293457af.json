@@ -1,0 +1,29 @@
+{
+  "id": "69a98b1ed8e9ca3b293457af",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): The relation $R$ on $\\mathbb{Z}$ defined by $aRb \\Leftrightarrow a-b \\in \\mathbb{Q}$ is an equivalence relation.<br /><br />Reason (R): For all $a, b \\in \\mathbb{Z}$, $a-b$ is always rational.",
+  "answeroption": "A",
+  "explanation": "Check Assertion (A): The relation $R$ on $\\mathbb{Z}$ is defined by $aRb \\Leftrightarrow a-b \\in \\mathbb{Q}$.<br /><br />Reflexive: $a-a = 0 \\in \\mathbb{Q}$, so the relation is reflexive.<br /><br />Symmetric: If $a-b \\in \\mathbb{Q}$ then $b-a = -(a-b) \\in \\mathbb{Q}$, so it is symmetric.<br /><br />Transitive: If $a-b \\in \\mathbb{Q}$ and $b-c \\in \\mathbb{Q}$ then $a-c = (a-b) + (b-c) \\in \\mathbb{Q}$, so it is transitive.<br /><br />Thus the Assertion is true.<br /><br />Check Reason (R): Since $\\mathbb{Z} \\subset \\mathbb{Q}$, the difference of two integers is always rational.<br /><br />Therefore the Reason is also true and correctly explains the Assertion.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:54:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

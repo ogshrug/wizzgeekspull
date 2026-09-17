@@ -1,0 +1,30 @@
+{
+  "id": "6a8d7301883bbce68009f8da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Prove that $$2\\tan^{-1}\\left(\\frac{1}{2}\\right)=\\sin^{-1}\\left(\\frac{4}{5}\\right).$$",
+  "answeroption": "D",
+  "explanation": "<b>Assignment of the inverse tangent angle</b><br>Let $$\\theta=\\tan^{-1}\\left(\\frac{1}{2}\\right).$$ Then $\\tan\\theta=\\frac{1}{2}$ and $0<\\theta<\\frac{\\pi}{4}$. Therefore, $0<2\\theta<\\frac{\\pi}{2}$.<br><br><b>Double-angle value of sine</b><br>Using $$\\sin2\\theta=\\frac{2\\tan\\theta}{1+\\tan^2\\theta},$$ we obtain $$\\sin2\\theta=\\frac{2\\times\\frac{1}{2}}{1+\\frac{1}{4}}=\\frac{1}{\\frac{5}{4}}=\\frac{4}{5}.$$<br><br><b>Principal range verification</b><br>Since $2\\theta\\in\\left(0,\\frac{\\pi}{2}\\right)$, it lies within the principal value range of $\\sin^{-1}x$. Hence, $$2\\theta=\\sin^{-1}\\left(\\frac{4}{5}\\right).$$<br><br><b>Final relation</b><br>Substituting $\\theta=\\tan^{-1}\\left(\\frac{1}{2}\\right)$ gives $$2\\tan^{-1}\\left(\\frac{1}{2}\\right)=\\sin^{-1}\\left(\\frac{4}{5}\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sin^{-1}\\left(\\frac{3}{5}\\right)$",
+    "B": "$\\cos^{-1}\\left(\\frac{4}{5}\\right)$",
+    "C": "$\\tan^{-1}\\left(\\frac{4}{5}\\right)$",
+    "D": "$\\sin^{-1}\\left(\\frac{4}{5}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

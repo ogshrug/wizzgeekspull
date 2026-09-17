@@ -1,0 +1,29 @@
+{
+  "id": "69a978ff6638848124d7c939",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation $\\frac{dy}{dx} = e^x (y + 2)$, given $y(0) = 1$.",
+  "answeroption": "B",
+  "explanation": "Given: $dy/dx = e^x (y+2) \\implies dy/dx - e^x y = 2 e^x$<br /><br />Integrating factor (IF) = $e^{-\\int e^x dx} = e^{-e^x}$<br /><br />Multiply through: $d/dx[y e^{-e^x}] = 2 e^x e^{-e^x}$<br /><br />Substitute $u = e^x \\implies du = e^x dx$, $\\int 2 e^x e^{-e^x} dx = 2 \\int e^{-u} du = -2 e^{-u} = -2 e^{-e^x}$<br /><br />Thus: $y e^{-e^x} = -2 e^{-e^x} + C \\implies y = -2 + C e^{e^x}$<br /><br />Apply $x=0, y=1$: $1 = -2 + C e \\implies C = 3/e$<br /><br />Final solution: $y = -2 + (3/e) e^{e^x}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=2+\\frac{3}{e}e^{e^x}$",
+    "B": "$y=-2+\\frac{3}{e}e^{e^x}$",
+    "C": "$y=-2+3e^{e^x}$",
+    "D": "$y=-2+\\frac{1}{e}e^{e^x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:37:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

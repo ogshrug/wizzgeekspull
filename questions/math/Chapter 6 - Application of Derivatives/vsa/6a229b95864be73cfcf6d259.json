@@ -1,0 +1,29 @@
+{
+  "id": "6a229b95864be73cfcf6d259",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "VSA",
+  "question": "If M and m denote the local maximum and local minimum values of the function $f(x)=x+\\frac{1}{x}(x\\ne0)$ respectively, find the value of $(M-m)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find the first derivative $f'(x)$ to locate critical points. The function is $f(x) = x + x^{-1}$, so $f'(x) = 1 - x^{-2} = 1 - \\frac{1}{x^2}$.<br />**Step 2:** Set the first derivative to zero to find the critical points. $1 - \\frac{1}{x^2} = 0 \\Rightarrow \\frac{1}{x^2} = 1 \\Rightarrow x^2 = 1$. The critical points are $x = 1$ and $x = -1$.<br />**Step 3:** Use the second derivative test to classify these points. $f''(x) = \\frac{d}{dx}(1 - x^{-2}) = 2x^{-3} = \\frac{2}{x^3}$.<br />**Step 4:** Evaluate $f''(x)$ at the critical points. At $x = 1$, $f''(1) = 2 > 0$, so $x=1$ is a point of local minimum. The local minimum value is $m = f(1) = 1 + \\frac{1}{1} = 2$. At $x = -1$, $f''(-1) = -2 < 0$, so $x=-1$ is a point of local maximum. The local maximum value is $M = f(-1) = -1 + \\frac{1}{-1} = -2$.<br />**Step 5:** We need to find the value of $(M - m)$. Substitute the calculated values: $(-2) - (2) = -4$. The final evaluated value is $-4$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

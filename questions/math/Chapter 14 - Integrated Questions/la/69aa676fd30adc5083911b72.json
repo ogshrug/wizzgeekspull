@@ -1,0 +1,30 @@
+{
+  "id": "69aa676fd30adc5083911b72",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = x^3$, $g(x) = \\sin^{-1}(x)$.\n\n(a) Show that $f \\circ g$ is differentiable in $(-1,1)$.\n\n(b) Find $\\frac{d}{dx}(f \\circ g)(x)$.\n\n(c) Determine the value of $\\frac{d}{dx}(f \\circ g)(x)$ at $x=0$.\n\n(d) For $g(A)$ where $A=\\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}$, define $g$ entry-wise, and find $g(A)$.\n\n(e) Is $g(A)$ diagonalizable?",
+  "answeroption": "C",
+  "explanation": "**Concepts Tested:** Continuity & Differentiability, Inverse Trigonometric Functions, Matrices.<br /><br />(a) $f(g(x)) = (\\sin^{-1}x)^3$.<br /><br />Since $\\sin^{-1}x$ is differentiable on $(-1,1)$ and so is the power function.<br /><br />Their composition is differentiable on $(-1, 1)$.<br /><br />(b) $\\frac{d}{dx}(\\sin^{-1}x)^3 = 3(\\sin^{-1}x)^2 \\cdot \\frac{d}{dx}(\\sin^{-1}x)$<br /><br />$\\frac{d}{dx}(\\sin^{-1}x) = \\frac{1}{\\sqrt{1-x^2}}$<br /><br />So $\\frac{d}{dx}(f \\circ g)(x) = 3 (\\sin^{-1} x)^2 \\cdot \\frac{1}{\\sqrt{1-x^2}}$<br /><br />(c) At $x = 0$:<br /><br />$\\sin^{-1} 0 = 0 \\implies$ derivative is $0$<br /><br />(d) $g(A) = \\begin{bmatrix} \\sin^{-1}(0) & \\sin^{-1}(1) \\\\ \\sin^{-1}(-1) & \\sin^{-1}(0) \\end{bmatrix} = \\begin{bmatrix} 0 & \\frac{\\pi}{2} \\\\ -\\frac{\\pi}{2} & 0 \\end{bmatrix}$<br /><br />(e) $g(A)$ is a skew-symmetric real $2\\times2$ matrix. Its eigenvalues are purely imaginary $\\pm i\\frac{\\pi}{2}$, so it is diagonalizable over $\\mathbb{C}$, but not over $\\mathbb{R}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f\\circ g$ is not differentiable in $(-1,1)$<br />(b) $\\frac{d}{dx}(f\\circ g)(x)=3x^2$<br />(c) At $x=0$, the derivative is $1$<br />(d) $g(A)=A$<br />(e) $g(A)$ is diagonalizable over $\\mathbb{R}$",
+    "B": "(a) $f\\circ g$ is differentiable only at $x=0$<br />(b) $\\frac{d}{dx}(f\\circ g)(x)=\\frac{1}{\\sqrt{1-x^2}}$<br />(c) At $x=0$, the derivative is $1$<br />(d) $g(A)=\\begin{bmatrix}0&1\\\\-1&0\\end{bmatrix}$<br />(e) $g(A)$ is not diagonalizable over $\\mathbb{C}$",
+    "C": "(a) $f\\circ g=(\\sin^{-1}x)^3$ is differentiable in $(-1,1)$<br />(b) $\\frac{d}{dx}(f\\circ g)(x)=\\frac{3(\\sin^{-1}x)^2}{\\sqrt{1-x^2}}$<br />(c) At $x=0$, the derivative is $0$<br />(d) $g(A)=\\begin{bmatrix}0&\\frac{\\pi}{2}\\\\-\\frac{\\pi}{2}&0\\end{bmatrix}$<br />(e) $g(A)$ is diagonalizable over $\\mathbb{C}$ but not over $\\mathbb{R}$",
+    "D": "(a) $f\\circ g=x^3$<br />(b) $\\frac{d}{dx}(f\\circ g)(x)=\\frac{3x^2}{\\sqrt{1-x^2}}$<br />(c) At $x=0$, the derivative is undefined<br />(d) $g(A)=\\begin{bmatrix}\\frac{\\pi}{2}&0\\\\0&-\\frac{\\pi}{2}\\end{bmatrix}$<br />(e) $g(A)$ is diagonalizable over $\\mathbb{R}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:34:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

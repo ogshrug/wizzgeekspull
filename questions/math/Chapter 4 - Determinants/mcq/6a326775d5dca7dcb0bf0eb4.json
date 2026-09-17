@@ -1,0 +1,31 @@
+{
+  "id": "6a326775d5dca7dcb0bf0eb4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\begin{vmatrix}a&3&4\\\\ 1&2&1\\\\ 1&4&1\\end{vmatrix}=0$, then the value of $a$ is",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Expand the determinant along the first row: $a \\begin{vmatrix} 2 & 1 \\\\ 4 & 1 \\end{vmatrix} - 3 \\begin{vmatrix} 1 & 1 \\\\ 1 & 1 \\end{vmatrix} + 4 \\begin{vmatrix} 1 & 2 \\\\ 1 & 4 \\end{vmatrix} = 0$.\n\n**Step 2:** Calculate the 2x2 minors: $a(2 - 4) - 3(1 - 1) + 4(4 - 2) = 0$.\n\n**Step 3:** Simplify the resulting equation: $a(-2) - 3(0) + 4(2) = 0 \\Rightarrow -2a + 8 = 0$.\n\n**Step 4:** Solve for $a$: $2a = 8 \\Rightarrow a = 4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

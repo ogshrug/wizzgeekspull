@@ -1,0 +1,28 @@
+{
+  "id": "6a264ead864be73cfcf6d32b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "VSA",
+  "question": "Probabilities of A and B solving a specific problem are $\\frac{2}{3}$ and $\\frac{3}{5}$ respectively. If both of them try independently to solve the problem, then find the probability that the problem is solved.",
+  "answeroption": "",
+  "explanation": "**Step 1:** We are given the individual independent probabilities of solving a problem: $P(A) = \\frac{2}{3}$ and $P(B) = \\frac{3}{5}$. The problem is solved if at least one person successfully solves it, which represents the union event $P(A \\cup B)$. Alternatively, we can use the complement event: the problem is solved if it is not the case that both fail to solve it, meaning $\\text{Probability} = 1 - P(A' \\cap B')$.<br />**Step 2:** First, compute the individual probabilities of failure: $P(A') = 1 - P(A) = 1 - \\frac{2}{3} = \\frac{1}{3}$, and $P(B') = 1 - P(B) = 1 - \\frac{3}{5} = \\frac{2}{5}$. Since the events are explicitly stated to be independent, the joint probability of failure is the product of their individual failures: $P(A' \\cap B') = P(A') \\times P(B') = \\frac{1}{3} \\times \\frac{2}{5} = \\frac{2}{15}$.<br />**Step 3:** Subtract this joint failure value from 1 to obtain our target probability: $P(\\text{Problem is solved}) = 1 - \\frac{2}{15} = \\frac{13}{15}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-2",
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

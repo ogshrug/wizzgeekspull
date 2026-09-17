@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8c142e54880055a0a65e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\begin{vmatrix}1+a&1&1\\\\1&1+a&1\\\\1&1&1+a\\end{vmatrix}$ using suitable determinant operations.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Apply a column operation</b><br>Use $C_1\\to C_1+C_2+C_3$. The determinant becomes $$\\begin{vmatrix}a+3&1&1\\\\a+3&1+a&1\\\\a+3&1&1+a\\end{vmatrix}$$<br><b>Step 2: Take out the common factor</b><br>Taking $a+3$ common from the first column gives $$(a+3)\\begin{vmatrix}1&1&1\\\\1&1+a&1\\\\1&1&1+a\\end{vmatrix}$$<br><b>Step 3: Simplify the rows</b><br>Apply $R_2\\to R_2-R_1$ and $R_3\\to R_3-R_1$. This gives $$(a+3)\\begin{vmatrix}1&1&1\\\\0&a&0\\\\0&0&a\\end{vmatrix}$$<br><b>Step 4: Evaluate</b><br>The remaining determinant is triangular. Hence, its value is $$a^2(a+3)$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$a(a+3)^2$",
+    "B": "$a^2(a+3)$",
+    "C": "$a(a+1)(a+3)$",
+    "D": "$(a+1)^2(a+3)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

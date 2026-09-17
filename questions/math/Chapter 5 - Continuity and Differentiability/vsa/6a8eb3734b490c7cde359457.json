@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb3734b490c7cde359457",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "VSA",
+  "question": "For $f(x)=\\sin^{-1}x$, a student attempts to calculate $f'(1)$ by direct substitution in the derivative expression. Determine whether $f'(1)$ exists.",
+  "answeroption": "A",
+  "explanation": "Step 1: For $f(x)=\\sin^{-1}x$, the derivative is $f'(x)=\\frac{1}{\\sqrt{1-x^2}}$ wherever this expression is defined.<br>Step 2: The derivative formula is valid for $-1<x<1$.<br>Step 3: Substituting $x=1$ would give $\\frac{1}{\\sqrt{1-1^2}}=\\frac{1}{0}$, which is not a finite real number.<br>Step 4: Thus, although $\\sin^{-1}x$ itself is defined at $x=1$, its derivative is not defined there.<br>Step 5: Hence, the student's direct substitution does not produce a derivative, and the required conclusion is $\\boxed{f'(1)\\text{ does not exist}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f'(1)$ does not exist",
+    "B": "$f'(1)=0$",
+    "C": "$f'(1)=1$",
+    "D": "$f'(1)=-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

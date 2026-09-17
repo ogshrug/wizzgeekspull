@@ -1,0 +1,29 @@
+{
+  "id": "6a8d41841cb3824448de86c5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Consider the function $f:\\mathbb{R}\\to\\mathbb{R}$ defined by $f(x)=4x+3$. Find $f^{-1}$ and verify the inverse using composition.",
+  "answeroption": "C",
+  "explanation": "<b>Determination of the inverse</b><br>Let<br>$$y=f(x)=4x+3.$$<br>Solving for $x$, we obtain<br>$$x=\\frac{y-3}{4}.$$<br>Hence,<br>$$f^{-1}(x)=\\frac{x-3}{4}.$$<br><br><b>Verification of $f^{-1}\\circ f$</b><br>$$f^{-1}(f(x))=\\frac{(4x+3)-3}{4}=x.$$<br><br><b>Verification of $f\\circ f^{-1}$</b><br>$$f\\left(f^{-1}(x)\\right)=4\\left(\\frac{x-3}{4}\\right)+3=x.$$<br><br><b>Conclusion</b><br>Both compositions are the identity function. Thus, $f$ is invertible and<br>$$f^{-1}(x)=\\frac{x-3}{4}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$f^{-1}(x)=\\frac{x+3}{4}$ and both compositions equal $x$",
+    "B": "$f^{-1}(x)=4x-3$ and both compositions equal $x$",
+    "C": "$f^{-1}(x)=\\frac{x-3}{4}$ and $f^{-1}\\circ f=f\\circ f^{-1}=I_{\\mathbb{R}}$",
+    "D": "$f^{-1}(x)=\\frac{3-x}{4}$ and both compositions equal $-x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a8508964fcf4cdd5b4babb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Given the function $f(x) = x^4 - 4x^3 + 10$, find all the critical points and classify them as points of local maxima, minima, or neither.",
+  "answeroption": "B",
+  "explanation": "First derivative:<br /><br />$f'(x)=4x^3-12x^2=4x^2(x-3)$.<br /><br />Critical points: $x=0$ and $x=3$.<br /><br />Check sign change:<br /><br />At $x=0$, $f'(x)$ does not change sign (negative on both sides), so neither max nor min.<br /><br />At $x=3$, sign changes from negative to positive, so local minimum.<br /><br />Function values:<br /><br />$f(0)=10$.<br /><br />$f(3)=81-108+10=-17$.<br /><br />Critical points: $(0,10)$ (neither) and $(3,-17)$ (local minimum).",
+  "explanation_image": [],
+  "options": {
+    "A": "$(0,10)$ is a local maximum and $(3,-17)$ is a local minimum.",
+    "B": "$(0,10)$ is neither local maximum nor local minimum, and $(3,-17)$ is a local minimum.",
+    "C": "$(0,10)$ is a local minimum and $(3,-17)$ is neither local maximum nor local minimum.",
+    "D": "Both $(0,10)$ and $(3,-17)$ are local maxima."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:32:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8d3dba550d28a069ec32f2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Consider $f:\\mathbb{N}\\to\\mathbb{N}$ defined by $f(n)=2n+1$. Determine whether $f$ is onto. Justify your answer.",
+  "answeroption": "C",
+  "explanation": "<b>Testing an element of the co-domain</b><br>For $f$ to be onto, every element of $\\mathbb{N}$ must be the image of some $n\\in\\mathbb{N}$. Consider $2\\in\\mathbb{N}$.<br><br><b>Pre-image condition</b><br>If $f(n)=2$, then<br>$$2n+1=2.$$<br>Therefore,<br>$$n=\\frac{1}{2}.$$<br>But $\\frac{1}{2}\\notin\\mathbb{N}$.<br><br><b>Conclusion</b><br>Thus, $2$ has no pre-image in $\\mathbb{N}$. Therefore, $f$ is not onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is onto because $2n+1\\in\\mathbb{N}$ for every $n\\in\\mathbb{N}$",
+    "B": "$f$ is onto because every $m\\in\\mathbb{N}$ has the pre-image $n=\\frac{m-1}{2}$ in $\\mathbb{N}$",
+    "C": "$f$ is not onto because $2$ has no pre-image in $\\mathbb{N}$",
+    "D": "$f$ is not onto because $3$ has no pre-image in $\\mathbb{N}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

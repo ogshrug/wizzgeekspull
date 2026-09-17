@@ -1,0 +1,29 @@
+{
+  "id": "6a8f14d04b490c7cde3594dc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "VSA",
+  "question": "The parabola $x=4-y^2$ and the coordinate axes form a bounded region in the first quadrant. Calculate its area by integrating with respect to $y$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b><br>The curve meets the x-axis when $y=0$, giving $x=4$. It meets the positive y-axis when $x=0$, giving $y=2$.<br><br><b>Step 2:</b><br>For $0\\leq y\\leq2$, the right boundary is $x=4-y^2$, while the left boundary is the y-axis $x=0$.<br><br><b>Step 3:</b><br>The area is $A=\\int_0^2(4-y^2)dy=\\left[4y-\\frac{y^3}{3}\\right]_0^2$.<br><br><b>Step 4:</b><br>Therefore, $A=8-\\frac{8}{3}=\\frac{16}{3}$.<br><br><b>Final Answer:</b><br>The bounded area is $\\frac{16}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{8}{3}$ square units",
+    "B": "$\\frac{32}{3}$ square units",
+    "C": "$8$ square units",
+    "D": "$\\frac{16}{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

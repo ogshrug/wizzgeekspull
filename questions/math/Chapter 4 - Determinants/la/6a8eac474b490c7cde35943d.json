@@ -1,0 +1,29 @@
+{
+  "id": "6a8eac474b490c7cde35943d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6b"
+  ],
+  "question_type": "LA",
+  "question": "The vertices of a triangle are $A(2,3)$, $B(-1,1)$, and $C(4,k)$.<br><br><b>(a)</b> Form the determinant representing twice the area of $\\triangle ABC$.<br><br><b>(b)</b> Determine the values of $k$ if the area of the triangle is $8$ square units.<br><br><b>(c)</b> Find the area of the triangle when $k=7$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The area of a triangle with vertices $(x_1,y_1)$, $(x_2,y_2)$, and $(x_3,y_3)$ is<br>$$\\text{Area}=\\frac{1}{2}\\left|\\begin{vmatrix}x_1 & y_1 & 1\\\\x_2 & y_2 & 1\\\\x_3 & y_3 & 1\\end{vmatrix}\\right|$$<br>Therefore,<br>$$\\text{Area}=\\frac{1}{2}\\left|\\begin{vmatrix}2 & 3 & 1\\\\-1 & 1 & 1\\\\4 & k & 1\\end{vmatrix}\\right|$$<br><br><b>(b)</b><br>Expanding the determinant,<br>$$\\text{Area}=\\frac{1}{2}|2(1-k)-3(-1-4)+(-k-4)|$$<br>$$\\text{Area}=\\frac{1}{2}|2-2k+15-k-4|$$<br>$$\\text{Area}=\\frac{1}{2}|13-3k|$$<br>Given that the area is $8$ square units,<br>$$\\frac{1}{2}|13-3k|=8$$<br>$$|13-3k|=16$$<br>Thus,<br>$$13-3k=16\\quad\\text{or}\\quad13-3k=-16$$<br>Hence,<br>$$k=-1\\quad\\text{or}\\quad k=\\frac{29}{3}$$<br><br><b>(c)</b><br>When $k=7$,<br>$$\\text{Area}=\\frac{1}{2}|13-21|=\\frac{1}{2}(8)=4$$<br>Therefore, the area is $4$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Twice the area is $\\left|\\begin{vmatrix}2&3&1\\\\-1&1&1\\\\4&k&1\\end{vmatrix}\\right|=|13-3k|$<br>(b) $k=1$ or $k=\\frac{29}{3}$<br>(c) At $k=7$, the area is $4$ square units",
+    "B": "(a) Twice the area is $|13+3k|$<br>(b) $k=-1$ or $k=-\\frac{29}{3}$<br>(c) At $k=7$, the area is $17$ square units",
+    "C": "(a) Twice the area is $|13-3k|$<br>(b) $k=-1$ or $k=\\frac{29}{3}$<br>(c) At $k=7$, the area is $8$ square units",
+    "D": "(a) Twice the area is $\\left|\\begin{vmatrix}2&3&1\\\\-1&1&1\\\\4&k&1\\end{vmatrix}\\right|=|13-3k|$<br>(b) $k=-1$ or $k=\\frac{29}{3}$<br>(c) At $k=7$, the area is $4$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

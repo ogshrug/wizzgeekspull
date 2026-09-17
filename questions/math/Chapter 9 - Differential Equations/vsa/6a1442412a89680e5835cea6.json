@@ -1,0 +1,24 @@
+{
+  "id": "6a1442412a89680e5835cea6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "VSA",
+  "question": "Find the integrating factor of $x\\frac{dy}{dx}+(1+x\\cot x)y=x$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Divide by $x$ to get standard linear form $\\frac{dy}{dx} + Py = Q$: <br /> $\\frac{dy}{dx} + \\left(\\frac{1}{x} + \\cot x\\right)y = 1$. <br /><br /> **Step 2:** Identify $P(x) = \\frac{1}{x} + \\cot x$. <br /> Integrating factor = $e^{\\int P \\, dx}$. <br /><br /> **Step 3:** Compute $\\int P \\, dx = \\int \\left(\\frac{1}{x} + \\cot x\\right) dx = \\ln|x| + \\ln|\\sin x| = \\ln|x \\sin x|$. <br /><br /> **Step 4:** Therefore, I.F. = $e^{\\ln|x \\sin x|} = x \\sin x$. <br /><br /> **Answer:** $x \\sin x$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a9bf45d30adc5083911b48",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7e",
+    "6a13e98f8c819562f933f97c"
+  ],
+  "question_type": "LA",
+  "question": "Let $y = \\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$. Show that $\\frac{dy}{dx} = \\frac{2}{1 + x^2}$. Use this result to find the equations of all tangents to $y$ at points where $x^2 = 1$. Are any of these tangents parallel? Justify using calculus.",
+  "answeroption": "C",
+  "explanation": "Let $y = \\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$.<br />Let $z = \\frac{2x}{1-x^2}$<br /><br />$\\frac{dy}{dx} = \\frac{d}{dx}\\tan^{-1}z = \\frac{1}{1+z^2}\\cdot \\frac{dz}{dx}$<br /><br />$z^2 = \\frac{4x^2}{(1-x^2)^2}$<br />$1+z^2 = 1+\\frac{4x^2}{(1-x^2)^2} = \\frac{(1-x^2)^2 + 4x^2}{(1-x^2)^2} = \\frac{1 - 2x^2 + x^4 + 4x^2}{(1-x^2)^2} = \\frac{1 + 2x^2 + x^4}{(1-x^2)^2} = \\left(\\frac{1+x^2}{1-x^2}\\right)^2$<br /><br />$\\frac{dz}{dx} = \\frac{2(1-x^2) + 2x\\cdot 2x}{(1-x^2)^2} = \\frac{2(1-x^2)+4x^2}{(1-x^2)^2} = \\frac{2+2x^2}{(1-x^2)^2}$<br /><br />So, $\\frac{dy}{dx} = \\frac{1}{(\\frac{1+x^2}{1-x^2})^2}\\cdot \\frac{2(1+x^2)}{(1-x^2)^2}$<br />$= \\frac{2(1-x^2)^2}{(1+x^2)^2}\\cdot \\frac{1+x^2}{(1-x^2)^2}$<br />$= \\frac{2}{1+x^2}$<br /><br />When $x^2 = 1$, $x = \\pm 1$<br />For $x=1$: $y = \\tan^{-1}(\\infty) = \\frac{\\pi}{2}$<br />For $x=-1$: $y = \\tan^{-1}(-\\infty) = -\\frac{\\pi}{2}$<br />Slope in both cases: $\\frac{dy}{dx}=\\frac{2}{2}=1$<br /><br />So, the equations of tangents at $(1,\\frac{\\pi}{2})$ and $(-1,-\\frac{\\pi}{2})$ are<br />$y-\\frac{\\pi}{2}=1(x-1) \\implies y=x-1+\\frac{\\pi}{2}$<br />$y+\\frac{\\pi}{2}=1(x+1)\\implies y=x+1-\\frac{\\pi}{2}$<br /><br />Both tangents have slope 1, so they are parallel.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{1}{1+x^2}$<br />At $x=\\pm1$, slopes are $\\frac12$<br />Tangents are $y=\\frac{x}{2}+\\frac{\\pi}{2}$ and $y=\\frac{x}{2}-\\frac{\\pi}{2}$<br />They are not parallel",
+    "B": "$\\frac{dy}{dx}=\\frac{2}{1-x^2}$<br />At $x=\\pm1$, derivative is undefined<br />No tangents can be drawn<br />Parallelism cannot be discussed",
+    "C": "$\\frac{dy}{dx}=\\frac{2}{1+x^2}$<br />At $x=1$, tangent is $y=x-1+\\frac{\\pi}{2}$<br />At $x=-1$, tangent is $y=x+1-\\frac{\\pi}{2}$<br />Both tangents have slope $1$, so they are parallel",
+    "D": "$\\frac{dy}{dx}=\\frac{-2}{1+x^2}$<br />At $x=1$, tangent is $y=-x+1+\\frac{\\pi}{2}$<br />At $x=-1$, tangent is $y=-x-1-\\frac{\\pi}{2}$<br />The tangents are perpendicular"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:37:09 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

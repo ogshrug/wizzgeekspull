@@ -1,0 +1,30 @@
+{
+  "id": "69a970356638848124d7c92c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "A function $f$ is defined as $f(x) = x-5$ for $x \\in \\mathbb{R}$. Find the range of $f$ and decide whether it is bijective.",
+  "answeroption": "A",
+  "explanation": "For any real number $x$, $f(x)=x-5$ can produce every real number. <br /><br />Given any $y \\in \\mathbb{R}$, choose $x=y+5$ so that $f(x)=y$. <br /><br />Thus the range is $\\mathbb{R}$ and the function is onto. <br /><br />Also if $f(x_1)=f(x_2)$ then $x_1-5=x_2-5$ implying $x_1=x_2$, so the function is one-one. <br /><br />Hence $f$ is bijective.",
+  "explanation_image": [],
+  "options": {
+    "A": "Range is $\\mathbb{R}$ and $f$ is bijective",
+    "B": "Range is $\\mathbb{R}$ but $f$ is not bijective",
+    "C": "Range is $[0,\\infty)$ and $f$ is bijective",
+    "D": "Range is $\\mathbb{R}\\setminus\\{-5\\}$ and $f$ is not bijective"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:59:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

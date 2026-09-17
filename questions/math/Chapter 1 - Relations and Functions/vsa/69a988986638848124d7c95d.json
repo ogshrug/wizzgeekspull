@@ -1,0 +1,29 @@
+{
+  "id": "69a988986638848124d7c95d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "VSA",
+  "question": "If $f: \\mathbb{R} \\to \\mathbb{R}$ defined by $f(x) = 2x+3$ and $g: \\mathbb{R} \\to \\mathbb{R}$ by $g(x) = x^2$, determine if $g \\circ f$ and $f \\circ g$ can ever represent the same function. Give reason.",
+  "answeroption": "B",
+  "explanation": "$g \\circ f(x) = g(f(x)) = (2x+3)^2$<br /><br />$f \\circ g(x) = f(g(x)) = 2x^2+3$<br /><br />$(2x+3)^2 \\neq 2x^2+3$ for all $x\\in\\mathbb{R}$ except possibly at specific points.<br /><br />Thus, the two functions are not identical for all $x$, so $g \\circ f$ and $f \\circ g$ cannot be the same function.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes, because $g \\circ f(x) = f \\circ g(x)$ for all $x \\in \\mathbb{R}$",
+    "B": "No, because $g \\circ f(x) = (2x+3)^2$ and $f \\circ g(x) = 2x^2+3$ are not identical functions",
+    "C": "Yes, because both $f$ and $g$ are functions from $\\mathbb{R}$ to $\\mathbb{R}$",
+    "D": "No, because composition of two functions is never possible over $\\mathbb{R}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:43:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

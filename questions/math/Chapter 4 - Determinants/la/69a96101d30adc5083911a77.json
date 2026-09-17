@@ -1,0 +1,30 @@
+{
+  "id": "69a96101d30adc5083911a77",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "LA",
+  "question": "Let $A$ be a $3 \\times 3$ matrix with $|A|=2$ and $B$ is obtained from $A$ by multiplying the second row by $3$ and interchanging the first and third rows. Find $|B|$.",
+  "answeroption": "C",
+  "explanation": "Determinant effects:<br />- Multiplying a row by $k$ multiplies determinant by $k$.<br />- Interchanging two rows multiplies determinant by $-1$.<br /><br />Row 2 $\\to$ $3$ times: $|A| \\to 3|A| = 6$<br />Interchange Row 1 and Row 3: $6 \\to -6$<br /><br />Therefore, $|B| = -6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$|B|=6$",
+    "B": "$|B|=2$",
+    "C": "$|B|=-6$",
+    "D": "$|B|=-2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:54:57 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

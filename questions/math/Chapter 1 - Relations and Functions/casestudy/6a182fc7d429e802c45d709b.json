@@ -1,0 +1,25 @@
+{
+  "id": "6a182fc7d429e802c45d709b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During the festival season, there was a mela organized by the Resident Welfare Association at a park, near the society. The main attraction of the mela was a huge swing installed at one corner of the park. The swing is traced to follow the path of a parabola given by $x^{2}=y$.<br /><br />Based on the above information, answer the following questions:<br />(i) Let $f:\\mathbb{N}\\longrightarrow\\mathbb{R}$ be defined by $f(x)=x^2$. What will be the range?<br />(ii) Let $f:\\mathbb{N}\\longrightarrow\\mathbb{N}$ be defined by $f(x)=x^2$. Check if the function is injective or not.<br />(iii) (a) Let $f:\\{1,2,3,4\\dots\\}\\longrightarrow\\{1,4,9,16\\dots\\}$ be defined by $f(x)=x^2$. Prove that the function is bijective.<br />OR<br />(iii) (b) Let $f:\\mathbb{R}\\longrightarrow\\mathbb{R}$ be defined by $f(x)=x^2$. Show that $f$ is neither injective nor surjective.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Solve part (i). The domain is natural numbers $\\mathbb{N} = \\{1, 2, 3, \\dots\\}$. Substituting into $f(x)=x^2$ gives squares $\\{1^2, 2^2, 3^2, \\dots\\} = \\{1, 4, 9, \\dots\\}$. Thus, the range is the set of perfect squares, $\\{x^2 : x \\in \\mathbb{N}\\}$.<br /><br />**Step 2:** Solve part (ii). For injectivity, $f(x_1) = f(x_2) \\implies x_1^2 = x_2^2$. Since $x_1, x_2 \\in \\mathbb{N}$ (positive integers), taking square roots gives $x_1 = x_2$. Hence, the function is strictly injective (one-one).<br /><br />**Step 3:** Solve part (iii)(a). The domain is $\\{1,2,3,\\dots\\}$ and co-domain is $\\{1,4,9,\\dots\\}$. Every distinct input has a unique square output, making it injective. Every element in the co-domain is a perfect square and has its positive root as a pre-image in the domain, making it surjective (Range = Co-domain). Therefore, it is bijective.<br /><br />**Step 4:** Solve part (iii)(b). For $f:\\mathbb{R}\\longrightarrow\\mathbb{R}$, $f(-2) = f(2) = 4$, but $-2 \\neq 2$, so it is not injective. Real numbers include negatives (e.g., $-5$) which cannot have a real pre-image since $x^2 \\ge 0$. Since Range $\\neq$ Co-domain, it is not surjective either.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

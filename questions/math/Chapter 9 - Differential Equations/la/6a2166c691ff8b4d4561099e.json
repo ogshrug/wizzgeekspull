@@ -1,0 +1,28 @@
+{
+  "id": "6a2166c691ff8b4d4561099e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation $y~e^{y}dx=(y^{3}+2x~e^{y})$ dy, when $y(0)=1$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Rearrange the differential equation terms by dividing through by $dy$: $y e^y \\frac{dx}{dy} = y^3 + 2e^y x$. Move the $x$ term to the left side to look for a linear form: $y e^y \\frac{dx}{dy} - 2e^y x = y^3$.<br /><br /><b>Step 2</b> Divide the entire equation by the leading coefficient $y e^y$ to convert it into the standard first-order linear form $\\frac{dx}{dy} + P(y)x = Q(y)$: $\\frac{dx}{dy} - \\frac{2}{y}x = y^2 e^{-y}$. Here, $P(y) = -\\frac{2}{y}$ and $Q(y) = y^2 e^{-y}$.<br /><br /><b>Step 3</b> Compute the Integrating Factor (IF) using the formula $\\text{IF} = e^{\\int P(y) dy}$: $\\text{IF} = e^{\\int -\\frac{2}{y} dy} = e^{-2 \\log y} = e^{\\log(y^{-2})} = \\frac{1}{y^2}$.<br /><br /><b>Step 4</b> Write the general solution formula, $x \\cdot \\text{IF} = \\int Q(y) \\cdot \\text{IF} \\, dy + C$. Substituting our expressions gives: $x \\cdot \\frac{1}{y^2} = \\int \\left(y^2 e^{-y}\\right) \\cdot \\frac{1}{y^2} dy + C \\implies \\frac{x}{y^2} = \\int e^{-y} dy + C \\implies \\frac{x}{y^2} = -e^{-y} + C$. Multiplying through by $y^2$ gives $x = -y^2 e^{-y} + C y^2$.<br /><br /><b>Step 5</b> Apply the initial condition $y(0) = 1$, which means $x = 0$ when $y = 1$: $0 = -(1)^2 e^{-1} + C(1)^2 \\implies C = e^{-1}$. Substituting this constant back gives the final particular solution: $x = -y^2 e^{-y} + y^2 e^{-1}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

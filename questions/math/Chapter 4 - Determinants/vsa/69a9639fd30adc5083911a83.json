@@ -1,0 +1,29 @@
+{
+  "id": "69a9639fd30adc5083911a83",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "VSA",
+  "question": "Consider the matrix $M=\\begin{pmatrix}x & 2 \\\\ 2 & x\\end{pmatrix}$. For what integer value(s) of $x$ is the inverse of $M$ also a symmetric matrix with integer entries?",
+  "answeroption": "D",
+  "explanation": "First,<br /><br />$M$ is symmetric; the inverse will be symmetric if all entries are integer.<br /><br />$|M| = x^2 - 4$<br /><br />$M^{-1} = \\frac{1}{x^2-4}\\begin{pmatrix}x & -2 \\\\ -2 & x\\end{pmatrix}$<br /><br />For all entries to be integers, $x^2-4$ must divide $x$ and $-2$.<br /><br />Possible integer solutions: $x^2 - 4 = \\pm1,\\pm2$<br /><br />$x^2-4=1\\rightarrow x^2=5$ (no integer); $x^2-4=-1\\implies x^2=3$ (no integer)<br /><br />$x^2-4=2\\implies x^2=6$ (no integer); $x^2-4=-2\\implies x^2=2$ (no integer).<br /><br />Alternatively, try $x=3: x^2-4=9-4=5$<br /><br />Entries: $3/5,-2/5$ (not integer).<br /><br />$x=2:0$ (singular), $x=-2: 4-4=0$ (singular)<br /><br />$Try$ $x=4:\\ 16-4=12; 4/12=1/3, -2/12=-1/6$<br /><br />No integer.<br /><br />$Try$ $x=6: 36-4=32; 6/32=3/16, -2/32 = -1/16$<br /><br />No integer.<br /><br />Thus, there is no integer $x$ such that $M^{-1}$ has all integer entries.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=0$",
+    "B": "$x=\\pm 1$",
+    "C": "$x=\\pm 3$",
+    "D": "No integer value of $x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:06:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

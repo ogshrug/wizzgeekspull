@@ -1,0 +1,30 @@
+{
+  "id": "69aa6a60d30adc5083911b80",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d82",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = e^{x^2}$ and $A = \\begin{pmatrix} f(x) & f'(x) \\\\ f''(x) & f(x) \\end{pmatrix}$.<br /><br />(a) Show that $f''(x) = 2e^{x^2}(1+2x^2)$.<br /><br />(b) Compute $\\det A$ explicitly in terms of $x$.<br /><br />(c) Analyze the intervals where $\\det A > 0$.<br /><br />(d) Use the result to discuss the monotonicity of the function $h(x) = \\ln|\\det A|$ for $x > 0$.",
+  "answeroption": "D",
+  "explanation": "**Concepts tested:**<br />- Exponential functions and derivatives<br />- Determinants<br />- Monotonicity<br />- Chain rule<br /><br />(a)<br />$f(x)=e^{x^2}$<br />$f'(x) = 2x e^{x^2}$<br />$f''(x) = 2e^{x^2} + 4x^2e^{x^2} = 2e^{x^2}(1 + 2x^2)$<br /><br />(b)<br />$\\det A = e^{x^2}\\cdot e^{x^2} - f'(x) f''(x) = e^{2x^2} - [2x e^{x^2}][2e^{x^2}(1 + 2x^2)]$<br />$= e^{2x^2} - 4x e^{x^2} e^{x^2}(1 + 2x^2)$<br />$= e^{2x^2}[1 - 4x(1+2x^2)]$<br />$= e^{2x^2}(1 - 4x - 8x^3)$<br /><br />(c)<br />$\\det A > 0 \\iff 1 - 4x - 8x^3 > 0$<br />Find roots: $8x^3 + 4x - 1 < 0$<br />Positive up to real root of $8x^3+4x-1=0$. Numerically, this has one real root near $x=0.22$. For $x<0.22$, $\\det A>0$.<br /><br />(d)<br />$h(x) = \\ln|\\det A| = 2x^2 + \\ln|1-4x-8x^3|$<br />For $x>0$, monotonicity depends on derivative $h'(x) = 4x + \\frac{-4-24x^2}{1-4x-8x^3}$<br />This derivative changes sign at root(s); analyze accordingly. $h(x)$ increases for small $x>0$ up to root, then decreases.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f''(x)=2xe^{x^2}$<br />(b) $\\det A=e^{2x^2}(1+4x+8x^3)$<br />(c) $\\det A>0$ for all $x$<br />(d) $h(x)$ is strictly increasing for all $x>0$",
+    "B": "(a) $f''(x)=e^{x^2}(1+2x)$<br />(b) $\\det A=e^{2x^2}(1-2x)$<br />(c) $\\det A>0$ for $x<\\frac12$ only<br />(d) $h(x)$ is constant for $x>0$",
+    "C": "(a) $f''(x)=4x^2e^{x^2}$<br />(b) $\\det A=e^{2x^2}(1-8x^3)$<br />(c) $\\det A>0$ for $x<\\frac12$<br />(d) $h'(x)=2x$",
+    "D": "(a) $f''(x)=2e^{x^2}(1+2x^2)$<br />(b) $\\det A=e^{2x^2}(1-4x-8x^3)$<br />(c) $\\det A>0$ when $1-4x-8x^3>0$, i.e. for $x$ below the positive real root of $8x^3+4x-1=0$<br />(d) $h(x)=2x^2+\\ln|1-4x-8x^3|$ and $h'(x)=4x+\\frac{-4-24x^2}{1-4x-8x^3}$; monotonicity is determined by this derivative"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:47:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

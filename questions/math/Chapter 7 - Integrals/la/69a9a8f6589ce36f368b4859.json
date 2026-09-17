@@ -1,0 +1,29 @@
+{
+  "id": "69a9a8f6589ce36f368b4859",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate the integral $\\int \\frac{dx}{x^2 + 4x + 5}$ and express the result in terms of $\\tan^{-1}$.",
+  "answeroption": "A",
+  "explanation": "Complete the square in the denominator.<br /><br />$x^2+4x+5=(x+2)^2+1$.<br /><br />Thus the integral becomes $\\int \\frac{dx}{(x+2)^2+1}$.<br /><br />Let $t=x+2$ so $dt=dx$.<br /><br />Then $\\int \\frac{dt}{t^2+1}=\\tan^{-1}(t)+C$.<br /><br />Substituting back $t=x+2$, we obtain $\\tan^{-1}(x+2)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan^{-1}(x+2)+C$",
+    "B": "$\\frac{1}{2}\\tan^{-1}(x+2)+C$",
+    "C": "$\\tan^{-1}\\left(\\frac{x+2}{2}\\right)+C$",
+    "D": "$\\ln|x^2+4x+5|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:01:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ec21bbe0ecc7866e90bb2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d89"
+  ],
+  "question_type": "SA",
+  "question": "Verify Rolle’s Theorem for the function $$f(x)=x^2+2$$ on the interval $[-2,2]$ and find the value of $c$ satisfying its conclusion.",
+  "answeroption": "A",
+  "explanation": "<b>Verification of continuity and differentiability</b><br>The polynomial function $f(x)=x^2+2$ is continuous on $[-2,2]$ and differentiable on $(-2,2)$.<br><b>Equality of endpoint values</b><br>$$f(-2)=(-2)^2+2=6$$<br>and $$f(2)=2^2+2=6.$$<br>Thus, $$f(-2)=f(2).$$<br><b>Application of Rolle’s Theorem</b><br>$$f'(x)=2x.$$<br>According to Rolle’s Theorem, $$f'(c)=0.$$<br>Thus, $$2c=0\\Rightarrow c=0.$$<br>Since $0\\in(-2,2)$, Rolle’s Theorem is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "The hypotheses are satisfied and $c=0$.",
+    "B": "The hypotheses are satisfied and $c=2$.",
+    "C": "The theorem is not applicable because $f(-2)\\neq f(2)$.",
+    "D": "The hypotheses are satisfied and $c=-2$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed536be0ecc7866e90bef",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97b"
+  ],
+  "question_type": "SA",
+  "question": "Find the slope of the tangent to the curve $x^2+xy+y^2=7$ at the point $(1,2)$ using implicit differentiation.",
+  "answeroption": "C",
+  "explanation": "Verification of the pointAt $(1,2)$,$$1^2+(1)(2)+2^2=1+2+4=7$$Hence, the point lies on the curve.Implicit differentiationDifferentiating $x^2+xy+y^2=7$ with respect to $x$,$$2x+x\\frac{dy}{dx}+y+2y\\frac{dy}{dx}=0$$Collection of derivative terms$$\\left(x+2y\\right)\\frac{dy}{dx}=-(2x+y)$$Therefore,$$\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}$$Evaluation at $(1,2)$$$\\left.\\frac{dy}{dx}\\right|_{(1,2)}=-\\frac{2(1)+2}{1+2(2)}=-\\frac{4}{5}$$ConclusionThe slope of the tangent is $-\\frac{4}{5}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{4}{5}$",
+    "B": "$-\\frac{5}{4}$",
+    "C": "$-\\frac{4}{5}$",
+    "D": "$\\frac{5}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

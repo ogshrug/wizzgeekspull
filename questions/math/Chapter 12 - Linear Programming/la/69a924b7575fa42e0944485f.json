@@ -1,0 +1,29 @@
+{
+  "id": "69a924b7575fa42e0944485f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A poultry farm owner wishes to prepare a feed mixture using two feeds $F_1$ and $F_2$. Each kg of $F_1$ contains 1 unit of vitamin A and 2 units of vitamin B, while each kg of $F_2$ contains 2 units of vitamin A and 1 unit of vitamin B. The minimum requirement is at least 6 units of vitamin A and 6 units of vitamin B. The cost per kg of $F_1$ is Rs 20, for $F_2$ it is Rs 30. Formulate and solve the LPP graphically to determine how much of each feed should be used to minimize cost. Show all steps, corner points and final answer.",
+  "answeroption": "A",
+  "explanation": "Let $x$ kg of $F_1$, $y$ kg of $F_2$ be to be mixed.<br /><br />Step 1: Objective function: $Z = 20x + 30y$ (to be minimized)<br /><br />Step 2: Vitamin A constraint: $x + 2y \\geq 6$<br /><br />Step 3: Vitamin B constraint: $2x + y \\geq 6$<br /><br />Step 4: $x \\geq 0, y \\geq 0$<br /><br />Step 5: Express equalities:<br />First: $x + 2y = 6$<br />When $x=0, y=3$ and $y=0, x=6$<br />Second: $2x + y=6$<br />When $x=0, y=6$ and $y=0, x=3$<br /><br />Find intersect:<br />$x+2y=6$<br />$2x+y=6$<br />Multiply both sides of first by 2: $2x+4y=12$ and subtract second: $2x+4y-(2x+y)=12-6 \\implies 3y=6\\implies y=2$<br />Put $y=2$ in first: $x + 4 = 6 \\implies x=2$<br />So intersection at $(2,2)$<br /><br />Check other intersection points in first quadrant:<br />$(0,6), (6,0), (3,0), (0,3)$; but only those satisfying both constraints<br />At $(0,6): 2\\times0+6=6$, $0+2\\times6=12$ (both $\\geq6$)<br />At $(6,0): 6+2\\times0=6$, $2\\times6+0=12$ (both $\\geq6$)<br />At $(3,0): 3+2\\times0=3<6$ (not feasible)<br />At $(0,3): 2\\times0+3=3<6$ (not feasible)<br />So, feasible region corner points: $(0,6), (2,2), (6,0)$<br /><br />Step 6: Evaluate $Z$<br />$(0,6):20\\times0+30\\times6=180$<br />$(2,2):20\\times2+30\\times2=40+60=100$<br />$(6,0):20\\times6=120$<br /><br />Thus, minimum cost is Rs 100 using 2 kg of each feed.",
+  "explanation_image": [],
+  "options": {
+    "A": "Use 2 kg of $F_1$ and 2 kg of $F_2$; minimum cost Rs 100",
+    "B": "Use 0 kg of $F_1$ and 6 kg of $F_2$; minimum cost Rs 180",
+    "C": "Use 6 kg of $F_1$ and 0 kg of $F_2$; minimum cost Rs 120",
+    "D": "Use 3 kg of $F_1$ and 0 kg of $F_2$; minimum cost Rs 60"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:37:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

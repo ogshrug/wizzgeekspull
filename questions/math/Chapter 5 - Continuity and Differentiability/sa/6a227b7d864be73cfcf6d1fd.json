@@ -1,0 +1,26 @@
+{
+  "id": "6a227b7d864be73cfcf6d1fd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "SA",
+  "question": "Differentiate $y=\\sqrt{\\log\\{\\sin(\\frac{x^{3}}{3}-1)\\}}$ with respect to $x$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Apply the chain rule successively from the outermost function to the innermost. The outermost function is the square root. Let $u = \\log\\{\\sin(\\frac{x^3}{3}-1)\\}$. Then $y = u^{1/2}$ and $y' = \\frac{1}{2\\sqrt{u}} \\cdot u'$.<br />**Step 2:** Next, differentiate the logarithmic function. Let $v = \\sin(\\frac{x^3}{3}-1)$. Then $u = \\log v$ and $u' = \\frac{1}{v} \\cdot v'$.<br />**Step 3:** Next, differentiate the sine function. Let $w = \\frac{x^3}{3}-1$. Then $v = \\sin w$ and $v' = \\cos w \\cdot w'$.<br />**Step 4:** Finally, differentiate the inner polynomial argument: $w' = \\frac{d}{dx}(\\frac{x^3}{3}-1) = \\frac{3x^2}{3} - 0 = x^2$.<br />**Step 5:** Back-substitute the components starting with $v'$: $v' = \\cos(\\frac{x^3}{3}-1) \\cdot x^2$.<br />**Step 6:** Substitute $v'$ into $u'$: $u' = \\frac{1}{\\sin(\\frac{x^3}{3}-1)} \\cdot x^2 \\cos(\\frac{x^3}{3}-1) = x^2 \\cot(\\frac{x^3}{3}-1)$.<br />**Step 7:** Finally, substitute $u'$ into the original derivative $y'$: $\\frac{dy}{dx} = \\frac{1}{2\\sqrt{\\log\\{\\sin(\\frac{x^3}{3}-1)\\}}} \\cdot x^2 \\cot(\\frac{x^3}{3}-1)$.<br />**Step 8:** Combine into a single neat expression: $\\frac{dy}{dx} = \\frac{x^2 \\cot(\\frac{x^3}{3}-1)}{2\\sqrt{\\log\\{\\sin(\\frac{x^3}{3}-1)\\}}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

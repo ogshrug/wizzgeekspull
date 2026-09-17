@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9efc4b490c7cde35942a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "LA",
+  "question": "The determinant $D=\\begin{vmatrix}2 & 1 & p\\\\1 & 2 & 1\\\\p & 1 & 2\\end{vmatrix}$ has the value $4$.<br><br><b>(a)</b> Expand $D$ and form an equation in $p$.<br><br><b>(b)</b> Determine all possible real values of $p$.<br><br><b>(c)</b> For each value of $p$, evaluate $\\begin{vmatrix}2 & p\\\\p & 2\\end{vmatrix}$ and compare the results.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Expanding along the first row,<br>$$D=2\\begin{vmatrix}2 & 1\\\\1 & 2\\end{vmatrix}-\\begin{vmatrix}1 & 1\\\\p & 2\\end{vmatrix}+p\\begin{vmatrix}1 & 2\\\\p & 1\\end{vmatrix}$$<br>$$D=2(4-1)-(2-p)+p(1-2p)$$<br>$$D=6-2+p+p-2p^2=4+2p-2p^2$$<br>Since $D=4$,<br>$$4+2p-2p^2=4$$<br>$$2p(1-p)=0$$<br><br><b>(b)</b><br>From $2p(1-p)=0$,<br>$$p=0\\quad\\text{or}\\quad p=1$$<br><br><b>(c)</b><br>Let<br>$$E=\\begin{vmatrix}2 & p\\\\p & 2\\end{vmatrix}=4-p^2$$<br>For $p=0$,<br>$$E=4$$<br>For $p=1$,<br>$$E=3$$<br>Therefore, the corresponding determinant values are $4$ and $3$, and the first is greater than the second by $1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $D=4+2p+2p^2$, so $2p(1+p)=0$<br>(b) $p=0,-1$<br>(c) The corresponding determinants are $4$ and $3$",
+    "B": "(a) $D=4+2p-2p^2$, so $2p(1-p)=0$<br>(b) $p=0,1$<br>(c) The corresponding determinants are $4$ and $3$, and the first is greater by $1$",
+    "C": "(a) $D=4-2p-2p^2$, so $2p(1+p)=0$<br>(b) $p=0,-1$<br>(c) Both corresponding determinants are $4$",
+    "D": "(a) $D=4+2p-2p^2$, so $p(1-p)=4$<br>(b) $p=-1,2$<br>(c) The corresponding determinants are $3$ and $0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

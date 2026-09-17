@@ -1,0 +1,31 @@
+{
+  "id": "6a26590c864be73cfcf6d355",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A shopkeeper sells three types of flower seeds A1, A2, A3. They are sold in the form of a mixture, where the proportions of these seeds are $4:4:2$, respectively. The germination rates of the three types of seeds are 45%, 60% and 35% respectively.<br /><br />Based on the above information:<br />**(a)** Calculate the probability that a randomly chosen seed will germinate;<br />**(b)** Calculate the probability that the seed is of type A2, given that a randomly chosen seed germinates.",
+  "answeroption": "",
+  "explanation": "**(a)** **Step 1:** Define the prior selection events. Let $E_1, E_2, E_3$ be the events that a seed is of type A1, A2, and A3, respectively. The ratio is $4:4:2$, meaning total parts = $4+4+2=10$. The probabilities are $P(E_1) = \\frac{4}{10} = 0.4$, $P(E_2) = \\frac{4}{10} = 0.4$, and $P(E_3) = \\frac{2}{10} = 0.2$. Let $G$ be the event that a seed germinates. The conditional germination rates are given as $P(G|E_1) = 45\\% = 0.45$, $P(G|E_2) = 60\\% = 0.60$, and $P(G|E_3) = 35\\% = 0.35$.<br />**Step 2:** Use the Law of Total Probability to find the overall probability of germination, $P(G) = P(E_1)P(G|E_1) + P(E_2)P(G|E_2) + P(E_3)P(G|E_3)$. Substitute values: $P(G) = (0.4 \\times 0.45) + (0.4 \\times 0.60) + (0.2 \\times 0.35) = 0.18 + 0.24 + 0.07 = 0.49$.<br /><br />**(b)** **Step 1:** We need to find the conditional probability $P(E_2|G)$ that the seed is of type A2 given it has germinated. Apply Bayes' Theorem template formula: $P(E_2|G) = \\frac{P(E_2) \\cdot P(G|E_2)}{P(G)}$.<br />**Step 2:** Substitute the individual values evaluated from part (a) into this template: $P(E_2|G) = \\frac{0.4 \\times 0.60}{0.49} = \\frac{0.24}{0.49} = \\frac{24}{49}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1",
+    "2022-3-2",
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a26590c864be73cfcf6d355/1782278813-0.png?t=1782298614284"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

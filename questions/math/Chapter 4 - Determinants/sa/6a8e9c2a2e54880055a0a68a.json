@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9c2a2e54880055a0a68a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "SA",
+  "question": "Using determinants, obtain the equation of the line passing through $(1,-2)$ and $(4,4)$. Hence, determine the point at which it meets the $x$-axis.",
+  "answeroption": "A",
+  "explanation": "<b>Determinant condition</b><br>For an arbitrary point $(x,y)$ on the line, $$\\begin{vmatrix}x&y&1\\\\1&-2&1\\\\4&4&1\\end{vmatrix}=0$$<br><b>Expansion and simplification</b><br>Expanding gives $$x(-2-4)-y(1-4)+(4+8)=0$$ Therefore, $$-6x+3y+12=0$$ or $$2x-y-4=0$$<br><b>Intersection with the $x$-axis</b><br>On the $x$-axis, $y=0$. Thus, $$2x-4=0$$ giving $x=2$.<br>Hence, the line meets the $x$-axis at $(2,0)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2x-y-4=0$; the line meets the $x$-axis at $(2,0)$.",
+    "B": "$2x+y-4=0$; the line meets the $x$-axis at $(2,0)$.",
+    "C": "$x-2y-4=0$; the line meets the $x$-axis at $(4,0)$.",
+    "D": "$2x-y+4=0$; the line meets the $x$-axis at $(-2,0)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

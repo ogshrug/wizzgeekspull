@@ -1,0 +1,30 @@
+{
+  "id": "69aa6a60d30adc5083911b7e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\tan^{-1}(x)$ and $g(x) = \\cos^{-1}\\left(\\frac{x}{\\sqrt{1+x^2}}\\right)$ for $x \\in \\mathbb{R}$.<br /><br />(a) Prove that $f(x) + g(x) = \\frac{\\pi}{2}$ for all $x \\in \\mathbb{R}$.<br /><br />(b) Suppose $y = \\tan^{-1} x$ and consider the transformation $x \\mapsto y$, and then $y \\mapsto g(x)$. What is the composition $G(y)$?<br /><br />(c) Find $\\frac{d}{dx} g(x)$ for all $x$, and discuss its differentiability.<br /><br />(d) Construct a relation $R$ on $\\mathbb{R}$ by $a R b$ iff $f(a) = f(b)$. State whether $R$ is an equivalence relation, and if so, describe the corresponding partition of $\\mathbb{R}$.",
+  "answeroption": "B",
+  "explanation": "**Concepts being tested:**<br />- Inverse trigonometric function identities (Inverse Trigonometric Functions)<br />- Function composition (Relations and Functions)<br />- Differentiability (Continuity & Differentiability)<br /><br />(a)<br />$\\cos^{-1}(\\frac{x}{\\sqrt{1+x^2}})=\\sin^{-1}(\\frac{1}{\\sqrt{1+x^2}})$<br />Let $x=\\tan\\theta$; then $\\sin\\theta=\\frac{x}{\\sqrt{1+x^2}},\\cos\\theta=\\frac{1}{\\sqrt{1+x^2}}$<br />So $\\cos^{-1}(\\frac{x}{\\sqrt{1+x^2}})=\\frac{\\pi}{2}-\\tan^{-1}x$<br />So $f(x)+g(x)=\\frac{\\pi}{2}$<br /><br />(b)<br />If $y=\\tan^{-1}x$, so $x=\\tan y$<br />$g(x)=\\cos^{-1}(\\frac{x}{\\sqrt{1+x^2}})$<br />Plug $x=\\tan y$: $\\frac{\\tan y}{\\sqrt{1+\\tan^2 y}}=\\frac{\\tan y}{\\sec y}=\\sin y$<br />Hence $g(x)=\\cos^{-1}\\sin y=\\frac{\\pi}{2}-y$<br />So $G(y)=\\frac{\\pi}{2}-y$<br /><br />(c)<br />Let $h(x)=\\frac{x}{\\sqrt{1+x^2}}$, so $g(x)=\\cos^{-1} h(x)$<br />$\\frac{d}{dx}h(x)=\\frac{\\sqrt{1+x^2}-x\\cdot \\frac{x}{\\sqrt{1+x^2}}}{1+x^2}=\\frac{1+x^2-x^2}{(1+x^2)^{3/2}}=\\frac{1}{(1+x^2)^{3/2}}$<br />$\\frac{d}{dx} \\cos^{-1} h(x) = -\\frac{1}{\\sqrt{1-h(x)^2}} \\cdot \\frac{1}{(1+x^2)^{3/2}}$<br />Now $h(x)^2=\\frac{x^2}{1+x^2}$ so $1-h(x)^2=\\frac{1}{1+x^2}$ so $\\sqrt{1-h(x)^2}=\\frac{1}{\\sqrt{1+x^2}}$<br />So $\\frac{d}{dx}g(x)=-\\frac{1}{\\sqrt{1+x^2}}\\cdot \\frac{1}{(1+x^2)^{3/2}}=-\\frac{1}{1+x^2}$<br />$g(x)$ is differentiable $\\forall x$.<br /><br />(d)<br />$\\tan^{-1}(a)=\\tan^{-1}(b)\\implies a=b$ ($\\tan^{-1}$ is one-one on $\\mathbb{R}$). So $R$ is equivalence, classes are singletons.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)+g(x)=\\pi$<br />(b) $G(y)=\\pi-y$<br />(c) $g'(x)=\\frac{1}{1+x^2}$ and $g$ is differentiable for all $x$<br />(d) $R$ is not an equivalence relation",
+    "B": "(a) $f(x)+g(x)=\\frac{\\pi}{2}$<br />(b) $G(y)=\\frac{\\pi}{2}-y$<br />(c) $g'(x)=-\\frac{1}{1+x^2}$ and $g$ is differentiable for all $x\\in\\mathbb{R}$<br />(d) $R$ is an equivalence relation and its equivalence classes are singleton sets $\\{a\\}$ for each $a\\in\\mathbb{R}$",
+    "C": "(a) $f(x)+g(x)=0$<br />(b) $G(y)=y$<br />(c) $g'(x)=-\\frac{x}{1+x^2}$ and $g$ is not differentiable at $x=0$<br />(d) $R$ is symmetric only",
+    "D": "(a) $f(x)+g(x)=\\frac{3\\pi}{2}$<br />(b) $G(y)=\\frac{\\pi}{2}+y$<br />(c) $g'(x)=\\frac{x}{\\sqrt{1+x^2}}$ and $g$ is differentiable only for $x>0$<br />(d) $R$ partitions $\\mathbb{R}$ into two classes"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:47:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

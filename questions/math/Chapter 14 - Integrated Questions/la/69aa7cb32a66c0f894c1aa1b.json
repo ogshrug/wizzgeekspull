@@ -1,0 +1,30 @@
+{
+  "id": "69aa7cb32a66c0f894c1aa1b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x)=e^x\\sin^2x$ and<br /><br />$$g(x)=\\int_0^x f(t)\\,dt.$$<br /><br />(a) Prove that $g(x)$ satisfies a differential equation of the form<br /><br />$$\\frac{d^2g}{dx^2}-2\\frac{dg}{dx}+2g=h(x),$$<br /><br />where $h(x)$ is an explicit function to be found.<br /><br />(b) Find $h(x)$ and fully simplify it.<br /><br />(c) By using an appropriate substitution, solve for $g(x)$.<br /><br />(d) Evaluate<br /><br />$$\\int_0^{\\pi} e^x\\sin^2x\\,dx$$<br /><br />using the relationship found above.",
+  "answeroption": "A",
+  "explanation": "**Concepts Being Tested:**<br />- Properties of definite integrals<br />- Formulation and solving second order differential equations<br />- Integration by parts and substitution<br /><br />**Solution:**<br /><br />(a) We are given:<br />$g(x) = \\int_0^x e^t \\sin^2 t dt$<br /><br />First, note that:<br />$\\frac{dg}{dx} = f(x) = e^x \\sin^2 x$<br /><br />$\\frac{d^2g}{dx^2} = \\frac{d}{dx}\\left( e^x \\sin^2 x \\right)$<br /><br />Compute the derivative:<br />$\\frac{d}{dx} \\left( e^x \\sin^2 x \\right) = e^x \\sin^2 x + e^x \\cdot 2\\sin x \\cos x$<br /><br />$= e^x \\left( \\sin^2 x + 2\\sin x \\cos x \\right)$<br /><br />$= e^x (\\sin^2 x + \\sin 2x)$<br /><br />Thus:<br />$\\frac{d^2g}{dx^2} = e^x (\\sin^2 x + \\sin 2x)$<br /><br />Now,<br />$\\frac{d^2g}{dx^2} - 2\\frac{dg}{dx} + 2g(x) = e^x (\\sin^2 x + \\sin 2x) - 2e^x \\sin^2 x + 2g(x)$<br /><br />$= e^x (\\sin 2x - \\sin^2 x) + 2g(x)$<br /><br />Thus,<br />$h(x) = e^x (\\sin 2x - \\sin^2 x)$<br /><br />(b) $h(x) = e^x (\\sin 2x - \\sin^2 x)$<br /><br />Fully expand $\\sin 2x = 2\\sin x \\cos x$, so:<br />$h(x) = e^x (2 \\sin x \\cos x - \\sin^2 x)$<br /><br />Or, $h(x) = e^x(2\\sin x\\cos x - \\sin^2 x)$<br /><br />(c) To find $g(x)$ explicitly, note:<br /><br />Let's set $I = \\int e^x \\sin^2 x dx$<br /><br />Write $\\sin^2 x = \\frac{1 - \\cos 2x}{2}$<br /><br />$\\Rightarrow I = \\int e^x \\cdot \\frac{1 - \\cos 2x}{2} dx = \\frac{1}{2} \\int e^x dx - \\frac{1}{2} \\int e^x \\cos 2x dx$<br /><br />Now:<br />$\\int e^x \\cos 2x dx = \\text{Let this be } J$<br /><br />We can use the standard formula:<br />$\\int e^{ax} \\cos(bx) dx = \\frac{e^{ax}}{a^2 + b^2} (a \\cos bx + b \\sin bx) + C$<br /><br />Here $a=1, b=2$<br /><br />So,<br />$J = \\int e^x \\cos 2x dx = \\frac{e^x}{1^2 + 2^2} (1\\cos 2x + 2\\sin 2x) = \\frac{e^x}{5}(\\cos 2x + 2\\sin 2x)$<br /><br />Therefore,<br />$I = \\frac{e^x}{2} - \\frac{1}{2} \\cdot \\frac{e^x}{5}(\\cos 2x + 2\\sin 2x)$<br /><br />$= \\frac{e^x}{2} - \\frac{e^x}{10} (\\cos 2x + 2\\sin 2x)$<br /><br />$= \\frac{e^x}{2} - \\frac{e^x}{10}\\cos 2x - \\frac{e^x}{5} \\sin 2x$<br /><br />So,<br />$g(x) = I \\Big|_{0}^x = \\left[ \\frac{e^x}{2} - \\frac{e^x}{10}\\cos 2x - \\frac{e^x}{5} \\sin 2x \\right] - \\left[ \\frac{1}{2} - \\frac{1}{10} - 0 \\right]$<br /><br />(d) $\\int_0^{\\pi} e^x \\sin^2 x dx = g(\\pi)$<br /><br />So,<br />Substitute $x = \\pi$:<br /><br />$e^{\\pi}$, $\\cos 2\\pi = 1$, $\\sin 2\\pi = 0$<br /><br />Thus,<br /><br />$g(\\pi) = \\frac{e^{\\pi}}{2} - \\frac{e^{\\pi}}{10} \\times 1 - \\frac{e^{\\pi}}{5} \\times 0 - \\left( \\frac{1}{2} - \\frac{1}{10} \\right)$<br /><br />$= \\frac{e^{\\pi}}{2} - \\frac{e^{\\pi}}{10} - \\left(\\frac{5-1}{10}\\right)$<br /><br />$= \\frac{5e^{\\pi} - e^{\\pi}}{10} - \\frac{2}{5}$<br /><br />$= \\frac{4e^{\\pi}}{10} - \\frac{2}{5}$<br /><br />$= \\frac{2e^{\\pi}}{5} - \\frac{2}{5}$<br /><br />So, $\\int_0^{\\pi} e^x \\sin^2 x dx = \\frac{2}{5}(e^{\\pi} - 1)$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Since $g'(x)=e^x\\sin^2x$ and $g''(x)=e^x(\\sin^2x+\\sin2x)$, the required relation is obtained as stated<br />(b) $h(x)=e^x(\\sin2x-\\sin^2x)+2g(x)$ in the form used in the explanation<br />(c) $g(x)=\\frac{e^x}{2}-\\frac{e^x}{10}\\cos2x-\\frac{e^x}{5}\\sin2x-\\frac{2}{5}$<br />(d) $\\int_0^{\\pi}e^x\\sin^2x\\,dx=\\frac{2}{5}(e^{\\pi}-1)$",
+    "B": "(a) $g''-2g'+2g=0$<br />(b) $h(x)=0$<br />(c) $g(x)=e^x\\sin^2x$<br />(d) Integral is $0$",
+    "C": "(a) $g''=g$<br />(b) $h(x)=e^x$<br />(c) $g(x)=e^x$<br />(d) Integral is $e^{\\pi}-1$",
+    "D": "(a) No such differential equation can be formed<br />(b) $h(x)$ is undefined<br />(c) $g(x)$ cannot be evaluated<br />(d) Integral is undefined"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:05:23 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

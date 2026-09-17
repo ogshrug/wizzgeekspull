@@ -1,0 +1,27 @@
+{
+  "id": "6a22a712864be73cfcf6d291",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int \\frac{1}{\\sqrt{x}(\\sqrt{x}+1)(\\sqrt{x}+2)} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use a substitution to remove the square roots. Let $t = \\sqrt{x}$. Differentiating gives $dt = \\frac{1}{2\\sqrt{x}} dx$, which means $\\frac{1}{\\sqrt{x}} dx = 2 dt$.<br />**Step 2:** Substitute these into the integral to completely switch to variable $t$. The integral transforms seamlessly into $\\int \\frac{2}{(t+1)(t+2)} dt$.<br />**Step 3:** Apply partial fraction decomposition to the integrand. We write $\\frac{2}{(t+1)(t+2)} = \\frac{A}{t+1} + \\frac{B}{t+2}$. Multiplying by the common denominator yields $2 = A(t+2) + B(t+1)$.<br />**Step 4:** Find the constants $A$ and $B$. Let $t = -1$: $2 = A(1) \n   A = 2$. Let $t = -2$: $2 = B(-1) \n   B = -2$.<br />**Step 5:** The integral becomes $\\int (\\frac{2}{t+1} - \\frac{2}{t+2}) dt$. Integrate each term to get $2\\log|t+1| - 2\\log|t+2| + C$. Using logarithm rules, this is $2\\log|\\frac{t+1}{t+2}| + C$. Finally, replace $t$ with $\\sqrt{x}$ to get the final answer: $2\\log|\\frac{\\sqrt{x}+1}{\\sqrt{x}+2}| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

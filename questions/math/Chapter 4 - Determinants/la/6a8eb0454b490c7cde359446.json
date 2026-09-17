@@ -1,0 +1,31 @@
+{
+  "id": "6a8eb0454b490c7cde359446",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d71",
+    "69c6603740512f018fa94d72",
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "LA",
+  "question": "For real parameters $k$ and $\\lambda$, consider<br>$$x+y=2$$<br>$$2x+ky=\\lambda$$<br><br><b>(a)</b> Determine the condition on $k$ for which the system has a unique solution and obtain that solution.<br><br><b>(b)</b> When $k=2$, determine the value of $\\lambda$ for which the system has infinitely many solutions.<br><br><b>(c)</b> State the condition on $\\lambda$ for which the system is inconsistent when $k=2$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The coefficient determinant is<br>$$D=\\begin{vmatrix}1 & 1\\\\2 & k\\end{vmatrix}=k-2$$<br>The system has a unique solution when<br>$$k\\neq2$$<br>From $x+y=2$,<br>$$x=2-y$$<br>Substituting in the second equation,<br>$$2(2-y)+ky=\\lambda$$<br>$$4+(k-2)y=\\lambda$$<br>Therefore,<br>$$y=\\frac{\\lambda-4}{k-2}$$<br>and<br>$$x=2-\\frac{\\lambda-4}{k-2}=\\frac{2k-\\lambda}{k-2}$$<br><br><b>(b)</b><br>When $k=2$, the equations become<br>$$x+y=2$$<br>$$2x+2y=\\lambda$$<br>Twice the first equation is $2x+2y=4$. Therefore, the two equations are identical when<br>$$\\lambda=4$$<br>In this case, the system has infinitely many solutions.<br><br><b>(c)</b><br>When $k=2$ and $\\lambda\\neq4$, the left-hand side of the second equation is twice that of the first equation, but its right-hand side is not twice the first right-hand side. Therefore, the system is inconsistent for<br>$$\\lambda\\neq4$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Unique solution for $k\\neq2$: $x=\\frac{\\lambda-2k}{k-2},\\ y=\\frac{4-\\lambda}{k-2}$<br>(b) For $k=2$, infinitely many solutions when $\\lambda=-4$<br>(c) Inconsistent when $\\lambda\\neq-4$",
+    "B": "(a) Unique solution only for $k=2$<br>(b) Infinitely many solutions for every $\\lambda$<br>(c) The system is never inconsistent",
+    "C": "(a) Unique solution for $k\\neq0$: $x=\\frac{2k-\\lambda}{k},\\ y=\\frac{\\lambda-4}{k}$<br>(b) For $k=2$, infinitely many solutions when $\\lambda=2$<br>(c) Inconsistent when $\\lambda\\neq2$",
+    "D": "(a) Unique solution for $k\\neq2$: $x=\\frac{2k-\\lambda}{k-2},\\ y=\\frac{\\lambda-4}{k-2}$<br>(b) For $k=2$, infinitely many solutions when $\\lambda=4$<br>(c) For $k=2$, the system is inconsistent when $\\lambda\\neq4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

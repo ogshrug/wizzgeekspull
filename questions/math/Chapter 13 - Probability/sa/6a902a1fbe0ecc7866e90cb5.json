@@ -1,0 +1,29 @@
+{
+  "id": "6a902a1fbe0ecc7866e90cb5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "For two events $A$ and $B$, $P(A)=0.6$, $P(B)=0.5$ and $P(A\\cup B)=0.8$. Find (i) $P(A|B)$ and (ii) $P(B|A)$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Identification of the given probabilities</b><br>We are given $P(A)=0.6$, $P(B)=0.5$ and $P(A\\cup B)=0.8$. To determine the conditional probabilities, first obtain $P(A\\cap B)$.<br><b>Step 2: Determination of the intersection probability</b><br>Using $$P(A\\cup B)=P(A)+P(B)-P(A\\cap B),$$ we get $$0.8=0.6+0.5-P(A\\cap B).$$ Hence, $$P(A\\cap B)=0.3.$$<br><b>Step 3: Calculation of $P(A|B)$</b><br>By conditional probability, $$P(A|B)=\\frac{P(A\\cap B)}{P(B)}=\\frac{0.3}{0.5}=\\frac35.$$<br><b>Step 4: Calculation of $P(B|A)$</b><br>Similarly, $$P(B|A)=\\frac{P(A\\cap B)}{P(A)}=\\frac{0.3}{0.6}=\\frac12.$$<br><b>Step 5: Final result</b><br>Therefore, $$\\boxed{P(A|B)=\\frac35,\\quad P(B|A)=\\frac12}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $P(A|B)=\\frac{1}{2}$<br>(ii) $P(B|A)=\\frac{3}{5}$",
+    "B": "(i) $P(A|B)=\\frac{3}{5}$<br>(ii) $P(B|A)=\\frac{3}{5}$",
+    "C": "(i) $P(A|B)=\\frac{1}{2}$<br>(ii) $P(B|A)=\\frac{1}{2}$",
+    "D": "(i) $P(A|B)=\\frac{3}{5}$<br>(ii) $P(B|A)=\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

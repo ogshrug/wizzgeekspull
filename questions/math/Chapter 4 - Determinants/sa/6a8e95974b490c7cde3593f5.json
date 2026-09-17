@@ -1,0 +1,29 @@
+{
+  "id": "6a8e95974b490c7cde3593f5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "SA",
+  "question": "Without expanding, show that $\\begin{vmatrix}1&2&3\\\\2&3&4\\\\3&4&5\\end{vmatrix}=0$. State the relation among its rows that justifies the result.",
+  "answeroption": "C",
+  "explanation": "<b>Relation among the rows</b><br>Let the rows of the determinant be denoted by $R_1$, $R_2$ and $R_3$. Their elements show that $$R_1+R_3=\\begin{bmatrix}4&6&8\\end{bmatrix}=2R_2$$<br><b>Linear dependence of rows</b><br>Thus, $$R_1-2R_2+R_3=0$$ Therefore, the three rows are linearly dependent.<br><b>Zero-determinant property</b><br>If the rows of a determinant are linearly dependent, its value is zero. Equivalently, applying $R_3\\to R_3-2R_2+R_1$ produces a complete row of zeros.<br><b>Conclusion</b><br>Hence, without direct expansion, $$\\begin{vmatrix}1&2&3\\\\2&3&4\\\\3&4&5\\end{vmatrix}=0$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$R_1+R_2=R_3$, so the determinant is $0$.",
+    "B": "$R_1-R_3=2R_2$, so the determinant is $0$.",
+    "C": "$R_1+R_3=2R_2$, so the determinant is $0$.",
+    "D": "$R_1+R_3=R_2$, so the determinant is $0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

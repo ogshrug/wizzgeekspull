@@ -1,0 +1,25 @@
+{
+  "id": "6a1425492a89680e5835ce7f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "VSA",
+  "question": "If three non-zero vectors are $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ such that $\\vec{a}\\cdot\\vec{b}=\\vec{a}\\cdot\\vec{c}$ and $\\vec{a}\\times\\vec{b}=\\vec{a}\\times\\vec{c}$, then show that $\\vec{b}=\\vec{c}$",
+  "answeroption": "",
+  "explanation": "**Step 1: Analyze Dot Product.** $\\vec{a}\\cdot(\\vec{b}-\\vec{c}) = 0 \\implies \\vec{a} \\perp (\\vec{b}-\\vec{c})$ or $(\\vec{b}-\\vec{c}) = \\vec{0}$.<br />**Step 2: Analyze Cross Product.** $\\vec{a}\\times(\\vec{b}-\\vec{c}) = \\vec{0} \\implies \\vec{a} \\parallel (\\vec{b}-\\vec{c})$ or $(\\vec{b}-\\vec{c}) = \\vec{0}$.<br />**Step 3: Conclusion.** Since a non-zero vector cannot be simultaneously perpendicular and parallel to another, we must have $\\vec{b}-\\vec{c} = \\vec{0} \\implies \\vec{b}=\\vec{c}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

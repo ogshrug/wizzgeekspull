@@ -1,0 +1,31 @@
+{
+  "id": "6a9147e94b490c7cde3595c9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e1",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A class examines a linear programming model with $x\\geq0$, $y\\geq0$, $2x-y\\geq-5$, $3x+y\\geq3$ and $2x-3y\\leq12$. The quantity under study is $Z=-50x+20y$, which is to be minimised. Among the initially examined feasible corner points are $(0,5)$, $(0,3)$, $(1,0)$ and $(6,0)$, giving values 100, 60, $-50$ and $-300$ respectively. Some students immediately claim that $(6,0)$ must be an optimal feasible solution because it gives the smallest value among these corner points. The class decides to test this conclusion by examining additional feasible solutions farther from the listed points.<br><br><b>(a)</b> Verify that $(6,0)$ is a feasible solution.<br><br><b>(b)</b> Verify whether $(10,3)$ is a feasible solution and calculate its value of $Z$.<br><br><b>(c)</b> Compare the value at $(10,3)$ with the value at $(6,0)$ and decide whether $(6,0)$ is an optimal feasible solution.<br><br><b>(d)</b> For $t\\geq6$, consider $P_t=\\left(t,\\frac{2t-12}{3}\\right)$. Show that these are feasible solutions and explain why the model has no optimal feasible solution for minimisation.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>For $(6,0)$,<br>$$2(6)-0=12\\geq-5$$<br>$$3(6)+0=18\\geq3$$<br>$$2(6)-3(0)=12\\leq12$$<br>and both coordinates are non-negative. Hence, $(6,0)$ is a feasible solution.<br><br><b>(b)</b><br>For $(10,3)$,<br>$$2(10)-3=17\\geq-5$$<br>$$3(10)+3=33\\geq3$$<br>$$2(10)-3(3)=11\\leq12$$<br>and both coordinates are non-negative. Thus, $(10,3)$ is a feasible solution.<br><br>Its value is<br>$$Z=-50(10)+20(3)=-500+60=-440$$<br><br><b>(c)</b><br>At $(6,0)$, $Z=-300$, whereas at the feasible solution $(10,3)$, $Z=-440$. Since<br>$$-440<-300$$<br>the feasible point $(10,3)$ gives a smaller value. Therefore, $(6,0)$ is not an optimal feasible solution for minimisation.<br><br><b>(d)</b><br>Let<br>$$P_t=\\left(t,\\frac{2t-12}{3}\\right),\\quad t\\geq6$$<br>Since $t\\geq6$, both coordinates are non-negative.<br><br>For the third restriction,<br>$$2t-3\\left(\\frac{2t-12}{3}\\right)=12\\leq12$$<br>For the first restriction,<br>$$2t-\\frac{2t-12}{3}=\\frac{4t+12}{3}\\geq-5$$<br>For the second restriction,<br>$$3t+\\frac{2t-12}{3}=\\frac{11t-12}{3}\\geq3$$<br>for $t\\geq6$. Hence, every $P_t$ is a feasible solution.<br><br>At $P_t$,<br>$$Z=-50t+20\\left(\\frac{2t-12}{3}\\right)=-\\frac{110}{3}t-80$$<br>As $t$ is increased, this value becomes smaller and smaller without any lowest value. Thus, no feasible solution gives a minimum value of $Z$. Therefore, the model has no optimal feasible solution for minimisation.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(6,0)$ is feasible<br>(b) $(10,3)$ is feasible and gives $Z=-440$<br>(c) $(6,0)$ remains optimal because $-300>-440$<br>(d) $P_t$ is infeasible for large $t$, so the minimum is $-440$",
+    "B": "(a) $(6,0)$ is infeasible<br>(b) $(10,3)$ is feasible and gives $Z=-440$<br>(c) $(6,0)$ is not optimal<br>(d) The minimum occurs at $(10,3)$",
+    "C": "(a) $(6,0)$ is feasible<br>(b) $(10,3)$ is infeasible<br>(c) $(6,0)$ is optimal with $Z=-300$<br>(d) $P_t$ gives increasing values of $Z$",
+    "D": "(a) $(6,0)$ is feasible<br>(b) $(10,3)$ is feasible and $Z=-440$<br>(c) Since $-440<-300$, $(6,0)$ is not optimal<br>(d) For $P_t=\\left(t,\\frac{2t-12}{3}\\right)$, $t\\geq6$, all points are feasible and $Z=-\\frac{110}{3}t-80\\to-\\infty$, so no minimum optimal feasible solution exists"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

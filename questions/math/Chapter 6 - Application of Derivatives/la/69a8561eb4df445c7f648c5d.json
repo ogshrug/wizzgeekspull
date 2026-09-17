@@ -1,0 +1,30 @@
+{
+  "id": "69a8561eb4df445c7f648c5d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = x^4 - 8x^3 + 24x^2 - 32x + 18$. Find all points of local maxima and minima, and determine the absolute maximum and minimum on the interval $[0, 4]$.",
+  "answeroption": "B",
+  "explanation": "First derivative:<br /><br />$f'(x)=4x^3-24x^2+48x-32=4(x-2)^3$.<br /><br />Critical point at $x=2$.<br /><br />Since $f'(x)$ changes from negative to positive at $x=2$, it is a local minimum.<br /><br />Now evaluate function at critical point and endpoints.<br /><br />$f(0)=18$, $f(2)=2$, $f(4)=18$.<br /><br />Thus, local minimum at $(2,2)$.<br /><br />Absolute minimum is $2$ at $x=2$.<br /><br />Absolute maximum is $18$ at $x=0$ and $x=4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Local maximum at $(2,2)$; absolute maximum is $2$ at $x=2$ and absolute minimum is $18$ at $x=0,4$.",
+    "B": "Local minimum at $(2,2)$; absolute minimum is $2$ at $x=2$ and absolute maximum is $18$ at $x=0$ and $x=4$.",
+    "C": "No local maxima or minima; absolute maximum is $18$ at $x=0$ only.",
+    "D": "Local minimum at $(0,18)$; absolute minimum is $18$ at $x=0$ and $x=4$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:56:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

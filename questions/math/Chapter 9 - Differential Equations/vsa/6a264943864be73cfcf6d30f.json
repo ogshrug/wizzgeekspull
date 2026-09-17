@@ -1,0 +1,28 @@
+{
+  "id": "6a264943864be73cfcf6d30f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "VSA",
+  "question": "Find the sum of the order and the degree of the differential equation :<br />$(x+\\frac{dy}{dx})^{2}=(\\frac{dy}{dx})^{2}+1$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given differential equation is $(x+\\frac{dy}{dx})^{2}=(\\frac{dy}{dx})^{2}+1$. To determine its order and degree, we first need to simplify and express the equation as a polynomial in its derivatives. Expanding the left-hand side using the algebraic identity $(a+b)^2 = a^2 + 2ab + b^2$, we get $x^2 + 2x(\\frac{dy}{dx}) + (\\frac{dy}{dx})^2 = (\\frac{dy}{dx})^2 + 1$.<br />**Step 2:** Next, we simplify the equation by subtracting $(\\frac{dy}{dx})^2$ from both sides. This eliminates the squared derivative term from both sides, leaving us with the simplified linear form: $x^2 + 2x(\\frac{dy}{dx}) = 1$. This equation is now expressed cleanly as a standard polynomial in terms of its highest-order derivative.<br />**Step 3:** Now, we identify the order and degree. The order of a differential equation is defined as the highest derivative present, which here is $\\frac{dy}{dx}$, making the order equal to $1$. The degree is the power of this highest-order derivative when the equation is a polynomial in derivatives, which here is $1$. Adding these together, the required sum of the order and the degree is $1 + 1 = 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-1",
+    "2022-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

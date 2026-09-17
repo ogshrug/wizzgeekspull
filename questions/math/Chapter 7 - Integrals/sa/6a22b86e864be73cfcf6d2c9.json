@@ -1,0 +1,26 @@
+{
+  "id": "6a22b86e864be73cfcf6d2c9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "SA",
+  "question": "Find $\\int \\frac{dx}{\\sqrt{\\sin^3 x \\cos(x-\\alpha)}}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Expand the internal cosine expression situated in the radical denominator: $\\cos(x-\\alpha) = \\cos x \\cos \\alpha + \\sin x \\sin \\alpha$.<br />**Step 2:** The full integral formulation is $\\int \\frac{dx}{\\sqrt{\\sin^3 x (\\cos x \\cos \\alpha + \\sin x \\sin \\alpha)}}$. Factor out a $\\sin x$ term precisely inside the square root to algebraically get $\\int \\frac{dx}{\\sqrt{\\sin^4 x (\\cot x \\cos \\alpha + \\sin \\alpha)}}$.<br />**Step 3:** Rigorously pull $\\sin^4 x$ completely out of the square root radical as $\\sin^2 x$, which directly transitions into $\\csc^2 x$ in the numerator plane. The current integral is $\\int \\frac{\\csc^2 x}{\\sqrt{\\cot x \\cos \\alpha + \\sin \\alpha}} dx$.<br />**Step 4:** Implement targeted substitution: set $t = \\cot x \\cos \\alpha + \\sin \\alpha$. Differentiating this expression gives $dt = (-\\csc^2 x \\cos \\alpha) dx$, which accurately rearranges to $\\csc^2 x dx = -\\frac{dt}{\\cos \\alpha}$.<br />**Step 5:** The modified integral functionally becomes $-\\frac{1}{\\cos \\alpha} \\int t^{-1/2} dt = -\\frac{1}{\\cos \\alpha} (2\\sqrt{t}) + c$. Substitute the initial $t$ back to finalize the strict expression $-\\frac{2}{\\cos \\alpha}\\sqrt{\\cot x \\cos \\alpha + \\sin \\alpha} + c$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a97c48d8e9ca3b2934579b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "SA",
+  "question": "Determine the integrating factor for the differential equation $\\frac{dy}{dx} + \\frac{y}{x} = x^2$.",
+  "answeroption": "A",
+  "explanation": "The given equation is linear: $\\frac{dy}{dx} + \\frac{1}{x} y = x^2$<br />Integrating factor (IF): $e^{\\int \\frac{1}{x} dx} = e^{\\ln|x|} = |x|$<br />Since $x$ can be positive, IF is $x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x$",
+    "B": "$\\frac{1}{x}$",
+    "C": "$e^x$",
+    "D": "$x^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:51:20 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a313c99ed9d5eb2aa722a25",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Prove that a function f: [0, ∞) -> [-5, ∞) defined as f(x) = 4x^2+4x-5 is both one-one and onto.",
+  "answeroption": "",
+  "explanation": "**Step 1: Check for One-One (Injective)** \nAssume $f(x_1) = f(x_2)$ for $x_1, x_2 \\in [0, \\infty)$:  \n$$4x_1^2 + 4x_1 - 5 = 4x_2^2 + 4x_2 - 5$$  \n$$4(x_1^2 - x_2^2) + 4(x_1 - x_2) = 0$$  \n$$4(x_1 - x_2)(x_1 + x_2) + 4(x_1 - x_2) = 0$$  \n$$4(x_1 - x_2)(x_1 + x_2 + 1) = 0$$  \nSince $x_1, x_2 \\ge 0$, we have $x_1 + x_2 + 1 > 0$. Therefore, $x_1 - x_2 = 0 \\Rightarrow x_1 = x_2$. Hence, $f$ is **one-one**.\n\n**Step 2: Check for Onto (Surjective)** \nLet $y \\in [-5, \\infty)$ be any element in the codomain. We need to find $x \\in [0, \\infty)$ such that $f(x) = y$:  \n$$4x^2 + 4x - 5 = y \\Rightarrow 4x^2 + 4x - (y+5) = 0$$  \nUsing the quadratic formula:  \n$$x = \\frac{-4 \\pm \\sqrt{16 + 16(y+5)}}{8} = \\frac{-4 \\pm 4\\sqrt{1 + y + 5}}{8} = \\frac{-1 \\pm \\sqrt{y+6}}{2}$$  \nSince $y \\ge -5$, we have $y+6 \\ge 1$, so $\\sqrt{y+6} \\ge 1$. Taking the positive root:  \n$$x = \\frac{-1 + \\sqrt{y+6}}{2} \\ge 0$$  \nThus, for every $y \\in [-5, \\infty)$, there exists $x = \\frac{\\sqrt{y+6} - 1}{2} \\in [0, \\infty)$ such that $f(x) = y$. Hence, $f$ is **onto**.\n\n**Step 3: Final Conclusion** \nThe function $f(x) = 4x^2+4x-5$ with domain $[0, \\infty)$ and codomain $[-5, \\infty)$ is both one-one and onto, as proven above.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

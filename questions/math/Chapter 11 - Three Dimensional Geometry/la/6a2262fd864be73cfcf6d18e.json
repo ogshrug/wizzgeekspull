@@ -1,0 +1,28 @@
+{
+  "id": "6a2262fd864be73cfcf6d18e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the image $A'$ of the point $A(2, 1, 2)$ in the line $l:\\vec{r}=4\\hat{i}+2\\hat{j}+2\\hat{k}+\\lambda(\\hat{i}-\\hat{j}-\\hat{k})$. Also, find the equation of line joining $AA'$. Find the foot of perpendicular from point $A$ on the line $l$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** A generic point $P$ on line $l$ has the position vector $\\vec{r} = (4+\\lambda)\\hat{i} + (2-\\lambda)\\hat{j} + (2-\\lambda)\\hat{k}$. Let this point be the foot of the perpendicular drawn from point $A(2, 1, 2)$ to the line.<br />**Step 2:** Find the direction ratios of the line segment $AP$ by subtracting the coordinates of $A$ from $P$: $(4+\\lambda-2)\\hat{i} + (2-\\lambda-1)\\hat{j} + (2-\\lambda-2)\\hat{k} = (\\lambda+2)\\hat{i} + (1-\\lambda)\\hat{j} - \\lambda\\hat{k}$.<br />**Step 3:** Since line segment $AP$ is perpendicular to line $l$, its dot product with the direction vector of $l$, $\\vec{b} = \\hat{i} - \\hat{j} - \\hat{k}$, must equal zero. Thus, $1(\\lambda+2) - 1(1-\\lambda) - 1(-\\lambda) = 0$.<br />**Step 4:** Solve for $\\lambda$: $\\lambda + 2 - 1 + \\lambda + \\lambda = 0 \\implies 3\\lambda + 1 = 0 \\implies \\lambda = -\\frac{1}{3}$.<br />**Step 5:** Substitute $\\lambda = -\\frac{1}{3}$ back into the coordinates of $P$ to find the foot of the perpendicular: $P(4-\\frac{1}{3}, 2-(-\\frac{1}{3}), 2-(-\\frac{1}{3})) = (\\frac{11}{3}, \\frac{7}{3}, \\frac{7}{3})$.<br />**Step 6:** Let $A'(x, y, z)$ be the image of $A$. The point $P$ is the exact midpoint of the line segment $AA'$. Using the midpoint formula: $\\frac{2+x}{2} = \\frac{11}{3} \\implies x = \\frac{16}{3}$. Similarly, $\\frac{1+y}{2} = \\frac{7}{3} \\implies y = \\frac{11}{3}$, and $\\frac{2+z}{2} = \\frac{7}{3} \\implies z = \\frac{8}{3}$. The image is $A'(\\frac{16}{3}, \\frac{11}{3}, \\frac{8}{3})$.<br />**Step 7:** The equation of line $AA'$ passes through $A(2, 1, 2)$ and $P(\\frac{11}{3}, \\frac{7}{3}, \\frac{7}{3})$. The direction ratios are $(\\frac{11}{3}-2, \\frac{7}{3}-1, \\frac{7}{3}-2) = (\\frac{5}{3}, \\frac{4}{3}, \\frac{1}{3})$, which is proportional to $(5, 4, 1)$. The Cartesian equation is $\\frac{x-2}{5} = \\frac{y-1}{4} = \\frac{z-2}{1}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

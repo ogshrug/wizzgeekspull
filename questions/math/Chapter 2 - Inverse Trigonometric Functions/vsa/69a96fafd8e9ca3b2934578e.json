@@ -1,0 +1,29 @@
+{
+  "id": "69a96fafd8e9ca3b2934578e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "VSA",
+  "question": "Find the domain of the function $y = \\csc^{-1} \\left( \\frac{1+x}{x} \\right)$.",
+  "answeroption": "A",
+  "explanation": "For $\\csc^{-1}(u)$ to be defined, the argument must satisfy $|u| \\ge 1$.<br /><br />Thus $\\left|\\frac{1+x}{x}\\right| \\ge 1$ and $x \\ne 0$.<br /><br />Case 1: $\\frac{1+x}{x} \\ge 1$.<br /><br />$\\frac{1+x}{x}-1 \\ge 0 \\Rightarrow \\frac{1}{x} \\ge 0 \\Rightarrow x>0$.<br /><br />Case 2: $\\frac{1+x}{x} \\le -1$.<br /><br />$\\frac{1+2x}{x} \\le 0$. Critical points are $x=-\\frac12$ and $x=0$.<br /><br />Sign analysis gives $x \\in [-\\frac12,0)$.<br /><br />Combining both cases, the domain is $[-\\frac12,0) \\cup (0,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$[-\\frac{1}{2},0) \\cup (0,\\infty)$",
+    "B": "$(-\\infty,-\\frac{1}{2}] \\cup (0,\\infty)$",
+    "C": "$[-\\frac{1}{2},\\infty)$",
+    "D": "$(-\\infty,0) \\cup (0,\\infty)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:57:35 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a901bb6751910886affba24",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d5"
+  ],
+  "question_type": "LA",
+  "question": "Determine the acute angle between the planes $x+2y+2z-7=0$ and $2x+2y+z+3=0$, and hence justify whether the given planes are parallel, perpendicular or neither.",
+  "answeroption": "D",
+  "explanation": "<b>Given Information</b><br>The normal vectors to the planes $x+2y+2z-7=0$ and $2x+2y+z+3=0$ are respectively<br>$$\\vec{n_1}=\\hat{i}+2\\hat{j}+2\\hat{k}$$<br>and<br>$$\\vec{n_2}=2\\hat{i}+2\\hat{j}+\\hat{k}$$<br>The acute angle between two planes is the acute angle between their normal vectors.<br><br><b>Applying the Formula</b><br>If $\\theta$ is the acute angle between the planes, then<br>$$\\cos\\theta=\\frac{|\\vec{n_1}\\cdot\\vec{n_2}|}{|\\vec{n_1}||\\vec{n_2}|}$$<br>Now,<br>$$\\vec{n_1}\\cdot\\vec{n_2}=1(2)+2(2)+2(1)=8$$<br>Also,<br>$$|\\vec{n_1}|=\\sqrt{1^2+2^2+2^2}=3$$<br>and<br>$$|\\vec{n_2}|=\\sqrt{2^2+2^2+1^2}=3$$<br>Therefore,<br>$$\\cos\\theta=\\frac{8}{9}$$<br>Hence,<br>$$\\theta=\\cos^{-1}\\left(\\frac{8}{9}\\right)$$<br><br><b>Verification</b><br>The normal vectors $(1,2,2)$ and $(2,2,1)$ are not proportional, so the planes are not parallel. Their scalar product is $8$, which is non-zero, so their normals are not perpendicular and therefore the planes are not perpendicular.<br><br><b>Final Result</b><br>The acute angle between the planes is $\\cos^{-1}\\left(\\frac{8}{9}\\right)$, and the planes are neither parallel nor perpendicular.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\theta=\\cos^{-1}\\left(\\frac{1}{9}\\right)$; the planes are perpendicular.",
+    "B": "$\\theta=\\cos^{-1}\\left(\\frac{8}{9}\\right)$; the planes are parallel.",
+    "C": "$\\theta=\\sin^{-1}\\left(\\frac{8}{9}\\right)$; the planes are neither parallel nor perpendicular.",
+    "D": "$\\theta=\\cos^{-1}\\left(\\frac{8}{9}\\right)$; the planes are neither parallel nor perpendicular."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

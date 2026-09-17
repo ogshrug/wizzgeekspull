@@ -1,0 +1,29 @@
+{
+  "id": "6a8f118a4b490c7cde3594c3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "VSA",
+  "question": "The curve $y=x^2-4x$ meets the x-axis at $x=0$ and $x=4$. Find the area enclosed between the curve and the x-axis.",
+  "answeroption": "C",
+  "explanation": "Step 1\\:For $0<x<4$, $x^2-4x<0$. Thus, the curve lies below the x-axis over the given interval.Step 2\\:Area is always positive, so $A=\\int_0^4\\left[0-(x^2-4x)\\right]dx=\\int_0^4(4x-x^2)\\,dx$.Step 3\\:Integrating, $A=\\left[2x^2-\\frac{x^3}{3}\\right]_0^4$.Step 4\\:Therefore, $A=32-\\frac{64}{3}=\\frac{96-64}{3}=\\frac{32}{3}$.Final Answer\\:The enclosed area is $\\frac{32}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{16}{3}$ square units",
+    "B": "$\\frac{64}{3}$ square units",
+    "C": "$\\frac{32}{3}$ square units",
+    "D": "$8$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

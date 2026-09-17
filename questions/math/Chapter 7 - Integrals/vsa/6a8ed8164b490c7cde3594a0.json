@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed8164b490c7cde3594a0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int_{-3}^{3}(x^5+2x^2)\\,dx$ by using the symmetry properties of definite integrals.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> Separate the integrand into $x^5$ and $2x^2$. The function $x^5$ is odd because $(-x)^5=-x^5$, whereas $2x^2$ is even.<br><b>Step 2:</b> Over the symmetric interval $[-3,3]$, the integral of an odd function is zero. Thus, $\\int_{-3}^{3}x^5\\,dx=0$.<br><b>Step 3:</b> For the even part, $$\\int_{-3}^{3}2x^2\\,dx=2\\int_0^3 2x^2\\,dx=4\\int_0^3x^2\\,dx.$$<br><b>Step 4:</b> Therefore, $4\\left[\\frac{x^3}{3}\\right]_0^3=4\\times9=36$.<br><b>Step 5:</b> Hence, the given integral is $\\boxed{36}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$18$",
+    "B": "$54$",
+    "C": "$36$",
+    "D": "$27$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

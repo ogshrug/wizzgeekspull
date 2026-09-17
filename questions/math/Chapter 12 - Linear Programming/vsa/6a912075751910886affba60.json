@@ -1,0 +1,31 @@
+{
+  "id": "6a912075751910886affba60",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8de",
+    "6a13e844d837c8c7efa6b8dd"
+  ],
+  "question_type": "VSA",
+  "question": "For the restrictions $x \\ge 1$, $y \\ge 2$ and $x+y \\le k$, find the least value of $k$ for which a non-empty bounded feasible region exists.",
+  "answeroption": "B",
+  "explanation": "Step 1: From $x \\ge 1$ and $y \\ge 2$, the smallest possible value of the sum $x+y$ is obtained at $(1,2)$.<br>Step 2: Thus, every point satisfying the first two restrictions must have $x+y \\ge 1+2=3$.<br>Step 3: The third restriction requires $x+y \\le k$. Therefore, for at least one common point to exist, we must have $k \\ge 3$.<br>Step 4: If $k<3$, the restrictions are inconsistent and the feasible region is empty.<br>Step 5: For $k=3$, the point $(1,2)$ satisfies all restrictions, so the feasible region is non-empty. It consists of a finite point and is therefore bounded.<br>Hence, the least required value is $k=3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=2$",
+    "B": "$k=3$",
+    "C": "$k=4$",
+    "D": "$k=5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8fd655be0ecc7866e90c5d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f994"
+  ],
+  "question_type": "LA",
+  "question": "The region under the curve $y=4-|x|$ and above the $x$-axis is divided by an ordinate $x=k$, where $0<k<4$, so that the area to the left of the ordinate is three times the area to its right. Express the curve in its appropriate straight-line forms, use integration to determine the exact value of $k$, and verify the prescribed ratio.",
+  "answeroption": "A",
+  "explanation": "Piecewise Form and Total AreaThe curve consists of the straight lines $y=\\begin{cases}4+x, & -4\\leq x\\leq0\\\\4-x, & 0\\leq x\\leq4\\end{cases}$. The total enclosed area is`A=\\int_{-4}^{0}\\left(4+x\\right)dx+\\int_0^4\\left(4-x\\right)dx A=8+8=16`If the right-hand area is $R$, the left-hand area is $3R$. Therefore,`3R+R=16 R=4`Thus, the area to the left of $x=k$ must be $12$.Determination of the OrdinateThe area from $x=-4$ to $x=0$ is $8$. Hence,`8+\\int_0^k\\left(4-x\\right)dx=12 8+4k-\\frac{k^2}{2}=12 k^2-8k+8=0`Using the quadratic formula,`k=\\frac{8\\pm\\sqrt{64-32}}{2}=4\\pm2\\sqrt{2}`Since $0<k<4$, the acceptable value is`k=4-2\\sqrt{2}`VerificationFrom the formation equation,`4k-\\frac{k^2}{2}=4`Therefore, the area to the left is $8+4=12$. The area to the right is`16-12=4`Thus, the required ratio is`12:4=3:1`Final ResultThe required ordinate is $x=4-2\\sqrt{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=4+x$ for $-4\\leq x\\leq0$, $y=4-x$ for $0\\leq x\\leq4$; $k=4-2\\sqrt{2}$; areas $12$ and $4$, ratio $3:1$",
+    "B": "$y=4-x$ for $-4\\leq x\\leq0$, $y=4+x$ for $0\\leq x\\leq4$; $k=4-2\\sqrt{2}$; areas $12$ and $4$, ratio $3:1$",
+    "C": "$y=4+x$ for $-4\\leq x\\leq0$, $y=4-x$ for $0\\leq x\\leq4$; $k=2\\sqrt{2}$; areas $12$ and $4$, ratio $3:1$",
+    "D": "$y=4+x$ for $-4\\leq x\\leq0$, $y=4-x$ for $0\\leq x\\leq4$; $k=4-2\\sqrt{2}$; areas $8$ and $8$, ratio $1:1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

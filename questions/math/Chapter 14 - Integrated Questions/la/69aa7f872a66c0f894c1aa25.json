@@ -1,0 +1,30 @@
+{
+  "id": "69aa7f872a66c0f894c1aa25",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "(a) Let $y = \\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$. Prove that $y = 2 \\tan^{-1}(x)$, and state the domains of definition for both sides.\n(b) If $x = \\tan \\theta$, use inverse trigonometric identities to show $\\sin^{-1}\\left(\\dfrac{2\\tan \\theta}{1+\\tan^2 \\theta}\\right) = 2\\theta$ for $-\\dfrac{\\pi}{4} < \\theta < \\dfrac{\\pi}{4}$.\n(c) Construct a $2\\times2$ matrix $A$ whose entries are $a_{ij} = \\sin^{-1}\\left(\\dfrac{2x_i x_j}{1 + x_i^2 x_j^2}\\right)$ for $x_1 = a, x_2 = b,$ with $a, b \\in (0,1)$, and find $\\det(A)$.\n(d) Find the value of $\\det(A)$ when $a = b$.",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:** Inverse trigonometric identities, transformations, relations to tangent, matrix construction, determinant properties, algebraic manipulation.<br /><br />(a) Set $y = \\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$.<br /><br />Let us recall that:<br />$\\sin(2\\alpha) = 2\\sin\\alpha \\cos\\alpha$<br /><br />But $x = \\tan\\theta$ implies $\\theta = \\tan^{-1}x$.<br /><br />So $\\sin(2\\tan^{-1}x) = \\dfrac{2x}{1+x^2}$.<br /><br />Therefore:<br />$\\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right) = 2\\tan^{-1}x$<br /><br />**Domain for $\\sin^{-1}$:** The argument satisfies $|\\dfrac{2x}{1+x^2}| \\leq 1$ for all real $x$.<br /><br />**Domain for $\\tan^{-1}(x)$:** Defined for all $x$.<br /><br />Hence, both are defined for all real $x$.<br /><br />(b) Let $x = \\tan\\theta$. Then,<br />$\\sin^{-1}\\left(\\dfrac{2\\tan\\theta}{1+\\tan^2\\theta}\\right) = \\sin^{-1}(\\sin 2\\theta) = 2\\theta$, provided $2\\theta \\in [-\\dfrac{\\pi}{2}, \\dfrac{\\pi}{2}]$<br /><br />Since $\\theta \\in ( -\\dfrac{\\pi}{4}, \\dfrac{\\pi}{4})$, $2\\theta \\in ( -\\dfrac{\\pi}{2}, \\dfrac{\\pi}{2})$, which fits the principal value definition.<br /><br />(c) The $2\\times2$ matrix $A$ is:<br />$A = \\begin{pmatrix} \\sin^{-1}\\left( \\dfrac{2a^2}{1+a^4} \\right) & \\sin^{-1}\\left( \\dfrac{2ab}{1+a^2b^2} \\right) \\\\ \\sin^{-1}\\left( \\dfrac{2ab}{1+a^2b^2} \\right) & \\sin^{-1}\\left( \\dfrac{2b^2}{1+b^4} \\right) \\end{pmatrix}$<br /><br />But,<br />$\\sin^{-1}\\left(\\dfrac{2uv}{1+u^2v^2}\\right) = 2 \\tan^{-1}(uv)$<br /><br />So,<br />$A = \\begin{pmatrix} 2\\tan^{-1}(a^2) & 2\\tan^{-1}(ab) \\\\ 2\\tan^{-1}(ab) & 2\\tan^{-1}(b^2) \\end{pmatrix}$<br /><br />$\\det(A) = (2\\tan^{-1}(a^2))(2\\tan^{-1}(b^2)) - [2\\tan^{-1}(ab)]^2$<br />$= 4 \\left[ \\tan^{-1}(a^2)\\tan^{-1}(b^2) - (\\tan^{-1}(ab))^2 \\right]$<br /><br />(d) If $a = b$:<br /><br />$\\det(A) = 4 \\left[ (\\tan^{-1}(a^2))^2 - (\\tan^{-1}(a^2))^2 \\right] = 0$<br /><br />So, $\\det(A) = 0$ when $a = b$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)=2\\tan^{-1}x$ with the stated principal-value restriction<br />(b) If $x=\\tan\\theta$ and $-\\frac{\\pi}{4}<\\theta<\\frac{\\pi}{4}$, then $\\sin^{-1}\\left(\\frac{2\\tan\\theta}{1+\\tan^2\\theta}\\right)=2\\theta$<br />(c) $A=\\begin{pmatrix}2\\tan^{-1}(a^2)&2\\tan^{-1}(ab)\\\\2\\tan^{-1}(ab)&2\\tan^{-1}(b^2)\\end{pmatrix}$ and $\\det(A)=4[\\tan^{-1}(a^2)\\tan^{-1}(b^2)-(\\tan^{-1}(ab))^2]$<br />(d) If $a=b$, then $\\det(A)=0$",
+    "B": "(a) $y=\\tan^{-1}x$<br />(b) The value is $\\theta$<br />(c) $\\det(A)=\\tan^{-1}(a^2)+\\tan^{-1}(b^2)$<br />(d) If $a=b$, determinant is $1$",
+    "C": "(a) $y=-2\\tan^{-1}x$<br />(b) The value is $-2\\theta$<br />(c) $A$ is skew-symmetric<br />(d) If $a=b$, determinant is negative",
+    "D": "(a) Identity is undefined for real $x$<br />(b) No principal value exists<br />(c) Matrix cannot be formed<br />(d) Determinant is undefined"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:17:27 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

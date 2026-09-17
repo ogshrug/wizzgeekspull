@@ -1,0 +1,30 @@
+{
+  "id": "69a86fcc64fcf4cdd5b4bb0d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "LA",
+  "question": "Let $y = x^{x^{x}}$ for $x > 0$. Find $\\frac{dy}{dx}$ using logarithmic differentiation, and further, express $\\frac{d^2y}{dx^2}$ in terms of $x$ and $y$.",
+  "answeroption": "A",
+  "explanation": "Take logarithm:<br /><br />$\\ln y = x^x \\ln x$<br /><br />Differentiate to obtain:<br /><br />$\\frac{dy}{dx} = y x^x\\left[\\frac{1}{x} + (\\ln x)(\\ln x + 1)\\right]$<br /><br />Let $F(x) = x^x\\left[\\frac{1}{x} + (\\ln x)(\\ln x + 1) \\right]$<br /><br />Then $\\frac{d^2y}{dx^2} = y\\left[ F(x)^2 + F'(x) \\right]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=yx^x\\left[\\frac{1}{x}+(\\ln x)(\\ln x+1)\\right]$.<br />If $F(x)=x^x\\left[\\frac{1}{x}+(\\ln x)(\\ln x+1)\\right]$, then $\\frac{d^2y}{dx^2}=y\\left[F(x)^2+F'(x)\\right]$.",
+    "B": "$\\frac{dy}{dx}=yx^x(\\ln x+1)$.<br />$\\frac{d^2y}{dx^2}=yF'(x)$ only.",
+    "C": "$\\frac{dy}{dx}=x^{x^x}\\left(\\frac{1}{x}\\right)$.<br />$\\frac{d^2y}{dx^2}=0$.",
+    "D": "$\\frac{dy}{dx}=x^x\\left[\\frac{1}{x}+(\\ln x)^2\\right]$.<br />$\\frac{d^2y}{dx^2}=F(x)^2+F'(x)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:45:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

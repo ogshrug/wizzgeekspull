@@ -1,0 +1,30 @@
+{
+  "id": "6a1425342a89680e5835ce79",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad",
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "MCQ",
+  "question": "The integrating factor of the differential equation $(3x^{2}+y)\\frac{dx}{dy}=x$ is",
+  "answeroption": "A",
+  "explanation": "**Step 1: Rewrite Equation.** Manipulate to standard form: $\\frac{dy}{dx} - \\frac{1}{x}y = 3x$.<br />**Step 2: Identify components.** It is a linear DE of form $\\frac{dy}{dx} + Py = Q$, where $P = -\\frac{1}{x}$.<br />**Step 3: Compute Integrating Factor.** $IF = e^{\\int P dx} = e^{-\\int 1/x dx} = e^{-\\ln x} = \\frac{1}{x}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{x}$",
+    "B": "$\\frac{1}{x^{2}}$",
+    "C": "$\\frac{2}{x}$",
+    "D": "$-\\frac{1}{x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

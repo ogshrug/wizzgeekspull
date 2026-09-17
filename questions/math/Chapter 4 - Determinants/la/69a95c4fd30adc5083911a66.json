@@ -1,0 +1,30 @@
+{
+  "id": "69a95c4fd30adc5083911a66",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "LA",
+  "question": "Let $A=\\begin{bmatrix} 3 & x & -3 \\\\ 2 & 5 & y \\\\ 1 & 0 & 2 \\end{bmatrix}$.<br /><br />(a) Find all $x,y$ such that $|A| = 0$.<br /><br />(b) For $x=0, y=2$, find the adjugate of $A$ and verify $A \\cdot \\mathrm{adj}(A) = |A| \\cdot I$.",
+  "answeroption": "B",
+  "explanation": "(a) $|A| = 3 \\begin{vmatrix}5&y\\\\0&2\\end{vmatrix}-x\\begin{vmatrix}2&y\\\\1&2\\end{vmatrix}+(-3)\\begin{vmatrix}2&5\\\\1&0\\end{vmatrix}$<br /><br />$3(5*2-0*y)=3*10=30$<br />$-x(2*2-1*y)=-(4-y)x$<br />$-3(2*0-1*5)=-3(0-5)=15$<br /><br />Total: $|A|=30-(4-y)x+15=45-(4-y)x$<br />Set $|A|=0\\implies(4-y)x=45\\implies x=\\frac{45}{4-y}$, $y\\neq4$.<br /><br />(b) Put $x=0, y=2$. Then $A=\\begin{bmatrix}3&0&-3\\\\2&5&2\\\\1&0&2\\end{bmatrix}$<br />Compute $|A|=3\\begin{vmatrix}5&2\\\\0&2\\end{vmatrix}-0+(-3)\\begin{vmatrix}2&5\\\\1&0\\end{vmatrix}=3(10-0)-3(2*0-1*5)=30-3*(-5)=30+15=45$<br /><br />Calculate minors, form cofactor matrix, transpose for adjugate, then verify $A\\cdot\\mathrm{adj}(A)=45I$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $x=\\frac{45}{y-4}$, $y\\ne4$.<br />(b) For $x=0,y=2$, $\\mathrm{adj}(A)=\\begin{bmatrix}10&0&-15\\\\2&9&12\\\\5&0&15\\end{bmatrix}$ and $A\\mathrm{adj}(A)=45I$.",
+    "B": "(a) $x=\\frac{45}{4-y}$, $y\\ne4$.<br />(b) For $x=0,y=2$, $\\mathrm{adj}(A)=\\begin{bmatrix}10&0&15\\\\-2&9&-12\\\\-5&0&15\\end{bmatrix}$ and $A\\mathrm{adj}(A)=45I$.",
+    "C": "(a) $x=45(4-y)$, $y\\ne4$.<br />(b) For $x=0,y=2$, $\\mathrm{adj}(A)=\\begin{bmatrix}10&-2&-5\\\\0&9&0\\\\15&-12&15\\end{bmatrix}$ and $A\\mathrm{adj}(A)=I$.",
+    "D": "(a) $y=4$ for all $x$.<br />(b) For $x=0,y=2$, $\\mathrm{adj}(A)=\\begin{bmatrix}3&0&-3\\\\2&5&2\\\\1&0&2\\end{bmatrix}$ and $A\\mathrm{adj}(A)=0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:34:55 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

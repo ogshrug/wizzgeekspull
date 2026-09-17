@@ -1,0 +1,31 @@
+{
+  "id": "6a327b58d5dca7dcb0bf0ecf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "MCQ",
+  "question": "For the matrix $A = \\begin{bmatrix} 2 & -1 & 1 \\\\ \\lambda & 2 & 0 \\\\ 1 & -2 & 3 \\end{bmatrix}$ to be invertible, the value of $\\lambda$ is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** For a matrix to be invertible, its determinant must be non-zero: $|A| \\ne 0$.\n\n**Step 2:** Expand the determinant along the first row: $|A| = 2(6 - 0) - (-1)(3\\lambda - 0) + 1(-2\\lambda - 2) = 12 + 3\\lambda - 2\\lambda - 2$.\n\n**Step 3:** Simplify and solve the inequality: $\\lambda + 10 \\ne 0 \\implies \\lambda \\ne -10$. Thus, $\\lambda \\in \\mathbb{R} - \\{-10\\}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "10",
+    "C": "$\\mathbb{R} - \\{10\\}$",
+    "D": "$\\mathbb{R} - \\{-10\\}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

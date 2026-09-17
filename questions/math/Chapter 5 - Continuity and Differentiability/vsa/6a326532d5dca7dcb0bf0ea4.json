@@ -1,0 +1,26 @@
+{
+  "id": "6a326532d5dca7dcb0bf0ea4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "VSA",
+  "question": "If $x=a~cos~t$ and $y=b~sin~t.$ then find $\\frac{d^{2}y}{dx^{2}}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate x and y with respect to t: $\\frac{dx}{dt} = -a\\sin t$ and $\\frac{dy}{dt} = b\\cos t$.\n\n**Step 2:** Find the first derivative $\\frac{dy}{dx}$ using the chain rule: $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{b\\cos t}{-a\\sin t} = -\\frac{b}{a}\\cot t$.\n\n**Step 3:** Differentiate $\\frac{dy}{dx}$ with respect to x to find the second derivative: $\\frac{d^2y}{dx^2} = \\frac{d}{dt}(-\\frac{b}{a}\\cot t) \\cdot \\frac{dt}{dx}$.\n\n**Step 4:** Evaluate the derivative: $\\frac{d^2y}{dx^2} = (\\frac{b}{a}\\csc^2 t) \\cdot \\frac{1}{-a\\sin t} = -\\frac{b}{a^2}\\csc^3 t$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

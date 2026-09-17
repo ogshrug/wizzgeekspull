@@ -1,0 +1,30 @@
+{
+  "id": "69aa6a60d30adc5083911b7f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "6a13e98f8c819562f933f97c"
+  ],
+  "question_type": "LA",
+  "question": "Suppose $f: R \\to R$ is defined by $f(x) = e^x$. Let $g(x) = \\sin^{-1}(e^x-1)$ with domain $x \\leq 0$.<br /><br />(a) Find the range of $g$.<br /><br />(b) Prove that $g$ is continuous on its domain.<br /><br />(c) Compute $g'(x)$.<br /><br />(d) For what value of $a$ does $g(a) = 0$?<br /><br />(e) Find the tangent to the curve $y=g(x)$ at $x=a$.",
+  "answeroption": "A",
+  "explanation": "**Concepts Tested:** Relations & Functions, Inverse Trigonometric Functions, Differentiability, Application of Derivatives.<br /><br />(a)<br />$e^x - 1 \\in [-1, 0]$ for $x \\leq 0$. So $g(x) \\in [\\sin^{-1}(-1), \\sin^{-1}(0)] = [-\\frac{\\pi}{2},0]$<br /><br />(b)<br />$g$ is a composition of continuous functions on $(-\\infty,0]$: $e^x$ is continuous, $\\sin^{-1}$ is continuous on $[-1,1]$.<br /><br />(c)<br />$g'(x) = \\frac{d}{dx} \\sin^{-1}(e^x-1) = \\frac{e^x}{\\sqrt{1-(e^x-1)^2}}$<br /><br />(d)<br />$g(a) = 0 \\implies \\sin^{-1}(e^{a}-1)=0 \\implies e^{a}-1=0 \\implies e^{a}=1 \\implies a=0$<br /><br />(e)<br />At $a=0$, $g(0)=0, g'(0)=\\frac{1}{\\sqrt{1-0^2}}=1$<br />So equation of tangent: $y=0+1(x-0) \\implies y=x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Range of $g$ is $\\left[-\\frac{\\pi}{2},0\\right]$<br />(b) $g$ is continuous on $(-\\infty,0]$ as a composition of continuous functions<br />(c) $g'(x)=\\frac{e^x}{\\sqrt{1-(e^x-1)^2}}$<br />(d) $g(a)=0$ gives $a=0$<br />(e) At $a=0$, $g(0)=0$ and $g'(0)=1$, so the tangent is $y=x$",
+    "B": "(a) Range of $g$ is $[0,\\frac{\\pi}{2}]$<br />(b) $g$ is discontinuous at $x=0$<br />(c) $g'(x)=\\frac{-e^x}{\\sqrt{1-(e^x-1)^2}}$<br />(d) $a=1$<br />(e) Tangent is $y=x-1$",
+    "C": "(a) Range of $g$ is $[-\\pi,0]$<br />(b) $g$ is continuous only for $x<0$<br />(c) $g'(x)=e^x\\sqrt{1-(e^x-1)^2}$<br />(d) $a=-1$<br />(e) Tangent is $y=-x$",
+    "D": "(a) Range of $g$ is $[-1,0]$<br />(b) $g$ is not continuous on its domain<br />(c) $g'(x)=\\frac{1}{e^x}$<br />(d) No value of $a$ satisfies $g(a)=0$<br />(e) No tangent exists"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:47:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a226310864be73cfcf6d191",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "SA",
+  "question": "Two dice are thrown. Defined are the following two events A and B: $A=\\{(x, y): x+y=9\\}$, $B=\\{(x, y): x\\ne3\\}$, where $(x, y)$ denote a point in the sample space. Check if events A and B are independent or mutually exclusive.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The total number of outcomes in the sample space when throwing two dice is $n(S) = 6 \\times 6 = 36$.<br />**Step 2:** Event A requires the sum to be 9. The favorable outcomes are $A = \\{(3,6), (4,5), (5,4), (6,3)\\}$. The probability is $P(A) = \\frac{4}{36} = \\frac{1}{9}$.<br />**Step 3:** Event B requires the first die not to be 3. There are 6 outcomes where the first die is 3. So, $n(B) = 36 - 6 = 30$. The probability is $P(B) = \\frac{30}{36} = \\frac{5}{6}$.<br />**Step 4:** Find the intersection $A \\cap B$, which are outcomes in A where the first die is not 3: $A \\cap B = \\{(4,5), (5,4), (6,3)\\}$. The probability is $P(A \\cap B) = \\frac{3}{36} = \\frac{1}{12}$.<br />**Step 5:** Since $P(A \\cap B) \\ne 0$, the events are not mutually exclusive. They can occur simultaneously.<br />**Step 6:** Check for independence by verifying if $P(A \\cap B) = P(A)P(B)$. Calculate $P(A)P(B) = \\frac{1}{9} \\times \\frac{5}{6} = \\frac{5}{54}$. Since $\\frac{1}{12} \\ne \\frac{5}{54}$, events A and B are not independent.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

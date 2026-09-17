@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd655be0ecc7866e90c5c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "LA",
+  "question": "The region under the curve $y=\\sin x$ and above the $x$-axis from $x=0$ to $x=\\pi$ is divided by the ordinate $x=k$, where $0<k<\\pi$, such that the area to the left of the ordinate is twice the area to its right. Using definite integration, determine the exact value of $k$ and verify the required ratio of the two areas.",
+  "answeroption": "B",
+  "explanation": "Total AreaThe total area under the curve is`A=\\int_0^{\\pi}\\sin x\\,dx A=\\left[-\\cos x\\right]_0^{\\pi}=2`Let the area to the right of $x=k$ be $R$. The area to the left is then $2R$. Therefore,`2R+R=2 R=\\frac{2}{3}`Hence, the required area to the left is $\\frac{4}{3}$.Determination of the OrdinateThe area to the left of $x=k$ is`\\int_0^k\\sin x\\,dx=\\frac{4}{3}\\left[-\\cos x\\right]_0^k=\\frac{4}{3}1-\\cos k=\\frac{4}{3}\\cos k=-\\frac{1}{3}`Since $0<k<\\pi$,`k=\\cos^{-1}\\left(-\\frac{1}{3}\\right)`VerificationThe area to the right is`\\int_k^{\\pi}\\sin x\\,dx=\\left[-\\cos x\\right]_k^{\\pi}=1+\\cos k=1-\\frac{1}{3}=\\frac{2}{3}`Thus, the ratio of the two areas is`\\frac{4}{3}:\\frac{2}{3}=2:1`Final ResultThe required ordinate is $x=\\cos^{-1}\\left(-\\frac{1}{3}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=\\cos^{-1}(\\frac{1}{3})$; left area $=\\frac{2}{3}$, right area $=\\frac{4}{3}$; ratio $=1:2$",
+    "B": "$k=\\cos^{-1}(-\\frac{1}{3})$; left area $=\\frac{4}{3}$, right area $=\\frac{2}{3}$; ratio $=2:1$",
+    "C": "$k=\\frac{\\pi}{2}$; left area $=1$, right area $=1$; ratio $=1:1$",
+    "D": "$k=\\cos^{-1}(-\\frac{2}{3})$; left area $=\\frac{5}{3}$, right area $=\\frac{1}{3}$; ratio $=5:1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

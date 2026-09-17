@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8e1b4b490c7cde3593e3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6d"
+  ],
+  "question_type": "VSA",
+  "question": "For $A=\\begin{bmatrix}2&1&0\\\\3&k&4\\\\1&2&5\\end{bmatrix}$, the cofactor $A_{31}$ is $4$. Find $k$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Form the required minor</b><br>Deleting the third row and first column gives $$M_{31}=\\begin{vmatrix}1&0\\\\k&4\\end{vmatrix}$$<br><b>Step 2: Evaluate the minor</b><br>Thus, $$M_{31}=(1)(4)-(0)(k)=4$$<br><b>Step 3: Determine the cofactor sign</b><br>Since $3+1=4$ is even, $$A_{31}=(-1)^4M_{31}=M_{31}$$<br><b>Step 4: Compare with the condition</b><br>Therefore, $A_{31}=4$ for every value of $k$.<br><b>Step 5: State the conclusion</b><br>The given condition does not impose any restriction on $k$. Hence, $k$ may be any real number.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=4$",
+    "B": "$k=0$",
+    "C": "$k=1$",
+    "D": "$k$ may be any real number."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

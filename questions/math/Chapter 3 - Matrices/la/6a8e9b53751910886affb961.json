@@ -1,0 +1,32 @@
+{
+  "id": "6a8e9b53751910886affb961",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d5b",
+    "69c65fc040512f018fa94d5d"
+  ],
+  "question_type": "LA",
+  "question": "Determine the values of $x$, $y$ and $z$ for which $$A=\\begin{bmatrix}2&x+1&2y-1\\\\3x-5&4&z+2\\\\y+3&2z-1&6\\end{bmatrix}$$ is symmetric, and hence verify for the resulting matrix that $A+A'=2A$.",
+  "answeroption": "D",
+  "explanation": "<b>Required Condition</b><br><br>For a symmetric matrix, $A'=A$, so corresponding entries on opposite sides of the principal diagonal must be equal. Therefore, $$x+1=3x-5$$ which gives $2x=6$, hence $x=3$. Also, $$2y-1=y+3$$ gives $y=4$, and $$z+2=2z-1$$ gives $z=3$.<br><br>Substituting the obtained values, $$A=\\begin{bmatrix}2&4&7\\\\4&4&5\\\\7&5&6\\end{bmatrix}$$ Since $$A'=\\begin{bmatrix}2&4&7\\\\4&4&5\\\\7&5&6\\end{bmatrix}=A,$$ the matrix is symmetric.<br><br><b>Verification</b><br><br>Now, $$A+A'=\\begin{bmatrix}2&4&7\\\\4&4&5\\\\7&5&6\\end{bmatrix}+\\begin{bmatrix}2&4&7\\\\4&4&5\\\\7&5&6\\end{bmatrix}$$ $$=\\begin{bmatrix}4&8&14\\\\8&8&10\\\\14&10&12\\end{bmatrix}$$ On the other hand, $$2A=2\\begin{bmatrix}2&4&7\\\\4&4&5\\\\7&5&6\\end{bmatrix}=\\begin{bmatrix}4&8&14\\\\8&8&10\\\\14&10&12\\end{bmatrix}$$ Hence, $A+A'=2A$, and the required values are $x=3$, $y=4$ and $z=3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=3,\\ y=3,\\ z=4$ and $A+A'=2A$",
+    "B": "$x=4,\\ y=3,\\ z=3$ and $A+A'=2A$",
+    "C": "$x=3,\\ y=4,\\ z=-3$ and $A+A'=2A$",
+    "D": "$x=3,\\ y=4,\\ z=3$ and $A+A'=2A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a2278b4864be73cfcf6d1de",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "VSA",
+  "question": "If $-2x^{2}-5xy+y^{3}=76$, then find $\\frac{dy}{dx}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate both sides of the equation implicitly with respect to $x$.<br />**Step 2:** The derivative of $-2x^2$ is $-4x$.<br />**Step 3:** For the term $-5xy$, apply the product rule: $-5(x \\cdot \\frac{dy}{dx} + y \\cdot 1) = -5x\\frac{dy}{dx} - 5y$.<br />**Step 4:** The derivative of $y^3$ requires the chain rule: $3y^2 \\frac{dy}{dx}$.<br />**Step 5:** The derivative of the constant 76 is 0.<br />**Step 6:** Assemble the differentiated equation: $-4x - 5x\\frac{dy}{dx} - 5y + 3y^2\\frac{dy}{dx} = 0$.<br />**Step 7:** Group all terms containing $\\frac{dy}{dx}$ on one side: $\\frac{dy}{dx}(3y^2 - 5x) = 4x + 5y$.<br />**Step 8:** Isolate $\\frac{dy}{dx}$ by dividing: $\\frac{dy}{dx} = \\frac{4x + 5y}{3y^2 - 5x}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

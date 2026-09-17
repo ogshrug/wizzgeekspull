@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed96d4b490c7cde3594a3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "VSA",
+  "question": "Using a suitable substitution, evaluate $\\int(2x+1)e^{x^2+x}\\,dx$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> Observe that the exponent is $x^2+x$, whose derivative is $2x+1$, exactly the factor present in the integrand.<br><b>Step 2:</b> Put $t=x^2+x$. Then $dt=(2x+1)\\,dx$.<br><b>Step 3:</b> The integral reduces to $$\\int(2x+1)e^{x^2+x}\\,dx=\\int e^t\\,dt.$$<br><b>Step 4:</b> Using the standard integral $\\int e^t\\,dt=e^t+C$, we get $e^t+C$.<br><b>Step 5:</b> Substituting $t=x^2+x$ back, the required integral is $$\\boxed{e^{x^2+x}+C}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(2x+1)e^{x^2+x}+C$",
+    "B": "$e^{x^2+x}+C$",
+    "C": "$\\frac{1}{2}e^{x^2+x}+C$",
+    "D": "$e^{2x+1}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a22c013864be73cfcf6d2ed",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "MCQ",
+  "question": "If $x=A \\cos 4t+B \\sin 4t,$ then $\\frac{d^{2}x}{dt^{2}}$ is equal to",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Differentiate $x$ with respect to $t$:  \n$$\\frac{dx}{dt} = A(-\\sin 4t \\cdot 4) + B(\\cos 4t \\cdot 4) = -4A \\sin 4t + 4B \\cos 4t$$<br /><br />**Step 2:** Differentiate again to find the second derivative:  \n$$\\frac{d^2x}{dt^2} = -4A(\\cos 4t \\cdot 4) + 4B(-\\sin 4t \\cdot 4)$$  \n$$= -16A \\cos 4t - 16B \\sin 4t$$  \n$$= -16(A \\cos 4t + B \\sin 4t)$$<br /><br />**Step 3:** Substitute $x = A \\cos 4t + B \\sin 4t$:  \n$$\\frac{d^2x}{dt^2} = -16x$$  \nThus, the correct option is **D**.",
+  "explanation_image": [],
+  "options": {
+    "a": "x",
+    "b": "-x",
+    "c": "16x",
+    "d": "-16x"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

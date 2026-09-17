@@ -1,0 +1,34 @@
+{
+  "id": "6a22658bfbdd87b6dea73b65",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f:N\\rightarrow w$ is defined as $f(n)=\\begin{cases}\\frac{n}{2},&if~n~is~even\\\\ 0,&if~n~is~odd\\end{cases}$ then f is:",
+  "answeroption": "B",
+  "explanation": "<b>Step 1</b> Let us first test the injectivity (one-one) trait of the function. For any two distinct odd natural numbers, say $n_1 = 1$ and $n_2 = 3$, evaluating the function yields $f(1) = 0$ and $f(3) = 0$. Since distinct inputs map to identical outputs, the function is not injective.<br /><br /><b>Step 2</b> Next, let us inspect the surjectivity (onto) trait of the function for the codomain of whole numbers $W = \\{0, 1, 2, 3, \\dots\\}$. The element $0 \\in W$ clearly has multiple preimages in $N$ (all odd numbers). For any positive whole number $k \\in \\{1, 2, 3, \\dots\\}$, we can construct an even natural number $n = 2k$.<br /><br /><b>Step 3</b> Evaluating the even branch for $n = 2k$ gives $f(2k) = \\frac{2k}{2} = k$. This shows that every element in the codomain $W$ possesses at least one valid preimage in the domain $N$. Therefore, the function is surjective only, which matches option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "injective only",
+    "B": "surjective only",
+    "C": "a bijection",
+    "D": "neither surjective nor injective"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

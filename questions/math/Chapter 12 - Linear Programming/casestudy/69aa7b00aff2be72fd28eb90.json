@@ -1,0 +1,29 @@
+{
+  "id": "69aa7b00aff2be72fd28eb90",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A business produces notebooks and pens. Each notebook requires 5 min printing, 2 min binding; each pen 3 min printing, 1 min binding. The company has 300 min printing and 120 min binding per day. Due to orders, at least 20 notebooks and 40 pens must be made daily. Each notebook yields ₹10 profit, each pen ₹5.<br /><br />(a) Frame the LPP.<br /><br />(b) Draw feasible region and find its vertices.<br /><br />(c) Find optimum daily production for max profit and explain your answer.",
+  "answeroption": "C",
+  "explanation": "Let $x$ = notebooks, $y$ = pens.<br /><br />(a) LPP:<br /><br />Max $Z = 10x + 5y$<br /><br />$5x + 3y \\leq 300$<br /><br />$2x + y \\leq 120$<br /><br />$x \\geq 20, y \\geq 40$<br /><br />(b) $5x + 3y = 300 \\implies y = (300 - 5x)/3$<br /><br />$2x + y = 120 \\implies y = 120 - 2x$<br /><br />$x=20$, $y=40$ are restrictions.<br /><br />Find where $x=20$:<br /><br />$5*20 + 3y = 100 + 3y = 300 \\implies 3y = 200 \\implies y = 200/3 \\approx 66.67$<br /><br />At $y=40$:<br /><br />$5x + 120 = 300 \\implies 5x = 180 \\implies x = 36$<br /><br />$2x + 40 = 120 \\implies 2x = 80 \\implies x = 40$<br /><br />$y=40$ and $x=40$ is (40,40)<br /><br />Now intersection of $5x+3y=300$ and $2x+y=120$:<br /><br />Multiply $2x+y=120$ by 3: $6x+3y=360$<br /><br />$5x+3y=300$<br /><br />Subtract: $6x+3y-(5x+3y)=360-300\\implies x=60$<br /><br />$y=120-2x=120-120=0$<br /><br />So (60,0) — not feasible since $y\\geq40$<br /><br />Now test (36,40): $5*36+3*40=180+120=300$, $2*36+40=72+40=112<120$ ok<br /><br />Test (40,40): $5*40+3*40=200+120=320>300$— not possible<br /><br />At (20,66.67): $2*20+66.67=40+66.67=106.67<120$ ok<br /><br />At (20,40): $5*20+3*40=100+120=220<300$, $2*20+40=40+40=80<120$ ok<br /><br />(c) $Z$ at (36,40): $10*36+5*40=360+200=560$<br /><br />At (20,66.67): $10*20+5*66.67=200+333.35=533.35$<br /><br />At (20,40): $10*20+5*40=200+200=400$<br /><br />Maximum at (36,40): $Z=560$. Produce 36 notebooks, 40 pens daily.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Max $Z=10x+5y$ with $5x+3y\\leq300$, $2x+y\\leq120$, $x\\geq20$, $y\\geq40$<br />(b) Vertices: $(20,40)$, $(20,\\frac{200}{3})$, $(36,40)$<br />(c) Optimum production: 20 notebooks and 40 pens; maximum profit ₹400.",
+    "B": "(a) Max $Z=10x+5y$ with $5x+3y\\leq300$, $2x+y\\leq120$, $x\\geq20$, $y\\geq40$<br />(b) Vertices: $(20,40)$, $(40,40)$, $(60,0)$<br />(c) Optimum production: 40 notebooks and 40 pens; maximum profit ₹600.",
+    "C": "(a) Max $Z=10x+5y$ with $5x+3y\\leq300$, $2x+y\\leq120$, $x\\geq20$, $y\\geq40$<br />(b) Vertices: $(20,40)$, $(20,\\frac{200}{3})$, $(36,40)$<br />(c) Optimum production: 36 notebooks and 40 pens; maximum profit ₹560.",
+    "D": "(a) Max $Z=10x+5y$ with $5x+3y\\leq300$, $2x+y\\leq120$, $x\\geq20$, $y\\geq40$<br />(b) Vertices: $(20,40)$, $(20,60)$, $(40,40)$<br />(c) Optimum production: 20 notebooks and $\\frac{200}{3}$ pens; maximum profit ₹533.35."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:58:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

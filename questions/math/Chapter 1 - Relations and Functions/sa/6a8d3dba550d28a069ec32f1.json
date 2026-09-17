@@ -1,0 +1,29 @@
+{
+  "id": "6a8d3dba550d28a069ec32f1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Show that the function $f:\\mathbb{R}\\to\\mathbb{R}$ defined by $f(x)=3x-5$ is onto.",
+  "answeroption": "B",
+  "explanation": "<b>Arbitrary element of the co-domain</b><br>Let $y\\in\\mathbb{R}$. To show that $f$ is onto, we seek $x\\in\\mathbb{R}$ such that $f(x)=y$.<br><br><b>Determination of a pre-image</b><br>Solving<br>$$3x-5=y$$<br>gives<br>$$x=\\frac{y+5}{3}.$$<br>Since $y\\in\\mathbb{R}$, we have $\\frac{y+5}{3}\\in\\mathbb{R}$.<br><br><b>Verification</b><br>For $x=\\frac{y+5}{3}$,<br>$$f\\left(\\frac{y+5}{3}\\right)=3\\left(\\frac{y+5}{3}\\right)-5=y.$$<br><br><b>Conclusion</b><br>Every $y\\in\\mathbb{R}$ has a pre-image in $\\mathbb{R}$. Hence, $f$ is onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is not onto because negative real numbers have no pre-images",
+    "B": "$f$ is onto because every $y\\in\\mathbb{R}$ has the pre-image $x=\\frac{y+5}{3}$",
+    "C": "$f$ is onto because every $y\\in\\mathbb{R}$ has the pre-image $x=\\frac{y-5}{3}$",
+    "D": "$f$ is not onto because $0$ has no real pre-image"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

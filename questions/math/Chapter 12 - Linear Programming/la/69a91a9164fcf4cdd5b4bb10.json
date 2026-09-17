@@ -1,0 +1,29 @@
+{
+  "id": "69a91a9164fcf4cdd5b4bb10",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A firm produces two varieties of pencils, X and Y. The requirements for producing 1 unit of each are given below:<br /><br />- X: 2 hours of labor, 3 hours of machine time<br />- Y: 4 hours of labor, 2 hours of machine time<br /><br />Every day, at most 16 hours of labor and 12 hours of machine time are available. The profit is Rs 5 per unit of X and Rs 6 per unit of Y. Formulate the LPP, graph the feasible region, list all corner points, and maximize the profit.",
+  "answeroption": "C",
+  "explanation": "Let x = number of units of X, y = number of units of Y.<br /><br />Step 1: Objective function:<br />Z = 5x + 6y (to be maximized).<br /><br />Step 2: Labor constraint:<br />2x + 4y ≤ 16.<br /><br />Step 3: Machine time constraint:<br />3x + 2y ≤ 12.<br /><br />Step 4: Non-negativity:<br />x ≥ 0, y ≥ 0.<br /><br />Step 5: Find intersection points:<br />From labor constraint: y = (16 − 2x)/4 = 4 − 0.5x.<br />From machine constraint: y = (12 − 3x)/2 = 6 − 1.5x.<br />Set 4 − 0.5x = 6 − 1.5x ⇒ x = 2.<br />Then y = 4 − 0.5 × 2 = 3.<br />Intersection at (2,3).<br /><br />Check intercepts:<br />Labor: x = 0 ⇒ y = 4, y = 0 ⇒ x = 8.<br />Machine: x = 0 ⇒ y = 6, y = 0 ⇒ x = 4.<br /><br />Test which intercepts are feasible:<br />(0,4) feasible.<br />(4,0) feasible.<br />(0,6) not feasible.<br />(8,0) not feasible.<br /><br />Feasible points: (0,4), (2,3), (4,0), (0,0).<br /><br />Evaluate Z:<br />(0,4): 24<br />(2,3): 28<br />(4,0): 20<br />(0,0): 0.<br /><br />Maximum profit is Rs 28 at (2,3). Produce 2 units of X and 3 units of Y.",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 0 units of X and 4 units of Y; maximum profit Rs 24.",
+    "B": "Produce 4 units of X and 0 units of Y; maximum profit Rs 20.",
+    "C": "Produce 2 units of X and 3 units of Y; maximum profit Rs 28.",
+    "D": "Produce 0 units of X and 0 units of Y; maximum profit Rs 0."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 05:54:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

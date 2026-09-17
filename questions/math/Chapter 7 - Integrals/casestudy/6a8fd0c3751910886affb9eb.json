@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd0c3751910886affb9eb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics class is evaluating a definite integral without using a limit of sums. The function under consideration is $f(x)=2x^3-3x^2+4$ on the closed interval $[1,3]$. Since $f$ is a polynomial, it is continuous throughout this interval. The students are instructed to find an antiderivative $F(x)$ and then use the values of the same antiderivative at the upper and lower limits. They also discuss why an arbitrary constant need not be retained when evaluating a definite integral. The investigation focuses on the second form of the Fundamental Theorem of Calculus and the connection between antiderivatives and definite integrals.<br><br><b>(a)</b> Explain why the Fundamental Theorem of Calculus can be applied to $f(x)$ on $[1,3]$.<br><br><b>(b)</b> Find an antiderivative $F(x)$ of $f(x)$.<br><br><b>(c)</b> Evaluate $\\int_1^3(2x^3-3x^2+4)\\,dx$.<br><br><b>(d)</b> Justify why adding an arbitrary constant to $F(x)$ does not change the value of the definite integral.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The function $f(x)=2x^3-3x^2+4$ is a polynomial. Polynomial functions are continuous for all real $x$, so $f$ is continuous on the closed interval $[1,3]$. Therefore, the Fundamental Theorem of Calculus can be applied.<br><br><b>(b)</b><br>Integrating term by term, $$F(x)=\\int(2x^3-3x^2+4)\\,dx=\\frac{x^4}{2}-x^3+4x$$ An arbitrary constant is unnecessary for evaluating the definite integral.<br><br><b>(c)</b><br>By the Fundamental Theorem of Calculus, $$\\int_1^3(2x^3-3x^2+4)\\,dx=F(3)-F(1)$$ Now, $$F(3)=\\frac{81}{2}-27+12=\\frac{51}{2}$$ and $$F(1)=\\frac{1}{2}-1+4=\\frac{7}{2}$$ Hence, $$\\int_1^3(2x^3-3x^2+4)\\,dx=\\frac{51}{2}-\\frac{7}{2}=22$$<br><br><b>(d)</b><br>If $F(x)+C$ is used instead of $F(x)$, then $$[F(3)+C]-[F(1)+C]=F(3)-F(1)$$ because the two occurrences of $C$ cancel. Thus, the arbitrary constant does not affect the value of a definite integral.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) FTC is applicable because $f$ is differentiable on $[1,3]$<br>(b) $F(x)=x^4-3x^3+4x$<br>(c) The integral equals $44$<br>(d) The constant does not cancel",
+    "B": "(a) FTC is applicable because $f$ is continuous on $[1,3]$<br>(b) $F(x)=\\frac{x^4}{2}-x^3+4x$<br>(c) The integral equals $18$<br>(d) The arbitrary constant cancels in $F(3)-F(1)$",
+    "C": "(a) FTC is applicable because the polynomial $f$ is continuous on $[1,3]$<br>(b) $F(x)=\\frac{x^4}{2}-x^3+4x$<br>(c) $\\int_1^3(2x^3-3x^2+4)\\,dx=22$<br>(d) Any added constant cancels when the endpoint values are subtracted",
+    "D": "(a) FTC is not applicable because $f$ is not positive throughout $[1,3]$<br>(b) $F(x)=\\frac{x^4}{2}-x^3+4x$<br>(c) The integral equals $22$<br>(d) An arbitrary constant must be retained in the final value"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

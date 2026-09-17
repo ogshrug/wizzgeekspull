@@ -1,0 +1,29 @@
+{
+  "id": "69a9203eb4df445c7f648ca6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Show that $2 \\tan^{-1}\\left(\\frac{2x}{1 - x^2}\\right) = \\sin^{-1}\\left(\\frac{4x(1 - x^2)}{(1 + x^2)^2}\\right)$, given $|x| < 1$.",
+  "answeroption": "B",
+  "explanation": "Let $y = \\frac{2x}{1-x^2}$.<br /><br />Using identity $2\\tan^{-1}y = \\sin^{-1}(\\frac{2y}{1+y^2})$.<br /><br />Substitute $y = \\frac{2x}{1-x^2}$.<br /><br />Then $2y = \\frac{4x}{1-x^2}$.<br /><br />Also $1+y^2 = 1 + \\frac{4x^2}{(1-x^2)^2}$.<br /><br />Simplifying gives denominator $(1+x^2)^2$.<br /><br />Thus $\\frac{2y}{1+y^2} = \\frac{4x(1-x^2)}{(1+x^2)^2}$.<br /><br />Hence proved.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $y=\\frac{2x}{1-x^2}$. Using $2\\tan^{-1}y=\\sin^{-1}\\left(\\frac{y}{1+y^2}\\right)$ gives $\\sin^{-1}\\left(\\frac{2x(1-x^2)}{(1+x^2)^2}\\right)$.",
+    "B": "Let $y=\\frac{2x}{1-x^2}$. Using $2\\tan^{-1}y=\\sin^{-1}\\left(\\frac{2y}{1+y^2}\\right)$ gives $\\sin^{-1}\\left(\\frac{4x(1-x^2)}{(1+x^2)^2}\\right)$.",
+    "C": "Let $y=\\frac{2x}{1-x^2}$. Using $2\\tan^{-1}y=\\sin^{-1}\\left(\\frac{2y}{1-y^2}\\right)$ gives $\\sin^{-1}\\left(\\frac{4x(1-x^2)}{(1-x^2)^2}\\right)$.",
+    "D": "Let $y=\\frac{2x}{1-x^2}$. Using $2\\tan^{-1}y=\\sin^{-1}\\left(\\frac{1-y^2}{1+y^2}\\right)$ gives $\\sin^{-1}\\left(\\frac{(1-x^2)^2-4x^2}{(1+x^2)^2}\\right)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:18:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

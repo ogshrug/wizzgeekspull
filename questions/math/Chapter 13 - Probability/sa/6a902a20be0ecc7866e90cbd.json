@@ -1,0 +1,29 @@
+{
+  "id": "6a902a20be0ecc7866e90cbd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "SA",
+  "question": "Events $A$ and $B$ are mutually exclusive and satisfy $P(A)>0$ and $P(B)>0$. Examine whether $A$ and $B$ can be independent. Give mathematical justification.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Consequence of mutual exclusiveness</b><br>Since $A$ and $B$ are mutually exclusive, they cannot occur simultaneously. Therefore, $$A\\cap B=\\varnothing$$ and hence $$P(A\\cap B)=0.$$<br><b>Step 2: Independence condition</b><br>If $A$ and $B$ were independent, they would have to satisfy $$P(A\\cap B)=P(A)P(B).$$<br><b>Step 3: Use of the positive probabilities</b><br>It is given that $P(A)>0$ and $P(B)>0$. Therefore, their product must also be positive, so $$P(A)P(B)>0.$$<br><b>Step 4: Comparison of the two results</b><br>Mutual exclusiveness gives $P(A\\cap B)=0$, whereas independence would require $P(A\\cap B)=P(A)P(B)>0$. These two conditions cannot hold simultaneously.<br><b>Step 5: Conclusion</b><br>Hence, two mutually exclusive events having non-zero probabilities $$\\boxed{\\text{cannot be independent}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "They can be independent because $P(A\\cap B)=P(A)+P(B)$",
+    "B": "They can be independent only when $P(A)=P(B)$",
+    "C": "They cannot be independent because mutual exclusiveness gives $P(A\\cap B)=0$, while $P(A)P(B)>0$",
+    "D": "They are always independent because mutually exclusive events cannot occur together"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

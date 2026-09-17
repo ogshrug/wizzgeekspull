@@ -1,0 +1,29 @@
+{
+  "id": "6a8fda21be0ecc7866e90c6e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ae"
+  ],
+  "question_type": "SA",
+  "question": "The differential equation $$x\\frac{dy}{dx}+2y=x^3,\\quad x\\neq0,$$ is to be treated as a linear differential equation in $y$. Express it in standard form and identify $P(x)$ and $Q(x)$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Recall the required standard form</b><br>A first-order linear differential equation in $y$ is written as $$\\frac{dy}{dx}+P(x)y=Q(x).$$ The coefficient of $\\frac{dy}{dx}$ must therefore be $1$.<br><b>Step 2: Start with the given equation</b><br>$$x\\frac{dy}{dx}+2y=x^3.$$ Since $x\\neq0$, divide every term by $x$.<br><b>Step 3: Simplify the equation</b><br>This gives $$\\frac{dy}{dx}+\\frac{2}{x}y=x^2.$$<br><b>Step 4: Compare with the standard form</b><br>Comparing $$\\frac{dy}{dx}+\\frac{2}{x}y=x^2$$ with $\\frac{dy}{dx}+P(x)y=Q(x)$, we obtain $$P(x)=\\frac{2}{x},\\qquad Q(x)=x^2.$$<br><b>Step 5: Final conclusion</b><br>Thus, the required standard form is $$\\boxed{\\frac{dy}{dx}+\\frac{2}{x}y=x^2}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}+\\frac{2}{x}y=x^2$; $P(x)=\\frac{2}{x}$, $Q(x)=x^2$",
+    "B": "$\\frac{dy}{dx}+2y=x^2$; $P(x)=2$, $Q(x)=x^2$",
+    "C": "$\\frac{dy}{dx}+\\frac{2}{x}y=x^3$; $P(x)=\\frac{2}{x}$, $Q(x)=x^3$",
+    "D": "$\\frac{dy}{dx}-\\frac{2}{x}y=x^2$; $P(x)=-\\frac{2}{x}$, $Q(x)=x^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

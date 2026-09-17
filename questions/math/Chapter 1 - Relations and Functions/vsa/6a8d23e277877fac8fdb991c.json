@@ -1,0 +1,29 @@
+{
+  "id": "6a8d23e277877fac8fdb991c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "For $f:\\mathbb{R}\\to[1,\\infty)$ defined by $f(x)=x^2+1$, determine whether an arbitrary element $y$ of the co-domain has a real pre-image.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> Take an arbitrary $y\\in[1,\\infty)$. Then $y\\ge1$.<br><b>Step 2:</b> To find a pre-image, solve $f(x)=y$, giving $x^2+1=y$.<br><b>Step 3:</b> Hence, $x^2=y-1$. Since $y\\ge1$, we have $y-1\\ge0$.<br><b>Step 4:</b> Therefore, real values $x=\\sqrt{y-1}$ or $x=-\\sqrt{y-1}$ exist and satisfy $f(x)=y$.<br><b>Step 5:</b> Thus, every element of the given co-domain has at least one real pre-image.<br><b>Final Answer:</b> Yes, every $y\\in[1,\\infty)$ has a real pre-image; hence, $f$ is onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes; $x=\\pm\\sqrt{y-1}$ gives a real pre-image, so $f$ is onto",
+    "B": "Yes; $x=\\pm\\sqrt{y+1}$ gives a real pre-image, so $f$ is onto",
+    "C": "No; $y=1$ has no real pre-image, so $f$ is not onto",
+    "D": "No; elements greater than $1$ have no real pre-images"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

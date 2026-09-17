@@ -1,0 +1,26 @@
+{
+  "id": "6a329353d5dca7dcb0bf0ef9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int \\frac{\\sqrt{x}}{(x+1)(x-1)} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $t = \\sqrt{x}$, so $x = t^2$ and $dx = 2t dt$.\n\n**Step 2:** Substitute these into the integral to get $\\int \\frac{t}{(t^2+1)(t^2-1)} (2t dt) = \\int \\frac{2t^2}{t^4 - 1} dt$.\n\n**Step 3:** Split the numerator to use partial fractions: $\\frac{2t^2}{t^4-1} = \\frac{(t^2+1) + (t^2-1)}{(t^2+1)(t^2-1)} = \\frac{1}{t^2-1} + \\frac{1}{t^2+1}$.\n\n**Step 4:** Integrate both terms: $\\int \\frac{1}{t^2-1} dt + \\int \\frac{1}{t^2+1} dt = \\frac{1}{2}\\log|\\frac{t-1}{t+1}| + \\tan^{-1}t + C$.\n\n**Step 5:** Substitute back $t = \\sqrt{x}$: $\\frac{1}{2}\\log|\\frac{\\sqrt{x}-1}{\\sqrt{x}+1}| + \\tan^{-1}\\sqrt{x} + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

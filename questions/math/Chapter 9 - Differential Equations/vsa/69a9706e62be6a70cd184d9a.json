@@ -1,0 +1,30 @@
+{
+  "id": "69a9706e62be6a70cd184d9a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "VSA",
+  "question": "If $y = Ce^{-3x}$ is a solution to a differential equation, form the corresponding first order, first degree differential equation.",
+  "answeroption": "A",
+  "explanation": "Given $y = Ce^{-3x}$<br />$\\Rightarrow \\dfrac{y}{e^{-3x}} = C$<br />Differentiate both sides w.r.t $x$:<br />$\\dfrac{d}{dx}\\left(\\dfrac{y}{e^{-3x}}\\right) = 0$<br />Using product rule, $\\dfrac{d}{dx}(y\\cdot e^{3x}) = 0$<br />$e^{3x}\\dfrac{dy}{dx} + 3e^{3x}y = 0$<br />$\\Rightarrow \\dfrac{dy}{dx} + 3y = 0$<br />Required differential equation: $\\dfrac{dy}{dx} + 3y = 0$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{dy}{dx}+3y=0$",
+    "B": "$\\dfrac{dy}{dx}-3y=0$",
+    "C": "$\\dfrac{dy}{dx}+y=0$",
+    "D": "$\\dfrac{d^2y}{dx^2}+3y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:00:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

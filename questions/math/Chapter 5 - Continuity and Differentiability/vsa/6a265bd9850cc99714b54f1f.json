@@ -1,0 +1,28 @@
+{
+  "id": "6a265bd9850cc99714b54f1f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "VSA",
+  "question": "If $y=\\cos^{3}(\\sec^{2}2t)$, find $\\frac{dy}{dt}$.",
+  "answeroption": "$-12\\cos^{2}(\\sec^{2}2t)\\sin(\\sec^{2}2t)\\sec^{2}2t\\tan2t$",
+  "explanation": "<b>Step 1</b> Apply the power rule and chain rule first: $\\frac{dy}{dt} = 3\\cos^2(\\sec^2 2t) \\cdot \\frac{d}{dt}[\\cos(\\sec^2 2t)]$.<br /><br /><b>Step 2</b> Differentiate the inner cosine function component: $\\frac{d}{dt}[\\cos(\\sec^2 2t)] = -\\sin(\\sec^2 2t) \\cdot \\frac{d}{dt}(\\sec^2 2t)$.<br /><br /><b>Step 3</b> Differentiate the secant term: $\\frac{d}{dt}(\\sec^2 2t) = 2\\sec 2t \\cdot (\\sec 2t \\tan 2t \\cdot 2) = 4\\sec^2 2t \\tan 2t$.<br /><br /><b>Step 4</b> Combine everything to obtain the final simplified derivative: $\\frac{dy}{dt} = -12\\cos^2(\\sec^2 2t)\\sin(\\sec^2 2t)\\sec^2 2t\\tan 2t$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

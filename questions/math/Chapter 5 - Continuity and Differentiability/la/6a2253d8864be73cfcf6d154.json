@@ -1,0 +1,28 @@
+{
+  "id": "6a2253d8864be73cfcf6d154",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "LA",
+  "question": "If $\\sqrt{1-x^2}+\\sqrt{1-y^2}=a(x-y)$ then prove that $\\frac{dy}{dx}=\\sqrt{\\frac{1-y^2}{1-x^2}}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To begin proving the given differential equation relationship, we deeply analyze the initial algebraic expression $\\sqrt{1-x^2} + \\sqrt{1-y^2} = a(x-y)$. To bypass tedious direct implicit differentiation, we deploy strategic trigonometric substitutions. This elegant technique is standard for expressions involving $\\sqrt{1-x^2}$ and $\\sqrt{1-y^2}$.<br />**Step 2:** We meticulously make the substitutions by setting $x = \\sin A$ and $y = \\sin B$. This immediately establishes the inverse relations $A = \\sin^{-1} x$ and $B = \\sin^{-1} y$. Substituting these into our equation, we secure the intermediate form: $\\sqrt{1-\\sin^2 A} + \\sqrt{1-\\sin^2 B} = a(\\sin A - \\sin B)$.<br />**Step 3:** Utilizing the fundamental Pythagorean trigonometric identity, which explicitly asserts $\\cos^2 \\theta = 1 - \\sin^2 \\theta$, we confidently simplify the square roots. This reliably yields the transformed equation: $\\cos A + \\cos B = a(\\sin A - \\sin B)$.<br />**Step 4:** Next, we precisely apply the well-known sum-to-product trigonometric formulas. Substituting the identities for the sum of cosines and difference of sines provides: $2 \\cos(\\frac{A+B}{2}) \\cos(\\frac{A-B}{2}) = a [2 \\cos(\\frac{A+B}{2}) \\sin(\\frac{A-B}{2})]$.<br />**Step 5:** By dividing both sides of the equation by the non-zero common factor $2 \\cos(\\frac{A+B}{2})$, we massively simplify the relationship to $\\cos(\\frac{A-B}{2}) = a \\sin(\\frac{A-B}{2})$. By further rearranging, we arrive at the concise equality $\\cot(\\frac{A-B}{2}) = a$.<br />**Step 6:** We mathematically isolate the angles, yielding $\\frac{A-B}{2} = \\cot^{-1} a$, which translates to $A - B = 2 \\cot^{-1} a$. Re-substituting the original $x$ and $y$ variables produces the highly simplified implicit function $\\sin^{-1} x - \\sin^{-1} y = 2 \\cot^{-1} a$.<br />**Step 7:** Finally, we implicitly differentiate both sides of this equation strictly with respect to the variable $x$. Since the right side is a pure constant, its derivative is zero. We obtain $\\frac{1}{\\sqrt{1-x^2}} - \\frac{1}{\\sqrt{1-y^2}} \\frac{dy}{dx} = 0$. Rearranging this final expression flawlessly proves the required result: $\\frac{dy}{dx} = \\sqrt{\\frac{1-y^2}{1-x^2}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1",
+    "2025-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

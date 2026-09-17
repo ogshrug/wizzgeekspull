@@ -1,0 +1,30 @@
+{
+  "id": "6a8ecf632e54880055a0a6c6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A class studies the function $$h(x)=|x-2|$$ to understand the difference between continuity and differentiability. Writing the modulus function in piecewise form gives $$h(x)=\\begin{cases}2-x,&x<2\\\\x-2,&x\\geq2\\end{cases}.$$ The two linear pieces meet at $x=2$, so the students first examine whether the function has any break at that point. They then investigate whether the slopes obtained from the left and from the right are equal. The activity is intended to test whether a function that is continuous at a point must necessarily also be differentiable there.<br><br><b>(a)</b> Find the left-hand limit and right-hand limit of $h(x)$ at $x=2$.<br><br><b>(b)</b> Verify whether $h$ is continuous at $x=2$.<br><br><b>(c)</b> Find the left-hand derivative and right-hand derivative of $h$ at $x=2$.<br><br><b>(d)</b> Using the result obtained, determine whether continuity at a point is sufficient to guarantee differentiability there.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>For $x<2$, $h(x)=2-x$. Therefore,<br><br>$$\\lim_{x\\to2^-}h(x)=2-2=0.$$<br><br>For $x>2$, $h(x)=x-2$. Therefore,<br><br>$$\\lim_{x\\to2^+}h(x)=2-2=0.$$<br><br>Thus, both one-sided limits are equal to $0$.<br><br><b>(b)</b><br>We have<br><br>$$h(2)=|2-2|=0.$$<br><br>Also,<br><br>$$\\lim_{x\\to2^-}h(x)=\\lim_{x\\to2^+}h(x)=0=h(2).$$<br><br>Hence, $h$ is continuous at $x=2$.<br><br><b>(c)</b><br>For $x<2$, $h(x)=2-x$, whose derivative is $-1$. Hence,<br><br>$$h'_-(2)=-1.$$<br><br>For $x>2$, $h(x)=x-2$, whose derivative is $1$. Hence,<br><br>$$h'_+(2)=1.$$<br><br>Since $h'_-(2)\\neq h'_+(2)$, the derivative at $x=2$ does not exist.<br><br><b>(d)</b><br>The function $h$ is continuous at $x=2$ but is not differentiable there. Therefore, continuity at a point is not sufficient to guarantee differentiability at that point. This provides a direct example showing that the converse of the result that differentiability implies continuity is not true.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\lim_{x\\to2^-}h(x)=-1,\\ \\lim_{x\\to2^+}h(x)=1$<br>(b) $h$ is not continuous at $x=2$<br>(c) $h'_-(2)=-1,\\ h'_+(2)=1$<br>(d) Continuity is sufficient for differentiability",
+    "B": "(a) $\\lim_{x\\to2^-}h(x)=0,\\ \\lim_{x\\to2^+}h(x)=0$<br>(b) $h$ is continuous at $x=2$<br>(c) $h'_-(2)=-1,\\ h'_+(2)=1$<br>(d) Continuity at a point is not sufficient to guarantee differentiability there",
+    "C": "(a) $\\lim_{x\\to2^-}h(x)=0,\\ \\lim_{x\\to2^+}h(x)=0$<br>(b) $h$ is continuous at $x=2$<br>(c) $h'_-(2)=1,\\ h'_+(2)=1$<br>(d) Continuity guarantees differentiability",
+    "D": "(a) $\\lim_{x\\to2^-}h(x)=0,\\ \\lim_{x\\to2^+}h(x)=0$<br>(b) $h$ is not continuous at $x=2$<br>(c) $h'_-(2)=-1,\\ h'_+(2)=-1$<br>(d) Continuity is not sufficient for differentiability"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9295751910886affb94f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d71"
+  ],
+  "question_type": "VSA",
+  "question": "Examine the consistency of $x+y+z=3$, $2y+z=1$ and $3z=6$ by using the coefficient determinant.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Form the coefficient matrix</b><br>The coefficient matrix is $$A=\\begin{bmatrix}1&1&1\\\\0&2&1\\\\0&0&3\\end{bmatrix}$$<br><b>Step 2: Evaluate its determinant</b><br>Since $A$ is triangular, its determinant is the product of its diagonal entries: $$|A|=(1)(2)(3)=6$$<br><b>Step 3: Interpret the determinant</b><br>As $|A|\\ne0$, the coefficient matrix is nonsingular and has an inverse.<br><b>Step 4: State the conclusion</b><br>Therefore, the system has a unique solution and is consistent.",
+  "explanation_image": [],
+  "options": {
+    "A": "The system is inconsistent because $|A|=0$.",
+    "B": "The system is consistent with infinitely many solutions because $|A|=6$.",
+    "C": "The system is consistent with a unique solution because $|A|=6\\ne0$.",
+    "D": "The system is inconsistent because $|A|=6$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

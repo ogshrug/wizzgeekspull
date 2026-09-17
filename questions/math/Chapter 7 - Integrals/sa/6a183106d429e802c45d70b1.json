@@ -1,0 +1,24 @@
+{
+  "id": "6a183106d429e802c45d70b1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{\\pi}\\frac{x \\sin x}{1+\\cos^{2}x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the integral be $I$. Apply the definite integral reflection property $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$, replacing $x$ with $(\\pi - x)$:<br />$I = \\int_{0}^{\\pi}\\frac{(\\pi - x)\\sin(\\pi - x)}{1+\\cos^2(\\pi - x)}dx = \\int_{0}^{\\pi}\\frac{(\\pi - x)\\sin x}{1+\\cos^2 x}dx = \\pi\\int_{0}^{\\pi}\\frac{\\sin x}{1+\\cos^2 x}dx - I$.<br /><br />**Step 2:** Rearrange to isolate $I$: $2I = \\pi \\int_{0}^{\\pi}\\frac{\\sin x}{1+\\cos^2 x}dx$. Use variable substitution: let $t = \\cos x \\implies dt = -\\sin x \\, dx$. Update limits: $x=0 \\implies t=1$; $x=\\pi \\implies t=-1$.<br /><br />**Step 3:** Substitute into the integral: $2I = \\pi \\int_{1}^{-1} \\frac{-dt}{1+t^2} = \\pi \\int_{-1}^{1} \\frac{dt}{1+t^2}$. Since $\\frac{1}{1+t^2}$ is an even function, we can rewrite the limits as: $2I = 2\\pi \\int_{0}^{1} \\frac{dt}{1+t^2} \\implies I = \\pi \\left[\\tan^{-1}t\\right]_0^1$.<br /><br />**Step 4:** Evaluate the final bounds: $I = \\pi (\\tan^{-1}(1) - \\tan^{-1}(0)) = \\pi \\left(\\frac{\\pi}{4} - 0\\right) = \\frac{\\pi^2}{4}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a1585106050c058f876e4dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): If R and S are two events such that $P(R|S)=1$ and $P(S)>0$ then $S\\subset R$<br />Reason (R) : If two events A and B are such that $P(A\\cap B)=P(B)$, then $A\\subset B$.",
+  "answeroption": "C",
+  "explanation": "**Step 1: Analyze Assertion (A)**<br />Using the conditional probability formula, we rewrite the given equation: $P(R|S) = \\frac{P(R \\cap S)}{P(S)} = 1 \\implies P(R \\cap S) = P(S)$. In set theory, if the intersection of two sets equals the entire second set, then the second set must be a completely contained subset of the first set ($S \\subset R$). Thus, Assertion (A) is true.<br /><br />**Step 2: Analyze Reason (R)**<br />We are given the condition $P(A \\cap B) = P(B)$. Following the same probability set theory logic as Step 1, this condition requires that set $B$ must be a subset of set $A$ ($B \\subset A$). The text of Reason (R) states that $A \\subset B$, which is the exact reverse and mathematically incorrect. Thus, Reason (R) is false.<br /><br />**Step 3: Choose the matching option**<br />Since Assertion (A) is true but Reason (R) is false, this corresponds to Option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

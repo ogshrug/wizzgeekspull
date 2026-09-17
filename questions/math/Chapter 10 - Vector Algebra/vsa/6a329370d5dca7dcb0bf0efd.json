@@ -1,0 +1,26 @@
+{
+  "id": "6a329370d5dca7dcb0bf0efd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "VSA",
+  "question": "$\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ are three mutually perpendicular unit vectors. If $\\theta$ is the angle between $\\vec{a}$ and $(2\\vec{a} + 3\\vec{b} + 6\\vec{c})$, find the value of $\\cos\\theta$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $\\vec{v} = 2\\vec{a} + 3\\vec{b} + 6\\vec{c}$. The angle $\\theta$ satisfies $\\cos\\theta = \\frac{\\vec{a} \\cdot \\vec{v}}{|\\vec{a}| |\\vec{v}|}$.\n\n**Step 2:** Find the magnitude $|\\vec{v}|^2 = (2\\vec{a} + 3\\vec{b} + 6\\vec{c}) \\cdot (2\\vec{a} + 3\\vec{b} + 6\\vec{c})$. Since $\\vec{a}, \\vec{b}, \\vec{c}$ are mutually perpendicular unit vectors, their cross terms vanish: $|\\vec{v}|^2 = 2^2 + 3^2 + 6^2 = 4 + 9 + 36 = 49$. Thus, $|\\vec{v}| = 7$.\n\n**Step 3:** Compute the dot product: $\\vec{a} \\cdot \\vec{v} = \\vec{a} \\cdot (2\\vec{a} + 3\\vec{b} + 6\\vec{c}) = 2|\\vec{a}|^2 = 2(1) = 2$.\n\n**Step 4:** Substitute back: $\\cos\\theta = \\frac{2}{1 \\times 7} = \\frac{2}{7}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

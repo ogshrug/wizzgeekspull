@@ -1,0 +1,31 @@
+{
+  "id": "6a22a7b9864be73cfcf6d2a6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of k for which $f(x)=\\begin{cases}3x+5,&x\\ge2\\\\ kx^{2},&x<2\\end{cases}$ is a continuous function, is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** For a function to be continuous at a point $x=c$, the left-hand limit (LHL), right-hand limit (RHL), and the function value at that point must all be equal.<br />**Step 2:** Calculate the Right Hand Limit (RHL) as $x \\to 2^+$. We use the piece defined for $x \\ge 2$, which is $3x+5$. $\\lim_{x\\to 2^+} (3x+5) = 3(2)+5 = 11$. The function value $f(2)$ is also 11.<br />**Step 3:** Calculate the Left Hand Limit (LHL) as $x \\to 2^-$. We use the piece defined for $x < 2$, which is $kx^2$. $\\lim_{x\\to 2^-} kx^2 = k(2^2) = 4k$.<br />**Step 4:** Equate the LHL and RHL for continuity: $4k = 11$.<br />**Step 5:** Solve for $k$: $k = \\frac{11}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{11}{4}$",
+    "B": "$\\frac{4}{11}$",
+    "C": "11",
+    "D": "$\\frac{11}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

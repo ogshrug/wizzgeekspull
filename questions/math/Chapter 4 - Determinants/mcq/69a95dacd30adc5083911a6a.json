@@ -1,0 +1,29 @@
+{
+  "id": "69a95dacd30adc5083911a6a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "MCQ",
+  "question": "For the $3 \\times 3$ matrix $A = \\begin{bmatrix} 1 & a & a^2 \\\\ 1 & b & b^2 \\\\ 1 & c & c^2 \\end{bmatrix}$, for which of the following values of $a, b, c$ is $A$ singular?",
+  "answeroption": "B",
+  "explanation": "Calculating determinant: <br /> This is a Vandermonde matrix. The determinant for $3\\times 3$ is: <br /> $|A| = (b - a)(c - a)(c - b)$ <br /> So it is zero if and only if any two of $a, b, c$ are equal. <br /> So the correct condition is (B). <br /> **Correct answer: (B) $a=b$ or $b=c$ or $c=a$**.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a + b + c = 0$",
+    "B": "$a=b$ or $b=c$ or $c=a$",
+    "C": "$abc = 1$",
+    "D": "$a, b, c$ are distinct"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:40:44 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8d24bd550d28a069ec32e2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "Consider $f:\\mathbb{R}^*\\to\\mathbb{R}^*$ defined by $f(x)=\\frac{1}{x}$, where $\\mathbb{R}^*=\\mathbb{R}\\setminus\\{0\\}$. Determine whether $f$ is one-one and onto.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Test the one-one property</b><br>Suppose $f(x_1)=f(x_2)$. Then<br>$$\\frac{1}{x_1}=\\frac{1}{x_2}.$$<br>Since $x_1,x_2\\ne0$, cross-multiplication gives $x_1=x_2$. Thus, $f$ is one-one.<br><br><b>Step 2: Test the onto property</b><br>Take an arbitrary $y\\in\\mathbb{R}^*$. We need an $x\\in\\mathbb{R}^*$ such that<br>$$\\frac{1}{x}=y.$$<br><br><b>Step 3: Find a pre-image</b><br>Solving the equation gives<br>$$x=\\frac{1}{y}.$$<br>Since $y\\ne0$, this value of $x$ is also a non-zero real number and belongs to the domain.<br><br><b>Step 4: Draw the conclusion</b><br>Every element of the co-domain has a pre-image. Therefore, $f$ is onto.<br><br><b>Final Answer:</b> $f$ is both one-one and onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one but not onto",
+    "B": "$f$ is onto but not one-one",
+    "C": "$f$ is both one-one and onto",
+    "D": "$f$ is neither one-one nor onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

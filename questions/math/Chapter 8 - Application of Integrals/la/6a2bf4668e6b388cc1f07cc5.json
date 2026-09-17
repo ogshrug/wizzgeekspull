@@ -1,0 +1,27 @@
+{
+  "id": "6a2bf4668e6b388cc1f07cc5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, find the area of the region bounded by the curve $y=x|x|$, x-axis, $x=-2$ and $x=2$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** We begin by redefining the given absolute value function $y = x|x|$ by breaking it down into a piece-wise format based on the sign of the independent variable $x$. For non-negative values where $x \\ge 0$, the absolute value $|x| = x$, which transforms the function into the standard parabola $y = x^2$. Conversely, for negative values where $x < 0$, the absolute value $|x| = -x$, leading to the inverted parabola $y = -x^2$ [cite: 2676].<br /><br />**Step 2:** The total bounded area required spans continuously across the interval from $x = -2$ to $x = 2$ along the x-axis[cite: 2676]. Since the function changes its algebraic definition precisely at the origin $(x = 0)$, we must split the total definite integral into two separate integration regions: one from $-2$ to $0$ and another from $0$ to $2$. This ensures we handle the geometric areas correctly without cancellation.<br /><br />**Step 3:** Set up the area integrals using absolute values to represent the physical area: $\\text{Area} = \\int_{-2}^{0} |-x^2| \\, dx + \\int_{0}^{2} x^2 \\, dx$. Due to the symmetric nature of the curve across the origin, the magnitude of the area in both quadrants is perfectly identical. Thus, we can simplify the expression to $2 \\int_{0}^{2} x^2 \\, dx$.<br /><br />**Step 4:** Integrate the power term using the standard anti-derivative rule: $2 \\left[ \\frac{x^3}{3} \\right]_0^2$. Substituting the upper boundary limit of 2 and lower boundary limit of 0 yields $2 \\left( \\frac{8}{3} - 0 \\right) = \\frac{16}{3}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a22b39dfbdd87b6dea73c01",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "VSA",
+  "question": "Let $\\vec{a}, \\vec{b}, \\vec{c}$ be three vectors such that $\\vec{a}\\cdot\\vec{b}=\\vec{a}\\cdot\\vec{c}$, $\\vec{a}\\times\\vec{b}=\\vec{a}\\times\\vec{c}$, $\\vec{a}\\ne\\vec{0}$. Show that $\\vec{b}=\\vec{c}$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Rewrite the given dot product condition by moving terms to one side: $\\vec{a}\\cdot\\vec{b} - \\vec{a}\\cdot\\vec{c} = 0 \\implies \\vec{a}\\cdot(\\vec{b} - \\vec{c}) = 0$. This implies that either vector $(\\vec{b} - \\vec{c}) = \\vec{0}$, or vector $\\vec{a}$ is perpendicular to vector $(\\vec{b} - \\vec{c})$.<br /><br /><b>Step 2</b> Rewrite the given cross product condition similarly: $\\vec{a}\\times\\vec{b} - \\vec{a}\\times\\vec{c} = \\vec{0} \\implies \\vec{a}\\times(\\vec{b} - \\vec{c}) = \\vec{0}$. This implies that either $(\\vec{b} - \\vec{c}) = \\vec{0}$, or vector $\\vec{a}$ is parallel to vector $(\\vec{b} - \\vec{c})$.<br /><br /><b>Step 3</b> Since a non-zero vector $\\vec{a}$ cannot be both perpendicular and parallel to the same non-zero vector $(\\vec{b} - \\vec{c})$ simultaneously, the only consistent conclusion is that the difference vector must be zero: $\\vec{b} - \\vec{c} = \\vec{0} \\implies \\vec{b} = \\vec{c}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

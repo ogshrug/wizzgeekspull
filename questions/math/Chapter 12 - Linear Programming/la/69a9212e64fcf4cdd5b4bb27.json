@@ -1,0 +1,29 @@
+{
+  "id": "69a9212e64fcf4cdd5b4bb27",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A company produces tables and chairs. Each table requires 2 hours of carpentry and 1 hour of finishing. Each chair requires 1 hour of carpentry and 2 hours of finishing. The company has 12 hours of carpentry and 8 hours of finishing daily. The profit is Rs 70 per table and Rs 50 per chair. Formulate the LPP for maximizing profit, identify feasible region and corner points, and solve graphically.",
+  "answeroption": "A",
+  "explanation": "Let $x$ = tables and $y$ = chairs.<br /><br />Objective function: $Z=70x+50y$ (maximize).<br /><br />Constraints: $2x+y\\leq12$, $x+2y\\leq8$, $x,y\\geq0$.<br /><br />Solve $2x+y=12\\implies y=12-2x$.<br /><br />Solve $x+2y=8\\implies y=(8-x)/2$.<br /><br />Set equal: $12-2x=(8-x)/2$.<br /><br />$24-4x=8-x\\implies-3x=-16\\implies x=16/3≈5.33$.<br /><br />$y=12-2x≈1.33$.<br /><br />Intercepts: $(0,4)$ and $(6,0)$.<br /><br />Feasible vertices: $(0,4)$, $(6,0)$, $(5.33,1.33)$.<br /><br />Evaluate $Z$.<br /><br />$(0,4):200$.<br /><br />$(6,0):420$.<br /><br />$(5.33,1.33):439.6$.<br /><br />Maximum profit Rs 439.6 at $(5.33,1.33)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximum profit Rs 439.6 at approximately $(5.33,1.33)$",
+    "B": "Maximum profit Rs 420 at $(6,0)$",
+    "C": "Maximum profit Rs 200 at $(0,4)$",
+    "D": "Maximum profit Rs 500 at $(5,3)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:22:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

@@ -1,0 +1,572 @@
+[
+  {
+    "id": "6a8eb0454b490c7cde359446",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "LA",
+    "question": "For real parameters $k$ and $\\lambda$, consider<br>$$x+y=2$$<br>$$2x+ky=\\lambda$$<br><br><b>(a)</b> Determine the condition on $k$ for which the system has a unique solution and obtain that solution.<br><br><b>(b)</b> When $k=2$, determine the value of $\\lambda$ for which the system has infinitely many solutions.<br><br><b>(c)</b> State the condition on $\\lambda$ for which the system is inconsistent when $k=2$.",
+    "options": {
+      "A": "(a) Unique solution for $k\\neq2$: $x=\\frac{\\lambda-2k}{k-2},\\ y=\\frac{4-\\lambda}{k-2}$<br>(b) For $k=2$, infinitely many solutions when $\\lambda=-4$<br>(c) Inconsistent when $\\lambda\\neq-4$",
+      "B": "(a) Unique solution only for $k=2$<br>(b) Infinitely many solutions for every $\\lambda$<br>(c) The system is never inconsistent",
+      "C": "(a) Unique solution for $k\\neq0$: $x=\\frac{2k-\\lambda}{k},\\ y=\\frac{\\lambda-4}{k}$<br>(b) For $k=2$, infinitely many solutions when $\\lambda=2$<br>(c) Inconsistent when $\\lambda\\neq2$",
+      "D": "(a) Unique solution for $k\\neq2$: $x=\\frac{2k-\\lambda}{k-2},\\ y=\\frac{\\lambda-4}{k-2}$<br>(b) For $k=2$, infinitely many solutions when $\\lambda=4$<br>(c) For $k=2$, the system is inconsistent when $\\lambda\\neq4$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a95dacd30adc5083911a68",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "MCQ",
+    "question": "If $A$ is a $3\\times3$ non-singular matrix such that $\\mathrm{adj}(A) = A'$, what is $|A|$?",
+    "options": {
+      "A": "$0$",
+      "B": "$1$",
+      "C": "$-1$",
+      "D": "$\\pm 1$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a95f00d30adc5083911a6e",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "LA",
+    "question": "Given the following 3x3 system representing the intersection of three planes: <br /><br /> $x + 2y + 3z = 1$ <br /> $2x + 5y + 8z = 3$ <br /> $3x + 8y + 14z = 4$ <br /><br /> (a) Use the matrix method to determine if the system has a unique solution. <br /> (b) If so, find the solution vector $\\begin{bmatrix}x \\\\ y \\\\ z\\end{bmatrix}$.",
+    "options": {
+      "A": "(a) $|A|=0$, so the system does not have a unique solution.<br />(b) Therefore, a unique solution vector cannot be found.",
+      "B": "(a) $|A|=1\\ne0$, so the system has a unique solution.<br />(b) $X=\\begin{bmatrix}-2\\\\3\\\\-1\\end{bmatrix}$.",
+      "C": "(a) $|A|=1\\ne0$, so the system has a unique solution.<br />(b) $X=\\begin{bmatrix}2\\\\-3\\\\1\\end{bmatrix}$.",
+      "D": "(a) $|A|=-1\\ne0$, so the system has no solution.<br />(b) No solution vector exists."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a96101d30adc5083911a74",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "AR",
+    "question": "Assertion (A): If $A$ is a $3 \\times 3$ matrix such that $A$ is non-singular and $|A| = 2$, then $|\\text{adj }A| = 8$.<br /><br />Reason (R): For an $n \\times n$ matrix $A$, $|\\text{adj }A| = |A|^{n-1}$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8eadf3751910886affb96c",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "LA",
+    "question": "For the matrix $A=\\begin{bmatrix}3 & -2\\\\5 & 1\\end{bmatrix}$:<br><br><b>(a)</b> Find the cofactors of all its elements and hence obtain $\\operatorname{adj}A$.<br><br><b>(b)</b> Verify that $A(\\operatorname{adj}A)=|A|I$.<br><br><b>(c)</b> Hence, determine $A^{-1}$.",
+    "options": {
+      "A": "(a) Cofactor matrix $\\begin{bmatrix}1&2\\\\-5&3\\end{bmatrix}$ and $\\operatorname{adj}A=\\begin{bmatrix}1&-5\\\\2&3\\end{bmatrix}$<br>(b) $|A|=13$ and $A(\\operatorname{adj}A)=13I$<br>(c) $A^{-1}=\\frac{1}{13}\\begin{bmatrix}1&-5\\\\2&3\\end{bmatrix}$",
+      "B": "(a) Cofactor matrix $\\begin{bmatrix}1&-5\\\\2&3\\end{bmatrix}$ and $\\operatorname{adj}A=\\begin{bmatrix}1&2\\\\-5&3\\end{bmatrix}$<br>(b) $|A|=13$ and $A(\\operatorname{adj}A)=13I$<br>(c) $A^{-1}=\\frac{1}{13}\\begin{bmatrix}1&2\\\\-5&3\\end{bmatrix}$",
+      "C": "(a) Cofactor matrix $\\begin{bmatrix}1&-5\\\\-2&3\\end{bmatrix}$<br>(b) $|A|=-7$ and $A(\\operatorname{adj}A)=-7I$<br>(c) $A^{-1}=-\\frac{1}{7}\\operatorname{adj}A$",
+      "D": "(a) $\\operatorname{adj}A=A$<br>(b) $|A|=13$<br>(c) $A^{-1}=\\frac{1}{13}A$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e9c2c2e54880055a0a694",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "SA",
+    "question": "Using the inverse-matrix method, solve $4x+y=9$ and $3x+y=7$. Hence, calculate $2x-y$.",
+    "options": {
+      "A": "$x=1$, $y=2$, and $2x-y=0$",
+      "B": "$x=2$, $y=1$, and $2x-y=3$",
+      "C": "$x=2$, $y=-1$, and $2x-y=5$",
+      "D": "$x=3$, $y=-3$, and $2x-y=9$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a95aebd30adc5083911a59",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "MCQ",
+    "question": "Let $A$ be a $3 \\times 3$ real matrix such that $A^T = -A$ and $|A| = 5$. Which of the following is TRUE?\n\nChoose the correct statement.",
+    "options": {
+      "A": "$A$ is non-singular and $A^2$ is scalar multiple of $I$",
+      "B": "$A$ is non-singular and $A^{-1} = -\\frac{1}{5}A^2$",
+      "C": "$A$ is non-singular and $A^{-1} = -\\frac{1}{5}A^T$",
+      "D": "$A$ is singular and $A^T = A$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a94894d30adc5083911a39",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "AR",
+    "question": "Assertion (A): If $A$ is a $3 \\times 3$ skew-symmetric matrix, then the determinant of $A$ is zero.<br /><br />Reason (R): The diagonal entries of a skew-symmetric matrix are always zero, and every $3 \\times 3$ skew-symmetric matrix has at least two identical rows.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a93597d30adc5083911a27",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "SA",
+    "question": "Solve for $k$ if the system of equations \n\n$\\begin{aligned} x + y + z &= 3 \\\\ 2x + 3y + 2z &= 6 \\\\ x + 2y + kz &= 4 \\end{aligned}$ \n\nhas infinitely many solutions.",
+    "options": {
+      "A": "$k=1$",
+      "B": "$k=0$",
+      "C": "$k=2$",
+      "D": "No value of $k$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9337cd30adc5083911a1f",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "AR",
+    "question": "Assertion (A): For any $3 \\times 3$ invertible matrices $A$ and $B$, $\\operatorname{adj}(AB) = (\\operatorname{adj} B)(\\operatorname{adj} A)$.<br /><br />Reason (R): For $n \\times n$ invertible matrices, $\\det(AB) = \\det(A)\\det(B)$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e94684b490c7cde3593f3",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "SA",
+    "question": "The determinant $\\begin{vmatrix}x&1&0\\\\0&x&1\\\\1&0&x\\end{vmatrix}$ has the value $9$. Determine the real value of $x$ and verify the result.",
+    "options": {
+      "A": "$x=-2$",
+      "B": "$x=2$",
+      "C": "$x=3$",
+      "D": "$x=\\sqrt[3]{10}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e8e1b4b490c7cde3593e3",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "VSA",
+    "question": "For $A=\\begin{bmatrix}2&1&0\\\\3&k&4\\\\1&2&5\\end{bmatrix}$, the cofactor $A_{31}$ is $4$. Find $k$.",
+    "options": {
+      "A": "$k=4$",
+      "B": "$k=0$",
+      "C": "$k=1$",
+      "D": "$k$ may be any real number."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a93598d30adc5083911a2a",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "AR",
+    "question": "Assertion (A): If $A$ is a $3 \\times 3$ matrix and $|A| \\neq 0$, then $A$ is invertible.<br /><br />Reason (R): For a square matrix $A$, $|A|=0$ implies that $A$ is invertible.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e97584b490c7cde359400",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "SA",
+    "question": "For $A=\\begin{bmatrix}2&-1\\\\3&4\\end{bmatrix}$, find the cofactor of each element and form the corresponding cofactor matrix.",
+    "options": {
+      "A": "$\\begin{bmatrix}4&-3\\\\1&2\\end{bmatrix}$",
+      "B": "$\\begin{bmatrix}4&3\\\\-1&2\\end{bmatrix}$",
+      "C": "$\\begin{bmatrix}2&-3\\\\1&4\\end{bmatrix}$",
+      "D": "$\\begin{bmatrix}4&-1\\\\3&2\\end{bmatrix}$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a96102d30adc5083911a7a",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "LA",
+    "question": "Given the matrix $A = \\begin{bmatrix} 1 & 2 & -1 \\\\ 0 & a & 2 \\\\ 3 & 1 & 0 \\end{bmatrix}$, determine all real values of $a$ for which $A$ is singular. For the value(s) of $a$ found, analyze the consistency of the system $A X = B$ where $B = \\begin{bmatrix}3 \\\\ b \\\\ 1\\end{bmatrix}$ with $b$ a parameter.",
+    "options": {
+      "A": "$a=\\frac{10}{3}$; the system is consistent for all values of $b$.",
+      "B": "$a=-\\frac{10}{3}$; the system is inconsistent for all values of $b$.",
+      "C": "$a=-\\frac{10}{3}$; the system is consistent with infinitely many solutions when $b=-\\frac{16}{3}$ and inconsistent otherwise.",
+      "D": "$a=0$; the system has a unique solution for every value of $b$."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a90fdcf21e08867c2bcd85",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "MCQ",
+    "question": "Let $A$ be a $3 \\times 3$ matrix such that $|A|=5$ and $A^{adj}$ its adjoint. What is $|A^{adj}|$?",
+    "options": {
+      "A": "$25$",
+      "B": "$125$",
+      "C": "$5$",
+      "D": "$0$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e9c2a2e54880055a0a689",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "SA",
+    "question": "If $\\begin{vmatrix}a&b&c\\\\p&q&r\\\\x&y&z\\end{vmatrix}=4$, determine $\\begin{vmatrix}p&q&r\\\\2a&2b&2c\\\\x&y&z\\end{vmatrix}$ without expansion. State each property used.",
+    "options": {
+      "A": "$8$",
+      "B": "$-4$",
+      "C": "$-8$",
+      "D": "$4$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a963a0d30adc5083911a89",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "MCQ",
+    "question": "If B is a non-singular matrix and A is a square matrix, then $|B^{-1}AB|$ is equal to:",
+    "options": {
+      "A": "$|A^{-1}|$",
+      "B": "$|B^{-1}|$",
+      "C": "$|A|$",
+      "D": "$|B|$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8eb593751910886affb972",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "LA",
+    "question": "Using the inverse-matrix method, solve the system<br>$$3x+2y=13$$<br>$$x-y=1$$<br><br><b>(a)</b> Express the system in the form $AX=B$ and show that $A$ is invertible.<br><br><b>(b)</b> Find $A^{-1}$ and hence determine $x$ and $y$.<br><br><b>(c)</b> Verify the solution in both equations.",
+    "options": {
+      "A": "(a) $A=\\begin{bmatrix}3&2\\\\1&-1\\end{bmatrix}$, $|A|=5$<br>(b) $A^{-1}=\\frac15\\begin{bmatrix}-1&-2\\\\-1&3\\end{bmatrix}$ and $(x,y)=(-3,-2)$<br>(c) Both equations are satisfied",
+      "B": "(a) $A=\\begin{bmatrix}3&2\\\\1&-1\\end{bmatrix}$, $|A|=-5$<br>(b) $A^{-1}=\\frac15\\begin{bmatrix}1&2\\\\1&-3\\end{bmatrix}$ and $(x,y)=(2,3)$<br>(c) Only the second equation is satisfied",
+      "C": "(a) $A=\\begin{bmatrix}3&2\\\\1&-1\\end{bmatrix}$, $|A|=-5\\neq0$<br>(b) $A^{-1}=\\frac15\\begin{bmatrix}1&2\\\\1&-3\\end{bmatrix}$ and $(x,y)=(3,2)$<br>(c) $3(3)+2(2)=13$ and $3-2=1$",
+      "D": "(a) $|A|=0$, so $A$ is singular<br>(b) $A^{-1}$ does not exist<br>(c) The system has no solution"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a94ef0d30adc5083911a50",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "AR",
+    "question": "Assertion (A): If $A$ is a $3 \\times 3$ matrix such that $A^3 - 2A^2 + I = O$, then the inverse of $A$ can be expressed as a polynomial in $A$ of degree less than 3.<br /><br />Reason (R): Any square matrix $A$ that satisfies a polynomial equation of degree $n$ can have its inverse (if it exists) written as a polynomial in $A$ of degree less than $n$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a95bbbd30adc5083911a5f",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "MCQ",
+    "question": "Let $A=\\begin{bmatrix} 1 & x & 1 \\\\ 1 & 1 & x \\\\ x & 1 & 1 \\end{bmatrix}$. For what value(s) of $x$ is $A$ singular?",
+    "options": {
+      "A": "$x=1$ only",
+      "B": "$x=-2$ only",
+      "C": "$x=1$ or $x=-2$",
+      "D": "$x=0$ only"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e8e1b4b490c7cde3593df",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "VSA",
+    "question": "For $A=\\begin{bmatrix}2&-1&3\\\\4&0&5\\\\1&2&6\\end{bmatrix}$, determine the minor $M_{23}$.",
+    "options": {
+      "A": "$M_{23}=-5$",
+      "B": "$M_{23}=4$",
+      "C": "$M_{23}=6$",
+      "D": "$M_{23}=5$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a96102d30adc5083911a78",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "AR",
+    "question": "Assertion (A): If each element of a row is multiplied by a constant $k$, then the determinant is also multiplied by $k$.<br /><br />Reason (R): If every entry of a $3 \\times 3$ determinant is multiplied by $k$, the value of the determinant is multiplied by $k^3$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e9c2b2e54880055a0a691",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "SA",
+    "question": "Find all real values of $k$ for which $(k-1)x+2y=3$ and $3x+(k+1)y=4$ form a consistent system with a unique solution.",
+    "options": {
+      "A": "$k\\in\\mathbb{R}\\setminus\\{-7,7\\}$",
+      "B": "$k\\in\\{-\\sqrt{7},\\sqrt{7}\\}$",
+      "C": "$k\\in\\mathbb{R}\\setminus\\{-\\sqrt{7},\\sqrt{7}\\}$",
+      "D": "$k\\in\\mathbb{R}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e874f751910886affb92a",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "VSA",
+    "question": "Evaluate $\\begin{vmatrix}2&0&0\\\\3&-1&0\\\\4&5&6\\end{vmatrix}$.",
+    "options": {
+      "A": "$12$",
+      "B": "$-12$",
+      "C": "$-6$",
+      "D": "$6$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8eac474b490c7cde35943e",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "LA",
+    "question": "A triangular park has vertices $P(-2,4)$, $Q(3,-1)$, and $R(5,5)$.<br><br><b>(a)</b> Calculate its area using a determinant.<br><br><b>(b)</b> A point $S(t,2)$ is chosen so that the area of $\\triangle PQS$ is half the area of $\\triangle PQR$. Determine all possible values of $t$.<br><br><b>(c)</b> Verify the area of $\\triangle PQS$ for each value of $t$.",
+    "options": {
+      "A": "(a) Area of $\\triangle PQR=20$ square units<br>(b) $t=4$ only<br>(c) Area of $\\triangle PQS=10$ square units",
+      "B": "(a) Area of $\\triangle PQR=20$ square units<br>(b) $t=4$ or $t=-4$<br>(c) For both values, area of $\\triangle PQS=10$ square units",
+      "C": "(a) Area of $\\triangle PQR=40$ square units<br>(b) $t=4$ or $t=-4$<br>(c) For both values, area of $\\triangle PQS=20$ square units",
+      "D": "(a) Area of $\\triangle PQR=20$ square units<br>(b) $t=2$ or $t=-2$<br>(c) For both values, area of $\\triangle PQS=5$ square units"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e874f751910886affb92c",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "VSA",
+    "question": "Determine $k$ if $\\begin{vmatrix}k&1&1\\\\1&k&1\\\\1&1&k\\end{vmatrix}=0$ and $k>0$.",
+    "options": {
+      "A": "$k=-2$",
+      "B": "$k=1$",
+      "C": "$k=0$",
+      "D": "$k=2$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e8f88be0ecc7866e90b99",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "VSA",
+    "question": "Determine the number of solutions of the system $x+y+z=2$, $2x+2y+2z=4$ and $3x+3y+3z=6$.",
+    "options": {
+      "A": "No solution",
+      "B": "Exactly one solution",
+      "C": "Infinitely many solutions",
+      "D": "Exactly three solutions"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a8e874f751910886affb928",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "VSA",
+    "question": "Find $k$ if $\\begin{vmatrix}k&4\\\\3&k\\end{vmatrix}=-8$ and $k>0$.",
+    "options": {
+      "A": "$k=-2$",
+      "B": "$k=4$",
+      "C": "$k=-4$",
+      "D": "$k=2$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a95aecd30adc5083911a5b",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a8665d681ebad5835402ff",
+    "question_type": "MCQ",
+    "question": "If $A=\\begin{bmatrix} x & y \\\\ -y & x \\end{bmatrix}$ and $|A|=25$, then $A^{-1}$ is:",
+    "options": {
+      "A": "$\\frac{1}{25}\\begin{bmatrix} x & -y \\\\ y & x \\end{bmatrix}$",
+      "B": "$\\frac{1}{25}\\begin{bmatrix} x & y \\\\ -y & x \\end{bmatrix}$",
+      "C": "$\\frac{1}{25}\\begin{bmatrix} x & y \\\\ y & -x \\end{bmatrix}$",
+      "D": "$\\frac{1}{25}\\begin{bmatrix} x & -y \\\\ y & x \\end{bmatrix}$ (with $x, y$ interchanged on diagonal)"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  }
+]

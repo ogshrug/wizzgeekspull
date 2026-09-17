@@ -1,0 +1,32 @@
+{
+  "id": "6a8ef35abe0ecc7866e90c1a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Determine the point on the line $x+2y=12$ that is nearest to the origin by forming and minimising the square of its distance, verify the result using the second derivative test, and hence calculate the shortest distance.",
+  "answeroption": "A",
+  "explanation": "<b>Formation of Distance Function</b><br>From the line equation,<br>$$y=\\frac{12-x}{2}$$<br>The square of the distance of $(x,y)$ from the origin is<br>$$D^2=x^2+y^2$$<br>Therefore, let<br>$$F(x)=x^2+\\left(\\frac{12-x}{2}\\right)^2$$<br>$$F(x)=x^2+\\frac{(12-x)^2}{4}$$<br><br><b>Minimum Distance</b><br>Differentiating,<br>$$F'(x)=2x-\\frac{12-x}{2}$$<br>$$F'(x)=\\frac{5x-12}{2}$$<br>For a stationary value,<br>$$5x-12=0$$<br>$$x=\\frac{12}{5}$$<br>Then<br>$$y=\\frac{12-\\frac{12}{5}}{2}=\\frac{24}{5}$$<br>The first derivative changes from negative to positive at $x=\\frac{12}{5}$, so this gives the minimum. Also,<br>$$F''(x)=\\frac{5}{2}>0$$<br>which verifies the minimum by the second derivative test.<br><br><b>Final Result</b><br>The nearest point is<br>$$\\left(\\frac{12}{5},\\frac{24}{5}\\right)$$<br>The shortest distance is<br>$$D=\\sqrt{\\left(\\frac{12}{5}\\right)^2+\\left(\\frac{24}{5}\\right)^2}$$<br>$$D=\\frac{\\sqrt{720}}{5}=\\frac{12\\sqrt{5}}{5}\\ \\text{units}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Nearest point $\\left(\\frac{12}{5},\\frac{24}{5}\\right)$; shortest distance $\\frac{12\\sqrt{5}}{5}$ units",
+    "B": "Nearest point $(4,4)$; shortest distance $4\\sqrt{2}$ units",
+    "C": "Nearest point $\\left(\\frac{24}{5},\\frac{12}{5}\\right)$; shortest distance $\\frac{12\\sqrt{5}}{5}$ units",
+    "D": "Nearest point $(0,6)$; shortest distance $6$ units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

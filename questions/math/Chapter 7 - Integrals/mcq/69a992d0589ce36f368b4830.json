@@ -1,0 +1,29 @@
+{
+  "id": "69a992d0589ce36f368b4830",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "MCQ",
+  "question": "If $g(x)=\\int_0^{x^2} e^{t^2}dt$, then $\\frac{d}{dx}g(x)=$",
+  "answeroption": "D",
+  "explanation": "Using the Fundamental Theorem of Calculus.<br /><br />$\\frac{d}{dx}\\int_0^{x^2} e^{t^2}dt = e^{(x^2)^2}\\cdot \\frac{d}{dx}(x^2)$.<br /><br />Derivative of $x^2$ is $2x$.<br /><br />Thus the result becomes:<br /><br />$2x e^{x^4}$.<br /><br />Hence option (D) is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^{x^2}$",
+    "B": "$2x e^{x^4}$",
+    "C": "$2x e^{x^4}$",
+    "D": "$2x e^{(x^2)^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 14:27:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

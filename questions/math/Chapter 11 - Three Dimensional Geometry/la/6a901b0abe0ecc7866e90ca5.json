@@ -1,0 +1,30 @@
+{
+  "id": "6a901b0abe0ecc7866e90ca5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d0",
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "The shortest distance between the lines $\\vec{r}=\\hat{i}+\\lambda(\\hat{i}+\\hat{j})$ and $\\vec{r}=p\\hat{j}+\\hat{k}+\\mu(\\hat{i}+\\hat{k})$ is $\\sqrt{3}$ units, where $p>0$. Determine $p$ and establish that the corresponding pair of lines is skew.",
+  "answeroption": "C",
+  "explanation": "<b>Applying the Shortest Distance Formula</b><br>Write the lines in the form $\\vec{r}=\\vec{a_1}+\\lambda\\vec{b_1}$ and $\\vec{r}=\\vec{a_2}+\\mu\\vec{b_2}$, where<br>$$\\vec{a_1}=\\hat{i},\\quad \\vec{b_1}=\\hat{i}+\\hat{j},\\quad \\vec{a_2}=p\\hat{j}+\\hat{k},\\quad \\vec{b_2}=\\hat{i}+\\hat{k}$$<br>For two non-parallel lines, the shortest distance is<br>$$d=\\frac{\\left|\\left(\\vec{b_1}\\times\\vec{b_2}\\right)\\cdot\\left(\\vec{a_2}-\\vec{a_1}\\right)\\right|}{|\\vec{b_1}\\times\\vec{b_2}|}$$<br>Now,<br>$$\\vec{b_1}\\times\\vec{b_2}=\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&1&0\\\\1&0&1\\end{vmatrix}=\\hat{i}-\\hat{j}-\\hat{k}$$<br>and<br>$$\\vec{a_2}-\\vec{a_1}=-\\hat{i}+p\\hat{j}+\\hat{k}$$<br>Therefore,<br>$$\\left(\\vec{b_1}\\times\\vec{b_2}\\right)\\cdot\\left(\\vec{a_2}-\\vec{a_1}\\right)=-1-p-1=-(p+2)$$<br>Also,<br>$$|\\vec{b_1}\\times\\vec{b_2}|=\\sqrt{1^2+(-1)^2+(-1)^2}=\\sqrt{3}$$<br>Thus,<br>$$\\sqrt{3}=\\frac{|p+2|}{\\sqrt{3}}$$<br>which gives<br>$$|p+2|=3$$<br>Hence, $p=1$ or $p=-5$. Since $p>0$,<br>$$p=1$$<br><br><b>Verification of Skewness</b><br>For $p=1$, the scalar triple product used in the coplanarity test is<br>$$\\left(\\vec{a_2}-\\vec{a_1}\\right)\\cdot\\left(\\vec{b_1}\\times\\vec{b_2}\\right)=-3\\ne0$$<br>Hence, the lines are not coplanar. Since their direction vectors $(1,1,0)$ and $(1,0,1)$ are not proportional, they are not parallel. Therefore, the lines are skew.<br><br><b>Final Result</b><br>The required value is $p=1$, and for this value the two lines are skew.",
+  "explanation_image": [],
+  "options": {
+    "A": "$p=3$; the lines are skew.",
+    "B": "$p=1$; the lines intersect.",
+    "C": "$p=1$; the scalar triple product is non-zero, so the lines are skew.",
+    "D": "$p=5$; the lines are parallel."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

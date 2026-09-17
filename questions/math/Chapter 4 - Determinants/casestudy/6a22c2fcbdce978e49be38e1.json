@@ -1,0 +1,30 @@
+{
+  "id": "6a22c2fcbdce978e49be38e1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A scholarship is a sum of money provided to a student to help him or her pay for education. Some students are granted scholarships based on their academic achievements, while others are rewarded based on their financial needs.<br /><br />Every year a school offers scholarships to girl children and meritorious achievers based on certain criteria. In the session 202223, the school offered monthly scholarship of ₹3,000 each to some girl students and 4,000 each to meritorious achievers in academics as well as sports. In all, 50 students were given the scholarships and monthly expenditure incurred by the school on scholarships was 1,80,000.<br /><br />Based on the above information, answer the following questions :<br />**(i)** Express the given information algebraically using matrices.<br />**(ii)** Check whether the system of matrix equations so obtained is consistent or not.<br />**(iii) (a)** Find the number of scholarships of each kind given by the school, using matrices.<br /><br />**OR**<br /><br />**(iii) (b)** Had the amount of scholarship given to each girl child and meritorious student been interchanged, what would be the monthly expenditure incurred by the school?",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Let $x$ be the count of girls and $y$ be the count of meritorious achievers. The relationships generate: $x+y=50$ and $3000x+4000y=180000 \\implies 3x+4y=180$.<br />**Step 2:** Converting these linear algebraic equations into matrix form $AX=B$ yields: $\\begin{bmatrix}1&1\\\\3&4\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix} = \\begin{bmatrix}50\\\\180\\end{bmatrix}$.<br /><br />**(ii)** **Step 1:** Compute the determinant value of coefficient matrix $A$: $|A| = \\begin{vmatrix}1&1\\\\3&4\\end{vmatrix} = (1)(4) - (1)(3) = 1$.<br />**Step 2:** Because $|A| = 1 \\neq 0$, matrix $A$ is non-singular, validating that a unique inverse exists and the system is consistent.<br /><br />**(iii) (a)** **Step 1:** Construct matrix inverse: $A^{-1} = \\frac{1}{1}\\begin{bmatrix}4&-1\\\\-3&1\\end{bmatrix} = \\begin{bmatrix}4&-1\\\\-3&1\\end{bmatrix}$.<br />**Step 2:** Complete calculation $X = A^{-1}B = \\begin{bmatrix}4&-1\\\\-3&1\\end{bmatrix}\\begin{bmatrix}50\\\\180\\end{bmatrix} = \\begin{bmatrix}200-180\\\\-150+180\\end{bmatrix} = \\begin{bmatrix}20\\\\30\\end{bmatrix}$. Thus, $x=20, y=30$.<br /><br />**OR**<br /><br />**(iii) (b)** **Step 1:** From values resolved in part (iii)(a), the population sizes are verified as $x = 20$ girls and $y = 30$ meritorious achievers.<br />**Step 2:** Reversing award values gives ₹4,000 to girls and ₹3,000 to achievers. Total expenditure is: $4000(20) + 3000(30) = 80000 + 90000 = ₹1,70,000$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1",
+    "2024-3-2",
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22c2fcbdce978e49be38e1/1782262639-0.png?t=1782282439583"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

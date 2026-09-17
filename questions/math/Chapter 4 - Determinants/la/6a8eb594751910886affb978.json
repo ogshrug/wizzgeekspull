@@ -1,0 +1,30 @@
+{
+  "id": "6a8eb594751910886affb978",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "LA",
+  "question": "The prices, in rupees, of three school supplies are $x$, $y$, and $z$. Three purchase combinations give<br>$$x+y+z=120$$<br>$$2x+y+3z=250$$<br>$$x+3y+2z=250$$<br><br><b>(a)</b> Form the corresponding matrix equation and show that the coefficient matrix is invertible.<br><br><b>(b)</b> Use the inverse-matrix method to determine $x$, $y$, and $z$.<br><br><b>(c)</b> Interpret and verify the obtained prices.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The system has the matrix form<br>$$AX=B$$<br>where<br>$$A=\\begin{bmatrix}1 & 1 & 1\\\\2 & 1 & 3\\\\1 & 3 & 2\\end{bmatrix},\\quad X=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix},\\quad B=\\begin{bmatrix}120\\\\250\\\\250\\end{bmatrix}$$<br>The determinant is<br>$$|A|=1(2-9)-1(4-3)+1(6-1)$$<br>$$|A|=-7-1+5=-3\\neq0$$<br>Therefore, $A$ is invertible.<br><br><b>(b)</b><br>The adjoint is<br>$$\\operatorname{adj}A=\\begin{bmatrix}-7 & 1 & 2\\\\-1 & 1 & -1\\\\5 & -2 & -1\\end{bmatrix}$$<br>Hence,<br>$$A^{-1}=-\\frac{1}{3}\\begin{bmatrix}-7 & 1 & 2\\\\-1 & 1 & -1\\\\5 & -2 & -1\\end{bmatrix}$$<br>Therefore,<br>$$X=A^{-1}B$$<br>$$X=-\\frac{1}{3}\\begin{bmatrix}-7 & 1 & 2\\\\-1 & 1 & -1\\\\5 & -2 & -1\\end{bmatrix}\\begin{bmatrix}120\\\\250\\\\250\\end{bmatrix}$$<br>$$X=-\\frac{1}{3}\\begin{bmatrix}-840+250+500\\\\-120+250-250\\\\600-500-250\\end{bmatrix}$$<br>$$X=-\\frac{1}{3}\\begin{bmatrix}-90\\\\-120\\\\-150\\end{bmatrix}=\\begin{bmatrix}30\\\\40\\\\50\\end{bmatrix}$$<br>Thus,<br>$$x=30,\\quad y=40,\\quad z=50$$<br><br><b>(c)</b><br>The three supplies cost $₹30$, $₹40$, and $₹50$, respectively.<br>Verification:<br>$$30+40+50=120$$<br>$$2(30)+40+3(50)=60+40+150=250$$<br>$$30+3(40)+2(50)=30+120+100=250$$<br>Hence, all three purchase equations are satisfied.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=3$, so $A$ is invertible<br>(b) $(x,y,z)=(30,50,40)$<br>(c) Only the first equation is satisfied",
+    "B": "(a) $|A|=-3$, so $A$ is invertible<br>(b) $(x,y,z)=(40,30,50)$<br>(c) All three equations are satisfied",
+    "C": "(a) $A=\\begin{bmatrix}1&1&1\\\\2&1&3\\\\1&3&2\\end{bmatrix}$, $|A|=-3\\neq0$<br>(b) $(x,y,z)=(30,40,50)$<br>(c) The prices are $₹30$, $₹40$, and $₹50$, and all three purchase equations are satisfied",
+    "D": "(a) $|A|=0$, so the matrix is singular<br>(b) The prices are not uniquely determined<br>(c) $(30,40,50)$ is one of infinitely many possible price sets"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

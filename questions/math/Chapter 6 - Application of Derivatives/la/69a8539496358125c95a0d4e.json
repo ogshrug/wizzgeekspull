@@ -1,0 +1,30 @@
+{
+  "id": "69a8539496358125c95a0d4e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97c",
+    "6a13e98f8c819562f933f97b"
+  ],
+  "question_type": "LA",
+  "question": "From the point $(0, c)$, a tangent is drawn to the curve $y = x^2$, such that it touches the curve at point $(a, a^2)$. Find the value of $a$ in terms of $c$.",
+  "answeroption": "B",
+  "explanation": "Let (a, a²) be the point of contact.<br /><br />Slope of the tangent to y = x² is dy/dx = 2x.<br /><br />So slope at x = a is 2a.<br /><br />Equation of tangent at (a, a²):<br /><br />y − a² = 2a(x − a).<br /><br />Since it passes through (0, c), substitute x = 0 and y = c:<br /><br />c − a² = 2a(0 − a).<br /><br />c − a² = −2a².<br /><br />c = −2a² + a².<br /><br />c = −a².<br /><br />a² = −c.<br /><br />Therefore, a = √(−c), provided c < 0.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=\\sqrt{c}$, provided $c>0$.",
+    "B": "$a=\\pm\\sqrt{-c}$, provided $c\\le0$.",
+    "C": "$a=-\\sqrt{c}$, provided $c>0$.",
+    "D": "$a=\\pm c^2$ for all real $c$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:45:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

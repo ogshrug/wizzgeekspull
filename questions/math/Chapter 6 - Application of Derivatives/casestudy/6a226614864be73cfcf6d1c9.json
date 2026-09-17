@@ -1,0 +1,31 @@
+{
+  "id": "6a226614864be73cfcf6d1c9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A ladder of fixed length 'h' is to be placed along the wall such that it is free to move along the height of the wall. Based upon the above information, answer the following questions :<br /><br />**(i)** Express the distance ($y$) between the wall and foot of the ladder in terms of 'h' and height ($x$) on the wall at a certain instant. Also, write an expression in terms of h and $x$ for the area ($A$) of the right triangle, as seen from the side by an observer.<br />**(ii)** Find the derivative of the area ($A$) with respect to the height on the wall ($x$), and find its critical point.<br />**(iii) (a)** Show that the area ($A$) of the right triangle is maximum at the critical point.<br />OR<br />**(iii) (b)** If the foot of the ladder whose length is 5 m, is being pulled towards the wall such that the rate of decrease of distance ($y$) is $2\\text{ m/s}$, then at what rate is the height on the wall ($x$) increasing, when the foot of the ladder is 3 m away from the wall?",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The ladder, wall, and ground form a right-angled triangle where the ladder is the hypotenuse ($h$), the wall height is $x$, and the ground distance is $y$. By Pythagoras theorem, $x^2 + y^2 = h^2$. Thus, $y = \\sqrt{h^2 - x^2}$.<br />**Step 2:** The area of a right triangle is $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$. Substituting our variables, Area $A = \\frac{1}{2}xy = \\frac{1}{2}x\\sqrt{h^2 - x^2}$.<br /><br />**(ii)** **Step 1:** To simplify differentiation, let's consider the square of the area, $S = A^2 = \\frac{1}{4}x^2(h^2 - x^2) = \\frac{h^2x^2 - x^4}{4}$. Maximizing $S$ inherently maximizes $A$.<br />**Step 2:** Differentiate $S$ with respect to $x$: $\\frac{dS}{dx} = \\frac{2h^2x - 4x^3}{4} = \\frac{h^2x - 2x^3}{2}$. To find critical points, set the derivative to 0: $h^2x - 2x^3 = 0$.<br />**Step 3:** Since height $x$ cannot be zero, divide by $x$: $h^2 - 2x^2 = 0 \\implies x^2 = \\frac{h^2}{2} \\implies x = \\frac{h}{\\sqrt{2}}$.<br /><br />**(iii) (a)** **Step 1:** Utilize the Second Derivative Test to prove a maximum. Differentiate $\\frac{dS}{dx}$ again: $\\frac{d^2S}{dx^2} = \\frac{h^2 - 6x^2}{2}$.<br />**Step 2:** Substitute the critical point $x = \\frac{h}{\\sqrt{2}}$ into the second derivative: $\\frac{h^2 - 6(h^2/2)}{2} = \\frac{h^2 - 3h^2}{2} = -h^2$.<br />**Step 3:** Because $-h^2$ is strictly negative, the function is concave down at this point, mathematically confirming that the area is at a maximum.<br /><br />**(iii) (b)** **Step 1:** We are given $h=5$, $\\frac{dy}{dt} = -2\\text{ m/s}$ (decreasing), and $y=3$. From $x^2+y^2=h^2$, we find $x = \\sqrt{5^2-3^2} = \\sqrt{16} = 4\\text{ m}$.<br />**Step 2:** Differentiate $x^2+y^2=h^2$ implicitly with respect to time $t$: $2x\\frac{dx}{dt} + 2y\\frac{dy}{dt} = 0$.<br />**Step 3:** Substitute the known values: $2(4)\\frac{dx}{dt} + 2(3)(-2) = 0$. This gives $8\\frac{dx}{dt} - 12 = 0$. Solving yields $\\frac{dx}{dt} = \\frac{12}{8} = 1.5\\text{ m/s}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a226614864be73cfcf6d1c9/1782197244-0.png?t=1782217045472"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

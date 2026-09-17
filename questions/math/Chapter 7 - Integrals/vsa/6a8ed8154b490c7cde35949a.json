@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed8154b490c7cde35949a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "VSA",
+  "question": "Let $F(x)=\\int_0^x(t^2+1)\\,dt$. Find $F'(2)$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> The function is given by $$F(x)=\\int_0^x(t^2+1)\\,dt.$$<br><b>Step 2:</b> By the first Fundamental Theorem of Calculus, if $F(x)=\\int_a^xf(t)\\,dt$, then $F'(x)=f(x)$, provided $f$ is continuous.<br><b>Step 3:</b> Here, $f(t)=t^2+1$, which is continuous for all real values of $t$. Therefore, $F'(x)=x^2+1$.<br><b>Step 4:</b> Substituting $x=2$, we get $F'(2)=2^2+1$.<br><b>Step 5:</b> Hence, $F'(2)=4+1=\\boxed{5}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4$",
+    "B": "$5$",
+    "C": "$3$",
+    "D": "$6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

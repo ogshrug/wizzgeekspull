@@ -1,0 +1,33 @@
+{
+  "id": "6a215f06864be73cfcf6d117",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): A relation R on the set {1, 2, 3} defined as $R = \\{(1, 1), (1, 2), (2, 1), (2, 2), (3, 3)\\}$ is an equivalence relation.<br />Reason (R): A relation that is reflexive, symmetric and transitive is an equivalence relation.",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Check if R is reflexive: $(1,1), (2,2), (3,3) \\in R$. So, it is reflexive.<br />**Step 2:** Check if R is symmetric: $(1,2) \\in R$ and $(2,1) \\in R$. So, it is symmetric.<br />**Step 3:** Check if R is transitive: $(1,2) \\in R$ and $(2,1) \\in R \\implies (1,1) \\in R$. Also $(2,1) \\in R$ and $(1,2) \\in R \\implies (2,2) \\in R$. R is transitive. Therefore, A is true and R is true, and R explains A. However, wait, let's re-verify: the relation is $R = \\{(1, 1), (1, 2), (2, 1), (2, 2), (3, 3)\\}$. Is it transitive? Yes. Thus it is an equivalence relation. Assertion is True, Reason is True, and Reason is the correct explanation.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

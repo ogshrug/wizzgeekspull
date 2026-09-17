@@ -1,0 +1,30 @@
+{
+  "id": "69a9b06762be6a70cd184e12",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "SA",
+  "question": "Let vectors $\\vec{a} = 3\\hat{i} + 2\\hat{j} - \\hat{k}$ and $\\vec{b} = 2\\hat{i} - 2\\hat{j} + t\\hat{k}$ be such that $\\vec{a} \\cdot \\vec{b} = 4$ and $\\vec{a} \\times \\vec{b}$ is perpendicular to $\\vec{c} = \\hat{i} + x\\hat{j} + y\\hat{k}$. If $x = 2y$, find the value of $t$ and the possible values of $y$.",
+  "answeroption": "B",
+  "explanation": "First use $\\vec{a} \\cdot \\vec{b} = 4$:<br /><br />$3(2) + 2(-2) + (-1)t = 4$<br /><br />$6 - 4 - t = 4$<br /><br />$2 - t = 4$<br /><br />$t = -2$<br /><br />Now compute $\\vec{a} \\times \\vec{b}$:<br /><br />$\\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & 2 & -1 \\\\ 2 & -2 & -2 \\end{vmatrix}$<br /><br />$= \\hat{i}(2\\times -2 - (-1)\\times -2) - \\hat{j}(3\\times -2 - (-1)\\times 2) + \\hat{k}(3\\times -2 - 2\\times 2)$<br /><br />$= \\hat{i}(-4 - 2) - \\hat{j}(-6 + 2) + \\hat{k}(-6 - 4)$<br /><br />$= -6\\hat{i} + 4\\hat{j} - 10\\hat{k}$<br /><br />Since it is perpendicular to $\\vec{c} = \\hat{i} + x\\hat{j} + y\\hat{k}$:<br /><br />$(-6)(1) + 4x - 10y = 0$<br /><br />$-6 + 4x - 10y = 0$<br /><br />Substitute $x = 2y$:<br /><br />$-6 + 8y - 10y = 0$<br /><br />$-6 - 2y = 0$<br /><br />$y = -3$<br /><br />Thus $x = 2y = -6$.<br /><br />Final result: $t = -2$ and $y = -3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$t=2,\\ y=-3$",
+    "B": "$t=-2,\\ y=-3$",
+    "C": "$t=-2,\\ y=3$",
+    "D": "$t=4,\\ y=-6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:33:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a9c1d3d30adc5083911b5a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\cos^{-1}(2x-1)$ and $g(x) = \\sin^{-1}(1-2x)$, $x \\in [0,1]$.<br /><br />(a) Show that $f(x) + g(x) = \\frac{\\pi}{2}$ for all $x$ in $[0,1]$.<br /><br />(b) Find and simplify $f'(x)$ and $g'(x)$.<br /><br />(c) Let $h(x) = \\det\\begin{pmatrix} f(x) & g(x) \\\\ f'(x) & g'(x) \\end{pmatrix}$. Evaluate $h(\\frac{1}{2})$.<br /><br />(d) Express the value in (c) in terms of $\\pi$ and constants.",
+  "answeroption": "B",
+  "explanation": "**Concepts tested:** Inverse trigonometric functions, their derivatives, determinant of $2 \\times 2$ matrices, sum formulas.<br /><br />**Step 1: Show $f(x) + g(x) = \\frac{\\pi}{2}$**<br />Let $y = x$, $f(y) = \\cos^{-1}(2y-1)$, $g(y) = \\sin^{-1}(1-2y)$.<br />Let $\\alpha = f(y)$, so $\\cos\\alpha = 2y-1$, hence $\\sin\\alpha = \\sqrt{1-(2y-1)^2} = 2\\sqrt{y(1-y)}$.<br /><br />Now:<br />$\\sin g(y) = 1-2y$<br /><br />But<br />$\\sin(\\frac{\\pi}{2} - \\alpha) = \\cos\\alpha = 2y-1$<br /><br />So $\\sin^{-1}(1-2y) + \\cos^{-1}(2y-1) = \\frac{\\pi}{2}$ (using property: $\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}$).<br /><br />**Step 2: Find $f'(x)$ and $g'(x)$**<br />$f'(x) = \\frac{d}{dx} [\\cos^{-1}(2x-1)] = -\\frac{1}{\\sqrt{1-(2x-1)^2}} \\cdot 2 = -\\frac{2}{\\sqrt{1-(2x-1)^2}}$<br /><br />$1-(2x-1)^2 = 4x(1-x)$<br /><br />$f'(x) = -\\frac{1}{\\sqrt{x(1-x)}}$<br /><br />Similarly,<br />$g'(x) = \\frac{d}{dx} [\\sin^{-1}(1-2x)] = \\frac{1}{\\sqrt{1-(1-2x)^2}} \\cdot (-2) = -\\frac{2}{\\sqrt{1-(1-2x)^2}}$<br /><br />$1-(1-2x)^2 = 4x(1-x)$<br /><br />$g'(x) = -\\frac{1}{\\sqrt{x(1-x)}}$<br /><br />**Step 3: Evaluate determinant at $x=1/2$**<br />$f(1/2) = \\cos^{-1}(0) = \\frac{\\pi}{2}$<br />$g(1/2) = \\sin^{-1}(0) = 0$<br />$f'(1/2) = g'(1/2) = -2$<br /><br />$h(1/2) = \\begin{vmatrix} \\frac{\\pi}{2} & 0 \\\\ -2 & -2 \\end{vmatrix} = \\frac{\\pi}{2}(-2) - 0 = -\\pi$<br /><br />**Step 4:**<br />$h(\\frac{1}{2}) = -\\pi$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)+g(x)=\\pi$<br />(b) $f'(x)=\\frac{1}{\\sqrt{x(1-x)}}$, $g'(x)=-\\frac{1}{\\sqrt{x(1-x)}}$<br />(c) $h\\left(\\frac{1}{2}\\right)=\\pi$<br />(d) Value is $\\pi$",
+    "B": "(a) $f(x)+g(x)=\\frac{\\pi}{2}$<br />(b) $f'(x)=-\\frac{1}{\\sqrt{x(1-x)}}$, $g'(x)=-\\frac{1}{\\sqrt{x(1-x)}}$<br />(c) $h\\left(\\frac{1}{2}\\right)=-\\pi$<br />(d) Value is $-\\pi$",
+    "C": "(a) $f(x)+g(x)=0$<br />(b) $f'(x)=\\frac{2}{\\sqrt{x(1-x)}}$, $g'(x)=\\frac{2}{\\sqrt{x(1-x)}}$<br />(c) $h\\left(\\frac{1}{2}\\right)=0$<br />(d) Value is $0$",
+    "D": "(a) $f(x)+g(x)=\\frac{3\\pi}{2}$<br />(b) $f'(x)=-\\frac{2}{\\sqrt{x(1-x)}}$, $g'(x)=-\\frac{2}{\\sqrt{x(1-x)}}$<br />(c) $h\\left(\\frac{1}{2}\\right)=-2\\pi$<br />(d) Value is $-2\\pi$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:48:03 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

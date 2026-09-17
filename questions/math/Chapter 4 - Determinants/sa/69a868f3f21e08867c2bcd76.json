@@ -1,0 +1,30 @@
+{
+  "id": "69a868f3f21e08867c2bcd76",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6b",
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "SA",
+  "question": "Show that the area of the triangle with vertices $A(x_1, y_1)$, $B(x_2, y_2)$, $C(x_3, y_3)$ is given by:\n\n$\\displaystyle \\frac{1}{2} \\left| \\begin{matrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{matrix} \\right|$ using determinants.",
+  "answeroption": "C",
+  "explanation": "The area $\\Delta$ of triangle $ABC$ with vertices $A(x_1, y_1)$, $B(x_2, y_2)$ and $C(x_3, y_3)$ is:<br /><br />$\\Delta = \\frac{1}{2} |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$<br /><br />But we can write this with determinants:<br /><br />$= \\frac{1}{2} \\left| \\begin{array}{ccc} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{array} \\right|$<br /><br />Let's expand the determinant to check:<br /><br />$\\left| \\begin{array}{ccc} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{array} \\right| = x_1(y_2 \\cdot 1 - y_3 \\cdot 1) - y_1(x_2 \\cdot 1 - x_3 \\cdot 1) + 1(x_2 y_3 - x_3 y_2)$<br /><br />$= x_1(y_2 - y_3) - y_1(x_2 - x_3) + x_2 y_3 - x_3 y_2$<br /><br />After rearrangement and substituting appropriately, it gives exactly the area formula above.<br /><br />Hence proved.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\Delta=\\left|\\begin{matrix}x_1&y_1&1\\\\x_2&y_2&1\\\\x_3&y_3&1\\end{matrix}\\right|$",
+    "B": "$\\Delta=\\frac{1}{2}\\left|\\begin{matrix}x_1&x_2&x_3\\\\y_1&y_2&y_3\\\\1&1&1\\end{matrix}\\right|^2$",
+    "C": "$\\Delta=\\frac{1}{2}\\left|\\begin{matrix}x_1&y_1&1\\\\x_2&y_2&1\\\\x_3&y_3&1\\end{matrix}\\right|$",
+    "D": "$\\Delta=\\frac{1}{2}\\left|x_1x_2+x_2x_3+x_3x_1\\right|$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:16:35 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

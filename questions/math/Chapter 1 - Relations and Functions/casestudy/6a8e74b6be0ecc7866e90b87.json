@@ -1,0 +1,30 @@
+{
+  "id": "6a8e74b6be0ecc7866e90b87",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Consider a function $f:\\mathbb{N}\\to\\mathbb{N}$ defined by $f(n)=2n$. The first few values are $f(1)=2$, $f(2)=4$, $f(3)=6$ and $f(4)=8$. A group of students observes that every input gives an even natural number and no two different inputs appear to give the same output. They want to convert these observations into mathematical arguments based on the definitions of one-one and onto functions. Throughout the case, $\\mathbb{N}=\\{1,2,3,\\ldots\\}$, and the codomain remains the complete set of natural numbers.<br><br><b>(a)</b> Calculate $f(5)$ and $f(9)$.<br><br><b>(b)</b> Show that $f$ is one-one.<br><br><b>(c)</b> Determine whether $f$ is onto $\\mathbb{N}$ and justify your conclusion using a particular natural number.<br><br><b>(d)</b> If the codomain is replaced by the set $E$ of positive even integers, determine whether the same rule defines a one-one and onto function from $\\mathbb{N}$ to $E$.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Using $f(n)=2n$, we get $f(5)=2\\times5=10$ and $f(9)=2\\times9=18$.<br><br><b>(b)</b><br>Suppose $f(n_1)=f(n_2)$. Then $2n_1=2n_2$. Dividing by $2$ gives $n_1=n_2$. Therefore, equal images arise only from equal inputs, so $f$ is one-one.<br><br><b>(c)</b><br>For $f$ to be onto $\\mathbb{N}$, every natural number must have a pre-image. Consider $1\\in\\mathbb{N}$. The equation $2n=1$ gives $n=\\frac{1}{2}$, which is not a natural number. Thus, $1$ has no pre-image and $f$ is not onto $\\mathbb{N}$.<br><br><b>(d)</b><br>The one-one argument remains unchanged. Now let $y\\in E$. Since $y$ is a positive even integer, $y=2k$ for some $k\\in\\mathbb{N}$. Taking $n=k$ gives $f(k)=2k=y$. Hence every element of $E$ has a pre-image. Therefore, $f:\\mathbb{N}\\to E$ is both one-one and onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(5)=10$ and $f(9)=18$; $f:\\mathbb{N}\\to\\mathbb{N}$ is onto but not one-one, while $f:\\mathbb{N}\\to E$ is one-one but not onto.",
+    "B": "$f(5)=10$ and $f(9)=18$; $f:\\mathbb{N}\\to\\mathbb{N}$ is one-one but not onto because $1$ has no pre-image, while $f:\\mathbb{N}\\to E$ is both one-one and onto.",
+    "C": "$f(5)=7$ and $f(9)=11$; $f:\\mathbb{N}\\to\\mathbb{N}$ is both one-one and onto, while $f:\\mathbb{N}\\to E$ is not onto.",
+    "D": "$f(5)=10$ and $f(9)=18$; $f:\\mathbb{N}\\to\\mathbb{N}$ is neither one-one nor onto, while $f:\\mathbb{N}\\to E$ is onto but not one-one."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

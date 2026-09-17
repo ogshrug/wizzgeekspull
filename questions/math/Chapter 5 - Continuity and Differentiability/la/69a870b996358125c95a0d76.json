@@ -1,0 +1,30 @@
+{
+  "id": "69a870b996358125c95a0d76",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\ln(x^x + x^{1/x})$, for $x > 0$. Using logarithmic differentiation, find $f'(x)$ and $f''(x)$ and determine the intervals where $f''(x) > 0$.",
+  "answeroption": "A",
+  "explanation": "Given $f(x) = \\ln(x^x + x^{1/x})$, $x > 0$<br /><br />First, <br />$u(x) = x^x, v(x) = x^{1/x}$<br /><br />$f'(x) = \\frac{u'(x) + v'(x)}{u(x) + v(x)}$<br /><br />Now,<br />$u(x) = x^x$<br />$\\ln u = x \\ln x$<br />$u'(x) = x^x(\\ln x + 1)$<br /><br />$v(x) = x^{1/x}$<br />$\\ln v = \\frac{\\ln x}{x}$<br />So,<br />$\\frac{d}{dx}\\left(\\frac{\\ln x}{x}\\right) = \\frac{1-\\ln x}{x^2}$<br />$v'(x) = x^{1/x} \\cdot \\frac{1-\\ln x}{x^2}$<br /><br />Therefore,<br />$f'(x) = \\frac{ x^x ( \\ln x + 1 ) + x^{1/x} \\cdot \\frac{1-\\ln x}{x^2} }{ x^x + x^{1/x} }$<br /><br />For $f''(x)$:<br />Let $U(x) = x^x ( \\ln x + 1 ) + x^{1/x} \\cdot \\frac{1 - \\ln x}{x^2}$<br />$V(x) = x^x + x^{1/x}$<br /><br />Then<br />$f''(x) = \\frac{V(x) U'(x) - U(x) V'(x)}{ [ V(x) ]^2 }$<br /><br />Where $U'(x)$ and $V'(x)$ can be calculated using product and chain rules as above.<br /><br />To check where $f''(x) > 0$ requires analyzing the sign numerically, but for $x > 1$, $x^x$ dominates and derivatives are positive, so $f$ is convex for $x > 1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f'(x)=\\frac{x^x(\\ln x+1)+x^{1/x}\\cdot\\frac{1-\\ln x}{x^2}}{x^x+x^{1/x}}$.<br />If $U=x^x(\\ln x+1)+x^{1/x}\\cdot\\frac{1-\\ln x}{x^2}$ and $V=x^x+x^{1/x}$, then $f''(x)=\\frac{VU'-UV'}{V^2}$.<br />From the given analysis, $f''(x)>0$ for $x>1$.",
+    "B": "$f'(x)=x^x(\\ln x+1)+x^{1/x}\\frac{1-\\ln x}{x^2}$.<br />$f''(x)=0$ for all $x>0$.<br />Hence, $f''(x)>0$ nowhere.",
+    "C": "$f'(x)=\\frac{x^x+x^{1/x}}{x^x(\\ln x+1)}$.<br />$f''(x)>0$ only for $0<x<1$.",
+    "D": "$f'(x)=\\ln(x^x+x^{1/x})$.<br />$f''(x)>0$ for all real $x$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:49:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

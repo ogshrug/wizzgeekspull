@@ -1,0 +1,33 @@
+{
+  "id": "6a229761864be73cfcf6d245",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "MCQ",
+  "question": "For any two vectors $\\vec{a}$ and $\\vec{b}$, which of the following statements is always true?",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Consider the definition of the dot product (scalar product) of two vectors: $\\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}| \\cos \\theta$, where $\\theta$ is the angle between them.<br />**Step 2:** We know from basic trigonometry that the cosine function is bounded. Specifically, $-1 \\le \\cos \\theta \\le 1$ for any real angle $\\theta$.<br />**Step 3:** We can analyze the maximum value of the dot product. The dot product reaches its maximum positive value when $\\cos \\theta = 1$ (which means the vectors are parallel and in the same direction). In this case, $\\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}|$.<br />**Step 4:** For all other angles, $\\cos \\theta < 1$. This implies that the dot product will always be less than the product of their magnitudes.<br />**Step 5:** Combining these observations, we can definitively state that $\\vec{a} \\cdot \\vec{b} \\le |\\vec{a}| |\\vec{b}|$ must hold true in all possible scenarios. This aligns perfectly with option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\vec{a}.\\vec{b}\\ge|\\vec{a}||\\vec{b}$",
+    "B": "$\\vec{a}.\\vec{b}=|\\vec{a}||\\vec{b}|$",
+    "C": "$\\vec{a}.\\vec{b}\\le|\\vec{a}||\\vec{b}|$",
+    "D": "$\\vec{a}.\\vec{b}<|\\vec{a}1|\\vec{b}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

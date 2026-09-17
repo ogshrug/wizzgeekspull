@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed218751910886affb9b6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d89"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a theorem-verification activity, students consider the polynomial function $$f(x)=x^2-6x+5$$ on the closed interval $[1,5]$. They are asked to determine whether the function satisfies all the conditions required for Rolle’s Theorem. Since the function is polynomial, its behaviour on the given interval can be examined directly. The students compare the values at the two endpoints, calculate the derivative inside the interval and finally locate the point whose existence is guaranteed by the theorem.<br><br><b>(a)</b> Calculate $f(1)$ and $f(5)$.<br><br><b>(b)</b> Verify that the conditions of Rolle’s Theorem are satisfied on $[1,5]$.<br><br><b>(c)</b> Find $f'(x)$.<br><br><b>(d)</b> Determine the value of $c\\in(1,5)$ for which $f'(c)=0$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>At $x=1$,<br><br>$$f(1)=1^2-6(1)+5=0.$$<br><br>At $x=5$,<br><br>$$f(5)=5^2-6(5)+5=25-30+5=0.$$<br><br>Thus, $f(1)=f(5)=0$.<br><br><b>(b)</b><br>The function $f(x)=x^2-6x+5$ is a polynomial function. Therefore, it is continuous on $[1,5]$ and differentiable on $(1,5)$. From part (a),<br><br>$$f(1)=f(5).$$<br><br>Hence, all the conditions of Rolle’s Theorem are satisfied on $[1,5]$.<br><br><b>(c)</b><br>Differentiating,<br><br>$$f'(x)=2x-6.$$<br><br><b>(d)</b><br>According to Rolle’s Theorem, there exists $c\\in(1,5)$ such that $f'(c)=0$. Therefore,<br><br>$$2c-6=0.$$<br><br>Thus,<br><br>$$c=3.$$<br><br>Since $3\\in(1,5)$, the required value is $c=3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(1)=0,\\ f(5)=4$<br>(b) Rolle's Theorem is not applicable<br>(c) $f'(x)=2x-6$<br>(d) No such $c$",
+    "B": "(a) $f(1)=f(5)=0$<br>(b) Rolle's Theorem is satisfied on $[1,5]$<br>(c) $f'(x)=x-6$<br>(d) $c=3$",
+    "C": "(a) $f(1)=f(5)=0$<br>(b) Rolle's Theorem is satisfied on $[1,5]$<br>(c) $f'(x)=2x-6$<br>(d) $c=2$",
+    "D": "(a) $f(1)=f(5)=0$<br>(b) Rolle's Theorem is satisfied on $[1,5]$<br>(c) $f'(x)=2x-6$<br>(d) $c=3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

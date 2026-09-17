@@ -1,0 +1,30 @@
+{
+  "id": "69a9735962be6a70cd184dae",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Let $f: \\mathbb{R}^* \\to \\mathbb{R}^*$, defined by $f(x) = \\frac{1}{x}$. Is $f$ bijective? What if the domain is replaced by $\\mathbb{N}$?",
+  "answeroption": "A",
+  "explanation": "Let $g(y) = \\frac{1}{y}$ is the inverse function on $\\mathbb{R}^*$.<br /><br />$f$ is one-one: Suppose $f(a) = f(b) \\implies \\frac{1}{a} = \\frac{1}{b} \\implies a = b$.<br /><br />Also, for any $y \\in \\mathbb{R}^*$, $f(\\frac{1}{y}) = y$; thus, $f$ is onto.<br /><br />So, $f$ is bijective for $\\mathbb{R}^* \\to \\mathbb{R}^*$.<br /><br />For $\\mathbb{N} \\to \\mathbb{R}^*$: $f(n) = \\frac{1}{n}$ is never in $\\mathbb{N}$ for $n > 1$; not surjective or even a function ($f: \\mathbb{N} \\to \\mathbb{N}$ would map to $\\mathbb{N}$, but $\\frac{1}{n}$ not in $\\mathbb{N}$ for $n > 1$).",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is bijective on $\\mathbb{R}^*\\to\\mathbb{R}^*$; with domain $\\mathbb{N}$, it is not surjective onto $\\mathbb{R}^*$",
+    "B": "$f$ is not injective on $\\mathbb{R}^*\\to\\mathbb{R}^*$",
+    "C": "$f$ is bijective on $\\mathbb{N}\\to\\mathbb{N}$",
+    "D": "$f$ is not defined on $\\mathbb{R}^*$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:13:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

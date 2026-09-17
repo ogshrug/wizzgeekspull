@@ -1,0 +1,29 @@
+{
+  "id": "69a91a9164fcf4cdd5b4bb16",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A manufacturer produces two types of toys, A and B. Each unit of type A requires 5 minutes to paint and 10 minutes to assemble. Each unit of type B requires 8 minutes to paint and 8 minutes to assemble. The maximum time available per day for painting is 200 minutes and for assembly is 240 minutes. If the manufacturer earns Rs 50 on each toy of type A and Rs 60 on each toy of type B, formulate the LPP to maximize daily profit, graph the feasible region, determine all corner points and find the maximum profit using the graphical method.",
+  "answeroption": "D",
+  "explanation": "Let x = number of toys A and y = number of toys B.<br /><br />Objective function:<br />Z = 50x + 60y.<br /><br />Constraints:<br />5x + 8y ≤ 200 (painting time).<br />10x + 8y ≤ 240 (assembly time).<br />x ≥ 0, y ≥ 0.<br /><br />For 5x + 8y = 200:<br />x = 0 ⇒ y = 25, y = 0 ⇒ x = 40.<br /><br />For 10x + 8y = 240:<br />x = 0 ⇒ y = 30, y = 0 ⇒ x = 24.<br /><br />Intersection of the two lines:<br />5x + 8y = 200<br />10x + 8y = 240<br />Subtract ⇒ 5x = 40 ⇒ x = 8.<br />Substitute ⇒ y = 20.<br /><br />Corner points: (0,0), (0,25), (8,20), (24,0).<br /><br />Evaluate Z:<br />(0,0): 0<br />(0,25): 1500<br />(8,20): 1600<br />(24,0): 1200.<br /><br />Maximum profit = Rs 1600 at (8,20).",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 0 toys of A and 25 toys of B; maximum profit Rs 1500.",
+    "B": "Produce 24 toys of A and 0 toys of B; maximum profit Rs 1200.",
+    "C": "Produce 0 toys of A and 0 toys of B; maximum profit Rs 0.",
+    "D": "Produce 8 toys of A and 20 toys of B; maximum profit Rs 1600."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 05:54:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

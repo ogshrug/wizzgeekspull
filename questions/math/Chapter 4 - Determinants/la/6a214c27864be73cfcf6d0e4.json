@@ -1,0 +1,29 @@
+{
+  "id": "6a214c27864be73cfcf6d0e4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "LA",
+  "question": "Obtain the value of $\\Delta=\\begin{vmatrix}1+x&1&1\\\\ 1&1+y&1\\\\ 1&1&1+z\\end{vmatrix}$ in terms of $x, y$ and $z$.<br /><br />Further, if $\\Delta=0$ and $x, y, z$ are non-zero real numbers, prove that $x^{-1}+y^{-1}+z^{-1}=-1$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Apply row operations to simplify the determinant. Apply $R_2 \\rightarrow R_2 - R_1$ and $R_3 \\rightarrow R_3 - R_1$.<br /><br />**Step 2:** The determinant becomes $\\Delta = \\begin{vmatrix}1+x & 1 & 1 \\\\ -x & y & 0 \\\\ -x & 0 & z\\end{vmatrix}$.<br /><br />**Step 3:** Expand this new determinant along the first row: $\\Delta = (1+x)(yz - 0) - 1(-xz - 0) + 1(0 - (-xy))$.<br /><br />**Step 4:** Simplify the expression to get the value of the determinant: $\\Delta = xyz + xz + xy + yz$.<br /><br />**Step 5:** Given $\\Delta = 0$, we have $xyz + xz + xy + yz = 0$.<br /><br />**Step 6:** Since $x, y, z$ are non-zero, divide the entire equation by $xyz$.<br /><br />**Step 7:** The result is $\\frac{xyz}{xyz} + \\frac{xz}{xyz} + \\frac{xy}{xyz} + \\frac{yz}{xyz} = 0$, which simplifies to $1 + \\frac{1}{y} + \\frac{1}{z} + \\frac{1}{x} = 0$.<br /><br />**Step 8:** Rearranging the terms yields $x^{-1} + y^{-1} + z^{-1} = -1$, thus completing the proof.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

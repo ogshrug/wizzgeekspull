@@ -1,0 +1,26 @@
+{
+  "id": "6a225424864be73cfcf6d156",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "VSA",
+  "question": "Find the intervals in which function $f(x)=5x^{\\frac{3}{2}}-3x^{\\frac{5}{2}}$ is (i) increasing (ii) decreasing.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Calculate the first derivative $f'(x) = 5(\\frac{3}{2})x^{\\frac{1}{2}} - 3(\\frac{5}{2})x^{\\frac{3}{2}} = \\frac{15}{2}\\sqrt{x} - \\frac{15}{2}x\\sqrt{x}$. Factorizing this gives $\\frac{15}{2}\\sqrt{x}(1-x)$. The domain is $x \\ge 0$.<br />**Step 2:** Determine the critical points by setting $f'(x) = 0$, which yields $x = 0$ and $x = 1$.<br />**Step 3:** Analyze the sign of $f'(x)$. For $0 < x < 1$, both $\\sqrt{x}$ and $(1-x)$ are strictly positive, making $f'(x) > 0$ (increasing). For $x > 1$, the term $(1-x)$ becomes negative, rendering $f'(x) < 0$ (decreasing).",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

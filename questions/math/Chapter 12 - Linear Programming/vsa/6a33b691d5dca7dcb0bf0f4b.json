@@ -1,0 +1,28 @@
+{
+  "id": "6a33b691d5dca7dcb0bf0f4b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "VSA",
+  "question": "For a Linear Programming Problem, find min $Z=5x+3y$ (where Z is the objective function) for the feasible region shaded in the given figure. [The figure shows lines $x+y=5$ and $x+3y=9$ with corner points A, B, C marking a region bounded above C(0,3) on the y-axis].",
+  "answeroption": "",
+  "explanation": "**Step 1:** Extract the corner point coordinates from the bounding lines. The constraint $x+3y=9$ intercepts the y-axis at $C(0,3)$. The constraint $x+y=5$ intercepts the y-axis at $B(0,5)$.\n\n**Step 2:** Calculate point $A$, the intersection of lines $x+y=5$ and $x+3y=9$. Subtracting the equations gives $2y = 4 \\Rightarrow y=2$. Substitute $y=2$ back to get $x=3$. Point $A$ is $(3,2)$.\n\n**Step 3:** Compute the objective function $Z=5x+3y$ at point $B(0,5)$: $Z = 5(0) + 3(5) = 15$.\n\n**Step 4:** Compute the objective function $Z$ at point $A(3,2)$: $Z = 5(3) + 3(2) = 15 + 6 = 21$.\n\n**Step 5:** Compute the objective function $Z$ at point $C(0,3)$: $Z = 5(0) + 3(3) = 9$. Comparing the results, the minimum value of $Z$ is $9$ at vertex $C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a33b691d5dca7dcb0bf0f4b/1782197885-0.png?t=1782217686258"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

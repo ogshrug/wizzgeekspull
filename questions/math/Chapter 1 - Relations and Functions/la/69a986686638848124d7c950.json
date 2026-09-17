@@ -1,0 +1,31 @@
+{
+  "id": "69a986686638848124d7c950",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\mathbb{R} \\setminus \\{0\\}$ and define the function $f : A \\to A$ by $f(x) = \\frac{1}{x}$.<br /><br />(a) Prove $f$ is an involution (i.e., $f(f(x)) = x$ for all $x\\in A$).<br /><br />(b) Prove $f$ is a bijection.<br /><br />(c) Consider the composition $g(x) = -x$; analyze the binary operation $* : A \\times A \\to A$ defined by $a * b = f(g(a)) \\cdot f(g(b))$.<br /><br />Evaluate whether $*$ is commutative and/or associative.",
+  "answeroption": "C",
+  "explanation": "(a) $f(f(x)) = f(1/x) = 1/(1/x) = x$. Thus, $f$ is an involution.<br /><br />(b) $f(x) = 1/x$ is defined for all $x\\in A=\\mathbb{R}\\setminus\\{0\\}$, and is one-one: if $1/x_1 = 1/x_2\\implies x_1 = x_2$.<br /><br />It's onto: for $y\\in A$, $f(1/y)=y$. So $f$ is bijective.<br /><br />(c) $g(x) = -x$, so $f(g(a)) = 1/(-a) = -1/a$, so $a * b = (-1/a)\\cdot(-1/b) = 1/(ab)$. So $a*b = 1/(ab)$.<br /><br />Check commutativity: $a*b = 1/(ab) = b*a$. Thus, $*$ is commutative.<br /><br />Associativity: $(a*b)*c = (1/(ab))*c = 1/((1/(ab))\\cdot c) = 1/(c/(ab)) = ab/c$.<br /><br />$a*(b*c) = a*(1/(bc)) = 1/(a \\cdot (1/(bc))) = 1/(a/(bc)) = bc/a$.<br /><br />Thus, $(a*b)*c \\neq a*(b*c)$ in general (e.g., try $a=2, b=3, c=4$), so $*$ is not associative.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is not an involution.<br />(b) $f$ is not bijective.<br />(c) $a*b=ab$, so $*$ is associative but not commutative.",
+    "B": "(a) $f(f(x))=1/x$, so $f$ is not an involution.<br />(b) $f$ is one-one but not onto.<br />(c) $*$ is neither commutative nor associative.",
+    "C": "(a) $f(f(x))=x$, so $f$ is an involution.<br />(b) $f$ is one-one and onto on $A$, hence bijective.<br />(c) $a*b=\\frac{1}{ab}$; therefore $*$ is commutative but not associative.",
+    "D": "(a) $f(f(x))=x^2$, so $f$ is not an involution.<br />(b) $f$ is onto but not one-one.<br />(c) $a*b=\\frac{1}{a+b}$, so $*$ is associative and commutative."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:34:32 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

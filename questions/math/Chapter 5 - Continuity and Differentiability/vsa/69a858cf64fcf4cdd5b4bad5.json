@@ -1,0 +1,29 @@
+{
+  "id": "69a858cf64fcf4cdd5b4bad5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f(x) = \\sin|x|$. Is $f(x)$ differentiable at $x=0$? Justify.",
+  "answeroption": "A",
+  "explanation": "$f(0)=0$. Function is continuous everywhere.<br /><br />Left-hand derivative:<br /><br />For $h<0$, $|h|=-h$, so $\\sin|h|=\\sin(-h)=-\\sin h$.<br /><br />$\\lim_{h\\to 0^-} \\frac{-\\sin h}{h} = -1$.<br /><br />Right-hand derivative:<br /><br />$\\lim_{h\\to 0^+} \\frac{\\sin h}{h} = 1$.<br /><br />Since LHD $\\neq$ RHD, $f(x)$ is not differentiable at $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes, $f(x)$ is differentiable at $x=0$ and $f'(0)=0$",
+    "B": "Yes, $f(x)$ is differentiable at $x=0$ because it is continuous there",
+    "C": "No, $f(x)$ is not differentiable at $x=0$ because LHD $=-1$ and RHD $=1$",
+    "D": "No, $f(x)$ is not continuous at $x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:07:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

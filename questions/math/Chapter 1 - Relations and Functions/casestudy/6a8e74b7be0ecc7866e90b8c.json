@@ -1,0 +1,30 @@
+{
+  "id": "6a8e74b7be0ecc7866e90b8c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A fractional function is defined with carefully chosen domain and codomain. Let $A=\\mathbb{R}-\\{3\\}$ and $B=\\mathbb{R}-\\{1\\}$, and define $f:A\\to B$ by $f(x)=\\frac{x-2}{x-3}$. The value $x=3$ is excluded because the denominator would be zero, while the codomain excludes $1$. Students must examine whether the restrictions make the function one-one and onto. In particular, they compare two arbitrary inputs for injectivity and solve the equation $f(x)=y$ for an arbitrary $y\\in B$ to investigate surjectivity.<br><br><b>(a)</b> Calculate $f(2)$ and $f(4)$.<br><br><b>(b)</b> Show that $f(x)$ can never equal $1$ for any $x\\in A$.<br><br><b>(c)</b> Prove that $f$ is one-one.<br><br><b>(d)</b> For arbitrary $y\\in B$, solve $f(x)=y$ and use the result to determine whether $f$ is onto.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>$f(2)=\\frac{2-2}{2-3}=0$ and $f(4)=\\frac{4-2}{4-3}=2$.<br><br><b>(b)</b><br>If $f(x)=1$, then $\\frac{x-2}{x-3}=1$. Since $x\\neq3$, multiplying by $x-3$ gives $x-2=x-3$, which implies $-2=-3$, an impossibility. Therefore, $f(x)\\neq1$ for every $x\\in A$, so the stated codomain $B=\\mathbb{R}-\\{1\\}$ is appropriate.<br><br><b>(c)</b><br>Suppose $f(x_1)=f(x_2)$. Then $\\frac{x_1-2}{x_1-3}=\\frac{x_2-2}{x_2-3}$. Cross-multiplying gives $(x_1-2)(x_2-3)=(x_2-2)(x_1-3)$. Expanding and simplifying gives $x_1=x_2$. Hence, $f$ is one-one.<br><br><b>(d)</b><br>Let $y\\in B$. Then $y\\neq1$. Solving $\\frac{x-2}{x-3}=y$ gives $x-2=yx-3y$, so $x(1-y)=2-3y$. Hence $x=\\frac{2-3y}{1-y}$. Since $y\\neq1$, this value is defined. Also, it cannot equal $3$, because $\\frac{2-3y}{1-y}=3$ would give $2=3$, which is impossible. Thus $x\\in A$ and $f(x)=y$. Therefore, every $y\\in B$ has a pre-image, so $f$ is onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(2)=0$ and $f(4)=2$; $f(x)\\neq1$ for every $x\\in A$, $f$ is one-one, and every $y\\in B$ has the pre-image $x=\\frac{2-3y}{1-y}$. Hence, $f$ is onto.",
+    "B": "$f(2)=0$ and $f(4)=2$; $f(x)$ can equal $1$, and $f$ is onto but not one-one because two distinct inputs may have the same image.",
+    "C": "$f(2)=2$ and $f(4)=0$; $f$ is one-one but not onto because every $y\\in B$ would require the pre-image $x=\\frac{2-y}{3-y}$.",
+    "D": "$f(2)=0$ and $f(4)=2$; $f(x)\\neq1$, but $f$ is neither one-one nor onto because the excluded value $x=3$ has no image."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

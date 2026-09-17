@@ -1,0 +1,30 @@
+{
+  "id": "6a8ebf2d751910886affb98b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "If $y=\\sin^{-1}x$, obtain $\\frac{dy}{dx}$ by writing the relation between $x$ and $y$ in trigonometric form.",
+  "answeroption": "D",
+  "explanation": "<b>Conversion to trigonometric form</b><br>Given $$y=\\sin^{-1}x,$$ we have $$x=\\sin y.$$<br><b>Implicit differentiation</b><br>Differentiating with respect to $x$, $$1=\\cos y\\frac{dy}{dx}$$<br>Therefore, $$\\frac{dy}{dx}=\\frac{1}{\\cos y}.$$<br><b>Expression in terms of $x$</b><br>Since $x=\\sin y$ and $y\\in\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$, $$\\cos y=\\sqrt{1-\\sin^2y}=\\sqrt{1-x^2}.$$<br>Hence, $$\\frac{dy}{dx}=\\frac{1}{\\sqrt{1-x^2}},\\qquad -1<x<1.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=\\cos y$ and $\\frac{dy}{dx}=-\\frac{1}{\\sqrt{1-x^2}}$",
+    "B": "$x=\\tan y$ and $\\frac{dy}{dx}=\\frac{1}{1+x^2}$",
+    "C": "$x=\\sin y$ and $\\frac{dy}{dx}=\\sqrt{1-x^2}$",
+    "D": "$x=\\sin y$ and $\\frac{dy}{dx}=\\frac{1}{\\sqrt{1-x^2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

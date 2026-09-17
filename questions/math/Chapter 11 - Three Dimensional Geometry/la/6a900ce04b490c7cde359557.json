@@ -1,0 +1,29 @@
+{
+  "id": "6a900ce04b490c7cde359557",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d1"
+  ],
+  "question_type": "LA",
+  "question": "The points $A(1,-1,2)$ and $B(3,0,4)$ determine one line, while the points $C(0,2,-1)$ and $D(1,4,1)$ determine another line. Determine the acute angle between these two lines and justify from the result whether the lines are parallel or perpendicular.",
+  "answeroption": "A",
+  "explanation": "<b>Given Information</b><br>A set of direction ratios of line $AB$ is obtained from the coordinate differences:<br>$$AB:(3-1,\\;0-(-1),\\;4-2)=(2,1,2)$$<br>Similarly, a set of direction ratios of line $CD$ is<br>$$CD:(1-0,\\;4-2,\\;1-(-1))=(1,2,2)$$<br><br><b>Applying the Formula</b><br>If $(a_1,b_1,c_1)$ and $(a_2,b_2,c_2)$ are direction ratios of two lines and $\\theta$ is the acute angle between them, then<br>$$\\cos\\theta=\\frac{|a_1a_2+b_1b_2+c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\sqrt{a_2^2+b_2^2+c_2^2}}$$<br>Substituting the direction ratios gives<br>$$\\cos\\theta=\\frac{|2(1)+1(2)+2(2)|}{\\sqrt{2^2+1^2+2^2}\\sqrt{1^2+2^2+2^2}}$$<br>$$\\cos\\theta=\\frac{8}{3\\times3}=\\frac{8}{9}$$<br>Hence,<br>$$\\theta=\\cos^{-1}\\left(\\frac{8}{9}\\right)$$<br><br><b>Verification</b><br>The direction ratios $(2,1,2)$ and $(1,2,2)$ are not proportional, so the lines are not parallel. Also, their scalar product is $2(1)+1(2)+2(2)=8\\ne0$, so the angle between them is not $90^\\circ$ and the lines are not perpendicular.<br><br><b>Final Result</b><br>The acute angle between the two lines is $\\cos^{-1}\\left(\\frac{8}{9}\\right)$, and the lines are neither parallel nor perpendicular.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\theta=\\cos^{-1}\\left(\\frac{8}{9}\\right)$; the lines are neither parallel nor perpendicular.",
+    "B": "$\\theta=\\cos^{-1}\\left(\\frac{1}{9}\\right)$; the lines are perpendicular.",
+    "C": "$\\theta=\\cos^{-1}\\left(\\frac{8}{9}\\right)$; the lines are parallel.",
+    "D": "$\\theta=90^\\circ$; the lines are perpendicular."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

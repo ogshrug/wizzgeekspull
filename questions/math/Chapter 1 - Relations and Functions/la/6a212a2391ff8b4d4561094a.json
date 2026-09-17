@@ -1,0 +1,27 @@
+{
+  "id": "6a212a2391ff8b4d4561094a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Show that $f:R\\rightarrow R$ defined as $f(x)=\\frac{x}{\\sqrt{1+x^{2}}}$ is one-one but not onto.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To show one-one, let $f(x_1) = f(x_2)$. Then $\\frac{x_1}{\\sqrt{1+x_1^2}} = \\frac{x_2}{\\sqrt{1+x_2^2}}$.<br /><br /><b>Step 2</b> Squaring both sides yields $\\frac{x_1^2}{1+x_1^2} = \\frac{x_2^2}{1+x_2^2}$.<br /><br /><b>Step 3</b> Cross-multiplying gives $x_1^2 + x_1^2 x_2^2 = x_2^2 + x_1^2 x_2^2$, which simplifies to $x_1^2 = x_2^2$.<br /><br /><b>Step 4</b> Since $f(x)$ has the same sign as $x$, $x_1$ and $x_2$ must have the same sign, so $x_1 = x_2$. Thus, $f$ is one-one.<br /><br /><b>Step 5</b> For onto, observe that the denominator $\\sqrt{1+x^2}$ is always strictly greater than $|x|$. Thus, $|f(x)| < 1$, meaning the range is $(-1, 1)$, not the entire codomain $R$. Therefore, $f$ is not onto.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

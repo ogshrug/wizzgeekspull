@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc9802e54880055a0a704",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f988"
+  ],
+  "question_type": "LA",
+  "question": "A function $F(x)=x^3-2x+\\sin x$ is an antiderivative of a function $f(x)$. Determine $\\int \\left[2f(x)+4x-\\cos x\\right]dx$ and verify the result by differentiation.",
+  "answeroption": "A",
+  "explanation": "Since $F(x)$ is an antiderivative of $f(x)$, integration and differentiation being inverse processes give<br><br>$$f(x)=F'(x)$$<br><br>Differentiating $F(x)=x^3-2x+\\sin x$, we obtain<br><br>$$f(x)=3x^2-2+\\cos x$$<br><br>Therefore,<br><br>$$2f(x)+4x-\\cos x=2(3x^2-2+\\cos x)+4x-\\cos x$$<br><br>$$=6x^2+4x-4+\\cos x$$<br><br>Hence,<br><br>$$\\int \\left[2f(x)+4x-\\cos x\\right]dx=\\int \\left(6x^2+4x-4+\\cos x\\right)dx$$<br><br>Integrating term by term,<br><br>$$=2x^3+2x^2-4x+\\sin x+C$$<br><br><b>Verification</b><br><br>Differentiating the obtained expression,<br><br>$$\\frac{d}{dx}\\left(2x^3+2x^2-4x+\\sin x+C\\right)=6x^2+4x-4+\\cos x$$<br><br>Also,<br><br>$$2f(x)+4x-\\cos x=2(3x^2-2+\\cos x)+4x-\\cos x=6x^2+4x-4+\\cos x$$<br><br>Thus, the differentiation reproduces the given integrand. Therefore, the required integral is $2x^3+2x^2-4x+\\sin x+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2x^3+2x^2-4x+\\sin x+C$",
+    "B": "$2x^3+2x^2-4x+2\\sin x+C$",
+    "C": "$2x^3-2x^2-4x+\\sin x+C$",
+    "D": "$6x^2+4x-4+\\cos x+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

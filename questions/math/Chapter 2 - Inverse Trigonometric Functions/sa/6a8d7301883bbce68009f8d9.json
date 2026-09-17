@@ -1,0 +1,29 @@
+{
+  "id": "6a8d7301883bbce68009f8d9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Show that $$\\sin^{-1}\\left(\\frac{8}{17}\\right)+\\tan^{-1}\\left(\\frac{15}{8}\\right)=\\frac{\\pi}{2}.$$",
+  "answeroption": "C",
+  "explanation": "<b>Assignment of the inverse sine angle</b><br>Let $$\\theta=\\sin^{-1}\\left(\\frac{8}{17}\\right).$$ Since the argument is positive, $\\theta\\in\\left(0,\\frac{\\pi}{2}\\right)$ and $\\sin\\theta=\\frac{8}{17}$.<br><br><b>Determination of the cosine value</b><br>Using $\\sin^2\\theta+\\cos^2\\theta=1$, $$\\cos\\theta=\\sqrt{1-\\frac{64}{289}}=\\frac{15}{17}.$$ Therefore, $$\\tan\\theta=\\frac{8}{15}.$$<br><br><b>Complementary-angle relation</b><br>We have $$\\tan\\left(\\frac{\\pi}{2}-\\theta\\right)=\\cot\\theta=\\frac{15}{8}.$$ As $\\frac{\\pi}{2}-\\theta$ lies in the principal range of $\\tan^{-1}x$, $$\\tan^{-1}\\left(\\frac{15}{8}\\right)=\\frac{\\pi}{2}-\\theta.$$<br><br><b>Established result</b><br>Hence, $$\\sin^{-1}\\left(\\frac{8}{17}\\right)+\\tan^{-1}\\left(\\frac{15}{8}\\right)=\\theta+\\frac{\\pi}{2}-\\theta=\\frac{\\pi}{2}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{6}$",
+    "B": "$\\frac{\\pi}{3}$",
+    "C": "$\\frac{\\pi}{2}$",
+    "D": "$\\frac{2\\pi}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

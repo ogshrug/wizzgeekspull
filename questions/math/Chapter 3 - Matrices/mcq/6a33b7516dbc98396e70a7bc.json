@@ -1,0 +1,31 @@
+{
+  "id": "6a33b7516dbc98396e70a7bc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56"
+  ],
+  "question_type": "MCQ",
+  "question": "Let A and B be two matrices of suitable orders. Then, which of the following is not correct?",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Review standard transpose properties for matrices. Property A states $(A^{\\prime})^{\\prime} = A$, which is correct. Property B states $(kA)^{\\prime} = kA^{\\prime}$, which is correct for any scalar $k$. Property C states $(A^{\\prime} + B^{\\prime})^{\\prime} = A + B$, which is also structurally correct.<br />**Step 2:** Analyze Property D, which states $(AB)^{\\prime} = A^{\\prime}B^{\\prime}$. According to the reversal law of transposes, the transpose of a product of two matrices is equal to the product of their transposes in reverse order.<br />**Step 3:** Therefore, the correct matrix identity is $(AB)^{\\prime} = B^{\\prime}A^{\\prime}$, making option D the incorrect statement.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(A^{\\prime})^{\\prime}=A$",
+    "B": "$(kA)^{\\prime}=kA^{\\prime}$, k is a scalar",
+    "C": "$(A^{\\prime}+B^{\\prime})^{\\prime}=A+B$",
+    "D": "$(AB)^{\\prime}=A^{\\prime}B^{\\prime}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9b2c5d30adc5083911b2b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "VSA",
+  "question": "If three coins are tossed, what is the probability of getting at most two heads? Also, find the probability that at least one tail appears.",
+  "answeroption": "A",
+  "explanation": "Possible outcomes: $2^3 = 8$ <br /> Outcomes with at most two heads = all except (HHH). So $7$ outcomes. <br /><br /> Probability = $\\frac{7}{8}$ <br /><br /> Probability of at least one tail $= 1 - P($no tails$) = 1 - \\frac{1}{8} = \\frac{7}{8}$ <br /><br /> Final answers: <br /> (a) $\\frac{7}{8}$ <br /> (b) $\\frac{7}{8}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "At most two heads: $\\frac{7}{8}$<br />At least one tail: $\\frac{7}{8}$",
+    "B": "At most two heads: $\\frac{1}{8}$<br />At least one tail: $\\frac{7}{8}$",
+    "C": "At most two heads: $\\frac{7}{8}$<br />At least one tail: $\\frac{1}{8}$",
+    "D": "At most two heads: $\\frac{3}{8}$<br />At least one tail: $\\frac{5}{8}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:43:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9898162be6a70cd184ddb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A = \\{1,2,3,4\\}$. Define a relation $R$ on $A$ as $R = \\{(a, b): a + b$ is even$\\}$. Which of the following is true about $R$?",
+  "answeroption": "C",
+  "explanation": "For reflexivity: for any $a \\in A$, $a+a=2a$ which is even, so $(a,a) \\in R$. Hence $R$ is reflexive.<br /><br />For symmetry: if $(a,b) \\in R$, then $a+b$ is even. Since $b+a$ is also even, $(b,a) \\in R$. Thus $R$ is symmetric.<br /><br />For transitivity: if $(a,b) \\in R$ and $(b,c) \\in R$, then $a+b$ and $b+c$ are even.<br /><br />Adding them gives $a+c+2b$ even, which implies $a+c$ is even, so $(a,c) \\in R$. Hence $R$ is transitive.<br /><br />Thus $R$ is reflexive, symmetric, and transitive, therefore an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "Reflexive, symmetric but not transitive",
+    "B": "Symmetric, transitive but not reflexive",
+    "C": "Equivalence relation",
+    "D": "Symmetric only"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:47:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

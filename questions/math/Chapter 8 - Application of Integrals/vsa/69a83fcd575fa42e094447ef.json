@@ -1,0 +1,29 @@
+{
+  "id": "69a83fcd575fa42e094447ef",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int_{-r}^{r} \\sqrt{r^2 - x^2}\\,dx$ without directly using the area of a circle formula and show all steps.",
+  "answeroption": "A",
+  "explanation": "Using substitution $x=r\\sin\\theta$, the integral reduces to $r^2\\int_{-\\pi/2}^{\\pi/2} \\cos^2\\theta d\\theta = \\frac{\\pi r^2}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi r^2}{2}$",
+    "B": "$\\pi r^2$",
+    "C": "$\\frac{\\pi r}{2}$",
+    "D": "$2\\pi r^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 14:21:01 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:30:50 GMT"
+}

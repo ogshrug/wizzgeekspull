@@ -1,0 +1,29 @@
+{
+  "id": "69a9b703589ce36f368b48ab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "MCQ",
+  "question": "Which of the following statements is always true for any square matrix $A$ of order $n$?",
+  "answeroption": "A",
+  "explanation": "For any square matrix $A$, $A'$ is the transpose of $A$.<br /><br />For $A + A'$:<br />$(A + A')' = A' + (A')' = A' + A = (A + A')$<br />So it is symmetric.<br /><br />For $A - A'$:<br />$(A - A')' = A' - (A')' = A' - A = -(A - A')$<br />So it is skew symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(A + A')$ is always symmetric and $(A - A')$ is always skew symmetric",
+    "B": "$(A + A')$ is always skew symmetric and $(A - A')$ is always symmetric",
+    "C": "$(A + A')$ is always diagonal",
+    "D": "$(A - A')$ is always diagonal"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:01:55 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

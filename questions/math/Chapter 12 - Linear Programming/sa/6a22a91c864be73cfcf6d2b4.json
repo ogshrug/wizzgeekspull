@@ -1,0 +1,27 @@
+{
+  "id": "6a22a91c864be73cfcf6d2b4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "SA",
+  "question": "Solve graphically the following linear programming problem :<br />Maximise $z=6x+3y$,<br />subject to the constraints<br />$4x+y\\ge80$,<br />$3x+2y\\le150$,<br />$x+5y\\ge115$,<br />$x\\ge0$, $y\\ge0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To solve this Linear Programming Problem, we geometrically construct the feasible region by carefully graphing all constraint boundaries. Let L1 be $4x+y=80$ (intercepts $(20,0), (0,80)$). Let L2 be $3x+2y=150$ (intercepts $(50,0), (0,75)$). Let L3 be $x+5y=115$ (intercepts $(115,0), (0,23)$). The strict non-negativity constraints $x,y \\ge 0$ limit us entirely to the first quadrant.<br />**Step 2:** We analyze the inequality directions. Testing origin $(0,0)$: for L1, $0 \\ge 80$ is False (shade above). For L2, $0 \\le 150$ is True (shade below). For L3, $0 \\ge 115$ is False (shade above). The exact intersection of these half-planes forms a perfectly bounded triangular region.<br />**Step 3:** The fundamental optimal solution must exist at a corner point. We strictly calculate the intersection points of these defining lines algebraically. Intersection of L1 and L2: multiply L1 by 2 to get $8x+2y=160$. Subtract L2: $(8x-3x) = 160-150 \\Rightarrow 5x=10 \\Rightarrow x=2$. Substitute into L1: $8+y=80 \\Rightarrow y=72$. Point is exactly $(2, 72)$.<br />**Step 4:** Intersection of L2 and L3: multiply L2 by 5 to get $15x+10y=750$. Multiply L3 by 2 to get $2x+10y=230$. Subtract: $13x = 520 \\Rightarrow x=40$. Substitute into L3: $40+5y=115 \\Rightarrow 5y=75 \\Rightarrow y=15$. Point is perfectly $(40, 15)$. Intersection of L1 and L3: substitute $y=80-4x$ into L3. $x+5(80-4x)=115 \\Rightarrow x+400-20x=115 \\Rightarrow 19x=285 \\Rightarrow x=15$. So $y=80-60=20$. Point is strictly $(15, 20)$.<br />**Step 5:** Systematically evaluate the specified objective function $Z = 6x + 3y$ at every found corner point. At $(2,72)$, $Z = 6(2) + 3(72) = 12 + 216 = 228$. At $(15,20)$, $Z = 6(15) + 3(20) = 90 + 60 = 150$. At $(40,15)$, $Z = 6(40) + 3(15) = 240 + 45 = 285$. Comparing all rigorously calculated values, the absolute maximum is 285, occurring precisely at the point $(40, 15)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

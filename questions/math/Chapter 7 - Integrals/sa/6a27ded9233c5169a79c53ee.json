@@ -1,0 +1,26 @@
+{
+  "id": "6a27ded9233c5169a79c53ee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{\\frac{\\pi}{12}}^{\\frac{5\\pi}{12}}\\frac{dx}{1+\\sqrt{cot~x}}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Convert the cotangent term into sine and cosine to obtain $I = \\int_{\\frac{\\pi}{12}}^{\\frac{5\\pi}{12}}\\frac{\\sqrt{\\sin x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}} \\, dx$.<br />**Step 2:** Apply the definite integral reflection property $\\int_a^b f(x) \\, dx = \\int_a^b f(a+b-x) \\, dx$. Since $a+b = \\frac{\\pi}{2}$, the integral turns into $I = \\int_{\\frac{\\pi}{12}}^{\\frac{5\\pi}{12}}\\frac{\\sqrt{\\cos x}}{\\sqrt{\\cos x} + \\sqrt{\\sin x}} \\, dx$.<br />**Step 3:** Adding both equations yields $2I = \\int_{\\frac{\\pi}{12}}^{\\frac{5\\pi}{12}} 1 \\, dx = [x]_{\\frac{\\pi}{12}}^{\\frac{5\\pi}{12}} = \\frac{\\pi}{3} \\implies I = \\frac{\\pi}{6}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a9859962be6a70cd184dcd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Let $g: \\mathbb{R} \\to \\mathbb{R}$, $g(x) = x^2$. Define $f: \\mathbb{R} \\to \\mathbb{R}$, $f(x) = x+5$. Prove that $g \\circ f \\ne f \\circ g$, and determine whether either $g \\circ f$ or $f \\circ g$ is invertible.",
+  "answeroption": "A",
+  "explanation": "Step 1: Compute $g \\circ f$<br /><br />$g \\circ f(x) = g(f(x)) = (x+5)^2 = x^2 + 10x + 25$<br /><br />Step 2: Compute $f \\circ g$<br /><br />$f \\circ g(x) = f(g(x)) = x^2+5$<br /><br />Thus, $g \\circ f(x) = x^2+10x+25 \\ne x^2+5 = f\\circ g(x)$ in general.<br /><br />Step 3: Invertibility<br /><br />- $g \\circ f(x)$ is a quadratic. Quadratic polynomials are not bijections $\\mathbb{R} \\to \\mathbb{R}$, so not invertible.<br /><br />- $f \\circ g(x)$ is also a quadratic, so not invertible for same reason.<br /><br />Conclusion:<br /><br />$g \\circ f \\ne f \\circ g.$ Neither $g \\circ f$ nor $f \\circ g$ is invertible as a function from $\\mathbb{R}$ to $\\mathbb{R}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$g\\circ f \\ne f\\circ g$ and neither composition is invertible",
+    "B": "$g\\circ f = f\\circ g$ and both compositions are invertible",
+    "C": "$g\\circ f \\ne f\\circ g$ and only $g\\circ f$ is invertible",
+    "D": "$g\\circ f \\ne f\\circ g$ and only $f\\circ g$ is invertible"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:31:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

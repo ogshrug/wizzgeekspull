@@ -1,0 +1,28 @@
+{
+  "id": "6a22a0c3864be73cfcf6d273",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{\\pi}\\frac{e^{cos~x}}{e^{cos~x}+e^{-cos~x}}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the given definite integral be $I = \\int_{0}^{\\pi} \\frac{e^{\\cos x}}{e^{\\cos x} + e^{-\\cos x}} dx$. This will be our Equation 1.<br />**Step 2:** Apply a key property of definite integrals: $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$. Here, $a = \\pi$. Thus, we replace every instance of $x$ with $(\\pi - x)$.<br />**Step 3:** The integral becomes $I = \\int_{0}^{\\pi} \\frac{e^{\\cos(\\pi - x)}}{e^{\\cos(\\pi - x)} + e^{-\\cos(\\pi - x)}} dx$.<br />**Step 4:** Use the trigonometric identity $\\cos(\\pi - x) = -\\cos x$. Substituting this simplifies the integral to $I = \\int_{0}^{\\pi} \\frac{e^{-\\cos x}}{e^{-\\cos x} + e^{-(-\\cos x)}} dx = \\int_{0}^{\\pi} \\frac{e^{-\\cos x}}{e^{-\\cos x} + e^{\\cos x}} dx$. Notice the denominator is identical to the original integral's denominator. This is Equation 2.<br />**Step 5:** Add Equation 1 and Equation 2. $2I = \\int_{0}^{\\pi} \\frac{e^{\\cos x} + e^{-\\cos x}}{e^{\\cos x} + e^{-\\cos x}} dx$. The integrand simplifies completely to 1. So, $2I = \\int_{0}^{\\pi} 1 dx = [x]_0^\\pi = \\pi$. Solving for $I$ gives $I = \\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

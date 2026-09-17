@@ -1,0 +1,30 @@
+{
+  "id": "69a9cdd76638848124d7c9c7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "SA",
+  "question": "Let $A$ be a $3 \\times 3$ matrix with $A^2 = I$ and $A \\neq \\pm I$. Prove that $A$ can be expressed as the sum of a symmetric and a skew-symmetric matrix, and explicitly construct such a decomposition for $A = \\begin{pmatrix}0&1&0\\\\1&0&0\\\\0&0&-1\\end{pmatrix}$.",
+  "answeroption": "A",
+  "explanation": "For any square matrix $A$, $A = S + K$ where $S=\\frac{A+A'}{2}$ (symmetric), $K=\\frac{A-A'}{2}$ (skew-symmetric).<br /><br />Given $A = \\begin{pmatrix}0&1&0\\\\1&0&0\\\\0&0&-1\\end{pmatrix}$<br /><br />Compute $A'$:<br /><br />$A' = \\begin{pmatrix}0&1&0\\\\1&0&0\\\\0&0&-1\\end{pmatrix}$ (note: it matches $A$).<br /><br />So $S=\\frac{A+A'}{2} = \\frac{2A}{2} = A$<br /><br />$K=\\frac{A-A'}{2}=0$<br /><br />So $A$ is symmetric, and $A=S+K$ with $S=A$ and $K=0$ (but for an arbitrary $A$, the decomposition holds as above).",
+  "explanation_image": [],
+  "options": {
+    "A": "Every square matrix can be written as $A=S+K$ where $S=\\frac{A+A'}{2}$ is symmetric and $K=\\frac{A-A'}{2}$ is skew-symmetric; for the given matrix, $S=A$ and $K=0$",
+    "B": "The given matrix cannot be decomposed into symmetric and skew-symmetric parts",
+    "C": "For the given matrix, $S=0$ and $K=A$",
+    "D": "For the given matrix, $S=I$ and $K=A-I$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:39:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

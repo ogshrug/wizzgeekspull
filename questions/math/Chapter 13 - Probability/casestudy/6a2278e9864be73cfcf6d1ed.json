@@ -1,0 +1,29 @@
+{
+  "id": "6a2278e9864be73cfcf6d1ed",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Based upon the results of regular medical check-ups in a hospital, it was found that out of 1000 people, 700 were very healthy, 200 maintained average health and 100 had a poor health record. Let $A_{1}$: People with good health, $A_{2}$: People with average health, and $A_{3}$: People with poor health. During a pandemic, the data expressed that the chances of people contracting the disease from category $A_{1}$, $A_{2}$ and $A_{3}$ are 25%, 35% and 50%, respectively. Based upon the above information, answer the following questions :<br /><br />**(i)** A person was tested randomly. What is the probability that he/she has contracted the disease?<br />**(ii)** Given that the person has not contracted the disease, what is the probability that the person is from category $A_{2}$?",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Calculate prior probabilities: $P(A_1) = 700/1000 = 0.7$, $P(A_2) = 200/1000 = 0.2$, $P(A_3) = 100/1000 = 0.1$.<br />**Step 2:** Let $D$ be the event of contracting the disease. The conditional probabilities are $P(D|A_1) = 0.25$, $P(D|A_2) = 0.35$, $P(D|A_3) = 0.50$.<br />**Step 3:** Use the Law of Total Probability: $P(D) = P(A_1)P(D|A_1) + P(A_2)P(D|A_2) + P(A_3)P(D|A_3)$.<br />**Step 4:** Substitute: $0.7(0.25) + 0.2(0.35) + 0.1(0.50) = 0.175 + 0.070 + 0.050 = 0.295$.<br /><br />**(ii)** **Step 1:** We need $P(A_2 | \\overline{D})$, the probability of being in $A_2$ given they did *not* contract the disease.<br />**Step 2:** First, find the probability of not contracting it, $P(\\overline{D}) = 1 - P(D) = 1 - 0.295 = 0.705$.<br />**Step 3:** Find the conditional probability of not contracting given $A_2$: $P(\\overline{D}|A_2) = 1 - P(D|A_2) = 1 - 0.35 = 0.65$.<br />**Step 4:** Use Bayes' theorem: $P(A_2 | \\overline{D}) = \\frac{P(A_2) P(\\overline{D}|A_2)}{P(\\overline{D})} = \\frac{0.2 \\times 0.65}{0.705}$.<br />**Step 5:** Calculate: $\\frac{0.130}{0.705} = \\frac{130}{705} = \\frac{26}{141}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

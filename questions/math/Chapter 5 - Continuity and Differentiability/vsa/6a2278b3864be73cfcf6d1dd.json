@@ -1,0 +1,29 @@
+{
+  "id": "6a2278b3864be73cfcf6d1dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d82",
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "VSA",
+  "question": "Differentiate $(\\frac{5^{x}}{x^{5}})$ with respect to $x$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $y = \\frac{5^x}{x^5}$. We can differentiate this using the quotient rule: $\\frac{d}{dx}(\\frac{u}{v}) = \\frac{vu' - uv'}{v^2}$.<br />**Step 2:** Let $u = 5^x$. Its derivative is $u' = 5^x \\log 5$.<br />**Step 3:** Let $v = x^5$. Its derivative is $v' = 5x^4$.<br />**Step 4:** Substitute these into the quotient rule formula: $\\frac{dy}{dx} = \\frac{(x^5)(5^x \\log 5) - (5^x)(5x^4)}{(x^5)^2}$.<br />**Step 5:** Simplify the numerator by factoring out common terms. Both terms share a factor of $5^x$ and $x^4$. So, $5^x x^4 (x \\log 5 - 5)$.<br />**Step 6:** The denominator is $x^{10}$.<br />**Step 7:** Combine and simplify the expression: $\\frac{5^x x^4 (x \\log 5 - 5)}{x^{10}} = \\frac{5^x (x \\log 5 - 5)}{x^6}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

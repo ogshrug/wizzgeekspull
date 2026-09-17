@@ -1,0 +1,29 @@
+{
+  "id": "69a91c7e96358125c95a0da1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Prove that $\\csc^{-1} x + \\sec^{-1} x = \\frac{\\pi}{2}$ for $x \\ge 1$.",
+  "answeroption": "B",
+  "explanation": "Let $\\csc^{-1}x = \\alpha$ and $\\sec^{-1}x = \\beta$.<br /><br />Then $\\sin\\alpha = \\frac{1}{x}$ and $\\cos\\beta = \\frac{1}{x}$.<br /><br />So, $\\alpha = \\sin^{-1}\\left(\\frac{1}{x}\\right)$ and $\\beta = \\cos^{-1}\\left(\\frac{1}{x}\\right)$.<br /><br />Since $\\sin^{-1}a + \\cos^{-1}a = \\frac{\\pi}{2}$ for $a \\in [-1,1]$, we get $\\alpha + \\beta = \\frac{\\pi}{2}$.<br /><br />Hence, $\\csc^{-1} x + \\sec^{-1} x = \\frac{\\pi}{2}$ for $x \\ge 1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $\\csc^{-1}x=\\alpha$ and $\\sec^{-1}x=\\beta$. Then $\\sin\\alpha=x$ and $\\cos\\beta=x$, so $\\alpha+\\beta=\\pi$.",
+    "B": "Let $\\csc^{-1}x=\\alpha$ and $\\sec^{-1}x=\\beta$. Then $\\sin\\alpha=\\frac{1}{x}$ and $\\cos\\beta=\\frac{1}{x}$, so $\\alpha=\\sin^{-1}\\left(\\frac{1}{x}\\right)$ and $\\beta=\\cos^{-1}\\left(\\frac{1}{x}\\right)$; hence $\\alpha+\\beta=\\frac{\\pi}{2}$.",
+    "C": "Let $\\csc^{-1}x=\\alpha$ and $\\sec^{-1}x=\\beta$. Then $\\cos\\alpha=\\frac{1}{x}$ and $\\sin\\beta=\\frac{1}{x}$, so $\\alpha+\\beta=0$.",
+    "D": "Let $\\csc^{-1}x=\\alpha$ and $\\sec^{-1}x=\\beta$. Since $\\alpha=\\beta$, we get $\\alpha+\\beta=\\frac{\\pi}{4}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:02:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

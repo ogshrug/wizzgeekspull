@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed6d54b490c7cde359494",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f981"
+  ],
+  "question_type": "SA",
+  "question": "A cylindrical vessel has measured radius $5$ cm and height $12$ cm. If the possible errors in these measurements are $0.02$ cm and $0.03$ cm, respectively, estimate the maximum error in its calculated volume.",
+  "answeroption": "B",
+  "explanation": "<b>Volume relation</b><br>The volume of the cylinder is<br>$$V=\\pi r^2h$$<br><b>Total differential</b><br>Considering errors in both $r$ and $h$,<br>$$dV=2\\pi rh\\,dr+\\pi r^2dh$$<br><b>Maximum-error expression</b><br>$$|dV|\\approx2\\pi rh|dr|+\\pi r^2|dh|$$<br><b>Substitution</b><br>$$|dV|=2\\pi(5)(12)(0.02)+\\pi(5)^2(0.03)$$<br>$$|dV|=2.4\\pi+0.75\\pi$$<br><b>Simplification</b><br>$$|dV|=3.15\\pi\\text{ cm}^3$$<br><b>Conclusion</b><br>The estimated maximum error in the calculated volume is $3.15\\pi$ cm$^3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2.40\\pi$ cm$^3$",
+    "B": "$3.15\\pi$ cm$^3$",
+    "C": "$0.75\\pi$ cm$^3$",
+    "D": "$4.80\\pi$ cm$^3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

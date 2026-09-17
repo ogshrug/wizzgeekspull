@@ -1,0 +1,31 @@
+{
+  "id": "6a329326d5dca7dcb0bf0ef3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of $\\begin{vmatrix} 8 & 2 & 7 \\\\ 12 & 3 & 5 \\\\ 16 & 4 & 3 \\end{vmatrix}$ is:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Analyze the columns of the determinant: $C_1 = \\begin{bmatrix} 8 \\\\ 12 \\\\ 16 \\end{bmatrix}$ and $C_2 = \\begin{bmatrix} 2 \\\\ 3 \\\\ 4 \\end{bmatrix}$.\n\n**Step 2:** Notice that factoring out $4$ from $C_1$ yields $4 \\begin{bmatrix} 2 \\\\ 3 \\\\ 4 \\end{bmatrix}$.\n\n**Step 3:** Thus, $C_1 = 4C_2$. Since two columns of the determinant are proportional, its value is $0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "2",
+    "C": "7",
+    "D": "-2"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

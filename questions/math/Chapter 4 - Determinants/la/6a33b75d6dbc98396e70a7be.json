@@ -1,0 +1,26 @@
+{
+  "id": "6a33b75d6dbc98396e70a7be",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "LA",
+  "question": "Three students run on a racing track such that their speeds add up to $6~km/h$. However, double the speed of the third runner added to the speed of the first results in $7~km/h$ If thrice the speed of the first runner is added to the original speeds of the other two, the result is $12~km/h$ Using matrix method, find the original speed of each runner.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the original speeds of the three runners be represented by the variables $x$, $y$, and $z$ respectively. Based on the linear conditions given in the problem, we form three equations: $x + y + z = 6$, $x + 0y + 2z = 7$, and $3x + y + z = 12$.<br /><br />**Step 2:** Express this system of equations in the standard matrix format $AX = B$, where $A = \\begin{bmatrix} 1 & 1 & 1 \\\\ 1 & 0 & 2 \\\\ 3 & 1 & 1 \\end{bmatrix}$, $X = \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix}$, and $B = \\begin{bmatrix} 6 \\\\ 7 \\\\ 12 \\end{bmatrix}$. First, calculate the determinant of matrix $A$: $|A| = 1(0 - 2) - 1(1 - 6) + 1(1 - 0) = -2 + 5 + 1 = 4$. Since the determinant is non-zero, a unique solution exists via $X = A^{-1}B$.<br /><br />**Step 3:** Find the matrix of cofactors and transpose it to obtain the adjoint matrix: $\\text{adj } A = \\begin{bmatrix} -2 & 0 & 2 \\\\ 5 & -2 & -1 \\\\ 1 & 2 & -1 \\end{bmatrix}$. Now, apply the inverse solution formula $X = \\frac{1}{|A|}(\\text{adj } A)B$.<br /><br />**Step 4:** Perform the matrix multiplication: $X = \\frac{1}{4} \\begin{bmatrix} -2(6) + 0(7) + 2(12) \\\\ 5(6) - 2(7) - 1(12) \\\\ 1(6) + 2(7) - 1(12) \\end{bmatrix} = \\frac{1}{4} \\begin{bmatrix} 12 \\\\ 4 \\\\ 8 \\end{bmatrix} = \\begin{bmatrix} 3 \\\\ 1 \\\\ 2 \\end{bmatrix}$. Therefore, the original speeds of the runners are $3\\text{ km/h}$, $1\\text{ km/h}$, and $2\\text{ km/h}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

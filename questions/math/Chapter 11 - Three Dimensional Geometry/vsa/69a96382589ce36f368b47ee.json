@@ -1,0 +1,29 @@
+{
+  "id": "69a96382589ce36f368b47ee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d5"
+  ],
+  "question_type": "VSA",
+  "question": "If the angle between two planes $x + 2y + 2z = 1$ and $2x + y + z = 2$ is $\\theta$, find $\\cos \\theta$.",
+  "answeroption": "D",
+  "explanation": "Normals to the planes are $\\vec n_1 = (1,2,2)$ and $\\vec n_2 = (2,1,1)$.<br /><br />Angle between planes equals the angle between their normals.<br /><br />Formula:<br /><br />$\\cos \\theta = \\frac{|\\vec n_1 \\cdot \\vec n_2|}{|\\vec n_1||\\vec n_2|}$.<br /><br />Dot product: $1\\times2 + 2\\times1 + 2\\times1 = 6$.<br /><br />$|\\vec n_1| = 3$, $|\\vec n_2| = \\sqrt6$.<br /><br />Thus $\\cos \\theta = \\frac{6}{3\\sqrt6} = \\frac{2}{\\sqrt6} = \\frac{\\sqrt6}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{\\sqrt6}$",
+    "B": "$\\frac{2}{3}$",
+    "C": "$\\frac{3}{\\sqrt6}$",
+    "D": "$\\frac{\\sqrt6}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:05:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

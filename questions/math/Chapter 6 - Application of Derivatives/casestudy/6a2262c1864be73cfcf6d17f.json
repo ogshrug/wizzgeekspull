@@ -1,0 +1,32 @@
+{
+  "id": "6a2262c1864be73cfcf6d17f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978",
+    "6a13e9908c819562f933f984"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A small town is analyzing the pattern of a new street light installation. The lights are set up in such a way that the intensity of light at any point $x$ metres from the start of the street can be modelled by $f(x)=e^{x}\\sin x$, where $x$ is in metres. Based on the above, answer the following:<br /><br />**(i)** Find the intervals on which the $f(x)$ is increasing or decreasing, $x\\in[0,\\pi]$.<br />**(ii)** Verify, whether each critical point when $x\\in[0,\\pi]$ is a point of local maximum or local minimum or a point of inflexion.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** To find intervals of increase/decrease, calculate the first derivative $f'(x)$ using the product rule: $f'(x) = e^x\\sin x + e^x\\cos x = e^x(\\sin x + \\cos x)$.<br />**Step 2:** Find critical points by setting $f'(x) = 0$. Since $e^x > 0$ for all real $x$, we must have $\\sin x + \\cos x = 0$, which gives $\\tan x = -1$.<br />**Step 3:** In the given interval $[0, \\pi]$, the only solution for $\\tan x = -1$ is $x = \\frac{3\\pi}{4}$.<br />**Step 4:** Test the sign of $f'(x)$ in the sub-intervals $[0, \\frac{3\\pi}{4})$ and $(\\frac{3\\pi}{4}, \\pi]$. For $x \\in [0, \\frac{3\\pi}{4})$, both $\\sin x$ and $\\cos x$ combine to a positive value (e.g., at $x=\\frac{\\pi}{2}$, $f'>0$), so $f$ is increasing.<br />**Step 5:** For $x \\in (\\frac{3\\pi}{4}, \\pi]$, the negative cosine term dominates the positive sine term, making $f'(x) < 0$. Thus, $f$ is decreasing.<br />**Step 6:** $f(x)$ is strictly increasing on $[0, \\frac{3\\pi}{4}]$ and strictly decreasing on $[\\frac{3\\pi}{4}, \\pi]$.<br /><br />**(ii)** **Step 1:** Analyze the nature of the critical point $x = \\frac{3\\pi}{4}$ using the First Derivative Test.<br />**Step 2:** Observe the sign change of $f'(x)$ as $x$ passes through the critical point.<br />**Step 3:** From the previous part, $f'(x)$ changes from positive to negative as $x$ increases through $\\frac{3\\pi}{4}$.<br />**Step 4:** A change from positive to negative indicates that the function reaches a peak. Therefore, $x = \\frac{3\\pi}{4}$ is a point of local maximum.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2262c1864be73cfcf6d17f/1782195951-0.png?t=1782215752300"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

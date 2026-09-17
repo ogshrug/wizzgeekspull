@@ -1,0 +1,29 @@
+{
+  "id": "6a8f118b4b490c7cde3594c8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f993"
+  ],
+  "question_type": "VSA",
+  "question": "For $k>0$, the line $x=ky$, the y-axis and the horizontal lines $y=0$ and $y=4$ enclose an area of $16$ square units. Determine $k$.",
+  "answeroption": "B",
+  "explanation": "Step 1\\:The right boundary is the line $x=ky$, and the left boundary is the y-axis $x=0$. Therefore, the area is evaluated with respect to $y$.Step 2\\:The enclosed area is $A=\\int_0^4(ky-0)\\,dy=k\\left[\\frac{y^2}{2}\\right]_0^4$.Step 3\\:Thus, $A=k\\times\\frac{16}{2}=8k$. The given area is $16$, so $8k=16$.Step 4\\:Solving gives $k=2$, which satisfies the condition $k>0$.Final Answer\\:The required value of $k$ is $2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4$",
+    "B": "$2$",
+    "C": "$8$",
+    "D": "$1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9b63fd30adc5083911b3f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "SA",
+  "question": "If $A$ and $B$ are independent events such that $P(A) = \\frac{1}{3}$ and $P(B) = \\frac{1}{4}$, find the probability that exactly one of $A$, $B$ occurs.",
+  "answeroption": "D",
+  "explanation": "Given: $A$ and $B$ are independent<br />$P(A) = \\frac{1}{3}$, $P(B) = \\frac{1}{4}$<br /><br />Exactly one occurs = $P(A \\cap B') + P(A' \\cap B)$<br />For independent events:<br />$P(A \\cap B') = P(A) \\cdot P(B') = \\frac{1}{3} \\left(1 - \\frac{1}{4}\\right) = \\frac{1}{3} \\cdot \\frac{3}{4} = \\frac{1}{4}$<br /><br />$P(A' \\cap B) = P(A') \\cdot P(B) = \\left(1 - \\frac{1}{3}\\right) \\cdot \\frac{1}{4} = \\frac{2}{3} \\cdot \\frac{1}{4} = \\frac{1}{6}$<br /><br />So, required probability = $\\frac{1}{4} + \\frac{1}{6} = \\frac{3 + 2}{12} = \\frac{5}{12}$<br /><br />Required answer is $\\boxed{\\frac{5}{12}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{12}$",
+    "B": "$\\frac{7}{12}$",
+    "C": "$\\frac{1}{3}$",
+    "D": "$\\frac{5}{12}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:58:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

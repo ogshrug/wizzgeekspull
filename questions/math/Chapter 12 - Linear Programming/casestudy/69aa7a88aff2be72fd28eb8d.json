@@ -1,0 +1,29 @@
+{
+  "id": "69aa7a88aff2be72fd28eb8d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A student club is organizing a party and wants to serve sandwiches and pizza slices. Each sandwich costs ₹20 and provides 5 units of energy. Each pizza slice costs ₹30 and gives 8 units of energy. They want to provide at least 40 units of energy and spend at most ₹180. How many of each should be ordered to maximize energy intake? Formulate and solve graphically.",
+  "answeroption": "B",
+  "explanation": "Let $x$ = number of sandwiches, $y$ = number of pizza slices<br /><br />Maximize $Z=5x+8y$<br /><br />Subject to:<br /><br />Cost: $20x+30y\\leq180$<br /><br />Energy: $5x+8y\\geq40$<br /><br />$x,y\\geq0$<br /><br />Step 1: $20x+30y=180$, $x= (180-30y)/20$<br /><br />$5x+8y=40$, $x=(40-8y)/5$<br /><br />Intersection:<br /><br />$20x+30y=180$<br /><br />$5x+8y=40$ multiply by 4: $20x+32y=160$<br /><br />Subtract: $2y=20\\implies y=10$<br /><br />Put $y=10$ in $20x+30y=180$<br /><br />$20x+300=180\\implies 20x=-120\\implies x=-6$ (not feasible)<br /><br />Find intercepts:<br /><br />$x$-intercepts: $y=0$ in $5x+8y=40$, $x=8$ in $20x+30y=180$, $x=9$<br /><br />$y$-intercepts: $x=0$: $8y=40\\implies y=5$ in energy, $30y=180\\implies y=6$ in cost<br /><br />Try $(0,5): cost=30*5=150\\leq180$, energy $8*5=40$, OK<br /><br />Try $(8,0): cost=160$, energy=40, OK<br /><br />Try $x=3, y=4$<br /><br />$5*3+8*4=15+32=47\\geq40$; $20*3+30*4=60+120=180$<br /><br />So $(3,4)$ is a possible point<br /><br />Check at these points:<br /><br />$(0,5): cost=150, energy=40, Z=40$<br /><br />$(6,0): cost=120, energy=30$ insufficient<br /><br />$(3,4): cost=20*3+30*4=60+120=180$, energy=15+32=47, OK<br /><br />$Z=5*3+8*4=15+32=47$<br /><br />$(8,0): 160, 40, Z=40$<br /><br />Max energy at $(3,4):47$ units. Thus, order 3 sandwiches, 4 pizza slices.",
+  "explanation_image": [],
+  "options": {
+    "A": "Order 8 sandwiches and 0 pizza slices; maximum energy intake 40 units.",
+    "B": "Order 3 sandwiches and 4 pizza slices; maximum energy intake 47 units.",
+    "C": "Order 0 sandwiches and 5 pizza slices; maximum energy intake 40 units.",
+    "D": "Order 0 sandwiches and 6 pizza slices; maximum energy intake 48 units."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:56:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

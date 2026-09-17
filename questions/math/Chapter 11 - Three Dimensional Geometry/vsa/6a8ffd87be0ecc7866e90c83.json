@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffd87be0ecc7866e90c83",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d0"
+  ],
+  "question_type": "VSA",
+  "question": "Examine the relative position of the lines $\\vec{r}=(\\hat{i}+\\hat{k})+\\lambda(\\hat{i}+2\\hat{j}+\\hat{k})$ and $\\vec{r}=(\\hat{j}+2\\hat{k})+\\mu(2\\hat{i}+\\hat{j}-\\hat{k})$, and state whether they are skew.",
+  "answeroption": "B",
+  "explanation": "Step 1: The direction vectors of the two lines are $\\vec{b_1}=(1,2,1)$ and $\\vec{b_2}=(2,1,-1)$. These vectors are not proportional, so the lines are not parallel. Step 2: To check whether they intersect, equate the corresponding coordinates of a point common to both lines. This gives $1+\\lambda=2\\mu$, $2\\lambda=1+\\mu$ and $1+\\lambda=2-\\mu$. Step 3: From the third equation, $\\lambda+\\mu=1$. From the second equation, $\\mu=2\\lambda-1$. Hence, $3\\lambda=2$, so $\\lambda=\\frac{2}{3}$ and $\\mu=\\frac{1}{3}$. Step 4: Substituting these in the first equation gives $\\frac{5}{3}\\ne\\frac{2}{3}$. Thus, the equations are inconsistent. Step 5: The lines are neither parallel nor intersecting. Therefore, they are skew lines.",
+  "explanation_image": [],
+  "options": {
+    "A": "They are parallel but distinct.",
+    "B": "They are skew lines.",
+    "C": "They intersect at $\\lambda=\\frac{2}{3}$, $\\mu=\\frac{1}{3}$.",
+    "D": "They are coincident."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

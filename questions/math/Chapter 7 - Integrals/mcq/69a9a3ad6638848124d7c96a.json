@@ -1,0 +1,29 @@
+{
+  "id": "69a9a3ad6638848124d7c96a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of $\\int_0^{\\pi/2}\\frac{dx}{1+\\sin x}$ is:",
+  "answeroption": "A",
+  "explanation": "Let $I=\\int_0^{\\pi/2}\\frac{dx}{1+\\sin x}$.<br /><br />Using property $\\int_0^a f(x)dx=\\int_0^a f(a-x)dx$.<br /><br />$I=\\int_0^{\\pi/2}\\frac{dx}{1+\\cos x}$.<br /><br />Adding the two forms gives $2I=\\int_0^{\\pi/2}\\left(\\frac{1}{1+\\sin x}+\\frac{1}{1+\\cos x}\\right)dx$.<br /><br />Simplifying gives $I=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2$",
+    "B": "$\\pi$",
+    "C": "$\\frac{\\pi}{2}$",
+    "D": "$\\sqrt2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:39:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

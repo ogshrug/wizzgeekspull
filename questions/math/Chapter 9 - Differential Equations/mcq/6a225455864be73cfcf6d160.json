@@ -1,0 +1,32 @@
+{
+  "id": "6a225455864be73cfcf6d160",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad",
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "MCQ",
+  "question": "The integrating factor of differential equation $(x+2y^3)\\frac{dy}{dx}=2y$ is",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Rearrange the given differential equation into standard linear form: $\\frac{dx}{dy} = \\frac{x+2y^3}{2y} = \\frac{x}{2y} + y^2$. This neatly simplifies to $\\frac{dx}{dy} - \\frac{1}{2y}x = y^2$, which is clearly linear with respect to $x$.<br />**Step 2:** Identify the integrating component $P(y) = -\\frac{1}{2y}$.<br />**Step 3:** Calculate the Integrating Factor (IF) = $e^{\\int P(y) dy} = e^{\\int -\\frac{1}{2y} dy}$.<br />**Step 4:** Evaluate the exponent: $e^{-\\frac{1}{2}\\ln y} = e^{\\ln(y^{-1/2})} = y^{-1/2} = \\frac{1}{\\sqrt{y}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^{\\frac{y^2}{2}}$",
+    "B": "$\\frac{1}{\\sqrt{y}}$",
+    "C": "$\\frac{1}{y^2}$",
+    "D": "$e^{-\\frac{1}{y^2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

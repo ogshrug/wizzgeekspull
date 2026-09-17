@@ -1,0 +1,29 @@
+{
+  "id": "6a8d650e70e91fe851017dc4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "For $x\\in[-1,1]$, determine the range of $f(x)=\\sin^{-1}|x|$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b><br>Since $x\\in[-1,1]$, the absolute value $|x|$ satisfies $$0\\leq|x|\\leq1.$$<br><br><b>Step 2:</b><br>The inverse sine function is increasing on its domain $[-1,1]$. Therefore, applying $\\sin^{-1}$ to the interval $[0,1]$ preserves the order of its endpoints.<br><br><b>Step 3:</b><br>The minimum value occurs when $|x|=0$, giving $$\\sin^{-1}0=0.$$ The maximum value occurs when $|x|=1$, giving $$\\sin^{-1}1=\\frac{\\pi}{2}.$$<br><br><b>Step 4:</b><br>Both endpoint values are attained: the minimum at $x=0$ and the maximum at $x=\\pm1$.<br><br><b>Final Answer:</b><br>The range of $f$ is $$\\left[0,\\frac{\\pi}{2}\\right].$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$",
+    "B": "$\\left[0,\\frac{\\pi}{2}\\right)$",
+    "C": "$\\left(0,\\frac{\\pi}{2}\\right]$",
+    "D": "$\\left[0,\\frac{\\pi}{2}\\right]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

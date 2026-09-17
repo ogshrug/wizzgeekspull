@@ -1,0 +1,33 @@
+{
+  "id": "6a2669f2864be73cfcf6d36e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "MCQ",
+  "question": "The function $f(x)=|x|$ is",
+  "answeroption": "c",
+  "explanation": "**Step 1:** The absolute value function is defined piece-wise as $f(x) = x$ for $x \\ge 0$ and $f(x) = -x$ for $x < 0$. Checking continuity at the corner point $x = 0$: the left-hand limit is $\\lim_{h \\rightarrow 0} -(0-h) = 0$, the right-hand limit is $\\lim_{h \\rightarrow 0} (0+h) = 0$, and the function value is $f(0) = 0$. Since all three values match, it is continuous everywhere.<br />**Step 2:** Next, check the differentiability at $x = 0$ by computing the limits of the slopes. The Left-Hand Derivative is $\\lim_{h \\rightarrow 0} \\frac{f(0-h)-f(0)}{-h} = \\frac{|-h|-0}{-h} = \\frac{h}{-h} = -1$. The Right-Hand Derivative is $\\lim_{h \\rightarrow 0} \\frac{f(0+h)-f(0)}{h} = \\frac{|h|-0}{h} = \\frac{h}{h} = 1$.<br />**Step 3:** Since the Left-Hand Derivative ($-1$) does not equal the Right-Hand Derivative ($1$) at $x = 0$, the function forms a sharp corner graph and is not differentiable at $x = 0$. For all other points $x \\neq 0$, it is linear and perfectly differentiable. This matches option (c).",
+  "explanation_image": [],
+  "options": {
+    "A": "continuous and differentiable everywhere.",
+    "B": "continuous and differentiable nowhere.",
+    "C": "continuous everywhere, but differentiable everywhere except at $x=0.$",
+    "D": "continuous everywhere, but differentiable nowhere."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

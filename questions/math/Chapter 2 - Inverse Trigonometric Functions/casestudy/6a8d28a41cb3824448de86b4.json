@@ -1,0 +1,30 @@
+{
+  "id": "6a8d28a41cb3824448de86b4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During an inverse-tangent investigation, two positive acute angles are defined by $A=\\tan^{-1}\\left(\\dfrac{1}{4}\\right)$ and $B=\\tan^{-1}\\left(\\dfrac{2}{7}\\right)$. The students use the tangent addition and subtraction formulas to combine the angles. Because both $A$ and $B$ lie in $\\left(0,\\dfrac{\\pi}{2}\\right)$ and $B>A$, the signs and principal-value intervals of $A+B$ and $A-B$ can be established before applying $\\tan^{-1}$. This prevents an incorrect addition of $\\pi$ to the final inverse-tangent expressions.<br><br><b>(a)</b> Calculate $\\tan(A+B)$.<br><br><b>(b)</b> Express $A+B$ as a single inverse-tangent principal value.<br><br><b>(c)</b> Calculate $\\tan(A-B)$.<br><br><b>(d)</b> Express $A-B$ as a single inverse-tangent principal value and justify its sign.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Using the tangent-addition formula,<br>$$\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}$$<br>$$=\\frac{\\frac{1}{4}+\\frac{2}{7}}{1-\\frac{1}{4}\\cdot\\frac{2}{7}}$$<br>$$=\\frac{\\frac{15}{28}}{\\frac{13}{14}}=\\frac{15}{26}$$<br><br><b>(b)</b><br>Both $A$ and $B$ are positive. Also, $1-\\tan A\\tan B=\\dfrac{13}{14}>0$, so $A+B<\\dfrac{\\pi}{2}$. Therefore, $A+B$ belongs to the principal range of inverse tangent and<br>$$A+B=\\tan^{-1}\\left(\\frac{15}{26}\\right)$$<br><br><b>(c)</b><br>Using the tangent-difference formula,<br>$$\\tan(A-B)=\\frac{\\tan A-\\tan B}{1+\\tan A\\tan B}$$<br>$$=\\frac{\\frac{1}{4}-\\frac{2}{7}}{1+\\frac{1}{4}\\cdot\\frac{2}{7}}$$<br>$$=\\frac{-\\frac{1}{28}}{\\frac{15}{14}}=-\\frac{1}{30}$$<br><br><b>(d)</b><br>Since $\\dfrac{2}{7}>\\dfrac{1}{4}$ and inverse tangent is increasing, $B>A$. Hence, $A-B<0$. The difference lies in $\\left(-\\dfrac{\\pi}{2},0\\right)$, so<br>$$A-B=\\tan^{-1}\\left(-\\frac{1}{30}\\right)=-\\tan^{-1}\\left(\\frac{1}{30}\\right)$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\tan(A+B)=\\dfrac{15}{26}$<br><br>(b) $A+B=\\tan^{-1}\\left(\\dfrac{15}{26}\\right)$<br><br>(c) $\\tan(A-B)=-\\dfrac{1}{30}$<br><br>(d) $A-B=-\\tan^{-1}\\left(\\dfrac{1}{30}\\right)$, which is negative because $B>A$",
+    "B": "(a) $\\tan(A+B)=\\dfrac{15}{30}$<br><br>(b) $A+B=\\tan^{-1}\\left(\\dfrac{1}{2}\\right)$<br><br>(c) $\\tan(A-B)=\\dfrac{1}{26}$<br><br>(d) $A-B=\\tan^{-1}\\left(\\dfrac{1}{26}\\right)$, which is positive because $A>B$",
+    "C": "(a) $\\tan(A+B)=\\dfrac{1}{30}$<br><br>(b) $A+B=\\tan^{-1}\\left(\\dfrac{1}{30}\\right)$<br><br>(c) $\\tan(A-B)=-\\dfrac{15}{26}$<br><br>(d) $A-B=-\\tan^{-1}\\left(\\dfrac{15}{26}\\right)$, which is negative because $B>A$",
+    "D": "(a) $\\tan(A+B)=\\dfrac{15}{26}$<br><br>(b) $A+B=\\pi+\\tan^{-1}\\left(\\dfrac{15}{26}\\right)$<br><br>(c) $\\tan(A-B)=-\\dfrac{1}{30}$<br><br>(d) $A-B=\\pi-\\tan^{-1}\\left(\\dfrac{1}{30}\\right)$, which is positive"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

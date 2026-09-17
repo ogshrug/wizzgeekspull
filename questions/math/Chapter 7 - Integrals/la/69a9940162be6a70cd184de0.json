@@ -1,0 +1,29 @@
+{
+  "id": "69a9940162be6a70cd184de0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation $\\frac{dy}{dx}=x^2(1+y^2)$ with initial condition $y(0)=0$.",
+  "answeroption": "A",
+  "explanation": "Separate variables:<br /><br />$\\frac{1}{1+y^2}dy = x^2 dx$.<br /><br />Integrate both sides:<br /><br />$\\int \\frac{1}{1+y^2}dy = \\int x^2 dx$.<br /><br />$\\tan^{-1}y = \\frac{x^3}{3}+C$.<br /><br />Using $y(0)=0$ gives $C=0$.<br /><br />Thus $\\tan^{-1}y = \\frac{x^3}{3}$.<br /><br />Therefore $y = \\tan(\\frac{x^3}{3})$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\tan\\left(\\frac{x^3}{3}\\right)$",
+    "B": "$y=\\tan(x^3)$",
+    "C": "$y=\\tan\\left(\\frac{x^2}{2}\\right)$",
+    "D": "$y=\\tan\\left(\\frac{x^3}{3}+1\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 14:32:33 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

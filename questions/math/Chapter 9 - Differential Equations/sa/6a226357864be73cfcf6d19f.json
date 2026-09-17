@@ -1,0 +1,29 @@
+{
+  "id": "6a226357864be73cfcf6d19f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following differential equation: $(1+x^{2})\\frac{dy}{dx}+2xy=4x^{2}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Convert the equation into the standard linear form $\\frac{dy}{dx} + P(x)y = Q(x)$ by dividing the entire equation by $(1+x^2)$. This yields $\\frac{dy}{dx} + (\\frac{2x}{1+x^2})y = \\frac{4x^2}{1+x^2}$.<br />**Step 2:** Identify the functions: $P(x) = \\frac{2x}{1+x^2}$ and $Q(x) = \\frac{4x^2}{1+x^2}$.<br />**Step 3:** Calculate the Integrating Factor (IF). $IF = e^{\\int P(x) dx} = e^{\\int \\frac{2x}{1+x^2} dx}$. Using substitution ($u = 1+x^2, du = 2x dx$), the integral is $\\log(1+x^2)$. Therefore, $IF = e^{\\log(1+x^2)} = 1+x^2$.<br />**Step 4:** The general solution is given by the formula $y \\cdot IF = \\int Q(x) \\cdot IF \\, dx + C$.<br />**Step 5:** Substitute $IF$ and $Q(x)$ into the formula: $y(1+x^2) = \\int \\frac{4x^2}{1+x^2} \\cdot (1+x^2) dx + C$.<br />**Step 6:** The term $(1+x^2)$ cancels out, leaving $y(1+x^2) = \\int 4x^2 dx + C$.<br />**Step 7:** Evaluate the simple integral on the right: $y(1+x^2) = \\frac{4x^3}{3} + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed3f2751910886affb9cb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "SA",
+  "question": "For $x>0$, determine the critical point of $f(x)=x+\\frac{4}{x}$. Examine the sign of $f'(x)$ on either side of this point.",
+  "answeroption": "C",
+  "explanation": "<b>First derivative</b><br>$$f'(x)=1-\\frac{4}{x^2}=\\frac{x^2-4}{x^2}$$<br><b>Critical-point condition</b><br>For $x>0$, set $f'(x)=0$:<br>$$x^2-4=0\\Rightarrow x=2$$<br>The value $x=-2$ is rejected because it is outside the given domain.<br><b>Sign to the left</b><br>For $0<x<2$, $x^2-4<0$ and $x^2>0$, so $f'(x)<0$.<br><b>Sign to the right</b><br>For $x>2$, $x^2-4>0$, so $f'(x)>0$.<br><b>Conclusion</b><br>The only critical point in the domain occurs at $x=2$. The derivative changes from negative to positive there.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=4$; $f'(x)<0$ for $0<x<4$ and $f'(x)>0$ for $x>4$",
+    "B": "$x=2$; $f'(x)>0$ for $0<x<2$ and $f'(x)<0$ for $x>2$",
+    "C": "$x=2$; $f'(x)<0$ for $0<x<2$ and $f'(x)>0$ for $x>2$",
+    "D": "$x=1$; $f'(x)<0$ for $0<x<1$ and $f'(x)>0$ for $x>1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

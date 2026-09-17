@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9ca52e54880055a0a69d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d64"
+  ],
+  "question_type": "LA",
+  "question": "Examine whether the matrix $$A=\\begin{bmatrix}1&2\\\\2&4\\end{bmatrix}$$ can possess an inverse by assuming that a matrix $$B=\\begin{bmatrix}p&q\\\\r&s\\end{bmatrix}$$ satisfies $AB=I$, and use the resulting equations to establish whether such a matrix $B$ can exist.",
+  "answeroption": "D",
+  "explanation": "<b>Formation of the Product</b><br><br>If $A$ were invertible, there would exist a matrix $B$ of the same order such that $AB=I$. Let $$B=\\begin{bmatrix}p&q\\\\r&s\\end{bmatrix}$$ Then $$AB=\\begin{bmatrix}1&2\\\\2&4\\end{bmatrix}\\begin{bmatrix}p&q\\\\r&s\\end{bmatrix}=\\begin{bmatrix}p+2r&q+2s\\\\2p+4r&2q+4s\\end{bmatrix}$$ For $AB$ to equal the identity matrix, we require $$\\begin{bmatrix}p+2r&q+2s\\\\2p+4r&2q+4s\\end{bmatrix}=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$$<br><br><b>Examination of the Conditions</b><br><br>Equality of corresponding entries gives $p+2r=1$ and $2p+4r=0$. But doubling the first equation gives $2p+4r=2$, whereas the second equation requires $2p+4r=0$. These two conditions are contradictory. Thus no values of $p$ and $r$ can satisfy the required equations simultaneously. Therefore, there cannot exist a matrix $B$ satisfying $AB=I$.<br><br><b>Final Result</b><br><br>Since no matrix $B$ can satisfy the defining condition required for an inverse, the inverse of $A$ does not exist. Hence, $$A=\\begin{bmatrix}1&2\\\\2&4\\end{bmatrix}$$ is not an invertible matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ is invertible and $A^{-1}=\\begin{bmatrix}1&-2\\\\-2&4\\end{bmatrix}$",
+    "B": "$A$ is invertible and $A^{-1}=\\begin{bmatrix}4&-2\\\\-2&1\\end{bmatrix}$",
+    "C": "A matrix $B$ satisfying $AB=I$ exists for infinitely many values of $p,q,r,s$",
+    "D": "No matrix $B$ can satisfy $AB=I$, so $A^{-1}$ does not exist"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

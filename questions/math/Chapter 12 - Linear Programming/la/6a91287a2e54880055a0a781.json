@@ -1,0 +1,32 @@
+{
+  "id": "6a91287a2e54880055a0a781",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "Examine graphically whether the objective function $Z=2x+y$ possesses a maximum value subject to the constraints $x-y\\ge1$, $x+y\\ge3$, $x\\ge0$ and $y\\ge0$, and justify the conclusion using the graphical criterion for an unbounded feasible region.",
+  "answeroption": "A",
+  "explanation": "<b>Feasible Region</b><br>The boundary lines are $x-y=1$ and $x+y=3$. Solving them simultaneously gives $2x=4$, so $x=2$ and $y=1$. The line $x+y=3$ meets the x-axis at $(3,0)$. The common region satisfying $x-y\\ge1$, $x+y\\ge3$, $x\\ge0$ and $y\\ge0$ extends indefinitely to the right and is therefore unbounded.<br><br>The corner points of this feasible region are $(2,1)$ and $(3,0)$. Evaluating the objective function gives $Z(2,1)=2(2)+1=5$ and $Z(3,0)=6$. Thus, the largest value obtained at the corner points is 6 at $(3,0)$.<br><br><b>Verification for the Unbounded Region</b><br>For an unbounded feasible region, the largest corner-point value is a maximum only if the open half-plane corresponding to a larger value has no common point with the feasible region. Here, consider $2x+y>6$. The feasible point $(4,0)$ satisfies $4-0\\ge1$, $4+0\\ge3$, $4\\ge0$ and $0\\ge0$, while $2(4)+0=8>6$. Hence the half-plane $2x+y>6$ has common points with the feasible region. In fact, every point $(t,0)$ with $t\\ge3$ is feasible and gives $Z=2t$, which increases without bound as $t$ increases.<br><br><b>Final Result</b><br>The objective function has no maximum value under the given constraints.",
+  "explanation_image": [],
+  "options": {
+    "A": "The feasible region is unbounded and $Z$ has no maximum; for feasible points $(t,0)$ with $t\\geq3$, $Z=2t$ increases without bound",
+    "B": "The maximum value is $6$ at $(3,0)$ because it is the largest corner-point value",
+    "C": "The maximum value is $5$ at $(2,1)$ because this is the first corner point",
+    "D": "The feasible region is bounded and the maximum value is $6$ at $(3,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

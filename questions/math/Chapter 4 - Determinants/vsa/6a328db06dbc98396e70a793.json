@@ -1,0 +1,26 @@
+{
+  "id": "6a328db06dbc98396e70a793",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d75"
+  ],
+  "question_type": "VSA",
+  "question": "Using matrices and determinants, find the value(s) of k for which the pair of equations $5x-ky=2$; $7x-5y=3$ has a unique solution.",
+  "answeroption": "",
+  "explanation": "**Step 1:** A system of linear equations has a unique solution if and only if its corresponding coefficient matrix is non-singular, meaning its determinant value is non-zero. We construct the coefficient matrix $A = \\begin{bmatrix} 5 & -k \\\\ 7 & -5 \\end{bmatrix}$ from the given pair of linear equations.<br />**Step 2:** We calculate the determinant of matrix $A$ by cross-multiplying its diagonal entries: $|A| = 5(-5) - (-k)(7) = -25 + 7k$. Setting this determinant expression to be non-zero gives the condition $-25 + 7k \\neq 0$.<br />**Step 3:** Isolating the unknown parameter yields $7k \\neq 25$, which simplifies to $k \\neq \\frac{25}{7}$. Therefore, the system maintains a unique solution for all real values of $k$ except twenty-five sevenths.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

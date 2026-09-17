@@ -1,0 +1,29 @@
+{
+  "id": "6a8ebe49751910886affb981",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "SA",
+  "question": "Examine whether the function $f(x)=|x-2|$ is differentiable at $x=2$. Justify your answer by finding the left-hand and right-hand derivatives.",
+  "answeroption": "B",
+  "explanation": "<b>Function value</b><br>$$f(2)=0$$<br><b>Left-hand derivative</b><br>For $h<0$, $|h|=-h$. Thus, $$\\lim_{h\\to 0^-}\\frac{f(2+h)-f(2)}{h}=\\lim_{h\\to 0^-}\\frac{|h|}{h}=-1$$<br><b>Right-hand derivative</b><br>For $h>0$, $|h|=h$. Thus, $$\\lim_{h\\to 0^+}\\frac{f(2+h)-f(2)}{h}=\\lim_{h\\to 0^+}\\frac{|h|}{h}=1$$<br><b>Differentiability test</b><br>Since the left-hand derivative and right-hand derivative are not equal, $f$ is not differentiable at $x=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The left-hand derivative is $1$ and the right-hand derivative is $1$; hence $f$ is differentiable.",
+    "B": "The left-hand derivative is $-1$ and the right-hand derivative is $1$; hence $f$ is not differentiable.",
+    "C": "The left-hand derivative is $1$ and the right-hand derivative is $-1$; hence $f$ is not differentiable.",
+    "D": "The left-hand derivative is $-1$ and the right-hand derivative is $-1$; hence $f$ is differentiable."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

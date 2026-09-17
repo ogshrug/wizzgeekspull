@@ -1,0 +1,30 @@
+{
+  "id": "69a86ca964fcf4cdd5b4bafc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "SA",
+  "question": "Let $y = [f(x)]^{g(x)}$ where $f(x) > 0$, $g(x)$ are differentiable. Using logarithmic differentiation, find $\\frac{d^2y}{dx^2}$ in terms of $f(x)$, $g(x)$, $f'(x)$, $f''(x)$, $g'(x)$, $g''(x)$.",
+  "answeroption": "D",
+  "explanation": "Let $y = [f(x)]^{g(x)}$<br /><br />$\\ln y = g(x) \\ln f(x)$<br /><br />Differentiate both sides:<br /><br />$\\frac{1}{y} \\frac{dy}{dx} = g'(x) \\ln f(x) + g(x) \\frac{f'(x)}{f(x)}$<br /><br />$\\implies \\frac{dy}{dx} = y\\left[ g'(x) \\ln f(x) + g(x) \\frac{f'(x)}{f(x)} \\right]$<br /><br />Let $A = g'(x) \\ln f(x) + g(x) \\frac{f'(x)}{f(x)}$<br /><br />Then $y' = yA$<br /><br />Differentiate again:<br /><br />$y'' = y'A + yA'$<br /><br />$= yA^2 + yA'$<br /><br />Now,<br /><br />$A' = g''(x) \\ln f(x) + g'(x) \\frac{f'(x)}{f(x)} + g'(x) \\frac{f'(x)}{f(x)} + g(x) \\left( \\frac{f''(x)f(x) - (f'(x))^2}{(f(x))^2} \\right)$<br /><br />Thus,<br /><br />$\\boxed{\\frac{d^2y}{dx^2} = y\\left[ \\left(g'(x) \\ln f(x) + g(x) \\frac{f'(x)}{f(x)}\\right)^2 + g''(x) \\ln f(x) + 2g'(x) \\frac{f'(x)}{f(x)} + g(x) \\frac{f''(x)f(x) - (f'(x))^2}{(f(x))^2} \\right]}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$[f(x)]^{g(x)}\\left[g'(x)\\ln f(x)+g(x)\\frac{f'(x)}{f(x)}\\right]$",
+    "B": "$[f(x)]^{g(x)}\\left[g''(x)\\ln f(x)+g(x)\\frac{f''(x)}{f(x)}\\right]$",
+    "C": "$[f(x)]^{g(x)}\\left[\\left(g'(x)\\ln f(x)\\right)^2+g''(x)\\ln f(x)\\right]$",
+    "D": "$[f(x)]^{g(x)}\\left[\\left(g'(x)\\ln f(x)+g(x)\\frac{f'(x)}{f(x)}\\right)^2+g''(x)\\ln f(x)+2g'(x)\\frac{f'(x)}{f(x)}+g(x)\\frac{f''(x)f(x)-(f'(x))^2}{(f(x))^2}\\right]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:32:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

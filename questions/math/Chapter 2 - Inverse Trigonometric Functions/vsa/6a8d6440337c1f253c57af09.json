@@ -1,0 +1,31 @@
+{
+  "id": "6a8d6440337c1f253c57af09",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4c",
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "The graph of $y=\\sin^{-1}x$ is translated one unit to the left and $\\frac{\\pi}{2}$ units upward. Write the equation of the translated graph and state its domain and range.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b><br>Translating the graph of $y=\\sin^{-1}x$ one unit to the left requires replacing $x$ by $x+1$.<br><br><b>Step 2:</b><br>Translating it $\\frac{\\pi}{2}$ units upward requires adding $\\frac{\\pi}{2}$ to the function. Hence, the translated graph is $$y=\\sin^{-1}(x+1)+\\frac{\\pi}{2}.$$<br><br><b>Step 3:</b><br>For the function to be defined, $-1\\leq x+1\\leq1$. Subtracting $1$ gives $-2\\leq x\\leq0$. Therefore, its domain is $[-2,0]$.<br><br><b>Step 4:</b><br>The range of $\\sin^{-1}x$ is $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$. Adding $\\frac{\\pi}{2}$ to both endpoints gives $[0,\\pi]$.<br><br><b>Final Answer:</b><br>The equation is $y=\\sin^{-1}(x+1)+\\frac{\\pi}{2}$, its domain is $[-2,0]$, and its range is $[0,\\pi]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\sin^{-1}(x-1)+\\frac{\\pi}{2}$; Domain: $[0,2]$; Range: $[0,\\pi]$",
+    "B": "$y=\\sin^{-1}(x+1)+\\frac{\\pi}{2}$; Domain: $[-2,0]$; Range: $[0,\\pi]$",
+    "C": "$y=\\sin^{-1}(x+1)-\\frac{\\pi}{2}$; Domain: $[-2,0]$; Range: $[-\\pi,0]$",
+    "D": "$y=\\sin^{-1}(x+1)+\\frac{\\pi}{2}$; Domain: $[-1,1]$; Range: $[0,\\pi]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

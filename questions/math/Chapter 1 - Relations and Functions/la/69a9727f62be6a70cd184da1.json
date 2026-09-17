@@ -1,0 +1,30 @@
+{
+  "id": "69a9727f62be6a70cd184da1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "LA",
+  "question": "Consider functions $f(x) = e^x$ and $g(x) = \\ln{x}$ for $x > 0$.<br /><br />(a) Find $f \\circ g$ and $g \\circ f$, and state their domains.<br /><br />(b) Show that $f$ and $g$ are inverses of each other.<br /><br />(c) Solve the equation $e^{\\ln(x)} = 2x$.",
+  "answeroption": "A",
+  "explanation": "(a) $f \\circ g(x) = f(g(x)) = f(\\ln x) = e^{\\ln x} = x$, for $x > 0$.<br /><br />$g \\circ f(x) = g(f(x)) = g(e^x) = \\ln(e^x) = x$, for all $x \\in \\mathbb{R}$.<br /><br />(b) As above, $f \\circ g(x) = x$ for $x > 0$ and $g \\circ f(x) = x$ for $x \\in \\mathbb{R}$.<br /><br />Therefore, $f$ and $g$ are inverses of each other.<br /><br />(c) $e^{\\ln x} = 2x$<br /><br />Since $e^{\\ln x} = x$, the equation becomes $x = 2x \\implies x = 0$<br /><br />But $x > 0$, so no solution exists for $x > 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(f\\circ g)(x)=x$ for $x>0$, and $(g\\circ f)(x)=x$ for $x\\in\\mathbb{R}$.<br />(b) Hence $f$ and $g$ are inverses of each other.<br />(c) $e^{\\ln x}=2x$ gives $x=2x$, so $x=0$, but $x>0$; therefore no solution exists.",
+    "B": "(a) $(f\\circ g)(x)=e^x$ and $(g\\circ f)(x)=\\ln x$.<br />(b) $f$ and $g$ are not inverses.<br />(c) The solution is $x=1$.",
+    "C": "(a) $(f\\circ g)(x)=2x$ and $(g\\circ f)(x)=x^2$.<br />(b) Only $f\\circ g$ is an identity function.<br />(c) The solution is $x=2$.",
+    "D": "(a) $(f\\circ g)(x)=\\ln(e^x)$ only for $x<0$.<br />(b) $f$ and $g$ are inverses only at $x=0$.<br />(c) Infinitely many positive solutions exist."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:09:35 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

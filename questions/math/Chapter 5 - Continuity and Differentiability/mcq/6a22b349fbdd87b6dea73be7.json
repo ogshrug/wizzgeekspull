@@ -1,0 +1,33 @@
+{
+  "id": "6a22b349fbdd87b6dea73be7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f(x)=\\{[x],x\\in R\\}$ is the greatest integer function, then the correct statement is:",
+  "answeroption": "B",
+  "explanation": "<b>Step 1</b> Analyze the continuity of the greatest integer function $f(x) = [x]$ at integer points. As $x$ approaches 2 from the left, $[x] = 1$, so the left-hand limit is 1. As $x$ approaches 2 from the right, $[x] = 2$, so the right-hand limit is 2.<br /><br /><b>Step 2</b> Since the left-hand limit and right-hand limit are not equal ($1 \\neq 2$), the function is not continuous at $x = 2$. It exhibits a jump discontinuity.<br /><br /><b>Step 3</b> Recall the theorem connecting continuity and differentiability: a function must be continuous at a point to be differentiable there. Since continuity fails at $x = 2$, the function is neither continuous nor differentiable at $x = 2$, matching option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "f is continuous but not differentiable at x=2.",
+    "B": "f is neither continuous nor differentiable at x=2.",
+    "C": "f is continuous as well as differentiable at x=2.",
+    "D": "f is not continuous but differentiable at x=2."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a33d6c06dbc98396e70a7c9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "SA",
+  "question": "If $A=\\begin{bmatrix}1&-1&0\\end{bmatrix}$, $B=\\begin{bmatrix}2&0&1\\\\ -1&3&4\\\\ 0&5&1\\end{bmatrix}$ and $C=\\begin{bmatrix}2\\\\ 3\\\\ 4\\end{bmatrix},$ find ABC.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Multiply row matrix $A$ (order $1 \\times 3$) with square matrix $B$ (order $3 \\times 3$) to compute product matrix $AB$: $AB = \\begin{bmatrix} 1(2)+(-1)(-1)+0(0) & 1(0)+(-1)(3)+0(5) & 1(1)+(-1)(4)+0(1) \\end{bmatrix}$.<br />**Step 2:** Simplify the algebraic calculations to obtain the single horizontal row product vector: $AB = \\begin{bmatrix} 2+1+0 & 0-3+0 & 1-4+0 \\end{bmatrix} = \\begin{bmatrix} 3 & -3 & -3 \\end{bmatrix}$.<br />**Step 3:** Multiply this row matrix $AB$ (order $1 \\times 3$) by the column matrix $C$ (order $3 \\times 1$) to find the final scalar product matrix $ABC$: $ABC = \\begin{bmatrix} 3 & -3 & -3 \\end{bmatrix} \\begin{bmatrix} 2 \\\\ 3 \\\\ 4 \\end{bmatrix} = [3(2) + (-3)(3) + (-3)(4)]$.<br />**Step 4:** Sum up the components: $[6 - 9 - 12] = [-15]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "6a1594346050c058f876e511",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e767d837c8c7efa6b8c6"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\vec{a}=\\hat{i}+\\hat{j}-2\\hat{k}$, $\\vec{b}=-\\hat{i}+2\\hat{j}+2\\hat{k}$ and $\\vec{c}=-\\hat{i}+2\\hat{j}-\\hat{k}$ are three vectors, then find a vector perpendicular to both the vectors $(\\vec{a}+\\vec{b})$ and $(\\vec{b}-\\vec{c})$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Compute the component sum vector $(\\vec{a} + \\vec{b})$**<br />Adding the corresponding components of vectors $\\vec{a}$ and $\\vec{b}$ gives:<br />$\\vec{a} + \\vec{b} = (1 - 1)\\hat{i} + (1 + 2)\\hat{j} + (-2 + 2)\\hat{k} = 0\\hat{i} + 3\\hat{j} + 0\\hat{k} = 3\\hat{j}$<br /><br />**Step 2: Compute the component difference vector $(\\vec{b} - \\vec{c})$**<br />Subtracting the components of vector $\\vec{c}$ from vector $\\vec{b}$ gives:<br />$\\vec{b} - \\vec{c} = (-1 - (-1))\\hat{i} + (2 - 2)\\hat{j} + (2 - (-1))\\hat{k} = 0\\hat{i} + 0\\hat{j} + 3\\hat{k} = 3\\hat{k}$<br /><br />**Step 3: Calculate the cross product to find a perpendicular vector**<br />A vector that is simultaneously perpendicular to two other vectors can be found by calculating their vector cross product:<br />$\\vec{V} = (\\vec{a} + \\vec{b}) \\times (\\vec{b} - \\vec{c}) = (3\\hat{j}) \\times (3\\hat{k})$<br />Using the standard cross product rules for unit vectors ($\\hat{j} \\times \\hat{k} = \\hat{i}$):<br />$\\vec{V} = 9\\hat{i}$<br />Therefore, a vector perpendicular to both calculated expressions is **$9\\hat{i}$**.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

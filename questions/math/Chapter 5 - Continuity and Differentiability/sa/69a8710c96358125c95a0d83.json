@@ -1,0 +1,30 @@
+{
+  "id": "69a8710c96358125c95a0d83",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "SA",
+  "question": "If $y = \\sqrt{\\sin x + \\sqrt{\\sin x + \\sqrt{\\sin x + ...}}}$, prove that $\\frac{dy}{dx} = \\frac{\\cos x}{2y - 1}$.",
+  "answeroption": "B",
+  "explanation": "Let $y=\\sqrt{\\sin x+y}$<br /><br />Square:<br />$y^2=\\sin x+y$<br /><br />Differentiate:<br />$2y\\frac{dy}{dx}=\\cos x+\\frac{dy}{dx}$<br /><br />$\\frac{dy}{dx}(2y-1)=\\cos x$<br /><br />$\\frac{dy}{dx}=\\frac{\\cos x}{2y-1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{dy}{dx}=\\dfrac{\\sin x}{2y-1}$",
+    "B": "$\\dfrac{dy}{dx}=\\dfrac{\\cos x}{2y-1}$",
+    "C": "$\\dfrac{dy}{dx}=\\dfrac{\\cos x}{2y+1}$",
+    "D": "$\\dfrac{dy}{dx}=\\dfrac{2y-1}{\\cos x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:51:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

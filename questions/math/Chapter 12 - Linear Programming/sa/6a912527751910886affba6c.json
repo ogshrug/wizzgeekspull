@@ -1,0 +1,29 @@
+{
+  "id": "6a912527751910886affba6c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dd"
+  ],
+  "question_type": "SA",
+  "question": "Consider the system $x+y\\geq8$, $3x+5y\\leq15$, $x\\geq0$, $y\\geq0$. Without drawing a graph, show that there is no point satisfying all the constraints simultaneously. Hence, comment on the feasible region.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Using the first inequality</b><br>From $$x+y\\geq8$$ multiplying by $3$ gives $$3x+3y\\geq24$$<br><b>Step 2: Applying the non-negative restriction</b><br>Since $y\\geq0$, we have $2y\\geq0$. Therefore, $$3x+5y=(3x+3y)+2y\\geq3x+3y$$<br><b>Step 3: Obtaining the necessary lower bound</b><br>Using $3x+3y\\geq24$, it follows that $$3x+5y\\geq24$$<br><b>Step 4: Comparing with the second constraint</b><br>The second constraint requires $$3x+5y\\leq15$$ This is incompatible with $3x+5y\\geq24$.<br><b>Step 5: Conclusion</b><br>No ordered pair $(x,y)$ can satisfy all the given inequalities simultaneously. Hence, the system has no feasible solution and consequently no feasible region.",
+  "explanation_image": [],
+  "options": {
+    "A": "A bounded feasible region exists",
+    "B": "An unbounded feasible region exists",
+    "C": "The feasible region consists only of points on $x+y=8$",
+    "D": "No feasible point exists; hence there is no feasible region"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

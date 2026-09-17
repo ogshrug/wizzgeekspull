@@ -1,0 +1,29 @@
+{
+  "id": "6a22b82f864be73cfcf6d2b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\sin^{-1}(\\sin\\frac{3\\pi}{4}) + \\cos^{-1}(\\cos \\pi) + \\tan^{-1}(1)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find the principal value of $\\sin^{-1}(\\sin\\frac{3\\pi}{4})$. Since $\\frac{3\\pi}{4}$ is outside the principal range $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$, rewrite it as $\\sin^{-1}(\\sin(\\pi - \\frac{\\pi}{4})) = \\sin^{-1}(\\sin\\frac{\\pi}{4}) = \\frac{\\pi}{4}$.<br />**Step 2:** Find the principal value of $\\cos^{-1}(\\cos \\pi)$. The angle $\\pi$ is within the principal range $[0, \\pi]$, so the value is exactly $\\pi$.<br />**Step 3:** Find the value of $\\tan^{-1}(1)$. The principal value where tangent is 1 is $\\frac{\\pi}{4}$.<br />**Step 4:** Sum the three evaluated components: $\\frac{\\pi}{4} + \\pi + \\frac{\\pi}{4} = \\frac{2\\pi}{4} + \\pi = \\frac{\\pi}{2} + \\pi = \\frac{3\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

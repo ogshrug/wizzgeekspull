@@ -1,0 +1,26 @@
+{
+  "id": "6a27defb233c5169a79c53f3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically: Maximize $Z=4500x+5000y$ Subject to constraints $x+y\\le250$ $25x+40y\\le7000$ $x\\ge0$ $y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Draw the boundary lines of the constraints: $x + y = 250$ and $5x + 8y = 1400$. Solving these equations simultaneously gives their intersection point at $(200, 50)$.<br />**Step 2:** Identify the bounded feasible region satisfying all inequalities. The corner vertices of this region are $(0,0)$, $(250,0)$, $(0,175)$, and $(200,50)$.<br />**Step 3:** Compute the objective value $Z = 4500x + 5000y$ at each vertex: $Z(0,0)=0$, $Z(250,0)=1,125,000$, $Z(0,175)=875,000$, and $Z(200,50)=1,150,000$. The maximum value is $1,150,000$ at $(200, 50)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

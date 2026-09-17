@@ -1,0 +1,29 @@
+{
+  "id": "6a9020494b490c7cde35955c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d5"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematical model contains two planes $$\\pi_1:2x-y+2z=5$$ and $$\\pi_2:x+2y-2z=7.$$ Students analyse their relative orientation by using the fact that the acute angle between two planes is the acute angle between their normal vectors. A third adjustable plane is represented by $$\\pi_3:x+ky+z=4,$$ where $k$ is a real constant. The coefficient triples in the Cartesian equations provide direction ratios of the corresponding normals. Using these data, the students compare the first two planes and then choose $k$ so that the third plane satisfies a specified angular relation with $\\pi_1$.<br><br><b>(a)</b> Find normal vectors to $\\pi_1$ and $\\pi_2$.<br><br><b>(b)</b> Determine whether $\\pi_1$ and $\\pi_2$ are parallel or perpendicular.<br><br><b>(c)</b> Find the acute angle between $\\pi_1$ and $\\pi_2$.<br><br><b>(d)</b> Determine the value of $k$ for which $\\pi_3$ is perpendicular to $\\pi_1$.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>For a plane $Ax+By+Cz+D=0$, a normal vector has direction ratios $(A,B,C)$.<br>Therefore, for $\\pi_1$,<br>$$\\vec n_1=(2,-1,2),$$<br>and for $\\pi_2$,<br>$$\\vec n_2=(1,2,-2).$$<br><br><b>(b)</b><br>The normal vectors are not proportional, since<br>$$\\frac{2}{1}\\neq\\frac{-1}{2}.$$<br>Therefore, the planes are not parallel.<br>For perpendicular planes, the scalar product of their normal vectors must be zero.<br>Here,<br>$$\\vec n_1\\cdot\\vec n_2=2(1)+(-1)(2)+2(-2)=2-2-4=-4\\neq0.$$<br>Hence, the planes are neither parallel nor perpendicular.<br><br><b>(c)</b><br>If $\\theta$ is the acute angle between the planes, then<br>$$\\cos\\theta=\\frac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}.$$<br>Now,<br>$$|\\vec n_1|=\\sqrt{2^2+(-1)^2+2^2}=3$$<br>and<br>$$|\\vec n_2|=\\sqrt{1^2+2^2+(-2)^2}=3.$$<br>Therefore,<br>$$\\cos\\theta=\\frac{|-4|}{3\\times3}=\\frac{4}{9}.$$<br>Hence, the acute angle between the planes is<br>$$\\theta=\\cos^{-1}\\left(\\frac{4}{9}\\right).$$<br><br><b>(d)</b><br>A normal to $\\pi_3$ is<br>$$\\vec n_3=(1,k,1).$$<br>For $\\pi_3$ to be perpendicular to $\\pi_1$,<br>$$\\vec n_1\\cdot\\vec n_3=0.$$<br>Thus,<br>$$2(1)+(-1)k+2(1)=0.$$<br>Therefore,<br>$$4-k=0,$$<br>giving<br>$$k=4.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec n_1=(2,1,2)$, $\\vec n_2=(1,-2,-2)$<br>(b) The planes are perpendicular<br>(c) $90^\\circ$<br>(d) $k=-4$",
+    "B": "(a) $\\vec n_1=(2,-1,2)$, $\\vec n_2=(1,2,-2)$<br>(b) The planes are neither parallel nor perpendicular<br>(c) $\\cos^{-1}\\left(\\frac{4}{9}\\right)$<br>(d) $k=4$",
+    "C": "(a) $\\vec n_1=(2,-1,2)$, $\\vec n_2=(1,2,-2)$<br>(b) The planes are parallel<br>(c) $0^\\circ$<br>(d) $k=4$",
+    "D": "(a) $\\vec n_1=(2,-1,2)$, $\\vec n_2=(1,2,-2)$<br>(b) The planes are neither parallel nor perpendicular<br>(c) $\\sin^{-1}\\left(\\frac{4}{9}\\right)$<br>(d) $k=-4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

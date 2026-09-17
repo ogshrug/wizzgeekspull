@@ -1,0 +1,29 @@
+{
+  "id": "69a9773f589ce36f368b4814",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation $\\frac{dy}{dx} = \\frac{x+y}{x}$, given $y(1)=0$.",
+  "answeroption": "A",
+  "explanation": "Given: $\\frac{dy}{dx} = \\frac{x+y}{x}$<br /><br />Rewrite: $\\frac{dy}{dx} = 1 + \\frac{y}{x}$<br /><br />Rearrange: $\\frac{dy}{dx} - \\frac{y}{x} = 1$<br /><br />This is a linear differential equation in $y$.<br /><br />Integrating factor (I.F.): $I.F. = e^{\\int -\\frac{1}{x} dx} = e^{-\\ln|x|} = \\frac{1}{x}$<br /><br />Multiply both sides by $\\frac{1}{x}$: $\\frac{1}{x} \\frac{dy}{dx} - \\frac{y}{x^{2}} = \\frac{1}{x}$<br /><br />LHS is derivative of $\\frac{y}{x}$: $\\frac{d}{dx}\\left(\\frac{y}{x}\\right) = \\frac{1}{x}$<br /><br />Integrate both sides: $\\frac{y}{x} = \\ln|x| + C$<br /><br />Apply initial condition $y(1)=0$: $0 = \\ln 1 + C \\implies C = 0$<br /><br />Solution: $y = x \\ln|x|$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=x\\ln|x|$",
+    "B": "$y=\\ln|x|$",
+    "C": "$y=x\\ln|x|+1$",
+    "D": "$y=\\frac{\\ln|x|}{x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:29:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

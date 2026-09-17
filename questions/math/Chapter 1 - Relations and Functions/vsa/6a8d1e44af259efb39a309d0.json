@@ -1,0 +1,29 @@
+{
+  "id": "6a8d1e44af259efb39a309d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40"
+  ],
+  "question_type": "VSA",
+  "question": "For a positive integer $k$, a relation $R$ on $\\mathbb{Z}$ is defined by $aRb$ if $a+b$ is divisible by $k$. Determine all possible values of $k$ for which $R$ is reflexive.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> For $R$ to be reflexive, $aRa$ must hold for every $a\\in\\mathbb{Z}$.<br><b>Step 2:</b> Substituting $b=a$ in the defining condition gives $a+a=2a$. Therefore, $k$ must divide $2a$ for every integer $a$.<br><b>Step 3:</b> In particular, choose $a=1$. Then $k\\mid2$.<br><b>Step 4:</b> Since $k$ is a positive integer, the positive divisors of $2$ are $1$ and $2$.<br><b>Step 5:</b> Both values work: every integer is divisible by $1$, and $2a$ is divisible by $2$ for every integer $a$.<br><b>Final Answer:</b> The possible values are $\\boxed{k=1\\text{ or }k=2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=1$ only",
+    "B": "$k=1$ or $k=2$",
+    "C": "$k=2$ only",
+    "D": "Every positive integer $k$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

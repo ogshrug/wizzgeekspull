@@ -1,0 +1,29 @@
+{
+  "id": "69a93596d30adc5083911a24",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\begin{bmatrix} 1 & p \\\\ 0 & 1 \\end{bmatrix}$, $B = \\begin{bmatrix} 1 & 0 \\\\ q & 1 \\end{bmatrix}$. For which $p, q$ is $AB = BA$? Justify your answer with matrix computation.",
+  "answeroption": "C",
+  "explanation": "Compute $AB$ and $BA$:<br /><br />$AB = \\begin{bmatrix} 1 & p \\\\ 0 & 1 \\end{bmatrix}\\begin{bmatrix} 1 & 0 \\\\ q & 1 \\end{bmatrix} = \\begin{bmatrix} 1+pq & p \\\\ q & 1 \\end{bmatrix}$<br /><br />$BA = \\begin{bmatrix} 1 & 0 \\\\ q & 1 \\end{bmatrix}\\begin{bmatrix} 1 & p \\\\ 0 & 1 \\end{bmatrix} = \\begin{bmatrix} 1 & p \\\\ q & qp+1 \\end{bmatrix}$<br /><br />Set $AB = BA$, so all entries are equal.<br /><br />Set $(1,1)$: $1+pq=1 \\implies pq=0$<br /><br />$(1,2)$: $p=p$ always<br /><br />$(2,1)$: $q=q$ always<br /><br />$(2,2)$: $1=1+pq \\implies pq=0$ (already addressed)<br /><br />Therefore, $pq=0\\implies p=0$ or $q=0$ or both.",
+  "explanation_image": [],
+  "options": {
+    "A": "$p=q$",
+    "B": "$p+q=0$",
+    "C": "$pq=0$, so $p=0$ or $q=0$ or both",
+    "D": "$pq=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:49:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

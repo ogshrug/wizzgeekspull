@@ -1,0 +1,29 @@
+{
+  "id": "6a8e975a4b490c7cde359408",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "SA",
+  "question": "For $A=\\begin{bmatrix}k&1\\\\2&1\\end{bmatrix}$, the sum of the diagonal entries of $A^{-1}$ is $3$. Determine $k$ and verify that the inverse exists for the obtained value.",
+  "answeroption": "C",
+  "explanation": "<b>Determinant and inverse</b><br>The determinant is $$|A|=k-2$$ Therefore, for $k\\ne2$, $$A^{-1}=\\frac{1}{k-2}\\begin{bmatrix}1&-1\\\\-2&k\\end{bmatrix}$$<br><b>Sum of diagonal entries</b><br>The diagonal entries of $A^{-1}$ are $\\frac{1}{k-2}$ and $\\frac{k}{k-2}$. Their sum is $$\\frac{k+1}{k-2}$$<br><b>Application of the given condition</b><br>Using $$\\frac{k+1}{k-2}=3,$$ we obtain $$k+1=3k-6$$ Hence, $$k=\\frac{7}{2}$$<br><b>Invertibility verification</b><br>For $k=\\frac{7}{2}$, $$|A|=\\frac{7}{2}-2=\\frac{3}{2}\\ne0$$ Therefore, the inverse exists.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=\\frac{5}{2}$; $|A|=\\frac{1}{2}\\ne0$",
+    "B": "$k=3$; $|A|=1\\ne0$",
+    "C": "$k=\\frac{7}{2}$; $|A|=\\frac{3}{2}\\ne0$",
+    "D": "$k=2$; $|A|=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

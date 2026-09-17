@@ -1,0 +1,24 @@
+{
+  "id": "6a152f192a89680e5835cec1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int \\frac{x^2}{(x-1)(x+1)^2} dx$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Partial fraction decomposition: <br /> $\\frac{x^2}{(x-1)(x+1)^2} = \\frac{A}{x-1} + \\frac{B}{x+1} + \\frac{C}{(x+1)^2}$. <br /><br /> **Step 2:** Multiply through by $(x-1)(x+1)^2$: <br /> $x^2 = A(x+1)^2 + B(x-1)(x+1) + C(x-1)$. <br /><br /> **Step 3:** Find $A$, $B$, $C$: <br /> Put $x = 1$: $1 = A(2)^2 \\Rightarrow A = \\frac{1}{4}$. <br /> Put $x = -1$: $1 = C(-2) \\Rightarrow C = -\\frac{1}{2}$. <br /> Compare coefficient of $x^2$: $1 = A + B \\Rightarrow B = 1 - \\frac{1}{4} = \\frac{3}{4}$. <br /><br /> **Step 4:** Rewrite the integral: <br /> $\\int \\frac{x^2}{(x-1)(x+1)^2} dx = \\frac{1}{4} \\int \\frac{1}{x-1} dx + \\frac{3}{4} \\int \\frac{1}{x+1} dx - \\frac{1}{2} \\int \\frac{1}{(x+1)^2} dx$. <br /><br /> **Step 5:** Integrate each term: <br /> $= \\frac{1}{4} \\log|x-1| + \\frac{3}{4} \\log|x+1| - \\frac{1}{2} \\cdot \\frac{-1}{x+1} + C$ <br /> $= \\frac{1}{4} \\log|x-1| + \\frac{3}{4} \\log|x+1| + \\frac{1}{2(x+1)} + C$. <br /><br /> **Answer:** $\\frac{1}{4}\\log|x-1| + \\frac{3}{4}\\log|x+1| + \\frac{1}{2(x+1)} + C$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

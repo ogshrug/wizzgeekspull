@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc1cc4b490c7cde3594f0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "SA",
+  "question": "Let $A(x)=\\displaystyle \\int_1^x(t^3+2t)\\,dt$.<br>(i) Find $A'(x)$.<br>(ii) Hence evaluate $A(2)$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Applying the first fundamental theorem</b><br>The function $t^3+2t$ is continuous. Therefore, for $A(x)=\\int_1^x(t^3+2t)\\,dt$, the first fundamental theorem gives<br>$$A'(x)=x^3+2x$$<br><b>Step 2: Finding an antiderivative</b><br>An antiderivative of $t^3+2t$ is<br>$$F(t)=\\frac{t^4}{4}+t^2$$<br><b>Step 3: Applying the second fundamental theorem</b><br>$$A(2)=\\int_1^2(t^3+2t)\\,dt=F(2)-F(1)$$<br><b>Step 4: Substituting the limits</b><br>$$A(2)=\\left(\\frac{16}{4}+4\\right)-\\left(\\frac{1}{4}+1\\right)$$<br>$$=8-\\frac{5}{4}=\\frac{27}{4}$$<br><b>Step 5: Stating both results</b><br>Thus,<br>$$\\boxed{A'(x)=x^3+2x},\\qquad \\boxed{A(2)=\\frac{27}{4}}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $A'(x)=x^3+2$<br>(ii) $A(2)=\\frac{19}{4}$",
+    "B": "(i) $A'(x)=3x^2+2x$<br>(ii) $A(2)=\\frac{27}{4}$",
+    "C": "(i) $A'(x)=x^3+2x$<br>(ii) $A(2)=\\frac{27}{4}$",
+    "D": "(i) $A'(x)=x^3+2x$<br>(ii) $A(2)=8$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

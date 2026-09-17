@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed13d4b490c7cde35948a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "VSA",
+  "question": "A rectangular field is to be fenced on three sides using $100$ m of fencing, with the fourth side along a straight river. Find the dimensions that maximise its area.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> Let each side perpendicular to the river be $x$ m and the side parallel to the river be $y$ m. Then $$2x+y=100\\Rightarrow y=100-2x$$<br><b>Step 2:</b> The area is $$A(x)=xy=x(100-2x)=100x-2x^2$$<br><b>Step 3:</b> Differentiate and set equal to zero: $$A'(x)=100-4x=0\\Rightarrow x=25$$<br><b>Step 4:</b> Since $A''(x)=-4<0$, the area is maximum. Also, $y=100-2(25)=50$.<br><b>Step 5:</b> Therefore, the required dimensions are $25$ m perpendicular to the river and $50$ m parallel to it.",
+  "explanation_image": [],
+  "options": {
+    "A": "$25$ m perpendicular to the river and $50$ m parallel to it",
+    "B": "$20$ m perpendicular to the river and $60$ m parallel to it",
+    "C": "$30$ m perpendicular to the river and $40$ m parallel to it",
+    "D": "$10$ m perpendicular to the river and $80$ m parallel to it"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

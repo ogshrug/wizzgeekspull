@@ -1,0 +1,29 @@
+{
+  "id": "69a858cf64fcf4cdd5b4bad4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f(x) = \\sqrt{|x|}$. Examine differentiability at $x=0$.",
+  "answeroption": "B",
+  "explanation": "For $x>0$, $f(x)=\\sqrt{x}$ and $f'(x)=\\frac{1}{2\\sqrt{x}}$.<br /><br />For $x<0$, $f(x)=\\sqrt{-x}$ and $f'(x)=-\\frac{1}{2\\sqrt{-x}}$.<br /><br />As $x \\to 0^+$, $f'(x) \\to +\\infty$; as $x \\to 0^-$, $f'(x) \\to -\\infty$.<br /><br />Hence, $f(x)$ is not differentiable at $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(x)$ is differentiable at $x=0$ and $f'(0)=0$",
+    "B": "$f(x)$ is not differentiable at $x=0$ because the one-sided derivatives become unbounded",
+    "C": "$f(x)$ is differentiable at $x=0$ and $f'(0)=1$",
+    "D": "$f(x)$ is not continuous at $x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:07:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

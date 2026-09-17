@@ -1,0 +1,26 @@
+{
+  "id": "6a2262d1864be73cfcf6d182",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{1}{x}\\sqrt{\\frac{x+a}{x-a}}dx$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To simplify the square root, multiply the numerator and the denominator inside the root by $(x+a)$. This gives $\\int \\frac{1}{x} \\sqrt{\\frac{(x+a)(x+a)}{(x-a)(x+a)}} dx = \\int \\frac{1}{x} \\sqrt{\\frac{(x+a)^2}{x^2-a^2}} dx$.<br />**Step 2:** Extract the perfect square from the numerator: $\\int \\frac{x+a}{x\\sqrt{x^2-a^2}} dx$.<br />**Step 3:** Separate the integral into two distinct parts: $\\int \\frac{x}{x\\sqrt{x^2-a^2}} dx + \\int \\frac{a}{x\\sqrt{x^2-a^2}} dx$.<br />**Step 4:** Simplify the first integral to $\\int \\frac{1}{\\sqrt{x^2-a^2}} dx$. This is a standard form that evaluates to $\\log|x + \\sqrt{x^2-a^2}|$.<br />**Step 5:** For the second integral, $a \\int \\frac{1}{x\\sqrt{x^2-a^2}} dx$, we can use the substitution $x = a\\sec\\theta$, which implies $dx = a\\sec\\theta\\tan\\theta d\\theta$. Evaluating this yields $\\sec^{-1}(\\frac{x}{a})$.<br />**Step 6:** Combine the evaluated parts and add the constant of integration: $\\log|x + \\sqrt{x^2-a^2}| + \\sec^{-1}(\\frac{x}{a}) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

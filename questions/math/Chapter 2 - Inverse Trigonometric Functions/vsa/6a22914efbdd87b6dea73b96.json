@@ -1,0 +1,28 @@
+{
+  "id": "6a22914efbdd87b6dea73b96",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "VSA",
+  "question": "Find domain of $\\sin^{-1}\\sqrt{x-1}$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> For the function to be validly defined, we must satisfy two separate domain restrictions. First, the expression under the square root radical must be non-negative: $x - 1 \\ge 0 \\implies x \\ge 1$.<br /><br /><b>Step 2</b> Second, the argument of the inverse sine function must fall within its standard domain limits of $[-1, 1]$, giving the compound inequality $-1 \\le \\sqrt{x-1} \\le 1$. Since a square root is always non-negative, this reduces simply to $\\sqrt{x-1} \\le 1$.<br /><br /><b>Step 3</b> Square both sides of this inequality to eliminate the radical: $x - 1 \\le 1 \\implies x \\le 2$. Combining this with our first condition ($x \\ge 1$), the final domain is the closed interval $[1, 2]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

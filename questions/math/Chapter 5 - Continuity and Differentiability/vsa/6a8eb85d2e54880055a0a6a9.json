@@ -1,0 +1,30 @@
+{
+  "id": "6a8eb85d2e54880055a0a6a9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d80",
+    "69c6610140512f018fa94d81"
+  ],
+  "question_type": "VSA",
+  "question": "For $h(x)=\\log(e^x-1)$, determine whether $h(\\log2)$ is defined and, if so, find its value.",
+  "answeroption": "D",
+  "explanation": "Step 1: Substitute $x=\\log2$ into the argument of the logarithmic function.<br>Step 2: Using the inverse relation between the natural exponential and logarithmic functions, $e^{\\log2}=2$.<br>Step 3: Therefore, $e^{\\log2}-1=2-1=1$. Since the logarithm is defined for positive arguments and $1>0$, $h(\\log2)$ is defined.<br>Step 4: We now have $h(\\log2)=\\log1$.<br>Step 5: Since $e^0=1$, it follows that $\\log1=0$. Hence, $h(\\log2)$ is defined and its value is $0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "It is not defined.",
+    "B": "It is defined and equals $1$.",
+    "C": "It is defined and equals $\\log 2$.",
+    "D": "It is defined and equals $0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

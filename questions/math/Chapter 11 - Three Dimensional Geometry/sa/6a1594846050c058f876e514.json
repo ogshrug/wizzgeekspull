@@ -1,0 +1,24 @@
+{
+  "id": "6a1594846050c058f876e514",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "SA",
+  "question": "Find the distance between the following parallel lines : $\\vec{r}=(2\\hat{i}+\\hat{j}-\\hat{k})+\\lambda(\\hat{i}+\\hat{j}-\\hat{k})$ and $\\vec{r}=(\\hat{i}-2\\hat{j}+\\hat{k})+\\mu(\\hat{i}+\\hat{j}-\\hat{k})$",
+  "answeroption": "",
+  "explanation": "**Step 1: Extract points and direction vectors**<br />Both lines share an identical directional component vector $\\vec{b} = \\hat{i} + \\hat{j} - \\hat{k}$, which confirms that the lines are parallel. We identify a specific position vector on each line:<br />- Position vector on Line 1: $\\vec{a}_1 = 2\\hat{i} + \\hat{j} - \\hat{k}$<br />- Position vector on Line 2: $\\vec{a}_2 = \\hat{i} - 2\\hat{j} + \\hat{k}$<br /><br />**Step 2: Calculate the displacement vector $(\\vec{a}_2 - \\vec{a}_1)$**<br />$\\vec{a}_2 - \\vec{a}_1 = (1 - 2)\\hat{i} + (-2 - 1)\\hat{j} + (1 - (-1))\\hat{k} = -\\hat{i} - 3\\hat{j} + 2\\hat{k}$<br /><br />**Step 3: Compute the cross product vector $\\vec{b} \\times (\\vec{a}_2 - \\vec{a}_1)$**<br />The numerator for the parallel distance formula requires calculating this cross product:<br />$\\vec{b} \\times (\\vec{a}_2 - \\vec{a}_1) = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&1&-1\\\\-1&-3&2\\end{vmatrix}$<br />$= \\hat{i}(1(2) - (-1)(-3)) - \\hat{j}(1(2) - (-1)(-1)) + \\hat{k}(1(-3) - 1(-1))$<br />$= \\hat{i}(2 - 3) - \\hat{j}(2 - 1) + \\hat{k}(-3 + 1) = -\\hat{i} - \\hat{j} - 2\\hat{k}$<br /><br />**Step 4: Calculate vector magnitudes and solve the distance formula**<br />The formula for the distance between parallel lines is given by $d = \\frac{|\\vec{b} \\times (\\vec{a}_2 - \\vec{a}_1)|}{|\\vec{b}|}$:<br />- Magnitude of the cross product: $|\\vec{b} \\times (\\vec{a}_2 - \\vec{a}_1)| = \\sqrt{(-1)^2 + (-1)^2 + (-2)^2} = \\sqrt{1 + 1 + 4} = \\sqrt{6}$<br />- Magnitude of direction vector $\\vec{b}$: $|\\vec{b}| = \\sqrt{1^2 + 1^2 + (-1)^2} = \\sqrt{1 + 1 + 1} = \\sqrt{3}$<br />Substitute these magnitudes back into the distance formula:<br />$d = \\frac{\\sqrt{6}}{\\sqrt{3}} = \\sqrt{\\frac{6}{3}} = \\sqrt{2}\\text{ units}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

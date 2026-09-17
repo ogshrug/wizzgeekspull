@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9ca52e54880055a0a699",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f",
+    "69c65fc040512f018fa94d63"
+  ],
+  "question_type": "LA",
+  "question": "Let $$A=\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix},\\quad A^{-1}=\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix},\\quad B=\\begin{bmatrix}1&0\\\\2&1\\end{bmatrix},\\quad C=\\begin{bmatrix}4&3\\\\2&1\\end{bmatrix}.$$ Determine the matrix $X$ satisfying $A(X+B)=C$ by using the inverse of $A$ together with the associative and identity properties of matrix multiplication, and verify the result in the original equation.",
+  "answeroption": "A",
+  "explanation": "<b>Verification of the Given Inverse</b><br><br>We first observe that $$A^{-1}A=\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}=I$$ and similarly $AA^{-1}=I$. Hence, $A$ is invertible.<br><br><b>Formation of the Equation</b><br><br>From $$A(X+B)=C,$$ pre-multiplying both sides by $A^{-1}$ gives $$A^{-1}[A(X+B)]=A^{-1}C$$ By associativity of matrix multiplication, $$(A^{-1}A)(X+B)=A^{-1}C$$ Hence, using $A^{-1}A=I$ and the multiplicative identity property, $$X+B=A^{-1}C$$ Now, $$A^{-1}C=\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}\\begin{bmatrix}4&3\\\\2&1\\end{bmatrix}=\\begin{bmatrix}2&2\\\\2&1\\end{bmatrix}$$ Therefore, $$X=\\begin{bmatrix}2&2\\\\2&1\\end{bmatrix}-\\begin{bmatrix}1&0\\\\2&1\\end{bmatrix}=\\begin{bmatrix}1&2\\\\0&0\\end{bmatrix}$$<br><br><b>Verification</b><br><br>For this value of $X$, $$X+B=\\begin{bmatrix}2&2\\\\2&1\\end{bmatrix}$$ and hence $$A(X+B)=\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}\\begin{bmatrix}2&2\\\\2&1\\end{bmatrix}=\\begin{bmatrix}4&3\\\\2&1\\end{bmatrix}=C$$ Therefore, the required matrix is $$X=\\begin{bmatrix}1&2\\\\0&0\\end{bmatrix}$$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$X=\\begin{bmatrix}1&2\\\\0&0\\end{bmatrix}$",
+    "B": "$X=\\begin{bmatrix}2&2\\\\2&1\\end{bmatrix}$",
+    "C": "$X=\\begin{bmatrix}1&2\\\\2&0\\end{bmatrix}$",
+    "D": "$X=\\begin{bmatrix}3&2\\\\0&1\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

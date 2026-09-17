@@ -1,0 +1,29 @@
+{
+  "id": "6a9121e6751910886affba66",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dd"
+  ],
+  "question_type": "VSA",
+  "question": "The restrictions $2x+y \\ge 12$, $x+2y \\le 5$, $x \\ge 0$ and $y \\ge 0$ are imposed simultaneously. Decide whether any feasible point can exist.",
+  "answeroption": "D",
+  "explanation": "Step 1: From $x+2y \\le 5$ and $y \\ge 0$, we have $x \\le 5-2y$.<br>Step 2: Therefore, $2x+y \\le 2(5-2y)+y=10-3y$.<br>Step 3: Since $y \\ge 0$, $10-3y \\le 10$. Hence every point satisfying $x+2y \\le 5$ and the non-negative restrictions must satisfy $2x+y \\le 10$.<br>Step 4: But the first restriction requires $2x+y \\ge 12$.<br>Step 5: A quantity cannot simultaneously be at most $10$ and at least $12$. Thus, the restrictions have no common point.<br>Hence, no feasible region exists and there is no feasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "A bounded feasible region exists",
+    "B": "An unbounded feasible region exists",
+    "C": "A feasible region exists only on the axes",
+    "D": "No feasible point exists"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

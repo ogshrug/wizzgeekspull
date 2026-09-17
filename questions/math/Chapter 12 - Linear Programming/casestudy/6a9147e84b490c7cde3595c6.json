@@ -1,0 +1,31 @@
+{
+  "id": "6a9147e84b490c7cde3595c6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e1",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A small production unit makes two items A and B. Let $x$ and $y$ denote the numbers of units of A and B produced in a day. The available resources impose the restrictions $x+y\\leq8$, $2x+y\\leq12$, $x\\geq0$ and $y\\geq0$. The daily profit is represented by $Z=300x+200y$. During an analysis, the manager considers several production combinations and wants to distinguish combinations satisfying all restrictions from those violating at least one restriction. The feasible corner points relevant for comparing profit are $(0,0)$, $(6,0)$, $(4,4)$ and $(0,8)$.<br><br><b>(a)</b> Verify whether the production combination $(2,3)$ is a feasible solution.<br><br><b>(b)</b> Determine whether $(5,3)$ is a feasible solution or an infeasible solution.<br><br><b>(c)</b> Calculate the value of $Z$ at each of the given feasible corner points.<br><br><b>(d)</b> Determine the optimal feasible solution and the corresponding maximum profit.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>For $(2,3)$, check all the restrictions.<br>$$2+3=5\\leq8$$<br>$$2(2)+3=7\\leq12$$<br>Also, $2\\geq0$ and $3\\geq0$. Therefore, $(2,3)$ satisfies every restriction and is a feasible solution.<br><br><b>(b)</b><br>For $(5,3)$,<br>$$5+3=8\\leq8$$<br>but<br>$$2(5)+3=13>12$$<br>Hence, the restriction $2x+y\\leq12$ is violated. Therefore, $(5,3)$ is an infeasible solution.<br><br><b>(c)</b><br>The profit function is $Z=300x+200y$.<br><br>At $(0,0)$,<br>$$Z=300(0)+200(0)=0$$<br>At $(6,0)$,<br>$$Z=300(6)+200(0)=1800$$<br>At $(4,4)$,<br>$$Z=300(4)+200(4)=2000$$<br>At $(0,8)$,<br>$$Z=300(0)+200(8)=1600$$<br><br><b>(d)</b><br>Among the feasible corner points, the largest value of $Z$ is<br>$$Z=2000$$<br>at $(4,4)$. Since $(4,4)$ is feasible and gives the maximum value of the profit function, it is the optimal feasible solution. Therefore, 4 units of A and 4 units of B should be produced for a maximum daily profit of Rs 2000.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(2,3)$ is feasible<br>(b) $(5,3)$ is infeasible<br>(c) $Z$ at $(0,0),(6,0),(4,4),(0,8)$ is $0,1800,2000,1600$ respectively<br>(d) Optimal feasible solution is $(4,4)$ with maximum profit Rs $2000$",
+    "B": "(a) $(2,3)$ is feasible<br>(b) $(5,3)$ is feasible<br>(c) The corner-point values are $0,1800,1600,2000$<br>(d) Optimal solution is $(0,8)$",
+    "C": "(a) $(2,3)$ is infeasible<br>(b) $(5,3)$ is infeasible<br>(c) The largest corner-point value is Rs $1800$<br>(d) Optimal solution is $(6,0)$",
+    "D": "(a) $(2,3)$ is feasible<br>(b) $(5,3)$ is infeasible<br>(c) $Z(4,4)=2400$<br>(d) Optimal solution is $(4,4)$ with profit Rs $2400$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

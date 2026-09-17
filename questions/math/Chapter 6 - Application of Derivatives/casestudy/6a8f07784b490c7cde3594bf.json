@@ -1,0 +1,31 @@
+{
+  "id": "6a8f07784b490c7cde3594bf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A right circular cone is inscribed in a sphere of radius $6$ units. If $h$ and $r$ denote the height and base radius of the cone respectively, its dimensions satisfy $r^2=h(12-h)$. Answer the following connected questions: (a) Express the volume of the cone as a function of $h$. (b) Determine the critical value of $h$ in the interval $0\\<h<12$. (c) Use the second derivative test to establish that this value gives the maximum volume. (d) Hence determine the radius, height and maximum volume of the cone.",
+  "answeroption": "A",
+  "explanation": "(a) The volume of a cone is `V=\\frac{1}{3}\\pi r^2h` Since $r^2=h(12-h)$, `V(h)=\\frac{\\pi}{3}h^2(12-h)=\\frac{\\pi}{3}(12h^2-h^3)`(b) Differentiating with respect to $h$, `V'(h)=\\frac{\\pi}{3}(24h-3h^2)=\\pi h(8-h)` For a critical value, $V'(h)=0$. Thus, `\\pi h(8-h)=0` This gives $h=0$ or $h=8$. Since $0\\<h<12$, the required critical value is $h=8$.(c) Differentiating again, `V''(h)=\\pi(8-2h)` At $h=8$, `V''(8)=\\pi(8-16)=-8\\pi<0` Therefore, by the second derivative test, the volume is maximum when $h=8$.(d) Using $r^2=h(12-h)$, `r^2=8(12-8)=32` Hence, `r=4\\sqrt{2}` The maximum volume is `V_{\\max}=\\frac{1}{3}\\pi(32)(8)=\\frac{256\\pi}{3}`Final ResultThe cone of maximum volume has height $8$ units, radius $4\\sqrt{2}$ units and maximum volume $\\frac{256\\pi}{3}$ cubic units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $V(h)=\\frac{\\pi}{3}h^2(12-h)$<br>(b) Critical value $h=8$<br>(c) $V''(8)=-8\\pi<0$, so the volume is maximum<br>(d) $h=8,\\ r=4\\sqrt{2}$; $V_{\\max}=\\frac{256\\pi}{3}$ cubic units",
+    "B": "(a) $V(h)=\\frac{\\pi}{3}h(12-h)$<br>(b) Critical value $h=6$<br>(c) $V''(6)<0$<br>(d) $h=6,\\ r=6$; $V_{\\max}=72\\pi$ cubic units",
+    "C": "(a) $V(h)=\\pi h^2(12-h)$<br>(b) Critical value $h=8$<br>(c) $V''(8)<0$<br>(d) $h=8,\\ r=4\\sqrt{2}$; $V_{\\max}=256\\pi$ cubic units",
+    "D": "(a) $V(h)=\\frac{\\pi}{3}h^2(12-h)$<br>(b) Critical value $h=4$<br>(c) $V''(4)<0$<br>(d) $h=4,\\ r=4\\sqrt{2}$; $V_{\\max}=\\frac{128\\pi}{3}$ cubic units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

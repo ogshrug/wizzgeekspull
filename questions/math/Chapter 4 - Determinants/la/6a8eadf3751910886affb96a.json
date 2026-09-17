@@ -1,0 +1,30 @@
+{
+  "id": "6a8eadf3751910886affb96a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6c",
+    "69c6603740512f018fa94d6d"
+  ],
+  "question_type": "LA",
+  "question": "For the matrix $A=\\begin{bmatrix}2 & -1 & 3\\\\0 & 4 & 5\\\\1 & 2 & -2\\end{bmatrix}$:<br><br><b>(a)</b> Find the minors $M_{11}$, $M_{12}$, and $M_{13}$.<br><br><b>(b)</b> Obtain the corresponding cofactors $A_{11}$, $A_{12}$, and $A_{13}$.<br><br><b>(c)</b> Using these cofactors, evaluate $|A|$ by expansion along the first row.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Deleting the first row and the respective columns,<br>$$M_{11}=\\begin{vmatrix}4 & 5\\\\2 & -2\\end{vmatrix}=-8-10=-18$$<br>$$M_{12}=\\begin{vmatrix}0 & 5\\\\1 & -2\\end{vmatrix}=0-5=-5$$<br>$$M_{13}=\\begin{vmatrix}0 & 4\\\\1 & 2\\end{vmatrix}=0-4=-4$$<br><br><b>(b)</b><br>The cofactor is given by $A_{ij}=(-1)^{i+j}M_{ij}$. Therefore,<br>$$A_{11}=M_{11}=-18$$<br>$$A_{12}=-M_{12}=5$$<br>$$A_{13}=M_{13}=-4$$<br><br><b>(c)</b><br>Expanding along the first row,<br>$$|A|=a_{11}A_{11}+a_{12}A_{12}+a_{13}A_{13}$$<br>$$|A|=2(-18)+(-1)(5)+3(-4)$$<br>$$|A|=-36-5-12=-53$$<br>Hence, $|A|=-53$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $M_{11}=-18,\\ M_{12}=-5,\\ M_{13}=-4$<br>(b) $A_{11}=-18,\\ A_{12}=5,\\ A_{13}=-4$<br>(c) $|A|=-53$",
+    "B": "(a) $M_{11}=18,\\ M_{12}=5,\\ M_{13}=4$<br>(b) $A_{11}=18,\\ A_{12}=-5,\\ A_{13}=4$<br>(c) $|A|=53$",
+    "C": "(a) $M_{11}=-18,\\ M_{12}=-5,\\ M_{13}=-4$<br>(b) $A_{11}=-18,\\ A_{12}=-5,\\ A_{13}=-4$<br>(c) $|A|=-43$",
+    "D": "(a) $M_{11}=-18,\\ M_{12}=5,\\ M_{13}=-4$<br>(b) $A_{11}=-18,\\ A_{12}=-5,\\ A_{13}=-4$<br>(c) $|A|=-53$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

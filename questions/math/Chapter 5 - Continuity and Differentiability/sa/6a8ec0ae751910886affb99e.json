@@ -1,0 +1,30 @@
+{
+  "id": "6a8ec0ae751910886affb99e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d81",
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "SA",
+  "question": "For $a>1$, use the change of base rule to obtain the derivative of $f(x)=\\log_a x$, $x>0$.",
+  "answeroption": "C",
+  "explanation": "<b>Change of base</b><br>Using the change of base rule, $$f(x)=\\log_a x=\\frac{\\log x}{\\log a}.$$<br><b>Differentiation</b><br>Since $\\log a$ is a constant, $$f'(x)=\\frac{1}{\\log a}\\frac{d}{dx}(\\log x).$$<br>Therefore, $$f'(x)=\\frac{1}{\\log a}\\cdot\\frac{1}{x}.$$<br><b>Required derivative</b><br>Hence, $$\\frac{d}{dx}(\\log_a x)=\\frac{1}{x\\log a}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d}{dx}(\\log_a x)=\\frac{\\log a}{x}$",
+    "B": "$\\frac{d}{dx}(\\log_a x)=\\frac{1}{a\\log x}$",
+    "C": "$\\frac{d}{dx}(\\log_a x)=\\frac{1}{x\\log a}$",
+    "D": "$\\frac{d}{dx}(\\log_a x)=\\frac{1}{x\\log x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

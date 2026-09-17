@@ -1,0 +1,27 @@
+{
+  "id": "6a22a721864be73cfcf6d296",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $\\frac{dy}{dx} + \\sec^2 x \\cdot y = \\tan x \\cdot \\sec^2 x$, given that $y(0)=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The equation perfectly matches the standard linear differential equation form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x) = \\sec^2 x$ and $Q(x) = \\tan x \\sec^2 x$.<br />**Step 2:** Calculate the Integrating Factor (I.F.). I.F. $= e^{\\int P(x) dx} = e^{\\int \\sec^2 x dx} = e^{\\tan x}$.<br />**Step 3:** The general solution is given by $y \\cdot \\text{I.F.} = \\int Q(x) \\cdot \\text{I.F.} dx + C$. Substituting gives $y e^{\\tan x} = \\int \\tan x \\sec^2 x e^{\\tan x} dx + C$.<br />**Step 4:** To evaluate the integral on the right, use substitution. Let $t = \\tan x$. Then $dt = \\sec^2 x dx$. The integral becomes $\\int t e^t dt$. Use integration by parts: $\\int t e^t dt = t e^t - \\int e^t dt = t e^t - e^t = e^t(t - 1)$. Replacing $t$ gives $e^{\\tan x}(\\tan x - 1)$. Thus, the general solution is $y e^{\\tan x} = e^{\\tan x}(\\tan x - 1) + C$, which simplifies to $y = \\tan x - 1 + C e^{-\\tan x}$.<br />**Step 5:** Apply the initial condition $y(0)=0$ to find $C$. Substitute $x=0, y=0$: $0 = \\tan(0) - 1 + C e^{-\\tan(0)} = 0 - 1 + C(1)$. This gives $C = 1$. The final particular solution is $y = \\tan x - 1 + e^{-\\tan x}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

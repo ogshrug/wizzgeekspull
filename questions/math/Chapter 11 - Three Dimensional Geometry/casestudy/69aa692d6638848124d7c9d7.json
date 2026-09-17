@@ -1,0 +1,29 @@
+{
+  "id": "69aa692d6638848124d7c9d7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Medical Imaging – Tumor Localization<br /><br />Sensors at $A(0,0,0)$, $B(6,0,0)$, and $C(0,4,0)$ define a plane. A tumor is located at $T(6,4,3)$.<br /><br />(1) Find the plane equation.<br /><br />(2) Write the vector form.<br /><br />(3) Write equation of line through $T$ perpendicular to plane.<br /><br />(4) Find direction ratios of the line.<br /><br />(5) Compute distance from tumor to plane.<br /><br />(6) Interpret the result medically.",
+  "answeroption": "B",
+  "explanation": "Points $A,B,C$ lie in plane $z=0$.<br /><br />(1) Plane equation: $z=0$.<br /><br />(2) Vector form: $\\vec r\\cdot \\hat{k}=0$.<br /><br />(3) Normal to plane $(0,0,1)$ so perpendicular line: $\\vec r=(6,4,3)+\\lambda(0,0,1)$.<br /><br />(4) Direction ratios $(0,0,1)$.<br /><br />(5) Distance from $T$ to plane $=|3|=3$.<br /><br />(6) This represents the tumor depth above the sensor reference plane.",
+  "explanation_image": [],
+  "options": {
+    "A": "(1) Plane equation: $x=0$<br />(2) Vector form: $\\vec r\\cdot\\hat{i}=0$<br />(3) Perpendicular line: $\\vec r=(6,4,3)+\\lambda(1,0,0)$<br />(4) Direction ratios: $(1,0,0)$<br />(5) Distance: $6$<br />(6) Tumor is $6$ units from the reference plane",
+    "B": "(1) Plane equation: $z=0$<br />(2) Vector form: $\\vec r\\cdot\\hat{k}=0$<br />(3) Perpendicular line: $\\vec r=(6,4,3)+\\lambda(0,0,1)$<br />(4) Direction ratios: $(0,0,1)$<br />(5) Distance: $3$<br />(6) The tumor is $3$ units above the sensor reference plane",
+    "C": "(1) Plane equation: $y=0$<br />(2) Vector form: $\\vec r\\cdot\\hat{j}=0$<br />(3) Perpendicular line: $\\vec r=(6,4,3)+\\lambda(0,1,0)$<br />(4) Direction ratios: $(0,1,0)$<br />(5) Distance: $4$<br />(6) Tumor depth is $4$ units",
+    "D": "(1) Plane equation: $x+y+z=0$<br />(2) Vector form: $\\vec r\\cdot(1,1,1)=0$<br />(3) Perpendicular line: $\\vec r=(6,4,3)+\\lambda(1,1,1)$<br />(4) Direction ratios: $(1,1,1)$<br />(5) Distance: $13/\\sqrt3$<br />(6) Tumor is measured diagonally from the sensor plane"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:42:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

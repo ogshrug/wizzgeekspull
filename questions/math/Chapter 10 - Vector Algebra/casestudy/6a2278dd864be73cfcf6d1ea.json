@@ -1,0 +1,31 @@
+{
+  "id": "6a2278dd864be73cfcf6d1ea",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c4",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Three friends A, B and C move out from the same location O at the same time in three different directions to reach their destinations. They move out on straight paths and decide that A and B after reaching their destinations will meet up with C at his predecided destination, following straight paths from A to C and B to C in such a way that $\\vec{OA}=\\vec{a}$, $\\vec{OB}=\\vec{b}$ and $\\vec{OC}=5\\vec{a}-2\\vec{b}$ respectively.<br /><br />**(i)** Complete the given figure to explain their entire movement plan along the respective vectors.<br />**(ii)** Find vectors $\\vec{AC}$ and $\\vec{BC}$.<br />**(iii) (a)** If $\\vec{a}\\cdot\\vec{b}=1$, distance of O to A is 1 km and that from O to B is 2 km, then find the angle between $\\vec{OA}$ and $\\vec{OB}$. Also, find $|\\vec{a}\\times\\vec{b}|$.<br />OR<br />**(iii) (b)** If $\\vec{a}=2\\hat{i}-\\hat{j}+4\\hat{k}$ and $\\vec{b}=\\hat{j}-\\hat{k}$, then find a unit vector perpendicular to $(\\vec{a}+\\vec{b})$ and $(\\vec{a}-\\vec{b})$.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The visual completion requires drawing a directed line segment (vector) from point A to point C, labeled as $\\vec{AC}$.<br />**Step 2:** Similarly, draw a directed line segment from point B to point C, labeled as $\\vec{BC}$. These vectors complete the path triangles OAC and OBC.<br /><br />**(ii)** **Step 1:** Use the triangle law of vector addition. In triangle OAC, $\\vec{OA} + \\vec{AC} = \\vec{OC}$, which means $\\vec{AC} = \\vec{OC} - \\vec{OA}$.<br />**Step 2:** Substitute the known position vectors: $\\vec{AC} = (5\\vec{a}-2\\vec{b}) - \\vec{a} = 4\\vec{a}-2\\vec{b}$.<br />**Step 3:** Similarly for B, $\\vec{BC} = \\vec{OC} - \\vec{OB} = (5\\vec{a}-2\\vec{b}) - \\vec{b} = 5\\vec{a}-3\\vec{b}$.<br /><br />**(iii) (a)** **Step 1:** We are given magnitudes: $|\\vec{a}|=1$, $|\\vec{b}|=2$, and dot product $\\vec{a}\\cdot\\vec{b}=1$. Let $\\theta$ be the angle. $\\vec{a}\\cdot\\vec{b} = |\\vec{a}||\\vec{b}|\\cos\\theta$.<br />**Step 2:** Substitute values: $1 = (1)(2)\\cos\\theta \\implies \\cos\\theta = 1/2 \\implies \\theta = \\pi/3$ or $60^\\circ$.<br />**Step 3:** Find cross product magnitude: $|\\vec{a}\\times\\vec{b}| = |\\vec{a}||\\vec{b}|\\sin\\theta = (1)(2)\\sin(\\pi/3) = 2(\\sqrt{3}/2) = \\sqrt{3}$.<br /><br />**(iii) (b)** **Step 1:** Find sum and difference vectors: $\\vec{u} = \\vec{a}+\\vec{b} = 2\\hat{i} + 3\\hat{k}$. $\\vec{v} = \\vec{a}-\\vec{b} = 2\\hat{i} - 2\\hat{j} + 5\\hat{k}$.<br />**Step 2:** A vector perpendicular to both is their cross product $\\vec{u} \\times \\vec{v} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\2&0&3\\\\2&-2&5\\end{vmatrix} = \\hat{i}(0-(-6)) - \\hat{j}(10-6) + \\hat{k}(-4-0) = 6\\hat{i} - 4\\hat{j} - 4\\hat{k}$.<br />**Step 3:** Find magnitude: $\\sqrt{36+16+16} = \\sqrt{68} = 2\\sqrt{17}$.<br />**Step 4:** The unit vector is $\\pm \\frac{6\\hat{i} - 4\\hat{j} - 4\\hat{k}}{2\\sqrt{17}} = \\pm \\frac{3\\hat{i} - 2\\hat{j} - 2\\hat{k}}{\\sqrt{17}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2278dd864be73cfcf6d1ea/1782197568-0.png?t=1782217369428"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

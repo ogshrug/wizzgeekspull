@@ -1,0 +1,31 @@
+{
+  "id": "6a8d2b4f550d28a069ec32e6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Students investigate the transformed inverse-tangent function $q(x)=\\tan^{-1}(x^2-1)$. Since $x^2-1$ is defined for every real $x$ and has a least value, the graph uses only part of the full range of the inverse-tangent function. The dependence on $x^2$ also produces equal outputs for opposite inputs. The class uses the values $x=0$, $x=1$, and $x=-1$ to locate important points, while the behaviour for increasingly large positive and negative $x$ identifies an excluded upper boundary of the range. No differentiation is used in the analysis.<br><br><b>(a)</b> Determine the domain of $q$.<br><br><b>(b)</b> Determine the exact range of $q$.<br><br><b>(c)</b> Find all intercepts of the graph with the coordinate axes.<br><br><b>(d)</b> Justify the symmetry and describe the behaviour of $q(x)$ for increasingly large $|x|$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The expression $x^2-1$ is defined for every real $x$, and $\\tan^{-1}t$ accepts every real argument. Therefore,<br>$$\\text{Domain}=\\mathbb{R}$$<br><br><b>(b)</b><br>Since $x^2\\geq0$,<br>$$x^2-1\\geq-1$$<br>The argument assumes every value in $[-1,\\infty)$. Because inverse tangent is increasing,<br>$$\\tan^{-1}(x^2-1)\\geq\\tan^{-1}(-1)=-\\frac{\\pi}{4}$$<br>As $x^2-1$ becomes increasingly large, the inverse tangent approaches $\\dfrac{\\pi}{2}$ but never attains it. Hence,<br>$$\\text{Range}=\\left[-\\frac{\\pi}{4},\\frac{\\pi}{2}\\right)$$<br><br><b>(c)</b><br>For the $y$-intercept, put $x=0$:<br>$$q(0)=\\tan^{-1}(-1)=-\\frac{\\pi}{4}$$<br>Thus, the $y$-intercept is $\\left(0,-\\dfrac{\\pi}{4}\\right)$. For the $x$-intercepts, set $q(x)=0$:<br>$$\\tan^{-1}(x^2-1)=0$$<br>$$x^2-1=0$$<br>$$x=\\pm1$$<br>Hence, the $x$-intercepts are $(-1,0)$ and $(1,0)$.<br><br><b>(d)</b><br>Since<br>$$q(-x)=\\tan^{-1}((-x)^2-1)=\\tan^{-1}(x^2-1)=q(x)$$<br>the graph is symmetric about the $y$-axis. As $|x|$ becomes increasingly large, $x^2-1$ becomes increasingly large and positive. Therefore, $q(x)$ approaches $\\dfrac{\\pi}{2}$ from below. The value $\\dfrac{\\pi}{2}$ is not attained.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain: $\\mathbb{R}$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right)$<br><br>(c) $x$-intercepts: $(-1,0)$ and $(1,0)$; $y$-intercept: $\\left(0,-\\dfrac{\\pi}{4}\\right)$<br><br>(d) Symmetric about the $y$-axis; $q(x)\\to\\dfrac{\\pi}{2}$ from below as $|x|$ increases without bound",
+    "B": "(a) Domain: $[-1,1]$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{4},0\\right]$<br><br>(c) $x$-intercepts: $(-1,0)$ and $(1,0)$; $y$-intercept: $\\left(0,-\\dfrac{\\pi}{4}\\right)$<br><br>(d) Symmetric about the $y$-axis; $q(x)\\to0$ as $|x|$ increases",
+    "C": "(a) Domain: $\\mathbb{R}$<br><br>(b) Range: $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$<br><br>(c) $x$-intercept: $(0,0)$; $y$-intercept: $\\left(0,\\dfrac{\\pi}{4}\\right)$<br><br>(d) Symmetric about the origin; $q(x)\\to-\\dfrac{\\pi}{2}$ as $|x|$ increases",
+    "D": "(a) Domain: $\\mathbb{R}-\\{-1,1\\}$<br><br>(b) Range: $\\left(-\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right]$<br><br>(c) No $x$-intercepts; $y$-intercept: $\\left(0,-\\dfrac{\\pi}{4}\\right)$<br><br>(d) Symmetric about the $x$-axis; $q(x)$ attains $\\dfrac{\\pi}{2}$ for sufficiently large $|x|$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

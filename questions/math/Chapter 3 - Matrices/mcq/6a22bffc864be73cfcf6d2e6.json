@@ -1,0 +1,33 @@
+{
+  "id": "6a22bffc864be73cfcf6d2e6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fbf40512f018fa94d54"
+  ],
+  "question_type": "MCQ",
+  "question": "If for a square matrix A, $A^{2}-A+I=O$ then $A^{-1}$ equals",
+  "answeroption": "c",
+  "explanation": "**Step 1:** We are given the matrix equation $A^2 - A + I = O$. Rearranging this to isolate the identity matrix yields $I = A - A^2$.<br />**Step 2:** Post-multiplying (or pre-multiplying) both sides by $A^{-1}$, we get $I \\cdot A^{-1} = (A - A^2)A^{-1}$. Simplifying gives $A^{-1} = AA^{-1} - A^2A^{-1} = I - A$.",
+  "explanation_image": [],
+  "options": {
+    "a": "A",
+    "b": "A + I",
+    "c": "I - A",
+    "d": "A - I"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

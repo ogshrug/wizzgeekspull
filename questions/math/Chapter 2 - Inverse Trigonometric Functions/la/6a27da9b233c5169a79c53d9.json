@@ -1,0 +1,28 @@
+{
+  "id": "6a27da9b233c5169a79c53d9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "LA",
+  "question": "Find the domain of $p(x)=sin^{-1}(1-2x^{2})$. Hence, find the value of x for which $p(x)=\\frac{\\pi}{6}$ Also, write the range of $2p(x)+\\frac{\\pi}{2}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To find the domain of the inverse trigonometric function $p(x) = \\sin^{-1}(1-2x^2)$, we utilize the mathematical definition of the principal domain of the arcsine function. The interior argument must strictly reside within the inclusive closed interval boundary conditions $-1 \\le 1-2x^2 \\le 1$. Subtracting the constant value of 1 from all parts of the compound inequality yields $-2 \\le -2x^2 \\le 0$. Next, dividing the entire expression by $-2$ and reversing the inequality signs gives $0 \\le x^2 \\le 1$. Taking the square root of this inequality yields the domain $x \\in [-1, 1]$.<br /><br />**Step 2:** To solve for the specific values of $x$ when $p(x) = \\frac{\\pi}{6}$, we set up the equation $\\sin^{-1}(1-2x^2) = \\frac{\\pi}{6}$. Taking the sine function on both sides of the equation eliminates the inverse operator, leaving $1-2x^2 = \\sin(\\frac{\\pi}{6})$. Substituting the known trigonometric value $\\sin(\\frac{\\pi}{6}) = \\frac{1}{2}$ results in $1-2x^2 = \\frac{1}{2}$. Rearranging the algebraic terms gives $2x^2 = \\frac{1}{2}$, which simplifies directly to $x^2 = \\frac{1}{4}$. Taking the square root yields $x = \\pm\\frac{1}{2}$.<br /><br />**Step 3:** To determine the range of the modified function $2p(x) + \\frac{\\pi}{2}$, we look at the core limits of the primary function. Since the argument $(1-2x^2)$ completely spans across the standard interval $[-1, 1]$ over its domain, the basic output range of $p(x)$ is $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$. Multiplying this entire closed interval output by two scales the bounds to $[-\\pi, \\pi]$. Finally, adding the vertical phase shift constant of $\\frac{\\pi}{2}$ shifts the interval to $[-\\frac{\\pi}{2}, \\frac{\\pi}{2} + \\pi]$, resulting in the final range of $[-\\frac{\\pi}{2}, \\frac{3\\pi}{2}]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

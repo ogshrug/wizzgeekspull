@@ -1,0 +1,27 @@
+{
+  "id": "6a214c42864be73cfcf6d0ee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "LA",
+  "question": "Find the sub intervals in which $f(x)=cot^{-1}(sin~x+cos~x)$, $x\\in(0,\\pi)$ is increasing and decreasing.",
+  "answeroption": "",
+  "explanation": "**Step 1:** First, differentiate $f(x)$ with respect to $x$ using chain rule: $f^{\\prime}(x) = -\\frac{1}{1+(sin~x+cos~x)^2} \\cdot (cos~x - sin~x)$.<br /><br />**Step 2:** Note that the denominator $1+(sin~x+cos~x)^2$ is always strictly positive.<br /><br />**Step 3:** For the function to be increasing, $f^{\\prime}(x) > 0$. This implies $-(cos~x - sin~x) > 0 \\implies sin~x - cos~x > 0 \\implies sin~x > cos~x$.<br /><br />**Step 4:** Within the interval $(0, \\pi)$, $sin~x > cos~x$ occurs exactly when $x \\in (\\frac{\\pi}{4}, \\pi)$. Thus, $f(x)$ is increasing here.<br /><br />**Step 5:** For the function to be decreasing, $f^{\\prime}(x) < 0$. This implies $sin~x < cos~x$.<br /><br />**Step 6:** Within the interval $(0, \\pi)$, $sin~x < cos~x$ occurs exactly when $x \\in (0, \\frac{\\pi}{4})$. Thus, $f(x)$ is decreasing here.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

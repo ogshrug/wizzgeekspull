@@ -1,0 +1,31 @@
+{
+  "id": "6a8d4712f1c9329bcf7979ac",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "For $-1<x<1$, a class defines $P(x)=\\sin^{-1}x$ and $Q(x)=\\tan^{-1}\\left(\\frac{x}{\\sqrt{1-x^2}}\\right)$. The positive square root and the principal intervals of inverse sine and inverse tangent are important while comparing these expressions. Students introduce an angle represented by $\\sin^{-1}x$, construct the associated cosine value and then determine whether the two expressions represent the same principal angle.<br><br><b>(a)</b> Explain why the stated interval is an admissible domain for both $P$ and $Q$.<br><br><b>(b)</b> Establish a relation between $P(x)$ and $Q(x)$.<br><br><b>(c)</b> Evaluate $Q\\left(-\\frac{1}{2}\\right)$ using the established relation.<br><br><b>(d)</b> Solve $Q(x)=\\frac{\\pi}{6}$ and verify that the solution belongs to the stated domain.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>For $-1<x<1$, the value $x$ belongs to the domain of $\\sin^{-1}x$. Also, $1-x^2>0$, so $\\sqrt{1-x^2}$ is real and positive. Therefore, $\\frac{x}{\\sqrt{1-x^2}}$ is a real number and belongs to the domain of $\\tan^{-1}x$. Thus, both expressions are defined on $(-1,1)$.<br><br><b>(b)</b><br>Let $P(x)=\\theta$. Then $$\\theta=\\sin^{-1}x,\\qquad -\\frac{\\pi}{2}<\\theta<\\frac{\\pi}{2}$$ Therefore, $x=\\sin\\theta$. Since $\\cos\\theta>0$ in this interval, $$\\sqrt{1-x^2}=\\sqrt{1-\\sin^2\\theta}=\\cos\\theta$$ Hence, $$\\frac{x}{\\sqrt{1-x^2}}=\\frac{\\sin\\theta}{\\cos\\theta}=\\tan\\theta$$ Since $\\theta$ lies in the principal range of inverse tangent, $$Q(x)=\\tan^{-1}(\\tan\\theta)=\\theta=P(x)$$ Thus, $Q(x)=\\sin^{-1}x$.<br><br><b>(c)</b><br>Using the established relation, $$Q\\left(-\\frac{1}{2}\\right)=\\sin^{-1}\\left(-\\frac{1}{2}\\right)=-\\frac{\\pi}{6}$$<br><br><b>(d)</b><br>Since $Q(x)=\\sin^{-1}x$, the equation becomes $$\\sin^{-1}x=\\frac{\\pi}{6}$$ Taking sine gives $$x=\\sin\\frac{\\pi}{6}=\\frac{1}{2}$$ Since $-1<\\frac{1}{2}<1$, the solution belongs to the domain. Therefore, $x=\\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Both functions are defined on $(-1,1)$ because $1-x^2>0$ and the denominator is non-zero<br><br>(b) $Q(x)=P(x)=\\sin^{-1}x$<br><br>(c) $Q\\left(-\\dfrac{1}{2}\\right)=-\\dfrac{\\pi}{6}$<br><br>(d) $x=\\dfrac{1}{2}$, which belongs to $(-1,1)$",
+    "B": "(a) Both functions are defined on $[-1,1]$ because the denominator may equal zero at the endpoints<br><br>(b) $Q(x)=-P(x)$<br><br>(c) $Q\\left(-\\dfrac{1}{2}\\right)=\\dfrac{\\pi}{6}$<br><br>(d) $x=-\\dfrac{1}{2}$",
+    "C": "(a) Both functions are defined only on $(0,1)$ because the square root must be positive<br><br>(b) $Q(x)=\\dfrac{\\pi}{2}-P(x)$<br><br>(c) $Q\\left(-\\dfrac{1}{2}\\right)=\\dfrac{2\\pi}{3}$<br><br>(d) $x=\\dfrac{\\sqrt{3}}{2}$",
+    "D": "(a) Both functions are defined for every real $x$<br><br>(b) $Q(x)=2P(x)$<br><br>(c) $Q\\left(-\\dfrac{1}{2}\\right)=-\\dfrac{\\pi}{3}$<br><br>(d) $x=\\sin\\dfrac{\\pi}{12}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

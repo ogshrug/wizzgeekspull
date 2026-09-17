@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd81d4b490c7cde359519",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Consider the differential equations<br>(i) $\\frac{dy}{dx}=\\frac{x+2y}{2x-y}$<br>(ii) $\\frac{dy}{dx}=\\frac{x+2y+1}{2x-y}$.<br>Determine which equation is homogeneous and justify your answer mathematically.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Test equation (i)</b><br>For $$F(x,y)=\\frac{x+2y}{2x-y},$$ divide numerator and denominator by $x$: $$F(x,y)=\\frac{1+2\\frac{y}{x}}{2-\\frac{y}{x}}.$$ Thus, $F(x,y)$ depends only on $\\frac{y}{x}$ and is homogeneous of degree zero.<br><b>Step 2: Verify by scaling</b><br>Also, $$F(\\lambda x,\\lambda y)=\\frac{\\lambda x+2\\lambda y}{2\\lambda x-\\lambda y}=F(x,y).$$ Hence, equation (i) is homogeneous.<br><b>Step 3: Test equation (ii)</b><br>For $$G(x,y)=\\frac{x+2y+1}{2x-y},$$ replacing $x,y$ by $\\lambda x,\\lambda y$ gives $$G(\\lambda x,\\lambda y)=\\frac{\\lambda x+2\\lambda y+1}{2\\lambda x-\\lambda y},$$ which is not equal to $G(x,y)$ in general.<br><b>Step 4: Conclusion</b><br>Therefore, equation (i) is homogeneous, whereas equation (ii) is not homogeneous.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both (i) and (ii) are homogeneous.",
+    "B": "Only (ii) is homogeneous because of the constant term $1$.",
+    "C": "Neither (i) nor (ii) is homogeneous.",
+    "D": "Only (i) is homogeneous; (ii) is not homogeneous because of the added constant $1$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

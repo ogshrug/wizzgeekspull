@@ -1,0 +1,29 @@
+{
+  "id": "69a9ada9d8e9ca3b293457d2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "LA",
+  "question": "By using the method of integration by parts, evaluate $\\int x e^{x} \\sin x \\, dx$. Show all calculations and simplification steps.",
+  "answeroption": "B",
+  "explanation": "Let $I=\\int x e^x \\sin x\\,dx$. Use integration by parts with $u=x$ and $dv=e^x\\sin x\\,dx$. Then $du=dx$.<br /><br />First evaluate $\\int e^x\\sin x\\,dx$. Using repeated integration by parts gives $\\frac{e^x}{2}(\\sin x-\\cos x)$.<br /><br />Thus $I=x\\cdot\\frac{e^x}{2}(\\sin x-\\cos x)-\\int \\frac{e^x}{2}(\\sin x-\\cos x)dx$.<br /><br />Evaluate the remaining integral using the known results for $\\int e^x\\sin x dx$ and $\\int e^x\\cos x dx$.<br /><br />Simplifying gives the final answer:<br /><br />$\\frac{x e^x}{2}(\\sin x-\\cos x)+\\frac{e^x}{2}\\cos x + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x e^x}{2}(\\sin x+\\cos x)+\\frac{e^x}{2}\\cos x+C$",
+    "B": "$\\frac{x e^x}{2}(\\sin x-\\cos x)+\\frac{e^x}{2}\\cos x+C$",
+    "C": "$\\frac{x e^x}{2}(\\sin x-\\cos x)-\\frac{e^x}{2}\\cos x+C$",
+    "D": "$\\frac{x e^x}{2}(\\cos x-\\sin x)+\\frac{e^x}{2}\\sin x+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:22:01 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

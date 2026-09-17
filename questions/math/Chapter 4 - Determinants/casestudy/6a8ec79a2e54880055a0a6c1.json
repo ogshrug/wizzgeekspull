@@ -1,0 +1,31 @@
+{
+  "id": "6a8ec79a2e54880055a0a6c1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67",
+    "69c6603740512f018fa94d6e",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a matrix laboratory activity, students select $A=\\begin{bmatrix}2 & 1\\\\1 & 1\\end{bmatrix}$. After calculating $A^2$, they notice that the matrix satisfies a relation involving $A$, the identity matrix $I$, and the zero matrix. They attempt to use this relation to obtain $A^{-1}$ without initially applying the standard inverse formula. The result is then checked using the determinant and adjoint of $A$.<br><br><b>(a)</b> Calculate $A^2$.<br><br><b>(b)</b> Verify that $A^2-3A+I=O$.<br><br><b>(c)</b> Use the verified relation to determine $A^{-1}$.<br><br><b>(d)</b> Calculate $|A|$ and $\\operatorname{adj}A$ and hence verify the inverse.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>$$A^2=\\begin{bmatrix}2 & 1\\\\1 & 1\\end{bmatrix}\\begin{bmatrix}2 & 1\\\\1 & 1\\end{bmatrix}$$<br>$$A^2=\\begin{bmatrix}5 & 3\\\\3 & 2\\end{bmatrix}$$<br><br><b>(b)</b><br>$$A^2-3A+I=\\begin{bmatrix}5 & 3\\\\3 & 2\\end{bmatrix}-3\\begin{bmatrix}2 & 1\\\\1 & 1\\end{bmatrix}+\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}$$<br>$$=\\begin{bmatrix}5-6+1 & 3-3\\\\3-3 & 2-3+1\\end{bmatrix}=\\begin{bmatrix}0 & 0\\\\0 & 0\\end{bmatrix}=O$$<br>Hence, the relation is verified.<br><br><b>(c)</b><br>From<br>$$A^2-3A+I=O$$<br>we obtain<br>$$3A-A^2=I$$<br>$$A(3I-A)=I$$<br>Therefore,<br>$$A^{-1}=3I-A$$<br>$$A^{-1}=\\begin{bmatrix}3 & 0\\\\0 & 3\\end{bmatrix}-\\begin{bmatrix}2 & 1\\\\1 & 1\\end{bmatrix}=\\begin{bmatrix}1 & -1\\\\-1 & 2\\end{bmatrix}$$<br><br><b>(d)</b><br>$$|A|=2(1)-1(1)=1$$<br>Also,<br>$$\\operatorname{adj}A=\\begin{bmatrix}1 & -1\\\\-1 & 2\\end{bmatrix}$$<br>Therefore,<br>$$A^{-1}=\\frac{1}{|A|}\\operatorname{adj}A=\\begin{bmatrix}1 & -1\\\\-1 & 2\\end{bmatrix}$$<br>This agrees with the inverse obtained from the matrix relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A^2=\\begin{bmatrix}4&2\\\\2&1\\end{bmatrix}$<br>(b) $A^2-3A+I=O$<br>(c) $A^{-1}=A-3I$<br>(d) $|A|=1$ and $\\operatorname{adj}A=\\begin{bmatrix}1&1\\\\1&2\\end{bmatrix}$",
+    "B": "(a) $A^2=\\begin{bmatrix}5&3\\\\3&2\\end{bmatrix}$<br>(b) $A^2-2A-I=O$<br>(c) $A^{-1}=A-2I$<br>(d) $|A|=2$ and $\\operatorname{adj}A=\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix}$",
+    "C": "(a) $A^2=\\begin{bmatrix}5&3\\\\3&2\\end{bmatrix}$<br>(b) $A^2-3A+I=O$<br>(c) $A^{-1}=3I+A$<br>(d) $|A|=-1$ and $\\operatorname{adj}A=\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix}$",
+    "D": "(a) $A^2=\\begin{bmatrix}5&3\\\\3&2\\end{bmatrix}$<br>(b) $A^2-3A+I=O$<br>(c) $A^{-1}=3I-A=\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix}$<br>(d) $|A|=1$ and $\\operatorname{adj}A=\\begin{bmatrix}1&-1\\\\-1&2\\end{bmatrix}$, confirming the same inverse"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

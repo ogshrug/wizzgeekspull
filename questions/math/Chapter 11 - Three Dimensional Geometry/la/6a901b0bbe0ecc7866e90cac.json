@@ -1,0 +1,31 @@
+{
+  "id": "6a901b0bbe0ecc7866e90cac",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8d3",
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "LA",
+  "question": "The planes $x+y+z=1$ and $x-y+z=3$ intersect in a line. Obtain the vector equation of their line of intersection and hence determine the acute angle made by this line with the plane $2x+y+z=5$.",
+  "answeroption": "A",
+  "explanation": "<b>Formation of the Line of Intersection</b><br>The equations of the first two planes are<br>$$x+y+z=1$$<br>and<br>$$x-y+z=3$$<br>Subtracting the first equation from the second gives<br>$$-2y=2$$<br>Hence,<br>$$y=-1$$<br>Substituting in $x+y+z=1$ gives<br>$$x+z=2$$<br>Let $x=\\lambda$. Then $z=2-\\lambda$. Thus, a general point of the line is<br>$$\\left(\\lambda,-1,2-\\lambda\\right)$$<br>Therefore, the vector equation of the line of intersection is<br>$$\\vec{r}=(-\\hat{j}+2\\hat{k})+\\lambda(\\hat{i}-\\hat{k})$$<br>Hence, a direction vector of the line is<br>$$\\vec{b}=\\hat{i}-\\hat{k}$$<br><br><b>Angle with the Third Plane</b><br>A normal vector to the plane $2x+y+z=5$ is<br>$$\\vec{n}=2\\hat{i}+\\hat{j}+\\hat{k}$$<br>If $\\phi$ is the acute angle between the line and this plane, then<br>$$\\sin\\phi=\\frac{|\\vec{b}\\cdot\\vec{n}|}{|\\vec{b}||\\vec{n}|}$$<br>Now,<br>$$\\vec{b}\\cdot\\vec{n}=1(2)+0(1)+(-1)(1)=1$$<br>Also,<br>$$|\\vec{b}|=\\sqrt{2},\\quad |\\vec{n}|=\\sqrt{6}$$<br>Therefore,<br>$$\\sin\\phi=\\frac{1}{\\sqrt{12}}=\\frac{\\sqrt{3}}{6}$$<br>Hence,<br>$$\\phi=\\sin^{-1}\\left(\\frac{\\sqrt{3}}{6}\\right)$$<br><br><b>Final Result</b><br>The vector equation of the line of intersection is $\\vec{r}=(-\\hat{j}+2\\hat{k})+\\lambda(\\hat{i}-\\hat{k})$, and the acute angle made by this line with the plane $2x+y+z=5$ is $\\sin^{-1}\\left(\\frac{\\sqrt{3}}{6}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\vec r=(-\\hat j+2\\hat k)+\\lambda(\\hat i-\\hat k)$; acute angle with $2x+y+z=5$ is $\\sin^{-1}\\left(\\frac{\\sqrt{3}}{6}\\right)$",
+    "B": "$\\vec r=(\\hat j+2\\hat k)+\\lambda(\\hat i+\\hat k)$; acute angle is $\\sin^{-1}\\left(\\frac{\\sqrt{3}}{6}\\right)$",
+    "C": "$\\vec r=(-\\hat j+2\\hat k)+\\lambda(\\hat i-\\hat k)$; acute angle is $\\cos^{-1}\\left(\\frac{\\sqrt{3}}{6}\\right)$",
+    "D": "$\\vec r=(-\\hat j+2\\hat k)+\\lambda(\\hat i+\\hat k)$; acute angle is $\\sin^{-1}\\left(\\frac{1}{\\sqrt{6}}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

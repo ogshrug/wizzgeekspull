@@ -1,0 +1,33 @@
+{
+  "id": "6a8fdeca2e54880055a0a71c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a3",
+    "6a13ebc98c819562f933f9a4",
+    "6a13ebc98c819562f933f9a5"
+  ],
+  "question_type": "LA",
+  "question": "Starting with the one-parameter family of curves $$x^2+y^2=C,$$ form the differential equation representing the family by eliminating the arbitrary constant. Then use the condition that the required member passes through $(3,4)$ to obtain its particular solution and verify that this member satisfies the differential equation formed.",
+  "answeroption": "A",
+  "explanation": "<b>Formation of Equation</b><br>The given family is $$x^2+y^2=C,$$ where $C$ is an arbitrary constant. Differentiating with respect to $x$, $$2x+2y\\frac{dy}{dx}=0.$$ Dividing by $2$, we obtain $$x+y\\frac{dy}{dx}=0.$$ The arbitrary constant has been eliminated, so this is the required differential equation. Since the original family contains one arbitrary constant and represents the family satisfying this first order differential equation, it is its general solution.<br><br><b>Applying the Initial Condition</b><br>The required member passes through $(3,4)$, so $x=3$ and $y=4$. Therefore, $$C=3^2+4^2=9+16=25.$$ Hence the particular solution is $$x^2+y^2=25.$$<br><br><b>Verification</b><br>Differentiating the particular solution gives $$2x+2y\\frac{dy}{dx}=0,$$ or $$x+y\\frac{dy}{dx}=0,$$ which is exactly the differential equation obtained from the family.<br><br><b>Final Result</b><br>The differential equation is $x+y\\frac{dy}{dx}=0$, and the member satisfying the given condition is $x^2+y^2=25$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x+y\\frac{dy}{dx}=0$; particular member $x^2+y^2=25$",
+    "B": "$x-y\\frac{dy}{dx}=0$; particular member $x^2+y^2=25$",
+    "C": "$x+y\\frac{dy}{dx}=0$; particular member $x^2+y^2=7$",
+    "D": "$y+x\\frac{dy}{dx}=0$; particular member $x^2+y^2=25$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

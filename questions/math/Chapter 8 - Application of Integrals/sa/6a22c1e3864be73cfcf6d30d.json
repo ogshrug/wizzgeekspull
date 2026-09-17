@@ -1,0 +1,27 @@
+{
+  "id": "6a22c1e3864be73cfcf6d30d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999"
+  ],
+  "question_type": "SA",
+  "question": "Find the area of the following region using integration: $\\{(x,y):y^{2}\\le2x\\text{ and }y\\ge x-4\\}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find the points of intersection between the parabola $y^2 = 2x \\implies x = \\frac{y^2}{2}$ and the line $y = x - 4 \\implies x = y + 4$. Equating the expressions for $x$ gives $\\frac{y^2}{2} = y + 4 \\implies y^2 - 2y - 8 = 0$. Solving this quadratic equation yields $(y - 4)(y + 2) = 0$, so $y = 4$ and $y = -2$.<br />**Step 2:** Integrate with respect to $y$ from the lower limit $y = -2$ to the upper limit $y = 4$ to calculate the area bounded between the line and the curve: $\\text{Area} = \\int_{-2}^{4} \\left( (y + 4) - \\frac{y^2}{2} \\right) dy$.<br />**Step 3:** Evaluate the definite integral: $\\left[ \\frac{y^2}{2} + 4y - \\frac{y^3}{6} \\right]_{-2}^{4} = \\left( \\frac{16}{2} + 16 - \\frac{64}{6} \\right) - \\left( \\frac{4}{2} - 8 - \\frac{-8}{6} \\right) = \\left( 24 - \\frac{32}{3} \\right) - \\left( -6 + \\frac{4}{3} \\right) = \\frac{40}{3} - \\left( -\\frac{14}{3} \\right) = \\frac{54}{3} = 18\\text{ sq. units}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

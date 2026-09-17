@@ -1,0 +1,31 @@
+{
+  "id": "69a8599b575fa42e09444813",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Given $f(x) = \\cos x - \\sin x$ for $x \\in [0, 2\\pi]$, find critical points, intervals of increase/decrease, and absolute extrema.",
+  "answeroption": "B",
+  "explanation": "$f'(x) = -\\sin x - \\cos x$<br /><br />Set $f'(x)=0 \\implies \\tan x=-1$<br /><br />Critical points: $3\\pi/4,7\\pi/4$<br /><br />Decreasing on $(0,3\\pi/4)$<br /><br />Increasing on $(3\\pi/4,2\\pi]$<br /><br />Absolute maximum $\\sqrt{2}$ at $7\\pi/4$<br /><br />Absolute minimum $-\\sqrt{2}$ at $3\\pi/4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Critical points are $\\frac{\\pi}{4}$ and $\\frac{5\\pi}{4}$; increasing on $\\left(0,\\frac{\\pi}{4}\\right)$ and decreasing on $\\left(\\frac{\\pi}{4},2\\pi\\right)$; absolute maximum is $\\sqrt2$ at $\\frac{\\pi}{4}$.",
+    "B": "Critical points are $\\frac{3\\pi}{4}$ and $\\frac{7\\pi}{4}$; decreasing on $\\left(0,\\frac{3\\pi}{4}\\right)$, increasing on $\\left(\\frac{3\\pi}{4},\\frac{7\\pi}{4}\\right)$, and decreasing on $\\left(\\frac{7\\pi}{4},2\\pi\\right)$; absolute maximum is $\\sqrt2$ at $\\frac{7\\pi}{4}$ and absolute minimum is $-\\sqrt2$ at $\\frac{3\\pi}{4}$.",
+    "C": "Critical points are $\\frac{3\\pi}{4}$ and $\\frac{7\\pi}{4}$; increasing on $\\left(0,\\frac{3\\pi}{4}\\right)$ and decreasing on $\\left(\\frac{3\\pi}{4},2\\pi\\right)$; absolute maximum is $-\\sqrt2$.",
+    "D": "No critical points exist; absolute maximum is $1$ and absolute minimum is $-1$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:11:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

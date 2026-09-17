@@ -1,0 +1,30 @@
+{
+  "id": "69a9ab6562be6a70cd184e08",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "SA",
+  "question": "A manufacturer produces three products x, y, z, which he sells in two markets. Annual sales (in units) are: Market I: 10,000, 2,000, 18,000; Market II: 6,000, 20,000, 8,000. If the unit sale prices of x, y, and z are Rs 2.50, Rs 1.50, and Rs 1.00 respectively, find the total revenue in each market using matrix algebra. Further, if the unit costs are Rs 2.00, Re 1.00, and 50 paise, find the gross profit for each market.",
+  "answeroption": "A",
+  "explanation": "Let $S = \\begin{bmatrix} 10000 & 2000 & 18000 \\\\ 6000 & 20000 & 8000 \\end{bmatrix}$, $P = \\begin{bmatrix} 2.50 \\\\ 1.50 \\\\ 1.00 \\end{bmatrix}$<br /><br />Revenue in each market:<br /><br />$R = S \\cdot P$<br /><br />Calculate for Market I:<br /><br />$= 10000*2.5 + 2000*1.5 + 18000*1 = 25000 + 3000 + 18000 = 46000$<br /><br />Market II:<br /><br />$= 6000*2.5 + 20000*1.5 + 8000*1 = 15000 + 30000 + 8000 = 53000$<br /><br />So, revenues: Rs 46,000 (Market I), Rs 53,000 (Market II).<br /><br />Let cost vector $C = \\begin{bmatrix}2.00\\\\1.00\\\\0.50\\end{bmatrix}$<br /><br />Market I cost: $= 10000*2 + 2000*1 + 18000*0.5 = 20000 + 2000 + 9000 = 31000$<br /><br />Market II cost: $= 6000*2 + 20000*1 + 8000*0.5 = 12000 + 20000 + 4000 = 36000$<br /><br />Thus, gross profit:<br /><br />Market I: $46000 - 31000 = Rs 15000$<br /><br />Market II: $53000 - 36000 = Rs 17000$",
+  "explanation_image": [],
+  "options": {
+    "A": "Revenue: Rs $46,000$ in Market I and Rs $53,000$ in Market II.<br />Gross profit: Rs $15,000$ in Market I and Rs $17,000$ in Market II.",
+    "B": "Revenue: Rs $31,000$ in Market I and Rs $36,000$ in Market II.<br />Gross profit: Rs $46,000$ in Market I and Rs $53,000$ in Market II.",
+    "C": "Revenue: Rs $15,000$ in Market I and Rs $17,000$ in Market II.<br />Gross profit: Rs $31,000$ in Market I and Rs $36,000$ in Market II.",
+    "D": "Revenue: Rs $53,000$ in Market I and Rs $46,000$ in Market II.<br />Gross profit: Rs $17,000$ in Market I and Rs $15,000$ in Market II."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:12:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

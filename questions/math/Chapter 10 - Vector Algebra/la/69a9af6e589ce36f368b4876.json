@@ -1,0 +1,30 @@
+{
+  "id": "69a9af6e589ce36f368b4876",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8c4"
+  ],
+  "question_type": "LA",
+  "question": "Suppose a force $\\vec{F} = 5\\hat{i} - 3\\hat{j} + 2\\hat{k}$ (in newtons) acts on a particle. The particle moves from point P(1,2,3) to Q(4,0,-1).<br /><br />(a) Find the displacement vector $\\vec{PQ}$.<br /><br />(b) Find the work done by the force $\\vec{F}$ during this displacement.<br /><br />(c) Find the projection of $\\vec{F}$ along the direction of displacement.<br /><br />(d) What is the angle between $\\vec{F}$ and $\\vec{PQ}$? (Give your answer in terms of $\\cos^{-1}$ notation).",
+  "answeroption": "D",
+  "explanation": "(a) Displacement vector:<br /><br />$\\vec{PQ} = (4-1)\\hat{i} + (0-2)\\hat{j} + (-1-3 )\\hat{k} = 3\\hat{i} - 2\\hat{j} - 4\\hat{k}$<br /><br />(b) Work done = $\\vec{F} \\cdot \\vec{PQ}$<br /><br />$= 5*3 + (-3)*(-2) + 2*(-4) = 15 + 6 - 8 = 13 \\, \\text{J}$<br /><br />(c) Projection of $\\vec{F}$ on $\\vec{PQ}$:<br /><br />$| \\vec{PQ} | = \\sqrt{ 3^2 + (-2)^2 + (-4)^2 } = \\sqrt{9 + 4 + 16 } = \\sqrt{29 }$<br /><br />Projection = $\\frac{ \\vec{F} \\cdot \\vec{PQ} }{ |\\vec{PQ}| } = \\frac{13}{\\sqrt{29 }}$<br /><br />(d) Angle between $\\vec{F}$ and $\\vec{PQ}$:<br /><br />Let $\\theta$ be the angle between $\\vec{F}$ and $\\vec{PQ}$:<br /><br />$| \\vec{F}| = \\sqrt{ 5^2 + (-3)^2 + 2^2 } = \\sqrt{25 + 9 + 4 } = \\sqrt{38}$<br /><br />$\\cos \\theta = \\frac{ \\vec{F} \\cdot \\vec{PQ} }{ |\\vec{F}| \\, | \\vec{PQ} | }$<br /><br />$= \\frac{13}{ \\sqrt{38 } \\sqrt{29 } }$<br /><br />$\\theta = \\cos^{-1} \\left( \\frac{13}{ \\sqrt{38*29} } \\right )$<br /><br />Thus, the angle between $\\vec{F}$ and the displacement is $\\cos^{-1} \\left( \\frac{13}{ \\sqrt{1102 } } \\right )$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec{PQ}=3\\hat{i}-2\\hat{j}-4\\hat{k}$<br />(b) Work done $=13$ J<br />(c) Projection $=\\frac{13}{\\sqrt{38}}$<br />(d) $\\theta=\\cos^{-1}\\left(\\frac{13}{\\sqrt{1102}}\\right)$",
+    "B": "(a) $\\vec{PQ}=3\\hat{i}+2\\hat{j}-4\\hat{k}$<br />(b) Work done $=13$ J<br />(c) Projection $=\\frac{13}{\\sqrt{29}}$<br />(d) $\\theta=\\cos^{-1}\\left(\\frac{13}{\\sqrt{1102}}\\right)$",
+    "C": "(a) $\\vec{PQ}=3\\hat{i}-2\\hat{j}-4\\hat{k}$<br />(b) Work done $=26$ J<br />(c) Projection $=\\frac{13}{\\sqrt{29}}$<br />(d) $\\theta=\\cos^{-1}\\left(\\frac{26}{\\sqrt{1102}}\\right)$",
+    "D": "(a) $\\vec{PQ}=3\\hat{i}-2\\hat{j}-4\\hat{k}$<br />(b) Work done $=13$ J<br />(c) Projection $=\\frac{13}{\\sqrt{29}}$<br />(d) $\\theta=\\cos^{-1}\\left(\\frac{13}{\\sqrt{1102}}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:29:34 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

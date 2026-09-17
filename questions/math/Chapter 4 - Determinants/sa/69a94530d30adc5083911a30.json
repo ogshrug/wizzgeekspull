@@ -1,0 +1,31 @@
+{
+  "id": "69a94530d30adc5083911a30",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "SA",
+  "question": "Let $A$ and $B$ be $3 \\times 3$ matrices with $|A|=2, |B|=3$. If $C = AB$, compute $|C|$. If $D = 3A^{-1}B$, find $|D|$. Justify each step and generalize for scalars.",
+  "answeroption": "A",
+  "explanation": "$|C|=|AB|=|A||B| = 2*3=6$<br />$|A^{-1}|=1/|A|=1/2$<br />$|D|=|3A^{-1}B|=|3I||A^{-1}||B|$<br />$=3^3*(1/2)*3$<br />$=27*1.5=40.5$<br /><br />In general, for scalar $k$ and $n\\times n$ matrix $A$, $|kA|=k^n|A|$.<br />Thus, $|kA^{-1}B|=k^n|A^{-1}||B|$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$|C|=6$ and $|D|=\\frac{81}{2}$; in general, $|kA^{-1}B|=k^n|A^{-1}||B|$ for $n\\times n$ matrices.",
+    "B": "$|C|=5$ and $|D|=\\frac{9}{2}$; in general, $|kA^{-1}B|=k|A^{-1}||B|$.",
+    "C": "$|C|=6$ and $|D|=\\frac{9}{2}$; in general, scalar multiplication does not affect determinant.",
+    "D": "$|C|=1$ and $|D|=81$; in general, $|AB|=|A|+|B|$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 08:56:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

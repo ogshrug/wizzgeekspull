@@ -1,0 +1,29 @@
+{
+  "id": "69a86ba5b4df445c7f648c7c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): For $f(x) = \\log_{a^2}(x^2)$, one can write $f(x) = 2 \\log_a |x|$ for $x \\neq 0$.\n\nReason (R): The change of base formula gives $\\log_b c = \\frac{\\log_k c}{\\log_k b}$; applying this to $\\log_{a^2} (x^2)$ with $k = a$ gives $\\log_{a^2}(x^2) = \\frac{\\log_a (x^2)}{\\log_a (a^2)}$ and $\\log_a (x^2) = 2\\log_a |x|$.",
+  "answeroption": "D",
+  "explanation": "As per the change of base and the logarithmic identities:<br /><br />$\\log_{a^2}(x^2) = \\frac{\\log_a(x^2)}{\\log_a(a^2)} = \\frac{2\\log_a |x|}{2} = \\log_a |x|$.<br /><br />So the assertion (A) is not precisely correct unless $x > 0$; for all $x \\neq 0$, the LHS is $\\log_a |x|$, not $2\\log_a |x|$.<br /><br />The reason correctly shows the working using the change of base and identities but the conclusion is $\\log_a |x|$ (not $2\\log_a |x|$).<br /><br />Correct option: (D)",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:28:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

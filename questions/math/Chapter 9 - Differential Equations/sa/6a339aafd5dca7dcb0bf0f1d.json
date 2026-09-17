@@ -1,0 +1,27 @@
+{
+  "id": "6a339aafd5dca7dcb0bf0f1d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation $\\frac{dy}{dx}=\\frac{x^{2}+y^{2}}{2xy}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Recognize the equation as homogeneous and substitute $y = vx$. Then differentiate to get $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.\n\n**Step 2:** Substitute into the differential equation: $v + x\\frac{dv}{dx} = \\frac{x^2 + v^2x^2}{2x(vx)} = \\frac{1+v^2}{2v}$.\n\n**Step 3:** Isolate the $v$ terms: $x\\frac{dv}{dx} = \\frac{1+v^2}{2v} - v = \\frac{1-v^2}{2v}$.\n\n**Step 4:** Separate variables and integrate: $\\int \\frac{2v}{1-v^2} dv = \\int \\frac{1}{x} dx$.\n\n**Step 5:** Solve the integrals: $-\\log|1-v^2| = \\log|x| + C \\Rightarrow \\log|x(1-v^2)| = -C \\Rightarrow x(1-\\frac{y^2}{x^2}) = C_1 \\Rightarrow x^2 - y^2 = C_1 x$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

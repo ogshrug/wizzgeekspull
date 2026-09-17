@@ -1,0 +1,32 @@
+{
+  "id": "6a900bb1751910886affba1f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cc",
+    "6a13e7cad837c8c7efa6b8cd",
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "The directed line segment from $P(1,2,-1)$ to a point $Q$ has length $6$ units and its direction cosines are $\\frac{2}{3},-\\frac{2}{3},\\frac{1}{3}$. Determine the coordinates of $Q$, and hence obtain a suitable set of direction ratios together with the vector and Cartesian equations of the line passing through $P$ and $Q$.",
+  "answeroption": "B",
+  "explanation": "<b>Determination of the Second Point</b><br>Let $Q=(x,y,z)$. For the directed line segment from $P(1,2,-1)$ to $Q(x,y,z)$ of length $6$, the direction cosines are<br>$$\\frac{x-1}{6},\\quad \\frac{y-2}{6},\\quad \\frac{z+1}{6}$$<br>Given that these are $\\frac{2}{3},-\\frac{2}{3},\\frac{1}{3}$ respectively, we have<br>$$\\frac{x-1}{6}=\\frac{2}{3},\\quad \\frac{y-2}{6}=-\\frac{2}{3},\\quad \\frac{z+1}{6}=\\frac{1}{3}$$<br>Therefore,<br>$$x-1=4,\\quad y-2=-4,\\quad z+1=2$$<br>giving<br>$$x=5,\\quad y=-2,\\quad z=1$$<br>Hence, $Q=(5,-2,1)$.<br><br>The direction ratios of $PQ$ are<br>$$5-1,\\;-2-2,\\;1-(-1)=4,-4,2$$<br>A simpler proportional set is $2,-2,1$. Its corresponding direction cosines are<br>$$\\frac{2}{\\sqrt{2^2+(-2)^2+1^2}},\\;\\frac{-2}{\\sqrt{2^2+(-2)^2+1^2}},\\;\\frac{1}{\\sqrt{2^2+(-2)^2+1^2}}$$<br>Since the denominator is $3$, these become<br>$$\\frac{2}{3},\\;-\\frac{2}{3},\\;\\frac{1}{3}$$<br>which agrees with the given direction cosines.<br><br><b>Formation of Equation</b><br>The position vector of $P$ is $\\hat{i}+2\\hat{j}-\\hat{k}$ and a vector parallel to the line is $2\\hat{i}-2\\hat{j}+\\hat{k}$. Hence,<br>$$\\vec{r}=(\\hat{i}+2\\hat{j}-\\hat{k})+\\lambda(2\\hat{i}-2\\hat{j}+\\hat{k})$$<br>This gives<br>$$x=1+2\\lambda,\\quad y=2-2\\lambda,\\quad z=-1+\\lambda$$<br>Therefore,<br>$$\\frac{x-1}{2}=\\frac{y-2}{-2}=\\frac{z+1}{1}$$<br><br><b>Final Result</b><br>The point is $Q(5,-2,1)$. A suitable set of direction ratios is $2,-2,1$, the vector equation is $\\vec{r}=(\\hat{i}+2\\hat{j}-\\hat{k})+\\lambda(2\\hat{i}-2\\hat{j}+\\hat{k})$, and the Cartesian equation is $\\frac{x-1}{2}=\\frac{y-2}{-2}=\\frac{z+1}{1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$Q=(5,6,1)$; direction ratios $(2,2,1)$; $\\vec r=(\\hat i+2\\hat j-\\hat k)+\\lambda(2\\hat i+2\\hat j+\\hat k)$",
+    "B": "$Q=(5,-2,1)$; direction ratios $(2,-2,1)$; $\\vec r=(\\hat i+2\\hat j-\\hat k)+\\lambda(2\\hat i-2\\hat j+\\hat k)$; $\\frac{x-1}{2}=\\frac{y-2}{-2}=\\frac{z+1}{1}$",
+    "C": "$Q=(3,-2,1)$; direction ratios $(1,-2,1)$; $\\vec r=(\\hat i+2\\hat j-\\hat k)+\\lambda(\\hat i-2\\hat j+\\hat k)$",
+    "D": "$Q=(5,-2,-3)$; direction ratios $(2,-2,-1)$; $\\vec r=(\\hat i+2\\hat j-\\hat k)+\\lambda(2\\hat i-2\\hat j-\\hat k)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a98a37589ce36f368b4825",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\mathbb{N}$ be the set of all natural numbers and $R$ be a relation defined on $\\mathbb{N} \\times \\mathbb{N}$ by $(a , b)R(c , d)$ if $ad = bc$ for all $(a , b) , (c , d) \\in \\mathbb{N} \\times \\mathbb{N}$. Show that $R$ is an equivalence relation.",
+  "answeroption": "B",
+  "explanation": "The relation $R$ on $\\mathbb{N} \\times \\mathbb{N}$ is defined by $(a,b)R(c,d)$ if $ad = bc$.<br /><br />Reflexive: For any $(a,b)$, we have $ab = ba$ (by commutativity of multiplication). Hence $(a,b)R(a,b)$ and the relation is reflexive.<br /><br />Symmetric: If $(a,b)R(c,d)$, then $ad = bc$. By commutativity, $cb = da$, hence $(c,d)R(a,b)$. Therefore the relation is symmetric.<br /><br />Transitive: If $(a,b)R(c,d)$ and $(c,d)R(e,f)$, then $ad = bc$ and $cf = de$. Multiplying both equations gives $(ad)(cf) = (bc)(de)$. Hence $acdf = bcde$. Dividing both sides by $cd$ (since $c,d \\in \\mathbb{N}$ and non-zero) gives $af = be$. Thus $(a,b)R(e,f)$. Hence the relation is transitive.<br /><br />Since $R$ is reflexive, symmetric and transitive, $R$ is an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is reflexive and symmetric but not transitive; hence it is not an equivalence relation",
+    "B": "$R$ is reflexive, symmetric and transitive; hence it is an equivalence relation",
+    "C": "$R$ is symmetric and transitive but not reflexive; hence it is not an equivalence relation",
+    "D": "$R$ is reflexive and transitive but not symmetric; hence it is not an equivalence relation"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:50:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ebe49751910886affb980",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "SA",
+  "question": "Examine the continuity of $g(x)=x-[x]$ at $x=2$, where $[x]$ denotes the greatest integer less than or equal to $x$. Give mathematical justification.",
+  "answeroption": "D",
+  "explanation": "<b>Function value at $x=2$</b><br>$$g(2)=2-[2]=0$$<br><b>Left-hand limit</b><br>For $x\\to 2^-$, $[x]=1$. Hence, $$\\lim_{x\\to 2^-}g(x)=\\lim_{x\\to 2^-}(x-1)=1$$<br><b>Right-hand limit</b><br>For $x\\to 2^+$, $[x]=2$. Hence, $$\\lim_{x\\to 2^+}g(x)=\\lim_{x\\to 2^+}(x-2)=0$$<br><b>Comparison of one-sided limits</b><br>Since $$\\lim_{x\\to 2^-}g(x)\\neq \\lim_{x\\to 2^+}g(x),$$ the limit of $g(x)$ at $x=2$ does not exist.<br>Therefore, $g$ is discontinuous at $x=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$g$ is continuous at $x=2$ because both one-sided limits are $0$.",
+    "B": "$g$ is continuous at $x=2$ because $g(2)=0$.",
+    "C": "$g$ is discontinuous at $x=2$ because both one-sided limits equal $1$.",
+    "D": "$g$ is discontinuous at $x=2$ because the left-hand limit is $1$ and the right-hand limit is $0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

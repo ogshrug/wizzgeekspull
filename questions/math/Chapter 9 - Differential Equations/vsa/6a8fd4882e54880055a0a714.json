@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd4882e54880055a0a714",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a6",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "VSA",
+  "question": "A family of circles touching the $x$-axis at the origin is represented by $x^2+y^2=2ay$, where $a$ is arbitrary. Eliminate $a$ and obtain the corresponding differential equation.",
+  "answeroption": "C",
+  "explanation": "Step 1: Start with the family $x^2+y^2=2ay$. It contains one arbitrary constant $a$, so differentiate once.<br>Step 2: Differentiating with respect to $x$ gives $2x+2y\\frac{dy}{dx}=2a\\frac{dy}{dx}$.<br>Step 3: Hence, $a=\\frac{x+y\\frac{dy}{dx}}{\\frac{dy}{dx}}$.<br>Step 4: Substitute this expression for $a$ into $x^2+y^2=2ay$ and multiply by $\\frac{dy}{dx}$. This gives $(x^2+y^2)\\frac{dy}{dx}=2xy+2y^2\\frac{dy}{dx}$.<br>Step 5: Rearranging, $(x^2-y^2)\\frac{dy}{dx}-2xy=0$. Therefore, this is the differential equation of the given family.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(x^2+y^2)\\frac{dy}{dx}-2xy=0$",
+    "B": "$(x^2-y^2)\\frac{dy}{dx}+2xy=0$",
+    "C": "$(x^2-y^2)\\frac{dy}{dx}-2xy=0$",
+    "D": "$(x^2+y^2)\\frac{dy}{dx}+2xy=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

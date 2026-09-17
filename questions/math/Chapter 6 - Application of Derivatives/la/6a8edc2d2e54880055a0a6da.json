@@ -1,0 +1,30 @@
+{
+  "id": "6a8edc2d2e54880055a0a6da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "LA",
+  "question": "A child of height $1.5\\ \\text{m}$ walks directly away from a vertical lamp post of height $6\\ \\text{m}$ at a rate of $1.2\\ \\text{m/s}$. Let $x$ be the distance of the child from the lamp post and $y$ be the length of the child's shadow.<br><br>(a) Using similar triangles, establish a relation between $x$ and $y$.<br><br>(b) Determine the rate at which the length of the shadow is increasing.<br><br>(c) Find the rate at which the tip of the shadow is moving away from the lamp post.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The distance of the tip of the shadow from the lamp post is $x+y$. By similarity of the triangles,<br>$$\\frac{6}{x+y}=\\frac{1.5}{y}$$<br>Therefore,<br>$$6y=1.5(x+y)$$<br>$$6y=1.5x+1.5y$$<br>$$4.5y=1.5x$$<br>Hence,<br>$$y=\\frac{x}{3}$$<br><br><b>(b)</b><br>Differentiating $y=\\frac{x}{3}$ with respect to time,<br>$$\\frac{dy}{dt}=\\frac{1}{3}\\frac{dx}{dt}$$<br>Given that $\\frac{dx}{dt}=1.2\\ \\text{m/s}$,<br>$$\\frac{dy}{dt}=\\frac{1.2}{3}=0.4\\ \\text{m/s}$$<br>Thus, the shadow is increasing in length at $0.4\\ \\text{m/s}$.<br><br><b>(c)</b><br>Let $z=x+y$ be the distance of the tip of the shadow from the lamp post. Therefore,<br>$$\\frac{dz}{dt}=\\frac{dx}{dt}+\\frac{dy}{dt}$$<br>$$\\frac{dz}{dt}=1.2+0.4=1.6\\ \\text{m/s}$$<br>Hence, the tip of the shadow is moving away from the lamp post at $1.6\\ \\text{m/s}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y=\\frac{x}{4}$<br>(b) $\\frac{dy}{dt}=0.3$ m/s<br>(c) Tip speed $1.5$ m/s",
+    "B": "(a) $y=\\frac{x}{3}$<br>(b) $\\frac{dy}{dt}=0.4$ m/s<br>(c) Tip speed $1.6$ m/s",
+    "C": "(a) $y=\\frac{x}{2}$<br>(b) $\\frac{dy}{dt}=0.6$ m/s<br>(c) Tip speed $1.8$ m/s",
+    "D": "(a) $y=3x$<br>(b) $\\frac{dy}{dt}=3.6$ m/s<br>(c) Tip speed $4.8$ m/s"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

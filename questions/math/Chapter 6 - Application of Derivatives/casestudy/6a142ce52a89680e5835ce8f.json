@@ -1,0 +1,29 @@
+{
+  "id": "6a142ce52a89680e5835ce8f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f985"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A housing society wants to commission a swimming pool for its residents. For this, they have to purchase a square piece of land and dig this to such a depth that its capacity is 250 cubic metres. Cost of land is $500$ per square metre. The cost of digging increases with the depth and cost for the whole pool is $4000(\\text{depth})^2$. Suppose the side of the square plot is $x$ metres and depth is $h$ metres.<br /><br />(i) Write cost $C(h)$ as a function in terms of $h$.<br />(ii) Find critical point.<br />(iii) (a) Use second derivative test to find the value of $h$ for which cost of constructing the pool is minimum. What is the minimum cost of construction of the pool?<br />**OR**<br />(iii) (b) Use first derivative test to find the depth of the pool so that cost of construction is minimum. Also, find relation between $x$ and $h$ for minimum cost.",
+  "answeroption": "",
+  "explanation": "**(i)** Volume $V = x^2 h = 250 \\implies x^2 = \\frac{250}{h}$. Cost of land = $500x^2 = 500\\left(\\frac{250}{h}\\right) = \\frac{125000}{h}$. Cost of digging = $4000h^2$. Total Cost $C(h) = \\frac{125000}{h} + 4000h^2$.<br /><br />**(ii)** Differentiate to find the critical point: $C'(h) = -\\frac{125000}{h^2} + 8000h$. Setting $C'(h) = 0 \\implies 8000h^3 = 125000 \\implies h^3 = \\frac{125}{8} \\implies h = 2.5$ metres.<br /><br />**(iii) (a)** Second derivative $C''(h) = \\frac{250000}{h^3} + 8000$. At $h=2.5$, $C''(2.5) > 0$ (local minimum). Minimum cost $C(2.5) = \\frac{125000}{2.5} + 4000(2.5)^2 = 50000 + 25000 = 75000$ Rupees.<br /><br />**(iii) (b)** First derivative $C'(h) = \\frac{8000(h^3 - 125/8)}{h^2}$. For $h < 2.5$, $C'(h) < 0$. For $h > 2.5$, $C'(h) > 0$. The sign change from negative to positive confirms a minimum at $h=2.5$. For the relation: $x^2 = \\frac{250}{2.5} = 100 \\implies x=10$. Since $h=2.5$, $10 = 4(2.5)$, so the relation is $x = 4h$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a142ce52a89680e5835ce8f/1782267007-0.png?t=1782286808050"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

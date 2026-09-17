@@ -1,0 +1,29 @@
+{
+  "id": "6a2649cb864be73cfcf6d31a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "VSA",
+  "question": "Two balls are drawn at random from a bag containing 2 red balls and 3 blue balls, without replacement. Let the variable X denotes the number of red balls. Find the probability distribution of X.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The bag contains a total of $2 \\text{ red} + 3 \\text{ blue} = 5$ balls. Two balls are drawn without replacement. The random variable $X$ denotes the number of red balls drawn, so $X$ can take values $0, 1,$ or $2$. We evaluate the probability for each discrete case.<br />**Step 2:** For $X = 0$ (no red balls, meaning 2 blue balls are drawn): $P(X=0) = \\frac{3}{5} \\times \\frac{2}{4} = \\frac{6}{20} = \\frac{3}{10}$. For $X = 1$ (1 red and 1 blue ball): this can happen in two orders (Red then Blue, or Blue then Red), so $P(X=1) = (\\frac{2}{5} \\times \\frac{3}{4}) + (\\frac{3}{5} \\times \\frac{2}{4}) = \\frac{6}{20} + \\frac{6}{20} = \\frac{12}{20} = \\frac{6}{10}$.<br />**Step 3:** For $X = 2$ (both red balls are drawn): $P(X=2) = \\frac{2}{5} \\times \\frac{1}{4} = \\frac{2}{20} = \\frac{1}{10}$. Combining these into a clean distribution map, the values of $X$ and their corresponding probabilities $P(X)$ are: $\\{(0, \\frac{3}{10}), (1, \\frac{6}{10}), (2, \\frac{1}{10})\\}$. All probabilities sum to exactly $1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-1",
+    "2022-1-2",
+    "2022-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

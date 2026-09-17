@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb24b4b490c7cde359451",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "VSA",
+  "question": "If $f(x)=x^2+1$ and $g(x)=\\sin x$, find $(g\\circ f)'(1)$.",
+  "answeroption": "D",
+  "explanation": "Step 1: The composite function is $(g\\circ f)(x)=g(f(x))=\\sin(x^2+1)$.<br>Step 2: For the derivative of $g(f(x))$, differentiate the outer function and multiply by the derivative of the inner function.<br>Step 3: Since $g'(t)=\\cos t$ and $f'(x)=2x$, we obtain $(g\\circ f)'(x)=\\cos(f(x))\\cdot2x$.<br>Step 4: Substituting $f(x)=x^2+1$ gives $(g\\circ f)'(x)=2x\\cos(x^2+1)$.<br>Step 5: At $x=1$, $(g\\circ f)'(1)=2\\cos(1^2+1)=\\boxed{2\\cos2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cos2$",
+    "B": "$2\\sin2$",
+    "C": "$\\sin2$",
+    "D": "$2\\cos2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

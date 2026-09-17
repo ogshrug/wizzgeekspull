@@ -1,0 +1,30 @@
+{
+  "id": "69a992d0589ce36f368b4834",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a",
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "LA",
+  "question": "Using substitution $x=a\\tan\\theta$, evaluate $\\int \\frac{dx}{x^2+a^2}$ and express the result in terms of $\\tan^{-1}$.",
+  "answeroption": "D",
+  "explanation": "Let $x=a\\tan\\theta$.<br /><br />Then $dx=a\\sec^2\\theta d\\theta$.<br /><br />Also $x^2+a^2=a^2\\sec^2\\theta$.<br /><br />Substituting in the integral:<br /><br />$\\int \\frac{dx}{x^2+a^2}=\\int \\frac{a\\sec^2\\theta d\\theta}{a^2\\sec^2\\theta}$.<br /><br />$=\\frac1a\\int d\\theta$.<br /><br />$=\\frac{\\theta}{a}+C$.<br /><br />Since $\\tan\\theta=\\frac{x}{a}$ we have $\\theta=\\tan^{-1}(x/a)$.<br /><br />Therefore the final result is:<br /><br />$\\frac{1}{a}\\tan^{-1}(x/a)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a\\tan^{-1}(x/a)+C$",
+    "B": "$\\frac{1}{a}\\tan^{-1}(a/x)+C$",
+    "C": "$\\tan^{-1}(x/a)+C$",
+    "D": "$\\frac{1}{a}\\tan^{-1}(x/a)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 14:27:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

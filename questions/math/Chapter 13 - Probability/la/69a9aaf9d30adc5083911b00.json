@@ -1,0 +1,30 @@
+{
+  "id": "69a9aaf9d30adc5083911b00",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "LA",
+  "question": "An experiment consists of tossing a coin and throwing a die. Let X = 2 if head and an odd number occurs, X=1 if tail and an even number occurs, X=0 otherwise.<br /><br />(a) Construct the probability distribution of X.<br />(b) Calculate E(X) and Var(X).<br />(c) If the experiment is repeated 4 times, what is the probability that X=2 occurs at least twice?",
+  "answeroption": "C",
+  "explanation": "Sample space: coin(H,T); die(1–6)<br /><br />(a)<br />Possibility for X=2: Head + Odd die: H,1/H,3/H,5 → $1\\times3=3$ ways<br />Total outcomes: $2\\times6=12$<br />$P(X=2)=3/12=1/4$<br /><br />X=1: Tail+even: T,2/4/6: 1x3=3; $P=1/4$<br /><br />X=0: All others: $1-1/4-1/4=1/2$<br /><br />Distribution:<br />X: 0,1,2; P: 1/2,1/4,1/4<br /><br />(b)<br />$E(X)=0\\times1/2+1\\times1/4+2\\times1/4=0+1/4+1/2=3/4$<br /><br />$E(X^2) = 0^2\\times1/2 + 1^2\\times1/4 + 2^2\\times1/4 = 0+1/4+4/4=5/4$<br /><br />Var(X) = $5/4 - (3/4)^2 = 5/4 - 9/16 = (20-9)/16 =11/16$<br /><br />(c)<br />Binomial: n=4; P(success)=1/4<br />At least 2: $=P(2)+P(3)+P(4)$<br /><br />$=C(4,2)(1/4)^2(3/4)^2+C(4,3)(1/4)^3(3/4)^1+(1/4)^4$<br /><br />$=6\\times1/16\\times9/16 + 4\\times1/64\\times3/4 + 1/256$<br /><br />$=6\\times9/256 + 4\\times3/256 + 1/256$<br /><br />$=54/256+12/256+1/256=67/256$<br /><br />Final answers:<br />(a) Table: X: 0,1,2; P: 1/2,1/4,1/4<br />(b) $E(X)=3/4,\\ \\text{Var}(X)=11/16$<br />(c) $67/256$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(0)=\\frac{1}{4}, P(1)=\\frac{1}{4}, P(2)=\\frac{1}{2}$<br />(b) $E(X)=\\frac{5}{4}$, $Var(X)=\\frac{7}{16}$<br />(c) $\\frac{67}{256}$",
+    "B": "(a) $P(0)=\\frac{1}{2}, P(1)=\\frac{1}{4}, P(2)=\\frac{1}{4}$<br />(b) $E(X)=\\frac{3}{4}$, $Var(X)=\\frac{11}{16}$<br />(c) $\\frac{54}{256}$",
+    "C": "(a) $P(0)=\\frac{1}{2}, P(1)=\\frac{1}{4}, P(2)=\\frac{1}{4}$<br />(b) $E(X)=\\frac{3}{4}$, $Var(X)=\\frac{11}{16}$<br />(c) $\\frac{67}{256}$",
+    "D": "(a) $P(0)=\\frac{1}{2}, P(1)=\\frac{1}{2}, P(2)=0$<br />(b) $E(X)=\\frac{1}{2}$, $Var(X)=\\frac{1}{4}$<br />(c) $\\frac{1}{16}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:10:33 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

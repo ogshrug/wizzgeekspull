@@ -1,0 +1,29 @@
+{
+  "id": "6a8d24bd550d28a069ec32de",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f:\\mathbb{Z}\\to\\mathbb{Z}$ be defined by $f(x)=x^3$. Find a pre-image of $-125$ and state what this illustrates about the range of $f$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> A pre-image of $-125$ is an integer $x$ satisfying $f(x)=-125$.<br><b>Step 2:</b> Using the given rule, solve $x^3=-125$.<br><b>Step 3:</b> Since $(-5)^3=-125$, we obtain $x=-5$.<br><b>Step 4:</b> Thus, the co-domain element $-125$ has the integer pre-image $-5$. More generally, the onto property requires every integer in the co-domain to occur as an image, so individual pre-images are examined by solving $x^3=y$.<br><b>Step 5:</b> For the particular element asked, the required pre-image exists.<br><b>Final Answer:</b> A pre-image of $-125$ is $\\boxed{-5}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The pre-image is $5$; hence, $-125$ belongs to the range",
+    "B": "The pre-image is $-5$; hence, $f$ is onto $\\mathbb{Z}$",
+    "C": "The pre-image is $-5$; hence, $-125$ belongs to the range of $f$",
+    "D": "The pre-image is $-125$; hence, $-5$ belongs to the range"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a21664f91ff8b4d4561098d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f(x)=\\begin{cases}\\frac{sin~x}{x}+cos~x,&x\\ne0\\\\ k,&x=0\\end{cases}$ is continuous at $x=0$, then the value of k is:",
+  "answeroption": "B",
+  "explanation": "<b>Step 1</b> Utilize the fundamental rule governing continuity at a specific coordinate location. For $f(x)$ to remain continuous at $x = 0$, the limiting behavior as $x \\to 0$ must exist and be completely equivalent to the assigned functional point value: $\\lim_{x \\to 0} f(x) = f(0) = k$.<br /><br /><b>Step 2</b> Evaluate the limit of the expression near zero: $\\lim_{x \\to 0} \\left( \\frac{\\sin x}{x} + \\cos x \\right)$. We split this evaluation into its separate independent limits: $\\lim_{x \\to 0} \\left(\\frac{\\sin x}{x}\\right) + \\lim_{x \\to 0} (\\cos x)$.<br /><br /><b>Step 3</b> Substitute known standard limit identities: $\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$, and evaluating cosine at zero gives $\\cos(0) = 1$. Combining these results yields $1 + 1 = 2$. Therefore, we establish that $k = 2$, which fits option (B).",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "2",
+    "C": "-1",
+    "D": "-2"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

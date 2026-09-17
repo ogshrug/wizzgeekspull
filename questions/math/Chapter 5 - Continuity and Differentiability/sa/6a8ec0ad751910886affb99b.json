@@ -1,0 +1,30 @@
+{
+  "id": "6a8ec0ad751910886affb99b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d82",
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "SA",
+  "question": "Using logarithmic differentiation, show that for a positive constant $a$, $$\\frac{d}{dx}(a^x)=a^x\\log a.$$",
+  "answeroption": "A",
+  "explanation": "<b>Taking logarithm</b><br>Let $$y=a^x.$$<br>Taking logarithm on both sides, $$\\log y=x\\log a.$$<br><b>Differentiation</b><br>Differentiating with respect to $x$, $$\\frac{1}{y}\\frac{dy}{dx}=\\log a.$$<br><b>Substitution of $y=a^x$</b><br>Therefore, $$\\frac{dy}{dx}=y\\log a=a^x\\log a.$$<br>Hence, $$\\frac{d}{dx}(a^x)=a^x\\log a.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\log y=x\\log a$ gives $\\frac{1}{y}\\frac{dy}{dx}=\\log a$, hence $\\frac{dy}{dx}=a^x\\log a$.",
+    "B": "$\\log y=x\\log a$ gives $\\frac{dy}{dx}=x a^{x-1}$.",
+    "C": "$\\log y=a\\log x$ gives $\\frac{dy}{dx}=a^x\\log x$.",
+    "D": "$\\log y=x\\log a$ gives $\\frac{dy}{dx}=\\frac{a^x}{\\log a}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

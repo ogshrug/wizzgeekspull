@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed8164b490c7cde35949f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\int_0^2f(x)\\,dx=3$ and $\\int_2^5f(x)\\,dx=-1$, find $\\int_0^5f(x)\\,dx$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> Use the interval-addition property of definite integrals: $$\\int_a^bf(x)\\,dx=\\int_a^cf(x)\\,dx+\\int_c^bf(x)\\,dx.$$<br><b>Step 2:</b> Taking $a=0$, $c=2$ and $b=5$, we have $$\\int_0^5f(x)\\,dx=\\int_0^2f(x)\\,dx+\\int_2^5f(x)\\,dx.$$<br><b>Step 3:</b> Substitute the given values: $\\int_0^5f(x)\\,dx=3+(-1)$.<br><b>Step 4:</b> Simplifying gives $3-1=2$.<br><b>Step 5:</b> Therefore, the required definite integral is $\\boxed{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4$",
+    "B": "$2$",
+    "C": "$-2$",
+    "D": "$3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a215faa864be73cfcf6d133",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation $(x+2y^3)dy = y dx$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite equation as $\\frac{dx}{dy} = \\frac{x+2y^3}{y} = \\frac{x}{y} + 2y^2$.<br />**Step 2:** Rearrange to standard linear form: $\\frac{dx}{dy} - \\frac{1}{y}x = 2y^2$. This is linear in x.<br />**Step 3:** Find Integrating Factor (IF) = $e^{\\int P dy} = e^{\\int -1/y dy} = e^{-\\log y} = 1/y$.<br />**Step 4:** General solution is $x \\cdot (IF) = \\int Q \\cdot (IF) dy + C$.<br />**Step 5:** $x(\\frac{1}{y}) = \\int (2y^2)(\\frac{1}{y}) dy + C = \\int 2y dy + C$.<br />**Step 6:** $\\frac{x}{y} = y^2 + C \\implies x = y^3 + Cy$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

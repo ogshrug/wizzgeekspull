@@ -1,0 +1,30 @@
+{
+  "id": "6a8c6be71cb3824448de86aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\sin^{-1}\\left(\\dfrac{3}{5}\\right)+\\sin^{-1}\\left(\\dfrac{5}{13}\\right)+\\cos^{-1}\\left(\\dfrac{56}{65}\\right)$ exactly by establishing the required inverse-sine addition relation and verifying that the combined angle lies in the correct principal-value interval.",
+  "answeroption": "B",
+  "explanation": "<b>Formation of Angles</b><br>Let<br>$$A=\\sin^{-1}\\left(\\frac{3}{5}\\right),\\qquad B=\\sin^{-1}\\left(\\frac{5}{13}\\right)$$<br>Since both arguments are positive, $A$ and $B$ are positive acute principal angles. Therefore,<br>$$\\sin A=\\frac{3}{5},\\qquad\\cos A=\\frac{4}{5}$$<br>and<br>$$\\sin B=\\frac{5}{13},\\qquad\\cos B=\\frac{12}{13}$$<br><br><b>Applying the Addition Formula</b><br>Using the sine addition formula,<br>$$\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$$<br>$$=\\frac{3}{5}\\cdot\\frac{12}{13}+\\frac{4}{5}\\cdot\\frac{5}{13}$$<br>$$=\\frac{36}{65}+\\frac{20}{65}=\\frac{56}{65}$$<br>Also,<br>$$\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$$<br>$$=\\frac{4}{5}\\cdot\\frac{12}{13}-\\frac{3}{5}\\cdot\\frac{5}{13}$$<br>$$=\\frac{48}{65}-\\frac{15}{65}=\\frac{33}{65}>0$$<br>Since $A+B$ is positive and its cosine is positive, $A+B$ lies in $\\left(0,\\dfrac{\\pi}{2}\\right)$. It therefore belongs to the principal-value range of $\\sin^{-1}$. Hence,<br>$$A+B=\\sin^{-1}\\left(\\frac{56}{65}\\right)$$<br><br><b>Evaluation</b><br>The required expression becomes<br>$$\\sin^{-1}\\left(\\frac{56}{65}\\right)+\\cos^{-1}\\left(\\frac{56}{65}\\right)$$<br>Using the property<br>$$\\sin^{-1}t+\\cos^{-1}t=\\frac{\\pi}{2},\\qquad -1\\leq t\\leq1$$<br>we obtain<br>$$\\sin^{-1}\\left(\\frac{3}{5}\\right)+\\sin^{-1}\\left(\\frac{5}{13}\\right)+\\cos^{-1}\\left(\\frac{56}{65}\\right)=\\frac{\\pi}{2}$$<br><br><b>Final Result</b><br>The exact value of the given expression is $\\dfrac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{\\pi}{3}$",
+    "B": "$\\dfrac{\\pi}{2}$",
+    "C": "$\\dfrac{2\\pi}{3}$",
+    "D": "$\\pi$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

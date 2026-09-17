@@ -1,0 +1,31 @@
+{
+  "id": "6a8ecd44be0ecc7866e90be6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d85",
+    "69c6610140512f018fa94d86",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "LA",
+  "question": "If $$x=t^2+1,\\qquad y=t^3-3t,\\qquad t\\neq0,$$ obtain $\\frac{dy}{dx}$ and $\\frac{d^2y}{dx^2}$ in terms of the parameter $t$, and hence evaluate $\\frac{d^2y}{dx^2}$ at $t=2$.",
+  "answeroption": "B",
+  "explanation": "<b>First Derivative</b><br>For parametric functions, $$\\frac{dy}{dx}=\\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}},$$ provided $\\frac{dx}{dt}\\neq0$. Here, $$\\frac{dx}{dt}=2t$$ and $$\\frac{dy}{dt}=3t^2-3=3(t^2-1).$$ Therefore, $$\\frac{dy}{dx}=\\frac{3(t^2-1)}{2t}=\\frac{3}{2}\\left(t-\\frac{1}{t}\\right).$$<br><br><b>Second Order Derivative</b><br>For a parametric function, $$\\frac{d^2y}{dx^2}=\\frac{\\frac{d}{dt}\\left(\\frac{dy}{dx}\\right)}{\\frac{dx}{dt}}.$$ Differentiating $\\frac{dy}{dx}$ with respect to $t$, $$\\frac{d}{dt}\\left(\\frac{dy}{dx}\\right)=\\frac{3}{2}\\left(1+\\frac{1}{t^2}\\right)=\\frac{3(t^2+1)}{2t^2}.$$ Dividing by $\\frac{dx}{dt}=2t$, $$\\frac{d^2y}{dx^2}=\\frac{3(t^2+1)}{2t^2}\\cdot\\frac{1}{2t}=\\frac{3(t^2+1)}{4t^3}.$$<br><br><b>Evaluation</b><br>At $t=2$, $$\\frac{d^2y}{dx^2}=\\frac{3(2^2+1)}{4(2^3)}=\\frac{15}{32}.$$<br><br><b>Final Result</b><br>Hence, $$\\frac{dy}{dx}=\\frac{3(t^2-1)}{2t},\\qquad \\frac{d^2y}{dx^2}=\\frac{3(t^2+1)}{4t^3},$$ and at $t=2$, $$\\frac{d^2y}{dx^2}=\\frac{15}{32}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{3(t^2+1)}{2t}$, $\\frac{d^2y}{dx^2}=\\frac{3(t^2-1)}{4t^3}$; at $t=2$, $\\frac{d^2y}{dx^2}=\\frac{9}{32}$",
+    "B": "$\\frac{dy}{dx}=\\frac{3(t^2-1)}{2t}$, $\\frac{d^2y}{dx^2}=\\frac{3(t^2+1)}{4t^3}$; at $t=2$, $\\frac{d^2y}{dx^2}=\\frac{15}{32}$",
+    "C": "$\\frac{dy}{dx}=\\frac{3(t^2-1)}{2t}$, $\\frac{d^2y}{dx^2}=\\frac{3(t^2+1)}{2t^2}$; at $t=2$, $\\frac{d^2y}{dx^2}=\\frac{15}{8}$",
+    "D": "$\\frac{dy}{dx}=\\frac{3(t^2-1)}{t}$, $\\frac{d^2y}{dx^2}=\\frac{3(t^2+1)}{2t^3}$; at $t=2$, $\\frac{d^2y}{dx^2}=\\frac{15}{16}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

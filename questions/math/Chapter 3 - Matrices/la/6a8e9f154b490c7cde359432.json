@@ -1,0 +1,32 @@
+{
+  "id": "6a8e9f154b490c7cde359432",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "LA",
+  "question": "Prove that the square of a skew-symmetric matrix is symmetric, and hence verify the result for $$K=\\begin{bmatrix}0&1&-2\\\\-1&0&3\\\\2&-3&0\\end{bmatrix}$$ by explicitly calculating $K^2$.",
+  "answeroption": "D",
+  "explanation": "<b>Proof of the Required Result</b><br><br>Let $A$ be a skew-symmetric matrix. Then, by definition, $$A'=-A$$ Consider the transpose of $A^2$. Using the property $(AB)'=B'A'$, $$(A^2)'=(AA)'=A'A'$$ Since $A'=-A$, $$(A^2)'=(-A)(-A)=A^2$$ Therefore, $(A^2)'=A^2$, which proves that $A^2$ is symmetric.<br><br><b>Verification for the Given Matrix</b><br><br>For $$K=\\begin{bmatrix}0&1&-2\\\\-1&0&3\\\\2&-3&0\\end{bmatrix},$$ we have $K'=-K$, so $K$ is skew-symmetric. Now, $$K^2=\\begin{bmatrix}0&1&-2\\\\-1&0&3\\\\2&-3&0\\end{bmatrix}\\begin{bmatrix}0&1&-2\\\\-1&0&3\\\\2&-3&0\\end{bmatrix}$$ $$=\\begin{bmatrix}-5&6&3\\\\6&-10&2\\\\3&2&-13\\end{bmatrix}$$ Taking its transpose, $$(K^2)'=\\begin{bmatrix}-5&6&3\\\\6&-10&2\\\\3&2&-13\\end{bmatrix}=K^2$$ Hence, $K^2$ is symmetric, verifying the proved result for the given skew-symmetric matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "$K^2=\\begin{bmatrix}5&6&3\\\\6&10&2\\\\3&2&13\\end{bmatrix}$, which is symmetric",
+    "B": "$K^2=\\begin{bmatrix}-5&-6&3\\\\6&-10&2\\\\3&2&-13\\end{bmatrix}$, which is skew-symmetric",
+    "C": "$K^2=\\begin{bmatrix}-5&6&-3\\\\6&-10&2\\\\-3&2&-13\\end{bmatrix}$, which is symmetric",
+    "D": "$K^2=\\begin{bmatrix}-5&6&3\\\\6&-10&2\\\\3&2&-13\\end{bmatrix}$, which is symmetric"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

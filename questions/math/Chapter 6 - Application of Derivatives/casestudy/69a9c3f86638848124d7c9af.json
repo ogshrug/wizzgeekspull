@@ -1,0 +1,31 @@
+{
+  "id": "69a9c3f86638848124d7c9af",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e9908c819562f933f984"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A research lab is designing a rectangular open tank with a square base to maximize water volume for a fixed total surface area of $108$ m$^2$.<br /><br />(a) Model volume in terms of base side $x$.<br /><br />(b) Find $x$ for maximum volume.<br /><br />(c) Show minimum using the first derivative test.",
+  "answeroption": "D",
+  "explanation": "Let base side = $x$ m, height = $h$ m.<br /><br />Surface area: $x^2 + 4xh = 108$<br /><br />$4xh=108-x^2$<br /><br />$h=\\frac{108-x^2}{4x}$<br /><br />Volume $=V=x^2h=x^2\\left(\\frac{108-x^2}{4x}\\right)=\\frac{108x-x^3}{4}$<br /><br />$V'(x)=\\frac{108-3x^2}{4}$<br />Set $=0$: $x^2=36$, $x=6$<br /><br />First derivative: $V'(x)$ changes from $+$ to $-$ at $x=6$; thus, maximum at $x=6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $V=\\frac{108x+x^3}{4}$<br />(b) $x=6$ m<br />(c) $V'(x)$ changes from $-$ to $+$ at $x=6$, so volume is minimum.",
+    "B": "(a) $V=\\frac{108x-x^3}{2}$<br />(b) $x=3$ m<br />(c) $V'(x)$ changes from $+$ to $-$ at $x=3$, so volume is maximum.",
+    "C": "(a) $V=x^2(108-4x)$<br />(b) $x=9$ m<br />(c) $V'(x)$ changes from $-$ to $+$ at $x=9$, so volume is minimum.",
+    "D": "(a) $V=\\frac{108x-x^3}{4}$<br />(b) $x=6$ m<br />(c) $V'(x)$ changes from $+$ to $-$ at $x=6$, so volume is maximum."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:57:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

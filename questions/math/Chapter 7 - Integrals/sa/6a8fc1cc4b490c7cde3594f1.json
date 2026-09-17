@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc1cc4b490c7cde3594f1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int_0^{\\frac{\\pi}{4}}\\tan x\\sec^2x\\,dx$ by substitution, changing the limits accordingly.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Choosing the substitution</b><br>The factor $\\sec^2x\\,dx$ is the differential of $\\tan x$. Therefore, put<br>$$t=\\tan x$$<br>Then<br>$$dt=\\sec^2x\\,dx$$<br><b>Step 2: Changing the limits</b><br>When $x=0$, $t=\\tan0=0$. When $x=\\frac{\\pi}{4}$, $t=\\tan\\frac{\\pi}{4}=1$. Thus the new limits are $0$ and $1$.<br><b>Step 3: Transforming the definite integral</b><br>$$\\int_0^{\\frac{\\pi}{4}}\\tan x\\sec^2x\\,dx=\\int_0^1t\\,dt$$<br><b>Step 4: Integrating in the new variable</b><br>$$\\int_0^1t\\,dt=\\left[\\frac{t^2}{2}\\right]_0^1$$<br><b>Step 5: Evaluating the transformed limits</b><br>$$=\\frac{1}{2}-0=\\frac{1}{2}$$<br>Hence, the required value is $\\boxed{\\frac{1}{2}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$\\frac{1}{4}$",
+    "C": "$2$",
+    "D": "$\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

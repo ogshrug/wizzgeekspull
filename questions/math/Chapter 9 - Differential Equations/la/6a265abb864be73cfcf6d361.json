@@ -1,0 +1,29 @@
+{
+  "id": "6a265abb864be73cfcf6d361",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "LA",
+  "question": "Find the particular solution of the differential equation $x\\frac{dy}{dx}+y+\\frac{1}{1+x^{2}}=0,$ given that $y(1)=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** We are given the differential equation $x\\frac{dy}{dx}+y+\\frac{1}{1+x^{2}}=0$. First, rearrange the equation to isolate the derivative terms on one side: $x\\frac{dy}{dx} + y = -\\frac{1}{1+x^2}$. To convert this into standard first-order linear form, divide the entire equation by $x$: $\\frac{dy}{dx} + \\frac{1}{x}y = -\\frac{1}{x(1+x^2)}$. This matches the layout $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x) = \\frac{1}{x}$ and $Q(x) = -\\frac{1}{x(1+x^2)}$.<br />**Step 2:** Compute the integrating factor ($IF$) using the standard formula $IF = e^{\\int P(x) dx}$. Substituting our value gives: $IF = e^{\\int \\frac{1}{x} dx} = e^{\\log|x|} = x$. The general solution template for a linear differential equation is $y \\cdot (IF) = \\int Q(x) \\cdot (IF) dx + C$. Substituting our terms simplifies the integrand on the right side: $y \\cdot x = \\int -\\frac{1}{x(1+x^2)} \\cdot x \\, dx + C \\implies xy = -\\int \\frac{1}{1+x^2} dx + C$.<br />**Step 3:** The remaining integral is a standard form that evaluates directly to the inverse tangent function: $xy = -\\tan^{-1}x + C$. This expression represents the general solution of the differential equation. To find the unique particular solution, apply the initial boundary condition $y(1) = 0$, meaning $y = 0$ when $x = 1$. Substituting these values gives: $(1)(0) = -\\tan^{-1}(1) + C \\implies 0 = -\\frac{\\pi}{4} + C \\implies C = \\frac{\\pi}{4}$.<br />**Step 4:** Substitute this value of $C = \\frac{\\pi}{4}$ back into our general solution equation from Step 3. This gives the final particular solution: $xy = -\\tan^{-1}x + \\frac{\\pi}{4}$, which can be explicitly written as $y = -\\frac{1}{x}\\tan^{-1}x + \\frac{\\pi}{4x}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1",
+    "2022-4-2",
+    "2022-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

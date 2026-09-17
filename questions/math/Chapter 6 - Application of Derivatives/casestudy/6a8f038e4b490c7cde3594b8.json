@@ -1,0 +1,31 @@
+{
+  "id": "6a8f038e4b490c7cde3594b8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f974",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An automated platform moves along a straight testing rail. Its displacement from the starting point after $t$ seconds is modelled by $s(t)=\\frac{t^2}{t+1}$ metres, where $t\\geq0$. Sensors calculate its instantaneous velocity and acceleration to determine how its motion changes after it starts. The platform begins from rest, but its control system is designed so that it subsequently moves only in the positive direction. The recorded acceleration is also used to decide whether its velocity increases or decreases with time.(a) Obtain the velocity function.(b) Obtain the acceleration function.(c) Calculate the velocity and acceleration at $t=1$ second.(d) Determine when the platform is at rest and justify whether its velocity increases or decreases for $t>0$.",
+  "answeroption": "B",
+  "explanation": "(a)Using the quotient rule,`v(t)=\\frac{ds}{dt}=\\frac{2t(t+1)-t^2}{(t+1)^2}v(t)=\\frac{t^2+2t}{(t+1)^2}=\\frac{t(t+2)}{(t+1)^2}`Equivalently,`v(t)=1-\\frac{1}{(t+1)^2}`(b)Differentiating the velocity,`a(t)=\\frac{dv}{dt}=\\frac{2}{(t+1)^3}`(c)At $t=1$ second,`v(1)=\\frac{1(1+2)}{(1+1)^2}=\\frac{3}{4}\\ \\text{m/s}a(1)=\\frac{2}{(1+1)^3}=\\frac{1}{4}\\ \\text{m/s}^2`(d)The platform is at rest when`v(t)=\\frac{t(t+2)}{(t+1)^2}=0`This gives $t=0$ or $t=-2$. Since $t\\geq0$, the platform is at rest only at $t=0$. For $t>0$,`a(t)=\\frac{2}{(t+1)^3}>0`Therefore, the velocity increases for every $t>0$, and the platform moves in the positive direction after starting.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $v=\\frac{t^2}{(t+1)^2}$<br>(b) $a=\\frac{2t}{(t+1)^3}$<br>(c) $v(1)=\\frac{1}{4},\\ a(1)=\\frac{1}{4}$<br>(d) Rest only at $t=0$; velocity decreases for $t>0$",
+    "B": "(a) $v=\\frac{t(t+2)}{(t+1)^2}=1-\\frac{1}{(t+1)^2}$<br>(b) $a=\\frac{2}{(t+1)^3}$<br>(c) $v(1)=\\frac{3}{4}\\ \\text{m/s},\\ a(1)=\\frac{1}{4}\\ \\text{m/s}^2$<br>(d) Rest only at $t=0$; velocity increases for $t>0$",
+    "C": "(a) $v=\\frac{2t}{t+1}$<br>(b) $a=\\frac{2}{(t+1)^2}$<br>(c) $v(1)=1,\\ a(1)=\\frac{1}{2}$<br>(d) Rest at $t=0$ and $t=2$; velocity increases",
+    "D": "(a) $v=1+\\frac{1}{(t+1)^2}$<br>(b) $a=-\\frac{2}{(t+1)^3}$<br>(c) $v(1)=\\frac{5}{4},\\ a(1)=-\\frac{1}{4}$<br>(d) Never at rest; velocity decreases for $t>0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

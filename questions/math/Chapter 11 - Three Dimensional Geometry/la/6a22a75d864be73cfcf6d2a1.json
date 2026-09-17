@@ -1,0 +1,28 @@
+{
+  "id": "6a22a75d864be73cfcf6d2a1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the equations of the line passing through the points $A(1,2,3)$ and $B(3,5,9)$. Hence, find the coordinates of the points on this line which are at a distance of 14 units from point B.",
+  "answeroption": "",
+  "explanation": "**Step 1:** First, compute the exact direction ratios of the line connecting points $A(1,2,3)$ and $B(3,5,9)$. The direction ratios are $(3-1, 5-2, 9-3) = (2, 3, 6)$. Using point A, the standard Cartesian equation of the line is conclusively $\\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z-3}{6}$. Setting this equal to a parameter $r$ allows us to express any general point on the line.<br />**Step 2:** A more strategic approach to finding a point at a specific distance from B is to use point B itself as the anchor. The line equation using B is exactly equivalent: $\\frac{x-3}{2} = \\frac{y-5}{3} = \\frac{z-9}{6} = k$. Thus, any general coordinate point $P$ on this line can be elegantly parameterized as $(2k+3, 3k+5, 6k+9)$.<br />**Step 3:** The problem imposes a strict geometric condition: the distance between point P and point B(3,5,9) is exactly 14 units. We apply the 3D distance formula squared: $(2k+3 - 3)^2 + (3k+5 - 5)^2 + (6k+9 - 9)^2 = 14^2$.<br />**Step 4:** This simplifies wonderfully to $(2k)^2 + (3k)^2 + (6k)^2 = 196$. Expanding the squares gives $4k^2 + 9k^2 + 36k^2 = 196$, which sums to $49k^2 = 196$. Solving for $k^2$ yields $k^2 = 4$, which decisively means $k = 2$ or $k = -2$. There are two valid points on opposite sides of B.<br />**Step 5:** To find the final coordinates, we systematically substitute these $k$ values back into our general point parameterization. For $k = 2$, the point is $(2(2)+3, 3(2)+5, 6(2)+9) = (4+3, 6+5, 12+9) = (7, 11, 21)$. For $k = -2$, the point is $(2(-2)+3, 3(-2)+5, 6(-2)+9) = (-4+3, -6+5, -12+9) = (-1, -1, -3)$. These are the precise coordinates.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2",
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

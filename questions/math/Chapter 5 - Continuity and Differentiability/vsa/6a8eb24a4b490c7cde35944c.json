@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb24a4b490c7cde35944c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "VSA",
+  "question": "For $f(x)=|2x-4|$, compare the left-hand and right-hand derivatives at $x=2$ and hence determine whether $f$ is differentiable there.",
+  "answeroption": "B",
+  "explanation": "Step 1: Rewrite the modulus function on the two sides of $x=2$. For $x<2$, $f(x)=4-2x$, while for $x>2$, $f(x)=2x-4$.<br>Step 2: The derivative of $4-2x$ is $-2$. Therefore, the left-hand derivative at $x=2$ is $f'_{-}(2)=-2$.<br>Step 3: The derivative of $2x-4$ is $2$. Therefore, the right-hand derivative is $f'_{+}(2)=2$.<br>Step 4: A function is differentiable at a point only when its left-hand and right-hand derivatives are equal.<br>Step 5: Since $-2\\neq2$, $f$ is not differentiable at $x=2$. Thus, $f'_{-}(2)=-2$ and $f'_{+}(2)=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f'_{-}(2)=2$, $f'_{+}(2)=-2$; differentiable",
+    "B": "$f'_{-}(2)=-2$, $f'_{+}(2)=2$; not differentiable",
+    "C": "$f'_{-}(2)=2$, $f'_{+}(2)=2$; differentiable",
+    "D": "$f'_{-}(2)=-2$, $f'_{+}(2)=-2$; differentiable"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

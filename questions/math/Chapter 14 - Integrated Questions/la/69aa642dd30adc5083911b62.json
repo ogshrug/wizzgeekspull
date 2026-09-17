@@ -1,0 +1,30 @@
+{
+  "id": "69aa642dd30adc5083911b62",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\sin^{-1}: [-1,1] \\rightarrow \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$ be the principal value branch.\nConsider the matrix $A = \\begin{pmatrix} \\sin^{-1}(x) & \\sin^{-1}(y) \\\\ \\sin^{-1}(y) & \\sin^{-1}(x) \\end{pmatrix}$.\n\n(a) For which values of $x$ and $y$ is $A$ invertible?\n\n(b) If $A$ is invertible, find $A^{-1}$.\n\n(c) Show that $f(x) = A^2$ is a symmetric matrix and evaluate $\\det(A^2) - (\\det(A))^2$.",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:**<br />- Inverse trigonometric functions<br />- Matrices (inverse, powers)<br />- Determinants<br /><br />**Solution:**<br /><br />(a) $A$ is invertible $\\iff \\det(A) \\neq 0$.<br /><br />$\\det(A) = \\sin^{-1}(x)^2 - (\\sin^{-1}(y))^2$<br /><br />$= (\\sin^{-1}(x) + \\sin^{-1}(y))(\\sin^{-1}(x) - \\sin^{-1}(y))$<br /><br />$A$ is invertible if $\\sin^{-1}(x) \\neq \\pm \\sin^{-1}(y)$.<br /><br />Since $\\sin^{-1}(x) \\in [-\\frac{\\pi}{2},\\frac{\\pi}{2}]$, $x, y \\in [-1,1]$. So except when $x = y$ or $x = -y$.<br /><br />(b) For $a = \\sin^{-1}(x)$, $b = \\sin^{-1}(y)$:<br /><br />$A = \\begin{pmatrix} a & b \\\\ b & a \\end{pmatrix}$<br /><br />$A^{-1} = \\frac{1}{a^2 - b^2} \\begin{pmatrix} a & -b \\\\ -b & a \\end{pmatrix}$ for $a^2 \\neq b^2$<br /><br />(c) $A^2 = A \\cdot A = \\begin{pmatrix} a^2 + b^2 & 2ab \\\\ 2ab & a^2 + b^2 \\end{pmatrix}$ (clearly symmetric).<br /><br />$\\det(A^2) = (a^2 + b^2)^2 - (2ab)^2 = a^4 + 2a^2b^2 + b^4 - 4a^2b^2 = a^4 - 2a^2b^2 + b^4 = (a^2 - b^2)^2$<br /><br />$(\\det A)^2 = (a^2 - b^2)^2$<br /><br />So,<br /><br />$\\det(A^2) - (\\det A)^2 = 0$.<br /><br />The result is always 0.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A$ is invertible when $x,y\\in[-1,1]$ and $x\\ne y$, $x\\ne -y$<br />(b) If $a=\\sin^{-1}x$ and $b=\\sin^{-1}y$, then $A^{-1}=\\frac{1}{a^2-b^2}\\begin{pmatrix}a&-b\\\\-b&a\\end{pmatrix}$<br />(c) $A^2=\\begin{pmatrix}a^2+b^2&2ab\\\\2ab&a^2+b^2\\end{pmatrix}$ is symmetric, and $\\det(A^2)-(\\det A)^2=0$",
+    "B": "(a) $A$ is invertible for all $x,y\\in[-1,1]$<br />(b) $A^{-1}=A$<br />(c) $A^2$ is skew-symmetric and $\\det(A^2)-(\\det A)^2=1$",
+    "C": "(a) $A$ is invertible only when $x=y$<br />(b) $A^{-1}=\\begin{pmatrix}a&b\\\\b&a\\end{pmatrix}$<br />(c) $\\det(A^2)-(\\det A)^2=a^2+b^2$",
+    "D": "(a) $A$ is never invertible<br />(b) $A^{-1}$ does not exist<br />(c) $A^2=0$ and $\\det(A^2)-(\\det A)^2=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:20:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

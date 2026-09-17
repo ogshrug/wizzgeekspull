@@ -1,0 +1,29 @@
+{
+  "id": "6a2650dd864be73cfcf6d337",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a3"
+  ],
+  "question_type": "VSA",
+  "question": "Find the general solution of the following differential equation :<br />$$\\frac{dy}{dx}=e^{x-y}+x^{2}e^{-y}$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given differential equation is $\\frac{dy}{dx}=e^{x-y}+x^{2}e^{-y}$. We simplify the exponential term on the right-hand side using basic rules of exponents, separating the components: $e^{x-y} = e^x \\cdot e^{-y}$. Substituting this back allows us to factor out the shared term: $\\frac{dy}{dx} = e^x e^{-y} + x^2 e^{-y} = e^{-y}(e^x + x^2)$.<br />**Step 2:** Now, we apply the method of separation of variables to move all $y$ terms to one side and all $x$ terms to the other. Dividing both sides by $e^{-y}$ is equivalent to multiplying by $e^y$, which transforms the equation into: $\\frac{1}{e^{-y}} dy = (e^x + x^2) dx \\implies e^y dy = (e^x + x^2) dx$.<br />**Step 3:** Integrate both sides of the separated equation independently: $\\int e^y dy = \\int (e^x + x^2) dx$. Applying standard basic integration rules, the left side integrates to $e^y$, and the right side integrates term-by-term to $e^x + \\frac{x^3}{3}$. Adding the arbitrary constant of integration $C$ gives the general solution: $e^y = e^x + \\frac{x^3}{3} + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1",
+    "2022-5-2",
+    "2022-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

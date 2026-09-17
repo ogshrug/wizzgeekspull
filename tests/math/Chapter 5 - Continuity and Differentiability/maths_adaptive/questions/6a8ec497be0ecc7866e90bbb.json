@@ -1,0 +1,19 @@
+{
+  "id": "6a8ec497be0ecc7866e90bbb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "question_type": "LA",
+  "question": "Prove that if a real-valued function $f$ is differentiable at a point $x=c$, then $f$ must be continuous at $x=c$, using the definition of differentiability and the corresponding limit.",
+  "options": {
+    "A": "Differentiability at $c$ gives $\\lim_{x\\to c}f(x)=f'(c)$, so $f$ is continuous at $c$.",
+    "B": "Since $f'(c)=\\lim_{x\\to c}\\frac{f(x)-f(c)}{x-c}$ is finite, $\\lim_{x\\to c}[f(x)-f(c)]=f'(c)\\cdot0=0$, hence $\\lim_{x\\to c}f(x)=f(c)$.",
+    "C": "Since $\\lim_{x\\to c}(x-c)=0$, the difference quotient must be zero, so $f(c)=0$ and $f$ is continuous.",
+    "D": "Differentiability at $c$ implies $\\lim_{x\\to c}f(x)=0$, which equals $f(c)$ for every differentiable function."
+  },
+  "difficulty": "Medium",
+  "imageurl": null,
+  "is_diagram": false,
+  "diagram": [],
+  "test_type": "Initial"
+}

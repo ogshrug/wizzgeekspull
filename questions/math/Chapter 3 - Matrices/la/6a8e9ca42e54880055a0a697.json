@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9ca42e54880055a0a697",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5e"
+  ],
+  "question_type": "LA",
+  "question": "For the matrices $$A=\\begin{bmatrix}1&2\\\\-3&4\\end{bmatrix},\\quad B=\\begin{bmatrix}2&-1\\\\5&0\\end{bmatrix},\\quad C=\\begin{bmatrix}-4&3\\\\1&-2\\end{bmatrix},$$ evaluate $(A+B)+C$ and $A+(B+C)$ and thereby establish the associative property of matrix addition for the given matrices.",
+  "answeroption": "B",
+  "explanation": "<b>Evaluation of the First Grouping</b><br><br>First calculate $A+B$. We get $$A+B=\\begin{bmatrix}1&2\\\\-3&4\\end{bmatrix}+\\begin{bmatrix}2&-1\\\\5&0\\end{bmatrix}=\\begin{bmatrix}3&1\\\\2&4\\end{bmatrix}$$ Therefore, $$(A+B)+C=\\begin{bmatrix}3&1\\\\2&4\\end{bmatrix}+\\begin{bmatrix}-4&3\\\\1&-2\\end{bmatrix}=\\begin{bmatrix}-1&4\\\\3&2\\end{bmatrix}$$<br><br><b>Evaluation of the Second Grouping</b><br><br>Now, $$B+C=\\begin{bmatrix}2&-1\\\\5&0\\end{bmatrix}+\\begin{bmatrix}-4&3\\\\1&-2\\end{bmatrix}=\\begin{bmatrix}-2&2\\\\6&-2\\end{bmatrix}$$ Hence, $$A+(B+C)=\\begin{bmatrix}1&2\\\\-3&4\\end{bmatrix}+\\begin{bmatrix}-2&2\\\\6&-2\\end{bmatrix}=\\begin{bmatrix}-1&4\\\\3&2\\end{bmatrix}$$<br><br><b>Final Result</b><br><br>Since both groupings give the same matrix, $$(A+B)+C=A+(B+C)=\\begin{bmatrix}-1&4\\\\3&2\\end{bmatrix}$$ Therefore, the associative property of matrix addition is verified for the given matrices.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(A+B)+C=A+(B+C)=\\begin{bmatrix}1&4\\\\3&2\\end{bmatrix}$",
+    "B": "$(A+B)+C=A+(B+C)=\\begin{bmatrix}-1&4\\\\3&2\\end{bmatrix}$",
+    "C": "$(A+B)+C=A+(B+C)=\\begin{bmatrix}-1&3\\\\4&2\\end{bmatrix}$",
+    "D": "$(A+B)+C=A+(B+C)=\\begin{bmatrix}-1&4\\\\2&3\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

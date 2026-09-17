@@ -1,0 +1,30 @@
+{
+  "id": "69aa77922a66c0f894c1aa06",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7d",
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "LA",
+  "question": "Let $g(x)$ be a continuous and differentiable function on $\\mathbb{R}$ defined as $g(x) = \\cos^{-1}(x^2 - 1)$ and let $v = \\langle 2, 3, x \\rangle$ be a variable vector in $\\mathbb{R}^3$.\n\n(a) Show that $g(x)$ is defined for which $x$ values.\n\n(b) Find $\\dfrac{dg}{dx}$ for all $x$ in the domain.\n\n(c) If $v$ and $w = \\langle 1, -2, 3 \\rangle$ are perpendicular, find all values of $x$ for which $g(x)$ is defined and $v \\cdot w = 0$.\n\n(d) Compute $\\int_{a}^{b} (g(x))^2 dx$ for the values of $x$ found in (c), where $[a, b]$ is the set of possible $x$ values.",
+  "answeroption": "D",
+  "explanation": "**Concepts Tested:** Inverse Trigonometric Functions, Continuity & Differentiability, Vector Algebra, Integrals, Analysis<br /><br />(a) **Domain for $g(x)$:**<br /><br />$g(x) = \\cos^{-1}(x^2 - 1)$ is defined iff $-1 \\leq x^2 - 1 \\leq 1$<br />$\\implies 0 \\leq x^2 \\leq 2$<br />$\\implies |x| \\leq \\sqrt{2}$<br />$\\implies x \\in [-\\sqrt{2}, \\sqrt{2}]$<br /><br />(b) **Derivative:**<br /><br />$\\frac{dg}{dx} = \\frac{d}{dx} \\cos^{-1}(x^2 - 1) = \\frac{-1}{\\sqrt{1 - (x^2 - 1)^2}} \\cdot 2x = \\frac{-2x}{\\sqrt{1 - (x^2 - 1)^2}}$<br /><br />(c) **Find $x$ when $v \\cdot w = 0$ where $v = (2, 3, x)$, $w = (1, -2, 3)$:**<br /><br />$2 \\cdot 1 + 3 \\cdot (-2) + x \\cdot 3 = 0$<br />$2 - 6 + 3x = 0$<br />$3x = 4$<br />$x = \\frac{4}{3}$<br /><br />Is $x=\\frac{4}{3}$ in domain $[-\\sqrt{2}, \\sqrt{2}]$?<br />$\\sqrt{2} \\approx 1.414$; $\\frac{4}{3} \\approx 1.333$.<br />So, yes.<br /><br />Thus, $x = \\frac{4}{3}$.<br /><br />(d) **Integral:**<br /><br />As $x$ is a constant, $\\int_{a}^{b} (g(x))^2 dx$ for $x = \\frac{4}{3}$ is just 0 over a set of zero width. But if treating all $x$ such that $v \\cdot w = 0$, only $x=\\frac{4}{3}$ exists, so the area is zero.<br /><br />Alternatively, if using the domain $[-\\sqrt{2}, \\sqrt{2}]$, the integral:<br />$\\int_{-\\sqrt{2}}^{\\sqrt{2}} (\\cos^{-1}(x^2 - 1))^2 dx$ requires substitution and is likely non-elementary; requires advanced evaluation or numerical methods, demonstrating higher order skills and analytic reasoning.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain: $[-1,1]$<br />(b) $\\frac{dg}{dx}=\\frac{-x}{\\sqrt{1-x^2}}$<br />(c) $x=\\frac{3}{4}$<br />(d) Integral value $=1$",
+    "B": "(a) Domain: $(-\\infty,\\infty)$<br />(b) $\\frac{dg}{dx}=\\frac{2x}{\\sqrt{1-(x^2-1)^2}}$<br />(c) $x=-\\frac43$<br />(d) Integral value $=\\frac{4}{3}$",
+    "C": "(a) Domain: $[0,\\sqrt2]$<br />(b) $\\frac{dg}{dx}=\\frac{-2}{\\sqrt{1-(x^2-1)^2}}$<br />(c) $x=\\sqrt2$<br />(d) Integral value $=\\pi^2$",
+    "D": "(a) Domain: $[-\\sqrt2,\\sqrt2]$<br />(b) $\\frac{dg}{dx}=\\frac{-2x}{\\sqrt{1-(x^2-1)^2}}$<br />(c) $x=\\frac43$, which lies in the domain<br />(d) The set of possible $x$ values has zero width, so $\\int_a^b(g(x))^2dx=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:43:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

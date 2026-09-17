@@ -1,0 +1,33 @@
+{
+  "id": "6a226653fbdd87b6dea73b81",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of $\\int_{0}^{1}\\frac{dx}{e^{x}+e^{-x}}$ is:",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> Simplify the integrand fraction by eliminating the negative exponent term: $\\frac{1}{e^x + e^{-x}} = \\frac{1}{e^x + \\frac{1}{e^x}} = \\frac{e^x}{e^{2x} + 1}$. The definite integral becomes $\\int_{0}^{1} \\frac{e^x\\,dx}{(e^x)^2 + 1}$.<br /><br /><b>Step 2</b> Apply substitution: let $u = e^x$, so $du = e^x\\,dx$. The limits change as: when $x=0$, $u=1$; when $x=1$, $u=e$. Hence the integral becomes $\\int_{1}^{e}\\frac{du}{u^2+1}$.<br /><br /><b>Step 3</b> Using $\\int\\frac{du}{1+u^2}=\\tan^{-1}u$, we get $[\\tan^{-1}u]_{1}^{e}=\\tan^{-1}e-\\tan^{-1}1=\\tan^{-1}e-\\frac{\\pi}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{\\pi}{4}$",
+    "B": "$\\frac{\\pi}{4}$",
+    "C": "$\\tan^{-1}e-\\frac{\\pi}{4}$",
+    "D": "$\\tan^{-1}e$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

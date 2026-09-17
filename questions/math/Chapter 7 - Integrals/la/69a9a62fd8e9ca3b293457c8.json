@@ -1,0 +1,29 @@
+{
+  "id": "69a9a62fd8e9ca3b293457c8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int \\frac{1}{(x+1)\\sqrt{x}}dx$ using substitution.",
+  "answeroption": "A",
+  "explanation": "Let $x=t^2$. Then $dx=2t dt$ and $\\sqrt{x}=t$.<br /><br />Substitute into the integral:<br /><br />$\\int \\frac{1}{(t^2+1)t}(2t dt)$.<br /><br />$=2\\int \\frac{1}{t^2+1}dt$.<br /><br />$=2\\tan^{-1}t+C$.<br /><br />Substituting $t=\\sqrt{x}$ gives:<br /><br />$2\\tan^{-1}(\\sqrt{x})+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2\\tan^{-1}(\\sqrt{x})+C$",
+    "B": "$\\tan^{-1}(\\sqrt{x})+C$",
+    "C": "$2\\tan^{-1}(x)+C$",
+    "D": "$\\ln|x+1|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:50:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

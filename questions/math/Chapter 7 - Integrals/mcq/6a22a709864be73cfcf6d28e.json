@@ -1,0 +1,31 @@
+{
+  "id": "6a22a709864be73cfcf6d28e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f988"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\frac{d}{dx}(f(x)) = \\log x$, then $f(x)$ equals:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** By the fundamental theorem of calculus, integration is the reverse process of differentiation. If the derivative of $f(x)$ is $\\log x$, then $f(x)$ must be the integral of $\\log x$ with respect to $x$.<br />**Step 2:** We evaluate $\\int \\log x dx$. We use integration by parts, setting $u = \\log x$ and $dv = 1 dx$.<br />**Step 3:** Then $du = \\frac{1}{x} dx$ and $v = x$. The integration by parts formula is $uv - \\int v du$.<br />**Step 4:** Applying the formula gives $x \nlog x - \\int x(\\frac{1}{x}) dx = x \\log x - \\int 1 dx = x \\log x - x + C$.<br />**Step 5:** Factoring out $x$, we get $x(\\log x - 1) + C$. This perfectly matches option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{1}{x} + C$",
+    "B": "$x(\\log x - 1) + C$",
+    "C": "$x(\\log x + x) + C$",
+    "D": "$\\frac{1}{x} + C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

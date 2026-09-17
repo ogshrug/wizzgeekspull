@@ -1,0 +1,31 @@
+{
+  "id": "6a33b673d5dca7dcb0bf0f45",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int \\frac{e^{-x}}{16+9e^{-2x}} dx$ is equal to:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Employ the substitution method. Let $t = e^{-x}$. Consequently, $dt = -e^{-x} dx \\Rightarrow dx = \\frac{dt}{-e^{-x}}$.\n\n**Step 2:** Substitute into the original integral: $\\int \\frac{1}{16+9t^2} (-dt) = -\\int \\frac{dt}{16+9t^2}$.\n\n**Step 3:** Factor out the coefficient of $t^2$ to match the standard formula $\\int \\frac{1}{a^2+x^2} dx$: $-\\frac{1}{9} \\int \\frac{dt}{\\frac{16}{9} + t^2} = -\\frac{1}{9} \\int \\frac{dt}{\\left(\\frac{4}{3}\\right)^2 + t^2}$.\n\n**Step 4:** Compute the integral: $-\\frac{1}{9} \\cdot \\frac{3}{4} \\tan^{-1}\\left(\\frac{t}{4/3}\\right) + C = -\\frac{1}{12} \\tan^{-1}\\left(\\frac{3e^{-x}}{4}\\right) + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{16}{9} \\tan^{-1}(e^{-x}) + C$",
+    "B": "$-\\frac{1}{12} \\tan^{-1}(\\frac{3e^{-x}}{4}) + C$",
+    "C": "$\\tan^{-1}(\\frac{e^{-x}}{4}) + C$",
+    "D": "$-\\frac{1}{3} \\tan^{-1}(\\frac{e^{-x}}{4}) + C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

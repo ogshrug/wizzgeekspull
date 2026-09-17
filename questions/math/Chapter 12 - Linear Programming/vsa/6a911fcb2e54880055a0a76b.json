@@ -1,0 +1,30 @@
+{
+  "id": "6a911fcb2e54880055a0a76b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9"
+  ],
+  "question_type": "VSA",
+  "question": "A diet is prepared using foods P and Q. Each unit of P supplies 2 units of a nutrient and each unit of Q supplies 5 units. At least 20 nutrient units are required. If P and Q cost Rs 4 and Rs 7 per unit respectively, write the nutrient constraint and the objective function for minimum cost.",
+  "answeroption": "C",
+  "explanation": "Step 1: Let $x$ and $y$ denote the units of foods P and Q respectively.<br>Step 2: Food P contributes $2x$ nutrient units, while food Q contributes $5y$ nutrient units.<br>Step 3: Since at least 20 nutrient units are required, the nutrient condition becomes $2x+5y \\ge 20$.<br>Step 4: The cost of $x$ units of P is Rs $4x$, and the cost of $y$ units of Q is Rs $7y$.<br>Step 5: Therefore, the total cost is $Z=4x+7y$. Since the aim is minimum cost, $Z$ must be minimised.<br>Hence, the required constraint is $2x+5y \\ge 20$, and the objective is to minimise $Z=4x+7y$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2x+5y \\le 20$; minimise $Z=4x+7y$",
+    "B": "$2x+5y \\ge 20$; maximise $Z=4x+7y$",
+    "C": "$2x+5y \\ge 20$; minimise $Z=4x+7y$",
+    "D": "$4x+7y \\ge 20$; minimise $Z=2x+5y$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

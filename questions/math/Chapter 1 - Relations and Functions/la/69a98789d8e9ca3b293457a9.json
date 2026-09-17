@@ -1,0 +1,30 @@
+{
+  "id": "69a98789d8e9ca3b293457a9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = |x| + |x - 1| + |x + 1|$.<br /><br />(a) Find the range of $f$.<br /><br />(b) Prove whether $f$ is one-one or onto.<br /><br />(c) For $a \\in \\mathbb{R}$, define $R_a = \\{x \\in \\mathbb{R} : f(x) = a\\}$. How many elements can $R_a$ have? Justify your answer with analysis.",
+  "answeroption": "D",
+  "explanation": "(a) Let's break $f(x)$ into intervals:<br /><br />- For $x \\leq -1$: $f(x) = -x + -(x-1) + -(x+1) = -x - x +1 - x - 1 = -3x$<br /><br />- For $-1 < x \\leq 0$: $f(x) = -x + -(x-1) + (x+1) = -x - x + 1 + x + 1 = (-x-x+x) + (1+1) = -x + 2$<br /><br />- For $0 < x \\leq 1$: $f(x) = x + -(x-1) + (x+1) = x - x + 1 + x + 1 = (x-x+x) + (1+1) = x + 2$<br /><br />- For $x > 1$: $f(x) = x + (x-1) + (x+1) = x + x - 1 + x + 1 = 3x$<br /><br />Now, compute values at intervals' endpoints:<br /><br />- At $x=-1$: $f(-1) = |-1| + |-2| + |0| = 1+2+0 = 3$<br /><br />- At $x=0$: $f(0) = 0+1+1=2$<br /><br />- At $x=1$: $f(1) = 1+0+2=3$<br /><br />Range:<br /><br />For $x\\leq -1$, $f(x) = -3x$, so as $x \\to -\\infty$, $f(x) \\to +\\infty$, at $x=-1$, $f(-1)=3$. So $f(x)$ decreases towards 3 as $x$ increases up to $-1$. For $x>-1$ up to 0, $f(x)=-x+2$; $x\\to-1$: $f(x)\\to3$, $x\\to0^-: f(x)\\to2$. For $x$ in $(0,1]$; $f(x)=x+2$, $x\\to0^+:f(x)\\to2$, $x\\to1^-$, $f(x)\\to3$. For $x>1$, $f(x)=3x\\to\\infty$ as $x\\to\\infty$, at $x=1$, $f(1)=3$.<br /><br />Thus, the minimum value is 2 (at $x=0$).<br /><br />Therefore, range is $[2, \\infty)$.<br /><br />(b) Is it one-one? Suppose $f(a)=f(b)$; try $a=1$, $b=-1$, $f(1)=3$, $f(-1)=3$, so not one-one.<br /><br />Is it onto? For any $y \\geq 2$:<br /><br />- If $y = 2$, $x=0$<br /><br />- If $y>3$, $x$ in $(-\\infty, -1)$, $f(x) = -3x = y \\implies x = -y/3 < -1$;<br /><br />Or in $(1,\\infty)$, $3x = y \\implies x= y/3 > 1$ for $y > 3$. For $y \\in (2,3)$, in $(-1,0)$ and $(0,1)$: For $x\\in(-1,0)$, $f(x) = -x+2 \\in (2,3)$ as $x$ increases from $-1$ to $0$.<br /><br />Thus, every $y\\geq 2$ is hit for some $x$. Hence, $f$ is onto $[2,\\infty)$ as codomain, but not $\\mathbb{R}$.<br /><br />(c) **Analysis of $R_a = \\{x \\in \\mathbb{R} : f(x) = a\\}$:**<br /><br />**Case 1: $a < 2$**<br /><br />$R_a = \\emptyset$ (empty set) since range is $[2, \\infty)$<br /><br />**Case 2: $a = 2$**<br /><br />Only $x = 0$ satisfies $f(x) = 2$<br /><br />$R_2 = \\{0\\}$ (1 element)<br /><br />**Case 3: $2 < a < 3$**<br /><br />Two solutions exist:<br /><br />- In $(-1,0)$: $-x + 2 = a \\implies x = 2 - a$<br /><br />- In $(0,1)$: $x + 2 = a \\implies x = a - 2$<br /><br />$R_a$ has 2 elements<br /><br />**Case 4: $a = 3$**<br /><br />Two solutions exist:<br /><br />$x = -1$ and $x = 1$<br /><br />$R_3 = \\{-1, 1\\}$ (2 elements)<br /><br />**Case 5: $a > 3$**<br /><br />Two solutions exist:<br /><br />- In $(-\\infty, -1)$: $-3x = a \\implies x = -a/3$<br /><br />- In $(1, \\infty)$: $3x = a \\implies x = a/3$<br /><br />$R_a$ has 2 elements<br /><br />**Summary:**<br /><br />$|R_a| = \\begin{cases}<br />0 & \\text{if } a < 2 \\\\<br />1 & \\text{if } a = 2 \\\\<br />2 & \\text{if } a > 2<br />\\end{cases}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Range of $f$ is $\\mathbb{R}$.<br> (b) $f$ is one-one and onto. <br>(c) $|R_a|=1$ for every $a\\in\\mathbb{R}$.",
+    "B": "(a) Range of $f$ is $[0,\\infty)$. <br>(b) $f$ is one-one but not onto $\\mathbb{R}$. <br>(c) $|R_a|=0$ if $a<0$, and $|R_a|=1$ if $a\\ge0$.",
+    "C": "(a) Range of $f$ is $[3,\\infty)$.<br> (b) $f$ is onto $\\mathbb{R}$ but not one-one.<br> (c) $|R_a|=2$ for all $a\\ge3$ and $0$ otherwise.",
+    "D": "(a) Range of $f$ is $[2,\\infty)$. <br>(b) $f$ is not one-one and not onto $\\mathbb{R}$, though it is onto $[2,\\infty)$ if that is the codomain. <br>(c) $|R_a|=0$ if $a<2$, $|R_a|=1$ if $a=2$, and $|R_a|=2$ if $a>2$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:39:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

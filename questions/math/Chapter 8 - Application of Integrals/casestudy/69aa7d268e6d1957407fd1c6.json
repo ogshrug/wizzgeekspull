@@ -1,0 +1,33 @@
+{
+  "id": "69aa7d268e6d1957407fd1c6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995",
+    "6a13eb348c819562f933f99a",
+    "6a13eb338c819562f933f993"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 1: Architecture and Urban Design**<br /><br />An urban designer is planning to build a new city square, which will have a unique feature: the ground will be paved in the area bounded by the parabola $y^2 = 8x$, the line $y = 4$, and the $y$-axis. The designer also wants to place a pond inside the square such that its area is half of the total area calculated above and is located as close as possible to the vertex of the parabola.<br /><br />(a) Calculate the precise area of the region bounded by the given curves using definite integrals.<br /><br />(b) Interpret the mathematical significance of this area in the context of land allocation for the square.<br /><br />(c) Suppose the designer changes the height of the line to $y = k$ with $0 < k < 4\\sqrt{2}$. Derive, in terms of $k$, a general formula for the bounded area and discuss how the maximum possible area that can be paved changes as $k$ varies from $0$ to its maximum possible value.",
+  "answeroption": "B",
+  "explanation": "Let us first analyze the curves.<br /><br />The parabola is $y^2 = 8x$ (rightwards opening), the line is $y = 4$, and we are bounded by the $y$-axis ($(x = 0)$).<br /><br />**Step 1:** Find points of intersection.<br /><br />Plug $y = 4$ into $y^2 = 8x$:<br /><br />$4^2 = 8x\\implies 16 = 8x \\implies x = 2$<br /><br />So, at $y = 4$, $x$ moves from $x = 0$ (the $y$-axis) to $x = 2$ (on the parabola).<br /><br />**Step 2:** Express $x$ as a function of $y$: From $y^2 = 8x$, $x = \\frac{y^2}{8}$<br /><br />**Step 3:** Set up the definite integral for area between $y$-axis and parabola, from $y = 0$ to $y = 4$:<br /><br />$A = \\int_{y=0}^{4} \\left[2 - \\frac{y^2}{8}\\right] dy$<br /><br />But wait, we want the area between y-axis ($x=0$) and parabola ($x = \\frac{y^2}{8}$) from $y=0$ to $y=4$.<br /><br />$A = \\int_{y=0}^{4} \\left[\\frac{y^2}{8} - 0 \\right] dy$<br /><br />But we must be careful, because above $y=4$, there is no further bounded region (since the line $y=4$ forms the upper limit).<br /><br />Actually, the bounded region is between $x=0$ and $x=\\frac{y^2}{8}$ for $y$ between $0$ and $4$.<br /><br />So, Area = $\\int_{y=0}^{4} \\frac{y^2}{8} dy$<br /><br />**Step 4:** Compute the integral:<br /><br />$\\int_{y=0}^{4} \\frac{y^2}{8} dy = \\frac{1}{8}\\int_{0}^{4} y^2 dy$<br /><br />$= \\frac{1}{8}\\left. \\frac{y^3}{3} \\right|_{0}^{4}$<br /><br />$= \\frac{1}{8} \\cdot \\left( \\frac{64}{3} - 0 \\right )$<br /><br />$= \\frac{1}{8} \\times \\frac{64}{3} = \\frac{8}{3}$ sq. units<br /><br />---<br /><br />(b) The area $\\frac{8}{3}$ represents the exact land allocation— in square units— for the paved region in the city square. This translates to the exact quantity of paving material needed and influences the development of other square features, such as the planned pond.<br /><br />---<br /><br />(c) Now let $y = k$ ($0 < k < 4\\sqrt{2}$), find the general formula for the bounded area.<br /><br />Intersection: $k^2 = 8x \\implies x=\\frac{k^2}{8}$.<br /><br />Now, area:<br /><br />$A(k) = \\int_{y=0}^{y=k} \\left[ \\frac{y^2}{8} - 0 \\right ] dy$<br /><br />$= \\frac{1}{8} \\int_{0}^{k} y^2 dy = \\frac{1}{8} \\cdot \\left.\\frac{y^3}{3} \\right|_{0}^{k}$<br /><br />$= \\frac{1}{8} \\times \\frac{k^3}{3} = \\frac{k^3}{24}$<br /><br />As $k$ increases from $0$ to $4\\sqrt{2}$, $A(k)$ increases up to $\\frac{(4\\sqrt{2})^3}{24} = \\frac{64 \\sqrt{2}}{3}$, but it eventually becomes unbounded if $k$ exceeds the range for which $y^2 = 8x$ is still forming a closed region with $x=0$. Thus, the designer's paving area can be precisely controlled through the parameter $k$.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69aa7d268e6d1957407fd1c6/1778593493-0.jpeg?t=1778593494227"
+  ],
+  "options": {
+    "A": "(a) Area $=\\frac{16}{3}$ sq. units.<br />(b) It represents double the paved region.<br />(c) $A(k)=\\frac{k^2}{24}$ and maximum area is $\\frac{16\\sqrt2}{3}$.",
+    "B": "(a) Area $=\\frac{8}{3}$ sq. units.<br />(b) It represents the exact paved land allocation.<br />(c) $A(k)=\\frac{k^3}{24}$ and maximum area is $\\frac{16\\sqrt2}{3}$ when $k=4\\sqrt2$.",
+    "C": "(a) Area $=8$ sq. units.<br />(b) It represents only the pond area.<br />(c) $A(k)=\\frac{k^3}{8}$ and maximum area is $16\\sqrt2$.",
+    "D": "(a) Area $=\\frac{4}{3}$ sq. units.<br />(b) It represents half of the paved region.<br />(c) $A(k)=\\frac{k}{24}$ and maximum area is $\\frac{8}{3}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:07:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fda20be0ecc7866e90c6a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "SA",
+  "question": "Examine the following differential equations:<br>(i) $\\frac{dy}{dx}+\\frac{1}{x}y=e^x$, $x\\neq0$<br>(ii) $\\frac{dy}{dx}+y^2=x$.<br>Determine which of them is a first-order linear differential equation in $y$ and justify your answer.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Use the criterion for linearity</b><br>A first-order linear differential equation in $y$ has the form $$\\frac{dy}{dx}+P(x)y=Q(x),$$ where $P$ and $Q$ are constants or functions of $x$ only.<br><b>Step 2: Examine equation (i)</b><br>The equation $$\\frac{dy}{dx}+\\frac{1}{x}y=e^x$$ has $P(x)=\\frac{1}{x}$ and $Q(x)=e^x$. Both depend only on $x$, and $y$ occurs only to the first power.<br><b>Step 3: Classify equation (i)</b><br>Hence, equation (i) is a first-order linear differential equation in $y$.<br><b>Step 4: Examine equation (ii)</b><br>In $$\\frac{dy}{dx}+y^2=x,$$ the dependent variable occurs as $y^2$ rather than to the first power.<br><b>Step 5: Conclusion</b><br>Therefore, equation (ii) is not a linear differential equation in $y$, while equation (i) is linear.",
+  "explanation_image": [],
+  "options": {
+    "A": "Only (i) is a first-order linear differential equation in $y$; (ii) is nonlinear because of the term $y^2$.",
+    "B": "Only (ii) is linear because its right-hand side is $x$.",
+    "C": "Both (i) and (ii) are first-order linear differential equations.",
+    "D": "Neither (i) nor (ii) is a first-order linear differential equation."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

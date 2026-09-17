@@ -1,0 +1,30 @@
+{
+  "id": "6a8f067a2e54880055a0a6e3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f985"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "The efficiency of a process is represented for $x\\geq0$ by the function $E(x)=xe^{-x}$. Answer the following connected questions: (a) Determine its critical point in the given domain. (b) Examine the signs of the first derivative immediately on the two sides of the critical point. (c) Use the first derivative test to classify the critical point. (d) Verify the classification using the second derivative test and determine the corresponding efficiency.",
+  "answeroption": "A",
+  "explanation": "(a) The function is `E(x)=xe^{-x}` Differentiating by the product rule, `E'(x)=e^{-x}-xe^{-x}=e^{-x}(1-x)` Since $e^{-x}>0$ for every real $x$, $E'(x)=0$ when `1-x=0` Therefore, the critical point occurs at $x=1$.(b) For $0\\leq x<1$, we have $1-x>0$, so $E'(x)>0$. For $x>1$, we have $1-x<0$, so $E'(x)<0$. Thus, the first derivative changes from positive to negative at $x=1$.(c) By the first derivative test, a change in $E'(x)$ from positive to negative shows that $E$ has a local maximum at $x=1$.(d) Differentiating $E'(x)=e^{-x}(1-x)$, `E''(x)=-e^{-x}(1-x)-e^{-x}=e^{-x}(x-2)` At $x=1$, `E''(1)=e^{-1}(1-2)=-\\frac{1}{e}<0` Hence, the second derivative test also confirms that $E$ has a local maximum at $x=1$. The corresponding efficiency is `E(1)=1\\cdot e^{-1}=\\frac{1}{e}`Final ResultBoth derivative tests establish that the process has maximum efficiency $\\frac{1}{e}$ at $x=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Critical point $x=1$<br>(b) $E'(x)>0$ for $0\\leq x<1$ and $E'(x)<0$ for $x>1$<br>(c) $x=1$ is a local maximum by the first derivative test<br>(d) $E''(1)=-\\frac{1}{e}<0$; maximum efficiency $\\frac{1}{e}$",
+    "B": "(a) Critical point $x=0$<br>(b) $E'(x)<0$ before and $>0$ after $0$<br>(c) $x=0$ is a local minimum<br>(d) $E''(0)<0$; efficiency $0$",
+    "C": "(a) Critical point $x=2$<br>(b) $E'(x)>0$ for $x<2$ and $<0$ for $x>2$<br>(c) $x=2$ is a local maximum<br>(d) $E''(2)<0$; efficiency $\\frac{2}{e^2}$",
+    "D": "(a) Critical point $x=1$<br>(b) $E'(x)<0$ for $0\\leq x<1$ and $E'(x)>0$ for $x>1$<br>(c) $x=1$ is a local minimum<br>(d) $E''(1)>0$; efficiency $\\frac{1}{e}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

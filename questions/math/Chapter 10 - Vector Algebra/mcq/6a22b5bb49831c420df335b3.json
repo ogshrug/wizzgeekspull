@@ -1,0 +1,33 @@
+{
+  "id": "6a22b5bb49831c420df335b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "MCQ",
+  "question": "The respective values of $|\\vec{a}|$ and $|\\vec{b}|$, if given $(\\vec{a}-\\vec{b})\\cdot(\\vec{a}+\\vec{b})=512$ and $|\\vec{a}|=3|\\vec{b}|$, are:",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> Expand the given dot product expression using the distributive property: $(\\vec{a}-\\vec{b})\\cdot(\\vec{a}+\\vec{b}) = \\vec{a}\\cdot\\vec{a} + \\vec{a}\\cdot\\vec{b} - \\vec{b}\\cdot\\vec{a} - \\vec{b}\\cdot\\vec{b}$. Since the dot product is commutative (${\\vec{a}\\cdot\\vec{b} = \\vec{b}\\cdot\\vec{a}}$), the middle terms cancel out, leaving: $|\\vec{a}|^2 - |\\vec{b}|^2 = 512$.<br /><br /><b>Step 2</b> Substitute the second given condition, $|\\vec{a}| = 3|\\vec{b}|$, into our simplified equation: $(3|\\vec{b}|)^2 - |\\vec{b}|^2 = 512 \\implies 9|\\vec{b}|^2 - |\\vec{b}|^2 = 512 \\implies 8|\\vec{b}|^2 = 512$.<br /><br /><b>Step 3</b> Solve for the magnitudes: dividing by 8 gives $|\\vec{b}|^2 = 64 \\implies |\\vec{b}| = 8$. Using our relation, we find the magnitude of the first vector: $|\\vec{a}| = 3(8) = 24$. Thus, the values are 24 and 8, which corresponds to option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "48 and 16",
+    "B": "3 and 1",
+    "C": "24 and 8",
+    "D": "6 and 2"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

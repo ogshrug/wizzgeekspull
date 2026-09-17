@@ -1,0 +1,33 @@
+{
+  "id": "6a2265b3fbdd87b6dea73b6c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "MCQ",
+  "question": "If A and B are square matrices of same order such that $AB=A$ and $BA=B$, then $A^{2}+B^{2}$ is equal to :",
+  "answeroption": "A",
+  "explanation": "<b>Step 1</b> Let let us analyze the matrix term $A^2$ by using the given condition $AB = A$. We can expand $A^2$ as the product $A \\cdot A$. Substituting $AB$ in place of the first $A$ gives $A^2 = (AB)A$.<br /><br /><b>Step 2</b> Matrix multiplication is associative, so we can regroup the terms as $A(BA)$. Now use the second given condition, $BA = B$, to substitute $B$ back into the parentheses: $A(B) = AB$. Since we are given $AB = A$, this simplifies directly to $A^2 = A$.<br /><br /><b>Step 3</b> Follow the same logic to simplify the second term, $B^2 = B \\cdot B$. Substituting $BA = B$ gives $B^2 = (BA)B = B(AB)$. Since $AB = A$, this becomes $BA$, which simplifies to $B^2 = B$. Adding our two results together gives $A^2 + B^2 = A + B$, which matches option A.",
+  "explanation_image": [],
+  "options": {
+    "A": "A + B",
+    "B": "BA",
+    "C": "2(A + B)",
+    "D": "2BA"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

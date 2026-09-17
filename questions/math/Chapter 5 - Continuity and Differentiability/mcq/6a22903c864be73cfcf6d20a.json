@@ -1,0 +1,32 @@
+{
+  "id": "6a22903c864be73cfcf6d20a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "MCQ",
+  "question": "The derivative of $\\sin(x^2)$ w.r.t. $x$, at $x = \\sqrt{\\pi}$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Use chain rule to differentiate $y = \\sin(x^2)$. Derivative of outer $\\sin(u)$ is $\\cos(u)$, multiply by derivative of inner $u = x^2$.<br />**Step 2:** $\\frac{dy}{dx} = \\cos(x^2) \\cdot 2x = 2x \\cos(x^2)$.<br />**Step 3:** Evaluate at $x = \\sqrt{\\pi}$.<br />**Step 4:** $\\frac{dy}{dx} = 2\\sqrt{\\pi} \\cos((\\sqrt{\\pi})^2) = 2\\sqrt{\\pi} \\cos(\\pi)$.<br />**Step 5:** Since $\\cos(\\pi) = -1$, the value is $-2\\sqrt{\\pi}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "1",
+    "B": "-1",
+    "C": "$-2\\sqrt{\\pi}$",
+    "D": "$2\\sqrt{\\pi}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1",
+    "2024-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

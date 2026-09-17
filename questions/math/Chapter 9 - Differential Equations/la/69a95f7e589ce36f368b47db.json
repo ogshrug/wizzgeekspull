@@ -1,0 +1,29 @@
+{
+  "id": "69a95f7e589ce36f368b47db",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "LA",
+  "question": "Find the particular solution of the differential equation $\\displaystyle \\frac{dy}{dx} + 2y = 6e^{2x}$ given that $y(0) = 1$.",
+  "answeroption": "A",
+  "explanation": "Given:<br /><br />$\\frac{dy}{dx} + 2y = 6e^{2x}$<br /><br />This is a linear ODE. The integrating factor is:<br /><br />$IF = e^{\\int 2 dx} = e^{2x}$<br /><br />Multiply both sides by $e^{2x}$:<br /><br />$e^{2x} \\frac{dy}{dx} + 2 e^{2x} y = 6 e^{4x}$<br /><br />$\\Rightarrow \\frac{d}{dx}(y e^{2x}) = 6e^{4x}$<br /><br />Integrate both sides:<br /><br />$\\int \\frac{d}{dx}(y e^{2x}) dx = \\int 6e^{4x} dx$<br /><br />$y e^{2x} = \\frac{6}{4} e^{4x} + C$<br /><br />$y e^{2x} = \\frac{3}{2} e^{4x} + C$<br /><br />$y = \\frac{3}{2} e^{2x} + Ce^{-2x}$<br /><br />Use $y(0) = 1$:<br /><br />$1 = \\frac{3}{2} \\cdot 1 + C \\cdot 1 \\implies C = 1 - \\frac{3}{2} = -\\frac{1}{2}$<br /><br />Final answer:<br /><br />$y(x) = \\frac{3}{2} e^{2x} - \\frac{1}{2} e^{-2x}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y(x)=\\frac{3}{2}e^{2x}-\\frac{1}{2}e^{-2x}$",
+    "B": "$y(x)=\\frac{3}{2}e^{2x}+\\frac{1}{2}e^{-2x}$",
+    "C": "$y(x)=3e^{2x}-2e^{-2x}$",
+    "D": "$y(x)=\\frac{1}{2}e^{2x}-\\frac{3}{2}e^{-2x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:48:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

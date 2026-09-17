@@ -1,0 +1,31 @@
+{
+  "id": "69a9bdce62be6a70cd184e31",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A manufacturer wants to design an open cylindrical can with a volume of $500\\pi \\text{ cm}^3$. Find the dimensions (radius and height) of the can that will minimize the cost of the material used.<br /><br />(a) Express height in terms of radius using the volume constraint.<br /><br />(b) Form the surface area function.<br /><br />(c) Find the radius and height that minimize the surface area.",
+  "answeroption": "A",
+  "explanation": "Let radius $r$ cm and height $h$ cm.<br /><br />(a) Volume constraint: $\\pi r^2h = 500\\pi$.<br /><br />So $h = \\frac{500}{r^2}$.<br /><br />(b) Surface area of open cylinder: $S = \\pi r^2 + 2\\pi rh$.<br /><br />Substitute $h$:<br /><br />$S = \\pi r^2 + \\frac{1000\\pi}{r}$.<br /><br />(c) Differentiate:<br /><br />$\\frac{dS}{dr} = 2\\pi r - \\frac{1000\\pi}{r^2}$.<br /><br />Set equal to zero:<br /><br />$2r^3 = 1000$<br /><br />$r^3 = 500$<br /><br />$r = 500^{1/3} \\approx 7.94$.<br /><br />Then $h = \\frac{500}{r^2} \\approx 7.94$.<br /><br />Thus the optimal can has approximately equal radius and height.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $h=\\frac{500}{r^2}$<br />(b) $S=\\pi r^2+\\frac{1000\\pi}{r}$<br />(c) $r=500^{1/3}\\approx7.94$ cm and $h\\approx7.94$ cm.",
+    "B": "(a) $h=\\frac{500}{r}$<br />(b) $S=\\pi r^2+1000\\pi r$<br />(c) $r\\approx5.00$ cm and $h\\approx20.00$ cm.",
+    "C": "(a) $h=\\frac{1000}{r^2}$<br />(b) $S=2\\pi r^2+\\frac{1000\\pi}{r}$<br />(c) $r=250^{1/3}\\approx6.30$ cm and $h\\approx12.60$ cm.",
+    "D": "(a) $h=\\frac{500}{r^2}$<br />(b) $S=2\\pi r^2+\\frac{1000\\pi}{r}$<br />(c) $r=250^{1/3}\\approx6.30$ cm and $h\\approx12.60$ cm."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:30:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

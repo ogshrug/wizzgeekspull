@@ -1,0 +1,29 @@
+{
+  "id": "6a8d8abc4b490c7cde3593b1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "LA",
+  "question": "Let $X$ be a non-empty set and let $P(X)$ be its power set. Define $*$ on $P(X)$ by $A*B=(A-B)\\cup(B-A)$ for all $A,B\\in P(X)$. Show that $*$ is a binary operation, determine its identity element, and establish that every element of $P(X)$ is invertible with respect to $*$.",
+  "answeroption": "B",
+  "explanation": "<b>Closure of the operation</b><br>For $A,B\\in P(X)$, both $A-B$ and $B-A$ are subsets of $X$. Therefore, their union is also a subset of $X$. Hence, $$(A-B)\\cup(B-A)\\in P(X)$$ Thus, $*$ is a binary operation on $P(X)$.<br><br><b>Identity element</b><br>Let $\\varnothing$ denote the empty set. For every $A\\in P(X)$, $$A*\\varnothing=(A-\\varnothing)\\cup(\\varnothing-A)$$ Since $$A-\\varnothing=A\\quad\\text{and}\\quad\\varnothing-A=\\varnothing$$ we get $$A*\\varnothing=A$$ Similarly, $$\\varnothing*A=(\\varnothing-A)\\cup(A-\\varnothing)=A$$ Hence, $\\varnothing$ is the identity element.<br><br><b>Inverse of an arbitrary element</b><br>For any $A\\in P(X)$, consider $A*A$. We have $$A*A=(A-A)\\cup(A-A)$$ Since $$A-A=\\varnothing$$ it follows that $$A*A=\\varnothing\\cup\\varnothing=\\varnothing$$ which is the identity element. Therefore, each set $A$ is its own inverse with respect to $*$.<br><br><b>Final Result</b><br>The operation $*$ is a binary operation on $P(X)$ with identity element $\\varnothing$, and every $A\\in P(X)$ is invertible with $$A^{-1}=A$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$*$ is a binary operation with identity $X$, and the inverse of every $A\\in P(X)$ is its complement $X-A$.",
+    "B": "$*$ is a binary operation with identity $\\varnothing$, and every $A\\in P(X)$ is its own inverse because $A*A=\\varnothing$.",
+    "C": "$*$ is a binary operation with identity $\\varnothing$, but only $\\varnothing$ is invertible.",
+    "D": "$*$ is not a binary operation because $(A-B)\\cup(B-A)$ need not be a subset of $X$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

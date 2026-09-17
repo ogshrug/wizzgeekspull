@@ -1,0 +1,30 @@
+{
+  "id": "69a9cc5762be6a70cd184e4a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "LA",
+  "question": "Let $P = \\begin{bmatrix}3 & 0\\\\2 & 1\\end{bmatrix}$ and $Q = \\begin{bmatrix}1 & -1\\\\0 & 2\\end{bmatrix}$. Compute $(P'Q - Q'P)'$ and then deduce whether the resulting matrix is symmetric, skew symmetric, or neither, providing full justification.",
+  "answeroption": "B",
+  "explanation": "First compute the transposes:<br /><br />$P' = \\begin{bmatrix}3 & 2\\\\0 & 1\\end{bmatrix}$ and $Q' = \\begin{bmatrix}1 & 0\\\\-1 & 2\\end{bmatrix}$.<br /><br />Compute $P'Q$:<br /><br />$P'Q = \\begin{bmatrix}3 & 2\\\\0 & 1\\end{bmatrix}\\begin{bmatrix}1 & -1\\\\0 & 2\\end{bmatrix} = \\begin{bmatrix}3 & 1\\\\0 & 2\\end{bmatrix}$.<br /><br />Compute $Q'P$:<br /><br />$Q'P = \\begin{bmatrix}1 & 0\\\\-1 & 2\\end{bmatrix}\\begin{bmatrix}3 & 0\\\\2 & 1\\end{bmatrix} = \\begin{bmatrix}3 & 0\\\\1 & 2\\end{bmatrix}$.<br /><br />Thus $P'Q - Q'P = \\begin{bmatrix}0 & 1\\\\-1 & 0\\end{bmatrix}$.<br /><br />Taking transpose:<br /><br />$(P'Q - Q'P)' = \\begin{bmatrix}0 & -1\\\\1 & 0\\end{bmatrix}$.<br /><br />Since $(P'Q - Q'P)' = -(P'Q - Q'P)$, the matrix is skew symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(P'Q-Q'P)'=\\begin{bmatrix}0&1\\\\-1&0\\end{bmatrix}$, and it is symmetric.",
+    "B": "$(P'Q-Q'P)'=\\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix}$, and it is skew-symmetric.",
+    "C": "$(P'Q-Q'P)'=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$, and it is symmetric.",
+    "D": "$(P'Q-Q'P)'=\\begin{bmatrix}3&1\\\\0&2\\end{bmatrix}$, and it is neither symmetric nor skew-symmetric."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:32:55 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

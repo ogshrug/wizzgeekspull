@@ -1,0 +1,26 @@
+{
+  "id": "6a32355f6dbc98396e70a766",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Find : $\\int\\frac{cos~2x}{(sin~x+cos~x)^{2}}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Expand the numerator using the standard trigonometric double-angle identity: $\\cos 2x = \\cos^2 x - \\sin^2 x = (\\cos x - \\sin x)(\\cos x + \\sin x)$.<br />**Step 2:** Substitute this back into the integrand and cancel the common factor $(\\cos x + \\sin x)$ from the numerator and denominator: $\\int \\frac{\\cos x - \\sin x}{\\sin x + \\cos x} \\, dx$.<br />**Step 3:** Apply substitution method by letting $u = \\sin x + \\cos x$, which means $du = (\\cos x - \\sin x)dx$. The integral reduces to $\\int \\frac{1}{u} \\, du = \\ln|u| + C = \\ln|\\sin x + \\cos x| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

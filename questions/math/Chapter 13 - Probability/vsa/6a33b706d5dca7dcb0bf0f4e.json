@@ -1,0 +1,28 @@
+{
+  "id": "6a33b706d5dca7dcb0bf0f4e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "VSA",
+  "question": "10 identical blocks are marked with '0' on two of them, '1' on three of them, '2' on four of them and '3' on one of them and put in a box. If X denotes the number written on the block, then write the probability distribution of X and calculate its mean.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Identify the possible values for the random variable $X$: $X \\in \\{0, 1, 2, 3\\}$.\n\n**Step 2:** Calculate the probability for each value of $X$ based on the total 10 blocks: $P(X=0) = \\frac{2}{10}$, $P(X=1) = \\frac{3}{10}$, $P(X=2) = \\frac{4}{10}$, and $P(X=3) = \\frac{1}{10}$.\n\n**Step 3:** Use the formula for the mean (Expected Value) of a probability distribution: $E(X) = \\sum x_i P(x_i)$.\n\n**Step 4:** Substitute the values and calculate: $E(X) = 0\\left(\\frac{2}{10}\\right) + 1\\left(\\frac{3}{10}\\right) + 2\\left(\\frac{4}{10}\\right) + 3\\left(\\frac{1}{10}\\right) = \\frac{0 + 3 + 8 + 3}{10}$.\n\n**Step 5:** Finalize the mean: $E(X) = \\frac{14}{10} = 1.4$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

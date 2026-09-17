@@ -1,0 +1,33 @@
+{
+  "id": "6a266cb8864be73cfcf6d392",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0"
+  ],
+  "question_type": "MCQ",
+  "question": "Which of the following points satisfies both the inequations $2x+y\\le10$ and $x+2y\\ge8$?",
+  "answeroption": "d",
+  "explanation": "**Step 1:** To find which coordinate point satisfies both inequalities, we test the given option coordinates one-by-one. Let us look at option (d) with the point coordinate $(4, 2)$. First, substitute $x=4$ and $y=2$ into our first linear constraint inequality: $2x + y \\le 10 \\implies 2(4) + 2 = 8 + 2 = 10$. Since $10 \\le 10$ is mathematically true, the point satisfies the first constraint.<br />**Step 2:** Next, substitute the same coordinate values $x=4$ and $y=2$ into our second linear constraint inequality: $x + 2y \\ge 8 \\implies 4 + 2(2) = 4 + 4 = 8$. Since $8 \\ge 8$ is mathematically true, the point also satisfies the second constraint.<br />**Step 3:** For comparison, let's test option (b) point $(3,2)$: the second inequality gives $3 + 2(2) = 7 \\ge 8$, which is false. Testing option (a) point $(-2,4)$: the non-negativity or quadrant layout fails to clear standard constraints depending on context, but checking specifically: $-2 + 2(4) = 6 \\ge 8$, which is false. Thus, only point $(4,2)$ satisfies both equations, matching option (d).",
+  "explanation_image": [],
+  "options": {
+    "A": "(-2, 4)",
+    "B": "(3, 2)",
+    "C": "(-5, 6)",
+    "D": "(4, 2)"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

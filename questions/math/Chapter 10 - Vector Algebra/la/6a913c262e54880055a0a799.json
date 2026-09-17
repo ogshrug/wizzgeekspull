@@ -1,0 +1,32 @@
+{
+  "id": "6a913c262e54880055a0a799",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8bc",
+    "6a13e766d837c8c7efa6b8c0",
+    "6a13e767d837c8c7efa6b8c8",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "LA",
+  "question": "Determine the vector of magnitude $6$ that is perpendicular to both $\\vec{a}=\\hat{i}+\\hat{j}$ and $\\vec{b}=\\hat{j}+\\hat{k}$ and whose $x$-component is positive; hence verify that the obtained vector has the required magnitude and direction.",
+  "answeroption": "B",
+  "explanation": "Obtaining the Perpendicular DirectionA vector perpendicular to both $\\vec{a}$ and $\\vec{b}$ is parallel to $\\vec{a}\\times\\vec{b}$.\\\\vec{a}\\\\times\\\\vec{b}=\\\\begin{vmatrix}\\\\hat{i} & \\\\hat{j} & \\\\hat{k}\\\\\\\\1 & 1 & 0\\\\\\\\0 & 1 & 1\\\\end{vmatrix}`\\vec{a}\\times\\vec{b}=\\hat{i}-\\hat{j}+\\hat{k}`Its magnitude is`|\\vec{a}\\times\\vec{b}|=\\sqrt{1^2+(-1)^2+1^2}=\\sqrt{3}`Since the required vector has a positive $x$-component, the required unit direction is`\\hat{n}=\\frac{1}{\\sqrt{3}}(\\hat{i}-\\hat{j}+\\hat{k})`Applying the Required MagnitudeThe vector of magnitude $6$ in this direction is`\\vec{p}=6\\hat{n}=\\frac{6}{\\sqrt{3}}(\\hat{i}-\\hat{j}+\\hat{k})\\vec{p}=2\\sqrt{3}\\hat{i}-2\\sqrt{3}\\hat{j}+2\\sqrt{3}\\hat{k}`Verification`\\vec{p}\\cdot\\vec{a}=2\\sqrt{3}-2\\sqrt{3}=0\\vec{p}\\cdot\\vec{b}=-2\\sqrt{3}+2\\sqrt{3}=0`Thus, $\\vec{p}$ is perpendicular to both given vectors. Also,`|\\vec{p}|=\\sqrt{(2\\sqrt{3})^2+(-2\\sqrt{3})^2+(2\\sqrt{3})^2}=\\sqrt{36}=6`Final ResultThe required vector is $2\\sqrt{3}\\hat{i}-2\\sqrt{3}\\hat{j}+2\\sqrt{3}\\hat{k}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\vec{p}=-2\\sqrt{3}\\hat{i}+2\\sqrt{3}\\hat{j}-2\\sqrt{3}\\hat{k}$; it is perpendicular to both given vectors and has magnitude $6$, but its $x$-component is negative.",
+    "B": "$\\vec{p}=2\\sqrt{3}\\hat{i}-2\\sqrt{3}\\hat{j}+2\\sqrt{3}\\hat{k}$; $\\vec{p}\\cdot\\vec{a}=\\vec{p}\\cdot\\vec{b}=0$ and $|\\vec{p}|=6$.",
+    "C": "$\\vec{p}=2\\hat{i}-2\\hat{j}+2\\hat{k}$; it is perpendicular to both vectors and has magnitude $6$.",
+    "D": "$\\vec{p}=2\\sqrt{3}\\hat{i}+2\\sqrt{3}\\hat{j}+2\\sqrt{3}\\hat{k}$; it has magnitude $6$ and is perpendicular to both vectors."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

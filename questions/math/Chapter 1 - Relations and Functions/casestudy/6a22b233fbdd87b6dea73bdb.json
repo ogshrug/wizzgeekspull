@@ -1,0 +1,32 @@
+{
+  "id": "6a22b233fbdd87b6dea73bdb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Let $A$ be the set of 30 students of class XII in a school. Let $f:A\\rightarrow N$, $N$ is a set of natural numbers such that function $f(x) = \\text{Roll Number of student } x$. On the basis of the given information, answer the following:<br /><br />**(i)** Is f a bijective function ?<br />**(ii)** Give reasons to support your answer to (i).<br />**(iii) (a)** Let R be a relation defined by the teacher to plan the seating arrangement of students in pairs, where $R=\\{(x,y):x, y \\text{ are Roll Numbers of students such that } y=3x\\}$. List the elements of R. Is the relation R reflexive, symmetric and transitive? Justify your answer.<br />OR<br />**(iii) (b)** Let R be a relation defined by $R=\\{(x,y):x, y \\text{ are Roll Numbers of students such that } y=x^{3}\\}$. List the elements of R. Is R a function? Justify your answer.",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> A function is bijective if it is simultaneously one-one and onto. In a class of 30 students, each student has a unique individual roll number, ensuring that the function is one-one.<br /><br /><b>Step 2</b> However, the codomain is given as the entire infinite set of natural numbers $N = \\{1, 2, 3, \\dots\\}$, while the students' roll numbers only range from 1 to 30. Any natural number greater than 30 has no preimage in the domain. Since it is not onto, the function is not bijective.<br /><br /><b>(iii) (a)</b><br /><br /><b>Step 3</b> The roll numbers span from 1 to 30. To find pairs matching $y = 3x$, we substitute inputs: $R = \\{(1,3), (2,6), (3,9), (4,12), (5,15), (6,18), (7,21), (8,24), (9,27), (10,30)\\}$. This relation is not reflexive because $(1,1) \\notin R$. It is not symmetric because $(1,3) \\in R$ but $(3,1) \\notin R$. It is not transitive because $(1,3) \\in R$ and $(3,9) \\in R$, but $(1,9) \\notin R$.<br /><br /><b>(iii) (b)</b><br /><br /><b>Step 4</b> For the condition $y = x^3$ within the range 1 to 30, the only valid integer cubes are $1^3=1, 2^3=8,$ and $3^3=27$. For $4$, $4^3 = 64$, which is outside the range. Therefore, the relation elements are $R = \\{(1,1), (2,8), (3,27)\\}$.<br /><br /><b>Step 5</b> To determine if $R$ is a function from the set of roll numbers $\\{1, 2, \\dots, 30\\}$, check if every element has an output. Since roll numbers like 4, 5, etc., have no corresponding pairs in $R$, the relation is not a function.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-3",
+    "2025-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

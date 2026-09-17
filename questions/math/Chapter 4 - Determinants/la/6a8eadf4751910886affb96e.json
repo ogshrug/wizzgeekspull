@@ -1,0 +1,30 @@
+{
+  "id": "6a8eadf4751910886affb96e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "LA",
+  "question": "For $A=\\begin{bmatrix}2 & 1 & 0\\\\1 & 2 & 1\\\\0 & 1 & 2\\end{bmatrix}$:<br><br><b>(a)</b> Find $|A|$ and $\\operatorname{adj}A$.<br><br><b>(b)</b> Hence, determine $A^{-1}$.<br><br><b>(c)</b> Verify the inverse by calculating $A(\\operatorname{adj}A)$ and comparing it with $|A|I$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Expanding along the first row,<br>$$|A|=2\\begin{vmatrix}2 & 1\\\\1 & 2\\end{vmatrix}-\\begin{vmatrix}1 & 1\\\\0 & 2\\end{vmatrix}$$<br>$$|A|=2(4-1)-(2-0)=6-2=4$$<br>The cofactor matrix is<br>$$C=\\begin{bmatrix}3 & -2 & 1\\\\-2 & 4 & -2\\\\1 & -2 & 3\\end{bmatrix}$$<br>Since this matrix is symmetric,<br>$$\\operatorname{adj}A=C^T=\\begin{bmatrix}3 & -2 & 1\\\\-2 & 4 & -2\\\\1 & -2 & 3\\end{bmatrix}$$<br><br><b>(b)</b><br>Since $|A|=4\\neq0$,<br>$$A^{-1}=\\frac{1}{4}\\begin{bmatrix}3 & -2 & 1\\\\-2 & 4 & -2\\\\1 & -2 & 3\\end{bmatrix}$$<br><br><b>(c)</b><br>Multiplying $A$ by its adjoint,<br>$$A(\\operatorname{adj}A)=\\begin{bmatrix}2 & 1 & 0\\\\1 & 2 & 1\\\\0 & 1 & 2\\end{bmatrix}\\begin{bmatrix}3 & -2 & 1\\\\-2 & 4 & -2\\\\1 & -2 & 3\\end{bmatrix}$$<br>$$=\\begin{bmatrix}4 & 0 & 0\\\\0 & 4 & 0\\\\0 & 0 & 4\\end{bmatrix}=4I=|A|I$$<br>Therefore, $A^{-1}=\\frac{1}{4}\\operatorname{adj}A$ is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=4$ and $\\operatorname{adj}A=\\begin{bmatrix}3&-2&1\\\\-2&4&-2\\\\1&-2&3\\end{bmatrix}$<br>(b) $A^{-1}=\\frac14\\begin{bmatrix}3&-2&1\\\\-2&4&-2\\\\1&-2&3\\end{bmatrix}$<br>(c) $A(\\operatorname{adj}A)=4I=|A|I$",
+    "B": "(a) $|A|=8$ and $\\operatorname{adj}A=\\begin{bmatrix}3&-2&1\\\\-2&4&-2\\\\1&-2&3\\end{bmatrix}$<br>(b) $A^{-1}=\\frac18\\operatorname{adj}A$<br>(c) $A(\\operatorname{adj}A)=8I$",
+    "C": "(a) $|A|=4$ and $\\operatorname{adj}A=\\begin{bmatrix}3&2&1\\\\2&4&2\\\\1&2&3\\end{bmatrix}$<br>(b) $A^{-1}=\\frac14\\operatorname{adj}A$<br>(c) $A(\\operatorname{adj}A)=I$",
+    "D": "(a) $|A|=-4$<br>(b) $A^{-1}=-\\frac14\\begin{bmatrix}3&-2&1\\\\-2&4&-2\\\\1&-2&3\\end{bmatrix}$<br>(c) $A(\\operatorname{adj}A)=-4I$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

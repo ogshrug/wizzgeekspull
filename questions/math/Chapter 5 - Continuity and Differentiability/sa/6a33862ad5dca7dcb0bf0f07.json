@@ -1,0 +1,26 @@
+{
+  "id": "6a33862ad5dca7dcb0bf0f07",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "SA",
+  "question": "If $x^{30} y^{20} = (x+y)^{50}$ prove that $\\frac{dy}{dx} = \\frac{y}{x}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Initiate the proof by mapping the natural logarithm operator across both sides of the base equation: $\\log(x^{30} y^{20}) = \\log((x+y)^{50})$.\n\n**Step 2:** Distribute the logarithm properties to obtain linearly separated components: $30\\log x + 20\\log y = 50\\log(x+y)$.\n\n**Step 3:** Perform implicit differentiation across the expression concerning $x$: $\\frac{30}{x} + \\frac{20}{y} \\cdot \\frac{dy}{dx} = \\frac{50}{x+y} \\cdot (1 + \\frac{dy}{dx})$.\n\n**Step 4:** Reorder the terms to align those containing $\\frac{dy}{dx}$ onto an isolated side: $(\\frac{20}{y} - \\frac{50}{x+y})\\frac{dy}{dx} = \\frac{50}{x+y} - \\frac{30}{x}$.\n\n**Step 5:** Consolidate to common denominators: $\\frac{20x + 20y - 50y}{y(x+y)}\\frac{dy}{dx} = \\frac{50x - 30x - 30y}{x(x+y)} \\Rightarrow \\frac{20x - 30y}{y(x+y)}\\frac{dy}{dx} = \\frac{20x - 30y}{x(x+y)}$. Since the factor $(20x-30y)$ and $(x+y)$ cancel, the proof converges to $\\frac{dy}{dx} = \\frac{y}{x}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

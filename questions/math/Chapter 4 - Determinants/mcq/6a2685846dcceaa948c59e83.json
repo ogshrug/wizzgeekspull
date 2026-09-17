@@ -1,0 +1,32 @@
+{
+  "id": "6a2685846dcceaa948c59e83",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6b"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A$ be the area of a triangle having vertices $(x_1,y_1), (x_2,y_2)$ and $(x_3,y_3)$. Which of the following is correct?",
+  "answeroption": "B",
+  "explanation": "**Step 1: Recall the Determinant Formula for Area of a Triangle** \nThe area of a triangle with vertices $(x_1,y_1)$, $(x_2,y_2)$, and $(x_3,y_3)$ is given by the determinant formula:  \n$$A = \\frac{1}{2} \\left| \\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} \\right|$$  \nThis formula gives the absolute value of half the determinant, ensuring the area is always positive.\n\n**Step 2: Remove the Absolute Value** \nSince $A$ represents the positive area, we can remove the absolute value by introducing a plus-minus sign:  \n$$A = \\pm \\frac{1}{2} \\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix}$$  \nThe $\\pm$ accounts for the fact that the determinant could be positive or negative depending on the order of the vertices.\n\n**Step 3: Isolate the Determinant** \nMultiply both sides of the equation by 2:  \n$$2A = \\pm \\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix}$$  \nRearranging gives:  \n$$\\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} = \\pm 2A$$  \nThis matches option **B**.",
+  "explanation_image": [],
+  "options": {
+    "A": "\\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} = $\\pm A$",
+    "B": "\\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} = $\\pm 2A$",
+    "C": "\\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} = $\\pm \\frac{A}{2}$",
+    "D": "\\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix}^2 = $A^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

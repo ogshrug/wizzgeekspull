@@ -1,0 +1,30 @@
+{
+  "id": "6a8ebe49751910886affb985",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "SA",
+  "question": "Differentiate $$f(x)=\\sin\\left(\\cos(x^2)\\right)$$ with respect to $x$.",
+  "answeroption": "B",
+  "explanation": "<b>Successive inner functions</b><br>Let $u=x^2$, $v=\\cos u$ and $f=\\sin v$.<br><b>Individual derivatives</b><br>$$\\frac{du}{dx}=2x,\\qquad \\frac{dv}{du}=-\\sin u,\\qquad \\frac{df}{dv}=\\cos v$$<br><b>Repeated application of the chain rule</b><br>$$\\frac{df}{dx}=\\frac{df}{dv}\\frac{dv}{du}\\frac{du}{dx}$$<br>$$\\frac{df}{dx}=\\cos(\\cos x^2)(-\\sin x^2)(2x)$$<br>Therefore, $$f'(x)=-2x\\sin(x^2)\\cos(\\cos(x^2))$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$2x\\sin(x^2)\\cos(\\cos(x^2))$",
+    "B": "$-2x\\sin(x^2)\\cos(\\cos(x^2))$",
+    "C": "$-2x\\cos(x^2)\\sin(\\cos(x^2))$",
+    "D": "$2x\\cos(x^2)\\cos(\\cos(x^2))$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

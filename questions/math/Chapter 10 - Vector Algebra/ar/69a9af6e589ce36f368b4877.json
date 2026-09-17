@@ -1,0 +1,30 @@
+{
+  "id": "69a9af6e589ce36f368b4877",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e766d837c8c7efa6b8c2"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): If $\\vec{a}$, $\\vec{b}$, $\\vec{c}$ are non-zero vectors such that $\\vec{a} \\times \\vec{b} = \\vec{a} \\times \\vec{c}$, then either $\\vec{a}$ is the zero vector or $\\vec{b} = \\vec{c}$.<br /><br />Reason (R): If $\\vec{a} \\times (\\vec{b} - \\vec{c}) = \\vec{0}$, then $(\\vec{b} - \\vec{c})$ must be parallel to $\\vec{a}$.",
+  "answeroption": "B",
+  "explanation": "$\\vec{a} \\times \\vec{b} = \\vec{a} \\times \\vec{c} \\implies \\vec{a} \\times (\\vec{b} - \\vec{c}) = \\vec{0}$<br /><br />This means $\\vec{a}$ and $(\\vec{b} - \\vec{c})$ are parallel or one of them is zero (since cross product of parallel vectors is zero).<br /><br />So, if $\\vec{a} \\neq \\vec{0}$, it only forces $(\\vec{b} - \\vec{c})$ to be parallel to $\\vec{a}$, BUT not necessarily that $\\vec{b}=\\vec{c}$. Only if $\\vec{b}-\\vec{c}=\\vec{0}$ then $\\vec{b}=\\vec{c}$. Thus, the assertion is not strictly correct for all cases—the reason is true but does not fully explain the assertion.<br /><br />Hence, (B) is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:29:34 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

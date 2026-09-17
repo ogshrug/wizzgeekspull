@@ -1,0 +1,31 @@
+{
+  "id": "6a22a0b7864be73cfcf6d26e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A rectangular visiting card is to contain 24 sq.cm. of printed matter. The margins at the top and bottom of the card are to be 1 cm and the margins on the left and right are to be 1½ cm as shown below:<br /><br />**(i)** Write the expression for the area of the visiting card in terms of x.<br />**(ii)** Obtain the dimensions of the card of minimum area.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Let the dimensions of the printed matter area be $x$ (width) and $y$ (height). The problem states the area of the printed matter is 24 sq.cm. So, $xy = 24$, which gives $y = \\frac{24}{x}$.<br />**Step 2:** The total width of the visiting card includes the left and right margins of 1.5 cm each. So, total width $W = x + 1.5 + 1.5 = x + 3$.<br />**Step 3:** The total height of the visiting card includes the top and bottom margins of 1 cm each. So, total height $H = y + 1 + 1 = y + 2$.<br />**Step 4:** The total area $A$ of the card is $W \\times H$. So $A = (x + 3)(y + 2)$.<br />**Step 5:** Substitute $y = \\frac{24}{x}$ into the area expression to get it strictly in terms of $x$: $A(x) = (x + 3)(\\frac{24}{x} + 2) = 24 + 2x + \\frac{72}{x} + 6 = 30 + 2x + \\frac{72}{x}$.<br /><br />**(ii)** **Step 1:** To minimize the area $A(x)$, we find the first derivative $A'(x)$ and set it to zero. $A'(x) = \\frac{d}{dx}(30 + 2x + 72x^{-1}) = 2 - \\frac{72}{x^2}$.<br />**Step 2:** Setting $A'(x) = 0$ gives $2 = \\frac{72}{x^2}$, which means $2x^2 = 72$, so $x^2 = 36$. Because length must be positive, $x = \\sqrt{36} = 6$ cm.<br />**Step 3:** Verify this is a minimum using the second derivative test. $A''(x) = \\frac{144}{x^3}$. At $x=6$, $A''(6) > 0$, confirming a minimum.<br />**Step 4:** Now find the corresponding dimension $y$ for the printed matter: $y = \\frac{24}{6} = 4$ cm.<br />**Step 5:** The question asks for the dimensions of the *card*. Total width $W = x + 3 = 6 + 3 = 9$ cm. Total height $H = y + 2 = 4 + 2 = 6$ cm. The dimensions are 9 cm by 6 cm.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22a0b7864be73cfcf6d26e/1782266267-0.png?t=1782286067700"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

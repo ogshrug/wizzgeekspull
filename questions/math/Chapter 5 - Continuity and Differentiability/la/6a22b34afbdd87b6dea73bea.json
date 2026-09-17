@@ -1,0 +1,28 @@
+{
+  "id": "6a22b34afbdd87b6dea73bea",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "LA",
+  "question": "For a positive constant 'a', differentiate $\\left(t+\\frac{1}{t}\\right)^{a}$ with respect to $t+\\frac{1}{t}$ where t is a non-zero real number.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Define a new dummy variable to simplify the structure of the expression. Let $u = t + \\frac{1}{t}$. The question asks us to differentiate $y = u^a$ directly with respect to the variable $u$.<br /><br /><b>Step 2</b> Use the standard power rule formula for differentiation, which states that for any real constant exponent $a$, $\\frac{d}{du}(u^a) = a \\cdot u^{a-1}$.<br /><br /><b>Step 3</b> Apply this formula directly to our function to obtain: $\\frac{dy}{du} = a \\cdot u^{a-1}$.<br /><br /><b>Step 4</b> Replace the placeholder variable $u$ with its original definition $t + \\frac{1}{t}$ to express the answer in terms of the original components: $a\\left(t+\\frac{1}{t}\\right)^{a-1}$.<br /><br /><b>Step 5</b> Since we are differentiating with respect to the composite term $t + \\frac{1}{t}$ itself, no extra inner chain rule application with respect to $t$ is needed. The final derivative is $a\\left(t+\\frac{1}{t}\\right)^{a-1}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

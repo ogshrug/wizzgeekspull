@@ -1,0 +1,29 @@
+{
+  "id": "69a93352589ce36f368b479f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d5"
+  ],
+  "question_type": "VSA",
+  "question": "Find the angle between the planes $x + 2y - 2z = 5$ and $3x - 6y + z = 1$.",
+  "answeroption": "C",
+  "explanation": "Normal vectors are $(1,2,-2)$ and $(3,-6,1)$.<br /><br />Angle between planes equals angle between their normals.<br /><br />$\\cos\\theta=\\frac{|\\vec{n}_1\\cdot\\vec{n}_2|}{|\\vec{n}_1||\\vec{n}_2|}$.<br /><br />Dot product $=3-12-2=-11$.<br /><br />Magnitude $|\\vec{n}_1|=3$, $|\\vec{n}_2|=\\sqrt{46}$.<br /><br />Thus $\\cos\\theta=\\frac{11}{3\\sqrt{46}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cos^{-1}\\left(\\frac{11}{\\sqrt{46}}\\right)$",
+    "B": "$\\cos^{-1}\\left(\\frac{3}{11\\sqrt{46}}\\right)$",
+    "C": "$\\cos^{-1}\\left(\\frac{11}{3\\sqrt{46}}\\right)$",
+    "D": "$\\cos^{-1}\\left(\\frac{1}{3\\sqrt{46}}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:40:02 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a2669dc864be73cfcf6d36a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "MCQ",
+  "question": "The product $\\begin{bmatrix}a&b\\\\-b&a\\end{bmatrix}\\begin{bmatrix}a&-b\\\\b&a\\end{bmatrix}$ is equal to :",
+  "answeroption": "a",
+  "explanation": "**Step 1:** To perform matrix multiplication, we multiply the horizontal rows of the first matrix by the vertical columns of the second matrix. For the top-left element $(1,1)$, multiply row 1 by column 1: $(a)(a) + (b)(b) = a^2 + b^2$. For the top-right element $(1,2)$, multiply row 1 by column 2: $(a)(-b) + (b)(a) = -ab + ab = 0$.<br />**Step 2:** Next, compute the elements for the bottom row. For the bottom-left element $(2,1)$, multiply row 2 by column 1: $(-b)(a) + (a)(b) = -ab + ab = 0$. For the bottom-right element $(2,2)$, multiply row 2 by column 2: $(-b)(-b) + (a)(a) = b^2 + a^2 = a^2 + b^2$.<br />**Step 3:** Assemble these computed values into their final product matrix positions: $\\begin{bmatrix}a^2+b^2&0\\\\0&a^2+b^2\\end{bmatrix}$. This matches the template layout option (a).",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix}a^{2}+b^{2}&0\\\\0&a^{2}+b^{2}\\end{bmatrix}$",
+    "B": "$\\begin{bmatrix}(a+b)^{2}&0\\\\(a+b)^{2}&0\\end{bmatrix}$",
+    "C": "$\\begin{bmatrix}a^{2}+b^{2}&0\\\\a^{2}+b^{2}&0\\end{bmatrix}$",
+    "D": "$\\begin{bmatrix}a&0\\\\0&b\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

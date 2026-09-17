@@ -1,0 +1,29 @@
+{
+  "id": "6a9025252e54880055a0a741",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "VSA",
+  "question": "Two students independently solve a problem with probabilities $0.7$ and $0.6$ respectively. Find the probability that the problem is solved by at least one of them.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> Let $A$ and $B$ denote the events that the first and second students solve the problem respectively. Then $P(A)=0.7$ and $P(B)=0.6$.<br><b>Step 2:</b> Their failure probabilities are $P(A')=0.3$ and $P(B')=0.4$.<br><b>Step 3:</b> Since the attempts are independent, the probability that both fail is $P(A'\\cap B')=P(A')P(B')=0.3\\times0.4=0.12$.<br><b>Step 4:</b> The event that at least one student solves the problem is the complement of both failing.<br><b>Step 5:</b> Therefore, $P(A\\cup B)=1-0.12=0.88$. Hence, the required probability is $0.88$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0.76$",
+    "B": "$0.82$",
+    "C": "$0.88$",
+    "D": "$0.92$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a2278ce864be73cfcf6d1e3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "For a function $f(x)$, which of the following holds true?",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Let us evaluate the given options against standard definite integral properties.<br />**Step 2:** Option A states $\\int_a^b f(x)dx = \\int_a^b f(a+b-x)dx$. This is a well-known, fundamental property of definite integrals, often referred to as the \"King's Property\". It is universally true for integrable functions.<br />**Step 3:** Option B states $\\int_{-a}^a f(x)dx = 0$ if $f$ is an even function. This is incorrect; if $f$ is even, the integral is $2\\int_0^a f(x)dx$. It is zero only if $f$ is odd.<br />**Step 4:** Option C states $\\int_{-a}^a f(x)dx = 2\\int_0^a f(x)dx$ if $f$ is an odd function. This is backwards; for odd functions, it evaluates to 0.<br />**Step 5:** Option D describes an incorrect formulation of the $\\int_0^{2a} f(x)dx$ property. The correct property relies on $f(2a-x)$, not $f(2a+x)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\int_{a}^{b}f(x)dx=\\int_{a}^{b}f(a+b-x)dx$",
+    "B": "$\\int_{-a}^{a}f(x)dx=0$, if $f$ is an even function",
+    "C": "$\\int_{-a}^{a}f(x)dx=2\\int_{0}^{a}f(x)dx$, if $f$ is an odd function",
+    "D": "$\\int_{0}^{2a}f(x)dx=\\int_{0}^{a}f(x)dx-\\int_{0}^{a}f(2a+x)dx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

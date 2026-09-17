@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8f88be0ecc7866e90b96",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d72"
+  ],
+  "question_type": "VSA",
+  "question": "The system $(k-1)x+2y=3$ and $2(k-1)x+4y=k+5$ is inconsistent. Determine $k$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Compare the variable coefficients</b><br>The coefficients in the second equation are twice those in the first equation for every value of $k$: $$\\frac{k-1}{2(k-1)}=\\frac{2}{4}=\\frac{1}{2}$$ whenever $k\\ne1$.<br><b>Step 2: Apply the inconsistency condition</b><br>The system is inconsistent when the constant ratio is not $\\frac{1}{2}$. Thus, $$\\frac{3}{k+5}\\ne\\frac{1}{2}$$<br><b>Step 3: Find the excluded value</b><br>Equality occurs when $k+5=6$, giving $k=1$. For $k=1$, however, the equations become $2y=3$ and $4y=6$, which are identical.<br><b>Step 4: Conclude</b><br>Therefore, the system is inconsistent for every real value $$k\\ne1$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k\\in\\mathbb{R}\\setminus\\{1\\}$",
+    "B": "$k=1$",
+    "C": "$k\\in\\mathbb{R}$",
+    "D": "$k\\in\\mathbb{R}\\setminus\\{-1\\}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

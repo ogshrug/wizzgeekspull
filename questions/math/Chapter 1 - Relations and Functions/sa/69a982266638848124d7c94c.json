@@ -1,0 +1,29 @@
+{
+  "id": "69a982266638848124d7c94c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Consider two equivalence relations $R_1$ and $R_2$ on a finite set $A$. Prove that $R = R_1 \\cap R_2$ is also an equivalence relation on $A$.",
+  "answeroption": "C",
+  "explanation": "**Step 1: Reflexivity**<br /><br />For any $a \\in A$, $(a,a) \\in R_1$ and $(a,a) \\in R_2$ (since both $R_1$ and $R_2$ are equivalence relations).<br /><br />Therefore, $(a,a) \\in R_1 \\cap R_2 = R$.<br /><br />Thus, $R$ is reflexive.<br /><br />**Step 2: Symmetry**<br /><br />Suppose $(a,b) \\in R$. Then, $(a,b) \\in R_1$ and $(a,b) \\in R_2$.<br /><br />Because $R_1$ and $R_2$ are symmetric, $(b,a) \\in R_1$ and $(b,a) \\in R_2$.<br /><br />Thus $(b,a) \\in R_1 \\cap R_2 = R$.<br /><br />**Step 3: Transitivity**<br /><br />Suppose $(a,b) \\in R$ and $(b,c) \\in R$.<br /><br />Then $(a,b),(b,c) \\in R_1$ and $R_2$.<br /><br />Since both are equivalence relations, $(a,c) \\in R_1$ and $(a,c) \\in R_2$.<br /><br />Thus $(a,c) \\in R_1 \\cap R_2 = R$.<br /><br />**Conclusion:**<br /><br />$R$ is an equivalence relation on $A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R_1 \\cap R_2$ is not an equivalence relation because intersection destroys reflexivity",
+    "B": "$R_1 \\cap R_2$ is not an equivalence relation because it is symmetric only",
+    "C": "$R_1 \\cap R_2$ is an equivalence relation because it is reflexive, symmetric and transitive",
+    "D": "$R_1 \\cap R_2$ is a universal relation for every finite set $A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:16:22 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

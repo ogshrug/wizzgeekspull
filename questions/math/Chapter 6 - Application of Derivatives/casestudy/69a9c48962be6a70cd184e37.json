@@ -1,0 +1,31 @@
+{
+  "id": "69a9c48962be6a70cd184e37",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A pharmaceutical company models the profit $P(x)$ (in Rs. thousands) from selling $x$ thousand units of a medicine as $P(x) = 10x - 0.5x^2 + 4$.<br /><br />(a) Find the marginal profit function.<br /><br />(b) For what value of $x$ is profit maximized?<br /><br />(c) Use both first and second derivative tests for justification.",
+  "answeroption": "B",
+  "explanation": "(a) Marginal profit: $P'(x) = 10 - x$<br /><br />(b) Set $P'(x) = 0 \\implies x = 10$<br /><br />(c) First: $P'(x) < 0$ after $x=10$ and $>0$ before, so $x=10$ is a maximum.<br /><br />Second: $P''(x) = -1 < 0$, confirming maximum.<br /><br />Maximum profit at $x = 10$ thousand units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P'(x)=10+x$<br />(b) Profit is maximized at $x=-10$ thousand units.<br />(c) $P''(x)=1>0$, so it gives a minimum.",
+    "B": "(a) $P'(x)=10-x$<br />(b) Profit is maximized at $x=10$ thousand units.<br />(c) $P'(x)$ changes from positive to negative at $x=10$, and $P''(x)=-1<0$, confirming maximum.",
+    "C": "(a) $P'(x)=10-0.5x$<br />(b) Profit is maximized at $x=20$ thousand units.<br />(c) $P''(x)=0$, so the test is inconclusive.",
+    "D": "(a) $P'(x)=x-10$<br />(b) Profit is maximized at $x=10$ thousand units.<br />(c) $P'(x)$ changes from negative to positive, so it gives a minimum."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:59:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

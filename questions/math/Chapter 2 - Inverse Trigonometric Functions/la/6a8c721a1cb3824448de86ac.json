@@ -1,0 +1,29 @@
+{
+  "id": "6a8c721a1cb3824448de86ac",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "LA",
+  "question": "(a) Obtain the piecewise form of $\\tan^{-1}(\\tan x)$ for $x\\in[0,2\\pi]$ wherever the expression is defined.<br><br>(b) Hence evaluate $\\tan^{-1}\\left(\\tan\\dfrac{2\\pi}{3}\\right)$ and $\\tan^{-1}\\left(\\tan\\dfrac{7\\pi}{4}\\right)$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The principal-value range of $\\tan^{-1}t$ is<br>$$\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$$<br>For $0\\leq x<\\dfrac{\\pi}{2}$, $x$ already belongs to this range. Hence,<br>$$\\tan^{-1}(\\tan x)=x$$<br>For $\\dfrac{\\pi}{2}<x<\\dfrac{3\\pi}{2}$, the angle $x-\\pi$ lies in the principal range and<br>$$\\tan x=\\tan(x-\\pi)$$<br>Therefore,<br>$$\\tan^{-1}(\\tan x)=x-\\pi$$<br>For $\\dfrac{3\\pi}{2}<x\\leq2\\pi$, the angle $x-2\\pi$ lies in the principal range and<br>$$\\tan x=\\tan(x-2\\pi)$$<br>Thus,<br>$$\\tan^{-1}(\\tan x)=x-2\\pi$$<br>Hence,<br>$$\\tan^{-1}(\\tan x)=\\begin{cases}x, & 0\\leq x<\\dfrac{\\pi}{2}\\\\x-\\pi, & \\dfrac{\\pi}{2}<x<\\dfrac{3\\pi}{2}\\\\x-2\\pi, & \\dfrac{3\\pi}{2}<x\\leq2\\pi\\end{cases}$$<br>The expression is undefined at $x=\\dfrac{\\pi}{2}$ and $x=\\dfrac{3\\pi}{2}$ because $\\tan x$ is undefined there.<br><br><b>(b)</b><br>Since $\\dfrac{2\\pi}{3}\\in\\left(\\dfrac{\\pi}{2},\\dfrac{3\\pi}{2}\\right)$,<br>$$\\tan^{-1}\\left(\\tan\\frac{2\\pi}{3}\\right)=\\frac{2\\pi}{3}-\\pi=-\\frac{\\pi}{3}$$<br>Since $\\dfrac{7\\pi}{4}\\in\\left(\\dfrac{3\\pi}{2},2\\pi\\right]$,<br>$$\\tan^{-1}\\left(\\tan\\frac{7\\pi}{4}\\right)=\\frac{7\\pi}{4}-2\\pi=-\\frac{\\pi}{4}$$<br>Thus, the required values are $-\\dfrac{\\pi}{3}$ and $-\\dfrac{\\pi}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\tan^{-1}(\\tan x)=\\begin{cases}x, & 0\\leq x<\\dfrac{\\pi}{2}\\\\x+\\pi, & \\dfrac{\\pi}{2}<x<\\dfrac{3\\pi}{2}\\\\x-2\\pi, & \\dfrac{3\\pi}{2}<x\\leq2\\pi\\end{cases}$<br><br>(b) $\\dfrac{5\\pi}{3}$ and $-\\dfrac{\\pi}{4}$",
+    "B": "(a) $\\tan^{-1}(\\tan x)=\\begin{cases}x, & 0\\leq x<\\dfrac{\\pi}{2}\\\\\\pi-x, & \\dfrac{\\pi}{2}<x<\\dfrac{3\\pi}{2}\\\\2\\pi-x, & \\dfrac{3\\pi}{2}<x\\leq2\\pi\\end{cases}$<br><br>(b) $\\dfrac{\\pi}{3}$ and $\\dfrac{\\pi}{4}$",
+    "C": "(a) $\\tan^{-1}(\\tan x)=x$ for every $x\\in[0,2\\pi]$ except $x=\\dfrac{\\pi}{2},\\dfrac{3\\pi}{2}$<br><br>(b) $\\dfrac{2\\pi}{3}$ and $\\dfrac{7\\pi}{4}$",
+    "D": "(a) $\\tan^{-1}(\\tan x)=\\begin{cases}x, & 0\\leq x<\\dfrac{\\pi}{2}\\\\x-\\pi, & \\dfrac{\\pi}{2}<x<\\dfrac{3\\pi}{2}\\\\x-2\\pi, & \\dfrac{3\\pi}{2}<x\\leq2\\pi\\end{cases}$, undefined at $x=\\dfrac{\\pi}{2},\\dfrac{3\\pi}{2}$<br><br>(b) $-\\dfrac{\\pi}{3}$ and $-\\dfrac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

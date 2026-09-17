@@ -1,0 +1,26 @@
+{
+  "id": "6a33b682d5dca7dcb0bf0f49",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation: $(x - \\sin y)dy + (\\tan y)dx = 0$, given $y(0)=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Isolate the derivative in terms of $x$: $\\frac{dx}{dy} = \\frac{\\sin y - x}{\\tan y} = \\cos y - x \\cot y$.\n\n**Step 2:** Rearrange to fit the standard linear differential equation form $\\frac{dx}{dy} + Px = Q$: $\\frac{dx}{dy} + x\\cot y = \\cos y$.\n\n**Step 3:** Calculate the Integrating Factor (IF): $\\text{IF} = e^{\\int \\cot y \\, dy} = e^{\\ln|\\sin y|} = \\sin y$.\n\n**Step 4:** Multiply the differential equation by the IF and perform the integration: $x \\cdot \\sin y = \\int \\cos y \\sin y \\, dy = \\int \\frac{\\sin(2y)}{2} \\, dy = -\\frac{\\cos(2y)}{4} + C$. Alternatively, substitution gives $x \\sin y = \\frac{\\sin^2 y}{2} + C$.\n\n**Step 5:** Use the initial condition $x=0, y=0$ to find the constant $C$: $0 \\cdot 0 = 0 + C \\Rightarrow C = 0$. Thus, the particular solution is $x \\sin y = \\frac{\\sin^2 y}{2} \\Rightarrow x = \\frac{\\sin y}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

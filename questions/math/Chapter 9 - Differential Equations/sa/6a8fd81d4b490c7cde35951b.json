@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd81d4b490c7cde35951b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "SA",
+  "question": "A homogeneous differential equation is given in the form $$\\frac{dx}{dy}=\\frac{x+2y}{x-y}.$$ Using the appropriate substitution $x=vy$, transform it into a differential equation involving $v$, $y$ and $\\frac{dv}{dy}$. Do not solve further.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Select the substitution</b><br>Since the derivative is $\\frac{dx}{dy}$ and the right-hand side can be expressed in terms of $\\frac{x}{y}$, use $$x=vy.$$<br><b>Step 2: Differentiate the substitution</b><br>Differentiating with respect to $y$, $$\\frac{dx}{dy}=v+y\\frac{dv}{dy}.$$<br><b>Step 3: Substitute in the given equation</b><br>Replacing $x$ by $vy$ gives $$v+y\\frac{dv}{dy}=\\frac{vy+2y}{vy-y}=\\frac{v+2}{v-1}.$$<br><b>Step 4: Separate the derivative term</b><br>Therefore, $$y\\frac{dv}{dy}=\\frac{v+2}{v-1}-v.$$ Simplifying the right-hand side, $$y\\frac{dv}{dy}=\\frac{-v^2+2v+2}{v-1}.$$<br><b>Step 5: Final transformed relation</b><br>Hence, the required equation after applying $x=vy$ is $$y\\frac{dv}{dy}=\\frac{-v^2+2v+2}{v-1}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y\\frac{dv}{dy}=\\frac{v^2+2v+2}{v-1}$",
+    "B": "$y\\frac{dv}{dy}=\\frac{-v^2+v+2}{v+1}$",
+    "C": "$y\\frac{dv}{dy}=\\frac{v+2}{v-1}$",
+    "D": "$y\\frac{dv}{dy}=\\frac{-v^2+2v+2}{v-1}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

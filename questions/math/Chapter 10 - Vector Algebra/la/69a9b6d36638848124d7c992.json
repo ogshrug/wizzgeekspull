@@ -1,0 +1,30 @@
+{
+  "id": "69a9b6d36638848124d7c992",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8c0",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\vec{A} = 3\\hat{i} + 4\\hat{j} - 5\\hat{k}$ and $\\vec{B} = 6\\hat{i} - 2\\hat{j} + 8\\hat{k}$. Find a unit vector $\\vec{n}$ perpendicular to both $\\vec{A}$ and $\\vec{B}$ and with positive $z$-component, and calculate the area of a triangle with sides $\\vec{A}$ and $\\vec{B}$ using the cross product.",
+  "answeroption": "A",
+  "explanation": "First, $\\vec{n}$ is in direction of $\\vec{A} \\times \\vec{B}$.<br /><br />Compute $\\vec{A} \\times \\vec{B}$:<br /><br />$\\vec{A} \\times \\vec{B} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & 4 & -5 \\\\ 6 & -2 & 8 \\end{vmatrix}$<br /><br />$= \\hat{i}\\left(4 \\cdot 8 - (-5) \\cdot (-2)\\right) - \\hat{j}\\left(3 \\cdot 8 - (-5) \\cdot 6\\right) + \\hat{k}\\left(3 \\cdot (-2) - 4 \\cdot 6\\right)$<br /><br />$= \\hat{i}[32 - 10] - \\hat{j}[24 + 30] + \\hat{k}[-6 - 24]$<br /><br />$= 22\\hat{i} - 54\\hat{j} - 30\\hat{k}$<br /><br />But we want positive $z$-component so take $-(22\\hat{i} - 54\\hat{j} - 30\\hat{k}) = -22\\hat{i} + 54\\hat{j} + 30\\hat{k}$<br /><br />Its magnitude:<br /><br />$\\sqrt{(-22)^2 + 54^2 + 30^2} = \\sqrt{484 + 2916 + 900} = \\sqrt{4300}$<br /><br />$= 10\\sqrt{43}$<br /><br />So, unit vector:<br /><br />$\\vec{n} = \\dfrac{-22\\hat{i} + 54\\hat{j} + 30\\hat{k}}{10\\sqrt{43}}$<br /><br />Area of triangle:<br /><br />$\\text{Area} = \\dfrac{1}{2}|\\vec{A} \\times \\vec{B}| = \\dfrac{1}{2} \\times 10\\sqrt{43} = 5\\sqrt{43}$<br /><br />Final answers:<br /><br />$\\vec{n} = \\dfrac{-22\\hat{i} + 54\\hat{j} + 30\\hat{k}}{10\\sqrt{43}}$<br /><br />$\\text{Area} = 5\\sqrt{43}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\vec{n}=\\dfrac{-22\\hat{i}+54\\hat{j}+30\\hat{k}}{10\\sqrt{43}}$ and area $=5\\sqrt{43}$",
+    "B": "$\\vec{n}=\\dfrac{22\\hat{i}-54\\hat{j}-30\\hat{k}}{10\\sqrt{43}}$ and area $=5\\sqrt{43}$",
+    "C": "$\\vec{n}=\\dfrac{-22\\hat{i}+54\\hat{j}+30\\hat{k}}{\\sqrt{4300}}$ and area $=10\\sqrt{43}$",
+    "D": "$\\vec{n}=\\dfrac{22\\hat{i}+54\\hat{j}+30\\hat{k}}{10\\sqrt{43}}$ and area $=\\sqrt{43}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:01:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

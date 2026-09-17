@@ -1,0 +1,30 @@
+{
+  "id": "69a97274d8e9ca3b29345798",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "Find the domain of $\\cos^{-1}(1 - x^2)$. Also find its range.",
+  "answeroption": "A",
+  "explanation": "For $\\cos^{-1}(u)$ to be defined, the argument must satisfy $-1 \\le u \\le 1$.<br /><br />Thus $-1 \\le 1-x^2 \\le 1$.<br /><br />From $1-x^2 \\ge -1$ we get $x^2 \\le 2$.<br /><br />Hence $-\\sqrt{2} \\le x \\le \\sqrt{2}$.<br /><br />Therefore the domain is $[-\\sqrt{2},\\sqrt{2}]$.<br /><br />As $x$ varies in this interval, $x^2$ varies from $0$ to $2$, so $1-x^2$ varies from $1$ to $-1$.<br /><br />Thus $\\cos^{-1}(1-x^2)$ varies from $\\cos^{-1}(1)=0$ to $\\cos^{-1}(-1)=\\pi$.<br /><br />Hence the range is $[0,\\pi]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $[-\\sqrt{2},\\sqrt{2}]$, Range: $[0,\\pi]$",
+    "B": "Domain: $[-1,1]$, Range: $[0,\\pi]$",
+    "C": "Domain: $[-\\sqrt{2},\\sqrt{2}]$, Range: $[-\\frac{\\pi}{2},\\frac{\\pi}{2}]$",
+    "D": "Domain: $[0,\\sqrt{2}]$, Range: $[0,\\pi]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:09:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

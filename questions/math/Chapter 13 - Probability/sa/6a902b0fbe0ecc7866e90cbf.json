@@ -1,0 +1,29 @@
+{
+  "id": "6a902b0fbe0ecc7866e90cbf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "A fair coin is tossed three times. Given that at least one head has appeared, find the probability of obtaining exactly two heads.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Identification of events</b><br>Let $A$ denote the event of obtaining exactly two heads and $B$ denote the event of obtaining at least one head. The required probability is $P(A|B)$.<br><b>Step 2: Sample space under the given condition</b><br>For three tosses, the sample space has $8$ equally likely outcomes. The only outcome having no head is $TTT$. Hence, $$B=\\{HHH,HHT,HTH,THH,HTT,THT,TTH\\}$$ and $n(B)=7$.<br><b>Step 3: Outcomes favourable to exactly two heads</b><br>The event $A$ consists of $$A=\\{HHT,HTH,THH\\}.$$ Since $A\\subset B$, we have $A\\cap B=A$ and $n(A\\cap B)=3$.<br><b>Step 4: Conditional probability</b><br>$$P(A|B)=\\frac{P(A\\cap B)}{P(B)}=\\frac{3/8}{7/8}=\\frac37.$$<br><b>Step 5: Conclusion</b><br>Thus, the required probability is $$\\boxed{\\frac37}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{8}$",
+    "B": "$\\frac{1}{2}$",
+    "C": "$\\frac{3}{7}$",
+    "D": "$\\frac{2}{7}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

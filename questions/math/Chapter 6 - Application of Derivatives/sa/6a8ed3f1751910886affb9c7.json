@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed3f1751910886affb9c7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "SA",
+  "question": "Show that $f(x)=-2x+\\cos x$ is strictly decreasing on $\\mathbb{R}$.",
+  "answeroption": "D",
+  "explanation": "<b>Given function</b><br>$$f(x)=-2x+\\cos x$$<br><b>First derivative</b><br>$$f'(x)=-2-\\sin x$$<br><b>Range of sine</b><br>For every real $x$,<br>$$-1\\leq\\sin x\\leq1$$<br>Hence,<br>$$-2-\\sin x\\leq-2-(-1)=-1$$<br><b>Sign of the derivative</b><br>Thus, $f'(x)\\leq-1<0$ for all $x\\in\\mathbb{R}$. A negative first derivative throughout an interval indicates that the function is strictly decreasing there.<br><b>Conclusion</b><br>Therefore, $f(x)=-2x+\\cos x$ is strictly decreasing on $(-\\infty,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Strictly increasing on $\\mathbb{R}$",
+    "B": "Decreasing only where $\\sin x>0$",
+    "C": "Neither increasing nor decreasing on $\\mathbb{R}$",
+    "D": "Strictly decreasing on $\\mathbb{R}$ because $f'(x)=-2-\\sin x<0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

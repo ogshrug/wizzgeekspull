@@ -1,0 +1,35 @@
+{
+  "id": "6a22632d864be73cfcf6d198",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f993"
+  ],
+  "question_type": "MCQ",
+  "question": "The area of the shaded region represented by the curves $y=x^{2}$, $0 \\le x \\le 2$ and y-axis is given by",
+  "answeroption": "D",
+  "explanation": "**Step 1:** The region is bounded by the parabola $y = x^2$, the y-axis (where $x = 0$), and a horizontal line corresponding to the maximum x-value. When $x = 2$, the y-value is $y = 2^2 = 4$.<br />**Step 2:** The region is bounded between the y-axis and the right branch of the parabola. To find this area using integration with respect to the y-axis, we use horizontal strips. The formula is $A = \\int_{y_{min}}^{y_{max}} x \\, dy$.<br />**Step 3:** Express the curve's equation in terms of $y$: $y = x^2 \\implies x = \\sqrt{y}$ (we take the positive root because the region is in the first quadrant where $x \\ge 0$).<br />**Step 4:** Determine the limits of integration along the y-axis. The region starts at the origin $y = 0$ and goes up to $y = 4$.<br />**Step 5:** Substitute the limits and the function into the area integral: $\\int_{0}^{4} \\sqrt{y} dy$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\int_{0}^{2}x^{2}dx$",
+    "B": "$\\int_{0}^{2}\\sqrt{y}dy$",
+    "C": "$\\int_{0}^{4}x^{2}dx$",
+    "D": "$\\int_{0}^{4}\\sqrt{y}dy$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22632d864be73cfcf6d198/1782195805-0.png?t=1782215606175"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

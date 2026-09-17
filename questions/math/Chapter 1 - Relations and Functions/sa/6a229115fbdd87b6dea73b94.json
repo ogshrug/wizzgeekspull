@@ -1,0 +1,29 @@
+{
+  "id": "6a229115fbdd87b6dea73b94",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Let $A=\\{1,2,3\\}$ and $B=\\{4,5,6\\}$. A relation R from A to B is defined as $R=\\{(x,y):x+y=6, x \\in A, y\\in B\\}$.<br /><br />**(i)** Write all elements of R.<br />**(ii)** Is R a function? Justify.<br />**(iii)** Determine domain and range of R.",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> Evaluate the relation condition $x + y = 6$ for each element $x \\in A$. For $x = 1$, we get $1 + y = 6 \\implies y = 5$, which belongs to $B$. For $x = 2$, we get $2 + y = 6 \\implies y = 4 \\in B$. For $x = 3$, we find $3 + y = 6 \\implies y = 3$, which is not an element of $B$. Thus, the elements of the relation are $R = \\{(1, 5), (2, 4)\\}$.<br /><br /><b>(ii)</b><br /><br /><b>Step 2</b> To determine if $R$ is a function from $A$ to $B$, check if every single element of the domain set $A$ maps to exactly one unique element in the codomain set $B$.<br /><br /><b>Step 3</b> Looking at the domain set $A = \\{1, 2, 3\\}$, the element $3$ does not appear as a first component in any ordered pair inside $R$. Because this element has no assigned output image, $R$ is not a function.<br /><br /><b>(iii)</b><br /><br /><b>Step 4</b> The domain of a relation is defined as the set containing all first components of the ordered pairs. From $R = \\{(1, 5), (2, 4)\\}$, the first coordinates are $1$ and $2$, so the domain is $\\{1, 2\\}$.<br /><br /><b>Step 5</b> The range of a relation is defined as the set containing all second components of the ordered pairs. From the pairs, the second coordinates are $5$ and $4$, so the range is $\\{4, 5\\}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

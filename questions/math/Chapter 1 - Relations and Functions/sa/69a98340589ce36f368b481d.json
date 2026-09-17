@@ -1,0 +1,29 @@
+{
+  "id": "69a98340589ce36f368b481d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "SA",
+  "question": "Let $A=\\{1,2,3,4\\}$. Define a binary operation $* : A \\times A \\to A$ by $a*b = \\min(5-(a+b), \\max(a,b)).$ Determine whether $*$ is associative and/or commutative. Justify each answer with calculations.",
+  "answeroption": "A",
+  "explanation": "**Step 1: Commutativity**<br /><br />For commutativity, check whether $a*b = b*a$ for all $a,b \\in A$.<br /><br />$\\max(a,b) = \\max(b,a)$.<br /><br />$a+b = b+a$<br /><br />So, $5-(a+b)$ is symmetric.<br /><br />Thus $a*b = \\min(5-(a+b), \\max(a,b))$ is unchanged if $a$ and $b$ are swapped.<br /><br />Thus, the operation is commutative.<br /><br />**Step 2: Associativity**<br /><br />Check whether $(a*b)*c = a*(b*c)$ for all $a,b,c \\in A$.<br /><br />Let’s try $a=1, b=2, c=3$:<br /><br />First compute $a*b=\\min(5-(1+2),\\max(1,2))=\\min(5-3,2)=\\min(2,2)=2$<br /><br />Now $(a*b)*c=2*3=\\min(5-(2+3),\\max(2,3))=\\min(0,3)=0$<br /><br />Now compute $b*c=2*3=\\min(5-5,3)=\\min(0,3)=0$<br /><br />Then $a*(b*c) = 1*0 = \\min(5-(1+0),\\max(1,0)) = \\min(4,1) = 1$<br /><br />Since $0\\ne1$, the operation is not associative.<br /><br />**Conclusion:**<br /><br />- The operation is commutative.<br /><br />- The operation is not associative.",
+  "explanation_image": [],
+  "options": {
+    "A": "$*$ is commutative but not associative",
+    "B": "$*$ is associative but not commutative",
+    "C": "$*$ is both associative and commutative",
+    "D": "$*$ is neither associative nor commutative"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:21:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

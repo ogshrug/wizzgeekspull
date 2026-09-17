@@ -1,0 +1,29 @@
+{
+  "id": "69a92bfd62be6a70cd184d16",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\cos(\\sec^{-1}x + \\csc^{-1}x)$ for $x > 1$.",
+  "answeroption": "B",
+  "explanation": "Let $\\theta = \\sec^{-1}x$ and $\\phi = \\csc^{-1}x$.<br /><br />Then $\\sec\\theta = x$ so $\\cos\\theta = \\frac{1}{x}$.<br /><br />Also $\\csc\\phi = x$ so $\\sin\\phi = \\frac{1}{x}$.<br /><br />Using identities we obtain $\\sin\\theta = \\frac{\\sqrt{x^2-1}}{x}$ and $\\cos\\phi = \\frac{\\sqrt{x^2-1}}{x}$.<br /><br />Now apply $\\cos(\\theta+\\phi)=\\cos\\theta\\cos\\phi - \\sin\\theta\\sin\\phi$.<br /><br />Substituting values gives $\\frac{1}{x}\\cdot\\frac{\\sqrt{x^2-1}}{x} - \\frac{\\sqrt{x^2-1}}{x}\\cdot\\frac{1}{x} = 0$.<br /><br />Hence $\\cos(\\sec^{-1}x + \\csc^{-1}x) = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$0$",
+    "C": "$\\frac{1}{x}$",
+    "D": "$\\frac{\\sqrt{x^2-1}}{x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:08:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

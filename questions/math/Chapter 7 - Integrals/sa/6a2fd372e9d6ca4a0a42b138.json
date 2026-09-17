@@ -1,0 +1,27 @@
+{
+  "id": "6a2fd372e9d6ca4a0a42b138",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d",
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{-1}^{2}|x^{3}-x|dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Identify the critical points where the expression inside the absolute value, $x^3 - x$, equals zero. These are $x = -1, 0,$ and $1$.<br />**Step 2:** Split the integral into intervals based on the limits and critical points: $[-1, 0]$, $[0, 1]$, and $[1, 2]$.<br />**Step 3:** Determine the sign of $(x^3 - x)$ in each interval. It is positive in $[-1, 0]$, negative in $[0, 1]$, and positive in $[1, 2]$.<br />**Step 4:** Rewrite the integral without the absolute value signs: $\\int_{-1}^{0}(x^3-x)dx - \\int_{0}^{1}(x^3-x)dx + \\int_{1}^{2}(x^3-x)dx$.<br />**Step 5:** Integrate the polynomials and substitute the limits to find the final numerical value.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

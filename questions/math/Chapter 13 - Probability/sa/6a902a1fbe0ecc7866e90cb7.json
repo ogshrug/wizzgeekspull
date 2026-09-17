@@ -1,0 +1,29 @@
+{
+  "id": "6a902a1fbe0ecc7866e90cb7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "Two cards are drawn at random without replacement from a well-shuffled deck of $52$ cards. Given that both cards drawn are red, find the probability that both are hearts.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Identification of events</b><br>Let $A$ denote the event that both cards are hearts and $B$ denote the event that both cards are red. Since every heart is a red card, $A\\subset B$. We require $P(A|B)$.<br><b>Step 2: Probability relation</b><br>Since $A\\subset B$, we have $A\\cap B=A$. Thus, $$P(A|B)=\\frac{P(A)}{P(B)}.$$<br><b>Step 3: Counting the selections</b><br>There are $13$ hearts and $26$ red cards. Therefore, $$P(A)=\\frac{\\binom{13}{2}}{\\binom{52}{2}},\\qquad P(B)=\\frac{\\binom{26}{2}}{\\binom{52}{2}}.$$<br><b>Step 4: Simplification</b><br>Hence, $$P(A|B)=\\frac{\\binom{13}{2}}{\\binom{26}{2}}=\\frac{78}{325}=\\frac6{25}.$$<br><b>Step 5: Conclusion</b><br>Therefore, given that both cards are red, the probability that both are hearts is $$\\boxed{\\frac6{25}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{13}{26}$",
+    "B": "$\\frac{6}{25}$",
+    "C": "$\\frac{1}{4}$",
+    "D": "$\\frac{13}{25}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

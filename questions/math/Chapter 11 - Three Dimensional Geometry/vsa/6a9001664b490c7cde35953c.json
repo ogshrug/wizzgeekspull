@@ -1,0 +1,29 @@
+{
+  "id": "6a9001664b490c7cde35953c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "VSA",
+  "question": "The Cartesian equation of a line is $\\frac{x+2}{3}=\\frac{y-1}{-2}=\\frac{z+4}{5}$. Express the same line in vector form.",
+  "answeroption": "B",
+  "explanation": "Step 1: Compare the given Cartesian equation with the standard form $$\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}.$$ Step 2: From the numerators, the line passes through the point $(-2,1,-4)$. Its position vector is therefore $\\vec{a}=-2\\hat{i}+\\hat{j}-4\\hat{k}$. Step 3: From the denominators, the direction ratios are $(3,-2,5)$, so a vector parallel to the line is $\\vec{b}=3\\hat{i}-2\\hat{j}+5\\hat{k}$. Step 4: The vector equation of a line through position vector $\\vec{a}$ parallel to $\\vec{b}$ is $\\vec{r}=\\vec{a}+\\lambda\\vec{b}$. Step 5: Hence, $$\\vec{r}=(-2\\hat{i}+\\hat{j}-4\\hat{k})+\\lambda(3\\hat{i}-2\\hat{j}+5\\hat{k}),\\quad \\lambda\\in\\mathbb{R}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\vec{r}=(2\\hat{i}-\\hat{j}+4\\hat{k})+\\lambda(3\\hat{i}-2\\hat{j}+5\\hat{k})$",
+    "B": "$\\vec{r}=(-2\\hat{i}+\\hat{j}-4\\hat{k})+\\lambda(3\\hat{i}-2\\hat{j}+5\\hat{k})$",
+    "C": "$\\vec{r}=(-2\\hat{i}-\\hat{j}-4\\hat{k})+\\lambda(3\\hat{i}+2\\hat{j}+5\\hat{k})$",
+    "D": "$\\vec{r}=(-2\\hat{i}+\\hat{j}+4\\hat{k})+\\lambda(3\\hat{i}-2\\hat{j}-5\\hat{k})$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

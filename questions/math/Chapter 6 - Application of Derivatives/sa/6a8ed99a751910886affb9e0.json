@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed99a751910886affb9e0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "SA",
+  "question": "Two positive numbers $x$ and $y$ satisfy $x+2y=12$. Find the values of $x$ and $y$ for which their product is maximum, and determine the maximum product.",
+  "answeroption": "B",
+  "explanation": "<b>Constraint substitution</b><br>From $x+2y=12$,<br>$$x=12-2y$$<br><b>Product function</b><br>$$P(y)=xy=y(12-2y)=12y-2y^2$$<br><b>Stationary condition</b><br>$$P'(y)=12-4y$$<br>Setting $P'(y)=0$ gives<br>$$12-4y=0\\Rightarrow y=3$$<br>Therefore, $x=12-2(3)=6$.<br><b>Maximum verification</b><br>$$P''(y)=-4<0$$<br>Hence, the product is maximum at $y=3$.<br><b>Maximum product</b><br>$$P_{\\max}=6\\times3=18$$<br><b>Conclusion</b><br>The required numbers are $x=6$ and $y=3$, and their maximum product is $18$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=4$, $y=4$; maximum product $16$",
+    "B": "$x=6$, $y=3$; maximum product $18$",
+    "C": "$x=8$, $y=2$; maximum product $16$",
+    "D": "$x=3$, $y=\\frac{9}{2}$; maximum product $\\frac{27}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

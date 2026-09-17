@@ -1,0 +1,33 @@
+{
+  "id": "6a2265b3fbdd87b6dea73b6d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "MCQ",
+  "question": "The matrix $\\begin{bmatrix}0&1&-2\\\\ -1&0&-7\\\\ 2&7&0\\end{bmatrix}$ is a:",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> Let us denote the given matrix as $A = \\begin{bmatrix}0&1&-2\\\\ -1&0&-7\\\\ 2&7&0\\end{bmatrix}$. To classify this matrix, we find its transpose $A^T$ by swapping its rows with its columns.<br /><br /><b>Step 2</b> Performing the transpose operation gives: $A^T = \\begin{bmatrix}0&-1&2\\\\ 1&0&7\\\\ -2&-7&0\\end{bmatrix}$. Now factor out a scalar negative sign $-1$ from every element inside the transposed matrix.<br /><br /><b>Step 3</b> Factoring out the negative gives $-A^T = \\begin{bmatrix}0&1&-2\\\\ -1&0&-7\\\\ 2&7&0\\end{bmatrix} = A \\implies A^T = -A$. By definition, any matrix that satisfies $A^T = -A$ is a skew-symmetric matrix. This corresponds to option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "diagonal matrix",
+    "B": "symmetric matrix",
+    "C": "skew symmetric matrix",
+    "D": "scalar matrix"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

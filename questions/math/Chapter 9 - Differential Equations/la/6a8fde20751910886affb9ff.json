@@ -1,0 +1,32 @@
+{
+  "id": "6a8fde20751910886affb9ff",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99d",
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f",
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "A student claims that the equation $$\\left(\\frac{d^2y}{dx^2}\\right)^3+x\\left(\\frac{dy}{dx}\\right)^5+y=0$$ is an ordinary differential equation of order $2$ and degree $5$, because the highest power of any derivative appearing in it is $5$. Examine the claim and establish the correct order and degree with complete justification.",
+  "answeroption": "D",
+  "explanation": "<b>Identification and Type</b><br>The equation $$\\left(\\frac{d^2y}{dx^2}\\right)^3+x\\left(\\frac{dy}{dx}\\right)^5+y=0$$ contains derivatives of $y$ with respect to the single independent variable $x$. Therefore, it is a differential equation and, more specifically, an ordinary differential equation.<br><br><b>Determination of Order</b><br>The derivatives appearing are $\\frac{dy}{dx}$ and $\\frac{d^2y}{dx^2}$. Since $\\frac{d^2y}{dx^2}$ is the highest order derivative, the order is $2$. Thus, the student's statement about the order is correct.<br><br><b>Correct Interpretation of Degree</b><br>The given equation is polynomial in its derivatives, so its degree is defined. The degree is not the highest power occurring among all derivatives. It is the power of the derivative having the highest order.<br><br>Here the highest order derivative is $\\frac{d^2y}{dx^2}$ and it occurs as $$\\left(\\frac{d^2y}{dx^2}\\right)^3.$$ Hence its power is $3$. Although $\\frac{dy}{dx}$ occurs with power $5$, it is only a first order derivative and therefore does not determine the degree.<br><br><b>Final Result</b><br>The equation is an ordinary differential equation of order $2$ and degree $3$. Hence, the student's claim that its degree is $5$ is incorrect.",
+  "explanation_image": [],
+  "options": {
+    "A": "Ordinary differential equation; order $2$, degree $5$",
+    "B": "Ordinary differential equation; order $3$, degree $3$",
+    "C": "Ordinary differential equation; order $5$, degree $2$",
+    "D": "Ordinary differential equation; order $2$, degree $3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

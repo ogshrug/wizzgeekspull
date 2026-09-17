@@ -1,0 +1,31 @@
+{
+  "id": "6a22b862864be73cfcf6d2c5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "The use of electric vehicles will curb air pollution in the long run. The use of electric vehicles is increasing every year and estimated electric vehicles in use at any time $t$ is given by the function $V$: $V(t) = \\frac{1}{5}t^3 - \\frac{5}{2}t^2 + 25t - 2$, where $t$ represents the time and $t = 1, 2, 3...$ corresponds to year 2001, 2002, 2003, ... respectively. Based on the above information, answer the following questions:<br /><br />**(i)** Can the above function be used to estimate number of vehicles in the year 2000? Justify.<br />**(ii)** Prove that the function $V(t)$ is an increasing function.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The problem explicitly maps $t=1$ to 2001, meaning the year 2000 mathematically corresponds exactly to $t=0$.<br />**Step 2:** Substitute $t=0$ into the provided function: $V(0) = -2$. Because the number of vehicles cannot practically or logically be a negative value, the function completely fails to properly estimate the vehicles for the year 2000.<br /><br />**(ii)** **Step 1:** To conclusively prove that a function is continually increasing, we must strictly demonstrate that its first derivative is positive for all real values of $t$.<br />**Step 2:** Differentiate the function: $V'(t) = \\frac{3}{5}t^2 - 5t + 25$. This forms a standard quadratic expression.<br />**Step 3:** Analyze the discriminant ($\\Delta$) of this quadratic equation: $\\Delta = b^2 - 4ac = (-5)^2 - 4(\\frac{3}{5})(25) = 25 - 60 = -35$.<br />**Step 4:** Since the discriminant $\\Delta < 0$ and the leading coefficient $a = \\frac{3}{5} > 0$, the quadratic expression is strictly positive for all real numbers $t$. Thus, $V'(t) > 0$ globally, proving $V(t)$ is an increasing function.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22b862864be73cfcf6d2c5/1782273509-0.png?t=1782293309653"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

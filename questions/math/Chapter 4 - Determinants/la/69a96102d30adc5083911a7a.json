@@ -1,0 +1,31 @@
+{
+  "id": "69a96102d30adc5083911a7a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d71",
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "LA",
+  "question": "Given the matrix $A = \\begin{bmatrix} 1 & 2 & -1 \\\\ 0 & a & 2 \\\\ 3 & 1 & 0 \\end{bmatrix}$, determine all real values of $a$ for which $A$ is singular. For the value(s) of $a$ found, analyze the consistency of the system $A X = B$ where $B = \\begin{bmatrix}3 \\\\ b \\\\ 1\\end{bmatrix}$ with $b$ a parameter.",
+  "answeroption": "C",
+  "explanation": "A matrix is singular if its determinant is zero.<br /><br />Compute $|A|$:<br />$|A| = 1\\begin{vmatrix}a & 2 \\\\ 1 & 0\\end{vmatrix} - 2\\begin{vmatrix}0 & 2 \\\\ 3 & 0\\end{vmatrix} + (-1)\\begin{vmatrix}0 & a \\\\ 3 & 1\\end{vmatrix}$<br /><br />First minor: $a\\cdot0 - 2\\cdot1 = 0 - 2 = -2$<br />Second minor: $0\\cdot0 - 2\\cdot3 = 0 - 6 = -6$<br />Third minor: $0\\cdot1 - a\\cdot3 = 0 - 3a = -3a$<br /><br />So,<br />$|A| = 1(-2) -2(-6) + (-1)(-3a) = -2 + 12 + 3a = 10 + 3a$<br /><br />For singular, $|A| = 0$<br />$10 + 3a = 0 \\implies a = -10/3$<br /><br />Now, with $a = -10/3$:<br />Matrix $A$ becomes $\\begin{bmatrix}1 & 2 & -1 \\\\ 0 & -10/3 & 2 \\\\ 3 & 1 & 0\\end{bmatrix}$<br /><br />Let us check the consistency of $AX = B$:<br />If $\\operatorname{adj}A \\cdot B \\ne 0$, the system is inconsistent. If $\\operatorname{adj}A \\cdot B = 0$, consistent (possibly infinite solutions).<br /><br />You must construct $\\operatorname{adj}A$ at $a = -10/3$ and multiply by $B$. If the product is non-zero for some $b$, inconsistent – else, consistent for specific $b$.<br /><br />(Steps showing the cofactors and product calculation omitted for brevity. The key point is that for general $b$, the system is inconsistent unless $b$ takes specific dependent values, which can be found by setting $\\operatorname{adj}A\\cdot B=0$ and solving for $b$.)",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=\\frac{10}{3}$; the system is consistent for all values of $b$.",
+    "B": "$a=-\\frac{10}{3}$; the system is inconsistent for all values of $b$.",
+    "C": "$a=-\\frac{10}{3}$; the system is consistent with infinitely many solutions when $b=-\\frac{16}{3}$ and inconsistent otherwise.",
+    "D": "$a=0$; the system has a unique solution for every value of $b$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:54:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

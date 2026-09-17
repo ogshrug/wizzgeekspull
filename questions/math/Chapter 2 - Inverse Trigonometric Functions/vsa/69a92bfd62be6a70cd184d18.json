@@ -1,0 +1,29 @@
+{
+  "id": "69a92bfd62be6a70cd184d18",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "VSA",
+  "question": "The time $T$ for high-speed trains is modeled as $T = \\sec^{-1}(1 + v^2/8)$. Determine the range of $v$ for which $T$ is defined.",
+  "answeroption": "C",
+  "explanation": "The function $\\sec^{-1}(x)$ is defined for $x \\in (-\\infty,-1] \\cup [1,\\infty)$.<br /><br />Here $x = 1 + \\frac{v^2}{8}$.<br /><br />Since $v^2 \\ge 0$, we have $\\frac{v^2}{8} \\ge 0$.<br /><br />Thus $1 + \\frac{v^2}{8} \\ge 1$.<br /><br />Hence the expression always lies in the domain of $\\sec^{-1}$.<br /><br />Since velocity cannot be negative, the valid range is $v \\ge 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$v \\le 0$",
+    "B": "$v > 1$",
+    "C": "$v \\ge 0$",
+    "D": "$-1 \\le v \\le 1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:08:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

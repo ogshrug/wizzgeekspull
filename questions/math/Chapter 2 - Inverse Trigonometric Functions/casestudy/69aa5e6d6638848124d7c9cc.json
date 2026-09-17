@@ -1,0 +1,29 @@
+{
+  "id": "69aa5e6d6638848124d7c9cc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A trading firm models growth ratio $G=\\tan^{-1}(A)+\\tan^{-1}(B)$. <br /><br />(a) Show that this equals a single inverse tangent expression.<br /><br />(b) Evaluate when $A=0.75$, $B=-0.4$.<br /><br />(c) For $B=0.6$, maximize $|dG/dA|$ for $A\\in[0.5,1.5]$.",
+  "answeroption": "A",
+  "explanation": "(a) Identity: $\\tan^{-1}x+\\tan^{-1}y=\\tan^{-1}\\left(\\frac{x+y}{1-xy}\\right)$ if $xy<1$. <br /><br />(b) Substituting gives $G=\\tan^{-1}(0.2692)\\approx0.263$ radians. <br /><br />(c) $G'(A)=1/(1+A^2)$. <br /><br />Maximum occurs at smallest $A=0.5$ giving $|G'|=0.8$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $G=\\tan^{-1}\\left(\\frac{A+B}{1-AB}\\right)$; (b) $G\\approx0.263$ radians; (c) maximum $|G'|=0.8$ at $A=0.5$",
+    "B": "(a) $G=\\tan^{-1}\\left(\\frac{A-B}{1+AB}\\right)$; (b) $G\\approx0.785$ radians; (c) maximum $|G'|=0.5$ at $A=1.5$",
+    "C": "(a) $G=\\tan^{-1}(A+B)$; (b) $G\\approx0.350$ radians; (c) maximum $|G'|=1$ at $A=1$",
+    "D": "(a) $G=\\tan^{-1}\\left(\\frac{1-AB}{A+B}\\right)$; (b) $G\\approx1.30$ radians; (c) maximum $|G'|=0.4$ at $A=1.5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 04:56:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

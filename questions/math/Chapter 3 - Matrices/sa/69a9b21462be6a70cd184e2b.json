@@ -1,0 +1,31 @@
+{
+  "id": "69a9b21462be6a70cd184e2b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5b",
+    "69c65fc040512f018fa94d5c",
+    "69c65fbf40512f018fa94d54"
+  ],
+  "question_type": "SA",
+  "question": "If $A = \\begin{bmatrix} 0 & \\tan \\alpha \\\\ \\tan \\alpha & 0 \\end{bmatrix}$ and $I$ is the identity matrix of order 2, show that $I + A = (I - A) \\begin{bmatrix} \\cos \\alpha & -\\sin \\alpha \\\\ \\sin \\alpha & \\cos \\alpha \\end{bmatrix}$, given $\\tan \\alpha = \\sin \\alpha / \\cos \\alpha$.",
+  "answeroption": "D",
+  "explanation": "Let us denote $\\tan \\alpha = t$ for simplicity.<br /><br />$I = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$.<br /><br />So $I+A = \\begin{bmatrix} 1 & t \\\\ t & 1 \\end{bmatrix}$.<br /><br />$I - A = \\begin{bmatrix} 1 & -t \\\\ -t & 1 \\end{bmatrix}$.<br /><br />Also, $\\begin{bmatrix} \\cos \\alpha & -\\sin \\alpha \\\\ \\sin \\alpha & \\cos \\alpha \\end{bmatrix}$.<br /><br />Now compute $(I-A)\\begin{bmatrix} \\cos \\alpha & -\\sin \\alpha \\\\ \\sin \\alpha & \\cos \\alpha \\end{bmatrix}$ and substitute $t=\\tan \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}$.<br /><br />Using trigonometric identities, each entry simplifies to the corresponding entry of $I+A$. Hence the required result holds.",
+  "explanation_image": [],
+  "options": {
+    "A": "The statement is true for all $\\alpha$ because the product always equals $I+A$",
+    "B": "The statement is true only when $\\tan \\alpha=0$ and the rotation matrix is $I$",
+    "C": "The statement is true only when $\\sin \\alpha=\\cos \\alpha$",
+    "D": "The statement is not true in general; direct multiplication of $(I-A)\\begin{bmatrix}\\cos\\alpha&-\\sin\\alpha\\\\\\sin\\alpha&\\cos\\alpha\\end{bmatrix}$ does not simplify to $I+A$ for arbitrary $\\alpha$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:40:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

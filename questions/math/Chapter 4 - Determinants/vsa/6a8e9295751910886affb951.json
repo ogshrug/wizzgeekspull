@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9295751910886affb951",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the number of solutions of $x+ky=2$ and $2x+4y=5$ for different values of $k$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Form the coefficient determinant</b><br>The determinant is $$\\begin{vmatrix}1&k\\\\2&4\\end{vmatrix}=4-2k$$<br><b>Step 2: Consider $k\\ne2$</b><br>If $k\\ne2$, then $4-2k\\ne0$. Therefore, the system has a unique solution.<br><b>Step 3: Consider $k=2$</b><br>The equations become $x+2y=2$ and $2x+4y=5$. Their variable coefficients are proportional, but their constants are not proportional.<br><b>Step 4: State the result</b><br>Thus, the system has one solution for $k\\ne2$ and no solution for $k=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "For $k=2$, there are infinitely many solutions; for $k\\ne2$, there is a unique solution.",
+    "B": "For $k=2$, there is a unique solution; for $k\\ne2$, there is no solution.",
+    "C": "For $k=2$, there is no solution; for $k\\ne2$, there are infinitely many solutions.",
+    "D": "For $k=2$, there is no solution; for $k\\ne2$, there is a unique solution."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

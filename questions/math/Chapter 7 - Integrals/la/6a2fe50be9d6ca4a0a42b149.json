@@ -1,0 +1,26 @@
+{
+  "id": "6a2fe50be9d6ca4a0a42b149",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate:<br /><br /> $$\\int_{0}^{\\pi}\\frac{x}{9~sin^{2}x+16~cos^{2}x}dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $I = \\int_0^\\pi \\frac{x}{9\\sin^2x + 16\\cos^2x} dx$. Apply the property $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$ to get $I = \\int_0^\\pi \\frac{\\pi-x}{9\\sin^2(\\pi-x) + 16\\cos^2(\\pi-x)} dx = \\int_0^\\pi \\frac{\\pi-x}{9\\sin^2x + 16\\cos^2x} dx$.<br />**Step 2:** Add the two expressions for $I$ together: $2I = \\int_0^\\pi \\frac{\\pi}{9\\sin^2x + 16\\cos^2x} dx$.<br />**Step 3:** Since the integrand is an even function with respect to $f(\\pi-x) = f(x)$, apply the property $\\int_0^{2a} f(x)dx = 2\\int_0^a f(x)dx$ to get $2I = 2\\pi \\int_0^{\\pi/2} \\frac{1}{9\\sin^2x + 16\\cos^2x} dx$, which simplifies to $I = \\pi \\int_0^{\\pi/2} \\frac{\\sec^2x}{9\\tan^2x + 16} dx$ (by dividing numerator and denominator by $\\cos^2x$).<br />**Step 4:** Use substitution: let $t = 3\\tan x$, then $dt = 3\\sec^2x dx$. The limits change from $0 \\to \\infty$. The integral transforms to $\\frac{\\pi}{3} \\int_0^\\infty \\frac{dt}{t^2 + 4^2}$.<br />**Step 5:** Evaluate using the standard formula $\\int \\frac{1}{x^2+a^2} dx = \\frac{1}{a} \\tan^{-1}(\\frac{x}{a})$: $I = \\frac{\\pi}{3} \\left[ \\frac{1}{4} \\tan^{-1}(\\frac{t}{4}) \\right]_0^\\infty = \\frac{\\pi}{12} (\\frac{\\pi}{2} - 0) = \\frac{\\pi^2}{24}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

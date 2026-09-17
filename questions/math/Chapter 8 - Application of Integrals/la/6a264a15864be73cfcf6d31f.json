@@ -1,0 +1,28 @@
+{
+  "id": "6a264a15864be73cfcf6d31f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f997",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, find the area of the region $\\{(x,y):4x^{2}+9y^{2}\\le36, 2x+3y\\ge6\\}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Identify the boundary curves for the region. The equation $4x^2 + 9y^2 = 36$ can be rewritten in standard form by dividing by 36: $\\frac{x^2}{9} + \\frac{y^2}{4} = 1$, which represents an ellipse centered at the origin with major axis along the x-axis ($a=3$) and minor axis along the y-axis ($b=2$). The line equation $2x + 3y = 6$ can be rewritten in intercept form as $\\frac{x}{3} + \\frac{y}{2} = 1$, which crosses the axes at $(3,0)$ and $(0,2)$. These match the vertices of the ellipse.<br />**Step 2:** The inequality constraints $4x^2 + 9y^2 \\le 36$ bounds the area inside the ellipse, while $2x + 3y \\ge 6$ targets the region above the line. Thus, we are looking for the small area in the first quadrant enclosed between the ellipse and the line. Expressing $y$ in terms of $x$ for both functions gives: $y_{\\text{ellipse}} = \\frac{2}{3}\\sqrt{9-x^2}$ and $y_{\\text{line}} = \\frac{6-2x}{3} = 2 - \\frac{2}{3}x$.<br />**Step 3:** Set up the definite integral across the intersecting limits from $x = 0$ to $x = 3$: $\\text{Area} = \\int_{0}^{3} (y_{\\text{ellipse}} - y_{\\text{line}}) dx = \\int_{0}^{3} \\left( \\frac{2}{3}\\sqrt{9-x^2} - \\left(2 - \\frac{2}{3}x\\right) \\right) dx$. Splitting constants out gives: $\\frac{2}{3} \\int_{0}^{3} \\sqrt{9-x^2} dx - \\int_{0}^{3} \\left(2 - \\frac{2}{3}x\\right) dx$.<br />**Step 4:** Evaluate the integrals using standard integration formulas. The ellipse part uses $\\int \\sqrt{a^2-x^2}dx = \\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2}\\sin^{-1}(\\frac{x}{a})$: $\\frac{2}{3} [\\frac{x}{2}\\sqrt{9-x^2} + \\frac{9}{2}\\sin^{-1}(\\frac{x}{3})]_{0}^{3} = \\frac{2}{3} [0 + \\frac{9}{2}(\\frac{\\pi}{2}) - 0] = \\frac{3\\pi}{2}$. Evaluating the line integral gives: $[2x - \\frac{x^2}{3}]_{0}^{3} = (6 - 3) - 0 = 3$. Subtracting the line area from the ellipse sector area yields the final enclosed region area: $(\\frac{3\\pi}{2} - 3)$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-1",
+    "2022-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

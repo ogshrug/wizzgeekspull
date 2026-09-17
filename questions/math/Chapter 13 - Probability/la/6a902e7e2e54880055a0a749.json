@@ -1,0 +1,30 @@
+{
+  "id": "6a902e7e2e54880055a0a749",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "LA",
+  "question": "A student knows the correct answer to a randomly chosen multiple-choice question with probability $\\frac{3}{5}$. If the student does not know the answer, one of the four given alternatives is chosen at random. If the answer given by the student is found to be correct, determine the probability that the student actually knew the answer.",
+  "answeroption": "A",
+  "explanation": "<b>Given Information</b><br>Let $K$ denote the event that the student knows the answer and $K'$ the event that the student does not know the answer. Let $C$ denote the event that the answer given is correct.<br><br>We have<br>$$P(K)=\\frac{3}{5},\\qquad P(K')=\\frac{2}{5}.$$<br>If the student knows the answer, the answer is certainly correct, so<br>$$P(C|K)=1.$$<br>If the student does not know the answer, one of four alternatives is chosen at random. Hence,<br>$$P(C|K')=\\frac{1}{4}.$$<br><br><b>Applying Total Probability</b><br>The events $K$ and $K'$ form a partition of the sample space. Therefore,<br>$$P(C)=P(K)P(C|K)+P(K')P(C|K').$$<br>Substituting the values,<br>$$P(C)=\\frac{3}{5}\\times1+\\frac{2}{5}\\times\\frac{1}{4}.$$<br>Thus,<br>$$P(C)=\\frac{3}{5}+\\frac{1}{10}=\\frac{7}{10}.$$<br><br><b>Applying Bayes’ Theorem</b><br>The required probability is<br>$$P(K|C)=\\frac{P(K)P(C|K)}{P(C)}.$$<br>Therefore,<br>$$P(K|C)=\\frac{\\frac{3}{5}\\times1}{\\frac{7}{10}}=\\frac{3}{5}\\times\\frac{10}{7}=\\frac{6}{7}.$$<br><br><b>Final Result</b><br>Hence, given that the student's answer is correct, the probability that the student actually knew the answer is $\\frac{6}{7}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{6}{7}$",
+    "B": "$\\frac{3}{5}$",
+    "C": "$\\frac{3}{4}$",
+    "D": "$\\frac{7}{10}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8fc8bf4b490c7cde3594fe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f993",
+    "6a13eb338c819562f933f995"
+  ],
+  "question_type": "LA",
+  "question": "The parabola $x=4y-y^2$ and the $y$-axis enclose a finite region.(a) Determine the points at which the parabola meets the $y$-axis.(b) Calculate the area of the enclosed region by integrating with respect to $y$.(c) Verify that the line $y=2$ divides the enclosed region into two parts of equal area.",
+  "answeroption": "A",
+  "explanation": "(a)On the $y$-axis, $x=0$. Therefore,`4y-y^2=0y\\left(4-y\\right)=0`Thus, $y=0$ or $y=4$. The parabola meets the $y$-axis at $\\left(0,0\\right)$ and $\\left(0,4\\right)$.(b)For $0\\leq y\\leq4$, the right boundary is $x=4y-y^2$ and the left boundary is $x=0$. Therefore,`A=\\int_0^4\\left(4y-y^2\\right)\\,dyA=\\left[2y^2-\\frac{y^3}{3}\\right]_0^4A=32-\\frac{64}{3}=\\frac{32}{3}`Hence, the enclosed area is $\\frac{32}{3}$ square units.(c)The area below $y=2$ is`A_1=\\int_0^2\\left(4y-y^2\\right)\\,dy=\\left[2y^2-\\frac{y^3}{3}\\right]_0^2=\\frac{16}{3}`The area above $y=2$ is`A_2=\\int_2^4\\left(4y-y^2\\right)\\,dy=\\frac{32}{3}-\\frac{16}{3}=\\frac{16}{3}`Since $A_1=A_2$, the line $y=2$ divides the region into two equal areas.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,0)$ and $(0,4)$<br>(b) Area $=\\frac{32}{3}$ square units<br>(c) Each part has area $\\frac{16}{3}$ square units",
+    "B": "(a) $(0,0)$ and $(0,4)$<br>(b) Area $=\\frac{16}{3}$ square units<br>(c) Each part has area $\\frac{8}{3}$ square units",
+    "C": "(a) $(0,-4)$ and $(0,4)$<br>(b) Area $=\\frac{32}{3}$ square units<br>(c) Each part has area $\\frac{16}{3}$ square units",
+    "D": "(a) $(0,0)$ and $(4,0)$<br>(b) Area $=\\frac{32}{3}$ square units<br>(c) The line $y=2$ does not divide the region equally"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

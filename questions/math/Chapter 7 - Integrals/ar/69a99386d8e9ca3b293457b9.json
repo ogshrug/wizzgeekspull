@@ -1,0 +1,29 @@
+{
+  "id": "69a99386d8e9ca3b293457b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): When evaluating $\\int_{0}^{\\pi} x \\sin x\\ dx$ by parts, the first term vanishes at both the upper and lower limits.<br /><br />Reason (R): In integration by parts, if $u(x)$ vanishes at the limits and $\\int v(x) dx$ is continuous at those points, then the evaluation of $u(x)\\int v(x)dx|_{a}^{b}$ gives $0$.",
+  "answeroption": "D",
+  "explanation": "Using integration by parts let $u=x$ and $dv=\\sin x dx$.<br /><br />Then $du=dx$ and $v=-\\cos x$.<br /><br />Thus $\\int x\\sin x dx=-x\\cos x+\\int \\cos x dx$.<br /><br />Evaluating the boundary term $-x\\cos x$ from $0$ to $\\pi$:<br /><br />At $x=0$, value is $0$.<br /><br />At $x=\\pi$, value is $-\\pi\\cos\\pi=\\pi$.<br /><br />Hence it does not vanish at both limits.<br /><br />Therefore Assertion is false while Reason is true.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both A and R are true and R explains A",
+    "B": "Both A and R are true but R does not explain A",
+    "C": "Assertion true Reason false",
+    "D": "Assertion false Reason true"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 14:30:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

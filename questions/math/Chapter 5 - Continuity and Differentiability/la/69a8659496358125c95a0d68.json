@@ -1,0 +1,31 @@
+{
+  "id": "69a8659496358125c95a0d68",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "LA",
+  "question": "Show that $f(x) = (\\sin x)^{\\cos x}$ is continuous at $x=\\frac{\\pi}{2}$ and determine if it is differentiable there.",
+  "answeroption": "A",
+  "explanation": "At $x=\\frac{\\pi}{2}$:<br /><br />$\\sin(\\frac{\\pi}{2})=1$<br /><br />So $f(\\frac{\\pi}{2})=1^{\\cos(\\frac{\\pi}{2})}=1$<br /><br />Check limit as $x\\to \\frac{\\pi}{2}$:<br /><br />For $x$ near $\\frac{\\pi}{2}$, $\\sin x\\to 1$, $\\cos x\\to 0$. Thus $f(x)\\to 1^{0}=1$.<br /><br />So $f(x)$ is continuous at $x=\\frac{\\pi}{2}$.<br /><br />For differentiability,<br /><br />Let $y = (\\sin x)^{\\cos x}$<br /><br />$\\ln y = \\cos x \\ln(\\sin x)$<br /><br />Differentiating:<br /><br />$\\frac{1}{y}y' = -\\sin x\\ln(\\sin x) + \\cot x\\cos x$<br /><br />At $x=\\frac{\\pi}{2}$: $\\cot x = 0$, $\\sin x=1$, $\\ln(\\sin x)=0$<br /><br />So $y'(\\frac{\\pi}{2})=1\\times (0+0) = 0$<br /><br />Thus, $f$ is differentiable at $x=\\frac{\\pi}{2}$, $f'(\\frac{\\pi}{2})=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(x)$ is continuous at $x=\\frac{\\pi}{2}$ and differentiable there, with $f'\\left(\\frac{\\pi}{2}\\right)=0$",
+    "B": "$f(x)$ is continuous at $x=\\frac{\\pi}{2}$ but not differentiable there",
+    "C": "$f(x)$ is discontinuous at $x=\\frac{\\pi}{2}$ because it has the form $1^0$",
+    "D": "$f(x)$ is differentiable at $x=\\frac{\\pi}{2}$ and $f'\\left(\\frac{\\pi}{2}\\right)=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:02:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

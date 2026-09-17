@@ -1,0 +1,31 @@
+{
+  "id": "6a8fcfa0be0ecc7866e90c3a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f994"
+  ],
+  "question_type": "LA",
+  "question": "The curve $y=|x-2|-1$ consists of two straight-line segments and is considered between $x=0$ and $x=4$.(a) Express the function without the modulus sign on the intervals $[0,2]$ and $[2,4]$, and determine its points of intersection with the $x$-axis.(b) Evaluate the signed area represented by $\\int_0^4\\left(|x-2|-1\\right)\\,dx$.(c) Form suitable integrals and calculate the total area between the curve and the $x$-axis.",
+  "answeroption": "A",
+  "explanation": "(a)The function can be written as $y=\\begin{cases}1-x, & 0\\leq x\\leq2\\\\x-3, & 2\\leq x\\leq4\\end{cases}$. For $0\\leq x\\leq2$, putting $y=0$ gives $1-x=0$, so $x=1$. For $2\\leq x\\leq4$, putting $y=0$ gives $x-3=0$, so $x=3$. Therefore, the curve intersects the $x$-axis at $\\left(1,0\\right)$ and $\\left(3,0\\right)$.(b)The signed integral is`I=\\int_0^2\\left(1-x\\right)\\,dx+\\int_2^4\\left(x-3\\right)\\,dxI=\\left[x-\\frac{x^2}{2}\\right]_0^2+\\left[\\frac{x^2}{2}-3x\\right]_2^4I=0+0=0`Thus, the signed area is $0$ because the positive and negative contributions are equal.(c)The curve lies above the $x$-axis on $[0,1]$ and $[3,4]$, and below it on $[1,3]$. Therefore,`A=\\int_0^1\\left(1-x\\right)\\,dx-\\int_1^2\\left(1-x\\right)\\,dx-\\int_2^3\\left(x-3\\right)\\,dx+\\int_3^4\\left(x-3\\right)\\,dxA=\\frac{1}{2}+\\frac{1}{2}+\\frac{1}{2}+\\frac{1}{2}=2`Hence, the total area between the curve and the $x$-axis is $2$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y=1-x$ on $[0,2]$, $y=x-3$ on $[2,4]$; intercepts $(1,0),(3,0)$<br>(b) Signed integral $=0$<br>(c) Total area $=2$ square units",
+    "B": "(a) $y=x-1$ on $[0,2]$, $y=3-x$ on $[2,4]$; intercepts $(1,0),(3,0)$<br>(b) Signed integral $=0$<br>(c) Total area $=2$ square units",
+    "C": "(a) $y=1-x$ on $[0,2]$, $y=x-3$ on $[2,4]$; intercepts $(1,0),(3,0)$<br>(b) Signed integral $=2$<br>(c) Total area $=2$ square units",
+    "D": "(a) $y=2-x$ on $[0,2]$, $y=x-2$ on $[2,4]$; intercept $(2,0)$<br>(b) Signed integral $=0$<br>(c) Total area $=4$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

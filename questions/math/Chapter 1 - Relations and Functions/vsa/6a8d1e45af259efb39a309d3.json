@@ -1,0 +1,29 @@
+{
+  "id": "6a8d1e45af259efb39a309d3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "VSA",
+  "question": "On $A=\\{1,2,3,4,5,6,7,8\\}$, define $aRb$ if $a$ and $b$ leave the same remainder when divided by $3$. How many distinct equivalence classes are formed by $R$?",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> Two elements are related when they have the same remainder on division by $3$. The possible remainders are $0,1$ and $2$.<br><b>Step 2:</b> Elements having remainder $1$ are $1,4,7$, giving the class $\\{1,4,7\\}$.<br><b>Step 3:</b> Elements having remainder $2$ are $2,5,8$, giving the class $\\{2,5,8\\}$.<br><b>Step 4:</b> Elements divisible by $3$ have remainder $0$ and form the class $\\{3,6\\}$.<br><b>Step 5:</b> These classes are mutually disjoint and together contain every element of $A$, as required for equivalence classes.<br><b>Final Answer:</b> The number of distinct equivalence classes is $\\boxed{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$3$",
+    "B": "$2$",
+    "C": "$8$",
+    "D": "$4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

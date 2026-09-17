@@ -1,0 +1,29 @@
+{
+  "id": "69a94d8cd30adc5083911a4b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "SA",
+  "question": "Given $A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$, if $\\text{adj}(A)=A$, what are the possible values of $a, b, c, d$ when $ad-bc \\ne 0$?",
+  "answeroption": "D",
+  "explanation": "$\\text{adj}(A) = \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix} = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$<br />So:<br />$a = d$, $b = -b$, $c=-c$, $d=a$<br />So $b = 0$, $c = 0$, $a = d$<br />So $A = \\begin{bmatrix} a & 0 \\\\ 0 & a \\end{bmatrix}$<br />$ad - bc = a^2 \\ne 0 \\implies a \\ne 0$<br />Thus, $A$ is a nonzero multiple of the identity matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=d=0$, $b$ and $c$ can be any non-zero real numbers",
+    "B": "$a=-d$, $b=0$, $c=0$, where $a\\ne0$",
+    "C": "$a=d$, $b=c=1$, where $ad-bc\\ne0$",
+    "D": "$a=d\\ne0$, $b=0$, $c=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:31:56 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

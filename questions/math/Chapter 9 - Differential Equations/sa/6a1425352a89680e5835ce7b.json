@@ -1,0 +1,25 @@
+{
+  "id": "6a1425352a89680e5835ce7b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $(1+x^{2})\\frac{dy}{dx}+2xy=\\frac{1}{1+x^{2}}$ given that $y=0$ when $x=1$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Standard Form.** Divide by $(1+x^2)$ to get $\\frac{dy}{dx} + \\left(\\frac{2x}{1+x^2}\\right)y = \\frac{1}{(1+x^2)^2}$.<br />**Step 2: Integrating Factor.** $IF = e^{\\int \\frac{2x}{1+x^2} dx} = 1+x^2$.<br />**Step 3: General Solution.** $y(1+x^2) = \\int \\frac{1}{1+x^2} dx = \\tan^{-1}x + C$.<br />**Step 4: Apply Initial Condition.** Given $y=0, x=1 \\implies C = -\\frac{\\pi}{4}$. Particular solution is $y(1+x^2) = \\tan^{-1}x - \\frac{\\pi}{4}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

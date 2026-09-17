@@ -1,0 +1,32 @@
+{
+  "id": "6a8fe2744b490c7cde359520",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a3",
+    "6a13ebc98c819562f933f9a4"
+  ],
+  "question_type": "LA",
+  "question": "The family $$y=C_1e^{2x}+C_2e^{-x}$$ is proposed as the general solution of the differential equation $$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-2y=0.$$ Verify the proposed general solution and hence determine the particular solution satisfying the initial conditions $y(0)=4$ and $y'(0)=5$.",
+  "answeroption": "D",
+  "explanation": "<b>Verification</b><br>Given $$y=C_1e^{2x}+C_2e^{-x}.$$ Differentiating, $$\\frac{dy}{dx}=2C_1e^{2x}-C_2e^{-x}$$ and $$\\frac{d^2y}{dx^2}=4C_1e^{2x}+C_2e^{-x}.$$ Therefore, $$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-2y=4C_1e^{2x}+C_2e^{-x}-2C_1e^{2x}+C_2e^{-x}-2C_1e^{2x}-2C_2e^{-x}=0.$$ Hence every member of the family satisfies the differential equation. Since the equation is of second order and the family contains two arbitrary constants, it represents its general solution.<br><br><b>Applying the Initial Conditions</b><br>At $x=0$, $y(0)=4$ gives $$C_1+C_2=4.$$ Also, $$y'(0)=2C_1-C_2=5.$$ Adding the two equations gives $$3C_1=9,$$ so $C_1=3$. Therefore, $C_2=1$.<br><br><b>Verification of the Particular Member</b><br>The required member is $$y=3e^{2x}+e^{-x}.$$ Its derivatives are $$y'=6e^{2x}-e^{-x}$$ and $$y''=12e^{2x}+e^{-x}.$$ Thus, $$y''-y'-2y=12e^{2x}+e^{-x}-6e^{2x}+e^{-x}-6e^{2x}-2e^{-x}=0.$$<br><br><b>Final Result</b><br>The particular solution satisfying the given initial conditions is $$y=3e^{2x}+e^{-x}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=e^{2x}+3e^{-x}$",
+    "B": "$y=2e^{2x}+2e^{-x}$",
+    "C": "$y=3e^{2x}-e^{-x}$",
+    "D": "$y=3e^{2x}+e^{-x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

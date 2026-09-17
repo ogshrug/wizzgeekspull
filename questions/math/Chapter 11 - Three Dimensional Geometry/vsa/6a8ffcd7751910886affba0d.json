@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffcd7751910886affba0d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d1"
+  ],
+  "question_type": "VSA",
+  "question": "Two lines have direction ratios $1,2,2$ and $2,-1,2$. Determine the acute angle between them.",
+  "answeroption": "C",
+  "explanation": "Step 1: Let the direction vectors corresponding to the two lines be $\\vec{b_1}=(1,2,2)$ and $\\vec{b_2}=(2,-1,2)$. Step 2: For the acute angle $\\theta$ between two lines, use $$\\cos\\theta=\\frac{|\\vec{b_1}\\cdot\\vec{b_2}|}{|\\vec{b_1}||\\vec{b_2}|}.$$ Step 3: Their scalar product is $1(2)+2(-1)+2(2)=2-2+4=4$. Step 4: Also, $|\\vec{b_1}|=\\sqrt{1+4+4}=3$ and $|\\vec{b_2}|=\\sqrt{4+1+4}=3$. Step 5: Therefore, $$\\cos\\theta=\\frac{4}{9}.$$ Hence, the required acute angle is $\\theta=\\cos^{-1}\\left(\\frac{4}{9}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cos^{-1}\\left(\\frac{2}{9}\\right)$",
+    "B": "$\\cos^{-1}\\left(\\frac{4}{3}\\right)$",
+    "C": "$\\cos^{-1}\\left(\\frac{4}{9}\\right)$",
+    "D": "$\\cos^{-1}\\left(\\frac{5}{9}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

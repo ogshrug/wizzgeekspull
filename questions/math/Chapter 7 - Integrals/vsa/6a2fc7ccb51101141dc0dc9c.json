@@ -1,0 +1,26 @@
+{
+  "id": "6a2fc7ccb51101141dc0dc9c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "VSA",
+  "question": "Find: $\\int \\frac{1}{x(x^2 + 4)} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Multiply the numerator and denominator by $x$.<br />$\\int \\frac{1}{x(x^2 + 4)} dx = \\int \\frac{x}{x^2(x^2 + 4)} dx$<br />**Step 2:** Substitute $t = x^2 \\implies dt = 2x dx$.<br />$\\frac{1}{2} \\int \\frac{1}{t(t + 4)} dt$<br />**Step 3:** Use partial fractions decomposition.<br />$\\frac{1}{2} \\int \\frac{1}{4} \\left( \\frac{1}{t} - \\frac{1}{t+4} \\right) dt$<br />**Step 4:** Integrate and substitute back $t = x^2$.<br />$\\frac{1}{8} (\\log|t| - \\log|t+4|) + C = \\frac{1}{8} \\log\\left|\\frac{x^2}{x^2+4}\\right| + C$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

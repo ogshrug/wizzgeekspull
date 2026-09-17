@@ -1,0 +1,26 @@
+{
+  "id": "6a33b663d5dca7dcb0bf0f41",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "SA",
+  "question": "Show that of all the rectangles with a fixed perimeter, the square has the greatest area.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the sides of the rectangle be $x$ and $y$. Let the fixed perimeter be a constant $P$. The relationship is $2x + 2y = P$, solving for $y$ yields $y = \\frac{P}{2} - x$.\n\n**Step 2:** Write the area $A$ as a function of the single variable $x$: $A = x \\cdot y = x\\left(\\frac{P}{2} - x\\right) = \\frac{P}{2}x - x^2$.\n\n**Step 3:** Find the first derivative and equate it to zero to locate the critical points for optimization: $\\frac{dA}{dx} = \\frac{P}{2} - 2x = 0 \\Rightarrow 2x = \\frac{P}{2} \\Rightarrow x = \\frac{P}{4}$.\n\n**Step 4:** Evaluate the second derivative to confirm a maximum: $\\frac{d^2A}{dx^2} = -2$. Because this is strictly less than 0, the area is maximized at $x = \\frac{P}{4}$.\n\n**Step 5:** Calculate the corresponding side $y$: $y = \\frac{P}{2} - \\frac{P}{4} = \\frac{P}{4}$. Because length $x$ equals width $y$, the rectangle with maximum area is a square.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

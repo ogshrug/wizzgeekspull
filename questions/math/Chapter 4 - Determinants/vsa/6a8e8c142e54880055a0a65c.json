@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8c142e54880055a0a65c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\begin{vmatrix}2&3\\\\5&7\\end{vmatrix}=-1$, determine the value of $\\begin{vmatrix}5&7\\\\2&3\\end{vmatrix}$ without expanding it.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Compare the determinants</b><br>In the second determinant, the first and second rows of the original determinant have been interchanged.<br><b>Step 2: Use the relevant property</b><br>When any two rows of a determinant are interchanged, the sign of the determinant changes.<br><b>Step 3: Apply the property</b><br>Therefore, $$\\begin{vmatrix}5&7\\\\2&3\\end{vmatrix}=-\\begin{vmatrix}2&3\\\\5&7\\end{vmatrix}$$<br><b>Step 4: Substitute the given value</b><br>Using the given determinant value, $$\\begin{vmatrix}5&7\\\\2&3\\end{vmatrix}=-(-1)=1$$<br>Hence, the required value is $1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-1$",
+    "B": "$0$",
+    "C": "$2$",
+    "D": "$1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

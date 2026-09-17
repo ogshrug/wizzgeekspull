@@ -1,0 +1,32 @@
+{
+  "id": "69a98be46638848124d7c95f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $R$ be a relation defined on $R$ as $R = \\{(x,y): x^2 + y^2 = 1\\}$. Then $R$ is:",
+  "answeroption": "B",
+  "explanation": "Reflexive: For reflexivity we require $(x,x) \\in R$ for all $x$. That means $x^2 + x^2 = 1 \\Rightarrow 2x^2 = 1 \\Rightarrow x = \\pm \\frac{1}{\\sqrt{2}}$, which is not true for all real numbers. Hence $R$ is not reflexive.<br /><br />Symmetric: If $(x,y) \\in R$, then $x^2 + y^2 = 1$. Since $y^2 + x^2 = 1$, $(y,x) \\in R$. Hence the relation is symmetric.<br /><br />Thus the relation is symmetric but not reflexive.",
+  "explanation_image": [],
+  "options": {
+    "A": "Reflexive",
+    "B": "Symmetric but not reflexive",
+    "C": "Equivalence relation",
+    "D": "Neither reflexive nor symmetric"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:57:56 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

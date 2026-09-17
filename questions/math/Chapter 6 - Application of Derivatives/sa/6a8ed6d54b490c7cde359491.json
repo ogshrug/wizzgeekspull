@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed6d54b490c7cde359491",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f980"
+  ],
+  "question_type": "SA",
+  "question": "Using differentials, estimate $(31.9)^{\\frac{1}{5}}$ correct to five decimal places.",
+  "answeroption": "D",
+  "explanation": "<b>Function and nearby value</b><br>Let $y=x^{\\frac{1}{5}}$. Choose $x=32$ and $dx=-0.1$, because $31.9=32-0.1$.<br><b>Differential relation</b><br>$$dy=\\frac{1}{5x^{\\frac{4}{5}}}dx$$<br><b>Evaluation at $x=32</b><br>Since $32^{\\frac{1}{5}}=2$,<br>$$32^{\\frac{4}{5}}=16$$<br>Therefore,<br>$$dy=\\frac{-0.1}{5(16)}=-\\frac{0.1}{80}=-0.00125$$<br><b>Approximate value</b><br>$$(31.9)^{\\frac{1}{5}}\\approx32^{\\frac{1}{5}}+dy$$<br>$$(31.9)^{\\frac{1}{5}}\\approx2-0.00125$$<br><b>Conclusion</b><br>Hence, $(31.9)^{\\frac{1}{5}}\\approx1.99875$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2.00125$",
+    "B": "$1.98750$",
+    "C": "$1.99975$",
+    "D": "$1.99875$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

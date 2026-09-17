@@ -1,0 +1,32 @@
+{
+  "id": "6a8ef357be0ecc7866e90c15",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f",
+    "6a13e9908c819562f933f980",
+    "6a13e9908c819562f933f981",
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "LA",
+  "question": "An angle is measured as $45^\\circ$ with a possible error of $0.5^\\circ$. Using linear approximation and differentials, estimate $\\tan 45.5^\\circ$, and hence determine the maximum approximate error and percentage error in the value of the tangent calculated from the measured angle.",
+  "answeroption": "A",
+  "explanation": "<b>Conversion of Error</b><br>The measured angle is<br>$$\\theta=45^\\circ=\\frac{\\pi}{4}$$<br>The possible angular error in radians is<br>$$d\\theta=0.5^\\circ=\\frac{\\pi}{360}$$<br><br><b>Linear Approximation</b><br>Let $f(\\theta)=\\tan\\theta$. Then<br>$$f'(\\theta)=\\sec^2\\theta$$<br>At $\\theta=\\frac{\\pi}{4}$,<br>$$f\\left(\\frac{\\pi}{4}\\right)=1$$<br>and<br>$$f'\\left(\\frac{\\pi}{4}\\right)=2$$<br>Therefore,<br>$$\\tan\\left(\\frac{\\pi}{4}+\\frac{\\pi}{360}\\right)\\approx 1+2\\left(\\frac{\\pi}{360}\\right)$$<br>$$\\tan 45.5^\\circ\\approx 1+\\frac{\\pi}{180}\\approx 1.01745$$<br><br><b>Error Estimation</b><br>The differential is<br>$$dy=\\sec^2\\theta\\,d\\theta$$<br>Hence, the maximum approximate error is<br>$$|dy|=2\\left(\\frac{\\pi}{360}\\right)=\\frac{\\pi}{180}\\approx 0.01745$$<br>The corresponding percentage error is<br>$$\\frac{|dy|}{|y|}\\times 100=\\frac{\\pi}{180}\\times 100$$<br>$$\\approx 1.745\\%$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan45.5^\\circ\\approx1.01745$; maximum error $\\frac{\\pi}{180}\\approx0.01745$; percentage error $\\approx1.745\\%$",
+    "B": "$\\tan45.5^\\circ\\approx1.00873$; maximum error $\\frac{\\pi}{360}$; percentage error $0.873\\%$",
+    "C": "$\\tan45.5^\\circ\\approx0.98255$; maximum error $\\frac{\\pi}{180}$; percentage error $\\approx1.745\\%$",
+    "D": "$\\tan45.5^\\circ\\approx1.03491$; maximum error $\\frac{\\pi}{90}$; percentage error $\\approx3.491\\%$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

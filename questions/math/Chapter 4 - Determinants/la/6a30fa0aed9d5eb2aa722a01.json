@@ -1,0 +1,27 @@
+{
+  "id": "6a30fa0aed9d5eb2aa722a01",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f",
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "LA",
+  "question": "If $A=\\begin{bmatrix}1&2&-2\\\\-1&3&0\\\\0&-2&1\\end{bmatrix}$ and $B^{-1}=\\begin{bmatrix}3&-1&1\\\\-15&6&-5\\\\5&-2&2\\end{bmatrix}$, find $(AB)^{-1}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Calculate the determinant of matrix A to ensure it is an invertible matrix. Evaluating the expansion along the first row gives $|A| = 1(3-0) - 2(-1-0) - 2(2-0) = 1$. Since $|A| \\neq 0$, the inverse $A^{-1}$ definitely exists.\n\n**Step 2:** Find the cofactors of all elements of matrix A to systematically form the required cofactor matrix. This involves calculating the determinant of the corresponding 2x2 minors for each position and carefully applying the alternating signs.\n\n**Step 3:** Transpose the complete cofactor matrix to obtain the adjoint matrix, denoted as $\\text{adj}(A)$. Then, calculate the inverse matrix $A^{-1}$ by using the standard formula $A^{-1} = \\frac{1}{|A|} \\text{adj}(A)$.\n\n**Step 4:** Recall the standard reversal law property for the inverse of the product of two matrices, which explicitly states that $(AB)^{-1} = B^{-1}A^{-1}$.\n\n**Step 5:** Finally, multiply the given matrix $B^{-1}$ by the newly calculated inverse matrix $A^{-1}$ using standard row-by-column matrix multiplication rules to find the final resulting matrix for $(AB)^{-1}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

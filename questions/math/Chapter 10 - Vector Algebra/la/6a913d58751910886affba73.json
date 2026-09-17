@@ -1,0 +1,32 @@
+{
+  "id": "6a913d58751910886affba73",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c3",
+    "6a13e767d837c8c7efa6b8c4",
+    "6a13e767d837c8c7efa6b8c6",
+    "6a13e767d837c8c7efa6b8c9"
+  ],
+  "question_type": "LA",
+  "question": "The position vectors of points $P$ and $R$ are $2\\hat{i}-\\hat{j}+3\\hat{k}$ and $4\\hat{i}+3\\hat{j}-\\hat{k}$, respectively. The point $R$ divides the line segment joining $P$ to an unknown point $Q$ internally in the ratio $2:3$. Determine the position vector of $Q$ and verify using vector components that $P$, $R$ and $Q$ are collinear in the stated order.",
+  "answeroption": "D",
+  "explanation": "Applying the Section FormulaLet the position vectors of $P$, $Q$ and $R$ be $\\vec{p}$, $\\vec{q}$ and $\\vec{r}$, respectively. Since $R$ divides $PQ$ internally in the ratio $2:3$,`\\vec{r}=\\frac{2\\vec{q}+3\\vec{p}}{5}`Therefore,`2\\vec{q}=5\\vec{r}-3\\vec{p}`Substituting the given vectors,`2\\vec{q}=5(4\\hat{i}+3\\hat{j}-\\hat{k})-3(2\\hat{i}-\\hat{j}+3\\hat{k})2\\vec{q}=(20\\hat{i}+15\\hat{j}-5\\hat{k})-(6\\hat{i}-3\\hat{j}+9\\hat{k})2\\vec{q}=14\\hat{i}+18\\hat{j}-14\\hat{k}`Thus,`\\vec{q}=7\\hat{i}+9\\hat{j}-7\\hat{k}`Verification of Collinearity and Order`\\overrightarrow{PR}=\\vec{r}-\\vec{p}\\overrightarrow{PR}=2\\hat{i}+4\\hat{j}-4\\hat{k}`Also,`\\overrightarrow{RQ}=\\vec{q}-\\vec{r}\\overrightarrow{RQ}=3\\hat{i}+6\\hat{j}-6\\hat{k}`Therefore,`\\overrightarrow{RQ}=\\frac{3}{2}\\overrightarrow{PR}`The positive scalar multiplier shows that both vectors have the same direction. Hence, $P$, $R$ and $Q$ are collinear, with $R$ lying between $P$ and $Q$. Moreover,`PR:RQ=2:3`Final ResultThe position vector of $Q$ is $7\\hat{i}+9\\hat{j}-7\\hat{k}$, and the required collinearity and division ratio are verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\vec{q}=7\\hat{i}+9\\hat{j}+7\\hat{k}$; $\\overrightarrow{RQ}=\\frac{3}{2}\\overrightarrow{PR}$, so $P,R,Q$ are collinear.",
+    "B": "$\\vec{q}=5\\hat{i}+7\\hat{j}-5\\hat{k}$; $\\overrightarrow{RQ}=\\overrightarrow{PR}$, so $PR:RQ=1:1$.",
+    "C": "$\\vec{q}=7\\hat{i}+9\\hat{j}-7\\hat{k}$; $\\overrightarrow{RQ}=-\\frac{3}{2}\\overrightarrow{PR}$, so $R$ lies outside segment $PQ$.",
+    "D": "$\\vec{q}=7\\hat{i}+9\\hat{j}-7\\hat{k}$; $\\overrightarrow{PR}=2\\hat{i}+4\\hat{j}-4\\hat{k}$ and $\\overrightarrow{RQ}=3\\hat{i}+6\\hat{j}-6\\hat{k}=\\frac{3}{2}\\overrightarrow{PR}$, confirming $PR:RQ=2:3$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

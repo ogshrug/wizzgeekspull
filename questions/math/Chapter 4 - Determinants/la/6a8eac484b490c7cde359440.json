@@ -1,0 +1,30 @@
+{
+  "id": "6a8eac484b490c7cde359440",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "LA",
+  "question": "Using properties of determinants, prove that<br>$$\\begin{vmatrix}x+a & x+b & x+c\\\\a & b & c\\\\1 & 1 & 1\\end{vmatrix}=0$$<br>for all real values of $x$, $a$, $b$, and $c$. Hence, evaluate the determinant when $x=4$, $a=-2$, $b=3$, and $c=7$, and explain the relation among its rows.",
+  "answeroption": "C",
+  "explanation": "<b>Proof using determinant properties</b><br>Let<br>$$D=\\begin{vmatrix}x+a & x+b & x+c\\\\a & b & c\\\\1 & 1 & 1\\end{vmatrix}$$<br>Apply the row operation $R_1\\to R_1-R_2$:<br>$$D=\\begin{vmatrix}x & x & x\\\\a & b & c\\\\1 & 1 & 1\\end{vmatrix}$$<br>Take $x$ common from the first row:<br>$$D=x\\begin{vmatrix}1 & 1 & 1\\\\a & b & c\\\\1 & 1 & 1\\end{vmatrix}$$<br>The first and third rows are identical. Therefore,<br>$$D=0$$<br><br><b>Numerical evaluation</b><br>For $x=4$, $a=-2$, $b=3$, and $c=7$,<br>$$D=\\begin{vmatrix}2 & 7 & 11\\\\-2 & 3 & 7\\\\1 & 1 & 1\\end{vmatrix}$$<br>Applying $R_1\\to R_1-R_2$ gives<br>$$D=\\begin{vmatrix}4 & 4 & 4\\\\-2 & 3 & 7\\\\1 & 1 & 1\\end{vmatrix}=4\\begin{vmatrix}1 & 1 & 1\\\\-2 & 3 & 7\\\\1 & 1 & 1\\end{vmatrix}=0$$<br><br><b>Relation among the rows</b><br>In the original determinant, every entry of the first row is obtained by adding $x$ times the corresponding entry of the third row to the second row. Thus,<br>$$R_1=R_2+xR_3$$<br>The rows are linearly related, so the determinant is zero.",
+  "explanation_image": [],
+  "options": {
+    "A": "Applying $R_1\\to R_1+R_2$ produces equal rows, so the determinant is $0$; for the given values it is $0$, and $R_1=R_2-xR_3$",
+    "B": "Applying $R_1\\to R_1-R_3$ produces equal rows, so the determinant equals $x$; for the given values it equals $4$",
+    "C": "Applying $R_1\\to R_1-R_2$ gives $R_1=(x,x,x)=xR_3$, so the determinant is $0$; for the given values it is $0$, and the original rows satisfy $R_1=R_2+xR_3$",
+    "D": "The determinant equals $abcx$; for $x=4,a=-2,b=3,c=7$, its value is $-168$, so the rows are independent"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9706e62be6a70cd184d9b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "SA",
+  "question": "Form the differential equation representing the family of curves $y^2 = A e^x + B$, where $A, B$ are arbitrary constants.",
+  "answeroption": "B",
+  "explanation": "Given: $y^2 = A e^x + B$<br />This family contains two arbitrary constants, so the differential equation will be of order 2.<br /><br />Step 1: Differentiate both sides with respect to $x$:<br />$2y \\frac{dy}{dx} = A e^x$<br /><br />Step 2: Differentiate again:<br />$2 \\left( \\frac{dy}{dx} \\frac{dy}{dx} + y \\frac{d^2y}{dx^2} \\right ) = A e^x$<br />$2 \\left( \\left( \\frac{dy}{dx} \\right)^2 + y \\frac{d^2y}{dx^2} \\right) = A e^x$<br />But from the first derivative, $A e^x = 2y \\frac{dy}{dx}$<br />Substitute for $A e^x$ in the second derivative equation:<br />$2 \\left( \\left( \\frac{dy}{dx} \\right)^2 + y \\frac{d^2y}{dx^2} \\right ) = 2y \\frac{dy}{dx}$<br />Divide both sides by 2:<br />$\\left( \\frac{dy}{dx} \\right)^2 + y \\frac{d^2y}{dx^2} = y \\frac{dy}{dx}$<br />Bring all terms to one side:<br />$\\left( \\frac{dy}{dx} \\right)^2 + y \\frac{d^2y}{dx^2} - y \\frac{dy}{dx} = 0$<br />Hence, the required differential equation is:<br />$\\boxed{ \\left( \\frac{dy}{dx} \\right)^2 + y \\frac{d^2y}{dx^2} - y \\frac{dy}{dx} = 0 }$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\left(\\frac{dy}{dx}\\right)^2+y\\frac{d^2y}{dx^2}+y\\frac{dy}{dx}=0$",
+    "B": "$\\left(\\frac{dy}{dx}\\right)^2+y\\frac{d^2y}{dx^2}-y\\frac{dy}{dx}=0$",
+    "C": "$y\\frac{d^2y}{dx^2}-y\\frac{dy}{dx}=0$",
+    "D": "$\\frac{d^2y}{dx^2}-y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:00:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

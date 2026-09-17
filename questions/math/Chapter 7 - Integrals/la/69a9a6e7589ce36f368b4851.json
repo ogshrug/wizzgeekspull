@@ -1,0 +1,29 @@
+{
+  "id": "69a9a6e7589ce36f368b4851",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int x \\ln(x^2+1) dx$.",
+  "answeroption": "C",
+  "explanation": "Use integration by parts.<br /><br />Let $u=\\ln(x^2+1)$ and $dv=x dx$.<br /><br />Then $du=\\frac{2x}{x^2+1}dx$ and $v=\\frac{x^2}{2}$.<br /><br />Applying the formula gives:<br /><br />$\\frac{x^2}{2}\\ln(x^2+1)-\\int \\frac{x^3}{x^2+1}dx$.<br /><br />Using division $\\frac{x^3}{x^2+1}=x-\\frac{x}{x^2+1}$.<br /><br />After integrating and simplifying the result becomes:<br /><br />$\\frac{x^2}{2}\\ln(x^2+1)-\\frac{x^2}{2}+\\frac{1}{2}\\ln|x^2+1|+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x^2}{2}\\ln(x^2+1)+\\frac{x^2}{2}+\\frac{1}{2}\\ln|x^2+1|+C$",
+    "B": "$\\frac{x^2}{2}\\ln(x^2+1)-\\frac{x^2}{2}-\\frac{1}{2}\\ln|x^2+1|+C$",
+    "C": "$\\frac{x^2}{2}\\ln(x^2+1)-\\frac{x^2}{2}+\\frac{1}{2}\\ln|x^2+1|+C$",
+    "D": "$x^2\\ln(x^2+1)-\\frac{x^2}{2}+\\frac{1}{2}\\ln|x^2+1|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:53:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

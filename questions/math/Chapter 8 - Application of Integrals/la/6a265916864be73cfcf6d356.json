@@ -1,0 +1,27 @@
+{
+  "id": "6a265916864be73cfcf6d356",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99a",
+    "6a13eb348c819562f933f999"
+  ],
+  "question_type": "LA",
+  "question": "Find the area of the region bounded by curve $4x^{2}=y$ and the line $y=8x+12$, using integration.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given boundaries are a vertical parabola $y = 4x^2$ and a straight line $y = 8x + 12$. First, locate their intersection boundaries by equating both equations: $4x^2 = 8x + 12$. Dividing by 4 simplifies this to a quadratic form: $x^2 - 2x - 3 = 0$. Factoring this expression gives $(x-3)(x+1) = 0$, which yields intersection limits at $x = -1$ and $x = 3$.<br />**Step 2:** Over the interval $[-1, 3]$, the straight line sits above the parabola curve, forming the top ceiling boundary. Therefore, the area enclosed between them is given by the definite integral of their differences: $\\text{Area} = \\int_{-1}^{3} (y_{\\text{line}} - y_{\\text{parabola}}) dx$. Substituting functions gives: $\\int_{-1}^{3} \\left((8x + 12) - 4x^2\\right) dx$.<br />**Step 3:** Integrate the polynomial expression term-by-term using the standard power rules of calculus: $\\left[ 8\\left(\\frac{x^2}{2}\\right) + 12x - 4\\left(\\frac{x^3}{3}\\right) \\right]_{-1}^{3} = \\left[ 4x^2 + 12x - \\frac{4x^3}{3} \\right]_{-1}^{3}$.<br />**Step 4:** Now substitute the upper limit $x = 3$ and lower limit $x = -1$ into this integrated template to evaluate the area. At upper limit $x = 3$: $\\left(4(9) + 12(3) - \\frac{4(27)}{3}\\right) = (36 + 36 - 36) = 36$. At lower limit $x = -1$: $\\left(4(1) + 12(-1) - \\frac{4(-1)}{3}\\right) = (4 - 12 + \\frac{4}{3}) = -8 + \\frac{4}{3} = -\\frac{20}{3}$. Subtracting the lower bound evaluation from the upper bound evaluation gives: $36 - \\left(-\\frac{20}{3}\\right) = 36 + \\frac{20}{3} = \\frac{108 + 20}{3} = \\frac{128}{3}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

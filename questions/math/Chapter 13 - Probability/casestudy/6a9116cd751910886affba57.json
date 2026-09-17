@@ -1,0 +1,30 @@
+{
+  "id": "6a9116cd751910886affba57",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A pair of fair six-faced dice is rolled once during a classroom investigation. Students are interested only in how many of the two dice show the number 6, rather than in the total of the numbers obtained. Let $X$ denote the number of dice showing 6. Thus, for an outcome such as $(6,4)$ the value of $X$ is 1, while for $(6,6)$ the value is 2. The complete sample space contains 36 equally likely ordered outcomes. The class uses this experiment to study how a random variable groups several outcomes together and how the probabilities of its possible values form a probability distribution.<br><br><b>(a)</b> Identify all possible values of $X$.<br><br><b>(b)</b> Find $P(X=2)$.<br><br><b>(c)</b> Determine the probability distribution of $X$.<br><br><b>(d)</b> Determine whether obtaining at least one 6 is more likely than obtaining no 6.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The number of dice showing 6 can be none, exactly one, or both.<br>Therefore, the possible values of $X$ are<br>$$X=0,1,2$$<br><br><b>(b)</b><br>The event $X=2$ occurs only when both dice show 6, that is, for the outcome $(6,6)$.<br>Out of 36 equally likely outcomes,<br>$$P(X=2)=\\frac{1}{36}$$<br><br><b>(c)</b><br>For $X=0$, neither die shows 6. Each die can then show any of the numbers $1,2,3,4,5$, giving $5\\times5=25$ outcomes.<br>Thus,<br>$$P(X=0)=\\frac{25}{36}$$<br>For $X=1$, exactly one die shows 6. There are 5 outcomes with the first die showing 6 and 5 outcomes with the second die showing 6.<br>Therefore,<br>$$P(X=1)=\\frac{10}{36}=\\frac{5}{18}$$<br>Also,<br>$$P(X=2)=\\frac{1}{36}$$<br>Hence, the probability distribution is $P(X=0)=\\frac{25}{36}$, $P(X=1)=\\frac{10}{36}$ and $P(X=2)=\\frac{1}{36}$.<br>Its probabilities satisfy<br>$$\\frac{25}{36}+\\frac{10}{36}+\\frac{1}{36}=1$$<br><br><b>(d)</b><br>The probability of obtaining at least one 6 is<br>$$P(X\\geq1)=P(X=1)+P(X=2)=\\frac{10}{36}+\\frac{1}{36}=\\frac{11}{36}$$<br>The probability of obtaining no 6 is<br>$$P(X=0)=\\frac{25}{36}$$<br>Since $\\frac{25}{36}>\\frac{11}{36}$, obtaining no 6 is more likely than obtaining at least one 6.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $X=0,1,2$<br>(b) $P(X=2)=\\frac{1}{36}$<br>(c) $P(0)=\\frac{25}{36},\\ P(1)=\\frac{10}{36},\\ P(2)=\\frac{1}{36}$<br>(d) No 6 is more likely since $\\frac{25}{36}>\\frac{11}{36}$",
+    "B": "(a) $X=0,1,2$<br>(b) $P(X=2)=\\frac{1}{18}$<br>(c) $P(0)=\\frac{24}{36},\\ P(1)=\\frac{10}{36},\\ P(2)=\\frac{2}{36}$<br>(d) At least one 6 is more likely",
+    "C": "(a) $X=0,1,2$<br>(b) $P(X=2)=\\frac{1}{36}$<br>(c) $P(0)=\\frac{25}{36},\\ P(1)=\\frac{11}{36},\\ P(2)=\\frac{1}{36}$<br>(d) At least one 6 and no 6 are equally likely",
+    "D": "(a) $X=1,2$<br>(b) $P(X=2)=\\frac{1}{36}$<br>(c) $P(1)=\\frac{10}{36},\\ P(2)=\\frac{1}{36}$<br>(d) At least one 6 is more likely than no 6"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a30f236ed9d5eb2aa7229ff",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically:\nMaximize $z = 600x + 400y$\nsubject to the constraints:\n$x+2y \\le 12$,\n$2x+y \\le 12$,\n$x+1.25y \\ge 5$,\n$x, y \\ge 0$",
+  "answeroption": "",
+  "explanation": "**Step 1: Graphing the Constraints**  \nPlot the lines: $x+2y=12$ (intercepts: $(12,0)$, $(0,6)$), $2x+y=12$ (intercepts: $(6,0)$, $(0,12)$), and $x+1.25y=5$ (intercepts: $(5,0)$, $(0,4)$). For $\\le$ inequalities, shade towards the origin; for $\\ge$, shade away. With $x,y \\ge 0$, the feasible region is the bounded polygon in the first quadrant satisfying all constraints.\n\n**Step 2: Finding Corner Points**  \nIntersections within the feasible region are:  \n- $(4,4)$ from $x+2y=12$ and $2x+y=12$  \n- $(6,0)$ from $2x+y=12$ and $y=0$  \n- $(5,0)$ from $x+1.25y=5$ and $y=0$  \n- $(0,4)$ from $x+1.25y=5$ and $x=0$  \n- $(0,6)$ from $x+2y=12$ and $x=0$  \nThese five vertices form the feasible polygon.\n\n**Step 3: Evaluating Objective Function**  \nCompute $z=600x+400y$ at each vertex:  \n- At $(4,4)$: $z=600(4)+400(4)=2400+1600=4000$  \n- At $(6,0)$: $z=600(6)+400(0)=3600$  \n- At $(5,0)$: $z=3000$  \n- At $(0,4)$: $z=1600$  \n- At $(0,6)$: $z=2400$  \nMaximum value is $4000$ at $(4,4)$.\n\n**Step 4: Optimal Solution**  \nSince the feasible region is convex and bounded, the maximum of a linear function occurs at a vertex. The highest $z$ is $4000$ at $x=4, y=4$. No other point in the feasible region can yield a larger value because $z$ increases with both $x$ and $y$, and $(4,4)$ is the extreme point that balances the two major constraints. Thus, the solution is unique.\n\n**Final Answer:**  \nMaximum $z = 4000$ at $x=4$, $y=4$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

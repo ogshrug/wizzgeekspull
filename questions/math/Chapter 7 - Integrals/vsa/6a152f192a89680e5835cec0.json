@@ -1,0 +1,25 @@
+{
+  "id": "6a152f192a89680e5835cec0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990",
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate: $\\int_{0}^{\\pi/2} \\log\\left(\\frac{4+3\\sin x}{4+3\\cos x}\\right) dx$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $I = \\int_{0}^{\\pi/2} \\log\\left(\\frac{4+3\\sin x}{4+3\\cos x}\\right) dx$. <br /><br /> **Step 2:** Use property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$ with $a = \\frac{\\pi}{2}$: <br /> $I = \\int_{0}^{\\pi/2} \\log\\left(\\frac{4+3\\cos x}{4+3\\sin x}\\right) dx$. <br /><br /> **Step 3:** Add the two expressions for $I$: <br /> $2I = \\int_{0}^{\\pi/2} \\left[ \\log\\left(\\frac{4+3\\sin x}{4+3\\cos x}\\right) + \\log\\left(\\frac{4+3\\cos x}{4+3\\sin x}\\right) \\right] dx$. <br /><br /> **Step 4:** Use $\\log a + \\log\\left(\\frac{1}{a}\\right) = 0$: <br /> Integrand = $\\log\\left(\\frac{4+3\\sin x}{4+3\\cos x} \\times \\frac{4+3\\cos x}{4+3\\sin x}\\right) = \\log(1) = 0$. <br /><br /> **Step 5:** Therefore, $2I = 0 \\Rightarrow I = 0$. <br /><br /> **Answer:** $0$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

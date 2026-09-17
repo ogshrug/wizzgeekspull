@@ -1,0 +1,30 @@
+{
+  "id": "69aa74032a66c0f894c1a9f6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7e",
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\tan^{-1}(x)$ and $g(x) = \\sin^{-1}(x)$ for $x \\in (-1,1)$. \n\n(a) Prove that $f$ and $g$ are both differentiable in $(-1,1)$. \n\n(b) Find the value of $x$ where $f'(x) = g'(x)$. \n\n(c) Construct a function $h(x) = f(x) - g(x)$ and analyze its monotonicity in $(-1,1)$. \n\n(d) Let $A = \\begin{pmatrix} h(-1/2) & h(1/2) \\\\ h(0) & h(1/\\sqrt{2}) \\end{pmatrix}$. Compute $|A|$ and comment on its sign.",
+  "answeroption": "B",
+  "explanation": "**Concepts tested:** Inverse Trigonometric Functions, Application of Derivatives (differentiability, monotonicity), Matrices, Determinants<br /><br />(a) $f(x) = \\tan^{-1}(x)$, $f'(x) = \\frac{1}{1+x^2}$, differentiable for all $x$<br /><br />$g(x) = \\sin^{-1}(x)$, $g'(x) = \\frac{1}{\\sqrt{1-x^2}}$, differentiable for $x \\in (-1,1)$<br /><br />(b) $f'(x) = g'(x) \\implies \\frac{1}{1+x^2} = \\frac{1}{\\sqrt{1-x^2}}$<br /><br />$\\implies 1+x^2 = \\sqrt{1-x^2}$<br /><br />Square both sides:<br /><br />$(1+x^2)^2 = 1-x^2$<br /><br />$1 + 2x^2 + x^4 = 1 - x^2$<br /><br />$2x^2 + x^4 + x^2 = 0$<br /><br />$3x^2 + x^4 = 0$<br /><br />$x^2(3 + x^2) = 0 \\implies x = 0$<br /><br />(Check if square is valid since both sides positive for $x \\in (-1,1)$.)<br /><br />(c) $h(x) = \\tan^{-1}(x) - \\sin^{-1}(x)$<br /><br />$h'(x) = \\frac{1}{1+x^2} - \\frac{1}{\\sqrt{1-x^2}}$<br /><br />For $x \\in (0,1)$, $1+x^2 > \\sqrt{1-x^2}$, so denominator smaller, $h'(x)<0$, so $h$ decreasing for $x>0$.<br /><br />Similarly for $x<0$, $h'(x)>0$, so $h$ increasing there. So $h(x)$ attains maximum at $x=0$.<br /><br />(d) Compute values:<br /><br />h(-1/2): $\\tan^{-1}(-1/2) - \\sin^{-1}(-1/2) = -\\tan^{-1}(1/2) + \\sin^{-1}(1/2)$<br /><br />But $\\sin^{-1}(-1/2) = -\\sin^{-1}(1/2) = -\\frac{\\pi}{6}$<br /><br />$\\tan^{-1}(-1/2) = -\\tan^{-1}(1/2)$<br /><br />$h(-1/2) = -\\tan^{-1}(1/2) + \\frac{\\pi}{6}$<br /><br />h(1/2) = $\\tan^{-1}(1/2) - \\frac{\\pi}{6}$<br /><br />h(0) = $0-0=0$<br /><br />h($1/\\sqrt{2}$): $\\tan^{-1}(1/\\sqrt{2}) - \\sin^{-1}(1/\\sqrt{2})$<br /><br />$\\sin^{-1}(1/\\sqrt{2}) = \\frac{\\pi}{4}$<br /><br />$\\tan^{-1}(1/\\sqrt{2}) = \\alpha$ where $\\tan(\\alpha) = 1/\\sqrt{2}$<br /><br />Let $\\alpha \\approx 0.61548$ radians; so difference $\\approx 0.61548 - 0.78539 = -0.16991$<br /><br />So $A = \\begin{pmatrix} -\\tan^{-1}(1/2)+\\frac{\\pi}{6} & \\tan^{-1}(1/2)-\\frac{\\pi}{6} \\\\ 0 & -0.16991 \\end{pmatrix}$<br /><br />$|A| = -\\tan^{-1}(1/2)+\\frac{\\pi}{6} \\cdot (-0.16991) - 0 \\cdot (\\tan^{-1}(1/2)-\\frac{\\pi}{6})$<br /><br />So, negative times negative = positive. So determinant is positive.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Both functions are differentiable only at $x=0$<br />(b) $x=\\pm1$<br />(c) $h(x)$ is strictly increasing on $(-1,1)$<br />(d) $|A|<0$",
+    "B": "(a) $f'(x)=\\frac{1}{1+x^2}$ and $g'(x)=\\frac{1}{\\sqrt{1-x^2}}$, so both are differentiable on $(-1,1)$<br />(b) $f'(x)=g'(x)$ at $x=0$<br />(c) $h(x)=\\tan^{-1}x-\\sin^{-1}x$; according to the derivative analysis, $h$ increases on $(-1,0)$ and decreases on $(0,1)$, attaining maximum at $x=0$<br />(d) $|A|$ is positive",
+    "C": "(a) $f$ is differentiable but $g$ is not differentiable on $(-1,1)$<br />(b) $x=\\frac{1}{2}$<br />(c) $h(x)$ is constant on $(-1,1)$<br />(d) $|A|=0$",
+    "D": "(a) $g$ is differentiable but $f$ is not differentiable on $(-1,1)$<br />(b) No value of $x$ satisfies $f'(x)=g'(x)$<br />(c) $h(x)$ decreases on $(-1,0)$ and increases on $(0,1)$<br />(d) $|A|$ is negative"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:28:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

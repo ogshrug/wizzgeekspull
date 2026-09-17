@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8d574b490c7cde3593db",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d52"
+  ],
+  "question_type": "VSA",
+  "question": "A matrix $A=[a_{ij}]_{3\\times3}$ satisfies $a_{ij}=0$ whenever $i\\ne j$, while its diagonal entries are $2,-1$ and $5$. Identify the type of matrix $A$.",
+  "answeroption": "C",
+  "explanation": "Step 1: The condition $a_{ij}=0$ for $i\\ne j$ means that every element outside the principal diagonal is zero.<br>Step 2: Therefore, the matrix has the form $$A=\\begin{bmatrix}2&0&0\\\\0&-1&0\\\\0&0&5\\end{bmatrix}.$$<br>Step 3: A square matrix in which all non-diagonal entries are zero is a diagonal matrix.<br>Step 4: The diagonal entries here are not all equal, so the matrix need not be classified as a scalar matrix.<br>Step 5: Hence, based on the stated condition, the appropriate classification is a diagonal matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "Scalar matrix",
+    "B": "Identity matrix",
+    "C": "Diagonal matrix",
+    "D": "Zero matrix"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

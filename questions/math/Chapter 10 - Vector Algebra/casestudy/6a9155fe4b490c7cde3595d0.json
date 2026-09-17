@@ -1,0 +1,31 @@
+{
+  "id": "6a9155fe4b490c7cde3595d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c6",
+    "6a13e767d837c8c7efa6b8c7",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematical study considers $\\vec{a}=\\lambda\\hat{i}+\\hat{j}+\\hat{k}$ and $\\vec{b}=\\hat{i}+\\hat{k}$, where $\\lambda$ is non-negative. The angle between the vectors is known to be $45^\\circ$. After determining the unknown component, students form the sum and difference of the vectors and use their magnitudes to examine a standard relation involving the two resultant vectors.(a) Express $\\vec{a}\\cdot\\vec{b}$, $|\\vec{a}|$ and $|\\vec{b}|$ in terms of $\\lambda$.(b) Determine $\\lambda$ using the given angle.(c) Calculate $|\\vec{a}+\\vec{b}|^2$ and $|\\vec{a}-\\vec{b}|^2$.(d) Verify that $|\\vec{a}+\\vec{b}|^2+|\\vec{a}-\\vec{b}|^2=2(|\\vec{a}|^2+|\\vec{b}|^2)$.",
+  "answeroption": "D",
+  "explanation": "(a)`\\vec{a}\\cdot\\vec{b}=\\lambda+1`Also,`|\\vec{a}|=\\sqrt{\\lambda^2+2}`and`|\\vec{b}|=\\sqrt{2}`(b)Using the scalar product formula,\\\\cos45^\\\\circ=\\\\frac{\\\\vec{a}\\\\cdot\\\\vec{b}}{|\\\\vec{a}||\\\\vec{b}|}`\\frac{1}{\\sqrt{2}}=\\frac{\\lambda+1}{\\sqrt{\\lambda^2+2}\\sqrt{2}}`Therefore,`\\lambda+1=\\sqrt{\\lambda^2+2}`Squaring both sides,`\\lambda^2+2\\lambda+1=\\lambda^2+22\\lambda=1\\lambda=\\frac{1}{2}`(c)For $\\lambda=\\frac{1}{2}$,`\\vec{a}+\\vec{b}=\\frac{3}{2}\\hat{i}+\\hat{j}+2\\hat{k}`Therefore,`|\\vec{a}+\\vec{b}|^2=\\frac{9}{4}+1+4=\\frac{29}{4}`Also,`\\vec{a}-\\vec{b}=-\\frac{1}{2}\\hat{i}+\\hat{j}`Therefore,`|\\vec{a}-\\vec{b}|^2=\\frac{1}{4}+1=\\frac{5}{4}`(d)The left-hand side is`|\\vec{a}+\\vec{b}|^2+|\\vec{a}-\\vec{b}|^2=\\frac{29}{4}+\\frac{5}{4}=\\frac{17}{2}`Also,`|\\vec{a}|^2=\\frac{1}{4}+1+1=\\frac{9}{4},\\qquad |\\vec{b}|^2=2`Hence, the right-hand side is`2\\left(|\\vec{a}|^2+|\\vec{b}|^2\\right)=2\\left(\\frac{9}{4}+2\\right)=\\frac{17}{2}`Thus, the required relation is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec{a}\\cdot\\vec{b}=\\lambda+1$, $|\\vec{a}|=\\sqrt{\\lambda^2+2}$, $|\\vec{b}|=\\sqrt{2}$<br>(b) $\\lambda=1$<br>(c) $|\\vec{a}+\\vec{b}|^2=10$, $|\\vec{a}-\\vec{b}|^2=2$<br>(d) Both sides equal $12$",
+    "B": "(a) $\\vec{a}\\cdot\\vec{b}=\\lambda+1$, $|\\vec{a}|=\\sqrt{\\lambda^2+2}$, $|\\vec{b}|=\\sqrt{2}$<br>(b) $\\lambda=\\frac{1}{2}$<br>(c) $|\\vec{a}+\\vec{b}|^2=\\frac{29}{4}$, $|\\vec{a}-\\vec{b}|^2=\\frac{5}{4}$<br>(d) The left side is $\\frac{17}{2}$ but the right side is $\\frac{9}{2}$",
+    "C": "(a) $\\vec{a}\\cdot\\vec{b}=\\lambda-1$, $|\\vec{a}|=\\sqrt{\\lambda^2+2}$, $|\\vec{b}|=\\sqrt{2}$<br>(b) $\\lambda=\\frac{1}{2}$<br>(c) $|\\vec{a}+\\vec{b}|^2=\\frac{21}{4}$, $|\\vec{a}-\\vec{b}|^2=\\frac{13}{4}$<br>(d) Both sides equal $\\frac{17}{2}$",
+    "D": "(a) $\\vec{a}\\cdot\\vec{b}=\\lambda+1$, $|\\vec{a}|=\\sqrt{\\lambda^2+2}$, $|\\vec{b}|=\\sqrt{2}$<br>(b) $\\lambda=\\frac{1}{2}$<br>(c) $|\\vec{a}+\\vec{b}|^2=\\frac{29}{4}$, $|\\vec{a}-\\vec{b}|^2=\\frac{5}{4}$<br>(d) Both sides of the required identity equal $\\frac{17}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

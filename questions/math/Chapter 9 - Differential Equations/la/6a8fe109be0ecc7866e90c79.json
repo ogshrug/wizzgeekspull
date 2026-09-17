@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe109be0ecc7866e90c79",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ae",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "LA",
+  "question": "Treating $x$ as a function of $y$, solve the differential equation $$y\\frac{dx}{dy}+x=y^3,$$ for $y>0$, by expressing it in the appropriate standard linear form and using an integrating factor.",
+  "answeroption": "B",
+  "explanation": "<b>Standard Form</b><br>The given differential equation is $$y\\frac{dx}{dy}+x=y^3.$$ Dividing throughout by $y$, $$\\frac{dx}{dy}+\\frac{1}{y}x=y^2.$$ This is a first order linear differential equation in $x$, with $y$ as the independent variable. It is of the standard form $$\\frac{dx}{dy}+P_1x=Q_1,$$ where $P_1=\\frac{1}{y}$ and $Q_1=y^2$.<br><br><b>Integrating Factor</b><br>The integrating factor is $$\\text{I.F.}=e^{\\int P_1dy}=e^{\\int\\frac{1}{y}dy}=e^{\\log y}=y.$$ Multiplying the equation by $y$, $$y\\frac{dx}{dy}+x=y^3.$$ The left-hand side is $$\\frac{d}{dy}(xy).$$ Therefore, $$\\frac{d}{dy}(xy)=y^3.$$<br><br><b>Evaluation</b><br>Integrating with respect to $y$, $$xy=\\int y^3dy+C=\\frac{y^4}{4}+C.$$ Dividing by $y$, $$x=\\frac{y^3}{4}+\\frac{C}{y}.$$<br><br><b>Final Result</b><br>The required general solution is $$x=\\frac{y^3}{4}+\\frac{C}{y},\\qquad y>0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=\\frac{y^3}{3}+\\frac{C}{y}$",
+    "B": "$x=\\frac{y^3}{4}+\\frac{C}{y}$",
+    "C": "$x=\\frac{y^4}{4}+Cy$",
+    "D": "$x=\\frac{y^3}{4}+Cy$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

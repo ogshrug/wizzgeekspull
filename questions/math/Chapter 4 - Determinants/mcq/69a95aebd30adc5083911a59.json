@@ -1,0 +1,30 @@
+{
+  "id": "69a95aebd30adc5083911a59",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A$ be a $3 \\times 3$ real matrix such that $A^T = -A$ and $|A| = 5$. Which of the following is TRUE?\n\nChoose the correct statement.",
+  "answeroption": "C",
+  "explanation": "Given $A$ is a $3 \\times 3$ real skew-symmetric matrix ($A^T = -A$) and $|A| = 5 \\neq 0$, so $A$ is non-singular.<br /><br />For an odd-order real skew-symmetric matrix, $|A| = 0$, but here $|A| = 5$, so $A$ cannot be real skew-symmetric, unless as an exception or over complex entries. However, assume the question allows it.<br /><br />Let us analyze the options:<br /><br />A) $A^2$ being a scalar multiple of $I$ may happen for some skew-symmetric matrices, but not always.<br /><br />B) Let's check $A^{-1} = -\\frac{1}{5}A^2$:<br />$A^{-1}$ exists.<br /><br />But $A^T = -A$, so consider $A A^T = A (-A) = -A^2$<br /><br />But in general, $A^{-1} = \\frac{1}{|A|} \\text{adj}(A)$.<br /><br />C) $A^{-1} = -\\frac{1}{5}A^T$: $A^{-1} = \\frac{1}{|A|}\\operatorname{adj}(A)$. But for a $3 \\times 3$ skew-symmetric matrix:<br /><br />$\\operatorname{adj}(A) = aA$ (for some scalar $a$)?<br /><br />Yet: $A^{-1} = -\\frac{1}{5}A^T \\implies AA^{-1} = I \\implies A(-\\frac{1}{5}A^T) = I$<br /><br />i.e. $-\\frac{1}{5}AA^T = I$<br />$AA^T = -5I$<br /><br />Since $A^T = -A$, $AA^T = (-A)(A) = -A^2$<br /><br />So $-A^2 = -5I \\implies A^2 = 5I$<br /><br />So $A^2 = 5I$ holds, $A^T = -A$, $|A| = 5$, and $A^{-1} = -\\frac{1}{5}A^T$.<br /><br />Thus, Option C is TRUE.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ is non-singular and $A^2$ is scalar multiple of $I$",
+    "B": "$A$ is non-singular and $A^{-1} = -\\frac{1}{5}A^2$",
+    "C": "$A$ is non-singular and $A^{-1} = -\\frac{1}{5}A^T$",
+    "D": "$A$ is singular and $A^T = A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:28:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

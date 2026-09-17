@@ -1,0 +1,30 @@
+{
+  "id": "69a96004d30adc5083911a71",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A = \\begin{bmatrix}2 & 3\\\\ 1 & 4\\end{bmatrix}$ and $B = \\begin{bmatrix}1 & 0\\\\ k & 1\\end{bmatrix}$. For what value(s) of $k$ do $AB$ and $BA$ have the same determinant?",
+  "answeroption": "C",
+  "explanation": "Recall that $|AB| = |A||B|$ and $|BA| = |B||A|$. Matrix multiplication is not generally commutative, but determinant is, as keeping the order. <br /><br /> $|AB| = |A||B|$ and $|BA| = |B||A| \\implies |AB| = |BA|$ always, as determinant multiplication is commutative. <br /><br /> Thus, for all $k$. <br /><br /> **Correct answer: (C) for all $k$**.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k = -1$",
+    "B": "$k = 1$",
+    "C": "for all $k$",
+    "D": "$k = 0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:50:44 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

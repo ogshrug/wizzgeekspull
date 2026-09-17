@@ -1,0 +1,30 @@
+{
+  "id": "69a984ce62be6a70cd184dcb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "LA",
+  "question": "Suppose $f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = x^3 + 3x$ and $g: \\mathbb{R} \\to \\mathbb{R}$ by $g(x) = x^3 - 3x$. <br /><br />(a) Show that $g \\circ f$ and $f \\circ g$ are both invertible.<br /><br />(b) Find $(g \\circ f)^{-1}$ and $(f \\circ g)^{-1}$ explicitly.<br /><br />(c) Prove or disprove: $f$ and $g$ themselves are invertible.",
+  "answeroption": "D",
+  "explanation": "(a) Both $f$ and $g$ are polynomials of degree 3 with strictly increasing derivative ($f'(x) = 3x^2 + 3 > 0$), so both are strictly increasing and hence one-one and onto. Thus, both are bijections, thus invertible. Hence, their compositions are also invertible.<br /><br />(b) By the properties of invertible functions:<br /><br />$(g \\circ f)^{-1} = f^{-1} \\circ g^{-1}$,<br /><br />$(f \\circ g)^{-1} = g^{-1} \\circ f^{-1}$.<br /><br />Let’s attempt to find $f^{-1}$: $y = x^3 + 3x \\implies$ Solve for $x$ in terms of $y$.<br /><br />A cubic equation, but since $f$ is strictly increasing, there is a unique solution for every $y$.<br /><br />(Explicit formula for cubic root could be written, or leave as $f^{-1}$ defined implicitly by $f(x)=y$.)<br /><br />Thus, $(g \\circ f)^{-1}(x) = f^{-1}(g^{-1}(x))$ and $(f \\circ g)^{-1}(x) = g^{-1}(f^{-1}(x))$, where $g^{-1}$ is defined by $y=g(x)=x^3-3x$.<br /><br />(c) Both $f$ and $g$ are strictly monotonic and onto, hence both are invertible.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Both $g\\circ f$ and $f\\circ g$ are invertible.<br />(b) $(g\\circ f)^{-1}=f^{-1}\\circ g^{-1}$ and $(f\\circ g)^{-1}=g^{-1}\\circ f^{-1}$.<br />(c) Both $f$ and $g$ are invertible.",
+    "B": "(a) Only $g\\circ f$ is invertible.<br />(b) $(g\\circ f)^{-1}=g^{-1}\\circ f^{-1}$.<br />(c) $f$ is not invertible, but $g$ is invertible.",
+    "C": "(a) Only $f\\circ g$ is invertible.<br />(b) $(f\\circ g)^{-1}=f^{-1}\\circ g^{-1}$.<br />(c) Both $f$ and $g$ are not invertible.",
+    "D": "(a) The statement is false: since $g(x)=x^3-3x$ is not one-one on $\\mathbb{R}$, both $g\\circ f$ and $f\\circ g$ are not invertible.<br />(b) Therefore $(g\\circ f)^{-1}$ and $(f\\circ g)^{-1}$ do not exist as functions on $\\mathbb{R}$.<br />(c) $f(x)=x^3+3x$ is invertible, but $g(x)=x^3-3x$ is not invertible on $\\mathbb{R}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:27:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

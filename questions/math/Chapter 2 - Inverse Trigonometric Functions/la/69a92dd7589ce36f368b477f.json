@@ -1,0 +1,29 @@
+{
+  "id": "69a92dd7589ce36f368b477f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Prove that $\\tan[\\frac{\\pi}{4}+\\frac12\\cos^{-1}\\frac{a}{b}] + \\tan[\\frac{\\pi}{4}-\\frac12\\cos^{-1}\\frac{a}{b}] = \\frac{2b}{a}$.",
+  "answeroption": "D",
+  "explanation": "Let $\\cos^{-1}\\frac{a}{b}=2\\theta$.<br /><br />Then $\\cos2\\theta=\\frac{a}{b}$ and $\\frac12\\cos^{-1}\\frac{a}{b}=\\theta$.<br /><br />First term: $\\tan(\\frac{\\pi}{4}+\\theta)=\\frac{1+\\tan\\theta}{1-\\tan\\theta}$.<br /><br />Second term: $\\tan(\\frac{\\pi}{4}-\\theta)=\\frac{1-\\tan\\theta}{1+\\tan\\theta}$.<br /><br />Adding both:<br /><br />$\\frac{(1+\\tan\\theta)^2+(1-\\tan\\theta)^2}{(1-\\tan^2\\theta)}$.<br /><br />$=\\frac{2(1+\\tan^2\\theta)}{1-\\tan^2\\theta}$.<br /><br />But $\\cos2\\theta=\\frac{1-\\tan^2\\theta}{1+\\tan^2\\theta}=\\frac{a}{b}$.<br /><br />Hence $\\frac{1+\\tan^2\\theta}{1-\\tan^2\\theta}=\\frac{b}{a}$.<br /><br />Therefore result = $2\\cdot\\frac{b}{a}=\\frac{2b}{a}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $\\cos^{-1}\\frac{a}{b}=2\\theta$. Adding the two tangent terms gives $\\frac{2(1-\\tan^2\\theta)}{1+\\tan^2\\theta}=\\frac{2a}{b}$.",
+    "B": "Let $\\cos^{-1}\\frac{a}{b}=2\\theta$. Adding the two tangent terms gives $\\frac{1+\\tan^2\\theta}{1-\\tan^2\\theta}=\\frac{b}{a}$.",
+    "C": "Let $\\cos^{-1}\\frac{a}{b}=2\\theta$. Adding the two tangent terms gives $\\frac{2(1+\\tan^2\\theta)}{1+\\tan^2\\theta}=2$.",
+    "D": "Let $\\cos^{-1}\\frac{a}{b}=2\\theta$. Adding the two tangent terms gives $\\frac{2(1+\\tan^2\\theta)}{1-\\tan^2\\theta}$. Since $\\cos2\\theta=\\frac{a}{b}$, the result is $\\frac{2b}{a}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:16:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

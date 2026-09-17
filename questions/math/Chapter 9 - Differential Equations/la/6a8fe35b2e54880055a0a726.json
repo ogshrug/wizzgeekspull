@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe35b2e54880055a0a726",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad",
+    "6a13ebca8c819562f933f9ae"
+  ],
+  "question_type": "LA",
+  "question": "Regarding $x$ as a function of $y$, solve the differential equation $$(1+y^2)\\frac{dx}{dy}+2yx=y^2$$ by expressing it in the appropriate standard linear form and applying the integrating factor method.",
+  "answeroption": "B",
+  "explanation": "<b>Standard Form</b><br>Dividing throughout by $1+y^2$, $$\\frac{dx}{dy}+\\frac{2y}{1+y^2}x=\\frac{y^2}{1+y^2}.$$ This is a first order linear differential equation in $x$ of the standard form $$\\frac{dx}{dy}+P_1x=Q_1,$$ where $$P_1=\\frac{2y}{1+y^2},\\qquad Q_1=\\frac{y^2}{1+y^2}.$$<br><br><b>Integrating Factor</b><br>The integrating factor is $$\\text{I.F.}=e^{\\int P_1dy}=e^{\\int\\frac{2y}{1+y^2}dy}=e^{\\log(1+y^2)}=1+y^2.$$ Multiplying the differential equation by the integrating factor gives $$\\frac{d}{dy}\\left[(1+y^2)x\\right]=y^2.$$<br><br><b>Integration</b><br>Integrating with respect to $y$, $$(1+y^2)x=\\int y^2dy+C=\\frac{y^3}{3}+C.$$ Hence, $$x=\\frac{\\frac{y^3}{3}+C}{1+y^2}.$$<br><br><b>Final Result</b><br>The required solution may be written as $$x=\\frac{y^3+3C}{3(1+y^2)},$$ where the arbitrary constant may equivalently be renamed.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=\\frac{y^2+3C}{3(1+y^2)}$",
+    "B": "$x=\\frac{y^3+3C}{3(1+y^2)}$",
+    "C": "$x=\\frac{y^3+3C}{3(1-y^2)}$",
+    "D": "$x=\\frac{y^3+C}{1+y^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

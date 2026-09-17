@@ -1,0 +1,32 @@
+{
+  "id": "6a327a03d5dca7dcb0bf0ec3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c",
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of $\\int_1^e \\log x \\ dx$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Use integration by parts $\\int u\\ dv = uv - \\int v\\ du$. Let $u = \\log x$ and $dv = dx$. Then $du = \\frac{1}{x}dx$ and $v = x$.\n\n**Step 2:** Substitute into the formula: $\\int \\log x \\ dx = x \\log x - \\int x \\left(\\frac{1}{x}\\right) dx = x \\log x - \\int 1 \\ dx = x \\log x - x$.\n\n**Step 3:** Evaluate with limits from 1 to $e$: $[e \\log e - e] - [1 \\log 1 - 1] = (e(1) - e) - (0 - 1) = 0 - (-1) = 1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "e",
+    "D": "e \\log e"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

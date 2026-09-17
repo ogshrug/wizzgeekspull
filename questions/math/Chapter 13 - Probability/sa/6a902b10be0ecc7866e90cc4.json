@@ -1,0 +1,29 @@
+{
+  "id": "6a902b10be0ecc7866e90cc4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "SA",
+  "question": "A student travels to school by bus, bicycle or on foot with probabilities $\\frac12$, $\\frac3{10}$ and $\\frac15$ respectively. The probabilities that the student reaches school late by these three modes are $\\frac1{10}$, $\\frac15$ and $\\frac14$ respectively. Find the probability that the student reaches school late.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Identification of events</b><br>Let $B$, $C$ and $F$ denote the events that the student travels by bus, bicycle and on foot respectively. Let $L$ denote the event that the student reaches school late.<br><b>Step 2: Given probabilities</b><br>$$P(B)=\\frac12,\\quad P(C)=\\frac3{10},\\quad P(F)=\\frac15$$ and $$P(L|B)=\\frac1{10},\\quad P(L|C)=\\frac15,\\quad P(L|F)=\\frac14.$$<br><b>Step 3: Application of total probability</b><br>Since $B$, $C$ and $F$ form a partition of the sample space, $$P(L)=P(B)P(L|B)+P(C)P(L|C)+P(F)P(L|F).$$<br><b>Step 4: Substitution and simplification</b><br>$$P(L)=\\frac12\\times\\frac1{10}+\\frac3{10}\\times\\frac15+\\frac15\\times\\frac14$$ $$=\\frac1{20}+\\frac3{50}+\\frac1{20}=\\frac4{25}.$$<br><b>Step 5: Conclusion</b><br>Hence, the probability that the student reaches school late is $$\\boxed{\\frac4{25}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{20}$",
+    "B": "$\\frac{17}{100}$",
+    "C": "$\\frac{4}{25}$",
+    "D": "$\\frac{1}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

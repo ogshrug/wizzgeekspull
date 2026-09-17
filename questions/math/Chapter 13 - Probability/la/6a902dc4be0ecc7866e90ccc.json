@@ -1,0 +1,30 @@
+{
+  "id": "6a902dc4be0ecc7866e90ccc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "LA",
+  "question": "For three events $E$, $F$ and $G$ such that the required conditional probabilities are defined, use the definition of conditional probability to establish that $P(E\\cap F\\cap G)=P(E)P(F|E)P(G|E\\cap F)$, and hence evaluate $P(E\\cap F\\cap G)$ when $P(E)=\\frac{2}{3}$, $P(F|E)=\\frac{3}{5}$ and $P(G|E\\cap F)=\\frac{1}{4}$.",
+  "answeroption": "B",
+  "explanation": "<b>Formation of the Multiplication Relation</b><br>By the definition of conditional probability, provided $P(E\\cap F)\\ne0$,<br>$$P(G|E\\cap F)=\\frac{P(E\\cap F\\cap G)}{P(E\\cap F)}.$$<br>Therefore,<br>$$P(E\\cap F\\cap G)=P(E\\cap F)P(G|E\\cap F).$$<br><br>Again, provided $P(E)\\ne0$,<br>$$P(F|E)=\\frac{P(E\\cap F)}{P(E)},$$<br>so that<br>$$P(E\\cap F)=P(E)P(F|E).$$<br>Substituting this result in the earlier expression gives<br>$$P(E\\cap F\\cap G)=P(E)P(F|E)P(G|E\\cap F).$$<br>This is the multiplication theorem for the three events in the required form.<br><br><b>Evaluation</b><br>Using the given probabilities,<br>$$P(E\\cap F\\cap G)=\\frac{2}{3}\\times\\frac{3}{5}\\times\\frac{1}{4}.$$<br>Therefore,<br>$$P(E\\cap F\\cap G)=\\frac{6}{60}=\\frac{1}{10}.$$<br><br><b>Final Result</b><br>Hence, $P(E\\cap F\\cap G)=P(E)P(F|E)P(G|E\\cap F)$ and for the given data the required probability is $\\frac{1}{10}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$P(E\\cap F\\cap G)=P(E)P(F|E)P(G|E\\cap F)=\\frac{1}{8}$",
+    "B": "$P(E\\cap F\\cap G)=P(E)P(F|E)P(G|E\\cap F)=\\frac{1}{10}$",
+    "C": "$P(E\\cap F\\cap G)=P(E)P(E|F)P(G|F)=\\frac{1}{10}$",
+    "D": "$P(E\\cap F\\cap G)=P(E)P(F)P(G)=\\frac{1}{12}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

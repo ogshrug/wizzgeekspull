@@ -1,0 +1,32 @@
+{
+  "id": "6a8fe5172e54880055a0a72b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99d",
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f",
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a revision activity, students are given four mathematical statements: $M_1:y'=e^x$, $M_2:\\left(\\frac{d^4y}{dx^4}\\right)^3+\\left(\\frac{d^2y}{dx^2}\\right)^6+x=0$, $M_3:\\sin x+\\cos x=0$, and $M_4:\\sin\\left(\\frac{d^3y}{dx^3}\\right)+y=0$. All derivatives in the differential equations are taken with respect to the single variable $x$. The students are reminded that identifying a differential equation comes before determining its order, while determination of degree additionally requires polynomial dependence on the derivatives. They are asked to analyse the four statements without attempting to find their solutions.<br><br><b>(a)</b> Identify the statements among $M_1,M_2,M_3,M_4$ that are differential equations.<br><br><b>(b)</b> Find the order and degree of $M_2$.<br><br><b>(c)</b> Determine the order of $M_4$ and state whether its degree is defined.<br><br><b>(d)</b> Classify $M_1$, $M_2$ and $M_4$ by type and justify the common classification.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>$M_1$, $M_2$ and $M_4$ contain derivatives of the dependent variable $y$ with respect to $x$. Therefore, they are differential equations.<br><br>$M_3:\\sin x+\\cos x=0$ contains no derivative, so it is not a differential equation.<br><br><b>(b)</b><br>For $M_2$, the highest-order derivative is $\\frac{d^4y}{dx^4}$. Hence, the order is $4$.<br><br>The equation is polynomial in its derivatives. The highest-order derivative occurs with power $3$. Therefore, the degree is $3$.<br><br>The power $6$ on $\\frac{d^2y}{dx^2}$ does not determine the degree because that derivative has lower order.<br><br><b>(c)</b><br>In $M_4$, the highest-order derivative is $\\frac{d^3y}{dx^3}$. Hence, the order is $3$.<br><br>Since this derivative occurs inside the sine function, the equation is not polynomial in its derivatives. Therefore, its degree is not defined.<br><br><b>(d)</b><br>In $M_1$, $M_2$ and $M_4$, the dependent variable $y$ and all its derivatives involve only the single independent variable $x$. Therefore, each is an ordinary differential equation.<br><br>Their orders and whether their degrees are defined may differ, but the use of only one independent variable for differentiation gives them the same broad classification.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $M_1,M_2,M_4$ are differential equations<br>(b) For $M_2$, order $=4$ and degree $=3$<br>(c) For $M_4$, order $=3$ and degree is not defined<br>(d) $M_1,M_2,M_4$ are ordinary differential equations because all derivatives are with respect to the single variable $x$",
+    "B": "(a) $M_1,M_2,M_3,M_4$ are differential equations<br>(b) For $M_2$, order $=6$ and degree $=3$<br>(c) For $M_4$, order $=3$ and degree $=1$<br>(d) All four statements are ordinary differential equations",
+    "C": "(a) Only $M_1$ and $M_2$ are differential equations<br>(b) For $M_2$, order $=4$ and degree $=6$<br>(c) For $M_4$, order $=3$ and degree $=1$<br>(d) $M_1$ and $M_2$ are partial differential equations",
+    "D": "(a) $M_1,M_2,M_4$ are differential equations<br>(b) For $M_2$, order $=3$ and degree $=4$<br>(c) For $M_4$, order $=3$ and degree is not defined<br>(d) $M_1$ is ordinary, while $M_2$ and $M_4$ are partial differential equations"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

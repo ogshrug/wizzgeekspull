@@ -1,0 +1,24 @@
+{
+  "id": "6a1831d5d429e802c45d70b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "SA",
+  "question": "Four students of class XII are given a problem to solve independently. Their chances of solving the problem respectively are $\\frac{1}{2}, \\frac{1}{3}, \\frac{2}{3}$ and $\\frac{1}{5}$. Find the probability that at most one of them will solve the problem.",
+  "answeroption": "",
+  "explanation": "**Step 1:** State individual complementary probabilities of failing to solve the problem: $P(A') = \\frac{1}{2}, P(B') = \\frac{2}{3}, P(C') = \\frac{1}{3}, P(D') = \\frac{4}{5}$.<br /><br />**Step 2:** Compute probability that nobody solves the problem ($P_0$): $P_0 = \\frac{1}{2} \\times \\frac{2}{3} \\times \\frac{1}{3} \\times \\frac{4}{5} = \\frac{8}{90}$.<br /><br />**Step 3:** Compute probability that exactly one student solves the problem ($P_1$) by summing the 4 distinct mutual scenarios:<br />- Only A: $\\frac{1}{2} \\times \\frac{2}{3} \\times \\frac{1}{3} \\times \\frac{4}{5} = \\frac{8}{90}$<br />- Only B: $\\frac{1}{2} \\times \\frac{1}{3} \\times \\frac{1}{3} \\times \\frac{4}{5} = \\frac{4}{90}$<br />- Only C: $\\frac{1}{2} \\times \\frac{2}{3} \\times \\frac{2}{3} \\times \\frac{4}{5} = \\frac{16}{90}$<br />- Only D: $\\frac{1}{2} \\times \\frac{2}{3} \\times \\frac{1}{3} \\times \\frac{1}{5} = \\frac{2}{90}$<br />$P_1 = \\frac{8 + 4 + 16 + 2}{90} = \\frac{30}{90}$.<br /><br />**Step 4:** Sum both cases for the condition \"at most one\": $P = P_0 + P_1 = \\frac{8}{90} + \\frac{30}{90} = \\frac{38}{90} = \\frac{19}{45}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

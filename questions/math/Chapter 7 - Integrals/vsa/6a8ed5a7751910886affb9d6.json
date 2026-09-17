@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed5a7751910886affb9d6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int\\frac{3x+5}{(x+1)(x+2)}\\,dx$ using partial fractions.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> Since the rational function is proper and the denominator has distinct linear factors, write $$\\frac{3x+5}{(x+1)(x+2)}=\\frac{A}{x+1}+\\frac{B}{x+2}.$$<br><b>Step 2:</b> Multiplying by $(x+1)(x+2)$ gives $3x+5=A(x+2)+B(x+1)$.<br><b>Step 3:</b> Comparing coefficients, $A+B=3$ and $2A+B=5$. Therefore, $A=2$ and $B=1$.<br><b>Step 4:</b> Hence the integral becomes $2\\int\\frac{dx}{x+1}+\\int\\frac{dx}{x+2}$.<br><b>Step 5:</b> Integrating, we obtain $$\\boxed{2\\log|x+1|+\\log|x+2|+C}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\log|x+1|+2\\log|x+2|+C$",
+    "B": "$2\\log|x+1|-\\log|x+2|+C$",
+    "C": "$2\\log|x+1|+\\log|x+2|+C$",
+    "D": "$3\\log|x+1|+\\log|x+2|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

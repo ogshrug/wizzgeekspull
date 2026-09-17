@@ -1,0 +1,32 @@
+{
+  "id": "6a215f56864be73cfcf6d11c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "MCQ",
+  "question": "If matrix $A = \\begin{bmatrix} -p & q \\\\ r & p \\end{bmatrix}$ is such that $A^2 = I$ then:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Calculate $A^2 = \\begin{bmatrix} -p & q \\\\ r & p \\end{bmatrix} \\begin{bmatrix} -p & q \\\\ r & p \\end{bmatrix}$.<br />**Step 2:** The top-left element is $(-p)(-p) + (q)(r) = p^2 + qr$.<br />**Step 3:** Equating this to the top-left element of the identity matrix $I$, we get $p^2 + qr = 1$.<br />**Step 4:** Rearranging gives $1 - p^2 - qr = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1+p^2+qr=0$",
+    "B": "$1-p^2-qr=0$",
+    "C": "$1-p^2+qr=0$",
+    "D": "$1+p^2-qr=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

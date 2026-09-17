@@ -1,0 +1,29 @@
+{
+  "id": "6a902e7d2e54880055a0a748",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "LA",
+  "question": "A pair of fair dice is thrown and a function $X$ assigns to every ordered outcome $(i,j)$ the larger of the two numbers appearing, that is, $X(i,j)=\\max(i,j)$. Show that $X$ is a random variable and describe it completely by determining its possible values and the sample points corresponding to each possible value.",
+  "answeroption": "C",
+  "explanation": "<b>Given Information</b><br>The sample space for throwing two dice consists of the $36$ ordered pairs $(i,j)$, where $i,j\\in\\{1,2,3,4,5,6\\}$. The function is defined by<br>$$X(i,j)=\\max(i,j).$$<br><br>A random variable is a real-valued function defined on the sample space of a random experiment. For every ordered pair $(i,j)$, the value $\\max(i,j)$ is a unique real number. Therefore, $X$ is a random variable.<br><br><b>Description of the Random Variable</b><br>The possible values of $X$ are<br>$$1,2,3,4,5,6.$$<br>For $X=1$, the corresponding sample point is<br>$$\\{(1,1)\\}.$$<br>For $X=2$, the sample points are<br>$$\\{(1,2),(2,1),(2,2)\\}.$$<br>For $X=3$, the sample points are<br>$$\\{(1,3),(2,3),(3,1),(3,2),(3,3)\\}.$$<br>In general, for $r\\in\\{1,2,3,4,5,6\\}$, the sample points for which $X=r$ are precisely those ordered pairs $(i,j)$ for which both $i$ and $j$ do not exceed $r$ and at least one of them equals $r$. Thus,<br>$$\\{X=r\\}=\\{(i,j):1\\leq i\\leq r,\\ 1\\leq j\\leq r,\\ \\max(i,j)=r\\}.$$<br>This description gives the corresponding sample points for $r=4,5,6$ as well and shows that every outcome of the experiment is assigned exactly one value from $1$ to $6$.<br><br><b>Final Result</b><br>Hence, $X$ is a random variable whose range is $\\{1,2,3,4,5,6\\}$, with each value determined by the larger number appearing on the two dice.",
+  "explanation_image": [],
+  "options": {
+    "A": "$X$ is a random variable with values $0,1,2,3,4,5$, and $\\{X=r\\}=\\{(i,j):\\max(i,j)=r\\}$",
+    "B": "$X$ is not a random variable because several sample points can have the same value",
+    "C": "$X$ is a random variable with values $1,2,3,4,5,6$, and $\\{X=r\\}=\\{(i,j):1\\leq i,j\\leq r,\\ \\max(i,j)=r\\}$",
+    "D": "$X$ is a random variable with values $1,2,3,4,5,6$, and $\\{X=r\\}=\\{(i,j):\\min(i,j)=r\\}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

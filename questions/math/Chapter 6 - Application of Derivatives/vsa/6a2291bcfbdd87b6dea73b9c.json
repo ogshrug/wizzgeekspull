@@ -1,0 +1,26 @@
+{
+  "id": "6a2291bcfbdd87b6dea73b9c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973"
+  ],
+  "question_type": "VSA",
+  "question": "For the curve $y=5x-2x^{3}$, if x increases at the rate of $2~\\text{units/s}$ then how fast is the slope of the curve changing when $x=2$ ?",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> The slope $m$ of the curve at any point is defined by its first derivative with respect to $x$: $m = \\frac{dy}{dx} = 5 - 6x^2$. We want to calculate the rate at which this slope changes over time, which means evaluating $\\frac{dm}{dt}$.<br /><br /><b>Step 2</b> Differentiate the slope equation with respect to time $t$ by applying the Chain Rule: $\\frac{dm}{dt} = \\frac{d}{dx}(5 - 6x^2) \\cdot \\frac{dx}{dt} = -12x \\frac{dx}{dt}$.<br /><br /><b>Step 3</b> Substitute the given parameters into this related rates equation: we are given $\\frac{dx}{dt} = 2\\text{ units/s}$ and the target location $x = 2$. Performing the multiplication gives: $\\frac{dm}{dt} = -12(2)(2) = -48\\text{ units/s}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

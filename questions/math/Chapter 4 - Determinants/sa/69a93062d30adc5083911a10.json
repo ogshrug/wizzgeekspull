@@ -1,0 +1,30 @@
+{
+  "id": "69a93062d30adc5083911a10",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "SA",
+  "question": "Use properties of determinants to show that if the matrix $A$ has two proportional rows, then $\\det(A)=0$. Then, apply this result to $\\begin{pmatrix}2 & 3 & 4 \\\\ 4 & 6 & 8 \\\\ 1 & -1 & 0\\end{pmatrix}$ and compute its determinant.",
+  "answeroption": "C",
+  "explanation": "If two rows of a matrix are proportional, then one row can be written as a constant multiple of another row.<br />By the properties of determinants, if two rows of a determinant are proportional, the determinant becomes zero.<br />Here the matrix is $\\begin{pmatrix}2 & 3 & 4 \\\\ 4 & 6 & 8 \\\\ 1 & -1 & 0\\end{pmatrix}$.<br />Observe that $R_2 = 2R_1$.<br />Since two rows are proportional, the determinant must be zero.<br />Verification by expansion:<br />$2 \\begin{vmatrix}6 & 8 \\\\ -1 & 0\\end{vmatrix} - 3 \\begin{vmatrix}4 & 8 \\\\ 1 & 0\\end{vmatrix} + 4\\begin{vmatrix}4 & 6 \\\\ 1 & -1\\end{vmatrix}$<br />$= 2(6\\cdot0-(-1)\\cdot8) - 3(4\\cdot0-1\\cdot8) + 4(4\\cdot-1-1\\cdot6)$<br />$= 2(8) - 3(-8) + 4(-10)$<br />$= 16 + 24 - 40$<br />$= 0$.<br />Thus the determinant is $0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Since $R_2=R_1$, the determinant is $1$.",
+    "B": "Since $R_2=2R_1$, two rows are proportional, so the determinant is $2$.",
+    "C": "Since $R_2=2R_1$, two rows are proportional, so the determinant is $0$.",
+    "D": "Since no two rows are proportional, the determinant is $-40$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:27:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

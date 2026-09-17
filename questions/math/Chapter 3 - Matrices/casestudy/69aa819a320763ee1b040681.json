@@ -1,0 +1,30 @@
+{
+  "id": "69aa819a320763ee1b040681",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 2: Economics – Input-Output Model**<br /><br />A small economy has two industries: Agriculture (A) and Manufacturing (M). The input-output matrix (each entry represents units required per unit output) is $C = \\begin{bmatrix} 0.2 & 0.3 \\\\ 0.1 & 0.4 \\end{bmatrix}$. The demand vector for the next period is $D = \\begin{bmatrix} 200 \\\\ 150 \\end{bmatrix}$.<br /><br />(a) Write the system of equations for total production vector $X = \\begin{bmatrix} x_1 \\\\ x_2 \\end{bmatrix}$, where $x_1$ and $x_2$ are outputs of A and M, respectively.<br />(b) Find the production vector $X$ to meet demand, using matrix inverse.<br />(c) Verify your answer by substituting the values back into the original equations.",
+  "answeroption": "D",
+  "explanation": "(a)<br /><br />The total production $X$ must satisfy $X = C X + D$.<br /><br />Thus, $X - C X = D$<br /><br />$\\implies (I - C) X = D$<br /><br />Where $I$ is the 2x2 identity matrix.<br /><br />(b)<br /><br />Calculate $I - C$:<br /><br />$I - C = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} - \\begin{bmatrix} 0.2 & 0.3 \\\\ 0.1 & 0.4 \\end{bmatrix} = \\begin{bmatrix} 0.8 & -0.3 \\\\ -0.1 & 0.6 \\end{bmatrix}$<br /><br />Now, $X = (I - C)^{-1} D$<br /><br />First, compute the determinant:<br /><br />$\\det(I - C) = (0.8)(0.6)-( -0.3)( -0.1) = 0.48 - 0.03 = 0.45$<br /><br />The inverse is:<br /><br />$(I - C)^{-1} = \\dfrac{1}{0.45} \\begin{bmatrix} 0.6 & 0.3 \\\\ 0.1 & 0.8 \\end{bmatrix}$<br /><br />Now compute $X = (I - C)^{-1} D$:<br /><br />$= \\dfrac{1}{0.45} \\begin{bmatrix} 0.6 & 0.3 \\\\ 0.1 & 0.8 \\end{bmatrix} \\begin{bmatrix} 200 \\\\ 150 \\end{bmatrix}$<br /><br />First row: $0.6\\times200 + 0.3\\times150 = 120 + 45 = 165$<br /><br />Second row: $0.1\\times200 + 0.8\\times150 = 20 + 120 = 140$<br /><br />So $X = \\dfrac{1}{0.45} \\begin{bmatrix} 165 \\\\ 140 \\end{bmatrix}$<br /><br />$X = \\begin{bmatrix} \\dfrac{165}{0.45} \\\\ \\dfrac{140}{0.45} \\end{bmatrix} = \\begin{bmatrix} 366.67 \\\\ 311.11 \\end{bmatrix}$<br /><br />(c)<br /><br />Verify:<br /><br />Now check $C X + D$:<br /><br />$C X = \\begin{bmatrix} 0.2 & 0.3 \\\\ 0.1 & 0.4 \\end{bmatrix} \\begin{bmatrix} 366.67 \\\\ 311.11 \\end{bmatrix}$<br /><br />Row 1: $0.2\\times366.67 + 0.3\\times311.11 = 73.33 + 93.33 = 166.66$<br /><br />Row 2: $0.1\\times366.67 + 0.4\\times311.11 = 36.67 + 124.44 = 161.11$<br /><br />$C X + D = \\begin{bmatrix} 166.66 + 200 \\\\ 161.11 + 150 \\end{bmatrix} = \\begin{bmatrix} 366.66 \\\\ 311.11 \\end{bmatrix}$, matching $X$ (to rounding error), so the solution is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $CX=D$.<br />(b) $X=\\begin{bmatrix}200\\\\150\\end{bmatrix}$.<br />(c) Substitution gives $CX+D=D$.",
+    "B": "(a) $(I+C)X=D$.<br />(b) $X=\\begin{bmatrix}165\\\\140\\end{bmatrix}$.<br />(c) Verification fails.",
+    "C": "(a) $X=CD$.<br />(b) $X=\\begin{bmatrix}85\\\\80\\end{bmatrix}$.<br />(c) The production vector is smaller than demand.",
+    "D": "(a) $X=CX+D$, so $(I-C)X=D$.<br />(b) $I-C=\\begin{bmatrix}0.8&-0.3\\\\-0.1&0.6\\end{bmatrix}$ and $X=(I-C)^{-1}D=\\begin{bmatrix}366.67\\\\311.11\\end{bmatrix}$ approximately.<br />(c) Substitution in $CX+D$ gives $X$ up to rounding error."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:26:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

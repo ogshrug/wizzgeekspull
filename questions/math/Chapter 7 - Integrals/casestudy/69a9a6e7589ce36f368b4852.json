@@ -1,0 +1,29 @@
+{
+  "id": "69a9a6e7589ce36f368b4852",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A river cross section is modeled by $y=2\\sqrt{9-(x-3)^2}$ for $0\\le x\\le6$.<br /><br />(a) Set up the integral for the area under the curve.<br /><br />(b) Evaluate the area.<br /><br />(c) Find the usable area where $y\\ge4$.",
+  "answeroption": "A",
+  "explanation": "(a) Area is $A=\\int_0^6 2\\sqrt{9-(x-3)^2}dx$.<br /><br />(b) Let $u=x-3$. Limits become $-3$ to $3$.<br /><br />$A=2\\int_{-3}^{3}\\sqrt{9-u^2}du$.<br /><br />This equals twice the area of a semicircle of radius 3.<br /><br />Thus $A=9\\pi$.<br /><br />(c) For $y\\ge4$:<br /><br />$2\\sqrt{9-(x-3)^2}\\ge4$.<br /><br />Solving gives $x\\in[3-\\sqrt5,3+\\sqrt5]$.<br /><br />Usable area:<br /><br />$2\\int_{-\\sqrt5}^{\\sqrt5}\\sqrt{9-u^2}du$.<br /><br />Evaluating gives $4\\sqrt5 + 18\\sin^{-1}(\\frac{\\sqrt5}{3})$ square meters.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=\\int_0^6 2\\sqrt{9-(x-3)^2}\\,dx$<br />(b) $A=9\\pi$<br />(c) Usable area $=2\\int_{-\\sqrt5}^{\\sqrt5}\\sqrt{9-u^2}\\,du=4\\sqrt5+18\\sin^{-1}\\left(\\frac{\\sqrt5}{3}\\right)$",
+    "B": "(a) $A=\\int_0^6 \\sqrt{9-(x-3)^2}\\,dx$<br />(b) $A=\\frac{9\\pi}{2}$<br />(c) Usable area $=2\\sqrt5+9\\sin^{-1}\\left(\\frac{\\sqrt5}{3}\\right)$",
+    "C": "(a) $A=\\int_{-3}^{3}2\\sqrt{9-x^2}\\,dx$<br />(b) $A=18\\pi$<br />(c) Usable area $=8\\sqrt5$",
+    "D": "(a) $A=\\int_0^6 2[9-(x-3)^2]dx$<br />(b) $A=36$<br />(c) Usable area $=4\\sqrt5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:53:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

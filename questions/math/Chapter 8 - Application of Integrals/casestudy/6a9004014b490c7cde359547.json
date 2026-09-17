@@ -1,0 +1,31 @@
+{
+  "id": "6a9004014b490c7cde359547",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f995"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A curved panel is modelled by the parabola $y=kx\\left(4-x\\right)$ for $0\\leq x\\leq4$, where $k>0$. The panel lies above the $x$-axis, and its measured area is $\\frac{64}{3}$ square units. A vertical support is placed at the midpoint $x=2$. Students first obtain an area formula containing the unknown parameter, then use the measured area to determine the model and examine whether the midpoint support divides the panel into equal areas.(a) Determine the points at which the parabola meets the $x$-axis.(b) Express the total area under the parabola in terms of $k$.(c) Determine the value of $k$ from the measured area.(d) Calculate the area from $x=0$ to $x=2$ and verify whether the support divides the panel equally.",
+  "answeroption": "D",
+  "explanation": "(a)The parabola meets the $x$-axis when $y=0$. Therefore,`kx\\left(4-x\\right)=0`Since $k>0$,`x=0\\quad\\text{or}\\quad x=4`Hence, the required points are $\\left(0,0\\right)$ and $\\left(4,0\\right)$.(b)The total area is`A=\\int_0^4kx\\left(4-x\\right)dxA=k\\int_0^4\\left(4x-x^2\\right)dxA=k\\left[2x^2-\\frac{x^3}{3}\\right]_0^4A=k\\left(32-\\frac{64}{3}\\right)=\\frac{32k}{3}`Thus, the total area is $\\frac{32k}{3}$ square units.(c)The measured area is $\\frac{64}{3}$ square units. Hence,`\\frac{32k}{3}=\\frac{64}{3}k=2`Therefore, the equation of the upper boundary is $y=2x\\left(4-x\\right)$.(d)The area from $x=0$ to $x=2$ is`A_1=\\int_0^2 2x\\left(4-x\\right)dxA_1=\\int_0^2\\left(8x-2x^2\\right)dxA_1=\\left[4x^2-\\frac{2x^3}{3}\\right]_0^2A_1=16-\\frac{16}{3}=\\frac{32}{3}`This is half of the total area $\\frac{64}{3}$. Therefore, the support at $x=2$ divides the panel into two equal areas.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,0)$ and $(4,0)$<br>(b) $A=\\frac{16k}{3}$<br>(c) $k=4$<br>(d) Area to $x=2$ is $\\frac{32}{3}$; support divides equally",
+    "B": "(a) $(0,0)$ and $(4,0)$<br>(b) $A=\\frac{32k}{3}$<br>(c) $k=2$<br>(d) Area to $x=2$ is $\\frac{16}{3}$; support does not divide equally",
+    "C": "(a) $(0,0)$ and $(2,0)$<br>(b) $A=\\frac{32k}{3}$<br>(c) $k=2$<br>(d) Area to $x=2$ is $\\frac{32}{3}$; support divides equally",
+    "D": "(a) $(0,0)$ and $(4,0)$<br>(b) $A=\\frac{32k}{3}$<br>(c) $k=2$<br>(d) Area to $x=2$ is $\\frac{32}{3}$; support divides equally"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

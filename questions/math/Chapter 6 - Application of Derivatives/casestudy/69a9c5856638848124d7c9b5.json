@@ -1,0 +1,32 @@
+{
+  "id": "69a9c5856638848124d7c9b5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f980",
+    "6a13e9908c819562f933f981",
+    "6a13e9908c819562f933f982",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 4: Approximating Change in a Manufacturing Machine**<br /><br />A metal sphere produced by a machine has a radius of $5.00$ cm. Due to a calibration error, the radius can vary by up to $0.02$ cm. The company sets strict quality controls on the volume, which is given by $V = \\frac{4}{3} \\pi r^3$.<br /><br />(a) Use differentials to estimate the maximum error in the volume of the sphere caused by the error in radius.<br /><br />(b) What is the approximate percentage error in the volume?<br /><br />(c) If the allowed percentage error in the volume must not exceed $0.5\\%$, what is the maximum possible error in radius that will satisfy this requirement?",
+  "answeroption": "C",
+  "explanation": "(a) $V = \\frac{4}{3}\\pi r^3$<br /><br />$dV = 4\\pi r^2 dr$<br /><br />For $r=5$, $dr=0.02$:<br /><br />$dV = 4\\pi (25)(0.02) = 2\\pi \\approx 6.28 \\text{ cm}^3$<br /><br />(b) Actual volume $\\approx 523.6 \\text{ cm}^3$<br /><br />Percentage error $\\approx 1.20\\%$<br /><br />(c) Using $\\frac{dV}{V}=3\\frac{dr}{r}$<br /><br />$dr \\leq 0.0083$ cm.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Maximum error in volume $=4\\pi\\approx12.56\\text{ cm}^3$.<br />(b) Percentage error $\\approx2.40\\%$.<br />(c) Maximum possible error in radius $\\leq0.0167$ cm.",
+    "B": "(a) Maximum error in volume $=\\pi\\approx3.14\\text{ cm}^3$.<br />(b) Percentage error $\\approx0.60\\%$.<br />(c) Maximum possible error in radius $\\leq0.0042$ cm.",
+    "C": "(a) Maximum error in volume $=2\\pi\\approx6.28\\text{ cm}^3$.<br />(b) Percentage error $\\approx1.20\\%$.<br />(c) Maximum possible error in radius $\\leq0.0083$ cm.",
+    "D": "(a) Maximum error in volume $=8\\pi\\approx25.13\\text{ cm}^3$.<br />(b) Percentage error $\\approx4.80\\%$.<br />(c) Maximum possible error in radius $\\leq0.0200$ cm."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:03:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

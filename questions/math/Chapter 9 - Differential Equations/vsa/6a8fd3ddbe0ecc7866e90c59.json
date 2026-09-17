@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd3ddbe0ecc7866e90c59",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a5"
+  ],
+  "question_type": "VSA",
+  "question": "A family of concentric circles is represented by $x^2+y^2=C$, where $C$ is arbitrary. Form the differential equation of the family.",
+  "answeroption": "C",
+  "explanation": "Step 1: The family is $x^2+y^2=C$, containing the single arbitrary constant $C$.<br>Step 2: Differentiate both sides with respect to $x$ to eliminate this constant.<br>Step 3: Differentiating gives $2x+2y\\frac{dy}{dx}=0$, since $\\frac{dC}{dx}=0$.<br>Step 4: Divide throughout by $2$ to simplify the relation. This gives $x+y\\frac{dy}{dx}=0$.<br>Step 5: The resulting equation contains $x$, $y$ and $\\frac{dy}{dx}$ but no arbitrary constant. Therefore, the differential equation representing the given family of concentric circles is $x+y\\frac{dy}{dx}=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x-y\\frac{dy}{dx}=0$",
+    "B": "$y+x\\frac{dy}{dx}=0$",
+    "C": "$x+y\\frac{dy}{dx}=0$",
+    "D": "$x\\frac{dy}{dx}+y^2=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

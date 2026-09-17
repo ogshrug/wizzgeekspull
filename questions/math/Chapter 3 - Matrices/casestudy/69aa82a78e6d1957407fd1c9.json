@@ -1,0 +1,30 @@
+{
+  "id": "69aa82a78e6d1957407fd1c9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d5d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 4: Business – Inventory and Profit Analysis**<br /><br />A company sells two products, X and Y. Over three months, the number of units sold is recorded as the matrix $S = \\begin{bmatrix} 120 & 100 \\\\ 150 & 130 \\\\ 170 & 160 \\end{bmatrix}$, where columns correspond to X and Y, and rows are months 1, 2, 3. The profit per item is given as column vector $P = \\begin{bmatrix} 20 \\\\ 30 \\end{bmatrix}$.<br /><br />(a) Find the profit for each month as a column vector $Q = S P$.<br />(b) If the company wants to increase the profit per item by 10% next quarter, write the appropriate profit vector and calculate the new total profit for all three months.<br />(c) If the sales matrix $S$ is replaced with its transpose, explain the mathematical and practical effect for profit calculation.",
+  "answeroption": "A",
+  "explanation": "(a) $Q = S P = \\begin{bmatrix} 120 & 100 \\\\ 150 & 130 \\\\ 170 & 160 \\end{bmatrix} \\begin{bmatrix} 20 \\\\ 30 \\end{bmatrix}$<br /><br />For Month 1: $120 \\times 20 + 100 \\times 30 = 2400 + 3000 = 5400$<br /><br />For Month 2: $150 \\times 20 + 130 \\times 30 = 3000 + 3900 = 6900$<br /><br />For Month 3: $170 \\times 20 + 160 \\times 30 = 3400 + 4800 = 8200$<br /><br />$Q = \\begin{bmatrix} 5400 \\\\ 6900 \\\\ 8200 \\end{bmatrix}$<br /><br />(b) New profit per item: 10% more<br /><br />$20 \\times 1.1 = 22$, $30 \\times 1.1 = 33$<br /><br />New profit vector: $P' = \\begin{bmatrix} 22 \\\\ 33 \\end{bmatrix}$<br /><br />Total profit: $Q' = S P'$<br /><br />Month 1: $120 \\times 22 + 100 \\times 33 = 2640 + 3300 = 5940$<br /><br />Month 2: $150 \\times 22 + 130 \\times 33 = 3300 + 4290 = 7590$<br /><br />Month 3: $170 \\times 22 + 160 \\times 33 = 3740 + 5280 = 9020$<br /><br />Total profit (all months): $5940 + 7590 + 9020 = 22,550$<br /><br />(c) $S^T$ is $2 \\times 3$ instead of $3 \\times 2$. If $P$ is $2 \\times 1$, $S^T P$ is not defined ($2 \\times 3$ by $2 \\times 1$), so the multiplication is not possible. Thus, transposing $S$ destroys the interpretation of 'profit per month'. Mathematically, $S^T$ can only be multiplied from the right by a $3 \\times 1$ column vector (e.g., if profit is given per month, not per product).",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $Q=SP=\\begin{bmatrix}5400\\\\6900\\\\8200\\end{bmatrix}$.<br />(b) New profit vector $P'=\\begin{bmatrix}22\\\\33\\end{bmatrix}$ and new total profit for all three months is $22550$.<br />(c) $S^TP$ is not defined because $S^T$ is $2\\times3$ and $P$ is $2\\times1$, so the profit-per-month interpretation is lost.",
+    "B": "(a) $Q=\\begin{bmatrix}5400&6900&8200\\end{bmatrix}$.<br />(b) New profit vector $P'=\\begin{bmatrix}20\\\\30\\end{bmatrix}$ and total profit is $20500$.<br />(c) $S^TP$ gives the same monthly profit vector.",
+    "C": "(a) $Q=\\begin{bmatrix}220\\\\280\\\\330\\end{bmatrix}$.<br />(b) New total profit is $9020$.<br />(c) Transpose does not affect multiplication order.",
+    "D": "(a) $Q=\\begin{bmatrix}5400\\\\6900\\end{bmatrix}$.<br />(b) New profit vector is $\\begin{bmatrix}30\\\\20\\end{bmatrix}$.<br />(c) $S^TP$ is always defined and gives product-wise profit."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:30:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

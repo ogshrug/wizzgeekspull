@@ -1,0 +1,29 @@
+{
+  "id": "6a8f11894b490c7cde3594c1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991"
+  ],
+  "question_type": "VSA",
+  "question": "For the function $f(x)=\\sqrt{x+1}$, calculate the area under its curve from $x=0$ to $x=3$.",
+  "answeroption": "D",
+  "explanation": "Step 1\\:The function $f(x)=\\sqrt{x+1}$ is positive throughout $[0,3]$. Hence, its definite integral gives the required area.Step 2\\:The area is $A=\\int_0^3\\sqrt{x+1}\\,dx$.Step 3\\:Using $\\int(x+1)^{1/2}\\,dx=\\frac{2}{3}(x+1)^{3/2}$, we obtain $A=\\left[\\frac{2}{3}(x+1)^{3/2}\\right]_0^3$.Step 4\\:Thus, $A=\\frac{2}{3}\\left(4^{3/2}-1^{3/2}\\right)=\\frac{2}{3}(8-1)=\\frac{14}{3}$.Final Answer\\:The area is $\\frac{14}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{8}{3}$ square units",
+    "B": "$\\frac{16}{3}$ square units",
+    "C": "$\\frac{7}{3}$ square units",
+    "D": "$\\frac{14}{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

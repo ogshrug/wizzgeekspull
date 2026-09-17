@@ -1,0 +1,29 @@
+{
+  "id": "6a8f1cbdbe0ecc7866e90c34",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "SA",
+  "question": "The curve $x=9-y^2$ and the coordinate axes enclose a region in the first quadrant. (a) Determine its intercepts on the positive axes. (b) Calculate the enclosed area.",
+  "answeroption": "D",
+  "explanation": "Step 1: Determining the coordinate intercepts Putting $y=0$ gives $x=9$, so the x-intercept is $(9,0)$. Putting $x=0$ gives $y=3$ in the first quadrant, so the y-intercept is $(0,3)$. Step 2: Identifying the horizontal boundaries For $0\\leq y\\leq3$, the right boundary is $x=9-y^2$, and the left boundary is the y-axis $x=0$. Step 3: Forming the area integral $A=\\int_0^3(9-y^2)dy$. Step 4: Evaluating the integral $A=\\left[9y-\\frac{y^3}{3}\\right]_0^3=27-9=18$. Final Answer The intercepts are $(9,0)$ and $(0,3)$, and the enclosed area is $18$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(9,0)$ and $(0,3)$<br>(b) $9$ square units",
+    "B": "(a) $(3,0)$ and $(0,9)$<br>(b) $18$ square units",
+    "C": "(a) $(9,0)$ and $(0,9)$<br>(b) $18$ square units",
+    "D": "(a) $(9,0)$ and $(0,3)$<br>(b) $18$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

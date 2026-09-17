@@ -1,0 +1,28 @@
+{
+  "id": "6a266c53864be73cfcf6d38f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "VSA",
+  "question": "Find the domain of $y=sin^{-1}(x^{2}-4)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** By standard mathematical definition, the domain of the inverse sine function $y = \\sin^{-1}(u)$ is strictly bounded by the structural algebraic inequality: $-1 \\le u \\le 1$. In this problem, the inner argument expression is $u = x^2 - 4$. Therefore, to find the domain of the full function, we must set up and solve the compound inequality: $-1 \\le x^2 - 4 \\le 1$.<br />**Step 2:** Isolate the squared variable term $x^2$ by adding the number 4 to all three sections of the compound inequality: $-1 + 4 \\le x^2 - 4 + 4 \\le 1 + 4$. This simplifies to the matching structural relationship: $3 \\le x^2 \\le 5$. This compound inequality splits into two separate simultaneous conditions: $x^2 \\ge 3$ and $x^2 \\le 5$.<br />**Step 3:** Solve each quadratic condition independently to find the intervals. For $x^2 \\ge 3$, taking the square root yields $x \\in (-\\infty, -\\sqrt{3}] \\cup [\\sqrt{3}, \\infty)$. For $x^2 \\le 5$, taking the square root yields $x \\in [-\\sqrt{5}, \\sqrt{5}]$. Intersecting these two solution sets identifies the values where both conditions are satisfied simultaneously: $x \\in [-\\sqrt{5}, -\\sqrt{3}] \\cup [\\sqrt{3}, \\sqrt{5}]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

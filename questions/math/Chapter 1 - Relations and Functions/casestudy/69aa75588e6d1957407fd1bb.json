@@ -1,0 +1,29 @@
+{
+  "id": "69aa75588e6d1957407fd1bb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 8: Corporate Hierarchy and Partial Orders**<br /><br />A company has $V$ employees. Define a relation $R$ on $V$ by: $a R b$ if employee $a$ is superior to $b$ (direct or indirect). Consider only acyclic hierarchies (no circles of command).<br /><br />(a) Is $R$ an equivalence relation? Prove why or why not.<br /><br />(b) For any such hierarchy, describe and prove the possible forms of partitions of $V$ into equivalence classes under $R$ (if possible).<br /><br />(c) If the company has 5 employees and the hierarchy forms a chain (one CEO, one manager, one team lead, and two junior employees), how many ordered pairs does relation $R$ contain?",
+  "answeroption": "B",
+  "explanation": "(a) **Equivalence?**<br /><br />$\\text{Reflexive: } (a,a) \\notin R \\text{ since employee is not superior to self}$<br /><br />$\\text{Symmetric: If } (a,b) \\in R \\text{ then } (b,a) \\notin R \\text{ (acyclic hierarchy)}$<br /><br />$\\text{Transitive: If } (a,b) \\in R \\text{ and } (b,c) \\in R \\text{ then } (a,c) \\in R$<br /><br />$\\text{Hence, } R \\text{ is NOT an equivalence relation}$<br /><br />(b) **Partitions under $R$: **<br /><br />$\\text{Since } R \\text{ is not an equivalence relation}$<br /><br />$\\text{There are no equivalence classes to partition } V$<br /><br />(c) **Number of ordered pairs in chain hierarchy: **<br /><br />$\\text{Hierarchy: CEO } \\rightarrow \\text{ Manager } \\rightarrow \\text{ Team Lead } \\rightarrow \\text{ Junior 1, Junior 2}$<br /><br />$\\text{Let employees: } C, M, T, J_1, J_2$<br /><br />$\\text{Pairs: } (C,M), (C,T), (C,J_1), (C,J_2)$<br /><br />$(M,T), (M,J_1), (M,J_2)$<br /><br />$(T,J_1), (T,J_2)$<br /><br />$\\text{Total ordered pairs} = 4 + 3 + 2 = 9$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R$ is an equivalence relation because it is transitive.<br />(b) The whole set $V$ forms one equivalence class.<br />(c) Relation $R$ contains $25$ ordered pairs.",
+    "B": "(a) $R$ is not an equivalence relation because it is not reflexive and not symmetric, though it is transitive.<br />(b) Since $R$ is not an equivalence relation, it does not form equivalence classes that partition $V$.<br />(c) The ordered pairs are $(C,M),(C,T),(C,J_1),(C,J_2),(M,T),(M,J_1),(M,J_2),(T,J_1),(T,J_2)$, so total pairs $=9$.",
+    "C": "(a) $R$ is reflexive and symmetric but not transitive.<br />(b) The partition is into singleton classes only.<br />(c) Relation $R$ contains $5$ ordered pairs.",
+    "D": "(a) $R$ is symmetric but not transitive.<br />(b) Equivalence classes are based on department names.<br />(c) Relation $R$ contains $10$ ordered pairs including self-pairs."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:34:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

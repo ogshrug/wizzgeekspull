@@ -1,0 +1,29 @@
+{
+  "id": "69a9a5a762be6a70cd184de9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Using integration by parts, evaluate $\\int x \\ln x\\,dx$.",
+  "answeroption": "D",
+  "explanation": "Let $u=\\ln x$ and $dv=x dx$.<br /><br />Then $du=\\frac{1}{x}dx$ and $v=\\frac{x^2}{2}$.<br /><br />Using integration by parts:<br /><br />$\\int x\\ln x dx = uv - \\int vdu$<br /><br />$= \\frac{x^2}{2}\\ln x - \\int \\frac{x^2}{2}\\cdot \\frac{1}{x}dx$<br /><br />$= \\frac{x^2}{2}\\ln x - \\frac{1}{2}\\int x dx$<br /><br />$= \\frac{x^2}{2}\\ln x - \\frac{x^2}{4} + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x^2}{2}\\ln x + \\frac{x^2}{4}+C$",
+    "B": "$x^2\\ln x - \\frac{x^2}{4}+C$",
+    "C": "$\\frac{x^2}{2}\\ln x - \\frac{x}{4}+C$",
+    "D": "$\\frac{x^2}{2}\\ln x - \\frac{x^2}{4}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:47:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

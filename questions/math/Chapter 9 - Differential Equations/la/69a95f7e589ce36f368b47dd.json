@@ -1,0 +1,31 @@
+{
+  "id": "69a95f7e589ce36f368b47dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following differential equation and find the particular solution satisfying $y(0) = 2$:<br /><br />$\\displaystyle \\frac{dy}{dx} + y \\tan x = \\sec x$",
+  "answeroption": "B",
+  "explanation": "Given:<br /><br />$\\frac{dy}{dx} + y \\tan x = \\sec x$<br /><br />This is a linear ODE. The integrating factor (IF) is:<br /><br />$IF = \\exp \\left( \\int \\tan x dx \\right) = \\exp(-\\ln |\\cos x|) = \\sec x$<br /><br />Multiplying both sides by $\\sec x$:<br /><br />$\\sec x \\frac{dy}{dx} + y \\sec x \\tan x = \\sec^2 x$<br /><br />$\\Rightarrow \\frac{d}{dx}(y \\sec x) = \\sec^2 x$<br /><br />Integrate both sides:<br /><br />$y \\sec x = \\tan x + C$<br /><br />$y = \\tan x \\cos x + C \\cos x$<br /><br />$\\tan x \\cos x = \\sin x$<br /><br />So $y = \\sin x + C \\cos x$<br /><br />Using $y(0) = 2$:<br /><br />$2 = 0 + C(1)$<br /><br />$C = 2$<br /><br />Final answer:<br /><br />$y = \\sin x + 2 \\cos x$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\sin x-2\\cos x$",
+    "B": "$y=\\sin x+2\\cos x$",
+    "C": "$y=2\\sin x+\\cos x$",
+    "D": "$y=\\cos x+2\\sin x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:48:30 GMT",
+  "updated_at": "Fri, 31 Jul 2026 11:28:55 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a900598be0ecc7866e90c91",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d5"
+  ],
+  "question_type": "SA",
+  "question": "Find the acute angle between the planes $2x-y+2z=3$ and $x+2y-2z=5$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Normal vectors of the planes</b><br>The direction ratios of the normals to the planes are obtained from their coefficients. Thus,<br>$$\\vec{n}_1=2\\hat{i}-\\hat{j}+2\\hat{k},\\quad \\vec{n}_2=\\hat{i}+2\\hat{j}-2\\hat{k}.$$<br><b>Step 2: Angle-between-planes relation</b><br>The acute angle $\\theta$ between two planes is the acute angle between their normal vectors. Therefore,<br>$$\\cos\\theta=\\frac{|\\vec{n}_1\\cdot\\vec{n}_2|}{|\\vec{n}_1||\\vec{n}_2|}.$$<br><b>Step 3: Scalar product</b><br>$$\\vec{n}_1\\cdot\\vec{n}_2=2(1)+(-1)(2)+2(-2)=-4.$$<br><b>Step 4: Magnitudes and simplification</b><br>$$|\\vec{n}_1|=\\sqrt{4+1+4}=3,\\quad |\\vec{n}_2|=\\sqrt{1+4+4}=3.$$<br>Hence,<br>$$\\cos\\theta=\\frac{|-4|}{3\\times3}=\\frac{4}{9}.$$<br><b>Step 5: Final result</b><br>Therefore, the acute angle between the planes is<br>$$\\theta=\\cos^{-1}\\left(\\frac{4}{9}\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sin^{-1}\\left(\\frac{4}{9}\\right)$",
+    "B": "$\\cos^{-1}\\left(\\frac{4}{9}\\right)$",
+    "C": "$\\cos^{-1}\\left(\\frac{5}{9}\\right)$",
+    "D": "$\\cos^{-1}\\left(\\frac{4}{3}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

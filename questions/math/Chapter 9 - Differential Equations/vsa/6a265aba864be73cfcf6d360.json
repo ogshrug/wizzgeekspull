@@ -1,0 +1,29 @@
+{
+  "id": "6a265aba864be73cfcf6d360",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa",
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "VSA",
+  "question": "Find the general solution of the differential equation $\\sec^{2}x\\cdot\\tan y \\, dx + \\sec^{2}y\\cdot\\tan x \\, dy = 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given first-order differential equation is $\\sec^{2}x\\cdot\\tan y \\, dx + \\sec^{2}y\\cdot\\tan x \\, dy = 0$. To solve this, rearrange the terms to separate the variables, moving one group over to the right-hand side: $\\sec^{2}x\\cdot\\tan y \\, dx = -\\sec^{2}y\\cdot\\tan x \\, dy$. Now, divide both sides by the product $\\tan x \\cdot \\tan y$ to fully separate the $x$ components from the $y$ components: $\\frac{\\sec^2 x}{\\tan x} dx = -\\frac{\\sec^2 y}{\\tan y} dy$.<br />**Step 2:** Integrate both sides of this separated equation: $\\int \\frac{\\sec^2 x}{\\tan x} dx = -\\int \\frac{\\sec^2 y}{\\tan y} dy$. Both sides can be integrated using basic substitution. For the left side, let $u = \\tan x$, which gives $du = \\sec^2 x dx$, transforming it into $\\int \\frac{1}{u} du = \\log|u| = \\log|\\tan x|$. Following the same steps for the right side with $v = \\tan y$ gives $-\\log|\\tan y|$.<br />**Step 3:** Combine these integrated log terms and write the arbitrary constant of integration as $\\log|C|$ to help simplify: $\\log|\\tan x| = -\\log|\\tan y| + \\log|C|$. Move the negative log term over to the left side: $\\log|\\tan x| + \\log|\\tan y| = \\log|C|$. Applying standard logarithm product properties gives $\\log|\\tan x \\cdot \\tan y| = \\log|C|$. Taking exponentials on both sides removes the logs, delivering the final general solution: $\\tan x \\cdot \\tan y = C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1",
+    "2022-4-2",
+    "2022-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

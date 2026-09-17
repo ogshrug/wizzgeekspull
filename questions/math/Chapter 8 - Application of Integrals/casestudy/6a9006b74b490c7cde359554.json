@@ -1,0 +1,32 @@
+{
+  "id": "6a9006b74b490c7cde359554",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999",
+    "6a13eb348c819562f933f99a",
+    "6a13eb348c819562f933f99b"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematical design uses the parabolas $y^2=4x$ and $y^2=8x$, both opening towards the positive $x$-axis. The curves meet at the origin, and the vertical line $x=2$ closes two finite regions, one above and one below the $x$-axis. The design is symmetric about the $x$-axis. Students determine the points where the closing line meets each parabola, express their upper branches as functions of $x$, and use integration to calculate the two enclosed regions.(a) Determine the common point of the two parabolas.(b) Find the points at which $x=2$ meets both parabolas.(c) Calculate the area of the region lying above the $x$-axis.(d) Hence determine the combined area of the two enclosed regions.",
+  "answeroption": "A",
+  "explanation": "(a)At a common point,`y^2=4x\\quad\\text{and}\\quad y^2=8x`Therefore,`4x=8xx=0`Substituting gives $y=0$. Hence, the two parabolas meet at $\\left(0,0\\right)$.(b)For $y^2=4x$, putting $x=2$ gives`y^2=8y=\\pm2\\sqrt{2}`Thus, the points are $\\left(2,2\\sqrt{2}\\right)$ and $\\left(2,-2\\sqrt{2}\\right)$. For $y^2=8x$,`y^2=16y=\\pm4`Thus, the points are $\\left(2,4\\right)$ and $\\left(2,-4\\right)$.(c)The upper branches are`y=2\\sqrt{x}\\quad\\text{and}\\quad y=2\\sqrt{2x}`For $0\\leq x\\leq2$, $2\\sqrt{2x}$ is the upper boundary. Hence,`A_1=\\int_0^2\\left(2\\sqrt{2x}-2\\sqrt{x}\\right)dxA_1=2\\left(\\sqrt{2}-1\\right)\\int_0^2\\sqrt{x}\\,dxA_1=2\\left(\\sqrt{2}-1\\right)\\left[\\frac{2x^{3/2}}{3}\\right]_0^2A_1=\\frac{8\\sqrt{2}\\left(\\sqrt{2}-1\\right)}{3}=\\frac{8\\left(2-\\sqrt{2}\\right)}{3}`Thus, the upper region has area $\\frac{8\\left(2-\\sqrt{2}\\right)}{3}$ square units.(d)The configuration is symmetric about the $x$-axis. Therefore, the lower region has the same area as the upper region. The combined area is`A=2A_1A=\\frac{16\\left(2-\\sqrt{2}\\right)}{3}`Hence, the combined area of the two regions is $\\frac{16\\left(2-\\sqrt{2}\\right)}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Common point $(0,0)$<br>(b) For $y^2=4x$: $(2,\\pm2\\sqrt{2})$; for $y^2=8x$: $(2,\\pm4)$<br>(c) Upper-region area $=\\frac{8(2-\\sqrt{2})}{3}$<br>(d) Combined area $=\\frac{16(2-\\sqrt{2})}{3}$",
+    "B": "(a) Common point $(0,0)$<br>(b) For $y^2=4x$: $(2,\\pm4)$; for $y^2=8x$: $(2,\\pm2\\sqrt{2})$<br>(c) Upper-region area $=\\frac{8(2-\\sqrt{2})}{3}$<br>(d) Combined area $=\\frac{16(2-\\sqrt{2})}{3}$",
+    "C": "(a) Common point $(0,0)$<br>(b) For $y^2=4x$: $(2,\\pm2\\sqrt{2})$; for $y^2=8x$: $(2,\\pm4)$<br>(c) Upper-region area $=\\frac{16(2-\\sqrt{2})}{3}$<br>(d) Combined area $=\\frac{32(2-\\sqrt{2})}{3}$",
+    "D": "(a) Common points $(0,0)$ and $(2,2)$<br>(b) For $y^2=4x$: $(2,\\pm2\\sqrt{2})$; for $y^2=8x$: $(2,\\pm4)$<br>(c) Upper-region area $=\\frac{8(2-\\sqrt{2})}{3}$<br>(d) Combined area $=\\frac{16(2-\\sqrt{2})}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

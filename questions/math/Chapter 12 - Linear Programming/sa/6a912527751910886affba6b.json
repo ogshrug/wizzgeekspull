@@ -1,0 +1,29 @@
+{
+  "id": "6a912527751910886affba6b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dd"
+  ],
+  "question_type": "SA",
+  "question": "The constraints of a linear programming problem are $x+y\\leq7$, $2x+y\\leq10$, $x\\geq0$ and $y\\geq0$. Examine the points $P(4,4)$ and $Q(5,1)$ and show that both lie outside the feasible region. State the constraint violated by each point.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Testing $P(4,4)$ against the first constraint</b><br>Substituting $P(4,4)$ in $x+y\\leq7$, $$4+4=8>7$$ Hence, the first constraint is violated.<br><b>Step 2: Testing the second constraint at $P$</b><br>$$2(4)+4=12>10$$ Thus, $P$ violates the second constraint also and therefore lies outside the feasible region.<br><b>Step 3: Testing $Q(5,1)$</b><br>For the first constraint, $$5+1=6\\leq7$$ However, for the second constraint, $$2(5)+1=11>10$$ Hence, $Q$ does not satisfy all the constraints.<br><b>Step 4: Using the criterion for infeasibility</b><br>A point must satisfy every constraint to belong to the feasible region. A point outside this common region is an infeasible solution.<br><b>Step 5: Conclusion</b><br>Both $P(4,4)$ and $Q(5,1)$ lie in the infeasible region; $P$ violates both principal constraints, while $Q$ violates $2x+y\\leq10$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$P$ violates only $x+y\\leq7$; $Q$ violates no constraint",
+    "B": "$P$ violates only $2x+y\\leq10$; $Q$ violates $x+y\\leq7$",
+    "C": "$P$ satisfies both principal constraints; $Q$ violates both",
+    "D": "$P$ violates both $x+y\\leq7$ and $2x+y\\leq10$; $Q$ violates $2x+y\\leq10$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

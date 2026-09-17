@@ -1,0 +1,26 @@
+{
+  "id": "6a31366fed9d5eb2aa722a23",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{\\pi/4}\\log(1+\\tan x)dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Apply the King's Property**  \nLet $I = \\int_{0}^{\\pi/4} \\log(1+\\tan x) \\, dx$. Using the property $\\int_{0}^{a} f(x) dx = \\int_{0}^{a} f(a-x) dx$, with $a = \\frac{\\pi}{4}$:  \n$$I = \\int_{0}^{\\pi/4} \\log\\left(1+\\tan\\left(\\frac{\\pi}{4}-x\\right)\\right) dx$$\n\n**Step 2: Simplify the Tangent Expression**  \nUsing $\\tan\\left(\\frac{\\pi}{4}-x\\right) = \\frac{1-\\tan x}{1+\\tan x}$, we get:  \n$$I = \\int_{0}^{\\pi/4} \\log\\left(1 + \\frac{1-\\tan x}{1+\\tan x}\\right) dx = \\int_{0}^{\\pi/4} \\log\\left(\\frac{2}{1+\\tan x}\\right) dx$$\n\n**Step 3: Apply Logarithm Properties**  \n$$I = \\int_{0}^{\\pi/4} \\left[\\log 2 - \\log(1+\\tan x)\\right] dx = \\log 2 \\int_{0}^{\\pi/4} dx - I$$  \n$$I = \\frac{\\pi}{4} \\log 2 - I$$\n\n**Step 4: Solve for I**  \n$$2I = \\frac{\\pi}{4} \\log 2 \\Rightarrow I = \\frac{\\pi}{8} \\log 2$$  \nThus, $\\int_{0}^{\\pi/4} \\log(1+\\tan x) \\, dx = \\frac{\\pi}{8} \\log 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

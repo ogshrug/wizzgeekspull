@@ -1,0 +1,32 @@
+{
+  "id": "6a8ea6832e54880055a0a6a0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5b",
+    "69c65fc040512f018fa94d5d",
+    "69c65fc040512f018fa94d5e",
+    "69c65fc040512f018fa94d60"
+  ],
+  "question_type": "LA",
+  "question": "If $$A=\\begin{bmatrix}2&0\\\\4&2\\end{bmatrix}$$ and $$B=\\begin{bmatrix}1&2\\\\-2&1\\end{bmatrix},$$ determine the matrix $X$ satisfying $4X-3A=2(X+B)$ by using the properties of matrix addition and scalar multiplication, and verify the obtained matrix in the original equation.",
+  "answeroption": "D",
+  "explanation": "<b>Formation of the Matrix Equation</b><br><br>The given equation is $$4X-3A=2(X+B)$$ Using the distributive property of scalar multiplication, $$4X-3A=2X+2B$$ Bringing the terms involving $X$ to one side and using the properties of matrix addition, $$4X-2X=3A+2B$$ Therefore, $$2X=3A+2B$$<br><br><b>Evaluation</b><br><br>Now, $$3A=\\begin{bmatrix}6&0\\\\12&6\\end{bmatrix},\\quad 2B=\\begin{bmatrix}2&4\\\\-4&2\\end{bmatrix}$$ Hence, $$2X=\\begin{bmatrix}6&0\\\\12&6\\end{bmatrix}+\\begin{bmatrix}2&4\\\\-4&2\\end{bmatrix}=\\begin{bmatrix}8&4\\\\8&8\\end{bmatrix}$$ Therefore, $$X=\\begin{bmatrix}4&2\\\\4&4\\end{bmatrix}$$<br><br><b>Verification</b><br><br>The left-hand side is $$4X-3A=\\begin{bmatrix}16&8\\\\16&16\\end{bmatrix}-\\begin{bmatrix}6&0\\\\12&6\\end{bmatrix}=\\begin{bmatrix}10&8\\\\4&10\\end{bmatrix}$$ The right-hand side is $$2(X+B)=2\\left(\\begin{bmatrix}4&2\\\\4&4\\end{bmatrix}+\\begin{bmatrix}1&2\\\\-2&1\\end{bmatrix}\\right)=2\\begin{bmatrix}5&4\\\\2&5\\end{bmatrix}=\\begin{bmatrix}10&8\\\\4&10\\end{bmatrix}$$ Both sides are equal. Hence, $$X=\\begin{bmatrix}4&2\\\\4&4\\end{bmatrix}$$ is the required matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "$X=\\begin{bmatrix}4&2\\\\2&4\\end{bmatrix}$",
+    "B": "$X=\\begin{bmatrix}2&4\\\\4&2\\end{bmatrix}$",
+    "C": "$X=\\begin{bmatrix}4&-2\\\\4&4\\end{bmatrix}$",
+    "D": "$X=\\begin{bmatrix}4&2\\\\4&4\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

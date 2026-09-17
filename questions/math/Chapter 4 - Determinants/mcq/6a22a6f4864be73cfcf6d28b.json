@@ -1,0 +1,32 @@
+{
+  "id": "6a22a6f4864be73cfcf6d28b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $|A|=2$, where A is a $2\\times2$ matrix, then $|4A^{-1}|$ equals:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** We need to find the determinant $|4A^{-1}|$. A key property of determinants states that for an $n \\times n$ matrix $M$ and a scalar $k$, $|kM| = k^n|M|$.<br />**Step 2:** Here, our matrix is $A^{-1}$, the scalar is $4$, and the order $n = 2$. Applying the property, $|4A^{-1}| = 4^2|A^{-1}| = 16|A^{-1}|$.<br />**Step 3:** Another fundamental property is that the determinant of an inverse matrix is the reciprocal of the original determinant: $|A^{-1}| = \\frac{1}{|A|}$.<br />**Step 4:** Substitute this into our expression: $16 \\times \\frac{1}{|A|}$.<br />**Step 5:** Given $|A| = 2$, we get $16 \\times \\frac{1}{2} = 8$.",
+  "explanation_image": [],
+  "options": {
+    "A": "4",
+    "B": "2",
+    "C": "8",
+    "D": "$\\frac{1}{32}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

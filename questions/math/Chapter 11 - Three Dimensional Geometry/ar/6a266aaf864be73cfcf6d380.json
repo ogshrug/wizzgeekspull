@@ -1,0 +1,34 @@
+{
+  "id": "6a266aaf864be73cfcf6d380",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d1",
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): The lines $\\vec{r}=\\vec{a_{1}}+\\lambda\\vec{b_{1}}$ and $\\vec{r}=\\vec{a_{2}}+\\mu\\vec{b_{2}}$ are perpendicular, when \\vec{b_{1}}.\\vec{b_{2}}=0<br />Reason (R): The angle between the lines $\\vec{r}=\\vec{a_{1}}+\\lambda\\vec{b_{1}}$ and $\\vec{r}=\\vec{a_{2}}+\\mu\\vec{b_{2}}$ is given by $\\cos\\theta=\\frac{\\vec{b}_{1}\\cdot\\vec{b}_{2}}{|\\vec{b}_{1}||\\vec{b}_{2}|}$",
+  "answeroption": "a",
+  "explanation": "**Step 1:** Analyze the Reason (R) first. The direction of a line given by vector form $\\vec{r} = \\vec{a} + \\lambda\\vec{b}$ is determined by its parallel direction vector $\\vec{b}$. The angle $\\theta$ between two straight lines is defined as the angle between their respective direction vectors $\\vec{b_1}$ and $\\vec{b_2}$, which is calculated by the formula $\\cos\\theta = \\frac{\\vec{b_1} \\cdot \\vec{b_2}}{|\\vec{b_1}||\\vec{b_2}|}$. Thus, Reason (R) is true.<br />**Step 2:** Now evaluate the Assertion (A). Two lines are perpendicular when the angle between them is $\\theta = 90^{\\circ}$, which means $\\cos 90^{\\circ} = 0$. Substituting this into the angle formula gives $\\frac{\\vec{b_1} \\cdot \\vec{b_2}}{|\\vec{b_1}||\\vec{b_2}|} = 0 \\implies \\vec{b_1} \\cdot \\vec{b_2} = 0$. Thus, Assertion (A) is true.<br />**Step 3:** Since the angle formula given in Reason (R) directly explains the specific condition for perpendicular lines ($\\vec{b_1} \\cdot \\vec{b_2} = 0$) stated in Assertion (A), Reason (R) is the correct mathematical explanation for Assertion (A). This matches option (a).",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true and Reason (R) is false.",
+    "D": "Assertion (A) is false and Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

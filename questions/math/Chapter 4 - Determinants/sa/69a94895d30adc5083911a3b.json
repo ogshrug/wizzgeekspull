@@ -1,0 +1,31 @@
+{
+  "id": "69a94895d30adc5083911a3b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603740512f018fa94d6f",
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "SA",
+  "question": "Let $A$ be non-singular $3\\times3$ matrix. If $|A|=4$, find $|A^{-1}+\\text{adj}(A)|$.",
+  "answeroption": "D",
+  "explanation": "First, recall $A^{-1} = \\frac{1}{|A|}\\text{adj}(A)$<br />So, $A^{-1} + \\text{adj}(A) = \\frac{1}{4}\\text{adj}(A)+\\text{adj}(A) = \\frac{5}{4}\\text{adj}(A)$<br /><br />The determinant:<br />$|A^{-1}+\\text{adj}(A)| = |\\frac{5}{4}\\text{adj}(A)| = \\left(\\frac{5}{4}\\right)^3|\\text{adj}(A)|$ (since $3 \\times 3$ matrix)<br /><br />$|\\text{adj}(A)| = |A|^{2} = 16$<br /><br />So, $|A^{-1}+\\text{adj}(A)| = \\left(\\frac{125}{64}\\right)\\times 16 = \\frac{125}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{25}{4}$",
+    "B": "$\\frac{125}{16}$",
+    "C": "$125$",
+    "D": "$\\frac{125}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:10:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

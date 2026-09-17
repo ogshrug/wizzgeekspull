@@ -1,0 +1,29 @@
+{
+  "id": "69a952c4589ce36f368b47ca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "Find the equation of the plane passing through the points $A(1,0,0)$, $B(0,2,0)$ and $C(0,0,3)$ in vector and Cartesian form.",
+  "answeroption": "D",
+  "explanation": "Position vectors of the points are $\\vec a = \\hat{i}$, $\\vec b = 2\\hat{j}$ and $\\vec c = 3\\hat{k}$.<br /><br />Vectors:<br /><br />$\\vec{b}-\\vec{a}=2\\hat{j}-\\hat{i}$<br /><br />$\\vec{c}-\\vec{a}=3\\hat{k}-\\hat{i}$.<br /><br />Normal vector:<br /><br />$(\\vec{b}-\\vec{a}) \\times (\\vec{c}-\\vec{a}) = 6\\hat{i}+3\\hat{j}+2\\hat{k}$.<br /><br />Vector equation of plane:<br /><br />$(\\vec r-\\hat{i})\\cdot(6\\hat{i}+3\\hat{j}+2\\hat{k})=0$.<br /><br />Cartesian form:<br /><br />$6(x-1)+3y+2z=0$.<br /><br />$6x+3y+2z=6$.<br /><br />Or $x+\\frac{y}{2}+\\frac{z}{3}=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Vector form: $(\\vec r-\\hat{i})\\cdot(6\\hat{i}+3\\hat{j}+2\\hat{k})=0$<br />Cartesian form: $6x+3y+2z=0$",
+    "B": "Vector form: $(\\vec r-2\\hat{j})\\cdot(6\\hat{i}+3\\hat{j}+2\\hat{k})=0$<br />Cartesian form: $6x+3y+2z=12$",
+    "C": "Vector form: $(\\vec r-\\hat{i})\\cdot(3\\hat{i}+6\\hat{j}+2\\hat{k})=0$<br />Cartesian form: $3x+6y+2z=6$",
+    "D": "Vector form: $(\\vec r-\\hat{i})\\cdot(6\\hat{i}+3\\hat{j}+2\\hat{k})=0$<br />Cartesian form: $6x+3y+2z=6$, or $x+\\frac{y}{2}+\\frac{z}{3}=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:54:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

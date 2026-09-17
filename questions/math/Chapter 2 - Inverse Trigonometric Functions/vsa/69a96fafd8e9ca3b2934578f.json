@@ -1,0 +1,29 @@
+{
+  "id": "69a96fafd8e9ca3b2934578f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "VSA",
+  "question": "Find the domain of $\\cos^{-1} \\left( \\frac{1}{x^3 - 3} \\right)$.",
+  "answeroption": "C",
+  "explanation": "For $\\cos^{-1}(u)$ to exist, the argument must satisfy $-1 \\le u \\le 1$.<br /><br />Thus $-1 \\le \\frac{1}{x^3-3} \\le 1$ and $x^3-3 \\ne 0$.<br /><br />Solving the inequality gives the conditions $x^3 \\le 2$ or $x^3 \\ge 4$.<br /><br />Thus $x \\le \\sqrt[3]{2}$ or $x \\ge \\sqrt[3]{4}$.<br /><br />Hence the domain is $(-\\infty, \\sqrt[3]{2}] \\cup [\\sqrt[3]{4}, \\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$[\\sqrt[3]{2}, \\sqrt[3]{4}]$",
+    "B": "$(-\\infty, \\sqrt[3]{4}] \\cup [\\sqrt[3]{2}, \\infty)$",
+    "C": "$(-\\infty, \\sqrt[3]{2}] \\cup [\\sqrt[3]{4}, \\infty)$",
+    "D": "$(-\\infty, \\sqrt[3]{3}) \\cup (\\sqrt[3]{3}, \\infty)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:57:35 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8edc56be0ecc7866e90bfe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int_0^2 (x^2+1)\\,dx$ as the limit of a sum.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Dividing the interval into equal parts</b><br>For $[0,2]$, divide the interval into $n$ equal subintervals. Then $\\Delta x=\\frac{2}{n}$ and the right-end point of the $i$th subinterval is $x_i=\\frac{2i}{n}$. For $f(x)=x^2+1$, the definite integral is represented as the limit of the corresponding sum.<br><b>Step 2: Forming the definite-integral sum</b><br>$$\\int_0^2(x^2+1)\\,dx=\\lim_{n\\to\\infty}\\frac{2}{n}\\sum_{i=1}^{n}\\left[\\left(\\frac{2i}{n}\\right)^2+1\\right]$$<br><b>Step 3: Using the standard summation formula</b><br>$$=\\lim_{n\\to\\infty}\\left[\\frac{8}{n^3}\\sum_{i=1}^{n}i^2+2\\right]$$<br>Using $\\sum_{i=1}^{n}i^2=\\frac{n(n+1)(2n+1)}{6}$,<br>$$=\\lim_{n\\to\\infty}\\left[\\frac{4(n+1)(2n+1)}{3n^2}+2\\right]$$<br><b>Step 4: Evaluating the limit</b><br>$$=\\frac{8}{3}+2=\\frac{14}{3}$$<br>Hence, $\\boxed{\\displaystyle \\int_0^2(x^2+1)\\,dx=\\frac{14}{3}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{14}{3}$",
+    "B": "$\\frac{10}{3}$",
+    "C": "$\\frac{16}{3}$",
+    "D": "$4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

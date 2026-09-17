@@ -1,0 +1,33 @@
+{
+  "id": "6a8fdecb2e54880055a0a71e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a3",
+    "6a13ebc98c819562f933f9a4",
+    "6a13ebc98c819562f933f9a5"
+  ],
+  "question_type": "LA",
+  "question": "The two-parameter family $$y=A\\cos 2x+B\\sin 2x$$ is given, where $A$ and $B$ are arbitrary constants. Form the differential equation represented by this general solution by eliminating the constants, and then use the initial conditions $y(0)=1$ and $y'(0)=6$ to determine the corresponding particular solution and verify it in the differential equation obtained.",
+  "answeroption": "D",
+  "explanation": "<b>Formation of Equation</b><br>Given $$y=A\\cos 2x+B\\sin 2x.$$ Differentiating, $$\\frac{dy}{dx}=-2A\\sin 2x+2B\\cos 2x.$$ Differentiating once more, $$\\frac{d^2y}{dx^2}=-4A\\cos 2x-4B\\sin 2x.$$ Using the original expression for $y$, $$\\frac{d^2y}{dx^2}=-4y.$$ Hence the required differential equation is $$\\frac{d^2y}{dx^2}+4y=0.$$ The two arbitrary constants have been eliminated, so the given family represents the general solution of this second order differential equation.<br><br><b>Applying the Initial Conditions</b><br>At $x=0$, $y(0)=1$ gives $$A=1.$$ Also, $$y'(0)=2B=6,$$ so $B=3$. Therefore, the particular solution is $$y=\\cos 2x+3\\sin 2x.$$<br><br><b>Verification</b><br>For this function, $$\\frac{d^2y}{dx^2}=-4\\cos 2x-12\\sin 2x=-4y.$$ Hence $$\\frac{d^2y}{dx^2}+4y=0.$$<br><br><b>Final Result</b><br>The required differential equation is $\\frac{d^2y}{dx^2}+4y=0$, and the particular solution satisfying the given initial conditions is $y=\\cos 2x+3\\sin 2x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}-4y=0$; $y=\\cos 2x+3\\sin 2x$",
+    "B": "$\\frac{d^2y}{dx^2}+4y=0$; $y=3\\cos 2x+\\sin 2x$",
+    "C": "$\\frac{d^2y}{dx^2}+2y=0$; $y=\\cos 2x+3\\sin 2x$",
+    "D": "$\\frac{d^2y}{dx^2}+4y=0$; $y=\\cos 2x+3\\sin 2x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

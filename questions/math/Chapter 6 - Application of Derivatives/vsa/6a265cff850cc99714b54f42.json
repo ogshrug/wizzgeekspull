@@ -1,0 +1,29 @@
+{
+  "id": "6a265cff850cc99714b54f42",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "VSA",
+  "question": "The volume of a cube is increasing at the rate of $6~cm^{3}/s.$ How fast is the surface area of cube increasing, when the length of an edge is 8 cm?",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $x$ be edge length, $V=x^3$ be volume, and $S=6x^2$ be surface area. Given $\\frac{dV}{dt} = 6$.<br />**Step 2:** Differentiate volume: $\\frac{dV}{dt} = 3x^2 \\frac{dx}{dt} \\implies 6 = 3(8^2)\\frac{dx}{dt} \\implies \\frac{dx}{dt} = \\frac{6}{192} = \\frac{1}{32}~cm/s$.<br />**Step 3:** Differentiate surface area: $\\frac{dS}{dt} = 12x\\frac{dx}{dt} = 12(8)(\\frac{1}{32}) = 3~cm^2/s$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

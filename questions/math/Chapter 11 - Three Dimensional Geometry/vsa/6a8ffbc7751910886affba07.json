@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffbc7751910886affba07",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cc"
+  ],
+  "question_type": "VSA",
+  "question": "For $A(1,2,3)$ and $B(4,6,3)$, the direction of the joining line is reversed from $A\\to B$ to $B\\to A$. Determine the new direction cosines.",
+  "answeroption": "A",
+  "explanation": "Step 1: For the direction $A\\to B$, the coordinate differences are $(4-1,6-2,3-3)=(3,4,0)$. Step 2: The length of the segment is $$AB=\\sqrt{3^2+4^2+0^2}=5.$$ Step 3: Therefore, the direction cosines for $A\\to B$ are $\\left(\\frac{3}{5},\\frac{4}{5},0\\right)$. Step 4: Reversing the direction changes the coordinate differences from $(3,4,0)$ to $(-3,-4,0)$. Consequently, every direction cosine changes sign. Step 5: Hence, for the direction $B\\to A$, the direction cosines are $$\\left(-\\frac{3}{5},-\\frac{4}{5},0\\right).$$ The geometrical line remains the same; only its directed sense is reversed.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\left(-\\frac{3}{5},-\\frac{4}{5},0\\right)$",
+    "B": "$\\left(\\frac{3}{5},\\frac{4}{5},0\\right)$",
+    "C": "$\\left(-\\frac{4}{5},-\\frac{3}{5},0\\right)$",
+    "D": "$\\left(\\frac{3}{5},-\\frac{4}{5},0\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

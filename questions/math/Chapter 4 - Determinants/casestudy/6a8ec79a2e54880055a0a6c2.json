@@ -1,0 +1,32 @@
+{
+  "id": "6a8ec79a2e54880055a0a6c2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d73",
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Three unknown real numbers $x$, $y$, and $z$ have pairwise sums $x+y=7$, $y+z=9$, and $z+x=8$. A student writes these relations as a system of three linear equations. Since all three numbers occur in connected pairs, the student uses the inverse of the coefficient matrix to determine them simultaneously and then evaluates an expression involving the obtained values.<br><br><b>(a)</b> Express the system in the matrix form $AX=B$.<br><br><b>(b)</b> Calculate $|A|$ and state the number of solutions.<br><br><b>(c)</b> Find $A^{-1}$ and hence determine $x$, $y$, and $z$.<br><br><b>(d)</b> Evaluate $x^2+y^2+z^2$ using the solution.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The system has the matrix form<br>$$\\begin{bmatrix}1 & 1 & 0\\\\0 & 1 & 1\\\\1 & 0 & 1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=\\begin{bmatrix}7\\\\9\\\\8\\end{bmatrix}$$<br>Thus,<br>$$A=\\begin{bmatrix}1 & 1 & 0\\\\0 & 1 & 1\\\\1 & 0 & 1\\end{bmatrix}$$<br><br><b>(b)</b><br>$$|A|=\\begin{vmatrix}1 & 1 & 0\\\\0 & 1 & 1\\\\1 & 0 & 1\\end{vmatrix}$$<br>$$|A|=1\\begin{vmatrix}1 & 1\\\\0 & 1\\end{vmatrix}-1\\begin{vmatrix}0 & 1\\\\1 & 1\\end{vmatrix}=1-(-1)=2$$<br>Since $|A|\\neq0$, the system has exactly one solution.<br><br><b>(c)</b><br>The inverse of $A$ is<br>$$A^{-1}=\\frac{1}{2}\\begin{bmatrix}1 & -1 & 1\\\\1 & 1 & -1\\\\-1 & 1 & 1\\end{bmatrix}$$<br>Therefore,<br>$$\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=A^{-1}\\begin{bmatrix}7\\\\9\\\\8\\end{bmatrix}$$<br>$$=\\frac{1}{2}\\begin{bmatrix}7-9+8\\\\7+9-8\\\\-7+9+8\\end{bmatrix}=\\frac{1}{2}\\begin{bmatrix}6\\\\8\\\\10\\end{bmatrix}$$<br>Hence,<br>$$x=3,\\quad y=4,\\quad z=5$$<br><br><b>(d)</b><br>$$x^2+y^2+z^2=3^2+4^2+5^2$$<br>$$=9+16+25=50$$<br>Therefore, $x^2+y^2+z^2=50$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\begin{bmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=\\begin{bmatrix}7\\\\9\\\\8\\end{bmatrix}$<br>(b) $|A|=0$, so infinitely many solutions<br>(c) $(x,y,z)=(3,4,5)$<br>(d) $x^2+y^2+z^2=50$",
+    "B": "(a) $\\begin{bmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=\\begin{bmatrix}7\\\\9\\\\8\\end{bmatrix}$<br>(b) $|A|=2$, so there is exactly one solution<br>(c) $A^{-1}=\\frac12\\begin{bmatrix}1&-1&1\\\\1&1&-1\\\\-1&1&1\\end{bmatrix}$ and $(x,y,z)=(3,4,5)$<br>(d) $x^2+y^2+z^2=50$",
+    "C": "(a) $\\begin{bmatrix}1&0&1\\\\1&1&0\\\\0&1&1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=\\begin{bmatrix}7\\\\9\\\\8\\end{bmatrix}$<br>(b) $|A|=-2$<br>(c) $(x,y,z)=(4,3,5)$<br>(d) $x^2+y^2+z^2=50$",
+    "D": "(a) $\\begin{bmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=\\begin{bmatrix}7\\\\9\\\\8\\end{bmatrix}$<br>(b) $|A|=2$<br>(c) $(x,y,z)=(4,5,3)$<br>(d) $x^2+y^2+z^2=52$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

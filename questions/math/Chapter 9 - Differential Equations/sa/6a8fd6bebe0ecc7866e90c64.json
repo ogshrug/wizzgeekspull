@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd6bebe0ecc7866e90c64",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a4"
+  ],
+  "question_type": "SA",
+  "question": "Verify that $y=x^2+2x+C$, where $C$ is an arbitrary constant, is a solution of the differential equation $$\\frac{dy}{dx}-2x-2=0.$$",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Write the proposed solution</b><br>The given function is $$y=x^2+2x+C.$$<br><b>Step 2: Differentiate with respect to $x$</b><br>Since $C$ is constant, $$\\frac{dy}{dx}=2x+2.$$<br><b>Step 3: Substitute in the differential equation</b><br>The left-hand side is $$\\frac{dy}{dx}-2x-2.$$ Substituting $\\frac{dy}{dx}=2x+2$, we obtain $$\\text{L.H.S.}=(2x+2)-2x-2=0.$$<br><b>Step 4: Compare with the right-hand side</b><br>The right-hand side of the given differential equation is also $0$. Hence, $$\\text{L.H.S.}=\\text{R.H.S.}.$$<br><b>Step 5: Conclusion</b><br>Therefore, the given function satisfies the differential equation for every value of the arbitrary constant $C$. Hence, $$\\boxed{y=x^2+2x+C}$$ is a solution of the given differential equation.",
+  "explanation_image": [],
+  "options": {
+    "A": "It satisfies the equation only when $C=0$.",
+    "B": "It does not satisfy the equation because $C$ is arbitrary.",
+    "C": "It satisfies the equation for every constant $C$, since $\\frac{dy}{dx}=2x+2$.",
+    "D": "It satisfies the equation only for $x=0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a9001514b490c7cde359533",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f995"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics club studies how area accumulates beneath the parabola $y=x^2$ over the interval $0\\leq x\\leq3$. The region lies above the $x$-axis, and vertical markers at $x=1$ and $x=2$ divide it into three strips of equal width. Although the strips have equal widths, their areas are not equal because the height of the parabola increases with $x$. The students calculate the areas using definite integrals and compare the first and final strips.(a) Find the values of the function at $x=0$ and $x=3$.(b) Calculate the total area under the parabola from $x=0$ to $x=3$.(c) Determine the area of the middle strip between $x=1$ and $x=2$.(d) Calculate and compare the areas of the first and final strips.",
+  "answeroption": "A",
+  "explanation": "(a)For $y=x^2$,`y(0)=0^2=0y(3)=3^2=9`Thus, the endpoint values are $0$ and $9$.(b)The total area is`A=\\int_0^3x^2\\,dxA=\\left[\\frac{x^3}{3}\\right]_0^3=\\frac{27}{3}=9`Hence, the total area is $9$ square units.(c)The area of the middle strip is`A_m=\\int_1^2x^2\\,dxA_m=\\left[\\frac{x^3}{3}\\right]_1^2=\\frac{8-1}{3}=\\frac{7}{3}`Thus, the middle strip has area $\\frac{7}{3}$ square units.(d)The first strip has area`A_1=\\int_0^1x^2\\,dx=\\left[\\frac{x^3}{3}\\right]_0^1=\\frac{1}{3}`The final strip has area`A_3=\\int_2^3x^2\\,dx=\\left[\\frac{x^3}{3}\\right]_2^3=\\frac{27-8}{3}=\\frac{19}{3}`Therefore,`A_3:A_1=\\frac{19}{3}:\\frac{1}{3}=19:1`The final strip has nineteen times the area of the first strip.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Values $0$ and $9$<br>(b) Total area $=9$<br>(c) Middle strip $=\\frac{7}{3}$<br>(d) First $=\\frac{1}{3}$, final $=\\frac{19}{3}$; ratio $19:1$",
+    "B": "(a) Values $0$ and $9$<br>(b) Total area $=9$<br>(c) Middle strip $=\\frac{8}{3}$<br>(d) First $=\\frac{1}{3}$, final $=6$; ratio $18:1$",
+    "C": "(a) Values $0$ and $6$<br>(b) Total area $=9$<br>(c) Middle strip $=\\frac{7}{3}$<br>(d) First $=\\frac{1}{3}$, final $=\\frac{19}{3}$; ratio $19:1$",
+    "D": "(a) Values $0$ and $9$<br>(b) Total area $=\\frac{27}{2}$<br>(c) Middle strip $=\\frac{7}{3}$<br>(d) First $=\\frac{1}{3}$, final $=\\frac{19}{3}$; ratio $19:1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

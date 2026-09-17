@@ -1,0 +1,24 @@
+{
+  "id": "6a1831b5d429e802c45d70b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following LPP graphically:<br />Maximize $Z=2x+3y$<br />subject to the constraints:<br />$x+4y\\le8$<br />$2x+3y\\le12$<br />$3x+y\\le9$<br />$x\\ge0, y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Determine intercepts for the boundary lines to plot them:<br>- Line 1 $$\\left(x+4y=8\\right)$$: intercepts are $$\\left(8,0\\right)$$ and $$\\left(0,2\\right)$$.<br>- Line 2 $$\\left(2x+3y=12\\right)$$: intercepts are $$\\left(6,0\\right)$$ and $$\\left(0,4\\right)$$.<br>- Line 3 $$\\left(3x+y=9\\right)$$: intercepts are $$\\left(3,0\\right)$$ and $$\\left(0,9\\right)$$.<br><br>**Step 2:** Identify the vertices bounding the feasible region in the first quadrant by testing intersections. The active bounding corner vertices are:<br>- $$O(0,0)$$<br>- $$A(3,0)$$<br>- $$B\\left(\\frac{28}{11}, \\frac{15}{11}\\right)$$ (Intersection of Line 1 and Line 3)<br>- $$C(0,2)$$<br><br>**Step 3:** Evaluate objective function $$Z = 2x + 3y$$ at each corner point vertex:<br>- At $$O(0,0)$$: $$Z = 0$$<br>- At $$A(3,0)$$: $$Z = 6$$<br>- At $$B\\left(\\frac{28}{11}, \\frac{15}{11}\\right)$$:<br>$$Z = 2\\left(\\frac{28}{11}\\right) + 3\\left(\\frac{15}{11}\\right) = \\frac{101}{11} \\approx 9.18$$<br>- At $$C(0,2)$$: $$Z = 6$$<br><br>**Step 4:** Comparing values, the maximum value is $$\\frac{101}{11}$$, occurring at point $$\\left(\\frac{28}{11}, \\frac{15}{11}\\right)$$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

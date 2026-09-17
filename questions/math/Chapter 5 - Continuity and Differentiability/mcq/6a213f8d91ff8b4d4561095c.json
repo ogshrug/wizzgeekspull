@@ -1,0 +1,33 @@
+{
+  "id": "6a213f8d91ff8b4d4561095c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of k for which the function $f(x)=\\begin{cases}x^{2}sin\\frac{1}{x},&x\\ne0\\\\ k(x+1),&x=0\\end{cases}$ is a continuous function, is:",
+  "answeroption": "D",
+  "explanation": "<b>Step 1</b> Recall the mathematical definition of continuity at a point. For the function to be continuous at $x=0$, the limit of $f(x)$ as $x$ approaches $0$ must exactly equal the defined value of the function at $x=0$, which is $f(0)$.<br /><br /><b>Step 2</b> Evaluate the limit $\\lim_{x \\to 0} x^2 \\sin(\\frac{1}{x})$. We know that the sine function is bounded, meaning $-1 \\le \\sin(\\frac{1}{x}) \\le 1$. Multiplying the entire inequality by $x^2$ gives $-x^2 \\le x^2 \\sin(\\frac{1}{x}) \\le x^2$. Since both $-x^2$ and $x^2$ approach $0$ as $x \\to 0$, by the squeeze theorem, the limit of $x^2 \\sin(\\frac{1}{x})$ is $0$.<br /><br /><b>Step 3</b> Equate the evaluated limit to the function's value at $x=0$. We have $f(0) = k(0+1) = k$. Setting this equal to the limit yields $k = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{4}$",
+    "B": "$\\frac{1}{2}$",
+    "C": "2",
+    "D": "0"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

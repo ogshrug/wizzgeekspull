@@ -1,0 +1,31 @@
+{
+  "id": "6a9004014b490c7cde359548",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f996"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A circular decorative disc is represented by $x^2+\\left(y-3\\right)^2=9$. Its lower point touches the $x$-axis, and the lower semicircular arc lies inside the rectangle $-3\\leq x\\leq3$, $0\\leq y\\leq3$. The portion between the lower arc and the $x$-axis is left open, while the portion above the arc within the rectangle is occupied by the lower half of the disc. The design team uses integration to determine the two complementary areas.(a) Identify the centre and radius of the circle.(b) Express the lower semicircular arc as a function of $x$ and state its interval.(c) Calculate the area between the lower arc and the $x$-axis.(d) Determine the area above the lower arc within the rectangle and verify that the two areas fill the rectangle.",
+  "answeroption": "A",
+  "explanation": "(a)Comparing`x^2+\\left(y-3\\right)^2=9`with the standard form $\\left(x-h\\right)^2+\\left(y-k\\right)^2=r^2$, the centre is $\\left(0,3\\right)$ and the radius is $3$ units.(b)From the equation of the circle,`\\left(y-3\\right)^2=9-x^2`For the lower semicircular arc, $y\\leq3$. Therefore,`y=3-\\sqrt{9-x^2}`The arc is defined for $-3\\leq x\\leq3$.(c)The open area between the lower arc and the $x$-axis is`A_o=\\int_{-3}^{3}\\left(3-\\sqrt{9-x^2}\\right)dxA_o=\\int_{-3}^{3}3\\,dx-\\int_{-3}^{3}\\sqrt{9-x^2}\\,dx`The first integral equals $18$. The second represents the area of a semicircle of radius $3$ and equals $\\frac{9\\pi}{2}$. Hence,`A_o=18-\\frac{9\\pi}{2}`Thus, the open area is $18-\\frac{9\\pi}{2}$ square units.(d)The region above the lower arc within the rectangle is the lower semicircular region of the disc. Therefore,`A_d=\\frac{1}{2}\\pi\\left(3\\right)^2=\\frac{9\\pi}{2}`The rectangle has area`A_r=6\\times3=18`Also,`A_o+A_d=18-\\frac{9\\pi}{2}+\\frac{9\\pi}{2}=18=A_r`Hence, the two complementary regions exactly fill the rectangle.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Centre $(0,3)$; radius $3$<br>(b) Lower arc $y=3-\\sqrt{9-x^2}$, $-3\\leq x\\leq3$<br>(c) Open area $=18-\\frac{9\\pi}{2}$<br>(d) Occupied area $=\\frac{9\\pi}{2}$; sum $=18$",
+    "B": "(a) Centre $(0,3)$; radius $3$<br>(b) Lower arc $y=3+\\sqrt{9-x^2}$, $-3\\leq x\\leq3$<br>(c) Open area $=18-\\frac{9\\pi}{2}$<br>(d) Occupied area $=\\frac{9\\pi}{2}$; sum $=18$",
+    "C": "(a) Centre $(0,0)$; radius $3$<br>(b) Lower arc $y=3-\\sqrt{9-x^2}$, $-3\\leq x\\leq3$<br>(c) Open area $=18-\\frac{9\\pi}{2}$<br>(d) Occupied area $=\\frac{9\\pi}{2}$; sum $=18$",
+    "D": "(a) Centre $(0,3)$; radius $3$<br>(b) Lower arc $y=3-\\sqrt{9-x^2}$, $-3\\leq x\\leq3$<br>(c) Open area $=\\frac{9\\pi}{2}$<br>(d) Occupied area $=18-\\frac{9\\pi}{2}$; sum $=18$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

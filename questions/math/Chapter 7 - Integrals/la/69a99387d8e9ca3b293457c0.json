@@ -1,0 +1,29 @@
+{
+  "id": "69a99387d8e9ca3b293457c0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "LA",
+  "question": "Solve $\\int \\sin^3 x dx$ using trigonometric identities.",
+  "answeroption": "A",
+  "explanation": "Write $\\sin^3 x = \\sin x(1-\\cos^2 x)$.<br /><br />Thus $\\int \\sin^3 x dx = \\int \\sin x dx - \\int \\sin x\\cos^2 x dx$.<br /><br />First integral gives $-\\cos x$.<br /><br />For the second, let $u=\\cos x$, $du=-\\sin x dx$.<br /><br />Then $\\int \\sin x\\cos^2 x dx = -\\int u^2 du = -\\frac{u^3}{3}$.<br /><br />Thus result is $-\\cos x + \\frac{\\cos^3 x}{3} + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\cos x + \\frac{\\cos^3 x}{3} + C$",
+    "B": "$\\cos x - \\frac{\\cos^3 x}{3} + C$",
+    "C": "$-\\cos x - \\frac{\\cos^3 x}{3} + C$",
+    "D": "$-\\sin x + \\frac{\\sin^3 x}{3} + C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 14:30:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

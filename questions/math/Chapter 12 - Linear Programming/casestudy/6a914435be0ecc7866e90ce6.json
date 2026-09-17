@@ -1,0 +1,32 @@
+{
+  "id": "6a914435be0ecc7866e90ce6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A furniture workshop manufactures study tables and bookshelves. During one day, each table requires 2 hours of carpentry and 1 hour of finishing, while each bookshelf requires 1 hour of carpentry and 2 hours of finishing. At most 40 carpentry hours and 50 finishing hours are available each day. The profit on one table is Rs 300 and that on one bookshelf is Rs 400. Let $x$ and $y$ denote the numbers of tables and bookshelves manufactured respectively. Both quantities are non-negative. The owner wants to determine the production combination that gives the maximum daily profit by using a linear programming model in two variables.<br><br><b>(a)</b> Form the constraints representing the available carpentry and finishing hours.<br><br><b>(b)</b> Write the objective function to be maximised.<br><br><b>(c)</b> Using the boundary lines of the constraints, determine the corner points of the common region satisfying all the constraints.<br><br><b>(d)</b> Evaluate the objective function at the corner points and determine the numbers of tables and bookshelves that should be manufactured for maximum profit.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For carpentry, each table requires 2 hours and each bookshelf requires 1 hour. Hence,<br>$$2x+y\\leq 40$$<br><br>For finishing, each table requires 1 hour and each bookshelf requires 2 hours. Hence,<br>$$x+2y\\leq 50$$<br><br>Also, the production quantities cannot be negative:<br>$$x\\geq 0,\\quad y\\geq 0$$<br><br>Thus, the constraints are $2x+y\\leq 40$, $x+2y\\leq 50$, $x\\geq 0$ and $y\\geq 0$.<br><br><b>(b)</b><br>The profit on $x$ tables is Rs $300x$ and the profit on $y$ bookshelves is Rs $400y$. Therefore, the objective function is<br>$$Z=300x+400y$$<br>and the required optimisation is to maximise $Z$.<br><br><b>(c)</b><br>The boundary lines are $2x+y=40$, $x+2y=50$, $x=0$ and $y=0$.<br><br>On the $x$-axis, $y=0$, so $2x\\leq40$, giving the corner point $(20,0)$.<br><br>On the $y$-axis, $x=0$, so $2y\\leq50$, giving the corner point $(0,25)$.<br><br>For the intersection of $2x+y=40$ and $x+2y=50$, solving simultaneously gives $x=10$ and $y=20$.<br><br>Hence, the corner points are $(0,0)$, $(20,0)$, $(10,20)$ and $(0,25)$.<br><br><b>(d)</b><br>Evaluate $Z=300x+400y$ at the corner points:<br><br>At $(0,0)$, $Z=0$.<br>At $(20,0)$, $Z=300(20)=6000$.<br>At $(10,20)$, $Z=300(10)+400(20)=3000+8000=11000$.<br>At $(0,25)$, $Z=400(25)=10000$.<br><br>The maximum value is Rs 11000 at $(10,20)$. Therefore, the workshop should manufacture 10 tables and 20 bookshelves per day to obtain the maximum profit of Rs 11000.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $2x+y\\geq40$, $x+2y\\geq50$, $x,y\\geq0$<br>(b) Maximise $Z=300x+400y$<br>(c) Corner points: $(0,0),(20,0),(10,20),(0,25)$<br>(d) Maximum profit Rs $11000$ at $(10,20)$",
+    "B": "(a) $2x+y\\leq40$, $x+2y\\leq50$, $x,y\\geq0$<br>(b) Maximise $Z=400x+300y$<br>(c) Corner points: $(0,0),(20,0),(10,20),(0,25)$<br>(d) Maximum profit Rs $10000$ at $(20,0)$",
+    "C": "(a) $2x+y\\leq40$, $x+2y\\leq50$, $x,y\\geq0$<br>(b) Maximise $Z=300x+400y$<br>(c) Corner points: $(0,0),(20,0),(10,20),(0,25)$<br>(d) Manufacture $10$ tables and $20$ bookshelves; maximum profit Rs $11000$",
+    "D": "(a) $x+2y\\leq40$, $2x+y\\leq50$, $x,y\\geq0$<br>(b) Minimise $Z=300x+400y$<br>(c) Corner points: $(0,0),(25,0),(20,10),(0,20)$<br>(d) Minimum value is Rs $0$ at $(0,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

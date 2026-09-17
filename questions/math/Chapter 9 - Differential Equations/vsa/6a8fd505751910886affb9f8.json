@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd505751910886affb9f8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ae",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "VSA",
+  "question": "Treating $x$ as a function of $y$, find the integrating factor of $(1+y^2)\\frac{dx}{dy}+2yx=1$.",
+  "answeroption": "C",
+  "explanation": "Step 1: Since $x$ is the dependent variable, write the equation in the standard form $\\frac{dx}{dy}+P_1x=Q_1$.<br>Step 2: Divide the given equation by $1+y^2$ to obtain $\\frac{dx}{dy}+\\frac{2y}{1+y^2}x=\\frac{1}{1+y^2}$.<br>Step 3: Thus, $P_1=\\frac{2y}{1+y^2}$. The integrating factor is $e^{\\int P_1\\,dy}$.<br>Step 4: Now $\\int\\frac{2y}{1+y^2}dy=\\log(1+y^2)$. Therefore, $\\text{I.F.}=e^{\\log(1+y^2)}=1+y^2$.<br>Step 5: Hence, the integrating factor of the given differential equation is $1+y^2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{1+y^2}$",
+    "B": "$e^{1+y^2}$",
+    "C": "$1+y^2$",
+    "D": "$2y(1+y^2)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

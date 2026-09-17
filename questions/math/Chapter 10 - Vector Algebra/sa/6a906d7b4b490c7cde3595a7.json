@@ -1,0 +1,29 @@
+{
+  "id": "6a906d7b4b490c7cde3595a7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "SA",
+  "question": "Find the angle between the vectors $\\vec{a}=\\hat{i}+\\hat{j}$ and $\\vec{b}=\\hat{i}+\\hat{k}$. Verify the result using the scalar-product formula.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Scalar product</b><br>\\(\\vec{a}\\cdot\\vec{b}=(1)(1)+(1)(0)+(0)(1)=1\\)<br><b>Step 2: Magnitudes of the vectors</b><br>\\(|\\vec{a}|=\\sqrt{1^2+1^2}=\\sqrt{2},\\qquad|\\vec{b}|=\\sqrt{1^2+1^2}=\\sqrt{2}\\)<br><b>Step 3: Application of the angle formula</b><br>Using $\\vec{a}\\cdot\\vec{b}=|\\vec{a}||\\vec{b}|\\cos\\theta$,<br>\\(1=(\\sqrt{2})(\\sqrt{2})\\cos\\theta=2\\cos\\theta\\)<br>Therefore, $\\cos\\theta=\\frac{1}{2}$.<br><b>Step 4: Determination of the angle</b><br>Since $0\\leq\\theta\\leq\\pi$, $\\theta=60^\\circ$.<br><b>Final Answer</b><br>The angle between the vectors is $60^\\circ$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$30^\\circ$, since $\\cos\\theta=\\frac{\\sqrt{3}}{2}$.",
+    "B": "$45^\\circ$, since $\\cos\\theta=\\frac{1}{\\sqrt{2}}$.",
+    "C": "$90^\\circ$, since $\\vec{a}\\cdot\\vec{b}=0$.",
+    "D": "$60^\\circ$, since $\\vec{a}\\cdot\\vec{b}=1$, $|\\vec{a}|=|\\vec{b}|=\\sqrt{2}$ and hence $\\cos\\theta=\\frac{1}{2}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

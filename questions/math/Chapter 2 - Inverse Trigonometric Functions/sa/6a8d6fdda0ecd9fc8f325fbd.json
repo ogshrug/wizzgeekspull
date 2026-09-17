@@ -1,0 +1,30 @@
+{
+  "id": "6a8d6fdda0ecd9fc8f325fbd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "SA",
+  "question": "Let $a$ be a real parameter and $f(x)=\\sin^{-1}\\left(\\frac{x-a}{2}\\right)$. If the sum of the endpoints of the domain interval is $6$, determine $a$. Hence, state the domain and range of the resulting function.",
+  "answeroption": "B",
+  "explanation": "<b>Inverse sine condition</b><br>The argument must satisfy $$-1\\leq\\frac{x-a}{2}\\leq1.$$<br><br><b>Domain in terms of the parameter</b><br>Multiplying by $2$ and adding $a$ throughout gives $$a-2\\leq x\\leq a+2.$$ Thus, the endpoints of the domain are $a-2$ and $a+2$.<br><br><b>Parameter determination</b><br>Their sum is given as $6$. Therefore, $$(a-2)+(a+2)=6,$$ which gives $2a=6$ and hence $$a=3.$$<br><br><b>Resulting domain</b><br>Substituting $a=3$, the domain becomes $$[1,5].$$<br><br><b>Range determination</b><br>As $x$ varies from $1$ to $5$, the argument $\\frac{x-3}{2}$ covers $[-1,1]$. Therefore, the complete range is $$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right].$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=2$; Domain: $[0,4]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$",
+    "B": "$a=3$; Domain: $[1,5]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$",
+    "C": "$a=3$; Domain: $[-1,5]$; Range: $[0,\\pi]$",
+    "D": "$a=6$; Domain: $[4,8]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

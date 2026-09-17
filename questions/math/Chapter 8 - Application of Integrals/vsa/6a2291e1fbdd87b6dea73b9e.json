@@ -1,0 +1,28 @@
+{
+  "id": "6a2291e1fbdd87b6dea73b9e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "VSA",
+  "question": "Calculate the area of the region bounded by the curve $\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$ and the x-axis using integration.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> The equation represents an ellipse with semi-major axis $a = 3$ and semi-minor axis $b = 2$. The region bounded by the curve and the x-axis encompasses the entire upper and lower halves, spanning from $x = -3$ to $x = 3$. Isolating $y$ gives: $y = \\pm \\frac{2}{3}\\sqrt{9 - x^2}$.<br /><br /><b>Step 2</b> Due to symmetry across both axes, the total area can be computed as twice the area of the upper half-plane section: $\\text{Area} = 2 \\int_{-3}^{3} \\frac{2}{3}\\sqrt{9-x^2} dx = \\frac{4}{3} \\int_{-3}^{3} \\sqrt{9-x^2} dx$.<br /><br /><b>Step 3</b> Integrate using the standard formula $\\int \\sqrt{a^2-x^2} dx = \\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2}\\sin^{-1}\\frac{x}{a}$: $\\text{Area} = \\frac{4}{3} \\left[ \\frac{x}{2}\\sqrt{9-x^2} + \\frac{9}{2}\\sin^{-1}\\frac{x}{3} \\right]_{-3}^{3} = \\frac{4}{3} \\left( \\frac{9}{2}\\left(\\frac{\\pi}{2}\\right) - \\frac{9}{2}\\left(-\\frac{\\pi}{2}\\right) \\right) = \\frac{4}{3}\\left(\\frac{9\\pi}{2}\\right) = 6\\pi$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

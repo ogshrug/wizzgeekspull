@@ -1,0 +1,30 @@
+{
+  "id": "6a91267f2e54880055a0a77a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "SA",
+  "question": "A bounded feasible region has corner points $O(0,0)$, $A(6,0)$, $B(4,4)$ and $C(0,6)$. For the objective function $Z=x+2y$, use the corner point method to:<br>(i) find the maximum value of $Z$;<br>(ii) determine whether the optimal feasible solution is unique. Give reason.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Evaluating $Z$ at $O$ and $A$</b><br>Using $Z=x+2y$, $$Z_O=0+2(0)=0$$ and $$Z_A=6+2(0)=6$$<br><b>Step 2: Evaluating $Z$ at $B$ and $C$</b><br>At $B(4,4)$, $$Z_B=4+2(4)=12$$ At $C(0,6)$, $$Z_C=0+2(6)=12$$<br><b>Step 3: Determining the maximum</b><br>The greatest corner-point value is $$Z_{\\max}=12$$ and it occurs at both $B$ and $C$.<br><b>Step 4: Examining uniqueness</b><br>Since two distinct corner points give the same maximum value, the optimal feasible solution is not unique.<br><b>Step 5: Applying the multiple-optimum result</b><br>Every point on the line segment joining two optimal corner points also gives the same optimal value.<br><b>Step 6: Conclusion</b><br>Thus, the maximum value is $12$, and every feasible point on the segment $BC$ is an optimal feasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) Maximum value $12$<br>(ii) The optimum is not unique; every point on segment $BC$ is optimal",
+    "B": "(i) Maximum value $12$<br>(ii) The unique optimum is $B(4,4)$",
+    "C": "(i) Maximum value $10$<br>(ii) The optimum is not unique at $A$ and $C$",
+    "D": "(i) Maximum value $16$<br>(ii) The unique optimum is $C(0,6)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

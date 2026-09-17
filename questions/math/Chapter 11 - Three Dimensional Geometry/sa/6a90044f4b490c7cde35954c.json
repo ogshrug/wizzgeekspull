@@ -1,0 +1,29 @@
+{
+  "id": "6a90044f4b490c7cde35954c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d1"
+  ],
+  "question_type": "SA",
+  "question": "The lines $\\vec{r}=\\vec{a}+\\lambda(2\\hat{i}-\\hat{j}+2\\hat{k})$ and $\\vec{r}=\\vec{b}+\\mu(\\hat{i}+k\\hat{j}-\\hat{k})$ are perpendicular. Find the value of $k$ and justify your result.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Direction vectors</b><br>The direction vectors of the given lines are<br>$$\\vec{b}_1=2\\hat{i}-\\hat{j}+2\\hat{k},\\quad \\vec{b}_2=\\hat{i}+k\\hat{j}-\\hat{k}.$$<br><b>Step 2: Perpendicularity condition</b><br>If $\\theta$ is the angle between two lines, then<br>$$\\cos\\theta=\\frac{\\vec{b}_1\\cdot\\vec{b}_2}{|\\vec{b}_1||\\vec{b}_2|}.$$<br>Since the lines are perpendicular, $\\theta=90^\\circ$ and hence $\\vec{b}_1\\cdot\\vec{b}_2=0$.<br><b>Step 3: Scalar product</b><br>Therefore,<br>$$2(1)+(-1)(k)+2(-1)=0.$$<br><b>Step 4: Simplification</b><br>This gives<br>$$2-k-2=0\\Rightarrow -k=0\\Rightarrow k=0.$$<br><b>Step 5: Final conclusion</b><br>For $k=0$, the scalar product of the direction vectors is zero. Hence, the required value is $k=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=2$",
+    "B": "$k=0$",
+    "C": "$k=-2$",
+    "D": "$k=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

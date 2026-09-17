@@ -1,0 +1,29 @@
+{
+  "id": "6a8d8abc4b490c7cde3593b0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "LA",
+  "question": "On the set $A=\\{0,1,2,3,4,5\\}$, define $*$ by $a*b=a+b$ if $a+b<6$ and $a*b=a+b-6$ if $a+b\\geq6$. Show that $*$ is a binary operation on $A$, establish its identity element, and determine the inverse of every element of $A$ with respect to this operation.",
+  "answeroption": "C",
+  "explanation": "<b>Closure of the operation</b><br>For $a,b\\in A$, we have $0\\leq a+b\\leq10$. If $a+b<6$, then $$a*b=a+b\\in\\{0,1,2,3,4,5\\}$$ If $a+b\\geq6$, then $$a*b=a+b-6$$ and since $6\\leq a+b\\leq10$, $$0\\leq a+b-6\\leq4$$ Thus, in both cases $a*b\\in A$. Hence, $*$ is a binary operation on $A$.<br><br><b>Identity element</b><br>For every $a\\in A$, $a+0<6$, and therefore $$a*0=a+0=a$$ Similarly, $$0*a=0+a=a$$ Hence, $0$ is the identity element.<br><br><b>Inverses of the elements</b><br>The inverse of $0$ is $0$, since $$0*0=0$$ For $a\\in\\{1,2,3,4,5\\}$, choose $b=6-a$. Then $b\\in A$ and $$a+b=a+(6-a)=6$$ Hence, by the second rule, $$a*(6-a)=6-6=0$$ Also, $$(6-a)*a=0$$ Thus, $6-a$ is the inverse of $a$ for each non-zero $a\\in A$. Therefore, the inverse pairs are $$0^{-1}=0,\\quad1^{-1}=5,\\quad2^{-1}=4,\\quad3^{-1}=3,\\quad4^{-1}=2,\\quad5^{-1}=1$$<br><br><b>Final Result</b><br>The operation $*$ is binary on $A$, its identity is $0$, and every element of $A$ is invertible with the inverses listed above.",
+  "explanation_image": [],
+  "options": {
+    "A": "$*$ is a binary operation with identity $1$, and the inverses are $0^{-1}=1$, $1^{-1}=0$, $2^{-1}=5$, $3^{-1}=4$, $4^{-1}=3$ and $5^{-1}=2$.",
+    "B": "$*$ is not a binary operation on $A$ because the ordinary sum of two elements may be greater than $5$; hence, no identity or inverses exist.",
+    "C": "$*$ is a binary operation with identity $0$, and the inverses are $0^{-1}=0$, $1^{-1}=5$, $2^{-1}=4$, $3^{-1}=3$, $4^{-1}=2$ and $5^{-1}=1$.",
+    "D": "$*$ is a binary operation with identity $0$, but only $0$ and $3$ are invertible, with each being its own inverse."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

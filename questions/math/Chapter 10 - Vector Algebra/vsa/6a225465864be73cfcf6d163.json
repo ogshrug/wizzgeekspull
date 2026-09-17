@@ -1,0 +1,28 @@
+{
+  "id": "6a225465864be73cfcf6d163",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "VSA",
+  "question": "The diagonals of a parallelogram are given by $\\vec{a}=2\\hat{i}-\\hat{j}+\\hat{k}$ and $\\vec{b}=\\hat{i}+3\\hat{j}-\\hat{k}$. Find the area of the parallelogram.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The area of a geometric parallelogram definitively defined by its diagonals $\\vec{a}$ and $\\vec{b}$ is formulated as $\\frac{1}{2} |\\vec{a} \\times \\vec{b}|$.<br />**Step 2:** Calculate the necessary cross product $\\vec{a} \\times \\vec{b} = \\left|\\begin{matrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\ 2&-1&1\\\\ 1&3&-1\\end{matrix}\\right|$. Expanding this determinant gives $\\hat{i}(1-3) - \\hat{j}(-2-1) + \\hat{k}(6+1) = -2\\hat{i} + 3\\hat{j} + 7\\hat{k}$.<br />**Step 3:** Calculate the magnitude of this result: $|\\vec{a} \\times \\vec{b}| = \\sqrt{(-2)^2 + 3^2 + 7^2} = \\sqrt{4 + 9 + 49} = \\sqrt{62}$. The final area is exactly $\\frac{\\sqrt{62}}{2}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1",
+    "2025-1-2",
+    "2025-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

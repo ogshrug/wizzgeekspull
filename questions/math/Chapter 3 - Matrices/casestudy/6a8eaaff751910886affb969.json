@@ -1,0 +1,30 @@
+{
+  "id": "6a8eaaff751910886affb969",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d50",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A teacher records the number of questions correctly solved by two study groups in three activity sets during two practice sessions. The first-session record is $A=\\begin{bmatrix}4&6&5\\\\3&7&4\\end{bmatrix}$ and the second-session record is $B=\\begin{bmatrix}5&4&6\\\\6&3&5\\end{bmatrix}$. Rows correspond to the two groups and columns correspond to the three activity sets. For another comparison, the teacher uses the column matrix $W=\\begin{bmatrix}2\\\\3\\\\1\\end{bmatrix}$, whose entries represent the weights assigned to the three activity sets. The students investigate which matrix operations are possible, combine the records from the two sessions, form a scalar-based comparison, and use matrix multiplication to obtain a weighted total for each group.<br><br><b>(a)</b> State the orders of $A$, $B$ and $W$. Determine which of $A+B$, $AW$ and $WA$ are defined.<br><br><b>(b)</b> Calculate $A+B$.<br><br><b>(c)</b> Evaluate $2A-B$.<br><br><b>(d)</b> Calculate $AW$ and interpret the two entries of the product.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Matrices $A$ and $B$ each have 2 rows and 3 columns, so their order is $2\\times3$. Matrix $W$ has 3 rows and 1 column, so its order is $3\\times1$. Since $A$ and $B$ have the same order, $A+B$ is defined and has order $2\\times3$. For $AW$, the number of columns of $A$ is 3 and the number of rows of $W$ is 3, so $AW$ is defined and has order $2\\times1$. For $WA$, $W$ has 1 column while $A$ has 2 rows. Since $1\\ne2$, $WA$ is not defined.<br><br><b>(b)</b><br>Matrix addition is performed by adding corresponding entries. Therefore, $A+B=\\begin{bmatrix}4+5&6+4&5+6\\\\3+6&7+3&4+5\\end{bmatrix}=\\begin{bmatrix}9&10&11\\\\9&10&9\\end{bmatrix}$.<br><br><b>(c)</b><br>First, $2A=\\begin{bmatrix}8&12&10\\\\6&14&8\\end{bmatrix}$. Hence, $2A-B=\\begin{bmatrix}8-5&12-4&10-6\\\\6-6&14-3&8-5\\end{bmatrix}=\\begin{bmatrix}3&8&4\\\\0&11&3\\end{bmatrix}$.<br><br><b>(d)</b><br>Using row-by-column multiplication, $AW=\\begin{bmatrix}4&6&5\\\\3&7&4\\end{bmatrix}\\begin{bmatrix}2\\\\3\\\\1\\end{bmatrix}$. The first entry is $4(2)+6(3)+5(1)=8+18+5=31$. The second entry is $3(2)+7(3)+4(1)=6+21+4=31$. Therefore, $AW=\\begin{bmatrix}31\\\\31\\end{bmatrix}$. The two entries are the weighted totals for the first and second study groups respectively. Thus, both groups obtain the same weighted total of 31.",
+  "explanation_image": [],
+  "options": {
+    "A": "<b>(a)</b> $A,B$ are $2\\times3$ and $W$ is $3\\times1$; $A+B$, $AW$ and $WA$ are all defined.<br><b>(b)</b> $A+B=\\begin{bmatrix}9&10&11\\\\9&10&9\\end{bmatrix}$.<br><b>(c)</b> $2A-B=\\begin{bmatrix}3&8&4\\\\0&11&3\\end{bmatrix}$.<br><b>(d)</b> $AW=\\begin{bmatrix}31\\\\31\\end{bmatrix}$.",
+    "B": "<b>(a)</b> $A$ and $B$ are of order $2\\times3$ and $W$ is of order $3\\times1$; $A+B$ and $AW$ are defined, while $WA$ is not defined.<br><b>(b)</b> $A+B=\\begin{bmatrix}9&10&11\\\\9&10&9\\end{bmatrix}$.<br><b>(c)</b> $2A-B=\\begin{bmatrix}3&8&4\\\\0&11&3\\end{bmatrix}$.<br><b>(d)</b> $AW=\\begin{bmatrix}31\\\\31\\end{bmatrix}$, so both groups have weighted total 31.",
+    "C": "<b>(a)</b> $A$ and $B$ are of order $3\\times2$ and $W$ is of order $3\\times1$; only $A+B$ is defined.<br><b>(b)</b> $A+B=\\begin{bmatrix}9&10&11\\\\9&10&9\\end{bmatrix}$.<br><b>(c)</b> $2A-B=\\begin{bmatrix}3&8&4\\\\0&11&3\\end{bmatrix}$.<br><b>(d)</b> $AW=\\begin{bmatrix}31\\\\31\\end{bmatrix}$.",
+    "D": "<b>(a)</b> $A,B$ are $2\\times3$ and $W$ is $3\\times1$; $A+B$ and $AW$ are defined, while $WA$ is not.<br><b>(b)</b> $A+B=\\begin{bmatrix}9&10&11\\\\9&10&9\\end{bmatrix}$.<br><b>(c)</b> $2A-B=\\begin{bmatrix}3&8&4\\\\0&10&3\\end{bmatrix}$.<br><b>(d)</b> $AW=\\begin{bmatrix}31\\\\29\\end{bmatrix}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

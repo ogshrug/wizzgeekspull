@@ -1,0 +1,29 @@
+{
+  "id": "6a8d1e42af259efb39a309cd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d41"
+  ],
+  "question_type": "VSA",
+  "question": "A relation $R$ on $\\mathbb{Z}$ is defined by $aRb$ if $a+b$ is divisible by $5$. If $7R3$, determine whether $3R7$ must also hold.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> The condition $7R3$ means that $7+3$ must be divisible by $5$.<br><b>Step 2:</b> We have $7+3=10$, and $10$ is divisible by $5$, so $7R3$ is true.<br><b>Step 3:</b> To test the reversed ordered pair, interchange the two elements.<br><b>Step 4:</b> For $3R7$, the required sum is $3+7=10$, which is again divisible by $5$.<br><b>Step 5:</b> In general, $a+b=b+a$, so interchanging the elements does not change the defining condition.<br><b>Final Answer:</b> Yes, $\\boxed{3R7}$ must also hold, which is consistent with the symmetric property.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes, $3R7$ must hold; this follows from symmetry",
+    "B": "Yes, $3R7$ must hold; this follows from transitivity",
+    "C": "No, $3R7$ does not hold because $3-7$ is not divisible by $5$",
+    "D": "No, $3R7$ does not necessarily hold because the relation is antisymmetric"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69aa79788e6d1957407fd1c1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A contractor undertakes two types of projects: P and Q. Each P earns ₹700, needs 3 workers and 2 machines; each Q earns ₹500, needs 1 worker & 2 machines. At most 15 workers and 10 machines are available. The contractor must take at least 2 projects of type P.<br /><br />(a) Frame the LPP.<br /><br />(b) Sketch the feasible set. Find all its corner points.<br /><br />(c) Find the optimum number of each project for maximum earning, and justify whether optimum is unique.",
+  "answeroption": "B",
+  "explanation": "Let $x$ = P projects, $y$ = Q projects.<br /><br />(a) LPP:<br /><br />Max $Z=700x+500y$<br /><br />$3x + y \\leq 15$ (workers)<br /><br />$2x + 2y \\leq 10$ (machines)<br /><br />$x \\geq 2$, $y \\geq 0$<br /><br />(b) $3x + y = 15 \\implies y=15-3x$<br /><br />$2x + 2y=10 \\implies x+y=5 \\implies y=5-x$<br /><br />$x=2$ is a constraint.<br /><br />Intersect $y=15-3x$ and $y=5-x$:<br /><br />$15-3x=5-x\\implies-3x+x=5-15\\implies -2x=-10\\implies x=5$<br /><br />Plug to $y=5-x\\implies y=0$<br /><br />So (5,0)<br /><br />$x=2$ in $y=15-3x:\\ y=15-6=9\\implies (2,9)$<br /><br />$x=2$ in $y=5-x: y=5-2=3\\implies(2,3)$<br /><br />So check:<br /><br />(5,0): $3*5+0=15\\leq15$, $2*5+2*0=10\\leq10$, $x\\geq2$ ok.<br /><br />(2,3): $3*2+3=6+3=9\\leq15$, $2*2+2*3=4+6=10\\leq10$, $x\\geq2$ ok.<br /><br />(2,9): $3*2+9=6+9=15$, $2*2+2*9=4+18=22>10$ — not ok.<br /><br />(c) $Z$ at (5,0): $700*5=3500$<br /><br />At (2,3): $700*2+500*3=1400+1500=2900$<br /><br />Thus, unique maximum at $\\boxed{(5,0)}$. Contractor should take $5$ projects of P and $0$ of Q for max earnings.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Max $Z=700x+500y$ with $3x+y\\leq15$, $2x+2y\\leq10$, $x\\geq2$, $y\\geq0$<br />(b) Feasible corners include $(2,0)$, $(2,3)$, $(5,0)$<br />(c) Optimum: 2 projects of P and 3 projects of Q; maximum earning ₹2900.",
+    "B": "(a) Max $Z=700x+500y$ with $3x+y\\leq15$, $2x+2y\\leq10$, $x\\geq2$, $y\\geq0$<br />(b) Feasible corners include $(2,0)$, $(2,3)$, $(5,0)$<br />(c) Optimum: 5 projects of P and 0 projects of Q; maximum earning ₹3500.",
+    "C": "(a) Max $Z=700x+500y$ with $3x+y\\leq15$, $2x+2y\\leq10$, $x\\geq2$, $y\\geq0$<br />(b) Feasible corners include $(2,0)$, $(2,9)$, $(5,0)$<br />(c) Optimum: 2 projects of P and 9 projects of Q; maximum earning ₹5900.",
+    "D": "(a) Max $Z=700x+500y$ with $3x+y\\leq15$, $2x+2y\\leq10$, $x\\geq2$, $y\\geq0$<br />(b) Feasible corners include $(2,0)$, $(3,2)$, $(5,0)$<br />(c) Optimum: 3 projects of P and 2 projects of Q; maximum earning ₹3100."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:51:36 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

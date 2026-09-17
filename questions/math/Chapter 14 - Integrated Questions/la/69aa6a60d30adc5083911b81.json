@@ -1,0 +1,30 @@
+{
+  "id": "69aa6a60d30adc5083911b81",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "LA",
+  "question": "Let $A$ be the matrix $\\begin{pmatrix} 1 & 2 \\\\ x & y \\end{pmatrix}$ and $f(x, y) = \\ln(\\det A)$, where $\\det A > 0$.<br /><br />(a) Express $f(x, y)$ in terms of $x$ and $y$.<br /><br />(b) Find $\\frac{\\partial f}{\\partial x}$ and $\\frac{\\partial f}{\\partial y}$.<br /><br />(c) Given that $x$ and $y$ are differentiable functions of $t$, show that $\\frac{d}{dt} f(x(t), y(t)) = \\frac{\\partial f}{\\partial x} \\frac{dx}{dt} + \\frac{\\partial f}{\\partial y} \\frac{dy}{dt}$.<br /><br />(d) For $x = t^2$, $y = 2t + 4$, evaluate $\\frac{d}{dt} f(x(t), y(t))$ at $t=1$.",
+  "answeroption": "B",
+  "explanation": "**Concepts tested:** Matrices, determinants, partial and total differentiation, application of derivatives.<br /><br />(a)<br />$\\det A = 1 \\cdot y - 2 \\cdot x = y - 2x$<br />So,<br />$f(x, y) = \\ln(y - 2x), \\quad y - 2x > 0$<br /><br />(b)<br />The partial derivatives:<br />$\\frac{\\partial f}{\\partial x} = \\frac{1}{y - 2x} \\cdot (-2) = -\\frac{2}{y - 2x}$<br />$\\frac{\\partial f}{\\partial y} = \\frac{1}{y - 2x} \\cdot (1) = \\frac{1}{y - 2x}$<br /><br />(c)<br />Chain rule:<br />$\\frac{d}{dt} f(x(t), y(t)) = \\frac{\\partial f}{\\partial x} \\frac{dx}{dt} + \\frac{\\partial f}{\\partial y} \\frac{dy}{dt}$<br />Proved by multivariable chain rule.<br /><br />(d)<br />For $x = t^2$, $y = 2t + 4$, so<br />$y - 2x = 2t + 4 - 2t^2$<br />Compute at $t=1$:<br />$y - 2x = 2\\cdot1 + 4 - 2\\cdot1^2 = 2 + 4 - 2 = 4$<br /><br />$\\frac{dx}{dt} = 2t$, at $t=1$: $2$<br />$\\frac{dy}{dt} = 2$, at $t=1$: $2$<br /><br />Now plug in partial derivatives at $t=1$:<br />$\\frac{\\partial f}{\\partial x} = -\\frac{2}{4} = -\\frac{1}{2}$<br />$\\frac{\\partial f}{\\partial y} = \\frac{1}{4}$<br /><br />So,<br />$\\frac{d}{dt} f(x(t), y(t)) = \\left(-\\frac{1}{2}\\right) \\cdot 2 + \\frac{1}{4} \\cdot 2 = -1 + \\frac{1}{2} = -\\frac{1}{2}$<br /><br />$-\\frac{1}{2}$ is the answer.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x,y)=\\ln(x-2y)$<br />(b) $\\frac{\\partial f}{\\partial x}=\\frac{1}{x-2y}$, $\\frac{\\partial f}{\\partial y}=\\frac{-2}{x-2y}$<br />(c) $\\frac{d}{dt}f=x'(t)+y'(t)$<br />(d) At $t=1$, value is $\\frac12$",
+    "B": "(a) $f(x,y)=\\ln(y-2x)$, where $y-2x>0$<br />(b) $\\frac{\\partial f}{\\partial x}=-\\frac{2}{y-2x}$ and $\\frac{\\partial f}{\\partial y}=\\frac{1}{y-2x}$<br />(c) $\\frac{d}{dt}f(x(t),y(t))=\\frac{\\partial f}{\\partial x}\\frac{dx}{dt}+\\frac{\\partial f}{\\partial y}\\frac{dy}{dt}$<br />(d) For $x=t^2$, $y=2t+4$, at $t=1$, $\\frac{d}{dt}f(x(t),y(t))=-\\frac12$",
+    "C": "(a) $f(x,y)=y-2x$<br />(b) $\\frac{\\partial f}{\\partial x}=-2$, $\\frac{\\partial f}{\\partial y}=1$<br />(c) $\\frac{d}{dt}f=-2x+y$<br />(d) At $t=1$, value is $-1$",
+    "D": "(a) $f(x,y)=\\ln(2x-y)$<br />(b) $\\frac{\\partial f}{\\partial x}=\\frac{2}{2x-y}$ and $\\frac{\\partial f}{\\partial y}=-\\frac{1}{2x-y}$<br />(c) $\\frac{d}{dt}f=\\frac{dx}{dt}\\frac{dy}{dt}$<br />(d) At $t=1$, value is $1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:47:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

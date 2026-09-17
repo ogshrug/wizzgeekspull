@@ -1,0 +1,30 @@
+{
+  "id": "69a9745a589ce36f368b4803",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47",
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "SA",
+  "question": "Let $f: [2, \\infty) \\to [0, \\infty)$ be defined by $f(x) = \\sqrt{x^2 - 4}$. Show that $f$ is invertible, and find $f^{-1}$. Also, verify $f(f^{-1}(y)) = y$ and $f^{-1}(f(x)) = x$.",
+  "answeroption": "B",
+  "explanation": "Given $f(x) = \\sqrt{x^2 - 4}$, $x \\in [2, \\infty)$<br /><br />Let $y = \\sqrt{x^2 - 4}$  $\\implies y \\geq 0$<br /><br />$\\implies x^2 = y^2 + 4$<br /><br />$\\implies x = \\sqrt{y^2 + 4}$, since $x \\geq 2$ and $y \\geq 0$<br /><br />So $f^{-1}(y) = \\sqrt{y^2 + 4}$<br /><br />Check compositions:<br /><br />$f^{-1}(f(x)) = \\sqrt{(\\sqrt{x^2 - 4})^2 + 4} = \\sqrt{x^2} = x$ (since $x \\geq 2$)<br /><br />$f(f^{-1}(y)) = \\sqrt{(\\sqrt{y^2+4})^2 - 4} = \\sqrt{y^2+4 - 4} = \\sqrt{y^2} = y$ (since $y \\geq 0$)<br /><br />So all conditions for invertibility are satisfied, with inverses as shown.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is not invertible",
+    "B": "$f$ is invertible and $f^{-1}(y)=\\sqrt{y^2+4}$",
+    "C": "$f$ is invertible and $f^{-1}(y)=\\sqrt{y^2-4}$",
+    "D": "$f$ is invertible and $f^{-1}(y)=y^2+4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:17:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

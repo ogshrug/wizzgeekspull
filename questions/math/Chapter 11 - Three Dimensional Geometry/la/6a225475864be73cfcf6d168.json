@@ -1,0 +1,29 @@
+{
+  "id": "6a225475864be73cfcf6d168",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "LA",
+  "question": "Find the image A' of the point A(1, 6, 3) in the line $\\frac{x}{1}=\\frac{y-1}{2}=\\frac{z-2}{3}$. Also, find the equation of the line joining A and A'.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To precisely find the geometric image of the specified point $A(1, 6, 3)$ across the given straight line, we first parametrically represent any arbitrary point $P$ lying directly on the line using a distinct variable $\\lambda$. By doing so, the generalized coordinates of point $P$ are firmly established as $(1\\lambda, 2\\lambda+1, 3\\lambda+2)$.<br />**Step 2:** Let us deliberately assign point $P$ to act as the exact mathematical foot of the perpendicular segment dropped downwards from point $A$ onto the given line. We compute the precise direction ratios of the line segment $AP$, derived directly by subtracting corresponding spatial coordinates: $(1\\lambda - 1, 2\\lambda+1 - 6, 3\\lambda+2 - 3) = (\\lambda - 1, 2\\lambda - 5, 3\\lambda - 1)$.<br />**Step 3:** Since the geometric line segment $AP$ is strictly constrained to be perpendicular to the given base line, the algebraic dot product of their respective direction ratios must evaluate directly to exactly zero. The fundamental direction ratios of the given line are undeniably $(1, 2, 3)$. Therefore, we form the required algebraic equation: $1(\\lambda - 1) + 2(2\\lambda - 5) + 3(3\\lambda - 1) = 0$.<br />**Step 4:** Methodically expanding and solving this linear algebraic equation for the single variable $\\lambda$: $\\lambda - 1 + 4\\lambda - 10 + 9\\lambda - 3 = 0$. Combining all the common like terms rigorously yields $14\\lambda - 14 = 0$, which strictly implies that $\\lambda = 1$. Consequently, substituting this back, the exact coordinates of the perpendicular foot $P$ are unambiguously determined to be precisely $(1, 3, 5)$.<br />**Step 5:** Geometrically, the calculated point $P(1, 3, 5)$ acts as the perfect midpoint of the entire line segment formally connecting the original point $A(1, 6, 3)$ directly to its spatial reflection image $A'(x, y, z)$. Applying the standard midpoint formula, we construct three distinct component equations: $\\frac{x+1}{2} = 1$, $\\frac{y+6}{2} = 3$, and $\\frac{z+3}{2} = 5$.<br />**Step 6:** Solving these highly simple algebraic equations independently yields the exact values $x = 1$, $y = 0$, and $z = 7$. Thus, the reflected image point is definitively locked as $A'(1, 0, 7)$.<br />**Step 7:** Finally, we actively formulate the precise Cartesian symmetric equation of the line passing identically through points $A(1, 6, 3)$ and $A'(1, 0, 7)$. The final direction ratios are inherently deduced as $(1-1, 0-6, 7-3) = (0, -6, 4)$. The formally requested equation is accurately represented as $\\frac{x-1}{0} = \\frac{y-6}{-6} = \\frac{z-3}{4}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1",
+    "2025-1-2",
+    "2025-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

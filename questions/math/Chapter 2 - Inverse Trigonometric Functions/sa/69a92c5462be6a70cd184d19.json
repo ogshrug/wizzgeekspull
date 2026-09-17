@@ -1,0 +1,29 @@
+{
+  "id": "69a92c5462be6a70cd184d19",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "If $y = \\sin^{-1}(2x\\sqrt{1-x^2})$, show that $y = 2\\sin^{-1}x$ for $x \\in \\left[ -\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2} \\right]$.",
+  "answeroption": "D",
+  "explanation": "Let $x = \\sin\\theta$ where $\\theta \\in [-\\frac{\\pi}{4},\\frac{\\pi}{4}]$.<br /><br />Then $2x\\sqrt{1-x^2} = 2\\sin\\theta\\cos\\theta = \\sin 2\\theta$.<br /><br />Thus $y = \\sin^{-1}(\\sin 2\\theta)$.<br /><br />Since $2\\theta \\in [-\\frac{\\pi}{2},\\frac{\\pi}{2}]$, it lies within the principal value range of $\\sin^{-1}$.<br /><br />Therefore $y = 2\\theta$.<br /><br />But $\\theta = \\sin^{-1}x$. Hence $y = 2\\sin^{-1}x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $x=\\cos\\theta$. Then $2x\\sqrt{1-x^2}=\\cos2\\theta$, so $y=2\\cos^{-1}x$.",
+    "B": "Let $x=\\sin\\theta$. Then $2x\\sqrt{1-x^2}=\\sin\\theta\\cos\\theta$, so $y=\\sin^{-1}x$.",
+    "C": "Let $x=\\sin\\theta$. Then $2x\\sqrt{1-x^2}=\\tan2\\theta$, so $y=\\tan^{-1}(2x)$.",
+    "D": "Let $x=\\sin\\theta$. Then $2x\\sqrt{1-x^2}=2\\sin\\theta\\cos\\theta=\\sin2\\theta$. Since $2\\theta$ lies in the principal range, $y=2\\theta=2\\sin^{-1}x$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:10:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

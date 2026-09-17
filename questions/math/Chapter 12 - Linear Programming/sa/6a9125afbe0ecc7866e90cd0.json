@@ -1,0 +1,29 @@
+{
+  "id": "6a9125afbe0ecc7866e90cd0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0"
+  ],
+  "question_type": "SA",
+  "question": "For a linear programming problem, the constraints are $x+2y\\leq12$, $3x+y\\leq15$, $x\\geq0$ and $y\\geq0$. Verify whether the points $P(2,4)$ and $Q(4,3)$ are feasible solutions. Also state whether either point satisfies any constraint as an equality.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Checking the constraints at $P(2,4)$</b><br>Substituting $x=2$ and $y=4$, we obtain $$2+2(4)=10\\leq12$$ and $$3(2)+4=10\\leq15$$ Also, $2\\geq0$ and $4\\geq0$. Hence, $P(2,4)$ satisfies all the constraints.<br><b>Step 2: Checking the constraints at $Q(4,3)$</b><br>For $Q(4,3)$, $$4+2(3)=10\\leq12$$ and $$3(4)+3=15\\leq15$$ The non-negative restrictions are also satisfied.<br><b>Step 3: Identifying equality in the constraints</b><br>At $P$, both principal inequalities are strict. At $Q$, $$3x+y=15$$ is satisfied as an equality.<br><b>Step 4: Conclusion</b><br>Both $P(2,4)$ and $Q(4,3)$ are feasible solutions because each satisfies every given constraint. Further, $Q(4,3)$ satisfies the constraint $3x+y\\leq15$ as an equality.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both $P$ and $Q$ are feasible; only $Q$ satisfies $3x+y=15$ as an equality",
+    "B": "Both $P$ and $Q$ are feasible; only $P$ satisfies $x+2y=12$ as an equality",
+    "C": "$P$ is feasible and $Q$ is infeasible; neither satisfies a constraint as equality",
+    "D": "Both $P$ and $Q$ are infeasible; $Q$ satisfies $3x+y=15$ as an equality"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

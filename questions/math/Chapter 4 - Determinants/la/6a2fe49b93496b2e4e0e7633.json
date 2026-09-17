@@ -1,0 +1,27 @@
+{
+  "id": "6a2fe49b93496b2e4e0e7633",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d70"
+  ],
+  "question_type": "LA",
+  "question": "Three students A, B and C go to a book-store to buy art books, story books and puzzle solving books. A buys one of each type of book for a total of ₹ 21. B buys 4 art books, 3 story books and 2 puzzle solving books for ₹ 60. C buys 6 art books, 2 story books and 3 puzzle solving books and pays ₹ 10 more than B. Use matrix method to find the cost of each type of book.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the cost of an art book, a story book, and a puzzle solving book be denoted by the variables $x$, $y$, and $z$ respectively. According to the statements provided in the problem, we can translate these verbal relationships into a system of three linear equations with three unknown variables. The first equation from student A's purchase is $x + y + z = 21$. The second linear equation representing student B's transaction is formulated as $4x + 3y + 2z = 60$. For student C, the total amount paid is ten rupees more than B, which equals seventy rupees, giving the third linear equation $6x + 2y + 3z = 70$.<br /><br />**Step 2:** We can express this entire system of linear equations in the standard matrix form $AX = B$. Here, the coefficient matrix $A = \\begin{bmatrix}1 & 1 & 1 \\\\ 4 & 3 & 2 \\\\ 6 & 2 & 3\\end{bmatrix}$, the variable column vector $X = \\begin{bmatrix}x \\\\ y \\\\ z\\end{bmatrix}$, and the constant vector $B = \\begin{bmatrix}21 \\\\ 60 \\\\ 70\\end{bmatrix}$. To find the unique solution, we first calculate the determinant of matrix $A$, which evaluates to $|A| = 1(9-4) - 1(12-12) + 1(8-18) = 5 - 0 - 10 = -5$. Since the determinant is non-zero, the matrix is non-singular, proving that a unique inverse matrix $A^{-1}$ exists.<br /><br />**Step 3:** Next, we find the matrix of cofactors and transpose it to obtain the adjoint matrix: $\\text{adj } A = \\begin{bmatrix}5 & -1 & -1 \\\\ 0 & -3 & 2 \\\\ -10 & 4 & -1\\end{bmatrix}$. We apply the matrix inversion formula $X = A^{-1}B = \\frac{1}{|A|}(\\text{adj } A)B$. Substituting our values and performing matrix multiplication yields $X = -\\frac{1}{5}\\begin{bmatrix}5(21) - 60 - 70 \\\\ 0(21) - 3(60) + 2(70) \\\\ -10(21) + 4(60) - 70\\end{bmatrix} = -\\frac{1}{5}\\begin{bmatrix}-25 \\\\ -40 \\\\ -40\\end{bmatrix} = \\begin{bmatrix}5 \\\\ 8 \\\\ 8\\end{bmatrix}$. Therefore, the individual costs are ₹5 for an art book, ₹8 for a story book, and ₹8 for a puzzle solving book.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

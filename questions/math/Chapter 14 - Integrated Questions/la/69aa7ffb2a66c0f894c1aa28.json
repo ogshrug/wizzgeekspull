@@ -1,0 +1,30 @@
+{
+  "id": "69aa7ffb2a66c0f894c1aa28",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13eaaa8c819562f933f989",
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $I = \\int_0^{1} \\frac{x^2}{(x^2 + 1)^2} dx$.\n(a) Show that $I = 1/2 - J$, where $J = \\int_0^1 \\frac{1}{(x^2+1)^2} dx$.\n(b) Calculate $J$ using a trigonometric substitution.\n(c) Find $I$ exactly in terms of $\\pi$.\n(d) Prove that $\\int_0^1 \\frac{x^2}{(x^2 + 1)^2} dx + \\int_0^1 \\frac{1}{(x^2+1)^2} dx = 1/2$.",
+  "answeroption": "A",
+  "explanation": "**Concepts Being Tested:**<br />- Manipulation of rational functions in integrals<br />- Trigonometric substitution<br />- Definite integration and identities<br /><br />**Solution:**<br /><br />(a) $\\frac{x^2}{(x^2+1)^2} + \\frac{1}{(x^2+1)^2} = \\frac{x^2 + 1}{(x^2+1)^2} = \\frac{1}{x^2+1}$, so <br />$\\int_0^1 \\frac{x^2}{(x^2+1)^2} dx + \\int_0^1 \\frac{1}{(x^2+1)^2} dx = \\int_0^1 \\frac{1}{x^2+1} dx = \\tan^{-1}1 - \\tan^{-1}0 = \\frac{\\pi}{4}$<br />Therefore,<br />$I + J = \\frac{\\pi}{4}$<br />So $I = \\frac{\\pi}{4} - J$<br /><br />(b) $J = \\int_0^1 \\frac{1}{(x^2+1)^2} dx$<br />Let $x = \\tan \\theta$, $dx = \\sec^2\\theta d\\theta$<br />$x^2+1 = \\tan^2\\theta+1=\\sec^2\\theta$<br />$(x^2+1)^2 = \\sec^4\\theta$<br />When $x=0, \\theta = 0$, $x = 1, \\theta = \\pi/4$<br /><br />So $J = \\int_{0}^{\\pi/4} \\frac{1}{\\sec^4 \\theta} \\sec^2\\theta d\\theta = \\int_0^{\\pi/4} \\cos^2 \\theta d\\theta$<br /><br />Now, $\\cos^2 \\theta= (1+\\cos 2\\theta)/2$<br />So $J = \\int_0^{\\pi/4} \\frac{1 + \\cos 2\\theta}{2} d\\theta = \\left. \\frac{\\theta}{2} + \\frac{1}{4}\\sin 2\\theta \\right|_0^{\\pi/4}$<br /><br />$\\sin(2 \\times \\pi/4 ) = \\sin(\\pi/2) = 1$<br />So $J = \\frac{\\pi}{8} + \\frac{1}{4}$<br /><br />(c) Thus, $I = \\frac{\\pi}{4} - ( \\frac{\\pi}{8} + \\frac{1}{4} ) = \\frac{\\pi}{8} - \\frac{1}{4}$<br /><br />(d) As shown in (a), $I + J = \\frac{\\pi}{4}$, matches $\\tan^{-1}1 = \\pi/4$ as the sum.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $I+J=\\frac{\\pi}{4}$, so $I=\\frac{\\pi}{4}-J$<br />(b) $J=\\frac{\\pi}{8}+\\frac14$<br />(c) $I=\\frac{\\pi}{8}-\\frac14$<br />(d) Therefore $I+J=\\frac{\\pi}{4}$",
+    "B": "(a) $I=\\frac12-J$<br />(b) $J=\\frac14$<br />(c) $I=\\frac14$<br />(d) $I+J=\\frac12$",
+    "C": "(a) $I=J$<br />(b) $J=\\frac{\\pi}{4}$<br />(c) $I=\\frac{\\pi}{4}$<br />(d) $I+J=\\frac{\\pi}{2}$",
+    "D": "(a) $I=1-J$<br />(b) $J=\\frac{\\pi}{8}-\\frac14$<br />(c) $I=\\frac{\\pi}{8}+\\frac14$<br />(d) $I+J=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:19:23 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

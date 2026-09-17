@@ -1,0 +1,28 @@
+{
+  "id": "6a2265a8864be73cfcf6d1bc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Consider the Linear Programming Problem, where the objective function $Z=(x+4y)$ needs to be minimized subject to constraints $2x+y\\ge1000$, $x+2y\\ge800$, $x,y\\ge0$. Draw a neat graph of the feasible region and find the minimum value of $Z$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Graph the constraint line $2x+y=1000$. It intersects the axes at $(500, 0)$ and $(0, 1000)$. Since the inequality is $\\ge$, the valid region is above this line.<br />**Step 2:** Graph the constraint line $x+2y=800$. It intersects the axes at $(800, 0)$ and $(0, 400)$. The valid region is also above this line.<br />**Step 3:** The non-negativity constraints $x,y \\ge 0$ restrict the region to the first quadrant.<br />**Step 4:** The feasible region is unbounded and its corner points are where the boundaries intersect: $(0, 1000)$, the intersection of the two lines, and $(800, 0)$.<br />**Step 5:** Solve the equations $2x+y=1000$ and $x+2y=800$ to find the intersection. Multiply the first by 2: $4x+2y=2000$. Subtract the second: $3x = 1200 \\implies x=400$. Substitute back to get $y=200$. The intersection is $(400, 200)$.<br />**Step 6:** Evaluate $Z = x+4y$ at the corner points. At $(0, 1000)$: $Z = 0 + 4000 = 4000$. At $(800, 0)$: $Z = 800 + 0 = 800$. At $(400, 200)$: $Z = 400 + 800 = 1200$.<br />**Step 7:** Since the region is unbounded, we must check if $x+4y < 800$ has points in the feasible region. It doesn't, so the minimum value is indeed 800, occurring at $(800, 0)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

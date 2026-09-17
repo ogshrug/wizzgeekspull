@@ -1,0 +1,28 @@
+{
+  "id": "6a21223d864be73cfcf6d088",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Simplify: $\\tan^{-1}\\left(\\frac{\\cos 2x - \\sin 2x}{\\cos 2x + \\sin 2x}\\right), 0 < x < \\frac{\\pi}{4}.$",
+  "answeroption": "",
+  "explanation": "**Step 1: Divide Numerator and Denominator by $\\cos 2x$**  \n$$\\frac{\\cos 2x - \\sin 2x}{\\cos 2x + \\sin 2x} = \\frac{\\frac{\\cos 2x - \\sin 2x}{\\cos 2x}}{\\frac{\\cos 2x + \\sin 2x}{\\cos 2x}} = \\frac{1 - \\tan 2x}{1 + \\tan 2x}$$\n\n**Step 2: Use the Tangent Subtraction Formula**  \nWe know that $\\tan\\left(\\frac{\\pi}{4} - \\theta\\right) = \\frac{1 - \\tan \\theta}{1 + \\tan \\theta}$.  \nHere, $\\theta = 2x$. So,  \n$$\\frac{1 - \\tan 2x}{1 + \\tan 2x} = \\tan\\left(\\frac{\\pi}{4} - 2x\\right)$$\n\n**Step 3: Apply Inverse Tangent**  \n$$\\tan^{-1}\\left(\\tan\\left(\\frac{\\pi}{4} - 2x\\right)\\right) = \\frac{\\pi}{4} - 2x$$  \nSince $0 < x < \\frac{\\pi}{4}$, we have $0 < 2x < \\frac{\\pi}{2}$, so $\\frac{\\pi}{4} - 2x$ lies in the principal range of $\\tan^{-1}$.  \nThus, the simplified value is $\\frac{\\pi}{4} - 2x$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

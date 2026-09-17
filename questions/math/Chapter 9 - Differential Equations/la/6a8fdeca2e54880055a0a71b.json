@@ -1,0 +1,32 @@
+{
+  "id": "6a8fdeca2e54880055a0a71b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a3",
+    "6a13ebc98c819562f933f9a4"
+  ],
+  "question_type": "LA",
+  "question": "Consider the family of functions $$y=C_1e^x+C_2e^{-x}+x^2,$$ where $C_1$ and $C_2$ are arbitrary constants. Verify that this family satisfies the differential equation $$\\frac{d^2y}{dx^2}-y=2-x^2$$ and justify that it represents its general solution. Hence use the initial conditions $y(0)=3$ and $y'(0)=1$ to obtain the corresponding particular solution.",
+  "answeroption": "B",
+  "explanation": "<b>Verification of the Given Family</b><br>Given $$y=C_1e^x+C_2e^{-x}+x^2.$$ Differentiating with respect to $x$, $$\\frac{dy}{dx}=C_1e^x-C_2e^{-x}+2x.$$ Differentiating again, $$\\frac{d^2y}{dx^2}=C_1e^x+C_2e^{-x}+2.$$ Therefore, $$\\frac{d^2y}{dx^2}-y=C_1e^x+C_2e^{-x}+2-\\left(C_1e^x+C_2e^{-x}+x^2\\right)=2-x^2.$$ Hence every member of the given family satisfies the differential equation.<br><br><b>General Solution</b><br>The differential equation is of second order, and the given family contains two independent arbitrary constants $C_1$ and $C_2$. Hence it represents the general solution.<br><br><b>Applying the Initial Conditions</b><br>Using $y(0)=3$, $$C_1+C_2=3.$$ Also, from $y'(0)=1$, $$C_1-C_2=1.$$ Adding the equations gives $2C_1=4$, so $C_1=2$. Hence $C_2=1$.<br><br><b>Final Result</b><br>Substituting these values in the general solution, the required particular solution is $$y=2e^x+e^{-x}+x^2.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "The family is a general solution, and the required particular solution is $y=e^x+2e^{-x}+x^2$.",
+    "B": "The family is a general solution, and the required particular solution is $y=2e^x+e^{-x}+x^2$.",
+    "C": "The family is a particular solution, and the required solution is $y=2e^x+e^{-x}+x^2$.",
+    "D": "The family is a general solution, and the required particular solution is $y=2e^x-e^{-x}+x^2$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a902dc4be0ecc7866e90cc9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "LA",
+  "question": "A box contains 6 red, 5 white and 4 black balls. Three balls are drawn successively without replacement. Determine the probability that the three balls drawn are of three different colours, using the multiplication theorem on probability.",
+  "answeroption": "D",
+  "explanation": "<b>Given Information</b><br>There are $6+5+4=15$ balls. For three balls to be of different colours, exactly one red, one white and one black ball must be drawn. These colours can occur in $3!=6$ different orders.<br><br>Consider the particular order red, white, black. By the multiplication theorem on probability,<br>$$P(RWB)=P(R)P(W|R)P(B|R\\cap W).$$<br>Now,<br>$$P(R)=\\frac{6}{15},\\qquad P(W|R)=\\frac{5}{14},\\qquad P(B|R\\cap W)=\\frac{4}{13}.$$<br>Therefore,<br>$$P(RWB)=\\frac{6}{15}\\times\\frac{5}{14}\\times\\frac{4}{13}=\\frac{4}{91}.$$<br><br>The numerator for every other order of one red, one white and one black ball is also $6\\times5\\times4$, while the successive denominators remain $15,14,13$. Hence each of the six possible colour orders has probability $\\frac{4}{91}$. Since these six orders are mutually exclusive,<br>$$P(\\text{three different colours})=6\\times\\frac{4}{91}=\\frac{24}{91}.$$<br><br><b>Final Result</b><br>Therefore, the probability that the three balls drawn are of three different colours is $\\frac{24}{91}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{8}{35}$",
+    "B": "$\\frac{12}{91}$",
+    "C": "$\\frac{4}{13}$",
+    "D": "$\\frac{24}{91}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

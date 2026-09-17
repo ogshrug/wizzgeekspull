@@ -1,0 +1,30 @@
+{
+  "id": "69aa7cb32a66c0f894c1aa1c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\tan^{-1}(x) + \\tan^{-1}\\left(\\frac{1}{x}\\right)$ for $x > 0$.\n\n(a) Prove that $f(x)$ is constant for all $x > 0$.\n\n(b) Find $\\lim\\limits_{x \\to 0^+} f(x)$ and $\\lim\\limits_{x \\to \\infty} f(x)$.\n\n(c) Consider $F(x) = \\int_1^x \\frac{df}{dt} dt$. Evaluate $F(x)$ explicitly.\n\n(d) Calculate $F(10)$ and interpret the result.",
+  "answeroption": "A",
+  "explanation": "**Concepts being tested:** Inverse Trigonometric Functions (Identities & Properties), Differentiation under the Integral, Limits, Constancy and Accumulated Change.<br /><br />---<br /><br />(a) $f(x) = \\tan^{-1}(x) + \\tan^{-1}\\left(\\frac{1}{x}\\right)$<br /><br />For $x > 0$, $\\tan^{-1} x + \\tan^{-1} (1/x) = \\frac{\\pi}{2}$ (known identity).<br /><br />So $f(x)$ is constant $=\\frac{\\pi}{2}$ for all $x>0$.<br /><br />---<br /><br />(b) $\\lim_{x\\to 0^+}f(x)= \\tan^{-1} 0 + \\tan^{-1} (\\infty) = 0 + \\frac{\\pi}{2} = \\frac{\\pi}{2}$<br /><br />$\\lim_{x\\to \\infty} f(x) = \\tan^{-1} (\\infty) + \\tan^{-1} (0) = \\frac{\\pi}{2} + 0 = \\frac{\\pi}{2}$<br /><br />---<br /><br />(c) $F(x) = \\int_1^x \\frac{df}{dt} dt = f(x) - f(1)$. Since $f(x) = \\frac{\\pi}{2}$, $F(x) = 0$<br /><br />---<br /><br />(d) $F(10) = 0$. This shows that over any interval, the accumulated change of $f(x)$ is zero, as expected for a constant function.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=\\frac{\\pi}{2}$ for all $x>0$<br />(b) $\\lim_{x\\to0^+}f(x)=\\frac{\\pi}{2}$ and $\\lim_{x\\to\\infty}f(x)=\\frac{\\pi}{2}$<br />(c) $F(x)=\\int_1^x\\frac{df}{dt}dt=0$<br />(d) $F(10)=0$, showing the accumulated change of the constant function is zero",
+    "B": "(a) $f(x)=0$ for all $x>0$<br />(b) Both limits are $0$<br />(c) $F(x)=x-1$<br />(d) $F(10)=9$",
+    "C": "(a) $f(x)=\\pi$ for all $x>0$<br />(b) Limits are $\\pi$<br />(c) $F(x)=\\pi x$<br />(d) $F(10)=10\\pi$",
+    "D": "(a) $f$ is not constant<br />(b) Limits are different<br />(c) $F(x)=f(x)$<br />(d) $F(10)=\\tan^{-1}10$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:05:23 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

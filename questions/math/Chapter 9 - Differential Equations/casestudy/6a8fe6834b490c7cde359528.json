@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe6834b490c7cde359528",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a mathematical investigation, students are given the first-order differential equation $\\frac{dy}{dx}=\\frac{y}{x}+\\frac{x}{y}$ for $x\\neq0$ and $y\\neq0$. They observe that the right-hand side depends only on the ratio $\\frac{y}{x}$ and its reciprocal, indicating that the equation can be treated as a homogeneous differential equation. The class decides to introduce the substitution $y=vx$, where $v$ is regarded as a function of $x$. This substitution is expected to transform the original equation into a variable separable equation that can be integrated to obtain the general solution.<br><br><b>(a)</b> Show that the right-hand side can be expressed entirely as a function of $\\frac{y}{x}$.<br><br><b>(b)</b> Using $y=vx$, find $\\frac{dy}{dx}$ in terms of $v$ and $\\frac{dv}{dx}$.<br><br><b>(c)</b> Reduce the differential equation to variable separable form.<br><br><b>(d)</b> Solve the reduced equation and obtain the general solution in terms of $x$ and $y$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The right-hand side is $$\\frac{y}{x}+\\frac{x}{y}$$<br><br>Let $v=\\frac{y}{x}$. Then $\\frac{x}{y}=\\frac{1}{v}$. Therefore, $$\\frac{y}{x}+\\frac{x}{y}=v+\\frac{1}{v}$$<br><br>Thus the right-hand side depends only on $\\frac{y}{x}$, so the equation is homogeneous.<br><br><b>(b)</b><br>Using the substitution $$y=vx$$<br><br>Differentiating with respect to $x$, $$\\frac{dy}{dx}=v+x\\frac{dv}{dx}$$<br><br><b>(c)</b><br>Substituting $y=vx$ and $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$ in the differential equation gives $$v+x\\frac{dv}{dx}=v+\\frac{1}{v}$$<br><br>Therefore, $$x\\frac{dv}{dx}=\\frac{1}{v}$$<br><br>Hence, the variable separable form is $$v\\,dv=\\frac{dx}{x}$$<br><br><b>(d)</b><br>Integrating both sides, $$\\int v\\,dv=\\int\\frac{dx}{x}$$<br><br>Thus, $$\\frac{v^2}{2}=\\log|x|+C_1$$<br><br>Therefore, $$v^2=2\\log|x|+C$$<br><br>Since $v=\\frac{y}{x}$, $$\\frac{y^2}{x^2}=2\\log|x|+C$$<br><br>Hence the general solution may be written as $$y^2=x^2\\left(2\\log|x|+C\\right)$$<br><br>This solution is obtained for the stated domain $x\\neq0$ and $y\\neq0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) With $v=\\frac{y}{x}$, the right side is $v+\\frac{1}{v}$<br>(b) For $y=vx$, $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$<br>(c) $v\\,dv=\\frac{dx}{x}$<br>(d) $y^2=x^2\\left(2\\log|x|+C\\right)$",
+    "B": "(a) With $v=\\frac{y}{x}$, the right side is $v-\\frac{1}{v}$<br>(b) $\\frac{dy}{dx}=x\\frac{dv}{dx}$<br>(c) $\\frac{dv}{v}=\\frac{dx}{x}$<br>(d) $y=Cx^2$",
+    "C": "(a) The right side cannot be written as a function of $\\frac{y}{x}$<br>(b) $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$<br>(c) $v\\,dv=x\\,dx$<br>(d) $y^2=x^4+C$",
+    "D": "(a) With $v=\\frac{y}{x}$, the right side is $v+\\frac{1}{v}$<br>(b) $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$<br>(c) $\\frac{dv}{v}=\\frac{dx}{x}$<br>(d) $y=Cx^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

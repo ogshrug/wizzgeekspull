@@ -1,0 +1,34 @@
+{
+  "id": "6a2262df864be73cfcf6d186",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5e",
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "MCQ",
+  "question": "Four friends Abhay, Bina, Chhaya and Devesh were asked to simplify $4 AB+3(AB+BA)-4 BA$, where $A$ and $B$ are both matrices of order $2\\times2$. It is known that $A\\ne B\\ne I$ and $A^{-1}\\ne B$. Their answers are given as: Abhay: $6 AB$, Bina : $7 AB-BA$, Chhaya: $8 AB$, Devesh : $7 BA-AB$. Who answered it correctly?",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Start by expanding the given expression. Distribute the scalar 3 into the parentheses: $3(AB + BA) = 3AB + 3BA$.<br />**Step 2:** Substitute this back into the original mathematical expression: $4AB + 3AB + 3BA - 4BA$.<br />**Step 3:** Group the like matrix terms together. It is crucial to remember that matrix multiplication is generally not commutative, so $AB$ and $BA$ must be treated as distinct terms.<br />**Step 4:** Combine the coefficients for $AB$: $4AB + 3AB = 7AB$.<br />**Step 5:** Combine the coefficients for $BA$: $3BA - 4BA = -BA$.<br />**Step 6:** The final simplified expression is $7AB - BA$, which corresponds to Bina's answer.",
+  "explanation_image": [],
+  "options": {
+    "A": "Abhay",
+    "B": "Bina",
+    "C": "Chhaya",
+    "D": "Devesh"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

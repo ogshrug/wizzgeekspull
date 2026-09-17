@@ -1,0 +1,30 @@
+{
+  "id": "6a9129892e54880055a0a785",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8dd"
+  ],
+  "question_type": "LA",
+  "question": "Examine graphically the system $x+y\\ge 7$, $2x+3y\\le 12$, $x\\ge0$ and $y\\ge0$, and establish whether a feasible region exists by analysing the half-planes determined by the two oblique boundary lines.",
+  "answeroption": "A",
+  "explanation": "<b>Graphical Analysis</b><br>The boundary line $x+y=7$ has intercepts $(7,0)$ and $(0,7)$. Since $x+y\\ge7$, the required half-plane lies on the side of this line away from the origin.<br><br>The boundary line $2x+3y=12$ has intercepts $(6,0)$ and $(0,4)$. Since $2x+3y\\le12$, the required half-plane is the side containing the origin. The restrictions $x\\ge0$ and $y\\ge0$ confine both regions to the first quadrant.<br><br>To examine whether the required half-planes can overlap, observe that $x+y\\ge7$ with $x,y\\ge0$ implies $$2x+2y\\ge14.$$ Since $y\\ge0$, we also have $2x+3y\\ge2x+2y$. Therefore, every point satisfying $x+y\\ge7$ and the non-negative restrictions must satisfy $$2x+3y\\ge14.$$ But the other given constraint requires $2x+3y\\le12$. These two requirements cannot hold simultaneously.<br><br>Thus, there is no point in the first quadrant satisfying all the constraints. The required half-planes have no common region, so the system has no feasible region. Consequently, every point under consideration fails at least one constraint and is infeasible for the complete system.<br><br><b>Final Result</b><br>The given system has no feasible region because no point can satisfy all four inequalities simultaneously.",
+  "explanation_image": [],
+  "options": {
+    "A": "No feasible region exists because $x+y\\geq7$ implies $2x+3y\\geq14$, which contradicts $2x+3y\\leq12$",
+    "B": "A bounded feasible region exists between the lines $x+y=7$ and $2x+3y=12$",
+    "C": "An unbounded feasible region exists because both variables are non-negative",
+    "D": "The only feasible point is $(6,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

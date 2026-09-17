@@ -1,0 +1,29 @@
+{
+  "id": "6a8d24bd550d28a069ec32e0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "A function $f:\\{1,2,3\\}\\to\\{a,b,c\\}$ satisfies $f(1)=a$ and $f(2)=b$. If $f$ is onto, determine $f(3)$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Apply the onto condition</b><br>For the function to be onto, each element of the co-domain $\\{a,b,c\\}$ must be the image of at least one element of the domain.<br><br><b>Step 2: Identify the existing images</b><br>The given information assigns $a$ as the image of $1$ and $b$ as the image of $2$.<br><br><b>Step 3: Find the missing image</b><br>The only element of the co-domain that has not yet appeared as an image is $c$.<br><br><b>Step 4: Assign the remaining domain element</b><br>The only remaining element of the domain is $3$. Therefore, to ensure that $c$ has a pre-image, $3$ must be mapped to $c$. This makes the range equal to the co-domain.<br><br><b>Final Answer:</b> $\\boxed{f(3)=c}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(3)=a$",
+    "B": "$f(3)=c$",
+    "C": "$f(3)=b$",
+    "D": "$f(3)$ may be any element of $\\{a,b,c\\}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

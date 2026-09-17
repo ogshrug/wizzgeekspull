@@ -1,0 +1,30 @@
+{
+  "id": "6a8ec0af751910886affb9a3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "SA",
+  "question": "Using logarithmic differentiation, find $\\frac{dy}{dx}$ if $$y=x^{\\log x},\\qquad x>0.$$",
+  "answeroption": "A",
+  "explanation": "<b>Taking logarithm</b><br>$$\\log y=\\log x\\cdot\\log x=(\\log x)^2.$$<br><b>Differentiation</b><br>$$\\frac{1}{y}\\frac{dy}{dx}=2\\log x\\cdot\\frac{1}{x}=\\frac{2\\log x}{x}.$$<br><b>Substitution of the original function</b><br>Since $y=x^{\\log x}$, $$\\frac{dy}{dx}=x^{\\log x}\\frac{2\\log x}{x}.$$<br>Thus, $$\\frac{dy}{dx}=2x^{\\log x-1}\\log x.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=2x^{\\log x-1}\\log x$",
+    "B": "$\\frac{dy}{dx}=x^{\\log x-1}\\log x$",
+    "C": "$\\frac{dy}{dx}=2x^{\\log x}\\log x$",
+    "D": "$\\frac{dy}{dx}=x^{\\log x}(1+\\log x)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

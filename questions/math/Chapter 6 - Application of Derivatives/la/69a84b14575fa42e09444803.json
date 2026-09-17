@@ -1,0 +1,31 @@
+{
+  "id": "69a84b14575fa42e09444803",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a",
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "LA",
+  "question": "Let $y = (x^2+1)^{x}$ for $x > 0$. Find the interval(s) where $y$ is an increasing function, and determine all turning points (local extremum).",
+  "answeroption": "B",
+  "explanation": "Let $y=(x^2+1)^x$.<br /><br />Taking logarithm:<br /><br />$\\ln y = x\\ln(x^2+1)$.<br /><br />Differentiate:<br /><br />$\\frac{1}{y}\\frac{dy}{dx}=\\ln(x^2+1)+x\\cdot\\frac{2x}{x^2+1}$.<br /><br />$=\\ln(x^2+1)+\\frac{2x^2}{x^2+1}$.<br /><br />Thus,<br /><br />$\\frac{dy}{dx}=(x^2+1)^x\\left[\\ln(x^2+1)+\\frac{2x^2}{x^2+1}\\right]$.<br /><br />For $x>0$, both $\\ln(x^2+1)>0$ and $\\frac{2x^2}{x^2+1}>0$.<br /><br />Hence their sum is positive, so $\\frac{dy}{dx}>0$ for all $x>0$.<br /><br />Therefore, $y$ is strictly increasing on $(0,\\infty)$.<br /><br />There are no turning points (no local maximum or minimum) for $x>0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y$ is decreasing on $(0,\\infty)$ and has one local minimum.",
+    "B": "$y$ is strictly increasing on $(0,\\infty)$ and has no turning points.",
+    "C": "$y$ is increasing on $(0,1)$ and decreasing on $(1,\\infty)$, with a local maximum at $x=1$.",
+    "D": "$y$ is decreasing on $(0,1)$ and increasing on $(1,\\infty)$, with a local minimum at $x=1$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:09:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

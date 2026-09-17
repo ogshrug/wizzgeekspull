@@ -1,0 +1,33 @@
+{
+  "id": "6a8fd4a3751910886affb9f2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f994",
+    "6a13eb338c819562f933f997",
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "The line $\\frac{x}{5}+\\frac{y}{3}=1$ joins the positive coordinate-axis intercepts of the ellipse $\\frac{x^2}{25}+\\frac{y^2}{9}=1$. Determine the intersection points of the line and the ellipse, identify the upper and lower boundaries in the first quadrant, and use integration to calculate the exact area enclosed between the line and the elliptical arc.",
+  "answeroption": "C",
+  "explanation": "Points of IntersectionThe line can be written as`y=3-\\frac{3x}{5}`Substituting this in the equation of the ellipse gives`\\frac{x^2}{25}+\\left(1-\\frac{x}{5}\\right)^2=1\\frac{2x^2}{25}-\\frac{2x}{5}=02x\\left(x-5\\right)=0`Thus, $x=0$ or $x=5$. The corresponding points are $\\left(0,3\\right)$ and $\\left(5,0\\right)$.Formation of the Area IntegralThe upper arc of the ellipse in the first quadrant is`y=\\frac{3}{5}\\sqrt{25-x^2}`For $0\\leq x\\leq5$, the elliptical arc lies above the line. Therefore,`A=\\int_0^5\\left[\\frac{3}{5}\\sqrt{25-x^2}-\\left(3-\\frac{3x}{5}\\right)\\right]dx`EvaluationPut $x=5\\sin\\theta$ in the first integral. Then $dx=5\\cos\\theta\\,d\\theta$, and the limits become $0$ and $\\frac{\\pi}{2}$. Hence,`\\int_0^5\\frac{3}{5}\\sqrt{25-x^2}\\,dx=15\\int_0^{\\frac{\\pi}{2}}\\cos^2\\theta\\,d\\theta=\\frac{15\\pi}{4}`Also,`\\int_0^5\\left(3-\\frac{3x}{5}\\right)dx=\\left[3x-\\frac{3x^2}{10}\\right]_0^5=\\frac{15}{2}`Therefore,`A=\\frac{15\\pi}{4}-\\frac{15}{2}=\\frac{15}{4}\\left(\\pi-2\\right)`Final ResultThe area enclosed between the line and the elliptical arc is $\\frac{15}{4}\\left(\\pi-2\\right)$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "Intersections $(0,3),(5,0)$; ellipse arc is upper and line is lower; area $=\\frac{15}{2}(\\pi-2)$",
+    "B": "Intersections $(0,3),(5,0)$; line is upper and ellipse arc is lower; area $=\\frac{15}{4}(\\pi-2)$",
+    "C": "Intersections $(0,3),(5,0)$; ellipse arc is upper and line is lower; area $=\\frac{15}{4}(\\pi-2)$",
+    "D": "Intersections $(0,5),(3,0)$; ellipse arc is upper and line is lower; area $=\\frac{15}{4}(\\pi-2)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

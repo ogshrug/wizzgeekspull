@@ -1,0 +1,29 @@
+{
+  "id": "6a8e977b4b490c7cde359411",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d62"
+  ],
+  "question_type": "SA",
+  "question": "Given $$A=\\begin{bmatrix}0 & -1 \\\\ 0 & 2\\end{bmatrix},\\quad B=\\begin{bmatrix}3 & 5 \\\\ 0 & 0\\end{bmatrix},$$ find $AB$. Hence show that the product of two non-zero matrices can be a zero matrix.",
+  "answeroption": "A",
+  "explanation": "<b>Matrix product</b><br>$$AB=\\begin{bmatrix}0(3)+(-1)(0) & 0(5)+(-1)(0) \\\\ 0(3)+2(0) & 0(5)+2(0)\\end{bmatrix}=\\begin{bmatrix}0 & 0 \\\\ 0 & 0\\end{bmatrix}$$<br><b>Nature of the factors</b><br>Both $A$ and $B$ contain non-zero entries, so neither matrix is a zero matrix.<br><b>Conclusion</b><br>Thus, $AB=O$ even though $A\\neq O$ and $B\\neq O$. Therefore, a zero matrix may be obtained as the product of two non-zero matrices.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB=\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}=O$, although $A\\ne O$ and $B\\ne O$.",
+    "B": "$AB=\\begin{bmatrix}0&0\\\\6&10\\end{bmatrix}$, so the product is non-zero.",
+    "C": "$AB=O$ only because $A=O$.",
+    "D": "$AB=O$ only because $B=O$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8f86be0ecc7866e90b8e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70"
+  ],
+  "question_type": "VSA",
+  "question": "The system $x+y=5$ and $x-y=1$ is written as $AX=B$. Determine the coefficient matrix $A$ and the column matrix $B$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Arrange the equations</b><br>The variables are written in the order $x,y$. The system is $$x+y=5,\\qquad x-y=1$$<br><b>Step 2: Identify the coefficients</b><br>The coefficients of $x$ and $y$ in the first equation are $1,1$, while those in the second equation are $1,-1$.<br><b>Step 3: Form the matrices</b><br>Thus, $$A=\\begin{bmatrix}1&1\\\\1&-1\\end{bmatrix},\\qquad X=\\begin{bmatrix}x\\\\y\\end{bmatrix},\\qquad B=\\begin{bmatrix}5\\\\1\\end{bmatrix}$$<br><b>Step 4: State the result</b><br>Hence, the required matrices are $A=\\begin{bmatrix}1&1\\\\1&-1\\end{bmatrix}$ and $B=\\begin{bmatrix}5\\\\1\\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A=\\begin{bmatrix}1&1\\\\1&-1\\end{bmatrix}$, $B=\\begin{bmatrix}5\\\\1\\end{bmatrix}$",
+    "B": "$A=\\begin{bmatrix}1&1\\\\-1&1\\end{bmatrix}$, $B=\\begin{bmatrix}5\\\\1\\end{bmatrix}$",
+    "C": "$A=\\begin{bmatrix}1&-1\\\\1&1\\end{bmatrix}$, $B=\\begin{bmatrix}5\\\\1\\end{bmatrix}$",
+    "D": "$A=\\begin{bmatrix}1&1\\\\1&-1\\end{bmatrix}$, $B=\\begin{bmatrix}1\\\\5\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

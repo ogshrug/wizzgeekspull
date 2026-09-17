@@ -1,0 +1,29 @@
+{
+  "id": "6a8f1ba22e54880055a0a6f0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998"
+  ],
+  "question_type": "SA",
+  "question": "Find the total area between the curves $y=\\sin x$ and $y=\\cos x$ over the interval $0\\leq x\\leq\\frac{\\pi}{2}$. Justify the point at which the integral must be divided.",
+  "answeroption": "A",
+  "explanation": "Step 1: Locating the intersection point The curves intersect when $\\sin x=\\cos x$. Therefore, $\\tan x=1$, giving $x=\\frac{\\pi}{4}$ in the specified interval. Step 2: Determining the upper curve On $\\left[0,\\frac{\\pi}{4}\\right]$, $\\cos x\\geq\\sin x$. On $\\left[\\frac{\\pi}{4},\\frac{\\pi}{2}\\right]$, $\\sin x\\geq\\cos x$. Hence, the integral must be divided at $x=\\frac{\\pi}{4}$. Step 3: Forming the total area $A=\\int_0^{\\frac{\\pi}{4}}(\\cos x-\\sin x)dx+\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{2}}(\\sin x-\\cos x)dx$. Step 4: Evaluation Each integral equals $\\sqrt{2}-1$. Therefore, $A=2(\\sqrt{2}-1)$. Final Answer The total area is $2(\\sqrt{2}-1)$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2(\\sqrt{2}-1)$ square units, with the integral divided at $x=\\frac{\\pi}{4}$",
+    "B": "$\\sqrt{2}-1$ square units, with the integral divided at $x=\\frac{\\pi}{4}$",
+    "C": "$2(\\sqrt{2}+1)$ square units, with the integral divided at $x=\\frac{\\pi}{4}$",
+    "D": "$2$ square units, with the integral divided at $x=\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

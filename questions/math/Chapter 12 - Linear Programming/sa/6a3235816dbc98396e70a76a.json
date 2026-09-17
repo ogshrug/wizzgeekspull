@@ -1,0 +1,26 @@
+{
+  "id": "6a3235816dbc98396e70a76a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically: Maximise $Z=20x+30y$ Subject to the constraints: $x+y\\le80$, $2x+3y\\ge100$, $x\\ge14$, $y\\ge14$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Plot the boundary lines for the inequalities: $x+y=80$, $2x+3y=100$, $x=14$, and $y=14$. Find the intersection points defining the feasible region: solving lines simultaneously gives $A(14,24)$, $B(29,14)$, $C(66,14)$, and $D(14,66)$.<br />**Step 2:** Verify that the shaded polygon bounded by these vertices satisfies all the linear inequalities ($x+y\\le80$, $2x+3y\\ge100$, $x\\ge14$, $y\\ge14$).<br />**Step 3:** Evaluate objective function $Z = 20x + 30y$ at each vertex: $Z(14,24)=1000$, $Z(29,14)=1000$, $Z(66,14)=1740$, and $Z(14,66)=2260$. The maximum value is $2260$ at point $(14,66)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

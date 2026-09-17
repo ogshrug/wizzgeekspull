@@ -1,0 +1,33 @@
+{
+  "id": "6a22c068fbdd87b6dea73c18",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$ be a square matrix such that $\\text{adj } A = A$. Then, $(a+b+c+d)$ is equal to:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** The adjoint of a $2 \\times 2$ matrix $A = \\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$ is given by $\\text{adj } A = \\begin{bmatrix}d&-b\\\\-c&a\\end{bmatrix}$.<br />**Step 2:** Equating $\\text{adj } A = A$ gives $d = a$, $-b = b \\implies b = 0$, and $-c = c \\implies c = 0$.<br />**Step 3:** Substituting these into the required sum: $a + b + c + d = a + 0 + 0 + a = 2a$.",
+  "explanation_image": [],
+  "options": {
+    "A": "2a",
+    "B": "2b",
+    "C": "2c",
+    "D": "0"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1",
+    "2024-3-2",
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

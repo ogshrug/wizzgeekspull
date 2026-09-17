@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9efc4b490c7cde359427",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "LA",
+  "question": "Consider the determinant $D=\\begin{vmatrix}1 & 2 & 3\\\\2 & 3 & 1\\\\3 & 1 & \\lambda\\end{vmatrix}$.<br><br><b>(a)</b> Expand the determinant and express $D$ in terms of $\\lambda$.<br><br><b>(b)</b> Determine the value of $\\lambda$ for which $D=0$.<br><br><b>(c)</b> Using the value obtained in part (b), verify the result by expanding the determinant along the third column.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Expanding along the first row,<br>$$D=1\\begin{vmatrix}3 & 1\\\\1 & \\lambda\\end{vmatrix}-2\\begin{vmatrix}2 & 1\\\\3 & \\lambda\\end{vmatrix}+3\\begin{vmatrix}2 & 3\\\\3 & 1\\end{vmatrix}$$<br>$$D=(3\\lambda-1)-2(2\\lambda-3)+3(2-9)$$<br>$$D=3\\lambda-1-4\\lambda+6-21=-\\lambda-16$$<br><br><b>(b)</b><br>For $D=0$,<br>$$-\\lambda-16=0$$<br>Therefore,<br>$$\\lambda=-16$$<br><br><b>(c)</b><br>Substituting $\\lambda=-16$ and expanding along the third column,<br>$$D=3\\begin{vmatrix}2 & 3\\\\3 & 1\\end{vmatrix}-1\\begin{vmatrix}1 & 2\\\\3 & 1\\end{vmatrix}-16\\begin{vmatrix}1 & 2\\\\2 & 3\\end{vmatrix}$$<br>$$D=3(2-9)-(1-6)-16(3-4)$$<br>$$D=-21+5+16=0$$<br>Hence, the value $\\lambda=-16$ is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $D=\\lambda-16$<br>(b) $\\lambda=16$<br>(c) Substitution and third-column expansion give $D=0$",
+    "B": "(a) $D=-\\lambda+16$<br>(b) $\\lambda=16$<br>(c) Third-column expansion gives $D=0$",
+    "C": "(a) $D=-\\lambda-16$<br>(b) $\\lambda=-16$<br>(c) Third-column expansion gives $D=-21+5+16=0$",
+    "D": "(a) $D=\\lambda+16$<br>(b) $\\lambda=-16$<br>(c) Third-column expansion gives $D=21-5-16=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed13d4b490c7cde359486",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "VSA",
+  "question": "Two positive numbers have a sum of $20$. Determine the numbers for which their product is maximum.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> Let one number be $x$. The other number is $20-x$, where $0<x<20$.<br><b>Step 2:</b> Their product is $$P(x)=x(20-x)=20x-x^2$$<br><b>Step 3:</b> Differentiate and equate to zero: $$P'(x)=20-2x=0\\Rightarrow x=10$$<br><b>Step 4:</b> Since $P''(x)=-2<0$, the product is maximum at $x=10$.<br><b>Step 5:</b> The other number is $20-10=10$. Therefore, the required numbers are $10$ and $10$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$5$ and $15$",
+    "B": "$8$ and $12$",
+    "C": "$10$ and $10$",
+    "D": "$6$ and $14$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

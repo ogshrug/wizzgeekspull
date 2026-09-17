@@ -1,0 +1,29 @@
+{
+  "id": "6a8e97594b490c7cde359404",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "SA",
+  "question": "For $A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$, find $\\operatorname{adj}A$ and then calculate $\\operatorname{adj}(\\operatorname{adj}A)$. Compare the result with $A$.",
+  "answeroption": "A",
+  "explanation": "<b>First adjoint</b><br>For a matrix of order $2$, interchange the diagonal entries and change the signs of the off-diagonal entries. Thus, $$\\operatorname{adj}A=\\begin{bmatrix}4&-2\\\\-3&1\\end{bmatrix}$$<br><b>Adjoint of the resulting matrix</b><br>Applying the same procedure again, $$\\operatorname{adj}(\\operatorname{adj}A)=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$$<br><b>Comparison with the original matrix</b><br>The resulting matrix is exactly $A$. Therefore, $$\\operatorname{adj}(\\operatorname{adj}A)=A$$<br><b>Conclusion</b><br>For the given matrix of order $2$, taking the adjoint twice reproduces the original matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\operatorname{adj}A=\\begin{bmatrix}4&-2\\\\-3&1\\end{bmatrix}$ and $\\operatorname{adj}(\\operatorname{adj}A)=A$",
+    "B": "$\\operatorname{adj}A=\\begin{bmatrix}4&2\\\\3&1\\end{bmatrix}$ and $\\operatorname{adj}(\\operatorname{adj}A)=-A$",
+    "C": "$\\operatorname{adj}A=\\begin{bmatrix}1&-2\\\\-3&4\\end{bmatrix}$ and $\\operatorname{adj}(\\operatorname{adj}A)=I$",
+    "D": "$\\operatorname{adj}A=\\begin{bmatrix}4&-3\\\\-2&1\\end{bmatrix}$ and $\\operatorname{adj}(\\operatorname{adj}A)=A^T$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

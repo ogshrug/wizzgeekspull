@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8ee42e54880055a0a665",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5e"
+  ],
+  "question_type": "VSA",
+  "question": "If $A-B=\\begin{bmatrix}3&-2\\\\5&1\\end{bmatrix}$, find the $(1,2)$th element of $B-A$ without determining $A$ and $B$ separately.",
+  "answeroption": "C",
+  "explanation": "Step 1: Using the additive inverse property of matrices, $B-A=-(A-B)$.<br>Step 2: The matrix $A-B$ is given as $$A-B=\\begin{bmatrix}3&-2\\\\5&1\\end{bmatrix}.$$<br>Step 3: Multiplying each entry by $-1$, we obtain $$B-A=-\\begin{bmatrix}3&-2\\\\5&1\\end{bmatrix}=\\begin{bmatrix}-3&2\\\\-5&-1\\end{bmatrix}.$$<br>Step 4: The $(1,2)$th element is the entry in the first row and second column.<br>Step 5: Hence, $(B-A)_{12}=2$. Therefore, the required element is $2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-2$",
+    "B": "$-3$",
+    "C": "$2$",
+    "D": "$3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

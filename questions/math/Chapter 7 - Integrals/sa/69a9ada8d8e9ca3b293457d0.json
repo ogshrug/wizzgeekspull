@@ -1,0 +1,29 @@
+{
+  "id": "69a9ada8d8e9ca3b293457d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate the definite integral: $\\int_0^2 x e^{x^2} dx$",
+  "answeroption": "A",
+  "explanation": "Let $u=x^2$. Then $du=2x\\,dx$ so $x\\,dx=\\frac{1}{2}du$.<br /><br />Change the limits: when $x=0$, $u=0$ and when $x=2$, $u=4$.<br /><br />Thus the integral becomes $\\frac{1}{2}\\int_0^4 e^u du$.<br /><br />Integrating gives $\\frac{1}{2}[e^u]_0^4 = \\frac{1}{2}(e^4-1)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}(e^4-1)$",
+    "B": "$e^4-1$",
+    "C": "$\\frac{1}{2}(e^2-1)$",
+    "D": "$\\frac{1}{4}(e^4-1)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:22:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

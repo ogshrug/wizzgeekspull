@@ -1,0 +1,31 @@
+{
+  "id": "6a33b655d5dca7dcb0bf0f3d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f(x) = \\begin{cases}3ax - b, & x > 1 \\\\ 11, & x = 1 \\\\ -5ax - 2b, & x < 1\\end{cases}$ is continuous at $x=1$, then the values of $a$ and $b$ are:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** For continuity at $x=1$, Right-Hand Limit (RHL) = Left-Hand Limit (LHL) = $f(1)$. Here $f(1) = 11$.\n\n**Step 2:** Calculate RHL: $\\lim_{x \\to 1^+} f(x) = 3a(1) - b = 3a - b$. Equate to 11: $3a - b = 11$.\n\n**Step 3:** Calculate LHL: $\\lim_{x \\to 1^-} f(x) = -5a(1) - 2b = -5a - 2b$. Equate to 11: $-5a - 2b = 11$.\n\n**Step 4:** Solve the system of linear equations. Multiply the RHL equation by $2$: $6a - 2b = 22$. Subtract the LHL equation: $(6a - 2b) - (-5a - 2b) = 22 - 11 \\Rightarrow 11a = 11 \\Rightarrow a = 1$.\n\n**Step 5:** Substitute $a=1$ into the first equation to find $b$: $3(1) - b = 11 \\Rightarrow -b = 8 \\Rightarrow b = -8$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=3, b=5$",
+    "B": "$a=8, b=-1$",
+    "C": "$a=1, b=-8$",
+    "D": "$a=-3, b=5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

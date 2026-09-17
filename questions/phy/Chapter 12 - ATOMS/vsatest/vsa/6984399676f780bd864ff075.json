@@ -1,0 +1,16 @@
+{
+  "id": "6984399676f780bd864ff075",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "697dd9f364ea1d65e30d4c30",
+  "question": "Evaluate the statement: “The Bohr model violates the Heisenberg Uncertainty Principle.”\n\nIn the Bohr model of the hydrogen atom, the electron is assumed to move in a circular orbit of definite radius $r_n$ with definite speed $v_n$, hence definite momentum magnitude $p_n=m_ev_n$, and it satisfies the angular momentum condition $m_ev_nr_n=n\\hbar$.\n\nFor this question, use the uncertainty relation as a provided statement: $\\Delta x\\,\\Delta p\\ge \\dfrac{\\hbar}{2}$, where $\\Delta x$ is the uncertainty in position along a chosen direction and $\\Delta p$ is the uncertainty in the corresponding component of momentum.\n\nAnalyse the statement by doing the following:\n\n(i) Explain, using logical reasoning, whether a definite orbit description implies simultaneous definiteness of position and momentum in a way that conflicts with $\\Delta x\\,\\Delta p\\ge \\dfrac{\\hbar}{2}$.\n\n(ii) Perform an order-of-magnitude check for the ground orbit using $r_1=a_0=0.529\\,\\text{\\AA}$ and $p_1=\\dfrac{\\hbar}{r_1}$ from $m_ev_1r_1=\\hbar$. Take $\\Delta x\\sim r_1$ and compare $p_1$ with $\\Delta p_{\\min}=\\dfrac{\\hbar}{2\\Delta x}$ to comment on consistency at the level of magnitudes.\n\n(iii) Conclude clearly whether the statement should be accepted or rejected, and state the precise sense in which it is true or false.",
+  "options": {
+    "A": "True, because the Bohr model assigns a definite orbital radius (position) and a definite momentum $p=m_ev$ simultaneously, which is incompatible with $\\Delta x\\,\\Delta p\\ge \\dfrac{\\hbar}{2}$ if taken literally for an electron at an instant.",
+    "B": "False, because Bohr’s model is fully quantum and therefore automatically includes uncertainty without any conflict.",
+    "C": "True, because in the Bohr model the electron must continuously radiate and fall into the nucleus, so it violates uncertainty.",
+    "D": "False, because the uncertainty principle applies only to the nucleus, not to the electron."
+  },
+  "question_type": "LA",
+  "category": "Analysing, Evaluating, Creating",
+  "imageurl": null
+}

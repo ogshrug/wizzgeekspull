@@ -1,0 +1,30 @@
+{
+  "id": "6a8fe6834b490c7cde359527",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a6",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A family of curves is described by $y=ax^2+bx+1$, where $a$ and $b$ are independent arbitrary constants. A group of students wants to obtain a differential equation that represents every member of this family without containing either $a$ or $b$. They note that two arbitrary constants are present, so successive differentiation is required to produce enough equations for their elimination. After forming the differential equation, the students choose the particular member obtained by taking $a=1$ and $b=-2$ and use it to check whether their elimination procedure has produced a valid equation for the complete family.<br><br><b>(a)</b> State how many differentiations are required to eliminate both arbitrary constants.<br><br><b>(b)</b> Find $\\frac{dy}{dx}$ and $\\frac{d^2y}{dx^2}$ for the given family.<br><br><b>(c)</b> Eliminate $a$ and $b$ to form the required differential equation.<br><br><b>(d)</b> Verify the formed differential equation for the member corresponding to $a=1$ and $b=-2$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The family contains two independent arbitrary constants $a$ and $b$. Therefore, the given relation is differentiated twice successively so that both constants can be eliminated.<br><br><b>(b)</b><br>The given family is $$y=ax^2+bx+1$$<br><br>Differentiating once, $$\\frac{dy}{dx}=2ax+b$$<br><br>Differentiating again, $$\\frac{d^2y}{dx^2}=2a$$<br><br><b>(c)</b><br>From $\\frac{d^2y}{dx^2}=2a$, $$a=\\frac{1}{2}\\frac{d^2y}{dx^2}$$<br><br>From $\\frac{dy}{dx}=2ax+b$, $$b=\\frac{dy}{dx}-x\\frac{d^2y}{dx^2}$$<br><br>Substituting these values in $y=ax^2+bx+1$, $$y=\\frac{x^2}{2}\\frac{d^2y}{dx^2}+x\\left(\\frac{dy}{dx}-x\\frac{d^2y}{dx^2}\\right)+1$$<br><br>Therefore, $$y=x\\frac{dy}{dx}-\\frac{x^2}{2}\\frac{d^2y}{dx^2}+1$$<br><br>Multiplying by $2$ and rearranging, the required differential equation is $$x^2\\frac{d^2y}{dx^2}-2x\\frac{dy}{dx}+2y-2=0$$<br><br><b>(d)</b><br>For $a=1$ and $b=-2$, $$y=x^2-2x+1$$<br><br>Hence, $$\\frac{dy}{dx}=2x-2$$ and $$\\frac{d^2y}{dx^2}=2$$<br><br>Substituting, $$x^2(2)-2x(2x-2)+2(x^2-2x+1)-2=0$$<br><br>Simplifying, $$2x^2-4x^2+4x+2x^2-4x+2-2=0$$<br><br>Hence the chosen member satisfies the formed differential equation.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) One differentiation<br>(b) $y'=2ax+b$, $y''=2a$<br>(c) $x^2y''-xy'+y-1=0$<br>(d) $y=x^2-2x+1$ satisfies it",
+    "B": "(a) Two differentiations<br>(b) $y'=ax+b$, $y''=a$<br>(c) $x^2y''-2xy'+2y-2=0$<br>(d) $y=x^2-2x+1$ does not satisfy it",
+    "C": "(a) Two differentiations<br>(b) $y'=2ax+b$, $y''=2a$<br>(c) $x^2\\frac{d^2y}{dx^2}-2x\\frac{dy}{dx}+2y-2=0$<br>(d) For $y=x^2-2x+1$, substitution gives $0$",
+    "D": "(a) Three differentiations<br>(b) $y'=2ax+b$, $y''=2a$<br>(c) $\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+2y=0$<br>(d) $y=x^2-2x+1$ satisfies it"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

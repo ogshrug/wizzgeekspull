@@ -1,0 +1,31 @@
+{
+  "id": "69a96567d30adc5083911a8d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e4",
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "LA",
+  "question": "A bag contains 5 red balls and 3 blue balls. Two balls are drawn one after the other without replacement. Let A be the event that the first ball drawn is red, and B be the event that the second ball drawn is blue.<br /><br />(a) Find the probability P(A).<br /><br />(b) Find the probability P(B|A).<br /><br />(c) Find the probability that first ball is red and the second ball is blue.<br /><br />(d) Are the events A and B independent? Justify your answer.",
+  "answeroption": "C",
+  "explanation": "Let S be the sample space. Total balls = 8.<br /><br />(a) $P(A) = \\frac{\\text{Number of red balls}}{\\text{Total balls}} = \\frac{5}{8}$<br /><br />(b) After a red ball is drawn (not replaced), red balls left = 4, blue balls = 3, total balls left = 7.<br /><br />So, $P(B|A) = \\frac{\\text{Number of blue balls left}}{\\text{Balls left}} = \\frac{3}{7}$<br /><br />(c) Probability that first is red and second is blue:<br /><br />$P(A \\cap B) = P(A) \\times P(B|A) = \\frac{5}{8} \\times \\frac{3}{7} = \\frac{15}{56}$<br /><br />(d) For independence, $P(A \\cap B)$ should equal $P(A) \\times P(B)$<br /><br />$P(B) = $ probability second ball is blue (total cases):<br />If first ball is red: $5/8$ chance, then $3/7$ chance blue next.<br />If first is blue: $3/8$ chance, then $2/7$ blue next (since one blue gone).<br /><br />$P(B) = \\frac{5}{8}\\times \\frac{3}{7} + \\frac{3}{8}\\times \\frac{2}{7} = \\frac{15}{56} + \\frac{6}{56} = \\frac{21}{56} = \\frac{3}{8}$<br /><br />$P(A) \\times P(B) = \\frac{5}{8} \\times \\frac{3}{8} = \\frac{15}{64}$<br /><br />Since $\\frac{15}{56} \\ne \\frac{15}{64}$, events are not independent.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(A)=\\frac{5}{8}$<br />(b) $P(B|A)=\\frac{3}{8}$<br />(c) $P(A\\cap B)=\\frac{15}{64}$<br />(d) Independent",
+    "B": "(a) $P(A)=\\frac{3}{8}$<br />(b) $P(B|A)=\\frac{3}{7}$<br />(c) $P(A\\cap B)=\\frac{9}{56}$<br />(d) Not independent",
+    "C": "(a) $P(A)=\\frac{5}{8}$<br />(b) $P(B|A)=\\frac{3}{7}$<br />(c) $P(A\\cap B)=\\frac{15}{56}$<br />(d) Not independent",
+    "D": "(a) $P(A)=\\frac{5}{8}$<br />(b) $P(B|A)=\\frac{3}{7}$<br />(c) $P(A\\cap B)=\\frac{15}{64}$<br />(d) Independent"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:13:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e94684b490c7cde3593f2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "SA",
+  "question": "Find $k$ if $\\begin{vmatrix}1&1&1\\\\1&k&2\\\\1&3&4\\end{vmatrix}=0$. Verify the obtained value by direct substitution.",
+  "answeroption": "C",
+  "explanation": "<b>Expansion of the determinant</b><br>Expanding along the first row, $$\\begin{vmatrix}1&1&1\\\\1&k&2\\\\1&3&4\\end{vmatrix}=1(4k-6)-1(4-2)+1(3-k)$$<br><b>Algebraic simplification</b><br>Thus, the determinant is $$4k-6-2+3-k=3k-5$$<br><b>Application of the zero condition</b><br>Using $3k-5=0$, we obtain $$k=\\frac{5}{3}$$<br><b>Verification</b><br>Substituting $k=\\frac{5}{3}$ in the simplified determinant gives $$3\\left(\\frac{5}{3}\\right)-5=5-5=0$$<br>Hence, the required value is $k=\\frac{5}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=\\frac{3}{5}$",
+    "B": "$k=\\frac{5}{2}$",
+    "C": "$k=\\frac{5}{3}$",
+    "D": "$k=\\frac{3}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a265c74850cc99714b54f33",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8d1"
+  ],
+  "question_type": "LA",
+  "question": "If the lines $\\frac{x-1}{-3}=\\frac{y-2}{2k}=\\frac{z-3}{2}$ and $\\frac{x-1}{3k}=\\frac{y-1}{1}=\\frac{z-6}{-7}$ are perpendicular to each other, find the value of k and hence write the vector equation of a line perpendicular to these two lines and passing through the point $(3, -4, 7)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Extract the direction vectors of the two lines from their denominators: $\\vec{d}_1 = -3\\hat{i} + 2k\\hat{j} + 2\\hat{k}$ and $\\vec{d}_2 = 3k\\hat{i} + \\hat{j} - 7\\hat{k}$. Since the lines are given to be mutually perpendicular, their scalar dot product must be exactly zero, giving $\\vec{d}_1 \\cdot \\vec{d}_2 = 0$. Expanding this gives the equation: $-3(3k) + (2k)(1) + (2)(-7) = 0$.<br />**Step 2:** Combine like terms to solve for the constant parameter $k$: $-9k + 2k - 14 = 0 \\implies -7k = 14 \\implies k = -2$. Substituting $k = -2$ back into the initial direction structures determines the final numerical vector components: $\\vec{d}_1 = -3\\hat{i} - 4\\hat{j} + 2\\hat{k}$ and $\\vec{d}_2 = -6\\hat{i} + \\hat{j} - 7\\hat{k}$.<br />**Step 3:** The target path must run perpendicular to both lines, meaning its direction vector $\\vec{b}$ is parallel to their vector cross product. Compute this cross product vector: $\\vec{b} = \\vec{d}_1 \\times \\vec{d}_2 = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ -3 & -4 & 2 \\\\ -6 & 1 & -7 \\end{vmatrix} = \\hat{i}(28 - 2) - \\hat{j}(21 - (-12)) + \\hat{k}(-3 - 24) = 26\\hat{i} - 33\\hat{j} - 27\\hat{k}$.<br />**Step 4:** Construct the vector equation of the line passing through point $(3, -4, 7)$ using the calculated perpendicular direction values. Using standard formulation $\\vec{r} = \\vec{a} + \\lambda\\vec{b}$, we obtain the complete final vector path expression: $\\vec{r} = (3\\hat{i} - 4\\hat{j} + 7\\hat{k}) + \\lambda(26\\hat{i} - 33\\hat{j} - 27\\hat{k})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

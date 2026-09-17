@@ -1,0 +1,30 @@
+{
+  "id": "69aa7cb32a66c0f894c1aa1d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d82",
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "LA",
+  "question": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = e^{x^2}$. The composition $f \\circ g(x)$, where $g(x)$ is a function such that $g(x) = \\sin^{-1} x + 2x$ on $\\left[-\\dfrac{1}{2}, \\dfrac{1}{2}\\right]$, is considered.\n\n(a) Prove that $f \\circ g(x)$ is a well-defined function on $\\left[-\\dfrac{1}{2}, \\dfrac{1}{2}\\right]$.\n\n(b) Check the continuity and differentiability of $f \\circ g(x)$ in $\\left(-\\dfrac{1}{2}, \\dfrac{1}{2}\\right)$.\n\n(c) Find $\\dfrac{d}{dx} \\left(f \\circ g(x)\\right)$. \n\n(d) Evaluate $\\displaystyle \\int_{-1/2}^{1/2} f \\circ g(x) \\, dx$ using substitution.",
+  "answeroption": "A",
+  "explanation": "**Concepts Tested:** Relations and Functions, Inverse Trigonometric Functions, Continuity & Differentiability, Integrals<br /><br />(a) **Well-definition:**<br /><br />Since $g(x) = \\sin^{-1} x + 2x$ and $x \\in \\left[-\\dfrac{1}{2}, \\dfrac{1}{2}\\right]$, $\\sin^{-1} x$ takes values in $\\left[\\sin^{-1}\\left(-\\dfrac{1}{2}\\right), \\sin^{-1}\\left(\\dfrac{1}{2}\\right)\\right] = \\left[-\\dfrac{\\pi}{6}, \\dfrac{\\pi}{6}\\right]$.<br /><br />So, $g(x) \\in \\left[-\\dfrac{\\pi}{6}-1, \\dfrac{\\pi}{6}+1\\right]$. $e^{x^2}$ is defined $\\forall \\ x$, so $f \\circ g$ is defined on the entire domain.<br /><br />(b) **Continuity and Differentiability:**<br /><br />$\\sin^{-1} x$ and $2x$ are continuous and differentiable in $\\left(-\\dfrac{1}{2}, \\dfrac{1}{2}\\right)$. $e^{x^2}$ is continuous and differentiable everywhere.<br /><br />Thus, $f \\circ g(x)$ is continuous and differentiable in $\\left(-\\dfrac{1}{2}, \\dfrac{1}{2}\\right)$.<br /><br />(c) **Derivative:**<br /><br />$\\frac{d}{dx} \\left(f \\circ g(x)\\right) = f'(g(x)) \\cdot g'(x)$<br /><br />$g'(x) = \\dfrac{1}{\\sqrt{1-x^2}} + 2$ <br /><br />$f'(x) = 2x e^{x^2}$, so<br /><br />$\\frac{d}{dx} f \\circ g(x) = 2g(x) e^{[g(x)]^2}\\left(\\frac{1}{\\sqrt{1-x^2}} + 2\\right)$<br /><br />(d) **Integral:**<br /><br />Let $u = g(x) = \\sin^{-1} x + 2x$, then<br /><br />$du = \\left(\\frac{1}{\\sqrt{1-x^2}} + 2\\right)dx$<br /><br />The integral becomes involved, but one can proceed by substitution and change of variables:<br /><br />$\\int_{-1/2}^{1/2} e^{(\\sin^{-1} x + 2x)^2} dx$<br /><br />Let $u = \\sin^{-1} x + 2x$, $dx = \\dfrac{du}{\\frac{1}{\\sqrt{1-x^2}} + 2}$<br /><br />Limits: when $x = -1/2$, $u_1 = \\sin^{-1}(-1/2) - 1 = -\\frac{\\pi}{6} - 1$<br /><br />when $x = 1/2$, $u_2 = \\frac{\\pi}{6} + 1$<br /><br />Thus,<br /><br />Integral $= \\int_{u_1}^{u_2} \\frac{e^{u^2}}{\\frac{1}{\\sqrt{1-x^2}} + 2} du$<br /><br />But since $x$ and $u$ are related implicitly, for exact value either numerical integration or expressing in original variable is needed. Hence, this demonstrates skill in combining higher order thinking, change of variables, and analysis.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f\\circ g$ is well-defined because $g(x)=\\sin^{-1}x+2x$ is real on $[-\\frac12,\\frac12]$ and $f(u)=e^{u^2}$ is defined for all real $u$<br />(b) $f\\circ g$ is continuous and differentiable on $(-\\frac12,\\frac12)$<br />(c) $\\frac{d}{dx}(f\\circ g)(x)=2g(x)e^{[g(x)]^2}\\left(\\frac{1}{\\sqrt{1-x^2}}+2\\right)$<br />(d) With $u=g(x)$, the limits become $-\\frac{\\pi}{6}-1$ and $\\frac{\\pi}{6}+1$, but an exact elementary value is not obtained directly from the substitution",
+    "B": "(a) $f\\circ g$ is undefined on the interval<br />(b) It is discontinuous at $x=0$<br />(c) Derivative is $e^{x^2}$<br />(d) Integral is $0$",
+    "C": "(a) It is defined only at endpoints<br />(b) It is differentiable only at $x=0$<br />(c) Derivative is $2xe^{x^2}$<br />(d) Integral equals $e^{1/4}$",
+    "D": "(a) It is well-defined only if $g(x)\\in[-1,1]$<br />(b) It is not differentiable<br />(c) Derivative does not exist<br />(d) Integral is undefined"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:05:23 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

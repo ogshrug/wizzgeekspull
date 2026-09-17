@@ -1,0 +1,30 @@
+{
+  "id": "69a9bfc2d30adc5083911b50",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\sin^{-1}(2x\\sqrt{1-x^2}), \\ x \\in [0, 1]$.\n\n(a) Show that $f(x) = 2\\sin^{-1}(x)$, for $x \\in [0,1]$.\n\n(b) Find $f'(x)$.\n\n(c) Evaluate $f'(1/2)$ using the result above.\n\n(d) For $g(x) = x f(x)$, compute $g'(x)$ at $x=1/2$.\n\n(e) Find critical points of $g(x)$ in $[0,1]$.",
+  "answeroption": "A",
+  "explanation": "**Concepts being tested:** Inverse trigonometric identities, differentiation, chain/product rule, critical points.<br /><br />(a) Show $f(x)=2\\sin^{-1}(x)$<br />Recall: $\\sin^{-1}(2x\\sqrt{1-x^2}) = 2\\sin^{-1}(x)$ for $x \\in [0,1]$, as per the double angle formula of inverse sine.<br /><br />(b) $f'(x)$:<br />Let $u(x) = 2x\\sqrt{1-x^2}$.<br />$f'(x) = \\frac{d}{dx} \\sin^{-1}(u(x)) = \\frac{1}{\\sqrt{1-u^2}} u'(x)$<br /><br />$u'(x) = 2 \\left( \\sqrt{1-x^2} + x\\frac{-x}{\\sqrt{1-x^2}} \\right) = 2 \\left( \\sqrt{1-x^2} - \\frac{x^2}{\\sqrt{1-x^2}} \\right) = 2\\frac{(1-x^2)-x^2}{\\sqrt{1-x^2}} = 2\\frac{1-2x^2}{\\sqrt{1-x^2}}$<br /><br />Now $u^2 = 4x^2(1-x^2) = 4x^2-4x^4$<br />$1-u^2 = 1-4x^2+4x^4$<br /><br />Thus,<br />$f'(x) = \\frac{2(1-2x^2)}{\\sqrt{1-4x^2+4x^4}\\sqrt{1-x^2}}$<br /><br />(c) $f'(1/2)$:<br />$u(1/2) = 2 \\times\\frac{1}{2}\\sqrt{1-1/4} = \\frac{\\sqrt{3}}{2}$<br />$u^2 = \\frac{3}{4}$<br />$1-u^2 = \\frac{1}{4}$<br />$u'(1/2)=2\\frac{1-2(1/4)}{\\sqrt{1-1/4}}=\\frac{2}{\\sqrt{3}}$<br />$f'(1/2)=\\frac{2/\\sqrt{3}}{\\sqrt{1/4}}=\\frac{4}{\\sqrt{3}}$<br /><br />(d) $g(x)=x f(x) \\implies g'(x) = f(x)+x f'(x)$<br />At $x=1/2: f(1/2) = 2\\sin^{-1}(1/2) = \\frac{\\pi}{3}$<br />So $g'(1/2) = \\frac{\\pi}{3} + \\frac{1}{2}\\cdot\\frac{4}{\\sqrt{3}} = \\frac{\\pi}{3}+\\frac{2}{\\sqrt{3}}$<br /><br />(e) Critical points of $g(x)$:<br />Set $g'(x)=0$, i.e., $f(x)+x f'(x)=0$<br />That is $2\\sin^{-1}x+x f'(x)=0$<br />Solve in $[0,1]$ (can show that $x=0$ is one solution)<br />At $x=0$, $f(0)=0$, $f'(0)=2/1=2$. $g'(0)=0$. So $x=0$ is one critical point.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=2\\sin^{-1}x$<br />(b) $f'(x)=\\frac{2(1-2x^2)}{\\sqrt{1-4x^2+4x^4}\\sqrt{1-x^2}}$<br />(c) $f'\\left(\\frac{1}{2}\\right)=\\frac{4}{\\sqrt3}$<br />(d) $g'\\left(\\frac{1}{2}\\right)=\\frac{\\pi}{3}+\\frac{2}{\\sqrt3}$<br />(e) $x=0$ is a critical point of $g(x)$ in $[0,1]$",
+    "B": "(a) $f(x)=\\sin^{-1}x$<br />(b) $f'(x)=\\frac{1}{\\sqrt{1-x^2}}$<br />(c) $f'\\left(\\frac{1}{2}\\right)=\\frac{2}{\\sqrt3}$<br />(d) $g'\\left(\\frac{1}{2}\\right)=\\frac{\\pi}{6}+\\frac{1}{\\sqrt3}$<br />(e) $x=1$ is the only critical point",
+    "C": "(a) $f(x)=\\cos^{-1}x$<br />(b) $f'(x)=-\\frac{1}{\\sqrt{1-x^2}}$<br />(c) $f'\\left(\\frac{1}{2}\\right)=-\\frac{2}{\\sqrt3}$<br />(d) $g'\\left(\\frac{1}{2}\\right)=\\frac{\\pi}{3}-\\frac{2}{\\sqrt3}$<br />(e) No critical point exists",
+    "D": "(a) $f(x)=2\\cos^{-1}x$<br />(b) $f'(x)=-\\frac{2}{\\sqrt{1-x^2}}$<br />(c) $f'\\left(\\frac{1}{2}\\right)=-\\frac{4}{\\sqrt3}$<br />(d) $g'\\left(\\frac{1}{2}\\right)=\\frac{2\\pi}{3}-\\frac{2}{\\sqrt3}$<br />(e) $x=\\frac{1}{2}$ is the only critical point"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:39:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

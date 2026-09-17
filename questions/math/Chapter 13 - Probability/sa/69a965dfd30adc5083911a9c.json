@@ -1,0 +1,29 @@
+{
+  "id": "69a965dfd30adc5083911a9c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "A fair coin is tossed 5 times. What is the probability of getting at least 3 heads?",
+  "answeroption": "A",
+  "explanation": "$n=5$, $p=\\frac{1}{2}$ <br /> Required probability: <br /> $P(X \\geq 3) = P(3) + P(4) + P(5)$ <br /> $= \\binom{5}{3} \\left(\\frac{1}{2}\\right)^3 \\left(\\frac{1}{2}\\right)^2 + \\binom{5}{4}\\left(\\frac{1}{2}\\right)^4 \\left(\\frac{1}{2}\\right)^1 + \\binom{5}{5}\\left(\\frac{1}{2}\\right)^5$ <br /> $= 10 \\times \\frac{1}{8} \\times \\frac{1}{4} + 5 \\times \\frac{1}{16} \\times \\frac{1}{2} + 1 \\times \\frac{1}{32}$ <br /> Or directly: <br /> $= 10 \\times \\frac{1}{32} + 5 \\times \\frac{1}{32} + 1 \\times \\frac{1}{32} = \\frac{16}{32} = \\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}$",
+    "B": "$\\frac{5}{16}$",
+    "C": "$\\frac{3}{8}$",
+    "D": "$\\frac{16}{25}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:15:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

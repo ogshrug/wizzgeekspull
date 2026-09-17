@@ -1,0 +1,32 @@
+{
+  "id": "6a8e9f134b490c7cde35942d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d4e",
+    "69c65fbf40512f018fa94d4f",
+    "69c65fbf40512f018fa94d50",
+    "69c65fc040512f018fa94d56"
+  ],
+  "question_type": "LA",
+  "question": "The coordinates of four points $P(1,2)$, $Q(-2,3)$, $R(0,-1)$ and $S(4,1)$ are to be represented by a matrix $A=[a_{ij}]$ in which each column represents one point, the first row contains the $x$-coordinates and the second row contains the $y$-coordinates. Form the matrix $A$, determine its order and number of elements, identify $a_{23}$ and $a_{14}$, and hence obtain $A'$ explaining the information represented by each row of $A'$.",
+  "answeroption": "D",
+  "explanation": "<b>Formation of the Matrix</b><br><br>Since each column represents one point and the first and second rows contain the $x$-coordinates and $y$-coordinates respectively, $$A=\\begin{bmatrix}1&-2&0&4\\\\2&3&-1&1\\end{bmatrix}$$ The matrix has $2$ rows and $4$ columns. Therefore, its order is $2\\times4$ and the number of elements is $2\\times4=8$. Using the notation $A=[a_{ij}]$, the element $a_{23}$ lies in the second row and third column, so $a_{23}=-1$. Also, $a_{14}$ lies in the first row and fourth column, so $a_{14}=4$.<br><br><b>Transpose</b><br><br>The transpose is obtained by interchanging the rows and columns of $A$. Thus, $$A'=\\begin{bmatrix}1&2\\\\-2&3\\\\0&-1\\\\4&1\\end{bmatrix}$$ The order of $A'$ is $4\\times2$. Each row of $A'$ now contains the two coordinates of one of the points. Thus its rows represent $P(1,2)$, $Q(-2,3)$, $R(0,-1)$ and $S(4,1)$ respectively. Hence, the given coordinate information is represented consistently by both $A$ and its transpose.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A=\\begin{bmatrix}1&2&0&4\\\\-2&3&-1&1\\end{bmatrix}$, order $2\\times4$, $a_{23}=-1$, $a_{14}=4$",
+    "B": "$A=\\begin{bmatrix}1&-2&0&4\\\\2&3&-1&1\\end{bmatrix}$, order $4\\times2$, $a_{23}=-1$, $a_{14}=4$",
+    "C": "$A=\\begin{bmatrix}1&-2&0&4\\\\2&3&-1&1\\end{bmatrix}$, order $2\\times4$, $a_{23}=1$, $a_{14}=4$",
+    "D": "$A=\\begin{bmatrix}1&-2&0&4\\\\2&3&-1&1\\end{bmatrix}$, order $2\\times4$ with $8$ elements, $a_{23}=-1$, $a_{14}=4$, and $A'=\\begin{bmatrix}1&2\\\\-2&3\\\\0&-1\\\\4&1\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

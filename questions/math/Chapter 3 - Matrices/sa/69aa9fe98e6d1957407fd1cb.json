@@ -1,0 +1,30 @@
+{
+  "id": "69aa9fe98e6d1957407fd1cb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d63"
+  ],
+  "question_type": "SA",
+  "question": "Suppose $A$ is a $2 \\times 2$ symmetric and invertible matrix. Prove that $A^{-1}$ is also symmetric.",
+  "answeroption": "C",
+  "explanation": "Let $A$ be symmetric ($A' = A$) and invertible.<br /><br />- $(A^{-1})' = (A')^{-1}$ (from previous question).<br /><br />- Since $A$ is symmetric, $A' = A$ so $(A')^{-1} = A^{-1}$.<br /><br />- Thus, $(A^{-1})' = A^{-1}$.<br /><br />Therefore, $A^{-1}$ is symmetric as its transpose equals itself.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^{-1}$ is skew-symmetric because $A$ is symmetric",
+    "B": "$A^{-1}$ is not necessarily symmetric for any symmetric matrix",
+    "C": "$A^{-1}$ is symmetric because $(A^{-1})'=(A')^{-1}=A^{-1}$",
+    "D": "$A^{-1}$ is symmetric only when $A=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 09:35:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

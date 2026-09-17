@@ -1,0 +1,29 @@
+{
+  "id": "69aa79bb320763ee1b040676",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A wholesale distributor supplies flour and rice. Each kg flour takes 2 hours of labor, 1 hour for rice. 100 hours labor are available daily. At least 10 kg of each must be supplied. Each flour earns ₹30 profit; rice ₹20. What distribution maximizes profit?<br /><br />(a) Write the LPP.<br /><br />(b) Sketch and find feasible region corners.<br /><br />(c) Calculate the values giving the maximum profit.",
+  "answeroption": "C",
+  "explanation": "Let $x$ = kg flour, $y$ = kg rice.<br /><br />(a) LPP:<br /><br />Max $Z = 30x + 20y$<br /><br />$2x + y \\leq 100$<br /><br />$x \\geq 10, y \\geq 10$<br /><br />(b) $2x + y = 100$<br /><br />$x = 10$ (vertical), $y = 10$ (horizontal)<br /><br />Find where $x = 10$:<br /><br />$2*10 + y = 100 \\implies y = 100 - 20 = 80$ (10,80)<br /><br />Where $y = 10$:<br /><br />$2x + 10 = 100 \\implies 2x = 90 \\implies x = 45$ (45,10)<br /><br />At $x = y = 10$ (10,10)<br /><br />(c) Compute $Z$:<br /><br />At (10,80): $30*10 + 20*80 = 300 + 1600 = 1900$<br /><br />At (45,10): $30*45 + 20*10 = 1350 + 200 = 1550$<br /><br />At (10,10): $30*10 + 20*10 = 300 + 200 = 500$<br /><br />Maximum profit at (10,80): $Z=1900$. Supply 10 kg flour, 80 kg rice.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Max $Z=30x+20y$ with $2x+y\\leq100$, $x\\geq10$, $y\\geq10$<br />(b) Corners: $(10,10)$, $(45,10)$, $(10,80)$<br />(c) Supply 45 kg flour and 10 kg rice; maximum profit ₹1550.",
+    "B": "(a) Max $Z=30x+20y$ with $2x+y\\leq100$, $x\\geq10$, $y\\geq10$<br />(b) Corners: $(10,10)$, $(45,10)$, $(10,80)$<br />(c) Supply 10 kg flour and 10 kg rice; maximum profit ₹500.",
+    "C": "(a) Max $Z=30x+20y$ with $2x+y\\leq100$, $x\\geq10$, $y\\geq10$<br />(b) Corners: $(10,10)$, $(45,10)$, $(10,80)$<br />(c) Supply 10 kg flour and 80 kg rice; maximum profit ₹1900.",
+    "D": "(a) Max $Z=30x+20y$ with $2x+y\\leq100$, $x\\geq10$, $y\\geq10$<br />(b) Corners: $(10,10)$, $(50,0)$, $(10,80)$<br />(c) Supply 50 kg flour and 0 kg rice; maximum profit ₹1500."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:52:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

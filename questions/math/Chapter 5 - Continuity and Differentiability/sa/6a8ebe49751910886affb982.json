@@ -1,0 +1,30 @@
+{
+  "id": "6a8ebe49751910886affb982",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "SA",
+  "question": "Find the values of $a$ and $b$ for which the function $$f(x)=\\begin{cases}ax+b, & x\\leq 1\\\\x^2+1, & x>1\\end{cases}$$ is differentiable at $x=1$.",
+  "answeroption": "C",
+  "explanation": "<b>Continuity required for differentiability</b><br>Since differentiability at $x=1$ implies continuity there, $$a+b=1^2+1=2$$<br>Thus, $$a+b=2$$<br><b>Equality of one-sided derivatives</b><br>For $x<1$, $f'(x)=a$. Hence the left-hand derivative at $x=1$ is $a$.<br>For $x>1$, $f'(x)=2x$. Hence the right-hand derivative at $x=1$ is $2$.<br>Therefore, differentiability requires $$a=2$$<br><b>Determining $b$</b><br>Substituting $a=2$ in $a+b=2$, $$2+b=2$$<br>$$b=0$$<br>Hence, $a=2$ and $b=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=1,\\ b=1$",
+    "B": "$a=0,\\ b=2$",
+    "C": "$a=2,\\ b=0$",
+    "D": "$a=2,\\ b=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

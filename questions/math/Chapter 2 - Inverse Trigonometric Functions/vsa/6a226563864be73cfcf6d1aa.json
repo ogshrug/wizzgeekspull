@@ -1,0 +1,29 @@
+{
+  "id": "6a226563864be73cfcf6d1aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "VSA",
+  "question": "Find the domain of $f(x)=\\sin^{-1}(-x^{2})$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The standard domain for the inverse sine function, $y = \\sin^{-1}(z)$, is restricted to $-1 \\le z \\le 1$.<br />**Step 2:** For the given function $f(x) = \\sin^{-1}(-x^2)$, substitute the argument into the domain inequality: $-1 \\le -x^2 \\le 1$.<br />**Step 3:** Multiply the entire inequality by $-1$, which reverses the direction of the inequality signs: $1 \\ge x^2 \\ge -1$, or rewritten: $-1 \\le x^2 \\le 1$.<br />**Step 4:** Analyze the new inequality. We know that the square of any real number is always non-negative, meaning $x^2 \\ge 0$ is inherently true for all real $x$.<br />**Step 5:** Thus, we only need to solve the upper bound condition: $x^2 \\le 1$.<br />**Step 6:** Taking the square root of both sides gives $|x| \\le 1$, which translates to the closed interval $[-1, 1]$. Therefore, the domain of $f(x)$ is $[-1, 1]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

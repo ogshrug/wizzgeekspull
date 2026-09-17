@@ -1,0 +1,30 @@
+{
+  "id": "69aa6e38d30adc5083911b8c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\begin{cases} x^2 \\sin\\left(\\frac{1}{x}\\right), & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$ and let $g(x) = |x|^a$ for a real number $a > 0$. Define $h(x) = f(x) \\cdot g(x)$. \n\n(a) For which values of $a$ is $h$ continuous at $x=0$? Justify your answer.\n\n(b) For which values of $a$ is $h$ differentiable at $x=0$? Provide a proof.\n\n(c) If $a = 2$, determine $h''(0)$, if it exists, and prove your conclusion.\n\n(d) Suppose $q(x) = h(x)$ for $a=3$, and $Q$ is the $2\\times2$ matrix with entries $Q_{ij} = \\frac{\\partial^2 q}{\\partial x^2}(i+j-4)$, $i, j = 1,2$. Compute $\\det Q$.",
+  "answeroption": "D",
+  "explanation": "**Concepts tested:** Continuity, differentiability, application of higher-order derivatives, matrices, determinants.<br /><br />(a) For $x \\to 0$, $h(x) = x^2 \\sin(1/x) \\cdot |x|^a$ for $x \\neq 0$, $h(0)=0$.<br /><br />$|\\sin(1/x)| \\leq 1$, so $|h(x)| \\leq |x|^{2+a}$.<br /><br />Therefore, $\\lim_{x\\to0} h(x)=0$ for any $a>0$; $h$ is continuous at $x=0$ for all $a>0$.<br /><br />(b) For differentiability at $x=0$:<br /><br />$h'(0) = \\lim_{x \\to 0} \\frac{h(x) - h(0)}{x-0} = \\lim_{x \\to 0} \\frac{x^2 \\sin(1/x) |x|^a}{x}$<br /><br />$= \\lim_{x \\to 0} x \\sin(1/x) |x|^a$<br /><br />$= \\lim_{x \\to 0} \\operatorname{sgn}(x) |x|^{a+1} \\sin(1/x)$<br /><br />$|h'(x)| \\leq |x|^{a+1}$, $\\lim_{x \\to 0} |x|^{a+1}=0$, for all $a>0$.<br /><br />Therefore, $h'(0)=0$. (Actually, we must check if $h'(x)$ itself is continuous at $x=0$, for differentiability.)<br /><br />For $x\\neq0$:<br /><br />$h'(x) = \\left(2x \\sin\\left(\\frac{1}{x}\\right) - \\cos\\left(\\frac{1}{x}\\right)\\right) |x|^{a} + x^2 \\sin\\left(\\frac{1}{x}\\right) a |x|^{a-1} \\cdot \\operatorname{sgn}(x)$<br /><br />For continuity of $h'(x)$ at $x=0$, dominant term near $x=0$ is $|x|^{a-1}$; to ensure $h'(x)$ tends to $h'(0)=0$, require $a > 1$.<br /><br />So, $h(x)$ is differentiable at $x=0$ for $a>1$.<br /><br />(c) For $a=2$:<br /><br />Second derivative $h''(0)$ is:<br /><br />$h''(0) = \\lim_{x \\to 0} \\frac{h'(x) - h'(0)}{x}$<br /><br />First term: $2x \\sin(1/x) |x|^2 \\sim 2x^3 \\sin(1/x)$, goes to 0 as $x \\to 0$.<br /><br />Second term: $- \\cos(1/x) |x|^{2}$, bounded by $|x|^2$.<br /><br />Third term: $x^2 \\sin(1/x) \\cdot 2|x|^{1} \\operatorname{sgn}(x) = 2x^3 \\operatorname{sgn}(x) \\sin(1/x)$.<br /><br />So, $|h'(x)| \\leq c|x|^2$ for some $c$. Therefore,<br /><br />$\\lim_{x \\to 0} \\frac{h'(x)}{x} \\to 0$.<br /><br />Hence, $h''(0)=0$.<br /><br />(d) For $a=3$, $q(x) = x^2 \\sin(1/x) |x|^3$ for $x\\neq0$, $q(0)=0$.<br /><br />Entries are $q''(i+j-4)$. The possible values are:<br />$i=1,j=1 \\to -2$<br />$i=1,j=2$ and $i=2,j=1 \\to -1$<br />$i=2,j=2 \\to 0$.<br /><br />So:<br /><br />$Q = \\begin{pmatrix} q''(-2) & q''(-1) \\\\ q''(-1) & q''(0) \\end{pmatrix}$<br /><br />Since $q''(0)=0$, let $a = q''(-1)$ and $b = q''(-2)$.<br /><br />$\\det Q = b \\cdot 0 - a^2 = -a^2$.<br /><br />So, $\\boxed{-[q''(-1)]^2}$ is the determinant.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $h$ is continuous only for $a>2$<br />(b) $h$ is differentiable only for $a>2$<br />(c) For $a=2$, $h''(0)=1$<br />(d) $\\det Q=[q''(-1)]^2$",
+    "B": "(a) $h$ is continuous for all $a>0$<br />(b) $h$ is differentiable for all $a>0$<br />(c) For $a=2$, $h''(0)$ does not exist<br />(d) $\\det Q=0$",
+    "C": "(a) $h$ is continuous only for $a=1$<br />(b) $h$ is differentiable only for $a=1$<br />(c) For $a=2$, $h''(0)=-1$<br />(d) $\\det Q=q''(-2)q''(0)$",
+    "D": "(a) $h$ is continuous at $x=0$ for all $a>0$<br />(b) Using the given derivative analysis, $h$ is differentiable at $x=0$ for $a>1$<br />(c) For $a=2$, $h''(0)=0$<br />(d) For $a=3$, $Q=\\begin{pmatrix}q''(-2)&q''(-1)\\\\q''(-1)&q''(0)\\end{pmatrix}$ with $q''(0)=0$, so $\\det Q=-[q''(-1)]^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:03:36 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

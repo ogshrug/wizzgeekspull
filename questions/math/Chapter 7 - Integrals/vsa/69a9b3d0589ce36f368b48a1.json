@@ -1,0 +1,29 @@
+{
+  "id": "69a9b3d0589ce36f368b48a1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "VSA",
+  "question": "If $F(x)$ is an antiderivative of $\\frac{1}{\\sqrt{1-x^2}}$ with $F(0)=0$, find $F(\\frac{1}{2})$.",
+  "answeroption": "B",
+  "explanation": "We know $\\int \\frac{1}{\\sqrt{1-x^2}}dx=\\sin^{-1}x+C$.<br /><br />Given $F(0)=0$, so $0=\\sin^{-1}(0)+C$ giving $C=0$.<br /><br />Thus $F(x)=\\sin^{-1}x$.<br /><br />Therefore $F(\\frac{1}{2})=\\sin^{-1}(\\frac{1}{2})=\\frac{\\pi}{6}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{3}$",
+    "B": "$\\frac{\\pi}{6}$",
+    "C": "$\\frac{\\pi}{4}$",
+    "D": "$\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:48:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

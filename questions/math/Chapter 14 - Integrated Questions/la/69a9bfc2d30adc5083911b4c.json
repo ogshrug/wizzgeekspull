@@ -1,0 +1,30 @@
+{
+  "id": "69a9bfc2d30adc5083911b4c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Given the function $f(x) = \\sin^{-1}(2x\\sqrt{1-x^2})$, where $x \\in \\left[0, \\frac{1}{\\sqrt{2}}\\right]$:\n\n(a) Express $f(x)$ purely in terms of $\\sin^{-1}x$.\n\n(b) Prove $f(x)$ is continuous and differentiable in its domain.\n\n(c) Find $\\frac{df}{dx}$ and evaluate $\\frac{df}{dx}$ at $x=\\frac{1}{2}$.\n\n(d) Show that $f(\\sin \\theta) = 2\\theta$ for $\\theta \\in \\left[0, \\frac{\\pi}{4}\\right]$.\n\n(e) What can be concluded about the nature (invertibility and composition) of $f(x)$?",
+  "answeroption": "C",
+  "explanation": "**Concepts being tested:** Inverse Trigonometric Functions, Continuity & Differentiability, Application of Derivatives<br /><br />(a)<br />Let $x = \\sin \\theta$, $\\theta \\in [0, \\frac{\\pi}{4}]$.<br /><br />$2x\\sqrt{1-x^2} = 2\\sin\\theta \\cdot \\cos\\theta = \\sin 2\\theta$<br /><br />So $f(x) = \\sin^{-1}(\\sin 2\\theta) = 2\\theta$<br /><br />But $\\theta = \\sin^{-1}x$<br /><br />Thus $f(x) = 2 \\sin^{-1}x$<br /><br />(b)<br />$\\sin^{-1}x$ is continuous and differentiable on $[0, \\frac{1}{\\sqrt{2}}]$.<br />A scalar multiple is also continuous and differentiable, so $f(x)$ is.<br /><br />(c)<br />$\\frac{df}{dx} = 2 \\cdot \\frac{1}{\\sqrt{1-x^2}}$<br /><br />At $x=\\frac{1}{2}$:<br />$\\frac{df}{dx}\\bigg|_{x=1/2} = 2 \\cdot \\frac{1}{\\sqrt{1-(1/2)^2}}$<br />$= 2 \\cdot \\frac{1}{\\sqrt{1-1/4}}$<br />$= 2 \\cdot \\frac{1}{\\sqrt{3/4}}$<br />$= 2 \\cdot \\frac{1}{\\sqrt{3}/2}$<br />$= 2 \\cdot \\frac{2}{\\sqrt{3}} = \\frac{4}{\\sqrt{3}}$<br /><br />(d)<br />For $x=\\sin\\theta$, $f(\\sin\\theta) = \\sin^{-1}(\\sin 2\\theta) = 2\\theta$ since $2\\theta \\in [0, \\frac{\\pi}{2}]$ for $\\theta \\in [0, \\frac{\\pi}{4}]$.<br />So proved.<br /><br />(e)<br />Since $f(x)$ is a composition of invertible functions on $[0, \\frac{1}{\\sqrt{2}}]$, and $2\\sin^{-1}$ is strictly increasing, $f$ is invertible and its inverse is $\\sin(\\frac{x}{2})$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=\\sin^{-1}x$<br />(b) $f$ is continuous but not differentiable<br />(c) $\\frac{df}{dx}=\\frac{1}{\\sqrt{1-x^2}}$, and at $x=\\frac12$ it is $\\frac{2}{\\sqrt3}$<br />(d) $f(\\sin\\theta)=\\theta$<br />(e) $f$ is not invertible",
+    "B": "(a) $f(x)=2\\cos^{-1}x$<br />(b) $f$ is discontinuous at $x=0$<br />(c) $\\frac{df}{dx}=-\\frac{2}{\\sqrt{1-x^2}}$, and at $x=\\frac12$ it is $-\\frac{4}{\\sqrt3}$<br />(d) $f(\\sin\\theta)=\\frac{\\pi}{2}-2\\theta$<br />(e) $f$ is decreasing and not invertible",
+    "C": "(a) $f(x)=2\\sin^{-1}x$<br />(b) $f$ is continuous and differentiable on $\\left[0,\\frac{1}{\\sqrt2}\\right]$<br />(c) $\\frac{df}{dx}=\\frac{2}{\\sqrt{1-x^2}}$, and at $x=\\frac12$ it is $\\frac{4}{\\sqrt3}$<br />(d) $f(\\sin\\theta)=2\\theta$ for $\\theta\\in\\left[0,\\frac{\\pi}{4}\\right]$<br />(e) $f$ is strictly increasing, invertible, and $f^{-1}(x)=\\sin\\left(\\frac{x}{2}\\right)$",
+    "D": "(a) $f(x)=\\tan^{-1}x$<br />(b) $f$ is differentiable only at $x=\\frac12$<br />(c) $\\frac{df}{dx}=\\frac{1}{1+x^2}$, and at $x=\\frac12$ it is $\\frac45$<br />(d) $f(\\sin\\theta)=\\tan^{-1}(\\sin\\theta)$<br />(e) $f$ is many-one"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:39:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

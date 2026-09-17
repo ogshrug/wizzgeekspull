@@ -1,0 +1,26 @@
+{
+  "id": "6a2fe4e1e9d6ca4a0a42b144",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "VSA",
+  "question": "Three friends A, B and C got their photograph clicked. Find the probability that B is standing at the central position, given that A is standing at the left corner.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let event $E$ be 'A is at the left corner' and event $F$ be 'B is in the central position'.<br />**Step 2:** The total number of permutations of the three friends A, B, and C standing in a line is $3! = 6$. The outcomes where A is at the left corner are $\\{ABC, ACB\\}$, so $n(E) = 2$.<br />**Step 3:** The outcomes where A is on the left AND B is in the center ($E \\cap F$) is strictly the arrangement $\\{ABC\\}$, so $n(E \\cap F) = 1$.<br />**Step 4:** Using the conditional probability formula, $P(F|E) = \\frac{n(E \\cap F)}{n(E)} = \\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

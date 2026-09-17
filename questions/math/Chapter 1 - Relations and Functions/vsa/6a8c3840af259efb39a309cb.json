@@ -1,0 +1,29 @@
+{
+  "id": "6a8c3840af259efb39a309cb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "VSA",
+  "question": "On $\\mathbb{N}$, define $R$ by $aRb$ if $a=2b$. It is known that $8R4$ and $4R2$. Determine whether $8R2$ holds, and hence decide whether these values satisfy the transitive condition.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> The relation requires $aRb$ precisely when $a=2b$.<br><b>Step 2:</b> For $8R4$, we have $8=2(4)$, so the first relation is true.<br><b>Step 3:</b> For $4R2$, we have $4=2(2)$, so the second relation is also true.<br><b>Step 4:</b> If the transitive condition were satisfied, $8R2$ would also have to hold.<br><b>Step 5:</b> But $8R2$ would require $8=2(2)=4$, which is false.<br><b>Final Answer:</b> $8R2$ does not hold. Hence, the transitive condition fails for these elements.",
+  "explanation_image": [],
+  "options": {
+    "A": "$8R2$ holds, so the transitive condition is satisfied",
+    "B": "$8R2$ holds, but the transitive condition fails",
+    "C": "$8R2$ does not hold, so the transitive condition fails",
+    "D": "$8R2$ does not hold, but the transitive condition is satisfied"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a902dc4be0ecc7866e90cc8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "LA",
+  "question": "Two fair dice are thrown simultaneously. Given that the product of the numbers obtained is even, determine the probability that the sum of the numbers obtained is greater than 8.",
+  "answeroption": "B",
+  "explanation": "<b>Given Information</b><br>Let $F$ be the event that the product of the numbers obtained is even, and let $E$ be the event that their sum is greater than $8$. There are $36$ equally likely ordered outcomes when two fair dice are thrown.<br><br>The product is odd only when both dice show odd numbers. Each die has three odd numbers, namely $1,3,5$. Hence the number of outcomes for which the product is odd is $3\\times3=9$. Therefore, the number of outcomes in $F$ is $36-9=27$, so<br>$$P(F)=\\frac{27}{36}=\\frac{3}{4}.$$<br><br><b>Evaluation of the Common Event</b><br>The outcomes having sum greater than $8$ are $(3,6),(4,5),(5,4),(6,3),(4,6),(5,5),(6,4),(5,6),(6,5),(6,6)$. Among these, only $(5,5)$ has an odd product. Hence $9$ outcomes belong to $E\\cap F$. Thus,<br>$$P(E\\cap F)=\\frac{9}{36}=\\frac{1}{4}.$$<br><br>Using the conditional probability formula,<br>$$P(E|F)=\\frac{P(E\\cap F)}{P(F)}=\\frac{\\frac{1}{4}}{\\frac{3}{4}}=\\frac{1}{3}.$$<br><br><b>Final Result</b><br>Therefore, the required conditional probability is $\\frac{1}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{4}$",
+    "B": "$\\frac{1}{3}$",
+    "C": "$\\frac{5}{18}$",
+    "D": "$\\frac{3}{8}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

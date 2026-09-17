@@ -1,0 +1,29 @@
+{
+  "id": "6a902dc5be0ecc7866e90ccd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "LA",
+  "question": "Three events $A$, $B$ and $C$ satisfy $P(A)=\\frac{1}{2}$, $P(B)=\\frac{1}{3}$, $P(C)=\\frac{1}{4}$, $P(A\\cap B)=\\frac{1}{6}$, $P(B\\cap C)=\\frac{1}{12}$, $P(C\\cap A)=\\frac{1}{8}$ and $P(A\\cap B\\cap C)=\\frac{1}{24}$. Examine whether the three events are mutually independent and hence determine the probability that at least one of them occurs.",
+  "answeroption": "D",
+  "explanation": "<b>Verification of Independence</b><br>For three events to be mutually independent, each pair must satisfy the product condition and the probability of their common intersection must equal the product of their individual probabilities.<br><br>We have<br>$$P(A)P(B)=\\frac{1}{2}\\times\\frac{1}{3}=\\frac{1}{6}=P(A\\cap B),$$<br>$$P(B)P(C)=\\frac{1}{3}\\times\\frac{1}{4}=\\frac{1}{12}=P(B\\cap C),$$<br>and<br>$$P(C)P(A)=\\frac{1}{4}\\times\\frac{1}{2}=\\frac{1}{8}=P(C\\cap A).$$<br>Also,<br>$$P(A)P(B)P(C)=\\frac{1}{2}\\times\\frac{1}{3}\\times\\frac{1}{4}=\\frac{1}{24}=P(A\\cap B\\cap C).$$<br>Hence $A$, $B$ and $C$ are mutually independent.<br><br><b>Evaluation</b><br>The event that at least one of $A$, $B$ and $C$ occurs is $A\\cup B\\cup C$. Using the addition rule for three events,<br>$$P(A\\cup B\\cup C)=P(A)+P(B)+P(C)-P(A\\cap B)-P(B\\cap C)-P(C\\cap A)+P(A\\cap B\\cap C).$$<br>Substituting the values,<br>$$P(A\\cup B\\cup C)=\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{4}-\\frac{1}{6}-\\frac{1}{12}-\\frac{1}{8}+\\frac{1}{24}.$$<br>Taking denominator $24$,<br>$$P(A\\cup B\\cup C)=\\frac{12+8+6-4-2-3+1}{24}=\\frac{18}{24}=\\frac{3}{4}.$$<br><br><b>Final Result</b><br>The events $A$, $B$ and $C$ are mutually independent, and the probability that at least one of them occurs is $\\frac{3}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The events are pairwise independent but not mutually independent; $P(A\\cup B\\cup C)=\\frac{3}{4}$",
+    "B": "The events are mutually independent; $P(A\\cup B\\cup C)=\\frac{5}{8}$",
+    "C": "The events are not mutually independent; $P(A\\cup B\\cup C)=\\frac{7}{8}$",
+    "D": "The events are mutually independent; $P(A\\cup B\\cup C)=\\frac{3}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

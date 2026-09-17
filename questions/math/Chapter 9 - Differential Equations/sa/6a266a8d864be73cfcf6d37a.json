@@ -1,0 +1,29 @@
+{
+  "id": "6a266a8d864be73cfcf6d37a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $\\frac{dy}{dx}=\\frac{x+y}{x},y(1)=0.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the differential equation $\\frac{dy}{dx} = \\frac{x+y}{x}$ by splitting the fraction on the right-hand side: $\\frac{dy}{dx} = 1 + \\frac{y}{x}$. Rearranging the terms into standard linear form gives: $\\frac{dy}{dx} - \\frac{1}{x}y = 1$. This matches the first-order linear differential form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x) = -\\frac{1}{x}$ and $Q(x) = 1$.<br />**Step 2:** Compute the integrating factor ($IF$) using the standard formula: $IF = e^{\\int P(x) dx} = e^{\\int -\\frac{1}{x} dx} = e^{-\\log|x|} = \\frac{1}{x}$. The template for the general solution is $y \\cdot (IF) = \\int Q(x) \\cdot (IF) dx + C$. Substituting our terms yields: $y \\cdot \\frac{1}{x} = \\int 1 \\cdot \\frac{1}{x} dx + C \\implies \\frac{y}{x} = \\log|x| + C$. Multiplying through by $x$ gives the general solution: $y = x\\log|x| + Cx$.<br />**Step 3:** Apply the given initial condition $y(1) = 0$, which means $y = 0$ when $x = 1$. Substituting these coordinates into our general equation gives: $0 = 1\\log(1) + C(1)$. Since $\\log(1) = 0$, we find that $C = 0$. Substituting $C = 0$ back into the general template gives the final particular solution: $y = x\\log|x|$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

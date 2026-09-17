@@ -1,0 +1,29 @@
+{
+  "id": "6a902dc4be0ecc7866e90ccb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "LA",
+  "question": "Let $A$ and $B$ be independent events with $P(A)=\\frac{2}{5}$ and $P(B)=\\frac{3}{7}$. Establish that $A$ and $B'$ are also independent and hence determine $P(A\\cup B')$.",
+  "answeroption": "C",
+  "explanation": "<b>Required Condition</b><br>Since $A$ and $B$ are independent,<br>$$P(A\\cap B)=P(A)P(B)=\\frac{2}{5}\\times\\frac{3}{7}=\\frac{6}{35}.$$<br>Also,<br>$$P(B')=1-P(B)=1-\\frac{3}{7}=\\frac{4}{7}.$$<br><br>The event $A$ can be written as the disjoint union of $A\\cap B$ and $A\\cap B'$. Hence,<br>$$P(A\\cap B')=P(A)-P(A\\cap B)=\\frac{2}{5}-\\frac{6}{35}=\\frac{14-6}{35}=\\frac{8}{35}.$$<br>On the other hand,<br>$$P(A)P(B')=\\frac{2}{5}\\times\\frac{4}{7}=\\frac{8}{35}.$$<br>Thus,<br>$$P(A\\cap B')=P(A)P(B'),$$<br>which establishes that $A$ and $B'$ are independent.<br><br><b>Evaluation</b><br>Using the addition rule,<br>$$P(A\\cup B')=P(A)+P(B')-P(A\\cap B').$$<br>Therefore,<br>$$P(A\\cup B')=\\frac{2}{5}+\\frac{4}{7}-\\frac{8}{35}=\\frac{14+20-8}{35}=\\frac{26}{35}.$$<br><br><b>Final Result</b><br>Hence, $A$ and $B'$ are independent and $P(A\\cup B')=\\frac{26}{35}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ and $B'$ are not independent; $P(A\\cup B')=\\frac{22}{35}$",
+    "B": "$A$ and $B'$ are independent; $P(A\\cup B')=\\frac{6}{7}$",
+    "C": "$A$ and $B'$ are independent; $P(A\\cup B')=\\frac{26}{35}$",
+    "D": "$A$ and $B'$ are not independent; $P(A\\cup B')=\\frac{26}{35}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

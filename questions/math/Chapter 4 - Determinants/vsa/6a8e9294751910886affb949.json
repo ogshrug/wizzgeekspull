@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9294751910886affb949",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6b"
+  ],
+  "question_type": "VSA",
+  "question": "Find the area of the triangle with vertices $(2,1)$, $(5,1)$ and $(k,5)$. Comment on whether its area depends on $k$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Apply the determinant formula</b><br>The area is $$\\frac{1}{2}\\left|\\begin{vmatrix}2&1&1\\\\5&1&1\\\\k&5&1\\end{vmatrix}\\right|$$<br><b>Step 2: Expand the determinant</b><br>The determinant equals $$2(1-5)-1(5-k)+(25-k)$$<br><b>Step 3: Simplify</b><br>This gives $$-8-5+k+25-k=12$$ Notice that the terms containing $k$ cancel.<br><b>Step 4: Calculate and interpret the area</b><br>Therefore, the area is $$\\frac{1}{2}|12|=6$$ square units. Hence, the area is independent of $k$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$6$ square units; the area is independent of $k$.",
+    "B": "$6k$ square units; the area depends on $k$.",
+    "C": "$12$ square units; the area is independent of $k$.",
+    "D": "$|k-6|$ square units; the area depends on $k$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

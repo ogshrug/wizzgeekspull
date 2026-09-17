@@ -1,0 +1,34 @@
+{
+  "id": "6a2669db864be73cfcf6d369",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d51",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "MCQ",
+  "question": "If $x\\begin{bmatrix}1\\\\2\\end{bmatrix}+y\\begin{bmatrix}2\\\\5\\end{bmatrix}=\\begin{bmatrix}4\\\\9\\end{bmatrix}$ then:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Multiply the scalar variables $x$ and $y$ inside the individual column matrices to combine them into a single linear system matrix:  \n$$\\begin{bmatrix}x\\\\2x\\end{bmatrix}+\\begin{bmatrix}2y\\\\5y\\end{bmatrix}=\\begin{bmatrix}4\\\\9\\end{bmatrix}$$  \nAdding these two matrices together by summing their matching vertical index components yields a single integrated coordinate column vector:  \n$$\\begin{bmatrix}x+2y\\\\2x+5y\\end{bmatrix}=\\begin{bmatrix}4\\\\9\\end{bmatrix}$$<br /><br />**Step 2:** By equating matching components, we get a system of two linear equations:  \n$x + 2y = 4$ (Equation 1)  \n$2x + 5y = 9$ (Equation 2)<br /><br />**Step 3:** To eliminate $x$, multiply Equation 1 by 2 to get $2x + 4y = 8$. Subtracting this new equation from Equation 2 isolates $y$:  \n$$(2x + 5y) - (2x + 4y) = 9 - 8 \\Rightarrow y = 1$$<br /><br />**Step 4:** Substitute the evaluated value $y = 1$ back into our first original linear equation to solve for the remaining variable component:  \n$$x + 2(1) = 4 \\Rightarrow x + 2 = 4 \\Rightarrow x = 2$$<br /><br />**Step 5:** Therefore, the parameters match $x = 2$ and $y = 1$, corresponding to option **B**.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=1, y=2$",
+    "B": "$x=2, y=1$",
+    "C": "$x=1, y=-1$",
+    "D": "$x=3, y=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

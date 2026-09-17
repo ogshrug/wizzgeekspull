@@ -1,0 +1,34 @@
+{
+  "id": "6a22788b864be73cfcf6d1d3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "AR",
+  "question": "**Assertion (A):** Set of values of $\\sec^{-1}(\\frac{\\sqrt{3}}{2})$ is a null set.<br />**Reason (R):** $\\sec^{-1}x$ is defined for $x\\in R-(-1,1)$.",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Analyze Reason (R). The domain of the inverse secant function, $\\sec^{-1}x$, is indeed all real numbers excluding the open interval $(-1, 1)$. This means $|x| \\ge 1$. The reason is true.<br />**Step 2:** Analyze Assertion (A). We need to evaluate the argument $\\frac{\\sqrt{3}}{2}$.<br />**Step 3:** Calculate the approximate value: $\\sqrt{3} \\approx 1.732$, so $\\frac{\\sqrt{3}}{2} \\approx 0.866$.<br />**Step 4:** Observe that $0.866$ strictly falls inside the interval $(-1, 1)$.<br />**Step 5:** Since the argument is outside the defined domain of the function, the expression has no real values. The set of values is indeed a null set. The assertion is true, and the reason correctly explains why.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

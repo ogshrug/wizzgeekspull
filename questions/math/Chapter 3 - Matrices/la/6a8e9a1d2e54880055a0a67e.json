@@ -1,0 +1,31 @@
+{
+  "id": "6a8e9a1d2e54880055a0a67e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d4f",
+    "69c65fbf40512f018fa94d50",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "LA",
+  "question": "Let $A=[a_{ij}]$ and $B=[b_{ij}]$ be matrices of order $3\\times3$ whose elements are defined by $a_{ij}=2i-j$ and $b_{ij}=i+j$, where $1\\leq i,j\\leq3$. Construct the matrices $A$ and $B$ and hence determine the matrix $2A-B$ together with its order.",
+  "answeroption": "C",
+  "explanation": "<b>Formation of the Matrices</b><br><br>For $A=[a_{ij}]$, the elements are given by $a_{ij}=2i-j$. Substituting $i,j=1,2,3$, we obtain $a_{11}=1$, $a_{12}=0$, $a_{13}=-1$, $a_{21}=3$, $a_{22}=2$, $a_{23}=1$, $a_{31}=5$, $a_{32}=4$ and $a_{33}=3$. Hence, $$A=\\begin{bmatrix}1&0&-1\\\\3&2&1\\\\5&4&3\\end{bmatrix}$$ Similarly, for $B=[b_{ij}]$, $b_{ij}=i+j$. Therefore, $$B=\\begin{bmatrix}2&3&4\\\\3&4&5\\\\4&5&6\\end{bmatrix}$$<br><br><b>Evaluation</b><br><br>Multiplying each element of $A$ by $2$, $$2A=\\begin{bmatrix}2&0&-2\\\\6&4&2\\\\10&8&6\\end{bmatrix}$$ Therefore, $$2A-B=\\begin{bmatrix}2&0&-2\\\\6&4&2\\\\10&8&6\\end{bmatrix}-\\begin{bmatrix}2&3&4\\\\3&4&5\\\\4&5&6\\end{bmatrix}$$ $$2A-B=\\begin{bmatrix}0&-3&-6\\\\3&0&-3\\\\6&3&0\\end{bmatrix}$$ Since the resulting matrix contains three rows and three columns, its order is $3\\times3$. Thus, the required matrix is $\\begin{bmatrix}0&-3&-6\\\\3&0&-3\\\\6&3&0\\end{bmatrix}$ of order $3\\times3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2A-B=\\begin{bmatrix}0&3&6\\\\-3&0&3\\\\-6&-3&0\\end{bmatrix}$, of order $3\\times3$",
+    "B": "$2A-B=\\begin{bmatrix}0&-3&-6\\\\3&0&-3\\\\6&3&1\\end{bmatrix}$, of order $3\\times3$",
+    "C": "$2A-B=\\begin{bmatrix}0&-3&-6\\\\3&0&-3\\\\6&3&0\\end{bmatrix}$, of order $3\\times3$",
+    "D": "$2A-B=\\begin{bmatrix}0&-1&-2\\\\1&0&-1\\\\2&1&0\\end{bmatrix}$, of order $3\\times3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

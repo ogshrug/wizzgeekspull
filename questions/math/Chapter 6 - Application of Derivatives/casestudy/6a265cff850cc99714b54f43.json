@@ -1,0 +1,31 @@
+{
+  "id": "6a265cff850cc99714b54f43",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A store has been selling calculators at ₹350 each. A market survey indicates that a reduction in the price ($p$) of a calculator increases the number of units ($x$) sold. The relation between the price and quantity sold is given by the demand function $p = 450 - \\frac{1}{2}x$.<br /><br />Based on the above information, answer the following questions:<br />**(i)** Determine the number of units ($x$) that should be sold to maximise the revenue $R(x)=xp(x)$. Also, verify the result.<br />**(ii)** What rebate in the price of a calculator should the store give to maximise the revenue?",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Set up the revenue model expression: $R(x) = x \\cdot p = x\\left(450 - \\frac{1}{2}x\\right) = 450x - \\frac{1}{2}x^2$.<br />**Step 2:** Compute first derivative and set to zero: $R'(x) = 450 - x = 0 \\implies x = 450$.<br />**Step 3:** Check optimization using second derivative: $R''(x) = -1 < 0$, which confirms maximum configuration at 450 units.<br /><br />**(ii)** **Step 1:** Calculate the optimal target price by substituting $x=450$: $p = 450 - \\frac{1}{2}(450) = 225$.<br />**Step 2:** Compute price reduction from baseline value: $\\text{Rebate} = 350 - 225 = 125$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a265cff850cc99714b54f43/1782263282-0.png?t=1782283083363"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

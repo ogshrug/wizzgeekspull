@@ -1,0 +1,33 @@
+{
+  "id": "6a227692864be73cfcf6d1d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "AR",
+  "question": "**Assertion (A):** Let $f(x)=e^{x}$ and $g(x)=\\log x$. Then $(f+g)x=e^{x}+\\log x$, where domain of $(f+g)$ is $R$.<br />**Reason (R):** $Dom(f+g)=Dom(f)\\cap Dom(g)$.",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Analyze Reason (R). A fundamental rule of algebra of functions dictates that the domain of the sum of two distinct functions is the intersection of their individual domains. Therefore, Reason (R) is a mathematically true statement.<br />**Step 2:** Analyze Assertion (A). First, determine the domain of $f(x) = e^x$. The exponential function is valid and defined for all real numbers, so $Dom(f) = \\mathbb{R}$.<br />**Step 3:** Next, determine the domain of $g(x) = \\log x$. The natural logarithmic function is strictly defined only for positive real numbers, meaning $Dom(g) = (0, \\infty)$.<br />**Step 4:** Find the intersection of these two sets: $Dom(f+g) = \\mathbb{R} \\cap (0, \\infty) = (0, \\infty)$.<br />**Step 5:** Assertion (A) claims the domain of $(f+g)$ is $\\mathbb{R}$, which directly contradicts our calculation of $(0, \\infty)$. Therefore, Assertion (A) is false.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

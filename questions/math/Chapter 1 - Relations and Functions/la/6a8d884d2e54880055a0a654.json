@@ -1,0 +1,30 @@
+{
+  "id": "6a8d884d2e54880055a0a654",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $f:\\mathbb{N}\\to\\mathbb{N}$ be defined by $f(n)=\\frac{n+1}{2}$ when $n$ is odd and $f(n)=\\frac{n}{2}$ when $n$ is even. Determine whether $f$ is one-one and onto, and justify the classification completely.",
+  "answeroption": "A",
+  "explanation": "<b>Verification of one-one property</b><br>Consider the two distinct natural numbers $1$ and $2$. Since $1$ is odd, $$f(1)=\\frac{1+1}{2}=1$$ Since $2$ is even, $$f(2)=\\frac{2}{2}=1$$ Thus, $$f(1)=f(2)$$ although $1\\neq2$. Therefore, $f$ is not one-one.<br><br><b>Verification of onto property</b><br>Let $m\\in\\mathbb{N}$ be arbitrary. Choose the even natural number $$n=2m$$ Then, using the rule for even values of $n$, $$f(2m)=\\frac{2m}{2}=m$$ Thus, every $m\\in\\mathbb{N}$ has a pre-image $2m\\in\\mathbb{N}$. Hence, every element of the co-domain occurs as an image, so $f$ is onto.<br><br><b>Final Result</b><br>The function $f$ is onto but not one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is onto but not one-one because $f(1)=f(2)=1$, while every $m\\in\\mathbb{N}$ has the pre-image $2m$.",
+    "B": "$f$ is one-one but not onto because only even natural numbers have images under $f$.",
+    "C": "$f$ is both one-one and onto because every $m\\in\\mathbb{N}$ has exactly one pre-image.",
+    "D": "$f$ is neither one-one nor onto because odd and even inputs are evaluated using different rules."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

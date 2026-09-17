@@ -1,0 +1,30 @@
+{
+  "id": "69a9c1d2d30adc5083911b54",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65c9340512f018fa94d47",
+    "69c6610140512f018fa94d7e"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = x^2 + 1$ and $F(x)=\\int_0^x \\frac{dt}{x^2+1}$.<br /><br />(a) Prove that $f(x)$ is strictly increasing on $[0,\\infty)$ and thus invertible there.<br /><br />(b) Find the inverse function $h(y)$ of $f$ for $y \\ge 1$.<br /><br />(c) Express $F(x)$ in terms of $\\tan^{-1}$ and show that $F(h(y))$ is differentiable for $y > 1$.<br /><br />(d) Compute $\\dfrac{d}{dy}F(h(y))$ explicitly in terms of $y$.",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:**<br />- Monotonicity and invertibility<br />- Inverse functions<br />- Inverse trigonometric integrals<br />- Differentiation using substitution<br /><br />(a) $f'(x) = 2x \\ge 0$ on $[0,\\infty)$, so $f$ is increasing and hence invertible.<br /><br />(b) $y = x^2 + 1 \\implies x = \\sqrt{y-1}$ ($x\\ge0$). So, $h(y) = \\sqrt{y-1}$ for $y\\ge1$.<br /><br />(c) $F(x) = \\int_0^x \\frac{dt}{t^2+1} = \\tan^{-1}x - \\tan^{-1}0 = \\tan^{-1}x$<br /><br />Thus $F(h(y)) = \\tan^{-1}(\\sqrt{y-1})$<br /><br />$F(h(y))$ is differentiable for $y>1$ as $\\sqrt{y-1}$ is differentiable, and $\\tan^{-1}$ has a derivative everywhere.<br /><br />(d) $\\frac{d}{dy}F(h(y)) = \\frac{d}{dy}\\tan^{-1}(\\sqrt{y-1}) = \\frac{1}{1 + (\\sqrt{y-1})^2} \\cdot \\frac{1}{2\\sqrt{y-1}} = \\frac{1}{2\\sqrt{y-1}\\,y}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is strictly increasing on $[0,\\infty)$ and hence invertible<br />(b) $h(y)=\\sqrt{y-1}$ for $y\\ge1$<br />(c) $F(x)=\\tan^{-1}x$ and $F(h(y))=\\tan^{-1}(\\sqrt{y-1})$ is differentiable for $y>1$<br />(d) $\\frac{d}{dy}F(h(y))=\\frac{1}{2y\\sqrt{y-1}}$",
+    "B": "(a) $f$ is strictly decreasing on $[0,\\infty)$<br />(b) $h(y)=y^2-1$<br />(c) $F(x)=\\sin^{-1}x$<br />(d) $\\frac{d}{dy}F(h(y))=\\frac{1}{\\sqrt{1-y^2}}$",
+    "C": "(a) $f$ is not invertible on $[0,\\infty)$<br />(b) $h(y)=\\pm\\sqrt{y-1}$<br />(c) $F(x)=\\cos^{-1}x$<br />(d) $\\frac{d}{dy}F(h(y))=-\\frac{1}{2\\sqrt{y-1}}$",
+    "D": "(a) $f$ is strictly increasing on $(-\\infty,\\infty)$<br />(b) $h(y)=\\sqrt{y+1}$<br />(c) $F(x)=e^x$<br />(d) $\\frac{d}{dy}F(h(y))=\\frac{e^{\\sqrt{y-1}}}{2\\sqrt{y-1}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:48:02 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a2aaa0e941aafe86231e9ee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Show that $f:R_{+}\\rightarrow[-5,\\infty)$ given by $f(x)=4x^{2}+4x-5$ is both one-one and onto where $R_{+}=[0,\\infty).$ Also, find $p\\in R_{+}$ such that $f(p)=3$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To prove that $f(x) = 4x^2 + 4x - 5$ is one-one for the domain $R_+ = [0, \\infty)$, assume $f(x_1) = f(x_2)$ for any $x_1, x_2 \\in R_+$. This gives $4x_1^2 + 4x_1 - 5 = 4x_2^2 + 4x_2 - 5 \\implies 4(x_1^2 - x_2^2) + 4(x_1 - x_2) = 0$. Factoring yields $4(x_1 - x_2)(x_1 + x_2 + 1) = 0$. Since $x_1, x_2 \\ge 0$, the term $(x_1 + x_2 + 1) \\ge 1 \\neq 0$. Thus, $x_1 - x_2 = 0 \\implies x_1 = x_2$, confirming $f$ is a one-one function.<br /><br />**Step 2:** To prove $f$ is onto, let $y \\in [-5, \\infty)$ such that $y = 4x^2 + 4x - 5$. Completing the square gives $y = (2x+1)^2 - 6 \\implies 2x+1 = \\sqrt{y+6}$. Solving for $x$ yields $x = \\frac{\\sqrt{y+6}-1}{2}$. For any $y \\ge -5$, $\\sqrt{y+6} \\ge 1$, ensuring $x \\ge 0$, so $x \\in R_+$. Since every element in the codomain has a valid pre-image in the domain, the function is onto.<br /><br />**Step 3:** To find $p \\in R_+$ for $f(p) = 3$, set $4p^2 + 4p - 5 = 3 \\implies 4p^2 + 4p - 8 = 0$. Dividing by 4 gives $p^2 + p - 2 = 0$. Factoring results in $(p+2)(p-1) = 0$. Since $p \\in R_+$, we discard the negative value $p = -2$. This gives the final solution $p = 1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

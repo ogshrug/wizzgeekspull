@@ -1,0 +1,30 @@
+{
+  "id": "69aa65c3589ce36f368b48cd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Let $f(x) = |x - 2| + |x + 1|$ for all $x \\in \\mathbb{R}$.<br /><br />(a) Discuss the continuity and differentiability of $f(x)$ at the points $x = -1$ and $x = 2$.<br /><br />(b) Determine $f'(x)$ for all $x$.",
+  "answeroption": "A",
+  "explanation": "(a) The function $f(x)$ has non-differentiable points where the expressions inside the modulus change sign, i.e., at $x = -1$ and $x = 2$.<br /><br />First, check continuity at $x = -1$:<br /><br />$\\lim_{x \\to -1^-} f(x) = |-1 - 2| + |-1 + 1| = | -3| + |0| = 3 + 0 = 3$<br /><br />$\\lim_{x \\to -1^+} f(x) = | (-1 +) - 2| + |(-1 +) + 1|$<br />For $x > -1$, $x + 1 > 0$ and $x - 2 < 0$ if $x < 2$.<br />So:<br />$|x - 2| + |x + 1| = -(x - 2) + (x + 1) = -x + 2 + x + 1 = 3$<br />So both one-sided limits and $f(-1) = 3$. So $f(x)$ is continuous at $x = -1$.<br /><br />Similarly, at $x = 2$:<br />For $x < 2$, $x-2 < 0$, $x + 1 > 0$ ($x > -1$)<br />$|x-2| + |x+1| = -(x - 2) + (x + 1) = -x + 2 + x + 1 = 3$<br />For $x > 2$, $x-2 > 0$, $x + 1 > 0$<br />$|x-2| + |x+1| = (x - 2) + (x + 1) = 2x - 1$<br />Check limits:<br />$\\lim_{x \\to 2^-} f(x) = 3$<br />$\\lim_{x \\to 2^+} f(x) = 2*2 - 1 = 3$<br />And $f(2) = |2-2| + |2+1| = 0 + 3 = 3$<br />So $f(x)$ is continuous at $x = 2$.<br /><br />Now check differentiability at the points:<br /><br />Compute left and right derivatives at $x = -1$:<br />For $x < -1$, both expressions are negative: $|x-2| = -(x-2)$, $|x+1| = -(x+1)$<br />So $f(x) = -(x-2) - (x+1) = -x+2-x-1 = -2x + 1$<br />$\\implies f'(x) = -2$ for $x < -1$<br />For $x > -1$, $x+1 > 0$, $x-2 < 0$: $f(x) = -x + 2 + x + 1 = 3$, so $f'(x) = 0$<br />Thus, $LHD$ at $x = -1$: $= -2$, $RHD = 0$.<br />So not differentiable at $x = -1$.<br /><br />At $x = 2$:<br />For $x < 2$, as above, $f'(x) = 0$<br />For $x > 2$, both positive: $f(x) = (x-2) + (x+1) = 2x - 1, f'(x) = 2$<br />So left-hand derivative at 2: $0$, right-hand derivative $2$<br />So $f(x)$ is not differentiable at $x = 2$.<br /><br />(b) Full derivative:<br />For $x < -1$: $f(x) = -2x + 1$, $f'(x) = -2$<br />For $-1 < x < 2$: $f(x) = 3$, $f'(x) = 0$<br />For $x > 2$: $f(x) = 2x - 1$, $f'(x) = 2$<br />$f'(x) = \\begin{cases} -2, & x < -1 \\\\ 0, & -1 < x < 2 \\\\ 2, & x > 2 \\end{cases}$, not defined at $x = -1, 2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)$ is continuous at $x=-1$ and $x=2$, but not differentiable at both points.<br />(b) $f'(x)=\\begin{cases}-2, & x<-1 \\\\ 0, & -1<x<2 \\\\ 2, & x>2\\end{cases}$, and $f'(x)$ is not defined at $x=-1,2$.",
+    "B": "(a) $f(x)$ is discontinuous at $x=-1$ and continuous at $x=2$.<br />(b) $f'(x)=\\begin{cases}0, & x<-1 \\\\ 2, & -1<x<2 \\\\ -2, & x>2\\end{cases}$.",
+    "C": "(a) $f(x)$ is continuous and differentiable at both $x=-1$ and $x=2$.<br />(b) $f'(x)=2$ for all real $x$.",
+    "D": "(a) $f(x)$ is not continuous at both $x=-1$ and $x=2$.<br />(b) $f'(x)$ is undefined for all $x$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:27:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

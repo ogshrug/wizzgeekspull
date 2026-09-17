@@ -1,0 +1,29 @@
+{
+  "id": "69a98a37589ce36f368b4829",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "VSA",
+  "question": "Write the smallest equivalence relation on the set $A = \\{1, 2, 3\\}$.",
+  "answeroption": "A",
+  "explanation": "The smallest equivalence relation on a set is the identity relation.<br /><br />For $A = \\{1,2,3\\}$ the smallest equivalence relation is $R = \\{(1,1), (2,2), (3,3)\\}$.<br /><br />It is reflexive since all $(a,a)$ are present.<br /><br />It is symmetric because if $(a,b) \\in R$, then $a=b$ so $(b,a) \\in R$.<br /><br />It is transitive since if $(a,b)$ and $(b,c)$ belong to $R$, then $a=b=c$ so $(a,c) \\in R$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\{(1,1), (2,2), (3,3)\\}$",
+    "B": "$\\{(1,2), (2,3), (3,1)\\}$",
+    "C": "$\\{(1,1), (1,2), (2,1), (2,2), (3,3)\\}$",
+    "D": "$\\{(1,1), (2,2)\\}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:50:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

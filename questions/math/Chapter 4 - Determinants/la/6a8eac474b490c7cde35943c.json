@@ -1,0 +1,29 @@
+{
+  "id": "6a8eac474b490c7cde35943c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "LA",
+  "question": "For what values of $k$ does the determinant<br>$$D=\\begin{vmatrix}k & 1 & 1\\\\1 & k & 1\\\\1 & 1 & k\\end{vmatrix}$$<br>vanish?<br><br><b>(a)</b> Simplify $D$ using suitable determinant operations.<br><br><b>(b)</b> Determine all real values of $k$ for which $D=0$.<br><br><b>(c)</b> State which of the values obtained is a repeated root.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Apply $R_2\\to R_2-R_1$ and $R_3\\to R_3-R_1$:<br>$$D=\\begin{vmatrix}k & 1 & 1\\\\1-k & k-1 & 0\\\\1-k & 0 & k-1\\end{vmatrix}$$<br>Take $(k-1)$ common from both $R_2$ and $R_3$:<br>$$D=(k-1)^2\\begin{vmatrix}k & 1 & 1\\\\-1 & 1 & 0\\\\-1 & 0 & 1\\end{vmatrix}$$<br>Expanding along the first row,<br>$$D=(k-1)^2\\left[k-(-1)+1\\right]$$<br>$$D=(k-1)^2(k+2)$$<br><br><b>(b)</b><br>For $D=0$,<br>$$(k-1)^2(k+2)=0$$<br>Therefore,<br>$$k=1\\quad\\text{or}\\quad k=-2$$<br><br><b>(c)</b><br>Since the factor $(k-1)$ occurs twice, $k=1$ is a repeated root. The value $k=-2$ is a simple root.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $D=(k-1)^2(k+2)$<br>(b) $k=1$ or $k=-2$<br>(c) $k=1$ is the repeated root",
+    "B": "(a) $D=(k+1)^2(k-2)$<br>(b) $k=-1$ or $k=2$<br>(c) $k=-1$ is the repeated root",
+    "C": "(a) $D=(k-1)(k+2)^2$<br>(b) $k=1$ or $k=-2$<br>(c) $k=-2$ is the repeated root",
+    "D": "(a) $D=(k-1)(k+1)(k+2)$<br>(b) $k=1,-1,-2$<br>(c) None of the roots is repeated"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

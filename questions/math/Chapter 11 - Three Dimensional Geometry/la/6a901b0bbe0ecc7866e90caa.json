@@ -1,0 +1,31 @@
+{
+  "id": "6a901b0bbe0ecc7866e90caa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8d3",
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "LA",
+  "question": "For the line $\\frac{x-1}{2}=\\frac{y+2}{-1}=\\frac{z-3}{2}$ and the plane $2x+y-2z=-7$, determine the acute angle between the line and the plane and hence obtain the coordinates of their point of intersection.",
+  "answeroption": "C",
+  "explanation": "<b>Angle Between the Line and the Plane</b><br>The direction ratios of the line are $2,-1,2$, so a direction vector is<br>$$\\vec{b}=2\\hat{i}-\\hat{j}+2\\hat{k}$$<br>A normal vector to the plane is<br>$$\\vec{n}=2\\hat{i}+\\hat{j}-2\\hat{k}$$<br>If $\\phi$ is the acute angle between the line and the plane, then<br>$$\\sin\\phi=\\frac{|\\vec{b}\\cdot\\vec{n}|}{|\\vec{b}||\\vec{n}|}$$<br>Now,<br>$$\\vec{b}\\cdot\\vec{n}=2(2)+(-1)(1)+2(-2)=-1$$<br>Also,<br>$$|\\vec{b}|=3,\\quad |\\vec{n}|=3$$<br>Therefore,<br>$$\\sin\\phi=\\frac{1}{9}$$<br>Hence,<br>$$\\phi=\\sin^{-1}\\left(\\frac{1}{9}\\right)$$<br><br><b>Point of Intersection</b><br>Let the common ratio in the Cartesian equation of the line be $t$. Then<br>$$x=1+2t,\\quad y=-2-t,\\quad z=3+2t$$<br>Since the point of intersection lies on the plane,<br>$$2(1+2t)+(-2-t)-2(3+2t)=-7$$<br>Simplifying,<br>$$-6-t=-7$$<br>Hence, $t=1$. Therefore,<br>$$x=3,\\quad y=-3,\\quad z=5$$<br><br><b>Final Result</b><br>The acute angle between the line and the plane is $\\sin^{-1}\\left(\\frac{1}{9}\\right)$, and their point of intersection is $(3,-3,5)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Acute angle $=\\cos^{-1}\\left(\\frac{1}{9}\\right)$; intersection point $(3,-3,5)$",
+    "B": "Acute angle $=\\sin^{-1}\\left(\\frac{1}{9}\\right)$; intersection point $(1,-2,3)$",
+    "C": "Acute angle $=\\sin^{-1}\\left(\\frac{1}{9}\\right)$; intersection point $(3,-3,5)$",
+    "D": "Acute angle $=\\sin^{-1}\\left(\\frac{4}{9}\\right)$; intersection point $(3,-3,5)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69aa78f58e6d1957407fd1bf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A dietician wants to mix two food items, A and B, to provide at least 8 units of protein and at least 15 units of carbohydrates. Each unit of item A provides 2 units of protein and 3 units of carbohydrates. Each unit of item B provides 1 unit of protein and 2 units of carbohydrates. If item A costs ₹5 per unit and item B costs ₹4 per unit, formulate the LPP to minimize cost. Find the values of A and B to be mixed and minimum cost graphically.",
+  "answeroption": "D",
+  "explanation": "Let $x$ = units of A, $y$ = units of B. Minimize $Z = 5x + 4y$<br /><br />Subject to:<br /><br />Protein: $2x + y \\geq 8$<br /><br />Carbohydrates: $3x + 2y \\geq 15$<br /><br />Non-negativity: $x, y \\geq 0$<br /><br />Step 1: Convert constraints to lines:<br /><br />$2x + y = 8$ ➔ $y = 8 - 2x$<br /><br />$3x + 2y = 15$ ➔ $y = (15-3x)/2$<br /><br />Feasible region is above both lines in first quadrant.<br /><br />Step 2: Intersection points:<br /><br />$2x + y = 8$, $3x + 2y = 15$<br /><br />From first: $y = 8 - 2x$<br /><br />Substitute in second:<br /><br />$3x + 2(8-2x) = 15$<br /><br />$3x + 16 - 4x = 15$<br /><br />$-x = -1$ so $x = 1, y = 8 - 2*1 = 6$<br /><br />Step 3: Other intercepts:<br /><br />$2x + y = 8$ with $y = 0 \\implies x = 4$ ➔ $(4,0)$<br /><br />$3x + 2y = 15$ with $y = 0 \\implies x = 5$ ➔ $(5,0)$<br /><br />$2x + y = 8$, $x = 0$ \\implies $y=8$ ➔ $(0,8)$<br /><br />$3x + 2y = 15$, $x=0$ \\implies $y = 7.5$ ➔ $(0,7.5)$<br /><br />Step 4: Find the lowest values in the feasible region ($x \\ge 0, y \\ge 0$): Try corner points <br /><br />(i) Intersection: $(1,6)$<br /><br />(ii) On $3x + 2y = 15$, $x = 0, y = 7.5$ — Check if satisfies $2x + y \\geq 8 \\implies y \\geq 8$ so not feasible.<br /><br />(iii) On $2x + y = 8$, $y=0$, $x=4$, check $3x + 2y = 12 < 15$, not feasible.<br /><br />Step 5: Test $x=0$ in both, $y=8$, $3x+2y=16$, $16 > 15$ so ok. <br /><br />Step 6: Test $y=0$, $x=4$, $3*4=12 <15$, not feasible.<br /><br />Step 7: Try where $y=0$, is not in region; $x=0$, $y=8$, in region.<br /><br />Possible feasible points: $(1,6)$, $(0,8)$<br /><br />Compute $Z$ at $(1,6)$: $5*1+4*6=5+24=29$<br /><br />At $(0,8)$: $5*0+4*8=32$<br /><br />So, minimum cost is ₹29 when 1 unit of A and 6 units of B are mixed.",
+  "explanation_image": [],
+  "options": {
+    "A": "LPP: Minimize $Z=5x+4y$, subject to $2x+y\\geq8$, $3x+2y\\geq15$, $x,y\\geq0$; mix 0 units of A and 8 units of B; minimum cost ₹32.",
+    "B": "LPP: Minimize $Z=5x+4y$, subject to $2x+y\\geq8$, $3x+2y\\geq15$, $x,y\\geq0$; mix 4 units of A and 0 units of B; minimum cost ₹20.",
+    "C": "LPP: Minimize $Z=5x+4y$, subject to $2x+y\\geq8$, $3x+2y\\geq15$, $x,y\\geq0$; mix 0 units of A and 7.5 units of B; minimum cost ₹30.",
+    "D": "LPP: Minimize $Z=5x+4y$, subject to $2x+y\\geq8$, $3x+2y\\geq15$, $x,y\\geq0$; mix 1 unit of A and 6 units of B; minimum cost ₹29."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:49:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

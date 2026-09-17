@@ -1,0 +1,30 @@
+{
+  "id": "6a8e74b6be0ecc7866e90b89",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics class studies the function $f:\\mathbb{R}\\to\\mathbb{R}$ defined by $f(x)=x^2$. The students notice that the graph is familiar, but their task is not to analyse the graph; instead, they must use values and the definitions of one-one and onto functions. Since the domain contains both positive and negative real numbers, some distinct inputs can produce the same output. Also, every output produced by the rule is non-negative, although the stated codomain contains all real numbers. These observations are to be justified mathematically.<br><br><b>(a)</b> Calculate $f(-3)$, $f(3)$ and $f(0)$.<br><br><b>(b)</b> Use suitable inputs to determine whether $f$ is one-one.<br><br><b>(c)</b> Determine whether $f$ is onto $\\mathbb{R}$ by considering $-4\\in\\mathbb{R}$.<br><br><b>(d)</b> State the range of $f$ and conclude whether $f$ is one-one, onto, both, or neither.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>We have $f(-3)=(-3)^2=9$, $f(3)=3^2=9$ and $f(0)=0^2=0$.<br><br><b>(b)</b><br>The distinct real numbers $-3$ and $3$ have the same image because $f(-3)=f(3)=9$. Therefore, $f$ is not one-one.<br><br><b>(c)</b><br>For $f$ to be onto $\\mathbb{R}$, the number $-4$ must have a pre-image. This would require $x^2=-4$ for some real $x$. No real number has a negative square. Hence $-4$ has no real pre-image, so $f$ is not onto $\\mathbb{R}$.<br><br><b>(d)</b><br>For every real $x$, $x^2\\geq0$, and every non-negative real number $y$ can be written as $y=(\\sqrt{y})^2$. Hence the range is $[0,\\infty)$. Since $f$ is neither one-one nor onto $\\mathbb{R}$, the required classification is neither one-one nor onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(-3)=-9$, $f(3)=9$ and $f(0)=0$; the range is $\\mathbb{R}$, so $f$ is both one-one and onto.",
+    "B": "$f(-3)=f(3)=9$ and $f(0)=0$; the range is $[0,\\infty)$, and $f$ is one-one but not onto.",
+    "C": "$f(-3)=f(3)=9$ and $f(0)=0$; the range is $\\mathbb{R}$, and $f$ is onto but not one-one.",
+    "D": "$f(-3)=f(3)=9$ and $f(0)=0$; the range is $[0,\\infty)$, and $f$ is neither one-one nor onto $\\mathbb{R}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

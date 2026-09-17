@@ -1,0 +1,31 @@
+{
+  "id": "69a9c48a62be6a70cd184e3f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A company models revenue for selling $x$ items as $R(x) = 70x-0.5x^2$, and cost as $C(x) = 10x+600$.<br /><br />(a) Express profit $P(x)$ as a function.<br /><br />(b) Find the $x$ maximizing profit.<br /><br />(c) Test the nature using both first and second derivatives.",
+  "answeroption": "C",
+  "explanation": "(a) $P(x) = R(x)-C(x) = 60x-0.5x^2-600$<br /><br />(b) $P'(x)=60-x$, so $x=60$.<br /><br />$P''(x)=-1<0$, confirming maximum.<br /><br />(c) First derivative changes sign from positive to negative at $x=60$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(x)=80x-0.5x^2+600$<br />(b) Profit is maximized at $x=80$.<br />(c) $P''(x)=1>0$, so it gives a minimum.",
+    "B": "(a) $P(x)=60x+0.5x^2-600$<br />(b) Profit is maximized at $x=60$.<br />(c) First derivative changes sign from negative to positive at $x=60$.",
+    "C": "(a) $P(x)=60x-0.5x^2-600$<br />(b) Profit is maximized at $x=60$.<br />(c) $P''(x)=-1<0$, and $P'(x)$ changes sign from positive to negative at $x=60$.",
+    "D": "(a) $P(x)=70x-0.5x^2-600$<br />(b) Profit is maximized at $x=70$.<br />(c) $P''(x)=0$, so the test is inconclusive."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:59:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

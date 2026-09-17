@@ -1,0 +1,30 @@
+{
+  "id": "6a1830d3d429e802c45d70a9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "MCQ",
+  "question": "If the rate of change of volume of a sphere is twice the rate of change of its radius, then the surface area of the sphere is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Recall the geometric formulas for a sphere: Volume $V = \\frac{4}{3}\\pi r^3$ and Surface Area $S = 4\\pi r^2$.<br /><br />**Step 2:** Differentiate volume with respect to time $t$: $\\frac{dV}{dt} = \\frac{4}{3}\\pi (3r^2) \\frac{dr}{dt} = 4\\pi r^2 \\frac{dr}{dt} = S \\frac{dr}{dt}$.<br /><br />**Step 3:** Apply the given rate constraint condition: $\\frac{dV}{dt} = 2 \\frac{dr}{dt} \\implies S \\frac{dr}{dt} = 2 \\frac{dr}{dt}$. Canceling the common derivative factor yields $S = 2$ sq units, matching Option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "1 sq unit",
+    "B": "2 sq units",
+    "C": "3 sq units",
+    "D": "4 sq units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

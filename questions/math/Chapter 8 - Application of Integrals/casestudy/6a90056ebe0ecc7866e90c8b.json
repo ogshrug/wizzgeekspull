@@ -1,0 +1,30 @@
+{
+  "id": "6a90056ebe0ecc7866e90c8b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f997",
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An elliptical ornamental layout is represented by $\\frac{x^2}{16}+\\frac{y^2}{b^2}=1$, where $b>0$. Its centre is at the origin, and the coordinate axes divide it into four congruent sections. The total measured area of the layout is $12\\pi$ square units. Students use integration to obtain the area in terms of the unknown semi-minor axis $b$, rather than directly applying the standard formula. They then use the measured area to determine the dimensions of the layout.(a) Determine the points at which the ellipse meets the coordinate axes.(b) Express the upper half of the ellipse as $y=f(x)$.(c) Using integration, show that the total area of the ellipse is $4\\pi b$ square units.(d) Determine $b$ and calculate the area enclosed by the ellipse and the coordinate axes in the first quadrant.",
+  "answeroption": "B",
+  "explanation": "(a)On the $x$-axis, $y=0$. Therefore,`\\frac{x^2}{16}=1x=\\pm4`Thus, the ellipse meets the $x$-axis at $\\left(-4,0\\right)$ and $\\left(4,0\\right)$. On the $y$-axis, $x=0$, giving`\\frac{y^2}{b^2}=1y=\\pm b`Hence, the other intercepts are $\\left(0,-b\\right)$ and $\\left(0,b\\right)$.(b)From the equation of the ellipse,`\\frac{y^2}{b^2}=1-\\frac{x^2}{16}`For the upper half, $y\\geq0$. Therefore,`y=b\\sqrt{1-\\frac{x^2}{16}}=\\frac{b}{4}\\sqrt{16-x^2}`(c)The area of the upper half is`A_u=\\int_{-4}^{4}\\frac{b}{4}\\sqrt{16-x^2}\\,dx`The integral $\\int_{-4}^{4}\\sqrt{16-x^2}\\,dx$ represents the area of a semicircle of radius $4$, so its value is $8\\pi$. Hence,`A_u=\\frac{b}{4}\\times8\\pi=2\\pi b`The total area is twice the upper-half area:`A=2A_u=4\\pi b`Thus, the total area is $4\\pi b$ square units.(d)Using the measured area,`4\\pi b=12\\pi b=3`The coordinate axes divide the ellipse into four equal sections. Therefore, the first-quadrant area is`A_1=\\frac{1}{4}\\times12\\pi=3\\pi`Hence, $b=3$ and the area in the first quadrant is $3\\pi$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Intercepts $(\\pm4,0)$ and $(0,\\pm b)$<br>(b) $y=\\frac{b}{4}\\sqrt{16-x^2}$<br>(c) Total area $=2\\pi b$<br>(d) $b=6$; first-quadrant area $=6\\pi$",
+    "B": "(a) Intercepts $(\\pm4,0)$ and $(0,\\pm b)$<br>(b) $y=\\frac{b}{4}\\sqrt{16-x^2}$<br>(c) Total area $=4\\pi b$<br>(d) $b=3$; first-quadrant area $=3\\pi$",
+    "C": "(a) Intercepts $(\\pm b,0)$ and $(0,\\pm4)$<br>(b) $y=\\frac{b}{4}\\sqrt{16-x^2}$<br>(c) Total area $=4\\pi b$<br>(d) $b=3$; first-quadrant area $=3\\pi$",
+    "D": "(a) Intercepts $(\\pm4,0)$ and $(0,\\pm b)$<br>(b) $y=\\frac{4}{b}\\sqrt{b^2-x^2}$<br>(c) Total area $=4\\pi b$<br>(d) $b=3$; first-quadrant area $=3\\pi$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

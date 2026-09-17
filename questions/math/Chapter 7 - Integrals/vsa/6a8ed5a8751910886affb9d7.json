@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed5a8751910886affb9d7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int\\frac{x^2+1}{x^2-1}\\,dx$, first reducing the improper rational function to a proper one.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> Since the degree of the numerator equals the degree of the denominator, first perform algebraic division. Write $x^2+1=(x^2-1)+2$.<br><b>Step 2:</b> Therefore, $$\\frac{x^2+1}{x^2-1}=1+\\frac{2}{(x-1)(x+1)}.$$<br><b>Step 3:</b> Decompose the proper fraction as $\\frac{2}{(x-1)(x+1)}=\\frac{1}{x-1}-\\frac{1}{x+1}$.<br><b>Step 4:</b> Hence, the integral is $$\\int dx+\\int\\frac{dx}{x-1}-\\int\\frac{dx}{x+1}.$$<br><b>Step 5:</b> Integrating termwise gives $x+\\log|x-1|-\\log|x+1|+C$. Thus, $$\\boxed{x+\\log\\left|\\frac{x-1}{x+1}\\right|+C}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x-\\log\\left|\\frac{x-1}{x+1}\\right|+C$",
+    "B": "$x+\\log\\left|\\frac{x-1}{x+1}\\right|+C$",
+    "C": "$x+\\log|x^2-1|+C$",
+    "D": "$x+\\log\\left|\\frac{x+1}{x-1}\\right|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

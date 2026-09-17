@@ -1,0 +1,32 @@
+{
+  "id": "69aa761daff2be72fd28eb86",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 3 (Transportation – City Connectivity Graphs):**<br /><br />Consider five cities $C_1, C_2, C_3, C_4, C_5$. A transportation map models routes between cities as a binary relation $R$ on $C = \\{C_1, C_2, C_3, C_4, C_5\\}$ given as $(C_i, C_j) \\in R$ if there is a direct road from $C_i$ to $C_j$.<br /><br />Suppose the road connections are represented as:<br /><br />$R = \\{(C_1, C_2), (C_2, C_3), (C_3, C_4), (C_4, C_5), (C_5, C_1)\\}$<br /><br />(a) Is $R$ reflexive, symmetric, or transitive?<br /><br />(b) Define $S$ to be the relation $R \\cup \\{(C_i, C_i) : i = 1,...,5\\}$. Is $S$ an equivalence relation?<br /><br />(c) If the government wants to ensure every city is accessible from any other using a sequence of direct roads, what property must be satisfied? Justify whether $R$ (or $S$) satisfies it.",
+  "answeroption": "A",
+  "explanation": "(a)<br /><br />**Step 1: Reflexivity**<br /><br />$R$ is not reflexive: e.g., $(C_1, C_1) \\notin R$.<br /><br />**Step 2: Symmetry**<br /><br />$(C_1, C_2) \\in R$, but $(C_2, C_1) \\notin R$. Hence, $R$ is not symmetric.<br /><br />**Step 3: Transitivity**<br /><br />If $(C_1, C_2) \\in R$ and $(C_2, C_3) \\in R$, is $(C_1, C_3) \\in R$? No, as only the direct connection is shown, so $R$ is not transitive.<br /><br />Conclusion: $R$ is neither reflexive, symmetric, nor transitive.<br /><br />(b)<br /><br />$S = R \\cup \\{(C_i, C_i)\\}$ adds all reflexive pairs.<br /><br />**Reflexivity:** Now $S$ contains all $(C_i, C_i)$.<br /><br />**Symmetry:** Does it have symmetry? $(C_1, C_2) \\in S$, but $(C_2, C_1) \\notin S$.<br /><br />**Transitivity:** $(C_1, C_2)$ and $(C_2, C_3)$ are in $S$, but $(C_1, C_3) \\notin S$.<br /><br />Conclusion: $S$ is only reflexive.<br /><br />(c)<br /><br />For every city to be accessible from every other (possibly via other cities), the relation must be **transitive and symmetric** (so-called connectivity equivalence).<br /><br />$R$ and $S$ do **not** satisfy transitivity nor symmetry as shown in (a) and (b).<br /><br />**Conclusion:** For universal connectivity by any sequence of roads, the relation should be the **transitive closure** of $R$, i.e., for all $C_i$, $C_j$ there must be a path connecting them. $R$ is a cycle, so every city can be reached from any other, but $R$ itself is not transitive in the strict binary sense. However, the graph as a whole is strongly connected.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R$ is neither reflexive, symmetric nor transitive.<br />(b) $S$ is reflexive but not symmetric and not transitive, so it is not an equivalence relation.<br />(c) The required graph property is strong connectivity/path accessibility. The given directed cycle is strongly connected by paths, but $R$ and $S$ are not transitive as binary relations.",
+    "B": "(a) $R$ is reflexive, symmetric and transitive.<br />(b) $S$ is an equivalence relation.<br />(c) The required property is reflexivity, and both $R$ and $S$ satisfy it.",
+    "C": "(a) $R$ is symmetric only.<br />(b) $S$ is symmetric and transitive.<br />(c) The required property is antisymmetry, which $R$ satisfies.",
+    "D": "(a) $R$ is transitive but not reflexive.<br />(b) $S$ is transitive but not reflexive.<br />(c) No path-based property is needed for accessibility."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:37:17 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

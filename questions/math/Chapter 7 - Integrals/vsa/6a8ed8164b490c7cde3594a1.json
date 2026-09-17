@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed8164b490c7cde3594a1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin x}{\\sin x+\\cos x}\\,dx$ using a suitable property of definite integrals.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> Let $$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin x}{\\sin x+\\cos x}\\,dx.$$<br><b>Step 2:</b> Using the property $\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$ with $a=\\frac{\\pi}{2}$, we obtain $$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\cos x}{\\cos x+\\sin x}\\,dx.$$<br><b>Step 3:</b> Add the two expressions for $I$. Then $$2I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin x+\\cos x}{\\sin x+\\cos x}\\,dx.$$<br><b>Step 4:</b> Hence, $2I=\\int_0^{\\frac{\\pi}{2}}1\\,dx=\\frac{\\pi}{2}$.<br><b>Step 5:</b> Therefore, $I=\\boxed{\\frac{\\pi}{4}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{2}$",
+    "B": "$\\frac{\\pi}{6}$",
+    "C": "$\\frac{\\pi}{8}$",
+    "D": "$\\frac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

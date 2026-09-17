@@ -1,0 +1,29 @@
+{
+  "id": "69a86abe575fa42e09444823",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "SA",
+  "question": "Let $y = \\log_{\\sin x}(\\cos^2 x)$. Compute $\\frac{dy}{dx}$ using the base change formula, and simplify completely.",
+  "answeroption": "A",
+  "explanation": "Using base change formula:<br /><br />$y = \\frac{\\ln(\\cos^2 x)}{\\ln(\\sin x)} = \\frac{2\\ln(\\cos x)}{\\ln(\\sin x)}$.<br /><br />Let $u=2\\ln(\\cos x)$, $v=\\ln(\\sin x)$.<br /><br />$u'=-2\\tan x$, $v'=\\cot x$.<br /><br />Using quotient rule:<br /><br />$\\frac{dy}{dx} = \\frac{-2\\tan x\\ln(\\sin x) - 2\\cot x\\ln(\\cos x)}{(\\ln(\\sin x))^2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{-2\\tan x\\ln(\\sin x)-2\\cot x\\ln(\\cos x)}{(\\ln(\\sin x))^2}$",
+    "B": "$\\dfrac{2\\tan x\\ln(\\sin x)+2\\cot x\\ln(\\cos x)}{(\\ln(\\sin x))^2}$",
+    "C": "$\\dfrac{-2\\tan x}{\\ln(\\sin x)}$",
+    "D": "$\\dfrac{2\\cot x\\ln(\\cos x)}{(\\ln(\\sin x))^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:24:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

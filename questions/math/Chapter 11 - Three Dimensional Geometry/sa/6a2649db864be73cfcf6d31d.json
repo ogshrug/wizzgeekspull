@@ -1,0 +1,27 @@
+{
+  "id": "6a2649db864be73cfcf6d31d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "SA",
+  "question": "Find the vector equation of the plane passing through the intersection of the planes $\\vec{r}\\cdot(2\\hat{i}+2\\hat{j}-3\\hat{k})=7$ and $\\vec{r}\\cdot(2\\hat{i}+5\\hat{j}+3\\hat{k})=9$ and through the point (2, 1, 3).",
+  "answeroption": "",
+  "explanation": "**Step 1:** Convert the given vector equations of the planes into Cartesian form for easier algebraic handling. Replacing $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$ gives the two plane expressions: $P_1: 2x + 2y - 3z - 7 = 0$ and $P_2: 2x + 5y + 3z - 9 = 0$. The equation of any plane passing through the intersection of these two planes can be represented by the system expression $P_1 + \\lambda P_2 = 0$.<br />**Step 2:** Write out the full equation using our scalar multiplier parameter: $(2x + 2y - 3z - 7) + \\lambda(2x + 5y + 3z - 9) = 0$. Rearranging and grouping terms with shared variables gives: $(2+2\\lambda)x + (2+5\\lambda)y + (-3+3\\lambda)z - (7+9\\lambda) = 0$.<br />**Step 3:** Since this combined plane passes through the specific coordinate point $(2, 1, 3)$, these coordinates must satisfy our equation. Substituting $x=2, y=1, z=3$ yields: $(2+2\\lambda)(2) + (2+5\\lambda)(1) + (-3+3\\lambda)(3) - 7 - 9\\lambda = 0$. Expanding this gives $4 + 4\\lambda + 2 + 5\\lambda - 9 + 9\\lambda - 7 - 9\\lambda = 0$, which simplifies to $-10 + 9\\lambda = 0$, leading to $\\lambda = \\frac{10}{9}$.<br />**Step 4:** Substitute $\\lambda = \\frac{10}{9}$ back into our Cartesian formulation equation: $(2x + 2y - 3z - 7) + \\frac{10}{9}(2x + 5y + 3z - 9) = 0$. Multiplying through by 9 yields $9(2x+2y-3z-7) + 10(2x+5y+3z-9) = 0$, which evaluates to $38x + 68y - 3z - 153 = 0$. Converting back to standard vector form gives: $\\vec{r} \\cdot (38\\hat{i} + 68\\hat{j} - 3\\hat{k}) = 153$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

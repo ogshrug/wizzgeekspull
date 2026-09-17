@@ -1,0 +1,30 @@
+{
+  "id": "6a8ebf2d751910886affb98d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7e",
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "If $y=\\tan^{-1}x$, establish by implicit differentiation that $$\\frac{dy}{dx}=\\frac{1}{1+x^2}.$$",
+  "answeroption": "A",
+  "explanation": "<b>Conversion to trigonometric form</b><br>Given $$y=\\tan^{-1}x,$$ we obtain $$x=\\tan y.$$<br><b>Implicit differentiation</b><br>Differentiating with respect to $x$, $$1=\\sec^2y\\frac{dy}{dx}$$<br>Therefore, $$\\frac{dy}{dx}=\\frac{1}{\\sec^2y}.$$<br><b>Use of trigonometric identity</b><br>Since $$\\sec^2y=1+\\tan^2y=1+x^2,$$ we get $$\\frac{dy}{dx}=\\frac{1}{1+x^2}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=\\tan y$, so $1=\\sec^2y\\frac{dy}{dx}$ and $\\frac{dy}{dx}=\\frac{1}{1+x^2}$.",
+    "B": "$x=\\tan y$, so $1=\\tan^2y\\frac{dy}{dx}$ and $\\frac{dy}{dx}=\\frac{1}{x^2}$.",
+    "C": "$x=\\sin y$, so $\\frac{dy}{dx}=\\frac{1}{\\sqrt{1-x^2}}$.",
+    "D": "$x=\\cos y$, so $\\frac{dy}{dx}=-\\frac{1}{\\sqrt{1-x^2}}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

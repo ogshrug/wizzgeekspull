@@ -1,0 +1,28 @@
+{
+  "id": "6a265142864be73cfcf6d33f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e766d837c8c7efa6b8c2"
+  ],
+  "question_type": "SA",
+  "question": "If $\\vec{a}$ and $\\vec{b}$ are two vectors such that $|\\vec{a}+\\vec{b}|=|\\vec{b}|$, then prove that the vector $(\\vec{a}+2\\vec{b})$ is perpendicular to $\\vec{a}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** We are given the vector magnitude equality $|\\vec{a}+\\vec{b}|=|\\vec{b}|$. To manipulate this expression, square both sides to express it in terms of dot products using the vector identity $|\\vec{x}|^2 = \\vec{x} \\cdot \\vec{x}$: $|\\vec{a}+\\vec{b}|^2 = |\\vec{b}|^2$. Expanding the left-hand side using distributive properties yields: $|\\vec{a}|^2 + 2(\\vec{a}\\cdot\\vec{b}) + |\\vec{b}|^2 = |\\vec{b}|^2$.<br />**Step 2:** Subtract $|\\vec{b}|^2$ from both sides of the equation to simplify. This leaves us with the condition: $|\\vec{a}|^2 + 2(\\vec{a}\\cdot\\vec{b}) = 0$. By factoring out the shared vector dot properties, we can rewrite this simplified relationship as: $\\vec{a} \\cdot \\vec{a} + 2(\\vec{a}\\cdot\\vec{b}) = 0 \\implies \\vec{a} \\cdot (\\vec{a} + 2\\vec{b}) = 0$.<br />**Step 3:** By definition, if the dot product of two non-zero vectors is equal to zero, those two vectors must be perpendicular to each other. Because the dot product $\\vec{a} \\cdot (\\vec{a} + 2\\vec{b}) = 0$, it directly proves that the vector $(\\vec{a}+2\\vec{b})$ is perpendicular to vector $\\vec{a}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1",
+    "2022-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

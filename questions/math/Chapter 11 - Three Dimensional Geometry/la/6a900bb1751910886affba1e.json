@@ -1,0 +1,32 @@
+{
+  "id": "6a900bb1751910886affba1e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8cd",
+    "6a13e7cad837c8c7efa6b8cc"
+  ],
+  "question_type": "LA",
+  "question": "A line is represented by the Cartesian equation $\\frac{x+1}{3}=\\frac{y-2}{4}=\\frac{z+5}{-12}$. Obtain its vector equation. Taking the common ratio first as $0$ and then as $2$, determine two points on the line and use them to calculate the direction ratios and direction cosines of the directed line joining these points, thereby verifying the direction information contained in the given Cartesian equation.",
+  "answeroption": "B",
+  "explanation": "<b>Formation of Vector Equation</b><br>The Cartesian equation<br>$$\\frac{x+1}{3}=\\frac{y-2}{4}=\\frac{z+5}{-12}$$<br>shows that the line passes through $(-1,2,-5)$ and has direction ratios $3,4,-12$.<br><br>Hence, the vector equation is<br>$$\\vec{r}=(-\\hat{i}+2\\hat{j}-5\\hat{k})+\\lambda(3\\hat{i}+4\\hat{j}-12\\hat{k})$$<br><br>Writing the Cartesian equation with common ratio $\\lambda$, we have<br>$$x=-1+3\\lambda,\\quad y=2+4\\lambda,\\quad z=-5-12\\lambda$$<br>For $\\lambda=0$, the point is $A(-1,2,-5)$. For $\\lambda=2$, the point is<br>$$B=(-1+6,2+8,-5-24)=(5,10,-29)$$<br><br>The direction ratios of the directed line from $A$ to $B$ are<br>$$5-(-1),\\;10-2,\\;-29-(-5)=6,8,-24$$<br>These are proportional to $3,4,-12$, since<br>$$6,8,-24=2(3,4,-12)$$<br><br>To find the direction cosines, use the direction ratios $3,4,-12$. Their magnitude is<br>$$\\sqrt{3^2+4^2+(-12)^2}=\\sqrt{9+16+144}=13$$<br>Therefore, the direction cosines are<br>$$\\frac{3}{13},\\;\\frac{4}{13},\\;-\\frac{12}{13}$$<br><br><b>Final Result</b><br>The vector equation is $\\vec{r}=(-\\hat{i}+2\\hat{j}-5\\hat{k})+\\lambda(3\\hat{i}+4\\hat{j}-12\\hat{k})$. The two points are $A(-1,2,-5)$ and $B(5,10,-29)$; their joining line has direction ratios proportional to $3,4,-12$ and direction cosines $\\frac{3}{13},\\frac{4}{13},-\\frac{12}{13}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\vec r=(-\\hat i+2\\hat j-5\\hat k)+\\lambda(3\\hat i+4\\hat j+12\\hat k)$; points $(-1,2,-5)$ and $(5,10,19)$; direction cosines $\\left(\\frac{3}{13},\\frac{4}{13},\\frac{12}{13}\\right)$",
+    "B": "$\\vec r=(-\\hat i+2\\hat j-5\\hat k)+\\lambda(3\\hat i+4\\hat j-12\\hat k)$; points $A=(-1,2,-5)$ and $B=(5,10,-29)$; direction ratios $(6,8,-24)$; direction cosines $\\left(\\frac{3}{13},\\frac{4}{13},-\\frac{12}{13}\\right)$",
+    "C": "$\\vec r=(\\hat i-2\\hat j+5\\hat k)+\\lambda(3\\hat i+4\\hat j-12\\hat k)$; points $(1,-2,5)$ and $(7,6,-19)$; direction cosines $\\left(\\frac{3}{13},\\frac{4}{13},-\\frac{12}{13}\\right)$",
+    "D": "$\\vec r=(-\\hat i+2\\hat j-5\\hat k)+\\lambda(3\\hat i+4\\hat j-12\\hat k)$; points $(-1,2,-5)$ and $(2,6,-17)$; direction ratios $(3,4,-12)$ for common ratios $0$ and $2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

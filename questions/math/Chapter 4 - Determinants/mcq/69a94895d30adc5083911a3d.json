@@ -1,0 +1,29 @@
+{
+  "id": "69a94895d30adc5083911a3d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A = \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}\\,$. Consider the sequence $A^n$ for $n \\in \\mathbb{N}$. What is $A^{2023}$?",
+  "answeroption": "A",
+  "explanation": "Notice $A^1 = A$, $A^2 = -I$, $A^3 = -A$, $A^4 = I$, and sequence repeats every $4$.<br />$2023 \\div 4 = 505$, remainder $3$.<br />So $A^{2023} = A^3 = -A$<br />So correct answer is (A) $-A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-A$",
+    "B": "$A$",
+    "C": "$I$",
+    "D": "$-I$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:10:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

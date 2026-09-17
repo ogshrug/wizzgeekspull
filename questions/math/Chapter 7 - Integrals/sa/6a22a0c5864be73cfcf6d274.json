@@ -1,0 +1,28 @@
+{
+  "id": "6a22a0c5864be73cfcf6d274",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{2x+1}{(x+1)^{2}(x-1)}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The integrand is a proper rational function, so we proceed directly with partial fraction decomposition. Set $\\frac{2x+1}{(x+1)^2(x-1)} = \\frac{A}{x+1} + \\frac{B}{(x+1)^2} + \\frac{C}{x-1}$.<br />**Step 2:** Multiply both sides by the common denominator $(x+1)^2(x-1)$ to clear fractions. This gives the basic identity: $2x + 1 = A(x+1)(x-1) + B(x-1) + C(x+1)^2$.<br />**Step 3:** Find the constants. Set $x = 1$: $2(1) + 1 = C(1+1)^2 \\Rightarrow 3 = 4C \\Rightarrow C = \\frac{3}{4}$. Set $x = -1$: $2(-1) + 1 = B(-1-1) \\Rightarrow -1 = -2B \\Rightarrow B = \\frac{1}{2}$.<br />**Step 4:** To find $A$, pick another simple value for $x$, like $x = 0$. Substitute $B$ and $C$: $1 = A(1)(-1) + (\\frac{1}{2})(-1) + (\\frac{3}{4})(1)^2 \\Rightarrow 1 = -A - \\frac{1}{2} + \\frac{3}{4} \\Rightarrow 1 = -A + \\frac{1}{4} \\Rightarrow A = -\\frac{3}{4}$.<br />**Step 5:** Substitute $A, B, C$ back into the integral expression: $\\int (-\\frac{3/4}{x+1} + \\frac{1/2}{(x+1)^2} + \\frac{3/4}{x-1}) dx$. Integrate each term separately using basic rules. The result is $-\\frac{3}{4}\\ln|x+1| - \\frac{1}{2(x+1)} + \\frac{3}{4}\\ln|x-1| + K$. This can be combined as $\\frac{3}{4}\\ln|\\frac{x-1}{x+1}| - \\frac{1}{2(x+1)} + K$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

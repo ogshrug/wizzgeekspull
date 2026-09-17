@@ -1,0 +1,29 @@
+{
+  "id": "69a978ff6638848124d7c934",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "LA",
+  "question": "Solve for $y(x)$ given: $(1 + y^2) dx - 2 x y dy = 0,$ with $y(1) = 0$. (a) Reduce to a separable equation and solve for $y(x)$. (b) Determine the domain of definition for $y(x)$. (c) Discuss the uniqueness of the solution for all real $x$.",
+  "answeroption": "D",
+  "explanation": "(a) Rearranged: $(1+y^2) dx = 2xy dy \\implies \\frac{dx}{x} = \\frac{2y dy}{1+y^2}$<br /><br />Integrate: $\\int \\frac{dx}{x} = 2 \\int \\frac{y}{1+y^2} dy$<br /><br />Right: $\\int \\frac{y}{1+y^2} dy = \\frac{1}{2} \\ln|1+y^2|$<br /><br />So general solution: $\\ln|x| = \\ln|1+y^2| + C \\implies |x| = K |1+y^2|$<br /><br />(b) Using $y(1)=0$: $|1| = K \\implies K=1$<br /><br />So $|x| = |1+y^2| \\implies x = 1+y^2$ (negative root rejected)<br /><br />(c) Domain: $x \\geq 1$, uniqueness holds for IVP $y(1)=0$, selects $y(x) \\ge 0$ near $x=1$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\sqrt{1-x}$<br />Domain: $x\\leq1$<br />Uniqueness fails everywhere",
+    "B": "$y=x-1$<br />Domain: all real $x$<br />Unique for all real $x$",
+    "C": "$y=\\pm\\sqrt{x-1}$<br />Domain: $x\\geq1$<br />No branch selected",
+    "D": "$y=\\sqrt{x-1}$<br />Domain: $x\\geq1$<br />The IVP selects the non-negative branch near $x=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:37:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

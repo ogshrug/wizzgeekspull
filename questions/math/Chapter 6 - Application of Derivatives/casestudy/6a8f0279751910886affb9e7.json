@@ -1,0 +1,31 @@
+{
+  "id": "6a8f0279751910886affb9e7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f974",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A robotic cart moves along a straight testing track. Its displacement from the starting point after $t$ seconds is represented by $s(t)=5\\ln(t+1)$ metres, where $t\\geq0$. The control system calculates velocity as the instantaneous rate of change of displacement and acceleration as the rate of change of velocity. Engineers want to determine whether the cart ever stops and whether its speed increases or decreases as time passes, even though it continues moving in the positive direction.(a) Obtain the velocity and acceleration functions.(b) Calculate the velocity and acceleration at $t=4$ seconds.(c) Determine whether the cart is ever at rest for $t\\geq0$.(d) Compare its velocities at $t=0$ and $t=4$ and interpret the sign of acceleration.",
+  "answeroption": "D",
+  "explanation": "(a)The velocity is`v(t)=\\frac{ds}{dt}=\\frac{5}{t+1}`The acceleration is`a(t)=\\frac{dv}{dt}=-\\frac{5}{(t+1)^2}`(b)At $t=4$ seconds,`v(4)=\\frac{5}{4+1}=1\\ \\text{m/s}a(4)=-\\frac{5}{(4+1)^2}=-\\frac{1}{5}\\ \\text{m/s}^2`(c)The cart is at rest when $v(t)=0$. However,`v(t)=\\frac{5}{t+1}>0`for every $t\\geq0$. Therefore, the cart is never at rest during the given motion.(d)At $t=0$,`v(0)=\\frac{5}{1}=5\\ \\text{m/s}`At $t=4$, $v(4)=1\\ \\text{m/s}$. Thus, the velocity decreases from $5\\ \\text{m/s}$ to $1\\ \\text{m/s}$. Since`a(t)=-\\frac{5}{(t+1)^2}<0`for every $t\\geq0$, the negative acceleration confirms that the cart slows down while continuing to move in the positive direction.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $v=\\frac{5}{t+1},\\ a=\\frac{5}{(t+1)^2}$<br>(b) $v(4)=1\\ \\text{m/s},\\ a(4)=\\frac{1}{5}\\ \\text{m/s}^2$<br>(c) Never at rest<br>(d) Velocity rises from $5$ to $1\\ \\text{m/s}$ because acceleration is positive",
+    "B": "(a) $v=5\\ln(t+1),\\ a=\\frac{5}{t+1}$<br>(b) $v(4)=5\\ln5,\\ a(4)=1$<br>(c) At rest at $t=0$<br>(d) Velocity increases with time",
+    "C": "(a) $v=\\frac{5}{t+1},\\ a=-\\frac{5}{t+1}$<br>(b) $v(4)=1,\\ a(4)=-1$<br>(c) At rest when $t=4$<br>(d) Velocity is constant because acceleration is negative",
+    "D": "(a) $v=\\frac{5}{t+1},\\ a=-\\frac{5}{(t+1)^2}$<br>(b) $v(4)=1\\ \\text{m/s},\\ a(4)=-\\frac{1}{5}\\ \\text{m/s}^2$<br>(c) Never at rest for $t\\geq0$<br>(d) Velocity decreases from $5$ to $1\\ \\text{m/s}$; negative acceleration means the cart slows while moving positively"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

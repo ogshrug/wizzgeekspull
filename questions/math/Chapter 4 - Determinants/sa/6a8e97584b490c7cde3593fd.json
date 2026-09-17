@@ -1,0 +1,29 @@
+{
+  "id": "6a8e97584b490c7cde3593fd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6c"
+  ],
+  "question_type": "SA",
+  "question": "For $A=\\begin{bmatrix}2&-1\\\\3&4\\end{bmatrix}$, find the minors of all its elements and arrange them in a matrix.",
+  "answeroption": "C",
+  "explanation": "<b>Minors of the first row</b><br>Deleting the first row and first column leaves the element $4$. Hence, $M_{11}=4$. Deleting the first row and second column leaves $3$. Hence, $M_{12}=3$.<br><b>Minors of the second row</b><br>Deleting the second row and first column leaves $-1$. Therefore, $M_{21}=-1$. Deleting the second row and second column leaves $2$. Therefore, $M_{22}=2$.<br><b>Arrangement of the minors</b><br>Placing each minor in its corresponding position gives $$\\begin{bmatrix}M_{11}&M_{12}\\\\M_{21}&M_{22}\\end{bmatrix}=\\begin{bmatrix}4&3\\\\-1&2\\end{bmatrix}$$<br>Hence, the required matrix of minors is $\\begin{bmatrix}4&3\\\\-1&2\\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix}4&-3\\\\1&2\\end{bmatrix}$",
+    "B": "$\\begin{bmatrix}2&-1\\\\3&4\\end{bmatrix}$",
+    "C": "$\\begin{bmatrix}4&3\\\\-1&2\\end{bmatrix}$",
+    "D": "$\\begin{bmatrix}4&-1\\\\3&2\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

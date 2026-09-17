@@ -1,0 +1,32 @@
+{
+  "id": "6a8ecd43be0ecc7866e90be5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d80",
+    "69c6610140512f018fa94d81",
+    "69c6610140512f018fa94d82",
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "LA",
+  "question": "For $$y=e^x(x\\log x-1),\\qquad x>0,$$ find $\\frac{dy}{dx}$ and hence establish the relation $$\\frac{dy}{dx}-y=e^x(1+\\log x).$$",
+  "answeroption": "C",
+  "explanation": "<b>Differentiation</b><br>Given $$y=e^x(x\\log x-1).$$ Using the product rule, $$\\frac{dy}{dx}=e^x(x\\log x-1)+e^x\\frac{d}{dx}(x\\log x-1).$$ Now, $$\\frac{d}{dx}(x\\log x)=\\log x+x\\left(\\frac{1}{x}\\right)=\\log x+1.$$ Therefore, $$\\frac{dy}{dx}=e^x(x\\log x-1)+e^x(\\log x+1).$$ Simplifying, $$\\frac{dy}{dx}=e^x\\left(x\\log x+\\log x\\right)=e^x(x+1)\\log x.$$<br><br><b>Verification</b><br>Using $y=e^x(x\\log x-1)$, $$\\frac{dy}{dx}-y=e^x(x+1)\\log x-e^x(x\\log x-1).$$ Taking $e^x$ common, $$\\frac{dy}{dx}-y=e^x\\left[(x+1)\\log x-x\\log x+1\\right].$$ Hence, $$\\frac{dy}{dx}-y=e^x(\\log x+1).$$<br><br><b>Final Result</b><br>Thus, $$\\frac{dy}{dx}=e^x(x+1)\\log x$$ and consequently $$\\frac{dy}{dx}-y=e^x(1+\\log x).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=e^x(x\\log x+\\log x+1)$; hence $\\frac{dy}{dx}-y=e^x(2+\\log x)$",
+    "B": "$\\frac{dy}{dx}=e^x(x-1)\\log x$; hence $\\frac{dy}{dx}-y=e^x(1-\\log x)$",
+    "C": "$\\frac{dy}{dx}=e^x(x+1)\\log x$; hence $\\frac{dy}{dx}-y=e^x(1+\\log x)$",
+    "D": "$\\frac{dy}{dx}=e^x(x+1)$; hence $\\frac{dy}{dx}-y=e^x(2+x-x\\log x)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

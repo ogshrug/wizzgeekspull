@@ -1,0 +1,28 @@
+{
+  "id": "6a225491864be73cfcf6d16f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "SA",
+  "question": "For the vacancy advertised in the newspaper, 3000 candidates submitted their applications. From the data it was revealed that two third of the total applicants were females and other were males. The selection for the job was done through a written test. The performance of the applicants indicates that the probability of a male getting a distinction in written test is 0.4 and that a female getting a distinction is 0.35. Find the probability that the candidate chosen at random will have a distinction in the written test.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the variable $F$ officially denote the random event of selecting a female applicant, and let $M$ identically denote the mutually exclusive event of selecting a male applicant. Additionally, let $D$ signify the target event of attaining a written distinction.<br />**Step 2:** The baseline population probabilities are defined as $P(F) = 2/3$ and inherently $P(M) = 1/3$. The provided specific conditional probabilities are $P(D|M) = 0.4$ and $P(D|F) = 0.35$.<br />**Step 3:** We methodically apply the universal law of total probability to analytically find the total boundary $P(D) = P(M)P(D|M) + P(F)P(D|F)$.<br />**Step 4:** Calculate the numbers carefully: $(1/3 \\times 0.4) + (2/3 \\times 0.35) = 0.4/3 + 0.7/3 = 1.1 / 3 = 11/30$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1",
+    "2025-1-2",
+    "2025-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

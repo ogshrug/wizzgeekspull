@@ -1,0 +1,29 @@
+{
+  "id": "6a8d41831cb3824448de86c1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "SA",
+  "question": "Let $A=\\{1,2,3\\}$, $B=\\{a,b,c\\}$ and $C=\\{4,5\\}$. Functions $f:A\\to B$ and $g:B\\to C$ are defined by $f(1)=a$, $f(2)=b$, $f(3)=c$ and $g(a)=4$, $g(b)=5$, $g(c)=4$. Find $g\\circ f$.",
+  "answeroption": "D",
+  "explanation": "<b>Image of $1$ under the composition</b><br>$$(g\\circ f)(1)=g(f(1))=g(a)=4.$$<br><br><b>Image of $2$ under the composition</b><br>$$(g\\circ f)(2)=g(f(2))=g(b)=5.$$<br><br><b>Image of $3$ under the composition</b><br>$$(g\\circ f)(3)=g(f(3))=g(c)=4.$$<br><br><b>Composite function</b><br>Therefore,<br>$$g\\circ f=\\{(1,4),(2,5),(3,4)\\}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$g\\circ f=\\{(1,5),(2,4),(3,5)\\}$",
+    "B": "$g\\circ f=\\{(1,4),(2,4),(3,5)\\}$",
+    "C": "$g\\circ f=\\{(1,5),(2,5),(3,4)\\}$",
+    "D": "$g\\circ f=\\{(1,4),(2,5),(3,4)\\}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

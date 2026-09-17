@@ -1,0 +1,37 @@
+{
+  "id": "6a214f35864be73cfcf6d106",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "MCQ",
+  "question": "For the feasible region shown below, the non-trivial constraints of the linear programming problem are",
+  "answeroption": "C",
+  "explanation": "**Step 1:** We analyze the graphical plot to determine the equations of the boundary lines. The first line passes cleanly through the points $(0, 5)$ and $(5, 0)$.<br /><br />**Step 2:** Using the intercept form $\\frac{x}{a} + \\frac{y}{b} = 1$, the equation for this line is $\\frac{x}{5} + \\frac{y}{5} = 1$, which simplifies directly to $x + y = 5$.<br /><br />**Step 3:** The second line passes through the y-intercept $(0, 3)$ and x-intercept $(9, 0)$. Its equation is $\\frac{x}{9} + \\frac{y}{3} = 1$. Multiplying by 9 gives $x + 3y = 9$.<br /><br />**Step 4:** Now we determine the inequality signs by looking at the shaded feasible region. The region lies ABOVE the line $x + y = 5$ (away from the origin), meaning $x + y \\ge 5$.<br /><br />**Step 5:** The shaded region lies BELOW the line $x + 3y = 9$ (towards the origin), meaning $x + 3y \\le 9$. Therefore, the constraint system is $x + y \\ge 5$ and $x + 3y \\le 9$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x+y\\le5, x+3y\\le9$",
+    "B": "$x+y\\le5, x+3y\\ge9$",
+    "C": "$x+y\\ge5, x+3y\\le9$",
+    "D": "$x+y\\ge5, 3x+y\\le9$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a214f35864be73cfcf6d106/1782193286-0.png?t=1782213087073"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

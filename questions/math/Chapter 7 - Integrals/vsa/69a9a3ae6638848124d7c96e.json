@@ -1,0 +1,29 @@
+{
+  "id": "69a9a3ae6638848124d7c96e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int_1^{e} x\\ln x dx$.",
+  "answeroption": "A",
+  "explanation": "Using integration by parts with $u=\\ln x$, $dv=xdx$.<br /><br />$du=\\frac{1}{x}dx$, $v=\\frac{x^2}{2}$.<br /><br />$\\int x\\ln x dx=\\frac{x^2}{2}\\ln x-\\frac{x^2}{4}+C$.<br /><br />Evaluating from $1$ to $e$ gives $\\frac{e^2+1}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{e^2+1}{4}$",
+    "B": "$\\frac{e^2-1}{4}$",
+    "C": "$\\frac{e^2+1}{2}$",
+    "D": "$\\frac{e^2}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:39:26 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

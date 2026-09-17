@@ -1,0 +1,31 @@
+{
+  "id": "6a8fd20b2e54880055a0a70d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999",
+    "6a13eb348c819562f933f99b"
+  ],
+  "question_type": "LA",
+  "question": "The parabolas $y^2=4x$ and $x^2=4y$ enclose a region in the first quadrant.(a) Determine their points of intersection.(b) Express both parabolas in terms of $y$ as functions of $x$ and identify the upper curve.(c) Hence calculate the area enclosed by the two parabolas.",
+  "answeroption": "B",
+  "explanation": "(a)From $y^2=4x$,`x=\\frac{y^2}{4}`Substituting this in $x^2=4y$ gives`\\frac{y^4}{16}=4yy\\left(y^3-64\\right)=0`Therefore, $y=0$ or $y=4$. The corresponding values of $x$ are $0$ and $4$. Hence, the points of intersection are $\\left(0,0\\right)$ and $\\left(4,4\\right)$.(b)In the first quadrant, $y^2=4x$ gives`y=2\\sqrt{x}`The second parabola gives`y=\\frac{x^2}{4}`For $0\\leq x\\leq4$, $2\\sqrt{x}\\geq\\frac{x^2}{4}$. Therefore, $y=2\\sqrt{x}$ is the upper curve and $y=\\frac{x^2}{4}$ is the lower curve.(c)The enclosed area is`A=\\int_0^4\\left(2\\sqrt{x}-\\frac{x^2}{4}\\right)dxA=\\left[\\frac{4x^{3/2}}{3}-\\frac{x^3}{12}\\right]_0^4A=\\frac{32}{3}-\\frac{64}{12}A=\\frac{32}{3}-\\frac{16}{3}=\\frac{16}{3}`Hence, the area enclosed by the two parabolas is $\\frac{16}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,0)$ and $(4,4)$<br>(b) Upper: $y=\\frac{x^2}{4}$; lower: $y=2\\sqrt{x}$<br>(c) Area $=\\frac{16}{3}$ square units",
+    "B": "(a) $(0,0)$ and $(4,4)$<br>(b) Upper: $y=2\\sqrt{x}$; lower: $y=\\frac{x^2}{4}$<br>(c) Area $=\\frac{16}{3}$ square units",
+    "C": "(a) $(0,0)$ and $(2,2)$<br>(b) Upper: $y=2\\sqrt{x}$; lower: $y=\\frac{x^2}{4}$<br>(c) Area $=\\frac{16}{3}$ square units",
+    "D": "(a) $(0,0)$ and $(4,4)$<br>(b) Upper: $y=2\\sqrt{x}$; lower: $y=\\frac{x^2}{4}$<br>(c) Area $=\\frac{8}{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

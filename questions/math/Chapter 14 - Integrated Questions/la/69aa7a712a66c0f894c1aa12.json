@@ -1,0 +1,30 @@
+{
+  "id": "69aa7a712a66c0f894c1aa12",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13eb348c819562f933f998",
+    "6a13ebc98c819562f933f99d"
+  ],
+  "question_type": "LA",
+  "question": "Let the curve $C_1$ be $y^2=4x$ and $C_2$ be $x^2=4y$.\n(a) Find the area enclosed between $C_1$ and $C_2$ for $x \\geq 0$, $y \\geq 0$.\n(b) Suppose a particle moves along $C_1$ such that at any time $t$, $x = t^2$, $y=2t$. Write a differential equation satisfied by $y$ and $x$, then solve it.\n(c) Using your results, find the probability that for $t$ randomly and uniformly chosen from $[0,2]$, the $y$-coordinate of the particle exceeds $2$.",
+  "answeroption": "D",
+  "explanation": "(a) Intersection points:<br />$y^2 = 4x$ and $x^2 = 4y$<br />$y = 2\\sqrt{x}$ and $y = \\frac{x^2}{4}$<br />Set equal:<br />$2\\sqrt{x} = \\frac{x^2}{4}$<br />$8\\sqrt{x} = x^2$<br />Let $s = \\sqrt{x}$ then $8s = s^4$<br />$s(s^3-8)=0$<br />$s=0,2$ giving $x=0,4$<br />Area:<br />$A = \\int_0^4 \\left(2\\sqrt{x} - \\frac{x^2}{4}\\right) dx$<br />$= 2\\int_0^4 x^{1/2} dx - \\frac{1}{4}\\int_0^4 x^2 dx$<br />$= 2\\left[\\frac{2}{3}x^{3/2}\\right]_0^4 - \\frac{1}{4}\\left[\\frac{1}{3}x^3\\right]_0^4$<br />$= 2 \\times \\frac{2}{3}(8) - \\frac{1}{4} \\times \\frac{64}{3}$<br />$= \\frac{32}{3} - \\frac{16}{3} = \\frac{16}{3}$<br /><br />(b) Given $x=t^2$, $y=2t$<br />Eliminate $t$: $t=\\sqrt{x}$<br />Thus $y=2\\sqrt{x}$<br />Square both sides: $y^2=4x$<br />Differentiate:<br />$2y \\frac{dy}{dx}=4$<br />$\\frac{dy}{dx}=\\frac{2}{y}$<br />General solution $y^2=4x+k$<br />Since curve is $y^2=4x$, $k=0$.<br /><br />(c) $y=2t$ and $t$ uniform in $[0,2]$<br />$y>2 \\Rightarrow 2t>2 \\Rightarrow t>1$<br />Probability $= \\frac{2-1}{2-0} = \\frac{1}{2}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Area $=\\frac{8}{3}$<br />(b) Differential equation $\\frac{dy}{dx}=\\frac{y}{2}$ and solution $y^2=4x+k$<br />(c) Probability $=\\frac14$",
+    "B": "(a) Area $=\\frac{16}{3}$<br />(b) Differential equation $\\frac{dy}{dx}=\\frac{y}{2}$ and solution $y=Ce^{x/2}$<br />(c) Probability $=\\frac13$",
+    "C": "(a) Area $=\\frac{32}{3}$<br />(b) Differential equation $\\frac{dy}{dx}=\\frac{4}{y}$ and solution $y^2=8x+k$<br />(c) Probability $=\\frac34$",
+    "D": "(a) Area enclosed $=\\frac{16}{3}$<br />(b) Differential equation $\\frac{dy}{dx}=\\frac{2}{y}$ and solution $y^2=4x+k$; for $C_1$, $k=0$<br />(c) Probability $=\\frac12$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:55:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

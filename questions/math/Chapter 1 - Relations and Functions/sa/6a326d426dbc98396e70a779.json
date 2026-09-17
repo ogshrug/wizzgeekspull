@@ -1,0 +1,27 @@
+{
+  "id": "6a326d426dbc98396e70a779",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Prove that $f:N\\rightarrow N$ defined as $f(x)=ax+b$ ($a, b\\in N$) is one-one but not onto.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To show that the function is one-one, let $f(x_1) = f(x_2)$ for any $x_1, x_2 \\in N$. This gives $ax_1 + b = ax_2 + b \\implies ax_1 = ax_2$. Since $a \\in N$, we can divide by $a$ to get $x_1 = x_2$, confirming that $f$ is a one-one function .<br />**Step 2:** To check if the function is onto, let $y \\in N$ such that $y = ax+b \\implies x = \\frac{y-b}{a}$. If we choose $y = 1$, then $x = \\frac{1-b}{a}$. Since $b \\in N$, $1-b \\le 0$, which means $x \\notin N$. Since there are elements in the codomain with no pre-image in the domain, $f$ is not onto.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

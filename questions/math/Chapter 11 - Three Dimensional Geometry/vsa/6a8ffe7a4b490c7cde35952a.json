@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffe7a4b490c7cde35952a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4"
+  ],
+  "question_type": "VSA",
+  "question": "The lines $\\vec{r}=(\\hat{i}+2\\hat{j}-\\hat{k})+\\lambda(2\\hat{i}-\\hat{j}+\\hat{k})$ and $\\vec{r}=(3\\hat{i}+\\hat{j}+k\\hat{k})+\\mu(\\hat{i}+\\hat{j}-\\hat{k})$ are coplanar. Find $k$.",
+  "answeroption": "C",
+  "explanation": "Step 1: For two lines $\\vec{r}=\\vec{a_1}+\\lambda\\vec{b_1}$ and $\\vec{r}=\\vec{a_2}+\\mu\\vec{b_2}$ to be coplanar, $(\\vec{a_2}-\\vec{a_1})\\cdot(\\vec{b_1}\\times\\vec{b_2})=0$. Step 2: Here, $\\vec{a_2}-\\vec{a_1}=(2,-1,k+1)$, $\\vec{b_1}=(2,-1,1)$ and $\\vec{b_2}=(1,1,-1)$. Step 3: Their cross product is $$\\vec{b_1}\\times\\vec{b_2}=(0,3,3).$$ Step 4: Therefore, the coplanarity condition gives $$(2,-1,k+1)\\cdot(0,3,3)=0.$$ This simplifies to $-3+3(k+1)=0$, or $3k=0$. Step 5: Hence, the required value is $$k=0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=1$",
+    "B": "$k=-1$",
+    "C": "$k=0$",
+    "D": "$k=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

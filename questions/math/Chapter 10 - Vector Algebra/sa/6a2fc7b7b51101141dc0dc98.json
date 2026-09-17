@@ -1,0 +1,27 @@
+{
+  "id": "6a2fc7b7b51101141dc0dc98",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c3",
+    "6a13e767d837c8c7efa6b8c9"
+  ],
+  "question_type": "SA",
+  "question": "Using vectors, find the value of '$b$' if the points $A(-1,-1,2)$, $B(2,b,5)$ and $C(3,11,6)$ are collinear. Also, determine the ratio in which the point $B$ divides the line-segment $AC$ internally.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find the vectors $\\vec{AB}$ and $\\vec{AC}$.<br />$\\vec{AB} = (2 - (-1))\\hat{i} + (b - (-1))\\hat{j} + (5 - 2)\\hat{k} = 3\\hat{i} + (b+1)\\hat{j} + 3\\hat{k}$<br />$\\vec{AC} = (3 - (-1))\\hat{i} + (11 - (-1))\\hat{j} + (6 - 2)\\hat{k} = 4\\hat{i} + 12\\hat{j} + 4\\hat{k}$<br />**Step 2:** Use the collinearity condition $\\vec{AB} = \\lambda \\vec{AC}$ to find $b$.<br />$3\\hat{i} + (b+1)\\hat{j} + 3\\hat{k} = \\lambda(4\\hat{i} + 12\\hat{j} + 4\\hat{k})$<br />Comparing components: $3 = 4\\lambda \\implies \\lambda = \\frac{3}{4}$<br />$b+1 = 12\\lambda \\implies b+1 = 12(\\frac{3}{4}) = 9 \\implies b = 8$<br />**Step 3:** Use the section formula to determine the ratio $k:1$ in which $B$ divides $AC$.<br />$x$-coordinate of $B = \\frac{k(3) + 1(-1)}{k+1} = 2$<br />$3k - 1 = 2k + 2 \\implies k = 3$<br />The required ratio is $3:1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

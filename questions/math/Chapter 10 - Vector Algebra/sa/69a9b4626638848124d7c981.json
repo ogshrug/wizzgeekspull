@@ -1,0 +1,30 @@
+{
+  "id": "69a9b4626638848124d7c981",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e766d837c8c7efa6b8bc"
+  ],
+  "question_type": "SA",
+  "question": "Let $\\vec{a} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$ and $\\vec{b} = \\hat{i} + 3\\hat{j} - \\hat{k}$. Find all non-zero vector(s) $\\vec{d}$ such that $\\vec{d}$ is perpendicular to both $\\vec{a}$ and $\\vec{b}$, and $|\\vec{d}| = \\sqrt{35}$.",
+  "answeroption": "D",
+  "explanation": "Step 1: Since $\\vec{d}$ is perpendicular to both $\\vec{a}$ and $\\vec{b}$, it must be parallel to $\\vec{a} \\times \\vec{b}$.<br /><br />Step 2: Compute $\\vec{a} \\times \\vec{b}$:<br /><br />$\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & -1 & 3 \\\\ 1 & 3 & -1 \\end{vmatrix}$<br /><br />$= \\hat{i}[(-1)(-1) - (3)(3)] - \\hat{j}[(2)(-1) - (3)(1)] + \\hat{k}[(2)(3) - (-1)(1)]$<br /><br />$= \\hat{i}[1 - 9] - \\hat{j}[-2 - 3] + \\hat{k}[6 + 1]$<br /><br />$= -8\\hat{i} + 5\\hat{j} + 7\\hat{k}$<br /><br />Step 3: Find the magnitude of $\\vec{a} \\times \\vec{b}$:<br /><br />$|\\vec{a} \\times \\vec{b}| = \\sqrt{(-8)^2 + 5^2 + 7^2} = \\sqrt{64 + 25 + 49} = \\sqrt{138}$<br /><br />Step 4: The unit vector in the direction of $\\vec{a} \\times \\vec{b}$ is:<br /><br />$\\hat{n} = \\dfrac{-8\\hat{i} + 5\\hat{j} + 7\\hat{k}}{\\sqrt{138}}$<br /><br />Step 5: Since $\\vec{d}$ is parallel to $\\vec{a} \\times \\vec{b}$ and $|\\vec{d}| = \\sqrt{35}$, we have:<br /><br />$\\vec{d} = \\pm \\sqrt{35} \\cdot \\hat{n} = \\pm \\sqrt{35} \\cdot \\dfrac{-8\\hat{i} + 5\\hat{j} + 7\\hat{k}}{\\sqrt{138}}$<br /><br />$= \\pm \\dfrac{\\sqrt{35}}{\\sqrt{138}}(-8\\hat{i} + 5\\hat{j} + 7\\hat{k})$<br /><br />Step 6: Verification:<br /><br />Check perpendicularity:<br /><br />$\\vec{d} \\cdot \\vec{a} = \\pm \\dfrac{\\sqrt{35}}{\\sqrt{138}}[(-8)(2) + (5)(-1) + (7)(3)] = \\pm \\dfrac{\\sqrt{35}}{\\sqrt{138}}[-16 - 5 + 21] = 0$<br /><br />$\\vec{d} \\cdot \\vec{b} = \\pm \\dfrac{\\sqrt{35}}{\\sqrt{138}}[(-8)(1) + (5)(3) + (7)(-1)] = \\pm \\dfrac{\\sqrt{35}}{\\sqrt{138}}[-8 + 15 - 7] = 0$<br /><br />Check magnitude:<br /><br />$|\\vec{d}| = \\sqrt{35} \\cdot \\dfrac{\\sqrt{138}}{\\sqrt{138}} = \\sqrt{35}$<br /><br />Therefore, the required vectors are:<br /><br />$\\vec{d} = \\pm \\dfrac{\\sqrt{35}}{\\sqrt{138}}(-8\\hat{i} + 5\\hat{j} + 7\\hat{k})$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\pm \\dfrac{\\sqrt{35}}{\\sqrt{138}}(8\\hat{i} + 5\\hat{j} + 7\\hat{k})$",
+    "B": "$\\pm \\dfrac{\\sqrt{138}}{\\sqrt{35}}(-8\\hat{i} + 5\\hat{j} + 7\\hat{k})$",
+    "C": "$\\pm(-8\\hat{i} + 5\\hat{j} + 7\\hat{k})$",
+    "D": "$\\pm \\dfrac{\\sqrt{35}}{\\sqrt{138}}(-8\\hat{i} + 5\\hat{j} + 7\\hat{k})$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:50:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

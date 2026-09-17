@@ -1,0 +1,33 @@
+{
+  "id": "6a2278cd864be73cfcf6d1e2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{e^{9\\log x}-e^{8\\log x}}{e^{6\\log x}-e^{5\\log x}}dx$ is equal to:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Use the logarithmic property $a \\log b = \\log(b^a)$ to rewrite the exponents: $e^{9\\log x} = e^{\\log(x^9)}$.<br />**Step 2:** Utilize the fundamental identity $e^{\\log z} = z$. Applying this to all terms simplifies the integrand dramatically: $\\frac{x^9 - x^8}{x^6 - x^5}$.<br />**Step 3:** Factor out the lowest power of $x$ from the numerator and denominator: $\\frac{x^8(x - 1)}{x^5(x - 1)}$.<br />**Step 4:** Cancel the common factor $(x - 1)$ (assuming $x \\ne 1$): $\\frac{x^8}{x^5}$.<br />**Step 5:** Use exponent division rules to further simplify: $x^{8-5} = x^3$.<br />**Step 6:** Now integrate the simplified polynomial expression: $\\int x^3 dx$. By the power rule, this equals $\\frac{x^4}{4} + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x+C$",
+    "B": "$\\frac{x^{2}}{2}+C$",
+    "C": "$\\frac{x^{4}}{4}+C$",
+    "D": "$\\frac{x^{3}}{3}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

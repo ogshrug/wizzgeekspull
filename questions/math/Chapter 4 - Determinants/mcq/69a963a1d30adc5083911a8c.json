@@ -1,0 +1,31 @@
+{
+  "id": "69a963a1d30adc5083911a8c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "MCQ",
+  "question": "If A is a square matrix of order n such that $AA^{-1} = I$, then det A =",
+  "answeroption": "B",
+  "explanation": "Given: $AA^{-1} = I$<br /><br />Taking determinant on both sides:<br /><br />$|AA^{-1}| = |I|$<br /><br />$|A| \\cdot |A^{-1}| = 1$<br /><br />But $|A^{-1}| = \\frac{1}{|A|}$<br /><br />So: $|A| \\cdot \\frac{1}{|A|} = 1$<br /><br />This is true for any $|A| \\neq 0$<br /><br />Wait, the question seems to have a typo. If $AA^{-1} = I$, then $|A|$ can be any non-zero value.<br /><br />However, if the question meant $A^T = A^{-1}$ (orthogonal matrix), then:<br /><br />$AA^T = I$<br /><br />$|A| \\cdot |A^T| = 1$<br /><br />$|A|^2 = 1$<br /><br />$|A| = \\pm 1$<br /><br />So answer is (b) $\\pm 1$",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "$\\pm 1$",
+    "C": "$\\pm 2$",
+    "D": "$\\pm 3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:06:09 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

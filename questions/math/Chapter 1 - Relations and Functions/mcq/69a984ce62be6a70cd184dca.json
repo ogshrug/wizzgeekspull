@@ -1,0 +1,30 @@
+{
+  "id": "69a984ce62be6a70cd184dca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $f: \\mathbb{Z} \\to \\mathbb{Z}$ be defined as $f(x) = |x|$, and let $g: \\mathbb{Z} \\to \\mathbb{Z}$ be defined as $g(x) = -x$. Which of the following statements is TRUE?",
+  "answeroption": "D",
+  "explanation": "Let's compute $f \\circ g(x) = f(g(x)) = f(-x) = |-x| = |x|$.<br /><br />Is this injective? If $f \\circ g(x_1) = f \\circ g(x_2) \\implies |x_1| = |x_2|$ which does not guarantee $x_1 = x_2$. Not injective.<br /><br />Is $g \\circ f(x) = g(f(x)) = -f(x) = -|x|$. Is this injective? $g \\circ f(x_1) = g \\circ f(x_2) \\implies -|x_1| = -|x_2|$ so $|x_1| = |x_2|$, not injective.<br /><br />Is $g \\circ f$ surjective? $g \\circ f(x) = -|x|$ gives only non-positive integers, so not surjective onto $\\mathbb{Z}$.<br /><br />Is $f \\circ g$ surjective? $f \\circ g(x) = |x|$ gives only non-negative values.<br /><br />Thus, neither composition is injective. So **D** is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f \\circ g$ is injective but not surjective",
+    "B": "$g \\circ f$ is surjective but not injective",
+    "C": "Both $f \\circ g$ and $g \\circ f$ are injective",
+    "D": "Neither $f \\circ g$ nor $g \\circ f$ is injective"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:27:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

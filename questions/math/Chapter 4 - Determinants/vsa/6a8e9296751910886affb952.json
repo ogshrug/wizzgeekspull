@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9296751910886affb952",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "VSA",
+  "question": "Using the inverse-matrix method, solve $x+2y=4$ and $3x+5y=11$, and determine $\\frac{x}{y}$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Form the matrix equation</b><br>Here, $$A=\\begin{bmatrix}1&2\\\\3&5\\end{bmatrix},\\quad X=\\begin{bmatrix}x\\\\y\\end{bmatrix},\\quad B=\\begin{bmatrix}4\\\\11\\end{bmatrix}$$<br><b>Step 2: Calculate the inverse</b><br>Since $|A|=5-6=-1$, $$A^{-1}=\\begin{bmatrix}-5&2\\\\3&-1\\end{bmatrix}$$<br><b>Step 3: Find $X$</b><br>Therefore, $$X=A^{-1}B=\\begin{bmatrix}-5&2\\\\3&-1\\end{bmatrix}\\begin{bmatrix}4\\\\11\\end{bmatrix}=\\begin{bmatrix}2\\\\1\\end{bmatrix}$$<br><b>Step 4: Calculate the ratio</b><br>Hence, $$\\frac{x}{y}=\\frac{2}{1}=2$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=2$, $y=1$, and $\\frac{x}{y}=2$",
+    "B": "$x=1$, $y=2$, and $\\frac{x}{y}=\\frac{1}{2}$",
+    "C": "$x=3$, $y=\\frac{1}{2}$, and $\\frac{x}{y}=6$",
+    "D": "$x=-2$, $y=3$, and $\\frac{x}{y}=-\\frac{2}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

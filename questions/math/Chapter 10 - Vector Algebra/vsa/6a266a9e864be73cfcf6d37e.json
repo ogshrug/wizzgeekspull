@@ -1,0 +1,28 @@
+{
+  "id": "6a266a9e864be73cfcf6d37e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c9",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "VSA",
+  "question": "If the projection of the vector $\\hat{i}+\\hat{j}+\\hat{k}$ on the vector $p\\hat{i}+\\hat{j}-2\\hat{k}$ is $\\frac{1}{3}$, then find the value(s) of p.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Define the vectors as $\\vec{a} = \\hat{i}+\\hat{j}+\\hat{k}$ and $\\vec{b} = p\\hat{i}+\\hat{j}-2\\hat{k}$. The mathematical formula for the scalar projection of vector $\\vec{a}$ onto vector $\\vec{b}$ is given by the expression: $\\text{Projection} = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|}$.<br />**Step 2:** Compute the individual components. The dot product in the numerator is $\\vec{a} \\cdot \\vec{b} = (1)(p) + (1)(1) + (1)(-2) = p + 1 - 2 = p - 1$. The magnitude of vector $\\vec{b}$ in the denominator is $|\\vec{b}| = \\sqrt{p^2 + 1^2 + (-2)^2} = \\sqrt{p^2 + 1 + 4} = \\sqrt{p^2 + 5}$. Setting this equal to the given projection value yields: $\\frac{p-1}{\\sqrt{p^2+5}} = \\frac{1}{3}$.<br />**Step 3:** Cross-multiply to eliminate the fractions, giving $3(p-1) = \\sqrt{p^2+5}$, and square both sides to remove the radical root: $9(p-1)^2 = p^2 + 5$. Expanding the terms gives $9(p^2 - 2p + 1) = p^2 + 5 \\implies 9p^2 - 18p + 9 = p^2 + 5$. Grouping terms results in a quadratic equation: $8p^2 - 18p + 4 = 0$, which divides by 2 to give $4p^2 - 9p + 2 = 0$. Factoring fields $(4p-1)(p-2) = 0$, which solves to $p = 2$ or $p = \\frac{1}{4}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

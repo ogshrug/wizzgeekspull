@@ -1,0 +1,30 @@
+{
+  "id": "69a9c160d30adc5083911b52",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7d",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\cos^{-1}(2x^2 - 1)$ for $x \\in [0,1]$.<br /><br />(a) Express $f(x)$ in terms of $\\cos^{-1}x$.<br /><br />(b) Show $f(x)$ is strictly decreasing on $[0,1]$.<br /><br />(c) Differentiate $f(x)$ and compute the value at $x = \\frac{\\sqrt{2}}{2}$.<br /><br />(d) For $g(x) = f^{-1}(x)$, compute $g'(\\pi/3)$.",
+  "answeroption": "B",
+  "explanation": "**Concepts being tested:** Inverse Trigonometric Functions, Differentiation, Inverse Functions<br /><br />(a)<br />$2x^2-1 = \\cos 2\\theta$ if $x=\\cos\\theta$, so<br />$f(x) = \\cos^{-1}(\\cos 2\\theta) = 2\\theta = 2\\cos^{-1} x$<br /><br />(b)<br />$\\cos^{-1} x$ is strictly decreasing, so $2\\cos^{-1} x$ is strictly decreasing, so $f(x)$ is strictly decreasing.<br /><br />(c)<br />$\\frac{df}{dx} = 2 \\frac{d}{dx}(\\cos^{-1}x) = -\\frac{2}{\\sqrt{1-x^2}}$<br />At $x=\\frac{\\sqrt{2}}{2}$,<br />$\\sqrt{1-x^2} = \\sqrt{1-1/2} = \\frac{1}{\\sqrt{2}}$, so derivative is $-\\frac{2}{1/\\sqrt{2}} = -2\\sqrt{2}$<br /><br />(d)<br />Let $g(x)=f^{-1}(x)$, so $g'(y) = 1/f'(g(y))$.<br />At $y=\\pi/3$, $x=g(\\pi/3)$<br />Set $f(x)=\\pi/3$, $2\\cos^{-1}x=\\pi/3 \\implies \\cos^{-1}x=\\pi/6\\implies x=\\cos(\\pi/6)=\\frac{\\sqrt{3}}{2}$<br />Now $f'(x)=-2/(\\sqrt{1-x^2})$, at $x=\\sqrt{3}/2$: $1-(3/4)=1/4$, $\\sqrt{1/4}=1/2$<br />Thus, $g'(\\pi/3) = -1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=\\cos^{-1}x$<br />(b) $f$ is strictly increasing on $[0,1]$<br />(c) $f'\\left(\\frac{\\sqrt2}{2}\\right)=2\\sqrt2$<br />(d) $g'\\left(\\frac{\\pi}{3}\\right)=1$",
+    "B": "(a) $f(x)=2\\cos^{-1}x$<br />(b) $f$ is strictly decreasing on $[0,1]$<br />(c) $f'\\left(\\frac{\\sqrt2}{2}\\right)=-2\\sqrt2$<br />(d) $g'\\left(\\frac{\\pi}{3}\\right)=-1$",
+    "C": "(a) $f(x)=2\\sin^{-1}x$<br />(b) $f$ is strictly increasing on $[0,1]$<br />(c) $f'\\left(\\frac{\\sqrt2}{2}\\right)=2\\sqrt2$<br />(d) $g'\\left(\\frac{\\pi}{3}\\right)=\\frac{1}{2}$",
+    "D": "(a) $f(x)=\\frac{1}{2}\\cos^{-1}x$<br />(b) $f$ is constant on $[0,1]$<br />(c) $f'\\left(\\frac{\\sqrt2}{2}\\right)=-\\sqrt2$<br />(d) $g'\\left(\\frac{\\pi}{3}\\right)=-2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:46:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

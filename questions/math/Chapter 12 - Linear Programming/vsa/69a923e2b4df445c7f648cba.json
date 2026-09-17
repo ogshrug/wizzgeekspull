@@ -1,0 +1,29 @@
+{
+  "id": "69a923e2b4df445c7f648cba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "VSA",
+  "question": "A furniture maker can make at most 10 tables and 15 chairs per week. Each table requires 2 hours and each chair 1 hour of labor. Maximum available labor hours per week is 20. Formulate all constraints for the number of tables $x$ and chairs $y$.",
+  "answeroption": "A",
+  "explanation": "Let $x =$ number of tables, $y =$ number of chairs<br /><br />Constraints:<br /><br />$x \\leq 10$<br />$y \\leq 15$<br />$2x + y \\leq 20$<br />$x \\geq 0, \\quad y \\geq 0$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x\\leq10$, $y\\leq15$, $2x+y\\leq20$, $x\\geq0$, $y\\geq0$",
+    "B": "$x\\geq10$, $y\\geq15$, $2x+y\\leq20$, $x\\geq0$, $y\\geq0$",
+    "C": "$x\\leq10$, $y\\leq15$, $x+2y\\leq20$, $x\\geq0$, $y\\geq0$",
+    "D": "$x\\leq15$, $y\\leq10$, $2x+y\\leq20$, $x\\geq0$, $y\\geq0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:34:10 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

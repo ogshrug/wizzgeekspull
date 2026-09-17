@@ -1,0 +1,30 @@
+{
+  "id": "69aa7f872a66c0f894c1aa26",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "Consider the following Linear Programming Problem: Maximize $Z = x + 2y$ subject to $x + y \\leq 4, \\; x + 2y \\leq 6, \\; x \\geq 0, \\; y \\geq 0$.\n(a) Graphically represent the feasible region and find all corner points.\n(b) Using determinants, solve the equations representing the constraints at the points of intersection to find the optimal solution.\n(c) Analyze how the value of $Z$ changes if the inequality $x + 2y \\leq 6$ is replaced by $x + 2y \\leq p$ for $p > 0$.\n(d) For what value of $p$ does the feasible region become unbounded?",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:** Linear programming, Graphical solution method, Application of determinants to solve simultaneous equations, Parametric analysis of constraints, Bounded/unbounded feasible regions.<br /><br />(a) Constraints:<br />$x+y\\le4$, $x+2y\\le6$, $x\\ge0$, $y\\ge0$.<br /><br />Corner points are intersections of:<br />x-axis: $x=0$, y-axis: $y=0$.<br />At $x+y=4$ and $x+2y=6$:<br />Solve:<br />$x+y=4$, $x+2y=6$<br />Subtract: $(x+2y)-(x+y)=y=2\\implies y=2, x=4-2=2$<br /><br />At $x=0$ and $x+2y=6$, $x=0\\implies 2y=6\\implies y=3$<br />At $y=0$ and $x+y=4$, $y=0\\implies x=4$<br /><br />So corner points: $(0,0)$, $(0,3)$, $(2,2)$, $(4,0)$<br /><br />(b) Use determinants to solve:<br />$\\begin{pmatrix}1 & 1\\\\1 & 2\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}4\\\\6\\end{pmatrix}$<br /><br />$\\Delta=\\left|\\begin{array}{cc}1 & 1\\\\1 & 2\\end{array}\\right|=2-1=1\\ne0$<br />So solution is:<br />x$=\\frac{\\left|\\begin{array}{cc}4 & 1 \\\\6 & 2\\end{array}\\right|}{1}=4\\cdot2-1\\cdot6=8-6=2$<br />y$=\\frac{\\left|\\begin{array}{cc}1 & 4 \\\\1 & 6\\end{array}\\right|}{1}=1\\cdot6-4\\cdot1=6-4=2$<br />Intersection at $(2,2)$<br /><br />Evaluate $Z$ at all corner points:<br />$(0,0): Z=0$; $(0,3): Z=6$; $(2,2): Z=6$; $(4,0): Z=4$<br />Maximum $Z=6$ at $(0,3)$ and $(2,2)$<br /><br />(c) With $x+2y\\le p$, intersection with $x+y=4$:<br />x+y=4, x+2y=p\\implies y=p-4, x=8-p<br />The feasible point is in first quadrant if $p\\leq8$<br /><br />So optimal $Z$ increases as $p$ increases up to $p=8$ (when $(0,4)$ feasible), and corresponds to $x=0$, $y=p/2$.<br /><br />(d) The region becomes unbounded when the second constraint does not cut off the region, i.e., if $p\\to\\infty$. If $x+y\\le4$ is not present, unbounded when $p\\geq8$ and $x+y\\leq4$ is ineffective (i.e., not restricting the upper bound). For the given constraints, the region remains bounded for any real $p$ (since $x+y\\leq4$ remains), thus never unbounded for $p>0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Corner points are $(0,0),(0,3),(2,2),(4,0)$<br />(b) By determinants, the intersection of $x+y=4$ and $x+2y=6$ is $(2,2)$; maximum $Z=6$ occurs at $(0,3)$ and $(2,2)$<br />(c) With $x+2y\\le p$, the intersection with $x+y=4$ is $(8-p,p-4)$ where feasible<br />(d) The feasible region never becomes unbounded for $p>0$ because $x+y\\le4$ remains",
+    "B": "(a) Corner points are $(0,0),(0,6),(4,0)$<br />(b) Maximum $Z=8$ at $(4,0)$<br />(c) Increasing $p$ has no effect for all $p$<br />(d) Region is unbounded when $p=8$",
+    "C": "(a) Corner points are $(0,0),(6,0),(0,4)$<br />(b) Maximum $Z=12$ at $(0,6)$<br />(c) Optimal value decreases as $p$ increases<br />(d) Region is unbounded for every $p>0$",
+    "D": "(a) No feasible region exists<br />(b) No maximum exists<br />(c) Parameter $p$ makes the region empty<br />(d) Region is always unbounded"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:17:27 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

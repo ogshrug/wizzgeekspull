@@ -1,0 +1,30 @@
+{
+  "id": "69a9cc5762be6a70cd184e4c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fbf40512f018fa94d54"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A$ and $B$ be $2 \\times 2$ matrices such that $AB = BA$ and $A$ is invertible. If $A^2 = I$ and $B^2 = I$, which of the following is always correct?",
+  "answeroption": "D",
+  "explanation": "Given $A^2 = I$ and $B^2 = I$, both matrices are involutory.<br /><br />Since $A^2 = I$, we have $A^{-1} = A$. Similarly $B^{-1} = B$.<br /><br />$A+B$ or $A-B$ may or may not individually be invertible. For example, if $A = I$ and $B = -I$, then $A+B = 0$ which is not invertible.<br /><br />Thus neither $A+B$ nor $A-B$ is guaranteed individually to be invertible.<br /><br />However, one of them must be invertible in general. Therefore the only statement that is always correct is that $A+B$ or $A-B$ is invertible.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A+B$ is invertible",
+    "B": "$A-B$ is invertible",
+    "C": "$AB = I$",
+    "D": "$A+B$ or $A-B$ is invertible"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:32:55 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

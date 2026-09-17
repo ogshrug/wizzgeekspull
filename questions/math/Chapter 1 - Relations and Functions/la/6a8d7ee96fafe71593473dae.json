@@ -1,0 +1,32 @@
+{
+  "id": "6a8d7ee96fafe71593473dae",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let $T$ be the set of all triangles and define a relation $R$ on $T$ by $T_1RT_2$ if $T_1$ is similar to $T_2$. Prove that $R$ is an equivalence relation and hence determine which among the triangles having sides $3,4,5$, $5,12,13$ and $6,8,10$ are related under $R$.",
+  "answeroption": "B",
+  "explanation": "<b>Reflexivity</b><br>Every triangle is similar to itself because its corresponding sides are in the ratio $1:1$. Hence, $(T_1,T_1)\\in R$ for every $T_1\\in T$, so $R$ is reflexive.<br><br><b>Symmetry</b><br>If $(T_1,T_2)\\in R$, then $T_1$ is similar to $T_2$. Therefore, the corresponding sides of $T_1$ and $T_2$ are proportional. Reversing the ratios shows that the corresponding sides of $T_2$ and $T_1$ are also proportional. Hence, $T_2$ is similar to $T_1$, so $(T_2,T_1)\\in R$. Thus, $R$ is symmetric.<br><br><b>Transitivity</b><br>If $(T_1,T_2)\\in R$ and $(T_2,T_3)\\in R$, then $T_1$ is similar to $T_2$ and $T_2$ is similar to $T_3$. Corresponding sides of $T_1$ are therefore proportional to those of $T_3$. Hence, $T_1$ is similar to $T_3$, so $(T_1,T_3)\\in R$. Thus, $R$ is transitive.<br><br><b>Verification for the given triangles</b><br>Let the triangles with sides $3,4,5$, $5,12,13$ and $6,8,10$ be $T_1,T_2,T_3$, respectively. Comparing $T_1$ and $T_3$,<br>$$\\frac{3}{6}=\\frac{4}{8}=\\frac{5}{10}=\\frac{1}{2}.$$<br>Hence, $T_1$ is similar to $T_3$, so $T_1RT_3$. For $T_1$ and $T_2$,<br>$$\\frac{3}{5}\\ne\\frac{4}{12},$$<br>so they are not similar. Similarly, $T_2$ and $T_3$ do not have proportional corresponding sides.<br><br><b>Final Result</b><br>The relation $R$ is reflexive, symmetric and transitive and is therefore an equivalence relation. Among the three given triangles, the triangles with sides $3,4,5$ and $6,8,10$ are related under $R$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is not an equivalence relation, and none of the three triangles are related",
+    "B": "$R$ is an equivalence relation, and the triangles with sides $3,4,5$ and $6,8,10$ are related",
+    "C": "$R$ is an equivalence relation, and the triangles with sides $3,4,5$ and $5,12,13$ are related",
+    "D": "$R$ is an equivalence relation, and all three triangles are related"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

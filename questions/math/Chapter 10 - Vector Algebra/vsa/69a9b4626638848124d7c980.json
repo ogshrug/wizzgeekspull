@@ -1,0 +1,29 @@
+{
+  "id": "69a9b4626638848124d7c980",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "VSA",
+  "question": "Find the scalar $\\lambda$ such that the vector $\\vec{p} = (3\\lambda - 1)\\hat{i} + (2\\lambda + 4)\\hat{j} + (\\lambda - 3)\\hat{k}$ is perpendicular to $\\vec{q} = 2\\hat{i} - 2\\hat{j} + \\hat{k}$.",
+  "answeroption": "A",
+  "explanation": "Step 1: Use the perpendicularity condition:<br /><br />Since $\\vec{p} \\perp \\vec{q}$, their dot product is zero:<br /><br />$\\vec{p} \\cdot \\vec{q} = (3\\lambda - 1)(2) + (2\\lambda + 4)(-2) + (\\lambda - 3)(1) = 0$<br /><br />Step 2: Expand and simplify:<br /><br />$6\\lambda - 2 - 4\\lambda - 8 + \\lambda - 3 = 0$<br /><br />$(6\\lambda - 4\\lambda + \\lambda) + (-2 - 8 - 3) = 0$<br /><br />$3\\lambda - 13 = 0$<br /><br />Step 3: Solve for $\\lambda$:<br /><br />$3\\lambda = 13$<br /><br />$\\lambda = \\dfrac{13}{3}$<br /><br />Step 4: Verification:<br /><br />For $\\lambda = \\dfrac{13}{3}$:<br /><br />$\\vec{p} = \\left(3\\cdot\\dfrac{13}{3} - 1\\right)\\hat{i} + \\left(2\\cdot\\dfrac{13}{3} + 4\\right)\\hat{j} + \\left(\\dfrac{13}{3} - 3\\right)\\hat{k}$<br /><br />$= (13 - 1)\\hat{i} + \\left(\\dfrac{26}{3} + 4\\right)\\hat{j} + \\left(\\dfrac{13}{3} - 3\\right)\\hat{k}$<br /><br />$= 12\\hat{i} + \\dfrac{38}{3}\\hat{j} + \\dfrac{4}{3}\\hat{k}$<br /><br />$\\vec{p} \\cdot \\vec{q} = 12(2) + \\dfrac{38}{3}(-2) + \\dfrac{4}{3}(1)$<br /><br />$= 24 - \\dfrac{76}{3} + \\dfrac{4}{3}$<br /><br />$= 24 - \\dfrac{72}{3}$<br /><br />$= 24 - 24 = 0$<br /><br />Therefore, $\\lambda = \\dfrac{13}{3}$ is the required scalar.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{13}{3}$",
+    "B": "$\\frac{3}{13}$",
+    "C": "$-\\frac{13}{3}$",
+    "D": "$13$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:50:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

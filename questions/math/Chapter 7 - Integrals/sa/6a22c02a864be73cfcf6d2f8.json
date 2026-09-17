@@ -1,0 +1,27 @@
+{
+  "id": "6a22c02a864be73cfcf6d2f8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{2\\pi}\\frac{1}{1+e\\sin x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $I = \\int_{0}^{2\\pi}\\frac{1}{1+e^{\\sin x}}dx$. Apply the property $\\int_{a}^{b} f(x)dx = \\int_{a}^{b} f(a+b-x)dx$: $I = \\int_{0}^{2\\pi}\\frac{1}{1+e^{\\sin(2\\pi-x)}}dx = \\int_{0}^{2\\pi}\\frac{1}{1+e^{-\\sin x}}dx = \\int_{0}^{2\\pi}\\frac{e^{\\sin x}}{e^{\\sin x}+1}dx$.<br />**Step 2:** Add the two expressions for $I$: $2I = \\int_{0}^{2\\pi} \\frac{1 + e^{\\sin x}}{1 + e^{\\sin x}} dx = \\int_{0}^{2\\pi} 1 \\cdot dx = [x]_{0}^{2\\pi} = 2\\pi$.<br />**Step 3:** Solve for $I$: $2I = 2\\pi \\implies I = \\pi$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

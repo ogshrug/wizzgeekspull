@@ -1,0 +1,29 @@
+{
+  "id": "69a9aece6638848124d7c975",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): $\\int \\frac{1}{x^2 - a^2} dx = \\frac{1}{2a} \\ln \\left| \\frac{x-a}{x+a} \\right| + C$ for $x^2 \\neq a^2$. <br /><br /> Reason (R): $\\frac{1}{x^2-a^2}$ can be decomposed as partial fractions: $\\frac{1}{x^2-a^2} = \\frac{1}{2a} \\left( \\frac{1}{x-a} - \\frac{1}{x+a} \\right)$, then both terms are integrated using $\\int \\frac{1}{x} dx$.",
+  "answeroption": "A",
+  "explanation": "The integrand $\\frac{1}{x^2-a^2}$ can be decomposed into partial fractions.<br /><br />This gives $\\frac{1}{2a}\\left(\\frac{1}{x-a}-\\frac{1}{x+a}\\right)$.<br /><br />Each term integrates to a logarithmic function using $\\int \\frac{1}{x}dx$.<br /><br />Combining results gives $\\frac{1}{2a}\\ln\\left|\\frac{x-a}{x+a}\\right|+C$.<br /><br />Thus both Assertion and Reason are true and the Reason explains the Assertion.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:26:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

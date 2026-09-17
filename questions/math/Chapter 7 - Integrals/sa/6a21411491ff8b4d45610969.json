@@ -1,0 +1,28 @@
+{
+  "id": "6a21411491ff8b4d45610969",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{cos~x}{(2+sin~x)(4+sin~x)}dx$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Use the method of substitution to transform the integral into a rational algebraic function. Let $t = \\sin x$. Then, the differential is $dt = \\cos x dx$.<br /><br /><b>Step 2</b> Substitute $t$ and $dt$ into the original expression. The integral becomes $\\int \\frac{dt}{(2+t)(4+t)}$.<br /><br /><b>Step 3</b> Decompose the rational expression using the method of partial fractions. Set up the equation $\\frac{1}{(t+2)(t+4)} = \\frac{A}{t+2} + \\frac{B}{t+4}$.<br /><br /><b>Step 4</b> Clear the denominators to solve for the constants A and B, yielding $1 = A(t+4) + B(t+2)$. By setting $t=-2$, we find $1 = A(2)$, so $A = \\frac{1}{2}$. By setting $t=-4$, we find $1 = B(-2)$, so $B = -\\frac{1}{2}$.<br /><br /><b>Step 5</b> Rewrite the integral using the solved partial fractions and integrate term by term. This gives $\\frac{1}{2} \\int \\frac{1}{t+2} dt - \\frac{1}{2} \\int \\frac{1}{t+4} dt = \\frac{1}{2}\\ln|t+2| - \\frac{1}{2}\\ln|t+4| + C$. Finally, replace $t$ with $\\sin x$ to get the solution in terms of $x$: $\\frac{1}{2}\\ln|\\frac{2+\\sin x}{4+\\sin x}| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

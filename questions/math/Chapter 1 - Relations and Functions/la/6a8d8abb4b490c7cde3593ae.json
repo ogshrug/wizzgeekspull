@@ -1,0 +1,30 @@
+{
+  "id": "6a8d8abb4b490c7cde3593ae",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "LA",
+  "question": "Consider the function $f:[-1,1]\\to\\operatorname{Range}(f)$ defined by $f(x)=\\frac{x}{x+2}$. Establish that $f$ is invertible, obtain $f^{-1}$, and verify the inverse through composition.",
+  "answeroption": "A",
+  "explanation": "<b>Formation of the inverse relation</b><br>Let $$y=f(x)=\\frac{x}{x+2}$$ Since $x\\in[-1,1]$, $x+2\\neq0$. Solving for $x$, $$y(x+2)=x$$ $$xy+2y=x$$ $$x-xy=2y$$ $$x(1-y)=2y$$ Therefore, $$x=\\frac{2y}{1-y}$$ For $y\\in\\operatorname{Range}(f)$, $y\\neq1$, because $\\frac{x}{x+2}=1$ would imply $x=x+2$, which is impossible. Hence the expression is well-defined.<br><br><b>Inverse function</b><br>Define $g:\\operatorname{Range}(f)\\to[-1,1]$ by $$g(y)=\\frac{2y}{1-y}$$<br><br><b>Verification of $g\\circ f$</b><br>For $x\\in[-1,1]$, $$(g\\circ f)(x)=g\\left(\\frac{x}{x+2}\\right)=\\frac{2\\left(\\frac{x}{x+2}\\right)}{1-\\frac{x}{x+2}}$$ Since $$1-\\frac{x}{x+2}=\\frac{2}{x+2}$$ we obtain $$(g\\circ f)(x)=\\frac{\\frac{2x}{x+2}}{\\frac{2}{x+2}}=x$$<br><br><b>Verification of $f\\circ g$</b><br>For $y\\in\\operatorname{Range}(f)$, $$(f\\circ g)(y)=f\\left(\\frac{2y}{1-y}\\right)=\\frac{\\frac{2y}{1-y}}{\\frac{2y}{1-y}+2}$$ The denominator simplifies as $$\\frac{2y}{1-y}+2=\\frac{2}{1-y}$$ Hence, $$(f\\circ g)(y)=\\frac{\\frac{2y}{1-y}}{\\frac{2}{1-y}}=y$$<br><br><b>Final Result</b><br>Thus, $g\\circ f$ and $f\\circ g$ are the respective identity functions. Therefore, $f$ is invertible and $$f^{-1}(y)=\\frac{2y}{1-y}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is invertible and $f^{-1}(y)=\\frac{2y}{1-y}$; moreover, $(f^{-1}\\circ f)(x)=x$ and $(f\\circ f^{-1})(y)=y$.",
+    "B": "$f$ is invertible and $f^{-1}(y)=\\frac{2y}{1+y}$; moreover, both compositions are identity functions.",
+    "C": "$f$ is not invertible because the value $y=1$ does not belong to its range.",
+    "D": "$f$ is invertible and $f^{-1}(y)=\\frac{y}{2-y}$; however, $f\\circ f^{-1}$ is not the identity function."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

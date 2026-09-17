@@ -1,0 +1,31 @@
+{
+  "id": "6a338609d5dca7dcb0bf0f03",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d51"
+  ],
+  "question_type": "MCQ",
+  "question": "If for the matrix $A = \\begin{bmatrix} \\tan x & 1 \\\\ -1 & \\tan x \\end{bmatrix}$, $A+A' = 2\\sqrt{3}I$, then the value of $x \\in [0, \\frac{\\pi}{2}]$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Establish the transpose matrix $A'$ from the given matrix: $A' = \\begin{bmatrix} \\tan x & -1 \\\\ 1 & \\tan x \\end{bmatrix}$.\n\n**Step 2:** Formulate the sum equation $A + A'$: $\\begin{bmatrix} \\tan x + \\tan x & 1 - 1 \\\\ -1 + 1 & \\tan x + \\tan x \\end{bmatrix} = \\begin{bmatrix} 2\\tan x & 0 \\\\ 0 & 2\\tan x \\end{bmatrix}$.\n\n**Step 3:** Evaluate the expression by setting it equal to $2\\sqrt{3}I$: $\\begin{bmatrix} 2\\tan x & 0 \\\\ 0 & 2\\tan x \\end{bmatrix} = \\begin{bmatrix} 2\\sqrt{3} & 0 \\\\ 0 & 2\\sqrt{3} \\end{bmatrix}$.\n\n**Step 4:** Extract the linear equation $2\\tan x = 2\\sqrt{3}$, simplifying directly to $\\tan x = \\sqrt{3}$.\n\n**Step 5:** Considering the constrained interval $[0, \\frac{\\pi}{2}]$, evaluate the angle $x = \\frac{\\pi}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "$\\pi/4$",
+    "C": "$\\pi/3$",
+    "D": "$\\pi/6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

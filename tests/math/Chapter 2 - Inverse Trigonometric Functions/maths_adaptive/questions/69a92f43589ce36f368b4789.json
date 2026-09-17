@@ -1,0 +1,19 @@
+{
+  "id": "69a92f43589ce36f368b4789",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "question_type": "LA",
+  "question": "Prove that $\\tan^{-1}\\left(\\frac{\\sqrt{1+x^2}+\\sqrt{1-x^2}}{\\sqrt{1+x^2}-\\sqrt{1-x^2}}\\right) = \\frac{\\pi}{4} + \\frac{1}{2}\\cos^{-1}x^2$.",
+  "options": {
+    "A": "Let $x^2=\\cos2\\theta$. Then $\\sqrt{1+x^2}=\\sqrt2\\cos\\theta$ and $\\sqrt{1-x^2}=\\sqrt2\\sin\\theta$, so the given expression becomes $\\tan^{-1}\\left(\\frac{1+\\tan\\theta}{1-\\tan\\theta}\\right)=\\frac{\\pi}{4}+\\theta=\\frac{\\pi}{4}+\\frac12\\cos^{-1}x^2$.",
+    "B": "Let $x^2=\\sin2\\theta$. Then the given expression becomes $\\tan^{-1}\\left(\\frac{1-\\tan\\theta}{1+\\tan\\theta}\\right)=\\frac{\\pi}{4}-\\theta=\\frac{\\pi}{4}-\\frac12\\cos^{-1}x^2$.",
+    "C": "Let $x^2=\\cos2\\theta$. Then the given expression becomes $\\tan^{-1}\\left(\\frac{1-\\tan\\theta}{1+\\tan\\theta}\\right)=\\frac{\\pi}{4}-\\theta=\\frac{\\pi}{4}-\\frac12\\cos^{-1}x^2$.",
+    "D": "Let $x^2=\\cos\\theta$. Then the given expression becomes $\\tan^{-1}(\\tan\\theta)=\\theta=\\cos^{-1}x^2$."
+  },
+  "difficulty": "Medium",
+  "imageurl": null,
+  "is_diagram": false,
+  "diagram": [],
+  "test_type": "Initial"
+}

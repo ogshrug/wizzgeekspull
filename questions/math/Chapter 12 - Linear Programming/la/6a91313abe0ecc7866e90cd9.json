@@ -1,0 +1,30 @@
+{
+  "id": "6a91313abe0ecc7866e90cd9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "A linear programming problem has the constraints $x+y=6$, $x+2y\\le10$, $2x+y\\le10$, $x\\ge0$ and $y\\ge0$. Representing a point satisfying $x+y=6$ as $P(t,6-t)$, determine all values of $t$ for which $P$ is a feasible solution and hence obtain the optimal feasible solution that maximises $Z=2x+5y$.",
+  "answeroption": "D",
+  "explanation": "<b>Required Condition</b><br>Since $P(t,6-t)$ satisfies $x+y=6$, substitute $x=t$ and $y=6-t$ into the remaining constraints. The non-negative restrictions give $t\\ge0$ and $6-t\\ge0$, so $0\\le t\\le6$. From $x+2y\\le10$, we obtain $t+2(6-t)\\le10$, which gives $12-t\\le10$ and hence $t\\ge2$. From $2x+y\\le10$, we obtain $2t+(6-t)\\le10$, which gives $t+6\\le10$ and hence $t\\le4$. Combining all conditions, the feasible solutions on $x+y=6$ correspond exactly to $$2\\le t\\le4.$$<br><br><b>Optimization</b><br>For $P(t,6-t)$, the value of the objective function is $$Z=2t+5(6-t)=30-3t.$$ As $t$ varies over $2\\le t\\le4$, the expression $30-3t$ decreases as $t$ increases. Therefore, its maximum occurs at the least permitted value, $t=2$. The corresponding feasible solution is $P(2,4)$, and $$Z=2(2)+5(4)=4+20=24.$$<br><br><b>Final Result</b><br>The point $P(t,6-t)$ is feasible exactly for $2\\le t\\le4$, and the optimal feasible solution for maximising $Z$ is $(2,4)$ with maximum value $24$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0\\leq t\\leq4$; maximum $Z=24$ at $(2,4)$",
+    "B": "$2\\leq t\\leq6$; maximum $Z=18$ at $(4,2)$",
+    "C": "$2\\leq t\\leq4$; maximum $Z=18$ at $(4,2)$",
+    "D": "$2\\leq t\\leq4$; maximum $Z=24$ at $(2,4)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

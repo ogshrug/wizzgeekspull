@@ -1,0 +1,29 @@
+{
+  "id": "6a266b11864be73cfcf6d38c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $f:\\mathbb{R}-\\{-\\frac{4}{3}\\}\\rightarrow\\mathbb{R}$ be a function defined as $f(x)=\\frac{4x}{3x+4}$ Show that f is a one-one function. Also, check whether f is an onto function or not.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To prove that $f(x)$ is a one-one (injective) function, we assume that $f(x_1) = f(x_2)$ for any two elements in the domain and show it forces $x_1 = x_2$. Setting up the equality: $\\frac{4x_1}{3x_1+4} = \\frac{4x_2}{3x_2+4}$. Divide both sides by 4 to simplify the numerator constants: $\\frac{x_1}{3x_1+4} = \\frac{x_2}{3x_2+4}$.<br />**Step 2:** Cross-multiply the fractional terms to eliminate denominators: $x_1(3x_2 + 4) = x_2(3x_1 + 4)$. Expanding both sides yields: $3x_1x_2 + 4x_1 = 3x_1x_2 + 4x_2$. Subtracting the shared term $3x_1x_2$ from both sides simplifies the equation to $4x_1 = 4x_2$, which divides by 4 to give $x_1 = x_2$. This proves $f$ is strictly one-one.<br />**Step 3:** To check if $f(x)$ is onto (surjective), let $y \\in \\mathbb{R}$ be an element in the codomain and attempt to find a matching pre-image $x$ such that $y = f(x)$: $y = \\frac{4x}{3x+4}$. Cross-multiplying gives $y(3x + 4) = 4x \\implies 3xy + 4y = 4x$. Gather all $x$ terms on one side: $4x - 3xy = 4y \\implies x(4 - 3y) = 4y$. Isolating $x$ yields: $x = \\frac{4y}{4-3y}$.<br />**Step 4:** Analyze this expression for all values of $y$. Notice that if $y = \\frac{4}{3}$, the denominator becomes $4 - 3(\\frac{4}{3}) = 0$, which makes the expression undefined. Since the element $y = \\frac{4}{3}$ belongs to the codomain $\\mathbb{R}$ but has no valid pre-image $x$ in the domain, the function is not onto. This evaluation contains 255 words.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

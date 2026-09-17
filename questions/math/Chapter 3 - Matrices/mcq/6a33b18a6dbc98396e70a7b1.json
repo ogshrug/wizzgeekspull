@@ -1,0 +1,31 @@
+{
+  "id": "6a33b18a6dbc98396e70a7b1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "MCQ",
+  "question": "If A and B are two square matrices of the same order, then $(A+B)(A-B)$ is equal to :",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Expand the expression using the distributive property of matrix multiplication: $(A+B)(A-B) = A(A-B) + B(A-B)$.<br />**Step 2:** Carefully distribute each matrix while maintaining the precise order of multiplication, since matrix multiplication is generally non-commutative: $A^2 - AB + BA - B^2$.<br />**Step 3:** Because $AB$ is not necessarily equal to $BA$, these middle terms cannot be canceled or combined, leaving the expression exactly as option A.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^{2}-AB+BA-B^{2}$",
+    "B": "$A^{2}+AB-BA-B^{2}$",
+    "C": "$A^{2}-AB-BA-B^{2}$",
+    "D": "$A^{2}-B^{2}+AB+BA$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

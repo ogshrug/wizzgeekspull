@@ -1,0 +1,29 @@
+{
+  "id": "6a8e874e751910886affb925",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "VSA",
+  "question": "A matrix $A$ has $3$ rows and $2$ columns. A student attempts to evaluate $|A|$. Determine whether this determinant exists and justify your answer.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Identify the order</b><br>The given matrix has $3$ rows and $2$ columns. Hence, its order is $3\\times2$.<br><b>Step 2: Recall the required condition</b><br>A determinant is associated only with a square matrix, for which the number of rows equals the number of columns.<br><b>Step 3: Check the condition</b><br>For $A$, the number of rows is $3$, whereas the number of columns is $2$. Therefore, $A$ is not a square matrix.<br><b>Step 4: State the conclusion</b><br>Since the required condition is not satisfied, $|A|$ is not defined. Thus, the student's attempted determinant evaluation is not valid.",
+  "explanation_image": [],
+  "options": {
+    "A": "$|A|$ exists because the number of rows exceeds the number of columns.",
+    "B": "$|A|$ exists because every rectangular matrix has a determinant.",
+    "C": "$|A|$ is zero because $A$ has unequal numbers of rows and columns.",
+    "D": "$|A|$ is not defined because $A$ is not a square matrix."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

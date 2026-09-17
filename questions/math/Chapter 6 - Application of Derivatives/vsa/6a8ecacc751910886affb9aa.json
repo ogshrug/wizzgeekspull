@@ -1,0 +1,29 @@
+{
+  "id": "6a8ecacc751910886affb9aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973"
+  ],
+  "question_type": "VSA",
+  "question": "A quantity varies with time according to $Q(t)=\\frac{t^2+1}{t+1}$, where $t\\neq-1$. Calculate its instantaneous rate of change at $t=1$.",
+  "answeroption": "D",
+  "explanation": "Step 1: The required instantaneous rate is $\\frac{dQ}{dt}$ at $t=1$.Step 2: Apply the quotient rule to $Q(t)=\\frac{t^2+1}{t+1}$: $$\\frac{dQ}{dt}=\\frac{(t+1)(2t)-(t^2+1)}{(t+1)^2}$$Step 3: Simplify the numerator: $$\\frac{dQ}{dt}=\\frac{t^2+2t-1}{(t+1)^2}$$Step 4: At $t=1$, $$\\left.\\frac{dQ}{dt}\\right|_{t=1}=\\frac{1+2-1}{(1+1)^2}=\\frac{2}{4}$$Step 5: Hence, the instantaneous rate of change is $\\frac{1}{2}$ unit per unit time.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$ unit per unit time",
+    "B": "$\\frac{3}{2}$ units per unit time",
+    "C": "$\\frac{1}{4}$ unit per unit time",
+    "D": "$\\frac{1}{2}$ unit per unit time"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

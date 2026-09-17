@@ -1,0 +1,30 @@
+{
+  "id": "6a8ec497be0ecc7866e90bba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(t)=t^3-2t$ and $g(x)=\\sin(x^2+1)$, and define $h=f\\circ g$. Using the chain rule, determine $h'(x)$ in simplified form and hence obtain the exact value of $h'(1)$.",
+  "answeroption": "D",
+  "explanation": "<b>Formation of the Composite Function</b><br>Since $h=f\\circ g$, we have $$h(x)=f(g(x)).$$ With $f(t)=t^3-2t$ and $g(x)=\\sin(x^2+1)$, $$h(x)=\\sin^3(x^2+1)-2\\sin(x^2+1).$$<br><br><b>Applying the Chain Rule</b><br>For a composite function $h(x)=f(g(x))$, the chain rule gives $$h'(x)=f'(g(x))\\,g'(x).$$ Now, $$f'(t)=3t^2-2.$$ Therefore, $$f'(g(x))=3\\sin^2(x^2+1)-2.$$<br><br>Also, differentiating $g(x)=\\sin(x^2+1)$ by the chain rule, $$g'(x)=\\cos(x^2+1)\\frac{d}{dx}(x^2+1)=2x\\cos(x^2+1).$$ Hence, $$h'(x)=\\left[3\\sin^2(x^2+1)-2\\right]\\left[2x\\cos(x^2+1)\\right].$$ Thus, $$h'(x)=2x\\cos(x^2+1)\\left[3\\sin^2(x^2+1)-2\\right].$$<br><br><b>Evaluation at $x=1$</b><br>Substituting $x=1$, we get $$h'(1)=2\\cos2\\left(3\\sin^22-2\\right).$$<br><br><b>Final Result</b><br>Therefore, $$h'(x)=2x\\cos(x^2+1)\\left[3\\sin^2(x^2+1)-2\\right]$$ and $$h'(1)=2\\cos2\\left(3\\sin^22-2\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$h'(x)=2x\\sin(x^2+1)\\left[3\\sin^2(x^2+1)-2\\right]$; $h'(1)=2\\sin2\\left(3\\sin^22-2\\right)$",
+    "B": "$h'(x)=2x\\cos(x^2+1)\\left[3\\sin^2(x^2+1)+2\\right]$; $h'(1)=2\\cos2\\left(3\\sin^22+2\\right)$",
+    "C": "$h'(x)=\\cos(x^2+1)\\left[3\\sin^2(x^2+1)-2\\right]$; $h'(1)=\\cos2\\left(3\\sin^22-2\\right)$",
+    "D": "$h'(x)=2x\\cos(x^2+1)\\left[3\\sin^2(x^2+1)-2\\right]$; $h'(1)=2\\cos2\\left(3\\sin^22-2\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

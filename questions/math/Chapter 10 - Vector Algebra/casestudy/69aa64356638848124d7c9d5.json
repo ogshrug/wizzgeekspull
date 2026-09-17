@@ -1,0 +1,31 @@
+{
+  "id": "69aa64356638848124d7c9d5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c7",
+    "6a13e766d837c8c7efa6b8c0",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 5: Game Development—Directional Controls in 3D Space**<br /><br />In a video game, a character moves from home base at H(1,1,2), collects a key at K(4,3,8), and finally moves to the exit E(8,9,18). The game engine tracks movement vectors.<br /><br />a) Compute the total displacement vector for H to E via K.<br /><br />b) Find the unit vector in the direction from H to E.<br /><br />c) If the engine restricts movement such that the path from H to K is perpendicular to K to E, show whether the actual journey is perpendicular or not.",
+  "answeroption": "B",
+  "explanation": "a) $\\overrightarrow{HK} = (4-1)\\hat{i} + (3-1)\\hat{j} + (8-2)\\hat{k} = 3\\hat{i} + 2\\hat{j} + 6\\hat{k}$<br /><br />$\\overrightarrow{KE} = (8-4)\\hat{i} + (9-3)\\hat{j} + (18-8)\\hat{k} = 4\\hat{i} + 6\\hat{j} + 10\\hat{k}$<br /><br />Total displacement: $\\overrightarrow{HK} + \\overrightarrow{KE} = (3+4)\\hat{i} + (2+6)\\hat{j} + (6+10)\\hat{k} = 7\\hat{i} + 8\\hat{j} + 16\\hat{k}$<br /><br />b) $\\overrightarrow{HE} = (8-1)\\hat{i} + (9-1)\\hat{j} + (18-2)\\hat{k} = 7\\hat{i} + 8\\hat{j} + 16\\hat{k}$<br /><br />Unit vector $= \\dfrac{1}{\\sqrt{7^2+8^2+16^2}} (7\\hat{i} + 8\\hat{j} + 16\\hat{k})$<br /><br />$= \\dfrac{1}{\\sqrt{49+64+256}} (7\\hat{i} + 8\\hat{j} + 16\\hat{k})$<br /><br />$= \\dfrac{1}{\\sqrt{369}} (7\\hat{i} + 8\\hat{j} + 16\\hat{k})$<br /><br />c) Check perpendicularity:<br /><br />$\\overrightarrow{HK} \\cdot \\overrightarrow{KE} = (3)(4) + (2)(6) + (6)(10) = 12 + 12 + 60 = 84$<br /><br />Since $84 \\neq 0$, they are NOT perpendicular. Thus, the movement is not perpendicular.",
+  "explanation_image": [],
+  "options": {
+    "A": "a) Total displacement $=7\\hat{i}+8\\hat{j}+16\\hat{k}$<br />b) Unit vector $=\\frac{7\\hat{i}+8\\hat{j}+16\\hat{k}}{\\sqrt{369}}$<br />c) Since $\\overrightarrow{HK}\\cdot\\overrightarrow{KE}=0$, the journey is perpendicular.",
+    "B": "a) Total displacement $=7\\hat{i}+8\\hat{j}+16\\hat{k}$<br />b) Unit vector $=\\frac{7\\hat{i}+8\\hat{j}+16\\hat{k}}{\\sqrt{369}}$<br />c) Since $\\overrightarrow{HK}\\cdot\\overrightarrow{KE}=84\\ne0$, the journey is not perpendicular.",
+    "C": "a) Total displacement $=4\\hat{i}+6\\hat{j}+10\\hat{k}$<br />b) Unit vector $=\\frac{4\\hat{i}+6\\hat{j}+10\\hat{k}}{\\sqrt{152}}$<br />c) Since $\\overrightarrow{HK}\\cdot\\overrightarrow{KE}=84\\ne0$, the journey is not perpendicular.",
+    "D": "a) Total displacement $=3\\hat{i}+2\\hat{j}+6\\hat{k}$<br />b) Unit vector $=\\frac{7\\hat{i}+8\\hat{j}+16\\hat{k}}{\\sqrt{369}}$<br />c) Since $\\overrightarrow{HK}\\cdot\\overrightarrow{KE}=12$, the journey is perpendicular."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:20:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

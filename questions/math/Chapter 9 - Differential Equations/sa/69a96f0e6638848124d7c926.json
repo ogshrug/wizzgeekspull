@@ -1,0 +1,29 @@
+{
+  "id": "69a96f0e6638848124d7c926",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation $\\frac{dy}{dx} + x y = x e^{-x^2}$.",
+  "answeroption": "C",
+  "explanation": "Given: $\\frac{dy}{dx} + x y = x e^{-x^2}$<br /><br />This is a first order linear differential equation.<br /><br />The integrating factor (IF) is:<br />$IF = e^{\\int x dx} = e^{\\frac{1}{2} x^2}$<br /><br />Multiplying both sides by the IF:<br />$e^{\\frac{1}{2} x^2} \\frac{dy}{dx} + x e^{\\frac{1}{2} x^2} y = x e^{\\frac{1}{2} x^2} e^{-x^2}$<br />$e^{\\frac{1}{2} x^2} \\frac{dy}{dx} + x e^{\\frac{1}{2} x^2} y = x e^{-\\frac{1}{2} x^2}$<br />Left side is the derivative:<br />$\\frac{d}{dx} (y e^{\\frac{1}{2} x^2}) = x e^{-\\frac{1}{2} x^2}$<br />Integrate both sides:<br />$y e^{\\frac{1}{2} x^2} = \\int x e^{-\\frac{1}{2} x^2} dx + C$<br />Let $u = -\\frac{1}{2} x^2 \\implies du = -x dx$.<br />So:<br />$= -\\int e^u du = -e^u + C = -e^{-\\frac{1}{2} x^2} + C$<br />Thus,<br />$y e^{\\frac{1}{2} x^2} = -e^{-\\frac{1}{2} x^2} + C$<br />So,<br />$y = -e^{-x^2} + C e^{-\\frac{1}{2} x^2}$<br /><br />Final answer:<br />$y = -e^{-x^2} + C e^{-\\frac{1}{2} x^2}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=e^{-x^2}+Ce^{-\\frac{1}{2}x^2}$",
+    "B": "$y=-e^{-x^2}+Ce^{\\frac{1}{2}x^2}$",
+    "C": "$y=-e^{-x^2}+Ce^{-\\frac{1}{2}x^2}$",
+    "D": "$y=-e^{x^2}+Ce^{-\\frac{1}{2}x^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:54:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

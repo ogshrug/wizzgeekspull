@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed5a6751910886affb9d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f988"
+  ],
+  "question_type": "VSA",
+  "question": "A function $F$ satisfies $F'(x)=3x^2-4x+1$ and $F(1)=2$. Find $F(0)$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> The given derivative is $F'(x)=3x^2-4x+1$. Since integration is the inverse process of differentiation, integrate both sides to obtain $F(x)$.<br><b>Step 2:</b> We have $$F(x)=\\int(3x^2-4x+1)\\,dx=x^3-2x^2+x+C.$$<br><b>Step 3:</b> Use the given condition $F(1)=2$. Thus, $2=1-2+1+C$, which gives $C=2$.<br><b>Step 4:</b> Hence, $F(x)=x^3-2x^2+x+2$.<br><b>Step 5:</b> Substituting $x=0$, we get $F(0)=0-0+0+2=2$. Therefore, the required value is $\\boxed{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$3$",
+    "C": "$2$",
+    "D": "$4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

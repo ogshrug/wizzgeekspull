@@ -1,0 +1,29 @@
+{
+  "id": "6a8d3db9550d28a069ec32ee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "SA",
+  "question": "For a real constant $k$, consider $f:\\mathbb{R}\\to\\mathbb{R}$ defined by $f(x)=kx+3$. Determine the values of $k$ for which $f$ is one-one. Justify your answer.",
+  "answeroption": "A",
+  "explanation": "<b>Equality of function values</b><br>Suppose $f(x_1)=f(x_2)$. Then<br>$$kx_1+3=kx_2+3.$$<br>Hence,<br>$$k(x_1-x_2)=0.$$<br><br><b>Non-zero parameter</b><br>If $k\\ne0$, then $x_1-x_2=0$, so $x_1=x_2$. Thus, $f$ is one-one.<br><br><b>Zero parameter</b><br>If $k=0$, then $f(x)=3$ for every $x\\in\\mathbb{R}$. Distinct elements then have the same image, so $f$ is not one-one.<br><br><b>Conclusion</b><br>Therefore, $f$ is one-one precisely when<br>$$k\\ne0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k\\ne0$",
+    "B": "$k=0$",
+    "C": "$k>0$ only",
+    "D": "Every $k\\in\\mathbb{R}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

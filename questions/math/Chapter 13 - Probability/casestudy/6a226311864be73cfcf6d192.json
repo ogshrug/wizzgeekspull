@@ -1,0 +1,31 @@
+{
+  "id": "6a226311864be73cfcf6d192",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Three persons viz. Amber, Bonzi and Comet are manufacturing cars which run on petrol and on battery as well. Their production share in the market is 60%, 30% and 10% respectively. Of their respective production capacities, 20%, 10% and 5% cars respectively are electric (or battery operated). Based on the above, answer the following:<br /><br />**(i) (a)** What is the probability that a randomly selected car is an electric car?<br />OR<br />**(i) (b)** What is the probability that a randomly selected car is a petrol car?<br />**(ii)** A car is selected at random and is found to be electric. What is the probability that it was manufactured by Comet?<br />**(iii)** A car is selected at random and is found to be electric. What is the probability that it was manufactured by Amber or Bonzi?",
+  "answeroption": "",
+  "explanation": "**(i) (a)** **Step 1:** Define events $A, B, C$ for cars made by Amber, Bonzi, Comet. Probabilities are $P(A)=0.6, P(B)=0.3, P(C)=0.1$. Let $E$ be the event of selecting an electric car. Conditional probabilities are $P(E|A)=0.2, P(E|B)=0.1, P(E|C)=0.05$.<br />**Step 2:** Use the Law of Total Probability to find $P(E)$: $P(E) = P(A)P(E|A) + P(B)P(E|B) + P(C)P(E|C)$.<br />**Step 3:** Substitute and calculate: $0.6(0.2) + 0.3(0.1) + 0.1(0.05) = 0.12 + 0.03 + 0.005 = 0.155$.<br /><br />**(i) (b)** **Step 1:** A manufactured car is either electric or petrol. They are complementary events.<br />**Step 2:** Let $P$ be the event of selecting a petrol car. $P(\\text{Petrol}) = 1 - P(\\text{Electric})$.<br />**Step 3:** Calculate: $1 - 0.155 = 0.845$.<br /><br />**(ii)** **Step 1:** Use Bayes' Theorem to find $P(C|E)$, the probability it was made by Comet given it is electric.<br />**Step 2:** $P(C|E) = \\frac{P(C)P(E|C)}{P(E)}$.<br />**Step 3:** Substitute the known values: $\\frac{0.1 \\times 0.05}{0.155} = \\frac{0.005}{0.155} = \\frac{5}{155} = \\frac{1}{31}$.<br /><br />**(iii)** **Step 1:** We need $P(A \\cup B|E)$, the probability it was made by Amber or Bonzi given it is electric.<br />**Step 2:** Since a car is made by exactly one manufacturer, manufacturing events are mutually exclusive. We can use the complement rule since it must be made by A, B, or C: $P(A \\cup B|E) = 1 - P(C|E)$.<br />**Step 3:** Calculate using the result from part (ii): $1 - \\frac{1}{31} = \\frac{30}{31}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a226311864be73cfcf6d192/1782195914-0.png?t=1782215715058"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "6a152eea2a89680e5835cebc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "If $e^{y-x} = y^x$, prove that $\\frac{dy}{dx} = \\frac{y(1+\\log y)}{x\\log y}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Take natural logarithm on both sides: <br /> $\\log(e^{y-x}) = \\log(y^x) \\Rightarrow y - x = x \\log y$. <br /><br /> **Step 2:** Differentiate both sides w.r.t. $x$: <br /> $\\frac{dy}{dx} - 1 = x \\cdot \\frac{1}{y} \\cdot \\frac{dy}{dx} + \\log y \\cdot 1$. <br /><br /> **Step 3:** Group $\\frac{dy}{dx}$ terms on LHS: <br /> $\\frac{dy}{dx} - \\frac{x}{y} \\frac{dy}{dx} = 1 + \\log y$ <br /> $\\Rightarrow \\frac{dy}{dx} \\left(1 - \\frac{x}{y}\\right) = 1 + \\log y$ <br /> $\\Rightarrow \\frac{dy}{dx} \\left(\\frac{y - x}{y}\\right) = 1 + \\log y$. <br /><br /> **Step 4:** From Step 1, $y - x = x \\log y$. Substitute: <br /> $\\frac{dy}{dx} \\left(\\frac{x \\log y}{y}\\right) = 1 + \\log y$. <br /><br /> **Step 5:** Solve for $\\frac{dy}{dx}$: <br /> $\\frac{dy}{dx} = \\frac{y(1 + \\log y)}{x \\log y}$. <br /><br /> **Answer:** Hence proved.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

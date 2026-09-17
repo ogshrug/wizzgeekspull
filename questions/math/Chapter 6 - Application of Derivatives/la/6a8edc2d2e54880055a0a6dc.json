@@ -1,0 +1,32 @@
+{
+  "id": "6a8edc2d2e54880055a0a6dc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f974",
+    "6a13e98f8c819562f933f975",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "LA",
+  "question": "An aircraft flies horizontally at a constant speed of $60\\ \\text{m/s}$ at an altitude of $800\\ \\text{m}$. Let $x$ be its horizontal distance from an observer on the ground and $z$ be its straight-line distance from the observer.<br><br>(a) Form a relation connecting $x$ and $z$.<br><br>(b) Determine the instantaneous rate at which the aircraft's distance from the observer is increasing when $x=600\\ \\text{m}$.<br><br>(c) Find the acceleration of its distance from the observer at the same instant.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Using the right triangle formed by the altitude, horizontal distance and straight-line distance,<br>$$z^2=x^2+800^2$$<br><br><b>(b)</b><br>When $x=600\\ \\text{m}$,<br>$$z=\\sqrt{600^2+800^2}=1000\\ \\text{m}$$<br>Differentiating $z^2=x^2+800^2$ with respect to time,<br>$$2z\\frac{dz}{dt}=2x\\frac{dx}{dt}$$<br>Therefore,<br>$$\\frac{dz}{dt}=\\frac{x}{z}\\frac{dx}{dt}$$<br>Substituting $x=600$, $z=1000$ and $\\frac{dx}{dt}=60$,<br>$$\\frac{dz}{dt}=\\frac{600}{1000}(60)=36\\ \\text{m/s}$$<br>Thus, the aircraft's distance from the observer is increasing at $36\\ \\text{m/s}$.<br><br><b>(c)</b><br>From<br>$$z\\frac{dz}{dt}=x\\frac{dx}{dt}$$<br>differentiating again with respect to time gives<br>$$\\left(\\frac{dz}{dt}\\right)^2+z\\frac{d^2z}{dt^2}=\\left(\\frac{dx}{dt}\\right)^2+x\\frac{d^2x}{dt^2}$$<br>The aircraft's horizontal speed is constant, so $\\frac{d^2x}{dt^2}=0$. Hence,<br>$$36^2+1000\\frac{d^2z}{dt^2}=60^2$$<br>$$1000\\frac{d^2z}{dt^2}=3600-1296=2304$$<br>Therefore,<br>$$\\frac{d^2z}{dt^2}=2.304\\ \\text{m/s}^2$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $z^2=x^2+800^2$<br>(b) $\\frac{dz}{dt}=48$ m/s<br>(c) $\\frac{d^2z}{dt^2}=1.728$ m/s$^2$",
+    "B": "(a) $z=x+800$<br>(b) $\\frac{dz}{dt}=60$ m/s<br>(c) $\\frac{d^2z}{dt^2}=0$",
+    "C": "(a) $z^2=x^2+800^2$<br>(b) $\\frac{dz}{dt}=36$ m/s<br>(c) $\\frac{d^2z}{dt^2}=2.304$ m/s$^2$",
+    "D": "(a) $z^2=x^2-800^2$<br>(b) $\\frac{dz}{dt}=45$ m/s<br>(c) $\\frac{d^2z}{dt^2}=3.6$ m/s$^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

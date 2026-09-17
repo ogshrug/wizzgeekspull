@@ -1,0 +1,26 @@
+{
+  "id": "6a324309d5dca7dcb0bf0e8e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int \\frac{2}{(1-x)(1+x^2)} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Set Up Partial Fractions**  \nLet $\\frac{2}{(1-x)(1+x^2)} = \\frac{A}{1-x} + \\frac{Bx + C}{1+x^2}$.  \nMultiply both sides by $(1-x)(1+x^2)$:  \n$$2 = A(1+x^2) + (Bx + C)(1-x)$$\n\n**Step 2: Expand and Compare Coefficients**  \n$$2 = A + Ax^2 + Bx - Bx^2 + C - Cx$$  \n$$2 = (A + C) + (B - C)x + (A - B)x^2$$  \nComparing coefficients:  \n- Constant: $A + C = 2$  \n- Coefficient of $x$: $B - C = 0 \\Rightarrow B = C$  \n- Coefficient of $x^2$: $A - B = 0 \\Rightarrow A = B$  \nFrom $A = B = C$, we get $A + A = 2 \\Rightarrow 2A = 2 \\Rightarrow A = 1$. So $A = B = C = 1$.\n\n**Step 3: Rewrite the Integral**  \n$$I = \\int \\left( \\frac{1}{1-x} + \\frac{x+1}{1+x^2} \\right) dx$$  \n$$I = \\int \\frac{1}{1-x} dx + \\int \\frac{x}{1+x^2} dx + \\int \\frac{1}{1+x^2} dx$$\n\n**Step 4: Evaluate Each Integral**  \n- $\\int \\frac{1}{1-x} dx = -\\ln|1-x| + C_1$  \n- $\\int \\frac{x}{1+x^2} dx = \\frac{1}{2} \\ln(1+x^2) + C_2$  \n- $\\int \\frac{1}{1+x^2} dx = \\tan^{-1}x + C_3$\n\n**Step 5: Combine Results**  \n$$I = -\\ln|1-x| + \\frac{1}{2}\\ln(1+x^2) + \\tan^{-1}x + C$$  \nThus, the required integral is $-\\ln|1-x| + \\frac{1}{2}\\ln(1+x^2) + \\tan^{-1}x + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "6a14249b2a89680e5835ce6a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "LA",
+  "question": "If matrix $A=\\begin{bmatrix}3&2&1\\\\ 4&1&3\\\\ 1&1&1\\end{bmatrix}$, find $A^{-1}$ and hence solve the following system of linear equations: $3x+2y+z=2000$, $4x+y+3z=2500$, $x+y+z=900$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Find Determinant.** $|A| = 3(1-3) - 2(4-3) + 1(4-1) = -5$.<br />**Step 2: Find Adjoint.** Compute all cofactors to form the adjoint matrix. $A^{-1} = \\frac{1}{-5} \\begin{bmatrix}-2&-1&5\\\\ -1&2&-5\\\\ 3&-1&-5\\end{bmatrix}$.<br />**Step 3: Setup Matrix Equation.** Represent the system as $AX = B$, where $B = \\begin{bmatrix}2000\\\\ 2500\\\\ 900\\end{bmatrix}$.<br />**Step 4: Solve for X.** $X = A^{-1}B = -\\frac{1}{5} \\begin{bmatrix}-4000 - 2500 + 4500\\\\ -2000 + 5000 - 4500\\\\ 6000 - 2500 - 4500\\end{bmatrix} = -\\frac{1}{5}\\begin{bmatrix}-2000\\\\ -1500\\\\ -1000\\end{bmatrix} = \\begin{bmatrix}400\\\\ 300\\\\ 200\\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

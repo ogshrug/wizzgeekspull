@@ -1,0 +1,28 @@
+{
+  "id": "6a2296b4864be73cfcf6d236",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "VSA",
+  "question": "If $y=cosec(cot^{-1}x)$, then prove that $\\sqrt{1+x^{2}}\\frac{dy}{dx}-x=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Simplify the given function $y = \\csc(\\cot^{-1}x)$ using trigonometric substitution. Let $\\theta = \\cot^{-1}x$. This implies that $\\cot \\theta = x$.<br />**Step 2:** We can express $y$ in terms of $\\theta$: $y = \\csc \\theta$. We know the fundamental identity $\\csc^2 \\theta = 1 + \\cot^2 \\theta$.<br />**Step 3:** Substitute $\\cot \\theta = x$ into the identity to get $\\csc^2 \\theta = 1 + x^2$. Since the principal range of $\\cot^{-1}x$ is $(0, \\pi)$ where cosecant is always positive, we can safely write $y = \\csc \\theta = \\sqrt{1+x^2}$.<br />**Step 4:** Now differentiate $y = \\sqrt{1+x^2}$ with respect to $x$ using the chain rule. $\\frac{dy}{dx} = \\frac{1}{2\\sqrt{1+x^2}} \\cdot \\frac{d}{dx}(1+x^2) = \\frac{1}{2\\sqrt{1+x^2}} \\cdot 2x = \\frac{x}{\\sqrt{1+x^2}}$.<br />**Step 5:** Rearrange this resulting equation. Multiply both sides by $\\sqrt{1+x^2}$ to get $\\sqrt{1+x^2} \\frac{dy}{dx} = x$. Subtract $x$ from both sides to arrive at the final required form: $\\sqrt{1+x^2} \\frac{dy}{dx} - x = 0$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

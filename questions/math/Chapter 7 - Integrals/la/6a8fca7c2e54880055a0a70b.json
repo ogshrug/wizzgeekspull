@@ -1,0 +1,30 @@
+{
+  "id": "6a8fca7c2e54880055a0a70b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d",
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int_0^1\\frac{x^2+2x+2}{x+1}\\,dx$ by first reducing the integrand to a form whose antiderivative can be obtained directly and then applying the Fundamental Theorem of Calculus, justifying that the integral is well defined on the given interval.",
+  "answeroption": "D",
+  "explanation": "Consider<br><br>$$I=\\int_0^1\\frac{x^2+2x+2}{x+1}\\,dx$$<br><br>For $x\\in[0,1]$, we have $x+1>0$. Hence, the integrand is continuous throughout the interval $[0,1]$, and the definite integral is well defined.<br><br>Rewrite the numerator as<br><br>$$x^2+2x+2=(x+1)^2+1$$<br><br>Therefore,<br><br>$$\\frac{x^2+2x+2}{x+1}=x+1+\\frac{1}{x+1}$$<br><br>Thus,<br><br>$$I=\\int_0^1\\left(x+1+\\frac{1}{x+1}\\right)dx$$<br><br>An antiderivative of the integrand is<br><br>$$F(x)=\\frac{x^2}{2}+x+\\log|x+1|$$<br><br>Since $x+1>0$ on the given interval, this may be written as<br><br>$$F(x)=\\frac{x^2}{2}+x+\\log(x+1)$$<br><br>By the Fundamental Theorem of Calculus,<br><br>$$I=[F(x)]_0^1$$<br><br>Therefore,<br><br>$$I=\\left(\\frac{1}{2}+1+\\log2\\right)-\\left(0+0+\\log1\\right)$$<br><br>Since $\\log1=0$,<br><br>$$I=\\frac{3}{2}+\\log2$$<br><br>Thus, the required value of the definite integral is $\\frac{3}{2}+\\log2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}+\\log2$",
+    "B": "$\\frac{3}{2}-\\log2$",
+    "C": "$2+\\log2$",
+    "D": "$\\frac{3}{2}+\\log2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

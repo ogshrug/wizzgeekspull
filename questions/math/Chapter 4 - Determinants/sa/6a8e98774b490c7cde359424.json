@@ -1,0 +1,29 @@
+{
+  "id": "6a8e98774b490c7cde359424",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "SA",
+  "question": "For the system $kx+2y=4$ and $2x+ky=4$, determine the number of solutions for $k\\ne\\pm2$, $k=2$ and $k=-2$. Give reasons for each case.",
+  "answeroption": "B",
+  "explanation": "<b>Coefficient determinant</b><br>The determinant of the coefficient matrix is $$\\begin{vmatrix}k&2\\\\2&k\\end{vmatrix}=k^2-4=(k-2)(k+2)$$<br><b>Case $k\\ne\\pm2$</b><br>The determinant is nonzero, so the system has a unique solution.<br><b>Case $k=2$</b><br>The equations become $2x+2y=4$ and $2x+2y=4$. They are identical, so the system has infinitely many solutions.<br><b>Case $k=-2$</b><br>The equations become $-2x+2y=4$ and $2x-2y=4$. Multiplying the first equation by $-1$ gives $2x-2y=-4$, which contradicts the second equation. Hence, there is no solution.<br>Thus, the three cases give one, infinitely many and zero solutions, respectively.",
+  "explanation_image": [],
+  "options": {
+    "A": "For $k\\ne\\pm2$: infinitely many solutions; $k=2$: unique solution; $k=-2$: no solution.",
+    "B": "For $k\\ne\\pm2$: unique solution; $k=2$: infinitely many solutions; $k=-2$: no solution.",
+    "C": "For $k\\ne\\pm2$: unique solution; $k=2$: no solution; $k=-2$: infinitely many solutions.",
+    "D": "For $k\\ne\\pm2$: no solution; $k=2$: infinitely many solutions; $k=-2$: unique solution."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

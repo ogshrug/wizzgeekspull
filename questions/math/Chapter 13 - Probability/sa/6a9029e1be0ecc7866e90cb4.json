@@ -1,0 +1,29 @@
+{
+  "id": "6a9029e1be0ecc7866e90cb4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "The probability distribution of a random variable $X$ is given by<br>$X: -2,-1,0,1,2$<br>$P(X): k,2k,3k,2k,k$.<br>Find $k$ and hence calculate $P(|X|\\leq1)$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Use of the probability-distribution condition</b><br>For a valid probability distribution, the sum of all probabilities must be $1$. Hence, $$k+2k+3k+2k+k=1.$$<br><b>Step 2: Determination of $k$</b><br>Combining the terms gives $$9k=1,$$ so that $$k=\\frac19.$$<br><b>Step 3: Interpretation of the required event</b><br>The condition $|X|\\leq1$ is satisfied when $X=-1,0,$ or $1$. Therefore, $$P(|X|\\leq1)=P(X=-1)+P(X=0)+P(X=1).$$<br><b>Step 4: Substitution of probabilities</b><br>$$P(|X|\\leq1)=2k+3k+2k=7k.$$ Substituting $k=\\frac19$, $$P(|X|\\leq1)=\\frac79.$$<br><b>Step 5: Conclusion</b><br>Thus, the required values are $$\\boxed{k=\\frac19\\quad\\text{and}\\quad P(|X|\\leq1)=\\frac79}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=\\frac{1}{8},\\quad P(|X|\\leq1)=\\frac{3}{4}$",
+    "B": "$k=\\frac{1}{9},\\quad P(|X|\\leq1)=\\frac{7}{9}$",
+    "C": "$k=\\frac{1}{10},\\quad P(|X|\\leq1)=\\frac{7}{10}$",
+    "D": "$k=\\frac{1}{9},\\quad P(|X|\\leq1)=\\frac{5}{9}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

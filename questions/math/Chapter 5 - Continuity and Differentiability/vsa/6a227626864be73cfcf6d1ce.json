@@ -1,0 +1,29 @@
+{
+  "id": "6a227626864be73cfcf6d1ce",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7a",
+    "69c6610140512f018fa94d82"
+  ],
+  "question_type": "VSA",
+  "question": "Differentiate $\\sqrt{e^{\\sqrt{2x}}}$ with respect to $e^{\\sqrt{2x}}$ for $x>0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To simplify the differentiation process, let us introduce intermediate variables. Let $u = \\sqrt{e^{\\sqrt{2x}}}$ and $v = e^{\\sqrt{2x}}$. We are tasked to find the derivative of $u$ with respect to $v$, which is $\\frac{du}{dv}$.<br />**Step 2:** Express $u$ strictly in terms of $v$. Observing the definitions, we can substitute $v$ directly into $u$ to obtain $u = \\sqrt{v}$.<br />**Step 3:** Rewrite the radical expression as a rational exponent for easier differentiation: $u = v^{1/2}$.<br />**Step 4:** Differentiate $u$ directly with respect to $v$ by applying the standard power rule of derivatives: $\\frac{du}{dv} = \\frac{1}{2}v^{-1/2} = \\frac{1}{2\\sqrt{v}}$.<br />**Step 5:** To obtain the final answer, substitute the original expression for $v$ back into the resulting derivative: $\\frac{du}{dv} = \\frac{1}{2\\sqrt{e^{\\sqrt{2x}}}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

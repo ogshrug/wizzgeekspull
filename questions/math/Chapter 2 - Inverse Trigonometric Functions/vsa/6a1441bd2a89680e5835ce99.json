@@ -1,0 +1,25 @@
+{
+  "id": "6a1441bd2a89680e5835ce99",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Simplify $\\sec^{-1}(\\frac{1}{2x^{2}-1})$, $0<x<\\frac{1}{\\sqrt{2}}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $x = \\cos \\theta$. Given $0 < x < \\frac{1}{\\sqrt{2}}$, we have $0 < \\cos \\theta < \\frac{1}{\\sqrt{2}} \\Rightarrow \\frac{\\pi}{4} < \\theta < \\frac{\\pi}{2}$. <br /><br /> **Step 2:** Substitute $x = \\cos \\theta$ into the expression: <br /> $\\sec^{-1}\\left( \\frac{1}{2\\cos^2 \\theta - 1} \\right)$ <br /><br /> **Step 3:** Use double angle identity $2\\cos^2 \\theta - 1 = \\cos 2\\theta$: <br /> Expression becomes $\\sec^{-1}\\left( \\frac{1}{\\cos 2\\theta} \\right) = \\sec^{-1}(\\sec 2\\theta)$. <br /><br /> **Step 4:** Since $\\frac{\\pi}{4} < \\theta < \\frac{\\pi}{2}$, then $\\frac{\\pi}{2} < 2\\theta < \\pi$, which lies in the principal value branch of $\\sec^{-1}$. <br /><br /> **Step 5:** Therefore, $\\sec^{-1}(\\sec 2\\theta) = 2\\theta$. <br /><br /> **Step 6:** Substitute back $\\theta = \\cos^{-1} x$: <br /> $= 2 \\cos^{-1} x$ <br /><br /> **Answer:** $2\\cos^{-1} x$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

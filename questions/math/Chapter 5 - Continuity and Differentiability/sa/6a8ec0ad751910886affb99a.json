@@ -1,0 +1,30 @@
+{
+  "id": "6a8ec0ad751910886affb99a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d80",
+    "69c6610140512f018fa94d81"
+  ],
+  "question_type": "SA",
+  "question": "Examine the validity of the statement $x=e^{\\log x}$ for all real values of $x$. Give mathematical justification.",
+  "answeroption": "C",
+  "explanation": "<b>Domain of the logarithmic function</b><br>The expression $\\log x$ is defined only for $$x>0.$$<br><b>Use of exponential and logarithmic functions</b><br>For $x>0$, let $$y=e^{\\log x}.$$<br>Taking logarithm on both sides, $$\\log y=\\log\\left(e^{\\log x}\\right)=\\log x.$$<br>Hence, $$y=x.$$<br><b>Conclusion</b><br>Therefore, $$x=e^{\\log x}$$ is true for positive real values of $x$ only. It is not a valid statement for all real $x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The statement is valid for every real $x$ because exponential and logarithmic functions are inverse functions.",
+    "B": "The statement is valid only for $x\\neq 0$.",
+    "C": "The statement is valid only for $x>0$, because $\\log x$ is defined over the real numbers only for positive $x$.",
+    "D": "The statement is valid only for $x<0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

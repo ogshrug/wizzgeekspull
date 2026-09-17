@@ -1,0 +1,31 @@
+{
+  "id": "69a9859962be6a70cd184dcc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47",
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "MCQ",
+  "question": "Suppose $f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = e^{x}$ and $g: \\mathbb{R} \\to (0, \\infty)$ by $g(x) = \\ln(x)$. Which of the following is TRUE?",
+  "answeroption": "A",
+  "explanation": "$f(x) = e^{x}$ maps $\\mathbb{R} \\to (0,\\infty)$, $g(x) = \\ln x$ maps $(0, \\infty) \\to \\mathbb{R}$.<br /><br />Compute $g \\circ f(x) = g(f(x)) = \\ln(e^{x}) = x$ for any $x \\in \\mathbb{R}$, so $g \\circ f$ is the identity on $\\mathbb{R}$.<br /><br />Compute $f \\circ g(x) = f(g(x)) = e^{\\ln x} = x$ for $x \\in (0, \\infty)$, so $f \\circ g$ is the identity on $(0, \\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$g \\circ f$ is the identity on $\\mathbb{R}$ and $f \\circ g$ is the identity on $(0,\\infty)$.",
+    "B": "$g \\circ f$ and $f \\circ g$ are both identity functions on $\\mathbb{R}$.",
+    "C": "$g \\circ f$ is the zero function.",
+    "D": "Neither $g \\circ f$ nor $f \\circ g$ is an identity function."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:31:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

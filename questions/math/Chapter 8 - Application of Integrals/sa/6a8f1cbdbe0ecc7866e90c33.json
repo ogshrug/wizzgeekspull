@@ -1,0 +1,29 @@
+{
+  "id": "6a8f1cbdbe0ecc7866e90c33",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99b"
+  ],
+  "question_type": "SA",
+  "question": "For $k>0$, the parabolas $y=k-x^2$ and $y=x^2-k$ enclose an area of $\\frac{64}{3}$ square units. Determine $k$.",
+  "answeroption": "B",
+  "explanation": "Step 1: Finding the intersection limits At the intersection points, $k-x^2=x^2-k$. Therefore, $x^2=k$, giving $x=\\pm\\sqrt{k}$. Step 2: Calculating the vertical difference The upper parabola is $y=k-x^2$, and the lower parabola is $y=x^2-k$. Their difference is $2k-2x^2$. Step 3: Using symmetry $A=2\\int_0^{\\sqrt{k}}(2k-2x^2)dx=4\\left[kx-\\frac{x^3}{3}\\right]_0^{\\sqrt{k}}=\\frac{8k^{3/2}}{3}$. Step 4: Applying the given area $\\frac{8k^{3/2}}{3}=\\frac{64}{3}\\Rightarrow k^{3/2}=8\\Rightarrow k=4$. Final Answer The required value is $k=4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=8$",
+    "B": "$k=4$",
+    "C": "$k=2$",
+    "D": "$k=16$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fcefc4b490c7cde359509",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a class exercise on products of functions, students study the integral $$I=\\int x\\log x\\,dx$$ where $x>0$. Neither direct inspection nor a simple algebraic simplification immediately gives the required antiderivative. The class therefore considers integration by parts, in which one factor is differentiated while the other is integrated. Since the logarithmic function becomes simpler on differentiation and the polynomial factor $x$ can be integrated easily, the students must make an appropriate choice of the first and second functions. They then use the integration-by-parts formula to reduce the original product to a simpler polynomial integral and finally check the result by differentiation.<br><br><b>(a)</b> Choose the first and second functions for applying integration by parts.<br><br><b>(b)</b> Determine the corresponding differential and integral needed in the formula.<br><br><b>(c)</b> Evaluate $I$.<br><br><b>(d)</b> Verify the result by differentiating the obtained antiderivative.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For $$I=\\int x\\log x\\,dx$$ take the first function as $\\log x$ and the second function as $x$. Thus, let $$u=\\log x,\\qquad dv=x\\,dx$$ This choice is convenient because the derivative of $\\log x$ is simpler.<br><br><b>(b)</b><br>From $u=\\log x$, $$du=\\frac{1}{x}\\,dx$$ Also, $$v=\\int x\\,dx=\\frac{x^2}{2}$$<br><br><b>(c)</b><br>Using $$\\int u\\,dv=uv-\\int v\\,du$$ we get $$I=\\frac{x^2}{2}\\log x-\\int\\frac{x^2}{2}\\frac{1}{x}\\,dx$$ Therefore, $$I=\\frac{x^2}{2}\\log x-\\frac{1}{2}\\int x\\,dx$$ Hence, $$I=\\frac{x^2}{2}\\log x-\\frac{x^2}{4}+C$$ where $x>0$.<br><br><b>(d)</b><br>Differentiating, $$\\frac{d}{dx}\\left(\\frac{x^2}{2}\\log x-\\frac{x^2}{4}\\right)=x\\log x+\\frac{x}{2}-\\frac{x}{2}=x\\log x$$ Thus, the derivative equals the original integrand, and the result is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $u=x,\\ dv=\\log x\\,dx$<br>(b) $du=dx,\\ v=x\\log x-x$<br>(c) $I=\\frac{x^2}{2}\\log x+\\frac{x^2}{4}+C$<br>(d) Differentiation gives $x\\log x+x$",
+    "B": "(a) $u=\\log x,\\ dv=x\\,dx$<br>(b) $du=\\frac{1}{x}dx,\\ v=x^2$<br>(c) $I=x^2\\log x-\\frac{x^2}{2}+C$<br>(d) Differentiation gives $2x\\log x$",
+    "C": "(a) $u=\\log x,\\ dv=x\\,dx$<br>(b) $du=\\frac{1}{x}dx,\\ v=\\frac{x^2}{2}$<br>(c) $I=\\frac{x^2}{2}\\log x-\\frac{x^2}{4}+C$<br>(d) Differentiation gives $x\\log x$",
+    "D": "(a) $u=x,\\ dv=\\log x\\,dx$<br>(b) $du=dx,\\ v=x\\log x-x$<br>(c) $I=x^2\\log x-x^2+C$<br>(d) Differentiation gives $2x\\log x-x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

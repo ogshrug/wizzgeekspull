@@ -1,0 +1,29 @@
+{
+  "id": "69a86456575fa42e09444820",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f(x) = \\begin{cases} 2, & x < 0 \\\\ 3, & x \\geq 0 \\end{cases}$. Is $f(x)$ continuous at $x=0$?",
+  "answeroption": "B",
+  "explanation": "Left-hand limit: $\\lim_{x \\to 0^-} f(x) = 2$.<br /><br />Right-hand limit: $\\lim_{x \\to 0^+} f(x) = 3$.<br /><br />Since LHL $\\neq$ RHL, $f(x)$ is not continuous at $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes, $f(x)$ is continuous at $x=0$ because $f(0)=3$",
+    "B": "No, $f(x)$ is not continuous at $x=0$ because LHL $=2$ and RHL $=3$",
+    "C": "Yes, $f(x)$ is continuous at $x=0$ because both one-sided limits are equal",
+    "D": "No, $f(x)$ is not continuous at $x=0$ because $f(0)$ is undefined"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:56:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

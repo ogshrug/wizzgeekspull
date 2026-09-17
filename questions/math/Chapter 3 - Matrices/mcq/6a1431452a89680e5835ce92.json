@@ -1,0 +1,30 @@
+{
+  "id": "6a1431452a89680e5835ce92",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d63"
+  ],
+  "question_type": "MCQ",
+  "question": "It is given that $X\\begin{bmatrix}3&2\\\\ 1&-1\\end{bmatrix}=\\begin{bmatrix}4&1\\\\ 2&3\\end{bmatrix}$. Then matrix $X$ is:",
+  "answeroption": "c",
+  "explanation": "**Step 1: Define relationship.** Let $A = \\begin{bmatrix}3&2\\\\ 1&-1\\end{bmatrix}$ and $B = \\begin{bmatrix}4&1\\\\ 2&3\\end{bmatrix}$. The given equation is $XA = B$, which means $X = BA^{-1}$.<br />**Step 2: Find the inverse of A.** The determinant $|A| = (3)(-1) - (2)(1) = -3 - 2 = -5$. The adjoint of $A$ is $\\begin{bmatrix}-1&-2\\\\ -1&3\\end{bmatrix}$. Thus, $A^{-1} = -\\frac{1}{5}\\begin{bmatrix}-1&-2\\\\ -1&3\\end{bmatrix}$.<br />**Step 3: Multiply matrices.** Compute $X = \\begin{bmatrix}4&1\\\\ 2&3\\end{bmatrix} \\left(-\\frac{1}{5}\\begin{bmatrix}-1&-2\\\\ -1&3\\end{bmatrix}\\right)$. This yields $-\\frac{1}{5}\\begin{bmatrix}(4)(-1)+(1)(-1) & (4)(-2)+(1)(3)\\\\ (2)(-1)+(3)(-1) & (2)(-2)+(3)(3)\\end{bmatrix} = -\\frac{1}{5}\\begin{bmatrix}-5&-5\\\\ -5&5\\end{bmatrix} = \\begin{bmatrix}1&1\\\\ 1&-1\\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "a": "$\\begin{bmatrix}1&0\\\\ 0&1\\end{bmatrix}$",
+    "b": "$\\begin{bmatrix}0&-1\\\\ 1&1\\end{bmatrix}$",
+    "c": "$\\begin{bmatrix}1&1\\\\ 1&-1\\end{bmatrix}$",
+    "d": "$\\begin{bmatrix}1&-1\\\\ 1&-1\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9a0a751910886affb95c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "SA",
+  "question": "Solve the system $x+2y-z=5$, $2x-y+z=2$ and $3x+y+2z=5$. Verify the obtained solution in the third equation.",
+  "answeroption": "B",
+  "explanation": "<b>Elimination of $z$</b><br>Adding the first and second equations gives $$3x+y=7$$ Multiplying the second equation by $2$ and subtracting the third equation gives $$x-3y= -1$$<br><b>Solution of the reduced equations</b><br>From $3x+y=7$, $y=7-3x$. Substituting in $x-3y=-1$, $$x-3(7-3x)=-1$$ Thus, $10x=20$ and $x=2$. Hence, $y=1$.<br><b>Determination of $z$</b><br>Using $2x-y+z=2$, $$4-1+z=2$$ Therefore, $z=-1$.<br><b>Verification</b><br>In the third equation, $$3(2)+1+2(-1)=5$$ Hence, the solution is $(2,1,-1)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(x,y,z)=(2,-1,1)$",
+    "B": "$(x,y,z)=(2,1,-1)$",
+    "C": "$(x,y,z)=(1,2,-1)$",
+    "D": "$(x,y,z)=(2,1,1)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

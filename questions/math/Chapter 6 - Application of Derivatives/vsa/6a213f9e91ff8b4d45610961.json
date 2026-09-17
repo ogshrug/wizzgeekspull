@@ -1,0 +1,26 @@
+{
+  "id": "6a213f9e91ff8b4d45610961",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "VSA",
+  "question": "Find the sub-interval(s) of $(0,\\frac{\\pi}{2})$ in which $f(x)=tan~x-4x$ is increasing.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To find intervals of increase, we first need to determine the first derivative of the function. Differentiating $f(x) = \\tan x - 4x$ with respect to $x$ yields $f'(x) = \\sec^2 x - 4$.<br /><br /><b>Step 2</b> A function is strictly increasing on intervals where its first derivative is strictly positive. Therefore, we set up the inequality $f'(x) > 0$, which gives $\\sec^2 x - 4 > 0$, or $\\sec^2 x > 4$.<br /><br /><b>Step 3</b> Taking the square root of both sides gives $|\\sec x| > 2$. Since we are restricted to the domain $(0, \\frac{\\pi}{2})$, the secant function is positive, so we just need $\\sec x > 2$. This implies $\\cos x < \\frac{1}{2}$. In the first quadrant, this occurs for angles greater than $\\frac{\\pi}{3}$, giving the interval $(\\frac{\\pi}{3}, \\frac{\\pi}{2})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

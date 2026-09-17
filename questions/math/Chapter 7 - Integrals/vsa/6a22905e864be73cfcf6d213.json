@@ -1,0 +1,28 @@
+{
+  "id": "6a22905e864be73cfcf6d213",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "VSA",
+  "question": "Find: $\\int x \\sqrt{1+2x} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use substitution $t = 1 + 2x$. Then $dt = 2 dx$ and $x = \\frac{t-1}{2}$.<br />**Step 2:** Substitute into integral: $\\int (\\frac{t-1}{2}) \\sqrt{t} \\frac{dt}{2}$.<br />**Step 3:** Expand: $\\frac{1}{4} \\int (t^{3/2} - t^{1/2}) dt$.<br />**Step 4:** Integrate: $\\frac{1}{4} [ \\frac{2}{5}t^{5/2} - \\frac{2}{3}t^{3/2} ] + C = \\frac{1}{10}t^{5/2} - \\frac{1}{6}t^{3/2} + C$.<br />**Step 5:** Back-substitute $t$: $\\frac{1}{10}(1+2x)^{5/2} - \\frac{1}{6}(1+2x)^{3/2} + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1",
+    "2024-1-2",
+    "2024-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a311281ed9d5eb2aa722a05",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989",
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "SA",
+  "question": "Find $\\int e^{x}(\\frac{1-\\sin x}{1-\\cos x})dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Apply Half-Angle Identities**  \nWe know $1 - \\cos x = 2\\sin^2\\left(\\frac{x}{2}\\right)$ and $1 - \\sin x = \\left(\\sin\\frac{x}{2} - \\cos\\frac{x}{2}\\right)^2$.  \nSo, $$\\frac{1-\\sin x}{1-\\cos x} = \\frac{\\left(\\sin\\frac{x}{2} - \\cos\\frac{x}{2}\\right)^2}{2\\sin^2\\frac{x}{2}} = \\frac{1}{2}\\left(1 - \\cot\\frac{x}{2}\\right)^2$$\n\n**Step 2: Expand and Simplify**  \n$$\\frac{1}{2}\\left(1 - 2\\cot\\frac{x}{2} + \\cot^2\\frac{x}{2}\\right) = \\frac{1}{2} - \\cot\\frac{x}{2} + \\frac{1}{2}\\cot^2\\frac{x}{2}$$  \nUsing $\\cot^2\\theta = \\csc^2\\theta - 1$, we get:  \n$$= \\frac{1}{2} - \\cot\\frac{x}{2} + \\frac{1}{2}(\\csc^2\\frac{x}{2} - 1) = -\\cot\\frac{x}{2} + \\frac{1}{2}\\csc^2\\frac{x}{2}$$\n\n**Step 3: Identify the Form $\\int e^x[f(x)+f'(x)]dx$**  \nLet $f(x) = -\\cot\\frac{x}{2}$. Then $f'(x) = \\frac{1}{2}\\csc^2\\frac{x}{2}$.  \nSo, the integrand becomes $e^x[f(x) + f'(x)]$.\n\n**Step 4: Apply the Standard Formula**  \nWe know $\\int e^x[f(x) + f'(x)]dx = e^x f(x) + C$.  \nTherefore, $$\\int e^x\\left(\\frac{1-\\sin x}{1-\\cos x}\\right)dx = -e^x\\cot\\frac{x}{2} + C$$\n\n**Step 5: Final Answer**  \n$$\\boxed{-e^x\\cot\\left(\\frac{x}{2}\\right) + C}$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

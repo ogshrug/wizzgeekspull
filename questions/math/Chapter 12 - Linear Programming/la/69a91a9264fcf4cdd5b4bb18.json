@@ -1,0 +1,29 @@
+{
+  "id": "69a91a9264fcf4cdd5b4bb18",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "A dairy plant must mix two food mixes, C and D, for cattle. Mix C costs ₹20/kg and mix D costs ₹25/kg, and at least 60 kg is needed per day. The daily mixture must provide at least 120 units of nutrient 1 and 150 units of nutrient 2. Each kg of C provides 2 units of nutrient 1 and 4 units of nutrient 2; each kg of D provides 6 units of nutrient 1 and 3 units of nutrient 2. Find the mixture that minimizes the cost and discuss the uniqueness of the solution.",
+  "answeroption": "B",
+  "explanation": "Let x = kg of C and y = kg of D.<br /><br />Minimize Z = 20x + 25y.<br /><br />Constraints:<br />x + y ≥ 60.<br />2x + 6y ≥ 120.<br />4x + 3y ≥ 150.<br />x ≥ 0, y ≥ 0.<br /><br />From 2x + 6y = 120 ⇒ x + 3y = 60.<br />From 4x + 3y = 150.<br /><br />Solve:<br />x + 3y = 60<br />4x + 3y = 150<br />Subtract ⇒ 3x = 90 ⇒ x = 30.<br />Then y = 10.<br /><br />Check axis points:<br />(60,0) and (0,60).<br /><br />Evaluate cost:<br />Z(60,0) = 1200.<br />Z(0,60) = 1500.<br />Z(30,10) = 850.<br /><br />Minimum cost occurs at (30,10). Hence the optimal solution is unique.",
+  "explanation_image": [],
+  "options": {
+    "A": "Use 60 kg of C and 0 kg of D; minimum cost ₹1200; unique solution.",
+    "B": "Use 30 kg of C and 10 kg of D; minimum cost ₹850; unique solution.",
+    "C": "Use 0 kg of C and 60 kg of D; minimum cost ₹1500; unique solution.",
+    "D": "Use 10 kg of C and 30 kg of D; minimum cost ₹950; multiple optimal solutions."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 05:54:26 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

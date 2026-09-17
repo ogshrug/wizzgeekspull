@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd67b4b490c7cde359511",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "SA",
+  "question": "Examine the following differential equations:<br>(i) $\\left(\\frac{d^3y}{dx^3}\\right)^2+\\left(\\frac{d^2y}{dx^2}\\right)^7+\\left(\\frac{dy}{dx}\\right)^9+y=0$<br>(ii) $\\cos\\left(\\frac{d^3y}{dx^3}\\right)+\\left(\\frac{dy}{dx}\\right)^5=0$.<br>Find the degree of each equation, if defined. Explain why the largest numerical power appearing on any derivative need not be the degree.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Apply the condition for degree</b><br>A degree can be assigned only when the equation is polynomial in its derivatives. The degree is then the power of the highest order derivative, not the greatest power of any derivative present.<br><b>Step 2: Analyse equation (i)</b><br>The highest order derivative is $\\frac{d^3y}{dx^3}$. Its power is $2$. Although $\\frac{d^2y}{dx^2}$ and $\\frac{dy}{dx}$ occur with powers $7$ and $9$, they are derivatives of lower order. Hence, the degree is $2$.<br><b>Step 3: Analyse equation (ii)</b><br>The derivative $\\frac{d^3y}{dx^3}$ occurs as the argument of $\\cos$. Therefore, the equation is not polynomial in its derivatives.<br><b>Step 4: Degree condition</b><br>Consequently, the degree of equation (ii) is not defined.<br><b>Step 5: Final conclusion</b><br>The respective results are degree $2$ and degree not defined.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) Degree $9$<br>(ii) Degree $5$",
+    "B": "(i) Degree $7$<br>(ii) Degree $3$",
+    "C": "(i) Degree $2$<br>(ii) Degree $5$",
+    "D": "(i) Degree $2$<br>(ii) Degree not defined"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

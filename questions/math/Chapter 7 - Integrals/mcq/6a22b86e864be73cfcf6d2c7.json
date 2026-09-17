@@ -1,0 +1,32 @@
+{
+  "id": "6a22b86e864be73cfcf6d2c7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "Anti-derivative of $\\frac{\\tan x - 1}{\\tan x + 1}$ with respect to $x$ is",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Rewrite the complex trigonometric fraction $\\frac{\\tan x - 1}{\\tan x + 1}$ explicitly leveraging the core identity $\\tan(A - B) = \\frac{\\tan A - \\tan B}{1 + \\tan A \\tan B}$.<br />**Step 2:** By precisely recognizing that $\\tan(\\frac{\\pi}{4}) = 1$, the algebraic expression elegantly transforms into $\\frac{\\tan x - \\tan(\\frac{\\pi}{4})}{1 + \\tan x \\tan(\\frac{\\pi}{4})} = \\tan(x - \\frac{\\pi}{4})$. Notice this is equivalent to $-\\tan(\\frac{\\pi}{4} - x)$.<br />**Step 3:** Integrate $-\\tan(\\frac{\\pi}{4} - x)$ sequentially with respect to $x$. The standard known integral of $\\tan u$ is strictly $\\log|\\sec u|$.<br />**Step 4:** Using strict substitution with $u = \\frac{\\pi}{4} - x$, $du = -dx$. Thus $\\int -\\tan(\\frac{\\pi}{4} - x) dx$ flawlessly evaluates to $\\log|\\sec(\\frac{\\pi}{4} - x)| + c$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sec^2(\\frac{\\pi}{4} - x) + c$",
+    "B": "$-\\sec^2(\\frac{\\pi}{4} - x) + c$",
+    "C": "$\\log|\\sec(\\frac{\\pi}{4} - x)| + c$",
+    "D": "$-\\log|\\sec(\\frac{\\pi}{4} - x)| + c$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

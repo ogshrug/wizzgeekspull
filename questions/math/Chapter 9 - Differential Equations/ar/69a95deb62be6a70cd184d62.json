@@ -1,0 +1,29 @@
+{
+  "id": "69a95deb62be6a70cd184d62",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): Every homogeneous differential equation of the form $\\frac{dy}{dx} = F\\left(\\frac{y}{x}\\right)$ can be reduced to separable variables by the substitution $y = vx$. <br /><br />Reason (R): Substituting $y = vx$ in a homogeneous equation transforms it into a differential equation in $v$ and $x$ only, which is always separable.",
+  "answeroption": "A",
+  "explanation": "In a homogeneous differential equation, $\\frac{dy}{dx} = F\\left(\\frac{y}{x}\\right)$, the substitution $y = vx$ implies $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting, we have:<br /><br />$v + x\\frac{dv}{dx} = F(v)$<br /><br />$\\implies x\\frac{dv}{dx} = F(v) - v$<br /><br />$\\implies \\frac{dv}{F(v)-v} = \\frac{dx}{x}$<br /><br />which is separable in $v$ and $x$. Thus, both Assertion and Reason are correct, and the Reason is the explanation of the Assertion.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:41:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

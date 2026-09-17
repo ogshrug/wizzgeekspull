@@ -1,0 +1,29 @@
+{
+  "id": "69a97224d8e9ca3b29345790",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation $x \\frac{dy}{dx} - y = x^2 e^{y/x}$.",
+  "answeroption": "D",
+  "explanation": "Rewrite: $x \\frac{dy}{dx} - y = x^2 e^{y/x}$<br /><br />Divide both sides by $x$: $\\frac{dy}{dx} - \\frac{y}{x} = x e^{y/x}$<br /><br />Let $y/x = v \\implies y = vx \\implies \\frac{dy}{dx} = v + x \\frac{dv}{dx}$<br /><br />Substitute: $v + x \\frac{dv}{dx} - v = x e^{v} \\Rightarrow x \\frac{dv}{dx} = x e^{v} \\implies \\frac{dv}{dx} = e^{v}$<br /><br />Separate: $e^{-v} dv = dx$<br /><br />Integrate: $\\int e^{-v} dv = \\int dx \\Rightarrow -e^{-v} = x + C$<br /><br />Substitute back: $-e^{-y/x} = x + C$<br /><br />General solution: $e^{-y/x} + x = -C$ (or $e^{-y/x} + x = C'$).",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^{y/x}+x=C$",
+    "B": "$e^{-y/x}-x=C$",
+    "C": "$e^{-x/y}+x=C$",
+    "D": "$e^{-y/x}+x=C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:08:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

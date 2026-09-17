@@ -1,0 +1,28 @@
+{
+  "id": "6a264e6f864be73cfcf6d321",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "VSA",
+  "question": "Find the product of the order and the degree of the differential equation<br />$[\\frac{d}{dx}(xy^{2})].\\frac{dy}{dx}+y=0.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** First, we need to expand and simplify the given differential equation expression $[\\frac{d}{dx}(xy^{2})].\\frac{dy}{dx}+y=0$. To compute the derivative component $\\frac{d}{dx}(xy^{2})$, we apply the standard product rule of differentiation, which states that $\\frac{d}{dx}(uv) = u\\frac{dv}{dx} + v\\frac{du}{dx}$. Applying this yields $\\left(x \\cdot 2y\\frac{dy}{dx} + y^2 \\cdot 1\\right) = 2xy\\frac{dy}{dx} + y^2$.<br />**Step 2:** Substitute this differentiated expression back into the original setup: $\\left(2xy\\frac{dy}{dx} + y^2\\right)\\cdot\\frac{dy}{dx} + y = 0$. Distributing the term $\\frac{dy}{dx}$ across the parentheses gives the simplified polynomial equation: $2xy\\left(\\frac{dy}{dx}\\right)^2 + y^2\\left(\\frac{dy}{dx}\\right) + y = 0$. This is now a clean polynomial in terms of its differential coefficients.<br />**Step 3:** From the simplified differential equation, find the highest order derivative present to establish the order. The highest derivative is $\\frac{dy}{dx}$, which means the order is $1$. The degree is defined as the power of this highest-order derivative component, which in this polynomial expression is $2$. Multiplying these values together, the required product of the order and the degree is $1 \\times 2 = 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

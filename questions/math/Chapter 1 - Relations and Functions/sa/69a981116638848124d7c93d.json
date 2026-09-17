@@ -1,0 +1,30 @@
+{
+  "id": "69a981116638848124d7c93d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Let $f: (0, \\infty) \\to (0, \\infty)$ be defined as $f(x) = x^2$. Show that $f$ is neither one-one nor onto. Under what domain and codomain is $f(x)=x^2$ both one-one and onto?",
+  "answeroption": "B",
+  "explanation": "**Step 1: Test for injectivity.**<br /><br />For $f(x_1) = f(x_2)$, $x_1^2 = x_2^2$.<br /><br />Since $x_1, x_2 > 0$, $x_1 = x_2$ (not $x_1 = -x_2$ since domain is $(0, \\infty)$).<br /><br />Thus, $f$ **is one-one** over $(0, \\infty)$.<br /><br />**Step 2: Test for surjectivity.**<br /><br />Given $y > 0$, $x = \\sqrt{y} > 0$.<br /><br />So for any $y$ in $(0, \\infty)$, $x = \\sqrt{y}$ exists and is unique.<br /><br />Thus, $f$ **is onto** $(0, \\infty)$.<br /><br />**Correction to original statement:**<br /><br />Over $(0, \\infty) \\to (0, \\infty)$, $f(x)=x^2$ is both one-one and onto.<br /><br />But over $\\mathbb{R} \\to \\mathbb{R}$, $f(x)=x^2$ is not one-one ($f(-a)=f(a)$), nor onto (no negative $y$).<br /><br />So, $f(x)=x^2$ is both one-one and onto when domain and codomain are both $(0, \\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Over $(0,\\infty)\\to(0,\\infty)$, $f$ is neither one-one nor onto",
+    "B": "Over $(0,\\infty)\\to(0,\\infty)$, $f$ is both one-one and onto",
+    "C": "Over $\\mathbb{R}\\to\\mathbb{R}$, $f$ is both one-one and onto",
+    "D": "Over $(0,\\infty)\\to(0,\\infty)$, $f$ is one-one but not onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:11:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

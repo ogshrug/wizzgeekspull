@@ -1,0 +1,30 @@
+{
+  "id": "69a9bfc2d30adc5083911b4d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $M(x) = \\begin{pmatrix} 1 & x \\\\ x & 1 \\end{pmatrix}$ for $x \\in \\mathbb{R}$.\n\n(a) Show $M(x)$ is invertible for which values of $x$.\n\n(b) For $x$ where $M(x)$ is invertible, find $M(x)^{-1}$.\n\n(c) Let $f(x) = \\det(M(x))$, find $f'(x)$.\n\n(d) For $g(x) = \\operatorname{tr}(M(x)^{-1})$ (where $\\operatorname{tr}$ is the trace), compute $g'(x)$.\n\n(e) If $x$ varies so that $\\operatorname{tr}(M(x)^{-1})=8$, find all possible $x$ and classify the differentiability of $g(x)$ at those $x$.",
+  "answeroption": "A",
+  "explanation": "**Concepts Tested:** Matrices (Invertibility, Inverse, Trace), Determinants, Differentiability<br /><br />(a) $\\det(M(x)) = 1\\cdot1 - x\\cdot x = 1 - x^2$.<br /><br />$M(x)$ is invertible if $\\det(M(x)) \\neq 0$ $\\implies x \\neq 1, x \\neq -1$.<br /><br />(b) $M(x)^{-1} = \\frac{1}{1-x^2} \\begin{pmatrix} 1 & -x \\\\ -x & 1 \\end{pmatrix}$, for $x \\neq \\pm1$.<br /><br />(c) $f(x) = 1-x^2$, $f'(x) = -2x$.<br /><br />(d) $g(x) = \\operatorname{tr}(M(x)^{-1}) = \\frac{1}{1-x^2} + \\frac{1}{1-x^2} = \\frac{2}{1-x^2}$.<br /><br />$g'(x) = 2 \\cdot \\frac{0 - (1-x^2)' }{(1-x^2)^2} = 2 \\cdot \\frac{-(-2x)}{(1-x^2)^2} = \\frac{4x}{(1-x^2)^2}$<br /><br />(e) $\\operatorname{tr}(M(x)^{-1})=8$ implies $\\frac{2}{1-x^2}=8 \\implies 1 - x^2 = \\frac{1}{4} \\implies x^2 = \\frac{3}{4}$<br /><br />So $x=\\frac{\\sqrt{3}}{2}$ or $x= - \\frac{\\sqrt{3}}{2}$<br /><br />Check differentiability of $g(x)$ at these $x$:<br /><br />For $x = \\pm \\frac{\\sqrt{3}}{2}$, $g(x)$ and $g'(x)$ exist, since $x \\neq \\pm1$. Thus, $g$ is differentiable at these points.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $M(x)$ is invertible for $x\\ne\\pm1$<br />(b) $M(x)^{-1}=\\frac{1}{1-x^2}\\begin{pmatrix}1&-x\\\\-x&1\\end{pmatrix}$<br />(c) $f'(x)=-2x$<br />(d) $g'(x)=\\frac{4x}{(1-x^2)^2}$<br />(e) $x=\\pm\\frac{\\sqrt3}{2}$ and $g$ is differentiable at both points",
+    "B": "(a) $M(x)$ is invertible only for $x=\\pm1$<br />(b) $M(x)^{-1}=\\begin{pmatrix}1&x\\\\x&1\\end{pmatrix}$<br />(c) $f'(x)=2x$<br />(d) $g'(x)=\\frac{-4x}{(1-x^2)^2}$<br />(e) $x=\\pm1$ and $g$ is not differentiable",
+    "C": "(a) $M(x)$ is invertible for all real $x$<br />(b) $M(x)^{-1}=\\frac{1}{1+x^2}\\begin{pmatrix}1&-x\\\\-x&1\\end{pmatrix}$<br />(c) $f'(x)=1-2x$<br />(d) $g'(x)=\\frac{2x}{(1+x^2)^2}$<br />(e) $x=\\pm\\frac{1}{2}$ and $g$ is differentiable",
+    "D": "(a) $M(x)$ is never invertible<br />(b) Inverse does not exist for any $x$<br />(c) $f'(x)=0$<br />(d) $g'(x)=0$<br />(e) No possible value of $x$ exists"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:39:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

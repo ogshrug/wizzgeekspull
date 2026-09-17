@@ -1,0 +1,34 @@
+{
+  "id": "6a214c1a864be73cfcf6d0e0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5e",
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A$ and $B$ are square matrices of same order, then which of the following statements is/are always true?<br /><br />(i) $AB=BA$<br />(ii) $(A+B)(A-B)=A^{2}-B^{2}$<br />(iii) $(A+B)^{2}=A^{2}+AB+BA+B^{2}$<br />(iv) $AB=0\\implies A=0$ or $B=0$",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Analyze (i): Matrix multiplication is generally non-commutative, so $AB = BA$ is not always true.<br /><br />**Step 2:** Analyze (ii): Expanding $(A+B)(A-B)$ yields $A^2 - AB + BA - B^2$, which does not simplify to $A^2 - B^2$ unless $AB=BA$.<br /><br />**Step 3:** Analyze (iii): Expanding $(A+B)(A+B)$ yields $A(A+B) + B(A+B) = A^2 + AB + BA + B^2$. This is universally true using distributive properties.<br /><br />**Step 4:** Analyze (iv): The zero product property does not hold for matrices; non-zero matrices can multiply to yield the zero matrix. Thus, only statement (iii) is always true.",
+  "explanation_image": [],
+  "options": {
+    "A": "Only (i) and (iii)",
+    "B": "Only (ii) and (iii)",
+    "C": "Only (iii)",
+    "D": "Only (iii) and (iv)"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a3238dad5dca7dcb0bf0e88",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically: Maximise $z=-3x-5y$ subject to the constraints $-2x+y \\le 4$, $x+y \\ge 3$, $x-2y \\le 2$, $x \\ge 0$, $y \\ge 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Graph the Constraints**  \nPlot each line in the first quadrant:  \n- $-2x+y=4$: intercepts (0,4) and (-2,0); since $\\le$, shade below the line.  \n- $x+y=3$: intercepts (3,0) and (0,3); since $\\ge$, shade above the line.  \n- $x-2y=2$: intercepts (2,0) and (0,-1); since $\\le$, shade below the line.  \nAlso, $x \\ge 0$ and $y \\ge 0$ restrict to the first quadrant. The feasible region is the bounded polygon satisfying all constraints.\n\n**Step 2: Find the Corner Points**  \nCalculate intersections of boundary lines:  \n- Intersection of $-2x+y=4$ and $x+y=3$: Subtract: $-3x=1 \\Rightarrow x=-\\frac{1}{3}$ (not feasible since $x \\ge 0$). So ignore.  \n- Intersection of $-2x+y=4$ and $x-2y=2$: From first: $y=2x+4$. Substitute: $x-2(2x+4)=2 \\Rightarrow x-4x-8=2 \\Rightarrow -3x=10 \\Rightarrow x=-\\frac{10}{3}$ (not feasible).  \n- Intersection of $x+y=3$ and $x-2y=2$: Subtract: $3y=1 \\Rightarrow y=\\frac{1}{3}$, then $x=3-\\frac{1}{3}=\\frac{8}{3}$. Vertex A = $(\\frac{8}{3}, \\frac{1}{3})$.  \n- Intersection of $x+y=3$ with y-axis: (0,3). Vertex B = (0,3).  \n- Intersection of $-2x+y=4$ with y-axis: (0,4). Vertex C = (0,4).  \n- Intersection of $x-2y=2$ with x-axis: (2,0). Vertex D = (2,0).\n\n**Step 3: Verify Feasibility**  \nCheck all vertices satisfy all constraints:  \n- A$(\\frac{8}{3}, \\frac{1}{3})$: $-2(\\frac{8}{3})+\\frac{1}{3} = -\\frac{16}{3}+\\frac{1}{3} = -5 \\le 4$ (ok), $\\frac{8}{3}+\\frac{1}{3}=3$ (ok), $\\frac{8}{3}-\\frac{2}{3}=2$ (ok) → feasible.  \n- B(0,3): $-2(0)+3=3 \\le 4$ (ok), $0+3=3$ (ok), $0-6=-6 \\le 2$ (ok) → feasible.  \n- C(0,4): $-2(0)+4=4$ (ok), $0+4=4 \\ge 3$ (ok), $0-8=-8 \\le 2$ (ok) → feasible.  \n- D(2,0): $-2(2)+0=-4 \\le 4$ (ok), $2+0=2 < 3$ (fails $x+y \\ge 3$) → NOT feasible.\n\n**Step 4: Evaluate Objective Function at Feasible Vertices**  \n$z = -3x-5y$:  \n- At A$(\\frac{8}{3}, \\frac{1}{3})$: $z = -3(\\frac{8}{3}) - 5(\\frac{1}{3}) = -8 - \\frac{5}{3} = -\\frac{29}{3} \\approx -9.67$  \n- At B(0,3): $z = -3(0) - 5(3) = -15$  \n- At C(0,4): $z = -3(0) - 5(4) = -20$\n\n**Step 5: Identify the Maximum Value**  \nComparing all values, the maximum $z$ is $-\\frac{29}{3}$ at A$(\\frac{8}{3}, \\frac{1}{3})$.  \nThus, the optimal solution is $x = \\frac{8}{3}$, $y = \\frac{1}{3}$, with maximum value $z = -\\frac{29}{3}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

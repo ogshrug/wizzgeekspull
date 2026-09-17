@@ -1,0 +1,31 @@
+{
+  "id": "69a9a81c589ce36f368b4857",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8bc",
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8c7"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $\\vec{a} = a_1\\hat{i} + a_2\\hat{j} + a_3\\hat{k}$ and $\\vec{b} = b_1\\hat{i} + b_2\\hat{j} + b_3\\hat{k}$ such that $|\\vec{a}| = |\\vec{b}| = 3$, and $\\vec{a} \\cdot \\vec{b} = 2$. Find $|\\vec{a} + \\vec{b}|$ and $|\\vec{a} - \\vec{b}|$ and then evaluate $|\\vec{a} + \\vec{b}|^2 + |\\vec{a} - \\vec{b}|^2$.",
+  "answeroption": "B",
+  "explanation": "$|\\vec{a} + \\vec{b}|^2 = (\\vec{a} + \\vec{b}) \\cdot (\\vec{a} + \\vec{b}) = \\vec{a} \\cdot \\vec{a} + 2\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{b}$<br /><br />$= |\\vec{a}|^2 + 2(\\vec{a} \\cdot \\vec{b}) + |\\vec{b}|^2$<br /><br />$= 9 + 4 + 9 = 22$<br /><br />Similarly,<br /><br />$|\\vec{a} - \\vec{b}|^2 = (\\vec{a} - \\vec{b}) \\cdot (\\vec{a} - \\vec{b}) = |\\vec{a}|^2 - 2\\vec{a} \\cdot \\vec{b} + |\\vec{b}|^2$<br /><br />$= 9 - 4 + 9 = 14$<br /><br />Sum:<br /><br />$|\\vec{a} + \\vec{b}|^2 + |\\vec{a} - \\vec{b}|^2 = 22 + 14 = 36$",
+  "explanation_image": [],
+  "options": {
+    "A": "$40$",
+    "B": "$36$",
+    "C": "$34$",
+    "D": "$32$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:58:20 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

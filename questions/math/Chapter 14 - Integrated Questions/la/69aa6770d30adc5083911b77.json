@@ -1,0 +1,30 @@
+{
+  "id": "69aa6770d30adc5083911b77",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7e",
+    "69c65fc040512f018fa94d63"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{pmatrix} \\sin\\theta & \\cos\\theta \\\\ \\cos\\theta & -\\sin\\theta \\end{pmatrix}$, $x = \\sin\\theta$, $\\theta \\in (0,\\frac{\\pi}{2})$.\n\n(a) Compute $\\det A$ in terms of $x$.\n\n(b) Show that $A$ is invertible for $\\theta \\in (0,\\frac{\\pi}{2})$ and find $A^{-1}$.\n\n(c) If $f(x) = \\tan^{-1}x$, find $f'(x)$.\n\n(d) Define $g(x) = |\\det A| + f'(x)$, and determine its maximum and minimum for $x \\in (0,1).",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:** Matrix determinant and invertibility, inverse trigonometric derivatives.<br /><br />**Step 1:** $\\det A = -\\sin^2\\theta - \\cos^2\\theta = -1$.<br /><br />**Step 2:** Since $\\det A \\neq 0$, $A$ is invertible and $A^{-1}=A$.<br /><br />**Step 3:** $f'(x)=\\frac{1}{1+x^2}$.<br /><br />**Step 4:** $g(x)=1+\\frac{1}{1+x^2}$.<br /><br />Maximum at $x=0$: $g=2$.<br /><br />Minimum at $x=1$: $g=\\frac{3}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\det A=-1$<br />(b) Since $\\det A\\ne0$, $A$ is invertible and $A^{-1}=A$<br />(c) $f'(x)=\\frac{1}{1+x^2}$<br />(d) $g(x)=1+\\frac{1}{1+x^2}$; maximum is $2$ at $x=0$ and minimum is $\\frac32$ at $x=1$",
+    "B": "(a) $\\det A=1$<br />(b) $A$ is invertible and $A^{-1}=-A$<br />(c) $f'(x)=-\\frac{1}{1+x^2}$<br />(d) $g(x)=1-\\frac{1}{1+x^2}$; maximum is $1$ and minimum is $0$",
+    "C": "(a) $\\det A=0$<br />(b) $A$ is not invertible<br />(c) $f'(x)=\\sqrt{1-x^2}$<br />(d) $g(x)=\\sqrt{1-x^2}$; maximum is $1$ and minimum is $0$",
+    "D": "(a) $\\det A=x^2$<br />(b) $A^{-1}=I$<br />(c) $f'(x)=1+x^2$<br />(d) $g(x)=x^2+1+x^2$; maximum is $3$ and minimum is $1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:34:40 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a2658ec864be73cfcf6d34e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "SA",
+  "question": "If $\\vec{a}=2\\hat{i}+2\\hat{j}+3\\hat{k}$, $\\vec{b}=-\\hat{i}+2\\hat{j}+\\hat{k}$ and $\\vec{c}=3\\hat{i}+\\hat{j}$ are such that the vector $(\\vec{a}+\\lambda\\vec{b})$ is perpendicular to vector $\\vec{c}$, then find the value of $\\lambda$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** We are given three vectors $\\vec{a}, \\vec{b},$ and $\\vec{c}$. First, express the parameterized linear combination vector $(\\vec{a}+\\lambda\\vec{b})$ by grouping matching unit vector components together: $(\\vec{a}+\\lambda\\vec{b}) = (2\\hat{i}+2\\hat{j}+3\\hat{k}) + \\lambda(-\\hat{i}+2\\hat{j}+\\hat{k}) = (2-\\lambda)\\hat{i} + (2+2\\lambda)\\hat{j} + (3+\\lambda)\\hat{k}$.<br />**Step 2:** By fundamental geometric definitions, two vectors are perpendicular if and only if their scalar dot product equals zero. Since $(\\vec{a}+\\lambda\\vec{b})$ is perpendicular to $\\vec{c} = 3\\hat{i}+\\hat{j}+0\\hat{k}$, we set up the following equation: $(\\vec{a}+\\lambda\\vec{b}) \\cdot \\vec{c} = 0$.<br />**Step 3:** Expand this scalar dot product by multiplying their respective directional component coefficients: $(2-\\lambda)(3) + (2+2\\lambda)(1) + (3+\\lambda)(0) = 0$. This expands linearly to: $6 - 3\\lambda + 2 + 2\\lambda + 0 = 0$. Grouping numeric constants and variables simplifies this down to: $8 - \\lambda = 0$. Solving this linear equation directly isolates our target value, giving $\\lambda = 8$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1",
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

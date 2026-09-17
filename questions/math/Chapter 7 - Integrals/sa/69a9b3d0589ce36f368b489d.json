@@ -1,0 +1,29 @@
+{
+  "id": "69a9b3d0589ce36f368b489d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int \\frac{\\log x}{(1+\\log x)^2} dx$.",
+  "answeroption": "C",
+  "explanation": "Let $t=1+\\log x$. Then $dt=\\frac{1}{x}dx$ and $\\log x=t-1$.<br /><br />The integral transforms to $\\frac{1}{e}\\int e^t(\\frac{1}{t}-\\frac{1}{t^2})dt$.<br /><br />Since $\\frac{d}{dt}(\\frac{e^t}{t})=e^t(\\frac{1}{t}-\\frac{1}{t^2})$.<br /><br />Thus the integral becomes $\\frac{1}{e}\\cdot\\frac{e^t}{t}+C$.<br /><br />Substitute back $t=1+\\log x$ to get $\\frac{x}{1+\\log x}+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x}{(1+\\log x)^2}+C$",
+    "B": "$\\frac{1}{1+\\log x}+C$",
+    "C": "$\\frac{x}{1+\\log x}+C$",
+    "D": "$x(1+\\log x)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:48:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

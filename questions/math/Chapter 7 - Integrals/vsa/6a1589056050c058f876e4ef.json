@@ -1,0 +1,24 @@
+{
+  "id": "6a1589056050c058f876e4ef",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "VSA",
+  "question": "Find: $\\int\\frac{x^{3}-1}{x^{3}-x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Simplify the improper fraction using polynomial long division**<br />Since the numerator and denominator have the same degree, this is an improper rational fraction. We can rewrite the numerator to separate out a whole term:<br />$\\frac{x^3 - 1}{x^3 - x} = \\frac{(x^3 - x) + (x - 1)}{x^3 - x} = 1 + \\frac{x - 1}{x^3 - x}$<br /><br />**Step 2: Factor the remaining fractional term**<br />Factor the denominator expression $x^3 - x$:<br />$x^3 - x = x(x^2 - 1) = x(x - 1)(x + 1)$<br />Substitute this factored denominator back into our fraction and cancel common terms:<br />$\\frac{x - 1}{x(x - 1)(x + 1)} = \\frac{1}{x(x + 1)} \\quad (\\text{for } x \\neq 1)$<br />Our original integral expression simplifies to:<br />$\\int \\left( 1 + \\frac{1}{x(x+1)} \\right) \\, dx$<br /><br />**Step 3: Separate the fraction into partial components**<br />We split the remaining fraction using basic partial fractions:<br />$\\frac{1}{x(x+1)} = \\frac{(x+1) - x}{x(x+1)} = \\frac{1}{x} - \\frac{1}{x+1}$<br />Our total integral expression becomes:<br />$\\int 1 \\, dx + \\int \\frac{1}{x} \\, dx - \\int \\frac{1}{x+1} \\, dx$<br /><br />**Step 4: Perform the final integration**<br />Integrating each individual term gives:<br />$x + \\log|x| - \\log|x+1| + C = x + \\log\\left|\\frac{x}{x+1}\\right| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

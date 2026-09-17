@@ -1,0 +1,29 @@
+{
+  "id": "6a911402751910886affba52",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a classroom investigation, a fair coin and a fair six-faced die are used simultaneously. Each trial consists of tossing the coin once and rolling the die once. Since the two devices operate separately, the result shown by the coin does not influence the number shown by the die. Let $A$ be the event that the coin shows a head and let $B$ be the event that the die shows a prime number. The die has the outcomes $1,2,3,4,5,6$, and the entire experiment has 12 equally likely ordered outcomes. Students analyse the probabilities to verify mathematically whether the stated events are independent.<br><br><b>(a)</b> Find $P(A)$ and $P(B)$.<br><br><b>(b)</b> Calculate $P(A\\cap B)$.<br><br><b>(c)</b> Verify whether $A$ and $B$ are independent.<br><br><b>(d)</b> Evaluate $P(A|B)$ and explain how this value supports your conclusion in part (c).",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>For a fair coin, one of the two equally likely outcomes is a head.<br>Therefore, $P(A)=\\frac{1}{2}$.<br>The prime numbers on the die are $2,3,5$, so there are 3 favourable outcomes out of 6.<br>Hence,<br>$$P(B)=\\frac{3}{6}=\\frac{1}{2}$$<br><br><b>(b)</b><br>The event $A\\cap B$ occurs when the coin shows a head and the die shows one of $2,3,5$. The favourable ordered outcomes are $(H,2)$, $(H,3)$ and $(H,5)$.<br>Out of 12 equally likely outcomes,<br>$$P(A\\cap B)=\\frac{3}{12}=\\frac{1}{4}$$<br><br><b>(c)</b><br>For two events to be independent, $P(A\\cap B)=P(A)P(B)$.<br>Now,<br>$$P(A)P(B)=\\frac{1}{2}\\times\\frac{1}{2}=\\frac{1}{4}$$<br>Since $P(A\\cap B)=\\frac{1}{4}=P(A)P(B)$, the events $A$ and $B$ are independent.<br><br><b>(d)</b><br>Using conditional probability,<br>$$P(A|B)=\\frac{P(A\\cap B)}{P(B)}$$<br>Therefore,<br>$$P(A|B)=\\frac{\\frac{1}{4}}{\\frac{1}{2}}=\\frac{1}{2}$$<br>But $P(A)=\\frac{1}{2}$. Thus, $P(A|B)=P(A)$, confirming that the occurrence of $B$ does not change the probability of $A$. This supports the conclusion that $A$ and $B$ are independent.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(A)=\\frac{1}{2},\\ P(B)=\\frac{1}{3}$<br>(b) $P(A\\cap B)=\\frac{1}{6}$<br>(c) $A$ and $B$ are independent<br>(d) $P(A|B)=\\frac{1}{2}$",
+    "B": "(a) $P(A)=\\frac{1}{2},\\ P(B)=\\frac{1}{2}$<br>(b) $P(A\\cap B)=\\frac{1}{4}$<br>(c) $A$ and $B$ are independent<br>(d) $P(A|B)=\\frac{1}{2}=P(A)$",
+    "C": "(a) $P(A)=\\frac{1}{2},\\ P(B)=\\frac{1}{2}$<br>(b) $P(A\\cap B)=\\frac{1}{3}$<br>(c) $A$ and $B$ are not independent<br>(d) $P(A|B)=\\frac{2}{3}$",
+    "D": "(a) $P(A)=\\frac{1}{2},\\ P(B)=\\frac{1}{2}$<br>(b) $P(A\\cap B)=\\frac{1}{4}$<br>(c) $A$ and $B$ are not independent<br>(d) $P(A|B)=\\frac{1}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69aa692d6638848124d7c9d9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Computer Graphics & Game Development<br /><br />A light source at $L(6,4,-1)$ is reflected in plane $3x-4y+2z=10$.<br /><br />(1) Find the coordinates of the reflected image.<br /><br />(2) Find direction cosines of the line joining source and image.<br /><br />(3) Show this line is perpendicular to the plane.<br /><br />(4) Explain relevance to ray tracing.",
+  "answeroption": "A",
+  "explanation": "Normal $(3,-4,2)$.<br /><br /> Normal line through $L$: $x=6+3t$, $y=4-4t$, $z=-1+2t$.<br /><br /> Substituting into plane gives $t=10/29$.<br /><br /> Foot $F(204/29,76/29,-9/29)$.<br /><br />Using midpoint relation gives image $L'(236/29,36/29,11/29)$.<br /><br />Direction vector from $L$ to $L'$ proportional to $(3,-4,2)$, same as plane normal.<br /><br />Hence line joining them is perpendicular to plane.<br /><br />This ensures accurate reflection calculation in ray-tracing graphics engines.",
+  "explanation_image": [],
+  "options": {
+    "A": "(1) Reflected image is $L'\\left(\\frac{234}{29},\\frac{36}{29},\\frac{11}{29}\\right)$<br />(2) Direction cosines are $\\left(\\frac{3}{\\sqrt{29}},\\frac{-4}{\\sqrt{29}},\\frac{2}{\\sqrt{29}}\\right)$<br />(3) The joining line is parallel to normal $(3,-4,2)$, hence perpendicular to the plane<br />(4) This is used for accurate reflection in ray tracing",
+    "B": "(1) Reflected image is $L'\\left(\\frac{236}{29},\\frac{36}{29},\\frac{11}{29}\\right)$<br />(2) Direction cosines are $\\left(\\frac{2}{\\sqrt{29}},\\frac{-4}{\\sqrt{29}},\\frac{3}{\\sqrt{29}}\\right)$<br />(3) The line is parallel to the plane<br />(4) This gives diffuse lighting only",
+    "C": "(1) Reflected image is $L'\\left(\\frac{204}{29},\\frac{76}{29},\\frac{-9}{29}\\right)$<br />(2) Direction cosines are $\\left(\\frac{3}{\\sqrt{29}},\\frac{-4}{\\sqrt{29}},\\frac{2}{\\sqrt{29}}\\right)$<br />(3) The line lies in the plane<br />(4) This gives only the foot of perpendicular",
+    "D": "(1) Reflected image is $L'(6,4,-1)$<br />(2) Direction cosines are $(0,0,0)$<br />(3) The line is undefined<br />(4) Reflection does not change the source point"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:42:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

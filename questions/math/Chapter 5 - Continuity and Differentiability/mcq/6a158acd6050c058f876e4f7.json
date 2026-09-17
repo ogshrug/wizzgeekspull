@@ -1,0 +1,29 @@
+{
+  "id": "6a158acd6050c058f876e4f7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "The number of discontinuities of the function $f$ given by $f(x)=\\begin{cases}x+2,&\\text{if }x<0\\\\e^{x},&\\text{if }0\\le x\\le1\\\\2-x,&\\text{if }x>1\\end{cases}$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1: Identify possible points of discontinuity**<br />The individual functions ($x+2$, $e^x$, and $2-x$) are continuous everywhere on their given open sub-intervals. Therefore, we only need to test continuity at the transition boundary points: $x = 0$ and $x = 1$.<br /><br />**Step 2: Test continuity at boundary point $x = 0$**<br />- Left-hand limit (LHL): $\\lim_{x \\to 0^-} f(x) = \\lim_{x \\to 0} (x+2) = 2$.<br />- Right-hand limit (RHL): $\\lim_{x \\to 0^+} f(x) = \\lim_{x \\to 0} (e^x) = e^0 = 1$.<br />Since $\\text{LHL} \\neq \\text{RHL}$ at $x = 0$, the function is discontinuous here. This is our first point of discontinuity.<br /><br />**Step 3: Test continuity at boundary point $x = 1$**<br />- Left-hand limit (LHL): $\\lim_{x \\to 1^-} f(x) = \\lim_{x \\to 1} (e^x) = e^1 = e$.<br />- Right-hand limit (RHL): $\\lim_{x \\to 1^+} f(x) = \\lim_{x \\to 1} (2-x) = 2 - 1 = 1$.<br />Since $\\text{LHL} \\neq \\text{RHL}$ at $x = 1$, the function is discontinuous here as well. This gives us our second point of discontinuity.<br /><br />**Step 4: Count the total number of discontinuities**<br />The function has exactly 2 points of discontinuity ($x=0$ and $x=1$). This matches Option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

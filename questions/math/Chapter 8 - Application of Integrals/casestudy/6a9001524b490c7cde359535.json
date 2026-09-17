@@ -1,0 +1,30 @@
+{
+  "id": "6a9001524b490c7cde359535",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A decorative panel has its upper boundary represented by $y=1+\\cos x$ for $0\\leq x\\leq\\pi$, while its lower boundary lies along the $x$-axis. A vertical divider is installed at $x=\\frac{\\pi}{2}$, separating the panel into left and right sections. The design team observes that the boundary decreases continuously across the interval and wants to determine how this affects the distribution of material. Definite integration is used to calculate and compare the two sections.(a) Find the heights of the panel at $x=0$, $x=\\frac{\\pi}{2}$ and $x=\\pi$.(b) Calculate the total area of the panel.(c) Determine the area of the left section.(d) Calculate the area of the right section and determine how much larger the left section is.",
+  "answeroption": "B",
+  "explanation": "(a)The required heights are`y(0)=1+\\cos0=2y\\left(\\frac{\\pi}{2}\\right)=1+\\cos\\frac{\\pi}{2}=1y(\\pi)=1+\\cos\\pi=0`Thus, the heights are $2$, $1$ and $0$ units, respectively.(b)The total area is`A=\\int_0^{\\pi}\\left(1+\\cos x\\right)dxA=\\left[x+\\sin x\\right]_0^{\\pi}=\\pi`Hence, the total area is $\\pi$ square units.(c)The left-section area is`A_L=\\int_0^{\\frac{\\pi}{2}}\\left(1+\\cos x\\right)dxA_L=\\left[x+\\sin x\\right]_0^{\\frac{\\pi}{2}}=\\frac{\\pi}{2}+1`Thus, the left-section area is $\\frac{\\pi}{2}+1$ square units.(d)The right-section area is`A_R=A-A_LA_R=\\pi-\\left(\\frac{\\pi}{2}+1\\right)=\\frac{\\pi}{2}-1`The difference between the areas is`A_L-A_R=\\left(\\frac{\\pi}{2}+1\\right)-\\left(\\frac{\\pi}{2}-1\\right)=2`Hence, the left section is larger than the right section by $2$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Heights $2,1,0$<br>(b) Total area $=\\pi$<br>(c) Left area $=\\frac{\\pi}{2}-1$<br>(d) Right area $=\\frac{\\pi}{2}+1$; right larger by $2$",
+    "B": "(a) Heights $2,1,0$<br>(b) Total area $=\\pi$<br>(c) Left area $=\\frac{\\pi}{2}+1$<br>(d) Right area $=\\frac{\\pi}{2}-1$; left larger by $2$",
+    "C": "(a) Heights $1,1,0$<br>(b) Total area $=\\pi$<br>(c) Left area $=\\frac{\\pi}{2}+1$<br>(d) Right area $=\\frac{\\pi}{2}-1$; left larger by $2$",
+    "D": "(a) Heights $2,1,0$<br>(b) Total area $=2\\pi$<br>(c) Left area $=\\pi+1$<br>(d) Right area $=\\pi-1$; left larger by $2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fcd944b490c7cde359502",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f988"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom investigation on inverse operations, students study a differentiable function $F(x)$ whose derivative is known but whose original form is not. They are given $F'(x)=6x^2-4x+3$. The teacher explains that many functions may have the same derivative because adding a constant does not affect differentiation. To select one particular member from this family, an additional condition is provided: $F(0)=5$. The students are asked to recover the function using the inverse relationship between differentiation and integration and then confirm that their result is consistent with the given derivative.<br><br><b>(a)</b> Identify the mathematical process required to recover $F(x)$ from $F'(x)$.<br><br><b>(b)</b> Find the general form of $F(x)$.<br><br><b>(c)</b> Determine the particular function $F(x)$ satisfying $F(0)=5$.<br><br><b>(d)</b> Verify by differentiation that the function obtained in part (c) satisfies the given derivative.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Since $F'(x)$ is given and the original function is required, integration is used as the inverse process of differentiation. Thus, $$F(x)=\\int F'(x)\\,dx$$<br><br><b>(b)</b><br>We have $$F(x)=\\int(6x^2-4x+3)\\,dx$$ Using the linearity of integration, $$F(x)=6\\int x^2\\,dx-4\\int x\\,dx+3\\int dx$$ Therefore, $$F(x)=2x^3-2x^2+3x+C$$ where $C$ is the constant of integration.<br><br><b>(c)</b><br>Using $F(0)=5$, $$5=2(0)^3-2(0)^2+3(0)+C$$ Hence, $C=5$. Therefore, $$F(x)=2x^3-2x^2+3x+5$$ The additional condition fixes one particular member of the family of antiderivatives.<br><br><b>(d)</b><br>Differentiating the obtained function, $$\\frac{d}{dx}(2x^3-2x^2+3x+5)=6x^2-4x+3$$ This is exactly the given $F'(x)$. Hence, the result is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Differentiation<br>(b) $F(x)=2x^3-2x^2+3x+C$<br>(c) $F(x)=2x^3-2x^2+3x+5$<br>(d) Differentiation gives $6x^2-4x+3$",
+    "B": "(a) Integration<br>(b) $F(x)=2x^3-2x^2+3x+C$<br>(c) $F(x)=2x^3-2x^2+3x+5$<br>(d) Differentiation gives $6x^2-4x+3$",
+    "C": "(a) Integration<br>(b) $F(x)=6x^3-2x^2+3x+C$<br>(c) $F(x)=6x^3-2x^2+3x+5$<br>(d) Differentiation gives $18x^2-4x+3$",
+    "D": "(a) Integration<br>(b) $F(x)=2x^3-4x^2+3x+C$<br>(c) $F(x)=2x^3-4x^2+3x+5$<br>(d) Differentiation gives $6x^2-8x+3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

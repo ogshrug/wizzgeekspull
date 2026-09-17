@@ -1,0 +1,27 @@
+{
+  "id": "6a2fbbe5b51101141dc0dc8f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "SA",
+  "question": "Find the co-ordinates of the point on the line $\\frac{x+2}{3}=\\frac{y+1}{2}=\\frac{z-3}{2}$ which is at a distance of 5 units from the point (1, 3, 3).",
+  "answeroption": "",
+  "explanation": "**Step 1:** Write the general coordinates of a point on the given line by setting the equation equal to a constant $\\lambda$: $\\frac{x+2}{3}=\\frac{y+1}{2}=\\frac{z-3}{2}=\\lambda$.<br />**Step 2:** The coordinates of any general point $P$ on the line are $x = 3\\lambda - 2$, $y = 2\\lambda - 1$, $z = 2\\lambda + 3$, giving $P(3\\lambda-2, 2\\lambda-1, 2\\lambda+3)$.<br />**Step 3:** The distance from point $A(1, 3, 3)$ to point $P$ is given as 5. Using the 3D distance formula: $\\sqrt{(3\\lambda-2 - 1)^2 + (2\\lambda-1 - 3)^2 + (2\\lambda+3 - 3)^2} = 5$.<br />**Step 4:** Simplify the expression inside the square root: $\\sqrt{(3\\lambda-3)^2 + (2\\lambda-4)^2 + (2\\lambda)^2} = 5$.<br />**Step 5:** Square both sides to remove the root: $(3\\lambda-3)^2 + (2\\lambda-4)^2 + 4\\lambda^2 = 25$.<br />**Step 6:** Expand the squares: $(9\\lambda^2 - 18\\lambda + 9) + (4\\lambda^2 - 16\\lambda + 16) + 4\\lambda^2 = 25$.<br />**Step 7:** Combine like terms: $17\\lambda^2 - 34\\lambda + 25 = 25$, which simplifies to $17\\lambda^2 - 34\\lambda = 0$. Factoring out $17\\lambda$ gives $17\\lambda(\\lambda - 2) = 0$.<br />**Step 8:** Thus, $\\lambda = 0$ or $\\lambda = 2$. If $\\lambda = 0$, $P(-2, -1, 3)$. If $\\lambda = 2$, $P(3(2)-2, 2(2)-1, 2(2)+3) = (4, 3, 7)$. Both points are valid.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

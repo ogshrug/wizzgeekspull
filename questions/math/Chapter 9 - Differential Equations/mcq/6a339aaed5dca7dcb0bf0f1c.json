@@ -1,0 +1,32 @@
+{
+  "id": "6a339aaed5dca7dcb0bf0f1c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "MCQ",
+  "question": "The integrating factor of the differential equation $x\\frac{dy}{dx}-y=x^{4}-3x$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Express the differential equation in standard linear form $\\frac{dy}{dx} + Py = Q$ by dividing by $x$: $\\frac{dy}{dx} - \\frac{1}{x}y = x^3 - 3$.\n\n**Step 2:** Identify $P(x)$ from the standard form: $P(x) = -\\frac{1}{x}$.\n\n**Step 3:** Use the integrating factor formula $I.F. = e^{\\int P(x)dx}$: $I.F. = e^{\\int -\\frac{1}{x}dx}$.\n\n**Step 4:** Evaluate the integral to find the I.F.: $e^{-\\log x} = e^{\\log x^{-1}} = x^{-1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x$",
+    "B": "$-x$",
+    "C": "$x^{-1}$",
+    "D": "$\\log(x^{-1})$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

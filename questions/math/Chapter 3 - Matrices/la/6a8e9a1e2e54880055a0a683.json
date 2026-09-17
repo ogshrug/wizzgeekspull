@@ -1,0 +1,32 @@
+{
+  "id": "6a8e9a1e2e54880055a0a683",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d4e",
+    "69c65fbf40512f018fa94d4f",
+    "69c65fbf40512f018fa94d50",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "LA",
+  "question": "A matrix $A$ has $2$ rows and $8$ elements. Its entries, read row-wise, are $1,2,0,-1,3,1,2,0$. Determine the order of $A$, write it in matrix form, and then calculate $AB$ for $$B=\\begin{bmatrix}1&0&2\\\\2&1&-1\\\\0&3&1\\\\1&2&0\\end{bmatrix},$$ justifying that the multiplication is defined and stating the order of the resulting matrix.",
+  "answeroption": "D",
+  "explanation": "<b>Determination of Order</b><br><br>If $A$ has $2$ rows and $n$ columns, then the number of elements is $2n$. Since $A$ contains $8$ elements, $2n=8$, giving $n=4$. Therefore, the order of $A$ is $2\\times4$. Reading the given entries row-wise, $$A=\\begin{bmatrix}1&2&0&-1\\\\3&1&2&0\\end{bmatrix}$$ The matrix $B$ has order $4\\times3$. Since the number of columns of $A$ is $4$, which equals the number of rows of $B$, the product $AB$ is defined and will have order $2\\times3$.<br><br><b>Evaluation</b><br><br>Now, $$AB=\\begin{bmatrix}1&2&0&-1\\\\3&1&2&0\\end{bmatrix}\\begin{bmatrix}1&0&2\\\\2&1&-1\\\\0&3&1\\\\1&2&0\\end{bmatrix}$$ The entries of the first row are $1(1)+2(2)+0(0)-1(1)=4$, $1(0)+2(1)+0(3)-1(2)=0$ and $1(2)+2(-1)+0(1)-1(0)=0$. The entries of the second row are $3(1)+1(2)+2(0)+0(1)=5$, $3(0)+1(1)+2(3)+0(2)=7$ and $3(2)+1(-1)+2(1)+0(0)=7$. Hence, $$AB=\\begin{bmatrix}4&0&0\\\\5&7&7\\end{bmatrix}$$ Therefore, $A$ is of order $2\\times4$, the multiplication $AB$ is defined, and the product is a matrix of order $2\\times3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A=\\begin{bmatrix}1&2&0&-1\\\\3&1&2&0\\end{bmatrix}$ and $AB=\\begin{bmatrix}4&0&0\\\\5&7&5\\end{bmatrix}$, of order $2\\times3$",
+    "B": "$A=\\begin{bmatrix}1&2&0&-1\\\\3&1&2&0\\end{bmatrix}$ and $AB=\\begin{bmatrix}4&0&0\\\\5&5&7\\end{bmatrix}$, of order $2\\times3$",
+    "C": "$A=\\begin{bmatrix}1&2&0&-1\\\\3&1&2&0\\end{bmatrix}$ and $AB=\\begin{bmatrix}5&0&0\\\\5&7&7\\end{bmatrix}$, of order $2\\times3$",
+    "D": "$A=\\begin{bmatrix}1&2&0&-1\\\\3&1&2&0\\end{bmatrix}$ and $AB=\\begin{bmatrix}4&0&0\\\\5&7&7\\end{bmatrix}$, of order $2\\times3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

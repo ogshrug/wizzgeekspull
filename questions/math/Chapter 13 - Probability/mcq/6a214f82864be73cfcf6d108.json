@@ -1,0 +1,33 @@
+{
+  "id": "6a214f82864be73cfcf6d108",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "MCQ",
+  "question": "For two events A and B such that $P(A)\\ne0$ and $P(B)\\ne1$, $P(A^{\\prime}/B^{\\prime})=$",
+  "answeroption": "D",
+  "explanation": "**Step 1:** By the definition of conditional probability, $P(A^{\\prime}/B^{\\prime}) = \\frac{P(A^{\\prime} \\cap B^{\\prime})}{P(B^{\\prime})}$.<br /><br />**Step 2:** According to De Morgan's Laws in set theory and probability, the intersection of two complements $(A^{\\prime} \\cap B^{\\prime})$ is exactly equal to the complement of their union, $(A \\cup B)^{\\prime}$.<br /><br />**Step 3:** The probability of a complement is $P((A \\cup B)^{\\prime}) = 1 - P(A \\cup B)$.<br /><br />**Step 4:** Substituting this back into our original fraction, we arrive at $P(A^{\\prime}/B^{\\prime}) = \\frac{1 - P(A \\cup B)}{P(B^{\\prime})}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1-P(A/B)$",
+    "B": "$1-P(A^{\\prime}/B)$",
+    "C": "$\\frac{1-P(A\\cap B)}{P(B^{\\prime})}$",
+    "D": "$\\frac{1-P(A\\cup B)}{P(B^{\\prime})}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

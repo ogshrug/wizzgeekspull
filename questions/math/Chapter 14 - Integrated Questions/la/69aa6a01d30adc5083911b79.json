@@ -1,0 +1,30 @@
+{
+  "id": "69aa6a01d30adc5083911b79",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c6610140512f018fa94d7e"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\sin^{-1}\\frac{2x}{1 + x^2}$ and $g(x) = \\tan^{-1}x$, $x \\in (-1,1)$.<br /><br />(a) Prove that $f(x) = 2g(x)$.<br /><br />(b) Find $\\frac{df}{dx}$ and $\\frac{dg}{dx}$.<br /><br />(c) For which $x$ does $\\frac{df}{dx} = 2 \\frac{dg}{dx}$?<br /><br />(d) Discuss the geometric significance of your result in terms of double-angle formulas and graphs.",
+  "answeroption": "B",
+  "explanation": "**Concepts Tested:**<br />- Inverse trigonometric function identities<br />- Differentiation (Continuity & Differentiability)<br />- Geometric interpretation (Functions, Graphs)<br /><br />(a) Prove $f(x) = 2g(x)$<br />Let $x = \\tan \\theta$, $\\theta \\in (-\\frac{\\pi}{4}, \\frac{\\pi}{4})$<br />Then $\\frac{2x}{1+x^2} = \\sin 2\\theta$<br />Thus $f(x) = \\sin^{-1}(\\sin 2\\theta) = 2\\theta = 2\\tan^{-1}x$<br /><br />(b) Derivatives:<br />$\\frac{dg}{dx} = \\frac{1}{1+x^2}$<br />$\\frac{df}{dx} = \\frac{2}{1 + x^2}$<br /><br />(c) $\\frac{df}{dx} = 2 \\frac{dg}{dx}$ for all $x \\in (-1,1)$<br />Thus holds identically on $(-1,1)$<br /><br />(d) Geometric significance:<br />The double-angle formula for tangent: $\\tan 2\\theta = \\frac{2\\tan\\theta}{1-\\tan^2\\theta}$. Here the connection between $\\sin^{-1}\\frac{2x}{1+x^2}$ and $2\\tan^{-1} x$ is that both are measuring twice the tangent angle, so their graphs are scaled versions of each other and their derivatives relate by a factor of 2.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=g(x)$<br />(b) $\\frac{df}{dx}=\\frac{1}{1+x^2}$ and $\\frac{dg}{dx}=\\frac{1}{1+x^2}$<br />(c) The equality holds only at $x=0$<br />(d) The two graphs are identical",
+    "B": "(a) $f(x)=2g(x)=2\\tan^{-1}x$<br />(b) $\\frac{df}{dx}=\\frac{2}{1+x^2}$ and $\\frac{dg}{dx}=\\frac{1}{1+x^2}$<br />(c) $\\frac{df}{dx}=2\\frac{dg}{dx}$ for all $x\\in(-1,1)$<br />(d) This shows the double-angle relation; the graph of $f$ is a vertical scaling of the graph of $g$ by factor $2$",
+    "C": "(a) $f(x)=\\frac12g(x)$<br />(b) $\\frac{df}{dx}=\\frac{1}{2(1+x^2)}$ and $\\frac{dg}{dx}=\\frac{1}{1+x^2}$<br />(c) The equality never holds<br />(d) The graphs are reciprocal",
+    "D": "(a) $f(x)=-2g(x)$<br />(b) $\\frac{df}{dx}=-\\frac{2}{1+x^2}$ and $\\frac{dg}{dx}=\\frac{1}{1+x^2}$<br />(c) The equality holds only for negative $x$<br />(d) The graphs are mirror images about the $x$-axis"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:45:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

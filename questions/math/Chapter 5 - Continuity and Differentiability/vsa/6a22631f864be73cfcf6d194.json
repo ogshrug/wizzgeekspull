@@ -1,0 +1,28 @@
+{
+  "id": "6a22631f864be73cfcf6d194",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "VSA",
+  "question": "If $x=e^{\\frac{x}{y}}$, then prove that $\\frac{dy}{dx}=\\frac{x-y}{x \\log x}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Start by taking the natural logarithm on both sides of the given equation to eliminate the exponential function: $\\log x = \\log(e^{\\frac{x}{y}})$. This simplifies to $\\log x = \\frac{x}{y}$.<br />**Step 2:** Rearrange the equation to avoid applying the quotient rule directly. Multiply both sides by $y$ to get $y \\log x = x$.<br />**Step 3:** Differentiate both sides implicitly with respect to $x$. Use the product rule on the left side: $y \\cdot \\frac{d}{dx}(\\log x) + \\log x \\cdot \\frac{dy}{dx} = \\frac{d}{dx}(x)$.<br />**Step 4:** This gives $y \\cdot \\frac{1}{x} + \\log x \\cdot \\frac{dy}{dx} = 1$.<br />**Step 5:** Isolate the term containing the derivative: $\\log x \\cdot \\frac{dy}{dx} = 1 - \\frac{y}{x}$.<br />**Step 6:** Simplify the right side by finding a common denominator: $\\log x \\cdot \\frac{dy}{dx} = \\frac{x - y}{x}$.<br />**Step 7:** Finally, divide by $\\log x$ to solve for $\\frac{dy}{dx}$: $\\frac{dy}{dx} = \\frac{x-y}{x \\log x}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

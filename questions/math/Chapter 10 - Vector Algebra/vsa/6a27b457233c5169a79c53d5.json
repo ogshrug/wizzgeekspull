@@ -1,0 +1,26 @@
+{
+  "id": "6a27b457233c5169a79c53d5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "VSA",
+  "question": "Using vectors, find the area of $\\Delta ABC$ with vertices $A(1,2,3)$, $B(2,-1,4)$ and $C(4,5,-1)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Determine the adjacent side vectors from vertex $A$:<br />$\\vec{AB}=(2-1)\\hat{i}+(-1-2)\\hat{j}+(4-3)\\hat{k}=\\hat{i}-3\\hat{j}+\\hat{k}$,<br />$\\vec{AC}=(4-1)\\hat{i}+(5-2)\\hat{j}+(-1-3)\\hat{k}=3\\hat{i}+3\\hat{j}-4\\hat{k}$.<br /><br />**Step 2:** Find the cross product:<br />$\\vec{AB}\\times\\vec{AC}=\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&-3&1\\\\3&3&-4\\end{vmatrix}$<br />$=(12-3)\\hat{i}-(-4-3)\\hat{j}+(3+9)\\hat{k}$<br />$=9\\hat{i}+7\\hat{j}+12\\hat{k}$.<br /><br />**Step 3:** Calculate its magnitude:<br />$|\\vec{AB}\\times\\vec{AC}|=\\sqrt{9^2+7^2+12^2}=\\sqrt{274}$.<br /><br />Therefore, the area of the triangle is<br />$\\text{Area}=\\frac{1}{2}|\\vec{AB}\\times\\vec{AC}|=\\boxed{\\frac{\\sqrt{274}}{2}}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

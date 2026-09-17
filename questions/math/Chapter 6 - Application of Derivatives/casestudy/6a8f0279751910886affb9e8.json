@@ -1,0 +1,32 @@
+{
+  "id": "6a8f0279751910886affb9e8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978",
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Students investigate the function $f(x)=\\ln x-\\frac{x}{2}$, defined for positive real values of $x$. They use its first derivative to determine how the function changes throughout its domain. Since the derivative contains a rational expression, they examine its sign on the intervals separated by the value at which it becomes zero. The sign change is then used to classify the critical point and calculate the corresponding function value.(a) State the domain and obtain $f'(x)$.(b) Determine the critical point of the function.(c) Find the intervals on which the function is increasing and decreasing.(d) Classify the critical point and calculate the corresponding local extreme value.",
+  "answeroption": "A",
+  "explanation": "(a)Since $\\ln x$ is defined only for $x>0$, the domain is`(0,\\infty)`Differentiating,`f'(x)=\\frac{1}{x}-\\frac{1}{2}f'(x)=\\frac{2-x}{2x}`(b)The derivative is zero when`2-x=0`Therefore,`x=2`Since $2$ belongs to the domain, it is the critical point.(c)For $0\\<x<2$, both $2-x$ and $2x$ are positive, so $f'(x)>0$. Hence, the function is increasing on`(0,2)`For $x>2$, $2-x<0$ while $2x>0$, so $f'(x)<0$. Hence, the function is decreasing on`(2,\\infty)`(d)At $x=2$, the derivative changes from positive to negative. Therefore, $x=2$ is a point of local maximum. The corresponding value is`f(2)=\\ln2-\\frac{2}{2}f(2)=\\ln2-1`Thus, the local maximum value is $\\ln2-1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain $(0,\\infty)$, $f'(x)=\\frac{2-x}{2x}$<br>(b) Critical point $x=2$<br>(c) Increasing on $(0,2)$ and decreasing on $(2,\\infty)$<br>(d) Local maximum at $x=2$ with value $\\ln2-1$",
+    "B": "(a) Domain $\\mathbb{R}$, $f'(x)=\\frac{x-2}{2x}$<br>(b) Critical point $x=2$<br>(c) Decreasing on $(0,2)$ and increasing on $(2,\\infty)$<br>(d) Local minimum value $\\ln2-1$",
+    "C": "(a) Domain $(0,\\infty)$, $f'(x)=\\frac{2+x}{2x}$<br>(b) No critical point<br>(c) Increasing on $(0,\\infty)$<br>(d) No local extremum",
+    "D": "(a) Domain $[0,\\infty)$, $f'(x)=\\frac{1}{x}-2$<br>(b) Critical point $x=\\frac{1}{2}$<br>(c) Increasing on $\\left(0,\\frac{1}{2}\\right)$ and decreasing afterwards<br>(d) Local maximum value $\\ln\\frac{1}{2}-\\frac{1}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

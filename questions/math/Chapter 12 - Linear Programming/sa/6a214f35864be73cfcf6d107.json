@@ -1,0 +1,28 @@
+{
+  "id": "6a214f35864be73cfcf6d107",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically:<br /><br />Maximize $Z=10500x+9000y$<br /><br />Subject to constraints<br /><br />$x+y\\le50$<br />$2x+y\\le80$<br />$x, y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Graph the constraint lines by finding their axes intercepts. For $x + y = 50$, the points are $(50,0)$ and $(0,50)$. For $2x + y = 80$, the points are $(40,0)$ and $(0,80)$.<br /><br />**Step 2:** Since both inequalities are '$\\le$' and variables are non-negative, the feasible region is bounded by the axes and lies closer to the origin.<br /><br />**Step 3:** Identify the corner points of the bounded feasible region. They are $(0,0)$, $(40,0)$, $(0,50)$, and the point of intersection of the two lines.<br /><br />**Step 4:** Solve the system $x+y=50$ and $2x+y=80$ to find the intersection. Subtracting the first from the second gives $x=30$. Substituting back gives $y=20$. The intersection is $(30,20)$.<br /><br />**Step 5:** Evaluate the objective function $Z = 10500x + 9000y$ at each corner point. At $(0,0)$, $Z=0$. At $(40,0)$, $Z = 10500(40) = 420000$.<br /><br />**Step 6:** At $(0,50)$, $Z = 9000(50) = 450000$. At $(30,20)$, $Z = 10500(30) + 9000(20) = 315000 + 180000 = 495000$.<br /><br />**Step 7:** Comparing all evaluated values, the maximum value of $Z$ is $495000$, which occurs precisely at $x=30$ and $y=20$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

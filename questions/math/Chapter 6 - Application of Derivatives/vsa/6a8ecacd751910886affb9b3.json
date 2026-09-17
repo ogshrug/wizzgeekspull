@@ -1,0 +1,29 @@
+{
+  "id": "6a8ecacd751910886affb9b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "VSA",
+  "question": "The length of a rectangular sheet decreases at $2$ cm/min, while its width increases at $1.5$ cm/min. Find the rate of change of its area when its length is $12$ cm and width is $8$ cm.",
+  "answeroption": "B",
+  "explanation": "Step 1: Let the length be $x$, the width be $y$ and the area be $A$. Then $A=xy$.Step 2: Since the length decreases and the width increases, $$\\frac{dx}{dt}=-2,\\qquad \\frac{dy}{dt}=1.5$$Step 3: Differentiate $A=xy$ with respect to time: $$\\frac{dA}{dt}=x\\frac{dy}{dt}+y\\frac{dx}{dt}$$Step 4: Substitute $x=12$ and $y=8$: $$\\frac{dA}{dt}=12(1.5)+8(-2)$$Step 5: Hence, $\\frac{dA}{dt}=18-16=2$ cm$^2$/min. Therefore, the area is increasing at $2$ cm$^2$/min.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-2$ cm$^2$/min",
+    "B": "$2$ cm$^2$/min",
+    "C": "$18$ cm$^2$/min",
+    "D": "$34$ cm$^2$/min"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a226614864be73cfcf6d1ca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the values of $x$ for which $f(x)=\\frac{x-4}{x+1}$, $x\\ne-1$ is an increasing or a decreasing function.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find the first derivative of the function using the quotient rule. $f^{\\prime}(x) = \\frac{1(x+1) - 1(x-4)}{(x+1)^2}$.<br />**Step 2:** Simplify the numerator: $x + 1 - x + 4 = 5$. So, $f^{\\prime}(x) = \\frac{5}{(x+1)^2}$.<br />**Step 3:** Analyze the sign of the derivative. The numerator is a positive constant (5). The denominator is a squared expression, $(x+1)^2$, which is strictly positive for all real numbers except $x=-1$, where it is undefined.<br />**Step 4:** Since a positive divided by a positive is always positive, $f^{\\prime}(x) > 0$ for all $x \\in \\mathbb{R} - \\{-1\\}$.<br />**Step 5:** Because the first derivative is strictly greater than zero over its entire domain, the function is exclusively an increasing function everywhere it is defined. It never decreases.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9a8f6589ce36f368b4858",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): $\\int_{0}^{a} f(x) dx = \\int_{0}^{a} f(a-x) dx$ for any continuous function $f(x)$ defined on $[0, a]$.<br /><br />Reason (R): If $f(a-x) = f(x)$ for all $x$ in $[0, a]$, then $f(x)$ is an even function about $x=a/2$.",
+  "answeroption": "B",
+  "explanation": "The identity $\\int_{0}^{a} f(x)dx = \\int_{0}^{a} f(a-x)dx$ holds for any continuous function using substitution.<br /><br />If we substitute $x=a-t$, the limits remain the same and the integrals become identical.<br /><br />The reason states that if $f(a-x)=f(x)$ then the function is symmetric about $x=a/2$. This statement is true.<br /><br />However, the assertion holds even without this symmetry condition. Hence the reason does not explain the assertion.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:01:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

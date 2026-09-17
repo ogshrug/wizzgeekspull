@@ -1,0 +1,31 @@
+{
+  "id": "69a9898162be6a70cd184ddc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43",
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Consider the set $S = \\mathbb{Z}_n$ (integers modulo $n$).<br /><br />(a) Define a relation $R$ on $S$ by $a R b$ if and only if $a^k \\,\\equiv\\, b^k\\pmod n$ for fixed $k \\geq 2$. Prove $R$ is an equivalence relation.<br /><br />(b) Describe the equivalence classes of $R$ when $n=6$ and $k=2$.<br /><br />(c) For $n=6$ and $k=2$, construct a function $f: S \\to S$ such that $f(a) = a^2 \\pmod{6}$. Determine whether $f$ is one-one, onto, or bijective. Justify.",
+  "answeroption": "A",
+  "explanation": "(a) Reflexive: For every $a$, $a^k \\equiv a^k \\pmod n$, so $aRa$.<br /><br />Symmetric: If $aRb$, then $a^k \\equiv b^k \\pmod n$, hence $b^k \\equiv a^k \\pmod n$, so $bRa$.<br /><br />Transitive: If $aRb$ and $bRc$, then $a^k \\equiv b^k$ and $b^k \\equiv c^k \\pmod n$. Therefore $a^k \\equiv c^k \\pmod n$, so $aRc$.<br /><br />Hence $R$ is an equivalence relation.<br /><br />(b) For $n=6$, $S=\\{0,1,2,3,4,5\\}$.<br /><br />Squares modulo 6: $0^2=0$, $1^2=1$, $2^2=4$, $3^2=3$, $4^2=4$, $5^2=1$.<br /><br />Thus equivalence classes are $\\{0\\}$, $\\{1,5\\}$, $\\{2,4\\}$, $\\{3\\}$.<br /><br />(c) Define $f(a)=a^2 \\pmod 6$. Mapping: $0\\to0$, $1\\to1$, $2\\to4$, $3\\to3$, $4\\to4$, $5\\to1$.<br /><br />Not one-one because $f(1)=f(5)=1$ and $f(2)=f(4)=4$.<br /><br />Not onto because the image set is $\\{0,1,3,4\\}$ and elements $2,5$ are not images.<br /><br />Hence $f$ is neither one-one nor onto, therefore not bijective.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R$ is an equivalence relation.<br> (b) For $n=6,k=2$, the equivalence classes are $\\{0\\}$, $\\{1,5\\}$, $\\{2,4\\}$ and $\\{3\\}$. <br>(c) $f(a)=a^2\\pmod 6$ maps $0\\to0$, $1\\to1$, $2\\to4$, $3\\to3$, $4\\to4$, $5\\to1$; hence $f$ is neither one-one nor onto, so it is not bijective.",
+    "B": "(a) $R$ is not an equivalence relation.<br> (b) For $n=6,k=2$, the equivalence classes are $\\{0,1\\}$, $\\{2,3\\}$ and $\\{4,5\\}$. <br>(c) $f$ is one-one but not onto.",
+    "C": "(a) $R$ is an equivalence relation. <br>(b) For $n=6,k=2$, the equivalence classes are $\\{0,3\\}$, $\\{1,2\\}$ and $\\{4,5\\}$.<br> (c) $f$ is onto but not one-one.",
+    "D": "(a) $R$ is reflexive only, not symmetric or transitive.<br> (b) No equivalence classes exist.<br> (c) $f$ is bijective."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:47:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

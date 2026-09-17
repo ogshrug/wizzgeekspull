@@ -1,0 +1,29 @@
+{
+  "id": "69a92dd7589ce36f368b477b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Let $y = \\sin^{-1} \\left(\\frac{2x}{1+x^2}\\right)$, where $x \\in (-1,1)$. Show that $y = 2\\tan^{-1} x$. Then, for $x = \\frac{1}{2}$, compute $\\sin(2\\tan^{-1} x)$, $\\cos(2\\tan^{-1} x)$, and $\\tan(2\\tan^{-1} x)$, and confirm all values satisfy standard trigonometric identities.",
+  "answeroption": "C",
+  "explanation": "Let $y = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$.<br /><br />Let $\\theta = \\tan^{-1}x$ where $\\theta \\in \\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$.<br /><br />Then $\\tan\\theta = x$. Hence $\\sin\\theta = \\frac{x}{\\sqrt{1+x^2}}$ and $\\cos\\theta = \\frac{1}{\\sqrt{1+x^2}}$.<br /><br />Now $\\sin2\\theta = 2\\sin\\theta\\cos\\theta = 2\\cdot \\frac{x}{\\sqrt{1+x^2}} \\cdot \\frac{1}{\\sqrt{1+x^2}} = \\frac{2x}{1+x^2}$.<br /><br />Thus $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right) = 2\\tan^{-1}x$. Hence $y=2\\tan^{-1}x$.<br /><br />For $x=\\frac12$:<br /><br />$\\sin(2\\tan^{-1}x)=\\frac{2x}{1+x^2}=\\frac{1}{1.25}=0.8$.<br /><br />$\\cos(2\\tan^{-1}x)=\\frac{1-x^2}{1+x^2}=\\frac{0.75}{1.25}=0.6$.<br /><br />$\\tan(2\\tan^{-1}x)=\\frac{2x}{1-x^2}=\\frac{1}{0.75}=1.333...$.<br /><br />Verification: $\\sin^2+\\cos^2=0.64+0.36=1$. Identity holds.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\tan^{-1}x$; for $x=\\frac12$, $\\sin=\\frac{1}{2}$, $\\cos=\\frac{1}{2}$, $\\tan=1$.",
+    "B": "$y=2\\cos^{-1}x$; for $x=\\frac12$, $\\sin=\\frac{3}{5}$, $\\cos=\\frac{4}{5}$, $\\tan=\\frac{3}{4}$.",
+    "C": "$y=2\\tan^{-1}x$; for $x=\\frac12$, $\\sin=\\frac{4}{5}$, $\\cos=\\frac{3}{5}$, $\\tan=\\frac{4}{3}$, and $\\sin^2+\\cos^2=1$.",
+    "D": "$y=\\sin^{-1}x$; for $x=\\frac12$, $\\sin=\\frac{1}{5}$, $\\cos=\\frac{2}{5}$, $\\tan=\\frac{1}{2}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:16:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

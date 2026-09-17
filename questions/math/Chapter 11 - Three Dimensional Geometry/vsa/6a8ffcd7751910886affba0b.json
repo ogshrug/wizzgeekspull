@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffcd7751910886affba0b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d0"
+  ],
+  "question_type": "VSA",
+  "question": "Consider the lines $\\vec{r}=(\\hat{i}+\\hat{k})+\\lambda(\\hat{i}+\\hat{j})$ and $\\vec{r}=(\\hat{j}+2\\hat{k})+\\mu(\\hat{i}-\\hat{j}+\\hat{k})$. Examine whether the two lines are skew.",
+  "answeroption": "A",
+  "explanation": "Step 1: The direction vectors of the lines are $\\vec{b_1}=\\hat{i}+\\hat{j}$ and $\\vec{b_2}=\\hat{i}-\\hat{j}+\\hat{k}$. Their components $(1,1,0)$ and $(1,-1,1)$ are not proportional, so the lines are not parallel. Step 2: For intersection, equate corresponding coordinates. From the two equations, $1+\\lambda=\\mu$, $\\lambda=1-\\mu$ and $1=2+\\mu$. Step 3: The third relation gives $\\mu=-1$. Step 4: The first relation then gives $\\lambda=-2$, whereas the second gives $\\lambda=2$. These values are inconsistent. Step 5: Hence, the lines neither intersect nor are parallel. Therefore, they are skew lines.",
+  "explanation_image": [],
+  "options": {
+    "A": "The lines are skew because they are non-parallel and do not intersect.",
+    "B": "The lines intersect at a unique point.",
+    "C": "The lines are parallel and distinct.",
+    "D": "The lines are coincident."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

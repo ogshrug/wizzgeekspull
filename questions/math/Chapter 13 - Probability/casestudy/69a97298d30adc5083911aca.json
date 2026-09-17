@@ -1,0 +1,30 @@
+{
+  "id": "69a97298d30adc5083911aca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7",
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A game show offers contestants a choice between two mystery boxes, X and Y. Box X contains 4 prizes and 6 blanks; box Y contains 3 prizes and 7 blanks. A contestant chooses a box at random and draws a slip at random from it.\n\n(a) What is the probability that the contestant gets a prize?\n(b) If the contestant gets a blank, what is the probability it came from Box Y?\n(c) If prize count in box Y is increased by 2, how does the overall winning probability change?",
+  "answeroption": "C",
+  "explanation": "Let $E_X$ = choosing box X, $E_Y$ = Box Y, $P$ = getting a prize, $B$ = getting a blank.<br />$P(E_X) = P(E_Y) = 0.5$<br />$P(P|E_X) = 4/10$, $P(P|E_Y) = 3/10$<br /><br />(a) $P(P) = 0.5 \\times \\frac{4}{10} + 0.5 \\times \\frac{3}{10} = 0.2 + 0.15 = 0.35$<br /><br />(b) $P(B|E_X) = 0.6, P(B|E_Y) = 0.7$<br />$P(B) = 0.5 \\times 0.6 + 0.5 \\times 0.7 = 0.3 + 0.35 = 0.65$<br />$P(E_Y|B) = \\frac{0.5 \\times 0.7}{0.65} = \\frac{0.35}{0.65} = \\frac{7}{13}$<br /><br />(c) Box Y: 5 prizes, 5 blanks $\\Rightarrow P(P|E_Y) = 0.5$<br /><br />New $P(P) = 0.5 \\times 0.4 + 0.5 \\times 0.5 = 0.2 + 0.25 = 0.45$<br /><br />Increase = $0.45 - 0.35 = 0.10$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $0.35$<br />(b) $\\frac{6}{13}$<br />(c) New probability $0.45$, increase $0.10$",
+    "B": "(a) $0.40$<br />(b) $\\frac{7}{13}$<br />(c) New probability $0.50$, increase $0.15$",
+    "C": "(a) $0.35$<br />(b) $\\frac{7}{13}$<br />(c) New probability $0.45$, increase $0.10$",
+    "D": "(a) $0.30$<br />(b) $\\frac{7}{10}$<br />(c) New probability $0.40$, increase $0.05$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:10:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

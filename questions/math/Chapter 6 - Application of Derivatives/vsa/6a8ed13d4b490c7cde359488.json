@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed13d4b490c7cde359488",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "VSA",
+  "question": "For $x>0$, find the minimum value of $f(x)=x+\\frac{16}{x}$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> Differentiate the given function: $$f'(x)=1-\\frac{16}{x^2}$$<br><b>Step 2:</b> Set $f'(x)=0$: $$1-\\frac{16}{x^2}=0\\Rightarrow x^2=16$$ Since $x>0$, $x=4$.<br><b>Step 3:</b> The second derivative is $$f''(x)=\\frac{32}{x^3}$$<br><b>Step 4:</b> Since $f''(4)>0$, the function has a minimum at $x=4$.<br><b>Step 5:</b> Therefore, $$f(4)=4+\\frac{16}{4}=8$$ Hence, the minimum value of the function is $8$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4$",
+    "B": "$8$",
+    "C": "$16$",
+    "D": "$12$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a2290c0864be73cfcf6d22a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7",
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "According to recent research, air turbulence has increased in various regions around the world due to climate change. Turbulence makes flights bumpy and often delays the flights. Assume that, an airplane observes severe turbulence, moderate turbulence or light turbulence with equal probabilities. Further, the chance of an airplane reaching late to the destination are $55\\%$, $37\\%$ and $17\\%$ due to severe, moderate and light turbulence respectively.<br /><br />**(i)** Find the probability that an airplane reached its destination late.<br />**(ii)** If the airplane reached its destination late, find the probability that it was due to moderate turbulence.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Let $E_1, E_2, E_3$ be severe, moderate, light turbulence. $P(E_1) = P(E_2) = P(E_3) = \\frac{1}{3}$.<br />**Step 2:** $P(L|E_1) = 0.55$, $P(L|E_2) = 0.37$, $P(L|E_3) = 0.17$.<br />**Step 3:** Total Probability: $P(L) = \\frac{1}{3}(0.55 + 0.37 + 0.17)$.<br />**Step 4:** $P(L) = \\frac{1}{3}(1.09) = \\frac{109}{300}$.<br /><br />**(ii)** **Step 1:** Use Bayes' theorem to find $P(E_2|L)$.<br />**Step 2:** $P(E_2|L) = \\frac{P(E_2)P(L|E_2)}{P(L)}$.<br />**Step 3:** Substitute: $\\frac{(1/3) \\times 0.37}{109/300}$.<br />**Step 4:** Simplify to $\\frac{37/300}{109/300} = \\frac{37}{109}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1",
+    "2024-1-2",
+    "2024-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2290c0864be73cfcf6d22a/1782261489-0.png?t=1782281290267"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

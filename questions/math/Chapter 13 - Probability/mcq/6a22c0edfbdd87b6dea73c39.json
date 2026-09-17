@@ -1,0 +1,33 @@
+{
+  "id": "6a22c0edfbdd87b6dea73c39",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $E$ and $F$ be two events such that $P(E)=0\\cdot1$ $P(F)=0\\cdot3$, $P(E\\cup F)=0\\cdot4$, then $P(F|E)$ is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Use probability set identities: $P(E \\cup F) = P(E) + P(F) - P(E \\cap F)$.<br />**Step 2:** Substitute: $0.4 = 0.1 + 0.3 - P(E \\cap F) \\implies P(E \\cap F) = 0$.<br />**Step 3:** Apply conditional rule: $P(F|E) = \\frac{P(E \\cap F)}{P(E)} = \\frac{0}{0.1} = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0.1",
+    "B": "0.4",
+    "C": "0.5",
+    "D": "0"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1",
+    "2024-3-2",
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

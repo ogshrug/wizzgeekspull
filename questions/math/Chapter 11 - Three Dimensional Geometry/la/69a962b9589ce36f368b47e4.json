@@ -1,0 +1,29 @@
+{
+  "id": "69a962b9589ce36f368b47e4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Let $P(2,2,3)$ be reflected in the plane $2x - y + 2z - 4 = 0$. The image is $Q$. Find the equation of the line joining $P$ and $Q$ and the point where this line meets the $xz$-plane.",
+  "answeroption": "B",
+  "explanation": "The normal vector of the plane is $(2,-1,2)$. The perpendicular from $P$ to the plane is:<br /><br />$x=2+2k$, $y=2-k$, $z=3+2k$.<br /><br />Substituting in the plane equation gives $k=-4/9$.<br /><br />Thus foot of perpendicular $R=(10/9,22/9,19/9)$.<br /><br />Since $R$ is midpoint of $PQ$, coordinates of image $Q$ are obtained using midpoint relation.<br /><br />$Q=(2/9,26/9,11/9)$.<br /><br />Line $PQ$:<br /><br />$x=2+t(2/9-2)$, $y=2+t(26/9-2)$, $z=3+t(11/9-3)$.<br /><br />For intersection with $xz$-plane set $y=0$ which gives $t=-9/4$.<br /><br />Substituting gives intersection point $(6,0,7)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Image point: $Q=\\left(\\frac{10}{9},\\frac{22}{9},\\frac{19}{9}\\right)$<br />Line joining $P$ and $Q$: $\\vec r=(2,2,3)+t(2,-1,2)$<br />Intersection with $xz$-plane: $(2,0,3)$",
+    "B": "Image point: $Q=\\left(\\frac{2}{9},\\frac{26}{9},\\frac{11}{9}\\right)$<br />Line joining $P$ and $Q$: $x=2+t\\left(\\frac{2}{9}-2\\right)$, $y=2+t\\left(\\frac{26}{9}-2\\right)$, $z=3+t\\left(\\frac{11}{9}-3\\right)$<br />Intersection with $xz$-plane: $(6,0,7)$",
+    "C": "Image point: $Q=\\left(\\frac{2}{9},\\frac{26}{9},\\frac{11}{9}\\right)$<br />Line joining $P$ and $Q$: $\\vec r=(2,2,3)+t(1,1,1)$<br />Intersection with $xz$-plane: $(0,0,1)$",
+    "D": "Image point: $Q=\\left(\\frac{26}{9},\\frac{2}{9},\\frac{11}{9}\\right)$<br />Line joining $P$ and $Q$: $x=2+2t$, $y=2-t$, $z=3+2t$<br />Intersection with $xz$-plane: $(4,0,5)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:02:17 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

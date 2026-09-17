@@ -1,0 +1,26 @@
+{
+  "id": "6a2265fe864be73cfcf6d1c7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Let the polished side of the mirror be along the line $\\frac{x}{1}=\\frac{1-y}{-2}=\\frac{2z-4}{6}$. A point $P(1,6,3)$, some distance away from the mirror, has its image formed behind the mirror. Find the coordinates of the image point and the distance between the point $P$ and its image.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the equation of the mirror line in standard symmetric form to easily extract its direction ratios: $\\frac{x-0}{1} = \\frac{y-1}{2} = \\frac{z-2}{3}$. Let this line be $L$. A general point $M$ on $L$ is $(\\lambda, 2\\lambda+1, 3\\lambda+2)$.<br />**Step 2:** Let $M$ be the foot of the perpendicular from point $P(1,6,3)$ to the mirror. The direction ratios of $PM$ are $(\\lambda-1, 2\\lambda+1-6, 3\\lambda+2-3) = (\\lambda-1, 2\\lambda-5, 3\\lambda-1)$.<br />**Step 3:** Since $PM$ is perpendicular to line $L$ with direction ratios $(1, 2, 3)$, their dot product is zero: $1(\\lambda-1) + 2(2\\lambda-5) + 3(3\\lambda-1) = 0$.<br />**Step 4:** Solve for $\\lambda$: $\\lambda - 1 + 4\\lambda - 10 + 9\\lambda - 3 = 0 \\implies 14\\lambda - 14 = 0 \\implies \\lambda = 1$.<br />**Step 5:** Substitute $\\lambda=1$ into $M$'s coordinates to find the foot: $M(1, 3, 5)$.<br />**Step 6:** The point $M$ acts as the midpoint between $P(1,6,3)$ and its reflection image $P'(x,y,z)$. Using the midpoint formula: $\\frac{1+x}{2} = 1 \\implies x = 1$; $\\frac{6+y}{2} = 3 \\implies y = 0$; $\\frac{3+z}{2} = 5 \\implies z = 7$. Thus, the image is $P'(1, 0, 7)$.<br />**Step 7:** Finally, compute the distance between the object $P$ and its image $P'$ using the distance formula: $PP' = \\sqrt{(1-1)^2 + (0-6)^2 + (7-3)^2} = \\sqrt{0 + 36 + 16} = \\sqrt{52} = 2\\sqrt{13}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

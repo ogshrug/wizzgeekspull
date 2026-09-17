@@ -1,0 +1,31 @@
+{
+  "id": "6a266b1d864be73cfcf6d38d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987",
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Sooraj's father wants to construct a rectangular garden using a brick wall on one side of the garden and wire fencing for the other three sides as shown in the figure. He has 200 metres of fencing wire. Let $x$ metres denote the length of the side of the garden perpendicular to the brick wall and $y$ metres denote the length of the side parallel to the brick wall.<br /><br />Based on the above information, answer the following questions:<br />**(i)** Determine the relation representing the total length of fencing wire and also write $A(x)$, the area of the garden.<br />**(ii)** Determine the maximum value of $A(x)$.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The rectangular garden uses a brick wall on one side, so wire fencing is only required for the remaining three sides. Two of these sides are perpendicular to the wall (each of length $x$), and one side is parallel to the wall (of length $y$). The relation for the total length of fencing wire is: $2x + y = 200$. We can isolate $y$ from this linear equation to get: $y = 200 - 2x$.<br />**Step 2:** The geometric area $A$ of a rectangle is the product of its adjacent sides, given by $A = x \\cdot y$. Substitute our expression for $y$ into this area formula to write it strictly as a function of $x$: $A(x) = x(200 - 2x) = 200x - 2x^2$.<br /><br />**(ii)** **Step 1:** To maximize the area function $A(x) = 200x - 2x^2$, find its first derivative with respect to $x$ and set it equal to zero to locate critical points: $A'(x) = \\frac{d}{dx}[200x - 2x^2] = 200 - 4x$. Setting $A'(x) = 0$ gives: $200 - 4x = 0 \\implies 4x = 200 \\implies x = 50$ meters.<br />**Step 2:** Verify that this critical point gives a maximum by applying the second derivative test: $A''(x) = \\frac{d}{dx}[200 - 4x] = -4$. Since the second derivative is strictly negative ($A''(50) = -4 < 0$), the area reaches a maximum at $x = 50$. Calculate this maximum area value by substituting $x = 50$ back into our area equation: $A(50) = 200(50) - 2(50)^2 = 10000 - 2(2500) = 10000 - 5000 = 5000$ square meters.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a266b1d864be73cfcf6d38d/1782275406-0.png?t=1782295206960"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

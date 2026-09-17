@@ -1,0 +1,26 @@
+{
+  "id": "6a33da866dbc98396e70a7d9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d1"
+  ],
+  "question_type": "VSA",
+  "question": "Find the angle at which the given lines are inclined to each other: $l_{1}:\\frac{x-5}{2}=\\frac{y+3}{1}=\\frac{z-1}{-3}$, $l_{2}:\\frac{x}{3}=\\frac{y-1}{2}=\\frac{z+5}{-1}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Extract the direction ratios of both lines from their symmetric denominators:  \n$$\\vec{b_1} = 2\\hat{i} + \\hat{j} - 3\\hat{k}$$  \n$$\\vec{b_2} = 3\\hat{i} + 2\\hat{j} - \\hat{k}$$<br /><br />**Step 2:** Compute the scalar dot product of these direction vectors:  \n$$\\vec{b_1} \\cdot \\vec{b_2} = 2(3) + 1(2) + (-3)(-1) = 6 + 2 + 3 = 11$$<br /><br />**Step 3:** Calculate the magnitudes of both vectors:  \n$$|\\vec{b_1}| = \\sqrt{2^2+1^2+(-3)^2} = \\sqrt{14}$$  \n$$|\\vec{b_2}| = \\sqrt{3^2+2^2+(-1)^2} = \\sqrt{14}$$<br /><br />**Step 4:** Substitute these values into the angle formula $\\cos\\theta = \\frac{\\vec{b_1}\\cdot\\vec{b_2}}{|\\vec{b_1}||\\vec{b_2}|}$ to get:  \n$$\\cos\\theta = \\frac{11}{\\sqrt{14}\\sqrt{14}} = \\frac{11}{14}$$  \n$$\\theta = \\cos^{-1}\\left(\\frac{11}{14}\\right)$$  \nThus, the angle between the lines is $\\cos^{-1}\\left(\\frac{11}{14}\\right)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

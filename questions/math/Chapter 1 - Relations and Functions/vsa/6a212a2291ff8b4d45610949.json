@@ -1,0 +1,28 @@
+{
+  "id": "6a212a2291ff8b4d45610949",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d41"
+  ],
+  "question_type": "VSA",
+  "question": "A relation R on $A=\\{1,2,3\\}$ is defined as $R=\\{(1,1)(3,3),(1,2)\\}$. Is R a symmetric relation? Justify. Write the smallest relation set $R_{1}$ such that $R\\cup R_{1}$ becomes an equivalence relation on the set $\\{1, 2, 3\\}$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> A relation is symmetric if $(a,b) \\in R \\implies (b,a) \\in R$. Here, $(1,2) \\in R$ but $(2,1) \\notin R$, so it is not symmetric.<br /><br /><b>Step 2</b> To make it an equivalence relation, it must be reflexive, symmetric, and transitive.<br /><br /><b>Step 3</b> Adding $(2,2)$ makes it reflexive. Adding $(2,1)$ makes it symmetric. The new relation is automatically transitive. Thus, $R_{1} = \\{(2,2), (2,1)\\}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

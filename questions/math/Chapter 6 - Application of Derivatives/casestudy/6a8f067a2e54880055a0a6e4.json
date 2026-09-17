@@ -1,0 +1,30 @@
+{
+  "id": "6a8f067a2e54880055a0a6e4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A rectangular display board has its vertices on the ellipse $\\frac{x^2}{16}+\\frac{y^2}{9}=1$, with its sides parallel to the coordinate axes and its centre at the origin. If $(x,y)$ is the vertex in the first quadrant, answer the following connected questions: (a) Express $y$ in terms of $x$. (b) Form the area function of the rectangle. (c) Determine the value of $x$ for which the area is maximum. (d) Hence obtain the dimensions and maximum area of the display board.",
+  "answeroption": "C",
+  "explanation": "(a) Since $(x,y)$ lies on the ellipse, `\\frac{x^2}{16}+\\frac{y^2}{9}=1` Therefore, `\\frac{y^2}{9}=1-\\frac{x^2}{16}=\\frac{16-x^2}{16}` In the first quadrant, $y>0$, so `y=\\frac{3}{4}\\sqrt{16-x^2}`(b) The length and breadth of the rectangle are $2x$ and $2y$. Thus, `A=4xy` Substituting the expression for $y$, `A(x)=4x\\left(\\frac{3}{4}\\sqrt{16-x^2}\\right)=3x\\sqrt{16-x^2}` where $0\\<x<4$.(c) Differentiating, `A'(x)=3\\sqrt{16-x^2}-\\frac{3x^2}{\\sqrt{16-x^2}}=\\frac{3(16-2x^2)}{\\sqrt{16-x^2}}` For a critical point, $A'(x)=0$. Hence, `16-2x^2=0` This gives $x^2=8$, and since $x>0$, `x=2\\sqrt{2}` For $0\\<x<2\\sqrt{2}$, $A'(x)>0$, while for $2\\sqrt{2}\\<x<4$, $A'(x)<0$. Therefore, the area is maximum at $x=2\\sqrt{2}$.(d) Substituting $x=2\\sqrt{2}$, `y=\\frac{3}{4}\\sqrt{16-8}=\\frac{3}{4}(2\\sqrt{2})=\\frac{3\\sqrt{2}}{2}` Thus, the dimensions are `2x=4\\sqrt{2},\\qquad 2y=3\\sqrt{2}` The maximum area is `A_{\\max}=(4\\sqrt{2})(3\\sqrt{2})=24`Final ResultThe display board of maximum area has dimensions $4\\sqrt{2}$ units by $3\\sqrt{2}$ units, and its maximum area is $24$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y=\\frac{3}{4}(16-x^2)$<br>(b) $A(x)=3x(16-x^2)$<br>(c) Maximum at $x=\\frac{4}{\\sqrt{3}}$<br>(d) Dimensions $\\frac{8}{\\sqrt{3}}\\times\\frac{16}{3}$; maximum area $\\frac{128}{3\\sqrt{3}}$",
+    "B": "(a) $y=\\frac{4}{3}\\sqrt{9-x^2}$<br>(b) $A(x)=\\frac{16x}{3}\\sqrt{9-x^2}$<br>(c) Maximum at $x=\\frac{3}{\\sqrt{2}}$<br>(d) Dimensions $3\\sqrt{2}\\times4\\sqrt{2}$; maximum area $24$",
+    "C": "(a) $y=\\frac{3}{4}\\sqrt{16-x^2}$<br>(b) $A(x)=3x\\sqrt{16-x^2}$<br>(c) Maximum at $x=2\\sqrt{2}$<br>(d) Dimensions $4\\sqrt{2}\\times3\\sqrt{2}$; maximum area $24$",
+    "D": "(a) $y=\\frac{3}{4}\\sqrt{16-x^2}$<br>(b) $A(x)=\\frac{3x}{2}\\sqrt{16-x^2}$<br>(c) Maximum at $x=2$<br>(d) Dimensions $4\\times3\\sqrt{3}$; maximum area $12\\sqrt{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

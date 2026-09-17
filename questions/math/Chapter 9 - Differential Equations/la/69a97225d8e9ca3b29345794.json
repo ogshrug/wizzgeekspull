@@ -1,0 +1,29 @@
+{
+  "id": "69a97225d8e9ca3b29345794",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following differential equation: $\\displaystyle \\frac{dy}{dx} = \\frac{x^2 + y^2}{2xy}$",
+  "answeroption": "B",
+  "explanation": "Check if it's homogeneous:<br />$\\frac{x^2 + y^2}{2xy}$<br />Replace $y = vx$, then $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$<br /><br />Substitute: $v + x\\frac{dv}{dx} = \\frac{1+v^2}{2v} \\Rightarrow x\\frac{dv}{dx} = \\frac{1-v^2}{2v}$<br /><br />Separate: $\\frac{2v}{1-v^2} dv = \\frac{dx}{x}$<br /><br />Integrate: $-\\ln|1-v^2| = \\ln|x| + C$<br /><br />Substitute back $v = y/x$: $-\\ln|1-(y/x)^2| = \\ln|x| + C \\Rightarrow |x^2 - y^2| = A|x|$<br /><br />General Solution: $x^2 - y^2 = Cx$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x^2+y^2=Cx$",
+    "B": "$x^2-y^2=Cx$",
+    "C": "$y^2-x^2=Cy$",
+    "D": "$x-y=Cx^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:08:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

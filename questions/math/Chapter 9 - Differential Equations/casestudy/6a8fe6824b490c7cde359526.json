@@ -1,0 +1,30 @@
+{
+  "id": "6a8fe6824b490c7cde359526",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a6",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom activity on families of curves, students consider the one-parameter family $y=ax+a^2$, where $a$ is an arbitrary constant. Each value of $a$ gives a different curve, but all members of the family can be represented by a single differential equation that contains no arbitrary constant. Since the family contains one arbitrary constant, the students differentiate the equation once with respect to $x$ and then use the resulting relation to eliminate $a$. To check their result, they select the member corresponding to $a=2$ and test it in the differential equation they have formed.<br><br><b>(a)</b> Determine how many times the given family should be differentiated for eliminating the arbitrary constant.<br><br><b>(b)</b> Differentiate $y=ax+a^2$ with respect to $x$ and express $a$ in terms of $\\frac{dy}{dx}$.<br><br><b>(c)</b> Eliminate $a$ and form the required differential equation.<br><br><b>(d)</b> Verify that the member corresponding to $a=2$ satisfies the differential equation obtained.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The family $y=ax+a^2$ contains one arbitrary constant, namely $a$. Therefore, it is sufficient to differentiate the given relation once before eliminating the arbitrary constant.<br><br><b>(b)</b><br>Differentiating $y=ax+a^2$ with respect to $x$, $$\\frac{dy}{dx}=a$$<br><br>Hence, $$a=\\frac{dy}{dx}$$<br><br><b>(c)</b><br>Substitute $a=\\frac{dy}{dx}$ in the original family $y=ax+a^2$.<br><br>Thus, $$y=x\\frac{dy}{dx}+\\left(\\frac{dy}{dx}\\right)^2$$<br><br>Hence the required differential equation, free from the arbitrary constant, is $$\\left(\\frac{dy}{dx}\\right)^2+x\\frac{dy}{dx}-y=0$$<br><br><b>(d)</b><br>For $a=2$, the member of the family is $$y=2x+4$$<br><br>Therefore, $$\\frac{dy}{dx}=2$$<br><br>Substituting in the differential equation, $$\\left(2\\right)^2+x\\left(2\\right)-(2x+4)=4+2x-2x-4=0$$<br><br>Hence $y=2x+4$ satisfies the differential equation.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Differentiate twice<br>(b) $\\frac{dy}{dx}=2a$, so $a=\\frac{1}{2}\\frac{dy}{dx}$<br>(c) $\\left(\\frac{dy}{dx}\\right)^2+2x\\frac{dy}{dx}-y=0$<br>(d) $y=2x+4$ does not satisfy it",
+    "B": "(a) Differentiate once<br>(b) $\\frac{dy}{dx}=a$, so $a=\\frac{dy}{dx}$<br>(c) $\\left(\\frac{dy}{dx}\\right)^2+x\\frac{dy}{dx}-y=0$<br>(d) For $a=2$, $y=2x+4$ and substitution gives $0$",
+    "C": "(a) Differentiate once<br>(b) $\\frac{dy}{dx}=ax$, so $a=\\frac{1}{x}\\frac{dy}{dx}$<br>(c) $\\left(\\frac{dy}{dx}\\right)^2-y=0$<br>(d) $y=2x+4$ satisfies it",
+    "D": "(a) No differentiation is required<br>(b) $a=y-x$<br>(c) $\\frac{dy}{dx}+xy=0$<br>(d) $y=2x+4$ satisfies it"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa75192a66c0f894c1a9fa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7e",
+    "69c6610140512f018fa94d82"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\tan^{-1}(e^{2x})$ and let $y = f(x)$. \n\n(a) Show that $y$ is continuous and differentiable for $x \\in \\mathbb{R}$. \n\n(b) Formulate and solve the differential equation satisfied by $y = f(x)$. \n\n(c) Compute $\\lim_{x \\to -\\infty} f(x)$ and $\\lim_{x \\to \\infty} f(x)$. \n\n(d) Interpret the physical meaning of these limits if $y$ represents an angle in radians as $x$ increases or decreases without bound.",
+  "answeroption": "C",
+  "explanation": "**Concepts Tested:** Inverse Trigonometric Functions, Continuity & Differentiability, Differential Equations, Limits, Analysis<br /><br />(a) **Continuity and Differentiability:**<br /><br />$e^{2x}$ is continuous and differentiable. $\\tan^{-1}(u)$ is continuous and differentiable everywhere, so $f(x)$ is continuous/differentiable for all $x$.<br /><br />(b) **Differential Equation:**<br /><br />Let $y=\\tan^{-1}(e^{2x})$<br /><br />$\\tan y = e^{2x}$<br /><br />Differentiate both sides:<br />$\\sec^2 y \\cdot \\dfrac{dy}{dx} = 2 e^{2x}$<br /><br />But $\\sec^2 y = 1 + \\tan^2 y = 1 + (e^{2x})^2 = 1 + e^{4x}$<br /><br />So:<br />$\\dfrac{dy}{dx} = \\dfrac{2 e^{2x}}{1 + e^{4x}}$<br /><br />But from $e^{2x} = \\tan y$, then $e^{4x} = \\tan^2 y$, so<br />$\\dfrac{dy}{dx} = \\dfrac{2 \\tan y}{1 + (\\tan y)^2}$<br /><br />But $1 + \\tan^2 y = \\sec^2 y$<br /><br />So,<br />$\\dfrac{dy}{dx} = 2 \\tan y \\cos^2 y = 2 \\sin y \\cos y = \\sin 2y$<br /><br />Thus, differential equation:<br />$\\dfrac{dy}{dx} = \\sin 2y$<br /><br />(c) **Limits:**<br /><br />$\\lim_{x \\to -\\infty} f(x) = \\tan^{-1}(0) = 0$<br /><br />$\\lim_{x \\to \\infty} f(x) = \\tan^{-1}(\\infty) = \\dfrac{\\pi}{2}$<br /><br />(d) **Physical meaning:**<br /><br />As $x$ increases without bound, the angle increases from 0 to $\\frac{\\pi}{2}$, so the function ``saturates'' at $90^\\circ$ for large $x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y$ is differentiable only for $x>0$<br />(b) $\\frac{dy}{dx}=\\cos 2y$<br />(c) $\\lim_{x\\to-\\infty}f(x)=\\frac{\\pi}{2}$ and $\\lim_{x\\to\\infty}f(x)=0$<br />(d) The angle decreases from $\\frac{\\pi}{2}$ to $0$",
+    "B": "(a) $y$ is continuous but not differentiable on $\\mathbb R$<br />(b) $\\frac{dy}{dx}=2y$<br />(c) Both limits are $0$<br />(d) The angle remains zero",
+    "C": "(a) $y$ is continuous and differentiable for all $x\\in\\mathbb R$<br />(b) $\\frac{dy}{dx}=\\sin2y$<br />(c) $\\lim_{x\\to-\\infty}f(x)=0$ and $\\lim_{x\\to\\infty}f(x)=\\frac{\\pi}{2}$<br />(d) The angle increases from $0$ and saturates at $\\frac{\\pi}{2}$ as $x$ increases",
+    "D": "(a) $y$ is discontinuous at $x=0$<br />(b) $\\frac{dy}{dx}=\\tan2y$<br />(c) $\\lim_{x\\to-\\infty}f(x)=-\\frac{\\pi}{2}$ and $\\lim_{x\\to\\infty}f(x)=\\frac{\\pi}{2}$<br />(d) The angle oscillates between two values"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:32:57 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

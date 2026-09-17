@@ -1,0 +1,30 @@
+{
+  "id": "6a8d6da77d26214dcc41da6a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "SA",
+  "question": "Determine the domain and range of $f(x)=\\tan^{-1}\\left(\\frac{x-1}{x+1}\\right)$. Explain why one value lying inside the principal range of $\\tan^{-1}x$ is excluded from the range of $f$.",
+  "answeroption": "D",
+  "explanation": "<b>Restriction from the denominator</b><br>The rational expression is defined when $x+1\\neq0$. Hence, the domain is $$\\mathbb{R}-\\{-1\\}.$$<br><br><b>Range of the rational expression</b><br>Let $$t=\\frac{x-1}{x+1}.$$ Solving for $x$, we obtain $t(x+1)=x-1$, so $$x=\\frac{-(1+t)}{t-1}.$$ This expression provides a real value of $x$ for every real $t$ except $t=1$. Therefore, the range of the inner expression is $\\mathbb{R}-\\{1\\}$.<br><br><b>Application of inverse tangent</b><br>The function $\\tan^{-1}t$ maps $\\mathbb{R}$ onto $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$. Since $t=1$ is excluded, the corresponding value $$\\tan^{-1}1=\\frac{\\pi}{4}$$ is also excluded.<br><br><b>Final result</b><br>The range is $$\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)-\\left\\{\\frac{\\pi}{4}\\right\\}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $\\mathbb{R}-\\{1\\}$; Range: $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)-\\left\\{-\\frac{\\pi}{4}\\right\\}$; the excluded value corresponds to the unattainable inner value $-1$",
+    "B": "Domain: $\\mathbb{R}-\\{-1\\}$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; no value is excluded because the inner expression can take every real value",
+    "C": "Domain: $\\mathbb{R}$; Range: $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)-\\left\\{\\frac{\\pi}{4}\\right\\}$; the excluded value corresponds to the unattainable inner value $1$",
+    "D": "Domain: $\\mathbb{R}-\\{-1\\}$; Range: $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)-\\left\\{\\frac{\\pi}{4}\\right\\}$; the excluded value corresponds to the unattainable inner value $1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a8eca704b490c7cde359472",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7c",
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "LA",
+  "question": "If $$y=\\sin^{-1}\\left(2x\\sqrt{1-x^2}\\right),\\qquad 0<x<\\frac{1}{\\sqrt{2}},$$ find $\\frac{dy}{dx}$ directly by differentiating the composite function and simplify the result completely, making appropriate use of the given restriction on $x$.",
+  "answeroption": "B",
+  "explanation": "<b>Applying the Formula</b><br>For $y=\\sin^{-1}u$, $$\\frac{dy}{dx}=\\frac{1}{\\sqrt{1-u^2}}\\frac{du}{dx}.$$ Here, $$u=2x\\sqrt{1-x^2}.$$ Differentiating, $$\\frac{du}{dx}=2\\sqrt{1-x^2}+2x\\frac{d}{dx}\\left(\\sqrt{1-x^2}\\right).$$ Using the chain rule, $$\\frac{d}{dx}\\left(\\sqrt{1-x^2}\\right)=-\\frac{x}{\\sqrt{1-x^2}}.$$ Hence, $$\\frac{du}{dx}=2\\sqrt{1-x^2}-\\frac{2x^2}{\\sqrt{1-x^2}}=\\frac{2(1-2x^2)}{\\sqrt{1-x^2}}.$$<br><br><b>Simplification of the Radical</b><br>Now, $$1-u^2=1-4x^2(1-x^2)=1-4x^2+4x^4=(1-2x^2)^2.$$ Therefore, $$\\sqrt{1-u^2}=|1-2x^2|.$$ Since $$0<x<\\frac{1}{\\sqrt{2}},$$ we have $1-2x^2>0$. Thus, $$\\sqrt{1-u^2}=1-2x^2.$$<br><br>Substituting in the derivative formula, $$\\frac{dy}{dx}=\\frac{1}{1-2x^2}\\cdot\\frac{2(1-2x^2)}{\\sqrt{1-x^2}}.$$ Hence, $$\\frac{dy}{dx}=\\frac{2}{\\sqrt{1-x^2}}.$$<br><br><b>Final Result</b><br>Therefore, for $0<x<\\frac{1}{\\sqrt{2}}$, $$\\frac{dy}{dx}=\\frac{2}{\\sqrt{1-x^2}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{1-x^2}$",
+    "B": "$\\frac{2}{\\sqrt{1-x^2}}$",
+    "C": "$-\\frac{2}{\\sqrt{1-x^2}}$",
+    "D": "$\\frac{2(1-2x^2)}{\\sqrt{1-x^2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

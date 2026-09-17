@@ -1,0 +1,30 @@
+{
+  "id": "69aa6561d30adc5083911b66",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d78",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f$ be defined on $\\mathbb{R}$ by $f(x) = x |x|$, and $g(x) = |x|$. \n\n(a) Show that $f(x)$ is differentiable for all $x$, and find $f'(x)$.\n\n(b) Express $f(x)$ in terms of $g(x)$.\n\n(c) For $x \\neq 0$, find $h(x) = \\frac{f(x)}{g(x)}$ and examine its continuity at $x=0$.\n\n(d) Compute $\\lim_{x \\to 0} h(x)$.\n\n(e) Construct a $2 \\times 2$ matrix $A = \\begin{pmatrix} f(-1) & g(-1) \\\\ f(1) & g(1) \\end{pmatrix}$ and find $\\det(A)$.\n\n(f) For $x=1$, find $\\sin^{-1}\\left( \\frac{f(x)}{g(x)} \\right)$ and $\\cos^{-1}\\left( \\frac{f(x)}{g(x)} \\right)$.",
+  "answeroption": "A",
+  "explanation": "**Concepts being tested:** Absolute value, differentiability, quotient of functions, continuity, determinants, inverse trigonometric functions.<br /><br />**(a) Differentiability of $f(x)=x|x|$:**<br /><br />For $x>0$, $f(x)=x^2$, $f'(x)=2x$.<br /><br />For $x<0$, $f(x)=x(-x)=-x^2$, $f'(x)=-2x$.<br /><br />At $x=0$, $f(0)=0$, left and right derivatives are $0$.<br /><br />So, $f'(x)=2x$ if $x>0$, $-2x$ if $x<0$, $0$ if $x=0$.<br /><br />**(b) $f(x)$ in terms of $g(x)=|x|$:**<br /><br />$f(x)=x|x|=xg(x)$<br /><br />**(c)** $h(x)=\\frac{f(x)}{g(x)}=\\frac{x|x|}{|x|}=x$, $x\\neq0$.<br /><br />At $x=0$, $h(0)$ not defined.<br /><br />$h(x)\\to0$ as $x\\to0$ from both sides, so limit exists.<br /><br />**(d)** $\\lim_{x\\to0} h(x)=0$<br /><br />**(e)** $A = \\begin{pmatrix}-1 & 1\\\\1 & 1\\end{pmatrix}$<br /><br />$\\det(A) = -1\\times1-1\\times1=-1-1=-2$<br /><br />**(f)** For $x=1$, $f(1)/g(1)=1/1=1$<br /><br />$\\sin^{-1}(1)=\\frac{\\pi}{2}$<br /><br />$\\cos^{-1}(1)=0$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f'(x)=2x$ for $x>0$, $f'(x)=-2x$ for $x<0$, and $f'(0)=0$, so $f$ is differentiable for all $x$<br />(b) $f(x)=xg(x)$<br />(c) For $x\\ne0$, $h(x)=x$, and $h$ is not defined at $0$ but has a removable discontinuity<br />(d) $\\lim_{x\\to0}h(x)=0$<br />(e) $A=\\begin{pmatrix}-1&1\\\\1&1\\end{pmatrix}$ and $\\det(A)=-2$<br />(f) For $x=1$, $\\sin^{-1}\\left(\\frac{f(x)}{g(x)}\\right)=\\frac{\\pi}{2}$ and $\\cos^{-1}\\left(\\frac{f(x)}{g(x)}\\right)=0$",
+    "B": "(a) $f$ is not differentiable at $x=0$<br />(b) $f(x)=g(x)^2$<br />(c) $h(x)=|x|$<br />(d) $\\lim_{x\\to0}h(x)=1$<br />(e) $A=\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}$ and $\\det(A)=0$<br />(f) Both inverse trigonometric values are $\\frac{\\pi}{2}$",
+    "C": "(a) $f'(x)=|x|$ for all $x$<br />(b) $f(x)=g(x)$<br />(c) $h(x)=1$<br />(d) $\\lim_{x\\to0}h(x)=1$<br />(e) $A=\\begin{pmatrix}-1&-1\\\\1&1\\end{pmatrix}$ and $\\det(A)=2$<br />(f) $\\sin^{-1}(1)=0$ and $\\cos^{-1}(1)=\\frac{\\pi}{2}$",
+    "D": "(a) $f'(x)=2|x|$ only for $x>0$<br />(b) $f(x)=x+g(x)$<br />(c) $h(x)=\\frac{1}{x}$<br />(d) The limit does not exist<br />(e) $A=\\begin{pmatrix}1&-1\\\\1&1\\end{pmatrix}$ and $\\det(A)=2$<br />(f) The values are undefined"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:25:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

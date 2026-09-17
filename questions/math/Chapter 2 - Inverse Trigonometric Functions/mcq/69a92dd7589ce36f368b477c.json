@@ -1,0 +1,29 @@
+{
+  "id": "69a92dd7589ce36f368b477c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "MCQ",
+  "question": "If $x$ is a real number such that $\\tan^{-1}x + \\tan^{-1}2x + \\tan^{-1}3x = \\pi$, then the value of $x$ is:",
+  "answeroption": "B",
+  "explanation": "Let $\\alpha = \\tan^{-1}x$, $\\beta = \\tan^{-1}2x$, $\\gamma = \\tan^{-1}3x$.<br /><br />Given $\\alpha+\\beta+\\gamma=\\pi$. Hence $\\tan(\\alpha+\\beta+\\gamma)=0$.<br /><br />Using $\\tan(A+B+C)$ formula:<br /><br />Numerator = $\\tan A + \\tan B + \\tan C - \\tan A \\tan B \\tan C$.<br /><br />Substitute: $x + 2x + 3x - x(2x)(3x)=0$.<br /><br />$6x-6x^3=0$.<br /><br />$6x(1-x^2)=0$.<br /><br />So $x=0$ or $x^2=1$.<br /><br />But if $x=0$ then all inverse tangents are zero, so sum ≠ $\\pi$.<br /><br />Therefore $x^2=1$ giving $x=\\pm1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\pm \\frac{1}{\\sqrt{3}}$",
+    "B": "$\\pm 1$",
+    "C": "$\\pm \\frac{1}{2}$",
+    "D": "$\\pm \\frac{1}{\\sqrt{2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:16:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a901f3e751910886affba2c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d0",
+    "6a13e7cad837c8c7efa6b8d1",
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a three-dimensional coordinate-model activity, two straight rods are represented by the lines $L_1$ and $L_2$ whose equations are $$\\vec r=(\\hat i+2\\hat j-\\hat k)+\\lambda(\\hat i+\\hat j+\\hat k)$$ and $$\\vec r=(2\\hat i-\\hat j+3\\hat k)+\\mu(2\\hat i-\\hat j+\\hat k).$$ The students have to examine the relative positions of the rods before calculating the angle and the least possible separation between them. They know that two non-parallel lines in space that do not intersect are skew lines, and that the shortest distance between skew lines is measured along a segment perpendicular to both of them.<br><br><b>(a)</b> Determine whether $L_1$ and $L_2$ are parallel.<br><br><b>(b)</b> Test whether $L_1$ and $L_2$ intersect and hence determine whether they are skew lines.<br><br><b>(c)</b> Find the acute angle between $L_1$ and $L_2$.<br><br><b>(d)</b> Calculate the shortest distance between the two lines.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The direction vectors of the two lines are<br>$$\\vec b_1=(1,1,1),\\quad \\vec b_2=(2,-1,1).$$<br>The corresponding components are not proportional since<br>$$\\frac{1}{2}\\neq\\frac{1}{-1}.$$<br>Hence, $L_1$ and $L_2$ are not parallel.<br><br><b>(b)</b><br>The parametric coordinates of points on $L_1$ are<br>$$x=1+\\lambda,\\quad y=2+\\lambda,\\quad z=-1+\\lambda,$$<br>and on $L_2$ they are<br>$$x=2+2\\mu,\\quad y=-1-\\mu,\\quad z=3+\\mu.$$<br>For an intersection, the same values of $\\lambda$ and $\\mu$ must satisfy all three coordinate equations. From the $y$- and $z$-coordinates,<br>$$2+\\lambda=-1-\\mu\\Rightarrow\\lambda=-3-\\mu,$$<br>$$-1+\\lambda=3+\\mu\\Rightarrow\\lambda=4+\\mu.$$<br>Therefore,<br>$$-3-\\mu=4+\\mu\\Rightarrow\\mu=-\\frac{7}{2},\\quad \\lambda=\\frac{1}{2}.$$<br>Using these values in the $x$-coordinate equation gives<br>$$1+\\frac{1}{2}\\neq2+2\\left(-\\frac{7}{2}\\right).$$<br>Thus, the lines do not intersect. Since they are neither parallel nor intersecting, $L_1$ and $L_2$ are skew lines.<br><br><b>(c)</b><br>For direction vectors $\\vec b_1$ and $\\vec b_2$, the acute angle $\\theta$ between the lines is given by<br>$$\\cos\\theta=\\frac{|\\vec b_1\\cdot\\vec b_2|}{|\\vec b_1||\\vec b_2|}.$$<br>Now,<br>$$\\vec b_1\\cdot\\vec b_2=1(2)+1(-1)+1(1)=2,$$<br>$$|\\vec b_1|=\\sqrt{3},\\quad |\\vec b_2|=\\sqrt{6}.$$<br>Therefore,<br>$$\\cos\\theta=\\frac{2}{\\sqrt{18}}=\\frac{\\sqrt{2}}{3}.$$<br>Hence, the acute angle is<br>$$\\theta=\\cos^{-1}\\left(\\frac{\\sqrt{2}}{3}\\right).$$<br><br><b>(d)</b><br>Take<br>$$\\vec a_1=(1,2,-1),\\quad \\vec a_2=(2,-1,3).$$<br>The shortest distance between the skew lines is<br>$$d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}.$$<br>We have<br>$$\\vec b_1\\times\\vec b_2=(2,1,-3)$$<br>and<br>$$\\vec a_2-\\vec a_1=(1,-3,4).$$<br>Thus,<br>$$|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|=|2-3-12|=13,$$<br>while<br>$$|\\vec b_1\\times\\vec b_2|=\\sqrt{2^2+1^2+(-3)^2}=\\sqrt{14}.$$<br>Therefore, the shortest distance is<br>$$d=\\frac{13}{\\sqrt{14}}\\text{ units}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) The lines are parallel<br>(b) They do not intersect and hence are parallel distinct lines<br>(c) $\\cos^{-1}\\left(\\frac{\\sqrt{2}}{3}\\right)$<br>(d) $\\frac{13}{\\sqrt{14}}$ units",
+    "B": "(a) The lines are not parallel<br>(b) They do not intersect and hence are skew<br>(c) $\\cos^{-1}\\left(\\frac{\\sqrt{2}}{3}\\right)$<br>(d) $\\frac{13}{\\sqrt{14}}$ units",
+    "C": "(a) The lines are not parallel<br>(b) They intersect and hence are not skew<br>(c) $\\cos^{-1}\\left(\\frac{2}{3}\\right)$<br>(d) $0$",
+    "D": "(a) The lines are not parallel<br>(b) They are skew<br>(c) $\\sin^{-1}\\left(\\frac{\\sqrt{2}}{3}\\right)$<br>(d) $\\frac{13}{14}$ units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a328391d5dca7dcb0bf0ed5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "SA",
+  "question": "Given that $x^y + y^x = a^b$ where a and b are positive constants, find $\\frac{dy}{dx}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $u = x^y$ and $v = y^x$. Thus, $u + v = a^b \\implies \\frac{du}{dx} + \\frac{dv}{dx} = 0$.\n\n**Step 2:** For $u$, take logs: $\\ln u = y \\ln x$. Differentiating gives $\\frac{1}{u}\\frac{du}{dx} = \\frac{y}{x} + \\ln x \\frac{dy}{dx} \\implies \\frac{du}{dx} = x^y (\\frac{y}{x} + \\ln x \\frac{dy}{dx}) = y x^{y-1} + x^y \\ln x \\frac{dy}{dx}$.\n\n**Step 3:** For $v$, take logs: $\\ln v = x \\ln y$. Differentiating gives $\\frac{1}{v}\\frac{dv}{dx} = \\ln y + \\frac{x}{y}\\frac{dy}{dx} \\implies \\frac{dv}{dx} = y^x (\\ln y + \\frac{x}{y}\\frac{dy}{dx}) = y^x \\ln y + x y^{x-1} \\frac{dy}{dx}$.\n\n**Step 4:** Substitute back: $y x^{y-1} + x^y \\ln x \\frac{dy}{dx} + y^x \\ln y + x y^{x-1} \\frac{dy}{dx} = 0$.\n\n**Step 5:** Factor and solve for the derivative: $\\frac{dy}{dx}(x^y \\ln x + x y^{x-1}) = -(y x^{y-1} + y^x \\ln y) \\implies \\frac{dy}{dx} = \\frac{-(y x^{y-1} + y^x \\ln y)}{x^y \\ln x + x y^{x-1}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

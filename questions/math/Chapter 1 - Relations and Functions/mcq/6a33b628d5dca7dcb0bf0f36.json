@@ -1,0 +1,31 @@
+{
+  "id": "6a33b628d5dca7dcb0bf0f36",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d41"
+  ],
+  "question_type": "MCQ",
+  "question": "If R be a relation defined as aRb iff $|a-b|>0$, $a, b \\in \\mathbb{R}$, then R is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Check reflexivity: For any real number $a$, $|a-a| = 0$, which is not strictly greater than $0$, so R is not reflexive.\n\n**Step 2:** Check symmetry: If $aRb$, then $|a-b| > 0$. Because the absolute value is symmetric ($|a-b| = |b-a|$), it follows that $|b-a| > 0$, hence $bRa$. The relation is symmetric.\n\n**Step 3:** Check transitivity: Let $a=1$, $b=2$, and $c=1$. We have $|1-2|=1>0$ (so 1R2) and $|2-1|=1>0$ (so 2R1). However, $|1-1|=0$, which means 1 is not related to 1. R is not transitive.",
+  "explanation_image": [],
+  "options": {
+    "A": "reflexive",
+    "B": "symmetric",
+    "C": "transitive",
+    "D": "symmetric and transitive"
+  },
+  "is_options_image": true,
+  "difficulty": "Easy",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

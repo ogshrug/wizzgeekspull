@@ -1,0 +1,29 @@
+{
+  "id": "69aa7460320763ee1b04066d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 1 (Social Networks – Friend Suggestion Algorithm):**<br /><br />A new social media platform, NetConnect, models friendships among users as relations. For a set $A = \\{U_1, U_2, U_3, U_4, U_5\\}$, the relation $R$ is defined by $(U_i, U_j) \\in R$ if and only if $U_i$ and $U_j$ have at least three mutual friends on the platform.<br /><br />(a) Prove whether $R$ is an equivalence relation on $A$.<br /><br />(b) Suppose the equivalence classes partition the group of users. If $[U_1] = \\{U_1, U_3\\}$ and $[U_2] = \\{U_2, U_5\\}$, identify the equivalence class containing $U_4$.<br /><br />(c) How many total possible relations can be defined from set $A$ to set $A$?",
+  "answeroption": "B",
+  "explanation": "(a) To prove $R$ is an equivalence relation, check reflexivity, symmetry, and transitivity:<br /><br />**Step 1: Reflexivity**<br /><br />For any $U_i$, $U_i$ shares all friends with themselves (including themselves), so $(U_i, U_i) \\in R$. Thus $R$ is reflexive.<br /><br />**Step 2: Symmetry**<br /><br />If $(U_i, U_j) \\in R$, then $U_i$ and $U_j$ share at least three mutual friends. The friend relation is naturally mutual (undirected), so $(U_j, U_i) \\in R$. So, $R$ is symmetric.<br /><br />**Step 3: Transitivity**<br /><br />Suppose $(U_i, U_j) \\in R$ and $(U_j, U_k) \\in R$. For transitivity, we would require $U_i$ and $U_k$ to also have at least three mutual friends. However, it is possible that $U_i$ and $U_k$ do not share at least three mutual friends, even though both have three mutual friends with $U_j$. Therefore, $R$ may **not** be transitive.<br /><br />**Conclusion:** $R$ is reflexive and symmetric, but not necessarily transitive. Therefore, $R$ is **not** an equivalence relation.<br /><br />(b) Equivalence classes partition the set such that each user belongs to exactly one class.<br /><br />Given $[U_1] = \\{U_1, U_3\\}$ and $[U_2] = \\{U_2, U_5\\}$. Since equivalence classes are disjoint and exhaustive:<br /><br />$A = [U_1] \\cup [U_2] \\cup [U_4]$<br /><br />Therefore, $[U_4] = \\{U_4\\}$ if $U_4$ does not share three mutual friends with anyone else.<br /><br />(c) **Total possible relations from $A$ to $A$: **<br /><br />$\\text{Number of elements in } A = 5$<br /><br />$\\text{Total ordered pairs in } A \\times A = 5 \\times 5 = 25$<br /><br />$\\text{Each ordered pair can either be included or not included in the relation}$<br /><br />$\\text{Total possible relations} = 2^{25}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R$ is reflexive, symmetric and transitive, so it is an equivalence relation.<br />(b) $[U_4]=\\{U_1,U_2,U_3,U_4,U_5\\}$.<br />(c) Total possible relations from $A$ to $A$ are $5^2=25$.",
+    "B": "(a) $R$ is reflexive and symmetric, but not necessarily transitive; hence it is not necessarily an equivalence relation.<br />(b) Since $[U_1]=\\{U_1,U_3\\}$ and $[U_2]=\\{U_2,U_5\\}$, the remaining class is $[U_4]=\\{U_4\\}$.<br />(c) Since $|A\\times A|=25$, total possible relations from $A$ to $A$ are $2^{25}$.",
+    "C": "(a) $R$ is symmetric only, so it is not an equivalence relation.<br />(b) $[U_4]=\\{U_1,U_4\\}$.<br />(c) Total possible relations from $A$ to $A$ are $2^5$.",
+    "D": "(a) $R$ is transitive but not reflexive and not symmetric.<br />(b) $[U_4]=\\emptyset$.<br />(c) Total possible relations from $A$ to $A$ are $5!$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:29:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

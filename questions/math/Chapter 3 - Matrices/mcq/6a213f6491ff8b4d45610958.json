@@ -1,0 +1,33 @@
+{
+  "id": "6a213f6491ff8b4d45610958",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "MCQ",
+  "question": "If a square matrix A is such that $A^{2}=A$ and $(I-A)^{3}=xA+I$, then value of x must be:",
+  "answeroption": "D",
+  "explanation": "<b>Step 1</b> Use the binomial expansion formula to expand $(I-A)^3$. Since the identity matrix $I$ commutes with any matrix $A$, we can expand this as $I^3 - 3I^2A + 3IA^2 - A^3$.<br /><br /><b>Step 2</b> Simplify the terms using matrix properties. We know $I^k = I$ for any power, and $IA = A$. Also, we are given $A^2 = A$. This implies $A^3 = A^2 \\cdot A = A \\cdot A = A^2 = A$.<br /><br /><b>Step 3</b> Substitute these simplified forms back into the expanded expression. It becomes $I - 3A + 3A - A$, which reduces to $I - A$. Equating this result to the given right hand side, $I - A = xA + I$, we compare the coefficients to find $x = -1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "7",
+    "B": "5",
+    "C": "-7",
+    "D": "-1"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

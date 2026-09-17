@@ -1,0 +1,29 @@
+{
+  "id": "6a9122d44b490c7cde3595bb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e1"
+  ],
+  "question_type": "VSA",
+  "question": "For the restrictions $x \\ge 3$, $y \\ge 2$ and $2x+y \\le 7$, determine whether any feasible solution exists.",
+  "answeroption": "D",
+  "explanation": "Step 1: From the first two restrictions, every possible solution must satisfy $x \\ge 3$ and $y \\ge 2$.<br>Step 2: Multiplying $x \\ge 3$ by 2 gives $2x \\ge 6$.<br>Step 3: Adding $y \\ge 2$ gives $2x+y \\ge 8$.<br>Step 4: However, another given restriction requires $2x+y \\le 7$.<br>Step 5: The same expression cannot simultaneously be at least $8$ and at most $7$. Therefore, no ordered pair can satisfy all the restrictions together.<br>Step 6: Hence, the system has no feasible solution; every point fails at least one of the restrictions.",
+  "explanation_image": [],
+  "options": {
+    "A": "A feasible solution exists only at $(3,2)$",
+    "B": "A bounded feasible region exists",
+    "C": "An unbounded feasible region exists",
+    "D": "No feasible solution exists"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

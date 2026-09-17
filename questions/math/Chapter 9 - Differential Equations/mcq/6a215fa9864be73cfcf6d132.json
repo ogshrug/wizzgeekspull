@@ -1,0 +1,34 @@
+{
+  "id": "6a215fa9864be73cfcf6d132",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "MCQ",
+  "question": "The general solution for the differential equation $\\frac{dy}{dx} = e^{3x-y}$ is:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Separate the variables. Rewrite the equation as $\\frac{dy}{dx} = \\frac{e^{3x}}{e^y}$.<br />**Step 2:** Cross-multiply to get $e^y dy = e^{3x} dx$.<br />**Step 3:** Integrate both sides: $\\int e^y dy = \\int e^{3x} dx$.<br />**Step 4:** This yields $e^y = \\frac{e^{3x}}{3} + C'$. Multiply by 3 to get $3e^y = e^{3x} + 3C'$.<br />**Step 5:** Let $3C' = C$, then $3e^y = e^{3x} + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$3e^y = e^{3x} + C$",
+    "B": "$\\log(3x-y) = C$",
+    "C": "$e^{3x-y} = C$",
+    "D": "$-e^y + 3e^{3x} = C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

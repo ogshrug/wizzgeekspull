@@ -1,0 +1,31 @@
+{
+  "id": "6a8d2b4e550d28a069ec32e3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A classroom graphing activity examines the function $f(x)=\\sin^{-1}(1-x^2)$. Before plotting it, students must ensure that the argument $1-x^2$ lies in the interval $[-1,1]$. They observe that the argument depends only on $x^2$, so equal function values are obtained for opposite inputs. The graph has a highest point when the argument is $1$ and reaches its lowest principal value when the argument is $-1$. Students use these observations to determine the exact domain, range, intercepts, and symmetry of the graph without applying calculus.<br><br><b>(a)</b> Determine the domain of $f$.<br><br><b>(b)</b> Determine the range of $f$.<br><br><b>(c)</b> Find the intercepts of the graph with the coordinate axes.<br><br><b>(d)</b> Justify the symmetry of the graph and identify its endpoint and highest-point coordinates.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>For $\\sin^{-1}(1-x^2)$ to be defined,<br>$$-1\\leq1-x^2\\leq1$$<br>The inequality $1-x^2\\leq1$ is true for every real $x$. The remaining condition gives<br>$$-1\\leq1-x^2$$<br>$$x^2\\leq2$$<br>Therefore,<br>$$-\\sqrt{2}\\leq x\\leq\\sqrt{2}$$<br>Hence, the domain is $[-\\sqrt{2},\\sqrt{2}]$.<br><br><b>(b)</b><br>On the domain, $x^2$ varies from $0$ to $2$. Therefore, $1-x^2$ assumes every value from $1$ to $-1$. Since the range of $\\sin^{-1}t$ for $t\\in[-1,1]$ is $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$,<br>$$\\text{Range}=\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$$<br><br><b>(c)</b><br>For the $y$-intercept, put $x=0$:<br>$$f(0)=\\sin^{-1}(1)=\\frac{\\pi}{2}$$<br>Thus, the $y$-intercept is $\\left(0,\\dfrac{\\pi}{2}\\right)$. For the $x$-intercepts, set $f(x)=0$:<br>$$\\sin^{-1}(1-x^2)=0$$<br>$$1-x^2=0$$<br>$$x=\\pm1$$<br>Hence, the $x$-intercepts are $(-1,0)$ and $(1,0)$.<br><br><b>(d)</b><br>Since<br>$$f(-x)=\\sin^{-1}(1-(-x)^2)=\\sin^{-1}(1-x^2)=f(x)$$<br>the graph is symmetric about the $y$-axis. At $x=\\pm\\sqrt{2}$, the argument is $-1$, giving the endpoints $\\left(-\\sqrt{2},-\\dfrac{\\pi}{2}\\right)$ and $\\left(\\sqrt{2},-\\dfrac{\\pi}{2}\\right)$. At $x=0$, the argument is $1$, so the highest point is $\\left(0,\\dfrac{\\pi}{2}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain: $[-1,1]$<br><br>(b) Range: $\\left[0,\\dfrac{\\pi}{2}\\right]$<br><br>(c) $x$-intercepts: $(-1,0)$ and $(1,0)$; $y$-intercept: $\\left(0,\\dfrac{\\pi}{2}\\right)$<br><br>(d) Symmetric about the $y$-axis; endpoints: $\\left(-1,0\\right)$ and $\\left(1,0\\right)$; highest point: $\\left(0,\\dfrac{\\pi}{2}\\right)$",
+    "B": "(a) Domain: $[-\\sqrt{2},\\sqrt{2}]$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$<br><br>(c) $x$-intercept: $(0,0)$; $y$-intercepts: $\\left(0,-\\dfrac{\\pi}{2}\\right)$ and $\\left(0,\\dfrac{\\pi}{2}\\right)$<br><br>(d) Symmetric about the $x$-axis; endpoints: $\\left(\\pm\\sqrt{2},-\\dfrac{\\pi}{2}\\right)$",
+    "C": "(a) Domain: $\\mathbb{R}$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$<br><br>(c) $x$-intercepts: $(-1,0)$ and $(1,0)$; $y$-intercept: $\\left(0,\\dfrac{\\pi}{2}\\right)$<br><br>(d) Symmetric about the origin; highest points: $\\left(\\pm\\sqrt{2},\\dfrac{\\pi}{2}\\right)$",
+    "D": "(a) Domain: $[-\\sqrt{2},\\sqrt{2}]$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$<br><br>(c) $x$-intercepts: $(-1,0)$ and $(1,0)$; $y$-intercept: $\\left(0,\\dfrac{\\pi}{2}\\right)$<br><br>(d) Symmetric about the $y$-axis; endpoints: $\\left(-\\sqrt{2},-\\dfrac{\\pi}{2}\\right)$ and $\\left(\\sqrt{2},-\\dfrac{\\pi}{2}\\right)$; highest point: $\\left(0,\\dfrac{\\pi}{2}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

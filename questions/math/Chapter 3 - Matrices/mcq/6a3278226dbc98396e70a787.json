@@ -1,0 +1,31 @@
+{
+  "id": "6a3278226dbc98396e70a787",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "MCQ",
+  "question": "If A and B are square matrices of same order, then $(AB^{T}-BA^{T})$ is a",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Let $C = AB^T - BA^T$. To check its matrix properties, take the transpose of the entire expression: $C^T = (AB^T - BA^T)^T$.<br />**Step 2:** Apply properties of transposes: $C^T = (B^T)^T A^T - (A^T)^T B^T = BA^T - AB^T$.<br />**Step 3:** Factoring out a negative sign yields $-(AB^T - BA^T) = -C$. Since $C^T = -C$, the matrix is skew-symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "symmetric matrix",
+    "B": "skew-symmetric matrix",
+    "C": "null matrix",
+    "D": "unit matrix"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

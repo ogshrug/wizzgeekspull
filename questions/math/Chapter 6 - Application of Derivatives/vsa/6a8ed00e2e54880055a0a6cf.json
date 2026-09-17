@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed00e2e54880055a0a6cf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f981"
+  ],
+  "question_type": "VSA",
+  "question": "The radius of a cylindrical vessel is measured as $4$ cm with a possible error of $0.01$ cm, while its height is exactly $10$ cm. Estimate the resulting error in its volume.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> The volume of a cylinder with fixed height $h$ is $$V=\\pi r^2h$$<br><b>Step 2:</b> Since only the radius contains an error, differentiate with respect to $r$: $$dV=2\\pi rh\\,dr$$<br><b>Step 3:</b> Substitute $r=4$ cm, $h=10$ cm and $|dr|=0.01$ cm.<br><b>Step 4:</b> Thus, $$|dV|=2\\pi(4)(10)(0.01)=0.8\\pi$$<br><b>Step 5:</b> Therefore, the estimated absolute error in the calculated volume is $0.8\\pi$ cm$^3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0.4\\pi$ cm$^3$",
+    "B": "$0.8\\pi$ cm$^3$",
+    "C": "$1.6\\pi$ cm$^3$",
+    "D": "$0.08\\pi$ cm$^3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

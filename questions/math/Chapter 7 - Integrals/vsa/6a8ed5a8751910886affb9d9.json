@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed5a8751910886affb9d9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "VSA",
+  "question": "For $x>0$, evaluate $\\int x\\log x\\,dx$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> The integrand is a product of the algebraic function $x$ and the logarithmic function $\\log x$. For integration by parts, take the logarithmic function as the first function.<br><b>Step 2:</b> Let $u=\\log x$ and $dv=x\\,dx$. Then $du=\\frac{1}{x}\\,dx$ and $v=\\frac{x^2}{2}$.<br><b>Step 3:</b> Using $\\int u\\,dv=uv-\\int v\\,du$, $$\\int x\\log x\\,dx=\\frac{x^2}{2}\\log x-\\int\\frac{x^2}{2}\\cdot\\frac{1}{x}\\,dx.$$<br><b>Step 4:</b> This simplifies to $\\frac{x^2}{2}\\log x-\\frac{1}{2}\\int x\\,dx$.<br><b>Step 5:</b> Therefore, $$\\boxed{\\frac{x^2}{2}\\log x-\\frac{x^2}{4}+C}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x^2}{2}\\log x-\\frac{x^2}{4}+C$",
+    "B": "$\\frac{x^2}{2}\\log x+\\frac{x^2}{4}+C$",
+    "C": "$x^2\\log x-\\frac{x^2}{2}+C$",
+    "D": "$\\frac{x^2}{4}\\log x-\\frac{x^2}{2}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

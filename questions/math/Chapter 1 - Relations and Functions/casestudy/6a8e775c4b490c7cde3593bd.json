@@ -1,0 +1,30 @@
+{
+  "id": "6a8e775c4b490c7cde3593bd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Let $A=\\mathbb{R}-\\left\\{\\frac{2}{3}\\right\\}$ and define a function $f:A\\to A$ by $f(x)=\\frac{4x+3}{6x-4}$. Students investigate a special property of this function: applying the same transformation twice may return the starting number. Before using composition, they first check that the output never equals the value excluded from $A$. They then calculate the composite $fof$ algebraically and compare it with the identity function on $A$. This allows them to decide whether the transformation is reversible and, if so, identify its inverse without solving a separate equation for the inverse.<br><br><b>(a)</b> Find $f(0)$ and $f(f(0))$.<br><br><b>(b)</b> Show that $f(x)\\neq\\frac{2}{3}$ for every $x\\in A$.<br><br><b>(c)</b> Calculate $fof(x)$ for an arbitrary $x\\in A$.<br><br><b>(d)</b> Use the result of part (c) to determine whether $f$ is invertible and find $f^{-1}$.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>$f(0)=\\frac{3}{-4}=-\\frac{3}{4}$. Now, $f\\left(-\\frac{3}{4}\\right)=\\frac{4\\left(-\\frac{3}{4}\\right)+3}{6\\left(-\\frac{3}{4}\\right)-4}=\\frac{-3+3}{-\\frac{9}{2}-4}=0$. Hence, $f(f(0))=0$.<br><br><b>(b)</b><br>Suppose $f(x)=\\frac{2}{3}$. Then $\\frac{4x+3}{6x-4}=\\frac{2}{3}$. Since $x\\neq\\frac{2}{3}$, the denominator is non-zero. Cross-multiplying gives $3(4x+3)=2(6x-4)$, so $12x+9=12x-8$, which implies $9=-8$, an impossibility. Therefore, $f(x)\\neq\\frac{2}{3}$ for every $x\\in A$, so $f$ indeed maps $A$ into $A$.<br><br><b>(c)</b><br>We have $fof(x)=f\\left(\\frac{4x+3}{6x-4}\\right)$. Therefore, $$fof(x)=\\frac{4\\left(\\frac{4x+3}{6x-4}\\right)+3}{6\\left(\\frac{4x+3}{6x-4}\\right)-4}.$$ Simplifying the numerator gives $\\frac{16x+12+18x-12}{6x-4}=\\frac{34x}{6x-4}$. Simplifying the denominator gives $\\frac{24x+18-24x+16}{6x-4}=\\frac{34}{6x-4}$. Hence, $fof(x)=\\frac{34x}{34}=x$. Thus, $fof=I_A$.<br><br><b>(d)</b><br>Since $f:A\\to A$ and $fof=I_A$, applying $f$ twice gives the identity function on $A$. Therefore, $f$ is invertible and the function that reverses $f$ is $f$ itself. Hence, $f^{-1}=f$, that is, $f^{-1}(x)=\\frac{4x+3}{6x-4}$ for $x\\in A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(0)=\\frac{3}{4}$ and $f(f(0))=1$; $f(x)$ may equal $\\frac{2}{3}$, and $fof(x)=x+1$, so $f$ is not invertible.",
+    "B": "$f(0)=-\\frac{3}{4}$ and $f(f(0))=0$; $f(x)\\neq\\frac{2}{3}$ for every $x\\in A$, and $fof(x)=x$. Hence, $f$ is invertible and $f^{-1}(x)=\\frac{4x+3}{6x-4}$.",
+    "C": "$f(0)=-\\frac{3}{4}$ and $f(f(0))=0$; $fof(x)=\\frac{1}{x}$, so $f^{-1}(x)=\\frac{6x-4}{4x+3}$.",
+    "D": "$f(0)=0$ and $f(f(0))=-\\frac{3}{4}$; $fof(x)=x$, but $f$ is not invertible because $\\frac{2}{3}\\notin A$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

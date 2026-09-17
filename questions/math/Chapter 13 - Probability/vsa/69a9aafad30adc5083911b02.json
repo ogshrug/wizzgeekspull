@@ -1,0 +1,29 @@
+{
+  "id": "69a9aafad30adc5083911b02",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "VSA",
+  "question": "Three boys and two girls are to be seated in a row randomly. Find the probability that two girls are not sitting together, given one particular boy is at one extreme end.",
+  "answeroption": "A",
+  "explanation": "Let $E$: Two girls are not sitting together<br />Let $F$: One particular boy is at an extreme<br /><br />Number of ways to seat 5 children = $5! = 120$<br /><br />Ways with the particular boy at left or right: fix his place at one extreme $\\rightarrow 2$ choices<br />Arrangements for the rest 4: $4! = 24$<br /><br />So, $n(F) = 2 \\times 24 = 48$<br /><br />Now, arrange two girls so that they are not together:<br /><br />Total seating with boy at end (as above): $48$<br /><br />Arrangements where girls ARE together:<br />Treat the two girls as a block: now we have 3 boys + 1 \"girl block\" = 4 objects to arrange, $4! = 24$<br />Inside girl block, girls can swap $2! = 2$<br /><br />So, $n(E' \\cap F) = 24 \\times 2 = 48$<br /><br />Hence, girls not together: $n(E \\cap F) = 48 - 48 = 0$<br />But this cannot be—the calculation needs refinement.<br /><br />Actually, total arrangements with the boy at end: $4! = 24$<br />Arrange the remaining four.<br /><br />Cases where girls are together:<br />Treat two girls as block, so 3 objects to arrange: $3! = 6$, girls can swap, so $6 \\times 2 = 12$<br /><br />Thus, arrangements where girls not together: $24 - 12 = 12$<br /><br />So, $n(E \\cap F) = 12$<br /><br />Therefore, $P(E|F) = \\frac{12}{24} = \\frac{1}{2}$<br /><br />Final answer: $\\boxed{\\frac{1}{2}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}$",
+    "B": "$\\frac{1}{4}$",
+    "C": "$\\frac{3}{4}$",
+    "D": "$\\frac{2}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:10:34 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

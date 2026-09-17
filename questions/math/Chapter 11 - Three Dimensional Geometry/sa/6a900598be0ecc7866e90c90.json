@@ -1,0 +1,29 @@
+{
+  "id": "6a900598be0ecc7866e90c90",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4"
+  ],
+  "question_type": "SA",
+  "question": "Find the value of $k$ for which the lines $\\vec{r}=(\\hat{i}+\\hat{k})+\\lambda(\\hat{i}+2\\hat{j}-\\hat{k})$ and $\\vec{r}=(2\\hat{i}+\\hat{j})+\\mu(2\\hat{i}-\\hat{j}+k\\hat{k})$ are coplanar.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Identification of the vectors</b><br>For the first line,<br>$$\\vec{a}_1=\\hat{i}+\\hat{k},\\quad \\vec{b}_1=\\hat{i}+2\\hat{j}-\\hat{k}.$$<br>For the second line,<br>$$\\vec{a}_2=2\\hat{i}+\\hat{j},\\quad \\vec{b}_2=2\\hat{i}-\\hat{j}+k\\hat{k}.$$<br><b>Step 2: Vector joining points on the lines</b><br>$$\\vec{a}_2-\\vec{a}_1=\\hat{i}+\\hat{j}-\\hat{k}.$$<br><b>Step 3: Coplanarity condition</b><br>The lines are coplanar when<br>$$\\left(\\vec{a}_2-\\vec{a}_1\\right)\\cdot\\left(\\vec{b}_1\\times\\vec{b}_2\\right)=0.$$<br><b>Step 4: Evaluation of the scalar triple product</b><br>$$\\vec{b}_1\\times\\vec{b}_2=(2k-1)\\hat{i}-(k+2)\\hat{j}-5\\hat{k}.$$<br>Hence,<br>$$1(2k-1)+1(-k-2)+(-1)(-5)=0.$$<br>This gives<br>$$2k-1-k-2+5=0\\Rightarrow k+2=0.$$<br><b>Step 5: Final result</b><br>Therefore, the required value is $k=-2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=-2$",
+    "B": "$k=2$",
+    "C": "$k=-5$",
+    "D": "$k=5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

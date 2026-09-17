@@ -1,0 +1,29 @@
+{
+  "id": "69a9728062be6a70cd184da3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "LA",
+  "question": "Case Study:<br /><br />Let $f : \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = x^2$. Let $g : f(\\mathbb{R}) \\to \\mathbb{R}$ be defined by $g(y) = \\sqrt{y}$.<br /><br />(a) Is $f$ invertible if defined as $f : \\mathbb{R} \\to \\mathbb{R}$? What about $f : \\mathbb{R} \\to [0,\\infty)$?<br /><br />(b) Justify whether $g$ is the inverse of $f$ over their respective domains.",
+  "answeroption": "B",
+  "explanation": "(a) $f(x) = x^2$ is not one-one over $\\mathbb{R}$ (since $f(a)=f(-a)$), so not invertible $\\mathbb{R} \\to \\mathbb{R}$. But, $f: \\mathbb{R} \\to [0,\\infty)$ is onto but still not one-one; however, $f: [0, \\infty) \\to [0, \\infty)$ is bijective, and thus invertible.<br /><br />(b) Over $[0, \\infty)$, $g$ is the inverse of $f$:<br /><br />$g(f(x)) = g(x^2) = \\sqrt{x^2} = x$ for $x \\geq 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f:\\mathbb{R}\\to\\mathbb{R}$ is invertible, and $f:\\mathbb{R}\\to[0,\\infty)$ is also invertible.<br />(b) $g$ is the inverse of $f$ on all of $\\mathbb{R}$.",
+    "B": "(a) $f:\\mathbb{R}\\to\\mathbb{R}$ is not invertible; $f:\\mathbb{R}\\to[0,\\infty)$ is onto but still not one-one, so not invertible. However, $f:[0,\\infty)\\to[0,\\infty)$ is invertible.<br />(b) $g(y)=\\sqrt y$ is the inverse of $f$ only on the restricted domain $[0,\\infty)$.",
+    "C": "(a) $f:\\mathbb{R}\\to[0,\\infty)$ is invertible because it is onto.<br />(b) $g$ is not defined on $f(\\mathbb{R})$.",
+    "D": "(a) $f$ is one-one but not onto.<br />(b) $g(f(x))=-x$ for all real $x$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:09:36 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

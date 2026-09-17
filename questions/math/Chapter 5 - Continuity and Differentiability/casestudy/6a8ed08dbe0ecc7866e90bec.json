@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed08dbe0ecc7866e90bec",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a classroom exercise on implicitly defined functions, students examine the relation $$x^2+xy+y^2=7.$$ The equation does not initially give $y$ explicitly as a function of $x$, so the students differentiate the relation directly with respect to $x$. Two points, $A(1,2)$ and $B(2,1)$, are selected because both satisfy the given equation. The class is asked to obtain a general expression for $\\frac{dy}{dx}$ and then compare its values at these two points. This allows them to practise differentiating a term containing both $x$ and $y$ while remembering that $y$ depends on $x$.<br><br><b>(a)</b> Verify that both $A(1,2)$ and $B(2,1)$ satisfy the given relation.<br><br><b>(b)</b> Differentiate $x^2+xy+y^2=7$ implicitly and obtain $\\frac{dy}{dx}$ in terms of $x$ and $y$.<br><br><b>(c)</b> Evaluate $\\frac{dy}{dx}$ at $A(1,2)$ and $B(2,1)$.<br><br><b>(d)</b> Show that the product of the two derivative values obtained in part (c) is $1$.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>For $A(1,2)$,<br><br>$$1^2+(1)(2)+2^2=1+2+4=7.$$<br><br>Hence, $A(1,2)$ satisfies the relation.<br><br>For $B(2,1)$,<br><br>$$2^2+(2)(1)+1^2=4+2+1=7.$$<br><br>Hence, $B(2,1)$ also satisfies the relation.<br><br><b>(b)</b><br>Differentiating both sides of<br><br>$$x^2+xy+y^2=7$$<br><br>with respect to $x$,<br><br>$$2x+\\left(x\\frac{dy}{dx}+y\\right)+2y\\frac{dy}{dx}=0.$$<br><br>Collecting the terms containing $\\frac{dy}{dx}$,<br><br>$$x\\frac{dy}{dx}+2y\\frac{dy}{dx}=-(2x+y).$$<br><br>Thus,<br><br>$$\\frac{dy}{dx}(x+2y)=-(2x+y),$$<br><br>and therefore<br><br>$$\\frac{dy}{dx}=-\\frac{2x+y}{x+2y},$$<br><br>provided $x+2y\\neq0$.<br><br><b>(c)</b><br>At $A(1,2)$,<br><br>$$\\frac{dy}{dx}=-\\frac{2(1)+2}{1+2(2)}=-\\frac{4}{5}.$$<br><br>At $B(2,1)$,<br><br>$$\\frac{dy}{dx}=-\\frac{2(2)+1}{2+2(1)}=-\\frac{5}{4}.$$<br><br><b>(d)</b><br>The product of the two derivative values is<br><br>$$\\left(-\\frac{4}{5}\\right)\\left(-\\frac{5}{4}\\right)=1.$$<br><br>Hence, the required product is $1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Only $A(1,2)$ satisfies the relation<br>(b) $\\frac{dy}{dx}=-\\frac{x+2y}{2x+y}$<br>(c) At $A$, $-\\frac54$; at $B$, $-\\frac45$<br>(d) Product $=1$",
+    "B": "(a) Both $A(1,2)$ and $B(2,1)$ satisfy the relation<br>(b) $\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}$<br>(c) At $A$, $-\\frac45$; at $B$, $-\\frac54$<br>(d) Product $=1$",
+    "C": "(a) Both points satisfy the relation<br>(b) $\\frac{dy}{dx}=\\frac{2x+y}{x+2y}$<br>(c) At $A$, $\\frac45$; at $B$, $\\frac54$<br>(d) Product $=1$",
+    "D": "(a) Both points satisfy the relation<br>(b) $\\frac{dy}{dx}=-\\frac{2x-y}{x-2y}$<br>(c) At $A$, $0$; at $B$, $0$<br>(d) Product $=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

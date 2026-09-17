@@ -1,0 +1,29 @@
+{
+  "id": "6a2266b8fbdd87b6dea73b92",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7",
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Some students are having a misconception while comparing decimals. For example, a student may mention that $78\\cdot56>78\\cdot9$ as $7856>789$ In order to assess this concept, a decimal comparison test was administered to the students of class VI through the following question : In the recently held Sports Day in the school, 5 students participated in a javelin throw competition. The distances to which they have thrown the javelin are shown below in the table: Ajay (47.7 m), Bijoy (47.07 m), Kartik (43.09 m), Dinesh (43.9 m), Devesh (45.2 m). Based on the test attempted by the students, the teacher concludes that 40% of the students have the misconception in the concept of decimal comparison and the rest do not have the misconception. 80% of the students having misconception answered Bijoy as the correct answer in the paper. 90% of the students who are identified with not having misconception, did not answer Bijoy as their answer.<br/><br/>On the basis of the above information, answer the following questions:<br/>**(i)** What is the probability of a student not having misconception but still answers Bijoy in the test?<br/>**(ii)** What is the probability that a randomly selected student answers Bijoy as his answer in the test?<br/>**(iii) (a)** What is the probability that a student who answered as Bijoy is having misconception ?<br/>OR<br/>**(iii) (b)** What is the probability that a student who answered as Bijoy is amongst students who do not have the misconception ?",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> Define the events based on the problem text: let $M$ be the event that a student has the misconception ($P(M) = 0.40$), and let $M'$ be the event that a student does not have it ($P(M') = 0.60$). Let $B$ be the event that a student answers Bijoy. We are given that 90% of those without the misconception did NOT answer Bijoy. Therefore, the probability that a student without the misconception DOES answer Bijoy is the complement: $P(B|M') = 1 - 0.90 = 0.10$.<br /><br /><b>(ii)</b><br /><br /><b>Step 2</b> Use the Theorem of Total Probability to find the overall probability that a randomly selected student answers Bijoy, $P(B)$: $P(B) = P(M)P(B|M) + P(M')P(B|M')$.<br /><b>Step 3</b> Substitute the known values into the equation: $P(B) = (0.40)(0.80) + (0.60)(0.10) = 0.32 + 0.06 = 0.38$. This answers part (ii).<br /><br /><b>(iii) (a)</b><br /><br /><b>Step 4</b> To find the probability that a student who answered Bijoy actually has the misconception, $P(M|B)$, apply Bayes' Theorem: $P(M|B) = \\frac{P(M)P(B|M)}{P(B)}$. Substituting our values gives: $P(M|B) = \\frac{0.32}{0.38} = \\frac{16}{19}$.<br /><br /><b>(iii) (b)</b><br /><br /><b>Step 5</b> To find the alternative probability that a student who answered Bijoy does not have the misconception, $P(M'|B)$, use Bayes' Theorem or the complement rule: $P(M'|B) = \\frac{P(M')P(B|M')}{P(B)} = \\frac{0.06}{0.38} = \\frac{3}{19}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

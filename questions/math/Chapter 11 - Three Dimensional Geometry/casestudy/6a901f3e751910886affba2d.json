@@ -1,0 +1,29 @@
+{
+  "id": "6a901f3e751910886affba2d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d1"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics class is comparing the directions of straight lines in space. Two lines are represented in Cartesian symmetric form as $$L_1:\\frac{x-2}{2}=\\frac{y+1}{-1}=\\frac{z-3}{2}$$ and $$L_2:\\frac{x+1}{1}=\\frac{y-2}{2}=\\frac{z+4}{2}.$$ The class also considers a variable line $M$ whose direction ratios are $1,k,1$. Students use the direction ratios appearing in the symmetric equations to decide whether lines are parallel or perpendicular and to calculate the acute angle between them. The variable $k$ is then adjusted so that $M$ satisfies a specified angular condition with $L_1$.<br><br><b>(a)</b> Determine whether $L_1$ and $L_2$ are parallel or perpendicular.<br><br><b>(b)</b> Calculate $\\cos\\theta$, where $\\theta$ is the acute angle between $L_1$ and $L_2$.<br><br><b>(c)</b> Find the acute angle between $L_1$ and $L_2$.<br><br><b>(d)</b> Determine the value of $k$ for which the line $M$ is perpendicular to $L_1$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The direction ratios of $L_1$ are $(2,-1,2)$ and those of $L_2$ are $(1,2,2)$.<br>They are not proportional, so the lines are not parallel.<br>For perpendicular lines, the condition is<br>$$a_1a_2+b_1b_2+c_1c_2=0.$$<br>Here,<br>$$2(1)+(-1)(2)+2(2)=2-2+4=4\\neq0.$$<br>Hence, $L_1$ and $L_2$ are neither parallel nor perpendicular.<br><br><b>(b)</b><br>The acute angle $\\theta$ satisfies<br>$$\\cos\\theta=\\frac{|a_1a_2+b_1b_2+c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\sqrt{a_2^2+b_2^2+c_2^2}}.$$<br>Substituting the direction ratios,<br>$$\\cos\\theta=\\frac{|2(1)+(-1)(2)+2(2)|}{\\sqrt{2^2+(-1)^2+2^2}\\sqrt{1^2+2^2+2^2}}.$$<br>Therefore,<br>$$\\cos\\theta=\\frac{4}{3\\times3}=\\frac{4}{9}.$$<br><br><b>(c)</b><br>From part (b),<br>$$\\cos\\theta=\\frac{4}{9}.$$<br>Hence, the required acute angle is<br>$$\\theta=\\cos^{-1}\\left(\\frac{4}{9}\\right).$$<br><br><b>(d)</b><br>The direction ratios of $M$ are $(1,k,1)$ and those of $L_1$ are $(2,-1,2)$.<br>For the two lines to be perpendicular,<br>$$2(1)+(-1)k+2(1)=0.$$<br>Thus,<br>$$4-k=0,$$<br>giving<br>$$k=4.$$<br>Hence, $M$ is perpendicular to $L_1$ when $k=4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $L_1$ and $L_2$ are perpendicular<br>(b) $\\cos\\theta=0$<br>(c) $\\theta=90^\\circ$<br>(d) $k=4$",
+    "B": "(a) $L_1$ and $L_2$ are parallel<br>(b) $\\cos\\theta=1$<br>(c) $\\theta=0^\\circ$<br>(d) $k=-4$",
+    "C": "(a) $L_1$ and $L_2$ are neither parallel nor perpendicular<br>(b) $\\cos\\theta=\\frac{4}{9}$<br>(c) $\\theta=\\sin^{-1}\\left(\\frac{4}{9}\\right)$<br>(d) $k=-4$",
+    "D": "(a) $L_1$ and $L_2$ are neither parallel nor perpendicular<br>(b) $\\cos\\theta=\\frac{4}{9}$<br>(c) $\\theta=\\cos^{-1}\\left(\\frac{4}{9}\\right)$<br>(d) $k=4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

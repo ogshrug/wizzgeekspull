@@ -1,0 +1,29 @@
+{
+  "id": "69a963a0d30adc5083911a88",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 5 \\end{bmatrix}$ then the value of $|A^{2009} - 5A^{2008}|$ is:",
+  "answeroption": "B",
+  "explanation": "Let $B = A^{2009} - 5A^{2008}$<br /><br />$B = A^{2008}(A - 5I)$<br /><br />$A - 5I = \\begin{bmatrix} 1 & 2 \\\\ 3 & 5 \\end{bmatrix} - \\begin{bmatrix} 5 & 0 \\\\ 0 & 5 \\end{bmatrix} = \\begin{bmatrix} -4 & 2 \\\\ 3 & 0 \\end{bmatrix}$<br /><br />$|A - 5I| = (-4)(0) - (2)(3) = -6$<br /><br />Using determinant properties: $|B| = |A^{2008}| \\cdot |A - 5I|$<br /><br />$|A^{2008}| = (|A|)^{2008}$<br /><br />$|A| = (1)(5) - (2)(3) = 5 - 6 = -1$<br /><br />$|B| = (-1)^{2008} \\cdot (-6) = 1 \\cdot (-6) = -6$",
+  "explanation_image": [],
+  "options": {
+    "A": "6",
+    "B": "-6",
+    "C": "$\\pm 6$",
+    "D": "can't be determined"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:06:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

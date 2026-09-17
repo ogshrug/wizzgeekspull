@@ -1,0 +1,28 @@
+{
+  "id": "6a227930864be73cfcf6d1f3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996"
+  ],
+  "question_type": "LA",
+  "question": "A woman discovered a scratch along a straight line on a circular table top of radius 8 cm. She divided the table top into 4 equal quadrants and discovered the scratch passing through the origin inclined at an angle $\\frac{\\pi}{4}$ anticlockwise along the positive direction of x-axis. Find the area of the region enclosed by the x-axis, the scratch and the circular table top in the first quadrant, using integration.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Model the circular table top as a circle with the equation $x^2 + y^2 = 8^2 = 64$. Its upper branch is $y = \\sqrt{64 - x^2}$.<br />**Step 2:** The scratch is a straight line passing through the origin at an angle of $\\pi/4$. The slope $m = \\tan(\\pi/4) = 1$. The equation of this line is $y = 1x$, or $y=x$.<br />**Step 3:** The region is bounded by the x-axis ($y=0$), the line $y=x$, and the circle $x^2+y^2=64$ in the first quadrant.<br />**Step 4:** Find the point of intersection of the line and the circle in the first quadrant. Substitute $y=x$ into the circle's equation: $x^2 + x^2 = 64 \\implies 2x^2 = 64 \\implies x^2 = 32 \\implies x = \\sqrt{32} = 4\\sqrt{2}$. The intersection point is $(4\\sqrt{2}, 4\\sqrt{2})$.<br />**Step 5:** To find the area, split the integration into two parts. From $x=0$ to $x=4\\sqrt{2}$, the upper boundary is the line $y=x$. From $x=4\\sqrt{2}$ to $x=8$ (the circle's radius), the boundary is the circle $y=\\sqrt{64-x^2}$.<br />**Step 6:** Area $A = \\int_0^{4\\sqrt{2}} x dx + \\int_{4\\sqrt{2}}^8 \\sqrt{64-x^2} dx$.<br />**Step 7:** Evaluate the first integral: $[\\frac{x^2}{2}]_0^{4\\sqrt{2}} = \\frac{(4\\sqrt{2})^2}{2} = \\frac{32}{2} = 16$.<br />**Step 8:** Evaluate the second integral using $\\int \\sqrt{a^2-x^2}dx = \\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2}\\sin^{-1}(\\frac{x}{a})$: $[\\frac{x}{2}\\sqrt{64-x^2} + 32\\sin^{-1}(\\frac{x}{8})]_{4\\sqrt{2}}^8$. Upper limit (8): $0 + 32\\sin^{-1}(1) = 32(\\frac{\\pi}{2}) = 16\\pi$. Lower limit ($4\\sqrt{2}$): $\\frac{4\\sqrt{2}}{2}\\sqrt{64-32} + 32\\sin^{-1}(\\frac{4\\sqrt{2}}{8}) = 2\\sqrt{2}(4\\sqrt{2}) + 32\\sin^{-1}(\\frac{1}{\\sqrt{2}}) = 16 + 32(\\frac{\\pi}{4}) = 16 + 8\\pi$. The difference is $16\\pi - (16 + 8\\pi) = 8\\pi - 16$.<br />**Step 9:** Total Area $= 16 + (8\\pi - 16) = 8\\pi$ square cm.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

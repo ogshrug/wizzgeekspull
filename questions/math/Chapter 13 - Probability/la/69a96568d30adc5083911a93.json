@@ -1,0 +1,30 @@
+{
+  "id": "69a96568d30adc5083911a93",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "LA",
+  "question": "A random variable X takes values 1, 2, 3 with probabilities $k, 2k, 3k$ respectively. Find k. Also, find the mean and variance of X.",
+  "answeroption": "A",
+  "explanation": "Sum of probabilities = 1<br />$k + 2k + 3k = 1$<br />$6k=1 \\implies k=\\frac{1}{6}$<br /><br />So, $P(1) = \\frac{1}{6}$, $P(2) = \\frac{2}{6}=\\frac{1}{3}$, $P(3) = \\frac{3}{6}=\\frac{1}{2}$<br /><br />Mean $=\\mu=E(X)=1\\times \\frac{1}{6}+2\\times\\frac{1}{3}+3\\times\\frac{1}{2}$<br />$=\\frac{1}{6}+\\frac{2}{3}+\\frac{3}{2}$<br />$=\\frac{1}{6}+\\frac{4}{6}+\\frac{9}{6}=\\frac{14}{6}=\\frac{7}{3}$<br /><br />$E(X^2)=1^2\\times\\frac{1}{6}+2^2\\times\\frac{1}{3}+3^2\\times\\frac{1}{2}$<br />$=\\frac{1}{6}+\\frac{4}{3}+\\frac{9}{2}$<br />$=\\frac{1}{6}+\\frac{8}{6}+\\frac{27}{6}=\\frac{36}{6}=6$<br /><br />Variance $=E(X^2)-(E(X))^2=6-(7/3)^2=6-\\frac{49}{9}=\\frac{54-49}{9}=\\frac{5}{9}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=\\frac{1}{6}$, Mean $=\\frac{7}{3}$, Variance $=\\frac{5}{9}$",
+    "B": "$k=\\frac{1}{3}$, Mean $=\\frac{7}{3}$, Variance $=\\frac{5}{9}$",
+    "C": "$k=\\frac{1}{6}$, Mean $=2$, Variance $=\\frac{5}{9}$",
+    "D": "$k=\\frac{1}{6}$, Mean $=\\frac{7}{2}$, Variance $=\\frac{7}{9}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:13:44 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

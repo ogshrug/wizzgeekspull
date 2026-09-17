@@ -1,0 +1,29 @@
+{
+  "id": "69aa7839aff2be72fd28eb87",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An agricultural farm has 80 hectares of land on which wheat and barley can be grown. Wheat requires 2 fertilizers and 3 pesticides per hectare, while barley requires 4 fertilizers and 2 pesticides per hectare. At most 120 units of fertilizer and 90 units of pesticide are available. Each hectare of wheat yields a profit of ₹500 and each hectare of barley a profit of ₹400. Formulate the LPP to maximize profit. Find graphically the optimal land allocation and maximum profit.",
+  "answeroption": "B",
+  "explanation": "Let $x$ = hectares planted with wheat, $y$ = hectares planted with barley.<br /><br />Step 1: Decision variables $x, y$.<br /><br />Step 2: Objective to maximize $Z = 500x + 400y$<br /><br />Step 3: Constraints:<br /><br />Total land: $x + y \\leq 80$<br /><br />Fertilizer: $2x + 4y \\leq 120$<br /><br />Pesticide: $3x + 2y \\leq 90$<br /><br />Non-negativity: $x \\geq 0, y \\geq 0$<br /><br />Step 4: Draw the lines:<br /><br />$x + y = 80 \\implies y = 80-x$<br /><br />$2x + 4y = 120 \\implies x + 2y = 60 \\implies y = (60-x)/2$<br /><br />$3x + 2y = 90 \\implies y = (90-3x)/2$<br /><br />Step 5: Find intersection points:<br /><br />A) $x+y=80$ and $x+2y=60$:<br /><br />Subtract eq1 from eq2:<br /><br />$(x+2y)-(x+y)=60-80 \\implies y=-20$ (discard because $y<0$)<br /><br />B) $x+y=80$ and $3x+2y=90$<br /><br />$x+y=80 \\implies y=80-x$<br /><br />$3x+2y=90 \\implies 3x+2(80-x)=90 \\implies 3x+160-2x=90 \\implies x=90-160=-70$ (not possible)<br /><br />C) $2x+4y=120$ and $3x+2y=90$<br /><br />Let’s write as $x+2y=60$, $3x+2y=90$<br /><br />Subtract first from second: $2x=30\\implies x=15$<br /><br />Then $15+2y=60\\implies 2y=45\\implies y=22.5$<br /><br />So $(15,22.5)$<br /><br />D) $x+2y=60$, with $y=0$ gives $x=60$, $(60,0)$<br /><br />E) $3x+2y=90$, $y=0$: $3x=90\\implies x=30$, $(30,0)$<br /><br />F) $x+y=80, y=0$, $x=80$ $(80,0)$<br /><br />G) $x=0$ in $x+y=80$: $(0,80)$<br /><br />Check $(0,80)$: $2*0+4*80=320>120$, infeasible.<br /><br />$3*0+2*80=160>90$, infeasible.<br /><br />Try $x=0$ in $2x+4y=120$: $4y=120\\implies y=30$ $(0,30)$<br /><br />$x=0$ in $3x+2y=90: 2y=90\\implies y=45$ $(0,45)$<br /><br />Step 6: List feasible points in all constraints:<br /><br />- $(0,0)$, $(0,30)$, $(15,22.5)$, $(30,0)$, $(60,0)$<br /><br />Step 7: Compute $Z$ at each:<br /><br />$(0,0): 0$<br /><br />$(0,30): 0+400*30=12000$<br /><br />$(15,22.5)$: $500*15+400*22.5=7500+9000=16,500$<br /><br />$(30,0):15,000$<br /><br />$(60,0):30,000$<br /><br />Now check which are feasible against ALL constraints. $x+y\\leq 80$: ok for all.<br /><br />$2x+4y\\leq 120$: <br /><br />- $(60,0): 120$, ok<br /><br />- $(30,0): 60$, ok<br /><br />- $(15,22.5): 2*15+4*22.5=30+90=120$, ok<br /><br />$3x+2y\\leq 90$<br /><br />- $(60,0): 180>90$, NO<br /><br />- $(30,0): 90$, ok<br /><br />- $(15,22.5): 45+45=90$, ok<br /><br />- $(0,30):2*30=60$, ok<br /><br />Thus, feasible points: $(0,0)$, $(0,30)$, $(15,22.5)$, $(30,0)$<br /><br />Compute $Z$:<br /><br />$(0,30):12,000$<br /><br />$(15,22.5):16,500$<br /><br />$(30,0):15,000$<br /><br />Maximum at $(15,22.5):16,500$<br /><br />Thus, to maximize profit, allocate 15 hectares to wheat, 22.5 hectares to barley, with maximum profit of ₹16,500.",
+  "explanation_image": [],
+  "options": {
+    "A": "LPP: Maximize $Z=500x+400y$, subject to $x+y\\leq80$, $2x+4y\\leq120$, $3x+2y\\leq90$, $x,y\\geq0$; allocate 0 hectares wheat and 30 hectares barley; maximum profit ₹12,000.",
+    "B": "LPP: Maximize $Z=500x+400y$, subject to $x+y\\leq80$, $2x+4y\\leq120$, $3x+2y\\leq90$, $x,y\\geq0$; allocate 15 hectares wheat and 22.5 hectares barley; maximum profit ₹16,500.",
+    "C": "LPP: Maximize $Z=500x+400y$, subject to $x+y\\leq80$, $2x+4y\\leq120$, $3x+2y\\leq90$, $x,y\\geq0$; allocate 30 hectares wheat and 0 hectares barley; maximum profit ₹15,000.",
+    "D": "LPP: Maximize $Z=500x+400y$, subject to $x+y\\leq80$, $2x+4y\\leq120$, $3x+2y\\leq90$, $x,y\\geq0$; allocate 60 hectares wheat and 0 hectares barley; maximum profit ₹30,000."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:46:17 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

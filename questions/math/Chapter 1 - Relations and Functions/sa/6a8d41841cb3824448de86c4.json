@@ -1,0 +1,29 @@
+{
+  "id": "6a8d41841cb3824448de86c4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "SA",
+  "question": "Functions $f,g:\\mathbb{R}\\to\\mathbb{R}$ are defined by $f(x)=x+2$ and $g(x)=3x$. If $(g\\circ f)(x)=21$, find $x$. Also find $(f\\circ g)(x)$ for this value of $x$.",
+  "answeroption": "A",
+  "explanation": "<b>Formation of $g\\circ f$</b><br>$$(g\\circ f)(x)=g(x+2)=3(x+2)=3x+6.$$<br><br><b>Determination of $x$</b><br>Given $(g\\circ f)(x)=21$,<br>$$3x+6=21.$$<br>Therefore,<br>$$3x=15\\Rightarrow x=5.$$<br><br><b>Evaluation of $f\\circ g$</b><br>$$(f\\circ g)(x)=f(3x)=3x+2.$$<br>Therefore, at $x=5$,<br>$$(f\\circ g)(5)=3(5)+2=17.$$<br><br><b>Final result</b><br>Hence, $x=5$ and $(f\\circ g)(5)=17$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=5$ and $(f\\circ g)(5)=17$",
+    "B": "$x=5$ and $(f\\circ g)(5)=21$",
+    "C": "$x=7$ and $(f\\circ g)(7)=23$",
+    "D": "$x=3$ and $(f\\circ g)(3)=11$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

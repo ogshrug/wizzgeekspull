@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed3f1751910886affb9c4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977"
+  ],
+  "question_type": "SA",
+  "question": "Show that the function $f(x)=2x+\\sin x$ is strictly increasing on $\\mathbb{R}$.",
+  "answeroption": "B",
+  "explanation": "<b>Given function</b><br>$$f(x)=2x+\\sin x$$<br><b>First derivative</b><br>Differentiating with respect to $x$,<br>$$f'(x)=2+\\cos x$$<br><b>Range of the trigonometric term</b><br>For every real $x$,<br>$$-1\\leq\\cos x\\leq1$$<br>Therefore,<br>$$f'(x)=2+\\cos x\\geq2-1=1$$<br><b>Sign of the derivative</b><br>Thus, $f'(x)>0$ for every $x\\in\\mathbb{R}$. A differentiable function whose derivative is positive throughout an interval is strictly increasing on that interval.<br><b>Conclusion</b><br>Hence, $f(x)=2x+\\sin x$ is strictly increasing on $(-\\infty,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Strictly decreasing on $\\mathbb{R}$ because $f'(x)<0$ for all $x$",
+    "B": "Strictly increasing on $\\mathbb{R}$ because $f'(x)=2+\\cos x>0$ for all $x$",
+    "C": "Increasing only when $\\cos x>0$",
+    "D": "Neither increasing nor decreasing on $\\mathbb{R}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

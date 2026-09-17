@@ -1,0 +1,31 @@
+{
+  "id": "6a2278c0864be73cfcf6d1df",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "MCQ",
+  "question": "A spherical ball has a variable diameter $\\frac{5}{2}(3x+1)$. The rate of change of its volume w.r.t. $x$, when $x=1$, is :",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Identify the formula for the volume of a sphere: $V = \\frac{4}{3}\\pi r^3$.<br />**Step 2:** The given diameter is $d = \\frac{5}{2}(3x+1)$. Therefore, the radius is half of that: $r = \\frac{5}{4}(3x+1)$.<br />**Step 3:** Substitute the radius into the volume formula: $V = \\frac{4}{3}\\pi [\\frac{5}{4}(3x+1)]^3 = \\frac{4}{3}\\pi \\cdot \\frac{125}{64} (3x+1)^3 = \\frac{125\\pi}{48}(3x+1)^3$.<br />**Step 4:** Differentiate the volume with respect to $x$ using the chain rule: $\\frac{dV}{dx} = \\frac{125\\pi}{48} \\cdot 3(3x+1)^2 \\cdot \\frac{d}{dx}(3x+1)$.<br />**Step 5:** This simplifies to $\\frac{dV}{dx} = \\frac{125\\pi}{48} \\cdot 3(3x+1)^2 \\cdot 3 = \\frac{1125\\pi}{48}(3x+1)^2 = \\frac{375\\pi}{16}(3x+1)^2$.<br />**Step 6:** Evaluate this derivative precisely at $x=1$: $\\frac{dV}{dx}\\Big|_{x=1} = \\frac{375\\pi}{16}(3(1)+1)^2 = \\frac{375\\pi}{16}(4)^2 = \\frac{375\\pi}{16}(16) = 375\\pi$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$225\\pi$",
+    "B": "$300\\pi$",
+    "C": "$375\\pi$",
+    "D": "$125\\pi$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

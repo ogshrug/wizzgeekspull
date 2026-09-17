@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed8154b490c7cde35949c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int_0^1\\frac{2x}{1+x^2}\\,dx$ using a suitable substitution.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> The denominator is $1+x^2$, whose derivative $2x$ occurs in the numerator. Hence substitution is suitable.<br><b>Step 2:</b> Put $t=1+x^2$. Then $dt=2x\\,dx$.<br><b>Step 3:</b> Change the limits: when $x=0$, $t=1$; when $x=1$, $t=2$.<br><b>Step 4:</b> Therefore, $$\\int_0^1\\frac{2x}{1+x^2}\\,dx=\\int_1^2\\frac{dt}{t}.$$<br><b>Step 5:</b> Integrating and applying the new limits, $$[\\log t]_1^2=\\log2-\\log1.$$<br><b>Step 6:</b> Since $\\log1=0$, the required value is $\\boxed{\\log2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}\\log2$",
+    "B": "$2\\log2$",
+    "C": "$\\log2$",
+    "D": "$1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

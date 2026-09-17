@@ -1,0 +1,29 @@
+{
+  "id": "6a265a8e864be73cfcf6d358",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "VSA",
+  "question": "A coin is tossed twice. The following table shows the probability distribution of number of tails :<br /><br /><table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse; margin: 10px 0;\"><tr><th>X</th><td>0</td><td>1</td><td>2</td></tr><tr><th>P(X)</th><td>K</td><td>6K</td><td>9K</td></tr></table><br /><br />**(a)** Find the value of K.<br />**(b)** Is the coin tossed biased or unbiased? Justify your answer.",
+  "answeroption": "",
+  "explanation": "**(a)** **Step 1:** A fundamental mathematical rule for any valid discrete probability distribution states that the sum of all individual probabilities assigned to all possible random variable values must be equal to exactly 1. Symbolically, this is written as $\\sum P(X_i) = 1$. From the given distribution table, the probabilities associated with $X = 0, 1, 2$ are $K, 6K,$ and $9K$ respectively. Summing these terms gives the linear equation: $K + 6K + 9K = 1$. Simplifying this expression gives $16K = 1$, which solves to $K = \\frac{1}{16}$.<br /><br />**(b)** **Step 1:** To determine if the coin is biased or unbiased, evaluate the numerical probabilities by substituting $K = \\frac{1}{16}$ back into the table expressions. This gives: $P(X=0) = \\frac{1}{16}$, $P(X=1) = \\frac{6}{16} = \\frac{3}{8}$, and $P(X=2) = \\frac{9}{16}$.<br />**Step 2:** For a standard unbiased coin, the probability of getting a tail on any single flip is $p = \\frac{1}{2}$ and a head is $q = \\frac{1}{2}$. If an unbiased coin is flipped twice independently, the theoretical binomial probabilities for the number of tails are: $P(X=0) = q^2 = (\\frac{1}{2})^2 = \\frac{1}{4}$, $P(X=1) = 2pq = 2(\\frac{1}{2})(\\frac{1}{2}) = \\frac{1}{2}$, and $P(X=2) = p^2 = (\\frac{1}{2})^2 = \\frac{1}{4}$. Comparing our actual derived table probabilities (such as $P(X=0) = \\frac{1}{16}$) with these theoretical unbiased expectations (where $P(X=0) = \\frac{1}{4}$), we see they do not match. Therefore, the coin is biased.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1",
+    "2022-4-2",
+    "2022-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

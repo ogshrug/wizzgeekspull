@@ -1,0 +1,31 @@
+{
+  "id": "6a91267f2e54880055a0a777",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8de",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "The feasible region of a linear programming problem is determined by $x+2y\\leq12$, $3x+y\\leq15$, $x\\geq0$ and $y\\geq0$. Without drawing a graph:<br>(i) Obtain the corner points of the feasible region by using the boundary equations.<br>(ii) Justify whether the feasible region is bounded.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Finding the intercept corner points</b><br>On the $x$-axis, $y=0$. The constraints give $x\\leq12$ and $3x\\leq15$, so the relevant corner point is $(5,0)$. On the $y$-axis, $x=0$, giving $2y\\leq12$ and $y\\leq15$, so the corner point is $(0,6)$. The origin $(0,0)$ is also feasible.<br><b>Step 2: Finding the intersection of boundary lines</b><br>Solve $$x+2y=12,\\quad3x+y=15$$ From $x=12-2y$, $$3(12-2y)+y=15\\Rightarrow36-5y=15$$ Hence, $$y=\\frac{21}{5},\\quad x=\\frac{18}{5}$$<br><b>Step 3: Listing the corner points</b><br>The corner points are $(0,0)$, $(5,0)$, $\\left(\\frac{18}{5},\\frac{21}{5}\\right)$ and $(0,6)$.<br><b>Step 4: Establishing boundedness</b><br>Every feasible point satisfies $0\\leq x\\leq5$ and $0\\leq y\\leq6$. Thus, the region is confined within finite limits and is therefore bounded.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $(0,0)$, $(5,0)$, $\\left(\\frac{18}{5},\\frac{21}{5}\\right)$, $(0,6)$<br>(ii) The feasible region is bounded",
+    "B": "(i) $(0,0)$, $(12,0)$, $(5,5)$, $(0,15)$<br>(ii) The feasible region is unbounded",
+    "C": "(i) $(0,0)$, $(5,0)$, $\\left(\\frac{21}{5},\\frac{18}{5}\\right)$, $(0,6)$<br>(ii) The feasible region is bounded",
+    "D": "(i) $(0,0)$, $(6,0)$, $\\left(\\frac{18}{5},\\frac{21}{5}\\right)$, $(0,5)$<br>(ii) The feasible region is unbounded"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

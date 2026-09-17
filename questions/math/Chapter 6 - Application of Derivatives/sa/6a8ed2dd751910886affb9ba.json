@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed2dd751910886affb9ba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973"
+  ],
+  "question_type": "SA",
+  "question": "A quantity is represented by $Q(t)=at^2+bt$. Its instantaneous rates of change at $t=1$ and $t=2$ are $7$ and $11$, respectively. Determine $a$ and $b$, and hence find its instantaneous rate at $t=3$.",
+  "answeroption": "A",
+  "explanation": "Rate functionDifferentiating $Q(t)=at^2+bt$ gives$$\\frac{dQ}{dt}=2at+b$$Condition at $t=1$$$2a+b=7$$Condition at $t=2$$$4a+b=11$$Determination of the parametersSubtracting the first equation from the second gives$$2a=4\\Rightarrow a=2$$Substituting in $2a+b=7$,$$4+b=7\\Rightarrow b=3$$Rate at $t=3$$$\\left.\\frac{dQ}{dt}\\right|_{t=3}=2(2)(3)+3=15$$Final resultThe parameters are $a=2$ and $b=3$, and the instantaneous rate at $t=3$ is $15$ units per unit time.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=2$, $b=3$; rate at $t=3$ is $15$",
+    "B": "$a=3$, $b=1$; rate at $t=3$ is $19$",
+    "C": "$a=2$, $b=5$; rate at $t=3$ is $17$",
+    "D": "$a=1$, $b=5$; rate at $t=3$ is $11$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

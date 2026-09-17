@@ -1,0 +1,31 @@
+{
+  "id": "6a8ebf2e751910886affb98e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7c",
+    "69c6610140512f018fa94d7d"
+  ],
+  "question_type": "SA",
+  "question": "If $$y=\\sin^{-1}x+\\cos^{-1}x,\\qquad -1<x<1,$$ find $\\frac{dy}{dx}$ and hence justify that $y$ is constant on the given interval.",
+  "answeroption": "C",
+  "explanation": "<b>Differentiation of inverse trigonometric terms</b><br>$$\\frac{dy}{dx}=\\frac{1}{\\sqrt{1-x^2}}-\\frac{1}{\\sqrt{1-x^2}}$$<br>Hence, $$\\frac{dy}{dx}=0.$$<br><b>Conclusion from the derivative</b><br>Since the derivative is zero for every $x\\in(-1,1)$, $y$ is constant on this interval.<br>Thus, the given expression has a constant value.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{2}{\\sqrt{1-x^2}}$, so $y$ is increasing.",
+    "B": "$\\frac{dy}{dx}=-\\frac{2}{\\sqrt{1-x^2}}$, so $y$ is decreasing.",
+    "C": "$\\frac{dy}{dx}=0$, so $y$ is constant on $(-1,1)$.",
+    "D": "$\\frac{dy}{dx}=1$, so $y$ is not constant on $(-1,1)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

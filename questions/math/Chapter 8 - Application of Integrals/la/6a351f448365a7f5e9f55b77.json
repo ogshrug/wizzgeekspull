@@ -1,0 +1,27 @@
+{
+  "id": "6a351f448365a7f5e9f55b77",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f996"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, find the area of the region enclosed between the curve $y=\\sqrt{4-x^{2}}$ and the lines $x=-1$, $x=1$ and the x-axis.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Identify the curve $y = \\sqrt{4-x^2}$, which represents the upper half of a circle $x^2 + y^2 = 4$ with radius $r=2$. The region is bounded by this curve, the x-axis, and the vertical lines $x=-1$ and $x=1$.\n\n**Step 2:** Set up the definite integral for the area: $A = \\int_{-1}^{1} \\sqrt{4-x^2} dx$.\n\n**Step 3:** Since $f(x) = \\sqrt{4-x^2}$ is an even function ($f(-x) = f(x)$), apply the even function property to simplify the integral: $A = 2 \\int_{0}^{1} \\sqrt{2^2-x^2} dx$.\n\n**Step 4:** Apply the standard integration formula $\\int \\sqrt{a^2-x^2} dx = \\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2}\\sin^{-1}\\left(\\frac{x}{a}\\right)$ to get: $A = 2 \\left[ \\frac{x}{2}\\sqrt{4-x^2} + \\frac{4}{2}\\sin^{-1}\\left(\\frac{x}{2}\\right) \\right]_0^1$.\n\n**Step 5:** Substitute the limits. For the upper limit $x=1$: $\\frac{1}{2}\\sqrt{3} + 2\\sin^{-1}\\left(\\frac{1}{2}\\right) = \\frac{\\sqrt{3}}{2} + 2\\left(\\frac{\\pi}{6}\\right) = \\frac{\\sqrt{3}}{2} + \\frac{\\pi}{3}$. For the lower limit $x=0$, the value evaluates to $0$. Distributing the outer $2$ gives the final area: $A = 2\\left(\\frac{\\sqrt{3}}{2} + \\frac{\\pi}{3}\\right) = \\sqrt{3} + \\frac{2\\pi}{3}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

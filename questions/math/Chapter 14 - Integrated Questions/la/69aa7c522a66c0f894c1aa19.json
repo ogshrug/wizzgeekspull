@@ -1,0 +1,30 @@
+{
+  "id": "69aa7c522a66c0f894c1aa19",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "The line $l$ passes through the point $A(1, 2, 3)$ and is parallel to the vector $\\vec{d} = 2\\hat{i} - \\hat{j} + 2\\hat{k}$. The plane $\\pi$ has equation $x - 2y + z = 7$.\n\n(a) Determine the parametric equations of the line $l$.\n\n(b) Find the coordinates of the point of intersection of $l$ and $\\pi$.\n\n(c) Find the acute angle between the line $l$ and the plane $\\pi$.\n\n(d) Determine the shortest distance from the origin to the line $l$.",
+  "answeroption": "B",
+  "explanation": "**Concepts being tested:** Three Dimensional Geometry (Line and Plane Intersections, Distance, Angle), Vector Geometry, Projections.<br /><br />---<br /><br />(a) The line $l$ passing through $A(1,2,3)$ and parallel to $\\vec{d}$ has equations:<br /><br />$x = 1 + 2t$<br /><br />$y = 2 - t$<br /><br />$z = 3 + 2t$<br /><br />---<br /><br />(b) To find intersection with $x - 2y + z = 7$, substitute:<br /><br />$x = 1+2t, y=2-t, z=3+2t$<br /><br />$1+2t - 2(2-t) + 3+2t = 7$<br /><br />$1+2t -4+2t + 3+2t = 7$<br /><br />$(1-4+3) + (2t+2t+2t) = 7$<br /><br />$0 + 6t = 7 \\implies t = 7/6$<br /><br />So intersection point:<br /><br />$x = 1 + 2(7/6) = 1+7/3=10/3$<br /><br />$y = 2 - (7/6) = (12-7)/6=5/6$<br /><br />$z = 3 + 2(7/6) = 3 + 7/3 = 16/3$<br /><br />---<br /><br />(c) The angle $\\theta$ between line and plane: $\\sin \\theta = \\frac{|\\vec{d} \\cdot \\vec{n}|}{|\\vec{d}||\\vec{n}|}$ where $\\vec{n}=(1,-2,1)$<br /><br />$\\vec{d}\\cdot\\vec{n} = 2\\cdot1 + (-1)(-2) + 2\\cdot1 = 2+2+2=6$<br /><br />$|\\vec{d}| = \\sqrt{4+1+4}=3$<br /><br />$|\\vec{n}|=\\sqrt{1+4+1}=\\sqrt{6}$<br /><br />$\\sin \\theta = |6|/(3\\sqrt{6}) = 2/\\sqrt{6} = \\sqrt{2/3}$<br /><br />$\\theta = \\sin^{-1}(\\sqrt{2/3})$<br /><br />---<br /><br />(d) Distance from origin to line: $D = \\frac{|(\\vec{a} - \\vec{0}) \\times \\vec{d}|}{|\\vec{d}|}$<br /><br />$\\vec{a} = (1,2,3), \\vec{d} = (2,-1,2)$<br /><br />$\\vec{a}\\times\\vec{d} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & 3 \\\\ 2 & -1 & 2 \\end{vmatrix}$<br /><br />$= \\hat{i}(2\\cdot2-3\\cdot(-1)) - \\hat{j}(1\\cdot2-3\\cdot2) + \\hat{k}(1\\cdot(-1)-2\\cdot2)$<br /><br />$= \\hat{i}(4+3) - \\hat{j}(2-6)+\\hat{k}(-1-4)$<br /><br />$= 7\\hat{i} - (-4)\\hat{j} -5\\hat{k}$<br /><br />$= (7,4,-5)$<br /><br />$|\\vec{a}\\times\\vec{d}|=\\sqrt{49+16+25}=\\sqrt{90}$<br /><br />$|\\vec{d}|=3$<br /><br />Distance $= \\frac{\\sqrt{90}}{3} = \\sqrt{10}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $x=1+t,\\ y=2+2t,\\ z=3-t$<br />(b) Intersection point $\\left(\\frac{13}{3},\\frac{5}{6},\\frac{10}{3}\\right)$<br />(c) $\\theta=\\cos^{-1}\\left(\\sqrt{\\frac{2}{3}}\\right)$<br />(d) Shortest distance $=\\sqrt{6}$",
+    "B": "(a) $x=1+2t,\\ y=2-t,\\ z=3+2t$<br />(b) Intersection point $\\left(\\frac{10}{3},\\frac{5}{6},\\frac{16}{3}\\right)$<br />(c) $\\theta=\\sin^{-1}\\left(\\sqrt{\\frac{2}{3}}\\right)$<br />(d) Shortest distance $=\\sqrt{10}$",
+    "C": "(a) $x=1-2t,\\ y=2+t,\\ z=3-2t$<br />(b) Intersection point $\\left(-\\frac{4}{3},\\frac{19}{6},\\frac{2}{3}\\right)$<br />(c) $\\theta=\\sin^{-1}\\left(\\frac{1}{\\sqrt{6}}\\right)$<br />(d) Shortest distance $=3\\sqrt{10}$",
+    "D": "(a) $x=1+2t,\\ y=2-t,\\ z=3+2t$<br />(b) Intersection point $\\left(\\frac{7}{3},\\frac{7}{6},\\frac{13}{3}\\right)$<br />(c) $\\theta=\\cos^{-1}\\left(\\sqrt{\\frac{2}{3}}\\right)$<br />(d) Shortest distance $=\\frac{\\sqrt{10}}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:03:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

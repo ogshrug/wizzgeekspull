@@ -1,0 +1,30 @@
+{
+  "id": "69aa6bb4d30adc5083911b89",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\begin{cases} (x-1)^2, & x \\leq 1 \\\\ 2x-2, & x > 1 \\end{cases}$. \n\n(a) Prove $f(x)$ is continuous everywhere.\n\n(b) Show that $f$ is differentiable everywhere except possibly at $x=1$.\n\n(c) Compute $\\lim_{x\\to1^-} f'(x)$ and $\\lim_{x\\to1^+} f'(x)$ and determine if $f(x)$ is differentiable at $x=1$.\n\n(d) Find the set $S=\\{x:f(x)=0\\}$.\n\n(e) Construct the $2\\times2$ matrix $M$ with $M_{ij}=f(i+j)$ for $i,j=0,1$ and compute its determinant.",
+  "answeroption": "B",
+  "explanation": "**Concepts tested:** Continuity, Differentiability, Piecewise Functions, Matrices, Determinants<br /><br />(a) For $x\\leq1: f(x) = (x-1)^2$, for $x>1: f(x) = 2x-2$. $f(1^-) = 0$, $f(1^+)=0$, $f(1)=0$, so $f$ is continuous at $x=1$; smooth elsewhere.<br /><br />(b) $f(x)$ is quadratic or linear everywhere except possibly at the junction $x=1$.<br /><br />(c) For $x<1$: $f'(x) = 2(x-1)\\implies f'(1^-)=0$<br /><br />For $x>1$: $f'(x)=2\\implies f'(1^+)=2$<br /><br />So not differentiable at $x=1$.<br /><br />(d) $f(x)=0: (x-1)^2=0$ yields $x=1$; $2x-2=0$ yields $x=1$. So $S=\\{1\\}$.<br /><br />(e) $M_{00}=f(0)=1$, $M_{01}=f(1)=0$,<br /><br />$M_{10}=f(1)=0$, $M_{11}=f(2)=2$,<br /><br />So $M=\\begin{pmatrix}1&0\\\\0&2\\end{pmatrix}$,<br /><br />$|M|=1\\cdot2-0\\cdot0=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is discontinuous at $x=1$<br />(b) $f$ is not differentiable anywhere<br />(c) $\\lim_{x\\to1^-}f'(x)=2$, $\\lim_{x\\to1^+}f'(x)=2$, so differentiable at $x=1$<br />(d) $S=\\varnothing$<br />(e) $M=\\begin{pmatrix}0&1\\\\1&2\\end{pmatrix}$ and $|M|=-1$",
+    "B": "(a) $f$ is continuous everywhere<br />(b) $f$ is differentiable everywhere except possibly at $x=1$<br />(c) $\\lim_{x\\to1^-}f'(x)=0$ and $\\lim_{x\\to1^+}f'(x)=2$, so $f$ is not differentiable at $x=1$<br />(d) $S=\\{1\\}$<br />(e) $M=\\begin{pmatrix}1&0\\\\0&2\\end{pmatrix}$ and $|M|=2$",
+    "C": "(a) $f$ is continuous only for $x<1$<br />(b) $f$ is differentiable at $x=1$ only<br />(c) Both one-sided derivatives are $0$<br />(d) $S=\\{0,1\\}$<br />(e) $M=\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}$ and $|M|=0$",
+    "D": "(a) $f$ has a jump discontinuity at $x=1$<br />(b) $f$ is differentiable on $\\mathbb{R}$<br />(c) Both one-sided derivatives are $2$<br />(d) $S=\\{2\\}$<br />(e) $M=\\begin{pmatrix}2&0\\\\0&1\\end{pmatrix}$ and $|M|=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:52:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

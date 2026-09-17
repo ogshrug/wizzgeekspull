@@ -1,0 +1,31 @@
+{
+  "id": "6a8f005abe0ecc7866e90c1c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f975",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A square display panel is designed so that its diagonal can expand uniformly during a thermal-resistance test. Let $d$ centimetres be its diagonal, $A$ square centimetres its area and $P$ centimetres its perimeter. During one stage of the test, the diagonal increases at a constant rate of $2\\ \\text{cm/s}$. The engineers want to determine how this change affects both the area and perimeter when the diagonal is $10\\ \\text{cm}$ and to compare their relative rates of change.(a) Express $A$ and $P$ in terms of $d$.(b) Find the instantaneous rate of increase of the area when $d=10\\ \\text{cm}$.(c) Find the instantaneous rate of increase of the perimeter at the same instant.(d) Compare the relative rates of change of the area and perimeter.",
+  "answeroption": "A",
+  "explanation": "(a)If $a$ is the side of the square, then`d=a\\sqrt{2}`Therefore,`a=\\frac{d}{\\sqrt{2}}`The area is`A=a^2=\\frac{d^2}{2}`The perimeter is`P=4a=2\\sqrt{2}d`(b)Differentiating $A=\\frac{d^2}{2}$ with respect to time,`\\frac{dA}{dt}=d\\frac{dd}{dt}`At $d=10\\ \\text{cm}$ and $\\frac{dd}{dt}=2\\ \\text{cm/s}$,`\\frac{dA}{dt}=10(2)=20\\ \\text{cm}^2/\\text{s}`(c)Differentiating $P=2\\sqrt{2}d$ with respect to time,`\\frac{dP}{dt}=2\\sqrt{2}\\frac{dd}{dt}`Therefore,`\\frac{dP}{dt}=2\\sqrt{2}(2)=4\\sqrt{2}\\ \\text{cm/s}`(d)When $d=10$,`A=\\frac{(10)^2}{2}=50\\ \\text{cm}^2`Therefore, the relative rate of change of area is`\\frac{1}{A}\\frac{dA}{dt}=\\frac{20}{50}=0.4\\ \\text{s}^{-1}`Also,`P=2\\sqrt{2}(10)=20\\sqrt{2}\\ \\text{cm}`The relative rate of change of perimeter is`\\frac{1}{P}\\frac{dP}{dt}=\\frac{4\\sqrt{2}}{20\\sqrt{2}}=0.2\\ \\text{s}^{-1}`Thus, the relative rate of increase of the area is twice the relative rate of increase of the perimeter.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=\\frac{d^2}{2},\\ P=2\\sqrt{2}d$<br>(b) $\\frac{dA}{dt}=20\\ \\text{cm}^2/\\text{s}$<br>(c) $\\frac{dP}{dt}=4\\sqrt{2}\\ \\text{cm/s}$<br>(d) Relative rates are $0.4\\ \\text{s}^{-1}$ and $0.2\\ \\text{s}^{-1}$; area rate is twice the perimeter rate",
+    "B": "(a) $A=d^2,\\ P=4d$<br>(b) $\\frac{dA}{dt}=40\\ \\text{cm}^2/\\text{s}$<br>(c) $\\frac{dP}{dt}=8\\ \\text{cm/s}$<br>(d) The two relative rates are equal",
+    "C": "(a) $A=\\frac{d^2}{2},\\ P=2\\sqrt{2}d$<br>(b) $\\frac{dA}{dt}=10\\ \\text{cm}^2/\\text{s}$<br>(c) $\\frac{dP}{dt}=2\\sqrt{2}\\ \\text{cm/s}$<br>(d) Relative rates are both $0.2\\ \\text{s}^{-1}$",
+    "D": "(a) $A=2d^2,\\ P=4\\sqrt{2}d$<br>(b) $\\frac{dA}{dt}=80\\ \\text{cm}^2/\\text{s}$<br>(c) $\\frac{dP}{dt}=8\\sqrt{2}\\ \\text{cm/s}$<br>(d) Perimeter relative rate is twice the area relative rate"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

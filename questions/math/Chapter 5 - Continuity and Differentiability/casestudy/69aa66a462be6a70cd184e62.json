@@ -1,0 +1,30 @@
+{
+  "id": "69aa66a462be6a70cd184e62",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 3: Economics and Logarithmic Differentiation with Base Change**  <br />A tech firm’s user growth $U(x)$ is modeled as $U(x) = (2x + 5)^{x^2}$, where $x$ is years since launch. The company measures market penetration with $Q(x) = \\log_{10}(U(x))$.  <br /><br />(a) Use base change for logarithms to express $Q(x)$ in terms of natural logs.  <br />(b) Apply logarithmic differentiation to $U(x)$ to compute $U'(x)$.  <br />(c) Find $Q'(x)$ in terms of $x$.",
+  "answeroption": "A",
+  "explanation": "(a)<br /><br />$Q(x) = \\log_{10}(U(x))$<br />By base change:<br />$\\log_{10} a = \\frac{\\ln a}{\\ln 10}$<br />So,<br />$Q(x) = \\frac{\\ln (2x + 5)^{x^2}}{\\ln 10}$<br />$= \\frac{x^2 \\ln(2x + 5)}{\\ln 10}$<br /><br />(b) Let $y = (2x+5)^{x^2}$<br />Take $\\ln$ both sides:<br />$\\ln y = x^2 \\ln(2x+5)$<br />Differentiate both sides w.r.t. $x$:<br />$\\frac{1}{y}\\frac{dy}{dx} = 2x \\ln(2x+5) + x^2 \\cdot \\frac{1}{2x+5} \\cdot 2$<br />$= 2x \\ln(2x+5) + \\frac{2x^2}{2x+5}$<br />So,<br />$\\frac{dy}{dx} = (2x+5)^{x^2}\\left[2x \\ln(2x+5) + \\frac{2x^2}{2x+5}\\right]$<br /><br />(c) $Q(x) = \\frac{x^2 \\ln(2x+5)}{\\ln 10}$<br /><br />$Q'(x) = \\frac{1}{\\ln 10}\\cdot[ 2x \\ln (2x+5) + x^2 \\cdot \\frac{2}{2x+5} ]$<br />$= \\frac{2x \\ln(2x+5) + \\frac{2x^2}{2x+5}}{\\ln 10}$<br /><br />This gives the rate of change of the market penetration score with respect to time.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $Q(x)=\\dfrac{x^2\\ln(2x+5)}{\\ln10}$<br />(b) $U'(x)=(2x+5)^{x^2}\\left[2x\\ln(2x+5)+\\dfrac{2x^2}{2x+5}\\right]$<br />(c) $Q'(x)=\\dfrac{2x\\ln(2x+5)+\\frac{2x^2}{2x+5}}{\\ln10}$",
+    "B": "(a) $Q(x)=x^2\\ln(2x+5)$<br />(b) $U'(x)=2x(2x+5)^{x^2-1}$<br />(c) $Q'(x)=2x\\ln(2x+5)$",
+    "C": "(a) $Q(x)=\\dfrac{\\ln(2x+5)}{x^2\\ln10}$<br />(b) $U'(x)=(2x+5)^{x^2}\\left[\\ln(2x+5)+\\dfrac{2}{2x+5}\\right]$<br />(c) $Q'(x)=\\dfrac{2}{(2x+5)\\ln10}$",
+    "D": "(a) $Q(x)=\\dfrac{x^2}{\\ln(2x+5)}$<br />(b) $U'(x)=x^2(2x+5)^{x^2-1}$<br />(c) $Q'(x)=\\dfrac{x^2}{2x+5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:31:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

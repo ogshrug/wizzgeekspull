@@ -1,0 +1,30 @@
+{
+  "id": "69a979edd30adc5083911ae5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "If $X$ is a random variable with $P(X = x) = \\dfrac{k}{2^{x}}, x = 1,2,3,4,$ and $0$ otherwise, find $k$ and $P(X\\geq 3)$.",
+  "answeroption": "D",
+  "explanation": "$\\sum P(X = x) = 1$ for $x=1$ to $4$:<br />$k/2^1 + k/2^2 + k/2^3 + k/2^4 = 1$<br /><br />$= k(1/2 + 1/4 + 1/8 + 1/16) = k(8/16 + 4/16 + 2/16 + 1/16) = k(15/16)=1$<br /><br />So, $k = 16/15$<br /><br />Now, $P(X\\geq 3) = P(X=3) + P(X=4)$<br />$= k/8 + k/16 = (16/15)\\times(1/8+1/16)= (16/15)\\times(3/16)=3/15=1/5$<br /><br />Final answers: $k=\\dfrac{16}{15}$, $P(X\\geq 3)=\\dfrac{1}{5}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=\\frac{15}{16}$<br />$P(X\\geq3)=\\frac{1}{5}$",
+    "B": "$k=\\frac{16}{15}$<br />$P(X\\geq3)=\\frac{3}{5}$",
+    "C": "$k=\\frac{8}{15}$<br />$P(X\\geq3)=\\frac{1}{4}$",
+    "D": "$k=\\frac{16}{15}$<br />$P(X\\geq3)=\\frac{1}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:41:17 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

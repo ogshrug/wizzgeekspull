@@ -1,0 +1,27 @@
+{
+  "id": "6a27decc233c5169a79c53eb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987",
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "LA",
+  "question": "A rectangle of perimeter 30 cm is revolved along one of its sides to sweep out a cylinder of maximum volume. Find the dimensions of the rectangle.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the sides of the given rectangle be denoted by variables $x$ and $y$, representing its length and breadth respectively. The problem specifies that the perimeter of this geometric figure is exactly equal to 30 cm. Using the standard formula for the perimeter of a rectangle, we can establish the linear relationship $2(x + y) = 30$, which simplifies directly to $x + y = 15$. To facilitate optimization using single-variable calculus, we express the variable $y$ explicitly in terms of $x$ as $y = 15 - x$.<br /><br />**Step 2:** When the rectangle is rotated completely about the side of length $y$, it sweeps out a solid right circular cylinder. The radius $r$ of this cylinder corresponds to side $x$, while the height $h$ corresponds to side $y$. The mathematical formula for the volume of a cylinder is $V = \\pi r^2 h$. Substituting our single-variable expressions into this equation yields $V(x) = \\pi x^2 (15 - x) = \\pi(15x^2 - x^3)$. To find the optimal dimensions for maximum volume, we differentiate $V(x)$ with respect to $x$, obtaining $\\frac{dV}{dx} = \\pi(30x - 3x^2)$.<br /><br />**Step 3:** Setting the first derivative equal to zero gives $3\\pi x(10 - x) = 0$. Since a dimension length cannot be zero, we find the critical point $x = 10$. To confirm maximum volume, we find the second derivative $\\frac{d^2V}{dx^2} = \\pi(30 - 6x)$. Evaluating at $x = 10$ yields $-30\\pi$, which is negative, confirming a local maximum. Thus, the optimal dimensions are $x = 10$ cm and $y = 5$ cm.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

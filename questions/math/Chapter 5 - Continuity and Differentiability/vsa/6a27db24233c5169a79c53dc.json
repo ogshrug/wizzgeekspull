@@ -1,0 +1,26 @@
+{
+  "id": "6a27db24233c5169a79c53dc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "VSA",
+  "question": "If $x=sin~t-cos~t$, $y=sin~t~cos~t$, find $\\frac{dy}{dx}$ at $t=\\frac{\\pi}{4}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate $x$ and $y$ with respect to $t$: $\\frac{dx}{dt} = \\cos t + \\sin t$ and $\\frac{dy}{dt} = \\cos^2 t - \\sin^2 t$.<br />**Step 2:** Use the parametric derivative formula $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{\\cos^2 t - \\sin^2 t}{\\cos t + \\sin t}$. Simplifying using algebraic factoring yields $\\frac{dy}{dx} = \\cos t - \\sin t$.<br />**Step 3:** Substitute $t = \\frac{\\pi}{4}$: $\\frac{dy}{dx} = \\cos\\frac{\\pi}{4} - \\sin\\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}} - \\frac{1}{\\sqrt{2}} = 0$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

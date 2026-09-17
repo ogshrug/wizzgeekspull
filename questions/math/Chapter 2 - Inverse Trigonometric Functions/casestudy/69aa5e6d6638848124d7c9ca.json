@@ -1,0 +1,30 @@
+{
+  "id": "69aa5e6d6638848124d7c9ca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A navigation software estimates direction correction using $\\theta = 2 \\sin^{-1} \\left(\\frac{v}{10}\\right)$, where $v$ is the vehicle’s lateral drift speed in m/s ($-10 \\leq v \\leq 10$).<br /><br />(a) Find the range of $\\theta$.<br /><br />(b) If $\\theta = \\pi$, find $v$.<br /><br />(c) What value(s) of $v$ yield $\\theta = 0$?<br /><br />(d) If $v = 5$, compute $\\theta$.",
+  "answeroption": "C",
+  "explanation": "(a) Since $-1 \\leq v/10 \\leq 1$, $\\sin^{-1}(v/10) \\in [-\\frac{\\pi}{2},\\frac{\\pi}{2}]$. <br /><br />Thus $\\theta=2\\sin^{-1}(v/10)$ lies in $[-\\pi,\\pi]$.<br /><br />(b) If $\\theta=\\pi$, then $2\\sin^{-1}(v/10)=\\pi$.<br /><br /> Hence $\\sin^{-1}(v/10)=\\frac{\\pi}{2}$ so $v=10$.<br /><br />(c) If $\\theta=0$, then $\\sin^{-1}(v/10)=0$ so $v=0$.<br /><br />(d) For $v=5$, $v/10=0.5$ so $\\sin^{-1}(0.5)=\\frac{\\pi}{6}$.<br /><br /> Hence $\\theta=\\frac{\\pi}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\theta \\in [0,\\pi]$; (b) $v=5$; (c) $v=10$; (d) $\\theta=\\frac{\\pi}{6}$",
+    "B": "(a) $\\theta \\in [-\\frac{\\pi}{2},\\frac{\\pi}{2}]$; (b) $v=0$; (c) $v=5$; (d) $\\theta=\\frac{\\pi}{4}$",
+    "C": "(a) $\\theta \\in [-\\pi,\\pi]$; (b) $v=10$; (c) $v=0$; (d) $\\theta=\\frac{\\pi}{3}$",
+    "D": "(a) $\\theta \\in [-\\pi,0]$; (b) $v=-10$; (c) $v=0$; (d) $\\theta=\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 04:56:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

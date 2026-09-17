@@ -1,0 +1,30 @@
+{
+  "id": "69a86ba4b4df445c7f648c77",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "LA",
+  "question": "Let $y = e^{\\ln \\sin x}$ with $0 < x < \\pi$, and find $\\frac{d^2y}{dx^2}$ in the simplest form using logarithmic differentiation.",
+  "answeroption": "A",
+  "explanation": "Given $y = e^{\\ln \\sin x}$<br /><br />First, $e^{\\ln \\sin x} = \\sin x$ (since $e^{\\ln t} = t$)<br /><br />So $y = \\sin x$<br /><br />First derivative:<br /><br />$\\frac{dy}{dx} = \\cos x$<br /><br />Second derivative:<br /><br />$\\frac{d^2y}{dx^2} = -\\sin x$<br /><br />Thus,<br /><br />$\\boxed{\\frac{d^2y}{dx^2} = -\\sin x}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}=-\\sin x$",
+    "B": "$\\frac{d^2y}{dx^2}=\\cos x$",
+    "C": "$\\frac{d^2y}{dx^2}=\\sin x$",
+    "D": "$\\frac{d^2y}{dx^2}=-\\cos x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:28:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

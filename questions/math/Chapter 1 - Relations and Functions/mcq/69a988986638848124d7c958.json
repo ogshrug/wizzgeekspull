@@ -1,0 +1,29 @@
+{
+  "id": "69a988986638848124d7c958",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $X = \\mathbb{R}$, and define the binary operation $*$ on $X$ as $a * b = ab + 1$. Which of the following statements about $*$ is true?",
+  "answeroption": "B",
+  "explanation": "Associativity: $(a * b) * c = (ab + 1) * c = (ab + 1)c + 1 = abc + c + 1$<br /><br />$a * (b * c) = a * (bc + 1) = a(bc + 1) + 1 = abc + a + 1$<br /><br />Since $abc + c + 1 \\neq abc + a + 1$ in general, $*$ is not associative.<br /><br />Commutativity: $a*b = ab + 1 = ba + 1 = b*a$, hence $*$ is commutative.<br /><br />Thus, Option B is correct: $*$ is commutative but not associative.",
+  "explanation_image": [],
+  "options": {
+    "A": "$*$ is associative and commutative on $X$",
+    "B": "$*$ is commutative but not associative",
+    "C": "$*$ is associative but not commutative",
+    "D": "$*$ is neither associative nor commutative"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:43:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

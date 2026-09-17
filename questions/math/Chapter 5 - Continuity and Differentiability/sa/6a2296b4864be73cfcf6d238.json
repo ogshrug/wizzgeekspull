@@ -1,0 +1,26 @@
+{
+  "id": "6a2296b4864be73cfcf6d238",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "SA",
+  "question": "Show that: $\\frac{d}{dx}(|x|)=\\frac{x}{|x|},x\\ne0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The absolute value function $|x|$ is defined piecewise. It behaves differently depending on whether $x$ is positive or negative. The given condition is $x \\ne 0$, so we only need to consider two distinct cases: $x > 0$ and $x < 0$.<br />**Step 2:** Let's analyze Case 1: When $x > 0$. By definition, if $x$ is positive, $|x| = x$. Therefore, the function we are differentiating is simply $y = x$. The derivative with respect to $x$ is $\\frac{d}{dx}(x) = 1$.<br />**Step 3:** Now, let's evaluate the expression given on the right side of the equation we need to prove, $\\frac{x}{|x|}$, for this same case. When $x > 0$, substituting $|x| = x$ gives $\\frac{x}{x} = 1$. Since both sides evaluate to $1$, the statement holds true for $x > 0$.<br />**Step 4:** Let's analyze Case 2: When $x < 0$. By the definition of absolute value for negative numbers, $|x| = -x$. The function is now $y = -x$. The derivative with respect to $x$ is $\\frac{d}{dx}(-x) = -1$.<br />**Step 5:** Evaluate the right side expression $\\frac{x}{|x|}$ for this second case. When $x < 0$, substituting $|x| = -x$ gives $\\frac{x}{-x} = -1$. Once again, both sides of the equation evaluate to the same value ($-1$). Since the equation holds true in all valid defined domains (both positive and negative $x$), we have definitively shown that $\\frac{d}{dx}(|x|) = \\frac{x}{|x|}$ for all $x \\ne 0$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

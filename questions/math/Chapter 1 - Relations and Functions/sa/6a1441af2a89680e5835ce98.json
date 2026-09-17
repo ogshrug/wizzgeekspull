@@ -1,0 +1,26 @@
+{
+  "id": "6a1441af2a89680e5835ce98",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Show that the function $f:R-\\{-1\\}\\rightarrow R-\\{1\\}$ given by $f(x)=\\frac{x}{x+1}$ is bijective.",
+  "answeroption": "",
+  "explanation": "**Step 1 (One-one):** Let $f(x_1) = f(x_2)$. <br /> $\\frac{x_1}{x_1+1} = \\frac{x_2}{x_2+1}$ <br /> $\\Rightarrow x_1(x_2+1) = x_2(x_1+1)$ <br /> $\\Rightarrow x_1x_2 + x_1 = x_1x_2 + x_2$ <br /> $\\Rightarrow x_1 = x_2$. <br /> Hence $f$ is one-one. <br /><br /> **Step 2 (Onto):** Let $y \\in \\mathbb{R} - \\{1\\}$ such that $y = f(x)$. <br /> $y = \\frac{x}{x+1}$ <br /> $\\Rightarrow y(x+1) = x$ <br /> $\\Rightarrow xy + y = x$ <br /> $\\Rightarrow y = x - xy = x(1-y)$ <br /> $\\Rightarrow x = \\frac{y}{1-y}$. <br /> For every $y \\neq 1$, $x = \\frac{y}{1-y}$ is a real number and $x \\neq -1$ (since if $x = -1$, then $-1 = \\frac{y}{1-y} \\Rightarrow -1 + y = y \\Rightarrow -1=0$, impossible). <br /> Thus every $y$ has a preimage $x \\in \\mathbb{R} - \\{-1\\}$. So $f$ is onto. <br /><br /> **Step 3:** Since $f$ is both one-one and onto, it is bijective. <br /><br /> **Answer:** Hence proved.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

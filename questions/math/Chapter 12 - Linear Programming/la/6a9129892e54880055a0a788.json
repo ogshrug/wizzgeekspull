@@ -1,0 +1,31 @@
+{
+  "id": "6a9129892e54880055a0a788",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8de"
+  ],
+  "question_type": "LA",
+  "question": "For the system $x-y\\le2$, $x+y\\le8$, $y\\le4$, $x\\ge0$ and $y\\ge0$, determine graphically the common feasible region and establish its bounded nature both from its boundary vertices and from suitable upper bounds on $x$ and $y$, thereby distinguishing it from the surrounding infeasible region.",
+  "answeroption": "C",
+  "explanation": "<b>Boundary Lines and Common Region</b><br>The relevant boundary lines are $x-y=2$, $x+y=8$, $y=4$, $x=0$ and $y=0$. The inequality $x-y\\le2$ requires the side containing the origin, $x+y\\le8$ also requires the side containing the origin, and $y\\le4$ requires points on or below $y=4$. Together with $x\\ge0$ and $y\\ge0$, these inequalities determine a common region in the first quadrant.<br><br>The line $x-y=2$ meets the x-axis at $(2,0)$. Solving $x-y=2$ and $x+y=8$ simultaneously, addition gives $2x=10$, so $x=5$ and $y=3$. Thus their intersection is $(5,3)$. The line $x+y=8$ meets $y=4$ at $x+4=8$, giving $(4,4)$. The line $y=4$ meets the y-axis at $(0,4)$, and the coordinate axes meet at $(0,0)$. Hence the feasible region has vertices $(0,0)$, $(2,0)$, $(5,3)$, $(4,4)$ and $(0,4)$.<br><br><b>Verification of Boundedness</b><br>The constraint $y\\le4$ together with $y\\ge0$ gives $0\\le y\\le4$. Also, adding $x-y\\le2$ and $x+y\\le8$ gives $2x\\le10$, hence $x\\le5$. Together with $x\\ge0$, this yields $0\\le x\\le5$. Therefore, every feasible point lies inside the finite rectangle $0\\le x\\le5$, $0\\le y\\le4$. This confirms algebraically that the feasible region is bounded.<br><br>Graphically, the same conclusion follows because the boundary consists entirely of finite line segments joining the five vertices. Any point outside this common polygon violates at least one of the given inequalities and therefore lies in the infeasible region.<br><br><b>Final Result</b><br>The feasible region is the bounded polygon with vertices $(0,0)$, $(2,0)$, $(5,3)$, $(4,4)$ and $(0,4)$; all points outside this common region are infeasible.",
+  "explanation_image": [],
+  "options": {
+    "A": "The region is unbounded with vertices $(0,0)$, $(2,0)$, $(5,3)$ and $(0,4)$",
+    "B": "The region is bounded with vertices $(0,0)$, $(2,0)$, $(4,4)$ and $(0,4)$ and satisfies $0\\leq x\\leq4$",
+    "C": "The region is bounded with vertices $(0,0)$, $(2,0)$, $(5,3)$, $(4,4)$ and $(0,4)$, with $0\\leq x\\leq5$ and $0\\leq y\\leq4$",
+    "D": "The region is bounded with vertices $(0,0)$, $(5,0)$, $(5,3)$, $(4,4)$ and $(0,4)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

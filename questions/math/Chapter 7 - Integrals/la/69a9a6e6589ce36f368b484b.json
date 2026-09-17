@@ -1,0 +1,29 @@
+{
+  "id": "69a9a6e6589ce36f368b484b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int_0^{\\pi} \\frac{x \\sin x}{1+\\cos^2 x} dx$.",
+  "answeroption": "B",
+  "explanation": "Let $I = \\int_0^{\\pi} \\frac{x\\sin x}{1+\\cos^2 x}dx$.<br /><br />Using the property $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$.<br /><br />Replace $x$ by $\\pi-x$. Then:<br /><br />$I = \\int_0^{\\pi} \\frac{(\\pi-x)\\sin x}{1+\\cos^2 x}dx$.<br /><br />Adding both forms gives:<br /><br />$2I = \\pi \\int_0^{\\pi} \\frac{\\sin x}{1+\\cos^2 x}dx$.<br /><br />Let $u=\\cos x$, $du=-\\sin x dx$.<br /><br />Limits change from $x=0,\\pi$ to $u=1,-1$.<br /><br />Thus:<br /><br />$\\int_0^{\\pi} \\frac{\\sin x}{1+\\cos^2 x}dx = \\int_{-1}^{1} \\frac{1}{1+u^2}du$.<br /><br />$= [\\tan^{-1}u]_{-1}^{1} = \\frac{\\pi}{4}-(-\\frac{\\pi}{4}) = \\frac{\\pi}{2}$.<br /><br />Therefore $2I = \\pi \\cdot \\frac{\\pi}{2}$ so $I = \\frac{\\pi^2}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi^2}{2}$",
+    "B": "$\\frac{\\pi^2}{4}$",
+    "C": "$\\frac{\\pi}{4}$",
+    "D": "$\\frac{\\pi^2}{8}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:53:10 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

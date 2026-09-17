@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed13c4b490c7cde359481",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984"
+  ],
+  "question_type": "VSA",
+  "question": "For $f(x)=x^4-4x^3+5$, examine whether the critical point $x=0$ is a point of local maximum or local minimum.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> Differentiate the function: $$f'(x)=4x^3-12x^2=4x^2(x-3)$$<br><b>Step 2:</b> At $x=0$, $f'(0)=0$, so $x=0$ is a critical point.<br><b>Step 3:</b> For values immediately less than $0$, $x^2>0$ and $x-3<0$, giving $f'(x)<0$.<br><b>Step 4:</b> For values immediately greater than $0$ but less than $3$, $x^2>0$ and $x-3<0$, so $f'(x)<0$ again.<br><b>Step 5:</b> Since the sign of $f'(x)$ does not change at $x=0$, it is neither a point of local maximum nor a point of local minimum.",
+  "explanation_image": [],
+  "options": {
+    "A": "A local maximum",
+    "B": "A local minimum",
+    "C": "Both a local maximum and a local minimum",
+    "D": "Neither a local maximum nor a local minimum"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

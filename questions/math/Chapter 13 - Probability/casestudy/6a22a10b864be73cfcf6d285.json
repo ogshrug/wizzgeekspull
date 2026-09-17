@@ -1,0 +1,29 @@
+{
+  "id": "6a22a10b864be73cfcf6d285",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A departmental store sends bills to charge its customers once a month. Past experience shows that 70% of its customers pay their first month bill in time. The store also found that the customer who pays the bill in time has the probability of 0.8 of paying in time next month and the customer who doesn't pay in time has the probability of 0.4 of paying in time the next month. Let $E_{1}$ and $E_{2}$ respectively denote the event of customer paying or not paying the first month bill in time.<br /><br />**(i)** Find $P(E_{1})$ and $P(E_{2})$.<br />**(ii)** Let A denotes the event of customer paying second month's bill in time, then find $P(A|E_{1})$ and $P(A|E_{2})$.<br />**(iii) (a)** Find the probability of customer paying second month's bill in time.<br />OR<br />**(iii) (b)** Find the probability of customer paying first month's bill in time if it is found that customer has paid the second month's bill in time.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The probability of paying the first month's bill in time is given directly in the problem text as 70%. Therefore, $P(E_1) = 70\\% = 0.7$.<br />**Step 2:** The event of not paying ($E_2$) is the strict complement of paying ($E_1$). So, $P(E_2) = 1 - P(E_1) = 1 - 0.7 = 0.3$.<br /><br />**(ii)** **Step 1:** The probability of paying the second month's bill in time (event A), *given* that they paid the first month's bill in time ($E_1$), is provided. So, $P(A|E_1) = 0.8$.<br />**Step 2:** The probability of paying the second month's bill in time (event A), *given* that they didn't pay the first month's bill in time ($E_2$), is also provided. So, $P(A|E_2) = 0.4$.<br /><br />**(iii) (a)** **Step 1:** We need the total probability of event A. This happens in two mutually exclusive ways: $E_1$ occurs then A occurs, or $E_2$ occurs then A occurs.<br />**Step 2:** Apply the Law of Total Probability: $P(A) = P(E_1)P(A|E_1) + P(E_2)P(A|E_2)$.<br />**Step 3:** Substitute the values: $P(A) = (0.7)(0.8) + (0.3)(0.4) = 0.56 + 0.12 = 0.68$.<br /><br />**(iii) (b)** **Step 1:** We need to find the conditional probability $P(E_1|A)$, which is the probability they paid the first month on time, given they paid the second month on time. We use Bayes' Theorem.<br />**Step 2:** Formula: $P(E_1|A) = \\frac{P(E_1)P(A|E_1)}{P(A)}$.<br />**Step 3:** Substitute values. Numerator is $(0.7)(0.8) = 0.56$. Denominator is $P(A) = 0.68$ (calculated above).<br />**Step 4:** Simplify the fraction: $\\frac{0.56}{0.68} = \\frac{56}{68} = \\frac{14}{17}$. The probability is $\\frac{14}{17}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

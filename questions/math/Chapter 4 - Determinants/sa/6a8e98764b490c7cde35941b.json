@@ -1,0 +1,29 @@
+{
+  "id": "6a8e98764b490c7cde35941b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70"
+  ],
+  "question_type": "SA",
+  "question": "The ordered pair $(1,-2)$ satisfies the system $(k+1)x+2y=3$ and $3x-y=5$. Determine $k$, and write the resulting system in matrix form.",
+  "answeroption": "C",
+  "explanation": "<b>Verification of the second equation</b><br>For $x=1$ and $y=-2$, $$3x-y=3(1)-(-2)=5$$ Hence, the ordered pair satisfies the second equation.<br><b>Substitution in the parameter equation</b><br>Using the first equation, $$(k+1)(1)+2(-2)=3$$ Therefore, $$k+1-4=3$$<br><b>Determination of the parameter</b><br>Simplifying gives $$k=6$$<br><b>Resulting matrix equation</b><br>The system becomes $7x+2y=3$ and $3x-y=5$. Its matrix form is $$\\begin{bmatrix}7&2\\\\3&-1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}3\\\\5\\end{bmatrix}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=4$ and $\\begin{bmatrix}5&2\\\\3&-1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}3\\\\5\\end{bmatrix}$",
+    "B": "$k=5$ and $\\begin{bmatrix}6&2\\\\3&-1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}3\\\\5\\end{bmatrix}$",
+    "C": "$k=6$ and $\\begin{bmatrix}7&2\\\\3&-1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}3\\\\5\\end{bmatrix}$",
+    "D": "$k=7$ and $\\begin{bmatrix}8&2\\\\3&-1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}3\\\\5\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

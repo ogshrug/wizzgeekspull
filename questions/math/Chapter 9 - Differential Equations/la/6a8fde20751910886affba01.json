@@ -1,0 +1,32 @@
+{
+  "id": "6a8fde20751910886affba01",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99d",
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f",
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "The equation $$\\left(\\frac{d^m y}{dx^m}\\right)^n+x\\left(\\frac{d^3y}{dx^3}\\right)^5+\\left(\\frac{dy}{dx}\\right)^2+y=0,$$ where $m$ and $n$ are positive integers and $m>3$, is known to be an ordinary differential equation of order $4$ and degree $2$. Determine the values of $m$ and $n$ and justify them directly from the definitions of order and degree.",
+  "answeroption": "A",
+  "explanation": "<b>Identification of the Equation</b><br>The equation $$\\left(\\frac{d^m y}{dx^m}\\right)^n+x\\left(\\frac{d^3y}{dx^3}\\right)^5+\\left(\\frac{dy}{dx}\\right)^2+y=0$$ contains derivatives of $y$ with respect to the single independent variable $x$. Hence it is a differential equation of the ordinary type.<br><br><b>Using the Given Order</b><br>The order of a differential equation is the order of the highest order derivative present in it. The derivatives appearing have orders $m$, $3$ and $1$. Since $m>3$, the highest order derivative is $\\frac{d^m y}{dx^m}$. Therefore, the order of the equation is $m$.<br><br>It is given that the order is $4$. Hence, $$m=4.$$<br><br><b>Using the Given Degree</b><br>With $m=4$, the highest order derivative is $\\frac{d^4y}{dx^4}$. The equation is polynomial in its derivatives, and this highest order derivative occurs as $$\\left(\\frac{d^4y}{dx^4}\\right)^n.$$ Therefore, the degree of the differential equation is $n$.<br><br>It is given that the degree is $2$. Hence, $$n=2.$$ The term $\\left(\\frac{d^3y}{dx^3}\\right)^5$ does not make the degree $5$, because $\\frac{d^3y}{dx^3}$ is not the highest order derivative.<br><br><b>Final Result</b><br>The required values are $m=4$ and $n=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$m=4,\\ n=2$",
+    "B": "$m=4,\\ n=5$",
+    "C": "$m=3,\\ n=2$",
+    "D": "$m=5,\\ n=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

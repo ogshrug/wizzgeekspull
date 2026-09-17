@@ -1,0 +1,30 @@
+{
+  "id": "69a9735862be6a70cd184da8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47",
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "LA",
+  "question": "Case Study:<br /><br />Let $A = \\{1,2,3\\}$ and $B = \\{a,b,c\\}$. Consider all possible relations from $A$ to $B$.<br /><br />(a) How many possible relations are there from $A$ to $B$?<br /><br />(b) Define a function $f: A \\to B$ by $f(1)=a$, $f(2)=b$, $f(3)=c$. Is $f$ invertible? Provide justification.<br /><br />(c) List all possible number of functions $f : A \\to B$ that are one-to-one.",
+  "answeroption": "D",
+  "explanation": "(a) The total number of relations from $A$ to $B$ is $2^{|A|\\times|B|} = 2^{3\\times3} = 512$.<br /><br />(b) $f$ is a function assigning each element of $A$ to a unique element in $B$, i.e., it is a bijection. Therefore, $f$ is invertible.<br /><br />(c) The number of one-to-one functions from $A$ to $B$ (when $|A|=|B|$): $3! = 6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $2^3=8$ relations.<br />(b) $f$ is not invertible.<br />(c) Number of one-to-one functions is $3$.",
+    "B": "(a) $3^3=27$ relations.<br />(b) $f$ is invertible because it is onto only.<br />(c) Number of one-to-one functions is $9$.",
+    "C": "(a) $3! = 6$ relations.<br />(b) $f$ is not invertible because $A\\ne B$ as sets.<br />(c) Number of one-to-one functions is $512$.",
+    "D": "(a) $2^{3\\times3}=512$ relations.<br />(b) $f$ is invertible because it is a bijection from $A$ to $B$.<br />(c) Number of one-to-one functions from $A$ to $B$ is $3!=6$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:13:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

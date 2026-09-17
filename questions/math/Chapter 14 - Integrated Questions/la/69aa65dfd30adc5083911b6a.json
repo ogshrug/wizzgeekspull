@@ -1,0 +1,30 @@
+{
+  "id": "69aa65dfd30adc5083911b6a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65c9340512f018fa94d47",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = x^3 - 3x + 1$.\n\n(a) Show $f(x)$ is strictly increasing for $x \\geq 1$.\n\n(b) Let $y = f(x)$ with $x\\geq1$. Find $\\frac{dx}{dy}$ in terms of $x$.\n\n(c) For $y_0=f(x_0)$ with $x_0>1$, consider the matrix $A=\\begin{bmatrix}x_0 & y_0\\\\1 & \\frac{dx}{dy}|_{x_0}\\end{bmatrix}$. Compute $\\det(A)$.\n\n(d) For which $x_0$ does $\\det(A)$ attain its minimum value, and what does it imply about the function's invertibility?",
+  "answeroption": "C",
+  "explanation": "**Concepts being tested:** Application of Derivatives, Inverse Functions, Matrices.<br /><br />(a)<br />$f'(x)=3x^2-3$.<br />For $x\\geq1$, $f'(x) \\ge 0$. Hence $f(x)$ is strictly increasing for $x>1$.<br /><br />(b)<br />$y=f(x)$.<br />$\\frac{dx}{dy}=\\frac{1}{f'(x)} = \\frac{1}{3x^2-3}$.<br /><br />(c)<br />$A = \\begin{bmatrix}x_0 & f(x_0)\\\\1 & \\frac{1}{3x_0^2-3}\\end{bmatrix}$.<br />$\\det(A) = x_0\\left(\\frac{1}{3x_0^2-3}\\right) - f(x_0)$.<br />$= \\frac{x_0}{3x_0^2-3} - x_0^3 + 3x_0 -1$.<br /><br />(d)<br />Minimum occurs where derivative of determinant expression equals zero. However invertibility is guaranteed for $x>1$ since $f(x)$ is strictly increasing.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is strictly decreasing for $x\\ge1$<br />(b) $\\frac{dx}{dy}=3x^2-3$<br />(c) $\\det(A)=x_0(3x_0^2-3)-f(x_0)$<br />(d) Invertibility is not guaranteed",
+    "B": "(a) $f$ is constant for $x\\ge1$<br />(b) $\\frac{dx}{dy}=0$<br />(c) $\\det(A)=0$<br />(d) The determinant is minimum at every point",
+    "C": "(a) Since $f'(x)=3x^2-3\\ge0$ for $x\\ge1$, $f$ is strictly increasing for $x>1$<br />(b) $\\frac{dx}{dy}=\\frac{1}{3x^2-3}$<br />(c) $\\det(A)=\\frac{x_0}{3x_0^2-3}-f(x_0)=\\frac{x_0}{3x_0^2-3}-x_0^3+3x_0-1$<br />(d) The minimum occurs where the derivative of this determinant expression is zero; invertibility is guaranteed for $x>1$ because $f$ is strictly increasing",
+    "D": "(a) $f'(x)=x^2-3$, so $f$ is increasing only for $x\\ge\\sqrt3$<br />(b) $\\frac{dx}{dy}=\\frac{1}{x^2-3}$<br />(c) $\\det(A)=x_0+f(x_0)$<br />(d) The determinant is always zero"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:27:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

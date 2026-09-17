@@ -1,0 +1,30 @@
+{
+  "id": "69a968d5d30adc5083911aab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7",
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A software company assigns projects to teams A, B, and C with probabilities 0.2, 0.5, and 0.3. The probability of timely completion by teams A, B, and C is 0.9, 0.8, and 0.7 respectively. If a project was completed on time:<br /><br />(a) What is the probability it was assigned to team B?<br />(b) If a project was delayed, what is the probability it was handled by team C?<br />(c) If managing delays is critical, which team should training focus on, and why?",
+  "answeroption": "B",
+  "explanation": "Let $E_A, E_B, E_C$ be assignment, $T$ timely.<br />$P(E_A) = 0.2, P(E_B) = 0.5, P(E_C) = 0.3$<br />$P(T|A) = 0.9, P(T|B) = 0.8, P(T|C) = 0.7$<br /><br />$P(T) = 0.2 \\times 0.9 + 0.5 \\times 0.8 + 0.3 \\times 0.7 = 0.18 + 0.4 + 0.21 = 0.79$<br /><br />(a) $P(E_B|T) = \\frac{0.5 \\times 0.8}{0.79} = \\frac{0.4}{0.79} \\approx 0.506$<br /><br />(b) Delayed: $T'$:<br />$P(T'|C) = 0.3$<br />$P(T') = 1 - 0.79 = 0.21$<br />$P(E_C|T') = \\frac{0.3 \\times 0.3}{0.21} = \\frac{0.09}{0.21} = \\frac{3}{7}$<br /><br />(c) Impact per delay per probability point:<br />A: $0.2$, B: $0.5$, C: $0.3$<br /><br />Since B handles most projects, but C's on-time completion rate is lowest, training should focus on Team C for maximum reduction in delays.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{40}{79}$<br />(b) $\\frac{3}{7}$<br />(c) Team C, because it has the lowest timely completion rate",
+    "B": "(a) $\\frac{40}{79}$<br />(b) $\\frac{3}{7}$<br />(c) Team B, because its delay contribution $0.5\\times0.2=0.10$ is the highest",
+    "C": "(a) $\\frac{50}{79}$<br />(b) $\\frac{3}{10}$<br />(c) Team A, because it has the highest timely completion rate",
+    "D": "(a) $0.5$<br />(b) $0.3$<br />(c) Team A, because its delay contribution is $0.02$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:28:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a26865a6dcceaa948c59e9b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d0"
+  ],
+  "question_type": "LA",
+  "question": "Find the value of b so that the lines $\\frac{x-1}{2}=\\frac{y-b}{3}=\\frac{z-3}{4}$ and $\\frac{x-4}{5}=\\frac{y-1}{2}=z$ are intersecting lines. Also, find the point of intersection of these given lines.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Express a general point on the first line parameterwise as $(1 + 2\\lambda, b + 3\\lambda, 3 + 4\\lambda)$ and a point on the second line as $(4 + 5\\mu, 1 + 2\\mu, \\mu)$. For these lines to intersect, these parametric coordinates must match at the intersection point, leading to three simultaneous coordinate equations.<br />**Step 2:** Equate the $z$-components to find a direct relation: $\\mu = 3 + 4\\lambda$. Next, equate the $x$-components: $1 + 2\\lambda = 4 + 5\\mu$. Substitute our first expression for $\\mu$ into this equation: $1 + 2\\lambda = 4 + 5(3 + 4\\lambda) = 4 + 15 + 20\\lambda$. Simplifying this linear equation gives $-18 = 18\\lambda \\implies \\lambda = -1$. Substituting this back into the $z$-relation yields $\\mu = 3 + 4(-1) = -1$.<br />**Step 3:** Now, equate the remaining $y$-components to solve for the unknown parameter $b$: $b + 3\\lambda = 1 + 2\\mu$. Substitute our calculated parameters $\\lambda = -1$ and \\\\ $\\mu = -1$: $b + 3(-1) = 1 + 2(-1) \\implies b - 3 = -1 \\implies b = 2$.<br />**Step 4:** To find the unique coordinates of the intersection point, substitute $\\lambda = -1$ back into the first line's parametric form: $x = 1 + 2(-1) = -1$, $y = 2 + 3(-1) = -1$, and $z = 3 + 4(-1) = -1$. Therefore, the point of intersection is $(-1, -1, -1)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

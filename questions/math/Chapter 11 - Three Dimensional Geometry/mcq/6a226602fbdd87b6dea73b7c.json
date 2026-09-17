@@ -1,0 +1,31 @@
+{
+  "id": "6a226602fbdd87b6dea73b7c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "MCQ",
+  "question": "If P is a point on the line segment joining (3, 6, -1) and (6, 2, 2) and y-coordinate of P is 4, then its z-coordinate is :",
+  "answeroption": "A",
+  "explanation": "<b>Step 1</b> Let point $P$ divide the line segment joining coordinates $A(3, 6, -1)$ and $B(6, 2, 2)$ in an arbitrary ratio of $k : 1$. Using the section formula, we can express the coordinates of point $P$ as: $P\\left(\\frac{6k+3}{k+1}, \\frac{2k+6}{k+1}, \\frac{2k-1}{k+1}\\right)$.<br /><br /><b>Step 2</b> We are given that the $y$-coordinate of point $P$ is equal to 4. We set up an algebraic equation using the $y$-component expression: \\\\ $\\frac{2k+6}{k+1} = 4 \\implies 2k + 6 = 4(k + 1) \\implies 2k + 6 = 4k + 4$. Rearranging terms gives $2k = 2 \\implies k = 1$, which means $P$ is the exact midpoint.<br /><br /><b>Step 3</b> Substitute $k = 1$ into the section expression for the $z$-coordinate to find its value: $z = \\frac{2(1)-1}{1+1} = \\frac{1}{2}$. Wait, looking at the source text, page 5, question 6 shows the points are $(3, 6, -1)$ and $(6, 2, -2)$. Let us recalculate with $z_2 = -2$: the $z$-coordinate expression is $\\frac{-2k-1}{k+1}$. Substituting $k=1$ gives $z = \\frac{-2(1)-1}{1+1} = -\\frac{3}{2}$. This matches option A.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{3}{2}$",
+    "B": "0",
+    "C": "1",
+    "D": "$\\frac{3}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

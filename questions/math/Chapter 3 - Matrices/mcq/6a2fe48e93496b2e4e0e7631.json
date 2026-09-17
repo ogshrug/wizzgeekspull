@@ -1,0 +1,32 @@
+{
+  "id": "6a2fe48e93496b2e4e0e7631",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "MCQ",
+  "question": "For any square matrix A with real entries, if $A+A^{\\prime}$ is a symmetric matrix then :",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Let us test the nature of the expression matrix $(A - A^{\\prime})$ by computing its transpose operation: $(A - A^{\\prime})^{\\prime} = A^{\\prime} - (A^{\\prime})^{\\prime}$.<br />**Step 2:** Using the double transpose matrix property $(A^{\\prime})^{\\prime} = A$, the expression simplifies directly to $A^{\\prime} - A$.<br />**Step 3:** Factoring out a negative sign gives $-(A - A^{\\prime})$. Since the transpose of the matrix equals its own negative, $(A - A^{\\prime})$ is a skew symmetric matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(A-A^{\\prime})$ cannot be a skew symmetric matrix",
+    "B": "$(A-A^{\\prime})$ is a skew symmetric matrix",
+    "C": "A is always a symmetric matrix",
+    "D": "A is always a skew symmetric matrix"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa74b0aff2be72fd28eb84",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 7: Manufacturing — Binary Operations and Group Structure**<br /><br />A company uses barcodes composed of integers $1,2,\\ldots,7$. Define a binary operation $*$ on $A = \\{1,2,3,4,5,6,7\\}$ as $a * b = \\gcd(a, b)$ (greatest common divisor).<br /><br />(a) Prove whether $*$ is associative and commutative. Give precise justifications using properties.<br /><br />(b) Does $*$ have an identity element? If so, find it. If not, justify.<br /><br />(c) Determine which elements in $A$ are invertible under $*$. Prove your answer rigorously.",
+  "answeroption": "C",
+  "explanation": "(a) **Associativity:**<br /><br />For any $a, b, c$:<br /><br />$(a*b)*c = \\gcd(\\gcd(a, b), c) = \\gcd(a, b, c)$<br /><br />$a*(b*c) = \\gcd(a, \\gcd(b, c)) = \\gcd(a, b, c)$<br /><br />Thus, $*$ is associative.<br /><br />**Commutativity:**<br /><br />$\\gcd(a, b) = \\gcd(b, a)$, so $*$ is commutative.<br /><br />(b) **Identity Element:**<br /><br />An identity $e$ must satisfy $a*e = e*a = a$ for all $a$.<br /><br />That is, $\\gcd(a, e) = a$ for all $a$.<br /><br />But for $e$, $\\gcd(a, e) = a \\implies e$ must be a multiple of $a$ for all $a \\in A$; the only number divisible by every $a$ in $A$ is their least common multiple $= 420$, which is not in $A$.<br /><br />So no identity.<br /><br />(c) **Invertible Elements:**<br /><br />Without identity, no element is invertible.<br /><br />**Proof:** An invertible element $x$ requires existence of $y$ such that $x * y$ equals the identity, which does not exist in $A$.<br /><br />Therefore, no invertible elements under $*$ in $A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $*$ is neither associative nor commutative.<br />(b) Identity element is $1$.<br />(c) Every element of $A$ is invertible.",
+    "B": "(a) $*$ is commutative but not associative.<br />(b) Identity element is $7$.<br />(c) Only $1$ is invertible.",
+    "C": "(a) $*$ is associative and commutative because gcd is associative and commutative.<br />(b) There is no identity element in $A$, since an identity would need to be a common multiple of all elements of $A$, namely $420$, which is not in $A$.<br />(c) Since no identity exists, no element of $A$ is invertible under $*$.",
+    "D": "(a) $*$ is associative but not commutative.<br />(b) Identity element is $0$.<br />(c) Elements $1,2,3,4,5,6,7$ are all invertible."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:31:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

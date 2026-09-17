@@ -1,0 +1,29 @@
+{
+  "id": "6a8ec559be0ecc7866e90bbf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "LA",
+  "question": "The variables $x$ and $y$ satisfy the relation $$x^2+xy+y^2=49.$$ Using implicit differentiation, obtain $\\frac{dy}{dx}$ in terms of $x$ and $y$ and hence determine its value at the point $(3,5)$ on the curve.",
+  "answeroption": "B",
+  "explanation": "<b>Implicit Differentiation</b><br>The given relation is $$x^2+xy+y^2=49.$$ Since $y$ is regarded as a function of $x$, differentiate both sides with respect to $x$. Thus, $$\\frac{d}{dx}(x^2)+\\frac{d}{dx}(xy)+\\frac{d}{dx}(y^2)=\\frac{d}{dx}(49).$$ Therefore, $$2x+\\left(x\\frac{dy}{dx}+y\\right)+2y\\frac{dy}{dx}=0.$$<br><br><b>Simplification</b><br>Collecting the terms containing $\\frac{dy}{dx}$, $$x\\frac{dy}{dx}+2y\\frac{dy}{dx}=-(2x+y).$$ Hence, $$(x+2y)\\frac{dy}{dx}=-(2x+y).$$ Therefore, $$\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}.$$<br><br><b>Evaluation</b><br>The point $(3,5)$ satisfies the given relation because $$3^2+(3)(5)+5^2=9+15+25=49.$$ Substituting $x=3$ and $y=5$ in the derivative, $$\\left.\\frac{dy}{dx}\\right|_{(3,5)}=-\\frac{2(3)+5}{3+2(5)}=-\\frac{11}{13}.$$<br><br><b>Final Result</b><br>Thus, $$\\boxed{\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}}$$ and at the point $(3,5)$, $$\\boxed{\\frac{dy}{dx}=-\\frac{11}{13}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=-\\frac{x+2y}{2x+y}$; at $(3,5)$, $\\frac{dy}{dx}=-\\frac{13}{11}$",
+    "B": "$\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}$; at $(3,5)$, $\\frac{dy}{dx}=-\\frac{11}{13}$",
+    "C": "$\\frac{dy}{dx}=\\frac{2x+y}{x+2y}$; at $(3,5)$, $\\frac{dy}{dx}=\\frac{11}{13}$",
+    "D": "$\\frac{dy}{dx}=-\\frac{2x-y}{x-2y}$; at $(3,5)$, $\\frac{dy}{dx}=\\frac{1}{7}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

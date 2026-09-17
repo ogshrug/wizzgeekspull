@@ -1,0 +1,24 @@
+{
+  "id": "6a1589846050c058f876e4f5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "VSA",
+  "question": "Given that $f(x)=\\frac{log~x}{x},$ find the point of local maximum of f(x).",
+  "answeroption": "",
+  "explanation": "**Step 1: Find the first derivative**<br />Differentiating $f(x) = \\frac{\\log x}{x}$ using the Quotient Rule ($\\,x > 0\\,$):<br />$f'(x) = \\frac{x \\cdot \\frac{1}{x} - \\log x \\cdot 1}{x^2} = \\frac{1 - \\log x}{x^2}$<br /><br />**Step 2: Solve for critical numbers**<br />To find the critical numbers, we find where the first derivative equals zero ($f'(x) = 0$):<br />$\\frac{1 - \\log x}{x^2} = 0 \\implies 1 - \\log x = 0 \\implies \\log x = 1 \\implies x = e^1 = e$<br /><br />**Step 3: Apply the first derivative test to verify the local maximum**<br />Let us check the sign of $f'(x)$ around our critical point $x = e$:<br />- For values slightly smaller than $e$ ($0 < x < e$), $\\log x < 1$, making $1 - \\log x > 0$, so $f'(x) > 0$ (the function is increasing).<br />- For values slightly larger than $e$ ($x > e$), $\\log x > 1$, making $1 - \\log x < 0$, so $f'(x) < 0$ (the function is decreasing).<br />Since the first derivative changes sign from positive to negative as it passes through $x = e$, this critical number is a point of local maximum.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ec21bbe0ecc7866e90bb4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d89"
+  ],
+  "question_type": "SA",
+  "question": "Verify Rolle’s Theorem for $$f(x)=x^2-4x+3$$ on the interval $[1,3]$ and determine the corresponding value of $c$.",
+  "answeroption": "B",
+  "explanation": "<b>Continuity and differentiability</b><br>The function is a polynomial and hence is continuous on $[1,3]$ and differentiable on $(1,3)$.<br><b>Endpoint values</b><br>$$f(1)=1-4+3=0$$<br>and $$f(3)=9-12+3=0.$$<br>Therefore, $$f(1)=f(3).$$<br><b>Application of Rolle’s Theorem</b><br>$$f'(x)=2x-4.$$<br>For some $c\\in(1,3)$, $$f'(c)=0.$$<br>Thus, $$2c-4=0\\Rightarrow c=2.$$<br>Since $2\\in(1,3)$, Rolle’s Theorem is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "The theorem is not applicable because $f(1)\\neq f(3)$.",
+    "B": "The theorem is applicable and the corresponding value is $c=2$.",
+    "C": "The theorem is applicable and the corresponding value is $c=1$.",
+    "D": "The theorem is applicable and the corresponding value is $c=3$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

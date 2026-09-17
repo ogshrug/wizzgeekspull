@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed00e2e54880055a0a6d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "VSA",
+  "question": "If the radius of a sphere is measured with an error of $1\\%$, estimate the percentage error in its calculated volume.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> The volume of a sphere is $V=\\frac{4}{3}\\pi r^3$.<br><b>Step 2:</b> Taking differentials, $$dV=4\\pi r^2dr$$<br><b>Step 3:</b> Divide by $V$: $$\\frac{dV}{V}=\\frac{4\\pi r^2dr}{\\frac{4}{3}\\pi r^3}=3\\frac{dr}{r}$$<br><b>Step 4:</b> Hence, the approximate percentage error in volume is three times the percentage error in radius.<br><b>Step 5:</b> Therefore, an error of $1\\%$ in the radius produces an approximate error of $3\\%$ in the volume.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1\\%$",
+    "B": "$2\\%$",
+    "C": "$4\\%$",
+    "D": "$3\\%$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

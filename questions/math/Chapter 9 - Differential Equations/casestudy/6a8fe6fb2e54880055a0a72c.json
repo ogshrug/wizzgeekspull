@@ -1,0 +1,29 @@
+{
+  "id": "6a8fe6fb2e54880055a0a72c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ab"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A family of curves has the property that at every point $(x,y)$ on a curve, with $x\\neq0$ and $y\\neq0$, the slope of the tangent is $\\frac{x^2+y^2}{2xy}$. Students are asked to determine the equation of the entire family of curves from this slope condition. They observe that after dividing the numerator and denominator by $x^2$, the slope can be expressed completely in terms of the ratio $\\frac{y}{x}$. This makes it possible to treat the relation as a homogeneous differential equation and obtain the family represented by an arbitrary constant.<br><br><b>(a)</b> Write the differential equation representing the given tangent-slope condition and show that its right-hand side depends only on $\\frac{y}{x}$.<br><br><b>(b)</b> Put $y=vx$ and reduce the differential equation to an equation involving $v$ and $x$.<br><br><b>(c)</b> Separate the variables and integrate the reduced equation.<br><br><b>(d)</b> Show that the resulting family of curves can be written as $x^2-y^2=Cx$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The slope of the tangent is $\\frac{dy}{dx}$. Therefore, $$\\frac{dy}{dx}=\\frac{x^2+y^2}{2xy}$$<br><br>Dividing the numerator and denominator on the right-hand side by $x^2$, $$\\frac{dy}{dx}=\\frac{1+\\left(\\frac{y}{x}\\right)^2}{2\\left(\\frac{y}{x}\\right)}$$<br><br>Thus the right-hand side depends only on $\\frac{y}{x}$, so the differential equation is homogeneous.<br><br><b>(b)</b><br>Put $y=vx$. Then, $$\\frac{dy}{dx}=v+x\\frac{dv}{dx}$$<br><br>Substituting in the differential equation, $$v+x\\frac{dv}{dx}=\\frac{1+v^2}{2v}$$<br><br>Therefore, $$x\\frac{dv}{dx}=\\frac{1-v^2}{2v}$$<br><br><b>(c)</b><br>Separating the variables, $$\\frac{2v}{1-v^2}\\,dv=\\frac{dx}{x}$$<br><br>Integrating, $$\\int\\frac{2v}{1-v^2}\\,dv=\\int\\frac{dx}{x}$$<br><br>Hence, $$-\\log|1-v^2|=\\log|x|+C_1$$<br><br>Equivalently, $$\\log|x(1-v^2)|=C_2$$<br><br>Therefore, $$x(1-v^2)=C$$ where $C$ is an arbitrary constant.<br><br><b>(d)</b><br>Since $v=\\frac{y}{x}$, $$x\\left(1-\\frac{y^2}{x^2}\\right)=C$$<br><br>Thus, $$\\frac{x^2-y^2}{x}=C$$<br><br>Multiplying by $x$, $$x^2-y^2=Cx$$<br><br>Hence the required family of curves is $x^2-y^2=Cx$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dy}{dx}=\\frac{x^2+y^2}{2xy}=\\frac{1+\\left(\\frac{y}{x}\\right)^2}{2\\left(\\frac{y}{x}\\right)}$<br>(b) With $y=vx$, $x\\frac{dv}{dx}=\\frac{1-v^2}{2v}$<br>(c) $\\frac{2v}{1-v^2}\\,dv=\\frac{dx}{x}$, giving $x(1-v^2)=C$<br>(d) $x^2-y^2=Cx$",
+    "B": "(a) $\\frac{dy}{dx}=\\frac{x^2-y^2}{2xy}$<br>(b) $x\\frac{dv}{dx}=\\frac{1+v^2}{2v}$<br>(c) $\\frac{2v}{1+v^2}\\,dv=\\frac{dx}{x}$<br>(d) $x^2+y^2=Cx$",
+    "C": "(a) The right side is not a function of $\\frac{y}{x}$<br>(b) $x\\frac{dv}{dx}=\\frac{1-v}{2v}$<br>(c) $\\frac{2v}{1-v}\\,dv=\\frac{dx}{x}$<br>(d) $x-y=Cx$",
+    "D": "(a) $\\frac{dy}{dx}=\\frac{1+\\left(\\frac{y}{x}\\right)^2}{2\\left(\\frac{y}{x}\\right)}$<br>(b) $x\\frac{dv}{dx}=\\frac{1+v^2}{2v}$<br>(c) $\\frac{2v}{1+v^2}\\,dv=\\frac{dx}{x}$<br>(d) $x^2+y^2=C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a213f8d91ff8b4d4561095d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "MCQ",
+  "question": "If $sin^{-1}x=y$, then $\\frac{dy}{dx}$ is:",
+  "answeroption": "D",
+  "explanation": "<b>Step 1</b> Consider the given equation $y = \\sin^{-1}x$. To solve this without relying on memory of the standard formula, we can rewrite the equation in terms of the regular sine function: $x = \\sin y$.<br /><br /><b>Step 2</b> Differentiate both sides implicitly with respect to $x$. The derivative of $x$ is $1$. Using the chain rule, the derivative of $\\sin y$ with respect to $x$ is $\\cos y \\cdot \\frac{dy}{dx}$. This gives the equation $1 = \\cos y \\cdot \\frac{dy}{dx}$.<br /><br /><b>Step 3</b> Isolate $\\frac{dy}{dx}$ by dividing both sides by $\\cos y$. This results in $\\frac{dy}{dx} = \\frac{1}{\\cos y}$. Since the reciprocal of cosine is secant, this is mathematically equivalent to $\\sec y$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$cos^{-1}x$",
+    "B": "cos y",
+    "C": "$\\frac{1}{1-x^{2}}$",
+    "D": "sec y"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

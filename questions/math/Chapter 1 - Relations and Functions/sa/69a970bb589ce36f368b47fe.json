@@ -1,0 +1,30 @@
+{
+  "id": "69a970bb589ce36f368b47fe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Let $f: \\mathbb{R} \\setminus \\{3\\} \\to \\mathbb{R} \\setminus \\{1\\}$ be defined by $f(x) = \\frac{x-2}{x-3}$. Prove whether $f$ is one-one and/or onto.",
+  "answeroption": "C",
+  "explanation": "To check injectivity, assume $f(a)=f(b)$. <br /><br />$\\frac{a-2}{a-3}=\\frac{b-2}{b-3}$. <br /><br />Cross multiplying gives $(a-2)(b-3)=(b-2)(a-3)$. <br /><br />Expanding and simplifying leads to $a=b$. <br /><br />Thus $f$ is one-one. <br /><br />To check surjectivity, let $y=\\frac{x-2}{x-3}$. <br /><br />Then $y(x-3)=x-2$. <br /><br />Thus $yx-3y=x-2 \\Rightarrow x(y-1)=3y-2$. <br /><br />Hence $x=\\frac{3y-2}{y-1}$ which is defined for $y \\ne 1$. <br /><br />Since every $y \\in \\mathbb{R}\\setminus\\{1\\}$ has a corresponding $x$, the function is onto. <br /><br />Therefore $f$ is bijective.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one but not onto",
+    "B": "$f$ is onto but not one-one",
+    "C": "$f$ is both one-one and onto, so it is bijective",
+    "D": "$f$ is neither one-one nor onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:02:03 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

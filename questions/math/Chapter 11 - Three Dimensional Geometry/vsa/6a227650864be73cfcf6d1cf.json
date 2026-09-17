@@ -1,0 +1,26 @@
+{
+  "id": "6a227650864be73cfcf6d1cf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "VSA",
+  "question": "Determine if the lines $\\vec{r}=(\\hat{i}+\\hat{j}-\\hat{k})+\\lambda(3\\hat{i}-\\hat{j})$ and $\\vec{r}=(4\\hat{i}-\\hat{k})+\\mu(2\\hat{i}+3\\hat{k})$ intersect with each other.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To check for an intersection point, first convert the given vector equations of both lines into their respective parametric Cartesian forms.<br />**Step 2:** For the first line $L_1$: $x = 1+3\\lambda$, $y = 1-\\lambda$, $z = -1$.<br />**Step 3:** For the second line $L_2$: $x = 4+2\\mu$, $y = 0$, $z = -1+3\\mu$.<br />**Step 4:** If the two lines intersect, there must exist a common point. We equate the corresponding $y$ and $z$ coordinates to find the parameters $\\lambda$ and $\\mu$.<br />**Step 5:** Equating the $y$-coordinates: $1 - \\lambda = 0 \\implies \\lambda = 1$.<br />**Step 6:** Equating the $z$-coordinates: $-1 = -1 + 3\\mu \\implies 3\\mu = 0 \\implies \\mu = 0$.<br />**Step 7:** Finally, verify if these extracted parameter values satisfy the equality for the $x$-coordinates. For $L_1$: $x = 1 + 3(1) = 4$. For $L_2$: $x = 4 + 2(0) = 4$.<br />**Step 8:** Since both line equations yield identical $x=4$ coordinates for the found parameters, the lines unequivocally intersect at the coordinates $(4, 0, -1)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

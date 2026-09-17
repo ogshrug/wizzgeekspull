@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9a0a751910886affb95d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "SA",
+  "question": "A student claims that the solution of $x+y+z=2$, $2x-y+z=6$ and $x-2y+3z=7$ is $(1,-1,2)$. Examine the claim, find the correct solution, and calculate $2x+3y-z$.",
+  "answeroption": "C",
+  "explanation": "<b>Examination of the claimed solution</b><br>For $(1,-1,2)$, the first equation gives $1-1+2=2$, but the second gives $2(1)-(-1)+2=5\\ne6$. Hence, the claim is incorrect.<br><b>Elimination of variables</b><br>Subtracting the first equation from the second gives $$x-2y=4$$ Subtracting the first equation from the third gives $$-3y+2z=5$$<br><b>Determination of the correct solution</b><br>From $x=4+2y$ and $z=\\frac{5+3y}{2}$, substitution in $x+y+z=2$ gives $y=-1$. Therefore, $x=2$ and $z=1$.<br><b>Required expression</b><br>Thus, $$2x+3y-z=2(2)+3(-1)-1=0$$ The correct solution is $(2,-1,1)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The claim is correct; the solution is $(1,-1,2)$ and $2x+3y-z=-3$.",
+    "B": "The claim is incorrect; the solution is $(2,1,-1)$ and $2x+3y-z=8$.",
+    "C": "The claim is incorrect; the solution is $(2,-1,1)$ and $2x+3y-z=0$.",
+    "D": "The claim is incorrect; the solution is $(1,-2,3)$ and $2x+3y-z=-7$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed6d44b490c7cde35948f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f980"
+  ],
+  "question_type": "SA",
+  "question": "Use differentials to estimate $\\sqrt[3]{64.3}$ correct to four decimal places.",
+  "answeroption": "C",
+  "explanation": "<b>Function and increment</b><br>Let $y=x^{\\frac{1}{3}}$. Choose $x=64$ and $dx=0.3$, since $64.3=64+0.3$.<br><b>Differential relation</b><br>$$dy=\\frac{1}{3x^{\\frac{2}{3}}}dx$$<br><b>Evaluation of the differential</b><br>Since $64^{\\frac{1}{3}}=4$, we have $64^{\\frac{2}{3}}=16$. Therefore,<br>$$dy=\\frac{0.3}{3(16)}=\\frac{0.3}{48}=0.00625$$<br><b>Approximate value</b><br>$$\\sqrt[3]{64.3}\\approx\\sqrt[3]{64}+dy$$<br>$$\\sqrt[3]{64.3}\\approx4+0.00625$$<br><b>Conclusion</b><br>Thus, $\\sqrt[3]{64.3}\\approx4.0063$ correct to four decimal places.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4.0625$",
+    "B": "$4.0031$",
+    "C": "$4.0063$",
+    "D": "$4.0125$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

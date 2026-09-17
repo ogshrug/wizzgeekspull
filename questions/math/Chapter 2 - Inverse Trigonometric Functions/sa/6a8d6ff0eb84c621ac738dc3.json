@@ -1,0 +1,29 @@
+{
+  "id": "6a8d6ff0eb84c621ac738dc3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Show that $$\\tan^{-1}\\left(\\frac{1}{7}\\right)+\\tan^{-1}\\left(\\frac{1}{3}\\right)=\\tan^{-1}\\left(\\frac{1}{2}\\right).$$",
+  "answeroption": "B",
+  "explanation": "<b>Inverse tangent addition property</b><br>For positive $a$ and $b$ with $ab<1$, $$\\tan^{-1}a+\\tan^{-1}b=\\tan^{-1}\\left(\\frac{a+b}{1-ab}\\right).$$<br><br><b>Substitution of the given values</b><br>Taking $a=\\frac{1}{7}$ and $b=\\frac{1}{3}$, we obtain $$\\tan^{-1}\\left(\\frac{1}{7}\\right)+\\tan^{-1}\\left(\\frac{1}{3}\\right)=\\tan^{-1}\\left(\\frac{\\frac{1}{7}+\\frac{1}{3}}{1-\\frac{1}{21}}\\right).$$<br><br><b>Algebraic simplification</b><br>The numerator is $\\frac{10}{21}$ and the denominator is $\\frac{20}{21}$. Hence, $$\\frac{\\frac{10}{21}}{\\frac{20}{21}}=\\frac{1}{2}.$$<br><br><b>Principal range verification</b><br>Both original terms are positive, and their sum lies in $\\left(0,\\frac{\\pi}{2}\\right)$. Therefore, no adjustment by $\\pi$ is required.<br><br><b>Established result</b><br>Hence, $$\\tan^{-1}\\left(\\frac{1}{7}\\right)+\\tan^{-1}\\left(\\frac{1}{3}\\right)=\\tan^{-1}\\left(\\frac{1}{2}\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan^{-1}\\left(\\frac{2}{5}\\right)$",
+    "B": "$\\tan^{-1}\\left(\\frac{1}{2}\\right)$",
+    "C": "$\\tan^{-1}\\left(\\frac{5}{8}\\right)$",
+    "D": "$\\tan^{-1}\\left(\\frac{10}{19}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

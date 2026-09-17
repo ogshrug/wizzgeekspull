@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd504751910886affb9f7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "VSA",
+  "question": "Obtain the general solution of the linear differential equation $\\frac{dy}{dx}-y=e^x$.",
+  "answeroption": "A",
+  "explanation": "Step 1: Compare $\\frac{dy}{dx}-y=e^x$ with $\\frac{dy}{dx}+Py=Q$. Here, $P=-1$ and $Q=e^x$.<br>Step 2: The integrating factor is $e^{\\int-1\\,dx}=e^{-x}$.<br>Step 3: Multiply the equation by $e^{-x}$ to get $e^{-x}\\frac{dy}{dx}-e^{-x}y=1$. The left-hand side is $\\frac{d}{dx}(ye^{-x})$.<br>Step 4: Hence, $\\frac{d}{dx}(ye^{-x})=1$. Integrating gives $ye^{-x}=x+C$.<br>Step 5: Multiplying by $e^x$, the required general solution is $y=e^x(x+C)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=e^x(x+C)$",
+    "B": "$y=e^{-x}(x+C)$",
+    "C": "$y=xe^x+C$",
+    "D": "$y=e^x+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

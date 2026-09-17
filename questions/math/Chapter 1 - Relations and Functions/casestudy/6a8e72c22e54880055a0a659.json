@@ -1,0 +1,32 @@
+{
+  "id": "6a8e72c22e54880055a0a659",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A geometry class considers the set $T$ of all triangles in a plane. A relation $R$ is defined on $T$ by $T_1RT_2$ if and only if $T_1$ is similar to $T_2$. Four triangles are selected for investigation: triangle $A$ has sides $3,4,5$, triangle $B$ has sides $6,8,10$, triangle $C$ has sides $5,12,13$, and triangle $D$ has sides $9,12,15$. The students compare corresponding side ratios and then analyse the general properties of the relation. Their aim is to determine whether similarity gives a valid equivalence relation on the set of all triangles.<br><br><b>(a)</b> Determine which of the triangles $B,C,D$ are related to triangle $A$.<br><br><b>(b)</b> Verify that $R$ is reflexive.<br><br><b>(c)</b> Show that $R$ is transitive.<br><br><b>(d)</b> Verify that $R$ is symmetric and hence conclude whether $R$ is an equivalence relation.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>For triangles $A$ and $B$, the corresponding side ratios are $\\frac{6}{3}=\\frac{8}{4}=\\frac{10}{5}=2$. Hence $A$ and $B$ are similar, so $ARB$. For triangles $A$ and $D$, $\\frac{9}{3}=\\frac{12}{4}=\\frac{15}{5}=3$, so $A$ and $D$ are similar and $ARD$. Triangle $C$ has sides $5,12,13$, which are not proportional to $3,4,5$. Therefore, $A$ is not related to $C$. Thus, among $B,C,D$, the triangles related to $A$ are $B$ and $D$.<br><br><b>(b)</b><br>Every triangle has the same shape as itself and its corresponding sides are in the ratio $1:1$. Therefore, every triangle is similar to itself. Hence $TRT$ for every $T\\in T$, and the relation is reflexive.<br><br><b>(c)</b><br>Suppose $T_1RT_2$ and $T_2RT_3$. Then $T_1$ is similar to $T_2$ and $T_2$ is similar to $T_3$. Therefore, corresponding sides of $T_1$ and $T_2$ are proportional, and corresponding sides of $T_2$ and $T_3$ are proportional. Consequently, corresponding sides of $T_1$ and $T_3$ are also proportional, so $T_1$ is similar to $T_3$. Hence $T_1RT_3$, and $R$ is transitive.<br><br><b>(d)</b><br>If $T_1RT_2$, then $T_1$ is similar to $T_2$. Similarity is mutual, so $T_2$ is also similar to $T_1$. Hence $T_2RT_1$, showing that $R$ is symmetric. Since $R$ is reflexive, symmetric and transitive, $R$ is an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "Only triangle $B$ is related to $A$; $R$ is reflexive and symmetric but not transitive, so it is not an equivalence relation.",
+    "B": "Triangles $B$ and $D$ are related to $A$, while $C$ is not; $R$ is reflexive, symmetric and transitive, so it is an equivalence relation.",
+    "C": "Triangles $B,C$ and $D$ are all related to $A$; $R$ is symmetric and transitive but not reflexive, so it is not an equivalence relation.",
+    "D": "Only triangle $C$ is related to $A$; $R$ is reflexive and transitive but not symmetric, so it is not an equivalence relation."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

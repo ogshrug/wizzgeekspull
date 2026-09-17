@@ -1,0 +1,32 @@
+{
+  "id": "6a8f067a2e54880055a0a6e2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f",
+    "6a13e9908c819562f933f980",
+    "6a13e9908c819562f933f981",
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "The diagonal of a square metal plate is measured as $30$ cm, with a possible measurement error of at most $0.06$ cm. Using differentials, answer the following connected questions: (a) Express the area of the plate as a function of its diagonal. (b) Obtain the differential representing the approximate change in area. (c) Estimate the maximum error in the calculated area and use linear approximation to estimate the area when the measured diagonal is $30.06$ cm. (d) Determine the approximate percentage error in the calculated area.",
+  "answeroption": "D",
+  "explanation": "(a) Let the side and diagonal of the square be $s$ and $d$ respectively. Since $d=s\\sqrt{2}$, `s=\\frac{d}{\\sqrt{2}}` Therefore, the area is `A=s^2=\\frac{d^2}{2}`(b) Differentiating $A=\\frac{d^2}{2}$, we get `\\frac{dA}{dd}=d` Hence, the differential representing the approximate change in area is `dA=d\\,dd`(c) Here, $d=30$ cm and the maximum value of $|dd|$ is $0.06$ cm. Therefore, `|dA|\\approx d|dd|=30(0.06)=1.8\\text{ cm}^2` The area corresponding to $d=30$ cm is `A(30)=\\frac{30^2}{2}=450\\text{ cm}^2` By linear approximation, `A(30.06)\\approx A(30)+dA=450+1.8=451.8\\text{ cm}^2`(d) The approximate percentage error is `\\frac{|dA|}{A}\\times100=\\frac{1.8}{450}\\times100=0.4\\%`Final ResultThe maximum estimated error in area is $1.8\\text{ cm}^2$, the linearly approximated area for a diagonal of $30.06$ cm is $451.8\\text{ cm}^2$, and the approximate percentage error is $0.4\\%$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=d^2$<br>(b) $dA=2d\\,dd$<br>(c) Maximum error $3.6\\ \\text{cm}^2$; $A(30.06)\\approx903.6\\ \\text{cm}^2$<br>(d) Percentage error $0.4\\%$",
+    "B": "(a) $A=\\frac{d^2}{4}$<br>(b) $dA=\\frac{d}{2}\\,dd$<br>(c) Maximum error $0.9\\ \\text{cm}^2$; $A(30.06)\\approx225.9\\ \\text{cm}^2$<br>(d) Percentage error $0.4\\%$",
+    "C": "(a) $A=\\frac{d^2}{2}$<br>(b) $dA=d\\,dd$<br>(c) Maximum error $1.8\\ \\text{cm}^2$; $A(30.06)\\approx448.2\\ \\text{cm}^2$<br>(d) Percentage error $0.4\\%$",
+    "D": "(a) $A=\\frac{d^2}{2}$<br>(b) $dA=d\\,dd$<br>(c) Maximum error $1.8\\ \\text{cm}^2$; $A(30.06)\\approx451.8\\ \\text{cm}^2$<br>(d) Percentage error $0.4\\%$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

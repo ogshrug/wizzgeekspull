@@ -1,0 +1,30 @@
+{
+  "id": "6a91313bbe0ecc7866e90cdb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e1"
+  ],
+  "question_type": "LA",
+  "question": "Under the constraints $x+2y\\le12$, $3x+y\\le15$, $x\\ge0$ and $y\\ge0$, consider the three proposed solutions $P(n,0)$, $Q(n-1,1)$ and $R(n-2,2)$, where $n$ is an integer with $n\\ge2$. Determine the greatest value of $n$ for which all three are feasible solutions and verify that increasing $n$ by one produces an infeasible proposed solution.",
+  "answeroption": "C",
+  "explanation": "<b>Verification for $P(n,0)$</b><br>The constraints give $n\\le12$ and $3n\\le15$, so $n\\le5$. Thus $P$ can be feasible only when $n\\le5$. Since this is already the strongest restriction obtained from $P$, any value larger than 5 cannot make all three points feasible.<br><br><b>Verification for the Remaining Proposed Solutions</b><br>For $Q(n-1,1)$, the first constraint gives $(n-1)+2\\le12$, so $n\\le11$, while the second gives $3(n-1)+1\\le15$, so $3n-2\\le15$ and $n\\le\\frac{17}{3}$. Since $n$ is an integer, this gives $n\\le5$. For $R(n-2,2)$, the first constraint gives $(n-2)+4\\le12$, so $n\\le10$, while the second gives $3(n-2)+2\\le15$, so $3n-4\\le15$ and $n\\le\\frac{19}{3}$, giving $n\\le6$ for integral $n$.<br><br>Combining these conditions with $n\\ge2$, all three proposed points are feasible for integer values $2\\le n\\le5$. Hence the greatest possible value is $n=5$.<br><br>When $n$ is increased to 6, $P=(6,0)$ gives $3x+y=18>15$, so it violates a constraint and is infeasible. Also, $Q=(5,1)$ gives $3x+y=16>15$ and is infeasible.<br><br><b>Final Result</b><br>The greatest integer value for which all three proposed points are feasible is $n=5$; at $n=6$, at least one proposed point violates the constraints and becomes infeasible.",
+  "explanation_image": [],
+  "options": {
+    "A": "The greatest value is $n=6$; at $n=7$, only $R$ becomes infeasible",
+    "B": "The greatest value is $n=4$; at $n=5$, $P$ becomes infeasible",
+    "C": "The greatest value is $n=5$; at $n=6$, $P$ and $Q$ violate $3x+y\\leq15$",
+    "D": "The greatest value is $n=5$; all three points remain feasible at $n=6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

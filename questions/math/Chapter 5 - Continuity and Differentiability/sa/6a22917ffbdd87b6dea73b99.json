@@ -1,0 +1,27 @@
+{
+  "id": "6a22917ffbdd87b6dea73b99",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "SA",
+  "question": "Check the differentiability of function $f(x)=x|x|$ at $x=0$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> First, rewrite the function $f(x) = x|x|$[cite: 2] as a piecewise definition by breaking down the absolute value component based on its sign: $f(x) = x^2$ for $x \\ge 0$, and $f(x) = -x^2$ for $x < 0$. Note that $f(0) = 0$.<br /><br /><b>Step 2</b> To evaluate differentiability at the origin, we compute the Left-Hand Derivative (LHD) at $x = 0$ using the limit definition: $\\text{LHD} = \\lim_{h \\to 0^-} \\frac{f(0+h) - f(0)}{h}$.<br /><br /><b>Step 3</b> Since $h < 0$, evaluate the limit using the negative branch formula $-h^2$: $\\text{LHD} = \\lim_{h \\to 0} \\frac{-h^2 - 0}{h} = \\lim_{h \\to 0} (-h) = 0$.<br /><br /><b>Step 4</b> Next, compute the Right-Hand Derivative (RHD) at $x = 0$ using the limit definition: $\\text{RHD} = \\lim_{h \\to 0^+} \\frac{f(0+h) - f(0)}{h}$. Since $h > 0$, use the positive branch formula $h^2$: $\\text{RHD} = \\lim_{h \\to 0} \\frac{h^2 - 0}{h} = \\lim_{h \\to 0} (h) = 0$.<br /><br /><b>Step 5</b> Compare the results: we find that $\\text{LHD} = 0$ and $\\text{RHD} = 0$. Since the Left-Hand and Right-Hand derivatives are completely equal, the function $f(x) = x|x|$ is differentiable at $x = 0$[cite: 2].",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

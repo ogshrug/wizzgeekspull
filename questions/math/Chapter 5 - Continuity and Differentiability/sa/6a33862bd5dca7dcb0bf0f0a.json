@@ -1,0 +1,26 @@
+{
+  "id": "6a33862bd5dca7dcb0bf0f0a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "SA",
+  "question": "If $y = (\\log x)^2$, prove that $x^2 y'' + xy' = 2$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Run derivative chain rules to obtain $y'$ from $y$: $y' = 2(\\log x) \\cdot \\frac{1}{x} = \\frac{2\\log x}{x}$.\n\n**Step 2:** Shift $x$ multiplicatively to form the simpler relation: $x y' = 2\\log x$.\n\n**Step 3:** Calculate an implicit differentiation upon this unified relation concerning $x$ making use of the product formula: $x y'' + 1 \\cdot y' = 2 \\cdot \\frac{1}{x}$.\n\n**Step 4:** Clear the fractional presence by multiplying out the complete line equation with factor $x$: $x^2 y'' + x y' = 2$.\n\n**Step 5:** This direct operation validates the given identity correctly.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a2fe4e1e9d6ca4a0a42b143",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "VSA",
+  "question": "There are two bags. Bag I contains 1 red and 3 white balls, and Bag II contains 3 red and 5 white balls.<br />A bag is selected at random and a ball is drawn from it.<br />Find the probability that the ball so drawn is red in colour.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $E_1$ be the event of choosing Bag I and $E_2$ be the event of choosing Bag II. Since the selection is random, $P(E_1) = P(E_2) = \\frac{1}{2}$.<br />**Step 2:** Let $R$ be the event of drawing a red ball. The probability of drawing a red ball from Bag I is $P(R|E_1) = \\frac{1}{4}$. The probability of drawing a red ball from Bag II is $P(R|E_2) = \\frac{3}{8}$.<br />**Step 3:** By the theorem of Total Probability, $P(R) = P(E_1)P(R|E_1) + P(E_2)P(R|E_2)$.<br />**Step 4:** Substitute the values to solve: $P(R) = (\\frac{1}{2})(\\frac{1}{4}) + (\\frac{1}{2})(\\frac{3}{8}) = \\frac{1}{8} + \\frac{3}{16} = \\frac{5}{16}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

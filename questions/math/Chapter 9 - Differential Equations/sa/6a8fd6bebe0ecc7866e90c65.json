@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd6bebe0ecc7866e90c65",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a4"
+  ],
+  "question_type": "SA",
+  "question": "Verify that the implicit relation $x+y=\\tan^{-1}y$ satisfies the differential equation $$y^2\\frac{dy}{dx}+y^2+1=0.$$",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Start with the given implicit relation</b><br>$$x+y=\\tan^{-1}y.$$<br><b>Step 2: Differentiate implicitly</b><br>Differentiating both sides with respect to $x$, $$1+\\frac{dy}{dx}=\\frac{1}{1+y^2}\\frac{dy}{dx}.$$<br><b>Step 3: Remove the denominator</b><br>Multiplying by $1+y^2$, $$\\left(1+y^2\\right)\\left(1+\\frac{dy}{dx}\\right)=\\frac{dy}{dx}.$$<br><b>Step 4: Simplify the relation</b><br>Expanding, $$1+y^2+\\frac{dy}{dx}+y^2\\frac{dy}{dx}=\\frac{dy}{dx}.$$ Cancelling $\\frac{dy}{dx}$ from both sides gives $$1+y^2+y^2\\frac{dy}{dx}=0.$$<br><b>Step 5: Compare with the required equation</b><br>This is precisely $$y^2\\frac{dy}{dx}+y^2+1=0.$$ Therefore, the given implicit relation satisfies the differential equation and is a solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "The relation does not satisfy the differential equation.",
+    "B": "The relation satisfies the equation because implicit differentiation gives $y^2\\frac{dy}{dx}+y^2+1=0$.",
+    "C": "The relation satisfies only when $y=0$.",
+    "D": "The relation gives $y^2\\frac{dy}{dx}-y^2-1=0$ instead."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

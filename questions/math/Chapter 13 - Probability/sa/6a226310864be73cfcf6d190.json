@@ -1,0 +1,28 @@
+{
+  "id": "6a226310864be73cfcf6d190",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "A die with number $1$ to $6$ is biased such that $P(2)=\\frac{3}{10}$ and probability of other numbers is equal. Find the mean of the number of times number $2$ appears on the dice, if the dice is thrown twice.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Define the probability of success. Getting a '2' is a success, so $p = P(2) = \\frac{3}{10} = 0.3$. The probability of failure (getting any other number) is $q = 1 - p = \\frac{7}{10} = 0.7$.<br />**Step 2:** The die is thrown $n=2$ times. This scenario models a binomial distribution where the random variable $X$ (number of times 2 appears) can take values $0, 1, 2$.<br />**Step 3:** The mean (or expected value) of a binomial distribution is given by the simple formula $\\mu = np$.<br />**Step 4:** Substitute the given values into the formula: Mean $= 2 \\times \\frac{3}{10} = \\frac{6}{10}$.<br />**Step 5:** Simplifying the fraction gives $0.6$. Therefore, the expected number of times a 2 will appear is $0.6$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

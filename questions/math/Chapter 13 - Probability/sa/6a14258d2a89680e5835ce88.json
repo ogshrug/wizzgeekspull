@@ -1,0 +1,25 @@
+{
+  "id": "6a14258d2a89680e5835ce88",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "SA",
+  "question": "Out of a group of 50 people, 20 always speak the truth. Two persons are selected at random from the group (without replacement). Find the probability distribution of number of selected persons who always speak the truth.",
+  "answeroption": "",
+  "explanation": "**Step 1: Define Variables.** Let $X$ be the number of truth speakers ($X = 0, 1, 2$). Truth speakers = 20, Others = 30.<br />**Step 2: Calculate P(X=0).** $\\frac{\\binom{30}{2}}{\\binom{50}{2}} = \\frac{87}{245}$.<br />**Step 3: Calculate P(X=1).** $\\frac{\\binom{20}{1}\\binom{30}{1}}{\\binom{50}{2}} = \\frac{120}{245}$.<br />**Step 4: Calculate P(X=2).** $\\frac{\\binom{20}{2}}{\\binom{50}{2}} = \\frac{38}{245}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a22977e864be73cfcf6d24e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "The month of September is celebrated as the Rashtriya Poshan Maah across the country. Following a healthy and well-balanced diet is crucial in order to supply the body with the proper nutrients it needs. A balanced diet also keeps us mentally fit and promotes improved level of energy.<br /><br />A dietician wishes to minimize the cost of a diet involving two types of foods, food $X(x~kg)$ and food $Y(y~kg)$ which are available at the rate of $\\text{Rs } 16/kg$ and $\\text{Rs } 20/kg$ respectively. The feasible region satisfying the constraints is shown in Figure-2.<br /><br />**(i)** Identify and write all the constraints which determine the given feasible region in Figure-2.<br />**(ii)** If the objective is to minimize cost $Z=16x+20y$, find the values of x and y at which cost is minimum. Also, find minimum cost assuming that minimum cost is possible for the given unbounded region.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Analyze the provided graph (Figure 2). The shaded region (feasible region) lies entirely in the first quadrant. This mathematically translates to the basic non-negativity constraints: $x \\ge 0$ and $y \\ge 0$.<br />**Step 2:** Identify the boundary lines creating the lower limit of the shaded region. The region is \"above\" or to the \"right\" of the continuous piecewise boundary formed by segments connecting the points A(10,0), B(2,4), C(1,5), and D(0,8).<br />**Step 3:** Determine the inequalities associated with each line segment forming this boundary. The line passing through A and B is $x+2y=10$. The region is above it, so the inequality is $x+2y \\ge 10$. The line through B and C is $x+y=6$. The region is above it, so $x+y \\ge 6$. The line through C and D is $3x+y=8$. The region is above it, so $3x+y \\ge 8$.<br />**Step 4:** Note that the dashed line $4x+5y=28$ is fully below the feasible region, therefore it is not a bounding constraint. The required defining constraints are $x+2y \\ge 10$, $x+y \\ge 6$, $3x+y \\ge 8$, $x \\ge 0$, $y \\ge 0$.<br /><br />**(ii)** **Step 1:** We need to minimize the objective cost function $Z = 16x + 20y$. The optimal solution, if it exists, must occur at one of the corner points of the feasible region.<br />**Step 2:** The corner points forming the boundary of the unbounded feasible region are explicitly marked: $A(10, 0)$, $B(2, 4)$, $C(1, 5)$, and $D(0, 8)$.<br />**Step 3:** Evaluate the objective function $Z$ at each of these identified corner points. At $A(10,0)$, $Z = 16(10) + 20(0) = 160$. At $B(2,4)$, $Z = 16(2) + 20(4) = 32 + 80 = 112$. At $C(1,5)$, $Z = 16(1) + 20(5) = 16 + 100 = 116$. At $D(0,8)$, $Z = 16(0) + 20(8) = 160$.<br />**Step 4:** Compare the calculated values. The absolute minimum calculated value is 112. This occurs specifically at the point $B(2, 4)$.<br />**Step 5:** Because the region is unbounded, we must verify this minimum. We graph the inequality $16x+20y < 112$, which simplifies to $4x+5y < 28$. The problem notes the minimum cost is possible, which implies this open half-plane has no points in common with the feasible region. Therefore, the confirmed minimum cost is Rs 112, achieved at exactly $x=2$ and $y=4$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22977e864be73cfcf6d24e/1782261808-0.png?t=1782281609017"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

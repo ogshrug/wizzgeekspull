@@ -1,0 +1,31 @@
+{
+  "id": "6a8fd4892e54880055a0a71a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "VSA",
+  "question": "For the equation $\\frac{dy}{dx}=\\frac{2x+y}{x-2y}$, use $y=vx$ and write the resulting equation directly in variable separable form.",
+  "answeroption": "D",
+  "explanation": "Step 1: The numerator $2x+y$ and denominator $x-2y$ are homogeneous expressions of the same degree, so the equation is homogeneous.<br>Step 2: Put $y=vx$. Then $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$.<br>Step 3: Substitution in the right-hand side gives $\\frac{2x+vx}{x-2vx}=\\frac{2+v}{1-2v}$. Therefore, $v+x\\frac{dv}{dx}=\\frac{2+v}{1-2v}$.<br>Step 4: Thus, $x\\frac{dv}{dx}=\\frac{2+v-v(1-2v)}{1-2v}=\\frac{2(1+v^2)}{1-2v}$.<br>Step 5: Separating the variables gives $\\frac{1-2v}{1+v^2}dv=2\\frac{dx}{x}$. This is the required variable separable form.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1+2v}{1+v^2}dv=2\\frac{dx}{x}$",
+    "B": "$\\frac{1-2v}{1-v^2}dv=2\\frac{dx}{x}$",
+    "C": "$\\frac{1-2v}{1+v^2}dv=\\frac{dx}{x}$",
+    "D": "$\\frac{1-2v}{1+v^2}dv=2\\frac{dx}{x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

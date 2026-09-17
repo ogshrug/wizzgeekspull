@@ -1,0 +1,33 @@
+{
+  "id": "6a22b849864be73cfcf6d2bb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\begin{bmatrix} 1 & 2 & 1 \\\\ 2 & 3 & 1 \\\\ 3 & a & 1 \\end{bmatrix}$ is non-singular matrix and $a \\in A$, then the set $A$ is",
+  "answeroption": "D",
+  "explanation": "**Step 1:** A matrix is non-singular if its determinant is not equal to zero.<br />**Step 2:** Expand the determinant along the first row: $|A| = 1(3\\times1 - 1\\times a) - 2(2\\times1 - 1\\times3) + 1(2\\times a - 3\\times3)$.<br />**Step 3:** Simplify the algebraic expression: $|A| = (3 - a) - 2(2 - 3) + (2a - 9) = 3 - a + 2 + 2a - 9 = a - 4$.<br />**Step 4:** For the given matrix to be non-singular, $|A| \\neq 0$, which strictly implies $a - 4 \\neq 0$ or $a \\neq 4$. Thus, the set $A$ is all real numbers except 4: $\\mathbb{R} - \\{4\\}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\mathbb{R}$",
+    "B": "$\\{0\\}$",
+    "C": "$\\{4\\}$",
+    "D": "$\\mathbb{R} - \\{4\\}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

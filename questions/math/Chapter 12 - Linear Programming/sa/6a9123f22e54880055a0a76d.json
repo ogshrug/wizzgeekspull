@@ -1,0 +1,29 @@
+{
+  "id": "6a9123f22e54880055a0a76d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8"
+  ],
+  "question_type": "SA",
+  "question": "A workshop manufactures two products $A$ and $B$. One unit of $A$ requires $2$ hours of assembly and $1$ hour of finishing, while one unit of $B$ requires $1$ hour of assembly and $3$ hours of finishing. At most $16$ assembly hours and $18$ finishing hours are available per day. If $x$ and $y$ denote the numbers of units of $A$ and $B$ respectively:<br>(i) Form the constraints for the problem.<br>(ii) Check whether the production plan $(6,4)$ satisfies all the constraints.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Identifying the assembly constraint</b><br>For $x$ units of $A$ and $y$ units of $B$, the total assembly time is $2x+y$ hours. Since at most $16$ hours are available, $$2x+y\\leq16$$<br><b>Step 2: Identifying the finishing constraint</b><br>The finishing time required is $x+3y$ hours. Hence, $$x+3y\\leq18$$<br><b>Step 3: Applying non-negative restrictions</b><br>Since production quantities cannot be negative, $$x\\geq0,\\quad y\\geq0$$<br><b>Step 4: Testing the given production plan</b><br>For $(x,y)=(6,4)$, $$2(6)+4=16\\leq16$$ and $$6+3(4)=18\\leq18$$ Also, $6\\geq0$ and $4\\geq0$.<br><b>Step 5: Conclusion</b><br>Thus, $(6,4)$ satisfies every constraint and is an admissible production plan.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $2x+y\\leq16$, $x+3y\\leq18$, $x\\geq0$, $y\\geq0$<br>(ii) $(6,4)$ satisfies all the constraints",
+    "B": "(i) $2x+y\\geq16$, $x+3y\\geq18$, $x\\geq0$, $y\\geq0$<br>(ii) $(6,4)$ satisfies all the constraints",
+    "C": "(i) $x+2y\\leq16$, $3x+y\\leq18$, $x\\geq0$, $y\\geq0$<br>(ii) $(6,4)$ does not satisfy all the constraints",
+    "D": "(i) $2x+3y\\leq16$, $x+y\\leq18$, $x\\geq0$, $y\\geq0$<br>(ii) $(6,4)$ does not satisfy all the constraints"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

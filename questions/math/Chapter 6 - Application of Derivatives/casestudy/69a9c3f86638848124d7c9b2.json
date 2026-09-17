@@ -1,0 +1,30 @@
+{
+  "id": "69a9c3f86638848124d7c9b2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A packaging engineer designs an open-top rectangular box with base length $l,$ width $w$, and height $h$, using $1200$ cm$^2$ of cardboard. The base length must be twice its width.<br /><br />(a) Express volume $V$ in terms of $w$ only.<br /><br />(b) Find $w$ for maximum volume.<br /><br />(c) Verify using the second derivative test.",
+  "answeroption": "A",
+  "explanation": "Let $l = 2w$<br /><br />Cardboard: $2w \\cdot w + 2(2w + w)h = 1200$<br /><br />$2w^2 + 6wh = 1200$<br /><br />$6wh = 1200-2w^2$<br /><br />$h = \\frac{1200-2w^2}{6w}$<br /><br />Volume: $V=2w \\cdot w \\cdot h = 2w^2 h$<br /><br />$V=2w^2\\left(\\frac{1200-2w^2}{6w}\\right)=\\frac{2w(1200-2w^2)}{6}$<br /><br />$=\\frac{1200w-2w^3}{3}$<br /><br />$dV/dw=\\frac{1200-6w^2}{3}$<br /><br />Set $=0$: $w^2=200$, $w=10\\sqrt{2}$<br /><br />Second derivative $=-4w<0$ at $w=10\\sqrt{2}$, so it's a maximum.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $V=\\frac{1200w-2w^3}{3}$<br />(b) $w=10\\sqrt{2}$ cm<br />(c) $\\frac{d^2V}{dw^2}=-4w<0$ at $w=10\\sqrt{2}$, so the volume is maximum.",
+    "B": "(a) $V=\\frac{1200w-4w^3}{3}$<br />(b) $w=10$ cm<br />(c) $\\frac{d^2V}{dw^2}>0$, so the volume is minimum.",
+    "C": "(a) $V=1200w-2w^3$<br />(b) $w=20$ cm<br />(c) $\\frac{d^2V}{dw^2}=0$, so the test is inconclusive.",
+    "D": "(a) $V=\\frac{1200w+2w^3}{3}$<br />(b) $w=10\\sqrt{3}$ cm<br />(c) $\\frac{d^2V}{dw^2}<0$, so the volume is maximum."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:57:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

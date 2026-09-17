@@ -1,0 +1,31 @@
+{
+  "id": "6a8ebfa8751910886affb994",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d75"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A class studies a linear model of the form $y=mx+c$, where $m$ and $c$ are unknown constants. Two observations from the model are represented by the points $(1,4)$ and $(3,10)$. The students use these observations to form two equations in $m$ and $c$, solve them by the inverse-matrix method, and then use the resulting model to predict another output value.<br><br><b>(a)</b> Form the system of equations in $m$ and $c$ and express it as $AX=B$.<br><br><b>(b)</b> Calculate $|A|$ and determine whether the model is uniquely defined.<br><br><b>(c)</b> Find $A^{-1}$ and hence determine $m$ and $c$.<br><br><b>(d)</b> Use the model to calculate $y$ when $x=5$ and verify both observations.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Since $y=mx+c$, the point $(1,4)$ gives<br>$$m+c=4$$<br>The point $(3,10)$ gives<br>$$3m+c=10$$<br>Therefore,<br>$$\\begin{bmatrix}1 & 1\\\\3 & 1\\end{bmatrix}\\begin{bmatrix}m\\\\c\\end{bmatrix}=\\begin{bmatrix}4\\\\10\\end{bmatrix}$$<br><br><b>(b)</b><br>$$|A|=\\begin{vmatrix}1 & 1\\\\3 & 1\\end{vmatrix}=1-3=-2$$<br>Since $|A|\\neq0$, the coefficient matrix is invertible and the linear model is uniquely defined.<br><br><b>(c)</b><br>$$A^{-1}=\\frac{1}{-2}\\begin{bmatrix}1 & -1\\\\-3 & 1\\end{bmatrix}=\\frac{1}{2}\\begin{bmatrix}-1 & 1\\\\3 & -1\\end{bmatrix}$$<br>Thus,<br>$$\\begin{bmatrix}m\\\\c\\end{bmatrix}=A^{-1}B$$<br>$$=\\frac{1}{2}\\begin{bmatrix}-1 & 1\\\\3 & -1\\end{bmatrix}\\begin{bmatrix}4\\\\10\\end{bmatrix}=\\frac{1}{2}\\begin{bmatrix}6\\\\2\\end{bmatrix}$$<br>Therefore,<br>$$m=3,\\quad c=1$$<br>The model is $y=3x+1$.<br><br><b>(d)</b><br>When $x=5$,<br>$$y=3(5)+1=16$$<br>Verification of the observations:<br>$$x=1\\Rightarrow y=3(1)+1=4$$<br>$$x=3\\Rightarrow y=3(3)+1=10$$<br>Hence, both observations are satisfied and the predicted value is $16$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $m+c=4,\\ 3m+c=10$<br>(b) $|A|=2$, so the model is unique<br>(c) $m=2,\\ c=2$<br>(d) $y(5)=12$",
+    "B": "(a) $m+c=4,\\ 3m+c=10$<br>(b) $|A|=-2$<br>(c) $m=3,\\ c=1$<br>(d) $y(5)=15$, while both observations are satisfied",
+    "C": "(a) $\\begin{bmatrix}1&1\\\\3&1\\end{bmatrix}\\begin{bmatrix}m\\\\c\\end{bmatrix}=\\begin{bmatrix}4\\\\10\\end{bmatrix}$<br>(b) $|A|=-2$, so the model is uniquely defined<br>(c) $A^{-1}=\\frac12\\begin{bmatrix}-1&1\\\\3&-1\\end{bmatrix}$ and $(m,c)=(3,1)$<br>(d) $y(5)=16$, and both observations are verified",
+    "D": "(a) $m+c=4,\\ m+3c=10$<br>(b) $|A|=2$<br>(c) $m=1,\\ c=3$<br>(d) $y(5)=8$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

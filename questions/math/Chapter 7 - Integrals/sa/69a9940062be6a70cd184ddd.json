@@ -1,0 +1,29 @@
+{
+  "id": "69a9940062be6a70cd184ddd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f988"
+  ],
+  "question_type": "SA",
+  "question": "If $F(x)$ is an antiderivative of $f(x)$, show that $\\dfrac{d}{dx} \\int f(x)dx = f(x)$ using definition.",
+  "answeroption": "C",
+  "explanation": "By definition of indefinite integral:<br /><br />$\\int f(x)dx = F(x)+C$, where $F'(x)=f(x)$.<br /><br />Differentiate both sides:<br /><br />$\\dfrac{d}{dx}(F(x)+C)=F'(x)$.<br /><br />Since derivative of constant is zero, we get $F'(x)=f(x)$.<br /><br />Hence $\\dfrac{d}{dx}\\int f(x)dx = f(x)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{d}{dx}\\int f(x)dx=F(x)$",
+    "B": "$\\dfrac{d}{dx}\\int f(x)dx=f(x)+C$",
+    "C": "$\\dfrac{d}{dx}\\int f(x)dx=f(x)$",
+    "D": "$\\dfrac{d}{dx}\\int f(x)dx=\\int f(x)dx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 14:32:32 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

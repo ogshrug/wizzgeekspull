@@ -1,0 +1,27 @@
+{
+  "id": "6a2fd373e9d6ca4a0a42b139",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d",
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{\\frac{-\\pi}{2}}^{\\frac{\\pi}{2}}(\\sin|x|+\\cos|x|)dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Recognize that the function $f(x) = \\sin|x| + \\cos|x|$ is an even function because $f(-x) = \\sin|-x| + \\cos|-x| = \\sin|x| + \\cos|x| = f(x)$.<br />**Step 2:** Apply the definite integral property for even functions: $\\int_{-a}^{a} f(x) dx = 2 \\int_{0}^{a} f(x) dx$.<br />**Step 3:** Rewrite the integral as $2 \\int_{0}^{\\frac{\\pi}{2}} (\\sin x + \\cos x) dx$ since $x$ is positive in the interval $[0, \\frac{\\pi}{2}]$, allowing the removal of absolute value signs.<br />**Step 4:** Find the antiderivative: $2 [-\\cos x + \\sin x]$ from $0$ to $\\frac{\\pi}{2}$.<br />**Step 5:** Evaluate the limits to find the final result.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

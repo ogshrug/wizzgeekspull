@@ -1,0 +1,26 @@
+{
+  "id": "6a27decc233c5169a79c53ea",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "LA",
+  "question": "Find the sub-interval of $(0,\\frac{\\pi}{2})$ in which $f(x)=log(sin~x+cos~x)$ is increasing and decreasing.",
+  "answeroption": "",
+  "explanation": "**Step 1:** We are given the logarithmic trigonometric function $f(x) = \\ln(\\sin x + \\cos x)$ defined over the restricted open domain interval $(0, \\frac{\\pi}{2})$. To analyze the intervals of increase and decrease, we must compute the first derivative of the function with respect to $x$. Applying the standard chain rule for differentiation, we get $f'(x) = \\frac{1}{\\sin x + \\cos x} \\cdot \\frac{d}{dx}(\\sin x + \\cos x)$, which simplifies to $f'(x) = \\frac{\\cos x - \\sin x}{\\sin x + \\cos x}$. Since $x$ lies in the first quadrant, both $\\sin x$ and $\\cos x$ are strictly positive real numbers, which guarantees that the denominator expression $\\sin x + \\cos x$ remains strictly positive throughout the given interval.<br /><br />**Step 2:** For the function to be strictly increasing, the first derivative must be strictly greater than zero. This condition implies that the numerator must satisfy $\\cos x - \\sin x > 0$, which can be rearranged to $\\cos x > \\sin x$. Dividing both sides by $\\cos x$ yields $\\tan x < 1$. Within the specified open domain $(0, \\frac{\\pi}{2})$, the tangent function is less than one precisely when the angle belongs to the sub-interval $(0, \\frac{\\pi}{4})$. Therefore, the function is increasing on $(0, \\frac{\\pi}{4})$.<br /><br />**Step 3:** For the function to be strictly decreasing, the first derivative must be less than zero. This requires the numerator to satisfy $\\cos x - \\sin x < 0$, which simplifies to $\\tan x > 1$. Within our domain, this inequality holds true when the angle belongs to the sub-interval $(\\frac{\\pi}{4}, \\frac{\\pi}{2})$. Thus, the function is strictly decreasing on $(\\frac{\\pi}{4}, \\frac{\\pi}{2})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

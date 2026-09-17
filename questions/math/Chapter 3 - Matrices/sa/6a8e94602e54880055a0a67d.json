@@ -1,0 +1,33 @@
+{
+  "id": "6a8e94602e54880055a0a67d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d5b"
+  ],
+  "question_type": "SA",
+  "question": "If $A$ and $B$ are symmetric matrices of the same order, show that $AB-BA$ is skew-symmetric.",
+  "answeroption": "B",
+  "explanation": "<b>Symmetry of the given matrices</b><br>Since $A$ and $B$ are symmetric, $$A^T=A,\\quad B^T=B$$<br><b>Transpose of the difference</b><br>Using $(AB)^T=B^TA^T$, $$\\left(AB-BA\\right)^T=(AB)^T-(BA)^T=B^TA^T-A^TB^T$$<br><b>Substitution of symmetry conditions</b><br>$$\\left(AB-BA\\right)^T=BA-AB=-(AB-BA)$$<br>Hence, $AB-BA$ is skew-symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(AB-BA)^T=AB-BA$, so $AB-BA$ is symmetric.",
+    "B": "$(AB-BA)^T=BA-AB=-(AB-BA)$, so $AB-BA$ is skew-symmetric.",
+    "C": "$(AB-BA)^T=AB+BA$, so $AB-BA$ is skew-symmetric.",
+    "D": "$(AB-BA)^T=-(AB+BA)$, so $AB-BA$ is symmetric."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "69a9bdce62be6a70cd184e35",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An event manager designs an auditorium of area $900m^2$. One side is along a wall and the other three sides are fenced.<br /><br />(a) Form the fencing cost function.<br /><br />(b) Determine dimensions minimizing cost.<br /><br />(c) Find maximum seating capacity.<br /><br />(d) Determine maximum revenue.",
+  "answeroption": "C",
+  "explanation": "Let length $x$ and breadth $y$.<br /><br />(a) Area constraint: $xy=900$.<br /><br />$y=\\frac{900}{x}$.<br /><br />Cost: $C(x)=200x+200y$.<br /><br />So $C(x)=200x+\\frac{180000}{x}$.<br /><br />(b) Differentiate:<br /><br />$\\frac{dC}{dx}=200-\\frac{180000}{x^2}$.<br /><br />Set to zero → $x=30$, $y=30$.<br /><br />(c) Maximum people = $900/2 = 450$.<br /><br />(d) Revenue = $450 \\times 50 = ₹22500$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $C(x)=200x+\\frac{90000}{x}$<br />(b) Dimensions are $15m \\times 60m$.<br />(c) Capacity $=300$.<br />(d) Revenue $=₹15000$.",
+    "B": "(a) $C(x)=200x+\\frac{180000}{x}$<br />(b) Dimensions are $45m \\times 20m$.<br />(c) Capacity $=450$.<br />(d) Revenue $=₹20000$.",
+    "C": "(a) $C(x)=200x+\\frac{180000}{x}$<br />(b) Dimensions are $30m \\times 30m$.<br />(c) Capacity $=450$.<br />(d) Revenue $=₹22500$.",
+    "D": "(a) $C(x)=400x+\\frac{180000}{x}$<br />(b) Dimensions are $60m \\times 15m$.<br />(c) Capacity $=600$.<br />(d) Revenue $=₹30000$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:30:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

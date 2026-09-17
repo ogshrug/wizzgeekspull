@@ -1,0 +1,29 @@
+{
+  "id": "69a869abf21e08867c2bcd7e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "VSA",
+  "question": "For the matrix $M=\\begin{bmatrix} 0 & x & y \\\\ x & 0 & z \\\\ y & z & 0 \\end{bmatrix}$, evaluate $|M|$ if $x=1$ and $y=2$, $z = 3$.",
+  "answeroption": "B",
+  "explanation": "With $x=1$, $y=2$, $z=3$:<br /><br />$|M| = \\begin{vmatrix} 0 & 1 & 2 \\\\ 1 & 0 & 3 \\\\ 2 & 3 & 0 \\end{vmatrix}$<br /><br />Expand along the first row:<br /><br />$= 0 \\cdot \\begin{vmatrix} 0 & 3 \\\\ 3 & 0 \\end{vmatrix} - 1 \\cdot \\begin{vmatrix} 1 & 3 \\\\ 2 & 0 \\end{vmatrix} + 2 \\cdot \\begin{vmatrix} 1 & 0 \\\\ 2 & 3 \\end{vmatrix}$<br /><br />$= 0 - 1(1\\times0 - 2\\times3) + 2(1\\times3 - 2\\times0)$<br /><br />$= 0 - 1(0-6) + 2(3-0)$<br /><br />$= 0 - (-6) + 6 = 6 + 6 = 12$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$6$",
+    "B": "$12$",
+    "C": "$-12$",
+    "D": "$0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:19:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

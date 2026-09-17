@@ -1,0 +1,30 @@
+{
+  "id": "6a8fc3e14b490c7cde3594f7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989",
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int \\sqrt{9-x^2}\\,dx$ by making a suitable trigonometric substitution and simplifying the resulting expression completely in terms of $x$.",
+  "answeroption": "D",
+  "explanation": "The expression $\\sqrt{9-x^2}$ suggests the substitution $x=3\\sin\\theta$. Then<br><br>$$dx=3\\cos\\theta\\,d\\theta$$<br><br>and<br><br>$$\\sqrt{9-x^2}=\\sqrt{9-9\\sin^2\\theta}=3\\cos\\theta$$<br><br>Therefore,<br><br>$$\\int \\sqrt{9-x^2}\\,dx=\\int \\left(3\\cos\\theta\\right)\\left(3\\cos\\theta\\right)d\\theta$$<br><br>$$=9\\int \\cos^2\\theta\\,d\\theta$$<br><br>Using $\\cos^2\\theta=\\frac{1+\\cos2\\theta}{2}$,<br><br>$$9\\int \\cos^2\\theta\\,d\\theta=\\frac{9}{2}\\int \\left(1+\\cos2\\theta\\right)d\\theta$$<br><br>$$=\\frac{9}{2}\\left(\\theta+\\frac{\\sin2\\theta}{2}\\right)+C$$<br><br>Since $x=3\\sin\\theta$, we have<br><br>$$\\theta=\\sin^{-1}\\left(\\frac{x}{3}\\right)$$<br><br>Also, $\\sin\\theta=\\frac{x}{3}$ and $\\cos\\theta=\\frac{\\sqrt{9-x^2}}{3}$. Hence,<br><br>$$\\sin2\\theta=2\\sin\\theta\\cos\\theta=\\frac{2x\\sqrt{9-x^2}}{9}$$<br><br>Substituting these values,<br><br>$$\\int \\sqrt{9-x^2}\\,dx=\\frac{9}{2}\\sin^{-1}\\left(\\frac{x}{3}\\right)+\\frac{9}{4}\\left(\\frac{2x\\sqrt{9-x^2}}{9}\\right)+C$$<br><br>$$=\\frac{x}{2}\\sqrt{9-x^2}+\\frac{9}{2}\\sin^{-1}\\left(\\frac{x}{3}\\right)+C$$<br><br>Therefore, the required integral is $\\frac{x}{2}\\sqrt{9-x^2}+\\frac{9}{2}\\sin^{-1}\\left(\\frac{x}{3}\\right)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x}{2}\\sqrt{9-x^2}-\\frac{9}{2}\\sin^{-1}\\left(\\frac{x}{3}\\right)+C$",
+    "B": "$x\\sqrt{9-x^2}+9\\sin^{-1}\\left(\\frac{x}{3}\\right)+C$",
+    "C": "$\\frac{x}{2}\\sqrt{9-x^2}+\\frac{3}{2}\\sin^{-1}\\left(\\frac{x}{3}\\right)+C$",
+    "D": "$\\frac{x}{2}\\sqrt{9-x^2}+\\frac{9}{2}\\sin^{-1}\\left(\\frac{x}{3}\\right)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

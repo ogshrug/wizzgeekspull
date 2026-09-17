@@ -1,0 +1,29 @@
+{
+  "id": "69a97224d8e9ca3b29345791",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "LA",
+  "question": "Form a differential equation representing the family of curves $y^2 = 4a(x - a)$ by eliminating the parameter $a$.",
+  "answeroption": "C",
+  "explanation": "Given: $y^2 = 4a(x-a)$<br /><br />Differentiate with respect to $x$: $2y \\frac{dy}{dx} = 4a \\Rightarrow a = \\frac{y}{2} \\frac{dy}{dx}$<br /><br />Substitute $a$ into original equation:<br />$y^2 = 4 \\left(\\frac{y}{2} \\frac{dy}{dx}\\right) \\left( x - \\frac{y}{2} \\frac{dy}{dx}\\right) = 2y \\frac{dy}{dx} \\left( x - \\frac{y}{2} \\frac{dy}{dx} \\right) = 2y x \\frac{dy}{dx} - y^2 \\left(\\frac{dy}{dx}\\right)^2$<br /><br />Thus, $y^2 + y^2 \\left(\\frac{dy}{dx}\\right)^2 - 2y x \\frac{dy}{dx} = 0$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y^2-y^2\\left(\\frac{dy}{dx}\\right)^2-2xy\\frac{dy}{dx}=0$",
+    "B": "$y^2+y^2\\left(\\frac{dy}{dx}\\right)^2+2xy\\frac{dy}{dx}=0$",
+    "C": "$y^2+y^2\\left(\\frac{dy}{dx}\\right)^2-2xy\\frac{dy}{dx}=0$",
+    "D": "$y^2+\\left(\\frac{dy}{dx}\\right)^2-2x\\frac{dy}{dx}=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:08:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

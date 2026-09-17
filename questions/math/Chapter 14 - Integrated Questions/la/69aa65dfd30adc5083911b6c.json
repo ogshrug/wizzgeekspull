@@ -1,0 +1,30 @@
+{
+  "id": "69aa65dfd30adc5083911b6c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\frac{2x}{1+x^2}$ for all $x \\in \\mathbb{R}$ and $A = f\\left(\\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}\\right)$ (where $f$ is applied entrywise).\n\n(a) Compute $A$ explicitly.\n\n(b) Find $|A|$ (the determinant of $A$).\n\n(c) Prove that $A$ is orthogonal.\n\n(d) Let $g(x) = \\sin^{-1}(f(x))$, and discuss the range of $g$; then find all real $x$ such that $g(x)$ is defined.",
+  "answeroption": "A",
+  "explanation": "**Concepts being tested:** Entrywise matrix functions, determinants, orthogonality, inverse trigonometric domain.<br /><br />(a)<br />$f(0)=0$<br />$f(1)=1$<br />$f(-1)=-1$<br /><br />So $A=\\begin{pmatrix}0 & 1\\\\-1 & 0\\end{pmatrix}$.<br /><br />(b)<br />$|A|=0\\cdot0-1(-1)=1$.<br /><br />(c)<br />$AA^T=I$.<br />Hence $A$ is orthogonal.<br /><br />(d)<br />$f(x)\\in(-1,1)$ for all real $x$.<br />Therefore $g(x)=\\sin^{-1}(f(x))$ defined for all $x\\in\\mathbb{R}$ with range $(-\\frac{\\pi}{2},\\frac{\\pi}{2})$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=\\begin{pmatrix}0&1\\\\-1&0\\end{pmatrix}$<br />(b) $|A|=1$<br />(c) Since $AA^T=I$, $A$ is orthogonal<br />(d) $g(x)=\\sin^{-1}(f(x))$ is defined for all real $x$ and has range $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$",
+    "B": "(a) $A=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$<br />(b) $|A|=0$<br />(c) $A$ is not orthogonal<br />(d) $g$ is defined only for $x=0$",
+    "C": "(a) $A=\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}$<br />(b) $|A|=-1$<br />(c) $A$ is singular<br />(d) $g$ is undefined for all real $x$",
+    "D": "(a) $A=\\begin{pmatrix}0&2\\\\-2&0\\end{pmatrix}$<br />(b) $|A|=4$<br />(c) $A$ is orthogonal only after division by $2$<br />(d) $g$ has range $[0,\\pi]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:27:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

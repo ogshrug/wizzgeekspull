@@ -1,0 +1,31 @@
+{
+  "id": "69a85c00b4df445c7f648c6f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Consider the function $f(x) = x^4 - 4x^3 + 6x^2 + 1$. <br /><br />(a) Find all critical points and classify them. <br /><br />(b) Determine intervals of increase and decrease. <br /><br />(c) Find absolute extrema on $[0,3]$.",
+  "answeroption": "B",
+  "explanation": "Derivative:<br /><br />\\(f'(x)=4x(x^2-3x+3)\\).<br /><br />Only real critical point: x=0.<br /><br />Second derivative:<br /><br />\\(f''(0)=12>0\\).<br /><br />So x=0 is local minimum.<br /><br />Function decreasing in (-∞,0).<br /><br />Function increasing in (0,∞).<br /><br />Check endpoints:<br /><br />f(0)=1, f(3)=28.<br /><br />Absolute minimum = 1 at x=0.<br /><br />Absolute maximum = 28 at x=3.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Critical point is $x=0$, local maximum.<br />(b) Increasing on $(-\\infty,0)$ and decreasing on $(0,\\infty)$.<br />(c) Absolute maximum is $1$ at $x=0$ and absolute minimum is $28$ at $x=3$.",
+    "B": "(a) Only real critical point is $x=0$, which is a local minimum.<br />(b) Decreasing on $(-\\infty,0)$ and increasing on $(0,\\infty)$.<br />(c) On $[0,3]$, absolute minimum is $1$ at $x=0$ and absolute maximum is $28$ at $x=3$.",
+    "C": "(a) Critical points are $x=0,1,3$.<br />(b) Increasing on $(0,3)$ only.<br />(c) Absolute minimum is $28$ at $x=3$.",
+    "D": "(a) No critical point exists.<br />(b) Function is increasing for all real $x$.<br />(c) Absolute maximum and minimum do not exist on $[0,3]$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:21:20 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

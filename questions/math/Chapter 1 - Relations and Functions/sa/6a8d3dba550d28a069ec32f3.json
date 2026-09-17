@@ -1,0 +1,29 @@
+{
+  "id": "6a8d3dba550d28a069ec32f3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=x^2+1$. Check whether $f$ is onto. Give mathematical justification.",
+  "answeroption": "A",
+  "explanation": "<b>Range restriction</b><br>For every $x\\in\\mathbb{R}$, we have $x^2\\geq0$. Therefore,<br>$$f(x)=x^2+1\\geq1.$$<br>Thus, the range of $f$ is $[1,\\infty)$, which is not equal to the co-domain $\\mathbb{R}$.<br><br><b>Element without a pre-image</b><br>The number $0\\in\\mathbb{R}$ belongs to the co-domain, but there is no real $x$ satisfying<br>$$x^2+1=0,$$<br>because this would require $x^2=-1$.<br><br><b>Conclusion</b><br>Since at least one element of the co-domain has no pre-image, $f$ is not onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is not onto because its range is $[1,\\infty)$, so $0$ has no real pre-image",
+    "B": "$f$ is onto because every $y\\in\\mathbb{R}$ has the pre-image $x=\\sqrt{y-1}$",
+    "C": "$f$ is not onto because $1$ has no real pre-image",
+    "D": "$f$ is onto because $x^2+1$ is real for every $x\\in\\mathbb{R}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "6a152ebe2a89680e5835ceb9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "LA",
+  "question": "If $A = \\begin{bmatrix} 3 & 4 & 2 \\\\ 0 & 2 & -3 \\\\ 1 & -2 & 6 \\end{bmatrix}$, find $A^{-1}$. Hence, solve the following system of equations: $3x+4y+2z=8$, $2y-3z=3$, $x-2y+6z=-2$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find $|A|$: <br /> $|A| = 3\\begin{vmatrix}2 & -3 \\\\ -2 & 6\\end{vmatrix} - 4\\begin{vmatrix}0 & -3 \\\\ 1 & 6\\end{vmatrix} + 2\\begin{vmatrix}0 & 2 \\\\ 1 & -2\\end{vmatrix}$ <br /> $= 3(12 - 6) - 4(0 - (-3)) + 2(0 - 2)$ <br /> $= 3(6) - 4(3) + 2(-2) = 18 - 12 - 4 = 2$. <br /><br /> **Step 2:** Find cofactors: <br /> $C_{11} = +(2\\times6 - (-3)\\times(-2)) = 12 - 6 = 6$ <br /> $C_{12} = -(0\\times6 - (-3)\\times1) = -(0 + 3) = -3$ <br /> $C_{13} = +(0\\times(-2) - 2\\times1) = 0 - 2 = -2$ <br /> $C_{21} = -(4\\times6 - 2\\times(-2)) = -(24 + 4) = -28$ <br /> $C_{22} = +(3\\times6 - 2\\times1) = 18 - 2 = 16$ <br /> $C_{23} = -(3\\times(-2) - 4\\times1) = -(-6 - 4) = 10$ <br /> $C_{31} = +(4\\times(-3) - 2\\times2) = -12 - 4 = -16$ <br /> $C_{32} = -(3\\times(-3) - 2\\times0) = -(-9 - 0) = 9$ <br /> $C_{33} = +(3\\times2 - 4\\times0) = 6 - 0 = 6$ <br /><br /> **Step 3:** $\\text{adj } A = \\begin{bmatrix} 6 & -28 & -16 \\\\ -3 & 16 & 9 \\\\ -2 & 10 & 6 \\end{bmatrix}$. <br /><br /> **Step 4:** $A^{-1} = \\frac{1}{|A|} \\text{adj } A = \\frac{1}{2} \\begin{bmatrix} 6 & -28 & -16 \\\\ -3 & 16 & 9 \\\\ -2 & 10 & 6 \\end{bmatrix}$. <br /><br /> **Step 5:** System $AX = B$, where $X = \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix}$, $B = \\begin{bmatrix} 8 \\\\ 3 \\\\ -2 \\end{bmatrix}$. <br /> $X = A^{-1}B = \\frac{1}{2} \\begin{bmatrix} 6 & -28 & -16 \\\\ -3 & 16 & 9 \\\\ -2 & 10 & 6 \\end{bmatrix} \\begin{bmatrix} 8 \\\\ 3 \\\\ -2 \\end{bmatrix}$. <br /><br /> **Step 6:** Compute: <br /> Row1: $6(8) + (-28)(3) + (-16)(-2) = 48 - 84 + 32 = -4$ <br /> Row2: $(-3)(8) + 16(3) + 9(-2) = -24 + 48 - 18 = 6$ <br /> Row3: $(-2)(8) + 10(3) + 6(-2) = -16 + 30 - 12 = 2$ <br /><br /> **Step 7:** $X = \\frac{1}{2} \\begin{bmatrix} -4 \\\\ 6 \\\\ 2 \\end{bmatrix} = \\begin{bmatrix} -2 \\\\ 3 \\\\ 1 \\end{bmatrix}$. <br /><br /> **Answer:** $x = -2,\\ y = 3,\\ z = 1$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

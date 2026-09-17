@@ -1,0 +1,26 @@
+{
+  "id": "6a2fc79db51101141dc0dc97",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following differential equation:<br />$(1+e^{y/x})dy + e^{y/x}(1-\\frac{y}{x})dx = 0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Express the differential equation in the form $\\frac{dy}{dx}$.<br />$(1+e^{y/x})dy = -e^{y/x}(1-\\frac{y}{x})dx \\implies \\frac{dy}{dx} = \\frac{e^{y/x}(\\frac{y}{x}-1)}{1+e^{y/x}}$<br />**Step 2:** Substitute $y = vx$ and $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$ since it is homogeneous.<br />$v + x\\frac{dv}{dx} = \\frac{e^v(v-1)}{1+e^v}$<br />**Step 3:** Separate the variables.<br />$x\\frac{dv}{dx} = \\frac{v e^v - e^v - v - v e^v}{1+e^v} = -\\frac{v + e^v}{1+e^v}$<br />$\\frac{1+e^v}{v+e^v} dv = -\\frac{dx}{x}$<br />**Step 4:** Integrate both sides.<br />$\\log|v + e^v| = -\\log|x| + C \\implies \\log|x(v + e^v)| = C$<br />$x(\\frac{y}{x} + e^{y/x}) = A \\implies y + x e^{y/x} = A$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

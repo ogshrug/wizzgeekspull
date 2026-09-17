@@ -1,0 +1,30 @@
+{
+  "id": "69a9b2c5d30adc5083911b2c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "SA",
+  "question": "Let $A$ and $B$ be independent events with $P(A) = 0.2$ and $P(B) = 0.5$. Find the probability that either $A$ or $B$ occurs, but not both.",
+  "answeroption": "D",
+  "explanation": "For independent events: <br /> $P(A \\cup B) = P(A) + P(B) - P(A)P(B) = 0.2 + 0.5 - 0.2 \\times 0.5 = 0.7 - 0.1 = 0.6$ <br /><br /> But either but not both is $P(A \\cup B) - P(A \\cap B) = 0.6 - 0.1 = 0.5$ <br /> Or, specifically, exactly one: $P(A \\cap B') + P(A' \\cap B)$ <br /> $= P(A)P(B') + P(A')P(B) = 0.2 \\times 0.5 + 0.8 \\times 0.5 = 0.1 + 0.4 = 0.5$ <br /><br /> Final answer: $\\boxed{0.5}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$P(0)=\\frac{1}{8}, P(1)=\\frac{1}{8}, P(2)=\\frac{3}{8}, P(3)=\\frac{3}{8}$<br />Mean $=1.5$<br />Variance $=0.75$",
+    "B": "$P(0)=\\frac{1}{8}, P(1)=\\frac{3}{8}, P(2)=\\frac{3}{8}, P(3)=\\frac{1}{8}$<br />Mean $=3$<br />Variance $=1.5$",
+    "C": "$P(0)=\\frac{3}{8}, P(1)=\\frac{1}{8}, P(2)=\\frac{1}{8}, P(3)=\\frac{3}{8}$<br />Mean $=1.5$<br />Variance $=1.25$",
+    "D": "$P(0)=\\frac{1}{8}, P(1)=\\frac{3}{8}, P(2)=\\frac{3}{8}, P(3)=\\frac{1}{8}$<br />Mean $=1.5$<br />Variance $=0.75$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:43:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

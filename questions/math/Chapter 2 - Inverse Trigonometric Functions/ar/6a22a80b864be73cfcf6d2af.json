@@ -1,0 +1,33 @@
+{
+  "id": "6a22a80b864be73cfcf6d2af",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "AR",
+  "question": "**Assertion (A):** The range of the function $f(x)=2 \\sin^{-1}x+\\frac{3\\pi}{2}$, where $x\\in[-1,1]$, is $[\\frac{\\pi}{2},\\frac{5\\pi}{2}]$<br />**Reason (R):** The range of the principal value branch of $\\sin^{-1}(x)$ is $[0, \\pi]$.",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Analyze the Reason (R). The principal value branch of the inverse sine function, $\\sin^{-1}(x)$, is universally defined in mathematics as $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$, not $[0, \\pi]$. The interval $[0, \\pi]$ is the principal range for $\\cos^{-1}(x)$. Thus, Reason (R) is false.<br />**Step 2:** Analyze the Assertion (A). We need to determine the range of $f(x) = 2\\sin^{-1}x + \\frac{3\\pi}{2}$ over its domain $x \\in [-1, 1]$.<br />**Step 3:** As established, the correct range of $\\sin^{-1}x$ is $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$. That means $-\\frac{\\pi}{2} \\le \\sin^{-1}x \\le \\frac{\\pi}{2}$.<br />**Step 4:** Build the function algebraically. Multiply the inequality by 2: $-\\pi \\le 2\\sin^{-1}x \\le \\pi$.<br />**Step 5:** Add $\\frac{3\\pi}{2}$ to all parts of the inequality: $-\\pi + \\frac{3\\pi}{2} \\le 2\\sin^{-1}x + \\frac{3\\pi}{2} \\le \\pi + \\frac{3\\pi}{2}$. Simplifying yields $\\frac{\\pi}{2} \\le f(x) \\le \\frac{5\\pi}{2}$. The range is indeed $[\\frac{\\pi}{2}, \\frac{5\\pi}{2}]$. Assertion (A) is true. Since A is true and R is false, the code is (c).",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true and Reason (R) is false.",
+    "D": "Assertion (A) is false and Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

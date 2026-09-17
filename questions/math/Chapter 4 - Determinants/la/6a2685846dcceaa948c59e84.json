@@ -1,0 +1,29 @@
+{
+  "id": "6a2685846dcceaa948c59e84",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "LA",
+  "question": "If $A = \\begin{bmatrix}3&2\\\\5&-7\\end{bmatrix}$, then find $A^{-1}$ and use it to solve the following system of equations:<br />$3x + 5y = 11$<br />$2x - 7y = -3$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Calculate the determinant of the $2 \\times 2$ matrix $A$: $|A| = (3)(-7) - (2)(5) = -21 - 10 = -31$. Since $|A| \\neq 0$, the matrix inverse exists. Find the adjoint matrix by swapping the diagonal elements and changing the signs of the off-diagonal elements: $\\text{adj } A = \\begin{bmatrix}-7&-2\\\\-5&3\\end{bmatrix}$. Thus, the inverse is $A^{-1} = \\frac{1}{-31}\\begin{bmatrix}-7&-2\\\\-5&3\\end{bmatrix} = \\frac{1}{31}\\begin{bmatrix}7&2\\\\5&-3\\end{bmatrix}$.<br />**Step 2:** Notice that the given system of linear equations can be written in matrix form as $A^T X = B$, where $X = \\begin{bmatrix}x\\\\y\\end{bmatrix}$ and $B = \\begin{bmatrix}11\\\\-3\\end{bmatrix}$. Transposing the coefficients matches the columns of $A$. The solution is given by $X = (A^T)^{-1}B = (A^{-1})^T B$.<br />**Step 3:** Substitute the transpose of our calculated inverse matrix into the solution equation: $X = \\frac{1}{31}\\begin{bmatrix}7&5\\\\2&-3\\end{bmatrix}\\begin{bmatrix}11\\\\-3\\end{bmatrix}$. Perform the row-by-column matrix multiplication to evaluate the elements: $\\begin{bmatrix}x\\\\y\\end{bmatrix} = \\frac{1}{31}\\begin{bmatrix}(7)(11) + (5)(-3)\\\\(2)(11) + (-3)(-3)\\end{bmatrix} = \\frac{1}{31}\\begin{bmatrix}77 - 15\\\\22 + 9\\end{bmatrix} = \\frac{1}{31}\\begin{bmatrix}62\\\\31\\end{bmatrix} = \\begin{bmatrix}2\\\\1\\end{bmatrix}$. Comparing matching vector elements, the final unique solution is $x = 2$ and $y = 1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

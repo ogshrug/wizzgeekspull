@@ -1,0 +1,29 @@
+{
+  "id": "69a94530d30adc5083911a34",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{bmatrix} 4 & 6 & 2 \\\\ 2 & 8 & 2 \\\\ 6 & 2 & 8\\end{bmatrix}$. Decompose $A$ into the sum of a symmetric and a skew-symmetric matrix. Verify your answer by explicitly checking the symmetry/skew-symmetry.",
+  "answeroption": "B",
+  "explanation": "A symmetric matrix $S = \\frac{1}{2}(A+A')$ and skew-symmetric matrix $K = \\frac{1}{2}(A-A')$.<br />First compute transpose:<br />$A' = \\begin{bmatrix} 4 & 2 & 6 \\\\ 6 & 8 & 2 \\\\ 2 & 2 & 8\\end{bmatrix}$<br /><br />$A+A' = \\begin{bmatrix}8 & 8 & 8 \\\\ 8 & 16 & 4 \\\\ 8 & 4 & 16\\end{bmatrix}$<br />$A-A' = \\begin{bmatrix}0 & 4 & -4 \\\\ -4 & 0 & 0 \\\\ 4 & 0 & 0\\end{bmatrix}$<br /><br />$S = \\frac{1}{2}\\begin{bmatrix}8 & 8 & 8 \\\\ 8 & 16 & 4 \\\\ 8 & 4 & 16\\end{bmatrix}$<br />$= \\begin{bmatrix}4 & 4 & 4 \\\\ 4 & 8 & 2 \\\\ 4 & 2 & 8\\end{bmatrix}$<br /><br />$K = \\frac{1}{2}\\begin{bmatrix}0 & 4 & -4 \\\\ -4 & 0 & 0 \\\\ 4 & 0 & 0\\end{bmatrix}$<br />$= \\begin{bmatrix}0 & 2 & -2 \\\\ -2 & 0 & 0 \\\\ 2 & 0 & 0\\end{bmatrix}$<br /><br />Check symmetry:<br />$S' = S$ so $S$ is symmetric.<br />Check skew symmetry:<br />$K' = -K$ so $K$ is skew-symmetric.<br />Thus $A = S + K$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$S=\\begin{bmatrix}4&6&2\\\\2&8&2\\\\6&2&8\\end{bmatrix}$ and $K=0$, so $A$ is already symmetric.",
+    "B": "$S=\\begin{bmatrix}4&4&4\\\\4&8&2\\\\4&2&8\\end{bmatrix}$ and $K=\\begin{bmatrix}0&2&-2\\\\-2&0&0\\\\2&0&0\\end{bmatrix}$, where $S'=S$, $K'=-K$, and $A=S+K$.",
+    "C": "$S=\\begin{bmatrix}0&2&-2\\\\-2&0&0\\\\2&0&0\\end{bmatrix}$ and $K=\\begin{bmatrix}4&4&4\\\\4&8&2\\\\4&2&8\\end{bmatrix}$.",
+    "D": "$S=\\begin{bmatrix}4&8&8\\\\8&16&4\\\\8&4&16\\end{bmatrix}$ and $K=\\begin{bmatrix}0&4&-4\\\\-4&0&0\\\\4&0&0\\end{bmatrix}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 08:56:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

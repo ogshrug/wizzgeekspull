@@ -1,0 +1,30 @@
+{
+  "id": "69aa65ded30adc5083911b68",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let $f : \\text{R} \\rightarrow \\text{R}$ be defined by $f(x) = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ for $x \\neq -1$, $x \\neq 1$. Consider the relation $R$ on $\\text{R}$ defined by $a R b$ if and only if $f(a) = f(b)$.\n\n(a) Prove that $R$ is an equivalence relation on its domain.\n\n(b) Find the distinct equivalence classes under $R$.\n\n(c) If $g(x) = \\tan^{-1}(x)$, establish the relation between $f(x)$ and $g(x)$, and hence use this to re-express $f(x)$ in terms of $g(x)$ for all $x$ in the domain.\n\n(d) Discuss whether $g(x)$ is invertible. If invertible, find its inverse and domain.",
+  "answeroption": "D",
+  "explanation": "**Concepts being tested:**<br />- Definition and properties of relations and equivalence relations (Relations and Functions).<br />- Properties and identities of inverse trigonometric functions (Inverse Trigonometric Functions).<br />- Composition and invertibility of functions.<br /><br />(a) **Prove $R$ is an equivalence relation.**<br /><br />$R$ is defined by $f(a) = f(b)$. For $f(x) = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$:<br /><br />Reflexive: $f(a) = f(a)$ for any $a$ in domain.<br />Symmetric: If $f(a) = f(b)$, then $f(b) = f(a)$.<br />Transitive: If $f(a) = f(b)$ and $f(b) = f(c)$, then $f(a) = f(c)$.<br /><br />Hence, $R$ is an equivalence relation.<br /><br />(b) **Find the distinct equivalence classes under $R$.**<br /><br />Let $f(a) = f(b)$ implies $\\frac{2a}{1+a^2} = \\frac{2b}{1+b^2}$.<br /><br />$2a(1+b^2) = 2b(1+a^2)$<br />$2a + 2ab^2 = 2b + 2ba^2$<br />$2(a-b) = 2ba^2 - 2ab^2$<br />$a-b = ba^2 - ab^2$<br />$a-b = ab(a-b)$<br /><br />If $a \\neq b$, divide both sides by $(a-b)$:<br />$1 = ab$<br /><br />So either $a=b$ or $ab=1$.<br /><br />Equivalence class of $a$ is $\\{a,1/a\\}$ (for $a \\neq 0$).<br />For $a=0$, class is $\\{0\\}$.<br /><br />(c) **Relation between $f(x)$ and $g(x)$.**<br /><br />$\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right) = 2\\tan^{-1}x$.<br /><br />Let $x=\\tan\\theta$. Then<br />$\\sin\\theta = \\frac{x}{\\sqrt{1+x^2}}$, $\\cos\\theta = \\frac{1}{\\sqrt{1+x^2}}$.<br />$2\\sin\\theta\\cos\\theta = \\frac{2x}{1+x^2}$.<br /><br />Thus $f(x) = 2\\tan^{-1}x = 2g(x)$.<br /><br />(d) **Invertibility of $g(x)$.**<br /><br />$g(x)=\\tan^{-1}x$ is continuous and strictly increasing, hence invertible.<br /><br />Let $y=\\tan^{-1}x$<br />$x=\\tan y$<br /><br />So $g^{-1}(y)=\\tan y$.<br /><br />Domain of $g^{-1}$ is $(-\\frac{\\pi}{2},\\frac{\\pi}{2})$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R$ is not an equivalence relation<br />(b) No equivalence classes exist<br />(c) $f(x)=g(x)$<br />(d) $g(x)$ is not invertible",
+    "B": "(a) $R$ is reflexive only<br />(b) Equivalence class of $a$ is $\\{a\\}$ for every $a$<br />(c) $f(x)=\\tan^{-1}(2x)$<br />(d) $g^{-1}(y)=\\sin y$",
+    "C": "(a) $R$ is symmetric but not transitive<br />(b) Equivalence class of $a$ is $\\{-a,a\\}$<br />(c) $f(x)=-2g(x)$<br />(d) $g^{-1}(y)=\\cos y$",
+    "D": "(a) $R$ is an equivalence relation because equality of function values is reflexive, symmetric and transitive<br />(b) From $f(a)=f(b)$, either $a=b$ or $ab=1$; hence the class of $a\\ne0$ is $\\{a,1/a\\}$ and the class of $0$ is $\\{0\\}$<br />(c) $f(x)=\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)=2\\tan^{-1}x=2g(x)$<br />(d) $g(x)=\\tan^{-1}x$ is invertible, with $g^{-1}(y)=\\tan y$ and domain of $g^{-1}$ equal to $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:27:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

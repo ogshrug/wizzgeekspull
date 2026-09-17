@@ -1,0 +1,30 @@
+{
+  "id": "6a8d6fdda0ecd9fc8f325fbb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "SA",
+  "question": "For $f(x)=\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$:<br><br>(i) show that the function is defined for every real $x$;<br><br>(ii) determine its range and the values of $x$ at which the extreme values are attained.",
+  "answeroption": "A",
+  "explanation": "<b>Upper bound of the argument</b><br>Since $(x-1)^2\\geq0$, we have $x^2+1\\geq2x$. Dividing by $x^2+1>0$ gives $$\\frac{2x}{1+x^2}\\leq1.$$<br><br><b>Lower bound of the argument</b><br>Since $(x+1)^2\\geq0$, we have $x^2+1\\geq-2x$. Hence, $$\\frac{2x}{1+x^2}\\geq-1.$$ Therefore, the argument belongs to $[-1,1]$ for every real $x$, so the domain is $\\mathbb{R}$.<br><br><b>Attainment of boundary values</b><br>The argument equals $1$ when $(x-1)^2=0$, giving $x=1$. It equals $-1$ when $(x+1)^2=0$, giving $x=-1$.<br><br><b>Range of inverse sine</b><br>Thus, the argument covers the full interval $[-1,1]$, and the function covers $$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right].$$ The least value occurs at $x=-1$, and the greatest value occurs at $x=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $\\mathbb{R}$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; least value at $x=-1$ and greatest value at $x=1$",
+    "B": "Domain: $[-1,1]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; least value at $x=-1$ and greatest value at $x=1$",
+    "C": "Domain: $\\mathbb{R}$; Range: $[0,\\pi]$; least value at $x=-1$ and greatest value at $x=1$",
+    "D": "Domain: $\\mathbb{R}$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; least value at $x=1$ and greatest value at $x=-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

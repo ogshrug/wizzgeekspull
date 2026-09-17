@@ -1,0 +1,29 @@
+{
+  "id": "6a8d3db9550d28a069ec32ec",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "SA",
+  "question": "Let $f:\\mathbb{Z}\\to\\mathbb{Z}$ be defined by $f(x)=x^2+1$. Examine whether $f$ is one-one. Justify your answer.",
+  "answeroption": "A",
+  "explanation": "<b>Selection of distinct elements</b><br>Consider $1,-1\\in\\mathbb{Z}$, where<br>$$1\\ne-1.$$<br><br><b>Comparison of images</b><br>We have<br>$$f(1)=1^2+1=2$$<br>and<br>$$f(-1)=(-1)^2+1=2.$$<br>Thus, $f(1)=f(-1)$ although $1\\ne-1$.<br><br><b>Conclusion</b><br>Two distinct elements of the domain have the same image. Hence, $f$ is not one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is not one-one because $f(1)=f(-1)=2$ although $1\\ne-1$",
+    "B": "$f$ is one-one because every integer has exactly one square",
+    "C": "$f$ is one-one because $x^2+1$ is always positive",
+    "D": "$f$ is not one-one because $f(0)=f(1)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

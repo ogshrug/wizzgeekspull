@@ -1,0 +1,29 @@
+{
+  "id": "6a2253d7864be73cfcf6d152",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7a",
+    "69c6610140512f018fa94d80"
+  ],
+  "question_type": "VSA",
+  "question": "Differentiate $2^{\\cos^2 x}$ w.r.t $\\cos^2 x$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $u = 2^{\\cos^2 x}$ and $v = \\cos^2 x$. The goal is to compute $\\frac{du}{dv}$.<br />**Step 2:** We can directly express $u$ in terms of $v$ as $u = 2^v$.<br />**Step 3:** Differentiate $u$ directly with respect to $v$. Using the standard formula for exponential differentiation, $\\frac{du}{dv} = \\frac{d}{dv}(2^v) = 2^v \\ln 2$.<br />**Step 4:** Substitute $v$ back to its original expression to get the final answer: $2^{\\cos^2 x} \\ln 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1",
+    "2025-1-2",
+    "2025-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

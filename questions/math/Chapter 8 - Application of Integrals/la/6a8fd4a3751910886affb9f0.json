@@ -1,0 +1,31 @@
+{
+  "id": "6a8fd4a3751910886affb9f0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996",
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999"
+  ],
+  "question_type": "LA",
+  "question": "The circles $x^2+y^2=4$ and $\\left(x-2\\right)^2+y^2=4$ overlap. Determine their points of intersection, formulate a definite integral with respect to $y$ using the appropriate arcs of the circles, and hence calculate the exact area common to both circles.",
+  "answeroption": "B",
+  "explanation": "Points of IntersectionSubtracting $x^2+y^2=4$ from $\\left(x-2\\right)^2+y^2=4$ gives`\\left(x-2\\right)^2-x^2=0-4x+4=0`Thus, $x=1$. Substituting in $x^2+y^2=4$ gives`1+y^2=4y=\\pm\\sqrt{3}`Hence, the points of intersection are $\\left(1,\\sqrt{3}\\right)$ and $\\left(1,-\\sqrt{3}\\right)$.Formation of the Area IntegralThe right arc of the first circle is`x=\\sqrt{4-y^2}`The left arc of the second circle is`x=2-\\sqrt{4-y^2}`Therefore, the common area is`A=\\int_{-\\sqrt{3}}^{\\sqrt{3}}\\left[\\sqrt{4-y^2}-\\left(2-\\sqrt{4-y^2}\\right)\\right]dy`By symmetry,`A=2\\int_0^{\\sqrt{3}}\\left(2\\sqrt{4-y^2}-2\\right)dyA=4\\int_0^{\\sqrt{3}}\\sqrt{4-y^2}\\,dy-4\\sqrt{3}`EvaluationPut $y=2\\sin\\theta$. Then $dy=2\\cos\\theta\\,d\\theta$. The limits become $0$ and $\\frac{\\pi}{3}$. Hence,`\\int_0^{\\sqrt{3}}\\sqrt{4-y^2}\\,dy=4\\int_0^{\\frac{\\pi}{3}}\\cos^2\\theta\\,d\\theta=4\\left[\\frac{\\theta}{2}+\\frac{\\sin2\\theta}{4}\\right]_0^{\\frac{\\pi}{3}}=\\frac{2\\pi}{3}+\\frac{\\sqrt{3}}{2}`Therefore,`A=4\\left(\\frac{2\\pi}{3}+\\frac{\\sqrt{3}}{2}\\right)-4\\sqrt{3}A=\\frac{8\\pi}{3}-2\\sqrt{3}`Final ResultThe area common to both circles is $\\frac{8\\pi}{3}-2\\sqrt{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "Intersections $(1,\\pm\\sqrt{3})$; common-area integral $\\int_{-\\sqrt{3}}^{\\sqrt{3}}[2-2\\sqrt{4-y^2}]\\,dy$; area $=\\frac{8\\pi}{3}-2\\sqrt{3}$",
+    "B": "Intersections $(1,\\pm\\sqrt{3})$; common-area integral $\\int_{-\\sqrt{3}}^{\\sqrt{3}}[2\\sqrt{4-y^2}-2]\\,dy$; area $=\\frac{8\\pi}{3}-2\\sqrt{3}$",
+    "C": "Intersections $(1,\\pm2)$; common-area integral $\\int_{-2}^{2}[2\\sqrt{4-y^2}-2]\\,dy$; area $=\\frac{8\\pi}{3}-2\\sqrt{3}$",
+    "D": "Intersections $(1,\\pm\\sqrt{3})$; common-area integral $\\int_{-\\sqrt{3}}^{\\sqrt{3}}[2\\sqrt{4-y^2}-2]\\,dy$; area $=\\frac{4\\pi}{3}-2\\sqrt{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8f1a904b490c7cde3594df",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f994"
+  ],
+  "question_type": "SA",
+  "question": "For $m>0$, the area below the line $y=mx+2$ from $x=0$ to $x=4$ is $24$ square units. Determine $m$ and hence obtain the equation of the line.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Forming the area integral</b><br>Since $m>0$, the line lies above the x-axis throughout $[0,4]$. Therefore,<br>\\(A=\\int_0^4(mx+2)\\,dx\\)<br><b>Step 2: Evaluating in terms of $m$</b><br>\\(A=\\left[\\frac{mx^2}{2}+2x\\right]_0^4=8m+8\\)<br><b>Step 3: Using the specified area</b><br>According to the question,<br>\\(8m+8=24\\Rightarrow8m=16\\Rightarrow m=2\\)<br><b>Step 4: Obtaining the equation</b><br>Substituting $m=2$ in $y=mx+2$ gives<br>\\(y=2x+2\\)<br><b>Final Answer</b><br>The required value is $m=2$, and the equation of the line is $y=2x+2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$m=2$ and the line is $y=2x+2$",
+    "B": "$m=4$ and the line is $y=4x+2$",
+    "C": "$m=1$ and the line is $y=x+2$",
+    "D": "$m=3$ and the line is $y=3x+2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

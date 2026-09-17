@@ -1,0 +1,29 @@
+{
+  "id": "6a214c70864be73cfcf6d0fd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation: $y~log~y\\frac{dx}{dy}+x=\\frac{2}{y}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The equation is linear with respect to $x$. Rewrite it as $\\frac{dx}{dy} + \\frac{1}{y~log~y}x = \\frac{2}{y^2~log~y}$.<br /><br />**Step 2:** Identify $P(y) = \\frac{1}{y~log~y}$. Find the Integrating Factor (IF): $IF = e^{\\int \\frac{1}{y~log~y} dy}$.<br /><br />**Step 3:** Substitute $u = log~y$, $du = \\frac{1}{y}dy$ to integrate: $\\int \\frac{1}{u} du = log(u) = log(log~y)$. Thus $IF = e^{log(log~y)} = log~y$.<br /><br />**Step 4:** Multiply the standard form by the IF: $x(IF) = \\int Q(y)(IF) dy$.<br /><br />**Step 5:** This yields $x~log~y = \\int \\frac{2}{y^2~log~y} \\cdot (log~y) dy = \\int \\frac{2}{y^2} dy$.<br /><br />**Step 6:** Evaluate the integral: $x~log~y = -\\frac{2}{y} + C$. This is the general solution.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

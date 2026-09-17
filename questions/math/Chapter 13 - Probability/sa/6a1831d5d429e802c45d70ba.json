@@ -1,0 +1,24 @@
+{
+  "id": "6a1831d5d429e802c45d70ba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "The probability distribution of a random variable X is given below :<br /><br /><table border=\"1\" cellpadding=\"5\" style=\"border-collapse: collapse; text-align: left;\"><tr><th>$X$</th><td>1</td><td>2</td><td>4</td><td>$2k$</td><td>$3k$</td><td>$5k$</td></tr><tr><th>$P(X)$</th><td>$\\frac{1}{2}$</td><td>$\\frac{1}{5}$</td><td>$\\frac{3}{25}$</td><td>$\\frac{1}{10}$</td><td>$\\frac{1}{25}$</td><td>$\\frac{1}{25}$</td></tr></table><br />Find k, if $E(X)=2.94$ and also find $P(X\\le4)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Restate the table inputs with correct verified distribution bounds where total probability sum equals 1: $P(4) = \\frac{3}{25} = 0.12$. Setting up the expected value definition equation $E(X) = \\sum x_i P(x_i)$:<br />$E(X) = 1(0.5) + 2(0.2) + 4(0.12) + 2k(0.1) + 3k(0.04) + 5k(0.04)$.<br /><br />**Step 2:** Simplify the algebraic expression to solve for $k$:<br />$2.94 = 0.5 + 0.4 + 0.48 + 0.2k + 0.12k + 0.2k \\implies 2.94 = 1.38 + 0.52k \\implies 0.52k = 1.56 \\implies k = 3$.<br /><br />**Step 3:** Evaluate target cumulative probability $P(X \\le 4)$ by adding matching elements:<br />$P(X \\le 4) = P(1) + P(2) + P(4) = 0.5 + 0.2 + 0.12 = 0.82$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

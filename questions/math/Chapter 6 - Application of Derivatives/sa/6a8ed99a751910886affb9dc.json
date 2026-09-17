@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed99a751910886affb9dc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984"
+  ],
+  "question_type": "SA",
+  "question": "For $k>0$, use the first derivative test to classify the critical points of $f(x)=x^3-3kx$. Obtain the corresponding local maximum and minimum values in terms of $k$.",
+  "answeroption": "A",
+  "explanation": "<b>Critical points</b><br>$$f'(x)=3x^2-3k=3(x-\\sqrt{k})(x+\\sqrt{k})$$<br>Thus, the critical points are $x=-\\sqrt{k}$ and $x=\\sqrt{k}$.<br><b>Derivative sign</b><br>For $x<-\\sqrt{k}$, $f'(x)>0$. For $-\\sqrt{k}<x<\\sqrt{k}$, $f'(x)<0$. For $x>\\sqrt{k}$, $f'(x)>0$.<br><b>Classification</b><br>At $x=-\\sqrt{k}$, the derivative changes from positive to negative, giving a local maximum. At $x=\\sqrt{k}$, it changes from negative to positive, giving a local minimum.<br><b>Extreme values</b><br>$$f(-\\sqrt{k})=2k\\sqrt{k}$$<br>$$f(\\sqrt{k})=-2k\\sqrt{k}$$<br><b>Conclusion</b><br>The local maximum is $2k\\sqrt{k}$, and the local minimum is $-2k\\sqrt{k}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Local maximum at $x=-\\sqrt{k}$ with value $2k\\sqrt{k}$; local minimum at $x=\\sqrt{k}$ with value $-2k\\sqrt{k}$",
+    "B": "Local minimum at $x=-\\sqrt{k}$ with value $2k\\sqrt{k}$; local maximum at $x=\\sqrt{k}$ with value $-2k\\sqrt{k}$",
+    "C": "Local maximum at $x=\\sqrt{k}$ with value $2k\\sqrt{k}$; local minimum at $x=-\\sqrt{k}$ with value $-2k\\sqrt{k}$",
+    "D": "Both $x=\\pm\\sqrt{k}$ are local minima with value $-2k\\sqrt{k}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

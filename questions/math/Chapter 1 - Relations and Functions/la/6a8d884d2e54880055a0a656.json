@@ -1,0 +1,30 @@
+{
+  "id": "6a8d884d2e54880055a0a656",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $A=\\mathbb{R}\\setminus\\{3\\}$ and $B=\\mathbb{R}\\setminus\\{1\\}$. Consider the function $f:A\\to B$ defined by $f(x)=\\frac{x-2}{x-3}$. Establish that $f$ is one-one and onto.",
+  "answeroption": "B",
+  "explanation": "<b>Verification of one-one property</b><br>Let $x_1,x_2\\in A$ and suppose $$f(x_1)=f(x_2)$$ Then $$\\frac{x_1-2}{x_1-3}=\\frac{x_2-2}{x_2-3}$$ Since $x_1\\neq3$ and $x_2\\neq3$, cross multiplication is valid and gives $$(x_1-2)(x_2-3)=(x_2-2)(x_1-3)$$ Expanding, $$x_1x_2-3x_1-2x_2+6=x_1x_2-3x_2-2x_1+6$$ Therefore, $$-3x_1-2x_2=-3x_2-2x_1$$ which gives $$x_1=x_2$$ Hence, $f$ is one-one.<br><br><b>Verification of onto property</b><br>Let $y\\in B$. Then $y\\neq1$. To find a pre-image of $y$, solve $$y=\\frac{x-2}{x-3}$$ This gives $$yx-3y=x-2$$ and hence $$x(y-1)=3y-2$$ Since $y\\neq1$, $$x=\\frac{3y-2}{y-1}$$ This value cannot be $3$, because $\\frac{3y-2}{y-1}=3$ would imply $3y-2=3y-3$, which is impossible. Therefore, $x\\in A$. Substitution in $f$ gives $$f\\left(\\frac{3y-2}{y-1}\\right)=y$$ Thus, every $y\\in B$ has a pre-image in $A$, and $f$ is onto.<br><br><b>Final Result</b><br>The function $f:A\\to B$ defined by $f(x)=\\frac{x-2}{x-3}$ is both one-one and onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one but not onto because the value $1$ has no pre-image.",
+    "B": "$f$ is both one-one and onto; equality of images implies equality of inputs, and every $y\\in B$ has the pre-image $x=\\frac{3y-2}{y-1}\\in A$.",
+    "C": "$f$ is onto but not one-one because two distinct values of $x$ can produce the same rational value.",
+    "D": "$f$ is neither one-one nor onto because $x=3$ and $y=1$ are excluded from the domain and co-domain, respectively."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

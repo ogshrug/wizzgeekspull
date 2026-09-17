@@ -1,0 +1,29 @@
+{
+  "id": "69a95be9589ce36f368b47d5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "LA",
+  "question": "Find the particular solution of $\\displaystyle \\frac{dy}{dx} + 3y = 6e^{-3x}$, given that $y = 2$ when $x = 0$.",
+  "answeroption": "C",
+  "explanation": "Given:<br /><br />$\\frac{dy}{dx} + 3y = 6e^{-3x}$<br /><br />This is a linear differential equation with $P = 3$, $Q = 6e^{-3x}$.<br /><br />I.F. = $e^{\\int 3dx} = e^{3x}$<br /><br />Multiply both sides by I.F.:<br /><br />$e^{3x}\\frac{dy}{dx} + 3e^{3x}y = 6e^{3x}e^{-3x} = 6$<br /><br />$\\frac{d}{dx}(y e^{3x}) = 6$<br /><br />Integrate both sides:<br /><br />$\\int d(y e^{3x}) = \\int 6 dx$<br /><br />$y e^{3x} = 6x + C$<br /><br />$y = \\frac{6x + C}{e^{3x}}$<br /><br />Apply the initial condition $y = 2$ when $x = 0$:<br /><br />$2 = \\frac{6(0) + C}{e^0} \\implies 2 = C$<br /><br />Therefore, $y = \\frac{6x + 2}{e^{3x}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\frac{6x-2}{e^{3x}}$",
+    "B": "$y=(6x+2)e^{3x}$",
+    "C": "$y=\\frac{6x+2}{e^{3x}}$",
+    "D": "$y=\\frac{3x+2}{e^{3x}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:33:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

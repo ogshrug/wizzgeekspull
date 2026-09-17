@@ -1,0 +1,29 @@
+{
+  "id": "6a8d29cb1cb3824448de86bd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "VSA",
+  "question": "A binary operation $*$ on $\\mathbb{Z}$ is defined by $a*b=a+b+2$. Determine the identity element for this operation.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Apply the identity condition</b><br>Let $e$ be the identity element. It must satisfy<br>$$a*e=a\\quad\\text{and}\\quad e*a=a$$<br>for every $a\\in\\mathbb{Z}$.<br><br><b>Step 2: Determine $e$</b><br>Using the given operation,<br>$$a*e=a+e+2.$$<br>For $a*e=a$, we require<br>$$a+e+2=a.$$<br>Cancelling $a$ from both sides gives<br>$$e+2=0,$$<br>so<br>$$e=-2.$$<br><br><b>Step 3: Verify from the other side</b><br>$$e*a=-2+a+2=a.$$<br>Thus, the condition holds from both sides.<br><br><b>Final Answer:</b> The identity element is $\\boxed{-2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2$",
+    "B": "$0$",
+    "C": "$-2$",
+    "D": "$-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

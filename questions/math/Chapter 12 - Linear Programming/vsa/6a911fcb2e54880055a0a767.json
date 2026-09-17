@@ -1,0 +1,29 @@
+{
+  "id": "6a911fcb2e54880055a0a767",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "VSA",
+  "question": "The constraints of a linear programming problem are $x+y \\le 6$, $x \\ge 2$, $y \\ge 1$. Determine whether the point $(2,4)$ belongs to the feasible region.",
+  "answeroption": "B",
+  "explanation": "Step 1: A point belongs to the feasible region only if it satisfies all the constraints simultaneously.<br>Step 2: For $(x,y)=(2,4)$, the first constraint gives $x+y=2+4=6$. Since $6 \\le 6$, this constraint is satisfied.<br>Step 3: The second constraint requires $x \\ge 2$. Here $x=2$, so it is satisfied with equality.<br>Step 4: The third constraint requires $y \\ge 1$. Since $y=4$, this condition is also satisfied.<br>Step 5: As every given inequality is satisfied, the point lies within or on the boundary of the common solution region.<br>Therefore, $(2,4)$ is a feasible solution and hence belongs to the feasible region.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(2,4)$ is infeasible because $x+y>6$",
+    "B": "$(2,4)$ belongs to the feasible region",
+    "C": "$(2,4)$ is infeasible because $x<2$",
+    "D": "$(2,4)$ is infeasible because $y<1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

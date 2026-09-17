@@ -1,0 +1,29 @@
+{
+  "id": "69a91e79575fa42e0944484b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "A farmer has 1000 m² of land to plant wheat and barley. Wheat needs 20 labor-hours per 100 m²; barley needs 30 labor-hours per 100 m². At most 250 labor-hours are available. Profit per 100 m² for wheat is ₹100, for barley is ₹120. Formulate and solve the LPP graphically to maximize profit, showing all working.",
+  "answeroption": "D",
+  "explanation": "Let $x$ = area (in $100$ m²) wheat, $y$ = area (in $100$ m²) barley.<br /><br />$100x + 100y \\leq 1000 \\implies x + y \\leq 10$<br /><br />Labor: $20x + 30y \\leq 250$<br /><br />Profit: $100x + 120y$<br /><br />$x, y \\geq 0$<br /><br />Step 1: Find vertices:<br /><br />(i) $x + y = 10$<br /><br />(ii) $20x + 30y = 250\\implies 2x + 3y = 25$<br /><br />Intersect (i) and (ii):<br /><br />$x + y = 10 \\implies x = 10 - y$<br /><br />$2x + 3y = 25$<br /><br />$2(10-y)+3y=25\\implies 20 - 2y + 3y = 25\\implies y = 5$<br /><br />$x=5$<br /><br />So $(5,5)$<br /><br />(ii) with $x=0$: $3y=25\\implies y=8.33$<br /><br />Within $x+y=10 \\implies x=0, y=10$; $y=8.33<10$, so take $(0,8.33)$<br /><br />(i) with $y=0$: $x=10$, check $20x\\leq250\\implies x\\leq12.5$, so $(10,0)$<br /><br />Step 2: Evaluate profit at feasible points:<br /><br />$(0,0):0$<br /><br />$(10,0): ₹1000$<br /><br />$(0,8.33): 120\\times8.33=₹999.6$<br /><br />$(5,5): 100\\times5+120\\times5=500+600=₹1100$<br /><br />Step 3: Maximum profit is ₹1100 at $x=5$, $y=5$ ($500$ m² each)<br /><br />Final answer: Plant $500$ m² wheat, $500$ m² barley; max profit is ₹1100.",
+  "explanation_image": [],
+  "options": {
+    "A": "Plant 1000 m² wheat and 0 m² barley; maximum profit is ₹1000.",
+    "B": "Plant 0 m² wheat and about 833 m² barley; maximum profit is about ₹999.6.",
+    "C": "Plant 0 m² wheat and 1000 m² barley; maximum profit is ₹1200.",
+    "D": "Plant 500 m² wheat and 500 m² barley; maximum profit is ₹1100."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:11:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

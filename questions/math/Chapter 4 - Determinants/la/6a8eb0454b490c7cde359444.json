@@ -1,0 +1,31 @@
+{
+  "id": "6a8eb0454b490c7cde359444",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d72",
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "LA",
+  "question": "The system<br>$$x+2y-z=3$$<br>$$2x+4y-2z=7$$<br>$$x-y+z=1$$<br>is proposed to have a solution.<br><br><b>(a)</b> Evaluate the determinant of its coefficient matrix.<br><br><b>(b)</b> Compare the first two equations and examine whether they can hold simultaneously.<br><br><b>(c)</b> Hence, determine the consistency and number of solutions of the system.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The coefficient matrix is<br>$$A=\\begin{bmatrix}1 & 2 & -1\\\\2 & 4 & -2\\\\1 & -1 & 1\\end{bmatrix}$$<br>Since the second row is twice the first row,<br>$$R_2=2R_1$$<br>Therefore,<br>$$|A|=0$$<br><br><b>(b)</b><br>Multiplying the first equation by $2$ gives<br>$$2x+4y-2z=6$$<br>However, the second equation states<br>$$2x+4y-2z=7$$<br>The same expression cannot be equal to both $6$ and $7$. Therefore, the first two equations cannot hold simultaneously.<br><br><b>(c)</b><br>The system contains a contradiction and is therefore inconsistent. Hence, it has no solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=0$<br>(b) The second equation is exactly twice the first equation<br>(c) The system has infinitely many solutions",
+    "B": "(a) $|A|=0$<br>(b) Twice the first equation gives $2x+4y-2z=6$, which contradicts $2x+4y-2z=7$<br>(c) The system is inconsistent and has no solution",
+    "C": "(a) $|A|=1$<br>(b) The first two equations are independent<br>(c) The system has a unique solution",
+    "D": "(a) $|A|=0$<br>(b) The first two equations can hold only when $x=y=z=0$<br>(c) The system has exactly one solution"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

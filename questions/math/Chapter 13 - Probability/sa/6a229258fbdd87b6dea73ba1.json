@@ -1,0 +1,27 @@
+{
+  "id": "6a229258fbdd87b6dea73ba1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "Find the probability distribution of the number of boys in families having three children, assuming equal probability for a boy and a girl.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Let $X$ represent the random variable for the number of boys in a family with three children. The possible discrete values that $X$ can take are $0, 1, 2,$ or $3$. Since the probabilities for a child being a boy or a girl are equal, we have $p = \\frac{1}{2}$ and $q = \\frac{1}{2}$.<br /><br /><b>Step 2</b> Since each child's gender selection is an independent trial, we model this using a Binomial Distribution: $P(X = r) = \\binom{3}{r} p^r q^{3-r} = \\binom{3}{r} \\left(\\frac{1}{2}\\right)^3 = \\frac{\\binom{3}{r}}{8}$. Let us evaluate this formula for each possible value of $X$.<br /><br /><b>Step 3</b> For $X = 0$ (no boys), compute the probability: $P(X = 0) = \\frac{\\binom{3}{0}}{8} = \\frac{1}{8}$. For $X = 1$ (exactly one boy), compute the probability: $P(X = 1) = \\frac{\\binom{3}{1}}{8} = \\frac{3}{8}$.<br /><br /><b>Step 4</b> For $X = 2$ (exactly two boys), compute the probability: $P(X = 2) = \\frac{\\binom{3}{2}}{8} = \\frac{3}{8}$. For $X = 3$ (all three boys), compute the probability: $P(X = 3) = \\frac{\\binom{3}{3}}{8} = \\frac{1}{8}$.<br /><br /><b>Step 5</b> We summarize these results into a complete probability distribution list: \\\\ $X = 0 \\implies P(X) = \\frac{1}{8}$ \\\\ $X = 1 \\implies P(X) = \\frac{3}{8}$ \\\\ $X = 2 \\implies P(X) = \\frac{3}{8}$ \\\\ $X = 3 \\implies P(X) = \\frac{1}{8}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

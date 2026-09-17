@@ -1,0 +1,29 @@
+{
+  "id": "6a8ebc6c2e54880055a0a6b8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "VSA",
+  "question": "The variables are given by $x=a(\\cos\\theta+\\theta\\sin\\theta)$ and $y=a(\\sin\\theta-\\theta\\cos\\theta)$. Find $\\frac{dy}{dx}$ at $\\theta=\\frac{\\pi}{4}$.",
+  "answeroption": "C",
+  "explanation": "Step 1: Differentiate $x=a(\\cos\\theta+\\theta\\sin\\theta)$ with respect to $\\theta$. This gives $\\frac{dx}{d\\theta}=a[-\\sin\\theta+\\sin\\theta+\\theta\\cos\\theta]=a\\theta\\cos\\theta$.<br>Step 2: Differentiate $y=a(\\sin\\theta-\\theta\\cos\\theta)$ to obtain $\\frac{dy}{d\\theta}=a[\\cos\\theta-\\cos\\theta+\\theta\\sin\\theta]=a\\theta\\sin\\theta$.<br>Step 3: Hence, $\\frac{dy}{dx}=\\frac{a\\theta\\sin\\theta}{a\\theta\\cos\\theta}=\\tan\\theta$.<br>Step 4: At $\\theta=\\frac{\\pi}{4}$, $\\tan\\frac{\\pi}{4}=1$.<br>Step 5: Therefore, the required value of $\\frac{dy}{dx}$ is $1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-1$",
+    "B": "$\\sqrt{2}$",
+    "C": "$1$",
+    "D": "$\\frac{1}{\\sqrt{2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

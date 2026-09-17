@@ -1,0 +1,29 @@
+{
+  "id": "69aa7c228e6d1957407fd1c2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f994"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Economics Case Study:**<br /><br />A company produces a product whose marginal revenue (MR) from $x$ units sold is given by $MR(x) = 500 - 4x$, for $x$ in $[0, 100]$.<br /><br />(a) Find the total revenue the company earns when it sells 100 units.<br /><br />(b) If the company wishes to maximize its revenue, for what value of $x$ should it stop producing? Justify using calculus.",
+  "answeroption": "C",
+  "explanation": "**(a) Total revenue for 100 units:**<br /><br />Revenue, $R(x)$, is the integral of marginal revenue:<br /><br />$R(x) = \\int MR(x) dx = \\int (500 - 4x) dx = 500x - 2x^2 + C$<br /><br />Assuming $R(0) = 0$, so $C = 0$.<br /><br />Total revenue for 100 units:<br /><br />$R(100) = 500 \\times 100 - 2 \\times (100)^2 = 50,000 - 20,000 = 30,000$<br /><br />**(b) Maximum revenue:**<br /><br />Set $MR(x) = 0$ to find revenue maximum:<br /><br />$500 - 4x = 0$<br /><br />$4x = 500$<br /><br />$x = 125$<br /><br />But $x \\in [0,100]$, so maximum revenue occurs at $x=100$ (boundary value).<br /><br />Check derivative:<br /><br />$MR(100) = 500 - 4 \\times 100 = 500 - 400 = 100 > 0$<br /><br />So $MR > 0$ on $[0,100]$, thus maximum revenue is at $x=100$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Total revenue $=50,000$.<br />(b) Revenue is maximum at $x=125$ because $MR=0$.",
+    "B": "(a) Total revenue $=20,000$.<br />(b) Revenue is maximum at $x=50$ because $MR$ changes sign there.",
+    "C": "(a) Total revenue $=30,000$.<br />(b) Since $MR>0$ on $[0,100]$, revenue is maximized at the boundary $x=100$.",
+    "D": "(a) Total revenue $=10,000$.<br />(b) Revenue is maximum at $x=0$ because marginal revenue is decreasing."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:02:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8c6398550d28a069ec32d9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "A function is defined by $h(x)=\\sec^{-1}\\left(\\dfrac{3}{x-1}\\right)$.<br><br>(a) Determine the domain of $h$.<br><br>(b) Determine its range.<br><br>(c) Find all values of $x$ for which $h(x)=\\dfrac{\\pi}{3}$ or $h(x)=\\dfrac{3\\pi}{4}$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The expression is defined only when $x\\neq1$. Also, the argument of $\\sec^{-1}$ must satisfy<br>$$\\left|\\frac{3}{x-1}\\right|\\geq1$$<br>Therefore,<br>$$0<|x-1|\\leq3$$<br>This gives<br>$$-3\\leq x-1<0\\quad\\text{or}\\quad0<x-1\\leq3$$<br>Hence,<br>$$-2\\leq x<1\\quad\\text{or}\\quad1<x\\leq4$$<br>Therefore, the domain is<br>$$[-2,1)\\cup(1,4]$$<br><br><b>(b)</b><br>On the domain, the argument $\\dfrac{3}{x-1}$ assumes all values satisfying $|t|\\geq1$. Therefore, the range is the principal-value range of $\\sec^{-1}t$:<br>$$\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{\\pi}{2},\\pi\\right]$$<br><br><b>(c)</b><br>For $h(x)=\\dfrac{\\pi}{3}$,<br>$$\\frac{3}{x-1}=\\sec\\frac{\\pi}{3}=2$$<br>Therefore,<br>$$2x-2=3$$<br>$$x=\\frac{5}{2}$$<br>For $h(x)=\\dfrac{3\\pi}{4}$,<br>$$\\frac{3}{x-1}=\\sec\\frac{3\\pi}{4}=-\\sqrt{2}$$<br>Therefore,<br>$$x-1=-\\frac{3}{\\sqrt{2}}$$<br>$$x=1-\\frac{3\\sqrt{2}}{2}$$<br>Both values belong to the domain. Hence, the required values are<br>$$x=\\frac{5}{2}\\quad\\text{and}\\quad x=1-\\frac{3\\sqrt{2}}{2}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $[-2,1)\\cup(1,4]$; Range: $\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{\\pi}{2},\\pi\\right]$; $x=\\frac{5}{2}$ and $x=1-\\frac{3\\sqrt{2}}{2}$",
+    "B": "Domain: $[-2,1)\\cup(1,4]$; Range: $\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{\\pi}{2},\\pi\\right]$; $x=\\frac{5}{2}$ and $x=1+\\frac{3\\sqrt{2}}{2}$",
+    "C": "Domain: $(-\\infty,-2]\\cup[4,\\infty)$; Range: $\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{\\pi}{2},\\pi\\right]$; $x=\\frac{5}{2}$ and $x=1-\\frac{3\\sqrt{2}}{2}$",
+    "D": "Domain: $[-2,1)\\cup(1,4]$; Range: $[0,\\pi]$; $x=\\frac{3}{2}$ and $x=1-\\frac{3\\sqrt{2}}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

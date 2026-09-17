@@ -1,0 +1,30 @@
+{
+  "id": "69aa74032a66c0f894c1a9f7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c6610140512f018fa94d7e"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$ and $g(x) = \\tan^{-1} x$. Let $H(x) = f(x) - 2g(x)$. \n\n(a) Prove or disprove: $H(x)$ is constant for all $|x| < 1$. \n\n(b) Find the derivative $H'(x)$ and evaluate $\\lim_{x\\to 0} \\frac{H(x)}{x^3}$. \n\n(c) If $A = \\begin{pmatrix} \\cos H(x) & -\\sin H(x) \\\\ \\sin H(x) & \\cos H(x) \\end{pmatrix}$, compute $\\det A$ for any $x$. \n\n(d) Consider the function $K(x) = \\sin^{-1} x + \\sin^{-1} (1-x)$ for $x \\in [0,1]$. Show that $K'(x)$ is constant and connect the result to the derivative previously found.",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:** Inverse trigonometric functions, function properties, matrices, determinants, application of derivatives.<br /><br />(a) Let us use the formula:<br />$\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right) = 2\\tan^{-1} x$ for $|x| < 1$.<br /><br />Therefore,<br /> $f(x) = 2g(x)$ for $|x| < 1$<br /><br />Thus,<br />$H(x) = f(x) - 2g(x) = 0$ for $|x| < 1$<br /><br />So $H(x)$ is constant (zero) for $|x| < 1$.<br /><br />(b) $H'(x) = f'(x) - 2g'(x)$<br /><br />But $f(x) \\equiv 2g(x)$ so $H'(x) = 0$<br /><br />Also,<br />$\\lim_{x \\to 0} \\frac{H(x)}{x^3} = \\lim_{x \\to 0} \\frac{0}{x^3} = 0$<br /><br />(c) $A$ is a rotation matrix, so $\\det A = 1$ for any $x$<br /><br />(d) $K(x) = \\sin^{-1} x + \\sin^{-1} (1-x)$<br /><br />Differentiate:<br />$K'(x) = \\frac{1}{\\sqrt{1-x^2}} - \\frac{1}{\\sqrt{1-(1-x)^2}}$<br /><br />$1-(1-x)^2 = 1 - (1 - 2x + x^2) = 2x - x^2$<br /><br />So,<br />$K'(x) = \\frac{1}{\\sqrt{1-x^2}} - \\frac{1}{\\sqrt{2x - x^2}}$<br /><br />But for $x = 0.5$, neither term cancels generally, so $K'(x)$ is not constant unless considered for $x=0$ or $x=1$. But for $x+ (1-x)=1$ we may check at boundary: At $x=0$, $K'(0) = 1-1=0$; $x=1$, $K'(1)=\\infty-0=\\infty$.<br /><br />Therefore, $K'(x)$ is not constant.<br /><br />But in (b) we found the derivative $H'(x) = 0$, similar to (a). The key connection is both results depend on identities between inverse trigonometric functions, and the difference of compositions can result in constants under certain conditions.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $H(x)$ is constant and equals $0$ for $|x|<1$<br />(b) $H'(x)=0$ and $\\lim_{x\\to0}\\frac{H(x)}{x^3}=0$<br />(c) $\\det A=1$<br />(d) $K'(x)=\\frac{1}{\\sqrt{1-x^2}}-\\frac{1}{\\sqrt{2x-x^2}}$, so it is not constant; unlike $H'(x)=0$, this expression does not cancel generally",
+    "B": "(a) $H(x)$ is not constant for $|x|<1$<br />(b) $H'(x)=1$ and $\\lim_{x\\to0}\\frac{H(x)}{x^3}=1$<br />(c) $\\det A=0$<br />(d) $K'(x)=0$ for all $x\\in[0,1]$",
+    "C": "(a) $H(x)=x$ for $|x|<1$<br />(b) $H'(x)=2$ and $\\lim_{x\\to0}\\frac{H(x)}{x^3}=\\infty$<br />(c) $\\det A=\\cos^2H(x)$<br />(d) $K'(x)$ is constant and equal to $1$",
+    "D": "(a) $H(x)=\\pi$ for $|x|<1$<br />(b) $H'(x)=\\pi$ and the limit equals $\\pi$<br />(c) $\\det A=-1$<br />(d) $K'(x)$ is constant and equal to $-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:28:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

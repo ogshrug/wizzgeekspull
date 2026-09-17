@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8b444b490c7cde3593c3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d52"
+  ],
+  "question_type": "VSA",
+  "question": "A square matrix $A=[a_{ij}]$ of order $3$ satisfies $a_{ij}=0$ for $i\\ne j$ and $a_{ii}=4$ for $i=1,2,3$. Identify the most specific type of matrix represented by $A$.",
+  "answeroption": "C",
+  "explanation": "Step 1: Since $a_{ij}=0$ whenever $i\\ne j$, every element outside the principal diagonal is zero. Therefore, $A$ is a diagonal matrix.<br>Step 2: The diagonal elements are given by $a_{11}=a_{22}=a_{33}=4$. Thus, all the diagonal elements are equal to the same constant.<br>Step 3: Hence the matrix is $$A=\\begin{bmatrix}4&0&0\\\\0&4&0\\\\0&0&4\\end{bmatrix}.$$<br>Step 4: A diagonal matrix whose diagonal entries are all equal to the same constant is a scalar matrix.<br>Step 5: Therefore, the most specific classification of $A$ is a scalar matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "Identity matrix",
+    "B": "Zero matrix",
+    "C": "Scalar matrix",
+    "D": "Skew-symmetric matrix"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

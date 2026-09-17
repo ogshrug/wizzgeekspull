@@ -1,0 +1,30 @@
+{
+  "id": "69aa7ffb2a66c0f894c1aa29",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13eb338c819562f933f991"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation $\\frac{dy}{dx} + \\frac{y}{x} = x^2$ for $x>0$, with $y(1) = 0$.\n(a) Find the general and particular solution.\n(b) Find the value of $y$ when $x=2$.\n(c) Find the area under the curve $y(x)$ between $x=1$ and $x=2$.",
+  "answeroption": "A",
+  "explanation": "**Concepts Tested:** Linear first-order ODE, integrating factor, definite integration.<br /><br />(a) $\\frac{dy}{dx} + \\frac{y}{x} = x^2$<br />Integrating factor $= e^{\\int 1/x dx} = e^{\\ln x} = x$<br />Multiply by $x$:<br />$x\\frac{dy}{dx} + y = x^3$<br />$\\frac{d}{dx}(y x) = x^3$<br />Integrate: $y x = \\frac{x^4}{4} + C$<br />$y = \\frac{x^3}{4} + \\frac{C}{x}$<br /><br />At $x=1, y=0$: $0 = 1/4 + C \\Rightarrow C = -1/4$<br />Thus $y = \\frac{x^3}{4} - \\frac{1}{4x}$<br /><br />(b) At $x=2$:<br />$y = \\frac{8}{4} - \\frac{1}{8} = 2 - 0.125 = 1.875$<br /><br />(c) Area under curve from $x=1$ to $x=2$:<br />$A = \\int_1^2 \\left ( \\frac{x^3}{4} - \\frac{1}{4x} \\right ) dx$<br />$= \\frac{1}{4}\\int_1^2 x^3 dx - \\frac{1}{4}\\int_1^2 x^{-1} dx$<br />$= \\frac{1}{4}[\\frac{x^4}{4}]_1^2 - \\frac{1}{4}[\\ln x]_1^2$<br /><br />At $x=2$: $16/4=4$; at $x=1$: $1/4=0.25$<br />So $[4-0.25]=3.75$, $\\frac{1}{4}\\times 3.75=0.9375$<br /><br />$\\ln 2 - \\ln 1 = \\ln 2$<br />So $A = 0.9375 - (1/4) \\ln 2$<br /><br />**Final answers:**<br />(a) $y = \\frac{x^3}{4} - \\frac{1}{4x}$<br />(b) $y(2) = 1.875$<br />(c) Area $=0.9375 - (1/4)\\ln 2$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) General solution: $y=\\frac{x^3}{4}+\\frac{C}{x}$; particular solution: $y=\\frac{x^3}{4}-\\frac{1}{4x}$<br />(b) $y(2)=\\frac{15}{8}=1.875$<br />(c) Area $=\\frac{15}{16}-\\frac14\\ln2$",
+    "B": "(a) $y=\\frac{x^2}{2}-\\frac12$<br />(b) $y(2)=\\frac32$<br />(c) Area $=\\frac12$",
+    "C": "(a) $y=x^3+C$<br />(b) $y(2)=7$<br />(c) Area $=\\frac{15}{4}$",
+    "D": "(a) $y=\\frac{x^3}{4}+Cx$<br />(b) $y(2)=2$<br />(c) Area $=\\frac{15}{16}+\\frac14\\ln2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:19:23 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

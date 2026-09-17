@@ -1,0 +1,27 @@
+{
+  "id": "6a27db59233c5169a79c53de",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "A rectangle of perimeter 24 cm is revolved along one of its sides to sweep out a cylinder of maximum volume. Find the dimensions of the rectangle.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the length and breadth of the rectangle be $x$ cm and $y$ cm respectively. Since the perimeter is 24 cm,<br />$2(x+y)=24$<br />$\\Rightarrow x+y=12$<br />$\\Rightarrow y=12-x$.<br /><br />**Step 2:** When the rectangle is revolved about the side of length $y$, it generates a cylinder with radius $x$ and height $y$. Therefore,<br />$V=\\pi x^2y=\\pi x^2(12-x)$<br />$=\\pi(12x^2-x^3)$.<br /><br />Differentiate with respect to $x$:<br />$\\frac{dV}{dx}=\\pi(24x-3x^2)$<br />$=3\\pi x(8-x)$.<br /><br />**Step 3:** For maximum volume,<br />$\\frac{dV}{dx}=0$<br />$\\Rightarrow 3\\pi x(8-x)=0$.<br /><br />Ignoring the inadmissible value $x=0$, we get<br />$x=8$.<br /><br />Now,<br />$y=12-8=4$.<br /><br />To verify maximum volume,<br />$\\frac{d^2V}{dx^2}=\\pi(24-6x)$.<br />At $x=8$,<br />$\\frac{d^2V}{dx^2}=\\pi(24-48)=-24\\pi<0$.<br /><br />Hence the volume is maximum.<br /><br />Therefore, the dimensions of the rectangle are<br />$\\boxed{8\\text{ cm }\\times 4\\text{ cm}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

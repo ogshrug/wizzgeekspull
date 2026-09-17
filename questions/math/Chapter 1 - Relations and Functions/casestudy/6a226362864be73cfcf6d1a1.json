@@ -1,0 +1,33 @@
+{
+  "id": "6a226362864be73cfcf6d1a1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A school is organizing a debate competition with participants as speakers $S = \\{S_1, S_2, S_3, S_4\\}$ and these are judged by judges $J = \\{J_1, J_2, J_3\\}$. Each speaker can be assigned one judge. Let $R$ be a relation from set $S$ to $J$ defined as $R = \\{(x, y): \\text{speaker } x \\text{ is judged by judge } y, x \\in S, y \\in J\\}$.<br /><br />**(i)** How many relations can be there from $S$ to $J$?<br />**(ii)** A student identifies a function from $S$ to $J$ as $f = \\{(S_1, J_1), (S_2, J_2), (S_3, J_2), (S_4, J_3)\\}$. Check if it is bijective.<br />**(iii) (a)** How many one-one functions can be there from set $S$ to set $J$?<br />OR<br />**(iii) (b)** Another student considers a relation $R_1 = \\{(S_1, S_2), (S_2, S_4)\\}$ in set $S$. Write minimum ordered pairs to be included in $R_1$ so that $R_1$ is reflexive but not symmetric.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The total number of relations from a set $A$ (with $m$ elements) to a set $B$ (with $n$ elements) is given by $2^{m \\times n}$.<br />**Step 2:** The set $S$ has 4 elements and set $J$ has 3 elements.<br />**Step 3:** Calculate the number of relations: $2^{4 \\times 3} = 2^{12}$.<br /><br />**(ii)** **Step 1:** A function is bijective only if it is both injective (one-to-one) and surjective (onto).<br />**Step 2:** In the given function $f$, observe the mappings: $f(S_2) = J_2$ and $f(S_3) = J_2$.<br />**Step 3:** Since two distinct elements in the domain map to the identical element in the codomain, the function is not one-to-one. Consequently, it cannot be bijective.<br /><br />**(iii) (a)** **Step 1:** A one-to-one function requires each element in the domain to map to a distinct, unique element in the codomain.<br />**Step 2:** The domain $S$ has 4 elements, but the codomain $J$ only has 3 elements.<br />**Step 3:** By the Pigeonhole Principle, at least two elements in $S$ must map to the same element in $J$. Therefore, zero one-to-one functions can be formed.<br /><br />**(iii) (b)** **Step 1:** For a relation $R_1$ on set $S=\\{S_1, S_2, S_3, S_4\\}$ to be reflexive, it must contain all diagonal pairs: $(x, x)$ for every $x \\in S$.<br />**Step 2:** Therefore, we strictly must add $(S_1, S_1), (S_2, S_2), (S_3, S_3), (S_4, S_4)$ to $R_1$.<br />**Step 3:** Adding these makes $R_1 = \\{(S_1, S_2), (S_2, S_4), (S_1, S_1), (S_2, S_2), (S_3, S_3), (S_4, S_4)\\}$.<br />**Step 4:** This relation contains $(S_1, S_2)$ but lacks $(S_2, S_1)$, so it remains not symmetric. These 4 pairs are the minimum required.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a226362864be73cfcf6d1a1/1782195876-0.png?t=1782215676917"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

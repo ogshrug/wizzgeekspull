@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd81c4b490c7cde359517",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "SA",
+  "question": "For the family of straight lines $y=a+bx$, a student differentiates once and writes $\\frac{dy}{dx}=b$ as the required differential equation. Examine the student's conclusion and obtain the correct differential equation representing the entire family.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Examine the proposed equation</b><br>The given family is $$y=a+bx,$$ where both $a$ and $b$ are arbitrary constants. Differentiating once gives $$\\frac{dy}{dx}=b.$$<br><b>Step 2: Identify the error</b><br>The relation $\\frac{dy}{dx}=b$ still contains the arbitrary constant $b$. A differential equation representing the family must be free from the arbitrary constants occurring in the original family.<br><b>Step 3: Differentiate successively</b><br>Differentiating $\\frac{dy}{dx}=b$ once more with respect to $x$, and using the fact that $b$ is constant, we obtain $$\\frac{d^2y}{dx^2}=0.$$<br><b>Step 4: Check elimination</b><br>The resulting equation contains neither $a$ nor $b$ and is therefore satisfied by every straight line of the form $y=a+bx$.<br><b>Step 5: Conclusion</b><br>The student's conclusion is incomplete. The required differential equation is $$\\frac{d^2y}{dx^2}=0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=0$",
+    "B": "$\\frac{d^2y}{dx^2}=b$",
+    "C": "$\\frac{d^2y}{dx^2}=0$",
+    "D": "$\\frac{d^2y}{dx^2}+y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

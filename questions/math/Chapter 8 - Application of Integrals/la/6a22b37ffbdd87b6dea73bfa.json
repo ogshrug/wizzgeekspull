@@ -1,0 +1,26 @@
+{
+  "id": "6a22b37ffbdd87b6dea73bfa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995"
+  ],
+  "question_type": "LA",
+  "question": "Sketch a graph of $y=x^{2}.$ Using integration, find the area of the region bounded by $y=9$, $x=0$ and $y=x^{2}$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Sketch the curves to visualize the bounded area. The equation $y = x^2$ is an upward-opening parabola with its vertex at $(0,0)$. The line $y = 9$ is a horizontal line, and $x = 0$ is the y-axis. The region lies in the first quadrant, bounded above by $y = 9$ and below by $y = x^2$.<br /><br /><b>Step 2</b> Find the upper limit of integration by finding where the curves intersect in the first quadrant: $x^2 = 9 \\implies x = 3$. Therefore, our integration limits span from $x = 0$ to $x = 3$.<br /><br /><b>Step 3</b> Set up the definite integral for the area, which is the upper boundary line minus the lower parabola curve: $\\text{Area} = \\int_{0}^{3} (9 - x^2) dx$.<br /><br /><b>Step 4</b> Integrate each polynomial term using the standard calculus power rule: $\\text{Area} = \\left[ 9x - \\frac{x^3}{3} \\right]_{0}^{3}$.<br /><br /><b>Step 5</b> Evaluate at the upper and lower integration limits: $\\left(9(3) - \\frac{3^3}{3}\\right) - 0 = 27 - 9 = 18$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

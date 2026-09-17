@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe6834b490c7cde359529",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A study group examines the differential equation $\\frac{dy}{dx}=\\frac{x+y}{x-y}$, where $x\\neq0$ and $x\\neq y$. Before solving it, the students divide the numerator and denominator on the right-hand side by $x$ and observe that the resulting expression depends only on the ratio $\\frac{y}{x}$. They therefore decide to apply the standard substitution $y=vx$. Their objective is not merely to identify the equation as homogeneous but also to demonstrate how this substitution converts it into a variable separable equation and then obtain an implicit general solution containing an arbitrary constant.<br><br><b>(a)</b> Rewrite the right-hand side as a function of $\\frac{y}{x}$ and justify that the equation is homogeneous.<br><br><b>(b)</b> Apply the substitution $y=vx$ and obtain a differential equation involving $v$ and $x$.<br><br><b>(c)</b> Reduce the resulting equation to variable separable form.<br><br><b>(d)</b> Integrate and obtain the general solution in terms of $x$ and $y$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Dividing the numerator and denominator by $x$, $$\\frac{x+y}{x-y}=\\frac{1+\\frac{y}{x}}{1-\\frac{y}{x}}$$<br><br>Thus the right-hand side is a function only of $\\frac{y}{x}$. Therefore, the given first-order differential equation is homogeneous.<br><br><b>(b)</b><br>Put $$y=vx$$<br><br>Then, $$\\frac{dy}{dx}=v+x\\frac{dv}{dx}$$<br><br>Also, $$\\frac{x+y}{x-y}=\\frac{1+v}{1-v}$$<br><br>Hence, $$v+x\\frac{dv}{dx}=\\frac{1+v}{1-v}$$<br><br>Therefore, $$x\\frac{dv}{dx}=\\frac{1+v^2}{1-v}$$<br><br><b>(c)</b><br>Rearranging, $$\\frac{1-v}{1+v^2}\\,dv=\\frac{dx}{x}$$<br><br>This is the required variable separable form.<br><br><b>(d)</b><br>Integrating both sides, $$\\int\\frac{1-v}{1+v^2}\\,dv=\\int\\frac{dx}{x}$$<br><br>Therefore, $$\\tan^{-1}v-\\frac{1}{2}\\log(1+v^2)=\\log|x|+C$$<br><br>Replacing $v$ by $\\frac{y}{x}$, $$\\tan^{-1}\\left(\\frac{y}{x}\\right)-\\frac{1}{2}\\log\\left(1+\\frac{y^2}{x^2}\\right)=\\log|x|+C$$<br><br>Since $1+\\frac{y^2}{x^2}=\\frac{x^2+y^2}{x^2}$, the logarithmic terms simplify to give $$\\tan^{-1}\\left(\\frac{y}{x}\\right)-\\frac{1}{2}\\log(x^2+y^2)=C$$<br><br>Hence this is the required implicit general solution, subject to the stated restrictions.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{x+y}{x-y}=\\frac{1+\\frac{y}{x}}{1-\\frac{y}{x}}$, so it is homogeneous<br>(b) $v+x\\frac{dv}{dx}=\\frac{1+v}{1-v}$ and $x\\frac{dv}{dx}=\\frac{1+v^2}{1-v}$<br>(c) $\\frac{1-v}{1+v^2}\\,dv=\\frac{dx}{x}$<br>(d) $\\tan^{-1}\\left(\\frac{y}{x}\\right)-\\frac{1}{2}\\log(x^2+y^2)=C$",
+    "B": "(a) $\\frac{x+y}{x-y}=\\frac{1-\\frac{y}{x}}{1+\\frac{y}{x}}$<br>(b) $x\\frac{dv}{dx}=\\frac{1-v^2}{1+v}$<br>(c) $\\frac{1+v}{1-v^2}\\,dv=\\frac{dx}{x}$<br>(d) $\\log|x+y|=C$",
+    "C": "(a) The equation is not homogeneous<br>(b) $v+x\\frac{dv}{dx}=1+v$<br>(c) $dv=\\frac{dx}{x}$<br>(d) $y=x\\log|x|+Cx$",
+    "D": "(a) $\\frac{x+y}{x-y}=\\frac{1+\\frac{y}{x}}{1-\\frac{y}{x}}$<br>(b) $x\\frac{dv}{dx}=\\frac{1+v^2}{1-v}$<br>(c) $\\frac{1+v^2}{1-v}\\,dv=\\frac{dx}{x}$<br>(d) $\\tan^{-1}\\left(\\frac{y}{x}\\right)+\\frac{1}{2}\\log(x^2+y^2)=C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

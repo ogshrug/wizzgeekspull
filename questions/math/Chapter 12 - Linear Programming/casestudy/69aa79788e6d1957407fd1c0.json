@@ -1,0 +1,29 @@
+{
+  "id": "69aa79788e6d1957407fd1c0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A bakery produces cookies and muffins. Each cookie requires 2 units of flour and 1 unit of sugar. Each muffin needs 1 unit of flour and 2 units of sugar. The bakery has at most 10 units of flour and 8 units of sugar per day. The profit is ₹15 per cookie and ₹12 per muffin. The bakery must produce at least 2 cookies and at least 2 muffins.<br /><br />(a) Model the problem as an LPP.<br /><br />(b) Sketch and name all corners of feasible region.<br /><br />(c) Calculate the optimal daily production.",
+  "answeroption": "C",
+  "explanation": "Let $x$ = cookies, $y$ = muffins.<br /><br />(a) LPP:<br /><br />Maximize $Z=15x+12y$<br /><br />Subject to:<br /><br />$2x+y \\leq 10$<br /><br />$x+2y \\leq 8$<br /><br />$x\\geq2$<br /><br />$y\\geq2$<br /><br />$x,y\\geq0$<br /><br />(b) $2x+y=10\\implies y=10-2x$<br /><br />$x+2y=8\\implies y=(8-x)/2$<br /><br />$x=2$, $y=2$ (minimums)<br /><br />Find points:<br /><br />1. $2x+y=10$ & $x+2y=8$:<br /><br />$2x+y=10$<br /><br />$x+2y=8$<br /><br />From the second: $x=8-2y$<br /><br />Plug into first:<br /><br />$2(8-2y)+y=10\\implies16-4y+y=10\\implies-3y=10-16=-6\\implies y=2$<br /><br />$x=8-2*2=8-4=4$<br /><br />So $(4,2)$<br /><br />2. $x=2$ in $2x+y=10$: $2*2+y=10\\implies y=6$ $(2,6)$<br /><br />3. $y=2$ in $x+2y=8$: $x+4=8\\implies x=4$ $(4,2)$<br /><br />4. $x=2$, $y=2$ $(2,2)$<br /><br />Check which are within all constraints:<br /><br />- $(4,2)$: $2*4+2=10\\leq10$, $4+2*2=8\\leq8$, $x\\geq2$, $y\\geq2$ — ok.<br /><br />- $(2,6)$: $2*2+6=10$, $2+2*6=2+12=14>8$. Not ok.<br /><br />- $(2,2)$: $2*2+2=6\\leq10$, $2+2*2=6\\leq8$, $x\\geq2$, $y\\geq2$ - ok.<br /><br />So corners: $(2,2)$ and $(4,2)$<br /><br />(c) Maximize profit:<br /><br />At $(2,2)$: $15*2+12*2=30+24=54$<br /><br />At $(4,2)$: $15*4+12*2=60+24=84$<br /><br />Best: $\\boxed{4}$ cookies, $\\boxed{2}$ muffins. Maximum profit is $\\boxed{₹84}$. The region is a line segment between these two points as both constraints may be binding.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Maximize $Z=15x+12y$ with $2x+y\\leq10$, $x+2y\\leq8$, $x\\geq2$, $y\\geq2$<br />(b) Corners: $(2,2)$ and $(4,2)$<br />(c) Produce 2 cookies and 2 muffins; maximum profit ₹54.",
+    "B": "(a) Maximize $Z=15x+12y$ with $2x+y\\leq10$, $x+2y\\leq8$, $x\\geq2$, $y\\geq2$<br />(b) Corners: $(2,2)$ and $(2,6)$<br />(c) Produce 2 cookies and 6 muffins; maximum profit ₹102.",
+    "C": "(a) Maximize $Z=15x+12y$ with $2x+y\\leq10$, $x+2y\\leq8$, $x\\geq2$, $y\\geq2$<br />(b) Corners: $(2,2)$ and $(4,2)$<br />(c) Produce 4 cookies and 2 muffins; maximum profit ₹84.",
+    "D": "(a) Maximize $Z=15x+12y$ with $2x+y\\leq10$, $x+2y\\leq8$, $x\\geq2$, $y\\geq2$<br />(b) Corners: $(2,2)$ and $(5,0)$<br />(c) Produce 5 cookies and 0 muffins; maximum profit ₹75."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:51:36 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

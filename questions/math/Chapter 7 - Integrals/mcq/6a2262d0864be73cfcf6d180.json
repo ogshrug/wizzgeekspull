@@ -1,0 +1,31 @@
+{
+  "id": "6a2262d0864be73cfcf6d180",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f(2a-x)=f(x)$, then $\\int_{0}^{2a}f(x)dx$ is",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Recall the definite integral property: $\\int_{0}^{2a} f(x) dx = \\int_{0}^{a} f(x) dx + \\int_{0}^{a} f(2a-x) dx$.<br />**Step 2:** We are given the condition $f(2a-x) = f(x)$. Substitute this condition into the second integral on the right side of our property equation.<br />**Step 3:** The equation becomes $\\int_{0}^{2a} f(x) dx = \\int_{0}^{a} f(x) dx + \\int_{0}^{a} f(x) dx$.<br />**Step 4:** Combining the two identical integrals gives $2 \\int_{0}^{a} f(x) dx$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\int_{0}^{a}f(\\frac{x}{2})dx$",
+    "B": "$\\int_{0}^{a}f(x)dx$",
+    "C": "$2\\int_{a}^{0}f(x)dx$",
+    "D": "$2\\int_{0}^{a}f(x)dx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

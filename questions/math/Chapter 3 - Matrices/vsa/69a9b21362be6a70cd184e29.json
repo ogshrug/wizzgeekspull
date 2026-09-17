@@ -1,0 +1,30 @@
+{
+  "id": "69a9b21362be6a70cd184e29",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fbf40512f018fa94d54"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A = \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}$. Prove that $A^2 = -I$, and find $A^4$.",
+  "answeroption": "C",
+  "explanation": "First, $A^2$:<br /><br />$A^2 = \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}\\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}$<br /><br />Compute entries:<br /><br />$\\begin{bmatrix} 0\\times0 + 1\\times-1 & 0\\times1 + 1\\times0 \\\\ -1\\times0 + 0\\times-1 & -1\\times1 + 0\\times0 \\end{bmatrix} = \\begin{bmatrix} -1 & 0 \\\\ 0 & -1 \\end{bmatrix} = -I$.<br /><br />So, $A^2 = -I$.<br /><br />Now, $A^4 = (A^2)^2 = (-I)^2 = I$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^2=I$ and $A^4=-I$",
+    "B": "$A^2=-I$ and $A^4=-I$",
+    "C": "$A^2=-I$ and $A^4=I$",
+    "D": "$A^2=0$ and $A^4=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:40:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

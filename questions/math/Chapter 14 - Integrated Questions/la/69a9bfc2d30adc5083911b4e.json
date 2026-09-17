@@ -1,0 +1,30 @@
+{
+  "id": "69a9bfc2d30adc5083911b4e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Define the relation $R$ on $\\mathbb{R}$ by $(a, b) \\in R \\iff \\sin^{-1} a = \\cos^{-1} b$.\n\n(a) Show that $R$ is not an equivalence relation.\n\n(b) Let $f(a) = \\sin^{-1} a + \\cos^{-1} a$. Evaluate $f(0), f(1), f(-1)$.\n\n(c) Prove $f(a)$ is constant for all $a \\in [-1,1]$.\n\n(d) Express $a$ in terms of $b$ if $(a, b) \\in R$.\n\n(e) Discuss the range of possible $b$ for $a \\in [-1, 1]$.",
+  "answeroption": "D",
+  "explanation": "**Concepts being tested:** Relations, Inverse Trigonometric Functions, Range<br /><br />(a)<br />Reflexive? $(a, a) \\in R$ if $\\sin^{-1} a = \\cos^{-1} a \\implies a=\\cos^{-1} a$, which is not satisfied for all $a$. Not reflexive; thus not equivalence.<br /><br />(b)<br />$f(0) = \\sin^{-1}0 + \\cos^{-1}0 = 0 + \\frac{\\pi}{2} = \\frac{\\pi}{2}$<br />$f(1) = \\sin^{-1}1 + \\cos^{-1}1 = \\frac{\\pi}{2} + 0 = \\frac{\\pi}{2}$<br />$f(-1) = \\sin^{-1}(-1) + \\cos^{-1}(-1) = -\\frac{\\pi}{2} + \\pi = \\frac{\\pi}{2}$<br /><br />(c)<br />$f(a)=\\sin^{-1}a+\\cos^{-1}a=\\frac{\\pi}{2}$ for all $a \\in [-1, 1]$.<br /><br />(d)<br />$\\sin^{-1} a = \\cos^{-1} b \\implies b = \\sin(\\cos^{-1} a) = \\sqrt{1-a^2}$ for $a \\in [-1, 1]$, $b \\in [0, 1]$.<br /><br />(e)<br />Hence, range of possible $b$ is $[0,1]$ as $a$ varies in $[-1,1]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R$ is an equivalence relation<br />(b) $f(0)=0$, $f(1)=1$, $f(-1)=-1$<br />(c) $f(a)$ is not constant<br />(d) $b=1-a^2$<br />(e) Range of $b$ is $[-1,1]$",
+    "B": "(a) $R$ is not an equivalence relation because it is not symmetric only<br />(b) $f(0)=\\frac{\\pi}{2}$, $f(1)=0$, $f(-1)=\\pi$<br />(c) $f(a)=\\pi$ for all $a\\in[-1,1]$<br />(d) $b=a$<br />(e) Range of $b$ is $\\{0,1\\}$",
+    "C": "(a) $R$ is not an equivalence relation because it is transitive but reflexive<br />(b) $f(0)=\\pi$, $f(1)=\\frac{\\pi}{2}$, $f(-1)=0$<br />(c) $f(a)=0$ for all $a\\in[-1,1]$<br />(d) $b=-\\sqrt{1-a^2}$<br />(e) Range of $b$ is $[-1,0]$",
+    "D": "(a) $R$ is not an equivalence relation because it is not reflexive<br />(b) $f(0)=\\frac{\\pi}{2}$, $f(1)=\\frac{\\pi}{2}$, $f(-1)=\\frac{\\pi}{2}$<br />(c) $f(a)=\\sin^{-1}a+\\cos^{-1}a=\\frac{\\pi}{2}$ for all $a\\in[-1,1]$<br />(d) From the relation, $b=\\sqrt{1-a^2}$, equivalently $a=\\sqrt{1-b^2}$ for the valid range<br />(e) Range of possible $b$ is $[0,1]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:39:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

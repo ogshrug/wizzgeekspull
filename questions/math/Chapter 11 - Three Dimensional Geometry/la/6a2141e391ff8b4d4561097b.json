@@ -1,0 +1,29 @@
+{
+  "id": "6a2141e391ff8b4d4561097b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6",
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "Opposite sides of a square are along the lines : $\\vec{r}=\\hat{i}+2\\hat{j}-4\\hat{k}+\\lambda(2\\hat{i}+3\\hat{j}+6\\hat{k})$ and $\\vec{r}=3\\hat{i}+3\\hat{j}-5\\hat{k}+\\mu(2\\hat{i}+3\\hat{j}+6\\hat{k})$. Find the area of the square if direction ratios of other pair of opposite sides of the square are given by <- 3, 6, p>. Also, find the value of p.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Observe the equations of the given lines. They share the exact same direction vector $\\vec{b} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k}$, which means the lines are parallel. Since they form opposite sides of a square, the perpendicular distance between them is the side length $a$ of the square.<br /><br /><b>Step 2</b> Use the formula for the distance between two parallel lines: $d = \\frac{|(\\vec{a}_2 - \\vec{a}_1) \\times \\vec{b}|}{|\\vec{b}|}$. First, identify position vectors of points on each line: $\\vec{a}_1 = \\hat{i} + 2\\hat{j} - 4\\hat{k}$ and $\\vec{a}_2 = 3\\hat{i} + 3\\hat{j} - 5\\hat{k}$. Calculate their difference: $\\vec{a}_2 - \\vec{a}_1 = 2\\hat{i} + \\hat{j} - \\hat{k}$.<br /><br /><b>Step 3</b> Compute the cross product $(\\vec{a}_2 - \\vec{a}_1) \\times \\vec{b} = (2\\hat{i} + \\hat{j} - \\hat{k}) \\times (2\\hat{i} + 3\\hat{j} + 6\\hat{k})$. This results in $\\hat{i}(6 - (-3)) - \\hat{j}(12 - (-2)) + \\hat{k}(6 - 2) = 9\\hat{i} - 14\\hat{j} + 4\\hat{k}$. The magnitude of this vector is $\\sqrt{9^2 + (-14)^2 + 4^2} = \\sqrt{81 + 196 + 16} = \\sqrt{293}$. Next, find the magnitude of the direction vector $|\\vec{b}| = \\sqrt{2^2 + 3^2 + 6^2} = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7$. Thus, the side length is $a = \\frac{\\sqrt{293}}{7}$.<br /><br /><b>Step 4</b> To find the total area of the square, square the side length. The area is $a^2 = (\\frac{\\sqrt{293}}{7})^2 = \\frac{293}{49}$ square units.<br /><br /><b>Step 5</b> The second part of the problem asks for the value of $p$ given the direction ratios $\\langle-3, 6, p\\rangle$ of the adjacent sides. Adjacent sides of a square are always perpendicular. Therefore, the dot product of their direction vectors must be zero. Calculate $(2)(-3) + (3)(6) + (6)(p) = 0$. This simplifies to $-6 + 18 + 6p = 0$, which is $12 + 6p = 0$. Solving for $p$ yields $p = -2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

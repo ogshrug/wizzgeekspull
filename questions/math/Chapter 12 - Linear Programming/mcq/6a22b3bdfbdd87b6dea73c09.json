@@ -1,0 +1,35 @@
+{
+  "id": "6a22b3bdfbdd87b6dea73c09",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "MCQ",
+  "question": "For a Linear Programming Problem (LPP), the given objective function $Z=3x+2y$ is subject to constraints: $x+2y\\le10, 3x+y\\le15, x, y\\ge0$. The correct feasible region is :",
+  "answeroption": "B",
+  "explanation": "<b>Step 1</b> Analyze the constraints geometrically. The non-negativity parameters $x \\ge 0, y \\ge 0$ restrict our region entirely to the first quadrant. Graph the boundary line $x + 2y = 10$, which passes through intercepts $(10, 0)$ and $(0, 5)$.<br /><br /><b>Step 2</b> Graph the second line, $3x + y = 15$, which passes through intercepts $(5, 0)$ and $(0, 15)$. Testing the origin $(0,0)$ in both inequalities ($0 \\le 10$ and $0 \\le 15$) confirms that the feasible area lies on the side of the lines facing toward the origin.<br /><br /><b>Step 3</b> Find the common intersection region of these half-planes in the first quadrant. The common region forms a bounded polygon with corner points at the origin $O(0,0)$, $A(0,5)$, the intersection point $C(4,3)$, and $E(5,0)$. This corresponds to the region AOEC, matching option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "ABC",
+    "B": "AOEC",
+    "C": "CED",
+    "D": "Open unbounded region BCD"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22b3bdfbdd87b6dea73c09/1782196684-0.png?t=1782216484988"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

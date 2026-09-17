@@ -1,0 +1,33 @@
+{
+  "id": "6a8fdff1be0ecc7866e90c76",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a6",
+    "6a13ebca8c819562f933f9a7",
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "LA",
+  "question": "Starting from the one-parameter family $$x^2-y^2=Cx,$$ where $C$ is an arbitrary constant and $x\\neq 0$, eliminate $C$ to form the corresponding differential equation, establish that the equation obtained is homogeneous, and solve it by an appropriate substitution to recover the original family of curves.",
+  "answeroption": "B",
+  "explanation": "<b>Elimination of the Arbitrary Constant</b><br>The given family is $$x^2-y^2=Cx.$$ Differentiating with respect to $x$, $$2x-2y\\frac{dy}{dx}=C.$$ From the original equation, $$C=\\frac{x^2-y^2}{x}.$$ Therefore, $$2x-2y\\frac{dy}{dx}=\\frac{x^2-y^2}{x}.$$ Multiplying by $x$ and simplifying, $$2x^2-2xy\\frac{dy}{dx}=x^2-y^2,$$ so $$x^2+y^2-2xy\\frac{dy}{dx}=0.$$ Hence the required differential equation is $$\\frac{dy}{dx}=\\frac{x^2+y^2}{2xy}.$$<br><br><b>Homogeneous Form and Substitution</b><br>Dividing numerator and denominator by $x^2$, $$\\frac{dy}{dx}=\\frac{1+\\left(\\frac{y}{x}\\right)^2}{2\\left(\\frac{y}{x}\\right)}.$$ Thus the right-hand side depends only on $\\frac{y}{x}$, so the equation is homogeneous. Put $$y=vx,$$ giving $$\\frac{dy}{dx}=v+x\\frac{dv}{dx}.$$ Therefore, $$v+x\\frac{dv}{dx}=\\frac{1+v^2}{2v},$$ which gives $$x\\frac{dv}{dx}=\\frac{1-v^2}{2v}.$$<br><br><b>Reduction to Variable Separable Form</b><br>Separating the variables, $$\\frac{2v}{1-v^2}dv=\\frac{dx}{x}.$$ Integrating both sides, $$-\\log|1-v^2|=\\log|x|+C_1.$$ Hence, after combining the constants, $$1-v^2=\\frac{C}{x}.$$ Replacing $v$ by $\\frac{y}{x}$, $$1-\\frac{y^2}{x^2}=\\frac{C}{x}.$$ Multiplying by $x^2$, $$x^2-y^2=Cx.$$<br><br><b>Final Result</b><br>The differential equation formed is $$x^2+y^2-2xy\\frac{dy}{dx}=0,$$ and solving it by the homogeneous substitution $y=vx$ recovers the original family $$x^2-y^2=Cx.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x^2-y^2-2xy\\frac{dy}{dx}=0$; solution $x^2+y^2=Cx$",
+    "B": "$x^2+y^2-2xy\\frac{dy}{dx}=0$; solution $x^2-y^2=Cx$",
+    "C": "$x^2+y^2+2xy\\frac{dy}{dx}=0$; solution $x^2-y^2=Cx$",
+    "D": "$x^2-y^2+2xy\\frac{dy}{dx}=0$; solution $x^2-y^2=Cx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

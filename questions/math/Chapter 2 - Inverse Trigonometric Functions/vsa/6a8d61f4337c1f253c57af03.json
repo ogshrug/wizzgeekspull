@@ -1,0 +1,29 @@
+{
+  "id": "6a8d61f4337c1f253c57af03",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "If $x>0$, simplify $\\tan^{-1}x+\\tan^{-1}\\left(\\frac{1}{x}\\right)$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b><br>Let $\\theta=\\tan^{-1}x$. Since $x>0$, the principal value $\\theta$ lies in $\\left(0,\\frac{\\pi}{2}\\right)$.<br><br><b>Step 2:</b><br>From $\\tan\\theta=x$, we have $\\frac{1}{x}=\\cot\\theta$.<br><br><b>Step 3:</b><br>Using $\\cot\\theta=\\tan\\left(\\frac{\\pi}{2}-\\theta\\right)$, we obtain $$\\tan^{-1}\\left(\\frac{1}{x}\\right)=\\frac{\\pi}{2}-\\theta.$$<br><br><b>Step 4:</b><br>Adding the two inverse tangent terms gives $$\\tan^{-1}x+\\tan^{-1}\\left(\\frac{1}{x}\\right)=\\theta+\\frac{\\pi}{2}-\\theta.$$<br><br><b>Final Answer:</b><br>$$\\tan^{-1}x+\\tan^{-1}\\left(\\frac{1}{x}\\right)=\\frac{\\pi}{2},\\quad x>0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$\\frac{\\pi}{4}$",
+    "C": "$\\pi$",
+    "D": "$\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

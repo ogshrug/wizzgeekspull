@@ -1,0 +1,27 @@
+{
+  "id": "6a2bf1228e6b388cc1f07cc0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a",
+    "6a13e98f8c819562f933f977"
+  ],
+  "question_type": "VSA",
+  "question": "Find the interval(s) in which the function $f(x)=\\frac{x}{log~x}$ where $x\\in(0,1)\\cup(1,\\infty)$, is increasing.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate the function $f(x) = \\frac{x}{\\ln x}$ with respect to $x$ using the quotient rule: $f'(x) = \\frac{\\ln x \\cdot 1 - x \\cdot (1/x)}{(\\ln x)^2} = \\frac{\\ln x - 1}{(\\ln x)^2}$[cite: 2549].<br />**Step 2:** For the function to be increasing, we must have $f'(x) > 0$. Since the denominator $(\\ln x)^2$ is always positive in the given domain, this requires $\\ln x - 1 > 0 \\implies \\ln x > 1$.<br />**Step 3:** Solving the inequality gives $x > e$. Thus, the function is increasing in the interval $(e, \\infty)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

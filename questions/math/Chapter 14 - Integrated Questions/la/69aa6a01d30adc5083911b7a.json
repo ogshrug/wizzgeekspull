@@ -1,0 +1,30 @@
+{
+  "id": "69aa6a01d30adc5083911b7a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = x^4 - 8x^2 + 18$ and define $g(x) = \\sin^{-1} \\left( \\frac{1}{f(x)} \\right)$ for $x$ such that $|f(x)| \\ge 1$.<br /><br />(a) Prove that $f$ is a continuous and differentiable function.<br /><br />(b) For which real $x$ is $g(x)$ defined?<br /><br />(c) Compute $g'(x)$ in terms of $x$, and find the value(s) of $x$ in the interval $[0,2]$ at which $g'(x) = 0$.<br /><br />(d) Evaluate $\\sum_{k=0}^{2} g'(k)$ if defined.",
+  "answeroption": "C",
+  "explanation": "**Concepts tested:**<br />- Polynomial functions (continuity, differentiability, admissible domain)<br />- Inverse trigonometric function domain<br />- Chain rule and differentiation<br />- Analysis<br /><br />(a) $f(x)$ is a polynomial, hence continuous and differentiable everywhere.<br /><br />(b) $g(x)$ is defined iff $|f(x)| \\ge 1 \\implies f(x) \\ge 1$ or $f(x) \\le -1$. Since $x^4 - 8x^2 + 18$, check range:<br /><br />Set $f(x) = 1$:<br />$x^4 - 8x^2 + 17 = 0$<br />Let $y = x^2$:<br />$y^2 - 8y + 17 = 0\\implies y = 4 \\pm \\sqrt{-1}$. So, $f(x) \\ge 1$ always.<br /><br />But let's check $f(x)_{min}$: Vertex at $x = 0$:<br />$f(0) = 18$<br />At $x^2 = 4$, $f(2) = 2^4 - 8*4 + 18 = 16 - 32 + 18 = 2$.<br />At $x^2 = 0$, $f(0) = 18$.<br />At $x^2$ large, $x^4$ dominates, $f \\to \\infty$.<br /><br />Set $f(x) = 1$:<br />$x^4 - 8x^2 + 17 = 0$ no real roots, so $f(x) > 1$ always.<br />So $g(x)$ is defined for all $x$.<br /><br />(c) $g(x) = \\sin^{-1} (f(x)^{-1})$<br />$g'(x) = \\frac{1}{\\sqrt{1 - (1/f(x))^2}} \\cdot \\left( -\\frac{f'(x)}{f(x)^2} \\right)$<br />$= -\\frac{f'(x)}{f(x)^2 \\sqrt{1 - 1/f(x)^2}}$<br />$= -\\frac{f'(x)}{f(x)^2 \\sqrt{\\frac{f(x)^2 - 1}{f(x)^2}}}$<br />$= -\\frac{f'(x)}{|f(x)|\\sqrt{f(x)^2 - 1}}$<br /><br />Now $f'(x) = 4x^3 - 16x$.<br />So $g'(x) = -\\frac{4x^3 - 16x}{|f(x)| \\sqrt{f(x)^2 - 1}}$<br /><br />$g'(x) = 0$ when $f'(x) = 0$, i.e., $x^3 - 4x = 0 \\implies x(x^2 - 4) = 0 \\implies x = 0, 2, -2$<br />Thus, in $[0,2]$, $x=0,2$.<br /><br />(d) Compute $g'(0), g'(1), g'(2)$:<br />$g'(0) = -\\frac{0}{|f(0)|\\sqrt{f(0)^2-1}} = 0$<br />$g'(1) = -\\frac{4*1 - 16*1}{|f(1)|\\sqrt{f(1)^2-1}} = -\\frac{-12}{|f(1)|\\sqrt{f(1)^2-1}}$<br />Compute $f(1) = 1 - 8 + 18 = 11$<br />$[f(1)^2-1]=120$<br />So $g'(1) = \\frac{12}{11\\sqrt{120}}$<br />$g'(2) = 0$<br />So, total sum is $0 + \\dfrac{12}{11\\sqrt{120}} + 0 = \\dfrac{12}{11\\sqrt{120}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is not continuous at $x=0$<br />(b) $g$ is defined only for $x\\in[0,2]$<br />(c) $g'(x)=\\frac{4x^3-16x}{f(x)^2}$ and $g'(x)=0$ only at $x=1$<br />(d) $\\sum_{k=0}^{2}g'(k)=0$",
+    "B": "(a) $f$ is continuous but not differentiable<br />(b) $g$ is undefined for all real $x$<br />(c) $g'(x)$ does not exist<br />(d) The sum is undefined",
+    "C": "(a) $f$ is a polynomial, so it is continuous and differentiable everywhere<br />(b) Since $f(x)>1$ for all real $x$, $g(x)$ is defined for all $x\\in\\mathbb{R}$<br />(c) $g'(x)=-\\frac{4x^3-16x}{|f(x)|\\sqrt{f(x)^2-1}}$, and in $[0,2]$, $g'(x)=0$ at $x=0,2$<br />(d) $\\sum_{k=0}^{2}g'(k)=\\frac{12}{11\\sqrt{120}}$",
+    "D": "(a) $f$ is differentiable only for $x>0$<br />(b) $g$ is defined only when $x=\\pm2$<br />(c) $g'(x)=4x^3-16x$, and $g'(x)=0$ at $x=1,2$<br />(d) $\\sum_{k=0}^{2}g'(k)=\\frac{1}{11\\sqrt{120}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:45:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

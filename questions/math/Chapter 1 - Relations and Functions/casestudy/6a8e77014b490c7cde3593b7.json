@@ -1,0 +1,29 @@
+{
+  "id": "6a8e77014b490c7cde3593b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A coding rule converts every real number into another real number according to the function $f:\\mathbb{R}\\to\\mathbb{R}$ defined by $f(x)=4x-3$. For the coding process to be reversible, each output must correspond to exactly one original input and every real output must be obtainable. Students therefore investigate whether the function is one-one and onto before determining the reverse rule. They use arbitrary real numbers rather than relying only on numerical examples. After finding the reverse rule, they check that applying the function and the reverse function successively returns the original value.<br><br><b>(a)</b> Find $f(2)$ and determine the value of $x$ for which $f(x)=9$.<br><br><b>(b)</b> Show that $f$ is one-one.<br><br><b>(c)</b> Show that $f$ is onto $\\mathbb{R}$.<br><br><b>(d)</b> Find $f^{-1}$ and verify that it reverses the action of $f$.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>$f(2)=4(2)-3=5$. To find $x$ such that $f(x)=9$, solve $4x-3=9$. Thus $4x=12$, so $x=3$.<br><br><b>(b)</b><br>Suppose $f(x_1)=f(x_2)$. Then $4x_1-3=4x_2-3$. Adding $3$ to both sides gives $4x_1=4x_2$, and therefore $x_1=x_2$. Hence, $f$ is one-one.<br><br><b>(c)</b><br>Let $y\\in\\mathbb{R}$ be arbitrary. We require $4x-3=y$. Solving for $x$ gives $x=\\frac{y+3}{4}$. Since $y$ is real, $\\frac{y+3}{4}$ is also real. Moreover, $f\\left(\\frac{y+3}{4}\\right)=y$. Hence every real number has a pre-image, so $f$ is onto.<br><br><b>(d)</b><br>From $y=4x-3$, we obtain $x=\\frac{y+3}{4}$. Hence $f^{-1}(y)=\\frac{y+3}{4}$. Verification gives $f^{-1}(f(x))=\\frac{(4x-3)+3}{4}=x$. Also, $f(f^{-1}(y))=4\\left(\\frac{y+3}{4}\\right)-3=y$. Therefore, $f^{-1}$ correctly reverses $f$, and $f$ is invertible.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(2)=5$ and $f(x)=9$ gives $x=3$; $f$ is one-one but not onto, and $f^{-1}(x)=\\frac{x-3}{4}$.",
+    "B": "$f(2)=5$ and $f(x)=9$ gives $x=3$; $f$ is both one-one and onto, and $f^{-1}(x)=\\frac{x+3}{4}$, with both compositions equal to the identity function.",
+    "C": "$f(2)=11$ and $f(x)=9$ gives $x=3$; $f$ is onto but not one-one, and $f^{-1}(x)=4x+3$.",
+    "D": "$f(2)=5$ and $f(x)=9$ gives $x=2$; $f$ is neither one-one nor onto, so an inverse function does not exist."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

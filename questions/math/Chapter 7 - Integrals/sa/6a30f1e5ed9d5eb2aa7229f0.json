@@ -1,0 +1,26 @@
+{
+  "id": "6a30f1e5ed9d5eb2aa7229f0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{\\frac{\\pi}{2}} |\\sin x - \\cos x| dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Determine the Point Where the Expression Changes Sign**  \nWe need to evaluate the integral of the absolute value function $|\\sin x - \\cos x|$ over $[0, \\frac{\\pi}{2}]$. The expression inside the absolute value changes sign when $\\sin x = \\cos x$. This occurs at $x = \\frac{\\pi}{4}$ within the given interval.  \nFor $x \\in [0, \\frac{\\pi}{4}]$, $\\sin x \\le \\cos x$, so $|\\sin x - \\cos x| = \\cos x - \\sin x$.  \nFor $x \\in [\\frac{\\pi}{4}, \\frac{\\pi}{2}]$, $\\sin x \\ge \\cos x$, so $|\\sin x - \\cos x| = \\sin x - \\cos x$.\n\n**Step 2: Split the Integral**  \nUsing the above sign analysis, the given integral becomes:  \n$$I = \\int_{0}^{\\pi/4} (\\cos x - \\sin x) \\, dx + \\int_{\\pi/4}^{\\pi/2} (\\sin x - \\cos x) \\, dx$$\n\n**Step 3: Evaluate the First Integral**  \nCompute $I_1 = \\int_{0}^{\\pi/4} (\\cos x - \\sin x) \\, dx$.  \nThe antiderivative of $\\cos x - \\sin x$ is $\\sin x + \\cos x$.  \n$$I_1 = [\\sin x + \\cos x]_{0}^{\\pi/4}$$  \nAt $x = \\frac{\\pi}{4}$: $\\sin\\frac{\\pi}{4} + \\cos\\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{2}} = \\sqrt{2}$.  \nAt $x = 0$: $\\sin 0 + \\cos 0 = 0 + 1 = 1$.  \nThus, $I_1 = \\sqrt{2} - 1$.\n\n**Step 4: Evaluate the Second Integral**  \nCompute $I_2 = \\int_{\\pi/4}^{\\pi/2} (\\sin x - \\cos x) \\, dx$.  \nThe antiderivative of $\\sin x - \\cos x$ is $-\\cos x - \\sin x$.  \n$$I_2 = [-\\cos x - \\sin x]_{\\pi/4}^{\\pi/2}$$  \nAt $x = \\frac{\\pi}{2}$: $-\\cos\\frac{\\pi}{2} - \\sin\\frac{\\pi}{2} = -0 - 1 = -1$.  \nAt $x = \\frac{\\pi}{4}$: $-\\cos\\frac{\\pi}{4} - \\sin\\frac{\\pi}{4} = -\\frac{1}{\\sqrt{2}} - \\frac{1}{\\sqrt{2}} = -\\sqrt{2}$.  \nThus, $I_2 = (-1) - (-\\sqrt{2}) = \\sqrt{2} - 1$.\n\n**Step 5: Combine and State the Final Answer**  \nAdd the two results:  \n$$I = I_1 + I_2 = (\\sqrt{2} - 1) + (\\sqrt{2} - 1) = 2\\sqrt{2} - 2$$  \nTherefore, the value of the definite integral is:  \n$$\\boxed{\\int_{0}^{\\pi/2} |\\sin x - \\cos x| \\, dx = 2\\sqrt{2} - 2}$$  \nThis is the required answer.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a2297d5864be73cfcf6d252",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "MCQ",
+  "question": "Let E be an event of a sample space S of an experiment, then $P(S|E)=$",
+  "answeroption": "C",
+  "explanation": "**Step 1:** We are asked to evaluate the conditional probability expression $P(S|E)$. This represents the probability of event S (the entire sample space) occurring, given that event E has already definitively occurred.<br />**Step 2:** Apply the standard mathematical definition of conditional probability: $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$. Substituting S and E, we get $P(S|E) = \\frac{P(S \\cap E)}{P(E)}$.<br />**Step 3:** Analyze the numerator term, $P(S \\cap E)$. Since E is an event defined within the sample space S, E is mathematically a subset of S ($E \\subseteq S$).<br />**Step 4:** The intersection of any set with a subset of itself is simply the subset. Therefore, the intersection $S \\cap E$ is exactly just E. So, $P(S \\cap E) = P(E)$.<br />**Step 5:** Substitute this back into our fraction: $P(S|E) = \\frac{P(E)}{P(E)}$. Assuming $P(E) \\ne 0$ (otherwise conditional probability is undefined), any non-zero number divided by itself equals 1. Thus, $P(S|E) = 1$. Intuitively, if E has happened, and E is part of S, then it's absolutely certain (100% chance or probability 1) that an outcome in S has happened.",
+  "explanation_image": [],
+  "options": {
+    "A": "$P(S\\cap E)$",
+    "B": "$P(E)$",
+    "C": "1",
+    "D": "0"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

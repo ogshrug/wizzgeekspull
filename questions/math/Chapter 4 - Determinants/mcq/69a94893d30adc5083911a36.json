@@ -1,0 +1,29 @@
+{
+  "id": "69a94893d30adc5083911a36",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A$ and $B$ be $2 \\times 2$ real matrices such that $A+B$ is symmetric, and $A-B$ is skew symmetric. If $A=\\begin{bmatrix}1 & 2 \\\\ a & b\\end{bmatrix}$, which of the following is true?",
+  "answeroption": "B",
+  "explanation": "$A+B$ symmetric $\\implies (A+B)' = A+B$<br />$A-B$ skew symmetric $\\implies (A-B)' = -(A-B)$<br />Let $A = \\begin{bmatrix}1 & 2 \\\\ a & b\\end{bmatrix}$.<br />$A+B$ is symmetric:<br />So, $A+B = \\begin{bmatrix}1+B_{11} & 2+B_{12} \\\\ a+B_{21} & b+B_{22}\\end{bmatrix}$.<br />It must be equal to its transpose, so $2+B_{12} = a+B_{21}$, $1+B_{11}=b+B_{22}$.<br />$A-B$ is skew symmetric. $A-B$ = $\\begin{bmatrix}1-B_{11} & 2-B_{12} \\\\ a-B_{21} & b-B_{22}\\end{bmatrix}$.<br />Its transpose $= \\begin{bmatrix} 1-B_{11} & a-B_{21} \\\\ 2-B_{12} & b-B_{22} \\end{bmatrix}$.<br />So, $a-B_{21} = -(2-B_{12}) \\implies a-B_{21} = -2+B_{12}$<br />$2-B_{12} = -(a-B_{21})$<br />Simplifying, $a=-2$, $b=1$<br />So, (B) is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=2, b=1$",
+    "B": "$a=-2, b=1$",
+    "C": "$a=-2, b=-1$",
+    "D": "$a=2, b=-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:10:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

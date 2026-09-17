@@ -1,0 +1,29 @@
+{
+  "id": "69a9aece6638848124d7c977",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A pharmaceutical company is studying the rate at which a new drug is absorbed into the bloodstream. The rate at which the drug is absorbed (in mg/hr) is given by $R(t) = \\dfrac{50}{1 + 2t^2}$ where $t$ is in hours. <br /><br />(a) Find the total amount of drug absorbed in the first 2 hours. <br /><br />(b) If the company wants to know how long it will take for 35 mg of the drug to be absorbed, set up the integral equation they should solve and explain the change of variable that would allow easier evaluation. <br /><br />(c) Suggest another situation in a biological context where such an absorption model is meaningful.",
+  "answeroption": "C",
+  "explanation": "(a) Total absorbed drug is $\\int_0^2 \\frac{50}{1+2t^2}dt$.<br /><br />Using substitution $u=\\sqrt2 t$ gives $\\frac{50}{\\sqrt2}\\int_0^{2\\sqrt2} \\frac{1}{1+u^2}du$.<br /><br />Evaluating gives $\\frac{50}{\\sqrt2}\\tan^{-1}(2\\sqrt2)$.<br /><br />(b) To find time $T$ for 35 mg absorbed:<br /><br />$\\int_0^T \\frac{50}{1+2t^2}dt = 35$.<br /><br />Using substitution $u=\\sqrt2 t$ transforms the integral into an inverse tangent form.<br /><br />(c) Similar models appear in biological processes such as nutrient absorption or cooling of organisms where rates decrease over time. More accurate models may include saturation or exponential decay terms.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $50\\tan^{-1}(2)$ mg<br />(b) $\\int_0^T \\frac{50}{1+t^2}dt=35$, using $u=t$<br />(c) Population growth with constant rate",
+    "B": "(a) $\\frac{50}{2}\\tan^{-1}(2\\sqrt2)$ mg<br />(b) $\\int_0^T \\frac{50}{1+2t}dt=35$, using $u=1+2t$<br />(c) Linear motion of a vehicle",
+    "C": "(a) $\\frac{50}{\\sqrt2}\\tan^{-1}(2\\sqrt2)$ mg<br />(b) $\\int_0^T \\frac{50}{1+2t^2}dt=35$, using $u=\\sqrt2t$ to convert it into an inverse tangent form<br />(c) Nutrient absorption or a biological process where the absorption rate decreases over time",
+    "D": "(a) $100\\tan^{-1}(\\sqrt2)$ mg<br />(b) $\\int_0^T 50(1+2t^2)dt=35$, using $u=t^2$<br />(c) Uniform heat supply with constant rate"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:26:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

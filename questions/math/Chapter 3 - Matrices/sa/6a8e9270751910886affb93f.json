@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9270751910886affb93f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d53",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "SA",
+  "question": "Given $$A=\\begin{bmatrix}2 & -3 \\\\ 1 & 4\\end{bmatrix},$$ find a matrix $B$ of the same order such that $A+B=O$, where $O$ is the zero matrix of order $2$. Verify your answer.",
+  "answeroption": "A",
+  "explanation": "<b>Additive condition</b><br>From $A+B=O$, we obtain $B=-A$.<br><b>Required matrix</b><br>$$B=\\begin{bmatrix}-2 & 3 \\\\ -1 & -4\\end{bmatrix}$$<br><b>Verification</b><br>$$A+B=\\begin{bmatrix}2 & -3 \\\\ 1 & 4\\end{bmatrix}+\\begin{bmatrix}-2 & 3 \\\\ -1 & -4\\end{bmatrix}=\\begin{bmatrix}0 & 0 \\\\ 0 & 0\\end{bmatrix}=O$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$B=\\begin{bmatrix}-2&3\\\\-1&-4\\end{bmatrix}$, and $A+B=O$",
+    "B": "$B=\\begin{bmatrix}2&3\\\\-1&4\\end{bmatrix}$, and $A+B=O$",
+    "C": "$B=\\begin{bmatrix}-2&-3\\\\1&-4\\end{bmatrix}$, and $A-B=O$",
+    "D": "$B=\\begin{bmatrix}2&-3\\\\1&4\\end{bmatrix}$, and $A+B=2A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

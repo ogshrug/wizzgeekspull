@@ -1,0 +1,30 @@
+{
+  "id": "69a9c25ad8e9ca3b293457f7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975",
+    "6a13e98e8c819562f933f973"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A cylindrical tank with base radius 7 m is being filled with water at a rate of $2 \\text{ m}^3/\\text{min}$. Calculate the rate at which the water level is rising when the depth of the water is 3 m.<br /><br />a) Write the volume formula of the cylindrical tank.<br /><br />b) Differentiate the equation with respect to time.<br /><br />c) Determine the rate at which the water level rises.",
+  "answeroption": "C",
+  "explanation": "a) Volume of a cylinder: $V = \\pi r^2 h$ where $r=7$ m and $h$ is the height of water.<br /><br />b) Differentiating with respect to time: $\\frac{dV}{dt} = \\pi r^2 \\frac{dh}{dt}$. <br /><br />Given $\\frac{dV}{dt}=2$ and $r=7$. <br /><br />Substituting gives $2 = \\pi (7)^2 \\frac{dh}{dt}$.<br /><br />c) Simplifying: $2 = 49\\pi \\frac{dh}{dt} \\Rightarrow \\frac{dh}{dt} = \\frac{2}{49\\pi}$ m/min.<br /><br /> Thus the water level rises at $\\frac{2}{49\\pi}$ m/min.",
+  "explanation_image": [],
+  "options": {
+    "A": "a) $V=\\pi rh$<br />b) $\\frac{dV}{dt}=\\pi r\\frac{dh}{dt}$<br />c) $\\frac{dh}{dt}=\\frac{2}{7\\pi}$ m/min.",
+    "B": "a) $V=\\pi r^2h$<br />b) $\\frac{dV}{dt}=2\\pi r\\frac{dh}{dt}$<br />c) $\\frac{dh}{dt}=\\frac{1}{7\\pi}$ m/min.",
+    "C": "a) $V=\\pi r^2h$<br />b) $\\frac{dV}{dt}=\\pi r^2\\frac{dh}{dt}$<br />c) $\\frac{dh}{dt}=\\frac{2}{49\\pi}$ m/min.",
+    "D": "a) $V=\\frac{1}{3}\\pi r^2h$<br />b) $\\frac{dV}{dt}=\\frac{1}{3}\\pi r^2\\frac{dh}{dt}$<br />c) $\\frac{dh}{dt}=\\frac{6}{49\\pi}$ m/min."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:50:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

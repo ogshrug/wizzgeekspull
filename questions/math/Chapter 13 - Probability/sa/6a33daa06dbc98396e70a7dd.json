@@ -1,0 +1,26 @@
+{
+  "id": "6a33daa06dbc98396e70a7dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "SA",
+  "question": "Bag I contains 4 white and 5 black balls. Bag II contains 6 white and 7 black balls. A ball drawn randomly from bag I is transferred to bag II and then a ball is drawn randomly from bag II. Find the probability that the ball drawn is white.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Apply the Theorem of Total Probability by analyzing the two mutually exclusive transfer cases from Bag I. Let $W_1$ be the event that a white ball is transferred, and $B_1$ be the event that a black ball is transferred. Their probabilities are $P(W_1) = \\frac{4}{9}$ and $P(B_1) = \\frac{5}{9}$.<br />**Step 2:** Case 1: If a white ball is transferred, Bag II now contains $6 + 1 = 7$ white balls and 7 black balls (total 14 balls). The conditional probability of drawing a white ball is $P(W_2|W_1) = \\frac{7}{14} = \\frac{1}{2}$.<br />**Step 3:** Case 2: If a black ball is transferred, Bag II contains 6 white balls and $7 + 1 = 8$ black balls (total 14 balls). The conditional probability of drawing a white ball is $P(W_2|B_1) = \\frac{6}{14} = \\frac{3}{7}$.<br />**Step 4:** Calculate total probability: $P(W_2) = P(W_1)P(W_2|W_1) + P(B_1)P(W_2|B_1) = \\left(\\frac{4}{9} \\times \\frac{1}{2}\\right) + \\left(\\frac{5}{9} \\times \\frac{3}{7}\\right) = \\frac{2}{9} + \\frac{15}{63} = \\frac{14 + 15}{63} = \\frac{29}{63}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

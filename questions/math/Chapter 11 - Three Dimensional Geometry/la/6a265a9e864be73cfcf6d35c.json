@@ -1,0 +1,29 @@
+{
+  "id": "6a265a9e864be73cfcf6d35c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3",
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "LA",
+  "question": "Find the equations of the planes passing through the line of intersection of the planes $\\vec{r}\\cdot(\\hat{i}+3\\hat{j})=6$ and $\\vec{r}\\cdot(3\\hat{i}-\\hat{j}-4\\hat{k})=0$ which are at a distance of 1 unit from the origin.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Convert the given vector plane equations into standard Cartesian coordinates by setting $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$. This gives the two plane systems: $P_1: x + 3y - 6 = 0$ and $P_2: 3x - y - 4z = 0$. The linear system equation for any plane passing through their line of intersection is given by the parameterized family formula $P_1 + \\lambda P_2 = 0$. Substituting the expressions gives: $(x + 3y - 6) + \\lambda(3x - y - 4z) = 0$. Grouping by variables yields: $(1+3\\lambda)x + (3-\\lambda)y - 4\\lambda z - 6 = 0$.<br />**Step 2:** We are given that the perpendicular distance from the origin $(0, 0, 0)$ to this intersection plane is exactly $1$ unit. The mathematical formula for the distance of a plane from the origin is $d = \\frac{|-D|}{\\sqrt{A^2 + B^2 + C^2}}$. Substituting our specific coefficients into this distance formula gives the condition: $1 = \\frac{|-6|}{\\sqrt{(1+3\\lambda)^2 + (3-\\lambda)^2 + (-4\\lambda)^2}}$. Square both sides to eliminate the radical sign: $1 = \\frac{36}{(1+6\\lambda+9\\lambda^2) + (9-6\\lambda+\\lambda^2) + 16\\lambda^2}$.<br />**Step 3:** Simplify the denominator polynomial expression by combining like terms: $1 = \\frac{36}{26\\lambda^2 + 10} \\implies 26\\lambda^2 + 10 = 36$. Isolating the variable gives $26\\lambda^2 = 26 \\implies \\lambda^2 = 1$, which gives two potential values: $\\lambda = 1$ or $\\lambda = -1$.<br />**Step 4:** Substitute these two values of $\\lambda$ back into the parameterized plane equation from Step 1 to find the specific plane equations. For $\\lambda = 1$: $(1+3)x + (3-1)y - 4(1)z - 6 = 0 \\implies 4x + 2y - 4z - 6 = 0$, which simplifies to $2x + y - 2z = 3$. For $\\lambda = -1$: $(1-3)x + (3-(-1))y - 4(-1)z - 6 = 0 \\implies -2x + 4y + 4z - 6 = 0$, which simplifies to $x - 2y - 2z + 3 = 0$. Converting to vector form gives: $\\vec{r} \\cdot (2\\hat{i} + \\hat{j} - 2\\hat{k}) = 3$ and $\\vec{r} \\cdot (\\hat{i} - 2\\hat{j} - 2\\hat{k}) = -3$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1",
+    "2022-4-2",
+    "2022-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

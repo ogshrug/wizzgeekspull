@@ -1,0 +1,30 @@
+{
+  "id": "69a868f3f21e08867c2bcd7a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6b",
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "VSA",
+  "question": "Case Study:\n\nThe area of a triangle with vertices $(5,0)$, $(0,12)$, $(0,0)$ is calculated using determinants. Show all the steps and write the final formula.",
+  "answeroption": "C",
+  "explanation": "Area formula:<br /><br />$\\text{Area} = \\frac{1}{2} \\left| \\begin{vmatrix} 5 & 0 & 1 \\\\ 0 & 12 & 1 \\\\ 0 & 0 & 1 \\end{vmatrix} \\right|$<br /><br />Expand:<br /><br />$= \\frac{1}{2}|5(12 \\times 1 - 1 \\times 0) - 0(0 \\times 1 - 1 \\times 0) + 1(0 \\times 0 - 12 \\times 0)|$<br /><br />$= \\frac{1}{2}|5 \\times 12| = \\frac{1}{2} \\times 60 = 30$<br /><br />Thus, the area is $30$ unit$^2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Area $=\\frac{1}{2}\\left|\\begin{vmatrix}5&0&1\\\\0&12&1\\\\0&0&1\\end{vmatrix}\\right|=60$ unit$^2$",
+    "B": "Area $=\\left|\\begin{vmatrix}5&0&1\\\\0&12&1\\\\0&0&1\\end{vmatrix}\\right|=30$ unit$^2$",
+    "C": "Area $=\\frac{1}{2}\\left|\\begin{vmatrix}5&0&1\\\\0&12&1\\\\0&0&1\\end{vmatrix}\\right|=30$ unit$^2$",
+    "D": "Area $=\\frac{1}{2}\\left|\\begin{vmatrix}5&12&1\\\\0&0&1\\\\0&0&1\\end{vmatrix}\\right|=15$ unit$^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:16:35 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

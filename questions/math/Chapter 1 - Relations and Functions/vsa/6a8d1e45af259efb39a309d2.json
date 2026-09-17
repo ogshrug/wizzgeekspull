@@ -1,0 +1,29 @@
+{
+  "id": "6a8d1e45af259efb39a309d2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "VSA",
+  "question": "A relation $R$ on $\\mathbb{Z}$ is defined by $aRb$ if $4\\mid(a-b)$. If $aRb$ and $bRc$, show in one relation involving $a$ and $c$ what must follow.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> Since $aRb$, $4\\mid(a-b)$. Hence, for some integer $m$, $a-b=4m$.<br><b>Step 2:</b> Since $bRc$, $4\\mid(b-c)$. Therefore, for some integer $n$, $b-c=4n$.<br><b>Step 3:</b> Adding the two equations gives $(a-b)+(b-c)=4m+4n$.<br><b>Step 4:</b> Simplifying, $a-c=4(m+n)$. Since $m+n$ is an integer, $4\\mid(a-c)$.<br><b>Step 5:</b> Hence, according to the definition of $R$, $aRc$.<br><b>Final Answer:</b> The required conclusion is $\\boxed{aRc}$, or equivalently $\\boxed{4\\mid(a-c)}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4\\mid(a+c)$",
+    "B": "$a=4c$",
+    "C": "$aRc$, equivalently $4\\mid(a-c)$",
+    "D": "$a-c=4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

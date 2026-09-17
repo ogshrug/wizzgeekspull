@@ -1,0 +1,32 @@
+{
+  "id": "6a8d2f4877877fac8fdb992e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Let $A=\\{1,2,3,4,5,6,7\\}$. A relation $R$ on $A$ is defined by $aRb$ if both $a$ and $b$ are either odd or both are even. Show that $R$ is an equivalence relation.",
+  "answeroption": "C",
+  "explanation": "<b>Reflexivity</b><br>For every $a\\in A$, the numbers $a$ and $a$ have the same parity. Therefore, $(a,a)\\in R$, so $R$ is reflexive.<br><br><b>Symmetry</b><br>If $(a,b)\\in R$, then $a$ and $b$ have the same parity. Hence, $b$ and $a$ also have the same parity, so $(b,a)\\in R$. Thus, $R$ is symmetric.<br><br><b>Transitivity</b><br>If $(a,b)\\in R$ and $(b,c)\\in R$, then $a$ and $b$ have the same parity, and $b$ and $c$ have the same parity. Therefore, $a$ and $c$ have the same parity, giving $(a,c)\\in R$. Hence, $R$ is transitive.<br><br><b>Conclusion</b><br>Since $R$ is reflexive, symmetric and transitive, $R$ is an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is reflexive and symmetric but not transitive",
+    "B": "$R$ is symmetric and transitive but not reflexive",
+    "C": "$R$ is reflexive, symmetric and transitive; hence, it is an equivalence relation",
+    "D": "$R$ is neither symmetric nor transitive; hence, it is not an equivalence relation"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a216c14864be73cfcf6d147",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A company produces cylindrical tumblers, open from the top. Since they want uniformity in the product, they fix the surface area of the tumblers produced. Based on the above information, answer the following questions: If for a tumbler, V is its volume, h the height and r the radius of the circular base, then:<br /><br />**(i)** Differentiate its volume with respect to radius of the base, where the surface area is constant.<br />**(ii)** If the company wants to maximize the volume of each tumbler, then establish a relation between its height and the radius of the base.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Let the fixed surface area be $S = \\pi r^2 + 2\\pi rh$ (open from the top). Volume $V = \\pi r^2 h$.<br />**Step 2:** Express $h$ in terms of $r$ and $S$: $h = \\frac{S - \\pi r^2}{2\\pi r}$.<br />**Step 3:** Substitute into volume equation: $V = \\pi r^2 (\\frac{S - \\pi r^2}{2\\pi r}) = \\frac{1}{2}(Sr - \\pi r^3)$.<br />**Step 4:** Differentiate with respect to $r$: $\\frac{dV}{dr} = \\frac{1}{2}(S - 3\\pi r^2)$.<br /><br />**(ii)** **Step 1:** To maximize volume, set $\\frac{dV}{dr} = 0$. Therefore, $\\frac{1}{2}(S - 3\\pi r^2) = 0 \\implies S = 3\\pi r^2$.<br />**Step 2:** Substitute $S = \\pi r^2 + 2\\pi rh$ into this condition: $\\pi r^2 + 2\\pi rh = 3\\pi r^2$.<br />**Step 3:** Simplify the equation: $2\\pi rh = 2\\pi r^2$. Dividing both sides by $2\\pi r$ gives $h = r$. For maximum volume, the height is equal to the radius of the base.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a216c14864be73cfcf6d147/1782194903-0.png?t=1782214704320"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

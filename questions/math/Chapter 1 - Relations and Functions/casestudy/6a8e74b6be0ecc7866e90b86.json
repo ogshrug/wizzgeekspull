@@ -1,0 +1,30 @@
+{
+  "id": "6a8e74b6be0ecc7866e90b86",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A school creates a temporary identification system for five students $A=\\{S_1,S_2,S_3,S_4,S_5\\}$. The available identification numbers form the set $B=\\{101,102,103,104,105,106\\}$. A function $f:A\\to B$ assigns $f(S_1)=101$, $f(S_2)=103$, $f(S_3)=104$, $f(S_4)=105$ and $f(S_5)=106$. The mathematics class studies this assignment as a function and investigates whether different students receive different images and whether every element of the stated codomain is used. The codomain is exactly the set $B$ given above, even though one identification number may remain unassigned.<br><br><b>(a)</b> Find the range of $f$.<br><br><b>(b)</b> Determine whether $f$ is one-one and justify your answer.<br><br><b>(c)</b> Determine whether $f$ is onto and identify any element of $B$ having no pre-image.<br><br><b>(d)</b> If $f(S_5)$ is changed from $106$ to $104$, determine how the one-one and onto properties of the function change.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The images of the five elements of $A$ are $101,103,104,105$ and $106$. Therefore, the range is $\\{101,103,104,105,106\\}$.<br><br><b>(b)</b><br>All five students have distinct images. Thus, if $f(S_i)=f(S_j)$, then the corresponding students must be the same. Hence, $f$ is one-one.<br><br><b>(c)</b><br>The codomain is $B=\\{101,102,103,104,105,106\\}$, whereas the range is $\\{101,103,104,105,106\\}$. The element $102$ has no pre-image. Since the range is not equal to the codomain, $f$ is not onto.<br><br><b>(d)</b><br>After changing $f(S_5)$ to $104$, both $S_3$ and $S_5$ have the same image $104$. Therefore, the function is no longer one-one. Its range becomes $\\{101,103,104,105\\}$, so both $102$ and $106$ have no pre-images. Hence, the modified function is neither one-one nor onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "The range is $\\{101,102,103,104,105,106\\}$; $f$ is one-one and onto. After the change, it remains one-one but is not onto.",
+    "B": "The range is $\\{101,103,104,105,106\\}$; $f$ is onto but not one-one, and $102$ has no pre-image. After the change, it becomes one-one and onto.",
+    "C": "The range is $\\{101,103,104,105\\}$; $f$ is neither one-one nor onto, and $106$ has no pre-image. After the change, it becomes onto but not one-one.",
+    "D": "The range is $\\{101,103,104,105,106\\}$; $f$ is one-one but not onto, and $102$ has no pre-image. After the change, the function is neither one-one nor onto, with $102$ and $106$ having no pre-images."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

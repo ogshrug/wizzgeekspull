@@ -1,0 +1,32 @@
+{
+  "id": "6a3112e6ed9d5eb2aa722a0c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c7",
+    "6a13e767d837c8c7efa6b8c4"
+  ],
+  "question_type": "MCQ",
+  "question": "The position vectors of three consecutive vertices of a parallelogram ABCD are $A(4\\hat{i}+2\\hat{j}-6\\hat{k})$, $B(5\\hat{i}-3\\hat{j}+\\hat{k})$ and $C(12\\hat{i}+4\\hat{j}+5\\hat{k})$. The position vector of D is given by",
+  "answeroption": "C",
+  "explanation": "**Step 1: Use the Parallelogram Property**  \nIn a parallelogram, the diagonals bisect each other. Therefore, the midpoint of diagonal AC is equal to the midpoint of diagonal BD. This gives:  \n$$\\frac{\\vec{A} + \\vec{C}}{2} = \\frac{\\vec{B} + \\vec{D}}{2} \\Rightarrow \\vec{A} + \\vec{C} = \\vec{B} + \\vec{D}$$  \nSo, $\\vec{D} = \\vec{A} + \\vec{C} - \\vec{B}$.\n\n**Step 2: Substitute the Given Vectors**  \n$\\vec{A} = 4\\hat{i} + 2\\hat{j} - 6\\hat{k}$  \n$\\vec{B} = 5\\hat{i} - 3\\hat{j} + \\hat{k}$  \n$\\vec{C} = 12\\hat{i} + 4\\hat{j} + 5\\hat{k}$  \nNow, $\\vec{A} + \\vec{C} = (4+12)\\hat{i} + (2+4)\\hat{j} + (-6+5)\\hat{k} = 16\\hat{i} + 6\\hat{j} - \\hat{k}$.\n\n**Step 3: Find $\\vec{D}$**  \n$$\\vec{D} = (16\\hat{i} + 6\\hat{j} - \\hat{k}) - (5\\hat{i} - 3\\hat{j} + \\hat{k})$$  \n$$\\vec{D} = (16-5)\\hat{i} + (6+3)\\hat{j} + (-1-1)\\hat{k}$$  \n$$\\vec{D} = 11\\hat{i} + 9\\hat{j} - 2\\hat{k}$$  \nThis matches option **C**.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-3\\hat{i}-5\\hat{j}-10\\hat{k}$",
+    "B": "$21\\hat{i}+3\\hat{j}$",
+    "C": "$11\\hat{i}+9\\hat{j}-2\\hat{k}$",
+    "D": "$-11\\hat{i}-9\\hat{j}+2\\hat{k}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9c86b589ce36f368b48b8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "SA",
+  "question": "Let $\\vec{a} = 2\\hat{i} + \\hat{j} - 2\\hat{k}$ and $\\vec{b} = \\hat{i} - 2\\hat{j} + 3\\hat{k}$. Find the area of the triangle formed by $\\vec{a}$ and $\\vec{b}$ as two sides taken from the same initial point.",
+  "answeroption": "B",
+  "explanation": "The area of the triangle formed by two vectors is $\\frac{1}{2}|\\vec{a} \\times \\vec{b}|$.<br /><br />$\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 1 & -2 \\\\ 1 & -2 & 3 \\end{vmatrix}$.<br /><br />$= \\hat{i}(1\\cdot3-(-2)(-2)) - \\hat{j}(2\\cdot3-(-2)(1)) + \\hat{k}(2\\cdot-2-1\\cdot1)$.<br /><br />$= -\\hat{i} - 8\\hat{j} - 5\\hat{k}$.<br /><br />$|\\vec{a} \\times \\vec{b}| = \\sqrt{(-1)^2+(-8)^2+(-5)^2} = \\sqrt{90}$.<br /><br />Area $= \\frac{1}{2}\\sqrt{90} = 3\\sqrt{10}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sqrt{90}$",
+    "B": "$3\\sqrt{10}$",
+    "C": "$\\frac{3\\sqrt{10}}{2}$",
+    "D": "$6\\sqrt{10}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:16:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

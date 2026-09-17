@@ -1,0 +1,35 @@
+{
+  "id": "6a22b3bdfbdd87b6dea73c0a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): The shaded portion of the graph represents the feasible region for the given Linear Programming Problem (LPP).<br /><br />Reason (R): Min $Z=50x+70y$ subject to constraints $2x+y\\ge8, x+2y\\ge10, x, y\\ge0$. $Z=50x+70y$ has a minimum value $=380$ at $B(2,4)$. The region representing $50x+70y<380$ does not have any point common with the feasible region.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1</b> Analyze the Assertion (A). For optimization programs with inequalities of the form $ax + by \\ge c$, the individual half-planes extend outwards away from the origin in the first quadrant. The overlapping boundaries are defined by corner vertices $A(0,8)$, $B(2,4)$, and $C(10,0)$, which means the assertion statement is True.<br /><br /><b>Step 2</b> Evaluate the Reason (R). For an unbounded open feasible region, to confirm that a minimum value is stable, we construct the open inequality: $50x + 70y < 380$. If this half-plane contains no common points with our feasible region, the minimum is confirmed. Thus, the reason statement is True.<br /><br /><b>Step 3</b> Check the logical link: the reason provides the exact mathematical confirmation step required to verify that the shaded graph constitutes the correct optimal solution layout for this LPP. Therefore, both are true and R is the correct explanation of A, matching option A.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-3",
+    "2025-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22b3bdfbdd87b6dea73c0a/1782196724-0.png?t=1782216525244"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

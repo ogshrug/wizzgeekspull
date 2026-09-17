@@ -1,0 +1,28 @@
+{
+  "id": "6a265c90850cc99714b54f38",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "SA",
+  "question": "A card from a well shuffled deck of 52 playing cards is lost. From the remaining cards of the pack, a card is drawn at random and is found to be a King. Find the probability of the lost card being a King.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $E_1$ track a lost King and $E_2$ track a non-King: $P(E_1) = \\frac{4}{52} = \\frac{1}{13}$ and $P(E_2) = \\frac{48}{52} = \\frac{12}{13}$. Let $K$ track drawing a King from the remaining cards.<br />**Step 2:** Conditional values are $P(K|E_1) = \\frac{3}{51}$ and $P(K|E_2) = \\frac{4}{51}$.<br />**Step 3:** Use Bayes' theorem formula: $P(E_1|K) = \\frac{P(E_1)P(K|E_1)}{P(E_1)P(K|E_1) + P(E_2)P(K|E_2)} = \\frac{\\frac{1}{13} \\cdot \\frac{3}{51}}{\\frac{1}{13} \\cdot \\frac{3}{51} + \\frac{12}{13} \\cdot \\frac{4}{51}} = \\frac{3}{3+48} = \\frac{3}{51} = \\frac{1}{17}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a32953f6dbc98396e70a7a8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate: $\\int_{0}^{3/2}\\left|x\\cos(\\pi x)\\right|\\,dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Analyze the sign of the integrand over the interval $\\left[0,\\frac{3}{2}\\right]$. Since $x\\ge0$, the sign depends only on $\\cos(\\pi x)$. We have $\\cos(\\pi x)>0$ for $0\\le x<\\frac{1}{2}$ and $\\cos(\\pi x)<0$ for $\\frac{1}{2}<x\\le\\frac{3}{2}$. Hence, $I=\\int_{0}^{1/2}x\\cos(\\pi x)\\,dx-\\int_{1/2}^{3/2}x\\cos(\\pi x)\\,dx$.<br /><br />**Step 2:** Using integration by parts with $u=x$ and $dv=\\cos(\\pi x)\\,dx$, we obtain $\\int x\\cos(\\pi x)\\,dx=\\frac{x\\sin(\\pi x)}{\\pi}+\\frac{\\cos(\\pi x)}{\\pi^2}$.<br /><br />**Step 3:** Evaluating the first part gives $\\left[\\frac{x\\sin(\\pi x)}{\\pi}+\\frac{\\cos(\\pi x)}{\\pi^2}\\right]_{0}^{1/2}=\\frac{1}{2\\pi}-\\frac{1}{\\pi^2}$. Evaluating the second part gives $\\left[\\frac{x\\sin(\\pi x)}{\\pi}+\\frac{\\cos(\\pi x)}{\\pi^2}\\right]_{1/2}^{3/2}=-\\frac{2}{\\pi}$.<br /><br />**Step 4:** Therefore, $I=\\left(\\frac{1}{2\\pi}-\\frac{1}{\\pi^2}\\right)-\\left(-\\frac{2}{\\pi}\\right)=\\frac{5}{2\\pi}-\\frac{1}{\\pi^2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

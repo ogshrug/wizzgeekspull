@@ -1,0 +1,32 @@
+{
+  "id": "6a8fe10abe0ecc7866e90c7b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad",
+    "6a13ebca8c819562f933f9ae",
+    "6a13ebca8c819562f933f9af"
+  ],
+  "question_type": "LA",
+  "question": "Find the equation of the curve passing through $(0,2)$ if at every point $(x,y)$ on it the slope of the tangent is equal to $x(1-y)$. Form the corresponding first order linear differential equation and solve it by the integrating factor method.",
+  "answeroption": "D",
+  "explanation": "<b>Formation of Equation</b><br>The slope of the tangent to the required curve is $\\frac{dy}{dx}$. According to the given condition, $$\\frac{dy}{dx}=x(1-y)=x-xy.$$ Therefore, $$\\frac{dy}{dx}+xy=x.$$ This is a first order linear differential equation in the standard form $$\\frac{dy}{dx}+Py=Q,$$ where $P=x$ and $Q=x$.<br><br><b>Integrating Factor</b><br>The integrating factor is $$\\text{I.F.}=e^{\\int x\\,dx}=e^{\\frac{x^2}{2}}.$$ Multiplying the differential equation by the integrating factor, $$e^{\\frac{x^2}{2}}\\frac{dy}{dx}+xye^{\\frac{x^2}{2}}=xe^{\\frac{x^2}{2}}.$$ The left-hand side becomes $$\\frac{d}{dx}\\left(ye^{\\frac{x^2}{2}}\\right).$$ Hence, $$\\frac{d}{dx}\\left(ye^{\\frac{x^2}{2}}\\right)=xe^{\\frac{x^2}{2}}.$$<br><br><b>Evaluation</b><br>Integrating both sides, $$ye^{\\frac{x^2}{2}}=\\int xe^{\\frac{x^2}{2}}dx+C=e^{\\frac{x^2}{2}}+C.$$ Therefore, $$y=1+Ce^{-\\frac{x^2}{2}}.$$ Since the curve passes through $(0,2)$, $$2=1+C,$$ giving $C=1$.<br><br><b>Final Result</b><br>The equation of the required curve is $$y=1+e^{-\\frac{x^2}{2}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=1+e^{-x^2}$",
+    "B": "$y=2-e^{-\\frac{x^2}{2}}$",
+    "C": "$y=1+e^{\\frac{x^2}{2}}$",
+    "D": "$y=1+e^{-\\frac{x^2}{2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

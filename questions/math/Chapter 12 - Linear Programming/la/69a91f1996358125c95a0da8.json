@@ -1,0 +1,29 @@
+{
+  "id": "69a91f1996358125c95a0da8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "LA",
+  "question": "A company manufactures two kinds of products, M and N. Each unit of M requires 2 hours of machine time and 3 hours of labor, while N requires 3 hours of machine and 2 hours of labor. Max 18 hours of machine and 24 hours of labor are available per day. The profit per M is Rs 80, per N is Rs 100. Set up the LPP, graph, find all corner points and the maximum profit.",
+  "answeroption": "B",
+  "explanation": "Let $x =$ units M, $y=$ units N.<br /><br />Machine: $2x+3y\\leq18$<br /><br />Labor: $3x+2y\\leq24$<br /><br />Objective: $Z=80x+100y$<br /><br />$x\\geq0, y\\geq0$<br /><br />$2x+3y=18\\implies y=(18-2x)/3$<br /><br />$3x+2y=24\\implies y=(24-3x)/2$<br /><br />Set equal:<br /><br />$(18-2x)/3=(24-3x)/2\\implies2(18-2x)=3(24-3x)\\implies36-4x=72-9x\\implies5x=36\\implies x=36/5=7.2$<br /><br />$y=(18-2x)/3=(18-14.4)/3=3.6/3=1.2$<br /><br />Check intercepts:<br /><br />$2x+3y=18: x=0,y=6; x=9,y=0$<br /><br />$3x+2y=24: x=0,y=12; x=8,y=0$<br /><br />Feasible points: $(0,6)$, $(7.2,1.2)$, $(8,0)$<br /><br />Evaluate $Z$:<br /><br />$(0,6): Z=100\\times6=600$<br /><br />$(7.2,1.2): Z=80\\times7.2+100\\times1.2=576+120=696$<br /><br />$(8,0): Z=80\\times8=640$<br /><br />Maximum profit Rs $696$ at $(7.2,1.2)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 0 units of M and 6 units of N; maximum profit Rs 600.",
+    "B": "Produce 7.2 units of M and 1.2 units of N; maximum profit Rs 696.",
+    "C": "Produce 8 units of M and 0 units of N; maximum profit Rs 640.",
+    "D": "Produce 9 units of M and 0 units of N; maximum profit Rs 720."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:13:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

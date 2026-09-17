@@ -1,0 +1,29 @@
+{
+  "id": "69a9b33c589ce36f368b4890",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): $\\displaystyle \\int_{0}^{a} x \\sqrt{a^2 - x^2} dx = \\frac{a^3}{3}$<br /><br />Reason (R): For $\\displaystyle \\int_{0}^{a} x \\sqrt{a^2 - x^2} dx$, substitution $x = a \\sin \\theta$ reduces the integral to a standard form.",
+  "answeroption": "A",
+  "explanation": "Let $x=a\\sin\\theta$, then $dx=a\\cos\\theta d\\theta$.<br /><br />The integral becomes $a^3\\int_0^{\\frac{\\pi}{2}}\\sin\\theta\\cos^2\\theta d\\theta$.<br /><br />Let $u=\\cos\\theta$, giving $a^3\\int_0^1 u^2 du = a^3\\frac{1}{3}$.<br /><br />Thus the assertion is true.<br /><br />The substitution $x=a\\sin\\theta$ indeed simplifies the integral to a standard form, so the reason correctly explains the assertion.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:45:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd4a3751910886affb9f1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999"
+  ],
+  "question_type": "LA",
+  "question": "The curves $y=\\sin x$ and $y=\\sin2x$ form two finite regions over the interval $0\\leq x\\leq\\pi$. Determine all their intersection points in this interval, establish which curve is above the other on the resulting intervals, and hence calculate the total area between the two curves.",
+  "answeroption": "A",
+  "explanation": "Points of IntersectionAt the points of intersection,`\\sin x=\\sin2x`Using $\\sin2x=2\\sin x\\cos x$,`\\sin x\\left(1-2\\cos x\\right)=0`In $[0,\\pi]$, $\\sin x=0$ gives $x=0$ and $x=\\pi$, while $2\\cos x=1$ gives $x=\\frac{\\pi}{3}$. The corresponding points are $\\left(0,0\\right)$, $\\left(\\frac{\\pi}{3},\\frac{\\sqrt{3}}{2}\\right)$ and $\\left(\\pi,0\\right)$.Identification of BoundariesThe difference is`\\sin2x-\\sin x=\\sin x\\left(2\\cos x-1\\right)`On $\\left[0,\\frac{\\pi}{3}\\right]$, this difference is non-negative, so $y=\\sin2x$ is the upper curve. On $\\left[\\frac{\\pi}{3},\\pi\\right]$, the difference is non-positive, so $y=\\sin x$ is the upper curve.EvaluationThe total area is`A=\\int_0^{\\frac{\\pi}{3}}\\left(\\sin2x-\\sin x\\right)dx+\\int_{\\frac{\\pi}{3}}^{\\pi}\\left(\\sin x-\\sin2x\\right)dx`For the first region,`A_1=\\left[-\\frac{\\cos2x}{2}+\\cos x\\right]_0^{\\frac{\\pi}{3}}=\\frac{1}{4}`For the second region,`A_2=\\left[-\\cos x+\\frac{\\cos2x}{2}\\right]_{\\frac{\\pi}{3}}^{\\pi}=\\frac{9}{4}`Therefore,`A=A_1+A_2=\\frac{1}{4}+\\frac{9}{4}=\\frac{5}{2}`Final ResultThe total area between the two curves over the given interval is $\\frac{5}{2}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "Intersections $(0,0),(\\frac{\\pi}{3},\\frac{\\sqrt{3}}{2}),(\\pi,0)$; $\\sin2x$ upper on $[0,\\frac{\\pi}{3}]$, $\\sin x$ upper on $[\\frac{\\pi}{3},\\pi]$; total area $=\\frac{5}{2}$",
+    "B": "Intersections $(0,0),(\\frac{\\pi}{2},1),(\\pi,0)$; $\\sin2x$ upper first and $\\sin x$ upper second; total area $=\\frac{5}{2}$",
+    "C": "Intersections $(0,0),(\\frac{\\pi}{3},\\frac{\\sqrt{3}}{2}),(\\pi,0)$; $\\sin x$ upper on $[0,\\frac{\\pi}{3}]$, $\\sin2x$ upper on $[\\frac{\\pi}{3},\\pi]$; total area $=\\frac{5}{2}$",
+    "D": "Intersections $(0,0),(\\frac{\\pi}{3},\\frac{\\sqrt{3}}{2}),(\\pi,0)$; $\\sin2x$ upper on $[0,\\frac{\\pi}{3}]$, $\\sin x$ upper on $[\\frac{\\pi}{3},\\pi]$; total area $=\\frac{3}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa819a320763ee1b04067f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55",
+    "69c65fc040512f018fa94d63"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Economic Input-Output Model**<br /><br />Two industries, X and Y, require inputs from each other and from themselves to produce their products. The consumption matrix (in units per output) is:<br /><br />$C = \\begin{bmatrix} 0.3 & 0.4 \\\\ 0.2 & 0.5 \\end{bmatrix}$<br /><br />and the final demand vector for their products is $D = \\begin{bmatrix} 200 \\\\ 120 \\end{bmatrix}$.<br /><br />(a) Write the system of equations modelling the total outputs required from X and Y.<br />(b) Solve for the total outputs using the matrix method.<br />(c) Evaluate how the interdependence of industries X and Y reflects the importance of invertible matrices in economic planning.",
+  "answeroption": "C",
+  "explanation": "(a)<br /><br />Let the output vector be $X = \\begin{bmatrix} x_1 \\\\ x_2 \\end{bmatrix}$.<br /><br />Total required: $X = C X + D$.<br /><br />So, $(I - C)X = D$<br /><br />(b)<br /><br />First, $I = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$<br /><br />Thus,<br />$I-C = \\begin{bmatrix} 1-0.3 & 0-0.4 \\\\ 0-0.2 & 1-0.5 \\end{bmatrix} = \\begin{bmatrix} 0.7 & -0.4 \\\\ -0.2 & 0.5 \\end{bmatrix}$<br /><br />So,<br />$\\begin{bmatrix} 0.7 & -0.4 \\\\ -0.2 & 0.5 \\end{bmatrix}\\begin{bmatrix} x_1 \\\\ x_2 \\end{bmatrix} = \\begin{bmatrix} 200 \\\\ 120 \\end{bmatrix}$<br /><br />To solve, invert $I-C$:<br /><br />Determinant: $|I-C| = (0.7)(0.5) - (-0.4)(-0.2) = 0.35 - 0.08 = 0.27$<br /><br />Inverse:<br />$=\\frac{1}{0.27}\\begin{bmatrix} 0.5 & 0.4 \\\\ 0.2 & 0.7 \\end{bmatrix}$<br /><br />Total output $X = (I-C)^{-1} D$:<br /><br />$=\\frac{1}{0.27}\\begin{bmatrix} 0.5 & 0.4 \\\\ 0.2 & 0.7 \\end{bmatrix}\\begin{bmatrix} 200 \\\\ 120 \\end{bmatrix}$<br /><br />Calculate:<br /><br />First row: $0.5\\times200 + 0.4\\times120 = 100 + 48 = 148$<br /><br />Second row: $0.2\\times200 + 0.7\\times120 = 40 + 84 = 124$<br /><br />So, vector is $\\begin{bmatrix} 148 \\\\ 124 \\end{bmatrix}$<br /><br />Now, $\\frac{1}{0.27}$:<br /><br />$148/0.27 ≈ 548.15$<br /><br />$124/0.27 ≈ 459.26$<br /><br />Final output: $\\boxed{\\begin{bmatrix} 548.15 \\\\ 459.26 \\end{bmatrix}}$<br /><br />(c)<br /><br />This model demonstrates that the interdependence of sectors is captured by the matrix $C$, and finding actual outputs requires $(I-C)$ to be invertible. If not invertible, economic planning is not possible by this model, showing the critical role of invertibility in real-world problem solving.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $CX=D$.<br />(b) $X=\\begin{bmatrix}200\\\\120\\end{bmatrix}$.<br />(c) Invertibility is not required in this model.",
+    "B": "(a) $(I+C)X=D$.<br />(b) $X=\\begin{bmatrix}148\\\\124\\end{bmatrix}$.<br />(c) Interdependence is ignored.",
+    "C": "(a) $X=CX+D$, so $(I-C)X=D$.<br />(b) $I-C=\\begin{bmatrix}0.7&-0.4\\\\-0.2&0.5\\end{bmatrix}$ and $X=(I-C)^{-1}D\\approx\\begin{bmatrix}548.15\\\\459.26\\end{bmatrix}$.<br />(c) Since $I-C$ is invertible, the economy has a unique required output vector; this shows the importance of invertible matrices in planning.",
+    "D": "(a) $X=D-C$.<br />(b) $X=\\begin{bmatrix}199.3\\\\119.5\\end{bmatrix}$.<br />(c) The model gives infinitely many output vectors."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:26:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

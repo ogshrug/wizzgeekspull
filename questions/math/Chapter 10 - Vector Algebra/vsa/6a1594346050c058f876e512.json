@@ -1,0 +1,24 @@
+{
+  "id": "6a1594346050c058f876e512",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ are unit vectors such that $\\vec{a}+\\vec{b}+\\vec{c}=\\vec{0}$, then find the value of $\\vec{a}.\\vec{b}+\\vec{b}.\\vec{c}+\\vec{c}.\\vec{a}$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Use unit vector properties**<br />Since $\\vec{a}$, $\\vec{b}$, and $\\vec{c}$ are defined as unit vectors, their lengths/magnitudes are exactly equal to 1:<br />$|\\vec{a}| = 1, |\\vec{b}| = 1, |\\vec{c}| = 1$<br />Squaring these values gives: $|\\vec{a}|^2 = 1, |\\vec{b}|^2 = 1, |\\vec{c}|^2 = 1$.<br /><br />**Step 2: Square the given vector sum equation**<br />We are given that $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$. Taking the dot product of this vector with itself gives:<br />$(\\vec{a} + \\vec{b} + \\vec{c}) \\cdot (\\vec{a} + \\vec{b} + \\vec{c}) = \\vec{0} \\cdot \\vec{0} = 0$<br /><br />**Step 3: Expand using the algebraic distributive property**<br />Expanding the dot product expression yields:<br />$\\vec{a}\\cdot\\vec{a} + \\vec{b}\\cdot\\vec{b} + \\vec{c}\\cdot\\vec{c} + 2\\vec{a}\\cdot\\vec{b} + 2\\vec{b}\\cdot\\vec{c} + 2\\vec{c}\\cdot\\vec{a} = 0$<br />Using the identity $\\vec{v}\\cdot\\vec{v} = |\\vec{v}|^2$, we substitute the squared magnitudes from Step 1:<br />$|\\vec{a}|^2 + |\\vec{b}|^2 + |\\vec{c}|^2 + 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) = 0$<br />$1 + 1 + 1 + 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) = 0$<br /><br />**Step 4: Isolate and solve for the target expression**<br />$3 + 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) = 0$<br />$2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) = -3$<br />$\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a} = -\\frac{3}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

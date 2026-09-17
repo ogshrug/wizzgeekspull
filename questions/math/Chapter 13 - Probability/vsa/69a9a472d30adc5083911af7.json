@@ -1,0 +1,29 @@
+{
+  "id": "69a9a472d30adc5083911af7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "VSA",
+  "question": "A coin is tossed three times. What is the probability that at least two heads occur, given that the first toss is a head?",
+  "answeroption": "A",
+  "explanation": "First toss is a head: Remaining two coins can be any; so $2^2=4$ possibilities.<br />\"At least two heads\" among 3 coins and first toss is H:<br />- All heads: (H,H,H)<br />- Two heads: (H,H,T), (H,T,H)<br />That is 3 outcomes<br /><br />Required probability = $\\frac{3}{4}$<br /><br />Final answer: $\\boxed{\\frac{3}{4}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{4}$",
+    "B": "$\\frac{1}{2}$",
+    "C": "$\\frac{1}{4}$",
+    "D": "$\\frac{3}{8}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:42:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

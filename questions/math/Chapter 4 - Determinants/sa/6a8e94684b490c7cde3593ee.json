@@ -1,0 +1,29 @@
+{
+  "id": "6a8e94684b490c7cde3593ee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "SA",
+  "question": "If $\\begin{vmatrix}x+1&2\\\\3&x-1\\end{vmatrix}=-6$, determine all possible values of $x$ and find the sum of their squares.",
+  "answeroption": "B",
+  "explanation": "<b>Expansion of the determinant</b><br>Using $\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc$, $$\\begin{vmatrix}x+1&2\\\\3&x-1\\end{vmatrix}=(x+1)(x-1)-6$$<br><b>Application of the given value</b><br>Therefore, $$x^2-1-6=-6$$<br><b>Solution of the resulting equation</b><br>Simplifying gives $$x^2=1$$ Hence, $$x=1\\quad\\text{or}\\quad x=-1$$<br><b>Sum of the squares</b><br>The required sum is $$1^2+(-1)^2=1+1=2$$<br>Thus, the possible values of $x$ are $1$ and $-1$, and the sum of their squares is $2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=0$; sum of squares $=0$",
+    "B": "$x=1,-1$; sum of squares $=2$",
+    "C": "$x=\\sqrt{2},-\\sqrt{2}$; sum of squares $=4$",
+    "D": "$x=2,-2$; sum of squares $=8$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

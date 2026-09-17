@@ -1,0 +1,30 @@
+{
+  "id": "69aa6b1dd30adc5083911b83",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65c9340512f018fa94d47",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = (1-x)^n$ for $n\\in \\mathbb{N}$. <br /><br />(a) For what values of $x \\in \\mathbb{R}$ is $f(x)$ invertible?<br /><br />(b) For $f^{-1}$ (where defined), find $(f^{-1})'(y)$ in terms of $y$.<br /><br />(c) Examine the monotonicity of $f$ for even and odd $n$.<br /><br />(d) Let $M$ be the $2 \\times 2$ matrix composed of $f^{-1}(1/8), f^{-1}(1/4), f^{-1}(1/2), f^{-1}(1)$ for $n=3$. Compute its determinant.",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:** Functions and Inverses, Application of Derivatives, Monotonicity, Matrices, Determinants<br /><br />(a) $f(x)$ is invertible when $f$ is strictly monotonic, i.e., on intervals where $x < 1$ or $x > 1$, as $(1-x)^n$ is 1-1 there (for odd $n$, $(-\\infty,1)$). For $n$ even, only for $x < 1$ or $x > 1$ separately.<br /><br />(b) For $y = (1-x)^n$, $x = 1 - y^{1/n}$, so $f^{-1}(y) = 1 - y^{1/n}$<br /><br />Then $\\frac{d}{dy} f^{-1}(y) = -\\frac{1}{n} y^{(1-n)/n}$<br /><br />(c) Odd $n$: $f(x)$ strictly decreasing on $\\mathbb{R}$.<br /><br />Even $n$: $f(x)$ decreases on $(-\\infty, 1)$, increases on $(1,\\infty)$. Not strictly monotonic everywhere.<br /><br />(d) For $n=3$, $f^{-1}(y) = 1 - y^{1/3}$<br /><br />$f^{-1}(1/8) = 1 - (1/8)^{1/3} = 1 - 1/2 = 1/2$<br /><br />$f^{-1}(1/4) = 1 - (1/4)^{1/3} = 1 - (1/2)^{2/3} = 1 - 2^{-2/3}$<br /><br />$f^{-1}(1/2) = 1 - (1/2)^{1/3}$<br /><br />$f^{-1}(1) = 1-1=0$<br /><br />$M = \\begin{pmatrix}\\frac{1}{2} & 1-2^{-2/3} \\\\ 1-(1/2)^{1/3} & 0 \\end{pmatrix}$<br /><br />$|M| = -\\frac{1}{2}(1-(1/2)^{1/3}) - 0\\cdot(1-2^{-2/3}) = -\\frac{1}{2}(1-(1/2)^{1/3})$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is invertible on intervals where it is strictly monotonic; for odd $n$, it is strictly decreasing on $\\mathbb{R}$, while for even $n$, it is invertible only on $(-\\infty,1)$ or $(1,\\infty)$ separately<br />(b) $f^{-1}(y)=1-y^{1/n}$ and $(f^{-1})'(y)=-\\frac{1}{n}y^{(1-n)/n}$<br />(c) For odd $n$, $f$ is strictly decreasing on $\\mathbb{R}$; for even $n$, it decreases on $(-\\infty,1)$ and increases on $(1,\\infty)$<br />(d) For $n=3$, $M=\\begin{pmatrix}\\frac12&1-2^{-2/3}\\\\1-2^{-1/3}&0\\end{pmatrix}$ and $|M|=-\\frac12(1-2^{-1/3})$",
+    "B": "(a) $f$ is invertible on $\\mathbb{R}$ for every even $n$ only<br />(b) $f^{-1}(y)=1+y^{1/n}$ and $(f^{-1})'(y)=\\frac{1}{n}y^{(1-n)/n}$<br />(c) For odd $n$, $f$ is increasing; for even $n$, it is decreasing everywhere<br />(d) $|M|=\\frac12(1-2^{-1/3})$",
+    "C": "(a) $f$ is never invertible for any $n$<br />(b) No inverse exists<br />(c) $f$ is constant for every $n$<br />(d) $|M|=0$",
+    "D": "(a) $f$ is invertible only at $x=1$<br />(b) $f^{-1}(y)=y^n-1$ and $(f^{-1})'(y)=ny^{n-1}$<br />(c) For all $n$, $f$ is strictly increasing on $\\mathbb{R}$<br />(d) $|M|=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:50:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

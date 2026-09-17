@@ -1,0 +1,29 @@
+{
+  "id": "69a94894d30adc5083911a38",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A$ and $B$ be $3\\times3$ matrices such that $B$ is skew symmetric and $A$ is symmetric. Which is always true?",
+  "answeroption": "D",
+  "explanation": "Let $A$ symmetric: $A'=A$, $B$ skew symmetric: $B'=-B$.<br />So $(A+B)' = A'+B' = A+(-B) = A-B$<br />So $A+B$ is symmetric iff $A+B = A-B \\implies B=O$.<br />Correct answer: (D) $A+B$ is symmetric iff $B=O$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A+B$ is always symmetric",
+    "B": "$A+B$ is always skew symmetric",
+    "C": "$A+B$ can never be symmetric",
+    "D": "$A+B$ is symmetric iff $B=O$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:10:44 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

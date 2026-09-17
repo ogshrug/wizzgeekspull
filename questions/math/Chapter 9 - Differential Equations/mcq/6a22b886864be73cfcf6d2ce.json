@@ -1,0 +1,33 @@
+{
+  "id": "6a22b886864be73cfcf6d2ce",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "MCQ",
+  "question": "The integrating factor of the differential equation $(1 - y^2)\\frac{dx}{dy} + yx = ay$, $(-1 < y < 1)$ is",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Properly rearrange the equation into the strict standard linear form representation $\\frac{dx}{dy} + P(y)x = Q(y)$. Mathematically divide the entire expression by $(1 - y^2)$: $\\frac{dx}{dy} + \\frac{y}{1 - y^2}x = \\frac{ay}{1 - y^2}$.<br />**Step 2:** Directly map and identify the coefficient parameter $P(y) = \\frac{y}{1 - y^2}$.<br />**Step 3:** The theoretical Integrating Factor (I.F.) is precisely calculated by $e^{\\int P(y) dy} = e^{\\int \\frac{y}{1 - y^2} dy}$.<br />**Step 4:** Systematically evaluate the integral by executing standard substitution $1 - y^2 = t \\Rightarrow -2y dy = dt \\Rightarrow y dy = -\\frac{dt}{2}$. The analytical integral becomes $-\\frac{1}{2} \\int \\frac{1}{t} dt = -\\frac{1}{2} \\log t = \\log(t^{-1/2}) = \\log(\\frac{1}{\\sqrt{1 - y^2}})$.<br />**Step 5:** Thus, concluding the calculation gives I.F. $= e^{\\log(\\frac{1}{\\sqrt{1 - y^2}})} = \\frac{1}{\\sqrt{1 - y^2}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{y^2 - 1}$",
+    "B": "$\\frac{1}{\\sqrt{y^2 - 1}}$",
+    "C": "$\\frac{1}{1 - y^2}$",
+    "D": "$\\frac{1}{\\sqrt{1 - y^2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

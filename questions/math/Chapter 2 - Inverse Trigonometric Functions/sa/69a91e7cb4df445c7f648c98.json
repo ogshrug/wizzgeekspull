@@ -1,0 +1,30 @@
+{
+  "id": "69a91e7cb4df445c7f648c98",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "SA",
+  "question": "If $f(x) = \\sin^{-1}(2x\\sqrt{1-x^2})$, $x \\in \\left[0, \\frac{1}{\\sqrt{2}}\\right]$, prove that $f(x) = 2\\sin^{-1}x$. Hence find the principal value of $\\sin^{-1}(\\frac{3}{5}) + \\sin^{-1}(\\frac{4}{5})$.",
+  "answeroption": "C",
+  "explanation": "Let $\\theta = \\sin^{-1}x$, so $x = \\sin\\theta$, with $\\theta \\in \\left[0, \\frac{\\pi}{4}\\right]$.<br /><br />Then $2x\\sqrt{1-x^2} = 2\\sin\\theta\\sqrt{1-\\sin^2\\theta} = 2\\sin\\theta\\cos\\theta$.<br /><br />Since $2\\sin\\theta\\cos\\theta = \\sin2\\theta$, we get $\\sin^{-1}(2x\\sqrt{1-x^2}) = \\sin^{-1}(\\sin2\\theta)$.<br /><br />Because $2\\theta \\in [0,\\frac{\\pi}{2}]$, $\\sin^{-1}(\\sin2\\theta) = 2\\theta$.<br /><br />Since $\\theta = \\sin^{-1}x$, we obtain $\\sin^{-1}(2x\\sqrt{1-x^2}) = 2\\sin^{-1}x$.<br /><br />Now let $A = \\sin^{-1}(\\frac{3}{5})$ and $B = \\sin^{-1}(\\frac{4}{5})$.<br /><br />Then $\\sin A = \\frac{3}{5}$ and $\\sin B = \\frac{4}{5}$.<br /><br />Compute $\\cos A = \\frac{4}{5}$ and $\\cos B = \\frac{3}{5}$.<br /><br />Using $\\sin(A+B) = \\sin A\\cos B + \\cos A\\sin B$ we get $\\sin(A+B) = 1$.<br /><br />Therefore $A+B = \\sin^{-1}(1) = \\frac{\\pi}{2}$. The principal value is $\\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Using $2x\\sqrt{1-x^2}=\\sin2\\theta$, $f(x)=\\sin^{-1}x$ and the principal value is $\\frac{\\pi}{4}$.",
+    "B": "Using $2x\\sqrt{1-x^2}=\\cos2\\theta$, $f(x)=2\\cos^{-1}x$ and the principal value is $\\frac{\\pi}{3}$.",
+    "C": "Using $2x\\sqrt{1-x^2}=\\sin2\\theta$, $f(x)=2\\sin^{-1}x$ and $\\sin^{-1}(\\frac{3}{5})+\\sin^{-1}(\\frac{4}{5})=\\frac{\\pi}{2}$.",
+    "D": "Using $2x\\sqrt{1-x^2}=\\tan2\\theta$, $f(x)=2\\tan^{-1}x$ and the principal value is $\\pi$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:11:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

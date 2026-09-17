@@ -1,0 +1,31 @@
+{
+  "id": "69a959ccd30adc5083911a58",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67",
+    "69c6603740512f018fa94d6e",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Security Badge Encoding and Decoding (Cryptography Application)**<br /><br />A security badge system encodes a 2-digit employee code (for example, 25) as a column matrix $C = \\begin{bmatrix}2 \\\\ 5 \\end{bmatrix}$. The encoding uses the matrix $E = \\begin{bmatrix}3 & 1 \\\\ 2 & 1\\end{bmatrix}$.<br /><br />(a) Compute the encoded badge $B = EC$.<br /><br />(b) If the badge must be decoded, find $E^{-1}$ (show all steps: determinant, adjugate).<br /><br />(c) A security audit discovers that someone used a matrix $F=\\begin{bmatrix} 3 & 1 \\\\ 6 & 2 \\end{bmatrix}$ (where the second row is a multiple of the first). Analyze, with justification, if decoding is possible with $F$.",
+  "answeroption": "C",
+  "explanation": "(a) Encoding:<br />$B=EC=\\begin{bmatrix}3 & 1 \\\\ 2 & 1\\end{bmatrix}\\begin{bmatrix}2 \\\\ 5\\end{bmatrix}=\\begin{bmatrix}3*2+1*5\\\\2*2+1*5\\end{bmatrix}=\\begin{bmatrix}6+5\\\\4+5\\end{bmatrix}=\\begin{bmatrix}11\\\\9\\end{bmatrix}$<br /><br />(b) Decoding – Inverse Matrix:<br />$|E| = 3*1 - 2*1 = 3-2=1$<br />$adj(E) = \\begin{bmatrix}1 & -1 \\\\ -2 & 3\\end{bmatrix}$<br />$E^{-1} = adj(E)/|E| = \\begin{bmatrix}1 & -1 \\\\ -2 & 3\\end{bmatrix}$<br />Decoding:<br />$C = E^{-1}B =\\begin{bmatrix}1 & -1 \\\\ -2 & 3\\end{bmatrix}\\begin{bmatrix}11\\\\9\\end{bmatrix}$<br />Row 1: $1*11 - 1*9 = 2$<br />Row 2: $-2*11 + 3*9 = -22 + 27 = 5$<br />Recovered: $\\begin{bmatrix}2\\\\5\\end{bmatrix}$<br /><br />(c) Analysis for $F$:<br />$|F| = 3*2 - 6*1 = 6 - 6 = 0$<br />Thus $F$ is singular (non-invertible) due to linear dependence of rows. Decoding is impossible; information is irreversibly lost if this matrix is used.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $B=\\begin{bmatrix}9\\\\11\\end{bmatrix}$<br />(b) $E^{-1}=\\begin{bmatrix}1&-1\\\\-2&3\\end{bmatrix}$<br />(c) Decoding with $F$ is possible because $|F|=1$.",
+    "B": "(a) $B=\\begin{bmatrix}11\\\\9\\end{bmatrix}$<br />(b) $E^{-1}=\\begin{bmatrix}3&-1\\\\-2&1\\end{bmatrix}$<br />(c) Decoding with $F$ is possible because its rows are proportional.",
+    "C": "(a) $B=\\begin{bmatrix}11\\\\9\\end{bmatrix}$<br />(b) $E^{-1}=\\begin{bmatrix}1&-1\\\\-2&3\\end{bmatrix}$<br />(c) Decoding with $F$ is not possible because $|F|=0$, so $F$ is singular and non-invertible.",
+    "D": "(a) $B=\\begin{bmatrix}11\\\\9\\end{bmatrix}$<br />(b) $E^{-1}$ does not exist because $|E|=0$.<br />(c) Decoding with $F$ is possible because $F^{-1}$ exists."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:24:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

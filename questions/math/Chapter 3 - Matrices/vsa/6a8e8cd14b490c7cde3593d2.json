@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8cd14b490c7cde3593d2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d59"
+  ],
+  "question_type": "VSA",
+  "question": "The column operation $C_1\\to C_1+2C_2$ is performed on $A=\\begin{bmatrix}1&3\\\\-2&4\\\\5&-1\\end{bmatrix}$. Find the new element in the third row and first column.",
+  "answeroption": "C",
+  "explanation": "Step 1: The operation $C_1\\to C_1+2C_2$ means that twice the second column is added to the first column, while the second column remains unchanged.<br>Step 2: In the third row, the original entries are $a_{31}=5$ and $a_{32}=-1$.<br>Step 3: Therefore, the new third entry of the first column is obtained as $$5+2(-1).$$<br>Step 4: Simplifying, we get $$5-2=3.$$<br>Step 5: Hence, after performing the stated elementary column operation, the element in the third row and first column becomes $3$. Therefore, the required new element is $3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$7$",
+    "B": "$4$",
+    "C": "$3$",
+    "D": "$-3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

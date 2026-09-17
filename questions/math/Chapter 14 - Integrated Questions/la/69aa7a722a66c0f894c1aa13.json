@@ -1,0 +1,30 @@
+{
+  "id": "69aa7a722a66c0f894c1aa13",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e98f8c819562f933f974",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Suppose that a particle moves in space such that its position vector at time $t$ is $\\vec{r}(t) = t^2 \\hat{i} + t \\hat{j} + (1-t^2)\\hat{k}$, $t \\in [0,1]$.\n(a) Find the velocity and acceleration vectors at any $t$.\n(b) Find the angle between the velocity and acceleration vectors at $t = 1$.\n(c) Show that the speed of the particle is maximum or minimum at $t=0$ or $t=1$ (verify using calculus), and determine which.\n(d) If we select $t$ at random in $[0,1]$, what is the probability that the speed exceeds $2$?",
+  "answeroption": "B",
+  "explanation": "(a) $\\vec{r}(t) = t^2\\hat{i} + t\\hat{j} + (1-t^2)\\hat{k}$<br />Velocity:<br />$\\vec{v}(t) = \\frac{d\\vec{r}}{dt} = 2t\\hat{i} + \\hat{j} - 2t\\hat{k}$<br />Acceleration:<br />$\\vec{a}(t) = \\frac{d\\vec{v}}{dt} = 2\\hat{i} - 2\\hat{k}$<br /><br />(b) At $t=1$:<br />$\\vec{v}(1)=2\\hat{i}+\\hat{j}-2\\hat{k}$<br />$\\vec{a}(1)=2\\hat{i}-2\\hat{k}$<br />$\\vec{v}\\cdot\\vec{a}=4+0+4=8$<br />$|\\vec{v}|=3$<br />$|\\vec{a}|=2\\sqrt{2}$<br />$\\cos\\theta=\\frac{8}{3\\times2\\sqrt{2}}=\\frac{4}{3\\sqrt{2}}$<br /><br />(c) Speed $v(t)=|\\vec{v}(t)|=\\sqrt{(2t)^2+1^2+(-2t)^2}$<br />$=\\sqrt{8t^2+1}$<br />$\\frac{dv}{dt}=\\frac{8t}{\\sqrt{8t^2+1}}$<br />Set $\\frac{dv}{dt}=0$ gives $t=0$<br />Check endpoints:<br />$v(0)=1$<br />$v(1)=3$<br />Thus speed is minimum at $t=0$ and maximum at $t=1$.<br /><br />(d) $v(t)=\\sqrt{8t^2+1}$<br />$v>2 \\Rightarrow 8t^2+1>4$<br />$8t^2>3$<br />$t^2>\\frac{3}{8}$<br />$t>\\sqrt{3/8}$<br />Probability $=1-\\sqrt{3/8}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec v(t)=t\\hat i+\\hat j-t\\hat k$, $\\vec a(t)=\\hat i-\\hat k$<br />(b) $\\cos\\theta=\\frac{2}{3\\sqrt2}$<br />(c) Speed is maximum at $t=0$ and minimum at $t=1$<br />(d) Probability $=\\sqrt{\\frac{3}{8}}$",
+    "B": "(a) $\\vec v(t)=2t\\hat i+\\hat j-2t\\hat k$, $\\vec a(t)=2\\hat i-2\\hat k$<br />(b) $\\cos\\theta=\\frac{4}{3\\sqrt2}$<br />(c) Speed is minimum at $t=0$ and maximum at $t=1$<br />(d) Probability $=1-\\sqrt{\\frac{3}{8}}$",
+    "C": "(a) $\\vec v(t)=2t\\hat i+\\hat j+2t\\hat k$, $\\vec a(t)=2\\hat i+2\\hat k$<br />(b) $\\cos\\theta=0$<br />(c) Speed is constant on $[0,1]$<br />(d) Probability $=\\frac12$",
+    "D": "(a) $\\vec v(t)=t^2\\hat i+\\hat j+(1-t^2)\\hat k$, $\\vec a(t)=2t\\hat i-2t\\hat k$<br />(b) $\\cos\\theta=\\frac{1}{3}$<br />(c) Speed has maximum at $t=\\frac12$<br />(d) Probability $=\\frac14$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:55:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

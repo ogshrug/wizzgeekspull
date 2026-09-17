@@ -1,0 +1,29 @@
+{
+  "id": "69a970b7d30adc5083911ac4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "LA",
+  "question": "A coin is tossed 6 times. Find the probability of obtaining:\n(a) exactly 4 heads,\n(b) at least 2 heads,\n(c) not more than 2 heads.",
+  "answeroption": "B",
+  "explanation": "This is Binomial: n=6, p=1/2<br /><br />(a) $P(X=4)=\\binom{6}{4}\\left(\\frac{1}{2}\\right)^4\\left(\\frac{1}{2}\\right)^2=15\\times \\frac{1}{16}\\times \\frac{1}{4}=15\\times \\frac{1}{64}=\\frac{15}{64}$<br /><br />(b) At least 2 heads = $P(X \\ge 2)=1-P(0)-P(1)$<br />$P(0)=\\binom{6}{0}\\left(\\frac{1}{2}\\right)^6=1\\times \\frac{1}{64}=\\frac{1}{64}$<br />$P(1)=\\binom{6}{1}\\left(\\frac{1}{2}\\right)^1 \\left(\\frac{1}{2}\\right)^5=6\\times \\frac{1}{2}\\times \\frac{1}{32}=\\frac{6}{64}=\\frac{3}{32}$<br />So, $P(X\\ge2)=1-\\frac{1}{64}-\\frac{3}{32}=1-\\frac{1+6}{64}=1-\\frac{7}{64}=\\frac{57}{64}$<br /><br />(c) Not more than 2 heads = $P(0)+P(1)+P(2)$<br />$P(2)=\\binom{6}{2}\\left(\\frac{1}{2}\\right)^2 \\left(\\frac{1}{2}\\right)^4=15\\times \\frac{1}{4}\\times \\frac{1}{16}=15\\times \\frac{1}{64}=\\frac{15}{64}$<br />Total: $\\frac{1}{64}+\\frac{3}{32}+\\frac{15}{64}=\\frac{1+6+15}{64}=\\frac{22}{64}=\\frac{11}{32}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{15}{64}$<br />(b) $\\frac{11}{32}$<br />(c) $\\frac{57}{64}$",
+    "B": "(a) $\\frac{15}{64}$<br />(b) $\\frac{57}{64}$<br />(c) $\\frac{11}{32}$",
+    "C": "(a) $\\frac{6}{64}$<br />(b) $\\frac{57}{64}$<br />(c) $\\frac{15}{64}$",
+    "D": "(a) $\\frac{20}{64}$<br />(b) $\\frac{55}{64}$<br />(c) $\\frac{22}{64}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:01:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

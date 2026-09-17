@@ -1,0 +1,30 @@
+{
+  "id": "6a8ebb6f2e54880055a0a6b2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6a",
+    "69c6603740512f018fa94d6b"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A triangular activity region has vertices $A(0,0)$, $B(6,0)$, and $C(0,6)$. A point $G$ is chosen at the centroid of the triangle, whose coordinates are obtained by taking the average of the corresponding coordinates of the three vertices. The organisers want to verify through determinants that joining $G$ to the three vertices divides the original region into three triangles of equal area.<br><br><b>(a)</b> Determine the coordinates of $G$.<br><br><b>(b)</b> Calculate the area of $\\triangle ABC$ using a determinant.<br><br><b>(c)</b> Calculate the area of $\\triangle ABG$.<br><br><b>(d)</b> Calculate the areas of $\\triangle BCG$ and $\\triangle CAG$, and hence justify the organisers' claim.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The coordinates of the centroid are<br>$$G=\\left(\\frac{0+6+0}{3},\\frac{0+0+6}{3}\\right)=(2,2)$$<br><br><b>(b)</b><br>$$\\text{Area of }\\triangle ABC=\\frac{1}{2}\\left|\\begin{vmatrix}0 & 0 & 1\\\\6 & 0 & 1\\\\0 & 6 & 1\\end{vmatrix}\\right|$$<br>$$=\\frac{1}{2}|36|=18$$<br>Therefore, the area of $\\triangle ABC$ is $18$ square units.<br><br><b>(c)</b><br>$$\\text{Area of }\\triangle ABG=\\frac{1}{2}\\left|\\begin{vmatrix}0 & 0 & 1\\\\6 & 0 & 1\\\\2 & 2 & 1\\end{vmatrix}\\right|$$<br>$$=\\frac{1}{2}|12|=6$$<br>Therefore, the area of $\\triangle ABG$ is $6$ square units.<br><br><b>(d)</b><br>$$\\text{Area of }\\triangle BCG=\\frac{1}{2}\\left|\\begin{vmatrix}6 & 0 & 1\\\\0 & 6 & 1\\\\2 & 2 & 1\\end{vmatrix}\\right|$$<br>$$=\\frac{1}{2}|24-12|=6$$<br>Also,<br>$$\\text{Area of }\\triangle CAG=\\frac{1}{2}\\left|\\begin{vmatrix}0 & 6 & 1\\\\0 & 0 & 1\\\\2 & 2 & 1\\end{vmatrix}\\right|$$<br>$$=\\frac{1}{2}|12|=6$$<br>Thus,<br>$$\\text{Area of }\\triangle ABG=\\text{Area of }\\triangle BCG=\\text{Area of }\\triangle CAG=6$$<br>The three areas add to $18$ square units, so $G$ divides $\\triangle ABC$ into three triangles of equal area.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $G=(3,3)$<br>(b) $[\\triangle ABC]=18$<br>(c) $[\\triangle ABG]=9$<br>(d) $[\\triangle BCG]=[\\triangle CAG]=\\frac{9}{2}$, so the three areas are unequal",
+    "B": "(a) $G=(2,2)$<br>(b) $[\\triangle ABC]=36$<br>(c) $[\\triangle ABG]=12$<br>(d) $[\\triangle BCG]=[\\triangle CAG]=12$, so the three areas are equal",
+    "C": "(a) $G=(2,2)$<br>(b) $[\\triangle ABC]=18$<br>(c) $[\\triangle ABG]=6$<br>(d) $[\\triangle BCG]=[\\triangle CAG]=6$, so all three smaller triangles have equal area",
+    "D": "(a) $G=(2,2)$<br>(b) $[\\triangle ABC]=18$<br>(c) $[\\triangle ABG]=3$<br>(d) $[\\triangle BCG]=6$ and $[\\triangle CAG]=9$, so their total is $18$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

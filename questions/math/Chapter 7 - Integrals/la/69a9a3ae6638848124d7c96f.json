@@ -1,0 +1,29 @@
+{
+  "id": "69a9a3ae6638848124d7c96f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int \\sqrt{\\tan x} dx$.",
+  "answeroption": "D",
+  "explanation": "Let $\\sqrt{\\tan x}=t$ so $\\tan x=t^2$.<br /><br />Differentiating gives $\\sec^2 x dx=2t dt$.<br /><br />Thus $dx=\\frac{2t}{1+t^4}dt$.<br /><br />Integral becomes $2\\int\\frac{t^2}{1+t^4}dt$.<br /><br />After decomposition and integration the result becomes:<br /><br />$\\frac{1}{\\sqrt2}\\tan^{-1}\\left(\\frac{\\tan x-1}{\\sqrt{2\\tan x}}\\right)+\\frac{1}{2\\sqrt2}\\ln\\left|\\frac{\\tan x-\\sqrt{2\\tan x}+1}{\\tan x+\\sqrt{2\\tan x}+1}\\right|+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{\\sqrt2}\\tan^{-1}\\left(\\frac{\\tan x+1}{\\sqrt{2\\tan x}}\\right)+\\frac{1}{2\\sqrt2}\\ln\\left|\\frac{\\tan x-\\sqrt{2\\tan x}+1}{\\tan x+\\sqrt{2\\tan x}+1}\\right|+C$",
+    "B": "$\\frac{1}{\\sqrt2}\\tan^{-1}\\left(\\frac{\\tan x-1}{\\sqrt{2\\tan x}}\\right)-\\frac{1}{2\\sqrt2}\\ln\\left|\\frac{\\tan x-\\sqrt{2\\tan x}+1}{\\tan x+\\sqrt{2\\tan x}+1}\\right|+C$",
+    "C": "$\\frac{1}{2\\sqrt2}\\tan^{-1}\\left(\\frac{\\tan x-1}{\\sqrt{2\\tan x}}\\right)+\\frac{1}{\\sqrt2}\\ln\\left|\\frac{\\tan x-\\sqrt{2\\tan x}+1}{\\tan x+\\sqrt{2\\tan x}+1}\\right|+C$",
+    "D": "$\\frac{1}{\\sqrt2}\\tan^{-1}\\left(\\frac{\\tan x-1}{\\sqrt{2\\tan x}}\\right)+\\frac{1}{2\\sqrt2}\\ln\\left|\\frac{\\tan x-\\sqrt{2\\tan x}+1}{\\tan x+\\sqrt{2\\tan x}+1}\\right|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:39:26 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

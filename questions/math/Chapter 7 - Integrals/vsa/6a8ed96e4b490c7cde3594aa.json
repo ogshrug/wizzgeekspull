@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed96e4b490c7cde3594aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "VSA",
+  "question": "A function $f$ satisfies $f(x)=f(6-x)$ for $0\\leq x\\leq6$. If $\\int_0^6f(x)\\,dx=14$, find $\\int_0^3f(x)\\,dx$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> The given relation is $f(x)=f(6-x)$. This is of the form $f(x)=f(2a-x)$ with $2a=6$, so $a=3$.<br><b>Step 2:</b> For such a function, the property of definite integrals gives $$\\int_0^{2a}f(x)\\,dx=2\\int_0^af(x)\\,dx.$$<br><b>Step 3:</b> Hence, $$\\int_0^6f(x)\\,dx=2\\int_0^3f(x)\\,dx.$$<br><b>Step 4:</b> Using the given value, $14=2\\int_0^3f(x)\\,dx$.<br><b>Step 5:</b> Therefore, $$\\boxed{\\int_0^3f(x)\\,dx=7}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$7$",
+    "B": "$14$",
+    "C": "$3$",
+    "D": "$28$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

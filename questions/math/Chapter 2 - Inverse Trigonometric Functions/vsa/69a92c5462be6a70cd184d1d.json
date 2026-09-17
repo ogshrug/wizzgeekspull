@@ -1,0 +1,29 @@
+{
+  "id": "69a92c5462be6a70cd184d1d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Show that $\\cos^{-1}(-x) = \\pi - \\cos^{-1}x$ for $x \\in [-1,1]$.",
+  "answeroption": "C",
+  "explanation": "Let $A = \\cos^{-1}x$.<br /><br />Then $\\cos A = x$.<br /><br />Using the identity $\\cos(\\pi - A) = -\\cos A$.<br /><br />Thus $\\cos(\\pi-A) = -x$.<br /><br />Hence $\\cos^{-1}(-x) = \\pi - \\cos^{-1}x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $A=\\cos^{-1}x$. Then $\\cos A=x$. Since $\\cos(\\pi+A)=-x$, hence $\\cos^{-1}(-x)=\\pi+\\cos^{-1}x$.",
+    "B": "Let $A=\\cos^{-1}x$. Then $\\cos A=x$. Since $\\cos(-A)=x$, hence $\\cos^{-1}(-x)=-\\cos^{-1}x$.",
+    "C": "Let $A=\\cos^{-1}x$. Then $\\cos A=x$. Since $\\cos(\\pi-A)=-\\cos A=-x$, hence $\\cos^{-1}(-x)=\\pi-\\cos^{-1}x$.",
+    "D": "Let $A=\\cos^{-1}x$. Then $\\cos A=x$. Since $\\cos\\left(\\frac{\\pi}{2}-A\\right)=\\sin A$, hence $\\cos^{-1}(-x)=\\frac{\\pi}{2}-\\cos^{-1}x$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:10:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9b45dd8e9ca3b293457e2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $f(x)=\\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}$. Evaluate $\\int_0^1 f(x)dx$.",
+  "answeroption": "A",
+  "explanation": "Rewrite $f(x)=\\tanh x$.<br /><br />We know $\\int \\tanh x dx=\\log(\\cosh x)+C$.<br /><br />Thus $\\int_0^1 f(x)dx=\\log(\\cosh1)-\\log(\\cosh0)$.<br /><br />Since $\\cosh1=\\frac{e+e^{-1}}{2}$ and $\\cosh0=1$, the result matches option A.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}\\log\\left(\\frac{e^2+1}{2}\\right)$",
+    "B": "$\\log(\\sqrt{e})$",
+    "C": "$\\log\\left(\\frac{e+1}{e-1}\\right)$",
+    "D": "$\\tan^{-1}(e)-\\tan^{-1}(1)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:50:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

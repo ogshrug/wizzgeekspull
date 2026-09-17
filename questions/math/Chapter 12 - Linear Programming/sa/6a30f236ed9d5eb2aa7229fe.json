@@ -1,0 +1,26 @@
+{
+  "id": "6a30f236ed9d5eb2aa7229fe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically:\nMaximize $P = 100x + 5y$\nsubject to the constraints:\n$x+y \\le 300$,\n$3x+y \\le 600$,\n$y \\le x+200$,\n$x, y \\ge 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Graph the Constraints and Identify Feasible Region**  \nPlot each line on the coordinate plane in the first quadrant (since $x,y \\ge 0$):  \n- $x+y=300$: intercepts $(300,0)$ and $(0,300)$, shade below the line.  \n- $3x+y=600$: intercepts $(200,0)$ and $(0,600)$, shade below.  \n- $y=x+200$: line with slope 1, intercept $(0,200)$, shade below (since $y \\le x+200$).  \nThe feasible region is the bounded polygon formed by these intersecting lines and the axes.\n\n**Step 2: Find All Corner Points (Vertices)**  \nCalculate the intersection points:  \n- Intersection of $3x+y=600$ and $x+y=300$: subtract to get $2x=300 \\Rightarrow x=150$, then $y=150$. Vertex $A=(150,150)$.  \n- Intersection of $x+y=300$ and $y=x+200$: substitute $y=x+200$ into $x+y=300$: $x+(x+200)=300 \\Rightarrow 2x=100 \\Rightarrow x=50$, $y=250$. Vertex $B=(50,250)$.  \n- Intersection of $3x+y=600$ and $y=x+200$: $3x+(x+200)=600 \\Rightarrow 4x=400 \\Rightarrow x=100$, $y=300$? Check: $y=100+200=300$; but $x+y=400 > 300$, so this point violates $x+y \\le 300$; hence not in feasible region.  \n- Intersection with axes: $(0,0)$ from $x=0,y=0$; $(200,0)$ from $3x+y=600$ with $y=0$; $(0,200)$ from $y=x+200$ with $x=0$; also $(0,300)$ from $x+y=300$ but check constraints: at $(0,300)$, $3(0)+300=300 \\le 600$ ok, but $y \\le x+200 \\Rightarrow 300 \\le 200$ false, so not feasible. Similarly, $(300,0)$ violates $3x+y \\le 600$.  \nThus, feasible vertices are: $O=(0,0)$, $C=(200,0)$, $A=(150,150)$, $B=(50,250)$, and $D=(0,200)$.\n\n**Step 3: Evaluate Objective Function at Each Vertex**  \nCompute $P=100x+5y$:  \n- At $O(0,0)$: $P=100(0)+5(0)=0$  \n- At $C(200,0)$: $P=100(200)+5(0)=20000$  \n- At $A(150,150)$: $P=100(150)+5(150)=15000+750=15750$  \n- At $B(50,250)$: $P=100(50)+5(250)=5000+1250=6250$  \n- At $D(0,200)$: $P=100(0)+5(200)=1000$\n\n**Step 4: Identify the Maximum Value**  \nComparing all values, the highest $P$ is $20000$ at vertex $C=(200,0)$.  \nSince the feasible region is bounded and convex, the maximum of a linear objective function occurs at a vertex. No interior point can exceed this value.\n\n**Step 5: State the Optimal Solution**  \nThus, the maximum value of $P$ is $\\mathbf{20000}$, achieved at $x=200$ and $y=0$.  \nThis means under the given resource constraints, the optimal strategy is to produce 200 units of $x$ and none of $y$ to maximize the objective function.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

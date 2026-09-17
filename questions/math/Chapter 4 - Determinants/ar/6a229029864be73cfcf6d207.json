@@ -1,0 +1,33 @@
+{
+  "id": "6a229029864be73cfcf6d207",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "AR",
+  "question": "**Assertion (A):** For matrix $A = \\begin{bmatrix}1 & \\cos \\theta & 1 \\\\ -\\cos \\theta & 1 & \\cos \\theta \\\\ -1 & -\\cos \\theta & 1\\end{bmatrix}$, where $\\theta \\in [0, 2\\pi]$, $|A| \\in [2, 4]$.<br />**Reason (R):** $\\cos \\theta \\in [-1, 1], \\forall \\theta \\in [0, 2\\pi]$.",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Evaluate the determinant $|A|$ by expanding along the first row: $|A| = 1(1 - (-\\cos^2\\theta)) - \\cos\\theta(-\\cos\\theta - (-\\cos\\theta)) + 1(\\cos^2\\theta - (-1))$.<br />**Step 2:** Simplify: $|A| = 1(1 + \\cos^2\\theta) - \\cos\\theta(0) + 1(\\cos^2\\theta + 1) = 2(1 + \\cos^2\\theta)$.<br />**Step 3:** From trigonometry, $\\cos\\theta \\in [-1, 1]$ for $\\theta \\in [0, 2\\pi]$. This is Reason (R).<br />**Step 4:** The range of $\\cos^2\\theta$ is $[0, 1]$. The minimum $|A|$ is $2(1 + 0) = 2$. Maximum is $2(1 + 1) = 4$.<br />**Step 5:** Thus, $|A| \\in [2, 4]$. Both A and R are true, and R is the correct explanation of A.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1",
+    "2024-1-2",
+    "2024-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

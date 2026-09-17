@@ -1,0 +1,26 @@
+{
+  "id": "6a22c09efbdd87b6dea73c28",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{x^{2}+1}{(x^{2}+2)(x^{2}+4)}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Put $x^2 = y$ temporarily to write partial fractions: $\\frac{y+1}{(y+2)(y+4)} = \\frac{A}{y+2} + \\frac{B}{y+4} \\implies y+1 = A(y+4) + B(y+2)$.<br />**Step 2:** Solving for constants yields $A = -\\frac{1}{2}$ and $B = \\frac{3}{2}$. Re-substituting $y=x^2$, the integral becomes $\\int \\left( -\\frac{1}{2(x^2+2)} + \\frac{3}{2(x^2+4)} \\right) dx$.<br />**Step 3:** Integrate using standard formulas: $-\\frac{1}{2\\sqrt{2}} \\tan^{-1}\\left(\\frac{x}{\\sqrt{2}}\\right) + \\frac{3}{4} \\tan^{-1}\\left(\\frac{x}{2}\\right) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

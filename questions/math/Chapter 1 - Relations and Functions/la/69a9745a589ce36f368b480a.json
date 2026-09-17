@@ -1,0 +1,32 @@
+{
+  "id": "69a9745a589ce36f368b480a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d47",
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "LA",
+  "question": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = x^3 + x$. Prove that $f$ is bijective and hence, invertible. Find $f^{-1}(y)$ for $y \\in \\mathbb{R}$, and verify that $f(f^{-1}(y)) = y$.",
+  "answeroption": "B",
+  "explanation": "Step 1: Show that f is one-one.<br /><br />Suppose $f(x_1) = f(x_2)$.<br /><br />$x_1^3 + x_1 = x_2^3 + x_2$<br /><br />$x_1^3 - x_2^3 = x_2 - x_1$<br /><br />$(x_1 - x_2)(x_1^2 + x_1 x_2 + x_2^2) = x_2 - x_1$<br /><br />$(x_1 - x_2)(x_1^2 + x_1 x_2 + x_2^2 + 1) = 0$<br /><br />Note that $x_1^2 + x_1 x_2 + x_2^2 + 1 \\geq 1 > 0$ always, so $x_1 = x_2$. Thus, $f$ is injective.<br /><br />Step 2: Show that f is onto.<br /><br />Let $y \\in \\mathbb{R}$. Consider the equation $y = x^3 + x \\implies x^3 + x - y = 0$.<br /><br />Every cubic has at least one real root. Thus, for every $y \\in \\mathbb{R}$, there exists $x \\in \\mathbb{R}$ such that $f(x) = y$. Thus, $f$ is surjective.<br /><br />Step 3: Therefore, f is bijective.<br /><br />So $f$ is invertible (since it is one-one and onto).<br /><br />Step 4: Find the inverse function.<br /><br />Given $y = x^3 + x$. We seek $x$ in terms of $y$.<br /><br />This is a cubic equation in $x$: $x^3 + x - y = 0$.<br /><br />Let $f^{-1}(y) = x$ where $x$ is the real root of the equation above.<br /><br />Step 5: Verification.<br /><br />We have $f(f^{-1}(y)) = (f^{-1}(y))^3 + f^{-1}(y) = y$ by construction.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is not one-one, so it is not invertible.<br />$f^{-1}(y)$ does not exist.<br />Hence $f(f^{-1}(y))$ cannot be verified.",
+    "B": "$f$ is one-one and onto, so it is bijective and invertible.<br />$f^{-1}(y)$ is the unique real root $x$ of $x^3+x-y=0$.<br />By construction, $f(f^{-1}(y))=(f^{-1}(y))^3+f^{-1}(y)=y$.",
+    "C": "$f$ is one-one but not onto, so it is not invertible.<br />$f^{-1}(y)=\\sqrt[3]{y}-y$.<br />$f(f^{-1}(y))=0$.",
+    "D": "$f$ is onto but not one-one, so it is not invertible.<br />$f^{-1}(y)=y^3+y$.<br />$f(f^{-1}(y))=y^3$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:17:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

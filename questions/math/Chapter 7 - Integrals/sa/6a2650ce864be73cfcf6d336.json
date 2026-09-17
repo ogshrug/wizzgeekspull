@@ -1,0 +1,29 @@
+{
+  "id": "6a2650ce864be73cfcf6d336",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f",
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Find: <br />$$\\int\\frac{2x}{(x^{2}+1)(x^{2}+2)}dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To evaluate the rational integral $\\int\\frac{2x}{(x^{2}+1)(x^{2}+2)}dx$, we observe that the numerator $2x$ is exactly the derivative of $x^2$ present in the denominator. This makes the problem ideal for the substitution method. Let $t = x^2$. Differentiating both sides with respect to $x$ yields $dt = 2x \\, dx$. Substituting these into the original integral transforms it into: $\\int \\frac{dt}{(t+1)(t+2)}$.<br />**Step 2:** Next, we resolve the new integrand fraction using partial fractions decomposition. Set up the template: $\\frac{1}{(t+1)(t+2)} = \\frac{A}{t+1} + \\frac{B}{t+2}$. Multiply through by the lowest common multiple denominator to obtain the identity: $1 = A(t+2) + B(t+1)$. To find the constants $A$ and $B$, substitute convenient values for $t$. Setting $t = -1$ eliminates $B$, leaving $1 = A(-1+2) \\implies A = 1$. Setting $t = -2$ eliminates $A$, leaving $1 = B(-2+1) \\implies 1 = -B \\implies B = -1$.<br />**Step 3:** Substitute these calculated constants back into the integral expression: $\\int \\left( \\frac{1}{t+1} - \\frac{1}{t+2} \\right) dt$. We integrate each term separately using standard logarithmic integration rules, which gives: $\\log|t+1| - \\log|t+2| + C$. Using logarithm subtraction properties, we can condense this into a single quotient log form: $\\log\\left|\\frac{t+1}{t+2}\\right| + C$.<br />**Step 4:** Finally, reverse the initial variable substitution by replacing $t$ with $x^2$ to return to our original terms. Since $x^2 + 1$ and $x^2 + 2$ are always positive for all real values of $x$, absolute value bars are no longer necessary. This delivers our final solution: $\\log\\left(\\frac{x^2+1}{x^2+2}\\right) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1",
+    "2022-5-2",
+    "2022-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

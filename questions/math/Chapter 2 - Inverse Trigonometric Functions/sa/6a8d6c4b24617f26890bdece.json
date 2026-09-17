@@ -1,0 +1,31 @@
+{
+  "id": "6a8d6c4b24617f26890bdece",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4c"
+  ],
+  "question_type": "SA",
+  "question": "For $f(x)=\\cos^{-1}(1-2x^2)$:<br><br>(i) determine its domain and range;<br><br>(ii) verify whether the graph is symmetric about the $y$-axis;<br><br>(iii) find the points corresponding to the least and greatest values of the function. Do not draw the graph.",
+  "answeroption": "C",
+  "explanation": "<b>Domain condition</b><br>The argument of inverse cosine must satisfy $$-1\\leq1-2x^2\\leq1.$$ The right inequality is automatically true because $x^2\\geq0$. The left inequality gives $x^2\\leq1$. Hence, the domain is $[-1,1]$.<br><br><b>Determination of range</b><br>On $[-1,1]$, the expression $1-2x^2$ takes every value in $[-1,1]$. Therefore, $\\cos^{-1}(1-2x^2)$ takes every value in the principal range $$[0,\\pi].$$<br><br><b>Test for symmetry</b><br>Replacing $x$ by $-x$ gives $$f(-x)=\\cos^{-1}(1-2(-x)^2)=\\cos^{-1}(1-2x^2)=f(x).$$ Hence, $f$ is even, and its graph is symmetric about the $y$-axis.<br><br><b>Extreme-value points</b><br>The least value is $0$, attained when $1-2x^2=1$, giving $x=0$. The greatest value is $\\pi$, attained when $1-2x^2=-1$, giving $x=\\pm1$. Therefore, the required points are $$(0,0),\\quad(-1,\\pi),\\quad(1,\\pi).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $[-1,1]$; Range: $[0,\\pi]$; the function is odd; least-value point: $(0,0)$; greatest-value points: $(-1,\\pi)$ and $(1,\\pi)$",
+    "B": "Domain: $[-1,1]$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$; the function is even; least-value point: $(0,0)$; greatest-value points: $\\left(-1,\\frac{\\pi}{2}\\right)$ and $\\left(1,\\frac{\\pi}{2}\\right)$",
+    "C": "Domain: $[-1,1]$; Range: $[0,\\pi]$; the function is even; least-value point: $(0,0)$; greatest-value points: $(-1,\\pi)$ and $(1,\\pi)$",
+    "D": "Domain: $\\mathbb{R}$; Range: $[0,\\pi]$; the function is even; least-value points: $(-1,0)$ and $(1,0)$; greatest-value point: $(0,\\pi)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

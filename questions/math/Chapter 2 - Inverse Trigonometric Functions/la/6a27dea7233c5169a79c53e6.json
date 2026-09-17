@@ -1,0 +1,27 @@
+{
+  "id": "6a27dea7233c5169a79c53e6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "Find the domain of $q(x)=cos^{-1}(4x^{2}-3)$. Hence, find the value of x for which $q(x)=0$ Also, write the range of $3q(x)-\\pi$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To determine the domain of the inverse trigonometric function $q(x) = \\cos^{-1}(4x^2 - 3)$, we utilize the basic definition of the principal domain of the arccosine function, where its internal argument must strictly lie within the closed boundaries of $[-1, 1]$. Therefore, we set up the compound inequality $-1 \\le 4x^2 - 3 \\le 1$. Adding the constant value of 3 across all parts of the inequality yields $2 \\le 4x^2 \\le 4$. Dividing the entire expression by 4 gives $\\frac{1}{2} \\le x^2 \\le 1$. Taking the square root of this inequality defines the valid domain as $x \\in [-1, -\\frac{1}{\\sqrt{2}}] \\cup [\\frac{1}{\\sqrt{2}}, 1]$.<br /><br />**Step 2:** Next, we find the value of $x$ for which the function satisfies $q(x) = 0$. Setting the equation \\\\(\\cos^{-1}(4x^2 - 3) = 0\\\\) and applying the cosine function to both sides removes the inverse operator, leading to $4x^2 - 3 = \\cos(0)$. Since $\\cos(0) = 1$, the equation simplifies to $4x^2 - 3 = 1$. Solving this algebraically gives $4x^2 = 4$, which means $x^2 = 1$, yielding the values $x = \\pm 1$.<br /><br />**Step 3:** Finally, we establish the range of the transformed function given by $3q(x) - \\pi$. The standard principal range of the basic function $\\cos^{-1}(\theta)$ is $[0, \\pi]$. Since the internal argument completely spans the interval $[-1, 1]$ over the domain, the range of $q(x)$ is exactly $[0, \\pi]$. Multiplying this interval by 3 scales the boundaries to $[0, 3\\pi]$. Subtracting the constant value of $\\pi$ translates the interval to $[-\\pi, 2\\pi]$, which represents the final range.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8f050f2e54880055a0a6e0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A publisher requires a poster to contain a printed rectangular region of area $384\\ \\text{cm}^2$. The poster must have margins of $2\\ \\text{cm}$ on both the left and right sides and $3\\ \\text{cm}$ at both the top and bottom. If the printed width is $x\\ \\text{cm}$, its printed height is determined by the fixed-area condition. The publisher wants to minimise the total amount of paper used while preserving the required printed area and margins.(a) Express the total poster area as a function of $x$.(b) Determine the critical value of $x$.(c) Verify using the second derivative test that the total area is minimum.(d) Find the dimensions and minimum area of the complete poster.",
+  "answeroption": "C",
+  "explanation": "(a)Let the printed width be $x\\ \\text{cm}$. Since the printed area is $384\\ \\text{cm}^2$, the printed height is`\\frac{384}{x}\\ \\text{cm}`The total width and height of the poster are`x+4\\quad\\text{and}\\quad\\frac{384}{x}+6`respectively. Therefore, the total area is`A(x)=(x+4)\\left(\\frac{384}{x}+6\\right)A(x)=408+6x+\\frac{1536}{x}`(b)Differentiating,`A'(x)=6-\\frac{1536}{x^2}`For a critical value,`6-\\frac{1536}{x^2}=06x^2=1536x^2=256`Since $x>0$,`x=16\\ \\text{cm}`(c)The second derivative is`A''(x)=\\frac{3072}{x^3}`At $x=16$,`A''(16)=\\frac{3072}{16^3}>0`Therefore, by the second derivative test, the total poster area is minimum at $x=16\\ \\text{cm}$.(d)The printed height is`\\frac{384}{16}=24\\ \\text{cm}`Therefore, the total dimensions are`16+4=20\\ \\text{cm}`and`24+6=30\\ \\text{cm}`The minimum total area is`20\\times30=600\\ \\text{cm}^2`",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A(x)=384+6x+\\frac{2304}{x}$<br>(b) Critical value $x=8\\sqrt{6}$<br>(c) $A''(x)>0$, so minimum<br>(d) Complete dimensions $(8\\sqrt{6}+4)$ cm by $(8\\sqrt{6}+6)$ cm",
+    "B": "(a) $A(x)=408+4x+\\frac{1536}{x}$<br>(b) Critical value $x=8\\sqrt{6}$<br>(c) $A''(x)>0$, so minimum<br>(d) Complete dimensions $8\\sqrt{6}+4$ cm by $8\\sqrt{6}+6$ cm",
+    "C": "(a) $A(x)=408+6x+\\frac{1536}{x}$<br>(b) Critical value $x=16\\ \\text{cm}$<br>(c) $A''(16)>0$, so the total area is minimum<br>(d) Complete dimensions $20\\ \\text{cm}\\times30\\ \\text{cm}$; minimum area $600\\ \\text{cm}^2$",
+    "D": "(a) $A(x)=408+6x+\\frac{1536}{x}$<br>(b) Critical value $x=16\\ \\text{cm}$<br>(c) $A''(16)<0$, so the total area is maximum<br>(d) Complete dimensions $20\\ \\text{cm}\\times30\\ \\text{cm}$; maximum area $600\\ \\text{cm}^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8eb75c751910886affb97a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "LA",
+  "question": "Using properties of determinants, prove that $$\\begin{vmatrix}1 & 1 & 1\\\\a & b & c\\\\bc & ca & ab\\end{vmatrix}=(a-b)(b-c)(c-a)$$ and hence evaluate the determinant for $a=2$, $b=-1$, and $c=4$.",
+  "answeroption": "D",
+  "explanation": "<b>Applying column operations</b><br>Let<br>$$D=\\begin{vmatrix}1 & 1 & 1\\\\a & b & c\\\\bc & ca & ab\\end{vmatrix}$$<br>Apply $C_2\\to C_2-C_1$ and $C_3\\to C_3-C_1$. These operations do not change the value of the determinant.<br>$$D=\\begin{vmatrix}1 & 0 & 0\\\\a & b-a & c-a\\\\bc & ca-bc & ab-bc\\end{vmatrix}$$<br>Expanding along the first row,<br>$$D=\\begin{vmatrix}b-a & c-a\\\\ca-bc & ab-bc\\end{vmatrix}$$<br>Factorising the elements of the second row,<br>$$ca-bc=c(a-b),\\quad ab-bc=b(a-c)$$<br>Therefore,<br>$$D=(b-a)b(a-c)-(c-a)c(a-b)$$<br>Using $b-a=-(a-b)$ and $a-c=-(c-a)$,<br>$$D=(a-b)b(c-a)-(a-b)c(c-a)$$<br>$$D=(a-b)(c-a)(b-c)$$<br>Hence,<br>$$D=(a-b)(b-c)(c-a)$$<br><br><b>Evaluation</b><br>For $a=2$, $b=-1$, and $c=4$,<br>$$D=(2+1)(-1-4)(4-2)$$<br>$$D=3(-5)(2)=-30$$<br>Therefore, the value of the determinant is $-30$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$D=(a-b)(b-c)(a-c)$; for $a=2,b=-1,c=4$, $D=30$",
+    "B": "$D=(a+b)(b+c)(c+a)$; for $a=2,b=-1,c=4$, $D=18$",
+    "C": "$D=(a-b)(b+c)(c-a)$; for $a=2,b=-1,c=4$, $D=18$",
+    "D": "$D=(a-b)(b-c)(c-a)$; for $a=2,b=-1,c=4$, $D=(3)(-5)(2)=-30$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

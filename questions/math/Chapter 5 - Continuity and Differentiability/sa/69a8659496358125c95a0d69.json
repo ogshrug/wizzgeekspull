@@ -1,0 +1,31 @@
+{
+  "id": "69a8659496358125c95a0d69",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d82",
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "SA",
+  "question": "If $f(x) = e^{x} \\sin^{-1}(e^{x})$, find $f'(x)$ for $x<0$ such that $|e^{x}|<1$.",
+  "answeroption": "C",
+  "explanation": "$f(x)=e^x \\sin^{-1}(e^x)$<br /><br />Use the product rule:<br /><br />$\\frac{d}{dx}(u v) = u' v + u v'$<br /><br />$u=e^x$, $v=\\sin^{-1}(e^x)$<br /><br />$u'=e^x$<br /><br />$v'=\\frac{1}{\\sqrt{1 - (e^x)^2}} \\cdot e^x = \\frac{e^x}{\\sqrt{1 - e^{2x}}}$<br /><br />So $f'(x) = e^x \\sin^{-1}(e^x) + e^x \\cdot \\frac{e^x}{\\sqrt{1 - e^{2x}}} = e^x \\sin^{-1}(e^x) + \\frac{e^{2x}}{\\sqrt{1 - e^{2x}}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^x\\sin^{-1}(e^x)+\\frac{e^x}{\\sqrt{1-e^{2x}}}$",
+    "B": "$e^x\\cos^{-1}(e^x)+\\frac{e^{2x}}{\\sqrt{1-e^{2x}}}$",
+    "C": "$e^x\\sin^{-1}(e^x)+\\frac{e^{2x}}{\\sqrt{1-e^{2x}}}$",
+    "D": "$e^x\\sin^{-1}(e^x)-\\frac{e^{2x}}{\\sqrt{1-e^{2x}}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:02:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

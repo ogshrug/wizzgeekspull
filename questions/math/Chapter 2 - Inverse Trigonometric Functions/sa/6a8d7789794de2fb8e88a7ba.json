@@ -1,0 +1,29 @@
+{
+  "id": "6a8d7789794de2fb8e88a7ba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "SA",
+  "question": "Determine the domain of $$f(x)=\\cos^{-1}\\left(\\sqrt{\\frac{2-x}{x+2}}\\right).$$",
+  "answeroption": "B",
+  "explanation": "<b>Conditions on the inner expression</b><br>The square-root expression must be real and must not exceed $1$, because it is the argument of $\\cos^{-1}$. Thus, $$0\\leq\\frac{2-x}{x+2}\\leq1,$$ with $x\\neq-2$.<br><br><b>Non-negativity condition</b><br>The critical values are $x=-2$ and $x=2$. Sign analysis of $\\frac{2-x}{x+2}$ gives $$-2<x\\leq2.$$<br><br><b>Upper-bound condition</b><br>On $(-2,2]$, the denominator $x+2$ is positive. Therefore, $$\\frac{2-x}{x+2}\\leq1$$ implies $$2-x\\leq x+2.$$ Hence, $-2x\\leq0$, giving $x\\geq0$.<br><br><b>Intersection of conditions</b><br>Combining $-2<x\\leq2$ with $x\\geq0$ gives $$0\\leq x\\leq2.$$ Both endpoints are included because the inverse cosine arguments are $1$ and $0$, respectively.<br><br><b>Final domain</b><br>The domain is $$[0,2].$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(-2,2]$",
+    "B": "$[0,2]$",
+    "C": "$(0,2]$",
+    "D": "$[0,2)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

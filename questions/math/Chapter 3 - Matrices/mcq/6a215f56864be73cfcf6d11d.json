@@ -1,0 +1,32 @@
+{
+  "id": "6a215f56864be73cfcf6d11d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5e",
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "MCQ",
+  "question": "If A is a square matrix such that $A^2 = A$, then $(A-I)^3 - A$ is equal to:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Expand $(A-I)^3$ using the binomial formula: $A^3 - 3A^2I + 3AI^2 - I^3$.<br />**Step 2:** Simplify using properties of Identity matrix: $A^3 - 3A^2 + 3A - I$.<br />**Step 3:** Since $A^2 = A$, we also have $A^3 = A^2 \\cdot A = A \\cdot A = A^2 = A$.<br />**Step 4:** Substitute $A^2 = A$ and $A^3 = A$: $A - 3A + 3A - I = A - I$.<br />**Step 5:** Finally, evaluate $(A-I)^3 - A = (A - I) - A = -I$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$I$",
+    "B": "$-I$",
+    "C": "$A$",
+    "D": "$A^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

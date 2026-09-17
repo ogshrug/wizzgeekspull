@@ -1,0 +1,29 @@
+{
+  "id": "69a9ae31d8e9ca3b293457dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "MCQ",
+  "question": "If $F(x) = \\int_0^x e^{t^2} dt$ and $G(x) = \\int_0^{x^2} e^{t} dt,$ what is the value of $\\left.\\frac{d}{dx}\\left(F(x^2) + G(\\sqrt{x})\\right)\\right|_{x=0}$?",
+  "answeroption": "A",
+  "explanation": "Differentiate $F(x^2)$ using chain rule.<br /><br />$\\frac{d}{dx}F(x^2)=F'(x^2)\\cdot2x=e^{x^4}\\cdot2x$.<br /><br />Differentiate $G(\\sqrt{x})$. Since $G'(y)=2y e^{y^2}$, applying chain rule gives $e^x$.<br /><br />Thus derivative becomes $2x e^{x^4}+e^x$.<br /><br />Substitute $x=0$ giving $0+1=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "0",
+    "D": "$e^0 = 1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:24:17 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

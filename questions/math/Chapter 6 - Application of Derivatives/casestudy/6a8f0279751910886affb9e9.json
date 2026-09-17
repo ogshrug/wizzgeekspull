@@ -1,0 +1,31 @@
+{
+  "id": "6a8f0279751910886affb9e9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97b",
+    "6a13e98f8c819562f933f97c",
+    "6a13e98f8c819562f933f97e"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematical model uses the logarithmic curve $y=\\ln x$, where $x>0$. Researchers examine the curve at the points corresponding to $x=1$ and $x=e$. The derivative at each point represents the instantaneous slope and therefore determines the direction of the tangent line. After forming the two tangent equations, the researchers calculate where these lines meet and compare their slopes to understand why the tangents are distinct.(a) Obtain the derivative and determine the tangent slopes at $x=1$ and $x=e$.(b) Find the equation of the tangent at $x=1$.(c) Find the equation of the tangent at $x=e$.(d) Determine the point of intersection of the tangents and explain the geometrical meaning of their different slopes.",
+  "answeroption": "C",
+  "explanation": "(a)For $y=\\ln x$,`\\frac{dy}{dx}=\\frac{1}{x}`At $x=1$, the slope is`m_1=1`At $x=e$, the slope is`m_2=\\frac{1}{e}`(b)At $x=1$, the point on the curve is $(1,0)$. Therefore, the tangent is`y-0=1(x-1)`Hence,`y=x-1`(c)At $x=e$, the point on the curve is $(e,1)$. The tangent equation is`y-1=\\frac{1}{e}(x-e)y-1=\\frac{x}{e}-1`Therefore,`y=\\frac{x}{e}`(d)At the intersection,`x-1=\\frac{x}{e}`Multiplying by $e$,`ex-e=xx(e-1)=ex=\\frac{e}{e-1}`Then`y=x-1=\\frac{e}{e-1}-1=\\frac{1}{e-1}`Thus, the tangents intersect at`\\left(\\frac{e}{e-1},\\frac{1}{e-1}\\right)`The slopes $1$ and $\\frac{1}{e}$ are unequal, showing that the curve has different instantaneous directions at the two points. Hence, the tangents are distinct and intersect at one point.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dy}{dx}=x$; slopes $1,e$<br>(b) Tangent at $x=1$: $y=x-1$<br>(c) Tangent at $x=e$: $y=ex-e^2+1$<br>(d) Intersection $(1,0)$; different slopes give distinct tangents",
+    "B": "(a) $\\frac{dy}{dx}=\\frac{1}{x}$; slopes $1,\\frac{1}{e}$<br>(b) Tangent at $x=1$: $y=x+1$<br>(c) Tangent at $x=e$: $y=\\frac{x}{e}+1$<br>(d) Intersection $\\left(\\frac{e}{e-1},\\frac{e}{e-1}\\right)$",
+    "C": "(a) $\\frac{dy}{dx}=\\frac{1}{x}$; slopes $1,\\frac{1}{e}$<br>(b) Tangent at $x=1$: $y=x-1$<br>(c) Tangent at $x=e$: $y=\\frac{x}{e}$<br>(d) Intersection $\\left(\\frac{e}{e-1},\\frac{1}{e-1}\\right)$; unequal slopes mean the tangents are distinct",
+    "D": "(a) $\\frac{dy}{dx}=-\\frac{1}{x}$; slopes $-1,-\\frac{1}{e}$<br>(b) Tangent at $x=1$: $y=-x+1$<br>(c) Tangent at $x=e$: $y=-\\frac{x}{e}+2$<br>(d) Tangents are parallel"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

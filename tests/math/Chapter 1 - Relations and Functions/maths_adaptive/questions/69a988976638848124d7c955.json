@@ -1,0 +1,19 @@
+{
+  "id": "69a988976638848124d7c955",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "question_type": "LA",
+  "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = \\lfloor x \\rfloor + \\lfloor -x \\rfloor + 1$, where $\\lfloor \\cdot \\rfloor$ is the greatest integer function.<br /><br />(a) Prove $f$ is a constant function and find its value.<br /><br />(b) If $g: \\mathbb{R} \\to \\mathbb{R}$ is defined by $g(x) = |x| - |x-1| + |x+1|$, find the range of $g$.<br /><br />(c) Define the relation $R$ on $\\mathbb{R}$ by $x R y \\iff f(x) = f(y)$. Prove $R$ is an equivalence relation and describe the equivalence classes.",
+  "options": {
+    "A": "(a) $f$ is constant with value $1$.<br> (b) Range of $g$ is $\\mathbb{R}$.<br> (c) $R$ is an equivalence relation with only one equivalence class $\\mathbb{R}$.",
+    "B": "(a) $f(x)=1$ if $x\\in\\mathbb{Z}$ and $f(x)=0$ if $x\\notin\\mathbb{Z}$, so it is not constant.<br> (b) Range of $g$ is $[0,\\infty)$.<br> (c) $R$ is an equivalence relation with equivalence classes $\\mathbb{Z}$ and $\\mathbb{R}\\setminus\\mathbb{Z}$.",
+    "C": "(a) $f$ is constant with value $0$. <br>(b) Range of $g$ is $[1,\\infty)$.<br> (c) $R$ is not an equivalence relation because it is not reflexive.",
+    "D": "(a) $f(x)=x$ for all real $x$. <br>(b) Range of $g$ is $(-\\infty,0]$. <br>(c) $R$ is symmetric only."
+  },
+  "difficulty": "Hard",
+  "imageurl": null,
+  "is_diagram": false,
+  "diagram": [],
+  "test_type": "Initial"
+}

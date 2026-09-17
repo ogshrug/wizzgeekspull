@@ -1,0 +1,31 @@
+{
+  "id": "6a8f005abe0ecc7866e90c1b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f974",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a controlled motion experiment, a small trolley moves along a straight track. Its displacement from a fixed reference point after $t$ seconds is modelled by $s(t)=4\\sin t$ metres, where $0\\leq t\\leq2\\pi$. The monitoring system uses the first and second derivatives of displacement to calculate the trolley's instantaneous velocity and acceleration. A positive velocity indicates motion in the positive direction of the track, while a negative velocity indicates motion in the opposite direction.(a) Obtain the velocity and acceleration functions.(b) Calculate the velocity and acceleration at $t=\\frac{\\pi}{3}$.(c) Determine the instants when the trolley is at rest.(d) Determine the time intervals during which the trolley moves in the positive and negative directions.",
+  "answeroption": "C",
+  "explanation": "(a)The velocity is the instantaneous rate of change of displacement.`v(t)=\\frac{ds}{dt}=4\\cos t`The acceleration is the instantaneous rate of change of velocity.`a(t)=\\frac{dv}{dt}=-4\\sin t`(b)At $t=\\frac{\\pi}{3}$,`v\\left(\\frac{\\pi}{3}\\right)=4\\cos\\frac{\\pi}{3}=4\\left(\\frac{1}{2}\\right)=2\\ \\text{m/s}a\\left(\\frac{\\pi}{3}\\right)=-4\\sin\\frac{\\pi}{3}=-4\\left(\\frac{\\sqrt{3}}{2}\\right)=-2\\sqrt{3}\\ \\text{m/s}^2`(c)The trolley is at rest when $v(t)=0$. Therefore,`4\\cos t=0`Within $0\\leq t\\leq2\\pi$,`t=\\frac{\\pi}{2}\\quad\\text{or}\\quad t=\\frac{3\\pi}{2}`(d)The trolley moves in the positive direction when $v(t)>0$, that is, when $\\cos t>0$. Hence, it moves in the positive direction for`0\\leq t<\\frac{\\pi}{2}\\quad\\text{and}\\quad\\frac{3\\pi}{2}<t\\leq2\\pi`It moves in the negative direction when $\\cos t<0$. Hence, it moves in the negative direction for`\\frac{\\pi}{2}<t<\\frac{3\\pi}{2}`",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $v=4\\sin t,\\ a=4\\cos t$<br>(b) $v=2\\sqrt{3}\\ \\text{m/s},\\ a=2\\ \\text{m/s}^2$<br>(c) $t=0,\\pi,2\\pi$<br>(d) Positive on $(0,\\pi)$; negative on $(\\pi,2\\pi)$",
+    "B": "(a) $v=-4\\cos t,\\ a=4\\sin t$<br>(b) $v=-2\\ \\text{m/s},\\ a=2\\sqrt{3}\\ \\text{m/s}^2$<br>(c) $t=\\frac{\\pi}{2},\\frac{3\\pi}{2}$<br>(d) Positive on $\\left(\\frac{\\pi}{2},\\frac{3\\pi}{2}\\right)$; negative otherwise",
+    "C": "(a) $v=4\\cos t,\\ a=-4\\sin t$<br>(b) $v=2\\ \\text{m/s},\\ a=-2\\sqrt{3}\\ \\text{m/s}^2$<br>(c) $t=\\frac{\\pi}{2},\\frac{3\\pi}{2}$<br>(d) Positive on $\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{3\\pi}{2},2\\pi\\right]$; negative on $\\left(\\frac{\\pi}{2},\\frac{3\\pi}{2}\\right)$",
+    "D": "(a) $v=4\\cos t,\\ a=4\\sin t$<br>(b) $v=2\\ \\text{m/s},\\ a=2\\sqrt{3}\\ \\text{m/s}^2$<br>(c) $t=\\frac{\\pi}{2},\\frac{3\\pi}{2}$<br>(d) Positive on $\\left(\\frac{\\pi}{2},\\frac{3\\pi}{2}\\right)$; negative on the remaining intervals"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

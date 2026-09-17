@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd20b2e54880055a0a70e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "LA",
+  "question": "The curve $y=\\cos x$ encloses a region with the coordinate axes in the first quadrant.(a) Determine the points at which the curve meets the coordinate axes.(b) Calculate the total area enclosed by the curve and the coordinate axes.(c) The ordinate $x=\\frac{\\pi}{3}$ divides the region into two parts. Determine the area of each part and verify that their sum equals the total enclosed area.",
+  "answeroption": "D",
+  "explanation": "(a)On the $y$-axis, $x=0$, and therefore $y=\\cos0=1$. Hence, the curve meets the $y$-axis at $\\left(0,1\\right)$.On the positive $x$-axis, $y=0$. Therefore,`\\cos x=0`The first positive solution is $x=\\frac{\\pi}{2}$. Hence, the curve meets the $x$-axis at $\\left(\\frac{\\pi}{2},0\\right)$.(b)The total enclosed area is`A=\\int_0^{\\frac{\\pi}{2}}\\cos x\\,dxA=\\left[\\sin x\\right]_0^{\\frac{\\pi}{2}}=1`Thus, the total enclosed area is $1$ square unit.(c)The area between $x=0$ and $x=\\frac{\\pi}{3}$ is`A_1=\\int_0^{\\frac{\\pi}{3}}\\cos x\\,dxA_1=\\left[\\sin x\\right]_0^{\\frac{\\pi}{3}}=\\frac{\\sqrt{3}}{2}`The remaining area is`A_2=\\int_{\\frac{\\pi}{3}}^{\\frac{\\pi}{2}}\\cos x\\,dxA_2=\\left[\\sin x\\right]_{\\frac{\\pi}{3}}^{\\frac{\\pi}{2}}=1-\\frac{\\sqrt{3}}{2}`Therefore,`A_1+A_2=\\frac{\\sqrt{3}}{2}+1-\\frac{\\sqrt{3}}{2}=1`Hence, the sum of the two parts equals the total enclosed area.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,1)$ and $(\\pi,0)$<br>(b) Total area $=1$<br>(c) Parts $=\\frac{\\sqrt{3}}{2}$ and $1-\\frac{\\sqrt{3}}{2}$",
+    "B": "(a) $(0,1)$ and $(\\frac{\\pi}{2},0)$<br>(b) Total area $=2$<br>(c) Parts $=\\frac{\\sqrt{3}}{2}$ and $2-\\frac{\\sqrt{3}}{2}$",
+    "C": "(a) $(0,1)$ and $(\\frac{\\pi}{2},0)$<br>(b) Total area $=1$<br>(c) Parts $=\\frac{1}{2}$ and $\\frac{1}{2}$",
+    "D": "(a) $(0,1)$ and $(\\frac{\\pi}{2},0)$<br>(b) Total area $=1$<br>(c) Parts $=\\frac{\\sqrt{3}}{2}$ and $1-\\frac{\\sqrt{3}}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a858ce64fcf4cdd5b4bad1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "SA",
+  "question": "Let $f(x) = x|x|$. Is $f(x)$ twice differentiable at $x=0$? Justify.",
+  "answeroption": "B",
+  "explanation": "For $x\\geq 0$, $f(x)=x^2$ and $f'(x)=2x$, so $f''(x)=2$.<br /><br />For $x<0$, $f(x)=-x^2$ and $f'(x)=-2x$, so $f''(x)=-2$.<br /><br />At $x=0$, left derivative of $f'(x)$ is $-2$ and right derivative is $2$.<br /><br />Since these are not equal, second derivative does not exist at $x=0$.<br /><br />Therefore, $f(x)$ is not twice differentiable at $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes, $f(x)$ is twice differentiable at $x=0$ and $f''(0)=0$",
+    "B": "No, $f(x)$ is not twice differentiable at $x=0$ because the left and right derivatives of $f'(x)$ are $-2$ and $2$",
+    "C": "Yes, $f(x)$ is twice differentiable at $x=0$ and $f''(0)=2$",
+    "D": "No, $f(x)$ is not differentiable at $x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:07:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

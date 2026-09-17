@@ -1,0 +1,26 @@
+{
+  "id": "6a2fe4f1e9d6ca4a0a42b145",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998"
+  ],
+  "question_type": "SA",
+  "question": "Using integration, find the area of the region $\\{(x,y):y^{2}\\le x\\le y\\}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Identify the boundaries. The region is bounded by the rightward-opening parabola $x = y^2$ and the line $x = y$. Find the points of intersection by setting $y^2 = y \\implies y(y-1) = 0$, giving intersection points at $y = 0$ and $y = 1$.<br />**Step 2:** Setup the integral with respect to $y$. Between $y = 0$ and $y = 1$, the line $x = y$ is to the right (greater $x$) of the parabola $x = y^2$.<br />**Step 3:** The area is $\\int_{0}^{1} (y - y^2) dy$.<br />**Step 4:** Evaluate the integral: $\\left[ \\frac{y^2}{2} - \\frac{y^3}{3} \\right]_0^1 = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}$ sq. units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

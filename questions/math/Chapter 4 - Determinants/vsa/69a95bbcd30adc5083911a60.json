@@ -1,0 +1,29 @@
+{
+  "id": "69a95bbcd30adc5083911a60",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "VSA",
+  "question": "If $A$ is a $3 \\times 3$ matrix satisfying $A^2 = I$, compute $\\text{adj}A$ in terms of $A$.",
+  "answeroption": "D",
+  "explanation": "Let $n = 3$. Use Cayley-Hamilton: <br /><br /> $A^2 = I \\implies (A - I)(A + I) = 0$ <br /><br /> Recall $\\text{adj}A = |A|A^{-1}$. <br /><br /> From $A^2=I$, $A^{-1}=A$ (since $AA=A^2=I$). Thus, $A$ is involutive. <br /><br /> So: <br /><br /> $\\text{adj}A = |A| A$ <br /><br /> Thus, $\\text{adj}A = |A|A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^{-1}$",
+    "B": "$|A|I$",
+    "C": "$A$",
+    "D": "$|A|A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:32:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

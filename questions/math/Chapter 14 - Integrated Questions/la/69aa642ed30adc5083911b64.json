@@ -1,0 +1,30 @@
+{
+  "id": "69aa642ed30adc5083911b64",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $y=f(x) = \\sin^{-1}\\left(2x\\sqrt{1-x^2}\\right) + \\tan^{-1}(x)$ for $x\\in[0,1]$.\n\n(a) Express $f(x)$ in terms of $\\sin^{-1}(x)$ and $\\tan^{-1}(x)$ only.\n\n(b) Compute $f'(x)$.\n\n(c) Find all points $x\\in[0,1]$ where $f'(x) = 0$.\n\n(d) Create a $2\\times2$ matrix $M$ with first row $(x, f(x))$ for $x=0,1$. Compute $\\det(M)$.\n\n(e) Evaluate $\\sin(f(1)/2)$.",
+  "answeroption": "C",
+  "explanation": "**Concepts being tested:** Inverse trigonometric identities, combined differentiation, determinants, composite function evaluation.<br /><br />**(a) Express $f(x)$ in terms of $\\sin^{-1}(x)$ and $\\tan^{-1}(x)$ only.**<br /><br />Note: $\\sin^{-1}(2x\\sqrt{1-x^2}) = 2\\sin^{-1}(x)$ (as seen before).<br /><br />So $f(x)=2\\sin^{-1}(x)+\\tan^{-1}(x)$.<br /><br />**(b) $f'(x)$:**<br /><br />$2\\cdot\\frac{1}{\\sqrt{1-x^2}} + \\frac{1}{1+x^2}$<br /><br />**(c) $f'(x)=0$ iff $2/\\sqrt{1-x^2} + 1/(1+x^2) = 0$<br /><br />But $1/\\sqrt{1-x^2} > 0$ in $[0,1)$, $1/(1+x^2)>0$ always, so sum cannot be $0$.<br /><br />So, no $x\\in[0,1]$ where $f'(x)=0$.<br /><br />**(d) $M$ with $x=0$, $x=1$:**<br /><br />At $x=0$: $f(0)=0+0=0$<br /><br />At $x=1$: $f(1)=2\\sin^{-1}(1)+\\tan^{-1}(1) = 2\\cdot\\frac{\\pi}{2} + \\frac{\\pi}{4} = \\pi + \\frac{\\pi}{4} = \\frac{5\\pi}{4}$<br /><br />$M=\\begin{pmatrix}0 & 0\\\\1 & \\frac{5\\pi}{4}\\end{pmatrix}$<br /><br />$\\det(M) = 0\\cdot\\frac{5\\pi}{4} - 0\\cdot1 = 0$<br /><br />**(e)** $\\sin(f(1)/2)$:<br /><br />$f(1)/2 = \\frac{5\\pi}{8}$<br /><br />$\\sin\\left(\\frac{5\\pi}{8}\\right)$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=\\sin^{-1}x+\\tan^{-1}x$<br />(b) $f'(x)=\\frac{1}{\\sqrt{1-x^2}}+\\frac{1}{1+x^2}$<br />(c) $f'(x)=0$ at $x=0$<br />(d) $\\det(M)=\\frac{5\\pi}{4}$<br />(e) $\\sin\\left(\\frac{\\pi}{8}\\right)$",
+    "B": "(a) $f(x)=2\\cos^{-1}x+\\tan^{-1}x$<br />(b) $f'(x)=-\\frac{2}{\\sqrt{1-x^2}}+\\frac{1}{1+x^2}$<br />(c) $f'(x)=0$ at $x=1$<br />(d) $\\det(M)=1$<br />(e) $\\sin\\left(\\frac{3\\pi}{8}\\right)$",
+    "C": "(a) $f(x)=2\\sin^{-1}x+\\tan^{-1}x$<br />(b) $f'(x)=\\frac{2}{\\sqrt{1-x^2}}+\\frac{1}{1+x^2}$<br />(c) No $x\\in[0,1]$ satisfies $f'(x)=0$<br />(d) $M=\\begin{pmatrix}0&0\\\\1&\\frac{5\\pi}{4}\\end{pmatrix}$ and $\\det(M)=0$<br />(e) $\\sin\\left(\\frac{5\\pi}{8}\\right)$",
+    "D": "(a) $f(x)=\\tan^{-1}x$<br />(b) $f'(x)=\\frac{1}{1+x^2}$<br />(c) $f'(x)=0$ for all $x$<br />(d) $\\det(M)=-1$<br />(e) $0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:20:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a27aece233c5169a79c53c5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $\\frac{dy}{dx}=y~tan~x$ given that $y=2$ if $x=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rearrange the differential equation to group similar variables together on opposite sides: $\\frac{1}{y}dy = \\tan x \\, dx$.<br />**Step 2:** Integrate both sides: $\\int \\frac{1}{y}dy = \\int \\tan x \\, dx \\implies \\ln|y| = \\ln|\\sec x| + \\ln C \\implies y = C\\sec x$.<br />**Step 3:** Use the boundary condition $y=2$ when $x=0$ to find the constant: $2 = C\\sec(0) \\implies C = 2$. Therefore, the particular solution is $y = 2\\sec x$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

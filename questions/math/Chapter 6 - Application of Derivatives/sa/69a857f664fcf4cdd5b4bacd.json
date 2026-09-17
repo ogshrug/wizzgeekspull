@@ -1,0 +1,31 @@
+{
+  "id": "69a857f664fcf4cdd5b4bacd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a",
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "SA",
+  "question": "Find the intervals in which the function $f(x) = x^4 - 8x^2 + 18$ is strictly increasing or decreasing.",
+  "answeroption": "B",
+  "explanation": "$f'(x) = 4x^3 - 16x = 4x(x^2 - 4)$.<br /><br />Critical points: $x=-2, 0, 2$.<br /><br />Sign analysis shows:<br />For $x<-2$, $f'(x)<0$.<br />For $-2<x<0$, $f'(x)>0$.<br />For $0<x<2$, $f'(x)<0$.<br />For $x>2$, $f'(x)>0$.<br /><br />Therefore, strictly decreasing in $(-\\infty,-2)$ and $(0,2)$.<br /><br />Strictly increasing in $(-2,0)$ and $(2,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Strictly increasing on $(-\\infty,-2)$ and $(0,2)$; strictly decreasing on $(-2,0)$ and $(2,\\infty)$.",
+    "B": "Strictly decreasing on $(-\\infty,-2)$ and $(0,2)$; strictly increasing on $(-2,0)$ and $(2,\\infty)$.",
+    "C": "Strictly increasing on $(-\\infty,0)$ and strictly decreasing on $(0,\\infty)$.",
+    "D": "Strictly decreasing on $(-\\infty,\\infty)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:04:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

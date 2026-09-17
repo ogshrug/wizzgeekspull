@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe5e6be0ecc7866e90c7d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a5",
+    "6a13ebc98c819562f933f9a4"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematical family of functions is represented by $y=ae^{3x}+be^{-2x}$, where $a$ and $b$ are arbitrary constants. Since two independent arbitrary constants occur, the family contains infinitely many functions. The objective of a classroom exercise is to obtain one differential equation that is satisfied by every member of this family. For this purpose, the expression is differentiated successively, and the constants $a$ and $b$ are eliminated. After forming the required differential equation, the students also test the specific member $y=2e^{3x}-3e^{-2x}$ to confirm that it belongs to the same solution family.<br><br><b>(a)</b> Explain why $y=ae^{3x}+be^{-2x}$ may be regarded as a general solution containing two arbitrary constants.<br><br><b>(b)</b> Find $\\frac{dy}{dx}$ and $\\frac{d^2y}{dx^2}$ for the given family.<br><br><b>(c)</b> Eliminate $a$ and $b$ to form the differential equation represented by this general solution.<br><br><b>(d)</b> Verify that $y=2e^{3x}-3e^{-2x}$ satisfies the differential equation obtained in part (c).",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The expression $$y=ae^{3x}+be^{-2x}$$ contains two arbitrary constants $a$ and $b$. Different choices of these constants give different members of the solution family. Hence it represents a general solution involving two arbitrary constants.<br><br><b>(b)</b><br>Differentiating once, $$\\frac{dy}{dx}=3ae^{3x}-2be^{-2x}$$<br><br>Differentiating again, $$\\frac{d^2y}{dx^2}=9ae^{3x}+4be^{-2x}$$<br><br><b>(c)</b><br>Consider the expression $$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-6y$$<br><br>Substituting the expressions for $y$, $\\frac{dy}{dx}$ and $\\frac{d^2y}{dx^2}$, $$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-6y=9ae^{3x}+4be^{-2x}-3ae^{3x}+2be^{-2x}-6ae^{3x}-6be^{-2x}$$<br><br>The coefficients of both exponential terms become zero. Therefore, the required differential equation is $$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-6y=0$$<br><br>The arbitrary constants $a$ and $b$ have been eliminated.<br><br><b>(d)</b><br>For $y=2e^{3x}-3e^{-2x}$, $$\\frac{dy}{dx}=6e^{3x}+6e^{-2x}$$<br><br>and $$\\frac{d^2y}{dx^2}=18e^{3x}-12e^{-2x}$$<br><br>Substituting in the formed differential equation, $$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-6y=18e^{3x}-12e^{-2x}-6e^{3x}-6e^{-2x}-12e^{3x}+18e^{-2x}=0$$<br><br>Hence the given function satisfies the differential equation.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) The family contains two arbitrary constants $a,b$<br>(b) $y'=3ae^{3x}+2be^{-2x}$, $y''=9ae^{3x}-4be^{-2x}$<br>(c) $y''+y'-6y=0$<br>(d) $y=2e^{3x}-3e^{-2x}$ satisfies this equation",
+    "B": "(a) The family contains two arbitrary constants $a,b$<br>(b) $y'=3ae^{3x}-2be^{-2x}$, $y''=9ae^{3x}+4be^{-2x}$<br>(c) $y''-y'-6y=0$<br>(d) Substitution of $y=2e^{3x}-3e^{-2x}$ gives $0$",
+    "C": "(a) The family contains one arbitrary constant<br>(b) $y'=3ae^{3x}-2be^{-2x}$, $y''=9ae^{3x}+4be^{-2x}$<br>(c) $y''-6y=0$<br>(d) The stated member does not satisfy the equation",
+    "D": "(a) The family contains two arbitrary constants $a,b$<br>(b) $y'=3ae^{3x}-2be^{-2x}$, $y''=9ae^{3x}+4be^{-2x}$<br>(c) $y''+y'-6y=0$<br>(d) Substitution gives $12e^{3x}\\neq0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

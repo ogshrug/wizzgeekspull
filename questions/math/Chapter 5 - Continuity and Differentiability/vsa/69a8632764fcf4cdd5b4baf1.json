@@ -1,0 +1,30 @@
+{
+  "id": "69a8632764fcf4cdd5b4baf1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78",
+    "69c6610140512f018fa94d82"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f(x) = e^{|x|}$. Is $f(x)$ differentiable at $x=0$?",
+  "answeroption": "A",
+  "explanation": "For $x>0$, $f'(x)=e^{x}$.<br /><br />For $x<0$, $f'(x)=-e^{-x}$.<br /><br />Left derivative at $0$ is $-1$ and right derivative is $1$.<br /><br />Since they are not equal, the function is not differentiable at $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "No, $f(x)$ is not differentiable at $x=0$ because LHD $=-1$ and RHD $=1$",
+    "B": "Yes, $f(x)$ is differentiable at $x=0$ and $f'(0)=1$",
+    "C": "Yes, $f(x)$ is differentiable at $x=0$ and $f'(0)=0$",
+    "D": "No, $f(x)$ is not continuous at $x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:51:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

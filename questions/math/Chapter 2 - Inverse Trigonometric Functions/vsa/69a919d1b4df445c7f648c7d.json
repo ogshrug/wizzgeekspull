@@ -1,0 +1,29 @@
+{
+  "id": "69a919d1b4df445c7f648c7d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "VSA",
+  "question": "Find the value of $\\sin^{-1}(\\sin 2)$.",
+  "answeroption": "B",
+  "explanation": "The principal value range of $\\sin^{-1}x$ is $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$.<br /><br />Since $2$ radians lies in $\\left[\\frac{\\pi}{2},\\frac{3\\pi}{2}\\right]$, we use the identity $\\sin^{-1}(\\sin\\theta)=\\pi-\\theta$ for such values.<br /><br />Thus, $\\sin^{-1}(\\sin 2)=\\pi-2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2$",
+    "B": "$\\pi - 2$",
+    "C": "$2 - \\pi$",
+    "D": "$-2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 05:51:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

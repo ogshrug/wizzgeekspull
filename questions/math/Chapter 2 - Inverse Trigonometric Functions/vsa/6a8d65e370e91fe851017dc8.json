@@ -1,0 +1,29 @@
+{
+  "id": "6a8d65e370e91fe851017dc8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the domain of $f(x)=\\operatorname{cosec}^{-1}\\left(\\frac{x+2}{3}\\right)$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b><br>The inverse cosecant function $\\operatorname{cosec}^{-1}u$ is defined when $|u|\\geq1$.<br><br><b>Step 2:</b><br>Applying this condition to the given argument gives $$\\left|\\frac{x+2}{3}\\right|\\geq1.$$ Since $3$ is positive, this is equivalent to $$|x+2|\\geq3.$$<br><br><b>Step 3:</b><br>The absolute-value inequality gives two cases: $$x+2\\leq-3\\quad\\text{or}\\quad x+2\\geq3.$$<br><br><b>Step 4:</b><br>Solving them gives $x\\leq-5$ or $x\\geq1$. The boundary values are included because the arguments $-1$ and $1$ are valid.<br><br><b>Final Answer:</b><br>The domain is $$(-\\infty,-5]\\cup[1,\\infty).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(-\\infty,-5]\\cup[1,\\infty)$",
+    "B": "$[-5,1]$",
+    "C": "$(-\\infty,-5)\\cup(1,\\infty)$",
+    "D": "$(-\\infty,-1]\\cup[5,\\infty)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

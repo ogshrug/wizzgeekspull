@@ -1,0 +1,29 @@
+{
+  "id": "6a214c70864be73cfcf6d0fc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9ab"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following differential equation : $x\\frac{dy}{dx}=y-x~sin^{2}(\\frac{y}{x})$, given that $y(1)=\\frac{\\pi}{6}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** This is a homogeneous equation. Divide both sides by $x$ to form: $\\frac{dy}{dx} = \\frac{y}{x} - sin^2(\\frac{y}{x})$.<br /><br />**Step 2:** Apply the standard substitution $y = vx$, which implies $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br /><br />**Step 3:** Substitute into the equation: $v + x\\frac{dv}{dx} = v - sin^2(v)$.<br /><br />**Step 4:** Cancel $v$ and separate variables: $x\\frac{dv}{dx} = -sin^2(v) \\implies -csc^2(v)dv = \\frac{dx}{x}$.<br /><br />**Step 5:** Integrate both sides: $\\int -csc^2(v)dv = \\int \\frac{dx}{x} \\implies cot(v) = log|x| + C$.<br /><br />**Step 6:** Revert to original variables: $cot(\\frac{y}{x}) = log|x| + C$. Apply $y(1) = \\pi/6$ to find $C$: $cot(\\pi/6) = log(1) + C \\implies C = \\sqrt{3}$. The particular solution is $cot(\\frac{y}{x}) = log|x| + \\sqrt{3}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

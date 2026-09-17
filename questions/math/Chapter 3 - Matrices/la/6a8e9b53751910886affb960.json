@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9b53751910886affb960",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "LA",
+  "question": "Determine the values of $x$, $y$ and $z$ for which the matrix $$A=\\begin{bmatrix}0&x+1&2y\\\\x-5&0&z-2\\\\4-y&z+1&0\\end{bmatrix}$$ is skew-symmetric, and verify the obtained matrix using its transpose.",
+  "answeroption": "A",
+  "explanation": "<b>Required Condition</b><br><br>A square matrix $A$ is skew-symmetric when $A'=-A$. Therefore, elements situated symmetrically about the principal diagonal must be negatives of each other.<br><br>From the first and second rows, $$x+1=-(x-5)$$ which gives $x+1=5-x$, so $2x=4$ and hence $x=2$. Similarly, $$2y=-(4-y)$$ gives $2y=y-4$, so $y=-4$. Also, $$z-2=-(z+1)$$ gives $z-2=-z-1$, so $2z=1$ and hence $z=\\frac{1}{2}$.<br><br><b>Verification</b><br><br>Substituting these values, $$A=\\begin{bmatrix}0&3&-8\\\\-3&0&-\\frac{3}{2}\\\\8&\\frac{3}{2}&0\\end{bmatrix}$$ Its transpose is $$A'=\\begin{bmatrix}0&-3&8\\\\3&0&\\frac{3}{2}\\\\-8&-\\frac{3}{2}&0\\end{bmatrix}$$ Also, $$-A=\\begin{bmatrix}0&-3&8\\\\3&0&\\frac{3}{2}\\\\-8&-\\frac{3}{2}&0\\end{bmatrix}$$ Thus $A'=-A$. Therefore, $x=2$, $y=-4$ and $z=\\frac{1}{2}$ make the matrix skew-symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=2,\\ y=-4,\\ z=\\frac{1}{2}$",
+    "B": "$x=-2,\\ y=4,\\ z=\\frac{1}{2}$",
+    "C": "$x=2,\\ y=-4,\\ z=-\\frac{1}{2}$",
+    "D": "$x=3,\\ y=-4,\\ z=\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

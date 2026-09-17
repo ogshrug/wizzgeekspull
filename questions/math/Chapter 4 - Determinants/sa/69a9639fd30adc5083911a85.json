@@ -1,0 +1,30 @@
+{
+  "id": "69a9639fd30adc5083911a85",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "SA",
+  "question": "If $|P| = |Q| = 1$, then prove that $adj(Q^{-1}P^{-1}) = PQ$.",
+  "answeroption": "C",
+  "explanation": "We know that: $adj(A) = |A| \\cdot A^{-1}$<br /><br />So: $adj(Q^{-1}P^{-1}) = |Q^{-1}P^{-1}| \\cdot (Q^{-1}P^{-1})^{-1}$<br /><br />First: $|Q^{-1}P^{-1}| = |Q^{-1}| \\cdot |P^{-1}| = \\frac{1}{|Q|} \\cdot \\frac{1}{|P|} = 1 \\cdot 1 = 1$<br /><br />Second: $(Q^{-1}P^{-1})^{-1} = (P^{-1})^{-1}(Q^{-1})^{-1} = PQ$<br /><br />Therefore: $adj(Q^{-1}P^{-1}) = 1 \\cdot PQ = PQ$",
+  "explanation_image": [],
+  "options": {
+    "A": "Since $|P|=|Q|=1$, $adj(Q^{-1}P^{-1})=QP$.",
+    "B": "Since $|Q^{-1}P^{-1}|=1$, $adj(Q^{-1}P^{-1})=(Q^{-1}P^{-1})=Q^{-1}P^{-1}$.",
+    "C": "Since $adj(A)=|A|A^{-1}$ and $|Q^{-1}P^{-1}|=1$, we get $adj(Q^{-1}P^{-1})=(Q^{-1}P^{-1})^{-1}=PQ$.",
+    "D": "Since $adj(A)=|A|A$, we get $adj(Q^{-1}P^{-1})=Q^{-1}P^{-1}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:06:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

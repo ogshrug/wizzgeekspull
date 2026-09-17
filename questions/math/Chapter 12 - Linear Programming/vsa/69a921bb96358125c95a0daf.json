@@ -1,0 +1,29 @@
+{
+  "id": "69a921bb96358125c95a0daf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "VSA",
+  "question": "Given constraints $x\\geq0$, $y\\geq0$, $x+y\\leq6$, $x+2y\\leq8$, where does $Z=2x+y$ achieve its maximum?",
+  "answeroption": "D",
+  "explanation": "Corner points of the feasible region are $(0,0)$, $(0,4)$, $(6,0)$ and the intersection of $x+y=6$ and $x+2y=8$.<br /><br />Solve $x+y=6$ and $x+2y=8$.<br /><br />Subtract: $(x+2y)-(x+y)=y=2$.<br /><br />Then $x+2=6 \\Rightarrow x=4$.<br /><br />So intersection point is $(4,2)$.<br /><br />Evaluate $Z=2x+y$.<br /><br />$(0,0):0$.<br /><br />$(0,4):4$.<br /><br />$(6,0):12$.<br /><br />$(4,2):10$.<br /><br />Maximum value occurs at $(6,0)$ with $Z=12$.",
+  "explanation_image": [],
+  "options": {
+    "A": "At $(0,4)$ with $Z=4$",
+    "B": "At $(4,2)$ with $Z=10$",
+    "C": "At $(0,0)$ with $Z=0$",
+    "D": "At $(6,0)$ with $Z=12$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:24:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed6d44b490c7cde35948c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f"
+  ],
+  "question_type": "SA",
+  "question": "Using the linear approximation of $f(x)=\\sqrt{x}$ about $x=36$, estimate $\\sqrt{36.5}$ correct to four decimal places.",
+  "answeroption": "B",
+  "explanation": "<b>Linear approximation formula</b><br>For $x$ close to $a$,<br>$$f(x)\\approx f(a)+f'(a)(x-a)$$<br><b>Choice of the nearby value</b><br>Take $f(x)=\\sqrt{x}$ and $a=36$. Then<br>$$f(36)=6$$<br><b>Derivative at the nearby value</b><br>$$f'(x)=\\frac{1}{2\\sqrt{x}}$$<br>Therefore,<br>$$f'(36)=\\frac{1}{12}$$<br><b>Application of the approximation</b><br>Since $36.5-36=0.5$,<br>$$\\sqrt{36.5}\\approx6+\\frac{1}{12}(0.5)=6+\\frac{1}{24}$$<br><b>Conclusion</b><br>Thus, $\\sqrt{36.5}\\approx6.0417$ correct to four decimal places.",
+  "explanation_image": [],
+  "options": {
+    "A": "$6.0833$",
+    "B": "$6.0417$",
+    "C": "$6.0042$",
+    "D": "$6.0500$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a970356638848124d7c92a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\mathbb{R} \\setminus \\{0\\}$ and define $f : A \\to \\mathbb{R}$ as $f(x) = \\dfrac{x^2 + 1}{x}$.<br /><br />(a) Prove that $f$ is neither one-one nor onto.<br /><br />(b) Find the range of $f$.",
+  "answeroption": "D",
+  "explanation": "Suppose $f(x_1)=f(x_2)$. <br /><br />$\\frac{x_1^2+1}{x_1}=\\frac{x_2^2+1}{x_2}$. <br /><br />Cross multiplying gives $(x_1^2+1)x_2=(x_2^2+1)x_1$. <br /><br />This simplifies to $(x_2-x_1)(1-x_1x_2)=0$. <br /><br />Thus either $x_1=x_2$ or $x_1x_2=1$. <br /><br />When $x_1x_2=1$ with $x_1 \\ne x_2$, we get $f(x_1)=f(x_2)$. Hence $f$ is not one-one. <br /><br />For surjectivity, let $y=f(x)$. Then $y=\\frac{x^2+1}{x}$ implies $x^2-yx+1=0$. <br /><br />For real $x$, the discriminant must satisfy $y^2-4 \\ge 0$. <br /><br />Thus $|y| \\ge 2$. Hence values with $|y|<2$ are not obtained, so $f$ is not onto $\\mathbb{R}$. <br /><br />Therefore the range of $f$ is $(-\\infty,-2] \\cup [2,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is one-one and onto.<br />(b) Range of $f$ is $\\mathbb{R}$.",
+    "B": "(a) $f$ is one-one but not onto.<br />(b) Range of $f$ is $[0,\\infty)$.",
+    "C": "(a) $f$ is onto but not one-one.<br />(b) Range of $f$ is $(-1,1)$.",
+    "D": "(a) $f$ is neither one-one nor onto because $f(x_1)=f(x_2)$ can occur when $x_1x_2=1$, and no values with $|y|<2$ are obtained.<br />(b) Range of $f$ is $(-\\infty,-2]\\cup[2,\\infty)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:59:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

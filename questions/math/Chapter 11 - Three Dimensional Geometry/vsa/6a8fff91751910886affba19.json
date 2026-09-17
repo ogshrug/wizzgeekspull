@@ -1,0 +1,29 @@
+{
+  "id": "6a8fff91751910886affba19",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "VSA",
+  "question": "A line has direction ratios $2,1,2$. Determine the acute angle made by it with the plane $2x-y+2z=5$.",
+  "answeroption": "D",
+  "explanation": "Step 1: The direction vector of the line is $\\vec{b}=(2,1,2)$. A normal vector to the plane $2x-y+2z=5$ is $\\vec{n}=(2,-1,2)$. Step 2: If $\\phi$ is the acute angle between a line and a plane, then $$\\sin\\phi=\\frac{|\\vec{b}\\cdot\\vec{n}|}{|\\vec{b}||\\vec{n}|}.$$ Step 3: The scalar product is $2(2)+1(-1)+2(2)=7$. Step 4: Also, $|\\vec{b}|=\\sqrt{4+1+4}=3$ and $|\\vec{n}|=\\sqrt{4+1+4}=3$. Step 5: Hence, $$\\sin\\phi=\\frac{7}{9}.$$ Therefore, the required acute angle between the line and the plane is $$\\phi=\\sin^{-1}\\left(\\frac{7}{9}\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cos^{-1}\\left(\\frac{7}{9}\\right)$",
+    "B": "$\\sin^{-1}\\left(\\frac{4}{9}\\right)$",
+    "C": "$\\cos^{-1}\\left(\\frac{2}{9}\\right)$",
+    "D": "$\\sin^{-1}\\left(\\frac{7}{9}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

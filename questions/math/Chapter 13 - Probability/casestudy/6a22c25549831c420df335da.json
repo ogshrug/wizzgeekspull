@@ -1,0 +1,30 @@
+{
+  "id": "6a22c25549831c420df335da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Self-study helps students to build confidence in learning. It boosts the self-esteem of the learners. Recent surveys suggested that close to 50% learners were self-taught using internet resources and upskilled themselves.<br /><br />A student may spend 1 hour to 6 hours in a day in upskilling self. The probability distribution of the number of hours spent by a student is given below:<br />$P(X=x)=\\begin{cases}kx^{2},&for~x=1,2,3\\\\2kx,&for~x=4,5,6\\\\0,&otherwise\\end{cases}$<br />where $x$ denotes the number of hours.<br /><br />Based on the above information, answer the following questions :<br />**(i)** Express the probability distribution given above in the form of a probability distribution table.<br />**(ii)** Find the value of k.<br />**(iii) (a)** Find the mean number of hours spent by the student.<br /><br />**OR**<br /><br />**(iii) (b)** Find $P(1<X<6)$.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Substitute $x = 1, 2, 3, 4, 5, 6$ into the given functional distribution rules to find individual values: $P(1)=k, P(2)=4k, P(3)=9k, P(4)=8k, P(5)=10k, P(6)=12k$.<br /><br />**(ii)** **Step 1:** Since the total sum of probabilities in a valid probability distribution equals 1, sum all the expressions: $k + 4k + 9k + 8k + 10k + 12k = 1$.<br />**Step 2:** Combine like terms: $44k = 1 \\implies k = \\frac{1}{44}$.<br /><br />**(iii) (a)** **Step 1:** The mean value formula is defined as $\\mu = \\sum x \\cdot P(x)$. Expansion yields: $1(k) + 2(4k) + 3(9k) + 4(8k) + 5(10k) + 6(12k) = 190k$.<br />**Step 2:** Substitute the calculated value of $k = \\frac{1}{44}$: $\\mu = \\frac{190}{44} = \\frac{95}{22}$.<br /><br />**OR**<br /><br />**(iii) (b)** **Step 1:** The required continuous inequality probability translates to the sum: $P(1<X<6) = P(2) + P(3) + P(4) + P(5)$.<br />**Step 2:** Substitute the corresponding multiples of $k$: $4k + 9k + 8k + 10k = 31k$. Substituting $k = \\frac{1}{44}$ yields $\\frac{31}{44}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1",
+    "2024-3-2",
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22c25549831c420df335da/1782262574-0.png?t=1782282375167"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

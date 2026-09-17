@@ -1,0 +1,28 @@
+{
+  "id": "6a22b3affbdd87b6dea73c06",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the foot of the perpendicular drawn from the point (1, 1, 4) on the line $\\frac{x+2}{5}=\\frac{y+1}{2}=\\frac{-z+4}{-3}$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> First, rewrite the line equation in standard form by adjusting the sign of the third term: $\\frac{x+2}{5} = \\frac{y+1}{2} = \\frac{z-4}{3} = \\lambda$. We can express any general point $N$ on this line in terms of the scalar parameter $\\lambda$: $N(5\\lambda - 2, 2\\lambda - 1, 3\\lambda + 4)$. Let $N$ represent the foot of the perpendicular from point $P(1, 1, 4)$.<br /><br /><b>Step 2</b> Find the direction ratios of the line segment $PN$ by subtracting the coordinates of $P$ from the coordinates of $N$: $\\text{DRs} = ((5\\lambda - 2) - 1, (2\\lambda - 1) - 1, (3\\lambda + 4) - 4) = (5\\lambda - 3, 2\\lambda - 2, 3\\lambda)$.<br /><br /><b>Step 3</b> Since the segment $PN$ is perpendicular to the given line, their respective direction ratios must satisfy the orthogonality condition: $a_1 a_2 + b_1 b_2 + c_1 c_2 = 0$. The direction ratios of the line are $(5, 2, 3)$.<br /><br /><b>Step 4</b> Substitute these into the orthogonality equation to solve for $\\lambda$: $5(5\\lambda - 3) + 2(2\\lambda - 2) + 3(3\\lambda) = 0 \\implies 25\\lambda - 15 + 4\\lambda - 4 + 9\\lambda = 0 \\implies 38\\lambda - 19 = 0 \\implies \\lambda = \\frac{19}{38} = \\frac{1}{2}$.<br /><br /><b>Step 5</b> Substitute $\\lambda = \\frac{1}{2}$ back into our expression for the coordinates of point $N$: $x = 5\\left(\\frac{1}{2}\\right) - 2 = \\frac{1}{2}$, $y = 2\\left(\\frac{1}{2}\\right) - 1 = 0$, and $z = 3\\left(\\frac{1}{2}\\right) + 4 = \\frac{11}{2}$. Thus, the foot of the perpendicular is $\\left(\\frac{1}{2}, 0, \\frac{11}{2}\\right)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

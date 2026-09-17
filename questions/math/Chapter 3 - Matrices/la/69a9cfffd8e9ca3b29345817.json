@@ -1,0 +1,30 @@
+{
+  "id": "69a9cfffd8e9ca3b29345817",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55",
+    "69c65fc040512f018fa94d63"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$ be a $2\\times 2$ matrix such that $A^2 = 5A - 6I$, where $I$ is the $2\\times 2$ identity matrix. If $A = \\begin{bmatrix} 1 & 2 \\\\ -2 & -3 \\end{bmatrix}$, verify the equation and hence find $A^{-1}$ using the equation. Explain your reasoning and computation in detail.",
+  "answeroption": "D",
+  "explanation": "First compute $A^2$.<br /><br />$A^2 = \\begin{bmatrix} 1 & 2 \\\\ -2 & -3 \\end{bmatrix}\\begin{bmatrix} 1 & 2 \\\\ -2 & -3 \\end{bmatrix} = \\begin{bmatrix} -3 & -4 \\\\ 4 & 5 \\end{bmatrix}$.<br /><br />Compute $5A = \\begin{bmatrix} 5 & 10 \\\\ -10 & -15 \\end{bmatrix}$.<br /><br />Compute $6I = \\begin{bmatrix} 6 & 0 \\\\ 0 & 6 \\end{bmatrix}$.<br /><br />Thus $5A - 6I = \\begin{bmatrix} -1 & 10 \\\\ -10 & -21 \\end{bmatrix}$.<br /><br />Using the matrix equation $A^2 - 5A + 6I = O$.<br /><br />Rearranging gives $A(A - 5I) = -6I$.<br /><br />Thus $A^{-1} = \\frac{1}{6}(A - 5I)$.<br /><br />Compute $A - 5I = \\begin{bmatrix} -4 & 2 \\\\ -2 & -8 \\end{bmatrix}$.<br /><br />Therefore $A^{-1} = \\frac{1}{6}\\begin{bmatrix} -4 & 2 \\\\ -2 & -8 \\end{bmatrix} = \\begin{bmatrix} -\\frac{2}{3} & \\frac{1}{3} \\\\ -\\frac{1}{3} & -\\frac{4}{3} \\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The equation is verified and $A^{-1}=\\frac16(A-5I)=\\begin{bmatrix}-\\frac23&\\frac13\\\\-\\frac13&-\\frac43\\end{bmatrix}$.",
+    "B": "The equation is verified and $A^{-1}=\\begin{bmatrix}1&2\\\\-2&-3\\end{bmatrix}$.",
+    "C": "The equation is not verified and $A$ is not invertible.",
+    "D": "For the given $A$, $A^2=\\begin{bmatrix}-3&-4\\\\4&5\\end{bmatrix}$ but $5A-6I=\\begin{bmatrix}-1&10\\\\-10&-21\\end{bmatrix}$, so the stated equation is not verified; the actual inverse is $A^{-1}=\\begin{bmatrix}-3&-2\\\\2&1\\end{bmatrix}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:48:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

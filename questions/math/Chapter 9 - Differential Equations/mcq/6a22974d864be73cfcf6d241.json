@@ -1,0 +1,32 @@
+{
+  "id": "6a22974d864be73cfcf6d241",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "MCQ",
+  "question": "The differential equation $\\frac{dy}{dx}=F(x,y)$ will not be a homogeneous differential equation, if $F(x,y)$ is :",
+  "answeroption": "A",
+  "explanation": "**Step 1:** A differential equation $\\frac{dy}{dx} = F(x, y)$ is homogeneous if the function $F(x, y)$ is a homogeneous function of degree zero. This means $F(\\lambda x, \\lambda y) = \\lambda^0 F(x, y) = F(x, y)$ for any non-zero constant $\\lambda$.<br />**Step 2:** Let's test the options. Option B: $F(x,y) = \\frac{y}{x}$. $F(\\lambda x, \\lambda y) = \\frac{\\lambda y}{\\lambda x} = \\frac{y}{x}$. It is homogeneous.<br />**Step 3:** Option C: $F(x,y) = \\frac{x^2+y^2}{xy}$. $F(\\lambda x, \\lambda y) = \\frac{\\lambda^2 x^2 + \\lambda^2 y^2}{\\lambda x \\lambda y} = \\frac{\\lambda^2(x^2+y^2)}{\\lambda^2 xy} = \\frac{x^2+y^2}{xy}$. It is homogeneous.<br />**Step 4:** Option D: $F(x,y) = \\cos^2(\\frac{x}{y})$. $F(\\lambda x, \\lambda y) = \\cos^2(\\frac{\\lambda x}{\\lambda y}) = \\cos^2(\\frac{x}{y})$. It is homogeneous.<br />**Step 5:** Option A: $F(x,y) = \\cos x - \\sin(\\frac{y}{x})$. $F(\\lambda x, \\lambda y) = \\cos(\\lambda x) - \\sin(\\frac{\\lambda y}{\\lambda x}) = \\cos(\\lambda x) - \\sin(\\frac{y}{x})$. Because of the $\\cos(\\lambda x)$ term, it is not equal to $F(x,y)$. Thus, it is not a homogeneous function.",
+  "explanation_image": [],
+  "options": {
+    "A": "$cos~x-sin(\\frac{y}{x})$",
+    "B": "$\\frac{y}{x}$",
+    "C": "$\\frac{x^{2}+y^{2}}{xy}$",
+    "D": "$cos^{2}(\\frac{x}{y})$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

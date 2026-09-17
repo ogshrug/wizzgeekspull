@@ -1,0 +1,29 @@
+{
+  "id": "69a95be9589ce36f368b47d7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "VSA",
+  "question": "Given the differential equation $\\left( x^2 + y^2 \\right) \\dfrac{dy}{dx} = 2xy$, show whether this equation is homogeneous and briefly justify your answer.",
+  "answeroption": "D",
+  "explanation": "The equation is $\\left(x^2 + y^2\\right)\\dfrac{dy}{dx} = 2xy$.<br /><br />Rewriting: $\\dfrac{dy}{dx} = \\dfrac{2xy}{x^2 + y^2}$.<br /><br />Let $y = vx$ so $\\dfrac{dy}{dx} = v + x\\dfrac{dv}{dx}$.<br /><br />RHS: $\\dfrac{2x(vx)}{x^2 + (vx)^2} = \\dfrac{2v}{1+v^2}$, which is a function of $v$ only.<br /><br />Therefore, the equation is homogeneous.",
+  "explanation_image": [],
+  "options": {
+    "A": "Not homogeneous, because $x^2+y^2$ has degree $2$",
+    "B": "Not homogeneous, because $\\frac{dy}{dx}$ appears in the equation",
+    "C": "Homogeneous only when $x=y$",
+    "D": "Homogeneous, because $\\dfrac{2xy}{x^2+y^2}$ is a function of $\\dfrac{y}{x}$ only"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:33:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

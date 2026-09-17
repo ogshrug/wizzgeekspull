@@ -1,0 +1,29 @@
+{
+  "id": "6a8e977c4b490c7cde359418",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc140512f018fa94d65"
+  ],
+  "question_type": "SA",
+  "question": "For $$A=\\begin{bmatrix}1 & 1 \\\\ 0 & 1\\end{bmatrix},\\quad B=\\begin{bmatrix}1 & -1 \\\\ 0 & 1\\end{bmatrix},\\quad C=\\begin{bmatrix}1 & k \\\\ 0 & 1\\end{bmatrix},$$ suppose both $B$ and $C$ are inverses of $A$. Determine $k$ and hence verify that the two inverses are identical.",
+  "answeroption": "B",
+  "explanation": "<b>Condition for $C$ to be an inverse</b><br>$$AC=\\begin{bmatrix}1 & 1 \\\\ 0 & 1\\end{bmatrix}\\begin{bmatrix}1 & k \\\\ 0 & 1\\end{bmatrix}=\\begin{bmatrix}1 & k+1 \\\\ 0 & 1\\end{bmatrix}$$<br>Since $C$ is an inverse of $A$, $AC=I$. Therefore, $$k+1=0\\Rightarrow k=-1$$<br><b>Comparison with $B$</b><br>Substituting $k=-1$, $$C=\\begin{bmatrix}1 & -1 \\\\ 0 & 1\\end{bmatrix}=B$$<br><b>Uniqueness verification</b><br>Thus, the two matrices claimed to be inverses are identical, in agreement with the uniqueness of the inverse.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=1$, so $C=\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}=A$.",
+    "B": "$k=-1$, so $C=\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}=B$.",
+    "C": "$k=0$, so $C=I_2$ and $C\\ne B$.",
+    "D": "$k=-2$, so $C=\\begin{bmatrix}1&-2\\\\0&1\\end{bmatrix}=B$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

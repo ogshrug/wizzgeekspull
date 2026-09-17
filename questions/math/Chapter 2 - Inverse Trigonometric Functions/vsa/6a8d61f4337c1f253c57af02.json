@@ -1,0 +1,29 @@
+{
+  "id": "6a8d61f4337c1f253c57af02",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "VSA",
+  "question": "Find the principal value of $\\tan^{-1}\\left(\\tan\\frac{7\\pi}{6}\\right)$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b><br>The principal value range of $\\tan^{-1}x$ is $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$.<br><br><b>Step 2:</b><br>The given angle $\\frac{7\\pi}{6}$ lies outside this interval. Therefore, an equivalent angle lying in the principal value range must be identified.<br><br><b>Step 3:</b><br>Since the tangent function has period $\\pi$, we use $\\tan(\\theta-\\pi)=\\tan\\theta$. Thus, $$\\tan\\frac{7\\pi}{6}=\\tan\\left(\\frac{7\\pi}{6}-\\pi\\right)=\\tan\\frac{\\pi}{6}.$$<br><br><b>Step 4:</b><br>The angle $\\frac{\\pi}{6}$ lies in $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$. Hence, it is the principal value.<br><br><b>Final Answer:</b><br>$$\\tan^{-1}\\left(\\tan\\frac{7\\pi}{6}\\right)=\\frac{\\pi}{6}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{6}$",
+    "B": "$\\frac{7\\pi}{6}$",
+    "C": "$-\\frac{5\\pi}{6}$",
+    "D": "$-\\frac{\\pi}{6}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

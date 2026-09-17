@@ -1,0 +1,27 @@
+{
+  "id": "6a3112e6ed9d5eb2aa722a0d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8bc",
+    "6a13e767d837c8c7efa6b8c4"
+  ],
+  "question_type": "VSA",
+  "question": "If points A, B and C have position vectors $2\\hat{i}$, $\\hat{j}$ and $2\\hat{k}$ respectively, then show that $\\Delta ABC$ is an isosceles triangle.",
+  "answeroption": "",
+  "explanation": "**Step 1: Find the Side Vectors**  \nPosition vectors:  \n$\\vec{OA} = 2\\hat{i}$, $\\vec{OB} = \\hat{j}$, $\\vec{OC} = 2\\hat{k}$  \nSide vectors:  \n$\\vec{AB} = \\vec{OB} - \\vec{OA} = \\hat{j} - 2\\hat{i} = -2\\hat{i} + \\hat{j}$  \n$\\vec{BC} = \\vec{OC} - \\vec{OB} = 2\\hat{k} - \\hat{j} = -\\hat{j} + 2\\hat{k}$  \n$\\vec{CA} = \\vec{OA} - \\vec{OC} = 2\\hat{i} - 2\\hat{k} = 2\\hat{i} - 2\\hat{k}$<br /><br />**Step 2: Calculate the Lengths of Each Side**  \n$|\\vec{AB}| = \\sqrt{(-2)^2 + 1^2 + 0^2} = \\sqrt{4 + 1} = \\sqrt{5}$  \n$|\\vec{BC}| = \\sqrt{0^2 + (-1)^2 + 2^2} = \\sqrt{1 + 4} = \\sqrt{5}$  \n$|\\vec{CA}| = \\sqrt{2^2 + 0^2 + (-2)^2} = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}$<br /><br />**Step 3: Conclusion**  \nSince $|\\vec{AB}| = |\\vec{BC}| = \\sqrt{5}$, two sides of the triangle are equal.  \nTherefore, $\\Delta ABC$ is an isosceles triangle.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

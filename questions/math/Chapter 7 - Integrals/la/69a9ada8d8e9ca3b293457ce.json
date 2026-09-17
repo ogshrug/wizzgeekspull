@@ -1,0 +1,29 @@
+{
+  "id": "69a9ada8d8e9ca3b293457ce",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int \\frac{3x+4}{x^2+4x+10} dx$ using an appropriate combination of substitution and algebraic manipulation.",
+  "answeroption": "D",
+  "explanation": "Rewrite the numerator in relation to the derivative of the denominator.<br /><br />Denominator: $x^2+4x+10$ and its derivative is $2x+4$.<br /><br />Split the integral: $\\int \\frac{2x+4}{x^2+4x+10}dx + \\int \\frac{x}{x^2+4x+10}dx$.<br /><br />For the first integral let $u=x^2+4x+10$, then $du=2x+4\\,dx$. Thus $\\int \\frac{2x+4}{x^2+4x+10}dx = \\ln|x^2+4x+10|$.<br /><br />For the second integral write $x=(x+2)-2$ and split again.<br /><br />Using substitution and standard integrals we obtain $\\frac{1}{2}\\ln(x^2+4x+10) - \\tan^{-1}\\left(\\frac{x+2}{\\sqrt6}\\right)$.<br /><br />Combining the logarithmic terms gives the final result:<br /><br />$\\frac{3}{2}\\ln(x^2+4x+10) - \\tan^{-1}\\left(\\frac{x+2}{\\sqrt6}\\right) + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{2}\\ln(x^2+4x+10)+\\tan^{-1}\\left(\\frac{x+2}{\\sqrt6}\\right)+C$",
+    "B": "$\\frac{1}{2}\\ln(x^2+4x+10)-\\tan^{-1}\\left(\\frac{x+2}{\\sqrt6}\\right)+C$",
+    "C": "$\\ln(x^2+4x+10)-\\tan^{-1}\\left(\\frac{x+2}{\\sqrt6}\\right)+C$",
+    "D": "$\\frac{3}{2}\\ln(x^2+4x+10)-\\tan^{-1}\\left(\\frac{x+2}{\\sqrt6}\\right)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:22:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc3e04b490c7cde3594f4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f988"
+  ],
+  "question_type": "LA",
+  "question": "A function $F$ satisfies $F'(x)=3x^2-4x+\\sec^2 x$ for all $x$ in its domain and $F(0)=5$. Determine $F(x)$ by using integration as the inverse process of differentiation and verify that the function obtained satisfies the given derivative and initial condition.",
+  "answeroption": "A",
+  "explanation": "Since integration is the inverse process of differentiation, an antiderivative of $F'(x)$ gives the required function together with an arbitrary constant. Thus,<br><br>$$F(x)=\\int \\left(3x^2-4x+\\sec^2 x\\right)dx$$<br><br>Using the standard antiderivatives $\\int x^n dx=\\frac{x^{n+1}}{n+1}+C$ for $n\\neq -1$ and $\\int \\sec^2 x\\,dx=\\tan x+C$, we obtain<br><br>$$F(x)=x^3-2x^2+\\tan x+C$$<br><br>The condition $F(0)=5$ gives<br><br>$$5=0-0+\\tan 0+C=C$$<br><br>Therefore, $C=5$ and hence<br><br>$$F(x)=x^3-2x^2+\\tan x+5$$<br><br><b>Verification</b><br><br>Differentiating the obtained function,<br><br>$$F'(x)=3x^2-4x+\\sec^2 x$$<br><br>which is exactly the given derivative. Also,<br><br>$$F(0)=0-0+0+5=5$$<br><br>Thus, the function satisfying both the derivative and the given condition is $F(x)=x^3-2x^2+\\tan x+5$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$F(x)=x^3-2x^2+\\tan x+5$",
+    "B": "$F(x)=x^3-4x^2+\\tan x+5$",
+    "C": "$F(x)=x^3-2x^2+\\sec x+5$",
+    "D": "$F(x)=x^3-2x^2+\\tan x-5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

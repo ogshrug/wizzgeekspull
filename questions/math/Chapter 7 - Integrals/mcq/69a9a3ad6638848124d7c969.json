@@ -1,0 +1,29 @@
+{
+  "id": "69a9a3ad6638848124d7c969",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "Evaluate $\\int_0^1 \\frac{\\log(1+x)}{1+x^2}dx$.",
+  "answeroption": "A",
+  "explanation": "Let $x=\\tan\\theta$, $dx=\\sec^2\\theta d\\theta$, $1+x^2=\\sec^2\\theta$.<br /><br />Limits change from $0$ to $\\pi/4$.<br /><br />Integral becomes $\\int_0^{\\pi/4} \\log(1+\\tan\\theta)d\\theta$.<br /><br />Known result: $\\int_0^{\\pi/4}\\log(1+\\tan x)dx=\\frac{\\pi}{8}\\log2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{8}\\log2$",
+    "B": "$\\frac{\\pi}{8}$",
+    "C": "$\\frac{\\pi}{4}\\log2$",
+    "D": "$\\frac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:39:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

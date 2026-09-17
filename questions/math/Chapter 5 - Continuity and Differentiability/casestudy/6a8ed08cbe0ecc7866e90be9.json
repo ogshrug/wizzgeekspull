@@ -1,0 +1,32 @@
+{
+  "id": "6a8ed08cbe0ecc7866e90be9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7c",
+    "69c6610140512f018fa94d7d",
+    "69c6610140512f018fa94d7e"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom investigation, students compare the rates of change of three inverse trigonometric functions on their common interval of differentiability. They define $p(x)=\\sin^{-1}x$, $q(x)=\\cos^{-1}x$ and $r(x)=\\tan^{-1}x$ for $-1<x<1$. Their objective is to prepare a derivative comparison table and examine how the derivatives behave at selected values of $x$. They also investigate combinations of these derivatives to determine whether certain expressions have zero derivative or whether two derivatives can cancel each other at a particular point.<br><br><b>(a)</b> Find $p'(x)$, $q'(x)$ and $r'(x)$.<br><br><b>(b)</b> Evaluate $p'(0)$, $q'(0)$ and $r'(0)$.<br><br><b>(c)</b> Determine the derivative of $p(x)+q(x)$ for $-1<x<1$.<br><br><b>(d)</b> Find all $x\\in(-1,1)$ for which $q'(x)+r'(x)=0$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The derivatives are<br><br>$$p'(x)=\\frac{1}{\\sqrt{1-x^2}},\\quad -1<x<1,$$<br><br>$$q'(x)=-\\frac{1}{\\sqrt{1-x^2}},\\quad -1<x<1,$$<br><br>and<br><br>$$r'(x)=\\frac{1}{1+x^2},\\quad x\\in\\mathbb{R}.$$<br><br><b>(b)</b><br>At $x=0$,<br><br>$$p'(0)=\\frac{1}{\\sqrt{1-0}}=1,$$<br><br>$$q'(0)=-\\frac{1}{\\sqrt{1-0}}=-1,$$<br><br>and<br><br>$$r'(0)=\\frac{1}{1+0}=1.$$<br><br><b>(c)</b><br>Using the derivatives obtained above,<br><br>$$\\frac{d}{dx}[p(x)+q(x)]=\\frac{1}{\\sqrt{1-x^2}}-\\frac{1}{\\sqrt{1-x^2}}=0.$$<br><br>Hence, the derivative of $\\sin^{-1}x+\\cos^{-1}x$ is $0$ for $-1<x<1$.<br><br><b>(d)</b><br>The required condition is<br><br>$$-\\frac{1}{\\sqrt{1-x^2}}+\\frac{1}{1+x^2}=0.$$<br><br>Therefore,<br><br>$$\\frac{1}{1+x^2}=\\frac{1}{\\sqrt{1-x^2}}.$$<br><br>Since both denominators are positive for $-1<x<1$,<br><br>$$1+x^2=\\sqrt{1-x^2}.$$<br><br>Squaring both sides,<br><br>$$(1+x^2)^2=1-x^2.$$<br><br>Thus,<br><br>$$1+2x^2+x^4=1-x^2,$$<br><br>$$x^4+3x^2=0,$$<br><br>$$x^2(x^2+3)=0.$$<br><br>The only real solution is $x=0$, which lies in $(-1,1)$. Hence, $q'(x)+r'(x)=0$ only at $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $p'(x)=\\frac{1}{\\sqrt{1-x^2}},\\ q'(x)=\\frac{1}{\\sqrt{1-x^2}},\\ r'(x)=\\frac{1}{1+x^2}$<br>(b) $1,1,1$<br>(c) $\\frac{d}{dx}[p(x)+q(x)]=\\frac{2}{\\sqrt{1-x^2}}$<br>(d) $x=0$",
+    "B": "(a) $p'(x)=\\frac{1}{\\sqrt{1-x^2}},\\ q'(x)=-\\frac{1}{\\sqrt{1-x^2}},\\ r'(x)=\\frac{1}{1-x^2}$<br>(b) $1,-1,1$<br>(c) $\\frac{d}{dx}[p(x)+q(x)]=0$<br>(d) $x=\\pm\\frac{1}{\\sqrt2}$",
+    "C": "(a) $p'(x)=\\frac{1}{\\sqrt{1-x^2}},\\ q'(x)=-\\frac{1}{\\sqrt{1-x^2}},\\ r'(x)=\\frac{1}{1+x^2}$<br>(b) $1,-1,1$<br>(c) $\\frac{d}{dx}[p(x)+q(x)]=0$<br>(d) $x=0$",
+    "D": "(a) $p'(x)=-\\frac{1}{\\sqrt{1-x^2}},\\ q'(x)=\\frac{1}{\\sqrt{1-x^2}},\\ r'(x)=\\frac{1}{1+x^2}$<br>(b) $-1,1,1$<br>(c) $\\frac{d}{dx}[p(x)+q(x)]=0$<br>(d) No real value of $x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

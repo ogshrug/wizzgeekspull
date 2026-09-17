@@ -1,0 +1,30 @@
+{
+  "id": "6a8ec21abe0ecc7866e90bad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d85",
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "SA",
+  "question": "For the parametric equations $$x=a(\\theta+\\sin\\theta),\\qquad y=a(1-\\cos\\theta),$$ find $\\frac{dy}{dx}$ in terms of the parameter $\\theta$.",
+  "answeroption": "C",
+  "explanation": "<b>Differentiation with respect to $\\theta$</b><br>$$\\frac{dx}{d\\theta}=a(1+\\cos\\theta),\\qquad \\frac{dy}{d\\theta}=a\\sin\\theta.$$<br><b>Parametric derivative</b><br>$$\\frac{dy}{dx}=\\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}}=\\frac{\\sin\\theta}{1+\\cos\\theta}.$$<br><b>Trigonometric simplification</b><br>Using $$\\frac{\\sin\\theta}{1+\\cos\\theta}=\\tan\\frac{\\theta}{2},$$ we obtain $$\\frac{dy}{dx}=\\tan\\frac{\\theta}{2}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{1+\\cos\\theta}{\\sin\\theta}=\\cot\\frac{\\theta}{2}$",
+    "B": "$\\frac{dy}{dx}=\\frac{\\sin\\theta}{1-\\cos\\theta}=\\cot\\frac{\\theta}{2}$",
+    "C": "$\\frac{dy}{dx}=\\frac{\\sin\\theta}{1+\\cos\\theta}=\\tan\\frac{\\theta}{2}$",
+    "D": "$\\frac{dy}{dx}=\\frac{\\cos\\theta}{1+\\sin\\theta}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

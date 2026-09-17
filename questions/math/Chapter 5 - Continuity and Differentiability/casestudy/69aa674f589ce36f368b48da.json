@@ -1,0 +1,33 @@
+{
+  "id": "69aa674f589ce36f368b48da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78",
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d82",
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 5: Product Quality Analysis using Exponential and Logarithmic Function Derivatives**<br /><br />The defect rate $D(t)$ of a process is modeled as $D(t) = e^{\\ln \\sin(at)}$ for $t > 0$, parameter $a > 0$.<br /><br />(a) Simplify $D(t)$ and discuss continuity and differentiability at $t = \\frac{n\\pi}{a}, n \\in \\mathbb{Z}$.<br /><br />(b) For $t \\neq \\frac{n\\pi}{a}$, compute $D'(t)$.<br /><br />(c) Show that $\\frac{D''(t)}{D(t)} + a^2 = 0$ for all $t$ where $D(t) \\neq 0$.",
+  "answeroption": "B",
+  "explanation": "(a) $D(t) = e^{\\ln \\sin(at)} = \\sin(at)$ for $t > 0$.<br /><br />At $t = \\frac{n\\pi}{a}$, $\\sin(at) = 0$, so $D(t) = 0$.<br /><br />$\\sin(at)$ is continuous everywhere, but not differentiable where it is $0$? Let's check:<br /><br />Function $\\sin(at)$ is differentiable everywhere. However, since the domain restricts $t > 0$ and $a > 0$, at points $t = \\frac{n\\pi}{a}$, $\\sin(at) = 0$, which are isolated points— but $\\sin(at)$ is still continuous and differentiable there.<br /><br />Thus, $D(t)$ is continuous and differentiable everywhere, except possibly at $t$ where $\\sin(at) = 0$ (if considering its logarithm before exponentiating). But for $D(t)$ itself as $\\sin(at)$, it's fine except at $t=0$ if $a = 0$, but $a > 0$.<br /><br />So, $D(t)$ is continuous and differentiable for all $t > 0$.<br /><br />(b) $D'(t) = \\frac{d}{dt} \\sin(at) = a\\cos(at)$<br /><br />(c) $D''(t) = \\frac{d}{dt}(a \\cos(at)) = -a^2 \\sin(at)$<br /><br />$\\frac{D''(t)}{D(t)} = \\frac{-a^2 \\sin(at)}{\\sin(at)} = -a^2$<br /><br />$\\therefore \\frac{D''(t)}{D(t)} + a^2 = -a^2 + a^2 = 0$<br /><br />This identity holds for all $t$ such that $\\sin(at) \\neq 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $D(t)=\\cos(at)$ and it is discontinuous at $t=\\frac{n\\pi}{a}$<br />(b) $D'(t)=-a\\sin(at)$<br />(c) $\\frac{D''(t)}{D(t)}+a^2=1$",
+    "B": "(a) $D(t)=\\sin(at)$; as the simplified sine function, it is continuous and differentiable for all $t>0$ including $t=\\frac{n\\pi}{a}$<br />(b) $D'(t)=a\\cos(at)$<br />(c) Since $D''(t)=-a^2\\sin(at)$, $\\frac{D''(t)}{D(t)}+a^2=0$ wherever $D(t)\\neq0$",
+    "C": "(a) $D(t)=e^{at}$ and it is differentiable everywhere<br />(b) $D'(t)=ae^{at}$<br />(c) $\\frac{D''(t)}{D(t)}+a^2=2a^2$",
+    "D": "(a) $D(t)=\\ln\\sin(at)$ and it is continuous at all $t=\\frac{n\\pi}{a}$<br />(b) $D'(t)=a\\cot(at)$<br />(c) $\\frac{D''(t)}{D(t)}+a^2=-a^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:34:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

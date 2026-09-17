@@ -1,0 +1,29 @@
+{
+  "id": "6a2658fe864be73cfcf6d351",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7",
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "LA",
+  "question": "Find the distance of the point (1, 2, 9) from the point of intersection of the line $\\vec{r}=4\\hat{i}+2\\hat{j}+7\\hat{k}+\\lambda(3\\hat{i}+4\\hat{j}+2\\hat{k})$ and the plane $\\vec{r}\\cdot(\\hat{i}-\\hat{j}+\\hat{k})=10$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To find the intersection point, we first express a general point on the given line as a function of parameter $\\lambda$. Converting the vector line equation into parameterized Cartesian coordinates gives: $x = 4 + 3\\lambda$, $y = 2 + 4\\lambda$, and $z = 7 + 2\\lambda$. This gives general point template $P(4+3\\lambda, 2+4\\lambda, 7+2\\lambda)$.<br />**Step 2:** Since this point $P$ must also lie on the intersection plane, substitute these parameterized coordinate variables into the plane equation $\\vec{r}\\cdot(\\hat{i}-\\hat{j}+\\hat{k})=10$, which can be written in Cartesian form as $x - y + z = 10$. Substituting coordinates gives: $(4 + 3\\lambda) - (2 + 4\\lambda) + (7 + 2\\lambda) = 10$. Grouping like variables yields: $4 - 2 + 7 + 3\\lambda - 4\\lambda + 2\\lambda = 10 \\implies 9 + \\lambda = 10 \\implies \\lambda = 1$.<br />**Step 3:** Substitute $\\lambda = 1$ back into our generalized point template to evaluate the exact coordinates of the intersection point $P$: $x = 4+3(1) = 7$, $y = 2+4(1) = 6$, and $z = 7+2(1) = 9$. Thus, the intersection point is $P(7, 6, 9)$.<br />**Step 4:** Now, calculate the straight line distance between this intersection point $P(7, 6, 9)$ and the given target point $Q(1, 2, 9)$ using the standard 3D coordinate distance formula: $d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}$. Substituting values gives: $d = \\sqrt{(1-7)^2 + (2-6)^2 + (9-9)^2} = \\sqrt{(-6)^2 + (-4)^2 + 0^2} = \\sqrt{36 + 16 + 0} = \\sqrt{52} = 2\\sqrt{13}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1",
+    "2022-3-2",
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

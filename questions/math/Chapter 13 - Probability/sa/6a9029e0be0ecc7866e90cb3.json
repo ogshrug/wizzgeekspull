@@ -1,0 +1,29 @@
+{
+  "id": "6a9029e0be0ecc7866e90cb3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "A random variable $X$ has the probability distribution<br>$X: 0,1,2,3$<br>$P(X): k,2k,3k,4k$.<br>(i) Find the value of $k$.<br>(ii) Hence find $P(X\\leq1)$ and $P(X>1)$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Probability-distribution condition</b><br>The sum of the probabilities corresponding to all possible values of a random variable must be $1$. Therefore, $$k+2k+3k+4k=1.$$<br><b>Step 2: Determination of the parameter</b><br>$$10k=1\\quad\\Rightarrow\\quad k=\\frac1{10}.$$<br><b>Step 3: Calculation of $P(X\\leq1)$</b><br>The values satisfying $X\\leq1$ are $0$ and $1$. Hence, $$P(X\\leq1)=P(X=0)+P(X=1)=k+2k=3k=\\frac3{10}.$$<br><b>Step 4: Calculation of $P(X>1)$</b><br>The relevant values are $2$ and $3$. Thus, $$P(X>1)=3k+4k=7k=\\frac7{10}.$$<br><b>Step 5: Verification and conclusion</b><br>Since $\\frac3{10}+\\frac7{10}=1$, the two complementary results are consistent. Therefore, $$\\boxed{k=\\frac1{10},\\quad P(X\\leq1)=\\frac3{10},\\quad P(X>1)=\\frac7{10}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $k=\\frac{1}{8}$<br>(ii) $P(X\\leq1)=\\frac{3}{8},\\ P(X>1)=\\frac{5}{8}$",
+    "B": "(i) $k=\\frac{1}{10}$<br>(ii) $P(X\\leq1)=\\frac{7}{10},\\ P(X>1)=\\frac{3}{10}$",
+    "C": "(i) $k=\\frac{1}{10}$<br>(ii) $P(X\\leq1)=\\frac{3}{10},\\ P(X>1)=\\frac{7}{10}$",
+    "D": "(i) $k=\\frac{1}{12}$<br>(ii) $P(X\\leq1)=\\frac{1}{4},\\ P(X>1)=\\frac{7}{12}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

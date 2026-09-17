@@ -1,0 +1,29 @@
+{
+  "id": "69a9678bd8e9ca3b2934577d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "LA",
+  "question": "Let $A(3, 2, -4)$, $B(1, -1, 2)$, and $C(4, 3, 1)$ be three points in space. Find the equation of the plane through them and the perpendicular distance of $P(-2,1,5)$ from this plane.",
+  "answeroption": "B",
+  "explanation": "Vectors $\\vec{AB}=(-2,-3,6)$ and $\\vec{AC}=(1,1,5)$.<br /><br />Normal vector $\\vec n = \\vec{AB} \\times \\vec{AC} = (-21,16,1)$.<br /><br />Plane equation: $-21(x-3)+16(y-2)+(z+4)=0$.<br /><br />Simplifying gives $-21x+16y+z+35=0$.<br /><br />Distance of $P(-2,1,5)$ from plane $=\\frac{| -21(-2)+16(1)+5+35 |}{\\sqrt{(-21)^2+16^2+1^2}}$.<br /><br />Distance $=\\frac{98}{\\sqrt{698}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Plane equation: $-21x+16y+z-35=0$<br />Distance: $\\frac{28}{\\sqrt{698}}$",
+    "B": "Plane equation: $-21x+16y+z+35=0$<br />Distance: $\\frac{98}{\\sqrt{698}}$",
+    "C": "Plane equation: $21x-16y-z+35=0$<br />Distance: $\\frac{98}{698}$",
+    "D": "Plane equation: $-21x+16y+z+35=0$<br />Distance: $\\frac{35}{\\sqrt{698}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:22:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

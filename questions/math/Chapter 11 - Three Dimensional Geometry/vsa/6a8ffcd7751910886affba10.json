@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffcd7751910886affba10",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "VSA",
+  "question": "The parallel lines are $\\vec{r}=(\\hat{i})+\\lambda(\\hat{i}+\\hat{j})$ and $\\vec{r}=(\\hat{j}+2\\hat{k})+\\mu(\\hat{i}+\\hat{j})$. Find the distance between them.",
+  "answeroption": "A",
+  "explanation": "Step 1: The common direction vector of the parallel lines is $\\vec{b}=\\hat{i}+\\hat{j}=(1,1,0)$. Take $\\vec{a_1}=(1,0,0)$ and $\\vec{a_2}=(0,1,2)$. Step 2: For parallel lines, the distance is $$d=\\frac{|(\\vec{a_2}-\\vec{a_1})\\times\\vec{b}|}{|\\vec{b}|}.$$ Step 3: Here, $\\vec{a_2}-\\vec{a_1}=(-1,1,2)$. Thus, $$(-1,1,2)\\times(1,1,0)=(-2,2,-2).$$ Step 4: Its magnitude is $\\sqrt{4+4+4}=2\\sqrt{3}$, while $|\\vec{b}|=\\sqrt{2}$. Step 5: Therefore, $$d=\\frac{2\\sqrt{3}}{\\sqrt{2}}=\\sqrt{6}.$$ Hence, the distance between the parallel lines is $\\sqrt{6}$ units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sqrt{6}$ units",
+    "B": "$2\\sqrt{3}$ units",
+    "C": "$\\sqrt{3}$ units",
+    "D": "$3$ units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

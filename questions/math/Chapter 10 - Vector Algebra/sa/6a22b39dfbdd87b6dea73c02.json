@@ -1,0 +1,28 @@
+{
+  "id": "6a22b39dfbdd87b6dea73c02",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "SA",
+  "question": "If $\\vec{a}+\\vec{b}+\\vec{c}=\\vec{0}$ such that $|\\vec{a}|=3, |\\vec{b}|=5, |\\vec{c}|=7$ then find the angle between $\\vec{a}$ and $\\vec{b}$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Isolate the vector term $\\vec{c}$ on one side of the equation: $\\vec{a} + \\vec{b} = -\\vec{c}$. Take the dot product of each side with itself to remove the vector directions: $(\\vec{a} + \\vec{b})\\cdot(\\vec{a} + \\vec{b}) = (-\\vec{c})\\cdot(-\\vec{c})$.<br /><br /><b>Step 2</b> Expand both sides using dot product properties: $|\\vec{a}|^2 + |\\vec{b}|^2 + 2(\\vec{a}\\cdot\\vec{b}) = |\\vec{c}|^2$. Express the dot product using the angle $\\theta$ between vectors $\\vec{a}$ and $\\vec{b}$: $|\\vec{a}|^2 + |\\vec{b}|^2 + 2|\\vec{a}||\\vec{b}|\\cos\\theta = |\\vec{c}|^2$.<br /><br /><b>Step 3</b> Substitute the given numeric magnitudes into this equation: $3^2 + 5^2 + 2(3)(5)\\cos\\theta = 7^2 \\implies 9 + 25 + 30\\cos\\theta = 49$.<br /><br /><b>Step 4</b> Combine the numerical constants to solve for $\\cos\\theta$: $34 + 30\\cos\\theta = 49 \\implies 30\\cos\\theta = 15 \\implies \\cos\\theta = \\frac{15}{30} = \\frac{1}{2}$.<br /><br /><b>Step 5</b> Identify the corresponding angle from standard values: since $\\cos\\theta = \\frac{1}{2}$, the angle between the vectors is $\\theta = \\frac{\\pi}{3}$ or $60^{\\circ}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

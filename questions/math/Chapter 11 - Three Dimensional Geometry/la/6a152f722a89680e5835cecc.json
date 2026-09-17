@@ -1,0 +1,25 @@
+{
+  "id": "6a152f722a89680e5835cecc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6",
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "LA",
+  "question": "Find the distance of the point $(-1,-5,-10)$ from the point of intersection of the line $\\vec{r} = 2\\hat{i}-\\hat{j}+2\\hat{k} + \\lambda(3\\hat{i}+4\\hat{j}+2\\hat{k})$ and the plane $\\vec{r}\\cdot(\\hat{i}-\\hat{j}+\\hat{k}) = 5$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Parametric form of the line: <br /> $\\vec{r} = (2 + 3\\lambda)\\hat{i} + (-1 + 4\\lambda)\\hat{j} + (2 + 2\\lambda)\\hat{k}$. <br /> So any point on line is $P(2+3\\lambda,\\ -1+4\\lambda,\\ 2+2\\lambda)$. <br /><br /> **Step 2:** Plane equation: $\\vec{r} \\cdot (\\hat{i} - \\hat{j} + \\hat{k}) = 5$ <br /> $\\Rightarrow x - y + z = 5$. <br /><br /> **Step 3:** Substitute point into plane equation: <br /> $(2+3\\lambda) - (-1+4\\lambda) + (2+2\\lambda) = 5$ <br /> $\\Rightarrow 2+3\\lambda +1 -4\\lambda + 2+2\\lambda = 5$ <br /> $\\Rightarrow (2+1+2) + (3\\lambda -4\\lambda +2\\lambda) = 5$ <br /> $\\Rightarrow 5 + \\lambda = 5$ <br /> $\\Rightarrow \\lambda = 0$. <br /><br /> **Step 4:** Intersection point $P$: put $\\lambda = 0$ <br /> $P(2,\\ -1,\\ 2)$. <br /><br /> **Step 5:** Given point $Q(-1,\\ -5,\\ -10)$. <br /> Distance $PQ = \\sqrt{(2 - (-1))^2 + (-1 - (-5))^2 + (2 - (-10))^2}$ <br /> $= \\sqrt{(3)^2 + (4)^2 + (12)^2}$ <br /> $= \\sqrt{9 + 16 + 144} = \\sqrt{169} = 13$. <br /><br /> **Answer:** $13$ units",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

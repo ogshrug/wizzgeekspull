@@ -1,0 +1,29 @@
+{
+  "id": "69a9a4bf589ce36f368b4843",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int \\frac{x^2+2x+5}{(x+1)(x^2+4)} dx$ using partial fractions.",
+  "answeroption": "D",
+  "explanation": "Let $\\frac{x^2+2x+5}{(x+1)(x^2+4)} = \\frac{A}{x+1} + \\frac{Bx+C}{x^2+4}$.<br /><br />Solving gives $A=\\frac{4}{5}$, $B=\\frac{1}{5}$, $C=\\frac{9}{5}$.<br /><br />Thus the integrand becomes $\\frac{4}{5(x+1)} + \\frac{1}{5}\\frac{x}{x^2+4} + \\frac{9}{5}\\frac{1}{x^2+4}$.<br /><br />Integrating term by term gives:<br /><br />$\\frac{4}{5}\\ln|x+1| + \\frac{1}{10}\\ln|x^2+4| + \\frac{9}{10}\\tan^{-1}(x/2) + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{4}{5}\\ln|x+1| + \\frac{1}{5}\\ln|x^2+4| + \\frac{9}{10}\\tan^{-1}(x/2) + C$",
+    "B": "$\\frac{4}{5}\\ln|x+1| - \\frac{1}{10}\\ln|x^2+4| + \\frac{9}{10}\\tan^{-1}(x/2) + C$",
+    "C": "$\\frac{1}{5}\\ln|x+1| + \\frac{1}{10}\\ln|x^2+4| + \\frac{9}{10}\\tan^{-1}(x/2) + C$",
+    "D": "$\\frac{4}{5}\\ln|x+1| + \\frac{1}{10}\\ln|x^2+4| + \\frac{9}{10}\\tan^{-1}(x/2) + C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:43:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

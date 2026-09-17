@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed96f4b490c7cde3594ab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "VSA",
+  "question": "Using a suitable property of definite integrals, evaluate $\\int_0^{\\pi}x\\sin x\\,dx$ without first finding its indefinite integral.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> Let $$I=\\int_0^{\\pi}x\\sin x\\,dx.$$<br><b>Step 2:</b> Use the property $\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$. With $a=\\pi$, $$I=\\int_0^{\\pi}(\\pi-x)\\sin(\\pi-x)\\,dx.$$<br><b>Step 3:</b> Since $\\sin(\\pi-x)=\\sin x$, we get $$I=\\int_0^{\\pi}(\\pi-x)\\sin x\\,dx.$$<br><b>Step 4:</b> Adding this expression to the original one, $$2I=\\pi\\int_0^{\\pi}\\sin x\\,dx.$$<br><b>Step 5:</b> Now $\\int_0^{\\pi}\\sin x\\,dx=2$, so $2I=2\\pi$. Hence, the required value is $\\boxed{\\pi}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{2}$",
+    "B": "$\\pi$",
+    "C": "$2\\pi$",
+    "D": "$\\frac{\\pi^2}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

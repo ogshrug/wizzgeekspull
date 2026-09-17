@@ -1,0 +1,30 @@
+{
+  "id": "6a8ef1814b490c7cde3594b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f985"
+  ],
+  "question_type": "LA",
+  "question": "Consider the function $f(x)=x^4-4x^3$.<br><br>(a) Determine all stationary points of the function.<br><br>(b) Apply the second derivative test at each stationary point and identify where the test fails.<br><br>(c) Use the first derivative test to complete the classification and find the local extreme value, if any.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>$$f'(x)=4x^3-12x^2$$<br>$$f'(x)=4x^2(x-3)$$<br>Therefore,<br>$$f'(x)=0\\iff x=0\\quad\\text{or}\\quad x=3$$<br>Thus, the stationary points occur at $x=0$ and $x=3$.<br><br><b>(b)</b><br>The second derivative is<br>$$f''(x)=12x^2-24x=12x(x-2)$$<br>At $x=0$,<br>$$f''(0)=0$$<br>Therefore, the second derivative test fails at $x=0$.<br>At $x=3$,<br>$$f''(3)=12(3)(3-2)=36>0$$<br>Hence, $x=3$ is a point of local minimum.<br><br><b>(c)</b><br>Since $f'(x)=4x^2(x-3)$ and $4x^2>0$ for $x\\neq 0$, the sign is determined by $x-3$.<br>Immediately on both sides of $x=0$, we have $x<3$, so $f'(x)<0$. Since the derivative does not change sign at $x=0$, it is neither a point of local maximum nor a point of local minimum.<br>At $x=3$, the derivative changes from negative to positive. Therefore, the first derivative test confirms that $x=3$ is a point of local minimum.<br>The local minimum value is<br>$$f(3)=(3)^4-4(3)^3=81-108=-27$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Stationary points $x=0,3$<br>(b) Second derivative test gives minima at both points<br>(c) Local minimum values $0$ and $-27$",
+    "B": "(a) Stationary point $x=3$ only<br>(b) Second derivative test gives a local maximum<br>(c) Maximum value $-27$",
+    "C": "(a) Stationary points $x=0,-3$<br>(b) Test fails at $x=-3$<br>(c) $x=0$ is a local minimum with value $0$",
+    "D": "(a) Stationary points $x=0,3$<br>(b) Second derivative test is inconclusive at $x=0$ and gives a local minimum at $x=3$<br>(c) First derivative test shows $x=0$ is neither maximum nor minimum; local minimum value at $x=3$ is $-27$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

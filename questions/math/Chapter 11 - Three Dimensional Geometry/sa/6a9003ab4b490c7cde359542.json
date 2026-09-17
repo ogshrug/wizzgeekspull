@@ -1,0 +1,29 @@
+{
+  "id": "6a9003ab4b490c7cde359542",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "SA",
+  "question": "Obtain the Cartesian equation of the line passing through $A(1,-2,3)$ and $B(4,2,-3)$. Hence, verify whether the point $C(7,6,-9)$ lies on this line.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Direction components of the line</b><br>The direction components obtained from $A(1,-2,3)$ and $B(4,2,-3)$ are<br>$$4-1=3,\\quad 2-(-2)=4,\\quad -3-3=-6.$$<br><b>Step 2: Cartesian form of the line</b><br>A line passing through $(x_1,y_1,z_1)$ with direction ratios $a,b,c$ has Cartesian equation<br>$$\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}.$$<br>Therefore, the required equation is<br>$$\\frac{x-1}{3}=\\frac{y+2}{4}=\\frac{z-3}{-6}.$$<br><b>Step 3: Substitution of point $C$</b><br>For $C(7,6,-9)$,<br>$$\\frac{7-1}{3}=2,\\quad \\frac{6+2}{4}=2,\\quad \\frac{-9-3}{-6}=2.$$<br><b>Step 4: Verification</b><br>All three ratios have the same value. Hence $C$ satisfies the Cartesian equation.<br><b>Step 5: Final conclusion</b><br>The line is $\\frac{x-1}{3}=\\frac{y+2}{4}=\\frac{z-3}{-6}$, and $C(7,6,-9)$ lies on it.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x-1}{3}=\\frac{y+2}{4}=\\frac{z-3}{6}$; $C$ does not lie on the line",
+    "B": "$\\frac{x+1}{3}=\\frac{y-2}{4}=\\frac{z+3}{-6}$; $C$ lies on the line",
+    "C": "$\\frac{x-1}{3}=\\frac{y+2}{4}=\\frac{z-3}{-6}$; $C(7,6,-9)$ lies on the line",
+    "D": "$\\frac{x-1}{4}=\\frac{y+2}{3}=\\frac{z-3}{-6}$; $C$ does not lie on the line"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

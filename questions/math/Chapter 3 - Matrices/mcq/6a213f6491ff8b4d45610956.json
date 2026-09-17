@@ -1,0 +1,34 @@
+{
+  "id": "6a213f6491ff8b4d45610956",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "MCQ",
+  "question": "If A and B are skew-symmetric matrices of same order, then $AB^{\\prime}+BA^{\\prime}$ is a/an:",
+  "answeroption": "A",
+  "explanation": "<b>Step 1</b> Recall the mathematical definition of a skew-symmetric matrix. For matrices $A$ and $B$, this means their transposes satisfy $A^\\prime = -A$ and $B^\\prime = -B$.<br /><br /><b>Step 2</b> Substitute these transpose properties into the given algebraic expression. The expression $AB^\\prime + BA^\\prime$ becomes $A(-B) + B(-A)$, which simplifies to $-AB - BA = -(AB+BA)$. Let this matrix be $P = -(AB+BA)$.<br /><br /><b>Step 3</b> To determine the nature of the original expression, test its transpose. The transpose of $-(AB+BA)$ is $-((AB)^\\prime + (BA)^\\prime) = -(B^\\prime A^\\prime + A^\\prime B^\\prime)$. Substituting the skew-symmetric definitions again yields $-((-B)(-A) + (-A)(-B)) = -(BA + AB)$. Since $P^\\prime = P$, the matrix is symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "symmetric matrix",
+    "B": "skew-symmetric matrix",
+    "C": "null matrix",
+    "D": "identity matrix"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

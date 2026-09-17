@@ -1,0 +1,28 @@
+{
+  "id": "6a22a714864be73cfcf6d293",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int \\frac{1}{\\cos(x-a)\\cos(x-b)} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** This integral requires a specific algebraic manipulation. Multiply and divide the entire integral by a constant term $\\sin(a-b)$. The integral becomes $\\frac{1}{\\sin(a-b)} \\int \\frac{\\sin(a-b)}{\\cos(x-a)\\cos(x-b)} dx$.<br />**Step 2:** Cleverly rewrite the constant argument $(a-b)$ in the numerator as a difference involving the variables in the denominator: $(a-b) = (x-b) - (x-a)$. The numerator becomes $\\sin((x-b) - (x-a))$.<br />**Step 3:** Expand the numerator using the trigonometric identity $\\sin(A-B) = \\sin A\\cos B - \\cos A\\sin B$. This gives $\\frac{1}{\\sin(a-b)} \\int \\frac{\\sin(x-b)\\cos(x-a) - \\cos(x-b)\\sin(x-a)}{\\cos(x-a)\\cos(x-b)} dx$.<br />**Step 4:** Separate the integral into two fractions. The common terms cancel out beautifully: $\\frac{1}{\\sin(a-b)} \\int (\\frac{\\sin(x-b)\\cos(x-a)}{\\cos(x-a)\\cos(x-b)} - \\frac{\\cos(x-b)\\sin(x-a)}{\\cos(x-a)\\cos(x-b)}) dx = \\frac{1}{\\sin(a-b)} \\int (\\tan(x-b) - \\tan(x-a)) dx$.<br />**Step 5:** Integrate the tangent terms using the standard formula $\\int \\tan(u) du = \\log|\\sec u|$. The result is $\\frac{1}{\\sin(a-b)} [\\log|\\sec(x-b)| - \\log|\\sec(x-a)|] + C$. Using logarithm properties, this simplifies to the final answer: $\\frac{1}{\\sin(a-b)} \\log|\\frac{\\sec(x-b)}{\\sec(x-a)}| + C$ or equivalently $\\frac{1}{\\sin(a-b)} \\log|\\frac{\\cos(x-a)}{\\cos(x-b)}| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2",
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

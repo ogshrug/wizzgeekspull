@@ -1,0 +1,29 @@
+{
+  "id": "69a9203fb4df445c7f648ca9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "If $x > 0$, simplify $\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$ in terms of $\\tan^{-1}x$.",
+  "answeroption": "B",
+  "explanation": "Let $x = \\tan\\theta$ where $\\theta = \\tan^{-1}x$.<br /><br />Then $\\tan 2\\theta = \\frac{2\\tan\\theta}{1-\\tan^2\\theta}$.<br /><br />Substitute $\\tan\\theta = x$.<br /><br />Thus $\\tan^{-1}(\\frac{2x}{1-x^2}) = 2\\theta$.<br /><br />Since $\\theta = \\tan^{-1}x$, result becomes $2\\tan^{-1}x$.<br /><br />This equality holds for $|x|<1$.<br /><br />Given $x>0$, admissible range is $0<x<1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan^{-1}x$, for $0<x<1$",
+    "B": "$2\\tan^{-1}x$, for $0<x<1$",
+    "C": "$\\frac{1}{2}\\tan^{-1}x$, for $x>1$",
+    "D": "$\\pi-2\\tan^{-1}x$, for $0<x<1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:18:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

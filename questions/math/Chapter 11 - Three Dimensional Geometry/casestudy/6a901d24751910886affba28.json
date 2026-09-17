@@ -1,0 +1,31 @@
+{
+  "id": "6a901d24751910886affba28",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cc",
+    "6a13e7cad837c8c7efa6b8cd",
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a three-dimensional coordinate model used in a mathematics laboratory, the ends of a straight rod are represented by the points $A(2,-1,3)$ and $B(6,2,-3)$. A third marker $C(10,5,-9)$ is placed in the same coordinate system. Students are asked to study the direction of the rod from $A$ to $B$, obtain its direction cosines, and determine whether the marker $C$ is situated on the straight line containing the rod. They are also required to express the same line in Cartesian symmetric form using the coordinates of its endpoints.<br><br><b>(a)</b> Find the direction ratios of the directed line $AB$.<br><br><b>(b)</b> Calculate the direction cosines of the directed line $AB$.<br><br><b>(c)</b> Determine whether the point $C(10,5,-9)$ lies on the line through $A$ and $B$. Justify your answer.<br><br><b>(d)</b> Find the Cartesian equation of the line passing through $A$ and $B$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For $A(x_1,y_1,z_1)=(2,-1,3)$ and $B(x_2,y_2,z_2)=(6,2,-3)$, direction ratios of $AB$ are proportional to<br>$$x_2-x_1=6-2=4,\\quad y_2-y_1=2-(-1)=3,\\quad z_2-z_1=-3-3=-6.$$<br>Hence, one set of direction ratios is $(4,3,-6)$.<br><br><b>(b)</b><br>The length $AB$ is<br>$$AB=\\sqrt{4^2+3^2+(-6)^2}=\\sqrt{16+9+36}=\\sqrt{61}.$$<br>Therefore, the direction cosines of the directed line $AB$ are<br>$$l=\\frac{4}{\\sqrt{61}},\\quad m=\\frac{3}{\\sqrt{61}},\\quad n=\\frac{-6}{\\sqrt{61}}.$$<br>Indeed, $l^2+m^2+n^2=\\frac{16+9+36}{61}=1$.<br><br><b>(c)</b><br>For $C(10,5,-9)$, the coordinate differences from $A$ are<br>$$10-2=8,\\quad 5-(-1)=6,\\quad -9-3=-12.$$<br>Thus,<br>$$\\frac{8}{4}=\\frac{6}{3}=\\frac{-12}{-6}=2.$$<br>The changes in the coordinates are proportional to the direction ratios $(4,3,-6)$. Hence, $C$ lies on the line through $A$ and $B$.<br><br><b>(d)</b><br>A line passing through $(x_1,y_1,z_1)$ with direction ratios $a,b,c$ has Cartesian equation<br>$$\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}.$$<br>Using $A(2,-1,3)$ and direction ratios $(4,3,-6)$, the required equation is<br>$$\\frac{x-2}{4}=\\frac{y+1}{3}=\\frac{z-3}{-6}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(4,-3,-6)$<br>(b) $\\left(\\frac{4}{\\sqrt{61}},-\\frac{3}{\\sqrt{61}},-\\frac{6}{\\sqrt{61}}\\right)$<br>(c) $C$ does not lie on the line<br>(d) $\\frac{x-2}{4}=\\frac{y+1}{-3}=\\frac{z-3}{-6}$",
+    "B": "(a) $(4,3,6)$<br>(b) $\\left(\\frac{4}{\\sqrt{61}},\\frac{3}{\\sqrt{61}},\\frac{6}{\\sqrt{61}}\\right)$<br>(c) $C$ does not lie on the line<br>(d) $\\frac{x-2}{4}=\\frac{y+1}{3}=\\frac{z-3}{6}$",
+    "C": "(a) $(4,3,-6)$<br>(b) $\\left(\\frac{4}{\\sqrt{61}},\\frac{3}{\\sqrt{61}},-\\frac{6}{\\sqrt{61}}\\right)$<br>(c) $C$ lies on the line since $(8,6,-12)=2(4,3,-6)$<br>(d) $\\frac{x-2}{4}=\\frac{y+1}{3}=\\frac{z-3}{-6}$",
+    "D": "(a) $(4,3,-6)$<br>(b) $\\left(\\frac{4}{\\sqrt{52}},\\frac{3}{\\sqrt{52}},-\\frac{6}{\\sqrt{52}}\\right)$<br>(c) $C$ lies on the line<br>(d) $\\frac{x+2}{4}=\\frac{y-1}{3}=\\frac{z+3}{-6}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

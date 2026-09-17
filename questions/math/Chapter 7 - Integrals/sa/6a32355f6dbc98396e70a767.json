@@ -1,0 +1,26 @@
+{
+  "id": "6a32355f6dbc98396e70a767",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate : $\\int_{0}^{\\frac{\\pi}{2}}\\frac{5~sin~x+3~cos~x}{sin~x+cos~x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $I = \\int_{0}^{\\frac{\\pi}{2}}\\frac{5\\sin x+3\\cos x}{\\sin x+\\cos x}dx$. Apply the definitive integral property $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$ to get $I = \\int_{0}^{\\frac{\\pi}{2}}\\frac{5\\cos x+3\\sin x}{\\cos x+\\sin x}dx$.<br />**Step 2:** Add both integral equations together: $2I = \\int_{0}^{\\frac{\\pi}{2}}\\frac{(5\\sin x+3\\cos x) + (5\\cos x+3\\sin x)}{\\sin x+\\cos x}dx = \\int_{0}^{\\frac{\\pi}{2}} \\frac{8(\\sin x+\\cos x)}{\\sin x+\\cos x}dx$.<br />**Step 3:** The integral simplifies directly to $2I = \\int_{0}^{\\frac{\\pi}{2}} 8 \\, dx = 8 [x]_0^{\\frac{\\pi}{2}} = 4\\pi$. Dividing by 2 yields the final value $I = 2\\pi$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa740aaff2be72fd28eb83",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 10: Logistics — Composite Functions and Route Optimization**<br /><br />A logistics firm manages cargo throughput between warehouses. There are 3 depots: $A, B, C$. Each warehouse efficiency is given by a function:<br /><br />- $f: A \\to B$, $f(x) = 2x + 3$<br />- $g: B \\to C$, $g(y) = 3y - 1$<br />- $h: C \\to A$, $h(z) = \\frac{z - 3}{2}$<br /><br />(a) Compute the composition $(g \\circ f)$, $(h \\circ g)$, and $(h \\circ g \\circ f)$, and check their invertibility.<br /><br />(b) Find the inverse function of $h \\circ g \\circ f$. Prove that $(h \\circ g \\circ f)^{-1}$ equals $f^{-1} \\circ g^{-1} \\circ h^{-1}$.<br /><br />(c) If the firm processes 100 units from depot A, how many units reach depot C after applying $g \\circ f$?",
+  "answeroption": "D",
+  "explanation": "(a) **Compositions:**<br /><br />$g \\circ f(x) = g(f(x)) = g(2x+3) = 3(2x+3) - 1 = 6x + 9 - 1 = 6x + 8$<br /><br />$h \\circ g(y) = h(g(y)) = h(3y-1) = \\frac{(3y-1)-3}{2} = \\frac{3y-4}{2}$<br /><br />$h \\circ g \\circ f(x) = h(g(f(x))) = h(g(2x+3)) = h(6x+8) = \\frac{(6x+8)-3}{2} = \\frac{6x+5}{2}$<br /><br />All are linear with nonzero slope, so all are invertible.<br /><br />(b) **Inverse $h \\circ g \\circ f$:**<br /><br />Suppose $y = \\frac{6x+5}{2}$<br /><br />$\\implies 2y = 6x+5$<br /><br />$\\implies 6x = 2y-5$<br /><br />$\\implies x = \\frac{2y-5}{6}$<br /><br />Thus, $(h \\circ g \\circ f)^{-1}(y) = \\frac{2y-5}{6}$<br /><br />Now, find $f^{-1}(x)$: $y=2x+3 \\implies x = \\frac{y-3}{2}$<br /><br />$g^{-1}(y)$: $z = 3y-1 \\implies y = \\frac{z+1}{3}$<br /><br />$h^{-1}(z)$: $w = \\frac{z-3}{2} \\implies z=2w+3$<br /><br />So composite: $f^{-1} \\circ g^{-1} \\circ h^{-1}(y)$:<br /><br />$h^{-1}(y) = 2y+3$, $g^{-1}(2y+3) = \\frac{2y+3+1}{3} = \\frac{2y+4}{3}$, $f^{-1}(\\frac{2y+4}{3}) = \\frac{\\frac{2y+4}{3} - 3}{2} = \\frac{2y+4 - 9}{6} = \\frac{2y-5}{6}$, matching above. Proven.<br /><br />(c) **Units reaching depot C:**<br /><br />$g \\circ f(x) = 6x + 8$<br /><br />$\\text{For } x = 100: g \\circ f(100) = 6(100) + 8 = 600 + 8 = 608$<br /><br />$\\text{So 608 units reach depot C}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(g\\circ f)(x)=5x$, $(h\\circ g)(y)=\\frac{3y}{2}$ and $(h\\circ g\\circ f)(x)=3x$; none are invertible.<br />(b) $(h\\circ g\\circ f)^{-1}(y)=\\frac{y}{3}$.<br />(c) $300$ units reach depot C.",
+    "B": "(a) $(g\\circ f)(x)=6x+8$, $(h\\circ g)(y)=\\frac{3y-4}{2}$ and $(h\\circ g\\circ f)(x)=\\frac{6x+5}{2}$; only $g\\circ f$ is invertible.<br />(b) No inverse exists for $h\\circ g\\circ f$.<br />(c) $108$ units reach depot C.",
+    "C": "(a) $(g\\circ f)(x)=6x+8$, $(h\\circ g)(y)=3y-4$ and $(h\\circ g\\circ f)(x)=6x+5$; all are not invertible.<br />(b) $(h\\circ g\\circ f)^{-1}(y)=\\frac{y-5}{6}$.<br />(c) $600$ units reach depot C.",
+    "D": "(a) $(g\\circ f)(x)=6x+8$, $(h\\circ g)(y)=\\frac{3y-4}{2}$ and $(h\\circ g\\circ f)(x)=\\frac{6x+5}{2}$; all are invertible because they are linear with nonzero slope.<br />(b) $(h\\circ g\\circ f)^{-1}(y)=\\frac{2y-5}{6}=f^{-1}(g^{-1}(h^{-1}(y)))$.<br />(c) $(g\\circ f)(100)=608$, so $608$ units reach depot C."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:28:26 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

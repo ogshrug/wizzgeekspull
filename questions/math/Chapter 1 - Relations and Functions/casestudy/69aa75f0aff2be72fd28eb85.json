@@ -1,0 +1,33 @@
+{
+  "id": "69aa75f0aff2be72fd28eb85",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Read the following text carefully and answer the questions that follow:<br /><br />Sherlin and Danju are playing Ludo at home during Covid - 19. While rolling the dice, Sherlin's sister Raji observed and noted the possible outcomes of the throw every time belongs to set {1, 2, 3, 4, 5, 6}. Let A be the set of players while B be the set of all possible outcomes.<br /><br />A = {S, D}, B = {1, 2, 3, 4, 5, 6}<br /><br />1) Let R : B → B be defined by R = {(x, y): y is divisible by x}. Determine whether R is Reflexive, symmetric or transitive.<br /><br />2) Raji wants to know the number of functions from A to B. How many number of functions are possible?<br /><br />3) Let R be a relation on B defined by R = {(1, 2), (2, 2), (1, 3), (3, 4), (3, 1), (4, 3), (5, 5)}. Then describe R.",
+  "answeroption": "B",
+  "explanation": "1) $R = \\{(x, y): y \\text{ is divisible by } x\\}$ on $B = \\{1, 2, 3, 4, 5, 6\\}$<br /><br />Reflexive: Check if $(x,x) \\in R$ for all $x \\in B$<br /><br />$x$ is always divisible by $x$<br /><br />So $(1,1), (2,2), ..., (6,6) \\in R$ ✓ Reflexive<br /><br />Symmetric: If $(x,y) \\in R$, is $(y,x) \\in R$?<br /><br />Counterexample: $(1,2) \\in R$ (2 divisible by 1)<br /><br />But $(2,1) \\notin R$ (1 not divisible by 2)<br /><br />So NOT symmetric<br /><br />Transitive: If $(x,y) \\in R$ and $(y,z) \\in R$, is $(x,z) \\in R$?<br /><br />If $y$ divisible by $x$ and $z$ divisible by $y$<br /><br />Then $z$ divisible by $x$ ✓ Transitive<br /><br />2) Number of functions from $A$ to $B$:<br /><br />$A$ has 2 elements, $B$ has 6 elements<br /><br />Each element of $A$ has 6 choices in $B$<br /><br />Total functions = $6^2 = 36$<br /><br />3) $R = \\{(1,2), (2,2), (1,3), (3,4), (3,1), (4,3), (5,5)\\}$<br /><br />Check properties:<br /><br />Reflexive: Missing $(1,1), (3,3), (4,4), (6,6)$ → NOT reflexive<br /><br />Symmetric: Check pairs:<br /><br />$(1,2) \\in R$ but $(2,1) \\notin R$ → NOT symmetric<br /><br />$(1,3) \\in R$ but $(3,1) \\in R$ ✓<br /><br />$(3,4) \\in R$ but $(4,3) \\in R$ ✓<br /><br />So NOT symmetric overall<br /><br />Transitive: Check:<br /><br />$(3,1) \\in R$ and $(1,2) \\in R$ but $(3,2) \\notin R$ → NOT transitive<br /><br />So $R$ is none of reflexive, symmetric, or transitive",
+  "explanation_image": [],
+  "options": {
+    "A": "1) $R$ is reflexive, symmetric and transitive.<br />2) Number of functions from $A$ to $B$ is $2^6=64$.<br />3) The given relation is reflexive and symmetric.",
+    "B": "1) $R=\\{(x,y):y$ is divisible by $x\\}$ is reflexive and transitive but not symmetric.<br />2) Number of functions from $A$ to $B$ is $6^2=36$.<br />3) The given relation is neither reflexive, symmetric nor transitive.",
+    "C": "1) $R$ is symmetric but not reflexive and not transitive.<br />2) Number of functions from $A$ to $B$ is $2^2=4$.<br />3) The given relation is an equivalence relation.",
+    "D": "1) $R$ is transitive only.<br />2) Number of functions from $A$ to $B$ is $6$.<br />3) The given relation is reflexive but not symmetric."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:36:32 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

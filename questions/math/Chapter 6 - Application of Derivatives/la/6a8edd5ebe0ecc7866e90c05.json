@@ -1,0 +1,31 @@
+{
+  "id": "6a8edd5ebe0ecc7866e90c05",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "LA",
+  "question": "For a real parameter $k$, consider the function $f(x)=x^3-3x^2+kx+2$.<br><br>(a) Determine all values of $k$ for which $f'(x)\\geq 0$ for every real $x$, and hence $f$ is increasing on $\\mathbb{R}$.<br><br>(b) For the least value of $k$ obtained in part (a), find the critical point of $f$.<br><br>(c) For values of $k$ greater than this least value, determine whether the function has any critical point.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br><b>Differentiation</b><br>$$f'(x)=3x^2-6x+k$$<br>Completing the square,<br>$$f'(x)=3(x-1)^2+k-3$$<br>Since $3(x-1)^2\\geq 0$ for every real $x$, the least value of $f'(x)$ is $k-3$, attained at $x=1$.<br>For $f'(x)\\geq 0$ for every real $x$, we require<br>$$k-3\\geq 0$$<br>Therefore,<br>$$k\\geq 3$$<br>Hence, $f$ is increasing on $\\mathbb{R}$ for $k\\geq 3$.<br><br><b>(b)</b><br>The least permissible value is $k=3$. In this case,<br>$$f'(x)=3(x-1)^2$$<br>Thus,<br>$$f'(x)=0\\iff x=1$$<br>Therefore, the critical point is $x=1$.<br><br><b>(c)</b><br>For $k>3$,<br>$$f'(x)=3(x-1)^2+k-3>0$$<br>for every real $x$. Therefore, $f'(x)$ never vanishes and the function is differentiable everywhere.<br>Hence, for $k>3$, the function has no critical point and is strictly increasing throughout $\\mathbb{R}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $k>3$<br>(b) At $k=3$, critical point $x=0$<br>(c) For $k>3$, two critical points occur",
+    "B": "(a) $k\\leq3$<br>(b) At $k=3$, critical point $x=1$<br>(c) For $k>3$, there is one critical point",
+    "C": "(a) $k\\geq3$<br>(b) At $k=3$, critical point $x=1$<br>(c) For $k>3$, there is no critical point",
+    "D": "(a) $k\\geq0$<br>(b) At $k=0$, critical point $x=1$<br>(c) For $k>0$, there is no critical point"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

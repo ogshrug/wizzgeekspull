@@ -1,0 +1,29 @@
+{
+  "id": "6a901bb6751910886affba26",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "LA",
+  "question": "A line passes through the points $A(1,-1,2)$ and $B(3,0,4)$. Determine the acute angle made by this line with the plane $x+2y+2z=7$, and hence establish whether the line is parallel, perpendicular or oblique to the plane.",
+  "answeroption": "B",
+  "explanation": "<b>Given Information</b><br>A direction vector of the line through $A(1,-1,2)$ and $B(3,0,4)$ is<br>$$\\overrightarrow{AB}=(3-1)\\hat{i}+(0+1)\\hat{j}+(4-2)\\hat{k}=2\\hat{i}+\\hat{j}+2\\hat{k}$$<br>Thus, $\\vec{b}=2\\hat{i}+\\hat{j}+2\\hat{k}$. A normal vector to the plane $x+2y+2z=7$ is<br>$$\\vec{n}=\\hat{i}+2\\hat{j}+2\\hat{k}$$<br><br><b>Applying the Formula</b><br>If $\\phi$ is the acute angle between a line with direction vector $\\vec{b}$ and a plane with normal vector $\\vec{n}$, then<br>$$\\sin\\phi=\\frac{|\\vec{b}\\cdot\\vec{n}|}{{|\\vec{b}||\\vec{n}|}$$<br>Now,<br>$$\\vec{b}\\cdot\\vec{n}=2(1)+1(2)+2(2)=8$$<br>Also,<br>$$|\\vec{b}|=\\sqrt{2^2+1^2+2^2}=3$$<br>and<br>$$|\\vec{n}|=\\sqrt{1^2+2^2+2^2}=3$$<br>Hence,<br>$$\\sin\\phi=\\frac{8}{9}$$<br>Therefore,<br>$$\\phi=\\sin^{-1}\\left(\\frac{8}{9}\\right)$$<br><br><b>Verification</b><br>Since $\\vec{b}\\cdot\\vec{n}=8$ is non-zero, the line is not parallel to the plane. Also, $(2,1,2)$ is not proportional to $(1,2,2)$, so the line is not parallel to the normal and therefore is not perpendicular to the plane.<br><br><b>Final Result</b><br>The acute angle between the line and the plane is $\\sin^{-1}\\left(\\frac{8}{9}\\right)$, and the line is oblique to the plane.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\phi=\\cos^{-1}\\left(\\frac{8}{9}\\right)$; the line is perpendicular to the plane.",
+    "B": "$\\phi=\\sin^{-1}\\left(\\frac{8}{9}\\right)$; the line is oblique to the plane.",
+    "C": "$\\phi=\\sin^{-1}\\left(\\frac{1}{9}\\right)$; the line is parallel to the plane.",
+    "D": "$\\phi=90^\\circ$; the line is perpendicular to the plane."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

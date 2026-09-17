@@ -1,0 +1,33 @@
+{
+  "id": "6a22a0b4864be73cfcf6d26c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "MCQ",
+  "question": "Given a curve $y=7x-x^{3}$ and x increases at the rate of 2 units per second. The rate at which the slope of the curve is changing, when $x=5$ is:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Let the slope of the curve be denoted by $m$. The slope is the first derivative of the curve equation with respect to $x$. So, $m = \\frac{dy}{dx} = \\frac{d}{dx}(7x - x^3) = 7 - 3x^2$.<br />**Step 2:** We are given that $x$ increases at a constant rate of 2 units per second. This means $\\frac{dx}{dt} = 2$.<br />**Step 3:** We need to find the rate at which the slope is changing with respect to time, which is $\\frac{dm}{dt}$. Using the chain rule, $\\frac{dm}{dt} = \\frac{dm}{dx} \\cdot \\frac{dx}{dt}$.<br />**Step 4:** First, find $\\frac{dm}{dx}$ by differentiating $m = 7 - 3x^2$ with respect to $x$. This gives $\\frac{dm}{dx} = -6x$. Therefore, $\\frac{dm}{dt} = -6x \\cdot \\frac{dx}{dt}$.<br />**Step 5:** Substitute the given values $x = 5$ and $\\frac{dx}{dt} = 2$ into the equation. $\\frac{dm}{dt} = -6(5) \\cdot 2 = -30 \\cdot 2 = -60$. The rate of change of slope is $-60$ units/sec.",
+  "explanation_image": [],
+  "options": {
+    "A": "-60 units/sec",
+    "B": "60 units/sec",
+    "C": "-70 units/sec",
+    "D": "-140 units/sec"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

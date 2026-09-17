@@ -1,0 +1,29 @@
+{
+  "id": "6a8e95974b490c7cde3593f7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "SA",
+  "question": "Using determinants, obtain the equation of the line passing through $(-1,2)$ and $(2,-4)$. Hence, verify whether $(3,-6)$ lies on this line.",
+  "answeroption": "D",
+  "explanation": "<b>Determinant condition for the line</b><br>Let $(x,y)$ be an arbitrary point on the required line. Then, $$\\begin{vmatrix}x&y&1\\\\-1&2&1\\\\2&-4&1\\end{vmatrix}=0$$<br><b>Expansion of the determinant</b><br>Expanding along the first row gives $$x(2+4)-y(-1-2)+[4-4]=0$$ Therefore, $$6x+3y=0$$<br><b>Equation of the line</b><br>Dividing by $3$, the required equation is $$2x+y=0$$<br><b>Verification of the given point</b><br>For $(3,-6)$, $$2(3)+(-6)=0$$ Hence, $(3,-6)$ satisfies the equation and lies on the line.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2x-y=0$; $(3,-6)$ does not lie on the line.",
+    "B": "$x+2y=0$; $(3,-6)$ lies on the line.",
+    "C": "$2x+y=0$; $(3,-6)$ does not lie on the line.",
+    "D": "$2x+y=0$; $(3,-6)$ lies on the line."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

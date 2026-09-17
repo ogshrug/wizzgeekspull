@@ -1,0 +1,31 @@
+{
+  "id": "6a2fe4b393496b2e4e0e7636",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\sqrt{\\frac{1+\\cos x}{1-\\cos x}}dx$ is equal to :",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Apply half-angle trigonometric formulas to simplify the terms inside the radical: $1 + \\cos x = 2\\cos^2\\frac{x}{2}$ and $1 - \\cos x = 2\\sin^2\\frac{x}{2}$.<br />**Step 2:** Substituting these makes the integrand $\\sqrt{\\frac{2\\cos^2(x/2)}{2\\sin^2(x/2)}} = \\sqrt{\\cot^2\\frac{x}{2}} = \\cot\\frac{x}{2}$.<br />**Step 3:** Integrating $\\cot\\frac{x}{2}$ yields $\\frac{\\ln|\\sin(x/2)|}{1/2} + C = 2\\ln|\\sin\\frac{x}{2}| + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2\\log|\\sin\\frac{x}{2}|+C$",
+    "B": "$\\frac{1}{2}\\log|\\sin 2x|+C$",
+    "C": "$\\log|1-\\cos 2x|+C$",
+    "D": "$\\log|1+\\cos 2x|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

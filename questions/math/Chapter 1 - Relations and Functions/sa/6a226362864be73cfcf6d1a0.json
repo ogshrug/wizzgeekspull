@@ -1,0 +1,29 @@
+{
+  "id": "6a226362864be73cfcf6d1a0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Let $R$ be a relation defined over $\\mathbb{N}$, where $\\mathbb{N}$ is set of natural numbers, defined as \"$mRn$ if and only if $m$ is a multiple of $n$, $m, n \\in \\mathbb{N}$\". Find whether $R$ is reflexive, symmetric and transitive or not.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Check for Reflexivity. A relation is reflexive if every element relates to itself ($mRm$). For any natural number $m$, we can write $m = 1 \\times m$. This means every number is a multiple of itself. Since $mRm$ holds true for all $m \\in \\mathbb{N}$, the relation $R$ is reflexive.<br />**Step 2:** Check for Symmetry. A relation is symmetric if $mRn$ implies $nRm$. Assume $mRn$, meaning $m$ is a multiple of $n$. For example, $4$ is a multiple of $2$ ($4R2$). However, $2$ is not a multiple of $4$. Therefore, $nRm$ does not necessarily hold. The relation $R$ is not symmetric.<br />**Step 3:** Check for Transitivity. A relation is transitive if $mRn$ and $nRp$ implies $mRp$. Assume $mRn$ ($m=k_1n$ for some integer $k_1$) and $nRp$ ($n=k_2p$ for some integer $k_2$). Substitute $n$ into the first equation: $m = k_1(k_2p) = (k_1k_2)p$. Since $k_1k_2$ is an integer, $m$ is a multiple of $p$. Thus, $mRp$ holds. The relation $R$ is transitive.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

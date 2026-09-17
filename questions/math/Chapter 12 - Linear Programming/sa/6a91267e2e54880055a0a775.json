@@ -1,0 +1,31 @@
+{
+  "id": "6a91267e2e54880055a0a775",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "SA",
+  "question": "A small factory produces two articles $A$ and $B$. Each unit of $A$ requires $2$ hours on machine I and $1$ hour on machine II, while each unit of $B$ requires $1$ hour on machine I and $2$ hours on machine II. At most $18$ hours are available on each machine. The profit is ₹300 on each unit of $A$ and ₹500 on each unit of $B$. If $x$ and $y$ denote the numbers of units of $A$ and $B$, respectively:<br>(i) Form the constraints.<br>(ii) Obtain the objective function and state whether it is to be maximised or minimised.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Forming the machine-I constraint</b><br>For $x$ units of $A$ and $y$ units of $B$, the time required on machine I is $2x+y$ hours. Since at most $18$ hours are available, $$2x+y\\leq18$$<br><b>Step 2: Forming the machine-II constraint</b><br>The corresponding time on machine II is $x+2y$ hours. Hence, $$x+2y\\leq18$$<br><b>Step 3: Applying non-negative restrictions</b><br>The numbers of articles cannot be negative. Therefore, $$x\\geq0,\\quad y\\geq0$$<br><b>Step 4: Constructing the objective function</b><br>The total profit is ₹$300x$ from article $A$ and ₹$500y$ from article $B$. Thus, $$Z=300x+500y$$<br><b>Step 5: Identifying the optimisation requirement</b><br>Since the factory seeks the greatest possible profit, the required linear programming problem is to maximise $Z=300x+500y$ subject to the stated constraints.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $2x+y\\leq18$, $x+2y\\leq18$, $x,y\\geq0$<br>(ii) Maximise $Z=300x+500y$",
+    "B": "(i) $2x+y\\geq18$, $x+2y\\geq18$, $x,y\\geq0$<br>(ii) Maximise $Z=300x+500y$",
+    "C": "(i) $x+2y\\leq18$, $2x+y\\leq18$, $x,y\\geq0$<br>(ii) Minimise $Z=300x+500y$",
+    "D": "(i) $2x+y\\leq18$, $x+2y\\leq18$, $x,y\\geq0$<br>(ii) Minimise $Z=500x+300y$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

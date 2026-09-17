@@ -1,0 +1,28 @@
+{
+  "id": "6a266a7e864be73cfcf6d374",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{-2}^{2}\\frac{x^{2}}{1+5^{x}}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the given definite integral be $I = \\int_{-2}^{2}\\frac{x^{2}}{1+5^{x}}dx$ (Equation 1). We apply the definitive property $\\int_{a}^{b} f(x) dx = \\int_{a}^{b} f(a+b-x) dx$. Here, limits sum to $a+b = -2 + 2 = 0$, so we substitute $(-x)$ in place of $x$ in the integrand: $I = \\int_{-2}^{2} \\frac{(-x)^2}{1+5^{-x}} dx = \\int_{-2}^{2} \\frac{x^2}{1 + \\frac{1}{5^x}} dx$.<br />**Step 2:** Simplify the fraction inside the integrand by finding a common denominator: $I = \\int_{-2}^{2} \\frac{x^2}{\\frac{5^x + 1}{5^x}} dx = \\int_{-2}^{2} \\frac{5^x \\cdot x^2}{1+5^x} dx$ (Equation 2).<br />**Step 3:** Add Equation 1 and Equation 2 together. Since they share identical limits and denominators, their numerators combine directly: $2I = \\int_{-2}^{2} \\frac{x^2 + 5^x \\cdot x^2}{1+5^x} dx = \\int_{-2}^{2} \\frac{x^2(1+5^x)}{1+5^x} dx$. The terms cancel out, leaving: $2I = \\int_{-2}^{2} x^2 dx$.<br />**Step 4:** Integrate the remaining even function. By symmetry, $\\int_{-2}^{2} x^2 dx = 2\\int_{0}^{2} x^2 dx$, so $2I = 2\\int_{0}^{2} x^2 dx \\implies I = [\\frac{x^3}{3}]_{0}^{2} = \\frac{8}{3} - 0 = \\frac{8}{3}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

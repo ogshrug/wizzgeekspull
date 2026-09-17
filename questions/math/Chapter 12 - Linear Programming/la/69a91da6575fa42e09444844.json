@@ -1,0 +1,29 @@
+{
+  "id": "69a91da6575fa42e09444844",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "A bicycle manufacturer makes frames and wheels, using steel and machine hours. Each frame needs 3 kg steel and 1 hour, each wheel needs 2 kg steel and 0.5 hour. Weekly limits: 180 kg steel, 60 hours. Maximum 40 frames due to demand. Each frame gets ₹400 profit, each wheel ₹150. Find the production plan for maximum profit and check if alternate optima are present.",
+  "answeroption": "D",
+  "explanation": "Let $x =$ frames, $y =$ wheels<br /><br />$3x+2y\\leq180$ (steel), $x+0.5y\\leq60$ (hours), $x\\leq40$, $x,y\\geq0$<br /><br />Maximize $Z=400x+150y$<br /><br />$x=0: 2y\\leq180\\implies y\\leq90; 0.5y\\leq60\\implies y\\leq120$; so $y\\leq90$<br /><br />$y=0: 3x\\leq180\\implies x\\leq60; x\\leq40$; so $x\\leq40$<br /><br />$x+0.5y=60\\implies x=60-0.5y$<br /><br />$3x+2y=180\\implies x=(180-2y)/3$<br /><br />$x=(180-2y)/3=60-0.5y$<br /><br />$180-2y=180-1.5y\\implies -2y=-1.5y\\implies y=0$<br /><br />At $y=0$, $x=60$, but $x\\leq40$.<br /><br />Try $x=40:\\ 3\\times40+2y=180\\implies 120+2y=180\\implies y=30$<br /><br />Also $x+0.5\\times30=40+15=55\\leq60$<br /><br />Try $x=40,y=30: Z=16,000+4,500=20,500$<br /><br />At $x=0,y=90$, $Z=150\\times90=13,500$<br /><br />At $x=40,y=0, Z=16,000$<br /><br />Maximum profit is ₹20,500 at $x=40, y=30$; no alternate optima since no other corner yields same $Z$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 0 frames and 90 wheels; maximum profit ₹13,500; no alternate optima.",
+    "B": "Produce 40 frames and 0 wheels; maximum profit ₹16,000; no alternate optima.",
+    "C": "Produce 60 frames and 0 wheels; maximum profit ₹24,000; alternate optima exist.",
+    "D": "Produce 40 frames and 30 wheels; maximum profit ₹20,500; no alternate optima."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:07:34 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

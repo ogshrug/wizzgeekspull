@@ -1,0 +1,29 @@
+{
+  "id": "69a95be8589ce36f368b47d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "Solve: $x \\frac{dy}{dx} + y = x^2 \\sin(x)$, given that $y(\\pi) = 0$.",
+  "answeroption": "B",
+  "explanation": "Given:<br /><br />$x \\frac{dy}{dx} + y = x^2 \\sin(x)$<br /><br />Rewrite as:<br /><br />$\\frac{dy}{dx} + \\frac{y}{x} = x \\sin(x)$<br /><br />This is a linear differential equation.<br /><br />$P(x) = \\frac{1}{x}$, $Q(x) = x \\sin(x)$<br /><br />Integrating factor:<br /><br />$IF = e^{\\int \\frac{1}{x} dx} = e^{\\ln |x|} = |x|$<br /><br />Multiply both sides by $x$:<br /><br />$x \\frac{dy}{dx} + y = x^2 \\sin(x)$<br /><br />$\\Rightarrow \\frac{d}{dx}(y x) = x^2 \\sin x$<br /><br />Integrate both sides:<br /><br />$y x = \\int x^2 \\sin x dx + C$<br /><br />Let us use integration by parts with $u = x^2$, $dv = \\sin x dx$<br /><br />$du = 2x dx$, $v = -\\cos x$<br /><br />So,<br /><br />$\\int x^2 \\sin x dx = -x^2 \\cos x + \\int 2x \\cos x dx$<br /><br />Now, $\\int 2x \\cos x dx$:<br /><br />Let $u = 2x$, $dv = \\cos x dx$<br /><br />$du = 2 dx$, $v = \\sin x$<br /><br />$\\int 2x \\cos x dx = 2x \\sin x - \\int 2 \\sin x dx = 2x \\sin x + 2 \\cos x$<br /><br />Thus,<br /><br />$\\int x^2 \\sin x dx = -x^2 \\cos x + 2x \\sin x + 2 \\cos x$<br /><br />So,<br /><br />$y x = -x^2 \\cos x + 2x \\sin x + 2 \\cos x + C$<br /><br />$\\implies y = -x \\cos x + 2 \\sin x + \\frac{2 \\cos x}{x} + \\frac{C}{x}$<br /><br />Apply initial condition $y(\\pi) = 0$:<br /><br />$0 = -\\pi \\cos \\pi + 2 \\sin \\pi + \\frac{2 \\cos \\pi}{\\pi} + \\frac{C}{\\pi}$<br /><br />$\\cos\\pi = -1, \\sin\\pi = 0$<br /><br />$0 = -\\pi (-1) + 0 + \\frac{2 (-1)}{\\pi} + \\frac{C}{\\pi}$<br /><br />$0 = \\pi - \\frac{2}{\\pi} + \\frac{C}{\\pi}$<br /><br />$\\Rightarrow \\frac{C}{\\pi} = -\\pi + \\frac{2}{\\pi}$<br /><br />$C = -\\pi^2 + 2$<br /><br />So, the particular solution is:<br /><br />$y = -x \\cos x + 2 \\sin x + \\frac{2 \\cos x - x^2 + 2}{x}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=-x\\cos x+2\\sin x+\\frac{2\\cos x+x^2+2}{x}$",
+    "B": "$y=-x\\cos x+2\\sin x+\\frac{2\\cos x-\\pi^2+2}{x}$",
+    "C": "$y=x\\cos x+2\\sin x+\\frac{2\\cos x-\\pi^2+2}{x}$",
+    "D": "$y=-x\\cos x-2\\sin x+\\frac{2\\cos x-\\pi^2+2}{x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:33:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

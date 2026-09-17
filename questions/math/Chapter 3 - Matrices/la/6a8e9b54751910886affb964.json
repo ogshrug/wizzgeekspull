@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9b54751910886affb964",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5b",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "LA",
+  "question": "For $$A=\\begin{bmatrix}1&2\\\\-1&3\\end{bmatrix},\\quad B=\\begin{bmatrix}2&0\\\\1&4\\end{bmatrix},\\quad C=\\begin{bmatrix}3&-1\\\\2&1\\end{bmatrix},$$ evaluate $A(B+C)$ and $AB+AC$ separately and thereby verify the distributive property of matrix multiplication over matrix addition for these matrices.",
+  "answeroption": "C",
+  "explanation": "<b>Evaluation of $A(B+C)$</b><br><br>First, $$B+C=\\begin{bmatrix}2&0\\\\1&4\\end{bmatrix}+\\begin{bmatrix}3&-1\\\\2&1\\end{bmatrix}=\\begin{bmatrix}5&-1\\\\3&5\\end{bmatrix}$$ Hence, $$A(B+C)=\\begin{bmatrix}1&2\\\\-1&3\\end{bmatrix}\\begin{bmatrix}5&-1\\\\3&5\\end{bmatrix}$$ $$=\\begin{bmatrix}1(5)+2(3)&1(-1)+2(5)\\\\(-1)(5)+3(3)&(-1)(-1)+3(5)\\end{bmatrix}=\\begin{bmatrix}11&9\\\\4&16\\end{bmatrix}$$<br><br><b>Evaluation of $AB+AC$</b><br><br>We have $$AB=\\begin{bmatrix}1&2\\\\-1&3\\end{bmatrix}\\begin{bmatrix}2&0\\\\1&4\\end{bmatrix}=\\begin{bmatrix}4&8\\\\1&12\\end{bmatrix}$$ Also, $$AC=\\begin{bmatrix}1&2\\\\-1&3\\end{bmatrix}\\begin{bmatrix}3&-1\\\\2&1\\end{bmatrix}=\\begin{bmatrix}7&1\\\\3&4\\end{bmatrix}$$ Therefore, $$AB+AC=\\begin{bmatrix}4&8\\\\1&12\\end{bmatrix}+\\begin{bmatrix}7&1\\\\3&4\\end{bmatrix}=\\begin{bmatrix}11&9\\\\4&16\\end{bmatrix}$$ Thus, $$A(B+C)=AB+AC$$ and the distributive property is verified for the given matrices.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A(B+C)=AB+AC=\\begin{bmatrix}11&9\\\\3&16\\end{bmatrix}$",
+    "B": "$A(B+C)=AB+AC=\\begin{bmatrix}11&8\\\\4&16\\end{bmatrix}$",
+    "C": "$A(B+C)=AB+AC=\\begin{bmatrix}11&9\\\\4&16\\end{bmatrix}$",
+    "D": "$A(B+C)=AB+AC=\\begin{bmatrix}9&11\\\\16&4\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

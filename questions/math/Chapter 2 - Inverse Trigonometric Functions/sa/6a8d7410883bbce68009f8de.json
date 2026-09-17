@@ -1,0 +1,30 @@
+{
+  "id": "6a8d7410883bbce68009f8de",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "For $x\\in[-1,1]$, determine the range of $$f(x)=\\sin^{-1}x+\\cos^{-1}x.$$ Justify whether the function assumes more than one value.",
+  "answeroption": "B",
+  "explanation": "<b>Complementary inverse relation</b><br>For every $x\\in[-1,1]$, the inverse sine and inverse cosine functions satisfy $$\\sin^{-1}x+\\cos^{-1}x=\\frac{\\pi}{2}.$$<br><br><b>Application to the given function</b><br>Substituting this property directly into the definition of $f$, we obtain $$f(x)=\\frac{\\pi}{2}$$ for every $x\\in[-1,1]$.<br><br><b>Range determination</b><br>Since the output does not change with $x$, the function assumes only one value. Therefore, its range is the singleton set $$\\left\\{\\frac{\\pi}{2}\\right\\}.$$<br><br><b>Endpoint verification</b><br>At $x=-1$, $f(-1)=-\\frac{\\pi}{2}+\\pi=\\frac{\\pi}{2}$. At $x=1$, $f(1)=\\frac{\\pi}{2}+0=\\frac{\\pi}{2}$. Thus, even at the endpoints, no additional output value occurs.",
+  "explanation_image": [],
+  "options": {
+    "A": "Range: $[0,\\pi]$; the function assumes infinitely many values",
+    "B": "Range: $\\left\\{\\frac{\\pi}{2}\\right\\}$; the function assumes only one value",
+    "C": "Range: $\\left\\{-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right\\}$; the function assumes two values",
+    "D": "Range: $(0,\\pi)$; the function assumes every value in this interval"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

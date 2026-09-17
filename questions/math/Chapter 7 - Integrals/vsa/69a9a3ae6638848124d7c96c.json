@@ -1,0 +1,29 @@
+{
+  "id": "69a9a3ae6638848124d7c96c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f(x)=\\frac{e^x}{1+e^{2x}}$. Find $\\int f(x)dx$.",
+  "answeroption": "D",
+  "explanation": "Let $u=e^x$, then $du=e^x dx$.<br /><br />Integral becomes $\\int \\frac{1}{1+u^2}du$.<br /><br />$=\\tan^{-1}(u)+C$.<br /><br />Substitute back $u=e^x$.<br /><br />Result: $\\tan^{-1}(e^x)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan^{-1}x+C$",
+    "B": "$\\ln(1+e^{2x})+C$",
+    "C": "$\\frac{1}{2}\\tan^{-1}(e^x)+C$",
+    "D": "$\\tan^{-1}(e^x)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:39:26 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

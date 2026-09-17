@@ -1,0 +1,29 @@
+{
+  "id": "6a8e97584b490c7cde3593ff",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6c"
+  ],
+  "question_type": "SA",
+  "question": "For $A=\\begin{bmatrix}k&1&2\\\\3&4&0\\\\1&2&5\\end{bmatrix}$, determine $k$ if the minors $M_{11}$ and $M_{22}$ are equal. Verify the equality for the obtained value.",
+  "answeroption": "C",
+  "explanation": "<b>Calculation of $M_{11}$</b><br>Deleting the first row and first column gives $$M_{11}=\\begin{vmatrix}4&0\\\\2&5\\end{vmatrix}=20$$<br><b>Calculation of $M_{22}$</b><br>Deleting the second row and second column gives $$M_{22}=\\begin{vmatrix}k&2\\\\1&5\\end{vmatrix}=5k-2$$<br><b>Application of the equality</b><br>Since $M_{11}=M_{22}$, $$20=5k-2$$ Thus, $$5k=22$$ and $$k=\\frac{22}{5}$$<br><b>Verification</b><br>For $k=\\frac{22}{5}$, $$M_{22}=5\\left(\\frac{22}{5}\\right)-2=22-2=20=M_{11}$$<br>Hence, $k=\\frac{22}{5}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=\\frac{18}{5}$",
+    "B": "$k=\\frac{20}{5}$",
+    "C": "$k=\\frac{22}{5}$",
+    "D": "$k=\\frac{24}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

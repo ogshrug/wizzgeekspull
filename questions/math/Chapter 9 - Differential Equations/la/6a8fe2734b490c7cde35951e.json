@@ -1,0 +1,32 @@
+{
+  "id": "6a8fe2734b490c7cde35951e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99d",
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f",
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "Examine the equation $$e^y\\left(\\frac{d^2y}{dx^2}\\right)^4+x\\left(\\frac{dy}{dx}\\right)^3-y=0.$$ Establish that it is an ordinary differential equation and determine its order and degree. Justify carefully why the occurrence of $e^y$ does not prevent the degree from being defined.",
+  "answeroption": "A",
+  "explanation": "<b>Identification of the Equation</b><br>The equation contains the dependent variable $y$ together with its derivatives $\\frac{dy}{dx}$ and $\\frac{d^2y}{dx^2}$. Hence, it is a differential equation.<br><br><b>Type of Differential Equation</b><br>All derivatives are taken with respect to the single independent variable $x$. Therefore, the given equation is an ordinary differential equation.<br><br><b>Determination of Order</b><br>The highest order derivative occurring is $\\frac{d^2y}{dx^2}$. Hence, the order of the differential equation is $2$.<br><br><b>Determination of Degree</b><br>The degree is defined when the equation is polynomial in its derivatives. Here, the derivatives occur as $\\left(\\frac{d^2y}{dx^2}\\right)^4$ and $\\left(\\frac{dy}{dx}\\right)^3$, so the equation is polynomial in the derivatives. The factor $e^y$ is a function of the dependent variable $y$ and not of a derivative; therefore, it does not affect the polynomial character with respect to the derivatives. The highest order derivative $\\frac{d^2y}{dx^2}$ occurs with power $4$.<br><br><b>Final Result</b><br>The given equation is an ordinary differential equation of order $2$ and degree $4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Ordinary differential equation; order $2$, degree $4$",
+    "B": "Ordinary differential equation; order $4$, degree $3$",
+    "C": "Ordinary differential equation; order $2$, degree $3$",
+    "D": "Ordinary differential equation; order $4$, degree $2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

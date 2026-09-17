@@ -1,0 +1,30 @@
+{
+  "id": "69aa82a78e6d1957407fd1ca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5a",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 3: Computer Graphics – Transformation**<br /><br />A triangle in the plane has vertices $A(1,1)$, $B(3,1)$, and $C(1,4)$. Points are written as column vectors. The triangle is rotated $90^\\circ$ counterclockwise about the origin using the transformation matrix $R = \\begin{bmatrix} 0 & -1 \\\\ 1 & 0 \\end{bmatrix}$.<br /><br />(a) Find the images of $A$, $B$, and $C$ under the rotation.<br />(b) Compute the area of the triangle before and after rotation (using the matrix method, via determinant).<br />(c) Comment on how the transformation matrix affects the area and orientation.",
+  "answeroption": "B",
+  "explanation": "(a) Image of a point $P = \\begin{bmatrix} x \\\\ y \\end{bmatrix}$ is $R\\cdot P$.<br /><br />For $A(1,1)$:<br /><br />$R \\begin{bmatrix} 1 \\\\ 1 \\end{bmatrix} = \\begin{bmatrix} 0 \\times 1 + (-1) \\times 1 \\\\ 1 \\times 1 + 0 \\times 1 \\end{bmatrix} = \\begin{bmatrix} -1 \\\\ 1 \\end{bmatrix}$<br /><br />For $B(3,1)$:<br /><br />$R \\begin{bmatrix} 3 \\\\ 1 \\end{bmatrix} = \\begin{bmatrix} 0 \\times 3 + (-1) \\times 1 \\\\ 1 \\times 3 + 0 \\times 1 \\end{bmatrix} = \\begin{bmatrix} -1 \\\\ 3 \\end{bmatrix}$<br /><br />For $C(1,4)$:<br /><br />$R \\begin{bmatrix} 1 \\\\ 4 \\end{bmatrix} = \\begin{bmatrix} 0 \\times 1 + (-1) \\times 4 \\\\ 1 \\times 1 + 0 \\times 4 \\end{bmatrix} = \\begin{bmatrix} -4 \\\\ 1 \\end{bmatrix}$<br /><br />(b) Area of triangle with points $P_1(x_1, y_1), P_2(x_2, y_2), P_3(x_3, y_3)$:<br /><br />$A = \\dfrac{1}{2} \\left| \\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} \\right|$<br /><br />Original triangle:<br /><br />$\\begin{vmatrix} 1 & 1 & 1 \\\\ 3 & 1 & 1 \\\\ 1 & 4 & 1 \\end{vmatrix}$<br /><br />Expand:<br /><br />$1 \\begin{vmatrix} 1 & 1 \\\\ 4 & 1 \\end{vmatrix} - 1 \\begin{vmatrix} 3 & 1 \\\\ 1 & 1 \\end{vmatrix} + 1 \\begin{vmatrix} 3 & 1 \\\\ 1 & 4 \\end{vmatrix}$<br /><br />$= 1(1 \\times 1 - 1 \\times 4) -1 (3 \\times 1 - 1 \\times 1) + 1 (3 \\times 4 - 1 \\times 1)$<br /><br />$= 1(1-4) -1(3-1) +1(12-1)$<br /><br />$= 1(-3) -1(2) + 1(11)$<br /><br />$= -3 -2 + 11 = 6$<br /><br />Area $= \\dfrac{1}{2}|6| = 3$ units$^2$<br /><br />After rotation: Vertices $( -1,1 ), ( -1,3 ), ( -4,1 )$<br /><br />Determinant is:<br /><br />$\\begin{vmatrix} -1 & 1 & 1 \\\\ -1 & 3 & 1 \\\\ -4 & 1 & 1 \\end{vmatrix}$<br /><br />Expand:<br /><br />$-1 \\begin{vmatrix} 3 & 1 \\\\ 1 & 1 \\end{vmatrix} - 1 \\begin{vmatrix} -1 & 1 \\\\ -4 & 1 \\end{vmatrix} + 1 \\begin{vmatrix} -1 & 3 \\\\ -4 & 1 \\end{vmatrix}$<br /><br />$= -1(3-1) -1((-1 \\times 1) - (1 \\times -4)) + ((-1)(1)-3\\times-4)$<br /><br />$= -1(2)-1(-1+4)+(-1+12)$<br /><br />$= -2 - 3 + 11 = 6$<br /><br />Area $= \\dfrac{1}{2} |6| = 3$ units$^2$<br /><br />(c) The transformation matrix for rotation preserves area but changes the orientation. The determinant of $R$ is $+1$, so orientation is preserved. The absolute value of determinant gives the scale factor for area; since $| \\det R | = 1$, the area remains unchanged.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A'(1,-1)$, $B'(1,-3)$, $C'(4,-1)$.<br />(b) Area before rotation $=3$ square units and after rotation $=6$ square units.<br />(c) Since $\\det R=-1$, area changes and orientation is reversed.",
+    "B": "(a) $A'(-1,1)$, $B'(-1,3)$, $C'(-4,1)$.<br />(b) Area before rotation $=3$ square units and after rotation $=3$ square units.<br />(c) Since $\\det R=1$, the transformation preserves area and orientation.",
+    "C": "(a) $A'(1,1)$, $B'(3,1)$, $C'(1,4)$.<br />(b) Area before rotation $=6$ square units and after rotation $=6$ square units.<br />(c) Since $\\det R=0$, the triangle collapses.",
+    "D": "(a) $A'(-1,-1)$, $B'(-3,-1)$, $C'(-1,-4)$.<br />(b) Area before rotation $=3$ square units and after rotation $=0$ square units.<br />(c) The transformation is not invertible."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:30:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

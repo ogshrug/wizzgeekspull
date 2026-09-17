@@ -1,0 +1,28 @@
+{
+  "id": "6a265132864be73cfcf6d33b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "VSA",
+  "question": "Events A and B are such that $P(A)=\\frac{1}{2}$, $P(B)=\\frac{7}{12}$ and $P(\\overline{A}\\cup\\overline{B})=\\frac{1}{4}$. Find whether the events A and B are independent or not.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Two events $A$ and $B$ are mathematically independent if and only if they satisfy the multiplication criterion: $P(A \\cap B) = P(A) \\times P(B)$. We are given $P(A) = \\frac{1}{2}$ and $P(B) = \\frac{7}{12}$. We are also given $P(\\overline{A} \\cup \\overline{B}) = \\frac{1}{4}$. We first need to compute $P(A \\cap B)$ using this given value.<br />**Step 2:** According to De Morgan's laws from set theory, the union of complements is equal to the complement of the intersection, which means $\\overline{A} \\cup \\overline{B} = \\overline{A \\cap B}$. Therefore, we can rewrite the probability as $P(\\overline{A \\cap B}) = \\frac{1}{4}$. Using the complement rule for probability, we have $P(A \\cap B) = 1 - P(\\overline{A \\cap B}) = 1 - \\frac{1}{4} = \\frac{3}{4}$.<br />**Step 3:** Now, compute the product of the individual given probabilities: $P(A) \\times P(B) = \\frac{1}{2} \\times \\frac{7}{12} = \\frac{7}{24}$. Comparing our two values, we see that $P(A \\cap B) = \\frac{3}{4} = \\frac{18}{24}$, which is clearly not equal to $P(A) \\times P(B) = \\frac{7}{24}$. Since the multiplication criterion is not met, the events $A$ and $B$ are not independent.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1",
+    "2022-5-2",
+    "2022-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

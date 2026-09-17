@@ -1,0 +1,31 @@
+{
+  "id": "6a30f243ed9d5eb2aa722a00",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "MCQ",
+  "question": "Ashima can hit a target 2 out of 3 times. She tried to hit the target twice. The probability that she missed the target exactly once is",
+  "answeroption": "B",
+  "explanation": "**Step 1: Identify Individual Probabilities**  \nAshima's probability of hitting the target in a single attempt is $P(H) = \\frac{2}{3}$. Therefore, the probability of missing in a single attempt is $P(M) = 1 - \\frac{2}{3} = \\frac{1}{3}$.\n\n**Step 2: Define the Favorable Event**  \nWe need the probability that she misses exactly once in two attempts. This can occur in two mutually exclusive ways:  \n- First attempt hit, second attempt miss: $H \\, M$  \n- First attempt miss, second attempt hit: $M \\, H$\n\n**Step 3: Calculate the Required Probability**  \nSince the attempts are independent, the probability of each sequence is the product of individual probabilities:  \n$$P(HM) = P(H) \\times P(M) = \\frac{2}{3} \\times \\frac{1}{3} = \\frac{2}{9}$$  \n$$P(MH) = P(M) \\times P(H) = \\frac{1}{3} \\times \\frac{2}{3} = \\frac{2}{9}$$  \nAdding these mutually exclusive probabilities:  \n$$P(\\text{exactly one miss}) = \\frac{2}{9} + \\frac{2}{9} = \\frac{4}{9}$$\n\n**Step 4: Match with the Given Options**  \nThe correct option is $\\frac{4}{9}$, which corresponds to option **B**.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{3}$",
+    "B": "$\\frac{4}{9}$",
+    "C": "$\\frac{1}{3}$",
+    "D": "$\\frac{1}{9}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

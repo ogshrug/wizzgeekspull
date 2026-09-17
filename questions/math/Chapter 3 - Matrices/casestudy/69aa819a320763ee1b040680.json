@@ -1,0 +1,31 @@
+{
+  "id": "69aa819a320763ee1b040680",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Linear Transformation and Symmetry in Image Processing**<br /><br />An image is represented as a $2 \\times 2$ grayscale matrix $P = \\begin{bmatrix} 120 & 200 \\\\ 150 & 100 \\end{bmatrix}$.<br /><br />(a) Apply the transpose operation to $P$ and interpret the result in the context of image reflection.<br />(b) Construct a new matrix $Q$ such that $P + Q$ is symmetric and $P - Q$ is skew-symmetric. Find such a $Q$.<br />(c) Critically analyze the value of decomposing matrices into symmetric and skew-symmetric parts in image processing, and give an example scenario where these properties are exploited.",
+  "answeroption": "B",
+  "explanation": "(a)<br /><br />$P' = \\begin{bmatrix} 120 & 150 \\\\ 200 & 100 \\end{bmatrix}$<br /><br />Interpretation: Transposing the image matrix flips pixel values along the main diagonal—a reflection across the diagonal.<br /><br />(b)<br /><br />To construct $Q$: $P+Q$ symmetric, $P-Q$ skew-symmetric.<br /><br />Let $S=P+Q$ (symmetric), $K=P-Q$ (skew-symmetric).<br /><br />But $Q = S-P = P-K$. Thus, $Q=\\frac{1}{2}(S+K)$<br /><br />Alternatively, any $2\\times2$ matrix $A$ can be written as $A=\\frac{1}{2}(A+A') + \\frac{1}{2}(A-A')$<br /><br />So, $Q=\\frac{1}{2}(P'+P) - \\frac{1}{2}(P'-P)$<br /><br />But more directly, choose $Q = P'$<br /><br />Check:<br /><br />$P+Q = P+P'=$<br />$\\begin{bmatrix} 120+120 & 200+150 \\\\ 150+200 & 100+100 \\end{bmatrix}=\\begin{bmatrix} 240 & 350 \\\\ 350 & 200 \\end{bmatrix}$, which is symmetric.<br /><br />$P-Q=P-P'=\\begin{bmatrix} 0 & 50 \\\\ -50 & 0 \\end{bmatrix}$, skew-symmetric (as $a_{ij} = -a_{ji}$, diagonal zero).<br /><br />(c)<br /><br />Decomposing into symmetric/skew-symmetric reveals structure: symmetry relates to even features/balanced contrasts; skew-symmetry, odd features or gradients. In compression, filtering, or feature detection, these properties isolate useful image aspects (e.g., edge detection exploits skew-symmetric gradients).",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P'=P$.<br />(b) Choose $Q=0$, so $P+Q$ is symmetric and $P-Q$ is skew-symmetric.<br />(c) Decomposition has no use in image processing.",
+    "B": "(a) $P'=\\begin{bmatrix}120&150\\\\200&100\\end{bmatrix}$, representing reflection across the main diagonal.<br />(b) Choose $Q=P'=\\begin{bmatrix}120&150\\\\200&100\\end{bmatrix}$; then $P+Q=\\begin{bmatrix}240&350\\\\350&200\\end{bmatrix}$ is symmetric and $P-Q=\\begin{bmatrix}0&50\\\\-50&0\\end{bmatrix}$ is skew-symmetric.<br />(c) Symmetric and skew-symmetric decomposition helps separate balanced image structure from directional/edge-like features.",
+    "C": "(a) $P'=\\begin{bmatrix}100&150\\\\200&120\\end{bmatrix}$.<br />(b) Choose $Q=P$, so $P-Q=0$ and $P+Q$ is always skew-symmetric.<br />(c) It is useful only for diagonal matrices.",
+    "D": "(a) $P'$ is not defined because $P$ is not square.<br />(b) No such matrix $Q$ exists.<br />(c) Image matrices cannot be decomposed."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:26:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

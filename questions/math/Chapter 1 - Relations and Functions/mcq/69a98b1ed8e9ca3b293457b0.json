@@ -1,0 +1,30 @@
+{
+  "id": "69a98b1ed8e9ca3b293457b0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A = \\{a, b, c\\}$ and the relation $R$ be defined on $A$ as $R = \\{(a, a), (b, c), (a, b)\\}$. Then, find minimum number of ordered pairs to be added in $R$ to make $R$ reflexive and transitive.",
+  "answeroption": "A",
+  "explanation": "Given $R = \\{(a,a), (b,c), (a,b)\\}$ on $A = \\{a,b,c\\}$.<br /><br />For reflexivity, we need $(a,a)$, $(b,b)$ and $(c,c)$. Since $(a,a)$ already exists, we must add $(b,b)$ and $(c,c)$.<br /><br />For transitivity: since $(a,b) \\in R$ and $(b,c) \\in R$, we must include $(a,c)$.<br /><br />Thus the ordered pairs to add are $(b,b)$, $(c,c)$ and $(a,c)$.<br /><br />Minimum number of ordered pairs required = $3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$3$",
+    "B": "$1$",
+    "C": "$2$",
+    "D": "$4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:54:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

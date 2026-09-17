@@ -1,0 +1,29 @@
+{
+  "id": "6a8fcd944b490c7cde359504",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a mathematics activity, students are asked to evaluate an integral whose denominator is a quadratic expression that does not immediately resemble a standard form. The integral is $$I=\\int\\frac{dx}{x^2-6x+13}$$ They are advised to rewrite the quadratic by completing the square and then compare the resulting expression with one of the standard particular integrals. The activity requires them to recognise the correct standard form, evaluate the integral without factorising the quadratic into complex factors, and check the final antiderivative. The quadratic expression remains positive for every real $x$, so the integral is defined throughout the real number system.<br><br><b>(a)</b> Rewrite $x^2-6x+13$ by completing the square.<br><br><b>(b)</b> Identify the standard particular integral to which $I$ can be reduced.<br><br><b>(c)</b> Evaluate $I$.<br><br><b>(d)</b> Verify the obtained antiderivative by differentiation.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Completing the square, $$x^2-6x+13=x^2-6x+9+4=(x-3)^2+4$$ Therefore, $$x^2-6x+13=(x-3)^2+2^2$$<br><br><b>(b)</b><br>The integral is reduced to the standard form $$\\int\\frac{du}{u^2+a^2}=\\frac{1}{a}\\tan^{-1}\\left(\\frac{u}{a}\\right)+C$$ Here, $u=x-3$ and $a=2$.<br><br><b>(c)</b><br>Let $u=x-3$, so that $du=dx$. Then, $$I=\\int\\frac{du}{u^2+4}$$ Therefore, $$I=\\frac{1}{2}\\tan^{-1}\\left(\\frac{u}{2}\\right)+C$$ Hence, $$I=\\frac{1}{2}\\tan^{-1}\\left(\\frac{x-3}{2}\\right)+C$$<br><br><b>(d)</b><br>Differentiating, $$\\frac{d}{dx}\\left[\\frac{1}{2}\\tan^{-1}\\left(\\frac{x-3}{2}\\right)\\right]=\\frac{1}{(x-3)^2+4}=\\frac{1}{x^2-6x+13}$$ Thus, the result is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $x^2-6x+13=(x-3)^2+4$<br>(b) $\\int\\frac{du}{u^2+a^2}=\\frac{1}{a}\\tan^{-1}\\left(\\frac{u}{a}\\right)+C$<br>(c) $I=\\frac{1}{2}\\tan^{-1}\\left(\\frac{x-3}{2}\\right)+C$<br>(d) Differentiation gives $\\frac{1}{x^2-6x+13}$",
+    "B": "(a) $x^2-6x+13=(x-3)^2-4$<br>(b) $\\int\\frac{du}{u^2-a^2}$<br>(c) $I=\\frac{1}{4}\\log\\left|\\frac{x-5}{x-1}\\right|+C$<br>(d) Differentiation gives $\\frac{1}{x^2-6x+13}$",
+    "C": "(a) $x^2-6x+13=(x+3)^2+4$<br>(b) $\\int\\frac{du}{u^2+a^2}$<br>(c) $I=\\frac{1}{2}\\tan^{-1}\\left(\\frac{x+3}{2}\\right)+C$<br>(d) Differentiation gives $\\frac{1}{x^2+6x+13}$",
+    "D": "(a) $x^2-6x+13=(x-3)^2+4$<br>(b) $\\int\\frac{du}{\\sqrt{a^2-u^2}}$<br>(c) $I=\\sin^{-1}\\left(\\frac{x-3}{2}\\right)+C$<br>(d) Differentiation gives $\\frac{1}{\\sqrt{4-(x-3)^2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "69a8555696358125c95a0d57",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a",
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "SA",
+  "question": "Find the intervals in which the function $f(x) = x^4 - 4x^3 + 4x^2 + 5$ is strictly increasing and strictly decreasing.",
+  "answeroption": "B",
+  "explanation": "$f'(x)=4x(x-1)(x-2)$.<br /><br />Critical points: $0,1,2$.<br /><br />Testing intervals:<br /><br />For $(-\\infty,0)$, derivative negative so decreasing.<br /><br />For $(0,1)$, derivative positive so increasing.<br /><br />For $(1,2)$, derivative negative so decreasing.<br /><br />For $(2,\\infty)$, derivative positive so increasing.<br /><br />Thus increasing on $(0,1)$ and $(2,\\infty)$; decreasing on $(-\\infty,0)$ and $(1,2)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Increasing on $(-\\infty,0)$ and $(1,2)$; decreasing on $(0,1)$ and $(2,\\infty)$.",
+    "B": "Increasing on $(0,1)$ and $(2,\\infty)$; decreasing on $(-\\infty,0)$ and $(1,2)$.",
+    "C": "Increasing on $(-\\infty,1)$ and decreasing on $(1,\\infty)$.",
+    "D": "Increasing on $(-\\infty,\\infty)$ and decreasing nowhere."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:52:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

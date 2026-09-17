@@ -1,0 +1,26 @@
+{
+  "id": "6a1424322a89680e5835ce62",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "LA",
+  "question": "Show that the relation $S$ in set $\\mathbb{R}$ of real numbers defined by $S=\\{(a,b):a\\le b^{3}, a\\in\\mathbb{R}, b\\in\\mathbb{R}\\}$ is neither reflexive, nor symmetric, nor transitive.",
+  "answeroption": "",
+  "explanation": "**Step 1 (Reflexive):** For $S$ to be reflexive, $(a,a) \\in S$ must hold for all $a \\in \\mathbb{R}$, i.e., $a \\le a^3$ for all $a$. <br /><br /> **Step 2:** Take $a = 0.5$. Then $0.5 \\le (0.5)^3 = 0.125$ is false. Hence $(0.5, 0.5) \\notin S$. <br /> So $S$ is **not reflexive**. <br /><br /> **Step 3 (Symmetric):** For $S$ to be symmetric, whenever $(a,b) \\in S$, then $(b,a) \\in S$ must hold. <br /><br /> **Step 4:** Take $a = 1$, $b = 2$. Check $(1,2)$: $1 \\le 2^3 = 8$ ⇒ true, so $(1,2) \\in S$. <br /> Check $(2,1)$: $2 \\le 1^3 = 1$ ⇒ false, so $(2,1) \\notin S$. <br /> Hence $S$ is **not symmetric**. <br /><br /> **Step 5 (Transitive):** For $S$ to be transitive, if $(a,b) \\in S$ and $(b,c) \\in S$, then $(a,c) \\in S$ must hold. <br /><br /> **Step 6:** Take $a = 25$, $b = 3$, $c = 1.5$. <br /> $(25,3)$: $25 \\le 3^3 = 27$ ⇒ true. <br /> $(3, 1.5)$: $3 \\le (1.5)^3 = 3.375$ ⇒ true. <br /> $(25, 1.5)$: $25 \\le (1.5)^3 = 3.375$ ⇒ false. <br /> Hence $S$ is **not transitive**. <br /><br /> **Answer:** $S$ is neither reflexive, nor symmetric, nor transitive.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

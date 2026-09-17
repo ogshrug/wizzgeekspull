@@ -1,0 +1,27 @@
+{
+  "id": "6a22a0fb864be73cfcf6d282",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following L.P.P. graphically:<br />Maximise $Z=60x+40y$<br />Subject to<br />$x+2y\\le12$<br />$2x+y\\le12$<br />$4x+5y\\ge20$<br />$x,y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To solve this complex Linear Programming Problem, we must systematically construct the entire feasible region on a Cartesian coordinate plane by accurately plotting all defined boundary lines representing the rigid constraints. Let's explicitly define these critical lines. Line L1 represents the first constraint: $x+2y=12$. To plot this, we identify its crucial intercepts: $(12,0)$ on the x-axis and $(0,6)$ on the y-axis. Line L2 represents the second constraint: $2x+y=12$. Its exact intercepts are $(6,0)$ and $(0,12)$. Line L3 represents the third constraint: $4x+5y=20$. Its exact intercepts are firmly established at $(5,0)$ and $(0,4)$. Finally, the absolute non-negativity constraints $x\\ge0, y\\ge0$ strictly confine the entire valid solution space entirely to the first quadrant.<br />**Step 2:** Next, we must properly shade the geometrically correct half-planes defined by the inequalities to reveal the true feasible region. For $x+2y\\le12$, testing the origin $(0,0)$ yields $0\\le12$ (True), so we definitively shade below L1. For $2x+y\\le12$, testing $(0,0)$ yields $0\\le12$ (True), so we firmly shade below L2. For $4x+5y\\ge20$, testing $(0,0)$ gives $0\\ge20$ (False), so we strictly shade above L3. The comprehensive intersection of all these specific shaded regions perfectly forms a bounded polygonal feasible region in the first quadrant.<br />**Step 3:** The fundamental theory of linear programming guarantees that the optimal solution (maximum or minimum) definitively occurs at one of the explicit corner points (vertices) of this precisely bounded feasible region. We must meticulously identify these exact corner points through graph analysis and algebraic intersection. The points interacting with the axes are clearly $A(5, 0)$, $B(6, 0)$, $D(0, 6)$, and $E(0, 4)$. The only remaining critical point is $C$, which is the exact intersection of lines L1 ($x+2y=12$) and L2 ($2x+y=12$).<br />**Step 4:** We must rigidly solve the system of equations for L1 and L2 to find the precise coordinates of point $C$. Multiply the L2 equation by 2: $4x+2y=24$. Subtract the L1 equation $x+2y=12$ from this newly formed equation: $(4x+2y) - (x+2y) = 24 - 12$, yielding $3x = 12$, which definitively gives $x=4$. Carefully substitute $x=4$ back into the L1 equation: $4+2y=12 \\Rightarrow 2y=8 \\Rightarrow y=4$. Therefore, the verified intersection point is conclusively $C(4, 4)$.<br />**Step 5:** The final decisive step is to systematically evaluate the given objective function $Z = 60x + 40y$ at every single identified corner point to discover the absolute maximum value. At point $A(5,0)$, $Z = 60(5) + 40(0) = 300$. At point $B(6,0)$, $Z = 60(6) + 40(0) = 360$. At point $C(4,4)$, $Z = 60(4) + 40(4) = 240 + 160 = 400$. At point $D(0,6)$, $Z = 60(0) + 40(6) = 240$. At point $E(0,4)$, $Z = 60(0) + 40(4) = 160$. Comparing all calculated results, the absolute maximum value of $Z$ is 400. This optimal value is definitively achieved at the precise point $x=4$ and $y=4$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

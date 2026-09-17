@@ -1,0 +1,29 @@
+{
+  "id": "69a92bfd62be6a70cd184d13",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "If $x > 0$ and $\\tan^{-1}x + \\tan^{-1}(2x) = \\frac{\\pi}{4}$, find the value of $x$.",
+  "answeroption": "D",
+  "explanation": "Using the identity $\\tan^{-1}a + \\tan^{-1}b = \\tan^{-1}\\left(\\frac{a+b}{1-ab}\\right)$.<br /><br />Thus $\\tan^{-1}\\left(\\frac{x+2x}{1-2x^2}\\right) = \\frac{\\pi}{4}$.<br /><br />Since $\\tan(\\frac{\\pi}{4})=1$, we obtain $\\frac{3x}{1-2x^2}=1$.<br /><br />This gives $3x = 1 - 2x^2$.<br /><br />Rearranging: $2x^2 + 3x - 1 = 0$.<br /><br />Solving the quadratic equation gives $x = \\frac{-3 \\pm \\sqrt{17}}{4}$.<br /><br />Since $x>0$, the solution is $x = \\frac{-3 + \\sqrt{17}}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3 + \\sqrt{17}}{4}$",
+    "B": "$\\frac{-3 - \\sqrt{17}}{4}$",
+    "C": "$\\frac{3 - \\sqrt{17}}{4}$",
+    "D": "$\\frac{-3 + \\sqrt{17}}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:08:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

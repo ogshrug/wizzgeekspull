@@ -1,0 +1,30 @@
+{
+  "id": "69a9cc5662be6a70cd184e49",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d62",
+    "69c65fbf40512f018fa94d53"
+  ],
+  "question_type": "SA",
+  "question": "Let $A, B$ be $2 \\times 2$ matrices such that $AB = 0$ (the zero matrix) but neither $A$ nor $B$ is the zero matrix. Show that both $A$ and $B$ must be singular. Justify.",
+  "answeroption": "A",
+  "explanation": "Suppose $A$ is invertible. Then $AB = 0 \\Rightarrow A^{-1}AB = A^{-1}0 \\Rightarrow B = 0$, which is a contradiction.<br /><br />Therefore, $A$ must be singular.<br /><br />Similarly, if $B$ is invertible, then $AB = 0 \\Rightarrow ABB^{-1} = 0B^{-1} \\Rightarrow A = 0$, which is also a contradiction.<br /><br />Hence $B$ must also be singular.<br /><br />Therefore both $A$ and $B$ are singular if $AB = 0$ but neither matrix is zero.",
+  "explanation_image": [],
+  "options": {
+    "A": "$X=\\begin{pmatrix}1&-\\frac{2}{3}\\\\0&\\frac{1}{3}\\end{pmatrix}$",
+    "B": "$X=\\begin{pmatrix}1&\\frac{2}{3}\\\\0&\\frac{1}{3}\\end{pmatrix}$",
+    "C": "$X=\\begin{pmatrix}\\frac{1}{3}&-\\frac{2}{3}\\\\0&1\\end{pmatrix}$",
+    "D": "$X=\\begin{pmatrix}1&-\\frac{1}{3}\\\\0&\\frac{2}{3}\\end{pmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:32:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

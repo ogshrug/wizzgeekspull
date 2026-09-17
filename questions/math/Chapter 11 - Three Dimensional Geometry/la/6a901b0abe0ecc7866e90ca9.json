@@ -1,0 +1,30 @@
+{
+  "id": "6a901b0abe0ecc7866e90ca9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3",
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "LA",
+  "question": "A plane cuts intercepts $3$, $-6$ and $2$ on the $x$-, $y$- and $z$-axes respectively. Form its Cartesian equation and hence calculate the perpendicular distance of the point $P(1,2,1)$ from the plane.",
+  "answeroption": "B",
+  "explanation": "<b>Formation of the Plane</b><br>The intercept form of a plane is<br>$$\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1$$<br>Using the intercepts $a=3$, $b=-6$ and $c=2$,<br>$$\\frac{x}{3}-\\frac{y}{6}+\\frac{z}{2}=1$$<br>Multiplying throughout by $6$,<br>$$2x-y+3z=6$$<br>or<br>$$2x-y+3z-6=0$$<br><br><b>Applying the Distance Formula</b><br>The distance of a point $(x_1,y_1,z_1)$ from the plane $Ax+By+Cz+D=0$ is<br>$$d=\\frac{|Ax_1+By_1+Cz_1+D|}{\\sqrt{A^2+B^2+C^2}}$$<br>For $P(1,2,1)$,<br>$$d=\\frac{|2(1)-2+3(1)-6|}{\\sqrt{2^2+(-1)^2+3^2}}$$<br>$$d=\\frac{|-3|}{\\sqrt{14}}=\\frac{3}{\\sqrt{14}}$$<br>Equivalently,<br>$$d=\\frac{3\\sqrt{14}}{14}$$<br><br><b>Final Result</b><br>The Cartesian equation of the plane is $2x-y+3z-6=0$, and the perpendicular distance of $P(1,2,1)$ from it is $\\frac{3}{\\sqrt{14}}$ units.",
+  "explanation_image": [],
+  "options": {
+    "A": "Plane: $2x+y+3z-6=0$; distance $\\frac{3}{\\sqrt{14}}$",
+    "B": "Plane: $2x-y+3z-6=0$; distance $\\frac{3}{\\sqrt{14}}$",
+    "C": "Plane: $2x-y+3z+6=0$; distance $\\frac{9}{\\sqrt{14}}$",
+    "D": "Plane: $3x-y+2z-6=0$; distance $\\frac{3}{\\sqrt{14}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

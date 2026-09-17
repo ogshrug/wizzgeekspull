@@ -1,0 +1,29 @@
+{
+  "id": "69a9aece6638848124d7c973",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A toy manufacturer wants to estimate the revenue generated from sales over the first 5 weeks, given that the weekly sales price is modeled by $P(x) = 200 - 5x$, where $x$ is the week number $(0 \\leq x \\leq 5)$. <br /><br />(a) Set up an integral for the total revenue collected over the five weeks. <br /><br />(b) Calculate the exact value of the revenue by evaluating the definite integral. <br /><br />(c) Suppose a marketing campaign is expected to yield an extra $10x$ rupees in the $x^{th}$ week. Modify your calculation to find the new total revenue, and comment on the impact of the campaign.",
+  "answeroption": "B",
+  "explanation": "(a) Total revenue over five weeks is given by the definite integral:<br /><br />$\\int_0^5 (200-5x)dx$.<br /><br />(b) Evaluate the integral:<br /><br />$\\int_0^5 (200-5x)dx = [200x - \\frac{5x^2}{2}]_0^5$.<br /><br />Substituting limits gives $1000 - 62.5 = 937.5$.<br /><br />(c) With the marketing campaign, revenue per week becomes $P_{new}(x)=200+5x$.<br /><br />New total revenue is $\\int_0^5 (200+5x)dx = [200x + \\frac{5x^2}{2}]_0^5$.<br /><br />This equals $1000 + 62.5 = 1062.5$.<br /><br />Thus the campaign increases total revenue by $125$ rupees, showing a positive impact.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\int_0^5(200+5x)dx$<br />(b) $1062.5$ rupees<br />(c) New revenue $937.5$ rupees, so the campaign decreases revenue by $125$ rupees",
+    "B": "(a) $\\int_0^5(200-5x)dx$<br />(b) $937.5$ rupees<br />(c) New revenue $\\int_0^5(200+5x)dx=1062.5$ rupees; the campaign increases revenue by $125$ rupees",
+    "C": "(a) $\\int_1^5(200-5x)dx$<br />(b) $750$ rupees<br />(c) New revenue $1000$ rupees; the campaign increases revenue by $250$ rupees",
+    "D": "(a) $\\int_0^5 10x\\,dx$<br />(b) $125$ rupees<br />(c) New revenue $125$ rupees; the campaign has no effect"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:26:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

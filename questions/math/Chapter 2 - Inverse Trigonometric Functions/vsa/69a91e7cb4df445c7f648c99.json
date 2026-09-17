@@ -1,0 +1,30 @@
+{
+  "id": "69a91e7cb4df445c7f648c99",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "VSA",
+  "question": "Express $\\cot^{-1}\\left(\\frac{1}{\\sqrt{x^2-1}}\\right)$ for $x > 1$ in terms of $\\sec^{-1}x$, and provide detailed reasoning and branches at each step.",
+  "answeroption": "B",
+  "explanation": "Let $A = \\cot^{-1}\\left(\\frac{1}{\\sqrt{x^2-1}}\\right)$ with $x>1$.<br /><br />Let $y = \\sec^{-1}x$, so $\\sec y = x$.<br /><br />Then $\\cos y = \\frac{1}{x}$ and $\\sin y = \\sqrt{1-\\frac{1}{x^2}} = \\frac{\\sqrt{x^2-1}}{x}$.<br /><br />Thus $\\cot y = \\frac{\\cos y}{\\sin y} = \\frac{1/x}{\\sqrt{x^2-1}/x} = \\frac{1}{\\sqrt{x^2-1}}$.<br /><br />Therefore $\\cot^{-1}\\left(\\frac{1}{\\sqrt{x^2-1}}\\right) = y = \\sec^{-1}x$.<br /><br />Branches: $\\cot^{-1}$ has principal values $(0,\\pi)$ and $\\sec^{-1}$ has principal values $[0,\\pi] \\setminus \\{\\frac{\\pi}{2}\\}$ which overlap for $x>1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cos^{-1}x$",
+    "B": "$\\sec^{-1}x$",
+    "C": "$\\tan^{-1}x$",
+    "D": "$\\csc^{-1}x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:11:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "6a226356864be73cfcf6d19d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $p$ and $q$ are respectively the order and degree of the differential equation $\\frac{d}{dx}(\\frac{dy}{dx})^{3}=0$, then $(p-q)$ is",
+  "answeroption": "B",
+  "explanation": "**Step 1:** To determine the order and degree, we must first express the differential equation explicitly. We apply the chain rule to differentiate the expression: $\\frac{d}{dx}[(\\frac{dy}{dx})^3] = 3(\\frac{dy}{dx})^2 \\cdot \\frac{d}{dx}(\\frac{dy}{dx}) = 3(\\frac{dy}{dx})^2 \\frac{d^2y}{dx^2} = 0$.<br />**Step 2:** The order of a differential equation is the order of the highest derivative present. In our expanded equation, the highest derivative is the second derivative, $\\frac{d^2y}{dx^2}$. Thus, the order $p = 2$.<br />**Step 3:** The degree of a differential equation is the highest power to which the highest order derivative is raised, provided the equation is a polynomial in its derivatives. The term $\\frac{d^2y}{dx^2}$ is raised to the power of 1. Thus, the degree $q = 1$.<br />**Step 4:** Calculate the requested difference: $p - q = 2 - 1 = 1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

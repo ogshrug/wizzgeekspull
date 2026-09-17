@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed99b751910886affb9e5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "SA",
+  "question": "Find the points on the parabola $y=x^2$ that are nearest to the point $(0,3)$. Also determine the minimum distance.",
+  "answeroption": "A",
+  "explanation": "<b>Distance function</b><br>A general point on the parabola is $(x,x^2)$. The square of its distance from $(0,3)$ is<br>$$D^2=x^2+(x^2-3)^2$$<br>$$D^2=x^4-5x^2+9$$<br><b>Stationary condition</b><br>$$\\frac{d(D^2)}{dx}=4x^3-10x=2x(2x^2-5)$$<br>Thus, $x=0$ or $x=\\pm\\sqrt{\\frac{5}{2}}$.<br><b>Minimum verification</b><br>For $x=\\pm\\sqrt{\\frac{5}{2}}$, the second derivative $12x^2-10=20>0$. Hence, these values give the minimum.<br><b>Nearest points</b><br>Since $y=x^2=\\frac{5}{2}$, the points are $\\left(\\pm\\sqrt{\\frac{5}{2}},\\frac{5}{2}\\right)$.<br><b>Minimum distance</b><br>$$D^2=\\frac{11}{4}\\Rightarrow D=\\frac{\\sqrt{11}}{2}$$<br><b>Conclusion</b><br>The minimum distance is $\\frac{\\sqrt{11}}{2}$ units.",
+  "explanation_image": [],
+  "options": {
+    "A": "Nearest points $\\left(\\pm\\sqrt{\\frac{5}{2}},\\frac{5}{2}\\right)$; minimum distance $\\frac{\\sqrt{11}}{2}$",
+    "B": "Nearest point $(0,0)$; minimum distance $3$",
+    "C": "Nearest points $(\\pm\\sqrt{3},3)$; minimum distance $\\sqrt{3}$",
+    "D": "Nearest points $\\left(\\pm\\sqrt{\\frac{3}{2}},\\frac{3}{2}\\right)$; minimum distance $\\frac{3}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

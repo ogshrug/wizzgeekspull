@@ -1,0 +1,32 @@
+{
+  "id": "6a8ea6832e54880055a0a6a4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d5f",
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d64"
+  ],
+  "question_type": "LA",
+  "question": "Given $$A=\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix},\\quad B=\\begin{bmatrix}2&0\\\\1&1\\end{bmatrix},$$ verify that $$A^{-1}=\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}$$ and $$B^{-1}=\\begin{bmatrix}\\frac{1}{2}&0\\\\-\\frac{1}{2}&1\\end{bmatrix},$$ and then use the property of the inverse of a product to determine $(AB)^{-1}$ and verify it directly.",
+  "answeroption": "C",
+  "explanation": "<b>Verification of the Given Inverses</b><br><br>For $A$, $$A\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}=I$$ and $$\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}A=I$$ Therefore, the stated matrix is $A^{-1}$. Similarly, $$B\\begin{bmatrix}\\frac{1}{2}&0\\\\-\\frac{1}{2}&1\\end{bmatrix}=I$$ and $$\\begin{bmatrix}\\frac{1}{2}&0\\\\-\\frac{1}{2}&1\\end{bmatrix}B=I$$ so the stated matrix is $B^{-1}$. Hence, both $A$ and $B$ are invertible.<br><br><b>Inverse of the Product</b><br><br>For invertible matrices of the same order, $$(AB)^{-1}=B^{-1}A^{-1}$$ Therefore, $$(AB)^{-1}=\\begin{bmatrix}\\frac{1}{2}&0\\\\-\\frac{1}{2}&1\\end{bmatrix}\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}=\\begin{bmatrix}\\frac{1}{2}&-\\frac{1}{2}\\\\-\\frac{1}{2}&\\frac{3}{2}\\end{bmatrix}$$ Also, $$AB=\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}\\begin{bmatrix}2&0\\\\1&1\\end{bmatrix}=\\begin{bmatrix}3&1\\\\1&1\\end{bmatrix}$$<br><br><b>Verification</b><br><br>Now, $$AB(AB)^{-1}=\\begin{bmatrix}3&1\\\\1&1\\end{bmatrix}\\begin{bmatrix}\\frac{1}{2}&-\\frac{1}{2}\\\\-\\frac{1}{2}&\\frac{3}{2}\\end{bmatrix}=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}=I$$ Similarly, $(AB)^{-1}AB=I$. Therefore, the product $AB$ is invertible and $$(AB)^{-1}=\\begin{bmatrix}\\frac{1}{2}&-\\frac{1}{2}\\\\-\\frac{1}{2}&\\frac{3}{2}\\end{bmatrix}$$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(AB)^{-1}=A^{-1}B^{-1}=\\begin{bmatrix}1&-1\\\\-\\frac{1}{2}&\\frac{3}{2}\\end{bmatrix}$",
+    "B": "$(AB)^{-1}=\\begin{bmatrix}\\frac{3}{2}&-\\frac{1}{2}\\\\-\\frac{1}{2}&\\frac{1}{2}\\end{bmatrix}$",
+    "C": "$(AB)^{-1}=B^{-1}A^{-1}=\\begin{bmatrix}\\frac{1}{2}&-\\frac{1}{2}\\\\-\\frac{1}{2}&\\frac{3}{2}\\end{bmatrix}$",
+    "D": "$(AB)^{-1}=\\begin{bmatrix}\\frac{1}{2}&\\frac{1}{2}\\\\\\frac{1}{2}&\\frac{3}{2}\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

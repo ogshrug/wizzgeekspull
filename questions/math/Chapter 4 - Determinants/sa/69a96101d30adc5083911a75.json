@@ -1,0 +1,29 @@
+{
+  "id": "69a96101d30adc5083911a75",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "SA",
+  "question": "Given a matrix $A=\\begin{pmatrix} 0 & a & -a \\\\ -a & 0 & a \\\\ a & -a & 0 \\end{pmatrix}$, show that $A$ is skew-symmetric. Find $|A|$ in terms of $a$.",
+  "answeroption": "C",
+  "explanation": "A matrix $A$ is skew-symmetric if $A' = -A$.<br /><br />Compute transpose:<br /><br />$A' = \\begin{pmatrix} 0 & -a & a \\\\ a & 0 & -a \\\\ -a & a & 0 \\end{pmatrix}$<br /><br />$-A = \\begin{pmatrix} 0 & -a & a \\\\ a & 0 & -a \\\\ -a & a & 0 \\end{pmatrix}$<br /><br />Thus $A' = -A$.<br /><br />Determinant of $A$:<br /><br />Expand along first row:<br /><br />$|A| = 0 \\times \\left|\\begin{matrix} 0 & a \\\\ -a & 0 \\end{matrix}\\right| - a \\times \\left|\\begin{matrix} -a & a \\\\ a & 0 \\end{matrix}\\right| + (-a) \\times \\left|\\begin{matrix} -a & 0 \\\\ a & -a \\end{matrix}\\right|$<br /><br />First term is 0.<br /><br />Second term: $-a$ times $\\left((-a)\\cdot 0 - a\\cdot a\\right) = -a(0 - a^2) = a^3$<br /><br />Third term: $(-a)$ times $((-a)\\cdot(-a) - a\\cdot 0) = (-a)(a^2 - 0) = -a^3$<br /><br />Sum: $0 + a^3 - a^3 = 0$<br /><br />Conclusion: $A$ is skew-symmetric and $|A| = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ is symmetric and $|A|=a^3$.",
+    "B": "$A$ is skew-symmetric and $|A|=a^3$.",
+    "C": "$A$ is skew-symmetric and $|A|=0$.",
+    "D": "$A$ is not skew-symmetric and $|A|=-a^3$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:54:57 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "69aa7bf3320763ee1b04067b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An engineering firm lays out plans for a path in a garden, shaped by the area bounded between the curves $y = x^2$ and $y = 4$. The path is between $x = -2$ and $x = 2$.<br /><br />(a) Compute the area enclosed between the parabola $y = x^2$ and the line $y = 4$ from $x = -2$ to $x = 2$.<br /><br />(b) If the width of the path increases so the upper boundary becomes $y = 6$, what is the new area?<br /><br />(c) How does the area change if instead of a parabola, a steeper curve $y = 2x^2$ is used with the same upper boundary $y = 4$? Support your answer with a calculation.",
+  "answeroption": "A",
+  "explanation": "(a) Area between $y = 4$ (upper) and $y = x^2$ (lower) from $x = -2$ to $x = 2$:<br /><br />$A = \\int_{-2}^2 (4 - x^2)dx$<br /><br />$= [4x - \\dfrac{x^3}{3}]_{-2}^{2}$<br /><br />For $x = 2$:<br /><br />$4 \\times 2 - \\dfrac{8}{3} = 8 - \\dfrac{8}{3}$<br /><br />For $x = -2$:<br /><br />$4 \\times (-2) - \\dfrac{(-8)}{3} = -8 + \\dfrac{8}{3}$<br /><br />Subtract:<br /><br />$= (8 - \\dfrac{8}{3}) - (-8 + \\dfrac{8}{3})$<br /><br />$= 16 - \\dfrac{16}{3}$<br /><br />$= \\dfrac{48 - 16}{3} = \\dfrac{32}{3}$<br /><br />So, $A = \\dfrac{32}{3}$ square units.<br /><br />(b) New area with upper boundary $y = 6$:<br /><br />$A' = \\int_{-\\sqrt{6}}^{\\sqrt{6}} (6 - x^2) dx$<br /><br />$= [6x - \\dfrac{x^3}{3}]_{-\\sqrt{6}}^{\\sqrt{6}}$<br /><br />$= (6 \\sqrt{6} - \\dfrac{(\\sqrt{6})^3}{3}) - ( -6\\sqrt{6} + \\dfrac{ ( -\\sqrt{6} ) ^3 }{3})$<br /><br />$= 6\\sqrt{6} - \\dfrac{6\\sqrt{6}}{3} + 6\\sqrt{6} - ( - \\dfrac{6\\sqrt{6}}{3} )$<br /><br />$= (6 + 6)\\sqrt{6} - ( \\dfrac{6\\sqrt{6}}{3} + \\dfrac{6\\sqrt{6}}{3} )$<br /><br />$= 12\\sqrt{6} - 4\\sqrt{6} = 8\\sqrt{6}$<br /><br />(c) New curve $y = 2x^2$, area between $y = 4$ and $y = 2x^2$:<br /><br />Set $2x^2 = 4 \\implies x^2 = 2 \\implies x = -\\sqrt{2}, \\sqrt{2}$<br /><br />Area $A'' = \\int_{-\\sqrt{2}}^{\\sqrt{2}} (4 - 2x^2) dx$<br /><br />$= [4x - 2\\frac{x^3}{3} ]_{-\\sqrt{2}}^{\\sqrt{2}}$<br /><br />For $x = \\sqrt{2}$:<br /><br />$4\\sqrt{2} - 2\\dfrac{ (\\sqrt{2})^3 }{3 } = 4\\sqrt{2} - 2 \\dfrac{2^{3/2}}{3}$<br /><br />$= 4\\sqrt{2} - 2 \\dfrac{2\\sqrt{2}}{3} = 4\\sqrt{2} - \\dfrac{4\\sqrt{2}}{3}$<br /><br />For $x = -\\sqrt{2}$:<br /><br />$-4\\sqrt{2} + \\dfrac{4\\sqrt{2}}{3}$<br /><br />So, $A'' = (4\\sqrt{2} - \\dfrac{4\\sqrt{2}}{3}) - ( -4\\sqrt{2} + \\dfrac{4\\sqrt{2}}{3} )$<br /><br />$= 4\\sqrt{2} - \\dfrac{4\\sqrt{2}}{3} + 4\\sqrt{2} - \\dfrac{4\\sqrt{2}}{3}$<br /><br />$= 8\\sqrt{2} - \\dfrac{8\\sqrt{2}}{3}$<br /><br />$= \\dfrac{24 - 8}{3} \\sqrt{2} = \\dfrac{16}{3}\\sqrt{2}$<br /><br />So, the area decreases when the parabola is steeper.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69aa7bf3320763ee1b04067b/1778585996-0.jpeg?t=1778585996518"
+  ],
+  "options": {
+    "A": "(a) Area $=\\frac{32}{3}$ square units.<br />(b) New area $=8\\sqrt6$ square units.<br />(c) With $y=2x^2$, area $=\\frac{16\\sqrt2}{3}$, so the area decreases.",
+    "B": "(a) Area $=\\frac{16}{3}$ square units.<br />(b) New area $=4\\sqrt6$ square units.<br />(c) With $y=2x^2$, area $=\\frac{32\\sqrt2}{3}$, so the area increases.",
+    "C": "(a) Area $=32$ square units.<br />(b) New area $=8\\sqrt2$ square units.<br />(c) With $y=2x^2$, area $=\\frac{16}{3}$.",
+    "D": "(a) Area $=\\frac{32}{3}$ square units.<br />(b) New area $=\\frac{32}{3}$ square units.<br />(c) With $y=2x^2$, area remains unchanged."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:02:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

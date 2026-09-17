@@ -1,0 +1,26 @@
+{
+  "id": "6a33d6f66dbc98396e70a7d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the foot of the perpendicular drawn from point (2, -1, 5) to the line $\\frac{x-11}{10}=\\frac{y+2}{-4}=\\frac{z+8}{-11}$ . Also, find the length of the perpendicular.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the given target external space point be $P(2, -1, 5)$. Equate the symmetric line equation to a scalar parameter $\\lambda$ to define parametric coordinate vectors for any point on the line: $\\frac{x-11}{10} = \\frac{y+2}{-4} = \\frac{z+8}{-11} = \\lambda \\implies x = 10\\lambda + 11$, $y = -4\\lambda - 2$, $z = -11\\lambda - 8$. Let these coordinates represent the foot position $F(10\\lambda + 11, -4\\lambda - 2, -11\\lambda - 8)$.<br /><br />**Step 2:** Construct directional parameters for the perpendicular segment vector $PF$ by finding coordinate differences: $\\vec{PF} = (10\\lambda + 11 - 2)\\hat{i} + (-4\\lambda - 2 - (-1))\\hat{j} + (-11\\lambda - 8 - 5)\\hat{k} = (10\\lambda + 9)\\hat{i} + (-4\\lambda - 1)\\hat{j} + (-11\\lambda - 13)\\hat{k}$.<br /><br />**Step 3:** Since the segment vector $PF$ stands completely perpendicular to the line direction vector $\\vec{d} = 10\\hat{i} - 4\\hat{j} - 11\\hat{k}$, their vector dot product must evaluate to zero: $10(10\\lambda + 9) - 4(-4\\lambda - 1) - 11(-11\\lambda - 13) = 0$. Expanding and collecting the terms yields $100\\lambda + 90 + 16\\lambda + 4 + 121\\lambda + 143 = 0 \\implies 237\\lambda + 237 = 0 \\implies \\lambda = -1$.<br /><br />**Step 4:** Substitute the calculated parameter value $\\lambda = -1$ back into the coordinates of point $F$ to locate the exact foot: $x = 11 - 10 = 1$, $y = -2 + 4 = 2$, $z = -8 + 11 = 3$. This gives the foot of the perpendicular as $F(1, 2, 3)$. Finally, apply the distance formula between points $P$ and $F$ to calculate the length: $\\text{Length} = \\sqrt{(1-2)^2 + (2 - (-1))^2 + (3-5)^2} = \\sqrt{(-1)^2 + 3^2 + (-2)^2} = \\sqrt{1 + 9 + 4} = \\sqrt{14}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a2ba8aee2870e79a90d76cd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A(adj~A)=\\begin{bmatrix}3&0&0\\\\ 0&3&0\\\\ 0&0&3\\end{bmatrix},$ then the value of $|2A|$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Use the matrix property $A(\\text{adj } A) = |A|I$. Factoring out 3 from the given identity matrix gives $|A| = 3$.<br />**Step 2:** Since the matrix dimension is $3 \\times 3$, scaling the matrix by a constant factor of 2 pulls out a factor of $2^3$ from the determinant.<br />**Step 3:** Evaluate the expression: $|2A| = 2^3 \\cdot |A| = 8 \\times 3 = 24$.",
+  "explanation_image": [],
+  "options": {
+    "A": "6",
+    "B": "54",
+    "C": "12",
+    "D": "24"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

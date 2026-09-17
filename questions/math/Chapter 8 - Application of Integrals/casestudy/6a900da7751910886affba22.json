@@ -1,0 +1,35 @@
+{
+  "id": "6a900da7751910886affba22",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f994",
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999",
+    "6a13eb348c819562f933f99a",
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A designer compares a curved boundary $y=\\frac{1-x}{1+x}$ with the straight boundary $y=1-x$ in the first quadrant for $0\\leq x\\leq1$. Both boundaries connect the same points on the coordinate axes, but they enclose different areas with the axes. Answer the following questions using definite integration.(a) Determine the intersection points of the curved and straight boundaries.(b) Establish which boundary lies above the other for $0\\<x<1$.(c) Find the area bounded by the curved boundary and the coordinate axes.(d) Hence, calculate the area enclosed between the curved and straight boundaries.",
+  "answeroption": "C",
+  "explanation": "(a) At an intersection, `\\frac{1-x}{1+x}=1-x.` Since $x\\neq-1$, multiplication by $1+x$ gives `1-x=(1-x)(1+x).` Therefore, $x(1-x)=0$, giving $x=0$ or $x=1$. The intersection points are $(0,1)$ and $(1,0)$.(b) The difference between the straight boundary and the curved boundary is `1-x-\\frac{1-x}{1+x}=\\frac{x(1-x)}{1+x}.` For $0\\<x<1$, every factor in this expression is positive. Therefore, $y=1-x$ lies above $y=\\frac{1-x}{1+x}$.(c) The curved boundary, the $x$-axis and the $y$-axis enclose the area `A_C=\\int_0^1\\frac{1-x}{1+x}\\,dx.` Since `\\frac{1-x}{1+x}=-1+\\frac{2}{1+x},` we obtain `A_C=\\left[-x+2\\ln(1+x)\\right]_0^1=2\\ln2-1.` Thus, the area bounded by the curve and the coordinate axes is $2\\ln2-1$ square units.(d) The area under the straight line is `A_L=\\int_0^1(1-x)\\,dx=\\left[x-\\frac{x^2}{2}\\right]_0^1=\\frac{1}{2}.` Hence, the area enclosed between the line and the curve is `A_L-A_C=\\frac{1}{2}-(2\\ln2-1)=\\frac{3}{2}-2\\ln2.` Therefore, the required area is $\\frac{3}{2}-2\\ln2$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,1)$ and $(1,0)$<br>(b) Curved boundary lies above the line<br>(c) Curved area $=2\\ln2-1$<br>(d) Area between them $=2\\ln2-\\frac{3}{2}$",
+    "B": "(a) $(0,1)$ and $(1,0)$<br>(b) Straight boundary lies above the curve<br>(c) Curved area $=\\ln2$<br>(d) Area between them $=\\frac{1}{2}-\\ln2$",
+    "C": "(a) $(0,1)$ and $(1,0)$<br>(b) Straight boundary lies above the curve<br>(c) Curved area $=2\\ln2-1$<br>(d) Area between them $=\\frac{3}{2}-2\\ln2$",
+    "D": "(a) $(0,0)$ and $(1,1)$<br>(b) Straight boundary lies above the curve<br>(c) Curved area $=2\\ln2-1$<br>(d) Area between them $=\\frac{3}{2}-2\\ln2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

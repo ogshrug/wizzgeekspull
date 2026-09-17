@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc3e04b490c7cde3594f5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int \\sin^3 x\\cos^2 x\\,dx$ by transforming the integrand suitably and using an appropriate substitution.",
+  "answeroption": "B",
+  "explanation": "To apply substitution effectively, separate one factor of $\\sin x$ and express the remaining even power of sine in terms of cosine. Using $\\sin^2 x=1-\\cos^2 x$,<br><br>$$\\int \\sin^3 x\\cos^2 x\\,dx=\\int \\sin x\\left(1-\\cos^2 x\\right)\\cos^2 x\\,dx$$<br><br>Expanding the integrand,<br><br>$$\\int \\sin^3 x\\cos^2 x\\,dx=\\int \\sin x\\left(\\cos^2 x-\\cos^4 x\\right)dx$$<br><br>Put $t=\\cos x$. Then $dt=-\\sin x\\,dx$, so $\\sin x\\,dx=-dt$. Therefore,<br><br>$$\\int \\sin^3 x\\cos^2 x\\,dx=-\\int \\left(t^2-t^4\\right)dt$$<br><br>$$=-\\int t^2dt+\\int t^4dt$$<br><br>Integrating term by term,<br><br>$$=-\\frac{t^3}{3}+\\frac{t^5}{5}+C$$<br><br>Substituting $t=\\cos x$ back,<br><br>$$\\int \\sin^3 x\\cos^2 x\\,dx=-\\frac{\\cos^3 x}{3}+\\frac{\\cos^5 x}{5}+C$$<br><br>Hence, the required integral is $\\frac{\\cos^5 x}{5}-\\frac{\\cos^3 x}{3}+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{\\cos^5x}{5}+\\frac{\\cos^3x}{3}+C$",
+    "B": "$\\frac{\\cos^5x}{5}-\\frac{\\cos^3x}{3}+C$",
+    "C": "$\\frac{\\sin^5x}{5}-\\frac{\\sin^3x}{3}+C$",
+    "D": "$\\frac{\\cos^3x}{3}-\\frac{\\cos^5x}{5}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

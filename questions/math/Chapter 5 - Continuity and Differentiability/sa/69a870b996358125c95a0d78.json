@@ -1,0 +1,30 @@
+{
+  "id": "69a870b996358125c95a0d78",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d83",
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "SA",
+  "question": "If $y = [\\log_{a^2}(b^3x)]^4$, where $a, b > 0, a \\neq 1$, find $\\frac{dy}{dx}$ using the base change formula for logarithms.",
+  "answeroption": "D",
+  "explanation": "Using base change:<br />$\\log_{a^2}(b^3 x) = \\frac{3 \\log b + \\log x}{2 \\log a}$<br /><br />So $y = \\left(\\frac{3 \\log b + \\log x}{2 \\log a}\\right)^4$<br /><br />Differentiate using chain rule:<br />$\\frac{dy}{dx} = 4\\left(\\frac{3 \\log b + \\log x}{2 \\log a}\\right)^3 \\cdot \\frac{1}{2 \\log a} \\cdot \\frac{1}{x}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$4\\left(\\frac{3\\log b+\\log x}{2\\log a}\\right)^3$",
+    "B": "$\\left(\\frac{3\\log b+\\log x}{2\\log a}\\right)^4\\cdot\\frac{1}{x}$",
+    "C": "$4\\left(\\frac{3\\log b+\\log x}{2\\log a}\\right)^3\\cdot\\frac{1}{x}$",
+    "D": "$4\\left(\\frac{3\\log b+\\log x}{2\\log a}\\right)^3\\cdot\\frac{1}{2x\\log a}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:49:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

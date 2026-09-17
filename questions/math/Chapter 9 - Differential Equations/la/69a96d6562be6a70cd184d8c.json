@@ -1,0 +1,29 @@
+{
+  "id": "69a96d6562be6a70cd184d8c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "LA",
+  "question": "Let $y(x)$ be the particular solution to\n$\\frac{dy}{dx} = \\frac{x^2 + 2y^2}{2 x y}$\nwith initial condition $y(1) = \\sqrt{2}$.\n\n(a) Show that the equation is homogeneous and reduce it to a separable form using $y = v x$.\n\n(b) Find the general solution.\n\n(c) Using the particular solution, find the value of $y(\\sqrt{2})$.",
+  "answeroption": "D",
+  "explanation": "(a) Let $y = v x$, $\\frac{dy}{dx} = v + x \\frac{dv}{dx}$.<br />$\\frac{dy}{dx} = \\frac{x^2 + 2y^2}{2 x y} = \\frac{x^2 + 2(vx)^2}{2x v x} = \\frac{x^2 + 2v^2 x^2}{2 v x^2} = \\frac{1 + 2v^2}{2v}$<br />So:<br />$v + x \\frac{dv}{dx} = \\frac{1 + 2v^2}{2v}$<br />$x \\frac{dv}{dx} = \\frac{1 + 2v^2}{2v} - v = \\frac{1}{2v}$<br />$2 v x \\frac{dv}{dx} = 1$<br />$2 v dv = \\frac{dx}{x}$<br />(b) Integrate both sides:<br />$2 \\int v dv = \\int \\frac{dx}{x}$<br />$v^2 = \\ln|x| + C$<br />Recall $v = \\frac{y}{x}$:<br />$\\left( \\frac{y}{x} \\right)^2 = \\ln|x| + C$<br />$y^2 = x^2 (\\ln|x| + C)$<br />(c) At $y(1) = \\sqrt{2}$:<br />$2 = 1^2 (0 + C) \\implies C = 2$<br />So,<br />$y^2 = x^2 (\\ln|x| + 2)$<br />At $x = \\sqrt{2}$:<br />$\\ln \\sqrt{2} = \\frac{1}{2} \\ln 2$<br />$y^2 = 2 (\\frac{1}{2} \\ln 2 + 2) = \\ln 2 + 4$<br />$y(\\sqrt{2}) = \\sqrt{\\ln 2 + 4}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Homogeneous, $2v\\,dv=\\frac{dx}{x}$<br />(b) $y^2=x^2(\\ln|x|+C)$<br />(c) $y(\\sqrt{2})=\\sqrt{\\ln2+2}$",
+    "B": "(a) Homogeneous, $v\\,dv=\\frac{dx}{x}$<br />(b) $y^2=x^2(2\\ln|x|+C)$<br />(c) $y(\\sqrt{2})=\\sqrt{2\\ln2+4}$",
+    "C": "(a) Not homogeneous<br />(b) $y^2=x^2+C$<br />(c) $y(\\sqrt{2})=2$",
+    "D": "(a) Homogeneous, $2v\\,dv=\\frac{dx}{x}$<br />(b) $y^2=x^2(\\ln|x|+C)$<br />(c) $y(\\sqrt{2})=\\sqrt{\\ln2+4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:47:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

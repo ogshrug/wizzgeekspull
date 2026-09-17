@@ -1,0 +1,31 @@
+{
+  "id": "6a2686836dcceaa948c59ea4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In order to set up a rain water harvesting system, a tank to collect rain water is to be dug. The tank should have a square base and a capacity of 250 $m^{3}$. The cost of land is 5,000 per square metre and cost of digging increases with depth and for the whole tank, it is ₹40,000 $h^{2}$, where h is the depth of the tank in metres. x is the side of the square base of the tank in metres.<br /><br />Based on the above information, answer the following questions:<br />**(i)** Find the total cost C of digging the tank in terms of x.<br />**(ii)** Find $\\frac{dC}{dx}$.<br />**(iii) (a)** Find the value of x for which cost C is minimum.<br /><br />**OR**<br /><br />**(iii) (b)** Check whether the cost function $C(x)$ expressed in terms of x is increasing or not, where $x>0$.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The volume of the reservoir is given by<br />$$V=x^2h=250.$$<br />Hence,<br />$$h=\\frac{250}{x^2}.$$<br />The total cost is the sum of the cost of land and the cost of digging:<br />$$C=5000x^2+40000h^2.$$<br /><br />**Step 2:** Substituting $h=\\frac{250}{x^2}$,<br />$$C(x)=5000x^2+40000\\left(\\frac{250}{x^2}\\right)^2$$<br />$$=5000x^2+\\frac{2500000000}{x^4}.$$<br /><br />**(ii)** **Step 1:** Differentiate the cost function with respect to $x$:<br />$$\\frac{dC}{dx}=\\frac{d}{dx}\\left(5000x^2+2500000000x^{-4}\\right)$$<br />$$=10000x-\\frac{10000000000}{x^5}.$$<br /><br />**(iii)(a)** **Step 1:** For minimum cost, set the first derivative equal to zero:<br />$$10000x=\\frac{10000000000}{x^5}.$$<br />Therefore,<br />$$x^6=1000000.$$<br />Hence,<br />$$x=10\\text{ m}.$$<br /><br />**Step 2:** Apply the second derivative test:<br />$$\\frac{d^2C}{dx^2}=10000+\\frac{50000000000}{x^6}.$$<br />Since<br />$$\\frac{d^2C}{dx^2}>0,$$<br />the cost function attains a minimum at $x=10$ m.<br /><br />**OR**<br /><br />**(iii)(b)** **Step 1:** Factor the first derivative:<br />$$\\frac{dC}{dx}=10000x\\left(1-\\frac{1000000}{x^6}\\right).$$<br />For the function to be increasing,<br />$$\\frac{dC}{dx}>0.$$<br /><br />**Step 2:** Therefore,<br />$$1-\\frac{1000000}{x^6}>0$$<br />$$x^6>1000000$$<br />$$x>10.$$<br />Thus, the cost function is increasing for $x>10$. Since $\\frac{dC}{dx}<0$ for $0<x<10$, it is not increasing throughout the interval $x>0$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2686836dcceaa948c59ea4/1782274461-0.png?t=1782294262204"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

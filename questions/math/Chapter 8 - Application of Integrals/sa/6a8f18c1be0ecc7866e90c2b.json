@@ -1,0 +1,29 @@
+{
+  "id": "6a8f18c1be0ecc7866e90c2b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f993"
+  ],
+  "question_type": "SA",
+  "question": "The curve $x=y^3$, the y-axis and the lines $y=-1$ and $y=1$ determine two regions. Find their total area.",
+  "answeroption": "A",
+  "explanation": "Step 1: Position of the curve For $-1\\leq y\\leq0$, $y^3\\leq0$, so the curve lies to the left of the y-axis. For $0\\leq y\\leq1$, it lies to the right of the y-axis. Step 2: Splitting the area at the origin The total area is $A=-\\int_{-1}^{0}y^3\\,dy+\\int_0^1y^3\\,dy$. Step 3: Evaluating both regions Using $\\int y^3\\,dy=\\frac{y^4}{4}$, the area of the left region is $\\frac{1}{4}$ square unit and the area of the right region is also $\\frac{1}{4}$ square unit. Step 4: Combining the positive areas $A=\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2}$. Final Answer The total area is $\\frac{1}{2}$ square unit.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}$ square unit",
+    "B": "$\\frac{1}{4}$ square unit",
+    "C": "$1$ square unit",
+    "D": "$\\frac{3}{4}$ square unit"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e95974b490c7cde3593fa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6b"
+  ],
+  "question_type": "SA",
+  "question": "Using determinants, calculate the area of the triangle whose vertices are $(1,2)$, $(4,6)$ and $(7,2)$. Also examine whether the vertices are collinear.",
+  "answeroption": "C",
+  "explanation": "<b>Determinant form of the area</b><br>The area is $$\\frac{1}{2}\\left|\\begin{vmatrix}1&2&1\\\\4&6&1\\\\7&2&1\\end{vmatrix}\\right|$$<br><b>Expansion of the determinant</b><br>Its value is $$1(6-2)-2(4-7)+(8-42)$$<br><b>Simplification</b><br>Therefore, the determinant equals $$4+6-34=-24$$ Hence, the area is $$\\frac{1}{2}|-24|=12$$ square units.<br><b>Collinearity examination</b><br>The area is nonzero, so the three vertices are not collinear.<br>Thus, the triangle has area $12$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "Area $=6$ square units; the vertices are not collinear.",
+    "B": "Area $=12$ square units; the vertices are collinear.",
+    "C": "Area $=12$ square units; the vertices are not collinear.",
+    "D": "Area $=24$ square units; the vertices are not collinear."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

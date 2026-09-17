@@ -1,0 +1,31 @@
+{
+  "id": "6a339b00d5dca7dcb0bf0f2c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f(x)$ is an odd function, then $\\int_{-\\pi/2}^{\\pi/2}f(x)\\cos^{3}x \\, dx$ equals :",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Let $g(x) = f(x)\\cos^3x$. We need to test if $g(x)$ is even or odd.\n\n**Step 2:** Substitute $-x$ into the function: $g(-x) = f(-x)\\cos^3(-x)$.\n\n**Step 3:** Use the property of odd functions $f(-x) = -f(x)$ and cosine property $\\cos(-x) = \\cos(x)$: $g(-x) = -f(x)(\\cos x)^3 = -g(x)$.\n\n**Step 4:** Since $g(-x) = -g(x)$, the entire integrand $g(x)$ is an odd function.\n\n**Step 5:** Apply the definite integral property for odd functions over symmetric limits $\\int_{-a}^{a} odd \\, dx = 0$. Thus, the integral evaluates to $0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2\\int_{0}^{\\pi/2}f(x)\\cos^{3}x \\, dx$",
+    "B": "0",
+    "C": "$2\\int_{0}^{\\pi/2}f(x)dx$",
+    "D": "$2\\int_{0}^{\\pi/2}\\cos^{3}x \\, dx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

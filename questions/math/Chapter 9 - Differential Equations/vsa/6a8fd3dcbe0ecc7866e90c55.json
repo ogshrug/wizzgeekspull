@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd3dcbe0ecc7866e90c55",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a4"
+  ],
+  "question_type": "VSA",
+  "question": "If $y=e^{2x}$ is a solution of the differential equation $\\frac{d^2y}{dx^2}+k\\frac{dy}{dx}-8y=0$, determine the value of $k$.",
+  "answeroption": "B",
+  "explanation": "Step 1: The proposed solution is $y=e^{2x}$. To verify it for the given differential equation, calculate the required derivatives.<br>Step 2: Differentiating once gives $\\frac{dy}{dx}=2e^{2x}$. Differentiating again gives $\\frac{d^2y}{dx^2}=4e^{2x}$.<br>Step 3: Substitute these expressions into $\\frac{d^2y}{dx^2}+k\\frac{dy}{dx}-8y=0$. We obtain $4e^{2x}+2ke^{2x}-8e^{2x}=0$.<br>Step 4: Factoring $e^{2x}$ gives $(2k-4)e^{2x}=0$. Since $e^{2x}\\neq0$, $2k-4=0$.<br>Step 5: Hence, $k=2$. With this value, substitution makes the left-hand side equal to zero, verifying the solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=-2$",
+    "B": "$k=2$",
+    "C": "$k=4$",
+    "D": "$k=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

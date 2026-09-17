@@ -1,0 +1,30 @@
+{
+  "id": "69aa76902a66c0f894c1aa01",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7e",
+    "6a13eb338c819562f933f991"
+  ],
+  "question_type": "LA",
+  "question": "Suppose a curve is defined by $x = e^y$, and the tangent at any point $(x, y)$ makes an angle $\\theta$ with the positive $x$-axis. Let $P$ be a point where $y=0$.\n\n(a) Find $\\tan\\theta$ in terms of $y$.\n\n(b) At $y=0$, find the coordinates of $P$ and the value of $\\theta$.\n\n(c) For $0 \\leq y \\leq 1$, compute the area bounded by the curve, the $y$-axis, and the line $y=1$.\n\n(d) Evaluate $\\int_{0}^{1} \\tan^{-1}(e^y) dy$.",
+  "answeroption": "B",
+  "explanation": "**Concepts Tested:** Application of Derivatives, Application of Integrals, Inverse Trigonometric Functions, Analysis<br /><br />(a) $x = e^y$; $dx/dy = e^y$, slope of tangent $= dy/dx = (dx/dy)^{-1} = e^{-y}$<br />$\\tan\\theta = e^{-y}$<br /><br />(b) At $y=0$: $x=1$, so $P = (1, 0)$. $\\tan\\theta=1$, so $\\theta=\\pi/4$.<br /><br />(c) Area:<br />$A = \\int_{0}^{1} x dy = \\int_{0}^{1} e^y dy = e^y |_{0}^{1} = e - 1$<br /><br />(d) $\\int_{0}^{1} \\tan^{-1}(e^y) dy$; let $u = e^y$, $du = e^y dy$.<br />When $y=0, u=1$; $y=1, u=e$.<br />$dy = du/u$, so<br />$\\int_{y=0}^{1} \\tan^{-1}(e^y) dy = \\int_{u=1}^{e} \\tan^{-1} u \\frac{du}{u}$: integral does not have elementary closed form—can express as is or evaluate numerically.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\tan\\theta=e^y$<br />(b) $P=(0,1)$ and $\\theta=\\frac{\\pi}{2}$<br />(c) Area $=e$<br />(d) $\\int_0^1\\tan^{-1}(e^y)dy=\\int_0^e\\frac{\\tan^{-1}u}{u}du$",
+    "B": "(a) $\\tan\\theta=e^{-y}$<br />(b) $P=(1,0)$ and $\\theta=\\frac{\\pi}{4}$<br />(c) Area $=e-1$<br />(d) $\\int_0^1\\tan^{-1}(e^y)dy=\\int_1^e\\frac{\\tan^{-1}u}{u}du$, which has no elementary closed form",
+    "C": "(a) $\\tan\\theta=\\frac{1}{1+e^y}$<br />(b) $P=(1,0)$ and $\\theta=0$<br />(c) Area $=1-e$<br />(d) Integral value $=\\frac{\\pi}{4}$",
+    "D": "(a) $\\tan\\theta=y e^y$<br />(b) $P=(e,1)$ and $\\theta=\\frac{\\pi}{6}$<br />(c) Area $=\\ln e$<br />(d) Integral value $=\\tan^{-1}e-\\frac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:39:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

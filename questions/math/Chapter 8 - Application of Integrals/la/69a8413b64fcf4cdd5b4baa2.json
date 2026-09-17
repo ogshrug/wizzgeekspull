@@ -1,0 +1,32 @@
+{
+  "id": "69a8413b64fcf4cdd5b4baa2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995",
+    "6a13eb348c819562f933f998"
+  ],
+  "question_type": "LA",
+  "question": "Let $R$ be the region bounded by $y = x^2$ and $y = \\sqrt{x}$ between $x = 0$ and $x = 1$. Find the area of the region $R$. Further, suppose a rectangle is inscribed in $R$ such that its base lies along the $x$-axis and its upper two vertices touch $y = \\sqrt{x}$ and $y = x^2$. For what $x$ does the rectangle have the maximum possible area?",
+  "answeroption": "C",
+  "explanation": "Area between curves is $\\int_{0}^{1}(\\sqrt{x}-x^2)dx$.<br /><br />$=\\left[\\frac{2}{3}x^{3/2}\\right]_{0}^{1}-\\left[\\frac{1}{3}x^3\\right]_{0}^{1}=\\frac{1}{3}$.<br /><br />For the rectangle, let $a^2=\\sqrt{b}$ so $a=b^{1/4}$.<br /><br />Area function $A(b)=b^{3/2}-b^{3/4}$.<br /><br />Differentiating and setting zero gives $2b^{3/4}=1$.<br /><br />Hence $b=2^{-4/3}$ and $a=2^{-1/3}$.<br /><br />This gives the maximum area rectangle.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69a8413b64fcf4cdd5b4baa2/1778585731-0.jpeg?t=1778585731416"
+  ],
+  "options": {
+    "A": "Area of $R=\\frac{1}{2}$; maximum occurs at $b=2^{-2/3}$ and $a=2^{-1/3}$.",
+    "B": "Area of $R=\\frac{1}{3}$; maximum occurs at $b=2^{-1/3}$ and $a=2^{-4/3}$.",
+    "C": "Area of $R=\\frac{1}{3}$; maximum occurs at $b=2^{-4/3}$ and $a=2^{-1/3}$.",
+    "D": "Area of $R=\\frac{2}{3}$; maximum occurs at $b=2^{-4/3}$ and $a=2^{-1/3}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 14:27:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:30:50 GMT"
+}

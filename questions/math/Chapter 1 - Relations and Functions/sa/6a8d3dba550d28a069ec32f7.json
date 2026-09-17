@@ -1,0 +1,30 @@
+{
+  "id": "6a8d3dba550d28a069ec32f7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Let $A=\\{1,2,3,4\\}$ and let $f:A\\to A$ be one-one. Show that $f$ must also be onto.",
+  "answeroption": "C",
+  "explanation": "<b>Consequence of the one-one property</b><br>The set $A$ contains four elements. Since $f$ is one-one, the images of the four distinct elements of $A$ must be four distinct elements of the co-domain $A$.<br><br><b>Comparison with the co-domain</b><br>The co-domain itself contains exactly four elements. Therefore, the four distinct images must exhaust all the elements of $A$.<br><br><b>Onto criterion</b><br>Thus, every element of the co-domain is the image of some element of the domain.<br><br><b>Conclusion</b><br>Hence, $f$ is onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ need not be onto because one-one functions may leave elements of $A$ without pre-images",
+    "B": "$f$ is onto only when $f(a)=a$ for every $a\\in A$",
+    "C": "$f$ is onto because four distinct domain elements have four distinct images that exhaust the four-element co-domain",
+    "D": "$f$ cannot be onto because its domain and co-domain are the same set"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

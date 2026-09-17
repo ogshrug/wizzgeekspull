@@ -1,0 +1,30 @@
+{
+  "id": "69aa6561d30adc5083911b65",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $g(x) = \\sin^{-1}(x)$ and $h(x) = \\cos^{-1}(x)$ for $x \\in [-1,1]$. Let $A = \\begin{pmatrix} g\\left(\\frac{1}{2}\\right) & h\\left(\\frac{1}{2}\\right) \\\\ g(-1) & h(-1) \\end{pmatrix}$. \n\n(a) Evaluate all entries of $A$.\n\n(b) Compute the determinant of $A$.\n\n(c) Find all $x$ in $[0,1]$ such that $g(x) + h(x) = \\frac{\\pi}{2}$.\n\n(d) Prove that $g$ is a continuous and differentiable function on $(-1,1)$.",
+  "answeroption": "D",
+  "explanation": "**Concepts being tested:** Inverse trigonometric functions, evaluation, properties, determinants, continuity & differentiability.<br /><br />**(a) Entries of $A$:**<br /><br />$g(\\frac{1}{2}) = \\sin^{-1} (\\frac{1}{2}) = \\frac{\\pi}{6}$<br /><br />$h(\\frac{1}{2}) = \\cos^{-1} (\\frac{1}{2}) = \\frac{\\pi}{3}$<br /><br />$g(-1) = \\sin^{-1}(-1) = -\\frac{\\pi}{2}$<br /><br />$h(-1) = \\cos^{-1}(-1) = \\pi$<br /><br />So,<br /><br />$A = \\begin{pmatrix} \\frac{\\pi}{6} & \\frac{\\pi}{3} \\\\ -\\frac{\\pi}{2} & \\pi \\end{pmatrix}$<br /><br />**(b) Determinant of $A$:**<br /><br />$\\det(A) = \\frac{\\pi}{6} \\cdot \\pi - \\frac{\\pi}{3} \\cdot ( -\\frac{\\pi}{2} )$<br /><br />$= \\frac{\\pi^2}{6} + \\frac{\\pi^2}{6} = \\frac{\\pi^2}{3}$<br /><br />**(c) $x$ such that $g(x) + h(x) = \\frac{\\pi}{2}$:**<br /><br />$\\sin^{-1} x + \\cos^{-1} x = \\frac{\\pi}{2}$ is true for all $x$ in $[-1,1]$.<br /><br />On $[0,1]$: all $x \\in [0,1]$<br /><br />**(d) Continuity and differentiability of $g$:**<br /><br />$g(x) = \\sin^{-1} x$ is continuous and differentiable on $(-1,1)$ (from standard properties).<br /><br />$g'(x) = \\frac{1}{\\sqrt{1-x^2}}$, defined for $x \\in (-1,1)$ (denominator nonzero).<br /><br />Therefore, $g$ is both continuous and differentiable on $(-1,1)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=\\begin{pmatrix}\\frac{\\pi}{3}&\\frac{\\pi}{6}\\\\\\frac{\\pi}{2}&0\\end{pmatrix}$<br />(b) $\\det(A)=-\\frac{\\pi^2}{12}$<br />(c) Only $x=0$ satisfies the equation<br />(d) $g$ is not differentiable on $(-1,1)$",
+    "B": "(a) $A=\\begin{pmatrix}\\frac{\\pi}{6}&\\frac{\\pi}{3}\\\\\\frac{\\pi}{2}&\\pi\\end{pmatrix}$<br />(b) $\\det(A)=0$<br />(c) Only $x=1$ satisfies the equation<br />(d) $g'(x)=\\sqrt{1-x^2}$",
+    "C": "(a) $A=\\begin{pmatrix}\\frac{\\pi}{6}&\\frac{\\pi}{3}\\\\-\\frac{\\pi}{2}&0\\end{pmatrix}$<br />(b) $\\det(A)=\\frac{\\pi^2}{6}$<br />(c) No $x\\in[0,1]$ satisfies the equation<br />(d) $g$ is continuous but not differentiable",
+    "D": "(a) $A=\\begin{pmatrix}\\frac{\\pi}{6}&\\frac{\\pi}{3}\\\\-\\frac{\\pi}{2}&\\pi\\end{pmatrix}$<br />(b) $\\det(A)=\\frac{\\pi^2}{3}$<br />(c) Since $\\sin^{-1}x+\\cos^{-1}x=\\frac{\\pi}{2}$, all $x\\in[0,1]$ satisfy the equation<br />(d) $g(x)=\\sin^{-1}x$ is continuous and differentiable on $(-1,1)$ with $g'(x)=\\frac{1}{\\sqrt{1-x^2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:25:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

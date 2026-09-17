@@ -1,0 +1,29 @@
+{
+  "id": "6a8fda21be0ecc7866e90c6c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation $$\\frac{dy}{dx}-y=e^x$$ using the integrating factor method.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Compare with the linear form</b><br>The equation is $$\\frac{dy}{dx}+Py=Q,$$ where $P=-1$ and $Q=e^x$.<br><b>Step 2: Determine the integrating factor</b><br>The integrating factor is $$\\text{I.F.}=e^{\\int P\\,dx}=e^{\\int -1\\,dx}=e^{-x}.$$<br><b>Step 3: Multiply by the integrating factor</b><br>Multiplying the differential equation by $e^{-x}$ gives $$e^{-x}\\frac{dy}{dx}-ye^{-x}=1.$$ The left-hand side is $$\\frac{d}{dx}\\left(ye^{-x}\\right).$$<br><b>Step 4: Integrate both sides</b><br>Therefore, $$\\frac{d}{dx}\\left(ye^{-x}\\right)=1.$$ Integrating, $$ye^{-x}=x+C.$$<br><b>Step 5: Obtain the solution</b><br>Multiplying by $e^x$, the required general solution is $$\\boxed{y=e^x(x+C)}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=e^{-x}(x+C)$",
+    "B": "$y=e^x(x+C)$",
+    "C": "$y=xe^x+C$",
+    "D": "$y=e^x+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

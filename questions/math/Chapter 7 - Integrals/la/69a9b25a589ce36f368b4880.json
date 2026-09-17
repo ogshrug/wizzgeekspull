@@ -1,0 +1,29 @@
+{
+  "id": "69a9b25a589ce36f368b4880",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int_{0}^{1} \\frac{dx}{(x+1)\\sqrt{x}}$.",
+  "answeroption": "C",
+  "explanation": "Let $x=t^2$, so $dx=2t dt$ and $\\sqrt{x}=t$.<br /><br />The limits change from $0$ to $1$.<br /><br />Substituting gives $\\int_0^1 \\frac{2}{t^2+1}dt$.<br /><br />We know $\\int \\frac{1}{t^2+1}dt = \\tan^{-1}t$.<br /><br />Thus the integral becomes $2[\\tan^{-1}t]_0^1 = 2(\\frac{\\pi}{4}-0)=\\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{4}$",
+    "B": "$\\pi$",
+    "C": "$\\frac{\\pi}{2}$",
+    "D": "$1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:42:02 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

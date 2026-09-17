@@ -1,0 +1,30 @@
+{
+  "id": "69a86787f21e08867c2bcd74",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "SA",
+  "question": "Let $\\left|\\begin{array}{ccc}1 & a & a^2 \\\\ 1 & b & b^2 \\\\ 1 & c & c^2\\end{array}\\right| = 0$. Prove that at least two among $a, b, c$ are equal.",
+  "answeroption": "B",
+  "explanation": "This is a Vandermonde determinant:<br /><br />$|(a-b)(b-c)(c-a)|$<br /><br />If the determinant is zero, at least two of $a, b, c$ must coincide.<br /><br />Hence, at least two are equal.",
+  "explanation_image": [],
+  "options": {
+    "A": "The determinant is always zero for all values of $a,b,c$, so no relation among $a,b,c$ is needed.",
+    "B": "The determinant is a Vandermonde determinant equal to $(b-a)(c-a)(c-b)$. Since it is zero, at least one factor is zero, so at least two among $a,b,c$ are equal.",
+    "C": "The determinant is equal to $a+b+c$. Since it is zero, $a+b+c=0$, so all three numbers are equal.",
+    "D": "The determinant is equal to $abc$. Since it is zero, one of $a,b,c$ must be zero, but no two values are equal."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:10:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a921bb96358125c95a0dae",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "VSA",
+  "question": "If $x\\geq0$, $y\\geq0$, $x+4y\\leq8$, $4x+y\\leq8$, at which point do the constraints intersect, and what is $Z=3x+3y$ there?",
+  "answeroption": "B",
+  "explanation": "Set the equations $x+4y=8$ and $4x+y=8$.<br /><br />Multiply the first equation by 4: $4x+16y=32$.<br /><br />Subtract the second equation: $(4x+16y)-(4x+y)=32-8$.<br /><br />$15y=24 \\Rightarrow y=\\frac{24}{15}=\\frac{8}{5}$.<br /><br />Substitute in $x+4y=8$.<br /><br />$x+4\\left(\\frac{8}{5}\\right)=8$.<br /><br />$x=8-\\frac{32}{5}=\\frac{8}{5}$.<br /><br />Intersection point is $\\left(\\frac{8}{5},\\frac{8}{5}\\right)$.<br /><br />$Z=3x+3y=3\\cdot\\frac{8}{5}+3\\cdot\\frac{8}{5}=\\frac{48}{5}=9.6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Intersection $\\left(\\frac{5}{8},\\frac{5}{8}\\right)$, $Z=\\frac{15}{4}$",
+    "B": "Intersection $\\left(\\frac{8}{5},\\frac{8}{5}\\right)$, $Z=\\frac{48}{5}$",
+    "C": "Intersection $(2,2)$, $Z=12$",
+    "D": "Intersection $(0,2)$, $Z=6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:24:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

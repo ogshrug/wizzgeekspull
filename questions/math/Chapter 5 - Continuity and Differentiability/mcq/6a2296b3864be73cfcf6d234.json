@@ -1,0 +1,33 @@
+{
+  "id": "6a2296b3864be73cfcf6d234",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "The number of points of discontinuity of $f(x)=\\begin{cases}|x|+3,&if~x\\le-3\\\\ -2x,&if-3<x<3\\\\ 6x+2,&if~x\\ge3\\end{cases}$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** The function changes definition at $x = -3$ and $x = 3$. We must check continuity at these critical points by evaluating left-hand limits (LHL), right-hand limits (RHL), and function values.<br />**Step 2:** Check at $x = -3$. $f(-3) = |-3| + 3 = 6$. The LHL as $x \\to -3^-$ is $|-3| + 3 = 6$. The RHL as $x \\to -3^+$ uses the middle branch: $-2(-3) = 6$. Since LHL = RHL = $f(-3)$, the function is continuous at $x = -3$.<br />**Step 3:** Check at $x = 3$. The LHL as $x \\to 3^-$ uses the middle branch: $-2(3) = -6$.<br />**Step 4:** The RHL as $x \\to 3^+$ uses the last branch: $6(3) + 2 = 20$.<br />**Step 5:** Since LHL ($-6$) $\\ne$ RHL ($20$), the limit does not exist at $x = 3$. The function is discontinuous at exactly one point, $x=3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "infinite"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

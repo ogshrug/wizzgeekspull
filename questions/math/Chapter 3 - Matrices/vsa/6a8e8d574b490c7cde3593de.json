@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8d574b490c7cde3593de",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A=\\begin{bmatrix}1&2\\\\3&1\\end{bmatrix}$ and $B=\\begin{bmatrix}2&-1\\\\0&4\\end{bmatrix}$. If $C=2A-B$, find the sum of all the elements of $C$.",
+  "answeroption": "B",
+  "explanation": "Step 1: The required matrix is given by $C=2A-B$, so first perform scalar multiplication on $A$.<br>Step 2: We obtain $$2A=\\begin{bmatrix}2&4\\\\6&2\\end{bmatrix}.$$<br>Step 3: Now subtract the corresponding elements of $B$ from $2A$: $$C=\\begin{bmatrix}2&4\\\\6&2\\end{bmatrix}-\\begin{bmatrix}2&-1\\\\0&4\\end{bmatrix}.$$<br>Step 4: Therefore, $$C=\\begin{bmatrix}0&5\\\\6&-2\\end{bmatrix}.$$<br>Step 5: The sum of all its elements is $0+5+6-2=9$. Hence, the required sum is $9$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$7$",
+    "B": "$9$",
+    "C": "$11$",
+    "D": "$5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

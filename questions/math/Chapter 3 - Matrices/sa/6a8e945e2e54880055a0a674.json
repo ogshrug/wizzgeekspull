@@ -1,0 +1,29 @@
+{
+  "id": "6a8e945e2e54880055a0a674",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5a"
+  ],
+  "question_type": "SA",
+  "question": "Starting with $$A=\\begin{bmatrix}1 & 0 & 2 \\\\ -1 & 3 & 1 \\\\ 2 & -2 & 0\\end{bmatrix},$$ perform the column transformations $C_2\\rightarrow C_2+2C_1$ and then $C_3\\rightarrow -C_3$. Obtain the transformed matrix.",
+  "answeroption": "A",
+  "explanation": "<b>First column transformation</b><br>Applying $C_2\\rightarrow C_2+2C_1$, the new second column is $$\\begin{bmatrix}0\\\\3\\\\-2\\end{bmatrix}+2\\begin{bmatrix}1\\\\-1\\\\2\\end{bmatrix}=\\begin{bmatrix}2\\\\1\\\\2\\end{bmatrix}$$<br>Thus, $$A\\rightarrow\\begin{bmatrix}1 & 2 & 2 \\\\ -1 & 1 & 1 \\\\ 2 & 2 & 0\\end{bmatrix}$$<br><b>Second column transformation</b><br>Applying $C_3\\rightarrow -C_3$, $$\\begin{bmatrix}1 & 2 & 2 \\\\ -1 & 1 & 1 \\\\ 2 & 2 & 0\\end{bmatrix}\\rightarrow\\begin{bmatrix}1 & 2 & -2 \\\\ -1 & 1 & -1 \\\\ 2 & 2 & 0\\end{bmatrix}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix}1&2&-2\\\\-1&1&-1\\\\2&2&0\\end{bmatrix}$",
+    "B": "$\\begin{bmatrix}1&2&2\\\\-1&1&1\\\\2&2&0\\end{bmatrix}$",
+    "C": "$\\begin{bmatrix}1&0&-2\\\\-1&3&-1\\\\2&-2&0\\end{bmatrix}$",
+    "D": "$\\begin{bmatrix}1&2&-2\\\\-1&5&-1\\\\2&2&0\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

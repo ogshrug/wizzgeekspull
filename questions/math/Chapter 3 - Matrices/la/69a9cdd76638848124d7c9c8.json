@@ -1,0 +1,30 @@
+{
+  "id": "69a9cdd76638848124d7c9c8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "LA",
+  "question": "Suppose $A$ is a $3 \\times 3$ matrix with $A^T = -A$ and $A^2 = \\lambda I$ for some scalar $\\lambda > 0$. (a) Show that diagonal entries of $A$ are zero. (b) Express $A^4$ and $A^6$ in terms of $\\lambda$. (c) Give an example of such a matrix and compute $A^2$ and $A^4$.",
+  "answeroption": "C",
+  "explanation": "(a) $A^T = -A$ defines $A$ as skew symmetric. For any skew symmetric matrix, the diagonal entries are always zero.<br /><br />(b) $A^2 = \\lambda I$<br /><br />$A^4 = (A^2)^2 = (\\lambda I)^2 = \\lambda^2 I$<br /><br />$A^6 = (A^2)^3 = (\\lambda I)^3 = \\lambda^3 I$<br /><br />(c) Example:<br /><br />Let<br /><br />$A = \\begin{bmatrix}0 & a & b\\\\-a & 0 & c\\\\-b & -c & 0\\end{bmatrix}$ for any real $a,b,c$.<br /><br />Set $a=1, b=2, c=3$.<br /><br />Compute $A^2$:<br /><br />First row:<br /><br />$A_{11} = 0\\cdot0 + 1\\cdot(-1) + 2\\cdot(-2) = 0 - 1 - 4 = -5$<br /><br />$A_{12} = 0\\cdot1 + 1\\cdot0 + 2\\cdot(-3) = 0 + 0 - 6 = -6$<br /><br />$A_{13} = 0\\cdot2 + 1\\cdot3 + 2\\cdot0 = 0 + 3 + 0 = 3$<br /><br />Second row and third row similarly. In the end, if you calculate $A^2$, you will get a scalar multiple of $I$, verify the numbers. Finally, $A^4 = (\\text{value})^2 I$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Diagonal entries are zero.<br />(b) $A^4=\\lambda^2I$ and $A^6=\\lambda^3I$.<br />(c) $A=\\begin{bmatrix}0&1&2\\\\-1&0&3\\\\-2&-3&0\\end{bmatrix}$ is a valid example.",
+    "B": "(a) Diagonal entries need not be zero.<br />(b) $A^4=\\lambda I$ and $A^6=\\lambda I$.<br />(c) The identity matrix is a valid example.",
+    "C": "(a) Since $A^T=-A$, each diagonal entry satisfies $a_{ii}=-a_{ii}$, so $a_{ii}=0$.<br />(b) Formally, if $A^2=\\lambda I$, then $A^4=\\lambda^2I$ and $A^6=\\lambda^3I$.<br />(c) However, no real $3\\times3$ skew-symmetric matrix can satisfy $A^2=\\lambda I$ for $\\lambda>0$, so no valid real example exists.",
+    "D": "(a) Diagonal entries are all $1$.<br />(b) $A^4=0$ and $A^6=0$.<br />(c) Every skew-symmetric matrix satisfies $A^2=\\lambda I$ for $\\lambda>0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:39:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

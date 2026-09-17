@@ -1,0 +1,29 @@
+{
+  "id": "69a9b4b66638848124d7c985",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int \\frac{\\sin x}{\\sin 3x} dx$.",
+  "answeroption": "A",
+  "explanation": "Use the identity $\\sin3x = 3\\sin x - 4\\sin^3 x = \\sin x(3-4\\sin^2 x)$.<br /><br />Thus $\\int \\frac{\\sin x}{\\sin3x}dx = \\int \\frac{1}{3-4\\sin^2 x}dx$.<br /><br />Divide numerator and denominator by $\\cos^2 x$ to obtain $\\int \\frac{\\sec^2 x}{3-\\tan^2 x}dx$.<br /><br />Let $t=\\tan x$, so $dt=\\sec^2 x dx$.<br /><br />Then the integral becomes $\\int \\frac{dt}{3-t^2}$.<br /><br />$=\\frac{1}{2\\sqrt{3}}\\ln\\left|\\frac{\\sqrt{3}+t}{\\sqrt{3}-t}\\right|+C$.<br /><br />Substituting $t=\\tan x$ gives the final result.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2\\sqrt{3}} \\ln \\left| \\frac{\\sqrt{3}+\\tan x}{\\sqrt{3}-\\tan x} \\right| + C$",
+    "B": "$\\frac{1}{\\sqrt{3}} \\ln \\left| \\frac{\\sqrt{3}+\\tan x}{\\sqrt{3}-\\tan x} \\right| + C$",
+    "C": "$\\frac{1}{2\\sqrt{3}} \\ln \\left| \\frac{\\sqrt{3}-\\tan x}{\\sqrt{3}+\\tan x} \\right| + C$",
+    "D": "$\\frac{1}{2\\sqrt{3}} \\tan^{-1}\\left(\\frac{\\tan x}{\\sqrt{3}}\\right)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:52:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

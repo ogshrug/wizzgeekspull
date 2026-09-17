@@ -1,0 +1,29 @@
+{
+  "id": "6a9025252e54880055a0a742",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "VSA",
+  "question": "Events $A$ and $B$ are independent and satisfy $P(B)=2P(A)$ and $P(A\\cup B)=\\frac{5}{8}$. Find $P(A)$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> Let $P(A)=p$. Then the given condition gives $P(B)=2p$.<br><b>Step 2:</b> Since the events are independent, $P(A\\cap B)=P(A)P(B)=2p^2$.<br><b>Step 3:</b> Using $P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$, we get $\\frac{5}{8}=p+2p-2p^2$. Thus, $16p^2-24p+5=0$.<br><b>Step 4:</b> Factoring or using the quadratic formula gives $p=\\frac{1}{4}$ or $p=\\frac{5}{4}$.<br><b>Step 5:</b> A probability cannot exceed $1$, so $\\frac{5}{4}$ is inadmissible.<br><b>Step 6:</b> Therefore, $P(A)=\\frac{1}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{8}$",
+    "B": "$\\frac{1}{4}$",
+    "C": "$\\frac{3}{8}$",
+    "D": "$\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

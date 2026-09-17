@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe6fc2e54880055a0a72e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad",
+    "6a13ebca8c819562f933f9ae"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematical relation is given in the form $\\frac{dx}{dy}-\\frac{x}{y}=2y$, where $y>0$. Here $x$ is regarded as a function of $y$, so the equation is linear in $x$ rather than in $y$. Students recall that a first-order linear differential equation can also be written as $\\frac{dx}{dy}+P_1x=Q_1$, with $P_1$ and $Q_1$ depending only on $y$. They must identify the corresponding coefficients, obtain the integrating factor with respect to $y$, and solve the equation. This example helps them compare the two standard forms of first-order linear differential equations.<br><br><b>(a)</b> Identify $P_1$ and $Q_1$ in the standard form $\\frac{dx}{dy}+P_1x=Q_1$.<br><br><b>(b)</b> Calculate the integrating factor for $y>0$.<br><br><b>(c)</b> Show that multiplication by the integrating factor converts the left-hand side into $\\frac{d}{dy}\\left(\\frac{x}{y}\\right)$.<br><br><b>(d)</b> Solve the differential equation and obtain its general solution.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The given equation is $$\\frac{dx}{dy}-\\frac{1}{y}x=2y$$<br><br>Comparing with $$\\frac{dx}{dy}+P_1x=Q_1$$<br><br>we obtain $$P_1=-\\frac{1}{y},\\qquad Q_1=2y$$<br><br><b>(b)</b><br>The integrating factor is $$\\text{I.F.}=e^{\\int P_1\\,dy}=e^{\\int-\\frac{1}{y}\\,dy}$$<br><br>Since $y>0$, $$\\text{I.F.}=e^{-\\log y}=\\frac{1}{y}$$<br><br><b>(c)</b><br>Multiplying the differential equation by $\\frac{1}{y}$ gives $$\\frac{1}{y}\\frac{dx}{dy}-\\frac{x}{y^2}=2$$<br><br>But $$\\frac{d}{dy}\\left(\\frac{x}{y}\\right)=\\frac{1}{y}\\frac{dx}{dy}-\\frac{x}{y^2}$$<br><br>Therefore, $$\\frac{d}{dy}\\left(\\frac{x}{y}\\right)=2$$<br><br><b>(d)</b><br>Integrating with respect to $y$, $$\\frac{x}{y}=2y+C$$<br><br>Multiplying by $y$, $$x=2y^2+Cy$$<br><br>Hence the required general solution is $x=2y^2+Cy$, for $y>0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P_1=\\frac{1}{y},\\ Q_1=2y$<br>(b) I.F. $=y$<br>(c) $\\frac{d}{dy}(xy)=2y^2$<br>(d) $x=\\frac{2}{3}y^2+\\frac{C}{y}$",
+    "B": "(a) $P_1=-\\frac{1}{y},\\ Q_1=2y$<br>(b) I.F. $=\\frac{1}{y}$<br>(c) $\\frac{d}{dy}\\left(\\frac{x}{y}\\right)=2$<br>(d) $x=2y^2+Cy$",
+    "C": "(a) $P_1=-y,\\ Q_1=2$<br>(b) I.F. $=e^{-y^2/2}$<br>(c) $\\frac{d}{dy}(xe^{-y^2/2})=2e^{-y^2/2}$<br>(d) $x=2y+C$",
+    "D": "(a) $P_1=-\\frac{1}{y},\\ Q_1=2y$<br>(b) I.F. $=y$<br>(c) $\\frac{d}{dy}(xy)=2y^2$<br>(d) $x=\\frac{2}{3}y^2+Cy$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

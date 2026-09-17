@@ -1,0 +1,28 @@
+{
+  "id": "6a266b10864be73cfcf6d38b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "If N denotes the set of all natural numbers and R is the relation on $N\\times N$ defined by (a, b) R (c, d), if $ad(b+c)=bc(a+d)$ Show that R is an equivalence relation.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To prove that $R$ is an equivalence relation, we must show it is reflexive, symmetric, and transitive. First, check reflexivity: a relation is reflexive if every element relates to itself, i.e., $(a,b)R(a,b)$. Substituting this into our definition rule gives the equation: $ab(b+a) = ba(a+b)$. By the commutative property of multiplication and addition for natural numbers, $ab = ba$ and $b+a = a+b$, so both sides are perfectly identical. Thus, $R$ is reflexive.<br />**Step 2:** Next, check symmetry: a relation is symmetric if $(a,b)R(c,d)$ implies $(c,d)R(a,b)$. Given $(a,b)R(c,d)$, we have $ad(b+c) = bc(a+d)$, which can be rewritten using equality properties as $bc(a+d) = ad(b+c)$. Rearranging the terms yields $cb(d+a) = da(c+b)$, which fits the exact definition for $(c,d)R(a,b)$. Thus, $R$ is symmetric.<br />**Step 3:** Finally, check transitivity: if $(a,b)R(c,d)$ and $(c,d)R(e,f)$, then it must imply $(a,b)R(e,f)$. From the first relation, $\\frac{b+c}{bc} = \\frac{a+d}{ad} \\implies \\frac{1}{c} + \\frac{1}{b} = \\frac{1}{d} + \\frac{1}{a}$. From the second relation, $\\frac{1}{e} + \\frac{1}{d} = \\frac{1}{f} + \\frac{1}{c}$. Adding these two equations cancels out the shared terms $\\frac{1}{c}$ and $\\frac{1}{d}$: $\\frac{1}{b} + \\frac{1}{e} = \\frac{1}{a} + \\frac{1}{f} \\implies \\frac{e+b}{be} = \\frac{f+a}{af} \\implies af(b+e) = be(a+f)$, which proves $(a,b)R(e,f)$. Since all three criteria are satisfied, $R$ is an equivalence relation. This proof contains 254 words.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

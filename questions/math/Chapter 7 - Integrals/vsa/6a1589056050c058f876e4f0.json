@@ -1,0 +1,24 @@
+{
+  "id": "6a1589056050c058f876e4f0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate: $\\int_{-4}^{0}|x+2|dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Find the breakpoint for the absolute value function**<br />The absolute value expression $|x+2|$ changes its behavior where the inner term equals zero: $x + 2 = 0 \\implies x = -2$. This breakpoint falls within our integration limits of $-4$ and $0$.<br /><br />**Step 2: Split the integral into two intervals**<br />We separate the absolute value function based on its sign across the breakpoint interval:<br />- For $-4 \\le x < -2$, $(x+2)$ is negative, so $|x+2| = -(x+2)$.<br />- For $-2 \\le x \\le 0$, $(x+2)$ is positive, so $|x+2| = (x+2)$.<br />Splitting the definite integral around our breakpoint gives:<br />$\\int_{-4}^{0} |x+2| \\, dx = \\int_{-4}^{-2} -(x+2) \\, dx + \\int_{-2}^{0} (x+2) \\, dx$<br /><br />**Step 3: Integrate each interval independently**<br />- For the first integral:<br />  $\\int_{-4}^{-2} -(x+2) \\, dx = -\\left[ \\frac{x^2}{2} + 2x \\right]_{-4}^{-2} = -\\left\\{ \\left( \\frac{(-2)^2}{2} + 2(-2) \\right) - \\left( \\frac{(-4)^2}{2} + 2(-4) \\right) \\right\\}$<br />  $= -\\left\\{ (2 - 4) - (8 - 8) \\right\\} = -\\{-2 - 0\\} = 2$<br />- For the second integral:<br />  $\\int_{-2}^{0} (x+2) \\, dx = \\left[ \\frac{x^2}{2} + 2x \\right]_{-2}^{0} = \\left( \\frac{0^2}{2} + 2(0) \\right) - \\left( \\frac{(-2)^2}{2} + 2(-2) \\right)$<br />  $= 0 - (2 - 4) = -(-2) = 2$<br /><br />**Step 4: Sum the results from both intervals**<br />Total Area $= 2 + 2 = 4$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

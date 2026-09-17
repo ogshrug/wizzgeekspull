@@ -1,0 +1,29 @@
+{
+  "id": "69a95003589ce36f368b47b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "A line $\\frac{x-4}{1}=\\frac{y+2}{-2}=\\frac{z-3}{2}$ meets the plane $x-y+2z=10$ at $P$. Find the equation of the plane which passes through the origin and contains both the point $P$ and the point $(2,4,1)$.",
+  "answeroption": "C",
+  "explanation": "Parametric form of the line:<br /><br />$x=4+\\lambda$, $y=-2-2\\lambda$, $z=3+2\\lambda$.<br /><br />Substitute in plane equation $x-y+2z=10$.<br /><br />$4+\\lambda-(-2-2\\lambda)+2(3+2\\lambda)=10$.<br /><br />$12+7\\lambda=10$.<br /><br />$\\lambda=-\\frac{2}{7}$.<br /><br />Hence point of intersection $P=(\\frac{26}{7},-\\frac{10}{7},\\frac{17}{7})$.<br /><br />The required plane passes through $O(0,0,0)$, $P$, and $Q(2,4,1)$.<br /><br />Using determinant form:<br /><br />$\\begin{vmatrix}x&y&z\\\\26/7&-10/7&17/7\\\\2&4&1\\end{vmatrix}=0$.<br /><br />Simplifying gives:<br /><br />$-78x+8y+124z=0$.<br /><br />Dividing by $-2$:<br /><br />$39x-4y-62z=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Point $P=\\left(\\frac{26}{7},-\\frac{10}{7},\\frac{17}{7}\\right)$<br />Required plane: $39x+4y-62z=0$",
+    "B": "Point $P=\\left(\\frac{26}{7},\\frac{10}{7},\\frac{17}{7}\\right)$<br />Required plane: $39x-4y-62z=0$",
+    "C": "Point $P=\\left(\\frac{26}{7},-\\frac{10}{7},\\frac{17}{7}\\right)$<br />Required plane: $39x-4y-62z=0$",
+    "D": "Point $P=\\left(\\frac{17}{7},-\\frac{10}{7},\\frac{26}{7}\\right)$<br />Required plane: $39x-4y+62z=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:42:27 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8d4712f1c9329bcf7979ab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4c",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Students transform the principal inverse-sine curve to obtain $g(x)=2\\sin^{-1}x-\\frac{\\pi}{2}$ for $-1\\leq x\\leq1$. The standard inverse-sine function takes values in $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$. Multiplying its ordinate by $2$ changes its vertical scale, while subtracting $\\frac{\\pi}{2}$ translates the resulting graph downward. The students use principal values at selected inputs to determine the new range, intercept and symmetry.<br><br><b>(a)</b> Determine the range of $g$.<br><br><b>(b)</b> Calculate $g(-1)$, $g(0)$, and $g(1)$.<br><br><b>(c)</b> Find the point where the graph intersects the $x$-axis.<br><br><b>(d)</b> Establish the point symmetry of the graph and identify its centre.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>Since $$-\\frac{\\pi}{2}\\leq\\sin^{-1}x\\leq\\frac{\\pi}{2}$$ multiplying by $2$ gives $$-\\pi\\leq2\\sin^{-1}x\\leq\\pi$$ Subtracting $\\frac{\\pi}{2}$ gives $$-\\frac{3\\pi}{2}\\leq g(x)\\leq\\frac{\\pi}{2}$$ Hence, the range is $\\left[-\\frac{3\\pi}{2},\\frac{\\pi}{2}\\right]$.<br><br><b>(b)</b><br>Using principal values, $$g(-1)=2\\left(-\\frac{\\pi}{2}\\right)-\\frac{\\pi}{2}=-\\frac{3\\pi}{2}$$ $$g(0)=2(0)-\\frac{\\pi}{2}=-\\frac{\\pi}{2}$$ $$g(1)=2\\left(\\frac{\\pi}{2}\\right)-\\frac{\\pi}{2}=\\frac{\\pi}{2}$$ Therefore, the graph contains $\\left(-1,-\\frac{3\\pi}{2}\\right)$, $\\left(0,-\\frac{\\pi}{2}\\right)$ and $\\left(1,\\frac{\\pi}{2}\\right)$.<br><br><b>(c)</b><br>At the $x$-axis, $g(x)=0$. Thus, $$2\\sin^{-1}x-\\frac{\\pi}{2}=0$$ $$\\sin^{-1}x=\\frac{\\pi}{4}$$ Hence, $x=\\sin\\frac{\\pi}{4}=\\frac{1}{\\sqrt{2}}$. The intercept is $\\left(\\frac{1}{\\sqrt{2}},0\\right)$.<br><br><b>(d)</b><br>Using $\\sin^{-1}(-x)=-\\sin^{-1}x$, $$g(-x)=-2\\sin^{-1}x-\\frac{\\pi}{2}$$ Therefore, $$g(x)+g(-x)=-\\pi$$ The average ordinate of corresponding points is $-\\frac{\\pi}{2}$. Hence, the graph has point symmetry about $\\left(0,-\\frac{\\pi}{2}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Range: $[-\\pi,\\pi]$<br><br>(b) $g(-1)=-\\pi$, $g(0)=0$, and $g(1)=\\pi$<br><br>(c) $x$-axis intersection: $(0,0)$<br><br>(d) Point symmetry about the origin",
+    "B": "(a) Range: $\\left[-\\dfrac{\\pi}{2},\\dfrac{3\\pi}{2}\\right]$<br><br>(b) $g(-1)=-\\dfrac{\\pi}{2}$, $g(0)=\\dfrac{\\pi}{2}$, and $g(1)=\\dfrac{3\\pi}{2}$<br><br>(c) $x$-axis intersection: $\\left(-\\dfrac{1}{\\sqrt{2}},0\\right)$<br><br>(d) Point symmetry about $\\left(0,\\dfrac{\\pi}{2}\\right)$",
+    "C": "(a) Range: $\\left[-\\dfrac{3\\pi}{2},\\dfrac{\\pi}{2}\\right]$<br><br>(b) $g(-1)=-\\dfrac{3\\pi}{2}$, $g(0)=-\\dfrac{\\pi}{2}$, and $g(1)=\\dfrac{\\pi}{2}$<br><br>(c) $x$-axis intersection: $\\left(-\\dfrac{1}{\\sqrt{2}},0\\right)$<br><br>(d) Point symmetry about $\\left(0,-\\dfrac{\\pi}{2}\\right)$",
+    "D": "(a) Range: $\\left[-\\dfrac{3\\pi}{2},\\dfrac{\\pi}{2}\\right]$<br><br>(b) $g(-1)=-\\dfrac{3\\pi}{2}$, $g(0)=-\\dfrac{\\pi}{2}$, and $g(1)=\\dfrac{\\pi}{2}$<br><br>(c) $x$-axis intersection: $\\left(\\dfrac{1}{\\sqrt{2}},0\\right)$<br><br>(d) Point symmetry about $\\left(0,-\\dfrac{\\pi}{2}\\right)$ because $g(x)+g(-x)=-\\pi$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

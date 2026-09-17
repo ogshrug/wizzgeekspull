@@ -1,0 +1,27 @@
+{
+  "id": "6a2141b991ff8b4d45610971",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "SA",
+  "question": "Find a particular solution of the differential equation $(x+1)\\frac{dy}{dx}=2e^{-y}-1$, given that $y=0$ when $x=0$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Separate the variables by writing $\\frac{dy}{2e^{-y}-1}=\\frac{dx}{x+1}$.<br /><br /><b>Step 2</b> Multiply numerator and denominator on the left side by $e^y$ to obtain $\\frac{e^y}{2-e^y}dy=\\frac{dx}{x+1}$.<br /><br /><b>Step 3</b> Let $u=2-e^y$. Then $du=-e^ydy$. Integrating gives $-\\ln|2-e^y|=\\ln|x+1|+C$.<br /><br /><b>Step 4</b> Apply the initial condition $x=0$, $y=0$. Substituting gives $-\\ln(1)=\\ln(1)+C$, hence $C=0$.<br /><br /><b>Step 5</b> Therefore, $-\\ln(2-e^y)=\\ln(x+1)$. Combining logarithms yields $\\ln\\left(\\frac{1}{2-e^y}\\right)=\\ln(x+1)$, so $\\frac{1}{2-e^y}=x+1$. Hence the particular solution is $(2-e^y)(x+1)=1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

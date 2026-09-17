@@ -1,0 +1,25 @@
+{
+  "id": "6a158b8d6050c058f876e504",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "SA",
+  "question": "Find a matrix $A$ such that $A\\begin{bmatrix}4&0\\\\-1&-2\\end{bmatrix}=\\begin{bmatrix}17&10\\\\0&-16\\end{bmatrix}$. Also, find $A^{-1}$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Set up the matrix equation**<br />Let $B = \\begin{bmatrix}4&0\\\\-1&-2\\end{bmatrix}$ and $C = \\begin{bmatrix}17&10\\\\0&-16\\end{bmatrix}$. Our equation is $A \\cdot B = C$, which simplifies to $A = C \\cdot B^{-1}$.<br /><br />**Step 2: Calculate inverse matrix $B^{-1}$**<br />First find the determinant of $B$: $|B| = 4(-2) - 0(-1) = -8$.<br />Next, find the adjoint matrix by swapping diagonal elements and changing the signs of off-diagonal elements: $\\text{adj}(B) = \\begin{bmatrix}-2&0\\\\1&4\\end{bmatrix}$.<br />Using the formula $B^{-1} = \\frac{1}{|B|}\\text{adj}(B)$ gives:<br />$B^{-1} = -\\frac{1}{8}\\begin{bmatrix}-2&0\\\\1&4\\end{bmatrix}$.<br /><br />**Step 3: Solve for matrix $A$**<br />Multiply matrix $C$ by $B^{-1}$:<br />$A = \\begin{bmatrix}17&10\\\\0&-16\\end{bmatrix} \\cdot \\left(-\\frac{1}{8}\\begin{bmatrix}-2&0\\\\1&4\\end{bmatrix}\\right) = -\\frac{1}{8}\\begin{bmatrix}17(-2)+10(1)&17(0)+10(4)\\\\0(-2)+(-16)(1)&0(0)+(-16)(4)\\end{bmatrix}$<br />$A = -\\frac{1}{8}\\begin{bmatrix}-34+10&40\\\\-16&-64\\end{bmatrix} = -\\frac{1}{8}\\begin{bmatrix}-24&40\\\\-16&-64\\end{bmatrix} = \\begin{bmatrix}3&-5\\\\2&8\\end{bmatrix}$.<br /><br />**Step 4: Compute inverse matrix $A^{-1}$**<br />Find the determinant of our new matrix $A$: $|A| = 3(8) - (-5)(2) = 24 + 10 = 34$.<br />Find the adjoint matrix of $A$: $\\text{adj}(A) = \\begin{bmatrix}8&5\\\\-2&3\\end{bmatrix}$.<br />Using the inverse formula gives:<br />$A^{-1} = \\frac{1}{34}\\begin{bmatrix}8&5\\\\-2&3\\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

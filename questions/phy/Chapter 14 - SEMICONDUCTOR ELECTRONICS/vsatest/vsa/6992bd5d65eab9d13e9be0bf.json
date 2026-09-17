@@ -1,0 +1,16 @@
+{
+  "id": "6992bd5d65eab9d13e9be0bf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "698eb6089d20b56bde515bb7",
+  "question": "A sinusoidal transformer secondary provides an output of peak value $V_m=20\\,\\text{V}$ at frequency $f=50\\,\\text{Hz}$. A load resistor $R_L=1.0\\,\\text{k}\\Omega$ is connected at the output of a rectifier. Assume ideal diodes.\n\n(a) For a half-wave rectifier, calculate the average (dc) output voltage $V_{dc}$ and the rms output voltage $V_{rms}$ using\n\n$V_{dc}=\\frac{V_m}{\\pi},\\qquad V_{rms}=\\frac{V_m}{2}.$\n\n(b) For a full-wave bridge rectifier, calculate $V_{dc}$ and $V_{rms}$ using\n\n$V_{dc}=\\frac{2V_m}{\\pi},\\qquad V_{rms}=\\frac{V_m}{\\sqrt{2}}.$\n\n(c) For each case, compute rectification efficiency using\n\n$\\eta=\\left(\\frac{V_{dc}}{V_{rms}}\\right)^2.$\n\n(d) For each case, determine the ripple frequency in the output across $R_L$.\n\n(e) Determine the PIV (peak inverse voltage) rating required for each diode in (i) half-wave rectifier and (ii) bridge rectifier, and justify using circuit reasoning.\n\n(f) Draw the circuit diagram and output waveforms (ac input and rectified output) for both rectifiers and mark ripple frequency clearly.\n\nPresent the complete analysis with all numerical results and conclusions.",
+  "options": {
+    "A": "Half-wave: $V_{dc}\\approx 6.37\\,\\text{V}$, $V_{rms}=10.0\\,\\text{V}$, $\\eta\\approx 0.405$ and ripple frequency $50\\,\\text{Hz}$; Full-wave bridge: $V_{dc}\\approx 12.73\\,\\text{V}$, $V_{rms}\\approx 14.14\\,\\text{V}$, $\\eta\\approx 0.811$ and ripple frequency $100\\,\\text{Hz}$; PIV per diode: half-wave $=V_m$, bridge $=V_m$.",
+    "B": "Half-wave: $V_{dc}\\approx 10.0\\,\\text{V}$, $V_{rms}\\approx 6.37\\,\\text{V}$, $\\eta\\approx 0.90$ and ripple frequency $100\\,\\text{Hz}$; Full-wave bridge: $V_{dc}\\approx 6.37\\,\\text{V}$, $V_{rms}=10.0\\,\\text{V}$, $\\eta\\approx 0.405$ and ripple frequency $50\\,\\text{Hz}$; PIV per diode: half-wave $=2V_m$, bridge $=2V_m$.",
+    "C": "Half-wave and bridge both give the same $V_{dc}$ and ripple frequency because both use the same transformer; efficiency is the same for both; PIV per diode is always $2V_m$.",
+    "D": "Half-wave: $V_{dc}=\\dfrac{2V_m}{\\pi}$ and ripple frequency $100\\,\\text{Hz}$; Full-wave bridge: $V_{dc}=\\dfrac{V_m}{\\pi}$ and ripple frequency $50\\,\\text{Hz}$; PIV per diode: half-wave $=V_m$, bridge $=2V_m$."
+  },
+  "question_type": "LA",
+  "category": "Analysing, Evaluating, Creating",
+  "imageurl": null
+}

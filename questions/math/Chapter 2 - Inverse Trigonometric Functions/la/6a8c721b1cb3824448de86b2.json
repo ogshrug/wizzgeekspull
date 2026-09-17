@@ -1,0 +1,30 @@
+{
+  "id": "6a8c721b1cb3824448de86b2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "(a) Prove that $2\\cos^{-1}x=\\cos^{-1}(2x^2-1)$ for $0\\leq x\\leq1$ and explain why the stated interval is required.<br><br>(b) Verify the identity at $x=\\dfrac{\\sqrt{3}}{2}$.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Let<br>$$\\theta=\\cos^{-1}x$$<br>Since $0\\leq x\\leq1$,<br>$$0\\leq\\theta\\leq\\frac{\\pi}{2}$$<br>Therefore,<br>$$0\\leq2\\theta\\leq\\pi$$<br>so $2\\theta$ belongs to the principal-value range of $\\cos^{-1}$.<br>Using the double-angle formula,<br>$$\\cos2\\theta=2\\cos^2\\theta-1$$<br>Since $\\cos\\theta=x$,<br>$$\\cos2\\theta=2x^2-1$$<br>Applying $\\cos^{-1}$ and using $2\\theta\\in[0,\\pi]$,<br>$$2\\theta=\\cos^{-1}(2x^2-1)$$<br>Substituting $\\theta=\\cos^{-1}x$ gives<br>$$2\\cos^{-1}x=\\cos^{-1}(2x^2-1)$$<br>The interval $0\\leq x\\leq1$ ensures that $2\\cos^{-1}x$ lies in the principal range of $\\cos^{-1}$.<br><br><b>(b)</b><br>For $x=\\dfrac{\\sqrt{3}}{2}$, the left-hand side is<br>$$2\\cos^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right)=2\\cdot\\frac{\\pi}{6}=\\frac{\\pi}{3}$$<br>The right-hand side is<br>$$\\cos^{-1}\\left(2\\cdot\\frac{3}{4}-1\\right)=\\cos^{-1}\\left(\\frac{1}{2}\\right)=\\frac{\\pi}{3}$$<br>Thus, both sides are equal to $\\dfrac{\\pi}{3}$, verifying the identity.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $2\\cos^{-1}x=\\cos^{-1}(1-2x^2)$ for $0\\leq x\\leq1$<br><br>(b) Both sides equal $\\dfrac{2\\pi}{3}$",
+    "B": "(a) $2\\cos^{-1}x=\\cos^{-1}(2x^2-1)$ for $0\\leq x\\leq1$, which ensures that $2\\cos^{-1}x\\in[0,\\pi]$<br><br>(b) Both sides equal $\\dfrac{\\pi}{3}$",
+    "C": "(a) $2\\cos^{-1}x=\\sin^{-1}(2x^2-1)$ for $0\\leq x\\leq1$<br><br>(b) Both sides equal $\\dfrac{\\pi}{6}$",
+    "D": "(a) $2\\cos^{-1}x=\\cos^{-1}(2x-1)$ for $0\\leq x\\leq1$<br><br>(b) Both sides equal $\\dfrac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a2fdba193496b2e4e0e7626",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A=\\begin{bmatrix}\\sin\\theta & \\cos\\theta \\\\ -\\cos\\theta & \\sin\\theta\\end{bmatrix}$ and $A+A^{\\prime}=I$, then $\\theta$ is equal to :",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Find the transpose of matrix $A$ by interchanging rows and columns: $A^{\\prime} = \\begin{bmatrix}\\sin\\theta & -\\cos\\theta \\\\ \\cos\\theta & \\sin\\theta\\end{bmatrix}$.<br />**Step 2:** Compute the matrix sum: $A+A^{\\prime} = \\begin{bmatrix}2\\sin\\theta & 0 \\\\ 0 & 2\\sin\\theta\\end{bmatrix}$. Equate this to the identity matrix $I = \\begin{bmatrix}1 & 0 \\\\ 0 & 1\\end{bmatrix}$.<br />**Step 3:** Equating matching entries gives $2\\sin\\theta = 1 \\implies \\sin\\theta = \\frac{1}{2}$, which gives the principal solution $\\theta = \\frac{\\pi}{6}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "$\\frac{\\pi}{6}$",
+    "C": "$\\frac{\\pi}{3}$",
+    "D": "$\\pi$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

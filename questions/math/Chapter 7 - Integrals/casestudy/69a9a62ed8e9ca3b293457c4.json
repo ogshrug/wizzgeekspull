@@ -1,0 +1,29 @@
+{
+  "id": "69a9a62ed8e9ca3b293457c4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A company's marginal cost is $MC(x)=4x^3-2x^2+3x+7$.<br /><br />(a) Set up the definite integral representing additional cost from 1 to 3 units.<br /><br />(b) Evaluate the integral.<br /><br />(c) If marginal cost becomes $4x^3-2x^2+3x+7+\\sin(\\pi x)$, evaluate the revised integral and interpret the result.",
+  "answeroption": "B",
+  "explanation": "(a) Additional cost is represented by the definite integral:<br /><br />$\\int_{1}^{3}(4x^3-2x^2+3x+7)dx$.<br /><br />(b) Antiderivative is $x^4-\\frac{2}{3}x^3+\\frac{3}{2}x^2+7x$. Evaluating from 1 to 3 gives approximately $88.6667$.<br /><br />(c) New cost function adds $\\sin(\\pi x)$. Thus revised integral:<br /><br />$\\int_{1}^{3}(4x^3-2x^2+3x+7+\\sin(\\pi x))dx$.<br /><br />$=88.6667+\\int_{1}^{3}\\sin(\\pi x)dx$.<br /><br />$=88.6667+[-\\frac{1}{\\pi}\\cos(\\pi x)]_{1}^{3}$.<br /><br />Since $\\cos3\\pi=-1$ and $\\cos\\pi=-1$, the difference is zero.<br /><br />Thus the sinusoidal component contributes zero net cost over the interval because positive and negative fluctuations cancel.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\int_0^3(4x^3-2x^2+3x+7)dx$<br />(b) $108$ approximately<br />(c) Revised cost is greater because $\\sin(\\pi x)$ contributes positive net cost",
+    "B": "(a) $\\int_1^3(4x^3-2x^2+3x+7)dx$<br />(b) $88.6667$ approximately<br />(c) Revised integral is still $88.6667$ approximately because $\\int_1^3\\sin(\\pi x)dx=0$, so positive and negative fluctuations cancel",
+    "C": "(a) $\\int_1^3(4x^3+2x^2+3x+7)dx$<br />(b) $96.6667$ approximately<br />(c) Revised integral decreases by $\\frac{2}{\\pi}$",
+    "D": "(a) $\\int_1^3\\sin(\\pi x)dx$<br />(b) $0$<br />(c) Revised integral is $0$ because the polynomial part cancels"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:50:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

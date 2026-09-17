@@ -1,0 +1,30 @@
+{
+  "id": "69aa66c7d30adc5083911b6f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\sin^{-1}\\left(2x\\sqrt{1 - x^2}\\right)$ for $x \\in \\left[0, \\frac{1}{\\sqrt{2}}\\right]$.\n\n(a) Prove that $f(x)$ is continuous and differentiable in its domain.\n\n(b) Show that $f(x) = 2\\sin^{-1}(x)$ for all $x$ in this interval.\n\n(c) Compute $\\frac{d}{dx}f(x)$ using two different methods (direct and the result from (b)), and verify they are equal.",
+  "answeroption": "D",
+  "explanation": "**Concepts tested:**<br />- Inverse trigonometric functions (compound argument)<br />- Continuity, differentiability<br />- Transformation identities<br />- Chain rule<br /><br />**Solution:**<br /><br />(a) The function inside $\\sin^{-1}$ is $2x\\sqrt{1 - x^2}$.<br /><br />For $x \\in [0,\\frac{1}{\\sqrt{2}}]$, $1 - x^2 \\ge 0$, so expression is real.<br /><br />Since $\\sin^{-1}$ and polynomial/radical functions are continuous and differentiable on this domain, $f(x)$ is too.<br /><br />(b) Use double angle identity:<br /><br />$\\sin(2\\alpha) = 2\\sin\\alpha\\cos\\alpha$<br /><br />Let $x = \\sin\\theta, \\theta \\in [0, \\frac{\\pi}{4}]$ ($x \\le \\frac{1}{\\sqrt{2}}$), then $\\sqrt{1 - x^2} = \\cos\\theta$.<br /><br />So $2x\\sqrt{1-x^2} = 2\\sin\\theta\\cos\\theta = \\sin 2\\theta$<br /><br />$\\sin^{-1}(\\sin 2\\theta) = 2\\theta$ (since $2\\theta \\in [0,\\frac{\\pi}{2}]$)<br /><br />But $\\theta = \\sin^{-1}x$<br /><br />So $f(x) = 2\\sin^{-1}x$ on the interval.<br /><br />(c) First method: Use $f(x) = 2\\sin^{-1}x$<br /><br />$\\frac{d}{dx} f(x) = 2\\cdot\\frac{1}{\\sqrt{1 - x^2}}$<br /><br />Second method:<br /><br />$y = \\sin^{-1}(2x\\sqrt{1-x^2})$<br /><br />Let $u = 2x\\sqrt{1-x^2}$<br /><br />$\\frac{dy}{dx} = \\frac{1}{\\sqrt{1-u^2}}\\cdot\\frac{du}{dx}$<br /><br />Find $du/dx$: $2\\sqrt{1-x^2} + 2x\\cdot\\frac{-x}{\\sqrt{1-x^2}}$<br /><br />$= 2\\sqrt{1-x^2} - \\frac{2x^2}{\\sqrt{1-x^2}}$<br /><br />$= \\frac{2(1-x^2) - 2x^2}{\\sqrt{1-x^2}} = \\frac{2(1-2x^2)}{\\sqrt{1-x^2}}$<br /><br />For denominator:<br /><br />$u^2 = 4x^2(1-x^2)$<br /><br />$1-u^2 = 1-4x^2+4x^4 = (1-2x^2)^2 + 4x^4-4x^2$<br /><br />But with the double angle identity, $u = \\sin(2\\theta)$, so $1-u^2 = \\cos^2(2\\theta)$<br /><br />But for $x=\\sin\\theta$, $\\cos 2\\theta = 1-2\\sin^2\\theta = 1-2x^2$<br /><br />So $\\sqrt{1-u^2} = |1-2x^2|$ (this is positive on the interval)<br /><br />So derivative is:<br /><br />$\\frac{2(1-2x^2)}{\\sqrt{1-x^2}|1-2x^2|}$<br /><br />But for $x \\in \\left[0, \\frac{1}{\\sqrt{2}}\\right]$, $1-2x^2 \\ge 0$ so $|1-2x^2| = 1-2x^2$<br /><br />Final: $\\frac{2}{\\sqrt{1-x^2}}$<br /><br />Same as before.<br /><br />Thus, both derivatives are equal, as required.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is not continuous on the given interval<br />(b) $f(x)=\\sin^{-1}x$<br />(c) $f'(x)=\\frac{1}{\\sqrt{1-x^2}}$ by both methods",
+    "B": "(a) $f$ is continuous but not differentiable<br />(b) $f(x)=\\cos^{-1}x$<br />(c) $f'(x)=-\\frac{1}{\\sqrt{1-x^2}}$",
+    "C": "(a) $f$ is differentiable only at $x=0$<br />(b) $f(x)=\\tan^{-1}x$<br />(c) $f'(x)=\\frac{1}{1+x^2}$",
+    "D": "(a) $f$ is continuous and differentiable on $\\left[0,\\frac{1}{\\sqrt2}\\right]$<br />(b) $f(x)=2\\sin^{-1}x$ on this interval<br />(c) Using $f(x)=2\\sin^{-1}x$, $f'(x)=\\frac{2}{\\sqrt{1-x^2}}$; direct differentiation also gives $\\frac{2}{\\sqrt{1-x^2}}$, so both methods agree"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:31:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

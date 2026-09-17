@@ -1,0 +1,32 @@
+{
+  "id": "6a8edd5fbe0ecc7866e90c07",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978",
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "LA",
+  "question": "For the function $f(x)=\\frac{x^2+1}{x-1}$, where $x\\neq 1$, answer the following:<br><br>(a) Find all critical points belonging to the domain of $f$.<br><br>(b) Determine the intervals on which the function is increasing and decreasing.<br><br>(c) Explain why $x=1$ is not a critical point of the function.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br><b>Differentiation</b><br>Using the quotient rule,<br>$$f'(x)=\\frac{2x(x-1)-(x^2+1)}{(x-1)^2}$$<br>$$f'(x)=\\frac{x^2-2x-1}{(x-1)^2}$$<br>For critical points in the domain, set the numerator equal to zero.<br>$$x^2-2x-1=0$$<br>Using the quadratic formula,<br>$$x=\\frac{2\\pm\\sqrt{4+4}}{2}=1\\pm\\sqrt{2}$$<br>Therefore, the critical points are<br>$$x=1-\\sqrt{2}\\quad\\text{and}\\quad x=1+\\sqrt{2}$$<br><br><b>(b)</b><br>Since $(x-1)^2>0$ for every $x\\neq 1$, the sign of $f'(x)$ is determined by<br>$$x^2-2x-1=(x-1-\\sqrt{2})(x-1+\\sqrt{2})$$<br>The derivative is positive when<br>$$x<1-\\sqrt{2}\\quad\\text{or}\\quad x>1+\\sqrt{2}$$<br>and negative when<br>$$1-\\sqrt{2}<x<1+\\sqrt{2}$$<br>Taking the excluded point $x=1$ into account, $f$ is increasing on<br>$$(-\\infty,1-\\sqrt{2})\\cup(1+\\sqrt{2},\\infty)$$<br>and decreasing on<br>$$(1-\\sqrt{2},1)\\cup(1,1+\\sqrt{2})$$<br><br><b>(c)</b><br>The expression $f(x)=\\frac{x^2+1}{x-1}$ is not defined at $x=1$. A critical point must belong to the domain of the function.<br>Therefore, although the derivative is also undefined at $x=1$, it is not a critical point of $f$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Critical points $1,1\\pm\\sqrt{2}$<br>(b) Increasing between $1-\\sqrt{2}$ and $1+\\sqrt{2}$<br>(c) $x=1$ is critical because $f'$ is undefined there",
+    "B": "(a) Critical points $1\\pm\\sqrt{2}$<br>(b) Increasing on $(-\\infty,1-\\sqrt{2})\\cup(1+\\sqrt{2},\\infty)$; decreasing on $(1-\\sqrt{2},1)\\cup(1,1+\\sqrt{2})$<br>(c) $x=1$ is not critical because it is outside the domain",
+    "C": "(a) Critical points $\\pm\\sqrt{2}$<br>(b) Decreasing outside and increasing between them<br>(c) $x=1$ is excluded only from the increasing interval",
+    "D": "(a) Critical point $x=1$ only<br>(b) Increasing on $(-\\infty,1)$ and decreasing on $(1,\\infty)$<br>(c) $x=1$ is critical because the denominator is zero"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

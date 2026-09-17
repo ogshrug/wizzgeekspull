@@ -1,0 +1,29 @@
+{
+  "id": "6a8f173c2e54880055a0a6eb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f997"
+  ],
+  "question_type": "VSA",
+  "question": "The upper branch of the ellipse $\\frac{x^2}{16}+\\frac{y^2}{4}=1$ is considered from $x=0$ to $x=2$. Find the area below this branch.",
+  "answeroption": "D",
+  "explanation": "Step 1: The upper branch is $y=2\\sqrt{1-\\frac{x^2}{16}}$. Hence, $A=\\int_0^2 2\\sqrt{1-\\frac{x^2}{16}}\\,dx$. Step 2: Put $x=4\\sin\\theta$. Then $dx=4\\cos\\theta\\,d\\theta$, and the limits become $0$ and $\\frac{\\pi}{6}$. Step 3: Therefore, $A=8\\int_0^{\\frac{\\pi}{6}}\\cos^2\\theta\\,d\\theta=\\left[4\\theta+2\\sin2\\theta\\right]_0^{\\frac{\\pi}{6}}$. Step 4: Thus, $A=\\frac{2\\pi}{3}+\\sqrt{3}$. Final Answer: The required area is $\\frac{2\\pi}{3}+\\sqrt{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{3}+\\sqrt{3}$ square units",
+    "B": "$\\frac{2\\pi}{3}+2\\sqrt{3}$ square units",
+    "C": "$\\frac{4\\pi}{3}+\\sqrt{3}$ square units",
+    "D": "$\\frac{2\\pi}{3}+\\sqrt{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

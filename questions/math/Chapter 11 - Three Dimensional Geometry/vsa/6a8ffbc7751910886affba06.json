@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffbc7751910886affba06",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "VSA",
+  "question": "Obtain the vector equation of the line passing through $A(2,-1,4)$ and $B(-1,5,0)$.",
+  "answeroption": "D",
+  "explanation": "Step 1: The position vector of $A(2,-1,4)$ is $\\vec{a}=2\\hat{i}-\\hat{j}+4\\hat{k}$. Step 2: The direction of the required line is obtained from $\\overrightarrow{AB}$. Its components are $(-1-2,5-(-1),0-4)=(-3,6,-4)$. Thus, $$\\overrightarrow{AB}=-3\\hat{i}+6\\hat{j}-4\\hat{k}.$$ Step 3: A line passing through a point with position vector $\\vec{a}$ and parallel to a vector $\\vec{b}$ has equation $\\vec{r}=\\vec{a}+\\lambda\\vec{b}$. Step 4: Substituting the obtained vectors, $$\\vec{r}=(2\\hat{i}-\\hat{j}+4\\hat{k})+\\lambda(-3\\hat{i}+6\\hat{j}-4\\hat{k}),\\quad \\lambda\\in\\mathbb{R}.$$ Step 5: Hence, this is the required vector equation of the line through $A$ and $B$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\vec{r}=(2\\hat{i}-\\hat{j}+4\\hat{k})+\\lambda(3\\hat{i}-6\\hat{j}+4\\hat{k})$",
+    "B": "$\\vec{r}=(-\\hat{i}+5\\hat{j})+\\lambda(-3\\hat{i}+6\\hat{j}-4\\hat{k})$",
+    "C": "$\\vec{r}=(2\\hat{i}+\\hat{j}+4\\hat{k})+\\lambda(-3\\hat{i}+6\\hat{j}-4\\hat{k})$",
+    "D": "$\\vec{r}=(2\\hat{i}-\\hat{j}+4\\hat{k})+\\lambda(-3\\hat{i}+6\\hat{j}-4\\hat{k})$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69aa72b88e6d1957407fd1b8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A tech startup is modeling its user growth using the logistic differential equation $\\frac{dN}{dt} = rN\\left(1-\\frac{N}{K}\\right)$, where N is the number of users (in thousands), r is the growth rate per month, and K is the carrying capacity. Initially, N(0) = 2, K = 20, and after 3 months, N(3) = 6. Management considers a major advertising campaign that doubles the growth rate r.<br /><br />(a) Write the differential equation and classify its type.<br /><br />(b) Find the particular solution for N(t) before the campaign and determine r using the data provided.<br /><br />(c) If the campaign doubles r, approximately how long will it take for the user base to reach N = 18?",
+  "answeroption": "C",
+  "explanation": "(a) The logistic equation is:<br /><br />$\\frac{dN}{dt} = r N \\left(1 - \\frac{N}{K}\\right)$<br /><br />This equation is first-order, nonlinear (because of the $N^2$ term), and separable.<br /><br />(b) Separate variables:<br /><br />$\\frac{dN}{N(1 - N/K)} = r dt$<br /><br />Rewrite denominator:<br /><br />$N(1 - N/K) = N - N^2/K$<br /><br />Use partial fractions:<br /><br />$\\frac{1}{N - N^2/K} = \\frac{1}{N} + \\frac{1}{K - N}$<br /><br />So,<br /><br />$\\int \\left[\\frac{1}{N} + \\frac{1}{K-N}\\right] dN = r \\int dt$<br /><br />$\\ln|N| - \\ln|K-N| = r t + C$<br /><br />$\\ln \\left| \\frac{N}{K-N} \\right| = r t + C$<br /><br />When t=0, N=2, K=20:<br /><br />$\\ln \\left(\\frac{2}{18}\\right) = C$<br /><br />$C = \\ln \\left(\\frac{1}{9}\\right)$<br /><br />General solution:<br /><br />$\\ln \\left(\\frac{N}{K-N}\\right) = rt + \\ln \\left(\\frac{1}{9}\\right)$<br /><br />At t=3, N=6:<br /><br />$\\ln \\left(\\frac{6}{20-6}\\right) = 3r + \\ln \\left(\\frac{1}{9}\\right)$<br /><br />$\\ln (\\frac{6}{14}) - \\ln \\left(\\frac{1}{9}\\right) = 3r$<br /><br />$\\ln (\\frac{3}{7}) + \\ln (9) = 3r$<br /><br />$\\ln \\left(\\frac{3 \\times 9}{7}\\right) = 3r$<br /><br />$\\ln \\left(\\frac{27}{7}\\right) = 3r$<br /><br />$3r = \\ln(3.857) \\approx 1.351$<br /><br />$r = \\frac{1.351}{3} \\approx 0.4503$<br /><br />So the particular solution:<br /><br />$\\ln \\left(\\frac{N}{20-N}\\right) = 0.4503t + \\ln (\\frac{1}{9})$<br /><br />(c) With r doubled: $r_{new} = 0.9006$. Find t when N = 18.<br /><br />$\\ln \\left(\\frac{18}{20-18}\\right) = r_{new} t + \\ln (\\frac{1}{9})$<br /><br />$\\ln (\\frac{18}{2}) = r_{new} t + \\ln (\\frac{1}{9})$<br /><br />$\\ln (9) = r_{new} t + \\ln(1/9)$<br /><br />$2 \\ln(3) = r_{new} t - 2 \\ln(3)$<br /><br />$4 \\ln(3) = r_{new} t$<br /><br />$\\ln(3) \\approx 1.0986$<br /><br />$4 \\ln(3) = 4.394$<br /><br />$t = \\frac{4.394}{0.9006} \\approx 4.88$ months<br /><br />Thus, it will take approximately 4.88 months for the user base to reach 18,000 with the doubled growth rate.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dN}{dt}=rN\\left(1-\\frac{N}{20}\\right)$, linear differential equation<br />(b) $r\\approx0.4503$, $N(t)=20e^{0.4503t}$<br />(c) Time $\\approx 9.76$ months",
+    "B": "(a) $\\frac{dN}{dt}=rN\\left(1-\\frac{N}{20}\\right)$, first-order nonlinear separable equation<br />(b) $r\\approx0.9006$, $\\ln\\left(\\frac{N}{20-N}\\right)=0.9006t+\\ln(\\frac{1}{9})$<br />(c) Time $\\approx 2.44$ months",
+    "C": "(a) $\\frac{dN}{dt}=rN\\left(1-\\frac{N}{20}\\right)$, first-order nonlinear separable logistic equation<br />(b) $\\ln\\left(\\frac{N}{20-N}\\right)=0.4503t+\\ln(\\frac{1}{9})$, $r\\approx0.4503$<br />(c) With doubled growth rate, time $\\approx4.88$ months",
+    "D": "(a) $\\frac{dN}{dt}=rN\\left(1-\\frac{N}{K}\\right)$, second-order nonlinear equation<br />(b) $r\\approx1.351$<br />(c) Time $\\approx3$ months"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:22:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

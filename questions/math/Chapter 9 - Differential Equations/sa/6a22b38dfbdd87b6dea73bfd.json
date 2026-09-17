@@ -1,0 +1,26 @@
+{
+  "id": "6a22b38dfbdd87b6dea73bfd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $\\left[x\\sin^{2}\\left(\\frac{y}{x}\\right)-y\\right]dx+x dy=0$ given that $y=\\frac{\\pi}{4}$ when $x=1$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Rewrite the differential equation in derivative form:<br />$$x\\frac{dy}{dx}=y-x\\sin^2\\left(\\frac{y}{x}\\right)$$<br />Dividing by $x$, we get:<br />$$\\frac{dy}{dx}=\\frac{y}{x}-\\sin^2\\left(\\frac{y}{x}\\right)$$<br />Since the right-hand side is a function of $\\frac{y}{x}$, the equation is homogeneous. Let $y=vx$. Then:<br />$$\\frac{dy}{dx}=v+x\\frac{dv}{dx}$$<br /><br /><b>Step 2</b> Substitute $y=vx$ and $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$ into the differential equation:<br />$$v+x\\frac{dv}{dx}=v-\\sin^2v$$<br />Hence:<br />$$x\\frac{dv}{dx}=-\\sin^2v$$<br /><br /><b>Step 3</b> Separate the variables:<br />$$\\frac{dv}{\\sin^2v}=-\\frac{dx}{x}$$<br />or<br />$$\\csc^2v\\,dv=-\\frac{dx}{x}$$<br />Integrating both sides:<br />$$\\int\\csc^2v\\,dv=-\\int\\frac{dx}{x}$$<br />$$-\\cot v=-\\ln|x|+C$$<br />$$\\cot v=\\ln|x|+C$$<br /><br /><b>Step 4</b> Substitute $v=\\frac{y}{x}$ to obtain the general solution:<br />$$\\cot\\left(\\frac{y}{x}\\right)=\\ln|x|+C$$<br /><br /><b>Step 5</b> Using the initial condition $y=\\frac{\\pi}{4}$ when $x=1$:<br />$$\\cot\\left(\\frac{\\pi/4}{1}\\right)=\\ln(1)+C$$<br />$$1=0+C$$<br />$$C=1$$<br />Therefore, the required particular solution is:<br />$$\\boxed{\\cot\\left(\\frac{y}{x}\\right)=\\ln|x|+1}$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

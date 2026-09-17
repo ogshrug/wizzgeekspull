@@ -1,0 +1,29 @@
+{
+  "id": "69a986686638848124d7c94f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let $X$ be the set of all lines in the plane. Define the relation $R$ on $X$ by: $l_1 R l_2 \\iff l_1$ is perpendicular to $l_2$ or $l_1 = l_2$.<br /><br />(a) Is $R$ an equivalence relation? Prove your answer.<br /><br />(b) If not, describe all pairs $(l_1, l_2)$ such that $l_1 R l_2$ and $l_2 R l_1$ but $l_1 \\neq l_2$.<br /><br />(c) Define a new relation $R'$ on $X$ by $l_1 R' l_2 \\iff l_1$ is parallel to $l_2$, or $l_1 = l_2$.<br /><br />Prove $R'$ is an equivalence relation and describe the equivalence classes.",
+  "answeroption": "A",
+  "explanation": "(a) Reflexive: $l_1 = l_1$, so $l_1 R l_1$ always.<br /><br />Symmetric: If $l_1 R l_2$, then $l_1$ is perpendicular to $l_2$ or $l_1 = l_2$.<br /><br />If $l_1 = l_2$, then $l_2=l_1$, so $l_2 R l_1$.<br /><br />If $l_1$ is perpendicular to $l_2$, then $l_2$ is perpendicular to $l_1$.<br /><br />So $l_2 R l_1$. Thus, $R$ is symmetric.<br /><br />Transitive: Assume $l_1 R l_2$ and $l_2 R l_3$.<br /><br />Suppose $l_1$ is perpendicular to $l_2$, and $l_2$ is perpendicular to $l_3$.<br /><br />Does this imply $l_1$ is perpendicular to $l_3$?<br /><br />Not always: example, $l_1$ is horizontal, $l_2$ vertical, $l_3$ horizontal. $l_1||l_3$, not perpendicular.<br /><br />Therefore, $R$ is not transitive.<br /><br />So $R$ is not an equivalence relation.<br /><br />(b) $l_1 R l_2$ and $l_2 R l_1$ means $l_1 = l_2$ or $l_1$ perpendicular to $l_2$ and $l_2$ perpendicular to $l_1$; but perpendicularity is symmetric.<br /><br />So for $l_1 \\neq l_2$, $l_1$ must be perpendicular to $l_2$.<br /><br />So all pairs of distinct perpendicular lines satisfy this.<br /><br />(c) $R'$: $l_1 R' l_2 \\iff l_1$ parallel to $l_2$ or $l_1 = l_2$.<br /><br />Reflexive: $l_1 = l_1$.<br /><br />Symmetric: If $l_1$ is parallel to $l_2$, so is $l_2$ to $l_1$.<br /><br />Transitive: If $l_1$ parallel to $l_2$, $l_2$ parallel to $l_3$, then $l_1$ parallel to $l_3$ (parallelism is transitive).<br /><br />Thus, $R'$ is an equivalence relation.<br /><br />Equivalence class of $l$ consists of all lines parallel to $l$ (i.e., all lines with the same slope as $l$).",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R$ is reflexive and symmetric but not transitive; hence it is not an equivalence relation.<br />(b) For $l_1\\ne l_2$, the pairs satisfying both $l_1Rl_2$ and $l_2Rl_1$ are all pairs of distinct perpendicular lines.<br />(c) $R'$ is reflexive, symmetric and transitive; its equivalence class is the set of all lines parallel to a given line.",
+    "B": "(a) $R$ is an equivalence relation.<br />(b) No distinct pair satisfies $l_1Rl_2$ and $l_2Rl_1$.<br />(c) $R'$ is not reflexive.",
+    "C": "(a) $R$ is not reflexive but is transitive.<br />(b) All pairs of parallel lines satisfy the condition.<br />(c) $R'$ is not symmetric.",
+    "D": "(a) $R$ is reflexive, symmetric and transitive.<br />(b) All distinct lines satisfy the condition.<br />(c) $R'$ has only one equivalence class containing all lines."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:34:32 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

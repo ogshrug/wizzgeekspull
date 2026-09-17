@@ -1,0 +1,30 @@
+{
+  "id": "69a9b2c5d30adc5083911b28",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "LA",
+  "question": "If a coin is tossed three times, what is the probability that at least two heads show up? Next, if the experiment is repeated 10 times (that is, 10 sets of 3 tosses each), what is the expected number of times at least two heads will occur? (c) If at least two heads are observed in exactly 8 out of the 10 experiments, what is the probability all 3 tosses in those 8 cases were heads?",
+  "answeroption": "B",
+  "explanation": "For 3 tosses: sample space size = $2^3 = 8$ <br /> Favourable outcomes for at least 2 heads: HH*, H*H, *HH, and HHH --- count as: 2 heads (3 ways: HHT, HTH, THH), 3 heads (HHH, 1 way): total = 3+1=4. <br /><br /> So $P = \\dfrac{4}{8} = \\dfrac{1}{2}$ <br /><br /> Expected number in 10 experiments: $E=10 \\times \\dfrac{1}{2} = 5$ <br /><br /> (c) All 3 heads in any trial: probability = $\\dfrac{1}{8}$ per trial <br /> Out of 8 'at least 2 heads' cases, probability all 3 are heads in all of them: <br /> $P = (\\dfrac{1}{4})^8$ <br /> (Because among outcomes with at least 2 heads, 1 out of 4 is HHH) <br /> But actually: Given at least two heads, sample space per trial = 4, only one is all heads, so probability = $1/4$ per experiment <br /> Thus, <br /> $P=\\left(\\dfrac{1}{4}\\right)^8 = \\dfrac{1}{65536}$ <br /><br /> Final answers: <br /> (a) $\\dfrac{1}{2}$ <br /> (b) $5$ <br /> (c) $\\dfrac{1}{65536}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{3}{8}$<br />(b) $\\frac{15}{4}$<br />(c) $\\frac{1}{4}$",
+    "B": "(a) $\\frac{1}{2}$<br />(b) $5$<br />(c) $\\frac{1}{65536}$",
+    "C": "(a) $\\frac{1}{2}$<br />(b) $8$<br />(c) $\\frac{1}{8}$",
+    "D": "(a) $\\frac{4}{8}$<br />(b) $5$<br />(c) $\\frac{1}{256}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:43:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

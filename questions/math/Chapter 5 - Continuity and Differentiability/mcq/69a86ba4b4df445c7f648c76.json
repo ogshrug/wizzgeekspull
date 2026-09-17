@@ -1,0 +1,29 @@
+{
+  "id": "69a86ba4b4df445c7f648c76",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $y=x^{x^{\\sin x}}$. Then $y'=?$",
+  "answeroption": "B",
+  "explanation": "Let $y = x^{x^{\\sin x}}$<br /><br />Take log both sides:<br /><br />$\\ln y = x^{\\sin x} \\ln x$<br /><br />Let $u = x^{\\sin x}$<br /><br />$\\dfrac{d}{dx} (x^{\\sin x}) = x^{\\sin x} [ \\cos x \\ln x + \\frac{\\sin x}{x}]$<br /><br />So<br /><br />$\\dfrac{d}{dx} (\\ln y) = \\dfrac{1}{y} y' = x^{\\sin x} \\cdot \\frac{1}{x} + [ x^{\\sin x} (\\cos x \\ln x + \\frac{\\sin x}{x}) ] \\ln x$<br /><br />So overall, the correct structure is Answer (B).",
+  "explanation_image": [],
+  "options": {
+    "A": "$x^{x^{\\sin x}} \\left( \\sin x \\cdot x^{\\sin x} \\ln x + x^{\\sin x} \\cdot \\dfrac{1}{x} + \\ln x \\cdot x^{\\sin x} \\cos x \\right)$",
+    "B": "$x^{x^{\\sin x}} \\left( x^{\\sin x} \\ln x \\cos x + x^{\\sin x} \\dfrac{1}{x} + \\sin x\\, x^{\\sin x} \\ln x \\right)$",
+    "C": "$x^{x^{\\sin x}} \\left( x^{\\sin x} \\ln x \\cos x + x^{\\sin x} \\dfrac{1}{x} \\right)$",
+    "D": "$x^{x^{\\sin x}} \\left( \\sin x + x^{\\sin x} \\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:28:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

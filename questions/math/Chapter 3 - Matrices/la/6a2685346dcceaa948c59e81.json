@@ -1,0 +1,28 @@
+{
+  "id": "6a2685346dcceaa948c59e81",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "LA",
+  "question": "If $A = \\begin{bmatrix}1&0&2\\\\0&2&1\\\\2&0&3\\end{bmatrix}$, then show that $A^3 - 6A^2 + 7A + 2I = O$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Compute the matrix squared $A^2$ by performing row-by-column matrix multiplication of $A$ with itself: $A^2 = \\begin{bmatrix}1&0&2\\\\0&2&1\\\\2&0&3\\end{bmatrix}\\begin{bmatrix}1&0&2\\\\0&2&1\\\\2&0&3\\end{bmatrix} = \\begin{bmatrix}1+0+4&0+0+0&2+0+6\\\\0+0+2&0+4+0&0+2+3\\\\2+0+6&0+0+0&4+0+9\\end{bmatrix} = \\begin{bmatrix}5&0&8\\\\2&4&5\\\\8&0&13\\end{bmatrix}$.<br />**Step 2:** Compute the matrix cubed $A^3$ by multiplying $A^2$ by $A$: $A^3 = \\begin{bmatrix}5&0&8\\\\2&4&5\\\\8&0&13\\end{bmatrix}\\begin{bmatrix}1&0&2\\\\0&2&1\\\\2&0&3\\end{bmatrix} = \\begin{bmatrix}5+0+16&0+0+0&10+0+24\\\\2+0+10&0+8+0&4+4+15\\\\8+0+26&0+0+0&16+0+39\\end{bmatrix} = \\begin{bmatrix}21&0&34\\\\12&8&23\\\\34&0&55\\end{bmatrix}$.<br />**Step 3:** Substitute the derived matrices $A^3$ and $A^2$, along with matrix $A$ and the identity matrix $I$, into the left-hand side of the expression: $LHS = \\begin{bmatrix}21&0&34\\\\12&8&23\\\\34&0&55\\end{bmatrix} - 6\\begin{bmatrix}5&0&8\\\\2&4&5\\\\8&0&13\\end{bmatrix} + 7\\begin{bmatrix}1&0&2\\\\0&2&1\\\\2&0&3\\end{bmatrix} + 2\\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}$.<br />**Step 4:** Simplify by scaling each matrix and performing element-wise matrix addition and subtraction: $LHS = \\begin{bmatrix}21&0&34\\\\12&8&23\\\\34&0&55\\end{bmatrix} - \\begin{bmatrix}30&0&48\\\\12&24&30\\\\48&0&78\\end{bmatrix} + \\begin{bmatrix}7&0&14\\\\0&14&7\\\\14&0&21\\end{bmatrix} + \\begin{bmatrix}2&0&0\\\\0&2&0\\\\0&0&2\\end{bmatrix}$. Combining corresponding elements results in a matrix where every entry is exactly $0$, which matches the zero matrix $O$. Hence proved.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

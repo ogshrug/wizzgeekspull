@@ -1,0 +1,29 @@
+{
+  "id": "69a96f6b62be6a70cd184d94",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "VSA",
+  "question": "Given $A = \\{a, b\\}$ and $B = \\{1\\}$, write all possible functions from $A$ to $B$ and specify whether each is one-one or not.",
+  "answeroption": "B",
+  "explanation": "Each element of $A$ must map to the only element of $B$. <br /><br />Thus the only possible function is $f = \\{(a,1),(b,1)\\}$. <br /><br />Since both $a$ and $b$ map to the same value $1$, the function is not one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f=\\{(a,1)\\}$; it is one-one",
+    "B": "$f=\\{(a,1),(b,1)\\}$; it is not one-one",
+    "C": "$f=\\{(a,1),(b,a)\\}$; it is one-one",
+    "D": "No function exists from $A$ to $B$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:56:27 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

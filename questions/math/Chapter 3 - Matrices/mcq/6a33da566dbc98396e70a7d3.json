@@ -1,0 +1,31 @@
+{
+  "id": "6a33da566dbc98396e70a7d3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d52"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A=\\begin{bmatrix}0&0&-5\\\\ 0&3&0\\\\ 4.3&0&0\\end{bmatrix},$ then A is a:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** A matrix is a diagonal matrix if all its non-diagonal entries are zero. Here, $a_{31} = 4.3 \\ne 0$ and $a_{13} = -5 \\ne 0$, so it is not a diagonal or scalar matrix.<br />**Step 2:** To check if it is skew-symmetric, we verify if $A^{\\prime} = -A$. The transpose is $A^{\\prime}=\\begin{bmatrix}0&0&4.3\\\\ 0&3&0\\\\ -5&0&0\\end{bmatrix}$, which is not equal to $-A$, so it is not skew-symmetric.<br />**Step 3:** Since it has 3 rows and 3 columns, it fits the standard definition of a square matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "skew-symmetric matrix",
+    "B": "scalar matrix",
+    "C": "diagonal matrix",
+    "D": "square matrix"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "6a2166ff91ff8b4d456109a9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "MCQ",
+  "question": "In the graph, the feasible region representing the Linear Programming Problem for maximising objective function $Z=px+qy,$ p, $q>0$ is shaded. If all points on segment AB give max (Z), then which of the following is true ?",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> Identify the coordinates of the corner points that form the line segment $AB$ from the given graph. The coordinates for point $A$ are $(0, 5)$ and the coordinates for point $B$ are $(3, 4)$.<br /><br /><b>Step 2</b> According to Linear Programming theory, if all points along a line segment connecting two corner points maximize the objective function, then the value of the function $Z$ must be equal at both of those corner points: $Z(A) = Z(B)$.<br /><br /><b>Step 3</b> Substitute the coordinates of points $A$ and $B$ into the objective function $Z = px + qy$: $Z(A) = p(0) + q(5) = 5q$, and $Z(B) = p(3) + q(4) = 3p + 4q$. Equating these values gives: $5q = 3p + 4q \\implies q = 3p$. This matches option (C).",
+  "explanation_image": [],
+  "options": {
+    "A": "$p=2q$",
+    "B": "$p=3q$",
+    "C": "$q=3p$",
+    "D": "$q=2p$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2166ff91ff8b4d456109a9/1782194673-0.png?t=1782214475281"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

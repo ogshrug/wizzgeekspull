@@ -1,0 +1,29 @@
+{
+  "id": "69a9773f589ce36f368b4816",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following equation for $y(x)$: $\\frac{dy}{dx} = \\frac{e^y}{x}$, given $y = 0$ when $x = 1$.",
+  "answeroption": "D",
+  "explanation": "Given, $\\frac{dy}{dx} = \\frac{e^y}{x}$<br /><br />Separate variables: $e^{-y} dy = x^{-1} dx$<br /><br />Integrate both sides: $-e^{-y} = \\ln|x| + C$<br /><br />Use initial condition $y = 0, x = 1$: $-1 = 0 + C \\implies C = -1$<br /><br />So, $-e^{-y} = \\ln|x| -1$<br /><br />$e^{-y} = 1 - \\ln|x|$<br /><br />$y = -\\ln(1 - \\ln|x|)$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\ln(1-\\ln|x|)$",
+    "B": "$y=-\\ln(1+\\ln|x|)$",
+    "C": "$y=1-\\ln|x|$",
+    "D": "$y=-\\ln(1-\\ln|x|)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:29:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

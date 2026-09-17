@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb85d2e54880055a0a6ad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "VSA",
+  "question": "For $x>1$, let $f(x)=\\log(\\log x)$. Find $f'(e)$.",
+  "answeroption": "A",
+  "explanation": "Step 1: Since $x>1$, $\\log x>0$, so the outer logarithm is defined.<br>Step 2: Differentiate $f(x)=\\log(\\log x)$ using the derivative of a logarithmic function.<br>Step 3: Thus, $f'(x)=\\frac{1}{\\log x}\\cdot\\frac{d}{dx}(\\log x)=\\frac{1}{\\log x}\\cdot\\frac{1}{x}$.<br>Step 4: Therefore, $f'(x)=\\frac{1}{x\\log x}$. At $x=e$, $\\log e=1$.<br>Step 5: Hence, $f'(e)=\\frac{1}{e\\cdot1}=\\frac{1}{e}$. Therefore, the required value is $\\frac{1}{e}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{e}$",
+    "B": "$e$",
+    "C": "$1$",
+    "D": "$\\frac{1}{e^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

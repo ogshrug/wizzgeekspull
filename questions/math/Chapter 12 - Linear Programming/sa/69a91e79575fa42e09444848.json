@@ -1,0 +1,29 @@
+{
+  "id": "69a91e79575fa42e09444848",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "SA",
+  "question": "A factory produces two products A and B. Each unit of A requires 2 units of labour and 1 unit of raw material. Each unit of B requires 1 unit of labour and 2 units of raw material. The manufacturer has 8 units of labour and 8 units of raw material. If the profit per unit of A is ₹5 and B is ₹4, what should be the respective production of A and B for maximum profit? Also, what is the maximum profit?",
+  "answeroption": "C",
+  "explanation": "Let $x$ and $y$ be the quantities of A and B produced respectively.<br /><br />Objective: Maximise $Z = 5x + 4y$<br /><br />Subject to:<br /><br />$2x + y \\leq 8$  (labour)<br /><br />$x + 2y \\leq 8$  (raw material)<br /><br />$x \\geq 0$, $y \\geq 0$<br /><br />Step 1: Find intersection points:<br /><br />(i) $2x + y = 8$ and $x + 2y = 8$<br /><br />Multiply the second by 2 and subtract:<br /><br />$2x + y = 8$<br /><br />$2x + 4y = 16$<br /><br />Subtract: $(2x+4y)-(2x+y)=3y=8\\implies y=\\frac{8}{3}$<br /><br />Substitute in $x+2y=8: x=8-2y=8-\\frac{16}{3}=\\frac{8}{3}$<br /><br />So, $\\left(\\frac{8}{3},\\frac{8}{3}\\right)$<br /><br />(ii) $2x + y = 8$, $y=0 \\implies x=4$. So, $(4,0)$<br /><br />(iii) $x + 2y = 8$, $x=0 \\implies 2y=8\\implies y=4$. So, $(0,4)$<br /><br />Step 2: Check $Z$ at corner points:<br /><br />At $(0,4)$: $Z=5\\times 0+4\\times 4=16$<br /><br />At $(4,0)$: $Z=5\\times 4+4\\times 0=20$<br /><br />At $\\left(\\frac{8}{3}, \\frac{8}{3}\\right)$: $Z=5\\times\\frac{8}{3}+4\\times\\frac{8}{3}=\\frac{40}{3}+\\frac{32}{3}=\\frac{72}{3}=24$<br /><br />Step 3: Compare values:<br /><br />Maximum profit is $24$ at $\\left(\\frac{8}{3},\\frac{8}{3}\\right)$.<br /><br />Thus, to maximize profit, produce $\\frac{8}{3}$ units each of A and B; maximum profit is ₹24.",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 4 units of A and 0 units of B; maximum profit is ₹20.",
+    "B": "Produce 0 units of A and 4 units of B; maximum profit is ₹16.",
+    "C": "Produce $\\frac{8}{3}$ units each of A and B; maximum profit is ₹24.",
+    "D": "Produce 2 units of A and 2 units of B; maximum profit is ₹18."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:11:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

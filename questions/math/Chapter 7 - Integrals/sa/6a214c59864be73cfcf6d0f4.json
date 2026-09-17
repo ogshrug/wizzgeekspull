@@ -1,0 +1,28 @@
+{
+  "id": "6a214c59864be73cfcf6d0f4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "SA",
+  "question": "If $\\frac{d}{dx}(F(x))=\\frac{1}{e^{x}+1}$, then find $F(x)$ given that $F(0)=log\\frac{1}{2}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To find $F(x)$, we must integrate the given derivative: $F(x) = \\int \\frac{1}{e^x+1} dx$.<br /><br />**Step 2:** Multiply the numerator and denominator by $e^{-x}$ to obtain $F(x) = \\int \\frac{e^{-x}}{1+e^{-x}} dx$.<br /><br />**Step 3:** Perform a standard u-substitution: Let $u = 1+e^{-x}$, meaning $du = -e^{-x} dx$.<br /><br />**Step 4:** The integral becomes $-\\int \\frac{1}{u} du = -log|u| + C = -log(1+e^{-x}) + C$. This represents the general function $F(x)$.<br /><br />**Step 5:** Apply the initial condition $F(0) = log(\\frac{1}{2})$. We have $-log(1+e^0) + C = log(\\frac{1}{2}) \\implies -log(2) + C = log(\\frac{1}{2})$.<br /><br />**Step 6:** Since $log(\\frac{1}{2}) = -log(2)$, we get $-log(2) + C = -log(2) \\implies C = 0$. Thus, $F(x) = -log(1+e^{-x})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

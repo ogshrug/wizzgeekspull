@@ -1,0 +1,29 @@
+{
+  "id": "6a8f18c1be0ecc7866e90c2a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "SA",
+  "question": "For $k>0$, the parabola $y=k-x^2$ and the x-axis enclose an area of $36$ square units. Determine $k$.",
+  "answeroption": "D",
+  "explanation": "Step 1: Finding the intersection limits The parabola meets the x-axis where $k-x^2=0$. Hence, $x=\\pm\\sqrt{k}$. Step 2: Using symmetry of the enclosed region The parabola is symmetric about the y-axis, so $A=2\\int_0^{\\sqrt{k}}(k-x^2)\\,dx$. Step 3: Evaluating in terms of $k$ $A=2\\left[kx-\\frac{x^3}{3}\\right]_0^{\\sqrt{k}}$. $A=2\\left(k^{3/2}-\\frac{k^{3/2}}{3}\\right)=\\frac{4k^{3/2}}{3}$. Step 4: Applying the given area $\\frac{4k^{3/2}}{3}=36\\Rightarrow k^{3/2}=27$. Raising both sides to the power $\\frac{2}{3}$ gives $k=9$. Final Answer The required value is $k=9$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=6$",
+    "B": "$k=12$",
+    "C": "$k=4$",
+    "D": "$k=9$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

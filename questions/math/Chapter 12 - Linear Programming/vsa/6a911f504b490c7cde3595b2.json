@@ -1,0 +1,31 @@
+{
+  "id": "6a911f504b490c7cde3595b2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "VSA",
+  "question": "A factory produces products A and B. Each unit of A requires 3 hours on machine I and 1 hour on machine II, while each unit of B requires 2 hours on machine I and 2 hours on machine II. Machines I and II are available for at most 18 hours and 12 hours respectively. Profits are Rs 60 and Rs 50 per unit. If $x$ and $y$ are the respective production quantities, formulate the linear programming problem.",
+  "answeroption": "A",
+  "explanation": "Step 1: Let $x$ and $y$ denote the numbers of units of A and B produced. Hence, $x \\ge 0$ and $y \\ge 0$.<br>Step 2: Machine I requires $3x+2y$ hours. Since at most 18 hours are available, $3x+2y \\le 18$.<br>Step 3: Machine II requires $x+2y$ hours. Therefore, $x+2y \\le 12$.<br>Step 4: Profit from A is Rs $60x$, while profit from B is Rs $50y$.<br>Step 5: Hence, the objective function is $Z=60x+50y$.<br>Step 6: The required model is: maximise $Z=60x+50y$ subject to $3x+2y \\le 18$, $x+2y \\le 12$, $x \\ge 0$, $y \\ge 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximise $Z=60x+50y$ subject to $3x+2y \\le 18$, $x+2y \\le 12$, $x \\ge 0$, $y \\ge 0$",
+    "B": "Minimise $Z=60x+50y$ subject to $3x+2y \\le 18$, $x+2y \\le 12$, $x \\ge 0$, $y \\ge 0$",
+    "C": "Maximise $Z=50x+60y$ subject to $2x+3y \\le 18$, $2x+y \\le 12$, $x \\ge 0$, $y \\ge 0$",
+    "D": "Maximise $Z=60x+50y$ subject to $3x+2y \\ge 18$, $x+2y \\ge 12$, $x \\ge 0$, $y \\ge 0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

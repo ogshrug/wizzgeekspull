@@ -1,0 +1,29 @@
+{
+  "id": "69a92c5462be6a70cd184d20",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Establish that $\\cos^{-1}x = 2\\sin^{-1}\\left(\\sqrt{\\frac{1-x}{2}}\\right)$ for $x \\in [0,1]$.",
+  "answeroption": "B",
+  "explanation": "Let $y = \\sin^{-1}\\left(\\sqrt{\\frac{1-x}{2}}\\right)$.<br /><br />Then $\\sin y = \\sqrt{\\frac{1-x}{2}}$.<br /><br />Thus $\\sin^2 y = \\frac{1-x}{2}$.<br /><br />Rearranging gives $x = 1 - 2\\sin^2 y$.<br /><br />Using identity $1-2\\sin^2 y = \\cos 2y$.<br /><br />Thus $x = \\cos 2y$.<br /><br />Therefore $\\cos^{-1}x = 2y = 2\\sin^{-1}\\left(\\sqrt{\\frac{1-x}{2}}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $y=\\sin^{-1}\\left(\\sqrt{\\frac{1-x}{2}}\\right)$. Then $\\sin^2y=\\frac{1+x}{2}$, so $x=2\\sin^2y-1=\\cos2y$, hence the result follows.",
+    "B": "Let $y=\\sin^{-1}\\left(\\sqrt{\\frac{1-x}{2}}\\right)$. Then $\\sin^2y=\\frac{1-x}{2}$, so $x=1-2\\sin^2y=\\cos2y$, hence $\\cos^{-1}x=2y$.",
+    "C": "Let $y=\\sin^{-1}\\left(\\sqrt{\\frac{1-x}{2}}\\right)$. Then $\\cos^2y=\\frac{1-x}{2}$, so $x=1-2\\cos^2y=\\cos2y$.",
+    "D": "Let $y=\\sin^{-1}\\left(\\sqrt{\\frac{1-x}{2}}\\right)$. Then $\\sin y=\\frac{1-x}{2}$, so $x=1-2\\sin y$, hence $\\cos^{-1}x=y$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:10:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

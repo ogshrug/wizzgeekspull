@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed5a7751910886affb9d2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "VSA",
+  "question": "Using a suitable change of variable, evaluate $\\int 2x\\cos(x^2+3)\\,dx$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> The integrand contains the composite function $\\cos(x^2+3)$ together with the derivative of its inner expression.<br><b>Step 2:</b> Put $t=x^2+3$. Then $dt=2x\\,dx$.<br><b>Step 3:</b> The integral becomes $$\\int 2x\\cos(x^2+3)\\,dx=\\int\\cos t\\,dt.$$<br><b>Step 4:</b> Using the standard integral $\\int\\cos t\\,dt=\\sin t+C$, we obtain $\\sin t+C$.<br><b>Step 5:</b> Substituting $t=x^2+3$ back gives $$\\boxed{\\sin(x^2+3)+C}.$$ Thus, the substitution reduces the composite integrand directly to a standard trigonometric integral.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cos(x^2+3)+C$",
+    "B": "$-\\sin(x^2+3)+C$",
+    "C": "$-\\cos(x^2+3)+C$",
+    "D": "$\\sin(x^2+3)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

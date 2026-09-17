@@ -1,0 +1,26 @@
+{
+  "id": "6a32937bd5dca7dcb0bf0eff",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically:\nMaximize $z = x + y$\nsubject to constraints:\n$2x + 5y \\le 100$\n$8x + 5y \\le 200$\n$x \\ge 0, y \\ge 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Graph the lines $2x+5y=100$ and $8x+5y=200$ and determine the feasible region from constraints $x,y \\ge 0$.\n\n**Step 2:** Find axes intercepts: For $2x+5y=100$, points are $(50,0)$ and $(0,20)$. For $8x+5y=200$, points are $(25,0)$ and $(0,40)$.\n\n**Step 3:** Find the intersection of the two lines: $8x+5y=200$ and $2x+5y=100$. Subtracting gives $6x = 100 \\Rightarrow x = \\frac{50}{3}$. Substitute back to find $y$: $2(\\frac{50}{3}) + 5y = 100 \\Rightarrow 5y = \\frac{200}{3} \\Rightarrow y = \\frac{40}{3}$. Corner point: $(\\frac{50}{3}, \\frac{40}{3})$.\n\n**Step 4:** Identify the feasible corner points: $(0,0)$, $(25,0)$, $(0,20)$, and $(\\frac{50}{3}, \\frac{40}{3})$.\n\n**Step 5:** Evaluate $z=x+y$ at these points: $z(25,0) = 25$, $z(0,20) = 20$, $z(\\frac{50}{3}, \\frac{40}{3}) = \\frac{90}{3} = 30$. The maximum value is $30$ at $(\\frac{50}{3}, \\frac{40}{3})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a9129892e54880055a0a786",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8de"
+  ],
+  "question_type": "LA",
+  "question": "For the inequalities $x+y\\ge4$, $x+2y\\le8$, $x\\le5$, $x\\ge0$ and $y\\ge0$, determine graphically the feasible region and establish that it is bounded by finding all the points at which its boundary lines meet.",
+  "answeroption": "D",
+  "explanation": "<b>Graphical Representation</b><br>The line $x+y=4$ passes through $(4,0)$ and $(0,4)$. Since $x+y\\ge4$, the required side is the half-plane away from the origin. The line $x+2y=8$ passes through $(8,0)$ and $(0,4)$, and $x+2y\\le8$ requires the half-plane containing the origin. The condition $x\\le5$ requires points on or to the left of the vertical line $x=5$, while $x\\ge0$ and $y\\ge0$ restrict the region to the first quadrant.<br><br>The lines $x+y=4$ and $x+2y=8$ intersect at $(0,4)$ because subtracting the first equation from the second gives $y=4$ and hence $x=0$. The line $x+y=4$ meets the x-axis at $(4,0)$. The line $x=5$ meets the x-axis at $(5,0)$. The intersection of $x=5$ and $x+2y=8$ is obtained from $5+2y=8$, giving $y=\\frac{3}{2}$. Hence this point is $\\left(5,\\frac{3}{2}\\right)$.<br><br>The common region satisfying all the inequalities is therefore enclosed by the boundary segments joining $(0,4)$, $\\left(5,\\frac{3}{2}\\right)$, $(5,0)$ and $(4,0)$. Every point within and on this boundary satisfies all the constraints and hence belongs to the feasible region.<br><br>Since all boundary segments are finite and the common region does not extend indefinitely in any direction, the feasible region is bounded.<br><br><b>Final Result</b><br>The feasible region is the bounded quadrilateral with vertices $(0,4)$, $\\left(5,\\frac{3}{2}\\right)$, $(5,0)$ and $(4,0)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The region is unbounded with vertices $(0,4)$, $(4,0)$ and $(5,0)$",
+    "B": "The region is bounded with vertices $(0,4)$, $(4,0)$, $(5,0)$ and $(5,3)$",
+    "C": "The region is bounded with vertices $(0,4)$, $\\left(4,\\frac{3}{2}\\right)$, $(5,0)$ and $(4,0)$",
+    "D": "The region is the bounded quadrilateral with vertices $(0,4)$, $\\left(5,\\frac{3}{2}\\right)$, $(5,0)$ and $(4,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

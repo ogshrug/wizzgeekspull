@@ -1,0 +1,30 @@
+{
+  "id": "69a984ce62be6a70cd184dc9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Let $f: \\mathbb{N} \\to \\mathbb{N}$ be defined as <br /><br />$f(n) = \\text{number of digits in } n \\text{ (in decimal representation)}$. <br /><br />Is $f$ one-one? Is $f$ onto? Give a detailed justification.",
+  "answeroption": "C",
+  "explanation": "Step 1: One-One<br /><br />If $n_1 \\ne n_2$ but both have same number of digits, then $f(n_1)=f(n_2)$. For example, $12$ and $99$ both have $2$ digits: $f(12)=f(99)=2$.<br /><br />Thus, $f$ is not one-one.<br /><br />Step 2: Onto<br /><br />Is $f$ onto $\\mathbb{N}$? For any $m \\in \\mathbb{N}$, choose $n=10^{m-1}$ (for $m \\geq 1$), which has $m$ digits. Thus, for every $m \\in \\mathbb{N}$, there exists $n$ with $f(n)=m$.<br /><br />Thus, $f$ is onto.<br /><br />Conclusion:<br /><br />$f$ is onto but not one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one and onto",
+    "B": "$f$ is one-one but not onto",
+    "C": "$f$ is onto but not one-one",
+    "D": "$f$ is neither one-one nor onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:27:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

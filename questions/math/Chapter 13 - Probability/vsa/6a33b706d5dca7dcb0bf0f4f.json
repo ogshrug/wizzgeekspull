@@ -1,0 +1,28 @@
+{
+  "id": "6a33b706d5dca7dcb0bf0f4f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "VSA",
+  "question": "In a village of 8000 people, 3000 go out of the village to work and 4000 are women. It is noted that 30% of women go out of the village to work. What is the probability that a randomly chosen individual is either a woman or a person working outside the village?",
+  "answeroption": "",
+  "explanation": "**Step 1:** Define the events and their probabilities based on the total population of 8000. Let $W$ be women and $O$ be people working outside. $P(W) = \\frac{4000}{8000}$ and $P(O) = \\frac{3000}{8000}$.\n\n**Step 2:** Calculate the number of women working outside (the intersection $W \\cap O$). Since 30% of women work outside: $0.30 \\times 4000 = 1200$. Therefore, $P(W \\cap O) = \\frac{1200}{8000}$.\n\n**Step 3:** Apply the probability addition theorem for the union of two events: $P(W \\cup O) = P(W) + P(O) - P(W \\cap O)$.\n\n**Step 4:** Substitute the values into the theorem: $P(W \\cup O) = \\frac{4000}{8000} + \\frac{3000}{8000} - \\frac{1200}{8000} = \\frac{5800}{8000}$.\n\n**Step 5:** Simplify the fraction: $P(W \\cup O) = \\frac{58}{80} = \\frac{29}{40}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

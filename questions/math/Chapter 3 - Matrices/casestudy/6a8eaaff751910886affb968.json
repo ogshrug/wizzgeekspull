@@ -1,0 +1,33 @@
+{
+  "id": "6a8eaaff751910886affb968",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d50",
+    "69c65fbf40512f018fa94d52",
+    "69c65fbf40512f018fa94d53",
+    "69c65fbf40512f018fa94d54",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a mathematics laboratory, students are given several matrix cards for classification and comparison: $I=\\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}$, $O=\\begin{bmatrix}0&0&0\\\\0&0&0\\\\0&0&0\\end{bmatrix}$, $S=\\begin{bmatrix}4&0&0\\\\0&4&0\\\\0&0&4\\end{bmatrix}$, $R=\\begin{bmatrix}3&-1&5\\end{bmatrix}$ and $C=\\begin{bmatrix}2\\\\0\\\\-3\\end{bmatrix}$. They also use $M=\\begin{bmatrix}2&1&0\\\\0&-1&3\\\\4&2&5\\end{bmatrix}$ to investigate how special matrices behave under matrix operations. The students must classify the matrices by their structure and then compare the effects of the zero and identity matrices under addition and multiplication.<br><br><b>(a)</b> Identify the special types represented by $I$ and $O$.<br><br><b>(b)</b> Classify $S$, $R$ and $C$ by their most specific standard matrix types and state their orders.<br><br><b>(c)</b> Calculate $I+O$ and $S+O$. What do these results indicate about the role of $O$ in matrix addition?<br><br><b>(d)</b> Calculate $IM$ and $OM$. Use the results to justify which matrix acts as the multiplicative identity.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>In $I$, every diagonal element is 1 and every non-diagonal element is 0. Therefore, $I$ is the identity matrix of order 3. In $O$, every entry is 0. Therefore, $O$ is the zero matrix of order $3\\times3$.<br><br><b>(b)</b><br>For $S=\\begin{bmatrix}4&0&0\\\\0&4&0\\\\0&0&4\\end{bmatrix}$, all non-diagonal entries are zero and all diagonal entries are equal to the same scalar 4. Hence, $S$ is a scalar matrix of order 3. The matrix $R=\\begin{bmatrix}3&-1&5\\end{bmatrix}$ has only one row, so it is a row matrix of order $1\\times3$. The matrix $C=\\begin{bmatrix}2\\\\0\\\\-3\\end{bmatrix}$ has only one column, so it is a column matrix of order $3\\times1$.<br><br><b>(c)</b><br>Adding corresponding elements, $I+O=\\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}=I$. Similarly, $S+O=\\begin{bmatrix}4&0&0\\\\0&4&0\\\\0&0&4\\end{bmatrix}=S$. Thus, adding a zero matrix of the same order does not change a matrix. Therefore, $O$ acts as the additive identity for matrices of the same order.<br><br><b>(d)</b><br>Multiplying $I$ by $M$ gives $IM=\\begin{bmatrix}2&1&0\\\\0&-1&3\\\\4&2&5\\end{bmatrix}=M$. Multiplying $O$ by $M$ gives $OM=\\begin{bmatrix}0&0&0\\\\0&0&0\\\\0&0&0\\end{bmatrix}=O$. Since multiplication by $I$ leaves $M$ unchanged, $I$ is the multiplicative identity matrix. The zero matrix does not act as the multiplicative identity because $OM\\ne M$ for the given non-zero matrix $M$.",
+  "explanation_image": [],
+  "options": {
+    "A": "<b>(a)</b> $I$ is the identity matrix and $O$ is the zero matrix.<br><b>(b)</b> $S$ is a diagonal matrix of order $3\\times3$, $R$ is a row matrix of order $1\\times3$, and $C$ is a column matrix of order $3\\times1$.<br><b>(c)</b> $I+O=I$ and $S+O=S$, so $O$ is the additive identity.<br><b>(d)</b> $IM=M$ and $OM=O$, so $O$ is the multiplicative identity.",
+    "B": "<b>(a)</b> $I$ is a scalar matrix and $O$ is the identity matrix.<br><b>(b)</b> $S$ is a scalar matrix of order $3\\times3$, $R$ is a row matrix of order $1\\times3$, and $C$ is a column matrix of order $3\\times1$.<br><b>(c)</b> $I+O=I$ and $S+O=S$.<br><b>(d)</b> $IM=M$ and $OM=O$.",
+    "C": "<b>(a)</b> $I$ is the identity matrix and $O$ is the zero matrix.<br><b>(b)</b> $S$ is a scalar matrix of order $3\\times3$, $R$ is a column matrix of order $3\\times1$, and $C$ is a row matrix of order $1\\times3$.<br><b>(c)</b> $I+O=I$ and $S+O=S$, so $I$ is the additive identity.<br><b>(d)</b> $IM=M$ and $OM=O$.",
+    "D": "<b>(a)</b> $I$ is the identity matrix of order 3 and $O$ is the zero matrix of order $3\\times3$.<br><b>(b)</b> $S$ is a scalar matrix of order $3\\times3$, $R$ is a row matrix of order $1\\times3$, and $C$ is a column matrix of order $3\\times1$.<br><b>(c)</b> $I+O=I$ and $S+O=S$, showing that $O$ is the additive identity.<br><b>(d)</b> $IM=M$ and $OM=O$, so $I$ is the multiplicative identity."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

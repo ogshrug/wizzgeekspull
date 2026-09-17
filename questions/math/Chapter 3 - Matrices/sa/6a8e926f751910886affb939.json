@@ -1,0 +1,29 @@
+{
+  "id": "6a8e926f751910886affb939",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d50"
+  ],
+  "question_type": "SA",
+  "question": "A matrix has $30$ elements and the number of rows is one more than the number of columns. Determine its order.",
+  "answeroption": "C",
+  "explanation": "<b>Order condition</b><br>Let the number of columns be $n$. Then the number of rows is $n+1$.<br><b>Number of elements</b><br>$$n(n+1)=30$$<br>Therefore, $$n^2+n-30=0$$<br>$$(n-5)(n+6)=0$$<br>Since the number of columns is a positive integer, $n=5$.<br><b>Required order</b><br>The number of rows is $6$. Hence, the order of the matrix is $6\\times5$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$5\\times6$",
+    "B": "$5\\times5$",
+    "C": "$6\\times5$",
+    "D": "$6\\times6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

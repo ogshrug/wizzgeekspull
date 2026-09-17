@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed99a751910886affb9df",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f985"
+  ],
+  "question_type": "SA",
+  "question": "For $a>0$, use the second derivative test to classify all critical points of $f(x)=x^4-4ax^2$. Find the corresponding local extreme values.",
+  "answeroption": "D",
+  "explanation": "<b>Critical-point equation</b><br>$$f'(x)=4x^3-8ax=4x(x^2-2a)$$<br>Therefore,<br>$$x=0,\\qquad x=\\pm\\sqrt{2a}$$<br><b>Second derivative</b><br>$$f''(x)=12x^2-8a$$<br><b>Classification at $x=0$</b><br>$$f''(0)=-8a<0$$<br>Thus, $x=0$ is a point of local maximum and $f(0)=0$.<br><b>Classification at $x=\\pm\\sqrt{2a}$</b><br>$$f''(\\pm\\sqrt{2a})=24a-8a=16a>0$$<br>Thus, both points give local minima.<br><b>Minimum value</b><br>For $x^2=2a$,<br>$$f(x)=4a^2-8a^2=-4a^2$$<br><b>Conclusion</b><br>The local maximum is $0$, and the local minimum value is $-4a^2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=0$ is a local minimum with value $0$; $x=\\pm\\sqrt{2a}$ are local maxima with value $-4a^2$",
+    "B": "$x=0$ is a local maximum with value $-4a^2$; $x=\\pm\\sqrt{2a}$ are local minima with value $0$",
+    "C": "All critical points are local minima with value $-4a^2$",
+    "D": "$x=0$ is a local maximum with value $0$; $x=\\pm\\sqrt{2a}$ are local minima with value $-4a^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9a4be589ce36f368b4840",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int \\frac{1}{x\\sqrt{4-x^2}} dx$, where $|x|<2$.",
+  "answeroption": "B",
+  "explanation": "Let $x = 2\\sin\\theta$. Then $dx = 2\\cos\\theta d\\theta$ and $\\sqrt{4-x^2} = 2\\cos\\theta$.<br /><br />Substitute into the integral.<br /><br />$\\int \\frac{1}{2\\sin\\theta \\cdot 2\\cos\\theta} \\cdot 2\\cos\\theta d\\theta = \\int \\frac{1}{2\\sin\\theta} d\\theta$.<br /><br />$= \\frac{1}{2} \\int \\csc\\theta d\\theta$.<br /><br />$= \\frac{1}{2} \\ln |\\tan \\frac{\\theta}{2}| + C$.<br /><br />Since $\\sin\\theta = \\frac{x}{2}$, substitute back to obtain the final result.<br /><br />$\\frac{1}{2} \\ln \\left|\\tan \\frac{1}{2}\\sin^{-1}(x/2)\\right| + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\ln \\left|\\tan \\frac{1}{2}\\sin^{-1}(x/2)\\right| + C$",
+    "B": "$\\frac{1}{2} \\ln \\left|\\tan \\frac{1}{2}\\sin^{-1}(x/2)\\right| + C$",
+    "C": "$\\frac{1}{2} \\ln \\left|\\tan \\sin^{-1}(x/2)\\right| + C$",
+    "D": "$\\frac{1}{2}\\sin^{-1}(x/2)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:43:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

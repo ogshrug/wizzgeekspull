@@ -1,0 +1,30 @@
+{
+  "id": "6a8d82cd65f47a3d0ecf0f2b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Define a function $f:\\mathbb{N}\\to\\mathbb{N}$ by $f(n)=n+1$ when $n$ is odd and $f(n)=n-1$ when $n$ is even. Prove that $f$ is both one-one and onto.",
+  "answeroption": "B",
+  "explanation": "<b>Verification of one-one property</b><br>Let $m,n\\in\\mathbb{N}$ and suppose $f(m)=f(n)$. If both $m$ and $n$ are odd, then $$m+1=n+1\\Rightarrow m=n$$ If both are even, then $$m-1=n-1\\Rightarrow m=n$$ Suppose $m$ is odd and $n$ is even. Equality of images would give $$m+1=n-1\\Rightarrow n-m=2$$ But adding $2$ to an odd number gives an odd number, whereas $n$ is assumed even. This is impossible. Similarly, the case in which $m$ is even and $n$ is odd is impossible. Therefore, $f(m)=f(n)$ implies $m=n$, so $f$ is one-one.<br><br><b>Verification of onto property</b><br>Let $y\\in\\mathbb{N}$. If $y$ is odd, choose $$n=y+1$$ Then $n$ is even, and therefore $$f(n)=n-1=(y+1)-1=y$$ If $y$ is even, choose $$n=y-1$$ Then $n$ is odd and belongs to $\\mathbb{N}$, and therefore $$f(n)=n+1=(y-1)+1=y$$ Thus, every natural number has a pre-image under $f$. Hence, $f$ is onto.<br><br><b>Final Result</b><br>The given function $f:\\mathbb{N}\\to\\mathbb{N}$ is both one-one and onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one but not onto because the natural number $1$ has no pre-image.",
+    "B": "$f$ is both one-one and onto; each odd number $y$ has the pre-image $y+1$, and each even number $y$ has the pre-image $y-1$.",
+    "C": "$f$ is onto but not one-one because every pair of consecutive natural numbers has the same image.",
+    "D": "$f$ is neither one-one nor onto because the definition of $f$ depends on whether the input is odd or even."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

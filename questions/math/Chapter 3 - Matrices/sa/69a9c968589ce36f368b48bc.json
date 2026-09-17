@@ -1,0 +1,30 @@
+{
+  "id": "69a9c968589ce36f368b48bc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "SA",
+  "question": "If $A$ and $B$ are $2 \\times 2$ invertible matrices such that $(AB)^{-1} = A^{-1}B^{-1}$, prove or disprove that $A$ and $B$ commute, i.e., $AB = BA$.",
+  "answeroption": "D",
+  "explanation": "We know: $(AB)^{-1} = B^{-1}A^{-1}$ for all invertible matrices $A,B$. Given $(AB)^{-1} = A^{-1}B^{-1}$.<br /><br />So, $B^{-1}A^{-1} = A^{-1}B^{-1}$.<br /><br />Premultiply both sides by $A$:<br /><br />$A B^{-1}A^{-1} = A A^{-1}B^{-1}$<br /><br />$A B^{-1}A^{-1} = I B^{-1} = B^{-1}$<br /><br />So, $A B^{-1}A^{-1} = B^{-1}$<br /><br />Postmultiply both sides by $A$:<br /><br />$A B^{-1}A^{-1}A = B^{-1}A$<br /><br />$A B^{-1} = B^{-1}A$<br /><br />So, $A$ and $B^{-1}$ commute, which implies $A$ and $B$ commute (since $B$ invertible).<br /><br />Hence, $AB=BA$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^2=I$, $B^2=4I$, $AB=BA$, so $A$ and $B$ commute",
+    "B": "$A^2=4I$, $B^2=I$, $AB=\\begin{pmatrix}0&2\\\\-2&0\\end{pmatrix}$, $BA=\\begin{pmatrix}0&-2\\\\2&0\\end{pmatrix}$, so $A$ and $B$ commute",
+    "C": "$A^2=0$, $B^2=I$, $AB=BA=0$, so $A$ and $B$ commute",
+    "D": "$A^2=4I$, $B^2=I$, $AB=\\begin{pmatrix}0&-2\\\\2&0\\end{pmatrix}$, $BA=\\begin{pmatrix}0&2\\\\-2&0\\end{pmatrix}$, so $AB\\ne BA$ and $A,B$ do not commute"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:20:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

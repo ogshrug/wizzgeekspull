@@ -1,0 +1,30 @@
+{
+  "id": "69aa6eea6638848124d7c9db",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 5: Salt Mixing Problem in a Tank**<br /><br />A tank contains $100$ litres of water with $10$ kg of dissolved salt. Fresh water flows in at a rate of $5$ litres/min while a well-mixed solution drains out at the same rate. Assume perfect mixing at all times.<br /><br />Let $y(t)$ be the amount of salt at time $t$ (in minutes).<br /><br />a) Derive the differential equation satisfied by $y(t)$.<br /><br />b) Solve the equation to find $y(t)$ with the given initial condition.<br /><br />c) What is the amount of salt as $t \\to \\infty$? Interpret why this answer makes sense in the context of the situation.",
+  "answeroption": "B",
+  "explanation": "(a) Rate of salt leaving = concentration × outflow rate<br /><br />= $\\frac{y}{100} \\times 5 = \\frac{y}{20}$ kg/min<br /><br />No salt enters (inflow is pure water), so:<br /><br />$\\frac{dy}{dt} = -\\frac{y}{20}$<br /><br />(b) $\\frac{dy}{dt} + \\frac{1}{20}y = 0$<br /><br />Separable equation:<br /><br />$\\int \\frac{1}{y} dy = -\\frac{1}{20} \\int dt$<br /><br />$\\ln |y| = -\\frac{t}{20} + C$<br /><br />$y(t) = Ce^{-t/20}$<br /><br />Using initial condition $y(0) = 10$, we get $C = 10$.<br /><br />Thus,<br /><br />$y(t) = 10e^{-t/20}$<br /><br />(c) As $t \\to \\infty$, $y(t) \\to 0$.<br /><br />Eventually all salt is washed out because pure water continuously enters while the mixed solution leaves at the same rate. Over time the tank contains only pure water.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dy}{dt}=\\frac{y}{20}$<br />(b) $y(t)=10e^{t/20}$<br />(c) As $t\\to\\infty$, $y(t)\\to\\infty$",
+    "B": "(a) $\\frac{dy}{dt}=-\\frac{y}{20}$<br />(b) $y(t)=10e^{-t/20}$<br />(c) As $t\\to\\infty$, $y(t)\\to0$ because pure water washes out the salt",
+    "C": "(a) $\\frac{dy}{dt}=5-\\frac{y}{20}$<br />(b) $y(t)=100+10e^{-t/20}$<br />(c) As $t\\to\\infty$, $y(t)\\to100$",
+    "D": "(a) $\\frac{dy}{dt}=-5y$<br />(b) $y(t)=10e^{-5t}$<br />(c) As $t\\to\\infty$, $y(t)$ becomes negative"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:06:34 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

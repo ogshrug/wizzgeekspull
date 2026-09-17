@@ -1,0 +1,29 @@
+{
+  "id": "6a8e926f751910886affb93b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d51"
+  ],
+  "question_type": "SA",
+  "question": "Determine $p$ and $q$ if $$\\begin{bmatrix}2p+q & p-q \\\\ q & 3\\end{bmatrix}=\\begin{bmatrix}8 & 1 \\\\ 2 & 3\\end{bmatrix}.$$ Also verify that the remaining corresponding entry is equal.",
+  "answeroption": "A",
+  "explanation": "<b>Comparison of corresponding entries</b><br>From the second row, first column, $q=2$. From the first row, second column, $$p-q=1$$<br>Hence, $p-2=1$, so $p=3$.<br><b>Verification using the remaining entry</b><br>$$2p+q=2(3)+2=8$$<br>This agrees with the corresponding entry of the second matrix.<br><b>Final values</b><br>$$p=3,\\quad q=2$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$p=3,\\ q=2$; also $2p+q=8$",
+    "B": "$p=2,\\ q=3$; also $2p+q=7$",
+    "C": "$p=3,\\ q=1$; also $2p+q=7$",
+    "D": "$p=4,\\ q=2$; also $2p+q=10$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

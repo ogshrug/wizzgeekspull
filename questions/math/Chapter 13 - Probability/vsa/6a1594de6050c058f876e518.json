@@ -1,0 +1,24 @@
+{
+  "id": "6a1594de6050c058f876e518",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "VSA",
+  "question": "One bag contains 4 white and 5 black balls. Another bag contains 6 white and 7 black balls. A ball, drawn at random, is transferred from the first bag to the second bag and then a ball is drawn at random from the second bag. Find the probability that the ball drawn is white.",
+  "answeroption": "",
+  "explanation": "**Step 1: Map out the system states and event parameters**<br />Let us define the events for the ball transfer process:<br />- Let $W_1$ be the event that a white ball is transferred from the first bag.<br />- Let $B_1$ be the event that a black ball is transferred from the first bag.<br />- Let $A$ be the target event that the ball finally drawn from the second bag is white.<br /><br />**Step 2: Compute initial probabilities for the transfer step**<br />The first bag contains a total of $4 + 5 = 9$ balls. Calculating the transfer probabilities gives:<br />$P(W_1) = \\frac{4}{9}, \\quad P(B_1) = \\frac{5}{9}$<br /><br />**Step 3: Compute conditional probabilities for drawing from the second bag**<br />The second bag initially contains $6 + 7 = 13$ balls. We analyze how the contents of the second bag change based on which ball is transferred:<br />- **Scenario 1: A white ball was transferred ($W_1$).** The second bag now gains a white ball, updating its contents to 7 white and 7 black balls (14 total). The probability of drawing a white ball is:<br />  $P(A|W_1) = \\frac{7}{14} = \\frac{1}{2}$<br />- **Scenario 2: A black ball was transferred ($B_1$).** The second bag now gains a black ball, updating its contents to 6 white and 8 black balls (14 total). The probability of drawing a white ball is:<br />  $P(A|B_1) = \\frac{6}{14} = \\frac{3}{7}$<br /><br />**Step 4: Apply the Law of Total Probability**<br />Using the total probability formula to combine our scenarios:<br />$P(A) = P(W_1) \\cdot P(A|W_1) + P(B_1) \\cdot P(A|B_1)$<br />$P(A) = \\left(\\frac{4}{9} \\cdot \\frac{1}{2}\\right) + \\left(\\frac{5}{9} \\cdot \\frac{3}{7}\\right) = \\frac{4}{18} + \\frac{15}{63} = \\frac{2}{9} + \\frac{15}{63}$<br />Find a common denominator to add the fractions:<br />$P(A) = \\frac{2 \\cdot 7}{9 \\cdot 7} + \\frac{15}{63} = \\frac{14}{63} + \\frac{15}{63} = \\frac{29}{63}$<br />Therefore, the total probability of drawing a white ball is **$\\frac{29}{63}$**.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

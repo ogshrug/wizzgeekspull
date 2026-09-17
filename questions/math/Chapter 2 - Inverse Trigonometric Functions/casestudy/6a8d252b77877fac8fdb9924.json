@@ -1,0 +1,30 @@
+{
+  "id": "6a8d252b77877fac8fdb9924",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematical symmetry table is prepared for the inverse sine, inverse cosine, and inverse tangent functions at $x=\\dfrac{3}{5}$. The table uses the properties $\\sin^{-1}(-x)=-\\sin^{-1}x$, $\\tan^{-1}(-x)=-\\tan^{-1}x$, and $\\cos^{-1}(-x)=\\pi-\\cos^{-1}x$. Let $A=\\sin^{-1}\\left(\\dfrac{3}{5}\\right)$, $B=\\cos^{-1}\\left(\\dfrac{3}{5}\\right)$, and $C=\\tan^{-1}\\left(\\dfrac{3}{4}\\right)$. From a right triangle, $\\sin A=\\dfrac{3}{5}$, $\\cos A=\\dfrac{4}{5}$, and $\\tan A=\\dfrac{3}{4}$. The group compares these principal angles and then evaluates expressions with negative arguments.<br><br><b>(a)</b> Establish the relationship between $A$ and $C$.<br><br><b>(b)</b> Determine $A+B$.<br><br><b>(c)</b> Express $\\cos^{-1}\\left(-\\dfrac{3}{5}\\right)$ in terms of $B$.<br><br><b>(d)</b> Evaluate $\\sin^{-1}\\left(-\\dfrac{3}{5}\\right)+\\tan^{-1}\\left(-\\dfrac{3}{4}\\right)+\\cos^{-1}\\left(-\\dfrac{3}{5}\\right)$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Since $A$ is acute and<br>$$\\tan A=\\frac{\\sin A}{\\cos A}=\\frac{\\frac{3}{5}}{\\frac{4}{5}}=\\frac{3}{4}$$<br>we obtain<br>$$A=\\tan^{-1}\\left(\\frac{3}{4}\\right)=C$$<br><br><b>(b)</b><br>Using the complementary inverse-function property,<br>$$\\sin^{-1}x+\\cos^{-1}x=\\frac{\\pi}{2}$$<br>for $-1\\leq x\\leq1$. Therefore,<br>$$A+B=\\sin^{-1}\\left(\\frac{3}{5}\\right)+\\cos^{-1}\\left(\\frac{3}{5}\\right)=\\frac{\\pi}{2}$$<br><br><b>(c)</b><br>Using<br>$$\\cos^{-1}(-x)=\\pi-\\cos^{-1}x$$<br>we obtain<br>$$\\cos^{-1}\\left(-\\frac{3}{5}\\right)=\\pi-B$$<br><br><b>(d)</b><br>Using the odd properties of inverse sine and inverse tangent,<br>$$\\sin^{-1}\\left(-\\frac{3}{5}\\right)=-A$$<br>and<br>$$\\tan^{-1}\\left(-\\frac{3}{4}\\right)=-C=-A$$<br>Also,<br>$$\\cos^{-1}\\left(-\\frac{3}{5}\\right)=\\pi-B$$<br>Thus, the expression equals<br>$$-A-A+\\pi-B$$<br>Since $A+B=\\dfrac{\\pi}{2}$, $B=\\dfrac{\\pi}{2}-A$. Therefore,<br>$$-2A+\\pi-\\left(\\frac{\\pi}{2}-A\\right)=\\frac{\\pi}{2}-A$$<br>Hence, the required value is<br>$$\\frac{\\pi}{2}-\\sin^{-1}\\left(\\frac{3}{5}\\right)=\\cos^{-1}\\left(\\frac{3}{5}\\right)$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=C$<br><br>(b) $A+B=\\dfrac{\\pi}{2}$<br><br>(c) $\\cos^{-1}\\left(-\\dfrac{3}{5}\\right)=\\pi-B$<br><br>(d) $B=\\cos^{-1}\\left(\\dfrac{3}{5}\\right)$",
+    "B": "(a) $A=-C$<br><br>(b) $A+B=\\pi$<br><br>(c) $\\cos^{-1}\\left(-\\dfrac{3}{5}\\right)=-B$<br><br>(d) $-B$",
+    "C": "(a) $A+B=C$<br><br>(b) $A+B=\\dfrac{\\pi}{2}$<br><br>(c) $\\cos^{-1}\\left(-\\dfrac{3}{5}\\right)=B$<br><br>(d) $\\dfrac{\\pi}{2}$",
+    "D": "(a) $A=\\dfrac{\\pi}{2}-C$<br><br>(b) $A+B=\\pi$<br><br>(c) $\\cos^{-1}\\left(-\\dfrac{3}{5}\\right)=\\dfrac{\\pi}{2}+B$<br><br>(d) $A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

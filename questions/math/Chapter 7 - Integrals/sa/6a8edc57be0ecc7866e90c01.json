@@ -1,0 +1,29 @@
+{
+  "id": "6a8edc57be0ecc7866e90c01",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Using a suitable property of definite integrals, evaluate $\\displaystyle I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin x}{\\sin x+\\cos x}\\,dx$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Applying the change-of-argument property</b><br>Use the property $\\displaystyle \\int_0^a f(x)\\,dx=\\int_0^a f(a-x)\\,dx$. Here $a=\\frac{\\pi}{2}$. Thus,<br>$$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin\\left(\\frac{\\pi}{2}-x\\right)}{\\sin\\left(\\frac{\\pi}{2}-x\\right)+\\cos\\left(\\frac{\\pi}{2}-x\\right)}\\,dx$$<br><b>Step 2: Simplifying the transformed integrand</b><br>Using $\\sin\\left(\\frac{\\pi}{2}-x\\right)=\\cos x$ and $\\cos\\left(\\frac{\\pi}{2}-x\\right)=\\sin x$,<br>$$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\cos x}{\\sin x+\\cos x}\\,dx$$<br><b>Step 3: Adding the two equivalent forms</b><br>$$2I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin x+\\cos x}{\\sin x+\\cos x}\\,dx=\\int_0^{\\frac{\\pi}{2}}1\\,dx$$<br><b>Step 4: Evaluating the remaining integral</b><br>$$2I=\\frac{\\pi}{2}$$<br><b>Step 5: Obtaining the required value</b><br>Therefore, $\\boxed{I=\\frac{\\pi}{4}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{2}$",
+    "B": "$\\frac{\\pi}{8}$",
+    "C": "$\\frac{\\pi}{4}$",
+    "D": "$\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

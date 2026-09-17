@@ -1,0 +1,29 @@
+{
+  "id": "6a906a2d2e54880055a0a760",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8c2"
+  ],
+  "question_type": "SA",
+  "question": "The vectors $\\overrightarrow{AB}$ and $\\overrightarrow{CD}$ are parallel, where $A(1,2,-1)$, $B(3,-1,4)$, $C(0,1,2)$ and $D(4,k,12)$. Find $k$ and verify the parallelism.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Calculation of $\\overrightarrow{AB}$</b><br>\\(\\overrightarrow{AB}=(3-1)\\hat{i}+(-1-2)\\hat{j}+[4-(-1)]\\hat{k}=2\\hat{i}-3\\hat{j}+5\\hat{k}\\)<br><b>Step 2: Calculation of $\\overrightarrow{CD}$</b><br>\\(\\overrightarrow{CD}=4\\hat{i}+(k-1)\\hat{j}+10\\hat{k}\\)<br><b>Step 3: Proportionality factor</b><br>The first and third components show that $\\overrightarrow{CD}=2\\overrightarrow{AB}$. Hence, the second components must satisfy<br>\\(k-1=2(-3)=-6\\)<br>Therefore, $k=-5$.<br><b>Step 4: Verification</b><br>For $k=-5$, $\\overrightarrow{CD}=4\\hat{i}-6\\hat{j}+10\\hat{k}=2\\overrightarrow{AB}$.<br><b>Final Answer</b><br>$k=-5$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=5$, and $\\overrightarrow{CD}=2\\overrightarrow{AB}$.",
+    "B": "$k=-6$, and $\\overrightarrow{CD}=\\overrightarrow{AB}$.",
+    "C": "$k=-5$, and $\\overrightarrow{CD}=4\\hat{i}-6\\hat{j}+10\\hat{k}=2\\overrightarrow{AB}$.",
+    "D": "$k=7$, and $\\overrightarrow{CD}=-2\\overrightarrow{AB}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

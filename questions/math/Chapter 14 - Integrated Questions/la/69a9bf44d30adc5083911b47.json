@@ -1,0 +1,30 @@
+{
+  "id": "69a9bf44d30adc5083911b47",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "LA",
+  "question": "If $f(x) = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ for $x > 0$, and $g(x) = 2\\tan^{-1} x$, prove that $f(x) = g(x)$ and provide a detailed algebraic proof. Further, if $h(\\theta) = \\tan(\\theta)$, find $f(h(\\theta))$.",
+  "answeroption": "D",
+  "explanation": "Let’s take $x > 0$.<br /><br />Let $I = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$<br />Let’s set $x = \\tan \\theta$, $\\theta \\in (0, \\frac{\\pi}{2})$.<br /><br />Recall, $\\sin 2\\theta = 2\\sin \\theta \\cos \\theta$.<br />But $\\sin \\theta = \\frac{x}{\\sqrt{1+x^2}}$, $\\cos \\theta = \\frac{1}{\\sqrt{1+x^2}}$<br /><br />So,<br />$\\sin 2\\theta = 2 \\left( \\frac{x}{\\sqrt{1+x^2}} \\right ) \\left( \\frac{1}{\\sqrt{1+x^2}} \\right ) = \\frac{2x}{1+x^2}$<br /><br />Thus, if $x = \\tan \\theta$, $\\sin 2\\theta = \\frac{2x}{1+x^2}$<br /><br />So,<br />$\\sin^{-1}\\left( \\frac{2x}{1+x^2} \\right ) = \\sin^{-1}(\\sin 2\\theta) = 2\\theta = 2\\tan^{-1} x$<br /><br />Therefore,<br />$\\boxed{f(x) = g(x)}$<br /><br />For the second part, $h(\\theta) = \\tan \\theta$, so $f(h(\\theta)) = f(\\tan \\theta)$:<br />$f(\\tan \\theta) = \\sin^{-1}\\left(\\frac{2 \\tan \\theta}{1 + \\tan^2 \\theta} \\right )$<br /><br />Recall $1 + \\tan^2 \\theta = \\sec^2 \\theta$<br /><br />So,<br />$\\frac{2 \\tan \\theta}{\\sec^2 \\theta} = 2 \\tan \\theta \\cos^2 \\theta = 2 \\sin \\theta \\cos \\theta = \\sin 2\\theta$<br /><br />So,<br />$f(\\tan \\theta) = \\sin^{-1}(\\sin 2\\theta) = 2\\theta$<br /><br />Thus, $\\boxed{f(h(\\theta)) = 2\\theta}$ for $\\theta \\in [0, \\frac{\\pi}{2}]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(x)=\\tan^{-1}x$ and $g(x)=2\\tan^{-1}x$, so $f(x)\\ne g(x)$<br />For $h(\\theta)=\\tan\\theta$, $f(h(\\theta))=\\theta$",
+    "B": "$f(x)=\\cos^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ and $g(x)=2\\tan^{-1}x$<br />For $h(\\theta)=\\tan\\theta$, $f(h(\\theta))=\\frac{\\pi}{2}-2\\theta$",
+    "C": "$f(x)=\\sin^{-1}x$ and $g(x)=2\\tan^{-1}x$<br />For $h(\\theta)=\\tan\\theta$, $f(h(\\theta))=\\sin^{-1}(\\tan\\theta)$",
+    "D": "$f(x)=\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)=2\\tan^{-1}x=g(x)$<br />Using $x=\\tan\\theta$, $\\frac{2x}{1+x^2}=\\sin2\\theta$<br />For $h(\\theta)=\\tan\\theta$, $f(h(\\theta))=f(\\tan\\theta)=2\\theta$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:37:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

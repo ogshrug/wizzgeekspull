@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8f88be0ecc7866e90b98",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "VSA",
+  "question": "For what value of $k$ does the system $kx+3y=5$ and $2x+y=4$ have a unique solution?",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Form the coefficient matrix</b><br>The coefficient matrix is $$A=\\begin{bmatrix}k&3\\\\2&1\\end{bmatrix}$$<br><b>Step 2: Use the unique-solution condition</b><br>A system of two linear equations has a unique solution when the determinant of its coefficient matrix is nonzero.<br><b>Step 3: Calculate the determinant</b><br>We have $$|A|=k(1)-(3)(2)=k-6$$<br><b>Step 4: Apply the condition</b><br>For a unique solution, $$k-6\\ne0$$ Therefore, $$k\\ne6$$<br>Hence, the given system has exactly one solution for every real value of $k$ except $6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=6$",
+    "B": "$k\\ne6$",
+    "C": "$k=3$",
+    "D": "$k\\ne3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

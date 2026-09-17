@@ -1,0 +1,29 @@
+{
+  "id": "69a94aae62be6a70cd184d4c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation: $\\displaystyle (x^2 + y^2 + 2x)\\frac{dy}{dx} = (2y - x)y$",
+  "answeroption": "C",
+  "explanation": "Rewrite: $\\frac{dy}{dx} = \\frac{(2y-x)y}{x^2 + y^2 + 2x}$<br />Let $v = y/x$, $y = vx$, $dy/dx = v + x dv/dx$<br />Equation reduces to: $x dv/dx = \\frac{2v^2 - 2v - v^3}{1 + v^2}$<br />Separate variables: $\\frac{1 + v^2}{-v (v^2 - 2v + 2)} dv = dx/x$<br />Partial fractions and integrate:<br />$-\\ln|y/x| + 1/2 \\ln((y/x)^2 - 2(y/x) + 2) - \\tan^{-1}(y/x - 1) = \\ln|x| + C$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\ln|y/x|+\\frac{1}{2}\\ln((y/x)^2-2(y/x)+2)-\\tan^{-1}(y/x-1)=\\ln|x|+C$",
+    "B": "$-\\ln|y/x|+\\frac{1}{2}\\ln((y/x)^2+2(y/x)+2)-\\tan^{-1}(y/x-1)=\\ln|x|+C$",
+    "C": "$-\\ln|y/x|+\\frac{1}{2}\\ln((y/x)^2-2(y/x)+2)-\\tan^{-1}(y/x-1)=\\ln|x|+C$",
+    "D": "$-\\ln|y/x|-\\frac{1}{2}\\ln((y/x)^2-2(y/x)+2)+\\tan^{-1}(y/x-1)=\\ln|x|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:19:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a9125afbe0ecc7866e90cd1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0"
+  ],
+  "question_type": "SA",
+  "question": "The constraints of a linear programming problem are $x+y\\leq7$, $2x+y\\leq10$, $x\\geq0$ and $y\\geq0$. Find the range of values of $k$ for which the point $(k,2)$ is a feasible solution.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Applying the first constraint</b><br>For the point $(k,2)$ to be feasible, it must satisfy $x+y\\leq7$. Thus, $$k+2\\leq7$$ which gives $$k\\leq5$$<br><b>Step 2: Applying the second constraint</b><br>The condition $2x+y\\leq10$ gives $$2k+2\\leq10$$ Hence, $$2k\\leq8\\Rightarrow k\\leq4$$<br><b>Step 3: Applying the non-negative restriction</b><br>Since $x=k$ must be non-negative, $$k\\geq0$$ The coordinate $y=2$ already satisfies $y\\geq0$.<br><b>Step 4: Combining the conditions</b><br>The restrictions obtained are $k\\leq5$, $k\\leq4$ and $k\\geq0$. Their common range is $$0\\leq k\\leq4$$<br><b>Step 5: Conclusion</b><br>Therefore, $(k,2)$ is a feasible solution precisely when $0\\leq k\\leq4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0\\leq k\\leq5$",
+    "B": "$4\\leq k\\leq5$",
+    "C": "$0<k<4$",
+    "D": "$0\\leq k\\leq4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

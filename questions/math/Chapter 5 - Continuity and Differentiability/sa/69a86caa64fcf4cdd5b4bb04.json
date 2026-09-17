@@ -1,0 +1,30 @@
+{
+  "id": "69a86caa64fcf4cdd5b4bb04",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "SA",
+  "question": "Differentiate $y = \\tan^{-1}\\left(\\frac{x}{\\sqrt{a^2 - x^2}}\\right)$ with respect to $x$, and prove the result can be expressed in terms of $a$.",
+  "answeroption": "B",
+  "explanation": "Let $x = a \\sin \\theta$ so that $\\sqrt{a^2 - x^2} = a \\cos \\theta$.<br /><br />Then $y = \\tan^{-1}(\\tan \\theta) = \\theta$.<br /><br />Thus $x = a \\sin y$.<br /><br />Differentiate:<br /><br />$1 = a \\cos y \\frac{dy}{dx}$<br /><br />$\\implies \\frac{dy}{dx} = \\frac{1}{a \\cos y}$<br /><br />But $\\cos y = \\frac{\\sqrt{a^2 - x^2}}{a}$.<br /><br />Hence,<br /><br />$\\boxed{\\frac{dy}{dx} = \\frac{1}{\\sqrt{a^2 - x^2}}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{x}{\\sqrt{a^2-x^2}}$",
+    "B": "$\\dfrac{1}{\\sqrt{a^2-x^2}}$",
+    "C": "$\\dfrac{a}{a^2-x^2}$",
+    "D": "$\\dfrac{1}{a^2-x^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:32:26 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

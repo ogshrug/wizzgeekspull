@@ -1,0 +1,31 @@
+{
+  "id": "69a9c1d36638848124d7c9a8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A rectangular field is to be fenced on three sides with a wall on the fourth side. If the area of the field is 600 $m^2$ and the cost of fencing is Rs. 10 per meter for two opposite sides and Rs. 15 per meter for the third side, how should the field be designed to minimize the total cost? Provide full justification using calculus.<br /><br />a) Form the cost function using the area constraint.<br /><br />b) Differentiate the cost function and determine the critical point.<br /><br />c) Verify that the value obtained minimizes the cost and find the optimal dimensions.",
+  "answeroption": "B",
+  "explanation": "a) Let $x$ and $y$ be the lengths of the sides where $y$ is parallel to the wall.<br /><br /> Area constraint: $xy = 600$.<br /><br /> Cost of fencing: two sides of length $x$ at Rs.10 per meter and one side of length $y$ at Rs.15 per meter. <br /><br />Therefore cost function: $C = 20x + 15y$. Using $y = 600/x$, we get $C(x) = 20x + \\frac{9000}{x}$.<br /><br />b) Differentiate: $C'(x) = 20 - \\frac{9000}{x^2}$. <br /><br />Set $C'(x)=0$: $20 = \\frac{9000}{x^2}$ giving $x^2 = 450$ and $x = 15\\sqrt{2}$. <br /><br />Using the area constraint, $y = \\frac{600}{15\\sqrt{2}} = 20\\sqrt{2}$.<br /><br />c) Second derivative $C''(x) = \\frac{18000}{x^3} > 0$ for $x>0$.<br /><br /> Therefore the cost is minimized when $x = 15\\sqrt{2}$ m and $y = 20\\sqrt{2}$ m.",
+  "explanation_image": [],
+  "options": {
+    "A": "a) $C(x)=10x+\\frac{9000}{x}$<br />b) Critical point is $x=30$ m.<br />c) Minimum cost occurs when $x=30$ m and $y=20$ m.",
+    "B": "a) $C(x)=20x+\\frac{9000}{x}$<br />b) Critical point is $x=15\\sqrt{2}$ m.<br />c) Since $C''(x)=\\frac{18000}{x^3}>0$, minimum cost occurs when $x=15\\sqrt{2}$ m and $y=20\\sqrt{2}$ m.",
+    "C": "a) $C(x)=20x+\\frac{600}{x}$<br />b) Critical point is $x=\\sqrt{30}$ m.<br />c) Minimum cost occurs when $x=\\sqrt{30}$ m and $y=20\\sqrt{2}$ m.",
+    "D": "a) $C(x)=15x+\\frac{12000}{x}$<br />b) Critical point is $x=20\\sqrt{2}$ m.<br />c) Minimum cost occurs when $x=20\\sqrt{2}$ m and $y=15\\sqrt{2}$ m."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:48:03 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

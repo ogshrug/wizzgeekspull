@@ -1,0 +1,27 @@
+{
+  "id": "6a22917ffbdd87b6dea73b98",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "SA",
+  "question": "Find k so that $f(x)=\\begin{cases}\\frac{x^{2}-2x-3}{x+1},&x\\ne-1\\\\ k,&x=-1\\end{cases}$ is continuous at $x=-1$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> For the function $f(x)$ to be continuous at the point $x = -1$[cite: 2], the limiting value of the function as $x$ approaches $-1$ must exist and be equal to the defined value at that point: $\\lim_{x \\to -1} f(x) = f(-1) = k$.<br /><br /><b>Step 2</b> Construct the limit expression using the non-equal branch formula: $\\lim_{x \\to -1} \\frac{x^2 - 2x - 3}{x+1}$[cite: 2]. Notice that directly substituting $x = -1$ results in an indeterminate form of $0/0$.<br /><br /><b>Step 3</b> To resolve this indeterminate form, factor the quadratic polynomial expression in the numerator: $x^2 - 2x - 3 = (x - 3)(x + 1)$.<br /><br /><b>Step 4</b> Substitute this factored expression back into the limit and cancel out the common factor $(x + 1)$ from both the numerator and the denominator: $\\lim_{x \\to -1} \\frac{(x-3)(x+1)}{x+1} = \\lim_{x \\to -1} (x - 3)$.<br /><br /><b>Step 5</b> Evaluate the remaining linear limit by direct substitution: $-1 - 3 = -4$. For continuity to hold, this limit value must equal the point value $k$, so we conclude that $k = -4$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

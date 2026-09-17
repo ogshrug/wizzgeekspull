@@ -1,0 +1,31 @@
+{
+  "id": "69a95dacd30adc5083911a68",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A$ is a $3\\times3$ non-singular matrix such that $\\mathrm{adj}(A) = A'$, what is $|A|$?",
+  "answeroption": "B",
+  "explanation": "We know, $A\\cdot\\mathrm{adj}(A) = |A|I$ <br /> Given $\\mathrm{adj}(A) = A'$ so $A\\cdot A' = |A|I$ <br /> Take determinant on both sides: <br /> $|A\\cdot A'| = |A|^3 = |A|^3$ (since $|A'|=|A|$ and $|AB|=|A||B|$) <br /> But, $|A\\cdot A'| = (|A|)^2$ <br /> So, $(|A|)^2 = |A|^3$ <br /> $|A|^2 - |A|^3 = 0$ <br /> $|A|^2 (1 - |A|) = 0$ <br /> Since $A$ non-singular, $|A|\\neq 0$, so $1-|A|=0 \\implies |A|=1$ <br /> Thus, (B).",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$1$",
+    "C": "$-1$",
+    "D": "$\\pm 1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:40:44 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

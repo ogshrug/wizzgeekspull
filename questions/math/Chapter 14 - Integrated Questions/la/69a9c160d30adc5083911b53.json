@@ -1,0 +1,30 @@
+{
+  "id": "69a9c160d30adc5083911b53",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{pmatrix} a & 1 \\\\ 0 & a \\end{pmatrix}$, and $B = \\begin{pmatrix} 1 & 0 \\\\ 2 & 1 \\end{pmatrix}$ where $a \\neq 0$.<br /><br />(a) Show that $AB = BA$ if and only if $a=1$.<br /><br />(b) If $f(x) = x^2 + 2x + 1$, find the values of $a$ such that $A$ is invertible and $f(a) = 0$.<br /><br />(c) For the $a$ found in (b), compute $A^2$ and $B^2$.<br /><br />(d) Is $A^2$ equal to $B^2$ for that $a$? Justify.<br /><br />(e) For $a$ found above, is the determinant of $A+B$ equal to the sum of determinants of $A$ and $B$? Verify.",
+  "answeroption": "C",
+  "explanation": "**Concepts being tested:** Matrix multiplication, invertibility, quadratic polynomials, determinants, powers of matrices.<br /><br />(a) $AB = BA$ iff $a=1$:<br />$AB = \\begin{pmatrix} a & 1 \\\\ 0 & a \\end{pmatrix} \\begin{pmatrix} 1 & 0 \\\\ 2 & 1 \\end{pmatrix}$<br />$= \\begin{pmatrix} a \\cdot 1 + 1 \\cdot 2 & a \\cdot 0 + 1 \\cdot 1 \\\\ 0 \\cdot 1 + a \\cdot 2 & 0 \\cdot 0 + a \\cdot 1 \\end{pmatrix}$<br />$= \\begin{pmatrix} a+2 & 1 \\\\ 2a & a \\end{pmatrix}$<br /><br />$BA = \\begin{pmatrix} 1 & 0 \\\\ 2 & 1 \\end{pmatrix} \\begin{pmatrix} a & 1 \\\\ 0 & a \\end{pmatrix}$<br />$= \\begin{pmatrix} 1 \\cdot a + 0 \\cdot 0 & 1 \\cdot 1 + 0 \\cdot a \\\\ 2 \\cdot a + 1 \\cdot 0 & 2 \\cdot 1 + 1 \\cdot a \\end{pmatrix}$<br />$= \\begin{pmatrix}a & 1 \\\\ 2a & a+2 \\end{pmatrix}$<br /><br />So, $AB = BA \\implies a+2 = a \\text{ and } a = a+2$. Contradicts unless $a=1$ and $a+2 = 1+2=3$. So, double-check: Only possible if $a=1$.<br /><br />(b) $A$ invertible and $f(a)=0$:<br />$A$ is invertible if $\\det(A) \\neq 0$. $\\det(A) = a \\cdot a - 1 \\cdot 0 = a^2$. Require $a \\neq 0$.<br /><br />$f(a)=0 \\implies (a+1)^2 = 0 \\implies a = -1$.<br /><br />Check $a \\neq 0$: $a = -1$ works.<br /><br />(c) Compute $A^2$, $B^2$ for $a=-1$:<br />$A = \\begin{pmatrix}-1 & 1\\\\0 & -1\\end{pmatrix}$<br /><br />$A^2 = (-1) \\cdot A = \\begin{pmatrix}1 & -2\\\\0 & 1\\end{pmatrix}$<br /><br />$B^2 = \\begin{pmatrix}1 & 0\\\\2 & 1\\end{pmatrix}\\begin{pmatrix}1 & 0\\\\2 & 1\\end{pmatrix}$<br />$= \\begin{pmatrix}1 & 0\\\\4 & 1\\end{pmatrix}$<br /><br />(d) Is $A^2 = B^2$?<br />$A^2 = \\begin{pmatrix}1 & -2\\\\0 & 1\\end{pmatrix}$<br />$B^2 = \\begin{pmatrix}1 & 0\\\\4 & 1\\end{pmatrix}$<br />So, No.<br /><br />(e) Is $\\det(A + B) = \\det(A) + \\det(B)$?<br />$A+B = \\begin{pmatrix}-1+1 & 1+0\\\\0+2 & -1+1\\end{pmatrix} = \\begin{pmatrix}0 & 1\\\\2 & 0\\end{pmatrix}$<br /><br />$\\det(A+B) = -2$<br /><br />$\\det(A) = (-1)^2 - 0 = 1$<br /><br />$\\det(B) = 1 \\cdot 1 - 0 \\cdot 2 = 1$<br /><br />So sum is $1+1=2 \\neq -2$.<br /><br />Therefore, $\\det(A+B) \\neq \\det(A) + \\det(B)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $AB=BA$ for all non-zero $a$<br />(b) $a=1$<br />(c) $A^2=I$, $B^2=I$<br />(d) Yes, $A^2=B^2$<br />(e) Yes, $\\det(A+B)=\\det(A)+\\det(B)$",
+    "B": "(a) $AB=BA$ if and only if $a=-1$<br />(b) $a=1$<br />(c) $A^2=\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}$, $B^2=\\begin{pmatrix}1&0\\\\2&1\\end{pmatrix}$<br />(d) No<br />(e) Yes, both sides are $2$",
+    "C": "(a) $AB=BA$ if and only if $a=1$<br />(b) $a=-1$<br />(c) $A^2=\\begin{pmatrix}1&-2\\\\0&1\\end{pmatrix}$ and $B^2=\\begin{pmatrix}1&0\\\\4&1\\end{pmatrix}$<br />(d) No, $A^2\\ne B^2$<br />(e) No, $\\det(A+B)=-2$ while $\\det(A)+\\det(B)=2$",
+    "D": "(a) $AB\\ne BA$ for every $a$<br />(b) $a=0$<br />(c) $A^2=0$, $B^2=0$<br />(d) Yes<br />(e) No, $\\det(A+B)=0$ and $\\det(A)+\\det(B)=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:46:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

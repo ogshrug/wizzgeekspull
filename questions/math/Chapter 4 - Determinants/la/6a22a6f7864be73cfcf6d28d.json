@@ -1,0 +1,29 @@
+{
+  "id": "6a22a6f7864be73cfcf6d28d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76",
+    "69c6603740512f018fa94d70"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following system of equations by matrix method:<br />$x+2y+3z=6$<br />$2x-y+z=2$<br />$3x+2y-2z=3$",
+  "answeroption": "",
+  "explanation": "**Step 1:** We must carefully define the system $AX = B$. Here, the coefficient matrix $A = \\begin{bmatrix}1&2&3\\\\ 2&-1&1\\\\ 3&2&-2\\end{bmatrix}$, variable matrix $X = \\begin{bmatrix}x\\\\ y\\\\ z\\end{bmatrix}$, and constant matrix $B = \\begin{bmatrix}6\\\\ 2\\\\ 3\\end{bmatrix}$. First, calculate $|A| = 1(2-2) - 2(-4-3) + 3(4+3) = 0 + 14 + 21 = 35$. Since $|A| \\ne 0$, the unique solution exists.<br />**Step 2:** Calculate all cofactors of matrix A to form the adjoint. $C_{11} = 0$, $C_{12} = 7$, $C_{13} = 7$. $C_{21} = -( -4 - 6 ) = 10$, $C_{22} = (-2 - 9) = -11$, $C_{23} = -(2 - 6) = 4$. $C_{31} = (2 - (-3)) = 5$, $C_{32} = -(1 - 6) = 5$, $C_{33} = (-1 - 4) = -5$.<br />**Step 3:** Construct the adjoint matrix by transposing the cofactor matrix. $adj(A) = \\begin{bmatrix}0&10&5\\\\ 7&-11&5\\\\ 7&4&-5\\end{bmatrix}$.<br />**Step 4:** The inverse matrix is $A^{-1} = \\frac{1}{35} \\begin{bmatrix}0&10&5\\\\ 7&-11&5\\\\ 7&4&-5\\end{bmatrix}$. Now, solve for $X$ using $X = A^{-1}B$.<br />**Step 5:** Perform the exact matrix multiplication: $X = \\frac{1}{35} \\begin{bmatrix}0&10&5\\\\ 7&-11&5\\\\ 7&4&-5\\end{bmatrix} \\begin{bmatrix}6\\\\ 2\\\\ 3\\end{bmatrix}$. The first row is $0(6) + 10(2) + 5(3) = 35$. The second row is $7(6) - 11(2) + 5(3) = 42 - 22 + 15 = 35$. The third row is $7(6) + 4(2) - 5(3) = 42 + 8 - 15 = 35$. Thus, $X = \\frac{1}{35} \\begin{bmatrix}35\\\\ 35\\\\ 35\\end{bmatrix} = \\begin{bmatrix}1\\\\ 1\\\\ 1\\end{bmatrix}$. The final solution is $x=1, y=1, z=1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2",
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

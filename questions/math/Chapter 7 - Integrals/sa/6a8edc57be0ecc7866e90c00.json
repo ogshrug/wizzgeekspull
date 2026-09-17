@@ -1,0 +1,29 @@
+{
+  "id": "6a8edc57be0ecc7866e90c00",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int_0^1 \\frac{x}{(1+x^2)^2}\\,dx$ by making a suitable substitution and changing the limits accordingly.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Selecting the substitution</b><br>The denominator contains $1+x^2$ and its differential contains the factor $x\\,dx$. Hence, put<br>$$t=1+x^2$$<br>Then $dt=2x\\,dx$, so $x\\,dx=\\frac{dt}{2}$.<br><b>Step 2: Changing the limits</b><br>When $x=0$, $t=1$, and when $x=1$, $t=2$. Therefore, the limits change from $0,1$ to $1,2$.<br><b>Step 3: Transforming the definite integral</b><br>$$\\int_0^1\\frac{x}{(1+x^2)^2}\\,dx=\\frac{1}{2}\\int_1^2 t^{-2}\\,dt$$<br><b>Step 4: Integrating in the new variable</b><br>$$\\frac{1}{2}\\int_1^2t^{-2}\\,dt=\\frac{1}{2}\\left[-\\frac{1}{t}\\right]_1^2$$<br><b>Step 5: Applying the transformed limits</b><br>$$=\\frac{1}{2}\\left(-\\frac{1}{2}+1\\right)=\\frac{1}{4}$$<br>Hence, the value of the integral is $\\boxed{\\frac{1}{4}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}$",
+    "B": "$\\frac{1}{8}$",
+    "C": "$\\frac{1}{3}$",
+    "D": "$\\frac{1}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

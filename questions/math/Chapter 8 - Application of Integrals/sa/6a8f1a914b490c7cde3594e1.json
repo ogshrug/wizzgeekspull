@@ -1,0 +1,29 @@
+{
+  "id": "6a8f1a914b490c7cde3594e1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995"
+  ],
+  "question_type": "SA",
+  "question": "The parabola $y=5x-x^2$ is restricted to the interval $0\\leq x\\leq4$. Find the area below the parabola and above the x-axis over this interval.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Checking the sign of the parabola</b><br>The function can be written as $y=x(5-x)$. For $0\\leq x\\leq4$, both factors are non-negative, so the curve remains above the x-axis.<br><b>Step 2: Forming the area integral</b><br>\\(A=\\int_0^4(5x-x^2)\\,dx\\)<br><b>Step 3: Evaluating the integral</b><br>\\(A=\\left[\\frac{5x^2}{2}-\\frac{x^3}{3}\\right]_0^4\\)<br><b>Step 4: Substitution and simplification</b><br>\\(A=40-\\frac{64}{3}=\\frac{120-64}{3}=\\frac{56}{3}\\)<br><b>Final Answer</b><br>The required area is $\\frac{56}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{40}{3}$ square units",
+    "B": "$\\frac{56}{3}$ square units",
+    "C": "$\\frac{64}{3}$ square units",
+    "D": "$\\frac{28}{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

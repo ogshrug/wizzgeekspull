@@ -1,0 +1,30 @@
+{
+  "id": "6a8d24bd550d28a069ec32e1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A=\\{1,2,3,4\\}$ and let $f:A\\to A$ be one-one. If $f(1)=3$, $f(2)=1$ and $f(3)=4$, determine $f(4)$ and state whether $f$ is onto.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Apply the one-one condition</b><br>Since $f$ is one-one, distinct elements of $A$ must have distinct images.<br><br><b>Step 2: Identify the images already used</b><br>The given images are $f(1)=3$, $f(2)=1$ and $f(3)=4$. Thus, the used images are $\\{1,3,4\\}$.<br><br><b>Step 3: Determine the remaining image</b><br>The only element of the co-domain $A=\\{1,2,3,4\\}$ not yet used is $2$. Therefore, to preserve the one-one property, the remaining domain element must satisfy<br>$$f(4)=2.$$<br><br><b>Step 4: Test the onto property</b><br>The range of $f$ is then $\\{1,2,3,4\\}=A$. Hence, every element of the co-domain has a pre-image, so $f$ is onto.<br><br><b>Final Answer:</b> $\\boxed{f(4)=2}$, and $f$ is onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(4)=2$ and $f$ is onto",
+    "B": "$f(4)=2$ and $f$ is not onto",
+    "C": "$f(4)=3$ and $f$ is onto",
+    "D": "$f(4)=4$ and $f$ is not onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

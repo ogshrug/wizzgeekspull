@@ -1,0 +1,28 @@
+{
+  "id": "6a27db59233c5169a79c53dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a",
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "LA",
+  "question": "Find the sub-interval of $(0,\\pi)$ in which $f(x)=\\tan^{-1}(\\sin x-\\cos x)$ is increasing and decreasing.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate the function using the chain rule:<br />$f(x)=\\tan^{-1}(\\sin x-\\cos x)$<br />$\\Rightarrow f'(x)=\\frac{\\cos x+\\sin x}{1+(\\sin x-\\cos x)^2}$.<br /><br />Since $1+(\\sin x-\\cos x)^2>0$ for all $x$, the sign of $f'(x)$ depends only on $\\sin x+\\cos x$.<br /><br />**Step 2:** For increasing intervals, solve<br />$\\sin x+\\cos x>0$.<br />Using $\\sin x+\\cos x=\\sqrt{2}\\sin\\left(x+\\frac{\\pi}{4}\\right)$,<br />we require<br />$\\sin\\left(x+\\frac{\\pi}{4}\\right)>0$.<br /><br />For $x\\in(0,\\pi)$, we have<br />$x+\\frac{\\pi}{4}\\in\\left(\\frac{\\pi}{4},\\frac{5\\pi}{4}\\right)$.<br />The sine function is positive when<br />$0< x+\\frac{\\pi}{4}<\\pi$.<br />Hence,<br />$0<x<\\frac{3\\pi}{4}$.<br /><br />Therefore, $f(x)$ is increasing on<br />$\\boxed{\\left(0,\\frac{3\\pi}{4}\\right)}$.<br /><br />**Step 3:** For decreasing intervals, solve<br />$\\sin x+\\cos x<0$.<br />This gives<br />$\\sin\\left(x+\\frac{\\pi}{4}\\right)<0$.<br /><br />Within the given domain, this occurs when<br />$\\pi<x+\\frac{\\pi}{4}<\\frac{5\\pi}{4}$.<br />Subtracting $\\frac{\\pi}{4}$ throughout,<br />$\\frac{3\\pi}{4}<x<\\pi$.<br /><br />Hence, $f(x)$ is decreasing on<br />$\\boxed{\\left(\\frac{3\\pi}{4},\\pi\\right)}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

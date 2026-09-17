@@ -1,0 +1,29 @@
+{
+  "id": "6a8d2ba0f1c9329bcf7979a1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ and $g:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=x-2$ and $g(x)=3x+4$. Find $(g\\circ f)(5)$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Apply the inner function</b><br>The composition $(g\\circ f)(5)$ means that $f$ is applied to $5$ first. Therefore,<br>$$f(5)=5-2=3.$$<br><br><b>Step 2: Apply the outer function</b><br>Now apply $g$ to the result obtained from $f$. Since $g(x)=3x+4$,<br>$$g(f(5))=g(3)=3(3)+4=9+4=13.$$<br><br><b>Final Answer:</b> $\\boxed{(g\\circ f)(5)=13}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$13$",
+    "B": "$7$",
+    "C": "$19$",
+    "D": "$27$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

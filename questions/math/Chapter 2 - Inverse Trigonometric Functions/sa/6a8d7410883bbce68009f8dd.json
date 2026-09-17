@@ -1,0 +1,30 @@
+{
+  "id": "6a8d7410883bbce68009f8dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "SA",
+  "question": "Consider $f(x)=\\sin^{-1}\\left(\\frac{x-2}{3}\\right)$.<br><br>(i) Determine the domain of $f$.<br><br>(ii) Find the value of $x$ for which $f(x)=\\frac{\\pi}{6}$, and verify that it belongs to the domain.",
+  "answeroption": "D",
+  "explanation": "<b>Condition for inverse sine</b><br>The argument of $\\sin^{-1}$ must satisfy $$-1\\leq\\frac{x-2}{3}\\leq1.$$<br><br><b>Solution of the domain inequality</b><br>Multiplying throughout by $3$ and adding $2$ gives $$-3\\leq x-2\\leq3$$ and hence $$-1\\leq x\\leq5.$$ Therefore, the domain is $[-1,5]$.<br><br><b>Use of the given principal value</b><br>The equation $$\\sin^{-1}\\left(\\frac{x-2}{3}\\right)=\\frac{\\pi}{6}$$ implies $$\\frac{x-2}{3}=\\sin\\frac{\\pi}{6}=\\frac{1}{2}.$$<br><br><b>Determination and verification</b><br>Thus, $x-2=\\frac{3}{2}$, giving $$x=\\frac{7}{2}.$$ Since $\\frac{7}{2}\\in[-1,5]$ and $\\frac{\\pi}{6}$ lies in the principal range of $\\sin^{-1}$, the value is valid.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $[-5,1]$; $x=\\frac{7}{2}$, which does not belong to the domain",
+    "B": "Domain: $[-1,5]$; $x=\\frac{5}{2}$, which belongs to the domain",
+    "C": "Domain: $[-1,5]$; $x=\\frac{1}{2}$, which belongs to the domain",
+    "D": "Domain: $[-1,5]$; $x=\\frac{7}{2}$, which belongs to the domain"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

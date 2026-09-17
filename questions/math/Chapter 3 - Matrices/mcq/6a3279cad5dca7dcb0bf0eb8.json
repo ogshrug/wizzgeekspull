@@ -1,0 +1,32 @@
+{
+  "id": "6a3279cad5dca7dcb0bf0eb8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fbf40512f018fa94d51"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A = \\begin{bmatrix} x & 0 \\\\ 1 & 1 \\end{bmatrix}$ and $B = \\begin{bmatrix} 4 & 0 \\\\ -1 & 1 \\end{bmatrix}$, then value of $x$ for which $A^2 = B$ is:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Calculate $A^2$: $A^2 = \\begin{bmatrix} x & 0 \\\\ 1 & 1 \\end{bmatrix} \\begin{bmatrix} x & 0 \\\\ 1 & 1 \\end{bmatrix} = \\begin{bmatrix} x^2+0 & 0+0 \\\\ x+1 & 0+1 \\end{bmatrix} = \\begin{bmatrix} x^2 & 0 \\\\ x+1 & 1 \\end{bmatrix}$.\n\n**Step 2:** Equate $A^2$ to $B$: $\\begin{bmatrix} x^2 & 0 \\\\ x+1 & 1 \\end{bmatrix} = \\begin{bmatrix} 4 & 0 \\\\ -1 & 1 \\end{bmatrix}$.\n\n**Step 3:** Solve the resulting equations: $x^2 = 4 \\implies x = \\pm 2$ and $x + 1 = -1 \\implies x = -2$. The common solution is $x = -2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "-2",
+    "B": "2",
+    "C": "2 or -2",
+    "D": "4"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

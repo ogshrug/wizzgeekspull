@@ -1,0 +1,31 @@
+{
+  "id": "6a3283ded5dca7dcb0bf0edc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of $\\int_0^\\pi \\tan^2(\\frac{\\theta}{3}) d\\theta$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Use the trigonometric identity $\\tan^2 x = \\sec^2 x - 1$. The integral becomes $\\int_0^\\pi (\\sec^2(\\frac{\\theta}{3}) - 1) d\\theta$.\n\n**Step 2:** Integrate each term: $\\left[ 3\\tan(\\frac{\\theta}{3}) - \\theta \\right]_0^\\pi$.\n\n**Step 3:** Substitute the upper limit: $3\\tan(\\pi/3) - \\pi = 3\\sqrt{3} - \\pi$.\n\n**Step 4:** Substitute the lower limit (which evaluates to zero). The result is $3\\sqrt{3} - \\pi$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\pi+\\sqrt{3}$",
+    "B": "$3\\sqrt{3}-\\pi$",
+    "C": "$\\sqrt{3}-\\pi$",
+    "D": "$\\pi-\\sqrt{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

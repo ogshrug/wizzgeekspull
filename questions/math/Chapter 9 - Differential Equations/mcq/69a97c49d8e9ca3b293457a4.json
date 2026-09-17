@@ -1,0 +1,29 @@
+{
+  "id": "69a97c49d8e9ca3b293457a4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\frac{dy}{dx} = y \\sin x$ and $y(0) = 2$, the particular solution is",
+  "answeroption": "D",
+  "explanation": "Separate variables: $\\frac{dy}{y} = \\sin x dx$<br />Integrate: $\\ln|y| = -\\cos x + C$<br />Apply $y(0) = 2$: $C = \\ln 2 + 1$<br />Solution: $y = 2 e^{1-\\cos x}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$2 e^{-\\cos x}$",
+    "B": "$2 e^{\\cos x}$",
+    "C": "$2 e^{-\\sin x}$",
+    "D": "$2 e^{1-\\cos x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:51:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

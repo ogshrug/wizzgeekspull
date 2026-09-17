@@ -1,0 +1,30 @@
+{
+  "id": "69aa7cb22a66c0f894c1aa1a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "Let $S$ denote the set of all points $(x, y)$ with $x, y \\geq 0$, $2x + y \\leq 12$, $x + 2y \\leq 12$.\n(a) Formulate a linear programming problem to minimize $Z = 3x + 4y$ over $S$.\n(b) Find the vertices of $S$ and determine the minimum value of $Z$.\n(c) Suppose a point is selected at random from $S$; determine and calculate the probability that $x + y > 6$.",
+  "answeroption": "A",
+  "explanation": "**Concepts being tested:** Formulation and solution of LPP, computation of region area and vertices, geometric probability for a region defined by inequalities.<br /><br />**(a)**<br />Minimize $Z = 3x + 4y$ subject to $x \\geq 0$, $y \\geq 0$, $2x + y \\leq 12$, $x + 2y \\leq 12$<br /><br />**(b)**<br />Find intersection points:<br />(0,0) (intersection of $x=0, y=0$)<br />$2x+y=12$ and x=0: $y=12$→(0,12) (but $x+2y=12 \\implies 0+2\\cdot12=24>12$, not in set, discard)<br />$x+2y=12$, $x=0$: $2y=12\\implies y=6$→(0,6)<br />$2x+y=12$, $y=0$: $2x=12\\implies x=6$→(6,0)<br />Now intersection of $2x+y=12$ and $x+2y=12$:<br />Multiply second eqn by 2:<br />$2x + 4y = 24$<br />Subtract first eqn from this:<br />($2x+4y=24$) $-$ ($2x + y=12$): $3y=12\\implies y=4$<br />Thus $2x + 4 = 12\\implies 2x=8\\implies x=4$<br />Point $(4,4)$<br />So, vertices are (0,0), (0,6), (4,4), (6,0)<br /><br />Calculate $Z$ at these points:<br />(0,0): $0$<br />(0,6): $0+24=24$<br />(4,4): $3\\cdot4 + 4\\cdot4=12+16=28$<br />(6,0): $18+0=18$<br />Wait, but this suggests $Z$ is minimal at (0,0): $Z=0$ (check feasible solution). Is (0,0) inside all constraints? Yes.<br />Thus, minimum at (0,0): $Z=0$<br /><br />**(c)**<br />Area of quadrilateral (0,0)-(0,6)-(4,4)-(6,0)<br />Area $= \\frac{1}{2}|x_1(y_2-y_4)+x_2(y_3-y_1)+x_3(y_4-y_2)+x_4(y_1-y_3)|$<br />Plug in $A(0,0), B(0,6), C(4,4), D(6,0)$<br />$\\frac{1}{2}|0(6-0)+0(4-0)+4(0-6)+6(0-4)|=\\frac{1}{2}|0+0-24-24|=\\frac{1}{2}|-48|=24$<br /><br />Now, $x+y > 6$ is above the line $x+y=6$. The region of $S$ with $x+y>6$ is a smaller polygon, vertices where $x+y=6$ intersects $x+2y=12$, $2x+y=12$:<br />$x+y=6$, $x+2y=12$: substitute $x=6-y$ into $x+2y=12$<br />$6-y+2y=12\\implies y=6\\implies x=0$ (already a vertex)<br />$x+y=6$, $2x+y=12$: $y=6-x$, $2x+6-x=12 \\implies x+6=12 \\implies x=6,\\ y=0$<br />So, region for $x+y>6$ is the triangle (6,0)-(4,4)-(0,6): area $=\\frac{1}{2}\\cdot$ base $\\cdot$ height $=\\frac{1}{2}\\cdot6\\cdot6=18$<br />So probability $=\\frac{18}{24}=\\frac{3}{4}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Minimize $Z=3x+4y$ subject to $x\\ge0$, $y\\ge0$, $2x+y\\le12$, $x+2y\\le12$<br />(b) Vertices are $(0,0),(0,6),(4,4),(6,0)$ and the minimum value is $Z=0$ at $(0,0)$<br />(c) Area of $S$ is $24$, area where $x+y>6$ is $18$, so the probability is $\\frac34$",
+    "B": "(a) Maximize $Z=3x+4y$<br />(b) Minimum value is $28$ at $(4,4)$<br />(c) Probability is $\\frac12$",
+    "C": "(a) Minimize $Z=x+y$<br />(b) Vertices are $(0,0),(12,0),(0,12)$<br />(c) Probability is $1$",
+    "D": "(a) Minimize $Z=4x+3y$<br />(b) Minimum value is $18$ at $(6,0)$<br />(c) Probability is $\\frac14$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:05:22 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a8eef704b490c7cde3594b0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97b",
+    "6a13e98f8c819562f933f97c",
+    "6a13e98f8c819562f933f97d",
+    "6a13e98f8c819562f933f97e"
+  ],
+  "question_type": "LA",
+  "question": "For the curve $xy=12$, consider the point $(3,4)$.(a) Find the slope of the tangent at the given point using implicit differentiation.(b) Obtain the equations of the tangent and normal.(c) Find the intercepts made by the tangent on the coordinate axes and hence calculate the area of the triangle formed by the tangent and the coordinate axes.",
+  "answeroption": "C",
+  "explanation": "(a)Differentiating $xy=12$ implicitly with respect to $x$,$$x\\frac{dy}{dx}+y=0$$Therefore,$$\\frac{dy}{dx}=-\\frac{y}{x}$$At $(3,4)$,$$\\left.\\frac{dy}{dx}\\right|_{(3,4)}=-\\frac{4}{3}$$Hence, the slope of the tangent is $-\\frac{4}{3}$.(b)The equation of the tangent is$$y-4=-\\frac{4}{3}(x-3)$$$$3y-12=-4x+12$$Therefore,$$4x+3y=24$$The slope of the normal is $\\frac{3}{4}$. Hence, its equation is$$y-4=\\frac{3}{4}(x-3)$$(c)For the $x$-intercept of the tangent, set $y=0$.$$4x=24$$$$x=6$$Thus, the $x$-intercept is $(6,0)$.For the $y$-intercept, set $x=0$.$$3y=24$$$$y=8$$Thus, the $y$-intercept is $(0,8)$. The area of the triangle formed with the coordinate axes is$$A=\\frac{1}{2}\\times 6\\times 8=24\\ \\text{square units}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Slope $-\\frac{3}{4}$<br>(b) Tangent $3x+4y=25$; normal slope $\\frac{4}{3}$<br>(c) Intercepts $(\\frac{25}{3},0)$ and $(0,\\frac{25}{4})$; area $\\frac{625}{24}$",
+    "B": "(a) Slope $\\frac{4}{3}$<br>(b) Tangent $4x-3y=0$; normal slope $-\\frac{3}{4}$<br>(c) Area $12$ square units",
+    "C": "(a) Slope $-\\frac{4}{3}$<br>(b) Tangent $4x+3y=24$; normal $y-4=\\frac{3}{4}(x-3)$<br>(c) Intercepts $(6,0)$ and $(0,8)$; area $24$ square units",
+    "D": "(a) Slope $-\\frac{4}{3}$<br>(b) Tangent $4x+3y=12$; normal $y-4=-\\frac{3}{4}(x-3)$<br>(c) Intercepts $(3,0)$ and $(0,4)$; area $6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

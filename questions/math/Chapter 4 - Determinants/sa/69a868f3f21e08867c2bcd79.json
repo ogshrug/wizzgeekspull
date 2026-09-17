@@ -1,0 +1,30 @@
+{
+  "id": "69a868f3f21e08867c2bcd79",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "SA",
+  "question": "If $A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & k \\end{bmatrix}$ and $|A| = 0$, find the value of $k$ by expanding the determinant and verify the result using properties of determinants.",
+  "answeroption": "C",
+  "explanation": "Let $D = \\begin{vmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & k \\end{vmatrix}$<br /><br />Step 1: Expand along the first row:<br /><br />$D = 1 \\cdot \\begin{vmatrix} 5 & 6 \\\\ 8 & k \\end{vmatrix}- 2 \\cdot \\begin{vmatrix} 4 & 6 \\\\ 7 & k \\end{vmatrix} + 3 \\cdot \\begin{vmatrix} 4 & 5 \\\\ 7 & 8 \\end{vmatrix}$<br /><br />Step 2: Calculate $2 \\times 2$ minors:<br /><br />First: $(5k - 6 \\times 8) = 5k - 48$<br /><br />Second: $(4k - 6 \\times 7) = 4k - 42$<br /><br />Third: $(4 \\times 8 - 5 \\times 7) = 32 - 35 = -3$<br /><br />Step 3: Substitute and expand:<br /><br />$D = 1(5k - 48) - 2(4k - 42) + 3(-3)$<br /><br />$= 5k - 48 - 8k + 84 - 9$<br /><br />$= -3k + 27$<br /><br />Step 4: Set $D = 0$ and solve for $k$:<br /><br />$-3k + 27 = 0 \\implies k = 9$<br /><br />Step 5: Check determinant property: if $k = 9$, then $A$'s rows are linearly dependent.<br /><br />Indeed, $R_3 - 2R_2 + R_1 = [7 - 8 + 1, 8 - 10 + 2, 9 - 12 + 3] = [0,0,0]$<br /><br />Therefore, the rows are linearly dependent for $k = 9$.<br /><br />Final Answer: $k = 9$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=6$",
+    "B": "$k=8$",
+    "C": "$k=9$",
+    "D": "$k=12$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:16:35 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

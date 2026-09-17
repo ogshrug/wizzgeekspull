@@ -1,0 +1,29 @@
+{
+  "id": "6a8d7580883bbce68009f8e6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Show that $$\\tan^{-1}\\left(\\frac{1}{4}\\right)+\\tan^{-1}\\left(\\frac{2}{9}\\right)=\\tan^{-1}\\left(\\frac{1}{2}\\right).$$",
+  "answeroption": "A",
+  "explanation": "<b>Inverse tangent addition property</b><br>For positive $a$ and $b$ satisfying $ab<1$, $$\\tan^{-1}a+\\tan^{-1}b=\\tan^{-1}\\left(\\frac{a+b}{1-ab}\\right).$$<br><br><b>Substitution of the given values</b><br>Taking $a=\\frac{1}{4}$ and $b=\\frac{2}{9}$, we obtain $$\\tan^{-1}\\left(\\frac{1}{4}\\right)+\\tan^{-1}\\left(\\frac{2}{9}\\right)=\\tan^{-1}\\left(\\frac{\\frac{1}{4}+\\frac{2}{9}}{1-\\frac{1}{4}\\times\\frac{2}{9}}\\right).$$<br><br><b>Simplification of the fraction</b><br>The numerator is $\\frac{17}{36}$, while the denominator is $$1-\\frac{1}{18}=\\frac{17}{18}.$$ Therefore, $$\\frac{\\frac{17}{36}}{\\frac{17}{18}}=\\frac{1}{2}.$$<br><br><b>Principal range verification</b><br>Both terms are positive and their sum lies in $\\left(0,\\frac{\\pi}{2}\\right)$, so no adjustment by $\\pi$ is required.<br><br><b>Established result</b><br>Hence, $$\\tan^{-1}\\left(\\frac{1}{4}\\right)+\\tan^{-1}\\left(\\frac{2}{9}\\right)=\\tan^{-1}\\left(\\frac{1}{2}\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan^{-1}\\left(\\frac{1}{2}\\right)$",
+    "B": "$\\tan^{-1}\\left(\\frac{17}{36}\\right)$",
+    "C": "$\\tan^{-1}\\left(\\frac{17}{18}\\right)$",
+    "D": "$\\tan^{-1}\\left(\\frac{17}{34}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

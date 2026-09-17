@@ -1,0 +1,33 @@
+{
+  "id": "6a266f17864be73cfcf6d395",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int e^{5\\log x}dx$ is equal to:",
+  "answeroption": "b",
+  "explanation": "**Step 1:** Simplify the integrand before integrating by using logarithm properties. Move the coefficient 5 into the exponent inside the log: $5\\log x = \\log(x^5)$. The integrand becomes $e^{\\log(x^5)}$.<br />**Step 2:** Since the exponential base $e$ and natural logarithm are inverse functions, they cancel each other out completely: $e^{\\log(x^5)} = x^5$. The integration problem reduces to a simple power rule form: $\\int x^5 dx$.<br />**Step 3:** Apply the standard power rule of integration, $\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$. For $n=5$, we get $\\frac{x^6}{6} + C$. This matches option (b).",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x^{5}}{5}+C$",
+    "B": "$\\frac{x^{6}}{6}+C$",
+    "C": "$5x^{4}+C$",
+    "D": "$6x^{5}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

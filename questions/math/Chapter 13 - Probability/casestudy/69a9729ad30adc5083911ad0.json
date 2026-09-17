@@ -1,0 +1,30 @@
+{
+  "id": "69a9729ad30adc5083911ad0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 9: Student Exam Questions**  \nA student must answer 4 questions in an exam. Out of 10, 6 are easy and 4 are difficult. The student chooses 4 at random.  \n(a) What is the probability all selected questions are easy?  \n(b) Probability that at least one easy and one difficult question will be selected?  \n(c) If the student found all his questions difficult, what's the probability he chose only from the difficult ones?",
+  "answeroption": "A",
+  "explanation": "Total ways: $\\binom{10}{4}$<br /><br />(a) All 4 easy: $\\binom{6}{4} = 15$<br />So, Probability: $\\frac{15}{210} = \\frac{1}{14}$<br /><br />(b) At least 1 easy and 1 difficult:<br />Ways with all easy: as above, 15<br />All difficult: $\\binom{4}{4}=1$<br />So, desired = total - all easy - all difficult = $210-15-1=194$<br />Probability: $\\frac{194}{210}=\\frac{97}{105}$<br /><br />(c) If all selected qns are difficult, this is one way out of all possible sets of 4:<br />Probability: $\\frac{1}{210}$<br /><br />**Final answers:**<br />(a) $\\frac{1}{14}$<br />(b) $\\frac{97}{105}$<br />(c) $\\frac{1}{210}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{1}{14}$<br />(b) $\\frac{97}{105}$<br />(c) $1$",
+    "B": "(a) $\\frac{1}{14}$<br />(b) $\\frac{97}{105}$<br />(c) $\\frac{1}{210}$",
+    "C": "(a) $\\frac{15}{210}$<br />(b) $\\frac{194}{210}$<br />(c) $\\frac{4}{10}$",
+    "D": "(a) $\\frac{97}{105}$<br />(b) $\\frac{1}{14}$<br />(c) $1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:10:02 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

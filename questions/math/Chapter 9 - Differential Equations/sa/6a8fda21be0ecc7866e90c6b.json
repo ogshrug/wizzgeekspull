@@ -1,0 +1,29 @@
+{
+  "id": "6a8fda21be0ecc7866e90c6b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "SA",
+  "question": "Consider the equation $$\\frac{dx}{dy}-\\frac{x}{y}=2y,\\quad y\\neq0.$$ Show that it is a first-order linear differential equation when $x$ is regarded as the dependent variable. Identify the corresponding coefficient functions.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Identify the dependent and independent variables</b><br>The derivative present is $\\frac{dx}{dy}$. Therefore, $x$ is treated as the dependent variable and $y$ as the independent variable.<br><b>Step 2: Compare with the linear form</b><br>A first-order linear equation in $x$ can be expressed as $$\\frac{dx}{dy}+P_1(y)x=Q_1(y).$$<br><b>Step 3: Rewrite the given equation</b><br>The equation is already in the form $$\\frac{dx}{dy}+\\left(-\\frac{1}{y}\\right)x=2y.$$<br><b>Step 4: Identify the coefficient functions</b><br>Thus, $$P_1(y)=-\\frac{1}{y}$$ and $$Q_1(y)=2y.$$ Both are functions of the independent variable $y$ only.<br><b>Step 5: Conclusion</b><br>Hence, the given equation is a first-order linear differential equation in $x$ with respect to $y$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x$ is independent and $y$ is dependent; $P_1(y)=\\frac{1}{y}$, $Q_1(y)=2y$.",
+    "B": "$x$ is dependent and $y$ is independent; $P_1(y)=\\frac{1}{y}$, $Q_1(y)=-2y$.",
+    "C": "$x$ is dependent and $y$ is independent; $P_1(y)=-\\frac{1}{y}$, $Q_1(y)=2y$.",
+    "D": "$x$ is independent and $y$ is dependent; $P_1(y)=-\\frac{1}{y}$, $Q_1(y)=2y$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

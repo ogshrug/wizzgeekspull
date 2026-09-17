@@ -1,0 +1,31 @@
+{
+  "id": "6a339ad2d5dca7dcb0bf0f21",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "MCQ",
+  "question": "A relation $R$ defined on set $A=\\{x:x\\in Z \\text{ and } 0\\le x\\le10\\}$ as $R=\\{(x,y):x=y\\}$ is given to be an equivalence relation. The number of equivalence classes is :",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Determine the elements in set A: $A = \\{0, 1, 2, ..., 10\\}$, which contains $11$ elements.\n\n**Step 2:** Analyze the relation $R = \\{(x,y) : x = y\\}$. This means each element is only related to itself.\n\n**Step 3:** The equivalence class for any element $x$ is defined as $[x] = \\{y \\in A : (x,y) \\in R\\}$. Since $(x,y) \\in R$ only when $x=y$, $[x] = \\{x\\}$.\n\n**Step 4:** Because there are $11$ distinct elements and each forms its own unique equivalence class, there are exactly $11$ equivalence classes.",
+  "explanation_image": [],
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "10",
+    "D": "11"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

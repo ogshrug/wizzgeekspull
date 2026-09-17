@@ -1,0 +1,32 @@
+{
+  "id": "69a95dadd30adc5083911a6c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d76",
+    "69c6603640512f018fa94d68",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "LA",
+  "question": "A chemical manufacturing process is modeled by the system: <br /><br /> $x + y + z = 6$ <br /> $2x + 3y + 2z = 15$ <br /> $4x + 7y + 5z = 32$ <br /><br /> (a) Is the coefficient matrix singular? How does this affect the solution? <br /> (b) Solve for $x, y, z$ using the matrix method and explain each step in terms of row operations and invertibility. <br /> (c) Interpret your findings in the context of resource allocation in a chemical plant.",
+  "answeroption": "B",
+  "explanation": "(a) The coefficient matrix is <br /> $A = \\begin{bmatrix}1 & 1 & 1 \\\\ 2 & 3 & 2 \\\\ 4 & 7 & 5\\end{bmatrix}$ <br /> Let us find the determinant: <br /> $|A| = 1\\begin{vmatrix}3 & 2 \\\\ 7 & 5\\end{vmatrix} - 1\\begin{vmatrix}2 & 2 \\\\ 4 & 5\\end{vmatrix} + 1\\begin{vmatrix}2 & 3 \\\\ 4 & 7\\end{vmatrix}$ <br /> $= 1(3\\cdot5 - 2\\cdot7) - 1(2\\cdot5 - 2\\cdot4) + 1(2\\cdot7 - 3\\cdot4)$ <br /> $= 1(15-14) - 1(10-8) + 1(14-12)$ <br /> $= 1(1) - 1(2) + 1(2) = 1 - 2 + 2 = 1$ <br /> Since $|A| = 1 \\ne 0$, matrix $A$ is non-singular. A unique solution exists. <br /><br /> (b) System in matrix form: <br /> $AX = B$ where $X = \\begin{bmatrix}x \\\\ y \\\\ z\\end{bmatrix}$, $B = \\begin{bmatrix}6 \\\\ 15 \\\\ 32\\end{bmatrix}$. <br /> Compute $A^{-1}$: <br /> Calculate the matrix of cofactors: <br /> First row: <br /> $A_{11} = +(3\\cdot5 - 2\\cdot7) = 15-14 = 1$ <br /> $A_{12} = -(2\\cdot5-2\\cdot4) = -(10-8) = -2$ <br /> $A_{13} = +(2\\cdot7-3\\cdot4) = 14-12=2$ <br /> Second row: <br /> $A_{21} = -(1\\cdot5-1\\cdot7) = -(5-7)=2$ <br /> $A_{22} = +(1\\cdot5-1\\cdot4) = 5-4=1$ <br /> $A_{23} = -(1\\cdot7-1\\cdot4) = -(7-4)=-3$ <br /> Third row: <br /> $A_{31} = +(1\\cdot2-1\\cdot3) = 2-3 = -1$ <br /> $A_{32} = -(1\\cdot2-1\\cdot2) = -(2-2)=0$ <br /> $A_{33} = +(1\\cdot3-1\\cdot2) = 3-2=1$ <br /> Cofactor matrix: <br /> $\\begin{bmatrix} 1 & -2 & 2 \\\\ 2 & 1 & -3 \\\\ -1 & 0 & 1 \\end{bmatrix}$ <br /> Adjoint (transpose): <br /> $\\operatorname{adj}A = \\begin{bmatrix}1&2&-1\\\\ -2&1&0\\\\ 2&-3&1\\end{bmatrix}$ <br /> Thus, <br /> $A^{-1} = \\operatorname{adj}A / |A| = \\operatorname{adj}A$ <br /> So, <br /> $X = A^{-1}B = \\begin{bmatrix}1&2&-1\\\\ -2&1&0\\\\ 2&-3&1\\end{bmatrix}\\begin{bmatrix}6\\\\15\\\\32\\end{bmatrix}$ <br /> First row: $1\\cdot6 + 2\\cdot15 + -1\\cdot32 = 6+30-32=4$ <br /> Second: $-2\\cdot6 + 1\\cdot15 + 0\\cdot32 = -12+15=3$ <br /> Third: $2\\cdot6 + (-3)\\cdot15 + 1\\cdot32 = 12-45+32 = -1$ <br /> $X = \\begin{bmatrix}4 \\\\ 3 \\\\ -1\\end{bmatrix}$ <br /> So $x=4, y=3, z=-1$. <br /><br /> (c) Each variable corresponds to a type of resource, and the unique solution means each amount can be specifically allocated. The process can be precisely controlled and resources distributed without redundancy or ambiguity.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=0$, so the coefficient matrix is singular and the system has infinitely many solutions.<br />(b) The values are $x=4, y=3, z=-1$.<br />(c) The allocation is not unique, so many resource distributions are possible.",
+    "B": "(a) $|A|=1\\ne0$, so the coefficient matrix is non-singular and the system has a unique solution.<br />(b) Using $X=A^{-1}B$, the solution is $x=4, y=3, z=-1$.<br />(c) The unique solution means each resource quantity is fixed, so the plant can allocate resources without ambiguity.",
+    "C": "(a) $|A|=1\\ne0$, so the coefficient matrix is non-singular and the system has a unique solution.<br />(b) Using $X=A^{-1}B$, the solution is $x=-4, y=-3, z=1$.<br />(c) The negative values show the process is impossible and no allocation can be made.",
+    "D": "(a) $|A|=-1\\ne0$, so the coefficient matrix is singular and the system has no solution.<br />(b) Since $A^{-1}$ does not exist, $x,y,z$ cannot be found.<br />(c) The chemical plant cannot determine any resource allocation."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:40:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e97584b490c7cde3593fe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6c"
+  ],
+  "question_type": "SA",
+  "question": "For $A=\\begin{bmatrix}1&2&3\\\\0&4&5\\\\1&0&6\\end{bmatrix}$, calculate $M_{11}$, $M_{12}$ and $M_{13}$. Hence, find $M_{11}+M_{12}+M_{13}$.",
+  "answeroption": "B",
+  "explanation": "<b>Minor corresponding to $a_{11}$</b><br>Deleting the first row and first column, $$M_{11}=\\begin{vmatrix}4&5\\\\0&6\\end{vmatrix}=24$$<br><b>Minor corresponding to $a_{12}$</b><br>Deleting the first row and second column, $$M_{12}=\\begin{vmatrix}0&5\\\\1&6\\end{vmatrix}=0-5=-5$$<br><b>Minor corresponding to $a_{13}$</b><br>Deleting the first row and third column, $$M_{13}=\\begin{vmatrix}0&4\\\\1&0\\end{vmatrix}=0-4=-4$$<br><b>Sum of the required minors</b><br>Therefore, $$M_{11}+M_{12}+M_{13}=24-5-4=15$$<br>Hence, the required sum is $15$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$M_{11}=24$, $M_{12}=5$, $M_{13}=-4$; sum $=25$",
+    "B": "$M_{11}=24$, $M_{12}=-5$, $M_{13}=-4$; sum $=15$",
+    "C": "$M_{11}=24$, $M_{12}=-5$, $M_{13}=4$; sum $=23$",
+    "D": "$M_{11}=20$, $M_{12}=-5$, $M_{13}=-4$; sum $=11$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

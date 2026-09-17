@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed99b751910886affb9e3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "SA",
+  "question": "The revenue from selling $x$ items is $R(x)=80x-x^2$ rupees, while the production cost is $C(x)=20x+100$ rupees. Find the number of items that maximises the profit and calculate the maximum profit.",
+  "answeroption": "B",
+  "explanation": "<b>Profit function</b><br>Profit equals revenue minus cost:<br>$$P(x)=R(x)-C(x)$$<br>$$P(x)=80x-x^2-(20x+100)$$<br>$$P(x)=-x^2+60x-100$$<br><b>Stationary condition</b><br>$$P'(x)=-2x+60$$<br>Setting $P'(x)=0$ gives $x=30$.<br><b>Maximum verification</b><br>$$P''(x)=-2<0$$<br>Therefore, the profit is maximum at $x=30$.<br><b>Maximum profit</b><br>$$P(30)=-(30)^2+60(30)-100$$<br>$$=-900+1800-100=800$$<br><b>Conclusion</b><br>The profit is maximum when $30$ items are sold, and the maximum profit is ₹$800$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$20$ items; maximum profit ₹$700$",
+    "B": "$30$ items; maximum profit ₹$800$",
+    "C": "$40$ items; maximum profit ₹$700$",
+    "D": "$30$ items; maximum profit ₹$900$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

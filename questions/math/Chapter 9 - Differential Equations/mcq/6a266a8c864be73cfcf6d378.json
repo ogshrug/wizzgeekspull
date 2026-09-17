@@ -1,0 +1,34 @@
+{
+  "id": "6a266a8c864be73cfcf6d378",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "MCQ",
+  "question": "The integrating factor for solving the differential equation $x\\frac{dy}{dx}-y=2x^{2}$ is:",
+  "answeroption": "d",
+  "explanation": "**Step 1:** Convert the given differential equation into standard linear form. Divide the entire equation $x\\frac{dy}{dx}-y=2x^{2}$ by $x$, assuming $x \\neq 0$: $\\frac{dy}{dx} - \\frac{1}{x}y = 2x$.<br />**Step 2:** This matches the standard first-order linear differential equation format $\\frac{dy}{dx} + P(x)y = Q(x)$, where the coefficient function is $P(x) = -\\frac{1}{x}$.<br />**Step 3:** The integrating factor ($IF$) is calculated using the formula $IF = e^{\\int P(x) dx}$. Substituting our value gives: $IF = e^{\\int -\\frac{1}{x} dx} = e^{-\\log|x|} = e^{\\log(x^{-1})} = \\frac{1}{x}$. This matches option (d).",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^{-y}$",
+    "B": "$e^{-x}$",
+    "C": "$x$",
+    "D": "$\\frac{1}{x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

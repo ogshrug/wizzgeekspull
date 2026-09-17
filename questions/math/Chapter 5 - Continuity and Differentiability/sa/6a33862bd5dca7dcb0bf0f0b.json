@@ -1,0 +1,26 @@
+{
+  "id": "6a33862bd5dca7dcb0bf0f0b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "SA",
+  "question": "If $y = \\sin(\\tan^{-1} e^x)$, then find $\\frac{dy}{dx}$ at $x = 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Execute chain differentiation steps continuously upon the multi-layer expression $y = \\sin(\\tan^{-1} e^x)$: $\\frac{dy}{dx} = \\cos(\\tan^{-1} e^x) \\cdot \\frac{d}{dx}(\\tan^{-1} e^x)$.\n\n**Step 2:** Develop the mid-layer term derivative associated with tangent properties: $\\frac{dy}{dx} = \\cos(\\tan^{-1} e^x) \\cdot \\frac{1}{1 + (e^x)^2} \\cdot \\frac{d}{dx}(e^x)$.\n\n**Step 3:** Clear out the inner term: $\\frac{dy}{dx} = \\frac{e^x \\cos(\\tan^{-1} e^x)}{1 + e^{2x}}$.\n\n**Step 4:** Limit the evaluation domain to position $x = 0$, giving $e^0 = 1$: $\\frac{dy}{dx}\\big|_{x=0} = \\frac{1 \\cdot \\cos(\\tan^{-1} 1)}{1 + 1^2}$.\n\n**Step 5:** Insert standard angle definitions $\\tan^{-1} 1 = \\frac{\\pi}{4}$ and $\\cos(\\frac{\\pi}{4}) = \\frac{1}{\\sqrt{2}}$, bringing the finalized result to $\\frac{1/\\sqrt{2}}{2} = \\frac{1}{2\\sqrt{2}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

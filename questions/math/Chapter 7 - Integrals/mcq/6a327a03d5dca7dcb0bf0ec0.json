@@ -1,0 +1,31 @@
+{
+  "id": "6a327a03d5dca7dcb0bf0ec0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of $\\int_{\\pi/4}^{\\pi/2} \\cot\\theta \\csc^2\\theta d\\theta$ is:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Use integration by substitution. Let $u = \\cot\\theta$. Then $du = -\\csc^2\\theta d\\theta \\implies -du = \\csc^2\\theta d\\theta$.\n\n**Step 2:** Determine the new limits of integration: When $\\theta = \\frac{\\pi}{4}$, $u = \\cot\\left(\\frac{\\pi}{4}\\right) = 1$. When $\\theta = \\frac{\\pi}{2}$, $u = \\cot\\left(\\frac{\\pi}{2}\\right) = 0$.\n\n**Step 3:** Evaluate the definite integral: $\\int_1^0 u (-du) = \\int_0^1 u du = \\left[\\frac{u^2}{2}\\right]_0^1 = \\frac{1}{2} - 0 = \\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}$",
+    "B": "$-\\frac{1}{2}$",
+    "C": "0",
+    "D": "$-\\frac{\\pi}{8}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a22793d864be73cfcf6d1f5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Camphor is a waxy, colourless solid with strong aroma that evaporates through the process of sublimation, if left in the open at room temperature. A cylindrical camphor tablet whose height is equal to its radius ($r$) evaporates when exposed to air such that the rate of reduction of its volume is proportional to its total surface area. Thus, $\\frac{dV}{dt}=kS$ is the differential equation, where $V$ is the volume, $S$ is the surface area and $t$ is the time in hours. Based upon the above information, answer the following questions :<br /><br />**(i)** Write the order and degree of the given differential equation.<br />**(ii)** Substituting $V=\\pi r^{3}$ and $S=2\\pi r^{2}$, we get the differential equation $\\frac{dr}{dt}=\\frac{2}{3}k$. Solve it, given that $r(0) = 5\\text{ mm}$.<br />**(iii) (a)** If it is given that $r=3\\text{ mm}$ when $t=1$ hour, find the value of $k$. Hence, find $t$ for $r=0\\text{ mm}$.<br />OR<br />**(iii) (b)** If it is given that $r=1\\text{ mm}$ when $t=1$ hour, find the value of $k$. Hence, find $t$ for $r=0\\text{ mm}$.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The differential equation is $\\frac{dV}{dt} = kS$. The highest derivative is $\\frac{dV}{dt}$, making the order 1. The power of this highest derivative is 1, making the degree 1.<br /><br />**(ii)** **Step 1:** We must solve $\\frac{dr}{dt} = \\frac{2}{3}k$. Separate variables: $dr = \\frac{2}{3}k \\, dt$.<br />**Step 2:** Integrate both sides: $\\int dr = \\int \\frac{2}{3}k \\, dt \\implies r = \\frac{2}{3}kt + C$.<br />**Step 3:** Use the initial condition $r=5$ when $t=0$: $5 = \\frac{2}{3}k(0) + C \\implies C = 5$. The solution is $r = \\frac{2}{3}kt + 5$.<br /><br />**(iii) (a)** **Step 1:** Use the general solution $r = \\frac{2}{3}kt + 5$. We are given $r=3$ when $t=1$.<br />**Step 2:** Substitute to find $k$: $3 = \\frac{2}{3}k(1) + 5 \\implies -2 = \\frac{2}{3}k \\implies k = -3$.<br />**Step 3:** The specific equation becomes $r = \\frac{2}{3}(-3)t + 5 = -2t + 5$.<br />**Step 4:** Find $t$ when $r=0$: $0 = -2t + 5 \\implies 2t = 5 \\implies t = 2.5$ hours.<br /><br />**(iii) (b)** **Step 1:** Use $r = \\frac{2}{3}kt + 5$. We are given $r=1$ when $t=1$.<br />**Step 2:** Substitute to find $k$: $1 = \\frac{2}{3}k(1) + 5 \\implies -4 = \\frac{2}{3}k \\implies k = -6$.<br />**Step 3:** The specific equation becomes $r = \\frac{2}{3}(-6)t + 5 = -4t + 5$.<br />**Step 4:** Find $t$ when $r=0$: $0 = -4t + 5 \\implies 4t = 5 \\implies t = 1.25$ hours.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22793d864be73cfcf6d1f5/1782197613-0.png?t=1782217414187"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

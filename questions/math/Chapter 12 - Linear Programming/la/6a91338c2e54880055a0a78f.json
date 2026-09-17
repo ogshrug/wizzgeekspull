@@ -1,0 +1,35 @@
+{
+  "id": "6a91338c2e54880055a0a78f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "A linear programming problem has the constraints $x+y\\le5$, $2x+y\\le8$, $x\\ge0$ and $y\\ge0$. Its objective function is $Z=ax+by$, where $a$ and $b$ are positive constants. It is known that the value of $Z$ at the feasible points $(4,0)$ and $(0,5)$ is $20$ and $15$ respectively. Determine the objective function and hence solve the problem graphically to find its maximum value and optimal feasible solution.",
+  "answeroption": "A",
+  "explanation": "<b>Determination of the Objective Function</b><br>At $(4,0)$, the given value $Z=20$ gives $4a=20$, so $a=5$. At $(0,5)$, the given value $Z=15$ gives $5b=15$, so $b=3$. Therefore, the objective function is $$Z=5x+3y.$$<br><br><b>Feasible Solutions at the Corner Points</b><br>The line $x+y=5$ meets the axes at $(5,0)$ and $(0,5)$, while $2x+y=8$ meets them at $(4,0)$ and $(0,8)$. Their common region in the first quadrant is bounded. Solving $x+y=5$ and $2x+y=8$, subtraction gives $x=3$ and hence $y=2$. Thus the corner points, each of which is a feasible solution, are $(0,0)$, $(4,0)$, $(3,2)$ and $(0,5)$.<br><br><b>Optimization</b><br>The values of $Z=5x+3y$ are $Z(0,0)=0$, $Z(4,0)=20$, $Z(3,2)=15+6=21$ and $Z(0,5)=15$. The greatest of these values is $21$.<br><br><b>Final Result</b><br>The objective function is $Z=5x+3y$. Its maximum value is $21$, attained at the optimal feasible solution $(3,2)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$Z=5x+3y$; maximum value $21$ at the optimal feasible solution $(3,2)$",
+    "B": "$Z=4x+3y$; maximum value $20$ at $(4,0)$",
+    "C": "$Z=5x+5y$; maximum value $25$ at $(0,5)$",
+    "D": "$Z=3x+5y$; maximum value $25$ at $(0,5)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

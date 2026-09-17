@@ -1,0 +1,29 @@
+{
+  "id": "6a8e77014b490c7cde3593b6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics class studies two transformations on real numbers. The first function $f:\\mathbb{R}\\to\\mathbb{R}$ is defined by $f(x)=2x+1$, while the second function $g:\\mathbb{R}\\to\\mathbb{R}$ is defined by $g(x)=x^2$. Students apply the functions successively and observe that applying $f$ first and then $g$ need not give the same result as applying $g$ first and then $f$. They use the definitions $gof(x)=g(f(x))$ and $fog(x)=f(g(x))$ to examine how the order of composition affects the resulting function.<br><br><b>(a)</b> Find $f(2)$ and $g(5)$.<br><br><b>(b)</b> Determine $gof(x)$ for an arbitrary real number $x$.<br><br><b>(c)</b> Determine $fog(x)$ and calculate $gof(1)$ and $fog(1)$.<br><br><b>(d)</b> Compare $gof$ and $fog$ and justify whether composition is commutative for these two functions.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>Using $f(x)=2x+1$, we get $f(2)=2(2)+1=5$. Using $g(x)=x^2$, we get $g(5)=5^2=25$.<br><br><b>(b)</b><br>By definition, $gof(x)=g(f(x))$. Therefore, $gof(x)=g(2x+1)=(2x+1)^2=4x^2+4x+1$. Hence, $gof(x)=4x^2+4x+1$.<br><br><b>(c)</b><br>By definition, $fog(x)=f(g(x))=f(x^2)=2x^2+1$. Therefore, $fog(x)=2x^2+1$. At $x=1$, $gof(1)=4+4+1=9$, while $fog(1)=2+1=3$.<br><br><b>(d)</b><br>We have $gof(x)=4x^2+4x+1$ and $fog(x)=2x^2+1$. These functions are not equal. In particular, $gof(1)=9$ whereas $fog(1)=3$. Therefore, $gof\\neq fog$, showing that composition of these two functions is not commutative.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(2)=5$ and $g(5)=25$; $gof(x)=2x^2+1$ and $fog(x)=4x^2+4x+1$, with $gof(1)=3$ and $fog(1)=9$. Hence, $gof=fog$.",
+    "B": "$f(2)=4$ and $g(5)=10$; $gof(x)=4x^2+1$ and $fog(x)=2x^2+1$, so composition is commutative.",
+    "C": "$f(2)=5$ and $g(5)=25$; $gof(x)=4x^2+4x+1$ and $fog(x)=2x^2+1$, with $gof(1)=fog(1)=9$. Hence, composition is commutative.",
+    "D": "$f(2)=5$ and $g(5)=25$; $gof(x)=4x^2+4x+1$ and $fog(x)=2x^2+1$, with $gof(1)=9$ and $fog(1)=3$. Hence, $gof\\neq fog$, so composition is not commutative."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

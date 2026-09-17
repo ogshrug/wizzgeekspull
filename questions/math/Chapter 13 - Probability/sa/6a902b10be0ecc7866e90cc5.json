@@ -1,0 +1,29 @@
+{
+  "id": "6a902b10be0ecc7866e90cc5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "SA",
+  "question": "Three bags $B_1$, $B_2$ and $B_3$ are equally likely to be selected. Bag $B_1$ contains $2$ red and $3$ black balls, $B_2$ contains $4$ red and $1$ black ball, and $B_3$ contains $3$ red and $2$ black balls. A bag is selected and one ball drawn from it is found to be red. Find the probability that the selected bag was $B_2$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Identification of events</b><br>Let $R$ denote the event that the ball drawn is red. Since each bag is equally likely to be selected, $$P(B_1)=P(B_2)=P(B_3)=\\frac13.$$<br><b>Step 2: Conditional probabilities of drawing a red ball</b><br>From the compositions of the bags, $$P(R|B_1)=\\frac25,\\quad P(R|B_2)=\\frac45,\\quad P(R|B_3)=\\frac35.$$<br><b>Step 3: Application of Bayes’ theorem</b><br>$$P(B_2|R)=\\frac{P(B_2)P(R|B_2)}{P(B_1)P(R|B_1)+P(B_2)P(R|B_2)+P(B_3)P(R|B_3)}.$$<br><b>Step 4: Substitution and simplification</b><br>$$P(B_2|R)=\\frac{\\frac13\\times\\frac45}{\\frac13\\times\\frac25+\\frac13\\times\\frac45+\\frac13\\times\\frac35}=\\frac{4}{2+4+3}=\\frac49.$$<br><b>Step 5: Conclusion</b><br>Therefore, the required probability is $$\\boxed{\\frac49}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{4}{9}$",
+    "B": "$\\frac{3}{5}$",
+    "C": "$\\frac{8}{15}$",
+    "D": "$\\frac{2}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

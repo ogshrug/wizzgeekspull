@@ -1,0 +1,28 @@
+{
+  "id": "6a2160f9864be73cfcf6d145",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "LA",
+  "question": "Find the differential of $x^{\\cot x} + \\frac{2x^2-3}{2x^2-x+2}$ with respect to x.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $y = u + v$, where $u = x^{\\cot x}$ and $v = \\frac{2x^2-3}{2x^2-x+2}$. We need $\\frac{dy}{dx} = \\frac{du}{dx} + \\frac{dv}{dx}$.<br />**Step 2:** For $u$, take log: $\\log u = \\cot x \\log x$. Differentiate: $\\frac{1}{u}\\frac{du}{dx} = -\\text{cosec}^2x \\log x + \\frac{\\cot x}{x}$. So $\\frac{du}{dx} = x^{\\cot x}(-\\text{cosec}^2x \\log x + \\frac{\\cot x}{x})$.<br />**Step 3:** For $v$, apply quotient rule: $\\frac{dv}{dx} = \\frac{(4x)(2x^2-x+2) - (2x^2-3)(4x-1)}{(2x^2-x+2)^2}$.<br />**Step 4:** Simplify the numerator of $\\frac{dv}{dx}$: $8x^3 - 4x^2 + 8x - (8x^3 - 2x^2 - 12x + 3) = -2x^2 + 20x - 3$.<br />**Step 5:** Combine the derivatives: $\\frac{dy}{dx} = x^{\\cot x}(-\\text{cosec}^2x \\log x + \\frac{\\cot x}{x}) + \\frac{-2x^2 + 20x - 3}{(2x^2-x+2)^2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

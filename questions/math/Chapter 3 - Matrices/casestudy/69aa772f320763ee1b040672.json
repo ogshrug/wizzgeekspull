@@ -1,0 +1,31 @@
+{
+  "id": "69aa772f320763ee1b040672",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5d",
+    "69c65fbf40512f018fa94d54",
+    "69c65fbf40512f018fa94d52"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A logistics firm has a partnership with two vendors for the delivery of three items X, Y, Z. Given the following matrices for number of deliveries in January ($D_1$) and February ($D_2$):<br /><br />$D_1 = \\begin{bmatrix}60 & 45 & 55 \\\\ 80 & 60 & 65\\end{bmatrix}$<br /><br />$D_2 = \\begin{bmatrix}70 & 50 & 60 \\\\ 90 & 75 & 80\\end{bmatrix}$<br /><br />Rows: Vendor 1 and Vendor 2. Columns: Items X, Y, Z.<br /><br />(i) Compute the month-on-month percentage growth delivery matrix.<br /><br />(ii) If in March, each vendor delivers items such that deliveries form an identity matrix (explain your answer and why or why not this is possible).<br /><br />(iii) For February, what is the scalar multiplication needed to make the maximum value of $D_2$ equal to 100?<br /><br />(iv) Is $D_2$ a diagonal, scalar, or identity matrix? Justify.<br /><br />(v) Find $D_2'$ and state the relation between $D_2'$ and $D_2$ regarding symmetry.",
+  "answeroption": "C",
+  "explanation": "(i) Percentage growth: $\\frac{D_2 - D_1}{D_1} \\times 100$<br /><br />First row: $(70-60)/60 \\times 100 = 16.67$, $(50-45)/45 \\times 100 = 11.11$, $(60-55)/55 \\times 100 = 9.09$<br /><br />Second row: $(90-80)/80 \\times 100 = 12.5$, $(75-60)/60 \\times 100 = 25$, $(80-65)/65 \\times 100 = 23.08$<br /><br />So, $\\begin{bmatrix}16.67 & 11.11 & 9.09 \\\\ 12.5 & 25 & 23.08\\end{bmatrix}$<br /><br />(ii) Deliveries as identity matrix:<br /><br />Identity matrix for $2\\times2$ is $\\begin{bmatrix}1 & 0 \\\\ 0 & 1\\end{bmatrix}$; for $D_1$ and $D_2$ ($2\\times3$), not possible as identity matrix is only defined for square matrices.<br /><br />(iii) Maximum of $D_2$ is 90. To make it 100: Multiply by $k$ such that $k\\times90=100 \\implies k=\\frac{100}{90}=1.11$<br /><br />(iv) $D_2$ is not diagonal (diagonal elements only are not all other elements zero), not scalar (diagonal and equal elements), not identity (ones on diagonal, zero elsewhere). It is a general matrix.<br /><br />(v) $D_2' = \\begin{bmatrix}70 & 90 \\\\ 50 & 75 \\\\ 60 & 80\\end{bmatrix}$. $D_2$ is not square, so cannot be symmetric or skew-symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) Growth matrix $=\\begin{bmatrix}10&5&5\\\\10&15&15\\end{bmatrix}$.<br />(ii) Identity matrix is possible because $D_2$ has two rows.<br />(iii) Scalar multiplier is $100$.<br />(iv) $D_2$ is an identity matrix.<br />(v) $D_2'=D_2$, so it is symmetric.",
+    "B": "(i) Growth matrix $=\\begin{bmatrix}16.67&11.11&9.09\\\\12.5&25&23.08\\end{bmatrix}$.<br />(ii) Identity matrix is possible for any rectangular matrix.<br />(iii) Scalar multiplier is $\\frac{90}{100}$.<br />(iv) $D_2$ is scalar.<br />(v) $D_2$ is skew-symmetric.",
+    "C": "(i) Month-on-month percentage growth matrix is approximately $\\begin{bmatrix}16.67&11.11&9.09\\\\12.50&25&23.08\\end{bmatrix}$.<br />(ii) An identity matrix is not possible here because the delivery matrix is $2\\times3$, while identity matrices are square.<br />(iii) Required scalar multiplier is $\\frac{100}{90}=\\frac{10}{9}\\approx1.11$.<br />(iv) $D_2$ is neither diagonal, scalar, nor identity; it is a general rectangular matrix.<br />(v) $D_2'=\\begin{bmatrix}70&90\\\\50&75\\\\60&80\\end{bmatrix}$, and since $D_2$ is not square, it cannot be symmetric or skew-symmetric.",
+    "D": "(i) Percentage growth matrix is zero.<br />(ii) Identity matrix is possible only if all entries are $1$.<br />(iii) Scalar multiplier is $9$.<br />(iv) $D_2$ is diagonal.<br />(v) $D_2'$ is not defined."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:41:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

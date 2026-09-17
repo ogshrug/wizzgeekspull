@@ -1,0 +1,26 @@
+{
+  "id": "6a2fc79cb51101141dc0dc96",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation $x\\frac{dy}{dx} - y + x \\sin(\\frac{y}{x}) = 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Express the differential equation in the form $\\frac{dy}{dx} = f(y/x)$.<br />$x\\frac{dy}{dx} = y - x\\sin(\\frac{y}{x}) \\implies \\frac{dy}{dx} = \\frac{y}{x} - \\sin(\\frac{y}{x})$<br />**Step 2:** Substitute $y = vx$ and $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$ since it is a homogeneous equation.<br />$v + x\\frac{dv}{dx} = v - \\sin v \\implies x\\frac{dv}{dx} = -\\sin v$<br />**Step 3:** Separate the variables and integrate.<br />$-\\csc v dv = \\frac{dx}{x}$<br />$-\\int \\csc v dv = \\int \\frac{dx}{x} \\implies -\\log|\\csc v - \\cot v| = \\log|x| + C$<br />**Step 4:** Replace $v$ with $\\frac{y}{x}$ and use trigonometric identities to simplify.<br />$-\\log|\\tan(\\frac{y}{2x})| = \\log|x| + C \\implies \\log|\\frac{1}{x \\tan(\\frac{y}{2x})}| = C$<br />$x \\tan(\\frac{y}{2x}) = k$ (where $k = \\pm e^{-C}$).",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

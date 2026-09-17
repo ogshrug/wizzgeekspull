@@ -1,0 +1,28 @@
+{
+  "id": "6a22a712864be73cfcf6d292",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{\\frac{\\pi}{2}} e^x \\sin x dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $I = \\int_0^{\\pi/2} e^x \\sin x dx$. We use integration by parts. According to the ILATE rule, let $u = \\sin x$ (trigonometric) and $dv = e^x dx$ (exponential).<br />**Step 2:** Find the necessary derivatives and integrals. $du = \\cos x dx$ and $v = e^x$. The integration by parts formula gives $I = [e^x \\sin x]_0^{\\pi/2} - \\int_0^{\\pi/2} e^x \\cos x dx$.<br />**Step 3:** Evaluate the first bracket: $(e^{\\pi/2}\\sin(\\pi/2) - e^0\\sin(0)) = e^{\\pi/2}$. So, $I = e^{\\pi/2} - \\int_0^{\\pi/2} e^x \\cos x dx$. We must use integration by parts again on the new integral. Let $u = \\cos x$ and $dv = e^x dx$. Then $du = -\\sin x dx$ and $v = e^x$.<br />**Step 4:** Apply parts again: $\\int e^x \\cos x dx = [e^x \\cos x] - \\int e^x(-\\sin x) dx = [e^x \\cos x] + I$. Substituting this back into our equation for $I$: $I = e^{\\pi/2} - ([e^x \\cos x]_0^{\\pi/2} + I)$.<br />**Step 5:** Evaluate $[e^x \\cos x]_0^{\\pi/2} = e^{\\pi/2}\\cos(\\pi/2) - e^0\\cos(0) = 0 - 1 = -1$. The equation becomes $I = e^{\\pi/2} - (-1 + I) = e^{\\pi/2} + 1 - I$. Rearranging gives $2I = e^{\\pi/2} + 1$, so $I = \\frac{e^{\\pi/2} + 1}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2",
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

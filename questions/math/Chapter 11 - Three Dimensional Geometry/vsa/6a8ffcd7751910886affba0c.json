@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffcd7751910886affba0c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d0"
+  ],
+  "question_type": "VSA",
+  "question": "The lines $\\vec{r}=(\\hat{i}+2\\hat{j}+3\\hat{k})+\\lambda(\\hat{i}+2\\hat{j}-\\hat{k})$ and $\\vec{r}=(2\\hat{i}+\\hat{k})+\\mu(2\\hat{i}+4\\hat{j}+p\\hat{k})$ do not intersect for any value of $p$. Find the values of $p$ for which the lines are skew.",
+  "answeroption": "B",
+  "explanation": "Step 1: The direction vectors are $(1,2,-1)$ and $(2,4,p)$. The lines are parallel when these vectors are proportional. Step 2: Since the first two components give the proportionality factor $2$, parallelism requires $p=2(-1)=-2$. Step 3: To check intersection, compare the $x$ and $y$ coordinates: $1+\\lambda=2+2\\mu$ and $2+2\\lambda=4\\mu$. Step 4: The first equation gives $\\lambda=1+2\\mu$, whereas the second gives $\\lambda=2\\mu-1$. These cannot hold simultaneously. Thus, the lines never intersect. Step 5: For $p=-2$ they are parallel and hence not skew. For every other value they are non-parallel and non-intersecting. Therefore, the lines are skew for $p\\ne-2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$p=-2$ only",
+    "B": "$p\\ne-2$",
+    "C": "$p=2$ only",
+    "D": "All real values of $p$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

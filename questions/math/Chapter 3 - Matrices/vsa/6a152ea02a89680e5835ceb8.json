@@ -1,0 +1,25 @@
+{
+  "id": "6a152ea02a89680e5835ceb8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d50",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "VSA",
+  "question": "Find the order of the matrix $A$ such that $\\begin{bmatrix} 2 & -1 \\\\ 1 & 0 \\\\ -3 & 4 \\end{bmatrix} A = \\begin{bmatrix} -1 & -8 \\\\ 1 & -2 \\\\ 9 & 22 \\end{bmatrix}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $X = \\begin{bmatrix} 2 & -1 \\\\ 1 & 0 \\\\ -3 & 4 \\end{bmatrix}$ (order $3 \\times 2$) and $Y = \\begin{bmatrix} -1 & -8 \\\\ 1 & -2 \\\\ 9 & 22 \\end{bmatrix}$ (order $3 \\times 2$). <br /><br /> **Step 2:** Given $X \\, A = Y$. For matrix multiplication: <br /> Order of $X$ = $3 \\times 2$, order of $Y$ = $3 \\times 2$. <br /><br /> **Step 3:** If $X$ is $m \\times n$ and $A$ is $n \\times p$, then product $X A$ is $m \\times p$. <br /> Here $m = 3$, $p = 2$, and $n$ must equal number of columns of $X$ = $2$. <br /><br /> **Step 4:** Therefore, $A$ has $n = 2$ rows and $p = 2$ columns. <br /><br /> **Answer:** Order of $A$ is $2 \\times 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

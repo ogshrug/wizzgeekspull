@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd6bdbe0ecc7866e90c62",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a3"
+  ],
+  "question_type": "SA",
+  "question": "The solution family of a differential equation is $y=C_1\\cos x+C_2\\sin x$. If $y=2$ and $\\frac{dy}{dx}=3$ at $x=0$, determine the values of $C_1$ and $C_2$ and hence obtain the solution satisfying these conditions.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Use the first given condition</b><br>The solution family is $$y=C_1\\cos x+C_2\\sin x.$$ At $x=0$, $y=2$. Therefore, $$2=C_1\\cos0+C_2\\sin0=C_1.$$ Hence, $C_1=2$.<br><b>Step 2: Differentiate the solution family</b><br>$$\\frac{dy}{dx}=-C_1\\sin x+C_2\\cos x.$$<br><b>Step 3: Use the derivative condition</b><br>At $x=0$, $\\frac{dy}{dx}=3$. Hence, $$3=-C_1\\sin0+C_2\\cos0=C_2.$$ Therefore, $C_2=3$.<br><b>Step 4: Substitute the constants</b><br>Putting $C_1=2$ and $C_2=3$ in the given family gives $$y=2\\cos x+3\\sin x.$$<br><b>Step 5: Final answer</b><br>The required values are $C_1=2$, $C_2=3$, and the solution satisfying the given conditions is $$\\boxed{y=2\\cos x+3\\sin x}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$C_1=3,\\ C_2=2$; $y=3\\cos x+2\\sin x$",
+    "B": "$C_1=2,\\ C_2=-3$; $y=2\\cos x-3\\sin x$",
+    "C": "$C_1=2,\\ C_2=3$; $y=2\\cos x+3\\sin x$",
+    "D": "$C_1=-2,\\ C_2=3$; $y=-2\\cos x+3\\sin x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

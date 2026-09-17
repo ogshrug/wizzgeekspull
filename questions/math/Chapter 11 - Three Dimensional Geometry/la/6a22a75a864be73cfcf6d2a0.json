@@ -1,0 +1,29 @@
+{
+  "id": "6a22a75a864be73cfcf6d2a0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "Find the vector and the Cartesian equations of a line passing through the point $(1,2,-4)$ and parallel to the line joining the points $A(3,3,-5)$ and $B(1,0,-11)$. Hence, find the distance between the two lines.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To define the new line, we need its direction ratios. Since it's parallel to the line joining $A$ and $B$, their direction ratios are strictly proportional. Let's find the direction ratios of AB: $(1-3, 0-3, -11-(-5)) = (-2, -3, -6)$. To make them simpler, we can multiply by -1 to get a parallel direction vector $\\vec{b} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k}$.<br />**Step 2:** The required line passes through $P(1,2,-4)$, so its position vector is $\\vec{a}_1 = \\hat{i} + 2\\hat{j} - 4\\hat{k}$. The vector equation is $\\vec{r} = \\vec{a}_1 + \\lambda\\vec{b}$, which expands to $\\vec{r} = (\\hat{i} + 2\\hat{j} - 4\\hat{k}) + \\lambda(2\\hat{i} + 3\\hat{j} + 6\\hat{k})$. The Cartesian equation is directly $\\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z+4}{6}$.<br />**Step 3:** Now, find the distance between these two parallel lines. Line 1 passes through $\\vec{a}_1$. Line 2 (AB) passes through point $A(3,3,-5)$, so $\\vec{a}_2 = 3\\hat{i} + 3\\hat{j} - 5\\hat{k}$. Both share the direction vector $\\vec{b} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k}$. The standard formula for distance between parallel lines is $d = \\frac{|(\\vec{a}_2 - \\vec{a}_1) \\times \\vec{b}|}{|\\vec{b}|}$.<br />**Step 4:** Calculate the difference vector: $\\vec{a}_2 - \\vec{a}_1 = (3-1)\\hat{i} + (3-2)\\hat{j} + (-5-(-4))\\hat{k} = 2\\hat{i} + \\hat{j} - \\hat{k}$. Now compute the cross product $(\\vec{a}_2 - \\vec{a}_1) \\times \\vec{b} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\ 2&1&-1\\\\ 2&3&6\\end{vmatrix} = \\hat{i}(6+3) - \\hat{j}(12+2) + \\hat{k}(6-2) = 9\\hat{i} - 14\\hat{j} + 4\\hat{k}$.<br />**Step 5:** Calculate the required magnitudes. $|(\\vec{a}_2 - \\vec{a}_1) \\times \\vec{b}| = \\sqrt{9^2 + (-14)^2 + 4^2} = \\sqrt{81 + 196 + 16} = \\sqrt{293}$. The magnitude of the direction vector $|\\vec{b}| = \\sqrt{2^2 + 3^2 + 6^2} = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7$. The rigorous final distance is precisely $\\frac{\\sqrt{293}}{7}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2",
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

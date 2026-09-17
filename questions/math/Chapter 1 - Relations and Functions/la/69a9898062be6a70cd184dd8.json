@@ -1,0 +1,31 @@
+{
+  "id": "69a9898062be6a70cd184dd8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "LA",
+  "question": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be defined piecewise as $f(x) = \\begin{cases}x^2, & x \\leq 0 \\\\ 2x + 1, & 0 < x < 3 \\\\ (3-x)^2 + 7, & x \\geq 3\\end{cases}$.<br /><br />(a) Prove $f$ is a function from $\\mathbb{R} \\to \\mathbb{R}$; justify that it is well-defined and find the range.<br /><br />(b) Prove $f$ is neither one-one nor onto, but that it is a bijection from $(-\\infty,0]$ to $[0,\\infty)$.<br /><br />(c) For $g(x) = \\sqrt{7-x}$, define $h(x) = f(g(x))$. Find the domain and range of $h$.",
+  "answeroption": "C",
+  "explanation": "(a) For each $x \\in \\mathbb{R}$, exactly one rule applies because the intervals $x \\le 0$, $0<x<3$, and $x \\ge 3$ are mutually exclusive and collectively exhaustive.<br /><br />Thus $f$ is a well-defined function.<br /><br />Range:<br /><br />For $x \\le 0$, $f(x)=x^2$, so the range is $[0,\\infty)$.<br /><br />For $0<x<3$, $f(x)=2x+1$. As $x$ varies from $0^+$ to $3^-$, $f(x)$ varies from $1$ to $7$ (not including 7), giving $(1,7)$.<br /><br />For $x \\ge 3$, $f(x)=(3-x)^2+7$. As $x$ increases, $(3-x)^2$ ranges from $0$ to $\\infty$, so the range is $[7,\\infty)$.<br /><br />Combining all ranges gives $[0,\\infty)$.<br /><br />(b) $f$ is not one-one because different inputs can give the same output (for example, values from the square part).<br /><br />Also $f$ is not onto $\\mathbb{R}$ because its outputs are only in $[0,\\infty)$.<br /><br />However, the restriction $f|_{(-\\infty,0]}:x \\mapsto x^2$ maps $(-\\infty,0]$ onto $[0,\\infty)$ and is one-one on that domain.<br /><br />Hence it is a bijection from $(-\\infty,0]$ to $[0,\\infty)$.<br /><br />(c) $g(x)=\\sqrt{7-x}$.<br /><br />Domain: $7-x \\ge 0 \\Rightarrow x \\le 7$. Thus domain of $g$ is $(-\\infty,7]$. Range of $g$ is $[0,\\infty)$.<br /><br />Let $t=g(x) \\ge 0$. Then $h(x)=f(t)$.<br /><br />If $0 \\le t < 3$, then $f(t)=2t+1 \\in [1,7)$.<br /><br />If $t \\ge 3$, then $f(t)=(3-t)^2+7 \\ge 7$.<br /><br />Hence the range of $h$ is $[1,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is not well-defined.<br> (b) $f$ is bijective on $\\mathbb{R}\\to\\mathbb{R}$.<br> (c) Domain of $h$ is $\\mathbb{R}$ and range is $\\mathbb{R}$.",
+    "B": "(a) $f$ is well-defined and range is $\\mathbb{R}$. <br>(b) $f$ is one-one and onto. <br>(c) Domain of $h$ is $[7,\\infty)$ and range is $[0,\\infty)$.",
+    "C": "(a) $f$ is well-defined and its range is $[0,\\infty)$. <br>(b) $f$ is neither one-one nor onto $\\mathbb{R}$, but its restriction from $(-\\infty,0]$ to $[0,\\infty)$ is bijective.<br> (c) Domain of $h$ is $(-\\infty,7]$ and range of $h$ is $[1,\\infty)$.",
+    "D": "(a) $f$ is well-defined and its range is $(1,7)$. <br>(b) $f$ is one-one but not onto. <br>(c) Domain of $h$ is $[0,7]$ and range of $h$ is $(1,7)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:47:44 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

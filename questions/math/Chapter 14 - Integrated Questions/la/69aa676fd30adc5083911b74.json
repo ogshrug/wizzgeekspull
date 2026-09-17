@@ -1,0 +1,30 @@
+{
+  "id": "69aa676fd30adc5083911b74",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7d",
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = (x^3 - 3x)\\cos^{-1}x$, $x \\in [-1,1]$.\n\n(a) Show that $f$ is differentiable on $(-1,1)$.\n\n(b) Find $f'(x)$.\n\n(c) Identify the critical points of $f$ in $(-1,1)$.\n\n(d) Let $g(x) = \\sin^{-1}x$, find $\\dfrac{df}{dg}$ at $x=0$ and interpret its value.",
+  "answeroption": "D",
+  "explanation": "**Concepts tested:** Differentiability, product and chain rule, critical points, higher derivatives.<br /><br />**Step 1: $f$ differentiable**<br />$x^3-3x$ differentiable on $\\mathbb{R}$; $\\cos^{-1}x$ on $(-1,1)$. So their product differentiable on $(-1,1)$.<br /><br />**Step 2: $f'(x)$**<br />$f'(x) = (3x^2-3)\\cos^{-1}x + (x^3-3x)\\times \\left(-\\frac{1}{\\sqrt{1-x^2}}\\right)$<br /><br />$= (3x^2-3)\\cos^{-1}x - \\frac{x^3-3x}{\\sqrt{1-x^2}}$<br /><br />**Step 3: Critical points**<br />Set $f'(x)=0$.<br />$(3x^2-3)\\cos^{-1}x - \\frac{x^3-3x}{\\sqrt{1-x^2}} = 0$<br /><br />Solve analytically or numerically for $x$ in $(-1,1)$.<br /><br />**Step 4: $\\frac{df}{dg}$ at $x=0$**<br />$g(x)=\\sin^{-1}x$, $g'(x)=\\frac{1}{\\sqrt{1-x^2}}$<br /><br />At $x=0$, $f'(0) = (0-3)\\cdot\\cos^{-1}0 - 0 = -3\\cdot \\frac{\\pi}{2} = -\\frac{3\\pi}{2}$<br /><br />$g'(0) = 1$<br /><br />So $\\frac{df}{dg}|_{x=0} = -\\frac{3\\pi}{2}$<br /><br />Interpretation: At $x=0$, $f$ is decreasing with respect to $g$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is not differentiable on $(-1,1)$<br />(b) $f'(x)=0$<br />(c) Every point is critical<br />(d) $\\frac{df}{dg}\\big|_{x=0}=0$",
+    "B": "(a) $f$ is differentiable only at $x=0$<br />(b) $f'(x)=(3x^2-3)\\sin^{-1}x$<br />(c) Critical point is $x=1$<br />(d) $\\frac{df}{dg}\\big|_{x=0}=\\frac{3\\pi}{2}$",
+    "C": "(a) $f$ is differentiable on $(-1,1)$<br />(b) $f'(x)=(3x^2-3)\\cos^{-1}x+\\frac{x^3-3x}{\\sqrt{1-x^2}}$<br />(c) Critical points satisfy $(3x^2-3)\\cos^{-1}x+\\frac{x^3-3x}{\\sqrt{1-x^2}}=0$<br />(d) $\\frac{df}{dg}\\big|_{x=0}=\\frac{3\\pi}{2}$",
+    "D": "(a) $f$ is differentiable on $(-1,1)$<br />(b) $f'(x)=(3x^2-3)\\cos^{-1}x-\\frac{x^3-3x}{\\sqrt{1-x^2}}$<br />(c) Critical points satisfy $(3x^2-3)\\cos^{-1}x-\\frac{x^3-3x}{\\sqrt{1-x^2}}=0$ in $(-1,1)$<br />(d) Since $f'(0)=-\\frac{3\\pi}{2}$ and $g'(0)=1$, $\\frac{df}{dg}\\big|_{x=0}=-\\frac{3\\pi}{2}$; hence $f$ is decreasing with respect to $g$ at $x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:34:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

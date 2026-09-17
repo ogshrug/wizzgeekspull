@@ -1,0 +1,29 @@
+{
+  "id": "6a1589836050c058f876e4f3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "MCQ",
+  "question": "For the function $f(x)=x^{3}$, $x=0$ is a point of:",
+  "answeroption": "D",
+  "explanation": "**Step 1: Compute function derivatives**<br />First derivative: $f'(x) = 3x^2$<br />Second derivative: $f''(x) = 6x$<br />Third derivative: $f'''(x) = 6$<br /><br />**Step 2: Analyze the critical point at $x = 0$**<br />Evaluating the first derivative at our point gives $f'(0) = 3(0)^2 = 0$. This confirms that $x = 0$ is a stationary critical point. Evaluating the second derivative gives $f''(0) = 6(0) = 0$. Since the second derivative is zero, the standard second derivative test for finding local extrema is inconclusive.<br /><br />**Step 3: Apply the higher-order derivative test**<br />We look at the third derivative: $f'''(0) = 6$. Since $f'''(0) \\neq 0$ and the first non-zero derivative is of an odd order (the 3rd order), this critical point is a point of inflection (inflexion point). It is neither a local maximum nor a local minimum. This matches Option D.",
+  "explanation_image": [],
+  "options": {
+    "A": "local maxima",
+    "B": "local minima",
+    "C": "non-differentiability",
+    "D": "inflexion"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

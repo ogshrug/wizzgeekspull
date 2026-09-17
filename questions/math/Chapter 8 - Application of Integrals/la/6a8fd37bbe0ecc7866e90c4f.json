@@ -1,0 +1,31 @@
+{
+  "id": "6a8fd37bbe0ecc7866e90c4f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f995"
+  ],
+  "question_type": "LA",
+  "question": "The cross-section of an arch is represented by the parabola $y=6-\\frac{x^2}{6}$, where the $x$-axis represents the ground.(a) Determine the points at which the arch meets the ground and hence find its total width and maximum height.(b) Using integration, calculate the area of the opening below the parabolic arch.(c) A rectangular frame has the same width and maximum height as the arch. Determine the area of the frame not occupied by the arch opening.",
+  "answeroption": "A",
+  "explanation": "(a)The arch meets the ground when $y=0$. Therefore,`6-\\frac{x^2}{6}=0x^2=36`Thus, $x=-6$ or $x=6$. The total width is`6-\\left(-6\\right)=12`At $x=0$, $y=6$. Hence, the maximum height is $6$ units.(b)The area of the opening is`A=\\int_{-6}^{6}\\left(6-\\frac{x^2}{6}\\right)dx`By symmetry,`A=2\\int_0^6\\left(6-\\frac{x^2}{6}\\right)dxA=2\\left[6x-\\frac{x^3}{18}\\right]_0^6A=2\\left(36-12\\right)=48`Hence, the area below the parabolic arch is $48$ square units.(c)The area of the rectangular frame is`A_r=12\\times6=72`Therefore, the area of the frame not occupied by the arch opening is`A_r-A=72-48=24`Hence, the unoccupied area of the rectangular frame is $24$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Ground points $(-6,0),(6,0)$; width $12$, height $6$<br>(b) Arch area $=48$<br>(c) Unoccupied rectangular area $=24$ square units",
+    "B": "(a) Ground points $(-6,0),(6,0)$; width $12$, height $6$<br>(b) Arch area $=36$<br>(c) Unoccupied rectangular area $=36$ square units",
+    "C": "(a) Ground points $(-3,0),(3,0)$; width $6$, height $6$<br>(b) Arch area $=48$<br>(c) Unoccupied rectangular area $=24$ square units",
+    "D": "(a) Ground points $(-6,0),(6,0)$; width $12$, height $12$<br>(b) Arch area $=48$<br>(c) Unoccupied rectangular area $=96$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

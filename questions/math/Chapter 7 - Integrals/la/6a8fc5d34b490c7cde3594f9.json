@@ -1,0 +1,30 @@
+{
+  "id": "6a8fc5d34b490c7cde3594f9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e",
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int_0^2 \\frac{2x+1}{\\sqrt{x^2+x+1}}dx$ by making a suitable substitution, changing the limits accordingly, and applying the Fundamental Theorem of Calculus to the transformed integral.",
+  "answeroption": "B",
+  "explanation": "Consider<br><br>$$I=\\int_0^2 \\frac{2x+1}{\\sqrt{x^2+x+1}}dx$$<br><br>The derivative of $x^2+x+1$ occurs in the numerator. Therefore, put<br><br>$$t=x^2+x+1$$<br><br>Then<br><br>$$dt=(2x+1)dx$$<br><br>The limits must also be changed. When $x=0$, $t=1$, and when $x=2$, $t=7$. Hence,<br><br>$$I=\\int_1^7 \\frac{dt}{\\sqrt{t}}=\\int_1^7 t^{-\\frac{1}{2}}dt$$<br><br>An antiderivative of $t^{-\\frac{1}{2}}$ is $2\\sqrt{t}$. Therefore, by the Fundamental Theorem of Calculus,<br><br>$$I=\\left[2\\sqrt{t}\\right]_1^7$$<br><br>$$I=2\\sqrt{7}-2$$<br><br>$$I=2(\\sqrt{7}-1)$$<br><br>Thus, after substitution and evaluation at the transformed limits, the value of the definite integral is $2(\\sqrt{7}-1)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2\\sqrt{7}$",
+    "B": "$2(\\sqrt{7}-1)$",
+    "C": "$\\sqrt{7}-1$",
+    "D": "$2(\\sqrt{7}+1)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

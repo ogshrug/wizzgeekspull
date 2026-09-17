@@ -1,0 +1,29 @@
+{
+  "id": "6a8c383faf259efb39a309c9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d41"
+  ],
+  "question_type": "VSA",
+  "question": "A relation $R$ on $\\mathbb{R}$ is defined by $aRb$ if $a^2+b^2=5$. Given that $(1,2)\\in R$, determine whether $(2,1)$ must also belong to $R$ and state the relevant property.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> The relation is defined by the condition $a^2+b^2=5$.<br><b>Step 2:</b> For $a=1$ and $b=2$, we obtain $1^2+2^2=1+4=5$, so $(1,2)\\in R$.<br><b>Step 3:</b> Interchanging the two entries gives $2^2+1^2=4+1=5$.<br><b>Step 4:</b> Thus, $(2,1)$ also satisfies the defining equation.<br><b>Step 5:</b> More generally, $a^2+b^2=b^2+a^2$, so whenever $(a,b)\\in R$, $(b,a)\\in R$.<br><b>Final Answer:</b> Yes, $(2,1)\\in R$, and the relevant property is $\\boxed{\\text{symmetric relation}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes; the relevant property is reflexivity",
+    "B": "Yes; the relevant property is symmetry",
+    "C": "No; the relevant property is antisymmetry",
+    "D": "No; the relevant property is transitivity"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

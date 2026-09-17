@@ -1,0 +1,29 @@
+{
+  "id": "6a21506591ff8b4d45610982",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Let $A=\\mathbb{R}-\\{3\\}$ and $B=\\mathbb{R}-\\{1\\}$. A function $f:A\\rightarrow B$ is defined by $f(x)=(\\frac{x-2}{x-3})$. Find whether f is one-one and onto.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To test for injectivity (one-one), start by assuming $f(x_1) = f(x_2)$ for any two elements $x_1, x_2$ in domain $A$. This sets up the equation $\\frac{x_1-2}{x_1-3} = \\frac{x_2-2}{x_2-3}$.<br /><br /><b>Step 2</b> Cross-multiply the terms to eliminate the fractions: $(x_1-2)(x_2-3) = (x_2-2)(x_1-3)$.<br /><br /><b>Step 3</b> Expand both sides algebraically: $x_1x_2 - 3x_1 - 2x_2 + 6 = x_1x_2 - 2x_1 - 3x_2 + 6$.<br /><br /><b>Step 4</b> Cancel the common terms $x_1x_2$ and $6$ from both sides, leaving $-3x_1 - 2x_2 = -2x_1 - 3x_2$. Grouping the variables yields $-x_1 = -x_2$, which means $x_1 = x_2$. Thus, $f$ is mathematically one-one.<br /><br /><b>Step 5</b> To test for surjectivity (onto), set $y = f(x) = \\frac{x-2}{x-3}$ and solve for $x$ in terms of $y$. Cross-multiplying gives $yx - 3y = x - 2$.<br /><br /><b>Step 6</b> Group the $x$ terms on one side: $yx - x = 3y - 2$, which factors to $x(y-1) = 3y - 2$. Solving for $x$ gives $x = \\frac{3y-2}{y-1}$. Since $y \\in B = \\mathbb{R}-\\{1\\}$, $y-1 \\ne 0$, so $x$ is always a well-defined real number. Furthermore, $x \\ne 3$ because $\\frac{3y-2}{y-1} = 3$ would imply $3y-2 = 3y-3$, or $-2=-3$, which is impossible. Thus, for every $y \\in B$, a valid pre-image $x \\in A$ exists, proving $f$ is onto.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

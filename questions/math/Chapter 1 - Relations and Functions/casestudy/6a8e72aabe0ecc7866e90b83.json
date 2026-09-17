@@ -1,0 +1,32 @@
+{
+  "id": "6a8e72aabe0ecc7866e90b83",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a classroom investigation, students consider the set $S=[-2,2]$ of real numbers. A relation $R$ is defined on $S$ by $xRy$ if and only if $x\\leq y$. The students examine how the usual order of real numbers behaves when regarded as a relation. They test selected ordered pairs and then analyse whether the relation satisfies reflexivity, symmetry and transitivity. Finally, they decide whether the relation can be classified as an equivalence relation. Every argument must use only the defining condition $x\\leq y$.<br><br><b>(a)</b> Determine whether $(-1,1)$, $(1,-1)$ and $(0,0)$ belong to $R$.<br><br><b>(b)</b> Verify that $R$ is reflexive.<br><br><b>(c)</b> Determine whether $R$ is symmetric, giving a suitable justification.<br><br><b>(d)</b> Verify that $R$ is transitive and hence decide whether it is an equivalence relation.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Since $-1\\leq 1$, we have $(-1,1)\\in R$. Since $1\\leq -1$ is false, $(1,-1)\\notin R$. Also, $0\\leq 0$, so $(0,0)\\in R$.<br><br><b>(b)</b><br>For every $x\\in S$, $x\\leq x$. Therefore, $(x,x)\\in R$ for every $x\\in S$. Hence, $R$ is reflexive.<br><br><b>(c)</b><br>For symmetry, $(x,y)\\in R$ must imply $(y,x)\\in R$. But $(-1,1)\\in R$ because $-1\\leq1$, whereas $(1,-1)\\notin R$. Therefore, $R$ is not symmetric.<br><br><b>(d)</b><br>Let $(x,y)\\in R$ and $(y,z)\\in R$. Then $x\\leq y$ and $y\\leq z$. By the order property of real numbers, $x\\leq z$. Hence $(x,z)\\in R$, so $R$ is transitive. Therefore, $R$ is reflexive and transitive but not symmetric. Since an equivalence relation must be reflexive, symmetric and transitive, $R$ is not an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(-1,1),(1,-1),(0,0)\\in R$; $R$ is reflexive, symmetric and transitive, so it is an equivalence relation.",
+    "B": "$(-1,1),(0,0)\\in R$ but $(1,-1)\\notin R$; $R$ is reflexive and transitive but not symmetric, so it is not an equivalence relation.",
+    "C": "$(-1,1)\\in R$ but $(1,-1),(0,0)\\notin R$; $R$ is transitive but neither reflexive nor symmetric, so it is not an equivalence relation.",
+    "D": "$(1,-1),(0,0)\\in R$ but $(-1,1)\\notin R$; $R$ is reflexive and symmetric but not transitive, so it is not an equivalence relation."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

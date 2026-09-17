@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9a0a751910886affb95b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "SA",
+  "question": "Solve $x+y+z=6$, $x-y+2z=5$ and $2x+y-z=1$. Hence, calculate $x^2+y^2+z^2$.",
+  "answeroption": "D",
+  "explanation": "<b>Elimination using the first two equations</b><br>Subtracting the second equation from the first gives $$2y-z=1$$<br><b>Elimination using the first and third equations</b><br>Subtracting the first equation from the third gives $$x-2z=-5$$ Thus, $x=2z-5$. Also, from $2y-z=1$, $y=\\frac{z+1}{2}$.<br><b>Determination of the variables</b><br>Substituting in $x+y+z=6$, $$2z-5+\\frac{z+1}{2}+z=6$$ This gives $z=3$. Hence, $x=1$ and $y=2$.<br><b>Required value</b><br>Therefore, $$x^2+y^2+z^2=1^2+2^2+3^2=14$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(x,y,z)=(2,1,3)$ and $x^2+y^2+z^2=14$",
+    "B": "$(x,y,z)=(1,3,2)$ and $x^2+y^2+z^2=14$",
+    "C": "$(x,y,z)=(1,2,2)$ and $x^2+y^2+z^2=9$",
+    "D": "$(x,y,z)=(1,2,3)$ and $x^2+y^2+z^2=14$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

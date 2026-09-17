@@ -1,0 +1,30 @@
+{
+  "id": "69a9b06762be6a70cd184e11",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8bc",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "SA",
+  "question": "Let $\\vec{a}$ and $\\vec{b}$ be two non-zero vectors such that $|\\vec{a}| = 4$, $|\\vec{b}| = 7$, and the projection of $\\vec{a}$ on $\\vec{b}$ plus the projection of $\\vec{b}$ on $\\vec{a}$ equals $5$. If $\\theta$ is the angle between $\\vec{a}$ and $\\vec{b}$, find $\\theta$.",
+  "answeroption": "C",
+  "explanation": "Let $\\text{proj}_{\\vec{b}} \\vec{a} = \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|}$ and $\\text{proj}_{\\vec{a}} \\vec{b} = \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}|}$.<br /><br />Given:<br /><br />$\\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} + \\dfrac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}|} = 5$<br /><br />Let $x = \\vec{a} \\cdot \\vec{b}$.<br /><br />$\\dfrac{x}{7} + \\dfrac{x}{4} = 5$<br /><br />$x\\left(\\dfrac{1}{7} + \\dfrac{1}{4}\\right) = 5$<br /><br />$\\dfrac{1}{7} + \\dfrac{1}{4} = \\dfrac{11}{28}$<br /><br />$x \\cdot \\dfrac{11}{28} = 5$<br /><br />$x = \\dfrac{140}{11}$<br /><br />Now,<br /><br />$x = |\\vec{a}| |\\vec{b}| \\cos \\theta$<br /><br />$\\dfrac{140}{11} = 4 \\times 7 \\cos \\theta$<br /><br />$28 \\cos \\theta = \\dfrac{140}{11}$<br /><br />$\\cos \\theta = \\dfrac{140}{308} = \\dfrac{35}{77}$<br /><br />Thus,<br /><br />$\\theta = \\cos^{-1}\\left(\\dfrac{35}{77}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cos^{-1}\\left(\\dfrac{5}{11}\\right)$",
+    "B": "$\\cos^{-1}\\left(\\dfrac{77}{35}\\right)$",
+    "C": "$\\cos^{-1}\\left(\\dfrac{35}{77}\\right)$",
+    "D": "$\\cos^{-1}\\left(\\dfrac{11}{35}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:33:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8ec732751910886affb9a5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d81",
+    "69c6610140512f018fa94d82",
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "LA",
+  "question": "If $$y=\\log\\left(e^x+e^{-x}\\right),$$ find $\\frac{dy}{dx}$ and simplify the result completely to show that it can be written as $$\\frac{e^{2x}-1}{e^{2x}+1}.$$",
+  "answeroption": "C",
+  "explanation": "<b>Given Information</b><br>The quantity $e^x+e^{-x}$ is positive for every real $x$, so the logarithmic function is defined for all real $x$. Let $$u=e^x+e^{-x}.$$ Then $$y=\\log u.$$<br><br><b>Applying the Derivative Formulas</b><br>Using the derivative of the logarithmic function, $$\\frac{dy}{dx}=\\frac{1}{u}\\frac{du}{dx}.$$ Now, $$\\frac{du}{dx}=\\frac{d}{dx}(e^x)+\\frac{d}{dx}(e^{-x})=e^x-e^{-x}.$$ Therefore, $$\\frac{dy}{dx}=\\frac{e^x-e^{-x}}{e^x+e^{-x}}.$$<br><br><b>Simplification</b><br>Multiplying the numerator and denominator by $e^x$, $$\\frac{dy}{dx}=\\frac{e^x(e^x-e^{-x})}{e^x(e^x+e^{-x})}.$$ Hence, $$\\frac{dy}{dx}=\\frac{e^{2x}-1}{e^{2x}+1}.$$<br><br><b>Final Result</b><br>Thus, $$\\frac{dy}{dx}=\\frac{e^{2x}-1}{e^{2x}+1}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{e^{2x}+1}{e^{2x}-1}$",
+    "B": "$\\frac{dy}{dx}=\\frac{e^{2x}-1}{e^{2x}}$",
+    "C": "$\\frac{dy}{dx}=\\frac{e^{2x}-1}{e^{2x}+1}$",
+    "D": "$\\frac{dy}{dx}=\\frac{e^x+e^{-x}}{e^x-e^{-x}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

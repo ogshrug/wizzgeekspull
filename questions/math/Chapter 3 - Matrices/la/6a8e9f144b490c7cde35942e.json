@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9f144b490c7cde35942e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d51",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "LA",
+  "question": "Matrices $X$ and $Y$ of order $2\\times2$ satisfy $$X+Y=\\begin{bmatrix}3&-1\\\\5&2\\end{bmatrix}$$ and $$2X-Y=\\begin{bmatrix}6&4\\\\1&7\\end{bmatrix}.$$ Using matrix operations and equality of corresponding entries, determine $X$ and $Y$ and verify that the obtained matrices satisfy both the given equations.",
+  "answeroption": "C",
+  "explanation": "<b>Formation of the Required Matrices</b><br><br>Let $$M=\\begin{bmatrix}3&-1\\\\5&2\\end{bmatrix},\\quad N=\\begin{bmatrix}6&4\\\\1&7\\end{bmatrix}$$ The given equations are $X+Y=M$ and $2X-Y=N$. Adding these matrix equations, $$3X=M+N$$ Therefore, $$3X=\\begin{bmatrix}3&-1\\\\5&2\\end{bmatrix}+\\begin{bmatrix}6&4\\\\1&7\\end{bmatrix}=\\begin{bmatrix}9&3\\\\6&9\\end{bmatrix}$$ Hence, $$X=\\frac{1}{3}\\begin{bmatrix}9&3\\\\6&9\\end{bmatrix}=\\begin{bmatrix}3&1\\\\2&3\\end{bmatrix}$$ From $X+Y=M$, $$Y=M-X=\\begin{bmatrix}3&-1\\\\5&2\\end{bmatrix}-\\begin{bmatrix}3&1\\\\2&3\\end{bmatrix}=\\begin{bmatrix}0&-2\\\\3&-1\\end{bmatrix}$$<br><br><b>Verification</b><br><br>Now, $$X+Y=\\begin{bmatrix}3&1\\\\2&3\\end{bmatrix}+\\begin{bmatrix}0&-2\\\\3&-1\\end{bmatrix}=\\begin{bmatrix}3&-1\\\\5&2\\end{bmatrix}$$ Also, $$2X-Y=\\begin{bmatrix}6&2\\\\4&6\\end{bmatrix}-\\begin{bmatrix}0&-2\\\\3&-1\\end{bmatrix}=\\begin{bmatrix}6&4\\\\1&7\\end{bmatrix}$$ Since the corresponding elements agree in both equations, the required matrices are $$X=\\begin{bmatrix}3&1\\\\2&3\\end{bmatrix},\\quad Y=\\begin{bmatrix}0&-2\\\\3&-1\\end{bmatrix}$$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$X=\\begin{bmatrix}3&-1\\\\2&3\\end{bmatrix},\\quad Y=\\begin{bmatrix}0&0\\\\3&-1\\end{bmatrix}$",
+    "B": "$X=\\begin{bmatrix}3&1\\\\3&2\\end{bmatrix},\\quad Y=\\begin{bmatrix}0&-2\\\\2&0\\end{bmatrix}$",
+    "C": "$X=\\begin{bmatrix}3&1\\\\2&3\\end{bmatrix},\\quad Y=\\begin{bmatrix}0&-2\\\\3&-1\\end{bmatrix}$",
+    "D": "$X=\\begin{bmatrix}2&1\\\\2&3\\end{bmatrix},\\quad Y=\\begin{bmatrix}1&-2\\\\3&-1\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

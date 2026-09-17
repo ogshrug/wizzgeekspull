@@ -1,0 +1,29 @@
+{
+  "id": "69a95be8589ce36f368b47d4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "VSA",
+  "question": "Given the function $f(x, y) = \\dfrac{y^3}{x^3}$, check if $f(\\lambda x, \\lambda y)=\\lambda^n f(x, y)$ holds for some $n$ and determine its degree of homogeneity, if any.",
+  "answeroption": "C",
+  "explanation": "Substitute $x \\rightarrow \\lambda x$, $y \\rightarrow \\lambda y$:<br /><br />$f(\\lambda x, \\lambda y) = \\dfrac{(\\lambda y)^3}{(\\lambda x)^3} = \\dfrac{\\lambda^3 y^3}{\\lambda^3 x^3} = \\dfrac{y^3}{x^3} = f(x, y)$.<br /><br />So, $f(\\lambda x, \\lambda y) = \\lambda^{0} f(x, y)$.<br /><br />Therefore, $n = 0$; the function is homogeneous of degree 0.",
+  "explanation_image": [],
+  "options": {
+    "A": "Homogeneous of degree $3$",
+    "B": "Homogeneous of degree $1$",
+    "C": "Homogeneous of degree $0$",
+    "D": "Not homogeneous"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:33:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

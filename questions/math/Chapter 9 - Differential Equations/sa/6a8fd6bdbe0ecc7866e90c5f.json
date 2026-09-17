@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd6bdbe0ecc7866e90c5f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "SA",
+  "question": "A second-order differential equation has the solution family $y=C_1\\sin x+C_2\\cos x$. A student proposes $y=C_1\\sin x+3\\cos x$ as its general solution. Examine the student's proposal and give mathematical justification.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Examine the original family</b><br>In $y=C_1\\sin x+C_2\\cos x$, both $C_1$ and $C_2$ are arbitrary constants. Thus, different choices of these constants give different members of the complete solution family.<br><b>Step 2: Examine the proposed expression</b><br>The student's expression is $$y=C_1\\sin x+3\\cos x.$$ Here, the value of $C_2$ has already been fixed as $3$. Hence, only one arbitrary constant remains.<br><b>Step 3: Compare the two families</b><br>The proposed family contains only those members of the original family for which $C_2=3$. It therefore does not represent all members described by the original two-parameter solution.<br><b>Step 4: Apply the general-solution condition</b><br>The complete general solution must retain the required arbitrary constants without assigning particular values to them.<br><b>Step 5: Conclusion</b><br>Therefore, the student's proposal is incorrect; $y=C_1\\sin x+C_2\\cos x$ is the general solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "The proposal is incorrect because fixing $C_2=3$ restricts the two-parameter family; the general solution remains $y=C_1\\sin x+C_2\\cos x$.",
+    "B": "The proposal is correct because the coefficient $3$ may be treated as arbitrary.",
+    "C": "The proposal is correct because one arbitrary constant is sufficient for a second-order equation.",
+    "D": "The proposal is incorrect because $\\cos x$ cannot occur in a general solution."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

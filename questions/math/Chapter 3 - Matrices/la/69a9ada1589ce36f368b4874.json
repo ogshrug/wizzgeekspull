@@ -1,0 +1,31 @@
+{
+  "id": "69a9ada1589ce36f368b4874",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "LA",
+  "question": "Let $A$ be a symmetric matrix, and $B$ also symmetric. Prove that $AB - BA$ is a skew-symmetric matrix. Also, prove that $B'A B$ is symmetric if $A$ is symmetric and skew-symmetric if $A$ is skew-symmetric.",
+  "answeroption": "C",
+  "explanation": "Recall: $S'$ denotes the transpose of $S$.<br /><br />1. $AB - BA$ is skew-symmetric:<br /><br />$(AB - BA)' = (AB)' - (BA)' = B'A' - A'B' = BA - AB = -(AB - BA)$<br /><br />So, $AB - BA$ is skew-symmetric if $A$ and $B$ are symmetric.<br /><br />2. $B'AB$ property:<br /><br />If $A$ is symmetric,<br /><br />$(B'AB)' = B'A'B = B'AB$<br /><br />So, $B'AB$ is symmetric.<br /><br />If $A$ is skew-symmetric ($(A' = -A)$):<br /><br />$(B'AB)' = B'A'B = B'(-A)B = -B'AB$<br /><br />So, $B'AB$ is skew-symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB-BA$ is symmetric, and $B'AB$ is always symmetric for every matrix $A$.",
+    "B": "$AB-BA$ is neither symmetric nor skew-symmetric, and $B'AB$ has no fixed type.",
+    "C": "$AB-BA$ is skew-symmetric because $(AB-BA)'=-(AB-BA)$. Also, $B'AB$ is symmetric if $A$ is symmetric and skew-symmetric if $A$ is skew-symmetric.",
+    "D": "$AB-BA=0$ always, and $B'AB$ is always the identity matrix."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:21:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

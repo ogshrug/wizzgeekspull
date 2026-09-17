@@ -1,0 +1,31 @@
+{
+  "id": "69a9c3f86638848124d7c9ad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A manufacturer finds the demand for a product as $p=100-2x$, $x$ is quantity. Cost function: $C(x)=32x+1200$.<br /><br />(a) Express profit in $x$.<br /><br />(b) Find $x$ and $p$ for max profit.<br /><br />(c) Confirm with both first and second derivative tests.",
+  "answeroption": "D",
+  "explanation": "Revenue: $R(x)=xp=100x-2x^2$<br /><br />Profit $P(x)=R(x)-C(x)=100x-2x^2-32x-1200=68x-2x^2-1200$<br /><br />$P'(x)=68-4x$; set $=0$ $x=17$<br /><br />$P''=-4<0$ so maximum.<br /><br />$p=100-2x=100-34=66$ at $x=17$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(x)=68x+2x^2-1200$<br />(b) Maximum profit occurs at $x=17$ and $p=66$.<br />(c) $P''=4>0$, so it is a minimum.",
+    "B": "(a) $P(x)=100x-2x^2-1200$<br />(b) Maximum profit occurs at $x=25$ and $p=50$.<br />(c) $P''=-4<0$, so it is a maximum.",
+    "C": "(a) $P(x)=68x-2x^2+1200$<br />(b) Maximum profit occurs at $x=34$ and $p=32$.<br />(c) $P'(x)$ changes from negative to positive, so it is a minimum.",
+    "D": "(a) $P(x)=68x-2x^2-1200$<br />(b) Maximum profit occurs at $x=17$ and $p=66$.<br />(c) $P'(x)$ changes from positive to negative at $x=17$, and $P''=-4<0$, confirming maximum."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:57:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

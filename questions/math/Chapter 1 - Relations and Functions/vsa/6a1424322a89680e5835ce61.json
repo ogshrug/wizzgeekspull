@@ -1,0 +1,25 @@
+{
+  "id": "6a1424322a89680e5835ce61",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "Prove that the greatest integer function $f:\\mathbb{R}\\rightarrow\\mathbb{R}$ given by $f(x)=[x]$, is neither one-one nor onto.",
+  "answeroption": "",
+  "explanation": "**Step 1: Check One-One.** Let $x_1 = 1.2$ and $x_2 = 1.5$. Both yield $f(x) = 1$. Since $f(1.2) = f(1.5)$ but $1.2 \\ne 1.5$, the function is not one-one.<br />**Step 2: Check Onto.** The co-domain is all real numbers $\\mathbb{R}$. However, the range only contains integers $\\mathbb{Z}$. Since there is no real number $x$ such that $[x] = 0.5$, Range $\\ne$ Co-domain. Thus, it is not onto.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

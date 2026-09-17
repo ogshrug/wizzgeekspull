@@ -1,0 +1,29 @@
+{
+  "id": "6a8d2f4777877fac8fdb9926",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40"
+  ],
+  "question_type": "SA",
+  "question": "A relation $R$ on $\\mathbb{R}$ is defined by $aRb$ if $|a-b|\\leq 1$. Examine whether $R$ is reflexive and give mathematical justification.",
+  "answeroption": "D",
+  "explanation": "<b>Reflexivity condition</b><br>For $R$ to be reflexive, $aRa$ must hold for every $a\\in\\mathbb{R}$.<br><br><b>Substitution of equal elements</b><br>Putting $b=a$, we obtain<br>$$|a-a|=0\\leq1.$$<br>Hence, $(a,a)\\in R$ for every $a\\in\\mathbb{R}$.<br><br><b>Conclusion</b><br>Therefore, $R$ is reflexive.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is not reflexive because $|a-a|<1$ instead of $|a-a|=1$",
+    "B": "$R$ is reflexive only for $a\\in[-1,1]$",
+    "C": "$R$ is not reflexive because $|a-b|$ may exceed $1$ when $a\\ne b$",
+    "D": "$R$ is reflexive because $|a-a|=0\\leq1$ for every $a\\in\\mathbb{R}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

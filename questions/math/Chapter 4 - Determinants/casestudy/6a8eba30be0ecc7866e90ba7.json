@@ -1,0 +1,31 @@
+{
+  "id": "6a8eba30be0ecc7866e90ba7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom investigation, students use the matrix $A=\\begin{bmatrix}2 & 1 & 3\\\\1 & 0 & 2\\\\4 & 1 & 5\\end{bmatrix}$ to study how elementary row operations affect a determinant. They obtain a second matrix $B$ by interchanging the first two rows of $A$, multiplying the third row by $3$, and then adding twice the first row of the resulting matrix to its second row. The students want to predict the determinant of $B$ without expanding it completely and then confirm their prediction.<br><br><b>(a)</b> Evaluate $|A|$.<br><br><b>(b)</b> Predict $|B|$ using the effects of the stated row operations.<br><br><b>(c)</b> Construct $B$ and verify its determinant by direct expansion.<br><br><b>(d)</b> Justify whether both matrices are non-singular.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Expanding along the first row,<br>$$|A|=2\\begin{vmatrix}0 & 2\\\\1 & 5\\end{vmatrix}-\\begin{vmatrix}1 & 2\\\\4 & 5\\end{vmatrix}+3\\begin{vmatrix}1 & 0\\\\4 & 1\\end{vmatrix}$$<br>$$|A|=2(0-2)-(5-8)+3(1-0)$$<br>$$|A|=-4+3+3=2$$<br><br><b>(b)</b><br>Interchanging two rows changes the sign of the determinant, so the determinant becomes $-2$. Multiplying the third row by $3$ multiplies the determinant by $3$, giving $-6$. Adding a multiple of one row to another row does not change the determinant. Therefore,<br>$$|B|=-6$$<br><br><b>(c)</b><br>After interchanging the first two rows,<br>$$\\begin{bmatrix}1 & 0 & 2\\\\2 & 1 & 3\\\\4 & 1 & 5\\end{bmatrix}$$<br>Multiplying the third row by $3$ and then applying $R_2\\to R_2+2R_1$ gives<br>$$B=\\begin{bmatrix}1 & 0 & 2\\\\4 & 1 & 7\\\\12 & 3 & 15\\end{bmatrix}$$<br>Expanding along the first row,<br>$$|B|=1\\begin{vmatrix}1 & 7\\\\3 & 15\\end{vmatrix}+2\\begin{vmatrix}4 & 1\\\\12 & 3\\end{vmatrix}$$<br>$$|B|=(15-21)+2(12-12)=-6$$<br>Thus, the predicted value is verified.<br><br><b>(d)</b><br>A square matrix is non-singular when its determinant is non-zero. Since<br>$$|A|=2\\neq0\\quad\\text{and}\\quad|B|=-6\\neq0$$<br>both $A$ and $B$ are non-singular.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=-2$<br>(b) $|B|=6$<br>(c) $B=\\begin{bmatrix}1&0&2\\\\4&1&7\\\\12&3&15\\end{bmatrix}$ and $|B|=6$<br>(d) Both matrices are non-singular",
+    "B": "(a) $|A|=2$<br>(b) $|B|=-18$<br>(c) $B=\\begin{bmatrix}1&0&2\\\\4&1&7\\\\12&3&15\\end{bmatrix}$ and $|B|=-18$<br>(d) Both matrices are non-singular",
+    "C": "(a) $|A|=2$<br>(b) $|B|=-6$<br>(c) $B=\\begin{bmatrix}1&0&2\\\\4&1&7\\\\12&3&15\\end{bmatrix}$ and $|B|=-6$<br>(d) Both matrices are non-singular",
+    "D": "(a) $|A|=2$<br>(b) $|B|=-6$<br>(c) $B=\\begin{bmatrix}1&0&2\\\\2&1&3\\\\12&3&15\\end{bmatrix}$ and $|B|=-6$<br>(d) $A$ is non-singular but $B$ is singular"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9706d62be6a70cd184d97",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Given the differential equation $\\frac{dy}{dx} + y\\tan x = \\sec x$, find the particular solution which passes through the point $(0, 1)$.",
+  "answeroption": "D",
+  "explanation": "Rewrite the equation:<br /><br />$\\frac{dy}{dx} + y\\tan x = \\sec x$<br />This is a linear equation of the form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x) = \\tan x$, $Q(x) = \\sec x$.<br />The integrating factor (I.F.) is:<br />$I.F. = e^{\\int \\tan x\\, dx} = e^{-\\ln |\\cos x|} = \\sec x$<br />Multiply both sides by I.F.:<br />$\\sec x\\frac{dy}{dx} + y\\sec x \\tan x = \\sec^2 x$<br />Simplify:<br />$\\frac{d}{dx}(y\\sec x) = \\sec^2 x$<br />Integrate both sides:<br />$y\\sec x = \\int \\sec^2 x\\, dx = \\tan x + C$<br />$y = \\tan x \\cos x + C\\cos x$<br />Using initial condition $(0,1)$:<br />$1 = 0 + C \\cdot 1 \\implies C = 1$<br />Thus, the particular solution is:<br />$y = \\tan x \\cos x + \\cos x$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\tan x+\\cos x$",
+    "B": "$y=\\sin x-\\cos x$",
+    "C": "$y=\\tan x\\cos x-\\cos x$",
+    "D": "$y=\\tan x\\cos x+\\cos x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:00:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

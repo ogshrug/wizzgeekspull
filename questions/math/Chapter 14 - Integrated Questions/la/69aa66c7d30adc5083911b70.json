@@ -1,0 +1,30 @@
+{
+  "id": "69aa66c7d30adc5083911b70",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "LA",
+  "question": "Let $A$ be the matrix $\\begin{bmatrix} 2 & x \\\\ x & 2 \\end{bmatrix}$.\n\n(a) For which values of $x$ is $A$ invertible?\n\n(b) For $x = 1$, find $A^{-1}$.\n\n(c) Define the function $f(t) = \\det(\\sin^{-1}(t)A)$, for $t \\in [-1, 1]$. Compute $f(0)$ and $f(1)$.\n\n(d) Discuss the continuity of $f$ at $t = 0$ and $t = 1$.",
+  "answeroption": "A",
+  "explanation": "**Concepts Tested:** Determinants, Matrices, Inverse Trigonometric Functions, Continuity.<br /><br />(a) $A$ is invertible if $\\det(A) \\neq 0$<br /><br />$\\det(A) = 2\\times2 - x^2 = 4 - x^2 \\neq 0$<br /><br />$\\implies x \\neq \\pm 2$<br /><br />(b) For $x = 1$:<br /><br />$A = \\begin{bmatrix} 2 & 1 \\\\ 1 & 2 \\end{bmatrix}$<br /><br />$\\det(A) = 4-1 = 3$<br /><br />$A^{-1} = \\frac{1}{3} \\begin{bmatrix} 2 & -1 \\\\ -1 & 2 \\end{bmatrix}$<br /><br />(c) $f(t) = \\det(\\sin^{-1}(t)A) = (\\sin^{-1}(t))^2\\cdot2 - (\\sin^{-1}(t))^2x^2 = (\\sin^{-1}(t))^2(4-x^2)$<br /><br />At $x=1,\\ f(t) = (\\sin^{-1}(t))^2(4-1) = 3(\\sin^{-1}(t))^2$<br /><br />$f(0) = 3(\\sin^{-1}(0))^2 = 3(0^2) = 0$<br /><br />$f(1) = 3(\\sin^{-1}(1))^2 = 3\\left(\\frac{\\pi}{2}\\right)^2 = \\frac{3\\pi^2}{4}$<br /><br />(d) $\\sin^{-1}(t)$ is continuous on $[-1,1]$, so $f(t)$ is a composition of continuous functions, hence $f(t)$ is continuous at both $t = 0$ and $t = 1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A$ is invertible for $x\\ne\\pm2$<br />(b) For $x=1$, $A^{-1}=\\frac{1}{3}\\begin{bmatrix}2&-1\\\\-1&2\\end{bmatrix}$<br />(c) For $x=1$, $f(t)=3(\\sin^{-1}t)^2$, so $f(0)=0$ and $f(1)=\\frac{3\\pi^2}{4}$<br />(d) $f$ is continuous at both $t=0$ and $t=1$",
+    "B": "(a) $A$ is invertible only for $x=\\pm2$<br />(b) For $x=1$, $A^{-1}=\\begin{bmatrix}2&1\\\\1&2\\end{bmatrix}$<br />(c) $f(0)=1$ and $f(1)=\\frac{\\pi^2}{4}$<br />(d) $f$ is discontinuous at $t=1$",
+    "C": "(a) $A$ is invertible for all real $x$<br />(b) For $x=1$, $A^{-1}=\\frac{1}{2}\\begin{bmatrix}2&-1\\\\-1&2\\end{bmatrix}$<br />(c) $f(0)=0$ and $f(1)=\\frac{\\pi^2}{2}$<br />(d) $f$ is continuous only at $t=0$",
+    "D": "(a) $A$ is never invertible<br />(b) $A^{-1}$ does not exist for $x=1$<br />(c) $f(0)=0$ and $f(1)=0$<br />(d) $f$ is not continuous on $[-1,1]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:31:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8d6440337c1f253c57af06",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the domain of the function $f(x)=\\sin^{-1}(2x-1)$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b><br>For the inverse sine function $\\sin^{-1}u$ to be defined, its argument must satisfy $-1\\leq u\\leq1$.<br><br><b>Step 2:</b><br>Substituting $u=2x-1$, the required condition is $$-1\\leq2x-1\\leq1.$$<br><br><b>Step 3:</b><br>Adding $1$ throughout the compound inequality gives $$0\\leq2x\\leq2.$$ Dividing throughout by $2$ gives $$0\\leq x\\leq1.$$<br><br><b>Step 4:</b><br>Both endpoints are included because the inverse sine function is defined when its argument is $-1$ or $1$.<br><br><b>Final Answer:</b><br>The domain of $f$ is $$[0,1].$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$[-1,1]$",
+    "B": "$[0,1)$",
+    "C": "$(0,1]$",
+    "D": "$[0,1]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

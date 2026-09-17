@@ -1,0 +1,30 @@
+{
+  "id": "69a959cbd30adc5083911a54",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A$ be any $3 \\times 3$ skew symmetric matrix. Prove that $|A|=0$.",
+  "answeroption": "B",
+  "explanation": "For any $n \\times n$ skew symmetric matrix,<br />$|A|=|A^T|=|-A|$.<br />$|-A| = (-1)^n|A|$<br />For $n=3$ (odd), $|-A| = -|A| \\Rightarrow |A| = -|A| \\implies |A|=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Since $A$ is skew symmetric, $A^T=A$. Therefore $|A|=|A^T|=|A|$, so $|A|=1$.",
+    "B": "Since $A$ is skew symmetric, $A^T=-A$. Hence $|A|=|A^T|=|-A|=(-1)^3|A|=-|A|$, so $2|A|=0$ and therefore $|A|=0$.",
+    "C": "Since $A$ is skew symmetric, all diagonal elements are $1$. Hence the determinant of $A$ is always $0$.",
+    "D": "Since $A$ is a $3 \\times 3$ matrix, $|-A|=|A|$. Hence every skew symmetric matrix has determinant $1$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:24:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

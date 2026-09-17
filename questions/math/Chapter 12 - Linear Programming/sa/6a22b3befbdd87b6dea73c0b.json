@@ -1,0 +1,28 @@
+{
+  "id": "6a22b3befbdd87b6dea73c0b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "In the Linear Programming Problem (LPP), find the point/points giving maximum value for $Z=5x+10y$ subject to constraints $x+2y\\le120, x+y\\ge60, x-2y\\ge0, x, y\\ge0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Identify the boundary intersections to find the corner points of the feasible region. The line equations are $x + 2y = 120$, $x + y = 60$, and $x = 2y$.<br /><br />**Step 2:** Find the intersection of $x + 2y = 120$ and $x = 2y$: substituting $x = 2y$ gives $2y + 2y = 120$ → $4y = 120$ → $y = 30$ and $x = 60$. This gives the corner point $(60, 30)$.<br /><br />**Step 3:** Find the intersection of $x + y = 60$ and $x = 2y$: substituting $x = 2y$ gives $2y + y = 60$ → $3y = 60$ → $y = 20$ and $x = 40$. This gives the corner point $(40, 20)$.<br /><br />**Step 4:** The remaining corner points lie along the x-axis constraints, which are $(60, 0)$ and $(120, 0)$. Thus, our full set of corner points is: $(40, 20)$, $(60, 30)$, $(120, 0)$, $(60, 0)$.<br /><br />**Step 5:** Evaluate the objective function $Z = 5x + 10y$ at each point:<br />At $(40,20)$: $Z = 5(40) + 10(20) = 400$<br />At $(60,30)$: $Z = 5(60) + 10(30) = 600$<br />At $(120,0)$: $Z = 5(120) + 10(0) = 600$<br />At $(60,0)$: $Z = 5(60) + 10(0) = 300$<br /><br />The maximum value of 600 occurs at both $(60, 30)$ and $(120, 0)$, meaning it is achieved at all points along the entire line segment connecting these two corner points.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

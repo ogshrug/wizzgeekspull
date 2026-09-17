@@ -1,0 +1,27 @@
+{
+  "id": "6a2fe51d93496b2e4e0e763a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation $(x-\\sin y)dy+\\tan y\\,dx=0.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the equation in terms of $\\frac{dx}{dy}$:<br />$$\\tan y\\frac{dx}{dy}+x=\\sin y.$$<br />Dividing by $\\tan y$, we obtain the linear differential equation<br />$$\\frac{dx}{dy}+x\\cot y=\\cos y.$$<br /><br />**Step 2:** The integrating factor is<br />$$\\text{I.F.}=e^{\\int\\cot y\\,dy}=e^{\\ln|\\sin y|}=\\sin y.$$<br /><br />**Step 3:** Multiplying throughout by the integrating factor gives<br />$$\\sin y\\frac{dx}{dy}+x\\cos y=\\sin y\\cos y,$$<br />which simplifies to<br />$$\\frac{d}{dy}(x\\sin y)=\\sin y\\cos y.$$<br />Integrating both sides,<br />$$x\\sin y=\\int\\sin y\\cos y\\,dy=\\frac{\\sin^2 y}{2}+C.$$<br />Hence, the required solution is<br />$$\\boxed{x\\sin y=\\frac{\\sin^2 y}{2}+C}.$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,572 @@
+[
+  {
+    "id": "69a9b2c5d30adc5083911b28",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "LA",
+    "question": "If a coin is tossed three times, what is the probability that at least two heads show up? Next, if the experiment is repeated 10 times (that is, 10 sets of 3 tosses each), what is the expected number of times at least two heads will occur? (c) If at least two heads are observed in exactly 8 out of the 10 experiments, what is the probability all 3 tosses in those 8 cases were heads?",
+    "options": {
+      "A": "(a) $\\frac{3}{8}$<br />(b) $\\frac{15}{4}$<br />(c) $\\frac{1}{4}$",
+      "B": "(a) $\\frac{1}{2}$<br />(b) $5$<br />(c) $\\frac{1}{65536}$",
+      "C": "(a) $\\frac{1}{2}$<br />(b) $8$<br />(c) $\\frac{1}{8}$",
+      "D": "(a) $\\frac{4}{8}$<br />(b) $5$<br />(c) $\\frac{1}{256}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a9029e0be0ecc7866e90cb1",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "SA",
+    "question": "A fair coin is tossed three times. Let $X$ denote the difference between the number of heads and the number of tails obtained. Determine all possible values of $X$ and justify that $X$ is a random variable.",
+    "options": {
+      "A": "$X\\in\\{-3,-1,1,3\\}$; $X$ is a random variable since each outcome is assigned exactly one real value",
+      "B": "$X\\in\\{-3,-2,-1,0,1,2,3\\}$; $X$ is a random variable since each value occurs equally often",
+      "C": "$X\\in\\{0,1,2,3\\}$; $X$ is a random variable since it counts the number of heads",
+      "D": "$X\\in\\{-2,0,2\\}$; $X$ is a random variable since the number of tosses is fixed"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9a381d30adc5083911aea",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "MCQ",
+    "question": "A coin is tossed thrice. Let $E$: exactly two heads, $F$: at least one tail. What is $P(E|F)$?",
+    "options": {
+      "A": "$\\frac{3}{7}$",
+      "B": "$\\frac{3}{8}$",
+      "C": "$\\frac{2}{7}$",
+      "D": "$\\frac{1}{2}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a979ecd30adc5083911ade",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "MCQ",
+    "question": "Let $E$ and $F$ be independent events such that $P(E) = 0.4$ and $P(F) = 0.8$. What is $P(E' \\cap F')$?",
+    "options": {
+      "A": "$0.12$",
+      "B": "$0.08$",
+      "C": "$0.2$",
+      "D": "$0.6$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9b54dd30adc5083911b2d",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "AR",
+    "question": "Assertion (A): If the variance of a random variable $X$ is 0, then all its possible values are equal.\n\nReason (R): The variance measures the expected squared deviation from the mean.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a968d6d30adc5083911aae",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "AR",
+    "question": "Assertion (A): For a random variable X with possible values $x_1, x_2, ..., x_n$ and corresponding probabilities $p_1, p_2, ..., p_n$, the variance of $cX$ is $c^2$ times the variance of X, where c is a constant.<br />Reason (R): The mean of $cX$ is $c$ times the mean of X.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a902b0fbe0ecc7866e90cc2",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "SA",
+    "question": "Let $A$ and $B$ be independent events. Show that $A$ and $B'$ are also independent.",
+    "options": {
+      "A": "$A$ and $B'$ are independent because $P(A\\cap B')=P(A)-P(A\\cap B)=P(A)[1-P(B)]=P(A)P(B')$",
+      "B": "$A$ and $B'$ are mutually exclusive because $B$ and $B'$ are mutually exclusive",
+      "C": "$A$ and $B'$ are not independent because $P(B')=1-P(B)$",
+      "D": "$A$ and $B'$ are independent only when $P(A)=P(B')$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a96569d30adc5083911a96",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "MCQ",
+    "question": "A bag contains 6 balls numbered 1 to 6. A ball is drawn at random. Let $E$ be the event that the number is even and $F$ the event that the number is prime. Find $P(E \\cap F)$.",
+    "options": {
+      "A": "$\\frac{1}{6}$",
+      "B": "$\\frac{1}{3}$",
+      "C": "$\\frac{1}{2}$",
+      "D": "$\\frac{2}{3}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a9029e0be0ecc7866e90cae",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "SA",
+    "question": "Events $E_1,E_2,E_3$ form a partition of a sample space such that $P(E_1)=\\frac14$, $P(E_2)=\\frac12$ and $P(E_3)=\\frac14$. For an event $A$, $P(A|E_1)=\\frac15$, $P(A|E_2)=\\frac25$ and $P(A)=\\frac25$. Find $P(A|E_3)$.",
+    "options": {
+      "A": "$\\frac{2}{5}$",
+      "B": "$\\frac{1}{2}$",
+      "C": "$\\frac{4}{5}$",
+      "D": "$\\frac{3}{5}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a9027974b490c7cde359566",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "VSA",
+    "question": "A fair coin is tossed four times. If $X$ denotes the difference between the number of heads and the number of tails obtained, determine the possible values of $X$.",
+    "options": {
+      "A": "$\\{-4,-3,-2,-1,0,1,2,3,4\\}$",
+      "B": "$\\{0,1,2,3,4\\}$",
+      "C": "$\\{-4,-2,0,2,4\\}$",
+      "D": "$\\{-3,-1,1,3\\}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a902e7d2e54880055a0a747",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "LA",
+    "question": "A random variable $X$ takes the values $0,1,2,3,4$ and its probabilities are given by $P(X=x)=k(2x+1)$. Determine the value of $k$ for which the given rule defines a probability distribution, verify the required conditions, and hence determine the probability that $X$ takes a value at least $2$.",
+    "options": {
+      "A": "$k=\\frac{1}{20}$ and $P(X\\geq2)=\\frac{4}{5}$",
+      "B": "$k=\\frac{1}{25}$ and $P(X\\geq2)=\\frac{21}{25}$",
+      "C": "$k=\\frac{1}{25}$ and $P(X\\geq2)=\\frac{16}{25}$",
+      "D": "$k=\\frac{1}{15}$ and $P(X\\geq2)=\\frac{7}{10}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9abf4d30adc5083911b08",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "AR",
+    "question": "Assertion (A): The variance of a random variable $X$ is always non-negative.<br />Reason (R): Variance is defined as $E((X - E(X))^2) \\ge 0$ for any $X$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a96567d30adc5083911a8e",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "MCQ",
+    "question": "Let $P(A) = 0.4$, $P(B) = 0.3$, $P(A \\cap B) = 0.12$. What is $P(A | B)$?",
+    "options": {
+      "A": "$0.5$",
+      "B": "$0.28$",
+      "C": "$0.4$",
+      "D": "$0.12$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9b63fd30adc5083911b40",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "SA",
+    "question": "If a pair of dice is thrown, what is the probability that the sum is 8, given that the sum is more than 6?",
+    "options": {
+      "A": "$\\frac{5}{21}$",
+      "B": "$\\frac{5}{36}$",
+      "C": "$\\frac{1}{6}$",
+      "D": "$\\frac{6}{21}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a902dc4be0ecc7866e90cca",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "LA",
+    "question": "For two events $A$ and $B$, it is given that $P(A)=\\frac{3}{5}$, $P(B)=\\frac{1}{2}$ and $P(A\\cup B)=\\frac{4}{5}$. Examine whether $A$ and $B$ are independent and hence determine $P(A'|B)$, justifying the result in terms of independence.",
+    "options": {
+      "A": "$A$ and $B$ are independent; $P(A'|B)=\\frac{2}{5}$",
+      "B": "$A$ and $B$ are independent; $P(A'|B)=\\frac{3}{5}$",
+      "C": "$A$ and $B$ are not independent; $P(A'|B)=\\frac{2}{5}$",
+      "D": "$A$ and $B$ are not independent; $P(A'|B)=\\frac{1}{5}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a970b7d30adc5083911ac5",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "AR",
+    "question": "Assertion (A): The probability of at least one success in $n$ independent Bernoulli trials is $1 - q^n$, where $q$ is the probability of failure.<br />Reason (R): The probability of no success in $n$ independent trials is $q^n$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9a381d30adc5083911ae9",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "AR",
+    "question": "Assertion (A): If the probability of a student failing in a test is 0.2 and the probability of passing in another test is 0.7, and both events are independent, then the probability that the student passes both tests is 0.56.<br />Reason (R): For two independent events E and F, $P(E \\cap F) = P(E)P(F)$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9a382d30adc5083911aee",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "VSA",
+    "question": "A box contains 10 bulbs, of which 3 are defective. If 2 bulbs are chosen at random without replacement, find the probability that at least one bulb is defective.",
+    "options": {
+      "A": "$\\frac{7}{15}$",
+      "B": "$\\frac{3}{10}$",
+      "C": "$\\frac{8}{15}$",
+      "D": "$\\frac{1}{15}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9acd1d30adc5083911b0f",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "AR",
+    "question": "Assertion (A): If a fair coin is tossed 6 times, the probability of getting at least one head is $1 - (\\frac{1}{2})^6$.<br /><br />Reason (R): Getting no head in 6 tosses of a fair coin is equivalent to getting tail in each toss, which occurs with probability $(\\frac{1}{2})^6$.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a968d7d30adc5083911ab2",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "VSA",
+    "question": "A box contains 6 red balls and 4 blue balls. Three balls are drawn at random without replacement. Find the probability that at least one is blue.",
+    "options": {
+      "A": "$\\frac{1}{6}$",
+      "B": "$\\frac{5}{6}$",
+      "C": "$\\frac{2}{5}$",
+      "D": "$\\frac{4}{10}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9aafad30adc5083911b04",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "VSA",
+    "question": "Out of 100 students, 40 like mathematics, 50 like science, and 30 like both. If one student is selected at random, what is the probability that either mathematics or science or both are liked by the student?",
+    "options": {
+      "A": "$0.5$",
+      "B": "$0.6$",
+      "C": "$0.7$",
+      "D": "$0.9$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9aaf9d30adc5083911afc",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "VSA",
+    "question": "A bag contains 3 red and 7 blue balls. Two balls are drawn at random without replacement. What is the probability that both are of different colours?",
+    "options": {
+      "A": "$\\frac{7}{15}$",
+      "B": "$\\frac{8}{15}$",
+      "C": "$\\frac{21}{90}$",
+      "D": "$\\frac{3}{10}$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a979eed30adc5083911ae6",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "LA",
+    "question": "In a lottery, there are 10 prizes and 90 blanks. A ticket is drawn at random. Find the probability that:<br />(a) the ticket is a prize,<br />(b) if 5 tickets are drawn, what is the probability that exactly one of them is a prize?<br />(c) What is the probability that at least one is a prize?",
+    "options": {
+      "A": "(a) $\\frac{1}{10}$<br />(b) $0.32805$<br />(c) $\\frac{40951}{100000}$",
+      "B": "(a) $\\frac{9}{10}$<br />(b) $\\frac{\\binom{90}{1}\\binom{10}{4}}{\\binom{100}{5}}$<br />(c) $\\frac{\\binom{90}{5}}{\\binom{100}{5}}$",
+      "C": "(a) $\\frac{1}{10}$<br />(b) $\\frac{\\binom{10}{1}\\binom{90}{4}}{\\binom{100}{5}}=\\frac{12905}{38024}$<br />(c) $1-\\frac{\\binom{90}{5}}{\\binom{100}{5}}=\\frac{79137}{190120}$",
+      "D": "(a) $\\frac{10}{90}$<br />(b) $\\frac{\\binom{10}{5}}{\\binom{100}{5}}$<br />(c) $\\frac{\\binom{10}{1}}{\\binom{100}{1}}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a96792d30adc5083911aa5",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "SA",
+    "question": "A card is drawn from a well-shuffled deck of 52 cards. If it is known that the card drawn is a king, what is the probability that it is a red king? Also, what is the probability that it is a king of hearts?",
+    "options": {
+      "A": "Red king: $\\frac{1}{4}$<br />King of hearts: $\\frac{1}{2}$",
+      "B": "Red king: $\\frac{2}{13}$<br />King of hearts: $\\frac{1}{13}$",
+      "C": "Red king: $\\frac{1}{2}$<br />King of hearts: $\\frac{1}{13}$",
+      "D": "Red king: $\\frac{1}{2}$<br />King of hearts: $\\frac{1}{4}$"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9b2c4d30adc5083911b24",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "LA",
+    "question": "A and B are two students in a class. Their chances of solving a problem independently are 1/5 and 1/4 respectively. If both try to solve the problem independently, (a) what is the probability that the problem is solved? (b) If it is solved, what is the probability it was solved by B alone? (c) If the teacher finds that the problem was not solved by either A or B, what is the probability both failed to solve it?",
+    "options": {
+      "A": "(a) $\\frac{1}{5}$<br />(b) $\\frac{1}{4}$<br />(c) $\\frac{3}{5}$",
+      "B": "(a) $\\frac{2}{5}$<br />(b) $\\frac{1}{5}$<br />(c) $\\frac{3}{5}$",
+      "C": "(a) $\\frac{3}{5}$<br />(b) $\\frac{1}{2}$<br />(c) $1$",
+      "D": "(a) $\\frac{2}{5}$<br />(b) $\\frac{1}{2}$<br />(c) $1$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9abf3d30adc5083911b05",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "MCQ",
+    "question": "A card is drawn from a well-shuffled deck. What is the conditional probability that it is an ace, given that it is a red card?",
+    "options": {
+      "A": "$\\frac{1}{26}$",
+      "B": "$\\frac{1}{13}$",
+      "C": "$\\frac{2}{13}$",
+      "D": "$\\frac{2}{26}$"
+    },
+    "difficulty": "Hard",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a902b0fbe0ecc7866e90cc0",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "SA",
+    "question": "Two cards are drawn successively without replacement from a well-shuffled deck of $52$ cards. Find the probability that the first card is a king and the second card is a queen.",
+    "options": {
+      "A": "$\\frac{1}{169}$",
+      "B": "$\\frac{4}{663}$",
+      "C": "$\\frac{4}{676}$",
+      "D": "$\\frac{1}{52}$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a96ea1d30adc5083911ab8",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "MCQ",
+    "question": "A die is thrown twice. If $A$: getting an odd number on first throw, $B$: getting an even number on second throw. What is $P(A \\cap B)$?",
+    "options": {
+      "A": "$\\frac{1}{6}$",
+      "B": "$\\frac{1}{3}$",
+      "C": "$\\frac{1}{4}$",
+      "D": "$\\frac{1}{2}$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "6a9025252e54880055a0a741",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "VSA",
+    "question": "Two students independently solve a problem with probabilities $0.7$ and $0.6$ respectively. Find the probability that the problem is solved by at least one of them.",
+    "options": {
+      "A": "$0.76$",
+      "B": "$0.82$",
+      "C": "$0.88$",
+      "D": "$0.92$"
+    },
+    "difficulty": "Easy",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  },
+  {
+    "id": "69a9b2c4d30adc5083911b26",
+    "subject": "68cc04ec9e8dfa8163c0c559",
+    "chapter": "69a6c4e8681ebad5835402ec",
+    "subtopic": "69a90f56681ebad583540305",
+    "question_type": "LA",
+    "question": "Two fair dice are thrown. Let A be the event that the sum is a multiple of 3, and B be the event that both dice show the same number. Find:\n(a) $P(A)$, $P(B)$,\n(b) $P(A\\cap B)$,\n(c) Are the events A and B independent?",
+    "options": {
+      "A": "(a) $P(A)=\\frac{1}{2}$, $P(B)=\\frac{1}{6}$<br />(b) $P(A\\cap B)=\\frac{1}{18}$<br />(c) Independent",
+      "B": "(a) $P(A)=\\frac{1}{3}$, $P(B)=\\frac{1}{6}$<br />(b) $P(A\\cap B)=\\frac{1}{12}$<br />(c) Not independent",
+      "C": "(a) $P(A)=\\frac{1}{3}$, $P(B)=\\frac{1}{6}$<br />(b) $P(A\\cap B)=\\frac{1}{18}$<br />(c) Independent",
+      "D": "(a) $P(A)=\\frac{1}{3}$, $P(B)=\\frac{1}{3}$<br />(b) $P(A\\cap B)=\\frac{1}{9}$<br />(c) Mutually exclusive"
+    },
+    "difficulty": "Medium",
+    "imageurl": null,
+    "is_diagram": false,
+    "diagram": [],
+    "test_type": "Initial"
+  }
+]

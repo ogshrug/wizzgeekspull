@@ -1,0 +1,29 @@
+{
+  "id": "69aa75c88e6d1957407fd1bd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Read the following text carefully and answer the questions that follow:<br /><br />A general election of Lok Sabha is a gigantic exercise. About 911 million people were eligible to vote and voter turnout was about 67%, the highest ever, Let I be the set of all citizens of India who were eligible to exercise their voting right in general election held in 2019. A relation 'R' is defined on I as follows: R = {(V₁, V₂) : V₁, V₂ ∈ I and both use their voting right in general election - 2019}<br /><br />1. Two neighbors X and Y ∈ I. X exercised his voting right while Y did not cast her vote in general election - 2019. Which of the following is true?<br /><br />2. Mr. 'X' and his wife 'W' both exercised their voting right in general election - 2019, Which of the following is true?<br /><br />3. Three friends F1, F2 and F3 exercised their voting right in general election-2019, then which of the following is true?<br /><br />4. The above defined relation R is __________<br /><br />5. Mr. Shyam exercised his voting right in General Election - 2019, then Mr. Shyam is related to which of the following?",
+  "answeroption": "A",
+  "explanation": "1) $R = \\{(V_1,V_2) : V_1,V_2 \\in I \\text{ and both voted}\\}$<br /><br />X voted, Y did not vote<br /><br />For $(X,Y) \\in R$, both must have voted<br /><br />So $(X,Y) \\notin R$<br /><br />Answer: (d) $(X,Y) \\notin R$<br /><br />2) Both X and W voted<br /><br />$(X,W) \\in R$ (both voted)<br /><br />$(W,X) \\in R$ (both voted)<br /><br />Answer: (a) both $(X,W)$ and $(W,X) \\in R$<br /><br />3) All three friends $F1, F2, F3$ voted<br /><br />$(F1,F2) \\in R$ (both voted)<br /><br />$(F2,F3) \\in R$ (both voted)<br /><br />$(F1,F3) \\in R$ (both voted)<br /><br />Answer: (a) $(F1,F2) \\in R$, $(F2,F3) \\in R$ and $(F1,F3) \\in R$<br /><br />4) Check properties of $R$:<br /><br />Reflexive: $(V,V) \\in R$ only if $V$ voted<br /><br />But not all eligible voters voted (67% turnout)<br /><br />So NOT reflexive<br /><br />Symmetric: If $(V_1,V_2) \\in R$, then both voted<br /><br />So $(V_2,V_1) \\in R$ ✓ Symmetric<br /><br />Transitive: If $(V_1,V_2) \\in R$ and $(V_2,V_3) \\in R$, then all three voted<br /><br />So $(V_1,V_3) \\in R$ ✓ Transitive<br /><br />Answer: (a) Symmetric and transitive but not reflexive<br /><br />5) Mr. Shyam exercised his voting right<br /><br />So he is related to all those eligible voters who cast their votes",
+  "explanation_image": [],
+  "options": {
+    "A": "1) $(X,Y)\\notin R$ because Y did not vote.<br />2) Both $(X,W)$ and $(W,X)$ belong to $R$.<br />3) $(F1,F2)$, $(F2,F3)$ and $(F1,F3)$ belong to $R$.<br />4) $R$ is symmetric and transitive but not reflexive.<br />5) Mr. Shyam is related to all eligible voters who cast their votes.",
+    "B": "1) $(X,Y)\\in R$ because X voted.<br />2) Only $(X,W)$ belongs to $R$.<br />3) No pair among the friends belongs to $R$.<br />4) $R$ is reflexive, symmetric and transitive.<br />5) Mr. Shyam is related only to himself.",
+    "C": "1) $(X,Y)\\in R$ because both are eligible voters.<br />2) Neither $(X,W)$ nor $(W,X)$ belongs to $R$.<br />3) Only $(F1,F2)$ belongs to $R$.<br />4) $R$ is reflexive but not symmetric.<br />5) Mr. Shyam is related to all eligible voters whether they voted or not.",
+    "D": "1) $(X,Y)\\notin R$.<br />2) $(X,W)\\in R$ but $(W,X)\\notin R$.<br />3) The relation fails for all three friends.<br />4) $R$ is not symmetric and not transitive.<br />5) Mr. Shyam is related to no one."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:35:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

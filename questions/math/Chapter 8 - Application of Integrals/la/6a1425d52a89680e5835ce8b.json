@@ -1,0 +1,25 @@
+{
+  "id": "6a1425d52a89680e5835ce8b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f994",
+    "6a13eb348c819562f933f999"
+  ],
+  "question_type": "LA",
+  "question": "Find the area of the triangle ABC bounded by the lines represented by the equations $5x-2y-10=0$, $x-y-9=0$ and $3x-4y-6=0$, using integration method.",
+  "answeroption": "",
+  "explanation": "**Step 1: Find the vertices of the triangle by solving the equations pairwise.** <br /><br /> Intersection of $5x - 2y - 10 = 0$ and $x - y - 9 = 0$: <br /> From $x - y = 9 \\Rightarrow y = x - 9$. Substitute into $5x - 2(x-9) = 10$: <br /> $5x - 2x + 18 = 10 \\Rightarrow 3x = -8 \\Rightarrow x = -\\frac{8}{3}$, $y = -\\frac{8}{3} - 9 = -\\frac{35}{3}$. <br /> So $A\\left(-\\frac{8}{3}, -\\frac{35}{3}\\right)$. <br /><br /> Intersection of $5x - 2y - 10 = 0$ and $3x - 4y - 6 = 0$: <br /> Multiply first by 2: $10x - 4y = 20$. Subtract second $(3x - 4y = 6)$: <br /> $7x = 14 \\Rightarrow x = 2$, then $5(2) - 2y = 10 \\Rightarrow 10 - 2y = 10 \\Rightarrow y = 0$. <br /> So $B(2, 0)$. <br /><br /> Intersection of $x - y - 9 = 0$ and $3x - 4y - 6 = 0$: <br /> From $x - y = 9 \\Rightarrow y = x - 9$. Substitute into $3x - 4(x-9) = 6$: <br /> $3x - 4x + 36 = 6 \\Rightarrow -x = -30 \\Rightarrow x = 30$, $y = 21$. <br /> So $C(30, 21)$. <br /><br /> **Step 2: Express each line as $y = f(x)$.** <br /> Line $AB$: $5x - 2y - 10 = 0 \\Rightarrow y = \\frac{5x - 10}{2} = \\frac{5x}{2} - 5$. <br /> Line $BC$: $x - y - 9 = 0 \\Rightarrow y = x - 9$. <br /> Line $AC$: $3x - 4y - 6 = 0 \\Rightarrow y = \\frac{3x - 6}{4} = \\frac{3x}{4} - \\frac{3}{2}$. <br /><br /> **Step 3: Determine upper and lower boundaries.** <br /> For $x$ from $-\\frac{8}{3}$ to $2$, upper boundary is $AB$, lower boundary is $BC$. <br /> For $x$ from $2$ to $30$, upper boundary is $AC$, lower boundary is $BC$. <br /><br /> **Step 4: Set up the area as sum of two integrals.** <br /> $\\text{Area} = \\int_{-8/3}^{2} \\left[\\left(\\frac{5x}{2} - 5\\right) - (x - 9)\\right] dx + \\int_{2}^{30} \\left[\\left(\\frac{3x}{4} - \\frac{3}{2}\\right) - (x - 9)\\right] dx$. <br /><br /> **Step 5: Simplify the integrands.** <br /> First integrand: $\\frac{5x}{2} - 5 - x + 9 = \\frac{3x}{2} + 4$. <br /> Second integrand: $\\frac{3x}{4} - \\frac{3}{2} - x + 9 = -\\frac{x}{4} + \\frac{15}{2}$. <br /><br /> **Step 6: Evaluate the integrals.** <br /> $\\int_{-8/3}^{2} \\left(\\frac{3x}{2} + 4\\right) dx = \\left[\\frac{3x^2}{4} + 4x\\right]_{-8/3}^{2}$ <br /> $= \\left(\\frac{3(4)}{4} + 8\\right) - \\left(\\frac{3(64/9)}{4} + 4(-8/3)\\right)$ <br /> $= (3 + 8) - \\left(\\frac{192/9}{4} - \\frac{32}{3}\\right) = 11 - \\left(\\frac{192}{36} - \\frac{32}{3}\\right)$ <br /> $= 11 - \\left(\\frac{16}{3} - \\frac{32}{3}\\right) = 11 - \\left(-\\frac{16}{3}\\right) = 11 + \\frac{16}{3} = \\frac{49}{3}$. <br /><br /> $\\int_{2}^{30} \\left(-\\frac{x}{4} + \\frac{15}{2}\\right) dx = \\left[-\\frac{x^2}{8} + \\frac{15x}{2}\\right]_{2}^{30}$ <br /> $= \\left(-\\frac{900}{8} + \\frac{450}{2}\\right) - \\left(-\\frac{4}{8} + \\frac{30}{2}\\right)$ <br /> $= \\left(-112.5 + 225\\right) - \\left(-0.5 + 15\\right)$ <br /> $= 112.5 - 14.5 = 98 = \\frac{294}{3}$. <br /><br /> **Step 7: Add both parts.** <br /> $\\text{Area} = \\frac{49}{3} + \\frac{294}{3} = \\frac{343}{3}$ square units. <br /><br /> **Answer:** $\\frac{343}{3}$ square units",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

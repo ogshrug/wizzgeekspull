@@ -1,0 +1,34 @@
+{
+  "id": "6a2685266dcceaa948c59e7e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): Range of $[\\sin^{-1}x + 2\\cos^{-1}x]$ is $[0, \\pi]$.<br />Reason (R): Principal value branch of \\\\ $\\sin^{-1}x$ has range $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$.",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Simplify the expression in the Assertion using the inverse trigonometric identity $\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}$. We can rewrite the expression as $f(x) = (\\sin^{-1}x + \\cos^{-1}x) + \\cos^{-1}x = \\frac{\\pi}{2} + \\cos^{-1}x$.<br />**Step 2:** Determine the range of this simplified expression. The principal value branch of $\\cos^{-1}x$ has a range of $[0, \\pi]$. Adding $\\frac{\\pi}{2}$ shifts these boundaries, resulting in a range of $[\\frac{\\pi}{2} + 0, \\frac{\\pi}{2} + \\pi] = [\\frac{\\pi}{2}, \\frac{3\\pi}{2}]$. Since this range does not equal $[0, \\pi]$, Assertion (A) is false.<br />**Step 3:** Evaluate the Reason. By definition, the principal value branch of $\\sin^{-1}x$ covers the closed interval $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$, making Reason (R) true. Since A is false and R is true, option C is the correct choice.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

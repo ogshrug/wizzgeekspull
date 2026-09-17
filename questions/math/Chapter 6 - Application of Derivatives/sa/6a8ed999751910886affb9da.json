@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed999751910886affb9da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984"
+  ],
+  "question_type": "SA",
+  "question": "Using the first derivative test, find and classify the local extrema of $f(x)=x^3-3x^2-9x+5$. Also determine the corresponding extreme values.",
+  "answeroption": "B",
+  "explanation": "<b>Critical points</b><br>$$f'(x)=3x^2-6x-9=3(x+1)(x-3)$$<br>Thus, $f'(x)=0$ at $x=-1$ and $x=3$.<br><b>Sign near $x=-1$</b><br>For $x<-1$, $f'(x)>0$, while for $-1<x<3$, $f'(x)<0$. Therefore, $f$ changes from increasing to decreasing at $x=-1$, giving a local maximum.<br><b>Sign near $x=3$</b><br>For $-1<x<3$, $f'(x)<0$, while for $x>3$, $f'(x)>0$. Hence, $x=3$ gives a local minimum.<br><b>Extreme values</b><br>$$f(-1)=10,\\qquad f(3)=-22$$<br><b>Conclusion</b><br>The local maximum value is $10$ at $x=-1$, and the local minimum value is $-22$ at $x=3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Local minimum $10$ at $x=-1$; local maximum $-22$ at $x=3$",
+    "B": "Local maximum $10$ at $x=-1$; local minimum $-22$ at $x=3$",
+    "C": "Local maximum $-10$ at $x=-1$; local minimum $22$ at $x=3$",
+    "D": "Local minimum $-22$ at $x=-1$; local maximum $10$ at $x=3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

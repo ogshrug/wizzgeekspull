@@ -1,0 +1,26 @@
+{
+  "id": "6a32654dd5dca7dcb0bf0ea9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate: $\\int_{0}^{\\pi}\\frac{x}{1+sin~x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $I = \\int_0^{\\pi} \\frac{x}{1+\\sin x} dx$. Use the property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$: $I = \\int_0^{\\pi} \\frac{\\pi-x}{1+\\sin(\\pi-x)} dx = \\int_0^{\\pi} \\frac{\\pi-x}{1+\\sin x} dx$.\n\n**Step 2:** Add the two integrals: $2I = \\int_0^{\\pi} \\frac{x + \\pi - x}{1+\\sin x} dx = \\pi \\int_0^{\\pi} \\frac{1}{1+\\sin x} dx$.\n\n**Step 3:** Multiply numerator and denominator by $(1-\\sin x)$: $2I = \\pi \\int_0^{\\pi} \\frac{1-\\sin x}{1-\\sin^2 x} dx = \\pi \\int_0^{\\pi} \\frac{1-\\sin x}{\\cos^2 x} dx$.\n\n**Step 4:** Separate into two integrals: $2I = \\pi \\int_0^{\\pi} (\\sec^2 x - \\sec x \\tan x) dx = \\pi [\\tan x - \\sec x]_0^{\\pi}$.\n\n**Step 5:** Evaluate at limits: $2I = \\pi ((\\tan \\pi - \\sec \\pi) - (\\tan 0 - \\sec 0)) = \\pi ((0 - (-1)) - (0 - 1)) = \\pi (1 + 1) = 2\\pi$. Thus, $I = \\pi$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

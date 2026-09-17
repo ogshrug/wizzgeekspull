@@ -1,0 +1,30 @@
+{
+  "id": "69a9c7aad8e9ca3b29345800",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e766d837c8c7efa6b8bc"
+  ],
+  "question_type": "VSA",
+  "question": "Given vectors $\\vec{a} = 2\\vec{i} + \\vec{j} + \\vec{k}$ and $\\vec{b} = \\vec{i} + 2\\vec{j} + \\vec{k}$, find the vector $\\vec{c}$ such that $\\vec{c}$ is perpendicular to both $\\vec{a}$ and $\\vec{b}$, and $|\\vec{c}| = 5$.",
+  "answeroption": "D",
+  "explanation": "A vector perpendicular to both vectors is given by their cross product.<br /><br />$\\vec{a}\\times\\vec{b} = -\\vec{i}-\\vec{j}+3\\vec{k}$.<br /><br />Its magnitude is $\\sqrt{11}$.<br /><br />Let $\\vec{c}=k(-\\vec{i}-\\vec{j}+3\\vec{k})$. Then $|\\vec{c}|=|k|\\sqrt{11}=5$.<br /><br />Thus $|k|=\\dfrac{5}{\\sqrt{11}}$. Hence $\\vec{c}=\\pm \\dfrac{5}{\\sqrt{11}}(-\\vec{i}-\\vec{j}+3\\vec{k})$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\pm \\frac{5}{\\sqrt{11}}(\\vec{i}+\\vec{j}+3\\vec{k})$",
+    "B": "$\\pm \\frac{5}{\\sqrt{6}}(-\\vec{i}-\\vec{j}+2\\vec{k})$",
+    "C": "$\\pm(-\\vec{i}-\\vec{j}+3\\vec{k})$",
+    "D": "$\\pm \\frac{5}{\\sqrt{11}}(-\\vec{i}-\\vec{j}+3\\vec{k})$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:12:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

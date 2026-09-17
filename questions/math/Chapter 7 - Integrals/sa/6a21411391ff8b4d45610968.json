@@ -1,0 +1,26 @@
+{
+  "id": "6a21411391ff8b4d45610968",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{\\pi}\\frac{sin^{2026}x}{sin^{2026}x+cos^{2026}x}dx$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Define the original integral as $I = \\int_{0}^{\\pi} \\frac{\\sin^{2026}x}{\\sin^{2026}x+\\cos^{2026}x} dx$. We will use properties of definite integrals to solve this.<br /><br /><b>Step 2</b> Use the definite integral property $\\int_0^{2a} f(x) dx = \\int_0^a f(x) dx + \\int_0^a f(2a-x) dx$. Here, $2a = \\pi$, so $a = \\pi/2$. Apply this to split the integral.<br /><br /><b>Step 3</b> Evaluate the function at the shifted argument $f(\\pi-x)$. We find $\\sin(\\pi-x) = \\sin x$ and $\\cos(\\pi-x) = -\\cos x$. Because the exponent 2026 is an even number, $(-\\cos x)^{2026} = \\cos^{2026} x$. Therefore, $f(\\pi-x)$ simplifies to precisely the original function $f(x)$.<br /><br /><b>Step 4</b> Because $f(x) = f(\\pi-x)$, the integral simplifies to $I = 2 \\int_0^{\\pi/2} f(x) dx = 2 \\int_0^{\\pi/2} \\frac{\\sin^{2026}x}{\\sin^{2026}x+\\cos^{2026}x} dx$. Now, apply the standard property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$ to this new integral.<br /><br /><b>Step 5</b> Replacing $x$ with $(\\frac{\\pi}{2} - x)$ transforms sine to cosine and cosine to sine, yielding $\\frac{I}{2} = \\int_0^{\\pi/2} \\frac{\\cos^{2026}x}{\\cos^{2026}x+\\sin^{2026}x} dx$. Adding this to the original form of $\\frac{I}{2}$ gives $\\frac{I}{2} + \\frac{I}{2} = \\int_0^{\\pi/2} \\frac{\\sin^{2026}x + \\cos^{2026}x}{\\sin^{2026}x+\\cos^{2026}x} dx$. This simplifies to $\\int_0^{\\pi/2} 1 dx = \\frac{\\pi}{2}$. Thus, $I = \\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

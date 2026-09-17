@@ -1,0 +1,31 @@
+{
+  "id": "6a8ec79a2e54880055a0a6bf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A data table is represented by the matrix $A=\\begin{bmatrix}1 & 2 & 3\\\\0 & -1 & 4\\\\2 & 1 & 0\\end{bmatrix}$. During a classroom investigation, the rows and columns of the table are interchanged to form $A^T$. The students then double every entry of the original matrix to form $C=2A$. They examine how transposition and multiplication of the entire matrix by a scalar affect its determinant.<br><br><b>(a)</b> Evaluate $|A|$.<br><br><b>(b)</b> Write the matrix $A^T$.<br><br><b>(c)</b> Evaluate $|A^T|$ and compare it with $|A|$.<br><br><b>(d)</b> Determine $|C|$ without directly expanding $C$ and justify the result.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Expanding along the first row,<br>$$|A|=1\\begin{vmatrix}-1 & 4\\\\1 & 0\\end{vmatrix}-2\\begin{vmatrix}0 & 4\\\\2 & 0\\end{vmatrix}+3\\begin{vmatrix}0 & -1\\\\2 & 1\\end{vmatrix}$$<br>$$|A|=1(0-4)-2(0-8)+3(0+2)$$<br>$$|A|=-4+16+6=18$$<br><br><b>(b)</b><br>Interchanging the rows and columns gives<br>$$A^T=\\begin{bmatrix}1 & 0 & 2\\\\2 & -1 & 1\\\\3 & 4 & 0\\end{bmatrix}$$<br><br><b>(c)</b><br>Expanding $|A^T|$ along the first row,<br>$$|A^T|=1\\begin{vmatrix}-1 & 1\\\\4 & 0\\end{vmatrix}+2\\begin{vmatrix}2 & -1\\\\3 & 4\\end{vmatrix}$$<br>$$|A^T|=-4+2(8+3)=18$$<br>Thus,<br>$$|A^T|=|A|=18$$<br>This verifies that transposition does not change the value of a determinant.<br><br><b>(d)</b><br>Since $A$ is a matrix of order $3$, multiplying every entry by $2$ is equivalent to taking $2$ common from each of its three rows. Therefore,<br>$$|C|=|2A|=2^3|A|$$<br>$$|C|=8(18)=144$$<br>Hence, $|C|=144$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=18$<br>(b) $A^T=\\begin{bmatrix}1&0&2\\\\2&-1&1\\\\3&4&0\\end{bmatrix}$<br>(c) $|A^T|=18=|A|$<br>(d) Since $A$ is $3\\times3$, $|2A|=2^3|A|=144$",
+    "B": "(a) $|A|=18$<br>(b) $A^T=\\begin{bmatrix}1&2&3\\\\0&-1&4\\\\2&1&0\\end{bmatrix}$<br>(c) $|A^T|=-18$<br>(d) $|2A|=2|A|=36$",
+    "C": "(a) $|A|=-18$<br>(b) $A^T=\\begin{bmatrix}1&0&2\\\\2&-1&1\\\\3&4&0\\end{bmatrix}$<br>(c) $|A^T|=18$<br>(d) $|2A|=72$",
+    "D": "(a) $|A|=18$<br>(b) $A^T=\\begin{bmatrix}1&0&2\\\\2&-1&1\\\\3&4&0\\end{bmatrix}$<br>(c) $|A^T|=18$<br>(d) $|2A|=2^2|A|=72$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

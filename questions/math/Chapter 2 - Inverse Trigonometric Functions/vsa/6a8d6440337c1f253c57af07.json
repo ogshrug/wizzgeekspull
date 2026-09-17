@@ -1,0 +1,29 @@
+{
+  "id": "6a8d6440337c1f253c57af07",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "Find the range of $f(x)=\\tan^{-1}(x^2)$ for $x\\in\\mathbb{R}$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b><br>Since $x$ is real, its square is non-negative. Therefore, $$x^2\\in[0,\\infty).$$<br><br><b>Step 2:</b><br>The function $\\tan^{-1}t$ is increasing for all real values of $t$. Hence, the least value of $\\tan^{-1}(x^2)$ occurs when $x^2=0$.<br><br><b>Step 3:</b><br>At $x=0$, $$f(0)=\\tan^{-1}0=0.$$ As $x^2$ increases without bound, $\\tan^{-1}(x^2)$ approaches $\\frac{\\pi}{2}$ but never becomes equal to it for any finite real value of $x$.<br><br><b>Step 4:</b><br>Thus, $0$ is included in the range, whereas $\\frac{\\pi}{2}$ is excluded.<br><br><b>Final Answer:</b><br>The range is $$\\left[0,\\frac{\\pi}{2}\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\left[0,\\frac{\\pi}{2}\\right)$",
+    "B": "$\\left(0,\\frac{\\pi}{2}\\right)$",
+    "C": "$\\left[0,\\frac{\\pi}{2}\\right]$",
+    "D": "$\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

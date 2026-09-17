@@ -1,0 +1,29 @@
+{
+  "id": "69aa7a88aff2be72fd28eb8f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A company produces two types of paint: exterior (E) and interior (I). For each tonne of E, it needs 4 units of chemical A and 6 units of B; for I, 5 units of A and 4 units of B. At most 20 units of A and 24 units of B are available daily. The profit per tonne is ₹500 for E and ₹600 for I. The number of tonnes of I produced cannot exceed the number of E.<br /><br />(a) Formulate this as an LPP.<br /><br />(b) Sketch and identify the feasible region's vertices.<br /><br />(c) Obtain the maximum profit production plan.",
+  "answeroption": "B",
+  "explanation": "Let $x$ = tonnes of exterior, $y$ = tonnes of interior paint.<br /><br />(a) LPP:<br /><br />Maximize $Z = 500x + 600y$<br /><br />Subject to:<br /><br />$4x + 5y \\leq 20$ (A)<br /><br />$6x + 4y \\leq 24$ (B)<br /><br />$y \\leq x$<br /><br />$x \\geq 0$, $y \\geq 0$<br /><br />(b) $4x+5y=20 \\implies y=(20-4x)/5$<br /><br />$6x+4y=24 \\implies y=(24-6x)/4$<br /><br />$y=x$ (diagonal)<br /><br />1. Intersection: $4x+5y=20$, $y=x$<br /><br />$4x+5x=20\\implies9x=20\\implies x=20/9\\approx2.22$, $y=20/9$<br /><br />2. $6x+4y=24$, $y=x$<br /><br />$6x+4x=24\\implies10x=24\\implies x=2.4$, $y=2.4$<br /><br />3. $4x+5y=20$ and $6x+4y=24$<br /><br />$4x+5y=20$<br /><br />$6x+4y=24$<br /><br />Multiply first by 2: $8x+10y=40$<br /><br />Second by 1.25: $7.5x+5y=30$<br /><br />Subtract:<br /><br />$8x+10y-7.5x-5y=40-30\\implies0.5x+5y=10$<br /><br />$0.5x=10-5y\\implies x=20-10y$<br /><br />Plug into $4x+5y=20$:<br /><br />$4(20-10y)+5y=20\\implies80-40y+5y=20\\implies-35y=20-80=-60\\implies y=60/35\\approx1.71$, then $x=20-10*1.71=20-17.1=2.9$<br /><br />Check which are feasible (all $x\\geq y\\geq0$):<br /><br />At $(2.4,2.4)$: $4*2.4+5*2.4=9.6+12=21.6>20$ — not feasible.<br /><br />At $(2.22,2.22)$: $4*2.22+5*2.22=8.88+11.1=19.98\\leq20$, $6*2.22+4*2.22=13.32+8.88=22.2\\leq24$ and $y\\leq x$.<br /><br />At $(2.9,1.71)$: $4*2.9+5*1.71=11.6+8.55=20.15>20$ so not feasible.<br /><br />Try $x$- or $y$-intercepts and $y=0$:<br /><br />$y=0$ in $4x+5y=20$: $4x=20\\implies x=5$ (5,0)<br /><br />Check $6x+4*0=24\\implies x=4$ so (4,0) is limiting<br /><br />$y=0$ in $6x+4y=24$: $6x=24\\implies x=4$ (4,0)<br /><br />Similarly $x=0$ in $4x+5y=20\\implies y=4$<br /><br />$6*0+4y=24\\implies y=6$, so point is at $(0,4)$ for chemical A, but $y\\leq x$ must have $x\\geq y$.<br /><br />The only possible extreme points are $(2.22,2.22)$ and $(4,0)$.<br /><br />(c) At $(2.22,2.22)$: $Z=500*2.22+600*2.22= (500+600)*2.22=1100*2.22\\approx2442$<br /><br />At $(4,0)$: $Z=500*4=2000$<br /><br />Max is $2442$ at $(2.22,2.22)$. Production should be about $2.22$ tonnes each for $E$ and $I$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Maximize $Z=500x+600y$ with $4x+5y\\leq20$, $6x+4y\\leq24$, $y\\leq x$, $x,y\\geq0$<br />(b) Feasible points include $(4,0)$ and $(\\frac{20}{9},\\frac{20}{9})$<br />(c) Maximum profit at $(4,0)$; produce 4 tonnes E and 0 tonnes I.",
+    "B": "(a) Maximize $Z=500x+600y$ with $4x+5y\\leq20$, $6x+4y\\leq24$, $y\\leq x$, $x,y\\geq0$<br />(b) Feasible points include $(4,0)$ and $(\\frac{20}{9},\\frac{20}{9})$<br />(c) Maximum profit at about $(2.22,2.22)$; produce about 2.22 tonnes each of E and I.",
+    "C": "(a) Maximize $Z=500x+600y$ with $4x+5y\\leq20$, $6x+4y\\leq24$, $y\\leq x$, $x,y\\geq0$<br />(b) Feasible points include $(0,4)$ and $(2.4,2.4)$<br />(c) Maximum profit at $(0,4)$; produce 0 tonnes E and 4 tonnes I.",
+    "D": "(a) Maximize $Z=500x+600y$ with $4x+5y\\leq20$, $6x+4y\\leq24$, $y\\leq x$, $x,y\\geq0$<br />(b) Feasible points include $(5,0)$ and $(2.9,1.71)$<br />(c) Maximum profit at $(5,0)$; produce 5 tonnes E and 0 tonnes I."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:56:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd4882e54880055a0a717",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a9",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "VSA",
+  "question": "Using $y=vx$, reduce $\\frac{dy}{dx}=\\frac{x^2+y^2}{2xy}$ to a variable separable differential equation in $v$ and $x$.",
+  "answeroption": "B",
+  "explanation": "Step 1: Put $y=vx$. Then $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$.<br>Step 2: Substitute $y=vx$ into the right-hand side: $\\frac{x^2+v^2x^2}{2x(vx)}=\\frac{1+v^2}{2v}$.<br>Step 3: Hence, $v+x\\frac{dv}{dx}=\\frac{1+v^2}{2v}$.<br>Step 4: Rearranging gives $x\\frac{dv}{dx}=\\frac{1+v^2-2v^2}{2v}=\\frac{1-v^2}{2v}$.<br>Step 5: Separate the variables to obtain $\\frac{2v}{1-v^2}dv=\\frac{dx}{x}$. Thus, the original homogeneous differential equation has been reduced to variable separable form.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1-v^2}{2v}dv=\\frac{dx}{x}$",
+    "B": "$\\frac{2v}{1-v^2}dv=\\frac{dx}{x}$",
+    "C": "$\\frac{2v}{1+v^2}dv=\\frac{dx}{x}$",
+    "D": "$\\frac{1+v^2}{2v}dv=\\frac{dx}{x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

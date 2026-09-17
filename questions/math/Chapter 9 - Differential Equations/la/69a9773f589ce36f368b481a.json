@@ -1,0 +1,29 @@
+{
+  "id": "69a9773f589ce36f368b481a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "LA",
+  "question": "Form and solve the differential equation whose general solution is $y = Ce^{2x} - 2$.",
+  "answeroption": "C",
+  "explanation": "Given: $y = Ce^{2x} - 2$<br /><br />Differentiate: $\\frac{dy}{dx} = 2Ce^{2x}$<br /><br />But $y + 2 = Ce^{2x}$<br /><br />So, $\\frac{dy}{dx} = 2(y + 2)$<br /><br />Differential equation: $\\frac{dy}{dx} - 2y = 4$<br /><br />Solve using integrating factor $e^{-2x}$: $y = -2 + Ce^{2x}$<br /><br />Hence solution matches the given general solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}+2y=4$<br />Solution: $y=2+Ce^{-2x}$",
+    "B": "$\\frac{dy}{dx}-2y=-4$<br />Solution: $y=2+Ce^{2x}$",
+    "C": "$\\frac{dy}{dx}-2y=4$<br />Solution: $y=-2+Ce^{2x}$",
+    "D": "$\\frac{dy}{dx}=2y$<br />Solution: $y=Ce^{2x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:29:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

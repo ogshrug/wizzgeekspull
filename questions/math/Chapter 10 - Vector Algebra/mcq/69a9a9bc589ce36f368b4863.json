@@ -1,0 +1,29 @@
+{
+  "id": "69a9a9bc589ce36f368b4863",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c9"
+  ],
+  "question_type": "MCQ",
+  "question": "Let the position vector of point $A$ be $\\vec{a} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$ and $B$ be $\\vec{b} = \\hat{i} + 5\\hat{j} + 4\\hat{k}$. If point $C$ divides $AB$ in the ratio $2:1$ externally, what is the position vector of $C$?",
+  "answeroption": "A",
+  "explanation": "Section formula for external division in ratio $m:n$:<br /><br />$\\vec{r} = \\frac{m\\vec{b} - n\\vec{a}}{m-n}$<br /><br />Plugging values: $m = 2$, $n = 1$;<br /><br />$\\vec{a} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$, $\\vec{b} = \\hat{i} + 5\\hat{j} + 4\\hat{k}$<br /><br />$\\vec{r} = \\frac{2(\\vec{b}) - 1(\\vec{a})}{2-1}$<br /><br />$= \\frac{2(\\hat{i} + 5\\hat{j} + 4\\hat{k}) - (2\\hat{i} - \\hat{j} + 3\\hat{k})}{1}$<br /><br />$= \\frac{[2\\hat{i} + 10\\hat{j} + 8\\hat{k}] - [2\\hat{i} - \\hat{j} + 3\\hat{k}]}{1}$<br /><br />$= \\frac{(2 - 2)\\hat{i} + (10 + 1)\\hat{j} + (8 - 3)\\hat{k}}{1}$<br /><br />$= 0\\hat{i} + 11\\hat{j} + 5\\hat{k}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$0\\hat{i} + 11\\hat{j} + 5\\hat{k}$",
+    "B": "$0\\hat{i} - 11\\hat{j} - 5\\hat{k}$",
+    "C": "$0\\hat{i} + 11\\hat{j} - 5\\hat{k}$",
+    "D": "$0\\hat{i} - 11\\hat{j} + 5\\hat{k}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:05:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

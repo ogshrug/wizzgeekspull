@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed00b2e54880055a0a6c9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f"
+  ],
+  "question_type": "VSA",
+  "question": "Using a suitable linear approximation at $x=1$, estimate the value of $(1.02)^5$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> Let $f(x)=x^5$ and use the nearby convenient value $a=1$. The required value is $f(1.02)$.<br><b>Step 2:</b> We have $f(1)=1$ and $$f'(x)=5x^4$$<br><b>Step 3:</b> Therefore, $f'(1)=5$, while the change in $x$ is $1.02-1=0.02$.<br><b>Step 4:</b> By linear approximation, $$f(1.02)\\approx f(1)+f'(1)(0.02)$$ $$f(1.02)\\approx1+5(0.02)$$<br><b>Step 5:</b> Hence, $(1.02)^5\\approx1.10$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1.10$",
+    "B": "$1.02$",
+    "C": "$1.20$",
+    "D": "$1.05$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

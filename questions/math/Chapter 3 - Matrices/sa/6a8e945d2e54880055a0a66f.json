@@ -1,0 +1,29 @@
+{
+  "id": "6a8e945d2e54880055a0a66f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57"
+  ],
+  "question_type": "SA",
+  "question": "Find $x$ and $y$ if $$A=\\begin{bmatrix}2 & x+1 & 3 \\\\ 5 & 1 & y \\\\ 3 & -2 & 4\\end{bmatrix}$$ is a symmetric matrix.",
+  "answeroption": "D",
+  "explanation": "<b>Symmetry condition</b><br>For a symmetric matrix, corresponding entries on opposite sides of the diagonal are equal.<br><b>Comparison of corresponding entries</b><br>From $a_{12}=a_{21}$, $$x+1=5\\Rightarrow x=4$$<br>From $a_{23}=a_{32}$, $$y=-2$$<br>The entries $a_{13}$ and $a_{31}$ are already equal since both are $3$.<br><b>Required values</b><br>$$x=4,\\quad y=-2$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=4,\\ y=2$",
+    "B": "$x=-4,\\ y=-2$",
+    "C": "$x=5,\\ y=-3$",
+    "D": "$x=4,\\ y=-2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

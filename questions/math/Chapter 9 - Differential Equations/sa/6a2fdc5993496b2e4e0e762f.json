@@ -1,0 +1,27 @@
+{
+  "id": "6a2fdc5993496b2e4e0e762f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation $y~dx+(x-y^{3})dy=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rearrange the equation into standard linear form relative to $x$: $y\\frac{dx}{dy} + x = y^3 \\implies \\frac{dx}{dy} + \\frac{1}{y}x = y^2$. Here, $P(y) = \\frac{1}{y}$ and $Q(y) = y^2$.<br />**Step 2:** Compute the Integrating Factor: $\\text{I.F.} = e^{\\int \\frac{1}{y}dy} = e|\\ln y| = y$.<br />**Step 3:** Formulate the final solution: $x \\cdot (\\text{I.F.}) = \\int Q(y) \\cdot (\\text{I.F.}) \\, dy \\implies xy = \\int y^2 \\cdot y \\, dy = \\int y^3 \\, dy = \\frac{y^4}{4} + C$. Therefore, the solution is $xy = \\frac{y^4}{4} + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

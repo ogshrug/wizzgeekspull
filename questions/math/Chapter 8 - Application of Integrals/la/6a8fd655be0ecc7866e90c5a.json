@@ -1,0 +1,32 @@
+{
+  "id": "6a8fd655be0ecc7866e90c5a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996",
+    "6a13eb338c819562f933f997",
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999"
+  ],
+  "question_type": "LA",
+  "question": "The ellipse $\\frac{x^2}{9}+\\frac{y^2}{4}=1$ lies inside the circle $x^2+y^2=9$. Determine the points at which their boundaries intersect and, using integration rather than directly subtracting their standard area formulas, calculate the total area lying inside the circle but outside the ellipse.",
+  "answeroption": "C",
+  "explanation": "Points of IntersectionFor the circle,`y^2=9-x^2`For the ellipse,`y^2=4-\\frac{4x^2}{9}=\\frac{4}{9}\\left(9-x^2\\right)`At their points of intersection,`9-x^2=\\frac{4}{9}\\left(9-x^2\\right)\\frac{5}{9}\\left(9-x^2\\right)=0`Thus, $x=\\pm3$ and $y=0$. Hence, the boundaries intersect at $\\left(-3,0\\right)$ and $\\left(3,0\\right)$.Formation of the Area IntegralThe upper semicircle is`y=\\sqrt{9-x^2}`The upper half of the ellipse is`y=\\frac{2}{3}\\sqrt{9-x^2}`The regions above and below the $x$-axis are equal. Therefore,`A=2\\int_{-3}^{3}\\left(\\sqrt{9-x^2}-\\frac{2}{3}\\sqrt{9-x^2}\\right)dxA=\\frac{2}{3}\\int_{-3}^{3}\\sqrt{9-x^2}\\,dx`EvaluationPut $x=3\\sin\\theta$. Then $dx=3\\cos\\theta\\,d\\theta$, and the limits become $-\\frac{\\pi}{2}$ and $\\frac{\\pi}{2}$. Hence,`A=\\frac{2}{3}\\times9\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\cos^2\\theta\\,d\\theta A=6\\times\\frac{\\pi}{2}=3\\pi`Final ResultThe total area lying inside the circle but outside the ellipse is $3\\pi$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "Boundary intersections $(-3,0)$ and $(3,0)$; total area inside circle but outside ellipse $=6\\pi$",
+    "B": "Boundary intersections $(0,-3)$ and $(0,3)$; total area inside circle but outside ellipse $=3\\pi$",
+    "C": "Boundary intersections $(-3,0)$ and $(3,0)$; total area inside circle but outside ellipse $=3\\pi$",
+    "D": "Boundary intersections $(-3,0)$ and $(3,0)$; total area inside circle but outside ellipse $=9\\pi$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a3279e5d5dca7dcb0bf0ebc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "SA",
+  "question": "Find the values of $a$ and $b$ so that the following function is differentiable for all values of $x$ : $f(x) = \\begin{cases} ax+b &, x > -1 \\\\ bx^2-3 &, x \\le -1 \\end{cases}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiability implies continuity. Set $\\lim_{x \\to -1^-} f(x) = \\lim_{x \\to -1^+} f(x)$: $b(-1)^2 - 3 = a(-1) + b \\implies b - 3 = -a + b \\implies a = 3$.\n\n**Step 2:** For the function to be differentiable at $x=-1$, the left-hand derivative must equal the right-hand derivative: $\\frac{d}{dx}(bx^2-3)|_{x=-1} = \\frac{d}{dx}(ax+b)|_{x=-1}$.\n\n**Step 3:** Compute derivatives and equate: $2bx|_{x=-1} = a \\implies -2b = a$.\n\n**Step 4:** Substitute $a = 3$ to find $b$: $-2b = 3 \\implies b = -\\frac{3}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

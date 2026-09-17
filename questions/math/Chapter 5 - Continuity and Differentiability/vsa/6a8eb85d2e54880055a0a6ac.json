@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb85d2e54880055a0a6ac",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "VSA",
+  "question": "If $y=\\log(x^2+4)$, find $\\left.\\frac{dy}{dx}\\right|_{x=2}$.",
+  "answeroption": "B",
+  "explanation": "Step 1: The logarithmic function has argument $u=x^2+4$, which is positive for every real $x$.<br>Step 2: For $y=\\log u$, the derivative is $\\frac{dy}{dx}=\\frac{1}{u}\\frac{du}{dx}$.<br>Step 3: Since $u=x^2+4$, we have $\\frac{du}{dx}=2x$. Thus, $\\frac{dy}{dx}=\\frac{2x}{x^2+4}$.<br>Step 4: Substituting $x=2$ gives $\\frac{dy}{dx}=\\frac{4}{4+4}$.<br>Step 5: Therefore, $\\left.\\frac{dy}{dx}\\right|_{x=2}=\\frac{4}{8}=\\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{4}$",
+    "B": "$\\frac{1}{2}$",
+    "C": "$1$",
+    "D": "$2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

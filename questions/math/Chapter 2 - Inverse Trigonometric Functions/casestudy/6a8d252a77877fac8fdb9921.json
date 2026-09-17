@@ -1,0 +1,30 @@
+{
+  "id": "6a8d252a77877fac8fdb9921",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A group compares inverse tangent and inverse cotangent using $u=\\tan^{-1}(-\\sqrt{3})$ and $v=\\cot^{-1}\\left(-\\dfrac{1}{\\sqrt{3}}\\right)$. The principal-value range of $\\tan^{-1}x$ is $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$, whereas the principal-value range of $\\cot^{-1}x$ is $(0,\\pi)$. Although $\\tan u=-\\sqrt{3}$ and $\\cot v=-\\dfrac{1}{\\sqrt{3}}$ describe the same tangent ratio, the inverse functions return angles from different intervals. The group uses the property $\\tan^{-1}x+\\cot^{-1}x=\\dfrac{\\pi}{2}$ for every real $x$ to compare the two values and determine their relationship.<br><br><b>(a)</b> Determine the principal value of $u$.<br><br><b>(b)</b> Determine the principal value of $v$.<br><br><b>(c)</b> Calculate $v-u$.<br><br><b>(d)</b> Verify $\\tan^{-1}x+\\cot^{-1}x=\\dfrac{\\pi}{2}$ for $x=-\\sqrt{3}$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The angle in $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ whose tangent is $-\\sqrt{3}$ is $-\\dfrac{\\pi}{3}$. Therefore,<br>$$u=\\tan^{-1}(-\\sqrt{3})=-\\frac{\\pi}{3}$$<br><br><b>(b)</b><br>Since<br>$$\\cot\\frac{2\\pi}{3}=-\\frac{1}{\\sqrt{3}}$$<br>and $\\dfrac{2\\pi}{3}\\in(0,\\pi)$, the principal value is<br>$$v=\\cot^{-1}\\left(-\\frac{1}{\\sqrt{3}}\\right)=\\frac{2\\pi}{3}$$<br><br><b>(c)</b><br>Using the values of $u$ and $v$,<br>$$v-u=\\frac{2\\pi}{3}-\\left(-\\frac{\\pi}{3}\\right)=\\pi$$<br>Hence, the two principal values differ by $\\pi$.<br><br><b>(d)</b><br>For $x=-\\sqrt{3}$,<br>$$\\tan^{-1}(-\\sqrt{3})=-\\frac{\\pi}{3}$$<br>Also,<br>$$\\cot^{-1}(-\\sqrt{3})=\\frac{5\\pi}{6}$$<br>Therefore,<br>$$\\tan^{-1}(-\\sqrt{3})+\\cot^{-1}(-\\sqrt{3})=-\\frac{\\pi}{3}+\\frac{5\\pi}{6}=\\frac{\\pi}{2}$$<br>Thus, the property is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $u=\\dfrac{2\\pi}{3}$<br><br>(b) $v=-\\dfrac{\\pi}{3}$<br><br>(c) $v-u=-\\pi$<br><br>(d) $\\tan^{-1}(-\\sqrt{3})+\\cot^{-1}(-\\sqrt{3})=-\\dfrac{\\pi}{2}$",
+    "B": "(a) $u=-\\dfrac{\\pi}{3}$<br><br>(b) $v=\\dfrac{\\pi}{3}$<br><br>(c) $v-u=\\dfrac{2\\pi}{3}$<br><br>(d) $\\tan^{-1}(-\\sqrt{3})+\\cot^{-1}(-\\sqrt{3})=0$",
+    "C": "(a) $u=\\dfrac{2\\pi}{3}$<br><br>(b) $v=\\dfrac{2\\pi}{3}$<br><br>(c) $v-u=0$<br><br>(d) $\\tan^{-1}(-\\sqrt{3})+\\cot^{-1}(-\\sqrt{3})=\\pi$",
+    "D": "(a) $u=-\\dfrac{\\pi}{3}$<br><br>(b) $v=\\dfrac{2\\pi}{3}$<br><br>(c) $v-u=\\pi$<br><br>(d) $\\tan^{-1}(-\\sqrt{3})+\\cot^{-1}(-\\sqrt{3})=-\\dfrac{\\pi}{3}+\\dfrac{5\\pi}{6}=\\dfrac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

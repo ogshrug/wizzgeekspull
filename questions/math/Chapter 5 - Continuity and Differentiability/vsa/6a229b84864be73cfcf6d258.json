@@ -1,0 +1,27 @@
+{
+  "id": "6a229b84864be73cfcf6d258",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "VSA",
+  "question": "If $f(x)=|tan~2x|$, then find the value of $f^{\\prime}(x)$ at $x=\\frac{\\pi}{3}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To differentiate the absolute value function $f(x) = |\\tan(2x)|$, we first determine the sign of the expression inside the absolute value at the specified point $x = \\frac{\\pi}{3}$.<br />**Step 2:** Calculate $\\tan(2x)$ at $x = \\frac{\\pi}{3}$. This is $\\tan(\\frac{2\\pi}{3})$. The angle $\\frac{2\\pi}{3}$ is in the second quadrant, where the tangent function is negative. Specifically, $\\tan(\\frac{2\\pi}{3}) = -\\sqrt{3}$.<br />**Step 3:** Because the argument is strictly negative in the neighborhood of $x = \\frac{\\pi}{3}$, the absolute value function resolves to its negative counterpart: $f(x) = -\\tan(2x)$.<br />**Step 4:** Differentiate this resolved function using the chain rule. $f'(x) = -\\sec^2(2x) \\cdot \\frac{d}{dx}(2x) = -2\\sec^2(2x)$.<br />**Step 5:** Substitute $x = \\frac{\\pi}{3}$ into the derivative expression. $f'(\\frac{\\pi}{3}) = -2\\sec^2(\\frac{2\\pi}{3})$. Since $\\sec(\\frac{2\\pi}{3}) = \\frac{1}{\\cos(2\\pi/3)} = \\frac{1}{-1/2} = -2$, we have $\\sec^2(\\frac{2\\pi}{3}) = (-2)^2 = 4$. Thus, $f'(\\frac{\\pi}{3}) = -2(4) = -8$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

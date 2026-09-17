@@ -1,0 +1,29 @@
+{
+  "id": "6a22a0a6864be73cfcf6d269",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "Find $\\frac{dy}{dx}$ if $(cos~x)^{y}=(cos~y)^{x}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given equation has variables in both the base and the exponent on both sides. The standard approach is to use logarithmic differentiation. Take the natural logarithm ($\\ln$) of both sides: $\\ln((\\cos x)^y) = \\ln((\\cos y)^x)$.<br />**Step 2:** Apply the power rule for logarithms to bring the exponents down: $y \\ln(\\cos x) = x \\ln(\\cos y)$.<br />**Step 3:** Differentiate both sides implicitly with respect to $x$, using the product rule $(uv)' = u'v + uv'$ and chain rule. Left side: $\\frac{dy}{dx} \\ln(\\cos x) + y \\cdot \\frac{1}{\\cos x} (-\\sin x) = \\frac{dy}{dx} \\ln(\\cos x) - y \\tan x$.<br />**Step 4:** Differentiate the right side: $1 \\cdot \\ln(\\cos y) + x \\cdot \\frac{1}{\\cos y} (-\\sin y) \\frac{dy}{dx} = \\ln(\\cos y) - x \\tan y \\frac{dy}{dx}$. Equating both sides yields: $\\frac{dy}{dx} \\ln(\\cos x) - y \\tan x = \\ln(\\cos y) - x \\tan y \\frac{dy}{dx}$.<br />**Step 5:** Group terms with $\\frac{dy}{dx}$ on one side to isolate it. $\\frac{dy}{dx} \\ln(\\cos x) + x \\tan y \\frac{dy}{dx} = \\ln(\\cos y) + y \\tan x$. Factor out the derivative: $\\frac{dy}{dx} [\\ln(\\cos x) + x \\tan y] = \\ln(\\cos y) + y \\tan x$. Finally, divide to solve: $\\frac{dy}{dx} = \\frac{\\ln(\\cos y) + y \\tan x}{\\ln(\\cos x) + x \\tan y}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

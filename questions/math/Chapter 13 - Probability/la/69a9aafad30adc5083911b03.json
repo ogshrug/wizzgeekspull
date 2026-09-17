@@ -1,0 +1,29 @@
+{
+  "id": "69a9aafad30adc5083911b03",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "LA",
+  "question": "A box contains 4 red, 5 white, and 6 green balls. Three balls are drawn at random without replacement. Find the probability that:<br /><br />(a) All the balls are of different colours.<br />(b) At least two balls are white.<br />(c) All balls are of the same colour.",
+  "answeroption": "A",
+  "explanation": "Total: $4+5+6=15$ balls<br /><br />Number of ways to draw 3 balls: $\\binom{15}{3} = 455$<br /><br />(a) All different colours:<br />Choose 1 red: 4, 1 white: 5, 1 green: 6 ways.<br />Total: $4 \\times 5 \\times 6 = 120$<br />Probability: $120/455 = 24/91$<br /><br />(b) At least two white:<br />(i) Exactly two whites: $\\binom{5}{2} \\times 10$ (for the third from rest)<br />$=10 \\times 10=100$<br /><br />(ii) All three whites: $\\binom{5}{3} =10$<br /><br />Sum: $100+10=110$<br />Probability: $110/455 = 22/91$<br /><br />(c) All same: All reds: $\\binom{4}{3}=4$, All whites: $\\binom{5}{3}=10$, All greens: $\\binom{6}{3}=20$<br /><br />Total: $4+10+20=34$<br />Probability: $34/455 = 2/27$ (approx.)",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{24}{91}$<br />(b) $\\frac{22}{91}$<br />(c) $\\frac{34}{455}$",
+    "B": "(a) $\\frac{120}{15}$<br />(b) $\\frac{110}{455}$<br />(c) $\\frac{2}{27}$",
+    "C": "(a) $\\frac{24}{91}$<br />(b) $\\frac{10}{91}$<br />(c) $\\frac{34}{91}$",
+    "D": "(a) $\\frac{22}{91}$<br />(b) $\\frac{24}{91}$<br />(c) $\\frac{34}{455}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:10:34 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a92c126638848124d7c8e6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "If $0 < x < 1$ and $y = \\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$, prove that $\\sin y = \\frac{2x}{1+x^2}$ and $y = 2\\tan^{-1}x$. Hence evaluate $\\tan^{-1}(\\frac{2}{3}) + \\tan^{-1}(\\frac{3}{4})$.",
+  "answeroption": "B",
+  "explanation": "Let $y = \\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$.<br /><br />Then $\\tan y = \\frac{2x}{1-x^2}$.<br /><br />Let $x = \\tan \\theta$.<br /><br />Using the identity $\\tan 2\\theta = \\frac{2\\tan\\theta}{1-\\tan^2\\theta}$.<br /><br />Thus $\\tan y = \\tan 2\\theta$.<br /><br />Hence $y = 2\\theta = 2\\tan^{-1}x$.<br /><br />Now $\\sin y = \\sin 2\\theta = 2\\sin\\theta\\cos\\theta$.<br /><br />Substituting $\\sin\\theta = \\frac{x}{\\sqrt{1+x^2}}$ and $\\cos\\theta = \\frac{1}{\\sqrt{1+x^2}}$.<br /><br />Thus $\\sin y = \\frac{2x}{1+x^2}$.<br /><br />For the evaluation:<br /><br />$\\tan^{-1}(\\frac{2}{3}) + \\tan^{-1}(\\frac{3}{4}) = \\tan^{-1}\\left(\\frac{\\frac{2}{3}+\\frac{3}{4}}{1-\\frac{2}{3}\\cdot\\frac{3}{4}}\\right)$.<br /><br />$= \\tan^{-1}(\\frac{17}{6})$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Using $y=\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$ gives $y=\\tan^{-1}x$ and $\\sin y=\\frac{x}{\\sqrt{1+x^2}}$; hence the sum is $\\tan^{-1}\\left(\\frac{6}{17}\\right)$.",
+    "B": "Using $x=\\tan\\theta$ gives $y=2\\tan^{-1}x$ and $\\sin y=\\frac{2x}{1+x^2}$; hence $\\tan^{-1}(\\frac{2}{3})+\\tan^{-1}(\\frac{3}{4})=\\tan^{-1}(\\frac{17}{6})$.",
+    "C": "Using $x=\\sin\\theta$ gives $y=2\\sin^{-1}x$ and $\\sin y=\\frac{2x}{1-x^2}$; hence the sum is $\\tan^{-1}\\left(\\frac{17}{12}\\right)$.",
+    "D": "Using $x=\\tan\\theta$ gives $y=\\tan^{-1}(2x)$ and $\\sin y=\\frac{2x}{\\sqrt{1+4x^2}}$; hence the sum is $\\tan^{-1}\\left(\\frac{17}{24}\\right)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:09:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

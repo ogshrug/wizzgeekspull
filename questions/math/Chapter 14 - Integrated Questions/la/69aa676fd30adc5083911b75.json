@@ -1,0 +1,30 @@
+{
+  "id": "69aa676fd30adc5083911b75",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Consider the function $f(x) = x^2 \\sin^{-1}x$ defined for $x \\in [-1,1]$.\n\n(a) Prove that $f$ is continuous on $[-1,1]$.\n\n(b) Find $f'(x)$.\n\n(c) Find the local maxima and minima of $f$ on $(-1,1)$.\n\n(d) Compute $\\int_{0}^{1} f'(x)\\,dx$ and interpret its value in terms of definite integrals of inverse trigonometric functions.",
+  "answeroption": "B",
+  "explanation": "**Concepts tested:** Continuity, differentiability, applications of derivatives, properties of inverse trigonometric functions and definite integrals.<br /><br />**Step 1: Prove $f$ is continuous on $[-1,1]$**<br /><br />$f(x) = x^2 \\sin^{-1}x$; $x^2$ is continuous everywhere; $\\sin^{-1}x$ is continuous on $[-1,1]$, so their product is continuous on $[-1,1]$.<br /><br />**Step 2: Find $f'(x)$**<br /><br />$f'(x) = \\frac{d}{dx}(x^2 \\sin^{-1}x) = 2x \\sin^{-1}x + x^2 \\cdot \\frac{1}{\\sqrt{1-x^2}}$<br /><br />**Step 3: Find local maxima and minima of $f$ on $(-1,1)$**<br /><br />Set $f'(x) = 0$:<br />$2x \\sin^{-1}x + \\frac{x^2}{\\sqrt{1-x^2}} = 0$<br /><br />Let $x=0$: LHS is 0.<br /><br />Endpoints: $f(-1) = -\\frac{\\pi}{2}$, $f(1) = \\frac{\\pi}{2}$.<br /><br />**Step 4: Evaluate $\\int_{0}^{1} f'(x)dx$**<br /><br />By the Fundamental Theorem of Calculus,<br />$\\int_0^1 f'(x) dx = f(1) - f(0) = \\frac{\\pi}{2}$.<br /><br />So, the value represents the net change in $f(x)$ from $x=0$ to $x=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is discontinuous at $x=\\pm1$<br />(b) $f'(x)=\\sin^{-1}x$<br />(c) No critical point exists<br />(d) $\\int_0^1f'(x)dx=0$",
+    "B": "(a) $f$ is continuous on $[-1,1]$ because it is the product of continuous functions $x^2$ and $\\sin^{-1}x$<br />(b) $f'(x)=2x\\sin^{-1}x+\\frac{x^2}{\\sqrt{1-x^2}}$<br />(c) From the given critical-point equation, $x=0$ is a critical point in $(-1,1)$<br />(d) $\\int_0^1f'(x)\\,dx=f(1)-f(0)=\\frac{\\pi}{2}$, representing the net change in $f$ from $0$ to $1$",
+    "C": "(a) $f$ is continuous only on $(0,1)$<br />(b) $f'(x)=2x\\sin^{-1}x-\\frac{x^2}{\\sqrt{1-x^2}}$<br />(c) $x=1$ is the only local extremum in $(-1,1)$<br />(d) $\\int_0^1f'(x)dx=\\pi$",
+    "D": "(a) $f$ is not continuous at $x=0$<br />(b) $f'(x)=\\frac{2x}{\\sqrt{1-x^2}}$<br />(c) $x=-1$ and $x=1$ are local extrema in $(-1,1)$<br />(d) $\\int_0^1f'(x)dx=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:34:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

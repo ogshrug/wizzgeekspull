@@ -1,0 +1,28 @@
+{
+  "id": "6a266c53864be73cfcf6d38e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate: <br />$$cos^{-1}[cos(-\\frac{7\\pi}{3})]$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To evaluate the inverse trigonometric expression $\\cos^{-1}\\left[\\cos\\left(-\\frac{7\\pi}{3}\\right)\\right]$, we first use the symmetric properties of the cosine function. Cosine is an even function, which satisfies the mathematical identity $\\cos(-\\theta) = \\cos\\theta$. Applying this rule to our argument simplifies it to: $\\cos\\left(-\\frac{7\\pi}{3}\\right) = \\cos\\left(\\frac{7\\pi}{3}\\right)$.<br />**Step 2:** The principal value branch zone for the inverse cosine function $\\cos^{-1} x$ is strictly bounded within the closed interval $[0, \\pi]$. The current angle argument $\\frac{7\\pi}{3}$ is clearly greater than $\\pi$, so we cannot directly cancel the functions. We must find an equivalent angle within the principal range by breaking down the fraction using its period of $2\\pi$: $\\frac{7\\pi}{3} = 2\\pi + \\frac{\\pi}{3}$.<br />**Step 3:** Apply the periodic boundary property of trigonometric functions, which states that $\\cos(2\\pi + \\theta) = \\cos\\theta$. This simplifies our expression to: $\\cos\\left(2\\pi + \\frac{\\pi}{3}\\right) = \\cos\\left(\\frac{\\pi}{3}\\right)$. Substituting this back into the main equation gives: $\\cos^{-1}\\left[\\cos\\left(\\frac{\\pi}{3}\\right)\\right]$. Since the angle $\\frac{\\pi}{3}$ belongs to the principal interval $[0, \\pi]$, the operations cancel out perfectly, giving the final numeric answer: $\\frac{\\pi}{3}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

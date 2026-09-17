@@ -1,0 +1,30 @@
+{
+  "id": "6a1830a3d429e802c45d70a5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "MCQ",
+  "question": "If $x=t^{3}$ and $y=t^{2}$, then $\\frac{d^{2}y}{dx^{2}}$ at $t=1$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Compute the individual first-order derivatives with respect to parameter $t$: $\\frac{dx}{dt} = 3t^2$ and $\\frac{dy}{dt} = 2t$. Combine them to find $\\frac{dy}{dx} = \\frac{2t}{3t^2} = \\frac{2}{3t} = \\frac{2}{3}t^{-1}$.<br /><br />**Step 2:** Find the second derivative by applying the Chain Rule: $\\frac{d^2y}{dx^2} = \\frac{d}{dt}\\left(\\frac{dy}{dx}\\right) \\cdot \\frac{dt}{dx} = \\frac{-\\frac{2}{3}t^{-2}}{3t^2} = -\\frac{2}{9t^4}$.<br /><br />**Step 3:** Evaluate at $t = 1$: $-\\frac{2}{9(1)^4} = -\\frac{2}{9}$, which corresponds to Option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{2}$",
+    "B": "$-\\frac{2}{9}$",
+    "C": "$-\\frac{3}{2}$",
+    "D": "$-\\frac{2}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

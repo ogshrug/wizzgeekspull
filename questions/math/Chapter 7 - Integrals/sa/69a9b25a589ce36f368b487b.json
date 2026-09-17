@@ -1,0 +1,29 @@
+{
+  "id": "69a9b25a589ce36f368b487b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int_0^\\pi \\sin^3 x dx$ using the reduction formula or trigonometric identities.",
+  "answeroption": "D",
+  "explanation": "Use the identity $\\sin^3 x = \\sin x(1-\\cos^2 x)$.<br /><br />So $\\sin^3 x = \\sin x - \\sin x\\cos^2 x$.<br /><br />Let $I = \\int_0^{\\pi} \\sin^3 x dx = \\int_0^{\\pi} \\sin x dx - \\int_0^{\\pi} \\sin x\\cos^2 x dx$.<br /><br />First integral: $\\int_0^{\\pi} \\sin x dx = [-\\cos x]_0^{\\pi} = 2$.<br /><br />Let $J = \\int_0^{\\pi} \\sin x\\cos^2 x dx$.<br /><br />Put $u=\\cos x$, $du=-\\sin x dx$. Limits change from $1$ to $-1$.<br /><br />Thus $J = \\int_{-1}^{1} u^2 du = [u^3/3]_{-1}^{1} = 2/3$.<br /><br />Therefore $I = 2 - 2/3 = 4/3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{3}$",
+    "B": "$2$",
+    "C": "$\\frac{8}{3}$",
+    "D": "$\\frac{4}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:42:02 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

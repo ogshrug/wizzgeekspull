@@ -1,0 +1,33 @@
+{
+  "id": "6a265cc5850cc99714b54f3b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A) : The relation $R=\\{(x,y):(x+y)\\text{ is a prime number and }x,y\\in N\\}$ is not a reflexive relation.<br />Reason (R) : The number $2n$ is composite for all natural numbers $n$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> To check reflexivity, a relation must satisfy $(x,x)\\in R$ for every $x\\in N$. Here, $(x,x)\\in R$ requires $x+x=2x$ to be a prime number for every natural number $x$.<br /><br /><b>Step 2</b> Consider $x=2$. Then $x+x=4$, which is not a prime number. Therefore, $(2,2)\\notin R$. Since at least one element fails the reflexive condition, the relation is not reflexive. Hence, Assertion (A) is true.<br /><br /><b>Step 3</b> Now examine Reason (R). The statement claims that $2n$ is composite for all natural numbers $n$. Taking $n=1$, we get $2n=2$, which is a prime number and not composite.<br /><br /><b>Step 4</b> Therefore, Reason (R) is false. Since Assertion (A) is true and Reason (R) is false, the correct option is C.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "69a984cd62be6a70cd184dc3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d47",
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\{1,2,3,4\\}$ and $B = \\{a, b, c, d\\}$.<br /><br />(a) How many bijective functions $f: A \\to B$ exist?<br /><br />(b) Given $g: B \\to A$ is defined as the inverse of a bijection $f$, prove $g \\circ f = I_A$ and $f \\circ g = I_B$.<br /><br />(c) If $h: A \\to B$ is not bijection, prove that an inverse for $h$ cannot exist and justify logically by examining the failure of one-one or onto property.",
+  "answeroption": "A",
+  "explanation": "(a) The number of bijective functions from $A$ to $B$ (with $|A| = |B| = 4$) is $4! = 24$.<br /><br />(b) Let $f: A \\to B$ be a bijection and $g: B \\to A$ its inverse.<br /><br />By definition, $g(f(a)) = a$ for all $a \\in A$ (i.e., $g \\circ f = I_A$) and $f(g(b)) = b$ for all $b \\in B$ (i.e., $f \\circ g = I_B$).<br /><br />(c) If $h$ is not a bijection, either it is not injective (so $h(a_1)=h(a_2)$ with $a_1 \\ne a_2$) or not surjective (some $b \\in B$ not in range).<br /><br />If not one-one, no function $g: B \\to A$ can satisfy $g(h(a_1))=a_1$ and $g(h(a_2))=a_2$ for $h(a_1)=h(a_2)$, so $g$ is not well-defined.<br /><br />If not onto, then there exists $b ^* \\in B$ not hit by $h$, so $g(b^*)$ is undefined. Thus, an inverse function cannot exist unless $h$ is bijection.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) There are $4!=24$ bijective functions from $A$ to $B$.<br />(b) If $g=f^{-1}$, then $g\\circ f=I_A$ and $f\\circ g=I_B$.<br />(c) If $h$ is not bijective, then it fails one-one or onto, so an inverse function cannot exist.",
+    "B": "(a) There are $2^4=16$ bijective functions from $A$ to $B$.<br />(b) $g\\circ f=I_B$ and $f\\circ g=I_A$.<br />(c) Every function has an inverse even if it is not bijective.",
+    "C": "(a) There are $4$ bijective functions from $A$ to $B$.<br />(b) $g\\circ f$ is not defined.<br />(c) A non-bijective function always has an inverse.",
+    "D": "(a) There are $0$ bijective functions from $A$ to $B$.<br />(b) $f\\circ g=0$.<br />(c) Inverse exists only when the function is not onto."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:27:41 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

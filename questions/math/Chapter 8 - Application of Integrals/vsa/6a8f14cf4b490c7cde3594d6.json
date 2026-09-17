@@ -1,0 +1,29 @@
+{
+  "id": "6a8f14cf4b490c7cde3594d6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "VSA",
+  "question": "The line $y=2x$ intersects the parabola $y^2=8x$ at two points. Calculate the area enclosed between them.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b><br>Using $x=\\frac{y}{2}$ from the line in the parabola gives $y^2=8\\left(\\frac{y}{2}\\right)=4y$. Hence, $y=0$ or $y=4$.<br><br><b>Step 2:</b><br>For $0\\leq y\\leq4$, the line gives the right boundary $x=\\frac{y}{2}$, while the parabola gives the left boundary $x=\\frac{y^2}{8}$.<br><br><b>Step 3:</b><br>Therefore, $A=\\int_0^4\\left(\\frac{y}{2}-\\frac{y^2}{8}\\right)dy=\\left[\\frac{y^2}{4}-\\frac{y^3}{24}\\right]_0^4$.<br><br><b>Step 4:</b><br>Thus, $A=4-\\frac{64}{24}=4-\\frac{8}{3}=\\frac{4}{3}$.<br><br><b>Final Answer:</b><br>The enclosed area is $\\frac{4}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{8}{3}$ square units",
+    "B": "$\\frac{2}{3}$ square unit",
+    "C": "$\\frac{4}{3}$ square units",
+    "D": "$4$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

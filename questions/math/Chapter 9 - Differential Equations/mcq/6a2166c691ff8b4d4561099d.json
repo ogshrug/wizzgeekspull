@@ -1,0 +1,33 @@
+{
+  "id": "6a2166c691ff8b4d4561099d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "MCQ",
+  "question": "Which of the following is not a Linear Differential Equation?",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> Recall the definitions and rules governing linear differential equations. A differential equation is linear if the dependent variable $y$ and its derivatives occur only to the first power, and are never multiplied together.<br /><br /><b>Step 2</b> Let us analyze option (C): $x(1+y^2)dx - y(1+x^2)dy = 0$. Rearranging this equation to solve for the derivative gives $\\frac{dy}{dx} = \\frac{x(1+y^2)}{y(1+x^2)}$.<br /><br /><b>Step 3</b> Notice that the dependent variable $y$ appears with an exponent of 2 ($y^2$) in the numerator term. Because it is raised to a power higher than 1, this equation is non-linear, making option (C) the correct answer.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(1+x^{2})dy+2xy~dx=cot~x~dx$",
+    "B": "$y+\\frac{d}{dx}(xy)=x(sin~x+log~x)$",
+    "C": "$x(1+y^{2})dx-y(1+x^{2})dy=0$",
+    "D": "$y~dx-(x+3y^{2})dy=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

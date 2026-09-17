@@ -1,0 +1,29 @@
+{
+  "id": "6a22a0d8864be73cfcf6d278",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $\\frac{dy}{dx}-2xy=3x^{2}e^{x^{2}};y(0)=5.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The equation is in the standard linear form $\\frac{dy}{dx} + P(x)y = Q(x)$. Comparing, we identify $P(x) = -2x$ and $Q(x) = 3x^2e^{x^2}$.<br />**Step 2:** Calculate the Integrating Factor (I.F.). I.F. $= e^{\\int P(x) dx} = e^{\\int -2x dx} = e^{-x^2}$.<br />**Step 3:** The general solution formula is $y \\cdot \\text{I.F.} = \\int Q(x) \\cdot \\text{I.F.} dx + C$. Substitute the known values: $y e^{-x^2} = \\int 3x^2e^{x^2} \\cdot e^{-x^2} dx + C$.<br />**Step 4:** The exponential terms in the integral beautifully cancel out ($e^{x^2} \\cdot e^{-x^2} = e^0 = 1$). The integral simplifies remarkably to $\\int 3x^2 dx$. Integrating yields $x^3$. Thus, the general solution is $y e^{-x^2} = x^3 + C$.<br />**Step 5:** To find the particular solution, apply the initial condition $y(0) = 5$. Substitute $x=0, y=5$ into the general solution: $5 e^0 = 0^3 + C$, which means $5(1) = 0 + C$, so $C = 5$. Substitute $C$ back to get the final particular solution: $y e^{-x^2} = x^3 + 5$, or explicitly $y = (x^3 + 5)e^{x^2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

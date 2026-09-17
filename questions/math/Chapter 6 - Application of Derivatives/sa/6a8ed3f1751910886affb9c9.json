@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed3f1751910886affb9c9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "SA",
+  "question": "For $f(x)=kx-x^3$, determine the values of $k$ for which $f'(x)<0$ for every $x\\in\\mathbb{R}$. Hence state the monotonic behaviour of the function.",
+  "answeroption": "C",
+  "explanation": "<b>Given function</b><br>$$f(x)=kx-x^3$$<br><b>First derivative</b><br>$$f'(x)=k-3x^2$$<br><b>Necessary condition</b><br>For $f'(x)<0$ for every real $x$, the condition must also hold at $x=0$. Therefore,<br>$$f'(0)=k<0$$<br><b>Sufficiency of the condition</b><br>If $k<0$, then $-3x^2\\leq0$, and consequently,<br>$$k-3x^2\\leq k<0$$<br>for every real $x$. Thus, the condition is sufficient as well as necessary.<br><b>Conclusion</b><br>The required range is $k<0$. For these values of $k$, the function is strictly decreasing on $\\mathbb{R}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k\\leq0$; the function is strictly decreasing on $\\mathbb{R}$",
+    "B": "$k>0$; the function is strictly decreasing on $\\mathbb{R}$",
+    "C": "$k<0$; the function is strictly decreasing on $\\mathbb{R}$",
+    "D": "$k=0$ only; the function is strictly decreasing on $\\mathbb{R}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "6a1589056050c058f876e4f1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{dx}{cos~x\\sqrt{cos~2x}}$",
+  "answeroption": "",
+  "explanation": "**Step 1: Apply trigonometric double angle identities**<br />We expand the double angle term inside the radical using the cosine identity $\\cos 2x = 1 - 2\\sin^2 x$:<br />$I = \\int \\frac{dx}{\\cos x \\sqrt{1 - 2\\sin^2 x}}$<br /><br />**Step 2: Prepare the expression for variable substitution**<br />Multiply the numerator and denominator by $\\cos x$ to create a $\\cos x\\,dx$ term in the numerator:<br />$I = \\int \\frac{\\cos x \\, dx}{\\cos^2 x \\sqrt{1 - 2\\sin^2 x}}$<br />Convert the remaining $\\cos^2 x$ term in the denominator to sine using the identity $\\cos^2 x = 1 - \\sin^2 x$:<br />$I = \\int \\frac{\\cos x \\, dx}{(1 - \\sin^2 x)\\sqrt{1 - 2\\sin^2 x}}$<br /><br />**Step 3: Substitute variables to simplify**<br />Let $t = \\sin x$, which gives its derivative as $dt = \\cos x \\, dx$. Substituting these into our integral:<br />$I = \\int \\frac{dt}{(1 - t^2)\\sqrt{1 - 2t^2}}$<br /><br />**Step 4: Apply trigonometric substitution to solve the integral**<br />To solve this algebraic form, we use another substitution: let $t = \\frac{1}{\\sqrt{2}}\\sin\\theta$, which gives $dt = \\frac{1}{\\sqrt{2}}\\cos\\theta \\, d\\theta$.<br />The radical term simplifies to: $\\sqrt{1 - 2t^2} = \\sqrt{1 - \\sin^2\\theta} = \\cos\\theta$.<br />Substitute these values back into the integral:<br />$I = \\int \\frac{\\frac{1}{\\sqrt{2}}\\cos\\theta \\, d\\theta}{\\left(1 - \\frac{1}{2}\\sin^2\\theta\\right)\\cos\\theta} = \\int \\frac{\\frac{1}{\\sqrt{2}} \\, d\\theta}{\\frac{2 - \\sin^2\\theta}{2}} = \\sqrt{2} \\int \\frac{d\\theta}{2 - \\sin^2\\theta}$<br />Divide the numerator and denominator by $\\cos^2\\theta$ to convert the terms to secants and tangents:<br />$I = \\sqrt{2} \\int \\frac{\\sec^2\\theta \\, d\\theta}{2\\sec^2\\theta - \\tan^2\\theta} = \\sqrt{2} \\int \\frac{\\sec^2\\theta \\, d\\theta}{2(1 + \\tan^2\\theta) - \\tan^2\\theta} = \\sqrt{2} \\int \\frac{\\sec^2\\theta \\, d\\theta}{2 + \\tan^2\\theta}$<br />Let $u = \\tan\\theta$, which gives $du = \\sec^2\\theta \\, d\\theta$. This simplifies our expression into a standard integration form:<br />$I = \\sqrt{2} \\int \\frac{du}{(\\sqrt{2})^2 + u^2} = \\sqrt{2} \\cdot \\left( \\frac{1}{\\sqrt{2}}\\tan^{-1}\\left(\\frac{u}{\\sqrt{2}}\\right) \\right) + C = \\tan^{-1}\\left(\\frac{\\tan\\theta}{\\sqrt{2}}\\right) + C$<br />Now substitute our variables back in order to find the final answer in terms of $x$:<br />From $t = \\frac{1}{\\sqrt{2}}\\sin\\theta$, we get $\\sin\\theta = \\sqrt{2}t$, which means $\\tan\\theta = \\frac{\\sqrt{2}t}{\\sqrt{1 - 2t^2}}$. Substituting this back gives:<br />$I = \\tan^{-1}\\left( \\frac{t}{\\sqrt{1-2t^2}} \\right) + C$. Substituting $t = \\sin x$ yields the final result:<br />$I = \\tan^{-1}\\left( \\frac{\\sin x}{\\sqrt{1 - 2\\sin^2 x}} \\right) + C = \\tan^{-1}\\left(\\frac{\\sin x}{\\sqrt{\\cos 2x}}\\right) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

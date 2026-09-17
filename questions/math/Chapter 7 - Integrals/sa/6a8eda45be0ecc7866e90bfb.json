@@ -1,0 +1,29 @@
+{
+  "id": "6a8eda45be0ecc7866e90bfb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int \\frac{dx}{9+4x^2}$ and express the result in terms of an inverse trigonometric function.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Compare with the standard form</b><br>The denominator $9+4x^2$ can be written as $3^2+(2x)^2$. The relevant standard integral is<br>$$\\int\\frac{du}{a^2+u^2}=\\frac{1}{a}\\tan^{-1}\\left(\\frac{u}{a}\\right)+C$$<br><b>Step 2: Make a convenient substitution</b><br>Let $u=2x$. Then $du=2\\,dx$, so $dx=\\frac{du}{2}$.<br><b>Step 3: Transform the integral</b><br>$$\\int\\frac{dx}{9+4x^2}=\\frac{1}{2}\\int\\frac{du}{9+u^2}$$<br><b>Step 4: Apply the standard integral</b><br>Taking $a=3$,<br>$$\\frac{1}{2}\\int\\frac{du}{3^2+u^2}=\\frac{1}{6}\\tan^{-1}\\left(\\frac{u}{3}\\right)+C$$<br><b>Step 5: Substitute back</b><br>Hence,<br>$$\\boxed{\\frac{1}{6}\\tan^{-1}\\left(\\frac{2x}{3}\\right)+C}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{3}\\tan^{-1}\\left(\\frac{2x}{3}\\right)+C$",
+    "B": "$\\frac{1}{6}\\tan^{-1}\\left(\\frac{x}{3}\\right)+C$",
+    "C": "$\\frac{1}{6}\\sin^{-1}\\left(\\frac{2x}{3}\\right)+C$",
+    "D": "$\\frac{1}{6}\\tan^{-1}\\left(\\frac{2x}{3}\\right)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

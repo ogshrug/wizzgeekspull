@@ -1,0 +1,32 @@
+{
+  "id": "6a311335ed9d5eb2aa722a16",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fbf40512f018fa94d50"
+  ],
+  "question_type": "MCQ",
+  "question": "Number of symmetric matrices of order $3\\times3$ with each entry 1 or - 1 is",
+  "answeroption": "B",
+  "explanation": "**Step 1: Understand the Structure of a Symmetric Matrix**  \nA symmetric matrix of order $3 \\times 3$ has the property that $a_{ij} = a_{ji}$ for all $i, j$. Therefore, the entries above the main diagonal determine the entries below the main diagonal. The independent entries are:  \n- Main diagonal: $a_{11}, a_{22}, a_{33}$ (3 positions)  \n- Upper triangular entries: $a_{12}, a_{13}, a_{23}$ (3 positions)  \nTotal independent positions = $3 + 3 = 6$.\n\n**Step 2: Count the Number of Choices**  \nEach of these 6 independent positions can be filled with either 1 or -1. So, each position has 2 choices. By the fundamental principle of counting, the total number of such matrices is:  \n$$2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 = 2^6 = 64$$\n\n**Step 3: Match with the Options**  \nThe total number of symmetric matrices is 64, which corresponds to option **B**.",
+  "explanation_image": [],
+  "options": {
+    "A": "512",
+    "B": "64",
+    "C": "8",
+    "D": "4"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

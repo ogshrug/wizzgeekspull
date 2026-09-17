@@ -1,0 +1,31 @@
+{
+  "id": "6a8d6fdda0ecd9fc8f325fbc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4c",
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "SA",
+  "question": "The function $f(x)=\\sec^{-1}\\left(\\frac{x+1}{2}\\right)+\\frac{\\pi}{3}$ is obtained by transforming $y=\\sec^{-1}x$.<br><br>(i) Describe the transformations involved.<br><br>(ii) Determine the domain and range of $f$. Do not draw the graph.",
+  "answeroption": "D",
+  "explanation": "<b>Horizontal transformation</b><br>The argument can be written as $\\frac{x+1}{2}$. Replacing $x$ by $\\frac{x+1}{2}$ stretches the graph horizontally by a factor of $2$ and translates it one unit to the left.<br><br><b>Vertical transformation</b><br>The addition of $\\frac{\\pi}{3}$ translates the resulting graph upward by $\\frac{\\pi}{3}$ units.<br><br><b>Domain condition</b><br>For inverse secant, $$\\left|\\frac{x+1}{2}\\right|\\geq1.$$ Thus, $|x+1|\\geq2$, giving $x\\leq-3$ or $x\\geq1$. Therefore, the domain is $$(-\\infty,-3]\\cup[1,\\infty).$$<br><br><b>Range transformation</b><br>The range of $\\sec^{-1}x$ is $[0,\\pi]-\\left\\{\\frac{\\pi}{2}\\right\\}$. Translating it upward by $\\frac{\\pi}{3}$ gives $$\\left[\\frac{\\pi}{3},\\frac{4\\pi}{3}\\right]-\\left\\{\\frac{5\\pi}{6}\\right\\}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Horizontal stretch by $2$, shift right by $1$ and upward shift by $\\frac{\\pi}{3}$; Domain: $(-\\infty,-1]\\cup[3,\\infty)$; Range: $\\left[\\frac{\\pi}{3},\\frac{4\\pi}{3}\\right]-\\left\\{\\frac{5\\pi}{6}\\right\\}$",
+    "B": "Horizontal stretch by $2$, shift left by $1$ and upward shift by $\\frac{\\pi}{3}$; Domain: $(-\\infty,-3]\\cup[1,\\infty)$; Range: $\\left[\\frac{\\pi}{3},\\frac{4\\pi}{3}\\right]-\\left\\{\\frac{\\pi}{2}\\right\\}$",
+    "C": "Horizontal compression by $\\frac{1}{2}$, shift left by $1$ and downward shift by $\\frac{\\pi}{3}$; Domain: $[-3,1]$; Range: $\\left[-\\frac{\\pi}{3},\\frac{2\\pi}{3}\\right]-\\left\\{\\frac{\\pi}{6}\\right\\}$",
+    "D": "Horizontal stretch by $2$, shift left by $1$ and upward shift by $\\frac{\\pi}{3}$; Domain: $(-\\infty,-3]\\cup[1,\\infty)$; Range: $\\left[\\frac{\\pi}{3},\\frac{4\\pi}{3}\\right]-\\left\\{\\frac{5\\pi}{6}\\right\\}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

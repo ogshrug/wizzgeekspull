@@ -1,0 +1,29 @@
+{
+  "id": "69a9782a62be6a70cd184dbd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "MCQ",
+  "question": "The solution to $\\frac{dy}{dx} = x e^{-y}$ with $y(0) = 0$ is:",
+  "answeroption": "C",
+  "explanation": "Separate variables: $e^y dy = x dx$<br /><br />Integrate both sides: $\\int e^y dy = \\int x dx \\implies e^y = \\frac{1}{2}x^2 + C$<br /><br />At $x=0, y=0$: $e^0 = 1$, so $C=1$.<br /><br />Thus $e^y = 1 + \\frac{1}{2}x^2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "y = 1/2 x^2",
+    "B": "y = -ln(1 - 1/2 x^2)",
+    "C": "e^y = 1 + 1/2 x^2",
+    "D": "e^y = 1 - 1/2 x^2"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:33:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

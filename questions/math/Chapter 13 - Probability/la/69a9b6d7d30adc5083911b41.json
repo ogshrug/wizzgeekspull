@@ -1,0 +1,30 @@
+{
+  "id": "69a9b6d7d30adc5083911b41",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7",
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "LA",
+  "question": "A medical test for a rare disease has the following statistics: If a person has the disease, the test is positive with probability 0.95. If a person does not have the disease, the test is positive with probability 0.05. The disease occurs in 1 out of 1000 people. \n(a) What is the probability that a randomly selected person tests positive?\n(b) If a person tests positive, what is the probability they actually have the disease?\n(c) If in a large sample, 10 test positive, how many would you expect to actually have the disease?",
+  "answeroption": "B",
+  "explanation": "Let D: person has disease, D': no disease.<br />P(D)=1/1000, P(D')=999/1000<br />T: test is positive<br />P(T|D)=0.95, P(T|D')=0.05<br /><br />(a)<br />$P(T) = P(D)P(T|D) + P(D')P(T|D')$<br />$= \\dfrac{1}{1000}\\times0.95 + \\dfrac{999}{1000}\\times0.05$<br />$= 0.00095 + 0.04995 = 0.0509$<br /><br />(b)<br />$P(D|T)=\\dfrac{P(D)P(T|D)}{P(T)}$<br />$=\\dfrac{0.00095}{0.0509} \\approx 0.0187$<br />So, about 1.87%<br /><br />(c)<br />Among 10 positives, expected number with disease = $10 \\times 0.0187 = 0.187$<br />Thus, likely 0 or 1.<br /><br />Final answers:<br />(a) $0.0509$<br />(b) $0.0187$<br />(c) $0.187$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $0.0509$<br />(b) $0.95$<br />(c) $9.5$",
+    "B": "(a) $0.0509$<br />(b) $0.0187$ approximately<br />(c) $0.187$ approximately",
+    "C": "(a) $0.001$<br />(b) $0.05$<br />(c) $0.5$",
+    "D": "(a) $0.04995$<br />(b) $0.00187$ approximately<br />(c) $0.0187$ approximately"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:01:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

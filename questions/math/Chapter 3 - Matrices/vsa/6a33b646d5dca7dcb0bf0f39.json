@@ -1,0 +1,27 @@
+{
+  "id": "6a33b646d5dca7dcb0bf0f39",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fbf40512f018fa94d51"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\begin{bmatrix}3 & -1 \\\\ 0 & 1 \\\\ 2 & -3\\end{bmatrix} A = \\begin{bmatrix}2 \\\\ -5 \\\\ -17\\end{bmatrix}$, then find matrix A.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Determine the order of matrix $A$. The given matrix is $3 \\times 2$ and the result is $3 \\times 1$. Thus, matrix $A$ must be a $2 \\times 1$ column matrix, say $A = \\begin{bmatrix}x \\\\ y\\end{bmatrix}$.\n\n**Step 2:** Multiply the matrices to form a system of linear equations: $3x - y = 2$, $0x + y = -5$, and $2x - 3y = -17$.\n\n**Step 3:** The second equation directly provides the value for $y$: $y = -5$.\n\n**Step 4:** Substitute $y = -5$ into the first equation to solve for $x$: $3x - (-5) = 2 \\Rightarrow 3x + 5 = 2 \\Rightarrow 3x = -3 \\Rightarrow x = -1$.\n\n**Step 5:** Form the final matrix using the solved variables: $A = \\begin{bmatrix}-1 \\\\ -5\\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

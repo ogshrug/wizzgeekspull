@@ -1,0 +1,31 @@
+{
+  "id": "6a338629d5dca7dcb0bf0f04",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\frac{d}{dx}[\\cos(\\log x + e^x)]$ at $x=1$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Implement the chain rule differentiation upon the function $y = \\cos(\\log x + e^x)$: $\\frac{dy}{dx} = -\\sin(\\log x + e^x) \\cdot \\frac{d}{dx}(\\log x + e^x)$.\n\n**Step 2:** Differentiate the inside argument: $\\frac{d}{dx}(\\log x + e^x) = \\frac{1}{x} + e^x$.\n\n**Step 3:** Reconstruct the complete derivative equation: $\\frac{dy}{dx} = -\\sin(\\log x + e^x) \\cdot (\\frac{1}{x} + e^x)$.\n\n**Step 4:** Evaluate this specific derivative exactly at $x = 1$: $\\frac{dy}{dx} = -\\sin(\\log(1) + e^1) \\cdot (\\frac{1}{1} + e^1) = -\\sin(0 + e) \\cdot (1 + e) = -(1+e)\\sin e$.",
+  "explanation_image": [],
+  "options": {
+    "A": "-sin e",
+    "B": "sin e",
+    "C": "$-(1+e)\\sin e$",
+    "D": "$(1+e)\\sin e$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

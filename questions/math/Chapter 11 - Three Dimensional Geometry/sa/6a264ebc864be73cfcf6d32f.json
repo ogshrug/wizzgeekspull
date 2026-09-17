@@ -1,0 +1,28 @@
+{
+  "id": "6a264ebc864be73cfcf6d32f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "SA",
+  "question": "Find the distance between the lines<br />$$x=\\frac{y-1}{2}=\\frac{z-2}{3}$$ and $$x+1=\\frac{y+2}{2}=\\frac{z-1}{3}$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Analyze the directional ratios of both lines. For line 1: $\\frac{x-0}{1}=\\frac{y-1}{2}=\\frac{z-2}{3}$, so direction vector $\\vec{b_1} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$. For line 2: $\\frac{x+1}{1}=\\frac{y+2}{2}=\\frac{z-1}{3}$, so direction vector $\\vec{b_2} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$. Because the direction vectors are identical, these lines are parallel. We use the short distance formula for parallel lines: $d = \\frac{|(\\vec{a_2}-\\vec{a_1}) \\times \\vec{b}|}{|\\vec{b}|}$.<br />**Step 2:** Identify points on both lines. A point on line 1 is $A(0,1,2) \\implies \\vec{a_1} = 0\\hat{i} + \\hat{j} + 2\\hat{k}$. A point on line 2 is $B(-1,-2,1) \\implies \\vec{a_2} = -\\hat{i} - 2\\hat{j} + \\hat{k}$. Compute the difference vector: $\\vec{a_2}-\\vec{a_1} = (-1-0)\\hat{i} + (-2-1)\\hat{j} + (1-2)\\hat{k} = -\\hat{i} - 3\\hat{j} - \\hat{k}$. Let the common direction vector be $\\vec{b} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$.<br />**Step 3:** Compute the cross product $(\\vec{a_2}-\\vec{a_1}) \\times \\vec{b}$ using a determinant matrix arrangement:<br />$(\\vec{a_2}-\\vec{a_1}) \\times \\vec{b} = \\det \\begin{bmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ -1 & -3 & -1 \\\\ 1 & 2 & 3 \\end{bmatrix} = \\hat{i}(-9+2) - \\hat{j}(-3+1) + \\hat{k}(-2+3) = -7\\hat{i} + 2\\hat{j} + \\hat{k}$.<br />**Step 4:** Evaluate the vector magnitudes to find the final numeric distance. For the cross product magnitude: $|(\\vec{a_2}-\\vec{a_1}) \\times \\vec{b}| = \\sqrt{(-7)^2+2^2+1^2} = \\sqrt{49+4+1} = \\sqrt{54} = 3\\sqrt{6}$. For the direction vector magnitude: $|\\vec{b}| = \\sqrt{1^2+2^2+3^2} = \\sqrt{1+4+9} = \\sqrt{14}$. Substituting these magnitudes into our parallel distance expression gives: $d = \\frac{\\sqrt{54}}{\\sqrt{14}} = \\sqrt{\\frac{27}{7}} = \\frac{3\\sqrt{3}}{\\sqrt{7}} = \\frac{3\\sqrt{21}}{7}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-2",
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

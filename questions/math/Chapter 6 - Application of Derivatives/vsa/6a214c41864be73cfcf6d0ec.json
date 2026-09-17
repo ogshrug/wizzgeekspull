@@ -1,0 +1,29 @@
+{
+  "id": "6a214c41864be73cfcf6d0ec",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "VSA",
+  "question": "Find the absolute maximum value of $f(x)=cos~x+sin^{2}x$, $x\\in[0,\\pi]$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** We take the derivative of the given function: $f^{\\prime}(x) = -sin~x + 2sin~x~cos~x$.<br /><br />**Step 2:** To find critical points, set $f^{\\prime}(x) = 0$: $sin~x(2cos~x - 1) = 0$. This gives $sin~x = 0$ or $cos~x = \\frac{1}{2}$.<br /><br />**Step 3:** Within the interval $[0, \\pi]$, the solutions are $x = 0$, $x = \\pi$, and $x = \\frac{\\pi}{3}$.<br /><br />**Step 4:** Evaluate the function at all critical and boundary points: $f(0) = cos(0) + sin^2(0) = 1 + 0 = 1$.<br /><br />**Step 5:** $f(\\frac{\\pi}{3}) = cos(\\frac{\\pi}{3}) + sin^2(\\frac{\\pi}{3}) = \\frac{1}{2} + (\\frac{\\sqrt{3}}{2})^2 = \\frac{1}{2} + \\frac{3}{4} = \\frac{5}{4}$.<br /><br />**Step 6:** $f(\\pi) = cos(\\pi) + sin^2(\\pi) = -1 + 0 = -1$. The absolute maximum value is $\\frac{5}{4}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8f1ba12e54880055a0a6ee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998"
+  ],
+  "question_type": "SA",
+  "question": "The curves $y=4x-x^2$ and $y=x^2$ enclose a finite region. (a) Find their points of intersection. (b) Hence calculate the area enclosed between them.",
+  "answeroption": "D",
+  "explanation": "Step 1: Determining the intersection limits At the points of intersection, $4x-x^2=x^2$. Therefore, $2x^2-4x=0$, or $2x(x-2)=0$. Hence, $x=0$ and $x=2$. The corresponding points are $(0,0)$ and $(2,4)$. Step 2: Identifying the upper curve On $[0,2]$, $(4x-x^2)-x^2=4x-2x^2\\geq0$. Thus, $y=4x-x^2$ is the upper curve. Step 3: Forming the area integral $A=\\int_0^2(4x-2x^2)\\,dx$. Step 4: Evaluating the integral $A=\\left[2x^2-\\frac{2x^3}{3}\\right]_0^2=8-\\frac{16}{3}=\\frac{8}{3}$. Final Answer The intersection points are $(0,0)$ and $(2,4)$, and the enclosed area is $\\frac{8}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,0)$ and $(4,4)$<br>(b) $\\frac{8}{3}$ square units",
+    "B": "(a) $(0,0)$ and $(2,4)$<br>(b) $\\frac{4}{3}$ square units",
+    "C": "(a) $(0,0)$ and $(2,2)$<br>(b) $\\frac{8}{3}$ square units",
+    "D": "(a) $(0,0)$ and $(2,4)$<br>(b) $\\frac{8}{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

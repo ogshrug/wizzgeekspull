@@ -1,0 +1,29 @@
+{
+  "id": "6a8eac474b490c7cde359439",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "LA",
+  "question": "Using properties of determinants, evaluate<br>$$D=\\begin{vmatrix}1 & 1 & 1\\\\2 & 3 & 4\\\\4 & 9 & 16\\end{vmatrix}$$<br><br><b>(a)</b> Apply suitable column operations to introduce zeros in the first row.<br><br><b>(b)</b> Hence, evaluate $D$.<br><br><b>(c)</b> Verify the result by expanding the original determinant along the first row.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Apply the column operations $C_2\\to C_2-C_1$ and $C_3\\to C_3-C_1$. These operations do not change the value of the determinant.<br>$$D=\\begin{vmatrix}1 & 0 & 0\\\\2 & 1 & 2\\\\4 & 5 & 12\\end{vmatrix}$$<br><br><b>(b)</b><br>Expanding along the first row,<br>$$D=1\\begin{vmatrix}1 & 2\\\\5 & 12\\end{vmatrix}$$<br>$$D=12-10=2$$<br>Therefore, $D=2$.<br><br><b>(c)</b><br>Expanding the original determinant along the first row,<br>$$D=\\begin{vmatrix}3 & 4\\\\9 & 16\\end{vmatrix}-\\begin{vmatrix}2 & 4\\\\4 & 16\\end{vmatrix}+\\begin{vmatrix}2 & 3\\\\4 & 9\\end{vmatrix}$$<br>$$D=(48-36)-(32-16)+(18-12)$$<br>$$D=12-16+6=2$$<br>Hence, the result is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Apply $C_2\\to C_2+C_1$ and $C_3\\to C_3+C_1$<br>(b) $D=4$<br>(c) Direct expansion also gives $4$",
+    "B": "(a) Apply $C_2\\to C_2-C_1$ and $C_3\\to C_3-C_1$<br>(b) $D=-2$<br>(c) Direct expansion also gives $-2$",
+    "C": "(a) Apply $C_2\\to C_2-C_1$ and $C_3\\to C_3-C_1$, giving $\\begin{vmatrix}1&0&0\\\\2&1&2\\\\4&5&12\\end{vmatrix}$<br>(b) $D=2$<br>(c) Direct expansion gives $12-16+6=2$",
+    "D": "(a) Interchange $C_1$ and $C_3$<br>(b) $D=2$<br>(c) Direct expansion gives $-2$ because of the interchange"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

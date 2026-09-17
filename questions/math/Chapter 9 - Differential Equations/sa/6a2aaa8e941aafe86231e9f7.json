@@ -1,0 +1,26 @@
+{
+  "id": "6a2aaa8e941aafe86231e9f7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation $(x^{2}+y^{2})dy=xy~dx.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Express the homogeneous equation as $\\frac{dy}{dx} = \\frac{xy}{x^2+y^2}$. Substitute $y = vx$, which yields $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 2:** Substitute these into the main derivative equation to get $v + x\\frac{dv}{dx} = \\frac{v}{1+v^2} \\implies x\\frac{dv}{dx} = -\\frac{v^3}{1+v^2}$. Separate the variables: $\\left(\\frac{1+v^2}{v^3}\\right)dv = -\\frac{dx}{x}$.<br />**Step 3:** Integrate both sides: $\\int (v^{-3} + v^{-1})dv = -\\int \\frac{1}{x}dx \\implies -\\frac{1}{2v^2} + \\ln|v| = -\\ln|x| + C$. Substituting back $v = \\frac{y}{x}$ simplifies to the final general solution $\\ln|y| - \\frac{x^2}{2y^2} = C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

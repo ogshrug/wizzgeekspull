@@ -1,0 +1,28 @@
+{
+  "id": "6a2658ec864be73cfcf6d34d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c6",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "SA",
+  "question": "The two adjacent sides of a parallelogram are represented by vectors $2\\hat{i}-4\\hat{j}+5\\hat{k}$ and $\\hat{i}-2\\hat{j}-3\\hat{k}$. Find the unit vector parallel to one of its diagonals. Also, find the area of the parallelogram.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the given adjacent side vectors be defined as $\\vec{a} = 2\\hat{i}-4\\hat{j}+5\\hat{k}$ and $\\vec{b} = \\hat{i}-2\\hat{j}-3\\hat{k}$. The diagonals of a parallelogram can be represented as linear combinations of these sides. Let's find the main diagonal vector $\\vec{d} = \\vec{a} + \\vec{b}$ by adding their respective directional units: $\\vec{d} = (2+1)\\hat{i} + (-4-2)\\hat{j} + (5-3)\\hat{k} = 3\\hat{i} - 6\\hat{j} + 2\\hat{k}$.<br />**Step 2:** To find a unit vector parallel to this diagonal, we divide vector $\\vec{d}$ by its scalar magnitude. Compute the magnitude using the standard formula: $|\\vec{d}| = \\sqrt{3^2 + (-6)^2 + 2^2} = \\sqrt{9 + 36 + 4} = \\sqrt{49} = 7$. Thus, the parallel unit vector is $\\hat{d} = \\frac{\\vec{d}}{|\\vec{d}|} = \\frac{3\\hat{i} - 6\\hat{j} + 2\\hat{k}}{7} = \\frac{3}{7}\\hat{i} - \\frac{6}{7}\\hat{j} + \\frac{2}{7}\\hat{k}$.<br />**Step 3:** The area of a parallelogram formed by adjacent sides is equal to the magnitude of their cross product vector: $\\text{Area} = |\\vec{a} \\times \\vec{b}|$. Let's compute the cross product $\\vec{a} \\times \\vec{b}$ using a determinant layout:<br />$\\vec{a} \\times \\vec{b} = \\det \\begin{bmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & -4 & 5 \\\\ 1 & -2 & -3 \\end{bmatrix} = \\hat{i}(12 - (-10)) - \\hat{j}(-6 - 5) + \\hat{k}(-4 - (-4)) = 22\\hat{i} + 11\\hat{j} + 0\\hat{k}$.<br />**Step 4:** Now, evaluate the scalar magnitude of this resultant cross product vector to establish our final area measurement: $|\\vec{a} \\times \\vec{b}| = \\sqrt{22^2 + 11^2 + 0^2} = \\sqrt{484 + 121} = \\sqrt{605} = \\sqrt{121 \\times 5} = 11\\sqrt{5}$. Therefore, the area of the parallelogram is $11\\sqrt{5}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1",
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

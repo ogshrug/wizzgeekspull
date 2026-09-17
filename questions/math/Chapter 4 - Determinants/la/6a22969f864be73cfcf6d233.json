@@ -1,0 +1,28 @@
+{
+  "id": "6a22969f864be73cfcf6d233",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76",
+    "69c6603740512f018fa94d70"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following system of equations, using matrices :<br />$\\frac{2}{x}+\\frac{3}{y}+\\frac{10}{z}=4,\\frac{4}{x}-\\frac{6}{y}+\\frac{5}{z}=1,\\frac{6}{x}+\\frac{9}{y}-\\frac{20}{z}=2$<br />where $x,y,z\\ne0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given system of equations is highly non-linear with respect to $x, y,$ and $z$. To transform it into a solvable linear system, we must apply strategic mathematical substitutions. Let us define new variables: $u = \\frac{1}{x}$, $v = \\frac{1}{y}$, and $w = \\frac{1}{z}$. By substituting these into the original equations, we obtain a perfect linear system: $2u + 3v + 10w = 4$, $4u - 6v + 5w = 1$, and $6u + 9v - 20w = 2$.<br />**Step 2:** We can neatly express this new linear system in standard matrix form as $AX = B$. Here, the coefficient matrix $A = \\begin{bmatrix}2&3&10\\\\ 4&-6&5\\\\ 6&9&-20\\end{bmatrix}$, the variable matrix $X = \\begin{bmatrix}u\\\\ v\\\\ w\\end{bmatrix}$, and the constant matrix $B = \\begin{bmatrix}4\\\\ 1\\\\ 2\\end{bmatrix}$. The solution to this matrix equation is fundamentally given by $X = A^{-1}B$, provided that the inverse exists. To confirm existence, we calculate the determinant $|A|$. Expanding rigorously along the first row: $|A| = 2((-6)(-20) - (9)(5)) - 3((4)(-20) - (6)(5)) + 10((4)(9) - (6)(-6)) = 2(120 - 45) - 3(-80 - 30) + 10(36 + 36) = 2(75) - 3(-110) + 10(72) = 150 + 330 + 720 = 1200$. Since $|A| \\ne 0$, the inverse definitively exists.<br />**Step 3:** To construct $A^{-1}$, we must systematically calculate the cofactor matrix of $A$. The cofactors are calculated as $C_{ij} = (-1)^{i+j}M_{ij}$. After exhaustive computation, $C_{11} = 75, C_{12} = 110, C_{13} = 72$; $C_{21} = 150, C_{22} = -100, C_{23} = 0$; $C_{31} = 75, C_{32} = 30, C_{33} = -24$. The adjoint matrix, $\\text{adj}(A)$, is the exact transpose of this cofactor matrix. Thus, $\\text{adj}(A) = \\begin{bmatrix}75&150&75\\\\ 110&-100&30\\\\ 72&0&-24\\end{bmatrix}$. The inverse is $A^{-1} = \\frac{1}{1200} \\begin{bmatrix}75&150&75\\\\ 110&-100&30\\\\ 72&0&-24\\end{bmatrix}$.<br />**Step 4:** Now, we execute the vital matrix multiplication $X = A^{-1}B$. $X = \\frac{1}{1200} \\begin{bmatrix}75&150&75\\\\ 110&-100&30\\\\ 72&0&-24\\end{bmatrix} \\begin{bmatrix}4\\\\ 1\\\\ 2\\end{bmatrix}$. Calculating the rows: Row 1 is $75(4) + 150(1) + 75(2) = 300 + 150 + 150 = 600$. Row 2 is $110(4) - 100(1) + 30(2) = 440 - 100 + 60 = 400$. Row 3 is $72(4) + 0(1) - 24(2) = 288 + 0 - 48 = 240$. Multiplying by the scalar fraction yields $X = \\frac{1}{1200} \\begin{bmatrix}600\\\\ 400\\\\ 240\\end{bmatrix} = \\begin{bmatrix}1/2\\\\ 1/3\\\\ 1/5\\end{bmatrix}$. Therefore, our intermediate variables are $u = \\frac{1}{2}$, $v = \\frac{1}{3}$, and $w = \\frac{1}{5}$.<br />**Step 5:** Finally, we back-substitute to find the original target variables $x, y,$ and $z$. Since $x = \\frac{1}{u}$, we strictly have $x = 2$. Similarly, $y = \\frac{1}{v}$ gives exactly $y = 3$, and $z = \\frac{1}{w}$ yields precisely $z = 5$. These are the final, fully verified solutions to the original complex system.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

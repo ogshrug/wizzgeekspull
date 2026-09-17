@@ -1,0 +1,27 @@
+{
+  "id": "6a2fd386e9d6ca4a0a42b13a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, find the area of the region bounded by the curves $x^{2}+y^{2}=4$, $x=\\sqrt{3}y$ and x-axis lying in the first quadrant.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Identify the given curves: $x^2 + y^2 = 4$ is a circle with radius 2 centered at the origin, and $x = \\sqrt{3}y$ is a line passing through the origin.<br />**Step 2:** Find the point of intersection of the line and the circle in the first quadrant by substituting $x = \\sqrt{3}y$ into the circle's equation. This yields the intersection point $(\\sqrt{3}, 1)$.<br />**Step 3:** Sketch the region to determine the integration strategy. The area can be split into two parts: area under the line from $x=0$ to $x=\\sqrt{3}$ and area under the circle from $x=\\sqrt{3}$ to $x=2$.<br />**Step 4:** Set up the definite integrals: $\\int_{0}^{\\sqrt{3}} \\frac{x}{\\sqrt{3}} dx + \\int_{\\sqrt{3}}^{2} \\sqrt{4-x^2} dx$.<br />**Step 5:** Evaluate both integrals using standard formulas and add the results to find the total area.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8ef07bbe0ecc7866e90c0f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f980",
+    "6a13e9908c819562f933f981",
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "LA",
+  "question": "The radius of a spherical object is measured as $10\\ \\text{cm}$ with a possible error of $0.02\\ \\text{cm}$. Using differentials, determine:<br><br>(a) the maximum approximate error in its calculated volume;<br><br>(b) the corresponding percentage error in its volume;<br><br>(c) the maximum approximate error and percentage error in its surface area.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The volume of a sphere is<br>$$V=\\frac{4}{3}\\pi r^3$$<br>Differentiating,<br>$$dV=4\\pi r^2\\,dr$$<br>For $r=10\\ \\text{cm}$ and $|dr|=0.02\\ \\text{cm}$,<br>$$|dV|=4\\pi(10)^2(0.02)$$<br>$$|dV|=8\\pi\\ \\text{cm}^3$$<br>Thus, the maximum approximate error in the volume is $8\\pi\\ \\text{cm}^3$.<br><br><b>(b)</b><br>The relative error in volume is<br>$$\\frac{|dV|}{V}=3\\frac{|dr|}{r}$$<br>Therefore, the percentage error is<br>$$3\\times\\frac{0.02}{10}\\times 100=0.6\\%$$<br><br><b>(c)</b><br>The surface area of a sphere is<br>$$S=4\\pi r^2$$<br>Differentiating,<br>$$dS=8\\pi r\\,dr$$<br>Therefore,<br>$$|dS|=8\\pi(10)(0.02)=1.6\\pi\\ \\text{cm}^2$$<br>The relative error in surface area is<br>$$\\frac{|dS|}{S}=2\\frac{|dr|}{r}$$<br>Hence, the percentage error is<br>$$2\\times\\frac{0.02}{10}\\times 100=0.4\\%$$<br>Thus, the maximum approximate error in surface area is $1.6\\pi\\ \\text{cm}^2$, and its percentage error is $0.4\\%$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Volume error $4\\pi$ cm$^3$<br>(b) Volume percentage error $0.3\\%$<br>(c) Surface-area error $0.8\\pi$ cm$^2$ and percentage error $0.2\\%$",
+    "B": "(a) Volume error $12\\pi$ cm$^3$<br>(b) Volume percentage error $0.8\\%$<br>(c) Surface-area error $2\\pi$ cm$^2$ and percentage error $0.6\\%$",
+    "C": "(a) Volume error $8\\pi$ cm$^3$<br>(b) Volume percentage error $0.4\\%$<br>(c) Surface-area error $1.6\\pi$ cm$^2$ and percentage error $0.6\\%$",
+    "D": "(a) Volume error $8\\pi$ cm$^3$<br>(b) Volume percentage error $0.6\\%$<br>(c) Surface-area error $1.6\\pi$ cm$^2$ and percentage error $0.4\\%$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a33862ad5dca7dcb0bf0f05",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "VSA",
+  "question": "Check the differentiability of $f(x) = |\\cos x|$ at $x = \\frac{\\pi}{2}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Formulate the limit notation for the left-hand derivative (LHD) at $x = \\frac{\\pi}{2}$: $LHD = \\lim_{h \\to 0^+} \\frac{f(\\frac{\\pi}{2} - h) - f(\\frac{\\pi}{2})}{-h} = \\lim_{h \\to 0^+} \\frac{|\\cos(\\frac{\\pi}{2} - h)| - 0}{-h}$.\n\n**Step 2:** Resolve the trigonometric identity and absolute value. Since $\\cos(\\frac{\\pi}{2} - h) = \\sin h$, and $\\sin h > 0$ for $h \\to 0^+$, $LHD = \\lim_{h \\to 0^+} \\frac{\\sin h}{-h} = -1$.\n\n**Step 3:** Formulate the right-hand derivative (RHD) limit: $RHD = \\lim_{h \\to 0^+} \\frac{f(\\frac{\\pi}{2} + h) - f(\\frac{\\pi}{2})}{h} = \\lim_{h \\to 0^+} \\frac{|\\cos(\\frac{\\pi}{2} + h)| - 0}{h}$.\n\n**Step 4:** Resolve the identity $\\cos(\\frac{\\pi}{2} + h) = -\\sin h$. For $h \\to 0^+$, $|-\\sin h| = \\sin h$. Hence, $RHD = \\lim_{h \\to 0^+} \\frac{\\sin h}{h} = 1$.\n\n**Step 5:** Because $LHD = -1$ and $RHD = 1$, $LHD \\neq RHD$, $f(x)$ is conclusively not differentiable at $x = \\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

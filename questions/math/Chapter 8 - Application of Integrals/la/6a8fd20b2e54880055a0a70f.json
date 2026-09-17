@@ -1,0 +1,31 @@
+{
+  "id": "6a8fd20b2e54880055a0a70f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "The line $y=x$ intersects the circle $x^2+y^2=8x$ and forms a finite region with the upper arc of the circle.(a) Determine the points of intersection of the line and the circle.(b) Identify the upper boundary of the enclosed region for the appropriate interval.(c) Using a suitable substitution, calculate the exact area enclosed between the line and the upper arc of the circle.",
+  "answeroption": "A",
+  "explanation": "(a)Substituting $y=x$ in the equation of the circle gives`x^2+x^2=8x2x\\left(x-4\\right)=0`Thus, $x=0$ or $x=4$. Since $y=x$, the points of intersection are $\\left(0,0\\right)$ and $\\left(4,4\\right)$.(b)The upper arc of the circle is`y=\\sqrt{8x-x^2}`For $0\\leq x\\leq4$,`8x-x^2-x^2=2x\\left(4-x\\right)\\geq0`Therefore, $\\sqrt{8x-x^2}\\geq x$. Hence, the upper arc of the circle is the upper boundary and the line $y=x$ is the lower boundary.(c)The enclosed area is`A=\\int_0^4\\left(\\sqrt{8x-x^2}-x\\right)dx`Since $8x-x^2=16-\\left(x-4\\right)^2$, put $u=x-4$. The limits become $u=-4$ and $u=0$. Thus,`\\int_0^4\\sqrt{8x-x^2}\\,dx=\\int_{-4}^0\\sqrt{16-u^2}\\,du`Now put $u=4\\sin\\theta$. The limits become $\\theta=-\\frac{\\pi}{2}$ and $\\theta=0$. Therefore,`\\int_{-4}^0\\sqrt{16-u^2}\\,du=16\\int_{-\\frac{\\pi}{2}}^0\\cos^2\\theta\\,d\\theta=4\\pi`Also,`\\int_0^4x\\,dx=\\left[\\frac{x^2}{2}\\right]_0^4=8`Hence,`A=4\\pi-8`Therefore, the exact area enclosed between the line and the circle is $4\\pi-8$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,0)$ and $(4,4)$<br>(b) Upper: $y=\\sqrt{8x-x^2}$; lower: $y=x$<br>(c) Area $=4\\pi-8$ square units",
+    "B": "(a) $(0,0)$ and $(8,8)$<br>(b) Upper: $y=\\sqrt{8x-x^2}$; lower: $y=x$<br>(c) Area $=4\\pi-8$ square units",
+    "C": "(a) $(0,0)$ and $(4,4)$<br>(b) Upper: $y=x$; lower: $y=\\sqrt{8x-x^2}$<br>(c) Area $=4\\pi+8$ square units",
+    "D": "(a) $(0,0)$ and $(4,4)$<br>(b) Upper: $y=\\sqrt{8x-x^2}$; lower: $y=x$<br>(c) Area $=8\\pi-8$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

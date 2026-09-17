@@ -1,0 +1,30 @@
+{
+  "id": "69a9c88e6638848124d7c9b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5d",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "VSA",
+  "question": "If $A = \\begin{pmatrix}1 & 2 \\\\ 3 & 4\\end{pmatrix}$ and $B = \\begin{pmatrix}0 & 1 \\\\ 1 & 0\\end{pmatrix}$, find $A - 2B$.",
+  "answeroption": "C",
+  "explanation": "First compute $2B$:<br />$2B = 2\\begin{pmatrix}0 & 1 \\\\ 1 & 0\\end{pmatrix} = \\begin{pmatrix}0 & 2 \\\\ 2 & 0\\end{pmatrix}$<br /><br />Now subtract:<br />$A - 2B = \\begin{pmatrix}1 & 2 \\\\ 3 & 4\\end{pmatrix} - \\begin{pmatrix}0 & 2 \\\\ 2 & 0\\end{pmatrix} = \\begin{pmatrix}1 & 0 \\\\ 1 & 4\\end{pmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{pmatrix}1 & 4 \\\\ 5 & 4\\end{pmatrix}$",
+    "B": "$\\begin{pmatrix}1 & 0 \\\\ -1 & 4\\end{pmatrix}$",
+    "C": "$\\begin{pmatrix}1 & 0 \\\\ 1 & 4\\end{pmatrix}$",
+    "D": "$\\begin{pmatrix}1 & 2 \\\\ 2 & 4\\end{pmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:16:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

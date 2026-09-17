@@ -1,0 +1,30 @@
+{
+  "id": "69aa7bf22a66c0f894c1aa14",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "Let $x, y \\geq 0$ and $x + y \\leq 4$. \n(a) Formulate and graph the linear programming problem to maximize $Z = 2x + 3y$ subject to the constraints $x \\geq 0$, $y \\geq 0$, $x + y \\leq 4$, $x \\leq 3$.\n(b) Find all corner points and determine the maximum value.\n(c) Consider the feasible region as a probability space: what is the probability that a randomly selected point from the region satisfies $y \\geq 2$?",
+  "answeroption": "C",
+  "explanation": "**Concepts being tested:** Linear Programming (LPP) formulation and graphical solution, corner points and objective maximization, geometrically-based probability.<br /><br />**(a)**<br />Constraints: $x \\geq 0$, $y \\geq 0$, $x + y \\leq 4$, $x \\leq 3$<br />Feasible region is bounded by intersection of lines:<br />$x = 0$, $y = 0$, $x + y = 4$, $x = 3$<br /><br />**(b)**<br />Corner points:<br />(0,0), (3,0), (3,1), (0,4)<br />$Z$ at (0,0): 0<br />(3,0): $6$<br />(3,1): $2\\cdot 3 + 3\\cdot 1 = 6 + 3 = 9$<br />(0,4): $0 + 12 = 12$<br />So maximum at $(0,4)$: $Z=12$<br /><br />**(c)**<br />Feasible region is a quadrilateral with vertices (0,0), (3,0), (3,1), (0,4)<br />Area = $\\frac{1}{2}|\\{(0,0),(3,0),(3,1),(0,4)\\}|$<br />Decompose into triangle (0,0)-(3,0)-(3,1): Area $=\\frac{1}{2}\\times3\\times1=1.5$<br />Triangle (0,0)-(3,1)-(0,4): Area $|\\frac{1}{2}(0(1-4)+3(4-0)+0(0-1))|=\\frac{1}{2}(0+12+0)=6$<br />So, total area $=1.5+6=7.5$<br /><br />But check quadrilateral area: $(0,0)-(3,0)-(3,1)-(0,4)$<br />Area $= \\frac{1}{2}|0\\times0 + 3\\times1 + 3\\times4 + 0\\times0 - (0\\times3 + 0\\times3 + 1\\times0 + 4\\times0)| = \\frac{1}{2}|0+3+12+0 - (0+0+0+0)| = \\frac{1}{2}(15) = 7.5$<br /><br />Region with $y \\geq 2$:<br />On $x+ y = 4$, $y=2\\implies x=2$. Range: $x$ from $0$ to $2$ at $y=2$<br />On $x=3$, $y$ from 1 up to below 2, but not at $y\\geq2$. So consider triangle with (0,2), (2,2), (0,4).<br />Area: base = 2, height = (4-2)=2; $=\\frac{1}{2}\\times2\\times2=2$.<br /><br />Thus, probability = $\\frac{2}{7.5} = \\frac{4}{15}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Maximize $Z=3x+2y$ subject to $x,y\\ge0$, $x+y\\le4$, $x\\le3$<br />(b) Corner points: $(0,0),(3,0),(0,4)$; maximum $Z=9$<br />(c) Probability $=\\frac{2}{15}$",
+    "B": "(a) Maximize $Z=2x+3y$ subject to $x,y\\ge0$, $x+y\\ge4$, $x\\le3$<br />(b) Corner points: $(0,0),(3,0),(3,1),(0,4)$; maximum $Z=12$ at $(0,4)$<br />(c) Probability $=\\frac{1}{2}$",
+    "C": "(a) Maximize $Z=2x+3y$ subject to $x\\ge0$, $y\\ge0$, $x+y\\le4$, $x\\le3$<br />(b) Corner points: $(0,0),(3,0),(3,1),(0,4)$; maximum value $Z=12$ at $(0,4)$<br />(c) Probability that $y\\ge2$ is $\\frac{4}{15}$",
+    "D": "(a) Maximize $Z=2x+3y$ subject to $x,y\\ge0$, $x+y\\le3$, $x\\le4$<br />(b) Corner points: $(0,0),(4,0),(4,1),(0,3)$; maximum $Z=9$ at $(0,3)$<br />(c) Probability $=\\frac{4}{7}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:02:10 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

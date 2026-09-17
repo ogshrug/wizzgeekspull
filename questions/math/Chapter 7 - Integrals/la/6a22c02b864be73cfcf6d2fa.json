@@ -1,0 +1,28 @@
+{
+  "id": "6a22c02b864be73cfcf6d2fa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c",
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate: $\\int_{0}^{\\frac{\\pi}{2}}\\sin 2x \\tan^{-1}(\\sin x)dx$",
+  "answeroption": "",
+  "explanation": "**Step 1 (Trigonometric simplification and substitution):** We begin with the integral $I = \\int_{0}^{\\pi/2} \\sin 2x \\tan^{-1}(\\sin x)dx$. Using the double-angle identity $\\sin 2x = 2\\sin x \\cos x$, the integral becomes $I = \\int_{0}^{\\pi/2} 2\\sin x \\cos x \\tan^{-1}(\\sin x)dx$. Notice that the derivative of $\\sin x$ is $\\cos x$, which appears linearly. This motivates the substitution $t = \\sin x$, so $dt = \\cos x dx$. When $x = 0$, $t = 0$; when $x = \\pi/2$, $t = 1$. The integral transforms cleanly into $I = \\int_{0}^{1} 2t \\tan^{-1}(t) dt$, eliminating all trigonometric functions and leaving an algebraic problem in $t$.<br /><br />**Step 2 (Integration by parts):** The integral $\\int_{0}^{1} 2t \\tan^{-1}(t) dt$ is well-suited for integration by parts. Recall the formula $\\int u dv = uv - \\int v du$. Choose $u = \\tan^{-1}(t)$ and $dv = 2t dt$. Then $du = \\frac{1}{1+t^2} dt$ and $v = t^2$. Substituting, we get $I = \\left[t^2 \\tan^{-1}(t)\\right]_{0}^{1} - \\int_{0}^{1} t^2 \\cdot \\frac{1}{1+t^2} dt$. Evaluating the boundary term: at $t=1$, $t^2 \\tan^{-1}(1) = 1 \\cdot \\frac{\\pi}{4} = \\frac{\\pi}{4}$; at $t=0$, the term is $0$. Thus the first part is $\\frac{\\pi}{4}$.<br /><br />**Step 3 (Simplifying the remaining integral):** We now need $\\int_{0}^{1} \\frac{t^2}{1+t^2} dt$. Add and subtract $1$ in the numerator: $\\frac{t^2}{1+t^2} = \\frac{t^2+1-1}{1+t^2} = 1 - \\frac{1}{1+t^2}$. Therefore $\\int_{0}^{1} \\frac{t^2}{1+t^2} dt = \\int_{0}^{1} 1 dt - \\int_{0}^{1} \\frac{1}{1+t^2} dt = [t]_{0}^{1} - [\\tan^{-1}(t)]_{0}^{1} = (1 - 0) - \\left(\\frac{\\pi}{4} - 0\\right) = 1 - \\frac{\\pi}{4}$. Finally, substitute back: $I = \\frac{\\pi}{4} - \\left(1 - \\frac{\\pi}{4}\\right) = \\frac{\\pi}{4} - 1 + \\frac{\\pi}{4} = \\frac{\\pi}{2} - 1$. This is the exact value of the definite integral.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

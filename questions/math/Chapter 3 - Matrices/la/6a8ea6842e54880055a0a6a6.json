@@ -1,0 +1,31 @@
+{
+  "id": "6a8ea6842e54880055a0a6a6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5a",
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d64"
+  ],
+  "question_type": "LA",
+  "question": "Using elementary row transformations, examine whether the matrix $$A=\\begin{bmatrix}1&1&2\\\\2&3&5\\\\3&4&7\\end{bmatrix}$$ can be transformed into the identity matrix, and hence determine whether $A^{-1}$ exists.",
+  "answeroption": "B",
+  "explanation": "<b>Applying Row Transformations</b><br><br>Start with $$A=\\begin{bmatrix}1&1&2\\\\2&3&5\\\\3&4&7\\end{bmatrix}$$ Apply $$R_2\\to R_2-2R_1$$ to obtain $$\\begin{bmatrix}1&1&2\\\\0&1&1\\\\3&4&7\\end{bmatrix}$$ Next apply $$R_3\\to R_3-3R_1$$ giving $$\\begin{bmatrix}1&1&2\\\\0&1&1\\\\0&1&1\\end{bmatrix}$$ Now apply $$R_3\\to R_3-R_2$$ We obtain $$\\begin{bmatrix}1&1&2\\\\0&1&1\\\\0&0&0\\end{bmatrix}$$<br><br><b>Existence of the Inverse</b><br><br>The transformations have produced a row consisting entirely of zeros. Such a row cannot be converted by elementary row transformations into the corresponding row of the identity matrix. Hence, the given matrix cannot be transformed into $I_3$. Therefore, an inverse matrix cannot be obtained for $A$.<br><br><b>Final Result</b><br><br>The matrix $$A=\\begin{bmatrix}1&1&2\\\\2&3&5\\\\3&4&7\\end{bmatrix}$$ is not invertible, and hence $$A^{-1}$$ does not exist.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ can be transformed into $I_3$, so $A^{-1}$ exists",
+    "B": "Row reduction produces a zero row, so $A$ cannot be transformed into $I_3$ and $A^{-1}$ does not exist",
+    "C": "Row reduction produces $I_3$ after one additional row interchange, so $A^{-1}$ exists",
+    "D": "The matrix is already equivalent to $I_3$ without producing any zero row, so $A^{-1}$ exists"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

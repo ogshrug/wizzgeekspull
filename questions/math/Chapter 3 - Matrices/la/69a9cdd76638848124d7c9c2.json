@@ -1,0 +1,30 @@
+{
+  "id": "69a9cdd76638848124d7c9c2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55",
+    "69c65fbf40512f018fa94d54"
+  ],
+  "question_type": "LA",
+  "question": "Let $A$ be a $3\\times3$ matrix such that $A^2 = 2A + I$ where $I$ is the identity matrix of order 3. (a) Prove $A^3 = 3A^2 + 2A + I$. (b) Without direct computation of $A^4$, express $A^4$ in terms of $A$ and $I$. (c) Evaluate $A^n$ for any positive integer $n \\ge 2$.",
+  "answeroption": "D",
+  "explanation": "(a) Starting with $A^2 = 2A + I$:<br /><br />$A^3 = A\\cdot A^2 = A(2A + I) = 2A^2 + A$<br /><br />Now, substitute $A^2$ from the given relation:<br /><br />$A^3 = 2A^2 + A = 2(2A + I) + A = 4A + 2I + A = 5A + 2I$<br /><br />Wait — this gets us to another form. Let's try direct expansion:<br /><br />From $A^2 = 2A + I$, so $A^2 - 2A - I = 0$<br /><br />Multiply both sides by $A$:<br /><br />$A(A^2 - 2A - I) = 0$<br /><br />$A^3 - 2A^2 - A = 0$<br /><br />$A^3 = 2A^2 + A$<br /><br />Alternatively, $A^2 = 2A + I \\implies A^2 - 2A = I$<br /><br />So $A^3 = A\\cdot A^2 = A(2A + I) = 2A^2 + A$<br /><br />Again, substitute $A^2 = 2A + I$:<br /><br />$A^3 = 2(2A + I) + A = 4A + 2I + A = 5A + 2I$<br /><br />But the question asked to show $A^3 = 3A^2 + 2A + I$, but calculation gives $A^3 = 2A^2 + A$<br /><br />Suppose we did instead using $A^2 - 2A - I = 0$.<br /><br />$A^3 = 2A^2 + A$<br /><br />To find $A^4$:<br /><br />$A^4 = A \\cdot A^3 = A\\cdot(2A^2 + A) = 2A^3 + A^2$<br /><br />But $A^3 = 2A^2 + A$<br /><br />So,<br /><br />$A^4 = 2(2A^2 + A) + A^2 = 4A^2 + 2A + A^2 = 5A^2 + 2A$<br /><br />Now, again write $A^2$ in terms of $A$ and $I$:<br /><br />$A^4 = 5A^2 + 2A = 5(2A + I) + 2A = 10A + 5I + 2A = 12A + 5I$<br /><br />Pattern is $A^n$ is a linear combination of powers of $A$ and $I$ only.<br /><br />Let's generalize:<br /><br />Let $A^2 = 2A + I$<br /><br />Suppose $A^n = p_n A + q_n I$<br /><br />Try to find recurrence for $p_n$ and $q_n$.<br /><br />$A^2 = 2A + I = (2)A + (1)I$<br /><br />$A^3 = A \\cdot (2A + I) = 2A^2 + A = 2(2A + I) + A = 4A + 2I + A = 5A + 2I$<br /><br />$A^4 = A \\cdot (5A + 2I) = 5A^2 + 2A = 5(2A + I) + 2A = 10A + 5I + 2A = 12A + 5I$<br /><br />$A^5 = A \\cdot (12A + 5I) = 12A^2 + 5A = 12(2A + I) + 5A = 24A + 12I + 5A = 29A + 12I$<br /><br />So, recursively:<br /><br />$p_2 = 2, q_2 = 1$<br /><br />$p_3 = 5, q_3 = 2$<br /><br />$p_4 = 12, q_4 = 5$<br /><br />$p_5 = 29, q_5 = 12$<br /><br />Pattern: $p_{n+1} = 2p_n + q_n$, $q_{n+1} = p_n$<br /><br />So, $A^n = p_n A + q_n I$ where $p_{n+1} = 2p_n + q_n$, $q_{n+1} = p_n$, $p_2 = 2, q_2 = 1$.<br /><br />(b) $A^4 = 12A + 5I$<br /><br />(c) $A^n = p_n A + q_n I$ with $p_{n+1} = 2p_n + q_n$, $q_{n+1} = p_n$, $p_2 = 2, q_2 = 1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A^3=3A^2+2A+I$.<br />(b) $A^4=4A+4I$.<br />(c) $A^n=nA+I$ for all $n\\ge2$.",
+    "B": "(a) $A^3=A^2+A+I$.<br />(b) $A^4=8A+3I$.<br />(c) $A^n=2^nA+I$.",
+    "C": "(a) $A^3=0$.<br />(b) $A^4=0$.<br />(c) $A^n=0$ for all $n\\ge2$.",
+    "D": "(a) The stated claim $A^3=3A^2+2A+I$ is not correct; actually $A^3=2A^2+A=5A+2I$.<br />(b) $A^4=12A+5I$.<br />(c) For $n\\ge2$, $A^n=p_nA+q_nI$, where $p_{n+1}=2p_n+q_n$, $q_{n+1}=p_n$, with $p_2=2$, $q_2=1$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:39:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

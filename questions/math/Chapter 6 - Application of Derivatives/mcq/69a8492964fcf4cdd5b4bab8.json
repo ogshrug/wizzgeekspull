@@ -1,0 +1,30 @@
+{
+  "id": "69a8492964fcf4cdd5b4bab8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $f(x) = x^4-4|x|^3+7$. The minimum value of $f(x)$ is at:",
+  "answeroption": "C",
+  "explanation": "Since $f(x)$ is even, let $t=|x|$, $t\\ge0$.<br /><br />Then $f(t)=t^4-4t^3+7$.<br /><br />Differentiate:<br /><br />$f'(t)=4t^3-12t^2=4t^2(t-3)$.<br /><br />Critical points: $t=0,3$.<br /><br />Evaluate:<br /><br />At $t=0$, $f=7$.<br /><br />At $t=3$, $f=81-108+7=-20$.<br /><br />Minimum occurs at $t=3$, i.e., $x=3$ or $x=-3$.<br /><br />Among given options, $x=3$ is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=0$",
+    "B": "$x=1$",
+    "C": "$x=3$",
+    "D": "$x=-3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:00:57 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a8fd37abe0ecc7866e90c4d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f993",
+    "6a13eb338c819562f933f994",
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "LA",
+  "question": "The straight line $2x+3y=12$ encloses a triangular region with the coordinate axes.(a) Determine the intercepts made by the line on the coordinate axes.(b) Calculate the enclosed area by integrating with respect to $x$.(c) Recalculate the area by integrating with respect to $y$ and verify that both methods give the same result.",
+  "answeroption": "A",
+  "explanation": "(a)On the $x$-axis, $y=0$. Therefore,`2x=12\\Rightarrow x=6`Thus, the $x$-intercept is $\\left(6,0\\right)$.On the $y$-axis, $x=0$. Therefore,`3y=12\\Rightarrow y=4`Thus, the $y$-intercept is $\\left(0,4\\right)$.(b)Expressing $y$ in terms of $x$ gives`y=4-\\frac{2x}{3}`Hence, the enclosed area is`A=\\int_0^6\\left(4-\\frac{2x}{3}\\right)dxA=\\left[4x-\\frac{x^2}{3}\\right]_0^6A=24-12=12`Thus, the enclosed area is $12$ square units.(c)Expressing $x$ in terms of $y$ gives`x=6-\\frac{3y}{2}`Therefore,`A=\\int_0^4\\left(6-\\frac{3y}{2}\\right)dyA=\\left[6y-\\frac{3y^2}{4}\\right]_0^4A=24-12=12`Hence, integration with respect to both $x$ and $y$ gives the same area, $12$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Intercepts $(6,0)$ and $(0,4)$<br>(b) Area by $x$-integration $=12$<br>(c) Area by $y$-integration $=12$",
+    "B": "(a) Intercepts $(4,0)$ and $(0,6)$<br>(b) Area by $x$-integration $=12$<br>(c) Area by $y$-integration $=12$",
+    "C": "(a) Intercepts $(6,0)$ and $(0,4)$<br>(b) Area by $x$-integration $=24$<br>(c) Area by $y$-integration $=24$",
+    "D": "(a) Intercepts $(6,0)$ and $(0,4)$<br>(b) Area by $x$-integration $=10$<br>(c) Area by $y$-integration $=12$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

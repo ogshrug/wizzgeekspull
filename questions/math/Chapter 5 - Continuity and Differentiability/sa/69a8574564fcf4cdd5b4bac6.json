@@ -1,0 +1,30 @@
+{
+  "id": "69a8574564fcf4cdd5b4bac6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "SA",
+  "question": "If $y = (x + 1)^x$, prove that $\\frac{dy}{dx} = (x+1)^x \\left[ \\ln (x+1) + \\frac{x}{x+1} \\right]$ for $x > -1$.",
+  "answeroption": "C",
+  "explanation": "Take logarithm on both sides:<br /><br />$\\ln y = x \\ln(x+1)$.<br /><br />Differentiate both sides:<br /><br />$\\frac{1}{y} \\frac{dy}{dx} = \\ln(x+1) + \\frac{x}{x+1}$.<br /><br />Multiply by $y$:<br /><br />$\\frac{dy}{dx} = (x+1)^x \\left[ \\ln(x+1) + \\frac{x}{x+1} \\right]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(x+1)^x\\left[\\ln(x+1)-\\frac{x}{x+1}\\right]$",
+    "B": "$(x+1)^x\\left[\\frac{1}{x+1}\\right]$",
+    "C": "$(x+1)^x\\left[\\ln(x+1)+\\frac{x}{x+1}\\right]$",
+    "D": "$x(x+1)^{x-1}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:01:09 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

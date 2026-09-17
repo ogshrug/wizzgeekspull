@@ -1,0 +1,29 @@
+{
+  "id": "69a9aece6638848124d7c978",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $f(x) = \\int_{0}^{x} \\ln(1 + t^2)dt$. Then $f''(x)$ is:",
+  "answeroption": "D",
+  "explanation": "Using the Fundamental Theorem of Calculus:<br /><br />$f'(x)=\\ln(1+x^2)$.<br /><br />Differentiate again:<br /><br />$f''(x)=\\frac{d}{dx}[\\ln(1+x^2)]$.<br /><br />Using chain rule gives $\\frac{2x}{1+x^2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\ln(1 + x^2)$",
+    "B": "$\\frac{1}{1+x^2}$",
+    "C": "$\\frac{x}{1+x^2}$",
+    "D": "$\\frac{2x}{1+x^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:26:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e977a4b490c7cde35940c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d60"
+  ],
+  "question_type": "SA",
+  "question": "Let $$A=\\begin{bmatrix}2 & -1 \\\\ 4 & 3\\end{bmatrix}.$$ Verify that $(k+l)A=kA+lA$ for $k=2$ and $l=-3$.",
+  "answeroption": "B",
+  "explanation": "<b>Left-hand side</b><br>Since $k+l=2-3=-1$, $$(k+l)A=-A=\\begin{bmatrix}-2 & 1 \\\\ -4 & -3\\end{bmatrix}$$<br><b>Right-hand side</b><br>$$2A=\\begin{bmatrix}4 & -2 \\\\ 8 & 6\\end{bmatrix},\\quad -3A=\\begin{bmatrix}-6 & 3 \\\\ -12 & -9\\end{bmatrix}$$<br>Therefore, $$2A+(-3A)=\\begin{bmatrix}-2 & 1 \\\\ -4 & -3\\end{bmatrix}$$<br><b>Scalar multiplication property</b><br>Hence, $(k+l)A=kA+lA$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(k+l)A=kA+lA=\\begin{bmatrix}2&-1\\\\4&3\\end{bmatrix}$",
+    "B": "$(k+l)A=kA+lA=\\begin{bmatrix}-2&1\\\\-4&-3\\end{bmatrix}$",
+    "C": "$(k+l)A=\\begin{bmatrix}-2&1\\\\-4&-3\\end{bmatrix}$ but $kA+lA=\\begin{bmatrix}2&-1\\\\4&3\\end{bmatrix}$",
+    "D": "$(k+l)A=kA+lA=\\begin{bmatrix}-4&2\\\\-8&-6\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

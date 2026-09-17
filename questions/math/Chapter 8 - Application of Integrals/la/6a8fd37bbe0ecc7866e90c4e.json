@@ -1,0 +1,31 @@
+{
+  "id": "6a8fd37bbe0ecc7866e90c4e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999",
+    "6a13eb348c819562f933f99b"
+  ],
+  "question_type": "LA",
+  "question": "The parabolas $x=y^2$ and $x=4-y^2$ enclose a finite region.(a) Determine the points of intersection of the parabolas.(b) Identify the right and left boundaries of the enclosed region.(c) Using integration with respect to $y$, calculate the exact area enclosed by the two parabolas.",
+  "answeroption": "D",
+  "explanation": "(a)At the points of intersection,`y^2=4-y^22y^2=4y^2=2`Thus, $y=\\pm\\sqrt{2}$. The corresponding value of $x$ is $2$. Hence, the points of intersection are $\\left(2,\\sqrt{2}\\right)$ and $\\left(2,-\\sqrt{2}\\right)$.(b)For $-\\sqrt{2}\\leq y\\leq\\sqrt{2}$,`\\left(4-y^2\\right)-y^2=4-2y^2\\geq0`Therefore, $x=4-y^2$ is the right boundary and $x=y^2$ is the left boundary.(c)The enclosed area is`A=\\int_{-\\sqrt{2}}^{\\sqrt{2}}\\left(4-2y^2\\right)dy`Since the integrand is even,`A=2\\int_0^{\\sqrt{2}}\\left(4-2y^2\\right)dyA=2\\left[4y-\\frac{2y^3}{3}\\right]_0^{\\sqrt{2}}`Since $\\left(\\sqrt{2}\\right)^3=2\\sqrt{2}$,`A=2\\left(4\\sqrt{2}-\\frac{4\\sqrt{2}}{3}\\right)A=\\frac{16\\sqrt{2}}{3}`Hence, the area enclosed by the two parabolas is $\\frac{16\\sqrt{2}}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(2,\\sqrt{2})$ and $(2,-\\sqrt{2})$<br>(b) Right: $x=y^2$; left: $x=4-y^2$<br>(c) Area $=\\frac{16\\sqrt{2}}{3}$",
+    "B": "(a) $(2,2)$ and $(2,-2)$<br>(b) Right: $x=4-y^2$; left: $x=y^2$<br>(c) Area $=\\frac{16\\sqrt{2}}{3}$",
+    "C": "(a) $(2,\\sqrt{2})$ and $(2,-\\sqrt{2})$<br>(b) Right: $x=4-y^2$; left: $x=y^2$<br>(c) Area $=\\frac{8\\sqrt{2}}{3}$",
+    "D": "(a) $(2,\\sqrt{2})$ and $(2,-\\sqrt{2})$<br>(b) Right: $x=4-y^2$; left: $x=y^2$<br>(c) Area $=\\frac{16\\sqrt{2}}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

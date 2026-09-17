@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed2dc751910886affb9b8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973"
+  ],
+  "question_type": "SA",
+  "question": "A quantity varies with time according to $Q(t)=t^4-4t^3+6t^2$.(a) Find its instantaneous rate of change at $t=2$.(b) State whether the quantity is increasing or decreasing at that instant, giving a reason.",
+  "answeroption": "A",
+  "explanation": "Given function$$Q(t)=t^4-4t^3+6t^2$$Instantaneous rateThe instantaneous rate of change is obtained by differentiating $Q$ with respect to $t$.$$\\frac{dQ}{dt}=4t^3-12t^2+12t$$Substitution at the specified instantAt $t=2$,$$\\left.\\frac{dQ}{dt}\\right|_{t=2}=4(2)^3-12(2)^2+12(2)$$$$=32-48+24=8$$Sign interpretationSince $\\frac{dQ}{dt}=8>0$ at $t=2$, the quantity is increasing at that instant.Final resultThe instantaneous rate of change is $8$ units per unit time, and the quantity is increasing.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $8$ units per unit time<br>(b) Increasing, since the instantaneous rate is positive",
+    "B": "(a) $-8$ units per unit time<br>(b) Decreasing, since the instantaneous rate is negative",
+    "C": "(a) $4$ units per unit time<br>(b) Increasing, since the instantaneous rate is positive",
+    "D": "(a) $0$ units per unit time<br>(b) Neither increasing nor decreasing at that instant"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8d29cb1cb3824448de86bf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A=\\{p,q\\}$. Treating every binary operation on $A$ as a function from $A\\times A$ to $A$, determine the total number of binary operations that can be defined on $A$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Use the definition of a binary operation</b><br>A binary operation on $A$ is a function from $A\\times A$ to $A$.<br><br><b>Step 2: Find the number of inputs</b><br>Since $A$ has $2$ elements, the Cartesian product contains<br>$$|A\\times A|=2\\times2=4$$<br>ordered pairs.<br><br><b>Step 3: Count the possible functions</b><br>For each of the $4$ ordered pairs, the output can independently be either $p$ or $q$. Thus, there are $2$ choices for each input.<br><br><b>Step 4: Calculate the total</b><br>The total number of functions from $A\\times A$ to $A$ is<br>$$2^4=16.$$<br><br><b>Final Answer:</b> The total number of binary operations on $A$ is $\\boxed{16}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4$",
+    "B": "$8$",
+    "C": "$32$",
+    "D": "$16$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

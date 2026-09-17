@@ -1,0 +1,29 @@
+{
+  "id": "6a902a1fbe0ecc7866e90cb9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "SA",
+  "question": "For three events $A$, $B$ and $C$, it is given that $P(A)=\\frac23$, $P(B|A)=\\frac35$ and $P(C|A\\cap B)=\\frac12$. Find $P(A\\cap B\\cap C)$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Identification of the given probabilities</b><br>We are given $$P(A)=\\frac23,\\qquad P(B|A)=\\frac35,\\qquad P(C|A\\cap B)=\\frac12.$$ The required probability is that all three events occur.<br><b>Step 2: Multiplication relation for three events</b><br>By the multiplication theorem, $$P(A\\cap B\\cap C)=P(A)P(B|A)P(C|A\\cap B).$$<br><b>Step 3: Substitution of the given values</b><br>Substituting the probabilities, $$P(A\\cap B\\cap C)=\\frac23\\times\\frac35\\times\\frac12.$$<br><b>Step 4: Simplification</b><br>Multiplying the numerators and denominators gives $$P(A\\cap B\\cap C)=\\frac{2\\times3\\times1}{3\\times5\\times2}=\\frac15.$$<br><b>Step 5: Conclusion</b><br>Therefore, the probability of the simultaneous occurrence of $A$, $B$ and $C$ is $$\\boxed{\\frac15}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{6}$",
+    "B": "$\\frac{1}{4}$",
+    "C": "$\\frac{1}{5}$",
+    "D": "$\\frac{2}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

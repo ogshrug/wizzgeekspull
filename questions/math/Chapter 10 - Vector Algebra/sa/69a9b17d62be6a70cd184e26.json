@@ -1,0 +1,31 @@
+{
+  "id": "69a9b17d62be6a70cd184e26",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c9",
+    "6a13e766d837c8c7efa6b8bc",
+    "6a13e767d837c8c7efa6b8c4"
+  ],
+  "question_type": "SA",
+  "question": "Let $\\vec{r}_1 = 2\\hat{i} - \\hat{j} + 7\\hat{k}$ and $\\vec{r}_2 = -\\hat{i} + 4\\hat{j} + 2\\hat{k}$ be the position vectors of points A and B. Find the position vector of the point which divides the line segment AB externally in the ratio 2:1, and find its magnitude.",
+  "answeroption": "A",
+  "explanation": "Step 1: Let $\\vec{a} = \\vec{r}_1$ and $\\vec{b} = \\vec{r}_2$.<br /><br />The external division formula is:<br /><br />$\\vec{r} = \\dfrac{m\\vec{b} - n\\vec{a}}{m - n}$<br /><br />Where $m:n = 2:1$<br /><br />$\\vec{r} = \\dfrac{2\\vec{b} - 1\\vec{a}}{2-1} = 2\\vec{b} - \\vec{a}$<br /><br />$2\\vec{b} = 2(-\\hat{i} + 4\\hat{j} + 2\\hat{k}) = -2\\hat{i} + 8\\hat{j} + 4\\hat{k}$<br /><br />Now,<br /><br />$\\vec{r} = (-2\\hat{i} + 8\\hat{j} + 4\\hat{k}) - (2\\hat{i} - \\hat{j} + 7\\hat{k})$<br /><br />$= -2\\hat{i} + 8\\hat{j} + 4\\hat{k} - 2\\hat{i} + \\hat{j} - 7\\hat{k}$<br /><br />$= (-2 - 2)\\hat{i} + (8 + 1)\\hat{j} + (4 - 7)\\hat{k}$<br /><br />$= -4\\hat{i} + 9\\hat{j} - 3\\hat{k}$<br /><br />Step 2: Find its magnitude:<br /><br />$|\\vec{r}| = \\sqrt{(-4)^2 + 9^2 + (-3)^2} = \\sqrt{16 + 81 + 9} = \\sqrt{106}$<br /><br />Final Answer:<br /><br />Position vector $= -4\\hat{i} + 9\\hat{j} - 3\\hat{k}$, Magnitude $= \\sqrt{106}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Position vector $= -4\\hat{i}+9\\hat{j}-3\\hat{k}$, magnitude $=\\sqrt{106}$",
+    "B": "Position vector $= -4\\hat{i}+9\\hat{j}+3\\hat{k}$, magnitude $=\\sqrt{106}$",
+    "C": "Position vector $= 4\\hat{i}-9\\hat{j}+3\\hat{k}$, magnitude $=\\sqrt{106}$",
+    "D": "Position vector $= -\\hat{i}+4\\hat{j}+2\\hat{k}$, magnitude $=\\sqrt{21}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:38:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

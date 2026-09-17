@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc5542e54880055a0a701",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "SA",
+  "question": "The line $y=x+2$ and the parabola $y=4-x^2$ enclose a finite region.<br>(a) Determine their points of intersection.<br>(b) Calculate the area enclosed between them.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Finding the intersection values</b><br>Equating the two expressions for $y$,<br>\\(x+2=4-x^2\\)<br>Therefore,<br>\\(x^2+x-2=0\\Rightarrow(x+2)(x-1)=0\\)<br>Thus, $x=-2,1$. The corresponding points are $(-2,0)$ and $(1,3)$.<br><b>Step 2: Identifying the upper curve</b><br>Between $x=-2$ and $x=1$, the parabola $y=4-x^2$ lies above the line $y=x+2$.<br><b>Step 3: Forming the area integral</b><br>\\(A=\\int_{-2}^{1}\\left[(4-x^2)-(x+2)\\right]dx\\)<br><b>Step 4: Evaluating the integral</b><br>\\(A=\\left[2x-\\frac{x^2}{2}-\\frac{x^3}{3}\\right]_{-2}^{1}=\\frac{9}{2}\\)<br><b>Final Answer</b><br>The intersection points are $(-2,0)$ and $(1,3)$, and the enclosed area is $\\frac{9}{2}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(-1,1)$ and $(2,4)$<br>(b) $\\frac{9}{2}$ square units",
+    "B": "(a) $(-2,0)$ and $(1,3)$<br>(b) $\\frac{7}{2}$ square units",
+    "C": "(a) $(-2,0)$ and $(2,4)$<br>(b) $\\frac{9}{2}$ square units",
+    "D": "(a) $(-2,0)$ and $(1,3)$<br>(b) $\\frac{9}{2}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

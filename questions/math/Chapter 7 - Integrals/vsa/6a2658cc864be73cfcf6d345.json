@@ -1,0 +1,28 @@
+{
+  "id": "6a2658cc864be73cfcf6d345",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "VSA",
+  "question": "Find: <br />$$\\int\\frac{dx}{x^{2}-6x+13}$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To evaluate the integral $\\int\\frac{dx}{x^{2}-6x+13}$, we first simplify the quadratic polynomial in the denominator by completing the square. Take the quadratic expression $x^2 - 6x + 13$. Half of the coefficient of $x$ is $\\frac{-6}{2} = -3$, and its square is $(-3)^2 = 9$. We rewrite the constant term $13$ as $9 + 4$, which allows us to regroup the terms as $(x^2 - 6x + 9) + 4$. This condenses into the standard vertex form: $(x - 3)^2 + 2^2$.<br />**Step 2:** Substitute this completed square expression back into the denominator of the integrand. The integral now takes the following form: $\\int\\frac{dx}{(x - 3)^2 + 2^2}$. This perfectly matches the standard algebraic integration formula: $\\int \\frac{dx}{x^2 + a^2} = \\frac{1}{a} \\tan^{-1}\\left(\\frac{x}{a}\\right) + C$.<br />**Step 3:** By matching the terms of our integral with the standard formula, we identify $a = 2$ and the linear component $(x - 3)$ acting in place of $x$. Applying the integration rule directly yields the final evaluation: $\\frac{1}{2} \\tan^{-1}\\left(\\frac{x - 3}{2}\\right) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1",
+    "2022-3-2",
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

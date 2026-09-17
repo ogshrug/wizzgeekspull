@@ -1,0 +1,30 @@
+{
+  "id": "69a98a37589ce36f368b4826",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Show that the fractional part function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$, given by $f(x) = x - [x]$ is neither one-one nor onto.",
+  "answeroption": "D",
+  "explanation": "Given $f(x) = x - [x]$, where $[x]$ is the greatest integer function.<br /><br />Range of $f(x)$ is $[0,1)$.<br /><br />Check one-one: $f(1.2) = 1.2 - 1 = 0.2$ and $f(2.2) = 2.2 - 2 = 0.2$. Here $f(1.2) = f(2.2)$ but $1.2 \\ne 2.2$. Hence $f$ is not one-one.<br /><br />Check onto: The range of $f$ is $[0,1)$ while the codomain is $\\mathbb{R}$. Since $[0,1) \\neq \\mathbb{R}$, not every real number is obtained as an image.<br /><br />Therefore $f$ is neither one-one nor onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one and onto",
+    "B": "$f$ is one-one but not onto",
+    "C": "$f$ is onto but not one-one",
+    "D": "$f$ is neither one-one nor onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:50:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

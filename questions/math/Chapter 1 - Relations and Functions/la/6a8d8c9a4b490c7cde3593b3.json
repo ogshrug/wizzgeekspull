@@ -1,0 +1,30 @@
+{
+  "id": "6a8d8c9a4b490c7cde3593b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "LA",
+  "question": "Let $A=\\mathbb{R}\\setminus\\left\\{\\frac{2}{3}\\right\\}$ and define $f:A\\to A$ by $f(x)=\\frac{4x+3}{6x-4}$. Show that $(f\\circ f)(x)=x$ for every $x\\in A$, and hence establish that $f$ is invertible and determine $f^{-1}$.",
+  "answeroption": "A",
+  "explanation": "<b>Formation of the composite function</b><br>For $x\\in A$, $$f(x)=\\frac{4x+3}{6x-4}$$ Therefore, $$(f\\circ f)(x)=f\\left(\\frac{4x+3}{6x-4}\\right)=\\frac{4\\left(\\frac{4x+3}{6x-4}\\right)+3}{6\\left(\\frac{4x+3}{6x-4}\\right)-4}$$<br><br><b>Simplification of the numerator</b><br>$$4\\left(\\frac{4x+3}{6x-4}\\right)+3=\\frac{16x+12+18x-12}{6x-4}=\\frac{34x}{6x-4}$$<br><br><b>Simplification of the denominator</b><br>$$6\\left(\\frac{4x+3}{6x-4}\\right)-4=\\frac{24x+18-24x+16}{6x-4}=\\frac{34}{6x-4}$$<br><br><b>Evaluation of the composition</b><br>Hence, $$(f\\circ f)(x)=\\frac{\\frac{34x}{6x-4}}{\\frac{34}{6x-4}}=x$$ Thus, $$f\\circ f=I_A$$<br><br><b>Invertibility</b><br>A function $g:A\\to A$ is the inverse of $f$ when $$g\\circ f=I_A\\quad\\text{and}\\quad f\\circ g=I_A$$ Here, taking $g=f$, we have already obtained $$f\\circ f=I_A$$ Therefore, $f$ itself serves as its inverse.<br><br><b>Final Result</b><br>The function $f$ is invertible and is its own inverse. Hence, $$f^{-1}(x)=\\frac{4x+3}{6x-4},\\qquad x\\neq\\frac{2}{3}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(f\\circ f)(x)=x$ for every $x\\in A$; hence, $f$ is invertible and $f^{-1}(x)=\\frac{4x+3}{6x-4}$.",
+    "B": "$(f\\circ f)(x)=\\frac{1}{x}$; hence, $f^{-1}(x)=\\frac{6x-4}{4x+3}$.",
+    "C": "$(f\\circ f)(x)=x$, but $f$ is not invertible because $\\frac{2}{3}$ is excluded from its domain.",
+    "D": "$(f\\circ f)(x)=x+1$; hence, $f^{-1}(x)=\\frac{4x-3}{6x+4}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc1cb4b490c7cde3594ed",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int \\frac{2x+3}{x(x+1)^2}\\,dx$ by resolving the integrand into partial fractions.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Setting up partial fractions</b><br>Since the denominator contains a linear factor and a repeated linear factor, write<br>$$\\frac{2x+3}{x(x+1)^2}=\\frac{A}{x}+\\frac{B}{x+1}+\\frac{C}{(x+1)^2}$$<br><b>Step 2: Comparing coefficients</b><br>Multiplying by $x(x+1)^2$ gives<br>$$2x+3=A(x+1)^2+Bx(x+1)+Cx$$<br>Comparing coefficients yields $A=3$, $A+B=0$ and $2A+B+C=2$. Hence, $B=-3$ and $C=-1$.<br><b>Step 3: Rewriting the integral</b><br>$$\\int\\left(\\frac{3}{x}-\\frac{3}{x+1}-\\frac{1}{(x+1)^2}\\right)dx$$<br><b>Step 4: Integrating each term</b><br>$$=3\\log|x|-3\\log|x+1|+\\frac{1}{x+1}+C$$<br><b>Step 5: Stating the final result</b><br>Thus,<br>$$\\boxed{3\\log|x|-3\\log|x+1|+\\frac{1}{x+1}+C}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$3\\log|x|+3\\log|x+1|+\\frac{1}{x+1}+C$",
+    "B": "$3\\log|x|-3\\log|x+1|+\\frac{1}{x+1}+C$",
+    "C": "$3\\log|x|-3\\log|x+1|-\\frac{1}{x+1}+C$",
+    "D": "$2\\log|x|-2\\log|x+1|+\\frac{1}{x+1}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

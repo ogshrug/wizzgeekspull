@@ -1,0 +1,30 @@
+{
+  "id": "6a8c61eb77877fac8fdb9914",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "Let $g(x)=\\csc^{-1}(2x-3)$.<br><br>(a) Determine the domain and range of $g$.<br><br>(b) Solve $g(x)=-\\dfrac{\\pi}{6}$.<br><br>(c) Examine whether $0$ can be attained by $g$, giving a reason for your conclusion.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>For $\\csc^{-1}(2x-3)$ to be defined,<br>$$|2x-3|\\geq1$$<br>Therefore,<br>$$2x-3\\leq-1\\quad\\text{or}\\quad2x-3\\geq1$$<br>This gives<br>$$x\\leq1\\quad\\text{or}\\quad x\\geq2$$<br>Hence, the domain is<br>$$(-\\infty,1]\\cup[2,\\infty)$$<br>The principal-value range of $\\csc^{-1}t$ is<br>$$\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$$<br>Therefore, this is also the range of $g$.<br><br><b>(b)</b><br>Given that<br>$$\\csc^{-1}(2x-3)=-\\frac{\\pi}{6}$$<br>taking cosecant on both sides gives<br>$$2x-3=\\csc\\left(-\\frac{\\pi}{6}\\right)=-2$$<br>Therefore,<br>$$2x=1$$<br>$$x=\\frac{1}{2}$$<br>Since $\\dfrac{1}{2}\\leq1$, it belongs to the domain. Hence, $x=\\dfrac{1}{2}$.<br><br><b>(c)</b><br>The value $0$ is excluded from the principal-value range of $\\csc^{-1}t$. Equivalently, there is no real number whose cosecant is defined and equals an infinitely large value corresponding to an angle of $0$. Therefore, $g(x)$ cannot attain $0$ for any real value of $x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $(-\\infty,1]\\cup[2,\\infty)$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; $x=\\frac{1}{2}$; $0$ can be attained",
+    "B": "Domain: $[1,2]$; Range: $\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$; $x=\\frac{1}{2}$; $0$ cannot be attained",
+    "C": "Domain: $(-\\infty,1]\\cup[2,\\infty)$; Range: $\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$; $x=\\frac{5}{2}$; $0$ cannot be attained",
+    "D": "Domain: $(-\\infty,1]\\cup[2,\\infty)$; Range: $\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$; $x=\\frac{1}{2}$; $0$ cannot be attained"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

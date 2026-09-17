@@ -1,0 +1,29 @@
+{
+  "id": "6a8d29ca1cb3824448de86bb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be given by $f(x)=5x-7$. If $f^{-1}(y)=3$, determine $y$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Interpret the inverse-function equation</b><br>The relation $f^{-1}(y)=3$ means that applying $f$ to $3$ gives $y$. Therefore,<br>$$y=f(3).$$<br><br><b>Step 2: Calculate the value</b><br>Using $f(x)=5x-7$,<br>$$f(3)=5(3)-7=15-7=8.$$<br>Hence,<br>$$y=8.$$<br><br><b>Step 3: Verify using the inverse</b><br>The inverse function is<br>$$f^{-1}(x)=\\frac{x+7}{5}.$$<br>Thus, $f^{-1}(y)=3$ gives<br>$$\\frac{y+7}{5}=3,$$<br>which again gives $y=8$.<br><br><b>Final Answer:</b> $\\boxed{y=8}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$8$",
+    "B": "$-8$",
+    "C": "$22$",
+    "D": "$2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

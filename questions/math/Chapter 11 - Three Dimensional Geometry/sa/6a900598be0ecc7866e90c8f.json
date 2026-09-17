@@ -1,0 +1,29 @@
+{
+  "id": "6a900598be0ecc7866e90c8f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4"
+  ],
+  "question_type": "SA",
+  "question": "Verify whether the lines $\\vec{r}=(\\hat{i}+2\\hat{j}-\\hat{k})+\\lambda(2\\hat{i}-\\hat{j}+\\hat{k})$ and $\\vec{r}=(4\\hat{i}+2\\hat{j})+\\mu(\\hat{i}+\\hat{j})$ are coplanar. Give mathematical justification.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Identification of position and direction vectors</b><br>For the first line, $\\vec{a}_1=\\hat{i}+2\\hat{j}-\\hat{k}$ and $\\vec{b}_1=2\\hat{i}-\\hat{j}+\\hat{k}$. For the second line, $\\vec{a}_2=4\\hat{i}+2\\hat{j}$ and $\\vec{b}_2=\\hat{i}+\\hat{j}$.<br><b>Step 2: Vector joining points on the two lines</b><br>$$\\vec{a}_2-\\vec{a}_1=3\\hat{i}+\\hat{k}.$$<br><b>Step 3: Coplanarity condition</b><br>Two lines are coplanar if<br>$$\\left(\\vec{a}_2-\\vec{a}_1\\right)\\cdot\\left(\\vec{b}_1\\times\\vec{b}_2\\right)=0.$$<br><b>Step 4: Vector product and scalar product</b><br>$$\\vec{b}_1\\times\\vec{b}_2=(2\\hat{i}-\\hat{j}+\\hat{k})\\times(\\hat{i}+\\hat{j})=-\\hat{i}+\\hat{j}+3\\hat{k}.$$<br>Therefore,<br>$$\\left(3\\hat{i}+\\hat{k}\\right)\\cdot\\left(-\\hat{i}+\\hat{j}+3\\hat{k}\\right)=-3+3=0.$$<br><b>Step 5: Final conclusion</b><br>Since the required scalar triple product is zero, the given lines are coplanar.",
+  "explanation_image": [],
+  "options": {
+    "A": "The lines are not coplanar because the scalar triple product is $6$.",
+    "B": "The lines are parallel and hence coplanar.",
+    "C": "The lines are coplanar because $(\\vec a_2-\\vec a_1)\\cdot(\\vec b_1\\times\\vec b_2)=0$.",
+    "D": "The lines are skew because their direction vectors are not proportional."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

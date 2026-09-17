@@ -1,0 +1,29 @@
+{
+  "id": "6a902a1fbe0ecc7866e90cb8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "SA",
+  "question": "A bag contains $6$ red, $5$ white and $4$ black balls. Three balls are drawn successively without replacement. Find the probability that the first ball is red, the second is white and the third is black.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Identification of successive events</b><br>Let $R$, $W$ and $B$ denote respectively the events that the first ball is red, the second is white and the third is black. Initially, the bag contains $15$ balls.<br><b>Step 2: Probability of the first event</b><br>The probability that the first ball is red is $$P(R)=\\frac6{15}.$$<br><b>Step 3: Conditional probabilities of subsequent events</b><br>After a red ball is drawn, $14$ balls remain and all $5$ white balls remain. Thus, $$P(W|R)=\\frac5{14}.$$ After a red and a white ball have been drawn, $13$ balls remain, including $4$ black balls. Hence, $$P(B|R\\cap W)=\\frac4{13}.$$<br><b>Step 4: Application of multiplication theorem</b><br>$$P(R\\cap W\\cap B)=\\frac6{15}\\times\\frac5{14}\\times\\frac4{13}=\\frac4{91}.$$<br><b>Step 5: Conclusion</b><br>The required probability is $$\\boxed{\\frac4{91}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{35}$",
+    "B": "$\\frac{4}{105}$",
+    "C": "$\\frac{8}{91}$",
+    "D": "$\\frac{4}{91}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a92c5462be6a70cd184d1c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Prove that $\\cos^{-1}x + \\cos^{-1}y = \\cos^{-1}(xy - \\sqrt{1-x^2}\\sqrt{1-y^2})$.",
+  "answeroption": "A",
+  "explanation": "Let $\\theta = \\cos^{-1}x$ and $\\phi = \\cos^{-1}y$.<br /><br />Then $x = \\cos\\theta$ and $y = \\cos\\phi$.<br /><br />Using the identity $\\cos(\\theta+\\phi) = \\cos\\theta\\cos\\phi - \\sin\\theta\\sin\\phi$.<br /><br />Substituting gives $\\cos(\\theta+\\phi) = xy - \\sqrt{1-x^2}\\sqrt{1-y^2}$.<br /><br />Thus $\\theta + \\phi = \\cos^{-1}(xy - \\sqrt{1-x^2}\\sqrt{1-y^2})$.<br /><br />Hence the identity holds within the principal value branch.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $\\theta=\\cos^{-1}x$ and $\\phi=\\cos^{-1}y$. Then $x=\\cos\\theta$, $y=\\cos\\phi$, and using $\\cos(\\theta+\\phi)=\\cos\\theta\\cos\\phi-\\sin\\theta\\sin\\phi$ gives $xy-\\sqrt{1-x^2}\\sqrt{1-y^2}$, hence the result follows.",
+    "B": "Let $\\theta=\\cos^{-1}x$ and $\\phi=\\cos^{-1}y$. Then using $\\cos(\\theta-\\phi)$ gives $xy-\\sqrt{1-x^2}\\sqrt{1-y^2}$, hence the result follows.",
+    "C": "Let $\\theta=\\cos^{-1}x$ and $\\phi=\\cos^{-1}y$. Then $x=\\sin\\theta$, $y=\\sin\\phi$, and using $\\sin(\\theta+\\phi)$ gives the required result.",
+    "D": "Let $\\theta=\\cos^{-1}x$ and $\\phi=\\cos^{-1}y$. Then using $\\cos(\\theta+\\phi)$ gives $xy+\\sqrt{1-x^2}\\sqrt{1-y^2}$, hence the result follows."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:10:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a226349864be73cfcf6d19c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically: Minimise $Z=x-5y$ subject to the constraints: $x-y \\ge 0; -x+2y \\ge 2, x \\ge 3, y \\le 4, y \\ge 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Graph the constraint inequalities by first treating them as equations: $L_1: y = x$, $L_2: 2y - x = 2$, $L_3: x = 3$, $L_4: y = 4$, $L_5: y = 0$. Determine the valid half-planes for the inequalities: $x \\ge y$ (below $L_1$), $2y \\ge x + 2$ (above $L_2$), $x \\ge 3$ (right of $L_3$), and $0 \\le y \\le 4$.<br />**Step 2:** Identify the feasible region satisfying all constraints simultaneously. It is a polygon bounded by the intersecting lines. Determine its corner points.<br />**Step 3:** Find intersection point A of $x=3$ and $-x+2y=2$: $-3+2y=2 \\implies y=2.5$. So, A is $(3, 2.5)$.<br />**Step 4:** Find intersection point B of $x=3$ and $x-y=0$: $3-y=0 \\implies y=3$. So, B is $(3, 3)$.<br />**Step 5:** Find intersection point C of $y=4$ and $x-y=0$: $x-4=0 \\implies x=4$. So, C is $(4, 4)$.<br />**Step 6:** Find intersection point D of $y=4$ and $-x+2y=2$: $-x+8=2 \\implies x=6$. So, D is $(6, 4)$.<br />**Step 7:** Evaluate the objective function $Z = x - 5y$ at each corner point. At A$(3, 2.5)$, $Z = 3 - 5(2.5) = -9.5$. At B$(3, 3)$, $Z = 3 - 15 = -12$. At C$(4, 4)$, $Z = 4 - 20 = -16$. At D$(6, 4)$, $Z = 6 - 20 = -14$.<br />**Step 8:** The minimum value of $Z$ is $-16$, which occurs at the point $(4, 4)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

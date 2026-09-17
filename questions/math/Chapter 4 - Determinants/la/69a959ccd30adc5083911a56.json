@@ -1,0 +1,29 @@
+{
+  "id": "69a959ccd30adc5083911a56",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "LA",
+  "question": "Consider matrices $A$ and $B$, both $3 \\times 3$ and non-singular. Prove that $(AB)^{-1} = B^{-1}A^{-1}$. Then, if $A = \\begin{bmatrix} 2 & 1 & 0 \\\\ 0 & 3 & 1 \\\\ 1 & 0 & 4\\end{bmatrix}$ and $B = \\begin{bmatrix} 1 & 2 & 0 \\\\ 0 & 1 & 0 \\\\ 2 & 0 & 1\\end{bmatrix}$, compute $(AB)^{-1}$.",
+  "answeroption": "C",
+  "explanation": "(i) Conceptual Proof:<br />$(AB)(B^{-1}A^{-1}) = A(B B^{-1})A^{-1} = A I A^{-1} = A A^{-1} = I$<br />Similarly, $(B^{-1}A^{-1})(AB) = B^{-1}(A^{-1}A)B = B^{-1}I B = B^{-1}B = I$<br />Thus, $(AB)^{-1} = B^{-1}A^{-1}$<br /><br />(ii) Compute $A^{-1}$ and $B^{-1}$<br /><br />Step 1: Find $|A|$ and adj $A$<br /><br />$|A| = 2\\begin{vmatrix}3 & 1 \\\\ 0 & 4\\end{vmatrix} - 1\\begin{vmatrix}0 & 1 \\\\ 1 & 4\\end{vmatrix}$<br />$= 2(12-0) - 1(0-1) = 24 + 1 = 25$<br /><br />Compute minors/cofactors for adj $A$:<br />E.g., $C_{11} = \\begin{vmatrix}3 & 1 \\\\ 0 & 4\\end{vmatrix} = 12-0=12$<br />$C_{12} = -\\begin{vmatrix}0 & 1 \\\\ 1 & 4\\end{vmatrix} = -(0-1) = 1$<br />$C_{13} = \\begin{vmatrix}0 & 3 \\\\ 1 & 0\\end{vmatrix} = 0-3=-3$<br />Continue for all...<br /><br />Collect cofactors, construct adj $A$, $A^{-1} = \\frac{1}{25} (\\text{adj }A)$<br />Do similar computation for $B$, with $|B| = ...$<br />B is upper-triangular so $|B| = 1 \\times 1 \\times 1 = 1$<br /><br />Find adj $B$, $B^{-1}$ using minors/cofactors.<br /><br />Finally, $(AB)^{-1} = B^{-1}A^{-1}$<br />Calculate $A^{-1}, B^{-1}$ explicitly, multiply to obtain $(AB)^{-1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(AB)^{-1}=A^{-1}B^{-1}=\\frac{1}{25}\\begin{bmatrix}10&-20&5\\\\1&8&-2\\\\-23&41&-4\\end{bmatrix}$.",
+    "B": "$(AB)^{-1}=B^{-1}A^{-1}=\\frac{1}{25}\\begin{bmatrix}12&-4&1\\\\1&8&-2\\\\-3&1&6\\end{bmatrix}$.",
+    "C": "$(AB)^{-1}=B^{-1}A^{-1}=\\frac{1}{25}\\begin{bmatrix}10&-20&5\\\\1&8&-2\\\\-23&41&-4\\end{bmatrix}$.",
+    "D": "$(AB)^{-1}=\\frac{1}{25}\\begin{bmatrix}10&20&5\\\\1&-8&-2\\\\23&41&4\\end{bmatrix}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:24:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

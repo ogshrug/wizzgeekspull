@@ -1,0 +1,30 @@
+{
+  "id": "6a8c61eb77877fac8fdb9916",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "Consider $p(x)=\\cos^{-1}(2x^2-1)$.<br><br>(a) Determine the domain and range of $p$.<br><br>(b) Find all values of $x$ for which $p(x)=\\dfrac{2\\pi}{3}$.<br><br>(c) Compare $p(-x)$ and $p(x)$, and interpret the result.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>For $\\cos^{-1}(2x^2-1)$ to be defined,<br>$$-1\\leq2x^2-1\\leq1$$<br>Adding $1$ throughout gives<br>$$0\\leq2x^2\\leq2$$<br>Therefore,<br>$$0\\leq x^2\\leq1$$<br>Hence, the domain is $[-1,1]$.<br>As $x$ varies over $[-1,1]$, $2x^2-1$ assumes every value from $-1$ to $1$. Since the range of $\\cos^{-1}t$ for $t\\in[-1,1]$ is $[0,\\pi]$, the range of $p$ is<br>$$[0,\\pi]$$<br><br><b>(b)</b><br>Given that<br>$$\\cos^{-1}(2x^2-1)=\\frac{2\\pi}{3}$$<br>taking cosine on both sides gives<br>$$2x^2-1=\\cos\\frac{2\\pi}{3}=-\\frac{1}{2}$$<br>Therefore,<br>$$2x^2=\\frac{1}{2}$$<br>$$x^2=\\frac{1}{4}$$<br>Hence,<br>$$x=\\pm\\frac{1}{2}$$<br>Both values belong to the domain.<br><br><b>(c)</b><br>Replacing $x$ by $-x$,<br>$$p(-x)=\\cos^{-1}\\left(2(-x)^2-1\\right)$$<br>$$p(-x)=\\cos^{-1}(2x^2-1)=p(x)$$<br>Therefore, equal function values are obtained at $x$ and $-x$. This means that the graph of $p$ is symmetric about the $y$-axis.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $[-1,1]$; Range: $[0,\\pi]$; $x=\\pm\\frac{1}{2}$; $p(-x)=p(x)$, so the graph is symmetric about the $y$-axis",
+    "B": "Domain: $[-1,1]$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$; $x=\\pm\\frac{1}{2}$; $p(-x)=p(x)$, so the graph is symmetric about the $y$-axis",
+    "C": "Domain: $\\mathbb{R}$; Range: $[0,\\pi]$; $x=\\pm\\frac{1}{2}$; $p(-x)=p(x)$, so the graph is symmetric about the $y$-axis",
+    "D": "Domain: $[-1,1]$; Range: $[0,\\pi]$; $x=\\frac{1}{2}$ only; $p(-x)=-p(x)$, so the graph is symmetric about the origin"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

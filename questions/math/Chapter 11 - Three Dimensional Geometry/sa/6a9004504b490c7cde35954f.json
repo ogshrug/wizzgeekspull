@@ -1,0 +1,29 @@
+{
+  "id": "6a9004504b490c7cde35954f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "SA",
+  "question": "The lines $\\vec{r}=(\\hat{i}+2\\hat{j}-\\hat{k})+\\lambda(2\\hat{i}-\\hat{j}+2\\hat{k})$ and $\\vec{r}=(3\\hat{i}+\\hat{j})+\\mu(4\\hat{i}-2\\hat{j}+4\\hat{k})$ are parallel. Find the shortest distance between them.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Verification of parallel directions</b><br>The direction vectors are<br>$$\\vec{b}_1=2\\hat{i}-\\hat{j}+2\\hat{k},\\quad \\vec{b}_2=4\\hat{i}-2\\hat{j}+4\\hat{k}=2\\vec{b}_1.$$<br>Hence, the two lines are parallel.<br><b>Step 2: Vector joining points on the lines</b><br>Taking $\\vec{a}_1=\\hat{i}+2\\hat{j}-\\hat{k}$ and $\\vec{a}_2=3\\hat{i}+\\hat{j}$,<br>$$\\vec{a}_2-\\vec{a}_1=2\\hat{i}-\\hat{j}+\\hat{k}.$$<br><b>Step 3: Shortest-distance relation</b><br>For parallel lines,<br>$$d=\\frac{|\\vec{b}_1\\times(\\vec{a}_2-\\vec{a}_1)|}{|\\vec{b}_1|}.$$<br><b>Step 4: Vector product and magnitudes</b><br>$$\\vec{b}_1\\times(\\vec{a}_2-\\vec{a}_1)=\\hat{i}+2\\hat{j},$$<br>so its magnitude is $\\sqrt{5}$, while<br>$$|\\vec{b}_1|=\\sqrt{4+1+4}=3.$$<br><b>Step 5: Final result</b><br>Therefore,<br>$$d=\\frac{\\sqrt{5}}{3}$$<br>unit.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\sqrt{5}}{2}$ unit",
+    "B": "$\\frac{2\\sqrt{5}}{3}$ unit",
+    "C": "$\\frac{\\sqrt{5}}{3}$ unit",
+    "D": "$\\sqrt{5}$ units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

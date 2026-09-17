@@ -1,0 +1,28 @@
+{
+  "id": "6a22a7bb864be73cfcf6d2a7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "VSA",
+  "question": "If $y=(x+\\sqrt{x^{2}-1})^{2}$ then show that $(x^{2}-1)(\\frac{dy}{dx})^{2}=4y^{2}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate the given function $y = (x + \\sqrt{x^2 - 1})^2$ with respect to $x$ using the chain rule. Let $u = x + \\sqrt{x^2 - 1}$, so $y = u^2$. $\\frac{dy}{dx} = 2u \\cdot \\frac{du}{dx}$.<br />**Step 2:** Calculate $\\frac{du}{dx} = \\frac{d}{dx}(x + (x^2 - 1)^{1/2})$. This evaluates to $1 + \\frac{1}{2}(x^2 - 1)^{-1/2} \\cdot 2x = 1 + \\frac{x}{\\sqrt{x^2 - 1}}$.<br />**Step 3:** Find a common denominator to simplify the inner derivative: $\\frac{\\sqrt{x^2 - 1} + x}{\\sqrt{x^2 - 1}}$. Notice that the numerator perfectly matches our defined $u$.<br />**Step 4:** Substitute everything back into the main derivative equation: $\\frac{dy}{dx} = 2(x + \\sqrt{x^2 - 1}) \\cdot \\frac{x + \\sqrt{x^2 - 1}}{\\sqrt{x^2 - 1}} = \\frac{2(x + \\sqrt{x^2 - 1})^2}{\\sqrt{x^2 - 1}}$. Since $y = (x + \\sqrt{x^2 - 1})^2$, this simplifies beautifully to $\\frac{dy}{dx} = \\frac{2y}{\\sqrt{x^2 - 1}}$.<br />**Step 5:** Square both entire sides of this equation to eliminate the square root. $(\\frac{dy}{dx})^2 = \\frac{4y^2}{x^2 - 1}$. Finally, cross-multiply by $(x^2 - 1)$ to arrive at the required proof: $(x^2 - 1)(\\frac{dy}{dx})^2 = 4y^2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

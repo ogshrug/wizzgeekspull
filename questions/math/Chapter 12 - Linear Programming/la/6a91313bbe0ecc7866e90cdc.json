@@ -1,0 +1,31 @@
+{
+  "id": "6a91313bbe0ecc7866e90cdc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e1",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "For the constraints $x+2y\\le12$, $2x+y\\le12$, $x\\ge0$ and $y\\ge0$, a student claims that $P(5,3)$ gives the maximum value of $Z=5x+4y$ because $Z(P)=37$. Examine the claim by testing the admissibility of $P$ and establish the correct optimal feasible solution.",
+  "answeroption": "A",
+  "explanation": "<b>Verification of the Claimed Solution</b><br>For $P(5,3)$, the first constraint gives $x+2y=5+6=11\\le12$, but the second constraint gives $2x+y=10+3=13>12$. Hence $P$ does not satisfy all the constraints and is an infeasible solution. Therefore, its value $Z=37$ cannot be used as an optimal value, because an optimal feasible solution must itself satisfy every constraint.<br><br><b>Determination of the Maximum Possible Feasible Value</b><br>For every feasible solution, we have $x+2y\\le12$ and $2x+y\\le12$. Multiplying the second inequality by 2 and adding the first gives $$5x+4y\\le36.$$ Thus every feasible solution satisfies $Z\\le36$. Consider the point $(4,4)$. It satisfies $4+2(4)=12$, $2(4)+4=12$, and both coordinates are non-negative. Hence $(4,4)$ is a feasible solution. At this point, $$Z=5(4)+4(4)=20+16=36.$$ Since the upper bound 36 is actually attained by a feasible solution, this point is optimal.<br><br><b>Final Result</b><br>The student's claim is incorrect because $P(5,3)$ is infeasible. The correct optimal feasible solution is $(4,4)$, and the maximum value of $Z$ is $36$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$P(5,3)$ is infeasible; the correct optimum is $(4,4)$ with maximum $Z=36$",
+    "B": "$P(5,3)$ is feasible and optimal with maximum $Z=37$",
+    "C": "$P(5,3)$ is infeasible; the correct optimum is $(6,0)$ with maximum $Z=30$",
+    "D": "$P(5,3)$ is feasible but the correct optimum is $(4,4)$ with maximum $Z=36$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8eac474b490c7cde35943a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "LA",
+  "question": "Prove that<br>$$\\begin{vmatrix}a+b & b+c & c+a\\\\c & a & b\\\\1 & 1 & 1\\end{vmatrix}=a^2+b^2+c^2-ab-bc-ca$$<br>Hence, evaluate the determinant when $a=5$, $b=2$, and $c=-1$.",
+  "answeroption": "B",
+  "explanation": "<b>Applying column operations</b><br>Let<br>$$D=\\begin{vmatrix}a+b & b+c & c+a\\\\c & a & b\\\\1 & 1 & 1\\end{vmatrix}$$<br>Apply $C_1\\to C_1-C_3$ and $C_2\\to C_2-C_3$:<br>$$D=\\begin{vmatrix}b-c & b-a & c+a\\\\c-b & a-b & b\\\\0 & 0 & 1\\end{vmatrix}$$<br>Expanding along the third row,<br>$$D=\\begin{vmatrix}b-c & b-a\\\\c-b & a-b\\end{vmatrix}$$<br>$$D=(b-c)(a-b)-(b-a)(c-b)$$<br>Since $b-a=-(a-b)$ and $c-b=-(b-c)$,<br>$$D=(b-c)(a-b)-(a-b)(b-c)(-1)(-1)$$<br>Direct simplification of the products gives<br>$$D=ab-b^2-ac+bc-bc+b^2+ac-a^2$$<br>This simplification does not produce the required expression, so the determinant is evaluated directly to verify the stated relation.<br><br><b>Direct evaluation</b><br>Expanding the original determinant along the third row,<br>$$D=\\begin{vmatrix}b+c & c+a\\\\a & b\\end{vmatrix}-\\begin{vmatrix}a+b & c+a\\\\c & b\\end{vmatrix}+\\begin{vmatrix}a+b & b+c\\\\c & a\\end{vmatrix}$$<br>$$D=b(b+c)-a(c+a)-\\left[b(a+b)-c(c+a)\\right]+\\left[a(a+b)-c(b+c)\\right]$$<br>$$D=b^2+bc-ac-a^2-ab-b^2+c^2+ac+a^2+ab-bc-c^2=0$$<br>Thus, the proposed identity is not valid; the determinant is identically zero.<br><br><b>Substitution</b><br>For $a=5$, $b=2$, and $c=-1$, the determinant is therefore<br>$$D=0$$",
+  "explanation_image": [],
+  "options": {
+    "A": "The stated identity is valid, and the determinant equals $a^2+b^2+c^2-ab-bc-ca$; for $a=5,b=2,c=-1$, its value is $27$",
+    "B": "The stated identity is not valid; the determinant is identically $0$, and for $a=5,b=2,c=-1$, its value is $0$",
+    "C": "The determinant equals $ab+bc+ca$; for $a=5,b=2,c=-1$, its value is $3$",
+    "D": "The determinant equals $(a-b)(b-c)(c-a)$; for $a=5,b=2,c=-1$, its value is $54$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

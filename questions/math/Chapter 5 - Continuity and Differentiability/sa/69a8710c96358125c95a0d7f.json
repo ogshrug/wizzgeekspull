@@ -1,0 +1,29 @@
+{
+  "id": "69a8710c96358125c95a0d7f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "SA",
+  "question": "Differentiate $(\\cos x)^x + x^{\\cos x}$ with respect to $x$.",
+  "answeroption": "B",
+  "explanation": "Let $y=(\\cos x)^x+x^{\\cos x}$<br /><br />For $(\\cos x)^x$:<br />$\\ln u=x\\ln(\\cos x)$<br />$\\frac{du}{dx}=(\\cos x)^x[\\ln(\\cos x)-x\\tan x]$<br /><br />For $x^{\\cos x}$:<br />$\\ln v=\\cos x\\ln x$<br />$\\frac{dv}{dx}=x^{\\cos x}\\left[\\frac{\\cos x}{x}-\\sin x\\ln x\\right]$<br /><br />Thus,<br />$\\frac{dy}{dx}=(\\cos x)^x[\\ln(\\cos x)-x\\tan x]+x^{\\cos x}\\left[\\frac{\\cos x}{x}-\\sin x\\ln x\\right]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(\\cos x)^x[\\ln(\\cos x)+x\\tan x]+x^{\\cos x}\\left[\\frac{\\cos x}{x}+\\sin x\\ln x\\right]$",
+    "B": "$(\\cos x)^x[\\ln(\\cos x)-x\\tan x]+x^{\\cos x}\\left[\\frac{\\cos x}{x}-\\sin x\\ln x\\right]$",
+    "C": "$x(\\cos x)^{x-1}+\\cos x\\,x^{\\cos x-1}$",
+    "D": "$(\\cos x)^x[-\\sin x]+x^{\\cos x}\\ln x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:51:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8d2f4877877fac8fdb9929",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d41"
+  ],
+  "question_type": "SA",
+  "question": "A relation $R$ on $\\mathbb{R}$ is defined by $aRb$ if $a-b=4$.<br><br>(i) Examine whether $R$ is symmetric.<br><br>(ii) Give an ordered pair that supports your conclusion.",
+  "answeroption": "B",
+  "explanation": "<b>(i) Testing symmetry</b><br>A relation is symmetric if $(a,b)\\in R$ implies $(b,a)\\in R$. Take $a=5$ and $b=1$. Then<br>$$5-1=4,$$<br>so $(5,1)\\in R$.<br><br><b>(ii) Testing the reversed pair</b><br>For the reversed pair $(1,5)$,<br>$$1-5=-4\\ne4.$$<br>Hence, $(1,5)\\notin R$.<br><br><b>Conclusion</b><br>Since $(5,1)\\in R$ but $(1,5)\\notin R$, the relation $R$ is not symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is symmetric; both $(5,1)$ and $(1,5)$ belong to $R$",
+    "B": "$R$ is not symmetric; $(5,1)\\in R$ but $(1,5)\\notin R$",
+    "C": "$R$ is symmetric; $(1,5)\\in R$ because $|1-5|=4$",
+    "D": "$R$ is not symmetric; $(5,1)\\notin R$ but $(1,5)\\in R$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

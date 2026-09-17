@@ -1,0 +1,28 @@
+{
+  "id": "6a142cf72a89680e5835ce90",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a group activity class, there are 10 students whose ages are 16, 17, 15, 14, 19, 17, 16, 19, 16 and 15 years. One student is selected at random such that each has equal chance of being chosen and age of the student is recorded.<br /><br />(i) Find the probability that the age of the selected student is a composite number.<br />(ii) Let $X$ be the age of the selected student. What can be the value of $X$?<br />(iii) (a) Find the probability distribution of random variable $X$ and hence find the mean age.<br />**OR**<br />(iii) (b) A student was selected at random and his age was found to be greater than 15 years. Find the probability that his age is a prime number.",
+  "answeroption": "",
+  "explanation": "**(i)** Ages: 14, 15, 15, 16, 16, 16, 17, 17, 19, 19. Total students = 10. Composite ages: 14, 15, 15, 16, 16, 16 (Total = 6). Probability = $\\frac{6}{10} = \\frac{3}{5}$.<br /><br />**(ii)** $X$ can take the distinct age values present in the group: $X \\in \\{14, 15, 16, 17, 19\\}$.<br /><br />**(iii) (a)** Probability distribution: $P(X=14) = 1/10$, $P(X=15) = 2/10$, $P(X=16) = 3/10$, $P(X=17) = 2/10$, $P(X=19) = 2/10$. Mean age $\\mu = \\sum X \\cdot P(X) = 14(0.1) + 15(0.2) + 16(0.3) + 17(0.2) + 19(0.2) = 1.4 + 3.0 + 4.8 + 3.4 + 3.8 = 16.4$ years.<br /><br />**(iii) (b)** Let A be 'age > 15': $\\{16, 16, 16, 17, 17, 19, 19\\}$, so $n(A) = 7$. Let B be 'prime age'. The intersection $B \\cap A$ (primes > 15) is $\\{17, 17, 19, 19\\}$, so $n(B \\cap A) = 4$. Conditional probability $P(B|A) = \\frac{n(B \\cap A)}{n(A)} = \\frac{4}{7}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a142cf72a89680e5835ce90/1782266959-0.png?t=1782286759872"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

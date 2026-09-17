@@ -1,0 +1,29 @@
+{
+  "id": "69a96266d30adc5083911a81",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "SA",
+  "question": "Let $A$ be a $3 \\times 3$ matrix such that $A + A' = 2I_3$, where $A'$ is the transpose of $A$ and $I_3$ is the $3 \\times 3$ identity matrix. Prove that $A$ is symmetric, and find $A$.",
+  "answeroption": "D",
+  "explanation": "Given $A + A' = 2I_3$.<br /><br />If $A$ is symmetric, then $A = A'$.<br /><br />$A + A' = 2A = 2I_3 \\implies A = I_3$.<br /><br />If $A$ contains both a symmetric and a skew-symmetric part.<br /><br />Any square matrix $A$ can be written as $A = S + K$, where $S = \\frac 12(A+A')$ (symmetric), $K = \\frac 12(A-A')$ (skew-symmetric).<br /><br />But $A + A' = 2I_3$.<br /><br />So, $S = I_3$, $K = 0$.<br /><br />Thus $A$ is symmetric and $A = I_3$.<br /><br />Therefore, $A$ is symmetric and $A = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ is always symmetric and $A=I_3$ only.",
+    "B": "$A$ is always skew-symmetric and $A=0$.",
+    "C": "$A+A'=2I_3$ implies $A'=A^{-1}$, so $A$ is orthogonal.",
+    "D": "$A$ need not be symmetric; the general form is $A=I_3+K$, where $K$ is any skew-symmetric $3\\times3$ matrix."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:00:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

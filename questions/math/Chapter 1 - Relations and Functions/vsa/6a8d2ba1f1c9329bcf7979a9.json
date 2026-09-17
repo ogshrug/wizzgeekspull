@@ -1,0 +1,29 @@
+{
+  "id": "6a8d2ba1f1c9329bcf7979a9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "VSA",
+  "question": "A binary operation $*$ on $\\mathbb{R}$ is defined by $a*b=a+b+1$. If $x$ is the inverse of $5$ with respect to this operation, find $x$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Determine the identity element</b><br>Let $e$ be the identity element. It must satisfy<br>$$a*e=a$$<br>for every $a\\in\\mathbb{R}$. Using the given operation,<br>$$a+e+1=a.$$<br>Therefore,<br>$$e=-1.$$<br><br><b>Step 2: Apply the inverse condition</b><br>If $x$ is the inverse of $5$, then<br>$$5*x=-1.$$<br>Using the operation,<br>$$5+x+1=-1.$$<br><br><b>Step 3: Solve for $x$</b><br>$$x+6=-1$$<br>gives<br>$$x=-7.$$<br><br><b>Step 4: Verify the result</b><br>$$x*5=-7+5+1=-1,$$<br>which is the identity element.<br><br><b>Final Answer:</b> The inverse of $5$ is $\\boxed{x=-7}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=-6$",
+    "B": "$x=-5$",
+    "C": "$x=-7$",
+    "D": "$x=7$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

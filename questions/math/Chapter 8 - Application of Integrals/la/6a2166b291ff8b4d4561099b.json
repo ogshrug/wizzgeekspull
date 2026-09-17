@@ -1,0 +1,26 @@
+{
+  "id": "6a2166b291ff8b4d4561099b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, find the area of the region enclosed by the curve $y=|x-6|$, the x-axis, and between $x=4$ and $x=8$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Analyze the absolute value function $y = |x-6|$ to split it into a piecewise definition. The transition point occurs at $x = 6$, giving: $y = 6-x$ for the interval $4 \\le x < 6$, and $y = x-6$ for the interval $6 \\le x \\le 8$.<br /><br /><b>Step 2</b> Set up the area calculation as a sum of two separate definite integrals over these sub-intervals: $\\text{Area} = \\int_{4}^{6} (6-x) dx + \\int_{6}^{8} (x-6) dx$.<br /><br /><b>Step 3</b> Evaluate the first definite integral from $4$ to $6$: $\\int_{4}^{6} (6-x) dx = \\left[ 6x - \\frac{x^2}{2} \\right]_{4}^{6} = \\left(36 - 18\\right) - \\left(24 - 8\\right) = 18 - 16 = 2$.<br /><br /><b>Step 4</b> Evaluate the second definite integral from $6$ to $8$: $\\int_{6}^{8} (x-6) dx = \\left[ \\frac{x^2}{2} - 6x \\right]_{6}^{8} = \\left(32 - 48\\right) - \\left(18 - 36\\right) = -16 - (-18) = 2$.<br /><br /><b>Step 5</b> Sum the two individual area values together to calculate the total enclosed area: $\\text{Total Area} = 2 + 2 = 4$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

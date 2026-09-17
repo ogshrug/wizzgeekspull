@@ -1,0 +1,31 @@
+{
+  "id": "6a2278ce864be73cfcf6d1e4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{e^{x}}{\\sqrt{4-e^{2x}}}dx$ is equal to:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** To solve this integral, we use the method of substitution. Let $t = e^x$.<br />**Step 2:** Differentiate both sides to find $dt$: $dt = e^x dx$. Notice that the numerator exactly matches this differential.<br />**Step 3:** The term $e^{2x}$ can be written as $(e^x)^2 = t^2$.<br />**Step 4:** Substitute $t$ and $dt$ into the original integral: $\\int \\frac{1}{\\sqrt{4 - t^2}} dt$.<br />**Step 5:** This is a standard integral of the form $\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx$, which evaluates to $\\sin^{-1}(\\frac{x}{a}) + C$. Here, $a = 2$.<br />**Step 6:** The integrated expression is $\\sin^{-1}(\\frac{t}{2}) + C$.<br />**Step 7:** Finally, back-substitute $t = e^x$ to return to the original variable: $\\sin^{-1}(\\frac{e^x}{2}) + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}\\cos^{-1}(e^{x})+C$",
+    "B": "$\\frac{1}{2}\\sin^{-1}(e^{x})+C$",
+    "C": "$\\frac{e^{x}}{2}+C$",
+    "D": "$\\sin^{-1}(\\frac{e^{x}}{2})+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a91f1a96358125c95a0dac",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "SA",
+  "question": "A business produces two items P and Q. Each item of P takes 3 hours in Machine I and 2 hours in Machine II. Each item of Q takes 1 hour in Machine I and 6 hours in Machine II. Machine I is available for at most 18 hours and Machine II for at most 24 hours. Find how many items of each should be produced to maximize profit, if the profit per P is ₹60 and per Q is ₹80. Specify all steps and the maximum profit attained.",
+  "answeroption": "D",
+  "explanation": "Let $x =$ number of P, $y =$ number of Q.<br /><br />Objective: Maximize $Z = 60x + 80y$<br /><br />Constraints:<br /><br />$3x + y \\leq 18$<br /><br />$2x + 6y \\leq 24$<br /><br />$x \\geq 0$, $y \\geq 0$<br /><br />Step 1: Find vertices.<br /><br />(i) Solve $3x + y = 18$ and $2x + 6y = 24$.<br /><br />Second equation simplifies to $x + 3y = 12$.<br /><br />Multiply by 3: $3x + 9y = 36$<br /><br />Subtract $3x + y = 18$:<br /><br />$8y = 18 \\Rightarrow y = \\frac{9}{4}$<br /><br />Substitute in $x + 3y = 12$:<br /><br />$x = 12 - 3\\times\\frac{9}{4} = \\frac{21}{4}$<br /><br />Point: $\\left(\\frac{21}{4}, \\frac{9}{4}\\right)$<br /><br />(ii) $y=0$ in $3x+y=18$ gives $(6,0)$.<br /><br />(iii) $x=0$ in $x+3y=12$ gives $(0,4)$.<br /><br />Step 2: Evaluate $Z$.<br /><br />$(6,0): Z = 60\\times6 = 360$<br /><br />$(0,4): Z = 80\\times4 = 320$<br /><br />$\\left(\\frac{21}{4}, \\frac{9}{4}\\right): Z = 60\\times\\frac{21}{4} + 80\\times\\frac{9}{4} = 315 + 180 = 495$<br /><br />Maximum profit is ₹495 at $\\left(\\frac{21}{4}, \\frac{9}{4}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 6 items of P and 0 items of Q; maximum profit ₹360.",
+    "B": "Produce 0 items of P and 4 items of Q; maximum profit ₹320.",
+    "C": "Produce 4 items of P and 6 items of Q; maximum profit ₹720.",
+    "D": "Produce $\\frac{21}{4}$ items of P and $\\frac{9}{4}$ items of Q; maximum profit ₹495."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:13:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

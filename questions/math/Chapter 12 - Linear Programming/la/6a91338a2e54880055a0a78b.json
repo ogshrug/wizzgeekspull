@@ -1,0 +1,34 @@
+{
+  "id": "6a91338a2e54880055a0a78b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8df",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "For the constraints $x-y\\le1$, $x+2y\\ge4$, $x\\ge0$ and $y\\ge0$, determine graphically the feasible region and examine whether the objective function $Z=x-2y$ possesses a maximum and a minimum value. Justify each conclusion for the unbounded feasible region.",
+  "answeroption": "A",
+  "explanation": "<b>Feasible Region</b><br>The inequality $x-y\\le1$ is equivalent to $y\\ge x-1$, while $x+2y\\ge4$ requires the half-plane on the side away from the origin. Together with $x\\ge0$ and $y\\ge0$, their common region extends indefinitely and is therefore unbounded.<br><br>The line $x+2y=4$ meets the $y$-axis at $(0,2)$. Solving $x-y=1$ and $x+2y=4$, we have $y=x-1$, so $x+2(x-1)=4$, giving $3x=6$. Hence $x=2$ and $y=1$. Therefore, the corner points are $(0,2)$ and $(2,1)$.<br><br><b>Maximum Value</b><br>The objective values at the corner points are $Z(0,2)=-4$ and $Z(2,1)=0$. To verify that $0$ is actually the maximum, consider any feasible point. If $0\\le x\\le2$, then $x+2y\\ge4$ gives $y\\ge\\frac{4-x}{2}$, and therefore $$Z=x-2y\\le x-(4-x)=2x-4\\le0.$$ If $x\\ge2$, then $x-y\\le1$ gives $y\\ge x-1$, and hence $$Z=x-2y\\le x-2(x-1)=2-x\\le0.$$ Thus no feasible solution gives $Z>0$. Since $(2,1)$ gives $Z=0$, it is an optimal feasible solution for maximisation.<br><br><b>Minimum Value</b><br>Every point $(0,t)$ with $t\\ge2$ is feasible. At such a point, $Z=-2t$, which decreases indefinitely as $t$ increases. Hence no finite minimum value exists.<br><br><b>Final Result</b><br>The feasible region is unbounded. The maximum value of $Z$ is $0$ at $(2,1)$, while the objective function has no minimum value.",
+  "explanation_image": [],
+  "options": {
+    "A": "The feasible region is unbounded; maximum $Z=0$ at $(2,1)$, while no finite minimum exists",
+    "B": "The feasible region is unbounded; minimum $Z=-4$ at $(0,2)$ and no maximum exists",
+    "C": "The feasible region is bounded; maximum $Z=0$ at $(2,1)$ and minimum $Z=-4$ at $(0,2)$",
+    "D": "The feasible region is unbounded and neither a maximum nor a minimum exists"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

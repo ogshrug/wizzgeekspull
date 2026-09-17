@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe35b2e54880055a0a723",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "LA",
+  "question": "Treating $x$ as a function of $y$, solve the differential equation $$\\frac{dx}{dy}=\\frac{x}{y}-\\frac{y}{x},$$ where $x\\neq 0$ and $y\\neq 0$, by showing that it is homogeneous and using the substitution appropriate to the ratio $\\frac{x}{y}$.",
+  "answeroption": "C",
+  "explanation": "<b>Homogeneous Form</b><br>The equation is $$\\frac{dx}{dy}=\\frac{x}{y}-\\frac{y}{x}.$$ Since $\\frac{y}{x}=\\frac{1}{x/y}$, the right-hand side depends only on the ratio $\\frac{x}{y}$. Hence the differential equation is homogeneous.<br><br><b>Substitution Method</b><br>Put $$x=vy.$$ Differentiating with respect to $y$, $$\\frac{dx}{dy}=v+y\\frac{dv}{dy}.$$ Substituting in the differential equation, $$v+y\\frac{dv}{dy}=v-\\frac{1}{v}.$$ Therefore, $$y\\frac{dv}{dy}=-\\frac{1}{v}.$$<br><br><b>Reduction to Variable Separable Form</b><br>Separating variables, $$v\\,dv=-\\frac{dy}{y}.$$ Integrating, $$\\frac{v^2}{2}=-\\log|y|+C.$$ Therefore, $$v^2+2\\log|y|=C_1.$$ Replacing $v$ by $\\frac{x}{y}$, $$\\frac{x^2}{y^2}+2\\log|y|=C_1.$$<br><br><b>Final Result</b><br>The required solution is $$\\frac{x^2}{y^2}+2\\log|y|=C.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x^2}{y^2}-2\\log|y|=C$",
+    "B": "$\\frac{x}{y}+2\\log|y|=C$",
+    "C": "$\\frac{x^2}{y^2}+2\\log|y|=C$",
+    "D": "$\\frac{y^2}{x^2}+2\\log|y|=C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

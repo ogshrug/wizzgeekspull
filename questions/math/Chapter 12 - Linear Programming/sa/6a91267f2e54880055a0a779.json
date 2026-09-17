@@ -1,0 +1,30 @@
+{
+  "id": "6a91267f2e54880055a0a779",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8e1"
+  ],
+  "question_type": "SA",
+  "question": "Examine the system of constraints $2x+y\\geq14$, $4x+2y\\leq24$, $x\\geq0$ and $y\\geq0$. Show algebraically that no point can satisfy all the constraints simultaneously. Hence state the nature of the solution set.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Simplifying the second constraint</b><br>The inequality $$4x+2y\\leq24$$ can be divided by $2$ to obtain $$2x+y\\leq12$$<br><b>Step 2: Comparing the principal constraints</b><br>The first constraint requires $$2x+y\\geq14$$ whereas the simplified second constraint requires $$2x+y\\leq12$$<br><b>Step 3: Establishing incompatibility</b><br>No real value of $2x+y$ can be simultaneously at least $14$ and at most $12$. Thus, the two constraints are mutually inconsistent.<br><b>Step 4: Considering non-negative restrictions</b><br>The conditions $x\\geq0$ and $y\\geq0$ cannot remove this contradiction between the two principal inequalities.<br><b>Step 5: Conclusion</b><br>Therefore, there is no ordered pair $(x,y)$ satisfying all the constraints simultaneously. Hence, the problem has no feasible solution and consequently no feasible region; every point fails to satisfy the complete system.",
+  "explanation_image": [],
+  "options": {
+    "A": "The system has a bounded feasible region because $2x+y$ lies between $12$ and $14$",
+    "B": "The system has an unbounded feasible region",
+    "C": "The system has no feasible solution because it requires $2x+y\\geq14$ and $2x+y\\leq12$ simultaneously",
+    "D": "The feasible set consists only of points satisfying $2x+y=13$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

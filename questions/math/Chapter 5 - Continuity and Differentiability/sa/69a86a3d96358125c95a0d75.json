@@ -1,0 +1,30 @@
+{
+  "id": "69a86a3d96358125c95a0d75",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\frac{d}{dx}\\left[\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)\\right]$ and hence deduce the derivative of $\\tan^{-1}(\\tan 2x)$ w.r.t. $x$ for $|x| < \\frac{\\pi}{4}$.",
+  "answeroption": "C",
+  "explanation": "$\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right) = 2\\tan^{-1}(x)$ for $|x| < 1$.<br /><br />Differentiating: $\\frac{d}{dx}(2\\tan^{-1}x) = 2 \\cdot \\frac{1}{1 + x^2}$.<br /><br />For $|x| < \\frac{\\pi}{4}$, $\\tan^{-1}(\\tan 2x) = 2x$.<br /><br />Hence, derivative is $2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{d}{dx}\\left[\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)\\right]=\\dfrac{1}{1+x^2}$<br />and $\\dfrac{d}{dx}[\\tan^{-1}(\\tan2x)]=1$",
+    "B": "$\\dfrac{d}{dx}\\left[\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)\\right]=\\dfrac{2}{1-x^2}$<br />and $\\dfrac{d}{dx}[\\tan^{-1}(\\tan2x)]=2$",
+    "C": "$\\dfrac{d}{dx}\\left[\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)\\right]=\\dfrac{2}{1+x^2}$<br />and $\\dfrac{d}{dx}[\\tan^{-1}(\\tan2x)]=2$",
+    "D": "$\\dfrac{d}{dx}\\left[\\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)\\right]=2$<br />and $\\dfrac{d}{dx}[\\tan^{-1}(\\tan2x)]=\\dfrac{2}{1+x^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:22:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8d6ff0eb84c621ac738dc2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $$\\sin^{-1}\\left(\\sin\\frac{7\\pi}{4}\\right)+\\cos^{-1}\\left(\\cos\\frac{5\\pi}{3}\\right).$$",
+  "answeroption": "D",
+  "explanation": "<b>Principal value of the inverse sine term</b><br>The principal value range of $\\sin^{-1}x$ is $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$. Since $$\\sin\\frac{7\\pi}{4}=-\\frac{1}{\\sqrt{2}}=\\sin\\left(-\\frac{\\pi}{4}\\right),$$ we obtain $$\\sin^{-1}\\left(\\sin\\frac{7\\pi}{4}\\right)=-\\frac{\\pi}{4}.$$<br><br><b>Principal value of the inverse cosine term</b><br>The principal value range of $\\cos^{-1}x$ is $[0,\\pi]$. Also, $$\\cos\\frac{5\\pi}{3}=\\frac{1}{2}=\\cos\\frac{\\pi}{3}.$$ Therefore, $$\\cos^{-1}\\left(\\cos\\frac{5\\pi}{3}\\right)=\\frac{\\pi}{3}.$$<br><br><b>Addition of principal values</b><br>Thus, the required value is $$-\\frac{\\pi}{4}+\\frac{\\pi}{3}=\\frac{-3\\pi+4\\pi}{12}=\\frac{\\pi}{12}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{\\pi}{12}$",
+    "B": "$\\frac{7\\pi}{12}$",
+    "C": "$\\frac{11\\pi}{12}$",
+    "D": "$\\frac{\\pi}{12}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

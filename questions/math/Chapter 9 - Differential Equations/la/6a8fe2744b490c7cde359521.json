@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe2744b490c7cde359521",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a4"
+  ],
+  "question_type": "LA",
+  "question": "Verify that the two-parameter family $$y=e^x(C_1+C_2x)$$ satisfies the differential equation $$\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+y=0$$ and hence justify that it represents a general solution. Using this family, establish that $$y=e^x(2-x)$$ is a particular solution of the same differential equation.",
+  "answeroption": "A",
+  "explanation": "<b>Verification of the Family</b><br>Given $$y=e^x(C_1+C_2x).$$ Differentiating, $$\\frac{dy}{dx}=e^x(C_1+C_2x+C_2).$$ Differentiating again, $$\\frac{d^2y}{dx^2}=e^x(C_1+C_2x+2C_2).$$ Therefore, $$\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+y=e^x\\left[(C_1+C_2x+2C_2)-2(C_1+C_2x+C_2)+(C_1+C_2x)\\right]=0.$$ Thus every member of the family satisfies the given differential equation.<br><br>The differential equation is of second order and the family contains two arbitrary constants $C_1$ and $C_2$. Hence, the family represents a general solution.<br><br><b>Particular Solution</b><br>The function $$y=e^x(2-x)$$ is obtained from the general solution by taking $C_1=2$ and $C_2=-1$. Since the arbitrary constants have been assigned fixed values, it is a particular solution.<br><br>For direct verification, $$y'=e^x(1-x)$$ and $$y''=-xe^x.$$ Hence, $$y''-2y'+y=-xe^x-2e^x(1-x)+e^x(2-x)=0.$$<br><br><b>Final Result</b><br>Therefore, $y=e^x(C_1+C_2x)$ is a general solution and $y=e^x(2-x)$ is a particular solution of the given differential equation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=e^x(C_1+C_2x)$ is a general solution, and $y=e^x(2-x)$ is a particular solution.",
+    "B": "$y=e^x(C_1+C_2x)$ is a particular solution, and $y=e^x(2-x)$ is a general solution.",
+    "C": "Both $y=e^x(C_1+C_2x)$ and $y=e^x(2-x)$ are general solutions.",
+    "D": "Neither $y=e^x(C_1+C_2x)$ nor $y=e^x(2-x)$ satisfies the equation."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

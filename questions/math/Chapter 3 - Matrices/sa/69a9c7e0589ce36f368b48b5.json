@@ -1,0 +1,30 @@
+{
+  "id": "69a9c7e0589ce36f368b48b5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55",
+    "69c65fc040512f018fa94d56"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\begin{bmatrix}2 & -1 \\\\ 0 & 3\\end{bmatrix}$ and $B = \\begin{bmatrix}1 & 4 \\\\ 2 & -2\\end{bmatrix}$. If $C = 2A - B'$, find the matrix $C$ and identify its type (if possible).",
+  "answeroption": "A",
+  "explanation": "First, compute $2A$:<br /><br />$2A = 2 \\times \\begin{bmatrix}2 & -1 \\\\ 0 & 3\\end{bmatrix} = \\begin{bmatrix}4 & -2 \\\\ 0 & 6\\end{bmatrix}$<br /><br />Next, compute $B'$, the transpose of $B$:<br /><br />$B' = \\begin{bmatrix}1 & 2 \\\\ 4 & -2\\end{bmatrix}$<br /><br />Now, find $C = 2A - B'$:<br /><br />$C = \\begin{bmatrix}4 & -2 \\\\ 0 & 6\\end{bmatrix} - \\begin{bmatrix}1 & 2 \\\\ 4 & -2\\end{bmatrix}$<br /><br />$C = \\begin{bmatrix}4-1 & -2-2 \\\\ 0-4 & 6-(-2)\\end{bmatrix}$<br /><br />$C = \\begin{bmatrix}3 & -4 \\\\ -4 & 8\\end{bmatrix}$<br /><br />Observe that $C$ is a square matrix. Check if it is symmetric:<br /><br />$C' = \\begin{bmatrix}3 & -4 \\\\ -4 & 8\\end{bmatrix} = C$<br /><br />So $C$ is a symmetric matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "$C=\\begin{bmatrix}3&-4\\\\-4&8\\end{bmatrix}$ and $C$ is symmetric",
+    "B": "$C=\\begin{bmatrix}3&-6\\\\4&8\\end{bmatrix}$ and $C$ is skew-symmetric",
+    "C": "$C=\\begin{bmatrix}5&2\\\\4&4\\end{bmatrix}$ and $C$ is neither symmetric nor skew-symmetric",
+    "D": "$C=\\begin{bmatrix}3&-4\\\\4&8\\end{bmatrix}$ and $C$ is symmetric"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:13:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

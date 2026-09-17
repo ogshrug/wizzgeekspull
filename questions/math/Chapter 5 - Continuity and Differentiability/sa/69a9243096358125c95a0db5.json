@@ -1,0 +1,32 @@
+{
+  "id": "69a9243096358125c95a0db5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78",
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d82"
+  ],
+  "question_type": "SA",
+  "question": "**Case Study 9:**<br /><br />A quadratic function is joined to an exponential function as:<br /><br />$h(x) = \\begin{cases} ax^2 + bx + c, & x \\leq 0 \\\\ e^{3x}, & x > 0 \\end{cases}$<br /><br />If $h(x)$ is differentiable at $x=0$, find values for $a$, $b$, and $c$. Also, determine $h''(0)$.",
+  "answeroption": "A",
+  "explanation": "**Step 1: Continuity at $x=0$**<br /><br />At $x=0$, $h(0) = c$<br /><br />For $x>0$, $h(0^+) = e^{0} = 1$<br /><br />Set equal:<br /><br />$c = 1$<br /><br />**Step 2: Differentiability at $x=0$**<br /><br />$h'_-(x) = 2a x + b$, at $x=0$: $b$<br /><br />$h'_+(x) = 3e^{3x}$, at $x=0$: $3 \\times 1 = 3$<br /><br />Set $b=3$<br /><br />**Step 3: $h''(0)$**<br /><br />$h''_-(x) = 2a$, $h''_+(x) = 9e^{3x}$<br /><br />At $x=0$, $h''_+(0)=9$<br /><br />For $h''$ to be continuous: $2a=9 \\implies a = 9/2$<br /><br />**Final:**<br /><br />$a=4.5, b=3, c=1, h''(0)=9$",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=\\frac{9}{2},\\ b=3,\\ c=1$ and $h''(0)=9$",
+    "B": "$a=3,\\ b=\\frac{9}{2},\\ c=1$ and $h''(0)=6$",
+    "C": "$a=1,\\ b=3,\\ c=0$ and $h''(0)=3$",
+    "D": "$a=\\frac{9}{2},\\ b=1,\\ c=3$ and $h''(0)=9$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:35:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

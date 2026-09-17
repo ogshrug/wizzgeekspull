@@ -1,0 +1,28 @@
+{
+  "id": "6a2166c791ff8b4d4561099f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "LA",
+  "question": "Find the general solution of the differential equation $(x^{3}-3xy^{2})dx=(y^{3}-3x^{2}y) dy$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Rewrite the differential equation in derivative form: $\\frac{dy}{dx} = \\frac{x^3 - 3xy^2}{y^3 - 3x^2y}$. Since every term has a combined degree of 3, this is a homogeneous differential equation. We substitute $y = vx$, which gives $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br /><br /><b>Step 2</b> Substitute these variables into our derivative expression and simplify by factoring out $x^3$: $v + x\\frac{dv}{dx} = \\frac{1 - 3v^2}{v^3 - 3v} \\implies x\\frac{dv}{dx} = \\frac{1 - 3v^2}{v^3 - 3v} - v = \\frac{1 - v^4}{v^3 - 3v}$.<br /><br /><b>Step 3</b> Separate the variables to prepare for integration: $\\frac{v^3 - 3v}{1 - v^4} dv = \\frac{dx}{x}$. To integrate the left side, we use substitution: let $v^2 = t \\implies 2v \\, dv = dt$, transforming the integral into $\\frac{1}{2} \\int \\frac{t - 3}{1 - t^2} dt = \\int \\frac{dx}{x}$.<br /><br /><b>Step 4</b> Decompose the left term into partial fractions: $\\frac{t - 3}{(1-t)(1+t)} = \\frac{-1}{1-t} + \\frac{-2}{1+t}$. Integrating these terms gives $\\frac{1}{2} \\log|1-t| - \\log|1+t| = \\log|x| + C'$. Multiplying by 2 and combining terms via log rules gives $\\frac{|1-v^2|}{(1+v^2)^2} = C x^2$.<br /><br /><b>Step 5</b> Substitute $v = \\frac{y}{x}$ back into the equation: $\\frac{|1 - y^2/x^2|}{(1 + y^2/x^2)^2} = C x^2 \\implies \\frac{x^2(x^2 - y^2)}{(x^2 + y^2)^2} = C x^2$. Canceling $x^2$ leaves the general solution: $x^2 - y^2 = C(x^2 + y^2)^2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

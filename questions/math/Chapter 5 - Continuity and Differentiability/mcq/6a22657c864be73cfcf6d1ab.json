@@ -1,0 +1,33 @@
+{
+  "id": "6a22657c864be73cfcf6d1ab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f(x)=\\begin{cases}\\frac{\\log(1+ax)+\\log(1-bx)}{x},&\\text{for }x\\ne0\\\\k&,\\text{for }x=0\\end{cases}$ is continuous at $x=0$ then the value of $k$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** For a function to be continuous at $x=0$, the limit of the function as $x$ approaches 0 must equal the function's value at $x=0$. That is, $\\lim_{x \\to 0} f(x) = f(0) = k$.<br />**Step 2:** Evaluate the limit: $\\lim_{x \\to 0} \\frac{\\log(1+ax) + \\log(1-bx)}{x}$.<br />**Step 3:** Split the limit into two standard forms: $\\lim_{x \\to 0} \\left( \\frac{\\log(1+ax)}{x} + \\frac{\\log(1-bx)}{x} \\right)$.<br />**Step 4:** Multiply and divide the terms by their respective coefficients to match the standard identity $\\lim_{z \\to 0} \\frac{\\log(1+z)}{z} = 1$: $\\lim_{x \\to 0} \\left( a\\frac{\\log(1+ax)}{ax} - b\\frac{\\log(1-bx)}{-bx} \\right)$.<br />**Step 5:** Apply the limit identity to get $a(1) - b(1) = a - b$. Thus, $k = a - b$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a$",
+    "B": "$a+b$",
+    "C": "$a-b$",
+    "D": "$b$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

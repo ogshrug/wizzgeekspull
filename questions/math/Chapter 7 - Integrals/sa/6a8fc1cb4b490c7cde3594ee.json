@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc1cb4b490c7cde3594ee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int x\\sin 2x\\,dx$ by using integration by parts.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Selecting the functions</b><br>Use the formula $\\displaystyle \\int u\\,dv=uv-\\int v\\,du$. Choose $u=x$ and $dv=\\sin 2x\\,dx$.<br><b>Step 2: Finding $du$ and $v$</b><br>We have<br>$$du=dx$$<br>and<br>$$v=\\int\\sin 2x\\,dx=-\\frac{1}{2}\\cos 2x$$<br><b>Step 3: Applying integration by parts</b><br>$$\\int x\\sin 2x\\,dx=-\\frac{x}{2}\\cos 2x+\\frac{1}{2}\\int\\cos 2x\\,dx$$<br><b>Step 4: Evaluating the remaining integral</b><br>Since $\\displaystyle \\int\\cos 2x\\,dx=\\frac{1}{2}\\sin 2x$,<br>$$\\int x\\sin 2x\\,dx=-\\frac{x}{2}\\cos 2x+\\frac{1}{4}\\sin 2x+C$$<br><b>Step 5: Writing the result</b><br>Hence,<br>$$\\boxed{-\\frac{x}{2}\\cos 2x+\\frac{1}{4}\\sin 2x+C}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{x}{2}\\cos2x+\\frac{1}{4}\\sin2x+C$",
+    "B": "$\\frac{x}{2}\\cos2x-\\frac{1}{4}\\sin2x+C$",
+    "C": "$-\\frac{x}{2}\\cos2x+\\frac{1}{2}\\sin2x+C$",
+    "D": "$-x\\cos2x+\\frac{1}{2}\\sin2x+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

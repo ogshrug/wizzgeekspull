@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed8154b490c7cde359499",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "VSA",
+  "question": "Using the interpretation of a definite integral as the limit of a sum, evaluate $\\displaystyle \\lim_{n\\to\\infty}\\frac{1}{n}\\sum_{r=1}^{n}\\left(\\frac{r}{n}\\right)^2$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> Rewrite the expression as $$\\lim_{n\\to\\infty}\\sum_{r=1}^{n}\\left(\\frac{r}{n}\\right)^2\\frac{1}{n}.$$<br><b>Step 2:</b> Here, $\\Delta x=\\frac{1}{n}$ and the sample point is $x_r=\\frac{r}{n}$ in the interval $[0,1]$.<br><b>Step 3:</b> Therefore, the limit represents the definite integral $$\\int_0^1x^2\\,dx.$$<br><b>Step 4:</b> Evaluating, $$\\int_0^1x^2\\,dx=\\left[\\frac{x^3}{3}\\right]_0^1.$$<br><b>Step 5:</b> Hence, the value of the given limit is $\\frac{1}{3}-0=\\boxed{\\frac{1}{3}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}$",
+    "B": "$\\frac{1}{4}$",
+    "C": "$\\frac{2}{3}$",
+    "D": "$\\frac{1}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

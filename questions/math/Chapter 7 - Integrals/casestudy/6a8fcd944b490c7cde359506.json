@@ -1,0 +1,29 @@
+{
+  "id": "6a8fcd944b490c7cde359506",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a discussion on selecting an efficient method of integration, students consider the product of two trigonometric functions $$I=\\int\\sin 2x\\cos 3x\\,dx$$ Direct inspection does not immediately give an antiderivative, and a simple substitution based on only one of the two trigonometric factors does not remove the other factor. The teacher asks the class to use a suitable trigonometric identity to rewrite the product as a sum or difference of simpler functions. The students must then integrate the transformed expression and justify that the result is correct. This exercise demonstrates how algebraic or trigonometric transformation can first reduce an integrand to standard forms before integration is carried out.<br><br><b>(a)</b> Rewrite $\\sin 2x\\cos 3x$ using a product-to-sum identity.<br><br><b>(b)</b> Express $I$ as the sum or difference of two simpler integrals.<br><br><b>(c)</b> Evaluate $I$.<br><br><b>(d)</b> Verify the antiderivative obtained in part (c) by differentiation.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Using $$\\sin A\\cos B=\\frac{1}{2}\\left[\\sin(A+B)+\\sin(A-B)\\right]$$ with $A=2x$ and $B=3x$, $$\\sin 2x\\cos 3x=\\frac{1}{2}\\left[\\sin 5x+\\sin(-x)\\right]$$ Since $\\sin(-x)=-\\sin x$, $$\\sin 2x\\cos 3x=\\frac{1}{2}(\\sin 5x-\\sin x)$$<br><br><b>(b)</b><br>Therefore, $$I=\\frac{1}{2}\\int\\sin 5x\\,dx-\\frac{1}{2}\\int\\sin x\\,dx$$<br><br><b>(c)</b><br>Now, $$\\int\\sin 5x\\,dx=-\\frac{1}{5}\\cos 5x$$ and $$\\int\\sin x\\,dx=-\\cos x$$ Hence, $$I=-\\frac{1}{10}\\cos 5x+\\frac{1}{2}\\cos x+C$$ Therefore, $$I=\\frac{1}{2}\\cos x-\\frac{1}{10}\\cos 5x+C$$<br><br><b>(d)</b><br>Differentiating, $$\\frac{d}{dx}\\left(\\frac{1}{2}\\cos x-\\frac{1}{10}\\cos 5x+C\\right)=-\\frac{1}{2}\\sin x+\\frac{1}{2}\\sin 5x$$ Thus, $$\\frac{dI}{dx}=\\frac{1}{2}(\\sin 5x-\\sin x)=\\sin 2x\\cos 3x$$ Hence, the antiderivative is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\sin2x\\cos3x=\\frac{1}{2}(\\sin5x+\\sin x)$<br>(b) $I=\\frac{1}{2}\\int\\sin5x\\,dx+\\frac{1}{2}\\int\\sin x\\,dx$<br>(c) $I=-\\frac{1}{10}\\cos5x-\\frac{1}{2}\\cos x+C$<br>(d) Differentiation gives $\\frac{1}{2}(\\sin5x+\\sin x)$",
+    "B": "(a) $\\sin2x\\cos3x=\\frac{1}{2}(\\sin5x-\\sin x)$<br>(b) $I=\\frac{1}{2}\\int\\sin5x\\,dx-\\frac{1}{2}\\int\\sin x\\,dx$<br>(c) $I=\\frac{1}{2}\\cos x-\\frac{1}{10}\\cos5x+C$<br>(d) Differentiation gives $\\sin2x\\cos3x$",
+    "C": "(a) $\\sin2x\\cos3x=\\frac{1}{2}(\\cos x-\\cos5x)$<br>(b) $I=\\frac{1}{2}\\int\\cos x\\,dx-\\frac{1}{2}\\int\\cos5x\\,dx$<br>(c) $I=\\frac{1}{2}\\sin x-\\frac{1}{10}\\sin5x+C$<br>(d) Differentiation gives $\\frac{1}{2}(\\cos x-\\cos5x)$",
+    "D": "(a) $\\sin2x\\cos3x=\\sin5x-\\sin x$<br>(b) $I=\\int\\sin5x\\,dx-\\int\\sin x\\,dx$<br>(c) $I=\\cos x-\\frac{1}{5}\\cos5x+C$<br>(d) Differentiation gives $2\\sin2x\\cos3x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a3279e5d5dca7dcb0bf0ebb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\sin(xy)=1$, then $\\frac{dy}{dx}$ is equal to:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Differentiate both sides implicitly with respect to $x$: $\\cos(xy) \\cdot \\frac{d}{dx}(xy) = 0$.\n\n**Step 2:** Apply the product rule to $(xy)$: $\\cos(xy) \\left(x\\frac{dy}{dx} + y(1)\\right) = 0$.\n\n**Step 3:** Since $\\sin(xy)=1$, $\\cos(xy)=0$. But directly solving from the core variable angle $xy = \\frac{\\pi}{2}$ gives $y = \\frac{\\pi}{2x}$, which differentiated is $\\frac{dy}{dx} = -\\frac{\\pi}{2x^2} = -\\frac{xy}{x^2} = -\\frac{y}{x}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x}{y}$",
+    "B": "$-\\frac{x}{y}$",
+    "C": "$\\frac{y}{x}$",
+    "D": "$-\\frac{y}{x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

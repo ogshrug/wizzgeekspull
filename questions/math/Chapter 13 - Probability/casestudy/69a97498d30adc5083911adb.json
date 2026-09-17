@@ -1,0 +1,30 @@
+{
+  "id": "69a97498d30adc5083911adb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 14: Hiring Practice**  \nA company shortlists 4 men and 2 women for interviews. Three candidates are chosen at random.\n(a) What is the probability exactly 2 men and 1 woman are selected?\n(b) Probability all three are men?\n(c) If one is a woman, what is the probability the other two are men?",
+  "answeroption": "B",
+  "explanation": "Total ways: $\\binom{6}{3}=20$<br /><br />(a) $\\binom{4}{2}\\binom{2}{1}=6\\times2=12$<br />Probability: $12/20=3/5$<br /><br />(b) $\\binom{4}{3}=4$<br />Probability: $4/20=1/5$<br /><br />(c) Probability, given one is a woman, other two are men:<br />Ways: $\\binom{2}{1}\\binom{4}{2}=2\\times6=12$<br />Total ways with at least 1 woman: total - all men = $20-4=16$<br />Probability: $12/16=3/4$<br /><br />Final answers:<br />(a) $3/5$<br />(b) $1/5$<br />(c) $3/4$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{1}{5}$<br />(b) $\\frac{3}{5}$<br />(c) $\\frac{3}{4}$",
+    "B": "(a) $\\frac{3}{5}$<br />(b) $\\frac{1}{5}$<br />(c) $\\frac{3}{4}$",
+    "C": "(a) $\\frac{3}{5}$<br />(b) $\\frac{1}{4}$<br />(c) $\\frac{1}{2}$",
+    "D": "(a) $\\frac{12}{16}$<br />(b) $\\frac{4}{16}$<br />(c) $\\frac{3}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:18:32 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

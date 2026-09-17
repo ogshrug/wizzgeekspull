@@ -1,0 +1,28 @@
+{
+  "id": "6a22c09ffbdd87b6dea73c2a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{\\pi/4}\\frac{1}{sin~x+cos~x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Simplify the denominator by multiplying and dividing by $\\sqrt{2}$: $\\sin x + \\cos x = \\sqrt{2}\\cos(x - \\frac{\\pi}{4})$. The integral becomes $\\frac{1}{\\sqrt{2}}\\int_{0}^{\\pi/4} \\sec(x - \\frac{\\pi}{4}) dx$.<br />**Step 2:** Integrate using standard rules: $\\frac{1}{\\sqrt{2}} \\left[ \\log\\left|\\sec\\left(x - \\frac{\\pi}{4}\\right) + \\tan\\left(x - \\frac{\\pi}{4}\\right)\\right| \\right]_{0}^{\\pi/4}$.<br />**Step 3:** Substitute the limits: $\\frac{1}{\\sqrt{2}} \\left[ \\log(1) - \\log(\\sqrt{2}-1) \\right] = -\\frac{1}{\\sqrt{2}}\\log(\\sqrt{2}-1) = \\frac{1}{\\sqrt{2}}\\log(\\sqrt{2}+1)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1",
+    "2024-3-2",
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

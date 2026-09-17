@@ -1,0 +1,29 @@
+{
+  "id": "6a2650dd864be73cfcf6d338",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following differential equation:<br />$$(y-sin^{2}x)dx+tan~xdy=0$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** We are given the first-order differential equation $(y-\\sin^{2}x)dx+\\tan xdy=0$. To rewrite this in standard form, rearrange terms to isolate the derivative $\\frac{dy}{dx}$: $\\tan x \\, dy = - (y - \\sin^2 x) \\, dx$, which can be divided by $\\tan x \\, dx$ to give: $\\frac{dy}{dx} = -\\frac{y}{\\tan x} + \\frac{\\sin^2 x}{\\tan x}$. Moving the $y$ term over yields $\\frac{dy}{dx} + \\cot x \\cdot y = \\sin x \\cos x$. This fits the standard linear form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x) = \\cot x$ and $Q(x) = \\sin x \\cos x$.<br />**Step 2:** Next, calculate the integrating factor ($IF$) using the standard formula $IF = e^{\\int P(x) dx}$. Substituting our value of $P(x)$ gives $IF = e^{\\int \\cot x \\, dx} = e^{\\log|\\sin x|} = \\sin x$. The general solution template for a linear differential equation is given by $y \\cdot (IF) = \\int Q(x) \\cdot (IF) dx + C$. Substituting our values gives: $y \\cdot \\sin x = \\int (\\sin x \\cos x) \\cdot \\sin x \\, dx + C = \\int \\sin^2 x \\cos x \\, dx + C$.<br />**Step 3:** To solve the remaining integral $\\int \\sin^2 x \\cos x \\, dx$, we use basic variable substitution. Let $t = \\sin x$, which implies $dt = \\cos x \\, dx$. The integral transforms into $\\int t^2 dt = \\frac{t^3}{3} = \\frac{\\sin^3 x}{3}$. Substituting this evaluation back gives: $y \\sin x = \\frac{\\sin^3 x}{3} + C$.<br />**Step 4:** To find the explicit form for $y$, divide the entire equation by $\\sin x$, assuming $\\sin x \\neq 0$. This delivers the clean final general solution: $y = \\frac{\\sin^2 x}{3} + C\\csc x$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1",
+    "2022-5-2",
+    "2022-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

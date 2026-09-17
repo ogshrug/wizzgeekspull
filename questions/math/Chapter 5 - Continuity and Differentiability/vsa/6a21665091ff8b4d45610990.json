@@ -1,0 +1,28 @@
+{
+  "id": "6a21665091ff8b4d45610990",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "VSA",
+  "question": "Find whether the function $f(x)=\\begin{cases}x-1,&x<2\\\\ 2x-3,&x\\ge2\\end{cases}$ at $x=2$ is differentiable or not.",
+  "answeroption": "Not Differentiable",
+  "explanation": "<b>Step 1</b> A function is differentiable at a point if its Left-Hand Derivative (LHD) and Right-Hand Derivative (RHD) are equal at that point. First, observe the value at the boundary point: $f(2) = 2(2) - 3 = 1$. Now, formulate the Left-Hand Derivative limit: $\\text{LHD} = \\lim_{h \\to 0^-} \\frac{f(2+h) - f(2)}{h}$.<br /><br /><b>Step 2</b> For $h < 0$, the domain falls into the region $x < 2$, so we apply the first functional branch $f(x) = x - 1$. Substituting $2+h$ gives $f(2+h) = (2+h) - 1 = 1+h$. Placed into the LHD equation: $\\text{LHD} = \\lim_{h \\to 0} \\frac{(1+h) - 1}{h} = 1$.<br /><br /><b>Step 3</b> Next, formulate the Right-Hand Derivative limit: $\\text{RHD} = \\lim_{h \\to 0^+} \\frac{f(2+h) - f(2)}{h}$. For $h > 0$, the domain falls into the region $x \\ge 2$, so we use the branch $f(x) = 2x - 3$. Substituting $2+h$ gives $f(2+h) = 2(2+h) - 3 = 1+2h$.<br /><br /><b>Step 4</b> Placed into the RHD equation: $\\text{RHD} = \\lim_{h \\to 0} \\frac{(1+2h) - 1}{h} = 2$.<br /><br /><b>Step 5</b> Compare the results: $\\text{LHD} = 1$ and $\\text{RHD} = 2$. Because the Left-Hand and Right-Hand derivatives are not equal ($1 \\neq 2$), the function $f(x)$ is not differentiable at $x = 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

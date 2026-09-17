@@ -1,0 +1,29 @@
+{
+  "id": "69a9a8f6589ce36f368b485c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $I = \\int_{-a}^{a} \\frac{e^x}{1 + e^{2x}} dx$, $a>0$. Which of the following is true?",
+  "answeroption": "B",
+  "explanation": "Let $f(x)=\\frac{e^x}{1+e^{2x}}$.<br /><br />Compute $f(-x)=\\frac{e^{-x}}{1+e^{-2x}}$. After simplification we obtain $f(-x)=f(x)$.<br /><br />Thus the function is even.<br /><br />For an even function $\\int_{-a}^{a} f(x)dx = 2\\int_0^a f(x)dx$.<br /><br />Therefore $I=2\\int_0^a \\frac{e^x}{1+e^{2x}}dx$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$I=0$ for all $a>0$",
+    "B": "$I = 2 \\int_{0}^{a} \\frac{e^x}{1 + e^{2x}} dx$",
+    "C": "$I = \\tan^{-1}(e^a) - \\tan^{-1}(e^{-a})$",
+    "D": "$I = \\int_0^a \\frac{e^x}{1 + e^{2x}} dx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:01:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

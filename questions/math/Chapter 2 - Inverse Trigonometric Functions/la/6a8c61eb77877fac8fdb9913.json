@@ -1,0 +1,30 @@
+{
+  "id": "6a8c61eb77877fac8fdb9913",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "Consider the function $f(x)=\\sec^{-1}\\left(\\dfrac{x-1}{2}\\right)$.<br><br>(a) Determine the domain of $f$.<br><br>(b) Determine the range of $f$.<br><br>(c) Find all values of $x$ for which $f(x)=\\dfrac{2\\pi}{3}$, and verify that the obtained values belong to the domain.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>For $\\sec^{-1}t$ to be defined, $|t|\\geq1$. Therefore,<br>$$\\left|\\frac{x-1}{2}\\right|\\geq1$$<br>$$|x-1|\\geq2$$<br>Hence,<br>$$x-1\\leq-2\\quad\\text{or}\\quad x-1\\geq2$$<br>Thus,<br>$$x\\leq-1\\quad\\text{or}\\quad x\\geq3$$<br>Therefore, the domain is<br>$$(-\\infty,-1]\\cup[3,\\infty)$$<br><br><b>(b)</b><br>The principal-value range of $\\sec^{-1}t$ is<br>$$[0,\\pi]-\\left\\{\\frac{\\pi}{2}\\right\\}$$<br>Therefore, the range of $f$ is<br>$$\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{\\pi}{2},\\pi\\right]$$<br><br><b>(c)</b><br>Given that<br>$$\\sec^{-1}\\left(\\frac{x-1}{2}\\right)=\\frac{2\\pi}{3}$$<br>taking secant on both sides gives<br>$$\\frac{x-1}{2}=\\sec\\frac{2\\pi}{3}=-2$$<br>Therefore,<br>$$x-1=-4$$<br>$$x=-3$$<br>Since $-3\\leq-1$, the obtained value belongs to the domain. Hence, the required value is $x=-3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $(-\\infty,-3]\\cup[1,\\infty)$; Range: $\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{\\pi}{2},\\pi\\right]$; $x=-3$",
+    "B": "Domain: $(-\\infty,-1]\\cup[3,\\infty)$; Range: $\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{\\pi}{2},\\pi\\right]$; $x=-3$",
+    "C": "Domain: $(-\\infty,-1]\\cup[3,\\infty)$; Range: $\\left[0,\\frac{\\pi}{2}\\right)$; $x=-3$",
+    "D": "Domain: $[-1,3]$; Range: $\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{\\pi}{2},\\pi\\right]$; $x=5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a9029dfbe0ecc7866e90cad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "SA",
+  "question": "Three machines $M_1$, $M_2$ and $M_3$ produce $30\\%$, $45\\%$ and $25\\%$ respectively of the total output of a factory. The probabilities that an item produced by these machines is defective are $0.05$, $0.08$ and $0.10$ respectively. If an item is selected at random, find the probability that it is defective.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Identification of events</b><br>Let $D$ denote the event that the selected item is defective. Let $M_1$, $M_2$ and $M_3$ denote the events that the item is produced by the respective machines.<br><b>Step 2: Given probabilities</b><br>$$P(M_1)=0.30,\\quad P(M_2)=0.45,\\quad P(M_3)=0.25$$<br>Also, $$P(D|M_1)=0.05,\\quad P(D|M_2)=0.08,\\quad P(D|M_3)=0.10$$<br><b>Step 3: Application of total probability</b><br>Since $M_1,M_2,M_3$ form a partition of the sample space, $$P(D)=P(M_1)P(D|M_1)+P(M_2)P(D|M_2)+P(M_3)P(D|M_3)$$<br><b>Step 4: Substitution and calculation</b><br>$$P(D)=0.30\\times0.05+0.45\\times0.08+0.25\\times0.10$$ $$=0.015+0.036+0.025=0.076$$<br><b>Step 5: Conclusion</b><br>Therefore, the required probability is $\\boxed{0.076}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0.068$",
+    "B": "$0.076$",
+    "C": "$0.083$",
+    "D": "$0.095$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

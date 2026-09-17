@@ -1,0 +1,29 @@
+{
+  "id": "6a8c383caf259efb39a309c4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A=\\{1,2,3,4\\}$ and $R=\\{(1,1),(2,2),(4,4),(1,3),(3,1)\\}$ be a relation on $A$. Find the minimum number of ordered pairs that must be added to $R$ so that it becomes reflexive.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> For a relation on $A$ to be reflexive, every element $a\\in A$ must satisfy $(a,a)\\in R$.<br><b>Step 2:</b> The required diagonal ordered pairs are $(1,1),(2,2),(3,3)$ and $(4,4)$.<br><b>Step 3:</b> The given relation already contains $(1,1),(2,2)$ and $(4,4)$.<br><b>Step 4:</b> The only missing diagonal pair is $(3,3)$.<br><b>Step 5:</b> Therefore, adding just the ordered pair $(3,3)$ makes every element related to itself.<br><b>Final Answer:</b> The minimum number of ordered pairs required is $\\boxed{1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$2$",
+    "C": "$1$",
+    "D": "$3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

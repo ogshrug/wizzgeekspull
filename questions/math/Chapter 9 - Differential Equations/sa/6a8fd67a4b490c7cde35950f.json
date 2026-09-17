@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd67a4b490c7cde35950f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99e"
+  ],
+  "question_type": "SA",
+  "question": "Consider the differential equations<br>$$\\left(\\frac{d^2y}{dx^2}\\right)^7+\\left(\\frac{dy}{dx}\\right)^9+y=0$$<br>and<br>$$\\left(\\frac{d^3y}{dx^3}\\right)^2+\\left(\\frac{d^2y}{dx^2}\\right)^4+y=0.$$<br>Determine the order of each equation. A student states that the first equation has order $9$ because the highest power of a derivative is $9$. Examine the statement and justify your conclusion.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Identify what determines order</b><br>Order depends on the order of the highest derivative occurring in the equation, not on the power to which a derivative is raised.<br><b>Step 2: Analyse the first equation</b><br>The derivatives are $\\frac{dy}{dx}$ and $\\frac{d^2y}{dx^2}$. The highest order derivative is $\\frac{d^2y}{dx^2}$. Hence, the equation has order $2$, even though $\\frac{dy}{dx}$ is raised to the ninth power.<br><b>Step 3: Analyse the second equation</b><br>The highest derivative present is $\\frac{d^3y}{dx^3}$. Therefore, its order is $3$.<br><b>Step 4: Examine the student's statement</b><br>The student has confused the power of a derivative with its order.<br><b>Step 5: Conclusion</b><br>The orders are $2$ and $3$ respectively, so the student's statement is incorrect.",
+  "explanation_image": [],
+  "options": {
+    "A": "The orders are $7$ and $4$ respectively; the student's statement is incorrect.",
+    "B": "The orders are $9$ and $4$ respectively; the student's statement is correct.",
+    "C": "The orders are $2$ and $3$ respectively; the student's statement is incorrect.",
+    "D": "The orders are $9$ and $3$ respectively; the student's statement is correct."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

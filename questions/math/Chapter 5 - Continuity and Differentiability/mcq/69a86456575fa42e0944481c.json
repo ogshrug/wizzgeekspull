@@ -1,0 +1,30 @@
+{
+  "id": "69a86456575fa42e0944481c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $f(x) = \\begin{cases} e^x \\sin x & x \\neq 0 \\\\ 0 & x = 0 \\end{cases}$. Is $f(x)$ continuous and/or differentiable at $x=0$?",
+  "answeroption": "A",
+  "explanation": "$\\lim_{x \\to 0} e^x \\sin x = 0$.<br /><br />So function is continuous at $0$.<br /><br />$f'(0)=\\lim_{h \\to 0} \\frac{e^h \\sin h}{h} = \\lim_{h \\to 0} e^h \\cdot \\frac{\\sin h}{h} = 1$.<br /><br />Hence, $f(x)$ is differentiable at $0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Continuous and differentiable",
+    "B": "Continuous but not differentiable",
+    "C": "Not continuous",
+    "D": "Differentiable but not continuous"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:56:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

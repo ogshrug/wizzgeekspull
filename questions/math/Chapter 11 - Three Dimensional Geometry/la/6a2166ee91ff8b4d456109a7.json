@@ -1,0 +1,27 @@
+{
+  "id": "6a2166ee91ff8b4d456109a7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the equation of a line (in vector and cartesian form) that passes through the point of intersection of lines $\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ and $\\frac{x-4}{5}=\\frac{y-1}{2}=z$ and is parallel to the vector $3\\hat{i}+2\\hat{j}-8\\hat{k}$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To find the point of intersection, write a general point on Line 1 using parameter $\\lambda$: $x = 2\\lambda + 1, y = 3\\lambda + 2, z = 4\\lambda + 3$. Write a general point on Line 2 using a separate parameter $\\mu$: $x = 5\\mu + 4, y = 2\\mu + 1, z = \\mu$.<br /><br /><b>Step 2</b> Equate the $z$-coordinate expressions from both lines to relate the parameters: $\\mu = 4\\lambda + 3$. Next, equate the $y$-coordinate expressions: $3\\lambda + 2 = 2\\mu + 1$.<br /><br /><b>Step 3</b> Substitute the expression for $\\mu$ into the $y$-coordinate equation to solve for $\\lambda$: $3\\lambda + 2 = 2(4\\lambda + 3) + 1 \\implies 3\\lambda + 2 = 8\\lambda + 7 \\implies 5\\lambda = -5 \\implies \\lambda = -1$. Using this, find $\\mu = 4(-1) + 3 = -1$. Checking the $x$-coordinates: $2(-1)+1 = -1$ and $5(-1)+4 = -1$. The lines intersect at $(-1, -1, -1)$.<br /><br /><b>Step 4</b> The new line passes through $(-1, -1, -1)$ and runs parallel to vector $\\vec{b} = 3\\hat{i} + 2\\hat{j} - 8\\hat{k}$. Write the standard vector equation form $\\vec{r} = \\vec{a} + \\kappa\\vec{b}$: $\\vec{r} = (-\\hat{i} - \\hat{j} - \\hat{k}) + \\kappa(3\\hat{i} + 2\\hat{j} - 8\\hat{k})$.<br /><br /><b>Step 5</b> Convert this vector equation into Cartesian form using the point coordinates and the directional components of the parallel vector: $\\frac{x - (-1)}{3} = \\frac{y - (-1)}{2} = \\frac{z - (-1)}{-8} \\implies \\frac{x+1}{3} = \\frac{y+1}{2} = \\frac{z+1}{-8}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a96f0e6638848124d7c927",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "SA",
+  "question": "Form the differential equation representing the family of curves $y = ae^x + be^{-x}$, where $a$ and $b$ are arbitrary constants. Briefly justify your process.",
+  "answeroption": "A",
+  "explanation": "Given:<br />$y = ae^x + be^{-x}$<br />This family contains two arbitrary constants; we need a differential equation of order two.<br /><br />First derivative:<br />$\\frac{dy}{dx} = a e^x - b e^{-x}$<br />Second derivative:<br />$\\frac{d^2y}{dx^2} = a e^x + b e^{-x}$<br /><br />But $a e^x + b e^{-x} = y$:<br />So,<br />$\\frac{d^2y}{dx^2} = y$<br /><br />Thus, the required differential equation is:<br />$\\boxed{\\frac{d^2y}{dx^2} - y = 0}$<br /><br />Justification: Two arbitrary constants required a second-order equation. Differentiation twice gave us $y$ and its derivatives, and by eliminating $a$ and $b$, we derived the equation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}-y=0$",
+    "B": "$\\frac{d^2y}{dx^2}+y=0$",
+    "C": "$\\frac{dy}{dx}-y=0$",
+    "D": "$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:54:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

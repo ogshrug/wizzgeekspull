@@ -1,0 +1,30 @@
+{
+  "id": "69a97299d30adc5083911acf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "LA",
+  "question": "A die is rolled three times. Let $A$ denote the event that a six appears on the first throw, $B$ that a six appears on the second throw, and $C$ that a six appears on the third throw.\n(a) Find the probability that exactly two sixes appear in three throws.\n(b) What is the probability that at least one six appears in three throws?\n(c) Are the events A, B, and C pairwise independent? Verify.",
+  "answeroption": "D",
+  "explanation": "(a) The probability that a six appears on one throw is $p = \\frac{1}{6}$.<br />The probability it does not appear is $q = \\frac{5}{6}$.<br /><br />Exactly two sixes in three throws:<br />Possible: S S N, S N S, N S S = 3 ways.<br />Each has probability:<br />$\\left(\\frac{1}{6}\\right)^2 \\times \\frac{5}{6} = \\frac{1}{36} \\times \\frac{5}{6} = \\frac{5}{216}$<br />Total probability:<br />$3 \\times \\frac{5}{216} = \\frac{15}{216} = \\frac{5}{72}$<br /><br />(b) Probability of at least one six in three throws = $1 - $ probability of no six in three throws:<br />$P(\\text{no six}) = \\left(\\frac{5}{6}\\right)^3 = \\frac{125}{216}$<br />Therefore,<br />$P(\\text{at least one six}) = 1 - \\frac{125}{216} = \\frac{91}{216}$<br /><br />(c) Pairwise independence:<br />$P(A) = P(B) = P(C) = \\frac{1}{6}$<br />$P(A \\cap B) = $ probability six on both first and second throw $= \\frac{1}{6} \\times \\frac{1}{6} = \\frac{1}{36} = P(A)P(B)$<br />Similarly, $P(A \\cap C) = \\frac{1}{36} = P(A)P(C)$<br />$P(B \\cap C) = \\frac{1}{36} = P(B)P(C)$<br />So, A, B, C are pairwise independent.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{15}{216}$<br />(b) $\\frac{125}{216}$<br />(c) Not pairwise independent",
+    "B": "(a) $\\frac{5}{72}$<br />(b) $\\frac{91}{216}$<br />(c) Mutually exclusive",
+    "C": "(a) $\\frac{1}{36}$<br />(b) $\\frac{91}{216}$<br />(c) Pairwise independent",
+    "D": "(a) $\\frac{5}{72}$<br />(b) $\\frac{91}{216}$<br />(c) Yes, $A$, $B$ and $C$ are pairwise independent"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:10:01 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a227910864be73cfcf6d1f2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "In the Linear Programming Problem for objective function $Z=18x+10y$ subject to constraints $4x+y\\ge20$, $2x+3y\\ge30$, $x, y\\ge0$, find the minimum value of $Z$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Graph the constraint line $4x+y=20$. The intercepts are $(5,0)$ and $(0,20)$. The $\\ge$ inequality implies the region is above this line.<br />**Step 2:** Graph the constraint line $2x+3y=30$. The intercepts are $(15,0)$ and $(0,10)$. The region is above this line as well. The feasible region is unbounded and lies in the first quadrant.<br />**Step 3:** Find the corner points. The y-intercept is $(0,20)$ and x-intercept is $(15,0)$.<br />**Step 4:** Calculate the intersection of the two lines to find the remaining corner point. Multiply the first equation by 3: $12x+3y=60$. Subtract the second: $(12x-2x) = 60-30 \\implies 10x=30 \\implies x=3$. Substitute $x$ back: $4(3)+y=20 \\implies y=8$. Intersection is $(3,8)$.<br />**Step 5:** Evaluate $Z = 18x+10y$ at all corner points. At $(0,20)$, $Z = 0 + 200 = 200$. At $(15,0)$, $Z = 18(15) + 0 = 270$. At $(3,8)$, $Z = 18(3) + 10(8) = 54 + 80 = 134$.<br />**Step 6:** Since the region is unbounded, check if $18x+10y < 134$ has solutions in the region. Because 134 is the smallest value and all objective coefficients are positive, the minimum value is conclusively 134.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

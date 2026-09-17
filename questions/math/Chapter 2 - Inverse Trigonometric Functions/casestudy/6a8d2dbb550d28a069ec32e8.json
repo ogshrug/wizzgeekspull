@@ -1,0 +1,31 @@
+{
+  "id": "6a8d2dbb550d28a069ec32e8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During an analytical activity, students examine the function $g(x)=\\sin^{-1}\\left(\\sqrt{1-x^2}\\right)$. They note that the square root must be real and that its value must belong to the domain of $\\sin^{-1}x$. Because the square root is non-negative, the graph has a special symmetry and its range occupies only part of the principal range $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$. The students use these observations to determine the behaviour of the graph without relying on a prepared diagram.<br><br><b>(a)</b> Determine the domain of $g$.<br><br><b>(b)</b> Find the range of $g$.<br><br><b>(c)</b> Evaluate $g(-1)$, $g(0)$, and $g(1)$.<br><br><b>(d)</b> Justify the symmetry of the graph and describe its variation over the domain.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The square root is real when $1-x^2\\geq0$. Thus, $x^2\\leq1$, which gives $-1\\leq x\\leq1$. Also, $0\\leq\\sqrt{1-x^2}\\leq1$, so its value is admissible for $\\sin^{-1}x$. Hence, the domain is $[-1,1]$.<br><br><b>(b)</b><br>For $x\\in[-1,1]$, the expression $\\sqrt{1-x^2}$ varies from $0$ to $1$. Since $\\sin^{-1}x$ is increasing, $$0\\leq\\sin^{-1}\\left(\\sqrt{1-x^2}\\right)\\leq\\frac{\\pi}{2}$$ Therefore, the range is $\\left[0,\\frac{\\pi}{2}\\right]$.<br><br><b>(c)</b><br>At $x=-1$, $g(-1)=\\sin^{-1}(0)=0$. At $x=0$, $g(0)=\\sin^{-1}(1)=\\frac{\\pi}{2}$. At $x=1$, $g(1)=\\sin^{-1}(0)=0$. Thus, the points are $(-1,0)$, $\\left(0,\\frac{\\pi}{2}\\right)$, and $(1,0)$.<br><br><b>(d)</b><br>Since replacing $x$ by $-x$ does not change $x^2$, $$g(-x)=\\sin^{-1}\\left(\\sqrt{1-(-x)^2}\\right)=g(x)$$ Hence, the graph is symmetric about the $y$-axis. The value increases from $0$ to $\\frac{\\pi}{2}$ as $x$ moves from $-1$ to $0$, and decreases from $\\frac{\\pi}{2}$ to $0$ as $x$ moves from $0$ to $1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain: $\\mathbb{R}$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$<br><br>(c) $g(-1)=-\\dfrac{\\pi}{2}$, $g(0)=0$, and $g(1)=\\dfrac{\\pi}{2}$<br><br>(d) The graph is symmetric about the origin and increases throughout its domain",
+    "B": "(a) Domain: $[-1,1]$<br><br>(b) Range: $\\left[0,\\dfrac{\\pi}{2}\\right]$<br><br>(c) $g(-1)=0$, $g(0)=\\dfrac{\\pi}{2}$, and $g(1)=0$<br><br>(d) The graph is symmetric about the $y$-axis, increasing on $[-1,0]$ and decreasing on $[0,1]$",
+    "C": "(a) Domain: $[-1,1]$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{2},0\\right]$<br><br>(c) $g(-1)=0$, $g(0)=-\\dfrac{\\pi}{2}$, and $g(1)=0$<br><br>(d) The graph is symmetric about the $y$-axis, decreasing on $[-1,0]$ and increasing on $[0,1]$",
+    "D": "(a) Domain: $(0,1]$<br><br>(b) Range: $\\left[0,\\dfrac{\\pi}{2}\\right)$<br><br>(c) $g(0)$ is undefined and $g(1)=0$<br><br>(d) The graph has no symmetry and decreases throughout its domain"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

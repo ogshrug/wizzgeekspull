@@ -1,0 +1,29 @@
+{
+  "id": "69a9a443589ce36f368b483d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f988"
+  ],
+  "question_type": "SA",
+  "question": "If $F(x)$ is an anti-derivative of $f(x)$, show that $\\frac{d}{dx}\\int f(x)dx=f(x)$.",
+  "answeroption": "C",
+  "explanation": "Let $F(x)$ be an anti-derivative of $f(x)$ so $F'(x)=f(x)$.<br /><br />By definition $\\int f(x)dx = F(x)+C$.<br /><br />Differentiating gives $\\frac{d}{dx}[F(x)+C]=F'(x)$.<br /><br />Thus $\\frac{d}{dx}\\int f(x)dx=f(x)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d}{dx}\\int f(x)dx=F(x)$",
+    "B": "$\\frac{d}{dx}\\int f(x)dx=f(x)+C$",
+    "C": "$\\frac{d}{dx}\\int f(x)dx=f(x)$",
+    "D": "$\\frac{d}{dx}\\int f(x)dx=\\int f(x)dx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:41:55 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

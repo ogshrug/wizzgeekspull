@@ -1,0 +1,33 @@
+{
+  "id": "6a2141b991ff8b4d4561096e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\frac{dy}{dx}=F(x,y)$ will be a homogeneous differential equation for which of the following functions?<br />(i) $F(x,y)=3x+2y$<br />(ii) $F(x,y)=\\sin\\frac{y}{x}+\\log~y-\\log~x$<br />(iii) $F(x,y)=e^{y/x}+1$<br />(iv) $F(x,y)=\\sqrt{x^{2}+y^{2}}-y$",
+  "answeroption": "D",
+  "explanation": "<b>Step 1</b> Recall the definition of a homogeneous differential equation. An equation $\\frac{dy}{dx}=F(x,y)$ is homogeneous if $F(x,y)$ is a homogeneous function of degree 0. This is verified by checking whether $F(\\lambda x,\\lambda y)=F(x,y)$.<br /><br /><b>Step 2</b> For (i), $F(\\lambda x,\\lambda y)=3\\lambda x+2\\lambda y=\\lambda(3x+2y)$, so it is homogeneous of degree 1, not degree 0.<br /><br /><b>Step 3</b> For (ii), $F(x,y)=\\sin(y/x)+\\log(y/x)$. Hence $F(\\lambda x,\\lambda y)=\\sin(y/x)+\\log(y/x)=F(x,y)$, so it is homogeneous of degree 0.<br /><br /><b>Step 4</b> For (iii), $F(\\lambda x,\\lambda y)=e^{(\\lambda y)/(\\lambda x)}+1=e^{y/x}+1=F(x,y)$, so it is homogeneous of degree 0.<br /><br /><b>Step 5</b> For (iv), $F(\\lambda x,\\lambda y)=\\lambda\\sqrt{x^2+y^2}-\\lambda y=\\lambda F(x,y)$, so it is homogeneous of degree 1. Therefore, only (ii) and (iii) satisfy the condition.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) and (ii)",
+    "B": "(i), (ii) and (iii)",
+    "C": "(ii), (iii) and (iv)",
+    "D": "(ii) and (iii)"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

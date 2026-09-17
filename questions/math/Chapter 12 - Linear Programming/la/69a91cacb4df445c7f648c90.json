@@ -1,0 +1,29 @@
+{
+  "id": "69a91cacb4df445c7f648c90",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "A chemist needs at least 120 units of chemical X and 200 units of chemical Y for an experiment. Two solutions are available: Solution I contains 10 units of X and 20 units of Y per litre, while Solution II contains 20 units of X and 10 units of Y per litre. The cost per litre of Solution I is ₹15 and of Solution II is ₹12. What quantities of each solution should the chemist use to minimize the total cost while meeting the requirements? Is the optimum unique?",
+  "answeroption": "B",
+  "explanation": "Let $x =$ litres of Solution I, $y =$ litres of Solution II.<br /><br />Objective: Minimize $Z = 15x + 12y$<br /><br />Constraints:<br /><br />$10x + 20y \\geq 120$ (X)<br /><br />$20x + 10y \\geq 200$ (Y)<br /><br />$x \\geq 0, y \\geq 0$<br /><br />Rewrite constraints:<br /><br />$10x + 20y \\geq 120 \\implies x + 2y \\geq 12$<br /><br />$20x + 10y \\geq 200 \\implies 2x + y \\geq 20$<br /><br />Solve for intersection:<br /><br />From $x + 2y = 12$ and $2x + y = 20$<br /><br />Multiply first by 2: $2x + 4y = 24$<br /><br />Subtract second equation: $(2x + 4y) - (2x + y) = 24 - 20$<br /><br />$3y = 4 \\implies y = \\frac{4}{3}$<br /><br />Then $x + 2\\times\\frac{4}{3} = 12 \\implies x = 12 - \\frac{8}{3} = \\frac{28}{3}$<br /><br />Now, check at axes:<br /><br />If $x = 0$, $2y \\geq 12 \\implies y \\geq 6$; $y$ in second: $y \\geq 20$<br /><br />So at $x=0$, $y \\geq 20$<br /><br />Similarly, $y=0$: $x \\geq 12;$ $2x \\geq 20 \\implies x \\geq 10$<br /><br />So at $y=0$, $x \\geq 12$<br /><br />Corner points:<br /><br />$(\\frac{28}{3}, \\frac{4}{3})$, $(0,20)$, $(12,0)$<br /><br />Compute $Z$:<br /><br />$\\left(\\frac{28}{3}, \\frac{4}{3}\\right): 15 \\times \\frac{28}{3} + 12 \\times \\frac{4}{3} = 140 + 16 = 156$<br /><br />$(0,20): 0 + 240 = 240$<br /><br />$(12,0): 180 + 0 = 180$<br /><br />Minimum is 156, unique solution.<br /><br />So, $\\frac{28}{3}$ L of Solution I and $\\frac{4}{3}$ L of Solution II at minimum cost ₹156.",
+  "explanation_image": [],
+  "options": {
+    "A": "Use 0 L of Solution I and 20 L of Solution II; minimum cost ₹240; optimum is unique.",
+    "B": "Use $\\frac{28}{3}$ L of Solution I and $\\frac{4}{3}$ L of Solution II; minimum cost ₹156; optimum is unique.",
+    "C": "Use 12 L of Solution I and 0 L of Solution II; minimum cost ₹180; optimum is unique.",
+    "D": "Use $\\frac{4}{3}$ L of Solution I and $\\frac{28}{3}$ L of Solution II; minimum cost ₹132; optimum is not unique."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:03:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

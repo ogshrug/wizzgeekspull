@@ -1,0 +1,30 @@
+{
+  "id": "6a8e74b6be0ecc7866e90b8b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Let $A=\\{1,2,3\\}$ and $B=\\{a,b\\}$. A function $f:A\\times B\\to B\\times A$ is defined by $f(x,y)=(y,x)$. Thus, the function reverses the order of the two components of every ordered pair. The domain contains the six pairs $(1,a),(1,b),(2,a),(2,b),(3,a),(3,b)$, while the codomain contains the corresponding reversed pairs. Students investigate whether two different ordered pairs can acquire the same image and whether every possible ordered pair in $B\\times A$ is obtained through this rule.<br><br><b>(a)</b> Find $f(2,a)$ and $f(3,b)$.<br><br><b>(b)</b> If $f(x_1,y_1)=f(x_2,y_2)$, determine the relation between $(x_1,y_1)$ and $(x_2,y_2)$.<br><br><b>(c)</b> Given an arbitrary $(y,x)\\in B\\times A$, find a pre-image under $f$.<br><br><b>(d)</b> Hence determine whether $f$ is one-one and onto.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>By the rule $f(x,y)=(y,x)$, we obtain $f(2,a)=(a,2)$ and $f(3,b)=(b,3)$.<br><br><b>(b)</b><br>Suppose $f(x_1,y_1)=f(x_2,y_2)$. Then $(y_1,x_1)=(y_2,x_2)$. Equality of ordered pairs gives $y_1=y_2$ and $x_1=x_2$. Hence $(x_1,y_1)=(x_2,y_2)$. Therefore, $f$ is one-one.<br><br><b>(c)</b><br>Let $(y,x)$ be an arbitrary element of $B\\times A$. Since $x\\in A$ and $y\\in B$, the ordered pair $(x,y)$ belongs to $A\\times B$. Also, $f(x,y)=(y,x)$. Thus, $(x,y)$ is a pre-image of $(y,x)$.<br><br><b>(d)</b><br>Part (b) proves that $f$ is one-one. Part (c) proves that every element of $B\\times A$ has a pre-image in $A\\times B$, so $f$ is onto. Therefore, $f$ is both one-one and onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(2,a)=(2,a)$ and $f(3,b)=(3,b)$; equal images do not imply equal inputs, and $f$ is neither one-one nor onto.",
+    "B": "$f(2,a)=(a,2)$ and $f(3,b)=(b,3)$; equal images imply equal inputs, but some elements of $B\\times A$ have no pre-image, so $f$ is one-one but not onto.",
+    "C": "$f(2,a)=(a,2)$ and $f(3,b)=(b,3)$; equal images imply $(x_1,y_1)=(x_2,y_2)$, and the pre-image of $(y,x)$ is $(x,y)$. Hence, $f$ is both one-one and onto.",
+    "D": "$f(2,a)=(a,3)$ and $f(3,b)=(b,2)$; every codomain element has a pre-image, but distinct inputs may have the same image, so $f$ is onto but not one-one."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

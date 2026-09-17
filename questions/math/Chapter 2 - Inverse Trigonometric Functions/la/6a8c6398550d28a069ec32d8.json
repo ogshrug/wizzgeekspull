@@ -1,0 +1,30 @@
+{
+  "id": "6a8c6398550d28a069ec32d8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "Let $g(x)=\\cos^{-1}\\sqrt{\\dfrac{x+2}{4}}$.<br><br>(a) Determine the domain of $g$.<br><br>(b) Determine its range and identify the values of $x$ at which the endpoints of the range are attained.<br><br>(c) Solve $g(x)=\\dfrac{\\pi}{3}$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The expression inside the square root must be non-negative, and the argument of $\\cos^{-1}$ must not exceed $1$. Therefore,<br>$$0\\leq\\frac{x+2}{4}\\leq1$$<br>Multiplying throughout by $4$ gives<br>$$0\\leq x+2\\leq4$$<br>Hence,<br>$$-2\\leq x\\leq2$$<br>Therefore, the domain is $[-2,2]$.<br><br><b>(b)</b><br>For $x\\in[-2,2]$,<br>$$0\\leq\\sqrt{\\frac{x+2}{4}}\\leq1$$<br>Since $\\cos^{-1}t$ decreases as $t$ increases,<br>$$0\\leq g(x)\\leq\\frac{\\pi}{2}$$<br>At $x=-2$, the argument is $0$, so<br>$$g(-2)=\\cos^{-1}(0)=\\frac{\\pi}{2}$$<br>At $x=2$, the argument is $1$, so<br>$$g(2)=\\cos^{-1}(1)=0$$<br>Hence, the range is $\\left[0,\\dfrac{\\pi}{2}\\right]$.<br><br><b>(c)</b><br>Given that<br>$$\\cos^{-1}\\sqrt{\\frac{x+2}{4}}=\\frac{\\pi}{3}$$<br>taking cosine on both sides gives<br>$$\\sqrt{\\frac{x+2}{4}}=\\frac{1}{2}$$<br>Squaring both sides,<br>$$\\frac{x+2}{4}=\\frac{1}{4}$$<br>Therefore,<br>$$x+2=1$$<br>$$x=-1$$<br>Since $-1\\in[-2,2]$, the required solution is $x=-1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $[-2,2]$; Range: $[0,\\pi]$; $g(-2)=\\pi$ and $g(2)=0$; $x=-1$",
+    "B": "Domain: $[-2,\\infty)$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$; $g(-2)=\\frac{\\pi}{2}$ and $g(2)=0$; $x=-1$",
+    "C": "Domain: $[-2,2]$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$; $g(-2)=0$ and $g(2)=\\frac{\\pi}{2}$; $x=1$",
+    "D": "Domain: $[-2,2]$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$; $g(-2)=\\frac{\\pi}{2}$ and $g(2)=0$; $x=-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

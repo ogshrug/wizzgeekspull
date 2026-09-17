@@ -1,0 +1,29 @@
+{
+  "id": "6a8d29ca1cb3824448de86b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ and $g:\\mathbb{R}\\to\\mathbb{R}$ be given by $f(x)=2x+1$ and $g(x)=x^2$. Find $(g\\circ f)(2)$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Apply the inner function</b><br>For the composition $g\\circ f$, the function $f$ is applied first. Therefore,<br>$$f(2)=2(2)+1=5.$$<br><br><b>Step 2: Apply the outer function</b><br>Now apply $g$ to the result obtained from $f$. Since $g(x)=x^2$,<br>$$g(f(2))=g(5)=5^2=25.$$<br><br><b>Final Answer:</b> $\\boxed{(g\\circ f)(2)=25}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$9$",
+    "B": "$5$",
+    "C": "$16$",
+    "D": "$25$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

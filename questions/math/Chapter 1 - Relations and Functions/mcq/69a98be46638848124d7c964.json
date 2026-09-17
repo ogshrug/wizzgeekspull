@@ -1,0 +1,30 @@
+{
+  "id": "69a98be46638848124d7c964",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A = \\{x: -1 \\leq x \\leq 1\\}$ and $f: A \\rightarrow A$ such that $f(x) = x|x|$, then $f$ is",
+  "answeroption": "B",
+  "explanation": "Given $f(x) = x|x|$ on $[-1,1]$. For $x \\ge 0$, $f(x) = x^2$. For $x < 0$, $f(x) = -x^2$.<br /><br />Injective: If $f(x_1)=f(x_2)$, considering the sign cases shows that $x_1=x_2$. Hence $f$ is injective.<br /><br />Surjective: For $x \\in [0,1]$, $f(x)=x^2$ gives values in $[0,1]$. For $x \\in [-1,0)$, $f(x)=-x^2$ gives values in $[-1,0]$. Thus range is $[-1,1]$ which equals $A$. Hence $f$ is onto.<br /><br />Therefore $f$ is bijective.",
+  "explanation_image": [],
+  "options": {
+    "A": "surjective but not injective",
+    "B": "a bijection",
+    "C": "neither injective nor surjective",
+    "D": "injective but not surjective"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:57:56 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8d6ff0eb84c621ac738dc4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\cot^{-1}2+\\cot^{-1}3$ by expressing the sum as a single inverse cotangent.",
+  "answeroption": "D",
+  "explanation": "<b>Assignment of inverse cotangent angles</b><br>Let $$A=\\cot^{-1}2\\quad\\text{and}\\quad B=\\cot^{-1}3.$$ Since both arguments are positive, $A,B\\in\\left(0,\\frac{\\pi}{2}\\right)$.<br><br><b>Cotangent addition property</b><br>Using $$\\cot(A+B)=\\frac{\\cot A\\cot B-1}{\\cot A+\\cot B},$$ we obtain $$\\cot(A+B)=\\frac{2\\times3-1}{2+3}.$$<br><br><b>Simplification of the resulting value</b><br>Therefore, $$\\cot(A+B)=\\frac{6-1}{5}=1.$$<br><br><b>Selection of the required angle</b><br>Since $A$ and $B$ are positive acute angles, $A+B\\in(0,\\pi)$. The angle in this interval whose cotangent is $1$ is $\\frac{\\pi}{4}$.<br><br><b>Final value</b><br>Thus, $$\\cot^{-1}2+\\cot^{-1}3=\\frac{\\pi}{4}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{6}$",
+    "B": "$\\frac{\\pi}{3}$",
+    "C": "$\\frac{\\pi}{2}$",
+    "D": "$\\frac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

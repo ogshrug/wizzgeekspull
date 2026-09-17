@@ -1,0 +1,27 @@
+{
+  "id": "6a2685186dcceaa948c59e7b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Show that a function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined as $f(x) = \\frac{5x-3}{4}$ is both one-one and onto.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To prove that the function is one-one (injective), we assume that $f(x_1) = f(x_2)$ for any arbitrary values $x_1, x_2$ in the domain $\\mathbb{R}$. This assumption translates to the equation $\\frac{5x_1 - 3}{4} = \\frac{5x_2 - 3}{4}$. Multiplying both sides of the equation by 4 isolates the numerators, yielding $5x_1 - 3 = 5x_2 - 3$. Adding 3 to both sides gives $5x_1 = 5x_2$, and dividing by 5 directly results in $x_1 = x_2$. Since $f(x_1) = f(x_2)$ uniquely implies $x_1 = x_2$, the function is verified to be strictly one-one.<br />**Step 2:** To prove that the function is onto (surjective), we choose an arbitrary element $y$ from the co-domain $\\mathbb{R}$ and set up the equation $y = f(x)$. This means $y = \\frac{5x - 3}{4}$. To express the pre-image variable $x$ in terms of $y$, we cross-multiply by 4 to get $4y = 5x - 3$, and then add 3 to both sides to obtain $5x = 4y + 3$. Dividing by 5 gives the explicit formula for $x$: $x = \\frac{4y + 3}{5}$.<br />**Step 3:** Now, we examine this expression for $x$. Since $y$ is any real number, the value $\\frac{4y + 3}{5}$ is also a well-defined real number. Therefore, for every element $y$ in the co-domain $\\mathbb{R}$, there exists a corresponding pre-image $x = \\frac{4y + 3}{5}$ in the domain $\\mathbb{R}$ such that $f(x) = f\\left(\\frac{4y + 3}{5}\\right) = \\frac{5\\left(\\frac{4y + 3}{5}\\right) - 3}{4} = y$. This confirms that the range equals the co-domain, proving the function is onto.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

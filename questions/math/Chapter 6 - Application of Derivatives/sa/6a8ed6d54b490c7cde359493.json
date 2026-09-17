@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed6d54b490c7cde359493",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f981"
+  ],
+  "question_type": "SA",
+  "question": "The measured length and breadth of a rectangle are $20$ cm and $12$ cm, with possible errors of $0.1$ cm and $0.05$ cm, respectively. Estimate the maximum error in its calculated area.",
+  "answeroption": "A",
+  "explanation": "<b>Area relation</b><br>Let the length be $l$ and breadth be $b$. Then<br>$$A=lb$$<br><b>Differential of area</b><br>$$dA=b\\,dl+l\\,db$$<br><b>Maximum-error principle</b><br>For the maximum possible error, the magnitudes of the individual contributions are added:<br>$$|dA|\\approx b|dl|+l|db|$$<br><b>Substitution</b><br>$$|dA|=12(0.1)+20(0.05)$$<br>$$|dA|=1.2+1=2.2$$<br><b>Conclusion</b><br>The estimated maximum error in the calculated area of the rectangle is $2.2$ cm$^2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2.2$ cm$^2$",
+    "B": "$1.2$ cm$^2$",
+    "C": "$3.2$ cm$^2$",
+    "D": "$1.0$ cm$^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

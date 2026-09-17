@@ -1,0 +1,30 @@
+{
+  "id": "69aa7c522a66c0f894c1aa18",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\sin^{-1}\\left(\\frac{2x}{1 + x^2}\\right)$ for $x \\in (-1, 1)$. \n\n(a) Show that $f(x) + f(y) = \\sin^{-1}\\left(\\frac{x+y}{1+xy}\\right)$ for $x, y \\in (-1,1)$ such that $xy \\neq -1$. \n\n(b) Find $x$ such that $f(x) = \\frac{\\pi}{6}$. \n\n(c) If $g(x) = \\tan^{-1}(x)$, express $f(x)$ in terms of $g(x)$ and hence evaluate $f(\\tan(\\alpha))$ for $\\alpha \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$.",
+  "answeroption": "C",
+  "explanation": "**Concepts Tested**: Inverse Trigonometric Functions, Algebraic Manipulation, Function Transformations<br /><br />**Solution:**<br /><br />(a) Let $f(x) = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ and $f(y)$ similarly.<br /><br />Recall the identity $\\tan(\\theta_1 + \\theta_2) = \\frac{\\tan \\theta_1 + \\tan \\theta_2}{1 - \\tan \\theta_1 \\tan \\theta_2}$.<br /><br />But $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right) = 2 \\tan^{-1} x$ (from standard identities).<br /><br />So, $f(x) = 2 \\tan^{-1} x$, $f(y) = 2 \\tan^{-1} y$.<br /><br />Thus,<br /><br />$f(x) + f(y) = 2(\\tan^{-1} x + \\tan^{-1} y)$<br /><br />$= 2 \\tan^{-1} \\left( \\frac{x + y}{1 - xy} \\right )$, $xy < 1$.<br /><br />But $\\sin^{-1}\\left(\\frac{x + y}{1 + xy}\\right) = 2\\tan^{-1} \\left( \\frac{x + y}{1 - xy} \\right)$ as well.<br /><br />Thus, $f(x) + f(y) = \\sin^{-1}\\left(\\frac{x+y}{1+xy}\\right)$ for $xy \\neq -1$.<br /><br />(b) Set $f(x) = \\frac{\\pi}{6}$.<br /><br />So, $2 \\tan^{-1} x = \\frac{\\pi}{6}$<br /><br />$\\tan^{-1} x = \\frac{\\pi}{12}$<br /><br />$x = \\tan \\left( \\frac{\\pi}{12} \\right )$<br /><br />So, $x = 2 - \\sqrt{3}$<br /><br />(c) Let $g(x) = \\tan^{-1} x$, so $f(x) = 2 g(x)$.<br /><br />Thus,<br /><br />$f(\\tan \\alpha) = 2\\tan^{-1}(\\tan \\alpha) = 2\\alpha$, for $\\alpha \\in \\left ( -\\frac{\\pi}{2}, \\frac{\\pi}{2} \\right )$.<br /><br />Final answers:<br /><br />(a) Proved as above.<br /><br />(b) $x = 2 - \\sqrt{3}$<br /><br />(c) $f(\\tan \\alpha) = 2\\alpha$ for $\\alpha$ in the specified range.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=\\tan^{-1}x$ and the stated result follows<br />(b) $x=\\sqrt3-2$<br />(c) $f(x)=g(x)$ and $f(\\tan\\alpha)=\\alpha$",
+    "B": "(a) $f(x)=2\\tan^{-1}x$ and $f(x)+f(y)=2\\tan^{-1}\\left(\\frac{x+y}{1-xy}\\right)$<br />(b) $x=2+\\sqrt3$<br />(c) $f(x)=2g(x)$ and $f(\\tan\\alpha)=\\alpha$",
+    "C": "(a) Using $f(x)=2\\tan^{-1}x$, the required identity is proved as stated in the solution<br />(b) $x=\\tan\\frac{\\pi}{12}=2-\\sqrt3$<br />(c) $f(x)=2g(x)$ and $f(\\tan\\alpha)=2\\alpha$",
+    "D": "(a) $f(x)=\\sin^{-1}x$ for all $x\\in(-1,1)$<br />(b) $x=\\frac12$<br />(c) $f(x)=g(2x)$ and $f(\\tan\\alpha)=\\frac{\\alpha}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:03:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

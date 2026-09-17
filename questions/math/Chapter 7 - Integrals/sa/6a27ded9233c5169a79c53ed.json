@@ -1,0 +1,26 @@
+{
+  "id": "6a27ded9233c5169a79c53ed",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{3x-1}{\\sqrt{x^{2}-4x}}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Decompose the numerator in terms of the derivative of the quadratic term: $3x-1 = \\frac{3}{2}(2x-4) + 5$. Split the integral: $\\frac{3}{2}\\int\\frac{2x-4}{\\sqrt{x^2-4x}}dx + 5\\int\\frac{1}{\\sqrt{x^2-4x}}dx$.<br />**Step 2:** For the first integral, substitute $u = x^2-4x$, which integrates straight to $\\frac{3}{2} \\cdot 2\\sqrt{x^2-4x} = 3\\sqrt{x^2-4x}$.<br />**Step 3:** For the second integral, complete the square to get $\\int\\frac{1}{\\sqrt{(x-2)^2-2^2}}dx = \\ln|x-2+\\sqrt{x^2-4x}|$. Combining the results yields $3\\sqrt{x^2-4x} + 5\\ln|x-2+\\sqrt{x^2-4x}| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

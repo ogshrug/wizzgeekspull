@@ -1,0 +1,29 @@
+{
+  "id": "6a906d7c4b490c7cde3595ab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "SA",
+  "question": "Find the area of the parallelogram whose adjacent sides are represented by $2\\hat{i}+\\hat{j}$ and $\\hat{i}-\\hat{j}+2\\hat{k}$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Vector product of adjacent sides</b><br>Let $\\vec{a}=2\\hat{i}+\\hat{j}$ and $\\vec{b}=\\hat{i}-\\hat{j}+2\\hat{k}$. Then<br>\\(\\vec{a}\\times\\vec{b}=\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\2&1&0\\\\1&-1&2\\end{vmatrix}\\)<br><b>Step 2: Expansion of the determinant</b><br>\\(\\vec{a}\\times\\vec{b}=2\\hat{i}-4\\hat{j}-3\\hat{k}\\)<br><b>Step 3: Magnitude of the vector product</b><br>\\(|\\vec{a}\\times\\vec{b}|=\\sqrt{2^2+(-4)^2+(-3)^2}=\\sqrt{29}\\)<br><b>Step 4: Geometrical interpretation</b><br>The magnitude of the cross product equals the area of the parallelogram formed by the two adjacent sides.<br><b>Final Answer</b><br>The area is $\\sqrt{29}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sqrt{21}$ square units",
+    "B": "$29$ square units",
+    "C": "$\\frac{\\sqrt{29}}{2}$ square units",
+    "D": "$\\sqrt{29}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

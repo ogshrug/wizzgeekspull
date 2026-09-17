@@ -1,0 +1,27 @@
+{
+  "id": "6a311319ed9d5eb2aa722a13",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "Two numbers are selected from first six even natural numbers at random without replacement. If X denotes the greater of two numbers selected, find the probability distribution of X.",
+  "answeroption": "",
+  "explanation": "**Step 1: Determine the Sample Space**<br /><br />The first six even natural numbers are {2, 4, 6, 8, 10, 12}. Two numbers are chosen without replacement. Total number of equally likely outcomes:<br />$$\\binom{6}{2} = \\frac{6 \\times 5}{2} = 15$$<br /><br />**Step 2: Define the Random Variable X**<br /><br />Let X = greater of the two selected numbers. Possible values of X are 4, 6, 8, 10, 12. (Value 2 is impossible since it cannot be greater than any other even number).<br /><br />**Step 3: Count Favorable Outcomes for Each X**<br /><br />For X = k, the second number must be chosen from even numbers less than k:<br />- X = 4: choose from {2} → 1 way<br />- X = 6: choose from {2, 4} → 2 ways<br />- X = 8: choose from {2, 4, 6} → 3 ways<br />- X = 10: choose from {2, 4, 6, 8} → 4 ways<br />- X = 12: choose from {2, 4, 6, 8, 10} → 5 ways<br /><br />**Step 4: Compute Probabilities**<br /><br />Since total outcomes = 15:<br />$$P(X=4)=\\frac{1}{15}, \\quad P(X=6)=\\frac{2}{15}, \\quad P(X=8)=\\frac{3}{15}=\\frac{1}{5}$$<br />$$P(X=10)=\\frac{4}{15}, \\quad P(X=12)=\\frac{5}{15}=\\frac{1}{3}$$<br /><br />**Step 5: Probability Distribution**<br /><br />The probability distribution of X is given below:<br /><br /><table border='1' cellspacing='0' cellpadding='6'><tr><th>X</th><th>4</th><th>6</th><th>8</th><th>10</th><th>12</th></tr><tr><th>P(X)</th><td>1/15</td><td>2/15</td><td>3/15</td><td>4/15</td><td>5/15</td></tr></table><br /><br />Verification: Sum of probabilities = $\\frac{1+2+3+4+5}{15} = \\frac{15}{15} = 1$. Hence, the distribution is valid.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

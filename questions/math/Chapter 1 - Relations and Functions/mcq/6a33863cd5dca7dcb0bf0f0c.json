@@ -1,0 +1,31 @@
+{
+  "id": "6a33863cd5dca7dcb0bf0f0c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "MCQ",
+  "question": "Which of the following statements is not true about equivalence classes $A_i$ ($i=1, 2, ..., n$) formed by an equivalence relation R defined on a set A?",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Establish the definition of equivalence classes; they formally construct a complete partition mapping of the primary set $A$.\n\n**Step 2:** Formulating a partition naturally imposes the condition that merging (unionizing) all generated equivalence classes exactly recreates the initial set, $\\bigcup A_i = A$, making option A correct.\n\n**Step 3:** The partition parameters dictate that any two independent (distinct) equivalence classes must not share elements, setting their intersecting domain completely empty, $A_i \\cap A_j = \\phi$.\n\n**Step 4:** Evaluating the false declaration $A_i \\cap A_j \\neq \\phi$ for $i \\neq j$ provides the exact mismatch.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\bigcup_{i=1}^{n}A_i=A$",
+    "B": "$A_i \\cap A_j \\ne \\phi$, $i \\ne j$",
+    "C": "$x \\in A_i$ and $x \\in A_j \\Rightarrow A_i = A_j$",
+    "D": "All elements of $A_i$ are related to each other, for all i"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

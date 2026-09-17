@@ -1,0 +1,30 @@
+{
+  "id": "69a9c1d46638848124d7c9aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A rectangular field is to be fenced on three sides (excluding one side). Find the dimensions that minimize the fencing required for a given area $A$.<br /><br />a) Form the fencing function using the area constraint.<br /><br />b) Determine the value of width that minimizes fencing.<br /><br />c) Find the corresponding length of the field.",
+  "answeroption": "C",
+  "explanation": "a) Let width $= x$ and length $= y$.<br /><br /> Three sides to be fenced: $2x + y$. Area constraint: $xy = A$ so $y = A/x$.<br /><br /> Thus fencing function becomes $F(x) = 2x + A/x$.<br /><br />b) Differentiate: $\\frac{dF}{dx} = 2 - \\frac{A}{x^2}$.<br /><br /> Set equal to zero: $2 - \\frac{A}{x^2} = 0$ giving $x^2 = A/2$.<br /><br /> Hence width $x = \\sqrt{A/2}$.<br /><br />c) Using $y = A/x$, we get $y = A / \\sqrt{A/2} = \\sqrt{2A}$.<br /><br /> Therefore width $= \\sqrt{A/2}$ and length $= \\sqrt{2A}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "a) $F(x)=x+2\\frac{A}{x}$<br />b) Width $x=\\sqrt{2A}$<br />c) Length $y=\\sqrt{\\frac{A}{2}}$.",
+    "B": "a) $F(x)=2x+\\frac{A}{x}$<br />b) Width $x=\\sqrt{2A}$<br />c) Length $y=\\sqrt{\\frac{A}{2}}$.",
+    "C": "a) $F(x)=2x+\\frac{A}{x}$<br />b) Width $x=\\sqrt{\\frac{A}{2}}$<br />c) Length $y=\\sqrt{2A}$.",
+    "D": "a) $F(x)=2x+A x$<br />b) Width $x=\\frac{A}{2}$<br />c) Length $y=2A$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:48:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

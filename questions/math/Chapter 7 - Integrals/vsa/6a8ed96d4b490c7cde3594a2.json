@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed96d4b490c7cde3594a2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f988"
+  ],
+  "question_type": "VSA",
+  "question": "A function $F$ satisfies $F'(x)=4x^3-2x$ and $F(1)=5$. Find $F(0)$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> Since $F'(x)=4x^3-2x$, obtain $F(x)$ by integrating the given derivative.<br><b>Step 2:</b> Thus, $$F(x)=\\int(4x^3-2x)\\,dx=x^4-x^2+C.$$<br><b>Step 3:</b> Use the condition $F(1)=5$. Substituting $x=1$, we get $5=1-1+C$.<br><b>Step 4:</b> Hence, $C=5$ and therefore $F(x)=x^4-x^2+5$.<br><b>Step 5:</b> Putting $x=0$, $F(0)=0-0+5$. Thus, the required value is $\\boxed{5}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$5$",
+    "B": "$4$",
+    "C": "$6$",
+    "D": "$1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

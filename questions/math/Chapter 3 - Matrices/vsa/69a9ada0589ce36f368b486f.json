@@ -1,0 +1,29 @@
+{
+  "id": "69a9ada0589ce36f368b486f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "VSA",
+  "question": "Given $A=\\begin{bmatrix} \\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta \\end{bmatrix}$, show that $A^2 = \\begin{bmatrix} \\cos 2\\theta & -\\sin 2\\theta \\\\ \\sin 2\\theta & \\cos 2\\theta \\end{bmatrix}$.",
+  "answeroption": "A",
+  "explanation": "Calculate $A^2 = A \\cdot A$:<br /><br />$A^2 = \\begin{bmatrix} \\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta \\end{bmatrix} \\cdot \\begin{bmatrix} \\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta \\end{bmatrix}$<br /><br />First row, first column:<br /><br />$\\cos \\theta \\cos \\theta + (-\\sin \\theta)\\sin \\theta = \\cos^2\\theta - \\sin^2\\theta = \\cos 2\\theta$<br /><br />First row, second column:<br /><br />$\\cos \\theta (-\\sin \\theta) + (-\\sin \\theta) \\cos \\theta = -\\cos \\theta \\sin \\theta - \\sin \\theta \\cos \\theta = -2\\sin\\theta \\cos \\theta = -\\sin 2\\theta$<br /><br />Second row, first column:<br /><br />$\\sin \\theta \\cos \\theta + \\cos \\theta \\sin \\theta = 2\\sin \\theta \\cos \\theta = \\sin 2\\theta$<br /><br />Second row, second column:<br /><br />$\\sin \\theta ( -\\sin \\theta ) + \\cos \\theta \\cos \\theta = -\\sin^2 \\theta + \\cos^2 \\theta = \\cos^2\\theta - \\sin^2 \\theta = \\cos 2\\theta$<br /><br />So,<br /><br />$A^2 = \\begin{bmatrix} \\cos 2\\theta & -\\sin 2\\theta \\\\ \\sin 2\\theta & \\cos 2\\theta \\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^2=\\begin{bmatrix}\\cos 2\\theta&-\\sin 2\\theta\\\\\\sin 2\\theta&\\cos 2\\theta\\end{bmatrix}$",
+    "B": "$A^2=\\begin{bmatrix}\\cos^2 \\theta&-\\sin^2 \\theta\\\\\\sin^2 \\theta&\\cos^2 \\theta\\end{bmatrix}$",
+    "C": "$A^2=\\begin{bmatrix}\\cos \\theta&\\sin \\theta\\\\-\\sin \\theta&\\cos \\theta\\end{bmatrix}$",
+    "D": "$A^2=I$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:21:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

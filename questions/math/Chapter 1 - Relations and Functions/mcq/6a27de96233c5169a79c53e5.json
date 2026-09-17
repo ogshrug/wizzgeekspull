@@ -1,0 +1,31 @@
+{
+  "id": "6a27de96233c5169a79c53e5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "MCQ",
+  "question": "A relation R on set $A=\\{1,2,3\\}$ is defined as $R=\\{(1,3), (3, 3), (1, 1), (2, 2), (3, 1)\\}$ is.",
+  "answeroption": "D",
+  "explanation": "**Step 1:** A relation is reflexive if $(x,x) \\in R$ for all $x \\in A$. Here, $(1,1), (2,2), (3,3) \\in R$, so the relation is reflexive.<br />**Step 2:** A relation is symmetric if $(x,y) \\in R \\implies (y,x) \\in R$. Since $(1,3) \\in R$ and $(3,1) \\in R$, it satisfies symmetry.<br />**Step 3:** For transitivity, if $(x,y) \\in R$ and $(y,z) \\in R$, then $(x,z) \\in R$. Testing the pairs $(1,3)$ and $(3,1)$ gives $(1,1) \\in R$, and $(3,1)$ and $(1,3)$ gives $(3,3) \\in R$. No transitive conditions are violated, so it is transitive.",
+  "explanation_image": [],
+  "options": {
+    "A": "only reflexive and symmetric",
+    "B": "reflexive only",
+    "C": "only reflexive and transitive",
+    "D": "reflexive, symmetric and transitive"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

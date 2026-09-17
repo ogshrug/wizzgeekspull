@@ -1,0 +1,31 @@
+{
+  "id": "69a9452fd30adc5083911a2d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d73",
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Production Consistency with Dependent Resources**<br /><br />A factory manufactures three products P, Q, R using three machines. The machine hour requirement matrix is:<br /><br />$M = \\begin{bmatrix} 3 & 3 & 3 \\\\ 6 & 6 & 6 \\\\ 9 & 9 & 9 \\end{bmatrix}$<br /><br />Let $x, y, z$ represent units of P, Q, R respectively. If the factory has 36, 72, and 108 machine hours for machines 1, 2, and 3 respectively:<br /><br />**(a)** Express the system as $MX = B$.<br /><br />**(b)** Show, using determinant and matrix theory, whether a unique solution for (P, Q, R) exists.<br /><br />**(c)** Suggest a practical limitation observed in this setup and what it implies for resource management.",
+  "answeroption": "B",
+  "explanation": "**(a) System:**<br />$M \\cdot X = B$<br />$\\begin{bmatrix} 3 & 3 & 3 \\\\ 6 & 6 & 6 \\\\ 9 & 9 & 9 \\end{bmatrix} \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = \\begin{bmatrix} 36 \\\\ 72 \\\\ 108 \\end{bmatrix}$<br /><br />**(b) Determinant and Existence:**<br />All rows of $M$ are multiples of the first.<br />Determinant of such a matrix is zero since the rows are linearly dependent.<br />Thus, $|M|=0$ which implies the system does not have a unique solution.<br />The system is either inconsistent or has infinitely many solutions if $(adj\\ M)B=0$.<br /><br />**(c) Practical Limitation:**<br />The material requirements are perfectly proportional.<br />Thus, increasing production of one product linearly increases all others.<br />In practice, the system is underdetermined.<br />Any choice of $(x,y,z)$ with $x+y+z=12$ will work, but the exact allocation among products cannot be uniquely decided by machine hours alone.<br />This reflects insufficiently independent resource constraints — a limitation in the design of factory allocation or data collection.<br />Unique resource management would require linearly independent constraints.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $MX=B$, where $M=\\begin{bmatrix}3&3&3\\\\6&6&6\\\\9&9&9\\end{bmatrix}$ and $B=\\begin{bmatrix}36\\\\72\\\\108\\end{bmatrix}$.<br />(b) Since $|M|\\ne0$, the system has a unique solution.<br />(c) Machine hours are independent, so resource allocation is uniquely determined.",
+    "B": "(a) $MX=B$, where $M=\\begin{bmatrix}3&3&3\\\\6&6&6\\\\9&9&9\\end{bmatrix}$, $X=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}$, and $B=\\begin{bmatrix}36\\\\72\\\\108\\end{bmatrix}$.<br />(b) Since $R_2=2R_1$ and $R_3=3R_1$, $|M|=0$, so no unique solution exists; the system is consistent with infinitely many solutions satisfying $x+y+z=12$.<br />(c) The constraints are dependent, so machine hours alone cannot decide a unique production plan.",
+    "C": "(a) $MX=B$, where $M=\\begin{bmatrix}36&72&108\\\\3&3&3\\\\6&6&6\\end{bmatrix}$.<br />(b) Since $|M|=0$, the system is inconsistent and has no solution.<br />(c) No production plan can satisfy the available hours.",
+    "D": "(a) $MX=B$, where $B=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}$.<br />(b) Since the determinant is zero, the only possible solution is $x=y=z=0$.<br />(c) The factory must stop production."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 08:56:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

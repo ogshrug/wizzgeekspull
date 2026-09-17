@@ -1,0 +1,29 @@
+{
+  "id": "6a8fcd944b490c7cde359503",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A group of students is practising how a suitable change of variable can simplify an integral. They consider the expression $$I=\\int\\frac{6x}{3x^2+5}\\,dx$$ Instead of trying to integrate the quotient directly, they examine the denominator and notice that its derivative is closely related to the numerator. Their task is to choose a substitution that changes the integral into a familiar standard form. They must carry out the transformation carefully, evaluate the resulting integral, and finally confirm their antiderivative through differentiation. This investigation is intended to show why recognising a function together with its derivative is useful while selecting a substitution.<br><br><b>(a)</b> Determine a suitable substitution for evaluating $I$.<br><br><b>(b)</b> Transform the given integral completely into the new variable.<br><br><b>(c)</b> Evaluate $I$ and express the answer in terms of $x$.<br><br><b>(d)</b> Verify the result obtained in part (c) by differentiation.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The denominator is $3x^2+5$, whose derivative is $6x$. Since the numerator is exactly $6x$, a suitable substitution is $$t=3x^2+5$$ Then, $$dt=6x\\,dx$$<br><br><b>(b)</b><br>Using $t=3x^2+5$ and $dt=6x\\,dx$, $$I=\\int\\frac{6x}{3x^2+5}\\,dx=\\int\\frac{dt}{t}$$ Thus, the original integral has been reduced to the standard form $\\int\\frac{dt}{t}$.<br><br><b>(c)</b><br>Now, $$I=\\int\\frac{dt}{t}=\\log|t|+C$$ Since $t=3x^2+5>0$ for every real $x$, $$I=\\log(3x^2+5)+C$$<br><br><b>(d)</b><br>Differentiating, $$\\frac{d}{dx}\\left[\\log(3x^2+5)+C\\right]=\\frac{6x}{3x^2+5}$$ which is the original integrand. Hence, the antiderivative is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $t=6x$<br>(b) $I=\\int\\frac{dt}{t+5}$<br>(c) $I=\\log|6x+5|+C$<br>(d) Its derivative is $\\frac{6}{6x+5}$",
+    "B": "(a) $t=3x^2+5$<br>(b) $I=\\frac{1}{2}\\int\\frac{dt}{t}$<br>(c) $I=\\frac{1}{2}\\log(3x^2+5)+C$<br>(d) Its derivative is $\\frac{3x}{3x^2+5}$",
+    "C": "(a) $t=x^2+5$<br>(b) $I=3\\int\\frac{dt}{3t-10}$<br>(c) $I=\\log|3x^2+5|+C$<br>(d) Its derivative is $\\frac{6x}{3x^2+5}$",
+    "D": "(a) $t=3x^2+5$<br>(b) $I=\\int\\frac{dt}{t}$<br>(c) $I=\\log(3x^2+5)+C$<br>(d) Its derivative is $\\frac{6x}{3x^2+5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a9cfffd8e9ca3b29345812",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fc140512f018fa94d65"
+  ],
+  "question_type": "SA",
+  "question": "If $A$ is a $2 \\times 2$ non-singular matrix such that $A^{-1} = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, prove that $(A^{-1})^{-1} = A$ and explain how this property defines the inverse uniquely.",
+  "answeroption": "C",
+  "explanation": "By definition of inverse, $AA^{-1} = I$.<br /><br />Taking inverse again gives $(A^{-1})^{-1}A^{-1} = I$.<br /><br />Thus $(A^{-1})^{-1}$ acts as the inverse of $A^{-1}$.<br /><br />For square matrices the left and right inverse are the same, hence $(A^{-1})^{-1} = A$.<br /><br />This also proves uniqueness: only the matrix $A$ satisfies the relation with $A^{-1}$, therefore the inverse of a matrix is unique.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(A^{-1})^{-1}=A^{-1}$ and inverse is not unique",
+    "B": "$(A^{-1})^{-1}=I$ and every matrix has many inverses",
+    "C": "$(A^{-1})^{-1}=A$ and this shows the inverse is unique",
+    "D": "$(A^{-1})^{-1}=0$ and the inverse is unique only for singular matrices"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:48:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

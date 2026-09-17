@@ -1,0 +1,30 @@
+{
+  "id": "69a85c00b4df445c7f648c6d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "A closed cylindrical can has volume $128\\pi$ cm$^3$. Find the dimensions (height and radius) that use the minimum amount of material (i.e., minimum surface area). Use calculus and justify that this solution gives a minimum.",
+  "answeroption": "B",
+  "explanation": "Let radius = r and height = h.<br /><br />Volume constraint: \\(\\pi r^2 h = 128\\pi\\)<br /><br />So, \\(h = \\frac{128}{r^2}\\).<br /><br />Surface area: \\(S = 2\\pi r^2 + 2\\pi r h\\).<br /><br />Substitute h:<br /><br />\\(S(r) = 2\\pi r^2 + \\frac{256\\pi}{r}\\).<br /><br />Differentiate:<br /><br />\\(\\frac{dS}{dr} = 4\\pi r - \\frac{256\\pi}{r^2}\\).<br /><br />Set equal to zero:<br /><br />\\(4r^3 = 256\\)<br /><br />\\(r^3 = 64\\)<br /><br />\\(r = 4\\).<br /><br />Then \\(h = \\frac{128}{16} = 8\\).<br /><br />Second derivative:<br /><br />\\(\\frac{d^2S}{dr^2} = 4\\pi + \\frac{512\\pi}{r^3}\\).<br /><br />At r = 4:<br /><br />\\(= 12\\pi > 0\\).<br /><br />Hence surface area is minimum.<br /><br />Radius = 4 cm, Height = 8 cm.",
+  "explanation_image": [],
+  "options": {
+    "A": "Radius $=8$ cm, Height $=4$ cm; second derivative is positive, so surface area is minimum.",
+    "B": "Radius $=4$ cm, Height $=8$ cm; second derivative is positive, so surface area is minimum.",
+    "C": "Radius $=2$ cm, Height $=32$ cm; second derivative is negative, so surface area is maximum.",
+    "D": "Radius $=4$ cm, Height $=4$ cm; surface area is minimum."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:21:20 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

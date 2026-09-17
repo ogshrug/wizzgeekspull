@@ -1,0 +1,26 @@
+{
+  "id": "6a22a7c7864be73cfcf6d2aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "VSA",
+  "question": "Show that the function $f(x)=\\frac{16 \\sin x}{4+\\cos x}-x$ is strictly decreasing in $(\\frac{\\pi}{2},\\pi)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To prove the function is strictly decreasing in the given interval, we meticulously find its first derivative and show it's negative. Using the quotient rule: $f'(x) = \\frac{(4+\\cos x) \\cdot \\frac{d}{dx}(16\\sin x) - 16\\sin x \\cdot \\frac{d}{dx}(4+\\cos x)}{(4+\\cos x)^2} - \\frac{d}{dx}(x)$.<br />**Step 2:** Perform the differentiation: $f'(x) = \\frac{(4+\\cos x)(16\\cos x) - (16\\sin x)(-\\sin x)}{(4+\\cos x)^2} - 1$.<br />**Step 3:** Expand the numerator: $64\\cos x + 16\\cos^2 x + 16\\sin^2 x$. Since $16(\\cos^2 x + \\sin^2 x) = 16(1) = 16$, the fraction simplifies to $\\frac{64\\cos x + 16}{(4+\\cos x)^2}$. Now subtract the 1 by finding a common denominator: $\\frac{64\\cos x + 16 - (4+\\cos x)^2}{(4+\\cos x)^2}$.<br />**Step 4:** Expand the subtracted binomial: $(4+\\cos x)^2 = 16 + 8\\cos x + \\cos^2 x$. The numerator becomes $64\\cos x + 16 - 16 - 8\\cos x - \\cos^2 x = 56\\cos x - \\cos^2 x$. Factor out $\\cos x$ to get $f'(x) = \\frac{\\cos x(56 - \\cos x)}{(4+\\cos x)^2}$.<br />**Step 5:** Analyze the sign of this strictly factored expression in the interval $(\\pi/2, \\pi)$. The denominator is a square, so it's always positive. The term $(56 - \\cos x)$ is always positive because $\\cos x$ is bounded by $[-1, 1]$. Crucially, in the second quadrant $(\\pi/2, \\pi)$, the value of $\\cos x$ is strictly negative. A negative multiplied by a positive divided by a positive yields a negative result. Thus, $f'(x) < 0$, definitively proving it is strictly decreasing.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

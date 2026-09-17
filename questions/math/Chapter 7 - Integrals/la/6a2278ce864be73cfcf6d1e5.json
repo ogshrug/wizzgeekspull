@@ -1,0 +1,26 @@
+{
+  "id": "6a2278ce864be73cfcf6d1e5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "LA",
+  "question": "Find: $\\int\\frac{x^{2}+1}{(x^{2}+2)(2x^{2}+1)}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Because the integrand only involves even powers of $x$ ($x^2$), we can substitute $t = x^2$ temporarily to perform partial fraction decomposition. This simplifies the algebraic process: $\\frac{t+1}{(t+2)(2t+1)}$.<br />**Step 2:** Set up the partial fractions: $\\frac{t+1}{(t+2)(2t+1)} = \\frac{A}{t+2} + \\frac{B}{2t+1}$.<br />**Step 3:** Multiply through by the denominator: $t+1 = A(2t+1) + B(t+2)$.<br />**Step 4:** Find $A$ by setting $t = -2$: $-2+1 = A(2(-2)+1) \\implies -1 = A(-3) \\implies A = \\frac{1}{3}$.<br />**Step 5:** Find $B$ by setting $t = -1/2$: $-1/2+1 = B(-1/2+2) \\implies 1/2 = B(3/2) \\implies B = \\frac{1}{3}$.<br />**Step 6:** Substitute $A$ and $B$ back and replace $t$ with $x^2$: $\\frac{1/3}{x^2+2} + \\frac{1/3}{2x^2+1}$.<br />**Step 7:** Integrate the separated expression: $\\frac{1}{3} \\int \\frac{1}{x^2+(\\sqrt{2})^2} dx + \\frac{1}{3} \\int \\frac{1}{2(x^2+1/2)} dx$. The second integral simplifies to $\\frac{1}{6} \\int \\frac{1}{x^2+(1/\\sqrt{2})^2} dx$.<br />**Step 8:** Apply the standard formula $\\int \\frac{1}{x^2+a^2} dx = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a})$. For the first part, $a=\\sqrt{2}$: $\\frac{1}{3\\sqrt{2}}\\tan^{-1}(\\frac{x}{\\sqrt{2}})$. For the second part, $a=1/\\sqrt{2}$: $\\frac{1}{6(1/\\sqrt{2})}\\tan^{-1}(\\frac{x}{1/\\sqrt{2}}) = \\frac{\\sqrt{2}}{6}\\tan^{-1}(\\sqrt{2}x)$.<br />**Step 9:** Combine the results: $\\frac{1}{3\\sqrt{2}}\\tan^{-1}(\\frac{x}{\\sqrt{2}}) + \\frac{\\sqrt{2}}{6}\\tan^{-1}(\\sqrt{2}x) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

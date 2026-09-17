@@ -1,0 +1,27 @@
+{
+  "id": "6a1585116050c058f876e4df",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A salesman receives a commission for each sale he makes together with a fixed daily income. The number of sales he makes in a day along with their probabilities are given in the table below:<br /><br /><table border='1' cellspacing='0' cellpadding='6'><tr><th>X</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr><tr><th>P(X)</th><td>0.42</td><td>3k</td><td>0.30</td><td>0.05</td><td>2k</td><td>0.03</td></tr></table><br /><br />His daily income Y (in ₹) is given by:<br /><br />$Y = 800X + 50$<br /><br />Based on the above information, answer the following questions:<br /><br />(i) Find the value of $k$.<br /><br />(ii) Evaluate $P(X \\ge 3)$.<br /><br />(iii) (a) Calculate the expected weekly income of the salesman assuming he works five days per week.<br /><br />OR<br /><br />(iii) (b) Calculate the expected weekly income of the salesman assuming he works only for three days of the week.",
+  "answeroption": "",
+  "explanation": "**Step 1: Deep analysis and solution for Part (i)**<br /><br />A fundamental property of any probability distribution is that the sum of all individual probabilities must equal exactly 1:<br /><br />$\\sum P(X_i) = 1$<br /><br />$0.42 + 3k + 0.30 + 0.05 + 2k + 0.03 = 1$<br /><br />Combine the constant numbers and $k$ term coefficients together:<br /><br />$0.80 + 5k = 1$<br /><br />$5k = 1 - 0.80 = 0.20$<br /><br />$k = \\frac{0.20}{5} = 0.04$<br /><br />Using this calculated value of $k$, we update the missing entries in our probability table:<br /><br />- $P(1) = 3k = 3(0.04) = 0.12$<br /><br />- $P(4) = 2k = 2(0.04) = 0.08$<br /><br />---<br /><br />**Step 2: Solve Part (ii)**<br /><br />To find the probability of making 3 or more sales, we sum the individual probabilities for $X = 3, 4, 5$:<br /><br />$P(X \\ge 3) = P(3) + P(4) + P(5)$<br /><br />$= 0.05 + 0.08 + 0.03$<br /><br />$= 0.16$<br /><br />---<br /><br />**Step 3: Find expected daily income and solve Part (iii)(a)**<br /><br />First, calculate the expected number of daily sales $E(X)$ using the formula:<br /><br />$E(X) = \\sum x_i P(x_i)$<br /><br />$E(X) = 0(0.42) + 1(0.12) + 2(0.30) + 3(0.05) + 4(0.08) + 5(0.03)$<br /><br />$= 0 + 0.12 + 0.60 + 0.15 + 0.32 + 0.15$<br /><br />$= 1.34\\text{ sales per day}$<br /><br />Next, use the given linear equation:<br /><br />$Y = 800X + 50$<br /><br />to find the expected daily income:<br /><br />$E(Y) = 800 \\cdot E(X) + 50$<br /><br />$= 800(1.34) + 50$<br /><br />$= 1072 + 50$<br /><br />$= ₹1,122$<br /><br />To find the total expected income for a 5-day work week:<br /><br />$\\text{Weekly Income (5 days)} = 5 \\cdot 1122$<br /><br />$= ₹5,610$<br /><br />---<br /><br />**Step 4: Solve Part (iii)(b)**<br /><br />Using the expected daily income of ₹1,122 calculated in Step 3, we multiply by 3 to find the total expected income for a 3-day work week:<br /><br />$\\text{Weekly Income (3 days)} = 3 \\cdot 1122$<br /><br />$= ₹3,366$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a1585116050c058f876e4df/1782260978-0.png?t=1782280778554"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

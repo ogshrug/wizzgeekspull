@@ -1,0 +1,29 @@
+{
+  "id": "6a9125afbe0ecc7866e90cd3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e1"
+  ],
+  "question_type": "SA",
+  "question": "For the constraints $x+2y\\leq10$, $3x+y\\leq12$, $x\\geq0$ and $y\\geq0$, examine the points $A(4,2)$ and $B(2,5)$. Determine which constraints are violated and hence show that both points are infeasible solutions.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Testing point $A(4,2)$</b><br>For the first constraint, $$4+2(2)=8\\leq10$$ so it is satisfied. For the second constraint, $$3(4)+2=14>12$$ Therefore, $A(4,2)$ violates $3x+y\\leq12$.<br><b>Step 2: Testing point $B(2,5)$</b><br>For the first constraint, $$2+2(5)=12>10$$ so this constraint is violated. For the second constraint, $$3(2)+5=11\\leq12$$ Hence, the second inequality is satisfied.<br><b>Step 3: Checking non-negative restrictions</b><br>Both points have non-negative coordinates, so the restrictions $x\\geq0$ and $y\\geq0$ are satisfied.<br><b>Step 4: Applying the criterion for infeasibility</b><br>A solution must satisfy every constraint simultaneously to be feasible.<br><b>Step 5: Conclusion</b><br>Since $A$ and $B$ each violate at least one constraint, both are infeasible solutions.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ violates $3x+y\\leq12$ and $B$ violates $x+2y\\leq10$; both are infeasible",
+    "B": "$A$ violates $x+2y\\leq10$ and $B$ violates $3x+y\\leq12$; both are infeasible",
+    "C": "$A$ satisfies all constraints, while $B$ violates both principal constraints",
+    "D": "Both $A$ and $B$ satisfy all the constraints and are feasible"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

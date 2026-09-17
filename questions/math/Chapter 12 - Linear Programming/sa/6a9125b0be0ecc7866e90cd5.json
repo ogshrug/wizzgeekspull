@@ -1,0 +1,29 @@
+{
+  "id": "6a9125b0be0ecc7866e90cd5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "SA",
+  "question": "The feasible corner points of a linear programming problem are $O(0,0)$, $A(6,0)$, $B(4,3)$ and $C(0,5)$. For the objective function $Z=3x+4y$, determine the optimal feasible solution if $Z$ is to be maximised.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Evaluating $Z$ at $O(0,0)$</b><br>Using $Z=3x+4y$, $$Z_O=3(0)+4(0)=0$$<br><b>Step 2: Evaluating $Z$ at $A(6,0)$</b><br>$$Z_A=3(6)+4(0)=18$$<br><b>Step 3: Evaluating $Z$ at $B(4,3)$</b><br>$$Z_B=3(4)+4(3)=12+12=24$$<br><b>Step 4: Evaluating $Z$ at $C(0,5)$</b><br>$$Z_C=3(0)+4(5)=20$$<br><b>Step 5: Comparing the objective values</b><br>The corresponding values are $0$, $18$, $24$ and $20$. Since the objective function is to be maximised, the largest value must be selected.<br><b>Step 6: Conclusion</b><br>The maximum value is $$Z_{\\max}=24$$ attained at $B(4,3)$. Hence, $B(4,3)$ is the optimal feasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A(6,0)$ with maximum value $18$",
+    "B": "$C(0,5)$ with maximum value $20$",
+    "C": "$O(0,0)$ with maximum value $0$",
+    "D": "$B(4,3)$ with maximum value $24$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

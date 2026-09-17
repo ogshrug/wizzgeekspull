@@ -1,0 +1,31 @@
+{
+  "id": "6a8ef1824b490c7cde3594b5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "An open box is to be made from a square sheet of side $24\\ \\text{cm}$ by cutting equal squares of side $x\\ \\text{cm}$ from each corner and folding the remaining portions.<br><br>(a) Form the volume function and state the permissible interval for $x$.<br><br>(b) Determine the value of $x$ for which the volume is maximum using the second derivative test.<br><br>(c) Find the dimensions and maximum volume of the box.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>After cutting and folding, the height is $x\\ \\text{cm}$, while the length and breadth are each $(24-2x)\\ \\text{cm}$. Therefore,<br>$$V(x)=x(24-2x)^2$$<br>The dimensions must be positive, so<br>$$0<x<12$$<br><br><b>(b)</b><br>Expanding the volume function,<br>$$V(x)=576x-96x^2+4x^3$$<br>Therefore,<br>$$V'(x)=576-192x+12x^2$$<br>$$V'(x)=12(x^2-16x+48)$$<br>$$V'(x)=12(x-4)(x-12)$$<br>The stationary values are $x=4$ and $x=12$. Since $0<x<12$, only $x=4$ is admissible.<br>Now,<br>$$V''(x)=24x-192$$<br>At $x=4$,<br>$$V''(4)=96-192=-96<0$$<br>Hence, the volume is maximum when $x=4\\ \\text{cm}$.<br><br><b>(c)</b><br>The dimensions of the box are<br>$$24-2(4)=16\\ \\text{cm}$$<br>Therefore, the box has length $16\\ \\text{cm}$, breadth $16\\ \\text{cm}$ and height $4\\ \\text{cm}$. Its maximum volume is<br>$$V(4)=4(16)^2=1024\\ \\text{cm}^3$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $V=x(24-x)^2$, $0<x<24$<br>(b) Maximum at $x=8$ cm<br>(c) Dimensions $16\\times16\\times8$ cm; volume $2048$ cm$^3$",
+    "B": "(a) $V=x(24-2x)^2$, $0<x<12$<br>(b) Maximum at $x=4$ cm<br>(c) Dimensions $16\\times16\\times4$ cm; maximum volume $1024$ cm$^3$",
+    "C": "(a) $V=x(24-2x)^2$, $0<x<12$<br>(b) Maximum at $x=6$ cm<br>(c) Dimensions $12\\times12\\times6$ cm; volume $864$ cm$^3$",
+    "D": "(a) $V=x(24-2x)^2$, $0<x<24$<br>(b) Maximum at $x=12$ cm<br>(c) Degenerate box with volume $0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

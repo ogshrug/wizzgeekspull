@@ -1,0 +1,31 @@
+{
+  "id": "69a9c48962be6a70cd184e3c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Product Launch Price Optimization**<br /><br />A company launches a new gadget. The demand function is given by $p(x) = 900 - 3x$ (where $p$ is price in ₹, $x$ is units sold). The cost function is $C(x) = 200x + 30000$.<br /><br />(a) Write the revenue and profit functions.<br /><br />(b) Find the production level that maximizes profit.<br /><br />(c) What is the maximum profit?<br /><br />(d) Use the first derivative test to check if profit increases before and decreases after this production level.",
+  "answeroption": "D",
+  "explanation": "(a) Revenue: $R(x) = (900-3x)x = 900x - 3x^2$<br /><br />Profit: $P(x)=900x-3x^2-200x-30000=700x-3x^2-30000$<br /><br />(b) $P'(x)=700-6x$; set $=0$ gives $x=116.67$.<br /><br />(c) Maximum profit $\\approx ₹10,836$.<br /><br />(d) $P'(x)$ positive before and negative after $116.67$, confirming maximum.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R(x)=900x-3x^2$, $P(x)=700x-3x^2+30000$.<br />(b) Profit is maximized at $x=116.67$.<br />(c) Maximum profit $\\approx ₹70,836$.<br />(d) $P'(x)$ changes from negative to positive.",
+    "B": "(a) $R(x)=900x+3x^2$, $P(x)=700x+3x^2-30000$.<br />(b) Profit is maximized at $x=100$.<br />(c) Maximum profit $\\approx ₹20,000$.<br />(d) $P'(x)$ positive after the critical point.",
+    "C": "(a) $R(x)=900x-3x^2$, $P(x)=700x-3x^2-30000$.<br />(b) Profit is maximized at $x=150$.<br />(c) Maximum profit $\\approx ₹7,500$.<br />(d) $P'(x)$ negative before and positive after $150$.",
+    "D": "(a) $R(x)=900x-3x^2$, $P(x)=700x-3x^2-30000$.<br />(b) Profit is maximized at $x=116.67$.<br />(c) Maximum profit $\\approx ₹10,836$.<br />(d) $P'(x)$ is positive before and negative after $116.67$, confirming maximum."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:59:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

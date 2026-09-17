@@ -1,0 +1,29 @@
+{
+  "id": "6a8d2f4877877fac8fdb992d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "SA",
+  "question": "Consider the relation $R=\\{(1,2),(2,3),(1,3),(3,4),(2,4),(1,4)\\}$ on $A=\\{1,2,3,4\\}$. Check whether $R$ is transitive. Justify your answer.",
+  "answeroption": "B",
+  "explanation": "<b>Relevant chains of ordered pairs</b><br>The possible chains requiring verification are $(1,2),(2,3)$; $(1,2),(2,4)$; $(1,3),(3,4)$; and $(2,3),(3,4)$.<br><br><b>Transitivity verification</b><br>From $(1,2),(2,3)\\in R$, we have $(1,3)\\in R$.<br>From $(1,2),(2,4)\\in R$, we have $(1,4)\\in R$.<br>From $(1,3),(3,4)\\in R$, we have $(1,4)\\in R$.<br>From $(2,3),(3,4)\\in R$, we have $(2,4)\\in R$.<br><br><b>Conclusion</b><br>Every applicable chain satisfies the transitivity condition. Hence, $R$ is transitive.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is not transitive because $(1,2),(2,3)\\in R$ but $(1,3)\\notin R$",
+    "B": "$R$ is transitive because every applicable chain has its required ordered pair in $R$",
+    "C": "$R$ is not transitive because none of the diagonal pairs belongs to $R$",
+    "D": "$R$ is transitive because it is symmetric on $A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

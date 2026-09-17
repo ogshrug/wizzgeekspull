@@ -1,0 +1,26 @@
+{
+  "id": "6a1425342a89680e5835ce7a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $\\frac{dy}{dx}=\\frac{xy}{x^{2}+y^{2}}$ given that $y=1$ when $x=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Substitute.** Let $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 2: Separate Variables.** Substitute into the equation: $v + x\\frac{dv}{dx} = \\frac{v}{1+v^2}$. This simplifies to $x\\frac{dv}{dx} = \\frac{-v^3}{1+v^2}$. Separating variables yields $(v^{-3} + v^{-1}) dv = -\\frac{dx}{x}$.<br />**Step 3: Integrate.** $-\\frac{x^2}{2y^2} + \\ln|y| = C$.<br />**Step 4: Apply Initial Condition.** Using $x=0, y=1$, we find $C=0$. The particular solution is $\\ln|y| = \\frac{x^2}{2y^2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "6a2278c1864be73cfcf6d1e0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f:R\\rightarrow R$ is defined as $f(x)=2x-\\sin x$, then $f$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** To determine the increasing or decreasing nature of a function, we must evaluate its first derivative. Differentiating $f(x) = 2x - \\sin x$ yields $f'(x) = 2 - \\cos x$.<br />**Step 2:** Analyze the range of the cosine function. We know that for all real numbers $x$, $-1 \\le \\cos x \\le 1$.<br />**Step 3:** Substitute this boundary into the derivative expression to find its range. The minimum possible value of $f'(x)$ occurs when $\\cos x = 1$, giving $2 - 1 = 1$. The maximum occurs when $\\cos x = -1$, giving $2 - (-1) = 3$.<br />**Step 4:** Therefore, $1 \\le f'(x) \\le 3$ for all $x \\in \\mathbb{R}$.<br />**Step 5:** Since $f'(x) > 0$ strictly for all real values of $x$, the function $f(x)$ is a monotonically increasing function.",
+  "explanation_image": [],
+  "options": {
+    "A": "a decreasing function",
+    "B": "an increasing function",
+    "C": "maximum at $x=\\frac{\\pi}{2}$",
+    "D": "maximum at $x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

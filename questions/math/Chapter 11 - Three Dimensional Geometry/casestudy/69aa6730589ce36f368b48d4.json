@@ -1,0 +1,29 @@
+{
+  "id": "69aa6730589ce36f368b48d4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Medical Imaging and Tumor Localization<br /><br />A tumor is detected at $T(5,2,3)$ inside a cubic organ with corners $O(0,0,0)$ and $E(10,10,10)$. A robotic needle moves from surface point $S(10,2,3)$ to the tumor while avoiding plane $2x+y+z-8=0$. <br /><br />(a) Write the vector equation for the planned path.<br /><br />(b) Find where the path intersects the plane.<br /><br />(c) Compute the angle of entry between the path and the plane.<br /><br />(d) Determine if the path is safe if entry angle must exceed $60^\\circ$.",
+  "answeroption": "B",
+  "explanation": "(a) Direction $ST=(5-10,2-2,3-3)=(-5,0,0)$. Path: $\\vec r=(10,2,3)+\\lambda(-5,0,0)$, $\\lambda\\in[0,1]$.<br /><br />(b) Substitute $x=10-5\\lambda$, $y=2$, $z=3$ into $2x+y+z-8=0$. Gives $17-10\\lambda=0$, so $\\lambda=17/10>1$. Thus the segment does not intersect the plane inside the organ.<br /><br />(c) Direction vector $(-5,0,0)$, plane normal $(2,1,1)$. $\\sin\\phi=\\frac{|(-5,0,0)\\cdot(2,1,1)|}{|(-5,0,0)|\\sqrt6}=\\frac{2}{\\sqrt6}$.<br /><br />(d) Since $\\frac{2}{\\sqrt6}\\approx0.816<0.866=\\sin60^\\circ$, the angle would be less than $60^\\circ$. However, the path does not intersect the plane, so the needle path is safe.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec r=(10,2,3)+\\lambda(5,0,0)$, $0\\leq\\lambda\\leq1$<br />(b) Intersection occurs at $\\lambda=\\frac{3}{10}$ inside the organ<br />(c) $\\sin\\phi=\\frac{1}{\\sqrt6}$<br />(d) Unsafe because the path intersects the plane with angle less than $60^\\circ$",
+    "B": "(a) $\\vec r=(10,2,3)+\\lambda(-5,0,0)$, $0\\leq\\lambda\\leq1$<br />(b) Substitution gives $\\lambda=\\frac{17}{10}>1$, so the segment does not intersect the plane inside the organ<br />(c) $\\sin\\phi=\\frac{2}{\\sqrt6}$, so the angle would be less than $60^\\circ$ if it intersected<br />(d) The needle path is safe because the segment does not intersect the plane",
+    "C": "(a) $\\vec r=(5,2,3)+\\lambda(-5,0,0)$, $0\\leq\\lambda\\leq1$<br />(b) Intersection occurs at $\\lambda=1$<br />(c) $\\sin\\phi=\\frac{\\sqrt6}{2}$<br />(d) Safe only because the angle exceeds $60^\\circ$",
+    "D": "(a) $\\vec r=(10,2,3)+\\lambda(0,0,-5)$, $0\\leq\\lambda\\leq1$<br />(b) The path lies completely in the plane<br />(c) $\\phi=0^\\circ$<br />(d) Unsafe because the path overlaps the plane"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:33:36 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

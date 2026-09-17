@@ -1,0 +1,30 @@
+{
+  "id": "69a9b4616638848124d7c97b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e766d837c8c7efa6b8c0"
+  ],
+  "question_type": "SA",
+  "question": "If $\\vec{p} = 5\\hat{i} - 2\\hat{j} + \\hat{k}$ and $\\vec{q} = -3\\hat{i} + 4\\hat{j} + 2\\hat{k}$, find a unit vector perpendicular to both $\\vec{p}$ and $\\vec{q}$.",
+  "answeroption": "C",
+  "explanation": "Step 1: Compute $\\vec{p} \\times \\vec{q}$ using the determinant formula:<br /><br />$\\vec{p} \\times \\vec{q} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 5 & -2 & 1 \\\\ -3 & 4 & 2 \\end{vmatrix}$<br /><br />$= \\hat{i}((-2)\\times2 - 1\\times4) - \\hat{j}(5\\times2 - 1\\times(-3)) + \\hat{k}(5\\times4 - (-2)\\times(-3))$<br /><br />$= \\hat{i}(-4 - 4) - \\hat{j}(10 + 3) + \\hat{k}(20 - 6)$<br /><br />$= -8\\hat{i} - 13\\hat{j} + 14\\hat{k}$<br /><br />Step 2: Find its magnitude:<br /><br />$|\\vec{p} \\times \\vec{q}| = \\sqrt{(-8)^2 + (-13)^2 + 14^2} = \\sqrt{64 + 169 + 196} = \\sqrt{429}$<br /><br />Step 3: Get the unit vector:<br /><br />$\\vec{u} = \\dfrac{\\vec{p} \\times \\vec{q}}{|\\vec{p} \\times \\vec{q}|} = \\dfrac{-8\\hat{i} - 13\\hat{j} + 14\\hat{k}}{\\sqrt{429}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{-8\\hat{i}+13\\hat{j}+14\\hat{k}}{\\sqrt{429}}$",
+    "B": "$\\dfrac{8\\hat{i}+13\\hat{j}-14\\hat{k}}{\\sqrt{429}}$",
+    "C": "$\\dfrac{-8\\hat{i}-13\\hat{j}+14\\hat{k}}{\\sqrt{429}}$",
+    "D": "$\\dfrac{-8\\hat{i}-13\\hat{j}+14\\hat{k}}{429}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:50:41 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

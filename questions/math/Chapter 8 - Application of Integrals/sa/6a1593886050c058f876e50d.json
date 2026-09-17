@@ -1,0 +1,25 @@
+{
+  "id": "6a1593886050c058f876e50d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99a",
+    "6a13eb338c819562f933f996"
+  ],
+  "question_type": "SA",
+  "question": "Find the area of the region $\\{(x,y):x^{2}+y^{2}\\le9, x+y\\ge3\\}$, using integration.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Solve $x^2 + y^2 = 9$ and $x + y = 3$ simultaneously to find the intersection points. Substitute $y = 3 - x$: $x^2 + (3-x)^2 = 9 \\Rightarrow 2x^2 - 6x = 0 \\Rightarrow x=0, x=3$. The intersection points are $(0,3)$ and $(3,0)$.<br /><br />**Step 2:** Set up the definite integral for the area bounded between the upper curve $y = \\sqrt{9-x^2}$ and lower curve $y = 3-x$: $A = \\int_{0}^{3} \\left(\\sqrt{9-x^2} - (3-x)\\right) dx$.<br /><br />**Step 3:** Evaluate the first integral using the formula $\\int \\sqrt{a^2-x^2} dx = \\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2}\\sin^{-1}(\\frac{x}{a})$: $\\int_{0}^{3} \\sqrt{9-x^2} dx = \\left[ \\frac{x}{2}\\sqrt{9-x^2} + \\frac{9}{2}\\sin^{-1}\\left(\\frac{x}{3}\\right) \\right]_0^3 = \\frac{9}{2}\\sin^{-1}(1) = \\frac{9\\pi}{4}$.<br /><br />**Step 4:** Evaluate the second integral using the power rule: $\\int_{0}^{3} (3-x) dx = \\left[ 3x - \\frac{x^2}{2} \\right]_0^3 = 9 - \\frac{9}{2} = \\frac{9}{2}$.<br /><br />**Step 5:** Subtract the integrals to find the total enclosed area: $A = \\frac{9\\pi}{4} - \\frac{9}{2} = \\frac{9}{4}(\\pi - 2)$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

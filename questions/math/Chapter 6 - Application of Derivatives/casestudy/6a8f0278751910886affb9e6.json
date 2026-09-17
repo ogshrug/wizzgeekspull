@@ -1,0 +1,35 @@
+{
+  "id": "6a8f0278751910886affb9e6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f975",
+    "6a13e98f8c819562f933f976",
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978",
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An adjustable triangular display is tested in a laboratory. After $t$ seconds, its base and perpendicular height are given by $b(t)=20+2t$ centimetres and $h(t)=30-t$ centimetres, respectively, where $0\\leq t\\leq30$. Thus, the base expands while the height decreases. The technicians study the instantaneous rate of change of its area and use the sign of this rate to identify when the display area is increasing or decreasing. They also determine the instant at which the change in area reverses direction.(a) Express the area $A$ as a function of $t$.(b) Obtain the instantaneous rate of change of the area.(c) Calculate and interpret the rate at $t=4$ seconds.(d) Determine the critical instant and the intervals during which the area increases and decreases.",
+  "answeroption": "C",
+  "explanation": "(a)The area of a triangle is`A=\\frac{1}{2}bh`Substituting the given dimensions,`A(t)=\\frac{1}{2}(20+2t)(30-t)A(t)=\\frac{1}{2}(600+40t-2t^2)`Therefore,`A(t)=300+20t-t^2`(b)The instantaneous rate of change of area is`\\frac{dA}{dt}=20-2t`(c)At $t=4$ seconds,`\\left.\\frac{dA}{dt}\\right|_{t=4}=20-2(4)=12\\ \\text{cm}^2/\\text{s}`Since the rate is positive, the area is increasing at $12\\ \\text{cm}^2/\\text{s}$ at that instant.(d)The critical instant occurs when`\\frac{dA}{dt}=020-2t=0t=10\\ \\text{seconds}`For $0\\<t<10$, $20-2t>0$, so the area is increasing. For $10\\<t<30$, $20-2t<0$, so the area is decreasing. Thus, the rate changes from positive to negative at $t=10$ seconds.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A(t)=300+40t-t^2$<br>(b) $\\frac{dA}{dt}=40-2t$<br>(c) At $t=4$, rate $32\\ \\text{cm}^2/\\text{s}$, increasing<br>(d) Critical instant $t=20$; increasing for $0<t<20$, decreasing for $20<t<30$",
+    "B": "(a) $A(t)=600+40t-2t^2$<br>(b) $\\frac{dA}{dt}=40-4t$<br>(c) At $t=4$, rate $24\\ \\text{cm}^2/\\text{s}$, increasing<br>(d) Critical instant $t=10$; increasing before and decreasing after",
+    "C": "(a) $A(t)=300+20t-t^2$<br>(b) $\\frac{dA}{dt}=20-2t$<br>(c) At $t=4$, rate $12\\ \\text{cm}^2/\\text{s}$, increasing<br>(d) Critical instant $t=10$; increasing for $0<t<10$ and decreasing for $10<t<30$",
+    "D": "(a) $A(t)=300-20t+t^2$<br>(b) $\\frac{dA}{dt}=2t-20$<br>(c) At $t=4$, rate $-12\\ \\text{cm}^2/\\text{s}$, decreasing<br>(d) Critical instant $t=10$; decreasing before and increasing after"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a2658db864be73cfcf6d34a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $x\\frac{dy}{dx}-y=x^{2}\\cdot e^{x}$ given $y(1)=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** We are given the differential equation $x\\frac{dy}{dx}-y=x^{2}\\cdot e^{x}$. To convert it into standard linear form, divide the entire equation by $x$: $\\frac{dy}{dx} - \\frac{1}{x}y = xe^x$. This matches the standard first-order linear format $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x) = -\\frac{1}{x}$ and $Q(x) = xe^x$.<br />**Step 2:** Compute the integrating factor ($IF$) using the formula $IF = e^{\\int P(x) dx}$. Substituting our value gives: $IF = e^{\\int -\\frac{1}{x} dx} = e^{-\\log|x|} = e^{\\log(x^{-1})} = \\frac{1}{x}$. The general solution template is $y \\cdot (IF) = \\int Q(x) \\cdot (IF) dx + C$. Substituting our values simplifies the integral to: $y \\cdot \\frac{1}{x} = \\int xe^x \\cdot \\frac{1}{x} dx + C \\implies \\frac{y}{x} = \\int e^x dx + C$. Integrating the right side gives the explicit general solution: $\\frac{y}{x} = e^x + C \\implies y = xe^x + Cx$.<br />**Step 3:** To find the particular solution, apply the initial boundary condition $y(1) = 0$, meaning $y = 0$ when $x = 1$. Substituting these values into our general solution formula gives: $0 = 1 \\cdot e^1 + C(1) \\implies 0 = e + C \\implies C = -e$. Substituting $C = -e$ back provides our final particular solution: $y = xe^x - ex$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1",
+    "2022-3-2",
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

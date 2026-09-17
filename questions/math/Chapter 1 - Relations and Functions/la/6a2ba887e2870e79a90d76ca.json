@@ -1,0 +1,27 @@
+{
+  "id": "6a2ba887e2870e79a90d76ca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Show that a function $f:R_{+}\\rightarrow A$, defined as $f(x)=4x^{2}+12x+15$ is one-one. Find set A so that f is onto where $R_{+}=[0,\\infty)$. Also, find if there exists $a\\in R_{+}$ such that $f(a)=7$ Justify.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To prove that the given quadratic function $f(x) = 4x^2 + 12x + 15$ is one-one over the non-negative real domain $R_+ = [0, \\infty)$, let us assume that $f(x_1) = f(x_2)$ for any arbitrary elements $x_1, x_2 \\in R_+$. This assumption translates into the algebraic equation $4x_1^2 + 12x_1 + 15 = 4x_2^2 + 12x_2 + 15$. By subtracting fifteen from both sides and rearranging all terms to the left side, we can factor the expression as $4(x_1^2 - x_2^2) + 12(x_1 - x_2) = 0$. Applying the difference of squares identity yields $4(x_1 - x_2)(x_1 + x_2) + 12(x_1 - x_2) = 0$, which can be factored completely into $4(x_1 - x_2)(x_1 + x_2 + 3) = 0$. Since $x_1$ and $x_2$ belong to $R_+$, they are non-negative, meaning that the expression $(x_1 + x_2 + 3)$ is strictly greater than or equal to three and can never equal zero. Consequently, we must have $x_1 - x_2 = 0$, which simplifies to $x_1 = x_2$. This strictly proves that $f(x)$ is a one-one function.<br /><br />**Step 2:** For the function to be onto, the codomain set $A$ must be exactly equal to the range of $f(x)$. Since the domain is restricted to $[0, \\infty)$ and the function is strictly increasing, the minimum value occurs at $x = 0$, where $f(0) = 15$. As $x$ approaches infinity, $f(x)$ also approaches infinity continuously. Therefore, the range is $[15, \\infty)$, so set $A = [15, \\infty)$.<br /><br />**Step 3:** To check if an element $a \\in R_+$ exists such that $f(a) = 7$, we set up $4a^2 + 12a + 15 = 7 \\implies 4a^2 + 12a + 8 = 0$. Dividing by four yields $a^2 + 3a + 2 = 0 \\implies (a+1)(a+2) = 0$, giving roots $a = -1$ or $a = -2$. Neither root belongs to $[0, \\infty)$, so no such $a$ exists.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a264ebc864be73cfcf6d32e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3",
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "SA",
+  "question": "Find the equation of the plane passing through points (2, 1, 0), $(3,-2,-2)$ and $(1,1,-7)$. Also, obtain its distance from the origin.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The general equation of a plane passing through a point $(x_1, y_1, z_1) = (2,1,0)$ is given by $A(x-2) + B(y-1) + C(z-0) = 0$. Since this plane also passes through the other two points $(3,-2,-2)$ and $(1,1,-7)$, substitute these coordinates to create a system of equations for direction parameters. For $(3,-2,-2)$: $A(3-2) + B(-2-1) + C(-2) = 0 \\implies A - 3B - 2C = 0$. For $(1,1,-7)$: $A(1-2) + B(1-1) + C(-7) = 0 \\implies -A + 0B - 7C = 0$.<br />**Step 2:** Solve this homogeneous linear system using cross-multiplication rules to determine the ratios of coefficients: $\\frac{A}{(-3)(-7) - (-2)(0)} = \\frac{B}{(-2)(-1) - (1)(-7)} = \\frac{C}{(1)(0) - (-3)(-1)}$. This evaluates to $\\frac{A}{21} = \\frac{B}{9} = \\frac{C}{-3}$, which simplifies by dividing by common factor 3 to $\\frac{A}{7} = \\frac{B}{3} = \\frac{C}{-1} = k$. Thus, choose directional parameters $A=7, B=3, C=-1$.<br />**Step 3:** Substitute these parameters back into our original plane template: $7(x-2) + 3(y-1) - 1(z) = 0 \\implies 7x - 14 + 3y - 3 - z = 0 \\implies 7x + 3y - z = 17$. This is the Cartesian equation of the plane.<br />**Step 4:** To find the distance from the origin $(0,0,0)$ to the plane $7x + 3y - z - 17 = 0$, apply the perpendicular distance formula: $d = \\frac{|A(0) + B(0) + C(0) - D|}{\\sqrt{A^2+B^2+C^2}} = \\frac{|-17|}{\\sqrt{7^2+3^2+(-1)^2}} = \\frac{17}{\\sqrt{49+9+1}} = \\frac{17}{\\sqrt{59}}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-2",
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

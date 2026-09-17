@@ -1,0 +1,32 @@
+{
+  "id": "6a27b42e233c5169a79c53d2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "MCQ",
+  "question": "The order and degree of the differential equation $\\dfrac{d}{dx}(y')^3+(y')^3=1$, where $y'=\\dfrac{dy}{dx}$, respectively are:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Differentiate $(y')^3$ using the chain rule:<br />$\\frac{d}{dx}(y')^3=3(y')^2y''$.<br /><br />**Step 2:** The differential equation becomes<br />$3(y')^2y''+(y')^3=1$.<br /><br />**Step 3:** The highest order derivative present is $y''$, so the order is $2$. The highest order derivative occurs to the first power, so the degree is $1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "1,3",
+    "B": "2,1",
+    "C": "3,1",
+    "D": "3,2"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

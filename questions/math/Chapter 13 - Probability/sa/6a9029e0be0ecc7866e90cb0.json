@@ -1,0 +1,29 @@
+{
+  "id": "6a9029e0be0ecc7866e90cb0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "SA",
+  "question": "Three factories $A$, $B$ and $C$ supply $20\\%$, $50\\%$ and $30\\%$ respectively of the bulbs sold by a shop. Their respective defective rates are $2\\%$, $4\\%$ and $5\\%$. A bulb purchased from the shop is found to be defective. Find the probability that it was supplied by factory $C$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Identification of events</b><br>Let $D$ denote the event that the bulb is defective. Let $A$, $B$ and $C$ denote the events that the bulb is supplied by the corresponding factories.<br><b>Step 2: Given probabilities</b><br>$$P(A)=0.20,\\quad P(B)=0.50,\\quad P(C)=0.30$$ $$P(D|A)=0.02,\\quad P(D|B)=0.04,\\quad P(D|C)=0.05$$<br><b>Step 3: Bayes’ theorem</b><br>$$P(C|D)=\\frac{P(C)P(D|C)}{P(A)P(D|A)+P(B)P(D|B)+P(C)P(D|C)}$$<br><b>Step 4: Calculation</b><br>$$P(C|D)=\\frac{0.30\\times0.05}{0.20\\times0.02+0.50\\times0.04+0.30\\times0.05}$$ $$=\\frac{0.015}{0.004+0.020+0.015}=\\frac{0.015}{0.039}=\\frac5{13}$$<br><b>Step 5: Conclusion</b><br>Therefore, the probability that the defective bulb was supplied by factory $C$ is $\\boxed{\\frac5{13}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{13}$",
+    "B": "$\\frac{4}{13}$",
+    "C": "$\\frac{5}{13}$",
+    "D": "$\\frac{5}{12}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

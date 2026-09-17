@@ -1,0 +1,31 @@
+{
+  "id": "69aa63c86638848124d7c9d2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e767d837c8c7efa6b8c4"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 3: Robotics and Mechanical Arm Positioning**<br /><br />An industrial robotic arm has three joints at points O (0,0,0), A (4,2,5), and B (7,6,9) (all coordinates in cm). The segments OA and AB are prone to mechanical stress. The grip point is C (9,9,12).<br /><br />a) Find the vector equation of the line along AB.<br /><br />b) Calculate the projection of vector $\\overrightarrow{OC}$ on $\\overrightarrow{AB}$.<br /><br />c) Determine if points O, A, B, C are coplanar using Scalar Triple Product.",
+  "answeroption": "C",
+  "explanation": "a) $\\overrightarrow{AB} = (7-4)\\hat{i} + (6-2)\\hat{j} + (9-5)\\hat{k} = 3\\hat{i} + 4\\hat{j} + 4\\hat{k}$<br /><br />Equation of line AB: $\\vec{r} = (4\\hat{i} + 2\\hat{j} + 5\\hat{k}) + t(3\\hat{i} + 4\\hat{j} + 4\\hat{k}),\\ t \\in \\mathbb{R}$<br /><br />b) $\\overrightarrow{OC} = 9\\hat{i} + 9\\hat{j} + 12\\hat{k}$<br /><br />Projection of $\\overrightarrow{OC}$ on $\\overrightarrow{AB}$:<br /><br />$= \\dfrac{\\overrightarrow{OC} \\cdot \\overrightarrow{AB}}{|\\overrightarrow{AB}|}$<br /><br />First, $\\overrightarrow{OC} \\cdot \\overrightarrow{AB} = (9)(3) + (9)(4) + (12)(4) = 27 + 36 + 48 = 111$<br /><br />$|\\overrightarrow{AB}| = \\sqrt{3^2 + 4^2 + 4^2} = \\sqrt{9+16+16} = \\sqrt{41}$<br /><br />So, projection $= \\dfrac{111}{\\sqrt{41}}$<br /><br />c) To check coplanarity of O, A, B, C:<br /><br />Find $\\overrightarrow{OA}, \\overrightarrow{OB}, \\overrightarrow{OC}$:<br /><br />$\\overrightarrow{OA} = 4\\hat{i} + 2\\hat{j} + 5\\hat{k}$<br /><br />$\\overrightarrow{OB} = 7\\hat{i} + 6\\hat{j} + 9\\hat{k}$<br /><br />$\\overrightarrow{OC} = 9\\hat{i} + 9\\hat{j} + 12\\hat{k}$<br /><br />Find $\\vec{a} = \\overrightarrow{OA}, \\vec{b} = \\overrightarrow{OB}, \\vec{c} = \\overrightarrow{OC}$<br /><br />Scalar triple product:<br /><br />$[\\vec{a} \\ \\vec{b} \\ \\vec{c}] = \\vec{a} \\cdot (\\vec{b} \\times \\vec{c})$<br /><br />Compute $\\vec{b} \\times \\vec{c}$:<br /><br />$\\left|\\begin{array}{ccc} \\hat{i}&\\hat{j}&\\hat{k} \\\\ 7&6&9 \\\\ 9&9&12 \\end{array}\\right|$<br /><br />$= \\hat{i} (6\\cdot12 - 9\\cdot9) - \\hat{j}(7\\cdot12-9\\cdot9) +\\hat{k}(7\\cdot9-6\\cdot9)$<br /><br />$= \\hat{i} (72-81) - \\hat{j}(84-81) + \\hat{k}(63-54)$<br /><br />$= -9\\hat{i} - 3\\hat{j} + 9\\hat{k}$<br /><br />Now, dot with $\\vec{a}$:<br /><br />$\\vec{a} \\cdot (-9\\hat{i} - 3\\hat{j} + 9\\hat{k}) = (4)(-9) + (2)(-3) + (5)(9)$<br /><br />$= -36 -6 + 45 = 3$<br /><br />Since scalar triple product $\\neq 0$, points are NOT coplanar.",
+  "explanation_image": [],
+  "options": {
+    "A": "a) $\\vec{r}=(4\\hat{i}+2\\hat{j}+5\\hat{k})+t(3\\hat{i}+4\\hat{j}+4\\hat{k})$<br />b) Projection $=\\frac{111}{\\sqrt{41}}$<br />c) Scalar triple product $=0$, so points are coplanar.",
+    "B": "a) $\\vec{r}=(7\\hat{i}+6\\hat{j}+9\\hat{k})+t(3\\hat{i}+4\\hat{j}+4\\hat{k})$<br />b) Projection $=\\frac{111}{41}$<br />c) Scalar triple product $=3$, so points are coplanar.",
+    "C": "a) $\\vec{r}=(4\\hat{i}+2\\hat{j}+5\\hat{k})+t(3\\hat{i}+4\\hat{j}+4\\hat{k})$<br />b) Projection $=\\frac{111}{\\sqrt{41}}$<br />c) Scalar triple product $=3\\ne0$, so points are not coplanar.",
+    "D": "a) $\\vec{r}=(4\\hat{i}+2\\hat{j}+5\\hat{k})+t(4\\hat{i}+3\\hat{j}+4\\hat{k})$<br />b) Projection $=\\frac{41}{111}$<br />c) Scalar triple product $=0$, so points are coplanar."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:19:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

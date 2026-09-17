@@ -1,0 +1,29 @@
+{
+  "id": "6a902b10be0ecc7866e90cc3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "SA",
+  "question": "Events $A$ and $B$ are independent with $P(A)=0.6$ and $P(B)=0.5$. Find (i) the probability that neither $A$ nor $B$ occurs, and (ii) the probability that at least one of them occurs.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Probabilities of complementary events</b><br>Since $P(A)=0.6$ and $P(B)=0.5$, we have $$P(A')=1-0.6=0.4$$ and $$P(B')=1-0.5=0.5.$$<br><b>Step 2: Independence of complementary events</b><br>Since $A$ and $B$ are independent, their complements $A'$ and $B'$ are also independent. Thus, $$P(A'\\cap B')=P(A')P(B').$$<br><b>Step 3: Probability that neither occurs</b><br>$$P(A'\\cap B')=0.4\\times0.5=0.20.$$ Therefore, the probability that neither event occurs is $0.20$.<br><b>Step 4: Probability that at least one occurs</b><br>The event that at least one occurs is the complement of neither occurring. Hence, $$P(A\\cup B)=1-P(A'\\cap B')=1-0.20=0.80.$$<br><b>Step 5: Conclusion</b><br>Therefore, $$\\boxed{P(\\text{neither})=0.20,\\quad P(\\text{at least one})=0.80}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $0.30$<br>(ii) $0.70$",
+    "B": "(i) $0.20$<br>(ii) $0.80$",
+    "C": "(i) $0.40$<br>(ii) $0.60$",
+    "D": "(i) $0.50$<br>(ii) $0.50$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

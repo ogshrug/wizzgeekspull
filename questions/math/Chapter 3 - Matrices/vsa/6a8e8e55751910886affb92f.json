@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8e55751910886affb92f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d60"
+  ],
+  "question_type": "VSA",
+  "question": "If $2(A+B)=\\begin{bmatrix}10&4\\\\-2&8\\end{bmatrix}$ and $2A=\\begin{bmatrix}6&-2\\\\4&2\\end{bmatrix}$, find the $(1,2)$th element of $2B$.",
+  "answeroption": "A",
+  "explanation": "Step 1: Scalar multiplication is distributive over matrix addition, so $2(A+B)=2A+2B$.<br>Step 2: Hence, $2B=2(A+B)-2A$.<br>Step 3: Substituting the given matrices, $$2B=\\begin{bmatrix}10&4\\\\-2&8\\end{bmatrix}-\\begin{bmatrix}6&-2\\\\4&2\\end{bmatrix}.$$<br>Step 4: Subtracting corresponding entries gives $$2B=\\begin{bmatrix}4&6\\\\-6&6\\end{bmatrix}.$$<br>Step 5: Therefore, the $(1,2)$th element of $2B$ is $6$. Hence, the required value is $6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$6$",
+    "B": "$2$",
+    "C": "$-6$",
+    "D": "$4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

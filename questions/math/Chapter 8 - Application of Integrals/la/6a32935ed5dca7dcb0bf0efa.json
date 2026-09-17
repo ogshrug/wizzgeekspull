@@ -1,0 +1,26 @@
+{
+  "id": "6a32935ed5dca7dcb0bf0efa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f994"
+  ],
+  "question_type": "LA",
+  "question": "Find the area of the region bounded by the lines $x - 2y = 4$, $x = -1$, $x = 6$ and x-axis, using integration.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The line equation is $y = \\frac{x-4}{2}$. The x-intercept is at $x = 4$. We need to integrate from $x=-1$ to $x=6$.\n\n**Step 2:** Since the line crosses the x-axis, the total area is $\\int_{-1}^6 |\\frac{x-4}{2}| dx = \\int_{-1}^4 |\\frac{x-4}{2}| dx + \\int_4^6 |\\frac{x-4}{2}| dx$.\n\n**Step 3:** Evaluate the first integral (where $y < 0$): $\\int_{-1}^4 -\\frac{x-4}{2} dx = [-\\frac{x^2}{4} + 2x]_{-1}^4 = (-4 + 8) - (-\\frac{1}{4} - 2) = 4 + 2.25 = 6.25 = \\frac{25}{4}$.\n\n**Step 4:** Evaluate the second integral (where $y > 0$): $\\int_4^6 \\frac{x-4}{2} dx = [\\frac{x^2}{4} - 2x]_4^6 = (9 - 12) - (4 - 8) = -3 + 4 = 1$.\n\n**Step 5:** The total area is $\\frac{25}{4} + 1 = \\frac{29}{4}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

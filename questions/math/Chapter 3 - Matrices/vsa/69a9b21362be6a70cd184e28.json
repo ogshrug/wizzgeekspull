@@ -1,0 +1,30 @@
+{
+  "id": "69a9b21362be6a70cd184e28",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "VSA",
+  "question": "Given matrices $A$ and $B$ of order $3 \\times 3$ such that $A$ is symmetric and $B$ is skew-symmetric, prove whether $AB + BA$ is symmetric or skew-symmetric.",
+  "answeroption": "B",
+  "explanation": "Let $A = A'$, $B = -B'$, $A,B$ of order $3 \\times 3$.<br /><br />$(AB+BA)' = (AB)' + (BA)' = B'A' + A'B' = (-B)A + A(-B) = -BA - AB = -(AB+BA)$.<br /><br />So, $AB + BA$ is skew-symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB+BA$ is symmetric because $(AB+BA)'=AB+BA$",
+    "B": "$AB+BA$ is skew-symmetric because $(AB+BA)'=-(AB+BA)$",
+    "C": "$AB+BA$ is neither symmetric nor skew-symmetric",
+    "D": "$AB+BA$ is always the zero matrix"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:40:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

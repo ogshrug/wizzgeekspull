@@ -1,0 +1,33 @@
+{
+  "id": "6a8e9f144b490c7cde359430",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d50",
+    "69c65fbf40512f018fa94d52",
+    "69c65fc040512f018fa94d55",
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d57"
+  ],
+  "question_type": "LA",
+  "question": "Let $$A=\\begin{bmatrix}2&-1&3\\end{bmatrix}.$$ Obtain $A'$, determine the orders of $AA'$ and $A'A$, calculate both products, and establish from the resulting matrices that each product is symmetric.",
+  "answeroption": "B",
+  "explanation": "<b>Transpose and Orders</b><br><br>The matrix $A$ is a row matrix of order $1\\times3$. Therefore, its transpose is the column matrix $$A'=\\begin{bmatrix}2\\\\-1\\\\3\\end{bmatrix}$$ of order $3\\times1$. Hence, $AA'$ is of order $1\\times1$, while $A'A$ is of order $3\\times3$.<br><br><b>Evaluation of $AA'$</b><br><br>We have $$AA'=\\begin{bmatrix}2&-1&3\\end{bmatrix}\\begin{bmatrix}2\\\\-1\\\\3\\end{bmatrix}=\\begin{bmatrix}4+1+9\\end{bmatrix}=\\begin{bmatrix}14\\end{bmatrix}$$ A matrix of order $1\\times1$ is unchanged on taking its transpose. Therefore, $(AA')'=AA'$, and hence $AA'$ is symmetric.<br><br><b>Evaluation of $A'A$</b><br><br>Now, $$A'A=\\begin{bmatrix}2\\\\-1\\\\3\\end{bmatrix}\\begin{bmatrix}2&-1&3\\end{bmatrix}=\\begin{bmatrix}4&-2&6\\\\-2&1&-3\\\\6&-3&9\\end{bmatrix}$$ Taking its transpose, $$(A'A)'=\\begin{bmatrix}4&-2&6\\\\-2&1&-3\\\\6&-3&9\\end{bmatrix}=A'A$$ Therefore, both $AA'$ and $A'A$ are symmetric matrices, although their orders are different.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AA'=\\begin{bmatrix}14\\end{bmatrix}$ and $A'A=\\begin{bmatrix}4&2&6\\\\2&1&3\\\\6&3&9\\end{bmatrix}$; both are symmetric",
+    "B": "$AA'=\\begin{bmatrix}14\\end{bmatrix}$ of order $1\\times1$ and $A'A=\\begin{bmatrix}4&-2&6\\\\-2&1&-3\\\\6&-3&9\\end{bmatrix}$ of order $3\\times3$; both are symmetric",
+    "C": "$AA'=\\begin{bmatrix}4&-2&6\\\\-2&1&-3\\\\6&-3&9\\end{bmatrix}$ and $A'A=\\begin{bmatrix}14\\end{bmatrix}$",
+    "D": "$AA'=\\begin{bmatrix}12\\end{bmatrix}$ and $A'A=\\begin{bmatrix}4&-2&6\\\\-2&1&-3\\\\6&-3&9\\end{bmatrix}$; both are symmetric"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

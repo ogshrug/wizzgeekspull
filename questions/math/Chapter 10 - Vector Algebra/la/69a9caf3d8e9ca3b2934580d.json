@@ -1,0 +1,32 @@
+{
+  "id": "69a9caf3d8e9ca3b2934580d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c4",
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8c9"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} + \\hat{k}$, $\\vec{b} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$, and $\\vec{c} = 3\\hat{i} + \\hat{j} + 2\\hat{k}$. If point A has position vector $\\vec{a}$, B has $\\vec{b}$, and C has $\\vec{c}$:<br /><br />(a) Find the area of triangle ABC using vector algebra.<br /><br />(b) Find the vector equation of the median from A to BC.<br /><br />(c) Show that the median from A to BC is perpendicular to the side AB.",
+  "answeroption": "D",
+  "explanation": "(a) First calculate vectors:<br /><br />$\\vec{AB} = \\vec{b} - \\vec{a} = (2-1)\\hat{i} + (-1-2)\\hat{j} + (3-1)\\hat{k} = \\hat{i} - 3\\hat{j} + 2\\hat{k}$.<br /><br />$\\vec{AC} = \\vec{c} - \\vec{a} = (3-1)\\hat{i} + (1-2)\\hat{j} + (2-1)\\hat{k} = 2\\hat{i} - \\hat{j} + \\hat{k}$.<br /><br />Area of triangle = $\\frac{1}{2}|\\vec{AB} \\times \\vec{AC}|$.<br /><br />$\\vec{AB} \\times \\vec{AC} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -3 & 2 \\\\ 2 & -1 & 1 \\end{vmatrix}$.<br /><br />$= \\hat{i}(-3*1 - 2*-1) - \\hat{j}(1*1 - 2*2) + \\hat{k}(1*-1 - (-3)*2)$.<br /><br />$= (-1)\\hat{i} + 3\\hat{j} + 5\\hat{k}$.<br /><br />Magnitude $= \\sqrt{1^2 + 3^2 + 5^2} = \\sqrt{35}$.<br /><br />Area $= \\frac{1}{2}\\sqrt{35}$.<br /><br />(b) Midpoint of BC:<br /><br />$\\vec{m} = (\\vec{b}+\\vec{c})/2 = (2.5)\\hat{i} + 0\\hat{j} + 2.5\\hat{k}$.<br /><br />$\\vec{m}-\\vec{a} = (2.5-1)\\hat{i} + (0-2)\\hat{j} + (2.5-1)\\hat{k} = 1.5\\hat{i} -2\\hat{j} + 1.5\\hat{k}$.<br /><br />Vector equation of median:<br /><br />$\\vec{r} = (\\hat{i}+2\\hat{j}+\\hat{k}) + \\lambda(1.5\\hat{i} -2\\hat{j} + 1.5\\hat{k})$.<br /><br />(c) $\\vec{AM} = 1.5\\hat{i} -2\\hat{j} + 1.5\\hat{k}$, $\\vec{AB} = \\hat{i} -3\\hat{j} + 2\\hat{k}$.<br /><br />$\\vec{AM}\\cdot\\vec{AB} = 1.5(1) + (-2)(-3) + 1.5(2) = 10.5$.<br /><br />Since the dot product is not zero, the median is not perpendicular to AB.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Area $=\\sqrt{35}$<br />(b) Median: $\\vec{r}=(\\hat{i}+2\\hat{j}+\\hat{k})+\\lambda(\\hat{i}-3\\hat{j}+2\\hat{k})$<br />(c) Median is perpendicular to AB.",
+    "B": "(a) Area $=\\frac{1}{2}\\sqrt{35}$<br />(b) Median: $\\vec{r}=(2\\hat{i}-\\hat{j}+3\\hat{k})+\\lambda(1.5\\hat{i}-2\\hat{j}+1.5\\hat{k})$<br />(c) Median is perpendicular to AB.",
+    "C": "(a) Area $=\\frac{1}{2}\\sqrt{30}$<br />(b) Median: $\\vec{r}=(\\hat{i}+2\\hat{j}+\\hat{k})+\\lambda(1.5\\hat{i}-2\\hat{j}+1.5\\hat{k})$<br />(c) Median is perpendicular to AB.",
+    "D": "(a) Area $=\\frac{1}{2}\\sqrt{35}$<br />(b) Median: $\\vec{r}=(\\hat{i}+2\\hat{j}+\\hat{k})+\\lambda(1.5\\hat{i}-2\\hat{j}+1.5\\hat{k})$<br />(c) Median is not perpendicular to AB."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:26:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

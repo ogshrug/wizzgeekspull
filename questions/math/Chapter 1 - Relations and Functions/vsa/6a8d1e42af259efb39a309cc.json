@@ -1,0 +1,29 @@
+{
+  "id": "6a8d1e42af259efb39a309cc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40"
+  ],
+  "question_type": "VSA",
+  "question": "On $A=\\{1,2,3,4,5\\}$, a relation $R$ is defined by $aRb$ if $a-b$ is even. How many ordered pairs of the form $(x,x)$ necessarily belong to $R$?",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> For an ordered pair of the form $(x,x)$, substitute $a=x$ and $b=x$ in the given condition.<br><b>Step 2:</b> Then $a-b=x-x=0$.<br><b>Step 3:</b> Since $0$ is divisible by $2$, it is even. Therefore, $(x,x)\\in R$ for every $x\\in A$.<br><b>Step 4:</b> The set $A$ contains the five elements $1,2,3,4,5$, so the pairs $(1,1),(2,2),(3,3),(4,4)$ and $(5,5)$ all belong to $R$.<br><b>Step 5:</b> Hence, the relation contains all the diagonal pairs required for reflexivity.<br><b>Final Answer:</b> The number of such ordered pairs is $\\boxed{5}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4$",
+    "B": "$5$",
+    "C": "$3$",
+    "D": "$10$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

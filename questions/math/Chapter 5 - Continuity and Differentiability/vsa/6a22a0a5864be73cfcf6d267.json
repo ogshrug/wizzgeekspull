@@ -1,0 +1,28 @@
+{
+  "id": "6a22a0a5864be73cfcf6d267",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "Verify whether the function f defined by $f(x)=\\begin{cases}x~sin(\\frac{1}{x}),x\\ne0\\\\ 0&,x=0\\end{cases}$ is continuous at $x=0$ or not.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To verify continuity at $x=0$, we must check if the limit of $f(x)$ as $x$ approaches $0$ equals the function value $f(0)$. From the definition, $f(0) = 0$.<br />**Step 2:** We evaluate the limit $\\lim_{x \\to 0} f(x) = \\lim_{x \\to 0} x \\sin(\\frac{1}{x})$.<br />**Step 3:** The sine function, regardless of its argument, always produces values bounded between $-1$ and $1$. Therefore, $-1 \\le \\sin(\\frac{1}{x}) \\le 1$ for all $x \\ne 0$.<br />**Step 4:** Multiply the entire inequality by $|x|$. This gives $-|x| \\le x \\sin(\\frac{1}{x}) \\le |x|$.<br />**Step 5:** As $x \\to 0$, both $-|x| \\to 0$ and $|x| \\to 0$. By the Squeeze Theorem (or Sandwich Theorem), the limit of the middle term must also be $0$. Thus, $\\lim_{x \\to 0} x \\sin(\\frac{1}{x}) = 0$. Since $\\lim_{x \\to 0} f(x) = f(0) = 0$, the function is continuous at $x=0$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

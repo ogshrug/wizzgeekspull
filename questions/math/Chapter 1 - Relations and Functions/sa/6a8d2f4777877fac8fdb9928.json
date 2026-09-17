@@ -1,0 +1,29 @@
+{
+  "id": "6a8d2f4777877fac8fdb9928",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d41"
+  ],
+  "question_type": "SA",
+  "question": "Let $R$ be the relation on $\\mathbb{Z}$ defined by $aRb$ if $5\\mid(a-b)$. Show that $R$ is symmetric.",
+  "answeroption": "C",
+  "explanation": "<b>Given relation</b><br>Suppose $(a,b)\\in R$. Then $5\\mid(a-b)$. Therefore, for some $m\\in\\mathbb{Z}$,<br>$$a-b=5m.$$<br><br><b>Reversing the ordered pair</b><br>We have<br>$$b-a=-5m=5(-m).$$<br>Since $-m\\in\\mathbb{Z}$, it follows that $5\\mid(b-a)$. Hence, $(b,a)\\in R$.<br><br><b>Conclusion</b><br>Thus,<br>$$(a,b)\\in R\\Rightarrow(b,a)\\in R,$$<br>so $R$ is symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is not symmetric because $a-b$ and $b-a$ have opposite signs",
+    "B": "$R$ is symmetric only when $a=b$",
+    "C": "$R$ is symmetric because $5\\mid(a-b)$ implies $5\\mid(b-a)$",
+    "D": "$R$ is antisymmetric because $5\\mid(a-b)$ implies $a=b$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

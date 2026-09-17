@@ -1,0 +1,30 @@
+{
+  "id": "69a927a796358125c95a0dba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study:**<br /><br />The company TechElite designs custom springs, where the force applied F (in Newtons) as a function of the displacement x (in cm) is modeled by the piecewise function:<br /><br />$F(x) = \\begin{cases} 2x + k, & x < 5 \\\\ mx^2 + 3, & x \\geq 5 \\end{cases}$<br /><br />To ensure smooth operation and safety, the function F(x) must be both continuous and differentiable at $x=5$. Management wants to know:<br /><br />(a) Find the values of k and m so that F(x) is continuous and differentiable at $x=5$.<br /><br />(b) Verify that your solution achieves both continuity and differentiability by performing the necessary calculations.",
+  "answeroption": "B",
+  "explanation": "**Step 1:** To ensure continuity at $x=5$, equate the left and right limits:<br /><br />$\\lim_{x\\to 5^-} F(x) = \\lim_{x\\to 5^+} F(x)$<br /><br />$2x + k$ (as $x\\to 5^-$) and $mx^2 + 3$ (as $x\\to 5^+$)<br /><br />So,<br /><br />$2(5) + k = m(5)^2 + 3$<br /><br />$10 + k = 25m + 3$<br /><br />$k = 25m + 3 - 10 = 25m - 7$<br /><br />**Step 2:** To ensure differentiability at $x=5$, set the derivatives equal from both sides:<br /><br />For $x<5$, $F'(x) = 2$<br /><br />For $x\\geq 5$, $F'(x) = 2mx$<br /><br />So,<br /><br />$2 = 2m(5)$<br /><br />$2 = 10m$<br /><br />$m = \\frac{1}{5}$<br /><br />**Step 3:** Substitute m into the k equation:<br /><br />$k = 25\\times \\frac{1}{5} - 7 = 5 - 7 = -2$<br /><br />**Step 4:** Verify continuity at $x=5$:<br /><br />Left: $2(5) + (-2) = 10 - 2 = 8$<br /><br />Right: $(\\frac{1}{5})(25) + 3 = 5 + 3 = 8$<br /><br />So, $F(x)$ is continuous at $x=5$.<br /><br />**Step 5:** Verify differentiability:<br /><br />Left derivative: 2<br /><br />Right derivative: $2 \\times \\frac{1}{5} \\times 5 = 2$<br /><br />Both derivatives are equal, so $F(x)$ is differentiable at $x=5$.<br /><br />**Step 6:**<br /><br />Final answers:<br /><br />$m = \\frac{1}{5},\\quad k = -2$<br /><br />**Step 7:** Both continuity and differentiability at $x=5$ are ensured with these values.<br /><br />**Step 8:** Both conditions checked with explicit calculations above.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $m=\\frac{1}{5},\\ k=2$.<br />(b) Continuity gives left value $12$ and right value $8$, so the function is not continuous.",
+    "B": "(a) $m=\\frac{1}{5},\\ k=-2$.<br />(b) At $x=5$, left value $=2(5)-2=8$ and right value $=\\frac{1}{5}(25)+3=8$; left derivative $=2$ and right derivative $=2\\cdot\\frac{1}{5}\\cdot5=2$. Hence, both continuity and differentiability are satisfied.",
+    "C": "(a) $m=\\frac{2}{5},\\ k=3$.<br />(b) The function is continuous but not differentiable at $x=5$.",
+    "D": "(a) $m=5,\\ k=-2$.<br />(b) The derivatives are unequal, so smooth operation is not ensured."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:50:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

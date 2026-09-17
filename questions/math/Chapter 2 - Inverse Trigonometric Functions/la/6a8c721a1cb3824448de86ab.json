@@ -1,0 +1,29 @@
+{
+  "id": "6a8c721a1cb3824448de86ab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "LA",
+  "question": "(a) Evaluate $\\sec^{-1}\\left(\\sec\\dfrac{5\\pi}{3}\\right)$ by identifying the correct principal value.<br><br>(b) Evaluate $\\csc^{-1}\\left(\\csc\\dfrac{7\\pi}{6}\\right)$ and justify why the original angle cannot be returned directly.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The principal-value range of $\\sec^{-1}x$ is<br>$$[0,\\pi]-\\left\\{\\frac{\\pi}{2}\\right\\}$$<br>Now,<br>$$\\sec\\frac{5\\pi}{3}=2$$<br>Therefore,<br>$$\\sec^{-1}\\left(\\sec\\frac{5\\pi}{3}\\right)=\\sec^{-1}(2)$$<br>The angle in the principal range whose secant is $2$ is $\\dfrac{\\pi}{3}$. Hence,<br>$$\\sec^{-1}\\left(\\sec\\frac{5\\pi}{3}\\right)=\\frac{\\pi}{3}$$<br><br><b>(b)</b><br>The principal-value range of $\\csc^{-1}x$ is<br>$$\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$$<br>Since<br>$$\\csc\\frac{7\\pi}{6}=-2$$<br>we obtain<br>$$\\csc^{-1}\\left(\\csc\\frac{7\\pi}{6}\\right)=\\csc^{-1}(-2)$$<br>The angle in the principal range whose cosecant is $-2$ is $-\\dfrac{\\pi}{6}$. Therefore,<br>$$\\csc^{-1}\\left(\\csc\\frac{7\\pi}{6}\\right)=-\\frac{\\pi}{6}$$<br>The original angle $\\dfrac{7\\pi}{6}$ cannot be returned because it does not lie in the principal-value range of $\\csc^{-1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\dfrac{5\\pi}{3}$<br><br>(b) $\\dfrac{7\\pi}{6}$",
+    "B": "(a) $\\dfrac{2\\pi}{3}$<br><br>(b) $\\dfrac{\\pi}{6}$",
+    "C": "(a) $\\dfrac{\\pi}{3}$<br><br>(b) $-\\dfrac{\\pi}{6}$",
+    "D": "(a) $-\\dfrac{\\pi}{3}$<br><br>(b) $\\dfrac{5\\pi}{6}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a92e8162be6a70cd184d33",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Prove that $\\cot^{-1}\\left(\\frac{\\sqrt{1+\\sin x}+\\sqrt{1-\\sin x}}{\\sqrt{1+\\sin x}-\\sqrt{1-\\sin x}}\\right)=\\frac{x}{2}$ where $0<x<\\frac{\\pi}{2}$.",
+  "answeroption": "D",
+  "explanation": "Use identities:<br /><br />$1+\\sin x=(\\cos\\frac{x}{2}+\\sin\\frac{x}{2})^2$.<br /><br />$1-\\sin x=(\\cos\\frac{x}{2}-\\sin\\frac{x}{2})^2$.<br /><br />Thus square roots become $\\cos\\frac{x}{2}+\\sin\\frac{x}{2}$ and $\\cos\\frac{x}{2}-\\sin\\frac{x}{2}$.<br /><br />Substitute in expression.<br /><br />Numerator $=2\\cos\\frac{x}{2}$.<br /><br />Denominator $=2\\sin\\frac{x}{2}$.<br /><br />Hence expression becomes $\\cot\\frac{x}{2}$.<br /><br />Thus $\\cot^{-1}(\\cot\\frac{x}{2})=\\frac{x}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Using half-angle identities, the given fraction becomes $\\tan\\frac{x}{2}$, so the value is $\\cot^{-1}\\left(\\tan\\frac{x}{2}\\right)=\\frac{\\pi}{2}-\\frac{x}{2}$.",
+    "B": "Using half-angle identities, the given fraction becomes $\\cot x$, so the value is $x$.",
+    "C": "Using half-angle identities, the given fraction becomes $\\tan x$, so the value is $\\frac{\\pi}{2}-x$.",
+    "D": "Using half-angle identities, the given fraction becomes $\\cot\\frac{x}{2}$, so the value is $\\cot^{-1}\\left(\\cot\\frac{x}{2}\\right)=\\frac{x}{2}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:19:29 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

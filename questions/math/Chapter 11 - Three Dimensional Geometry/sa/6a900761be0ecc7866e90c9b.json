@@ -1,0 +1,29 @@
+{
+  "id": "6a900761be0ecc7866e90c9b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "SA",
+  "question": "Find the shortest distance between the lines $\\vec{r}=(\\hat{i}+\\hat{k})+\\lambda(\\hat{i}+\\hat{j})$ and $\\vec{r}=\\hat{j}+\\mu(\\hat{i}+\\hat{k})$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Position and direction vectors</b><br>For the first line,<br>$$\\vec{a}_1=\\hat{i}+\\hat{k},\\quad \\vec{b}_1=\\hat{i}+\\hat{j}.$$<br>For the second line,<br>$$\\vec{a}_2=\\hat{j},\\quad \\vec{b}_2=\\hat{i}+\\hat{k}.$$<br><b>Step 2: Vector joining points on the lines</b><br>$$\\vec{a}_2-\\vec{a}_1=-\\hat{i}+\\hat{j}-\\hat{k}.$$<br><b>Step 3: Vector perpendicular to both lines</b><br>$$\\vec{b}_1\\times\\vec{b}_2=(\\hat{i}+\\hat{j})\\times(\\hat{i}+\\hat{k})=\\hat{i}-\\hat{j}-\\hat{k}.$$<br>Hence,<br>$$|\\vec{b}_1\\times\\vec{b}_2|=\\sqrt{3}.$$<br><b>Step 4: Shortest-distance formula</b><br>$$d=\\frac{|(\\vec{a}_2-\\vec{a}_1)\\cdot(\\vec{b}_1\\times\\vec{b}_2)|}{|\\vec{b}_1\\times\\vec{b}_2|}.$$<br>Therefore,<br>$$d=\\frac{|-1-1+1|}{\\sqrt{3}}=\\frac{1}{\\sqrt{3}}.$$<br><b>Step 5: Final result</b><br>The shortest distance between the two lines is $\\frac{1}{\\sqrt{3}}$ unit.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{3}$ unit",
+    "B": "$\\sqrt3$ units",
+    "C": "$\\frac{1}{\\sqrt3}$ unit",
+    "D": "$\\frac{2}{\\sqrt3}$ units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

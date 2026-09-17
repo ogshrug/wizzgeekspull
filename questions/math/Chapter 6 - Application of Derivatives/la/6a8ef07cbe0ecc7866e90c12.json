@@ -1,0 +1,32 @@
+{
+  "id": "6a8ef07cbe0ecc7866e90c12",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f",
+    "6a13e9908c819562f933f980",
+    "6a13e9908c819562f933f981",
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "LA",
+  "question": "For the function $f(x)=x^3-2x^2+5$, answer the following:<br><br>(a) Obtain the linear approximation of $f$ near $x=2$.<br><br>(b) Use it to approximate $f(2.02)$.<br><br>(c) Calculate the exact value of $f(2.02)$ and hence determine the absolute error and percentage error in the linear approximation.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For $f(x)=x^3-2x^2+5$,<br>$$f'(x)=3x^2-4x$$<br>At $x=2$,<br>$$f(2)=2^3-2(2)^2+5=5$$<br>and<br>$$f'(2)=3(2)^2-4(2)=4$$<br>Therefore, the linear approximation near $x=2$ is<br>$$L(x)=f(2)+f'(2)(x-2)$$<br>$$L(x)=5+4(x-2)$$<br><br><b>(b)</b><br>For $x=2.02$,<br>$$L(2.02)=5+4(0.02)=5.08$$<br>Therefore,<br>$$f(2.02)\\approx 5.08$$<br><br><b>(c)</b><br>The exact value is<br>$$f(2.02)=(2.02)^3-2(2.02)^2+5$$<br>$$f(2.02)=8.242408-8.1608+5=5.081608$$<br>The absolute error is<br>$$|5.081608-5.08|=0.001608$$<br>The percentage error is<br>$$\\frac{0.001608}{5.081608}\\times 100\\approx 0.0316\\%$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $L(x)=5+2(x-2)$<br>(b) $f(2.02)\\approx5.04$<br>(c) Exact $5.081608$; absolute error $0.041608$; percentage error $0.8188\\%$",
+    "B": "(a) $L(x)=5+8(x-2)$<br>(b) $f(2.02)\\approx5.16$<br>(c) Exact $5.081608$; absolute error $0.078392$; percentage error $\\approx1.54\\%$",
+    "C": "(a) $L(x)=5+4(x-2)$<br>(b) $f(2.02)\\approx5.08$<br>(c) Exact $5.081608$; absolute error $0.001608$; percentage error $\\approx0.0316\\%$",
+    "D": "(a) $L(x)=4+5(x-2)$<br>(b) $f(2.02)\\approx4.10$<br>(c) Exact $5.081608$; absolute error $0.981608$; percentage error $\\approx19.32\\%$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

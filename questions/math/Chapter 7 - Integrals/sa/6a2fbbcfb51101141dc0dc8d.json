@@ -1,0 +1,27 @@
+{
+  "id": "6a2fbbcfb51101141dc0dc8d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b",
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "SA",
+  "question": "Find : $\\int\\frac{x^{3}+x}{x^{4}-9}dx.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Separate the integral into two parts based on the terms in the numerator: $\\int \\frac{x^3}{x^4-9} dx + \\int \\frac{x}{x^4-9} dx$. Let these be $I_1$ and $I_2$.<br />**Step 2:** Solve $I_1 = \\int \\frac{x^3}{x^4-9} dx$. Let $x^4 - 9 = t$, so $4x^3 dx = dt \\Rightarrow x^3 dx = \\frac{dt}{4}$. The integral becomes $\\frac{1}{4} \\int \\frac{dt}{t} = \\frac{1}{4} log|t| = \\frac{1}{4} log|x^4 - 9| + C_1$.<br />**Step 3:** Solve $I_2 = \\int \\frac{x}{x^4-9} dx$. Rewrite the denominator as $(x^2)^2 - 3^2$. Let $x^2 = u$, so $2x dx = du \\Rightarrow x dx = \\frac{du}{2}$.<br />**Step 4:** The integral becomes $\\frac{1}{2} \\int \\frac{du}{u^2 - 3^2}$. This is a standard formula $\\int \\frac{dx}{x^2-a^2} = \\frac{1}{2a}log|\\frac{x-a}{x+a}|$.<br />**Step 5:** Applying the formula gives $\\frac{1}{2} \\cdot \\frac{1}{2(3)} log|\\frac{u-3}{u+3}| = \\frac{1}{12} log|\\frac{x^2-3}{x^2+3}| + C_2$.<br />**Step 6:** Combine the results to get the final answer: $\\frac{1}{4} log|x^4 - 9| + \\frac{1}{12} log|\\frac{x^2-3}{x^2+3}| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

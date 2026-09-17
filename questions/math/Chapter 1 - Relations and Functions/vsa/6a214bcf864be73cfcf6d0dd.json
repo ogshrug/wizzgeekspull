@@ -1,0 +1,29 @@
+{
+  "id": "6a214bcf864be73cfcf6d0dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "VSA",
+  "question": "Check whether $f:R-\\{3\\}\\rightarrow R$ defined as $f(x)=\\frac{x-2}{x-3}$ is onto or not.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To check if the function is onto, we set $f(x) = y$, meaning $\\frac{x-2}{x-3} = y$ for some $y \\in R$.<br /><br />**Step 2:** We solve for $x$ in terms of $y$: $x - 2 = y(x - 3) \\implies x - 2 = xy - 3y \\implies x(1 - y) = 2 - 3y \\implies x = \\frac{2 - 3y}{1 - y}$.<br /><br />**Step 3:** For $y = 1$, the value of $x$ is undefined. Therefore, $1 \\in R$ (codomain) has no pre-image in the domain, meaning the function is not onto.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

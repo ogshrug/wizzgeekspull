@@ -1,0 +1,33 @@
+{
+  "id": "6a8e94602e54880055a0a67c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d5b",
+    "69c65fc040512f018fa94d5d"
+  ],
+  "question_type": "SA",
+  "question": "Express $$A=\\begin{bmatrix}3 & 5 \\\\ -1 & 2\\end{bmatrix}$$ as the sum of a symmetric matrix and a skew-symmetric matrix.",
+  "answeroption": "D",
+  "explanation": "<b>Decomposition of a square matrix</b><br>A square matrix can be written as $$A=\\frac{1}{2}(A+A^T)+\\frac{1}{2}(A-A^T)$$<br><b>Transpose</b><br>$$A^T=\\begin{bmatrix}3 & -1 \\\\ 5 & 2\\end{bmatrix}$$<br><b>Symmetric part</b><br>$$\\frac{1}{2}(A+A^T)=\\frac{1}{2}\\begin{bmatrix}6 & 4 \\\\ 4 & 4\\end{bmatrix}=\\begin{bmatrix}3 & 2 \\\\ 2 & 2\\end{bmatrix}$$<br><b>Skew-symmetric part</b><br>$$\\frac{1}{2}(A-A^T)=\\frac{1}{2}\\begin{bmatrix}0 & 6 \\\\ -6 & 0\\end{bmatrix}=\\begin{bmatrix}0 & 3 \\\\ -3 & 0\\end{bmatrix}$$<br><b>Required representation</b><br>$$A=\\begin{bmatrix}3 & 2 \\\\ 2 & 2\\end{bmatrix}+\\begin{bmatrix}0 & 3 \\\\ -3 & 0\\end{bmatrix}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$A=\\begin{bmatrix}3&3\\\\3&2\\end{bmatrix}+\\begin{bmatrix}0&2\\\\-4&0\\end{bmatrix}$",
+    "B": "$A=\\begin{bmatrix}3&2\\\\-2&2\\end{bmatrix}+\\begin{bmatrix}0&3\\\\1&0\\end{bmatrix}$",
+    "C": "$A=\\begin{bmatrix}3&5\\\\5&2\\end{bmatrix}+\\begin{bmatrix}0&0\\\\-6&0\\end{bmatrix}$",
+    "D": "$A=\\begin{bmatrix}3&2\\\\2&2\\end{bmatrix}+\\begin{bmatrix}0&3\\\\-3&0\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

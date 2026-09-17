@@ -1,0 +1,31 @@
+{
+  "id": "69a9c48962be6a70cd184e3d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A company needs to enclose two identical adjoining rectangular gardens using 400 m fencing in total (no fencing between shared side). What are the garden dimensions for maximum total area?<br /><br />(a) Derive area function for one rectangle in terms of variable $x$.<br /><br />(b) Solve for critical points and find maximum area.<br /><br />(c) Confirm maxima using the first derivative test.",
+  "answeroption": "C",
+  "explanation": "Let length = $x$, width = $y$.<br /><br />Perimeter: $3y + 4x = 400 \\implies y = \\frac{400 - 4x}{3}$.<br /><br />Area $A = 2xy = \\frac{800x - 8x^2}{3}$.<br /><br />$\\frac{dA}{dx}=\\frac{800-16x}{3}$ gives $x=50$.<br /><br />$y=66.67$. Maximum confirmed by first derivative test.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=2xy=\\frac{400x-4x^2}{3}$.<br />(b) Critical point is $x=25$, $y=100$.<br />(c) First derivative changes from positive to negative, so area is maximum.",
+    "B": "(a) $A=xy=\\frac{800x-8x^2}{3}$.<br />(b) Critical point is $x=50$, $y=66.67$.<br />(c) First derivative changes from negative to positive, so area is minimum.",
+    "C": "(a) $A=2xy=\\frac{800x-8x^2}{3}$.<br />(b) Critical point is $x=50$, $y=66.67$, giving maximum area.<br />(c) First derivative changes from positive to negative at $x=50$, so the area is maximum.",
+    "D": "(a) $A=2xy=800x-8x^2$.<br />(b) Critical point is $x=100$, $y=50$.<br />(c) First derivative test shows the area is minimum."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:59:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

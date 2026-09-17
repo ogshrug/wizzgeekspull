@@ -1,0 +1,31 @@
+{
+  "id": "6a264ead864be73cfcf6d32c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "At the start of a cricket match, a coin is tossed and the team winning the toss has the opportunity to choose to bat or bowl. Such a coin is unbiased with equal probabilities of getting head and tail.<br /><br />Based on the above information, answer the following questions:<br />**(a)** If such a coin is tossed 2 times, then find the probability distribution of number of tails.<br />**(b)** Find the probability of getting at least one head in three tosses of such a coin.",
+  "answeroption": "",
+  "explanation": "**(a)** **Step 1:** For an unbiased coin, the probability of a tail is $P(T) = \\frac{1}{2}$ and a head is $P(H) = \\frac{1}{2}$. When tossed 2 times, the sample space is $\\{HH, HT, TH, TT\\}$. Let random variable $X$ be the number of tails, taking values $0, 1,$ or $2$. Evaluate probabilities for each case: $P(X=0) = P(HH) = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$.<br />**Step 2:** For $X=1$ (one tail), the outcomes are $HT$ and $TH$, so $P(X=1) = P(HT) + P(TH) = \\frac{1}{4} + \\frac{1}{4} = \\frac{1}{2}$. For $X=2$ (two tails), the outcome is $TT$, so $P(X=2) = P(TT) = \\frac{1}{4}$. The probability distribution of $X$ is $\\{(0, \\frac{1}{4}), (1, \\frac{1}{2}), (2, \\frac{1}{4})\\}$.<br /><br />**(b)** **Step 1:** When a coin is tossed 3 times, the total number of outcomes is $2^3 = 8$. We need the probability of getting at least one head. The complement of \"at least one head\" is \"no heads\", which means getting all tails ($TTT$).<br />**Step 2:** The probability of getting all tails in 3 independent tosses is $P(TTT) = \\frac{1}{2} \\times \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{8}$. Therefore, using the complement rule, the probability of getting at least one head is $1 - P(TTT) = 1 - \\frac{1}{8} = \\frac{7}{8}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-2",
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a264ead864be73cfcf6d32c/1782278707-0.png?t=1782298508502"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a22790f864be73cfcf6d1f1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "VSA",
+  "question": "In a Linear Programming Problem, the objective function $Z=5x+4y$ needs to be maximised under constraints $3x+y\\le6$, $x\\le1$, $x, y\\ge0$. Express the LPP on the graph and shade the feasible region and mark the corner points.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Graph the constraint line $3x+y=6$. It intercepts the axes at $(2, 0)$ and $(0, 6)$. Since the inequality is $\\le$, the valid region lies below or left of this line.<br />**Step 2:** Graph the vertical constraint line $x=1$. The valid region is to the left of this line.<br />**Step 3:** The non-negativity constraints $x,y \\ge 0$ confine the region strictly to the first quadrant.<br />**Step 4:** The feasible region is the polygon bounded by the y-axis, the x-axis, the line $x=1$, and the line $3x+y=6$.<br />**Step 5:** Identify the corner points of this bounded region: Origin $(0,0)$, intersection of $x=1$ and x-axis $(1,0)$, intersection of y-axis and $3x+y=6$ $(0,6)$.<br />**Step 6:** Find the intersection of $x=1$ and $3x+y=6$: $3(1)+y=6 \\implies y=3$. So the final corner point is $(1,3)$. The corner points are $(0,0), (1,0), (1,3), (0,6)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9b33d589ce36f368b4893",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int_2^4 \\frac{dx}{x \\ln x}$.",
+  "answeroption": "D",
+  "explanation": "Let $u=\\ln x$, so $du=\\frac{1}{x}dx$.<br /><br />When $x=2$, $u=\\ln2$ and when $x=4$, $u=\\ln4$.<br /><br />Thus the integral becomes $\\int_{\\ln2}^{\\ln4} \\frac{du}{u}$.<br /><br />$=[\\ln|u|]_{\\ln2}^{\\ln4}$.<br /><br />$=\\ln(\\ln4)-\\ln(\\ln2)=\\ln\\left(\\frac{\\ln4}{\\ln2}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\ln4-\\ln2$",
+    "B": "$\\frac{\\ln4}{\\ln2}$",
+    "C": "$\\ln(\\ln4+\\ln2)$",
+    "D": "$\\ln\\left(\\frac{\\ln4}{\\ln2}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:45:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

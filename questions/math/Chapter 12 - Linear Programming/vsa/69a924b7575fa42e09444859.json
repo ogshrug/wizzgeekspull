@@ -1,0 +1,29 @@
+{
+  "id": "69a924b7575fa42e09444859",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "VSA",
+  "question": "If $Z = 4x + y$ is to be maximised subject to $x + 2y \\leq 8$, $2x + y \\leq 8$, $x, y \\geq 0$, at what point does $Z$ attain its maximum?",
+  "answeroption": "D",
+  "explanation": "Corner points occur at:<br />(1) $x + 2y = 8$<br />(2) $2x + y = 8$<br /><br />Multiply (2) by 2: $4x + 2y = 16$<br />Subtract (1): $4x + 2y - (x + 2y) = 16 - 8 \\implies 3x = 8 \\implies x=8/3$<br />$2x + y=8\\implies 2*(8/3)+y=8\\implies y=8-16/3=8/3$<br /><br />So, $(8/3,8/3)$<br /><br />Plug $x=8, y=0$: $8+2*0=8$ ok.<br />Plug $x=0, y=4$: $2*0+4=4\\leq8$ ok.<br /><br />Thus, maximum $Z$ at $(8/3,8/3): Z=4*(8/3)+(8/3)=32/3+8/3=40/3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(0,4)$",
+    "B": "$(4,0)$",
+    "C": "$(0,0)$",
+    "D": "$\\left(\\frac{8}{3},\\frac{8}{3}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:37:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

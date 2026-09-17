@@ -1,0 +1,29 @@
+{
+  "id": "69a9ada9d8e9ca3b293457d5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int \\frac{dx}{(x^2 + 1)^2}$",
+  "answeroption": "C",
+  "explanation": "Use the standard reduction formula:<br /><br />$\\int \\frac{dx}{(x^2+a^2)^2}=\\frac{1}{2a^2}\\cdot\\frac{x}{x^2+a^2}+\\frac{1}{2a^3}\\tan^{-1}\\left(\\frac{x}{a}\\right)+C$.<br /><br />Here $a=1$.<br /><br />Substituting gives:<br /><br />$\\int \\frac{dx}{(x^2+1)^2}=\\frac{1}{2}\\cdot\\frac{x}{x^2+1}+\\frac{1}{2}\\tan^{-1}x + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x}{x^2+1}+\\frac{1}{2}\\tan^{-1}x+C$",
+    "B": "$\\frac{1}{2}\\cdot\\frac{x}{x^2+1}-\\frac{1}{2}\\tan^{-1}x+C$",
+    "C": "$\\frac{1}{2}\\cdot\\frac{x}{x^2+1}+\\frac{1}{2}\\tan^{-1}x+C$",
+    "D": "$\\frac{1}{2}\\tan^{-1}x+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:22:01 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

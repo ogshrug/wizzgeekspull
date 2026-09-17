@@ -1,0 +1,26 @@
+{
+  "id": "6a32348d6dbc98396e70a75e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate: $sin^{-1}(sin\\frac{3\\pi}{5})$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The principal value branch of the inverse sine function is defined within the closed interval $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$. Since the angle $\\frac{3\\pi}{5}$ exceeds $\\frac{\\pi}{2}$, it falls outside this principal range.<br />**Step 2:** We utilize the trigonometric identity $\\sin\\theta = \\sin(\\pi - \\theta)$ to rewrite the expression: $\\sin\\frac{3\\pi}{5} = \\sin\\left(\\pi - \\frac{3\\pi}{5}\\right) = \\sin\\frac{2\\pi}{5}$.<br />**Step 3:** Since $\\frac{2\\pi}{5}$ lies perfectly within $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$, the expression evaluates directly via the identity $\\sin^{-1}(\\sin x) = x$, yielding the final principal value $\\frac{2\\pi}{5}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a9116cd751910886affba58",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "For an inter-section mathematics assessment, answer sheets from three sections $A$, $B$ and $C$ are combined before one sheet is selected at random for academic review. Section $A$ contributes $\\frac{2}{5}$ of the sheets, section $B$ contributes $\\frac{7}{20}$, and section $C$ contributes $\\frac{1}{4}$. The probabilities that a randomly chosen student from these sections answers a particular reasoning question correctly are $\\frac{3}{4}$, $\\frac{3}{5}$ and $\\frac{4}{5}$ respectively. Let $K$ denote the event that the selected answer sheet contains a correct response to that question. The reviewer knows that the chosen response is correct but does not know its section.<br><br><b>(a)</b> Find the probability that the selected sheet is from section $B$ and contains a correct response.<br><br><b>(b)</b> Using total probability, calculate $P(K)$.<br><br><b>(c)</b> Using Bayes’ theorem, find $P(B|K)$.<br><br><b>(d)</b> Determine which of the three sections is most likely to have produced the correct response and justify your conclusion.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>For section $B$,<br>$$P(B)=\\frac{7}{20},\\quad P(K|B)=\\frac{3}{5}$$<br>Therefore,<br>$$P(B\\cap K)=P(B)P(K|B)=\\frac{7}{20}\\times\\frac{3}{5}=\\frac{21}{100}$$<br>Hence, the required probability is $\\frac{21}{100}$.<br><br><b>(b)</b><br>Using the theorem of total probability,<br>$$P(K)=P(A)P(K|A)+P(B)P(K|B)+P(C)P(K|C)$$<br>Substituting the values,<br>$$P(K)=\\frac{2}{5}\\times\\frac{3}{4}+\\frac{7}{20}\\times\\frac{3}{5}+\\frac{1}{4}\\times\\frac{4}{5}$$<br>$$P(K)=\\frac{3}{10}+\\frac{21}{100}+\\frac{1}{5}$$<br>$$P(K)=\\frac{30}{100}+\\frac{21}{100}+\\frac{20}{100}=\\frac{71}{100}$$<br>Thus, $P(K)=\\frac{71}{100}$.<br><br><b>(c)</b><br>By Bayes’ theorem,<br>$$P(B|K)=\\frac{P(B)P(K|B)}{P(K)}$$<br>Therefore,<br>$$P(B|K)=\\frac{\\frac{21}{100}}{\\frac{71}{100}}=\\frac{21}{71}$$<br>Hence, the probability that the correct response came from section $B$ is $\\frac{21}{71}$.<br><br><b>(d)</b><br>For section $A$,<br>$$P(A|K)=\\frac{\\frac{2}{5}\\times\\frac{3}{4}}{\\frac{71}{100}}=\\frac{\\frac{30}{100}}{\\frac{71}{100}}=\\frac{30}{71}$$<br>For section $C$,<br>$$P(C|K)=\\frac{\\frac{1}{4}\\times\\frac{4}{5}}{\\frac{71}{100}}=\\frac{\\frac{20}{100}}{\\frac{71}{100}}=\\frac{20}{71}$$<br>Also, from part (c), $P(B|K)=\\frac{21}{71}$.<br>Therefore,<br>$$\\frac{30}{71}>\\frac{21}{71}>\\frac{20}{71}$$<br>Hence, section $A$ is the most likely section to have produced the correct response.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(B\\cap K)=\\frac{21}{100}$<br>(b) $P(K)=\\frac{69}{100}$<br>(c) $P(B|K)=\\frac{21}{69}$<br>(d) Section $B$ is most likely",
+    "B": "(a) $P(B\\cap K)=\\frac{21}{100}$<br>(b) $P(K)=\\frac{71}{100}$<br>(c) $P(B|K)=\\frac{21}{71}$<br>(d) Section $A$ is most likely, with posterior probabilities $\\frac{30}{71},\\frac{21}{71},\\frac{20}{71}$ for $A,B,C$ respectively",
+    "C": "(a) $P(B\\cap K)=\\frac{7}{20}$<br>(b) $P(K)=\\frac{71}{100}$<br>(c) $P(B|K)=\\frac{35}{71}$<br>(d) Section $B$ is most likely",
+    "D": "(a) $P(B\\cap K)=\\frac{21}{100}$<br>(b) $P(K)=\\frac{71}{100}$<br>(c) $P(B|K)=\\frac{20}{71}$<br>(d) Section $C$ is most likely, with posterior probability $\\frac{30}{71}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

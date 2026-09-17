@@ -1,0 +1,29 @@
+{
+  "id": "6a8d24bd550d28a069ec32df",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=ax+7$, where $a\\in\\mathbb{R}$. If $f$ is not one-one, determine the value of $a$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Apply the one-one condition</b><br>Consider two real numbers $x_1$ and $x_2$ such that $f(x_1)=f(x_2)$. Then<br>$$ax_1+7=ax_2+7.$$<br><br><b>Step 2: Simplify the equation</b><br>Subtracting $7$ and rearranging gives<br>$$a(x_1-x_2)=0.$$<br><br><b>Step 3: Examine the value of $a$</b><br>If $a\\ne0$, then $x_1-x_2=0$, so $x_1=x_2$. Hence, the function would be one-one.<br><br><b>Step 4: Obtain the required value</b><br>For the function not to be one-one, we must have $a=0$. In this case, $f(x)=7$ for every real $x$, so distinct inputs have the same image.<br><br><b>Final Answer:</b> The required value is $\\boxed{a=0}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=7$",
+    "B": "$a=1$",
+    "C": "$a=-7$",
+    "D": "$a=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

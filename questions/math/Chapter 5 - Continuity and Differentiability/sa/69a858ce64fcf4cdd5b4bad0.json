@@ -1,0 +1,29 @@
+{
+  "id": "69a858ce64fcf4cdd5b4bad0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "SA",
+  "question": "If $f(x) = x^{\\sin x}$ for $x>0$, show that $f'(x) = x^{\\sin x}\\left(\\cos x\\ln x + \\frac{\\sin x}{x}\\right)$.",
+  "answeroption": "A",
+  "explanation": "Let $y = x^{\\sin x}$.<br /><br />Take logarithm:<br /><br />$\\ln y = \\sin x \\cdot \\ln x$.<br /><br />Differentiate both sides:<br /><br />$\\frac{1}{y} \\frac{dy}{dx} = \\cos x \\ln x + \\frac{\\sin x}{x}$.<br /><br />Multiply by $y$:<br /><br />$\\frac{dy}{dx} = x^{\\sin x}\\left(\\cos x\\ln x + \\frac{\\sin x}{x}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x^{\\sin x}\\left(\\cos x\\ln x+\\frac{\\sin x}{x}\\right)$",
+    "B": "$x^{\\sin x}\\left(\\sin x\\ln x+\\frac{\\cos x}{x}\\right)$",
+    "C": "$\\sin x\\,x^{\\sin x-1}$",
+    "D": "$x^{\\sin x}\\left(\\cos x+\\ln x\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:07:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

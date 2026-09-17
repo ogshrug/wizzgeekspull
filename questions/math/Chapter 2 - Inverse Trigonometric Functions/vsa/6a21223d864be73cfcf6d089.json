@@ -1,0 +1,28 @@
+{
+  "id": "6a21223d864be73cfcf6d089",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate: $\\tan\\left(\\sin^{-1}1 - \\cos^{-1}\\left(-\\frac{1}{2}\\right)\\right)$",
+  "answeroption": "",
+  "explanation": "**Step 1: Evaluate $\\sin^{-1}1$**  \nWe know that $\\sin\\left(\\frac{\\pi}{2}\\right) = 1$. Also, $\\frac{\\pi}{2}$ lies in the principal range of $\\sin^{-1}$ which is $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$. So,  \n$$\\sin^{-1}1 = \\frac{\\pi}{2}$$\n\n**Step 2: Evaluate $\\cos^{-1}\\left(-\\frac{1}{2}\\right)$**  \nWe know that $\\cos\\left(\\frac{2\\pi}{3}\\right) = -\\frac{1}{2}$. Also, $\\frac{2\\pi}{3}$ lies in the principal range of $\\cos^{-1}$ which is $[0, \\pi]$. So,  \n$$\\cos^{-1}\\left(-\\frac{1}{2}\\right) = \\frac{2\\pi}{3}$$\n\n**Step 3: Substitute and Simplify**  \n$$\\tan\\left(\\sin^{-1}1 - \\cos^{-1}\\left(-\\frac{1}{2}\\right)\\right) = \\tan\\left(\\frac{\\pi}{2} - \\frac{2\\pi}{3}\\right)$$  \n$$= \\tan\\left(\\frac{3\\pi - 4\\pi}{6}\\right) = \\tan\\left(-\\frac{\\pi}{6}\\right) = -\\frac{1}{\\sqrt{3}}$$  \nThus, the value is $-\\frac{1}{\\sqrt{3}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

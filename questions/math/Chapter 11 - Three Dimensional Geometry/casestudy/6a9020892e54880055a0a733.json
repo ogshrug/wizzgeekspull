@@ -1,0 +1,29 @@
+{
+  "id": "6a9020892e54880055a0a733",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a three-dimensional classroom model, two adjustable straight lines are represented by $$L_1:\\vec r=(\\hat i+2\\hat k)+\\lambda(\\hat i+2\\hat j+\\hat k)$$ and $$L_2:\\vec r=(2\\hat i+\\hat j)+\\mu(2\\hat i-\\hat j+m\\hat k),$$ where $m$ is a real constant. The first line passes through $A(1,0,2)$ and the second through $B(2,1,0)$. The value of $m$ is to be selected so that both lines lie in a common plane. Students use the condition involving the vector joining a point on one line to a point on the other and the direction vectors of the two lines to investigate coplanarity.<br><br><b>(a)</b> Identify the direction vectors of $L_1$ and $L_2$ and find $\\overrightarrow{AB}$.<br><br><b>(b)</b> Calculate $(\\overrightarrow{AB})\\cdot(\\vec b_1\\times\\vec b_2)$ in terms of $m$.<br><br><b>(c)</b> Determine the value of $m$ for which the two lines are coplanar.<br><br><b>(d)</b> For the value obtained in part (c), verify that the lines are coplanar but not parallel.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>From the equations of the lines, their direction vectors are<br>$$\\vec b_1=\\hat i+2\\hat j+\\hat k=(1,2,1)$$<br>and<br>$$\\vec b_2=2\\hat i-\\hat j+m\\hat k=(2,-1,m).$$<br>Also, $A(1,0,2)$ and $B(2,1,0)$, so<br>$$\\overrightarrow{AB}=(2-1)\\hat i+(1-0)\\hat j+(0-2)\\hat k=\\hat i+\\hat j-2\\hat k.$$<br>Thus, $\\overrightarrow{AB}=(1,1,-2)$.<br><br><b>(b)</b><br>First calculate the cross product:<br>$$\\vec b_1\\times\\vec b_2=(1,2,1)\\times(2,-1,m)=(2m+1,2-m,-5).$$<br>Therefore,<br>$$\\overrightarrow{AB}\\cdot(\\vec b_1\\times\\vec b_2)=(1,1,-2)\\cdot(2m+1,2-m,-5).$$<br>Hence,<br>$$\\overrightarrow{AB}\\cdot(\\vec b_1\\times\\vec b_2)=2m+1+2-m+10=m+13.$$<br><br><b>(c)</b><br>For two lines to be coplanar, the required condition is<br>$$\\overrightarrow{AB}\\cdot(\\vec b_1\\times\\vec b_2)=0.$$<br>Using the result obtained above,<br>$$m+13=0.$$<br>Therefore,<br>$$m=-13.$$<br><br><b>(d)</b><br>For $m=-13$,<br>$$\\overrightarrow{AB}\\cdot(\\vec b_1\\times\\vec b_2)=-13+13=0.$$<br>Hence, the coplanarity condition is satisfied.<br>The direction vectors now are $(1,2,1)$ and $(2,-1,-13)$. Their corresponding components are not proportional because<br>$$\\frac{1}{2}\\neq\\frac{2}{-1}.$$<br>Thus, the lines are not parallel. Therefore, for $m=-13$, the two lines are coplanar but not parallel.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec b_1=(1,2,1)$, $\\vec b_2=(2,-1,m)$, $\\overrightarrow{AB}=(1,-1,-2)$<br>(b) Scalar triple product $=m+13$<br>(c) $m=-13$<br>(d) The lines are coplanar but parallel",
+    "B": "(a) $\\vec b_1=(1,2,1)$, $\\vec b_2=(2,-1,m)$, $\\overrightarrow{AB}=(1,1,-2)$<br>(b) Scalar triple product $=m+13$<br>(c) $m=-13$<br>(d) The scalar triple product is $0$ and the direction vectors are not proportional, so the lines are coplanar but not parallel",
+    "C": "(a) $\\vec b_1=(1,2,1)$, $\\vec b_2=(2,-1,m)$, $\\overrightarrow{AB}=(1,1,-2)$<br>(b) Scalar triple product $=m-13$<br>(c) $m=13$<br>(d) The lines are coplanar but not parallel",
+    "D": "(a) $\\vec b_1=(1,2,1)$, $\\vec b_2=(2,-1,m)$, $\\overrightarrow{AB}=(1,1,2)$<br>(b) Scalar triple product $=3m+7$<br>(c) $m=-\\frac{7}{3}$<br>(d) The lines are not coplanar"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

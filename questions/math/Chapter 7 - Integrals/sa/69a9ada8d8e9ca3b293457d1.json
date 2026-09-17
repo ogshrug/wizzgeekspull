@@ -1,0 +1,29 @@
+{
+  "id": "69a9ada8d8e9ca3b293457d1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Prove that $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$ for a continuous function $f$ on $[0, a]$ by using substitution.",
+  "answeroption": "D",
+  "explanation": "Let $I=\\int_0^a f(x)dx$.<br /><br />Substitute $x=a-t$. Then when $x=0$, $t=a$ and when $x=a$, $t=0$. Also $dx=-dt$.<br /><br />So $I=\\int_a^0 f(a-t)(-dt)$.<br /><br />Reversing limits gives $I=\\int_0^a f(a-t)dt$.<br /><br />Replacing $t$ by $x$ gives $I=\\int_0^a f(a-x)dx$.<br /><br />Hence proved.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\int_0^a f(x)dx=\\int_a^0 f(a-x)dx$",
+    "B": "$\\int_0^a f(x)dx=a\\int_0^a f(a-x)dx$",
+    "C": "$\\int_0^a f(x)dx=\\frac{1}{2}\\int_0^a f(a-x)dx$",
+    "D": "$\\int_0^a f(x)dx=\\int_0^a f(a-x)dx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:22:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

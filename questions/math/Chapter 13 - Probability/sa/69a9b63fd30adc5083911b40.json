@@ -1,0 +1,29 @@
+{
+  "id": "69a9b63fd30adc5083911b40",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "If a pair of dice is thrown, what is the probability that the sum is 8, given that the sum is more than 6?",
+  "answeroption": "A",
+  "explanation": "All possible outcomes: $6 \\times 6 = 36$<br />Favorable to $F$: sum > 6: 7,8,9,10,11,12<br /><br />Sum=7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1): 6 cases<br />Sum=8: (2,6),(3,5),(4,4),(5,3),(6,2): 5 cases<br />Sum=9: (3,6),(4,5),(5,4),(6,3): 4 cases<br />Sum=10: (4,6),(5,5),(6,4): 3 cases<br />Sum=11: (5,6),(6,5): 2 cases<br />Sum=12: (6,6): 1 case<br />Total = 6+5+4+3+2+1 = 21<br /><br />Number favorable to sum=8 (given sum>6): 5<br />Thus, probability $= \\frac{5}{21}$<br /><br />So, required probability is $\\boxed{\\frac{5}{21}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{5}{21}$",
+    "B": "$\\frac{5}{36}$",
+    "C": "$\\frac{1}{6}$",
+    "D": "$\\frac{6}{21}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:58:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

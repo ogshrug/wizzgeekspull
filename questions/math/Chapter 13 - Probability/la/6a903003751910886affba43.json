@@ -1,0 +1,30 @@
+{
+  "id": "6a903003751910886affba43",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "LA",
+  "question": "One card is lost from a well-shuffled deck of $52$ playing cards. From the remaining deck, two cards are drawn successively without replacement and both are found to be face cards. Determine the probability that the lost card was a face card.",
+  "answeroption": "C",
+  "explanation": "<b>Given Information</b><br>A standard deck contains $12$ face cards and $40$ non-face cards. Let $E_1$ be the event that the lost card is a face card and $E_2$ the event that the lost card is a non-face card. Let $A$ denote the event that the two cards drawn from the remaining deck are both face cards. Then<br>$$P(E_1)=\\frac{12}{52},\\qquad P(E_2)=\\frac{40}{52}.$$<br>If a face card was lost, $11$ face cards remain among $51$ cards, so<br>$$P(A|E_1)=\\frac{11}{51}\\times\\frac{10}{50}.$$<br>If a non-face card was lost, all $12$ face cards remain, so<br>$$P(A|E_2)=\\frac{12}{51}\\times\\frac{11}{50}.$$<br><br><b>Applying Total Probability and Bayes’ Theorem</b><br>The theorem of total probability gives<br>$$P(A)=P(E_1)P(A|E_1)+P(E_2)P(A|E_2).$$<br>Therefore, by Bayes’ theorem,<br>$$P(E_1|A)=\\frac{P(E_1)P(A|E_1)}{P(E_1)P(A|E_1)+P(E_2)P(A|E_2)}.$$<br>Substituting the values,<br>$$P(E_1|A)=\\frac{\\frac{12}{52}\\times\\frac{11}{51}\\times\\frac{10}{50}}{\\frac{12}{52}\\times\\frac{11}{51}\\times\\frac{10}{50}+\\frac{40}{52}\\times\\frac{12}{51}\\times\\frac{11}{50}}.$$<br>Common factors cancel, giving<br>$$P(E_1|A)=\\frac{12\\times10}{12\\times10+40\\times12}=\\frac{120}{600}=\\frac{1}{5}.$$<br><br><b>Final Result</b><br>Hence, the probability that the lost card was a face card is $\\frac{1}{5}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{13}$",
+    "B": "$\\frac{2}{11}$",
+    "C": "$\\frac{1}{5}$",
+    "D": "$\\frac{1}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

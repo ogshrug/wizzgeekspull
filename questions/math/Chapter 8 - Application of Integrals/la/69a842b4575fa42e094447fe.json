@@ -1,0 +1,31 @@
+{
+  "id": "69a842b4575fa42e094447fe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998"
+  ],
+  "question_type": "LA",
+  "question": "Let $C$ be the region enclosed between $y = \\sin x$ and $y = \\cos x$ from $x = 0$ to $x = \\frac{\\pi}{2}$.<br /><br />(a) Find the area of $C$.<br /><br />(b) Suppose a vertical strip of width $dx$ is removed at $x = \\alpha$ such that the area to the left equals the area to the right of $x=\\alpha$ within region $C$. Find $\\alpha$ (in terms of $\\pi$). Justify all steps.",
+  "answeroption": "D",
+  "explanation": "Split at $x=\\frac{\\pi}{4}$ where $\\sin x=\\cos x$.<br /><br />Total area $= \\int_0^{\\frac{\\pi}{4}} (\\cos x-\\sin x)dx + \\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{2}} (\\sin x-\\cos x)dx = 2\\sqrt{2}-2$.<br /><br />Half-area $= \\sqrt{2}-1$.<br /><br />Solving $\\sin\\alpha+\\cos\\alpha=\\sqrt{2}$ gives $\\alpha=\\frac{\\pi}{4}$.<br /><br />Hence, the required value is $\\alpha = \\frac{\\pi}{4}$.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69a842b4575fa42e094447fe/1778585861-0.jpeg?t=1778585861796"
+  ],
+  "options": {
+    "A": "$\\alpha=\\frac{\\pi}{6}$",
+    "B": "$\\alpha=\\frac{\\pi}{3}$",
+    "C": "$\\alpha=\\frac{\\pi}{2}$",
+    "D": "$\\alpha=\\frac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 14:33:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:30:50 GMT"
+}

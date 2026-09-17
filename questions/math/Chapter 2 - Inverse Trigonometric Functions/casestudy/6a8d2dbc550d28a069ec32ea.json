@@ -1,0 +1,31 @@
+{
+  "id": "6a8d2dbc550d28a069ec32ea",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Students compare the standard inverse tangent graph with the transformed function $p(x)=\\tan^{-1}(2-x)$. The inner linear expression is defined for every real $x$ and assumes every real value. The negative coefficient reverses the direction of variation, while the principal range of inverse tangent determines two horizontal boundary values that the graph approaches but never attains. The class uses a few exact values to locate the curve and then explains its overall shape.<br><br><b>(a)</b> Determine the domain of $p$.<br><br><b>(b)</b> Find the range of $p$.<br><br><b>(c)</b> Calculate the coordinates corresponding to $2-x=1$, $2-x=0$, and $2-x=-1$.<br><br><b>(d)</b> Describe the variation and end behaviour of the graph, including the horizontal levels it approaches.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The function $\\tan^{-1}u$ is defined for every real value of $u$. Since $2-x$ is real for every real $x$, the domain of $p$ is $\\mathbb{R}$.<br><br><b>(b)</b><br>As $x$ varies over $\\mathbb{R}$, the expression $2-x$ also assumes every real value. The principal range of $\\tan^{-1}x$ is $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$. Therefore, the range of $p$ is $$\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$$<br><br><b>(c)</b><br>When $2-x=1$, $x=1$ and $p(1)=\\tan^{-1}(1)=\\frac{\\pi}{4}$. When $2-x=0$, $x=2$ and $p(2)=0$. When $2-x=-1$, $x=3$ and $p(3)=\\tan^{-1}(-1)=-\\frac{\\pi}{4}$. Thus, the points are $\\left(1,\\frac{\\pi}{4}\\right)$, $(2,0)$, and $\\left(3,-\\frac{\\pi}{4}\\right)$.<br><br><b>(d)</b><br>The expression $2-x$ decreases as $x$ increases, while $\\tan^{-1}u$ increases with $u$. Hence, $p$ decreases over $\\mathbb{R}$. As $x$ becomes increasingly negative, $2-x$ becomes increasingly positive and $p(x)$ approaches $\\frac{\\pi}{2}$. As $x$ becomes increasingly positive, $2-x$ becomes increasingly negative and $p(x)$ approaches $-\\frac{\\pi}{2}$. Neither boundary value is attained.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain: $\\mathbb{R}$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$<br><br>(c) Points: $\\left(1,-\\dfrac{\\pi}{4}\\right)$, $(2,0)$, and $\\left(3,\\dfrac{\\pi}{4}\\right)$<br><br>(d) The graph is increasing; it attains $-\\dfrac{\\pi}{2}$ and $\\dfrac{\\pi}{2}$",
+    "B": "(a) Domain: $(-\\infty,2)\\cup(2,\\infty)$<br><br>(b) Range: $\\left(-\\dfrac{\\pi}{2},0\\right)\\cup\\left(0,\\dfrac{\\pi}{2}\\right)$<br><br>(c) Points: $\\left(1,\\dfrac{\\pi}{4}\\right)$ and $\\left(3,-\\dfrac{\\pi}{4}\\right)$; the value at $x=2$ is undefined<br><br>(d) The graph has two decreasing branches",
+    "C": "(a) Domain: $\\mathbb{R}$<br><br>(b) Range: $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$<br><br>(c) Points: $\\left(1,\\dfrac{\\pi}{4}\\right)$, $(2,0)$, and $\\left(3,-\\dfrac{\\pi}{4}\\right)$<br><br>(d) The graph is decreasing; $p(x)\\to\\dfrac{\\pi}{2}$ as $x$ becomes increasingly negative and $p(x)\\to-\\dfrac{\\pi}{2}$ as $x$ becomes increasingly positive, without attaining either level",
+    "D": "(a) Domain: $[-1,1]$<br><br>(b) Range: $\\left[-\\dfrac{\\pi}{4},\\dfrac{\\pi}{4}\\right]$<br><br>(c) Points: $\\left(-1,\\dfrac{\\pi}{4}\\right)$, $(0,0)$, and $\\left(1,-\\dfrac{\\pi}{4}\\right)$<br><br>(d) The graph is decreasing only on $[-1,1]$ and has no horizontal boundary levels"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

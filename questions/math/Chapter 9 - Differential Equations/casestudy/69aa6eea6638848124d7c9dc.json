@@ -1,0 +1,30 @@
+{
+  "id": "69aa6eea6638848124d7c9dc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A bank manages a mutual fund where inflows and outflows cause the total fund value V (in crores) to change over time. Suppose $\\frac{dV}{dt} + aV = b\\sin(\\omega t)$, where a > 0 models administrative costs (as a fraction per year), and $b\\sin(\\omega t)$ models periodic market inflows/outflows (in crores). At t=0, V = 40 crores. Parameters: a = 0.1 per year, b = 5 crores, $\\omega = \\pi$ per year.<br /><br />a) Set up the integrating factor and obtain the general solution for V(t).<br /><br />b) Find the particular solution and compute V after one year.<br /><br />c) Does the system ever reach a steady periodic behaviour? If so, find the amplitude of the long-term oscillation and interpret its economic meaning.",
+  "answeroption": "D",
+  "explanation": "(a) Given differential equation:<br /><br />$\\frac{dV}{dt} + aV = b\\sin(\\omega t)$<br /><br />It is a first-order linear ODE.<br /><br />Integrating factor:<br /><br />$I.F. = e^{\\int a dt} = e^{at}$<br /><br />Multiply both sides:<br /><br />$e^{at}\\frac{dV}{dt} + ae^{at}V = be^{at}\\sin(\\omega t)$<br /><br />$\\frac{d}{dt}(Ve^{at}) = be^{at}\\sin(\\omega t)$<br /><br />Integrating both sides:<br /><br />$Ve^{at} = b\\int e^{at}\\sin(\\omega t)dt + C$<br /><br />Using standard integral:<br /><br />$\\int e^{at}\\sin(\\omega t)dt = \\frac{e^{at}}{a^2+\\omega^2}[a\\sin(\\omega t)-\\omega\\cos(\\omega t)]$<br /><br />Thus,<br /><br />$V = \\frac{b}{a^2+\\omega^2}(a\\sin(\\omega t)-\\omega\\cos(\\omega t)) + Ce^{-at}$<br /><br />(b) Using initial condition V(0)=40:<br /><br />$V(0) = -\\frac{b\\omega}{a^2+\\omega^2} + C$<br /><br />$40 = -\\frac{5\\times\\pi}{0.01+\\pi^2} + C$<br /><br />$\\pi^2 \\approx 9.87$ so denominator $=9.88$<br /><br />$\\frac{5\\times3.14}{9.88} \\approx 1.59$<br /><br />$40 = -1.59 + C$<br /><br />$C = 41.59$<br /><br />Particular solution:<br /><br />$V(t) = \\frac{5}{9.88}[0.1\\sin(\\pi t)-\\pi\\cos(\\pi t)] + 41.59e^{-0.1t}$<br /><br />At $t=1$:<br /><br />$\\sin(\\pi)=0$, $\\cos(\\pi)=-1$<br /><br />$V(1)=\\frac{5\\times3.14}{9.88}+41.59(0.9048)$<br /><br />$=1.59+37.65=39.24$ crores<br /><br />(c) As $t\\to\\infty$, $e^{-0.1t}\\to0$.<br /><br />Steady state solution:<br /><br />$V_{ss}(t)=\\frac{5}{9.88}[0.1\\sin(\\pi t)-\\pi\\cos(\\pi t)]$<br /><br />Amplitude:<br /><br />$A=\\frac{5}{9.88}\\sqrt{0.1^2+\\pi^2}=0.506\\times3.145=1.59$ crores.<br /><br />Thus the fund value eventually oscillates with amplitude 1.59 crores due to periodic market inflows and outflows.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) I.F. $=e^{-at}$ and $V=Ce^{at}$<br />(b) $V(1)\\approx41.59$ crores<br />(c) No steady periodic behaviour occurs",
+    "B": "(a) I.F. $=e^{at}$ and $V=\\frac{b}{a^2+\\omega^2}[a\\cos(\\omega t)-\\omega\\sin(\\omega t)]+Ce^{-at}$<br />(b) $V(1)\\approx37.65$ crores<br />(c) Amplitude $\\approx0.506$ crores",
+    "C": "(a) I.F. $=e^{\\omega t}$ and $V=\\frac{b}{a+\\omega}\\sin(\\omega t)+C$<br />(b) $V(1)\\approx40$ crores<br />(c) Amplitude $\\approx5$ crores",
+    "D": "(a) I.F. $=e^{at}$ and $V=\\frac{b}{a^2+\\omega^2}[a\\sin(\\omega t)-\\omega\\cos(\\omega t)]+Ce^{-at}$<br />(b) $V(t)=\\frac{5}{9.88}[0.1\\sin(\\pi t)-\\pi\\cos(\\pi t)]+41.59e^{-0.1t}$ and $V(1)\\approx39.24$ crores<br />(c) Yes, steady periodic behaviour occurs; amplitude $\\approx1.59$ crores"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:06:34 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

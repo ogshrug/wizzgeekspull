@@ -1,0 +1,30 @@
+{
+  "id": "6a15874e6050c058f876e4e5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\vec{a}.\\vec{b}>0$ and $|\\vec{a}.\\vec{b}|=|\\vec{a}\\times\\vec{b}|$, then the angle between $\\vec{a}$ and $\\vec{b}$ is:",
+  "answeroption": "A",
+  "explanation": "**Step 1: Expand using vector product definitions**<br />Let $\\theta$ represent the spatial angle between vectors $\\vec{a}$ and $\\vec{b}$. We write out the formal definitions for both products:<br />- Scalar dot product: $\\vec{a} \\cdot \\vec{b} = |\\vec{a}||\\vec{b}|\\cos\\theta$<br />- Vector cross product magnitude: $|\\vec{a} \\times \\vec{b}| = |\\vec{a}||\\vec{b}|\\sin\\theta$<br /><br />**Step 2: Set up the equality equation**<br />We are given that their magnitudes are equal:<br />$||\\vec{a}||\\vec{b}|\\cos\\theta| = |\\vec{a}||\\vec{b}|\\sin\\theta$<br />Assuming non-zero vectors ($|\\vec{a}| \\neq 0, |\\vec{b}| \\neq 0$), we divide both sides by the common factor $|\\vec{a}||\\vec{b}|$:<br />|\\cos\\theta| = \\sin\\theta \\implies \\tan\\theta = 1 \\quad (\\text{since } \\sin\\theta \\ge 0 \\text{ for vector angles})<br /><br />**Step 3: Apply the given sign constraint**<br />We are given that $\\vec{a} \\cdot \\vec{b} > 0$. Since $\\vec{a} \\cdot \\vec{b} = |\\vec{a}||\\vec{b}|\\cos\\theta > 0$, the cosine term must be positive ($\\cos\\theta > 0$). This restricts our angle $\\theta$ to the first quadrant ($0 \\le \\theta < \\frac{\\pi}{2}$). Solving $\\tan\\theta = 1$ within this quadrant gives $\\theta = \\frac{\\pi}{4}$. This matches Option A.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{4}$",
+    "B": "$\\frac{\\pi}{3}$",
+    "C": "$\\frac{2\\pi}{3}$",
+    "D": "$\\frac{3\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

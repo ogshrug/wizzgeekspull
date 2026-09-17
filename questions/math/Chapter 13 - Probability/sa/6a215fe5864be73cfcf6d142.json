@@ -1,0 +1,29 @@
+{
+  "id": "6a215fe5864be73cfcf6d142",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "SA",
+  "question": "A box contains 6 cards numbered 1 to 6. A student is asked to pick up two cards, one by one after replacement and note down the numbers on the cards. Let A be the event of getting sum of the numbers on two cards as 10, and B, the event of a number other than 4 on the first card selected. Find P(A and B) and find whether the events A and B are independent events or not.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Sample space size $n(S) = 6 \\times 6 = 36$.<br />**Step 2:** Event A (sum=10): {(4,6), (5,5), (6,4)}. $P(A) = 3/36 = 1/12$.<br />**Step 3:** Event B (not 4 on first card): The first card is 1,2,3,5,6 (5 options), second is any (6 options). Total 30 outcomes. $P(B) = 30/36 = 5/6$.<br />**Step 4:** A and B is event where sum is 10 AND first card is NOT 4. From A, outcomes {(5,5), (6,4)} satisfy this. So $n(A \\cap B) = 2$. $P(A \\cap B) = 2/36 = 1/18$.<br />**Step 5:** Check independence: $P(A)P(B) = (1/12)(5/6) = 5/72$. Since $P(A \\cap B) = 1/18 \\neq 5/72$, they are NOT independent.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

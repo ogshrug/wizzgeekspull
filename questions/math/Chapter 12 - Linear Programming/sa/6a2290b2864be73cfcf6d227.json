@@ -1,0 +1,26 @@
+{
+  "id": "6a2290b2864be73cfcf6d227",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically: Maximise $z=500x+300y$, subject to constraints $x+2y \\le 12$, $2x+y \\le 12$, $4x+5y \\ge 20$, $x \\ge 0$, $y \\ge 0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Plot boundary lines. L1: $x+2y=12$ through $(12,0), (0,6)$. Region below. L2: $2x+y=12$ through $(6,0), (0,12)$. Region below. L3: $4x+5y=20$ through $(5,0), (0,4)$. Region above.<br />**Step 2:** Find intersection of L1 and L2: solve system to get $(4,4)$.<br />**Step 3:** Corner points of bounded feasible region are A(5, 0), B(6, 0), C(4, 4), D(0, 6), E(0, 4).<br />**Step 4:** Evaluate $Z$ at corners. Z(A) = 2500, Z(B) = 3000, Z(C) = 3200, Z(D) = 1800, Z(E) = 1200.<br />**Step 5:** Maximum value is 3200 at (4, 4).",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8ed14f2e54880055a0a6d3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d80",
+    "69c6610140512f018fa94d81",
+    "69c6610140512f018fa94d82"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a classroom study of exponential functions, students consider the function $f(x)=2+3e^x$, where $x\\in\\mathbb{R}$. They observe that the exponential part of the function remains positive for every real value of $x$ and that differentiating $e^x$ produces the same exponential expression. The class uses this property to compare $f(x)$ with its derivative and then determines an input corresponding to a prescribed derivative value. Natural logarithms may be used when an exponential equation has to be solved.<br><br><b>(a)</b> Calculate $f(0)$.<br><br><b>(b)</b> Find $f'(x)$.<br><br><b>(c)</b> Verify that $f'(x)=f(x)-2$ for every real $x$.<br><br><b>(d)</b> Determine the value of $x$ for which $f'(x)=6$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>Given $f(x)=2+3e^x$,<br><br>$$f(0)=2+3e^0=2+3=5.$$<br><br>Hence, $f(0)=5$.<br><br><b>(b)</b><br>Using $\\frac{d}{dx}(e^x)=e^x$,<br><br>$$f'(x)=\\frac{d}{dx}(2+3e^x)=3e^x.$$<br><br>Thus, $f'(x)=3e^x$.<br><br><b>(c)</b><br>Since $f(x)=2+3e^x$,<br><br>$$f(x)-2=3e^x.$$<br><br>From part (b), $f'(x)=3e^x$. Therefore,<br><br>$$f'(x)=f(x)-2.$$<br><br>Hence, the required relation is verified for every real $x$.<br><br><b>(d)</b><br>Given $f'(x)=6$,<br><br>$$3e^x=6.$$<br><br>Therefore,<br><br>$$e^x=2.$$<br><br>Taking natural logarithm on both sides,<br><br>$$x=\\log2.$$<br><br>Hence, the required value is $x=\\log2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(0)=3$<br>(b) $f'(x)=3e^x$<br>(c) $f'(x)=f(x)-2$<br>(d) $x=\\log2$",
+    "B": "(a) $f(0)=5$<br>(b) $f'(x)=3e^x$<br>(c) $f'(x)=f(x)+2$<br>(d) $x=\\log2$",
+    "C": "(a) $f(0)=5$<br>(b) $f'(x)=3xe^{x-1}$<br>(c) $f'(x)=f(x)-3$<br>(d) $x=2$",
+    "D": "(a) $f(0)=5$<br>(b) $f'(x)=3e^x$<br>(c) $f'(x)=f(x)-2$<br>(d) $x=\\log2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

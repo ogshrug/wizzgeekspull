@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed218751910886affb9b5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics group investigates repeated differentiation through the function $$y=A\\sin x+B\\cos x,$$ where $A$ and $B$ are real constants. The students first obtain the first derivative and then differentiate once more to obtain the second order derivative. They are also told that the function satisfies $y(0)=3$ and $y'(0)=4$. Their objective is to establish a relation involving the function and its second derivative and then use the given values at $x=0$ to determine the constants occurring in the original expression.<br><br><b>(a)</b> Find $\\frac{dy}{dx}$.<br><br><b>(b)</b> Find $\\frac{d^2y}{dx^2}$.<br><br><b>(c)</b> Verify that $\\frac{d^2y}{dx^2}+y=0$.<br><br><b>(d)</b> Determine the values of $A$ and $B$ using $y(0)=3$ and $y'(0)=4$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Given<br><br>$$y=A\\sin x+B\\cos x.$$<br><br>Differentiating with respect to $x$,<br><br>$$\\frac{dy}{dx}=A\\cos x-B\\sin x.$$<br><br><b>(b)</b><br>Differentiating the first derivative again with respect to $x$,<br><br>$$\\frac{d^2y}{dx^2}=-A\\sin x-B\\cos x.$$<br><br>Thus, the second order derivative is $-A\\sin x-B\\cos x$.<br><br><b>(c)</b><br>Since<br><br>$$y=A\\sin x+B\\cos x$$<br><br>and<br><br>$$\\frac{d^2y}{dx^2}=-A\\sin x-B\\cos x=-y,$$<br><br>we obtain<br><br>$$\\frac{d^2y}{dx^2}+y=-y+y=0.$$<br><br>Hence, the required relation is verified.<br><br><b>(d)</b><br>Using $y(0)=3$,<br><br>$$A\\sin0+B\\cos0=3.$$<br><br>Therefore,<br><br>$$B=3.$$<br><br>Also,<br><br>$$y'(x)=A\\cos x-B\\sin x.$$<br><br>Using $y'(0)=4$,<br><br>$$A\\cos0-B\\sin0=4,$$<br><br>which gives<br><br>$$A=4.$$<br><br>Hence, $A=4$ and $B=3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dy}{dx}=A\\cos x-B\\sin x$<br>(b) $\\frac{d^2y}{dx^2}=-A\\sin x-B\\cos x$<br>(c) $\\frac{d^2y}{dx^2}+y=0$<br>(d) $A=4,\\ B=3$",
+    "B": "(a) $\\frac{dy}{dx}=A\\cos x+B\\sin x$<br>(b) $\\frac{d^2y}{dx^2}=-A\\sin x+B\\cos x$<br>(c) $\\frac{d^2y}{dx^2}-y=0$<br>(d) $A=3,\\ B=4$",
+    "C": "(a) $\\frac{dy}{dx}=A\\sin x-B\\cos x$<br>(b) $\\frac{d^2y}{dx^2}=A\\cos x+B\\sin x$<br>(c) $\\frac{d^2y}{dx^2}+y=0$<br>(d) $A=4,\\ B=3$",
+    "D": "(a) $\\frac{dy}{dx}=A\\cos x-B\\sin x$<br>(b) $\\frac{d^2y}{dx^2}=A\\sin x+B\\cos x$<br>(c) $\\frac{d^2y}{dx^2}-y=0$<br>(d) $A=3,\\ B=4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

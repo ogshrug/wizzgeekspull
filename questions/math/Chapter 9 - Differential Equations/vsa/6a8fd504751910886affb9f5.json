@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd504751910886affb9f5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ae",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "VSA",
+  "question": "The equation $x\\frac{dy}{dx}+2y=x^3$, $x>0$, is to be solved by the integrating factor method. Determine its integrating factor after first reducing it to standard form.",
+  "answeroption": "B",
+  "explanation": "Step 1: The given equation is $x\\frac{dy}{dx}+2y=x^3$. Divide throughout by $x$ to obtain the standard form.<br>Step 2: This gives $\\frac{dy}{dx}+\\frac{2}{x}y=x^2$. Therefore, $P=\\frac{2}{x}$.<br>Step 3: The integrating factor is $e^{\\int P\\,dx}=e^{\\int\\frac{2}{x}dx}$.<br>Step 4: Since $x>0$, $\\int\\frac{2}{x}dx=2\\log x=\\log x^2$. Thus, $\\text{I.F.}=e^{\\log x^2}=x^2$.<br>Step 5: Therefore, after reducing the equation to standard form, its integrating factor is $x^2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x$",
+    "B": "$x^2$",
+    "C": "$\\frac{1}{x^2}$",
+    "D": "$e^{2x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

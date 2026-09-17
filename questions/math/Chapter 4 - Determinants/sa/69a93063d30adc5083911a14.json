@@ -1,0 +1,29 @@
+{
+  "id": "69a93063d30adc5083911a14",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\begin{bmatrix} x & 1 & 1 \\\\ 1 & x & 1 \\\\ 1 & 1 & x \\end{bmatrix}$. Find all real $x$ for which $|A|=2$.",
+  "answeroption": "B",
+  "explanation": "Compute the determinant of the matrix.<br />$|A| = \\begin{vmatrix} x & 1 & 1 \\\\ 1 & x & 1 \\\\ 1 & 1 & x \\end{vmatrix}$.<br />Expand along the first row.<br />$x\\begin{vmatrix}x&1\\\\1&x\\end{vmatrix} -1\\begin{vmatrix}1&1\\\\1&x\\end{vmatrix}+1\\begin{vmatrix}1&x\\\\1&1\\end{vmatrix}$.<br />Compute each minor.<br />$\\begin{vmatrix}x&1\\\\1&x\\end{vmatrix}=x^2-1$, $\\begin{vmatrix}1&1\\\\1&x\\end{vmatrix}=x-1$, $\\begin{vmatrix}1&x\\\\1&1\\end{vmatrix}=1-x$.<br />Substitute into the expression.<br />$=x(x^2-1)-(x-1)+(1-x)$.<br />Simplify.<br />$=x^3-3x+2$.<br />Set the determinant equal to $2$.<br />$x^3-3x+2=2$.<br />$x^3-3x=0$.<br />Factorize.<br />$x(x^2-3)=0$.<br />Thus $x=0$, $x=\\sqrt{3}$, or $x=-\\sqrt{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=1,\\ -1,\\ 0$",
+    "B": "$x=0,\\ \\sqrt{3},\\ -\\sqrt{3}$",
+    "C": "$x=2,\\ -2$",
+    "D": "$x=\\sqrt{2},\\ -\\sqrt{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:27:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

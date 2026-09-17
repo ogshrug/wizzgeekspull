@@ -1,0 +1,24 @@
+{
+  "id": "6a1587e96050c058f876e4e9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation $y~dx-x~dy+(x~log~x)dx=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rearrange the differential equation $y dx - x dy + (x \\log x)dx = 0$ into the standard linear form $\\frac{dy}{dx} + P(x)y = Q(x)$. Dividing by $x dx$ gives $\\frac{dy}{dx} - \\frac{1}{x}y = \\log x$, where $P(x) = -\\frac{1}{x}$ and $Q(x) = \\log x$.<br /><br />**Step 2:** Compute the integrating factor (IF) using the formula $IF = e^{\\int P(x) dx}$: $IF = e^{\\int -\\frac{1}{x} dx} = e^{-\\log x} = x^{-1} = \\frac{1}{x}$.<br /><br />**Step 3:** Apply the general solution formula $y(IF) = \\int Q(x)(IF) dx + C$: $y \\left(\\frac{1}{x}\\right) = \\int \\log x \\left(\\frac{1}{x}\\right) dx + C$.<br /><br />**Step 4:** Evaluate the integral $\\int \\frac{\\log x}{x} dx$ using the substitution $t = \\log x$ and $dt = \\frac{1}{x} dx$: $\\int t dt = \\frac{t^2}{2} = \\frac{(\\log x)^2}{2}$.<br /><br />**Step 5:** Substitute the evaluated integral back to find the final equation: $\\frac{y}{x} = \\frac{(\\log x)^2}{2} + C \\Rightarrow y = \\frac{x(\\log x)^2}{2} + Cx$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

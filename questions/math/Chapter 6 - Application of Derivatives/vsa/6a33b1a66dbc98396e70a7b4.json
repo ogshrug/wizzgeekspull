@@ -1,0 +1,26 @@
+{
+  "id": "6a33b1a66dbc98396e70a7b4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "VSA",
+  "question": "The radius of a cylinder is decreasing at a rate of $2\\text{ cm/s}$ and the altitude is increasing at the rate of $3\\text{ cm/s}.$ Find the rate of change of volume of this cylinder when its radius is $4\\text{ cm}$ and altitude is $6\\text{ cm}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Write the standard geometric formula for the volume of a cylinder: $V = \\pi r^2 h$.<br />**Step 2:** Differentiate both sides implicitly with respect to time $t$ using the product rule: $\\frac{dV}{dt} = \\pi \\left( 2rh\\frac{dr}{dt} + r^2\\frac{dh}{dt} \\right)$.<br />**Step 3:** Substitute the given rate values ($\\frac{dr}{dt} = -2\\text{ cm/s}$, $\\frac{dh}{dt} = 3\\text{ cm/s}$, $r = 4\\text{ cm}$, and $h = 6\\text{ cm}$) into the differentiated equation: $\\frac{dV}{dt} = \\pi \\left( 2(4)(6)(-2) + (4)^2(3) \\right) = \\pi(-96 + 48) = -48\\pi\\text{ cm}^3\\text{/s}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

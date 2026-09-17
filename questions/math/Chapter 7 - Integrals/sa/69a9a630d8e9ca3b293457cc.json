@@ -1,0 +1,29 @@
+{
+  "id": "69a9a630d8e9ca3b293457cc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Using substitution evaluate $\\int \\cos(2x)dx$.",
+  "answeroption": "C",
+  "explanation": "Let $u=2x$ so $du=2dx$ and $dx=\\frac{du}{2}$.<br /><br />Substitute into the integral:<br /><br />$\\int \\cos(2x)dx=\\frac{1}{2}\\int \\cos u du$.<br /><br />$=\\frac{1}{2}\\sin u+C$.<br /><br />Replacing $u=2x$ gives:<br /><br />$\\frac{1}{2}\\sin(2x)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sin(2x)+C$",
+    "B": "$2\\sin(2x)+C$",
+    "C": "$\\frac{1}{2}\\sin(2x)+C$",
+    "D": "$-\\frac{1}{2}\\sin(2x)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:50:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

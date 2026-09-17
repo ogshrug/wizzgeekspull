@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9a1d2e54880055a0a67f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d51",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "LA",
+  "question": "Determine the values of $x$, $y$, $z$ and $w$ for which the matrix equation $$2\\begin{bmatrix}x&1\\\\y&-2\\end{bmatrix}-\\begin{bmatrix}1&z\\\\3&w\\end{bmatrix}=\\begin{bmatrix}5&-2\\\\1&-7\\end{bmatrix}$$ is satisfied, and verify the obtained values by substitution.",
+  "answeroption": "A",
+  "explanation": "<b>Simplification</b><br><br>Multiplying the first matrix by $2$, $$2\\begin{bmatrix}x&1\\\\y&-2\\end{bmatrix}=\\begin{bmatrix}2x&2\\\\2y&-4\\end{bmatrix}$$ Hence, $$\\begin{bmatrix}2x&2\\\\2y&-4\\end{bmatrix}-\\begin{bmatrix}1&z\\\\3&w\\end{bmatrix}=\\begin{bmatrix}2x-1&2-z\\\\2y-3&-4-w\\end{bmatrix}$$ By equality of matrices, corresponding elements must be equal. Therefore, $2x-1=5$, $2-z=-2$, $2y-3=1$ and $-4-w=-7$. Solving these equations gives $2x=6$, so $x=3$; $z=4$; $2y=4$, so $y=2$; and $w=3$.<br><br><b>Verification</b><br><br>Substituting $x=3$, $y=2$, $z=4$ and $w=3$ in the left-hand side, $$2\\begin{bmatrix}3&1\\\\2&-2\\end{bmatrix}-\\begin{bmatrix}1&4\\\\3&3\\end{bmatrix}=\\begin{bmatrix}6&2\\\\4&-4\\end{bmatrix}-\\begin{bmatrix}1&4\\\\3&3\\end{bmatrix}=\\begin{bmatrix}5&-2\\\\1&-7\\end{bmatrix}$$ which is equal to the right-hand side. Hence, $x=3$, $y=2$, $z=4$ and $w=3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=3,\\ y=2,\\ z=4,\\ w=3$",
+    "B": "$x=2,\\ y=3,\\ z=4,\\ w=3$",
+    "C": "$x=3,\\ y=2,\\ z=-4,\\ w=3$",
+    "D": "$x=3,\\ y=2,\\ z=4,\\ w=-3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9a09751910886affb955",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "SA",
+  "question": "Using the inverse-matrix method, solve $2x+3y=7$ and $x+2y=4$. Hence, find $x^2+y^2$.",
+  "answeroption": "A",
+  "explanation": "<b>Matrix representation</b><br>The system can be written as $AX=B$, where $$A=\\begin{bmatrix}2&3\\\\1&2\\end{bmatrix},\\quad X=\\begin{bmatrix}x\\\\y\\end{bmatrix},\\quad B=\\begin{bmatrix}7\\\\4\\end{bmatrix}$$<br><b>Inverse of the coefficient matrix</b><br>Since $|A|=4-3=1$, $$A^{-1}=\\begin{bmatrix}2&-3\\\\-1&2\\end{bmatrix}$$<br><b>Calculation of the solution matrix</b><br>Using $X=A^{-1}B$, $$X=\\begin{bmatrix}2&-3\\\\-1&2\\end{bmatrix}\\begin{bmatrix}7\\\\4\\end{bmatrix}=\\begin{bmatrix}14-12\\\\-7+8\\end{bmatrix}=\\begin{bmatrix}2\\\\1\\end{bmatrix}$$<br><b>Required value</b><br>Therefore, $$x^2+y^2=2^2+1^2=5$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=2$, $y=1$, and $x^2+y^2=5$",
+    "B": "$x=1$, $y=2$, and $x^2+y^2=5$",
+    "C": "$x=2$, $y=-1$, and $x^2+y^2=5$",
+    "D": "$x=3$, $y=1$, and $x^2+y^2=10$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

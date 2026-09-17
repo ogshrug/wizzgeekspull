@@ -1,0 +1,16 @@
+{
+  "id": "6995750a65eab9d13e9be0ef",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "698eb6089d20b56bde515bb7",
+  "question": "A Zener diode regulator is built using an ideal Zener diode of breakdown voltage $V_Z=6.2\\,\\text{V}$ with minimum Zener current $I_{Z(min)}=5\\,\\text{mA}$ and maximum Zener power rating $P_{Z(max)}=0.50\\,\\text{W}$.\n\nThe supply varies in the range $V_S=12\\,\\text{V}$ to $15\\,\\text{V}$. A series resistor $R_S=120\\,\\Omega$ is used. The load current can vary from $I_L=20\\,\\text{mA}$ to $40\\,\\text{mA}$.\n\nAssuming regulation holds when the Zener is in breakdown, determine whether regulation is maintained over the full range, and find the maximum power dissipated in (i) the Zener and (ii) the series resistor.",
+  "options": {
+    "A": "Regulation is maintained for all given $V_S$ and $I_L$; $P_{Z(max\\,actual)}\\approx 0.33\\,\\text{W}$ and $P_{R_S(max)}\\approx 0.65\\,\\text{W}$",
+    "B": "Regulation fails at $V_S=12\\,\\text{V}$ and $I_L=40\\,\\text{mA}$; $P_{Z(max\\,actual)}\\approx 0.33\\,\\text{W}$ and $P_{R_S(max)}\\approx 0.65\\,\\text{W}$",
+    "C": "Regulation is maintained, but Zener power exceeds rating: $P_{Z(max\\,actual)}\\approx 0.83\\,\\text{W}$",
+    "D": "Regulation is maintained, and $P_{R_S(max)}\\approx 0.12\\,\\text{W}$"
+  },
+  "question_type": "mcq",
+  "category": "JEE",
+  "imageurl": null
+}

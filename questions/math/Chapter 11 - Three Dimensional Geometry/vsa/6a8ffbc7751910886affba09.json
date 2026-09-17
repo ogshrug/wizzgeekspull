@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffbc7751910886affba09",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "VSA",
+  "question": "The point $(5,6,7)$ lies on the line $\\vec{r}=(\\hat{i}+2\\hat{j}-\\hat{k})+\\lambda\\left[(a-1)\\hat{i}+2\\hat{j}+(a+1)\\hat{k}\\right]$. Determine $a$.",
+  "answeroption": "D",
+  "explanation": "Step 1: A general point on the line has coordinates obtained by comparing the coefficients of $\\hat{i}$, $\\hat{j}$ and $\\hat{k}$. Thus, $$x=1+\\lambda(a-1),\\quad y=2+2\\lambda,\\quad z=-1+\\lambda(a+1).$$ Step 2: Since $(5,6,7)$ lies on the line, use its $y$-coordinate first: $6=2+2\\lambda$. Hence, $\\lambda=2$. Step 3: Now use the $x$-coordinate: $5=1+2(a-1)$. Therefore, $4=2a-2$, giving $2a=6$ and hence $a=3$. Step 4: Verification with the $z$-coordinate gives $-1+2(3+1)=-1+8=7$, which agrees with the given point. Step 5: Therefore, the required value is $a=3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=1$",
+    "B": "$a=2$",
+    "C": "$a=4$",
+    "D": "$a=3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a901b09be0ecc7866e90ca3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cc",
+    "6a13e7cad837c8c7efa6b8cd",
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "A directed line through the point $A(1,-1,2)$ has direction cosines $\\frac{2}{3},\\frac{1}{3},-\\frac{2}{3}$ and meets the plane $x+y+z=3$ at $B$. Determine the coordinates of $B$ and hence use the points $A$ and $B$ to verify the direction cosines, obtain a suitable set of direction ratios, and write the vector and Cartesian equations of the line.",
+  "answeroption": "B",
+  "explanation": "<b>Formation of the Line</b><br>Since the direction cosines are $\\frac{2}{3},\\frac{1}{3},-\\frac{2}{3}$, a point on the directed line through $A(1,-1,2)$ can be written as<br>$$x=1+\\frac{2t}{3},\\quad y=-1+\\frac{t}{3},\\quad z=2-\\frac{2t}{3}$$<br>The point $B$ also lies on the plane $x+y+z=3$. Therefore,<br>$$1+\\frac{2t}{3}-1+\\frac{t}{3}+2-\\frac{2t}{3}=3$$<br>$$2+\\frac{t}{3}=3$$<br>Hence, $t=3$. Substituting this value gives<br>$$B=(3,0,0)$$<br><br><b>Verification of Direction Cosines</b><br>The direction ratios of the directed line from $A$ to $B$ are<br>$$3-1,\\quad 0-(-1),\\quad 0-2$$<br>that is,<br>$$2,1,-2$$<br>Also,<br>$$AB=\\sqrt{2^2+1^2+(-2)^2}=3$$<br>Hence, the direction cosines obtained from the two points are<br>$$\\frac{2}{3},\\quad \\frac{1}{3},\\quad -\\frac{2}{3}$$<br>which agree with the given direction cosines.<br><br><b>Formation of Equations</b><br>A vector parallel to the line is $2\\hat{i}+\\hat{j}-2\\hat{k}$. Hence the vector equation is<br>$$\\vec{r}=(\\hat{i}-\\hat{j}+2\\hat{k})+\\lambda(2\\hat{i}+\\hat{j}-2\\hat{k})$$<br>Equating components,<br>$$x=1+2\\lambda,\\quad y=-1+\\lambda,\\quad z=2-2\\lambda$$<br>Therefore, the Cartesian equation is<br>$$\\frac{x-1}{2}=\\frac{y+1}{1}=\\frac{z-2}{-2}$$<br><br><b>Final Result</b><br>The point of intersection is $B(3,0,0)$, a suitable set of direction ratios is $2,1,-2$, the verified direction cosines are $\\frac{2}{3},\\frac{1}{3},-\\frac{2}{3}$, and the required vector and Cartesian equations are $\\vec{r}=(\\hat{i}-\\hat{j}+2\\hat{k})+\\lambda(2\\hat{i}+\\hat{j}-2\\hat{k})$ and $\\frac{x-1}{2}=\\frac{y+1}{1}=\\frac{z-2}{-2}$ respectively.",
+  "explanation_image": [],
+  "options": {
+    "A": "$B=(3,0,0)$; direction ratios $(2,-1,-2)$; $\\vec r=(\\hat i-\\hat j+2\\hat k)+\\lambda(2\\hat i-\\hat j-2\\hat k)$",
+    "B": "$B=(3,0,0)$; direction ratios $(2,1,-2)$; direction cosines $\\left(\\frac{2}{3},\\frac{1}{3},-\\frac{2}{3}\\right)$; $\\vec r=(\\hat i-\\hat j+2\\hat k)+\\lambda(2\\hat i+\\hat j-2\\hat k)$; $\\frac{x-1}{2}=\\frac{y+1}{1}=\\frac{z-2}{-2}$",
+    "C": "$B=(2,0,1)$; direction ratios $(1,1,-1)$; $\\vec r=(\\hat i-\\hat j+2\\hat k)+\\lambda(\\hat i+\\hat j-\\hat k)$",
+    "D": "$B=(3,-2,0)$; direction ratios $(2,-1,-2)$; $\\frac{x-1}{2}=\\frac{y+1}{-1}=\\frac{z-2}{-2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8eb0464b490c7cde359448",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d71",
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "LA",
+  "question": "The prices, in rupees, of one notebook, one pen, and one file are represented by $x$, $y$, and $z$, respectively. The following purchase information is available:<br>$$x+y+z=90$$<br>$$2x+3y+z=170$$<br>$$3x+y+2z=170$$<br><br><b>(a)</b> Evaluate the determinant of the coefficient matrix and determine whether the prices are uniquely determined.<br><br><b>(b)</b> Solve the system to find $x$, $y$, and $z$.<br><br><b>(c)</b> Verify the prices using all three purchase equations.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The coefficient matrix is<br>$$A=\\begin{bmatrix}1 & 1 & 1\\\\2 & 3 & 1\\\\3 & 1 & 2\\end{bmatrix}$$<br>Its determinant is<br>$$|A|=1(6-1)-1(4-3)+1(2-9)$$<br>$$|A|=5-1-7=-3$$<br>Since $|A|\\neq0$, the system is consistent and the prices are uniquely determined.<br><br><b>(b)</b><br>Subtracting the first equation from the second equation gives<br>$$x+2y=80$$<br>Subtracting twice the first equation from the third equation gives<br>$$x-y=-10$$<br>Thus,<br>$$x=y-10$$<br>Substituting in $x+2y=80$,<br>$$y-10+2y=80$$<br>$$3y=90$$<br>$$y=30$$<br>Therefore,<br>$$x=30-10=20$$<br>Using $x+y+z=90$,<br>$$20+30+z=90$$<br>$$z=40$$<br>Hence, the prices are $x=20$, $y=30$, and $z=40$.<br><br><b>(c)</b><br>Verification:<br>$$20+30+40=90$$<br>$$2(20)+3(30)+40=40+90+40=170$$<br>$$3(20)+30+2(40)=60+30+80=170$$<br>Thus, the solution satisfies all three equations.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=-3$, so the prices are uniquely determined<br>(b) $(x,y,z)=(20,30,40)$<br>(c) All three purchase equations are satisfied",
+    "B": "(a) $|A|=3$<br>(b) $(x,y,z)=(30,20,40)$<br>(c) All three equations are satisfied",
+    "C": "(a) $|A|=0$, so the prices are not uniquely determined<br>(b) $(20,30,40)$ is one of infinitely many solutions<br>(c) The equations are dependent",
+    "D": "(a) $|A|=-3$<br>(b) $(x,y,z)=(20,40,30)$<br>(c) Only the first equation is satisfied"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

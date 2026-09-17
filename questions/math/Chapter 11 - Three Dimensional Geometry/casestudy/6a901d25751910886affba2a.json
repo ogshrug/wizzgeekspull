@@ -1,0 +1,31 @@
+{
+  "id": "6a901d25751910886affba2a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cc",
+    "6a13e7cad837c8c7efa6b8cd",
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Two points $U(1,0,-2)$ and $V(-2,4,4)$ are selected in a three-dimensional coordinate system to study how the description of a directed line changes when its direction is reversed. The directed segment from $U$ to $V$ determines one set of direction ratios and direction cosines, whereas the directed segment from $V$ to $U$ determines another. Although the signs of the corresponding directional quantities change, both directed descriptions belong to the same geometric line. Students also represent the line by vector equations based on each endpoint and compare the two parameterisations.<br><br><b>(a)</b> Find a set of direction ratios of the directed line $UV$.<br><br><b>(b)</b> Find the direction cosines of $UV$ and hence obtain the direction cosines of $VU$.<br><br><b>(c)</b> Write a vector equation of the line using $U$ as the fixed point and $\\overrightarrow{UV}$ as the direction vector.<br><br><b>(d)</b> Write a vector equation using $V$ and $\\overrightarrow{VU}$, and justify that the two vector equations represent the same geometric line.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>For $U(1,0,-2)$ and $V(-2,4,4)$, the coordinate differences from $U$ to $V$ are<br>$$-2-1=-3,\\quad 4-0=4,\\quad 4-(-2)=6.$$<br>Hence, one set of direction ratios of $UV$ is $(-3,4,6)$.<br><br><b>(b)</b><br>The length $UV$ is<br>$$UV=\\sqrt{(-3)^2+4^2+6^2}=\\sqrt{9+16+36}=\\sqrt{61}.$$<br>Therefore, the direction cosines of $UV$ are<br>$$\\left(-\\frac{3}{\\sqrt{61}},\\frac{4}{\\sqrt{61}},\\frac{6}{\\sqrt{61}}\\right).$$<br>Reversing the direction changes the signs of all direction cosines. Hence, the direction cosines of $VU$ are<br>$$\\left(\\frac{3}{\\sqrt{61}},-\\frac{4}{\\sqrt{61}},-\\frac{6}{\\sqrt{61}}\\right).$$<br><br><b>(c)</b><br>The position vector of $U$ is<br>$$\\vec a=\\hat i-2\\hat k,$$<br>and<br>$$\\overrightarrow{UV}=-3\\hat i+4\\hat j+6\\hat k.$$<br>Hence, the vector equation is<br>$$\\vec r=(\\hat i-2\\hat k)+\\lambda(-3\\hat i+4\\hat j+6\\hat k).$$<br><br><b>(d)</b><br>The position vector of $V$ is<br>$$-2\\hat i+4\\hat j+4\\hat k,$$<br>and<br>$$\\overrightarrow{VU}=3\\hat i-4\\hat j-6\\hat k.$$<br>Thus, another vector equation is<br>$$\\vec r=(-2\\hat i+4\\hat j+4\\hat k)+\\mu(3\\hat i-4\\hat j-6\\hat k).$$<br>Let $\\vec d=-3\\hat i+4\\hat j+6\\hat k$. Since the position vector of $V$ equals the position vector of $U$ plus $\\vec d$, the first equation can be written as<br>$$\\vec r=\\vec V+(\\lambda-1)\\vec d.$$<br>Also, $\\overrightarrow{VU}=-\\vec d$. Taking $\\mu=1-\\lambda$ gives<br>$$\\vec V+\\mu(-\\vec d)=\\vec V+(\\lambda-1)\\vec d.$$<br>Hence, both equations generate exactly the same set of points and represent the same geometric line.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(3,-4,-6)$<br>(b) $UV:\\left(\\frac{3}{\\sqrt{61}},-\\frac{4}{\\sqrt{61}},-\\frac{6}{\\sqrt{61}}\\right)$, $VU$ has opposite signs<br>(c) $\\vec r=(\\hat i-2\\hat k)+\\lambda(3\\hat i-4\\hat j-6\\hat k)$<br>(d) The two equations represent opposite parallel lines",
+    "B": "(a) $(-3,4,6)$<br>(b) $UV:\\left(-\\frac{3}{\\sqrt{61}},\\frac{4}{\\sqrt{61}},\\frac{6}{\\sqrt{61}}\\right)$, $VU$ has the same direction cosines<br>(c) $\\vec r=(\\hat i-2\\hat k)+\\lambda(-3\\hat i+4\\hat j+6\\hat k)$<br>(d) The two equations represent different lines",
+    "C": "(a) $(-3,4,6)$<br>(b) $UV:\\left(-\\frac{3}{\\sqrt{61}},\\frac{4}{\\sqrt{61}},\\frac{6}{\\sqrt{61}}\\right)$, $VU:\\left(\\frac{3}{\\sqrt{61}},-\\frac{4}{\\sqrt{61}},-\\frac{6}{\\sqrt{61}}\\right)$<br>(c) $\\vec r=(-2\\hat i+4\\hat j+4\\hat k)+\\lambda(-3\\hat i+4\\hat j+6\\hat k)$<br>(d) The equations are identical only for $\\lambda=\\mu$",
+    "D": "(a) $(-3,4,6)$<br>(b) $UV:\\left(-\\frac{3}{\\sqrt{61}},\\frac{4}{\\sqrt{61}},\\frac{6}{\\sqrt{61}}\\right)$, $VU:\\left(\\frac{3}{\\sqrt{61}},-\\frac{4}{\\sqrt{61}},-\\frac{6}{\\sqrt{61}}\\right)$<br>(c) $\\vec r=(\\hat i-2\\hat k)+\\lambda(-3\\hat i+4\\hat j+6\\hat k)$<br>(d) $\\vec r=(-2\\hat i+4\\hat j+4\\hat k)+\\mu(3\\hat i-4\\hat j-6\\hat k)$; both represent the same line"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

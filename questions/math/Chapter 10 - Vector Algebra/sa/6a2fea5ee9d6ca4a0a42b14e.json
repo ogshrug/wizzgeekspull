@@ -1,0 +1,26 @@
+{
+  "id": "6a2fea5ee9d6ca4a0a42b14e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "SA",
+  "question": "If $\\vec{a}$ and $\\vec{b}$ are unit vectors inclined at an angle $30^{\\circ}$ to each other, then find the area of the parallelogram with $(\\vec{a}+3\\vec{b})$ and $(3\\vec{a}+\\vec{b})$ as adjacent sides.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The area of a parallelogram with adjacent sides $\\vec{u}$ and $\\vec{v}$ is given by $|\\vec{u} \\times \\vec{v}|$.<br />Here, $\\vec{u} = \\vec{a}+3\\vec{b}$ and $\\vec{v} = 3\\vec{a}+\\vec{b}$.<br />**Step 2:** Calculate the cross product.<br />$(\\vec{a}+3\\vec{b}) \\times (3\\vec{a}+\\vec{b}) = 3(\\vec{a}\\times\\vec{a}) + (\\vec{a}\\times\\vec{b}) + 9(\\vec{b}\\times\\vec{a}) + 3(\\vec{b}\\times\\vec{b})$<br />Since $\\vec{a}\\times\\vec{a} = \\vec{0}$ and $\\vec{b}\\times\\vec{a} = -(\\vec{a}\\times\\vec{b})$:<br />$= \\vec{a}\\times\\vec{b} - 9(\\vec{a}\\times\\vec{b}) = -8(\\vec{a}\\times\\vec{b})$<br />**Step 3:** Find the magnitude to get the area.<br />Area = $|-8(\\vec{a}\\times\\vec{b})| = 8|\\vec{a}||\\vec{b}|\\sin(30^{\\circ})$<br />**Step 4:** Substitute the given values ($|\\vec{a}|=1$, $|\\vec{b}|=1$, $\\sin 30^{\\circ} = 1/2$).<br />Area = $8 \\times 1 \\times 1 \\times \\frac{1}{2} = 4$ sq. units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

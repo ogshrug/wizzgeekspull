@@ -1,0 +1,29 @@
+{
+  "id": "6a158ace6050c058f876e4fa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "MCQ",
+  "question": "If $x=3~cos~\\theta$ and $y=5~sin~\\theta$, then $\\frac{dy}{dx}$ is equal to :",
+  "answeroption": "B",
+  "explanation": "**Step 1: Compute individual parametric derivatives**<br />Differentiating both coordinate expressions independently with respect to parameter $\\theta$:<br />$\\frac{dx}{d\\theta} = \\frac{d}{d\\theta}(3\\cos\\theta) = -3\\sin\\theta$<br />$\\frac{dy}{d\\theta} = \\frac{d}{d\\theta}(5\\sin\\theta) = 5\\cos\\theta$<br /><br />**Step 2: Combine parametric terms using the chain derivative rule**<br />Using the formula $\\frac{dy}{dx} = \\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}}$:<br />$\\frac{dy}{dx} = \\frac{5\\cos\\theta}{-3\\sin\\theta} = -\\frac{5}{3}\\cot\\theta$<br />This matches Option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{3}{5}tan~\\theta$",
+    "B": "$-\\frac{5}{3}cot~\\theta$",
+    "C": "$-\\frac{5}{3}tan~\\theta$",
+    "D": "$-\\frac{3}{5}cot~\\theta$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

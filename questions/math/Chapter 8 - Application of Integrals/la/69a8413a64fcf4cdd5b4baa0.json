@@ -1,0 +1,33 @@
+{
+  "id": "69a8413a64fcf4cdd5b4baa0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996",
+    "6a13eb338c819562f933f995",
+    "6a13eb348c819562f933f998"
+  ],
+  "question_type": "LA",
+  "question": "Let $S$ be the area common to the circle $x^2+y^2=9$ and the parabola $y^2=3x$. Compute $S$.",
+  "answeroption": "D",
+  "explanation": "First, find points of intersection by substituting $y^2=3x$ into $x^2+y^2=9$.<br /><br />So, $x^2+3x=9 \\Rightarrow x^2+3x-9=0$.<br /><br />$x=\\frac{-3\\pm\\sqrt{45}}{2}=\\frac{-3\\pm3\\sqrt{5}}{2}$.<br /><br />Taking the positive value, $x_0=\\frac{-3+3\\sqrt{5}}{2}$.<br /><br />The required area is symmetric about the x-axis, hence<br /><br />$S=2\\int_{0}^{x_0}(\\sqrt{9-x^2}-\\sqrt{3x})dx$.<br /><br />Evaluating, $\\int \\sqrt{9-x^2}dx=\\frac{x}{2}\\sqrt{9-x^2}+\\frac{9}{2}\\sin^{-1}(x/3)$ and $\\int \\sqrt{3x}dx=\\frac{2\\sqrt{3}}{3}x^{3/2}$.<br /><br />Thus, $S=2\\Big[\\frac{x}{2}\\sqrt{9-x^2}+\\frac{9}{2}\\sin^{-1}(x/3)-\\frac{2\\sqrt{3}}{3}x^{3/2}\\Big]_{0}^{x_0}$.<br /><br />This gives the exact common area.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69a8413a64fcf4cdd5b4baa0/1778585606-0.jpeg?t=1778585606877"
+  ],
+  "options": {
+    "A": "$\\int_{0}^{x_0}(\\sqrt{9-x^2}-\\sqrt{3x})dx$, where $x_0=\\frac{-3+3\\sqrt5}{2}$",
+    "B": "$2\\int_{0}^{3}(\\sqrt{9-x^2}-\\sqrt{3x})dx$",
+    "C": "$2\\int_{0}^{x_0}(\\sqrt{3x}-\\sqrt{9-x^2})dx$, where $x_0=\\frac{-3+3\\sqrt5}{2}$",
+    "D": "$2\\Big[\\frac{x}{2}\\sqrt{9-x^2}+\\frac{9}{2}\\sin^{-1}(x/3)-\\frac{2\\sqrt{3}}{3}x^{3/2}\\Big]_{0}^{x_0}$, where $x_0=\\frac{-3+3\\sqrt5}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 14:27:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:30:50 GMT"
+}

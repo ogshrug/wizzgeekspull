@@ -1,0 +1,31 @@
+{
+  "id": "6a22c26449831c420df335db",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad",
+    "6a13ebca8c819562f933f9af"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A bacteria sample of certain number of bacteria is observed to grow exponentially in a given amount of time. Using exponential growth model, the rate of growth of this sample of bacteria is calculated.<br /><br />The differential equation representing the growth of bacteria is given as:<br />$$\\frac{dP}{dt}=kP$$<br />where P is the population of bacteria at any time 't'.<br /><br />Based on the above information, answer the following questions:<br />**(i)** Obtain the general solution of the given differential equation and express it as an exponential function of 't'.<br />**(ii)** If population of bacteria is 1000 at $t=0$, and 2000 at $t=1$, find the value of k.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Separate the functional variables in the given differential relation to isolate terms: $\\frac{1}{P} dP = k dt$.<br />**Step 2:** Integrate both sides: $\\int \\frac{1}{P} dP = \\int k dt \\implies \\log P = kt + C$. Converting this to explicit form yields $P(t) = e^{kt+C} = e^C \\cdot e^{kt} = C'e^{kt}$.<br /><br />**(ii)** **Step 1:** Use initial conditions at $t=0, P=1000 \\implies 1000 = C'e^0 \\implies C' = 1000$. The functional equation updates to $P(t) = 1000e^{kt}$.<br />**Step 2:** Apply boundary conditions at $t=1, P=2000 \\implies 2000 = 1000e^{k(1)} \\implies e^k = 2$. Taking natural logarithm yields $k = \\log 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1",
+    "2024-3-2",
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22c26449831c420df335db/1782262607-0.png?t=1782282407882"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

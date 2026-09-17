@@ -1,0 +1,26 @@
+{
+  "id": "6a22916dfbdd87b6dea73b97",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "VSA",
+  "question": "Let A and B be two square matrices of order 3 such that det (A) $=3$ and det (B) $=-4$. Find the value of det (-6AB).",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Use the scaling property of determinants for a matrix of order $n$, which states that $\\det(kM) = k^n \\det(M)$. Since $A$ and $B$ are square matrices of order 3, the product matrix $AB$ is also of order 3, allowing us to factor out the scalar: $\\det(-6AB) = (-6)^3 \\det(AB)$.<br /><br /><b>Step 2</b> Next, apply the multiplicative property of determinants, which states that the determinant of a product equals the product of their individual determinants: $\\det(AB) = \\det(A) \\cdot \\det(B)$. This expands our formula to $\\det(-6AB) = (-6)^3 \\cdot \\det(A) \\cdot \\det(B)$.<br /><br /><b>Step 3</b> Substitute the given numerical parameters into this expanded equation: $\\det(-6AB) = -216 \\times 3 \\times (-4) = -216 \\times (-12) = 2592$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

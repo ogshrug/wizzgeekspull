@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed3f2751910886affb9ce",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "SA",
+  "question": "Find the intervals of increase and decrease of $f(x)=\\sin x+\\cos x$ on $[0,2\\pi]$.",
+  "answeroption": "C",
+  "explanation": "<b>First derivative</b><br>$$f'(x)=\\cos x-\\sin x$$<br><b>Critical values</b><br>Setting $f'(x)=0$,<br>$$\\cos x=\\sin x\\Rightarrow\\tan x=1$$<br>In $[0,2\\pi]$, this gives<br>$$x=\\frac{\\pi}{4},\\frac{5\\pi}{4}$$<br><b>Positive derivative intervals</b><br>On $\\left(0,\\frac{\\pi}{4}\\right)$ and $\\left(\\frac{5\\pi}{4},2\\pi\\right)$, $\\cos x-\\sin x>0$. Hence, $f$ is increasing.<br><b>Negative derivative interval</b><br>On $\\left(\\frac{\\pi}{4},\\frac{5\\pi}{4}\\right)$, $\\cos x-\\sin x<0$. Hence, $f$ is decreasing.<br><b>Conclusion</b><br>The increasing intervals are $\\left(0,\\frac{\\pi}{4}\\right)\\cup\\left(\\frac{5\\pi}{4},2\\pi\\right)$, and the decreasing interval is $\\left(\\frac{\\pi}{4},\\frac{5\\pi}{4}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Increasing on $\\left(0,\\frac{5\\pi}{4}\\right)$ and decreasing on $\\left(\\frac{5\\pi}{4},2\\pi\\right)$",
+    "B": "Increasing on $\\left(\\frac{\\pi}{4},\\frac{5\\pi}{4}\\right)$ and decreasing on the remaining intervals",
+    "C": "Increasing on $\\left(0,\\frac{\\pi}{4}\\right)\\cup\\left(\\frac{5\\pi}{4},2\\pi\\right)$ and decreasing on $\\left(\\frac{\\pi}{4},\\frac{5\\pi}{4}\\right)$",
+    "D": "Decreasing on $\\left(0,\\frac{\\pi}{4}\\right)\\cup\\left(\\frac{5\\pi}{4},2\\pi\\right)$ and increasing on $\\left(\\frac{\\pi}{4},\\frac{5\\pi}{4}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

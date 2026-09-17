@@ -1,0 +1,28 @@
+{
+  "id": "6a229208fbdd87b6dea73b9f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "SA",
+  "question": "Find the distance of the point (-1, -5, -10) from the point of intersection of the lines $\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ and $\\frac{x-4}{5}=\\frac{y-1}{2}=z.$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To find the intersection point, write a general point on Line 1 using parameter $\\lambda$: $x = 2\\lambda + 1, y = 3\\lambda + 2, z = 4\\lambda + 3$. Write a general point on Line 2 using parameter $\\mu$: $x = 5\\mu + 4, y = 2\\mu + 1, z = \\mu$.<br /><br /><b>Step 2</b> Equate the expressions for the $z$-coordinate from both lines to get a direct relationship between parameters: $\\mu = 4\\lambda + 3$. Now, equate the expressions for the $y$-coordinate: $3\\lambda + 2 = 2\\mu + 1$.<br /><br /><b>Step 3</b> Substitute our expression for $\\mu$ into the $y$-coordinate equation to solve for $\\lambda$: $3\\lambda + 2 = 2(4\\lambda + 3) + 1 \\implies 3\\lambda + 2 = 8\\lambda + 7 \\implies 5\\lambda = -5 \\implies \\lambda = -1$. Using this, we find $\\mu = -1$. The intersection point is $I(-1, -1, -1)$.<br /><br /><b>Step 4</b> Now, find the distance between this intersection point $I(-1, -1, -1)$ and the given point $Q(-1, -5, -10)$ using the 3D distance formula: $d = \\sqrt{(-1 - (-1))^2 + (-1 - (-5))^2 + (-1 - (-10))^2}$.<br /><br /><b>Step 5</b> Simplify the arithmetic inside the square root: $d = \\sqrt{0^2 + 4^2 + 9^2} = \\sqrt{16 + 81} = \\sqrt{97}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a264944864be73cfcf6d310",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $x\\frac{dy}{dx}+x~cos^{2}(\\frac{y}{x})=y;$ given that when $x=1$, $y=\\frac{\\pi}{4}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the given differential equation $x\\frac{dy}{dx}+x~cos^{2}(\\frac{y}{x})=y$ in standard form by dividing the entire equation by $x$. This yields $\\frac{dy}{dx} + cos^{2}(\\frac{y}{x}) = \\frac{y}{x}$, which can be rearranged to $\\frac{dy}{dx} = \\frac{y}{x} - cos^{2}(\\frac{y}{x})$. Since the right-hand side is a function of homogeneous degree in terms of $\\frac{y}{x}$, this is a homogeneous differential equation of the first order.<br />**Step 2:** To solve this homogeneous equation, we substitute $y = vx$. Differentiating both sides with respect to $x$ using the product rule gives $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting these expressions back into our rewritten differential equation results in $v + x\\frac{dv}{dx} = v - cos^2(v)$. By subtracting $v$ from both sides, the equation simplifies directly to $x\\frac{dv}{dx} = -cos^2(v)$.<br />**Step 3:** We now apply the method of separation of variables to solve for $v$. Rearranging the terms gives $\\frac{1}{cos^2(v)} dv = -\\frac{1}{x} dx$, which simplifies to $sec^2(v) dv = -\\frac{1}{x} dx$. Integrating both sides gives $\\int sec^2(v) dv = -\\int \\frac{1}{x} dx$. This results in $\\tan(v) = -\\log|x| + C$. Substituting $v = \\frac{y}{x}$ back gives the general solution: $\\tan(\\frac{y}{x}) = -\\log|x| + C$.<br />**Step 4:** To find the particular solution, apply the initial boundary conditions $y = \\frac{\\pi}{4}$ when $x = 1$. Substituting these values gives $\\tan(\\frac{\\pi/4}{1}) = -\\log|1| + C$. Since $\\tan(\\frac{\\pi}{4}) = 1$ and $\\log(1) = 0$, we find that $C = 1$. Substituting $C = 1$ back into the general equation gives the final particular solution: $\\tan(\\frac{y}{x}) = -\\log|x| + 1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-1",
+    "2022-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

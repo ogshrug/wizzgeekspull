@@ -1,0 +1,31 @@
+{
+  "id": "6a3279d7d5dca7dcb0bf0eba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $f(x) = \\begin{vmatrix} x^2 & \\sin x \\\\ p & -1 \\end{vmatrix}$ where p is a constant. The value of p for which $f'(0) = 1$ is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Expand the determinant to find the function $f(x)$: $f(x) = (x^2)(-1) - (p)(\\sin x) = -x^2 - p\\sin x$.\n\n**Step 2:** Differentiate $f(x)$ with respect to $x$: $f'(x) = -2x - p\\cos x$.\n\n**Step 3:** Substitute $x=0$ and set it equal to 1: $f'(0) = -2(0) - p\\cos(0) = -p$. Since $f'(0) = 1$, we have $-p = 1 \\implies p = -1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\mathbb{R}$",
+    "B": "1",
+    "C": "0",
+    "D": "-1"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

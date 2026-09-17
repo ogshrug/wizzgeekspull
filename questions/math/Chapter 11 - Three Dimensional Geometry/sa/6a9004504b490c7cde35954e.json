@@ -1,0 +1,29 @@
+{
+  "id": "6a9004504b490c7cde35954e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "SA",
+  "question": "Find the shortest distance between the lines $\\vec{r}=\\hat{i}+\\lambda(\\hat{i}+\\hat{j})$ and $\\vec{r}=\\hat{j}+\\hat{k}+\\mu(\\hat{i}-\\hat{j})$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Position and direction vectors</b><br>Write the lines as $\\vec{r}=\\vec{a}_1+\\lambda\\vec{b}_1$ and $\\vec{r}=\\vec{a}_2+\\mu\\vec{b}_2$, where<br>$$\\vec{a}_1=\\hat{i},\\quad \\vec{b}_1=\\hat{i}+\\hat{j},\\quad \\vec{a}_2=\\hat{j}+\\hat{k},\\quad \\vec{b}_2=\\hat{i}-\\hat{j}.$$<br><b>Step 2: Vector joining points on the lines</b><br>$$\\vec{a}_2-\\vec{a}_1=-\\hat{i}+\\hat{j}+\\hat{k}.$$<br><b>Step 3: Common perpendicular direction</b><br>$$\\vec{b}_1\\times\\vec{b}_2=(\\hat{i}+\\hat{j})\\times(\\hat{i}-\\hat{j})=-2\\hat{k},$$<br>so $|\\vec{b}_1\\times\\vec{b}_2|=2$.<br><b>Step 4: Shortest-distance formula</b><br>$$d=\\frac{|(\\vec{a}_2-\\vec{a}_1)\\cdot(\\vec{b}_1\\times\\vec{b}_2)|}{|\\vec{b}_1\\times\\vec{b}_2|}.$$<br>Hence,<br>$$d=\\frac{|(-\\hat{i}+\\hat{j}+\\hat{k})\\cdot(-2\\hat{k})|}{2}=\\frac{2}{2}=1.$$<br><b>Step 5: Final result</b><br>Therefore, the shortest distance between the two lines is $1$ unit.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$ unit",
+    "B": "$\\sqrt{2}$ units",
+    "C": "$\\frac{1}{2}$ unit",
+    "D": "$2$ units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a8508964fcf4cdd5b4babc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Find two positive numbers whose sum is $24$ and whose product is as large as possible. Set up the problem with calculus, maximize and justify your answer.",
+  "answeroption": "B",
+  "explanation": "Let numbers be $x$ and $24-x$.<br /><br />Product:<br /><br />$P(x)=x(24-x)=24x-x^2$.<br /><br />Differentiate:<br /><br />$P'(x)=24-2x$.<br /><br />Set equal to zero:<br /><br />$24-2x=0$<br /><br />$x=12$.<br /><br />Second derivative $P''(x)=-2<0$, so maximum occurs at $x=12$.<br /><br />Thus numbers are $12$ and $12$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$10$ and $14$",
+    "B": "$12$ and $12$",
+    "C": "$8$ and $16$",
+    "D": "$6$ and $18$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:32:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

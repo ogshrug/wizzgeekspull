@@ -1,0 +1,29 @@
+{
+  "id": "6a900599be0ecc7866e90c94",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "SA",
+  "question": "The distance of the point $P(k,2,-1)$ from the plane $x-2y+2z-3=0$ is $2$ units. Find all possible values of $k$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Distance condition</b><br>The point is $P(k,2,-1)$ and the plane is $x-2y+2z-3=0$. The given perpendicular distance is $2$ units.<br><b>Step 2: Substitution in the point-to-plane distance formula</b><br>$$2=\\frac{|k-2(2)+2(-1)-3|}{\\sqrt{1^2+(-2)^2+2^2}}.$$<br><b>Step 3: Simplification of numerator and denominator</b><br>The numerator becomes $|k-4-2-3|=|k-9|$ and the denominator is<br>$$\\sqrt{1+4+4}=3.$$<br>Thus,<br>$$\\frac{|k-9|}{3}=2.$$<br><b>Step 4: Absolute-value equation</b><br>$$|k-9|=6.$$<br>Therefore,<br>$$k-9=6\\quad\\text{or}\\quad k-9=-6.$$<br><b>Step 5: Final result</b><br>Hence,<br>$$k=15\\quad\\text{or}\\quad k=3.$$<br>Thus, both $k=3$ and $k=15$ satisfy the given distance condition.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=3$ or $k=15$",
+    "B": "$k=-3$ or $k=15$",
+    "C": "$k=6$ or $k=12$",
+    "D": "$k=3$ or $k=9$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

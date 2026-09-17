@@ -1,0 +1,32 @@
+{
+  "id": "6a2bf8628e6b388cc1f07cc8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d4e",
+    "69c65fc040512f018fa94d56"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A=[a_{ij}]$ be a $2\\times2$ matrix whose elements are given by $a_{ij}=\\frac{(i+2j)^{2}}{3}$ Then $A^{\\prime}$ is given by:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Calculate each element of the $2 \\times 2$ matrix $A$: $a_{11}=\\frac{(1+2)^2}{3}=3$, $a_{12}=\\frac{(1+4)^2}{3}=\\frac{25}{3}$, $a_{21}=\\frac{(2+2)^2}{3}=\\frac{16}{3}$, and $a_{22}=\\frac{(2+4)^2}{3}=12$.<br />**Step 2:** Construct matrix $A = \\begin{bmatrix} 3 & \\frac{25}{3} \\\\ \\frac{16}{3} & 12 \\end{bmatrix}$.<br />**Step 3:** Find the transpose $A'$ by interchanging the rows and columns, which yields $A' = \\begin{bmatrix} 3 & \\frac{16}{3} \\\\ \\frac{25}{3} & 12 \\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix}12&\\frac{25}{3}\\\\ \\frac{16}{3}&3\\end{bmatrix}$",
+    "B": "$\\begin{bmatrix}12&\\frac{16}{3}\\\\ \\frac{25}{3}&3\\end{bmatrix}$",
+    "C": "$\\begin{bmatrix}3&\\frac{25}{3}\\\\ \\frac{16}{3}&12\\end{bmatrix}$",
+    "D": "$\\begin{bmatrix}3&\\frac{16}{3}\\\\ \\frac{25}{3}&12\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

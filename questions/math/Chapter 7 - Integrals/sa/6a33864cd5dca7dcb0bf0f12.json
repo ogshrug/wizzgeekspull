@@ -1,0 +1,26 @@
+{
+  "id": "6a33864cd5dca7dcb0bf0f12",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int x^2 \\log(x^2-1) dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Apply Integration by Parts**  \nLet $u = \\log(x^2-1)$ and $dv = x^2 dx$. Then,  \n$$du = \\frac{2x}{x^2-1} dx \\quad \\text{and} \\quad v = \\frac{x^3}{3}$$  \nUsing $\\int u \\, dv = uv - \\int v \\, du$:  \n$$\\int x^2 \\log(x^2-1) \\, dx = \\frac{x^3}{3} \\log(x^2-1) - \\int \\frac{x^3}{3} \\cdot \\frac{2x}{x^2-1} \\, dx$$  \n$$= \\frac{x^3}{3} \\log(x^2-1) - \\frac{2}{3} \\int \\frac{x^4}{x^2-1} \\, dx$$<br /><br />**Step 2: Perform Polynomial Division**  \nDivide $x^4$ by $x^2-1$:  \n$$\\frac{x^4}{x^2-1} = x^2 + 1 + \\frac{1}{x^2-1}$$  \nSo,  \n$$\\frac{2}{3} \\int \\frac{x^4}{x^2-1} \\, dx = \\frac{2}{3} \\int \\left(x^2 + 1 + \\frac{1}{x^2-1}\\right) dx$$<br /><br />**Step 3: Integrate Each Term**  \n$$\\frac{2}{3} \\int \\left(x^2 + 1 + \\frac{1}{x^2-1}\\right) dx$$  \n$$= \\frac{2}{3} \\left( \\frac{x^3}{3} + x + \\frac{1}{2} \\log\\left|\\frac{x-1}{x+1}\\right| \\right)$$  \n$$= \\frac{2x^3}{9} + \\frac{2x}{3} + \\frac{1}{3} \\log\\left|\\frac{x-1}{x+1}\\right|$$<br /><br />**Step 4: Combine the Results**  \n$$\\int x^2 \\log(x^2-1) \\, dx = \\frac{x^3}{3} \\log(x^2-1) - \\frac{2x^3}{9} - \\frac{2x}{3} - \\frac{1}{3} \\log\\left|\\frac{x-1}{x+1}\\right| + C$$<br /><br />**Step 5: Final Answer**  \n$$\\boxed{\\frac{x^3}{3} \\log(x^2-1) - \\frac{2x^3}{9} - \\frac{2x}{3} - \\frac{1}{3} \\log\\left|\\frac{x-1}{x+1}\\right| + C}$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

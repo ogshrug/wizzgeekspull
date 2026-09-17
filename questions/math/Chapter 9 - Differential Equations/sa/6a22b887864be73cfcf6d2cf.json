@@ -1,0 +1,28 @@
+{
+  "id": "6a22b887864be73cfcf6d2cf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation: $(xy - x^2) dy = y^2 dx$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Systematically isolate the derivative to rewrite the core equation explicitly as $\\frac{dy}{dx} = \\frac{y^2}{xy - x^2}$. This specific equation is undeniably a standard homogeneous differential equation because both the fractional numerator and denominator share a total algebraic degree of 2.<br />**Step 2:** Perform the necessary mathematical substitution by setting $y = vx$, which explicitly gives $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$ after differentiation.<br />**Step 3:** Substitute these exact transformations back into the original equation construct: $v + x\\frac{dv}{dx} = \\frac{v^2 x^2}{vx^2 - x^2} = \\frac{v^2}{v - 1}$.<br />**Step 4:** Logically separate the distinct variables across the equal sign: $x\\frac{dv}{dx} = \\frac{v^2}{v - 1} - v = \\frac{v}{v - 1}$. This correctly leads to $\\frac{v - 1}{v} dv = \\frac{dx}{x}$, or $(1 - \\frac{1}{v}) dv = \\frac{dx}{x}$.<br />**Step 5:** Formally integrate both sides of the equation: $v - \\log|v| = \\log|x| + C$. Re-substitute the original mapping $v = \\frac{y}{x}$: $\\frac{y}{x} - \\log|\\frac{y}{x}| = \\log|x| + C$, leading to $\\frac{y}{x} - \\log|y| + \\log|x| = \\log|x| + C$, which cleanly simplifies down to the final equation $\\frac{y}{x} - \\log|y| = C$ or $y = x(\\log|y| + C)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

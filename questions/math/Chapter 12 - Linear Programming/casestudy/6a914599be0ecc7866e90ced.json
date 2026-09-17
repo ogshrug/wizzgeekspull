@@ -1,0 +1,32 @@
+{
+  "id": "6a914599be0ecc7866e90ced",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8de",
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Students compare two closely related systems of linear restrictions. In the first system, the variables satisfy $x\\geq0$, $y\\geq0$, $x+y\\geq4$, $x\\leq6$ and $y\\leq5$. They call the common set of points satisfying all these conditions Region A. In a second experiment, they remove only the restriction $x\\leq6$ and retain $x\\geq0$, $y\\geq0$, $x+y\\geq4$ and $y\\leq5$; the resulting common set is called Region B. The students want to understand how one upper restriction can change the nature of a feasible region and how points that fail a condition are classified.<br><br><b>(a)</b> Verify whether $P(2,2)$ belongs to Region A.<br><br><b>(b)</b> Determine whether $Q(1,1)$ belongs to the feasible region or the infeasible region of the first system.<br><br><b>(c)</b> Justify that Region A is a bounded region.<br><br><b>(d)</b> Show that Region B is an unbounded region by identifying a family of feasible points whose $x$-coordinates can increase without limit.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>For $P(2,2)$,<br>$$2\\geq0,\\quad2\\geq0$$<br>$$2+2=4\\geq4$$<br>$$2\\leq6$$<br>and<br>$$2\\leq5$$<br>Thus, $P(2,2)$ satisfies every restriction of the first system and belongs to Region A, the feasible region.<br><br><b>(b)</b><br>For $Q(1,1)$, the non-negative restrictions and the upper restrictions are satisfied. However,<br>$$1+1=2<4$$<br>Therefore, $Q(1,1)$ violates the condition $x+y\\geq4$. Hence, it does not belong to the feasible region and lies in the infeasible region of the first system.<br><br><b>(c)</b><br>For Region A, the constraints include<br>$$0\\leq x\\leq6$$<br>and<br>$$0\\leq y\\leq5$$<br>Thus, both coordinates are restricted to finite intervals. The additional condition $x+y\\geq4$ selects only a part of this finite rectangular region. Hence, Region A can be enclosed within a finite boundary and is a bounded region.<br><br><b>(d)</b><br>In Region B, the restriction $x\\leq6$ has been removed. Consider points of the form $(t,0)$, where $t\\geq4$. For every such point,<br>$$t\\geq0,\\quad0\\geq0$$<br>$$t+0\\geq4$$<br>and<br>$$0\\leq5$$<br>Thus, $(t,0)$ is feasible for every $t\\geq4$. Since $t$ can increase without limit, Region B extends indefinitely in the positive $x$-direction. Therefore, Region B is an unbounded region.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(2,2)$ is infeasible<br>(b) $Q(1,1)$ is feasible<br>(c) Region A is unbounded<br>(d) Region B is bounded",
+    "B": "(a) $P(2,2)$ belongs to Region A<br>(b) $Q(1,1)$ is infeasible because $x+y<4$<br>(c) Region A is bounded since $0\\leq x\\leq6$ and $0\\leq y\\leq5$<br>(d) Region B is unbounded because $(t,0)$ is feasible for every $t\\geq4$",
+    "C": "(a) $P(2,2)$ belongs to Region A<br>(b) $Q(1,1)$ is feasible<br>(c) Region A is bounded<br>(d) Region B is bounded because $y\\leq5$",
+    "D": "(a) $P(2,2)$ belongs to Region A<br>(b) $Q(1,1)$ is infeasible<br>(c) Region A is unbounded because $x+y\\geq4$<br>(d) Region B has no feasible points"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

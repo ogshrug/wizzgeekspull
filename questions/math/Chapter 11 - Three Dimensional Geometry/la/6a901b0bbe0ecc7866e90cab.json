@@ -1,0 +1,30 @@
+{
+  "id": "6a901b0bbe0ecc7866e90cab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3",
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "LA",
+  "question": "Determine the equations of all planes parallel to $2x-y+2z=0$ and situated at a perpendicular distance of $4$ units from the point $P(1,2,3)$. Verify the distance condition for each plane obtained.",
+  "answeroption": "D",
+  "explanation": "<b>Formation of the Family of Planes</b><br>Every plane parallel to $2x-y+2z=0$ has the form<br>$$2x-y+2z+D=0$$<br>because parallel planes have proportional normal vectors.<br><br><b>Applying the Distance Condition</b><br>The distance of $P(1,2,3)$ from this plane is<br>$$\\frac{|2(1)-2+2(3)+D|}{\\sqrt{2^2+(-1)^2+2^2}}$$<br>Since the distance is $4$ units,<br>$$4=\\frac{|6+D|}{3}$$<br>Therefore,<br>$$|D+6|=12$$<br>Thus,<br>$$D+6=12$$<br>or<br>$$D+6=-12$$<br>Hence,<br>$$D=6\\quad \\text{or}\\quad D=-18$$<br>The required planes are therefore<br>$$2x-y+2z+6=0$$<br>and<br>$$2x-y+2z-18=0$$<br><br><b>Verification</b><br>For $2x-y+2z+6=0$, the distance of $P$ is<br>$$\\frac{|2-2+6+6|}{3}=\\frac{12}{3}=4$$<br>For $2x-y+2z-18=0$, the distance is<br>$$\\frac{|2-2+6-18|}{3}=\\frac{12}{3}=4$$<br><br><b>Final Result</b><br>The two required planes are $2x-y+2z+6=0$ and $2x-y+2z-18=0$, and each is at a perpendicular distance of $4$ units from $P(1,2,3)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2x-y+2z+12=0$ and $2x-y+2z-12=0$",
+    "B": "$2x-y+2z+6=0$ and $2x-y+2z-6=0$",
+    "C": "$2x-y+2z+18=0$ and $2x-y+2z-6=0$",
+    "D": "$2x-y+2z+6=0$ and $2x-y+2z-18=0$; each is $4$ units from $P(1,2,3)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

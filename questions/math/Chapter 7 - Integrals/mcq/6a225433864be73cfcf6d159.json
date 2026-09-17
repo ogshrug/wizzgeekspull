@@ -1,0 +1,31 @@
+{
+  "id": "6a225433864be73cfcf6d159",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int_{-1}^{1} \\frac{|x|}{x} dx$, $x \\ne 0$ is equal to",
+  "answeroption": "B",
+  "explanation": "**Step 1:** The integrand function is $f(x) = \\frac{|x|}{x}$. By definition of absolute value, this evaluates to $-1$ for all $x < 0$ and evaluates to $1$ for all $x > 0$.<br />**Step 2:** To integrate across zero, we split the definite integral into two parts: $\\int_{-1}^{0} (-1) dx + \\int_{0}^{1} (1) dx$.<br />**Step 3:** Evaluate these simple integrals: $[-x]_{-1}^0 + [x]_0^1 = (0 - 1) + (1 - 0) = -1 + 1 = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "-1",
+    "B": "0",
+    "C": "1",
+    "D": "2"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

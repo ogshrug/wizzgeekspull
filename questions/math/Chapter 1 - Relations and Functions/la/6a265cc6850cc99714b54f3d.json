@@ -1,0 +1,30 @@
+{
+  "id": "6a265cc6850cc99714b54f3d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "LA",
+  "question": "Check whether the relation $S$ in the set of real numbers $R$ defined by $S=\\{(a,b): a-b+\\sqrt{2}\\text{ is an irrational number}\\}$ is reflexive, symmetric or transitive.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To test reflexivity, consider any $a\\in R$. Then<br />$a-a+\\sqrt{2}=\\sqrt{2}$. Since $\\sqrt{2}$ is irrational, $(a,a)\\in S$ for every $a\\in R$. Therefore, the relation is reflexive.<br /><br /><b>Step 2</b> To test symmetry, suppose $(a,b)\\in S$. We must check whether $(b,a)\\in S$. Consider the counterexample $a=\\sqrt{2}$ and $b=1$. Then<br />$a-b+\\sqrt{2}=\\sqrt{2}-1+\\sqrt{2}=2\\sqrt{2}-1$, which is irrational. Hence, $(\\sqrt{2},1)\\in S$.<br /><br /><b>Step 3</b> Now check the reverse pair:<br />$1-\\sqrt{2}+\\sqrt{2}=1$, which is rational. Therefore, $(1,\\sqrt{2})\\notin S$. Hence, the relation is not symmetric.<br /><br /><b>Step 4</b> To test transitivity, choose $a=\\sqrt{2}$, $b=1$, and $c=2\\sqrt{2}$. Then<br />$a-b+\\sqrt{2}=2\\sqrt{2}-1$, which is irrational, so $(a,b)\\in S$. Also,<br />$b-c+\\sqrt{2}=1-\\sqrt{2}$, which is irrational, so $(b,c)\\in S$.<br /><br /><b>Step 5</b> Now check $(a,c)$:<br />$a-c+\\sqrt{2}=\\sqrt{2}-2\\sqrt{2}+\\sqrt{2}=0$. Since $0$ is rational, $(a,c)\\notin S$. Thus, the relation is not transitive.<br /><br /><b>Conclusion:</b> The relation $S$ is reflexive but neither symmetric nor transitive.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

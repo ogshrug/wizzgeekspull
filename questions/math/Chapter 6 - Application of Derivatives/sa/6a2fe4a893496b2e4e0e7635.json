@@ -1,0 +1,27 @@
+{
+  "id": "6a2fe4a893496b2e4e0e7635",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975",
+    "6a13e98e8c819562f933f973"
+  ],
+  "question_type": "SA",
+  "question": "The volume of a wooden block in the shape of a cube increases at a constant rate as the air becomes moist during the rainy season. Show that the rate of change of its surface area varies inversely as the length of edge of the cube.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $x$ be the edge length, $V = x^3$ be the volume, and $S = 6x^2$ be the surface area of the cube. We are given that $\\frac{dV}{dt} = k$, where $k$ is a constant.<br />**Step 2:** Differentiate volume with respect to time $t$: $\\frac{dV}{dt} = 3x^2 \\frac{dx}{dt} = k \\implies \\frac{dx}{dt} = \\frac{k}{3x^2}$.<br />**Step 3:** Differentiate the surface area formula with respect to time: $\\frac{dS}{dt} = 12x \\frac{dx}{dt} = 12x \\left(\\frac{k}{3x^2}\\right) = \\frac{4k}{x}$. This shows $\\frac{dS}{dt} \\propto \\frac{1}{x}$, meaning it varies inversely as the edge length.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

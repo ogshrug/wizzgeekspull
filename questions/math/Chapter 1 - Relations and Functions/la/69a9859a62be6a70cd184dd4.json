@@ -1,0 +1,29 @@
+{
+  "id": "69a9859a62be6a70cd184dd4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "LA",
+  "question": "Let $P(\\mathbb{A})$ denote the power set of a non-empty set $\\mathbb{A}$, and let $*$ be the binary operation $A * B = (A \\cap B) \\cup (A \\cup B)$.<br /><br />(a) Is $*$ a binary operation on $P(\\mathbb{A})$?<br /><br />(b) Is $*$ associative and commutative?<br /><br />(c) Does $*$ have an identity element on $P(\\mathbb{A})$?",
+  "answeroption": "D",
+  "explanation": "(a) $A * B = (A \\cap B) \\cup (A \\cup B) = A \\cup B$ since $A \\cap B \\subseteq A \\cup B$. So $* = \\cup$ (union) operation, which maps $P(\\mathbb{A}) \\times P(\\mathbb{A})$ to $P(\\mathbb{A})$ (the power set is closed under union). Yes, $*$ is a binary operation.<br /><br />(b) Since $* = \\cup$, for all $A, B, C$, we have $A * B = B * A$ (commutative), and $(A * B) * C = (A \\cup B) \\cup C = A \\cup (B \\cup C) = A * (B * C)$ (associative).<br /><br />(c) The identity element $e$ under $*$ should satisfy, for all $A \\subseteq \\mathbb{A}$, $A * e = A = e * A$. Under union, the identity is $\\phi$, since $A \\cup \\phi = A$. Thus, $\\phi$ is the identity element for $*$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $*$ is not a binary operation on $P(\\mathbb{A})$.<br />(b) $*$ is neither associative nor commutative.<br />(c) $*$ has no identity element.",
+    "B": "(a) $*$ is a binary operation.<br />(b) $*$ is commutative but not associative.<br />(c) The identity element is $\\mathbb{A}$.",
+    "C": "(a) $*$ is a binary operation.<br />(b) $*$ is associative but not commutative.<br />(c) The identity element is every subset of $\\mathbb{A}$.",
+    "D": "(a) Yes, because $A*B=(A\\cap B)\\cup(A\\cup B)=A\\cup B\\in P(\\mathbb{A})$.<br />(b) $*$ is associative and commutative since it is the union operation.<br />(c) The identity element is $\\phi$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:31:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

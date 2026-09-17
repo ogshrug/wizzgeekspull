@@ -1,0 +1,31 @@
+{
+  "id": "69a9c48962be6a70cd184e3a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An eco-resort wants to fence a rectangular area adjacent to a river. No fencing is needed along the river. The available fencing is 600 m. The management wants to maximize the area.<br /><br />(a) Express the area as a function of one variable.<br /><br />(b) Use calculus to find the dimensions for maximum area.<br /><br />(c) Justify whether your critical point is a maximum using proper testing.",
+  "answeroption": "B",
+  "explanation": "Let length parallel to river = $x$, width perpendicular = $y$.<br /><br />Fencing used: $x + 2y = 600 \\implies y = \\frac{600 - x}{2}$<br /><br />(a) Area $A = xy = x \\left(\\frac{600 - x}{2}\\right) = 300x - \\frac{1}{2}x^2$<br /><br />(b) $\\frac{dA}{dx} = 300 - x$<br /><br />Set $\\frac{dA}{dx} = 0$ to get $x = 300$<br /><br />$y = \\frac{600 - 300}{2} = 150$<br /><br />(c) $\\frac{d^2A}{dx^2} = -1 < 0$ so it's a maximum.<br /><br />Maximum when $x = 300$ m, $y = 150$ m.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=x(600-x)=600x-x^2$<br />(b) Maximum area occurs when $x=300$ m and $y=300$ m.<br />(c) $\\frac{d^2A}{dx^2}=-2<0$, so it is a maximum.",
+    "B": "(a) $A=x\\left(\\frac{600-x}{2}\\right)=300x-\\frac{1}{2}x^2$<br />(b) Maximum area occurs when $x=300$ m and $y=150$ m.<br />(c) $\\frac{d^2A}{dx^2}=-1<0$, so it is a maximum.",
+    "C": "(a) $A=2xy=600x-x^2$<br />(b) Maximum area occurs when $x=150$ m and $y=225$ m.<br />(c) $\\frac{d^2A}{dx^2}>0$, so it is a minimum.",
+    "D": "(a) $A=xy=x(600-2x)$<br />(b) Maximum area occurs when $x=150$ m and $y=300$ m.<br />(c) $\\frac{d^2A}{dx^2}=1>0$, so it is a maximum."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:59:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8fe35a2e54880055a0a721",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a6",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "LA",
+  "question": "Form the differential equation corresponding to the two-parameter family $$y=ax^2+bx^3,$$ where $a$ and $b$ are arbitrary constants, by differentiating successively and eliminating both constants.",
+  "answeroption": "C",
+  "explanation": "<b>Given Information</b><br>The family is $$y=ax^2+bx^3.$$ Since two arbitrary constants $a$ and $b$ occur, differentiate the relation twice.<br><br><b>Differentiation</b><br>Differentiating once, $$\\frac{dy}{dx}=2ax+3bx^2.$$ Differentiating again, $$\\frac{d^2y}{dx^2}=2a+6bx.$$<br><br><b>Elimination of Arbitrary Constants</b><br>Multiply the second derivative relation by $x^2$: $$x^2\\frac{d^2y}{dx^2}=2ax^2+6bx^3.$$ Also, $$4x\\frac{dy}{dx}=8ax^2+12bx^3$$ and $$6y=6ax^2+6bx^3.$$ Therefore, $$x^2\\frac{d^2y}{dx^2}-4x\\frac{dy}{dx}+6y=(2-8+6)ax^2+(6-12+6)bx^3=0.$$ Thus both $a$ and $b$ have been eliminated.<br><br><b>Final Result</b><br>The required differential equation is $$x^2\\frac{d^2y}{dx^2}-4x\\frac{dy}{dx}+6y=0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x^2\\frac{d^2y}{dx^2}-3x\\frac{dy}{dx}+6y=0$",
+    "B": "$x^2\\frac{d^2y}{dx^2}+4x\\frac{dy}{dx}-6y=0$",
+    "C": "$x^2\\frac{d^2y}{dx^2}-4x\\frac{dy}{dx}+6y=0$",
+    "D": "$x\\frac{d^2y}{dx^2}-4\\frac{dy}{dx}+6y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

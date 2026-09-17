@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb85e2e54880055a0a6af",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "VSA",
+  "question": "If $y=(x^2+3)^{\\sin x}$, find $\\left.\\frac{dy}{dx}\\right|_{x=0}$.",
+  "answeroption": "C",
+  "explanation": "Step 1: The variable occurs in both the base and exponent, so take logarithms: $\\log y=\\sin x\\,\\log(x^2+3)$.<br>Step 2: Differentiate both sides to obtain $\\frac{1}{y}\\frac{dy}{dx}=\\cos x\\log(x^2+3)+\\sin x\\frac{2x}{x^2+3}$.<br>Step 3: At $x=0$, $\\cos0=1$, $\\sin0=0$ and $x^2+3=3$.<br>Step 4: Also, $y=(0^2+3)^{\\sin0}=3^0=1$.<br>Step 5: Therefore, $\\frac{dy}{dx}=1[\\log3+0]=\\log3$. Hence, $\\left.\\frac{dy}{dx}\\right|_{x=0}=\\log3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$3$",
+    "B": "$\\frac{1}{3}$",
+    "C": "$\\log 3$",
+    "D": "$3\\log 3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

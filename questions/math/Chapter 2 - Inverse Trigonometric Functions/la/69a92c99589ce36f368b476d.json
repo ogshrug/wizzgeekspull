@@ -1,0 +1,29 @@
+{
+  "id": "69a92c99589ce36f368b476d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "If $\\tan^{-1}a + \\tan^{-1}b + \\tan^{-1}c = \\pi$, show that $a + b + c = abc$.",
+  "answeroption": "C",
+  "explanation": "Let $\\alpha = \\tan^{-1}a$, $\\beta = \\tan^{-1}b$, $\\gamma = \\tan^{-1}c$.<br /><br />Given $\\alpha + \\beta + \\gamma = \\pi$.<br /><br />Using the formula $\\tan(\\alpha+\\beta) = \\frac{\\tan\\alpha + \\tan\\beta}{1 - \\tan\\alpha \\tan\\beta} = \\frac{a+b}{1-ab}$.<br /><br />Now consider $\\tan((\\alpha+\\beta)+\\gamma)$.<br /><br />Since $\\alpha + \\beta + \\gamma = \\pi$, we have $\\tan\\pi = 0$.<br /><br />Thus $\\frac{\\tan(\\alpha+\\beta) + \\tan\\gamma}{1 - \\tan(\\alpha+\\beta)\\tan\\gamma} = 0$.<br /><br />Hence numerator must be zero.<br /><br />$\\tan(\\alpha+\\beta) + \\tan\\gamma = 0$.<br /><br />Substitute values<br /><br />$\\frac{a+b}{1-ab} + c = 0$.<br /><br />$a + b + c - abc = 0$.<br /><br />Therefore $a + b + c = abc$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $\\alpha=\\tan^{-1}a$, $\\beta=\\tan^{-1}b$, $\\gamma=\\tan^{-1}c$. Since $\\alpha+\\beta+\\gamma=\\pi$, using $\\tan\\pi=0$ gives $a+b+c+abc=0$, so $a+b+c=-abc$.",
+    "B": "Let $\\alpha=\\tan^{-1}a$, $\\beta=\\tan^{-1}b$, $\\gamma=\\tan^{-1}c$. Since $\\alpha+\\beta+\\gamma=\\pi$, using $\\tan\\pi=1$ gives $a+b+c=1+abc$.",
+    "C": "Let $\\alpha=\\tan^{-1}a$, $\\beta=\\tan^{-1}b$, $\\gamma=\\tan^{-1}c$. Since $\\alpha+\\beta+\\gamma=\\pi$, using $\\tan\\pi=0$ gives $\\frac{a+b}{1-ab}+c=0$, hence $a+b+c=abc$.",
+    "D": "Let $\\alpha=\\tan^{-1}a$, $\\beta=\\tan^{-1}b$, $\\gamma=\\tan^{-1}c$. Since $\\alpha+\\beta+\\gamma=\\pi$, using $\\tan\\pi=0$ gives $ab+bc+ca=1$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:11:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

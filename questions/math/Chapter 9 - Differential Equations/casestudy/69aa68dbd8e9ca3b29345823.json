@@ -1,0 +1,30 @@
+{
+  "id": "69aa68dbd8e9ca3b29345823",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Case Study 1: Population Growth in a Newly Discovered Island<br /><br />A new species of bird is discovered on an uninhabited island. Scientists estimate that the rate at which the population changes is proportional to both the current population and the available resources, which decrease linearly due to overexploitation. Let the population at time $t$ (in years) be $P(t)$ and the available resources at time $t$ be $R(t) = R_0 - kP(t)$, where $R_0$ is the initial resource level and $k > 0$ is a constant.<br /><br />(a) Formulate a differential equation for $P$, given that $\\dfrac{dP}{dt} = \\alpha P R(t)$, where $\\alpha$ is a positive constant.<br /><br />(b) Solve the resulting differential equation for $P(t)$, assuming $P(0) = P_0$ and $R(0) = R_0$.<br /><br />(c) Critically discuss what may happen to the population as $t$ approaches infinity and under what conditions a stable population might be achieved.",
+  "answeroption": "B",
+  "explanation": "(a) Substituting $R(t)$ gives:<br /><br />$\\dfrac{dP}{dt} = \\alpha P (R_0 - kP)$<br /><br />$\\dfrac{dP}{dt} = \\alpha R_0 P - \\alpha k P^2$<br /><br />This is a separable (and also logistic-type) differential equation.<br /><br />(b) Rearranging and separating variables:<br /><br />$\\dfrac{dP}{dt} = \\alpha R_0 P - \\alpha k P^2$<br /><br />$\\Rightarrow \\frac{dP}{P(R_0 - kP)} = \\alpha dt$<br /><br />We can use partial fractions:<br /><br />$\\frac{1}{P(R_0 - kP)} = \\frac{A}{P} + \\frac{B}{R_0 - kP}$<br /><br />So,<br /><br />$1 = A(R_0 - kP) + BP$<br /><br />Let $P=0$: $1 = AR_0 \\implies A = \\frac{1}{R_0}$<br /><br />Let $P=\\frac{R_0}{k}$: $1 = B\\frac{R_0}{k}$, so $B = \\frac{k}{R_0}$<br /><br />So,<br /><br />$\\Rightarrow \\int \\left(\\frac{1}{R_0}\\frac{1}{P} + \\frac{k}{R_0}\\frac{1}{R_0 - kP}\\right) dP = \\alpha \\int dt$<br /><br />$\\implies \\frac{1}{R_0}\\int \\frac{1}{P} dP + \\frac{k}{R_0} \\int \\frac{1}{R_0 - kP} dP = \\alpha t + C$<br /><br />$\\frac{1}{R_0} \\ln |P| - \\frac{1}{R_0} \\ln |R_0 - kP| = \\alpha t + C$<br /><br />$\\Rightarrow \\ln\\left|\\frac{P}{R_0 - kP}\\right| = \\alpha R_0 t + C'$<br /><br />Exponentiating:<br /><br />$\\frac{P}{R_0 - kP} = A e^{\\alpha R_0 t}$, $A = e^{C'}$<br /><br />Using initial condition $P(0) = P_0$:<br /><br />$\\frac{P_0}{R_0 - kP_0} = A$<br /><br />So,<br /><br />$A = \\frac{P_0}{R_0 - kP_0}$<br /><br />$\\implies \\frac{P}{R_0 - kP} = \\frac{P_0}{R_0 - kP_0} e^{\\alpha R_0 t}$<br /><br />Solving for $P$:<br /><br />$P = \\frac{R_0 \\left(\\frac{P_0}{R_0 - kP_0}\\right) e^{\\alpha R_0 t}}{1 + k\\left(\\frac{P_0}{R_0 - kP_0}\\right) e^{\\alpha R_0 t}}$<br /><br />(c) As $t \\to \\infty$, $e^{\\alpha R_0 t} \\to \\infty$.<br /><br />The dominating terms in numerator and denominator are those multiplied by $e^{\\alpha R_0 t}$:<br /><br />$P \\approx \\frac{R_0 \\frac{P_0}{R_0 - kP_0} e^{\\alpha R_0 t}}{k \\frac{P_0}{R_0 - kP_0} e^{\\alpha R_0 t}} = \\frac{R_0}{k}$<br /><br />Thus, as $t \\to \\infty$, the population stabilizes at $\\frac{R_0}{k}$, provided $k > 0$ and initial population does not exceed $\\frac{R_0}{k}$.<br /><br />Biologically, if $P_0 \\geq \\frac{R_0}{k}$, resources are overexploited and population may decline. For long term stability, initial population must be less than $\\frac{R_0}{k}$ and $k$ must represent realistic depletion rate.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dP}{dt}=\\alpha P(R_0+kP)$<br />(b) $P(t)=P_0e^{\\alpha R_0t}$<br />(c) Population grows without bound for all positive values",
+    "B": "(a) $\\frac{dP}{dt}=\\alpha P(R_0-kP)$<br />(b) $\\frac{P}{R_0-kP}=\\frac{P_0}{R_0-kP_0}e^{\\alpha R_0t}$, so $P=\\frac{R_0\\left(\\frac{P_0}{R_0-kP_0}\\right)e^{\\alpha R_0t}}{1+k\\left(\\frac{P_0}{R_0-kP_0}\\right)e^{\\alpha R_0t}}$<br />(c) As $t\\to\\infty$, $P\\to\\frac{R_0}{k}$ under stable conditions",
+    "C": "(a) $\\frac{dP}{dt}=\\alpha(R_0-kP)$<br />(b) $P(t)=R_0-kP_0t$<br />(c) Population becomes negative after a finite time",
+    "D": "(a) $\\frac{dP}{dt}=\\alpha kP^2$<br />(b) $P=\\frac{P_0}{1-kP_0t}$<br />(c) Stable population is $k/R_0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:40:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

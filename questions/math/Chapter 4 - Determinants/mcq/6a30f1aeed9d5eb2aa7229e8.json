@@ -1,0 +1,31 @@
+{
+  "id": "6a30f1aeed9d5eb2aa7229e8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\left| \\frac{A^{-1}}{2} \\right| = \\frac{1}{k|A|}$ where A is a $3 \\times 3$ matrix, then the value of k is:",
+  "answeroption": "B",
+  "explanation": "**Step 1: Apply Scalar Multiplication Property of Determinants**  \nFor an $n \\times n$ matrix $M$, the determinant of a scalar multiple is $|cM| = c^n |M|$. Here, we have $\\left| \\frac{A^{-1}}{2} \\right| = \\left| \\frac{1}{2} A^{-1} \\right|$. Since $A$ is a $3 \\times 3$ matrix, $n=3$. Thus:  \n$$\\left| \\frac{1}{2} A^{-1} \\right| = \\left(\\frac{1}{2}\\right)^3 |A^{-1}| = \\frac{1}{8} |A^{-1}|$$\n\n**Step 2: Use the Property of Inverse Determinant**  \nWe know that $|A^{-1}| = \\frac{1}{|A|}$, provided $|A| \\neq 0$. Substitute this into the expression:  \n$$\\left| \\frac{A^{-1}}{2} \\right| = \\frac{1}{8} \\cdot \\frac{1}{|A|} = \\frac{1}{8|A|}$$\n\n**Step 3: Compare with the Given Expression**  \nThe problem states that $\\left| \\frac{A^{-1}}{2} \\right| = \\frac{1}{k|A|}$. Equating the two results:  \n$$\\frac{1}{8|A|} = \\frac{1}{k|A|} \\Rightarrow \\frac{1}{8} = \\frac{1}{k} \\Rightarrow k = 8$$\n\n**Step 4: Match with the Options**  \nThe value of $k$ is $8$, which corresponds to option **B**.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{8}$",
+    "B": "8",
+    "C": "2",
+    "D": "$\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

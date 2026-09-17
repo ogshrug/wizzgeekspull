@@ -1,0 +1,31 @@
+{
+  "id": "6a3234ea6dbc98396e70a760",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "MCQ",
+  "question": "If A is a square matrix of order 3 such that $det(A)=9$, then $det(9~A^{-1})$ is equal to",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Apply the determinant scalar property for an $n \\times n$ square matrix, which states that $\\det(k A) = k^n \\det(A)$. Since matrix $A$ has an order of $n = 3$, scaling by 9 yields $\\det(9 A^{-1}) = 9^3 \\det(A^{-1})$.<br />**Step 2:** Use the inverse determinant property $\\det(A^{-1}) = \\frac{1}{\\det(A)}$ to substitute into the expression: $\\det(9 A^{-1}) = 9^3 \\cdot \\frac{1}{\\det(A)}$.<br />**Step 3:** Substitute the given value $\\det(A) = 9$ into the equation to compute the final value: $\\frac{9^3}{9} = 9^2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "9",
+    "B": "$9^{2}$",
+    "C": "$9^{3}$",
+    "D": "$9^{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a22b3cdfbdd87b6dea73c0f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "A person has a fruit box that contains 6 apples and 4 oranges. He picks out a fruit three times, one after the other, after replacing the previous one in the box. Find :<br /><br />**(i)** The probability distribution of the number of oranges he draws.<br />**(ii)** The expectation of the random variable (number of oranges).",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> Let $X$ represent the random variable for the number of oranges drawn in three independent trials. The total number of fruits is $6 + 4 = 10$. Since each fruit is replaced before the next pick, the probability of drawing an orange remains constant: $p = \\frac{4}{10} = 0.4$, and the probability of drawing an apple is $q = 1 - 0.4 = 0.6$. The variable $X$ can take values 0, 1, 2, or 3.<br /><b>Step 2</b> Use the Binomial Distribution formula $P(X = r) = \\binom{3}{r} p^r q^{3-r}$ to find the probabilities: \\\\ For $X = 0$: $P(X = 0) = \\binom{3}{0} (0.4)^0 (0.6)^3 = 1 \\times 1 \\times 0.216 = 0.216$. \\\\ For $X = 1$: $P(X = 1) = \\binom{3}{1} (0.4)^1 (0.6)^2 = 3 \\times 0.4 \\times 0.36 = 0.432$.<br /><b>Step 3</b> Continue evaluating the remaining values: \\\\ For $X = 2$: $P(X = 2) = \\binom{3}{2} (0.4)^2 (0.6)^1 = 3 \\times 0.16 \\times 0.6 = 0.288$. \\\\ For $X = 3$: $P(X = 3) = \\binom{3}{3} (0.4)^3 (0.6)^0 = 1 \\times 0.064 \\times 1 = 0.064$. This completes the probability distribution entries.<br /><br /><b>(ii)</b><br /><br /><b>Step 4</b> The expectation (or mean) of a random variable is given by the formula $E(X) = \\sum X \\cdot P(X)$. Alternatively, for a binomial distribution, it simplifies to $E(X) = n \\cdot p$, where $n = 3$ is the total number of independent trials.<br /><b>Step 5</b> Perform the arithmetic calculation using the binomial mean formula: $E(X) = 3 \\times 0.4 = 1.2$. Thus, the expected number of oranges drawn is exactly 1.2.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

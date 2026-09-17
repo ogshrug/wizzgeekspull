@@ -1,0 +1,31 @@
+{
+  "id": "6a8ef07bbe0ecc7866e90c10",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f980",
+    "6a13e9908c819562f933f981",
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "LA",
+  "question": "The radius and height of a cylindrical container are measured as $7\\ \\text{cm}$ and $10\\ \\text{cm}$, respectively. The possible errors in these measurements are $0.01\\ \\text{cm}$ and $0.02\\ \\text{cm}$, respectively.<br><br>(a) Using differentials, estimate the maximum error in the calculated volume.<br><br>(b) Determine the corresponding relative error.<br><br>(c) Calculate the percentage error in the volume.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The volume of the cylinder is<br>$$V=\\pi r^2h$$<br>Its differential is<br>$$dV=2\\pi rh\\,dr+\\pi r^2\\,dh$$<br>For the maximum approximate error, take the magnitudes of the measurement errors.<br>$$|dV|=2\\pi(7)(10)(0.01)+\\pi(7)^2(0.02)$$<br>$$|dV|=1.4\\pi+0.98\\pi$$<br>$$|dV|=2.38\\pi\\ \\text{cm}^3$$<br><br><b>(b)</b><br>Dividing the differential of the volume by $V=\\pi r^2h$,<br>$$\\frac{|dV|}{V}=2\\frac{|dr|}{r}+\\frac{|dh|}{h}$$<br>Substituting the given values,<br>$$\\frac{|dV|}{V}=2\\left(\\frac{0.01}{7}\\right)+\\frac{0.02}{10}$$<br>$$\\frac{|dV|}{V}=\\frac{1}{350}+\\frac{1}{500}=\\frac{17}{3500}$$<br>Thus, the approximate relative error is $\\frac{17}{3500}$.<br><br><b>(c)</b><br>The percentage error is<br>$$\\frac{17}{3500}\\times 100=\\frac{17}{35}\\%$$<br>$$\\frac{17}{35}\\%\\approx 0.486\\%$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $2.38\\pi$ cm$^3$<br>(b) Relative error $\\frac{17}{3500}$<br>(c) Percentage error $\\frac{17}{35}\\%\\approx0.486\\%$",
+    "B": "(a) $1.68\\pi$ cm$^3$<br>(b) Relative error $\\frac{12}{3500}$<br>(c) Percentage error $0.343\\%$",
+    "C": "(a) $2.38\\pi$ cm$^3$<br>(b) Relative error $\\frac{17}{350}$<br>(c) Percentage error $4.86\\%$",
+    "D": "(a) $3.36\\pi$ cm$^3$<br>(b) Relative error $\\frac{24}{3500}$<br>(c) Percentage error $0.686\\%$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

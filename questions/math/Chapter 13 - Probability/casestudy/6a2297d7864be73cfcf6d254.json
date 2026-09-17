@@ -1,0 +1,31 @@
+{
+  "id": "6a2297d7864be73cfcf6d254",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Airplanes are by far the safest mode of transportation when the number of transported passengers are measured against personal injuries and fatality totals. Previous records state that the probability of an airplane crash is 0.00001%. Further, there are 95% chances that there will be survivors after a plane crash. Assume that in case of no crash, all travellers survive.<br /><br />Let $E_{1}$ be the event that there is a plane crash and $E_{2}$ be the event that there is no crash. Let A be the event that passengers survive after the journey.<br /><br />**(i)** Find the probability that the airplane will not crash.<br />**(ii)** Find $P(A|E_{1})+P(A|E_{2})$<br />**(iii) (a)** Find $P(A)$<br />OR<br />**(iii) (b)** Find $P(E_{2}|A)$.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The probability of a plane crash is given as a percentage: $P(E_1) = 0.00001\\% = \\frac{0.00001}{100} = 10^{-7}$.<br />**Step 2:** The event of not crashing ($E_2$) is the direct complement of crashing ($E_1$). Therefore, its probability is $P(E_2) = 1 - P(E_1)$.<br />**Step 3:** Calculate the numerical value: $P(E_2) = 1 - 0.0000001 = 0.9999999$. This is the probability the airplane will definitively not crash.<br /><br />**(ii)** **Step 1:** We need to find the sum of two conditional probabilities. First, find $P(A|E_1)$, which is the probability of survival given a crash. The problem explicitly states there are 95% chances of survivors after a crash. So, $P(A|E_1) = 95\\% = 0.95$.<br />**Step 2:** Second, find $P(A|E_2)$, the probability of survival given no crash. The text explicitly assumes \"in case of no crash, all travellers survive\". This means absolute certainty. So, $P(A|E_2) = 100\\% = 1.0$.<br />**Step 3:** Add the two calculated probabilities together: $0.95 + 1.0 = 1.95$.<br /><br />**(iii) (a)** **Step 1:** We need to calculate the total absolute probability of survival, $P(A)$. The event of survival can happen in two mutually exclusive ways: survival after a crash, or survival without a crash.<br />**Step 2:** We apply the Law of Total Probability formula: $P(A) = P(E_1) \\cdot P(A|E_1) + P(E_2) \\cdot P(A|E_2)$.<br />**Step 3:** Substitute the previously determined numerical values into the formula: $P(A) = (10^{-7} \\cdot 0.95) + ((1 - 10^{-7}) \\cdot 1)$.<br />**Step 4:** Perform the arithmetic calculation. $P(A) = 0.95 \\times 10^{-7} + 1 - 10^{-7} = 1 + (0.95 - 1) \\times 10^{-7} = 1 - 0.05 \\times 10^{-7} = 1 - 5 \\times 10^{-9}$. This extremely high number represents the total probability.<br /><br />**(iii) (b)** **Step 1:** We need to find the conditional probability $P(E_2|A)$, which is the probability there was no crash given that the passengers survived. This is a classic application for Bayes' Theorem.<br />**Step 2:** State Bayes' Theorem formula for this scenario: $P(E_2|A) = \\frac{P(E_2) \\cdot P(A|E_2)}{P(A)}$.<br />**Step 3:** Substitute the known values. The numerator is exactly the second term from our Total Probability calculation: $(1 - 10^{-7}) \\cdot 1 = 1 - 10^{-7}$. The denominator is the total probability $P(A)$ calculated in part (a).<br />**Step 4:** Construct the final complex fraction: $P(E_2|A) = \\frac{1 - 10^{-7}}{1 - 5 \\times 10^{-9}}$. It is perfectly acceptable to leave the answer in this simplified fractional form.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2297d7864be73cfcf6d254/1782261836-0.png?t=1782281637454"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

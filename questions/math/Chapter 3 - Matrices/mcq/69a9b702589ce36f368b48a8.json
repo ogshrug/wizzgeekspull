@@ -1,0 +1,30 @@
+{
+  "id": "69a9b702589ce36f368b48a8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A$ and $B$ are $2\\times2$ symmetric matrices, which of the following is true for $AB-BA$?",
+  "answeroption": "B",
+  "explanation": "Let $A$ and $B$ be symmetric: $A^T = A$, $B^T = B$.<br /><br />$(AB-BA)^T = B^T A^T - A^T B^T = BA - AB = - (AB - BA)$.<br /><br />So $AB-BA$ is skew symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB - BA$ is a symmetric matrix",
+    "B": "$AB - BA$ is a skew-symmetric matrix",
+    "C": "$AB - BA$ is a zero matrix",
+    "D": "$AB - BA$ is an identity matrix"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:01:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

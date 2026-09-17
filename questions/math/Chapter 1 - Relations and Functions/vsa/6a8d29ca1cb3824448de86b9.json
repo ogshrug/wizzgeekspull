@@ -1,0 +1,29 @@
+{
+  "id": "6a8d29ca1cb3824448de86b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f(x)=x^2$, $g(x)=x+1$ and $h(x)=2x$, where all three functions are from $\\mathbb{R}$ to $\\mathbb{R}$. Find the common value of $[h\\circ(g\\circ f)](2)$ and $[(h\\circ g)\\circ f](2)$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Evaluate $[h\\circ(g\\circ f)](2)$</b><br>Begin with<br>$$f(2)=2^2=4.$$<br>Then<br>$$g(f(2))=g(4)=4+1=5,$$<br>and hence<br>$$h(g(f(2)))=h(5)=2(5)=10.$$<br><br><b>Step 2: Evaluate $[(h\\circ g)\\circ f](2)$</b><br>We have<br>$$(h\\circ g)(x)=h(g(x))=h(x+1)=2(x+1).$$<br>Since $f(2)=4$,<br>$$[(h\\circ g)\\circ f](2)=(h\\circ g)(4)=2(4+1)=10.$$<br><br><b>Step 3: Compare the values</b><br>Both arrangements give the same result, illustrating the associative property of composition of functions.<br><br><b>Final Answer:</b> The common value is $\\boxed{10}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$8$",
+    "B": "$12$",
+    "C": "$10$",
+    "D": "$20$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

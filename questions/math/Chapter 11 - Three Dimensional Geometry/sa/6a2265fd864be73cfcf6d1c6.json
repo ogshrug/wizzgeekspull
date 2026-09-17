@@ -1,0 +1,29 @@
+{
+  "id": "6a2265fd864be73cfcf6d1c6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "SA",
+  "question": "Let the position vectors of the points $A, B$ and $C$ be $3\\hat{i}-\\hat{j}-2\\hat{k}$, $\\hat{i}+2\\hat{j}-\\hat{k}$ and $\\hat{i}+5\\hat{j}+3\\hat{k}$ respectively. Find the vector and cartesian equations of the line passing through $A$ and parallel to line $BC$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To form the equation of a line, we need a point it passes through and a direction vector. It passes through point $A$, so the position vector is $\\vec{a} = 3\\hat{i} - \\hat{j} - 2\\hat{k}$.<br />**Step 2:** The line is parallel to line segment $BC$. Therefore, its direction vector $\\vec{d}$ is proportional to vector $\\vec{BC}$.<br />**Step 3:** Calculate vector $\\vec{BC}$ by subtracting the position vector of $B$ from $C$: $\\vec{BC} = (\\hat{i}+5\\hat{j}+3\\hat{k}) - (\\hat{i}+2\\hat{j}-\\hat{k}) = 0\\hat{i} + 3\\hat{j} + 4\\hat{k}$. This is our direction vector $\\vec{d}$.<br />**Step 4:** The vector equation of a line is $\\vec{r} = \\vec{a} + \\lambda\\vec{d}$. Substituting our values gives $\\vec{r} = (3\\hat{i} - \\hat{j} - 2\\hat{k}) + \\lambda(3\\hat{j} + 4\\hat{k})$.<br />**Step 5:** For the Cartesian equation, use the formula $\\frac{x-x_1}{d_1} = \\frac{y-y_1}{d_2} = \\frac{z-z_1}{d_3}$, where $(x_1, y_1, z_1)$ is the point and $(d_1, d_2, d_3)$ are direction ratios.<br />**Step 6:** Substituting the point $(3, -1, -2)$ and direction ratios $(0, 3, 4)$ yields the Cartesian equation: $\\frac{x-3}{0} = \\frac{y+1}{3} = \\frac{z+2}{4}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

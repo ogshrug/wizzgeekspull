@@ -1,0 +1,31 @@
+{
+  "id": "69a98be56638848124d7c965",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A = \\{1, 2, 3\\}$. Then the number of relations containing $(1, 2)$ and $(1, 3)$, which are reflexive and symmetric but not transitive is",
+  "answeroption": "A",
+  "explanation": "For reflexivity the relation must contain $(1,1), (2,2), (3,3)$. Since $(1,2)$ and $(1,3)$ are given and the relation is symmetric, $(2,1)$ and $(3,1)$ must also be included.<br /><br />Thus the minimum relation is $\\{(1,1),(2,2),(3,3),(1,2),(2,1),(1,3),(3,1)\\}$.<br /><br />If we also include $(2,3)$ and $(3,2)$ the relation becomes transitive. To keep it not transitive, these pairs must not be included.<br /><br />Hence there is exactly one such relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$2$",
+    "C": "$3$",
+    "D": "$4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:57:57 GMT",
+  "updated_at": "Tue, 16 Jun 2026 09:28:05 GMT"
+}

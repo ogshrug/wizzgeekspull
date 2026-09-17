@@ -1,0 +1,30 @@
+{
+  "id": "69a85a7896358125c95a0d61",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "A rectangular field is to be fenced on three sides with fixed area $A$. Find dimensions for minimum fencing and the minimum fencing in terms of $A$.",
+  "answeroption": "B",
+  "explanation": "Area $A=xy$.<br /><br />Wire $P=2y+x=2(A/x)+x$.<br /><br />$\\frac{dP}{dx}=-2A/x^2+1=0$ gives $x^2=2A$.<br /><br />So $x=\\sqrt{2A}$ and $y=\\sqrt{A/2}$.<br /><br />Second derivative positive, so minimum.<br /><br />Minimum fencing $=2\\sqrt{A/2}+\\sqrt{2A}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=\\sqrt{A}$, $y=\\sqrt{A}$, minimum fencing $=3\\sqrt{A}$",
+    "B": "$x=\\sqrt{2A}$, $y=\\sqrt{\\frac{A}{2}}$, minimum fencing $=2\\sqrt{\\frac{A}{2}}+\\sqrt{2A}$",
+    "C": "$x=\\sqrt{\\frac{A}{2}}$, $y=\\sqrt{2A}$, minimum fencing $=2\\sqrt{2A}+\\sqrt{\\frac{A}{2}}$",
+    "D": "$x=2\\sqrt{A}$, $y=\\frac{\\sqrt{A}}{2}$, minimum fencing $=4\\sqrt{A}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:14:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

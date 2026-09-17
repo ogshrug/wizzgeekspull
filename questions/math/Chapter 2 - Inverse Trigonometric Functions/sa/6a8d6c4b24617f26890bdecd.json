@@ -1,0 +1,30 @@
+{
+  "id": "6a8d6c4b24617f26890bdecd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "SA",
+  "question": "Determine the domain and range of $f(x)=\\sec^{-1}(x^2-2)$. Clearly indicate all included and excluded endpoint values.",
+  "answeroption": "B",
+  "explanation": "<b>Condition for inverse secant</b><br>The function $\\sec^{-1}u$ is defined when $|u|\\geq1$. Therefore, $$|x^2-2|\\geq1.$$<br><br><b>Solution of the domain condition</b><br>The inequality gives $$x^2-2\\leq-1\\quad\\text{or}\\quad x^2-2\\geq1.$$ Hence, $x^2\\leq1$ or $x^2\\geq3$. Therefore, the domain is $$(-\\infty,-\\sqrt{3}]\\cup[-1,1]\\cup[\\sqrt{3},\\infty).$$<br><br><b>Range of the inner expression</b><br>On $[-1,1]$, $x^2-2$ takes values in $[-2,-1]$. On the remaining domain intervals, it takes values in $[1,\\infty)$.<br><br><b>Corresponding inverse secant values</b><br>For arguments in $[1,\\infty)$, the range is $\\left[0,\\frac{\\pi}{2}\\right)$. For arguments in $[-2,-1]$, the range is $\\left[\\frac{2\\pi}{3},\\pi\\right]$.<br><br><b>Final range</b><br>Thus, $$\\operatorname{Range}(f)=\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left[\\frac{2\\pi}{3},\\pi\\right].$$ The value $\\frac{\\pi}{2}$ is excluded, while $0$, $\\frac{2\\pi}{3}$ and $\\pi$ are included.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $[-\\sqrt{3},-1]\\cup[1,\\sqrt{3}]$; Range: $\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left[\\frac{2\\pi}{3},\\pi\\right]$",
+    "B": "Domain: $(-\\infty,-\\sqrt{3}]\\cup[-1,1]\\cup[\\sqrt{3},\\infty)$; Range: $\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left[\\frac{2\\pi}{3},\\pi\\right]$",
+    "C": "Domain: $(-\\infty,-\\sqrt{3})\\cup(-1,1)\\cup(\\sqrt{3},\\infty)$; Range: $\\left(0,\\frac{\\pi}{2}\\right]\\cup\\left[\\frac{2\\pi}{3},\\pi\\right)$",
+    "D": "Domain: $(-\\infty,-1]\\cup[1,\\infty)$; Range: $\\left[0,\\frac{\\pi}{2}\\right)\\cup\\left(\\frac{\\pi}{2},\\pi\\right]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

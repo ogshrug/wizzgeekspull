@@ -1,0 +1,24 @@
+{
+  "id": "6a1594846050c058f876e513",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "SA",
+  "question": "Find the equation of the plane passing through three points whose position vectors are $-\\hat{j}$, $3\\hat{i}+3\\hat{j}$ and $\\hat{i}+\\hat{j}+\\hat{k}$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Convert position vectors to coordinate points**<br />Let the three given points be labeled $A$, $B$, and $C$. We extract their Cartesian spatial coordinates from the given position vectors:<br />- Point A: $\\vec{a} = 0\\hat{i} - 1\\hat{j} + 0\\hat{k} \\implies A(0, -1, 0)$<br />- Point B: $\\vec{b} = 3\\hat{i} + 3\\hat{j} + 0\\hat{k} \\implies B(3, 3, 0)$<br />- Point C: $\\vec{c} = \\hat{i} + \\hat{j} + \\hat{k} \\implies C(1, 1, 1)$<br /><br />**Step 2: Construct directional vectors within the plane**<br />We calculate two independent directional displacement vectors using point $A$ as our reference base:<br />- Vector $\\vec{AB} = (3 - 0)\\hat{i} + (3 - (-1))\\hat{j} + (0 - 0)\\hat{k} = 3\\hat{i} + 4\\hat{j} + 0\\hat{k}$<br />- Vector $\\vec{AC} = (1 - 0)\\hat{i} + (1 - (-1))\\hat{j} + (1 - 0)\\hat{k} = \\hat{i} + 2\\hat{j} + \\hat{k}$<br /><br />**Step 3: Calculate the normal vector using the cross product**<br />The normal direction vector $\\vec{n}$ perpendicular to the plane is found by calculating the cross product of our two internal vectors:<br />$\\vec{n} = \\vec{AB} \\times \\vec{AC} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\3&4&0\\\\1&2&1\\end{vmatrix}$<br />$\\vec{n} = \\hat{i}(4(1) - 0(2)) - \\hat{j}(3(1) - 0(1)) + \\hat{k}(3(2) - 4(1))$<br />$\\vec{n} = \\hat{i}(4) - \\hat{j}(3) + \\hat{k}(6 - 4) = 4\\hat{i} - 3\\hat{j} + 2\\hat{k}$<br />This gives direction ratios for the normal vector as $(a, b, c) = (4, -3, 2)$.<br /><br />**Step 4: Formulate the final Cartesian plane equation**<br />The general equation for a plane is written as $a(x - x_1) + b(y - y_1) + c(z - z_1) = 0$. Substituting the coordinates of normal vector $(4, -3, 2)$ and reference point $A(0, -1, 0)$ gives:<br />$4(x - 0) - 3(y - (-1)) + 2(z - 0) = 0$<br />$4x - 3(y + 1) + 2z = 0 \\implies 4x - 3y - 3 + 2z = 0$<br />Rearranging into standard form gives our final plane equation:<br />$4x - 3y + 2z = 3$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

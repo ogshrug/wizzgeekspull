@@ -1,0 +1,29 @@
+{
+  "id": "6a8d3db9550d28a069ec32eb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "SA",
+  "question": "Consider the function $f:\\mathbb{R}\\to\\mathbb{R}$ defined by $f(x)=5x-7$. Show that $f$ is one-one.",
+  "answeroption": "D",
+  "explanation": "<b>Equality of images</b><br>Let $x_1,x_2\\in\\mathbb{R}$ and suppose $f(x_1)=f(x_2)$. Then<br>$$5x_1-7=5x_2-7.$$<br><br><b>Simplification</b><br>Adding $7$ to both sides gives<br>$$5x_1=5x_2.$$<br>Dividing by $5$, we obtain<br>$$x_1=x_2.$$<br><br><b>One-one criterion</b><br>Since $f(x_1)=f(x_2)$ implies $x_1=x_2$, the function $f$ is one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is not one-one because every real number has an image",
+    "B": "$f$ is not one-one because $f(0)=f(7)$",
+    "C": "$f$ is one-one only when its domain is restricted to non-negative real numbers",
+    "D": "$f$ is one-one because $f(x_1)=f(x_2)$ implies $x_1=x_2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

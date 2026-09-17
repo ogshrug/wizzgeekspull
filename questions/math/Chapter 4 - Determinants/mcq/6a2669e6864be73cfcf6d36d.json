@@ -1,0 +1,32 @@
+{
+  "id": "6a2669e6864be73cfcf6d36d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of $\\begin{vmatrix}x+y & y+z & z+x \\\\ z & x & y \\\\ 1 & 1 & 1\\end{vmatrix}$ is",
+  "answeroption": "a",
+  "explanation": "**Step 1:** We evaluate the determinant $D = \\begin{vmatrix}x+y & y+z & z+x \\\\ z & x & y \\\\ 1 & 1 & 1\\end{vmatrix}$ by using elementary row operations. Let us apply the row transformation $R_1 \\rightarrow R_1 + R_2$, which replaces the first row with the sum of row 1 and row 2.<br />**Step 2:** Performing this operation gives a new first row where every single element is identical: $D = \\begin{vmatrix}x+y+z & x+y+z & x+y+z \\\\ z & x & y \\\\ 1 & 1 & 1\\end{vmatrix}$. Factor out the common algebraic scalar expression $(x+y+z)$ from the first row: $D = (x+y+z) \\begin{vmatrix}1 & 1 & 1 \\\\ z & x & y \\\\ 1 & 1 & 1\\end{vmatrix}$.<br />**Step 3:** Observe the rows of the resulting determinant matrix. Row 1 ($1, 1, 1$) and Row 3 ($1, 1, 1$) are completely identical. A fundamental property of determinants states that if any two rows or columns are identical, the value of the determinant is automatically zero. Therefore, $D = (x+y+z) \\times 0 = 0$, matching option (a).",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$1$",
+    "C": "$x+y+z$",
+    "D": "$2(x+y+z)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed3f1751910886affb9c6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977"
+  ],
+  "question_type": "SA",
+  "question": "Examine whether $f(x)=x-\\ln x$ is strictly increasing on $(1,\\infty)$. Justify your answer using the first derivative.",
+  "answeroption": "A",
+  "explanation": "<b>Domain under consideration</b><br>The function is examined only for $x>1$, where $\\ln x$ is defined.<br><b>First derivative</b><br>$$f'(x)=1-\\frac{1}{x}=\\frac{x-1}{x}$$<br><b>Sign of numerator and denominator</b><br>For $x>1$, both $x-1>0$ and $x>0$. Therefore,<br>$$\\frac{x-1}{x}>0$$<br><b>Monotonicity criterion</b><br>Since $f'(x)>0$ at every point of $(1,\\infty)$, the function increases as $x$ increases throughout this interval.<br><b>Conclusion</b><br>Hence, $f(x)=x-\\ln x$ is strictly increasing on $(1,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Strictly increasing on $(1,\\infty)$ because $f'(x)=\\frac{x-1}{x}>0$",
+    "B": "Strictly decreasing on $(1,\\infty)$ because $f'(x)<0$",
+    "C": "Constant on $(1,\\infty)$ because $f'(x)=0$",
+    "D": "Increasing only on $(1,2)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

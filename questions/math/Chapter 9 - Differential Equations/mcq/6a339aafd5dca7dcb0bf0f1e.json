@@ -1,0 +1,31 @@
+{
+  "id": "6a339aafd5dca7dcb0bf0f1e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "MCQ",
+  "question": "The solution of the differential equation $\\frac{dy}{dx}=\\frac{1}{\\log y}$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Separate the variables by moving $y$ terms to one side and $x$ terms to the other: $\\log y \\, dy = 1 \\, dx$.\n\n**Step 2:** Integrate both sides: $\\int \\log y \\, dy = \\int 1 \\, dx$.\n\n**Step 3:** Apply integration by parts to the left side where $u = \\log y$ and $dv = dy$: $\\int \\log y \\, dy = y\\log y - \\int y(\\frac{1}{y})dy = y\\log y - y$.\n\n**Step 4:** Set equal to the integrated right side: $y\\log y - y = x + c$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\log y=x+c$",
+    "B": "$y \\log y-y=x+c$",
+    "C": "$\\log y-y=x+c$",
+    "D": "$y \\log y+y=x+c$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

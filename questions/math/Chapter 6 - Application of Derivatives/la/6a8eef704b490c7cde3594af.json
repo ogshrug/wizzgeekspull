@@ -1,0 +1,32 @@
+{
+  "id": "6a8eef704b490c7cde3594af",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97b",
+    "6a13e98f8c819562f933f97c",
+    "6a13e98f8c819562f933f97d",
+    "6a13e98f8c819562f933f97e"
+  ],
+  "question_type": "LA",
+  "question": "Tangents are drawn from the point $(0,-8)$ to the parabola $y=x^2+1$.(a) Determine the points of contact of the tangents.(b) Obtain the equations of both tangents.(c) Find the equations of the normals at the two points of contact.",
+  "answeroption": "A",
+  "explanation": "(a)Let the point of contact be $(a,a^2+1)$. For the curve $y=x^2+1$,$$\\frac{dy}{dx}=2x$$Therefore, the slope of the tangent at $x=a$ is $2a$. Its equation is$$y-(a^2+1)=2a(x-a)$$$$y=2ax-a^2+1$$Since the tangent passes through $(0,-8)$,$$-8=-a^2+1$$$$a^2=9$$Therefore, $a=3$ or $a=-3$. In both cases, $y=a^2+1=10$. Hence, the points of contact are $(3,10)$ and $(-3,10)$.(b)For $a=3$, the tangent is$$y=2(3)x-(3)^2+1$$$$y=6x-8$$For $a=-3$, the tangent is$$y=2(-3)x-(-3)^2+1$$$$y=-6x-8$$(c)At $(3,10)$, the tangent slope is $6$, so the normal slope is $-\\frac{1}{6}$. Therefore,$$y-10=-\\frac{1}{6}(x-3)$$At $(-3,10)$, the tangent slope is $-6$, so the normal slope is $\\frac{1}{6}$. Therefore,$$y-10=\\frac{1}{6}(x+3)$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Contacts $(3,10)$ and $(-3,10)$<br>(b) Tangents $y=6x-8$ and $y=-6x-8$<br>(c) Normals $y-10=-\\frac{1}{6}(x-3)$ and $y-10=\\frac{1}{6}(x+3)$",
+    "B": "(a) Contacts $(2,5)$ and $(-2,5)$<br>(b) Tangents $y=4x-3$ and $y=-4x-3$<br>(c) Normal slopes $\\mp\\frac{1}{4}$",
+    "C": "(a) Contacts $(3,9)$ and $(-3,9)$<br>(b) Tangents $y=6x-9$ and $y=-6x-9$<br>(c) Normals pass through $(0,-8)$",
+    "D": "(a) Contacts $(4,17)$ and $(-4,17)$<br>(b) Tangents $y=8x-15$ and $y=-8x-15$<br>(c) Normal slopes $\\mp\\frac{1}{8}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

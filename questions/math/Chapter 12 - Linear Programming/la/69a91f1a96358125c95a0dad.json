@@ -1,0 +1,29 @@
+{
+  "id": "69a91f1a96358125c95a0dad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A small farm grows wheat and barley. The farmyard can store at most 200 sacks of harvested grain. Wheat requires 3 hours of labor and 2 units of fertilizer per sack, while barley requires 1 hour of labor and 4 units of fertilizer per sack. At most 180 hours of labor and 240 units of fertilizer are available. The farmer wants to maximize the number of sacks harvested. Formulate the LPP, graph the constraints, find the feasible region, and determine the optimal number of sacks of wheat and barley.",
+  "answeroption": "D",
+  "explanation": "Let $x$ = number of sacks of wheat, $y$ = number of sacks of barley.<br /><br />Objective: Maximize $Z = x + y$<br /><br />Subject to:<br /><br />$3x + y \\leq 180$ (labor)<br /><br />$2x + 4y \\leq 240$ (fertilizer)<br /><br />$x + y \\leq 200$ (storage)<br /><br />$x \\geq 0, y \\geq 0$<br /><br />Intercepts for constraints:<br /><br />$3x + y = 180$: $(0,180)$, $(60,0)$<br /><br />$2x + 4y = 240$: $(0,60)$, $(120,0)$<br /><br />$x + y = 200$: $(0,200)$, $(200,0)$<br /><br />Intersection of $3x + y = 180$ and $2x + 4y = 240$:<br /><br />Multiply first by 4: $12x + 4y = 720$<br /><br />Subtract second: $10x = 480$<br /><br />$x = 48$<br /><br />Substitute: $3\\times48 + y = 180 \\Rightarrow y = 36$<br /><br />Feasible corner points: $(0,0)$, $(0,60)$, $(48,36)$, $(60,0)$<br /><br />Evaluate $Z = x + y$:<br /><br />$(0,0): 0$<br /><br />$(0,60): 60$<br /><br />$(48,36): 84$<br /><br />$(60,0): 60$<br /><br />Maximum value $Z = 84$ at $(48,36)$.<br /><br />Thus, the farmer should produce $48$ sacks of wheat and $36$ sacks of barley.",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 0 sacks of wheat and 60 sacks of barley; maximum sacks $=60$.",
+    "B": "Produce 60 sacks of wheat and 0 sacks of barley; maximum sacks $=60$.",
+    "C": "Produce 0 sacks of wheat and 0 sacks of barley; maximum sacks $=0$.",
+    "D": "Produce 48 sacks of wheat and 36 sacks of barley; maximum sacks $=84$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:13:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

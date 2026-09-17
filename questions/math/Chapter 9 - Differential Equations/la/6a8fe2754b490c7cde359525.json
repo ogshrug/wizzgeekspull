@@ -1,0 +1,30 @@
+{
+  "id": "6a8fe2754b490c7cde359525",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a4"
+  ],
+  "question_type": "LA",
+  "question": "Verify that the one-parameter family $$x^2-y^2=C(x^2+y^2)^2$$ is a solution of the differential equation $$(x^3-3xy^2)\\,dx=(y^3-3x^2y)\\,dy,$$ where $C$ is an arbitrary constant, and justify that the family represents a general solution of the differential equation.",
+  "answeroption": "B",
+  "explanation": "<b>Given Family</b><br>Consider $$x^2-y^2=C(x^2+y^2)^2.$$ Differentiating with respect to $x$, $$2x-2y\\frac{dy}{dx}=4C(x^2+y^2)\\left(x+y\\frac{dy}{dx}\\right).$$ Dividing by $2$, $$x-y\\frac{dy}{dx}=2C(x^2+y^2)\\left(x+y\\frac{dy}{dx}\\right).$$<br><br><b>Elimination of the Arbitrary Constant</b><br>Multiplying this equation by $x^2+y^2$ and using $$C(x^2+y^2)^2=x^2-y^2,$$ we obtain $$\\left(x-y\\frac{dy}{dx}\\right)(x^2+y^2)=2(x^2-y^2)\\left(x+y\\frac{dy}{dx}\\right).$$ Expanding and simplifying gives $$x^3-3xy^2+\\left(3x^2y-y^3\\right)\\frac{dy}{dx}=0.$$ Therefore, $$x^3-3xy^2=\\left(y^3-3x^2y\\right)\\frac{dy}{dx}.$$ Multiplying by $dx$, $$\\left(x^3-3xy^2\\right)dx=\\left(y^3-3x^2y\\right)dy.$$ This is exactly the given differential equation.<br><br><b>Verification and Nature of Solution</b><br>Thus every member of the family satisfies the differential equation. The differential equation obtained contains only the first derivative and is therefore of first order, while the family contains one arbitrary constant $C$. Hence the family represents its general solution.<br><br><b>Final Result</b><br>The family $$x^2-y^2=C(x^2+y^2)^2$$ is verified to be the general solution of the given differential equation.",
+  "explanation_image": [],
+  "options": {
+    "A": "The family does not satisfy the given differential equation.",
+    "B": "The family satisfies the equation and, with one arbitrary constant, represents its general solution.",
+    "C": "The family satisfies the equation but represents only a particular solution.",
+    "D": "The family satisfies the equation only when the arbitrary constant is zero."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

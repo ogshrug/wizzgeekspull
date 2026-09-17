@@ -1,0 +1,31 @@
+{
+  "id": "6a8e9a1e2e54880055a0a684",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d4e",
+    "69c65fbf40512f018fa94d50",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "LA",
+  "question": "A factory records the production of two varieties of an article in three categories during two consecutive months. The first-month production is represented by $$A=\\begin{bmatrix}80&60\\\\75&65\\\\90&85\\end{bmatrix}$$ and the second-month production by $$B=\\begin{bmatrix}90&50\\\\70&55\\\\75&75\\end{bmatrix}.$$ Determine the combined production matrix and hence obtain the target production matrix if the factory plans production equal to $20\\%$ more than this combined production, interpreting the entry in the second row and first column of the target matrix.",
+  "answeroption": "A",
+  "explanation": "<b>Combined Production</b><br><br>Both $A$ and $B$ have order $3\\times2$, so their addition is defined. The combined production is $$A+B=\\begin{bmatrix}80&60\\\\75&65\\\\90&85\\end{bmatrix}+\\begin{bmatrix}90&50\\\\70&55\\\\75&75\\end{bmatrix}$$ $$=\\begin{bmatrix}170&110\\\\145&120\\\\165&160\\end{bmatrix}$$<br><br><b>Target Production</b><br><br>A production target $20\\%$ above the combined production is $120\\%$ of the combined matrix. Therefore, the target matrix is $$\\frac{120}{100}(A+B)=\\frac{6}{5}\\begin{bmatrix}170&110\\\\145&120\\\\165&160\\end{bmatrix}$$ $$=\\begin{bmatrix}204&132\\\\174&144\\\\198&192\\end{bmatrix}$$ This matrix also has order $3\\times2$.<br><br><b>Interpretation</b><br><br>The entry in the second row and first column is $174$. Since rows represent the three categories and columns represent the two varieties, this entry means that the target production for the first variety in the second category is $174$ units. Hence, the required target production matrix is $\\begin{bmatrix}204&132\\\\174&144\\\\198&192\\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A+B=\\begin{bmatrix}170&110\\\\145&120\\\\165&160\\end{bmatrix}$ and target $=\\begin{bmatrix}204&132\\\\174&144\\\\198&192\\end{bmatrix}$; the $(2,1)$ entry represents $174$ units",
+    "B": "$A+B=\\begin{bmatrix}170&110\\\\145&120\\\\165&160\\end{bmatrix}$ and target $=\\begin{bmatrix}204&132\\\\175&144\\\\198&192\\end{bmatrix}$; the $(2,1)$ entry represents $175$ units",
+    "C": "$A+B=\\begin{bmatrix}170&110\\\\145&120\\\\165&160\\end{bmatrix}$ and target $=\\begin{bmatrix}136&88\\\\116&96\\\\132&128\\end{bmatrix}$; the $(2,1)$ entry represents $116$ units",
+    "D": "$A+B=\\begin{bmatrix}170&110\\\\145&120\\\\165&160\\end{bmatrix}$ and target $=\\begin{bmatrix}200&130\\\\174&144\\\\198&192\\end{bmatrix}$; the $(2,1)$ entry represents $174$ units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

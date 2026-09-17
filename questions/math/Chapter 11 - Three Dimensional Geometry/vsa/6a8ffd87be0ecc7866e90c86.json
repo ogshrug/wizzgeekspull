@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffd87be0ecc7866e90c86",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d1"
+  ],
+  "question_type": "VSA",
+  "question": "One line has direction cosines $\\left(\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}}\\right)$ and another line has direction ratios $(1,-1,0)$. Find the angle between the two lines.",
+  "answeroption": "D",
+  "explanation": "Step 1: The first line already has direction cosines $\\left(\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}},\\frac{1}{\\sqrt{3}}\\right)$. Step 2: For the second line, direction ratios are $(1,-1,0)$. Its corresponding direction cosines may be taken as $\\left(\\frac{1}{\\sqrt{2}},-\\frac{1}{\\sqrt{2}},0\\right)$. Step 3: If $\\theta$ is the acute angle between the lines, then $$\\cos\\theta=\\left|l_1l_2+m_1m_2+n_1n_2\\right|.$$ Step 4: Therefore, $$\\cos\\theta=\\left|\\frac{1}{\\sqrt{3}\\sqrt{2}}-\\frac{1}{\\sqrt{3}\\sqrt{2}}+0\\right|=0.$$ Step 5: Hence, $\\theta=90^\\circ$. Thus, the two given lines are perpendicular to each other.",
+  "explanation_image": [],
+  "options": {
+    "A": "$30^\\circ$",
+    "B": "$45^\\circ$",
+    "C": "$60^\\circ$",
+    "D": "$90^\\circ$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

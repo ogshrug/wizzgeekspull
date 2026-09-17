@@ -1,0 +1,30 @@
+{
+  "id": "6a900761be0ecc7866e90c97",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cd",
+    "6a13e7cad837c8c7efa6b8cc"
+  ],
+  "question_type": "SA",
+  "question": "The points $A(-2,1,3)$ and $B(1,-3,5)$ determine a directed line from $A$ to $B$.<br>(i) Find a set of direction ratios of $AB$.<br>(ii) Hence obtain the direction cosines of the line and verify their fundamental relation.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Coordinate differences</b><br>For the directed line from $A(-2,1,3)$ to $B(1,-3,5)$, the coordinate differences are<br>$$1-(-2)=3,\\quad -3-1=-4,\\quad 5-3=2.$$<br>Therefore, a set of direction ratios is $(3,-4,2)$.<br><b>Step 2: Magnitude corresponding to the direction ratios</b><br>$$\\sqrt{3^2+(-4)^2+2^2}=\\sqrt{9+16+4}=\\sqrt{29}.$$<br><b>Step 3: Direction cosines</b><br>Dividing each direction ratio by $\\sqrt{29}$, we obtain<br>$$l=\\frac{3}{\\sqrt{29}},\\quad m=-\\frac{4}{\\sqrt{29}},\\quad n=\\frac{2}{\\sqrt{29}}.$$<br><b>Step 4: Verification</b><br>$$l^2+m^2+n^2=\\frac{9}{29}+\\frac{16}{29}+\\frac{4}{29}=1.$$<br><b>Step 5: Final result</b><br>Hence, the direction ratios are $(3,-4,2)$ and the direction cosines are $\\left(\\frac{3}{\\sqrt{29}},-\\frac{4}{\\sqrt{29}},\\frac{2}{\\sqrt{29}}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) Direction ratios $(3,4,2)$<br>(ii) Direction cosines $\\left(\\frac{3}{\\sqrt{29}},\\frac{4}{\\sqrt{29}},\\frac{2}{\\sqrt{29}}\\right)$",
+    "B": "(i) Direction ratios $(-3,4,-2)$<br>(ii) Direction cosines $\\left(-\\frac{3}{\\sqrt{29}},\\frac{4}{\\sqrt{29}},-\\frac{2}{\\sqrt{29}}\\right)$",
+    "C": "(i) Direction ratios $(3,-4,2)$<br>(ii) Direction cosines $\\left(\\frac{3}{\\sqrt{29}},-\\frac{4}{\\sqrt{29}},\\frac{2}{\\sqrt{29}}\\right)$, with $l^2+m^2+n^2=1$",
+    "D": "(i) Direction ratios $(3,-4,2)$<br>(ii) Direction cosines $\\left(\\frac{3}{29},-\\frac{4}{29},\\frac{2}{29}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

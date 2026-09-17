@@ -1,0 +1,29 @@
+{
+  "id": "6a213f6491ff8b4d45610959",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "LA",
+  "question": "Given that $P = \\begin{bmatrix}2 & -1 \\\\ 3 & 4\\end{bmatrix}$, $Q = \\begin{bmatrix}5 & 2 \\\\ 7 & 4\\end{bmatrix}$ and $R = \\begin{bmatrix}2 & 5 \\\\ 3 & 8\\end{bmatrix}$, find a matrix S such that PQ - RS is a null matrix.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Formulate the required equation. Setting $PQ - RS = O$ is mathematically equivalent to $RS = PQ$. The first step is to calculate the matrix product $PQ$.<br /><br /><b>Step 2</b> Perform the multiplication of matrices $P$ and $Q$. We calculate $PQ = \\begin{bmatrix}2 & -1 \\\\ 3 & 4\\end{bmatrix} \\begin{bmatrix}5 & 2 \\\\ 7 & 4\\end{bmatrix} = \\begin{bmatrix}(2)(5)+(-1)(7) & (2)(2)+(-1)(4) \\\\ (3)(5)+(4)(7) & (3)(2)+(4)(4)\\end{bmatrix} = \\begin{bmatrix}10-7 & 4-4 \\\\ 15+28 & 6+16\\end{bmatrix} = \\begin{bmatrix}3 & 0 \\\\ 43 & 22\\end{bmatrix}$.<br /><br /><b>Step 3</b> Substitute this result into our equation to get $RS = \\begin{bmatrix}3 & 0 \\\\ 43 & 22\\end{bmatrix}$. To solve for matrix $S$, we need to multiply both sides of the equation by $R^{-1}$ on the left, giving $S = R^{-1}(PQ)$.<br /><br /><b>Step 4</b> Find the inverse of matrix $R$. First, calculate the determinant: $|R| = (2)(8) - (5)(3) = 16 - 15 = 1$. The adjoint of a $2 \\times 2$ matrix is found by swapping diagonal elements and negating off-diagonal elements, yielding $\\text{adj } R = \\begin{bmatrix}8 & -5 \\\\ -3 & 2\\end{bmatrix}$. Therefore, $R^{-1} = \\frac{1}{1} \\begin{bmatrix}8 & -5 \\\\ -3 & 2\\end{bmatrix}$.<br /><br /><b>Step 5</b> Multiply $R^{-1}$ by the previously calculated $PQ$ to find $S$. $S = \\begin{bmatrix}8 & -5 \\\\ -3 & 2\\end{bmatrix} \\begin{bmatrix}3 & 0 \\\\ 43 & 22\\end{bmatrix} = \\begin{bmatrix}(8)(3)+(-5)(43) & (8)(0)+(-5)(22) \\\\ (-3)(3)+(2)(43) & (-3)(0)+(2)(22)\\end{bmatrix} = \\begin{bmatrix}24-215 & 0-110 \\\\ -9+86 & 0+44\\end{bmatrix} = \\begin{bmatrix}-191 & -110 \\\\ 77 & 44\\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

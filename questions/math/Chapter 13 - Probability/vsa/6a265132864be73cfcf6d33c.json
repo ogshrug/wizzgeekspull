@@ -1,0 +1,29 @@
+{
+  "id": "6a265132864be73cfcf6d33c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "VSA",
+  "question": "A box $B_{1}$ contains 1 white ball and 3 red balls. Another box $B_{2}$ contains 2 white balls and 3 red balls. If one ball is drawn at random from each of the boxes $B_{1}$ and $B_{2}$, then find the probability that the two balls drawn are of the same colour.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Analyze the configuration of both boxes. Box $B_1$ contains $1 \\text{ white} + 3 \\text{ red} = 4$ total balls. The probabilities for drawing from $B_1$ are $P(W_1) = \\frac{1}{4}$ and $P(R_1) = \\frac{3}{4}$. Box $B_2$ contains $2 \\text{ white} + 3 \\text{ red} = 5$ total balls. The probabilities for drawing from $B_2$ are $P(W_2) = \\frac{2}{5}$ and $P(R_2) = \\frac{3}{5}$.<br />**Step 2:** Two balls drawn are of the same color if either both are white or both are red. These are mutually exclusive outcomes. Since drawing a ball from box $B_1$ is independent of drawing from box $B_2$, we multiply individual states: $P(\\text{Same Color}) = P(W_1 \\cap W_2) + P(R_1 \\cap R_2) = [P(W_1) \\times P(W_2)] + [P(R_1) \\times P(R_2)]$.<br />**Step 3:** Substitute our calculated fraction values into this template expression: $P(\\text{Same Color}) = \\left(\\frac{1}{4} \\times \\frac{2}{5}\\right) + \\left(\\frac{3}{4} \\times \\frac{3}{5}\\right) = \\frac{2}{20} + \\frac{9}{20} = \\frac{11}{20}$. Thus, the required probability is $\\frac{11}{20}$ (or 0.55).",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1",
+    "2022-5-2",
+    "2022-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

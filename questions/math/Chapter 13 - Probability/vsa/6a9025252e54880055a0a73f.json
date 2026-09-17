@@ -1,0 +1,29 @@
+{
+  "id": "6a9025252e54880055a0a73f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "VSA",
+  "question": "Events $A$ and $B$ are independent with $P(A)=0.4$ and $P(B)=0.3$. Find $P(A'\\cap B)$ and hence decide whether $A'$ and $B$ are independent.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> Since $A$ and $B$ are independent, $P(A\\cap B)=P(A)P(B)=0.4\\times0.3=0.12$.<br><b>Step 2:</b> The event $B$ can be written as the disjoint union $(A\\cap B)\\cup(A'\\cap B)$. Hence, $P(A'\\cap B)=P(B)-P(A\\cap B)$.<br><b>Step 3:</b> Therefore, $P(A'\\cap B)=0.3-0.12=0.18$.<br><b>Step 4:</b> Also, $P(A')=1-0.4=0.6$, so $P(A')P(B)=0.6\\times0.3=0.18$.<br><b>Step 5:</b> Since $P(A'\\cap B)=P(A')P(B)$, the events $A'$ and $B$ are independent. The required probability is $0.18$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$P(A'\\cap B)=0.12$ and $A'$ and $B$ are independent",
+    "B": "$P(A'\\cap B)=0.18$ and $A'$ and $B$ are not independent",
+    "C": "$P(A'\\cap B)=0.18$ and $A'$ and $B$ are independent",
+    "D": "$P(A'\\cap B)=0.30$ and $A'$ and $B$ are not independent"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

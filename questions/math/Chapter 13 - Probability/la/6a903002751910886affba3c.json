@@ -1,0 +1,29 @@
+{
+  "id": "6a903002751910886affba3c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "LA",
+  "question": "A black die and a red die are thrown simultaneously. Let $E$ be the event that the sum of the numbers obtained is at least $9$, and let $F$ be the event that the red die shows an even number. Determine (a) $P(E|F)$ and (b) $P(F|E)$, and compare the two conditional probabilities.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>When the two dice are thrown, the outcomes are ordered pairs $(b,r)$, where $b$ is the number on the black die and $r$ is the number on the red die. The event $F$ occurs when $r\\in\\{2,4,6\\}$. Hence $F$ contains $6\\times3=18$ equally likely outcomes, so $P(F)=\\frac{18}{36}=\\frac{1}{2}$. For $E\\cap F$, the red die must be even and the sum must be at least $9$. If $r=2$, no value of $b$ is possible; if $r=4$, then $b=5$ or $6$; if $r=6$, then $b=3,4,5$ or $6$. Thus $E\\cap F$ contains $6$ outcomes and $P(E\\cap F)=\\frac{6}{36}=\\frac{1}{6}$. Therefore,<br>$$P(E|F)=\\frac{P(E\\cap F)}{P(F)}=\\frac{\\frac{1}{6}}{\\frac{1}{2}}=\\frac{1}{3}.$$<br><br><b>(b)</b><br>The event $E$ consists of the outcomes having sums $9,10,11$ or $12$. Their numbers are respectively $4,3,2$ and $1$, so $E$ contains $10$ outcomes. Hence $P(E)=\\frac{10}{36}=\\frac{5}{18}$. Since $E\\cap F$ has already been found to contain $6$ outcomes,<br>$$P(F|E)=\\frac{P(E\\cap F)}{P(E)}=\\frac{\\frac{1}{6}}{\\frac{5}{18}}=\\frac{3}{5}.$$<br><br><b>Final Result</b><br>Thus, $P(E|F)=\\frac{1}{3}$ and $P(F|E)=\\frac{3}{5}$. The two conditional probabilities are different because the conditioning events $F$ and $E$ have different probabilities.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(E|F)=\\frac{3}{5}$<br>(b) $P(F|E)=\\frac{1}{3}$<br>Thus, $P(E|F)>P(F|E)$",
+    "B": "(a) $P(E|F)=\\frac{1}{3}$<br>(b) $P(F|E)=\\frac{1}{2}$<br>Thus, $P(E|F)<P(F|E)$",
+    "C": "(a) $P(E|F)=\\frac{1}{3}$<br>(b) $P(F|E)=\\frac{3}{5}$<br>Thus, $P(E|F)<P(F|E)$",
+    "D": "(a) $P(E|F)=\\frac{3}{5}$<br>(b) $P(F|E)=\\frac{3}{5}$<br>Thus, the probabilities are equal"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

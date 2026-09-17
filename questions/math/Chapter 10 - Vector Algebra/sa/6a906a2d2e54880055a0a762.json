@@ -1,0 +1,29 @@
+{
+  "id": "6a906a2d2e54880055a0a762",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c3"
+  ],
+  "question_type": "SA",
+  "question": "Verify that the points $A(1,0,2)$, $B(3,2,4)$ and $C(5,4,6)$ are collinear using vectors.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Vector from $A$ to $B$</b><br>\\(\\overrightarrow{AB}=(3-1)\\hat{i}+(2-0)\\hat{j}+(4-2)\\hat{k}=2\\hat{i}+2\\hat{j}+2\\hat{k}\\)<br><b>Step 2: Vector from $A$ to $C$</b><br>\\(\\overrightarrow{AC}=(5-1)\\hat{i}+(4-0)\\hat{j}+(6-2)\\hat{k}=4\\hat{i}+4\\hat{j}+4\\hat{k}\\)<br><b>Step 3: Proportionality comparison</b><br>Clearly,<br>\\(\\overrightarrow{AC}=2\\overrightarrow{AB}\\)<br><b>Step 4: Collinearity conclusion</b><br>Since the vectors joining $A$ to the other two points are proportional, they have the same direction. Therefore, all three points lie on one straight line.<br><b>Final Answer</b><br>The points $A$, $B$ and $C$ are collinear.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\overrightarrow{AB}=2\\hat{i}+2\\hat{j}+2\\hat{k}$ and $\\overrightarrow{AC}=4\\hat{i}+4\\hat{j}+4\\hat{k}=2\\overrightarrow{AB}$; hence $A,B,C$ are collinear.",
+    "B": "$\\overrightarrow{AB}=2\\hat{i}+2\\hat{j}+2\\hat{k}$ and $\\overrightarrow{AC}=4\\hat{i}+4\\hat{j}+4\\hat{k}$; hence the points are perpendicular.",
+    "C": "$\\overrightarrow{AB}=2\\hat{i}-2\\hat{j}+2\\hat{k}$ and $\\overrightarrow{AC}=4\\hat{i}-4\\hat{j}+4\\hat{k}$.",
+    "D": "$\\overrightarrow{AB}=2\\hat{i}+2\\hat{j}+2\\hat{k}$ and $\\overrightarrow{AC}=4\\hat{i}+2\\hat{j}+4\\hat{k}$; hence the points are not collinear."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69aa7933aff2be72fd28eb8c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A chemical plant blends two solutions (S1 and S2). Each litre of S1 contains 1 unit acid and 2 units base. Each litre of S2 has 3 units acid and 1 unit base. The plant needs at least 12 units acid and 8 units base per process. Each litre of S1 costs ₹20, S2 costs ₹40. The aim is to minimize cost.<br /><br />(a) Formulate the LPP.<br /><br />(b) Sketch feasible region and list corner points.<br /><br />(c) Compute the minimum cost blend.",
+  "answeroption": "A",
+  "explanation": "Let $x$ = litres S1, $y$ = litres S2.<br /><br />(a) LPP:<br /><br />Min $Z=20x+40y$<br /><br />$x+3y\\geq12$<br /><br />$2x+y\\geq8$<br /><br />$x, y\\geq0$<br /><br />(b) $x+3y=12\\implies x=12-3y$<br /><br />$2x+y=8\\implies x=(8-y)/2$<br /><br />Intersections:<br /><br />$12-3y=(8-y)/2\\implies24-6y=8-y\\implies-5y=8-24=-16\\implies y=16/5=3.2$<br /><br />$x=12-3*3.2=12-9.6=2.4$<br /><br />So (2.4,3.2)<br /><br />Intercepts:<br /><br />$x+3y=12, y=0\\implies x=12$ (12,0)<br /><br />$2x+y=8, x=0\\implies y=8$ (0,8)<br /><br />But both constraints are $\\geq$, so region is above both lines in 1st quadrant. Minimum where lines cross.<br /><br />(c) At (2.4,3.2): $20*2.4+40*3.2=48+128=176$<br /><br />Other boundary ($y=8$): $x+3*8=12\\implies x=12-24=-12$ (not possible); ($x=12, y=0$): $2*12+0=24\\geq8$; $Z=20*12=240$.<br /><br />Thus, minimum is $\\boxed{176}$ at $(2.4,3.2)$ litres.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Min $Z=20x+40y$ with $x+3y\\geq12$, $2x+y\\geq8$, $x,y\\geq0$<br />(b) Corner point: $(2.4,3.2)$<br />(c) Blend 2.4 litres S1 and 3.2 litres S2; minimum cost ₹176.",
+    "B": "(a) Min $Z=20x+40y$ with $x+3y\\geq12$, $2x+y\\geq8$, $x,y\\geq0$<br />(b) Corner point: $(12,0)$<br />(c) Blend 12 litres S1 and 0 litres S2; minimum cost ₹240.",
+    "C": "(a) Min $Z=20x+40y$ with $x+3y\\geq12$, $2x+y\\geq8$, $x,y\\geq0$<br />(b) Corner point: $(0,8)$<br />(c) Blend 0 litres S1 and 8 litres S2; minimum cost ₹320.",
+    "D": "(a) Min $Z=20x+40y$ with $x+3y\\geq12$, $2x+y\\geq8$, $x,y\\geq0$<br />(b) Corner point: $(3.2,2.4)$<br />(c) Blend 3.2 litres S1 and 2.4 litres S2; minimum cost ₹160."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:50:27 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

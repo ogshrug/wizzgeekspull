@@ -1,0 +1,29 @@
+{
+  "id": "69aa7933aff2be72fd28eb8b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A manufacturer makes two kinds of products A and B. Each A requires 2 units of raw material and 2 hours of labor. Each B requires 1 unit of raw material and 2 hours of labor. No more than 10 units of raw material and 14 hours of labor are available. The profit per A is ₹8 and per B is ₹6. Find graphically how many of each product should be made to maximize profit. Give the LPP also.",
+  "answeroption": "B",
+  "explanation": "Let $x$=A, $y$=B<br /><br />Maximize $Z=8x+6y$<br /><br />Material: $2x+y\\leq10$<br /><br />Labor: $2x+2y\\leq14\\implies x+y\\leq7$<br /><br />$x,y\\geq0$<br /><br />Plot $2x+y=10\\implies y=10-2x$<br /><br />$x+y=7\\implies y=7-x$<br /><br />Intersection:<br /><br />$10-2x=7-x\\implies -2x+x=7-10=-3\\implies -x=-3\\implies x=3, y=4$<br /><br />Check $x=0,y=7$ in first: $2*0+7=7<10$<br /><br />$x=5, y=0$ $2*5=10$, $5+0=5 \\leq7$<br /><br />Points: $(0,0),(0,7),(3,4),(5,0)$<br /><br />Check $Z$:<br /><br />$(0,0): 0$<br /><br />$(0,7):6*7=42$<br /><br />$(3,4):24+24=48$<br /><br />$(5,0):40$<br /><br />Maximum at $(3,4):48$<br /><br />Therefore, make 3 of A, 4 of B; max profit ₹48.",
+  "explanation_image": [],
+  "options": {
+    "A": "LPP: Maximize $Z=8x+6y$, subject to $2x+y\\leq10$, $x+y\\leq7$, $x,y\\geq0$; optimum at $(0,7)$, maximum profit ₹42.",
+    "B": "LPP: Maximize $Z=8x+6y$, subject to $2x+y\\leq10$, $x+y\\leq7$, $x,y\\geq0$; optimum at $(3,4)$, maximum profit ₹48.",
+    "C": "LPP: Maximize $Z=8x+6y$, subject to $2x+y\\leq10$, $x+y\\leq7$, $x,y\\geq0$; optimum at $(5,0)$, maximum profit ₹40.",
+    "D": "LPP: Maximize $Z=8x+6y$, subject to $2x+y\\leq10$, $x+y\\leq7$, $x,y\\geq0$; optimum at $(0,0)$, maximum profit ₹0."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:50:27 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

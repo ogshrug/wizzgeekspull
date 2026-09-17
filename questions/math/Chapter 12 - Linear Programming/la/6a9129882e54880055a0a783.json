@@ -1,0 +1,31 @@
+{
+  "id": "6a9129882e54880055a0a783",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8de"
+  ],
+  "question_type": "LA",
+  "question": "For the system of inequalities $x+y\\le 6$, $x+2y\\le 8$, $x\\ge 0$ and $y\\ge 0$, determine graphically the feasible region, obtain its boundary vertices, and justify why this region is bounded while the remaining points of the first quadrant outside the common region are infeasible.",
+  "answeroption": "B",
+  "explanation": "<b>Formation of the Region</b><br>The boundary lines corresponding to the inequalities are $x+y=6$, $x+2y=8$, $x=0$ and $y=0$. The line $x+y=6$ passes through $(6,0)$ and $(0,6)$, while $x+2y=8$ passes through $(8,0)$ and $(0,4)$. Since the inequalities are $x+y\\le6$ and $x+2y\\le8$, the required points lie on or below both lines. The restrictions $x\\ge0$ and $y\\ge0$ confine the common region to the first quadrant.<br><br>The two oblique boundary lines intersect when $x+y=6$ and $x+2y=8$. Subtracting the first equation from the second gives $y=2$, and hence $x=4$. Therefore, their intersection is $(4,2)$. On the x-axis, both inequalities are satisfied up to $(6,0)$, while on the y-axis they are satisfied up to $(0,4)$. Hence the vertices of the common region are $(0,0)$, $(6,0)$, $(4,2)$ and $(0,4)$.<br><br><b>Verification of the Nature of the Region</b><br>Every point within or on the boundary of the quadrilateral with these vertices satisfies all four inequalities simultaneously and therefore belongs to the feasible region. A point outside this common region violates at least one of the given constraints and therefore belongs to the infeasible region.<br><br>The feasible region is completely enclosed by finite line segments joining $(0,0)$, $(6,0)$, $(4,2)$ and $(0,4)$. It does not extend indefinitely in any direction. Hence it is a bounded region.<br><br><b>Final Result</b><br>The feasible region is the bounded quadrilateral with vertices $(0,0)$, $(6,0)$, $(4,2)$ and $(0,4)$, and all points of the first quadrant outside this common region are infeasible.",
+  "explanation_image": [],
+  "options": {
+    "A": "The feasible region is an unbounded region with vertices $(0,0)$, $(6,0)$, $(4,2)$ and $(0,4)$",
+    "B": "The feasible region is the bounded quadrilateral with vertices $(0,0)$, $(6,0)$, $(4,2)$ and $(0,4)$; first-quadrant points outside it are infeasible",
+    "C": "The feasible region is the bounded triangle with vertices $(0,0)$, $(6,0)$ and $(0,4)$",
+    "D": "No feasible region exists because the two oblique constraints intersect"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

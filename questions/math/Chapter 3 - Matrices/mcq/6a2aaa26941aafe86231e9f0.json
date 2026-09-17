@@ -1,0 +1,31 @@
+{
+  "id": "6a2aaa26941aafe86231e9f0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d50"
+  ],
+  "question_type": "MCQ",
+  "question": "If a matrix $B$ is such that $B\\left[\\begin{array}{ccc}1&2&3\\end{array}\\right]=\\left[\\begin{array}{ccc}1&2&3\\\\0&1&1\\\\2&0&1\\end{array}\\right]$, then the order of matrix $B$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Let the order of matrix $B$ be $m \\times n$. The given row matrix $[1 \\quad 2 \\quad 3]$ has an order of $1 \\times 3$.<br />**Step 2:** For matrix multiplication to be defined, the number of columns in $B$ must equal the number of rows in the second matrix, so $n = 1$.<br />**Step 3:** The resulting product matrix is of order $3 \\times 3$, which means the row dimension of $B$ must be $m = 3$. Therefore, the order of $B$ is $3 \\times 1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1\\times3$",
+    "B": "$3\\times1$",
+    "C": "$3\\times3$",
+    "D": "$1\\times1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

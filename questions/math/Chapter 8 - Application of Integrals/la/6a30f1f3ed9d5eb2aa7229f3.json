@@ -1,0 +1,26 @@
+{
+  "id": "6a30f1f3ed9d5eb2aa7229f3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998"
+  ],
+  "question_type": "LA",
+  "question": "Find the area of the region $\\{(x,y): x^2+y^2 \\le 1 \\le x+y\\}$, using integration.",
+  "answeroption": "",
+  "explanation": "**Step 1: Understand the Region and Find Intersection Points**  \nThe region is defined by $x^2+y^2 \\le 1$ (inside the unit circle) and $x+y \\ge 1$ (above the line $x+y=1$). The boundary curves intersect where $x^2+y^2=1$ and $x+y=1$. Solving gives $(1,0)$ and $(0,1)$. Thus, the region is the circular segment cut off by the chord from $(1,0)$ to $(0,1)$.\n\n**Step 2: Set Up the Integral**  \nFor $x \\in [0,1]$, the upper boundary is the circle $y = \\sqrt{1-x^2}$ and the lower boundary is the line $y = 1-x$. The area is:  \n$$A = \\int_{0}^{1} \\left(\\sqrt{1-x^2} - (1-x)\\right) dx$$\n\n**Step 3: Evaluate the Integral**  \n$$A = \\int_{0}^{1} \\sqrt{1-x^2} \\, dx - \\int_{0}^{1} (1-x) \\, dx$$  \nThe first integral is the standard quarter-circle area: $\\int_{0}^{1} \\sqrt{1-x^2} \\, dx = \\frac{\\pi}{4}$.  \nThe second integral: $\\int_{0}^{1} (1-x) \\, dx = \\left[x - \\frac{x^2}{2}\\right]_{0}^{1} = 1 - \\frac{1}{2} = \\frac{1}{2}$.\n\n**Step 4: State the Final Answer**  \nTherefore, the area of the required region is:  \n$$A = \\frac{\\pi}{4} - \\frac{1}{2} = \\frac{\\pi - 2}{4} \\text{ square units}$$  \nThis is the area of the circular segment above the chord $x+y=1$ within the unit circle.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

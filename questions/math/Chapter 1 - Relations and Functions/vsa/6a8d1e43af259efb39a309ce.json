@@ -1,0 +1,29 @@
+{
+  "id": "6a8d1e43af259efb39a309ce",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "VSA",
+  "question": "On $\\mathbb{N}$, define $R$ by $aRb$ if $a$ divides $b$. Given that $3R12$ and $12R60$, determine the ordered pair involving $3$ and $60$ that must belong to $R$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> The relation $aRb$ means that $a$ divides $b$.<br><b>Step 2:</b> Since $3R12$, we have $3\\mid12$, and hence $12=3\\times4$.<br><b>Step 3:</b> Since $12R60$, we have $12\\mid60$, and hence $60=12\\times5$.<br><b>Step 4:</b> Substituting $12=3\\times4$ gives $60=(3\\times4)\\times5=3\\times20$.<br><b>Step 5:</b> Therefore, $3\\mid60$, so $3R60$. This illustrates the transitive condition for the given elements.<br><b>Final Answer:</b> The ordered pair that must belong to $R$ is $\\boxed{(3,60)}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(60,3)$",
+    "B": "$(12,3)$",
+    "C": "$(3,60)$",
+    "D": "$(60,12)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

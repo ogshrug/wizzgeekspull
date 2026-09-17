@@ -1,0 +1,30 @@
+{
+  "id": "6a8d28a41cb3824448de86b6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A class investigates the real solutions of $\\sec^{-1}x=\\csc^{-1}x$. Both functions require $|x|\\geq1$, but their principal-value ranges differ. The principal range of inverse secant is $[0,\\pi]-\\left\\{\\dfrac{\\pi}{2}\\right\\}$, while that of inverse cosecant is $\\left[-\\dfrac{\\pi}{2},0\\right)\\cup\\left(0,\\dfrac{\\pi}{2}\\right]$. The students use $\\sec^{-1}x=\\cos^{-1}\\left(\\dfrac{1}{x}\\right)$ and $\\csc^{-1}x=\\sin^{-1}\\left(\\dfrac{1}{x}\\right)$. They must first determine the possible sign of $x$, reduce the equation to complementary inverse functions, and verify the final value in the original equation.<br><br><b>(a)</b> State the domain common to both sides.<br><br><b>(b)</b> Explain why a solution cannot satisfy $x<0$.<br><br><b>(c)</b> Solve the equation for $x>0$.<br><br><b>(d)</b> Verify the obtained solution using the original inverse secant and inverse cosecant expressions.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Both $\\sec^{-1}x$ and $\\csc^{-1}x$ are defined when<br>$$|x|\\geq1$$<br>Therefore, their common domain is<br>$$(-\\infty,-1]\\cup[1,\\infty)$$<br><br><b>(b)</b><br>For $x<0$, $\\sec^{-1}x$ lies in $\\left(\\dfrac{\\pi}{2},\\pi\\right]$ and is positive. However, $\\csc^{-1}x$ lies in $\\left[-\\dfrac{\\pi}{2},0\\right)$ and is negative. A positive principal value cannot equal a negative principal value. Hence, no negative value of $x$ can satisfy the equation.<br><br><b>(c)</b><br>For $x>0$, use the reciprocal relations:<br>$$\\cos^{-1}\\left(\\frac{1}{x}\\right)=\\sin^{-1}\\left(\\frac{1}{x}\\right)$$<br>Let<br>$$y=\\frac{1}{x}$$<br>Since $x\\geq1$, $0<y\\leq1$. Also,<br>$$\\sin^{-1}y+\\cos^{-1}y=\\frac{\\pi}{2}$$<br>If the two principal values are equal, each must equal $\\dfrac{\\pi}{4}$. Therefore,<br>$$\\sin^{-1}y=\\frac{\\pi}{4}$$<br>$$y=\\frac{1}{\\sqrt{2}}$$<br>Since $y=\\dfrac{1}{x}$,<br>$$x=\\sqrt{2}$$<br><br><b>(d)</b><br>For $x=\\sqrt{2}$,<br>$$\\sec^{-1}(\\sqrt{2})=\\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)=\\frac{\\pi}{4}$$<br>and<br>$$\\csc^{-1}(\\sqrt{2})=\\sin^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)=\\frac{\\pi}{4}$$<br>Both sides are equal, so the verified solution is<br>$$x=\\sqrt{2}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Common domain: $[-1,1]$<br><br>(b) Negative values are excluded because neither function is defined there<br><br>(c) $x=\\dfrac{1}{\\sqrt{2}}$<br><br>(d) Both sides equal $\\dfrac{\\pi}{4}$",
+    "B": "(a) Common domain: $(-\\infty,-1]\\cup[1,\\infty)$<br><br>(b) For $x<0$, $\\sec^{-1}x$ is positive while $\\csc^{-1}x$ is negative<br><br>(c) $x=\\sqrt{2}$<br><br>(d) $\\sec^{-1}(\\sqrt{2})=\\csc^{-1}(\\sqrt{2})=\\dfrac{\\pi}{4}$",
+    "C": "(a) Common domain: $(-\\infty,-1)\\cup(1,\\infty)$<br><br>(b) Negative values are permitted because both principal values are negative<br><br>(c) $x=\\pm\\sqrt{2}$<br><br>(d) Both values satisfy the original equation",
+    "D": "(a) Common domain: $\\mathbb{R}$<br><br>(b) A solution may have either sign<br><br>(c) $x=1$<br><br>(d) $\\sec^{-1}(1)=\\csc^{-1}(1)=\\dfrac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a2686746dcceaa948c59ea2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An octagonal prism is a three-dimensional polyhedron bounded by two octagonal bases and eight rectangular side faces. It has 24 edges and 16 vertices. The prism is rolled along the rectangular faces and the number on the bottom face (touching the ground) is noted. Let $X$ denote the number obtained on the bottom face and the following table gives the probability distribution of $X$.<br /><br />$\\begin{array}{|c|c|c|c|c|c|c|c|c|}\\hline X & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\\\ \\hline P(X) & p & 2p & 2p & p & 2p & p^2 & 2p^2 & 7p^2+p \\\\ \\hline\\end{array}$<br /><br />Based on the above information, answer the following questions:<br />**(i)** Find the value of $p$.<br />**(ii)** Find $P(X>6)$.<br />**(iii) (a)** Find $P(X=3m)$, where $m$ is a natural number.<br /><br />**OR**<br /><br />**(iii) (b)** Find the mean $E(X)$.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The sum of all probabilities in a valid distribution equals 1: $p + 2p + 2p + p + 2p + p^2 + 2p^2 + 7p^2 + p = 1$.<br />**Step 2:** Group like terms to form a quadratic equation: $10p^2 + 9p - 1 = 0 \\implies (10p - 1)(p + 1) = 0$. Since probability cannot be negative, select $p = \\frac{1}{10} = 0.1$.<br /><br />**(ii)** **Step 1:** Identify terms satisfying the inequality condition: $P(X>6) = P(X=7) + P(X=8) = 2p^2 + (7p^2 + p) = 9p^2 + p$.<br />**Step 2:** Substitute $p = 0.1$: $9(0.01) + 0.1 = 0.09 + 0.1 = 0.19$.<br /><br />**(iii) (a)** **Step 1:** Since $m$ is a natural number, find values of $3m$ in the table range, which yields $X=3$ and $X=6$. Thus, $P(X=3 \\text{ or } 6) = 2p + p^2$.<br />**Step 2:** Substitute $p = 0.1$: $2(0.1) + (0.01) = 0.21$.<br /><br />**OR**<br /><br />**(iii) (b)** **Step 1:** Mean formula is given by $E(X) = \\sum x \\cdot P(x) = 1(p) + 2(2p) + 3(2p) + 4(p) + 5(2p) + 6(p^2) + 7(2p^2) + 8(7p^2+p)$.<br />**Step 2:** Simplify the algebraic equation: $33p + 76p^2$. Substituting $p = 0.1$ gives $33(0.1) + 76(0.01) = 3.3 + 0.76 = 4.06$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2686746dcceaa948c59ea2/1782274414-0.png?t=1782294215136"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a22903d864be73cfcf6d20c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "VSA",
+  "question": "If $y = \\sqrt{\\tan\\sqrt{x}}$, prove that $\\sqrt{x}\\frac{dy}{dx} = \\frac{1+y^4}{4y}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate $y = (\\tan(x^{1/2}))^{1/2}$ using chain rule. $\\frac{dy}{dx} = \\frac{1}{2}(\\tan\\sqrt{x})^{-1/2} \\cdot \\frac{d}{dx}(\\tan\\sqrt{x})$.<br />**Step 2:** Compute inner derivative: $\\frac{d}{dx}(\\tan\\sqrt{x}) = \\sec^2(\\sqrt{x}) \\cdot \\frac{1}{2\\sqrt{x}}$.<br />**Step 3:** Combine: $\\frac{dy}{dx} = \\frac{\\sec^2(\\sqrt{x})}{4\\sqrt{x} \\sqrt{\\tan\\sqrt{x}}}$.<br />**Step 4:** Identity $\\sec^2(\\theta) = 1 + \\tan^2(\\theta)$. Here $y^2 = \\tan\\sqrt{x}$, so $\\tan^2(\\sqrt{x}) = y^4$. Thus $\\sec^2(\\sqrt{x}) = 1 + y^4$.<br />**Step 5:** Substitute $1+y^4$ and $y$ back: $\\frac{dy}{dx} = \\frac{1+y^4}{4\\sqrt{x} \\cdot y}$. Rearranging gives $\\sqrt{x}\\frac{dy}{dx} = \\frac{1+y^4}{4y}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

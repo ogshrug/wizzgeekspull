@@ -1,0 +1,31 @@
+{
+  "id": "6a21227d864be73cfcf6d093",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "MCQ",
+  "question": "The least value of $f(x) = x^3 - 12x, x \\in [0, 3]$ is",
+  "answeroption": "A",
+  "explanation": "**Step 1: Find the Critical Points**  \nTo find the minimum value of $f(x)$ on $[0, 3]$, first find the derivative:  \n$$f'(x) = 3x^2 - 12$$  \nSet $f'(x) = 0$ to find critical points:  \n$$3x^2 - 12 = 0 \\Rightarrow x^2 = 4 \\Rightarrow x = \\pm 2$$  \nSince $x \\in [0, 3]$, the valid critical point is $x = 2$.\n\n**Step 2: Evaluate f(x) at Critical Points and Endpoints**  \nEvaluate $f(x)$ at $x = 0$, $x = 2$, and $x = 3$:  \n- At $x = 0$: $f(0) = 0^3 - 12(0) = 0$  \n- At $x = 2$: $f(2) = 2^3 - 12(2) = 8 - 24 = -16$  \n- At $x = 3$: $f(3) = 3^3 - 12(3) = 27 - 36 = -9$\n\n**Step 3: Identify the Least Value**  \nComparing the values: $f(0) = 0$, $f(2) = -16$, $f(3) = -9$.  \nThe least value is $-16$, which occurs at $x = 2$.  \nThus, the minimum value is $-16$, which corresponds to option **A**.",
+  "explanation_image": [],
+  "options": {
+    "A": "-16",
+    "B": "-9",
+    "C": "0",
+    "D": "16"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a96102d30adc5083911a7b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "SA",
+  "question": "Let $A$ and $B$ be $2 \\times 2$ matrices such that $AB = BA$. Show that $(A + B)^2 = A^2 + 2AB + B^2$ and explain why the commutativity condition is necessary.",
+  "answeroption": "B",
+  "explanation": "Expand $(A + B)^2$:<br /><br />$(A + B)^2 = (A + B)(A + B) = AA + AB + BA + BB = A^2 + AB + BA + B^2$<br /><br />If $AB = BA$, then $AB + BA = 2AB$, so<br /><br />$(A + B)^2 = A^2 + 2AB + B^2$<br /><br />If $AB \\neq BA$, then $AB + BA \\neq 2AB$, so the formula does not hold.<br /><br />Necessity: The step $(A+B)^2 = A^2+2AB+B^2$ requires $AB=BA$, i.e., commutativity, unlike for scalars.<br /><br />For matrices, addition is always commutative, but multiplication is not.<br /><br />Hence, $AB = BA$ must be verified for the formula to hold.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(A+B)^2=A^2+AB+BA+B^2$, and if $AB\\neq BA$, it still always becomes $A^2+2AB+B^2$.",
+    "B": "$(A+B)^2=A^2+AB+BA+B^2$. Since $AB=BA$, $AB+BA=2AB$, so $(A+B)^2=A^2+2AB+B^2$. The condition is necessary because matrix multiplication is not always commutative.",
+    "C": "$(A+B)^2=A^2+B^2$ because the middle terms $AB$ and $BA$ always cancel.",
+    "D": "$(A+B)^2=A^2+2BA+B^2$ only when $AB=-BA$, so commutativity is not required."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:54:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

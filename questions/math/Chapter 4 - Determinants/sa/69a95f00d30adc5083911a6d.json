@@ -1,0 +1,30 @@
+{
+  "id": "69a95f00d30adc5083911a6d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67",
+    "69c6603740512f018fa94d70"
+  ],
+  "question_type": "SA",
+  "question": "Let $A=\\begin{pmatrix} 2 & 1 \\\\ -1 & 3 \\end{pmatrix}$ and $B=\\begin{pmatrix} 1 & 2 \\\\ 0 & -1 \\end{pmatrix}$. Find a non-zero $2 \\times 2$ matrix $X$ such that $AX=XB$.",
+  "answeroption": "D",
+  "explanation": "Let $X=\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$. <br /><br /> Calculate $AX$ and $XB$: <br /><br /> $AX = \\begin{pmatrix} 2 & 1 \\\\ -1 & 3 \\end{pmatrix}\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ <br /> $= \\begin{pmatrix} 2a+c & 2b+d \\\\ -a+3c & -b+3d \\end{pmatrix}$ <br /><br /> $XB = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}\\begin{pmatrix} 1 & 2 \\\\ 0 & -1 \\end{pmatrix}$ <br /> $= \\begin{pmatrix} a & 2a-b \\\\ c & 2c-d \\end{pmatrix}$ <br /><br /> Equate $AX$ and $XB$: <br /> $2a+c = a$ <br /> $\\implies a+c=0 \\implies c=-a$ <br /><br /> $2b+d=2a-b$ <br /> $\\implies 2b+d-2a+b=0$ <br /> $\\implies 3b+d-2a=0 \\implies d=2a-3b$ <br /><br /> $-a+3c = c$ <br /> $\\implies -a+3c-c=0 \\implies -a+2c=0$ <br /> $\\implies$ Since $c=-a$, $-a+2(-a)=-a-2a=-3a=0 \\implies a=0$ <br /><br /> $-b+3d=2c-d$ <br /> $\\implies -b+3d-2c+d=0 \\implies -b+4d-2c=0$ <br /><br /> Since $a=0, c=0$ and $d=-3b$ <br /> $-b+4(-3b)=0 \\implies -b-12b=0 \\implies -13b=0 \\implies b=0$ <br /><br /> Thus $a=0, b=0, c=0, d=0$, which gives only zero matrix. <br /><br /> But since the question asks for a non-zero $X$, the only one possible is if $A$ and $B$ commute for a non-zero $X$, which is not possible here. <br /><br /> Hence, no non-zero $X$ exists such that $AX=XB$ for these $A$ and $B$. <br /><br /> Alternative Evaluation (Creation): Formulate $A$ and $B$ that do admit a non-zero $X$ by setting $A = kI$, $B = kI$, in that case, $AX = XB$ for any $X$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$X=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}$",
+    "B": "$X=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$",
+    "C": "$X=\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}$",
+    "D": "No non-zero $2\\times2$ matrix $X$ exists"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:46:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

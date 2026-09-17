@@ -1,0 +1,30 @@
+{
+  "id": "69a9a464d30adc5083911af1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "LA",
+  "question": "Let $X$ be a binomial random variable with parameters $n = 6$ and $p = 1/2$. Find:<br />(a) The probability of exactly four successes.<br />(b) The mean and variance of $X$.<br />(c) The probability of at least five successes.<br />(d) For which $k$ is $P(X=k)$ maximized?",
+  "answeroption": "B",
+  "explanation": "Binomial: $P(X=k) = \\binom{6}{k} (1/2)^k (1/2)^{6-k} = \\binom{6}{k}(1/64)$<br />(a) $P(X=4) = \\binom{6}{4}(1/64)=15/64$<br /><br />(b) Mean: $np=6\\times1/2=3$<br />Variance: $npq=6\\times1/2\\times1/2=3/2$<br /><br />(c) At least 5 successes: $P(X=5) + P(X=6) = \\binom{6}{5}(1/64) + \\binom{6}{6}(1/64) = 6/64 + 1/64 = 7/64$<br /><br />(d) For binomial, most likely $k= \\lfloor (n+1)p \\rfloor = \\lfloor7\\times1/2\\rfloor=3$. That is, $P(X=3)$ is maximized.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{15}{64}$<br />(b) Mean $=3$, Variance $=\\frac{3}{2}$<br />(c) $\\frac{6}{64}$<br />(d) $k=4$",
+    "B": "(a) $\\frac{15}{64}$<br />(b) Mean $=3$, Variance $=\\frac{3}{2}$<br />(c) $\\frac{7}{64}$<br />(d) $k=3$",
+    "C": "(a) $\\frac{20}{64}$<br />(b) Mean $=6$, Variance $=3$<br />(c) $\\frac{7}{64}$<br />(d) $k=2$",
+    "D": "(a) $\\frac{6}{64}$<br />(b) Mean $=3$, Variance $=\\frac{1}{2}$<br />(c) $\\frac{15}{64}$<br />(d) $k=5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:42:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

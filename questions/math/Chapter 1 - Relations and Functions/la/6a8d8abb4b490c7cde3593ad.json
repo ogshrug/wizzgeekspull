@@ -1,0 +1,29 @@
+{
+  "id": "6a8d8abb4b490c7cde3593ad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "LA",
+  "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=2x+3$ and let $g:\\mathbb{R}\\to\\mathbb{R}$ be a function such that $(g\\circ f)(x)=4x^2+12x+11$ for every $x\\in\\mathbb{R}$. Determine $g(x)$ and verify the result using the definition of composition of functions.",
+  "answeroption": "C",
+  "explanation": "<b>Given Composition</b><br>Since $f(x)=2x+3$, the given condition becomes $$g(2x+3)=4x^2+12x+11$$<br><br><b>Change of Variable</b><br>Let $$u=2x+3$$ Then $$x=\\frac{u-3}{2}$$ Substituting this value of $x$ in the given expression, $$g(u)=4\\left(\\frac{u-3}{2}\\right)^2+12\\left(\\frac{u-3}{2}\\right)+11$$<br><br><b>Simplification</b><br>Therefore, $$g(u)=(u-3)^2+6(u-3)+11$$ $$g(u)=u^2-6u+9+6u-18+11=u^2+2$$ Hence, replacing $u$ by $x$, $$g(x)=x^2+2$$<br><br><b>Verification</b><br>Using the obtained function, $$(g\\circ f)(x)=g(f(x))=g(2x+3)=(2x+3)^2+2$$ Thus, $$(g\\circ f)(x)=4x^2+12x+11$$ which is exactly the given composite function.<br><br><b>Final Result</b><br>Therefore, the required function is $$g(x)=x^2+2$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$g(x)=x^2-2$, because $g(2x+3)=(2x+3)^2-2=4x^2+12x+7$.",
+    "B": "$g(x)=2x^2+1$, because $g(2x+3)=2(2x+3)^2+1$.",
+    "C": "$g(x)=x^2+2$, because $g(2x+3)=(2x+3)^2+2=4x^2+12x+11$.",
+    "D": "$g(x)=x^2+3x+2$, because substituting $f(x)=2x+3$ gives the required composition."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

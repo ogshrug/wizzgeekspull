@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9efc4b490c7cde359425",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "LA",
+  "question": "For the determinant $D=\\begin{vmatrix}x+1 & 2x\\\\3 & x-2\\end{vmatrix}$:<br><br><b>(a)</b> Find the values of $x$ for which $D=0$.<br><br><b>(b)</b> Evaluate $D$ for each integral value of $x$ lying strictly between the values obtained in part (a).<br><br><b>(c)</b> Determine the value of $x$ for which $D$ attains its minimum value and find this minimum value.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Expanding the determinant,<br>$$D=(x+1)(x-2)-6x$$<br>$$D=x^2-x-2-6x=x^2-7x-2$$<br>For $D=0$,<br>$$x^2-7x-2=0$$<br>Using the quadratic formula,<br>$$x=\\frac{7\\pm\\sqrt{49+8}}{2}=\\frac{7\\pm\\sqrt{57}}{2}$$<br>Therefore, the required values are $x=\\frac{7-\\sqrt{57}}{2}$ and $x=\\frac{7+\\sqrt{57}}{2}$.<br><br><b>(b)</b><br>Since $\\frac{7-\\sqrt{57}}{2}\\approx-0.275$ and $\\frac{7+\\sqrt{57}}{2}\\approx7.275$, the integral values lying strictly between them are $0,1,2,3,4,5,6,7$.<br>Using $D=x^2-7x-2$, the corresponding values are:<br>$$D(0)=-2,\\quad D(1)=-8,\\quad D(2)=-12,\\quad D(3)=-14$$<br>$$D(4)=-14,\\quad D(5)=-12,\\quad D(6)=-8,\\quad D(7)=-2$$<br><br><b>(c)</b><br>Complete the square:<br>$$D=x^2-7x-2=\\left(x-\\frac{7}{2}\\right)^2-\\frac{57}{4}$$<br>Since the square term is non-negative, $D$ is minimum when<br>$$x=\\frac{7}{2}$$<br>The minimum value is<br>$$D_{\\min}=-\\frac{57}{4}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $x=\\frac{7\\pm\\sqrt{57}}{2}$<br>(b) For $x=0,1,2,3,4,5,6,7$, $D=-2,-8,-12,-14,-14,-12,-8,-2$ respectively<br>(c) $D$ is minimum at $x=\\frac{7}{2}$ and $D_{\\min}=-\\frac{57}{4}$",
+    "B": "(a) $x=\\frac{7\\pm\\sqrt{41}}{2}$<br>(b) For $x=0,1,2,3,4,5,6,7$, $D=-2,-6,-10,-12,-12,-10,-6,-2$ respectively<br>(c) $D$ is minimum at $x=\\frac{7}{2}$ and $D_{\\min}=-\\frac{41}{4}$",
+    "C": "(a) $x=\\frac{-7\\pm\\sqrt{57}}{2}$<br>(b) The integral values are $-7,-6,-5,-4,-3,-2,-1,0$<br>(c) $D$ is minimum at $x=-\\frac{7}{2}$ and $D_{\\min}=-\\frac{57}{4}$",
+    "D": "(a) $x=\\frac{7\\pm\\sqrt{57}}{2}$<br>(b) For $x=0,1,2,3,4,5,6,7$, $D=2,8,12,14,14,12,8,2$ respectively<br>(c) $D$ is maximum at $x=\\frac{7}{2}$ with value $\\frac{57}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

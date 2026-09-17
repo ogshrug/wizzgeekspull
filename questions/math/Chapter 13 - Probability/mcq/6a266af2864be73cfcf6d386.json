@@ -1,0 +1,31 @@
+{
+  "id": "6a266af2864be73cfcf6d386",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "MCQ",
+  "question": "The probability that A speaks the truth is $\\frac{4}{5}$ and that of B speaking the truth is $\\frac{3}{4}$. The probability that they contradict each other in stating the same fact is:",
+  "answeroption": "a",
+  "explanation": "**Step 1:** Let $A$ be the independent event that A speaks the truth, and $B$ be the independent event that B speaks the truth. We are given $P(A) = \\frac{4}{5}$ and $P(B) = \\frac{3}{4}$. Calculate the individual complement probabilities of lying: $P(A') = 1 - \\frac{4}{5} = \\frac{1}{5}$ and $P(B') = 1 - \\frac{3}{4} = \\frac{1}{4}$.<br />**Step 2:** They contradict each other if one speaks the truth while the other lies. This can occur in two mutually exclusive ways: A tells the truth and B lies, or A lies and B tells the truth. Symbolically, this is written as: $P(\\text{Contradiction}) = P(A \\cap B') + P(A' \\cap B)$.<br />**Step 3:** Since their statements are independent, multiply individual events: $P(A)P(B') + P(A')P(B)$. Substituting values gives: $\\left(\\frac{4}{5} \\times \\frac{1}{4}\\right) + \\left(\\frac{1}{5} \\times \\frac{3}{4}\\right) = \\frac{4}{20} + \\frac{3}{20} = \\frac{7}{20}$. This matches option (a).",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{7}{20}$",
+    "B": "$\\frac{1}{5}$",
+    "C": "$\\frac{3}{20}$",
+    "D": "$\\frac{4}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

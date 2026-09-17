@@ -1,0 +1,35 @@
+{
+  "id": "6a8ef356be0ecc7866e90c13",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f974",
+    "6a13e98f8c819562f933f975",
+    "6a13e98f8c819562f933f97b",
+    "6a13e98f8c819562f933f97c",
+    "6a13e98f8c819562f933f97d",
+    "6a13e98f8c819562f933f97e"
+  ],
+  "question_type": "LA",
+  "question": "A point $P(x,y)$ moves in the first quadrant along the circle $x^2+y^2=100$. Its $x$-coordinate increases at a constant rate of $3\\ \\text{units/s}$. When $P=(6,8)$, determine the instantaneous velocity and acceleration of its $y$-coordinate, and hence obtain the equations of the tangent and normal to the circle at $P$, explaining how the derivative represents the tangent slope.",
+  "answeroption": "D",
+  "explanation": "<b>Rate Relation</b><br>Differentiating $x^2+y^2=100$ with respect to time,<br>$$2x\\frac{dx}{dt}+2y\\frac{dy}{dt}=0$$<br>Therefore,<br>$$\\frac{dy}{dt}=-\\frac{x}{y}\\frac{dx}{dt}$$<br>At $(6,8)$, with $\\frac{dx}{dt}=3$,<br>$$\\frac{dy}{dt}=-\\frac{6}{8}(3)=-\\frac{9}{4}\\ \\text{units/s}$$<br>Thus, the $y$-coordinate is decreasing at $\\frac{9}{4}\\ \\text{units/s}$.<br><br><b>Acceleration</b><br>Differentiating $x\\frac{dx}{dt}+y\\frac{dy}{dt}=0$ again,<br>$$\\left(\\frac{dx}{dt}\\right)^2+x\\frac{d^2x}{dt^2}+\\left(\\frac{dy}{dt}\\right)^2+y\\frac{d^2y}{dt^2}=0$$<br>Since the $x$-coordinate increases at a constant rate, $\\frac{d^2x}{dt^2}=0$. Hence,<br>$$9+\\frac{81}{16}+8\\frac{d^2y}{dt^2}=0$$<br>$$8\\frac{d^2y}{dt^2}=-\\frac{225}{16}$$<br>$$\\frac{d^2y}{dt^2}=-\\frac{225}{128}\\ \\text{units/s}^2$$<br><br><b>Tangent and Normal</b><br>Differentiating the circle with respect to $x$,<br>$$2x+2y\\frac{dy}{dx}=0$$<br>$$\\frac{dy}{dx}=-\\frac{x}{y}$$<br>At $(6,8)$, the tangent slope is $-\\frac{3}{4}$. This derivative gives the instantaneous direction of the curve at $P$. The tangent is<br>$$y-8=-\\frac{3}{4}(x-6)$$<br>or<br>$$3x+4y=50$$<br>The normal slope is $\\frac{4}{3}$, so the normal is<br>$$y-8=\\frac{4}{3}(x-6)$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dt}=\\frac{9}{4}$ units/s, $\\frac{d^2y}{dt^2}=\\frac{225}{128}$ units/s$^2$; tangent $3x-4y=-14$; normal slope $-\\frac{4}{3}$",
+    "B": "$\\frac{dy}{dt}=-\\frac{9}{4}$ units/s, $\\frac{d^2y}{dt^2}=0$; tangent $4x+3y=48$; normal slope $\\frac{3}{4}$",
+    "C": "$\\frac{dy}{dt}=-\\frac{3}{4}$ units/s, $\\frac{d^2y}{dt^2}=-\\frac{9}{16}$ units/s$^2$; tangent $3x+4y=100$; normal $x=6$",
+    "D": "$\\frac{dy}{dt}=-\\frac{9}{4}$ units/s, $\\frac{d^2y}{dt^2}=-\\frac{225}{128}$ units/s$^2$; tangent $3x+4y=50$; normal $y-8=\\frac{4}{3}(x-6)$; $\\frac{dy}{dx}=-\\frac{3}{4}$ is the tangent slope"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

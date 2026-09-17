@@ -1,0 +1,29 @@
+{
+  "id": "6a9122d44b490c7cde3595bc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "VSA",
+  "question": "Two adjacent feasible corner points A$(1,5)$ and B$(4,2)$ both give the maximum value of $Z=x+y$. What can be concluded about the feasible points on the line segment AB?",
+  "answeroption": "A",
+  "explanation": "Step 1: Evaluate the objective function at A$(1,5)$: $Z=1+5=6$.<br>Step 2: At B$(4,2)$, $Z=4+2=6$. Thus, both adjacent corner points give the same maximum value.<br>Step 3: A fundamental property of a linear programming problem states that when two corner points on the same boundary segment give the same optimal value, every point on the line segment joining them also gives that value.<br>Step 4: Since A and B are feasible and adjacent, the entire segment AB lies in the feasible region.<br>Step 5: Therefore, every feasible point on AB gives $Z=6$.<br>Hence, every point on the line segment AB is an optimal feasible solution, producing multiple optimal solutions.",
+  "explanation_image": [],
+  "options": {
+    "A": "Every point on AB is an optimal feasible solution with $Z=6$",
+    "B": "Only A and B are optimal solutions",
+    "C": "Only the midpoint of AB is optimal",
+    "D": "Every point on AB is feasible but gives a different value of $Z$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

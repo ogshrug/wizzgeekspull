@@ -1,0 +1,29 @@
+{
+  "id": "69a9706e62be6a70cd184d9c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation $\\cos x \\frac{dy}{dx} + y \\sin x = \\sin^2 x$, given that $y(0) = 1$.",
+  "answeroption": "A",
+  "explanation": "Rewrite the equation as:<br /><br />$\\frac{dy}{dx} + y \\tan x = \\tan^2 x$<br />This is of the form $\\frac{dy}{dx} + P(x) y = Q(x)$ with $P(x) = \\tan x$ and $Q(x) = \\tan^2 x$<br /><br />Integrating factor (IF):<br />$IF = e^{\\int \\tan x dx} = e^{-\\ln |\\cos x|} = \\frac{1}{\\cos x}$<br /><br />Multiply both sides by $\\frac{1}{\\cos x}$:<br />$\\frac{1}{\\cos x} \\frac{dy}{dx} + y \\frac{\\tan x}{\\cos x} = \\frac{\\tan^2 x}{\\cos x}$<br /><br />Observe the left side is $\\frac{d}{dx}(y / \\cos x)$:<br />$\\frac{d}{dx}\\left(\\frac{y}{\\cos x}\\right) = \\frac{\\sin^2 x}{\\cos^3 x}$<br /><br />Integrate both sides:<br />$\\int d\\left(\\frac{y}{\\cos x}\\right) = \\int \\frac{\\sin^2 x}{\\cos^3 x} dx = \\int (\\sec^3 x - \\sec x) dx$<br /><br />Standard integrals:<br />$\\int \\sec x dx = \\ln |\\sec x + \\tan x|$<br />$\\int \\sec^3 x dx = \\frac{1}{2}(\\sec x \\tan x + \\ln |\\sec x + \\tan x|)$<br /><br />So,<br />$\\frac{y}{\\cos x} = \\frac{1}{2}(\\sec x \\tan x + \\ln |\\sec x + \\tan x|) - \\ln |\\sec x + \\tan x| + C = \\frac{1}{2}\\sec x \\tan x - \\frac{1}{2}\\ln|\\sec x + \\tan x| + C$<br /><br />Multiply both sides by $\\cos x$:<br />$y = \\frac{1}{2} \\sec x \\tan x \\cos x - \\frac{1}{2} \\cos x \\ln|\\sec x + \\tan x| + C \\cos x$<br />At $x = 0$, $y = 1 \\implies C = 1$<br />Thus, the particular solution:<br />$y = \\frac{1}{2} \\sec x \\tan x \\cos x - \\frac{1}{2} \\cos x \\ln|\\sec x + \\tan x| + \\cos x$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\frac{1}{2}\\sec x\\tan x\\cos x-\\frac{1}{2}\\cos x\\ln|\\sec x+\\tan x|+\\cos x$",
+    "B": "$y=\\frac{1}{2}\\sec x\\tan x\\cos x+\\frac{1}{2}\\cos x\\ln|\\sec x+\\tan x|+\\cos x$",
+    "C": "$y=\\sec x\\tan x\\cos x-\\cos x\\ln|\\sec x+\\tan x|+\\cos x$",
+    "D": "$y=\\frac{1}{2}\\sec x\\tan x\\cos x-\\frac{1}{2}\\cos x\\ln|\\sec x+\\tan x|-\\cos x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:00:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

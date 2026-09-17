@@ -1,0 +1,32 @@
+{
+  "id": "6a8edd5ebe0ecc7866e90c06",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978",
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "LA",
+  "question": "Consider the function $f(x)=x^4-4x^3+7$.<br><br>(a) Determine all its critical points.<br><br>(b) Find the intervals on which the function is increasing and decreasing.<br><br>(c) Show that every critical point need not produce a change in the increasing or decreasing behaviour of a function.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br><b>Differentiation</b><br>$$f'(x)=4x^3-12x^2$$<br>$$f'(x)=4x^2(x-3)$$<br>The critical points satisfy<br>$$4x^2(x-3)=0$$<br>Therefore,<br>$$x=0\\quad\\text{and}\\quad x=3$$<br><br><b>(b)</b><br>Since $4x^2>0$ for $x\\neq 0$, the sign of $f'(x)$ is determined by $x-3$.<br>For $x<3$ and $x\\neq 0$, $x-3<0$. Therefore, $f'(x)<0$.<br>For $x>3$, $x-3>0$. Therefore, $f'(x)>0$.<br>Hence, the function is decreasing on<br>$$(-\\infty,3)$$<br>and increasing on<br>$$(3,\\infty)$$<br><br><b>(c)</b><br>At the critical point $x=0$, the derivative is negative immediately to both the left and the right of $0$. Therefore, the function remains decreasing as $x$ passes through $0$.<br>At $x=3$, the derivative changes from negative to positive, so the behaviour changes from decreasing to increasing.<br>Thus, $x=0$ is a critical point that does not produce any change in monotonic behaviour, showing that every critical point need not separate an increasing interval from a decreasing interval.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Critical points $x=0,3$<br>(b) Increasing on $(-\\infty,3)$ and decreasing on $(3,\\infty)$<br>(c) The sign changes at both critical points",
+    "B": "(a) Critical point $x=3$ only<br>(b) Decreasing on $(-\\infty,3)$ and increasing on $(3,\\infty)$<br>(c) Every critical point changes monotonicity",
+    "C": "(a) Critical points $x=0,-3$<br>(b) Decreasing on $(-\\infty,0)$ and increasing on $(0,\\infty)$<br>(c) Monotonicity changes only at $x=0$",
+    "D": "(a) Critical points $x=0,3$<br>(b) Decreasing on $(-\\infty,3)$ and increasing on $(3,\\infty)$<br>(c) At $x=0$ the derivative has the same negative sign on both sides, so monotonicity does not change"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

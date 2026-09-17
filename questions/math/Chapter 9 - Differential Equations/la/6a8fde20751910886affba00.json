@@ -1,0 +1,30 @@
+{
+  "id": "6a8fde20751910886affba00",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99d",
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "A student describes the equation $$\\frac{\\partial u}{\\partial x}+x\\frac{\\partial u}{\\partial y}=u$$ as an ordinary differential equation because only first derivatives occur in it. Examine this statement using the definition and classification of differential equations, and establish the correct type of the given equation.",
+  "answeroption": "A",
+  "explanation": "<b>Given Equation</b><br>Consider $$\\frac{\\partial u}{\\partial x}+x\\frac{\\partial u}{\\partial y}=u.$$ The dependent variable is $u$, which depends on the independent variables $x$ and $y$. The equation contains derivatives of the dependent variable, so it satisfies the definition of a differential equation.<br><br><b>Required Classification</b><br>An ordinary differential equation involves derivatives of a dependent variable with respect to only one independent variable. In the given equation, $u$ is differentiated with respect to $x$ as well as with respect to $y$. Thus, derivatives with respect to more than one independent variable occur.<br><br>The symbols $\\frac{\\partial u}{\\partial x}$ and $\\frac{\\partial u}{\\partial y}$ are partial derivatives, showing that the variation of $u$ is being considered separately with respect to two independent variables.<br><br>The fact that both derivatives are first derivatives does not make the equation ordinary. The classification as ordinary or partial depends on the number of independent variables with respect to which differentiation occurs, not merely on the order of the derivatives.<br><br><b>Final Result</b><br>The given equation is a partial differential equation, not an ordinary differential equation. Therefore, the student's statement is incorrect.",
+  "explanation_image": [],
+  "options": {
+    "A": "It is a partial differential equation because derivatives occur with respect to both $x$ and $y$.",
+    "B": "It is an ordinary differential equation because all derivatives are of first order.",
+    "C": "It is an ordinary differential equation of second order because two derivative terms occur.",
+    "D": "It is not a differential equation because partial derivatives are present."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

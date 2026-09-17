@@ -1,0 +1,35 @@
+{
+  "id": "6a214c41864be73cfcf6d0eb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "MCQ",
+  "question": "For $f(x)=x+\\frac{1}{x}(x\\ne0)$",
+  "answeroption": "D",
+  "explanation": "**Step 1:** To find critical points, compute $f^{\\prime}(x) = 1 - \\frac{1}{x^2}$ and set it to $0$. This yields $x^2 = 1 \\implies x = \\pm 1$.<br /><br />**Step 2:** Compute the second derivative $f^{\\prime\\prime}(x) = \\frac{2}{x^3}$ to determine concavity.<br /><br />**Step 3:** At $x=1$, $f^{\\prime\\prime}(1) = 2 > 0$, indicating a local minimum. The local minimum value is $f(1) = 1 + 1 = 2$.<br /><br />**Step 4:** At $x=-1$, $f^{\\prime\\prime}(-1) = -2 < 0$, indicating a local maximum. The local maximum value is $f(-1) = -1 - 1 = -2$.<br /><br />**Step 5:** Comparing the values, the local minimum value ($2$) is strictly greater than the local maximum value ($-2$).",
+  "explanation_image": [],
+  "options": {
+    "A": "local maximum value is 2",
+    "B": "local minimum value is -2",
+    "C": "local maximum value is -2",
+    "D": "local minimum value < local maximum value"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9753862be6a70cd184db6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "If $X$ is a non-empty set, define $R$ on $P(X)$ (power set) as $ARB$ if $A \\subseteq B$. Prove or disprove that $R$ is an equivalence relation.",
+  "answeroption": "A",
+  "explanation": "Reflexive: $A \\subseteq A$ for all $A$, so reflexive.<br /><br />Symmetric: If $A \\subseteq B$ and $B \\subseteq A$, then $A=B$; otherwise symmetry does not hold, so not symmetric.<br /><br />Transitive: If $A \\subseteq B$ and $B \\subseteq C$, then $A \\subseteq C$; transitive.<br /><br />Thus, $R$ is reflexive and transitive, but not symmetric (so not an equivalence relation).",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is reflexive and transitive, but not symmetric; hence it is not an equivalence relation",
+    "B": "$R$ is reflexive, symmetric and transitive; hence it is an equivalence relation",
+    "C": "$R$ is symmetric and transitive, but not reflexive",
+    "D": "$R$ is reflexive and symmetric, but not transitive"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:21:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

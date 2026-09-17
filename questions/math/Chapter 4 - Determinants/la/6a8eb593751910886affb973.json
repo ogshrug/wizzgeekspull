@@ -1,0 +1,30 @@
+{
+  "id": "6a8eb593751910886affb973",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d75"
+  ],
+  "question_type": "LA",
+  "question": "At an event, the total cost of $4$ adult tickets and $3$ child tickets is $₹510$, while the total cost of $2$ adult tickets and $5$ child tickets is $₹430$. Let the prices of one adult ticket and one child ticket be $₹x$ and $₹y$, respectively.<br><br><b>(a)</b> Form the system of equations and express it in matrix form.<br><br><b>(b)</b> Solve the system using the inverse-matrix method.<br><br><b>(c)</b> Verify the obtained ticket prices using the given costs.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The required equations are<br>$$4x+3y=510$$<br>$$2x+5y=430$$<br>In matrix form,<br>$$\\begin{bmatrix}4 & 3\\\\2 & 5\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}510\\\\430\\end{bmatrix}$$<br><br><b>(b)</b><br>Let<br>$$A=\\begin{bmatrix}4 & 3\\\\2 & 5\\end{bmatrix}$$<br>Then,<br>$$|A|=4(5)-3(2)=14\\neq0$$<br>Therefore,<br>$$A^{-1}=\\frac{1}{14}\\begin{bmatrix}5 & -3\\\\-2 & 4\\end{bmatrix}$$<br>Now,<br>$$\\begin{bmatrix}x\\\\y\\end{bmatrix}=A^{-1}\\begin{bmatrix}510\\\\430\\end{bmatrix}$$<br>$$=\\frac{1}{14}\\begin{bmatrix}5 & -3\\\\-2 & 4\\end{bmatrix}\\begin{bmatrix}510\\\\430\\end{bmatrix}$$<br>$$=\\frac{1}{14}\\begin{bmatrix}2550-1290\\\\-1020+1720\\end{bmatrix}=\\frac{1}{14}\\begin{bmatrix}1260\\\\700\\end{bmatrix}$$<br>Thus,<br>$$x=90,\\quad y=50$$<br>The adult ticket costs $₹90$ and the child ticket costs $₹50$.<br><br><b>(c)</b><br>$$4(90)+3(50)=360+150=510$$<br>$$2(90)+5(50)=180+250=430$$<br>Hence, both given costs are verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $4x+3y=510,\\ 2x+5y=430$<br>(b) Adult ticket $₹80$, child ticket $₹60$<br>(c) Both totals are verified",
+    "B": "(a) $4x+3y=510,\\ 2x+5y=430$ and $A^{-1}=\\frac1{14}\\begin{bmatrix}5&-3\\\\-2&4\\end{bmatrix}$<br>(b) Adult ticket $₹90$, child ticket $₹50$<br>(c) $4(90)+3(50)=510$ and $2(90)+5(50)=430$",
+    "C": "(a) $3x+4y=510,\\ 5x+2y=430$<br>(b) Adult ticket $₹90$, child ticket $₹50$<br>(c) The totals are $₹470$ and $₹550$",
+    "D": "(a) $4x+3y=510,\\ 2x+5y=430$<br>(b) Adult ticket $₹50$, child ticket $₹90$<br>(c) Both totals are verified"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a225434864be73cfcf6d15b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a",
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int \\frac{x+\\sin x}{1+\\cos x} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the complex integral by splitting the numerator and applying half-angle trigonometric formulas. This gives $\\frac{x + 2\\sin(\\frac{x}{2})\\cos(\\frac{x}{2})}{2\\cos^2(\\frac{x}{2})}$.<br />**Step 2:** Split this into two distinct fractions: $\\int [\\frac{x}{2}\\sec^2(\\frac{x}{2}) + \\tan(\\frac{x}{2})] dx$.<br />**Step 3:** Apply integration by parts specifically on the first term. Let $u = x$ and $dv = \\frac{1}{2}\\sec^2(\\frac{x}{2}) dx$. Then $du = dx$ and $v = \\tan(\\frac{x}{2})$.<br />**Step 4:** Applying the integration formula $\\int u dv = uv - \\int v du$, we obtain $x\\tan(\\frac{x}{2}) - \\int \\tan(\\frac{x}{2}) dx$.<br />**Step 5:** Substitute this back into the split integral: $x\\tan(\\frac{x}{2}) - \\int \\tan(\\frac{x}{2}) dx + \\int \\tan(\\frac{x}{2}) dx$. The integrals cancel perfectly, leaving $x\\tan(\\frac{x}{2}) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

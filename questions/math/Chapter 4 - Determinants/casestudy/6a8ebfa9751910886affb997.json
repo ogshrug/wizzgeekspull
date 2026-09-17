@@ -1,0 +1,34 @@
+{
+  "id": "6a8ebfa9751910886affb997",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d71",
+    "69c6603740512f018fa94d72",
+    "69c6603740512f018fa94d73",
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d75"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a model-validation exercise, two unknown quantities $x$ and $y$ satisfy the primary observations $2x+y=7$ and $x-y=2$. A third observation reports $3x+y=10$. The students first use the two primary observations to obtain the unique values of $x$ and $y$ by the inverse-matrix method. They then check whether the third observation agrees with the solution. Finally, they consider what would happen if the third recorded result were changed from $10$ to $12$.<br><br><b>(a)</b> Form the matrix equation for the two primary observations and calculate its coefficient determinant.<br><br><b>(b)</b> Find the inverse of the coefficient matrix and determine $x$ and $y$.<br><br><b>(c)</b> Verify whether the third observation $3x+y=10$ is consistent with the solution.<br><br><b>(d)</b> Examine the revised observation $3x+y=12$ and state the number of common solutions of all three equations.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The primary observations have the matrix form<br>$$\\begin{bmatrix}2 & 1\\\\1 & -1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}7\\\\2\\end{bmatrix}$$<br>The coefficient determinant is<br>$$D=2(-1)-1(1)=-3$$<br>Since $D\\neq0$, the two primary equations have a unique solution.<br><br><b>(b)</b><br>The inverse of the coefficient matrix is<br>$$A^{-1}=\\frac{1}{-3}\\begin{bmatrix}-1 & -1\\\\-1 & 2\\end{bmatrix}=\\frac{1}{3}\\begin{bmatrix}1 & 1\\\\1 & -2\\end{bmatrix}$$<br>Therefore,<br>$$\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\frac{1}{3}\\begin{bmatrix}1 & 1\\\\1 & -2\\end{bmatrix}\\begin{bmatrix}7\\\\2\\end{bmatrix}$$<br>$$=\\frac{1}{3}\\begin{bmatrix}9\\\\3\\end{bmatrix}=\\begin{bmatrix}3\\\\1\\end{bmatrix}$$<br>Thus, $x=3$ and $y=1$.<br><br><b>(c)</b><br>Substituting the solution in the third observation,<br>$$3x+y=3(3)+1=10$$<br>Therefore, the third observation agrees with the primary observations. All three equations are consistent and have the unique common solution $(3,1)$.<br><br><b>(d)</b><br>For the revised observation,<br>$$3x+y=3(3)+1=10\\neq12$$<br>The unique solution of the primary equations does not satisfy the revised observation. Therefore, the complete system is inconsistent and all three equations have no common solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\begin{bmatrix}2&1\\\\1&-1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}7\\\\2\\end{bmatrix}$, $D=3$<br>(b) $(x,y)=(3,1)$<br>(c) $3x+y=10$ is inconsistent<br>(d) $3x+y=12$ gives one common solution",
+    "B": "(a) $D=-3$<br>(b) $(x,y)=(2,3)$<br>(c) $3x+y=10$ is inconsistent<br>(d) $3x+y=12$ is consistent",
+    "C": "(a) $D=-3$<br>(b) $(x,y)=(3,1)$<br>(c) $3x+y=10$ is consistent<br>(d) $3x+y=12$ also has the same common solution",
+    "D": "(a) $\\begin{bmatrix}2&1\\\\1&-1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}7\\\\2\\end{bmatrix}$, $D=-3$<br>(b) $A^{-1}=\\frac13\\begin{bmatrix}1&1\\\\1&-2\\end{bmatrix}$ and $(x,y)=(3,1)$<br>(c) $3x+y=10$ is consistent with the solution<br>(d) Replacing it by $3x+y=12$ makes the complete system inconsistent, so there is no common solution"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

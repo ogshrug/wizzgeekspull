@@ -1,0 +1,33 @@
+{
+  "id": "6a215fda864be73cfcf6d13e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): Consider a Linear Programming Problem with minimise $Z=x+2y$ subject to constraints $2x+y\\ge3$, $x+2y\\ge6$, $x, y\\ge0$ which gives minimum Z at infinitely many points. The corner points of feasible region are (0, 3) and (6, 0).<br />Reason (R): If two corner points produce the same minimum value of the objective function, then every point on the line segment joining the points will give the same minimum value.",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Check corner points of A: At (0,3), Z = $0 + 2(3) = 6$. At (6,0), Z = $6 + 2(0) = 6$. Both points yield the same minimum value Z = 6.<br />**Step 2:** Since two points yield the same minimum, any point on the segment joining them also yields 6. Hence there are infinitely many points.<br />**Step 3:** The Reason is mathematically a fundamental theorem in LPP and accurately explains the Assertion. Thus both are true and R is the correct explanation.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

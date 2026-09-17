@@ -1,0 +1,35 @@
+{
+  "id": "6a91338b2e54880055a0a78d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8de",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "Determine graphically both the minimum and maximum values of $Z=2x+6y$ subject to $x+2y\\le10$, $x+y\\ge4$, $x\\le y$, $x\\ge0$ and $y\\ge0$, and identify the corresponding optimal feasible solutions.",
+  "answeroption": "B",
+  "explanation": "<b>Determination of the Feasible Region</b><br>The boundary lines are $x+2y=10$, $x+y=4$ and $x=y$. The inequality $x+2y\\le10$ requires the side containing the origin, $x+y\\ge4$ requires the opposite side of $x+y=4$, and $x\\le y$ requires the region on or above $y=x$. Together with $x\\ge0$ and $y\\ge0$, these constraints form a bounded feasible region.<br><br>The line $x+y=4$ meets the $y$-axis at $(0,4)$, and $x+2y=10$ meets the $y$-axis at $(0,5)$. Solving $x+y=4$ with $x=y$ gives $(2,2)$. Solving $x+2y=10$ with $x=y$ gives $3x=10$, so the point is $\\left(\\frac{10}{3},\\frac{10}{3}\\right)$. Hence the corner points are $(0,4)$, $(0,5)$, $\\left(\\frac{10}{3},\\frac{10}{3}\\right)$ and $(2,2)$.<br><br><b>Evaluation of the Objective Function</b><br>At $(0,4)$, $Z=24$. At $(0,5)$, $Z=30$. At $\\left(\\frac{10}{3},\\frac{10}{3}\\right)$, $$Z=2\\left(\\frac{10}{3}\\right)+6\\left(\\frac{10}{3}\\right)=\\frac{80}{3}.$$ At $(2,2)$, $Z=4+12=16$.<br><br><b>Final Result</b><br>The minimum value is $16$ at the optimal feasible solution $(2,2)$, while the maximum value is $30$ at the optimal feasible solution $(0,5)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Minimum $Z=24$ at $(0,4)$ and maximum $Z=\\frac{80}{3}$ at $\\left(\\frac{10}{3},\\frac{10}{3}\\right)$",
+    "B": "Minimum $Z=16$ at $(2,2)$ and maximum $Z=30$ at $(0,5)$",
+    "C": "Minimum $Z=16$ at $(2,2)$ and maximum $Z=\\frac{80}{3}$ at $\\left(\\frac{10}{3},\\frac{10}{3}\\right)$",
+    "D": "Minimum $Z=24$ at $(0,4)$ and maximum $Z=30$ at $(0,5)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

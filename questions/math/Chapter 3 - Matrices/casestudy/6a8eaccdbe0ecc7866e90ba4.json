@@ -1,0 +1,30 @@
+{
+  "id": "6a8eaccdbe0ecc7866e90ba4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f",
+    "69c65fc040512f018fa94d61"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics group investigates how multiplication of matrices differs from ordinary multiplication of real numbers. They use $A=\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}$, $B=\\begin{bmatrix}2&0\\\\1&3\\end{bmatrix}$ and $C=\\begin{bmatrix}1&-1\\\\2&0\\end{bmatrix}$. Since all three are square matrices of order 2, the products required in the investigation are defined. The students first compare the products obtained by reversing the order of two matrices. They then test whether changing the grouping of three matrices affects the result and whether multiplication distributes over matrix addition. These computations allow them to distinguish non-commutativity from the associative and distributive properties of matrix multiplication.<br><br><b>(a)</b> Calculate the product $AB$.<br><br><b>(b)</b> Calculate $BA$ and determine whether $AB=BA$.<br><br><b>(c)</b> Calculate $(AB)C$ and $A(BC)$ to verify the associative property.<br><br><b>(d)</b> Calculate $A(B+C)$ and $AB+AC$ and verify the distributive property.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Using row-by-column multiplication, $AB=\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}\\begin{bmatrix}2&0\\\\1&3\\end{bmatrix}=\\begin{bmatrix}1(2)+2(1)&1(0)+2(3)\\\\0(2)+1(1)&0(0)+1(3)\\end{bmatrix}=\\begin{bmatrix}4&6\\\\1&3\\end{bmatrix}$.<br><br><b>(b)</b><br>Reversing the order, $BA=\\begin{bmatrix}2&0\\\\1&3\\end{bmatrix}\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}=\\begin{bmatrix}2&4\\\\1&5\\end{bmatrix}$. Since $\\begin{bmatrix}4&6\\\\1&3\\end{bmatrix}\\ne\\begin{bmatrix}2&4\\\\1&5\\end{bmatrix}$, we have $AB\\ne BA$. Hence, matrix multiplication is not commutative in general.<br><br><b>(c)</b><br>From part (a), $AB=\\begin{bmatrix}4&6\\\\1&3\\end{bmatrix}$. Thus, $(AB)C=\\begin{bmatrix}4&6\\\\1&3\\end{bmatrix}\\begin{bmatrix}1&-1\\\\2&0\\end{bmatrix}=\\begin{bmatrix}16&-4\\\\7&-1\\end{bmatrix}$. Now, $BC=\\begin{bmatrix}2&0\\\\1&3\\end{bmatrix}\\begin{bmatrix}1&-1\\\\2&0\\end{bmatrix}=\\begin{bmatrix}2&-2\\\\7&-1\\end{bmatrix}$. Therefore, $A(BC)=\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}\\begin{bmatrix}2&-2\\\\7&-1\\end{bmatrix}=\\begin{bmatrix}16&-4\\\\7&-1\\end{bmatrix}$. Hence, $(AB)C=A(BC)$, verifying associativity.<br><br><b>(d)</b><br>First, $B+C=\\begin{bmatrix}3&-1\\\\3&3\\end{bmatrix}$. Therefore, $A(B+C)=\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}\\begin{bmatrix}3&-1\\\\3&3\\end{bmatrix}=\\begin{bmatrix}9&5\\\\3&3\\end{bmatrix}$. Also, $AC=\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}\\begin{bmatrix}1&-1\\\\2&0\\end{bmatrix}=\\begin{bmatrix}5&-1\\\\2&0\\end{bmatrix}$. Hence, $AB+AC=\\begin{bmatrix}4&6\\\\1&3\\end{bmatrix}+\\begin{bmatrix}5&-1\\\\2&0\\end{bmatrix}=\\begin{bmatrix}9&5\\\\3&3\\end{bmatrix}$. Therefore, $A(B+C)=AB+AC$, verifying the distributive property.",
+  "explanation_image": [],
+  "options": {
+    "A": "<b>(a)</b> $AB=\\begin{bmatrix}4&6\\\\1&3\\end{bmatrix}$.<br><b>(b)</b> $BA=\\begin{bmatrix}2&4\\\\1&5\\end{bmatrix}$, so $AB\\ne BA$.<br><b>(c)</b> $(AB)C=A(BC)=\\begin{bmatrix}16&-4\\\\7&-1\\end{bmatrix}$, verifying associativity.<br><b>(d)</b> $A(B+C)=AB+AC=\\begin{bmatrix}9&5\\\\3&3\\end{bmatrix}$, verifying distributivity.",
+    "B": "<b>(a)</b> $AB=\\begin{bmatrix}4&6\\\\1&3\\end{bmatrix}$.<br><b>(b)</b> $BA=\\begin{bmatrix}4&6\\\\1&3\\end{bmatrix}$, so $AB=BA$.<br><b>(c)</b> Both grouped products equal $\\begin{bmatrix}16&-4\\\\7&-1\\end{bmatrix}$.<br><b>(d)</b> Both distributive expressions equal $\\begin{bmatrix}9&5\\\\3&3\\end{bmatrix}$.",
+    "C": "<b>(a)</b> $AB=\\begin{bmatrix}4&6\\\\1&3\\end{bmatrix}$.<br><b>(b)</b> $BA=\\begin{bmatrix}2&4\\\\1&5\\end{bmatrix}$, so $AB\\ne BA$.<br><b>(c)</b> $(AB)C=A(BC)=\\begin{bmatrix}16&4\\\\7&1\\end{bmatrix}$.<br><b>(d)</b> $A(B+C)=AB+AC=\\begin{bmatrix}9&5\\\\3&3\\end{bmatrix}$.",
+    "D": "<b>(a)</b> $AB=\\begin{bmatrix}2&4\\\\1&5\\end{bmatrix}$.<br><b>(b)</b> $BA=\\begin{bmatrix}4&6\\\\1&3\\end{bmatrix}$, so $AB\\ne BA$.<br><b>(c)</b> Both grouped products equal $\\begin{bmatrix}16&-4\\\\7&-1\\end{bmatrix}$.<br><b>(d)</b> Both distributive expressions equal $\\begin{bmatrix}9&5\\\\3&3\\end{bmatrix}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

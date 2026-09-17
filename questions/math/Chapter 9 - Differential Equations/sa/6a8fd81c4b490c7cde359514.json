@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd81c4b490c7cde359514",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a6"
+  ],
+  "question_type": "SA",
+  "question": "The family of curves is given by $y=ax^2+bx$, where $a$ and $b$ are arbitrary constants. Differentiate the relation suitably and eliminate $a$ and $b$ to obtain the differential equation representing the family.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Differentiate the given family</b><br>Starting with $$y=ax^2+bx,$$ differentiation with respect to $x$ gives $$\\frac{dy}{dx}=2ax+b.$$<br><b>Step 2: Differentiate again</b><br>Since two arbitrary constants occur, differentiate once more: $$\\frac{d^2y}{dx^2}=2a.$$ Hence, $$a=\\frac{1}{2}\\frac{d^2y}{dx^2}.$$<br><b>Step 3: Express the second constant</b><br>From $\\frac{dy}{dx}=2ax+b$, $$b=\\frac{dy}{dx}-x\\frac{d^2y}{dx^2}.$$<br><b>Step 4: Eliminate the constants</b><br>Substituting these expressions for $a$ and $b$ in the original equation gives $$y=\\frac{x^2}{2}\\frac{d^2y}{dx^2}+x\\left(\\frac{dy}{dx}-x\\frac{d^2y}{dx^2}\\right).$$ Simplifying, $$2y=2x\\frac{dy}{dx}-x^2\\frac{d^2y}{dx^2}.$$<br><b>Step 5: Required differential equation</b><br>Therefore, the required equation is $$x^2\\frac{d^2y}{dx^2}-2x\\frac{dy}{dx}+2y=0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x^2\\frac{d^2y}{dx^2}+2x\\frac{dy}{dx}-2y=0$",
+    "B": "$x^2\\frac{d^2y}{dx^2}-2x\\frac{dy}{dx}+2y=0$",
+    "C": "$x\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+2y=0$",
+    "D": "$x^2\\frac{d^2y}{dx^2}-x\\frac{dy}{dx}+2y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

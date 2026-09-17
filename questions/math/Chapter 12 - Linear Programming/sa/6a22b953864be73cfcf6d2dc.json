@@ -1,0 +1,27 @@
+{
+  "id": "6a22b953864be73cfcf6d2dc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically:<br />Minimize: $Z = 5x + 10y$<br />subject to constraints: $x + 2y \\le 120, x + y \\ge 60, x - 2y \\ge 0, x \\ge 0, y \\ge 0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Graph the given constraints to visually establish the feasible region. The boundary lines are $x + 2y = 120$, $x + y = 60$, and $x - 2y = 0$.<br />**Step 2:** Calculate the critical intersection points geometrically. The line $x + y = 60$ and $x - 2y = 0$ ($x=2y$) intersect cleanly at $(40, 20)$. The line $x + 2y = 120$ and $x - 2y = 0$ intersect precisely at $(60, 30)$.<br />**Step 3:** Determine the remaining corner points forming the bounded feasible region bounded by the $x$-axis ($y=0$): setting $y=0$ in $x+y=60$ yields $(60, 0)$, and in $x+2y=120$ yields $(120, 0)$.<br />**Step 4:** Evaluate the objective function $Z = 5x + 10y$ securely at each valid corner point. $Z(60, 0) = 300$, $Z(120, 0) = 600$, $Z(60, 30) = 300 + 300 = 600$, and $Z(40, 20) = 200 + 200 = 400$.<br />**Step 5:** Compare the evaluated numerical results. The absolute minimum mathematically is 300, which strictly occurs at the specific geometric point $(60, 0)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

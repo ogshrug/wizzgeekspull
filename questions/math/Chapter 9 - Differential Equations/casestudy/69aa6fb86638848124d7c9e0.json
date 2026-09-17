@@ -1,0 +1,29 @@
+{
+  "id": "69aa6fb86638848124d7c9e0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A population of bacteria in a controlled laboratory grows according to the law $\\frac{dP}{dt} = 0.2P$, where $P(t)$ is the number of bacteria at time $t$ in hours. The initial population at $t=0$ is 1000. Due to a sudden environmental change, after 3 hours, an antibacterial agent is added, instantly reducing the population by 25% at $t=3$. Sketch the scenario and answer:<br /><br />(a) Write the general solution for the population for $0 \\leq t < 3$.<br /><br />(b) Find the population at $t = 4$ hours after accounting for the agent's effect.<br /><br />(c) If bacteria are exposed to this agent every 3 hours (each time reducing population by 25%), describe the long-term trend of the population. Will it ever reach zero?",
+  "answeroption": "D",
+  "explanation": "(a)<br /><br />For $0 \\leq t < 3$, $\\frac{dP}{dt} = 0.2P$<br /><br />$\\frac{dP}{P} = 0.2 dt$<br /><br />Integrate:<br /><br />$\\int \\frac{1}{P} dP = \\int 0.2 dt$<br /><br />$\\ln|P| = 0.2t + C$<br /><br />$P = Ae^{0.2t}$<br /><br />At $t=0, P=1000$: $1000 = Ae^0 \\implies A=1000$<br /><br />So, $P(t) = 1000e^{0.2t}$<br /><br />(b)<br /><br />At $t=3^{-}$:<br /><br />$P(3^{-}) = 1000e^{0.6}$<br /><br />$e^{0.6} \\approx 1.8221$ so $P(3^{-}) \\approx 1822$<br /><br />After agent, $P(3^{+}) = 0.75 \\times 1822 \\approx 1366$<br /><br />For $t>3$, population again follows $\\frac{dP}{dt} = 0.2P$, with $P(3)=1366$:<br /><br />$P = B e^{0.2(t-3)}$<br /><br />At $t=3$, $P=1366$: $1366 = B e^0 \\implies B=1366$<br /><br />So, for $3 < t \\leq 4$,<br /><br />$P(t) = 1366 e^{0.2(t-3)}$<br /><br />At $t=4$:<br /><br />$P(4) = 1366 e^{0.2 \\times 1} = 1366 e^{0.2} \\approx 1366 \\times 1.2214 \\approx 1669$<br /><br />(c)<br /><br />If the agent is applied every $3$ hours (reducing by $25\\%$ each time): Between each application, the population multiplies by $e^{0.6}$, then instantly by $0.75$.<br /><br />Let $P_0=1000$. After one cycle:<br /><br />$P_1 = 1000 \\cdot e^{0.6} \\cdot 0.75$<br /><br />After two cycles:<br /><br />$P_2 = P_1 \\cdot e^{0.6} \\cdot 0.75$<br /><br />And so on.<br /><br />Each cycle: $P_{n+1} = P_n \\cdot 0.75 e^{0.6}$<br /><br />As $n\\to\\infty$: If $0.75e^{0.6} > 1$, population grows, otherwise it decreases. $0.75 \\times 1.8221 = 1.3666 > 1$, so the population grows without bound and never reaches zero.<br /><br />Therefore, the population will continue to grow exponentially, even with periodic reduction, and will never reach zero.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(t)=1000e^{0.2t}$ for $0\\le t<3$<br />(b) $P(4)\\approx1221$<br />(c) Since $0.75e^{0.6}<1$, the population decreases to zero",
+    "B": "(a) $P(t)=1000e^{-0.2t}$ for $0\\le t<3$<br />(b) $P(4)\\approx819$<br />(c) The population eventually reaches zero exactly",
+    "C": "(a) $P(t)=1000+0.2t$ for $0\\le t<3$<br />(b) $P(4)\\approx1500$<br />(c) The population remains constant after repeated reductions",
+    "D": "(a) $P(t)=1000e^{0.2t}$ for $0\\le t<3$<br />(b) After reduction at $t=3$, $P(4)=1000e^{0.6}\\times0.75\\times e^{0.2}\\approx1669$<br />(c) Each cycle multiplies by $0.75e^{0.6}\\approx1.366>1$, so the population grows without bound and never reaches zero"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:10:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

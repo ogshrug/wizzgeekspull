@@ -1,0 +1,32 @@
+{
+  "id": "6a2aaa32941aafe86231e9f1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A(adj~A)= \\begin{bmatrix}2026&0&0\\\\ 0&2026&0\\\\ 0&0&2026\\end{bmatrix},$ then the value of |adj A| is equal to:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Use the matrix property $A(\\text{adj } A) = |A|I$. Factoring out the scalar from the given diagonal matrix yields $2026 \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}$, which means $|A| = 2026$.<br />**Step 2:** Apply the determinant property for adjoints of an $n \\times n$ matrix: $|\\text{adj } A| = |A|^{n-1}$.<br />**Step 3:** Since the matrix order is $3 \\times 3$, $n = 3$. Substituting the values gives $|\\text{adj } A| = (2026)^{3-1} = (2026)^2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "2026",
+    "B": "$(2026)^{-1}$",
+    "C": "$(2026)^{-2}$",
+    "D": "$(2026)^{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

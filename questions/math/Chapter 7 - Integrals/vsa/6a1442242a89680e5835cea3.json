@@ -1,0 +1,24 @@
+{
+  "id": "6a1442242a89680e5835cea3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "VSA",
+  "question": "Find: $\\int e^{2\\log x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Simplify $e^{2\\log x}$ using logarithm property: $e^{2\\log x} = e^{\\log(x^2)}$. <br /><br /> **Step 2:** Since $e^{\\log(y)} = y$, we get $e^{\\log(x^2)} = x^2$. <br /><br /> **Step 3:** Therefore, the integral becomes $\\int x^2 \\, dx$. <br /><br /> **Step 4:** Apply power rule: $\\int x^2 \\, dx = \\frac{x^3}{3} + C$. <br /><br /> **Answer:** $\\frac{x^3}{3} + C$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

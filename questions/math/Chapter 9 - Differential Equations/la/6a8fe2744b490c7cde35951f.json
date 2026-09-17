@@ -1,0 +1,32 @@
+{
+  "id": "6a8fe2744b490c7cde35951f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99d",
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f",
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "(a) Examine the relations $$x^3+xy-y^2=0$$ and $$x^2\\frac{d^2y}{dx^2}+\\left(\\frac{dy}{dx}\\right)^2=y$$ and determine which one is a differential equation, giving a reason. (b) For the differential equation identified, determine its type, order and degree with complete justification.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The relation $$x^3+xy-y^2=0$$ contains only the variables $x$ and $y$ and does not contain any derivative of the dependent variable. Hence, it is not a differential equation.<br><br>The relation $$x^2\\frac{d^2y}{dx^2}+\\left(\\frac{dy}{dx}\\right)^2=y$$ contains derivatives of $y$ with respect to $x$. Therefore, it is a differential equation.<br><br><b>(b)</b><br>All derivatives in the differential equation are taken with respect to the single independent variable $x$, so it is an ordinary differential equation.<br><br>The highest order derivative present is $\\frac{d^2y}{dx^2}$; therefore, its order is $2$. The equation is polynomial in its derivatives. The highest order derivative $\\frac{d^2y}{dx^2}$ occurs to the first power, so the degree is $1$. The fact that the lower order derivative $\\frac{dy}{dx}$ occurs with power $2$ does not affect the degree.<br><br><b>Final Result</b><br>The second relation is an ordinary differential equation of order $2$ and degree $1$, whereas the first relation is not a differential equation.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Both relations are differential equations.<br>(b) The second is ordinary, of order $2$ and degree $2$.",
+    "B": "(a) Only the first relation is a differential equation.<br>(b) It is ordinary, of order $1$ and degree $1$.",
+    "C": "(a) Only the second relation is a differential equation.<br>(b) It is ordinary, of order $1$ and degree $2$.",
+    "D": "(a) Only the second relation is a differential equation.<br>(b) It is ordinary, of order $2$ and degree $1$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

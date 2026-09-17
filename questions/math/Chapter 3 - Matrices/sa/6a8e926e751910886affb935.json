@@ -1,0 +1,29 @@
+{
+  "id": "6a8e926e751910886affb935",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d4e"
+  ],
+  "question_type": "SA",
+  "question": "A school records the number of Mathematics and Physics reference books issued to students of Sections A, B and C as follows: Section A: 18 and 12, Section B: 15 and 14, Section C: 20 and 11, respectively. Represent this information by a matrix taking sections as rows and subjects as columns. Also state what the entry in the third row and second column represents.",
+  "answeroption": "C",
+  "explanation": "<b>Arrangement by rows and columns</b><br>The three sections form the three rows, while Mathematics and Physics form the two columns.<br><b>Matrix representation</b><br>$$A=\\begin{bmatrix}18 & 12 \\\\ 15 & 14 \\\\ 20 & 11\\end{bmatrix}$$<br><b>Interpretation of the entry</b><br>The entry in the third row and second column is $a_{32}=11$. It represents the number of Physics reference books issued to Section C.",
+  "explanation_image": [],
+  "options": {
+    "A": "$$\\begin{bmatrix}18&15&20\\\\12&14&11\\end{bmatrix}$$; the entry $a_{32}=11$ represents Mathematics books issued to Section C.",
+    "B": "$$\\begin{bmatrix}12&18\\\\14&15\\\\11&20\\end{bmatrix}$$; the entry $a_{32}=20$ represents Physics books issued to Section C.",
+    "C": "$$\\begin{bmatrix}18&12\\\\15&14\\\\20&11\\end{bmatrix}$$; the entry $a_{32}=11$ represents Physics reference books issued to Section C.",
+    "D": "$$\\begin{bmatrix}18&12\\\\20&11\\\\15&14\\end{bmatrix}$$; the entry $a_{32}=11$ represents Physics books issued to Section B."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

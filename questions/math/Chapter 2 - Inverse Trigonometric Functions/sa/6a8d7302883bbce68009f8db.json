@@ -1,0 +1,30 @@
+{
+  "id": "6a8d7302883bbce68009f8db",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "A student uses the inverse tangent addition formula and concludes that $$\\tan^{-1}2+\\tan^{-1}3=-\\frac{\\pi}{4}.$$ Examine the conclusion and obtain the correct value with justification.",
+  "answeroption": "A",
+  "explanation": "<b>Application of the tangent addition formula</b><br>Let $A=\\tan^{-1}2$ and $B=\\tan^{-1}3$. Then $$\\tan(A+B)=\\frac{2+3}{1-2\\times3}=\\frac{5}{-5}=-1.$$<br><br><b>Identification of the ambiguity</b><br>The equality $\\tan(A+B)=-1$ does not by itself imply $A+B=-\\frac{\\pi}{4}$ because tangent has period $\\pi$. The quadrant of $A+B$ must also be considered.<br><br><b>Quadrant determination</b><br>Since $2>0$ and $3>0$, both $A$ and $B$ lie in $\\left(0,\\frac{\\pi}{2}\\right)$. Also, each is greater than $\\frac{\\pi}{4}$ only when its tangent exceeds $1$; hence, $A+B>\\frac{\\pi}{2}$ while $A+B<\\pi$. Thus, the sum lies in the second quadrant.<br><br><b>Correct angle selection</b><br>The second-quadrant angle whose tangent is $-1$ is $\\frac{3\\pi}{4}$. Therefore, $$\\tan^{-1}2+\\tan^{-1}3=\\frac{3\\pi}{4}.$$ The student's conclusion is incorrect because the principal-angle adjustment was omitted.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3\\pi}{4}$",
+    "B": "$-\\frac{\\pi}{4}$",
+    "C": "$\\frac{\\pi}{4}$",
+    "D": "$\\frac{5\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

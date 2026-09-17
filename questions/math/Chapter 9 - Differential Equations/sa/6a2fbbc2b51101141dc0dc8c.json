@@ -1,0 +1,27 @@
+{
+  "id": "6a2fbbc2b51101141dc0dc8c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation: $\\frac{dy}{dx}=\\frac{x^{2}+y^{2}}{xy}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given equation $\\frac{dy}{dx}=\\frac{x^{2}+y^{2}}{xy}$ is a homogeneous differential equation because the numerator and denominator have the same degree (degree 2).<br />**Step 2:** Let $y = vx$. Differentiating with respect to $x$ gives $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 3:** Substitute these into the differential equation: $v + x\\frac{dv}{dx} = \\frac{x^2 + v^2x^2}{x(vx)} = \\frac{x^2(1+v^2)}{vx^2} = \\frac{1+v^2}{v}$.<br />**Step 4:** Rearrange to separate variables: $x\\frac{dv}{dx} = \\frac{1+v^2}{v} - v = \\frac{1+v^2-v^2}{v} = \\frac{1}{v}$.<br />**Step 5:** Separate the variables: $v dv = \\frac{dx}{x}$.<br />**Step 6:** Integrate both sides: $\\int v dv = \\int \\frac{dx}{x}$. This yields $\\frac{v^2}{2} = log|x| + C$.<br />**Step 7:** Substitute $v = \\frac{y}{x}$ back into the equation: $\\frac{y^2}{2x^2} = log|x| + C$. Multiply by $2x^2$ to get the general solution: $y^2 = 2x^2(log|x| + C)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

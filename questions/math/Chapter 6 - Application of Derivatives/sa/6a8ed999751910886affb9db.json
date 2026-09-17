@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed999751910886affb9db",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984"
+  ],
+  "question_type": "SA",
+  "question": "Examine the nature of the critical point of $f(x)=(x-1)^4$ using the first derivative test. Hence find the local extreme value.",
+  "answeroption": "D",
+  "explanation": "<b>First derivative</b><br>$$f'(x)=4(x-1)^3$$<br><b>Critical-point condition</b><br>$$4(x-1)^3=0\\Rightarrow x=1$$<br><b>Sign to the left</b><br>For $x<1$, $(x-1)^3<0$. Therefore, $f'(x)<0$, and the function is decreasing.<br><b>Sign to the right</b><br>For $x>1$, $(x-1)^3>0$. Therefore, $f'(x)>0$, and the function is increasing.<br><b>First derivative test</b><br>The derivative changes from negative to positive at $x=1$. Hence, this point is a point of local minimum.<br><b>Conclusion</b><br>Since $f(1)=0$, the local minimum value of the function is $0$ at $x=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Local maximum at $x=1$ with value $0$",
+    "B": "Neither a local maximum nor a local minimum at $x=1$",
+    "C": "Local minimum at $x=1$ with value $1$",
+    "D": "Local minimum at $x=1$ with value $0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

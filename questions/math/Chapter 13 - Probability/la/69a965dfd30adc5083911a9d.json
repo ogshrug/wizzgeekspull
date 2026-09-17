@@ -1,0 +1,30 @@
+{
+  "id": "69a965dfd30adc5083911a9d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "LA",
+  "question": "A die is thrown thrice. Find the probability that:<br /><br />(a) the first and second throw show the same number,<br /><br />(b) none of the throws show '6',<br /><br />(c) all the results are different.",
+  "answeroption": "A",
+  "explanation": "Total outcomes for 3 throws = $6^3=216$ <br /> <br /> (a) First and second throw same: <br /> They both can be any of 6 values, third is free to be any of 6. <br /> So, $6 \\times 6=36$ ways (first two same, third can be anything) <br /> Total ways: 6 (first value) × 6 (third value) = 36 <br /> But that’s not right, correct count: <br /> Pick a value for first and second (must be same): 6 ways. Third: any of 6 <br /> So, $6\\times 6=36$ <br /> So, probability = $\\frac{36}{216}=\\frac{1}{6}$ <br /> <br /> (b) None is 6: For each throw, 5 options (not 6) <br /> So, $5^3=125$, probability $=\\frac{125}{216}$ <br /> <br /> (c) All different: <br /> First: 6 options <br /> Second: 5 options <br /> Third: 4 options <br /> Total = $6\\times5\\times4=120$ <br /> Probability $=\\frac{120}{216}=\\frac{5}{9}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{1}{6}$<br />(b) $\\frac{125}{216}$<br />(c) $\\frac{5}{9}$",
+    "B": "(a) $\\frac{1}{36}$<br />(b) $\\frac{125}{216}$<br />(c) $\\frac{5}{9}$",
+    "C": "(a) $\\frac{1}{6}$<br />(b) $\\frac{91}{216}$<br />(c) $\\frac{120}{216}$",
+    "D": "(a) $\\frac{5}{9}$<br />(b) $\\frac{125}{216}$<br />(c) $\\frac{1}{6}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:15:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

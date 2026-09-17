@@ -1,0 +1,29 @@
+{
+  "id": "6a8ec497be0ecc7866e90bb8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "LA",
+  "question": "Determine the values of the constants $a$ and $b$ for which the function $$f(x)=\\begin{cases}3x+1, & x\\leq 1\\\\ ax+b, & 1<x<3\\\\ 2x+5, & x\\geq 3\\end{cases}$$ is continuous for all real values of $x$, and justify your conclusion using the conditions of continuity at the joining points.",
+  "answeroption": "C",
+  "explanation": "<b>Required Condition</b><br>Each expression defining $f$ is a polynomial and hence is continuous in its respective interval. Therefore, continuity needs to be examined only at the joining points $x=1$ and $x=3$.<br><br>For continuity at $x=1$, we require $$\\lim_{x\\to1^-}f(x)=f(1)=\\lim_{x\\to1^+}f(x).$$ From the first branch, $$f(1)=3(1)+1=4$$ and $$\\lim_{x\\to1^-}f(x)=4.$$ From the middle branch, $$\\lim_{x\\to1^+}f(x)=a+b.$$ Hence, continuity at $x=1$ gives $$a+b=4.$$<br><br>For continuity at $x=3$, we require $$\\lim_{x\\to3^-}f(x)=f(3)=\\lim_{x\\to3^+}f(x).$$ From the middle branch, $$\\lim_{x\\to3^-}f(x)=3a+b.$$ Since the third branch applies at $x=3$, $$f(3)=2(3)+5=11$$ and $$\\lim_{x\\to3^+}f(x)=11.$$ Therefore, $$3a+b=11.$$<br><br><b>Solving the Conditions</b><br>Subtracting $a+b=4$ from $3a+b=11$, we obtain $$2a=7,$$ so $$a=\\frac{7}{2}.$$ Substituting in $a+b=4$, $$\\frac{7}{2}+b=4,$$ giving $$b=\\frac{1}{2}.$$<br><br><b>Final Result</b><br>Thus, for $$a=\\frac{7}{2},\\qquad b=\\frac{1}{2},$$ the values and limits agree at both joining points. Since each individual branch is continuous elsewhere, the given function is continuous for all real $x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=\\frac{5}{2},\\ b=\\frac{3}{2}$",
+    "B": "$a=\\frac{7}{2},\\ b=-\\frac{1}{2}$",
+    "C": "$a=\\frac{7}{2},\\ b=\\frac{1}{2}$",
+    "D": "$a=3,\\ b=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

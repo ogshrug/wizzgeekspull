@@ -1,0 +1,29 @@
+{
+  "id": "6a900ce04b490c7cde35955a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "A plane cuts positive intercepts on the coordinate axes in the ratio $2:3:6$ and passes through the point $P(2,1,1)$. Determine its equation in intercept form and hence obtain its Cartesian equation, verifying from the final equation that the required intercept ratio is satisfied.",
+  "answeroption": "C",
+  "explanation": "<b>Formation of Intercepts</b><br>Let the intercepts made by the plane on the $x$-, $y$- and $z$-axes be $2t$, $3t$ and $6t$ respectively, where $t>0$. The intercept form of a plane is<br>$$\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1$$<br>Therefore, the plane has equation<br>$$\\frac{x}{2t}+\\frac{y}{3t}+\\frac{z}{6t}=1$$<br><br>Since the plane passes through $P(2,1,1)$, substituting its coordinates gives<br>$$\\frac{2}{2t}+\\frac{1}{3t}+\\frac{1}{6t}=1$$<br>$$\\frac{1}{t}+\\frac{1}{3t}+\\frac{1}{6t}=1$$<br>$$\\frac{3}{2t}=1$$<br>Hence,<br>$$t=\\frac{3}{2}$$<br>Thus, the intercepts are $3$, $\\frac{9}{2}$ and $9$.<br><br><b>Equation of the Plane</b><br>The intercept form is therefore<br>$$\\frac{x}{3}+\\frac{y}{\\frac{9}{2}}+\\frac{z}{9}=1$$<br>Multiplying throughout by $9$, we obtain<br>$$3x+2y+z=9$$<br><br><b>Verification</b><br>From $3x+2y+z=9$, setting $y=z=0$ gives the $x$-intercept $3$; setting $x=z=0$ gives the $y$-intercept $\\frac{9}{2}$; and setting $x=y=0$ gives the $z$-intercept $9$. Their ratio is<br>$$3:\\frac{9}{2}:9=2:3:6$$<br>after multiplication by $\\frac{2}{3}$.<br><br><b>Final Result</b><br>The intercept form is $\\frac{x}{3}+\\frac{y}{\\frac{9}{2}}+\\frac{z}{9}=1$, and the Cartesian equation is $3x+2y+z=9$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Intercept form: $\\frac{x}{2}+\\frac{y}{3}+\\frac{z}{6}=1$; Cartesian form: $3x+2y+z=6$",
+    "B": "Intercept form: $\\frac{x}{3}+\\frac{y}{6}+\\frac{z}{9}=1$; Cartesian form: $6x+3y+2z=18$",
+    "C": "Intercept form: $\\frac{x}{3}+\\frac{y}{9/2}+\\frac{z}{9}=1$; Cartesian form: $3x+2y+z=9$; intercepts are in the ratio $2:3:6$",
+    "D": "Intercept form: $\\frac{x}{9}+\\frac{y}{9/2}+\\frac{z}{3}=1$; Cartesian form: $x+2y+3z=9$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed13c4b490c7cde359480",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984"
+  ],
+  "question_type": "VSA",
+  "question": "Using the first derivative test, determine the nature of the critical point $x=1$ for $f(x)=x^3-6x^2+9x+2$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> Differentiate the given function: $$f'(x)=3x^2-12x+9=3(x-1)(x-3)$$<br><b>Step 2:</b> To classify $x=1$, examine the sign of $f'(x)$ immediately on either side of $1$.<br><b>Step 3:</b> For $x<1$ but close to $1$, both $(x-1)$ and $(x-3)$ are negative, so $f'(x)>0$. Therefore, $f$ is increasing.<br><b>Step 4:</b> For $1<x<3$, $(x-1)>0$ and $(x-3)<0$, so $f'(x)<0$. Therefore, $f$ is decreasing.<br><b>Step 5:</b> Since $f'(x)$ changes from positive to negative at $x=1$, the function has a local maximum at $x=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "A local minimum at $x=1$",
+    "B": "A local maximum at $x=1$",
+    "C": "Neither a local maximum nor a local minimum at $x=1$",
+    "D": "A point where the function is strictly increasing on both sides"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffe7a4b490c7cde35952c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d5"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the acute angle between the planes $x+2y+2z=3$ and $2x-y+2z=5$.",
+  "answeroption": "B",
+  "explanation": "Step 1: The direction ratios of the normals to the planes are obtained from the coefficients of $x,y,z$. Thus, $\\vec{n_1}=(1,2,2)$ and $\\vec{n_2}=(2,-1,2)$. Step 2: The acute angle $\\theta$ between two planes is the acute angle between their normal vectors. Hence, $$\\cos\\theta=\\frac{|\\vec{n_1}\\cdot\\vec{n_2}|}{|\\vec{n_1}||\\vec{n_2}|}.$$ Step 3: The scalar product is $1(2)+2(-1)+2(2)=4$. Step 4: Also, $|\\vec{n_1}|=\\sqrt{1+4+4}=3$ and $|\\vec{n_2}|=\\sqrt{4+1+4}=3$. Step 5: Therefore, $$\\cos\\theta=\\frac{4}{9},$$ giving $$\\theta=\\cos^{-1}\\left(\\frac{4}{9}\\right).$$ Hence, this is the required acute angle between the planes.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cos^{-1}\\left(\\frac{2}{9}\\right)$",
+    "B": "$\\cos^{-1}\\left(\\frac{4}{9}\\right)$",
+    "C": "$\\sin^{-1}\\left(\\frac{4}{9}\\right)$",
+    "D": "$\\cos^{-1}\\left(\\frac{5}{9}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

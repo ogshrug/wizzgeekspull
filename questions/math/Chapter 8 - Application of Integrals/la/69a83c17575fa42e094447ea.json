@@ -1,0 +1,33 @@
+{
+  "id": "69a83c17575fa42e094447ea",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996",
+    "6a13eb348c819562f933f99a",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "LA",
+  "question": "Find the area lying above the $x$-axis and bounded by the circle $x^2 + (y - 1)^2 = 1$, and also between the lines $x = 0$ and $x = 1$.",
+  "answeroption": "A",
+  "explanation": "Given $x^2 + (y-1)^2 = 1$.<br /><br />$y = 1 + \\sqrt{1-x^2}$.<br /><br />Area $A = \\int_0^1 (1 + \\sqrt{1-x^2}) dx$.<br /><br />$= \\int_0^1 1 dx + \\int_0^1 \\sqrt{1-x^2} dx$.<br /><br />$= 1 + \\frac{\\pi}{4}$.<br /><br />So, the required area is $\\boxed{1 + \\frac{\\pi}{4}}$.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69a83c17575fa42e094447ea/1778593407-0.jpeg?t=1778593407605"
+  ],
+  "options": {
+    "A": "$1+\\frac{\\pi}{4}$",
+    "B": "$\\frac{\\pi}{4}$",
+    "C": "$1+\\frac{\\pi}{2}$",
+    "D": "$2+\\frac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 14:05:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:30:50 GMT"
+}

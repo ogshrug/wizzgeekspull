@@ -1,0 +1,29 @@
+{
+  "id": "6a8ecacd751910886affb9af",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "VSA",
+  "question": "The volume of a spherical balloon increases at $288\\pi$ cm$^3$/s. At what rate is its radius increasing when the radius is $6$ cm?",
+  "answeroption": "B",
+  "explanation": "Step 1: The volume of a sphere of radius $r$ is $$V=\\frac{4}{3}\\pi r^3$$Step 2: Differentiate with respect to time: $$\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}$$Step 3: Substitute $\\frac{dV}{dt}=288\\pi$ and $r=6$: $$288\\pi=4\\pi(6)^2\\frac{dr}{dt}$$Step 4: Thus, $$288\\pi=144\\pi\\frac{dr}{dt}$$Step 5: Dividing by $144\\pi$ gives $\\frac{dr}{dt}=2$. Hence, the radius of the balloon is increasing at $2$ cm/s.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4$ cm/s",
+    "B": "$2$ cm/s",
+    "C": "$1$ cm/s",
+    "D": "$3$ cm/s"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

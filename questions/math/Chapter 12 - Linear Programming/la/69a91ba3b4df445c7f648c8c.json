@@ -1,0 +1,29 @@
+{
+  "id": "69a91ba3b4df445c7f648c8c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "A shopkeeper sells two types of gift packs. Pack A contains 2 candies and 1 chocolate; Pack B contains 1 candy and 2 chocolates. She has 60 candies and 80 chocolates. Profit per pack A is Rs 10, per pack B is Rs 12. How many packs of each should she sell to maximize profit? Formulate, graph, and solve.",
+  "answeroption": "A",
+  "explanation": "Let x = number of packs A and y = number of packs B.<br /><br />Constraints:<br />2x + y ≤ 60 (candies).<br />x + 2y ≤ 80 (chocolates).<br />x ≥ 0, y ≥ 0.<br /><br />Objective function:<br />Z = 10x + 12y.<br /><br />Convert to equalities:<br />2x + y = 60 ⇒ y = 60 − 2x.<br />x + 2y = 80 ⇒ y = (80 − x)/2.<br /><br />Solve intersection:<br />60 − 2x = (80 − x)/2 ⇒ x = 40/3 ≈ 13.33.<br />y ≈ 33.33.<br /><br />Other corner points: (0,0), (0,40), (30,0).<br /><br />Evaluate Z:<br />(0,40): 480.<br />(30,0): 300.<br />(13.33,33.33): ≈ 533.29.<br /><br />Maximum profit ≈ Rs 533.29 at (13.33, 33.33).",
+  "explanation_image": [],
+  "options": {
+    "A": "Sell approximately 13.33 packs of A and 33.33 packs of B; maximum profit approximately Rs 533.29.",
+    "B": "Sell 0 packs of A and 40 packs of B; maximum profit Rs 480.",
+    "C": "Sell 30 packs of A and 0 packs of B; maximum profit Rs 300.",
+    "D": "Sell 0 packs of A and 0 packs of B; maximum profit Rs 0."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 05:58:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

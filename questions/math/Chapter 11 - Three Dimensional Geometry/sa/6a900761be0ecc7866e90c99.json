@@ -1,0 +1,29 @@
+{
+  "id": "6a900761be0ecc7866e90c99",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d0"
+  ],
+  "question_type": "SA",
+  "question": "Examine whether the lines $\\vec{r}=\\hat{i}+\\lambda(\\hat{i}+\\hat{j})$ and $\\vec{r}=\\hat{j}+\\hat{k}+\\mu(\\hat{i}+\\hat{k})$ are skew. Give mathematical justification.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Comparison of direction vectors</b><br>The direction vectors of the lines are<br>$$\\vec{b}_1=\\hat{i}+\\hat{j},\\quad \\vec{b}_2=\\hat{i}+\\hat{k}.$$<br>Their components $(1,1,0)$ and $(1,0,1)$ are not proportional. Therefore, the lines are not parallel.<br><b>Step 2: Coordinate form of the first line</b><br>For the first line,<br>$$x=1+\\lambda,\\quad y=\\lambda,\\quad z=0.$$<br><b>Step 3: Coordinate form of the second line</b><br>For the second line,<br>$$x=\\mu,\\quad y=1,\\quad z=1+\\mu.$$<br><b>Step 4: Test for intersection</b><br>Equality of $y$-coordinates gives $\\lambda=1$, while equality of $z$-coordinates gives $\\mu=-1$. The $x$-coordinates would then be $2$ and $-1$, which are unequal.<br><b>Step 5: Final conclusion</b><br>Hence, the lines do not intersect and are not parallel. Therefore, they are skew lines.",
+  "explanation_image": [],
+  "options": {
+    "A": "The lines intersect at $(2,1,0)$ and hence are not skew.",
+    "B": "The lines are skew because they are non-parallel and do not intersect.",
+    "C": "The lines are parallel and distinct.",
+    "D": "The lines are coincident."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

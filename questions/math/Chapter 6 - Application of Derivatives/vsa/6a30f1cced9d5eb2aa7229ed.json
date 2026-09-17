@@ -1,0 +1,26 @@
+{
+  "id": "6a30f1cced9d5eb2aa7229ed",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "VSA",
+  "question": "Find the sub-intervals in which $f(x) = \\log(2+x) - \\frac{x}{2+x}, x > -2$ is increasing or decreasing.",
+  "answeroption": "",
+  "explanation": "**Step 1: Find the Derivative of f(x)**  \nGiven $f(x) = \\log(2+x) - \\frac{x}{2+x}$, differentiate with respect to $x$:  \n$$f'(x) = \\frac{1}{2+x} - \\frac{(2+x)(1) - x(1)}{(2+x)^2} = \\frac{1}{2+x} - \\frac{2+x-x}{(2+x)^2} = \\frac{1}{2+x} - \\frac{2}{(2+x)^2}$$  \n$$f'(x) = \\frac{2+x-2}{(2+x)^2} = \\frac{x}{(2+x)^2}$$\n\n**Step 2: Determine the Sign of f'(x)**  \nThe denominator $(2+x)^2 > 0$ for all $x > -2$ (except at $x=-2$ where the function is not defined). Therefore, the sign of $f'(x)$ depends solely on the numerator $x$:  \n- $f'(x) > 0$ when $x > 0$  \n- $f'(x) < 0$ when $x < 0$  \n- $f'(x) = 0$ when $x = 0$\n\n**Step 3: Identify Increasing and Decreasing Intervals**  \nSince the domain is $x > -2$:  \n- The function $f(x)$ is strictly increasing on the interval $(0, \\infty)$.  \n- The function $f(x)$ is strictly decreasing on the interval $(-2, 0)$.  \nAt $x=0$, the derivative is zero, indicating a local minimum (since $f'$ changes from negative to positive).",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

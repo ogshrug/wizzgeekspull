@@ -1,0 +1,29 @@
+{
+  "id": "6a266a7e864be73cfcf6d373",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d",
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{\\pi/4}^{\\pi/2}e^{2x}(\\frac{1-sin~2x}{1-cos~2x})dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Simplify the expression inside the integrand using trigonometric identities. Substitute $\\sin 2x = 2\\sin x\\cos x$ and $1 - \\cos 2x = 2\\sin^2 x$: $\\frac{1 - 2\\sin x\\cos x}{2\\sin^2 x} = \\frac{1}{2\\sin^2 x} - \\frac{2\\sin x\\cos x}{2\\sin^2 x} = \\frac{1}{2}\\csc^2 x - \\cot x$. The integral becomes: $\\int_{\\pi/4}^{\\pi/2} e^{2x} (\\frac{1}{2}\\csc^2 x - \\cot x) dx$.<br />**Step 2:** This matches the standard theorem template form $\\int e^{kx} [kf(x) + f'(x)] dx = e^{kx}f(x) + C$. Let $f(x) = -\\cot x$, then differentiating gives $f'(x) = \\csc^2 x$. For $k=2$, notice that $2f(x) + f'(x) = -2\\cot x + \\csc^2 x = 2(\\frac{1}{2}\\csc^2 x - \\cot x)$. Thus, the indefinite integral evaluates directly to $e^{2x}(-\\frac{1}{2}\\cot x)$.<br />**Step 3:** Apply the integration limits from $\\pi/4$ to $\\pi/2$: $[-\\frac{1}{2}e^{2x}\\cot x]_{\\pi/4}^{\\pi/2} = \\left(-\\frac{1}{2}e^{\\pi}\\cot(\\frac{\\pi}{2})\\right) - \\left(-\\frac{1}{2}e^{\\pi/2}\\cot(\\frac{\\pi}{4})\\right)$. Since $\\cot(\\frac{\\pi}{2}) = 0$ and $\\cot(\\frac{\\pi}{4}) = 1$, the first term disappears, leaving: $0 - \\left(-\\frac{1}{2}e^{\\pi/2}(1)\\right) = \\frac{1}{2}e^{\\pi/2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

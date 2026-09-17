@@ -1,0 +1,29 @@
+{
+  "id": "6a912075751910886affba5d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "VSA",
+  "question": "For the constraints $2x+y \\le 11$, $x+2y \\le 10$, $x \\ge 0$ and $y \\ge 0$, the point $(k,2)$ is required to belong to the feasible region. Find the greatest possible value of $k$.",
+  "answeroption": "A",
+  "explanation": "Step 1: Since $(k,2)$ must belong to the feasible region, it must satisfy every constraint.<br>Step 2: Substituting $x=k$ and $y=2$ in $2x+y \\le 11$ gives $2k+2 \\le 11$, so $2k \\le 9$ and hence $k \\le \\frac{9}{2}$.<br>Step 3: Substituting in $x+2y \\le 10$ gives $k+4 \\le 10$, so $k \\le 6$.<br>Step 4: The non-negative restriction also requires $k \\ge 0$.<br>Step 5: Both upper restrictions must hold simultaneously, so the stricter condition is $k \\le \\frac{9}{2}$.<br>Therefore, the greatest possible value of $k$ is $\\frac{9}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{9}{2}$",
+    "B": "$5$",
+    "C": "$6$",
+    "D": "$\\frac{11}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

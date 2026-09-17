@@ -1,0 +1,16 @@
+{
+  "id": "6980742b64ea1d65e30d4c9b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "697dd9ac6be903bdc704ee3b",
+  "question": "A plane interface separates air and a transparent medium of refractive index $n$ (with respect to air). A student proposes the hypothesis:\n\n<b>Hypothesis:</b> “For any transparent medium with $n>1$, the Brewster angle $i_p$ always lies strictly between $45^\\circ$ and $60^\\circ$.”\n\nUsing Brewster’s law $\\tan i_p = n$ (for light incident from air), analyze the hypothesis and choose the correct option that \n\n(i) converts $45^\\circ<i_p<60^\\circ$ into the equivalent inequality in $n$,\n\n(ii) correctly decides whether the hypothesis is valid for all $n>1$, including one numerical counterexample if it is not.",
+  "options": {
+    "A": "Valid for all $n>1$, because $\\tan i_p=n$ automatically gives $45^\\circ<i_p<60^\\circ$ for any $n>1$.",
+    "B": "Not valid for all $n>1$. Since $45^\\circ<i_p<60^\\circ\\iff \\tan45^\\circ<n<\\tan60^\\circ\\iff 1<n<\\sqrt{3}$, the hypothesis holds only for $1<n<\\sqrt{3}$. Counterexample: $n=2\\Rightarrow i_p=\\tan^{-1}(2)\\approx 63.4^\\circ>60^\\circ$.",
+    "C": "Not valid. The condition $45^\\circ<i_p<60^\\circ$ holds only for $n>\\sqrt{3}$; otherwise $i_p<45^\\circ$. Counterexample: $n=1.2$ gives $i_p\\approx 50^\\circ$.",
+    "D": "Valid only for $n>2$, because larger $n$ forces $i_p$ to stay between $45^\\circ$ and $60^\\circ$. Counterexample: $n=1.5\\Rightarrow i_p\\approx 56.3^\\circ$."
+  },
+  "question_type": "LA",
+  "category": "Analysing, Evaluating, Creating",
+  "imageurl": null
+}

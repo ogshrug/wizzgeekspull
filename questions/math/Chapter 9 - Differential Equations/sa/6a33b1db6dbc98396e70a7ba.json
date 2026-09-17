@@ -1,0 +1,26 @@
+{
+  "id": "6a33b1db6dbc98396e70a7ba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $\\frac{dy}{dx}-\\frac{y}{x}+cosec(\\frac{y}{x})=0;$ given that $y=0$, when $x=1$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Since the given equation is a homogeneous differential equation, we apply the standard substitution $y = vx$, which implies $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting these gives: $v + x\\frac{dv}{dx} - v + \\csc v = 0 \\implies x\\frac{dv}{dx} = -\\csc v$.<br />**Step 2:** Separate the independent variables to prepare for integration: $\\frac{dv}{\\csc v} = -\\frac{dx}{x} \\implies \\sin v \\, dv = -\\frac{dx}{x}$. Integrating both sides gives $-\\cos v = -\\ln|x| + C \\implies \\cos v = \\ln|x| + C^{\\prime}$. Substitute back $v = \\frac{y}{x}$ to obtain the general solution: $\\cos(\\frac{y}{x}) = \\ln|x| + C^{\\prime}$.<br />**Step 3:** Substitute the given boundary conditions $y = 0$ when $x = 1$ to calculate the particular constant: $\\cos(0) = \\ln(1) + C^{\\prime} \\implies 1 = 0 + C^{\\prime} \\implies C^{\\prime} = 1$. Therefore, the definitive particular solution is $\\cos(\\frac{y}{x}) = \\ln|x| + 1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

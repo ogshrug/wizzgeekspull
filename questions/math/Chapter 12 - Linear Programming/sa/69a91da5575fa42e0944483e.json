@@ -1,0 +1,29 @@
+{
+  "id": "69a91da5575fa42e0944483e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "SA",
+  "question": "Maximize $Z = 2x + 5y$ subject to $x + 2y \\leq 10$, $3x + 2y \\leq 18$, $x \\geq 0$, $y \\geq 0$. Find all corner points, check which one(s) yield the maximum, and state the optimal value and the corresponding $(x, y)$.",
+  "answeroption": "D",
+  "explanation": "Step 1: List constraints:<br /><br />$x + 2y \\leq 10$<br /><br />$3x + 2y \\leq 18$<br /><br />$x \\geq 0$, $y \\geq 0$<br /><br />Step 2: Find intersections (vertices):<br /><br />(i) $x + 2y = 10$<br /><br />(ii) $3x + 2y = 18$<br /><br />Subtract (i) from (ii):<br /><br />$3x + 2y - (x + 2y) = 18 - 10\\implies 2x=8\\implies x=4$<br /><br />Substitute in (i): $4+2y=10\\implies 2y=6\\implies y=3$. So, $(4,3)$<br /><br />(i) with $x=0$: $2y=10\\implies y=5$. $(0,5)$<br /><br />(ii) with $x=0$: $2y=18\\implies y=9$. $(0,9)$, but $x + 2y = 0 + 18 = 18 > 10$; this exceeds (i), so not feasible.<br /><br />(i) with $y=0$: $x=10$. $(10,0)$<br /><br />(ii) with $y=0$: $3x=18\\implies x=6$. $(6,0)$<br /><br />Check which are feasible:<br /><br />At $(0,5)$: $0+10=10\\leq10$; $0+10=10<18$; ok.<br /><br />At $(4,3)$: $4+6=10$; $12+6=18$; ok.<br /><br />At $(6,0)$: $6+0=6\\leq10$; $18+0=18$; ok.<br /><br />Step 3: Compute $Z = 2x + 5y$<br /><br />At $(0,5):0+25=25$<br /><br />At $(4,3):8+15=23$<br /><br />At $(6,0):12+0=12$<br /><br />Maximum is $25$ at $(0,5)$.<br /><br />Thus, the optimum is $Z=25$ at $(0,5)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximum $Z=23$ at $(4,3)$.",
+    "B": "Maximum $Z=12$ at $(6,0)$.",
+    "C": "Maximum $Z=45$ at $(0,9)$.",
+    "D": "Maximum $Z=25$ at $(0,5)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:07:33 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a2650cd864be73cfcf6d333",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "VSA",
+  "question": "Find: <br />$$\\int\\frac{dx}{\\sqrt{4x-x^{2}}}$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To find the integral $\\int\\frac{dx}{\\sqrt{4x-x^{2}}}$, we manipulate the quadratic expression inside the radical by completing the square. Rewrite the expression inside the square root by factoring out a negative sign: $4x - x^2 = -(x^2 - 4x)$. Add and subtract the square of half the coefficient of $x$, which is $(\\frac{4}{2})^2 = 4$, to obtain $-(x^2 - 4x + 4 - 4)$. This simplifies to $-[(x - 2)^2 - 4] = 4 - (x - 2)^2 = 2^2 - (x - 2)^2$.<br />**Step 2:** Substitute this transformed expression back into the denominator of the integrand. The problem can now be written in a standard integration form: $\\int\\frac{dx}{\\sqrt{2^2 - (x - 2)^2}}$. We apply the well-known standard integration formula $\\int \\frac{dx}{\\sqrt{a^2 - x^2}} = \\sin^{-1}\\left(\\frac{x}{a}\\right) + C$.<br />**Step 3:** Matching components with the standard formula, we have $a = 2$ and the linear term $(x - 2)$ replacing $x$. Integrating directly yields the final answer: $\\sin^{-1}\\left(\\frac{x - 2}{2}\\right) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1",
+    "2022-5-2",
+    "2022-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a32356b6dbc98396e70a768",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "MCQ",
+  "question": "The integrating factor of the differential equation $\\frac{dy}{dx}+y=\\frac{1+y}{x}$ is",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Rearrange the terms of the differential equation to match standard first-order linear format: $\\frac{dy}{dx} + y = \\frac{1}{x} + \\frac{y}{x} \\implies \\frac{dy}{dx} + y\\left(1 - \\frac{1}{x}\\right) = \\frac{1}{x}$.<br />**Step 2:** Identify the linear coefficient function $P(x) = 1 - \\frac{1}{x}$. The formula for the integrating factor is defined as $\\text{I.F.} = e^{\\int P(x) dx}$.<br />**Step 3:** Compute the integral component: $\\int (1 - \\frac{1}{x}) dx = x - \\ln x$. Substituting this back yields $\\text{I.F.} = e^{x - \\ln x} = e^x \\cdot e^{-\\ln x} = \\frac{e^x}{x}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$xe^{x}$",
+    "B": "$\\frac{e^{x}}{x}$",
+    "C": "$\\frac{x}{e^{x}}$",
+    "D": "$xe^{\\frac{1}{x}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

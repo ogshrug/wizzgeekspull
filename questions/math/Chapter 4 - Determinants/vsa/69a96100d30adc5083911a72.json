@@ -1,0 +1,29 @@
+{
+  "id": "69a96100d30adc5083911a72",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "VSA",
+  "question": "Given $A = \\begin{pmatrix} 1 & x \\\\ 0 & 1 \\end{pmatrix}$, find all values of $x$ such that $A$ is equal to its own inverse.",
+  "answeroption": "B",
+  "explanation": "For $A = A^{-1}$, using the formula $A^{-1} = \\frac{1}{|A|}\\text{adj}(A)$.<br /><br />First, $|A| = (1)(1) - (0)(x) = 1$.<br /><br />Adj $A = \\begin{pmatrix}1 & 0 \\\\ -x & 1\\end{pmatrix}$.<br /><br />So, $A^{-1} = \\begin{pmatrix}1 & 0 \\\\ -x & 1\\end{pmatrix}$.<br /><br />Equate $A = A^{-1}$:<br /><br />$\\Rightarrow \\begin{pmatrix}1 & x \\\\ 0 & 1\\end{pmatrix} = \\begin{pmatrix}1 & 0 \\\\ -x & 1\\end{pmatrix}$<br /><br />So, $x=0$ and $-x=0 \\implies x=0$.<br /><br />Thus, the only value is $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=1$",
+    "B": "$x=0$",
+    "C": "$x=-1$",
+    "D": "All real values of $x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:54:56 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

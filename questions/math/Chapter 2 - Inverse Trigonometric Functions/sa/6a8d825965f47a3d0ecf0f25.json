@@ -1,0 +1,29 @@
+{
+  "id": "6a8d825965f47a3d0ecf0f25",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4c"
+  ],
+  "question_type": "SA",
+  "question": "The function $y=-\\cos^{-1}(2x-1)+\\pi$ is obtained from $y=\\cos^{-1}x$.<br><br>(i) Describe the transformations involved.<br><br>(ii) Determine the transformed coordinates corresponding to $(-1,\\pi)$, $\\left(0,\\frac{\\pi}{2}\\right)$ and $(1,0)$. Do not draw the graph.",
+  "answeroption": "C",
+  "explanation": "<b>Horizontal transformation</b><br>Write the argument as $2x-1=2\\left(x-\\frac{1}{2}\\right)$. This compresses the graph horizontally by a factor of $\\frac{1}{2}$ and translates it $\\frac{1}{2}$ unit to the right.<br><br><b>Vertical transformation</b><br>The negative sign outside $\\cos^{-1}$ reflects the resulting graph in the $x$-axis. Adding $\\pi$ then translates it upward by $\\pi$ units.<br><br><b>Coordinate transformation rule</b><br>If $(u,v)$ is a point on $y=\\cos^{-1}x$, then $u=2x-1$ and $y=-v+\\pi$. Therefore, $$x=\\frac{u+1}{2},\\qquad y=\\pi-v.$$<br><br><b>Transformation of the given points</b><br>The point $(-1,\\pi)$ becomes $(0,0)$. The point $\\left(0,\\frac{\\pi}{2}\\right)$ becomes $\\left(\\frac{1}{2},\\frac{\\pi}{2}\\right)$. The point $(1,0)$ becomes $(1,\\pi)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Horizontal compression by $\\frac{1}{2}$, shift left by $\\frac{1}{2}$, reflection in the $x$-axis and upward shift by $\\pi$; transformed points: $(-1,0)$, $\\left(-\\frac{1}{2},\\frac{\\pi}{2}\\right)$ and $(0,\\pi)$",
+    "B": "Horizontal compression by $\\frac{1}{2}$, shift right by $\\frac{1}{2}$ and upward shift by $\\pi$ without reflection; transformed points: $(0,\\pi)$, $\\left(\\frac{1}{2},\\frac{\\pi}{2}\\right)$ and $(1,0)$",
+    "C": "Horizontal compression by $\\frac{1}{2}$, shift right by $\\frac{1}{2}$, reflection in the $x$-axis and upward shift by $\\pi$; transformed points: $(0,0)$, $\\left(\\frac{1}{2},\\frac{\\pi}{2}\\right)$ and $(1,\\pi)$",
+    "D": "Horizontal stretch by $2$, shift right by $1$, reflection in the $x$-axis and upward shift by $\\pi$; transformed points: $(-1,0)$, $\\left(0,\\frac{\\pi}{2}\\right)$ and $(1,\\pi)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a96ea2d30adc5083911abd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "SA",
+  "question": "Three cards are drawn successively without replacement from a pack of 52 playing cards. Find the probability that <br /> (a) all three cards are spades, <br /> (b) the first card is a spade, the second is a heart, and the third is a diamond.",
+  "answeroption": "A",
+  "explanation": "There are 52 cards: 13 spades, 13 hearts, 13 diamonds, and 13 clubs. <br /><br /> (a) All three are spades: <br /> $P(\\text{1st is spade}) = \\frac{13}{52}$ <br /> $P(\\text{2nd is spade | 1st spade}) = \\frac{12}{51}$ <br /> $P(\\text{3rd is spade | first two are spades}) = \\frac{11}{50}$ <br /><br /> So, $P = \\frac{13}{52} \\times \\frac{12}{51} \\times \\frac{11}{50} = \\frac{13 \\times 12 \\times 11}{52 \\times 51 \\times 50} = \\frac{1716}{132600} = \\frac{143}{11050}$ <br /><br /> (b) First is spade, second is heart, third is diamond: <br /> $P_1 = \\frac{13}{52}$ <br /> After spade drawn: 51 left. Hearts: 13 still. <br /> $P_2 = \\frac{13}{51}$ <br /> After spade, then heart: Diamonds left: 13, remaining cards: 50. <br /> $P_3 = \\frac{13}{50}$ <br /><br /> $P = \\frac{13}{52} \\times \\frac{13}{51} \\times \\frac{13}{50} = \\frac{13^3}{52 \\times 51 \\times 50} = \\frac{2197}{132600}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{143}{11050}$<br />(b) $\\frac{2197}{132600}$",
+    "B": "(a) $\\frac{13}{52}$<br />(b) $\\frac{13}{50}$",
+    "C": "(a) $\\frac{11}{850}$<br />(b) $\\frac{169}{132600}$",
+    "D": "(a) $\\frac{2197}{132600}$<br />(b) $\\frac{143}{11050}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:53:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

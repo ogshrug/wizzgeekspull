@@ -1,0 +1,26 @@
+{
+  "id": "6a225484864be73cfcf6d16c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically: Maximise $Z=x+2y$ Subject to the constraints: $x-y\\ge 0$, $x-2y\\ge -2$, $x\\ge 0, y\\ge 0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Carefully plot the linear equality boundary $x - y = 0$ (which passes squarely through (0,0) and (2,2)). The required inequality region lies precisely below or identically to the right of this straight line.<br />**Step 2:** Similarly, plot the second linear boundary $x - 2y = -2$ (which passes exactly through (-2,0) and (0,1)). The matching inequality region lies cleanly below or strictly to the right of this specific line.<br />**Step 3:** The additional non-negativity constraints $x \\ge 0, y \\ge 0$ permanently restrict the valid feasible region exclusively to the first mathematical quadrant. Find the primary intersection of the lines: $x=y$ and $x-2y=-2 \\implies y-2y=-2 \\implies -y=-2 \\implies y=2, x=2$. The intersection point is explicitly (2,2).<br />**Step 4:** The geometric feasible region generated is infinitely unbounded. The identified corner points are precisely (0,0) and (2,2). It stretches continuously infinitely along the primary positive x-axis.<br />**Step 5:** Finally, evaluate $Z = x+2y$ exactly at vertices. $Z(0,0)=0$, $Z(2,2)=6$. Because the geometric region is open and unbounded, verify if $x+2y > 6$ encompasses valid points located deeply in the feasible region. For instance, the distant point (10, 1) is clearly in the region, yielding $Z = 12$. Therefore, $Z$ systematically has absolutely no finite mathematical maximum.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

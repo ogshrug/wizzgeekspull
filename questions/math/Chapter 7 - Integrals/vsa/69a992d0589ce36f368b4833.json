@@ -1,0 +1,29 @@
+{
+  "id": "69a992d0589ce36f368b4833",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "VSA",
+  "question": "If $F(x)$ is an anti-derivative of $f(x)$, show that $\\int_0^{\\pi} f(\\pi-x)dx = \\int_0^{\\pi} f(x)dx$ and verify for $f(x)=\\sin x$.",
+  "answeroption": "C",
+  "explanation": "Let $I=\\int_0^{\\pi} f(\\pi-x)dx$.<br /><br />Substitute $u=\\pi-x$ so $du=-dx$.<br /><br />When $x=0$, $u=\\pi$ and when $x=\\pi$, $u=0$.<br /><br />Thus $I=\\int_{\\pi}^0 f(u)(-du)=\\int_0^{\\pi} f(u)du$.<br /><br />Hence $\\int_0^{\\pi} f(\\pi-x)dx = \\int_0^{\\pi} f(x)dx$.<br /><br />Verification for $f(x)=\\sin x$:<br /><br />$\\int_0^{\\pi}\\sin(\\pi-x)dx = \\int_0^{\\pi}\\sin x dx = [-\\cos x]_0^{\\pi}=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\int_0^{\\pi} f(\\pi-x)dx = 2\\int_0^{\\pi} f(x)dx$<br />For $f(x)=\\sin x$, value is $4$",
+    "B": "$\\int_0^{\\pi} f(\\pi-x)dx = \\frac{1}{2}\\int_0^{\\pi} f(x)dx$<br />For $f(x)=\\sin x$, value is $1$",
+    "C": "$\\int_0^{\\pi} f(\\pi-x)dx = \\int_0^{\\pi} f(x)dx$<br />For $f(x)=\\sin x$, both integrals equal $2$",
+    "D": "$\\int_0^{\\pi} f(\\pi-x)dx = -\\int_0^{\\pi} f(x)dx$<br />For $f(x)=\\sin x$, value is $-2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 14:27:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

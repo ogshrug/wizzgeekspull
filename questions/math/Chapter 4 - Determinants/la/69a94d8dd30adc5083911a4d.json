@@ -1,0 +1,29 @@
+{
+  "id": "69a94d8dd30adc5083911a4d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{bmatrix}2 & -1 \\\\ 4 & 3\\end{bmatrix}$. Find all possible matrices $X$ such that $AX = XA$ and $X$ is a $2 \\times 2$ matrix. Analyze the possible solutions, justifying each step logically.",
+  "answeroption": "B",
+  "explanation": "Let $X = \\begin{bmatrix}a & b\\\\c & d\\end{bmatrix}$<br /><br />$AX = \\begin{bmatrix}2 & -1 \\\\ 4 & 3\\end{bmatrix}\\begin{bmatrix}a & b\\\\c & d\\end{bmatrix} = \\begin{bmatrix}2a - c & 2b - d \\\\ 4a + 3c & 4b+3d\\end{bmatrix}$<br /><br />$XA = \\begin{bmatrix}a & b\\\\c & d\\end{bmatrix}\\begin{bmatrix}2 & -1 \\\\ 4 & 3\\end{bmatrix} = \\begin{bmatrix}2a+4b & -a+3b \\\\ 2c+4d & -c+3d\\end{bmatrix}$<br /><br />Equate:<br />$2a-c = 2a+4b \\implies c = -4b$<br />$2b-d = -a+3b \\implies 2b-d = -a+3b \\implies a - d = 0\\implies a = d$<br />$4a+3c = 2c+4d \\implies 4a+3c = 2c+4d \\implies 4a + 1c - 4d = 0 \\implies 4a - 4d + c = 0$<br />But since $a = d$, $c=0$<br />But from first, $c = -4b$<br />So $c = 0 \\implies b = 0$<br />So $b = 0$, $c = 0$, $a = d$<br /><br />Check the last equation: $4b+3d = -c+3d$ gives $4b+3d = -c+3d \\implies 4b = -c$ with $c=0$ so $b=0$<br /><br />Thus, $X = \\begin{bmatrix}a & 0\\\\0 & a\\end{bmatrix} = aI$<br /><br />So, only scalar multiples of identity matrix commute with $A$ in this case.",
+  "explanation_image": [],
+  "options": {
+    "A": "$X=\\begin{bmatrix}a&0\\\\0&a\\end{bmatrix}$ only, where $a\\in\\mathbb{R}$.",
+    "B": "$X=\\begin{bmatrix}a&b\\\\-4b&a-b\\end{bmatrix}$, where $a,b\\in\\mathbb{R}$.",
+    "C": "$X=\\begin{bmatrix}a&b\\\\4b&a+b\\end{bmatrix}$, where $a,b\\in\\mathbb{R}$.",
+    "D": "No non-zero matrix $X$ satisfies $AX=XA$."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:31:57 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

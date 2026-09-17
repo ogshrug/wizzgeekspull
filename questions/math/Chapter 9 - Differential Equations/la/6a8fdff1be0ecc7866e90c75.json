@@ -1,0 +1,31 @@
+{
+  "id": "6a8fdff1be0ecc7866e90c75",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation $$y\\frac{dx}{dy}=x+y,$$ for $y\\neq 0$, by first establishing its homogeneous character and then choosing a substitution appropriate when $x$ is regarded as a function of $y$ so that the resulting equation becomes variable separable.",
+  "answeroption": "C",
+  "explanation": "<b>Homogeneous Form</b><br>The given equation is $$y\\frac{dx}{dy}=x+y.$$ Dividing by $y$, $$\\frac{dx}{dy}=\\frac{x}{y}+1.$$ The right-hand side depends only on the ratio $\\frac{x}{y}$, and hence the equation is homogeneous.<br><br><b>Substitution and Reduction</b><br>Since $x$ is being considered as a function of $y$, use the substitution $$x=vy.$$ Differentiating with respect to $y$, $$\\frac{dx}{dy}=v+y\\frac{dv}{dy}.$$ Substituting this in the equation, $$v+y\\frac{dv}{dy}=v+1.$$ Hence, $$y\\frac{dv}{dy}=1,$$ or $$dv=\\frac{dy}{y}.$$ Thus the homogeneous equation has been reduced to variable separable form.<br><br><b>Integration</b><br>Integrating, $$v=\\log|y|+C.$$ Since $v=\\frac{x}{y}$, $$\\frac{x}{y}=\\log|y|+C.$$<br><br><b>Final Result</b><br>Therefore, the required general solution is $$x=y\\left(\\log|y|+C\\right),$$ where $y\\neq 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=y\\left(\\log|x|+C\\right)$",
+    "B": "$x=y\\left(1+\\log|y|\\right)+C$",
+    "C": "$x=y\\left(\\log|y|+C\\right)$",
+    "D": "$x=y\\left(\\log|y|-C\\right)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

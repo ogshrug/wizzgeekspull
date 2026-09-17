@@ -1,0 +1,30 @@
+{
+  "id": "69aa73c18e6d1957407fd1b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 9: Cloud Storage — Set Operations as Binary Operations**<br /><br />A cloud data center manages file tags. Tags are sets drawn from a universe $U$ of 6 elements. Consider the power set $\\mathcal{P}(U)$. Define binary operations $*: (A,B) \\mapsto A \\cap B$ and $\\circ: (A,B) \\mapsto A \\cup B$ on $\\mathcal{P}(U)$.<br /><br />(a) Prove which of $*$ and $\\circ$ are commutative, associative, have identity, and elements that are invertible.<br /><br />(b) For $*$, find all invertible elements and prove your claim; do the same for $\\circ$.<br /><br />(c) How many elements in $\\mathcal{P}(U)$ are idempotent under the operation $*$ (i.e., $A * A = A$)?",
+  "answeroption": "B",
+  "explanation": "(a) **Commutativity and Associativity:**<br /><br />$\\text{Both } * \\text{ (intersection) and } \\circ \\text{ (union) are commutative and associative}$<br /><br />$\\text{Identity for } *: A \\cap U = A \\text{ for all } A \\Rightarrow \\text{identity is } U$<br /><br />$\\text{Identity for } \\circ: A \\cup \\emptyset = A \\text{ for all } A \\Rightarrow \\text{identity is } \\emptyset$<br /><br />(b) **Invertible Elements:**<br /><br />$\\text{Under } *: A \\text{ invertible if } \\exists B \\text{ such that } A \\cap B = U$<br /><br />$\\text{Only possible if } A = U, \\text{ then } B = U$<br /><br />$\\text{Under } \\circ: A \\text{ invertible if } A \\cup B = \\emptyset$<br /><br />$\\text{Only possible if } A = \\emptyset, \\text{ then } B = \\emptyset$<br /><br />(c) **Idempotent elements under $*$:**<br /><br />$\\text{Idempotent means } A * A = A \\cap A = A$<br /><br />$\\text{This is true for ALL subsets of } U$<br /><br />$\\text{Number of elements in } \\mathcal{P}(U) = 2^6 = 64$<br /><br />$\\text{All 64 elements are idempotent under } *$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Neither $*$ nor $\\circ$ is commutative or associative.<br />(b) Every subset is invertible under both operations.<br />(c) No element is idempotent under $*$.",
+    "B": "(a) Both $*$ and $\\circ$ are commutative and associative; identity for $*$ is $U$, and identity for $\\circ$ is $\\emptyset$.<br />(b) Under $*$, only $U$ is invertible; under $\\circ$, only $\\emptyset$ is invertible.<br />(c) Since $A\\cap A=A$ for every subset $A\\subseteq U$, all $2^6=64$ elements of $\\mathcal{P}(U)$ are idempotent under $*$.",
+    "C": "(a) $*$ is commutative but not associative, while $\\circ$ is associative but not commutative.<br />(b) Only $\\emptyset$ is invertible under $*$ and only $U$ is invertible under $\\circ$.<br />(c) Exactly $6$ elements are idempotent under $*$.",
+    "D": "(a) Identity for both $*$ and $\\circ$ is $U$.<br />(b) All singleton subsets are invertible under both operations.<br />(c) Exactly $2^5=32$ elements are idempotent under $*$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:27:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

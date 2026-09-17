@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9c2b2e54880055a0a68e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "SA",
+  "question": "A square matrix $A$ of order $3$ satisfies $|A|=-2$. Find $|\\operatorname{adj}A|$ and write the matrix $A(\\operatorname{adj}A)$.",
+  "answeroption": "A",
+  "explanation": "<b>Determinant of the adjoint</b><br>For a square matrix of order $n$, $$|\\operatorname{adj}A|=|A|^{n-1}$$<br><b>Substitution of the order and determinant</b><br>Here, $n=3$ and $|A|=-2$. Therefore, $$|\\operatorname{adj}A|=(-2)^2=4$$<br><b>Adjoint identity</b><br>Using $$A(\\operatorname{adj}A)=|A|I,$$ we obtain $$A(\\operatorname{adj}A)=-2I=\\begin{bmatrix}-2&0&0\\\\0&-2&0\\\\0&0&-2\\end{bmatrix}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$|\\operatorname{adj}A|=4$ and $A(\\operatorname{adj}A)=\\begin{bmatrix}-2&0&0\\\\0&-2&0\\\\0&0&-2\\end{bmatrix}$",
+    "B": "$|\\operatorname{adj}A|=-4$ and $A(\\operatorname{adj}A)=\\begin{bmatrix}2&0&0\\\\0&2&0\\\\0&0&2\\end{bmatrix}$",
+    "C": "$|\\operatorname{adj}A|=8$ and $A(\\operatorname{adj}A)=-2I$",
+    "D": "$|\\operatorname{adj}A|=4$ and $A(\\operatorname{adj}A)=2I$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

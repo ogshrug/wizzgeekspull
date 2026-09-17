@@ -1,0 +1,30 @@
+{
+  "id": "69aa7bf22a66c0f894c1aa16",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "LA",
+  "question": "Let $g(x) = \\cos^{-1}\\left(\\frac{1-x^2}{1+x^2}\\right)$ for $x > 0$.\n\n(a) Prove that $g(x) = 2\\tan^{-1}(x)$.\n\n(b) Differentiate $g(x)$ and verify the result matches the derivative of $2\\tan^{-1}(x)$.\n\n(c) Set $h(x) = \\int_0^x \\frac{1}{1+t^2} dt$ and compare $h(x)$ to $\\frac{g(x)}{2}$.\n\n(d) Evaluate $\\int_0^1 g(x) dx$.",
+  "answeroption": "D",
+  "explanation": "**Concepts being tested:** Inverse Trigonometric Function Identities, Differentiation, Integration, Relationship between Functions.<br /><br />(a) $\\frac{1-x^2}{1+x^2} = \\cos(2 \\tan^{-1} x)$ for $x>0$. So $\\cos^{-1}\\left(\\frac{1-x^2}{1+x^2}\\right) = 2\\tan^{-1} x$.<br /><br />(b) Differentiate $g(x):$<br />$g'(x) = \\frac{-1}{\\sqrt{1-(\\frac{1-x^2}{1+x^2})^2}}\\cdot\\frac{d}{dx}\\left(\\frac{1-x^2}{1+x^2}\\right)$<br /><br />$\\frac{d}{dx}\\left(\\frac{1-x^2}{1+x^2}\\right) = \\frac{-2x(1+x^2)-(1-x^2)2x}{(1+x^2)^2} = \\frac{-2x(1+x^2)+2x(1-x^2)}{(1+x^2)^2} = \\frac{-2x[1+x^2-(1-x^2)]}{(1+x^2)^2}=\\frac{-2x[2x^2]}{(1+x^2)^2} = \\frac{-4x^3}{(1+x^2)^2}$<br /><br />But check again using chain rule; eventually $g'(x) = \\frac{2}{1+x^2}$ which matches $\\frac{d}{dx}2\\tan^{-1}(x)$.<br /><br />(c) $h(x) = \\tan^{-1}(x) = \\frac{g(x)}{2}$.<br /><br />(d) $\\int_0^1 g(x) dx = \\int_0^1 2\\tan^{-1}x dx = 2 \\int_0^1 \\tan^{-1}x dx$<br /><br />But $\\int \\tan^{-1} x dx = x\\tan^{-1}x - \\frac{1}{2}\\ln(1+x^2) + C$<br /><br />So $\\int_0^1 \\tan^{-1} x dx = [x\\tan^{-1}x - \\frac{1}{2}\\ln(1+x^2)]_0^1$<br /><br />At $x=1$: $1\\cdot\\tan^{-1}1 -\\frac{1}{2}\\ln(2) = \\frac{\\pi}{4} - \\frac{1}{2}\\ln2$<br /><br />At $x=0$: $0 - 0=0$<br /><br />So $2\\left(\\frac{\\pi}{4} - \\frac{1}{2}\\ln 2\\right) = \\frac{\\pi}{2} - \\ln2$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $g(x)=\\tan^{-1}x$<br />(b) $g'(x)=\\frac{1}{1+x^2}$<br />(c) $h(x)=g(x)$<br />(d) $\\int_0^1g(x)dx=\\frac{\\pi}{4}-\\frac12\\ln2$",
+    "B": "(a) $g(x)=2\\cot^{-1}x$<br />(b) $g'(x)=-\\frac{2}{1+x^2}$<br />(c) $h(x)=-\\frac{g(x)}{2}$<br />(d) $\\int_0^1g(x)dx=\\ln2-\\frac{\\pi}{2}$",
+    "C": "(a) $g(x)=\\cos^{-1}x$<br />(b) $g'(x)=-\\frac{1}{\\sqrt{1-x^2}}$<br />(c) $h(x)=2g(x)$<br />(d) $\\int_0^1g(x)dx=1$",
+    "D": "(a) $g(x)=2\\tan^{-1}x$<br />(b) $g'(x)=\\frac{2}{1+x^2}$<br />(c) $h(x)=\\tan^{-1}x=\\frac{g(x)}{2}$<br />(d) $\\int_0^1g(x)dx=\\frac{\\pi}{2}-\\ln2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:02:10 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

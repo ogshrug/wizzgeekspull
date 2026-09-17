@@ -1,0 +1,29 @@
+{
+  "id": "6a9020892e54880055a0a736",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A three-dimensional mathematical arrangement contains the line $$L:\\vec r=(\\hat i-2\\hat j+3\\hat k)+\\lambda(\\hat i+2\\hat j+2\\hat k)$$ and the plane $$\\pi:2x-y+2z=5.$$ Students investigate the inclination of the line to the plane. They use the direction vector of the line and the normal vector of the plane, noting that the angle between a line and a plane is the complement of the angle between the line and the normal to the plane. An additional line $M$ has direction ratios $(p,1,1)$, where $p$ can be adjusted. The class wants $M$ to become parallel to the given plane.<br><br><b>(a)</b> Identify a direction vector of $L$ and a normal vector to $\\pi$.<br><br><b>(b)</b> Find the acute angle between the direction of $L$ and the normal to $\\pi$.<br><br><b>(c)</b> Determine the acute angle between the line $L$ and the plane $\\pi$.<br><br><b>(d)</b> Find the value of $p$ for which the line $M$ is parallel to the plane $\\pi$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>From the equation of $L$, a direction vector is<br>$$\\vec b=(1,2,2).$$<br>From the equation $2x-y+2z=5$, a normal vector to the plane is<br>$$\\vec n=(2,-1,2).$$<br><br><b>(b)</b><br>Let $\\theta$ be the acute angle between $\\vec b$ and $\\vec n$. Then<br>$$\\cos\\theta=\\frac{|\\vec b\\cdot\\vec n|}{|\\vec b||\\vec n|}.$$<br>Now,<br>$$\\vec b\\cdot\\vec n=1(2)+2(-1)+2(2)=4.$$<br>Also,<br>$$|\\vec b|=\\sqrt{1^2+2^2+2^2}=3$$<br>and<br>$$|\\vec n|=\\sqrt{2^2+(-1)^2+2^2}=3.$$<br>Hence,<br>$$\\cos\\theta=\\frac{4}{9}.$$<br>Therefore,<br>$$\\theta=\\cos^{-1}\\left(\\frac{4}{9}\\right).$$<br><br><b>(c)</b><br>Let $\\phi$ be the acute angle between the line and the plane. Since $\\phi$ is the complement of $\\theta$,<br>$$\\phi=90^\\circ-\\theta.$$<br>Equivalently,<br>$$\\sin\\phi=\\frac{|\\vec b\\cdot\\vec n|}{|\\vec b||\\vec n|}=\\frac{4}{9}.$$<br>Therefore, the required angle is<br>$$\\phi=\\sin^{-1}\\left(\\frac{4}{9}\\right).$$<br><br><b>(d)</b><br>The direction vector of $M$ is<br>$$\\vec d=(p,1,1).$$<br>For a line to be parallel to a plane, its direction vector must be perpendicular to the normal to the plane. Therefore,<br>$$\\vec d\\cdot\\vec n=0.$$<br>Thus,<br>$$p(2)+1(-1)+1(2)=0.$$<br>Hence,<br>$$2p+1=0,$$<br>so<br>$$p=-\\frac{1}{2}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec b=(1,2,2)$, $\\vec n=(2,-1,2)$<br>(b) $\\cos^{-1}\\left(\\frac{4}{9}\\right)$<br>(c) $\\cos^{-1}\\left(\\frac{4}{9}\\right)$<br>(d) $p=-\\frac{1}{2}$",
+    "B": "(a) $\\vec b=(1,2,2)$, $\\vec n=(2,1,2)$<br>(b) $\\cos^{-1}\\left(\\frac{8}{9}\\right)$<br>(c) $\\sin^{-1}\\left(\\frac{8}{9}\\right)$<br>(d) $p=-\\frac{3}{2}$",
+    "C": "(a) $\\vec b=(1,2,2)$, $\\vec n=(2,-1,2)$<br>(b) Angle between $\\vec b$ and $\\vec n$ is $\\cos^{-1}\\left(\\frac{4}{9}\\right)$<br>(c) Angle between $L$ and $\\pi$ is $\\sin^{-1}\\left(\\frac{4}{9}\\right)$<br>(d) $p=-\\frac{1}{2}$",
+    "D": "(a) $\\vec b=(1,-2,2)$, $\\vec n=(2,-1,2)$<br>(b) $\\cos^{-1}\\left(\\frac{8}{9}\\right)$<br>(c) $\\sin^{-1}\\left(\\frac{8}{9}\\right)$<br>(d) $p=\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8ed08cbe0ecc7866e90bea",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7c",
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A group of students is asked to obtain the derivative of the inverse sine function without simply quoting its derivative formula. They take $y=\\sin^{-1}x$, where $-1<x<1$, and rewrite this relation in a form suitable for implicit differentiation. Since the principal value of $y$ lies between $-\\frac{\\pi}{2}$ and $\\frac{\\pi}{2}$, the sign of $\\cos y$ can be determined while expressing the final derivative entirely in terms of $x$. The students then use the result to calculate the derivative at a particular value of $x$.<br><br><b>(a)</b> Rewrite $y=\\sin^{-1}x$ as a relation between $x$ and $y$.<br><br><b>(b)</b> Differentiate this relation implicitly with respect to $x$.<br><br><b>(c)</b> Show that $\\frac{dy}{dx}=\\frac{1}{\\sqrt{1-x^2}}$ for $-1<x<1$.<br><br><b>(d)</b> Evaluate $\\frac{dy}{dx}$ at $x=\\frac{3}{5}$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Given<br><br>$$y=\\sin^{-1}x,$$<br><br>the equivalent relation is<br><br>$$x=\\sin y.$$<br><br><b>(b)</b><br>Differentiating $x=\\sin y$ implicitly with respect to $x$,<br><br>$$1=\\cos y\\frac{dy}{dx}.$$<br><br>Therefore,<br><br>$$\\frac{dy}{dx}=\\frac{1}{\\cos y}.$$<br><br><b>(c)</b><br>Since $x=\\sin y$,<br><br>$$\\cos^2y=1-\\sin^2y=1-x^2.$$<br><br>For $-\\frac{\\pi}{2}<y<\\frac{\\pi}{2}$, $\\cos y>0$. Hence,<br><br>$$\\cos y=\\sqrt{1-x^2}.$$<br><br>Substituting in the derivative,<br><br>$$\\frac{dy}{dx}=\\frac{1}{\\sqrt{1-x^2}},\\quad -1<x<1.$$<br><br><b>(d)</b><br>At $x=\\frac{3}{5}$,<br><br>$$\\frac{dy}{dx}=\\frac{1}{\\sqrt{1-\\frac{9}{25}}}=\\frac{1}{\\sqrt{\\frac{16}{25}}}=\\frac{1}{\\frac{4}{5}}=\\frac{5}{4}.$$<br><br>Hence, the required value is $\\frac{5}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $x=\\cos y$<br>(b) $1=-\\sin y\\frac{dy}{dx}$<br>(c) $\\frac{dy}{dx}=-\\frac{1}{\\sqrt{1-x^2}}$<br>(d) $-\\frac54$",
+    "B": "(a) $x=\\sin y$<br>(b) $1=\\sin y\\frac{dy}{dx}$<br>(c) $\\frac{dy}{dx}=\\frac{1}{x}$<br>(d) $\\frac53$",
+    "C": "(a) $x=\\sin y$<br>(b) $1=\\cos y\\frac{dy}{dx}$<br>(c) $\\frac{dy}{dx}=\\frac{1}{\\sqrt{1-x^2}}$<br>(d) $\\frac54$",
+    "D": "(a) $x=\\sin y$<br>(b) $1=\\cos y\\frac{dy}{dx}$<br>(c) $\\frac{dy}{dx}=\\sqrt{1-x^2}$<br>(d) $\\frac45$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

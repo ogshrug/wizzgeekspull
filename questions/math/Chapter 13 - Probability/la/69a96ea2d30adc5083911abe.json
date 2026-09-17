@@ -1,0 +1,30 @@
+{
+  "id": "69a96ea2d30adc5083911abe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "LA",
+  "question": "A box contains 10 bulbs, out of which 4 are defective. Two bulbs are selected at random without replacement. Define events: <br /> A: Both bulbs are defective <br /> B: At least one bulb is defective <br /> C: Both bulbs are non-defective <br /> (a) Calculate the probability of each event. <br /> (b) Are the events A and C mutually exclusive? Justify your answer. <br /> (c) If one bulb chosen is defective, what is the probability that both bulbs are defective?",
+  "answeroption": "C",
+  "explanation": "Let’s define events: <br /><br /> A: Both bulbs are defective <br /> C: Both bulbs are non-defective <br /><br /> Number of ways to choose 2 bulbs out of 10: <br /> $ n(S) = \\binom{10}{2} = 45 $ <br /><br /> Number of ways to choose 2 defective bulbs: <br /> $ n(A) = \\binom{4}{2} = 6 $ <br /> So, <br /> $ P(A) = \\frac{6}{45} = \\frac{2}{15} $ <br /><br /> Number of ways to choose 2 non-defective bulbs: <br /> $ n(C) = \\binom{6}{2} = 15 $ <br /> So, <br /> $ P(C) = \\frac{15}{45} = \\frac{1}{3} $ <br /><br /> Number of ways to choose at least one defective bulb: <br /> Use complement: <br /> “N = total – both bulbs non-defective” <br /><br /> $ n(B) = 45 – 15 = 30 $ <br /> $ P(B) = \\frac{30}{45} = \\frac{2}{3} $ <br /><br /> (b) A (both defective) and C (both non-defective) cannot happen together. That is, $A \\cap C = \\phi$. <br /><br /> So, events A and C are mutually exclusive. <br /><br /> (c) The event \"at least one bulb is defective\" can occur in two ways: <br /> (1st defective, 2nd anything) + (1st non-defective, 2nd defective) <br /> But since the bulbs are drawn together, we consider both cases as part of \"at least one is defective\", i.e., B. <br /><br /> Now, we want $P(A|B)$, i.e., if at least one bulb is defective, probability both are defective: <br /><br /> $ P(A|B) = \\frac{P(A)}{P(B)} = \\frac{2/15}{2/3} = \\frac{2}{15} \\times \\frac{3}{2} = \\frac{1}{5} $ <br /><br /> **Summary:** <br /><br /> (a) $P(A) = \\frac{2}{15}, \\; P(B) = \\frac{2}{3}, \\; P(C) = \\frac{1}{3}$ <br /><br /> (b) Yes, A and C are mutually exclusive. <br /><br /> (c) $P(A|B) = \\frac{1}{5}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(A)=\\frac{2}{15}, P(B)=\\frac{1}{3}, P(C)=\\frac{2}{3}$<br />(b) No<br />(c) $\\frac{1}{5}$",
+    "B": "(a) $P(A)=\\frac{4}{10}, P(B)=\\frac{2}{3}, P(C)=\\frac{1}{3}$<br />(b) Yes<br />(c) $\\frac{1}{3}$",
+    "C": "(a) $P(A)=\\frac{2}{15}, P(B)=\\frac{2}{3}, P(C)=\\frac{1}{3}$<br />(b) Yes, $A$ and $C$ are mutually exclusive<br />(c) $\\frac{1}{5}$",
+    "D": "(a) $P(A)=\\frac{1}{5}, P(B)=\\frac{2}{15}, P(C)=\\frac{1}{3}$<br />(b) No<br />(c) $\\frac{2}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:53:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a212508864be73cfcf6d0a0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "MCQ",
+  "question": "The integrating factor of differential equation $R\\frac{dx}{dy} + Px = Q$, where P, Q, R are functions of y is",
+  "answeroption": "C",
+  "explanation": "**Step 1: Identify the Standard Linear Form**  \nThe given equation is $R\\frac{dx}{dy} + Px = Q$. This is a first-order linear differential equation in $x$ as a function of $y$. The standard form is:  \n$$\\frac{dx}{dy} + P_1 x = Q_1$$  \nwhere $P_1$ and $Q_1$ are functions of $y$ only.\n\n**Step 2: Convert to Standard Form**  \nDivide the entire equation by $R$ (assuming $R \\neq 0$):  \n$$\\frac{dx}{dy} + \\frac{P}{R}x = \\frac{Q}{R}$$  \nHere, $P_1 = \\frac{P}{R}$ and $Q_1 = \\frac{Q}{R}$.\n\n**Step 3: Find the Integrating Factor**  \nThe integrating factor (IF) for a first-order linear differential equation of the form $\\frac{dx}{dy} + P_1 x = Q_1$ is:  \n$$\\text{IF} = e^{\\int P_1 \\, dy} = e^{\\int \\frac{P}{R} \\, dy}$$  \nThus, the integrating factor is $e^{\\int \\frac{P}{R} dy}$, which corresponds to option **C**.",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^{\\int \\frac{P}{Q} dy}$",
+    "B": "$e^{\\int P dy}$",
+    "C": "$e^{\\int \\frac{P}{R} dy}$",
+    "D": "$e^{\\int \\frac{P}{R} dx}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

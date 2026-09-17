@@ -1,0 +1,26 @@
+{
+  "id": "6a30f204ed9d5eb2aa7229f5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation: $\\frac{dx}{dy} = \\frac{e^{x/y}(\\frac{x}{y}-1)}{1+e^{x/y}}.$",
+  "answeroption": "",
+  "explanation": "**Step 1: Recognize and Apply Homogeneous Substitution**  \nThe equation is:  \n$$\\frac{dx}{dy} = \\frac{e^{x/y}\\left(\\frac{x}{y} - 1\\right)}{1 + e^{x/y}}$$  \nThis is a homogeneous differential equation because the right-hand side is a function of $\\frac{x}{y}$. Let $x = vy$, where $v = \\frac{x}{y}$. Then:  \n$$\\frac{dx}{dy} = v + y\\frac{dv}{dy}$$  \nSubstitute $\\frac{x}{y} = v$ into the equation:  \n$$v + y\\frac{dv}{dy} = \\frac{e^v(v-1)}{1+e^v}$$\n\n**Step 2: Separate Variables**  \nRearrange to isolate $\\frac{dv}{dy}$:  \n$$y\\frac{dv}{dy} = \\frac{e^v(v-1)}{1+e^v} - v$$  \n$$y\\frac{dv}{dy} = \\frac{e^v(v-1) - v(1+e^v)}{1+e^v} = \\frac{ve^v - e^v - v - ve^v}{1+e^v} = \\frac{-(e^v + v)}{1+e^v}$$  \nThus:  \n$$\\frac{dv}{dy} = -\\frac{e^v + v}{y(1+e^v)}$$  \nSeparate variables:  \n$$\\frac{1+e^v}{e^v+v} \\, dv = -\\frac{dy}{y}$$\n\n**Step 3: Integrate Both Sides**  \nIntegrate the left side:  \n$$\\int \\frac{1+e^v}{e^v+v} \\, dv$$  \nLet $u = e^v + v$, then $du = (e^v + 1) \\, dv = (1+e^v) \\, dv$. So the integral becomes:  \n$$\\int \\frac{du}{u} = \\ln|u| = \\ln|e^v + v| + C_1$$  \nIntegrate the right side:  \n$$\\int -\\frac{dy}{y} = -\\ln|y| + C_2$$  \nCombining constants, we get:  \n$$\\ln|e^v + v| = -\\ln|y| + \\ln C$$  \n(where $\\ln C = C_2 - C_1$).\n\n**Step 4: Simplify the Solution**  \nUsing logarithm properties:  \n$$\\ln|e^v + v| + \\ln|y| = \\ln C$$  \n$$\\ln|y(e^v + v)| = \\ln C$$  \nExponentiating both sides:  \n$$y(e^v + v) = C$$  \nSubstitute back $v = \\frac{x}{y}$:  \n$$y\\left(e^{x/y} + \\frac{x}{y}\\right) = C$$  \n$$y e^{x/y} + x = C$$\n\n**Step 5: Write the General Solution**  \nThus, the general solution of the given differential equation is:  \n$$\\boxed{x + y e^{x/y} = C}$$  \nwhere $C$ is an arbitrary constant. This implicit form represents the family of solutions valid for $y \\neq 0$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

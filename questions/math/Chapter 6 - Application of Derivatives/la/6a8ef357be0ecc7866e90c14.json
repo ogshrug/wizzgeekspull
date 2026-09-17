@@ -1,0 +1,38 @@
+{
+  "id": "6a8ef357be0ecc7866e90c14",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978",
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a",
+    "6a13e98f8c819562f933f97b",
+    "6a13e98f8c819562f933f97c",
+    "6a13e98f8c819562f933f97d",
+    "6a13e98f8c819562f933f97e",
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f985"
+  ],
+  "question_type": "LA",
+  "question": "For the function $f(x)=xe^{-x}$, determine its critical point and intervals of increase and decrease, classify the critical point using both the first and second derivative tests, and hence obtain the equations of the tangent and normal at that point with a geometrical interpretation.",
+  "answeroption": "C",
+  "explanation": "<b>Critical Point and Monotonicity</b><br>Using the product rule,<br>$$f'(x)=e^{-x}-xe^{-x}=e^{-x}(1-x)$$<br>Since $e^{-x}>0$ for every real $x$, $f'(x)=0$ gives<br>$$1-x=0$$<br>$$x=1$$<br>For $x<1$, $1-x>0$, so $f'(x)>0$. Therefore, $f$ is increasing on $(-\\infty,1)$. For $x>1$, $1-x<0$, so $f'(x)<0$. Therefore, $f$ is decreasing on $(1,\\infty)$. By the first derivative test, $x=1$ is a point of local maximum.<br><br><b>Second Derivative Test</b><br>$$f''(x)=\\frac{d}{dx}\\left(e^{-x}(1-x)\\right)=e^{-x}(x-2)$$<br>At $x=1$,<br>$$f''(1)=-\\frac{1}{e}<0$$<br>The second derivative test also confirms a local maximum at $x=1$. The maximum value is<br>$$f(1)=\\frac{1}{e}$$<br><br><b>Tangent and Normal</b><br>At the critical point $\\left(1,\\frac{1}{e}\\right)$, the derivative is zero. Hence, the tangent is horizontal and its equation is<br>$$y=\\frac{1}{e}$$<br>The normal is vertical and its equation is<br>$$x=1$$<br>Geometrically, the horizontal tangent indicates the change from increasing to decreasing behaviour.",
+  "explanation_image": [],
+  "options": {
+    "A": "Critical point $x=-1$; increasing on $(-\\infty,-1)$ and decreasing on $(-1,\\infty)$; local maximum $-e$; tangent $y=-e$; normal $x=-1$",
+    "B": "Critical point $x=1$; decreasing on $(-\\infty,1)$ and increasing on $(1,\\infty)$; local minimum $\\frac{1}{e}$; tangent $x=1$; normal $y=\\frac{1}{e}$",
+    "C": "Critical point $x=1$; increasing on $(-\\infty,1)$ and decreasing on $(1,\\infty)$; local maximum $\\frac{1}{e}$; tangent $y=\\frac{1}{e}$; normal $x=1$",
+    "D": "No critical point because $e^{-x}>0$; the function is increasing on $\\mathbb{R}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

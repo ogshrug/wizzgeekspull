@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed13e4b490c7cde35948b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "VSA",
+  "question": "Squares of equal side $x$ cm are cut from the corners of a square sheet of side $20$ cm, and the sides are folded to form an open box. Find $x$ for which the volume is maximum.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> After cutting and folding, the height of the box is $x$ cm and each side of its square base is $(20-2x)$ cm.<br><b>Step 2:</b> Therefore, $$V(x)=x(20-2x)^2$$ where $0<x<10$.<br><b>Step 3:</b> Differentiate: $$V'(x)=(20-2x)(20-6x)$$<br><b>Step 4:</b> Setting $V'(x)=0$ gives $x=10$ or $x=\\frac{10}{3}$. Since $x=10$ produces a degenerate box and is outside the open domain, it is rejected.<br><b>Step 5:</b> The derivative changes from positive to negative at $x=\\frac{10}{3}$. Hence, the volume is maximum when $x=\\frac{10}{3}$ cm.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=5$ cm",
+    "B": "$x=\\frac{20}{3}$ cm",
+    "C": "$x=\\frac{10}{3}$ cm",
+    "D": "$x=10$ cm"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

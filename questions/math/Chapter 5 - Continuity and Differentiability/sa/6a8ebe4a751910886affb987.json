@@ -1,0 +1,30 @@
+{
+  "id": "6a8ebe4a751910886affb987",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "SA",
+  "question": "For $f(x)=(2x+1)^3$:<br>(i) obtain $f'(x)$ by first expanding the function;<br>(ii) obtain $f'(x)$ using the chain rule;<br>(iii) verify that both methods give the same result.",
+  "answeroption": "C",
+  "explanation": "<b>Derivative after expansion</b><br>$$f(x)=(2x+1)^3=8x^3+12x^2+6x+1$$<br>Therefore, $$f'(x)=24x^2+24x+6$$<br><b>Derivative using the chain rule</b><br>Let $u=2x+1$. Then $f=u^3$. Thus, $$\\frac{df}{du}=3u^2,\\qquad \\frac{du}{dx}=2$$<br>Hence, $$f'(x)=3(2x+1)^2\\cdot 2=6(2x+1)^2$$<br><b>Verification</b><br>Expanding the second result, $$6(2x+1)^2=6(4x^2+4x+1)=24x^2+24x+6$$<br>Thus, both methods give the same derivative.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $24x^2+12x+6$; (ii) $6(2x+1)^2$; (iii) the results are different.",
+    "B": "(i) $24x^2+24x+6$; (ii) $3(2x+1)^2$; (iii) the results are different.",
+    "C": "(i) $24x^2+24x+6$; (ii) $6(2x+1)^2$; (iii) both expressions are equal.",
+    "D": "(i) $12x^2+12x+3$; (ii) $6(2x+1)^2$; (iii) both expressions are equal."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

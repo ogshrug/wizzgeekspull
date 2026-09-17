@@ -1,0 +1,32 @@
+{
+  "id": "69a98789d8e9ca3b293457ac",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A = \\{1, 2, 3\\}$. For relations $R_1$ and $R_2$ on $A$, suppose $R_1 = \\{(a, b)\\ :\\ a \\leq b\\}$ and $R_2 = \\{(a, b)\\ :\\ a \\geq b\\}$. Which of the following is TRUE about the relation $R_1 \\cap R_2$ on $A$?",
+  "answeroption": "A",
+  "explanation": "$R_1$ consists of all $(a, b)$ where $a \\leq b$. $R_2$ consists of all $(a, b)$ where $a \\geq b$. Their intersection is precisely when $a = b$.<br /><br />So, $R_1 \\cap R_2 = \\{(1, 1), (2, 2), (3, 3)\\}$.<br /><br />This is reflexive because every element is related to itself. It is symmetric and transitive (since only diagonal pairs exist).<br /><br />Hence, Option A is correct: $R_1 \\cap R_2$ is an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R_1 \\cap R_2$ is an equivalence relation",
+    "B": "$R_1 \\cap R_2$ is only reflexive",
+    "C": "$R_1 \\cap R_2$ is only symmetric",
+    "D": "$R_1 \\cap R_2$ is both symmetric and transitive, but not reflexive"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:39:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a22b861864be73cfcf6d2c4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987",
+    "6a13e9908c819562f933f985"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Engine displacement is the measure of the cylinder volume swept by all the pistons of a piston engine. The piston moves inside the cylinder bore. The cylinder bore in the form of circular cylinder open at the top is to be made from a metal sheet of area $75\\pi \\text{ cm}^2$. Based on the above information, answer the following questions.<br /><br />**(i)** If the radius of cylinder is $r \\text{ cm}$ and height is $h \\text{ cm}$, then write the volume $V$ of cylinder in terms of radius $r$.<br />**(ii)** Find $\\frac{dV}{dr}$.<br />**(iii) (a)** Find the radius of cylinder when its volume is maximum.<br />OR<br />**(iii) (b)** For maximum volume, $h > r$. State true or false and justify.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The total surface area of a cylinder open at the top is $S = \\pi r^2 + 2\\pi rh = 75\\pi$. Isolate $h$: $2\\pi rh = 75\\pi - \\pi r^2$, so $h = \\frac{75 - r^2}{2r}$.<br />**Step 2:** The volume formula is $V = \\pi r^2 h$. Substitute the derived $h$: $V(r) = \\pi r^2 \\left(\\frac{75 - r^2}{2r}\\right) = \\frac{\\pi}{2}(75r - r^3)$.<br /><br />**(ii)** **Step 1:** Differentiate the derived volume function $V(r)$ with respect to the radius $r$.<br />**Step 2:** Applying basic power rules yields $\\frac{dV}{dr} = \\frac{\\pi}{2}(75 - 3r^2)$.<br /><br />**(iii) (a)** **Step 1:** For identifying maximum volume, find the critical points by setting the first derivative to zero: $\\frac{\\pi}{2}(75 - 3r^2) = 0$.<br />**Step 2:** Solve for $r$: $3r^2 = 75 \\implies r^2 = 25 \\implies r = 5 \\text{ cm}$.<br />**Step 3:** Verify using the second derivative test: $\\frac{d^2V}{dr^2} = \\frac{\\pi}{2}(-6r) = -3\\pi r$. Since $-3\\pi(5) < 0$, it is indeed a local maximum point.<br /><br />**(iii) (b)** **Step 1:** To evaluate the truth of the statement, calculate the height $h$ using the optimal radius $r = 5$. Substitute into the height formula: $h = \\frac{75 - (5)^2}{2(5)}$.<br />**Step 2:** This yields $h = \\frac{75 - 25}{10} = \\frac{50}{10} = 5 \\text{ cm}$. Since $h = 5$ and $r = 5$, the explicit condition $h > r$ is mathematically false. They are strictly equal.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22b861864be73cfcf6d2c4/1782273376-0.png?t=1782293177504"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

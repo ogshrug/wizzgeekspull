@@ -1,0 +1,29 @@
+{
+  "id": "69a9aa1962be6a70cd184e03",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A reservoir cross-section is given by $y=4-x^2$ above the x-axis.<br /><br />(a) Find the area covered by water.<br /><br />(b) If 5 sq km must remain greenbelt and the submerged region is from $-a$ to $a$, determine the equation used to find $a$.<br /><br />(c) Discuss how the area changes if the curve becomes $y=5-kx^2$.",
+  "answeroption": "D",
+  "explanation": "(a) The curve is above the x-axis for $x^2\\le4$ so limits are $-2$ to $2$.<br /><br />Area $=\\int_{-2}^{2}(4-x^2)dx$.<br /><br />$=[4x-\\frac{x^3}{3}]_{-2}^{2}=\\frac{32}{3}$ sq km.<br /><br />(b) Area submerged between $-a$ and $a$ is $\\int_{-a}^{a}(4-x^2)dx=8a-\\frac{2a^3}{3}$.<br /><br />Set this equal to total area minus preserved area: $8a-\\frac{2a^3}{3}=\\frac{32}{3}-5$.<br /><br />(c) For $y=5-kx^2$, the limits are $\\pm\\sqrt{5/k}$. Area $=\\int_{-\\sqrt{5/k}}^{\\sqrt{5/k}}(5-kx^2)dx$. Calculus helps planners adjust $k$ and height parameters to optimize reservoir capacity while meeting constraints.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Area $=\\frac{16}{3}$ sq km<br />(b) $8a-\\frac{2a^3}{3}=5$<br />(c) For $y=5-kx^2$, limits are $\\pm\\sqrt{k/5}$",
+    "B": "(a) Area $=\\frac{32}{3}$ sq km<br />(b) $8a+\\frac{2a^3}{3}=\\frac{32}{3}-5$<br />(c) For $y=5-kx^2$, area is independent of $k$",
+    "C": "(a) Area $=8$ sq km<br />(b) $4a-a^2=\\frac{32}{3}-5$<br />(c) For $y=5-kx^2$, limits are $\\pm5k$",
+    "D": "(a) Area $=\\int_{-2}^{2}(4-x^2)dx=\\frac{32}{3}$ sq km<br />(b) $8a-\\frac{2a^3}{3}=\\frac{32}{3}-5$<br />(c) For $y=5-kx^2$, limits are $\\pm\\sqrt{5/k}$ and area is $\\int_{-\\sqrt{5/k}}^{\\sqrt{5/k}}(5-kx^2)dx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:06:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

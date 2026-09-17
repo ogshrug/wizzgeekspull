@@ -1,0 +1,29 @@
+{
+  "id": "69a86fcb64fcf4cdd5b4bb06",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "SA",
+  "question": "If $y = \\log_x (x^2 + 1)$, compute $\\frac{dy}{dx}$ using the base change rule and simplify your answer.",
+  "answeroption": "A",
+  "explanation": "First, $\\log_x (x^2 + 1) = \\frac{\\ln(x^2 + 1)}{\\ln x}$<br /><br />Let $u = \\ln(x^2 + 1)$, $v = \\ln x$<br /><br />So $\\frac{dy}{dx} = \\frac{v \\cdot u' - u \\cdot v'}{v^2}$<br /><br />$u' = \\frac{2x}{x^2 + 1}$, $v' = \\frac{1}{x}$<br /><br />Thus,<br /><br />$\\frac{dy}{dx} = \\frac{ \\ln x \\cdot \\frac{2x}{x^2 + 1} - \\ln(x^2 + 1) \\cdot \\frac{1}{x} }{ (\\ln x)^2 }$<br /><br />Final simplified:<br /><br />$= \\frac{ 2x \\ln x }{ (x^2 + 1)(\\ln x)^2 } - \\frac{ \\ln(x^2 + 1) }{ x (\\ln x)^2 }$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{\\ln x\\cdot\\frac{2x}{x^2+1}-\\ln(x^2+1)\\cdot\\frac{1}{x}}{(\\ln x)^2}$",
+    "B": "$\\dfrac{2x}{x^2+1}\\cdot\\ln x$",
+    "C": "$\\dfrac{\\ln(x^2+1)}{x}$",
+    "D": "$\\dfrac{2x\\ln(x^2+1)}{(\\ln x)^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:45:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

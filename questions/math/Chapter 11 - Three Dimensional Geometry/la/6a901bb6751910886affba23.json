@@ -1,0 +1,29 @@
+{
+  "id": "6a901bb6751910886affba23",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4"
+  ],
+  "question_type": "LA",
+  "question": "The lines $\\vec{r}=(\\hat{i}+2\\hat{j}-\\hat{k})+\\lambda(2\\hat{i}-\\hat{j}+\\hat{k})$ and $\\vec{r}=(3\\hat{i}+\\hat{j}+2\\hat{k})+\\mu(\\hat{i}+p\\hat{j}+2\\hat{k})$ are coplanar. Determine the value of $p$ and hence find their point of intersection.",
+  "answeroption": "A",
+  "explanation": "<b>Required Condition</b><br>Let $\\vec{a_1}=\\hat{i}+2\\hat{j}-\\hat{k}$, $\\vec{b_1}=2\\hat{i}-\\hat{j}+\\hat{k}$, $\\vec{a_2}=3\\hat{i}+\\hat{j}+2\\hat{k}$ and $\\vec{b_2}=\\hat{i}+p\\hat{j}+2\\hat{k}$. Two lines $\\vec{r}=\\vec{a_1}+\\lambda\\vec{b_1}$ and $\\vec{r}=\\vec{a_2}+\\mu\\vec{b_2}$ are coplanar when<br>$$\\left(\\vec{a_2}-\\vec{a_1}\\right)\\cdot\\left(\\vec{b_1}\\times\\vec{b_2}\\right)=0$$<br>Here,<br>$$\\vec{a_2}-\\vec{a_1}=2\\hat{i}-\\hat{j}+3\\hat{k}$$<br>Also,<br>$$\\vec{b_1}\\times\\vec{b_2}=\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\2&-1&1\\\\1&p&2\\end{vmatrix}=(-2-p)\\hat{i}-3\\hat{j}+(2p+1)\\hat{k}$$<br>Therefore, the coplanarity condition gives<br>$$2(-2-p)+(-1)(-3)+3(2p+1)=0$$<br>$$-4-2p+3+6p+3=0$$<br>$$4p+2=0$$<br>Hence,<br>$$p=-\\frac{1}{2}$$<br><br><b>Evaluation of the Point of Intersection</b><br>For $p=-\\frac{1}{2}$, the lines become<br>$$\\vec{r}=(\\hat{i}+2\\hat{j}-\\hat{k})+\\lambda(2\\hat{i}-\\hat{j}+\\hat{k})$$<br>and<br>$$\\vec{r}=(3\\hat{i}+\\hat{j}+2\\hat{k})+\\mu\\left(\\hat{i}-\\frac{1}{2}\\hat{j}+2\\hat{k}\\right)$$<br>Equating corresponding coordinates gives<br>$$1+2\\lambda=3+\\mu,\\quad 2-\\lambda=1-\\frac{\\mu}{2},\\quad -1+\\lambda=2+2\\mu$$<br>The first equation gives $\\mu=2\\lambda-2$. Substituting this in the third equation,<br>$$-1+\\lambda=2+2(2\\lambda-2)$$<br>$$-1+\\lambda=4\\lambda-2$$<br>so $\\lambda=\\frac{1}{3}$ and consequently $\\mu=-\\frac{4}{3}$. These values also satisfy the second equation.<br><br>Substituting $\\lambda=\\frac{1}{3}$ in the first line gives the common point<br>$$\\left(1+\\frac{2}{3},\\;2-\\frac{1}{3},\\;-1+\\frac{1}{3}\\right)=\\left(\\frac{5}{3},\\frac{5}{3},-\\frac{2}{3}\\right)$$<br><br><b>Final Result</b><br>The required value is $p=-\\frac{1}{2}$, and the coplanar lines intersect at $\\left(\\frac{5}{3},\\frac{5}{3},-\\frac{2}{3}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$p=-\\frac{1}{2}$; the lines intersect at $\\left(\\frac{5}{3},\\frac{5}{3},-\\frac{2}{3}\\right)$.",
+    "B": "$p=\\frac{1}{2}$; the lines intersect at $\\left(\\frac{5}{3},\\frac{5}{3},-\\frac{2}{3}\\right)$.",
+    "C": "$p=-2$; the lines intersect at $(2,1,0)$.",
+    "D": "$p=-\\frac{1}{2}$; the lines are parallel and have no point of intersection."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

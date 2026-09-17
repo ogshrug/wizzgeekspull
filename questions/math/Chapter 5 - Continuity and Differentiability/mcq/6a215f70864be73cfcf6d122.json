@@ -1,0 +1,33 @@
+{
+  "id": "6a215f70864be73cfcf6d122",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f(x) = \\begin{cases} \\frac{x^2-4x-5}{x+1}, & x \\neq -1 \\\\ k, & x = -1 \\end{cases}$ is continuous at $x=-1$, then the value of k is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Since $f(x)$ is continuous at $x = -1$, $\\lim_{x \\to -1} f(x) = f(-1)$.<br />**Step 2:** Calculate the limit: $\\lim_{x \\to -1} \\frac{x^2-4x-5}{x+1}$. Factorizing the numerator gives $(x-5)(x+1)$.<br />**Step 3:** Limit simplifies to $\\lim_{x \\to -1} (x-5) = -1 - 5 = -6$.<br />**Step 4:** Therefore, $k = f(-1) = -6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Any real value",
+    "B": "6",
+    "C": "-1",
+    "D": "-6"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

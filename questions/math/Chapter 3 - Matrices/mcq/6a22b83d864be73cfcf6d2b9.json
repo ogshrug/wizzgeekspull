@@ -1,0 +1,34 @@
+{
+  "id": "6a22b83d864be73cfcf6d2b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d57"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\begin{bmatrix} 2 & 0 \\\\ 5 & 4 \\end{bmatrix} = P + Q$, where $P$ is a symmetric and $Q$ is a skew symmetric matrix, then $Q$ is equal to",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Every square matrix $A$ can be uniquely expressed as the sum of a symmetric matrix $P$ and a skew-symmetric matrix $Q$, where $Q = \\frac{1}{2}(A - A^T)$.<br />**Step 2:** Let $A = \\begin{bmatrix} 2 & 0 \\\\ 5 & 4 \\end{bmatrix}$. Find its transpose $A^T = \\begin{bmatrix} 2 & 5 \\\\ 0 & 4 \\end{bmatrix}$.<br />**Step 3:** Calculate $A - A^T = \\begin{bmatrix} 2 - 2 & 0 - 5 \\\\ 5 - 0 & 4 - 4 \\end{bmatrix} = \\begin{bmatrix} 0 & -5 \\\\ 5 & 0 \\end{bmatrix}$.<br />**Step 4:** Multiply by $\\frac{1}{2}$ to find $Q = \\begin{bmatrix} 0 & -5/2 \\\\ 5/2 & 0 \\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix} 2 & 5/2 \\\\ 5/2 & 4 \\end{bmatrix}$",
+    "B": "$\\begin{bmatrix} 0 & -5/2 \\\\ 5/2 & 0 \\end{bmatrix}$",
+    "C": "$\\begin{bmatrix} 0 & 5/2 \\\\ -5/2 & 0 \\end{bmatrix}$",
+    "D": "$\\begin{bmatrix} 2 & -5/2 \\\\ 5/2 & 4 \\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

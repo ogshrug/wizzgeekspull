@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed6d44b490c7cde35948d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f"
+  ],
+  "question_type": "SA",
+  "question": "Use linear approximation at $x=1$ to estimate $(0.98)^4$. Also state whether the change from $1^4$ is positive or negative.",
+  "answeroption": "D",
+  "explanation": "<b>Function and nearby point</b><br>Let $f(x)=x^4$ and take $a=1$. Then $f(1)=1$.<br><b>Derivative</b><br>$$f'(x)=4x^3$$<br>Hence,<br>$$f'(1)=4$$<br><b>Change in the independent variable</b><br>$$x-a=0.98-1=-0.02$$<br><b>Linear approximation</b><br>$$f(0.98)\\approx f(1)+f'(1)(-0.02)$$<br>$$f(0.98)\\approx1+4(-0.02)=0.92$$<br><b>Interpretation</b><br>The change is $-0.08$, which is negative because the value of $x$ has decreased from $1$.<br><b>Conclusion</b><br>Therefore, $(0.98)^4\\approx0.92$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(0.98)^4\\approx1.08$; the change is positive",
+    "B": "$(0.98)^4\\approx0.98$; the change is negative",
+    "C": "$(0.98)^4\\approx0.96$; the change is negative",
+    "D": "$(0.98)^4\\approx0.92$; the change is negative"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

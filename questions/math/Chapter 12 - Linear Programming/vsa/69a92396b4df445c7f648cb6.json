@@ -1,0 +1,29 @@
+{
+  "id": "69a92396b4df445c7f648cb6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "VSA",
+  "question": "The constraints $x+2y\\leq10$, $2x+y\\leq10$, $x, y\\geq0$, with $Z=x+y$. At which point is $Z$ maximum and what is its value?",
+  "answeroption": "C",
+  "explanation": "Intersection:<br />x+2y=10<br />2x+y=10<br />Multiply first by 2: 2x+4y=20<br />Subtract: (2x+4y)-(2x+y)=20-10\\implies3y=10\\implies y=10/3<br />x+2(10/3)=10\\implies x=10-20/3=10/3<br /><br />So, $(10/3,10/3)$<br />$Z=10/3+10/3=20/3\\approx6.67$<br /><br />Check at $(0,0),(0,5),(5,0)$<br />At $(0,5):0+2*5=10,2*0+5=5\\leq10$ ok. $Z=5$<br />At $(5,0):5+2*0=5,2*5+0=10$ ok. $Z=5$<br /><br />Thus, $Z$ is maximum at $(10/3,10/3)$, $Z=20/3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximum at $(0,5)$, $Z=5$",
+    "B": "Maximum at $(5,0)$, $Z=5$",
+    "C": "Maximum at $\\left(\\frac{10}{3},\\frac{10}{3}\\right)$, $Z=\\frac{20}{3}$",
+    "D": "Maximum at $(0,0)$, $Z=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:32:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

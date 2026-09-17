@@ -1,0 +1,29 @@
+{
+  "id": "6a9027974b490c7cde359563",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "VSA",
+  "question": "Machines $M_1$ and $M_2$ produce $60\\%$ and $40\\%$ of the total items of a factory. Their defective rates are $2\\%$ and $5\\%$ respectively. An item selected at random is found defective. Find the probability that it was produced by $M_2$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> Let $D$ denote the event that an item is defective. The given probabilities are $P(M_1)=0.6$, $P(M_2)=0.4$, $P(D\\mid M_1)=0.02$ and $P(D\\mid M_2)=0.05$.<br><b>Step 2:</b> We require the reverse conditional probability $P(M_2\\mid D)$, so Bayes’ theorem is applicable.<br><b>Step 3:</b> $P(M_2\\mid D)=\\frac{P(M_2)P(D\\mid M_2)}{P(M_1)P(D\\mid M_1)+P(M_2)P(D\\mid M_2)}$.<br><b>Step 4:</b> Substitution gives $P(M_2\\mid D)=\\frac{0.4\\times0.05}{0.6\\times0.02+0.4\\times0.05}=\\frac{0.02}{0.032}$.<br><b>Step 5:</b> Therefore, $P(M_2\\mid D)=\\frac{5}{8}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{8}$",
+    "B": "$\\frac{5}{8}$",
+    "C": "$\\frac{2}{5}$",
+    "D": "$\\frac{5}{12}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

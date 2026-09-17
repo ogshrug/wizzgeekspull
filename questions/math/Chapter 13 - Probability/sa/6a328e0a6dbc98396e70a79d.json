@@ -1,0 +1,26 @@
+{
+  "id": "6a328e0a6dbc98396e70a79d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "The probability distribution of a random variable X is given as :<br><br> \n$$\\begin{array}{|c|c|c|c|c|c|c|} \\hline X & 1 & 2 & 3 & 2\\lambda & 3\\lambda & 4\\lambda \\\\ \\hline P(X) & \\frac{11}{30} & \\frac{1}{15} & \\frac{1}{10} & \\frac{3}{10} & \\frac{1}{15} & \\frac{1}{10} \\\\ \\hline \\end{array}$$\n <br><br>(i) Calculate λ, if $E(X)=3.2$. (ii) Find $P(X>1)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The mathematical formula for the expectation value is defined as $E(X) = \\sum x_i P(x_i)$. Substituting our table values gives $E(X) = 1(\\frac{11}{30}) + 2(\\frac{2}{30}) + 3(\\frac{3}{30}) + 2\\lambda(\\frac{9}{30}) + 3\\lambda(\\frac{2}{30}) + 4\\lambda(\\frac{3}{30})$. This simplifies to $E(X) = \\frac{24 + 36\\lambda}{30}$.<br />**Step 2:** We are given that $E(X) = 3.2 = \\frac{96}{30}$. Equating the two expressions yields $24 + 36\\lambda = 96 \\implies 36\\lambda = 72 \\implies \\lambda = 2$. This completes part (i) of the problem.<br />**Step 3:** For part (ii), we calculate $P(X > 1)$ using the complement property: $P(X > 1) = 1 - P(X = 1)$. Substituting the table value gives $1 - \\frac{11}{30} = \\frac{19}{30}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

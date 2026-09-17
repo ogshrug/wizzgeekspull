@@ -1,0 +1,30 @@
+{
+  "id": "69a9c160d30adc5083911b51",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Consider the function $f(x) = \\sin^{-1}(1 - 2x^2)$ defined on $\\left[-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right]$.<br /><br />(a) Prove the function is differentiable on its domain.<br /><br />(b) Find $f'(x)$ and simplify.<br /><br />(c) Determine the maximum value of $f(x)$ on its domain.<br /><br />(d) Find all $x \\in \\left[-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right]$ such that $f'(x) = 0$ and explain the geometric significance.",
+  "answeroption": "D",
+  "explanation": "**Concepts Tested:**<br />- Differentiability and domain (Continuity & Differentiability)<br />- Derivative of inverse trigonometric functions (Inverse Trigonometric Functions)<br />- Maximum of function (Application of Derivatives)<br /><br /> (a) Differentiability:<br />$1 - 2x^2$ is continuous on $\\left[-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right]$<br /><br />The output range of $1 - 2x^2$ for $x$ in the domain is $[1-2\\left(\\frac{1}{\\sqrt{2}}\\right)^2, 1] = [1-1,1] = [0,1]$<br /><br />Since $\\sin^{-1}(y)$ is differentiable for $y \\in (-1,1)$ and at 0 and 1, $f$ is differentiable on open interval $\\left(-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$ and both endpoints.<br /><br /> (b) $f'(x)$:<br />$f(x) = \\sin^{-1}(1-2x^2)$<br /><br />Let $u(x) = 1-2x^2$<br /><br />Then:<br />$f'(x) = \\frac{1}{\\sqrt{1-u^2}} \\cdot (-4x)$<br /><br />$u^2 = (1 - 2x^2)^2 = 1 - 4x^2 + 4x^4$<br /><br />$1-u^2 = 1 - (1 - 4x^2 + 4x^4) = 4x^2 - 4x^4$<br /><br />$= 4x^2(1-x^2)$<br /><br />Therefore:<br />$f'(x) = \\frac{-4x}{\\sqrt{4x^2(1-x^2)}}$<br /><br />$= \\frac{-4x}{2|x|\\sqrt{1-x^2}} = \\frac{-2}{\\sqrt{1-x^2}} \\cdot \\mathrm{sgn}(x)$ for $x \\neq 0$<br /><br />At $x=0$, $f'(0)=0$<br /><br /> (c) Maximum value:<br />$f(x)$ is continuous on closed interval, check at endpoints and critical points.<br /><br />At $x=\\pm \\frac{1}{\\sqrt{2}}$, $u= 1 - 2\\frac{1}{2} = 0$, so $f(x) = \\sin^{-1}(0) = 0$<br /><br />At $x=0$, $u=1$, so $f(0) = \\sin^{-1}(1) = \\frac{\\pi}{2}$<br /><br />So maximum is $\\frac{\\pi}{2}$ at $x=0$<br /><br /> (d) $f'(x)=0$<br />From (b), $f'(x)=0$ at $x=0$ (since sgn$(0)=0$)<br /><br />Thus only at $x=0$<br /><br />**Geometric Significance:** At $x=0$, the function $f$ achieves its maximum, so this is where the tangent is horizontal (maximum point).",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is not defined on the given interval<br />(b) $f'(x)=\\frac{2x}{\\sqrt{1-x^2}}$<br />(c) Maximum value is $0$<br />(d) No point satisfies $f'(x)=0$",
+    "B": "(a) $f$ is differentiable only at $x=0$<br />(b) $f'(x)=\\frac{4x}{\\sqrt{1-x^2}}$<br />(c) Maximum value is $1$<br />(d) $x=\\pm\\frac{1}{\\sqrt2}$ are stationary points",
+    "C": "(a) $f$ is differentiable on the domain<br />(b) $f'(x)=\\frac{2}{\\sqrt{1-x^2}}\\operatorname{sgn}(x)$ for $x\\ne0$ and $f'(0)=0$<br />(c) Maximum value is $0$ at the endpoints<br />(d) $x=\\pm\\frac{1}{\\sqrt2}$; tangent is horizontal",
+    "D": "(a) $f$ is differentiable on its domain<br />(b) $f'(x)=-\\frac{2}{\\sqrt{1-x^2}}\\operatorname{sgn}(x)$ for $x\\ne0$ and $f'(0)=0$<br />(c) Maximum value is $\\frac{\\pi}{2}$ at $x=0$<br />(d) $f'(x)=0$ at $x=0$; geometrically it represents a horizontal tangent at the maximum point"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:46:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

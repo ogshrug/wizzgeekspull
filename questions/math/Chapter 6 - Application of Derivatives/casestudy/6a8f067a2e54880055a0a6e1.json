@@ -1,0 +1,30 @@
+{
+  "id": "6a8f067a2e54880055a0a6e1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97d",
+    "6a13e98f8c819562f933f97e"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A designer models the edge of a decorative structure by the curve $y=x^3-3x+2$. At the point corresponding to $x=2$, answer the following connected questions: (a) Find the coordinates of the point on the curve. (b) Find the derivative at this point and interpret it geometrically. (c) Determine the equation of the normal to the curve at this point. (d) Find the point at which this normal meets the $x$-axis.",
+  "answeroption": "B",
+  "explanation": "(a) The given curve is $y=x^3-3x+2$. At $x=2$, we get `y=2^3-3(2)+2=8-6+2=4` Therefore, the required point is $(2,4)$.(b) The derivative of the function is `\\frac{dy}{dx}=3x^2-3` At $x=2$, `\\left.\\frac{dy}{dx}\\right|_{x=2}=3(2)^2-3=12-3=9` Geometrically, the derivative represents the slope of the tangent to the curve. Hence, the slope of the tangent at $(2,4)$ is $9$.(c) Since the tangent slope is $9$, the slope of the normal is `m_n=-\\frac{1}{9}` Using the point-slope form through $(2,4)$, the normal is `y-4=-\\frac{1}{9}(x-2)` Equivalently, `x+9y-38=0`(d) At the $x$-axis, $y=0$. Substituting this in $x+9y-38=0$, we obtain `x-38=0` Thus, $x=38$, and the normal meets the $x$-axis at $(38,0)$.Final ResultThe point on the curve is $(2,4)$, the derivative and tangent slope are $9$, the normal is $x+9y-38=0$, and its $x$-intercept is $(38,0)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Point $(2,6)$<br>(b) Derivative $9$, the normal slope<br>(c) Normal $9x+y-24=0$<br>(d) $x$-intercept $\\left(\\frac{8}{3},0\\right)$",
+    "B": "(a) Point $(2,4)$<br>(b) Derivative $9$, the tangent slope<br>(c) Normal $y-4=-\\frac{1}{9}(x-2)$, or $x+9y-38=0$<br>(d) $x$-intercept $(38,0)$",
+    "C": "(a) Point $(2,4)$<br>(b) Derivative $9$, the tangent slope<br>(c) Normal $y-4=9(x-2)$<br>(d) $x$-intercept $\\left(\\frac{14}{9},0\\right)$",
+    "D": "(a) Point $(2,0)$<br>(b) Derivative $3$, the tangent slope<br>(c) Normal $y=-\\frac{1}{3}(x-2)$<br>(d) $x$-intercept $(2,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a215f7e864be73cfcf6d129",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "SA",
+  "question": "A spherical balloon loses its volume due to escape of air from it in such a way that decrease of volume at any instant is proportional to its surface area. Show that the radius is decreasing at a constant rate.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let V be volume, S be surface area, and r be radius. Given: $-\\frac{dV}{dt} \\propto S$. Thus, $\\frac{dV}{dt} = -kS$, where k is a positive constant.<br />**Step 2:** We know $V = \\frac{4}{3}\\pi r^3$ and $S = 4\\pi r^2$.<br />**Step 3:** Differentiate V with respect to t: $\\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt} = S \\frac{dr}{dt}$.<br />**Step 4:** Substitute this into the given condition: $S \\frac{dr}{dt} = -kS$.<br />**Step 5:** Cancel S from both sides: $\\frac{dr}{dt} = -k$. This proves the radius decreases at a constant rate.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

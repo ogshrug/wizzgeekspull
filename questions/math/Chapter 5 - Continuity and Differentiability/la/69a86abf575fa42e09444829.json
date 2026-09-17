@@ -1,0 +1,30 @@
+{
+  "id": "69a86abf575fa42e09444829",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "LA",
+  "question": "Suppose $y$ is defined implicitly as $x^2 + xy + y^2 = 3$. Find $\\frac{d^2y}{dx^2}$ at the point $(1,1)$.",
+  "answeroption": "B",
+  "explanation": "Differentiate:<br /><br />$2x+y+(x+2y)\\frac{dy}{dx}=0$.<br /><br />$\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}$.<br /><br />At $(1,1)$, $\\frac{dy}{dx}=-1$.<br /><br />Differentiating again and substituting $x=1$, $y=1$, $\\frac{dy}{dx}=-1$:<br /><br />$\\frac{d^2y}{dx^2}=-\\frac{2}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{3}$",
+    "B": "$-\\frac{2}{3}$",
+    "C": "$-1$",
+    "D": "$0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:24:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

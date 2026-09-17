@@ -1,0 +1,31 @@
+{
+  "id": "69a8453764fcf4cdd5b4baaf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998"
+  ],
+  "question_type": "LA",
+  "question": "Find the area enclosed between the curves $y=\\sin x$ and $y=\\cos x$ for $x\\in[0,\\frac{\\pi}{2}]$.",
+  "answeroption": "D",
+  "explanation": "Intersection at $x=\\frac{\\pi}{4}$. Split the integral:<br /><br />$A=\\int_{0}^{\\pi/4}(\\cos x-\\sin x)dx + \\int_{\\pi/4}^{\\pi/2}(\\sin x-\\cos x)dx = 2\\sqrt{2}-2$.<br /><br />Thus required area $=2\\sqrt{2}-2$.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69a8453764fcf4cdd5b4baaf/1778593288-0.jpeg?t=1778593288666"
+  ],
+  "options": {
+    "A": "$\\sqrt{2}-1$",
+    "B": "$2-\\sqrt{2}$",
+    "C": "$2\\sqrt{2}+2$",
+    "D": "$2\\sqrt{2}-2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 14:44:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:30:50 GMT"
+}

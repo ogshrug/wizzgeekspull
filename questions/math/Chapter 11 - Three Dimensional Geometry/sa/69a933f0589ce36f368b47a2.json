@@ -1,0 +1,29 @@
+{
+  "id": "69a933f0589ce36f368b47a2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "SA",
+  "question": "Find the equation of the plane that passes through the point $(2, 1, -1)$ and perpendicular to the line of intersection of the planes $x + 2y - z = 5$ and $3x - y + 4z = 7$.",
+  "answeroption": "A",
+  "explanation": "Normals to the given planes are $\\vec{n}_1=(1,2,-1)$ and $\\vec{n}_2=(3,-1,4)$.<br /><br />Direction of the line of intersection is given by $\\vec{n}_1 \\times \\vec{n}_2$.<br /><br />Compute cross product:<br /><br />$\\vec{n}_1 \\times \\vec{n}_2 = (7,-7,-7)$.<br /><br />This acts as the normal to the required plane.<br /><br />Using point-normal form with point $(2,1,-1)$:<br /><br />$7(x-2)-7(y-1)-7(z+1)=0$.<br /><br />Simplifying gives $7x-7y-7z=14$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$7x-7y-7z=14$",
+    "B": "$7x+7y-7z=14$",
+    "C": "$x+2y-z=5$",
+    "D": "$7x-7y+7z=14$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:42:40 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

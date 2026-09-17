@@ -1,0 +1,29 @@
+{
+  "id": "69a982266638848124d7c94d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\{1, 2, 3, 4, 5, 6\\}$ and define a relation $R$ on $A$ by $a R b$ if and only if $a - b$ is divisible by 3.<br /><br />(a) Show that $R$ is an equivalence relation.<br /><br />(b) Find the distinct equivalence classes of $R$.<br /><br />(c) Prove that these classes partition $A$.",
+  "answeroption": "B",
+  "explanation": "(a) Reflexivity: For all $a \\in A$, $a - a = 0$, which is divisible by 3, so $(a, a) \\in R$. Hence, $R$ is reflexive.<br /><br />Symmetry: If $(a, b) \\in R$, then $a - b$ is divisible by 3, i.e., $a - b = 3k$ for some $k$. But $b - a = -3k$ is also divisible by 3, so $(b, a) \\in R$. Hence, $R$ is symmetric.<br /><br />Transitivity: If $(a, b) \\in R$ and $(b, c) \\in R$, then $a - b = 3m$, $b - c = 3n$ for some integers $m, n$. Adding,<br /><br />$a - c = (a - b) + (b - c) = 3m + 3n = 3(m+n)$. Thus, $(a, c) \\in R$.<br /><br />Hence, $R$ is an equivalence relation.<br /><br />(b) Let’s compute equivalence classes. Find $[1]$:<br /><br />$[1] = \\{x \\in A : x - 1$ divisible by 3$\\} = \\{1, 4\\}$<br /><br />$[2] = \\{2, 5\\}$<br /><br />$[3] = \\{3, 6\\}$<br /><br />(c) $A = [1] \\cup [2] \\cup [3]$, and $[1]$, $[2]$, $[3]$ are disjoint since two numbers differ by a multiple of 3 iff they are in the same class. Therefore, the equivalence classes form a partition of $A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is not an equivalence relation because it is not transitive",
+    "B": "$R$ is an equivalence relation with classes $\\{1,4\\}$, $\\{2,5\\}$ and $\\{3,6\\}$",
+    "C": "$R$ is an equivalence relation with classes $\\{1,2\\}$, $\\{3,4\\}$ and $\\{5,6\\}$",
+    "D": "$R$ is not an equivalence relation because the classes do not partition $A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:16:22 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

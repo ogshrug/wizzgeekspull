@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed8164b490c7cde35949d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "VSA",
+  "question": "Using substitution, evaluate $\\int_0^1\\frac{x}{\\sqrt{1+x^2}}\\,dx$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> The expression $1+x^2$ occurs inside the square root, while its derivative is proportional to the numerator $x$.<br><b>Step 2:</b> Put $t=1+x^2$. Then $dt=2x\\,dx$, so $x\\,dx=\\frac{1}{2}dt$.<br><b>Step 3:</b> The limits change as follows: for $x=0$, $t=1$; for $x=1$, $t=2$.<br><b>Step 4:</b> Hence, $$\\int_0^1\\frac{x}{\\sqrt{1+x^2}}\\,dx=\\frac{1}{2}\\int_1^2t^{-1/2}\\,dt.$$<br><b>Step 5:</b> This equals $[\\sqrt{t}]_1^2=\\sqrt{2}-1$.<br><b>Step 6:</b> Therefore, the required value is $\\boxed{\\sqrt{2}-1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sqrt{2}+1$",
+    "B": "$2-\\sqrt{2}$",
+    "C": "$\\frac{\\sqrt{2}-1}{2}$",
+    "D": "$\\sqrt{2}-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

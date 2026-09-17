@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd351be0ecc7866e90c47",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "VSA",
+  "question": "For the differential equation $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^{3/2}=\\frac{d^2y}{dx^2}$, determine its order and degree after expressing it as a polynomial in derivatives.",
+  "answeroption": "C",
+  "explanation": "Step 1: The highest derivative occurring is $\\frac{d^2y}{dx^2}$, so the order is $2$.<br>Step 2: The equation contains a fractional power, so first remove it to obtain a polynomial relation in derivatives.<br>Step 3: Squaring both sides gives $\\left[1+\\left(\\frac{dy}{dx}\\right)^2\\right]^3=\\left(\\frac{d^2y}{dx^2}\\right)^2$.<br>Step 4: This transformed equation is polynomial in the derivatives.<br>Step 5: The highest order derivative is still $\\frac{d^2y}{dx^2}$, and its highest power is $2$. Therefore, the order is $2$ and the degree is $2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Order $3$, degree $2$",
+    "B": "Order $2$, degree $3$",
+    "C": "Order $2$, degree $2$",
+    "D": "Order $1$, degree $3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

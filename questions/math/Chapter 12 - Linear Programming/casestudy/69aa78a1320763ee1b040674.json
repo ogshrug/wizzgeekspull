@@ -1,0 +1,29 @@
+{
+  "id": "69aa78a1320763ee1b040674",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A dairy company produces two products: fortified milk (A) and yogurt (B). Each litre of product A requires 2 units of protein supplement and 1 unit of calcium additive. Each litre of product B requires 1 unit of protein supplement and 2 units of calcium additive. The dairy has 8 units of protein supplement and 8 units of calcium additive available daily. The profit per litre is ₹30 for A and ₹20 for B. Due to market demand, at least 2 litres of product A and at least 1 litre of product B must be produced daily.<br /><br />(a) Formulate the linear programming problem (LPP).<br /><br />(b) Graph the feasible region & identify the vertices.<br /><br />(c) Use corner-point method to find the daily production that maximizes profit.",
+  "answeroption": "A",
+  "explanation": "Let $x$ = litres of product A, $y$ = litres of product B.<br /><br />(a) LPP Formulation:<br /><br />Objective: Maximize $Z = 30x + 20y$<br /><br />Subject to:<br /><br />$2x + y \\leq 8$<br /><br />$x + 2y \\leq 8$<br /><br />$x \\geq 2$<br /><br />$y \\geq 1$<br /><br />$x \\geq 0, \\, y \\geq 0$<br /><br />(b) To graph the feasible region:<br /><br />- $2x + y = 8 \\implies y = 8 - 2x$<br /><br />- $x + 2y = 8 \\implies y = (8 - x)/2$<br /><br />- $x = 2$ (vertical line), $y = 1$ (horizontal line)<br /><br />Find where these lines intersect:<br /><br />1. $2x + y = 8$ and $x + 2y = 8$<br /><br />Let’s solve:<br /><br />$2x + y = 8$ ....(i)<br /><br />$x + 2y = 8$ ....(ii)<br /><br />Multiply (ii) by 2: $2x + 4y = 16$<br /><br />Subtract (i): $(2x + 4y) - (2x + y) = 16 - 8$<br /><br />$3y = 8 \\implies y = 8/3$<br /><br />Substitute into (ii):<br /><br />$x + 2 \\times \\frac{8}{3} = 8 \\implies x + \\frac{16}{3} = 8 \\implies x = 8 - \\frac{16}{3} = \\frac{8 \\times 3 - 16}{3} = \\frac{24 - 16}{3} = \\frac{8}{3}$<br /><br />Intersection: $(8/3, 8/3)$<br /><br />2. $2x + y = 8$, $x=2$:<br /><br />$2 \\cdot 2 + y = 8 \\implies 4 + y = 8 \\implies y = 4$<br /><br />So $(2,4)$<br /><br />3. $x + 2y = 8$, $y=1$:<br /><br />$x + 2 \\cdot 1 = 8 \\implies x = 8 - 2 = 6$<br /><br />$(6,1)$<br /><br />4. $x=2$, $y=1$:<br /><br />$(2,1)$<br /><br />Check which points are feasible.<br /><br />Plug into constraints:<br /><br />- $(2,4)$: $2\\cdot2+4=8$ (ok), $2+2\\cdot4=10$ (not ok: $10\\nleq8$). Not feasible.<br /><br />- $(6,1)$: $2\\cdot6+1=13$ ($13\\nleq8$? No). Not feasible.<br /><br />- $(2,1)$: $2\\cdot2+1=5\\leq8$, $2+2\\cdot1=4\\leq8$, both $\\geq$ minimum, ok.<br /><br />- $(8/3,8/3)$: $2\\cdot8/3+8/3=16/3+8/3=24/3=8\\leq8$, $8/3+2\\cdot8/3=8/3+16/3=24/3=8\\leq8$, minimums? $8/3=2.67>2$, ok for $x$ and for $y=2.67>1$ ok.<br /><br />So, feasible points: $(8/3,8/3)$ and $(2,1)$.<br /><br />(c) Evaluate profit:<br /><br />At $(8/3,8/3)$: $Z = 30\\cdot8/3+20\\cdot8/3= (30+20)\\cdot8/3 = 50\\cdot8/3=400/3 \\approx 133.33$<br /><br />At $(2,1)$: $Z=30\\cdot2+20\\cdot1=60+20=80$<br /><br />So, maximum profit at $(8/3,8/3)\\approx (2.67,2.67)\\rightarrow Z=133.33$.<br /><br />**Hence, the dairy should produce $\\boxed{8/3}$ litres of each product (approx $2.67$ L) daily for maximum profit of $\\boxed{₹133.33}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Maximize $Z=30x+20y$, subject to $2x+y\\leq8$, $x+2y\\leq8$, $x\\geq2$, $y\\geq1$, $x,y\\geq0$<br />(b) Feasible points: $(\\frac{8}{3},\\frac{8}{3})$ and $(2,1)$<br />(c) Maximum at $(\\frac{8}{3},\\frac{8}{3})$; profit $\\frac{400}{3}\\approx₹133.33$.",
+    "B": "(a) Maximize $Z=30x+20y$, subject to $2x+y\\leq8$, $x+2y\\leq8$, $x\\geq2$, $y\\geq1$, $x,y\\geq0$<br />(b) Feasible points: $(2,4)$ and $(6,1)$<br />(c) Maximum at $(2,4)$; profit ₹140.",
+    "C": "(a) Maximize $Z=30x+20y$, subject to $2x+y\\leq8$, $x+2y\\leq8$, $x\\geq2$, $y\\geq1$, $x,y\\geq0$<br />(b) Feasible points: $(2,1)$ only<br />(c) Maximum at $(2,1)$; profit ₹80.",
+    "D": "(a) Maximize $Z=30x+20y$, subject to $2x+y\\leq8$, $x+2y\\leq8$, $x\\geq2$, $y\\geq1$, $x,y\\geq0$<br />(b) Feasible points: $(8,0)$ and $(0,4)$<br />(c) Maximum at $(8,0)$; profit ₹240."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:48:01 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

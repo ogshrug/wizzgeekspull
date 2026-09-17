@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed537be0ecc7866e90bf5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97d"
+  ],
+  "question_type": "SA",
+  "question": "Find the equation of the normal to the curve $x^2+2y^2=18$ at the point $(4,1)$.",
+  "answeroption": "D",
+  "explanation": "Verification of the point$$4^2+2(1)^2=16+2=18$$Thus, $(4,1)$ lies on the curve.Implicit differentiation$$2x+4y\\frac{dy}{dx}=0$$Therefore,$$\\frac{dy}{dx}=-\\frac{x}{2y}$$Tangent slope at the pointAt $(4,1)$,$$m_t=-\\frac{4}{2(1)}=-2$$Normal slope$$m_n=-\\frac{1}{m_t}=\\frac{1}{2}$$Equation of the normal$$y-1=\\frac{1}{2}(x-4)$$ConclusionOn simplification, the equation of the normal is $x-2y-2=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x+2y-6=0$",
+    "B": "$2x-y-7=0$",
+    "C": "$x-2y+2=0$",
+    "D": "$x-2y-2=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

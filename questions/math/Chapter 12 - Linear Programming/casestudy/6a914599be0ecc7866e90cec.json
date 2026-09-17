@@ -1,0 +1,31 @@
+{
+  "id": "6a914599be0ecc7866e90cec",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8de"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a classroom activity, students are asked to analyse the common region determined by $x+y\\leq5$, $2x+2y\\geq14$, $x\\geq0$ and $y\\geq0$. Before drawing any conclusion, they simplify the inequalities and test whether the requirements can hold simultaneously. The teacher then asks them to investigate how the situation changes if the second inequality is replaced by $2x+2y\\geq6$, while all other conditions remain unchanged. The purpose of the activity is to distinguish between a system having no feasible region and one having a finite common region satisfying all the restrictions.<br><br><b>(a)</b> Simplify the inequality $2x+2y\\geq14$ and state the resulting condition on $x+y$.<br><br><b>(b)</b> Determine whether the point $P(2,2)$ satisfies all the original constraints.<br><br><b>(c)</b> Show that the original system has no feasible region.<br><br><b>(d)</b> If $2x+2y\\geq14$ is replaced by $2x+2y\\geq6$, determine whether the new feasible region is bounded or unbounded, and justify your conclusion.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The inequality is<br>$$2x+2y\\geq14$$<br>Dividing throughout by 2 gives<br>$$x+y\\geq7$$<br>Thus, the second condition requires the sum $x+y$ to be at least 7.<br><br><b>(b)</b><br>For $P(2,2)$,<br>$$2+2=4\\leq5$$<br>so the first constraint is satisfied. However,<br>$$2+2=4<7$$<br>so the simplified second constraint $x+y\\geq7$ is not satisfied. Hence, $P(2,2)$ does not satisfy all the original constraints and is an infeasible point.<br><br><b>(c)</b><br>The original conditions require simultaneously<br>$$x+y\\leq5$$<br>and<br>$$x+y\\geq7$$<br>No real values of $x$ and $y$ can make the same sum both at most 5 and at least 7. Therefore, no point satisfies all the constraints simultaneously. Hence, the original system has no feasible region and consequently has no feasible solution.<br><br><b>(d)</b><br>The modified inequality is<br>$$2x+2y\\geq6$$<br>or<br>$$x+y\\geq3$$<br>The new system is therefore<br>$$3\\leq x+y\\leq5,\\quad x\\geq0,\\quad y\\geq0$$<br>Since $x,y\\geq0$ and $x+y\\leq5$, we must have $0\\leq x\\leq5$ and $0\\leq y\\leq5$. Thus, the common region lies within finite limits. Therefore, the modified system has a non-empty bounded region as its feasible region.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $x+y\\geq5$<br>(b) $P(2,2)$ satisfies all original constraints<br>(c) The original feasible region is bounded<br>(d) The modified region is unbounded",
+    "B": "(a) $x+y\\geq7$<br>(b) $P(2,2)$ is infeasible<br>(c) The original region is empty<br>(d) The modified condition becomes $x+y\\geq3$, but the modified region is unbounded",
+    "C": "(a) $x+y\\geq7$<br>(b) $P(2,2)$ is feasible<br>(c) The original system has no feasible region<br>(d) The modified system has no feasible region",
+    "D": "(a) $x+y\\geq7$<br>(b) $P(2,2)$ is infeasible<br>(c) The original system has no feasible region since $x+y\\leq5$ and $x+y\\geq7$ conflict<br>(d) Replacing the second condition gives $3\\leq x+y\\leq5$, $x,y\\geq0$, which is a non-empty bounded region"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

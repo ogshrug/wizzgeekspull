@@ -1,0 +1,29 @@
+{
+  "id": "69a9b2c5d30adc5083911b2a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "VSA",
+  "question": "If two cards are drawn successively from a well-shuffled pack of 52 cards without replacement, what is the probability that both cards are kings?",
+  "answeroption": "C",
+  "explanation": "Let E: first card is a king, F: second card is a king. <br /><br /> Number of kings = 4 <br /><br /> $P(E) = \\frac{4}{52} = \\frac{1}{13}$ <br /><br /> After drawing one king (without replacement), kings left = 3, cards left = 51 <br /><br /> $P(F|E) = \\frac{3}{51} = \\frac{1}{17}$ <br /><br /> Required probability $= P(E) \\times P(F|E) = \\frac{1}{13} \\times \\frac{1}{17} = \\frac{1}{221}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{169}$",
+    "B": "$\\frac{4}{221}$",
+    "C": "$\\frac{1}{221}$",
+    "D": "$\\frac{3}{221}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:43:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a911f504b490c7cde3595b3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "VSA",
+  "question": "For the linear programming problem, maximise $Z=4x+3y$ subject to $x+y \\le 5$, $2x+y \\le 8$, $x \\ge 0$ and $y \\ge 0$. Determine the maximum value of $Z$ using the corner-point principle.",
+  "answeroption": "C",
+  "explanation": "Step 1: The boundary lines $x+y=5$ and $2x+y=8$ intersect when their equations are solved simultaneously.<br>Step 2: Subtracting the first equation from the second gives $x=3$, and hence $y=2$.<br>Step 3: The feasible corner points are $(0,0)$, $(4,0)$, $(3,2)$ and $(0,5)$.<br>Step 4: Evaluate $Z=4x+3y$: the corresponding values are $0$, $16$, $4(3)+3(2)=18$, and $15$ respectively.<br>Step 5: The greatest of these values is $18$.<br>Step 6: Therefore, the objective function has maximum value $18$, attained at the corner point $(3,2)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$15$",
+    "B": "$16$",
+    "C": "$18$",
+    "D": "$20$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

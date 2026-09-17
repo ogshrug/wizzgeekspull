@@ -1,0 +1,29 @@
+{
+  "id": "69a9aece6638848124d7c974",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "Given $I = \\int_0^1 x^2 \\sqrt{1 - x^2} dx$, choose the correct value from below:",
+  "answeroption": "D",
+  "explanation": "Use substitution $x=\\sin\\theta$ so $dx=\\cos\\theta d\\theta$.<br /><br />Limits change from $0$ to $\\frac{\\pi}{2}$.<br /><br />The integral becomes $\\int_0^{\\pi/2} \\sin^2\\theta \\cos^2\\theta d\\theta$.<br /><br />Using $\\sin^2\\theta \\cos^2\\theta = \\frac{1}{4}\\sin^2 2\\theta$.<br /><br />Thus $I=\\frac{1}{4}\\int_0^{\\pi/2} \\sin^2 2\\theta d\\theta$.<br /><br />Using identity $\\sin^2\\phi = \\frac{1}{2}(1-\\cos2\\phi)$ and evaluating gives $\\frac{\\pi}{16}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{8}$",
+    "B": "$\\frac{1}{12}$",
+    "C": "$\\frac{1}{6}$",
+    "D": "$\\frac{\\pi}{16}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:26:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

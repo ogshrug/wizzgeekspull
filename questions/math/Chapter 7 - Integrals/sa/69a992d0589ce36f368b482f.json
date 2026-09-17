@@ -1,0 +1,29 @@
+{
+  "id": "69a992d0589ce36f368b482f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Prove that $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$ for any continuous function $f(x)$ on $[0,a]$.",
+  "answeroption": "A",
+  "explanation": "Consider the substitution $x=a-t$.<br /><br />Then $dx=-dt$.<br /><br />When $x=0$, $t=a$ and when $x=a$, $t=0$.<br /><br />Thus:<br /><br />$\\int_0^a f(x)dx = \\int_a^0 f(a-t)(-dt)$.<br /><br />Changing limits gives:<br /><br />$\\int_0^a f(a-t)dt$.<br /><br />Replacing $t$ by $x$ again we obtain:<br /><br />$\\int_0^a f(a-x)dx$.<br /><br />Hence proved.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$",
+    "B": "$\\int_0^a f(x)dx = a\\int_0^a f(a-x)dx$",
+    "C": "$\\int_0^a f(x)dx = \\frac{1}{2}\\int_0^a f(a-x)dx$",
+    "D": "$\\int_0^a f(x)dx = \\int_a^0 f(a-x)dx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 14:27:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

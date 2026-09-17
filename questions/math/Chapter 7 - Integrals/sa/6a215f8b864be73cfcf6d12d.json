@@ -1,0 +1,28 @@
+{
+  "id": "6a215f8b864be73cfcf6d12d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int \\frac{x-\\sin x}{1-\\cos x} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use half-angle formulas. $1 - \\cos x = 2\\sin^2(x/2)$ and $\\sin x = 2\\sin(x/2)\\cos(x/2)$.<br />**Step 2:** Split the integral: $\\int \\frac{x}{2\\sin^2(x/2)} dx - \\int \\frac{2\\sin(x/2)\\cos(x/2)}{2\\sin^2(x/2)} dx = \\frac{1}{2} \\int x \\text{cosec}^2(x/2) dx - \\int \\cot(x/2) dx$.<br />**Step 3:** Apply integration by parts on the first integral. Let $u = x$, $dv = \\text{cosec}^2(x/2)dx$. Then $du = dx$, $v = -2\\cot(x/2)$.<br />**Step 4:** $\\frac{1}{2}[x(-2\\cot(x/2)) - \\int -2\\cot(x/2) dx] = -x\\cot(x/2) + \\int \\cot(x/2) dx$.<br />**Step 5:** Add the remaining second integral: $-x\\cot(x/2) + \\int \\cot(x/2) dx - \\int \\cot(x/2) dx = -x\\cot(x/2) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

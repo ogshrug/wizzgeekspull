@@ -1,0 +1,30 @@
+{
+  "id": "69a858cf64fcf4cdd5b4bad3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\begin{cases} kx + 2, & x \\leq 1 \\\\ x^2 + mx + n, & x > 1 \\end{cases}$. If $f(x)$ is continuous and differentiable at $x = 1$, find the values of $k$, $m$, and $n$.",
+  "answeroption": "D",
+  "explanation": "Continuity at $x=1$:<br /><br />Left value: $k(1)+2 = k+2$.<br /><br />Right value: $1 + m + n$.<br /><br />Equate: $k+2 = 1 + m + n$.<br /><br />Differentiability at $x=1$:<br /><br />Left derivative = $k$.<br /><br />Right derivative at $1$ = $2 + m$.<br /><br />Equate: $k = 2 + m$.<br /><br />So $m = k-2$.<br /><br />Substitute into continuity equation:<br /><br />$k+2 = 1 + (k-2) + n$.<br /><br />$k+2 = k-1 + n$.<br /><br />$2 = -1 + n$.<br /><br />$n = 3$.<br /><br />Thus, $m = k-2$, $n = 3$, and $k$ is any real number.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=2,\\ m=0,\\ n=3$ only",
+    "B": "$k$ is any real number, $m=k+2$, and $n=3$",
+    "C": "$k$ is any real number, $m=k-2$, and $n=1$",
+    "D": "$k$ is any real number, $m=k-2$, and $n=3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:07:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a213f9e91ff8b4d45610960",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "MCQ",
+  "question": "The rate of change of volume of a sphere with respect to its diameter, when its radius is 5 cm, is:",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> Express the volume of a sphere entirely in terms of its diameter $D$. Since the radius $r = \\frac{D}{2}$, we substitute this into the volume formula $V = \\frac{4}{3}\\pi r^3$ to get $V = \\frac{4}{3}\\pi (\\frac{D}{2})^3 = \\frac{4}{3}\\pi \\frac{D^3}{8} = \\frac{\\pi}{6}D^3$.<br /><br /><b>Step 2</b> Calculate the rate of change of the volume with respect to the diameter by taking the derivative $\\frac{dV}{dD}$. Differentiating $\\frac{\\pi}{6}D^3$ gives $\\frac{dV}{dD} = \\frac{\\pi}{6} \\cdot 3D^2 = \\frac{\\pi}{2}D^2$.<br /><br /><b>Step 3</b> Evaluate this derivative at the specific given moment. The problem states the radius is $5$ cm, which means the diameter $D$ is $10$ cm. Substitute $D = 10$ into the derivative to get $\\frac{\\pi}{2}(10)^2 = \\frac{\\pi}{2}(100) = 50\\pi$ cm³/cm.",
+  "explanation_image": [],
+  "options": {
+    "A": "$400\\pi~cm^{3}/cm$",
+    "B": "$100\\pi~cm^{3}/cm$",
+    "C": "$50\\pi~cm^{3}/cm$",
+    "D": "$25\\pi~cm^{3}/cm$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

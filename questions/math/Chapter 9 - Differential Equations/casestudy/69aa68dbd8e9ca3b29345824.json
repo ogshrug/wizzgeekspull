@@ -1,0 +1,29 @@
+{
+  "id": "69aa68dbd8e9ca3b29345824",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A company’s liquid chemical storage involves keeping a solution of salt in water. Fresh water is pumped into a 100-litre tank at a rate of 5 litres per minute, and a thoroughly mixed solution leaves at the same rate. Initially, the tank contains 80 litres of water with 40 grams of salt dissolved.<br /><br />a) Let $x(t)$ be the amount (in grams) of salt in the tank at time $t$ minutes, once the tank is full. Write the differential equation governing the process after the tank fills to 100 litres.<br /><br />b) Find the amount of salt as a function of time once the tank is full.<br /><br />c) Estimate the long-term (as $t \\to \\infty$) amount of salt in the tank. Explain the practical meaning.",
+  "answeroption": "C",
+  "explanation": "a) Once the tank is full, $V = 100$ litres remains constant, inflow is pure water, and the outflow rate is $5$ L/min.<br /><br />Rate in = $0$ (pure water)<br /><br />Rate out $= \\frac{5x}{100}$<br /><br />So:<br /><br />$\\frac{dx}{dt} = -\\frac{5x}{100} = -\\frac{x}{20}$<br /><br />b)<br /><br />$\\frac{dx}{dt} = -\\frac{x}{20}$<br /><br />$\\frac{dx}{x} = -\\frac{1}{20} dt$<br /><br />Integrate both sides:<br /><br />$\\int \\frac{1}{x} dx = -\\frac{1}{20} \\int dt$<br /><br />$\\ln|x| = -\\frac{t}{20} + C$<br /><br />$x = Ae^{-t/20}$<br /><br />At $t=0$ (when tank first becomes full), amount of salt $= X_0$ (must be found from initial mixing; but for long-term, form suffices)<br /><br />c)<br /><br />As $t \\to \\infty$, $e^{-t/20} \\to 0$, so $x(t) \\to 0$.<br /><br />This means that, over time, as pure water keeps being pumped and mixed solution drawn out, the salt is eventually washed out and the concentration inside the tank approaches zero.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dx}{dt}=\\frac{x}{20}$ after the tank is full<br />(b) $x(t)=X_0e^{t/20}$<br />(c) Long-term amount tends to infinity",
+    "B": "(a) $\\frac{dx}{dt}=5-\\frac{x}{20}$ after the tank is full<br />(b) $x(t)=100+(X_0-100)e^{-t/20}$<br />(c) Long-term amount tends to $100$ grams",
+    "C": "(a) $\\frac{dx}{dt}=-\\frac{x}{20}$ after the tank is full<br />(b) $x(t)=X_0e^{-t/20}$, where $X_0$ is the salt amount when the tank first becomes full<br />(c) As $t\\to\\infty$, $x(t)\\to0$, meaning the salt is washed out by pure water",
+    "D": "(a) $\\frac{dx}{dt}=-5x$ after the tank is full<br />(b) $x(t)=40e^{-5t}$<br />(c) Salt becomes negative after long time"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:40:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

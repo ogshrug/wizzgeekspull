@@ -1,0 +1,16 @@
+{
+  "id": "6992badc65eab9d13e9be0be",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "698eb6089d20b56bde515bb7",
+  "question": "A silicon diode is used in a biasing circuit with a $3.3\\,\\text{V}$ supply and a series resistor $R$ to control forward current. The diode forward drop is not constant; due to device variation and temperature it can lie between $0.65\\,\\text{V}$ and $0.75\\,\\text{V}$ in the intended operating range.\n\n(a) Design $R$ so that the diode forward current never exceeds $5\\,\\text{mA}$ for any allowed diode drop in the range. Show the inequality you use and compute a suitable standard-value resistor.\n\n(b) Using the diode exponential law idea, the student argues: “A small increase of $0.05\\,\\text{V}$ in forward bias can multiply the current by a large factor, so a resistor is essential for stable biasing.” Quantitatively support this statement by estimating the factor</br>\n\n $\\frac{I_2}{I_1}=\\exp\\left(\\frac{\\Delta V}{V_T}\\right)$ </br>\n\nfor $\\Delta V=0.05\\,\\text{V}$ at $300\\,\\text{K}$, taking $V_T\\approx 0.026\\,\\text{V}$ (assume ideality factor $\\eta=1$ for estimation).\n\n(c) Evaluate the following claim and justify: “If we remove $R$ and connect the diode directly across $3.3\\,\\text{V}$, the diode current will still remain near $5\\,\\text{mA}$ because the diode drop self-adjusts.”\n\n(d) Draw the circuit diagram of the series-biased diode and superimpose a qualitative load line on a diode $I$–$V$ curve to show how $R$ controls the operating point.\n\n(e) Suggest one modification to make the operating point less sensitive to diode parameter variation and briefly justify.",
+  "options": {
+    "A": "Choose $R\\ge \\dfrac{3.3-0.65}{5\\times 10^{-3}}\\approx 530\\,\\Omega$ (e.g., $560\\,\\Omega$ standard); current ratio for $0.05\\,\\text{V}$ is $\\exp(0.05/0.026)\\approx 6.84$ showing strong sensitivity; direct connection is unsafe because current can become very large; load line explains stabilization; adding a larger $R$ (or using a current-limiting design) reduces sensitivity.",
+    "B": "Choose $R\\ge \\dfrac{3.3-0.75}{5\\times 10^{-3}}\\approx 510\\,\\Omega$; current ratio is about $1.2$ so resistor is not essential; direct connection is safe because diode clamps voltage; load line is unnecessary.",
+    "C": "Choose $R=0\\,\\Omega$ because the diode will self-limit at $0.7\\,\\text{V}$; current ratio is $\\exp(0.05\\times 0.026)\\approx 1.001$; direct connection is always safe.",
+    "D": "Any $R$ works because diode current is fixed by doping; current ratio is independent of temperature; removing $R$ does not change the operating point."
+  },
+  "question_type": "LA",
+  "category": "Analysing, Evaluating, Creating",
+  "imageurl": null
+}

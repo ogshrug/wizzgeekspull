@@ -1,0 +1,32 @@
+{
+  "id": "6a8ebda84b490c7cde359467",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d71",
+    "69c6603740512f018fa94d72",
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a data-checking activity, two real quantities $x$ and $y$ are recorded through the equations $2x+3y=18$ and $4x+6y=r$, where $r$ is the second recorded result. The students observe that the coefficients in the second equation are twice those in the first equation. They must decide which recorded values of $r$ produce compatible information and which value produces a contradiction.<br><br><b>(a)</b> Calculate the determinant of the coefficient matrix.<br><br><b>(b)</b> Determine the value of $r$ for which the system is consistent.<br><br><b>(c)</b> For this value of $r$, express the solutions using one parameter and state their number.<br><br><b>(d)</b> Examine the system when $r=40$ and justify the conclusion.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The coefficient matrix is<br>$$A=\\begin{bmatrix}2 & 3\\\\4 & 6\\end{bmatrix}$$<br>Therefore,<br>$$|A|=2(6)-3(4)=12-12=0$$<br><br><b>(b)</b><br>The left-hand side of the second equation is twice the left-hand side of the first equation. For consistency, its right-hand side must also be twice $18$. Hence,<br>$$r=2(18)=36$$<br>Therefore, the system is consistent when $r=36$.<br><br><b>(c)</b><br>When $r=36$, the two equations represent the same relation:<br>$$2x+3y=18$$<br>Let $y=t$. Then,<br>$$2x+3t=18$$<br>$$x=9-\\frac{3t}{2}$$<br>Thus, the solutions are<br>$$x=9-\\frac{3t}{2},\\quad y=t,\\quad t\\in\\mathbb{R}$$<br>The system has infinitely many solutions.<br><br><b>(d)</b><br>When $r=40$, the equations are<br>$$2x+3y=18$$<br>$$4x+6y=40$$<br>Dividing the second equation by $2$ gives<br>$$2x+3y=20$$<br>The same expression cannot be equal to both $18$ and $20$. Therefore, the system is inconsistent and has no solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Determinant $0$<br>(b) $r=40$<br>(c) $x=10-\\frac{3t}{2},\\ y=t$; infinitely many solutions<br>(d) For $r=40$ the system is consistent",
+    "B": "(a) Determinant $12$<br>(b) $r=36$<br>(c) $x=9-\\frac{3t}{2},\\ y=t$; one solution<br>(d) For $r=40$ the system has infinitely many solutions",
+    "C": "(a) Determinant $0$<br>(b) $r=36$<br>(c) $x=9-\\frac{3t}{2},\\ y=t,\\ t\\in\\mathbb{R}$; infinitely many solutions<br>(d) For $r=40$ the system is inconsistent and has no solution",
+    "D": "(a) Determinant $0$<br>(b) The system is consistent for every $r$<br>(c) $x=9-\\frac{3t}{2},\\ y=t$; infinitely many solutions<br>(d) For $r=40$ the system has a unique solution"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

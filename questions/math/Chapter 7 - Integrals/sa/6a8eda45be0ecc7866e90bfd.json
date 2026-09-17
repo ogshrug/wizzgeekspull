@@ -1,0 +1,29 @@
+{
+  "id": "6a8eda45be0ecc7866e90bfd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int x^2e^x\\,dx$ by applying integration by parts suitably.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Apply integration by parts</b><br>Use $\\int u\\,dv=uv-\\int v\\,du$. Take $u=x^2$ and $dv=e^x\\,dx$. Then $du=2x\\,dx$ and $v=e^x$. Thus,<br>$$\\int x^2e^x\\,dx=x^2e^x-2\\int xe^x\\,dx$$<br><b>Step 2: Evaluate the remaining integral</b><br>For $\\int xe^x\\,dx$, again use integration by parts with $u=x$ and $dv=e^x\\,dx$. Therefore, $du=dx$ and $v=e^x$.<br>$$\\int xe^x\\,dx=xe^x-\\int e^x\\,dx=xe^x-e^x$$<br><b>Step 3: Substitute the result</b><br>$$\\int x^2e^x\\,dx=x^2e^x-2(xe^x-e^x)+C$$<br><b>Step 4: Simplify</b><br>$$\\int x^2e^x\\,dx=x^2e^x-2xe^x+2e^x+C$$<br><b>Step 5: Write the final result</b><br>Hence,<br>$$\\boxed{e^x(x^2-2x+2)+C}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^x(x^2+2x+2)+C$",
+    "B": "$e^x(x^2-2x-2)+C$",
+    "C": "$e^x(x^2-2x+2)+C$",
+    "D": "$e^x(x^2-x+1)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a22c0cefbdd87b6dea73c35",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "Two vertices of the parallelogram ABCD are given as $A(-1,2,1)$ and $B(1,-2,5)$. If the equation of the line passing through C and D is $\\frac{x-4}{1}=\\frac{y+7}{-2}=\\frac{z-8}{2}$ then find the distance between sides AB and CD. Hence, find the area of parallelogram ABCD.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The line passing through $C$ and $D$ goes through point $P(4, -7, 8)$ with a direction path vector of $\\vec{b} = \\hat{i} - 2\\hat{j} + 2\\hat{k}$. Because lines $AB$ and $CD$ run parallel within a flat parallelogram, the separate perpendicular distance between sides matches the single point distance from vertex $A(-1, 2, 1)$ to line $CD$. Determine the vector displacement from $P$ to $A$: $\\vec{PA} = (-1 - 4)\\hat{i} + (2 - (-7))\\hat{j} + (1 - 8)\\hat{k} = -5\\hat{i} + 9\\hat{j} - 7\\hat{k}$.<br />**Step 2:** Use the vector perpendicular distance formula $d = \\frac{|\\vec{PA} \\times \\vec{b}|}{|\\vec{b}|}$. Compute the necessary cross product vector: $\\vec{PA} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ -5 & 9 & -7 \\\\ 1 & -2 & 2 \\end{vmatrix} = \\hat{i}(18 - 14) - \\hat{j}(-10 - (-7)) + \\hat{k}(10 - 9) = 4\\hat{i} + 3\\hat{j} + \\hat{k}$. Find lengths: $|\\vec{PA} \\times \\vec{b}| = \\sqrt{16 + 9 + 1} = \\sqrt{26}$, and base vector length $|\\vec{b}| = \\sqrt{1 + 4 + 4} = 3$. This maps the spacing distance to $d = \\frac{\\sqrt{26}}{3}$ units.<br />**Step 3:** Find total area by multiplying baseline edge dimension and vertical altitude. Determine displacement vector $\\vec{AB} = (1 - (-1))\\hat{i} + (-2 - 2)\\hat{j} + (5 - 1)\\hat{k} = 2\\hat{i} - 4\\hat{j} + 4\\hat{k}$. Its absolute spatial magnitude length tracks as $|\\vec{AB}| = \\sqrt{4 + 16 + 16} = 6$. The numerical area is given by $\\text{Area} = |\\vec{AB}| \\times d = 6 \\times \\frac{\\sqrt{26}}{3} = 2\\sqrt{26}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1",
+    "2024-3-2",
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

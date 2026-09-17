@@ -1,0 +1,29 @@
+{
+  "id": "69a8697964fcf4cdd5b4baf9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "SA",
+  "question": "Does the function $f(x)=|x-1|+|x+1|$ have a derivative at $x=1$?",
+  "answeroption": "D",
+  "explanation": "First, check both one-sided derivatives:<br /><br />For $x>1$: $f(x)=(x-1)+(x+1)=2x$ so $f'(x)=2$<br /><br />For $x<1$: $f(x)=-(x-1)+(x+1)=2$, $f'(x)=0$<br /><br />At $x=1$, left hand derivative: $0$, right hand derivative: $2$<br /><br />Therefore, $f(x)$ is not differentiable at $x=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes, $f(x)$ has a derivative at $x=1$ and $f'(1)=0$",
+    "B": "Yes, $f(x)$ has a derivative at $x=1$ and $f'(1)=2$",
+    "C": "Yes, $f(x)$ has a derivative at $x=1$ and $f'(1)=1$",
+    "D": "No, $f(x)$ is not differentiable at $x=1$ because LHD $=0$ and RHD $=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:18:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

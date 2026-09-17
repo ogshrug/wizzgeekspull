@@ -1,0 +1,28 @@
+{
+  "id": "6a213f8e91ff8b4d4561095f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "SA",
+  "question": "If $(sin~x)^{y}=y^{cos~x}$, then find $\\frac{dy}{dx}$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Recognize that both sides of the equation contain variables in the exponent. To differentiate, we must first take the natural logarithm of both sides: $\\log((\\sin x)^y) = \\log(y^{\\cos x})$.<br /><br /><b>Step 2</b> Apply the power rule for logarithms to bring the exponents down as multipliers. The equation simplifies to $y \\log(\\sin x) = \\cos x \\log(y)$.<br /><br /><b>Step 3</b> Differentiate both sides implicitly with respect to $x$ using the product rule. On the left side, the derivative is $\\frac{dy}{dx} \\log(\\sin x) + y \\cdot \\frac{1}{\\sin x} \\cdot \\cos x$. On the right side, the derivative is $-\\sin x \\log(y) + \\cos x \\cdot \\frac{1}{y} \\cdot \\frac{dy}{dx}$.<br /><br /><b>Step 4</b> Rearrange the equation to group all terms containing $\\frac{dy}{dx}$ on one side. This gives $\\frac{dy}{dx}\\log(\\sin x) - \\frac{\\cos x}{y}\\frac{dy}{dx} = -\\sin x \\log(y) - y \\cot x$. Factoring out $\\frac{dy}{dx}$ yields $\\frac{dy}{dx}[\\log(\\sin x) - \\frac{\\cos x}{y}] = -[\\sin x \\log(y) + y \\cot x]$.<br /><br /><b>Step 5</b> Isolate $\\frac{dy}{dx}$ by dividing by its coefficient. We get $\\frac{dy}{dx} = \\frac{-[\\sin x \\log(y) + y \\cot x]}{\\log(\\sin x) - \\frac{\\cos x}{y}}$. Multiply the numerator and denominator by $y$ to clear the complex fraction, resulting in the final answer $\\frac{dy}{dx} = \\frac{-y(\\sin x \\log y + y \\cot x)}{y \\log(\\sin x) - \\cos x}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

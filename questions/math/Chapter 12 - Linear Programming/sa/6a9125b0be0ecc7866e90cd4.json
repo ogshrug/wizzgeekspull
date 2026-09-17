@@ -1,0 +1,29 @@
+{
+  "id": "6a9125b0be0ecc7866e90cd4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e1"
+  ],
+  "question_type": "SA",
+  "question": "The constraints are $x+y\\leq8$, $x+3y\\leq12$, $x\\geq0$ and $y\\geq0$. If $k\\geq0$, determine the values of $k$ for which the point $(4,k)$ is an infeasible solution.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Applying the first constraint</b><br>For $(4,k)$, the inequality $x+y\\leq8$ becomes $$4+k\\leq8$$ giving $$k\\leq4$$<br><b>Step 2: Applying the second constraint</b><br>The inequality $x+3y\\leq12$ becomes $$4+3k\\leq12$$ Therefore, $$3k\\leq8\\Rightarrow k\\leq\\frac{8}{3}$$<br><b>Step 3: Identifying the feasible range</b><br>Since $k\\geq0$, both constraints are simultaneously satisfied when $$0\\leq k\\leq\\frac{8}{3}$$<br><b>Step 4: Identifying the infeasible range</b><br>If $$k>\\frac{8}{3},$$ the second constraint is violated. For $k>4$, both principal constraints are violated, but violation of even one constraint is sufficient to make the point infeasible.<br><b>Step 5: Conclusion</b><br>Therefore, for the given condition $k\\geq0$, the point $(4,k)$ is an infeasible solution when $$k>\\frac{8}{3}$$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0\\leq k\\leq\\frac{8}{3}$",
+    "B": "$k>4$",
+    "C": "$k>\\frac{8}{3}$",
+    "D": "$\\frac{8}{3}\\leq k\\leq4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

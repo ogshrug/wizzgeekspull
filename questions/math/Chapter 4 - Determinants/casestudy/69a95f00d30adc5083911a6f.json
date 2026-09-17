@@ -1,0 +1,32 @@
+{
+  "id": "69a95f00d30adc5083911a6f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d71",
+    "69c6603740512f018fa94d76",
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 2: Supply Chain Optimization for a Factory** <br /><br /> A factory produces three products P1, P2, and P3 using three resources R1, R2, and R3. The consumption ($\\times$100 units) is given by the following table (each entry denotes units of resource used per product): <br /><br /> $\\begin{array}{|c|c|c|c|}\\hline & P1 & P2 & P3 \\\\ \\hline R1 & 2 & 1 & 1 \\\\ \\hline R2 & 0 & 1 & 2 \\\\ \\hline R3 & 1 & 0 & 1 \\\\ \\hline\\end{array}$ <br /><br /> Each day, the availability of resources is R1: 400 units, R2: 600 units, R3: 300 units. <br /><br /> a) Write the system of equations in matrix form. <br /><br /> b) Determine, using the matrix method, how many batches ($x$, $y$, $z$) of P1, P2, P3 (in 100s) can be produced daily, so all resources are exactly used up. <br /><br /> c) If due to supply chain disruption, R2's availability is reduced to 300 units, determine whether a solution exists and, if so, find it or otherwise comment on the consistency of the system.",
+  "answeroption": "B",
+  "explanation": "a) <br /><br /> Let $x$, $y$, $z$ be number of batches (in 100s) for P1, P2, P3. <br /><br /> So, the equations: <br /> $2x + y + z = 4$ <br /> $y + 2z = 6$ <br /> $x + z = 3$ <br /><br /> Matrix form: $\\begin{bmatrix} 2 & 1 & 1 \\\\ 0 & 1 & 2 \\\\ 1 & 0 & 1 \\end{bmatrix}\\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = \\begin{bmatrix} 4 \\\\ 6 \\\\ 3 \\end{bmatrix}$ <br /><br /> b) <br /><br /> Find $|A|$: <br /> $|A| = 2 \\begin{vmatrix} 1 & 2 \\\\ 0 & 1 \\end{vmatrix} - 1 \\begin{vmatrix} 0 & 2 \\\\ 1 & 1 \\end{vmatrix} + 1 \\begin{vmatrix} 0 & 1 \\\\ 1 & 0 \\end{vmatrix}$ <br /> $= 2(1\\times1-2\\times0) - (0\\times1 - 2\\times1) + (0\\times0 - 1\\times1)$ <br /> $= 2(1) - (0-2) + (0-1)$ <br /> $= 2 + 2 - 1 = 3$ <br /><br /> Non-zero: unique solution <br /><br /> Calculate $A^{-1}$ using minors and cofactors (detailed steps): <br /><br /> $A = \\begin{bmatrix} 2 & 1 & 1 \\\\ 0 & 1 & 2 \\\\ 1 & 0 & 1 \\end{bmatrix}$ <br /><br /> Cofactor matrix: <br /><br /> $C_{11} = \\begin{vmatrix} 1 & 2 \\\\ 0 & 1 \\end{vmatrix} = 1(1)-2(0)=1$ <br /> $C_{12} = -\\begin{vmatrix} 0 & 2 \\\\ 1 & 1 \\end{vmatrix} = -[0(1)-2(1)] = -(-2)=2$ <br /> $C_{13} = \\begin{vmatrix} 0 & 1 \\\\ 1 & 0 \\end{vmatrix} = 0(0)-1(1)=-1$ <br /> $C_{21} = -\\begin{vmatrix} 1 & 1 \\\\ 0 & 1 \\end{vmatrix} = -[1(1)-1(0)]=-[1] = -1$ <br /> $C_{22} = \\begin{vmatrix} 2 & 1 \\\\ 1 & 1 \\end{vmatrix} = 2(1)-1(1)=2-1=1$ <br /> $C_{23} = -\\begin{vmatrix} 2 & 1 \\\\ 1 & 0 \\end{vmatrix} = -[2(0)-1(1)] = -(-1)=1$ <br /> $C_{31} = \\begin{vmatrix} 1 & 1 \\\\ 1 & 2 \\end{vmatrix} = 1(2)-1(1)=2-1=1$ <br /> $C_{32} = -\\begin{vmatrix} 2 & 1 \\\\ 0 & 2 \\end{vmatrix} = -[2(2)-1(0)] = -[4]= -4$ <br /> $C_{33} = \\begin{vmatrix} 2 & 1 \\\\ 0 & 1 \\end{vmatrix} = 2(1)-1(0)=2$ <br /><br /> Cofactor Matrix $C = \\begin{bmatrix} 1 & 2 & -1 \\\\ -1 & 1 & 1 \\\\ 1 & -4 & 2 \\end{bmatrix}$ <br /><br /> Adjugate: $\\begin{bmatrix} 1 & -1 & 1 \\\\ 2 & 1 & -4 \\\\ -1 & 1 & 2\\end{bmatrix}$ <br /><br /> $A^{-1} = \\frac{1}{3} \\begin{bmatrix} 1 & -1 & 1 \\\\ 2 & 1 & -4 \\\\ -1 & 1 & 2\\end{bmatrix}$ <br /><br /> $X = A^{-1}B = \\frac{1}{3}\\begin{bmatrix} 1 & -1 & 1 \\\\ 2 & 1 & -4 \\\\ -1 & 1 & 2\\end{bmatrix}\\begin{bmatrix} 4 \\\\ 6 \\\\ 3\\end{bmatrix}$ <br /><br /> Row 1: $1\\times4 + (-1)\\times6 + 1\\times3 = 4-6+3=1$ <br /> Row 2: $2\\times4 + 1\\times6 + (-4)\\times3=8+6-12=2$ <br /> Row 3: $-1\\times4 + 1\\times6 + 2\\times3 = -4+6+6=8$ <br /><br /> So, $X=\\frac{1}{3}\\begin{bmatrix}1 \\\\ 2 \\\\ 8\\end{bmatrix}= \\begin{bmatrix}1/3 \\\\ 2/3 \\\\ 8/3 \\end{bmatrix}$ <br /><br /> So batches: P1: $33.33$ units, P2: $66.67$ units, P3: $266.67$ units. <br /><br /> c) <br /><br /> Availability changes to $[4,3,3]^T$: <br /> $B' = \\begin{bmatrix} 4 \\\\ 3 \\\\ 3 \\end{bmatrix}$ <br /><br /> $X = A^{-1} B' = \\frac{1}{3} \\begin{bmatrix} 1 & -1 & 1 \\\\ 2 & 1 & -4 \\\\ -1 & 1 & 2 \\end{bmatrix} \\begin{bmatrix} 4 \\\\ 3 \\\\ 3 \\end{bmatrix}$ <br /><br /> Row 1: $1\\times4 + (-1)\\times3 + 1\\times3= 4-3+3=4$ <br /> Row 2: $2\\times4 + 1\\times3 + (-4)\\times3 = 8+3-12=-1$ <br /> Row 3: $-1\\times4 + 1\\times3 + 2\\times3 = -4+3+6=5$ <br /><br /> So $X=\\frac{1}{3}\\begin{bmatrix}4 \\\\ -1 \\\\ 5\\end{bmatrix} = \\begin{bmatrix}4/3 \\\\ -1/3 \\\\ 5/3\\end{bmatrix}$ <br /><br /> Negative value for $y$ (batches of P2), so though mathematically a solution exists, **it is not physically feasible** (can't produce negative batches). The system is consistent, but infeasible in the context of production!",
+  "explanation_image": [],
+  "options": {
+    "A": "a) $\\begin{bmatrix}2&1&1\\\\0&1&2\\\\1&0&1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=\\begin{bmatrix}4\\\\6\\\\3\\end{bmatrix}$<br />b) $x=\\frac13$, $y=\\frac23$, $z=\\frac83$.<br />c) For reduced R2, $x=\\frac43$, $y=\\frac13$, $z=\\frac53$, so the system is feasible.",
+    "B": "a) $\\begin{bmatrix}2&1&1\\\\0&1&2\\\\1&0&1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=\\begin{bmatrix}4\\\\6\\\\3\\end{bmatrix}$<br />b) $x=\\frac13$, $y=\\frac23$, $z=\\frac83$.<br />c) For reduced R2, $x=\\frac43$, $y=-\\frac13$, $z=\\frac53$; the system is mathematically consistent but physically infeasible because $y$ is negative.",
+    "C": "a) $\\begin{bmatrix}2&0&1\\\\1&1&0\\\\1&2&1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=\\begin{bmatrix}4\\\\6\\\\3\\end{bmatrix}$<br />b) $x=\\frac83$, $y=\\frac23$, $z=\\frac13$.<br />c) For reduced R2, no mathematical solution exists because $|A|=0$.",
+    "D": "a) $\\begin{bmatrix}2&1&1\\\\0&1&2\\\\1&0&1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=\\begin{bmatrix}4\\\\6\\\\3\\end{bmatrix}$<br />b) Since $|A|=0$, the original system has infinitely many solutions.<br />c) The reduced-resource system is inconsistent and has no solution."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:46:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a96266d30adc5083911a82",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): If $A$ is a $3 \\times 3$ matrix such that $A^2 = O$ (the zero matrix), then $(I + A)^3 = I$.<br /><br />Reason (R): For any $3 \\times 3$ matrix $A$ such that $A^2 = O$, $(I + A)^3 = I + 3A$.",
+  "answeroption": "D",
+  "explanation": "Assertion (A) is true.<br /><br />Since $A^2 = O$, $(I + A)^3 = I + 3A + 3A^2 + A^3 = I + 3A + 3O + O = I + 3A$ (since $A^2 = O$, $A^3 = A \\cdot A^2 = O$).<br /><br />So, Assertion (A) says $(I + A)^3 = I$.<br /><br />But, $(I + A)^3 = I + 3A \\neq I$ in general unless $A = O$.<br /><br />Reason (R) is true: As shown above, $(I + A)^3 = I + 3A$.<br /><br />So, (D) Assertion (A) is false, but Reason (R) is true.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:00:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

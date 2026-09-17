@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd81d4b490c7cde35951c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "SA",
+  "question": "Solve the homogeneous differential equation $$\\frac{dy}{dx}=\\frac{x+y}{x-y}$$ by reducing it to a variable separable equation through the substitution $y=vx$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Apply the homogeneous substitution</b><br>Put $y=vx$. Then $$\\frac{dy}{dx}=v+x\\frac{dv}{dx}.$$ Hence, $$v+x\\frac{dv}{dx}=\\frac{1+v}{1-v}.$$<br><b>Step 2: Reduce to variable separable form</b><br>Thus, $$x\\frac{dv}{dx}=\\frac{1+v^2}{1-v},$$ so $$\\frac{1-v}{1+v^2}\\,dv=\\frac{dx}{x}.$$<br><b>Step 3: Integrate both sides</b><br>$$\\int\\left(\\frac{1}{1+v^2}-\\frac{v}{1+v^2}\\right)dv=\\int\\frac{dx}{x}.$$ Therefore, $$\\tan^{-1}v-\\frac{1}{2}\\log(1+v^2)=\\log|x|+C.$$<br><b>Step 4: Replace the substituted variable</b><br>Using $v=\\frac{y}{x}$, $$\\tan^{-1}\\left(\\frac{y}{x}\\right)-\\frac{1}{2}\\log\\left(1+\\frac{y^2}{x^2}\\right)=\\log|x|+C.$$<br><b>Step 5: Simplify the result</b><br>Hence, the general solution may be written as $$\\tan^{-1}\\left(\\frac{y}{x}\\right)-\\frac{1}{2}\\log(x^2+y^2)=C.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan^{-1}\\left(\\frac{y}{x}\\right)+\\frac{1}{2}\\log(x^2+y^2)=C$",
+    "B": "$\\tan^{-1}\\left(\\frac{x}{y}\\right)-\\frac{1}{2}\\log(x^2+y^2)=C$",
+    "C": "$\\tan^{-1}\\left(\\frac{y}{x}\\right)-\\frac{1}{2}\\log(x^2+y^2)=C$",
+    "D": "$\\tan^{-1}\\left(\\frac{y}{x}\\right)-\\log(x^2+y^2)=C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

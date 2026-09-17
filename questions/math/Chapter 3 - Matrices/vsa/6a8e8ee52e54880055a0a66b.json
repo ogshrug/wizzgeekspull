@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8ee52e54880055a0a66b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d64"
+  ],
+  "question_type": "VSA",
+  "question": "A matrix $A$ is of order $2\\times3$. A student claims that there exists a matrix $B$ such that $AB=I_2$ and $BA=I_3$. Is the claim possible? Give a reason.",
+  "answeroption": "A",
+  "explanation": "Step 1: Since $A$ is of order $2\\times3$, for $AB$ to be defined and have order $2\\times2$, the matrix $B$ would have to be of order $3\\times2$.<br>Step 2: Then $BA$ would indeed have order $3\\times3$.<br>Step 3: However, an inverse matrix is defined for a square matrix $A$ when another square matrix of the same order satisfies $AB=BA=I$.<br>Step 4: Here, $A$ is rectangular and the two products correspond to identity matrices of different orders, $I_2$ and $I_3$. Thus, $B$ cannot be an inverse of $A$.<br>Step 5: Therefore, the claim is not possible in the sense of matrix inverse; a rectangular matrix does not possess an inverse matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "No, such a matrix $B$ cannot satisfy both conditions",
+    "B": "Yes, if $B$ is of order $2\\times3$",
+    "C": "Yes, for every matrix $B$ of order $3\\times2$",
+    "D": "Yes, because $AB$ and $BA$ may be identity matrices of different orders"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

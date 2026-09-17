@@ -1,0 +1,29 @@
+{
+  "id": "6a901f3e751910886affba2e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a three-dimensional mathematical model, two long parallel wires are represented by the lines $$L_1:\\vec r=(\\hat i+2\\hat j+3\\hat k)+\\lambda(2\\hat i-\\hat j+2\\hat k)$$ and $$L_2:\\vec r=(3\\hat i+\\hat j+4\\hat k)+\\mu(2\\hat i-\\hat j+2\\hat k).$$ A point $T(3,1,4)$ lies on $L_2$. The class wants to calculate the separation of the wires and then confirm it geometrically by dropping a perpendicular from $T$ to $L_1$. If $P$ denotes the foot of this perpendicular on $L_1$, the segment $TP$ must be perpendicular to the common direction of the two lines.<br><br><b>(a)</b> Verify that $L_1$ and $L_2$ are parallel.<br><br><b>(b)</b> Calculate the shortest distance between $L_1$ and $L_2$.<br><br><b>(c)</b> Determine the coordinates of the foot $P$ of the perpendicular from $T$ to $L_1$.<br><br><b>(d)</b> Verify that the length $TP$ is equal to the shortest distance obtained in part (b).",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The direction vector of both lines is<br>$$\\vec b=(2,-1,2).$$<br>Since their direction vectors are identical, $L_1$ and $L_2$ are parallel.<br><br><b>(b)</b><br>Take points on the two lines with position vectors<br>$$\\vec a_1=(1,2,3),\\quad \\vec a_2=(3,1,4).$$<br>For two parallel lines, the distance is<br>$$d=\\frac{|\\vec b\\times(\\vec a_2-\\vec a_1)|}{|\\vec b|}.$$<br>Now,<br>$$\\vec a_2-\\vec a_1=(2,-1,1).$$<br>Therefore,<br>$$\\vec b\\times(\\vec a_2-\\vec a_1)=(2,-1,2)\\times(2,-1,1)=(1,2,0).$$<br>Hence,<br>$$|\\vec b\\times(\\vec a_2-\\vec a_1)|=\\sqrt{5}$$<br>and<br>$$|\\vec b|=\\sqrt{2^2+(-1)^2+2^2}=3.$$<br>Thus, the shortest distance is<br>$$d=\\frac{\\sqrt{5}}{3}\\text{ units}.$$<br><br><b>(c)</b><br>A general point $P$ on $L_1$ is<br>$$P=(1+2\\lambda,2-\\lambda,3+2\\lambda).$$<br>Since $TP$ is perpendicular to the direction vector $(2,-1,2)$, we require<br>$$\\overrightarrow{PT}\\cdot(2,-1,2)=0.$$<br>Now,<br>$$\\overrightarrow{PT}=(2-2\\lambda,-1+\\lambda,1-2\\lambda).$$<br>Therefore,<br>$$2(2-2\\lambda)-(-1+\\lambda)+2(1-2\\lambda)=0.$$<br>Simplifying,<br>$$7-9\\lambda=0,$$<br>so<br>$$\\lambda=\\frac{7}{9}.$$<br>Hence,<br>$$P=\\left(1+\\frac{14}{9},2-\\frac{7}{9},3+\\frac{14}{9}\\right)=\\left(\\frac{23}{9},\\frac{11}{9},\\frac{41}{9}\\right).$$<br><br><b>(d)</b><br>Using $T=(3,1,4)$ and $P=\\left(\\frac{23}{9},\\frac{11}{9},\\frac{41}{9}\\right)$,<br>$$\\overrightarrow{PT}=\\left(\\frac{4}{9},-\\frac{2}{9},-\\frac{5}{9}\\right).$$<br>Therefore,<br>$$TP=\\sqrt{\\left(\\frac{4}{9}\\right)^2+\\left(-\\frac{2}{9}\\right)^2+\\left(-\\frac{5}{9}\\right)^2}.$$<br>Thus,<br>$$TP=\\frac{\\sqrt{45}}{9}=\\frac{3\\sqrt{5}}{9}=\\frac{\\sqrt{5}}{3}\\text{ units}.$$<br>This equals the shortest distance found in part (b), verifying the result.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) The lines are parallel<br>(b) Shortest distance $=\\frac{\\sqrt{5}}{3}$<br>(c) $P=\\left(\\frac{23}{9},\\frac{11}{9},\\frac{41}{9}\\right)$<br>(d) $TP=\\frac{\\sqrt{5}}{3}$, confirming the result",
+    "B": "(a) The lines are parallel<br>(b) Shortest distance $=\\frac{\\sqrt{5}}{9}$<br>(c) $P=\\left(\\frac{23}{9},\\frac{11}{9},\\frac{41}{9}\\right)$<br>(d) $TP=\\frac{\\sqrt{5}}{3}$",
+    "C": "(a) The lines are skew<br>(b) Shortest distance $=\\frac{\\sqrt{5}}{3}$<br>(c) $P=\\left(\\frac{23}{9},\\frac{11}{9},\\frac{41}{9}\\right)$<br>(d) $TP=\\frac{\\sqrt{5}}{3}$",
+    "D": "(a) The lines are parallel<br>(b) Shortest distance $=\\frac{\\sqrt{5}}{3}$<br>(c) $P=\\left(\\frac{25}{9},\\frac{11}{9},\\frac{41}{9}\\right)$<br>(d) $TP=\\frac{\\sqrt{6}}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

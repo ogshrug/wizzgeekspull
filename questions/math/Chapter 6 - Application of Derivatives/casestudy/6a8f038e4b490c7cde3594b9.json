@@ -1,0 +1,31 @@
+{
+  "id": "6a8f038e4b490c7cde3594b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f975",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Water flows at a constant rate of $5\\ \\text{m}^3/\\text{min}$ into a horizontal trough of length $10\\ \\text{m}$. Each end of the trough is an isosceles triangle of height $2\\ \\text{m}$ and top width $4\\ \\text{m}$. When the water has depth $h$ metres, its surface width is $w$ metres. Because the water cross-section is similar to the triangular end of the trough, the width and depth remain proportional as the water level rises.(a) Establish the relation between $w$ and $h$.(b) Express the volume of water in terms of $h$.(c) Determine the rate at which the depth is increasing when $h=1\\ \\text{m}$.(d) Find the rate of increase of the surface width at this instant and the time required for the depth to rise from $1\\ \\text{m}$ to $1.5\\ \\text{m}$.",
+  "answeroption": "D",
+  "explanation": "(a)By similarity of the water cross-section and the triangular end,`\\frac{w}{h}=\\frac{4}{2}=2`Therefore,`w=2h`(b)The cross-sectional area of the water is`A=\\frac{1}{2}wh`Using $w=2h$,`A=\\frac{1}{2}(2h)h=h^2`Since the trough is $10\\ \\text{m}$ long, its water volume is`V=10h^2`(c)Differentiating $V=10h^2$ with respect to time,`\\frac{dV}{dt}=20h\\frac{dh}{dt}`At $h=1\\ \\text{m}$ and $\\frac{dV}{dt}=5\\ \\text{m}^3/\\text{min}$,`5=20(1)\\frac{dh}{dt}\\frac{dh}{dt}=\\frac{1}{4}\\ \\text{m/min}`(d)Since $w=2h$,`\\frac{dw}{dt}=2\\frac{dh}{dt}=2\\left(\\frac{1}{4}\\right)=\\frac{1}{2}\\ \\text{m/min}`At $h=1$, the volume is`V_1=10(1)^2=10\\ \\text{m}^3`At $h=1.5$,`V_2=10(1.5)^2=22.5\\ \\text{m}^3`The required increase in volume is $12.5\\ \\text{m}^3$. Hence, the required time is`t=\\frac{12.5}{5}=2.5\\ \\text{minutes}`",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $w=\\frac{h}{2}$<br>(b) $V=\\frac{5}{2}h^2$<br>(c) $\\frac{dh}{dt}=1\\ \\text{m/min}$ at $h=1$<br>(d) $\\frac{dw}{dt}=\\frac{1}{2}\\ \\text{m/min}$; time $1.25$ min",
+    "B": "(a) $w=2h$<br>(b) $V=20h^2$<br>(c) $\\frac{dh}{dt}=\\frac{1}{8}\\ \\text{m/min}$<br>(d) $\\frac{dw}{dt}=\\frac{1}{4}\\ \\text{m/min}$; time $5$ min",
+    "C": "(a) $w=4h$<br>(b) $V=20h^2$<br>(c) $\\frac{dh}{dt}=\\frac{1}{8}\\ \\text{m/min}$<br>(d) $\\frac{dw}{dt}=\\frac{1}{2}\\ \\text{m/min}$; time $2.5$ min",
+    "D": "(a) $w=2h$<br>(b) $V=10h^2$<br>(c) $\\frac{dh}{dt}=\\frac{1}{4}\\ \\text{m/min}$ at $h=1$<br>(d) $\\frac{dw}{dt}=\\frac{1}{2}\\ \\text{m/min}$; time $2.5$ min"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

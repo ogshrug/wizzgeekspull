@@ -1,0 +1,31 @@
+{
+  "id": "6a33b69ed5dca7dcb0bf0f4c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "MCQ",
+  "question": "If $P(A)=\\frac{1}{5}$, $P(B)=\\frac{3}{5}$ and $P(A|B)=\\frac{2}{5}$, then $P(A'\\cap B')$ is:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Apply the conditional probability formula to find the intersection $P(A \\cap B)$: $P(A \\cap B) = P(A|B) \\cdot P(B) = \\frac{2}{5} \\cdot \\frac{3}{5} = \\frac{6}{25}$.\n\n**Step 2:** Evaluate the probability of the union $P(A \\cup B)$ using the addition rule: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = \\frac{1}{5} + \\frac{3}{5} - \\frac{6}{25} = \\frac{4}{5} - \\frac{6}{25} = \\frac{20}{25} - \\frac{6}{25} = \\frac{14}{25}$.\n\n**Step 3:** Express the required probability $P(A' \\cap B')$ using De Morgan's Law: $P(A' \\cap B') = P((A \\cup B)') = 1 - P(A \\cup B)$.\n\n**Step 4:** Substitute the value of the union to calculate the final answer: $1 - \\frac{14}{25} = \\frac{11}{25}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{11}{25}$",
+    "B": "$\\frac{19}{25}$",
+    "C": "$\\frac{8}{25}$",
+    "D": "$\\frac{6}{25}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

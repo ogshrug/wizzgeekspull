@@ -1,0 +1,28 @@
+{
+  "id": "6a3295a66dbc98396e70a7af",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "For the given graph of a Linear Programming Problem, write all the constraints satisfying the given feasible region.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Identify the lines forming the boundaries of the feasible region polygon. Line 1 passes through $A(0,200)$ and $B(50,250)$. Its slope is $m = \\frac{250-200}{50-0} = 1$, which gives the boundary line equation $y - x = 200$. Since the origin $(0,0)$ satisfies the shaded area, the inequality is $y - x \\le 200$.<br />**Step 2:** Line 2 passes through boundary vertices $B(50,250)$ and $C(150,150)$. Its slope is $m = \\frac{150-250}{150-50} = -1$, giving the linear equation $x + y = 300$. The inequality constraint bounding the origin side is $x + y \\le 300$.<br />**Step 3:** Line 3 connects vertices $C(150,150)$ and $D(200,0)$. Its slope is $m = \\frac{0-150}{200-150} = -3$, yielding the equation $3x + y = 600$. The origin-inclusive inequality is $3x + y \\le 600$. Adding non-negativity parameters forms the complete constraint set: $y-x \\le 200$, $x+y \\le 300$, $3x+y \\le 600$, $x \\ge 0, y \\ge 0$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a3295a66dbc98396e70a7af/1782196589-0.png?t=1782216391338"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "69aa6353589ce36f368b48c8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c4",
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e767d837c8c7efa6b8c7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Game Development — 3D Character Navigation**<br /><br />A video game character moves from its spawn location S at $(1,1,2)$ to a treasure location T at $(7,4,-2)$. On its path, it must pass through a checkpoint C at $(4,2,0)$. The character’s controller applies a force $\\vec{F} = 6 \\hat{i} + 12\\hat{j} + 8\\hat{k}$ (arbitrary units) in the direction from S to T. However, an obstacle at O$(2, 3, 1)$ exerts a repulsive force $\\vec{R} = 2\\hat{i} + 5\\hat{j} + 3\\hat{k}$ when the character passes point C.<br /><br />(a) Find the vectors $\\vec{SC}$ and $\\vec{CT}$.<br /><br />(b) If the character moves along $\\vec{ST}$ directly, find the unit vector in this direction.<br /><br />(c) Calculate the total displacement $|\\vec{ST}|$.<br /><br />(d) At C, compute the resultant force direction (vector sum of $\\vec{F}$ and $\\vec{R}$). Express your answer as a unit vector.<br /><br />(e) Find the angle between the displacement vector $\\vec{ST}$ and repulsive force $\\vec{R}$.<br /><br />(f) Find the area of the triangle formed by vectors $\\vec{SC}$ and $\\vec{CT}$ at the checkpoint.",
+  "answeroption": "A",
+  "explanation": "(a) $\\vec{SC} = (4-1)\\hat{i} + (2-1)\\hat{j} + (0-2)\\hat{k} = 3\\hat{i} + 1\\hat{j} -2\\hat{k}$<br /><br />$\\vec{CT} = (7-4)\\hat{i} + (4-2)\\hat{j} + (-2-0)\\hat{k} = 3\\hat{i} + 2\\hat{j} -2\\hat{k}$<br /><br />(b) $\\vec{ST} = (7-1)\\hat{i} + (4-1)\\hat{j} + (-2-2)\\hat{k} = 6\\hat{i} + 3\\hat{j} -4\\hat{k}$<br /><br />$|\\vec{ST}| = \\sqrt{6^2 + 3^2 + (-4)^2} = \\sqrt{36+9+16} = \\sqrt{61}$<br /><br />Unit vector $= \\dfrac{6}{\\sqrt{61}} \\hat{i} + \\dfrac{3}{\\sqrt{61}} \\hat{j} - \\dfrac{4}{\\sqrt{61}} \\hat{k}$<br /><br />(c) Total displacement is $\\sqrt{61} \\approx 7.81$ units<br /><br />(d) Resultant force at C:<br /><br />$\\vec{F} + \\vec{R} = (6+2)\\hat{i} + (12+5)\\hat{j} + (8+3)\\hat{k} = 8\\hat{i} + 17\\hat{j} + 11\\hat{k}$<br /><br />Magnitude $= \\sqrt{8^2 + 17^2 + 11^2} = \\sqrt{64 + 289 + 121} = \\sqrt{474} \\approx 21.77$<br /><br />Unit vector: $= \\dfrac{8}{21.77}\\hat{i} + \\dfrac{17}{21.77}\\hat{j} + \\dfrac{11}{21.77}\\hat{k}$<br /><br />(e) $\\vec{ST} \\cdot \\vec{R} = (6)(2) + (3)(5) + (-4)(3) = 12 + 15 -12 = 15$<br /><br />$|\\vec{ST}| = 7.81$ (from part c), $|\\vec{R}| = \\sqrt{2^2 + 5^2 + 3^2} = \\sqrt{4+25+9} = \\sqrt{38} \\approx 6.16$<br /><br />$\\cos\\theta = \\dfrac{15}{7.81 \\times 6.16} = \\dfrac{15}{48.13} \\approx 0.312$<br /><br />$\\theta = \\cos^{-1}(0.312)$<br /><br />(f) Area of triangle:<br /><br />Area $= \\dfrac{1}{2}|\\vec{SC} \\times \\vec{CT}|$<br /><br />$\\vec{SC} = 3\\hat{i} + 1\\hat{j} -2\\hat{k}$<br /><br />$\\vec{CT} = 3\\hat{i} + 2\\hat{j} -2\\hat{k}$<br /><br />Compute cross product:<br /><br />$\\vec{SC} \\times \\vec{CT} = |\\begin{array}{ccc} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & 1 & -2 \\\\ 3 & 2 & -2 \\end{array}|$<br /><br />$= \\hat{i}[(1)(-2)-(-2)(2)] - \\hat{j}[3(-2)-(-2)(3)] + \\hat{k}[3 \\cdot 2 - 1 \\cdot 3]$<br /><br />$= \\hat{i}[-2+4] - \\hat{j}[-6+6] + \\hat{k}[6-3]$<br /><br />$= 2\\hat{i} - 0\\hat{j} + 3\\hat{k}$<br /><br />Magnitude $= \\sqrt{2^2 + 0^2 + 3^2} = \\sqrt{13}$<br /><br />Area $= \\dfrac{1}{2} \\sqrt{13} \\approx 1.80$ units².",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec{SC}=3\\hat{i}+\\hat{j}-2\\hat{k}$, $\\vec{CT}=3\\hat{i}+2\\hat{j}-2\\hat{k}$<br />(b) Unit vector along $\\vec{ST}=\\frac{6\\hat{i}+3\\hat{j}-4\\hat{k}}{\\sqrt{61}}$<br />(c) $|\\vec{ST}|=\\sqrt{61}$<br />(d) Resultant unit vector $=\\frac{8\\hat{i}+17\\hat{j}+11\\hat{k}}{\\sqrt{474}}$<br />(e) $\\cos\\theta\\approx0.312$<br />(f) Area $=\\frac{\\sqrt{13}}{2}$",
+    "B": "(a) $\\vec{SC}=3\\hat{i}+2\\hat{j}-2\\hat{k}$, $\\vec{CT}=3\\hat{i}+\\hat{j}-2\\hat{k}$<br />(b) Unit vector along $\\vec{ST}=\\frac{6\\hat{i}+3\\hat{j}-4\\hat{k}}{\\sqrt{61}}$<br />(c) $|\\vec{ST}|=\\sqrt{61}$<br />(d) Resultant unit vector $=\\frac{8\\hat{i}+17\\hat{j}+11\\hat{k}}{\\sqrt{474}}$<br />(e) $\\cos\\theta\\approx0.612$<br />(f) Area $=\\sqrt{13}$",
+    "C": "(a) $\\vec{SC}=6\\hat{i}+3\\hat{j}-4\\hat{k}$, $\\vec{CT}=3\\hat{i}+2\\hat{j}-2\\hat{k}$<br />(b) Unit vector along $\\vec{ST}=\\frac{3\\hat{i}+\\hat{j}-2\\hat{k}}{\\sqrt{14}}$<br />(c) $|\\vec{ST}|=\\sqrt{14}$<br />(d) Resultant unit vector $=\\frac{6\\hat{i}+12\\hat{j}+8\\hat{k}}{\\sqrt{244}}$<br />(e) $\\cos\\theta\\approx0.312$<br />(f) Area $=\\frac{\\sqrt{13}}{2}$",
+    "D": "(a) $\\vec{SC}=3\\hat{i}+\\hat{j}-2\\hat{k}$, $\\vec{CT}=3\\hat{i}+2\\hat{j}-2\\hat{k}$<br />(b) Unit vector along $\\vec{ST}=\\frac{6\\hat{i}+3\\hat{j}+4\\hat{k}}{\\sqrt{61}}$<br />(c) $|\\vec{ST}|=\\sqrt{61}$<br />(d) Resultant unit vector $=\\frac{8\\hat{i}+17\\hat{j}+11\\hat{k}}{\\sqrt{474}}$<br />(e) $\\cos\\theta\\approx0$<br />(f) Area $=\\frac{13}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:17:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

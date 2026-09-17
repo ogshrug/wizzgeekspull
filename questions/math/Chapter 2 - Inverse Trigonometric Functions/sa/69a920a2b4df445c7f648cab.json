@@ -1,0 +1,29 @@
+{
+  "id": "69a920a2b4df445c7f648cab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Prove that for $x \\in (0,1)$, $\\sin^{-1}x + \\sin^{-1}\\sqrt{1-x^2} = \\frac{\\pi}{2}$.",
+  "answeroption": "D",
+  "explanation": "Let $\\theta = \\sin^{-1}x$.<br /><br />Then $x=\\sin\\theta$, where $\\theta\\in(0,\\frac{\\pi}{2})$.<br /><br />Thus $\\sqrt{1-x^2}=\\sqrt{1-\\sin^2\\theta}=\\cos\\theta$.<br /><br />Hence $\\sin^{-1}(\\sqrt{1-x^2})=\\sin^{-1}(\\cos\\theta)$.<br /><br />Since $\\cos\\theta=\\sin(\\frac{\\pi}{2}-\\theta)$, we get $\\sin^{-1}(\\cos\\theta)=\\frac{\\pi}{2}-\\theta$.<br /><br />Therefore $\\sin^{-1}x+\\sin^{-1}\\sqrt{1-x^2}=\\theta+(\\frac{\\pi}{2}-\\theta)=\\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $\\theta=\\sin^{-1}x$. Then $\\sqrt{1-x^2}=\\sin\\theta$, so the sum becomes $2\\theta$.",
+    "B": "Let $\\theta=\\sin^{-1}x$. Then $\\sqrt{1-x^2}=\\tan\\theta$, so the sum becomes $\\tan^{-1}x$.",
+    "C": "Let $\\theta=\\sin^{-1}x$. Then $\\sqrt{1-x^2}=\\cos\\theta$, so $\\sin^{-1}(\\sqrt{1-x^2})=\\theta$ and the sum is $2\\theta$.",
+    "D": "Let $\\theta=\\sin^{-1}x$. Then $\\sqrt{1-x^2}=\\cos\\theta=\\sin(\\frac{\\pi}{2}-\\theta)$, so $\\sin^{-1}(\\sqrt{1-x^2})=\\frac{\\pi}{2}-\\theta$ and the sum is $\\frac{\\pi}{2}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:20:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

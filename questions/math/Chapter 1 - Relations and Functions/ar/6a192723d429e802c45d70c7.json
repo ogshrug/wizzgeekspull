@@ -1,0 +1,29 @@
+{
+  "id": "6a192723d429e802c45d70c7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "AR",
+  "question": "Consider the function $f:\\mathbb{R}\\longrightarrow\\mathbb{R}$ defined as $f(x)=x^{3}$.<br />**Assertion (A):** $f(x)$ is a one-one function.<br />**Reason (R):** $f(x)$ is a one-one function, if co-domain = range.",
+  "answeroption": "C",
+  "explanation": "**Step 1: Check Assertion (A)**<br />A function $f$ is one-one (injective) if $f(x_1) = f(x_2) \\implies x_1 = x_2$. Let $x_1, x_2 \\in \\mathbb{R}$ such that $f(x_1) = f(x_2)$. This gives $x_1^3 = x_2^3$. Taking the real cube root on both sides yields $x_1 = x_2$. Since this holds true for all real numbers, the function is strictly one-one. Therefore, Assertion (A) is **true**.<br /><br />**Step 2: Check Reason (R)**<br />By standard definition, a function is onto (surjective) if its co-domain equals its range, not one-one. A function is one-one if every distinct input maps to a distinct unique output. Therefore, the statement in Reason (R) is mathematically **false**.<br /><br />**Step 3: Determine final option code**<br />Since Assertion (A) is true and Reason (R) is false, the correct choice corresponds to Option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

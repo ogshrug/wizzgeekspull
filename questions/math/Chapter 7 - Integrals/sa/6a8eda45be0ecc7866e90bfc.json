@@ -1,0 +1,29 @@
+{
+  "id": "6a8eda45be0ecc7866e90bfc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int \\frac{3x+5}{(x+1)(x+2)}\\,dx$ by resolving the integrand into partial fractions.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Set up the partial fractions</b><br>Since the denominator contains two distinct linear factors, write<br>$$\\frac{3x+5}{(x+1)(x+2)}=\\frac{A}{x+1}+\\frac{B}{x+2}$$<br><b>Step 2: Remove the denominator</b><br>Multiplying by $(x+1)(x+2)$ gives<br>$$3x+5=A(x+2)+B(x+1)$$<br><b>Step 3: Determine the constants</b><br>Comparing coefficients,<br>$$A+B=3,\\qquad 2A+B=5$$<br>Subtracting the first equation from the second gives $A=2$, and hence $B=1$.<br><b>Step 4: Rewrite the integral</b><br>$$\\int\\frac{3x+5}{(x+1)(x+2)}\\,dx=\\int\\left(\\frac{2}{x+1}+\\frac{1}{x+2}\\right)dx$$<br><b>Step 5: Integrate the simple fractions</b><br>Therefore,<br>$$\\boxed{2\\log|x+1|+\\log|x+2|+C}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\log|x+1|+2\\log|x+2|+C$",
+    "B": "$2\\log|x+1|+\\log|x+2|+C$",
+    "C": "$2\\log|x+1|-\\log|x+2|+C$",
+    "D": "$3\\log|x+1|+\\log|x+2|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

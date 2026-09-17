@@ -1,0 +1,33 @@
+{
+  "id": "6a2265ecfbdd87b6dea73b77",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f(x)=2x+\\cos~x,$ then f(x):",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> To determine the behavior of the function, compute its first derivative with respect to $x$: $f'(x) = \\frac{d}{dx}(2x + \\cos x) = 2 - \\sin x$.<br /><br /><b>Step 2</b> Analyze the bounding limits of the sine function component. We know that the values of $\\sin x$ are strictly bounded between $-1$ and $1$ for all real numbers: $-1 \\le \\sin x \\le 1$.<br /><br /><b>Step 3</b> Substitute these bounds into our derivative equation: subtracting $\\sin x$ from $2$ means that the value of $2 - \\sin x$ will vary between $2 - 1 = 1$ and $2 - (-1) = 3$. Since the derivative $f'(x)$ is always positive ($1 \\le f'(x) \\le 3 > 0$), the function is an increasing function, matching option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "has a maxima at x = π",
+    "B": "has a minima at x = π",
+    "C": "is an increasing function",
+    "D": "is a decreasing function"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

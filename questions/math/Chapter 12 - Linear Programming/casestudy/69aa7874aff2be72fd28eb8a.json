@@ -1,0 +1,29 @@
+{
+  "id": "69aa7874aff2be72fd28eb8a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A dairy blends two products, Milk A and Milk B, to supply at least 30 units of calcium and at least 20 units of protein per day. Each liter of Milk A provides 6 units of calcium and 2 units of protein; Milk B provides 3 units calcium, 4 units protein. Milk A costs ₹15/liter, B costs ₹12/liter. Formulate and solve the LPP, graphically, for minimum cost.",
+  "answeroption": "C",
+  "explanation": "Let $x$=liters of A, $y$=liters of B<br /><br />Minimize $Z=15x+12y$<br /><br />Calcium: $6x+3y\\geq30$<br /><br />Protein: $2x+4y\\geq20$<br /><br />$x,y\\geq0$<br /><br />$6x+3y=30\\implies 2x+y=10$<br /><br />$2x+4y=20\\implies x+2y=10$<br /><br />Intersection: $2x+y=10$, $x+2y=10$<br /><br />From second: $x=10-2y$<br /><br />Substitute: $2(10-2y)+y=10\\implies20-4y+y=10\\implies-3y=-10\\implies y=10/3\\approx3.33$<br /><br />$x=10-2*3.33=10-6.66=3.33$<br /><br />Points: $(3.33,3.33)$<br /><br />Other points: $x=0$, $4y=20\\implies y=5$; $y=0$, $2x=10\\implies x=5$<br /><br />But must check if satisfies all constraints.<br /><br />Test $(0,5)$: $6*0+3*5=15<30$ not enough calcium<br /><br />$5,0$: $2*5=10\\geq20$? No, $10<20$ so not enough protein<br /><br />So only $(3.33,3.33)$<br /><br />Compute $Z=15*3.33+12*3.33=27*3.33≈89.91$<br /><br />Thus, minimum cost is ₹89.91 at 3.33 liters of each.",
+  "explanation_image": [],
+  "options": {
+    "A": "LPP: Minimize $Z=15x+12y$, subject to $6x+3y\\geq30$, $2x+4y\\geq20$, $x,y\\geq0$; minimum at $(0,5)$, cost ₹60.",
+    "B": "LPP: Minimize $Z=15x+12y$, subject to $6x+3y\\geq30$, $2x+4y\\geq20$, $x,y\\geq0$; minimum at $(5,0)$, cost ₹75.",
+    "C": "LPP: Minimize $Z=15x+12y$, subject to $6x+3y\\geq30$, $2x+4y\\geq20$, $x,y\\geq0$; minimum at approximately $(3.33,3.33)$, cost ₹89.91.",
+    "D": "LPP: Minimize $Z=15x+12y$, subject to $6x+3y\\geq30$, $2x+4y\\geq20$, $x,y\\geq0$; minimum at $(3,4)$, cost ₹93."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:47:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

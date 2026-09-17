@@ -1,0 +1,26 @@
+{
+  "id": "6a311281ed9d5eb2aa722a03",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int_{-1}^{1}|x^{4}-x|dx.$",
+  "answeroption": "",
+  "explanation": "**Step 1: Find the Roots of the Expression**  \nWe need to evaluate $\\int_{-1}^{1} |x^4 - x| \\, dx$. First, find where $x^4 - x = 0$:  \n$$x(x^3 - 1) = 0 \\Rightarrow x = 0 \\text{ or } x = 1$$  \nWithin the interval $[-1, 1]$, the roots are $x = 0$ and $x = 1$.\n\n**Step 2: Determine the Sign of the Expression**  \n- For $x \\in [-1, 0]$: $x^4 - x > 0$ (since $x^4 \\ge 0$ and $-x > 0$), so $|x^4 - x| = x^4 - x$.  \n- For $x \\in [0, 1]$: $x^4 - x \\le 0$ (since $x^4 \\le x$), so $|x^4 - x| = x - x^4$.\n\n**Step 3: Split the Integral**  \n$$I = \\int_{-1}^{0} (x^4 - x) \\, dx + \\int_{0}^{1} (x - x^4) \\, dx$$\n\n**Step 4: Evaluate Each Integral**  \n$$I_1 = \\int_{-1}^{0} (x^4 - x) \\, dx = \\left[\\frac{x^5}{5} - \\frac{x^2}{2}\\right]_{-1}^{0} = 0 - \\left(-\\frac{1}{5} - \\frac{1}{2}\\right) = \\frac{1}{5} + \\frac{1}{2} = \\frac{7}{10}$$  \n$$I_2 = \\int_{0}^{1} (x - x^4) \\, dx = \\left[\\frac{x^2}{2} - \\frac{x^5}{5}\\right]_{0}^{1} = \\frac{1}{2} - \\frac{1}{5} = \\frac{3}{10}$$\n\n**Step 5: Sum the Results**  \n$$I = I_1 + I_2 = \\frac{7}{10} + \\frac{3}{10} = 1$$  \nTherefore, the value of the definite integral is 1.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

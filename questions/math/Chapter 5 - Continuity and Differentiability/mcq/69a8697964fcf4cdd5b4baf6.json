@@ -1,0 +1,29 @@
+{
+  "id": "69a8697964fcf4cdd5b4baf6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "For which value(s) of $k$ is the function $f(x) = \\begin{cases} kx^2, & x \\leq 1 \\\\ 2x-1, & x > 1 \\end{cases}$ continuous at $x=1$?",
+  "answeroption": "A",
+  "explanation": "Require $\\lim_{x \\to 1^-} f(x) = \\lim_{x \\to 1^+} f(x) = f(1)$.<br /><br />$\\lim_{x \\to 1^-} f(x) = k(1)^2 = k$<br /><br />$\\lim_{x \\to 1^+} f(x) = 2(1) - 1 = 1$<br /><br />So $k=1$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=1$",
+    "B": "$k=2$",
+    "C": "$k=1$ or $k=2$",
+    "D": "$k=1/2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:18:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

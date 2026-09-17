@@ -1,0 +1,26 @@
+{
+  "id": "6a2291d3fbdd87b6dea73b9d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{\\pi/2}^{\\pi}e^{x}(\\frac{1-\\sin~x}{1-\\cos~x})dx$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Expand the terms inside the integrand using trigonometric half-angle formulas to simplify the rational form: $1 - \\sin x = 1 - 2\\sin\\frac{x}{2}\\cos\\frac{x}{2}$ and $1 - \\cos x = 2\\sin^2\\frac{x}{2}$.<br /><br /><b>Step 2</b> Substitute these identities into the fraction split: $\\frac{1 - 2\\sin\\frac{x}{2}\\cos\\frac{x}{2}}{2\\sin^2\\frac{x}{2}} = \\frac{1}{2}\\csc^2\\frac{x}{2} - \\cot\\frac{x}{2}$. The integral rewritten becomes $\\int_{\\pi/2}^{\\pi} e^x \\left( -\\cot\\frac{x}{2} + \\frac{1}{2}\\csc^2\\frac{x}{2} \\right) dx$.<br /><br /><b>Step 3</b> Notice that this expression matches the standard integration form $\\int e^x (f(x) + f'(x)) dx = e^x f(x)$. If we set $f(x) = -\\cot\\frac{x}{2}$, its derivative evaluates precisely to $f'(x) = \\frac{1}{2}\\csc^2\\frac{x}{2}$.<br /><br /><b>Step 4</b> Therefore, the indefinite integral evaluates to $e^x \\left( -\\cot\\frac{x}{2} \\right) = -e^x \\cot\\frac{x}{2}$. Now, apply the limits of integration from $\\frac{\\pi}{2}$ to $\\pi$: $\\left[ -e^x \\cot\\frac{x}{2} \\right]_{\\pi/2}^{\\pi}$.<br /><br /><b>Step 5</b> Evaluate the terms at the upper and lower limits: at the upper bound $x = \\pi$, $-e^{\\pi}\\cot\\frac{\\pi}{2} = 0$. At the lower bound $x = \\frac{\\pi}{2}$, $-e^{\\pi/2}\\cot\\frac{\\pi}{4} = -e^{\\pi/2}$. Subtracting the lower bound gives $0 - (-e^{\\pi/2}) = e^{\\pi/2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a91e79575fa42e0944484c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "SA",
+  "question": "Suppose $x, y \\geq 0$, $x + y \\leq 4$, $x + 2y \\leq 5$, maximize $Z = 4x + 3y$. Check if an optimal solution exists and, if so, find the maximum value and corresponding point(s).",
+  "answeroption": "B",
+  "explanation": "Step 1: Constraints:<br /><br />$x + y \\leq 4$ (1)<br /><br />$x + 2y \\leq 5$ (2)<br /><br />$x, y \\geq 0$<br /><br />Step 2: Vertices:<br /><br />(1) $x=0 \\implies y \\leq 4$<br /><br />(2) $x=0 \\implies 2y\\leq5\\implies y\\leq2.5$<br /><br />$x=0$, $y$ is at most $2.5$ (tighter constraint).<br /><br />(1) $y=0 \\implies x \\leq 4$<br /><br />(2) $y=0 \\implies x \\leq 5$<br /><br />So at $y=0$, $x$ is at most $4$.<br /><br />Intersection: $x + y = 4$<br /><br />$x + 2y = 5$<br /><br />Subtract: $x+y-(x+2y) = 4-5\\implies -y = -1\\implies y=1$<br /><br />$x=3$<br /><br />So $(3,1)$<br /><br />Other vertices: $(0,0), (0,2.5), (4,0)$<br /><br />Check feasibility:<br /><br />$(0,2.5)$: $0+2.5=2.5\\leq4$, $0+2\\times2.5=5$, ok<br /><br />$(4,0): 4+0=4, 4+0=4\\leq5$, ok<br /><br />$(0,0):$ both zeros<br /><br />$(3,1): 3+1=4\\leq4, 3+2=5\\leq5$<br /><br />Compute $Z$ values:<br /><br />$(0,0):0$<br /><br />$(4,0):4\\times4=16$<br /><br />$(0,2.5):3\\times2.5=7.5$<br /><br />$(3,1):4\\times3+3\\times1=12+3=15$<br /><br />Maximum at $(4,0)$: $Z=16$<br /><br />Therefore, the optimal solution exists at $(4,0)$. $Z_{max}=16$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Optimal solution exists at $(3,1)$ with $Z_{max}=15$.",
+    "B": "Optimal solution exists at $(4,0)$ with $Z_{max}=16$.",
+    "C": "Optimal solution exists at $(0,2.5)$ with $Z_{max}=7.5$.",
+    "D": "No optimal solution exists because the feasible region is unbounded."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:11:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

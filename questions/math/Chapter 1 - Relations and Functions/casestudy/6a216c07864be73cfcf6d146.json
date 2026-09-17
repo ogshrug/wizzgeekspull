@@ -1,0 +1,30 @@
+{
+  "id": "6a216c07864be73cfcf6d146",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43",
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A school wants the students of class XII to do a project on 'Sustainability' keeping the world environment in mind. They select the student participants on the basis of an essay writing competition. 7 students out of 80 are selected for the project and are categorized into two sets such that: Girl students belong to Set $A=\\{G_1, G_2, G_3, G_4\\}$, Boy students belong to Set $B=\\{B_1, B_2, B_3\\}$. Based on the above information, answer the following questions:<br /><br />**(i)** How many relations are possible from Set $A \\rightarrow$ Set $B$?<br />**(ii)** Let R be a relation from $A \\rightarrow B$ such that $R = \\{(G_1, B_1), (G_2, B_2), (G_3, B_2), (G_4, B_3), (G_1, B_2)\\}$. Is R an injective function? Justify your answer.<br />**(iii) (a)** Let the relation R from $A \\rightarrow A$ be such that $R = \\{(x, y) \\mid x, y \\in A, \\text{x and y are students from the same colony in the city}\\}$. Verify if R is an equivalence relation.<br />OR<br />**(iii) (b)** Verify if any function $f: B \\rightarrow A$ is bijective. Give reason to support your answer.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The number of elements in Set A is $n(A) = 4$ and Set B is $n(B) = 3$.<br />**Step 2:** The total number of possible relations is $2^{n(A) \\times n(B)} = 2^{4 \\times 3} = 2^{12} = 4096$.<br /><br />**(ii)** **Step 1:** For R to be a function, every element in A must have a unique image in B. Here $G_1$ has two images ($B_1$ and $B_2$).<br />**Step 2:** Since $G_1$ maps to two different elements, R is not a function; therefore, it cannot be an injective function.<br /><br />**(iii) (a)** **Step 1:** Reflexive: For any student $x \\in A$, $(x, x) \\in R$ because a student lives in the same colony as themselves.<br />**Step 2:** Symmetric: If $(x, y) \\in R$, then $x$ and $y$ live in the same colony, which means $y$ and $x$ live in the same colony, so $(y, x) \\in R$.<br />**Step 3:** Transitive: If $(x, y) \\in R$ and $(y, z) \\in R$, then $x, y,$ and $z$ all live in the same colony, so $(x, z) \\in R$. Since it is reflexive, symmetric, and transitive, R is an equivalence relation.<br /><br />**(iii) (b)** **Step 1:** A function is bijective if it is both one-to-one (injective) and onto (surjective).<br />**Step 2:** For a function $f: B \\rightarrow A$ to be onto, every element in the codomain A must have a pre-image in B. Since $n(B) = 3$ and $n(A) = 4$, it is impossible for all 4 elements in A to be covered by only 3 elements from B. Thus, no such function can be onto, and consequently, none can be bijective.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

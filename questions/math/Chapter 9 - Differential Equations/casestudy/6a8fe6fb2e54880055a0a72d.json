@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe6fb2e54880055a0a72d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ae",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom exercise, students are given the differential equation $x\\frac{dy}{dx}+2y=x^3$, where $x>0$. Before solving it, they must first rewrite it in the standard first-order linear form $\\frac{dy}{dx}+Py=Q$. The coefficient $P$ is then used to determine an integrating factor. Multiplication by this factor converts the left-hand side into the derivative of a product involving $y$, allowing the equation to be integrated directly. The restriction $x>0$ ensures that expressions involving $\\log x$ arising in the integrating-factor calculation are well defined.<br><br><b>(a)</b> Rewrite the differential equation in standard linear form and identify $P$ and $Q$.<br><br><b>(b)</b> Determine the integrating factor.<br><br><b>(c)</b> Multiply the standard form by the integrating factor and express the left-hand side as a single derivative.<br><br><b>(d)</b> Integrate and obtain the general solution.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The given equation is $$x\\frac{dy}{dx}+2y=x^3$$<br><br>Since $x>0$, divide throughout by $x$: $$\\frac{dy}{dx}+\\frac{2}{x}y=x^2$$<br><br>Comparing with $\\frac{dy}{dx}+Py=Q$, we get $$P=\\frac{2}{x},\\qquad Q=x^2$$<br><br><b>(b)</b><br>The integrating factor is $$\\text{I.F.}=e^{\\int P\\,dx}=e^{\\int\\frac{2}{x}\\,dx}$$<br><br>Therefore, $$\\text{I.F.}=e^{2\\log x}=x^2$$<br><br><b>(c)</b><br>Multiplying $$\\frac{dy}{dx}+\\frac{2}{x}y=x^2$$ by $x^2$, we get $$x^2\\frac{dy}{dx}+2xy=x^4$$<br><br>The left-hand side is $$\\frac{d}{dx}(x^2y)$$<br><br>Hence, $$\\frac{d}{dx}(x^2y)=x^4$$<br><br><b>(d)</b><br>Integrating both sides with respect to $x$, $$x^2y=\\int x^4\\,dx+C$$<br><br>Thus, $$x^2y=\\frac{x^5}{5}+C$$<br><br>Therefore, the general solution is $$y=\\frac{x^3}{5}+\\frac{C}{x^2}$$<br><br>with $x>0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dy}{dx}+\\frac{2}{x}y=x^2$, so $P=\\frac{2}{x},\\ Q=x^2$<br>(b) I.F. $=x^2$<br>(c) $\\frac{d}{dx}(x^2y)=x^4$<br>(d) $y=\\frac{x^3}{5}+\\frac{C}{x^2}$",
+    "B": "(a) $\\frac{dy}{dx}+2y=x^2$, so $P=2,\\ Q=x^2$<br>(b) I.F. $=e^{2x}$<br>(c) $\\frac{d}{dx}(e^{2x}y)=x^2e^{2x}$<br>(d) $y=\\frac{x^3}{3}+C$",
+    "C": "(a) $\\frac{dy}{dx}+\\frac{2}{x}y=x^3$, so $P=\\frac{2}{x},\\ Q=x^3$<br>(b) I.F. $=x$<br>(c) $\\frac{d}{dx}(xy)=x^4$<br>(d) $y=\\frac{x^4}{5}+\\frac{C}{x}$",
+    "D": "(a) $\\frac{dy}{dx}-\\frac{2}{x}y=x^2$<br>(b) I.F. $=\\frac{1}{x^2}$<br>(c) $\\frac{d}{dx}\\left(\\frac{y}{x^2}\\right)=1$<br>(d) $y=x^3+Cx^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

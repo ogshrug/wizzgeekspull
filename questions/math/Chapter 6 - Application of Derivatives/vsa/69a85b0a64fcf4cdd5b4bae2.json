@@ -1,0 +1,30 @@
+{
+  "id": "69a85b0a64fcf4cdd5b4bae2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97d",
+    "6a13e98f8c819562f933f97b"
+  ],
+  "question_type": "VSA",
+  "question": "Given $y = x^3 + x^2 + x + 1$, find the point on the curve where the normal is parallel to the line $y = -x + 3$.",
+  "answeroption": "C",
+  "explanation": "Slope of given line = -1.<br /><br />Slope of normal = -1, so slope of tangent = 1.<br /><br />y' = 3x^2 + 2x + 1.<br /><br />Set 3x^2 + 2x + 1 = 1 gives 3x^2 + 2x = 0.<br /><br />So x(3x + 2) = 0 giving x = 0 or x = -2/3.<br /><br />At x = 0, y = 1.<br /><br />At x = -2/3, y = 13/27.<br /><br />Required points are (0,1) and (-2/3, 13/27).",
+  "explanation_image": [],
+  "options": {
+    "A": "$(0,1)$ only",
+    "B": "$\\left(-\\frac{2}{3},\\frac{13}{27}\\right)$ only",
+    "C": "$(0,1)$ and $\\left(-\\frac{2}{3},\\frac{13}{27}\\right)$",
+    "D": "$(1,4)$ and $\\left(\\frac{2}{3},\\frac{95}{27}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:17:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

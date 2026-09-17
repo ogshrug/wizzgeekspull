@@ -1,0 +1,31 @@
+{
+  "id": "69a9c25ad8e9ca3b293457f6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A company finds the profit $P(x)$ from producing $x$ units is given by $P(x) = 100x - 0.2x^2 - 150$. Find the number of units to be produced to maximize the profit and calculate the maximum profit.<br /><br />a) Find the first derivative of the profit function.<br /><br />b) Determine the number of units that maximizes the profit.<br /><br />c) Calculate the maximum profit.",
+  "answeroption": "D",
+  "explanation": "a) Profit function: $P(x)=100x-0.2x^2-150$.<br /><br /> Differentiating: $\\frac{dP}{dx}=100-0.4x$.<br /><br />b) Set derivative equal to zero: $100-0.4x=0 \\Rightarrow 0.4x=100 \\Rightarrow x=250$.<br /><br /> The second derivative $\\frac{d^2P}{dx^2}=-0.4<0$ so the profit is maximum at $x=250$.<br /><br />c) Maximum profit: $P(250)=100(250)-0.2(250^2)-150=25000-12500-150=12350$.<br /><br /> Hence maximum profit is Rs. 12,350.",
+  "explanation_image": [],
+  "options": {
+    "A": "a) $\\frac{dP}{dx}=100+0.4x$<br />b) Profit is maximized at $x=250$.<br />c) Maximum profit is Rs. $12,350$.",
+    "B": "a) $\\frac{dP}{dx}=100-0.2x$<br />b) Profit is maximized at $x=500$.<br />c) Maximum profit is Rs. $24,850$.",
+    "C": "a) $\\frac{dP}{dx}=100-0.4x$<br />b) Profit is maximized at $x=200$.<br />c) Maximum profit is Rs. $11,850$.",
+    "D": "a) $\\frac{dP}{dx}=100-0.4x$<br />b) Profit is maximized at $x=250$.<br />c) Maximum profit is Rs. $12,350$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:50:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a265aac864be73cfcf6d35d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8bc",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "VSA",
+  "question": "If $|\\vec{a} \\times \\vec{b}|^2 + |\\vec{a} \\cdot \\vec{b}|^2 = 400$ and $|\\vec{b}| = 5$, then find the value of $|\\vec{a}|$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $\\theta$ be the angle between the two vectors $\\vec{a}$ and $\\vec{b}$. By standard vector definitions, the magnitude of the cross product is given by $|\\vec{a} \\times \\vec{b}| = |\\vec{a}||\\vec{b}|\\sin\\theta$, and the dot product is given by $\\vec{a} \\cdot \\vec{b} = |\\vec{a}||\\vec{b}|\\cos\\theta$. Squaring and adding these two definitions together gives: $|\\vec{a} \\times \\vec{b}|^2 + |\\vec{a} \\cdot \\vec{b}|^2 = |\\vec{a}|^2|\\vec{b}|^2\\sin^2\\theta + |\\vec{a}|^2|\\vec{b}|^2\\cos^2\\theta$. Factoring out the shared terms gives Lagrange's identity: $|\\vec{a}|^2|\\vec{b}|^2(\\sin^2\\theta + \\cos^2\\theta) = |\\vec{a}|^2|\\vec{b}|^2$.<br />**Step 2:** We are given that $|\\vec{a} \\times \\vec{b}|^2 + |\\vec{a} \\cdot \\vec{b}|^2 = 400$ and $|\\vec{b}| = 5$. Substituting these values into Lagrange's identity gives the simple equation: $400 = |\\vec{a}|^2 \\times 5^2$. This simplifies to $400 = 25|\\vec{a}|^2$.<br />**Step 3:** Isolate the unknown term by dividing both sides by 25: $|\\vec{a}|^2 = \\frac{400}{25} = 16$. Taking the positive square root, since vector magnitudes must be non-negative values, gives the final result: $|\\vec{a}| = 4$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1",
+    "2022-4-2",
+    "2022-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

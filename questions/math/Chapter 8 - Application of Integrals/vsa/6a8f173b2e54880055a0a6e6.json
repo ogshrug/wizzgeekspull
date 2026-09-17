@@ -1,0 +1,29 @@
+{
+  "id": "6a8f173b2e54880055a0a6e6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "VSA",
+  "question": "The curve $y=x^3-x$ intersects the x-axis at $x=-1$, $x=0$ and $x=1$. Find the total area between the curve and the x-axis from $x=-1$ to $x=1$.",
+  "answeroption": "B",
+  "explanation": "Step 1: On $[-1,0]$, $x^3-x\\geq0$, while on $[0,1]$, $x^3-x\\leq0$. Hence, the area must be separated at $x=0$. Step 2: Thus, $A=\\int_{-1}^{0}(x^3-x)dx-\\int_0^1(x^3-x)dx$. Step 3: Using $\\int(x^3-x)dx=\\frac{x^4}{4}-\\frac{x^2}{2}$, the two positive areas are $\\frac{1}{4}$ and $\\frac{1}{4}$. Step 4: Therefore, $A=\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2}$. Final Answer: The total area is $\\frac{1}{2}$ square unit.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{4}$ square unit",
+    "B": "$\\frac{1}{2}$ square unit",
+    "C": "$1$ square unit",
+    "D": "$\\frac{3}{4}$ square unit"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

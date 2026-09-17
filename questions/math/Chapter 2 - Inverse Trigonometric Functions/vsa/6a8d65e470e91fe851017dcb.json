@@ -1,0 +1,29 @@
+{
+  "id": "6a8d65e470e91fe851017dcb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "VSA",
+  "question": "Find the domain of $f(x)=\\sin^{-1}\\left(\\frac{x^2-1}{2}\\right)$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b><br>The argument of the inverse sine function must belong to $[-1,1]$. Hence, $$-1\\leq\\frac{x^2-1}{2}\\leq1.$$<br><br><b>Step 2:</b><br>Multiplying throughout by $2$ gives $$-2\\leq x^2-1\\leq2.$$<br><br><b>Step 3:</b><br>Adding $1$ throughout gives $$-1\\leq x^2\\leq3.$$ Since $x^2\\geq0$, the lower inequality is automatically satisfied.<br><br><b>Step 4:</b><br>Therefore, $x^2\\leq3$, which is equivalent to $$-\\sqrt{3}\\leq x\\leq\\sqrt{3}.$$ Both endpoints are included because the argument becomes $1$ there.<br><br><b>Final Answer:</b><br>The domain is $$[-\\sqrt{3},\\sqrt{3}].$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(-\\sqrt{3},\\sqrt{3})$",
+    "B": "$[-\\sqrt{3},\\sqrt{3}]$",
+    "C": "$(-\\infty,-\\sqrt{3}]\\cup[\\sqrt{3},\\infty)$",
+    "D": "$[-3,3]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd4882e54880055a0a718",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "VSA",
+  "question": "The equation $\\frac{dx}{dy}=\\frac{x+y}{y}$ is to be solved as a homogeneous differential equation with $x$ regarded as a function of $y$. Determine the suitable substitution and obtain the simplified differential relation.",
+  "answeroption": "C",
+  "explanation": "Step 1: Write the right-hand side as $\\frac{x+y}{y}=\\frac{x}{y}+1$, which depends only on the ratio $\\frac{x}{y}$.<br>Step 2: Since the equation is expressed as $\\frac{dx}{dy}$ and depends on $\\frac{x}{y}$, use the substitution $x=vy$.<br>Step 3: Differentiating with respect to $y$ gives $\\frac{dx}{dy}=v+y\\frac{dv}{dy}$.<br>Step 4: Substitute into the differential equation: $v+y\\frac{dv}{dy}=v+1$.<br>Step 5: Cancelling $v$ from both sides gives $y\\frac{dv}{dy}=1$, or equivalently $dv=\\frac{dy}{y}$. Thus, $x=vy$ is the suitable substitution and the equation becomes separable.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=vx$ and $x\\frac{dv}{dx}=1$",
+    "B": "$x=vy$ and $y\\frac{dv}{dy}=v$",
+    "C": "$x=vy$ and $y\\frac{dv}{dy}=1$",
+    "D": "$y=vx$ and $y\\frac{dv}{dy}=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

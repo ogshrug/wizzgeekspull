@@ -1,0 +1,30 @@
+{
+  "id": "6a8fca7c2e54880055a0a708",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e",
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "LA",
+  "question": "Let $A(x)=\\int_0^x f(t)\\,dt$ and suppose that $A(x)=x^3-3x^2+4x$. Using the Fundamental Theorem of Calculus, determine $f(x)$ and hence evaluate $\\int_1^3 f(x)\\,dx$, verifying the value obtained directly from the given expression for $A(x)$.",
+  "answeroption": "A",
+  "explanation": "The function $A(x)$ is given by<br><br>$$A(x)=\\int_0^x f(t)\\,dt=x^3-3x^2+4x$$<br><br>By the First Fundamental Theorem of Calculus, if $f$ is continuous, then<br><br>$$A'(x)=f(x)$$<br><br>Differentiating the given expression for $A(x)$,<br><br>$$f(x)=\\frac{d}{dx}(x^3-3x^2+4x)=3x^2-6x+4$$<br><br>Now, using the additivity of definite integrals,<br><br>$$A(3)-A(1)=\\int_0^3 f(t)\\,dt-\\int_0^1 f(t)\\,dt=\\int_1^3 f(t)\\,dt$$<br><br>Therefore,<br><br>$$\\int_1^3 f(x)\\,dx=A(3)-A(1)$$<br><br>From the given expression,<br><br>$$A(3)=3^3-3(3^2)+4(3)=27-27+12=12$$<br><br>and<br><br>$$A(1)=1-3+4=2$$<br><br>Hence,<br><br>$$\\int_1^3 f(x)\\,dx=12-2=10$$<br><br><b>Verification</b><br><br>An antiderivative of $f(x)=3x^2-6x+4$ is<br><br>$$F(x)=x^3-3x^2+4x$$<br><br>By the Second Fundamental Theorem of Calculus,<br><br>$$\\int_1^3 f(x)\\,dx=[F(x)]_1^3=12-2=10$$<br><br>Thus, $f(x)=3x^2-6x+4$ and the required definite integral is $10$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(x)=3x^2-6x+4$ and $\\int_1^3f(x)\\,dx=10$",
+    "B": "$f(x)=3x^2-3x+4$ and $\\int_1^3f(x)\\,dx=10$",
+    "C": "$f(x)=x^3-3x^2+4x$ and $\\int_1^3f(x)\\,dx=10$",
+    "D": "$f(x)=3x^2-6x+4$ and $\\int_1^3f(x)\\,dx=12$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

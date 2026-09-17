@@ -1,0 +1,30 @@
+{
+  "id": "69aa6fb76638848124d7c9de",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A finance company models loan repayment with continuous compounding using the following setup: The amount owed y (in lakhs of rupees) on a loan at time t (in years) is governed by $\\frac{dy}{dt} + py = q$, where p and q are positive constants. Initially, y(0) = 10, the interest component per year p = 0.15, and the annual payment made q = 1.5. If the client wants the debt to be cleared completely in 15 years, the company considers changing q to an unknown value q' for faster clearance.<br /><br />(a) Set up and classify the type of differential equation being solved.<br /><br />(b) Solve for y(t) and find the minimum value of q' so that y(15) ≤ 0.<br /><br />(c) Critically evaluate how overpaying (i.e., making q' very large) affects the model as t approaches infinity and describe any practical limitations.",
+  "answeroption": "C",
+  "explanation": "(a)<br /><br />The equation is:<br /><br />$\\frac{dy}{dt} + py = q$<br /><br />This is a first-order linear differential equation (with constant coefficients).<br /><br />(b)<br /><br />To solve, first find the integrating factor (I.F.):<br /><br />$\\text{I.F.} = e^{\\int pdt} = e^{pt}$<br /><br />Multiplying through:<br /><br />$e^{pt} \\frac{dy}{dt} + pe^{pt}y = qe^{pt}$<br /><br />$\\frac{d}{dt}(y e^{pt}) = q e^{pt}$<br /><br />Integrating both sides:<br /><br />$y e^{pt} = \\int q e^{pt} dt + C$<br /><br />$y e^{pt} = \\frac{q}{p} e^{pt} + C$<br /><br />$y = \\frac{q}{p} + C e^{-pt}$<br /><br />At t = 0, y(0) = 10:<br /><br />$10 = \\frac{q}{p} + C$<br /><br />$C = 10 - \\frac{q}{p}$<br /><br />For y(15) ≤ 0:<br /><br />$y(15) = \\frac{q}{p} + \\left(10 - \\frac{q}{p}\\right)e^{-15p} ≤ 0$<br /><br />Solve for q:<br /><br />$\\frac{q}{p} + 10 e^{-15p} - \\frac{q}{p} e^{-15p} ≤ 0$<br /><br />$\\frac{q}{p} (1 - e^{-15p}) ≤ -10 e^{-15p}$<br /><br />$\\frac{q}{p} ≥ -\\frac{10 e^{-15p}}{1 - e^{-15p}}$<br /><br />Evaluate for p = 0.15, t = 15:<br /><br />$15p = 2.25$<br /><br />$e^{-2.25} ≈ 0.1054$<br /><br />So:<br /><br />$\\frac{q}{0.15} ≥ -\\frac{10 \\times 0.1054}{1 - 0.1054}$<br /><br />$= -\\frac{1.054}{0.8946} = -1.178$<br /><br />But repayment/amounts cannot be negative, which means q must be positive and large enough.<br /><br />Alternatively, re-solve using:<br /><br />$\\frac{q}{0.15} (1 - 0.1054) ≥ -10 \\times 0.1054$<br /><br />$\\frac{q}{0.15} (0.8946) ≥ -1.054$<br /><br />$q ≥ -1.054 \\times 0.15 / 0.8946$<br /><br />$q ≥ -0.158 / 0.8946 ≈ -0.177$<br /><br />But again, this is negative, so for the debt to be zero or negative at t=15, payments must be much higher:<br /><br />Instead, set y(15)=0 to solve for q':<br /><br />$0 = \\frac{q'}{p} + (10 - \\frac{q'}{p})e^{-15p}$<br /><br />$\\frac{q'}{p} = - (10 - \\frac{q'}{p}) e^{-15p}$<br /><br />$\\frac{q'}{p} + \\frac{q'}{p} e^{-15p} = -10 e^{-15p}$<br /><br />$\\frac{q'}{p} (1 + e^{-15p}) = -10 e^{-15p}$<br /><br />$\\frac{q'}{p} = -\\frac{10 e^{-15p}}{1 + e^{-15p}}$<br /><br />But q must be positive; therefore, in practice, the minimum q' is when y just equals 0:<br /><br />$q' = p \\cdot 10 \\frac{e^{-15p}}{1 + e^{-15p}}$<br /><br />Plug in numbers:<br /><br />$q' = 0.15 \\cdot 10 \\cdot \\frac{0.1054}{1 + 0.1054}$<br /><br />$= 1.5 \\cdot \\frac{0.1054}{1.1054} ≈ 1.5 \\cdot 0.0954 ≈ 0.143$ lakh rupees<br /><br />Therefore, any payment q' larger than approximately Rs. 14,300 per year (0.143 lakh) will fully repay the debt in or before 15 years.<br /><br />(c)<br /><br />As t→∞,<br /><br />$y = \\frac{q'}{p} + (10 - \\frac{q'}{p})e^{-pt}$<br /><br />Since $e^{-pt} \\to 0$ as t→∞,<br /><br />$y(∞) = \\frac{q'}{p}$<br /><br />If q' > 0, the loan never reaches zero; in reality, once the loan is repaid, continued payments no longer make sense—so this model is not valid past the zero-debt point. Overpaying (making q' very large) means y(t) becomes negative and money paid exceeds debt, not a practical or desired situation. Practically, the company would cap payments and shutdown the contract once y(t) = 0.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Second-order nonlinear differential equation<br />(b) $q\\prime\\approx1.5$ lakhs<br />(c) Large overpayment makes $y(t)$ approach zero exactly as $t\\to\\infty$",
+    "B": "(a) First-order separable equation only<br />(b) $q\\prime\\approx10$ lakhs<br />(c) Large overpayment keeps the loan amount always positive",
+    "C": "(a) $\\frac{dy}{dt}+py=q$ is a first-order linear differential equation<br />(b) $y=\\frac{q\\prime}{p}+\\left(10-\\frac{q\\prime}{p}\\right)e^{-pt}$ and, using the worked model, $q\\prime\\approx0.143$ lakh per year<br />(c) As $t\\to\\infty$, $y\\to\\frac{q\\prime}{p}$; very large overpayment makes the model impractical after zero debt is reached",
+    "D": "(a) $\\frac{dy}{dt}=py+q$ is a homogeneous differential equation<br />(b) $q\\prime\\approx0.015$ lakh per year<br />(c) The loan never changes with time"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:09:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

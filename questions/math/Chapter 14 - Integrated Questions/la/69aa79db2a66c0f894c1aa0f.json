@@ -1,0 +1,30 @@
+{
+  "id": "69aa79db2a66c0f894c1aa0f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Consider the function $f(x) = \\begin{cases}\\dfrac{x^2 \\sin \\dfrac{1}{x}}{x}, & x\\neq 0\\\\0, & x=0\\end{cases}$ and the $2 \\times 2$ matrix $M = \\begin{pmatrix} f(x) & f(-x) \\\\ f(-x) & f(x) \\end{pmatrix}$.\n(a) Examine the continuity of $f(x)$ at $x=0$.\n(b) Investigate the differentiability of $f(x)$ at $x=0$.\n(c) Compute $\\det(M)$.\n(d) Discuss what the determinant indicates about the behaviour of $f$ near $x=0$.",
+  "answeroption": "B",
+  "explanation": "(a) For $x \\ne 0$:<br />$f(x) = x \\sin \\dfrac{1}{x}$<br />For $x = 0$, $f(0) = 0$<br />$\\lim_{x \\to 0} x \\sin \\frac{1}{x} = 0$ since $|\\sin \\dfrac{1}{x}| \\le 1$.<br />Thus $\\lim_{x\\to0} f(x) = 0 = f(0)$. Hence $f$ is continuous at $x=0$.<br /><br />(b) $f'(0) = \\lim_{h \\to 0} \\frac{f(h) - f(0)}{h}$<br />$= \\lim_{h \\to 0} \\frac{h \\sin \\frac{1}{h}}{h}$<br />$= \\lim_{h \\to 0} \\sin \\frac{1}{h}$<br />This limit does not exist since $\\sin \\frac{1}{h}$ oscillates in $[-1,1]$. Thus $f$ is not differentiable at $x=0$.<br /><br />(c) $M = \\begin{pmatrix} f(x) & f(-x) \\\\ f(-x) & f(x) \\end{pmatrix}$<br />$\\det(M) = f(x)f(x) - f(-x)f(-x)$<br />$= [f(x)]^2 - [f(-x)]^2$<br />But $f(-x) = -x \\sin \\dfrac{1}{-x} = -x \\sin \\left(-\\dfrac{1}{x}\\right) = -x(-\\sin \\dfrac{1}{x}) = x \\sin \\dfrac{1}{x} = f(x)$<br />Thus $[f(x)]^2 - [f(-x)]^2 = 0$. Hence $\\det(M)=0$ for all $x$.<br /><br />(d) The determinant being zero shows the matrix $M$ is singular and its rows are linearly dependent. This reflects the symmetry of the function and indicates balanced behaviour of the function values near $x=0$, maintaining continuity but not differentiability.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is discontinuous at $x=0$<br />(b) $f$ is differentiable at $x=0$ with $f'(0)=1$<br />(c) $\\det(M)=[f(x)]^2+[f(-x)]^2$<br />(d) The matrix is non-singular near $x=0$",
+    "B": "(a) $f$ is continuous at $x=0$<br />(b) $f$ is not differentiable at $x=0$ because $\\lim_{h\\to0}\\sin\\frac1h$ does not exist<br />(c) $\\det(M)=0$ for all $x$<br />(d) The determinant shows $M$ is singular and reflects the symmetry $f(-x)=f(x)$ near $x=0$",
+    "C": "(a) $f$ is continuous only for $x>0$<br />(b) $f'(0)=0$<br />(c) $\\det(M)=2[f(x)]^2$<br />(d) The determinant shows rows are independent",
+    "D": "(a) $f$ is continuous and differentiable at $x=0$<br />(b) $f'(0)$ exists and equals $-1$<br />(c) $\\det(M)=f(x)-f(-x)$<br />(d) The determinant shows the function is odd"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:53:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

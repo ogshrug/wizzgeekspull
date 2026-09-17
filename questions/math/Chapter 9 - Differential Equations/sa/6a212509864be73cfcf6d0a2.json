@@ -1,0 +1,27 @@
+{
+  "id": "6a212509864be73cfcf6d0a2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the following differential equation: $x^2 \\frac{dy}{dx} = x^2 + xy + y^2$",
+  "answeroption": "",
+  "explanation": "**Step 1: Write in Standard Form**  \nDivide both sides by $x^2$:  \n$$\\frac{dy}{dx} = 1 + \\frac{y}{x} + \\left(\\frac{y}{x}\\right)^2$$  \nThis is a homogeneous differential equation.\n\n**Step 2: Apply Substitution**  \nLet $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substitute:  \n$$v + x\\frac{dv}{dx} = 1 + v + v^2$$  \n$$x\\frac{dv}{dx} = 1 + v^2$$\n\n**Step 3: Separate Variables**  \n$$\\frac{dv}{1+v^2} = \\frac{dx}{x}$$  \nIntegrate both sides:  \n$$\\int \\frac{dv}{1+v^2} = \\int \\frac{dx}{x}$$  \n$$\\tan^{-1}v = \\ln|x| + C$$\n\n**Step 4: Substitute Back**  \nReplace $v = \\frac{y}{x}$:  \n$$\\tan^{-1}\\left(\\frac{y}{x}\\right) = \\ln|x| + C$$  \nThis is the general solution of the given differential equation.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

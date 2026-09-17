@@ -1,0 +1,36 @@
+{
+  "id": "6a2265a8864be73cfcf6d1bb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8e1"
+  ],
+  "question_type": "MCQ",
+  "question": "In a Linear Programming Problem (LPP), the objective function $Z=2x+5y$ is to be maximised under the following constraints: $x+y\\le4$, $3x+3y\\ge18$, $x, y\\ge0$. Study the graph and select the correct option.",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Analyze the first constraint $x + y \\le 4$. The region satisfying this inequality lies below or to the left of the line $x + y = 4$, generally encompassing the triangle AOB near the origin.<br />**Step 2:** Analyze the second constraint $3x + 3y \\ge 18$. Simplify this by dividing by 3 to get $x + y \\ge 6$. The region satisfying this inequality lies above or to the right of the line $x + y = 6$.<br />**Step 3:** A feasible region must satisfy all constraints simultaneously. We are looking for an area where $x + y$ is both less than or equal to 4 AND greater than or equal to 6 simultaneously.<br />**Step 4:** This is a mathematical impossibility. The two half-planes are completely disjoint and parallel, with no intersection whatsoever.<br />**Step 5:** Since there is no common feasible region, an optimal solution for the LPP does not exist.",
+  "explanation_image": [],
+  "options": {
+    "A": "lies in the shaded unbounded region.",
+    "B": "lies in $\\Delta$ AOB.",
+    "C": "does not exist.",
+    "D": "lies in the combined region of $\\Delta$ AOB and unbounded shaded region."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2265a8864be73cfcf6d1bb/1782197142-0.png?t=1782216943179"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

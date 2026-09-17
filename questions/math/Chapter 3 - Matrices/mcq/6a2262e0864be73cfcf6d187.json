@@ -1,0 +1,33 @@
+{
+  "id": "6a2262e0864be73cfcf6d187",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A$ and $B$ are square matrices of order $m$ such that $A^{2}-B^{2}=(A-B)(A+B)$, then which of the following is always correct?",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Expand the expression on the right-hand side using the distributive property for matrices: $(A-B)(A+B) = A(A+B) - B(A+B)$.<br />**Step 2:** Continue expanding to get $A^2 + AB - BA - B^2$.<br />**Step 3:** Equate this expanded form to the left-hand side of the given equation: $A^2 - B^2 = A^2 + AB - BA - B^2$.<br />**Step 4:** Subtract $A^2$ and add $B^2$ to both sides. This cancels them out, leaving $0 = AB - BA$.<br />**Step 5:** Rearranging the terms gives $AB = BA$. This means the matrices $A$ and $B$ must commute for the original algebraic identity to hold true.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A=B$",
+    "B": "$AB=BA$",
+    "C": "$A=0$ or $B=0$",
+    "D": "$A=I$ or $B=I$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

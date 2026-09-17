@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc5532e54880055a0a6fc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995"
+  ],
+  "question_type": "SA",
+  "question": "Find the area below the parabola $y=6x-x^2$ and above the x-axis between the lines $x=1$ and $x=5$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Checking the position of the parabola</b><br>The function is $y=x(6-x)$. It is positive throughout the interval $1\\leq x\\leq5$.<br><b>Step 2: Forming the area integral</b><br>\\(A=\\int_1^5(6x-x^2)\\,dx\\)<br><b>Step 3: Evaluating the integral</b><br>\\(A=\\left[3x^2-\\frac{x^3}{3}\\right]_1^5\\)<br><b>Step 4: Simplifying</b><br>\\(A=\\left(75-\\frac{125}{3}\\right)-\\left(3-\\frac{1}{3}\\right)=\\frac{100}{3}-\\frac{8}{3}=\\frac{92}{3}\\)<br><b>Final Answer</b><br>The required area is $\\frac{92}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{100}{3}$ square units",
+    "B": "$\\frac{92}{3}$ square units",
+    "C": "$\\frac{84}{3}$ square units",
+    "D": "$\\frac{64}{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

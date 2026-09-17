@@ -1,0 +1,30 @@
+{
+  "id": "69aa79722a66c0f894c1aa0a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebc98c819562f933f9a3"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation $\\frac{dy}{dx} + 2y = 4e^x$ given $y(0)=1$. <br /><br />(a) Find the general solution.<br /><br />(b) Use the initial condition to find the particular solution.<br /><br />c) Using your solution, compute $\\lim_{x \\to \\infty} y(x)$ and interpret its meaning.",
+  "answeroption": "C",
+  "explanation": "(a) $\\frac{dy}{dx} + 2y = 4e^x$<br />Integrating factor: $IF = e^{2x}$<br />Multiply both sides:<br />$e^{2x}\\frac{dy}{dx} + 2e^{2x}y = 4e^{2x}e^x = 4e^{3x}$<br />$\\frac{d}{dx}(y e^{2x}) = 4e^{3x}$<br />Integrate:<br />$y e^{2x} = \\int 4e^{3x} dx = \\frac{4}{3}e^{3x} + C$<br /><br />(b) $y = \\frac{4}{3}e^{x} + Ce^{-2x}$<br />Apply $y(0) = 1$<br />$1 = \\frac{4}{3} + C$<br />$C = 1 - \\frac{4}{3} = -\\frac{1}{3}$<br />So $y(x) = \\frac{4}{3}e^{x} - \\frac{1}{3}e^{-2x}$<br /><br />(c) $\\lim_{x \\to \\infty} y(x) = \\infty$, as $e^x$ dominates.<br />Interpretation: As time increases, solution grows exponentially without bound due to the non-homogeneous term.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y=\\frac{4}{3}e^x+Ce^{2x}$<br />(b) $y=\\frac{4}{3}e^x-\\frac{1}{3}e^{2x}$<br />(c) $\\lim_{x\\to\\infty}y(x)=0$; the solution decays to zero",
+    "B": "(a) $y=4e^x+Ce^{-2x}$<br />(b) $y=4e^x-3e^{-2x}$<br />(c) $\\lim_{x\\to\\infty}y(x)=\\infty$; the solution grows linearly",
+    "C": "(a) $y=\\frac{4}{3}e^x+Ce^{-2x}$<br />(b) $y=\\frac{4}{3}e^x-\\frac{1}{3}e^{-2x}$<br />(c) $\\lim_{x\\to\\infty}y(x)=\\infty$; the solution grows exponentially without bound due to the non-homogeneous term",
+    "D": "(a) $y=\\frac{4}{3}e^{-x}+Ce^{-2x}$<br />(b) $y=\\frac{4}{3}e^{-x}-\\frac{1}{3}e^{-2x}$<br />(c) $\\lim_{x\\to\\infty}y(x)=0$; the solution approaches a finite steady state"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:51:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

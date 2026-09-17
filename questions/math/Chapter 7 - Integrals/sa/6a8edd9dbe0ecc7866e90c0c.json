@@ -1,0 +1,29 @@
+{
+  "id": "6a8edd9dbe0ecc7866e90c0c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int x\\log x\\,dx$, where $x>0$, by using integration by parts.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Selecting the functions for integration by parts</b><br>The integrand is a product of $x$ and $\\log x$. Use $\\displaystyle \\int u\\,dv=uv-\\int v\\,du$. Choose<br>$$u=\\log x,\\qquad dv=x\\,dx$$<br><b>Step 2: Finding the differential and integral</b><br>Then<br>$$du=\\frac{1}{x}\\,dx,\\qquad v=\\int x\\,dx=\\frac{x^2}{2}$$<br><b>Step 3: Applying integration by parts</b><br>Therefore,<br>$$\\int x\\log x\\,dx=\\frac{x^2}{2}\\log x-\\int\\frac{x^2}{2}\\cdot\\frac{1}{x}\\,dx$$<br><b>Step 4: Simplifying the remaining integral</b><br>$$=\\frac{x^2}{2}\\log x-\\frac{1}{2}\\int x\\,dx$$<br>$$=\\frac{x^2}{2}\\log x-\\frac{x^2}{4}+C$$<br><b>Step 5: Writing the final result</b><br>Hence,<br>$$\\boxed{\\int x\\log x\\,dx=\\frac{x^2}{2}\\log x-\\frac{x^2}{4}+C}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x^2}{2}\\log x+\\frac{x^2}{4}+C$",
+    "B": "$x^2\\log x-\\frac{x^2}{2}+C$",
+    "C": "$\\frac{x^2}{2}\\log x-\\frac{x^2}{4}+C$",
+    "D": "$\\frac{x^2}{4}\\log x-\\frac{x^2}{2}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

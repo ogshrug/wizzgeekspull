@@ -1,0 +1,33 @@
+{
+  "id": "6a22c02a864be73cfcf6d2f7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): $\\int_{2}^{8}\\frac{\\sqrt{10-x}}{\\sqrt{x}+\\sqrt{10-x}}dx=3$.<br />Reason (R): $\\int_{a}^{b}f(x)dx=\\int_{a}^{b}f(a+b-x)dx$.",
+  "answeroption": "a",
+  "explanation": "**Step 1:** Let $I = \\int_{2}^{8}\\frac{\\sqrt{10-x}}{\\sqrt{x}+\\sqrt{10-x}}dx$. Using property (R), replace $x$ with $2+8-x = 10-x$: $I = \\int_{2}^{8}\\frac{\\sqrt{10-(10-x)}}{\\sqrt{10-x}+\\sqrt{10-(10-x)}}dx = \\int_{2}^{8}\\frac{\\sqrt{x}}{\\sqrt{10-x}+\\sqrt{x}}dx$.<br />**Step 2:** Adding both forms of $I$: $2I = \\int_{2}^{8} \\frac{\\sqrt{10-x} + \\sqrt{x}}{\\sqrt{x} + \\sqrt{10-x}} dx = \\int_{2}^{8} 1 \\cdot dx = [x]_{2}^{8} = 8 - 2 = 6 \\implies I = 3$. Hence, Assertion is true, Reason is true, and Reason correctly explains Assertion.",
+  "explanation_image": [],
+  "options": {
+    "a": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+    "b": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+    "c": "(A) is true and (R) is false.",
+    "d": "(A) is false, but (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-2",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

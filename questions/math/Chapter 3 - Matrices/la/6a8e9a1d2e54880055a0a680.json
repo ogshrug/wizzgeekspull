@@ -1,0 +1,32 @@
+{
+  "id": "6a8e9a1d2e54880055a0a680",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d52",
+    "69c65fbf40512f018fa94d54",
+    "69c65fbf40512f018fa94d53",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "LA",
+  "question": "Consider the matrix $$A=\\begin{bmatrix}k&0&0\\\\0&2k-3&0\\\\0&0&k\\end{bmatrix}.$$ Determine the value of $k$ for which $A$ becomes a scalar matrix, express the resulting matrix in terms of the identity matrix of order $3$, and hence show that subtracting the corresponding scalar multiple of the identity matrix produces the zero matrix.",
+  "answeroption": "D",
+  "explanation": "<b>Required Condition</b><br><br>A scalar matrix is a diagonal matrix whose diagonal elements are equal. Since the non-diagonal elements of $A$ are already zero, we require $k=2k-3$. Therefore, $k=3$.<br><br><b>Formation of the Resulting Matrix</b><br><br>Substituting $k=3$, $$A=\\begin{bmatrix}3&0&0\\\\0&3&0\\\\0&0&3\\end{bmatrix}$$ The identity matrix of order $3$ is $$I_3=\\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}$$ Hence, $$A=3I_3$$ Thus $A$ is a scalar matrix and also a diagonal matrix.<br><br><b>Verification of the Zero Matrix</b><br><br>Now, $$A-3I_3=\\begin{bmatrix}3&0&0\\\\0&3&0\\\\0&0&3\\end{bmatrix}-\\begin{bmatrix}3&0&0\\\\0&3&0\\\\0&0&3\\end{bmatrix}=\\begin{bmatrix}0&0&0\\\\0&0&0\\\\0&0&0\\end{bmatrix}=O$$ Therefore, the required value is $k=3$, the resulting matrix is $A=3I_3$, and $A-3I_3$ is the zero matrix.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=1$, so $A=I_3$ and $A-I_3=O$",
+    "B": "$k=2$, so $A=2I_3$ and $A-2I_3=O$",
+    "C": "$k=4$, so $A=4I_3$ and $A-4I_3=O$",
+    "D": "$k=3$, so $A=3I_3$ and $A-3I_3=O$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

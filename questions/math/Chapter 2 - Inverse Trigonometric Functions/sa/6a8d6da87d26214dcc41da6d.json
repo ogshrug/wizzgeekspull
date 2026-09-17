@@ -1,0 +1,30 @@
+{
+  "id": "6a8d6da87d26214dcc41da6d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "SA",
+  "question": "Let $k$ be a non-zero real number and $f(x)=\\cos^{-1}(kx)$. If the length of the domain interval of $f$ is $4$, determine all possible values of $k$. Hence, state the range of $f$ for each obtained value.",
+  "answeroption": "C",
+  "explanation": "<b>Condition for inverse cosine</b><br>The argument $kx$ must satisfy $$-1\\leq kx\\leq1.$$ Irrespective of the sign of $k$, this condition is equivalent to $$|x|\\leq\\frac{1}{|k|}.$$<br><br><b>Domain interval</b><br>Therefore, the domain is $$\\left[-\\frac{1}{|k|},\\frac{1}{|k|}\\right].$$ Its length is $$\\frac{1}{|k|}-\\left(-\\frac{1}{|k|}\\right)=\\frac{2}{|k|}.$$<br><br><b>Parameter determination</b><br>Using the given length, $$\\frac{2}{|k|}=4.$$ Thus, $|k|=\\frac{1}{2}$, giving $$k=\\frac{1}{2}\\quad\\text{or}\\quad k=-\\frac{1}{2}.$$<br><br><b>Range determination</b><br>For either value of $k$, the expression $kx$ covers the complete interval $[-1,1]$ on its domain. Hence, $\\cos^{-1}(kx)$ covers its complete principal range.<br><br><b>Final result</b><br>For $k=\\pm\\frac{1}{2}$, the range is $$[0,\\pi].$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=2$ or $k=-2$; for both values, the range is $[0,\\pi]$",
+    "B": "$k=\\frac{1}{2}$ only; the range is $[0,\\pi]$",
+    "C": "$k=\\frac{1}{2}$ or $k=-\\frac{1}{2}$; for both values, the range is $[0,\\pi]$",
+    "D": "$k=\\frac{1}{2}$ or $k=-\\frac{1}{2}$; for both values, the range is $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

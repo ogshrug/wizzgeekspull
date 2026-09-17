@@ -1,0 +1,29 @@
+{
+  "id": "6a902b10be0ecc7866e90cc6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "SA",
+  "question": "Two fair dice are thrown simultaneously. Let $X$ denote the absolute difference between the numbers obtained on the two dice. Determine all possible values of $X$. Also identify the outcomes corresponding to $X=0$ and $X=5$, and hence justify that $X$ is a random variable.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Definition of the assigned value</b><br>For an outcome $(a,b)$ of the two dice, the random variable is defined by $$X=|a-b|.$$ Since $a,b\\in\\{1,2,3,4,5,6\\}$, the smallest possible difference is $0$ and the largest is $5$.<br><b>Step 2: Possible values</b><br>Therefore, $$X\\in\\{0,1,2,3,4,5\\}.$$<br><b>Step 3: Outcomes for $X=0$</b><br>The absolute difference is zero when both dice show the same number. Thus, $$X=0\\text{ for }(1,1),(2,2),(3,3),(4,4),(5,5),(6,6).$$<br><b>Step 4: Outcomes for $X=5$</b><br>The absolute difference is $5$ only for $$(1,6)\\text{ and }(6,1).$$<br><b>Step 5: Random-variable criterion</b><br>Every outcome $(a,b)$ of the experiment is assigned exactly one real number $|a-b|$. Hence, $X$ is a random variable with possible values $$\\boxed{0,1,2,3,4,5}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$X\\in\\{0,1,2,3,4,5\\}$; $X=0$ for $(1,1),\\ldots,(6,6)$ and $X=5$ for $(1,6),(6,1)$; hence $X$ is a random variable",
+    "B": "$X\\in\\{1,2,3,4,5,6\\}$; $X=0$ for $(1,1)$ and $X=5$ for $(5,6),(6,5)$; hence $X$ is a random variable",
+    "C": "$X\\in\\{0,1,2,3,4,5,6\\}$; $X=0$ for equal outcomes and $X=5$ for all outcomes containing $5$; hence $X$ is a random variable",
+    "D": "$X\\in\\{0,1,2,3,4,5\\}$; $X=0$ for $(1,1)$ only and $X=5$ for $(1,6)$ only; hence $X$ is a random variable"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

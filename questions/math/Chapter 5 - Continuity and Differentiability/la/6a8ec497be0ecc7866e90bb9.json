@@ -1,0 +1,30 @@
+{
+  "id": "6a8ec497be0ecc7866e90bb9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "LA",
+  "question": "Determine the values of $a$ and $b$ for which the function $$f(x)=\\begin{cases}ax+b, & x\\leq2\\\\ x^2-2x+5, & x>2\\end{cases}$$ is differentiable at $x=2$, giving complete justification for the required values.",
+  "answeroption": "A",
+  "explanation": "<b>Continuity Requirement</b><br>A function differentiable at a point must also be continuous at that point. Hence, for differentiability at $x=2$, the function must first satisfy the condition of continuity there.<br><br>Using the first branch, $$f(2)=2a+b.$$ The right-hand limit is obtained from the second branch: $$\\lim_{x\\to2^+}f(x)=2^2-2(2)+5=5.$$ Therefore, continuity at $x=2$ requires $$2a+b=5.$$<br><br><b>Differentiability Requirement</b><br>The left-hand derivative and right-hand derivative at $x=2$ must be finite and equal. For $x<2$, $f(x)=ax+b$, so its derivative is $a$. Hence, $$f'_-(2)=a.$$ For $x>2$, $$f(x)=x^2-2x+5,$$ so $$f'(x)=2x-2.$$ Therefore, $$f'_+(2)=2(2)-2=2.$$ Differentiability requires $$f'_-(2)=f'_+(2),$$ giving $$a=2.$$<br><br>Substituting $a=2$ in $2a+b=5$, we get $$4+b=5,$$ and hence $$b=1.$$<br><br><b>Verification</b><br>For $a=2$ and $b=1$, $$f(2)=2(2)+1=5,$$ which agrees with the right-hand limit. Also, $$f'_-(2)=2=f'_+(2).$$<br><br><b>Final Result</b><br>Hence the function is differentiable at $x=2$ precisely when $$a=2,\\qquad b=1.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=2,\\ b=1$",
+    "B": "$a=1,\\ b=3$",
+    "C": "$a=2,\\ b=-1$",
+    "D": "$a=3,\\ b=-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

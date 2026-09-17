@@ -1,0 +1,30 @@
+{
+  "id": "69a8542d96358125c95a0d4f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = x^3 - 6x^2 + 9x + 15$. Find all points of local maxima and minima, and find the corresponding local maximum and minimum values.",
+  "answeroption": "B",
+  "explanation": "First find the first derivative:<br /><br />f'(x) = 3x² − 12x + 9.<br /><br />Set f'(x) = 0:<br /><br />3x² − 12x + 9 = 0<br /><br />Divide by 3:<br /><br />x² − 4x + 3 = 0<br /><br />(x − 1)(x − 3) = 0<br /><br />So critical points are x = 1 and x = 3.<br /><br />Second derivative:<br /><br />f''(x) = 6x − 12.<br /><br />At x = 1:<br /><br />f''(1) = 6 − 12 = −6 < 0, so local maximum.<br /><br />At x = 3:<br /><br />f''(3) = 18 − 12 = 6 > 0, so local minimum.<br /><br />Find function values:<br /><br />f(1) = 1 − 6 + 9 + 15 = 19.<br /><br />f(3) = 27 − 54 + 27 + 15 = 15.<br /><br />Therefore, local maximum at (1, 19) and local minimum at (3, 15).",
+  "explanation_image": [],
+  "options": {
+    "A": "Local maximum at $(3,15)$ and local minimum at $(1,19)$.",
+    "B": "Local maximum at $(1,19)$ and local minimum at $(3,15)$.",
+    "C": "Local maximum at $(1,15)$ and local minimum at $(3,19)$.",
+    "D": "The function has no local maximum or local minimum."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:47:57 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

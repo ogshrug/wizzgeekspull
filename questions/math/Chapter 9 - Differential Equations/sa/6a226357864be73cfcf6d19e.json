@@ -1,0 +1,29 @@
+{
+  "id": "6a226357864be73cfcf6d19e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation $2(y+3)-xy\\frac{dy}{dx}=0$; given $y(1)=-2$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Separate the variables. Rearrange the equation to group terms involving $y$ and $dy$ on one side, and terms involving $x$ and $dx$ on the other: $xy\\frac{dy}{dx} = 2(y+3)$. Dividing gives $\\frac{y}{y+3} dy = \\frac{2}{x} dx$.<br />**Step 2:** Integrate both sides of the equation: $\\int \\frac{y}{y+3} dy = \\int \\frac{2}{x} dx$.<br />**Step 3:** To integrate the left side, manipulate the numerator to look like the denominator: $\\int \\frac{y+3-3}{y+3} dy = \\int (1 - \\frac{3}{y+3}) dy$.<br />**Step 4:** Perform the integration: $y - 3\\log|y+3| = 2\\log|x| + C$. This represents the general solution.<br />**Step 5:** Substitute the initial condition $y= -2$ when $x=1$ to find the particular constant $C$: $-2 - 3\\log|-2+3| = 2\\log|1| + C \\implies -2 - 3\\log(1) = 2(0) + C \\implies -2 - 0 = C$. Thus, $C = -2$.<br />**Step 6:** Substitute $C$ back into the general equation to find the particular solution: $y - 3\\log|y+3| = 2\\log|x| - 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8e9a1e2e54880055a0a681",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d54",
+    "69c65fbf40512f018fa94d53",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "LA",
+  "question": "For the matrix $$A=\\begin{bmatrix}2&1\\\\1&2\\end{bmatrix},$$ evaluate the matrix expression $A^2-4A+3I$, where $I$ is the identity matrix of order $2$, and establish that the resulting matrix is the zero matrix.",
+  "answeroption": "B",
+  "explanation": "<b>Evaluation of the Matrix Power</b><br><br>We first calculate $A^2=A\\cdot A$. Thus, $$A^2=\\begin{bmatrix}2&1\\\\1&2\\end{bmatrix}\\begin{bmatrix}2&1\\\\1&2\\end{bmatrix}=\\begin{bmatrix}2\\cdot2+1\\cdot1&2\\cdot1+1\\cdot2\\\\1\\cdot2+2\\cdot1&1\\cdot1+2\\cdot2\\end{bmatrix}=\\begin{bmatrix}5&4\\\\4&5\\end{bmatrix}$$ Also, $$4A=\\begin{bmatrix}8&4\\\\4&8\\end{bmatrix}$$ and, since $I=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$, $$3I=\\begin{bmatrix}3&0\\\\0&3\\end{bmatrix}$$<br><br><b>Simplification</b><br><br>Therefore, $$A^2-4A+3I=\\begin{bmatrix}5&4\\\\4&5\\end{bmatrix}-\\begin{bmatrix}8&4\\\\4&8\\end{bmatrix}+\\begin{bmatrix}3&0\\\\0&3\\end{bmatrix}$$ $$=\\begin{bmatrix}5-8+3&4-4+0\\\\4-4+0&5-8+3\\end{bmatrix}=\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}$$ The matrix obtained has every element equal to zero and is therefore the zero matrix. Hence, $$A^2-4A+3I=O$$ as required.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$",
+    "B": "$\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}$",
+    "C": "$\\begin{bmatrix}3&0\\\\0&3\\end{bmatrix}$",
+    "D": "$\\begin{bmatrix}-3&0\\\\0&-3\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

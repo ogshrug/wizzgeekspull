@@ -1,0 +1,30 @@
+{
+  "id": "69a8710c96358125c95a0d80",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "SA",
+  "question": "Find $\\frac{dy}{dx}$, if $y = \\sin^{-1} \\left( \\frac{6x - 4\\sqrt{1 - 4x^2}}{5} \\right)$.",
+  "answeroption": "C",
+  "explanation": "Let $2x=\\sin\\theta$ so $\\sqrt{1-4x^2}=\\cos\\theta$<br /><br />Then expression simplifies to $\\sin^{-1}(\\sin(\\theta+\\alpha-\\frac{\\pi}{2}))$<br /><br />So $y=\\sin^{-1}(2x)+\\alpha-\\frac{\\pi}{2}$<br /><br />Differentiate:<br />$\\frac{dy}{dx}=\\frac{2}{\\sqrt{1-4x^2}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{1}{\\sqrt{1-4x^2}}$",
+    "B": "$-\\dfrac{2}{\\sqrt{1-4x^2}}$",
+    "C": "$\\dfrac{2}{\\sqrt{1-4x^2}}$",
+    "D": "$\\dfrac{4}{\\sqrt{1-4x^2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:51:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

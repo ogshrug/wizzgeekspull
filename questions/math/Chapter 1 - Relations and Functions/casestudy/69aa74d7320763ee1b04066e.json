@@ -1,0 +1,30 @@
+{
+  "id": "69aa74d7320763ee1b04066e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 9 (Cryptography – Encoding/Decoding Cycles):**<br /><br />Consider three encoding functions on $S = \\mathbb{R}$:<br /><br />* $f(x) = x + 2$<br /><br />* $g(x) = 3x$<br /><br />* $h(x) = x^2$<br /><br />(a) Compute $f \\circ g$ and $g \\circ f$ explicitly and state whether $f$ and $g$ commute under composition.<br /><br />(b) Assuming $k(x) = x^2$ (i.e., $h$), is there any order of function composition among $f, g, h$ such that the resulting function is one-one?<br /><br />(c) If $p(x) = x^2$ and $q(x) = \\sqrt{x}$ with suitable domains so compositions make sense, is $p \\circ q$ an identity? Prove.",
+  "answeroption": "A",
+  "explanation": "(a)<br /><br />$f \\circ g(x) = f(g(x)) = f(3x) = 3x + 2$<br /><br />$g \\circ f(x) = g(f(x)) = g(x+2) = 3(x+2) = 3x + 6$<br /><br />So, $f$ and $g$ **do not commute** under composition: $f \\circ g \\neq g \\circ f$.<br /><br />(b)<br /><br />Any composition involving $h(x)$ or $k(x) = x^2$ will generally not be one-one, as $x^2$ is not injective on $\\mathbb{R}$. Compose in any order; the square means $x$ and $-x$ have same image, so overall function will not be one-one except possibly if domain is restricted to $x \\geq 0$.<br /><br />(c)<br /><br />$p \\circ q(x) = p(q(x)) = (\\sqrt{x})^2 = x$ for $x \\geq 0$.<br /><br />So, $p \\circ q$ is the identity on $[0, \\infty)$. Verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(f\\circ g)(x)=3x+2$ and $(g\\circ f)(x)=3x+6$, so $f$ and $g$ do not commute.<br />(b) Any composition involving $h(x)=x^2$ is not one-one on $\\mathbb{R}$ in general; one-one behaviour needs suitable domain restriction such as $x\\ge0$.<br />(c) $(p\\circ q)(x)=(\\sqrt{x})^2=x$ for $x\\ge0$, so it is the identity on $[0,\\infty)$.",
+    "B": "(a) $(f\\circ g)(x)=(g\\circ f)(x)=3x+2$, so $f$ and $g$ commute.<br />(b) Every composition involving $h$ is one-one on $\\mathbb{R}$.<br />(c) $p\\circ q$ is not defined for $x\\ge0$.",
+    "C": "(a) $(f\\circ g)(x)=3x+6$ and $(g\\circ f)(x)=3x+2$, so they commute.<br />(b) Only $h\\circ h$ is one-one.<br />(c) $p\\circ q(x)=x^2$.",
+    "D": "(a) $(f\\circ g)(x)=x+5$ and $(g\\circ f)(x)=x+6$.<br />(b) No function composition is possible.<br />(c) $p\\circ q$ is identity on all real numbers."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:31:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

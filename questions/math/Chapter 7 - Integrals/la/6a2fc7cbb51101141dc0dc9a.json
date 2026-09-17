@@ -1,0 +1,26 @@
+{
+  "id": "6a2fc7cbb51101141dc0dc9a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate: $\\int_{0}^{\\pi/2} \\frac{x}{\\sin x + \\cos x} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use the property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$.<br />Let $I = \\int_{0}^{\\pi/2} \\frac{x}{\\sin x + \\cos x} dx$<br />$I = \\int_{0}^{\\pi/2} \\frac{\\pi/2 - x}{\\sin(\\pi/2 - x) + \\cos(\\pi/2 - x)} dx = \\int_{0}^{\\pi/2} \\frac{\\pi/2 - x}{\\cos x + \\sin x} dx$<br />**Step 2:** Add the two integral equations.<br />$2I = \\int_{0}^{\\pi/2} \\frac{\\pi/2}{\\sin x + \\cos x} dx \\implies I = \\frac{\\pi}{4} \\int_{0}^{\\pi/2} \\frac{dx}{\\sin x + \\cos x}$<br />**Step 3:** Multiply and divide the denominator by $\\sqrt{2}$ to form a single trigonometric ratio.<br />$I = \\frac{\\pi}{4\\sqrt{2}} \\int_{0}^{\\pi/2} \\frac{dx}{\\frac{1}{\\sqrt{2}}\\sin x + \\frac{1}{\\sqrt{2}}\\cos x} = \\frac{\\pi}{4\\sqrt{2}} \\int_{0}^{\\pi/2} \\csc(x + \\frac{\\pi}{4}) dx$<br />**Step 4:** Integrate and apply the limits.<br />$I = \\frac{\\pi}{4\\sqrt{2}} \\left[ \\log\\left|\\tan\\left(\\frac{x}{2} + \\frac{\\pi}{8}\\right)\\right| \\right]_0^{\\pi/2}$<br />$I = \\frac{\\pi}{4\\sqrt{2}} \\left( \\log\\left(\\tan\\frac{3\\pi}{8}\\right) - \\log\\left(\\tan\\frac{\\pi}{8}\\right) \\right)$<br />Using $\\tan\\frac{3\\pi}{8} = \\sqrt{2}+1$ and $\\tan\\frac{\\pi}{8} = \\sqrt{2}-1$:<br />$I = \\frac{\\pi}{4\\sqrt{2}} \\log\\left(\\frac{\\sqrt{2}+1}{\\sqrt{2}-1}\\right) = \\frac{\\pi}{4\\sqrt{2}} \\log((\\sqrt{2}+1)^2) = \\frac{\\pi}{2\\sqrt{2}} \\log(\\sqrt{2}+1)$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a215fe4864be73cfcf6d141",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "A die is rolled. Consider events: $A=\\{1, 2, 5\\}, B=\\{3, 5\\}, C=\\{2, 3, 4, 5\\}$ and hence find:<br />**(i)** $P(A|C)$ and $P(C|A)$<br />**(ii)** $P(A \\cap B|C)$ and $P(A \\cup B|C)$",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** $A \\cap C = \\{2, 5\\}$. $P(A \\cap C) = 2/6$, $P(C) = 4/6$, $P(A) = 3/6$.<br />**Step 2:** $P(A|C) = P(A \\cap C)/P(C) = (2/6)/(4/6) = 1/2$.<br />**Step 3:** $P(C|A) = P(A \\cap C)/P(A) = (2/6)/(3/6) = 2/3$.<br /><br />**(ii)** **Step 1:** $A \\cap B = \\{5\\}$. $(A \\cap B) \\cap C = \\{5\\}$. $P((A \\cap B) \\cap C) = 1/6$.<br />**Step 2:** $P(A \\cap B|C) = P((A \\cap B) \\cap C)/P(C) = (1/6)/(4/6) = 1/4$.<br />**Step 3:** $A \\cup B = \\{1, 2, 3, 5\\}$. $(A \\cup B) \\cap C = \\{2, 3, 5\\}$. $P((A \\cup B) \\cap C) = 3/6$.<br />**Step 4:** $P(A \\cup B|C) = P((A \\cup B) \\cap C)/P(C) = (3/6)/(4/6) = 3/4$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

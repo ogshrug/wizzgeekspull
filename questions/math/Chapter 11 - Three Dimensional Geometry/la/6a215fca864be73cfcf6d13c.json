@@ -1,0 +1,28 @@
+{
+  "id": "6a215fca864be73cfcf6d13c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "Find the value of p if the shortest distance between the lines $\\vec{r}=(\\hat{i}+2\\hat{j}+\\hat{k})+\\lambda(\\hat{i}-\\hat{j}+\\hat{k})$ and $\\vec{r}=(p\\hat{i}-\\hat{j}-\\hat{k})+\\mu(2\\hat{i}+\\hat{j}+2\\hat{k})$ is $\\frac{3}{\\sqrt{2}}$ units.",
+  "answeroption": "",
+  "explanation": "**Step 1:** $a_1 = \\hat{i}+2\\hat{j}+\\hat{k}, b_1 = \\hat{i}-\\hat{j}+\\hat{k}$. $a_2 = p\\hat{i}-\\hat{j}-\\hat{k}, b_2 = 2\\hat{i}+\\hat{j}+2\\hat{k}$.<br />**Step 2:** $a_2 - a_1 = (p-1)\\hat{i} - 3\\hat{j} - 2\\hat{k}$.<br />**Step 3:** $b_1 \\times b_2 = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -1 & 1 \\\\ 2 & 1 & 2 \\end{vmatrix} = -3\\hat{i} - 0\\hat{j} + 3\\hat{k}$. Magnitude $|b_1 \\times b_2| = \\sqrt{9+9} = 3\\sqrt{2}$.<br />**Step 4:** Shortest Distance $d = \\frac{|(a_2-a_1)\\cdot(b_1\\times b_2)|}{|b_1\\times b_2|} = \\frac{3}{\\sqrt{2}}$.<br />**Step 5:** Dot product: $-3(p-1) + 0 + 3(-2) = -3p + 3 - 6 = -3p - 3$.<br />**Step 6:** $\\frac{|-3p-3|}{3\\sqrt{2}} = \\frac{3}{\\sqrt{2}} \\implies |-3p-3| = 9 \\implies -3p-3 = 9$ or $-3p-3 = -9$.<br />**Step 7:** $-3p = 12 \\implies p = -4$. Or $-3p = -6 \\implies p = 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

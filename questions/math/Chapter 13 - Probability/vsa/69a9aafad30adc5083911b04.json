@@ -1,0 +1,29 @@
+{
+  "id": "69a9aafad30adc5083911b04",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "VSA",
+  "question": "Out of 100 students, 40 like mathematics, 50 like science, and 30 like both. If one student is selected at random, what is the probability that either mathematics or science or both are liked by the student?",
+  "answeroption": "B",
+  "explanation": "Let $A$: likes mathematics, $B$: likes science<br /><br />$P(A) = \\frac{40}{100} = 0.4$<br />$P(B) = \\frac{50}{100} = 0.5$<br />$P(A \\cap B) = \\frac{30}{100} = 0.3$<br /><br />$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$<br /><br />$= 0.4 + 0.5 - 0.3 = 0.6$<br /><br />Thus, required probability is $\\boxed{0.6}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0.5$",
+    "B": "$0.6$",
+    "C": "$0.7$",
+    "D": "$0.9$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:10:34 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

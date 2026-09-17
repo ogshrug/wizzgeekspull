@@ -1,0 +1,26 @@
+{
+  "id": "6a212527864be73cfcf6d0ab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "Check whether the lines given by $\\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z-3}{4}$ and $\\frac{x-4}{5} = \\frac{y-1}{2} = z$ are parallel or not. If parallel, find the distance between them, otherwise find their point of intersection, if the lines are intersecting.",
+  "answeroption": "",
+  "explanation": "**Step 1: Check for parallelism**\nThe direction vector of the first line is $\\vec{d_1} = (2, 3, 4)$ and of the second line is $\\vec{d_2} = (5, 2, 1)$. Two lines are parallel if one direction vector is a scalar multiple of the other. Clearly, no scalar $k$ exists such that $(2,3,4) = k(5,2,1)$ because $2/5 \\neq 3/2$. Hence, the lines are **not parallel**.\n\n**Step 2: Parametric form**\nFor line 1: $\\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z-3}{4} = \\lambda$ \\\n$x = 2\\lambda + 1,\\ y = 3\\lambda + 2,\\ z = 4\\lambda + 3$.\n\nFor line 2: $\\frac{x-4}{5} = \\frac{y-1}{2} = z = \\mu$ \\\n$x = 5\\mu + 4,\\ y = 2\\mu + 1,\\ z = \\mu$.\n\n**Step 3: Solve for intersection**\nEquate coordinates:\n$2\\lambda + 1 = 5\\mu + 4 \\quad (1)$  \n$3\\lambda + 2 = 2\\mu + 1 \\quad (2)$  \n$4\\lambda + 3 = \\mu \\quad (3)$\n\nFrom (3): $\\mu = 4\\lambda + 3$. Substitute into (2):\n$3\\lambda + 2 = 2(4\\lambda + 3) + 1$  \n$3\\lambda + 2 = 8\\lambda + 7$  \n$-5\\lambda = 5 \\Rightarrow \\lambda = -1$.\nThen $\\mu = 4(-1) + 3 = -1$.\n\nCheck in (1): LHS = $2(-1)+1 = -1$, RHS = $5(-1)+4 = -1$. Satisfied.\n\n**Step 4: Point of intersection**\nSubstitute $\\lambda = -1$ into line 1: $x = -1,\\ y = -1,\\ z = -1$.\n\nThus, the lines intersect at $\\boxed{(-1, -1, -1)}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

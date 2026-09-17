@@ -1,0 +1,29 @@
+{
+  "id": "69a95be8589ce36f368b47d2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following initial value problem:<br /><br />$\\displaystyle \\frac{dy}{dx} + 2xy = x$ with $y(0) = 1$",
+  "answeroption": "A",
+  "explanation": "Given:<br /><br />$\\frac{dy}{dx} + 2 x y = x$<br /><br />We have a linear ODE. IF (Integrating factor):<br /><br />$IF = e^{\\int 2x dx} = e^{x^2}$<br /><br />Multiplying throughout by $e^{x^2}$:<br /><br />$e^{x^2} \\frac{dy}{dx} + 2x e^{x^2} y = x e^{x^2}$<br /><br />$\\frac{d}{dx} [ y e^{x^2} ] = x e^{x^2}$<br /><br />Integrate both sides:<br /><br />$\\int d( y e^{x^2} ) = \\int x e^{x^2} dx$<br /><br />Let $u = x^2$, $du = 2x dx$, $\\Rightarrow x dx = \\frac{du}{2}$<br /><br />$\\int x e^{x^2} dx = \\frac{1}{2} \\int e^{u} du = \\frac{1}{2} e^{u} + C = \\frac{1}{2} e^{x^2} + C$<br /><br />So $y e^{x^2} = \\frac{1}{2} e^{x^2} + C$<br /><br />$y = \\frac{1}{2} + C e^{-x^2}$<br /><br />Using $y(0) = 1$, we get<br /><br />$1 = \\frac{1}{2} + C \\implies C = \\frac{1}{2}$<br /><br />Final answer:<br /><br />$y(x) = \\frac{1}{2} + \\frac{1}{2} e^{-x^2}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\frac{1}{2}+\\frac{1}{2}e^{-x^2}$",
+    "B": "$y=\\frac{1}{2}-\\frac{1}{2}e^{-x^2}$",
+    "C": "$y=1+\\frac{1}{2}e^{-x^2}$",
+    "D": "$y=\\frac{1}{2}+\\frac{1}{2}e^{x^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:33:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

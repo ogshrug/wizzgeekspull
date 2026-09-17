@@ -1,0 +1,28 @@
+{
+  "id": "6a214c0c864be73cfcf6d0df",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "Find the domain of $g(x)=cos^{-1}(x^{2}-1)$. Hence, find the value of $x$ for which $g(x)=\\frac{\\pi}{3}$.<br /><br />Also, write the range of $cos^{-1}x$ other than its principal branch.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The domain of the standard inverse cosine function, $cos^{-1}(\\theta)$, is defined for $-1 \\le \\theta \\le 1$.<br /><br />**Step 2:** Applying this to $g(x)$, we set $-1 \\le x^2 - 1 \\le 1$. Adding $1$ to all parts gives $0 \\le x^2 \\le 2$.<br /><br />**Step 3:** Taking the square root, the domain of $g(x)$ is $x \\in [-\\sqrt{2}, \\sqrt{2}]$.<br /><br />**Step 4:** Next, we solve $cos^{-1}(x^2 - 1) = \\frac{\\pi}{3}$. Taking the cosine of both sides yields $x^2 - 1 = cos(\\frac{\\pi}{3})$.<br /><br />**Step 5:** Since $cos(\\frac{\\pi}{3}) = \\frac{1}{2}$, we have $x^2 - 1 = \\frac{1}{2} \\implies x^2 = \\frac{3}{2}$. Solving for $x$ gives $x = \\pm\\sqrt{\\frac{3}{2}}$. Both values fall within the domain.<br /><br />**Step 6:** The principal value branch of $cos^{-1}x$ is $[0, \\pi]$. Another valid range branch is obtained by shifting by $\\pi$, which gives $[\\pi, 2\\pi]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

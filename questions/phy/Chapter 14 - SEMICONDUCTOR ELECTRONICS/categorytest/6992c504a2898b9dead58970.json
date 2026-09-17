@@ -1,0 +1,19 @@
+{
+  "id": "6992c504a2898b9dead58970",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "698eb6089d20b56bde515bb7",
+  "question": "A security system uses three sensors $A,B,C$ where 1 means triggered. The alarm output $Y$ must satisfy:\n\n- Alarm turns ON if at least two sensors are triggered.\n- Alarm also turns ON if $A=1$ and $C=1$ regardless of $B$.\n\n(a) Write the Boolean expression for $Y$.\n\n(b) Derive a simplified SOP form.\n\n(c) Draw the logic circuit using only AND, OR, NOT gates.\n\n(d) Realize the same logic using only NOR gates, using NOR as a universal gate.\n\nPresent the simplified expression and correct implementation idea.",
+  "options": {
+    "A": "$Y=AB+BC+AC$; already minimal; NOR-only is obtained by NOR-inverting each product’s De Morgan equivalent and then NOR-combining appropriately.",
+    "B": "$Y=A+B+C$; because any one sensor triggers the alarm; NOR-only is a single 3-input NOR followed by inverter.",
+    "C": "$Y=ABC$; because all three must trigger; NOR-only not possible without NAND.",
+    "D": "$Y=A\\oplus B\\oplus C$; because parity of triggers matters; NOR-only needs XOR blocks."
+  },
+  "question_type": "LA",
+  "category": "Analysing, Evaluating, Creating",
+  "imageurl": null,
+  "categories": [
+    "Analysing, Evaluating, Creating"
+  ]
+}

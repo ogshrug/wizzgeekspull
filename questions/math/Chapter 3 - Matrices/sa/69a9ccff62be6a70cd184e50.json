@@ -1,0 +1,30 @@
+{
+  "id": "69a9ccff62be6a70cd184e50",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d64"
+  ],
+  "question_type": "SA",
+  "question": "Given $A = \\begin{pmatrix}3 & -2 \\\\ 4 & -2\\end{pmatrix}$, verify whether $A$ is invertible. If so, find $A^{-1}$. Justify your steps.",
+  "answeroption": "D",
+  "explanation": "Calculate determinant:<br /><br />$|A| = (3)(-2) - (4)(-2) = -6 + 8 = 2$.<br /><br />Since $|A| \\neq 0$, $A$ is invertible.<br /><br />$A^{-1} = \\frac{1}{|A|} \\begin{pmatrix}-2 & 2 \\\\ -4 & 3\\end{pmatrix}$, where entries are adjugate of $A$.<br /><br />So $A^{-1} = \\frac{1}{2} \\begin{pmatrix}-2 & 2 \\\\ -4 & 3\\end{pmatrix}$.<br /><br />$= \\begin{pmatrix}-1 & 1 \\\\ -2 & 1.5\\end{pmatrix}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ is not invertible because $|A|=0$",
+    "B": "$A$ is invertible and $A^{-1}=\\begin{pmatrix}3&-2\\\\4&-2\\end{pmatrix}$",
+    "C": "$A$ is invertible and $A^{-1}=\\begin{pmatrix}-2&1\\\\-1&\\frac{3}{2}\\end{pmatrix}$",
+    "D": "$A$ is invertible since $|A|=2$, and $A^{-1}=\\frac12\\begin{pmatrix}-2&2\\\\-4&3\\end{pmatrix}=\\begin{pmatrix}-1&1\\\\-2&\\frac32\\end{pmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:35:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

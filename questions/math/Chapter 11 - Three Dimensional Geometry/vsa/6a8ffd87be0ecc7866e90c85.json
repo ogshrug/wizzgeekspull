@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffd87be0ecc7866e90c85",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d1"
+  ],
+  "question_type": "VSA",
+  "question": "The acute angle between two lines having direction ratios $(1,1,0)$ and $(1,k,1)$ is $60^\\circ$. Determine all possible values of $k$.",
+  "answeroption": "C",
+  "explanation": "Step 1: For direction ratios $(1,1,0)$ and $(1,k,1)$, the acute angle $\\theta$ satisfies $$\\cos\\theta=\\frac{|1+k|}{\\sqrt{1^2+1^2}\\sqrt{1+k^2+1}}.$$ Step 2: Since $\\theta=60^\\circ$, $\\cos60^\\circ=\\frac{1}{2}$. Therefore, $$\\frac{|1+k|}{\\sqrt{2}\\sqrt{k^2+2}}=\\frac{1}{2}.$$ Step 3: Squaring both sides gives $\\frac{(1+k)^2}{2(k^2+2)}=\\frac{1}{4}$. Hence, $2(1+k)^2=k^2+2$. Step 4: Expanding, $2+4k+2k^2=k^2+2$, so $k^2+4k=0$. Thus, $k(k+4)=0$. Step 5: Hence, the two possible values are $$k=0\\quad\\text{or}\\quad k=-4.$$ Both give an acute angle of $60^\\circ$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=0$ only",
+    "B": "$k=-4$ only",
+    "C": "$k=0$ or $k=-4$",
+    "D": "$k=4$ or $k=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a21663891ff8b4d4561098a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6b"
+  ],
+  "question_type": "MCQ",
+  "question": "If points (2, 3), (0, 4) and (p, 2) are collinear, then the value of p is :",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> Recall the condition for three distinct points $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$ to be collinear in a Cartesian system. The area of the triangle bounded by these coordinates must equal zero, which is given by the determinant condition: $\\frac{1}{2} \\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} = 0$.<br /><br /><b>Step 2</b> Insert the given coordinates $(2, 3)$, $(0, 4)$, and $(p, 2)$ directly into the matrix determinant framework: $\\begin{vmatrix} 2 & 3 & 1 \\\\ 0 & 4 & 1 \\\\ p & 2 & 1 \\end{vmatrix} = 0$.<br /><br /><b>Step 3</b> Expand this determinant along the first column to simplify calculation: $2(4(1) - 2(1)) - 0 + p(3(1) - 4(1)) = 0$. Simplifying this arithmetic gives $2(2) + p(-1) = 0 \\implies 4 - p = 0 \\implies p = 4$. This corresponds to option (C).",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{4}{7}$",
+    "B": "$-\\frac{3}{7}$",
+    "C": "4",
+    "D": "-4"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

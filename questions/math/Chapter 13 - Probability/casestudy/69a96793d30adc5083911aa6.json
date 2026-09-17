@@ -1,0 +1,30 @@
+{
+  "id": "69a96793d30adc5083911aa6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7",
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Three branches of a bank process 400, 300, and 300 loan applications per month respectively. The probabilities that an application from the respective branches is approved are 0.6, 0.7, and 0.8. An approved application is picked at random.<br /><br />(a) What is the probability it came from branch 2?<br />(b) If an application is rejected, what is the probability it was from branch 1?<br />(c) If management wants to maximize overall approval probability, which branch should it focus on for improvement, and why?",
+  "answeroption": "D",
+  "explanation": "Let $B_1, B_2, B_3$ denote the three branches and $A$, approval.<br /><br />$P(B_1) = 0.4$, $P(B_2) = 0.3$, $P(B_3) = 0.3$.<br />$P(A|B_1) = 0.6$, $P(A|B_2) = 0.7$, $P(A|B_3) = 0.8$.<br /><br />Step 1:<br />$P(A) = 0.4 \\times 0.6 + 0.3 \\times 0.7 + 0.3 \\times 0.8$.<br />$= 0.24 + 0.21 + 0.24 = 0.69$.<br /><br />(a) $P(B_2|A)$<br />$= \\frac{0.3 \\times 0.7}{0.69} = \\frac{0.21}{0.69} = \\frac{21}{69} = \\frac{7}{23}$.<br /><br />(b) Rejection: $A'$.<br />$P(A'|B_1) = 0.4$, $P(A'|B_2) = 0.3$, $P(A'|B_3) = 0.2$.<br />$P(A') = 1 - 0.69 = 0.31$.<br /><br />$P(B_1|A') = \\frac{0.4 \\times 0.4}{0.31} = \\frac{0.16}{0.31}$.<br /><br />(c) Change in $P(A)$ per percentage point improvement:<br />Branch 1: $0.4$ per unit, Branch 2: $0.3$, Branch 3: $0.3$.<br />Branch 1 will have highest overall impact as it processes most applications.<br /><br />So, focus improvement on Branch 1 for maximum effect.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{7}{23}$<br />(b) $\\frac{16}{31}$<br />(c) Branch 3, because it already has the highest approval rate",
+    "B": "(a) $\\frac{21}{69}$<br />(b) $\\frac{31}{16}$<br />(c) Branch 2, because its approval probability is $0.7$",
+    "C": "(a) $\\frac{3}{10}$<br />(b) $\\frac{4}{10}$<br />(c) Branches 2 and 3 equally, because both process 300 applications",
+    "D": "(a) $\\frac{7}{23}$<br />(b) $\\frac{16}{31}$<br />(c) Branch 1, because its application share $0.4$ gives the highest overall gain per equal improvement"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:22:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

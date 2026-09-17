@@ -1,0 +1,32 @@
+{
+  "id": "6a8ea6842e54880055a0a6a5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f",
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d64",
+    "69c65fc140512f018fa94d65"
+  ],
+  "question_type": "LA",
+  "question": "Let $$A=\\begin{bmatrix}1&1\\\\1&2\\end{bmatrix},\\quad P=\\begin{bmatrix}2&-1\\\\-1&p\\end{bmatrix},\\quad Q=\\begin{bmatrix}q&-1\\\\-1&1\\end{bmatrix}.$$ If $AP=I$ and $QA=I$, determine $p$ and $q$, and use the associative property of matrix multiplication to establish that $P=Q$ and hence that the inverse of $A$ is unique.",
+  "answeroption": "A",
+  "explanation": "<b>Determination of $p$</b><br><br>From $AP=I$, $$\\begin{bmatrix}1&1\\\\1&2\\end{bmatrix}\\begin{bmatrix}2&-1\\\\-1&p\\end{bmatrix}=\\begin{bmatrix}1&p-1\\\\0&2p-1\\end{bmatrix}$$ Since this equals $I$, $$p-1=0,\\quad 2p-1=1$$ Both conditions give $$p=1$$ Thus, $$P=\\begin{bmatrix}2&-1\\\\-1&1\\end{bmatrix}$$<br><br><b>Determination of $q$</b><br><br>From $QA=I$, $$\\begin{bmatrix}q&-1\\\\-1&1\\end{bmatrix}\\begin{bmatrix}1&1\\\\1&2\\end{bmatrix}=\\begin{bmatrix}q-1&q-2\\\\0&1\\end{bmatrix}$$ Hence, $$q-1=1,\\quad q-2=0$$ giving $$q=2$$ Therefore, $$Q=\\begin{bmatrix}2&-1\\\\-1&1\\end{bmatrix}$$<br><br><b>Establishing Uniqueness</b><br><br>Using $AP=I$, $QA=I$ and associativity of matrix multiplication, $$P=IP=(QA)P=Q(AP)=QI=Q$$ Thus, $P=Q$. Since $AP=I$ and $P=Q$ together with $QA=I$ give both $AP=I$ and $PA=I$, the matrix $P$ is the inverse of $A$. Any left and right inverse obtained in this way must coincide. Therefore, the inverse is unique and $$A^{-1}=\\begin{bmatrix}2&-1\\\\-1&1\\end{bmatrix}$$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$p=1,\\ q=2$, so $P=Q=\\begin{bmatrix}2&-1\\\\-1&1\\end{bmatrix}=A^{-1}$",
+    "B": "$p=2,\\ q=1$, so $P=Q=\\begin{bmatrix}2&-1\\\\-1&2\\end{bmatrix}$",
+    "C": "$p=1,\\ q=1$, so $P=Q=\\begin{bmatrix}1&-1\\\\-1&1\\end{bmatrix}$",
+    "D": "$p=2,\\ q=2$, so $P=Q=\\begin{bmatrix}2&-1\\\\-1&2\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

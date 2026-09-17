@@ -1,0 +1,29 @@
+{
+  "id": "6a8fff91751910886affba14",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4"
+  ],
+  "question_type": "VSA",
+  "question": "Consider the lines $\\vec{r}=(\\hat{i}+2\\hat{j})+\\lambda(\\hat{i}-\\hat{j}+2\\hat{k})$ and $\\vec{r}=(\\hat{j}+\\hat{k})+\\mu(2\\hat{i}-2\\hat{j}+4\\hat{k})$. Without finding their point of intersection, decide whether the lines are coplanar.",
+  "answeroption": "B",
+  "explanation": "Step 1: The direction vectors of the two lines are $\\vec{b_1}=(1,-1,2)$ and $\\vec{b_2}=(2,-2,4)$. Step 2: These vectors satisfy $\\vec{b_2}=2\\vec{b_1}$. Therefore, the two lines have parallel directions. Step 3: The given points on the lines are $(1,2,0)$ and $(0,1,1)$ respectively. Their difference $(-1,-1,1)$ is not proportional to $(1,-1,2)$, so the two equations represent distinct parallel lines rather than the same line. Step 4: Any two distinct parallel lines in three-dimensional space lie in a common plane. Step 5: Therefore, no intersection calculation is required. The two given lines are parallel and hence are coplanar.",
+  "explanation_image": [],
+  "options": {
+    "A": "They are skew because they are parallel.",
+    "B": "They are coplanar because their direction vectors are proportional, so the lines are parallel.",
+    "C": "They are non-coplanar because the given points are distinct.",
+    "D": "They are coplanar only if they intersect."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

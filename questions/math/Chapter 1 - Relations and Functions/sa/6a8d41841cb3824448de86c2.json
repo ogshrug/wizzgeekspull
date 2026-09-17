@@ -1,0 +1,29 @@
+{
+  "id": "6a8d41841cb3824448de86c2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "SA",
+  "question": "Let $f,g,h:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=2x$, $g(x)=x+1$ and $h(x)=x^2$. Verify that $h\\circ(g\\circ f)=(h\\circ g)\\circ f$.",
+  "answeroption": "B",
+  "explanation": "<b>Composition $g\\circ f$</b><br>$$(g\\circ f)(x)=g(2x)=2x+1.$$<br><br><b>Composition $h\\circ(g\\circ f)$</b><br>$$[h\\circ(g\\circ f)](x)=h(2x+1)=(2x+1)^2.$$<br><br><b>Composition $h\\circ g$</b><br>$$(h\\circ g)(x)=h(x+1)=(x+1)^2.$$<br><br><b>Composition $(h\\circ g)\\circ f$</b><br>$$[(h\\circ g)\\circ f](x)=(h\\circ g)(2x)=(2x+1)^2.$$<br><br><b>Verification</b><br>Both compositions have the same value for every $x\\in\\mathbb{R}$. Hence,<br>$$h\\circ(g\\circ f)=(h\\circ g)\\circ f.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Both compositions equal $4x^2+1$",
+    "B": "Both compositions equal $(2x+1)^2$, so $h\\circ(g\\circ f)=(h\\circ g)\\circ f$",
+    "C": "$h\\circ(g\\circ f)=(2x+1)^2$ but $(h\\circ g)\\circ f=(2x)^2+1$",
+    "D": "The two compositions are unequal because composition of functions is not associative"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd0a7be0ecc7866e90c3e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "LA",
+  "question": "The curve $y=4-\\sqrt{x}$ meets the coordinate axes and encloses a finite region with them in the first quadrant.(a) Determine the points at which the curve meets the coordinate axes.(b) Express $x$ in terms of $y$ and calculate the enclosed area by integrating with respect to $y$.(c) Verify the result by integrating with respect to $x$.",
+  "answeroption": "D",
+  "explanation": "(a)On the $y$-axis, $x=0$. Therefore, $y=4$, giving the point $\\left(0,4\\right)$.On the $x$-axis, $y=0$. Therefore,`4-\\sqrt{x}=0\\sqrt{x}=4\\Rightarrow x=16`Thus, the curve meets the $x$-axis at $\\left(16,0\\right)$.(b)From $y=4-\\sqrt{x}$,`\\sqrt{x}=4-yx=\\left(4-y\\right)^2`For $0\\leq y\\leq4$, the region extends from the $y$-axis to the curve. Hence,`A=\\int_0^4\\left(4-y\\right)^2dyA=\\int_0^4\\left(16-8y+y^2\\right)dyA=\\left[16y-4y^2+\\frac{y^3}{3}\\right]_0^4A=64-64+\\frac{64}{3}=\\frac{64}{3}`Thus, the enclosed area is $\\frac{64}{3}$ square units.(c)Integrating with respect to $x$,`A=\\int_0^{16}\\left(4-\\sqrt{x}\\right)dxA=\\left[4x-\\frac{2x^{3/2}}{3}\\right]_0^{16}A=64-\\frac{2\\times64}{3}=64-\\frac{128}{3}=\\frac{64}{3}`Hence, both methods give the same enclosed area, $\\frac{64}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,4)$ and $(4,0)$<br>(b) $x=(4-y)^2$, area $=\\frac{64}{3}$<br>(c) Integration with respect to $x$ gives the same area",
+    "B": "(a) $(0,4)$ and $(16,0)$<br>(b) $x=4-y^2$, area $=\\frac{64}{3}$<br>(c) Integration with respect to $x$ gives the same area",
+    "C": "(a) $(0,4)$ and $(16,0)$<br>(b) $x=(4-y)^2$, area $=\\frac{32}{3}$<br>(c) Integration with respect to $x$ gives the same area",
+    "D": "(a) $(0,4)$ and $(16,0)$<br>(b) $x=(4-y)^2$, area $=\\frac{64}{3}$<br>(c) Integration with respect to $x$ gives the same area"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

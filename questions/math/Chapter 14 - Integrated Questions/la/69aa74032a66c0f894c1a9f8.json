@@ -1,0 +1,30 @@
+{
+  "id": "69aa74032a66c0f894c1a9f8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "LA",
+  "question": "For the function $f(x) = x+\\sin^{-1}(x)$ on $(-1,1)$, let $g$ be its inverse. \n\n(a) Compute $f'(x)$. \n\n(b) Find $g'(y)$ in terms of $y$ for $y \\in (f(-1), f(1))$. \n\n(c) Evaluate $g'(0)$. \n\n(d) For $h(x) = f(x) + f^{-1}(x)$, discuss monotonicity in its domain.\n\n(e) Construct a $3\\times3$ matrix $M$ whose $(i,j)$-th entry is $h(-1+i+j)$, $i,j=0,1,2$, and compute its determinant.",
+  "answeroption": "B",
+  "explanation": "**Concepts tested:** Inverse Trigonometric Functions, Application of Derivatives (derivatives of inverse functions), Monotonicity, Matrices, Determinants<br /><br />(a)<br /><br />$f'(x) = 1 + \\frac{1}{\\sqrt{1-x^2}}$<br /><br />(b)<br /><br />Let $g$ be the inverse of $f$. Then $g'(y) = \\frac{1}{f'(g(y))}$<br /><br />(c)<br /><br />To find $g'(0)$: $f(g(0)) = 0 \\implies g(0) = x$ where $x+\\sin^{-1}(x)=0$<br /><br />Let $x+\\sin^{-1}(x)=0$. Guess $x=0$. $0+0=0$. Thus, $g(0)=0$.<br /><br />So $g'(0) = \\frac{1}{f'(g(0))} = \\frac{1}{1+1} = \\frac{1}{2}$<br /><br />(d) $h(x) = f(x) + f^{-1}(x)$, $h'(x) = f'(x) + (f^{-1})'(x) \\ (\\text{by chain rule}) = f'(x) + \\frac{1}{f'(f^{-1}(x))}$, need careful analysis. Since $f$ is increasing, $h$ should also be strictly increasing.<br /><br />(e) $M_{ij} = h(-1 + i + j)$, $i,j=0,1,2$, so entries at $h(-1),h(0),h(1),h(1),h(2)$, but note $h(x)$ only defined on $(-1,1)$, so restrict to $h(-1),h(0),h(1)$ (but $h(\\pm 1)$ at boundaries), so for inner values, determinant is $0$ if two rows/columns are equal, possible since $f$ and $f^{-1}$ are strictly increasing, so most probably determinant is nonzero but calculation involves above $h(x)$ values.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f'(x)=1-\\frac{1}{\\sqrt{1-x^2}}$<br />(b) $g'(y)=f'(g(y))$<br />(c) $g'(0)=2$<br />(d) $h$ is strictly decreasing<br />(e) $\\det(M)=0$ definitely",
+    "B": "(a) $f'(x)=1+\\frac{1}{\\sqrt{1-x^2}}$<br />(b) $g'(y)=\\frac{1}{f'(g(y))}$<br />(c) $g'(0)=\\frac12$<br />(d) Since $f$ is increasing, $h(x)=f(x)+f^{-1}(x)$ is expected to be strictly increasing on its domain<br />(e) The matrix entries involve $h(-1+i+j)$ and the determinant needs domain restrictions/careful evaluation because some arguments may fall outside the domain",
+    "C": "(a) $f'(x)=\\frac{1}{\\sqrt{1-x^2}}$<br />(b) $g'(y)=\\sqrt{1-y^2}$<br />(c) $g'(0)=1$<br />(d) $h$ is constant<br />(e) $\\det(M)=1$",
+    "D": "(a) $f'(x)=x+\\frac{1}{\\sqrt{1-x^2}}$<br />(b) $g'(y)=\\frac{1}{1+y^2}$<br />(c) $g'(0)=0$<br />(d) $h$ is not defined anywhere<br />(e) $\\det(M)=-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:28:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

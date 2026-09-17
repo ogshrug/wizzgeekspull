@@ -1,0 +1,30 @@
+{
+  "id": "6a8edc2c2e54880055a0a6d8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "LA",
+  "question": "Water is pumped into a cylindrical tank of radius $2\\ \\text{m}$ at a constant rate of $0.8\\pi\\ \\text{m}^3/\\text{min}$.<br><br>(a) Form a relation between the volume $V$ of water and its depth $h$.<br><br>(b) Determine the rate at which the water level is rising.<br><br>(c) Calculate the time required for the water level to rise from $1.2\\ \\text{m}$ to $1.7\\ \\text{m}$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The volume of water in the cylindrical tank is<br>$$V=\\pi r^2h$$<br>Since $r=2\\ \\text{m}$,<br>$$V=\\pi(2)^2h=4\\pi h$$<br><br><b>(b)</b><br>Differentiating $V=4\\pi h$ with respect to time,<br>$$\\frac{dV}{dt}=4\\pi\\frac{dh}{dt}$$<br>Given that $\\frac{dV}{dt}=0.8\\pi\\ \\text{m}^3/\\text{min}$,<br>$$0.8\\pi=4\\pi\\frac{dh}{dt}$$<br>Therefore,<br>$$\\frac{dh}{dt}=0.2\\ \\text{m/min}$$<br><br><b>(c)</b><br>The required increase in the water level is<br>$$1.7-1.2=0.5\\ \\text{m}$$<br>Since the water level rises uniformly at $0.2\\ \\text{m/min}$, the required time is<br>$$t=\\frac{0.5}{0.2}=2.5\\ \\text{minutes}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $V=4\\pi h$<br>(b) $\\frac{dh}{dt}=0.2$ m/min<br>(c) $2.5$ min",
+    "B": "(a) $V=2\\pi h$<br>(b) $\\frac{dh}{dt}=0.4$ m/min<br>(c) $1.25$ min",
+    "C": "(a) $V=4\\pi h^2$<br>(b) $\\frac{dh}{dt}=0.1$ m/min<br>(c) $5$ min",
+    "D": "(a) $V=2\\pi h^2$<br>(b) $\\frac{dh}{dt}=0.2$ m/min<br>(c) $2$ min"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

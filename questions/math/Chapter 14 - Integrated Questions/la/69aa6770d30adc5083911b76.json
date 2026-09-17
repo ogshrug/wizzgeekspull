@@ -1,0 +1,30 @@
+{
+  "id": "69aa6770d30adc5083911b76",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e9908c819562f933f987",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $y = f(x) = x^3 - 3x + 1$ and $g(x) = \\tan^{-1}(x)$ for $x \\in \\mathbb{R}$.\n\n(a) Find the points where $f(x)$ has local maxima and minima.\n\n(b) Compute the values of $g$ at all such critical points.\n\n(c) Let $M$ be the $2 \\times 2$ matrix whose first row is the coordinates $(x, f(x))$ and second row $(x, g(x))$ for a fixed critical point $x$.\n\n(d) Calculate $\\det(M)$ for all such $x$.\n\n(e) For which critical point does $\\det(M) = 0$? Justify.",
+  "answeroption": "C",
+  "explanation": "**Concepts being tested:** Differentiation, maxima/minima, inverse trig functions, determinants.<br /><br />(a) $f'(x) = 3x^2 - 3 = 3(x-1)(x+1)$<br /><br />Critical points: $x=1$ and $x=-1$.<br /><br />$f''(x) = 6x$<br /><br />At $x=1$: local minimum.<br />At $x=-1$: local maximum.<br /><br />(b) $g(1) = \\frac{\\pi}{4}$, $g(-1) = -\\frac{\\pi}{4}$.<br /><br />(c) Matrices:<br /><br />$M_1 = \\begin{pmatrix}1 & -1\\\\1 & \\frac{\\pi}{4}\\end{pmatrix}$<br /><br />$M_2 = \\begin{pmatrix}-1 & 3\\\\-1 & -\\frac{\\pi}{4}\\end{pmatrix}$<br /><br />(d) Determinants:<br /><br />$\\det(M_1)=\\frac{\\pi}{4}+1$<br /><br />$\\det(M_2)=\\frac{\\pi}{4}+3$<br /><br />(e) Neither determinant equals zero.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Critical points are $x=0$ and $x=1$<br />(b) $g(0)=0$, $g(1)=\\frac{\\pi}{4}$<br />(c) $M=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}$ and $\\begin{pmatrix}1&-1\\\\1&\\frac{\\pi}{4}\\end{pmatrix}$<br />(d) Determinants are $0$ and $\\frac{\\pi}{4}$<br />(e) $\\det(M)=0$ at $x=0$",
+    "B": "(a) At $x=1$ local maximum and at $x=-1$ local minimum<br />(b) $g(1)=\\frac{\\pi}{2}$, $g(-1)=-\\frac{\\pi}{2}$<br />(c) Matrices have zero determinant<br />(d) Both determinants are $0$<br />(e) Both critical points give zero determinant",
+    "C": "(a) $x=-1$ gives a local maximum and $x=1$ gives a local minimum<br />(b) $g(1)=\\frac{\\pi}{4}$ and $g(-1)=-\\frac{\\pi}{4}$<br />(c) For $x=1$, $M=\\begin{pmatrix}1&-1\\\\1&\\frac{\\pi}{4}\\end{pmatrix}$; for $x=-1$, $M=\\begin{pmatrix}-1&3\\\\-1&-\\frac{\\pi}{4}\\end{pmatrix}$<br />(d) The determinants are $\\frac{\\pi}{4}+1$ and $\\frac{\\pi}{4}+3$ respectively<br />(e) Neither determinant is zero",
+    "D": "(a) There are no critical points<br />(b) No values of $g$ are needed<br />(c) $M$ cannot be formed<br />(d) Determinants are undefined<br />(e) No critical point gives determinant zero"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:34:40 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

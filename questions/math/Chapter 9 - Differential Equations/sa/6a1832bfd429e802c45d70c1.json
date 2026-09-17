@@ -1,0 +1,24 @@
+{
+  "id": "6a1832bfd429e802c45d70c1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "For the differential equation $\\frac{dy}{dx}-\\frac{y}{x}+\\csc(\\frac{y}{x})=0,$ find the particular solution, given that $y=0$ when $x=1$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the equation as<br>$$\\frac{dy}{dx} = \\frac{y}{x} - \\csc\\left(\\frac{y}{x}\\right)$$<br>Since it is homogeneous, apply the substitution:<br>$$y = vx \\implies \\frac{dy}{dx} = v + x\\frac{dv}{dx}$$<br><br>**Step 2:** Substitute into the equation:<br>$$v + x\\frac{dv}{dx} = v - \\csc v$$<br>$$x\\frac{dv}{dx} = -\\csc v$$<br><br>**Step 3:** Separate variables and integrate both sides:<br>$$\\frac{dv}{\\csc v} = -\\frac{dx}{x}$$<br>$$\\sin v \\, dv = -\\frac{dx}{x}$$<br>$$-\\cos v = -\\log|x| + C$$<br>$$\\cos\\left(\\frac{y}{x}\\right) = \\log|x| + C$$<br><br>**Step 4:** Apply the given boundary condition $$\\left(y=0 \\text{ when } x=1\\right)$$:<br>$$\\cos(0) = \\log(1) + C$$<br>$$1 = 0 + C$$<br>$$C = 1$$<br>Substitute $$C = 1$$ back to get the unique particular solution:<br>$$\\cos\\left(\\frac{y}{x}\\right) = \\log|x| + 1$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

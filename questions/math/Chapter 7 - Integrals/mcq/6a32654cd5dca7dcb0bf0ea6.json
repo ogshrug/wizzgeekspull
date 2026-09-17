@@ -1,0 +1,31 @@
+{
+  "id": "6a32654cd5dca7dcb0bf0ea6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of $\\int_{0}^{\\frac{\\pi}{4}}(sin~2x)dx$ is",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Find the antiderivative of $\\sin(2x)$: $\\int \\sin(2x) dx = -\\frac{1}{2}\\cos(2x)$.\n\n**Step 2:** Apply the fundamental theorem of calculus with the limits $0$ to $\\pi/4$: $[-\\frac{1}{2}\\cos(2x)]_0^{\\pi/4}$.\n\n**Step 3:** Substitute the upper and lower limits: $-\\frac{1}{2}(\\cos(2 \\cdot \\frac{\\pi}{4}) - \\cos(0)) = -\\frac{1}{2}(\\cos(\\frac{\\pi}{2}) - \\cos(0))$.\n\n**Step 4:** Evaluate the trigonometric values: $-\\frac{1}{2}(0 - 1) = \\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "$\\frac{1}{2}$",
+    "D": "$-\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

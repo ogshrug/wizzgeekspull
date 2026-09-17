@@ -1,0 +1,30 @@
+{
+  "id": "6a8ecf632e54880055a0a6c4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematical model is represented by a piecewise function whose rule changes at $x=1$. The function is defined as $$f(x)=\\begin{cases}x^2+ax,&x<1\\\\bx-1,&x\\geq1\\end{cases}$$ where $a$ and $b$ are real constants. An observation table prepared for the model records that $f(1)=2$. The students must determine the unknown constants and then examine whether the two pieces join smoothly at $x=1$. They first use the given function value, then apply the condition for continuity, and finally compare the derivatives obtained from the two sides of the joining point.<br><br><b>(a)</b> Determine the value of $b$ using the information $f(1)=2$.<br><br><b>(b)</b> Determine $a$ so that $f$ is continuous at $x=1$.<br><br><b>(c)</b> Calculate the left-hand derivative and right-hand derivative of $f$ at $x=1$.<br><br><b>(d)</b> Verify whether $f$ is differentiable at $x=1$ for the obtained values of $a$ and $b$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Since $x=1$ belongs to the second branch,<br><br>$$f(1)=b(1)-1=b-1.$$<br><br>Given $f(1)=2$,<br><br>$$b-1=2\\Rightarrow b=3.$$<br><br><b>(b)</b><br>For continuity at $x=1$,<br><br>$$\\lim_{x\\to1^-}f(x)=f(1).$$<br><br>From the first branch,<br><br>$$\\lim_{x\\to1^-}(x^2+ax)=1+a.$$<br><br>Since $f(1)=2$,<br><br>$$1+a=2\\Rightarrow a=1.$$<br><br>Thus, $a=1$ and $b=3$.<br><br><b>(c)</b><br>For $x<1$, $f(x)=x^2+x$, so<br><br>$$f'(x)=2x+1.$$<br><br>Hence, the left-hand derivative at $x=1$ is<br><br>$$2(1)+1=3.$$<br><br>For $x>1$, $f(x)=3x-1$, so<br><br>$$f'(x)=3.$$<br><br>Hence, the right-hand derivative at $x=1$ is also $3$.<br><br><b>(d)</b><br>The function is continuous at $x=1$ because both one-sided limits equal $f(1)=2$. Also, the left-hand and right-hand derivatives are equal:<br><br>$$f'_-(1)=3=f'_+(1).$$<br><br>Therefore, $f$ is differentiable at $x=1$, and $f'(1)=3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $b=3$<br>(b) $a=1$<br>(c) $f'_-(1)=3,\\ f'_+(1)=3$<br>(d) $f$ is differentiable at $x=1$",
+    "B": "(a) $b=2$<br>(b) $a=1$<br>(c) $f'_-(1)=3,\\ f'_+(1)=2$<br>(d) $f$ is not differentiable at $x=1$",
+    "C": "(a) $b=3$<br>(b) $a=2$<br>(c) $f'_-(1)=4,\\ f'_+(1)=3$<br>(d) $f$ is not differentiable at $x=1$",
+    "D": "(a) $b=1$<br>(b) $a=3$<br>(c) $f'_-(1)=5,\\ f'_+(1)=1$<br>(d) $f$ is not differentiable at $x=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa77932a66c0f894c1aa09",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "A line $L$ has the vector equation $\\vec{r} = (1,1,1) + \\lambda(2,-1,2)$. A plane $P$ has the equation $3x - 2y + z = 7$.\n\n(a) Find the point of intersection between $L$ and $P$.\n\n(b) Determine the angle between $L$ and $P$.\n\n(c) Find the equation of the plane containing $L$ and perpendicular to plane $P$.",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:** Vector Algebra, Three Dimensional Geometry, Analysis<br /><br />(a) Substitute $x=1+2\\lambda, y=1-\\lambda, z=1+2\\lambda$ in plane:<br /><br />$3(1+2\\lambda) - 2(1-\\lambda) + (1+2\\lambda) = 7$<br /><br />$3 + 6\\lambda - 2 + 2\\lambda + 1 + 2\\lambda = 7$<br /><br />$3 - 2 + 1 = 2$<br /><br />$6\\lambda + 2\\lambda + 2\\lambda = 10\\lambda$<br /><br />$2 + 10\\lambda = 7$<br /><br />$10\\lambda = 5 \\implies \\lambda = 0.5$<br /><br />So the point is $(1+1, 1-0.5, 1+1) = (2, 0.5, 2)$<br /><br />(b) The angle $\\theta$ between $L$ and $P$ is $90^\\circ$ minus the angle between the line direction $\\vec{d}=(2,-1,2)$ and normal to $P$, $\\vec{n}=(3,-2,1)$.<br /><br />$\\cos\\theta = \\frac{|\\vec{d} \\cdot \\vec{n}|}{|\\vec{d}||\\vec{n}|}$<br /><br />$\\vec{d} \\cdot \\vec{n} = 2\\cdot3 + (-1)\\cdot(-2) + 2\\cdot1 = 6+2+2=10$<br /><br />$|\\vec{d}| = \\sqrt{2^2 + 1^2 + 2^2} = \\sqrt{9} = 3$<br /><br />$|\\vec{n}| = \\sqrt{9+4+1} = \\sqrt{14}$<br /><br />$\\cos\\theta = \\frac{10}{3\\sqrt{14}}$<br /><br />So $\\theta = \\cos^{-1}\\left(\\frac{10}{3\\sqrt{14}}\\right)$<br /><br />(c) The plane contains $L$ and is perpendicular to $P$ (normal vector $(3,-2,1)$). Let’s find plane through $(1,1,1)$ with normal perpendicular to $(3,-2,1)$ and $\\vec{d}=(2,-1,2)$:<br /><br />Normal to plane $= \\vec{n} \\times \\vec{d}$<br /><br />Compute:<br /><br />$|i \\ j \\ k|$<br />$|3\\ -2\\ 1|$<br />$|2\\ -1\\ 2|$<br /><br />$= i((-2)2-1(-1)) - j(3\\cdot2-1\\cdot2) + k(3(-1)-(-2)2)$<br /><br />$= i(-4+1) - j(6-2) + k(-3+4)$<br /><br />$= i(-3)-j(4)+k(1)$<br /><br />Normal vector $(-3, -4, 1)$<br /><br />Equation: $-3(x-1) - 4(y-1) + 1(z-1) = 0$<br /><br />Or<br /><br />$-3x - 4y + z = -3 - 4 + 1 = -6$<br /><br />$3x + 4y - z = 6$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Point of intersection is $\\left(2,\\frac{1}{2},2\\right)$<br />(b) $\\theta=\\cos^{-1}\\left(\\frac{10}{3\\sqrt{14}}\\right)$<br />(c) Required plane is $3x+4y-z=6$",
+    "B": "(a) Point of intersection is $\\left(1,1,1\\right)$<br />(b) $\\theta=\\sin^{-1}\\left(\\frac{10}{3\\sqrt{14}}\\right)$<br />(c) Required plane is $3x-4y+z=6$",
+    "C": "(a) Point of intersection is $\\left(2,-\\frac{1}{2},2\\right)$<br />(b) $\\theta=\\cos^{-1}\\left(\\frac{5}{3\\sqrt{14}}\\right)$<br />(c) Required plane is $3x+4y+z=6$",
+    "D": "(a) Point of intersection is $\\left(3,0,3\\right)$<br />(b) $\\theta=\\cos^{-1}\\left(\\frac{10}{\\sqrt{14}}\\right)$<br />(c) Required plane is $-3x+4y-z=6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:43:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

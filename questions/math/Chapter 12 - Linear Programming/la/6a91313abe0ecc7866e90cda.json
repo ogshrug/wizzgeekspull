@@ -1,0 +1,30 @@
+{
+  "id": "6a91313abe0ecc7866e90cda",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e1"
+  ],
+  "question_type": "LA",
+  "question": "For the constraints $x+y\\le7$, $x+3y\\le12$, $x\\ge0$ and $y\\ge0$, a family of proposed solutions is given by $Q(t,t+1)$, where $t\\ge0$. Determine exactly the values of $t$ for which $Q$ becomes an infeasible solution and justify the limiting value by checking all the constraints.",
+  "answeroption": "B",
+  "explanation": "<b>Verification of the Constraints</b><br>For $Q(t,t+1)$ with $t\\ge0$, both coordinates are non-negative, so the non-negative restrictions are automatically satisfied. Substituting in $x+y\\le7$ gives $$t+(t+1)\\le7,$$ so $2t+1\\le7$ and hence $t\\le3$. Substituting in $x+3y\\le12$ gives $$t+3(t+1)\\le12,$$ so $4t+3\\le12$ and hence $t\\le\\frac{9}{4}$.<br><br>For a point to be feasible, both restrictions must hold simultaneously. Therefore, with $t\\ge0$, $Q$ is feasible when $$0\\le t\\le\\frac{9}{4}.$$ At the limiting value $t=\\frac{9}{4}$, we have $x+y=\\frac{11}{2}\\le7$ and $x+3y=12$, so the point still satisfies all the constraints and is feasible.<br><br>For every $t>\\frac{9}{4}$, $4t+3>12$, and hence the constraint $x+3y\\le12$ is violated. Therefore such a point is infeasible. For $t>3$, the constraint $x+y\\le7$ is also violated, but violation of even one constraint is sufficient to make a solution infeasible.<br><br><b>Final Result</b><br>$Q(t,t+1)$ is a feasible solution for $0\\le t\\le\\frac{9}{4}$ and is an infeasible solution for every $t>\\frac{9}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$Q(t,t+1)$ is infeasible for $t\\geq\\frac{9}{4}$; the limiting point is also infeasible",
+    "B": "$Q(t,t+1)$ is feasible for $0\\leq t\\leq\\frac{9}{4}$ and infeasible for $t>\\frac{9}{4}$",
+    "C": "$Q(t,t+1)$ is feasible for $0\\leq t\\leq3$ and infeasible only for $t>3$",
+    "D": "$Q(t,t+1)$ is infeasible for every $t>2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "69a857f564fcf4cdd5b4bacc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97c",
+    "6a13e98f8c819562f933f97d",
+    "6a13e98f8c819562f933f97e"
+  ],
+  "question_type": "SA",
+  "question": "Find the equation of both the tangent and the normal to the curve $y = \\ln(x^2 + 1)$ at the point where $x = 1$ and hence calculate the angle between the tangent and x-axis.",
+  "answeroption": "B",
+  "explanation": "Given $y = \\ln(x^2 + 1)$. At $x=1$, $y = \\ln 2$.<br /><br />$\\frac{dy}{dx} = \\frac{2x}{x^2+1}$.<br /><br />At $x=1$, slope of tangent $=1$.<br /><br />Equation of tangent:<br />$y - \\ln2 = 1(x - 1)$.<br /><br />$y = x - 1 + \\ln2$.<br /><br />Slope of normal $=-1$.<br /><br />Equation of normal:<br />$y - \\ln2 = -1(x - 1)$.<br /><br />$y = -x + 1 + \\ln2$.<br /><br />Angle with x-axis: $\\tan\\theta = 1$.<br /><br />$\\theta = 45^\\circ$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Tangent: $y=x+1+\\ln2$; Normal: $y=-x-1+\\ln2$; Angle: $30^\\circ$",
+    "B": "Tangent: $y=x-1+\\ln2$; Normal: $y=-x+1+\\ln2$; Angle: $45^\\circ$",
+    "C": "Tangent: $y=-x+1+\\ln2$; Normal: $y=x-1+\\ln2$; Angle: $135^\\circ$",
+    "D": "Tangent: $y=2x-1+\\ln2$; Normal: $y=-\\frac{1}{2}x+\\frac{1}{2}+\\ln2$; Angle: $60^\\circ$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:04:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

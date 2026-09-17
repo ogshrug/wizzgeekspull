@@ -1,0 +1,32 @@
+{
+  "id": "6a8d7a8358a28138a48f0d78",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let $A=\\mathbb{N}\\times\\mathbb{N}$ and define a relation $R$ on $A$ by $(x,y)R(u,v)$ if and only if $xv=yu$. Prove that $R$ is an equivalence relation on $A$.",
+  "answeroption": "A",
+  "explanation": "<b>Reflexivity</b><br>For any $(x,y)\\in A$,<br>$$xy=yx.$$<br>Therefore, $(x,y)R(x,y)$ for every $(x,y)\\in A$. Hence, $R$ is reflexive.<br><br><b>Symmetry</b><br>Suppose $(x,y)R(u,v)$. Then<br>$$xv=yu.$$<br>Rewriting the equality gives<br>$$uy=vx.$$<br>Therefore, $(u,v)R(x,y)$, and hence $R$ is symmetric.<br><br><b>Transitivity</b><br>Suppose $(x,y)R(u,v)$ and $(u,v)R(p,q)$. Then<br>$$xv=yu$$<br>and<br>$$uq=vp.$$<br>Multiplying the first equality by $q$ gives<br>$$xvq=yuq.$$<br>Multiplying the second equality by $y$ gives<br>$$yuq=yvp.$$<br>Hence,<br>$$xvq=yvp.$$<br>Since $v\\in\\mathbb{N}$ and therefore $v\\ne0$, cancelling $v$ gives<br>$$xq=yp.$$<br>Thus, $(x,y)R(p,q)$, so $R$ is transitive.<br><br><b>Final Result</b><br>The relation $R$ is reflexive, symmetric and transitive. Therefore, $R$ is an equivalence relation on $A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is reflexive, symmetric and transitive; hence, it is an equivalence relation",
+    "B": "$R$ is reflexive and symmetric but not transitive; hence, it is not an equivalence relation",
+    "C": "$R$ is symmetric and transitive but not reflexive; hence, it is not an equivalence relation",
+    "D": "$R$ is transitive but neither reflexive nor symmetric; hence, it is not an equivalence relation"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

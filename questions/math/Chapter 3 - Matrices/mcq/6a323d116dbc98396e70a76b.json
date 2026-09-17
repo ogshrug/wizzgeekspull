@@ -1,0 +1,32 @@
+{
+  "id": "6a323d116dbc98396e70a76b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d50",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "MCQ",
+  "question": "Let A be a matrix of order $m\\times n$ and B is a matrix such that $A^{T}B$ and $BA^{T}$ are defined. Then, the order of B is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Since the matrix $A$ has an order of $m \\times n$, its transpose matrix $A^T$ will have an inverted order of $n \\times m$.<br />**Step 2:** For the matrix multiplication product $A^T B$ to be定义, the number of rows in matrix $B$ must be equal to the number of columns in $A^T$, which is $m$.<br />**Step 3:** For the product $B A^T$ to be定义, the number of columns in matrix $B$ must be equal to the number of rows in $A^T$, which is $n$. Therefore, combining these dimensions reveals that the order of $B$ must be $m \\times n$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$m\\times m$",
+    "B": "$n\\times n$",
+    "C": "$m\\times n$",
+    "D": "$n\\times m$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

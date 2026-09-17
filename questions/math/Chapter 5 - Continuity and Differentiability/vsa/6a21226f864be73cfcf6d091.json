@@ -1,0 +1,28 @@
+{
+  "id": "6a21226f864be73cfcf6d091",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\sqrt{3}(x^2+y^2) = 4xy$, then find $\\frac{dy}{dx}$ at $\\left(\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Differentiate Implicitly**  \nGiven $\\sqrt{3}(x^2+y^2) = 4xy$. Differentiate both sides with respect to $x$:  \n$$\\sqrt{3}(2x + 2y \\frac{dy}{dx}) = 4\\left(y + x \\frac{dy}{dx}\\right)$$  \n$$2\\sqrt{3}x + 2\\sqrt{3}y \\frac{dy}{dx} = 4y + 4x \\frac{dy}{dx}$$\n\n**Step 2: Collect Terms with $\\frac{dy}{dx}$**  \n$$2\\sqrt{3}y \\frac{dy}{dx} - 4x \\frac{dy}{dx} = 4y - 2\\sqrt{3}x$$  \n$$\\frac{dy}{dx}(2\\sqrt{3}y - 4x) = 4y - 2\\sqrt{3}x$$  \n$$\\frac{dy}{dx} = \\frac{4y - 2\\sqrt{3}x}{2\\sqrt{3}y - 4x} = \\frac{2y - \\sqrt{3}x}{\\sqrt{3}y - 2x}$$\n\n**Step 3: Substitute the Given Point**  \nAt $\\left(\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$:  \n$$\\frac{dy}{dx} = \\frac{2\\left(\\frac{\\sqrt{3}}{2}\\right) - \\sqrt{3}\\left(\\frac{1}{2}\\right)}{\\sqrt{3}\\left(\\frac{\\sqrt{3}}{2}\\right) - 2\\left(\\frac{1}{2}\\right)} = \\frac{\\sqrt{3} - \\frac{\\sqrt{3}}{2}}{\\frac{3}{2} - 1} = \\frac{\\frac{\\sqrt{3}}{2}}{\\frac{1}{2}} = \\sqrt{3}$$  \nThus, $\\frac{dy}{dx} = \\sqrt{3}$ at the given point.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

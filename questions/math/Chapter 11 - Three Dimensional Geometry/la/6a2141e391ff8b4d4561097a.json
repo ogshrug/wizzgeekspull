@@ -1,0 +1,29 @@
+{
+  "id": "6a2141e391ff8b4d4561097a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "Represent the equations of lines $l_{1}$ and $l_{2}$ in vector form and check whether they are intersecting or not.<br />$l_{1}: \\frac{x+3}{-3}=\\frac{y-1}{1}=\\frac{z-5}{5}$<br />$l_{2}: \\frac{x+1}{-1}=\\frac{2-y}{-2}=\\frac{z-5}{5}$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Convert the first line $l_1$ into vector form. The coordinates of a point on the line are $(-3, 1, 5)$ and its direction ratios are $\\langle-3, 1, 5\\rangle$. The vector equation is $\\vec{r} = (-3\\hat{i} + \\hat{j} + 5\\hat{k}) + \\lambda(-3\\hat{i} + \\hat{j} + 5\\hat{k})$.<br /><br /><b>Step 2</b> Convert the second line $l_2$ into standard form first to correctly extract the direction ratios. Multiply the numerator and denominator of the y-term by -1 to get $\\frac{y-2}{2}$. The standard equation is $\\frac{x+1}{-1} = \\frac{y-2}{2} = \\frac{z-5}{5}$. The point is $(-1, 2, 5)$ and direction ratios are $\\langle-1, 2, 5\\rangle$. The vector equation is $\\vec{r} = (-\\hat{i} + 2\\hat{j} + 5\\hat{k}) + \\mu(-\\hat{i} + 2\\hat{j} + 5\\hat{k})$.<br /><br /><b>Step 3</b> To check if the lines intersect, we calculate the shortest distance between them. If the shortest distance is exactly zero, they intersect. The formula for shortest distance relies on the numerator $(\\vec{a}_2 - \\vec{a}_1) \\cdot (\\vec{b}_1 \\times \\vec{b}_2)$. Let's find $\\vec{a}_2 - \\vec{a}_1 = (-\\hat{i} + 2\\hat{j} + 5\\hat{k}) - (-3\\hat{i} + \\hat{j} + 5\\hat{k}) = 2\\hat{i} + \\hat{j} + 0\\hat{k}$.<br /><br /><b>Step 4</b> Compute the cross product of the direction vectors: $\\vec{b}_1 \\times \\vec{b}_2 = (-3\\hat{i} + \\hat{j} + 5\\hat{k}) \\times (-\\hat{i} + 2\\hat{j} + 5\\hat{k})$. Using the determinant method, we get $\\hat{i}(5-10) - \\hat{j}(-15 - (-5)) + \\hat{k}(-6 - (-1)) = -5\\hat{i} + 10\\hat{j} - 5\\hat{k}$.<br /><br /><b>Step 5</b> Calculate the scalar triple product (the dot product of the results from step 3 and step 4). $(2\\hat{i} + \\hat{j} + 0\\hat{k}) \\cdot (-5\\hat{i} + 10\\hat{j} - 5\\hat{k}) = (2)(-5) + (1)(10) + (0)(-5) = -10 + 10 = 0$. Since the numerator of the shortest distance formula evaluates precisely to $0$, the lines intersect.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

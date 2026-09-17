@@ -1,0 +1,30 @@
+{
+  "id": "6a8d3dba550d28a069ec32f5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Let $f:\\mathbb{Z}\\to\\mathbb{Z}$ be defined by $f(x)=x^3$.<br><br>(i) Show that $f$ is one-one.<br><br>(ii) Determine whether $f$ is onto and justify your answer.",
+  "answeroption": "D",
+  "explanation": "<b>(i) Verification of the one-one property</b><br>Let $x_1,x_2\\in\\mathbb{Z}$ and suppose $f(x_1)=f(x_2)$. Then<br>$$x_1^3=x_2^3.$$<br>This implies<br>$$x_1=x_2.$$<br>Hence, $f$ is one-one.<br><br><b>(ii) Testing the onto property</b><br>Consider $2\\in\\mathbb{Z}$. For $2$ to have a pre-image, there must exist $x\\in\\mathbb{Z}$ such that<br>$$x^3=2.$$<br>No integer satisfies this equation. Therefore, $2$ has no pre-image in $\\mathbb{Z}$.<br><br><b>Conclusion</b><br>The function $f$ is one-one but not onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is neither one-one nor onto",
+    "B": "$f$ is onto but not one-one",
+    "C": "$f$ is both one-one and onto",
+    "D": "$f$ is one-one but not onto because integers such as $2$ have no integer pre-image"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

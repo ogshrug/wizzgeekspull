@@ -1,0 +1,30 @@
+{
+  "id": "69aa82a78e6d1957407fd1c8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 5: Linear Systems in Market Analysis**<br /><br />A start-up sells two subscription types, Basic and Premium. Each month, their marketing manager collects data on the number of campaigns required ($x$) and funds spent ($y$) to achieve the targets. The system<br /><br />$$\\begin{cases}2x + 3y = 14 \\\\ 5x + 4y = 23\\end{cases}$$<br /><br />is formed for a particular analysis.<br /><br />(a) Write this system in matrix form $AX=B$.<br />(b) Find the inverse of the coefficient matrix $A$.<br />(c) Solve for $x$ and $y$ using the matrix inverse method.<br />(d) Verify your solution by direct substitution.",
+  "answeroption": "C",
+  "explanation": "(a) The system is:<br /><br />$\\begin{bmatrix} 2 & 3 \\\\ 5 & 4 \\end{bmatrix} \\begin{bmatrix} x \\\\ y \\end{bmatrix} = \\begin{bmatrix} 14 \\\\ 23 \\end{bmatrix}$<br /><br />$A = \\begin{bmatrix} 2 & 3 \\\\ 5 & 4 \\end{bmatrix}$, $X = \\begin{bmatrix} x \\\\ y \\end{bmatrix}$, $B = \\begin{bmatrix} 14 \\\\ 23 \\end{bmatrix}$<br /><br />(b)<br /><br />$|A| = 2*4 - 3*5 = 8 - 15 = -7 \\ne 0$<br /><br />$A$ is invertible.<br /><br />$A^{-1} = \\dfrac{1}{-7} \\begin{bmatrix} 4 & -3 \\\\ -5 & 2 \\end{bmatrix}$<br /><br />(c) $X = A^{-1} B = \\dfrac{1}{-7} \\begin{bmatrix} 4 & -3 \\\\ -5 & 2 \\end{bmatrix} \\begin{bmatrix} 14 \\\\ 23 \\end{bmatrix}$<br /><br />First row: $4\\times14 + (-3)\\times23 = 56 - 69 = -13$<br /><br />Second row: $-5\\times14 + 2\\times23 = -70 + 46 = -24$<br /><br />$X = \\dfrac{1}{-7} \\begin{bmatrix} -13 \\\\ -24 \\end{bmatrix}$<br /><br />$ = \\begin{bmatrix} 13/7 \\\\ 24/7 \\end{bmatrix}$<br /><br />Thus, $x = 13/7$, $y = 24/7$.<br /><br />(d)<br /><br />Check in first equation:<br /><br />$2x + 3y = 2 \\times \\dfrac{13}{7} + 3 \\times \\dfrac{24}{7} = \\dfrac{26 + 72}{7} = \\dfrac{98}{7} = 14$ ✓<br /><br />Second equation:<br /><br />$5x + 4y = 5 \\times \\dfrac{13}{7} + 4 \\times \\dfrac{24}{7} = \\dfrac{65 + 96}{7} = \\dfrac{161}{7} = 23$ ✓",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\begin{bmatrix}2&5\\\\3&4\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}14\\\\23\\end{bmatrix}$.<br />(b) $A^{-1}=\\frac{1}{7}\\begin{bmatrix}4&-3\\\\-5&2\\end{bmatrix}$.<br />(c) $x=\\frac{24}{7}$, $y=\\frac{13}{7}$.<br />(d) Substitution does not satisfy both equations.",
+    "B": "(a) $\\begin{bmatrix}2&3\\\\5&4\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}23\\\\14\\end{bmatrix}$.<br />(b) $A$ is singular.<br />(c) No unique solution exists.<br />(d) Verification is not possible.",
+    "C": "(a) $\\begin{bmatrix}2&3\\\\5&4\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}14\\\\23\\end{bmatrix}$.<br />(b) $A^{-1}=\\frac{1}{-7}\\begin{bmatrix}4&-3\\\\-5&2\\end{bmatrix}$.<br />(c) $x=\\frac{13}{7}$, $y=\\frac{24}{7}$.<br />(d) Substitution gives $2x+3y=14$ and $5x+4y=23$.",
+    "D": "(a) $\\begin{bmatrix}2&3\\\\5&4\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}14\\\\23\\end{bmatrix}$.<br />(b) $A^{-1}=\\begin{bmatrix}2&3\\\\5&4\\end{bmatrix}$.<br />(c) $x=14$, $y=23$.<br />(d) Substitution gives incorrect values."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:30:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

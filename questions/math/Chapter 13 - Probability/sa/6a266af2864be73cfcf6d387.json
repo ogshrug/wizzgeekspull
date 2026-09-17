@@ -1,0 +1,28 @@
+{
+  "id": "6a266af2864be73cfcf6d387",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "From a lot of 30 bulbs which include 6 defective bulbs, a sample of 2 bulbs is drawn at random one by one with replacement. Find the probability distribution of the number of defective bulbs and hence find the mean number of defective bulbs.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The lot contains a total of $30$ bulbs, out of which $6$ are defective, meaning there are $30 - 6 = 24$ non-defective bulbs. Let drawing a defective bulb be considered a success. Since drawing is done with replacement, trials are independent. The probability of success is $p = \\frac{6}{30} = \\frac{1}{5}$, and failure is $q = 1 - \\frac{1}{5} = \\frac{4}{5}$. We draw 2 bulbs, so random variable $X$ (number of defective bulbs) takes values $0, 1, 2$.<br />**Step 2:** Compute individual state probabilities. For $X=0$ (no defectives): $P(X=0) = q \\times q = \\frac{4}{5} \\times \\frac{4}{5} = \\frac{16}{25}$. For $X=1$ (exactly one defective bulb): this can happen in two orders, so $P(X=1) = 2pq = 2\\left(\\frac{1}{5}\\right)\\left(\\frac{4}{5}\\right) = \\frac{8}{25}$. For $X=2$ (both defective bulbs): $P(X=2) = p \\times p = \\frac{1}{5} \\times \\frac{1}{5} = \\frac{1}{25}$.<br />**Step 3:** Calculate the mean (expected value) using the formula $\\mu = \\sum X_i P(X_i)$. Substituting values: $\\mu = (0)\\left(\\frac{16}{25}\\right) + (1)\\left(\\frac{8}{25}\\right) + (2)\\left(\\frac{1}{25}\\right) = 0 + \\frac{8}{25} + \\frac{2}{25} = \\frac{10}{25} = \\frac{2}{5} = 0.4$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

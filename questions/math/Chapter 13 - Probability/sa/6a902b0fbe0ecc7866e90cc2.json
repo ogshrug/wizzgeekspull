@@ -1,0 +1,29 @@
+{
+  "id": "6a902b0fbe0ecc7866e90cc2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "SA",
+  "question": "Let $A$ and $B$ be independent events. Show that $A$ and $B'$ are also independent.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Independence relation</b><br>Since $A$ and $B$ are independent, $$P(A\\cap B)=P(A)P(B).$$<br><b>Step 2: Decomposition of event $A$</b><br>The events $A\\cap B$ and $A\\cap B'$ are mutually exclusive and their union is $A$. Hence, $$P(A)=P(A\\cap B)+P(A\\cap B').$$<br><b>Step 3: Determination of $P(A\\cap B')$</b><br>Therefore, $$P(A\\cap B')=P(A)-P(A\\cap B).$$ Using independence of $A$ and $B$, $$P(A\\cap B')=P(A)-P(A)P(B).$$<br><b>Step 4: Factorisation</b><br>$$P(A\\cap B')=P(A)[1-P(B)]=P(A)P(B').$$<br><b>Step 5: Conclusion</b><br>Since $$P(A\\cap B')=P(A)P(B'),$$ the condition for independence is satisfied. Hence, $$\\boxed{A\\text{ and }B'\\text{ are independent}.}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ and $B'$ are independent because $P(A\\cap B')=P(A)-P(A\\cap B)=P(A)[1-P(B)]=P(A)P(B')$",
+    "B": "$A$ and $B'$ are mutually exclusive because $B$ and $B'$ are mutually exclusive",
+    "C": "$A$ and $B'$ are not independent because $P(B')=1-P(B)$",
+    "D": "$A$ and $B'$ are independent only when $P(A)=P(B')$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

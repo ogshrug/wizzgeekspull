@@ -1,0 +1,31 @@
+{
+  "id": "6a329303d5dca7dcb0bf0eee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "MCQ",
+  "question": "Let Z denote the set of integers, then function $f: Z \\rightarrow Z$ defined as $f(x) = x^3 - 1$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** To check for one-one, set $f(x_1) = f(x_2)$. This gives $x_1^3 - 1 = x_2^3 - 1 \\Rightarrow x_1^3 = x_2^3 \\Rightarrow x_1 = x_2$ for integers. Thus, $f$ is one-one.\n\n**Step 2:** To check for onto, determine if every element in the codomain has a pre-image. Let $y = f(x) = x^3 - 1$.\n\n**Step 3:** For $y = 1$, we get $x^3 - 1 = 1 \\Rightarrow x^3 = 2$. There is no integer $x$ whose cube is $2$. Hence, $f$ is not onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "both one-one and onto",
+    "B": "one-one but not onto",
+    "C": "onto but not one-one",
+    "D": "neither one-one nor onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a8edd5dbe0ecc7866e90c02",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978",
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "LA",
+  "question": "Consider the function $f(x)=x^3-6x^2+9x+5$, defined for all real $x$.<br><br>(a) Determine its critical points.<br><br>(b) Find the intervals on which $f$ is increasing and decreasing using the first derivative.<br><br>(c) Verify the obtained behaviour by comparing $f(0)$ with $f(1)$ and $f(2)$ with $f(3)$.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br><b>Differentiation</b><br>$$f'(x)=3x^2-12x+9$$<br>$$f'(x)=3(x-1)(x-3)$$<br>Since the function is differentiable for every real $x$, its critical points occur where $f'(x)=0$.<br>$$3(x-1)(x-3)=0$$<br>Therefore, the critical points are<br>$$x=1\\quad\\text{and}\\quad x=3$$<br><br><b>(b)</b><br>The critical points divide the real line into $(-\\infty,1)$, $(1,3)$ and $(3,\\infty)$.<br>For $x<1$, both $x-1$ and $x-3$ are negative. Therefore, $f'(x)>0$.<br>For $1<x<3$, $x-1>0$ and $x-3<0$. Therefore, $f'(x)<0$.<br>For $x>3$, both factors are positive. Therefore, $f'(x)>0$.<br>Hence, $f$ is increasing on<br>$$(-\\infty,1)\\cup(3,\\infty)$$<br>and decreasing on<br>$$(1,3)$$<br><br><b>(c)</b><br>On the increasing interval $(-\\infty,1)$,<br>$$f(0)=5$$<br>$$f(1)=1-6+9+5=9$$<br>Thus, $0<1$ and $f(0)<f(1)$, which agrees with the increasing behaviour.<br>On the decreasing interval $(1,3)$,<br>$$f(2)=8-24+18+5=7$$<br>$$f(3)=27-54+27+5=5$$<br>Thus, $2<3$ and $f(2)>f(3)$, which agrees with the decreasing behaviour.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Critical points $x=-1,3$<br>(b) Increasing on $(-1,3)$ and decreasing outside<br>(c) $f(0)=5>f(1)=9$ and $f(2)=7<f(3)=5$",
+    "B": "(a) Critical points $x=1,3$<br>(b) Increasing on $(-\\infty,1)\\cup(3,\\infty)$ and decreasing on $(1,3)$<br>(c) $f(0)=5<f(1)=9$ and $f(2)=7>f(3)=5$",
+    "C": "(a) Critical points $x=1,3$<br>(b) Decreasing on $(-\\infty,1)\\cup(3,\\infty)$ and increasing on $(1,3)$<br>(c) $f(0)=5>f(1)=9$ and $f(2)=7<f(3)=5$",
+    "D": "(a) Critical point $x=2$ only<br>(b) Increasing on $(-\\infty,2)$ and decreasing on $(2,\\infty)$<br>(c) $f(0)=f(1)$ and $f(2)=f(3)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

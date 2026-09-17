@@ -1,0 +1,30 @@
+{
+  "id": "69a9c1d3d30adc5083911b57",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7e",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "LA",
+  "question": "Suppose $f(x) = \\tan^{-1}\\left( \\frac{2x}{1 - x^2} \\right )$ defined for $x \\in (-1,1)$. <br /><br />(a) Express $f(x)$ in terms of $\\tan^{-1}(x)$.<br /><br />(b) Prove $f$ is continuous and differentiable on $(-1,1)$.<br /><br />(c) Find $\\left. \\frac{df}{dx} \\right|_{x=0}$.<br /><br />(d) Interpret $f(x)$ in terms of a familiar trigonometric identity and discuss invertibility of $f$ on $(-1,1)$.<br /><br />(e) If $A = \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}$, compute $A^k$ for $k \\in \\mathbb{N}$ and relate to the function $f$ evaluated at matrix entries.",
+  "answeroption": "C",
+  "explanation": "**Concepts Tested:**<br />- Properties and identities of inverse trigonometric functions<br />- Continuity and differentiability (Continuity & Differentiability)<br />- Matrix powers (Matrices)<br />- Evaluation and invertibility (Functions & Inverse Trigonometric Functions)<br /><br /> (a) Express $f(x)$:<br />Recall: $\\tan(2\\theta) = \\frac{2\\tan\\theta}{1 - \\tan^2\\theta}$<br /><br />Thus, set $x = \\tan \\theta$, then:<br />$\\frac{2x}{1-x^2} = \\tan(2\\theta)$<br /><br />So $f(x) = \\tan^{-1}(\\tan(2\\theta)) = 2 \\tan^{-1} x$ for $x \\in (-1,1)$<br /><br /> (b) Continuity and differentiability:<br />On $(-1,1)$, $\\frac{2x}{1-x^2}$ is continuous. $\\tan^{-1}$ is continuous everywhere.<br /><br />Thus, $f$ is continuous. Since $\\tan^{-1}$ is differentiable everywhere, so is $f$.<br /><br /> (c) $\\left. \\frac{df}{dx} \\right|_{x=0}$:<br />$f(x) = 2 \\tan^{-1} x$<br /><br />$\\implies f'(x) = \\frac{2}{1 + x^2}$<br /><br />At $x=0$, $f'(0) = 2$<br /><br /> (d) $f(x)$ in trigonometric identity and invertibility:<br />As above, $f(x) = 2 \\tan^{-1} x$ for $x \\in (-1,1)$<br /><br />Since $\\tan^{-1}$ is strictly increasing on $(-1,1)$, so is $f$ (scaled by 2).<br /><br />Thus $f$ is invertible on $(-1,1)$.<br /><br /> (e) $A = \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}$<br /><br />Compute $A^2 = \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}^2 = \\begin{bmatrix} -1 & 0 \\\\ 0 & -1 \\end{bmatrix} = -I$<br /><br />$A^3 = A^2 \\cdot A = -A$<br /><br />$A^4 = (A^2)^2 = I$<br /><br />So $A^{4n+k} = A^k$ for $k=0,1,2,3$<br /><br />Relate to $f$ of matrix entries:<br />For $x = 0, 1, -1$ (matrix elements), $f(0) = 0$, $f(1) = 2 \\tan^{-1} 1 = \\pi$, $f(-1) = 2 \\tan^{-1}(-1) = -\\pi$<br /><br />Thus, cyclic nature reflects both rotation matrices and the double angle for tangent.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=\\tan^{-1}x$<br />(b) $f$ is not continuous on $(-1,1)$<br />(c) $f'(0)=1$<br />(d) $f$ is not invertible<br />(e) $A^2=I$, $A^3=A$, $A^4=-I$",
+    "B": "(a) $f(x)=2\\tan^{-1}x$<br />(b) $f$ is continuous but not differentiable on $(-1,1)$<br />(c) $f'(0)=0$<br />(d) $f$ is not one-one<br />(e) $A^2=I$, $A^3=-A$, $A^4=A$",
+    "C": "(a) $f(x)=2\\tan^{-1}x$<br />(b) $f$ is continuous and differentiable on $(-1,1)$<br />(c) $f'(0)=2$<br />(d) It represents the tangent double-angle identity and $f$ is invertible on $(-1,1)$<br />(e) $A^2=-I$, $A^3=-A$, $A^4=I$, so powers of $A$ are cyclic with period $4$",
+    "D": "(a) $f(x)=\\frac{1}{2}\\tan^{-1}x$<br />(b) $f$ is discontinuous at $x=0$<br />(c) $f'(0)=\\frac{1}{2}$<br />(d) It represents the sine double-angle identity<br />(e) $A^2=A$, $A^3=I$, $A^4=-I$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:48:03 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

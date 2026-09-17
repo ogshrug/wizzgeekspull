@@ -1,0 +1,31 @@
+{
+  "id": "6a2686256dcceaa948c59e8b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{2\\cos 2x-1}{1+2\\sin x}\\,dx$ is equal to:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Use $\\cos2x=1-2\\sin^2x$ to get $2\\cos2x-1=1-4\\sin^2x$.<br /><br />**Step 2:** Factor the numerator: $1-4\\sin^2x=(1-2\\sin x)(1+2\\sin x)$. Thus, the integrand becomes $1-2\\sin x$.<br /><br />**Step 3:** Integrate: $\\int(1-2\\sin x)dx=x+2\\cos x+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x-2\\cos x+C$",
+    "B": "$x+2\\cos x+C$",
+    "C": "$-x-2\\cos x+C$",
+    "D": "$-x+2\\cos x+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

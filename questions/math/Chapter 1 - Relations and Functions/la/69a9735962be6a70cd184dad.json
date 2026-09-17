@@ -1,0 +1,31 @@
+{
+  "id": "69a9735962be6a70cd184dad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "**Case Study:**<br /><br />Let $f: \\mathbb{R} \\to \\mathbb{R}$ be the function $f(x) = x^3 - 3x + 2$.<br /><br />1. Is $f$ one-one? Justify mathematically.<br /><br />2. Is $f$ onto? If not, provide a real number $y$ for which there does not exist $x$ so that $f(x) = y$.<br /><br />3. Consider the relation $R$ on $\\mathbb{R}$ defined by $(a,b) \\in R$ if and only if $f(a) = f(b)$. Is $R$ an equivalence relation? Justify.",
+  "answeroption": "C",
+  "explanation": "1. $f(x)$ is not one-one because $f'(x) = 3x^2 - 3$, which is zero at $x = \\pm 1$. Thus, $f(x)$ is not strictly increasing or decreasing. For instance, $f(0) = 2$ and $f(2) = 2$, so $f$ is not injective.<br /><br />2. Since $f(x)$ is a cubic polynomial, its range is $\\mathbb{R}$. So, $f$ is onto.<br /><br />3. The relation $R$ is:<br /><br />Reflexive: $f(a) = f(a)$ always true, so $(a,a) \\in R$.<br /><br />Symmetric: If $f(a) = f(b)$, then $f(b) = f(a) \\implies (b,a) \\in R$.<br /><br />Transitive: If $f(a) = f(b)$ and $f(b) = f(c)$, then $f(a) = f(c) \\implies (a,c) \\in R$.<br /><br />Therefore, $R$ is an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "1. $f$ is one-one because it is a cubic polynomial.<br />2. $f$ is not onto; $y=0$ has no pre-image.<br />3. $R$ is not an equivalence relation.",
+    "B": "1. $f$ is one-one because $f'(x)>0$ for all $x$.<br />2. $f$ is onto.<br />3. $R$ is symmetric only.",
+    "C": "1. $f$ is not one-one; for example, $f(0)=2$ and $f(2)=2$.<br />2. $f$ is onto because a cubic polynomial has range $\\mathbb{R}$.<br />3. $R$ is an equivalence relation because equality of function values is reflexive, symmetric and transitive.",
+    "D": "1. $f$ is not one-one.<br />2. $f$ is not onto; every negative number has no pre-image.<br />3. $R$ is reflexive but not symmetric."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:13:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

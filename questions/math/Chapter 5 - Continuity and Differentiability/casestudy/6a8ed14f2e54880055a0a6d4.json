@@ -1,0 +1,30 @@
+{
+  "id": "6a8ed14f2e54880055a0a6d4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d81",
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Students preparing a derivative table investigate the function $g(x)=2\\log x-x$, defined only for $x>0$. The logarithmic term requires them to keep the domain restriction in mind throughout the calculation. They differentiate the function, evaluate its rate of change at a specified point, and then determine the positive input for which the derivative becomes zero. The activity is designed to connect the derivative formula for the natural logarithm with algebraic simplification while ensuring that every solution obtained is checked against the stated domain of the function.<br><br><b>(a)</b> State the domain of $g$.<br><br><b>(b)</b> Find $g'(x)$.<br><br><b>(c)</b> Evaluate $g'(1)$.<br><br><b>(d)</b> Determine the value of $x$ in the domain of $g$ for which $g'(x)=0$.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The natural logarithm $\\log x$ is defined only when $x>0$. Therefore, the domain of $g$ is<br><br>$$x>0.$$<br><br><b>(b)</b><br>Using $\\frac{d}{dx}(\\log x)=\\frac{1}{x}$,<br><br>$$g'(x)=2\\left(\\frac{1}{x}\\right)-1=\\frac{2}{x}-1.$$<br><br>Thus,<br><br>$$g'(x)=\\frac{2}{x}-1,\\quad x>0.$$<br><br><b>(c)</b><br>At $x=1$,<br><br>$$g'(1)=\\frac{2}{1}-1=1.$$<br><br>Hence, $g'(1)=1$.<br><br><b>(d)</b><br>For $g'(x)=0$,<br><br>$$\\frac{2}{x}-1=0.$$<br><br>Therefore,<br><br>$$\\frac{2}{x}=1,$$<br><br>so<br><br>$$x=2.$$<br><br>Since $2>0$, it belongs to the domain of $g$. Hence, the required value is $x=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $x\\in\\mathbb{R}$<br>(b) $g'(x)=\\frac{2}{x}-1$<br>(c) $g'(1)=1$<br>(d) $x=2$",
+    "B": "(a) $x>0$<br>(b) $g'(x)=\\frac{2}{x}-1$<br>(c) $g'(1)=1$<br>(d) $x=2$",
+    "C": "(a) $x>0$<br>(b) $g'(x)=\\frac{2}{x}+1$<br>(c) $g'(1)=3$<br>(d) No positive solution",
+    "D": "(a) $x\\geq0$<br>(b) $g'(x)=2\\log x-1$<br>(c) $g'(1)=-1$<br>(d) $x=e^{1/2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

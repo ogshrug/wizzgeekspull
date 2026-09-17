@@ -1,0 +1,26 @@
+{
+  "id": "6a229230fbdd87b6dea73ba0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following Linear Programming Problem using graphical method:\n\nMaximise $Z=100x+50y$\n\nsubject to the constraints\n$3x+y\\le600$\n$x+y\\le300$\n$y\\le x+200$\n$x\\ge0, y\\ge0$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Find the boundary intercepts for each constraint line to graph them. For $3x + y = 600$, intercepts are $(200, 0)$ and $(0, 600)$. For $x + y = 300$, intercepts are $(300, 0)$ and $(0, 300)$. For $y - x = 200$, intercepts are $(0, 200)$ and $(-200, 0)$. Plotting these lines with $x, y \\ge 0$ identifies the bounded feasible region.<br /><br /><b>Step 2</b> Determine the boundary corner points of this shaded region along the axes: the origin $(0, 0)$, the point $(200, 0)$ on the x-axis, and the point $(0, 200)$ on the y-axis.<br /><br /><b>Step 3</b> Find the interior corner points by solving line intersections. Solving $3x + y = 600$ and $x + y = 300$ simultaneously by subtraction gives: $2x = 300 \\implies x = 150$, which yields $y = 150$. This gives the corner point $(150, 150)$.<br /><br /><b>Step 4</b> Find the remaining intersection point by solving $x + y = 300$ and $y \\le x + 200$ together. Adding them gives $2y = 500 \\implies y = 250$, which yields $x = 50$. This gives the corner point $(50, 250)$. The complete set of corner points is: $(0,0), (200,0), (150,150), (50,250), (0,200)$.<br /><br /><b>Step 5</b> Evaluate the objective function $Z = 100x + 50y$ at each corner point: \\\\ At $(0,0): Z = 0$ \\\\ At $(200,0): Z = 100(200) = 20000$ \\\\ At $(150,150): Z = 100(150) + 50(150) = 22500$ \\\\ At $(50,250): Z = 100(50) + 50(250) = 17500$ \\\\ At $(0,200): Z = 50(200) = 10000$. \\\\ Comparing these values, the maximum value of $Z$ is $22500$, which occurs at $(150, 150)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

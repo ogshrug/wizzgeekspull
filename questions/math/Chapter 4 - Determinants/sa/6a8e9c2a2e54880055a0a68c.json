@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9c2a2e54880055a0a68c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6c"
+  ],
+  "question_type": "SA",
+  "question": "For $A=\\begin{bmatrix}1&2&0\\\\3&k&4\\\\2&1&5\\end{bmatrix}$, calculate $M_{11}$ and $M_{32}$. If these minors are equal, determine $k$ and verify the result.",
+  "answeroption": "B",
+  "explanation": "<b>Calculation of $M_{11}$</b><br>$$M_{11}=\\begin{vmatrix}k&4\\\\1&5\\end{vmatrix}=5k-4$$<br><b>Calculation of $M_{32}$</b><br>Deleting the third row and second column gives $$M_{32}=\\begin{vmatrix}1&0\\\\3&4\\end{vmatrix}=4$$<br><b>Equality of the minors</b><br>Using $M_{11}=M_{32}$, $$5k-4=4$$ Therefore, $$k=\\frac{8}{5}$$<br><b>Verification</b><br>For $k=\\frac{8}{5}$, $M_{11}=8-4=4=M_{32}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$M_{11}=5k-4$, $M_{32}=4$, and $k=\\frac{4}{5}$",
+    "B": "$M_{11}=5k-4$, $M_{32}=4$, and $k=\\frac{8}{5}$",
+    "C": "$M_{11}=5k+4$, $M_{32}=4$, and $k=0$",
+    "D": "$M_{11}=5k-4$, $M_{32}=-4$, and $k=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

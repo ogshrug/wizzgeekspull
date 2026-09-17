@@ -1,0 +1,29 @@
+{
+  "id": "6a8ebe48751910886affb97f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "SA",
+  "question": "The function $f$ is defined by $$f(x)=\\begin{cases}\\frac{x^2-9}{x-3}, & x\\neq 3\\\\k, & x=3\\end{cases}$$ Determine the value of $k$ so that $f$ is continuous at $x=3$.",
+  "answeroption": "A",
+  "explanation": "<b>Simplifying the function near $x=3$</b><br>For $x\\neq 3$, $$f(x)=\\frac{(x-3)(x+3)}{x-3}=x+3$$<br><b>Limit at $x=3$</b><br>$$\\lim_{x\\to 3}f(x)=\\lim_{x\\to 3}(x+3)=6$$<br><b>Continuity condition</b><br>For continuity at $x=3$, $$\\lim_{x\\to 3}f(x)=f(3)$$<br>Since $f(3)=k$, $$k=6$$<br>Therefore, the required value is $k=6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=6$",
+    "B": "$k=3$",
+    "C": "$k=9$",
+    "D": "$k=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

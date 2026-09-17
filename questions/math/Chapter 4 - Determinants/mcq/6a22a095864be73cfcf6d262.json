@@ -1,0 +1,34 @@
+{
+  "id": "6a22a095864be73cfcf6d262",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "MCQ",
+  "question": "If A is a square matrix of order 3 such that the value of $|adj\\cdot A|=8$ then the value of $|A^{T}|$ is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Use the standard property relating the determinant of an adjoint matrix to the determinant of the original matrix: $|adj(A)| = |A|^{n-1}$, where $n$ is the order of the matrix.<br />**Step 2:** We are given $n = 3$ and $|adj(A)| = 8$. Substituting these values, we get $8 = |A|^{3-1} = |A|^2$.<br />**Step 3:** Solve for $|A|$. Taking the square root gives $|A| = \\pm\\sqrt{8} = \\pm 2\\sqrt{2}$.<br />**Step 4:** The question asks for $|A^T|$. Another fundamental property of determinants is that the determinant of a matrix is equal to the determinant of its transpose, i.e., $|A^T| = |A|$.<br />**Step 5:** Therefore, $|A^T| = \\pm 2\\sqrt{2}$. Looking at the options, only the positive root $2\\sqrt{2}$ is listed. The correct option is D.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sqrt{2}$",
+    "B": "$-\\sqrt{2}$",
+    "C": "8",
+    "D": "$2\\sqrt{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

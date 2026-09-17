@@ -1,0 +1,26 @@
+{
+  "id": "6a328435d5dca7dcb0bf0ee6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "LA",
+  "question": "Use the product of matrices $\\begin{bmatrix}1 & 2 & -3 \\\\ 3 & 2 & -2 \\\\ 2 & -1 & 1\\end{bmatrix}\\begin{bmatrix}0 & 1 & 2 \\\\ -7 & 7 & -7 \\\\ -7 & 5 & -4\\end{bmatrix}$ to solve the following system of equations: $x+2y-3z=6$, $3x+2y-2z=3$, $2x-y+z=2$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Multiply the given matrices $A$ and $B$. $AB = \\begin{bmatrix}0-14+21 & 1+14-15 & 2-14+12 \\\\ 0-14+14 & 3+14-10 & 6-14+8 \\\\ 0+7-7 & 2-7+5 & 4+7-4\\end{bmatrix} = \\begin{bmatrix}7 & 0 & 0 \\\\ 0 & 7 & 0 \\\\ 0 & 0 & 7\\end{bmatrix} = 7I$.\n\n**Step 2:** Since $AB = 7I$, we can derive the inverse: $A^{-1} = \\frac{1}{7}B$.\n\n**Step 3:** The given system matches $AX = C$, where $X = [x, y, z]^T$ and $C = [6, 3, 2]^T$.\n\n**Step 4:** Calculate $X = A^{-1}C = \\frac{1}{7}B C = \\frac{1}{7}\\begin{bmatrix}0 & 1 & 2 \\\\ -7 & 7 & -7 \\\\ -7 & 5 & -4\\end{bmatrix}\\begin{bmatrix}6 \\\\ 3 \\\\ 2\\end{bmatrix}$.\n\n**Step 5:** Final vector product: $X = \\frac{1}{7}\\begin{bmatrix}0+3+4 \\\\ -42+21-14 \\\\ -42+15-8\\end{bmatrix} = \\frac{1}{7}\\begin{bmatrix}7 \\\\ -35 \\\\ -35\\end{bmatrix} = \\begin{bmatrix}1 \\\\ -5 \\\\ -5\\end{bmatrix}$. Thus, $x=1, y=-5, z=-5$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

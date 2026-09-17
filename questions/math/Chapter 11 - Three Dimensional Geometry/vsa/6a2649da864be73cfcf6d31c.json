@@ -1,0 +1,28 @@
+{
+  "id": "6a2649da864be73cfcf6d31c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "VSA",
+  "question": "Find the values of $\\lambda$, for which the distance of point $(2, 1, \\lambda)$ from plane $3x+5y+4z=11$ is $2\\sqrt{2}$ units.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The formula for the perpendicular distance $d$ of a point $(x_1, y_1, z_1)$ from a plane $Ax + By + Cz = D$ is given by $d = \\frac{|Ax_1 + By_1 + Cz_1 - D|}{\\sqrt{A^2 + B^2 + C^2}}$. Here, the point is $(2, 1, \\lambda)$, the plane is $3x + 5y + 4z - 11 = 0$, and the distance is given as $d = 2\\sqrt{2}$.<br />**Step 2:** Substitute these values into the distance equation: $2\\sqrt{2} = \\frac{|3(2) + 5(1) + 4(\\lambda) - 11|}{\\sqrt{3^2 + 5^2 + 4^2}}$. Simplifying the terms inside the expression gives $2\\sqrt{2} = \\frac{|6 + 5 + 4\\lambda - 11|}{\\sqrt{9 + 25 + 16}} = \\frac{|4\\lambda|}{\\sqrt{50}}$. Since $\\sqrt{50} = 5\\sqrt{2}$, we can rewrite this as $2\\sqrt{2} = \\frac{|4\\lambda|}{5\\sqrt{2}}$.<br />**Step 3:** Cross-multiplying the equation eliminates denominators: $|4\\lambda| = 2\\sqrt{2} \\times 5\\sqrt{2} = 20$. Removing the absolute value creates two potential linear paths: $4\\lambda = 20$ or $4\\lambda = -20$. Solving these gives the values $\\lambda = 5$ or $\\lambda = -5$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-1",
+    "2022-1-2",
+    "2022-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

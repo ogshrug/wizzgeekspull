@@ -1,0 +1,29 @@
+{
+  "id": "6a1589046050c058f876e4ed",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int_{-\\pi/4}^{\\pi/4}x^{3}cos^{2}x~dx.$ is equal to:",
+  "answeroption": "A",
+  "explanation": "**Step 1: Check for symmetry in integration bounds**<br />The definite integral has symmetric limits of integration from $-a$ to $a$, where $a = \\frac{\\pi}{4}$. This tells us we can use the odd/even function property of definite integrals.<br /><br />**Step 2: Determine if the integrand is odd or even**<br />Let our integrand function be $f(x) = x^3\\cos^2 x$. To test its symmetry, we replace $x$ with $-x$:<br />$f(-x) = (-x)^3 \\cdot \\cos^2(-x)$<br />Since $(-x)^3 = -x^3$ and $\\cos(-x) = \\cos x$ (which means $\\cos^2(-x) = \\cos^2 x$):<br />$f(-x) = -x^3\\cos^2 x = -f(x)$<br />This confirms that $f(x)$ is an odd function.<br /><br />**Step 3: Apply the integration property for odd functions**<br />The definite integral property states that if a function $f(x)$ is odd, then $\\int_{-a}^{a} f(x)\\,dx = 0$. Therefore, our integral evaluates to zero. This matches Option A.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "-1",
+    "C": "1",
+    "D": "2"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

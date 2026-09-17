@@ -1,0 +1,30 @@
+{
+  "id": "69a970bb589ce36f368b4800",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "Show that the function $f: \\mathbb{Z} \\to \\mathbb{Z}$ defined by $f(x) = -x$ is one-one and onto.",
+  "answeroption": "D",
+  "explanation": "To show one-one, suppose $f(x_1)=f(x_2)$. <br /><br />Then $-x_1=-x_2$ which implies $x_1=x_2$. Hence $f$ is one-one. <br /><br />To show onto, take any $y \\in \\mathbb{Z}$. <br /><br />Let $x=-y$. Then $f(x)=-(-y)=y$. <br /><br />Thus every integer has a preimage and the function is onto. <br /><br />Hence $f(x)=-x$ is bijective.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one but not onto",
+    "B": "$f$ is onto but not one-one",
+    "C": "$f$ is neither one-one nor onto",
+    "D": "$f$ is both one-one and onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:02:03 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

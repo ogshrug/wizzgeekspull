@@ -1,0 +1,32 @@
+{
+  "id": "6a8fe5e7be0ecc7866e90c7e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a2",
+    "6a13ebc98c819562f933f9a3",
+    "6a13ebc98c819562f933f9a4"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Students studying a second-order differential equation are given the general solution $y=a\\sin x+b\\cos x$, where $a$ and $b$ are arbitrary constants. A particular curve from this family is known to satisfy the two conditions $y=2$ and $\\frac{dy}{dx}=1$ at $x=0$. Because the general solution contains two arbitrary constants, the two given conditions can be used to determine both of them. The students are asked to find the required member of the family and then verify it directly in the differential equation $\\frac{d^2y}{dx^2}+y=0$ without deriving the general solution again.<br><br><b>(a)</b> Find $\\frac{dy}{dx}$ for the given general solution.<br><br><b>(b)</b> Use the two conditions at $x=0$ to determine $a$ and $b$.<br><br><b>(c)</b> Write the particular solution satisfying both conditions.<br><br><b>(d)</b> Verify that the particular solution satisfies $\\frac{d^2y}{dx^2}+y=0$.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The general solution is $$y=a\\sin x+b\\cos x$$<br><br>Differentiating with respect to $x$, $$\\frac{dy}{dx}=a\\cos x-b\\sin x$$<br><br><b>(b)</b><br>Using $y=2$ at $x=0$, $$2=a\\sin 0+b\\cos 0$$<br><br>Since $\\sin 0=0$ and $\\cos 0=1$, we obtain $b=2$.<br><br>Now use $\\frac{dy}{dx}=1$ at $x=0$: $$1=a\\cos 0-b\\sin 0$$<br><br>Therefore, $a=1$. Hence $a=1$ and $b=2$.<br><br><b>(c)</b><br>Substituting the determined constants into the general solution gives $$y=\\sin x+2\\cos x$$<br><br>This contains no arbitrary constants and satisfies both given conditions, so it is the required particular solution.<br><br><b>(d)</b><br>For $y=\\sin x+2\\cos x$, $$\\frac{dy}{dx}=\\cos x-2\\sin x$$<br><br>Differentiating again, $$\\frac{d^2y}{dx^2}=-\\sin x-2\\cos x$$<br><br>Therefore, $$\\frac{d^2y}{dx^2}+y=-\\sin x-2\\cos x+\\sin x+2\\cos x=0$$<br><br>Hence the particular solution is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y'=a\\cos x+b\\sin x$<br>(b) $a=2,\\ b=1$<br>(c) $y=2\\sin x+\\cos x$<br>(d) $y''+y=0$",
+    "B": "(a) $y'=a\\cos x-b\\sin x$<br>(b) $a=1,\\ b=2$<br>(c) $y=\\sin x+2\\cos x$<br>(d) $y''+y=0$",
+    "C": "(a) $y'=a\\sin x-b\\cos x$<br>(b) $a=1,\\ b=2$<br>(c) $y=\\sin x+2\\cos x$<br>(d) $y''-y=0$",
+    "D": "(a) $y'=a\\cos x-b\\sin x$<br>(b) $a=2,\\ b=1$<br>(c) $y=2\\sin x+\\cos x$<br>(d) $y''+y=2\\sin x+\\cos x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

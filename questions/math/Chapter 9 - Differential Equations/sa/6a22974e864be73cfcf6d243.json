@@ -1,0 +1,29 @@
+{
+  "id": "6a22974e864be73cfcf6d243",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation given by $2xy+y^{2}-2x^{2}\\frac{dy}{dx}=0;$ $y=2$, when $x=1$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rearrange the given equation to isolate the derivative $\\frac{dy}{dx}$. We get $2x^2\\frac{dy}{dx} = 2xy + y^2$, which simplifies to $\\frac{dy}{dx} = \\frac{2xy + y^2}{2x^2}$. Because the numerator and denominator are both homogeneous polynomials of degree 2, this is a homogeneous differential equation.<br />**Step 2:** We employ the standard substitution method for homogeneous equations. Let $y = vx$. Then, differentiating with respect to $x$ gives $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 3:** Substitute these expressions into the differential equation. The equation becomes $v + x\\frac{dv}{dx} = \\frac{2x(vx) + (vx)^2}{2x^2}$. We can factor out $x^2$ from the numerator to get $\\frac{x^2(2v + v^2)}{2x^2}$, which neatly simplifies to $\\frac{2v + v^2}{2} = v + \\frac{1}{2}v^2$. So, we have $v + x\\frac{dv}{dx} = v + \\frac{1}{2}v^2$.<br />**Step 4:** Subtract $v$ from both sides to separate the variables. This yields $x\\frac{dv}{dx} = \\frac{1}{2}v^2$. Rearranging terms to group variables gives $\\frac{dv}{v^2} = \\frac{1}{2}\\frac{dx}{x}$. We integrate both sides: $\\int v^{-2} dv = \\frac{1}{2} \\int \\frac{1}{x} dx$. This results in $-\\frac{1}{v} = \\frac{1}{2}\\ln|x| + C$. Substituting back $v = y/x$ transforms the general solution into $-\\frac{x}{y} = \\frac{1}{2}\\ln|x| + C$.<br />**Step 5:** Finally, we utilize the given initial conditions to find the particular solution. Substitute $x=1$ and $y=2$ into the general solution. We get $-\\frac{1}{2} = \\frac{1}{2}\\ln|1| + C$. Since $\\ln(1) = 0$, we find $C = -\\frac{1}{2}$. Substitute $C$ back into the general solution equation: $-\\frac{x}{y} = \\frac{1}{2}\\ln|x| - \\frac{1}{2}$. Multiplying the entire equation by $-2y$ allows us to solve for $y$, yielding the final particular solution $y = \\frac{2x}{1 - \\ln|x|}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

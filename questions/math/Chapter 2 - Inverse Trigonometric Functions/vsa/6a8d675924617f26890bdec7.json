@@ -1,0 +1,29 @@
+{
+  "id": "6a8d675924617f26890bdec7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate the principal value of $\\sin^{-1}\\left(\\sin\\left(-\\frac{7\\pi}{6}\\right)\\right)$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b><br>The principal value range of $\\sin^{-1}x$ is $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$. The angle $-\\frac{7\\pi}{6}$ does not lie in this interval.<br><br><b>Step 2:</b><br>Using the periodicity of sine, add $2\\pi$ to the given angle: $$-\\frac{7\\pi}{6}+2\\pi=\\frac{5\\pi}{6}.$$ Hence, $\\sin\\left(-\\frac{7\\pi}{6}\\right)=\\sin\\frac{5\\pi}{6}$.<br><br><b>Step 3:</b><br>Since $$\\sin\\frac{5\\pi}{6}=\\sin\\frac{\\pi}{6}=\\frac{1}{2},$$ the expression becomes $\\sin^{-1}\\left(\\frac{1}{2}\\right)$.<br><br><b>Step 4:</b><br>The angle $\\frac{\\pi}{6}$ belongs to the principal value range.<br><br><b>Final Answer:</b><br>$$\\sin^{-1}\\left(\\sin\\left(-\\frac{7\\pi}{6}\\right)\\right)=\\frac{\\pi}{6}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{\\pi}{6}$",
+    "B": "$\\frac{5\\pi}{6}$",
+    "C": "$-\\frac{5\\pi}{6}$",
+    "D": "$\\frac{\\pi}{6}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

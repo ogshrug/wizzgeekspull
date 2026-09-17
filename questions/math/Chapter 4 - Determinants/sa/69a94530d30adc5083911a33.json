@@ -1,0 +1,30 @@
+{
+  "id": "69a94530d30adc5083911a33",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\begin{bmatrix} 0 & a & -1 \\\\ -a & 0 & b \\\\ 1 & -b & 0 \\end{bmatrix}$ where $a, b$ are real numbers. If $A$ is skew symmetric, prove that $a$ and $b$ can be any real numbers and further show $|A|=0$.",
+  "answeroption": "B",
+  "explanation": "By definition, a matrix $A$ is skew symmetric if $A' = -A$.<br />First check if $A$ is skew symmetric.<br />$A' = \\begin{bmatrix} 0 & -a & 1 \\\\ a & 0 & -b \\\\ -1 & b & 0 \\end{bmatrix}$<br />$-A = \\begin{bmatrix} 0 & -a & 1 \\\\ a & 0 & -b \\\\ -1 & b & 0 \\end{bmatrix}$<br />Thus, $A' = -A$ for any $a, b \\in \\mathbb{R}$.<br />Now calculate $|A|$.<br />Expanding using first row:<br />$|A| = 0 - a((-a)*0 - 1*b) + (-1)((-a)(-b) - 1*0)$<br />$= -a(-b) -(-1)(ab)$<br />$= ab - ab$<br />$= 0$<br />Thus $|A|=0$ for all $a, b$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ is skew symmetric only when $a=0$ and $b=0$, and $|A|=1$.",
+    "B": "$A'=-A$ for all real $a,b$, so $a$ and $b$ can be any real numbers; also, since $A$ is a $3\\times3$ skew symmetric matrix, $|A|=0$.",
+    "C": "$A$ is symmetric for all real $a,b$, so $|A|=ab$.",
+    "D": "$A$ is skew symmetric only when $a=b$, and $|A|=a^2+b^2$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 08:56:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

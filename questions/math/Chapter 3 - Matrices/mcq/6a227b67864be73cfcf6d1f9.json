@@ -1,0 +1,33 @@
+{
+  "id": "6a227b67864be73cfcf6d1f9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d51"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\begin{bmatrix}2x-1&3x\\\\0&y^{2}-1\\end{bmatrix}=\\begin{bmatrix}x+3&12\\\\0&35\\end{bmatrix}$, then the value of $(x-y)$ is :",
+  "answeroption": "A",
+  "explanation": "**Step 1:** For two matrices to be equal, their corresponding elements must be strictly equal.<br />**Step 2:** Equate the elements in the first row, second column ($a_{12}$): $3x = 12 \\implies x = 4$. Verify this with the $a_{11}$ element: $2(4)-1 = 7$ and $4+3 = 7$. The value of $x$ is consistent.<br />**Step 3:** Equate the elements in the second row, second column ($a_{22}$): $y^2 - 1 = 35$.<br />**Step 4:** Solve for $y$: $y^2 = 36$, which gives two possible values: $y = 6$ or $y = -6$.<br />**Step 5:** Calculate the requested expression $(x - y)$ for both possible values of $y$.<br />**Step 6:** If $y=6$, then $(x-y) = 4 - 6 = -2$.<br />**Step 7:** If $y=-6$, then $(x-y) = 4 - (-6) = 10$.<br />**Step 8:** Therefore, the possible values for $(x-y)$ are -2 or 10.",
+  "explanation_image": [],
+  "options": {
+    "A": "-2 or 10",
+    "B": "2 or 10",
+    "C": "2 or -10",
+    "D": "-2 or -10"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a988986638848124d7c95b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $S = \\{x \\in \\mathbb{R}\\ :\\ x > 0\\}$. Let $f: S \\to S$ be given by $f(x) = x^{k}$, where $k$ is a fixed real constant $> 0$ and $k \\neq 1$. For which values of $k$ is $f$ invertible, and which of the following best describes $f^{-1}(y)$ for $y \\in S$?",
+  "answeroption": "A",
+  "explanation": "For $x > 0$ and $k > 0$, $x \\mapsto x^k$ is strictly increasing and hence one-one and onto from $(0, \\infty)$ to itself, for all $k > 0,\\ k \\neq 1$.<br /><br />Thus, $f$ is invertible for all $k > 0,\\ k \\neq 1$.<br /><br />The inverse is $f^{-1}(y) = y^{1/k}$ (since $x = y^{1/k}$ gives $f(x) = y$).<br /><br />Thus, Option A is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "Invertible for all $k > 0,\\ k \\neq 1$; $f^{-1}(y) = y^{1/k}$",
+    "B": "Invertible for all $k > 0,\\ k \\neq 1$; $f^{-1}(y) = y^{k}$",
+    "C": "Invertible for $k>0$ only if $k>1$; $f^{-1}(y) = y^{1/k}$",
+    "D": "Invertible for $k<1$ only; $f^{-1}(y) = y^{k}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:43:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

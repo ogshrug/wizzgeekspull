@@ -1,0 +1,31 @@
+{
+  "id": "69aa7b37320763ee1b040678",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5b",
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d56"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A retail chain manages data of quarterly stock in three stores (S1, S2, S3) for two products (A and B). The matrices for stock (in units) are:<br /><br />Q1: $S = \\begin{bmatrix} 350 & 420 \\\\ 400 & 385 \\\\ 370 & 415 \\end{bmatrix}$<br /><br />Q2: $T = \\begin{bmatrix} 390 & 410 \\\\ 410 & 415 \\\\ 380 & 430 \\end{bmatrix}$<br /><br />(a) Find the total annual stock for each product in each store (add both quarters).<br /><br />(b) If the price per unit is $p = \\begin{bmatrix}250 \\\\ 300\\end{bmatrix}$, find total inventory value for each store for the two quarters (matrix multiplication).<br /><br />(c) For Q1, what is the difference in stock of Product A and B for each store?<br /><br />(d) Create a new matrix representing the percentage increase in stock from Q1 to Q2 for each entry.<br /><br />(e) Find the transpose of the percentage increase matrix and state one property of transpose used in your calculation.",
+  "answeroption": "A",
+  "explanation": "(a) Total annual stock:<br /><br />$S + T = \\begin{bmatrix}350+390 & 420+410 \\\\ 400+410 & 385+415 \\\\ 370+380 & 415+430 \\end{bmatrix} = \\begin{bmatrix}740 & 830 \\\\ 810 & 800 \\\\ 750 & 845\\end{bmatrix}$<br /><br />(b) Inventory value per store for each quarter:<br /><br />For Q1: $S \\times p = \\begin{bmatrix}350 \\times 250 + 420 \\times 300 \\\\ 400 \\times 250 + 385 \\times 300 \\\\ 370 \\times 250 + 415 \\times 300\\end{bmatrix} = \\begin{bmatrix}87,500 + 126,000 \\\\ 100,000 + 115,500 \\\\ 92,500 + 124,500\\end{bmatrix} = \\begin{bmatrix}213,500 \\\\ 215,500 \\\\ 217,000\\end{bmatrix}$<br /><br />Repeat for $T$:<br /><br />$T \\times p = \\begin{bmatrix}390 \\times 250 + 410 \\times 300 \\\\ 410 \\times 250 + 415 \\times 300 \\\\ 380 \\times 250 + 430 \\times 300\\end{bmatrix} = \\begin{bmatrix}97,500 + 123,000 \\\\ 102,500 + 124,500 \\\\ 95,000 + 129,000\\end{bmatrix} = \\begin{bmatrix}220,500 \\\\ 227,000 \\\\ 224,000\\end{bmatrix}$<br /><br />(c) Q1: $\\begin{bmatrix}350-420 \\\\ 400-385 \\\\ 370-415\\end{bmatrix} = \\begin{bmatrix}-70 \\\\ 15 \\\\ -45\\end{bmatrix}$ (A minus B for each store)<br /><br />(d) Percentage increase:<br /><br />$\\frac{T - S}{S} \\times 100$<br /><br />For (1,1): $\\frac{390-350}{350}\\times100 = \\frac{40}{350}\\times100 \\approx 11.43$<br /><br />For (1,2): $\\frac{410-420}{420}\\times100 = \\frac{-10}{420}\\times100 \\approx -2.38$<br /><br />For (2,1): $\\frac{410-400}{400}\\times100 = 2.5$<br /><br />For (2,2): $\\frac{415-385}{385}\\times100 \\approx 7.79$<br /><br />For (3,1): $\\frac{380-370}{370}\\times100 \\approx 2.70$<br /><br />For (3,2): $\\frac{430-415}{415}\\times100 \\approx 3.61$<br /><br />So, matrix = $\\begin{bmatrix}11.43 & -2.38 \\\\ 2.5 & 7.79 \\\\ 2.70 & 3.61\\end{bmatrix}$<br /><br />(e) Transpose:<br /><br />$\\begin{bmatrix}11.43 & -2.38 \\\\ 2.5 & 7.79 \\\\ 2.70 & 3.61\\end{bmatrix}' = \\begin{bmatrix}11.43 & 2.5 & 2.70 \\\\ -2.38 & 7.79 & 3.61\\end{bmatrix}$<br /><br />Property: $(A')' = A$ and $(A + B)' = A' + B'$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $S+T=\\begin{bmatrix}740&830\\\\810&800\\\\750&845\\end{bmatrix}$.<br />(b) Q1 value $=\\begin{bmatrix}213500\\\\215500\\\\217000\\end{bmatrix}$ and Q2 value $=\\begin{bmatrix}220500\\\\227000\\\\224000\\end{bmatrix}$.<br />(c) Q1 difference A minus B $=\\begin{bmatrix}-70\\\\15\\\\-45\\end{bmatrix}$.<br />(d) Percentage increase matrix $\\approx\\begin{bmatrix}11.43&-2.38\\\\2.50&7.79\\\\2.70&3.61\\end{bmatrix}$.<br />(e) Transpose $\\approx\\begin{bmatrix}11.43&2.50&2.70\\\\-2.38&7.79&3.61\\end{bmatrix}$; one property is $(A')'=A$.",
+    "B": "(a) $S-T=\\begin{bmatrix}740&830\\\\810&800\\\\750&845\\end{bmatrix}$.<br />(b) Q1 value $=\\begin{bmatrix}220500\\\\227000\\\\224000\\end{bmatrix}$.<br />(c) Difference $=\\begin{bmatrix}70\\\\-15\\\\45\\end{bmatrix}$.<br />(d) Percentage matrix is zero.<br />(e) Transpose is the same as the original matrix.",
+    "C": "(a) $S+T=\\begin{bmatrix}40&-10\\\\10&30\\\\10&15\\end{bmatrix}$.<br />(b) Matrix multiplication is not defined.<br />(c) Q1 difference $=\\begin{bmatrix}350\\\\400\\\\370\\end{bmatrix}$.<br />(d) Percentage increase matrix is $S+T$.<br />(e) Transpose is not defined.",
+    "D": "(a) $S+T=\\begin{bmatrix}740&830\\\\810&800\\\\750&845\\end{bmatrix}$.<br />(b) Q1 value $=\\begin{bmatrix}213500&215500&217000\\end{bmatrix}$.<br />(c) Difference $=\\begin{bmatrix}-70&15&-45\\end{bmatrix}$.<br />(d) Percentage increase matrix must be square.<br />(e) Transpose property does not apply."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:59:03 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

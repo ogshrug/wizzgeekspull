@@ -1,0 +1,29 @@
+{
+  "id": "69a9ae30d8e9ca3b293457da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate the following integral using integration by parts: $\\int x^2 e^{x} dx$",
+  "answeroption": "B",
+  "explanation": "Let $u=x^2$ and $dv=e^x dx$. Then $du=2x dx$ and $v=e^x$.<br /><br />Using integration by parts: $\\int u dv = uv - \\int v du$.<br /><br />So $\\int x^2 e^x dx = x^2 e^x - \\int 2x e^x dx$.<br /><br />Now integrate $\\int x e^x dx$ again by parts with $u=x$ and $dv=e^x dx$.<br /><br />This gives $\\int x e^x dx = x e^x - e^x$.<br /><br />Substitute back:<br /><br />$x^2 e^x - 2(x e^x - e^x) + C$.<br /><br />Simplifying gives $(x^2 - 2x + 2)e^x + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(x^2 + 2x + 2)e^x + C$",
+    "B": "$(x^2 - 2x + 2)e^x + C$",
+    "C": "$(x^2 - 2x - 2)e^x + C$",
+    "D": "$(2x^2 - 2x + 1)e^x + C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:24:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

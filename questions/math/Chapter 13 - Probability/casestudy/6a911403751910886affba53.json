@@ -1,0 +1,31 @@
+{
+  "id": "6a911403751910886affba53",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e4",
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Two students, Aditi and Bharat, independently attempt the same challenging mathematics problem. From their previous independent practice records, the probability that Aditi solves such a problem correctly is $\\frac{3}{4}$, while the probability that Bharat solves it correctly is $\\frac{2}{3}$. Let $A$ denote the event that Aditi solves the problem and $B$ denote the event that Bharat solves it. Their performances are assumed to be independent, so the success or failure of one does not alter the probability of success of the other. Their teacher studies the possible outcomes to analyse joint, complementary and conditional probabilities associated with their attempts.<br><br><b>(a)</b> Find the probability that both students solve the problem correctly.<br><br><b>(b)</b> Calculate the probability that exactly one of the two students solves the problem correctly.<br><br><b>(c)</b> Determine the probability that at least one student solves the problem correctly.<br><br><b>(d)</b> Given that at least one student solves the problem correctly, find the probability that Aditi solves it.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>Since $A$ and $B$ are independent, by the multiplication theorem,<br>$$P(A\\cap B)=P(A)P(B)$$<br>Therefore,<br>$$P(A\\cap B)=\\frac{3}{4}\\times\\frac{2}{3}=\\frac{1}{2}$$<br>Hence, the probability that both solve the problem is $\\frac{1}{2}$.<br><br><b>(b)</b><br>Exactly one student solves the problem when either Aditi solves and Bharat does not, or Bharat solves and Aditi does not.<br>Now, $P(A')=\\frac{1}{4}$ and $P(B')=\\frac{1}{3}$.<br>Using independence,<br>$$P(A\\cap B')=\\frac{3}{4}\\times\\frac{1}{3}=\\frac{1}{4}$$<br>and<br>$$P(A'\\cap B)=\\frac{1}{4}\\times\\frac{2}{3}=\\frac{1}{6}$$<br>These events are mutually exclusive, so<br>$$P(\\text{exactly one solves})=\\frac{1}{4}+\\frac{1}{6}=\\frac{5}{12}$$<br><br><b>(c)</b><br>The event that at least one solves is the complement of the event that neither solves.<br>Since the events are independent,<br>$$P(A'\\cap B')=\\frac{1}{4}\\times\\frac{1}{3}=\\frac{1}{12}$$<br>Therefore,<br>$$P(A\\cup B)=1-\\frac{1}{12}=\\frac{11}{12}$$<br>Hence, the probability that at least one student solves the problem is $\\frac{11}{12}$.<br><br><b>(d)</b><br>Let $C$ be the event that at least one student solves the problem. Thus, $C=A\\cup B$. Since $A\\subseteq C$, we have $A\\cap C=A$.<br>Using conditional probability,<br>$$P(A|C)=\\frac{P(A\\cap C)}{P(C)}=\\frac{P(A)}{P(C)}$$<br>Substituting the values,<br>$$P(A|C)=\\frac{\\frac{3}{4}}{\\frac{11}{12}}=\\frac{3}{4}\\times\\frac{12}{11}=\\frac{9}{11}$$<br>Therefore, given that at least one student solves the problem, the probability that Aditi solves it is $\\frac{9}{11}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{1}{2}$<br>(b) $\\frac{1}{3}$<br>(c) $\\frac{5}{6}$<br>(d) $\\frac{3}{4}$",
+    "B": "(a) $\\frac{5}{12}$<br>(b) $\\frac{1}{2}$<br>(c) $\\frac{11}{12}$<br>(d) $\\frac{8}{11}$",
+    "C": "(a) $\\frac{1}{2}$<br>(b) $\\frac{5}{12}$<br>(c) $\\frac{5}{6}$<br>(d) $\\frac{9}{11}$",
+    "D": "(a) $\\frac{1}{2}$<br>(b) $\\frac{5}{12}$<br>(c) $\\frac{11}{12}$<br>(d) $\\frac{9}{11}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

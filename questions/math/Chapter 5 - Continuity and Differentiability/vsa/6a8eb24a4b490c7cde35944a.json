@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb24a4b490c7cde35944a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "A function $g$ is continuous at $x=1$ and $g(1)=\\frac{\\pi}{2}$. Evaluate $\\displaystyle \\lim_{x\\to 1}\\sin(g(x))$.",
+  "answeroption": "A",
+  "explanation": "Step 1: Since $g$ is continuous at $x=1$, its limiting value equals its functional value there.<br>Step 2: Hence, $\\displaystyle \\lim_{x\\to1}g(x)=g(1)=\\frac{\\pi}{2}$.<br>Step 3: The sine function is continuous for every real number. Therefore, the limit may be taken through the sine function.<br>Step 4: Thus, $\\displaystyle \\lim_{x\\to1}\\sin(g(x))=\\sin\\left(\\lim_{x\\to1}g(x)\\right)$.<br>Step 5: Substituting the known limit gives $\\sin\\left(\\frac{\\pi}{2}\\right)=1$. Hence the required limit is $\\boxed{1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$0$",
+    "C": "$-1$",
+    "D": "$\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

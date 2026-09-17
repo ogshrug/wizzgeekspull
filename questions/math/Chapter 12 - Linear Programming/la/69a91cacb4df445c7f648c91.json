@@ -1,0 +1,29 @@
+{
+  "id": "69a91cacb4df445c7f648c91",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8de"
+  ],
+  "question_type": "LA",
+  "question": "A factory manufactures two kinds of nuts, A and B, using machines M1 and M2. Nut A requires 1 hour on M1 and 3 hours on M2. Nut B requires 2 hours on M1 and 2 hours on M2. No more than 8 hours are available on M1 and 12 hours on M2 each day. Profit is ₹5 per nut A, ₹7 per nut B. At least 1 nut of each type must be produced daily. Find, using graphical method, the maximum profit and corresponding production schedule. Also, discuss whether the feasible region is bounded and if the solution is unique.",
+  "answeroption": "C",
+  "explanation": "Let $x =$ number of A, $y =$ number of B<br /><br />Objective: Maximize $Z = 5x + 7y$<br /><br />Constraints:<br /><br />$x + 2y \\leq 8$ (M1)<br /><br />$3x + 2y \\leq 12$ (M2)<br /><br />$x \\geq 1, y \\geq 1$<br /><br />Intersection of $x + 2y = 8$ and $3x + 2y = 12$:<br /><br />Subtract first from second:<br /><br />$2x = 4 \\implies x = 2$, then $2 + 2y = 8 \\implies 2y = 6 \\implies y = 3$<br /><br />Points:<br /><br />At $x = 1$, $1 + 2y \\leq 8 \\implies y \\leq 3.5$; $3+2y\\leq12 \\implies y\\leq 4.5$<br /><br />So at $x=1$, $y$ up to 3.5<br /><br />At $y=1$, $x+2\\leq8 \\implies x\\leq6$; $3x+2\\leq12 \\implies 3x\\leq 10 \\implies x\\leq 10/3$<br /><br />So at $y=1$, $x\\leq 10/3$<br /><br />Also, $x=2$, $y=3$ from above.<br /><br />At $x=6, y=1$, check $3x+2y=18+2=20>12$—not feasible.<br /><br />At $x=10/3, y=1$ feasible?<br /><br />$3\\times10/3+2=10+2=12$<br /><br />$10/3+2=16/3\\leq8$<br /><br />So $10/3,1$ is a corner.<br /><br />At $x=1, y=3.5$: $3x+2y=3+7=10<12$, ok.<br /><br />Feasible region is bounded (all constraints have finite intercepts).<br /><br />Corners: $(1,1)$, $(10/3,1)$, $(2,3)$, $(1,3.5)$<br /><br />Z at $(1,1): 5+7=12$<br /><br />$\\left(\\frac{10}{3},1\\right): 5\\times \\frac{10}{3} + 7 =\\frac{50}{3}+7=\\frac{71}{3}\\approx23.67$<br /><br />$(2,3): 5\\times2+7\\times3=10+21=31$<br /><br />$(1,3.5): 5\\times1+7\\times3.5=5+24.5=29.5$<br /><br />Maximum at $(2,3)$: $x=2, y=3, Z=31$<br /><br />Region is bounded,<br /><br />Solution is unique.",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 1 nut A and 3.5 nuts B; maximum profit ₹29.5; region is bounded and solution is unique.",
+    "B": "Produce $\\frac{10}{3}$ nuts A and 1 nut B; maximum profit $\\frac{71}{3}$; region is bounded and solution is unique.",
+    "C": "Produce 2 nuts A and 3 nuts B; maximum profit ₹31; region is bounded and solution is unique.",
+    "D": "Produce 1 nut A and 1 nut B; maximum profit ₹12; region is unbounded and solution is not unique."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:03:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8bef4b490c7cde3593c7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56"
+  ],
+  "question_type": "VSA",
+  "question": "For $A=\\begin{bmatrix}2&-1&4\\\\3&0&5\\end{bmatrix}$, find the value of $(A^T)_{31}+(A^T)_{22}$.",
+  "answeroption": "B",
+  "explanation": "Step 1: The transpose of a matrix is obtained by interchanging its rows and columns.<br>Step 2: Therefore, for $$A=\\begin{bmatrix}2&-1&4\\\\3&0&5\\end{bmatrix},$$ we have $$A^T=\\begin{bmatrix}2&3\\\\-1&0\\\\4&5\\end{bmatrix}.$$<br>Step 3: The element $(A^T)_{31}$ lies in the third row and first column, so $(A^T)_{31}=4$.<br>Step 4: Similarly, $(A^T)_{22}$ lies in the second row and second column, so $(A^T)_{22}=0$.<br>Step 5: Hence, $$(A^T)_{31}+(A^T)_{22}=4+0=4.$$ Therefore, the required value is $4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$5$",
+    "B": "$4$",
+    "C": "$3$",
+    "D": "$-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

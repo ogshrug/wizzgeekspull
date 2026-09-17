@@ -1,0 +1,31 @@
+{
+  "id": "69a8659496358125c95a0d65",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78",
+    "69c6610140512f018fa94d80"
+  ],
+  "question_type": "SA",
+  "question": "Let $f(x) = \\begin{cases} a^x, & x \\leq 0 \\\\ b \\cos x + c, & x > 0 \\end{cases}$. Find all real numbers $a, b, c$ such that $f(x)$ is continuous and differentiable at $x = 0$.",
+  "answeroption": "B",
+  "explanation": "Continuity at $x=0$:<br /><br />$\\lim_{x \\to 0^-} a^x = a^0 = 1$<br /><br />$\\lim_{x \\to 0^+} b \\cos(0) + c = b*1 + c = b + c$<br /><br />Set equal to $f(0) = 1$:<br /><br />$b + c = 1$<br /><br />Differentiability at $x=0$:<br /><br />Left derivative: $\\frac{d}{dx} a^x = a^x \\ln a$, at $x=0$: $\\ln a$<br /><br />Right: $\\frac{d}{dx}(b \\cos x + c) = -b \\sin x$, at $x=0$: $0$<br /><br />Set equal: $\\ln a = 0 \\implies a = 1$<br /><br />Then from continuity, $b + c = 1$<br /><br />Thus, $a = 1$, $b + c = 1$, $c \\in \\mathbb{R}$, $b = 1 - c$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=0$ and $b+c=1$",
+    "B": "$a=1$ and $b+c=1$, i.e. $b=1-c$ for any real $c$",
+    "C": "$a=1$, $b=0$, $c=0$ only",
+    "D": "$a=e$ and $b+c=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:02:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

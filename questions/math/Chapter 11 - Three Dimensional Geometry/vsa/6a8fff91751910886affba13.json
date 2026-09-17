@@ -1,0 +1,29 @@
+{
+  "id": "6a8fff91751910886affba13",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4"
+  ],
+  "question_type": "VSA",
+  "question": "The lines $\\vec{r}=(\\hat{i}+2\\hat{k})+\\lambda(\\hat{i}+2\\hat{j}-\\hat{k})$ and $\\vec{r}=(2\\hat{i}+\\hat{j}+k\\hat{k})+\\mu(2\\hat{i}-\\hat{j}+\\hat{k})$ are coplanar. Determine $k$.",
+  "answeroption": "A",
+  "explanation": "Step 1: For two lines $\\vec{r}=\\vec{a_1}+\\lambda\\vec{b_1}$ and $\\vec{r}=\\vec{a_2}+\\mu\\vec{b_2}$ to be coplanar, the scalar triple product must satisfy $(\\vec{a_2}-\\vec{a_1})\\cdot(\\vec{b_1}\\times\\vec{b_2})=0$. Step 2: Here, $\\vec{a_2}-\\vec{a_1}=(1,1,k-2)$, $\\vec{b_1}=(1,2,-1)$ and $\\vec{b_2}=(2,-1,1)$. Step 3: Their vector product is $$\\vec{b_1}\\times\\vec{b_2}=(1,-3,-5).$$ Step 4: Therefore, $$(1,1,k-2)\\cdot(1,-3,-5)=0.$$ This gives $1-3-5(k-2)=0$, or $8-5k=0$. Step 5: Hence, the required value is $$k=\\frac{8}{5}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=\\frac{8}{5}$",
+    "B": "$k=\\frac{5}{8}$",
+    "C": "$k=-\\frac{8}{5}$",
+    "D": "$k=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

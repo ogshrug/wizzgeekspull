@@ -1,0 +1,29 @@
+{
+  "id": "69a965ded30adc5083911a98",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "VSA",
+  "question": "Two dice are thrown. What is the probability that the sum is 8, given that the first die is showing an odd number?",
+  "answeroption": "B",
+  "explanation": "Total outcomes with first die odd: odd numbers are 1, 3, 5. Each can be paired with any number (1 to 6), so $3 \\times 6 = 18$ favorable outcomes. <br /> <br /> Now, sum is 8: <br /> (1,7) not possible <br /> (3,5): (3,5) and (5,3) <br /> (5,3): (5,3) <br /> But need first die to be odd, so check for possible pairs: <br /> (3,5): first die 3 <br /> (5,3): first die 5 <br /> <br /> Other pairs not possible. <br /> Additionally, (1,7), no. <br /> <br /> Total outcomes: <br /> (3,5), (5,3) <br /> But let's check all possibilities where first die is 1, 3, or 5 and total is 8: <br /> First die 1: (1,7) - invalid <br /> First die 3: (3,5) <br /> First die 5: (5,3) <br /> <br /> So, only (3,5) and (5,3) are valid. <br /> <br /> Number of favorable outcomes = 2 <br /> <br /> Probability $= \\frac{2}{18} = \\frac{1}{9}$ <br /> <br /> Final answer: $\\boxed{\\frac{1}{9}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{6}$",
+    "B": "$\\frac{1}{9}$",
+    "C": "$\\frac{2}{9}$",
+    "D": "$\\frac{1}{18}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:15:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

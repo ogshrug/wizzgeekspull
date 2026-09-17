@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffe7a4b490c7cde35952b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4"
+  ],
+  "question_type": "VSA",
+  "question": "Examine whether the lines $\\vec{r}=\\hat{j}+2\\hat{k}+\\lambda(\\hat{i}+2\\hat{j}+\\hat{k})$ and $\\vec{r}=\\hat{i}+\\hat{k}+\\mu(2\\hat{i}+\\hat{j})$ are coplanar.",
+  "answeroption": "A",
+  "explanation": "Step 1: For the first line, take $\\vec{a_1}=(0,1,2)$ and $\\vec{b_1}=(1,2,1)$. For the second line, take $\\vec{a_2}=(1,0,1)$ and $\\vec{b_2}=(2,1,0)$. Step 2: Thus, $\\vec{a_2}-\\vec{a_1}=(1,-1,-1)$. Step 3: Calculate the vector product of the direction vectors: $$\\vec{b_1}\\times\\vec{b_2}=(-1,2,-3).$$ Step 4: Now evaluate the scalar triple product: $$(1,-1,-1)\\cdot(-1,2,-3)=-1-2+3=0.$$ Step 5: Since $(\\vec{a_2}-\\vec{a_1})\\cdot(\\vec{b_1}\\times\\vec{b_2})=0$, the required coplanarity condition is satisfied. Therefore, the two given lines are coplanar.",
+  "explanation_image": [],
+  "options": {
+    "A": "The lines are coplanar because the required scalar triple product is $0$.",
+    "B": "The lines are not coplanar because their direction vectors are not proportional.",
+    "C": "The lines are not coplanar because the required scalar triple product is $-2$.",
+    "D": "The lines are coplanar only if their direction vectors are parallel."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

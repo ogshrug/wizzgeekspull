@@ -1,0 +1,30 @@
+{
+  "id": "69a986696638848124d7c951",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "MCQ",
+  "question": "Consider the function $f: \\mathbb{R} \\to \\mathbb{R}$ defined by $f(x) = \\lceil x \\rceil + \\lfloor x \\rfloor$, where $\\lceil \\cdot \\rceil$ and $\\lfloor \\cdot \\rfloor$ denote the ceiling and floor functions, respectively. Which of the following statements is true:",
+  "answeroption": "B",
+  "explanation": "Let $x \\in \\mathbb{R}$. For an integer $n$, $\\lceil n \\rceil = n$, $\\lfloor n \\rfloor = n \\implies f(n) = 2n$.<br /><br />For $n < x < n+1$, $\\lceil x \\rceil = n+1$, $\\lfloor x \\rfloor = n$, so $f(x) = n + (n+1) = 2n+1$.<br /><br />Thus, as $x$ runs from $n$ to $n+1$, $f$ jumps from $2n$ at $x=n$, to $2n+1$ for $n < x < n+1$.<br /><br />Thus, $f(0) = 0$, $f(0.5) = 1$, $f(1) = 2$, $f(1.1) = 3$, $f(-1) = -2$, etc.<br /><br />So the image is every integer.<br /><br />But for each odd integer, all $x$ in $n < x < n+1$ yield $f(x) = 2n+1$ (infinitely many $x$). For even integer $2n$, only $x = n$ yields $f(n)=2n$ (one $x$).<br /><br />Thus, $f$ is onto $\\mathbb{Z}$ but not one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one but not onto",
+    "B": "$f$ is onto but not one-one",
+    "C": "$f$ is neither one-one nor onto",
+    "D": "$f$ is bijective"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:34:33 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

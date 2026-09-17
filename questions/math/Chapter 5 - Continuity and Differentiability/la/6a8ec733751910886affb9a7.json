@@ -1,0 +1,30 @@
+{
+  "id": "6a8ec733751910886affb9a7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d81",
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "LA",
+  "question": "Let $b>1$ be a constant. Using the change-of-base relation for logarithms and the derivative of the natural logarithmic function, establish that $$\\frac{d}{dx}(\\log_b x)=\\frac{1}{x\\log b},\\quad x>0.$$",
+  "answeroption": "B",
+  "explanation": "<b>Formation of the Relation</b><br>For $x>0$ and $b>1$, the change-of-base relation for logarithms gives $$\\log_b x=\\frac{\\log x}{\\log b}.$$ Since $b$ is a fixed positive constant, $\\log b$ is also a constant.<br><br><b>Applying the Derivative Formula</b><br>Differentiating both sides with respect to $x$, $$\\frac{d}{dx}(\\log_b x)=\\frac{1}{\\log b}\\frac{d}{dx}(\\log x).$$ The derivative of the natural logarithmic function is $$\\frac{d}{dx}(\\log x)=\\frac{1}{x},\\quad x>0.$$ Therefore, $$\\frac{d}{dx}(\\log_b x)=\\frac{1}{\\log b}\\cdot\\frac{1}{x}.$$<br><br><b>Simplification</b><br>Thus, $$\\frac{d}{dx}(\\log_b x)=\\frac{1}{x\\log b}.$$ The restriction $x>0$ agrees with the domain of the logarithmic function.<br><br><b>Final Result</b><br>Hence, for $b>1$ and $x>0$, $$\\frac{d}{dx}(\\log_b x)=\\frac{1}{x\\log b}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d}{dx}(\\log_b x)=\\frac{\\log b}{x}$",
+    "B": "$\\frac{d}{dx}(\\log_b x)=\\frac{1}{x\\log b}$",
+    "C": "$\\frac{d}{dx}(\\log_b x)=\\frac{1}{x\\log x}$",
+    "D": "$\\frac{d}{dx}(\\log_b x)=\\frac{1}{b\\log x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8ef1814b490c7cde3594b2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f985"
+  ],
+  "question_type": "LA",
+  "question": "For the function $f(x)=x^4-8x^2+3$, answer the following:<br><br>(a) Find all stationary points of $f$.<br><br>(b) Classify each stationary point using the first derivative test.<br><br>(c) Verify the classification using the second derivative test and determine the corresponding local maximum and local minimum values.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br><b>Differentiation</b><br>$$f'(x)=4x^3-16x$$<br>$$f'(x)=4x(x-2)(x+2)$$<br>The stationary points satisfy $f'(x)=0$. Therefore,<br>$$x=-2,\\quad x=0,\\quad x=2$$<br><br><b>(b)</b><br>For $x<-2$, $f'(x)<0$.<br>For $-2<x<0$, $f'(x)>0$.<br>For $0<x<2$, $f'(x)<0$.<br>For $x>2$, $f'(x)>0$.<br>At $x=-2$, $f'(x)$ changes from negative to positive. Therefore, $x=-2$ is a point of local minimum.<br>At $x=0$, $f'(x)$ changes from positive to negative. Therefore, $x=0$ is a point of local maximum.<br>At $x=2$, $f'(x)$ changes from negative to positive. Therefore, $x=2$ is a point of local minimum.<br><br><b>(c)</b><br>The second derivative is<br>$$f''(x)=12x^2-16$$<br>At $x=-2$,<br>$$f''(-2)=12(4)-16=32>0$$<br>Hence, $x=-2$ is a point of local minimum.<br>At $x=0$,<br>$$f''(0)=-16<0$$<br>Hence, $x=0$ is a point of local maximum.<br>At $x=2$,<br>$$f''(2)=32>0$$<br>Hence, $x=2$ is a point of local minimum.<br>The local maximum value is<br>$$f(0)=3$$<br>The local minimum values are<br>$$f(-2)=f(2)=16-32+3=-13$$<br>Thus, the first and second derivative tests give the same classification.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Stationary points $x=-2,0,2$<br>(b) Local maxima at $x=\\pm2$ and local minimum at $x=0$<br>(c) Maximum value $-13$; minimum value $3$",
+    "B": "(a) Stationary points $x=-2,2$ only<br>(b) Both are local maxima<br>(c) Maximum value $-13$",
+    "C": "(a) Stationary point $x=0$ only<br>(b) It is a local maximum<br>(c) Local maximum value $3$",
+    "D": "(a) Stationary points $x=-2,0,2$<br>(b) Local minima at $x=\\pm2$ and local maximum at $x=0$<br>(c) Minimum value $-13$ at $x=\\pm2$; maximum value $3$ at $x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

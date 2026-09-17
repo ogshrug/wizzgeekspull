@@ -1,0 +1,30 @@
+{
+  "id": "6a8c61eb77877fac8fdb9915",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "A function is defined by $h(x)=\\sin^{-1}\\sqrt{1-4x^2}$.<br><br>(a) Determine the domain of $h$.<br><br>(b) Determine its range.<br><br>(c) Find all values of $x$ for which $h(x)=\\dfrac{\\pi}{3}$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For the square root to be real,<br>$$1-4x^2\\geq0$$<br>Therefore,<br>$$4x^2\\leq1$$<br>$$x^2\\leq\\frac{1}{4}$$<br>Hence,<br>$$-\\frac{1}{2}\\leq x\\leq\\frac{1}{2}$$<br>On this interval, $0\\leq\\sqrt{1-4x^2}\\leq1$, so the argument also lies in the domain of $\\sin^{-1}$. Thus, the domain of $h$ is<br>$$\\left[-\\frac{1}{2},\\frac{1}{2}\\right]$$<br><br><b>(b)</b><br>For $x\\in\\left[-\\dfrac{1}{2},\\dfrac{1}{2}\\right]$,<br>$$0\\leq\\sqrt{1-4x^2}\\leq1$$<br>Since $\\sin^{-1}t$ is increasing on $[-1,1]$,<br>$$0\\leq\\sin^{-1}\\sqrt{1-4x^2}\\leq\\frac{\\pi}{2}$$<br>The lower value is attained at $x=\\pm\\dfrac{1}{2}$, and the upper value is attained at $x=0$. Therefore, the range is<br>$$\\left[0,\\frac{\\pi}{2}\\right]$$<br><br><b>(c)</b><br>Given that<br>$$\\sin^{-1}\\sqrt{1-4x^2}=\\frac{\\pi}{3}$$<br>taking sine on both sides gives<br>$$\\sqrt{1-4x^2}=\\sin\\frac{\\pi}{3}=\\frac{\\sqrt{3}}{2}$$<br>Squaring both sides,<br>$$1-4x^2=\\frac{3}{4}$$<br>$$4x^2=\\frac{1}{4}$$<br>$$x^2=\\frac{1}{16}$$<br>Hence,<br>$$x=\\pm\\frac{1}{4}$$<br>Both values belong to the domain. Therefore, the solutions are $x=-\\dfrac{1}{4}$ and $x=\\dfrac{1}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $\\left[-\\frac{1}{4},\\frac{1}{4}\\right]$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$; $x=\\pm\\frac{1}{2}$",
+    "B": "Domain: $\\left[-\\frac{1}{2},\\frac{1}{2}\\right]$; Range: $[0,\\pi]$; $x=\\pm\\frac{1}{4}$",
+    "C": "Domain: $\\left[-\\frac{1}{2},\\frac{1}{2}\\right]$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$; $x=\\pm\\frac{1}{4}$",
+    "D": "Domain: $\\left[-\\frac{1}{2},\\frac{1}{2}\\right]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; $x=\\frac{1}{4}$ only"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

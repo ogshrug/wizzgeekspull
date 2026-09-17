@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed13d4b490c7cde359487",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "VSA",
+  "question": "A rectangle has a perimeter of $40$ cm. Find its dimensions when its area is maximum.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> Let the length be $x$ cm and the breadth be $y$ cm. From the perimeter condition, $$2(x+y)=40\\Rightarrow y=20-x$$<br><b>Step 2:</b> The area is $$A(x)=x(20-x)=20x-x^2$$<br><b>Step 3:</b> Differentiate and set the result equal to zero: $$A'(x)=20-2x=0\\Rightarrow x=10$$<br><b>Step 4:</b> Since $A''(x)=-2<0$, the area is maximum at $x=10$. Then $y=20-10=10$.<br><b>Step 5:</b> Therefore, the maximum-area rectangle has dimensions $10$ cm by $10$ cm.",
+  "explanation_image": [],
+  "options": {
+    "A": "$10$ cm by $10$ cm",
+    "B": "$8$ cm by $12$ cm",
+    "C": "$5$ cm by $15$ cm",
+    "D": "$9$ cm by $11$ cm"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

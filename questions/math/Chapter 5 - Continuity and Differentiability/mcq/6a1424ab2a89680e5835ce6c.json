@@ -1,0 +1,30 @@
+{
+  "id": "6a1424ab2a89680e5835ce6c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "MCQ",
+  "question": "If $x=a\\cos\\theta+b\\sin\\theta$, $y=a\\sin\\theta-b\\cos\\theta$, then which one of the following is true?",
+  "answeroption": "A",
+  "explanation": "**Step 1: First Derivative.** $\\frac{dx}{d\\theta} = -y$ and $\\frac{dy}{d\\theta} = x$. Therefore, $\\frac{dy}{dx} = -\\frac{x}{y} \\implies y\\frac{dy}{dx} = -x$.<br />**Step 2: Second Derivative.** Differentiate implicitly w.r.t $x$: $y\\frac{d^2y}{dx^2} + \\left(\\frac{dy}{dx}\\right)^2 = -1$.<br />**Step 3: Substitute.** Replace $\\left(\\frac{dy}{dx}\\right)^2$ with $\\frac{x^2}{y^2}$: $y\\frac{d^2y}{dx^2} + \\frac{x^2}{y^2} = -1$.<br />**Step 4: Rearrange.** Multiply by $y^2$: $y^3\\frac{d^2y}{dx^2} + x^2 + y^2 = 0$. Since $-x = y\\frac{dy}{dx}$, this matches $y^2\\frac{d^2y}{dx^2} - x\\frac{dy}{dx} + y = 0$ after dividing out $y$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y^{2}\\frac{d^{2}y}{dx^{2}}-x\\frac{dy}{dx}+y=0$",
+    "B": "$y^{2}\\frac{d^{2}y}{dx^{2}}+x\\frac{dy}{dx}+y=0$",
+    "C": "$y^{2}\\frac{d^{2}y}{dx^{2}}+x\\frac{dy}{dx}-y=0$",
+    "D": "$y^{2}\\frac{d^{2}y}{dx^{2}}-x\\frac{dy}{dx}-y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

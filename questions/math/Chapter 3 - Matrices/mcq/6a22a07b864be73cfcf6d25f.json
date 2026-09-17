@@ -1,0 +1,32 @@
+{
+  "id": "6a22a07b864be73cfcf6d25f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58",
+    "69c65fbf40512f018fa94d51"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A=\\begin{bmatrix}a&c&-1\\\\ b&0&5\\\\ 1&-5&0\\end{bmatrix}$ is a skew-symmetric matrix, then the value of $2a-(b+c)$ is:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** For a skew-symmetric matrix $A$, two main conditions apply: the transpose $A^T = -A$, and all principal diagonal elements must be zero. Therefore, $a_{ii} = 0$, which immediately means $a = 0$.<br /><br />**Step 2:** Using the condition $a_{ij} = -a_{ji}$, we can find the values of $b$ and $c$. The element $a_{21}$ is $b$, and $a_{12}$ is $c$. So, $b = -c$.<br /><br />**Step 3:** Look at elements $a_{31}$ and $a_{13}$. We have $1 = -(-1)$, which is consistent. Look at $a_{32}$ and $a_{23}$. We have $-5 = -(5)$, which is also consistent.<br /><br />**Step 4:** Since $b = -c$, it follows that $b + c = 0$.<br /><br />**Step 5:** Substitute the derived values $a = 0$ and $(b+c) = 0$:  \n$$2a - (b+c) = 2(0) - 0 = 0$$  \nThus, the correct option is **A**.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "-10",
+    "D": "10"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

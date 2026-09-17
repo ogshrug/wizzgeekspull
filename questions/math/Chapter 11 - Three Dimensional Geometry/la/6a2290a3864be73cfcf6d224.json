@@ -1,0 +1,26 @@
+{
+  "id": "6a2290a3864be73cfcf6d224",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "The image of point $P(x, y, z)$ with respect to line $\\frac{x}{1} = \\frac{y-1}{2} = \\frac{z-2}{3}$ is $P'(1, 0, 7)$. Find the coordinates of point $P$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the given line be denoted as L. The equation of L is $\\frac{x}{1} = \\frac{y-1}{2} = \\frac{z-2}{3} = \\lambda$. Any arbitrary point on this line can be represented parametrically as $M = (\\lambda, 2\\lambda + 1, 3\\lambda + 2)$. We will consider point $M$ to be the foot of the perpendicular drawn from point $P'$ to the line L.<br />**Step 2:** Because $M$ is the foot of the perpendicular, the line segment $P'M$ is perpendicular to line L. First, find the direction ratios of the line $P'M$. Since $P'$ is $(1, 0, 7)$, the direction ratios are $(\\lambda - 1, 2\\lambda + 1 - 0, 3\\lambda + 2 - 7)$, which simplifies to $(\\lambda - 1, 2\\lambda + 1, 3\\lambda - 5)$.<br />**Step 3:** The direction ratios of the given line L are $(1, 2, 3)$. Since line $P'M$ is perpendicular to line L, the dot product of their direction ratios must equal zero. Therefore, $1(\\lambda - 1) + 2(2\\lambda + 1) + 3(3\\lambda - 5) = 0$.<br />**Step 4:** Solve this equation for $\\lambda$: $\\lambda - 1 + 4\\lambda + 2 + 9\\lambda - 15 = 0 \\Rightarrow 14\\lambda - 14 = 0 \\Rightarrow \\lambda = 1$. Substitute $\\lambda = 1$ back into the coordinates of $M$. We get $M = (1, 3, 5)$. So, the foot of the perpendicular is $(1, 3, 5)$.<br />**Step 5:** Point $M$ acts as the midpoint of the line segment connecting point $P$ and its image $P'$. Let the coordinates of point $P$ be $(a, b, c)$. Using the midpoint formula, set $M = (\\frac{a+1}{2}, \\frac{b+0}{2}, \\frac{c+7}{2})$ equal to $(1, 3, 5)$. Therefore, $\\frac{a+1}{2} = 1 \\Rightarrow a = 1$. For $b$: $\\frac{b}{2} = 3 \\Rightarrow b = 6$. For $c$: $\\frac{c+7}{2} = 5 \\Rightarrow c = 3$. The required coordinates of the original point $P$ are $(1, 6, 3)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

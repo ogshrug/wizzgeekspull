@@ -1,0 +1,33 @@
+{
+  "id": "6a22b232fbdd87b6dea73bda",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): Let $A=\\{x\\in R:-1\\le x\\le1\\}$. If $f:A\\rightarrow A$ be defined as $f(x)=x^{2}$ then f is not an onto function.<br /><br />Reason (R): If $y=-1\\in A$, then $x=\\pm\\sqrt{-1}\\notin A$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1</b> Evaluate Assertion (A). The function maps from domain $[-1, 1]$ to codomain $[-1, 1]$ using the squaring rule $f(x) = x^2$. Since squares of real numbers are non-negative, the range is strictly $[0, 1]$. Because the range is a proper subset of the codomain, the function is not onto. Thus, the assertion is True.<br /><br /><b>Step 2</b> Evaluate Reason (R). Choose a negative value from the codomain, such as $y = -1$. Setting $x^2 = -1$ yields complex values $x = \\pm i$, which do not exist within our real interval domain $A$. Since a codomain element lacks a prebiotic counterpart, the reason statement is True.<br /><br /><b>Step 3</b> Check the connection: the reason identifies a counterexample of an entry lacking a preimage, which is the foundational tool to prove a function is not onto. Therefore, both are true and R explains A, corresponding to option A.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-3",
+    "2025-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

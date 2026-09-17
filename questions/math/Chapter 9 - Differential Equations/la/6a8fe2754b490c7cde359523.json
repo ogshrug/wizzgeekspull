@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe2754b490c7cde359523",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebc98c819562f933f9a5"
+  ],
+  "question_type": "LA",
+  "question": "The three-parameter family $$y=a\\cos x+b\\sin x+c,$$ where $a$, $b$ and $c$ are arbitrary constants, is given. Form the differential equation corresponding to this general solution by eliminating all three constants and hence establish the order of the differential equation obtained.",
+  "answeroption": "A",
+  "explanation": "<b>Given General Solution</b><br>The family $$y=a\\cos x+b\\sin x+c$$ contains three arbitrary constants. Hence, successive differentiation is used to eliminate them.<br><br><b>Differentiation</b><br>Differentiating once, $$\\frac{dy}{dx}=-a\\sin x+b\\cos x.$$ Differentiating again, $$\\frac{d^2y}{dx^2}=-a\\cos x-b\\sin x.$$ Differentiating a third time, $$\\frac{d^3y}{dx^3}=a\\sin x-b\\cos x.$$ Comparing this with the first derivative, $$\\frac{d^3y}{dx^3}=-\\frac{dy}{dx}.$$<br><br><b>Formation of Equation</b><br>Therefore, the differential equation free from $a$, $b$ and $c$ is $$\\frac{d^3y}{dx^3}+\\frac{dy}{dx}=0.$$<br><br><b>Determination of Order</b><br>The highest order derivative present is $\\frac{d^3y}{dx^3}$. Hence, the order of the differential equation is $3$, which agrees with the presence of three arbitrary constants in the given general solution.<br><br><b>Final Result</b><br>The required differential equation is $$\\frac{d^3y}{dx^3}+\\frac{dy}{dx}=0,$$ and its order is $3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^3y}{dx^3}+\\frac{dy}{dx}=0$; order $3$",
+    "B": "$\\frac{d^2y}{dx^2}+y=0$; order $2$",
+    "C": "$\\frac{d^3y}{dx^3}+y=0$; order $3$",
+    "D": "$\\frac{d^3y}{dx^3}-\\frac{dy}{dx}=0$; order $3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

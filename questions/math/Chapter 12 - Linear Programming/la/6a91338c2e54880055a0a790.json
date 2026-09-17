@@ -1,0 +1,35 @@
+{
+  "id": "6a91338c2e54880055a0a790",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8de",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "A farmer has at most $30\\text{ hectares}$ of land available for two crops A and B. Each hectare of crop A requires $3$ labour-days and each hectare of crop B requires $2$ labour-days, while at most $72$ labour-days are available. The profit is $\\text{Rs }4000$ per hectare on crop A and $\\text{Rs }3000$ per hectare on crop B. Formulate the linear programming problem and determine graphically how the land should be allocated to maximise the total profit.",
+  "answeroption": "D",
+  "explanation": "<b>Mathematical Formulation</b><br>Let $x$ and $y$ denote the number of hectares allocated to crops A and B respectively. The land constraint is $x+y\\le30$. The labour constraint is $3x+2y\\le72$. Also, $x\\ge0$ and $y\\ge0$. The total profit is $$Z=4000x+3000y,$$ which has to be maximised.<br><br><b>Feasible Region</b><br>The line $x+y=30$ meets the axes at $(30,0)$ and $(0,30)$. The line $3x+2y=72$ meets the axes at $(24,0)$ and $(0,36)$. Since both inequalities are of the type $\\le$, the common region containing the origin is the feasible region and is bounded. The two lines intersect where $x+y=30$ and $3x+2y=72$. From $2x+2y=60$, subtraction from $3x+2y=72$ gives $x=12$, and hence $y=18$. Therefore, the corner points are $(0,0)$, $(24,0)$, $(12,18)$ and $(0,30)$.<br><br><b>Evaluation</b><br>At $(0,0)$, $Z=0$. At $(24,0)$, $Z=4000(24)=96000$. At $(12,18)$, $$Z=4000(12)+3000(18)=48000+54000=102000.$$ At $(0,30)$, $Z=90000$.<br><br><b>Final Result</b><br>The maximum profit is $\\text{Rs }102000$, attained when $12\\text{ hectares}$ are allocated to crop A and $18\\text{ hectares}$ to crop B. Hence $(12,18)$ is the optimal feasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximise $Z=3000x+4000y$ subject to $x+y\\leq30$, $2x+3y\\leq72$, $x,y\\geq0$; allocate $(18,12)$ hectares with profit Rs $102000$",
+    "B": "Maximise $Z=4000x+3000y$ subject to $x+y\\leq30$, $3x+2y\\leq72$, $x,y\\geq0$; allocate $(24,0)$ hectares with profit Rs $96000$",
+    "C": "Minimise $Z=4000x+3000y$ subject to $x+y\\leq30$, $3x+2y\\leq72$, $x,y\\geq0$; allocate $(0,0)$ hectares",
+    "D": "Maximise $Z=4000x+3000y$ subject to $x+y\\leq30$, $3x+2y\\leq72$, $x,y\\geq0$; allocate $12$ hectares to A and $18$ hectares to B, giving maximum profit Rs $102000$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

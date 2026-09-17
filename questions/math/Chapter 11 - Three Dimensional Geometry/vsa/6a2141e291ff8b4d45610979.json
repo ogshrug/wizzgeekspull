@@ -1,0 +1,28 @@
+{
+  "id": "6a2141e291ff8b4d45610979",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "VSA",
+  "question": "Find the vector equation of a line passing through the origin and perpendicular to both the lines $\\vec{r}=2\\hat{i}-\\hat{j}+2\\hat{k}+\\lambda(3\\hat{i}+4\\hat{j}+2\\hat{k})$ and $\\vec{r}=\\mu(\\hat{i}-\\hat{j}+\\hat{k})$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Understand that if a new line is perpendicular to two existing lines, its direction vector must be perpendicular to both of their direction vectors. This is found by taking the cross product of the two given direction vectors.<br /><br /><b>Step 2</b> Extract the direction vectors from the given lines: $\\vec{b}_1 = 3\\hat{i} + 4\\hat{j} + 2\\hat{k}$ and $\\vec{b}_2 = \\hat{i} - \\hat{j} + \\hat{k}$. Compute their cross product using the determinant method. $\\vec{b} = \\vec{b}_1 \\times \\vec{b}_2 = \\hat{i}(4 \\times 1 - 2 \\times -1) - \\hat{j}(3 \\times 1 - 2 \\times 1) + \\hat{k}(3 \\times -1 - 4 \\times 1)$. Evaluating this yields $\\vec{b} = 6\\hat{i} - \\hat{j} - 7\\hat{k}$.<br /><br /><b>Step 3</b> Formulate the final vector equation. We know the line passes through the origin, so its position vector is $\\vec{a} = 0\\hat{i} + 0\\hat{j} + 0\\hat{k} = \\vec{0}$. Using the formula $\\vec{r} = \\vec{a} + t\\vec{b}$, we get $\\vec{r} = \\vec{0} + t(6\\hat{i} - \\hat{j} - 7\\hat{k})$, which is $\\vec{r} = t(6\\hat{i} - \\hat{j} - 7\\hat{k})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

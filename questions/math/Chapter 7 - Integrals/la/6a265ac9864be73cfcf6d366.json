@@ -1,0 +1,26 @@
+{
+  "id": "6a265ac9864be73cfcf6d366",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate : <br />$$\\int_{0}^{\\pi/2}(2~log~cos~x-log~sin~2x)dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the given integral be $I = \\int_{0}^{\\pi/2}(2\\log\\cos x - \\log\\sin 2x)dx$. First, expand the second log term using the standard trigonometric double-angle identity $\\sin 2x = 2\\sin x\\cos x$. This gives $\\log\\sin 2x = \\log(2\\sin x\\cos x) = \\log 2 + \\log\\sin x + \\log\\cos x$. Substituting this back into our integral equation simplifies it to: $I = \\int_{0}^{\\pi/2} (2\\log\\cos x - \\log 2 - \\log\\sin x - \\log\\cos x) dx = \\int_{0}^{\\pi/2} (\\log\\cos x - \\log\\sin x - \\log 2) dx$. Let this be Equation (1).<br />**Step 2:** Apply the fundamental definite integral property $\\int_{0}^{a} f(x) dx = \\int_{0}^{a} f(a-x) dx$. Replacing $x$ with $(\\frac{\\pi}{2}-x)$ throughout the integrand changes the trigonometric functions to their co-functions since $\\cos(\\frac{\\pi}{2}-x) = \\sin x$ and \\sin(\\frac{\\pi}{2}-x) = \\cos x. This gives our second equation: $I = \\int_{0}^{\\pi/2} (\\log\\sin x - \\log\\cos x - \\log 2) dx$. Let this be Equation (2).<br />**Step 3:** Add Equation (1) and Equation (2) together. Since they share identical integration boundaries, their internal terms combine directly. Notice that the variable log terms cancel each other out completely: $(\\log\\cos x - \\log\\sin x) + (\\log\\sin x - \\log\\cos x) = 0$. This leaves only the constant terms: $2I = \\int_{0}^{\\pi/2} (-2\\log 2) dx$.<br />**Step 4:** Divide both sides by 2 to isolate our target integral: $I = -\\log 2 \\int_{0}^{\\pi/2} 1 \\, dx$. Integrating the constant function $1$ yields $x$, so evaluating it across the boundaries gives: $I = -\\log 2 [x]_{0}^{\\pi/2} = -\\log 2 \\left(\\frac{\\pi}{2} - 0\\right) = -\\frac{\\pi}{2}\\log 2$. Using logarithm reciprocal properties, this final answer can also be written cleanly as $\\frac{\\pi}{2}\\log\\left(\\frac{1}{2}\\right)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

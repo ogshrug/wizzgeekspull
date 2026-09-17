@@ -1,0 +1,30 @@
+{
+  "id": "6a9116cc751910886affba56",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a probability experiment conducted in class, three fair coins are tossed simultaneously. Instead of recording the exact sequence of heads and tails, students record only the number of heads obtained. A random variable $X$ is therefore defined as the number of heads appearing in one trial. For example, the outcomes HHT, HTH and THH all give the same value of $X$, even though the individual outcomes are different. Since three coins are used, the sample space contains eight equally likely outcomes. The students use these outcomes to identify all possible values of $X$ and construct its probability distribution.<br><br><b>(a)</b> Determine all possible values of the random variable $X$.<br><br><b>(b)</b> Calculate $P(X=2)$.<br><br><b>(c)</b> Construct the complete probability distribution of $X$.<br><br><b>(d)</b> Using the distribution, determine whether $X\\geq2$ is more likely than $X\\leq1$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The random variable $X$ counts the number of heads obtained when three coins are tossed.<br>The possible numbers of heads are $0$, $1$, $2$ and $3$.<br>Hence, the possible values are<br>$$X=0,1,2,3$$<br><br><b>(b)</b><br>Exactly two heads occur in the outcomes HHT, HTH and THH.<br>There are 3 favourable outcomes among 8 equally likely outcomes.<br>Therefore,<br>$$P(X=2)=\\frac{3}{8}$$<br><br><b>(c)</b><br>For $X=0$, the only outcome is TTT, so<br>$$P(X=0)=\\frac{1}{8}$$<br>For $X=1$, the outcomes are HTT, THT and TTH, so<br>$$P(X=1)=\\frac{3}{8}$$<br>For $X=2$,<br>$$P(X=2)=\\frac{3}{8}$$<br>For $X=3$, the only outcome is HHH, so<br>$$P(X=3)=\\frac{1}{8}$$<br>Thus, the probability distribution is $P(X=0)=\\frac{1}{8}$, $P(X=1)=\\frac{3}{8}$, $P(X=2)=\\frac{3}{8}$ and $P(X=3)=\\frac{1}{8}$.<br>The sum of the probabilities is<br>$$\\frac{1}{8}+\\frac{3}{8}+\\frac{3}{8}+\\frac{1}{8}=1$$<br>so it is a valid probability distribution.<br><br><b>(d)</b><br>Using the distribution,<br>$$P(X\\geq2)=P(X=2)+P(X=3)=\\frac{3}{8}+\\frac{1}{8}=\\frac{1}{2}$$<br>Also,<br>$$P(X\\leq1)=P(X=0)+P(X=1)=\\frac{1}{8}+\\frac{3}{8}=\\frac{1}{2}$$<br>Therefore, neither event is more likely. The two events have equal probability $\\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $X=0,1,2,3$<br>(b) $P(X=2)=\\frac{3}{8}$<br>(c) $P(0)=\\frac{1}{8},\\ P(1)=\\frac{3}{8},\\ P(2)=\\frac{3}{8},\\ P(3)=\\frac{1}{8}$<br>(d) $P(X\\geq2)=P(X\\leq1)=\\frac{1}{2}$",
+    "B": "(a) $X=1,2,3$<br>(b) $P(X=2)=\\frac{3}{8}$<br>(c) $P(1)=\\frac{1}{4},\\ P(2)=\\frac{1}{2},\\ P(3)=\\frac{1}{4}$<br>(d) $P(X\\geq2)>P(X\\leq1)$",
+    "C": "(a) $X=0,1,2,3$<br>(b) $P(X=2)=\\frac{1}{4}$<br>(c) $P(0)=\\frac{1}{8},\\ P(1)=\\frac{3}{8},\\ P(2)=\\frac{2}{8},\\ P(3)=\\frac{2}{8}$<br>(d) $P(X\\geq2)<P(X\\leq1)$",
+    "D": "(a) $X=0,1,2,3$<br>(b) $P(X=2)=\\frac{3}{8}$<br>(c) $P(0)=\\frac{1}{8},\\ P(1)=\\frac{2}{8},\\ P(2)=\\frac{3}{8},\\ P(3)=\\frac{2}{8}$<br>(d) $P(X\\geq2)>P(X\\leq1)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

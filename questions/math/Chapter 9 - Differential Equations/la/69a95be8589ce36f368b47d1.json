@@ -1,0 +1,29 @@
+{
+  "id": "69a95be8589ce36f368b47d1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following differential equation by the method of separation of variables: $\\frac{y}{x^2} dy + (y^2 + 1) dx = 0$, given $y(1) = 0$.",
+  "answeroption": "D",
+  "explanation": "Given:<br /><br />$\\frac{y}{x^2} dy + (y^2 + 1) dx = 0$<br /><br />$\\implies \\frac{y}{x^2} dy = -(y^2 + 1) dx$<br /><br />$\\implies \\frac{dy}{dx} = -x^2 \\frac{(y^2 + 1)}{y}$<br /><br />Separate variables:<br /><br />$\\frac{dy}{y^2 + 1} = -x^2 \\frac{dx}{y}$<br /><br />But better: rearrange instead as:<br /><br />$\\frac{y}{y^2 + 1} dy = - x^2 dx$<br /><br />Let $u = y^2 + 1$, then $du = 2y dy$, so $y dy = \\frac{1}{2} du$<br /><br />Hence:<br /><br />$\\int \\frac{y}{y^2 + 1} dy = \\int -x^2 dx$<br /><br />$\\int \\frac{1}{2} \\frac{du}{u} = - \\int x^2 dx$<br /><br />$\\frac{1}{2} \\ln|y^2 + 1| = -\\frac{1}{3} x^3 + C$<br /><br />Apply the initial condition $y(1) = 0$:<br /><br />$\\frac{1}{2} \\ln(0^2 + 1) = -\\frac{1}{3} (1)^3 + C$<br /><br />$0 = -\\frac{1}{3} + C \\implies C = \\frac{1}{3}$<br /><br />So, the solution is:<br /><br />$\\frac{1}{2} \\ln|y^2 + 1| = -\\frac{1}{3} x^3 + \\frac{1}{3}$<br /><br />Or,<br /><br />$\\ln|y^2 + 1| = -\\frac{2}{3} x^3 + \\frac{2}{3}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\ln|y^2+1|=\\frac{2}{3}x^3+\\frac{2}{3}$",
+    "B": "$\\ln|y^2+1|=-\\frac{1}{3}x^3+\\frac{1}{3}$",
+    "C": "$\\ln|y^2+1|=-\\frac{2}{3}x^3-\\frac{2}{3}$",
+    "D": "$\\ln|y^2+1|=-\\frac{2}{3}x^3+\\frac{2}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:33:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a216c20864be73cfcf6d148",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "There are three types of vaccines $A_1$, $A_2$, $A_3$, available in the market to protect the population of the country from spread of certain infection. According to a survey conducted, it was found that 25% of the population was given Vaccine $A_1$, 35% of the population was given Vaccine $A_2$ and 40% of the population was given Vaccine $A_3$. The survey also stated that the probabilities that Vaccines $A_1$, $A_2$ and $A_3$ would protect against the infection were 60%, 55% and 50% respectively. Based on the above information, answer the following questions:<br /><br />**(i)** Find the probability that the person taking vaccine $A_2$ will get infected.<br />**(ii)** If a person is chosen randomly, he/she will be protected from the infection.<br />**(iii) (a)** The person was given Vaccine $A_1$, given that the randomly chosen person is infected.<br />OR<br />**(iii) (b)** The person was given Vaccine $A_3$, given that the randomly chosen person is not infected.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Probability of protection for $A_2$ is $P(Pr|A_2) = 0.55$.<br />**Step 2:** The probability of infection is $P(I|A_2) = 1 - 0.55 = 0.45$.<br /><br />**(ii)** **Step 1:** Apply the law of Total Probability: $P(Pr) = P(A_1)P(Pr|A_1) + P(A_2)P(Pr|A_2) + P(A_3)P(Pr|A_3)$.<br />**Step 2:** $P(Pr) = (0.25 \\times 0.60) + (0.35 \\times 0.55) + (0.40 \\times 0.50) = 0.15 + 0.1925 + 0.20 = 0.5425$.<br /><br />**(iii) (a)** **Step 1:** Let $I$ be the event of infection. $P(I) = 1 - P(Pr) = 1 - 0.5425 = 0.4575$.<br />**Step 2:** $P(I|A_1) = 1 - 0.60 = 0.40$.<br />**Step 3:** Use Bayes' Theorem: $P(A_1|I) = \\frac{P(A_1)P(I|A_1)}{P(I)} = \\frac{0.25 \\times 0.40}{0.4575} = \\frac{0.10}{0.4575} = \\frac{40}{183}$.<br /><br />**(iii) (b)** **Step 1:** \"Not infected\" is equivalent to \"Protected\" ($Pr$). We need $P(A_3|Pr)$.<br />**Step 2:** Apply Bayes' Theorem: $P(A_3|Pr) = \\frac{P(A_3)P(Pr|A_3)}{P(Pr)}$.<br />**Step 3:** Substitute the calculated values: $\\frac{0.40 \\times 0.50}{0.5425} = \\frac{0.20}{0.5425} = \\frac{80}{217}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

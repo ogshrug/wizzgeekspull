@@ -1,0 +1,30 @@
+{
+  "id": "6a8d82cd65f47a3d0ecf0f28",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\mathbb{R}^{*}$ denote the set of all non-zero real numbers. Consider the function $f:\\mathbb{R}^{*}\\to\\mathbb{R}^{*}$ defined by $f(x)=\\frac{1}{x}$. Prove that $f$ is both one-one and onto.",
+  "answeroption": "C",
+  "explanation": "<b>Verification of one-one property</b><br>Let $x_1,x_2\\in\\mathbb{R}^{*}$ and suppose $$f(x_1)=f(x_2)$$ Then $$\\frac{1}{x_1}=\\frac{1}{x_2}$$ Since $x_1$ and $x_2$ are non-zero, cross multiplication gives $$x_2=x_1$$ Hence, $f(x_1)=f(x_2)$ implies $x_1=x_2$. Therefore, $f$ is one-one.<br><br><b>Verification of onto property</b><br>Let $y\\in\\mathbb{R}^{*}$ be arbitrary. To show that $f$ is onto, an element $x\\in\\mathbb{R}^{*}$ must be found such that $f(x)=y$. Choose $$x=\\frac{1}{y}$$ Since $y\\neq0$, we have $x\\in\\mathbb{R}^{*}$. Now, $$f\\left(\\frac{1}{y}\\right)=\\frac{1}{\\frac{1}{y}}=y$$ Thus, every element of the co-domain has a pre-image in $\\mathbb{R}^{*}$. Hence, $f$ is onto.<br><br><b>Final Result</b><br>The function $f(x)=\\frac{1}{x}$ is both one-one and onto from $\\mathbb{R}^{*}$ to $\\mathbb{R}^{*}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one but not onto because some non-zero real numbers have no pre-image.",
+    "B": "$f$ is onto but not one-one because $f(x)=f(-x)$ for every $x\\in\\mathbb{R}^{*}$.",
+    "C": "$f$ is both one-one and onto because $f(x_1)=f(x_2)$ implies $x_1=x_2$, and every $y\\in\\mathbb{R}^{*}$ has the pre-image $x=\\frac{1}{y}$.",
+    "D": "$f$ is neither one-one nor onto because the value $0$ is excluded from both the domain and the co-domain."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed99b751910886affb9e2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "SA",
+  "question": "A closed right circular cylinder has total surface area $54\\pi$ cm$^2$. Find its radius and height when its volume is maximum.",
+  "answeroption": "C",
+  "explanation": "<b>Surface-area constraint</b><br>For radius $r$ and height $h$,<br>$$2\\pi r^2+2\\pi rh=54\\pi$$<br>Therefore,<br>$$r^2+rh=27\\Rightarrow h=\\frac{27}{r}-r$$<br><b>Volume function</b><br>$$V=\\pi r^2h=\\pi r^2\\left(\\frac{27}{r}-r\\right)$$<br>$$V=\\pi(27r-r^3)$$<br><b>Stationary condition</b><br>$$V'(r)=\\pi(27-3r^2)=0$$<br>Thus, $r=3$ cm.<br><b>Maximum verification</b><br>$$V''(r)=-6\\pi r$$<br>Since $V''(3)<0$, the volume is maximum.<br><b>Height</b><br>$$h=\\frac{27}{3}-3=6\\text{ cm}$$<br><b>Conclusion</b><br>The required radius is $3$ cm and height is $6$ cm.",
+  "explanation_image": [],
+  "options": {
+    "A": "Radius $6$ cm and height $3$ cm",
+    "B": "Radius $3$ cm and height $3$ cm",
+    "C": "Radius $3$ cm and height $6$ cm",
+    "D": "Radius $6$ cm and height $6$ cm"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

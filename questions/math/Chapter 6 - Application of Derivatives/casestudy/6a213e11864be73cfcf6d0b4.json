@@ -1,0 +1,30 @@
+{
+  "id": "6a213e11864be73cfcf6d0b4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An online delivery company in a city has 5000 subscribers and collects annual subscription fees of ₹300 per subscriber for unlimited free deliveries. The company wishes to increase the annual subscription fee. It is predicted that, for every increase of ₹1, ten subscribers will discontinue. Assume that the company increased the annual fee by ₹x.<br /><br />**(i)** How many subscribers will discontinue after an increase of ₹x in annual fee?<br />**(ii)** If $R(x)$ denotes the total revenue collected after the increase of ₹x in subscription fee, express $R(x)$ as a function of $x$.<br />**(iii) (a)** Find the value of $x$ for which $R(x)$ is maximum.<br />OR<br />**(iii) (b)** Find the sub-intervals of $(0, 5000)$ in which $R(x)$ is increasing and decreasing.",
+  "answeroption": "(i) 10x, (ii) R(x) = (5000 - 10x)(300 + x), (iii)(a) x = 100, (iii)(b) Increasing on (0, 100), Decreasing on (100, 5000)",
+  "explanation": "**(i)** **Step 1:** We are given that for every ₹1 increase in the subscription fee, exactly 10 subscribers will discontinue their service. Therefore, for an increase of ₹$x$, the total number of subscribers who discontinue will be mathematically expressed as $10 \\times x = 10x$.<br /><br />**(ii)** **Step 1:** The new subscription fee after an ₹$x$ increase becomes $(300 + x)$. Simultaneously, the new number of active subscribers is the original count minus the discontinued ones, which is $(5000 - 10x)$.<br />**Step 2:** The total revenue function $R(x)$ is determined by multiplying the new number of subscribers by the new subscription fee. Thus, $R(x) = (5000 - 10x)(300 + x) = 1500000 + 5000x - 3000x - 10x^2 = 1500000 + 2000x - 10x^2$.<br /><br />**(iii) (a)** **Step 1:** To find the optimal fee increase that maximizes revenue, we must find the critical points by taking the first derivative of $R(x)$ with respect to $x$. Differentiating yields $R'(x) = \\frac{d}{dx}(1500000 + 2000x - 10x^2) = 2000 - 20x$.<br />**Step 2:** We set the first derivative $R'(x) = 0$ to solve for the critical value: $2000 - 20x = 0 \\Rightarrow 20x = 2000 \\Rightarrow x = 100$.<br />**Step 3:** To confirm this critical point is indeed a maximum, we apply the second derivative test. The second derivative is $R''(x) = -20$. Because $R''(100) < 0$, the function is concave down, confirming that the revenue $R(x)$ is strictly maximized when the fee increase is $x = 100$.<br /><br />**(iii) (b)** **Step 1:** To determine the precise intervals of increase and decrease, we analyze the sign of the first derivative $R'(x) = 2000 - 20x$. The function is increasing when $R'(x) > 0$, which means $2000 - 20x > 0 \\Rightarrow x < 100$. Conversely, it is decreasing when $R'(x) < 0$, leading to $2000 - 20x < 0 \\Rightarrow x > 100$.<br />**Step 2:** Given the practical physical domain of the problem where $x \\in (0, 5000)$, we can definitively state that the revenue function $R(x)$ is increasing in the sub-interval $(0, 100)$ and decreasing in the sub-interval $(100, 5000)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a213e11864be73cfcf6d0b4/1782192401-0.png?t=1782212202666"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

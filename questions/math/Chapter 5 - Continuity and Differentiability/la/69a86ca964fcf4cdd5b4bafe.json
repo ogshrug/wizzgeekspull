@@ -1,0 +1,30 @@
+{
+  "id": "69a86ca964fcf4cdd5b4bafe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "LA",
+  "question": "Given the equation $x^2 + y^2 + 2xy = 1$, find $\\frac{d^2y}{dx^2}$ at the point where $x = 0,$ $y = 1$.",
+  "answeroption": "A",
+  "explanation": "First derivative:<br /><br />$2x + 2y \\frac{dy}{dx} + 2y + 2x \\frac{dy}{dx} = 0$<br /><br />$\\implies \\frac{dy}{dx} = -1$<br /><br />At $x=0, y=1$, $\\frac{dy}{dx} = -1$<br /><br />Differentiate again:<br /><br />$2 + 2u + (2u + 2)u + (2y + 2x)\\frac{d^2y}{dx^2} = 0$<br /><br />At $x=0, y=1, u=-1$:<br /><br />$2 - 2 + 0 + 2\\frac{d^2y}{dx^2} = 0$<br /><br />Thus,<br /><br />$\\boxed{\\frac{d^2y}{dx^2} = 0}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$1$",
+    "C": "$-1$",
+    "D": "$2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:32:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

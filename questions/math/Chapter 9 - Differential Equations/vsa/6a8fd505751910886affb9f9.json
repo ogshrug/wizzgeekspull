@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd505751910886affb9f9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ab"
+  ],
+  "question_type": "VSA",
+  "question": "The slope of the tangent to a family of curves at $(x,y)$ is $\\frac{x^2+y^2}{2xy}$. Show from its algebraic form why the corresponding differential equation can be treated as homogeneous.",
+  "answeroption": "B",
+  "explanation": "Step 1: The slope condition gives the differential equation $\\frac{dy}{dx}=\\frac{x^2+y^2}{2xy}$.<br>Step 2: The numerator $x^2+y^2$ is a homogeneous expression of degree $2$. The denominator $2xy$ is also homogeneous of degree $2$.<br>Step 3: Divide numerator and denominator by $x^2$. Then $\\frac{dy}{dx}=\\frac{1+\\left(\\frac{y}{x}\\right)^2}{2\\left(\\frac{y}{x}\\right)}$.<br>Step 4: The right-hand side is therefore a function only of the ratio $\\frac{y}{x}$. Hence, it is homogeneous of degree zero.<br>Step 5: Thus, the differential equation obtained from the tangent-slope condition is a first-order homogeneous differential equation.",
+  "explanation_image": [],
+  "options": {
+    "A": "It is homogeneous because the numerator has degree $2$ while the denominator has degree $1$.",
+    "B": "It is homogeneous because $\\frac{x^2+y^2}{2xy}=\\frac{1+\\left(\\frac{y}{x}\\right)^2}{2\\left(\\frac{y}{x}\\right)}$, which depends only on $\\frac{y}{x}$.",
+    "C": "It is homogeneous because the right-hand side depends only on $x+y$.",
+    "D": "It is homogeneous because every first-order differential equation is homogeneous."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

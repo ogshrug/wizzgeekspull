@@ -1,0 +1,31 @@
+{
+  "id": "69a9d092589ce36f368b48c4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A = \\begin{bmatrix} 2 & 1 & 5 \\\\ 1 & 3 & 7 \\\\ 5 & 7 & 4 \\end{bmatrix}$, $A = P + Q$, where $P$ is a symmetric matrix and $Q$ is a skew symmetric matrix, then $PQ =$ ?",
+  "answeroption": "C",
+  "explanation": "For any square matrix $A$, we can write $A = P + Q$ where:<br /><br />$P = \\frac{A + A^T}{2}$ (symmetric)<br /><br />$Q = \\frac{A - A^T}{2}$ (skew-symmetric)<br /><br />Given $A = \\begin{bmatrix} 2 & 1 & 5 \\\\ 1 & 3 & 7 \\\\ 5 & 7 & 4 \\end{bmatrix}$<br /><br />$A^T = \\begin{bmatrix} 2 & 1 & 5 \\\\ 1 & 3 & 7 \\\\ 5 & 7 & 4 \\end{bmatrix}$<br /><br />Since $A = A^T$, $A$ is symmetric.<br /><br />Therefore:<br />$P = \\frac{A + A^T}{2} = \\frac{A + A}{2} = A$<br />$Q = \\frac{A - A^T}{2} = \\frac{A - A}{2} = 0$<br /><br />Now, $PQ = A \\cdot 0 = 0$ (zero matrix).<br /><br />Thus, $PQ = O$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix} a & b & c \\\\ b & c & d \\end{bmatrix}$",
+    "B": "$I$",
+    "C": "$O$",
+    "D": "$P$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:50:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

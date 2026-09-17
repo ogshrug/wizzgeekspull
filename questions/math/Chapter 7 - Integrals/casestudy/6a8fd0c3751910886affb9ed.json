@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd0c3751910886affb9ed",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a classroom activity on symmetry, students study two functions on the interval $[-1,1]$. They are given $f(x)=x^4+2x^2+1$ and $g(x)=x^3-4x$. Rather than evaluating both integrals directly over the full symmetric interval, they first examine how each function behaves when $x$ is replaced by $-x$. The class recalls that the integral of an even function over $[-a,a]$ can be written as twice the integral over $[0,a]$, whereas the integral of an odd function over the same symmetric interval is zero. The students use these properties to simplify the required calculations and compare the effects of even and odd symmetry.<br><br><b>(a)</b> Verify that $f(x)$ is even and $g(x)$ is odd.<br><br><b>(b)</b> Express $\\int_{-1}^{1}f(x)\\,dx$ as an integral over $[0,1]$.<br><br><b>(c)</b> Evaluate $\\int_{-1}^{1}f(x)\\,dx$.<br><br><b>(d)</b> Determine $\\int_{-1}^{1}g(x)\\,dx$ without direct integration and justify the result.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>For $f(x)=x^4+2x^2+1$, $$f(-x)=(-x)^4+2(-x)^2+1=x^4+2x^2+1=f(x)$$ Hence, $f$ is even. For $g(x)=x^3-4x$, $$g(-x)=(-x)^3-4(-x)=-x^3+4x=-g(x)$$ Hence, $g$ is odd.<br><br><b>(b)</b><br>For an even function, $$\\int_{-a}^{a}f(x)\\,dx=2\\int_0^a f(x)\\,dx$$ Therefore, $$\\int_{-1}^{1}f(x)\\,dx=2\\int_0^1(x^4+2x^2+1)\\,dx$$<br><br><b>(c)</b><br>Thus, $$\\int_{-1}^{1}f(x)\\,dx=2\\left[\\frac{x^5}{5}+\\frac{2x^3}{3}+x\\right]_0^1$$ $$=2\\left(\\frac{1}{5}+\\frac{2}{3}+1\\right)=2\\left(\\frac{28}{15}\\right)=\\frac{56}{15}$$<br><br><b>(d)</b><br>Since $g(x)$ is odd and the interval $[-1,1]$ is symmetric about zero, the property of definite integrals gives $$\\int_{-1}^{1}(x^3-4x)\\,dx=0$$ No direct integration is necessary.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Both $f$ and $g$ are even<br>(b) $\\int_{-1}^{1}f(x)dx=2\\int_0^1f(x)dx$<br>(c) $\\int_{-1}^{1}f(x)dx=\\frac{56}{15}$<br>(d) $\\int_{-1}^{1}g(x)dx=2\\int_0^1g(x)dx$",
+    "B": "(a) $f$ is odd and $g$ is even<br>(b) $\\int_{-1}^{1}f(x)dx=0$<br>(c) $\\int_{-1}^{1}f(x)dx=0$<br>(d) $\\int_{-1}^{1}g(x)dx=2\\int_0^1g(x)dx$",
+    "C": "(a) $f$ is even and $g$ is odd<br>(b) $\\int_{-1}^{1}f(x)dx=\\int_0^1f(x)dx$<br>(c) $\\int_{-1}^{1}f(x)dx=\\frac{28}{15}$<br>(d) $\\int_{-1}^{1}g(x)dx=0$",
+    "D": "(a) $f$ is even and $g$ is odd<br>(b) $\\int_{-1}^{1}f(x)dx=2\\int_0^1(x^4+2x^2+1)dx$<br>(c) $\\int_{-1}^{1}f(x)dx=\\frac{56}{15}$<br>(d) $\\int_{-1}^{1}g(x)dx=0$ because $g$ is odd on a symmetric interval"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a920a3b4df445c7f648cad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Find all real solutions to $\\sin^{-1}x + \\sin^{-1}(2x) = \\frac{\\pi}{2}$.",
+  "answeroption": "B",
+  "explanation": "Let $A=\\sin^{-1}x$ and $B=\\sin^{-1}(2x)$.<br /><br />Given $A+B=\\frac{\\pi}{2}$.<br /><br />Thus $B=\\frac{\\pi}{2}-A$.<br /><br />Then $2x=\\sin B=\\sin(\\frac{\\pi}{2}-A)=\\cos A$.<br /><br />Since $\\sin A=x$, we get $\\cos A=\\sqrt{1-x^2}$.<br /><br />Hence $2x=\\sqrt{1-x^2}$.<br /><br />Squaring both sides gives $4x^2=1-x^2$.<br /><br />Thus $5x^2=1$ and $x^2=\\frac{1}{5}$.<br /><br />So $x=\\pm\\frac{1}{\\sqrt{5}}$.<br /><br />But domain condition $|2x|\\le1$ gives $|x|\\le\\frac{1}{2}$.<br /><br />Only $x=\\frac{1}{\\sqrt{5}}$ satisfies the condition.<br /><br />Hence the real solution is $x=\\frac{1}{\\sqrt{5}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=-\\frac{1}{\\sqrt{5}}$",
+    "B": "$x=\\frac{1}{\\sqrt{5}}$",
+    "C": "$x=\\frac{1}{2}$",
+    "D": "$x=\\pm\\frac{1}{\\sqrt{5}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:20:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

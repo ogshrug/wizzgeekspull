@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed2de751910886affb9c3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "SA",
+  "question": "The population of a town, $t$ years after a survey, is modelled by $P(t)=5000+200t+5t^2$.(a) Find the rate at which the population changes after $10$ years.(b) Explain what the obtained value represents.",
+  "answeroption": "C",
+  "explanation": "Population model$$P(t)=5000+200t+5t^2$$Rate-of-change functionDifferentiating the population with respect to time gives$$\\frac{dP}{dt}=200+10t$$Rate after ten yearsAt $t=10$,$$\\left.\\frac{dP}{dt}\\right|_{t=10}=200+10(10)=300$$InterpretationThe positive value shows that the population is increasing. The derivative gives the instantaneous population growth rate at exactly ten years after the survey, rather than the average growth over the entire ten-year period.Final resultAfter $10$ years, the population is increasing at an instantaneous rate of $300$ persons per year.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $200$ persons per year<br>(b) The population is increasing at this instantaneous rate after $10$ years",
+    "B": "(a) $250$ persons per year<br>(b) The population is increasing at this instantaneous rate after $10$ years",
+    "C": "(a) $300$ persons per year<br>(b) The population is increasing at this instantaneous rate after $10$ years",
+    "D": "(a) $300$ persons per year<br>(b) This is the average population growth over the first $10$ years"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

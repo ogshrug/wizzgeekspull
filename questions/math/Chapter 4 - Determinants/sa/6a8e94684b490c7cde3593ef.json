@@ -1,0 +1,29 @@
+{
+  "id": "6a8e94684b490c7cde3593ef",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "SA",
+  "question": "For $D=\\begin{vmatrix}a&b\\\\-b&a\\end{vmatrix}$, obtain $D$ in terms of $a$ and $b$. Hence, evaluate $D$ when $a=3$ and $b=4$, and determine whether $D$ can be zero for these values.",
+  "answeroption": "B",
+  "explanation": "<b>Expansion of the determinant</b><br>Expanding the determinant of order $2$, $$D=(a)(a)-(b)(-b)$$<br><b>Algebraic simplification</b><br>Therefore, $$D=a^2+b^2$$<br><b>Substitution of the given values</b><br>For $a=3$ and $b=4$, $$D=3^2+4^2=9+16=25$$<br><b>Examination of the zero condition</b><br>The obtained value is $25$, which is nonzero. Also, a sum of two real squares can be zero only when both numbers are zero. Since $a=3$ and $b=4$, this condition is not satisfied.<br>Hence, $D=25$ and the determinant is not zero.",
+  "explanation_image": [],
+  "options": {
+    "A": "$D=a^2-b^2$; for $a=3,b=4$, $D=-7$, so $D\\ne0$",
+    "B": "$D=a^2+b^2$; for $a=3,b=4$, $D=25$, so $D\\ne0$",
+    "C": "$D=b^2-a^2$; for $a=3,b=4$, $D=7$, so $D\\ne0$",
+    "D": "$D=(a+b)^2$; for $a=3,b=4$, $D=49$, so $D\\ne0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a266ae5864be73cfcf6d385",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically:<br />Minimise: $z=-3x+4y$<br />subject to the constraints<br />$x+2y\\le8$,<br />$3x+2y\\le12,$<br />$x,y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find boundary lines and axes intercepts to draw the system graph. For line 1, $x + 2y = 8$: setting $x=0$ gives $y=4$, and setting $y=0$ gives $x=8$, yielding coordinate points $(0,4)$ and $(8,0)$. For line 2, $3x + 2y = 12$: setting $x=0$ gives $y=6$, and setting $y=0$ gives $x=4$, yielding coordinate points $(0,6)$ and $(4,0)$. The non-negativity constraints $x,y \\ge 0$ restrict our region exclusively to the first quadrant.<br />**Step 2:** Test the origin point $(0,0)$ to locate the correct boundary sides. For line 1: $0 + 2(0) \\le 8$ is true. For line 2: $3(0) + 2(0) \\le 12$ is true. Since both are true, the feasible region is the closed, bounded area towards the origin. Find the intersection corner point by subtracting the equations: $(3x+2y) - (x+2y) = 12 - 8 \\implies 2x = 4 \\implies x = 2$. Substituting $x=2$ into line 1 yields $2 + 2y = 8 \\implies y = 3$, giving intersection point $B(2,3)$.<br />**Step 3:** The corner vertices of this bounded feasible region are $O(0,0)$, $A(4,0)$, $B(2,3)$, and $C(0,4)$. Evaluate the objective function $z = -3x + 4y$ at each vertex point: at $O(0,0), z = 0$; at $A(4,0), z = -3(4) + 0 = -12$; at $B(2,3), z = -3(2) + 4(3) = 6$; at $C(0,4), z = 0 + 4(4) = 16$. The minimum value is $-12$, which occurs at corner vertex point $(4,0)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

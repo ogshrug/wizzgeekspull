@@ -1,0 +1,34 @@
+{
+  "id": "6a2141d091ff8b4d45610972",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8bc",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "MCQ",
+  "question": "For any two vectors $\\vec{a}$ and $\\vec{b}$, which of the following statements is always true ?",
+  "answeroption": "A",
+  "explanation": "<b>Step 1</b> Recall the geometric definition of the dot product for two vectors. The formula is $\\vec{a}\\cdot\\vec{b} = |\\vec{a}||\\vec{b}|\\cos \\theta$, where $\\theta$ is the angle between the vectors.<br /><br /><b>Step 2</b> Analyze the properties of the cosine function. For any real angle $\\theta$, the value of $\\cos \\theta$ is bounded between $-1$ and $1$. Therefore, $|\\cos \\theta| \\le 1$.<br /><br /><b>Step 3</b> Substitute this inequality back into the dot product definition. Taking the absolute value gives $|\\vec{a}\\cdot\\vec{b}| = |\\vec{a}||\\vec{b}| |\\cos \\theta|$. Since $|\\cos \\theta| \\le 1$, it logically follows that $\\vec{a}\\cdot\\vec{b} \\le |\\vec{a}||\\vec{b}|$. This is the well-known Cauchy-Schwarz inequality, which proves option A is always true.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\vec{a}.\\vec{b}\\le|\\vec{a}||\\vec{b}|$",
+    "B": "$|\\vec{a}+\\vec{b}|\\ge|\\vec{a}|+|\\vec{b}|$",
+    "C": "$|\\vec{a}-\\vec{b}|=|\\vec{a}|-|\\vec{b}|$",
+    "D": "$|\\vec{a}\\times\\vec{b}|\\ge|\\vec{a}||\\vec{b}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

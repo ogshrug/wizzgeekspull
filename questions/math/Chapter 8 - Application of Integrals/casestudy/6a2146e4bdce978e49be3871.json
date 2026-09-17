@@ -1,0 +1,31 @@
+{
+  "id": "6a2146e4bdce978e49be3871",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f994",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "There is a triangular park in the society. The park is divided into two sections as shown in the figure. In the region OAC, children are allowed to play games like cricket, football, while in the region AOB, activities which involve running are not allowed. The vertices of the triangular park ABC are $A(0,4)$, $B(-2,0)$ and $C(3,0)$. Based on the above information, answer the following questions :<br /><b>(i)</b> Write the equation of the boundary line AB of the park.<br /><b>(ii)</b> Write the equation of the boundary line AC of the park.<br /><b>(iii)(a)</b> Using integration, find the area of region OAC, in which children are allowed to play cricket, football.<br />OR<br /><b>(iii)(b)</b> Using integration, find the area of region AOB.",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> Use the given coordinates for points A and B, which are $A(0,4)$ and $B(-2,0)$, to find the equation of the line.<br /><br /><b>Step 2</b> Apply the two-point form formula for the equation of a line: $y - y_1 = \\frac{y_2-y_1}{x_2-x_1}(x - x_1)$. Substituting the coordinates yields $y - 4 = \\frac{0-4}{-2-0}(x - 0)$. This simplifies to $y - 4 = 2x$, so the equation is $y = 2x + 4$.<br /><br /><b>(ii)</b><br /><br /><b>Step 3</b> Use the given coordinates for points A and C, which are $A(0,4)$ and $C(3,0)$.<br /><br /><b>Step 4</b> Apply the two-point form formula again: $y - 4 = \\frac{0-4}{3-0}(x - 0)$. This simplifies to $y - 4 = -\\frac{4}{3}x$, resulting in the equation $y = -\\frac{4}{3}x + 4$.<br /><br /><b>(iii)(a)</b><br /><br /><b>Step 5</b> The region OAC is a right-angled triangle bounded by the line AC, the y-axis, and the x-axis. To find the area using integration, integrate the equation of the line AC from $x=0$ to $x=3$. The integral is $\\int_0^3 (-\\frac{4}{3}x + 4) dx$. Evaluating this yields $[-\\frac{4}{3}\\frac{x^2}{2} + 4x]_0^3 = [-\\frac{2}{3}x^2 + 4x]_0^3 = -\\frac{2}{3}(9) + 4(3) = -6 + 12 = 6$ square units.<br /><br /><b>(iii)(b)</b><br /><br /><b>Step 6</b> The region AOB is the triangle bounded by the line AB, the x-axis, and the y-axis. The limits for integration are from $x=-2$ (at point B) to $x=0$ (the y-axis). Setup the integral $\\int_{-2}^0 (2x + 4) dx$. Evaluating this integral gives $[x^2 + 4x]_{-2}^0 = (0^2 + 0) - ((-2)^2 + 4(-2)) = 0 - (4 - 8) = 4$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2146e4bdce978e49be3871/1782194412-0.png?t=1782214212823"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

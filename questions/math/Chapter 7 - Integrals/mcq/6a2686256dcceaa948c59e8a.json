@@ -1,0 +1,33 @@
+{
+  "id": "6a2686256dcceaa948c59e8a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f988"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int 2^{x+2}\\,dx$ is equal to:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Use the law of exponents: $2^{x+2}=4\\cdot2^x$. Therefore, $\\int 2^{x+2}dx=4\\int2^xdx$.<br /><br />**Step 2:** Apply the standard formula $\\int a^xdx=\\frac{a^x}{\\log a}+C$.<br /><br />**Step 3:** Hence, $4\\cdot\\frac{2^x}{\\log2}+C=\\frac{2^{x+2}}{\\log2}+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2^{x+2}+C$",
+    "B": "$2^{x+2}\\log 2+C$",
+    "C": "$\\frac{2^{x+2}}{\\log 2}+C$",
+    "D": "$\\frac{2^{x+1}}{\\log 2}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a27aece233c5169a79c53c4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation: $y^{2}dx+(x^{2}-xy+y^{2})dy=0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rearrange the given equation into standard derivative format: $\\frac{dy}{dx} = \\frac{-y^2}{x^2 - xy + y^2}$. This is a homogeneous equation.<br />**Step 2:** Substitute $y = vx$, which transforms the derivative into $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. The equation becomes $v + x\\frac{dv}{dx} = \\frac{-v^2}{1 - v + v^2} \\implies x\\frac{dv}{dx} = \\frac{-v(1+v^2)}{1 - v + v^2}$.<br />**Step 3:** Separate variables to get $\\frac{1-v+v^2}{v(1+v^2)}dv = -\\frac{1}{x}dx$. Integrating both sides leads to the final implicit relationship: $\\ln|x| + \\tan^{-1}(\\frac{y}{x}) + \\frac{1}{2}\\ln|1+(\\frac{y}{x})^2| = C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

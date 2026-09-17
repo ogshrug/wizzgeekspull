@@ -1,0 +1,26 @@
+{
+  "id": "6a22c0bdfbdd87b6dea73c31",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "VSA",
+  "question": "Let $\\vec{a}$ and $\\vec{b}$ be two non-zero vectors. Prove that $|\\vec{a}\\times\\vec{b}|\\le|\\vec{a}||\\vec{b}|$. State the condition under which equality holds, i.e., $|\\vec{a}\\times\\vec{b}|=|\\vec{a}||\\vec{b}|$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use cross product formulation: $|\\vec{a} \\times \\vec{b}| = |\\vec{a}||\\vec{b}|\\sin\\theta$, where $\\theta$ is the angle between the vectors.<br />**Step 2:** Since $\\sin\\theta \\le 1$ for all real values, it follows that $|\\vec{a}||\\vec{b}|\\sin\\theta \\le |\\vec{a}||\\vec{b}| \\implies |\\vec{a} \\times \\vec{b}| \\le |\\vec{a}||\\vec{b}|$.<br />**Step 3:** Equality holds when $\\sin\\theta = 1 \\implies \\theta = \\frac{\\pi}{2}$, meaning the vectors are perpendicular.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

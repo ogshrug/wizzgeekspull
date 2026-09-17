@@ -1,0 +1,34 @@
+{
+  "id": "6a22a6df864be73cfcf6d288",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "MCQ",
+  "question": "If for a square matrix A, $A^2 - 3A + I = O$ and $A^{-1} = xA + yI$, then the value of $x+y$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Start with the given matrix equation $A^2 - 3A + I = O$. To find $A^{-1}$, multiply the entire equation by $A^{-1}$.<br />**Step 2:** This yields $A^{-1}(A^2 - 3A + I) = A^{-1}O$. Distributing gives $A - 3I + A^{-1} = O$.<br />**Step 3:** Isolate $A^{-1}$ to get $A^{-1} = -A + 3I$.<br />**Step 4:** Compare this result with the given expression $A^{-1} = xA + yI$. We can identify the coefficients: $x = -1$ and $y = 3$.<br />**Step 5:** Calculate the required sum: $x + y = -1 + 3 = 2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "-2",
+    "B": "2",
+    "C": "3",
+    "D": "-3"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2",
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

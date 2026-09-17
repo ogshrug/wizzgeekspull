@@ -1,0 +1,26 @@
+{
+  "id": "6a326591d5dca7dcb0bf0eb2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following Linear Programming Problem graphically: Minimise: $Z=60x+80y$ subject to constraints: $3x+4y\\ge8$, $5x+2y\\ge11$, $x,y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Graph the line $3x+4y=8$ using intercepts $(0, 2)$ and $(\\frac{8}{3}, 0)$, shading the region away from origin.\n\n**Step 2:** Graph the line $5x+2y=11$ using intercepts $(0, \\frac{11}{2})$ and $(\\frac{11}{5}, 0)$, shading the region away from origin.\n\n**Step 3:** Find the intersection point by solving equations: $5x+2y=11 \\Rightarrow 10x+4y=22$. Subtract $3x+4y=8$ to get $7x=14 \\Rightarrow x=2$. Then $y=\\frac{1}{2}$. Point is $(2, \\frac{1}{2})$.\n\n**Step 4:** The feasible region is unbounded with corner points $(0, \\frac{11}{2})$, $(2, \\frac{1}{2})$, and $(\\frac{8}{3}, 0)$. Evaluate Z at these points: $Z(0, 5.5) = 440$, $Z(2, 0.5) = 120+40 = 160$, $Z(\\frac{8}{3}, 0) = 60(\\frac{8}{3}) = 160$.\n\n**Step 5:** The minimum value is $160$. Since the region is unbounded, we check $60x+80y < 160 \\Rightarrow 3x+4y < 8$. This half-plane has no points in common with the feasible region, so $Z=160$ is the true minimum occurring at $(2, \\frac{1}{2})$ and $(\\frac{8}{3}, 0)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

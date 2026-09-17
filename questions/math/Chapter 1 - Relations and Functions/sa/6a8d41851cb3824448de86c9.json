@@ -1,0 +1,30 @@
+{
+  "id": "6a8d41851cb3824448de86c9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Let $f,g:\\mathbb{R}\\to\\mathbb{R}$ be defined by $f(x)=2x+1$ and $g(x)=x-4$. Find $(g\\circ f)^{-1}$ and verify that $(g\\circ f)^{-1}=f^{-1}\\circ g^{-1}$.",
+  "answeroption": "A",
+  "explanation": "<b>Composite function</b><br>$$(g\\circ f)(x)=g(2x+1)=2x+1-4=2x-3.$$<br><br><b>Inverse of the composite function</b><br>Let<br>$$y=2x-3.$$<br>Solving for $x$, we obtain<br>$$x=\\frac{y+3}{2}.$$<br>Therefore,<br>$$(g\\circ f)^{-1}(x)=\\frac{x+3}{2}.$$<br><br><b>Individual inverse functions</b><br>From $f(x)=2x+1$,<br>$$f^{-1}(x)=\\frac{x-1}{2},$$<br>and from $g(x)=x-4$,<br>$$g^{-1}(x)=x+4.$$<br><br><b>Composition of the inverses</b><br>$$(f^{-1}\\circ g^{-1})(x)=f^{-1}(x+4)=\\frac{x+4-1}{2}=\\frac{x+3}{2}.$$<br><br><b>Verification</b><br>Hence,<br>$$(g\\circ f)^{-1}=f^{-1}\\circ g^{-1}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(g\\circ f)^{-1}(x)=\\frac{x+3}{2}=(f^{-1}\\circ g^{-1})(x)$",
+    "B": "$(g\\circ f)^{-1}(x)=\\frac{x-3}{2}=(f^{-1}\\circ g^{-1})(x)$",
+    "C": "$(g\\circ f)^{-1}(x)=2x+3=(g^{-1}\\circ f^{-1})(x)$",
+    "D": "$(g\\circ f)^{-1}(x)=x$ because $g\\circ f$ is the identity function"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

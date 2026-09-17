@@ -1,0 +1,29 @@
+{
+  "id": "6a8ebf2e751910886affb990",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "Given $$x^2+xy+y^2=100,$$ obtain an expression for $\\frac{dy}{dx}$ in terms of $x$ and $y$.",
+  "answeroption": "B",
+  "explanation": "<b>Implicit differentiation</b><br>Differentiating both sides with respect to $x$, $$2x+x\\frac{dy}{dx}+y+2y\\frac{dy}{dx}=0.$$<br><b>Collecting terms containing $\\frac{dy}{dx}$</b><br>$$\\left(x+2y\\right)\\frac{dy}{dx}=-(2x+y)$$<br><b>Required derivative</b><br>Therefore, $$\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{2x+y}{x+2y}$",
+    "B": "$\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}$",
+    "C": "$\\frac{dy}{dx}=-\\frac{x+2y}{2x+y}$",
+    "D": "$\\frac{dy}{dx}=\\frac{x+2y}{2x+y}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

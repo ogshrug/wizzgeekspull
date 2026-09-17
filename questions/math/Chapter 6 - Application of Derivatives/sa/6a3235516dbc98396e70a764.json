@@ -1,0 +1,26 @@
+{
+  "id": "6a3235516dbc98396e70a764",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "SA",
+  "question": "The area of an expanding rectangle is increasing at the rate of $48~cm^{2}/s.$ The length of the rectangle is always square of its breadth. At what rate the length of rectangle increasing at an instant, when breadth $=4.5$ cm?",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let length be $l$, breadth be $b$, and area be $A$. We are given $l = b^2$, so $A = l \\cdot b = b^3$. Differentiating area with respect to time $t$ gives $\\frac{dA}{dt} = 3b^2 \\frac{db}{dt}$.<br />**Step 2:** Substitute the given value $\\frac{dA}{dt} = 48$ into the rate equation to isolate breadth velocity: $48 = 3b^2 \\frac{db}{dt} \\implies \\frac{db}{dt} = \\frac{16}{b^2}$.<br />**Step 3:** Differentiate $l = b^2$ to find the length growth rate: $\\frac{dl}{dt} = 2b \\frac{db}{dt} = 2b \\left(\\frac{16}{b^2}\\right) = \\frac{32}{b}$. Substituting $b = 4.5\\text{ cm}$ yields $\\frac{32}{4.5} = \\frac{64}{9}\\text{ cm/s}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8eb0444b490c7cde359441",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d71",
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "LA",
+  "question": "Consider the system of equations<br>$$x+y+z=6$$<br>$$2x-y+3z=9$$<br>$$3x+2y-z=4$$<br><br><b>(a)</b> Form the coefficient matrix $A$ and evaluate $|A|$.<br><br><b>(b)</b> Examine the consistency of the system and state the number of solutions.<br><br><b>(c)</b> Solve the system and verify the solution in the three equations.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The coefficient matrix is<br>$$A=\\begin{bmatrix}1 & 1 & 1\\\\2 & -1 & 3\\\\3 & 2 & -1\\end{bmatrix}$$<br>Therefore,<br>$$|A|=\\begin{vmatrix}1 & 1 & 1\\\\2 & -1 & 3\\\\3 & 2 & -1\\end{vmatrix}$$<br>Expanding along the first row,<br>$$|A|=1(1-6)-1(-2-9)+1(4+3)$$<br>$$|A|=-5+11+7=13$$<br><br><b>(b)</b><br>Since<br>$$|A|=13\\neq0$$<br>the system is consistent and has a unique solution.<br><br><b>(c)</b><br>From the first equation,<br>$$x=6-y-z$$<br>Substituting in the second equation,<br>$$2(6-y-z)-y+3z=9$$<br>$$-3y+z=-3$$<br>$$z=3y-3$$<br>Substituting $x=6-y-z$ in the third equation,<br>$$3(6-y-z)+2y-z=4$$<br>$$y+4z=14$$<br>Using $z=3y-3$,<br>$$y+4(3y-3)=14$$<br>$$13y=26$$<br>$$y=2$$<br>Thus,<br>$$z=3(2)-3=3$$<br>and<br>$$x=6-2-3=1$$<br>Verification:<br>$$1+2+3=6$$<br>$$2(1)-2+3(3)=9$$<br>$$3(1)+2(2)-3=4$$<br>Hence, the unique solution is $(x,y,z)=(1,2,3)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=\\begin{bmatrix}1&1&1\\\\2&-1&3\\\\3&2&-1\\end{bmatrix}$, $|A|=-13$<br>(b) The system has a unique solution<br>(c) $(x,y,z)=(-1,2,5)$",
+    "B": "(a) $A=\\begin{bmatrix}1&1&1\\\\2&-1&3\\\\3&2&-1\\end{bmatrix}$, $|A|=0$<br>(b) The system has infinitely many solutions<br>(c) $(1,2,3)$ is one solution",
+    "C": "(a) $A=\\begin{bmatrix}1&1&1\\\\2&-1&3\\\\3&2&-1\\end{bmatrix}$, $|A|=13$<br>(b) The system is consistent and has a unique solution<br>(c) $(x,y,z)=(1,2,3)$, which satisfies all three equations",
+    "D": "(a) $A=\\begin{bmatrix}1&1&1\\\\2&-1&3\\\\3&2&-1\\end{bmatrix}$, $|A|=13$<br>(b) The system is inconsistent<br>(c) It has no solution"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

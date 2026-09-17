@@ -1,0 +1,30 @@
+{
+  "id": "69a949d6d30adc5083911a44",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6b",
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**(Geometric Area Analysis Case Study)**<br /><br />Three points in the plane are $A(2,3)$, $B(5,7)$, and $C(a,11)$. These correspond to corners of a triangular plot under consideration.<br /><br />(a) Use the determinant method to write the general formula for the area of triangle $ABC$.<br /><br />(b) If the area is required to be exactly 20 square units, set up the equation and solve for $a$.",
+  "answeroption": "C",
+  "explanation": "(a)<br />Area of triangle $ABC$:<br />$\\text{Area} = \\frac{1}{2}|\\begin{vmatrix}x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1\\end{vmatrix}|$<br />$= \\frac{1}{2}|\\begin{vmatrix}2 & 3 & 1 \\\\ 5 & 7 & 1 \\\\ a & 11 & 1\\end{vmatrix}|$<br />Compute determinant:<br />Expand along third column:<br />$= \\frac{1}{2}|2(7\\times1 - 11\\times1) - 3(5\\times1 - a\\times1) + 1(5\\times11 - 7\\times a)|$<br />$= \\frac{1}{2}|2(7-11) - 3(5-a) + (55-7a)|$<br />$= \\frac{1}{2}|2(-4) - 3(5-a) + (55-7a)|$<br />$= \\frac{1}{2}|-8 - 15 + 3a + 55 - 7a|$<br />$= \\frac{1}{2}|-8-15+55 + 3a -7a|$<br />$= \\frac{1}{2}|32-4a|$<br /><br />(b)<br />Set area = 20:<br />$\\frac{1}{2}|32-4a| = 20$<br />$|32-4a| = 40$<br />So $32-4a = 40 \\implies a = -2$<br />Or $32-4a = -40 \\implies 4a = 72 \\implies a = 18$<br />So, $a = -2$ or $a = 18$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\text{Area}=\\frac{1}{2}|32+4a|$<br />(b) $a=2$ or $a=-18$",
+    "B": "(a) $\\text{Area}=|32-4a|$<br />(b) $a=-2$ or $a=18$",
+    "C": "(a) $\\text{Area}=\\frac{1}{2}|32-4a|$<br />(b) $a=-2$ or $a=18$",
+    "D": "(a) $\\text{Area}=\\frac{1}{2}|4a-32|$<br />(b) $a=2$ or $a=18$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:16:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a215f62864be73cfcf6d121",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76",
+    "69c6603740512f018fa94d70"
+  ],
+  "question_type": "LA",
+  "question": "A man goes to buy fruits from the market. The shopkeeper informs him that 4 apples, 3 oranges and 2 bananas cost ₹60; 2 apples, 4 oranges and 6 bananas cost ₹90; whereas 6 apples, 2 oranges and 3 bananas cost ₹70. Using matrix method, find the cost of one fruit of each kind.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the cost of one apple, orange, and banana be x, y, and z respectively. Form the equations: $4x+3y+2z=60$, $2x+4y+6z=90$, $6x+2y+3z=70$.<br />**Step 2:** Express as $AX=B$, where $A = \\begin{bmatrix} 4 & 3 & 2 \\\\ 2 & 4 & 6 \\\\ 6 & 2 & 3 \\end{bmatrix}$, $X = \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix}$, $B = \\begin{bmatrix} 60 \\\\ 90 \\\\ 70 \\end{bmatrix}$.<br />**Step 3:** Find $|A|$. $|A| = 4(12-12) - 3(6-36) + 2(4-24) = 0 + 90 - 40 = 50$. Since $|A| \\neq 0$, $A^{-1}$ exists.<br />**Step 4:** Find $adj(A)$ by calculating cofactors, then $A^{-1} = \\frac{1}{|A|} adj(A)$.<br />**Step 5:** Multiply $A^{-1}$ with B to find X. Solving gives $x=5$, $y=8$, $z=8$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

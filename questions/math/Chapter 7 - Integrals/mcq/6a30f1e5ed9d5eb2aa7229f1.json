@@ -1,0 +1,31 @@
+{
+  "id": "6a30f1e5ed9d5eb2aa7229f1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "MCQ",
+  "question": "The primitive of $\\frac{2}{1+\\cos 2x}$ is",
+  "answeroption": "C",
+  "explanation": "**Step 1: Simplify the Integrand Using Trigonometric Identity**  \nWe know the identity $1 + \\cos 2x = 2\\cos^2 x$. Substitute this into the integrand:  \n$$\\frac{2}{1+\\cos 2x} = \\frac{2}{2\\cos^2 x} = \\frac{1}{\\cos^2 x} = \\sec^2 x$$  \nSo the integral becomes $\\int \\sec^2 x \\, dx$.\n\n**Step 2: Evaluate the Integral**  \nThe integral of $\\sec^2 x$ is a standard result:  \n$$\\int \\sec^2 x \\, dx = \\tan x + C$$  \nwhere $C$ is the constant of integration. The primitive (antiderivative) is therefore $\\tan x$.\n\n**Step 3: Match with the Given Options**  \nAmong the options, $\\tan x$ corresponds to option **C**.  \nOption A ($\\sec^2 x$) is the derivative of $\\tan x$, not the primitive. Option B is the derivative of $\\sec^2 x$ (up to a constant), and option D is the primitive of $\\csc^2 x$ with a negative sign. Hence, the correct answer is C.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sec^2 x$",
+    "B": "$2\\sec^2 x \\tan x$",
+    "C": "$\\tan x$",
+    "D": "$-\\cot x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

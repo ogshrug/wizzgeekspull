@@ -1,0 +1,28 @@
+{
+  "id": "6a22903d864be73cfcf6d20e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "SA",
+  "question": "If $y = (\\tan x)^x$, then find $\\frac{dy}{dx}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use logarithmic differentiation. $\\ln y = \\ln((\\tan x)^x)$.<br />**Step 2:** Apply power rule: $\\ln y = x \\ln(\\tan x)$.<br />**Step 3:** Differentiate both sides w.r.t $x$: $\\frac{1}{y} \\frac{dy}{dx} = x \\cdot \\frac{d}{dx}(\\ln(\\tan x)) + \\ln(\\tan x) \\cdot 1$.<br />**Step 4:** $\\frac{d}{dx}(\\ln(\\tan x)) = \\frac{1}{\\tan x} \\cdot \\sec^2 x = \\frac{2}{\\sin(2x)}$. So RHS is $x \\frac{\\sec^2 x}{\\tan x} + \\ln(\\tan x)$.<br />**Step 5:** Multiply by $y$: $\\frac{dy}{dx} = (\\tan x)^x \\left[ x \\frac{\\sec^2 x}{\\tan x} + \\ln(\\tan x) \\right]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1",
+    "2024-1-2",
+    "2024-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

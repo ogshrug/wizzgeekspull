@@ -1,0 +1,31 @@
+{
+  "id": "6a32355f6dbc98396e70a765",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{1-2~sin~x}{cos^{2}x}dx$ is equal to :",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Split the single fraction inside the integrand into two separate algebraic fractions: $\\int \\left( \\frac{1}{\\cos^2 x} - \\frac{2\\sin x}{\\cos^2 x} \\right) dx$.<br />**Step 2:** Use standard trigonometric relationships to simplify the terms into basic integrateable forms: $\\int \\left( \\sec^2 x - 2\\sec x \\tan x \\right) dx$.<br />**Step 3:** Integrate each component using standard calculus rules: $\\int \\sec^2 x \\, dx = \\tan x$ and $\\int \\sec x \\tan x \\, dx = \\sec x$. Combining them gives $\\tan x - 2\\sec x + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$tan~x-2~sec~x+C$",
+    "B": "$-tan~x+2~sec~x+C$",
+    "C": "$-tan~x-2~sec~x+C$",
+    "D": "$tan~x+2~sec~x+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

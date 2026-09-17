@@ -1,0 +1,29 @@
+{
+  "id": "69a91da5575fa42e0944483f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A workshop makes doors and windows. Each door requires 2 hours in the carpentry section and 1 hour in painting. Each window requires 1 hour in the carpentry section and 2 hours in painting. In total 16 hours are available in the carpentry section and 12 in painting per day. The profit per door is Rs 50 and per window is Rs 40. Formulate and solve the LPP graphically for maximum profit. Show all steps and working.",
+  "answeroption": "B",
+  "explanation": "Let $x$ = doors, $y$ = windows.<br /><br />Step 1: $Z=50x+40y$ (maximize)<br /><br />Step 2: Carpentry: $2x+y\\leq16$<br /><br />Step 3: Painting: $x+2y\\leq12$<br /><br />Step 4: $x\\geq0, y\\geq0$<br /><br />Step 5: Intersections:<br /><br />$2x+y=16\\implies y=16-2x$<br /><br />$x+2y=12\\implies y=(12-x)/2$<br /><br />Set $16-2x=(12-x)/2\\implies32-4x=12-x\\implies -3x=-20\\implies x=20/3\\approx6.67$<br /><br />$y=16-2x=16-13.33=2.67$<br /><br />So point: $(6.67,2.67)$<br /><br />Intercepts for $2x+y=16$: $x=0,y=16$, $y=0,x=8$<br /><br />For $x+2y=12$: $x=0,y=6$, $y=0,x=12$<br /><br />Check which points are feasible:<br /><br />$(0,6):2\\times0+6=6\\leq16,0+2\\times6=12\\leq12$ OK<br /><br />$(8,0):2\\times8=16\\leq16,8+0=8\\leq12$ OK<br /><br />$(0,16):0+2\\times16=32>12$ not OK<br /><br />$(12,0):2\\times12=24>16$ not OK<br /><br />So feasible: $(0,6)$, $(8,0)$, $(6.67,2.67)$<br /><br />Step 6: Evaluate $Z$:<br /><br />At $(0,6):Z=0+40\\times6=240$<br /><br />At $(8,0):Z=50\\times8=400$<br /><br />At $(6.67,2.67):50\\times6.67+40\\times2.67=333.5+106.8=440.3$<br /><br />Thus, maximum profit Rs 440.3 at $(6.67,2.67)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 0 doors and 6 windows; maximum profit Rs 240.",
+    "B": "Produce approximately 6.67 doors and 2.67 windows; maximum profit Rs 440.3.",
+    "C": "Produce 8 doors and 0 windows; maximum profit Rs 400.",
+    "D": "Produce 12 doors and 0 windows; maximum profit Rs 600."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:07:33 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8d3dba550d28a069ec32f6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Define $f:\\mathbb{N}\\to\\mathbb{N}$ by $f(1)=1$ and $f(n)=n-1$ for $n\\geq2$. Examine whether $f$ is one-one and whether it is onto. Justify both conclusions.",
+  "answeroption": "B",
+  "explanation": "<b>Testing the one-one property</b><br>We have<br>$$f(1)=1$$<br>and<br>$$f(2)=2-1=1.$$<br>Thus, $f(1)=f(2)$ although $1\\ne2$. Therefore, $f$ is not one-one.<br><br><b>Testing the onto property</b><br>Let $y\\in\\mathbb{N}$. For $y=1$, we have $f(1)=1$. For $y>1$, choose $n=y+1$. Then $n\\geq2$ and<br>$$f(y+1)=(y+1)-1=y.$$<br>Thus, every element of $\\mathbb{N}$ has a pre-image.<br><br><b>Conclusion</b><br>The function $f$ is onto but not one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is both one-one and onto",
+    "B": "$f$ is onto but not one-one because $f(1)=f(2)=1$",
+    "C": "$f$ is one-one but not onto",
+    "D": "$f$ is neither one-one nor onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

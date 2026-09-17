@@ -1,0 +1,29 @@
+{
+  "id": "6a9123f32e54880055a0a773",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Consider the linear programming problem:<br>Maximise $Z=3x+5y$ subject to $x+y\\leq8$, $x+2y\\leq10$, $x\\geq0$, $y\\geq0$. Without drawing the graph, the boundary lines determine the corner points $(0,0)$, $(8,0)$, $(6,2)$ and $(0,5)$. Using the corner point method, determine the maximum value of $Z$ and the point at which it is attained.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Applying the corner point method</b><br>For a bounded feasible region, the maximum value of a linear objective function can be obtained by evaluating it at the corner points of the feasible region.<br><b>Step 2: Evaluating at $(0,0)$ and $(8,0)$</b><br>$$Z(0,0)=0$$ $$Z(8,0)=3(8)+5(0)=24$$<br><b>Step 3: Evaluating at $(6,2)$</b><br>$$Z(6,2)=3(6)+5(2)=18+10=28$$<br><b>Step 4: Evaluating at $(0,5)$</b><br>$$Z(0,5)=3(0)+5(5)=25$$<br><b>Step 5: Comparing corner-point values</b><br>The values of $Z$ are $0,24,28,$ and $25$. Hence, the largest value is $28$. Therefore, the maximum value of $Z$ is $28$, attained at the corner point $(6,2)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximum value $25$ at $(0,5)$",
+    "B": "Maximum value $24$ at $(8,0)$",
+    "C": "Maximum value $28$ at $(6,2)$",
+    "D": "Maximum value $30$ at $(6,2)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

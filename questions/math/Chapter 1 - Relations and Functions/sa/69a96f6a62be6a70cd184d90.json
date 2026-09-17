@@ -1,0 +1,29 @@
+{
+  "id": "69a96f6a62be6a70cd184d90",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "SA",
+  "question": "Let $f(x) = \\sin^2x$, $g(x) = \\cos^2x$ for $x \\in [0, \\frac{\\pi}{2}]$. Prove that $f$ and $g$ are one-one, but $f+g$ is not one-one.",
+  "answeroption": "C",
+  "explanation": "On the interval $[0,\\frac{\\pi}{2}]$, $\\sin x$ is increasing, hence $\\sin^2x$ is also strictly increasing. Therefore $f(x)=\\sin^2x$ is one-one. <br /><br />Similarly $\\cos x$ decreases on $[0,\\frac{\\pi}{2}]$, so $\\cos^2x$ is strictly decreasing and thus one-one. <br /><br />But $f(x)+g(x)=\\sin^2x+\\cos^2x=1$ for all $x$. <br /><br />Since the sum is a constant function, different inputs give the same output. Hence $f+g$ is not one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ and $g$ are not one-one, but $f+g$ is one-one",
+    "B": "$f$, $g$, and $f+g$ are all one-one",
+    "C": "$f$ and $g$ are one-one, but $f+g$ is not one-one because $f+g=1$",
+    "D": "$f$ is one-one, but $g$ is not one-one"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:56:26 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

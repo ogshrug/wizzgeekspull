@@ -1,0 +1,29 @@
+{
+  "id": "6a21285e864be73cfcf6d0b1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "SA",
+  "question": "The probability of simultaneous occurrence of atleast one of the two events X and Y is a. If the probability that exactly one of the events X, Y occurs is b, prove that $P(X') + P(Y') = 2 - 2a + b$.",
+  "answeroption": "Proof",
+  "explanation": "**Step 1:** Translate the word problem into exact probabilistic equations. The probability of at least one event occurring is represented by the union: $P(X \\cup Y) = a$.<br /><br />**Step 2:** Express the probability of exactly one event occurring mathematically. This is written as $P(X) + P(Y) - 2P(X \\cap Y) = b$.<br /><br />**Step 3:** Use the fundamental addition theorem of probability, $P(X \\cup Y) = P(X) + P(Y) - P(X \\cap Y)$, and substitute $a$ to get $a = P(X) + P(Y) - P(X \\cap Y)$.<br /><br />**Step 4:** Rearrange the exactly one event equation to isolate the sum of individual probabilities: $P(X) + P(Y) = b + 2P(X \\cap Y)$. Substitute this back into the equation from Step 3 to find $P(X \\cap Y) = a - b$.<br /><br />**Step 5:** Expand the target expression $P(X') + P(Y')$ using complementary probability definitions. This translates to $(1 - P(X)) + (1 - P(Y)) = 2 - (P(X) + P(Y))$.<br /><br />**Step 6:** Substitute $P(X) + P(Y)$ with the equivalent expression $P(X \\cup Y) + P(X \\cap Y)$, which equals $a + (a - b) = 2a - b$. Thus, $2 - (2a - b)$ simplifies exactly to $2 - 2a + b$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

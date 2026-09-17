@@ -1,0 +1,27 @@
+{
+  "id": "6a266a7f864be73cfcf6d376",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{\\pi/2}\\sqrt{sin~x}cos^{5}x~dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Split the odd power trigonometric factor to set up for substitution: $\\int_{0}^{\\pi/2} \\sqrt{\\sin x} \\cos^4 x \\cdot \\cos x \\, dx$. Rewrite the even term using the fundamental identity $\\cos^2 x = 1 - \\sin^2 x$: $\\int_{0}^{\\pi/2} \\sqrt{\\sin x} (1 - \\sin^2 x)^2 \\cos x \\, dx$.<br />**Step 2:** Use substitution. Let $t = \\sin x$, which means $dt = \\cos x \\, dx$. Next, adjust the integration limits: when $x = 0$, $t = \\sin 0 = 0$; when $x = \\frac{\\pi}{2}$, $t = \\sin(\\frac{\\pi}{2}) = 1$. The integral transforms into: $\\int_{0}^{1} \\sqrt{t} (1 - t^2)^2 dt = \\int_{0}^{1} t^{1/2} (1 - 2t^2 + t^4) dt$.<br />**Step 3:** Distribute the fractional power term through the expression before integrating: $\\int_{0}^{1} (t^{1/2} - 2t^{5/2} + t^{9/2}) dt$. Integrate term-by-term using the standard power rule: $[\\frac{2}{3}t^{3/2} - 2(\\frac{2}{7})t^{7/2} + \\frac{2}{11}t^{11/2}]_{0}^{1} = [\\frac{2}{3}t^{3/2} - \\frac{4}{7}t^{7/2} + \\frac{2}{11}t^{11/2}]_{0}^{1}$.<br />**Step 4:** Substitute the upper limit 1 and lower limit 0 to evaluate the final value: $\\left(\\frac{2}{3} - \\frac{4}{7} + \\frac{2}{11}\\right) - 0 = \\frac{154 - 132 + 42}{231} = \\frac{64}{231}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

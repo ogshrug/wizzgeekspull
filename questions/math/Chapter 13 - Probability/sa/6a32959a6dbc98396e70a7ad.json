@@ -1,0 +1,26 @@
+{
+  "id": "6a32959a6dbc98396e70a7ad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "The probability distribution of a random variable X is given by :<br />$$\\begin{array}{|c|c|c|c|c|} \\hline X & 0 & 1 & 2 & 3 \\\\ \\hline P(X) & p & \\frac{p}{3} & \\frac{p}{6} & \\frac{p}{12} \\\\ \\hline \\end{array}$$<br />(i) Determine the value of p. (ii) Calculate $P(X\\ge1)$. (iii) Calculate expectation of X, i.e. E(X).",
+  "answeroption": "",
+  "explanation": "**Step 1:** According to probability distribution axioms, the sum of all individual structural probabilities must equal exactly 1. We set up the sum equation: $p + \\frac{p}{3} + \\frac{p}{6} + \\frac{p}{12} = 1$. Multiplying by 12 gives $12p + 4p + 2p + p = 12 \\implies 19p = 12 \\implies p = \\frac{12}{19}$.<br />**Step 2:** For part (ii), use the complement rule to calculate the probability: $P(X \\ge 1) = 1 - P(X = 0) = 1 - p = 1 - \\frac{12}{19} = \\frac{7}{19}$.<br />**Step 3:** For part (iii), use the mean expectation formula $E(X) = \\sum x_i P(X=x_i) = 0(p) + 1(\\frac{p}{3}) + 2(\\frac{p}{6}) + 3(\\frac{p}{12}) = \\frac{p}{3} + \\frac{p}{3} + \\frac{p}{4} = \\frac{11p}{12}$. Substituting $p = \\frac{12}{19}$ yields $E(X) = \\frac{11}{19}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

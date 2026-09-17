@@ -1,0 +1,28 @@
+{
+  "id": "6a215fbe864be73cfcf6d139",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "SA",
+  "question": "If $\\vec{a}, \\vec{b}$ and $\\vec{c}$ are unit vectors, then prove that $|\\vec{a}-\\vec{b}|^2+|\\vec{b}-\\vec{c}|^2+|\\vec{c}-\\vec{a}|^2 \\le 9$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Expand each term using $|\\vec{x}-\\vec{y}|^2 = |\\vec{x}|^2 + |\\vec{y}|^2 - 2\\vec{x}\\cdot\\vec{y}$.<br />**Step 2:** Expression becomes $2|\\vec{a}|^2 + 2|\\vec{b}|^2 + 2|\\vec{c}|^2 - 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a})$.<br />**Step 3:** Since they are unit vectors, $|\\vec{a}| = |\\vec{b}| = |\\vec{c}| = 1$. Expression = $6 - 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a})$.<br />**Step 4:** We know $|\\vec{a}+\\vec{b}+\\vec{c}|^2 \\ge 0 \\implies 3 + 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) \\ge 0 \\implies 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) \\ge -3$.<br />**Step 5:** Multiply by -1: $-2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) \\le 3$.<br />**Step 6:** Add 6 to both sides: $6 - 2(\\vec{a}\\cdot\\vec{b} + \\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{a}) \\le 9$. Hence proved.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

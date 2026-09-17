@@ -1,0 +1,30 @@
+{
+  "id": "69a9ccff62be6a70cd184e56",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55",
+    "69c65fc040512f018fa94d61"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{bmatrix}1 & 2 & 3\\\\0 & 1 & 4\\\\5 & 6 & 0\\end{bmatrix}$ and $B = \\begin{bmatrix}2 & 0 & 1\\\\3 & 0 & 0\\\\5 & 1 & 1\\end{bmatrix}$. (a) Calculate $C = AB - BA$. (b) Prove that $C$ is not a symmetric matrix. (c) Construct a symmetric matrix $D$ using $C$.",
+  "answeroption": "C",
+  "explanation": "(a) First calculate $AB$ and $BA$.<br /><br />$AB = \\begin{bmatrix}1 & 2 & 3\\\\0 & 1 & 4\\\\5 & 6 & 0\\end{bmatrix}\\begin{bmatrix}2 & 0 & 1\\\\3 & 0 & 0\\\\5 & 1 & 1\\end{bmatrix}$.<br /><br />$(AB)_{11} = 1\\times2 + 2\\times3 + 3\\times5 = 23$.<br /><br />$(AB)_{12} = 1\\times0 + 2\\times0 + 3\\times1 = 3$.<br /><br />$(AB)_{13} = 1\\times1 + 2\\times0 + 3\\times1 = 4$.<br /><br />$(AB)_{21} = 0\\times2 + 1\\times3 + 4\\times5 = 23$.<br /><br />$(AB)_{22} = 0\\times0 + 1\\times0 + 4\\times1 = 4$.<br /><br />$(AB)_{23} = 0\\times1 + 1\\times0 + 4\\times1 = 4$.<br /><br />$(AB)_{31} = 5\\times2 + 6\\times3 + 0\\times5 = 28$.<br /><br />$(AB)_{32} = 5\\times0 + 6\\times0 + 0\\times1 = 0$.<br /><br />$(AB)_{33} = 5\\times1 + 6\\times0 + 0\\times1 = 5$.<br /><br />Thus, $AB = \\begin{bmatrix}23 & 3 & 4\\\\23 & 4 & 4\\\\28 & 0 & 5\\end{bmatrix}$.<br /><br />Now calculate $BA$.<br /><br />$(BA)_{11} = 7$, $(BA)_{12} = 10$, $(BA)_{13} = 6$.<br /><br />$(BA)_{21} = 3$, $(BA)_{22} = 6$, $(BA)_{23} = 9$.<br /><br />$(BA)_{31} = 10$, $(BA)_{32} = 17$, $(BA)_{33} = 19$.<br /><br />So $BA = \\begin{bmatrix}7 & 10 & 6\\\\3 & 6 & 9\\\\10 & 17 & 19\\end{bmatrix}$.<br /><br />Now $C = AB - BA = \\begin{bmatrix}16 & -7 & -2\\\\20 & -2 & -5\\\\18 & -17 & -14\\end{bmatrix}$.<br /><br />(b) To check symmetry compute $C' = \\begin{bmatrix}16 & 20 & 18\\\\-7 & -2 & -17\\\\-2 & -5 & -14\\end{bmatrix}$.<br /><br />Since $C \\neq C'$, $C$ is not symmetric.<br /><br />(c) A symmetric matrix from $C$ is $D = \\frac{1}{2}(C + C')$.<br /><br />$C + C' = \\begin{bmatrix}32 & 13 & 16\\\\13 & -4 & -22\\\\16 & -22 & -28\\end{bmatrix}$.<br /><br />$D = \\frac{1}{2}\\begin{bmatrix}32 & 13 & 16\\\\13 & -4 & -22\\\\16 & -22 & -28\\end{bmatrix} = \\begin{bmatrix}16 & 6.5 & 8\\\\6.5 & -2 & -11\\\\8 & -11 & -14\\end{bmatrix}$.<br /><br />This matrix $D$ is symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $C=0$.<br />(b) $C$ is symmetric.<br />(c) $D=0$.",
+    "B": "(a) $C=\\begin{bmatrix}16&20&18\\\\-7&-2&-17\\\\-2&-5&-14\\end{bmatrix}$.<br />(b) $C$ is symmetric.<br />(c) $D=C$.",
+    "C": "(a) $C=AB-BA=\\begin{bmatrix}16&-7&-2\\\\20&-2&-5\\\\18&-17&-14\\end{bmatrix}$.<br />(b) Since $C\\ne C'$, $C$ is not symmetric.<br />(c) A symmetric matrix formed from $C$ is $D=\\frac12(C+C')=\\begin{bmatrix}16&\\frac{13}{2}&8\\\\\\frac{13}{2}&-2&-11\\\\8&-11&-14\\end{bmatrix}$.",
+    "D": "(a) $C=AB+BA$.<br />(b) $C$ is skew-symmetric because $C'=C$.<br />(c) A symmetric matrix cannot be constructed from $C$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:35:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

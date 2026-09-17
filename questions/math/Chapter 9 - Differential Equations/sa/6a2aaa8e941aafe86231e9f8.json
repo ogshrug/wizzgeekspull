@@ -1,0 +1,27 @@
+{
+  "id": "6a2aaa8e941aafe86231e9f8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $\\frac{dy}{dx}-3y~cot~x=sin~2x,$ given that $y=2$ when $x=\\frac{\\pi}{2}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** This is a first-order linear differential equation with $P(x) = -3\\cot x$ and $Q(x) = \\sin 2x$. Calculate the Integrating Factor: $IF = e^{\\int -3\\cot x dx} = e^{-3\\ln|\\sin x|} = \\frac{1}{\\sin^3 x}$.<br />**Step 2:** Write out the general solution format: $y \\cdot \\left(\\frac{1}{\\sin^3 x}\\right) = \\int \\sin 2x \\cdot \\frac{1}{\\sin^3 x} dx = \\int \\frac{2\\sin x \\cos x}{\\sin^3 x} dx = 2\\int \\cot x \\csc x dx = -2\\csc x + C$. Thus, $y = -2\\sin^2 x + C\\sin^3 x$.<br />**Step 3:** Substitute the given initial particular boundary conditions $y=2$ when $x=\\frac{\\pi}{2}$: $2 = -2(1)^2 + C(1)^3 \\implies C = 4$. The final exact solution paths track as $y = -2\\sin^2 x + 4\\sin^3 x$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

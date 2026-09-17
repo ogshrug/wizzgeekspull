@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd6bebe0ecc7866e90c67",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a5"
+  ],
+  "question_type": "SA",
+  "question": "The family of functions is given by $$y=e^{2x}(A+Bx),$$ where $A$ and $B$ are arbitrary constants. Form the differential equation representing this family by eliminating $A$ and $B$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Write the given family</b><br>$$y=e^{2x}(A+Bx).$$ Since two arbitrary constants occur, differentiate successively twice.<br><b>Step 2: First differentiation</b><br>Using the product rule, $$y'=e^{2x}(2A+2Bx+B).$$<br><b>Step 3: Second differentiation</b><br>Differentiating again, $$y''=e^{2x}(4A+4Bx+4B).$$<br><b>Step 4: Eliminate $A$ and $B$</b><br>Consider the combination $y''-4y'+4y$. Substituting the obtained expressions, $$y''-4y'+4y=e^{2x}\\left[(4A+4Bx+4B)-4(2A+2Bx+B)+4(A+Bx)\\right].$$ Simplifying the expression inside the brackets gives $0$.<br><b>Step 5: Required differential equation</b><br>Therefore, after eliminating both arbitrary constants, the required differential equation is $$\\boxed{\\frac{d^2y}{dx^2}-4\\frac{dy}{dx}+4y=0}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}-4\\frac{dy}{dx}+4y=0$",
+    "B": "$\\frac{d^2y}{dx^2}+4\\frac{dy}{dx}+4y=0$",
+    "C": "$\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+4y=0$",
+    "D": "$\\frac{d^2y}{dx^2}-4y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

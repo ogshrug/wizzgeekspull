@@ -1,0 +1,29 @@
+{
+  "id": "69a9337bd30adc5083911a1b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate the determinant $\\begin{vmatrix} \\cos^2\\theta & \\cos\\theta & 1 \\\\ \\sin^2\\theta & \\sin\\theta & 1 \\\\ 1 & 1 & 1 \\end{vmatrix}$ and simplify your answer.",
+  "answeroption": "C",
+  "explanation": "Let $D = \\begin{vmatrix} \\cos^2\\theta & \\cos\\theta & 1 \\\\ \\sin^2\\theta & \\sin\\theta & 1 \\\\ 1 & 1 & 1 \\end{vmatrix}$.<br /><br />Expand along the first row.<br /><br />$D = \\cos^2\\theta \\begin{vmatrix} \\sin\\theta & 1 \\\\ 1 & 1 \\end{vmatrix} - \\cos\\theta \\begin{vmatrix} \\sin^2\\theta & 1 \\\\ 1 & 1 \\end{vmatrix} + 1 \\begin{vmatrix} \\sin^2\\theta & \\sin\\theta \\\\ 1 & 1 \\end{vmatrix}$.<br /><br />Compute minors.<br /><br />$\\begin{vmatrix} \\sin\\theta & 1 \\\\ 1 & 1 \\end{vmatrix} = \\sin\\theta - 1$.<br /><br />$\\begin{vmatrix} \\sin^2\\theta & 1 \\\\ 1 & 1 \\end{vmatrix} = \\sin^2\\theta - 1$.<br /><br />$\\begin{vmatrix} \\sin^2\\theta & \\sin\\theta \\\\ 1 & 1 \\end{vmatrix} = \\sin^2\\theta - \\sin\\theta$.<br /><br />Substitute back.<br /><br />$D = \\cos^2\\theta(\\sin\\theta -1) - \\cos\\theta(\\sin^2\\theta -1) + (\\sin^2\\theta - \\sin\\theta)$.<br /><br />Expand terms.<br /><br />$= \\cos^2\\theta \\sin\\theta - \\cos^2\\theta - \\cos\\theta \\sin^2\\theta + \\cos\\theta + \\sin^2\\theta - \\sin\\theta$.<br /><br />Group similar terms and simplify.<br /><br />$= (\\cos^2\\theta \\sin\\theta - \\cos\\theta \\sin^2\\theta) + (-\\cos^2\\theta + \\cos\\theta) + (\\sin^2\\theta - \\sin\\theta)$.<br /><br />Recognize common factors.<br /><br />$\\cos^2\\theta \\sin\\theta - \\cos\\theta \\sin^2\\theta = \\cos\\theta \\sin\\theta(\\cos\\theta - \\sin\\theta)$.<br /><br />After simplification the determinant becomes:<br /><br />$(\\cos\\theta - \\sin\\theta)(1 + \\cos\\theta \\sin\\theta) - \\cos2\\theta$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(\\sin\\theta-\\cos\\theta)(1-\\cos\\theta)(1-\\sin\\theta)$",
+    "B": "$(\\cos\\theta+\\sin\\theta)(1-\\cos\\theta)(1-\\sin\\theta)$",
+    "C": "$(\\cos\\theta-\\sin\\theta)(1-\\cos\\theta)(1-\\sin\\theta)$",
+    "D": "$(\\cos\\theta-\\sin\\theta)(1+\\cos\\theta)(1+\\sin\\theta)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:40:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

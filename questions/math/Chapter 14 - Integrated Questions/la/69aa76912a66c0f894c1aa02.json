@@ -1,0 +1,30 @@
+{
+  "id": "69aa76912a66c0f894c1aa02",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "LA",
+  "question": "Let $A$ and $B$ be two independent events. Given $P(A) = 0.4$ and $P(B) = 0.6$.\n\n(a) Find $P(A \\cup B)$, $P(A \\cap B)$, $P(A^c \\cap B)$, $P(A | B)$.\n\n(b) For three independent events $A$, $B$, $C$ with $P(C) = 0.7$, find $P(A \\cup B \\cup C)$.\n\n(c) Evaluate if $A$ and $B^c$ are independent.\n\n(d) If $A$ and $B$ are mutually exclusive, is independence preserved? Justify.",
+  "answeroption": "D",
+  "explanation": "**Concepts tested:** Probability of independent events, Union and intersection, Complementary independence, Three-event probability, Analysis for mutually exclusive case.<br /><br />(a) $P(A)=0.4$, $P(B)=0.6$, independent, $P(A\\cap B)=P(A)P(B)=0.24$<br /><br />$P(A\\cup B) = P(A) + P(B) - P(A\\cap B) = 0.4 + 0.6 - 0.24 = 0.76$<br /><br />$P(A^c\\cap B) = P(B) - P(A\\cap B) = 0.6 - 0.24 = 0.36$<br /><br />$P(A|B) = \\frac{P(A\\cap B)}{P(B)} = \\frac{0.24}{0.6} = 0.4$ (consistent with independence)<br /><br />(b) For events $A,B,C$ independent, $P(A\\cup B\\cup C)=1 - P(A^c)P(B^c)P(C^c)$<br />$P(A^c)=0.6$, $P(B^c)=0.4$, $P(C^c)=0.3$<br />$\\implies 1- 0.6 \\times 0.4 \\times 0.3=1-0.072=0.928$<br /><br />(c) $P(B^c)=0.4$. Are $A$ and $B^c$ independent?<br />$P(A \\cap B^c) = P(A) - P(A \\cap B) = 0.4-0.24=0.16$<br />$P(A)P(B^c)=0.4\\times0.4=0.16$<br />Thus, $A$ and $B^c$ are independent.<br /><br />(d) If $A$ and $B$ are mutually exclusive, $P(A \\cap B)=0$. But for independent events, $P(A \\cap B) = P(A)P(B)$, so only possible if $P(A)=0$ or $P(B)=0$. Thus, exclusivity and independence together only if one event is impossible.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(A\\cup B)=1$, $P(A\\cap B)=0.24$, $P(A^c\\cap B)=0.36$, $P(A|B)=0.6$<br />(b) $P(A\\cup B\\cup C)=0.7$<br />(c) $A$ and $B^c$ are not independent<br />(d) Mutually exclusive events are always independent",
+    "B": "(a) $P(A\\cup B)=0.76$, $P(A\\cap B)=0.16$, $P(A^c\\cap B)=0.44$, $P(A|B)=0.4$<br />(b) $P(A\\cup B\\cup C)=0.872$<br />(c) $A$ and $B^c$ are independent<br />(d) Mutually exclusive events are independent if both have positive probability",
+    "C": "(a) $P(A\\cup B)=0.84$, $P(A\\cap B)=0.24$, $P(A^c\\cap B)=0.24$, $P(A|B)=0.5$<br />(b) $P(A\\cup B\\cup C)=0.928$<br />(c) $A$ and $B^c$ are not independent<br />(d) Independence is always preserved",
+    "D": "(a) $P(A\\cup B)=0.76$, $P(A\\cap B)=0.24$, $P(A^c\\cap B)=0.36$, $P(A|B)=0.4$<br />(b) $P(A\\cup B\\cup C)=0.928$<br />(c) $A$ and $B^c$ are independent<br />(d) If $A$ and $B$ are mutually exclusive, independence is preserved only if $P(A)=0$ or $P(B)=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:39:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

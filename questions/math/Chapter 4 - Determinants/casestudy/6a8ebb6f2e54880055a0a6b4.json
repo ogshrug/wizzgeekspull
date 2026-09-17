@@ -1,0 +1,31 @@
+{
+  "id": "6a8ebb6f2e54880055a0a6b4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A data-analysis class arranges three sets of observations as the columns of $A=\\begin{bmatrix}1 & 2 & 3\\\\2 & 5 & 8\\\\3 & 7 & 11\\end{bmatrix}$. The students notice that one column may be expressible using the other two. To test the effect of a small data correction, they form $B$ by changing only the entry $11$ in $A$ to $12$. They then compare the determinants to decide whether the original and corrected column sets are dependent.<br><br><b>(a)</b> Establish the relation among the columns of $A$.<br><br><b>(b)</b> Use this relation to determine $|A|$.<br><br><b>(c)</b> Evaluate $|B|$ after the correction.<br><br><b>(d)</b> Interpret what the determinant values indicate about the column sets of $A$ and $B$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The columns of $A$ are<br>$$C_1=\\begin{bmatrix}1\\\\2\\\\3\\end{bmatrix},\\quad C_2=\\begin{bmatrix}2\\\\5\\\\7\\end{bmatrix},\\quad C_3=\\begin{bmatrix}3\\\\8\\\\11\\end{bmatrix}$$<br>Now,<br>$$2C_2-C_1=2\\begin{bmatrix}2\\\\5\\\\7\\end{bmatrix}-\\begin{bmatrix}1\\\\2\\\\3\\end{bmatrix}=\\begin{bmatrix}3\\\\8\\\\11\\end{bmatrix}=C_3$$<br>Therefore,<br>$$C_3=2C_2-C_1$$<br><br><b>(b)</b><br>Since one column is a linear combination of the other two columns, the columns are dependent. Therefore,<br>$$|A|=0$$<br><br><b>(c)</b><br>The corrected matrix is<br>$$B=\\begin{bmatrix}1 & 2 & 3\\\\2 & 5 & 8\\\\3 & 7 & 12\\end{bmatrix}$$<br>Expanding along the first row,<br>$$|B|=1\\begin{vmatrix}5 & 8\\\\7 & 12\\end{vmatrix}-2\\begin{vmatrix}2 & 8\\\\3 & 12\\end{vmatrix}+3\\begin{vmatrix}2 & 5\\\\3 & 7\\end{vmatrix}$$<br>$$|B|=(60-56)-2(24-24)+3(14-15)$$<br>$$|B|=4-0-3=1$$<br><br><b>(d)</b><br>For $A$, the determinant is zero, so its columns are dependent and $A$ is singular. For $B$,<br>$$|B|=1\\neq0$$<br>Therefore, the corrected columns are independent and $B$ is non-singular. Changing one entry has removed the dependence among the columns.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $C_3=C_1+C_2$<br>(b) $|A|=0$<br>(c) $|B|=1$<br>(d) Both column sets are dependent",
+    "B": "(a) $C_3=2C_2+C_1$<br>(b) $|A|=0$<br>(c) $|B|=-1$<br>(d) $A$ is singular and $B$ is non-singular",
+    "C": "(a) $C_3=2C_2-C_1$<br>(b) $|A|=1$<br>(c) $|B|=0$<br>(d) $A$ is non-singular and $B$ is singular",
+    "D": "(a) $C_3=2C_2-C_1$<br>(b) $|A|=0$<br>(c) $|B|=1$<br>(d) The columns of $A$ are dependent and $A$ is singular, while the columns of $B$ are independent and $B$ is non-singular"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

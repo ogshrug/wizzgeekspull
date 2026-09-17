@@ -1,0 +1,29 @@
+{
+  "id": "69a952c5589ce36f368b47ce",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "SA",
+  "question": "Find the shortest distance between the lines $\\frac{x-2}{1}=\\frac{y-3}{-1}=\\frac{z+1}{2}$ and $\\frac{x+1}{2}=\\frac{y}{1}=\\frac{z-4}{3}$.",
+  "answeroption": "A",
+  "explanation": "Write the lines in vector form.<br /><br />$L_1 : (2,3,-1) + \\lambda(1,-1,2)$<br /><br />$L_2 : (-1,0,4) + \\mu(2,1,3)$.<br /><br />Direction vectors:<br /><br />$\\vec b_1=(1,-1,2)$ and $\\vec b_2=(2,1,3)$.<br /><br />$\\vec a_2-\\vec a_1=(-3,-3,5)$.<br /><br />Compute cross product:<br /><br />$\\vec b_1 \\times \\vec b_2 = (-5,1,3)$.<br /><br />Magnitude $|\\vec b_1 \\times \\vec b_2| = \\sqrt{35}$.<br /><br />Dot product:<br /><br />$|(\\vec b_1 \\times \\vec b_2)\\cdot(\\vec a_2-\\vec a_1)| = 27$.<br /><br />Shortest distance:<br /><br />$d = \\frac{27}{\\sqrt{35}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{27}{\\sqrt{35}}$",
+    "B": "$\\frac{\\sqrt{35}}{27}$",
+    "C": "$27\\sqrt{35}$",
+    "D": "$\\frac{27}{35}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:54:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

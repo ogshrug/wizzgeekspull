@@ -1,0 +1,29 @@
+{
+  "id": "6a8fda21be0ecc7866e90c70",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af"
+  ],
+  "question_type": "SA",
+  "question": "Find the family of curves for which the slope of the tangent at any point $(x,y)$ is equal to the sum of the $x$-coordinate and the product of the coordinates of that point.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Form the differential equation</b><br>The slope condition gives $$\\frac{dy}{dx}=x+xy.$$ Rearranging, $$\\frac{dy}{dx}-xy=x,$$ which is a first-order linear differential equation.<br><b>Step 2: Find the integrating factor</b><br>Here $P(x)=-x$. Therefore, $$\\text{I.F.}=e^{\\int -x\\,dx}=e^{-x^2/2}.$$<br><b>Step 3: Multiply by the integrating factor</b><br>$$e^{-x^2/2}\\frac{dy}{dx}-xye^{-x^2/2}=xe^{-x^2/2}.$$ Hence, $$\\frac{d}{dx}\\left(ye^{-x^2/2}\\right)=xe^{-x^2/2}.$$<br><b>Step 4: Integrate</b><br>$$ye^{-x^2/2}=\\int xe^{-x^2/2}\\,dx+C=-e^{-x^2/2}+C.$$<br><b>Step 5: Obtain the family</b><br>Multiplying by $e^{x^2/2}$ gives $$\\boxed{y=Ce^{x^2/2}-1}.$$ This represents the required family of curves.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=Ce^{-x^2/2}-1$",
+    "B": "$y=Ce^{x^2/2}-1$",
+    "C": "$y=Ce^{x^2/2}+1$",
+    "D": "$y=Ce^{-x^2/2}+1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

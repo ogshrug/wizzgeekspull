@@ -1,0 +1,30 @@
+{
+  "id": "6a8ec559be0ecc7866e90bbe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7e"
+  ],
+  "question_type": "LA",
+  "question": "If $$y=\\tan^{-1}\\left(\\frac{1-x}{1+x}\\right),\\quad x>-1,$$ determine $\\frac{dy}{dx}$ directly by differentiation and simplify the resulting expression to a form involving only $x$.",
+  "answeroption": "A",
+  "explanation": "<b>Applying the Formula</b><br>For $y=\\tan^{-1}u$, $$\\frac{dy}{dx}=\\frac{1}{1+u^2}\\frac{du}{dx}.$$ Here, $$u=\\frac{1-x}{1+x}.$$ By the quotient rule, $$\\frac{du}{dx}=\\frac{(-1)(1+x)-(1-x)(1)}{(1+x)^2}.$$ Simplifying the numerator, $$\\frac{du}{dx}=\\frac{-1-x-1+x}{(1+x)^2}=-\\frac{2}{(1+x)^2}.$$<br><br><b>Simplification</b><br>Also, $$1+u^2=1+\\left(\\frac{1-x}{1+x}\\right)^2.$$ Taking the common denominator, $$1+u^2=\\frac{(1+x)^2+(1-x)^2}{(1+x)^2}.$$ Now, $$(1+x)^2+(1-x)^2=1+2x+x^2+1-2x+x^2=2(1+x^2).$$ Therefore, $$1+u^2=\\frac{2(1+x^2)}{(1+x)^2}.$$ Hence, $$\\frac{dy}{dx}=\\frac{(1+x)^2}{2(1+x^2)}\\left(-\\frac{2}{(1+x)^2}\\right).$$ Cancelling the common factors, $$\\frac{dy}{dx}=-\\frac{1}{1+x^2}.$$<br><br><b>Final Result</b><br>Therefore, $$\\boxed{\\frac{dy}{dx}=-\\frac{1}{1+x^2}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{1}{1+x^2}$",
+    "B": "$\\frac{1}{1+x^2}$",
+    "C": "$-\\frac{2}{1+x^2}$",
+    "D": "$-\\frac{1}{(1+x)^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

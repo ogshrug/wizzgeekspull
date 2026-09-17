@@ -1,0 +1,29 @@
+{
+  "id": "69a9735962be6a70cd184dac",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "**Case Study:**<br /><br />Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a polynomial function of degree $n$. Consider the relation $R$ on $\\mathbb{R}$ defined as $(a,b) \\in R$ iff $f(a) = f(b)$.<br /><br />1. Prove that $R$ is always an equivalence relation.<br /><br />2. For even $n$, describe the minimum and maximum possible number of equivalence classes.<br /><br />3. For odd $n$, what can you say about the number of equivalence classes?",
+  "answeroption": "A",
+  "explanation": "1. By general argument:<br /><br />Reflexive: $f(a) = f(a) \\implies (a,a)\\in R$<br /><br />Symmetric: $f(a) = f(b) \\implies f(b) = f(a) \\implies (b,a) \\in R$<br /><br />Transitive: $f(a) = f(b)$ and $f(b) = f(c) \\implies f(a) = f(c) \\implies (a,c) \\in R$<br /><br />Thus, $R$ is always an equivalence relation.<br /><br />2. For even $n$, the minimum possible number of equivalence classes is $1$ (if $f$ is constant). The maximum is infinite (for example, if $f$ is one-one, equivalence class for each real number).<br /><br />3. For odd $n$, since odd degree polynomials are one-one and onto (if their leading coefficient is nonzero), $f(a)=y$ has exactly one solution for every $y \\in \\mathbb{R}$, so each equivalence class is a singleton—there are uncountably many equivalence classes.",
+  "explanation_image": [],
+  "options": {
+    "A": "1. $R$ is always an equivalence relation because $f(a)=f(b)$ satisfies reflexivity, symmetry and transitivity.<br />2. For even $n$, the minimum possible number of equivalence classes is $1$ and the maximum is infinite.<br />3. For odd $n$, each equivalence class is a singleton, so there are uncountably many equivalence classes.",
+    "B": "1. $R$ is never an equivalence relation.<br />2. For even $n$, there are exactly $n$ equivalence classes.<br />3. For odd $n$, there is only one equivalence class.",
+    "C": "1. $R$ is reflexive but not symmetric.<br />2. For even $n$, the maximum number of classes is $1$.<br />3. For odd $n$, no equivalence classes exist.",
+    "D": "1. $R$ is symmetric but not transitive.<br />2. For even $n$, there are exactly two equivalence classes.<br />3. For odd $n$, the number of equivalence classes is finite."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:13:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

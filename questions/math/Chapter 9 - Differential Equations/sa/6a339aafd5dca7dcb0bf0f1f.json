@@ -1,0 +1,27 @@
+{
+  "id": "6a339aafd5dca7dcb0bf0f1f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following differential equation: $(\\tan^{-1}y-x)dy=(1+y^{2})dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rearrange the equation into standard linear form $\\frac{dx}{dy} + Px = Q$: $\\frac{dx}{dy} + \\frac{1}{1+y^2}x = \\frac{\\tan^{-1}y}{1+y^2}$.\n\n**Step 2:** Find the integrating factor (IF): $I.F. = e^{\\int \\frac{1}{1+y^2} dy} = e^{\\tan^{-1}y}$.\n\n**Step 3:** Multiply both sides by the IF and set up the integral: $x \\cdot e^{\\tan^{-1}y} = \\int \\frac{\\tan^{-1}y}{1+y^2} e^{\\tan^{-1}y} dy$.\n\n**Step 4:** Use substitution $t = \\tan^{-1}y$, $dt = \\frac{1}{1+y^2}dy$ for the right side integral: $\\int t e^t dt$.\n\n**Step 5:** Integrate by parts: $te^t - e^t + C$. Substitute back to obtain the final solution: $x e^{\\tan^{-1}y} = (\\tan^{-1}y - 1)e^{\\tan^{-1}y} + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

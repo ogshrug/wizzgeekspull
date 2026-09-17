@@ -1,0 +1,29 @@
+{
+  "id": "69aa6731589ce36f368b48d6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Architecture – Designing an Elevator Shaft<br /><br />Elevator shaft base $A(2,3,0)$ and top $B(2,3,40)$. A support rod connects $C(7,8,0)$ to a point $D$ on shaft such that $CD\\perp AB$.<br /><br />(1) Find direction ratios of shaft.<br /><br />(2) Write vector and Cartesian equations of shaft.<br /><br />(3) Find direction ratios of $CD$.<br /><br />(4) State perpendicularity condition.<br /><br />(5) Find coordinates of $D$.<br /><br />(6) Write vector equation of rod $CD$.",
+  "answeroption": "A",
+  "explanation": "(1) Direction ratios of $AB=(0,0,40)\\Rightarrow(0,0,1)$.<br /><br />(2) Vector: $\\vec r=(2,3,0)+\\lambda(0,0,40)$. Cartesian: $x=2$, $y=3$.<br /><br />(3) If $D=(2,3,40\\mu)$ then $CD=(-5,-5,40\\mu)$.<br /><br />(4) Perpendicular condition: dot product with $(0,0,1)$ equals zero.<br /><br />(5) $40\\mu=0\\Rightarrow\\mu=0$, so $D=(2,3,0)$.<br /><br />(6) Rod: $\\vec r=(7,8,0)+\\lambda(-5,-5,0)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(1) Direction ratios of shaft: $(0,0,1)$<br />(2) Vector equation: $\\vec r=(2,3,0)+\\lambda(0,0,40)$; Cartesian equations: $x=2$, $y=3$<br />(3) Direction ratios of $CD$: $(-5,-5,0)$<br />(4) Perpendicularity condition: dot product with $(0,0,1)$ is zero<br />(5) $D=(2,3,0)$<br />(6) Rod equation: $\\vec r=(7,8,0)+\\lambda(-5,-5,0)$",
+    "B": "(1) Direction ratios of shaft: $(2,3,40)$<br />(2) Vector equation: $\\vec r=(2,3,0)+\\lambda(2,3,40)$; Cartesian equations: $\\frac{x-2}{2}=\\frac{y-3}{3}=\\frac{z}{40}$<br />(3) Direction ratios of $CD$: $(-5,-5,40)$<br />(4) Perpendicularity condition: directions are proportional<br />(5) $D=(2,3,40)$<br />(6) Rod equation: $\\vec r=(7,8,0)+\\lambda(-5,-5,40)$",
+    "C": "(1) Direction ratios of shaft: $(0,0,40)$<br />(2) Vector equation: $\\vec r=(7,8,0)+\\lambda(0,0,40)$; Cartesian equations: $x=7$, $y=8$<br />(3) Direction ratios of $CD$: $(5,5,0)$<br />(4) Perpendicularity condition: dot product with $(5,5,0)$ is zero<br />(5) $D=(7,8,0)$<br />(6) Rod equation: $\\vec r=(2,3,0)+\\lambda(5,5,0)$",
+    "D": "(1) Direction ratios of shaft: $(1,1,1)$<br />(2) Vector equation: $\\vec r=(2,3,0)+\\lambda(1,1,1)$; Cartesian equations: $x-2=y-3=z$<br />(3) Direction ratios of $CD$: $(-5,-5,5)$<br />(4) Perpendicularity condition: cross product is zero<br />(5) $D=(2,3,5)$<br />(6) Rod equation: $\\vec r=(7,8,0)+\\lambda(-5,-5,5)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:33:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a906d7c4b490c7cde3595ac",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "SA",
+  "question": "Find a unit vector in the direction of $(\\hat{i}+\\hat{j})\\times(\\hat{i}+\\hat{k})$. Verify that the obtained vector is perpendicular to both given vectors.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Evaluation of the vector product</b><br>Let $\\vec{a}=\\hat{i}+\\hat{j}$ and $\\vec{b}=\\hat{i}+\\hat{k}$. Then<br>\\(\\vec{a}\\times\\vec{b}=\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&1&0\\\\1&0&1\\end{vmatrix}=\\hat{i}-\\hat{j}-\\hat{k}\\)<br><b>Step 2: Magnitude of the cross product</b><br>\\(|\\vec{a}\\times\\vec{b}|=\\sqrt{1^2+(-1)^2+(-1)^2}=\\sqrt{3}\\)<br><b>Step 3: Required unit vector</b><br>\\(\\hat{n}=\\frac{1}{\\sqrt{3}}(\\hat{i}-\\hat{j}-\\hat{k})\\)<br><b>Step 4: Perpendicularity verification</b><br>\\(\\hat{n}\\cdot\\vec{a}=\\frac{1-1}{\\sqrt{3}}=0,\\qquad\\hat{n}\\cdot\\vec{b}=\\frac{1-1}{\\sqrt{3}}=0\\)<br><b>Final Answer</b><br>The required unit vector is $\\frac{1}{\\sqrt{3}}(\\hat{i}-\\hat{j}-\\hat{k})$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{\\sqrt{3}}(\\hat{i}-\\hat{j}-\\hat{k})$; its scalar product with both $\\hat{i}+\\hat{j}$ and $\\hat{i}+\\hat{k}$ is zero.",
+    "B": "$\\frac{1}{\\sqrt{3}}(\\hat{i}+\\hat{j}+\\hat{k})$; it is perpendicular to both given vectors.",
+    "C": "$\\frac{1}{3}(\\hat{i}-\\hat{j}-\\hat{k})$; it is a unit vector perpendicular to both.",
+    "D": "$\\frac{1}{\\sqrt{2}}(\\hat{i}-\\hat{j})$; it is perpendicular to both given vectors."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

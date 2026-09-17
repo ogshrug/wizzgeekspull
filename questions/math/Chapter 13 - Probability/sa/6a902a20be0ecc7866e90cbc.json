@@ -1,0 +1,29 @@
+{
+  "id": "6a902a20be0ecc7866e90cbc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "SA",
+  "question": "Two events $A$ and $B$ are independent with $P(A)=0.4$ and $P(B)=0.3$. Find the probability that exactly one of the events $A$ and $B$ occurs.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Probability of simultaneous occurrence</b><br>Since $A$ and $B$ are independent, $$P(A\\cap B)=P(A)P(B)=0.4\\times0.3=0.12.$$<br><b>Step 2: Probability that only $A$ occurs</b><br>The event that $A$ occurs but $B$ does not has probability $$P(A\\cap B')=P(A)-P(A\\cap B)=0.4-0.12=0.28.$$<br><b>Step 3: Probability that only $B$ occurs</b><br>Similarly, $$P(A'\\cap B)=P(B)-P(A\\cap B)=0.3-0.12=0.18.$$<br><b>Step 4: Probability that exactly one event occurs</b><br>The two cases are mutually exclusive. Hence, $$P(\\text{exactly one})=0.28+0.18=0.46.$$<br><b>Step 5: Conclusion</b><br>Therefore, the probability that exactly one of the two independent events occurs is $$\\boxed{0.46}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$0.42$",
+    "B": "$0.46$",
+    "C": "$0.58$",
+    "D": "$0.70$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

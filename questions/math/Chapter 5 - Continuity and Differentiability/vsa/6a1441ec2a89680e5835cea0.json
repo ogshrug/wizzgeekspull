@@ -1,0 +1,24 @@
+{
+  "id": "6a1441ec2a89680e5835cea0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "VSA",
+  "question": "Check the differentiability of $f(x)=|x-3|$ at $x=3$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Left Hand Derivative (LHD) at $x=3$: <br /> $\\text{LHD} = \\lim_{h \\to 0^-} \\frac{f(3+h) - f(3)}{h} = \\lim_{h \\to 0^-} \\frac{|3+h-3| - 0}{h} = \\lim_{h \\to 0^-} \\frac{|h|}{h}$. <br /> For $h < 0$, $|h| = -h$, so LHD $= \\lim_{h \\to 0^-} \\frac{-h}{h} = -1$. <br /><br /> **Step 2:** Right Hand Derivative (RHD) at $x=3$: <br /> $\\text{RHD} = \\lim_{h \\to 0^+} \\frac{f(3+h) - f(3)}{h} = \\lim_{h \\to 0^+} \\frac{|3+h-3| - 0}{h} = \\lim_{h \\to 0^+} \\frac{|h|}{h}$. <br /> For $h > 0$, $|h| = h$, so RHD $= \\lim_{h \\to 0^+} \\frac{h}{h} = 1$. <br /><br /> **Step 3:** Since LHD $= -1 \\neq 1 =$ RHD, the function is not differentiable at $x = 3$. <br /><br /> **Answer:** $f(x)$ is not differentiable at $x = 3$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

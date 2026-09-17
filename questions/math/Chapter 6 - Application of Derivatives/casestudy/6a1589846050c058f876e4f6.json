@@ -1,0 +1,27 @@
+{
+  "id": "6a1589846050c058f876e4f6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975",
+    "6a13e98f8c819562f933f97e"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A sandbag is dropped from a balloon at a height of 60 metres. When the angle of elevation of the sun is $30^{\\circ}$, the position of the sandbag is given by the equation $y=60-4.9~t^{2}$ where y is the height of the sandbag above the ground and t is the time in seconds.<br /><br />On the basis of the above information, answer the following questions :<br />(i) Find the relation between x and y, where x is the distance of the shadow at P from the point Q and y is the height of the sandbag above the ground.<br />(ii) After how much time will the sandbag be 35 metres above the ground?<br />(iii) (a) Find the rate at which the shadow of the sandbag is travelling along the ground when the sandbag is at a height of 35 metres.<br />OR<br />(iii) (b) How fast is the height of the sandbag decreasing when 2 seconds have elapsed?",
+  "answeroption": "",
+  "explanation": "**Step 1: Analyze geometry and solve Part (i)**<br />Based on the problem diagram, the height of the sandbag above the ground forms a vertical line segment $RQ = y$. The position of the shadow along the horizontal ground path is represented by the line segment $PQ = x$. The angle of elevation of the sun's rays striking the ground at point $P$ is given as $30^{\\circ}$. In right-angled triangle $\\triangle PQR$, we apply basic tangent trigonometry ratios:<br />$\\tan(30^{\\circ}) = \\frac{\\text{Opposite}}{\\text{Adjacent}} = \\frac{y}{x}$<br />Since $\\tan(30^{\\circ}) = \\frac{1}{\\sqrt{3}}$, we substitute this value into our equation:<br />$\\frac{1}{\\sqrt{3}} = \\frac{y}{x} \\implies x = y\\sqrt{3}$. This gives us the geometric relationship between $x$ and $y$.<br /><br />**Step 2: Solve Part (ii)**<br />To find the time when the sandbag reaches a height of 35 meters above the ground, we set $y = 35$ in the given position equation:<br />$35 = 60 - 4.9t^2$<br />$4.9t^2 = 60 - 35 = 25$<br />$t^2 = \\frac{25}{4.9} = \\frac{250}{49}$<br />Taking the positive square root to find time ($t > 0$):<br />$t = \\sqrt{\\frac{250}{49}} = \\frac{5\\sqrt{10}}{7}\\text{ seconds} \\approx 2.26\\text{ seconds}$.<br /><br />**Step 3: Solve Part (iii)(a)**<br />To find how fast the shadow is moving along the ground, we calculate the rate of change of $x$ with respect to time ($t$). Differentiating our geometric equation $x = y\\sqrt{3}$ from Part (i) gives:<br />$\\frac{dx}{dt} = \\sqrt{3} \\cdot \\frac{dy}{dt}$<br />Next, differentiate the given position equation $y = 60 - 4.9t^2$ to find the velocity of the falling bag:<br />$\\frac{dy}{dt} = 0 - 9.8t = -9.8t$<br />From Part (ii), we know that when the sandbag is at a height of 35 meters, the time elapsed is $t = \\frac{5\\sqrt{10}}{7}$ seconds. Substituting this value into our velocity equation:<br />$\\frac{dy}{dt} = -9.8 \\cdot \\left(\\frac{5\\sqrt{10}}{7}\\right) = -1.4 \\cdot 5\\sqrt{10} = -7\\sqrt{10}\\text{ m/s}$<br />Now substitute this vertical rate back into our shadow rate equation:<br />$\\frac{dx}{dt} = \\sqrt{3} \\cdot (-7\\sqrt{10}) = -7\\sqrt{30}\\text{ m/s}$<br />Therefore, the shadow is moving along the ground at a speed of **$7\\sqrt{30}\\text{ m/s}$**.<br /><br />**Step 4: Solve Part (iii)(b)**<br />The velocity equation that describes the vertical rate of change of the sandbag's height is given by:<br />$\\frac{dy}{dt} = -9.8t$<br />To find how fast the height is changing after 2 seconds have elapsed, we substitute $t = 2$ into this equation:<br />$\\frac{dy}{dt} = -9.8 \\cdot (2) = -19.6\\text{ m/s}$<br />The negative sign indicates that the distance from the ground is shrinking. Therefore, the height of the sandbag is decreasing at a rate of **19.6 m/s**.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a1589846050c058f876e4f6/1782260937-0.png?t=1782280737770"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

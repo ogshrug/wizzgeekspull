@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd6bdbe0ecc7866e90c5e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "SA",
+  "question": "For the second-order differential equation $\\frac{d^2y}{dx^2}-y=0$, consider the solution family $y=C_1e^x+C_2e^{-x}$, where $C_1$ and $C_2$ are arbitrary constants.<br>(i) Explain why this family can represent the general solution.<br>(ii) If $C_1$ is fixed as $2$ while $C_2$ remains arbitrary, examine whether the resulting expression can still represent the general solution. Justify your answer.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Identify the arbitrary constants</b><br>The given family $y=C_1e^x+C_2e^{-x}$ contains two independent arbitrary constants, namely $C_1$ and $C_2$.<br><b>Step 2: Apply the general-solution criterion</b><br>A general solution contains as many arbitrary constants as required by the differential equation. Since the given equation is of second order, the presence of two arbitrary constants is appropriate.<br><b>Step 3: Fix one constant</b><br>If $C_1=2$, the family becomes $$y=2e^x+C_2e^{-x}.$$ Only $C_2$ remains arbitrary.<br><b>Step 4: Examine the reduced family</b><br>This expression represents only a restricted part of the original two-parameter family because one arbitrary constant has already been assigned a particular value.<br><b>Step 5: Conclusion</b><br>Therefore, $y=C_1e^x+C_2e^{-x}$ is the general solution, whereas $y=2e^x+C_2e^{-x}$ is not the complete general solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) The family is not a general solution because it contains two constants.<br>(ii) Fixing $C_1=2$ gives the general solution.",
+    "B": "(i) The family is a general solution only when $C_1=C_2$.<br>(ii) Fixing $C_1=2$ does not change its general nature.",
+    "C": "(i) The family is a particular solution.<br>(ii) Fixing $C_1=2$ makes it a two-parameter general solution.",
+    "D": "(i) The family is a general solution because it contains two independent arbitrary constants.<br>(ii) Fixing $C_1=2$ leaves a restricted one-parameter family, so it is not the complete general solution."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

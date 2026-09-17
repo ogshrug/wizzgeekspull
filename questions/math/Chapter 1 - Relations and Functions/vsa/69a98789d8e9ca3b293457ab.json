@@ -1,0 +1,30 @@
+{
+  "id": "69a98789d8e9ca3b293457ab",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47",
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "VSA",
+  "question": "Given $A=\\{1,2,3\\}$, find all functions $f: A \\to A$ such that $f$ is its own inverse, i.e., $f(f(x))=x$ for all $x\\in A$ and $f\\neq id_A$.",
+  "answeroption": "A",
+  "explanation": "Such functions are involutive and not the identity.<br /><br />On $A=\\{1,2,3\\}$, the only possible non-identity involutive functions are those that swap two elements and fix the third:<br /><br />$f_1: 1\\leftrightarrow 2, 3\\to 3$<br /><br />$f_2: 1\\leftrightarrow 3, 2\\to 2$<br /><br />$f_3: 2\\leftrightarrow 3, 1\\to 1$<br /><br />Answer: 3 such functions exist.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f_1: 1\\leftrightarrow 2, 3\\to 3$; $f_2: 1\\leftrightarrow 3, 2\\to 2$; $f_3: 2\\leftrightarrow 3, 1\\to 1$",
+    "B": "Only $f_1: 1\\leftrightarrow 2, 3\\to 3$",
+    "C": "$f_1: 1\\to 2, 2\\to 3, 3\\to 1$ and $f_2: 1\\to 3, 3\\to 2, 2\\to 1$",
+    "D": "No such non-identity function exists"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:39:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a33da636dbc98396e70a7d5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "MCQ",
+  "question": "$f(x)=x^{x}$ has a critical point at:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Let $y = x^x$. Take the natural logarithm on both sides to simplify the variable base and exponent form: $\\ln y = x \\ln x$.<br />**Step 2:** Differentiate both sides with respect to $x$ implicitly using the product rule: $\\frac{1}{y} \\frac{dy}{dx} = x \\left(\\frac{1}{x}\\right) + \\ln x = 1 + \\ln x \\implies \\frac{dy}{dx} = x^x (1 + \\ln x)$.<br />**Step 3:** To find the critical points, set the first derivative to zero: $x^x (1 + \\ln x) = 0$. Since $x^x \\neq 0$ for all $x > 0$, we get $1 + \\ln x = 0 \\implies \\ln x = -1 \\implies x = e^{-1}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x = e$",
+    "B": "$x = e^{-1}$",
+    "C": "$x = 0$",
+    "D": "$x = 1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

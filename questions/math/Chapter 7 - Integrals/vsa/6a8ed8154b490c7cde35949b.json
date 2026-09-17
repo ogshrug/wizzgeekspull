@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed8154b490c7cde35949b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "VSA",
+  "question": "If $G(x)=\\int_1^{x^2}(1+t^2)\\,dt$, find $G'(1)$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> The upper limit of the definite integral is the function $x^2$, rather than simply $x$.<br><b>Step 2:</b> By the Fundamental Theorem of Calculus combined with differentiation of the upper limit, $$G'(x)=[1+(x^2)^2]\\frac{d}{dx}(x^2).$$<br><b>Step 3:</b> Therefore, $G'(x)=(1+x^4)(2x)$.<br><b>Step 4:</b> At $x=1$, $$G'(1)=(1+1^4)(2\\times1).$$<br><b>Step 5:</b> Thus, $G'(1)=2\\times2=\\boxed{4}$. The factor $2x$ is essential because the upper limit itself depends on $x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4$",
+    "B": "$2$",
+    "C": "$3$",
+    "D": "$8$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

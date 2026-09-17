@@ -1,0 +1,29 @@
+{
+  "id": "69a8697964fcf4cdd5b4baf8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "SA",
+  "question": "If $y = x^{\\sin x}$, for $x > 0$, find $\\frac{dy}{dx}$ using logarithmic differentiation.",
+  "answeroption": "A",
+  "explanation": "Take $\\log$ on both sides:<br /><br />$y = x^{\\sin x} \\implies \\log y = \\sin x \\cdot \\log x$<br /><br />Differentiate both sides w.r.t $x$:<br /><br />$\\frac{1}{y} \\frac{dy}{dx} = \\cos x \\log x + \\frac{\\sin x}{x}$<br /><br />Hence,<br /><br />$\\frac{dy}{dx} = x^{\\sin x} \\left( \\cos x \\log x + \\frac{\\sin x}{x} \\right )$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x^{\\sin x}\\left(\\cos x\\log x+\\frac{\\sin x}{x}\\right)$",
+    "B": "$x^{\\sin x}\\left(\\sin x\\log x+\\frac{\\cos x}{x}\\right)$",
+    "C": "$\\sin x\\,x^{\\sin x-1}$",
+    "D": "$x^{\\sin x}\\left(\\cos x+\\log x\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:18:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

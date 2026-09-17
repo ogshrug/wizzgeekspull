@@ -1,0 +1,31 @@
+{
+  "id": "6a91313abe0ecc7866e90cd8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e1",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "For a linear programming problem subject to $x+y\\le7$, $2x+y\\le10$, $x\\ge0$ and $y\\ge0$, the points $A(0,0)$, $B(5,0)$, $C(3,4)$, $D(0,7)$ and $E(4,4)$ are proposed as possible solutions. For $Z=4x+3y$, examine these points with respect to all the constraints and establish which proposed point is an optimal feasible solution for maximising $Z$.",
+  "answeroption": "A",
+  "explanation": "<b>Verification of Proposed Solutions</b><br>A point is feasible only when it satisfies every given constraint. For $A(0,0)$, $x+y=0\\le7$ and $2x+y=0\\le10$, so $A$ is feasible. For $B(5,0)$, $x+y=5\\le7$ and $2x+y=10\\le10$, so $B$ is feasible. For $C(3,4)$, $x+y=7\\le7$ and $2x+y=10\\le10$, so $C$ is feasible. For $D(0,7)$, $x+y=7\\le7$ and $2x+y=7\\le10$, so $D$ is feasible. For $E(4,4)$, $x+y=8>7$ and $2x+y=12>10$, so $E$ violates the constraints and is an infeasible solution.<br><br><b>Evaluation</b><br>At the feasible points, $Z(A)=0$, $Z(B)=4(5)+3(0)=20$, $Z(C)=4(3)+3(4)=24$ and $Z(D)=4(0)+3(7)=21$. Moreover, for every feasible solution, multiplying $x+y\\le7$ by 2 and adding $2x+y\\le10$ gives $$4x+3y\\le24.$$ Thus no feasible solution can give a value of $Z$ greater than 24. Since the feasible point $C(3,4)$ gives $Z=24$, it attains this upper bound.<br><br><b>Final Result</b><br>$A$, $B$, $C$ and $D$ are feasible solutions, $E$ is an infeasible solution, and $C(3,4)$ is the optimal feasible solution with maximum value $Z=24$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A,B,C,D$ are feasible and $E$ is infeasible; $C(3,4)$ is optimal with maximum $Z=24$",
+    "B": "$A,B,C,E$ are feasible and $D$ is infeasible; $E(4,4)$ is optimal with maximum $Z=28$",
+    "C": "$A,B,D$ are feasible while $C,E$ are infeasible; $D(0,7)$ is optimal with $Z=21$",
+    "D": "All five proposed points are feasible; $E(4,4)$ is optimal with maximum $Z=28$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

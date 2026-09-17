@@ -1,0 +1,28 @@
+{
+  "id": "6a22b39cfbdd87b6dea73c00",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "VSA",
+  "question": "Find a vector of magnitude 5 which is perpendicular to both the vectors $3\\hat{i}-2\\hat{j}+\\hat{k}$ and $4\\hat{i}+3\\hat{j}-2\\hat{k}$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To find a direction that is perpendicular to both given vectors, we compute their vector cross product using a matrix determinant: $\\vec{u} \\times \\vec{v} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & -2 & 1 \\\\ 4 & 3 & -2 \\end{vmatrix}$.<br /><br /><b>Step 2</b> Expand this determinant along its first row: $\\hat{i}(4 - 3) - \\hat{j}(-6 - 4) + \\hat{k}(9 + 8) = \\hat{i} + 10\\hat{j} + 17\\hat{k}$. Calculate its magnitude: $|\\vec{u} \\times \\vec{v}| = \\sqrt{1^2 + 10^2 + 17^2} = \\sqrt{390}$.<br /><br /><b>Step 3</b> Find the unit normal vector by dividing the cross product vector by its magnitude, and multiply by 5 to get the required vector: $\\vec{F} = \\frac{5}{\\sqrt{390}}(\\hat{i} + 10\\hat{j} + 17\\hat{k})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

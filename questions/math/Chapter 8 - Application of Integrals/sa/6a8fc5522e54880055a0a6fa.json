@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc5522e54880055a0a6fa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f993"
+  ],
+  "question_type": "SA",
+  "question": "The curve $x=y^2-4$ and the y-axis enclose a finite region. Find its area by integrating with respect to $y$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Determining the intersection values</b><br>The curve meets the y-axis when<br>\\(y^2-4=0\\)<br>Hence, $y=-2,2$.<br><b>Step 2: Identifying the horizontal boundaries</b><br>For $-2\\leq y\\leq2$, the curve lies to the left of the y-axis. The right boundary is $x=0$, and the left boundary is $x=y^2-4$.<br><b>Step 3: Forming the area integral</b><br>\\(A=\\int_{-2}^{2}\\left[0-(y^2-4)\\right]dy\\)<br><b>Step 4: Evaluating the integral</b><br>\\(A=\\int_{-2}^{2}(4-y^2)dy=2\\left[4y-\\frac{y^3}{3}\\right]_0^2=\\frac{32}{3}\\)<br><b>Final Answer</b><br>The enclosed area is $\\frac{32}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{32}{3}$ square units",
+    "B": "$\\frac{16}{3}$ square units",
+    "C": "$\\frac{64}{3}$ square units",
+    "D": "$8$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

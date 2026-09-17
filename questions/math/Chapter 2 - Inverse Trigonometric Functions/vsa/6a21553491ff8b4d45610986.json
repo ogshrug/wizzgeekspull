@@ -1,0 +1,28 @@
+{
+  "id": "6a21553491ff8b4d45610986",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate: $\\tan^{-1}\\left(-\\frac{1}{\\sqrt{3}}\\right)+\\cot^{-1}\\left(\\frac{1}{\\sqrt{3}}\\right)+\\tan^{-1}\\left(\\sin\\left(-\\frac{\\pi}{2}\\right)\\right)+\\tan^{-1}\\left(\\tan\\frac{2\\pi}{3}\\right)$",
+  "answeroption": "$-\\frac{5\\pi}{12}$",
+  "explanation": "<b>Step 1</b> Using principal values, $\\tan^{-1}\\left(-\\frac{1}{\\sqrt{3}}\\right)=-\\frac{\\pi}{6}$ and $\\cot^{-1}\\left(\\frac{1}{\\sqrt{3}}\\right)=\\frac{\\pi}{3}$.<br /><br /><b>Step 2</b> Since $\\sin\\left(-\\frac{\\pi}{2}\\right)=-1$, we get $\\tan^{-1}(-1)=-\\frac{\\pi}{4}$. Also, $\\tan\\left(\\frac{2\\pi}{3}\\right)=-\\sqrt{3}$, and therefore $\\tan^{-1}\\left(\\tan\\frac{2\\pi}{3}\\right)=\\tan^{-1}(-\\sqrt{3})=-\\frac{\\pi}{3}$ because the principal value of $\\tan^{-1}$ lies in $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$.<br /><br /><b>Step 3</b> Adding all terms, $-\\frac{\\pi}{6}+\\frac{\\pi}{3}-\\frac{\\pi}{4}-\\frac{\\pi}{3}=-\\frac\\pi6-\\frac\\pi4=\\frac{-2\\pi-3\\pi}{12}=-\\frac{5\\pi}{12}$. Hence the required value is $-\\frac{5\\pi}{12}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

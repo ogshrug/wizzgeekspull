@@ -1,0 +1,30 @@
+{
+  "id": "69aa63d7d30adc5083911b61",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\sin^{-1}(x)$ and $g(x) = x\\sqrt{1-x^2}$, $x \\in [0,1]$.\n\n(a) Show that $f$ is strictly increasing on $[0,1]$.\n\n(b) Calculate $g'(x)$.\n\n(c) Using part (b), find $\\dfrac{d}{dx} [f(x) + g(x)]$.\n\n(d) Find all $x \\in [0,1]$ where $f(x) + g(x)$ attains a stationary value and determine its nature.",
+  "answeroption": "D",
+  "explanation": "**Concepts tested:** Monotonicity, product rule, inverse trigonometric derivatives, stationary points.<br /><br />**Step 1: $f$ strictly increasing**<br />$\\frac{df}{dx} = \\frac{1}{\\sqrt{1-x^2}} > 0$ on $[0,1)$, so $f$ is strictly increasing.<br /><br />**Step 2: Calculate $g'(x)$**<br />$g(x) = x\\sqrt{1-x^2}$<br />$g'(x) = \\sqrt{1-x^2} + x \\left(-\\frac{x}{\\sqrt{1-x^2}}\\right) = \\sqrt{1-x^2} - \\frac{x^2}{\\sqrt{1-x^2}} = \\frac{1 - 2x^2}{\\sqrt{1-x^2}}$<br /><br />**Step 3: $\\frac{d}{dx} [f(x)+g(x)]$**<br /><br />$= \\frac{1}{\\sqrt{1-x^2}} + \\frac{1-2x^2}{\\sqrt{1-x^2}} = \\frac{2-2x^2}{\\sqrt{1-x^2}} = \\frac{2(1-x^2)}{\\sqrt{1-x^2}} = 2\\sqrt{1-x^2}$<br /><br />**Step 4: Stationary value**<br />Set derivative to 0:<br />$2\\sqrt{1-x^2} = 0 \\implies x=1$<br />So $f(x)+g(x)$ has a stationary value only at $x=1$ (endpoint), minimum at $x=0$ ($f(0)=0$, $g(0)=0$), maximum at $x=1$ ($f(1)=\\frac{\\pi}{2}, g(1)=0$).",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is strictly decreasing on $[0,1]$<br />(b) $g'(x)=\\sqrt{1-x^2}$<br />(c) $\\frac{d}{dx}[f(x)+g(x)]=\\frac{1}{\\sqrt{1-x^2}}$<br />(d) Stationary value occurs at $x=0$ and is maximum",
+    "B": "(a) $f$ is constant on $[0,1]$<br />(b) $g'(x)=\\frac{2x}{\\sqrt{1-x^2}}$<br />(c) $\\frac{d}{dx}[f(x)+g(x)]=0$<br />(d) Every $x$ is stationary",
+    "C": "(a) $f$ is strictly increasing on $[0,1]$<br />(b) $g'(x)=\\frac{1}{\\sqrt{1-x^2}}$<br />(c) $\\frac{d}{dx}[f(x)+g(x)]=\\frac{2}{\\sqrt{1-x^2}}$<br />(d) No stationary value exists",
+    "D": "(a) Since $f'(x)=\\frac{1}{\\sqrt{1-x^2}}>0$ on $[0,1)$, $f$ is strictly increasing<br />(b) $g'(x)=\\frac{1-2x^2}{\\sqrt{1-x^2}}$<br />(c) $\\frac{d}{dx}[f(x)+g(x)]=2\\sqrt{1-x^2}$<br />(d) The derivative is zero at $x=1$; the minimum value occurs at $x=0$ and the maximum value occurs at $x=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:19:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

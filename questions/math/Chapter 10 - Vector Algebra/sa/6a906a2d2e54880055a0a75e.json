@@ -1,0 +1,29 @@
+{
+  "id": "6a906a2d2e54880055a0a75e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8c1"
+  ],
+  "question_type": "SA",
+  "question": "Examine whether there exists a real value of $\\lambda$ for which $(\\lambda-1)\\hat{i}+(\\lambda^2-1)\\hat{j}+(\\lambda+1)\\hat{k}$ becomes a zero vector. Justify your answer.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Condition from the $\\hat{i}$-component</b><br>For the expression to be a zero vector, $\\lambda-1=0$, which requires $\\lambda=1$.<br><b>Step 2: Condition from the $\\hat{k}$-component</b><br>The third component requires $\\lambda+1=0$, which gives $\\lambda=-1$.<br><b>Step 3: Comparison of the requirements</b><br>A single real value cannot simultaneously satisfy $\\lambda=1$ and $\\lambda=-1$. Although the middle component $\\lambda^2-1$ vanishes for both $\\lambda=1$ and $\\lambda=-1$, the first and third components do not vanish together.<br><b>Step 4: Conclusion</b><br>Therefore, the three components cannot all become zero for the same value of $\\lambda$.<br><b>Final Answer</b><br>No real value of $\\lambda$ makes the expression a zero vector.",
+  "explanation_image": [],
+  "options": {
+    "A": "No real value of $\\lambda$ exists, because the $\\hat{i}$-component requires $\\lambda=1$ while the $\\hat{k}$-component requires $\\lambda=-1$.",
+    "B": "$\\lambda=1$, because $\\lambda^2-1=0$.",
+    "C": "$\\lambda=-1$, because $\\lambda^2-1=0$.",
+    "D": "$\\lambda=\\pm1$, and both values make all three components zero."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

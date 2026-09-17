@@ -1,0 +1,26 @@
+{
+  "id": "6a32654dd5dca7dcb0bf0ea7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate : $\\int_{-\\frac{\\pi}{4}}^{\\frac{\\pi}{4}}\\frac{cos~2x}{1+cos~2x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use the double angle identity $1 + \\cos(2x) = 2\\cos^2(x)$ and $\\cos(2x) = 2\\cos^2(x) - 1$ to rewrite the integrand: $\\int_{-\\pi/4}^{\\pi/4} \\frac{2\\cos^2(x) - 1}{2\\cos^2(x)} dx$.\n\n**Step 2:** Split the integrand into two parts: $\\int_{-\\pi/4}^{\\pi/4} (1 - \\frac{1}{2\\cos^2(x)}) dx = \\int_{-\\pi/4}^{\\pi/4} (1 - \\frac{1}{2}\\sec^2(x)) dx$.\n\n**Step 3:** Since the function is even, evaluate as $2 \\int_0^{\\pi/4} (1 - \\frac{1}{2}\\sec^2(x)) dx$.\n\n**Step 4:** Find the antiderivative: $2 [x - \\frac{1}{2}\\tan(x)]_0^{\\pi/4}$.\n\n**Step 5:** Substitute the limits: $2 ((\\frac{\\pi}{4} - \\frac{1}{2}(1)) - 0) = 2(\\frac{\\pi}{4} - \\frac{1}{2}) = \\frac{\\pi}{2} - 1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

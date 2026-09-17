@@ -1,0 +1,29 @@
+{
+  "id": "6a90044f4b490c7cde35954a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d0"
+  ],
+  "question_type": "SA",
+  "question": "Examine whether the lines $\\vec{r}=(\\hat{i}+\\hat{k})+\\lambda(\\hat{i}+2\\hat{j}+\\hat{k})$ and $\\vec{r}=(\\hat{j}+2\\hat{k})+\\mu(2\\hat{i}+\\hat{j}-\\hat{k})$ are skew. Justify your answer.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Direction vectors</b><br>The direction vectors of the two lines are $\\vec{b}_1=\\hat{i}+2\\hat{j}+\\hat{k}$ and $\\vec{b}_2=2\\hat{i}+\\hat{j}-\\hat{k}$. Their components $(1,2,1)$ and $(2,1,-1)$ are not proportional. Hence, the lines are not parallel.<br><b>Step 2: Coordinates of a possible common point</b><br>If the lines intersect, then for some $\\lambda$ and $\\mu$,<br>$$1+\\lambda=2\\mu,\\quad 2\\lambda=1+\\mu,\\quad 1+\\lambda=2-\\mu.$$<br><b>Step 3: Solving two coordinate relations</b><br>From the second equation, $\\mu=2\\lambda-1$. Substituting in the third gives<br>$$1+\\lambda=3-2\\lambda\\Rightarrow \\lambda=\\frac{2}{3},\\quad \\mu=\\frac{1}{3}.$$<br><b>Step 4: Verification with the remaining coordinate</b><br>The first equation would require $1+\\frac{2}{3}=2\\left(\\frac{1}{3}\\right)$, which is false.<br><b>Step 5: Conclusion</b><br>Thus, the lines neither intersect nor are parallel. Therefore, they are skew lines.",
+  "explanation_image": [],
+  "options": {
+    "A": "The lines are skew because their direction vectors are not proportional and the coordinate equations give no common point.",
+    "B": "The lines are parallel because their direction vectors have equal magnitudes.",
+    "C": "The lines intersect for $\\lambda=\\frac{2}{3}$ and $\\mu=\\frac{1}{3}$.",
+    "D": "The lines are coincident because each has three non-zero direction components."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

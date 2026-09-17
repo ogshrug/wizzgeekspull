@@ -1,0 +1,29 @@
+{
+  "id": "69a988976638848124d7c955",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = \\lfloor x \\rfloor + \\lfloor -x \\rfloor + 1$, where $\\lfloor \\cdot \\rfloor$ is the greatest integer function.<br /><br />(a) Prove $f$ is a constant function and find its value.<br /><br />(b) If $g: \\mathbb{R} \\to \\mathbb{R}$ is defined by $g(x) = |x| - |x-1| + |x+1|$, find the range of $g$.<br /><br />(c) Define the relation $R$ on $\\mathbb{R}$ by $x R y \\iff f(x) = f(y)$. Prove $R$ is an equivalence relation and describe the equivalence classes.",
+  "answeroption": "B",
+  "explanation": "(a) For any real $x$, let $a=\\lfloor x \\rfloor$, so $x\\in[a,a+1)$.<br /><br />Then $-x\\in [-a-1, -a)$, so $\\lfloor -x \\rfloor = -a-1$ or $-a$ depending if $-x$ is integer or not. But for $x$ not integer: $a< x < a+1$, $-a-1 < -x < -a$, so $\\lfloor -x \\rfloor = -a-1$.<br /><br />For $x$ integer, $x=a$, $-x=-a$, so $\\lfloor -x \\rfloor=-a$.<br /><br />Thus, for $x$ not integer: $\\lfloor x \\rfloor + \\lfloor -x \\rfloor = a + (-a-1) = -1$. For $x$ integer: $\\lfloor x\\rfloor + \\lfloor -x\\rfloor = a + (-a) = 0$.<br /><br />So:<br /><br />- For $x$ integer: $f(x) = 0 + 1 = 1$.<br /><br />- For $x$ not integer: $-1 + 1 = 0$.<br /><br />But actually, let's check numerically:<br /><br />Let $x=1.5$: $\\lfloor 1.5 \\rfloor = 1$, $\\lfloor -1.5 \\rfloor = -2$, $f(1.5)=1+(-2)+1=0$.<br /><br />For $x=2$: $f(2)=2 + (-2) + 1 = 1$.<br /><br />So $f(x)$ takes values $0$ and $1$.<br /><br />Out of care for integer cases, $f(x)=1$ iff $x$ is integer, else $f(x)=0$.<br /><br />(b) $g(x) = |x| - |x-1| + |x+1|$. Let's analyze.<br /><br />Split into intervals:<br /><br />If $x\\geq 1$, $|x|=x, |x-1|=x-1, |x+1|=x+1$<br /><br />So $g(x) = x - (x-1) + x+1 = x-x+1+x+1 = x+2$<br /><br />But let's check for $x\\geq 1$:<br /><br />$g(x) = |x| - |x-1| + |x+1| = x - (x-1) + (x+1)= 1 + x + 1 = x+2$<br /><br />Wait: $x - (x-1) = 1$, $x+1$<br /><br />So $g(x)=1 + x+1 = x+2$<br /><br />So for $x \\geq 1$: $g(x) = x+2$<br /><br />For $-1 \\leq x < 1$: $|x| = x$ if $x\\geq 0$, $-x$ if $x<0$; $|x-1|=1-x$, $|x+1|=x+1$. For $x$ in $[0,1)$: $|x|=x$, $|x-1|=1-x$, $|x+1|=x+1$.<br /><br />So $g(x) = x - (1-x) + x+1 = x -1 + x + x + 1 = 3x$.<br /><br />For $x < -1$:<br /><br />$|x|=-x, |x-1|=-(x-1)=1-x, |x+1|=-(x+1) = -x-1$<br /><br />So $g(x)=-x - (1-x) + (-x-1)=-x-1+x-x-1=-x-1+x-x-1=-x-1-1=-x-2$<br /><br />Therefore, the range is $g(x)=3x$ for $x\\in [0,1]$, $g(x)=x+2$ for $x\\geq 1$, $g(x)=-x-2$ for $x < -1$.<br /><br />Values transition through $x=1$, $g(1)=3$; through $x=0$, $g(0)=0$; through $x=-1$, $g(-1)=1$.<br /><br />Analyze further: for $x\\rightarrow-\\infty$, $g(x)\\rightarrow\\infty$ (since $-x-2 \\rightarrow \\infty$ as $x\\to -\\infty$). For $x\\rightarrow\\infty$, $g(x)=x+2\\rightarrow\\infty$. Minimum at $x=0$, $g(0)=0$.<br /><br />So range is $[0,\\infty)$.<br /><br />(c) $R$ is defined by $f(x)=f(y)$. $f$ takes only two values:<br /><br />- $x$ integer $\\implies f(x)=1$<br /><br />- $x$ not integer $\\implies f(x)=0$<br /><br />Reflexive: $f(x)=f(x)$ for all $x$.<br /><br />Symmetric: $f(x)=f(y)\\implies f(y)=f(x)$.<br /><br />Transitive: $f(x)=f(y), f(y)=f(z)\\implies f(x)=f(z)$.<br /><br />So $R$ is an equivalence relation. The equivalence class for $x$ integer is the set of all integers; for $x$ not integer, is the set of all non-integers.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is constant with value $1$.<br> (b) Range of $g$ is $\\mathbb{R}$.<br> (c) $R$ is an equivalence relation with only one equivalence class $\\mathbb{R}$.",
+    "B": "(a) $f(x)=1$ if $x\\in\\mathbb{Z}$ and $f(x)=0$ if $x\\notin\\mathbb{Z}$, so it is not constant.<br> (b) Range of $g$ is $[0,\\infty)$.<br> (c) $R$ is an equivalence relation with equivalence classes $\\mathbb{Z}$ and $\\mathbb{R}\\setminus\\mathbb{Z}$.",
+    "C": "(a) $f$ is constant with value $0$. <br>(b) Range of $g$ is $[1,\\infty)$.<br> (c) $R$ is not an equivalence relation because it is not reflexive.",
+    "D": "(a) $f(x)=x$ for all real $x$. <br>(b) Range of $g$ is $(-\\infty,0]$. <br>(c) $R$ is symmetric only."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:43:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

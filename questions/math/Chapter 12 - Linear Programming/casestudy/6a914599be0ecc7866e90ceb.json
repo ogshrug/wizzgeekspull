@@ -1,0 +1,31 @@
+{
+  "id": "6a914599be0ecc7866e90ceb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics group studies a system of restrictions represented by $x+y\\geq6$, $x+2y\\geq8$, $x\\geq0$ and $y\\geq0$. The students mark points satisfying all four inequalities and regard their common set as the feasible region. They notice that the inequalities place lower restrictions on combinations of $x$ and $y$ but do not directly impose fixed upper limits on both variables. To understand the nature of the region, they test points near the origin as well as points whose coordinates can become arbitrarily large. They also compare points satisfying every condition with those violating one or more conditions.<br><br><b>(a)</b> Verify whether $P(3,3)$ is a feasible point.<br><br><b>(b)</b> Determine whether $Q(1,2)$ belongs to the feasible region or the infeasible region.<br><br><b>(c)</b> Show that every point of the form $(t,t)$ with $t\\geq3$ satisfies all the constraints.<br><br><b>(d)</b> Using the result of part (c), justify whether the feasible region is bounded or unbounded.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>For $P(3,3)$,<br>$$3+3=6\\geq6$$<br>and<br>$$3+2(3)=9\\geq8$$<br>Also, both coordinates are non-negative. Hence, $P(3,3)$ satisfies all the constraints and belongs to the feasible region.<br><br><b>(b)</b><br>For $Q(1,2)$,<br>$$1+2=3<6$$<br>and<br>$$1+2(2)=5<8$$<br>Thus, the point violates both main constraints. Therefore, $Q(1,2)$ lies in the infeasible region.<br><br><b>(c)</b><br>Let $x=t$ and $y=t$, where $t\\geq3$. Then<br>$$x+y=2t\\geq6$$<br>Also,<br>$$x+2y=3t\\geq9>8$$<br>Since $t\\geq3$, both $x$ and $y$ are non-negative. Hence, every point $(t,t)$ with $t\\geq3$ belongs to the feasible region.<br><br><b>(d)</b><br>The value of $t$ in $(t,t)$ can be made arbitrarily large while the point continues to satisfy every constraint. Thus, the feasible region extends indefinitely in the direction of increasing $x$ and $y$. Therefore, it cannot be enclosed within a finite boundary and is an unbounded region.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(3,3)$ is feasible<br>(b) $Q(1,2)$ is infeasible<br>(c) Every $(t,t)$ with $t\\geq3$ is feasible<br>(d) The feasible region is unbounded",
+    "B": "(a) $P(3,3)$ is infeasible<br>(b) $Q(1,2)$ is feasible<br>(c) Only $(3,3)$ of the form $(t,t)$ is feasible<br>(d) The feasible region is bounded",
+    "C": "(a) $P(3,3)$ is feasible<br>(b) $Q(1,2)$ is infeasible<br>(c) Every $(t,t)$ with $t\\geq3$ is feasible<br>(d) The feasible region is bounded because $x,y\\geq0$",
+    "D": "(a) $P(3,3)$ is feasible<br>(b) $Q(1,2)$ is feasible<br>(c) Every $(t,t)$ with $t\\geq4$ is feasible<br>(d) The feasible region has no points for large $t$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

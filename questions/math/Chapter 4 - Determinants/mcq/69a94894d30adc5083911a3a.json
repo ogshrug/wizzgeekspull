@@ -1,0 +1,29 @@
+{
+  "id": "69a94894d30adc5083911a3a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "MCQ",
+  "question": "Consider $A=\\begin{bmatrix} 1 & 0 & a \\\\ 0 & 1 & b \\\\ a & b & 1 \\end{bmatrix}$. For which value(s) of $a$ and $b$ is $A$ skew symmetric?",
+  "answeroption": "C",
+  "explanation": "A skew symmetric matrix satisfies $A' = -A$.<br />Compare $A$ and $A'$:<br />$A_{13}=a$, $A_{31}=a$, so $a = -a \\implies a = 0$.<br />$A_{23}=b$, $A_{32}=b$, so $b = -b \\implies b = 0$.<br />$A_{11} = 1 = -1 \\implies$ Not possible.<br />So, no values possible.<br />Answer: (C) No values.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a = b = 0$",
+    "B": "$a = 0, b = 0, 1$",
+    "C": "No values",
+    "D": "$a = -a$, $b = -b$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:10:44 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

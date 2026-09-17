@@ -1,0 +1,33 @@
+{
+  "id": "6a22b326fbdd87b6dea73bdf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A = \\begin{bmatrix}5 & 0 & 0 \\\\ 0 & 5 & 0 \\\\ 0 & 0 & 5\\end{bmatrix}$, then $A^{3}$ is:",
+  "answeroption": "B",
+  "explanation": "<b>Step 1</b> Identify the specific matrix structure given in the prompt. The matrix $A$ has non-zero values exclusively along its main diagonal, and since these elements are all equal to 5, it is a scalar matrix. We can factor out the scalar 5 to express it in terms of the identity matrix $I$: $A = 5I$.<br /><br /><b>Step 2</b> Compute the third power of the matrix using our algebraic expression: $A^3 = (5I)^3 = 5^3 \\cdot I^3$. Since multiplying the identity matrix by itself any number of times always yields the identity matrix ($I^3 = I$), this simplifies directly to $125I$.<br /><br /><b>Step 3</b> Expand the expression back into its explicit matrix format by multiplying every diagonal element of the identity matrix by 125: $125I = \\begin{bmatrix}125 & 0 & 0 \\\\ 0 & 125 & 0 \\\\ 0 & 0 & 125\\end{bmatrix}$. This corresponds exactly to option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix}5 & 0 & 0 \\\\ 0 & 5 & 0 \\\\ 0 & 0 & 5\\end{bmatrix}$",
+    "B": "$\\begin{bmatrix}125 & 0 & 0 \\\\ 0 & 125 & 0 \\\\ 0 & 0 & 125\\end{bmatrix}$",
+    "C": "$\\begin{bmatrix}15 & 0 & 0 \\\\ 0 & 15 & 0 \\\\ 0 & 0 & 15\\end{bmatrix}$",
+    "D": "$\\begin{bmatrix}5^{3} & 0 & 0 \\\\ 0 & 5 & 0 \\\\ 0 & 0 & 5\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

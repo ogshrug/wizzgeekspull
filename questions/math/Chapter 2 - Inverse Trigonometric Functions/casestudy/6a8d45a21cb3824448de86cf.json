@@ -1,0 +1,30 @@
+{
+  "id": "6a8d45a21cb3824448de86cf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A student analyses the expression $f(x)=\\sin^{-1}(2x-1)$. The inverse sine function returns only the principal value lying in $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$. Therefore, the input $2x-1$ must remain between $-1$ and $1$, and any equation involving $f(x)$ must be solved using an angle from this principal interval. The student examines the admissible values of $x$ and uses standard sine values to locate inputs that produce specified principal values.<br><br><b>(a)</b> Determine the domain of $f$.<br><br><b>(b)</b> Find $f(0)$ and $f(1)$ using the principal value branch.<br><br><b>(c)</b> Determine the value of $x$ for which $f(x)=\\frac{\\pi}{6}$.<br><br><b>(d)</b> Justify why the value obtained in part (c) is the only solution in the domain.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>For $\\sin^{-1}u$ to be defined, $-1\\leq u\\leq1$. Therefore, $$-1\\leq2x-1\\leq1$$ Adding $1$ gives $0\\leq2x\\leq2$, and dividing by $2$ gives $0\\leq x\\leq1$. Hence, the domain is $[0,1]$.<br><br><b>(b)</b><br>At $x=0$, $$f(0)=\\sin^{-1}(-1)=-\\frac{\\pi}{2}$$ At $x=1$, $$f(1)=\\sin^{-1}(1)=\\frac{\\pi}{2}$$ Both values belong to the principal interval $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$.<br><br><b>(c)</b><br>Given $$\\sin^{-1}(2x-1)=\\frac{\\pi}{6}$$ Taking sine on both sides gives $$2x-1=\\sin\\frac{\\pi}{6}=\\frac{1}{2}$$ Therefore, $2x=\\frac{3}{2}$ and $x=\\frac{3}{4}$.<br><br><b>(d)</b><br>The function $2x-1$ increases on $[0,1]$, and $\\sin^{-1}u$ is one-to-one on $[-1,1]$. Hence, $f$ assumes the principal value $\\frac{\\pi}{6}$ only once. Therefore, $x=\\frac{3}{4}$ is the unique solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain: $[0,1]$<br><br>(b) $f(0)=-\\dfrac{\\pi}{2}$ and $f(1)=\\dfrac{\\pi}{2}$<br><br>(c) $x=\\dfrac{3}{4}$<br><br>(d) The solution is unique because $2x-1$ is increasing and $\\sin^{-1}u$ is one-to-one on $[-1,1]$",
+    "B": "(a) Domain: $[-1,1]$<br><br>(b) $f(0)=0$ and $f(1)=\\dfrac{\\pi}{2}$<br><br>(c) $x=\\dfrac{1}{4}$<br><br>(d) The solution is unique because $\\sin^{-1}u$ is decreasing on $[-1,1]$",
+    "C": "(a) Domain: $[0,2]$<br><br>(b) $f(0)=-\\dfrac{\\pi}{2}$ and $f(1)=\\dfrac{\\pi}{2}$<br><br>(c) $x=\\dfrac{3}{2}$<br><br>(d) The solution is unique because the domain contains only positive values",
+    "D": "(a) Domain: $\\mathbb{R}$<br><br>(b) $f(0)=\\dfrac{\\pi}{2}$ and $f(1)=-\\dfrac{\\pi}{2}$<br><br>(c) $x=\\dfrac{1}{2}$<br><br>(d) The equation has two solutions because sine is periodic"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

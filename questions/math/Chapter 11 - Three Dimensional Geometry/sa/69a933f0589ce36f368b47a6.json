@@ -1,0 +1,29 @@
+{
+  "id": "69a933f0589ce36f368b47a6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "SA",
+  "question": "Find the shortest distance between the lines $\\vec{r} = 2\\hat{i} + \\hat{j} + \\lambda(\\hat{i} + 2\\hat{j} - 2\\hat{k})$ and $\\vec{r} = \\hat{i} + 2\\hat{j} + \\mu(2\\hat{i} + \\hat{j} + 2\\hat{k})$.",
+  "answeroption": "B",
+  "explanation": "Let $\\vec{a}_1=(2,1,0)$, $\\vec{b}_1=(1,2,-2)$.<br /><br />$\\vec{a}_2=(1,2,0)$, $\\vec{b}_2=(2,1,2)$.<br /><br />$\\vec{a}_2-\\vec{a}_1=(-1,1,0)$.<br /><br />Compute $\\vec{b}_1 \\times \\vec{b}_2=(6,-6,-3)$.<br /><br />Dot product with $(\\vec{a}_2-\\vec{a}_1)$ gives $-12$.<br /><br />Magnitude of cross product $=9$.<br /><br />Shortest distance $=\\frac{| -12 |}{9}=\\frac{4}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{4}$",
+    "B": "$\\frac{4}{3}$",
+    "C": "$\\frac{12}{9\\sqrt3}$",
+    "D": "$4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:42:40 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

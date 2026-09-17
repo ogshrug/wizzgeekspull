@@ -1,0 +1,30 @@
+{
+  "id": "6a901b0abe0ecc7866e90ca7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4",
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "Verify that the lines $\\vec{r}=(\\hat{i}+2\\hat{k})+\\lambda(\\hat{i}+\\hat{j}+\\hat{k})$ and $\\vec{r}=(2\\hat{i}-\\hat{j}+2\\hat{k})+\\mu(\\hat{i}-\\hat{j})$ are coplanar, and hence determine the equation of the plane containing both lines.",
+  "answeroption": "B",
+  "explanation": "<b>Verification of Coplanarity</b><br>For the first line,<br>$$\\vec{a_1}=\\hat{i}+2\\hat{k},\\quad \\vec{b_1}=\\hat{i}+\\hat{j}+\\hat{k}$$<br>and for the second line,<br>$$\\vec{a_2}=2\\hat{i}-\\hat{j}+2\\hat{k},\\quad \\vec{b_2}=\\hat{i}-\\hat{j}$$<br>The lines are coplanar if<br>$$\\left(\\vec{a_2}-\\vec{a_1}\\right)\\cdot\\left(\\vec{b_1}\\times\\vec{b_2}\\right)=0$$<br>Now,<br>$$\\vec{a_2}-\\vec{a_1}=\\hat{i}-\\hat{j}$$<br>and<br>$$\\vec{b_1}\\times\\vec{b_2}=\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&1&1\\\\1&-1&0\\end{vmatrix}=\\hat{i}+\\hat{j}-2\\hat{k}$$<br>Therefore,<br>$$(\\hat{i}-\\hat{j})\\cdot(\\hat{i}+\\hat{j}-2\\hat{k})=1-1=0$$<br>Hence, the lines are coplanar.<br><br><b>Formation of the Plane</b><br>The vector $\\hat{i}+\\hat{j}-2\\hat{k}$ is perpendicular to both direction vectors and hence is normal to the required plane. Using the point $(1,0,2)$ on the first line, the equation of the plane is<br>$$\\left[\\vec{r}-(\\hat{i}+2\\hat{k})\\right]\\cdot(\\hat{i}+\\hat{j}-2\\hat{k})=0$$<br>In Cartesian form,<br>$$x-1+y-2(z-2)=0$$<br>Therefore,<br>$$x+y-2z+3=0$$<br><br><b>Verification</b><br>For the first line, $x=1+\\lambda$, $y=\\lambda$ and $z=2+\\lambda$. Substitution gives $1+\\lambda+\\lambda-2(2+\\lambda)+3=0$. For the second line, $x=2+\\mu$, $y=-1-\\mu$ and $z=2$, giving $2+\\mu-1-\\mu-4+3=0$. Thus every point of both lines satisfies the plane equation.<br><br><b>Final Result</b><br>The lines are coplanar, and the plane containing them is $x+y-2z+3=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The lines are not coplanar; no plane contains both.",
+    "B": "The lines are coplanar, and the plane containing them is $x+y-2z+3=0$.",
+    "C": "The lines are coplanar, and the plane containing them is $x-y+2z-3=0$.",
+    "D": "The lines are parallel, and the plane containing them is $x+y+2z-5=0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

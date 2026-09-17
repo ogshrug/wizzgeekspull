@@ -1,0 +1,30 @@
+{
+  "id": "6a1424cc2a89680e5835ce73",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a",
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{\\cos 2x}{\\sin^{2}x\\cdot\\cos^{2}x}dx$ is equal to:",
+  "answeroption": "C",
+  "explanation": "**Step 1: Apply Trigonometric Identity.** Substitute $\\cos 2x$ with $\\cos^2 x - \\sin^2 x$.<br />**Step 2: Separate fraction.** $\\int (\\frac{\\cos^2 x}{\\sin^2 x \\cos^2 x} - \\frac{\\sin^2 x}{\\sin^2 x \\cos^2 x}) dx = \\int (\\csc^2 x - \\sec^2 x) dx$.<br />**Step 3: Integrate.** The result is $-\\cot x - \\tan x + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan x - \\cot x + C$",
+    "B": "$\\cot x + \\tan x + C$",
+    "C": "$-\\cot x - \\tan x + C$",
+    "D": "$\\tan x - \\cot x - C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

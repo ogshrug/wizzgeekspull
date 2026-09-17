@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed6d44b490c7cde35948e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f"
+  ],
+  "question_type": "SA",
+  "question": "By taking a suitable nearby value, use linear approximation to estimate $\\frac{1}{\\sqrt{15.8}}$.",
+  "answeroption": "A",
+  "explanation": "<b>Selection of the function</b><br>Let $f(x)=x^{-\\frac{1}{2}}$ and choose the nearby value $a=16$. Then<br>$$f(16)=\\frac{1}{4}$$<br><b>Derivative at $x=16$</b><br>$$f'(x)=-\\frac{1}{2x^{\\frac{3}{2}}}$$<br>Since $16^{\\frac{3}{2}}=64$,<br>$$f'(16)=-\\frac{1}{128}$$<br><b>Change in $x$</b><br>$$15.8-16=-0.2$$<br><b>Linear approximation</b><br>$$f(15.8)\\approx f(16)+f'(16)(-0.2)$$<br>$$f(15.8)\\approx\\frac{1}{4}+\\frac{0.2}{128}$$<br><b>Simplification</b><br>$$f(15.8)\\approx0.25+0.0015625=0.2515625$$<br><b>Conclusion</b><br>Hence, $\\frac{1}{\\sqrt{15.8}}\\approx0.25156$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0.25156$",
+    "B": "$0.24844$",
+    "C": "$0.25625$",
+    "D": "$0.25016$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

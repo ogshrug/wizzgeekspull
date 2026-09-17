@@ -1,0 +1,29 @@
+{
+  "id": "6a8f18c1be0ecc7866e90c2d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f993"
+  ],
+  "question_type": "SA",
+  "question": "For $a>0$, the curve $x=a-y^2$ and the y-axis enclose an area of $\\frac{32}{3}$ square units. Find $a$.",
+  "answeroption": "B",
+  "explanation": "Step 1: Determining the intersection values The curve meets the y-axis when $a-y^2=0$. Therefore, $y=\\pm\\sqrt{a}$. Step 2: Applying symmetry The bounded region is symmetric about the x-axis. Hence, $A=2\\int_0^{\\sqrt{a}}(a-y^2)\\,dy$. Step 3: Evaluating in terms of $a$ $A=2\\left[ay-\\frac{y^3}{3}\\right]_0^{\\sqrt{a}}=2\\left(a^{3/2}-\\frac{a^{3/2}}{3}\\right)=\\frac{4a^{3/2}}{3}$. Step 4: Using the specified area $\\frac{4a^{3/2}}{3}=\\frac{32}{3}\\Rightarrow a^{3/2}=8$. Therefore, $a=8^{2/3}=4$. Final Answer The required value of the parameter is $a=4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=2$",
+    "B": "$a=4$",
+    "C": "$a=8$",
+    "D": "$a=16$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

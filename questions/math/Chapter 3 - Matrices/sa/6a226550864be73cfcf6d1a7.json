@@ -1,0 +1,26 @@
+{
+  "id": "6a226550864be73cfcf6d1a7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "SA",
+  "question": "Let $A=\\begin{bmatrix}1\\\\4\\\\-2\\end{bmatrix}$ and $C=\\begin{bmatrix}3&4&2\\\\12&16&8\\\\-6&-8&-4\\end{bmatrix}$ be two matrices. Then, find the matrix $B$ if $AB=C$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Determine the orders of the given matrices. Matrix $A$ is a column matrix of order $3 \\times 1$. Matrix $C$ is of order $3 \\times 3$.<br />**Step 2:** For the matrix multiplication $AB$ to result in a $3 \\times 3$ matrix $C$, matrix $B$ must have 1 row and 3 columns. Thus, let $B = \\begin{bmatrix}x & y & z\\end{bmatrix}$.<br />**Step 3:** Perform the multiplication $AB$: $\\begin{bmatrix}1\\\\4\\\\-2\\end{bmatrix} \\begin{bmatrix}x & y & z\\end{bmatrix} = \\begin{bmatrix}1x & 1y & 1z \\\\ 4x & 4y & 4z \\\\ -2x & -2y & -2z\\end{bmatrix}$.<br />**Step 4:** Equate this product to matrix $C$: $\\begin{bmatrix}x & y & z \\\\ 4x & 4y & 4z \\\\ -2x & -2y & -2z\\end{bmatrix} = \\begin{bmatrix}3&4&2\\\\12&16&8\\\\-6&-8&-4\\end{bmatrix}$.<br />**Step 5:** Compare the corresponding elements of the first row to solve for the variables: $x = 3$, $y = 4$, and $z = 2$.<br />**Step 6:** Therefore, the matrix $B = \\begin{bmatrix}3 & 4 & 2\\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

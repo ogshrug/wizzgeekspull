@@ -1,0 +1,28 @@
+{
+  "id": "6a22a0cd864be73cfcf6d276",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f997"
+  ],
+  "question_type": "LA",
+  "question": "Find the area of the region bounded by the curve $4x^{2}+y^{2}=36$ using integration.",
+  "answeroption": "",
+  "explanation": "**Step 1:** First, recognize the standard geometric form of the given equation $4x^2 + y^2 = 36$. To convert it to the standard equation of an ellipse, we strictly divide the entire equation by 36. This yields $\\frac{4x^2}{36} + \\frac{y^2}{36} = 1$, which cleanly simplifies to $\\frac{x^2}{9} + \\frac{y^2}{36} = 1$. This represents an ellipse centered perfectly at the origin $(0,0)$. By comparing it to the standard form $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$, we clearly identify the semi-minor axis $a = 3$ (along the x-axis) and the semi-major axis $b = 6$ (along the y-axis).<br />**Step 2:** Because an ellipse is perfectly symmetric with respect to both the x-axis and the y-axis, the total area enclosed by the curve is exactly four times the area contained entirely within the first quadrant. To set up the integration, we must express $y$ explicitly in terms of $x$. From the original equation, $y^2 = 36 - 4x^2 = 4(9 - x^2)$. Taking the principal square root for the upper half (first quadrant), we get $y = 2\\sqrt{9 - x^2}$.<br />**Step 3:** The area specifically in the first quadrant is formally given by the definite integral $\\int_0^3 y dx$. Substituting our expression for $y$, this becomes $\\int_0^3 2\\sqrt{9 - x^2} dx = 2 \\int_0^3 \\sqrt{3^2 - x^2} dx$.<br />**Step 4:** We critically employ the standard mathematical integration formula $\\int \\sqrt{a^2-x^2} dx = \\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2}\\sin^{-1}(\\frac{x}{a})$. Applying this directly to our specific integral gives: $2 [ \\frac{x}{2}\\sqrt{9-x^2} + \\frac{9}{2}\\sin^{-1}(\\frac{x}{3}) ]_0^3$.<br />**Step 5:** Finally, we evaluate this expression precisely at the upper and lower limits. At the upper limit $x=3$: $2 [ \\frac{3}{2}\\sqrt{9-9} + \\frac{9}{2}\\sin^{-1}(\\frac{3}{3}) ] = 2 [ 0 + \\frac{9}{2}\\sin^{-1}(1) ] = 2 [ \\frac{9}{2}(\\frac{\\pi}{2}) ] = \\frac{9\\pi}{2}$. At the lower limit $x=0$, the entire expression securely evaluates to exactly $0$. So, the strictly calculated area in the first quadrant is $\\frac{9\\pi}{2}$. The total area of the ellipse is 4 times this value: $4 \\times \\frac{9\\pi}{2} = 18\\pi$ square units. (Note: using standard formula Area = $\\pi a b = \\pi(3)(6) = 18\\pi$ validates this.)",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a27deb4233c5169a79c53e7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A=\\begin{bmatrix}tan~x&cot~x\\\\ -cot~x&tan~x\\end{bmatrix}$ and $A+A^{\\prime}=2I$ then value of $x\\in[0,\\frac{\\pi}{2}]$ is",
+  "answeroption": "C",
+  "explanation": "**Step 1:** First, find the transpose of matrix $A$: $A^{\\prime} = \\begin{bmatrix}\\tan x & -\\cot x \\\\ \\cot x & \\tan x\\end{bmatrix}$.<br />**Step 2:** Now, compute the sum $A + A^{\\prime} = \\begin{bmatrix}2\\tan x & 0 \\\\ 0 & 2\\tan x\\end{bmatrix}$. Equating this to $2I = \\begin{bmatrix}2 & 0 \\\\ 0 & 2\\end{bmatrix}$ gives $2\\tan x = 2$.<br />**Step 3:** Simplifying the equation yields $\\tan x = 1$. Since $x$ lies in the interval $[0, \\frac{\\pi}{2}]$, we find $x = \\frac{\\pi}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "$\\frac{\\pi}{3}$",
+    "C": "$\\frac{\\pi}{4}$",
+    "D": "$\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

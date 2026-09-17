@@ -1,0 +1,29 @@
+{
+  "id": "69a9b16762be6a70cd184e1c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int \\frac{dx}{1 + e^x}$ using substitution.",
+  "answeroption": "C",
+  "explanation": "Let $u=e^x$ so $dx=\\frac{du}{u}$.<br /><br />Then the integral becomes $\\int \\frac{1}{u(1+u)}du$.<br /><br />Using partial fractions $\\frac{1}{u(1+u)}=\\frac{1}{u}-\\frac{1}{1+u}$.<br /><br />Integrating gives $\\ln|u|-\\ln|1+u|+C$.<br /><br />Substituting $u=e^x$ gives $x-\\ln(1+e^x)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\ln(1+e^x)+C$",
+    "B": "$x+\\ln(1+e^x)+C$",
+    "C": "$x-\\ln(1+e^x)+C$",
+    "D": "$\\frac{1}{1+e^x}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:37:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

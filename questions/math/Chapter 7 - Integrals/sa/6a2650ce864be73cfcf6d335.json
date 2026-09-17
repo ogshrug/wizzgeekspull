@@ -1,0 +1,28 @@
+{
+  "id": "6a2650ce864be73cfcf6d335",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Find: <br />$$\\int e^{x}\\cdot sin~2x~dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the given integral be $I = \\int e^{x}\\sin 2x \\, dx$. We evaluate this using the integration by parts method, which states $\\int u \\, dv = uv - \\int v \\, du$. Following the ILATE rule hierarchy, choose the trigonometric function as the first function, $u = \\sin 2x$, and the exponential function as the second function, $dv = e^x \\, dx$. Differentiating $u$ gives $du = 2\\cos 2x \\, dx$, and integrating $dv$ gives $v = e^x$.<br />**Step 2:** Apply the formula to write out the first stage expansion: $I = e^x \\sin 2x - \\int e^x (2\\cos 2x) \\, dx = e^x \\sin 2x - 2\\int e^x \\cos 2x \\, dx$. We must now apply the integration by parts method a second time to resolve the remaining integral term $\\int e^x \\cos 2x \\, dx$. Choose $u = \\cos 2x$ and $dv = e^x \\, dx$, which yields $du = -2\\sin 2x \\, dx$ and $v = e^x$.<br />**Step 3:** Expand this second part inside parentheses: $\\int e^x \\cos 2x \\, dx = e^x \\cos 2x - \\int e^x (-2\\sin 2x) \\, dx = e^x \\cos 2x + 2\\int e^x \\sin 2x \\, dx$. Substituting this expression back into our main equation for $I$ results in: $I = e^x \\sin 2x - 2 \\left( e^x \\cos 2x + 2\\int e^x \\sin 2x \\, dx \\right)$. This distributes to: $I = e^x \\sin 2x - 2e^x \\cos 2x - 4\\int e^x \\sin 2x \\, dx$.<br />**Step 4:** Notice that the integral term on the right side is exactly our original integral $I$. Substituting $I$ back in gives the linear equation: $I = e^x \\sin 2x - 2e^x \\cos 2x - 4I$. Add $4I$ to both sides to gather terms: $5I = e^x (\\sin 2x - 2\\cos 2x)$. Finally, divide by 5 and add the integration constant $C$: $I = \\frac{e^x}{5}(\\sin 2x - 2\\cos 2x) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1",
+    "2022-5-2",
+    "2022-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

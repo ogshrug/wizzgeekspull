@@ -1,0 +1,31 @@
+{
+  "id": "6a8ef1824b490c7cde3594b6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "A closed cylindrical container is required to have a volume of $432\\pi\\ \\text{cm}^3$.<br><br>(a) Express its total surface area as a function of its radius $r$.<br><br>(b) Using the second derivative test, determine the radius and height for which the total surface area is minimum.<br><br>(c) Calculate the minimum total surface area.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>The volume of the cylinder is<br>$$\\pi r^2h=432\\pi$$<br>Therefore,<br>$$h=\\frac{432}{r^2}$$<br>The total surface area of a closed cylinder is<br>$$S=2\\pi r^2+2\\pi rh$$<br>Substituting the value of $h$,<br>$$S(r)=2\\pi r^2+2\\pi r\\left(\\frac{432}{r^2}\\right)$$<br>$$S(r)=2\\pi r^2+\\frac{864\\pi}{r}$$<br><br><b>(b)</b><br>Differentiating,<br>$$S'(r)=4\\pi r-\\frac{864\\pi}{r^2}$$<br>For a stationary value,<br>$$4\\pi r-\\frac{864\\pi}{r^2}=0$$<br>$$4r^3=864$$<br>$$r^3=216$$<br>$$r=6\\ \\text{cm}$$<br>The corresponding height is<br>$$h=\\frac{432}{(6)^2}=12\\ \\text{cm}$$<br>Also,<br>$$S''(r)=4\\pi+\\frac{1728\\pi}{r^3}$$<br>At $r=6$,<br>$$S''(6)=4\\pi+\\frac{1728\\pi}{216}=12\\pi>0$$<br>Hence, the total surface area is minimum for $r=6\\ \\text{cm}$ and $h=12\\ \\text{cm}$.<br><br><b>(c)</b><br>The minimum surface area is<br>$$S(6)=2\\pi(6)^2+2\\pi(6)(12)$$<br>$$S(6)=72\\pi+144\\pi=216\\pi\\ \\text{cm}^2$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $S(r)=2\\pi r^2+\\frac{432\\pi}{r}$<br>(b) $r=6$ cm, $h=12$ cm<br>(c) Minimum area $180\\pi$ cm$^2$",
+    "B": "(a) $S(r)=\\pi r^2+\\frac{864\\pi}{r}$<br>(b) $r=12$ cm, $h=3$ cm<br>(c) Minimum area $288\\pi$ cm$^2$",
+    "C": "(a) $S(r)=2\\pi r^2+\\frac{864\\pi}{r}$<br>(b) $r=6$ cm, $h=12$ cm<br>(c) Minimum area $216\\pi$ cm$^2$",
+    "D": "(a) $S(r)=2\\pi r^2+864\\pi r$<br>(b) $r=3$ cm, $h=48$ cm<br>(c) Minimum area $306\\pi$ cm$^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a900762be0ecc7866e90c9d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4"
+  ],
+  "question_type": "SA",
+  "question": "Check whether the lines $\\vec{r}=(\\hat{i}+\\hat{k})+\\lambda(\\hat{i}+2\\hat{j}+\\hat{k})$ and $\\vec{r}=(2\\hat{i}+\\hat{j}+\\hat{k})+\\mu(2\\hat{i}+\\hat{j}-\\hat{k})$ are coplanar. Justify your conclusion.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Identification of relevant vectors</b><br>For the two lines,<br>$$\\vec{a}_1=\\hat{i}+\\hat{k},\\quad \\vec{b}_1=\\hat{i}+2\\hat{j}+\\hat{k},$$<br>$$\\vec{a}_2=2\\hat{i}+\\hat{j}+\\hat{k},\\quad \\vec{b}_2=2\\hat{i}+\\hat{j}-\\hat{k}.$$<br><b>Step 2: Vector joining points on the lines</b><br>$$\\vec{a}_2-\\vec{a}_1=\\hat{i}+\\hat{j}.$$<br><b>Step 3: Coplanarity criterion</b><br>The lines are coplanar if<br>$$\\left(\\vec{a}_2-\\vec{a}_1\\right)\\cdot\\left(\\vec{b}_1\\times\\vec{b}_2\\right)=0.$$<br><b>Step 4: Evaluation of the scalar triple product</b><br>$$\\vec{b}_1\\times\\vec{b}_2=-3\\hat{i}+3\\hat{j}-3\\hat{k}.$$<br>Therefore,<br>$$\\left(\\hat{i}+\\hat{j}\\right)\\cdot\\left(-3\\hat{i}+3\\hat{j}-3\\hat{k}\\right)=-3+3=0.$$<br><b>Step 5: Final conclusion</b><br>Since the scalar triple product is zero, the given lines are coplanar.",
+  "explanation_image": [],
+  "options": {
+    "A": "The lines are coplanar because the scalar triple product is $0$.",
+    "B": "The lines are non-coplanar because the direction vectors are not proportional.",
+    "C": "The lines are parallel and therefore coplanar.",
+    "D": "The lines are non-coplanar because the scalar triple product is $-3$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

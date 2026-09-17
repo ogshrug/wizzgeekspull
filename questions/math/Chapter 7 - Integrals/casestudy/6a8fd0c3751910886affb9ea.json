@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd0c3751910886affb9ea",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a classroom investigation, students define an accumulation function using the continuous function $f(t)=3t^2+2t+1$ on the interval $[0,2]$. They write $$A(x)=\\int_0^x(3t^2+2t+1)\\,dt,\\qquad 0\\leq x\\leq2$$ Since the upper limit $x$ varies, $A(x)$ itself is a function. The students examine how the rate of change of this accumulated quantity is related to the original integrand. They also determine an explicit expression for $A(x)$ and compare its derivative with the function inside the integral. This activity illustrates the relationship between an area function, its derivative, and the Fundamental Theorem of Calculus.<br><br><b>(a)</b> Determine $A'(x)$ directly using the Fundamental Theorem of Calculus.<br><br><b>(b)</b> Find the value of $A(0)$.<br><br><b>(c)</b> Obtain an explicit expression for $A(x)$ and hence calculate $A(2)$.<br><br><b>(d)</b> Verify that differentiating the expression obtained for $A(x)$ gives the result in part (a).",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>For an area function of the form $$A(x)=\\int_0^x f(t)\\,dt$$ the Fundamental Theorem of Calculus gives $A'(x)=f(x)$. Therefore, $$A'(x)=3x^2+2x+1$$<br><br><b>(b)</b><br>At $x=0$, the upper and lower limits are equal. Hence, $$A(0)=\\int_0^0(3t^2+2t+1)\\,dt=0$$<br><br><b>(c)</b><br>An antiderivative of $3t^2+2t+1$ is $$t^3+t^2+t$$ Therefore, $$A(x)=\\left[t^3+t^2+t\\right]_0^x=x^3+x^2+x$$ Thus, $$A(2)=2^3+2^2+2=8+4+2=14$$<br><br><b>(d)</b><br>Differentiating $A(x)=x^3+x^2+x$, $$A'(x)=3x^2+2x+1$$ This agrees exactly with the integrand evaluated at $x$, verifying the Fundamental Theorem of Calculus.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A'(x)=3x^2+2x+1$<br>(b) $A(0)=0$<br>(c) $A(x)=x^3+x^2+x$ and $A(2)=14$<br>(d) Differentiation gives $3x^2+2x+1$",
+    "B": "(a) $A'(x)=3x^2+2x$<br>(b) $A(0)=1$<br>(c) $A(x)=x^3+x^2$ and $A(2)=12$<br>(d) Differentiation gives $3x^2+2x$",
+    "C": "(a) $A'(x)=t^3+t^2+t$<br>(b) $A(0)=0$<br>(c) $A(x)=3x^2+2x+1$ and $A(2)=17$<br>(d) Differentiation gives $6x+2$",
+    "D": "(a) $A'(x)=3x^2+2x+1$<br>(b) $A(0)=1$<br>(c) $A(x)=x^3+x^2+x+1$ and $A(2)=15$<br>(d) Differentiation gives $3x^2+2x+1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

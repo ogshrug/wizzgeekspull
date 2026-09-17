@@ -1,0 +1,29 @@
+{
+  "id": "69a96381589ce36f368b47ed",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "SA",
+  "question": "Check whether the points $A(2,3,4)$, $B(3,-1,2)$, $C(-2,4,3)$ and $D(1,5,6)$ are coplanar.",
+  "answeroption": "B",
+  "explanation": "Form vectors:<br /><br />$\\vec{AB}=(1,-4,-2)$,<br />$\\vec{AC}=(-4,1,-1)$,<br />$\\vec{AD}=(-1,2,2)$.<br /><br />Check scalar triple product $\\vec{AB} \\cdot (\\vec{AC} \\times \\vec{AD})$.<br /><br />First compute $\\vec{AC} \\times \\vec{AD} = (4,9,-7)$.<br /><br />Then $\\vec{AB} \\cdot (4,9,-7) = 1(4) + (-4)(9) + (-2)(-7)$.<br /><br />$= 4 - 36 + 14 = -18$.<br /><br />Since the scalar triple product is not zero, the four points are not coplanar.",
+  "explanation_image": [],
+  "options": {
+    "A": "The points are coplanar because the scalar triple product is $0$.",
+    "B": "The points are not coplanar because the scalar triple product is $-18\\ne0$.",
+    "C": "The points are coplanar because $\\vec{AB}$, $\\vec{AC}$ and $\\vec{AD}$ are proportional.",
+    "D": "The points are not coplanar because $\\vec{AB}\\cdot\\vec{AC}=0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:05:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

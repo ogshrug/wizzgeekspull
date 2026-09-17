@@ -1,0 +1,33 @@
+{
+  "id": "6a21664e91ff8b4d4561098c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "MCQ",
+  "question": "Differential of $e^{e^{x}}$ with respect to x is :",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> Identify the nesting of functions inside the expression. The function $y = e^{e^x}$ is a composite function where the outer exponential function contains an inner exponential function exponent $u = e^x$.<br /><br /><b>Step 2</b> Apply the Chain Rule of calculus differentiation, which computes the overall derivative as $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$. Differentiating the base exponential function with respect to $u$ yields $e^u = e^{e^x}$.<br /><br /><b>Step 3</b> Next, differentiate the inner exponent function to get $\\frac{d}{dx}(e^x) = e^x$. Multiplying these components together gives the complete derivative: $\\frac{dy}{dx} = e^{e^x} \\cdot e^x = e^x e^{e^x}$. This matches option (C).",
+  "explanation_image": [],
+  "options": {
+    "A": "log x",
+    "B": "$e^{e^{X}}$",
+    "C": "$e^{x}e^{e^{x}}$",
+    "D": "$(e^{x})^{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

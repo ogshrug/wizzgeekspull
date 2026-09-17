@@ -1,0 +1,31 @@
+{
+  "id": "6a215c15864be73cfcf6d114",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A study revealed that 170 in 1000 males who smoke develop lung complications, while 120 out of 1000 females who smoke develop lung related problems. In a colony, 50 people were found to be smokers of which 30 are males. A person is selected at random from these 50 people and tested for lung related problems. Based on the given information, answer the following questions:<br /><br />**(i)** What is the probability that selected person is a female?<br />**(ii)** If a male person is selected, what is the probability that he will not be suffering from lung problems?<br />**(iii) (a)** A person selected at random is detected with lung complications. Find the probability that selected person is a female.<br />OR<br />**(iii) (b)** A person selected at random is not having lung problems, find the probability that the person is a male.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Out of 50 total smokers in the colony, 30 are males. Thus, the number of females is $50 - 30 = 20$.<br />**Step 2:** The probability of selecting a female is $P(F) = \\frac{20}{50} = \\frac{2}{5} = 0.4$.<br /><br />**(ii)** **Step 1:** The probability of a male developing lung problems is given as $P(L|M) = \\frac{170}{1000} = 0.17$.<br />**Step 2:** The probability he will not suffer from lung problems is the exact complement: $1 - 0.17 = 0.83$.<br /><br />**(iii) (a)** **Step 1:** Let $L$ be the event of having lung complications. We apply Bayes' theorem to find $P(F|L) = \\frac{P(L|F)P(F)}{P(L|F)P(F) + P(L|M)P(M)}$.<br />**Step 2:** Substitute the known probabilities: $P(F)=0.4$, $P(M)=0.6$, $P(L|F)=0.12$, and $P(L|M)=0.17$.<br />**Step 3:** Calculate the expression: $\\frac{0.12 \\times 0.4}{(0.12 \\times 0.4) + (0.17 \\times 0.6)} = \\frac{0.048}{0.048 + 0.102} = \\frac{0.048}{0.150} = \\frac{8}{25}$.<br /><br />**(iii) (b)** **Step 1:** Let $L'$ be the event of not having lung problems. We must find $P(M|L') = \\frac{P(L'|M)P(M)}{P(L'|M)P(M) + P(L'|F)P(F)}$.<br />**Step 2:** Use the complement probabilities: $P(L'|M) = 1 - 0.17 = 0.83$ and $P(L'|F) = 1 - 0.12 = 0.88$.<br />**Step 3:** Calculate the final fractional result: $\\frac{0.83 \\times 0.6}{(0.83 \\times 0.6) + (0.88 \\times 0.4)} = \\frac{0.498}{0.498 + 0.352} = \\frac{0.498}{0.850} = \\frac{249}{425}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a215c15864be73cfcf6d114/1782193550-0.png?t=1782213350820"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

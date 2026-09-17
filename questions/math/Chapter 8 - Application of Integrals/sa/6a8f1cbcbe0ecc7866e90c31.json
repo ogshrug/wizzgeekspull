@@ -1,0 +1,29 @@
+{
+  "id": "6a8f1cbcbe0ecc7866e90c31",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99b"
+  ],
+  "question_type": "SA",
+  "question": "The parabolas $y=x^2$ and $y=4-x^2$ enclose a region symmetric about the y-axis. (a) Find their points of intersection. (b) Hence determine the enclosed area.",
+  "answeroption": "A",
+  "explanation": "Step 1: Finding the intersection values Equating the two expressions, $x^2=4-x^2$. Hence, $2x^2=4$, giving $x=\\pm\\sqrt{2}$. Since $y=x^2$, the intersection points are $(-\\sqrt{2},2)$ and $(\\sqrt{2},2)$. Step 2: Identifying the upper parabola On the interval $[-\\sqrt{2},\\sqrt{2}]$, $y=4-x^2$ lies above $y=x^2$. Step 3: Applying symmetry $A=2\\int_0^{\\sqrt{2}}(4-2x^2)dx$. Step 4: Evaluating the integral $A=2\\left[4x-\\frac{2x^3}{3}\\right]_0^{\\sqrt{2}}=2\\left(4\\sqrt{2}-\\frac{4\\sqrt{2}}{3}\\right)=\\frac{16\\sqrt{2}}{3}$. Final Answer The enclosed area is $\\frac{16\\sqrt{2}}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(-\\sqrt{2},2)$ and $(\\sqrt{2},2)$<br>(b) $\\frac{16\\sqrt{2}}{3}$ square units",
+    "B": "(a) $(-2,2)$ and $(2,2)$<br>(b) $\\frac{16\\sqrt{2}}{3}$ square units",
+    "C": "(a) $(-\\sqrt{2},2)$ and $(\\sqrt{2},2)$<br>(b) $\\frac{8\\sqrt{2}}{3}$ square units",
+    "D": "(a) $(-\\sqrt{2},-2)$ and $(\\sqrt{2},-2)$<br>(b) $\\frac{16\\sqrt{2}}{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8d41851cb3824448de86cc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "SA",
+  "question": "On $A=\\mathbb{R}\\setminus\\{-1\\}$, define $a*b=a+b+ab$.<br><br>(i) Show that $*$ is a binary operation on $A$.<br><br>(ii) Find the identity element for $*$.<br><br>(iii) Find the inverse of an arbitrary element $a\\in A$ with respect to $*$.",
+  "answeroption": "A",
+  "explanation": "<b>(i) Closure of the operation</b><br>For $a,b\\in A$,<br>$$a*b+1=a+b+ab+1=(a+1)(b+1).$$<br>Since $a\\ne-1$ and $b\\ne-1$, we have $(a+1)(b+1)\\ne0$. Hence, $a*b\\ne-1$, so $a*b\\in A$. Therefore, $*$ is a binary operation on $A$.<br><br><b>(ii) Identity element</b><br>Let $e$ be the identity element. Then<br>$$a*e=a+e+ae=a.$$<br>This gives<br>$$e(1+a)=0.$$<br>Since $a\\ne-1$, we obtain $e=0$. Also, $0*a=a$. Hence, the identity element is $0$.<br><br><b>(iii) Inverse of $a$</b><br>Let $b$ be the inverse of $a$. Then<br>$$a*b=0.$$<br>Therefore,<br>$$a+b+ab=0\\Rightarrow b(1+a)=-a.$$<br>Thus,<br>$$b=-\\frac{a}{a+1}.$$<br><br><b>Conclusion</b><br>The operation is closed on $A$, its identity element is $0$, and the inverse of $a$ is<br>$$a^{-1}=-\\frac{a}{a+1}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$*$ is a binary operation on $A$; the identity is $0$; the inverse of $a$ is $-\\frac{a}{a+1}$",
+    "B": "$*$ is a binary operation on $A$; the identity is $-1$; the inverse of $a$ is $-a$",
+    "C": "$*$ is not a binary operation on $A$; therefore, it has no identity or inverses",
+    "D": "$*$ is a binary operation on $A$; the identity is $1$; the inverse of $a$ is $\\frac{1}{a}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

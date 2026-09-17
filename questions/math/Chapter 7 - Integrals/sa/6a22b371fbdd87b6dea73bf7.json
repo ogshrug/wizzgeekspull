@@ -1,0 +1,28 @@
+{
+  "id": "6a22b371fbdd87b6dea73bf7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate : $\\int_{1}^{4}(|x-2|+|x-4|)\\,dx$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To evaluate the absolute value integral, split the domain at critical turning points where the expressions equal zero, which occur at $x = 2$ and $x = 4$. This divides our interval $[1, 4]$ into two segments: $[1, 2]$ and $[2, 4]$.<br /><br /><b>Step 2</b> For the first sub-interval $1 \\le x \\le 2$, we find $|x-2| = -(x-2) = 2-x$ and $|x-4| = -(x-4) = 4-x$. Combining these gives the integrand $(2-x) + (4-x) = 6-2x$.<br /><br /><b>Step 3</b> For the second sub-interval $2 \\le x \\le 4$, we find $|x-2| = x-2$ and $|x-4| = -(x-4) = 4-x$. Combining these gives the simplified integrand $(x-2) + (4-x) = 2$.<br /><br /><b>Step 4</b> Set up the two separate integrals across these intervals: $\\int_{1}^{2} (6-2x) dx + \\int_{2}^{4} 2 dx$. Integrating each section gives: $\\left[ 6x - x^2 \\right]_{1}^{2} + \\left[ 2x \\right]_{2}^{4}$.<br /><br /><b>Step 5</b> Evaluate at the limits: the first segment gives $(12 - 4) - (6 - 1) = 8 - 5 = 3$. The second segment gives $2(4) - 2(2) = 8 - 4 = 4$. Summing the areas gives the final result: $3 + 4 = 7$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

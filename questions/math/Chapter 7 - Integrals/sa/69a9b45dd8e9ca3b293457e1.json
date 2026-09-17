@@ -1,0 +1,29 @@
+{
+  "id": "69a9b45dd8e9ca3b293457e1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int \\frac{dx}{2+\\cos x}$.",
+  "answeroption": "A",
+  "explanation": "Use substitution $t=\\tan\\frac{x}{2}$.<br /><br />Then $\\cos x=\\frac{1-t^2}{1+t^2}$ and $dx=\\frac{2}{1+t^2}dt$.<br /><br />Substituting gives $\\int \\frac{2}{3+t^2}dt$.<br /><br />$=\\frac{2}{\\sqrt{3}}\\tan^{-1}\\left(\\frac{t}{\\sqrt{3}}\\right)+C$.<br /><br />Replacing $t=\\tan\\frac{x}{2}$ gives the final answer.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{\\sqrt{3}} \\tan^{-1}\\left(\\frac{\\tan \\frac{x}{2}}{\\sqrt{3}}\\right)+C$",
+    "B": "$\\frac{1}{\\sqrt{3}} \\tan^{-1}\\left(\\frac{\\tan \\frac{x}{2}}{\\sqrt{3}}\\right)+C$",
+    "C": "$\\frac{2}{3} \\tan^{-1}\\left(\\frac{\\tan \\frac{x}{2}}{\\sqrt{3}}\\right)+C$",
+    "D": "$\\frac{2}{\\sqrt{3}} \\tan^{-1}\\left(\\sqrt{3}\\tan \\frac{x}{2}\\right)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:50:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

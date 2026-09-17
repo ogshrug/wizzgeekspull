@@ -1,0 +1,31 @@
+{
+  "id": "69a85c00b4df445c7f648c70",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987",
+    "6a13e9908c819562f933f985",
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "SA",
+  "question": "Let $f(x) = \\log(\\sin x)$ for $0 < x < \\pi$. (a) Prove monotonicity. (b) Find maximum value. (c) Verify using second derivative test.",
+  "answeroption": "B",
+  "explanation": "Derivative:<br /><br />\\(f'(x)=\\cot x\\).<br /><br />Positive in (0,π/2) → increasing.<br /><br />Negative in (π/2,π) → decreasing.<br /><br />Maximum at x=π/2.<br /><br />Value = log(1)=0.<br /><br />Second derivative:<br /><br />\\(f''(x)=-\\csc^2 x\\).<br /><br />At π/2: negative → local maximum confirmed.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)$ is decreasing on $\\left(0,\\frac{\\pi}{2}\\right)$ and increasing on $\\left(\\frac{\\pi}{2},\\pi\\right)$.<br />(b) Minimum value is $0$.<br />(c) $f''\\left(\\frac{\\pi}{2}\\right)>0$.",
+    "B": "(a) $f(x)$ is increasing on $\\left(0,\\frac{\\pi}{2}\\right)$ and decreasing on $\\left(\\frac{\\pi}{2},\\pi\\right)$.<br />(b) Maximum value is $0$ at $x=\\frac{\\pi}{2}$.<br />(c) $f''\\left(\\frac{\\pi}{2}\\right)<0$, confirming a maximum.",
+    "C": "(a) $f(x)$ is increasing throughout $(0,\\pi)$.<br />(b) Maximum value is $1$.<br />(c) $f''(x)=\\csc^2x$.",
+    "D": "(a) $f(x)$ is decreasing throughout $(0,\\pi)$.<br />(b) Maximum value is $\\log 2$.<br />(c) $f''\\left(\\frac{\\pi}{2}\\right)=0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:21:20 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

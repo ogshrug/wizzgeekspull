@@ -1,0 +1,25 @@
+{
+  "id": "6a1593016050c058f876e50b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989",
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "LA",
+  "question": "Find: $\\int \\cos x \\cdot \\tan^{-1}(\\sin x) \\, dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Apply initial variable substitution**<br />Let us substitute the inner sine function to simplify the expression: let $\\sin x = t$. Differentiating gives $\\cos x \\, dx = dt$. Substituting these into the original integral:<br />$I = \\int \\tan^{-1}(t) \\, dt$<br /><br />**Step 2: Set up Integration by Parts**<br />To integrate $\\tan^{-1}(t)$, we use the Integration by Parts formula $\\int u \\, dv = u \\cdot v - \\int v \\, du$. We introduce 1 as a dummy second function:<br />Let $u = \\tan^{-1}(t) \\implies du = \\frac{1}{1+t^2} \\, dt$<br />Let $dv = 1 \\, dt \\implies v = t$<br />Applying the parts formula gives:<br />$I = t \\cdot \\tan^{-1}(t) - \\int \\frac{t}{1+t^2} \\, dt$<br /><br />**Step 3: Integrate the remaining fractional term**<br />To solve $\\int \\frac{t}{1+t^2} \\, dt$, multiply the numerator and denominator by 2 to construct the derivative of the denominator:<br />$\\int \\frac{t}{1+t^2} \\, dt = \\frac{1}{2} \\int \\frac{2t}{1+t^2} \\, dt = \\frac{1}{2}\\log|1+t^2|$<br />Substituting this back into our primary equation gives:<br />$I = t \\cdot \\tan^{-1}(t) - \\frac{1}{2}\\log(1+t^2) + C$<br /><br />**Step 4: Substitute the original variables back**<br />Replace $t$ with $\\sin x$ to find the final integrated expression:<br />$I = \\sin x \\cdot \\tan^{-1}(\\sin x) - \\frac{1}{2}\\log(1+\\sin^2 x) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

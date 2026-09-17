@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc1cc4b490c7cde3594f3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}(x^3+\\cos x)\\,dx$ using the properties of even and odd functions.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Separating the integral</b><br>By the additive property of definite integrals,<br>$$\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}(x^3+\\cos x)\\,dx=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}x^3\\,dx+\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\cos x\\,dx$$<br><b>Step 2: Identifying the odd part</b><br>Since $x^3$ is an odd function, its integral over the symmetric interval is zero:<br>$$\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}x^3\\,dx=0$$<br><b>Step 3: Identifying the even part</b><br>Since $\\cos x$ is even,<br>$$\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\cos x\\,dx=2\\int_0^{\\frac{\\pi}{2}}\\cos x\\,dx$$<br><b>Step 4: Evaluating the remaining integral</b><br>$$2\\int_0^{\\frac{\\pi}{2}}\\cos x\\,dx=2[\\sin x]_0^{\\frac{\\pi}{2}}=2$$<br><b>Step 5: Stating the final value</b><br>Therefore, the required integral is $\\boxed{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$\\pi$",
+    "C": "$4$",
+    "D": "$2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

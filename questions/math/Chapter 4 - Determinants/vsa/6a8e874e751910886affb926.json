@@ -1,0 +1,29 @@
+{
+  "id": "6a8e874e751910886affb926",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "VSA",
+  "question": "If $A=[2k-1]$ and $B=[k+5]$ are matrices of order $1$ satisfying $|A|=|B|$, find the common value of their determinants.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Express the determinants</b><br>For matrices of order $1$, the determinant equals the single entry. Hence, $$|A|=2k-1\\quad\\text{and}\\quad|B|=k+5$$<br><b>Step 2: Apply the given equality</b><br>Since $|A|=|B|$, $$2k-1=k+5$$<br><b>Step 3: Determine the parameter</b><br>Simplifying gives $k=6$.<br><b>Step 4: Calculate the common determinant</b><br>Substituting $k=6$, $$|A|=2(6)-1=11$$ and $$|B|=6+5=11$$<br>Therefore, the common value of the determinants is $11$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$5$",
+    "B": "$11$",
+    "C": "$6$",
+    "D": "$17$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

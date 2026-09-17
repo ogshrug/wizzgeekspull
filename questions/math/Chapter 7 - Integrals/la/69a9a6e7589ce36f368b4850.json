@@ -1,0 +1,29 @@
+{
+  "id": "69a9a6e7589ce36f368b4850",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int \\frac{x^3}{x^2+1} dx$.",
+  "answeroption": "D",
+  "explanation": "Use algebraic division.<br /><br />$\\frac{x^3}{x^2+1}=x-\\frac{x}{x^2+1}$.<br /><br />Thus the integral becomes:<br /><br />$\\int x dx - \\int \\frac{x}{x^2+1}dx$.<br /><br />First term gives $\\frac{x^2}{2}$.<br /><br />Let $u=x^2+1$, then $du=2x dx$.<br /><br />$\\int \\frac{x}{x^2+1}dx = \\frac{1}{2}\\ln|x^2+1|$.<br /><br />Therefore result is:<br /><br />$\\frac{x^2}{2}-\\frac{1}{2}\\ln|x^2+1|+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x^2}{2}+\\frac{1}{2}\\ln|x^2+1|+C$",
+    "B": "$x^2-\\frac{1}{2}\\ln|x^2+1|+C$",
+    "C": "$\\frac{x^2}{2}-\\ln|x^2+1|+C$",
+    "D": "$\\frac{x^2}{2}-\\frac{1}{2}\\ln|x^2+1|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:53:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

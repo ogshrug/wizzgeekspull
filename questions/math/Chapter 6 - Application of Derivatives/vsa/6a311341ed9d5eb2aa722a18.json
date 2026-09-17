@@ -1,0 +1,26 @@
+{
+  "id": "6a311341ed9d5eb2aa722a18",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "VSA",
+  "question": "If equal sides of an isosceles triangle with fixed base 10 cm are increasing at the rate of $4~cm/sec.$ how fast is the area of triangle increasing at an instant when all sides become equal?",
+  "answeroption": "",
+  "explanation": "**Step 1: Express Area in Terms of Equal Side**  \nLet the equal sides be $a$ cm and fixed base be $b = 10$ cm. The height $h$ of the isosceles triangle is:  \n$$h = \\sqrt{a^2 - \\left(\\frac{b}{2}\\right)^2} = \\sqrt{a^2 - 25}$$  \nArea $A = \\frac{1}{2} \\times b \\times h = \\frac{1}{2} \\times 10 \\times \\sqrt{a^2 - 25} = 5\\sqrt{a^2 - 25}$.<br /><br />**Step 2: Differentiate with Respect to Time**  \n$$\\frac{dA}{dt} = 5 \\times \\frac{1}{2\\sqrt{a^2 - 25}} \\times 2a \\times \\frac{da}{dt} = \\frac{5a}{\\sqrt{a^2 - 25}} \\cdot \\frac{da}{dt}$$<br /><br />**Step 3: Find the Instant When All Sides Become Equal**  \nAll sides become equal when $a = 10$ cm (since base is 10 cm).<br /><br />**Step 4: Substitute the Values**  \nGiven $\\frac{da}{dt} = 4$ cm/sec and $a = 10$ cm:  \n$$\\frac{dA}{dt} = \\frac{5(10)}{\\sqrt{100 - 25}} \\times 4 = \\frac{50}{\\sqrt{75}} \\times 4 = \\frac{200}{5\\sqrt{3}} = \\frac{40}{\\sqrt{3}} \\text{ cm}^2/\\text{sec}$$<br /><br />**Step 5: Final Answer**  \nThe area is increasing at the rate of $\\frac{40}{\\sqrt{3}}$ cm²/sec.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a22903d864be73cfcf6d20d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "If $\\sqrt{1-x^2} + \\sqrt{1-y^2} = a(x-y)$, prove that $\\frac{dy}{dx} = \\sqrt{\\frac{1-y^2}{1-x^2}}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $x = \\sin \\theta$ and $y = \\sin \\phi$. Equation becomes $\\cos \\theta + \\cos \\phi = a(\\sin \\theta - \\sin \\phi)$.<br />**Step 2:** Apply sum-to-product identities: $2 \\cos(\\frac{\\theta+\\phi}{2}) \\cos(\\frac{\\theta-\\phi}{2}) = a [2 \\cos(\\frac{\\theta+\\phi}{2}) \\sin(\\frac{\\theta-\\phi}{2})]$.<br />**Step 3:** Cancel common terms to get $\\cot(\\frac{\\theta-\\phi}{2}) = a$.<br />**Step 4:** Isolate $\\theta - \\phi = 2 \\cot^{-1}(a)$. Substitute back: $\\sin^{-1}x - \\sin^{-1}y = 2 \\cot^{-1}(a)$.<br />**Step 5:** Differentiate w.r.t $x$: $\\frac{1}{\\sqrt{1-x^2}} - \\frac{1}{\\sqrt{1-y^2}} \\frac{dy}{dx} = 0$. Rearrange to get $\\frac{dy}{dx} = \\sqrt{\\frac{1-y^2}{1-x^2}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1",
+    "2024-1-2",
+    "2024-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

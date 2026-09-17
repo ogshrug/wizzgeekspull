@@ -1,0 +1,29 @@
+{
+  "id": "69aa7a88aff2be72fd28eb8e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A carpenter makes tables and chairs. Each table requires 2 hours and each chair 1.5 hours to build. The carpenter works at most 18 hours per week. Tables and chairs need 3 and 2 kg of wood, respectively, with a weekly availability of 30 kg. Profit on a table is ₹100 and on a chair is ₹70. Find how many tables and chairs should be made to maximize profit. Graphically solve the LPP.",
+  "answeroption": "D",
+  "explanation": "Let $x$ = tables, $y$ = chairs.<br /><br />Maximize $Z=100x+70y$<br /><br />Time: $2x+1.5y\\leq18$<br /><br />Wood: $3x+2y\\leq30$<br /><br />$x,y\\geq0$<br /><br />First, convert $1.5y$ into $3y/2$ to clear decimals: $4x+3y=36$<br /><br />Wood: $3x+2y=30$<br /><br />Intersection:<br /><br />$4x+3y=36$ (multiply time constraint by 2)<br /><br />$3x+2y=30$<br /><br />Multiply first by 2: $8x+6y=72$<br /><br />Multiply second by 3: $9x+6y=90$<br /><br />Subtract: $x=18$<br /><br />So $x=18$<br /><br />$4*18+3y=36\\implies72+3y=36\\implies 3y=36-72=-36$ not feasible as negative $y$.<br /><br />Alternate: Solve for intercepts:<br /><br />$2x+1.5y=18$, $y=0\\implies x=9$<br /><br />$3x+2y=30$, $y=0\\implies x=10$<br /><br />$x=0$: $1.5y=18\\implies y=12$, $2y=30\\implies y=15$<br /><br />So, $(0,12), (9,0), (10,0), (0,15)$<br /><br />Try another intersection: $y=0$<br /><br />Try $x=6, y=4$ in both: $2*6+1.5*4=12+6=18$<br /><br />$3*6+2*4=18+8=26$, which satisfies wood.<br /><br />Check $(6,4)$<br /><br />At $(6,4): Z=100*6+70*4=600+280=880$<br /><br />At $(9,0): 2*9+1.5*0=18$, $3*9=27<30$ profit $900$<br /><br />$(0,12): 1.5*12=18$, $2*12=24<30$ profit $840$<br /><br />$(8,3): 2*8+1.5*3=16+4.5=20.5>18$ not possible.<br /><br />Best, $(6,4): ₹880$<br /><br />So, make 6 tables and 4 chairs for max profit.",
+  "explanation_image": [],
+  "options": {
+    "A": "Make 9 tables and 0 chairs; maximum profit ₹900.",
+    "B": "Make 0 tables and 12 chairs; maximum profit ₹840.",
+    "C": "Make 8 tables and 3 chairs; maximum profit ₹1010.",
+    "D": "Make 6 tables and 4 chairs; maximum profit ₹880."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:56:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

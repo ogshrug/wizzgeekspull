@@ -1,0 +1,27 @@
+{
+  "id": "6a2fd395e9d6ca4a0a42b13c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa",
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation: $\\log\\left(\\frac{dy}{dx}\\right)=ax+by$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Convert the logarithmic differential equation into exponential form: $\\frac{dy}{dx} = e^{ax+by}$.<br />**Step 2:** Use exponent rules to separate the variables: $e^{ax+by} = e^{ax} \\cdot e^{by}$.<br />**Step 3:** Separate the variables $x$ and $y$ to opposite sides of the equation: $\\frac{dy}{e^{by}} = e^{ax} dx$, which simplifies to $e^{-by} dy = e^{ax} dx$.<br />**Step 4:** Integrate both sides independently.<br />**Step 5:** Apply the constant of integration to state the final general solution: $-\\frac{e^{-by}}{b} = \\frac{e^{ax}}{a} + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

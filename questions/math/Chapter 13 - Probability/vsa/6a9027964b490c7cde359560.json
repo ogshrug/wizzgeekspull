@@ -1,0 +1,29 @@
+{
+  "id": "6a9027964b490c7cde359560",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "VSA",
+  "question": "Three machines $A$, $B$ and $C$ manufacture $50\\%$, $30\\%$ and $20\\%$ of the total items respectively. Their respective defective-item rates are $1\\%$, $2\\%$ and $4\\%$. If one item is selected at random, find the probability that it is defective.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> Let $D$ be the event that the selected item is defective. Let $A$, $B$ and $C$ represent the events that the item is produced by the corresponding machines.<br><b>Step 2:</b> We have $P(A)=0.5$, $P(B)=0.3$, $P(C)=0.2$, while $P(D\\mid A)=0.01$, $P(D\\mid B)=0.02$ and $P(D\\mid C)=0.04$.<br><b>Step 3:</b> Using total probability, $P(D)=P(A)P(D\\mid A)+P(B)P(D\\mid B)+P(C)P(D\\mid C)$.<br><b>Step 4:</b> Hence, $P(D)=0.5\\times0.01+0.3\\times0.02+0.2\\times0.04=0.005+0.006+0.008$.<br><b>Step 5:</b> Therefore, the required probability is $0.019$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0.015$",
+    "B": "$0.017$",
+    "C": "$0.019$",
+    "D": "$0.021$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

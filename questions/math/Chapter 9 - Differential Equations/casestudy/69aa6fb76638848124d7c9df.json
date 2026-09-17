@@ -1,0 +1,30 @@
+{
+  "id": "69aa6fb76638848124d7c9df",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A manufacturing firm monitors its machinery temperature according to Newton’s Law of Cooling. Let $T(t)$ be the temperature of a machine at time $t$ minutes after being switched off. The machine is switched off when its temperature is $100^{\\circ}C$, and the surrounding room temperature is $25^{\\circ}C$. After 5 minutes, its temperature drops to $80^{\\circ}C$.<br /><br />(a) Formulate the differential equation describing this process.<br /><br />(b) Find the temperature $T(t)$ as a function of time $t$.<br /><br />(c) In how many minutes will the machine reach $40^{\\circ}C$? Comment on when $T(t)$ will reach $25^{\\circ}C$ according to this model.",
+  "answeroption": "B",
+  "explanation": "(a)<br /><br />By Newton’s Law:<br /><br />$\\frac{dT}{dt} = -k(T-25)$<br /><br />(b)<br /><br />Rearranging and integrating:<br /><br />$\\frac{dT}{T-25} = -k dt$<br /><br />$\\int \\frac{1}{T-25} dT = -k \\int dt$<br /><br />$\\ln|T-25| = -kt + C$<br /><br />$T-25 = Ce^{-kt}$<br /><br />At $t=0,\\ T=100$:<br /><br />$100 - 25 = C \\implies C = 75$<br /><br />So, $T(t) = 25 + 75e^{-kt}$<br /><br />At $t=5,\\ T=80$:<br /><br />$80 = 25 + 75e^{-5k}$<br /><br />$55 = 75e^{-5k}$<br /><br />$e^{-5k} = \\frac{11}{15}$<br /><br />$-5k = \\ln \\left( \\frac{11}{15} \\right)$<br /><br />$k = -\\frac{1}{5} \\ln \\left( \\frac{11}{15} \\right)$<br /><br />(c)<br /><br />Set $T(t)=40$:<br /><br />$40 = 25 + 75e^{-kt}$<br /><br />$15 = 75e^{-kt}$<br /><br />$e^{-kt} = \\frac{1}{5}$<br /><br />$-kt = \\ln \\frac{1}{5}$<br /><br />$t = \\frac{-\\ln \\frac{1}{5}}{k}$<br /><br />Plug in $k$:<br /><br />$\\ln \\frac{1}{5} = -\\ln 5\\,\\Rightarrow\\, t = \\frac{\\ln 5}{-\\frac{1}{5} \\ln \\frac{11}{15}}$<br /><br />$\\ln \\frac{11}{15} \\approx \\ln 0.733 \\approx -0.311$<br /><br />So, $k \\approx -\\frac{1}{5} \\times (-0.311) = 0.0622$<br /><br />$t \\approx \\frac{1.609}{0.0622} \\approx 25.86$ minutes<br /><br />The machine will reach $40^{\\circ}C$ after about $25.86$ minutes.<br /><br />As $t \\to \\infty$, $e^{-kt} \\to 0$, so $T(t) \\to 25^{\\circ}$ but never reaches it exactly. The machine will never attain room temperature exactly; it approaches $25^{\\circ}C$ asymptotically.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dT}{dt}=k(T-25)$<br />(b) $T(t)=25+75e^{kt}$<br />(c) $T=40^\\circ C$ after about $5$ minutes; it reaches $25^\\circ C$ exactly",
+    "B": "(a) $\\frac{dT}{dt}=-k(T-25)$<br />(b) $T(t)=25+75e^{-kt}$, where $k=-\\frac{1}{5}\\ln\\left(\\frac{11}{15}\\right)$<br />(c) $T=40^\\circ C$ after about $25.86$ minutes; it approaches $25^\\circ C$ asymptotically and never reaches it exactly",
+    "C": "(a) $\\frac{dT}{dt}=-kT$<br />(b) $T(t)=100e^{-kt}$<br />(c) $T=40^\\circ C$ after about $15.25$ minutes; it reaches $25^\\circ C$ exactly",
+    "D": "(a) $\\frac{dT}{dt}=-(T+25)$<br />(b) $T(t)=100-25t$<br />(c) $T=40^\\circ C$ after about $2.4$ minutes; it becomes negative later"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:09:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

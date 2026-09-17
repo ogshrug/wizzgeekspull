@@ -1,0 +1,31 @@
+{
+  "id": "6a3294786dbc98396e70a7a5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A$ and $B$ are invertible matrices of order $3\\times3$ such that $\\det(A)=4$ and $\\det\\left[(AB)^{-1}\\right]=\\frac{1}{20}$, then $\\det(B)$ is equal to:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Use the inverse matrix determinant property, which states that $\\det(M^{-1}) = \\frac{1}{\\det(M)}$. Applying this to the given equation yields $\\frac{1}{\\det(AB)} = \\frac{1}{20} \\implies \\det(AB) = 20$.<br />**Step 2:** Apply the multiplicative property of determinants for square matrices, which dictates that $\\det(AB) = \\det(A) \\cdot \\det(B)$. This transforms our formula into $\\det(A) \\cdot \\det(B) = 20$.<br />**Step 3:** Substitute the given scalar value $\\det(A) = 4$ into the equation and solve for the unknown parameter: $4 \\cdot \\det(B) = 20 \\implies \\det(B) = 5$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{20}$",
+    "B": "$\\frac{1}{5}$",
+    "C": "20",
+    "D": "5"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

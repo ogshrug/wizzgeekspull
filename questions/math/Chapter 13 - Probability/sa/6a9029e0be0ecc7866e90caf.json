@@ -1,0 +1,29 @@
+{
+  "id": "6a9029e0be0ecc7866e90caf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "SA",
+  "question": "A box is selected at random from two boxes $B_1$ and $B_2$ with probabilities $\\frac25$ and $\\frac35$ respectively. The probability of drawing a white ball from $B_1$ is $\\frac12$, while that from $B_2$ is $\\frac34$. A white ball is drawn. Find the probability that it was drawn from $B_2$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Identification of events</b><br>Let $W$ be the event that the ball drawn is white. Let $B_1$ and $B_2$ denote the events of selecting the first and second boxes respectively.<br><b>Step 2: Given probabilities</b><br>$$P(B_1)=\\frac25,\\quad P(B_2)=\\frac35$$ $$P(W|B_1)=\\frac12,\\quad P(W|B_2)=\\frac34$$<br><b>Step 3: Application of Bayes’ theorem</b><br>$$P(B_2|W)=\\frac{P(B_2)P(W|B_2)}{P(B_1)P(W|B_1)+P(B_2)P(W|B_2)}$$<br><b>Step 4: Substitution</b><br>$$P(B_2|W)=\\frac{\\frac35\\times\\frac34}{\\frac25\\times\\frac12+\\frac35\\times\\frac34}$$ $$=\\frac{\\frac9{20}}{\\frac15+\\frac9{20}}=\\frac{\\frac9{20}}{\\frac{13}{20}}$$<br><b>Step 5: Conclusion</b><br>Hence, the required probability is $$\\boxed{\\frac9{13}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{9}{13}$",
+    "B": "$\\frac{6}{13}$",
+    "C": "$\\frac{3}{5}$",
+    "D": "$\\frac{9}{20}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8ebe49751910886affb983",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "SA",
+  "question": "A student claims: \"Every continuous function is differentiable.\" Examine the validity of the statement using the function $f(x)=|x|$ at $x=0$.",
+  "answeroption": "D",
+  "explanation": "<b>Checking continuity at $x=0$</b><br>$$\\lim_{x\\to 0^-}|x|=0,\\qquad \\lim_{x\\to 0^+}|x|=0$$<br>Also, $f(0)=0$. Hence, $$\\lim_{x\\to 0}f(x)=f(0)$$ so $f$ is continuous at $x=0$.<br><b>Checking differentiability at $x=0$</b><br>The left-hand derivative is $$\\lim_{h\\to 0^-}\\frac{|h|}{h}=-1$$ and the right-hand derivative is $$\\lim_{h\\to 0^+}\\frac{|h|}{h}=1$$<br>These are unequal, so $f$ is not differentiable at $x=0$.<br><b>Conclusion</b><br>The statement is false. A function may be continuous at a point without being differentiable there.",
+  "explanation_image": [],
+  "options": {
+    "A": "The statement is true because $|x|$ is both continuous and differentiable at $x=0$.",
+    "B": "The statement is true because continuity always implies equality of one-sided derivatives.",
+    "C": "The statement is false because $|x|$ is neither continuous nor differentiable at $x=0$.",
+    "D": "The statement is false because $|x|$ is continuous at $x=0$ but its left-hand and right-hand derivatives are $-1$ and $1$ respectively."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

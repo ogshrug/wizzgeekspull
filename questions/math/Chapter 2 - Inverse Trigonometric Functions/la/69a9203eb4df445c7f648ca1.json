@@ -1,0 +1,29 @@
+{
+  "id": "69a9203eb4df445c7f648ca1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "If $x, y \\in [-1,1]$ and $\\sin^{-1}x + \\sin^{-1}y = \\frac{\\pi}{2}$, prove that $x^2 + y^2 = 1$.",
+  "answeroption": "D",
+  "explanation": "Let $\\alpha = \\sin^{-1}x$ and $\\beta = \\sin^{-1}y$.<br /><br />Given $\\alpha + \\beta = \\frac{\\pi}{2}$.<br /><br />Then $y = \\sin(\\frac{\\pi}{2}-\\alpha) = \\cos\\alpha$.<br /><br />Since $x = \\sin\\alpha$, we obtain $y = \\sqrt{1-x^2}$.<br /><br />Thus $x^2 + y^2 = x^2 + (1-x^2)$.<br /><br />Therefore $x^2 + y^2 = 1$.<br /><br />Hence proved.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $\\alpha=\\sin^{-1}x$ and $\\beta=\\sin^{-1}y$. Since $\\alpha=\\beta$, we get $x=y$, hence $x^2+y^2=2x^2$.",
+    "B": "Let $\\alpha=\\sin^{-1}x$ and $\\beta=\\sin^{-1}y$. Since $\\beta=\\frac{\\pi}{2}+\\alpha$, we get $y=\\cos\\alpha$, hence $x^2-y^2=1$.",
+    "C": "Let $\\alpha=\\sin^{-1}x$ and $\\beta=\\sin^{-1}y$. Since $\\alpha+\\beta=\\frac{\\pi}{2}$, we get $y=\\sin\\alpha$, hence $x^2+y^2=2x^2$.",
+    "D": "Let $\\alpha=\\sin^{-1}x$ and $\\beta=\\sin^{-1}y$. Since $\\beta=\\frac{\\pi}{2}-\\alpha$, we get $y=\\cos\\alpha$ and $x=\\sin\\alpha$, hence $x^2+y^2=1$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:18:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

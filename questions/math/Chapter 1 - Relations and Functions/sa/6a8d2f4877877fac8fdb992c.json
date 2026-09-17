@@ -1,0 +1,29 @@
+{
+  "id": "6a8d2f4877877fac8fdb992c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "SA",
+  "question": "Let $R$ be a relation on $\\mathbb{Z}$ defined by $aRb$ if $4\\mid(a-b)$. Show that $R$ is transitive.",
+  "answeroption": "C",
+  "explanation": "<b>Using the two given relations</b><br>Let $(a,b)\\in R$ and $(b,c)\\in R$. Then, for some $m,n\\in\\mathbb{Z}$,<br>$$a-b=4m\\quad\\text{and}\\quad b-c=4n.$$<br><br><b>Combining the differences</b><br>Adding the two equations gives<br>$$a-c=(a-b)+(b-c)=4m+4n=4(m+n).$$<br>Since $m+n\\in\\mathbb{Z}$, it follows that $4\\mid(a-c)$. Hence, $(a,c)\\in R$.<br><br><b>Conclusion</b><br>Whenever $(a,b)\\in R$ and $(b,c)\\in R$, we have $(a,c)\\in R$. Therefore, $R$ is transitive.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is not transitive because $4\\mid(a-b)$ does not imply $4\\mid(b-a)$",
+    "B": "$R$ is transitive only when $a=b=c$",
+    "C": "$R$ is transitive because $4\\mid(a-b)$ and $4\\mid(b-c)$ imply $4\\mid(a-c)$",
+    "D": "$R$ is not transitive because $(a-b)+(b-c)=a+c$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

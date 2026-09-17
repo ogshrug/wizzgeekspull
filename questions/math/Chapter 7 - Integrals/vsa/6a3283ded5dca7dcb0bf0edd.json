@@ -1,0 +1,26 @@
+{
+  "id": "6a3283ded5dca7dcb0bf0edd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "VSA",
+  "question": "Find: $\\int \\frac{2x}{(x^2+1)(x^2-4)} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use substitution. Let $t = x^2$, which yields $dt = 2x dx$. The integral becomes $\\int \\frac{1}{(t+1)(t-4)} dt$.\n\n**Step 2:** Apply partial fractions: $\\frac{1}{(t+1)(t-4)} = \\frac{A}{t+1} + \\frac{B}{t-4} \\implies 1 = A(t-4) + B(t+1)$.\n\n**Step 3:** Solve for A and B. When $t=4$, $1 = 5B \\implies B = 1/5$. When $t=-1$, $1 = -5A \\implies A = -1/5$.\n\n**Step 4:** Integrate with respect to t: $\\int (\\frac{-1/5}{t+1} + \\frac{1/5}{t-4}) dt = \\frac{1}{5}\\ln|t-4| - \\frac{1}{5}\\ln|t+1| = \\frac{1}{5}\\ln|\\frac{t-4}{t+1}| + C$.\n\n**Step 5:** Substitute back $x^2$: $\\frac{1}{5}\\ln|\\frac{x^2-4}{x^2+1}| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

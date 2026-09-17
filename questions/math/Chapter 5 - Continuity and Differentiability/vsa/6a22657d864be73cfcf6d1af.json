@@ -1,0 +1,29 @@
+{
+  "id": "6a22657d864be73cfcf6d1af",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "VSA",
+  "question": "If $(x)^{y}=(y)^{x}$, then find $\\frac{dy}{dx}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Take the natural logarithm of both sides to bring the exponents down: $\\log(x^y) = \\log(y^x)$, which simplifies to $y \\log x = x \\log y$.<br />**Step 2:** Differentiate both sides implicitly with respect to $x$ using the product rule.<br />**Step 3:** On the left side: $\\frac{dy}{dx} \\log x + y \\frac{1}{x}$.<br />**Step 4:** On the right side: $1 \\cdot \\log y + x \\frac{1}{y} \\frac{dy}{dx}$.<br />**Step 5:** Equate the differentiated sides: $\\log x \\frac{dy}{dx} + \\frac{y}{x} = \\log y + \\frac{x}{y} \\frac{dy}{dx}$.<br />**Step 6:** Group all terms containing $\\frac{dy}{dx}$ on one side: $\\frac{dy}{dx}(\\log x - \\frac{x}{y}) = \\log y - \\frac{y}{x}$.<br />**Step 7:** Simplify by finding common denominators: $\\frac{dy}{dx}(\\frac{y\\log x - x}{y}) = \\frac{x\\log y - y}{x}$.<br />**Step 8:** Isolate $\\frac{dy}{dx}$ to get the final expression: $\\frac{dy}{dx} = \\frac{y(x\\log y - y)}{x(y\\log x - x)}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

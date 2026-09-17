@@ -1,0 +1,30 @@
+{
+  "id": "69aa65dfd30adc5083911b6d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\sin^{-1}\\left(2x\\sqrt{1-x^2}\\right)$ for $x \\in [0,1]$.\n\n(a) Prove that $f(x) = 2 \\sin^{-1}(x)$ for $x \\in [0,1/\\sqrt{2}]$.\n\n(b) Compute $f'(x)$ and simplify your answer for $x \\in [0,1/\\sqrt{2}]$.\n\n(c) Let $g(x) = \\cos^{-1}(x)$, use $f'(x)$ and $g'(x)$ to discuss the monotonicity of $f(x)-g(x)$ on $[0,1/\\sqrt{2}]$.\n\n(d) Find all $x$ in $[0,1/\\sqrt{2}]$ such that $f(x)-g(x)=0$.",
+  "answeroption": "C",
+  "explanation": "**Concepts tested:** Double angle formulas, inverse trigonometric identities, derivatives, monotonicity.<br /><br />Step 1<br />Using $\\sin2\\theta=2\\sin\\theta\\cos\\theta$.<br />Let $\\theta=\\sin^{-1}x$.<br />Then $f(x)=2\\sin^{-1}x$ for $x\\in[0,1/\\sqrt2]$.<br /><br />Step 2<br />$f'(x)=2\\cdot\\frac{1}{\\sqrt{1-x^2}}$.<br /><br />Step 3<br />$g'(x)=-\\frac{1}{\\sqrt{1-x^2}}$.<br />$f'(x)-g'(x)=\\frac{3}{\\sqrt{1-x^2}}>0$.<br />Hence $f(x)-g(x)$ strictly increasing.<br /><br />Step 4<br />Since increasing, there exists a unique root in $(0,1/\\sqrt2)$ where $f(x)-g(x)=0$. Approximate value $x\\approx0.373$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=\\sin^{-1}x$<br />(b) $f'(x)=\\frac{1}{\\sqrt{1-x^2}}$<br />(c) $f(x)-g(x)$ is decreasing on the interval<br />(d) No root exists",
+    "B": "(a) $f(x)=2\\cos^{-1}x$<br />(b) $f'(x)=-\\frac{2}{\\sqrt{1-x^2}}$<br />(c) $f(x)-g(x)$ is constant<br />(d) Every $x$ in the interval is a root",
+    "C": "(a) $f(x)=2\\sin^{-1}x$ for $x\\in[0,1/\\sqrt2]$<br />(b) $f'(x)=\\frac{2}{\\sqrt{1-x^2}}$<br />(c) Since $g'(x)=-\\frac{1}{\\sqrt{1-x^2}}$, $f'(x)-g'(x)=\\frac{3}{\\sqrt{1-x^2}}>0$, so $f(x)-g(x)$ is strictly increasing<br />(d) There is a unique root in $(0,1/\\sqrt2)$, approximately $x\\approx0.373$ as stated",
+    "D": "(a) $f(x)=\\tan^{-1}x$<br />(b) $f'(x)=\\frac{1}{1+x^2}$<br />(c) $f(x)-g(x)$ is decreasing then increasing<br />(d) The root is $x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:27:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

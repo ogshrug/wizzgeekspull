@@ -1,0 +1,29 @@
+{
+  "id": "69a9b3d0589ce36f368b489c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int e^x (\\cot x + \\log \\sin x) dx$.",
+  "answeroption": "D",
+  "explanation": "Note that $\\frac{d}{dx}(\\log\\sin x)=\\cot x$.<br /><br />Thus the integrand becomes $e^x[f(x)+f'(x)]$ where $f(x)=\\log\\sin x$.<br /><br />Using $\\int e^x[f(x)+f'(x)]dx=e^x f(x)+C$.<br /><br />Hence the result is $e^x\\log(\\sin x)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^x\\cot x+C$",
+    "B": "$e^x(\\cot x+\\log\\sin x)+C$",
+    "C": "$e^x\\log(\\cos x)+C$",
+    "D": "$e^x\\log(\\sin x)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:48:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

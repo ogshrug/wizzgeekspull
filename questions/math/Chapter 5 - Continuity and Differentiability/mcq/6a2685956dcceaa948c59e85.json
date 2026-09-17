@@ -1,0 +1,33 @@
+{
+  "id": "6a2685956dcceaa948c59e85",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of k for which function $f(x) = \\begin{cases}x^2,&x \\ge 0\\\\ kx,&x < 0\\end{cases}$ is differentiable at $x = 0$ is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** For a piece-wise function to be differentiable at a transition point $x=0$, the Left-Hand Derivative (LHD) must equal the Right-Hand Derivative (RHD).<br />**Step 2:** Calculate the RHD by differentiating the upper function branch for $x \\ge 0$: $\\frac{d}{dx}(x^2) = 2x$. Evaluating this derivative at $x = 0$ results in $\\text{RHD} = 2(0) = 0$.<br />**Step 3:** Calculate the LHD by differentiating the lower function branch for $x < 0$: $\\frac{d}{dx}(kx) = k$. Equating LHD and RHD to satisfy differentiability yields $k = 0$, matching option D.",
+  "explanation_image": [],
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "any real number",
+    "D": "0"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

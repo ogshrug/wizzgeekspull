@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed96e4b490c7cde3594a8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "VSA",
+  "question": "If $A(x)=\\int_0^x\\sqrt{1+t^2}\\,dt$, find $A'(\\sqrt{3})$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> The function is of the form $$A(x)=\\int_0^xf(t)\\,dt,$$ where $f(t)=\\sqrt{1+t^2}$.<br><b>Step 2:</b> The function $f$ is continuous, so the first Fundamental Theorem of Calculus applies.<br><b>Step 3:</b> Therefore, $A'(x)=f(x)=\\sqrt{1+x^2}$.<br><b>Step 4:</b> Substituting $x=\\sqrt{3}$ gives $$A'(\\sqrt{3})=\\sqrt{1+(\\sqrt{3})^2}=\\sqrt{4}.$$<br><b>Step 5:</b> Hence, the required value is $\\boxed{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sqrt{3}$",
+    "B": "$4$",
+    "C": "$2$",
+    "D": "$1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a225445864be73cfcf6d15e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f994",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "SA",
+  "question": "Sketch the graph of $y=|x+3|$ and find the area of the region enclosed by the curve, x-axis, between $x=-6$ and $x=0$, using integration.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The graph of the absolute value function $y = |x+3|$ is a standard V-shaped curve with its vertex situated exactly at $x = -3$ on the x-axis. It opens straight upwards.<br />**Step 2:** To systematically find the area utilizing integration, we must split the integral exactly at the vertex $x = -3$, where the mathematical definition of the absolute value changes sign. Thus, $y = -(x+3)$ for $x < -3$ and $y = (x+3)$ for $x \\ge -3$.<br />**Step 3:** The definite area is formulated as $A = \\int_{-6}^{-3} -(x+3) dx + \\int_{-3}^{0} (x+3) dx$.<br />**Step 4:** Evaluate the first integral segment: $[-\\frac{x^2}{2} - 3x]_{-6}^{-3} = (-\\frac{9}{2} + 9) - (-\\frac{36}{2} + 18) = \\frac{9}{2} - 0 = \\frac{9}{2}$.<br />**Step 5:** Evaluate the second integral segment: $[\\frac{x^2}{2} + 3x]_{-3}^{0} = (0) - (\\frac{9}{2} - 9) = \\frac{9}{2}$. The combined total area is $\\frac{9}{2} + \\frac{9}{2} = 9$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1",
+    "2025-1-2",
+    "2025-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

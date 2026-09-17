@@ -1,0 +1,33 @@
+{
+  "id": "6a2265ebfbdd87b6dea73b76",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "MCQ",
+  "question": "The values of $\\lambda$ so that $f(x)=\\sin~x-\\cos~x-\\lambda x+C$ decreases for all real values of x are:",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> For the function $f(x)$ to be decreasing across all real numbers, its first derivative must be less than or equal to zero for all real values of $x$: $f'(x) \\le 0$. Let us compute the derivative: $f'(x) = \\cos x - (-\\sin x) - \\lambda = \\cos x + \\sin x - \\lambda$.<br /><br /><b>Step 2</b> Set up the inequality condition: $\\cos x + \\sin x - \\lambda \\le 0 \\implies \\cos x + \\sin x \\le \\lambda$. This condition must hold true across the entire domain of real numbers, meaning $\\lambda$ must be greater than or equal to the absolute maximum possible value of the expression $\\cos x + \\sin x$.<br /><br /><b>Step 3</b> Recall that the maximum value for any trigonometric combination of the form $a\\cos x + b\\sin x$ is given by $\\sqrt{a^2 + b^2}$. For $\\cos x + \\sin x$, the maximum value evaluates to $\\sqrt{1^2 + 1^2} = \\sqrt{2}$. Therefore, the parameter must satisfy $\\lambda \\ge \\sqrt{2}$, which corresponds to option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1 < \\lambda < \\sqrt{2}$",
+    "B": "$\\lambda \\ge 1$",
+    "C": "$\\lambda \\ge \\sqrt{2}$",
+    "D": "$\\lambda < 1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

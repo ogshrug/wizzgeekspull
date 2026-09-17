@@ -1,0 +1,31 @@
+{
+  "id": "6a32953f6dbc98396e70a7a6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\int e^{-3\\log x}\\,dx=f(x)+C$, then $f(x)$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Simplify the exponential power expression using standard logarithmic identity rules: $-3\\log x=\\log(x^{-3})$. Therefore, $e^{\\log(x^{-3})}=x^{-3}=\\frac{1}{x^3}$.<br />**Step 2:** Integrate the simplified function using the power rule: $\\int x^{-3}\\,dx=\\frac{x^{-2}}{-2}=-\\frac{1}{2x^2}$.<br />**Step 3:** Hence, comparing with $f(x)+C$, we get $f(x)=-\\frac{1}{2x^2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^{-3\\log x}$",
+    "B": "$e^{\\log\\left(\\frac{1}{x^3}\\right)}$",
+    "C": "$-\\frac{1}{2x^2}$",
+    "D": "$-\\frac{1}{4x^4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

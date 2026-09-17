@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8e56751910886affb932",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d63"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A=\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}$ and $B=\\begin{bmatrix}1&-2\\\\0&k\\end{bmatrix}$. If $B$ is the inverse of $A$, find $k$.",
+  "answeroption": "C",
+  "explanation": "Step 1: If $B$ is the inverse of $A$, then the defining relation is $AB=BA=I$.<br>Step 2: Compute $AB$: $$AB=\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}\\begin{bmatrix}1&-2\\\\0&k\\end{bmatrix}=\\begin{bmatrix}1&-2+2k\\\\0&k\\end{bmatrix}.$$<br>Step 3: Since $AB=I_2=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$, corresponding entries must agree.<br>Step 4: Comparing the $(2,2)$th entries gives $k=1$. With this value, the $(1,2)$th entry is $-2+2(1)=0$, as required.<br>Step 5: Therefore, $k=1$, and for this value the given matrix $B$ serves as the inverse of $A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-1$",
+    "B": "$2$",
+    "C": "$1$",
+    "D": "$0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

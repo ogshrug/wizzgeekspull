@@ -1,0 +1,29 @@
+{
+  "id": "6a8e95974b490c7cde3593f4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\begin{vmatrix}1&1&1\\\\2&3&4\\\\4&9&16\\end{vmatrix}$ by using suitable column operations.",
+  "answeroption": "A",
+  "explanation": "<b>Column operations</b><br>Apply $C_2\\to C_2-C_1$ and $C_3\\to C_3-C_1$. These operations do not change the determinant. Thus, $$\\begin{vmatrix}1&1&1\\\\2&3&4\\\\4&9&16\\end{vmatrix}=\\begin{vmatrix}1&0&0\\\\2&1&2\\\\4&5&12\\end{vmatrix}$$<br><b>Expansion along the first row</b><br>Since the first row now contains two zeros, $$\\begin{vmatrix}1&0&0\\\\2&1&2\\\\4&5&12\\end{vmatrix}=1\\begin{vmatrix}1&2\\\\5&12\\end{vmatrix}$$<br><b>Evaluation of the remaining determinant</b><br>Therefore, $$1[(1)(12)-(2)(5)]=12-10=2$$<br>Hence, the value of the given determinant is $2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2$",
+    "B": "$-2$",
+    "C": "$6$",
+    "D": "$-6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

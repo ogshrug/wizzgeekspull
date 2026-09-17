@@ -1,0 +1,26 @@
+{
+  "id": "6a32937bd5dca7dcb0bf0efe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically:\nMinimize $z = 600x + 400y$\nsubject to the constraints:\n$x + y \\ge 8$\n$x + 2y \\le 16$\n$4x + y \\le 29$\n$x, y \\ge 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Graph the constraint lines $x+y=8$, $x+2y=16$, and $4x+y=29$ to find the corner points of the bounded feasible region.\n\n**Step 2:** Find the intersection of $x+y=8$ and $x+2y=16$. Subtracting gives $y=8$, and thus $x=0$. Corner point: $(0,8)$.\n\n**Step 3:** Find the intersection of $x+y=8$ and $4x+y=29$. Subtracting gives $3x=21 \\Rightarrow x=7$, and thus $y=1$. Corner point: $(7,1)$.\n\n**Step 4:** Find the intersection of $x+2y=16$ and $4x+y=29$. From first, $x = 16-2y$. Substitute: $4(16-2y)+y=29 \\Rightarrow 64-7y=29 \\Rightarrow 7y=35 \\Rightarrow y=5$, giving $x=6$. Corner point: $(6,5)$.\n\n**Step 5:** Evaluate $z=600x+400y$ at the corner points: $z(0,8) = 3200$, $z(7,1) = 4600$, $z(6,5) = 5600$. The minimum value is $3200$ at $(0,8)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69aa692c6638848124d7c9d6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Robotics — Angle Between Trajectory and Access Plane<br /><br />A robot ascends a ramp represented by plane $2x+y-z=0$ moving from $A(1,2,0)$ to $B(3,6,6)$.<br /><br />(a) Find the vector equation of the path.<br /><br />(b) Determine the direction ratios of the trajectory.<br /><br />(c) Find the angle between the trajectory and the plane.",
+  "answeroption": "C",
+  "explanation": "Direction $AB=(3-1,6-2,6-0)=(2,4,6)$.<br /><br />(a) Vector equation: $\\vec r=(1,2,0)+\\lambda(2,4,6)$.<br /><br />(b) Direction ratios: $(2,4,6)$.<br /><br />(c) Plane normal $(2,1,-1)$. Using $\\sin\\phi=\\frac{|d\\cdot n|}{|d||n|}$:<br /><br />$d\\cdot n=4+4-6=2$.<br /><br />$|d|=\\sqrt{56}=2\\sqrt{14}$ and $|n|=\\sqrt6$.<br /><br />$\\sin\\phi=\\frac{2}{4\\sqrt{21}}=\\frac{1}{2\\sqrt{21}}$.<br /><br />Thus $\\phi=\\sin^{-1}(1/(2\\sqrt{21}))$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec r=(1,2,0)+\\lambda(3,6,6)$<br />(b) Direction ratios: $(3,6,6)$<br />(c) $\\phi=\\cos^{-1}\\left(\\frac{1}{2\\sqrt{21}}\\right)$",
+    "B": "(a) $\\vec r=(3,6,6)+\\lambda(2,4,6)$<br />(b) Direction ratios: $(2,4,6)$<br />(c) $\\phi=\\sin^{-1}\\left(\\frac{1}{\\sqrt{21}}\\right)$",
+    "C": "(a) $\\vec r=(1,2,0)+\\lambda(2,4,6)$<br />(b) Direction ratios: $(2,4,6)$<br />(c) $\\phi=\\sin^{-1}\\left(\\frac{1}{2\\sqrt{21}}\\right)$",
+    "D": "(a) $\\vec r=(1,2,0)+\\lambda(2,1,-1)$<br />(b) Direction ratios: $(2,1,-1)$<br />(c) $\\phi=90^\\circ$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:42:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

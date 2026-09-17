@@ -1,0 +1,26 @@
+{
+  "id": "6a33b673d5dca7dcb0bf0f44",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate : $\\int_0^\\pi \\frac{x \\sin x}{1+\\cos^2 x} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $I = \\int_0^\\pi \\frac{x \\sin x}{1+\\cos^2 x} dx$. Apply the definite integral property $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$ to yield $I = \\int_0^\\pi \\frac{(\\pi-x) \\sin(\\pi-x)}{1+\\cos^2(\\pi-x)} dx = \\int_0^\\pi \\frac{(\\pi-x) \\sin x}{1+\\cos^2 x} dx$.\n\n**Step 2:** Add both forms of $I$ together: $2I = \\int_0^\\pi \\frac{\\pi \\sin x}{1+\\cos^2 x} dx = \\pi \\int_0^\\pi \\frac{\\sin x}{1+\\cos^2 x} dx$.\n\n**Step 3:** Use substitution by letting $t = \\cos x$. Then $dt = -\\sin x \\, dx$. The limits change from $x=0 \\Rightarrow t=1$ and $x=\\pi \\Rightarrow t=-1$.\n\n**Step 4:** Substitute this into the integral to evaluate: $2I = \\pi \\int_1^{-1} \\frac{-dt}{1+t^2} = \\pi \\int_{-1}^1 \\frac{dt}{1+t^2}$.\n\n**Step 5:** Solve the standard integral: $2I = \\pi [\\tan^{-1}(t)]_{-1}^1 = \\pi \\left(\\frac{\\pi}{4} - \\left(-\\frac{\\pi}{4}\\right)\\right) = \\frac{\\pi^2}{2}$. Therefore, $I = \\frac{\\pi^2}{4}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

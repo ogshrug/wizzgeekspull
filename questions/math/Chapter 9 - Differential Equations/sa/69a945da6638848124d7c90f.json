@@ -1,0 +1,30 @@
+{
+  "id": "69a945da6638848124d7c90f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "SA",
+  "question": "A population of bacteria grows in such a way that at any instant, the rate of increase is proportional to the square root of the population. Formulate the differential equation and, if the initial population is 100 and after 4 hours the population is 400, find the population after 9 hours. (Assume the constant of proportionality is positive).",
+  "answeroption": "D",
+  "explanation": "Let $P$ denote the population at time $t$ (in hours).<br /><br />Given: $\\frac{dP}{dt} = k \\sqrt{P}$, where $k > 0$.<br /><br />Rewrite:<br />$\\frac{dP}{\\sqrt{P}} = k dt$<br /><br />Integrate both sides:<br />$\\int \\frac{dP}{\\sqrt{P}} = \\int k dt$<br /><br />$2\\sqrt{P} = kt + C$<br /><br />Initial condition: At $t = 0$, $P = 100$<br /><br />$2\\sqrt{100} = k \\times 0 + C$<br /><br />$20 = C$<br /><br />At $t = 4$, $P = 400$<br /><br />$2\\sqrt{400} = k \\times 4 + 20$<br /><br />$40 = 4k + 20$<br /><br />$4k = 20$<br /><br />$k = 5$<br /><br />Now, when $t = 9$,<br /><br />$2\\sqrt{P} = 5 \\times 9 + 20$<br /><br />$2\\sqrt{P} = 45 + 20$<br /><br />$2\\sqrt{P} = 65$<br /><br />$\\sqrt{P} = 32.5$<br /><br />$P = (32.5)^2 = 1056.25$<br /><br />Population after 9 hours is $1056.25$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dP}{dt}=kP$, Population $1056.25$",
+    "B": "$\\frac{dP}{dt}=k\\sqrt{P}$, Population $625$",
+    "C": "$\\frac{dP}{dt}=kP^2$, Population $1056.25$",
+    "D": "$\\frac{dP}{dt}=k\\sqrt{P}$, Population $1056.25$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 08:59:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

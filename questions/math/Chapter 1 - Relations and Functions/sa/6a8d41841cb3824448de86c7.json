@@ -1,0 +1,29 @@
+{
+  "id": "6a8d41841cb3824448de86c7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Let $A=\\{1,2,3\\}$ and $B=\\{a,b,c\\}$. A function $f:A\\to B$ is given by $f=\\{(1,b),(2,c),(3,a)\\}$. Determine $f^{-1}$ and verify that $f^{-1}\\circ f=I_A$.",
+  "answeroption": "D",
+  "explanation": "<b>Reversal of ordered pairs</b><br>Since $f(1)=b$, $f(2)=c$ and $f(3)=a$, the inverse function is<br>$$f^{-1}=\\{(b,1),(c,2),(a,3)\\}.$$<br><br><b>Verification at $1$</b><br>$$f^{-1}(f(1))=f^{-1}(b)=1.$$<br><br><b>Verification at $2$ and $3$</b><br>$$f^{-1}(f(2))=f^{-1}(c)=2$$<br>and<br>$$f^{-1}(f(3))=f^{-1}(a)=3.$$<br><br><b>Conclusion</b><br>Thus, $f^{-1}(f(x))=x$ for every $x\\in A$, and hence<br>$$f^{-1}\\circ f=I_A.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$f^{-1}=\\{(a,1),(b,2),(c,3)\\}$ and $f^{-1}\\circ f=I_A$",
+    "B": "$f^{-1}=\\{(b,3),(c,1),(a,2)\\}$ and $f^{-1}\\circ f=I_A$",
+    "C": "$f^{-1}=\\{(1,b),(2,c),(3,a)\\}$ and $f^{-1}\\circ f=f$",
+    "D": "$f^{-1}=\\{(b,1),(c,2),(a,3)\\}$ and $f^{-1}\\circ f=I_A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

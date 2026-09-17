@@ -1,0 +1,27 @@
+{
+  "id": "6a2278c1864be73cfcf6d1e1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "SA",
+  "question": "Amongst all pairs of positive integers with product as 289, find which of the two numbers add up to the least.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the two positive integers be $x$ and $y$. We are given that their product is constant: $xy = 289$. This implies $y = \\frac{289}{x}$.<br />**Step 2:** We need to minimize their sum. Let the sum be represented by a function $S(x) = x + y = x + \\frac{289}{x}$.<br />**Step 3:** To find the minimum, calculate the first derivative with respect to $x$: $S'(x) = 1 - \\frac{289}{x^2}$.<br />**Step 4:** Set the first derivative to zero to locate critical points: $1 - \\frac{289}{x^2} = 0 \\implies x^2 = 289$.<br />**Step 5:** Since $x$ must be a positive integer, we take the positive root: $x = \\sqrt{289} = 17$.<br />**Step 6:** Verify this is a minimum using the second derivative test. $S''(x) = \\frac{578}{x^3}$. For $x = 17$, $S''(17) > 0$, confirming a local minimum.<br />**Step 7:** Find the corresponding value of $y$: $y = \\frac{289}{17} = 17$. Therefore, the two numbers are 17 and 17.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

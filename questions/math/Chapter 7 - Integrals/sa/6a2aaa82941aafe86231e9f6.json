@@ -1,0 +1,26 @@
+{
+  "id": "6a2aaa82941aafe86231e9f6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\frac{cos^{2}x}{2^{x}+1}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $I = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{\\cos^2 x}{2^x + 1} dx$. Apply the property $\\int_{a}^{b} f(x) dx = \\int_{a}^{b} f(a+b-x) dx$. Replacing $x$ with $-x$ gives $I = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{\\cos^2(-x)}{2^{-x} + 1} dx = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{2^x \\cos^2 x}{2^x + 1} dx$.<br />**Step 2:** Add both integral expressions together: $2I = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{(1+2^x)\\cos^2 x}{2^x + 1} dx = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\cos^2 x dx$.<br />**Step 3:** Since $\\cos^2 x$ is an even function, rewrite as $2I = 2\\int_{0}^{\\frac{\\pi}{2}} \\cos^2 x dx \\implies I = \\int_{0}^{\\frac{\\pi}{2}} \\left(\\frac{1+\\cos 2x}{2}\\right) dx = \\frac{1}{2} \\left[ x + \\frac{\\sin 2x}{2} \\right]_0^{\\frac{\\pi}{2}} = \\frac{\\pi}{4}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

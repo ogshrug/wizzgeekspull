@@ -1,0 +1,30 @@
+{
+  "id": "6a8d252a77877fac8fdb9923",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A class studies the equation $\\sin^{-1}(2x)=\\cos^{-1}x$. For both sides to be defined, $x$ must satisfy the domain restrictions of their arguments. The left side returns a value in $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$, while the right side returns a value in $[0,\\pi]$. The students first determine the common domain and then use $\\cos^{-1}x=\\dfrac{\\pi}{2}-\\sin^{-1}x$. If $A=\\sin^{-1}x$, then $\\sin A=x$ and $\\cos A=\\sqrt{1-x^2}$ because $A$ lies in the inverse-sine principal range. Every algebraic candidate must finally be verified in the original equation.<br><br><b>(a)</b> Determine the common domain of the equation.<br><br><b>(b)</b> Explain why any solution must satisfy $x\\geq0$.<br><br><b>(c)</b> Solve the equation algebraically.<br><br><b>(d)</b> Verify the admissible solution in the original equation.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For $\\sin^{-1}(2x)$ to be defined,<br>$$-1\\leq2x\\leq1$$<br>so<br>$$-\\frac{1}{2}\\leq x\\leq\\frac{1}{2}$$<br>The expression $\\cos^{-1}x$ requires $-1\\leq x\\leq1$. Hence, the common domain is<br>$$\\left[-\\frac{1}{2},\\frac{1}{2}\\right]$$<br><br><b>(b)</b><br>The value $\\cos^{-1}x$ is non-negative. If $x<0$, then $2x<0$ and $\\sin^{-1}(2x)<0$. A negative value cannot equal the non-negative value $\\cos^{-1}x$. Therefore, every solution must satisfy $x\\geq0$.<br><br><b>(c)</b><br>Using<br>$$\\cos^{-1}x=\\frac{\\pi}{2}-\\sin^{-1}x$$<br>the equation becomes<br>$$\\sin^{-1}(2x)+\\sin^{-1}x=\\frac{\\pi}{2}$$<br>Let $A=\\sin^{-1}x$. Then<br>$$\\sin^{-1}(2x)=\\frac{\\pi}{2}-A$$<br>Taking sine,<br>$$2x=\\cos A=\\sqrt{1-x^2}$$<br>Since $x\\geq0$, squaring is valid:<br>$$4x^2=1-x^2$$<br>$$5x^2=1$$<br>Therefore,<br>$$x=\\frac{1}{\\sqrt{5}}$$<br><br><b>(d)</b><br>For $x=\\dfrac{1}{\\sqrt{5}}$, let $A=\\sin^{-1}\\left(\\dfrac{1}{\\sqrt{5}}\\right)$. Then<br>$$\\cos A=\\sqrt{1-\\frac{1}{5}}=\\frac{2}{\\sqrt{5}}$$<br>Thus,<br>$$\\sin^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)=\\frac{\\pi}{2}-A$$<br>Also,<br>$$\\cos^{-1}\\left(\\frac{1}{\\sqrt{5}}\\right)=\\frac{\\pi}{2}-A$$<br>Hence, both sides are equal and the verified solution is $x=\\dfrac{1}{\\sqrt{5}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Common domain: $[-1,1]$<br><br>(b) A solution may have either sign<br><br>(c) $x=\\pm\\dfrac{1}{\\sqrt{5}}$<br><br>(d) Both values satisfy the original equation",
+    "B": "(a) Common domain: $\\left[-\\dfrac{1}{2},\\dfrac{1}{2}\\right]$<br><br>(b) Any solution must satisfy $x\\leq0$<br><br>(c) $x=-\\dfrac{1}{\\sqrt{5}}$<br><br>(d) The negative value satisfies the original equation",
+    "C": "(a) Common domain: $\\left[-\\dfrac{1}{2},\\dfrac{1}{2}\\right]$<br><br>(b) Any solution must satisfy $x\\geq0$ because the right side is non-negative<br><br>(c) $x=\\dfrac{1}{\\sqrt{5}}$<br><br>(d) $\\sin^{-1}\\left(\\dfrac{2}{\\sqrt{5}}\\right)=\\cos^{-1}\\left(\\dfrac{1}{\\sqrt{5}}\\right)$, so the solution is verified",
+    "D": "(a) Common domain: $[0,1]$<br><br>(b) Any solution must satisfy $x>0$<br><br>(c) $x=\\dfrac{1}{\\sqrt{3}}$<br><br>(d) The value satisfies the original equation"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

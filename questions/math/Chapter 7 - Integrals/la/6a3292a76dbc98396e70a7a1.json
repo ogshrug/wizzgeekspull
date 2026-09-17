@@ -1,0 +1,26 @@
+{
+  "id": "6a3292a76dbc98396e70a7a1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "LA",
+  "question": "Find: $\\int\\frac{\\sqrt{x^{2}+1}[log(x^{2}+1)-2~log~x]}{x^{4}}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** We group the terms inside the integrand by factoring out $x$ from the radical and applying logarithmic properties: $\\ln(x^2+1) - \\ln x^2 = \\ln\\left(1 + \\frac{1}{x^2}\\right)$. This transforms the whole expression into $\\int \\sqrt{1 + \\frac{1}{x^2}} \\ln\\left(1 + \\frac{1}{x^2}\\right) \\cdot \\frac{1}{x^3} \\, dx$.<br />**Step 2:** Use substitution by letting $t = 1 + \\frac{1}{x^2}$, which gives the differential element $dt = -\\frac{2}{x^3} \\, dx \\implies \\frac{1}{x^3} \\, dx = -\\frac{dt}{2}$. The integral reduces to the simpler parametric form: $-\\frac{1}{2} \\int \\sqrt{t} \\ln t \\, dt$.<br />**Step 3:** We integrate by parts choosing $u = \\ln t$ and $dv = \\sqrt{t} \\, dt$. The calculation steps give $-\\frac{1}{2} \\left[ \\frac{2}{3}t^{3/2} \\ln t - \\frac{4}{9}t^{3/2} \\right] = -\\frac{1}{3}t^{3/2} \\ln t + \\frac{2}{9}t^{3/2}$. Substituting back $t = 1 + \\frac{1}{x^2}$ yields the final solution: $\\frac{1}{3}\\left(1+\\frac{1}{x^2}\\right)^{3/2} \\left[ \\frac{2}{3} - \\ln\\left(1+\\frac{1}{x^2}\\right) \\right] + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

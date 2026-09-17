@@ -1,0 +1,29 @@
+{
+  "id": "69a94ef0d30adc5083911a50",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): If $A$ is a $3 \\times 3$ matrix such that $A^3 - 2A^2 + I = O$, then the inverse of $A$ can be expressed as a polynomial in $A$ of degree less than 3.<br /><br />Reason (R): Any square matrix $A$ that satisfies a polynomial equation of degree $n$ can have its inverse (if it exists) written as a polynomial in $A$ of degree less than $n$.",
+  "answeroption": "A",
+  "explanation": "Given $A^3 - 2A^2 + I = O$,<br />$A^3 - 2A^2 = -I$<br />$A^2(A - 2I) = -I$<br />Thus, $A^{-1} = -A^2 (A - 2I)$, but this is not yet a polynomial in $A$ of degree less than $3$.<br />Let us rearrange:<br />$A^3 - 2A^2 + I = O \\implies A^3 - 2A^2 = -I \\implies A^3 = 2A^2 - I$<br />$A^{-1}A^3 = 2 A^{-1}A^2 - A^{-1}I$<br />$A^2 = 2A - A^{-1}$<br />So $A^{-1} = 2A - A^2$<br />This is a polynomial in $A$ of degree 2 (which is less than 3).<br /><br />The reason is true as a general fact for matrices satisfying polynomial equations of degree $n$. Also, it is the correct explanation for why $A^{-1}$ can be written as a polynomial in $A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:37:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

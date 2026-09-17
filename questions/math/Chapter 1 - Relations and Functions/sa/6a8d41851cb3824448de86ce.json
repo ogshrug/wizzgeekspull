@@ -1,0 +1,29 @@
+{
+  "id": "6a8d41851cb3824448de86ce",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "SA",
+  "question": "On the set $A=\\{1,2,3,4,5\\}$, define the binary operation $\\wedge$ by $a\\wedge b=\\min\\{a,b\\}$. Calculate $(4\\wedge2)\\wedge3$ and $4\\wedge(2\\wedge3)$. Also examine whether $\\wedge$ is commutative.",
+  "answeroption": "D",
+  "explanation": "<b>First association</b><br>$$4\\wedge2=\\min\\{4,2\\}=2.$$<br>Therefore,<br>$$(4\\wedge2)\\wedge3=2\\wedge3=2.$$<br><br><b>Second association</b><br>$$2\\wedge3=\\min\\{2,3\\}=2.$$<br>Hence,<br>$$4\\wedge(2\\wedge3)=4\\wedge2=2.$$<br><br><b>Commutativity</b><br>For any $a,b\\in A$,<br>$$a\\wedge b=\\min\\{a,b\\}=\\min\\{b,a\\}=b\\wedge a.$$<br><br><b>Conclusion</b><br>Both given expressions are equal to $2$, and the operation $\\wedge$ is commutative.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(4\\wedge2)\\wedge3=3$, $4\\wedge(2\\wedge3)=3$, and $\\wedge$ is commutative",
+    "B": "$(4\\wedge2)\\wedge3=2$, $4\\wedge(2\\wedge3)=3$, and $\\wedge$ is not commutative",
+    "C": "$(4\\wedge2)\\wedge3=2$, $4\\wedge(2\\wedge3)=2$, and $\\wedge$ is not commutative",
+    "D": "$(4\\wedge2)\\wedge3=2$, $4\\wedge(2\\wedge3)=2$, and $\\wedge$ is commutative"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a86abe575fa42e09444824",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "SA",
+  "question": "Let $x = a\\cos t$, $y = a\\sin t$ (with $a > 0$). Find $\\displaystyle \\frac{d^2y}{dx^2}$ in terms of $t$.",
+  "answeroption": "D",
+  "explanation": "$\\frac{dx}{dt}=-a\\sin t$, $\\frac{dy}{dt}=a\\cos t$.<br /><br />$\\frac{dy}{dx}=\\frac{a\\cos t}{-a\\sin t}=-\\cot t$.<br /><br />$\\frac{d^2y}{dx^2}=\\frac{d}{dt}(-\\cot t)\\cdot\\frac{dt}{dx}$.<br /><br />$\\frac{d}{dt}(-\\cot t)=\\csc^2 t$, and $\\frac{dt}{dx}=-\\frac{1}{a\\sin t}$.<br /><br />Thus, $\\frac{d^2y}{dx^2}=-\\frac{1}{a\\sin^3 t}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{1}{a\\sin^3 t}$",
+    "B": "$-\\dfrac{1}{a\\cos^3 t}$",
+    "C": "$-\\dfrac{1}{a\\sin^2 t}$",
+    "D": "$-\\dfrac{1}{a\\sin^3 t}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:24:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

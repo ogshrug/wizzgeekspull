@@ -1,0 +1,30 @@
+{
+  "id": "6a8d65e470e91fe851017dcc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the domain and range of $f(x)=\\sin^{-1}\\left(\\frac{1}{x^2+1}\\right)$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b><br>For every real $x$, $x^2\\geq0$, so $x^2+1\\geq1$. Therefore, the denominator is always positive and never becomes zero.<br><br><b>Step 2:</b><br>It follows that $$0<\\frac{1}{x^2+1}\\leq1.$$ Thus, the argument always lies in the domain $[-1,1]$ of the inverse sine function, and the domain of $f$ is $\\mathbb{R}$.<br><br><b>Step 3:</b><br>The inner expression attains its maximum value $1$ at $x=0$. It approaches $0$ as $|x|$ increases without bound but never equals $0$ for any finite real $x$.<br><br><b>Step 4:</b><br>Since $\\sin^{-1}t$ is increasing, the corresponding output values satisfy $$0<\\sin^{-1}\\left(\\frac{1}{x^2+1}\\right)\\leq\\frac{\\pi}{2}.$$<br><br><b>Final Answer:</b><br>The domain is $\\mathbb{R}$ and the range is $$\\left(0,\\frac{\\pi}{2}\\right].$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $\\mathbb{R}$; Range: $\\left[0,\\frac{\\pi}{2}\\right]$",
+    "B": "Domain: $\\mathbb{R}\\setminus\\{0\\}$; Range: $\\left(0,\\frac{\\pi}{2}\\right)$",
+    "C": "Domain: $\\mathbb{R}$; Range: $\\left(0,\\frac{\\pi}{2}\\right]$",
+    "D": "Domain: $\\mathbb{R}$; Range: $\\left(0,\\frac{\\pi}{2}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

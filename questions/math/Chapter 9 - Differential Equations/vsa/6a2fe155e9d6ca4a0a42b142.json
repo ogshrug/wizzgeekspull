@@ -1,0 +1,27 @@
+{
+  "id": "6a2fe155e9d6ca4a0a42b142",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa",
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "VSA",
+  "question": "Find the general solution of the differential equation: $\\frac{dy}{dx}=\\frac{3e^{2x}+3e^{4x}}{e^{x}+e^{-x}}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Factor out the common term $3e^{2x}$ from the numerator to get $3e^{2x}(1 + e^{2x})$.<br />**Step 2:** Rewrite the denominator to eliminate the negative exponent: $e^x + \\frac{1}{e^x} = \\frac{e^{2x} + 1}{e^x}$.<br />**Step 3:** Substitute the adjusted numerator and denominator back into the differential equation: $\\frac{dy}{dx} = \\frac{3e^{2x}(1 + e^{2x})}{\\frac{e^{2x} + 1}{e^x}}$.<br />**Step 4:** Cancel the common algebraic term $(1 + e^{2x})$ and simplify the expression to $\\frac{dy}{dx} = 3e^{3x}$.<br />**Step 5:** Integrate both sides with respect to $x$ to find the final general solution $y = e^{3x} + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

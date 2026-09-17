@@ -1,0 +1,29 @@
+{
+  "id": "6a8d2f4777877fac8fdb9927",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40"
+  ],
+  "question_type": "SA",
+  "question": "For a real constant $k$, define a relation $R$ on $\\mathbb{R}$ by $aRb$ if $a\\leq kb$. Find the value of $k$ for which $R$ is reflexive.",
+  "answeroption": "B",
+  "explanation": "<b>Condition for reflexivity</b><br>For $R$ to be reflexive, $aRa$ must hold for every $a\\in\\mathbb{R}$. Hence,<br>$$a\\leq ka$$<br>must be true for every real $a$.<br><br><b>Positive values of $a$</b><br>For $a>0$, dividing by $a$ gives<br>$$1\\leq k.$$<br><br><b>Negative values of $a$</b><br>For $a<0$, division by $a$ reverses the inequality, giving<br>$$1\\geq k.$$<br><br><b>Combining the conditions</b><br>Both conditions are satisfied only when<br>$$k=1.$$<br><br><b>Verification</b><br>For $k=1$, the condition becomes $a\\leq a$, which is true for every $a\\in\\mathbb{R}$. Therefore, $R$ is reflexive only for $k=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k\\geq1$",
+    "B": "$k=1$",
+    "C": "$k\\leq1$",
+    "D": "$k=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

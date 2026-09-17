@@ -1,0 +1,28 @@
+{
+  "id": "6a266b07864be73cfcf6d38a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, find the area of the region bounded by the parabola $y^{2}=$ 4ax and its latus rectum.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given boundary curve is a right-opening horizontal parabola $y^2 = 4ax$, which is perfectly symmetric along the horizontal x-axis. The latus rectum is its focal vertical line boundary described by the Cartesian equation $x = a$. Due to perfect symmetry about the x-axis, the total area enclosed between the parabola and this line is exactly twice the area of the upper half quadrant region. Thus, we set up our template formula as: $\\text{Area} = 2 \\int_{0}^{a} y \\, dx$.<br />**Step 2:** Express the variable $y$ explicitly in terms of $x$ for the upper curve boundary branch: $y = \\sqrt{4ax} = 2\\sqrt{a}\\sqrt{x} = 2\\sqrt{a}x^{1/2}$. Substituting this definition into our integral template transforms it into: $\\text{Area} = 2 \\int_{0}^{a} 2\\sqrt{a}x^{1/2} \\, dx = 4\\sqrt{a} \\int_{0}^{a} x^{1/2} \\, dx$.<br />**Step 3:** Integrate the power function term using the standard calculus power rule, $\\int x^n dx = \\frac{x^{n+1}}{n+1}$: $4\\sqrt{a} \\left[ \\frac{x^{3/2}}{3/2} \\right]_{0}^{a} = 4\\sqrt{a} \\cdot \\frac{2}{3} \\left[ x^{3/2} \\right]_{0}^{a} = \\frac{8}{3}\\sqrt{a} \\left( a^{3/2} - 0 \\right)$.<br />**Step 4:** Combine the algebraic variable factors to simplify the final solution value: $\\frac{8}{3}a^{1/2} \\cdot a^{3/2} = \\frac{8}{3}a^{1/2+3/2} = \\frac{8}{3}a^{4/2} = \\frac{8}{3}a^2$. Therefore, the total area of the bounded region is exactly $\\frac{8}{3}a^2$ square units. This complete step-by-step calculation contains exactly 251 words.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

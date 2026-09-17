@@ -1,0 +1,30 @@
+{
+  "id": "69a9b21462be6a70cd184e2f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fbf40512f018fa94d54"
+  ],
+  "question_type": "MCQ",
+  "question": "Suppose $A$ is a $2 \\times 2$ matrix such that $A^2 = I$, where $I$ is the $2 \\times 2$ identity matrix, and $A = \\begin{bmatrix}\\alpha & \\beta \\\\ \\gamma & -\\alpha\\end{bmatrix}$. Which of the following equations is satisfied?",
+  "answeroption": "C",
+  "explanation": "Compute $A^2 = \\begin{bmatrix}\\alpha & \\beta \\\\ \\gamma & -\\alpha\\end{bmatrix}\\begin{bmatrix}\\alpha & \\beta \\\\ \\gamma & -\\alpha\\end{bmatrix}$.<br /><br />This gives $A^2 = \\begin{bmatrix}\\alpha^2+\\beta\\gamma & 0 \\\\ 0 & \\alpha^2+\\beta\\gamma\\end{bmatrix}$.<br /><br />Since $A^2 = I$, we get $\\alpha^2 + \\beta\\gamma = 1$.<br /><br />Rewriting gives $1 - \\alpha^2 - \\beta\\gamma = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1+\\alpha^2+\\beta\\gamma=0$",
+    "B": "$1-\\alpha^2+\\beta\\gamma=0$",
+    "C": "$1-\\alpha^2-\\beta\\gamma=0$",
+    "D": "$1+\\alpha^2-\\beta\\gamma=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:40:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

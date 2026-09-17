@@ -1,0 +1,31 @@
+{
+  "id": "6a914599be0ecc7866e90cea",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8de"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom investigation of linear programming regions, students consider two non-negative variables $x$ and $y$ subject to the conditions $x+y\\leq8$ and $2x+y\\leq10$. The non-negative restrictions $x\\geq0$ and $y\\geq0$ are also imposed. The students understand that the common region satisfying all these inequalities represents the feasible region, whereas points that fail at least one of the conditions belong to the infeasible region. They examine several points and also study whether the common region can extend indefinitely in any direction.<br><br><b>(a)</b> Verify whether the point $P(2,3)$ belongs to the feasible region.<br><br><b>(b)</b> Determine whether the point $Q(5,2)$ belongs to the feasible region or the infeasible region.<br><br><b>(c)</b> Obtain upper bounds for $x$ and $y$ from the given constraints and hence determine whether the feasible region is bounded.<br><br><b>(d)</b> Determine the positions of $R(0,8)$ and $S(6,0)$ with respect to the feasible and infeasible regions, giving reasons.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For $P(2,3)$, check every constraint.<br>$$2+3=5\\leq8$$<br>$$2(2)+3=7\\leq10$$<br>Also, $2\\geq0$ and $3\\geq0$. Therefore, $P(2,3)$ satisfies all the constraints and belongs to the feasible region.<br><br><b>(b)</b><br>For $Q(5,2)$,<br>$$5+2=7\\leq8$$<br>but<br>$$2(5)+2=12>10$$<br>Thus, $Q(5,2)$ violates the constraint $2x+y\\leq10$. Therefore, it does not belong to the feasible region and lies in the infeasible region.<br><br><b>(c)</b><br>Since $y\\geq0$ and $2x+y\\leq10$, we have<br>$$2x\\leq10$$<br>so<br>$$x\\leq5$$<br>Similarly, since $x\\geq0$ and $x+y\\leq8$,<br>$$y\\leq8$$<br>Therefore,<br>$$0\\leq x\\leq5,\\quad 0\\leq y\\leq8$$<br>Hence, the feasible region is confined within finite limits and is a bounded region.<br><br><b>(d)</b><br>For $R(0,8)$,<br>$$0+8=8\\leq8$$<br>and<br>$$2(0)+8=8\\leq10$$<br>with both coordinates non-negative. Hence, $R(0,8)$ belongs to the feasible region and lies on the boundary $x+y=8$.<br><br>For $S(6,0)$,<br>$$6+0=6\\leq8$$<br>but<br>$$2(6)+0=12>10$$<br>Hence, $S(6,0)$ violates one constraint and belongs to the infeasible region.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(2,3)$ is feasible<br>(b) $Q(5,2)$ is feasible<br>(c) $0\\leq x\\leq8$, $0\\leq y\\leq10$; region is bounded<br>(d) Both $R(0,8)$ and $S(6,0)$ are feasible",
+    "B": "(a) $P(2,3)$ is infeasible<br>(b) $Q(5,2)$ is infeasible<br>(c) The region is unbounded<br>(d) $R(0,8)$ is infeasible and $S(6,0)$ is feasible",
+    "C": "(a) $P(2,3)$ is feasible<br>(b) $Q(5,2)$ is infeasible because $2x+y=12>10$<br>(c) $0\\leq x\\leq5$, $0\\leq y\\leq8$; hence the region is bounded<br>(d) $R(0,8)$ is feasible on $x+y=8$, while $S(6,0)$ is infeasible",
+    "D": "(a) $P(2,3)$ is feasible<br>(b) $Q(5,2)$ is infeasible<br>(c) $0\\leq x\\leq5$, $0\\leq y\\leq8$; hence the region is unbounded<br>(d) Both $R(0,8)$ and $S(6,0)$ are infeasible"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

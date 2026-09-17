@@ -1,0 +1,29 @@
+{
+  "id": "69a94aad62be6a70cd184d44",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "LA",
+  "question": "Let $y(x)$ be a function such that $x\\frac{dy}{dx} + y = x^2 e^x$. Find the general solution, and then find the particular solution satisfying $y(1) = 2e$. Also, determine the value of $y'(1)$.",
+  "answeroption": "C",
+  "explanation": "Given: $x\\frac{dy}{dx} + y = x^2 e^x$<br /><br />Step 1: Write in standard linear form:<br />$\\frac{dy}{dx} + \\frac{1}{x} y = x e^x$<br /><br />Step 2: Integrating factor:<br />$IF = e^{\\int \\frac{1}{x} dx} = e^{\\ln|x|} = |x|$ (for $x>0$ use $IF = x$)<br /><br />Step 3: Multiply both sides by $x$:<br />$x\\frac{dy}{dx} + y = x^2 e^x$<br />So left is $\\frac{d}{dx}(y x) = x^2 e^x$<br /><br />Step 4: Integrate both sides:<br />$yx = \\int x^2 e^x dx + C$<br /><br />Step 5: Integrate $\\int x^2 e^x dx$ by parts:<br />$\\int x^2 e^x dx = x^2 e^x - 2x e^x + 2e^x$<br /><br />So, $yx = x^2 e^x - 2x e^x + 2e^x + C$<br /><br />Step 6: Apply initial condition $y(1) = 2e$ to find $C$:<br />$C = e$<br /><br />Step 7: Final particular solution:<br />$y(x) = (x - 2) e^x + \\frac{2e^x + e}{x}$<br /><br />Step 8: Compute $y'(1)$:<br />$y'(1) = -e$",
+  "explanation_image": [],
+  "options": {
+    "A": "General solution: $y=x e^x-2e^x+\\frac{2e^x+C}{x}$<br />Particular solution: $y=(x-2)e^x+\\frac{2e^x-e}{x}$<br />$y'(1)=e$",
+    "B": "General solution: $y=(x-2)e^x+2e^x+C$<br />Particular solution: $y=(x-2)e^x+2e^x+e$<br />$y'(1)=0$",
+    "C": "General solution: $y=x e^x-2e^x+\\frac{2e^x+C}{x}$<br />Particular solution: $y=(x-2)e^x+\\frac{2e^x+e}{x}$<br />$y'(1)=-e$",
+    "D": "General solution: $y=x e^x+2e^x+\\frac{C}{x}$<br />Particular solution: $y=(x+2)e^x+\\frac{e}{x}$<br />$y'(1)=2e$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:19:41 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

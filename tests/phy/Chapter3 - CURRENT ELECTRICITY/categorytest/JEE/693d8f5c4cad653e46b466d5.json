@@ -1,0 +1,19 @@
+{
+  "id": "693d8f5c4cad653e46b466d5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "69297ccac1c9ad8eb4a786e7",
+  "question": "An ideal battery of emf $V$ has its negative terminal grounded (taken as $0$ potential). A capacitor $C$ is connected between node $A$ and ground. The capacitor is charged and discharged through a single resistor $R$ using an ideal two-position switch $S$ as follows:\n\n- In position (1), $S$ connects the left end of $R$ to the battery’s positive terminal, so the circuit is $V \\rightarrow R \\rightarrow A \\rightarrow C \\rightarrow$ ground (charging).\n- In position (2), $S$ connects the left end of $R$ to ground, so the circuit is $A \\rightarrow R \\rightarrow$ ground in parallel with $C$ (discharging).\n\nInitially, the switch is kept in position (2) for a long time, so the capacitor is uncharged and $V_A(0^-)=0$. At $t=0$, the switch is moved to position (1) and kept there for a time $T$ (with $T$ comparable to $RC$), and then at $t=T$ it is moved back to position (2). Let $U(t)$ be the electrostatic energy stored in the capacitor for $t\\ge T$.\n\nFind the total energy dissipated as heat in the resistor $R$ during the entire process from $t=0$ to $t\\to\\infty$ (i.e., during $0\\le t\\le T$ and the subsequent discharge for $t\\ge T$).",
+  "options": {
+    "A": "$\\dfrac{1}{2}CV^2\\left(1-e^{-2T/RC}\\right)$",
+    "B": "$CV^2\\left(1-e^{-T/RC}\\right)$",
+    "C": "$CV^2\\left(1-e^{-T/RC}\\right)^2$",
+    "D": "$\\dfrac{1}{2}CV^2\\left(1-e^{-T/RC}\\right)^2$"
+  },
+  "question_type": "mcq",
+  "category": "JEE",
+  "imageurl": "https://d-p-s.s3.ap-south-1.amazonaws.com/questions/693d8f5c4cad653e46b466d5.png",
+  "categories": [
+    "JEE"
+  ]
+}

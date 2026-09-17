@@ -1,0 +1,30 @@
+{
+  "id": "69a98789d8e9ca3b293457aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "MCQ",
+  "question": "Consider the binary operation $\\circ$ on $\\mathbb{R}$ given by $a \\circ b = a + b - ab$. What is the identity element with respect to this operation, and which elements of $\\mathbb{R}$ are invertible under $\\circ$?",
+  "answeroption": "A",
+  "explanation": "Let $e$ be the identity: $a \\circ e = a + e - a e = a$ for all $a$.<br /><br />$\\implies a + e - a e = a \\implies e - a e = 0 \\implies e(1 - a) = 0$ for all $a$.<br /><br />The only way this is true for all $a$ is $e=0$, but $0(1-a) = 0$ always. So check for $e = 0$:<br /><br />$a \\circ 0 = a + 0 - a \\cdot 0 = a$, $0 \\circ a = 0 + a - 0 = a$ for all $a$. Thus, identity is $0$.<br /><br />For invertibility: solve $a \\circ x = 0$ (want $x$ as inverse of $a$):<br /><br />$a + x - a x = 0 \\implies (1-a)x = -a \\implies x = \\frac{-a}{1-a}$ for $a \\neq 1$.<br /><br />Thus, all $a \\neq 1$ are invertible. So, Option A is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "Identity: $0$, All elements except $1$ are invertible",
+    "B": "Identity: $1$, All elements except $1$ are invertible",
+    "C": "Identity: $0$, All elements are invertible",
+    "D": "Identity: $1$, All elements except $0$ are invertible"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:39:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "69a9c1d46638848124d7c9a9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A manufacturer wants to design an open-top rectangular tank with a square base such that the volume is $32 m^3$ and the material for the base costs Rs. 70 per $m^2$, while the sides cost Rs. 40 per $m^2$. Determine the dimensions for minimum total cost using calculus, clearly displaying all steps.<br /><br />a) Express the total cost function using the volume constraint.<br /><br />b) Differentiate the cost function and find the critical value of the base dimension.<br /><br />c) Verify that the obtained value gives minimum cost and determine the dimensions.",
+  "answeroption": "A",
+  "explanation": "a) Let the side of square base be $x$ m and height be $h$ m.<br /><br /> Volume constraint: $x^2h = 32$ so $h = \\frac{32}{x^2}$. <br /><br />Base cost = $70x^2$.<br /><br /> Side area = $4xh$ and cost = $40(4xh) = 160xh$.<br /><br /> Total cost function: $C(x) = 70x^2 + 160x\\left(\\frac{32}{x^2}\\right) = 70x^2 + \\frac{5120}{x}$.<br /><br />b) Differentiate: $C'(x) = 140x - \\frac{5120}{x^2}$.<br /><br /> Set $C'(x)=0$: $140x = \\frac{5120}{x^2}$ giving $140x^3 = 5120$.<br /><br /> Thus $x^3 = 36.57$ and $x \\approx 3.32$ m.<br /><br /> Then $h = \\frac{32}{(3.32)^2} \\approx 2.90$ m.<br /><br />c) Second derivative $C''(x) = 140 + \\frac{10240}{x^3} > 0$ for $x>0$.<br /><br /> Hence the cost is minimized when $x = 3.32$ m and $h = 2.90$ m.",
+  "explanation_image": [],
+  "options": {
+    "A": "a) $C(x)=70x^2+\\frac{5120}{x}$<br />b) $C'(x)=140x-\\frac{5120}{x^2}$, so $x\\approx3.32$ m.<br />c) $C''(x)=140+\\frac{10240}{x^3}>0$, so minimum occurs at $x\\approx3.32$ m and $h\\approx2.90$ m.",
+    "B": "a) $C(x)=40x^2+\\frac{5120}{x}$<br />b) $C'(x)=80x-\\frac{5120}{x^2}$, so $x=4$ m.<br />c) $C''(x)<0$, so maximum occurs at $x=4$ m and $h=2$ m.",
+    "C": "a) $C(x)=70x^2+5120x$<br />b) $C'(x)=140x+5120$, so $x\\approx3.32$ m.<br />c) $C''(x)=140>0$, so minimum occurs at $x\\approx3.32$ m and $h\\approx2.90$ m.",
+    "D": "a) $C(x)=70x^2+\\frac{2560}{x}$<br />b) $C'(x)=140x-\\frac{2560}{x^2}$, so $x\\approx2.63$ m.<br />c) $C''(x)>0$, so minimum occurs at $x\\approx2.63$ m and $h\\approx4.63$ m."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:48:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

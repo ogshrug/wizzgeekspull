@@ -1,0 +1,31 @@
+{
+  "id": "69a9735862be6a70cd184da9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Let $f: \\mathbb{R}^* \\to \\mathbb{R}^*$ (the set of nonzero real numbers) be defined by $f(x) = \\frac{1}{x}$. Prove that $f$ is bijective and its own inverse, i.e., $f^{-1} = f$.",
+  "answeroption": "B",
+  "explanation": "**Step 1: Show injectivity**<br /><br />Assume $f(x_1) = f(x_2)\\implies \\frac{1}{x_1} = \\frac{1}{x_2}\\implies x_1 = x_2$. So $f$ is injective.<br /><br />**Step 2: Show surjectivity**<br /><br />Take arbitrary $y \\in \\mathbb{R}^*$. Then $x = \\frac{1}{y}$ is in $\\mathbb{R}^*$. Then $f(x) = \\frac{1}{x} = y$. So $f$ is surjective.<br /><br />**Step 3: Therefore, $f$ is bijective.**<br /><br />**Step 4: Compute inverse**<br /><br />Let $y = f(x) = \\frac{1}{x} \\implies x = \\frac{1}{y}$, so $f^{-1}(y) = \\frac{1}{y} = f(y)$. So $f^{-1} = f$.<br /><br />**Step 5: Verification**<br /><br />$f(f(x)) = f(\\frac{1}{x}) = x$<br /><br />$f^{-1} = f$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is not bijective and has no inverse",
+    "B": "$f$ is bijective and $f^{-1}=f$",
+    "C": "$f$ is injective but not surjective",
+    "D": "$f$ is surjective but not injective"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:13:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

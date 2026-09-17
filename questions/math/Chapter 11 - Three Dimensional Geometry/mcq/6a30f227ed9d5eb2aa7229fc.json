@@ -1,0 +1,31 @@
+{
+  "id": "6a30f227ed9d5eb2aa7229fc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cc"
+  ],
+  "question_type": "MCQ",
+  "question": "Direction cosines of a line perpendicular to both x-axis and z-axis are:",
+  "answeroption": "D",
+  "explanation": "**Step 1: Understand the Condition**  \nA line that is perpendicular to both the x-axis and the z-axis must be parallel to the intersection of planes perpendicular to these axes. The x-axis has direction vector $(1,0,0)$ and the z-axis has direction vector $(0,0,1)$. A line perpendicular to both must have a direction vector that is perpendicular to both $(1,0,0)$ and $(0,0,1)$.\n\n**Step 2: Find the Direction Vector**  \nThe cross product of the direction vectors of x-axis and z-axis gives a vector perpendicular to both:  \n$$(1,0,0) \\times (0,0,1) = (0 \\cdot 1 - 0 \\cdot 0, \\, 0 \\cdot 0 - 1 \\cdot 1, \\, 1 \\cdot 0 - 0 \\cdot 0) = (0, -1, 0)$$  \nThis vector is parallel to the y-axis (or its negative). So the line is parallel to the y-axis.\n\n**Step 3: Determine Direction Cosines**  \nThe direction cosines of a line parallel to the y-axis are the cosines of the angles it makes with the x, y, and z axes. Since it is perpendicular to both x and z axes, it makes $90^\\circ$ with them ($\\cos 90^\\circ = 0$), and $0^\\circ$ with the y-axis ($\\cos 0^\\circ = 1$). Thus, direction cosines are $(0, 1, 0)$.\n\n**Step 4: Match with the Options**  \nThe correct set of direction cosines is $(0, 1, 0)$, which corresponds to option **D**.",
+  "explanation_image": [],
+  "options": {
+    "A": "1, 0, 1",
+    "B": "1, 1, 1",
+    "C": "0, 0, 1",
+    "D": "0, 1, 0"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

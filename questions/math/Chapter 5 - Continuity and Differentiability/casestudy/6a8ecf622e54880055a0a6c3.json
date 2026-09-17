@@ -1,0 +1,29 @@
+{
+  "id": "6a8ecf622e54880055a0a6c3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom investigation of removable discontinuity, students consider the function $f$ defined by $$f(x)=\\begin{cases}\\frac{x^2-4}{x-2},&x\\neq2\\\\k,&x=2\\end{cases}$$ where $k$ is a real constant. They observe that the algebraic expression used away from $x=2$ can be simplified, but the value assigned at $x=2$ must still be examined separately. The students are asked to compare the limiting value of the function near $x=2$ with its actual value at that point and decide when the function becomes continuous on the real line.<br><br><b>(a)</b> Simplify $f(x)$ for $x\\neq2$.<br><br><b>(b)</b> Evaluate $\\lim_{x\\to2}f(x)$.<br><br><b>(c)</b> Determine the value of $k$ for which $f$ is continuous at $x=2$.<br><br><b>(d)</b> Show that for the value of $k$ obtained above, $f(x)=x+2$ for every real $x$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For $x\\neq2$, factorise the numerator:<br><br>$$f(x)=\\frac{x^2-4}{x-2}=\\frac{(x-2)(x+2)}{x-2}=x+2.$$<br><br>Thus, for $x\\neq2$, $f(x)=x+2$.<br><br><b>(b)</b><br>Using the simplified expression valid near $x=2$,<br><br>$$\\lim_{x\\to2}f(x)=\\lim_{x\\to2}(x+2)=4.$$<br><br>Hence, the limiting value of the function at $x=2$ is $4$.<br><br><b>(c)</b><br>For continuity at $x=2$, the required condition is<br><br>$$\\lim_{x\\to2}f(x)=f(2).$$<br><br>Here, $\\lim_{x\\to2}f(x)=4$ and $f(2)=k$. Therefore,<br><br>$$k=4.$$<br><br>Hence, the function is continuous at $x=2$ when $k=4$.<br><br><b>(d)</b><br>For $x\\neq2$, we have already obtained $f(x)=x+2$. For $x=2$, using $k=4$,<br><br>$$f(2)=4=2+2.$$<br><br>Therefore, $f(x)=x+2$ for every real $x$. This also confirms that the function is continuous throughout $\\mathbb{R}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=x-2$ for $x\\neq2$<br>(b) $2$<br>(c) $k=2$<br>(d) $f(x)=x-2$ for every real $x$",
+    "B": "(a) $f(x)=x+2$ for $x\\neq2$<br>(b) $4$<br>(c) $k=2$<br>(d) $f(x)=x+2$ only for $x\\neq2$",
+    "C": "(a) $f(x)=x+2$ for $x\\neq2$<br>(b) $4$<br>(c) $k=4$<br>(d) $f(x)=x+2$ for every real $x$",
+    "D": "(a) $f(x)=x+2$ for $x\\neq2$<br>(b) $2$<br>(c) $k=4$<br>(d) $f(x)=x+2$ only for $x>2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

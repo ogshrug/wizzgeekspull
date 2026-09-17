@@ -1,0 +1,27 @@
+{
+  "id": "6a2fbbc2b51101141dc0dc8b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa",
+    "6a13ebc98c819562f933f9a1"
+  ],
+  "question_type": "VSA",
+  "question": "Solve the differential equation: $log(\\frac{dy}{dx})=x-y.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Convert the logarithmic equation into its exponential form. Since $log(\\frac{dy}{dx}) = x-y$, we have $\\frac{dy}{dx} = e^{x-y}$.<br />**Step 2:** Use the laws of exponents to separate the terms: $\\frac{dy}{dx} = e^x \\cdot e^{-y}$.<br />**Step 3:** Separate the variables by moving $y$ terms to the left and $x$ terms to the right: $\\frac{dy}{e^{-y}} = e^x dx$, which simplifies to $e^y dy = e^x dx$.<br />**Step 4:** Integrate both sides of the equation: $\\int e^y dy = \\int e^x dx$.<br />**Step 5:** The integration results in $e^y = e^x + C$, which is the required general solution for the given differential equation.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

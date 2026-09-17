@@ -1,0 +1,29 @@
+{
+  "id": "6a8d757e883bbce68009f8e2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "SA",
+  "question": "Determine the range of $$f(x)=\\cos^{-1}\\left(\\frac{2x}{1+x^2}\\right),\\qquad x\\in\\mathbb{R}.$$ Also find the values of $x$ at which the endpoints of the range are attained.",
+  "answeroption": "B",
+  "explanation": "<b>Bounds of the inner expression</b><br>Since $(x-1)^2\\geq0$, we have $x^2+1\\geq2x$, giving $$\\frac{2x}{1+x^2}\\leq1.$$ Similarly, $(x+1)^2\\geq0$ gives $x^2+1\\geq-2x$, and hence $$\\frac{2x}{1+x^2}\\geq-1.$$<br><br><b>Attainment of boundary values</b><br>The inner expression equals $1$ when $(x-1)^2=0$, giving $x=1$. It equals $-1$ when $(x+1)^2=0$, giving $x=-1$.<br><br><b>Effect of inverse cosine</b><br>The function $\\cos^{-1}t$ is decreasing on $[-1,1]$. Therefore, as $t$ varies from $-1$ to $1$, $\\cos^{-1}t$ varies from $\\pi$ to $0$.<br><br><b>Final range</b><br>The range is $$[0,\\pi].$$ The least value $0$ is attained at $x=1$, and the greatest value $\\pi$ is attained at $x=-1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Range: $[0,\\pi]$; the least value $0$ is attained at $x=-1$, and the greatest value $\\pi$ is attained at $x=1$",
+    "B": "Range: $[0,\\pi]$; the least value $0$ is attained at $x=1$, and the greatest value $\\pi$ is attained at $x=-1$",
+    "C": "Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; the least value is attained at $x=-1$, and the greatest value is attained at $x=1$",
+    "D": "Range: $(0,\\pi)$; neither endpoint is attained for any real value of $x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

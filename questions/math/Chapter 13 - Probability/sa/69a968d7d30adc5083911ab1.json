@@ -1,0 +1,29 @@
+{
+  "id": "69a968d7d30adc5083911ab1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "SA",
+  "question": "Two cards are drawn one after the other from a well-shuffled deck of 52 cards without replacement. What is the probability that both are kings or both are queens?",
+  "answeroption": "A",
+  "explanation": "First, number of kings: 4, queens: 4.<br />Total ways: $52 \\times 51$ (since ordered drawing, no replacement).<br /><br />Number of ways:<br />- Both kings: $4 \\times 3 = 12$<br />- Both queens: $4 \\times 3 = 12$<br />Total = $12 + 12 = 24$<br /><br />So, required probability: $24/(52 \\times 51) = 24/2652 = 2/221$<br /><br />Final answer: $\\boxed{\\dfrac{2}{221}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{221}$",
+    "B": "$\\frac{1}{221}$",
+    "C": "$\\frac{4}{221}$",
+    "D": "$\\frac{24}{221}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:28:23 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

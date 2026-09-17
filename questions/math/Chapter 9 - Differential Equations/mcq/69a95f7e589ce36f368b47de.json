@@ -1,0 +1,29 @@
+{
+  "id": "69a95f7e589ce36f368b47de",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "MCQ",
+  "question": "Which of the following represents a homogeneous differential equation?",
+  "answeroption": "B",
+  "explanation": "A differential equation is homogeneous if the right side is a homogeneous function of degree zero.<br /><br />For option (B): $F(x, y) = \\frac{xy}{x^2 + y^2}$<br /><br />Check for degree:<br /><br />Let $x \\to \\lambda x$ and $y \\to \\lambda y$.<br /><br />$F(\\lambda x, \\lambda y) = \\frac{(\\lambda x)(\\lambda y)}{(\\lambda x)^2 + (\\lambda y)^2} = \\frac{\\lambda^2 xy}{\\lambda^2(x^2 + y^2)} = \\frac{xy}{x^2 + y^2}$<br /><br />Thus, the function is homogeneous of degree zero.<br /><br />Therefore, the correct answer is (B).",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx} = x + y$",
+    "B": "$\\frac{dy}{dx} = \\frac{xy}{x^2 + y^2}$",
+    "C": "$\\frac{dy}{dx} + y = x$",
+    "D": "$\\frac{dy}{dx} = 2x + 3y^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:48:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

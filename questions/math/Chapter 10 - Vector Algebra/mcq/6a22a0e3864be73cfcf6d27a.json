@@ -1,0 +1,34 @@
+{
+  "id": "6a22a0e3864be73cfcf6d27a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c4",
+    "6a13e767d837c8c7efa6b8c9"
+  ],
+  "question_type": "MCQ",
+  "question": "The position vectors of points P and Q are $\\vec{p}$ and $\\vec{q}$ respectively. The point R divides line segment PQ in the ratio 3:1 and S is the mid-point of line segment PR. The position vector of S is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** First, find the position vector of point R. R divides the line segment PQ in the ratio $m:n = 3:1$ internally. The formula for the position vector of R is $\\vec{r} = \\frac{m\\vec{q} + n\\vec{p}}{m+n}$.<br />**Step 2:** Substitute the given values: $\\vec{r} = \\frac{3\\vec{q} + 1\\vec{p}}{3+1} = \\frac{\\vec{p} + 3\\vec{q}}{4}$.<br />**Step 3:** Next, find the position vector of point S. S is explicitly given as the geometric mid-point of the line segment PR.<br />**Step 4:** The midpoint formula for position vectors is $\\vec{s} = \\frac{\\vec{p} + \\vec{r}}{2}$.<br />**Step 5:** Substitute the previously found vector $\\vec{r}$ into this formula: $\\vec{s} = \\frac{\\vec{p} + (\\frac{\\vec{p} + 3\\vec{q}}{4})}{2} = \\frac{\\frac{4\\vec{p} + \\vec{p} + 3\\vec{q}}{4}}{2} = \\frac{5\\vec{p} + 3\\vec{q}}{8}$. The correct option is D.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\vec{p}+3\\vec{q}}{4}$",
+    "B": "$\\frac{\\vec{p}+3\\vec{q}}{8}$",
+    "C": "$\\frac{5\\vec{p}+3\\vec{q}}{4}$",
+    "D": "$\\frac{5\\vec{p}+3\\vec{q}}{8}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

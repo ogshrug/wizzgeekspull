@@ -1,0 +1,30 @@
+{
+  "id": "6a8d45a31cb3824448de86d2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "For $x\\in[0,1]$, students define $P(x)=\\sin^{-1}x$ and $Q(x)=\\sin^{-1}\\left(\\sqrt{1-x^2}\\right)$. Both values belong to the principal interval $\\left[0,\\frac{\\pi}{2}\\right]$. The class investigates how the two inverse-sine expressions are related and uses that relation to solve an equality between them. Careful attention to the non-negative square root and the principal value branch is necessary for obtaining a valid and unique solution.<br><br><b>(a)</b> Express $Q(x)$ in terms of $P(x)$.<br><br><b>(b)</b> Evaluate $P\\left(\\frac{\\sqrt{3}}{2}\\right)+Q\\left(\\frac{\\sqrt{3}}{2}\\right)$.<br><br><b>(c)</b> Determine the value of $x$ for which $P(x)=Q(x)$.<br><br><b>(d)</b> Verify that the obtained value satisfies the original inverse-trigonometric equality.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Let $P(x)=\\theta$. Since $x\\in[0,1]$, $\\theta\\in\\left[0,\\frac{\\pi}{2}\\right]$ and $x=\\sin\\theta$. Therefore, $$\\sqrt{1-x^2}=\\sqrt{1-\\sin^2\\theta}=\\cos\\theta$$ Because $\\theta$ lies in the first quadrant, $$Q(x)=\\sin^{-1}(\\cos\\theta)=\\frac{\\pi}{2}-\\theta$$ Hence, $$Q(x)=\\frac{\\pi}{2}-P(x)$$<br><br><b>(b)</b><br>Since $P(x)+Q(x)=\\frac{\\pi}{2}$ for every $x\\in[0,1]$, $$P\\left(\\frac{\\sqrt{3}}{2}\\right)+Q\\left(\\frac{\\sqrt{3}}{2}\\right)=\\frac{\\pi}{2}$$<br><br><b>(c)</b><br>If $P(x)=Q(x)$, then using $Q(x)=\\frac{\\pi}{2}-P(x)$ gives $$P(x)=\\frac{\\pi}{2}-P(x)$$ Therefore, $2P(x)=\\frac{\\pi}{2}$ and $P(x)=\\frac{\\pi}{4}$. Hence, $$\\sin^{-1}x=\\frac{\\pi}{4}$$ which gives $$x=\\sin\\frac{\\pi}{4}=\\frac{1}{\\sqrt{2}}$$<br><br><b>(d)</b><br>For $x=\\frac{1}{\\sqrt{2}}$, $$P(x)=\\sin^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)=\\frac{\\pi}{4}$$ Also, $$\\sqrt{1-x^2}=\\sqrt{1-\\frac{1}{2}}=\\frac{1}{\\sqrt{2}}$$ Therefore, $$Q(x)=\\sin^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)=\\frac{\\pi}{4}$$ Thus, $P(x)=Q(x)$, and the solution is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $Q(x)=P(x)$ for every $x\\in[0,1]$<br><br>(b) $P\\left(\\dfrac{\\sqrt{3}}{2}\\right)+Q\\left(\\dfrac{\\sqrt{3}}{2}\\right)=\\dfrac{2\\pi}{3}$<br><br>(c) $x=\\dfrac{\\sqrt{3}}{2}$<br><br>(d) Both sides equal $\\dfrac{\\pi}{3}$",
+    "B": "(a) $Q(x)=\\pi-P(x)$<br><br>(b) $P\\left(\\dfrac{\\sqrt{3}}{2}\\right)+Q\\left(\\dfrac{\\sqrt{3}}{2}\\right)=\\pi$<br><br>(c) $x=1$<br><br>(d) Both sides equal $\\dfrac{\\pi}{2}$",
+    "C": "(a) $Q(x)=\\dfrac{\\pi}{2}-P(x)$<br><br>(b) $P\\left(\\dfrac{\\sqrt{3}}{2}\\right)+Q\\left(\\dfrac{\\sqrt{3}}{2}\\right)=\\dfrac{\\pi}{2}$<br><br>(c) $x=\\dfrac{1}{\\sqrt{2}}$<br><br>(d) $P\\left(\\dfrac{1}{\\sqrt{2}}\\right)=Q\\left(\\dfrac{1}{\\sqrt{2}}\\right)=\\dfrac{\\pi}{4}$",
+    "D": "(a) $Q(x)=\\dfrac{\\pi}{2}+P(x)$<br><br>(b) $P\\left(\\dfrac{\\sqrt{3}}{2}\\right)+Q\\left(\\dfrac{\\sqrt{3}}{2}\\right)=\\dfrac{3\\pi}{2}$<br><br>(c) $x=0$<br><br>(d) $P(0)=Q(0)=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

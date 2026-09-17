@@ -1,0 +1,29 @@
+{
+  "id": "6a8ecce1be0ecc7866e90bd7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "VSA",
+  "question": "For $x>0$, find the intervals on which $f(x)=x+\\frac{1}{x}$ is increasing and decreasing.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> Differentiate the function on its specified domain $x>0$: $$f'(x)=1-\\frac{1}{x^2}=\\frac{x^2-1}{x^2}$$<br><b>Step 2:</b> Since $x^2>0$ on the domain, the sign of $f'(x)$ depends only on $x^2-1$.<br><b>Step 3:</b> For $0<x<1$, $x^2-1<0$, and hence $f'(x)<0$. Therefore, the function is decreasing.<br><b>Step 4:</b> For $x>1$, $x^2-1>0$, and hence $f'(x)>0$. Therefore, the function is increasing.<br><b>Step 5:</b> Thus, $f$ is decreasing on $(0,1)$ and increasing on $(1,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Decreasing on $(0,1)$ and increasing on $(1,\\infty)$",
+    "B": "Increasing on $(0,1)$ and decreasing on $(1,\\infty)$",
+    "C": "Increasing on $(0,\\infty)$",
+    "D": "Decreasing on $(0,\\infty)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

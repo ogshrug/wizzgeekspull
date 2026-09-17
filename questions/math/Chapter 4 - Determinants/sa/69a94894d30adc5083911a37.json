@@ -1,0 +1,29 @@
+{
+  "id": "69a94894d30adc5083911a37",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "SA",
+  "question": "Suppose $A$ is a $3 \\times 3$ matrix such that $A' = kA$ for some scalar $k$. Determine all possible values of $k$ and describe the type of matrix $A$.",
+  "answeroption": "C",
+  "explanation": "If $A' = kA$, transpose both sides: $(A')' = kA'$<br />But $(A')' = A$, so $A = kA'$<br />Substitute $A' = kA$ to get $A = k(kA) = k^2 A$<br />So $(k^2-1)A=0$<br />If $A \\ne 0$, $k^2 = 1 \\implies k = 1$ or $k = -1$<br />If $k=1$, $A'=A$ so $A$ is symmetric.<br />If $k=-1$, $A' = -A$, so $A$ is skew symmetric.<br />Thus, $k=1$ (symmetric) or $k=-1$ (skew symmetric).",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=0$ only; $A$ is a zero matrix.",
+    "B": "$k=1$ only; $A$ is symmetric.",
+    "C": "$k=1$ or $k=-1$; if $k=1$, $A$ is symmetric, and if $k=-1$, $A$ is skew-symmetric.",
+    "D": "$k=2$ or $k=-2$; $A$ is neither symmetric nor skew-symmetric."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:10:44 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

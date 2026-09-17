@@ -1,0 +1,26 @@
+{
+  "id": "6a33b674d5dca7dcb0bf0f46",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "LA",
+  "question": "Find: $\\int \\frac{3x+1}{(x-2)^2(x+2)} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Formulate the partial fraction decomposition: $\\frac{3x+1}{(x-2)^2(x+2)} = \\frac{A}{x-2} + \\frac{B}{(x-2)^2} + \\frac{C}{x+2}$.\n\n**Step 2:** Clear the denominators: $3x+1 = A(x-2)(x+2) + B(x+2) + C(x-2)^2$.\n\n**Step 3:** Substitute roots to quickly find constants. Set $x=2$: $7 = 4B \\Rightarrow B = \\frac{7}{4}$. Set $x=-2$: $-5 = 16C \\Rightarrow C = -\\frac{5}{16}$.\n\n**Step 4:** Compare the coefficient of $x^2$ to find the last constant: $0 = A + C \\Rightarrow A = \\frac{5}{16}$.\n\n**Step 5:** Substitute constants and evaluate the resulting integrals: $\\int \\left( \\frac{5/16}{x-2} + \\frac{7/4}{(x-2)^2} - \\frac{5/16}{x+2} \\right) dx = \\frac{5}{16}\\ln|x-2| - \\frac{7}{4(x-2)} - \\frac{5}{16}\\ln|x+2| + C = \\frac{5}{16}\\ln\\left|\\frac{x-2}{x+2}\\right| - \\frac{7}{4(x-2)} + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

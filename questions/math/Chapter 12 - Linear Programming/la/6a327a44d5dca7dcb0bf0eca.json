@@ -1,0 +1,27 @@
+{
+  "id": "6a327a44d5dca7dcb0bf0eca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following Linear Programming problem graphically:\nMaximise $Z=300x+600y$\nSubject to\n$x+2y \\le 12$\n$2x+y \\le 12$\n$x+\\frac{5}{4}y \\ge 5$\n$x \\ge 0, y \\ge 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Graph the Constraints**  \nPlot the lines: $x+2y=12$ (intercepts: (12,0), (0,6)), $2x+y=12$ (intercepts: (6,0), (0,12)), and $x+\\frac{5}{4}y=5$ or $4x+5y=20$ (intercepts: (5,0), (0,4)). For $\\le$ inequalities, shade towards the origin; for $\\ge$, shade away from the origin. The feasible region is the common bounded polygon.\n\n**Step 2: Find the Corner Points**  \nSolve pairs of equations to find vertices:  \n- Intersection of $x+2y=12$ and $2x+y=12$: Solving gives $x=4, y=4$.  \n- Intersection with axes: $(5,0)$ from $4x+5y=20$ with $y=0$; $(6,0)$ from $2x+y=12$ with $y=0$; $(0,6)$ from $x+2y=12$ with $x=0$; $(0,4)$ from $4x+5y=20$ with $x=0$.\n\n**Step 3: Evaluate Objective Function**  \n$Z=300x+600y$:  \n- At $(5,0)$: $Z=1500$  \n- At $(6,0)$: $Z=1800$  \n- At $(4,4)$: $Z=1200+2400=3600$  \n- At $(0,6)$: $Z=3600$  \n- At $(0,4)$: $Z=2400$\n\n**Step 4: Identify the Maximum**  \nThe maximum value is $3600$, achieved at both $(4,4)$ and $(0,6)$. Thus, the LPP has multiple optimal solutions.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

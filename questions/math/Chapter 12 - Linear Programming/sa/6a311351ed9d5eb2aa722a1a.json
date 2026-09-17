@@ -1,0 +1,27 @@
+{
+  "id": "6a311351ed9d5eb2aa722a1a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8d9"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following Linear Programming problem graphically:\nMaximize $Z=3x+3.5y$\nsubject to constraints: $x+2y\\ge240$,\n$3x+1.5y\\ge270$,\n$1.5x+2y\\le310$,\n$x\\ge0$, $y\\ge0$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Graph the Constraints and Identify the Feasible Region**  \nPlot each constraint line on the coordinate plane in the first quadrant (since $x,y \\ge 0$):  \n- $x+2y=240$: intercepts (240,0) and (0,120). Since the inequality is $\\ge$, shade the region away from the origin.  \n- $3x+1.5y=270$: divide by 1.5 to get $2x+y=180$, intercepts (90,0) and (0,180). Shade away from origin (since $\\ge$).  \n- $1.5x+2y=310$: intercepts (206.67,0) and (0,155). Since $\\le$, shade towards the origin.  \nThe feasible region is the common area satisfying all constraints simultaneously.\n\n**Step 2: Find All Corner Points (Vertices)**  \nCalculate the intersection points of the boundary lines:  \n- Intersection of $x+2y=240$ and $3x+1.5y=270$: Solve: $x=240-2y$. Substitute: $3(240-2y)+1.5y=270 \\Rightarrow 720-6y+1.5y=270 \\Rightarrow -4.5y=-450 \\Rightarrow y=100$, then $x=40$. Vertex $A=(40,100)$.  \n- Intersection of $x+2y=240$ and $1.5x+2y=310$: Subtract: $(1.5x+2y)-(x+2y)=310-240 \\Rightarrow 0.5x=70 \\Rightarrow x=140$, then $140+2y=240 \\Rightarrow y=50$. Vertex $B=(140,50)$.  \n- Intersection of $3x+1.5y=270$ and $1.5x+2y=310$: Multiply first by 2: $6x+3y=540$; second by 2: $3x+4y=620$. Solve: from first $y = 180 - 2x$; substitute: $3x+4(180-2x)=620 \\Rightarrow 3x+720-8x=620 \\Rightarrow -5x=-100 \\Rightarrow x=20$, then $y=180-40=140$. Vertex $C=(20,140)$.\n\n**Step 3: Check Feasibility of Vertices**  \nVerify all vertices satisfy all three constraints:  \n- A(40,100): 40+200=240 (ok), 120+150=270 (ok), 60+200=260 ≤310 (ok) → feasible.  \n- B(140,50): 140+100=240 (ok), 420+75=495 ≥270 (ok), 210+100=310 (ok) → feasible.  \n- C(20,140): 20+280=300 ≥240 (ok), 60+210=270 (ok), 30+280=310 (ok) → feasible.\n\n**Step 4: Evaluate Objective Function at Each Vertex**  \nCompute $Z=3x+3.5y$:  \n- At A(40,100): $Z=3(40)+3.5(100)=120+350=470$  \n- At B(140,50): $Z=3(140)+3.5(50)=420+175=595$  \n- At C(20,140): $Z=3(20)+3.5(140)=60+490=550$\n\n**Step 5: Identify the Maximum Value**  \nComparing all values, the maximum $Z$ is $595$ at vertex B(140,50). Since the feasible region is bounded and the objective function is linear, the maximum occurs at a vertex. Thus, the optimal solution is $x=140$, $y=50$, with maximum value $\\boxed{595}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

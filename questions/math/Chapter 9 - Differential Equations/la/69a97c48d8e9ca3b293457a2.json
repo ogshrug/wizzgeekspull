@@ -1,0 +1,29 @@
+{
+  "id": "69a97c48d8e9ca3b293457a2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following linear differential equation and obtain the particular solution for the condition $y(0) = 1$: $\\frac{dy}{dx} + y \\cot x = 2 \\cos x$.",
+  "answeroption": "D",
+  "explanation": "Integrating factor: $e^{\\int \\cot x dx} = \\sin x$<br />Multiply: $\\frac{d}{dx}[y \\sin x] = 2 \\sin x \\cos x = \\sin 2x$<br />Integrate: $y \\sin x = -\\frac{1}{2} \\cos 2x + C$<br />Apply $y(0)=1$: $C = 1/2$<br />Solution: $y = \\sin x$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\cos x$",
+    "B": "$y=2\\sin x$",
+    "C": "$y=\\sin^2x$",
+    "D": "$y=\\sin x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:51:20 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

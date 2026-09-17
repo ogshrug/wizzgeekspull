@@ -1,0 +1,31 @@
+{
+  "id": "6a8c65821cb3824448de86a6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4c",
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "Analyse the function $y=2\\csc^{-1}(x-1)-\\dfrac{\\pi}{2}$ as a transformation of $y=\\csc^{-1}x$, and use this analysis to obtain its domain, exact range, coordinate-axis intercepts, and the points corresponding to the extreme principal values.",
+  "answeroption": "B",
+  "explanation": "<b>Graph Transformations</b><br>Replacing $x$ by $x-1$ shifts the graph of $y=\\csc^{-1}x$ by $1$ unit to the right. Multiplication by $2$ stretches it vertically by a factor of $2$, and subtracting $\\dfrac{\\pi}{2}$ shifts the graph downward by $\\dfrac{\\pi}{2}$.<br><br><b>Domain</b><br>The inverse cosecant expression is defined when<br>$$|x-1|\\geq1$$<br>Therefore,<br>$$x-1\\leq-1\\quad\\text{or}\\quad x-1\\geq1$$<br>which gives<br>$$x\\leq0\\quad\\text{or}\\quad x\\geq2$$<br>Hence, the domain is<br>$$(-\\infty,0]\\cup[2,\\infty)$$<br><br><b>Range</b><br>The principal-value range of $\\csc^{-1}(x-1)$ is<br>$$\\left[-\\frac{\\pi}{2},0\\right)\\cup\\left(0,\\frac{\\pi}{2}\\right]$$<br>Multiplying by $2$ gives<br>$$[-\\pi,0)\\cup(0,\\pi]$$<br>Subtracting $\\dfrac{\\pi}{2}$ gives the exact range<br>$$\\left[-\\frac{3\\pi}{2},-\\frac{\\pi}{2}\\right)\\cup\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$$<br><br><b>Intercepts</b><br>For the $x$-intercept, set $y=0$:<br>$$2\\csc^{-1}(x-1)-\\frac{\\pi}{2}=0$$<br>$$\\csc^{-1}(x-1)=\\frac{\\pi}{4}$$<br>Therefore,<br>$$x-1=\\csc\\frac{\\pi}{4}=\\sqrt{2}$$<br>giving the $x$-intercept $(1+\\sqrt{2},0)$. At $x=0$,<br>$$y=2\\csc^{-1}(-1)-\\frac{\\pi}{2}$$<br>$$y=2\\left(-\\frac{\\pi}{2}\\right)-\\frac{\\pi}{2}=-\\frac{3\\pi}{2}$$<br>Thus, the $y$-intercept is $\\left(0,-\\dfrac{3\\pi}{2}\\right)$.<br><br><b>Extreme Principal Values</b><br>The value $\\csc^{-1}(x-1)=-\\dfrac{\\pi}{2}$ occurs when $x-1=-1$, giving the point $\\left(0,-\\dfrac{3\\pi}{2}\\right)$. The value $\\csc^{-1}(x-1)=\\dfrac{\\pi}{2}$ occurs when $x-1=1$, giving the point $\\left(2,\\dfrac{\\pi}{2}\\right)$.<br><br><b>Final Result</b><br>The transformed graph has domain $(-\\infty,0]\\cup[2,\\infty)$, range $\\left[-\\dfrac{3\\pi}{2},-\\dfrac{\\pi}{2}\\right)\\cup\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$, intercepts $(1+\\sqrt{2},0)$ and $\\left(0,-\\dfrac{3\\pi}{2}\\right)$, with the extreme principal-value points at $\\left(0,-\\dfrac{3\\pi}{2}\\right)$ and $\\left(2,\\dfrac{\\pi}{2}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Shift right by $1$, vertical stretch by $2$ and shift upward by $\\dfrac{\\pi}{2}$; Domain: $(-\\infty,0]\\cup[2,\\infty)$; Range: $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)\\cup\\left(\\dfrac{\\pi}{2},\\dfrac{3\\pi}{2}\\right]$; intercepts: $(1-\\sqrt{2},0)$ and $\\left(0,-\\dfrac{\\pi}{2}\\right)$; extreme points: $\\left(0,-\\dfrac{\\pi}{2}\\right)$ and $\\left(2,\\dfrac{3\\pi}{2}\\right)$",
+    "B": "Shift right by $1$, vertical stretch by $2$ and shift downward by $\\dfrac{\\pi}{2}$; Domain: $(-\\infty,0]\\cup[2,\\infty)$; Range: $\\left[-\\dfrac{3\\pi}{2},-\\dfrac{\\pi}{2}\\right)\\cup\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$; intercepts: $(1+\\sqrt{2},0)$ and $\\left(0,-\\dfrac{3\\pi}{2}\\right)$; extreme points: $\\left(0,-\\dfrac{3\\pi}{2}\\right)$ and $\\left(2,\\dfrac{\\pi}{2}\\right)$",
+    "C": "Shift left by $1$, vertical stretch by $2$ and shift downward by $\\dfrac{\\pi}{2}$; Domain: $(-\\infty,-2]\\cup[0,\\infty)$; Range: $\\left[-\\dfrac{3\\pi}{2},-\\dfrac{\\pi}{2}\\right)\\cup\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$; intercepts: $(\\sqrt{2}-1,0)$ and $\\left(0,\\dfrac{\\pi}{2}\\right)$; extreme points: $\\left(-2,-\\dfrac{3\\pi}{2}\\right)$ and $\\left(0,\\dfrac{\\pi}{2}\\right)$",
+    "D": "Shift right by $1$, vertical compression by $\\dfrac{1}{2}$ and shift downward by $\\dfrac{\\pi}{2}$; Domain: $[0,2]$; Range: $[-\\pi,0]$; intercepts: $(2,0)$ and $\\left(0,-\\pi\\right)$; extreme points: $(0,-\\pi)$ and $(2,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

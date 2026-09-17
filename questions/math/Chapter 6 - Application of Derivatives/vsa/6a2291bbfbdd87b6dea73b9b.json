@@ -1,0 +1,28 @@
+{
+  "id": "6a2291bbfbdd87b6dea73b9b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977"
+  ],
+  "question_type": "VSA",
+  "question": "If $f(x)=x+\\frac{1}{x}, x\\ge1$, show that f is an increasing function.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To evaluate the monotonicity of the function for the domain $x \\ge 1$, we compute its first derivative with respect to $x$: $f'(x) = \\frac{d}{dx}\\left(x + \\frac{1}{x}\\right) = 1 - \\frac{1}{x^2}$.<br /><br /><b>Step 2</b> Next, analyze the value of this derivative given the constraint $x \\ge 1$. Squaring both sides of the inequality preserves the relationship since the numbers are positive, yielding $x^2 \\ge 1$. Taking the reciprocal of both sides reverses the direction of the inequality sign, yielding $\\frac{1}{x^2} \\le 1$.<br /><br /><b>Step 3</b> Subtracting this fraction from 1 gives $1 - \\frac{1}{x^2} \\ge 0$. Since the first derivative $f'(x) \\ge 0$ for all $x \\ge 1$, the function $f(x)$ is verified to be an increasing function.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a9c969589ce36f368b48bf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56",
+    "69c65fc040512f018fa94d5b"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $A$ be a $2 \\times 2$ matrix such that $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ and $A + A' = I$. If $b \\neq c$, which of the following must be true?",
+  "answeroption": "A",
+  "explanation": "$A + A' = \\begin{pmatrix} a+a & b+c \\\\ c+b & d+d \\end{pmatrix} = \\begin{pmatrix} 2a & b+c \\\\ b+c & 2d \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$<br /><br />Hence, $2a=1 \\implies a=1/2$, $2d=1 \\implies d=1/2$, $b+c=0$<br /><br />So, only (a) is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a = d = 1/2$",
+    "B": "$b+c = 1$",
+    "C": "$a+d = 1$",
+    "D": "$A$ is symmetric"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:20:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

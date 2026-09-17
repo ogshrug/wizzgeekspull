@@ -1,0 +1,31 @@
+{
+  "id": "69aa7da3320763ee1b04067d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5b",
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d5d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Business Inventory Management Using Matrices**<br /><br />A company sells three products: P, Q, and R. The monthly sales (in units) for these products in January and February are represented by the matrices:<br /><br />$J = \\begin{bmatrix} 120 & 150 & 100 \\\\ 180 & 130 & 170 \\\\ 140 & 160 & 110 \\end{bmatrix}$ and $F = \\begin{bmatrix} 100 & 140 & 90 \\\\ 170 & 120 & 160 \\\\ 130 & 150 & 100 \\end{bmatrix}$<br /><br />where rows correspond to Branches A, B, and C and columns correspond to Products P, Q, and R respectively.<br /><br />(a) Compute and interpret the matrix $S = J + F$.<br /><br />(b) If the cost per unit for products P, Q, and R are $\\begin{bmatrix} 200 \\\\ 250 \\\\ 150 \\end{bmatrix}$, calculate the total cost matrix for each branch for January using matrix multiplication.<br /><br />(c) If the goal for next month is to increase each branch's total sales by 10% over January, suggest a matrix operation to represent this scenario, and compute the projected sales matrix for next month.",
+  "answeroption": "D",
+  "explanation": "(a)<br /><br />To find $S = J + F$:<br /><br />$S = \\begin{bmatrix} 120 & 150 & 100 \\\\ 180 & 130 & 170 \\\\ 140 & 160 & 110 \\end{bmatrix} + \\begin{bmatrix} 100 & 140 & 90 \\\\ 170 & 120 & 160 \\\\ 130 & 150 & 100 \\end{bmatrix}$<br /><br />$= \\begin{bmatrix} 220 & 290 & 190 \\\\ 350 & 250 & 330 \\\\ 270 & 310 & 210 \\end{bmatrix}$.<br /><br />Interpretation: The matrix $S$ gives the cumulative sales for each branch for Jan and Feb for each product.<br /><br />(b)<br /><br />Cost per unit vector: $C = \\begin{bmatrix} 200 \\\\ 250 \\\\ 150 \\end{bmatrix}$.<br /><br />Total cost for January per branch: $J \\times C =$.<br /><br />$\\begin{bmatrix}120 & 150 & 100 \\\\ 180 & 130 & 170 \\\\ 140 & 160 & 110\\end{bmatrix} \\times \\begin{bmatrix}200 \\\\ 250 \\\\ 150\\end{bmatrix}$.<br /><br />Row 1: $120\\times200 + 150\\times250 + 100\\times150 = 24000 + 37500 + 15000 = 76500$.<br /><br />Row 2: $180\\times200 + 130\\times250 + 170\\times150 = 36000 + 32500 + 25500 = 94000$.<br /><br />Row 3: $140\\times200 + 160\\times250 + 110\\times150 = 28000 + 40000 + 16500 = 84500$.<br /><br />Total cost matrix: $\\begin{bmatrix} 76500 \\\\ 94000 \\\\ 84500 \\end{bmatrix}$.<br /><br />(c)<br /><br />To increase each entry of $J$ by 10%, multiply $J$ by 1.10.<br /><br />Projected sales = $1.10 \\times J$.<br /><br />$= \\begin{bmatrix} 132 & 165 & 110 \\\\ 198 & 143 & 187 \\\\ 154 & 176 & 121 \\end{bmatrix}$.<br /><br />Thus, the projected sales matrix increases every value by 10% over January sales.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $S=\\begin{bmatrix}20&10&10\\\\10&10&10\\\\10&10&10\\end{bmatrix}$.<br />(b) January cost vector is $\\begin{bmatrix}76500\\\\94000\\\\84500\\end{bmatrix}$.<br />(c) Projected sales are obtained by $J-0.10J$.",
+    "B": "(a) $S=\\begin{bmatrix}220&290&190\\\\350&250&330\\\\270&310&210\\end{bmatrix}$.<br />(b) January cost vector is $\\begin{bmatrix}200\\\\250\\\\150\\end{bmatrix}$.<br />(c) Projected sales matrix is $J+F$.",
+    "C": "(a) $S=J-F$.<br />(b) January cost vector is $\\begin{bmatrix}94000\\\\76500\\\\84500\\end{bmatrix}$.<br />(c) Projected sales matrix is $0.10J$ only.",
+    "D": "(a) $S=J+F=\\begin{bmatrix}220&290&190\\\\350&250&330\\\\270&310&210\\end{bmatrix}$, giving cumulative Jan-Feb sales.<br />(b) $JC=\\begin{bmatrix}76500\\\\94000\\\\84500\\end{bmatrix}$ gives total January cost for each branch.<br />(c) Projected sales $=1.10J=\\begin{bmatrix}132&165&110\\\\198&143&187\\\\154&176&121\\end{bmatrix}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:09:23 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

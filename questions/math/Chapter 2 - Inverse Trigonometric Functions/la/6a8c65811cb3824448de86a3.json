@@ -1,0 +1,30 @@
+{
+  "id": "6a8c65811cb3824448de86a3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "Determine the domain and range of the function $f(x)=\\sin^{-1}\\left(\\dfrac{2x}{1+x^2}\\right)$ by establishing the required bounds on its argument, and justify that every value in the obtained range is actually attained.",
+  "answeroption": "B",
+  "explanation": "<b>Required Condition</b><br>The denominator $1+x^2$ is positive for every real $x$. Also,<br>$$1+x^2-2x=(x-1)^2\\geq0$$<br>Therefore,<br>$$2x\\leq1+x^2$$<br>and hence<br>$$\\frac{2x}{1+x^2}\\leq1$$<br>Similarly,<br>$$1+x^2+2x=(x+1)^2\\geq0$$<br>which gives<br>$$\\frac{2x}{1+x^2}\\geq-1$$<br>Thus,<br>$$-1\\leq\\frac{2x}{1+x^2}\\leq1$$<br>for every real $x$. Therefore, the domain of $f$ is $\\mathbb{R}$.<br><br><b>Verification of the Argument Range</b><br>Let<br>$$t=\\frac{2x}{1+x^2}$$<br>Then<br>$$tx^2-2x+t=0$$<br>This quadratic equation has a real solution in $x$ when<br>$$(-2)^2-4t^2\\geq0$$<br>$$4(1-t^2)\\geq0$$<br>Therefore, every $t\\in[-1,1]$ is attained. In particular, $t=1$ occurs at $x=1$, while $t=-1$ occurs at $x=-1$.<br><br><b>Final Result</b><br>Since the argument assumes every value in $[-1,1]$ and $\\sin^{-1}t$ has range $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$, the required results are<br>$$\\text{Domain}=\\mathbb{R}$$<br>$$\\text{Range}=\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $[-1,1]$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; both endpoints are attained",
+    "B": "Domain: $\\mathbb{R}$; Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$; every value in the range is attained",
+    "C": "Domain: $\\mathbb{R}$; Range: $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$; neither endpoint is attained",
+    "D": "Domain: $\\mathbb{R}$; Range: $[0,\\pi]$; every value in the range is attained"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

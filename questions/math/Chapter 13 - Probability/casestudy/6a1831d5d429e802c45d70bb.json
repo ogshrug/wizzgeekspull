@@ -1,0 +1,25 @@
+{
+  "id": "6a1831d5d429e802c45d70bb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Two persons are competing for a position on the Managing Committee of an organisation. The probabilities that the first and the second person will be appointed are $0.5$ and $0.6$ respectively. Also, if the first person gets appointed, then the probability of introducing a waste treatment plant is $0.7$ and the corresponding probability is $0.4$ if the second person gets appointed.<br /><br />Based on the above information, answer the following questions:<br />(i) What is the probability that the waste treatment plant is introduced?<br />(ii) After the selection, if the waste treatment plant is introduced, what is the probability that the first person had introduced it?",
+  "answeroption": "",
+  "explanation": "**Step 1:** Define event variables: let $E_1$ and $E_2$ represent the appointment of the first and second person respectively, and let $A$ represent the introduction of the waste treatment plant. We have $P(E_1)=0.5, P(E_2)=0.6, P(A|E_1)=0.7,$ and $P(A|E_2)=0.4$.<br /><br />**Step 2:** Solve part (i) using the Law of Total Probability:<br />$P(A) = P(E_1)P(A|E_1) + P(E_2)P(A|E_2) = (0.5 \\times 0.7) + (0.6 \\times 0.4) = 0.35 + 0.24 = 0.59$.<br /><br />**Step 3:** Solve part (ii) using Bayes' Theorem to find $P(E_1|A)$:<br />$P(E_1|A) = \\frac{P(E_1)P(A|E_1)}{P(A)} = \\frac{0.5 \\times 0.7}{0.59} = \\frac{0.35}{0.59} = \\frac{35}{59}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8ef1824b490c7cde3594b4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "A rectangular field has a perimeter of $80\\ \\text{m}$.<br><br>(a) Express its area as a function of one side.<br><br>(b) Using the second derivative test, determine the dimensions for which its area is maximum.<br><br>(c) Calculate the maximum possible area.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Let the length and breadth of the rectangle be $x\\ \\text{m}$ and $y\\ \\text{m}$, respectively. Since the perimeter is $80\\ \\text{m}$,<br>$$2(x+y)=80$$<br>$$x+y=40$$<br>$$y=40-x$$<br>Therefore, the area is<br>$$A(x)=x(40-x)=40x-x^2$$<br>where $0<x<40$.<br><br><b>(b)</b><br>$$A'(x)=40-2x$$<br>For a stationary value,<br>$$40-2x=0$$<br>$$x=20$$<br>Also,<br>$$A''(x)=-2<0$$<br>Therefore, by the second derivative test, the area is maximum at $x=20$. The corresponding breadth is<br>$$y=40-20=20\\ \\text{m}$$<br>Thus, the rectangle must be a square of side $20\\ \\text{m}$.<br><br><b>(c)</b><br>The maximum area is<br>$$A(20)=20(20)=400\\ \\text{m}^2$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A(x)=40x-x^2$<br>(b) Dimensions $20$ m by $20$ m<br>(c) Maximum area $400$ m$^2$",
+    "B": "(a) $A(x)=80x-x^2$<br>(b) Dimensions $40$ m by $40$ m<br>(c) Maximum area $1600$ m$^2$",
+    "C": "(a) $A(x)=20x-x^2$<br>(b) Dimensions $10$ m by $30$ m<br>(c) Maximum area $300$ m$^2$",
+    "D": "(a) $A(x)=40x-2x^2$<br>(b) Dimensions $10$ m by $30$ m<br>(c) Maximum area $600$ m$^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

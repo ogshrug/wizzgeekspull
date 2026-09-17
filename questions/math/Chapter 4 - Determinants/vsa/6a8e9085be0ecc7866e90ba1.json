@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9085be0ecc7866e90ba1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "VSA",
+  "question": "The variables satisfy $x+y+z=6$, $2x-y+z=3$ and $x+2y-z=2$. Find $x+2y+3z$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Eliminate $z$</b><br>Subtracting the first equation from the second gives $$x-2y=-3$$ Adding the first and third equations gives $$2x+3y=8$$<br><b>Step 2: Solve for $x$ and $y$</b><br>From $x-2y=-3$, $x=2y-3$. Substitution in $2x+3y=8$ gives $$2(2y-3)+3y=8$$ Thus, $7y=14$ and $y=2$. Consequently, $x=1$.<br><b>Step 3: Determine $z$</b><br>Using $x+y+z=6$, $$1+2+z=6$$ Hence, $z=3$.<br><b>Step 4: Evaluate the expression</b><br>Therefore, $$x+2y+3z=1+4+9=14$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$14$",
+    "B": "$12$",
+    "C": "$16$",
+    "D": "$10$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

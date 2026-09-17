@@ -1,0 +1,28 @@
+{
+  "id": "6a22a73b864be73cfcf6d29b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c3",
+    "6a13e766d837c8c7efa6b8bc"
+  ],
+  "question_type": "VSA",
+  "question": "Find all the vectors of magnitude $3\\sqrt{3}$ which are collinear to vector $\\hat{i}+\\hat{j}+\\hat{k}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the given vector be $\\vec{a} = \\hat{i}+\\hat{j}+\\hat{k}$. First, we need to find the unit vector in its direction, denoted as $\\hat{a}$. The magnitude is $|\\vec{a}| = \\sqrt{1^2+1^2+1^2} = \\sqrt{3}$.<br />**Step 2:** The unit vector is $\\hat{a} = \\frac{\\vec{a}}{|\\vec{a}|} = \\frac{1}{\\sqrt{3}}(\\hat{i}+\\hat{j}+\\hat{k})$.<br />**Step 3:** A vector collinear to $\\vec{a}$ can point in either the exact same direction as $\\vec{a}$ or the exact opposite direction. Therefore, we must consider both positive and negative multiples of the unit vector.<br />**Step 4:** The required vectors have a specified magnitude of $3\\sqrt{3}$. We construct them by multiplying this desired magnitude by $\\pm\\hat{a}$.<br />**Step 5:** The required vectors are $\\vec{v} = \\pm 3\\sqrt{3} \\left( \\frac{1}{\\sqrt{3}}(\\hat{i}+\\hat{j}+\\hat{k}) \\right)$. The $\\sqrt{3}$ terms perfectly cancel out, yielding $\\vec{v} = \\pm 3(\\hat{i}+\\hat{j}+\\hat{k}) = \\pm (3\\hat{i}+3\\hat{j}+3\\hat{k})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a902b0fbe0ecc7866e90cbe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "Two fair dice are thrown simultaneously. If it is known that the sum of the numbers obtained is greater than $8$, find the probability that at least one die shows $5$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Identification of events</b><br>Let $A$ denote the event that at least one die shows $5$, and let $B$ denote the event that the sum of the numbers obtained is greater than $8$. We have to find $P(A|B)$.<br><b>Step 2: Outcomes satisfying the given condition</b><br>The outcomes corresponding to sums $9,10,11$ and $12$ are $$B=\\{(3,6),(4,5),(5,4),(6,3),(4,6),(5,5),(6,4),(5,6),(6,5),(6,6)\\}.$$ Thus, $n(B)=10$.<br><b>Step 3: Common favourable outcomes</b><br>The outcomes in $B$ containing at least one $5$ are $$A\\cap B=\\{(4,5),(5,4),(5,5),(5,6),(6,5)\\}.$$ Hence, $n(A\\cap B)=5$.<br><b>Step 4: Conditional probability</b><br>Therefore, $$P(A|B)=\\frac{P(A\\cap B)}{P(B)}=\\frac{5/36}{10/36}=\\frac12.$$<br><b>Step 5: Conclusion</b><br>The required probability is $$\\boxed{\\frac12}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}$",
+    "B": "$\\frac{2}{5}$",
+    "C": "$\\frac{3}{5}$",
+    "D": "$\\frac{1}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

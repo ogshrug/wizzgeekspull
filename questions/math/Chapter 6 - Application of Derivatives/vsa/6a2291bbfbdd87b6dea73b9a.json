@@ -1,0 +1,28 @@
+{
+  "id": "6a2291bbfbdd87b6dea73b9a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "VSA",
+  "question": "Find the least value of 'a' so that $f(x)=2x^{2}-ax+3$ is an increasing function on [2, 4].",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> For a function to be increasing over a given interval, its first derivative must be greater than or equal to zero across that entire interval. First, find the derivative: $f'(x) = 4x - a$. We require $4x - a \\ge 0 \\implies a \\le 4x$ for all $x \\in [2, 4]$.<br /><br /><b>Step 2</b> To ensure that $a$ is always less than or equal to $4x$ throughout the interval, $a$ must be less than or equal to the absolute minimum value that $4x$ takes on the interval $[2, 4]$. Since $4x$ is a strictly increasing linear function, its minimum occurs at the lower boundary point $x = 2$.<br /><br /><b>Step 3</b> Evaluating at $x = 2$ gives the boundary limit: $4(2) = 8$. Therefore, the condition for the function to be increasing is $a \\le 8$. The maximum upper bound value for $a$ is 8, making 8 the least value required at the boundary limit.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

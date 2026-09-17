@@ -1,0 +1,30 @@
+{
+  "id": "6a22b3cefbdd87b6dea73c10",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A gardener wanted to plant vegetables in his garden. Hence he bought 10 seeds of brinjal plant, 12 seeds of cabbage plant and 8 seeds of radish plant. The shopkeeper assured him of germination probabilities of brinjal, cabbage and radish to be 25%, 35% and 40% respectively. But before he could plant the seeds, they got mixed up in the bag and he had to sow them randomly. Based upon the above information, answer the following questions:<br /><br />**(i)** Calculate the probability of a randomly chosen seed to germinate.<br />**(ii)** What is the probability that it is a cabbage seed, given that the chosen seed germinates ?",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> Let $E_1, E_2,$ and $E_3$ represent the events of selecting a brinjal seed, a cabbage seed, and a radish seed, respectively. Calculate total seeds: $10 + 12 + 8 = 30$. The probabilities of selecting each type of seed are: $P(E_1) = \\frac{10}{30} = \\frac{1}{3}$, $P(E_2) = \\frac{12}{30} = \\frac{2}{5}$, and $P(E_3) = \\frac{8}{30} = \\frac{4}{15}$. Let $G$ be the event that a seed germinates.<br /><b>Step 2</b> Identify the conditional germination probabilities from the problem text: $P(G|E_1) = 25\\% = 0.25$, $P(G|E_2) = 35\\% = 0.35$, and $P(G|E_3) = 40\\% = 0.40$.<br /><b>Step 3</b> Apply the Theorem of Total Probability to find $P(G)$: $P(G) = P(E_1)P(G|E_1) + P(E_2)P(G|E_2) + P(E_3)P(G|E_3) = \\left(\\frac{10}{30}\\right)(0.25) + \\left(\\frac{12}{30}\\right)(0.35) + \\left(\\frac{8}{30}\\right)(0.40) = \\frac{2.5 + 4.2 + 3.2}{30} = \\frac{9.9}{30} = 0.33$.<br /><br /><b>(ii)</b><br /><br /><b>Step 4</b> We need to find the conditional probability that the seed is cabbage given that it successfully germinated, which is denoted as $P(E_2|G)$. We use Bayes' Theorem for this calculation: $P(E_2|G) = \\frac{P(E_2) \\cdot P(G|E_2)}{P(G)}$.<br /><b>Step 5</b> Substitute the numerical values into the Bayes' formula fraction: $P(E_2|G) = \\frac{\\left(\\frac{12}{30}\\right)(0.35)}{\\frac{9.9}{30}} = \\frac{4.2}{9.9} = \\frac{42}{99} = \\frac{14}{33}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-3",
+    "2025-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22b3cefbdd87b6dea73c10/1782196782-0.png?t=1782216582776"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

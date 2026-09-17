@@ -1,0 +1,29 @@
+{
+  "id": "69a9209f575fa42e09444851",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "VSA",
+  "question": "For the LPP: Maximize $Z = 3x + 2y$ subject to $x + 2y \\leq 8$, $2x + y \\leq 8$, $x \\geq 0$, $y \\geq 0$. Find the value of $Z$ at each corner point.",
+  "answeroption": "C",
+  "explanation": "Step 1: Find intercepts.<br /><br />$x + 2y = 8$: when $x = 0 \\Rightarrow y = 4$, when $y = 0 \\Rightarrow x = 8$.<br /><br />$2x + y = 8$: when $y = 0 \\Rightarrow x = 4$, when $x = 0 \\Rightarrow y = 8$.<br /><br />Step 2: Find points of intersection.<br /><br />At intersection of $x + 2y = 8$ and $2x + y = 8$.<br /><br />Multiply first equation by 2: $2x + 4y = 16$.<br /><br />Subtract second equation: $(2x + 4y) - (2x + y) = 16 - 8$.<br /><br />$3y = 8 \\Rightarrow y = \\frac{8}{3}$.<br /><br />Substitute into first equation: $x + 2\\left(\\frac{8}{3}\\right) = 8$.<br /><br />$x = 8 - \\frac{16}{3} = \\frac{8}{3}$.<br /><br />Intersection: $\\left(\\frac{8}{3}, \\frac{8}{3}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(0,0):0$, $(0,4):12$, $\\left(\\frac{8}{3},\\frac{8}{3}\\right):\\frac{40}{3}$, $(4,0):8$",
+    "B": "$(0,0):0$, $(0,4):8$, $\\left(\\frac{8}{3},\\frac{8}{3}\\right):\\frac{16}{3}$, $(4,0):12$",
+    "C": "$(0,0):0$, $(0,4):8$, $\\left(\\frac{8}{3},\\frac{8}{3}\\right):\\frac{40}{3}$, $(4,0):12$",
+    "D": "$(0,0):0$, $(0,8):16$, $\\left(\\frac{8}{3},\\frac{8}{3}\\right):\\frac{40}{3}$, $(8,0):24$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:20:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a22b86e864be73cfcf6d2c8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int_0^{\\pi/4} \\log(1 + \\tan x) dx$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Define the initial target integral as $I = \\int_0^{\\pi/4} \\log(1 + \\tan x) dx$. Implement the standard definite integral limit property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$.<br />**Step 2:** Directly applying this specific property yields: $I = \\int_0^{\\pi/4} \\log(1 + \\tan(\\frac{\\pi}{4} - x)) dx$.<br />**Step 3:** Expand the internal tangent term carefully: $\\tan(\\frac{\\pi}{4} - x) = \\frac{1 - \\tan x}{1 + \\tan x}$. The entire integrand structurally becomes $\\log(1 + \\frac{1 - \\tan x}{1 + \\tan x}) = \\log(\\frac{2}{1 + \\tan x})$.<br />**Step 4:** Simplify the core logarithmic expression: $\\log(\\frac{2}{1 + \\tan x}) = \\log 2 - \\log(1 + \\tan x)$. Consequently, the integral is written as $I = \\int_0^{\\pi/4} (\\log 2 - \\log(1 + \\tan x)) dx$.<br />**Step 5:** This expanded formulation elegantly evaluates to $I = \\log 2 \\cdot [x]_0^{\\pi/4} - I$. Adding the $I$ term across to both sides gives $2I = \\frac{\\pi}{4}\\log 2$. Therefore, the strict final result is $I = \\frac{\\pi}{8}\\log 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

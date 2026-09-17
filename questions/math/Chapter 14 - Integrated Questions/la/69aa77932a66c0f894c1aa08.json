@@ -1,0 +1,30 @@
+{
+  "id": "69aa77932a66c0f894c1aa08",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\begin{cases}\\dfrac{x}{\\sqrt{1-x^2}}, & x \\in (-1,1)\\\\0, & x=0\\end{cases}$.\n\n(a) Show that $f(x)$ is continuous everywhere in its domain.\n\n(b) Find $\\int_{-1}^{1} f(x) \\, dx$.\n\n(c) Let $g(x) = \\int_{0}^{x} f(t) \\, dt$. Express $g(x)$ in terms of inverse trigonometric functions and determine $g(1/2)$.\n\n(d) Evaluate $\\int_{-1/2}^{1/2} f(x) \\, dx$ and compare it with $g(1/2) - g(-1/2)$.",
+  "answeroption": "D",
+  "explanation": "**Concepts tested:** Integrals, Definite integrals, Properties of inverse trigonometric functions, Fundamental theorem of calculus, Continuity.<br /><br />(a) $f(x) = \\dfrac{x}{\\sqrt{1-x^2}}$ for $x \\in (-1,1)$; at $x=0$, $f(0)=0$. As $x \\to 0$, $\\dfrac{x}{\\sqrt{1-x^2}} \\to 0$. Thus, $f(x)$ is continuous on $(-1,1)$.<br /><br />(b) $\\int_{-1}^{1} \\dfrac{x}{\\sqrt{1-x^2}} dx$<br />Set $u=1-x^2 \\implies du= -2x dx$, $-\\frac{1}{2} du = x dx$.<br /><br />When $x=-1$, $u=0$. When $x=1$, $u=0$.<br />So,<br />$\\int_{x=-1}^{1} \\frac{x}{\\sqrt{1-x^2}} dx = -\\frac{1}{2} \\int_{u=0}^{0} u^{-1/2} du = 0$<br /><br />(c) $g(x) = \\int_{0}^{x} \\frac{t}{\\sqrt{1-t^2}} dt$<br />Let $u=1-t^2$, $du = -2t dt$, $-du/2 = t dt$.<br /><br />When $t=0$, $u=1$. When $t=x$, $u=1-x^2$<br />$g(x) = -\\frac{1}{2} \\int_{u=1}^{1-x^2} u^{-1/2} du = -\\frac{1}{2} [2u^{1/2}]_{u=1}^{u=1-x^2} = -[ (1-x^2)^{1/2} - 1 ]$<br />$= 1-(1-x^2)^{1/2}$<br /><br />Compute $g(1/2) = 1 - (1 - (1/2)^2)^{1/2} = 1 - (1 - 1/4)^{1/2} = 1 - (3/4)^{1/2} = 1 - \\frac{\\sqrt{3}}{2}$<br /><br />(d) $\\int_{-1/2}^{1/2} \\frac{x}{\\sqrt{1-x^2}} dx$<br />Direct computation: The integrand is odd, the interval is symmetric; hence the integral is zero.<br /><br />Compare: $g(1/2) - g(-1/2) = [1-(1-(1/2)^2)^{1/2}] - [1-(1-(-1/2)^2)^{1/2}] = 0$<br />So the integral over symmetric bounds, and the difference in $g$, both give $0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is discontinuous at $x=0$<br />(b) $\\int_{-1}^{1}f(x)dx=2$<br />(c) $g(x)=\\sin^{-1}x$, so $g\\left(\\frac12\\right)=\\frac{\\pi}{6}$<br />(d) $\\int_{-1/2}^{1/2}f(x)dx=\\frac{\\pi}{3}$ and it is not equal to $g(1/2)-g(-1/2)$",
+    "B": "(a) $f$ is continuous only for $x>0$<br />(b) $\\int_{-1}^{1}f(x)dx=1$<br />(c) $g(x)=\\sqrt{1-x^2}$, so $g\\left(\\frac12\\right)=\\frac{\\sqrt3}{2}$<br />(d) $\\int_{-1/2}^{1/2}f(x)dx=1-\\frac{\\sqrt3}{2}$",
+    "C": "(a) $f$ is continuous on $(-1,1)$<br />(b) $\\int_{-1}^{1}f(x)dx=-1$<br />(c) $g(x)=1+\\sqrt{1-x^2}$, so $g\\left(\\frac12\\right)=1+\\frac{\\sqrt3}{2}$<br />(d) $\\int_{-1/2}^{1/2}f(x)dx=2$",
+    "D": "(a) $f$ is continuous on $(-1,1)$<br />(b) $\\int_{-1}^{1}f(x)dx=0$<br />(c) $g(x)=1-\\sqrt{1-x^2}$, so $g\\left(\\frac12\\right)=1-\\frac{\\sqrt3}{2}$<br />(d) $\\int_{-1/2}^{1/2}f(x)dx=0$ and it equals $g(1/2)-g(-1/2)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:43:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

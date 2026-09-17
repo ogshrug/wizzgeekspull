@@ -1,0 +1,30 @@
+{
+  "id": "69aa77932a66c0f894c1aa07",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7e",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $F(x) = \\int_{0}^{x} \\dfrac{dt}{1+t^2}$ and consider the $2 \\times 2$ matrix $B = \\begin{bmatrix} F(a) & F(-a) \\\\ F(-a) & F(a) \\end{bmatrix}$ with $a > 0$.\n\n(a) Find the explicit form of $F(a)$ and $F(-a)$.\n\n(b) Compute the determinant $|B|$.\n\n(c) Show that $B$ is always singular for $a=0$ and invertible otherwise. Prove.\n\n(d) Analyze the behavior of $|B|$ as $a \\to \\infty$.",
+  "answeroption": "A",
+  "explanation": "**Concepts Tested:** Integrals, Inverse Trigonometric Functions, Determinants, Matrices, Analysis<br /><br />(a) **Explicit forms:**<br /><br />$F(x) = \\int_0^x \\frac{dt}{1+t^2} = \\tan^{-1} x - \\tan^{-1} 0 = \\tan^{-1} x$<br /><br />So $F(a) = \\tan^{-1} a$, $F(-a) = \\tan^{-1} (-a) = -\\tan^{-1} a$<br /><br />(b) **$|B|$:**<br /><br />$B = \\begin{bmatrix} \\tan^{-1} a & -\\tan^{-1} a \\\\ -\\tan^{-1} a & \\tan^{-1} a \\end{bmatrix}$<br /><br />$|B| = (\\tan^{-1} a)^2 - ( -\\tan^{-1} a )^2 = (\\tan^{-1} a)^2 - (\\tan^{-1} a)^2 = 0$<br /><br />Thus, $B$ is singular for any $a$.<br /><br />However, let's reassess (since structure is $\\begin{bmatrix} F(a) & F(-a) \\\\ F(-a) & F(a) \\end{bmatrix}$):<br /><br />Let $x = F(a)$, $y = F(-a) = -x$ (since $\\tan^{-1}(-a) = -\\tan^{-1} a$):<br />$|B| = x^2 - y^2 = x^2 - ( -x )^2 = x^2 - x^2 = 0$<br /><br />So, actually, $B$ is always singular for any $a$.<br /><br />(c) **Singularity and invertibility:**<br /><br />$|B| = 0$, so always singular, never invertible for any $a$.<br /><br />(d) **Behavior as $a \\to \\infty$:**<br /><br />$\\tan^{-1} a \\to \\frac{\\pi}{2}$, so all entries approach $\\frac{\\pi}{2}$ and $-\\frac{\\pi}{2}$ respectively.<br /><br />So, $|B| \\to 0$ as $a \\to \\infty$ (remains 0 for every $a$).",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $F(a)=\\tan^{-1}a$, $F(-a)=-\\tan^{-1}a$<br />(b) $|B|=0$<br />(c) $B$ is always singular and never invertible for any $a$<br />(d) $|B|\\to0$ as $a\\to\\infty$ and is actually $0$ for every $a$",
+    "B": "(a) $F(a)=\\tan a$, $F(-a)=-\\tan a$<br />(b) $|B|=2\\tan^2a$<br />(c) $B$ is invertible for all $a>0$<br />(d) $|B|\\to\\infty$ as $a\\to\\infty$",
+    "C": "(a) $F(a)=\\cot^{-1}a$, $F(-a)=\\cot^{-1}a$<br />(b) $|B|=1$<br />(c) $B$ is singular only at $a=0$ and invertible otherwise<br />(d) $|B|\\to1$ as $a\\to\\infty$",
+    "D": "(a) $F(a)=\\ln(1+a^2)$, $F(-a)=\\ln(1+a^2)$<br />(b) $|B|=(\\ln(1+a^2))^2$<br />(c) $B$ is never singular<br />(d) $|B|\\to\\infty$ as $a\\to\\infty$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:43:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

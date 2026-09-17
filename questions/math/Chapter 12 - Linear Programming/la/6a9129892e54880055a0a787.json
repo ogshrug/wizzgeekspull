@@ -1,0 +1,31 @@
+{
+  "id": "6a9129892e54880055a0a787",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "LA",
+  "question": "Determine the feasible region represented by $x\\ge1$, $y\\ge2$ and $x+y\\ge6$, identify the points at which its finite boundary segments meet, and justify graphically why the region is unbounded and why points on the opposite sides of the required boundary lines are infeasible.",
+  "answeroption": "B",
+  "explanation": "<b>Required Half-Planes</b><br>The inequality $x\\ge1$ requires points on or to the right of the vertical line $x=1$. The inequality $y\\ge2$ requires points on or above the horizontal line $y=2$. The inequality $x+y\\ge6$ requires points on or above the line $x+y=6$, which passes through $(6,0)$ and $(0,6)$. The feasible region is the common region satisfying all three conditions.<br><br>The line $x=1$ meets $x+y=6$ at $1+y=6$, giving $y=5$. Hence one boundary vertex is $(1,5)$. The line $y=2$ meets $x+y=6$ at $x+2=6$, giving $x=4$. Hence the other boundary vertex is $(4,2)$. The portion of $x+y=6$ joining $(1,5)$ and $(4,2)$ forms the finite oblique part of the boundary.<br><br>From $(1,5)$, the boundary continues indefinitely upward along $x=1$, and from $(4,2)$ it continues indefinitely to the right along $y=2$. Therefore, the feasible region extends without bound and is an unbounded region.<br><br>Points lying to the left of $x=1$, below $y=2$, or on the side $x+y<6$ fail at least one constraint and hence are infeasible. For instance, $(2,2)$ satisfies $x\\ge1$ and $y\\ge2$ but gives $x+y=4<6$, so it is not in the feasible region.<br><br><b>Final Result</b><br>The feasible region has boundary vertices $(1,5)$ and $(4,2)$ and extends indefinitely upward and to the right; hence it is unbounded, while every point outside the common region is infeasible.",
+  "explanation_image": [],
+  "options": {
+    "A": "The region is bounded with vertices $(1,5)$ and $(4,2)$",
+    "B": "The region is unbounded with boundary vertices $(1,5)$ and $(4,2)$, extending upward and to the right",
+    "C": "The region is unbounded with boundary vertices $(1,2)$ and $(4,5)$",
+    "D": "No feasible region exists because $x+y\\geq6$ is incompatible with $x\\geq1$ and $y\\geq2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

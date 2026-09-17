@@ -1,0 +1,30 @@
+{
+  "id": "69aa6476589ce36f368b48cb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Computer Graphics - Polygon Normal and Area**<br /><br />A 3D designer has four points $A(1,2,3)$, $B(4,0,6)$, $C(2,5,4)$, and $D(3,3,7)$, representing a quadrilateral surface.<br /><br />(a) Find vectors $\\vec{AB}$, $\\vec{AC}$, and $\\vec{AD}$.<br /><br />(b) Compute the area of the quadrilateral (as sum of two triangles ABC and ACD).<br /><br />(c) Determine if the surface is planar using vector products.",
+  "answeroption": "A",
+  "explanation": "(a)<br /><br />$\\vec{AB} = (4-1)\\hat{i} + (0-2)\\hat{j} + (6-3)\\hat{k} = 3\\hat{i} -2\\hat{j} + 3\\hat{k}$<br /><br />$\\vec{AC} = (2-1)\\hat{i} + (5-2)\\hat{j} + (4-3)\\hat{k} = 1\\hat{i} + 3\\hat{j} + 1\\hat{k}$<br /><br />$\\vec{AD} = (3-1)\\hat{i} + (3-2)\\hat{j} + (7-3)\\hat{k} = 2\\hat{i} + 1\\hat{j} + 4\\hat{k}$<br /><br />(b)<br /><br />Area of $\\triangle ABC$:<br /><br />$|\\vec{AB} \\times \\vec{AC}|/2$<br /><br />$\\left|\\begin{matrix}\\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & -2 & 3 \\\\ 1 & 3 & 1 \\end{matrix}\\right| = \\hat{i}((-2)\\cdot1-3\\cdot3) -\\hat{j}(3\\cdot1-3\\cdot1)+\\hat{k}(3\\cdot3-(-2)\\cdot1)$<br /><br />$=\\hat{i}(-2-9) - \\hat{j}(3-3) + \\hat{k}(9+2)$<br /><br />$=-11\\hat{i}+0\\hat{j}+11\\hat{k}$<br /><br />$|\\cdot|=\\sqrt{11^2+0+11^2}=\\sqrt{121+121}=\\sqrt{242}$<br /><br />Area $= \\frac{\\sqrt{242}}{2}$<br /><br />Area of $\\triangle ACD$:<br /><br />$\\vec{AC} \\times \\vec{AD}$<br /><br />$\\left|\\begin{matrix}\\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 3 & 1 \\\\ 2 & 1 & 4 \\end{matrix}\\right|$<br /><br />$=\\hat{i}(3\\cdot4-1\\cdot1)-\\hat{j}(1\\cdot4-1\\cdot2)+\\hat{k}(1\\cdot1-3\\cdot2)$<br /><br />$=\\hat{i}(12-1)-\\hat{j}(4-2)+\\hat{k}(1-6)$<br /><br />$=11\\hat{i}-2\\hat{j}-5\\hat{k}$<br /><br />$|\\cdot|=\\sqrt{121+4+25}=\\sqrt{150}$<br /><br />Area $= \\frac{\\sqrt{150}}{2}$<br /><br />Total quadrilateral area: $\\frac{\\sqrt{242}+\\sqrt{150}}{2}$<br /><br />(c)<br /><br />If $\\vec{AB} \\times \\vec{AC}$ and $\\vec{AC} \\times \\vec{AD}$ are scalar multiples, surface is planar.<br /><br />$\\vec{n}_1=-11\\hat{i}+0\\hat{j}+11\\hat{k}$<br /><br />$\\vec{n}_2=11\\hat{i}-2\\hat{j}-5\\hat{k}$<br /><br />Not scalar multiples $\\implies$ points are not coplanar $\\implies$ surface is not perfectly planar.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec{AB}=3\\hat{i}-2\\hat{j}+3\\hat{k}$, $\\vec{AC}=\\hat{i}+3\\hat{j}+\\hat{k}$, $\\vec{AD}=2\\hat{i}+\\hat{j}+4\\hat{k}$<br />(b) Area $=\\frac{\\sqrt{242}+\\sqrt{150}}{2}$<br />(c) Surface is not perfectly planar.",
+    "B": "(a) $\\vec{AB}=3\\hat{i}+2\\hat{j}+3\\hat{k}$, $\\vec{AC}=\\hat{i}+3\\hat{j}+\\hat{k}$, $\\vec{AD}=2\\hat{i}+\\hat{j}+4\\hat{k}$<br />(b) Area $=\\frac{\\sqrt{242}}{2}$<br />(c) Surface is planar.",
+    "C": "(a) $\\vec{AB}=3\\hat{i}-2\\hat{j}+3\\hat{k}$, $\\vec{AC}=\\hat{i}+3\\hat{j}+\\hat{k}$, $\\vec{AD}=2\\hat{i}+\\hat{j}+4\\hat{k}$<br />(b) Area $=\\sqrt{242}+\\sqrt{150}$<br />(c) Surface is planar.",
+    "D": "(a) $\\vec{AB}=2\\hat{i}-3\\hat{j}+3\\hat{k}$, $\\vec{AC}=3\\hat{i}+\\hat{j}+\\hat{k}$, $\\vec{AD}=\\hat{i}+2\\hat{j}+4\\hat{k}$<br />(b) Area $=\\frac{\\sqrt{150}}{2}$<br />(c) Surface is not perfectly planar."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:21:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

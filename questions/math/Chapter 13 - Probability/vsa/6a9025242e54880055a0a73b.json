@@ -1,0 +1,29 @@
+{
+  "id": "6a9025242e54880055a0a73b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "VSA",
+  "question": "An urn contains $6$ red and $4$ blue balls. Two balls are drawn successively without replacement. Find the probability that the first ball is red and the second ball is blue.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> Let $R$ be the event that the first ball is red and $B$ be the event that the second ball is blue. Initially there are $10$ balls, of which $6$ are red.<br><b>Step 2:</b> Therefore, $P(R)=\\frac{6}{10}$.<br><b>Step 3:</b> If the first ball drawn is red, $9$ balls remain, including all $4$ blue balls. Hence, $P(B\\mid R)=\\frac{4}{9}$.<br><b>Step 4:</b> By the multiplication theorem, $P(R\\cap B)=P(R)P(B\\mid R)$.<br><b>Step 5:</b> Thus, $P(R\\cap B)=\\frac{6}{10}\\times\\frac{4}{9}=\\frac{24}{90}=\\frac{4}{15}$. Therefore, the required probability is $\\frac{4}{15}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{5}$",
+    "B": "$\\frac{4}{15}$",
+    "C": "$\\frac{3}{10}$",
+    "D": "$\\frac{8}{25}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

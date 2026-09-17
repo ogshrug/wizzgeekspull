@@ -1,0 +1,29 @@
+{
+  "id": "6a2297d6864be73cfcf6d253",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "A pair of dice is thrown simultaneously. If X denotes the absolute difference of the numbers appearing on top of the dice, then find the probability distribution of X.",
+  "answeroption": "",
+  "explanation": "**Step 1:** When a standard pair of fair 6-sided dice is thrown, the total number of equally likely possible outcomes in the sample space is $6 \\times 6 = 36$. Let the outcome be denoted by a pair $(a, b)$ where $a, b \\in \\{1, 2, 3, 4, 5, 6\\}$.<br />**Step 2:** The random variable $X$ is defined as the absolute mathematical difference between the two numbers: $X = |a - b|$. We must determine all possible values $X$ can take. The smallest difference is 0 (when $a=b$), and the largest difference is $|6-1| = 5$. Thus, the possible values for $X$ are strictly $0, 1, 2, 3, 4, 5$.<br />**Step 3:** We methodically count the favorable outcomes for each specific value of $X$. For $X=0$, the pairs are identical: $(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)$. There are 6 such pairs. The probability $P(X=0) = \\frac{6}{36} = \\frac{1}{6}$.<br />**Step 4:** For $X=1$, the adjacent pairs are $(1,2), (2,3), (3,4), (4,5), (5,6)$ and their reversed counterparts. That's $5 \\times 2 = 10$ pairs. $P(X=1) = \\frac{10}{36} = \\frac{5}{18}$. For $X=2$, pairs are $(1,3), (2,4), (3,5), (4,6)$ and reversed. That's $4 \\times 2 = 8$ pairs. $P(X=2) = \\frac{8}{36} = \\frac{2}{9}$. For $X=3$, pairs are $(1,4), (2,5), (3,6)$ and reversed. That's $3 \\times 2 = 6$ pairs. $P(X=3) = \\frac{6}{36} = \\frac{1}{6}$. For $X=4$, pairs are $(1,5), (2,6)$ and reversed. That's $2 \\times 2 = 4$ pairs. $P(X=4) = \\frac{4}{36} = \\frac{1}{9}$.<br />**Step 5:** Finally, for $X=5$, the only extreme pairs are $(1,6)$ and $(6,1)$. That's exactly 2 pairs. $P(X=5) = \\frac{2}{36} = \\frac{1}{18}$. The final probability distribution is essentially a table listing these $X$ values paired with their respective calculated probabilities.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

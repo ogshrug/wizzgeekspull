@@ -1,0 +1,26 @@
+{
+  "id": "6a311282ed9d5eb2aa722a08",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int_{-a}^{a}\\frac{9^{x}}{1+9^{x}}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Use the Property of Definite Integrals**  \nLet $I = \\int_{-a}^{a} \\frac{9^x}{1+9^x} \\, dx$. We use the standard property:  \n$$\\int_{-a}^{a} f(x) \\, dx = \\int_{-a}^{a} f(-x) \\, dx$$  \nSo, $I = \\int_{-a}^{a} \\frac{9^{-x}}{1+9^{-x}} \\, dx$.\n\n**Step 2: Simplify the New Integrand**  \nMultiply numerator and denominator of $\\frac{9^{-x}}{1+9^{-x}}$ by $9^x$:  \n$$\\frac{9^{-x}}{1+9^{-x}} \\times \\frac{9^x}{9^x} = \\frac{1}{9^x + 1} = \\frac{1}{1+9^x}$$  \nThus, $I = \\int_{-a}^{a} \\frac{1}{1+9^x} \\, dx$.\n\n**Step 3: Add the Two Expressions for I**  \nWe have:  \n$$I = \\int_{-a}^{a} \\frac{9^x}{1+9^x} \\, dx \\quad \\text{and} \\quad I = \\int_{-a}^{a} \\frac{1}{1+9^x} \\, dx$$  \nAdding them:  \n$$2I = \\int_{-a}^{a} \\left( \\frac{9^x}{1+9^x} + \\frac{1}{1+9^x} \\right) dx = \\int_{-a}^{a} \\frac{9^x+1}{1+9^x} \\, dx = \\int_{-a}^{a} 1 \\, dx$$\n\n**Step 4: Evaluate the Simplified Integral**  \n$$2I = \\int_{-a}^{a} 1 \\, dx = [x]_{-a}^{a} = a - (-a) = 2a$$  \nTherefore, $2I = 2a \\Rightarrow I = a$.\n\n**Step 5: State the Final Answer**  \n$$\\int_{-a}^{a} \\frac{9^x}{1+9^x} \\, dx = a$$  \nThus, the value of the given definite integral is $\\boxed{a}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

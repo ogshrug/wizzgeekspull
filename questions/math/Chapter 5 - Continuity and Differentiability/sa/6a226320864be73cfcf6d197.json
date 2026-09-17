@@ -1,0 +1,28 @@
+{
+  "id": "6a226320864be73cfcf6d197",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "If $x\\sqrt{1+y}+y\\sqrt{1+x}=0$, $-1 < x < 1$, $x \\ne y$, then prove that $\\frac{dy}{dx}=\\frac{-1}{(1+x)^{2}}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Begin by moving one of the radical terms to the opposite side of the equation to isolate them: $x\\sqrt{1+y} = -y\\sqrt{1+x}$.<br />**Step 2:** Square both sides of the equation to eliminate the square roots: $x^2(1+y) = y^2(1+x)$.<br />**Step 3:** Expand both sides by distributing the squared terms: $x^2 + x^2y = y^2 + y^2x$.<br />**Step 4:** Group the purely squared terms on one side and the mixed terms on the other: $x^2 - y^2 = xy^2 - x^2y$.<br />**Step 5:** Factor both sides. The left side is a difference of squares. The right side has a common factor of $-xy$: $(x-y)(x+y) = -xy(x-y)$.<br />**Step 6:** Since we are given that $x \\ne y$, we know $x-y \\ne 0$. Divide both sides by $(x-y)$ to get $x+y = -xy$.<br />**Step 7:** Isolate $y$. Rearrange to gather all $y$ terms: $y + xy = -x \\implies y(1+x) = -x \\implies y = \\frac{-x}{1+x}$.<br />**Step 8:** Now, differentiate $y$ with respect to $x$ using the quotient rule: $\\frac{dy}{dx} = \\frac{-(1+x)(1) - (-x)(1)}{(1+x)^2} = \\frac{-1-x+x}{(1+x)^2} = \\frac{-1}{(1+x)^2}$. The proof is complete.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1",
+    "2025-2-2",
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

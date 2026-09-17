@@ -1,0 +1,26 @@
+{
+  "id": "6a225424864be73cfcf6d157",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "SA",
+  "question": "The side of an equilateral triangle is increasing at the rate of $3 \\text{ cm/s}$. At what rate its area increasing when the side of the triangle is 15 cm?",
+  "answeroption": "",
+  "explanation": "**Step 1:** The area $A$ of an equilateral triangle with a variable side length $a$ is defined by the geometric formula $A = \\frac{\\sqrt{3}}{4}a^2$. We are given that the rate of change of the side is $\\frac{da}{dt} = 3 \\text{ cm/s}$.<br />**Step 2:** Differentiate the area equation with respect to time $t$ using the chain rule: $\\frac{dA}{dt} = \\frac{\\sqrt{3}}{4} \\cdot 2a \\cdot \\frac{da}{dt} = \\frac{\\sqrt{3}}{2}a \\frac{da}{dt}$.<br />**Step 3:** Substitute the specifically given values, $a = 15$ and $\\frac{da}{dt} = 3$, into the differentiated equation: $\\frac{dA}{dt} = \\frac{\\sqrt{3}}{2} (15) (3) = \\frac{45\\sqrt{3}}{2}$. The area is increasing at a rate of $\\frac{45\\sqrt{3}}{2} \\text{ cm}^2\\text{/s}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

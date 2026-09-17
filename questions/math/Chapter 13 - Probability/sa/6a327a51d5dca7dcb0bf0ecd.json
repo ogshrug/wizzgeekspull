@@ -1,0 +1,26 @@
+{
+  "id": "6a327a51d5dca7dcb0bf0ecd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "An urn contains 3 red and 2 white marbles. Two marbles are drawn one by one with replacement from the urn. Find the probability distribution of the number of white balls. Also, find the mean of the number of white balls drawn.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $X$ be the number of white balls drawn. Since balls are replaced, trials are independent. $P(W) = \\frac{2}{5}$ and $P(R) = \\frac{3}{5}$. $X$ can take values 0, 1, 2.\n\n**Step 2:** Calculate probabilities for $X$: $P(X=0) = P(RR) = \\frac{3}{5} \\times \\frac{3}{5} = \\frac{9}{25}$. $P(X=1) = P(RW) + P(WR) = 2 \\times \\left(\\frac{3}{5} \\times \\frac{2}{5}\\right) = \\frac{12}{25}$. $P(X=2) = P(WW) = \\frac{2}{5} \\times \\frac{2}{5} = \\frac{4}{25}$.\n\n**Step 3:** The mean $E(X) = \\sum x_i P(x_i) = 0\\left(\\frac{9}{25}\\right) + 1\\left(\\frac{12}{25}\\right) + 2\\left(\\frac{4}{25}\\right)$.\n\n**Step 4:** Evaluate the mean: $E(X) = \\frac{0 + 12 + 8}{25} = \\frac{20}{25} = \\frac{4}{5}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fda20be0ecc7866e90c69",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ab"
+  ],
+  "question_type": "SA",
+  "question": "The slope of the tangent to a family of curves at any point $(x,y)$ is given by $\\frac{y}{x}+\\frac{x}{y}$, where $xy\\neq0$. Find the equation of the family of curves using the homogeneous nature of the corresponding differential equation.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Translate the slope condition</b><br>The given condition gives $$\\frac{dy}{dx}=\\frac{y}{x}+\\frac{x}{y}.$$ The right-hand side depends only on the ratios $\\frac{y}{x}$ and $\\frac{x}{y}$, so it is homogeneous.<br><b>Step 2: Introduce the homogeneous substitution</b><br>Put $y=vx$. Then $$\\frac{dy}{dx}=v+x\\frac{dv}{dx}.$$ Also, $\\frac{y}{x}=v$ and $\\frac{x}{y}=\\frac{1}{v}$.<br><b>Step 3: Reduce to separable form</b><br>Thus, $$v+x\\frac{dv}{dx}=v+\\frac{1}{v},$$ giving $$x\\frac{dv}{dx}=\\frac{1}{v}.$$ Therefore, $$v\\,dv=\\frac{dx}{x}.$$<br><b>Step 4: Integrate</b><br>$$\\frac{v^2}{2}=\\log|x|+C,$$ or $$v^2=2\\log|x|+C_1.$$<br><b>Step 5: Substitute back</b><br>Using $v=\\frac{y}{x}$, the required family is $$\\boxed{y^2=x^2\\left(2\\log|x|+C\\right)}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y^2=x^2\\left(\\log|x|+C\\right)$",
+    "B": "$y^2=x\\left(2\\log|x|+C\\right)$",
+    "C": "$y^2=x^2\\left(2\\log|y|+C\\right)$",
+    "D": "$y^2=x^2\\left(2\\log|x|+C\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

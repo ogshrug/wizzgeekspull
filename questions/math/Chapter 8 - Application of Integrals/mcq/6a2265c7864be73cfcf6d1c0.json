@@ -1,0 +1,33 @@
+{
+  "id": "6a2265c7864be73cfcf6d1c0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995"
+  ],
+  "question_type": "MCQ",
+  "question": "The area of the region bounded by the curve $y^{2}=x$ between $x=0$ and $x=1$ is",
+  "answeroption": "D",
+  "explanation": "**Step 1:** The equation $y^2 = x$ describes a rightward-opening parabola with its vertex precisely at the origin $(0,0)$. The region is bounded by this curve and vertical lines at $x=0$ and $x=1$.<br />**Step 2:** The curve is entirely symmetric with respect to the x-axis, meaning half of the area lies above the axis and half lies below it.<br />**Step 3:** To find the total enclosed area, we integrate the upper branch of the curve $y = \\sqrt{x}$ from 0 to 1, and multiply the result by 2 to account for the symmetry: Area $= 2 \\int_0^1 \\sqrt{x} dx$.<br />**Step 4:** Evaluate the integral: $\\int x^{1/2} dx = \\frac{x^{3/2}}{3/2} = \\frac{2}{3}x^{3/2}$.<br />**Step 5:** Apply the limits from 0 to 1: $2 \\left[ \\frac{2}{3}(1)^{3/2} - \\frac{2}{3}(0)^{3/2} \\right] = 2 \\left( \\frac{2}{3} \\right)$.<br />**Step 6:** Multiply to get the final area: $\\frac{4}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{2}$ sq units",
+    "B": "$\\frac{2}{3}$ sq units",
+    "C": "3 sq units",
+    "D": "$\\frac{4}{3}$ sq units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

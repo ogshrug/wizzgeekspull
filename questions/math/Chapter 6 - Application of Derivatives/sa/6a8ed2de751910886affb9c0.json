@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed2de751910886affb9c0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "SA",
+  "question": "A point $(x,y)$ moves on the circle $x^2+y^2=100$. At the instant when the point is $(8,6)$, its $x$-coordinate increases at $6$ units per second. Find the rate of change of its $y$-coordinate and interpret the sign.",
+  "answeroption": "D",
+  "explanation": "Constraint relationThe coordinates satisfy$$x^2+y^2=100$$Differentiation with respect to time$$2x\\frac{dx}{dt}+2y\\frac{dy}{dt}=0$$Dividing by $2$ and rearranging,$$\\frac{dy}{dt}=-\\frac{x}{y}\\frac{dx}{dt}$$Substitution at the given pointAt $(x,y)=(8,6)$ and $\\frac{dx}{dt}=6$,$$\\frac{dy}{dt}=-\\frac{8}{6}(6)=-8$$Sign interpretationThe negative sign shows that the $y$-coordinate decreases as the $x$-coordinate increases at this instant.Final resultThe $y$-coordinate is decreasing at $8$ units per second.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dt}=8$ units/s; the $y$-coordinate is increasing",
+    "B": "$\\frac{dy}{dt}=-6$ units/s; the $y$-coordinate is decreasing",
+    "C": "$\\frac{dy}{dt}=6$ units/s; the $y$-coordinate is increasing",
+    "D": "$\\frac{dy}{dt}=-8$ units/s; the $y$-coordinate is decreasing"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

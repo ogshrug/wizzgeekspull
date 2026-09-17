@@ -1,0 +1,28 @@
+{
+  "id": "6a2166ed91ff8b4d456109a6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "SA",
+  "question": "Find the shortest distance between the lines $\\vec{r}=(4+\\lambda)\\hat{i}+(2\\lambda-1)\\hat{j}-3\\lambda\\hat{k}$ and $\\vec{r}=(1+2\\mu)\\hat{i}+(2-5\\mu)\\hat{k}+(4\\mu-1)\\hat{j}$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Group terms to write both vector line equations in the standard format $\\vec{r} = \\vec{a} + t\\vec{b}$. For Line 1, we get $\\vec{r} = (4\\hat{i} - \\hat{j}) + \\lambda(\\hat{i} + 2\\hat{j} - 3\\hat{k})$, so $\\vec{a}_1 = 4\\hat{i} - \\hat{j}$ and $\\vec{b}_1 = \\hat{i} + 2\\hat{j} - 3\\hat{k}$.<br /><br /><b>Step 2</b> For Line 2, group terms similarly: $\\vec{r} = (\\hat{i} - \\hat{j} + 2\\hat{k}) + \\mu(2\\hat{i} + 4\\hat{j} - 5\\hat{k})$, giving $\\vec{a}_2 = \\hat{i} - \\hat{j} + 2\\hat{k}$ and $\\vec{b}_2 = 2\\hat{i} + 4\\hat{j} - 5\\hat{k}$. Calculate the displacement vector: $\\vec{a}_2 - \\vec{a}_1 = -3\\hat{i} + 2\\hat{k}$.<br /><br /><b>Step 3</b> Find the cross product vector $\\vec{b}_1 \\times \\vec{b}_2$ to find a direction perpendicular to both lines: $\\vec{b}_1 \\times \\vec{b}_2 = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & -3 \\\\ 2 & 4 & -5 \\end{vmatrix} = \\hat{i}(-10 - (-12)) - \\hat{j}(-5 - (-6)) + \\hat{k}(4 - 4) = 2\\hat{i} - \\hat{j}$.<br /><br /><b>Step 4</b> Find the magnitude of this cross product vector: $|\\vec{b}_1 \\times \\vec{b}_2| = \\sqrt{2^2 + (-1)^2} = \\sqrt{5}$. Next, compute the scalar dot product between the displacement vector and this cross product vector: $(\\vec{a}_2 - \\vec{a}_1) \\cdot (\\vec{b}_1 \\times \\vec{b}_2) = (-3)(2) + (0)(-1) + (2)(0) = -6$.<br /><br /><b>Step 5</b> Use the shortest distance formula for skew lines, $d = \\frac{|(\\vec{a}_2 - \\vec{a}_1) \\cdot (\\vec{b}_1 \\times \\vec{b}_2)|}{|\\vec{b}_1 \\times \\vec{b}_2|}$: $d = \\frac{|-6|}{\\sqrt{5}} = \\frac{6}{\\sqrt{5}} = \\frac{6\\sqrt{5}}{5}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

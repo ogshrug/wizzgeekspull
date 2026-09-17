@@ -1,0 +1,30 @@
+{
+  "id": "69a8659496358125c95a0d6c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "LA",
+  "question": "Construct a function $f(x)$ which is continuous everywhere but not differentiable at $x=2$ and $x=-2$, and prove your claim.",
+  "answeroption": "B",
+  "explanation": "Let $f(x) = |x-2| + |x+2|$.<br /><br />At any $x$, $f(x)$ is the sum of two absolute value functions, both continuous everywhere. So $f(x)$ is continuous everywhere.<br /><br />The function $|x-2|$ is not differentiable at $x=2$, and $|x+2|$ is not differentiable at $x=-2$.<br /><br />Compute derivative at $x=2$:<br /><br />Left: $x<2$, $f(x) = -(x-2)+(x+2)= -x+2 + x+2= 4$<br /><br />Right: $x>2$, $f(x) = (x-2)+(x+2) = 2x$<br /><br />Thus, left derivative at $x=2$ is $\\frac{d}{dx}(-x+4) = -1$, right derivative is $\\frac{d}{dx}(2x) = 2$.<br /><br />Not differentiable at $x=2$.<br /><br />Similar calculation at $x=-2$ gives left and right derivatives as $-2$ and $1$, so not differentiable at $x=-2$.<br /><br />So $f(x)$ is continuous everywhere but not differentiable at $x=2$ and $x=-2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(x)=x^2-4$; it is continuous everywhere and not differentiable at $x=2$ and $x=-2$.",
+    "B": "$f(x)=|x-2|+|x+2|$; it is continuous everywhere, but the one-sided derivatives are unequal at $x=2$ and $x=-2$, so it is not differentiable at those points.",
+    "C": "$f(x)=|x|$; it is continuous everywhere and not differentiable at $x=2$ and $x=-2$.",
+    "D": "$f(x)=\\sin x$; it is continuous everywhere and not differentiable at $x=2$ and $x=-2$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:02:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

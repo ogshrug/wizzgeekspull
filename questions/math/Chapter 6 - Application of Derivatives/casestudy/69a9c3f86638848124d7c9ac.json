@@ -1,0 +1,31 @@
+{
+  "id": "69a9c3f86638848124d7c9ac",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A start-up models the number of app users over time $t$ (months) as $N(t) = 5000 \\cdot (1 - e^{-0.2t})$.<br /><br />(a) Find the rate of user increase at $t$ months.<br /><br />(b) At what time is the rate of user increase fastest?<br /><br />(c) Confirm with the sign of second derivative.",
+  "answeroption": "A",
+  "explanation": "(a) $N'(t) = 5000\\cdot 0.2 e^{-0.2t} = 1000 e^{-0.2t}$<br /><br />(b) Rate is largest when $e^{-0.2t}$ is largest, i.e., $t=0$.<br /><br />So fastest rate of increase is at $t=0$.<br /><br />(c) $N''(t) = -200 e^{-0.2t}<0$ always.<br /><br />So the rate decreases, confirming the fastest at $t=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $N'(t)=1000e^{-0.2t}$<br />(b) The rate of user increase is fastest at $t=0$.<br />(c) $N''(t)=-200e^{-0.2t}<0$, so the rate decreases with time.",
+    "B": "(a) $N'(t)=5000e^{-0.2t}$<br />(b) The rate of user increase is fastest at $t=5$.<br />(c) $N''(t)>0$, so the rate increases with time.",
+    "C": "(a) $N'(t)=1000e^{0.2t}$<br />(b) The rate of user increase is fastest as $t$ becomes large.<br />(c) $N''(t)=200e^{0.2t}>0$, so the rate increases with time.",
+    "D": "(a) $N'(t)=200e^{-0.2t}$<br />(b) The rate of user increase is fastest at $t=10$.<br />(c) $N''(t)=0$, so the rate is constant."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:57:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

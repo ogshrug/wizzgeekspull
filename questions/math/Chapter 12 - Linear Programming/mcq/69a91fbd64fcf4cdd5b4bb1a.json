@@ -1,0 +1,29 @@
+{
+  "id": "69a91fbd64fcf4cdd5b4bb1a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "MCQ",
+  "question": "Consider an LPP: maximize $Z=3x+2y$ subject to $4x + y \\leq 20$, $2x + 3y \\leq 18$, $x, y \\geq 0$. Which of the following is NOT a vertex (corner point) of the feasible region?",
+  "answeroption": "D",
+  "explanation": "Check $(4,4)$ in the constraints:<br /><br />First constraint: $4(4) + 4 = 20$ which satisfies $\\leq 20$.<br /><br />Second constraint: $2(4) + 3(4) = 8 + 12 = 20$ which does not satisfy $\\leq 18$.<br /><br />Thus $(4,4)$ is not feasible and therefore not a vertex of the feasible region.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(0,0)$",
+    "B": "$(0,6)$",
+    "C": "$(5,0)$",
+    "D": "$(4,4)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:16:29 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

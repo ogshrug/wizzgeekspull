@@ -1,0 +1,34 @@
+{
+  "id": "6a22658bfbdd87b6dea73b64",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "MCQ",
+  "question": "For real $x$, let $f(x)=x^{3}+5x+1$. Then :",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> To check if the function is one-one, we compute its first derivative with respect to $x$: $f'(x) = 3x^2 + 5$. Since $x^2 \\ge 0$ for all real $x$, it follows that $3x^2 + 5 \\ge 5 > 0$ for all real numbers. Since the derivative is strictly positive, the function is strictly increasing, which guarantees it is a one-one function.<br /><br /><b>Step 2</b> To evaluate if the function is onto, we examine its behavior as $x$ approaches positive and negative infinity. As a polynomial of odd degree (cubic), $\\lim_{x \\to \\infty} f(x) = \\infty$ and $\\lim_{x \\to -\\infty} f(x) = -\\infty$. Since polynomials are continuous everywhere, by the Intermediate Value Theorem, the function attains every real value.<br /><br /><b>Step 3</b> Because the range of the function is equal to the codomain, which is the entire set of real numbers $\\mathbb{R}$, the function is onto. Combining both conclusions, $f$ is both one-one and onto on $\\mathbb{R}$. This corresponds to option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "f is one-one but not onto on R",
+    "B": "f is onto on R but not one-one",
+    "C": "f is one-one and onto on R",
+    "D": "f is neither one-one nor onto on R"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

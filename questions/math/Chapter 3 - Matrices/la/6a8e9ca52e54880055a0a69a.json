@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9ca52e54880055a0a69a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f",
+    "69c65fc040512f018fa94d61"
+  ],
+  "question_type": "LA",
+  "question": "For $$A=\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}$$ and $$B=\\begin{bmatrix}1&0\\\\1&1\\end{bmatrix},$$ calculate $AB$ and $BA$ and then expand $(A+B)^2$ using matrix multiplication to establish why the scalar identity $(A+B)^2=A^2+2AB+B^2$ cannot be used for these matrices.",
+  "answeroption": "B",
+  "explanation": "<b>Examination of Commutativity</b><br><br>We have $$AB=\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}\\begin{bmatrix}1&0\\\\1&1\\end{bmatrix}=\\begin{bmatrix}2&1\\\\1&1\\end{bmatrix}$$ whereas $$BA=\\begin{bmatrix}1&0\\\\1&1\\end{bmatrix}\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}=\\begin{bmatrix}1&1\\\\1&2\\end{bmatrix}$$ Thus, $AB\\ne BA$, showing that multiplication of these matrices is not commutative.<br><br><b>Expansion of the Square</b><br><br>By the distributive property, $$(A+B)^2=(A+B)(A+B)=A^2+AB+BA+B^2$$ Now, $$A^2=\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix},\\quad B^2=\\begin{bmatrix}1&0\\\\2&1\\end{bmatrix}$$ Therefore, $$A^2+AB+BA+B^2=\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}+\\begin{bmatrix}2&1\\\\1&1\\end{bmatrix}+\\begin{bmatrix}1&1\\\\1&2\\end{bmatrix}+\\begin{bmatrix}1&0\\\\2&1\\end{bmatrix}$$ $$=\\begin{bmatrix}5&4\\\\4&5\\end{bmatrix}$$ Directly, $$A+B=\\begin{bmatrix}2&1\\\\1&2\\end{bmatrix}$$ so $$(A+B)^2=\\begin{bmatrix}2&1\\\\1&2\\end{bmatrix}\\begin{bmatrix}2&1\\\\1&2\\end{bmatrix}=\\begin{bmatrix}5&4\\\\4&5\\end{bmatrix}$$ However, $$A^2+2AB+B^2=\\begin{bmatrix}6&4\\\\4&4\\end{bmatrix}$$ which is different because $AB\\ne BA$. Hence, for these matrices the correct expansion is $A^2+AB+BA+B^2$, and the usual scalar form with $2AB$ is not valid.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB=BA=\\begin{bmatrix}2&1\\\\1&1\\end{bmatrix}$ and $(A+B)^2=A^2+2AB+B^2$",
+    "B": "$AB=\\begin{bmatrix}2&1\\\\1&1\\end{bmatrix}$, $BA=\\begin{bmatrix}1&1\\\\1&2\\end{bmatrix}$, and $(A+B)^2=A^2+AB+BA+B^2$",
+    "C": "$AB=\\begin{bmatrix}1&1\\\\1&2\\end{bmatrix}$, $BA=\\begin{bmatrix}2&1\\\\1&1\\end{bmatrix}$, and $(A+B)^2=A^2+2AB+B^2$",
+    "D": "$AB=\\begin{bmatrix}2&1\\\\1&1\\end{bmatrix}$, $BA=\\begin{bmatrix}1&1\\\\1&2\\end{bmatrix}$, and $(A+B)^2=A^2+AB+B^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

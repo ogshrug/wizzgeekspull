@@ -1,0 +1,28 @@
+{
+  "id": "6a215514864be73cfcf6d111",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "LA",
+  "question": "A line passing through the points $A(1,2,3)$ and $B(5,8,11)$ intersects the line $\\vec{r}=4\\hat{i}+\\hat{j}+\\lambda(5\\hat{i}+2\\hat{j}+\\hat{k})$. Find the co-ordinates of the point of intersection.<br /><br />Hence, write the equation of a line passing through the point of intersection and perpendicular to both the lines.",
+  "answeroption": "",
+  "explanation": "Equation of line AB: $\\vec{r} = \\hat{i}+2\\hat{j}+3\\hat{k} + \\mu(4\\hat{i}+6\\hat{j}+8\\hat{k})$<br />General point on AB: $(1+4\\mu, 2+6\\mu, 3+8\\mu)$<br />General point on second line: $(4+5\\lambda, 1+2\\lambda, \\lambda)$<br />For intersection, equate coordinates:<br />$1+4\\mu = 4+5\\lambda \\implies 4\\mu - 5\\lambda = 3$<br />$2+6\\mu = 1+2\\lambda \\implies 6\\mu - 2\\lambda = -1$<br />Solving these equations gives $\\mu = -1/2, \\lambda = -1$.<br />Checking the z-coordinate: $3+8(-1/2) = -1$ and $\\lambda = -1$ (Matches).<br />Intersection point: $(-1, -1, -1)$.<br />Direction vector of perpendicular line: $\\vec{d} = (4\\hat{i}+6\\hat{j}+8\\hat{k}) \\times (5\\hat{i}+2\\hat{j}+\\hat{k}) = -10\\hat{i}+36\\hat{j}-22\\hat{k}$.<br />Equation of required line: $\\vec{r} = -\\hat{i}-\\hat{j}-\\hat{k} + t(-10\\hat{i}+36\\hat{j}-22\\hat{k})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

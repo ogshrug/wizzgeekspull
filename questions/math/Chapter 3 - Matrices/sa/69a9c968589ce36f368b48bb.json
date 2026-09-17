@@ -1,0 +1,30 @@
+{
+  "id": "69a9c968589ce36f368b48bb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d61"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\begin{pmatrix}0 & 2 \\\\ 2 & 0 \\end{pmatrix}$ and $B = \\begin{pmatrix}1 & 0 \\\\ 0 & -1 \\end{pmatrix}$. Compute $A^2$, $B^2$, $AB$, $BA$, and verify whether $AB = BA$ and if $A$ and $B$ commute under multiplication.",
+  "answeroption": "D",
+  "explanation": "Calculate $A^2$:<br /><br />$A^2 = \\begin{pmatrix}0 & 2 \\\\ 2 & 0 \\end{pmatrix} \\begin{pmatrix}0 & 2 \\\\ 2 & 0 \\end{pmatrix} = \\begin{pmatrix}4 & 0 \\\\ 0 & 4 \\end{pmatrix} = 4I$<br /><br />Calculate $B^2$:<br /><br />$B^2 = \\begin{pmatrix}1 & 0 \\\\ 0 & -1 \\end{pmatrix} \\begin{pmatrix}1 & 0 \\\\ 0 & -1 \\end{pmatrix} = \\begin{pmatrix}1 & 0 \\\\ 0 & 1 \\end{pmatrix} = I$<br /><br />Calculate $AB$:<br /><br />$= \\begin{pmatrix}0 & 2 \\\\ 2 & 0 \\end{pmatrix} \\begin{pmatrix}1 & 0 \\\\ 0 & -1 \\end{pmatrix} = \\begin{pmatrix}0 \\times 1 + 2 \\times 0 & 0 \\times 0 + 2 \\times (-1) \\\\ 2 \\times 1 + 0 \\times 0 & 2 \\times 0 + 0 \\times (-1)\\end{pmatrix} = \\begin{pmatrix}0 & -2 \\\\ 2 & 0 \\end{pmatrix}$<br /><br />Calculate $BA$:<br /><br />$= \\begin{pmatrix}1 & 0 \\\\ 0 & -1 \\end{pmatrix}\\begin{pmatrix}0 & 2 \\\\ 2 & 0 \\end{pmatrix}=\\begin{pmatrix}1 \\times 0 + 0 \\times 2 & 1 \\times 2 + 0 \\times 0 \\\\ 0 \\times 0 + (-1) \\times 2 & 0 \\times 2 + (-1) \\times 0\\end{pmatrix}=\\begin{pmatrix}0 & 2 \\\\ -2 & 0\\end{pmatrix}$<br /><br />Compare $AB \\neq BA$.<br /><br />Conclusion: $A$ and $B$ do not commute under multiplication.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^2=I$, $B^2=4I$, $AB=BA$, so $A$ and $B$ commute",
+    "B": "$A^2=4I$, $B^2=I$, $AB=\\begin{pmatrix}0&2\\\\-2&0\\end{pmatrix}$, $BA=\\begin{pmatrix}0&-2\\\\2&0\\end{pmatrix}$, so $A$ and $B$ commute",
+    "C": "$A^2=0$, $B^2=I$, $AB=BA=0$, so $A$ and $B$ commute",
+    "D": "$A^2=4I$, $B^2=I$, $AB=\\begin{pmatrix}0&-2\\\\2&0\\end{pmatrix}$, $BA=\\begin{pmatrix}0&2\\\\-2&0\\end{pmatrix}$, so $AB\\ne BA$ and $A,B$ do not commute"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:20:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

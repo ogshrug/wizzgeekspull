@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8e56751910886affb934",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc140512f018fa94d65"
+  ],
+  "question_type": "VSA",
+  "question": "For a square matrix $A$, $B=\\begin{bmatrix}2&-1\\\\3&4\\end{bmatrix}$ is an inverse of $A$. If another matrix $C$ also satisfies $AC=CA=I$, find the sum of all the elements of $C$.",
+  "answeroption": "A",
+  "explanation": "Step 1: The inverse of a square matrix, whenever it exists, is unique.<br>Step 2: The matrix $B$ is given to be an inverse of $A$. Also, $C$ satisfies $AC=CA=I$, so $C$ is another inverse of the same matrix $A$.<br>Step 3: By uniqueness of the inverse, the two inverse matrices must be equal. Hence, $$C=B=\\begin{bmatrix}2&-1\\\\3&4\\end{bmatrix}.$$<br>Step 4: The sum of all the elements of $C$ is $$2+(-1)+3+4.$$<br>Step 5: Simplifying gives $2-1+3+4=8$. Therefore, the required sum of all the elements of $C$ is $8$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$8$",
+    "B": "$6$",
+    "C": "$10$",
+    "D": "$4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

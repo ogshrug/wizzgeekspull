@@ -1,0 +1,29 @@
+{
+  "id": "69a9276796358125c95a0db6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "If $x = \\sin^{-1}(a)$ and $y = \\cos^{-1}(a)$, show that $x + y = \\frac{\\pi}{2}$.",
+  "answeroption": "C",
+  "explanation": "Let $x = \\sin^{-1}(a)$ so $\\sin x = a$ with $x \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$.<br /><br />Let $y = \\cos^{-1}(a)$ so $\\cos y = a$ with $y \\in [0,\\pi]$.<br /><br />Then $\\cos x = \\sqrt{1-a^2}$ and $\\sin y = \\sqrt{1-a^2}$.<br /><br />Now $\\sin(x+y) = \\sin x \\cos y + \\cos x \\sin y$.<br /><br />Substituting values gives $a^2 + (1-a^2) = 1$.<br /><br />Thus $\\sin(x+y) = 1$.<br /><br />Hence $x + y = \\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Since $x=\\sin^{-1}(a)$ and $y=\\cos^{-1}(a)$, directly $x+y=\\pi$.",
+    "B": "Since $\\sin x=a$ and $\\cos y=a$, we get $\\sin(x+y)=0$, hence $x+y=0$.",
+    "C": "Since $\\sin x=a$ and $\\cos y=a$, using $\\sin(x+y)$ gives $a^2+(1-a^2)=1$, hence $x+y=\\frac{\\pi}{2}$.",
+    "D": "Since $\\sin x=a$ and $\\cos y=a$, using $\\cos(x+y)$ gives $1$, hence $x+y=\\frac{\\pi}{4}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:49:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

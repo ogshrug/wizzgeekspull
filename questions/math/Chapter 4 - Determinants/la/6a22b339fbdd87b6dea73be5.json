@@ -1,0 +1,26 @@
+{
+  "id": "6a22b339fbdd87b6dea73be5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "LA",
+  "question": "A furniture workshop produces three types of furniture – chairs, tables and beds each day. On a particular day the total number of furniture pieces produced is 45. It was also found that production of beds exceeds that of chairs by 8, while the total production of beds and chairs together is twice the production of tables. Determine the units produced of each type of furniture, using matrix method.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Let $x, y, z$ represent the number of chairs, tables, and beds produced daily, respectively. From the given problem conditions, we construct three linear equations: first, the total production is $x + y + z = 45$. Second, beds exceed chairs by 8, so $z = x + 8 \\implies -x + z = 8$. Third, beds and chairs together equal twice the tables, so $x + z = 2y \\implies x - 2y + z = 0$.<br /><br /><b>Step 2</b> Express this system of linear equations as a matrix equation of the form $AX = B$: $\\begin{bmatrix} 1 & 1 & 1 \\\\ -1 & 0 & 1 \\\\ 1 & -2 & 1 \\end{bmatrix} \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = \\begin{bmatrix} 45 \\\\ 8 \\\\ 0 \\end{bmatrix}$. To solve using matrix inversion, we first calculate the determinant of the coefficient matrix $A$: $|A| = 1(0 - (-2)) - 1(-1 - 1) + 1(2 - 0) = 1(2) - 1(-2) + 1(2) = 2 + 2 + 2 = 6$.<br /><br /><b>Step 3</b> Since $|A| = 6 \\neq 0$, the inverse matrix $A^{-1}$ exists. We now compute the cofactor matrix elements $C_{ij}$ for matrix $A$: $C_{11}=2, C_{12}=2, C_{13}=2$; $C_{21}=-3, C_{22}=0, C_{23}=3$; $C_{31}=1, C_{32}=-2, C_{33}=1$. Transposing this cofactor matrix gives the adjoint matrix: $\\text{adj}(A) = \\begin{bmatrix} 2 & -3 & 1 \\\\ 2 & 0 & -2 \\\\ 2 & 3 & 1 \\end{bmatrix}$.<br /><br /><b>Step 4</b> Formulate the inverse matrix expression using $A^{-1} = \\frac{1}{|A|}\\text{adj}(A) = \\frac{1}{6}\\begin{bmatrix} 2 & -3 & 1 \\\\ 2 & 0 & -2 \\\\ 2 & 3 & 1 \\end{bmatrix}$. To find the solution vector $X$, multiply $A^{-1}$ by vector $B$: $\\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = \\frac{1}{6}\\begin{bmatrix} 2 & -3 & 1 \\\\ 2 & 0 & -2 \\\\ 2 & 3 & 1 \\end{bmatrix} \\begin{bmatrix} 45 \\\\ 8 \\\\ 0 \\end{bmatrix}$.<br /><br /><b>Step 5</b> Perform the row-by-column matrix multiplication arithmetic: $x = \\frac{1}{6}(2(45) - 3(8) + 1(0)) = \\frac{1}{6}(90 - 24) = \\frac{66}{6} = 11$ chairs. $y = \\frac{1}{6}(2(45) + 0(8) - 2(0)) = \\frac{90}{6} = 15$ tables. $z = \\frac{1}{6}(2(45) + 3(8) + 1(0)) = \\frac{1}{6}(90 + 24) = \\frac{114}{6} = 19$ beds. Thus, the production counts are 11 chairs, 15 tables, and 19 beds.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

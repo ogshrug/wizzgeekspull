@@ -1,0 +1,29 @@
+{
+  "id": "6a9027984b490c7cde35956a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "VSA",
+  "question": "A random variable $X$ takes the values $0,1,2,3$ with probabilities $k,2k,3k,k^2$ respectively, where $k>0$. Determine $k$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> Since the given probabilities form a probability distribution, their sum must equal $1$.<br><b>Step 2:</b> Thus, $k+2k+3k+k^2=1$, which gives $k^2+6k-1=0$.<br><b>Step 3:</b> Using the quadratic formula, $k=\\frac{-6\\pm\\sqrt{36+4}}{2}=\\frac{-6\\pm\\sqrt{40}}{2}$.<br><b>Step 4:</b> Therefore, $k=-3\\pm\\sqrt{10}$. Since a probability parameter cannot be negative and $k>0$, the value $-3-\\sqrt{10}$ is rejected.<br><b>Step 5:</b> Hence, the required value is $k=\\sqrt{10}-3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=3-\\sqrt{10}$",
+    "B": "$k=\\sqrt{10}+3$",
+    "C": "$k=\\sqrt{10}-3$",
+    "D": "$k=\\frac{1}{6}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

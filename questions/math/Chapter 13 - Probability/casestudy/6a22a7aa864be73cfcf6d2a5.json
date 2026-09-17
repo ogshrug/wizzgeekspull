@@ -1,0 +1,31 @@
+{
+  "id": "6a22a7aa864be73cfcf6d2a5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "The Venn diagram below represents the probabilities of three different types of Yoga, A, B and C performed by the people of a society. Further, it is given that probability of a member performing type C Yoga is 0.44.<br />(Diagram indicates: Only A = 0.32, A \\cap B = 0.09, Only B = y, B \\cap C = x, Only C = 0.21, Neither = 0.11. Sets A and C are disjoint).<br />(i) Find the value of x.<br />(ii) Find the value of y.<br />(iii) (a) Find $P(C/B)$.<br />OR<br />(iii) (b) Find the probability that a randomly selected person of the society does Yoga of type A or B but not C.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The total probability of event C is the sum of its disjoint parts in the Venn diagram. The diagram shows the region inside circle C consists of \"Only C\" with probability $0.21$, and the intersection with B with probability $x$.<br />**Step 2:** The problem states $P(C) = 0.44$. Therefore, $x + 0.21 = 0.44$. Solving for $x$ gives $x = 0.23$.<br /><br />**(ii)** **Step 1:** The fundamental rule of probability is that the sum of probabilities of all mutually exclusive and exhaustive regions in the entire sample space S must equal exactly 1.<br />**Step 2:** Summing all specified regions: (Only A) + (A $\\cap$ B) + (Only B) + (B $\\cap$ C) + (Only C) + (Outside) = 1. This translates to $0.32 + 0.09 + y + x + 0.21 + 0.11 = 1$.<br />**Step 3:** Substitute the known value $x=0.23$ into the equation: $0.32 + 0.09 + y + 0.23 + 0.21 + 0.11 = 1$. Summing the constants gives $0.96 + y = 1$, so $y = 0.04$.<br /><br />**(iii) (a)** **Step 1:** Apply the conditional probability formula: $P(C/B) = \\frac{P(C \\cap B)}{P(B)}$.<br />**Step 2:** Find $P(B)$ by summing all regions inside circle B: $P(B) = 0.09 + y + x = 0.09 + 0.04 + 0.23 = 0.36$. The intersection is $P(C \\cap B) = x = 0.23$. Thus, $P(C/B) = \\frac{0.23}{0.36} = \\frac{23}{36}$.<br /><br />**(iii) (b)** **Step 1:** We need the probability of $(A \\cup B) \\cap C'$. This refers to all regions inside A or B, but strictly excluding anything inside C.<br />**Step 2:** Based on the Venn diagram, this specific area comprises three disjoint regions: Only A, A $\\cap$ B, and Only B. It explicitly excludes $x$ (which is in C).<br />**Step 3:** Sum the probabilities of these identified regions: $0.32 + 0.09 + y = 0.32 + 0.09 + 0.04 = 0.45$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2",
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22a7aa864be73cfcf6d2a5/1782267615-0.png?t=1782287415773",
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22a7aa864be73cfcf6d2a5/1782267682-0.png?t=1782287482720"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a91fbe64fcf4cdd5b4bb1e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "SA",
+  "question": "A dietician wants to mix two types of food $F_1$ and $F_2$ in such a way that the mixture contains at least 8 units of protein and at least 10 units of fat. Food $F_1$ contains 2 units of protein and 1 unit of fat per kg; $F_2$ contains 1 unit of protein and 3 units of fat per kg. If $F_1$ costs ₹50 per kg and $F_2$ costs ₹70 per kg, find the minimum cost of the mixture that meets the dietary requirements. State the proportion of each food in the optimal mixture.",
+  "answeroption": "A",
+  "explanation": "Let $x$ = kg of $F_1$, $y$ = kg of $F_2$.<br /><br />Minimize $Z = 50x + 70y$<br /><br />Constraints:<br /><br />$2x + y \\geq 8$ (protein)<br /><br />$x + 3y \\geq 10$ (fat)<br /><br />$x \\geq 0$, $y \\geq 0$<br /><br />Step 1: Solve $2x + y = 8$ and $x + 3y = 10$.<br /><br />From $x + 3y = 10$, $x = 10 - 3y$.<br /><br />Substitute into $2x + y = 8$:<br /><br />$2(10 - 3y) + y = 8$<br /><br />$20 - 6y + y = 8$<br /><br />$20 - 5y = 8$<br /><br />$y = \\frac{12}{5}$<br /><br />$x = 10 - 3\\left(\\frac{12}{5}\\right) = \\frac{14}{5}$<br /><br />Thus the feasible intersection point is $\\left(\\frac{14}{5}, \\frac{12}{5}\\right)$.<br /><br />Step 2: Check other possible axis intersections but they violate constraints, so the feasible solution is the intersection.<br /><br />Step 3: Compute cost:<br /><br />$Z = 50\\times\\frac{14}{5} + 70\\times\\frac{12}{5}$<br /><br />$= 140 + 168 = 308$.<br /><br />Minimum cost is ₹308 with $\\frac{14}{5}$ kg of $F_1$ and $\\frac{12}{5}$ kg of $F_2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Minimum cost ₹308 with $\\frac{14}{5}$ kg of $F_1$ and $\\frac{12}{5}$ kg of $F_2$.",
+    "B": "Minimum cost ₹250 with $5$ kg of $F_1$ and $0$ kg of $F_2$.",
+    "C": "Minimum cost ₹280 with $0$ kg of $F_1$ and $4$ kg of $F_2$.",
+    "D": "Minimum cost ₹308 with $\\frac{12}{5}$ kg of $F_1$ and $\\frac{14}{5}$ kg of $F_2$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:16:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

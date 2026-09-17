@@ -1,0 +1,30 @@
+{
+  "id": "69a93596d30adc5083911a21",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "SA",
+  "question": "Suppose that for a $3 \\times 3$ determinant, the sum of the elements of each row is zero. Prove, without expanding, that $|A| = 0$.",
+  "answeroption": "B",
+  "explanation": "If the sum of the elements of each row is zero, then sum (row 1) = sum (row 2) = sum (row 3) = 0.<br />Add all rows together and replace one row with the sum (which is zero), so two rows are now linearly dependent.<br />By property, if two rows are identical or linearly dependent, $|A|=0$.<br />Thus, $|A| = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Since the sum of each row is zero, all rows must be identical, so $|A|=1$.",
+    "B": "Since $a_{i1}+a_{i2}+a_{i3}=0$ for each row, we get $C_1+C_2+C_3=0$. Hence the columns are linearly dependent, so $|A|=0$.",
+    "C": "Since the sum of each row is zero, the determinant is equal to the sum of diagonal elements, so $|A|=0$.",
+    "D": "Since the sum of each row is zero, all elements of the determinant are zero, so $|A|=0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:49:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

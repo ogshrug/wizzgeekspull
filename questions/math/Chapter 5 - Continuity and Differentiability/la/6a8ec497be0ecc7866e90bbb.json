@@ -1,0 +1,30 @@
+{
+  "id": "6a8ec497be0ecc7866e90bbb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "LA",
+  "question": "Prove that if a real-valued function $f$ is differentiable at a point $x=c$, then $f$ must be continuous at $x=c$, using the definition of differentiability and the corresponding limit.",
+  "answeroption": "B",
+  "explanation": "<b>Given Information</b><br>Since $f$ is differentiable at $x=c$, the derivative $f'(c)$ exists as a finite number. Therefore, $$f'(c)=\\lim_{x\\to c}\\frac{f(x)-f(c)}{x-c}.$$<br><br><b>Establishing the Continuity Condition</b><br>For $x\\neq c$, we can write $$f(x)-f(c)=\\frac{f(x)-f(c)}{x-c}(x-c).$$ Taking the limit as $x\\to c$ on both sides, $$\\lim_{x\\to c}[f(x)-f(c)]=\\lim_{x\\to c}\\left[\\frac{f(x)-f(c)}{x-c}(x-c)\\right].$$ Using the product rule for limits, $$\\lim_{x\\to c}[f(x)-f(c)]=\\left[\\lim_{x\\to c}\\frac{f(x)-f(c)}{x-c}\\right]\\left[\\lim_{x\\to c}(x-c)\\right].$$ Since $f$ is differentiable at $c$, the first limit equals $f'(c)$, while $$\\lim_{x\\to c}(x-c)=0.$$ Hence, $$\\lim_{x\\to c}[f(x)-f(c)]=f'(c)\\cdot0=0.$$ Therefore, $$\\lim_{x\\to c}f(x)-f(c)=0,$$ which gives $$\\lim_{x\\to c}f(x)=f(c).$$<br><br><b>Final Result</b><br>The limit of $f(x)$ as $x\\to c$ exists and equals the value $f(c)$. Hence $f$ is continuous at $x=c$. Therefore, every function differentiable at a point is necessarily continuous at that point.",
+  "explanation_image": [],
+  "options": {
+    "A": "Differentiability at $c$ gives $\\lim_{x\\to c}f(x)=f'(c)$, so $f$ is continuous at $c$.",
+    "B": "Since $f'(c)=\\lim_{x\\to c}\\frac{f(x)-f(c)}{x-c}$ is finite, $\\lim_{x\\to c}[f(x)-f(c)]=f'(c)\\cdot0=0$, hence $\\lim_{x\\to c}f(x)=f(c)$.",
+    "C": "Since $\\lim_{x\\to c}(x-c)=0$, the difference quotient must be zero, so $f(c)=0$ and $f$ is continuous.",
+    "D": "Differentiability at $c$ implies $\\lim_{x\\to c}f(x)=0$, which equals $f(c)$ for every differentiable function."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

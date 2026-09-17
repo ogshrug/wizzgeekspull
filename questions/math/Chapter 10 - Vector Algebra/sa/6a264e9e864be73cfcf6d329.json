@@ -1,0 +1,27 @@
+{
+  "id": "6a264e9e864be73cfcf6d329",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c6",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "SA",
+  "question": "ABCD is a parallelogram such that $\\vec{AC}=\\hat{i}+\\hat{j}$ and $\\vec{BD}=2\\hat{i}+\\hat{j}+\\hat{k}$. Find $\\vec{AB}$ and $\\vec{AD}$. Also, find the area of the parallelogram ABCD.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the sides of the parallelogram be vectors $\\vec{AB} = \\vec{a}$ and $\\vec{AD} = \\vec{b}$. From vector geometry laws, the diagonal vectors can be written as the sum and difference of these adjacent sides: $\\vec{AC} = \\vec{a} + \\vec{b} = \\hat{i}+\\hat{j}$ and $\\vec{BD} = \\vec{b} - \\vec{a} = 2\\hat{i}+\\hat{j}+\\hat{k}$. To isolate side vectors, solve this linear system.<br />**Step 2:** Adding the two equations eliminates $\\vec{a}$: $2\\vec{b} = (\\hat{i}+\\hat{j}) + (2\\hat{i}+\\hat{j}+\\hat{k}) = 3\\hat{i} + 2\\hat{j} + \\hat{k} \\implies \\vec{AD} = \\vec{b} = \\frac{3}{2}\\hat{i} + \\hat{j} + \\frac{1}{2}\\hat{k}$. Subtracting the diagonal equations helps isolate $\\vec{a}$: $2\\vec{a} = \\vec{AC} - \\vec{BD} = (\\hat{i}+\\hat{j}) - (2\\hat{i}+\\hat{j}+\\hat{k}) = -\\hat{i} - \\hat{k} \\implies \\vec{AB} = \\vec{a} = -\\frac{1}{2}\\hat{i} - \\frac{1}{2}\\hat{k}$.<br />**Step 3:** The area of a parallelogram given its diagonals can be computed using the formula $\\text{Area} = \\frac{1}{2}|\\vec{AC} \\times \\vec{BD}|$. First, find the vector cross product using a determinant matrix:<br />$\\vec{AC} \\times \\vec{BD} = \\det \\begin{bmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 1 & 0 \\\\ 2 & 1 & 1 \\end{bmatrix} = \\hat{i}(1-0) - \\hat{j}(1-0) + \\hat{k}(1-2) = \\hat{i} - \\hat{j} - \\hat{k}$.<br />**Step 4:** Now compute the magnitude of this cross product vector: $|\\vec{AC} \\times \\vec{BD}| = \\sqrt{1^2 + (-1)^2 + (-1)^2} = \\sqrt{3}$. Finally, substitute this magnitude value back into our area equation: $\\text{Area} = \\frac{1}{2}\\sqrt{3}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

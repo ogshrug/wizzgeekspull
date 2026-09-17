@@ -1,0 +1,29 @@
+{
+  "id": "69a949d6d30adc5083911a45",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$ such that $A^2 = 0$, but $A\\neq 0$. Find a non-trivial example of such a matrix and verify your answer.",
+  "answeroption": "B",
+  "explanation": "Let $A = \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix}$.<br />Compute $A^2$:<br />$A^2 = \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix}\\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix} = \\begin{bmatrix} 0*0+1*0 & 0*1+1*0 \\\\ 0*0+0*0 & 0*1+0*0 \\end{bmatrix} = \\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix}$<br />But $A\\neq 0$ matrix.<br />Hence, $A = \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix}$ is a non-trivial example satisfying $A^2=0$ but $A\\ne 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$, since $A^2=0$.",
+    "B": "$A=\\begin{bmatrix}0&1\\\\0&0\\end{bmatrix}$, since $A^2=\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}$ and $A\\ne0$.",
+    "C": "$A=\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}$, since $A^2=0$.",
+    "D": "$A=\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}$, since $A^2=0$ and $A\\ne0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:16:06 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

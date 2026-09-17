@@ -1,0 +1,32 @@
+{
+  "id": "6a900bb1751910886affba1b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cc",
+    "6a13e7cad837c8c7efa6b8cd",
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "LA",
+  "question": "The directed line from $A(-2,1,3)$ to $B(4,-3,6)$ is considered. Determine its direction ratios and direction cosines, and hence obtain the vector equation and the Cartesian equation of the line passing through $A$ and $B$.",
+  "answeroption": "C",
+  "explanation": "<b>Direction Ratios and Direction Cosines</b><br>For the directed line from $A(-2,1,3)$ to $B(4,-3,6)$, the direction ratios are obtained from the coordinate differences.<br><br>$$4-(-2),\\;-3-1,\\;6-3$$<br>Thus, a set of direction ratios is<br>$$6,-4,3$$<br><br>The length $AB$ is<br>$$AB=\\sqrt{6^2+(-4)^2+3^2}=\\sqrt{36+16+9}=\\sqrt{61}$$<br>Hence, the direction cosines of the directed line from $A$ to $B$ are<br>$$\\frac{6}{\\sqrt{61}},\\;-\\frac{4}{\\sqrt{61}},\\;\\frac{3}{\\sqrt{61}}$$<br><br><b>Formation of Equation</b><br>The position vector of $A$ is $-2\\hat{i}+\\hat{j}+3\\hat{k}$ and a vector parallel to $AB$ is $6\\hat{i}-4\\hat{j}+3\\hat{k}$. Therefore, the vector equation is<br>$$\\vec{r}=(-2\\hat{i}+\\hat{j}+3\\hat{k})+\\lambda(6\\hat{i}-4\\hat{j}+3\\hat{k})$$<br><br>Equating components gives<br>$$x=-2+6\\lambda,\\quad y=1-4\\lambda,\\quad z=3+3\\lambda$$<br>Therefore,<br>$$\\frac{x+2}{6}=\\frac{y-1}{-4}=\\frac{z-3}{3}$$<br><br><b>Final Result</b><br>The direction ratios are $6,-4,3$, the direction cosines are $\\frac{6}{\\sqrt{61}},-\\frac{4}{\\sqrt{61}},\\frac{3}{\\sqrt{61}}$, the vector equation is $\\vec{r}=(-2\\hat{i}+\\hat{j}+3\\hat{k})+\\lambda(6\\hat{i}-4\\hat{j}+3\\hat{k})$, and the Cartesian equation is $\\frac{x+2}{6}=\\frac{y-1}{-4}=\\frac{z-3}{3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Direction ratios: $(6,4,3)$; direction cosines: $\\left(\\frac{6}{\\sqrt{61}},\\frac{4}{\\sqrt{61}},\\frac{3}{\\sqrt{61}}\\right)$; $\\vec r=(-2\\hat i+\\hat j+3\\hat k)+\\lambda(6\\hat i+4\\hat j+3\\hat k)$; $\\frac{x+2}{6}=\\frac{y-1}{4}=\\frac{z-3}{3}$",
+    "B": "Direction ratios: $(-6,4,-3)$; direction cosines: $\\left(-\\frac{6}{\\sqrt{61}},\\frac{4}{\\sqrt{61}},-\\frac{3}{\\sqrt{61}}\\right)$; $\\vec r=(-2\\hat i+\\hat j+3\\hat k)+\\lambda(-6\\hat i+4\\hat j-3\\hat k)$; $\\frac{x+2}{-6}=\\frac{y-1}{4}=\\frac{z-3}{-3}$",
+    "C": "Direction ratios: $(6,-4,3)$; direction cosines: $\\left(\\frac{6}{\\sqrt{61}},-\\frac{4}{\\sqrt{61}},\\frac{3}{\\sqrt{61}}\\right)$; $\\vec r=(-2\\hat i+\\hat j+3\\hat k)+\\lambda(6\\hat i-4\\hat j+3\\hat k)$; $\\frac{x+2}{6}=\\frac{y-1}{-4}=\\frac{z-3}{3}$",
+    "D": "Direction ratios: $(6,-4,3)$; direction cosines: $\\left(\\frac{6}{\\sqrt{52}},-\\frac{4}{\\sqrt{52}},\\frac{3}{\\sqrt{52}}\\right)$; $\\vec r=(-2\\hat i+\\hat j+3\\hat k)+\\lambda(6\\hat i-4\\hat j+3\\hat k)$; $\\frac{x+2}{6}=\\frac{y-1}{-4}=\\frac{z-3}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

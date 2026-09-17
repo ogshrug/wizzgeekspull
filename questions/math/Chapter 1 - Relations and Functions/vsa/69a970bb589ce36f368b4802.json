@@ -1,0 +1,29 @@
+{
+  "id": "69a970bb589ce36f368b4802",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "VSA",
+  "question": "Define a relation $R$ on $\\mathbb{Z}$ by $aRb$ if $a-b$ is even. Is $R$ an equivalence relation? Justify.",
+  "answeroption": "B",
+  "explanation": "Reflexive: For any integer $a$, $a-a=0$ which is even. Hence $R$ is reflexive. <br /><br />Symmetric: If $a-b$ is even then $b-a$ is also even, so the relation is symmetric. <br /><br />Transitive: If $a-b$ and $b-c$ are even, then $(a-b)+(b-c)=a-c$ is even. Hence the relation is transitive. <br /><br />Therefore $R$ is an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "No, $R$ is reflexive and symmetric but not transitive",
+    "B": "Yes, $R$ is reflexive, symmetric and transitive",
+    "C": "No, $R$ is symmetric and transitive but not reflexive",
+    "D": "Yes, $R$ is an equivalence relation only on positive integers"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:02:03 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

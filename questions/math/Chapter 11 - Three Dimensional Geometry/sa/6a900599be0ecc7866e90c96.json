@@ -1,0 +1,29 @@
+{
+  "id": "6a900599be0ecc7866e90c96",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "SA",
+  "question": "Verify that the line $\\vec{r}=(2\\hat{i}-\\hat{j}+\\hat{k})+\\lambda(\\hat{i}+\\hat{j})$ makes an angle of $30^\\circ$ with the plane $x+z=4$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Direction and normal vectors</b><br>The direction vector of the given line is<br>$$\\vec{b}=\\hat{i}+\\hat{j},$$<br>and a normal vector to the plane $x+z=4$ is<br>$$\\vec{n}=\\hat{i}+\\hat{k}.$$<br><b>Step 2: Formula for the angle with a plane</b><br>If $\\phi$ denotes the acute angle between a line and a plane, then<br>$$\\sin\\phi=\\frac{|\\vec{b}\\cdot\\vec{n}|}{|\\vec{b}||\\vec{n}|}.$$<br><b>Step 3: Scalar product</b><br>$$\\vec{b}\\cdot\\vec{n}=(\\hat{i}+\\hat{j})\\cdot(\\hat{i}+\\hat{k})=1.$$<br><b>Step 4: Magnitudes</b><br>$$|\\vec{b}|=\\sqrt{1^2+1^2}=\\sqrt{2},\\quad |\\vec{n}|=\\sqrt{1^2+1^2}=\\sqrt{2}.$$<br>Therefore,<br>$$\\sin\\phi=\\frac{1}{\\sqrt{2}\\sqrt{2}}=\\frac{1}{2}.$$<br><b>Step 5: Final verification</b><br>Since $\\sin\\phi=\\frac{1}{2}$ and $\\phi$ is acute, $\\phi=30^\\circ$. Hence, the given statement is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "The angle is $45^\\circ$ because $\\sin\\phi=\\frac{1}{\\sqrt2}$.",
+    "B": "The angle is $30^\\circ$ because $\\sin\\phi=\\frac{1}{2}$.",
+    "C": "The angle is $60^\\circ$ because $\\cos\\phi=\\frac{1}{2}$.",
+    "D": "The angle is $90^\\circ$ because the line direction is perpendicular to the plane normal."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

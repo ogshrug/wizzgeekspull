@@ -1,0 +1,31 @@
+{
+  "id": "6a2bcc988e6b388cc1f07cbb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cd"
+  ],
+  "question_type": "MCQ",
+  "question": "Direction ratios of lines $l_{1}$ and $l_{2}$ respectively are <1, 0, 0> and <0, -1, 0>. The direction ratios of the line perpendicular to both $l_{1}$ and $l_{2}$ are:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** The direction vectors of the lines $l_1$ and $l_2$ are given by $\\vec{b}_1 = \\langle 1, 0, 0 \\rangle$ and $\\vec{b}_2 = \\langle 0, -1, 0 \\rangle$.<br />**Step 2:** A line that is perpendicular to both $l_1$ and $l_2$ must have a direction vector parallel to the cross product of their individual direction vectors: $\\vec{b} = \\vec{b}_1 \\times \\vec{b}_2$.<br />**Step 3:** Computing the cross product using determinants: $\\vec{b}_1 \\times \\vec{b}_2 = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 0 & 0 \\\\ 0 & -1 & 0 \\end{vmatrix} = -\\hat{k} = \\langle 0, 0, -1 \\rangle$. Thus, the perpendicular direction ratios are $\\langle 0, 0, -1 \\rangle$.",
+  "explanation_image": [],
+  "options": {
+    "A": "<1, 1, 0>",
+    "B": "<0, 0, -1>",
+    "C": "<1, 1, 1>",
+    "D": "<1, 0, -1>"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

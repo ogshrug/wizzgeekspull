@@ -1,0 +1,29 @@
+{
+  "id": "69a920a0575fa42e09444858",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8de"
+  ],
+  "question_type": "SA",
+  "question": "Let $x, y \\geq 0$ and $x + y \\leq 7$, $2x + y \\leq 10$, $x + 2y \\leq 12$. Show the feasible region is bounded and compute the maximum and minimum value of $Z = x + 3y$ over this region.",
+  "answeroption": "C",
+  "explanation": "Step 1: Find corner points.<br /><br />(1) $x + y = 7$, (2) $2x + y = 10$, (3) $x + 2y = 12$.<br /><br />(i) Intersection of (1) and (2): $x=3$, $y=4$.<br /><br />(ii) Intersection of (1) and (3): $y=5$, $x=2$.<br /><br />(iii) Intersection of (2) and (3): $y=\\frac{14}{3}$, $x=\\frac{8}{3}$.<br /><br />Check feasible boundary points $(0,6)$ and $(5,0)$.<br /><br />Vertices of feasible region: $(3,4)$, $(2,5)$, $(0,6)$, $(5,0)$.<br /><br />Step 2: Evaluate $Z=x+3y$.<br /><br />At $(5,0)$: $Z=5$.<br /><br />At $(0,6)$: $Z=18$.<br /><br />At $(2,5)$: $Z=17$.<br /><br />At $(3,4)$: $Z=15$.<br /><br />Maximum $Z=18$ at $(0,6)$.<br /><br />Minimum $Z=5$ at $(5,0)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximum $Z=17$ at $(2,5)$; minimum $Z=5$ at $(5,0)$.",
+    "B": "Maximum $Z=15$ at $(3,4)$; minimum $Z=5$ at $(5,0)$.",
+    "C": "Maximum $Z=18$ at $(0,6)$; minimum $Z=5$ at $(5,0)$.",
+    "D": "Maximum $Z=18$ at $(0,6)$; minimum $Z=0$ at $(0,0)$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:20:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

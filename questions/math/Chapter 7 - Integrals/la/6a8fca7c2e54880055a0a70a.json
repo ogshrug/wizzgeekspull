@@ -1,0 +1,29 @@
+{
+  "id": "6a8fca7c2e54880055a0a70a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "LA",
+  "question": "Using the property $\\int_a^b f(x)\\,dx=\\int_a^b f(a+b-x)\\,dx$, evaluate $\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin x}{\\sin x+\\cos x}\\,dx$ without finding an indefinite integral of the given integrand.",
+  "answeroption": "C",
+  "explanation": "Let<br><br>$$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin x}{\\sin x+\\cos x}\\,dx$$<br><br>For a definite integral, the property<br><br>$$\\int_a^b f(x)\\,dx=\\int_a^b f(a+b-x)\\,dx$$<br><br>may be used. Here, $a=0$ and $b=\\frac{\\pi}{2}$. Therefore, replacing $x$ by $\\frac{\\pi}{2}-x$, we get<br><br>$$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\sin\\left(\\frac{\\pi}{2}-x\\right)}{\\sin\\left(\\frac{\\pi}{2}-x\\right)+\\cos\\left(\\frac{\\pi}{2}-x\\right)}\\,dx$$<br><br>Using $\\sin\\left(\\frac{\\pi}{2}-x\\right)=\\cos x$ and $\\cos\\left(\\frac{\\pi}{2}-x\\right)=\\sin x$,<br><br>$$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\cos x}{\\cos x+\\sin x}\\,dx$$<br><br>Adding this equation to the original expression for $I$,<br><br>$$2I=\\int_0^{\\frac{\\pi}{2}}\\left[\\frac{\\sin x}{\\sin x+\\cos x}+\\frac{\\cos x}{\\sin x+\\cos x}\\right]dx$$<br><br>$$2I=\\int_0^{\\frac{\\pi}{2}}1\\,dx$$<br><br>Therefore,<br><br>$$2I=\\left[x\\right]_0^{\\frac{\\pi}{2}}=\\frac{\\pi}{2}$$<br><br>Hence,<br><br>$$I=\\frac{\\pi}{4}$$<br><br>Thus, using the basic property of definite integrals, the required value is $\\frac{\\pi}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{2}$",
+    "B": "$\\frac{\\pi}{8}$",
+    "C": "$\\frac{\\pi}{4}$",
+    "D": "$1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa7ffa2a66c0f894c1aa27",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "6a13eaab8c819562f933f98e"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\ln(\\sin^{-1} x + \\sqrt{1-x^2})$.\n(a) Find $f'(x)$ and simplify completely.\n(b) Evaluate $\\int_{0}^{1/2} f'(x) dx$.\n(c) Interpret the value found in (b) in terms of the original function $f$.",
+  "answeroption": "A",
+  "explanation": "**Concepts Being Tested:**<br />- Differentiation (chain rule, inverse trigonometric functions)<br />- Application of definite integrals to functions and their antiderivatives<br /><br />**Solution:**<br /><br />(a)<br />$f(x) = \\ln(\\sin^{-1} x + \\sqrt{1-x^2})$<br />Let $y = \\sin^{-1} x + \\sqrt{1-x^2}$<br />$\\Rightarrow f'(x) = \\frac{1}{y} \\left( \\frac{1}{\\sqrt{1-x^2}} + \\frac{-x}{\\sqrt{1-x^2}} \\right )$<br />$= \\frac{1 - x}{ \\sqrt{1-x^2} (\\sin^{-1} x + \\sqrt{1-x^2}) }$<br /><br />(b)<br />$\\int_0^{1/2} f'(x) dx = f(1/2) - f(0)$<br /><br />At $x=1/2$:<br />$\\sin^{-1}(1/2) = \\frac{\\pi}{6}$, $\\sqrt{1-1/4} = \\sqrt{3}/2$<br />So $f(1/2) = \\ln\\left( \\frac{\\pi}{6} + \\frac{\\sqrt{3}}{2} \\right )$<br /><br />At $x=0$:<br />$\\sin^{-1}(0)=0, \\sqrt{1-0}=1$<br />$f(0) = \\ln(1) = 0$<br /><br />So, value is $\\ln\\left( \\frac{\\pi}{6} + \\frac{\\sqrt{3}}{2} \\right )$<br /><br />(c) The value equals the increase in $f(x)$ from $x=0$ to $x=\\frac{1}{2}$, i.e.,<br />$\\int_0^{1/2} f'(x)dx = f(1/2) - f(0)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f'(x)=\\frac{1-x}{\\sqrt{1-x^2}(\\sin^{-1}x+\\sqrt{1-x^2})}$<br />(b) $\\int_0^{1/2}f'(x)dx=\\ln\\left(\\frac{\\pi}{6}+\\frac{\\sqrt3}{2}\\right)$<br />(c) This value is $f(\\frac12)-f(0)$, the increase in $f$ from $0$ to $\\frac12$",
+    "B": "(a) $f'(x)=\\frac{1+x}{\\sqrt{1-x^2}}$<br />(b) Integral value is $\\frac{\\pi}{6}$<br />(c) It represents the area under $f$",
+    "C": "(a) $f'(x)=\\sin^{-1}x+\\sqrt{1-x^2}$<br />(b) Integral value is $0$<br />(c) $f$ is constant",
+    "D": "(a) $f'(x)=\\frac{1}{\\sin^{-1}x}$<br />(b) Integral is undefined<br />(c) $f$ is discontinuous at $0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:19:22 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

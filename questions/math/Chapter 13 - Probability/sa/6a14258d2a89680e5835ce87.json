@@ -1,0 +1,24 @@
+{
+  "id": "6a14258d2a89680e5835ce87",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "SA",
+  "question": "Out of two bags, bag A contains 2 white and 3 red balls and bag B contains 4 white and 5 red balls. One ball is drawn at random from one of the bags and is found to be red. Find the probability that it was drawn from bag B.",
+  "answeroption": "",
+  "explanation": "**Step 1: Assign Probabilities.** Let $E_1$ be Bag A, $E_2$ be Bag B. $P(E_1) = P(E_2) = 1/2$. Let $R$ be red ball event. $P(R|E_1) = 3/5$, $P(R|E_2) = 5/9$.<br />**Step 2: Apply Bayes' Theorem.** $P(E_2|R) = \\frac{P(E_2)P(R|E_2)}{P(E_1)P(R|E_1) + P(E_2)P(R|E_2)}$.<br />**Step 3: Evaluate.** $\\frac{\\frac{1}{2} \\cdot \\frac{5}{9}}{\\frac{1}{2} \\cdot \\frac{3}{5} + \\frac{1}{2} \\cdot \\frac{5}{9}} = \\frac{5/9}{3/5 + 5/9} = \\frac{5/9}{52/45} = \\frac{25}{52}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8edd9dbe0ecc7866e90c09",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\displaystyle \\int \\frac{x^3}{1+x^4}\\,dx$ using a suitable method of integration.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Identifying the appropriate transformation</b><br>The denominator is $1+x^4$, whose derivative contains the factor $x^3$. Hence the integral can be reduced to a standard form by substitution.<br><b>Step 2: Making the substitution</b><br>Let<br>$$t=1+x^4$$<br>Then<br>$$dt=4x^3\\,dx\\quad\\Rightarrow\\quad x^3\\,dx=\\frac{dt}{4}$$<br><b>Step 3: Transforming the integral</b><br>Substituting these expressions gives<br>$$\\int\\frac{x^3}{1+x^4}\\,dx=\\frac{1}{4}\\int\\frac{dt}{t}$$<br><b>Step 4: Applying the standard integral</b><br>Using $\\int\\frac{dt}{t}=\\log|t|+C$,<br>$$\\frac{1}{4}\\int\\frac{dt}{t}=\\frac{1}{4}\\log|t|+C$$<br><b>Step 5: Returning to the original variable</b><br>Since $t=1+x^4>0$ for real $x$,<br>$$\\boxed{\\int\\frac{x^3}{1+x^4}\\,dx=\\frac{1}{4}\\log(1+x^4)+C}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{4}\\log(1+x^4)+C$",
+    "B": "$\\log(1+x^4)+C$",
+    "C": "$\\frac{1}{4}\\log(1+x^3)+C$",
+    "D": "$\\frac{x^4}{4(1+x^4)}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

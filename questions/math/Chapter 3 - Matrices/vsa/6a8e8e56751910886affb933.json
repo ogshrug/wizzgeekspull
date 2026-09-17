@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8e56751910886affb933",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d64"
+  ],
+  "question_type": "VSA",
+  "question": "While attempting to find the inverse of a square matrix $A$ by elementary row operations on $A=IA$, the left-hand side is reduced to $\\begin{bmatrix}1&3\\\\0&0\\end{bmatrix}$. State whether $A^{-1}$ exists.",
+  "answeroption": "B",
+  "explanation": "Step 1: To obtain the inverse by elementary row operations, the matrix on the left-hand side of $A=IA$ must ultimately be transformed into the identity matrix.<br>Step 2: In the given process, the left-hand side has become $$\\begin{bmatrix}1&3\\\\0&0\\end{bmatrix}.$$<br>Step 3: Its second row consists entirely of zeros.<br>Step 4: Once a complete zero row appears during the elementary-operation procedure, the left-hand matrix cannot be reduced to the identity matrix by the permitted operations.<br>Step 5: Hence, the required inverse cannot be obtained and $A^{-1}$ does not exist. Therefore, $A$ is not invertible.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^{-1}$ exists and equals $I_2$",
+    "B": "$A^{-1}$ does not exist",
+    "C": "$A^{-1}$ exists and equals $A$",
+    "D": "$A^{-1}$ exists only if the entry $3$ is replaced by $0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

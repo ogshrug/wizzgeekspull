@@ -1,0 +1,29 @@
+{
+  "id": "69a8542e96358125c95a0d50",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "SA",
+  "question": "Find the absolute maximum and absolute minimum values of the function $f(x) = x^3 - 3x^2 + 4$ on the interval $[0,4]$.",
+  "answeroption": "B",
+  "explanation": "First find derivative:<br /><br />f'(x) = 3x² − 6x.<br /><br />Set equal to zero:<br /><br />3x² − 6x = 0<br /><br />3x(x − 2) = 0<br /><br />So x = 0 or x = 2.<br /><br />Evaluate at critical points and endpoints (0, 2, 4):<br /><br />f(0) = 4.<br /><br />f(2) = 8 − 12 + 4 = 0.<br /><br />f(4) = 64 − 48 + 4 = 20.<br /><br />Thus absolute maximum is 20 at x = 4.<br /><br />Absolute minimum is 0 at x = 2.",
+  "explanation_image": [],
+  "options": {
+    "A": "Absolute maximum is $4$ at $x=0$; absolute minimum is $0$ at $x=2$.",
+    "B": "Absolute maximum is $20$ at $x=4$; absolute minimum is $0$ at $x=2$.",
+    "C": "Absolute maximum is $20$ at $x=4$; absolute minimum is $4$ at $x=0$.",
+    "D": "Absolute maximum is $0$ at $x=2$; absolute minimum is $20$ at $x=4$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:47:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

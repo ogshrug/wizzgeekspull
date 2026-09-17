@@ -1,0 +1,31 @@
+{
+  "id": "6a9001524b490c7cde359534",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f996"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A semicircular viewing area is modelled by the upper half of the circle $x^2+y^2=25$, with the diameter lying along the $x$-axis. Two vertical partitions are placed at $x=-3$ and $x=3$, creating one central portion and two equal outer portions. The planners need the exact areas so that different flooring materials can be assigned to the central and outer sections. All distances are measured in metres, and the required areas are to be calculated using definite integration.(a) Express the upper semicircle as $y=f(x)$ and find its height at each partition.(b) Calculate the total area of the semicircular viewing area using integration.(c) Determine the exact area of the central portion.(d) Hence calculate the combined area of the two outer portions.",
+  "answeroption": "D",
+  "explanation": "(a)For the upper semicircle, $y\\geq0$. Therefore,`y=\\sqrt{25-x^2}`At $x=\\pm3$,`y=\\sqrt{25-9}=4`Thus, the height at each partition is $4$ metres.(b)By symmetry, the total area is`A=2\\int_0^5\\sqrt{25-x^2}\\,dx`Put $x=5\\sin\\theta$. Then $dx=5\\cos\\theta\\,d\\theta$, and the limits become $0$ and $\\frac{\\pi}{2}$. Thus,`A=50\\int_0^{\\frac{\\pi}{2}}\\cos^2\\theta\\,d\\thetaA=50\\times\\frac{\\pi}{4}=\\frac{25\\pi}{2}`Hence, the total area is $\\frac{25\\pi}{2}$ square metres.(c)By symmetry, the central area is`A_c=2\\int_0^3\\sqrt{25-x^2}\\,dx`Using`\\int\\sqrt{a^2-x^2}\\,dx=\\frac{x}{2}\\sqrt{a^2-x^2}+\\frac{a^2}{2}\\sin^{-1}\\left(\\frac{x}{a}\\right)`we obtain`A_c=2\\left[\\frac{x}{2}\\sqrt{25-x^2}+\\frac{25}{2}\\sin^{-1}\\left(\\frac{x}{5}\\right)\\right]_0^3A_c=2\\left[6+\\frac{25}{2}\\sin^{-1}\\left(\\frac{3}{5}\\right)\\right]A_c=12+25\\sin^{-1}\\left(\\frac{3}{5}\\right)`Thus, the central area is $12+25\\sin^{-1}\\left(\\frac{3}{5}\\right)$ square metres.(d)The combined area of the two outer portions is`A_o=A-A_cA_o=\\frac{25\\pi}{2}-12-25\\sin^{-1}\\left(\\frac{3}{5}\\right)`Hence, the combined outer area is $\\frac{25\\pi}{2}-12-25\\sin^{-1}\\left(\\frac{3}{5}\\right)$ square metres.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y=\\sqrt{25-x^2}$; height $3$ m<br>(b) Total area $=\\frac{25\\pi}{2}$<br>(c) Central area $=12+25\\sin^{-1}(\\frac{3}{5})$<br>(d) Outer area $=\\frac{25\\pi}{2}-12-25\\sin^{-1}(\\frac{3}{5})$",
+    "B": "(a) $y=\\sqrt{25-x^2}$; height $4$ m<br>(b) Total area $=25\\pi$<br>(c) Central area $=12+25\\sin^{-1}(\\frac{3}{5})$<br>(d) Outer area $=25\\pi-12-25\\sin^{-1}(\\frac{3}{5})$",
+    "C": "(a) $y=\\sqrt{25-x^2}$; height $4$ m<br>(b) Total area $=\\frac{25\\pi}{2}$<br>(c) Central area $=6+25\\sin^{-1}(\\frac{3}{5})$<br>(d) Outer area $=\\frac{25\\pi}{2}-6-25\\sin^{-1}(\\frac{3}{5})$",
+    "D": "(a) $y=\\sqrt{25-x^2}$; height $4$ m<br>(b) Total area $=\\frac{25\\pi}{2}$<br>(c) Central area $=12+25\\sin^{-1}(\\frac{3}{5})$<br>(d) Outer area $=\\frac{25\\pi}{2}-12-25\\sin^{-1}(\\frac{3}{5})$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

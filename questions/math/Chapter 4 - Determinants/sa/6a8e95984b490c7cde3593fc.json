@@ -1,0 +1,29 @@
+{
+  "id": "6a8e95984b490c7cde3593fc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6b"
+  ],
+  "question_type": "SA",
+  "question": "The points $A(k,0)$, $B(0,k)$ and $C(1,1)$ form a triangle of area $\\frac{3}{2}$ square units. Determine all real values of $k$.",
+  "answeroption": "B",
+  "explanation": "<b>Determinant form of the area</b><br>The area condition is $$\\frac{1}{2}\\left|\\begin{vmatrix}k&0&1\\\\0&k&1\\\\1&1&1\\end{vmatrix}\\right|=\\frac{3}{2}$$<br><b>Evaluation of the determinant</b><br>Expanding along the first row gives $$k(k-1)+(0-k)=k^2-2k$$ Therefore, $$|k^2-2k|=3$$<br><b>Positive case</b><br>If $k^2-2k=3$, then $$k^2-2k-3=0$$ Thus, $$(k-3)(k+1)=0$$ giving $k=3$ or $k=-1$.<br><b>Negative case</b><br>If $k^2-2k=-3$, then $k^2-2k+3=0$, whose discriminant is $4-12=-8<0$. Hence, it has no real solution.<br>Therefore, $k=3$ or $k=-1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=1$ or $k=-3$",
+    "B": "$k=3$ or $k=-1$",
+    "C": "$k=1$ or $k=3$",
+    "D": "$k=-1$ only"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

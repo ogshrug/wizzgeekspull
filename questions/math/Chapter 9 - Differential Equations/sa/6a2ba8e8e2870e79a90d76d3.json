@@ -1,0 +1,26 @@
+{
+  "id": "6a2ba8e8e2870e79a90d76d3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation $(x^{2}-y^{2})dx+2xy~dy=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Express the homogeneous equation as $\\frac{dy}{dx} = \\frac{y^2-x^2}{2xy}$. Substitute $y = vx \\implies \\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 2:** Substitute these terms into the main expression to get $v + x\\frac{dv}{dx} = \\frac{v^2-1}{2v} \\implies x\\frac{dv}{dx} = -\\frac{1+v^2}{2v}$. Separate the variables: $\\frac{2v}{1+v^2} dv = -\\frac{dx}{x}$.<br />**Step 3:** Integrate both sides: $\\ln(1+v^2) = -\\ln|x| + \\ln C \\implies \\ln|x(1+v^2)| = \\ln C$. Substituting back $v = \\frac{y}{x}$ gives the final solution: $x^2 + y^2 = Cx$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

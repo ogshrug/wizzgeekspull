@@ -1,0 +1,29 @@
+{
+  "id": "69a9a382d30adc5083911aee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "VSA",
+  "question": "A box contains 10 bulbs, of which 3 are defective. If 2 bulbs are chosen at random without replacement, find the probability that at least one bulb is defective.",
+  "answeroption": "C",
+  "explanation": "Total ways to choose 2 bulbs out of 10: $^{10}C_2 = 45$<br />No defective bulbs: pick both from the 7 good bulbs: $^7C_2 = 21$<br />Probability both are good: $\\frac{21}{45} = \\frac{7}{15}$<br />Probability at least one is defective: $1 - \\frac{7}{15} = \\frac{8}{15}$<br /><br />Final answer: $\\frac{8}{15}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{7}{15}$",
+    "B": "$\\frac{3}{10}$",
+    "C": "$\\frac{8}{15}$",
+    "D": "$\\frac{1}{15}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:38:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

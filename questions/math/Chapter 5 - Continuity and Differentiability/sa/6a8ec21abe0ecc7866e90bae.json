@@ -1,0 +1,29 @@
+{
+  "id": "6a8ec21abe0ecc7866e90bae",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "SA",
+  "question": "If $$x=a\\sec\\theta,\\qquad y=b\\tan\\theta,$$ find $\\frac{dy}{dx}$ without eliminating $\\theta$.",
+  "answeroption": "A",
+  "explanation": "<b>Differentiation with respect to the parameter</b><br>$$\\frac{dx}{d\\theta}=a\\sec\\theta\\tan\\theta$$<br>and $$\\frac{dy}{d\\theta}=b\\sec^2\\theta.$$<br><b>Parametric derivative</b><br>$$\\frac{dy}{dx}=\\frac{b\\sec^2\\theta}{a\\sec\\theta\\tan\\theta}=\\frac{b}{a}\\frac{\\sec\\theta}{\\tan\\theta}.$$<br><b>Simplification</b><br>Since $$\\frac{\\sec\\theta}{\\tan\\theta}=\\frac{1}{\\sin\\theta},$$ therefore $$\\frac{dy}{dx}=\\frac{b}{a\\sin\\theta}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{b}{a\\sin\\theta}$",
+    "B": "$\\frac{dy}{dx}=\\frac{b}{a\\cos\\theta}$",
+    "C": "$\\frac{dy}{dx}=\\frac{a}{b\\sin\\theta}$",
+    "D": "$\\frac{dy}{dx}=\\frac{b\\sin\\theta}{a}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

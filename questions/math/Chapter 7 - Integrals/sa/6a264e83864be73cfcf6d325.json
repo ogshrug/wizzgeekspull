@@ -1,0 +1,28 @@
+{
+  "id": "6a264e83864be73cfcf6d325",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate:<br />$$\\int_{0}^{1}tan^{-1}x~dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To evaluate the definite integral $\\int_{0}^{1}\\tan^{-1}x \\, dx$, we use the method of integration by parts, which states that $\\int u \\, dv = uv - \\int v \\, du$. We can treat the integrand as a product of two functions: $\\tan^{-1}x \\cdot 1$. Following the ILATE rule, choose $u = \\tan^{-1}x$ as the first function and $dv = 1 \\, dx$ as the second function. Differentiating $u$ gives $du = \\frac{1}{1+x^2} dx$, and integrating $dv$ gives $v = x$.<br />**Step 2:** Apply the integration by parts formula to express the indefinite integral: $\\int \\tan^{-1}x \\, dx = x\\tan^{-1}x - \\int \\frac{x}{1+x^2} dx$. To evaluate the remaining integral $\\int \\frac{x}{1+x^2} dx$, use substitution. Let $w = 1+x^2$, then $dw = 2x \\, dx$, which means $x \\, dx = \\frac{1}{2}dw$. This changes that term into $\\frac{1}{2}\\int \\frac{1}{w} dw = \\frac{1}{2}\\log|w| = \\frac{1}{2}\\log(1+x^2)$. Thus, the full expression is $[x\\tan^{-1}x - \\frac{1}{2}\\log(1+x^2)]_{0}^{1}$.<br />**Step 3:** Now, substitute the upper boundary limit $x = 1$ and the lower boundary limit $x = 0$ into this integrated expression. Evaluating at the upper boundary gives: $(1 \\cdot \\tan^{-1}(1) - \\frac{1}{2}\\log(1+1^2)) = (1 \\cdot \\frac{\\pi}{4} - \\frac{1}{2}\\log 2) = \\frac{\\pi}{4} - \\frac{1}{2}\\log 2$. Evaluating at the lower boundary gives: $(0 \\cdot \\tan^{-1}(0) - \\frac{1}{2}\\log(1+0)) = (0 - 0) = 0$. Subtracting the two bounds yields the final area value: $\\frac{\\pi}{4} - \\frac{1}{2}\\log 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-2",
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

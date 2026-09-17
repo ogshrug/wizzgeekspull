@@ -1,0 +1,30 @@
+{
+  "id": "69a870b996358125c95a0d7a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "SA",
+  "question": "If $x = a \\sin^2 t$, $y = a \\sin^3 t$, find $\\dfrac{d^2y}{dx^2}$ in terms of $t$.",
+  "answeroption": "A",
+  "explanation": "$\\frac{dx}{dt} = 2a \\sin t \\cos t$<br />$\\frac{dy}{dt} = 3a \\sin^2 t \\cos t$<br /><br />$\\frac{dy}{dx} = \\frac{3}{2} \\sin t$<br /><br />$\\frac{d^2y}{dx^2} = \\frac{d}{dt}\\left(\\frac{3}{2} \\sin t\\right) \\cdot \\frac{1}{\\frac{dx}{dt}}$<br /><br />$= \\frac{3}{2} \\cos t \\cdot \\frac{1}{2a \\sin t \\cos t}$<br /><br />$= \\frac{3}{4a \\sin t}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{3}{4a\\sin t}$",
+    "B": "$\\dfrac{3}{2a\\sin t}$",
+    "C": "$\\dfrac{3}{4a\\cos t}$",
+    "D": "$\\dfrac{4a\\sin t}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:49:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

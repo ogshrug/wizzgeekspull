@@ -1,0 +1,33 @@
+{
+  "id": "6a2278b3864be73cfcf6d1dc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "AR",
+  "question": "**Assertion (A):** $f(x)=\\begin{cases}x \\sin\\frac{1}{x},&x\\ne0\\\\0&,x=0\\end{cases}$ is continuous at $x=0$.<br />**Reason (R):** When $x\\rightarrow0$, $\\sin\\frac{1}{x}$ is a finite value between -1 and 1.",
+  "answeroption": "A",
+  "explanation": "**Step 1:** To evaluate the assertion, check the continuity of $f(x)$ at $x=0$. This requires evaluating $\\lim_{x \\to 0} x \\sin(1/x)$.<br />**Step 2:** As $x$ approaches 0, the argument $1/x$ approaches infinity. The sine function oscillates, but its value is strictly bounded: $-1 \\le \\sin(1/x) \\le 1$.<br />**Step 3:** This bounding behavior is exactly what Reason (R) describes. It states that $\\sin(1/x)$ remains a finite value between -1 and 1. So, Reason (R) is true.<br />**Step 4:** Apply the Squeeze Theorem to the limit. Multiply the inequality by $|x|$: $-|x| \\le x \\sin(1/x) \\le |x|$.<br />**Step 5:** Taking the limit as $x \\to 0$: $\\lim_{x \\to 0} (-|x|) = 0$ and $\\lim_{x \\to 0} |x| = 0$. By the Squeeze Theorem, $\\lim_{x \\to 0} x \\sin(1/x) = 0$.<br />**Step 6:** Since the limit (0) equals the function's defined value at $x=0$ ($f(0)=0$), the function is continuous. Assertion (A) is true.<br />**Step 7:** The boundedness of $\\sin(1/x)$ (Reason R) is the precise mathematical justification needed to evaluate the limit via the Squeeze Theorem, making it the correct explanation for Assertion (A).",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

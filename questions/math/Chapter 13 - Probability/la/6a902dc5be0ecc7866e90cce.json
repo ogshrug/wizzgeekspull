@@ -1,0 +1,29 @@
+{
+  "id": "6a902dc5be0ecc7866e90cce",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "LA",
+  "question": "In a group of 60 students, 38 study Mathematics, 32 study Physics and 18 study both subjects. If a student selected at random is known to study at least one of the two subjects, determine the conditional probability that the selected student studies exactly one of the two subjects.",
+  "answeroption": "A",
+  "explanation": "<b>Given Information</b><br>Let $M$ denote the event that a student studies Mathematics and $P$ denote the event that a student studies Physics. We have $n(M)=38$, $n(P)=32$ and $n(M\\cap P)=18$.<br><br>The condition that the student studies at least one subject corresponds to $M\\cup P$. Therefore,<br>$$n(M\\cup P)=n(M)+n(P)-n(M\\cap P)=38+32-18=52.$$<br><br>The number of students studying Mathematics only is<br>$$38-18=20,$$<br>and the number studying Physics only is<br>$$32-18=14.$$<br>Hence the number studying exactly one of the two subjects is<br>$$20+14=34.$$<br><br>Let $E$ denote the event that the selected student studies exactly one subject and let $F=M\\cup P$. Since every outcome in $E$ is also in $F$, $E\\cap F=E$. Thus,<br>$$P(E\\cap F)=\\frac{34}{60},\\qquad P(F)=\\frac{52}{60}.$$<br>Using conditional probability,<br>$$P(E|F)=\\frac{P(E\\cap F)}{P(F)}=\\frac{\\frac{34}{60}}{\\frac{52}{60}}=\\frac{34}{52}=\\frac{17}{26}.$$<br><br><b>Final Result</b><br>Therefore, the conditional probability that the selected student studies exactly one of the two subjects is $\\frac{17}{26}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{17}{26}$",
+    "B": "$\\frac{17}{30}$",
+    "C": "$\\frac{26}{17}$",
+    "D": "$\\frac{34}{60}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8cd14b490c7cde3593d1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "VSA",
+  "question": "If $A=\\begin{bmatrix}x&4\\\\-4&2y-6\\end{bmatrix}$ is skew-symmetric, find $x+y$.",
+  "answeroption": "A",
+  "explanation": "Step 1: For a skew-symmetric matrix, $A^T=-A$. In particular, every diagonal element of a skew-symmetric matrix must be zero.<br>Step 2: The first diagonal element is $x$. Therefore, $x=0$.<br>Step 3: The second diagonal element is $2y-6$. Hence, $$2y-6=0,$$ which gives $2y=6$ and therefore $y=3$.<br>Step 4: The off-diagonal elements are $4$ and $-4$, which already satisfy the required condition $a_{21}=-a_{12}$.<br>Step 5: Thus, $$x+y=0+3=3.$$ Therefore, the required value of $x+y$ is $3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$3$",
+    "B": "$0$",
+    "C": "$6$",
+    "D": "$-3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

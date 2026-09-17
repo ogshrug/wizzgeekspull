@@ -1,0 +1,32 @@
+{
+  "id": "6a8fe35c2e54880055a0a727",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad",
+    "6a13ebca8c819562f933f9ae",
+    "6a13ebca8c819562f933f9af"
+  ],
+  "question_type": "LA",
+  "question": "Find the equation of the curve passing through $(1,2)$ if at every point $(x,y)$ on it, where $x>0$, the slope of the tangent is $$x-\\frac{y}{x}.$$ Form the corresponding first order linear differential equation and solve it by the integrating factor method.",
+  "answeroption": "B",
+  "explanation": "<b>Formation of the Differential Equation</b><br>The slope of the tangent is $\\frac{dy}{dx}$. Hence, $$\\frac{dy}{dx}=x-\\frac{y}{x}.$$ Rearranging, $$\\frac{dy}{dx}+\\frac{1}{x}y=x.$$ This is a first order linear differential equation in the standard form $$\\frac{dy}{dx}+Py=Q,$$ where $$P=\\frac{1}{x},\\qquad Q=x.$$<br><br><b>Integrating Factor</b><br>Since $x>0$, $$\\text{I.F.}=e^{\\int\\frac{1}{x}dx}=e^{\\log x}=x.$$ Multiplying the differential equation by $x$, $$x\\frac{dy}{dx}+y=x^2.$$ The left-hand side is $$\\frac{d}{dx}(xy).$$ Therefore, $$\\frac{d}{dx}(xy)=x^2.$$<br><br><b>Integration</b><br>Integrating, $$xy=\\frac{x^3}{3}+C.$$ Hence, $$y=\\frac{x^2}{3}+\\frac{C}{x}.$$ Since the curve passes through $(1,2)$, $$2=\\frac{1}{3}+C,$$ giving $$C=\\frac{5}{3}.$$<br><br><b>Final Result</b><br>The equation of the required curve is $$y=\\frac{x^2}{3}+\\frac{5}{3x}=\\frac{x^3+5}{3x},\\qquad x>0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\frac{x^2}{2}+\\frac{3}{2x}$",
+    "B": "$y=\\frac{x^2}{3}+\\frac{5}{3x}$",
+    "C": "$y=\\frac{x^2}{3}+\\frac{2}{x}$",
+    "D": "$y=\\frac{x^3+5}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

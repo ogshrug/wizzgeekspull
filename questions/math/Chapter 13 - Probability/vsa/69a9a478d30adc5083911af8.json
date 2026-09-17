@@ -1,0 +1,30 @@
+{
+  "id": "69a9a478d30adc5083911af8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e8",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "VSA",
+  "question": "Let $X$ be a random variable with the probability distribution: $P(X=0) = k$, $P(X=1) = 2k$, $P(X=2) = 3k$. Find the value of $k$, mean and variance of $X$.",
+  "answeroption": "C",
+  "explanation": "For a probability distribution: $k + 2k + 3k = 1$<br />$6k = 1 \\implies k = \\frac{1}{6}$<br /><br />Mean, $E(X) = 0 \\cdot k + 1 \\cdot 2k + 2 \\cdot 3k = 0 + 2k + 6k = 8k = 8/6=4/3$<br /><br />$E(X^2) = 0^2 \\cdot k + 1^2 \\cdot 2k + 2^2 \\cdot 3k = 0 + 2k + 12k = 14k = 14/6 = 7/3$<br />Variance: $Var(X) = E(X^2) - [E(X)]^2 = 7/3 - (4/3)^2 = 7/3 - 16/9 = (21-16)/9 = 5/9$<br /><br />Final answers: $k=\\frac{1}{6}$, mean=$\\frac{4}{3}$, variance=$\\frac{5}{9}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=\\frac{1}{6}$<br />Mean $=\\frac{2}{3}$<br />Variance $=\\frac{5}{9}$",
+    "B": "$k=\\frac{1}{5}$<br />Mean $=\\frac{4}{3}$<br />Variance $=\\frac{5}{9}$",
+    "C": "$k=\\frac{1}{6}$<br />Mean $=\\frac{4}{3}$<br />Variance $=\\frac{5}{9}$",
+    "D": "$k=\\frac{1}{6}$<br />Mean $=\\frac{7}{3}$<br />Variance $=\\frac{4}{9}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:42:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

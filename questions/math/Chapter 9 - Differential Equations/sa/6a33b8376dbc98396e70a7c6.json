@@ -1,0 +1,26 @@
+{
+  "id": "6a33b8376dbc98396e70a7c6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Solve the differential equation $x\\cos\\left(\\frac{y}{x}\\right)\\,\\frac{dy}{dx}=y\\cos\\left(\\frac{y}{x}\\right)+x.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Divide the entire differential equation by $x$ to express it in standard homogeneous format: $\\cos\\left(\\frac{y}{x}\\right)\\frac{dy}{dx} = \\frac{y}{x}\\cos\\left(\\frac{y}{x}\\right) + 1$. We apply the substitution $y = vx$, which implies $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 2:** Substitute these terms back into the differential equation: $\\cos v \\left(v + x\\frac{dv}{dx}\\right) = v\\cos v + 1 \\implies v\\cos v + x\\cos v\\frac{dv}{dx} = v\\cos v + 1$. Canceling out like terms from both sides simplifies the expression to $x\\cos v\\frac{dv}{dx} = 1$.<br />**Step 3:** Separate the independent variables onto opposite sides to prepare for integration: $\\cos v \\, dv = \\frac{1}{x} dx$. Integrating both sides simultaneously yields $\\sin v = \\ln|x| + C$. Substituting back $v = \\frac{y}{x}$ gives the final solution: $\\sin\\left(\\frac{y}{x}\\right) = \\ln|x| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a327a45d5dca7dcb0bf0ecb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following L.P.P. graphically:\nMinimise $Z=6x+3y$\nSubject to constraints\n$4x+y \\ge 80$\n$x+5y \\ge 115$\n$3x+2y \\le 150$\n$x, y \\ge 0$",
+  "answeroption": "",
+  "explanation": "**Step 1: Graph the Constraints**  \nPlot the lines in the first quadrant:  \n- $4x+y=80$: intercepts (20,0) and (0,80). Since $\\ge$, shade away from origin.  \n- $x+5y=115$: intercepts (115,0) and (0,23). Since $\\ge$, shade away from origin.  \n- $3x+2y=150$: intercepts (50,0) and (0,75). Since $\\le$, shade towards origin.  \nThe feasible region is the common area satisfying all constraints.\n\n**Step 2: Find the Corner Points**  \nSolve pairs of equations to find vertices:  \n- Intersection of $4x+y=80$ and $x+5y=115$: From first, $y=80-4x$. Substitute: $x+5(80-4x)=115 \\Rightarrow x+400-20x=115 \\Rightarrow -19x=-285 \\Rightarrow x=15$, then $y=20$. Vertex A = (15,20).  \n- Intersection of $x+5y=115$ and $3x+2y=150$: From first, $x=115-5y$. Substitute: $3(115-5y)+2y=150 \\Rightarrow 345-15y+2y=150 \\Rightarrow -13y=-195 \\Rightarrow y=15$, then $x=40$. Vertex B = (40,15).  \n- Intersection of $4x+y=80$ and $3x+2y=150$: From first, $y=80-4x$. Substitute: $3x+2(80-4x)=150 \\Rightarrow 3x+160-8x=150 \\Rightarrow -5x=-10 \\Rightarrow x=2$, then $y=72$. Vertex C = (2,72).\n\n**Step 3: Verify Feasibility**  \nCheck all vertices satisfy all constraints:  \n- A(15,20): 60+20=80 (ok), 15+100=115 (ok), 45+40=85 ≤150 (ok) → feasible.  \n- B(40,15): 160+15=175 ≥80 (ok), 40+75=115 (ok), 120+30=150 (ok) → feasible.  \n- C(2,72): 8+72=80 (ok), 2+360=362 ≥115 (ok), 6+144=150 (ok) → feasible.\n\n**Step 4: Evaluate Objective Function**  \n$Z=6x+3y$:  \n- At A(15,20): $Z=6(15)+3(20)=90+60=150$  \n- At B(40,15): $Z=6(40)+3(15)=240+45=285$  \n- At C(2,72): $Z=6(2)+3(72)=12+216=228$\n\n**Step 5: Identify the Minimum Value**  \nComparing all values, the minimum $Z$ is 150 at vertex A(15,20).  \nThus, the optimal solution is $x=15$, $y=20$, with minimum value $Z=150$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

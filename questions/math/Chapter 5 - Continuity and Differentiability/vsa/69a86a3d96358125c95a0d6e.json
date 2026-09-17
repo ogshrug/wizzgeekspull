@@ -1,0 +1,29 @@
+{
+  "id": "69a86a3d96358125c95a0d6e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "A function $f(x)$ is defined as $f(x) = \\begin{cases} \\sin \\frac{1}{x}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$. Is $f(x)$ continuous at $x=0$? Provide justification.",
+  "answeroption": "A",
+  "explanation": "To check continuity at $x=0$:<br /><br />$\\lim\\limits_{x \\to 0} f(x) = \\lim\\limits_{x \\to 0} \\sin \\frac{1}{x}$.<br /><br />As $x \\to 0$, $\\frac{1}{x}$ oscillates rapidly and $\\sin \\frac{1}{x}$ does not approach any finite value.<br /><br />Thus, the limit does not exist.<br /><br />Since $\\lim_{x\\to 0} f(x)$ does not exist, $f(x)$ is not continuous at $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "No, $f(x)$ is not continuous at $x=0$ because $\\lim_{x\\to0}\\sin\\frac{1}{x}$ does not exist",
+    "B": "Yes, $f(x)$ is continuous at $x=0$ because $f(0)=0$",
+    "C": "Yes, $f(x)$ is continuous at $x=0$ because $\\sin\\frac{1}{x}$ is bounded",
+    "D": "No, $f(x)$ is not continuous at $x=0$ because $f(0)$ is undefined"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:22:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

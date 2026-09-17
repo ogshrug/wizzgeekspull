@@ -1,0 +1,32 @@
+{
+  "id": "6a91287a2e54880055a0a782",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "For the constraints $2x+y\\le10$, $x+3y\\le15$, $x\\ge0$ and $y\\ge0$, the objective function is $Z=x+ky$, where $k>0$. Using the graphical method, determine the value of $k$ for which the maximum of $Z$ is attained at both the corner point formed by the two oblique boundary lines and the corner point on the positive y-axis, and hence determine the maximum value and the complete set of optimal solutions.",
+  "answeroption": "D",
+  "explanation": "<b>Corner Points of the Feasible Region</b><br>The line $2x+y=10$ meets the x-axis at $(5,0)$, while $x+3y=15$ meets the y-axis at $(0,5)$. The two oblique lines intersect where $2x+y=10$ and $x+3y=15$. From $y=10-2x$, substitution gives $x+3(10-2x)=15$, so $-5x=-15$, giving $x=3$ and $y=4$. Hence, the bounded feasible region has corner points $(0,0)$, $(5,0)$, $(3,4)$ and $(0,5)$.<br><br><b>Required Condition on the Objective Function</b><br>For the maximum of $Z=x+ky$ to occur at both $(3,4)$ and $(0,5)$, the objective function must have the same value at these two points. Thus, $3+4k=5k$, giving $k=3$.<br><br>With $k=3$, the objective function becomes $Z=x+3y$. Its values at the corner points are $Z(0,0)=0$, $Z(5,0)=5$, $Z(3,4)=3+12=15$, and $Z(0,5)=15$. Hence the maximum value is 15.<br><br>The points $(3,4)$ and $(0,5)$ lie on the boundary line $x+3y=15$. Since the objective function for $k=3$ is exactly $Z=x+3y$, every point of the feasible line segment joining $(3,4)$ and $(0,5)$ gives $Z=15$.<br><br><b>Final Result</b><br>The required value is $k=3$, the maximum value is $15$, and every point on the line segment joining $(3,4)$ and $(0,5)$ is an optimal solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=4$, maximum value $20$, attained at $(3,4)$ only",
+    "B": "$k=3$, maximum value $15$, attained only at $(0,5)$",
+    "C": "$k=5$, maximum value $25$, attained on the segment joining $(3,4)$ and $(0,5)$",
+    "D": "$k=3$, maximum value $15$, attained at every point on the segment joining $(3,4)$ and $(0,5)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

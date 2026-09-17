@@ -1,0 +1,25 @@
+{
+  "id": "6a1593f46050c058f876e50f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a1",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "VSA",
+  "question": "Find the general solution of the differential equation: $x \\cos y \\, dy = (x \\log x + 1)e^{x} \\, dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Separate variables across opposite sides of the equation**<br />To solve this differential equation, we group all terms containing $y$ on the left side and all terms containing $x$ on the right side. Dividing both sides by $x$ gives:<br />$\\cos y \\, dy = \\frac{(x\\log x + 1)e^x}{x} \\, dx$<br />Simplify the fraction on the right side:<br />$\\cos y \\, dy = \\left(\\frac{x\\log x}{x} + \\frac{1}{x}\\right)e^x \\, dx \\implies \\cos y \\, dy = \\left(\\log x + \\frac{1}{x}\\right)e^x \\, dx$<br /><br />**Step 2: Set up the integration equations**<br />Integrate both sides of the separated equation:<br />$\\int \\cos y \\, dy = \\int e^x \\left(\\log x + \\frac{1}{x}\\right) \\, dx$<br /><br />**Step 3: Solve the individual integrals**<br />- Integrating the left side gives: $\\int \\cos y \\, dy = \\sin y$.<br />- The right side matches the standard integration formula $\\int e^x [f(x) + f'(x)] \\, dx = e^x f(x) + C$. If we define our function as $f(x) = \\log x$, its derivative is exactly $f'(x) = \\frac{1}{x}$. This matches our expression perfectly, so it evaluates to: $e^x \\log x$.<br /><br />**Step 4: Write out the final general solution**<br />Combining the evaluated pieces gives our final general solution equation:<br />$\\sin y = e^x \\log x + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

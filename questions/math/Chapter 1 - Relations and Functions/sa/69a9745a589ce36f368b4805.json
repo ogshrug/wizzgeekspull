@@ -1,0 +1,29 @@
+{
+  "id": "69a9745a589ce36f368b4805",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Let $A$ be the set of all $3$-digit natural numbers. Define relation $R$ on $A$ by $aRb \\iff$ digits’ sum of $a$ equals digits’ sum of $b$. Prove $R$ is an equivalence relation. How many distinct equivalence classes are there?",
+  "answeroption": "C",
+  "explanation": "Let $s(a)$ denote the sum of digits of $a$.<br /><br />Reflexive: $s(a) = s(a)$, so $(a,a) \\in R$.<br /><br />Symmetric: If $(a,b) \\in R$, i.e., $s(a) = s(b)$, so $s(b) = s(a)$, so $(b,a)\\in R$.<br /><br />Transitive: If $(a,b)\\in R$ and $(b,c)\\in R$, then $s(a)=s(b)$ and $s(b)=s(c)$, so $s(a)=s(c)$, so $(a,c)\\in R$.<br /><br />So $R$ is an equivalence relation.<br /><br />Distinct equivalence classes: Class with the same digit sum, and $a$ is a $3$-digit number ($100 \\leq a \\leq 999$).<br /><br />Min digit sum: $1+0+0=1$, max: $9+9+9=27$. All values from $1$ to $27$. So there are $27$ equivalence classes.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is not an equivalence relation and there are $0$ equivalence classes",
+    "B": "$R$ is an equivalence relation and there are $9$ equivalence classes",
+    "C": "$R$ is an equivalence relation and there are $27$ equivalence classes",
+    "D": "$R$ is an equivalence relation and there are $999$ equivalence classes"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:17:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8c65811cb3824448de86a4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "Find the domain and exact range of $g(x)=\\cos^{-1}\\left(\\dfrac{x^2-1}{x^2+1}\\right)$, carefully determining whether the boundary values of the resulting range are included or excluded.",
+  "answeroption": "C",
+  "explanation": "<b>Determining the Domain</b><br>Since $x^2+1>0$ for every real $x$, the rational expression is always defined. Let<br>$$t=\\frac{x^2-1}{x^2+1}$$<br>Now,<br>$$t+1=\\frac{2x^2}{x^2+1}\\geq0$$<br>so $t\\geq-1$. Also,<br>$$1-t=\\frac{2}{x^2+1}>0$$<br>so $t<1$. Therefore,<br>$$-1\\leq t<1$$<br>which lies completely within the domain $[-1,1]$ of $\\cos^{-1}t$. Hence, the domain of $g$ is $\\mathbb{R}$.<br><br><b>Verification of the Argument Range</b><br>From<br>$$t=\\frac{x^2-1}{x^2+1}$$<br>we obtain<br>$$t(x^2+1)=x^2-1$$<br>$$x^2(1-t)=1+t$$<br>$$x^2=\\frac{1+t}{1-t}$$<br>For every $t\\in[-1,1)$, the right-hand side is non-negative, so a real value of $x$ exists. Thus, the exact range of the argument is $[-1,1)$.<br><br><b>Range of the Function</b><br>The function $\\cos^{-1}t$ decreases from $\\pi$ to $0$ as $t$ increases from $-1$ to $1$. The value $t=-1$ is attained at $x=0$, giving<br>$$g(0)=\\cos^{-1}(-1)=\\pi$$<br>However, $t=1$ is never attained for a finite real value of $x$, so $g(x)$ never equals $0$.<br><br><b>Final Result</b><br>Therefore,<br>$$\\text{Domain}=\\mathbb{R}$$<br>$$\\text{Range}=(0,\\pi]$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Domain: $\\mathbb{R}$; Range: $[0,\\pi]$; both $0$ and $\\pi$ are included",
+    "B": "Domain: $\\mathbb{R}$; Range: $[0,\\pi)$; $0$ is included and $\\pi$ is excluded",
+    "C": "Domain: $\\mathbb{R}$; Range: $(0,\\pi]$; $0$ is excluded and $\\pi$ is included",
+    "D": "Domain: $\\mathbb{R}\\setminus\\{0\\}$; Range: $(0,\\pi]$; $0$ is excluded and $\\pi$ is included"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

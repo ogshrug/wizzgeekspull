@@ -1,0 +1,31 @@
+{
+  "id": "69a9b17d62be6a70cd184e1f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e767d837c8c7efa6b8c9"
+  ],
+  "question_type": "LA",
+  "question": "Let the vectors $\\vec{a} = 2\\hat{i} + 3\\hat{j} - \\hat{k}$, $\\vec{b} = -\\hat{i} + 4\\hat{j} + 2\\hat{k}$, and $\\vec{c} = 3\\hat{i} - \\hat{j} + 2\\hat{k}$. A parallelepiped has adjacent sides represented by these three vectors.<br /><br />(a) Find the volume of the parallelepiped.<br /><br />(b) If the vector $\\vec{r}$ satisfies $\\vec{r} = \\lambda\\vec{a} + \\mu\\vec{b} + \\nu\\vec{c}$ and divides the diagonal from $O(0,0,0)$ to the opposite vertex in the ratio $1:1$, find the values of $\\lambda$, $\\mu$, and $\\nu$.<br /><br />(c) Find the angle between the vectors $\\vec{a} \\times \\vec{b}$ and $\\vec{b} \\times \\vec{c}$.",
+  "answeroption": "B",
+  "explanation": "(a) Volume of parallelepiped:<br /><br />$\\text{Volume} = |\\vec{a} \\cdot (\\vec{b} \\times \\vec{c})|$<br /><br />First, find $\\vec{b} \\times \\vec{c}$:<br /><br />$\\vec{b} = (-1,4,2)$, $\\vec{c} = (3,-1,2)$<br /><br />$\\vec{b} \\times \\vec{c} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ -1 & 4 & 2 \\\\ 3 & -1 & 2 \\end{vmatrix}$<br /><br />$= \\hat{i}(4 \\times 2 - 2 \\times -1) - \\hat{j}((-1) \\times 2 - 2 \\times 3) + \\hat{k}((-1) \\times -1 - 4 \\times 3)$<br /><br />$= \\hat{i}(8 + 2) - \\hat{j}(-2 - 6) + \\hat{k}(1 - 12)$<br /><br />$= \\hat{i}(10) - \\hat{j}(-8) + \\hat{k}(-11)$<br /><br />$= 10\\hat{i} + 8\\hat{j} - 11\\hat{k}$<br /><br />Now $\\vec{a} \\cdot (\\vec{b} \\times \\vec{c})$:<br /><br />$\\vec{a} = (2,3,-1)$<br /><br />$\\vec{a} \\cdot (\\vec{b} \\times \\vec{c}) = 2 \\times 10 + 3 \\times 8 + (-1) \\times (-11)$<br /><br />$= 20 + 24 + 11 = 55$<br /><br />So, $\\text{Volume} = |55| = 55$ units$^3$.<br /><br />(b) The diagonal from $O$ to the opposite vertex is $\\vec{a} + \\vec{b} + \\vec{c}$.<br /><br />A point dividing this diagonal in the ratio $1:1$ (that is, the midpoint) has position vector:<br /><br />$\\vec{r} = \\frac{1}{2}(\\vec{a} + \\vec{b} + \\vec{c})$<br /><br />But $\\vec{r} = \\lambda\\vec{a} + \\mu\\vec{b} + \\nu\\vec{c}$, so equate:<br /><br />$\\lambda\\vec{a} + \\mu\\vec{b} + \\nu\\vec{c} = \\frac{1}{2}(\\vec{a} + \\vec{b} + \\vec{c})$<br /><br />This gives three equations comparing $\\hat{i}, \\hat{j}, \\hat{k}$ components:<br /><br />For $\\hat{i}$: $2\\lambda - \\mu + 3\\nu = \\frac{1}{2}(2 - 1 + 3) = 2$<br /><br />For $\\hat{j}$: $3\\lambda + 4\\mu - \\nu = \\frac{1}{2}(3 + 4 - 1) = 3$<br /><br />For $\\hat{k}$: $-\\lambda + 2\\mu + 2\\nu = \\frac{1}{2}(-1 + 2 + 2) = 1.5$<br /><br />Hence, the system is:<br /><br />$2\\lambda - \\mu + 3\\nu = 2$ — (i)<br /><br />$3\\lambda + 4\\mu - \\nu = 3$ — (ii)<br /><br />$-\\lambda + 2\\mu + 2\\nu = 1.5$ — (iii)<br /><br />Let us solve this system:<br /><br />From (i): $\\mu = 2\\lambda + 3\\nu - 2$<br /><br />Plug in into (ii):<br /><br />$3\\lambda + 4(2\\lambda + 3\\nu - 2) - \\nu = 3$<br /><br />$3\\lambda + 8\\lambda + 12\\nu - 8 - \\nu = 3$<br /><br />$11\\lambda + 11\\nu = 11$<br /><br />$\\lambda + \\nu = 1$ — (iv)<br /><br />From (iii):<br /><br />$-\\lambda + 2\\mu + 2\\nu = 1.5$<br /><br />Substitute $\\mu = 2\\lambda + 3\\nu - 2$:<br /><br />$-\\lambda + 2(2\\lambda + 3\\nu - 2) + 2\\nu = 1.5$<br /><br />$-\\lambda + 4\\lambda + 6\\nu - 4 + 2\\nu = 1.5$<br /><br />$(3\\lambda + 8\\nu) = 5.5$<br /><br />$3\\lambda + 8\\nu = 5.5$ — (v)<br /><br />Now, (iv): $\\lambda = 1 - \\nu$<br /><br />Plug into (v):<br /><br />$3(1 - \\nu) + 8\\nu = 5.5$<br /><br />$3 - 3\\nu + 8\\nu = 5.5$<br /><br />$3 + 5\\nu = 5.5$<br /><br />$5\\nu = 2.5$<br /><br />$\\nu = 0.5$<br /><br />So $\\lambda = 1 - 0.5 = 0.5$<br /><br />Now, $\\mu = 2\\lambda + 3\\nu - 2 = 1 + 1.5 - 2 = 0.5$<br /><br />(c) $\\vec{a} \\times \\vec{b} = \\vec{P}$, $\\vec{b} \\times \\vec{c} = \\vec{Q}$<br /><br />We already have $\\vec{Q} = 10\\hat{i} + 8\\hat{j} - 11\\hat{k}$ from (a).<br /><br />Compute $\\vec{a} \\times \\vec{b}$:<br /><br />$\\vec{a} = (2,3,-1), \\vec{b} = (-1,4,2)$<br /><br />$\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 3 & -1 \\\\ -1 & 4 & 2 \\end{vmatrix}$<br /><br />$= \\hat{i}(3 \\cdot 2 - (-1) \\cdot 4) - \\hat{j}(2 \\cdot 2 - (-1) \\cdot -1) + \\hat{k}(2 \\cdot 4 - 3 \\cdot -1)$<br /><br />$= \\hat{i}(6 + 4) - \\hat{j}(4 - 1) + \\hat{k}(8 + 3)$<br /><br />$= 10\\hat{i} - 3\\hat{j} + 11\\hat{k}$<br /><br />Now, angle $\\alpha$ between $\\vec{P}$ and $\\vec{Q}$:<br /><br />$\\cos \\alpha = \\frac{\\vec{P} \\cdot \\vec{Q}}{|\\vec{P}|\\,|\\vec{Q}|}$<br /><br />$\\vec{P} = (10, -3, 11)$, $\\vec{Q} = (10,8,-11)$<br /><br />$\\vec{P} \\cdot \\vec{Q} = 10 \\times 10 + (-3) \\times 8 + 11 \\times (-11)$<br /><br />$= 100 - 24 - 121 = -45$<br /><br />$|\\vec{P}| = \\sqrt{10^2 + (-3)^2 + 11^2} = \\sqrt{100 + 9 + 121} = \\sqrt{230}$<br /><br />$|\\vec{Q}| = \\sqrt{10^2 + 8^2 + (-11)^2} = \\sqrt{100 + 64 + 121} = \\sqrt{285}$<br /><br />So $\\cos \\alpha = \\frac{-45}{\\sqrt{230 \\times 285}}$<br /><br />Therefore,<br /><br />$\\alpha = \\cos^{-1}\\left(\\frac{-45}{\\sqrt{230 \\times 285}}\\right)$<br /><br />This is the angle between $\\vec{a} \\times \\vec{b}$ and $\\vec{b} \\times \\vec{c}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Volume $=55$<br />(b) $\\lambda=1,\\mu=1,\\nu=1$<br />(c) $\\alpha=\\cos^{-1}\\left(\\frac{45}{\\sqrt{230\\times285}}\\right)$",
+    "B": "(a) Volume $=55$<br />(b) $\\lambda=\\mu=\\nu=0.5$<br />(c) $\\alpha=\\cos^{-1}\\left(\\frac{-45}{\\sqrt{230\\times285}}\\right)$",
+    "C": "(a) Volume $=110$<br />(b) $\\lambda=\\mu=\\nu=0.5$<br />(c) $\\alpha=\\cos^{-1}\\left(\\frac{-45}{\\sqrt{230\\times285}}\\right)$",
+    "D": "(a) Volume $=55$<br />(b) $\\lambda=\\mu=\\nu=1.5$<br />(c) $\\alpha=\\cos^{-1}\\left(\\frac{-90}{\\sqrt{230\\times285}}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:38:21 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

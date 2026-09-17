@@ -1,0 +1,31 @@
+{
+  "id": "69a9c48a62be6a70cd184e3e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a",
+    "6a13e98f8c819562f933f979",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A company’s production cost $C(x)$ (in Rs.) for $x$ items is $C(x) = x^3 - 12x^2 + 60x + 300$.<br /><br />(a) Find the intervals where $C(x)$ is increasing and decreasing.<br /><br />(b) Find all local minima and maxima points.<br /><br />(c) Confirm nature of critical points using second derivative.",
+  "answeroption": "A",
+  "explanation": "First derivative: $C'(x) = 3x^2 - 24x + 60$.<br /><br />Equation $C'(x)=0$ has imaginary roots, so $C'(x)>0$ always.<br /><br />Thus the cost function is increasing everywhere and has no local maxima or minima.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $C(x)$ is increasing everywhere and decreasing nowhere.<br />(b) There are no local minima or maxima.<br />(c) Since $C'(x)=3x^2-24x+60$ has no real roots and is always positive, there are no critical points to classify.",
+    "B": "(a) $C(x)$ is decreasing everywhere and increasing nowhere.<br />(b) There are no local minima or maxima.<br />(c) Since $C'(x)<0$ for all $x$, the function is always decreasing.",
+    "C": "(a) $C(x)$ is increasing on $(-\\infty,4)$ and decreasing on $(4,\\infty)$.<br />(b) Local maximum occurs at $x=4$.<br />(c) $C''(4)<0$, confirming local maximum.",
+    "D": "(a) $C(x)$ is decreasing on $(-\\infty,4)$ and increasing on $(4,\\infty)$.<br />(b) Local minimum occurs at $x=4$.<br />(c) $C''(4)>0$, confirming local minimum."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:59:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

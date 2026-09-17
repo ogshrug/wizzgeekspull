@@ -1,0 +1,19 @@
+{
+  "id": "6992bd5d65eab9d13e9be0c1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "698eb6089d20b56bde515bb7",
+  "question": "A full-wave bridge rectifier with a capacitor filter is fed by a transformer secondary of $9\\,\\text{V}_{rms}$ at $50\\,\\text{Hz}$. The filter capacitor is $C=1000\\,\\mu\\text{F}$ and each conducting diode drop is $0.70\\,\\text{V}$; two diodes conduct. The load resistance is initially $R_L=1.0\\,\\text{k}\\Omega$ and later changed to $R_L=200\\,\\Omega$.\n\nUse the approximations:</br>\n\n$V_m=V_{rms}\\sqrt{2},\\quad V_p\\approx V_m-1.40,\\quad f_r=2f,$</br>\n\n$\\Delta V_{pp}\\approx \\frac{I_L}{f_r C},\\quad V_{dc}\\approx V_p-\\frac{\\Delta V_{pp}}{2},\\quad I_L\\approx \\frac{V_{dc}}{R_L}$.\n\n(a) For $R_L=1.0\\,\\text{k}\\Omega$, compute $V_{dc}$ and $\\Delta V_{pp}$.</br>\n\n(b) For $R_L=200\\,\\Omega$, compute $V_{dc}$ and $\\Delta V_{pp}$.</br>\n\n(c) A student claims: “Ripple voltage does not depend on load; it depends only on the capacitor.” Evaluate this claim using your results.</br>\n\n(d) Design a new capacitor value $C_{new}$, keeping the same rectifier and transformer, so that at $R_L=200\\,\\Omega$, the ripple peak-to-peak remains equal to the ripple obtained in part (a). Show your reasoning.</br>\n\n(e) Draw the circuit and sketch the capacitor-filtered output waveforms for both loads, clearly indicating how discharge between peaks changes.\n\nPresent the calculated results and conclusions.",
+  "options": {
+    "A": "At $R_L=1\\,\\text{k}\\Omega$: $V_{dc}\\approx 11.27\\,\\text{V}$ and $\\Delta V_{pp}\\approx 0.113\\,\\text{V}$; at $R_L=200\\,\\Omega$: $V_{dc}\\approx 11.05\\,\\text{V}$ and $\\Delta V_{pp}\\approx 0.553\\,\\text{V}$; claim is incorrect because ripple increases with load current; to keep ripple same at $200\\,\\Omega$, need $C_{new}\\approx 5000\\,\\mu\\text{F}$ (about $5\\times$).",
+    "B": "At $R_L=1\\,\\text{k}\\Omega$: $V_{dc}\\approx 9.00\\,\\text{V}$ and $\\Delta V_{pp}\\approx 1.13\\,\\text{V}$; at $R_L=200\\,\\Omega$: $V_{dc}\\approx 9.00\\,\\text{V}$ and $\\Delta V_{pp}\\approx 1.13\\,\\text{V}$; claim is correct; $C_{new}=1000\\,\\mu\\text{F}$ is sufficient.",
+    "C": "At $R_L=1\\,\\text{k}\\Omega$: $V_{dc}\\approx 11.27\\,\\text{V}$ and $\\Delta V_{pp}\\approx 0.113\\,\\text{V}$; at $R_L=200\\,\\Omega$: $V_{dc}\\approx 12.7\\,\\text{V}$ and $\\Delta V_{pp}\\approx 0.113\\,\\text{V}$; claim is correct; $C_{new}$ must be smaller to reduce ripple.",
+    "D": "Ripple depends only on frequency, not on $R_L$; changing $R_L$ changes only $V_{dc}$ but keeps $\\Delta V_{pp}$ same; hence $C_{new}$ is not needed."
+  },
+  "question_type": "LA",
+  "category": "Analysing, Evaluating, Creating",
+  "imageurl": null,
+  "categories": [
+    "Analysing, Evaluating, Creating"
+  ]
+}

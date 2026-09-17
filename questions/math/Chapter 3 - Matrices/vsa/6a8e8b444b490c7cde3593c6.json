@@ -1,0 +1,30 @@
+{
+  "id": "6a8e8b444b490c7cde3593c6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55",
+    "69c65fbf40512f018fa94d50"
+  ],
+  "question_type": "VSA",
+  "question": "Matrix $A$ is of order $2\\times n$ and matrix $B$ is of order $m\\times3$. Determine whether positive integers $m$ and $n$ can be chosen so that both $A+B$ and $AB$ are defined.",
+  "answeroption": "C",
+  "explanation": "Step 1: For the sum $A+B$ to be defined, matrices $A$ and $B$ must have exactly the same order.<br>Step 2: Since $A$ is of order $2\\times n$ and $B$ is of order $m\\times3$, equality of orders requires $m=2$ and $n=3$.<br>Step 3: For the product $AB$ to be defined, the number of columns of $A$ must equal the number of rows of $B$. Hence, we require $n=m$.<br>Step 4: But the addition condition gives $n=3$ and $m=2$, which contradicts $n=m$.<br>Step 5: Therefore, no positive integers $m$ and $n$ can satisfy both conditions simultaneously. Hence, $A+B$ and $AB$ cannot both be defined.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes, for $m=2$ and $n=3$",
+    "B": "Yes, for $m=3$ and $n=2$",
+    "C": "No positive integers $m$ and $n$ satisfy both conditions",
+    "D": "Yes, for $m=n=3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

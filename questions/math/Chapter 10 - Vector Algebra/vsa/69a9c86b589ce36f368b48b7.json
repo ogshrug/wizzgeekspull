@@ -1,0 +1,30 @@
+{
+  "id": "69a9c86b589ce36f368b48b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8c2",
+    "6a13e766d837c8c7efa6b8bc"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\vec{a} = (p \\hat{i} + 2\\hat{j} - 3\\hat{k})$ has the same direction as $\\vec{b} = (6 \\hat{i} + 12 \\hat{j} - 18 \\hat{k})$, but $|\\vec{a}| = 7$, find $p$.",
+  "answeroption": "C",
+  "explanation": "Since $\\vec{a}$ and $\\vec{b}$ have the same direction, they are collinear.<br /><br />So $\\vec{a} = \\lambda \\vec{b}$ giving $p = 6\\lambda$, $2 = 12\\lambda$, $-3 = -18\\lambda$.<br /><br />From $2 = 12\\lambda$, we get $\\lambda = \\frac{1}{6}$ and $p = 1$.<br /><br />But $|\\vec{a}| = \\sqrt{1^2+2^2+(-3)^2} = \\sqrt{14}$.<br /><br />Since the required magnitude is $7$, scale the vector: $\\vec{a} = 7\\hat{u}$ where $\\hat{u}$ is the unit vector along $\\vec{a}$.<br /><br />$\\hat{u} = \\frac{1\\hat{i}+2\\hat{j}-3\\hat{k}}{\\sqrt{14}}$.<br /><br />Thus $p = \\pm \\frac{7}{\\sqrt{14}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$\\pm\\frac{7}{\\sqrt{14}}$",
+    "C": "No value of $p$ satisfies both conditions",
+    "D": "$7$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:16:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

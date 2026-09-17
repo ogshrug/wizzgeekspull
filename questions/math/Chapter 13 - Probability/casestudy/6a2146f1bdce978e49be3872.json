@@ -1,0 +1,31 @@
+{
+  "id": "6a2146f1bdce978e49be3872",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7",
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A survey was conducted to find out the success rate of students who qualified the entrance examination by dropping a year after class XII. As per the data collected, 40% students appearing in the examination were dropouts and the remaining students were regular students of class XII. Of the dropouts, 5% qualify the examination while 10% of the regular students qualify the examination. Based on the above information, answer the following questions.<br /><b>(i)</b> Find the probability that a student selected at random is a regular student.<br /><b>(ii)</b> A student is selected at random from a group of dropout students. What is the probability that the student will not qualify the examination?<br /><b>(iii)(a)</b> A student selected at random qualified the examination. Find the probability that student is not a dropout.<br />OR<br /><b>(iii)(b)</b> A student selected at random did not qualify the examination. Find the probability that the student was a regular student.",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> Define the events clearly. Let $D$ represent the event that a selected student is a dropout, and $R$ represent the event that the student is a regular student. Since a student is either a dropout or regular, these are mutually exclusive and exhaustive events.<br /><br /><b>Step 2</b> Use the given problem statement to find the probability of selecting a regular student. We are given that 40% of students are dropouts, so $P(D) = 0.40$. The probability of a regular student is the complement, so $P(R) = 1 - 0.40 = 0.60$.<br /><br /><b>(ii)</b><br /><br /><b>Step 3</b> Define $Q$ as the event that a student qualifies the examination. We are given the conditional probabilities of qualifying: $P(Q|D) = 0.05$ (5% of dropouts qualify) and $P(Q|R) = 0.10$ (10% of regular students qualify).<br /><br /><b>Step 4</b> We need to find the probability that a dropout does not qualify, which is denoted as $P(Q'|D)$. This is simply the complement of a dropout qualifying. We calculate this as $P(Q'|D) = 1 - P(Q|D) = 1 - 0.05 = 0.95$.<br /><br /><b>(iii)(a)</b><br /><br /><b>Step 5</b> We are asked to find the probability that a student is not a dropout (which means they are regular), given that they have qualified. This is expressed as $P(R|Q)$. To find this reverse conditional probability, we must apply Bayes' Theorem.<br /><br /><b>Step 6</b> Apply Bayes' Theorem formula: $P(R|Q) = \\frac{P(R)P(Q|R)}{P(R)P(Q|R) + P(D)P(Q|D)}$. Calculate the numerator (qualifying regular students): $0.60 \\times 0.10 = 0.06$. Calculate the denominator (total probability of qualifying): $(0.60 \\times 0.10) + (0.40 \\times 0.05) = 0.06 + 0.02 = 0.08$. Finally, divide the two to get $P(R|Q) = \\frac{0.06}{0.08} = \\frac{6}{8} = \\frac{3}{4}$.<br /><br /><b>(iii)(b)</b><br /><br /><b>Step 7</b> We need to find the probability that a student was regular given that they did not qualify, written mathematically as $P(R|Q')$. Since we are finding a reverse conditional probability, we must use Bayes' Theorem.<br /><br /><b>Step 8</b> Apply the formula for Bayes' Theorem adapted for the non-qualifying event: $P(R|Q') = \\frac{P(R)P(Q'|R)}{P(R)P(Q'|R) + P(D)P(Q'|D)}$. Substitute all the known values into the equation: $P(R|Q') = \\frac{0.60 \\times 0.90}{(0.60 \\times 0.90) + (0.40 \\times 0.95)}$. Calculate the products: $\\frac{0.54}{0.54 + 0.38}$. This simplifies to $\\frac{0.54}{0.92}$, which reduces to the exact fraction $\\frac{54}{92} = \\frac{27}{46}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2146f1bdce978e49be3872/1782194373-0.png?t=1782214173671"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

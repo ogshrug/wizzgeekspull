@@ -1,0 +1,28 @@
+{
+  "id": "6a264954864be73cfcf6d311",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c6",
+    "6a13e767d837c8c7efa6b8c7"
+  ],
+  "question_type": "VSA",
+  "question": "In a parallelogram PQRS, $\\vec{PQ}=3\\hat{i}-2\\hat{j}+2\\hat{k}$ and $\\vec{PS}=-\\hat{i}-2\\hat{k}.$ Find $|\\vec{PR}|$ and $|\\vec{QS}|$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** In a parallelogram $PQRS$, the adjacent sides are given by the vectors $\\vec{PQ}$ and $\\vec{PS}$. The diagonals of the parallelogram can be represented in terms of these vectors using vector addition laws. The diagonal $\\vec{PR}$ passes between the adjacent sides and is equal to the vector sum of the sides, so $\\vec{PR} = \\vec{PQ} + \\vec{PS} = (3\\hat{i}-2\\hat{j}+2\\hat{k}) + (-\\hat{i}-2\\hat{k}) = 2\\hat{i} - 2\\hat{j}$.<br />**Step 2:** The other diagonal $\\vec{QS}$ represents the vector difference between the adjacent side vectors. Using triangle law properties, it is given by $\\vec{QS} = \\vec{PS} - \\vec{PQ} = (-\\hat{i}-2\\hat{k}) - (3\\hat{i}-2\\hat{j}+2\\hat{k}) = -4\\hat{i} + 2\\hat{j} - 4\\hat{k}$.<br />**Step 3:** To find the magnitudes, we apply the standard vector magnitude formula $|\\vec{v}| = \\sqrt{x^2+y^2+z^2}$. For $|\\vec{PR}|$, we get $\\sqrt{2^2 + (-2)^2 + 0^2} = \\sqrt{4+4} = \\sqrt{8} = 2\\sqrt{2}$ units. For $|\\vec{QS}|$, we compute $\\sqrt{(-4)^2 + 2^2 + (-4)^2} = \\sqrt{16+4+16} = \\sqrt{36} = 6$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-1",
+    "2022-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

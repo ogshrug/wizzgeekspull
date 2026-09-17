@@ -1,0 +1,32 @@
+{
+  "id": "6a8ef358be0ecc7866e90c16",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Determine the points on the parabola $y^2=4x$ that are nearest to the point $(4,0)$, using derivatives to form and minimise a suitable distance function, and hence obtain the shortest distance.",
+  "answeroption": "C",
+  "explanation": "<b>Formation of Distance Function</b><br>Let $(x,y)$ be a point on the parabola. Since $y^2=4x$,<br>$$x=\\frac{y^2}{4}$$<br>The square of its distance from $(4,0)$ is<br>$$D^2=\\left(\\frac{y^2}{4}-4\\right)^2+y^2$$<br>Let<br>$$F(y)=D^2=\\frac{y^4}{16}-y^2+16$$<br>Minimising $F$ also minimises $D$.<br><br><b>Critical Values</b><br>$$F'(y)=\\frac{y^3}{4}-2y$$<br>$$F'(y)=y\\left(\\frac{y^2}{4}-2\\right)$$<br>Thus,<br>$$y=0\\quad\\text{or}\\quad y=\\pm2\\sqrt{2}$$<br>Also,<br>$$F''(y)=\\frac{3y^2}{4}-2$$<br>At $y=0$, $F''(0)=-2<0$, so this gives a local maximum of $F$. At $y=\\pm2\\sqrt{2}$,<br>$$F''(\\pm2\\sqrt{2})=4>0$$<br>Therefore, these values give the minimum distance.<br><br><b>Final Result</b><br>For $y=\\pm2\\sqrt{2}$,<br>$$x=\\frac{y^2}{4}=2$$<br>Hence, the nearest points are $(2,2\\sqrt{2})$ and $(2,-2\\sqrt{2})$. The shortest distance is<br>$$D=\\sqrt{(2-4)^2+(2\\sqrt{2})^2}$$<br>$$D=\\sqrt{4+8}=2\\sqrt{3}\\ \\text{units}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Nearest point $(0,0)$; shortest distance $4$ units",
+    "B": "Nearest points $(4,\\pm4)$; shortest distance $4$ units",
+    "C": "Nearest points $(2,\\pm2\\sqrt{2})$; shortest distance $2\\sqrt{3}$ units",
+    "D": "Nearest points $(1,\\pm2)$; shortest distance $\\sqrt{13}$ units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

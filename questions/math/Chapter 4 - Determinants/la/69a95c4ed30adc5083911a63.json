@@ -1,0 +1,35 @@
+{
+  "id": "69a95c4ed30adc5083911a63",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d76",
+    "69c6603740512f018fa94d6c",
+    "69c6603740512f018fa94d6d",
+    "69c6603740512f018fa94d6e",
+    "69c6603740512f018fa94d6f",
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "LA",
+  "question": "You are given the following system of equations:<br /><br />$2x + y - z = 3$<br /><br />$x - y + 2z = -1$<br /><br />$3x + 2y + z = 4$<br /><br />(a) Represent the system in matrix form.<br />(b) Using the inverse of the coefficient matrix, solve for $x$, $y$, $z$. Include calculations for minors, cofactors, adjoint, inverse, and all intermediate steps.",
+  "answeroption": "B",
+  "explanation": "Let $A = \\begin{bmatrix} 2 & 1 & -1 \\\\ 1 & -1 & 2 \\\\ 3 & 2 & 1 \\end{bmatrix}$, $X = \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix}$, $B = \\begin{bmatrix}3 \\\\ -1 \\\\ 4 \\end{bmatrix}$.<br /><br />$AX = B$<br /><br />Step 1: $|A| = 2\\begin{vmatrix}-1 & 2 \\\\ 2 & 1\\end{vmatrix} - 1\\begin{vmatrix}1 & 2 \\\\ 3 & 1\\end{vmatrix} + (-1)\\begin{vmatrix}1 & -1 \\\\ 3 & 2\\end{vmatrix}$<br /><br />$= 2((-1)(1) - (2)(2)) - ((1)(1)-(2)(3)) - (1)((1)(2)-(-1)(3))$<br /><br />$= 2(-1-4) - (1-6) - (1)(2+3)$<br /><br />$= 2(-5) - (-5) - 5$<br /><br />$= -10 + 5 - 5 = -10$<br /><br />$|A| = -10 \\neq 0$; unique solution exists.<br /><br />Step 2: Find minors and cofactors.<br /><br />Row 1:<br />$M_{11} = \\begin{vmatrix}-1 & 2 \\\\ 2 & 1\\end{vmatrix} = -1-4 = -5$, $C_{11} = -5$<br />$M_{12} = \\begin{vmatrix}1 & 2 \\\\ 3 & 1\\end{vmatrix} = 1-6=-5$, $C_{12} = +5$<br />$M_{13} = \\begin{vmatrix}1 & -1 \\\\ 3 & 2\\end{vmatrix} = 2+3=5$, $C_{13} = +5$<br /><br />Row 2:<br />$M_{21} = \\begin{vmatrix}1 & -1 \\\\ 2 & 1\\end{vmatrix} = 1+2=3$, $C_{21} = -3$<br />$M_{22} = \\begin{vmatrix}2 & -1 \\\\ 3 & 1\\end{vmatrix} = 2-(-3)=5$, $C_{22}=5$<br />$M_{23} = \\begin{vmatrix}2 & 1 \\\\ 3 & 2\\end{vmatrix} = 4-3=1$, $C_{23} = -1$<br /><br />Row 3:<br />$M_{31} = \\begin{vmatrix}1 & -1 \\\\ -1 & 2\\end{vmatrix}=2-1=1$, $C_{31} = +1$<br />$M_{32}=\\begin{vmatrix}2 & -1 \\\\ 1 & 2\\end{vmatrix}=4+1=5$, $C_{32}=-5$<br />$M_{33}=\\begin{vmatrix}2 & 1 \\\\ 1 & -1\\end{vmatrix}=-2-1=-3$, $C_{33}=-3$<br /><br />Cofactor matrix:<br />$\\begin{bmatrix} -5 & 5 & 5 \\\\ -3 & 5 & -1 \\\\ 1 & -5 & -3 \\end{bmatrix}$<br /><br />adj $A = $ transpose of cofactor matrix:<br />$\\begin{bmatrix} -5 & -3 & 1 \\\\ 5 & 5 & -5 \\\\ 5 & -1 & -3 \\end{bmatrix}$<br /><br />$A^{-1} = \\frac{1}{|A|}\\text{adj }A = -\\frac{1}{10}\\begin{bmatrix}-5 & -3 & 1 \\\\ 5 & 5 & -5 \\\\ 5 & -1 & -3 \\end{bmatrix}$<br /><br />Step 3: $X = A^{-1}B$:<br /><br />$A^{-1}B = -\\frac{1}{10} \\begin{bmatrix}-5 & -3 & 1 \\\\ 5 & 5 & -5 \\\\ 5 & -1 & -3 \\end{bmatrix}\\begin{bmatrix}3 \\\\ -1 \\\\ 4 \\end{bmatrix}$<br /><br />Row 1: $-5*3 + (-3)*(-1) + 1*4 = -15 + 3 + 4 = -8$<br />Row 2: $5*3 + 5*(-1) + (-5)*4 = 15 - 5 - 20 = -10$<br />Row 3: $5*3 + (-1)*(-1) + (-3)*4 = 15 + 1 - 12 = 4$<br /><br />So vector: $\\begin{bmatrix}-8 \\\\ -10 \\\\ 4\\end{bmatrix}$<br /><br />Multiply by $-\\frac{1}{10}$ to get:<br /><br />$x = \\frac{8}{10} = 0.8$<br />$y = 1$<br />$z = -0.4$<br /><br />Final solution: $x = 0.8,\\ y = 1,\\ z = -0.4$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $AX=B$, where $A=\\begin{bmatrix}2&1&-1\\\\1&-1&2\\\\3&2&1\\end{bmatrix}$, $X=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}$, $B=\\begin{bmatrix}3\\\\-1\\\\4\\end{bmatrix}$.<br />(b) $|A|=0$, so the inverse does not exist and the system has no unique solution.",
+    "B": "(a) $AX=B$, where $A=\\begin{bmatrix}2&1&-1\\\\1&-1&2\\\\3&2&1\\end{bmatrix}$, $X=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}$, $B=\\begin{bmatrix}3\\\\-1\\\\4\\end{bmatrix}$.<br />(b) $|A|=-10\\ne0$, so $A^{-1}$ exists and the solution is $x=0.8,\\ y=1,\\ z=-0.4$.",
+    "C": "(a) $AX=B$, where $A=\\begin{bmatrix}2&1&-1\\\\1&-1&2\\\\3&2&1\\end{bmatrix}$, $X=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}$, $B=\\begin{bmatrix}3\\\\-1\\\\4\\end{bmatrix}$.<br />(b) $|A|=10\\ne0$, so $A^{-1}$ exists and the solution is $x=-0.8,\\ y=-1,\\ z=0.4$.",
+    "D": "(a) $AX=B$, where $A=\\begin{bmatrix}3&-1&4\\\\2&1&-1\\\\1&-1&2\\end{bmatrix}$, $X=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}$, $B=\\begin{bmatrix}2\\\\1\\\\3\\end{bmatrix}$.<br />(b) $|A|=-10\\ne0$, so the solution is $x=1,\\ y=0.8,\\ z=-0.4$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:34:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

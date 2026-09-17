@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8c142e54880055a0a65d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "VSA",
+  "question": "Given that $\\begin{vmatrix}a&b&c\\\\p&q&r\\\\x&y&z\\end{vmatrix}=6$, find $\\begin{vmatrix}a&b&c\\\\3p&3q&3r\\\\x&y&z\\end{vmatrix}$ without expansion.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Observe the change</b><br>The second row of the original determinant has been multiplied by $3$, while the other rows remain unchanged.<br><b>Step 2: Use the relevant property</b><br>If every element of one row of a determinant is multiplied by a number $k$, the value of the determinant is also multiplied by $k$.<br><b>Step 3: Apply the property</b><br>Thus, $$\\begin{vmatrix}a&b&c\\\\3p&3q&3r\\\\x&y&z\\end{vmatrix}=3\\begin{vmatrix}a&b&c\\\\p&q&r\\\\x&y&z\\end{vmatrix}$$<br><b>Step 4: Substitute the value</b><br>Therefore, the required determinant is $3(6)=18$. Hence, its value is $18$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2$",
+    "B": "$6$",
+    "C": "$18$",
+    "D": "$54$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

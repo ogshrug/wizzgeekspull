@@ -1,0 +1,26 @@
+{
+  "id": "6a339ae9d5dca7dcb0bf0f24",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "VSA",
+  "question": "If $y=\\sqrt{\\cos x+y}$, prove that $\\frac{dy}{dx}=\\frac{\\sin x}{1-2y}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Square both sides of the equation to remove the square root: $y^2 = \\cos x + y$.\n\n**Step 2:** Differentiate both sides with respect to $x$: $\\frac{d}{dx}(y^2) = \\frac{d}{dx}(\\cos x + y)$.\n\n**Step 3:** Apply the chain rule: $2y\\frac{dy}{dx} = -\\sin x + \\frac{dy}{dx}$.\n\n**Step 4:** Isolate the terms containing $\\frac{dy}{dx}$: $2y\\frac{dy}{dx} - \\frac{dy}{dx} = -\\sin x \\Rightarrow \\frac{dy}{dx}(2y - 1) = -\\sin x$.\n\n**Step 5:** Solve for $\\frac{dy}{dx}$: $\\frac{dy}{dx} = \\frac{-\\sin x}{2y - 1} = \\frac{\\sin x}{1 - 2y}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

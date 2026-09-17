@@ -1,0 +1,26 @@
+{
+  "id": "6a2166ff91ff8b4d456109aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following Linear Programming Problem graphically: Maximise $Z=200x+120y$ subject to the constraints $x+y\\le300$, $3x+y\\le600$, $x-y\\ge-100$, x, $y\\ge0$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Find the axis intercepts for each constraint line to graph them. For $x+y = 300$, the line passes through $(300, 0)$ and $(0, 300)$. For $3x+y = 600$, the line passes through $(200, 0)$ and $(0, 600)$. For $x-y = -100$, the line passes through $(0, 100)$ and $(-100, 0)$. Plotting these lines along with $x, y \\ge 0$ outlines a bounded feasible region in the first quadrant.<br /><br /><b>Step 2</b> Determine the corner points of this feasible region by finding where the boundary lines intersect. The origin is $(0, 0)$. The intersection of the $y$-axis with $x-y = -100$ gives the point $(0, 100)$. The intersection of the $x$-axis with $3x+y = 600$ gives the point $(200, 0)$.<br /><br /><b>Step 3</b> Find the interior corner points by solving the simultaneous line equations. Solving $x-y = -100$ and $x+y = 300$ together: adding them gives $2x = 200 \\implies x = 100$, which gives $y = 200$. This identifies the corner point $(100, 200)$.<br /><br /><b>Step 4</b> Find the final intersection point by solving $3x+y = 600$ and $x+y = 300$ together: subtracting the second equation from the first gives $2x = 300 \\implies x = 150$, which gives $y = 150$. This identifies the corner point $(150, 150)$. The complete set of corner points is: $(0,0), (200,0), (150,150), (100,200), (0,100)$.<br /><br /><b>Step 5</b> Evaluate the objective function $Z = 200x + 120y$ at each corner point: \\\\ At $(0,0): Z = 0$ \\\\ At $(200,0): Z = 200(200) + 0 = 40000$ \\\\ At $(150,150): Z = 200(150) + 120(150) = 48000$ \\\\ At $(100,200): Z = 200(100) + 120(200) = 44000$ \\\\ At $(0,100): Z = 120(100) = 12000$. \\\\ Comparing these values shows that the maximum value of $Z$ is $48000$, which occurs at $(150, 150)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "69a837b3b4df445c7f648c50",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "VSA",
+  "question": "Calculate the area bounded by $y = \\cos x$, the x-axis, from $x = 0$ to $x = \\pi$.",
+  "answeroption": "D",
+  "explanation": "Split at $\\frac{\\pi}{2}$ since cosine changes sign.<br /><br />Area $=\\int_{0}^{\\pi/2}\\cos x dx + |\\int_{\\pi/2}^{\\pi}\\cos x dx|$.<br /><br />First part = 1, second part = 1.<br /><br />Total area $=2$ square units.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69a837b3b4df445c7f648c50/1778581879-0.jpg?t=1778581879288"
+  ],
+  "options": {
+    "A": "$0$ square units",
+    "B": "$1$ square unit",
+    "C": "$4$ square units",
+    "D": "$2$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 13:46:27 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:30:50 GMT"
+}

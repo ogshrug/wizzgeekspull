@@ -1,0 +1,31 @@
+{
+  "id": "6a32388ed5dca7dcb0bf0e83",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "MCQ",
+  "question": "If $y=\\log(\\sin e^x)$, then $\\frac{dy}{dx}$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Differentiate the outer logarithmic function directly using the standard formula for logarithms, resulting in $\\frac{1}{\\sin(e^x)}$.\n\n**Step 2:** Apply the fundamental chain rule rigorously by multiplying by the derivative of the inner sine function, which mathematically yields $\\cos(e^x)$.\n\n**Step 3:** Apply the chain rule one final time specifically for the innermost exponential term $e^x$, actively multiplying the entire expression by $e^x$.\n\n**Step 4:** Combine all these derived components mathematically to accurately formulate the final derivative: $e^x \\frac{\\cos(e^x)}{\\sin(e^x)}$, which effectively simplifies directly to $e^x \\cot(e^x)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\cot e^x$",
+    "B": "$\\csc e^x$",
+    "C": "$e^x \\cot e^x$",
+    "D": "$e^x \\csc e^x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

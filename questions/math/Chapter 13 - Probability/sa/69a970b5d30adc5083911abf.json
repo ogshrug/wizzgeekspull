@@ -1,0 +1,30 @@
+{
+  "id": "69a970b5d30adc5083911abf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "SA",
+  "question": "A die is thrown three times. Find the probability that a number greater than 4 comes up at least once.",
+  "answeroption": "D",
+  "explanation": "Numbers greater than 4: 5,6 → probability per throw: $2/6=1/3$<br />Let $A$: at least once greater than 4 in 3 throws.<br /><br />Probability none: all not greater than 4 → $4/6 = 2/3$ per throw<br />So all throws not greater than 4: $(2/3)^3 = 8/27$<br />So, at least once: $1 - 8/27 = 19/27$<br /><br />Final answer: $\\boxed{\\dfrac{19}{27}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{8}{27}$",
+    "B": "$\\frac{1}{3}$",
+    "C": "$\\frac{2}{3}$",
+    "D": "$\\frac{19}{27}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:01:57 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e97594b490c7cde359407",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "SA",
+  "question": "For $A=\\begin{bmatrix}2&1\\\\5&3\\end{bmatrix}$, calculate $A^{-1}$. Hence, find the matrix $X$ satisfying $AX=\\begin{bmatrix}4\\\\11\\end{bmatrix}$.",
+  "answeroption": "A",
+  "explanation": "<b>Determinant of $A$</b><br>$$|A|=(2)(3)-(1)(5)=1$$ Since $|A|\\ne0$, the inverse exists.<br><b>Calculation of the inverse</b><br>The adjoint is $$\\operatorname{adj}A=\\begin{bmatrix}3&-1\\\\-5&2\\end{bmatrix}$$ Therefore, $$A^{-1}=\\begin{bmatrix}3&-1\\\\-5&2\\end{bmatrix}$$<br><b>Solution of the matrix equation</b><br>From $AX=B$, $$X=A^{-1}B$$ Thus, $$X=\\begin{bmatrix}3&-1\\\\-5&2\\end{bmatrix}\\begin{bmatrix}4\\\\11\\end{bmatrix}=\\begin{bmatrix}12-11\\\\-20+22\\end{bmatrix}$$<br><b>Required matrix</b><br>Hence, $$X=\\begin{bmatrix}1\\\\2\\end{bmatrix}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$A^{-1}=\\begin{bmatrix}3&-1\\\\-5&2\\end{bmatrix}$ and $X=\\begin{bmatrix}1\\\\2\\end{bmatrix}$",
+    "B": "$A^{-1}=\\begin{bmatrix}3&1\\\\5&2\\end{bmatrix}$ and $X=\\begin{bmatrix}23\\\\42\\end{bmatrix}$",
+    "C": "$A^{-1}=\\begin{bmatrix}2&-1\\\\-5&3\\end{bmatrix}$ and $X=\\begin{bmatrix}-3\\\\13\\end{bmatrix}$",
+    "D": "$A^{-1}=\\begin{bmatrix}3&-5\\\\-1&2\\end{bmatrix}$ and $X=\\begin{bmatrix}-43\\\\18\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

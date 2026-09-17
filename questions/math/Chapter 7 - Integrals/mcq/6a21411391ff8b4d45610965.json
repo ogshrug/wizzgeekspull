@@ -1,0 +1,33 @@
+{
+  "id": "6a21411391ff8b4d45610965",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int_{-1}^{1}(1-|x|)dx$ is equal to :",
+  "answeroption": "B",
+  "explanation": "<b>Step 1</b> Analyze the integrand $f(x)=1-|x|$. Since $f(-x)=f(x)$, it is an even function.<br /><br /><b>Step 2</b> Therefore, $\\int_{-1}^{1}f(x)dx=2\\int_{0}^{1}(1-x)dx$.<br /><br /><b>Step 3</b> Using the substitution $x=-t$, we get $2\\int_{0}^{1}(1-x)dx=2\\int_{-1}^{0}(1+t)dt$. Hence the correct option is (B).",
+  "explanation_image": [],
+  "options": {
+    "A": "$2\\int_{0}^{1}(1+x)dx$",
+    "B": "$2\\int_{-1}^{0}(1+x)dx$",
+    "C": "0",
+    "D": "$2\\int_{-1}^{0}(1-x)dx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

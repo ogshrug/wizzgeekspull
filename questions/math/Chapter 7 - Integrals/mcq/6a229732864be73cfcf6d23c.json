@@ -1,0 +1,31 @@
+{
+  "id": "6a229732864be73cfcf6d23c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int_{0}^{\\pi/2}\\frac{sin~x-cos~x}{1+sin~x~cos~x}dx$ is equal to:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Let the given definite integral be $I = \\int_{0}^{\\pi/2}\\frac{\\sin x-\\cos x}{1+\\sin x\\cos x}dx$. This is equation (1).<br />**Step 2:** Apply the fundamental definite integral property: $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$. Here, $a = \\pi/2$. We substitute $x$ with $(\\pi/2 - x)$.<br />**Step 3:** The integral becomes $I = \\int_{0}^{\\pi/2}\\frac{\\sin(\\pi/2 - x)-\\cos(\\pi/2 - x)}{1+\\sin(\\pi/2 - x)\\cos(\\pi/2 - x)}dx$.<br />**Step 4:** Using trigonometric identities $\\sin(\\pi/2 - x) = \\cos x$ and $\\cos(\\pi/2 - x) = \\sin x$, we get $I = \\int_{0}^{\\pi/2}\\frac{\\cos x-\\sin x}{1+\\cos x\\sin x}dx$. Notice the numerator is the exact negative of the original numerator. We can write this as $I = -\\int_{0}^{\\pi/2}\\frac{\\sin x-\\cos x}{1+\\sin x\\cos x}dx$. This is equation (2).<br />**Step 5:** From equations (1) and (2), we see that $I = -I$. This implies $2I = 0$, which gives $I = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\pi$",
+    "B": "Zero (0)",
+    "C": "$\\int_{0}^{\\pi/2}\\frac{2~sin~x}{1+sin~x~cos~x}dx$",
+    "D": "$\\frac{\\pi^{2}}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

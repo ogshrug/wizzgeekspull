@@ -1,0 +1,34 @@
+{
+  "id": "6a215f62864be73cfcf6d11f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "MCQ",
+  "question": "If A is a non-singular matrix, then which of the following is not true?",
+  "answeroption": "A",
+  "explanation": "**Step 1:** A non-singular matrix A implies $|A| \\neq 0$. Thus option (C) and (D) are true.<br />**Step 2:** Option (B) $(adj A)^{-1} = (adj A^{-1})$ is a standard property of non-singular matrices.<br />**Step 3:** For option (A), the determinant of adj A is given by $|adj A| = |A|^{n-1}$. Since $|A| \\neq 0$, $|adj A| \\neq 0$. Thus, adj A is also non-singular. Therefore, the statement \"adj A is singular\" is false.",
+  "explanation_image": [],
+  "options": {
+    "A": "adj A is singular",
+    "B": "$(adj A)^{-1} = (adj A^{-1})$",
+    "C": "$|A| \\neq 0$",
+    "D": "$A^{-1} \\text{ exists}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

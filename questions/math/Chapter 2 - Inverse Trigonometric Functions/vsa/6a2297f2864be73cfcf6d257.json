@@ -1,0 +1,28 @@
+{
+  "id": "6a2297f2864be73cfcf6d257",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "Find the domain of the function $f(x)=sin^{-1}(x^{2}-4)$. Also, find its range.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The fundamental mathematical domain of the standard inverse sine function, $y = \\sin^{-1}(z)$, is rigorously defined to be all real numbers such that $-1 \\le z \\le 1$. Therefore, for our specific composite function $f(x) = \\sin^{-1}(x^2 - 4)$ to be mathematically defined and yield real values, its internal argument must strictly satisfy this very condition.<br />**Step 2:** We set up the required double inequality using the argument: $-1 \\le x^2 - 4 \\le 1$. To isolate the variable term, we add 4 to all parts of the inequality simultaneously. This algebraic operation results in $3 \\le x^2 \\le 5$.<br />**Step 3:** This double inequality logically translates into two distinct but simultaneous mathematical conditions: $x^2 \\ge 3$ AND $x^2 \\le 5$. Solving $x^2 \\ge 3$ implies that $x$ must lie outside the interval $(-\\sqrt{3}, \\sqrt{3})$, which means $x \\le -\\sqrt{3}$ or $x \\ge \\sqrt{3}$. Solving $x^2 \\le 5$ implies that $x$ must lie strictly within the closed interval $[-\\sqrt{5}, \\sqrt{5}]$.<br />**Step 4:** The final domain is the strict mathematical intersection of these two condition sets. Taking the intersection yields the union of two separate closed intervals: $x \\in [-\\sqrt{5}, -\\sqrt{3}] \\cup [\\sqrt{3}, \\sqrt{5}]$. This constitutes the complete and precise domain of the function.<br />**Step 5:** Now, we must ascertain the function's range. We established that the domain dictates that the internal argument $(x^2 - 4)$ smoothly covers every possible real value continuously from $-1$ to $1$ inclusive. Because the core function $\\sin^{-1}(z)$ maps the entire continuous interval $[-1, 1]$ directly and monotonically onto its corresponding principal value branch, the range of our composite function is exactly the same standard principal range. Therefore, the range is definitively $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

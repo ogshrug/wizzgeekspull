@@ -1,0 +1,29 @@
+{
+  "id": "6a902b10be0ecc7866e90cc7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "SA",
+  "question": "A random variable $X$ has the following probability distribution:<br>$X:-2,-1,0,1,2$<br>$P(X):k,k,2k,3k,3k$.<br>(i) Find $k$.<br>(ii) Hence find $P(X\\leq0)$ and $P(|X|>1)$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Probability distribution condition</b><br>The sum of the probabilities corresponding to all possible values of $X$ must be equal to $1$. Therefore, $$k+k+2k+3k+3k=1.$$<br><b>Step 2: Determination of $k$</b><br>$$10k=1\\quad\\Rightarrow\\quad k=\\frac1{10}.$$<br><b>Step 3: Calculation of $P(X\\leq0)$</b><br>The values satisfying $X\\leq0$ are $-2,-1$ and $0$. Hence, $$P(X\\leq0)=k+k+2k=4k=\\frac25.$$<br><b>Step 4: Calculation of $P(|X|>1)$</b><br>The condition $|X|>1$ is satisfied for $X=-2$ and $X=2$. Therefore, $$P(|X|>1)=k+3k=4k=\\frac25.$$<br><b>Step 5: Conclusion</b><br>Thus, $$\\boxed{k=\\frac1{10},\\quad P(X\\leq0)=\\frac25,\\quad P(|X|>1)=\\frac25}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $k=\\frac{1}{10}$<br>(ii) $P(X\\leq0)=\\frac{2}{5},\\ P(|X|>1)=\\frac{2}{5}$",
+    "B": "(i) $k=\\frac{1}{9}$<br>(ii) $P(X\\leq0)=\\frac{4}{9},\\ P(|X|>1)=\\frac{4}{9}$",
+    "C": "(i) $k=\\frac{1}{10}$<br>(ii) $P(X\\leq0)=\\frac{3}{5},\\ P(|X|>1)=\\frac{2}{5}$",
+    "D": "(i) $k=\\frac{1}{10}$<br>(ii) $P(X\\leq0)=\\frac{2}{5},\\ P(|X|>1)=\\frac{3}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a21423091ff8b4d4561097e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "SA",
+  "question": "A survey was conducted on the patients who have undergone knee replacement surgeries. It was found that, Robotic Knee replacement surgeries have 90% success rate. On a particular day, robotic surgery was performed on three patients, A, B and C, one after the other. Assuming that the success and failure of each surgery is independent of each other, find the probability that :<br />(i) exactly one surgery is successful,<br />(ii) at most two surgeries are successful.",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> Identify the parameters for the binomial probability distribution. Let a successful surgery be a \"success\". The probability of success for a single trial is $p = 90\\% = 0.9$. The probability of failure is $q = 1 - 0.9 = 0.1$. The number of independent trials (patients) is $n = 3$.<br /><br /><b>Step 2</b> State the formula for the binomial probability mass function: $P(X=k) = \\binom{n}{k} p^k q^{n-k}$, where $X$ is the random variable representing the number of successful surgeries.<br /><br /><b>Step 3</b> To find the probability of exactly one successful surgery, evaluate the formula at $k=1$. Substitute the parameters to get $P(X=1) = \\binom{3}{1} (0.9)^1 (0.1)^2$. This equals $3 \\times 0.9 \\times 0.01 = 0.027$.<br /><br /><b>(ii)</b><br /><br /><b>Step 4</b> To determine the probability of \"at most two\" successful surgeries, we want $P(X \\le 2)$. This can be calculated directly by adding $P(X=0) + P(X=1) + P(X=2)$, but it is computationally simpler to use the complement rule: $P(X \\le 2) = 1 - P(X=3)$.<br /><br /><b>Step 5</b> Calculate the probability of exactly three successes. Substituting $k=3$ into the binomial formula yields $P(X=3) = \\binom{3}{3} (0.9)^3 (0.1)^0 = 1 \\times 0.729 \\times 1 = 0.729$. Using the complement rule, $P(X \\le 2) = 1 - 0.729 = 0.271$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a21423091ff8b4d4561097e/1782194251-0.png?t=1782214052021"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

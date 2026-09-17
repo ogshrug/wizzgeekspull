@@ -1,0 +1,30 @@
+{
+  "id": "69a86ca964fcf4cdd5b4bafd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "LA",
+  "question": "Let $y = \\sin\\left(n \\sin^{-1} x\\right),\\ n \\in \\mathbb{N}$. For $|x| < 1$, $\\dfrac{d^2y}{dx^2} + n^2y = $ ?",
+  "answeroption": "C",
+  "explanation": "Let $y = \\sin(n \\sin^{-1} x)$<br /><br />Let $\\theta = \\sin^{-1} x$, so $y = \\sin(n \\theta)$<br /><br />$\\dfrac{dy}{dx} = n \\cos(n\\theta)\\cdot \\dfrac{1}{\\sqrt{1-x^2}}$<br /><br />$\\dfrac{d^2y}{dx^2} = n \\dfrac{d}{dx}\\left(\\dfrac{\\cos(n\\theta)}{\\sqrt{1-x^2}}\\right)$<br /><br />$= n\\left( -n\\sin(n\\theta) \\cdot \\dfrac{1}{1-x^2} + \\cos(n\\theta) \\cdot \\dfrac{x}{(1-x^2)^{3/2}} \\right )$<br /><br />$= -n^2 \\sin (n\\sin^{-1} x) \\cdot \\dfrac{1}{1-x^2} + n \\cos(n\\sin^{-1}x) \\dfrac{x}{(1-x^2)^{3/2}}$<br /><br />Thus,<br /><br />$\\dfrac{d^2y}{dx^2} + n^2y = n \\cos(n \\sin^{-1} x) \\dfrac{x}{(1-x^2)^{3/2}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$n(x^2-1)\\sin(n\\sin^{-1}x)$",
+    "C": "$\\dfrac{n x \\cos(n\\sin^{-1}x)}{(1-x^2)^{3/2}}$",
+    "D": "$n^2\\sin(n\\sin^{-1}x)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:32:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

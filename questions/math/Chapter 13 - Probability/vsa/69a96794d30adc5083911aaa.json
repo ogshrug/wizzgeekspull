@@ -1,0 +1,30 @@
+{
+  "id": "69a96794d30adc5083911aaa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "VSA",
+  "question": "A die is thrown four times. What is the probability that:<br />(a) The number 6 appears at least once.<br />(b) The number 6 appears exactly twice.<br />(c) The number 6 appears in at least three throws, given that it appeared at least once.",
+  "answeroption": "A",
+  "explanation": "(a) At least once: Use complement.<br /><br />P(no six in 4 throws): $\\left(\\frac{5}{6}\\right)^4 = \\frac{625}{1296}$.<br /><br />So, $P(\\text{at least one 6}) = 1 - \\frac{625}{1296} = \\frac{671}{1296}$.<br /><br />(b) Exactly two sixes:<br /><br />Number of ways = $\\binom{4}{2} = 6$.<br /><br />Probability for each: $\\left(\\frac{1}{6}\\right)^2 \\times \\left(\\frac{5}{6}\\right)^2 = \\frac{1}{36} \\times \\frac{25}{36} = \\frac{25}{1296}$.<br /><br />Total probability: $6 \\times \\frac{25}{1296} = \\frac{150}{1296} = \\frac{25}{216}$.<br /><br />(c) At least three sixes, given appears at least once:<br /><br />Probability at least three sixes: (either 3 or 4).<br /><br />Three sixes: $\\binom{4}{3}=4$.<br /><br />$4 \\times \\left(\\frac{1}{6}\\right)^3 \\times \\left(\\frac{5}{6}\\right)^1 = 4 \\times \\frac{1}{216} \\times \\frac{5}{6} = 4 \\times \\frac{5}{1296} = \\frac{20}{1296}$.<br /><br />Four sixes: $\\left(\\frac{1}{6}\\right)^4 = \\frac{1}{1296}$.<br /><br />Add: $\\frac{20+1}{1296} = \\frac{21}{1296}$.<br /><br />Now, given at least once: conditional probability:<br /><br />$P = \\frac{21/1296}{671/1296} = \\frac{21}{671}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{671}{1296}$<br />(b) $\\frac{25}{216}$<br />(c) $\\frac{21}{671}$",
+    "B": "(a) $\\frac{625}{1296}$<br />(b) $\\frac{25}{216}$<br />(c) $\\frac{21}{671}$",
+    "C": "(a) $\\frac{671}{1296}$<br />(b) $\\frac{25}{1296}$<br />(c) $\\frac{21}{1296}$",
+    "D": "(a) $\\frac{671}{1296}$<br />(b) $\\frac{150}{216}$<br />(c) $\\frac{671}{21}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:23:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

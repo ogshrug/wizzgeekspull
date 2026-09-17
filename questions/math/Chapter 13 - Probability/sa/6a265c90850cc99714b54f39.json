@@ -1,0 +1,29 @@
+{
+  "id": "6a265c90850cc99714b54f39",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "SA",
+  "question": "A biased die is twice as likely to show an even number as an odd number. If such a die is thrown twice, find the probability distribution of the number of sixes. Also, find the mean of the distribution.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $P(\\text{odd}) = p \\implies P(\\text{even}) = 2p$. Sum matches $3p + 3(2p) = 1 \\implies 9p = 1 \\implies p = \\frac{1}{9}$. Probability of rolling a six (even) matches $P(6) = \\frac{2}{9}$, so $q = \\frac{7}{9}$.<br />**Step 2:** Let $X$ represent counting sixes across two throws: $P(X=0) = (\\frac{7}{9})^2 = \\frac{49}{81}$, $P(X=1) = 2(\\frac{2}{9})(\\frac{7}{9}) = \\frac{28}{81}$, and $P(X=2) = (\\frac{2}{9})^2 = \\frac{4}{81}$.<br />**Step 3:** Compute mean tracking expectation: $\\mu = 0(\\frac{49}{81}) + 1(\\frac{28}{81}) + 2(\\frac{4}{81}) = \\frac{36}{81} = \\frac{4}{9}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

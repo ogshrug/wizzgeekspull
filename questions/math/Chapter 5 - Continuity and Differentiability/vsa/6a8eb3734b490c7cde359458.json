@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb3734b490c7cde359458",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7c"
+  ],
+  "question_type": "VSA",
+  "question": "If $y=\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ and $0<x<1$, find $\\frac{dy}{dx}$ at $x=\\frac{1}{2}$.",
+  "answeroption": "B",
+  "explanation": "Step 1: Put $u=\\frac{2x}{1+x^2}$. Then $y=\\sin^{-1}u$ and $\\frac{dy}{dx}=\\frac{u'}{\\sqrt{1-u^2}}$.<br>Step 2: By the quotient rule, $u'=\\frac{2(1-x^2)}{(1+x^2)^2}$.<br>Step 3: Also, $1-u^2=1-\\frac{4x^2}{(1+x^2)^2}=\\frac{(1-x^2)^2}{(1+x^2)^2}$. Since $0<x<1$, $\\sqrt{1-u^2}=\\frac{1-x^2}{1+x^2}$.<br>Step 4: Hence, $\\frac{dy}{dx}=\\frac{2}{1+x^2}$.<br>Step 5: At $x=\\frac{1}{2}$, $\\frac{dy}{dx}=\\frac{2}{1+\\frac{1}{4}}=\\frac{2}{\\frac{5}{4}}=\\boxed{\\frac{8}{5}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{4}{5}$",
+    "B": "$\\frac{8}{5}$",
+    "C": "$\\frac{5}{8}$",
+    "D": "$\\frac{5}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

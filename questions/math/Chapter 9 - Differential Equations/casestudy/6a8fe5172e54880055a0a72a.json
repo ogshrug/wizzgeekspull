@@ -1,0 +1,30 @@
+{
+  "id": "6a8fe5172e54880055a0a72a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "While checking a set of differential equations, a student notices that the largest numerical exponent appearing on any derivative does not always determine the degree. The equations under examination are $P:\\frac{d^3y}{dx^3}+\\left(\\frac{d^2y}{dx^2}\\right)^5+y=0$, $Q:\\left(\\frac{d^3y}{dx^3}\\right)^2+\\left(\\frac{dy}{dx}\\right)^7+y=0$, and $R:\\cos\\left(\\frac{d^2y}{dx^2}\\right)+\\frac{dy}{dx}=0$. The student must first locate the derivative having the highest order and then examine its power, provided the equation is polynomial in all its derivatives. The three equations are used to test this distinction carefully.<br><br><b>(a)</b> Determine the order of $P$.<br><br><b>(b)</b> Determine the degree of $P$ and explain why it is not $5$.<br><br><b>(c)</b> Find the order and degree of $Q$.<br><br><b>(d)</b> Determine the order of $R$ and justify whether its degree is defined.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>In $P$, the derivatives present are $\\frac{d^3y}{dx^3}$ and $\\frac{d^2y}{dx^2}$.<br><br>The highest-order derivative is $\\frac{d^3y}{dx^3}$. Therefore, the order of $P$ is $3$.<br><br><b>(b)</b><br>The equation $P$ is polynomial in its derivatives. Its highest-order derivative is $\\frac{d^3y}{dx^3}$, and this derivative has power $1$.<br><br>Therefore, the degree of $P$ is $1$.<br><br>The power $5$ belongs to the lower-order derivative $\\frac{d^2y}{dx^2}$, so it does not determine the degree.<br><br><b>(c)</b><br>In $Q$, the highest-order derivative is $\\frac{d^3y}{dx^3}$, so the order is $3$.<br><br>The equation is polynomial in its derivatives, and the highest-order derivative occurs as $\\left(\\frac{d^3y}{dx^3}\\right)^2$. Hence, the degree is $2$.<br><br>Thus, order $=3$ and degree $=2$.<br><br><b>(d)</b><br>In $R$, the highest-order derivative present is $\\frac{d^2y}{dx^2}$. Therefore, its order is $2$.<br><br>However, $\\frac{d^2y}{dx^2}$ occurs inside the cosine function. Hence $R$ is not polynomial in its derivatives. Therefore, the degree of $R$ is not defined.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Order of $P=5$<br>(b) Degree of $P=3$<br>(c) For $Q$, order $=7$ and degree $=2$<br>(d) For $R$, order $=2$ and degree $=1$",
+    "B": "(a) Order of $P=3$<br>(b) Degree of $P=1$ because the highest-order derivative has power $1$<br>(c) For $Q$, order $=3$ and degree $=2$<br>(d) For $R$, order $=2$ and degree is not defined because the equation is not polynomial in its derivatives",
+    "C": "(a) Order of $P=3$<br>(b) Degree of $P=5$ because the largest exponent on a derivative is $5$<br>(c) For $Q$, order $=3$ and degree $=7$<br>(d) For $R$, order $=2$ and degree $=2$",
+    "D": "(a) Order of $P=2$<br>(b) Degree of $P=5$<br>(c) For $Q$, order $=3$ and degree $=2$<br>(d) For $R$, order $=1$ and degree is not defined"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

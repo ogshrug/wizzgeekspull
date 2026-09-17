@@ -1,0 +1,31 @@
+{
+  "id": "69a9c3f86638848124d7c9b0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f980",
+    "6a13e9908c819562f933f982",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Title:** Approximating Material Requirement in Manufacturing<br /><br />An engineer needs to estimate how much material is required to increase the radius of a cylindrical storage tank from 7 m to 7.1 m, while the height remains 10 m.<br /><br />(a) Using derivatives, estimate the change in the surface area.<br /><br />(b) Also, estimate the change in the volume.<br /><br />(c) Find the approximate percentage increase in surface area.<br /><br />(d) Is the estimation more accurate for small or large changes in radius? Justify.",
+  "answeroption": "C",
+  "explanation": "Let $r = 7$, $dr = 0.1$, $h = 10$<br /><br />Surface area $A = 2\\pi r h + 2\\pi r^2$<br /><br />$dA = \\frac{dA}{dr} dr = (2\\pi h + 4\\pi r) dr$<br /><br />$= (2\\pi\\times10 + 4\\pi\\times7)\\times0.1$<br /><br />$= (20\\pi + 28\\pi)\\times0.1$<br /><br />$= 48\\pi \\times 0.1 = 4.8\\pi$<br /><br />So, approximate change in area $\\approx 4.8\\pi$ m$^2$<br /><br />Volume $V = \\pi r^2 h$<br /><br />$dV = 2\\pi r h dr = 2\\pi\\times7\\times10\\times0.1 = 14\\pi$ m$^3$<br /><br />Percentage increase in area:<br /><br />Original area $A = 2\\pi\\times7\\times10 + 2\\pi\\times49 = 140\\pi + 98\\pi = 238\\pi$<br /><br />Percentage increase $= \\frac{4.8\\pi}{238\\pi} \\times 100 \\approx 2.02\\%$<br /><br />The estimation is more accurate for small changes in radius due to linear approximation.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Approximate change in surface area $=14\\pi$ m$^2$.<br />(b) Approximate change in volume $=4.8\\pi$ m$^3$.<br />(c) Percentage increase in surface area $\\approx5.88\\%$.<br />(d) Estimation is more accurate for large changes in radius.",
+    "B": "(a) Approximate change in surface area $=2.4\\pi$ m$^2$.<br />(b) Approximate change in volume $=7\\pi$ m$^3$.<br />(c) Percentage increase in surface area $\\approx1.01\\%$.<br />(d) Estimation is more accurate for large changes in radius.",
+    "C": "(a) Approximate change in surface area $=4.8\\pi$ m$^2$.<br />(b) Approximate change in volume $=14\\pi$ m$^3$.<br />(c) Percentage increase in surface area $\\approx2.02\\%$.<br />(d) Estimation is more accurate for small changes in radius due to linear approximation.",
+    "D": "(a) Approximate change in surface area $=48\\pi$ m$^2$.<br />(b) Approximate change in volume $=140\\pi$ m$^3$.<br />(c) Percentage increase in surface area $\\approx20.2\\%$.<br />(d) Estimation is equally accurate for all changes in radius."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:57:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

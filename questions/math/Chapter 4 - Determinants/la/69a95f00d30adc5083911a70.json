@@ -1,0 +1,31 @@
+{
+  "id": "69a95f00d30adc5083911a70",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{bmatrix} 2 & -1 & 0 \\\\ 1 & 1 & 2 \\\\ 3 & 0 & 1 \\end{bmatrix}$ and $B = \\begin{bmatrix} 1 & 2 & -3 \\\\ 0 & 1 & 4 \\\\ 2 & 1 & 3 \\end{bmatrix}$. Verify $|AB| = |A||B|$ and hence determine if matrix $AB$ is non-singular. Also, if $C = AB$, find $C^{-1}$.",
+  "answeroption": "C",
+  "explanation": "To verify $|AB| = |A||B|$: <br /><br /> First, compute $|A|$: <br /><br /> $|A| = 2|\\begin{bmatrix}1 & 2 \\\\ 0 & 1\\end{bmatrix}| - (-1)|\\begin{bmatrix}1 & 2 \\\\ 3 & 1\\end{bmatrix}| + 0|...|$ <br /> $= 2(1 \\cdot 1 - 0 \\cdot 2) + 1(1 \\cdot 1 - 3 \\cdot 2)$ <br /> $= 2(1) + 1(1 - 6)$ <br /> $= 2 + 1(-5) = 2 - 5 = -3$ <br /><br /> Now, $|B|$: <br /><br /> $|B| = 1|\\begin{bmatrix}1 & 4 \\\\ 1 & 3\\end{bmatrix}| - 2|\\begin{bmatrix}0 & 4 \\\\ 2 & 3\\end{bmatrix}| + (-3)|\\begin{bmatrix}0 & 1 \\\\ 2 & 1\\end{bmatrix}|$ <br /> $= 1(1 \\times 3 - 4 \\times 1) - 2(0 \\times 3 - 4 \\times 2) - 3(0 \\times 1 - 1 \\times 2)$ <br /> $= 1(3-4) -2(0-8) -3(0-2)$ <br /> $= 1(-1) -2(-8) -3(-2)$ <br /> $= -1 + 16 + 6 = 21$ <br /><br /> Now, $|A||B| = (-3) \\times 21 = -63$ <br /><br /> Let us first find $AB = C$: <br /><br /> $C = \\begin{bmatrix} 2 & -1 & 0 \\\\ 1 & 1 & 2 \\\\ 3 & 0 & 1 \\end{bmatrix}\\begin{bmatrix} 1 & 2 & -3 \\\\ 0 & 1 & 4 \\\\ 2 & 1 & 3 \\end{bmatrix}$ <br /><br /> First row: <br /> $[2 \\times 1 + -1 \\times 0 + 0 \\times 2, 2 \\times 2 + -1 \\times 1 + 0 \\times 1, 2 \\times -3 + -1 \\times 4 + 0 \\times 3]$ <br /> $= [2, 4 - 1, -6 - 4] = [2, 3, -10]$ <br /><br /> Second row: <br /> $[1 \\times 1 + 1 \\times 0 + 2 \\times 2, 1 \\times 2 + 1 \\times 1 + 2 \\times 1, 1 \\times -3 + 1 \\times 4 + 2 \\times 3]$ <br /> $= [1 + 0 + 4, 2 + 1 + 2, -3 + 4 + 6] = [5, 5, 7]$ <br /><br /> Third row: <br /> $[3 \\times 1 + 0 \\times 0 + 1 \\times 2, 3 \\times 2 + 0 \\times 1 + 1 \\times 1, 3 \\times -3 + 0 \\times 4 + 1 \\times 3]$ <br /> $= [3 + 0 + 2, 6 + 0 + 1, -9 + 0 + 3] = [5, 7, -6]$ <br /><br /> So, <br /> $C = AB = \\begin{bmatrix} 2 & 3 & -10 \\\\ 5 & 5 & 7 \\\\ 5 & 7 & -6 \\end{bmatrix}$ <br /><br /> Now, find $|C|$: <br /><br /> $|C| = 2|\\begin{bmatrix}5 & 7 \\\\ 7 & -6\\end{bmatrix}| - 3|\\begin{bmatrix}5 & 7 \\\\ 5 & -6\\end{bmatrix}| + (-10)|\\begin{bmatrix}5 & 5 \\\\ 5 & 7\\end{bmatrix}|$ <br /><br /> $= 2(5 \\times -6 - 7 \\times 7) - 3(5 \\times -6 - 7 \\times 5) -10(5 \\times 7 - 5 \\times 5)$ <br /><br /> $= 2(-30 - 49) -3(-30 - 35) -10(35-25)$ <br /><br /> $= 2(-79) -3(-65) -10(10)$ <br /><br /> $= -158 + 195 - 100$ <br /><br /> $= (195 - 158) - 100$ <br /><br /> $= 37 - 100 = -63$ <br /><br /> So, $|AB| = -63 = |A| \\cdot |B|$. <br /><br /> Since $|AB| \\ne 0$, $AB$ is non-singular. <br /><br /> Now, $C^{-1} = (AB)^{-1}$. <br /> We have the formula $(AB)^{-1} = B^{-1}A^{-1}$ (as $A$, $B$ are non-singular). <br /><br /> Compute $A^{-1}$ and $B^{-1}$: <br /> $A^{-1} = \\frac{1}{|A|}\\operatorname{adj} A$ <br /> $B^{-1} = \\frac{1}{|B|}\\operatorname{adj} B$ <br /><br /> Since calculating adjoints is lengthy, outline the steps: <br /> 1. Find the cofactor matrix for $A$ and $B$. <br /> 2. Take the transpose to find the adjoint. <br /> 3. Divide by the determinant to get the inverse. <br /><br /> Finally, multiply $B^{-1}$ and $A^{-1}$ to get $C^{-1}$. <br /><br /> Thus, $C^{-1} = B^{-1}A^{-1}$ where $A^{-1}, B^{-1}$ are as above.",
+  "explanation_image": [],
+  "options": {
+    "A": "$|AB|=63$, so $AB$ is non-singular, and $C^{-1}=\\frac{1}{63}\\begin{bmatrix}79&52&71\\\\65&38&64\\\\10&1&5\\end{bmatrix}$.",
+    "B": "$|AB|=-63$, but $AB$ is singular because the determinant is negative.",
+    "C": "$|AB|=|A||B|=-63$, so $AB$ is non-singular, and $C^{-1}=\\frac{1}{63}\\begin{bmatrix}79&52&-71\\\\-65&-38&64\\\\-10&-1&5\\end{bmatrix}$.",
+    "D": "$|AB|=0$, so $AB$ is singular and $C^{-1}$ does not exist."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:46:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69aa692d6638848124d7c9da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Aviation — Flight Path and Intersection Analysis<br /><br />Two airplanes start from origin. Plane 1 has direction cosines proportional to $3,4,12$ and Plane 2 has direction ratios $2,1,2$. A refueling station is at $Q(15,20,60)$.<br /><br />(a) Write vector equations of both paths.<br /><br />(b) Determine if their paths intersect.<br /><br />(c) Find shortest distance from $Q$ to Plane 2 path and interpret.",
+  "answeroption": "C",
+  "explanation": "(a) Plane 1: $\\vec r_1=\\lambda_1(3,4,12)$. Plane 2: $\\vec r_2=\\lambda_2(2,1,2)$.<br /><br />(b) Equating coordinates gives $\\lambda_1=0$, $\\lambda_2=0$. Thus they intersect only at origin.<br /><br />(c) Distance from $Q$ to line $\\vec r=\\lambda(2,1,2)$ using perpendicular condition gives $\\lambda=170/9$. Foot point $(340/9,170/9,340/9)$. Distance $=\\sqrt{82125}/9\\approx31.87$.<br /><br />This indicates the refueling station is about 32 units away from Plane 2’s path.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec r_1=\\lambda_1(3,4,12)$, $\\vec r_2=\\lambda_2(2,1,2)$<br />(b) Paths intersect at $Q(15,20,60)$<br />(c) Distance from $Q$ to Plane 2 path is $0$",
+    "B": "(a) $\\vec r_1=(3,4,12)+\\lambda_1(0,0,0)$, $\\vec r_2=(2,1,2)+\\lambda_2(0,0,0)$<br />(b) Paths are parallel and never intersect<br />(c) Distance from $Q$ to Plane 2 path is $\\sqrt{170}$",
+    "C": "(a) $\\vec r_1=\\lambda_1(3,4,12)$, $\\vec r_2=\\lambda_2(2,1,2)$<br />(b) They intersect only at the origin<br />(c) Foot on Plane 2 path is $(340/9,170/9,340/9)$ and distance is $\\frac{\\sqrt{82125}}{9}\\approx31.87$, so the station is about $32$ units away from Plane 2 path",
+    "D": "(a) $\\vec r_1=\\lambda_1(12,4,3)$, $\\vec r_2=\\lambda_2(2,1,2)$<br />(b) They intersect at $(6,8,24)$<br />(c) Distance from $Q$ to Plane 2 path is $\\frac{170}{9}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:42:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

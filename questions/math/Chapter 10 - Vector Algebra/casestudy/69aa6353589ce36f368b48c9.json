@@ -1,0 +1,30 @@
+{
+  "id": "69aa6353589ce36f368b48c9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c3",
+    "6a13e767d837c8c7efa6b8c9"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 8: Construction Validation—Collinearity and Section Formula**<br /><br />In a high-rise construction, safety lines must connect three anchor points at A(2,4,7), B(4,8,11), and C(6,12,15).<br /><br />a) Show that A, B, C are collinear.<br /><br />b) If a worker attaches at a point P dividing AC internally in the ratio 1:2, find P’s coordinates.<br /><br />c) Suppose the worker wishes to stand at a Q such that AQ equals half of AC. Find the position vector $\\vec{OQ}$ and verify that it lies on line AC.",
+  "answeroption": "D",
+  "explanation": "a) $\\overrightarrow{AB} = (4-2)\\hat{i} + (8-4)\\hat{j} + (11-7)\\hat{k} = 2\\hat{i} + 4\\hat{j} + 4\\hat{k}$<br /><br />$\\overrightarrow{BC} = (6-4)\\hat{i} + (12-8)\\hat{j} + (15-11)\\hat{k} = 2\\hat{i} + 4\\hat{j} + 4\\hat{k}$<br /><br />Since $\\overrightarrow{AB}$ and $\\overrightarrow{BC}$ are proportional, points are collinear.<br /><br />b) Point P divides AC in 1:2:<br /><br />$\\vec{OP} = \\frac{2\\vec{a} + 1\\vec{c}}{1+2} = \\frac{2(2,4,7) + 1(6,12,15)}{3}$<br /><br />$= \\frac{(4+6,8+12,14+15)}{3} = \\frac{(10,20,29)}{3} = (\\frac{10}{3}, \\frac{20}{3}, \\frac{29}{3})$<br /><br />c) AQ = 0.5 AC:<br /><br />$\\overrightarrow{AC} = (6-2)\\hat{i} + (12-4)\\hat{j} + (15-7)\\hat{k} = 4\\hat{i} + 8\\hat{j} + 8\\hat{k}$<br /><br />Position vector $\\vec{OQ} = \\vec{a} + 0.5\\overrightarrow{AC} = (2,4,7) + 0.5(4,8,8) = (2+2, 4+4, 7+4) = (4,8,11)$<br /><br />Therefore, $\\vec{OQ}$ is point B, confirming it lies on line AC.",
+  "explanation_image": [],
+  "options": {
+    "A": "a) A, B, C are not collinear.<br />b) $P=(\\frac{8}{3},\\frac{16}{3},\\frac{22}{3})$<br />c) $\\vec{OQ}=(4,8,11)$, which does not lie on AC.",
+    "B": "a) A, B, C are collinear.<br />b) $P=(4,8,11)$<br />c) $\\vec{OQ}=(\\frac{10}{3},\\frac{20}{3},\\frac{29}{3})$, which lies on AC.",
+    "C": "a) A, B, C are collinear.<br />b) $P=(\\frac{10}{3},\\frac{20}{3},\\frac{29}{3})$<br />c) $\\vec{OQ}=(6,12,15)$, which lies on AC.",
+    "D": "a) A, B, C are collinear.<br />b) $P=(\\frac{10}{3},\\frac{20}{3},\\frac{29}{3})$<br />c) $\\vec{OQ}=(4,8,11)$, which is point B and lies on AC."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:17:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

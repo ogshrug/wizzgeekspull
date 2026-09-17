@@ -1,0 +1,28 @@
+{
+  "id": "6a264eac864be73cfcf6d32a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "VSA",
+  "question": "A pair of dice is thrown. It is given that the sum of numbers appearing on both dice is an even number. Find the probability that the number appearing on at least one die is 3.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $S$ be the total sample space of throwing a pair of dice, containing $6 \\times 6 = 36$ outcomes. Let $A$ be the event that the sum of numbers on the two dice is an even number, and $B$ be the event that the number appearing on at least one die is $3$. We are looking for the conditional probability $P(B|A) = \\frac{n(B \\cap A)}{n(A)}$.<br />**Step 2:** First, list outcomes for event $A$ (even sum). A sum is even if both dice show even numbers or both show odd numbers. Number of even pairs is $3 \\times 3 = 9$, and number of odd pairs is $3 \\times 3 = 9$, giving $n(A) = 18$ outcomes. Next, look for outcomes in event $B$ that also satisfy $A$ (odd pairs containing 3): $(3,1), (3,3), (3,5), (1,3),$ and $(5,3)$. This gives $n(B \\cap A) = 5$ elements.<br />**Step 3:** Substitute these values into our conditional probability expression: $P(B|A) = \\frac{5}{18}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-2",
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

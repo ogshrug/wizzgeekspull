@@ -1,0 +1,31 @@
+{
+  "id": "6a8fc8c04b490c7cde359501",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f997"
+  ],
+  "question_type": "LA",
+  "question": "The ellipse $\\frac{x^2}{16}+\\frac{y^2}{9}=1$ is symmetric about both coordinate axes.(a) Express the area of the portion lying in the first quadrant as a definite integral.(b) Evaluate the integral using the substitution $x=4\\sin\\theta$.(c) Hence determine the total area enclosed by the ellipse.",
+  "answeroption": "A",
+  "explanation": "(a)From the equation of the ellipse,`\\frac{y^2}{9}=1-\\frac{x^2}{16}`In the first quadrant,`y=3\\sqrt{1-\\frac{x^2}{16}}=\\frac{3}{4}\\sqrt{16-x^2}`Therefore, the area in the first quadrant is`A_1=\\frac{3}{4}\\int_0^4\\sqrt{16-x^2}\\,dx`(b)Put $x=4\\sin\\theta$. Then $dx=4\\cos\\theta\\,d\\theta$ and`\\sqrt{16-x^2}=4\\cos\\theta`As $x$ varies from $0$ to $4$, $\\theta$ varies from $0$ to $\\frac{\\pi}{2}$. Thus,`A_1=\\frac{3}{4}\\int_0^{\\frac{\\pi}{2}}16\\cos^2\\theta\\,d\\theta A_1=12\\int_0^{\\frac{\\pi}{2}}\\cos^2\\theta\\,d\\theta`Using $\\cos^2\\theta=\\frac{1+\\cos2\\theta}{2}$,`A_1=6\\left[\\theta+\\frac{\\sin2\\theta}{2}\\right]_0^{\\frac{\\pi}{2}}=3\\pi`(c)By symmetry, the total area enclosed by the ellipse is`A=4A_1=4\\times3\\pi=12\\pi`Hence, the total area enclosed by the ellipse is $12\\pi$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A_1=\\frac{3}{4}\\int_0^4\\sqrt{16-x^2}\\,dx$<br>(b) $A_1=3\\pi$<br>(c) Total area $=12\\pi$ square units",
+    "B": "(a) $A_1=\\frac{3}{4}\\int_0^4\\sqrt{16-x^2}\\,dx$<br>(b) $A_1=6\\pi$<br>(c) Total area $=24\\pi$ square units",
+    "C": "(a) $A_1=3\\int_0^4\\sqrt{16-x^2}\\,dx$<br>(b) $A_1=3\\pi$<br>(c) Total area $=12\\pi$ square units",
+    "D": "(a) $A_1=\\frac{4}{3}\\int_0^3\\sqrt{9-x^2}\\,dx$<br>(b) $A_1=3\\pi$<br>(c) Total area $=6\\pi$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

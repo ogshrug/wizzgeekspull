@@ -1,0 +1,30 @@
+{
+  "id": "69a98a37589ce36f368b4827",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "MCQ",
+  "question": "$f: \\mathbb{R} \\rightarrow \\mathbb{R}$ given by $f(x) = x + \\sqrt{x^2}$ is",
+  "answeroption": "A",
+  "explanation": "$f(x) = x + \\sqrt{x^2}$. Since $\\sqrt{x^2} = |x|$, we have $f(x) = x + |x|$.<br /><br />For $x \\geq 0$, $f(x) = x + x = 2x$. For $x < 0$, $f(x) = x + (-x) = 0$.<br /><br />Check injectivity: $f(-1) = 0$ and $f(-2) = 0$, but $-1 \\ne -2$. Hence $f$ is not injective.<br /><br />Check surjectivity: For $x \\geq 0$, $f(x) = 2x \\geq 0$ and for $x < 0$, $f(x) = 0$. Hence the range is $[0,\\infty)$ which is not equal to $\\mathbb{R}$. Thus $f$ is not surjective.<br /><br />Therefore the correct answer is none of these.",
+  "explanation_image": [],
+  "options": {
+    "A": "none of these",
+    "B": "bijective",
+    "C": "injective",
+    "D": "surjective"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:50:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

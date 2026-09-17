@@ -1,0 +1,26 @@
+{
+  "id": "6a339b00d5dca7dcb0bf0f2b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "LA",
+  "question": "Find: $\\int_{\\pi/6}^{\\pi/3}\\frac{\\sin x+\\cos x}{\\sqrt{\\sin 2x}}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Substitution**  \nLet $t = \\sin x - \\cos x$. Then $dt = (\\cos x + \\sin x) \\, dx = (\\sin x + \\cos x) \\, dx$. Also, $t^2 = (\\sin x - \\cos x)^2 = 1 - \\sin 2x$. So, $\\sin 2x = 1 - t^2$.\n\n**Step 2: Change the Limits**  \nWhen $x = \\frac{\\pi}{6}$: $t = \\sin\\frac{\\pi}{6} - \\cos\\frac{\\pi}{6} = \\frac{1}{2} - \\frac{\\sqrt{3}}{2} = \\frac{1-\\sqrt{3}}{2}$.  \nWhen $x = \\frac{\\pi}{3}$: $t = \\sin\\frac{\\pi}{3} - \\cos\\frac{\\pi}{3} = \\frac{\\sqrt{3}}{2} - \\frac{1}{2} = \\frac{\\sqrt{3}-1}{2}$.\n\n**Step 3: Rewrite the Integral**  \n$$I = \\int_{\\frac{1-\\sqrt{3}}{2}}^{\\frac{\\sqrt{3}-1}{2}} \\frac{dt}{\\sqrt{1-t^2}}$$\n\n**Step 4: Evaluate the Integral**  \n$$I = \\left[\\sin^{-1} t\\right]_{\\frac{1-\\sqrt{3}}{2}}^{\\frac{\\sqrt{3}-1}{2}}$$  \n$$= \\sin^{-1}\\left(\\frac{\\sqrt{3}-1}{2}\\right) - \\sin^{-1}\\left(\\frac{1-\\sqrt{3}}{2}\\right)$$  \nSince $\\sin^{-1}(-x) = -\\sin^{-1}(x)$, we have:  \n$$I = \\sin^{-1}\\left(\\frac{\\sqrt{3}-1}{2}\\right) + \\sin^{-1}\\left(\\frac{\\sqrt{3}-1}{2}\\right)$$  \n$$I = 2\\sin^{-1}\\left(\\frac{\\sqrt{3}-1}{2}\\right)$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

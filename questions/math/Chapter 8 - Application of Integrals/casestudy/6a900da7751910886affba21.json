@@ -1,0 +1,30 @@
+{
+  "id": "6a900da7751910886affba21",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During an investigation of signed and geometrical areas, students study the curve $y=x(x-1)(x-2)$ from $x=0$ to $x=2$. The curve crosses the $x$-axis within the interval, so the definite integral and the total geometrical area have different interpretations. Answer the following questions to analyse this difference.(a) Find the points where the curve meets the $x$-axis.(b) Determine the intervals on which the curve lies above and below the $x$-axis.(c) Evaluate the signed area represented by $\\int\\_0^2x(x-1)(x-2)\\,dx$.(d) Find the total geometrical area between the curve and the $x$-axis from $x=0$ to $x=2$.",
+  "answeroption": "A",
+  "explanation": "(a) The curve meets the $x$-axis when `x(x-1)(x-2)=0.` Hence, $x=0,1,2$, and the points are $(0,0)$, $(1,0)$ and $(2,0)$.(b) For $0\\<x<1$, the factors have signs positive, negative and negative, respectively, so $y>0$. For $1\\<x<2$, the factors have signs positive, positive and negative, respectively, so $y<0$. Thus, the curve is above the $x$-axis on $(0,1)$ and below it on $(1,2)$.(c) Expanding the function gives `x(x-1)(x-2)=x^3-3x^2+2x.` Therefore, `\\int_0^2(x^3-3x^2+2x)\\,dx=\\left[\\frac{x^4}{4}-x^3+x^2\\right]_0^2=4-8+4=0.` The signed area is zero because the positive and negative contributions cancel.(d) The area above the axis is `A_1=\\int_0^1(x^3-3x^2+2x)\\,dx=\\left[\\frac{x^4}{4}-x^3+x^2\\right]_0^1=\\frac{1}{4}.` Also, `\\int_1^2(x^3-3x^2+2x)\\,dx=-\\frac{1}{4},` so the geometrical area below the axis is $A\\_2=\\frac{1}{4}$. Hence, the total geometrical area is `A_1+A_2=\\frac{1}{4}+\\frac{1}{4}=\\frac{1}{2}` square unit.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,0),(1,0),(2,0)$<br>(b) Above on $(0,1)$, below on $(1,2)$<br>(c) Signed integral $=0$<br>(d) Total geometrical area $=\\frac{1}{2}$",
+    "B": "(a) $(0,0),(1,0),(2,0)$<br>(b) Below on $(0,1)$, above on $(1,2)$<br>(c) Signed integral $=0$<br>(d) Total geometrical area $=\\frac{1}{2}$",
+    "C": "(a) $(0,0),(2,0)$ only<br>(b) Above on $(0,2)$<br>(c) Signed integral $=\\frac{1}{2}$<br>(d) Total geometrical area $=\\frac{1}{2}$",
+    "D": "(a) $(0,0),(1,0),(2,0)$<br>(b) Above on $(0,1)$, below on $(1,2)$<br>(c) Signed integral $=\\frac{1}{2}$<br>(d) Total geometrical area $=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

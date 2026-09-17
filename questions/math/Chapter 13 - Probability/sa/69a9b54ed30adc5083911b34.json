@@ -1,0 +1,30 @@
+{
+  "id": "69a9b54ed30adc5083911b34",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e4"
+  ],
+  "question_type": "SA",
+  "question": "A box contains 5 red and 7 blue balls. A ball is drawn at random and not replaced. Then another ball is drawn.\n(a) What is the probability that both balls are of the same colour?\n(b) What is the probability that the second ball is red given that at least one of the two balls is red?\n(c) If the second ball is red, what is the probability that the first was blue?",
+  "answeroption": "C",
+  "explanation": "Total balls = 12<br />(a) Ways for both same colour: Both red: $C(5,2)=10$, Both blue: $C(7,2)=21$; Total ways: $C(12,2)=66$<br />So, $P=\\dfrac{31}{66}$<br /><br />(b) Probability both balls are not both blue:<br />Find $P$(at least one red): $=1-P$(both blue) $= 1-\\dfrac{21}{66}=\\dfrac{45}{66}$<br />Probability second ball is red and at least one red occurs:<br />Cases: (R,R), (B,R):<br />(R,R): $5/12\\times4/11=20/132=5/33$<br />(B,R): $7/12\\times5/11=35/132$<br />So, total $=5/33+35/132=20/132+35/132=55/132=5/12$<br />$P(\\text{Second red | at least one red}) = \\dfrac{5/12}{45/66} = \\dfrac{5/12\\times66/45}{1} = \\dfrac{5\\times66}{12\\times45} = \\dfrac{330}{540} = \\dfrac{11}{18}$<br /><br />(c) If second ball is red, what is probability first was blue?<br />$P(\\text{first blue, second red}) = 7/12 \\times 5/11 = 35/132$<br />$P(\\text{second red}) = (5/12\\times4/11)+(7/12\\times5/11) = 20/132+35/132=55/132$<br />So,<br />$P(\\text{first blue | second red}) = \\dfrac{35/132}{55/132} = \\dfrac{7}{11}$<br /><br />Final answers:<br /><br />(a) $\\dfrac{31}{66}$<br /><br />(b) $\\dfrac{11}{18}$<br /><br />(c) $\\dfrac{7}{11}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{31}{66}$<br />(b) $\\frac{5}{12}$<br />(c) $\\frac{7}{12}$",
+    "B": "(a) $\\frac{35}{66}$<br />(b) $\\frac{11}{18}$<br />(c) $\\frac{5}{11}$",
+    "C": "(a) $\\frac{31}{66}$<br />(b) $\\frac{11}{18}$<br />(c) $\\frac{7}{11}$",
+    "D": "(a) $\\frac{21}{66}$<br />(b) $\\frac{7}{18}$<br />(c) $\\frac{7}{11}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:54:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

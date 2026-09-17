@@ -1,0 +1,29 @@
+{
+  "id": "6a8ec0ae751910886affb9a0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "SA",
+  "question": "Find $\\frac{dy}{dx}$ using logarithmic differentiation if $$y=x^{\\sin x},\\qquad x>0.$$",
+  "answeroption": "D",
+  "explanation": "<b>Taking logarithm</b><br>$$\\log y=\\sin x\\log x.$$<br><b>Differentiation</b><br>Differentiating with respect to $x$, $$\\frac{1}{y}\\frac{dy}{dx}=\\cos x\\log x+\\frac{\\sin x}{x}.$$<br><b>Substitution of $y=x^{\\sin x}$</b><br>Therefore, $$\\frac{dy}{dx}=x^{\\sin x}\\left(\\cos x\\log x+\\frac{\\sin x}{x}\\right).$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=x^{\\sin x}\\left(\\sin x\\log x+\\frac{\\cos x}{x}\\right)$",
+    "B": "$\\frac{dy}{dx}=\\sin x\\,x^{\\sin x-1}$",
+    "C": "$\\frac{dy}{dx}=x^{\\sin x}\\left(\\cos x+\\frac{\\sin x}{x}\\right)$",
+    "D": "$\\frac{dy}{dx}=x^{\\sin x}\\left(\\cos x\\log x+\\frac{\\sin x}{x}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

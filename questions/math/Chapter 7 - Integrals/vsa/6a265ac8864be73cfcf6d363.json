@@ -1,0 +1,28 @@
+{
+  "id": "6a265ac8864be73cfcf6d363",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate: <br />$$\\int_{0}^{1}x^{2}e^{x}dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To evaluate the definite integral $\\int_{0}^{1}x^{2}e^{x}dx$, we use the method of integration by parts, which states that $\\int u \\, dv = uv - \\int v \\, du$. Following the ILATE rule hierarchy, choose the algebraic function as the first function, $u = x^2$, and the exponential function as the second function, $dv = e^x dx$. Differentiating $u$ gives $du = 2x dx$, and integrating $dv$ gives $v = e^x$. Applying the formula gives: $[x^2 e^x]_{0}^{1} - \\int_{0}^{1} 2xe^x dx$.<br />**Step 2:** We must apply integration by parts a second time to evaluate the remaining integral term $\\int_{0}^{1} 2xe^x dx$. Choose $u = 2x$ and $dv = e^x dx$, which gives $du = 2dx$ and $v = e^x$. Expanding this part yields: $[2xe^x]_{0}^{1} - \\int_{0}^{1} 2e^x dx = [2xe^x - 2e^x]_{0}^{1}$. Combining this back into our full equation gives the complete integrated expression: $[x^2 e^x - 2xe^x + 2e^x]_{0}^{1}$.<br />**Step 3:** Now, substitute the upper boundary limit $x = 1$ and the lower boundary limit $x = 0$ into this expression. At the upper limit $x = 1$, we get: $(1^2 e^1 - 2(1)e^1 + 2e^1) = e - 2e + 2e = e$. At the lower limit $x = 0$, we get: $(0^2 e^0 - 2(0)e^0 + 2e^0) = 0 - 0 + 2(1) = 2$. Subtracting the lower bound evaluation from the upper bound evaluation gives the final numeric value: $e - 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1",
+    "2022-4-2",
+    "2022-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

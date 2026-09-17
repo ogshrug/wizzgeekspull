@@ -1,0 +1,31 @@
+{
+  "id": "6a226653fbdd87b6dea73b80",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{\\cos 2x-\\cos 2\\alpha}{\\cos x-\\cos \\alpha}dx$ is equal to:",
+  "answeroption": "A",
+  "explanation": "<b>Step 1</b> Let us rewrite the numerator terms using the trigonometric double-angle cosine identity, $\\cos 2\\theta = 2\\cos^2\\theta - 1$. This transforms the numerator into: $\\cos 2x - \\cos 2\\alpha = (2\\cos^2 x - 1) - (2\\cos^2 \\alpha - 1) = 2(\\cos^2 x - \\cos^2 \\alpha)$.<br /><br /><b>Step 2</b> Factor the difference of squares in the numerator expression: $2(\\cos^2 x - \\cos^2 \\alpha) = 2(\\cos x - \\cos \\alpha)(\\cos x + \\cos \\alpha)$. Substitute this back into the integral, which allows us to cancel out the common denominator term $(\\cos x - \\cos \\alpha)$.<br /><br /><b>Step 3</b> The integral simplifies directly to: $\\int 2(\\cos x + \\cos \\alpha)\\,dx = 2\\int \\cos x\\,dx + 2\\cos \\alpha\\int 1\\,dx$. Performing the integration with respect to $x$ gives $2\\sin x + 2x\\cos \\alpha + C = 2(\\sin x + x\\cos \\alpha) + C$, matching option A.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2(\\sin x + x\\cos \\alpha) + C$",
+    "B": "$2(\\sin x - x\\cos \\alpha) + C$",
+    "C": "$2(\\sin x + 2x\\cos \\alpha) + C$",
+    "D": "$2(\\sin x + \\sin \\alpha) + C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

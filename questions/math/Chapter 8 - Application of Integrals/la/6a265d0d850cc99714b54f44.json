@@ -1,0 +1,29 @@
+{
+  "id": "6a265d0d850cc99714b54f44",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "Sketch the graph of $y=x|x|$ and hence find the area bounded by this curve, X-axis and the ordinates $x=-2$ and $x=2$, using integration.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Remove the absolute modulus brackets to analyze the piece-wise components of the function: $y = x^2$ for all non-negative real numbers $x \\ge 0$, and $y = -x^2$ for all negative real numbers $x < 0$. Plotting these matching segments gives an upward-opening parabolic path inside the first quadrant and a downward-opening parabolic path inside the third quadrant. The curve transitions smoothly while passing through the origin coordinate $(0,0)$.<br />**Step 2:** Set up the definite integration boundary structures to compute the total bounded area from $x = -2$ to $x = 2$. Because the curve components are entirely symmetrical across both quadrants, the absolute surface area located in the negative domain matches the area inside the positive domain. This allows us to double a single integral quadrant calculation: $\\text{Area} = \\int_{-2}^{0} |-x^2| dx + \\int_{0}^{2} x^2 dx = 2 \\int_{0}^{2} x^2 dx$.<br />**Step 3:** Compute the antiderivative of the power function expression: $\\int x^2 dx = \\frac{x^3}{3}$. Substituting limits gives: $\\text{Area} = 2 \\left[ \\frac{x^3}{3} \\right]_0^2 = 2 \\left( \\frac{8}{3} - 0 \\right) = \\frac{16}{3}$ square units. This provides the final total bounded area value.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

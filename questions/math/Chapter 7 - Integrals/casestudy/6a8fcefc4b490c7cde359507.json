@@ -1,0 +1,29 @@
+{
+  "id": "6a8fcefc4b490c7cde359507",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom investigation of rational functions, students consider the integral $$I=\\int\\frac{5x+1}{(x+1)(x+2)}\\,dx$$ The numerator has lower degree than the denominator, and the denominator is already expressed as a product of two distinct linear factors. The class observes that the given rational function can therefore be represented as a sum of two simpler rational functions whose denominators are $x+1$ and $x+2$. The values $x=-1$ and $x=-2$ are excluded from the domain. Students must determine the constants in the decomposition and use the resulting simpler fractions to obtain the antiderivative on any interval not containing these excluded values.<br><br><b>(a)</b> Write the appropriate partial fraction form for the given rational function.<br><br><b>(b)</b> Determine the constants in the partial fraction decomposition.<br><br><b>(c)</b> Evaluate the integral $I$.<br><br><b>(d)</b> Verify the obtained antiderivative by differentiation.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>Since the denominator contains two distinct linear factors, write $$\\frac{5x+1}{(x+1)(x+2)}=\\frac{A}{x+1}+\\frac{B}{x+2}$$ where $A$ and $B$ are constants.<br><br><b>(b)</b><br>Multiplying by $(x+1)(x+2)$ gives $$5x+1=A(x+2)+B(x+1)$$ Comparing coefficients, $$A+B=5$$ and $$2A+B=1$$ Subtracting the first equation from the second gives $A=-4$. Hence, $B=9$. Therefore, $$\\frac{5x+1}{(x+1)(x+2)}=-\\frac{4}{x+1}+\\frac{9}{x+2}$$<br><br><b>(c)</b><br>Thus, $$I=-4\\int\\frac{dx}{x+1}+9\\int\\frac{dx}{x+2}$$ Therefore, $$I=-4\\log|x+1|+9\\log|x+2|+C$$ valid on intervals not containing $x=-1$ or $x=-2$.<br><br><b>(d)</b><br>Differentiating the result, $$\\frac{dI}{dx}=-\\frac{4}{x+1}+\\frac{9}{x+2}$$ Combining the fractions, $$\\frac{dI}{dx}=\\frac{-4(x+2)+9(x+1)}{(x+1)(x+2)}=\\frac{5x+1}{(x+1)(x+2)}$$ Hence, the antiderivative is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{5x+1}{(x+1)(x+2)}=\\frac{A}{x+1}+\\frac{B}{x+2}$<br>(b) $A=4,\\ B=1$<br>(c) $I=4\\log|x+1|+\\log|x+2|+C$<br>(d) Differentiation gives the original integrand",
+    "B": "(a) $\\frac{5x+1}{(x+1)(x+2)}=\\frac{A}{x+1}+\\frac{B}{x+2}$<br>(b) $A=-9,\\ B=14$<br>(c) $I=-9\\log|x+1|+14\\log|x+2|+C$<br>(d) Differentiation gives $\\frac{5x-4}{(x+1)(x+2)}$",
+    "C": "(a) $\\frac{5x+1}{(x+1)(x+2)}=\\frac{Ax+B}{(x+1)(x+2)}$<br>(b) $A=5,\\ B=1$<br>(c) $I=5x+\\log|x+1|+C$<br>(d) Differentiation gives the original integrand",
+    "D": "(a) $\\frac{5x+1}{(x+1)(x+2)}=\\frac{A}{x+1}+\\frac{B}{x+2}$<br>(b) $A=-4,\\ B=9$<br>(c) $I=-4\\log|x+1|+9\\log|x+2|+C$<br>(d) Differentiation gives $\\frac{5x+1}{(x+1)(x+2)}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

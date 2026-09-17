@@ -1,0 +1,29 @@
+{
+  "id": "6a9020494b490c7cde35955d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a coordinate-based classroom investigation, the plane $$\\pi:2x-2y+z-3=0$$ is fixed in three-dimensional space. Two points $P(4,1,-2)$ and $Q(1,-1,2)$ are marked on the same coordinate model. Students are required to compare their perpendicular distances from the plane rather than their ordinary distances from the origin. A third point $R(k,2,1)$ can move as the real parameter $k$ changes. Its position is to be chosen so that its perpendicular distance from the plane becomes exactly $2$ units. The standard point-to-plane distance formula is used throughout the investigation.<br><br><b>(a)</b> Find the magnitude of a normal vector to the plane $\\pi$.<br><br><b>(b)</b> Calculate the perpendicular distance of $P$ from $\\pi$.<br><br><b>(c)</b> Calculate the distance of $Q$ from $\\pi$ and determine which of $P$ or $Q$ is farther from the plane.<br><br><b>(d)</b> Determine all values of $k$ for which $R(k,2,1)$ is at a distance of $2$ units from $\\pi$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>A normal vector to the plane $2x-2y+z-3=0$ is<br>$$\\vec N=(2,-2,1).$$<br>Its magnitude is<br>$$|\\vec N|=\\sqrt{2^2+(-2)^2+1^2}=\\sqrt{9}=3.$$<br><br><b>(b)</b><br>The perpendicular distance of a point $(x_1,y_1,z_1)$ from the plane $Ax+By+Cz+D=0$ is<br>$$d=\\frac{|Ax_1+By_1+Cz_1+D|}{\\sqrt{A^2+B^2+C^2}}.$$<br>For $P(4,1,-2)$,<br>$$d_P=\\frac{|2(4)-2(1)+(-2)-3|}{3}.$$<br>Thus,<br>$$d_P=\\frac{|8-2-2-3|}{3}=\\frac{1}{3}\\text{ unit}.$$<br><br><b>(c)</b><br>For $Q(1,-1,2)$,<br>$$d_Q=\\frac{|2(1)-2(-1)+2-3|}{3}.$$<br>Therefore,<br>$$d_Q=\\frac{|2+2+2-3|}{3}=\\frac{3}{3}=1\\text{ unit}.$$<br>Since<br>$$1>\\frac{1}{3},$$<br>the point $Q$ is farther from the plane than $P$.<br><br><b>(d)</b><br>For $R(k,2,1)$, its distance from the plane is<br>$$\\frac{|2k-2(2)+1-3|}{3}=\\frac{|2k-6|}{3}.$$<br>This distance is given to be $2$ units. Hence,<br>$$\\frac{|2k-6|}{3}=2.$$<br>Therefore,<br>$$|2k-6|=6.$$<br>Thus,<br>$$2k-6=6$$<br>or<br>$$2k-6=-6.$$<br>Hence,<br>$$k=6\\quad\\text{or}\\quad k=0.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|\\vec N|=3$<br>(b) $d_P=1$ unit<br>(c) $d_Q=\\frac{1}{3}$ unit, so $P$ is farther<br>(d) $k=0$ or $6$",
+    "B": "(a) $|\\vec N|=\\sqrt{5}$<br>(b) $d_P=\\frac{1}{3}$ unit<br>(c) $d_Q=1$ unit, so $Q$ is farther<br>(d) $k=-6$ or $0$",
+    "C": "(a) $|\\vec N|=3$<br>(b) $d_P=\\frac{1}{3}$ unit<br>(c) $d_Q=1$ unit, so $Q$ is farther from the plane<br>(d) $k=0$ or $k=6$",
+    "D": "(a) $|\\vec N|=3$<br>(b) $d_P=\\frac{1}{3}$ unit<br>(c) $d_Q=1$ unit, so $P$ is farther<br>(d) $k=3$ or $9$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

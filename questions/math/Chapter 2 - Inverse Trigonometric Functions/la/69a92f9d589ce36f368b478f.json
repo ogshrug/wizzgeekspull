@@ -1,0 +1,29 @@
+{
+  "id": "69a92f9d589ce36f368b478f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Find the value of $\\cot\\frac{1}{2}\\left[\\cos^{-1}\\left(\\frac{2x}{1+x^2}\\right) + \\sin^{-1}\\left(\\frac{1-y^2}{1+y^2}\\right)\\right]$, where $|x|<1$, $y>0$ and $xy<1$.",
+  "answeroption": "D",
+  "explanation": "Let $\\cos^{-1}\\left(\\frac{2x}{1+x^2}\\right) = 2\\alpha$ and $\\sin^{-1}\\left(\\frac{1-y^2}{1+y^2}\\right) = 2\\beta$.<br /><br />Then $\\cos2\\alpha = \\frac{2x}{1+x^2}$.<br /><br />Using identity $\\cos2\\alpha = \\frac{1-\\tan^2\\alpha}{1+\\tan^2\\alpha}$ gives $\\tan\\alpha = x$.<br /><br />Also $\\sin2\\beta = \\frac{1-y^2}{1+y^2}$.<br /><br />Comparing with identity $\\sin2\\beta = \\frac{2\\tan\\beta}{1+\\tan^2\\beta}$ gives $\\tan\\beta = y$.<br /><br />Thus expression becomes:<br /><br />$\\cot\\frac12(2\\alpha + 2\\beta) = \\cot(\\alpha+\\beta)$.<br /><br />Using formula $\\cot(A+B) = \\frac{1-\\tan A \\tan B}{\\tan A + \\tan B}$.<br /><br />Substitute $\\tan\\alpha=x$ and $\\tan\\beta=y$.<br /><br />Hence result $= \\frac{1-xy}{x+y}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{x+y}{1-xy}$",
+    "B": "$\\frac{1+xy}{x+y}$",
+    "C": "$\\frac{x-y}{1+xy}$",
+    "D": "$\\frac{1-xy}{x+y}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:24:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

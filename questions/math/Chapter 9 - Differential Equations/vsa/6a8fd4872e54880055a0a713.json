@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd4872e54880055a0a713",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a7",
+    "6a13ebca8c819562f933f9a6"
+  ],
+  "question_type": "VSA",
+  "question": "A two-parameter family is given by $y=e^{2x}(a+bx)$. Using successive differentiation, obtain the differential equation representing the family.",
+  "answeroption": "A",
+  "explanation": "Step 1: The family $y=e^{2x}(a+bx)$ contains two arbitrary constants, so differentiate twice.<br>Step 2: Using the product rule, $\\frac{dy}{dx}=e^{2x}(2a+2bx+b)$.<br>Step 3: Differentiating again gives $\\frac{d^2y}{dx^2}=e^{2x}(4a+4bx+4b)$.<br>Step 4: Form the combination $\\frac{d^2y}{dx^2}-4\\frac{dy}{dx}+4y$. Substitution gives $e^{2x}[(4a+4bx+4b)-4(2a+2bx+b)+4(a+bx)]=0$.<br>Step 5: All terms containing $a$ and $b$ cancel. Hence, the differential equation representing the family is $\\frac{d^2y}{dx^2}-4\\frac{dy}{dx}+4y=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}-4\\frac{dy}{dx}+4y=0$",
+    "B": "$\\frac{d^2y}{dx^2}+4\\frac{dy}{dx}+4y=0$",
+    "C": "$\\frac{d^2y}{dx^2}-2\\frac{dy}{dx}+4y=0$",
+    "D": "$\\frac{d^2y}{dx^2}-4y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

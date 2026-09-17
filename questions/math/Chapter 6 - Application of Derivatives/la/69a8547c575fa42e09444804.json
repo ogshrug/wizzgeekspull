@@ -1,0 +1,30 @@
+{
+  "id": "69a8547c575fa42e09444804",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "A piece of wire 20 m long is cut into two parts. One part is bent into a square, and the other into a circle. Find how the wire should be cut so that the total area enclosed is minimum.",
+  "answeroption": "B",
+  "explanation": "Let x m be used for the square and (20 − x) m for the circle.<br /><br />For the square:<br /><br />Side = x/4.<br /><br />Area of square = (x/4)² = x²/16.<br /><br />For the circle:<br /><br />2πr = 20 − x ⇒ r = (20 − x)/(2π).<br /><br />Area of circle = πr² = π[(20 − x)/(2π)]² = (20 − x)²/(4π).<br /><br />Total area:<br /><br />A(x) = x²/16 + (20 − x)²/(4π).<br /><br />Differentiate:<br /><br />A'(x) = x/8 − (20 − x)/(2π).<br /><br />Set A'(x) = 0:<br /><br />x/8 = (20 − x)/(2π).<br /><br />2πx = 8(20 − x).<br /><br />2πx + 8x = 160.<br /><br />x(2π + 8) = 160.<br /><br />x = 160/(2π + 8).<br /><br />Second derivative:<br /><br />A''(x) = 1/8 + 1/(2π) > 0, so area is minimum.<br /><br />Thus, x = 160/(2π + 8) m for the square and 20 − x for the circle.",
+  "explanation_image": [],
+  "options": {
+    "A": "Use $\\frac{20\\pi}{\\pi+4}$ m for the square and $\\frac{80}{\\pi+4}$ m for the circle.",
+    "B": "Use $\\frac{160}{2\\pi+8}$ m for the square and $20-\\frac{160}{2\\pi+8}$ m for the circle.",
+    "C": "Use $10$ m for the square and $10$ m for the circle.",
+    "D": "Use the entire $20$ m wire for the square and $0$ m for the circle."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:49:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

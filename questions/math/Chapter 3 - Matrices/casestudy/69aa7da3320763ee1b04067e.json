@@ -1,0 +1,30 @@
+{
+  "id": "69aa7da3320763ee1b04067e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Societal Data in Psychology—Symmetric, Skew-Symmetric Matrix Applications**<br /><br />A psychologist records mutual trust scores (scale 0–10) between individuals A, B, and C in a group, stored in a matrix $T$, where $t_{ij}$ is A's trust in B (etc.):<br /><br />$T=\\begin{bmatrix} 0 & 6 & 8 \\\\ 5 & 0 & 4 \\\\ 3 & 7 & 0 \\end{bmatrix}$<br /><br />(a) Find the symmetric and skew-symmetric parts of $T$.<br /><br />(b) Interpret the meaning of the skew-symmetric part in social science terms.<br /><br />(c) Suggest what changing the matrix to be purely symmetric or skew-symmetric would mathematically and psychologically signify for the group.",
+  "answeroption": "A",
+  "explanation": "(a)<br /><br />$T' = \\begin{bmatrix} 0 & 5 & 3 \\\\ 6 & 0 & 7 \\\\ 8 & 4 & 0 \\end{bmatrix}$.<br /><br />Symmetric: $S=\\frac{1}{2}(T+T')=\\begin{bmatrix} 0 & 5.5 & 5.5 \\\\ 5.5 & 0 & 5.5 \\\\ 5.5 & 5.5 & 0 \\end{bmatrix}$.<br /><br />Skew-symmetric: $K=\\frac{1}{2}(T-T')=\\begin{bmatrix} 0 & 0.5 & 2.5 \\\\ -0.5 & 0 & -1.5 \\\\ -2.5 & 1.5 & 0 \\end{bmatrix}$.<br /><br />(b)<br /><br />Skew-symmetric part represents asymmetry in trust relationships: e.g., if $a_{12}>a_{21}$, A trusts B more than B trusts A. These differences indicate directionality or imbalance in social ties.<br /><br />(c)<br /><br />If trust matrix is symmetric, all trust is mutual; if purely skew-symmetric, trust is perfectly anti-symmetric (if A trusts B, B distrusts A equally)—an unlikely situation. In psychological terms, a symmetric matrix models ideal mutual relationships, while a non-symmetric one exposes actual (potentially one-sided) dynamics.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $S=\\frac12(T+T')=\\begin{bmatrix}0&5.5&5.5\\\\5.5&0&5.5\\\\5.5&5.5&0\\end{bmatrix}$ and $K=\\frac12(T-T')=\\begin{bmatrix}0&0.5&2.5\\\\-0.5&0&-1.5\\\\-2.5&1.5&0\\end{bmatrix}$.<br />(b) $K$ measures imbalance or directionality in trust.<br />(c) A symmetric matrix means mutual trust; a purely skew-symmetric matrix represents perfectly anti-symmetric one-sided trust differences.",
+    "B": "(a) $S=T$ and $K=0$.<br />(b) There is no asymmetry in trust.<br />(c) The group already has perfectly mutual trust.",
+    "C": "(a) $S=0$ and $K=T$.<br />(b) All trust values are anti-symmetric.<br />(c) Symmetry has no psychological meaning.",
+    "D": "(a) $S=T'$ and $K=T+T'$.<br />(b) $K$ gives the total mutual trust.<br />(c) A skew-symmetric matrix means everyone trusts everyone equally."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:09:23 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

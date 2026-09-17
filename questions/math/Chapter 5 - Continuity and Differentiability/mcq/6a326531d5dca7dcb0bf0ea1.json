@@ -1,0 +1,31 @@
+{
+  "id": "6a326531d5dca7dcb0bf0ea1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "MCQ",
+  "question": "The function $f(x)=x|x|$, $x\\in R$ is differentiable",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Redefine the function without the absolute value: $f(x) = x^2$ for $x \\ge 0$ and $f(x) = -x^2$ for $x < 0$.\n\n**Step 2:** Find the derivative for both domains: $f'(x) = 2x$ for $x > 0$ and $f'(x) = -2x$ for $x < 0$.\n\n**Step 3:** Evaluate the left-hand derivative (LHD) and right-hand derivative (RHD) at $x=0$: $\\text{LHD} = \\lim_{x \\to 0^-} -2x = 0$ and $\\text{RHD} = \\lim_{x \\to 0^+} 2x = 0$.\n\n**Step 4:** Since LHD = RHD = 0 at the critical point $x=0$, and polynomials are differentiable everywhere else, the function is differentiable in all of R.",
+  "explanation_image": [],
+  "options": {
+    "A": "only at $x=0$",
+    "B": "only at $x=1$",
+    "C": "in R",
+    "D": "in R-{0}"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fda21be0ecc7866e90c6f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ae"
+  ],
+  "question_type": "SA",
+  "question": "Rewrite $$y\\frac{dx}{dy}-x=2y^2,\\quad y\\neq0,$$ in the standard form of a linear differential equation with $x$ as the dependent variable. Hence identify $P_1(y)$ and $Q_1(y)$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Select the appropriate standard form</b><br>Since the derivative is $\\frac{dx}{dy}$, $x$ is the dependent variable. The standard linear form is $$\\frac{dx}{dy}+P_1(y)x=Q_1(y).$$<br><b>Step 2: Begin with the given equation</b><br>$$y\\frac{dx}{dy}-x=2y^2.$$<br><b>Step 3: Make the derivative coefficient unity</b><br>As $y\\neq0$, divide every term by $y$ to obtain $$\\frac{dx}{dy}-\\frac{x}{y}=2y.$$<br><b>Step 4: Identify the functions</b><br>Comparing with the required standard form gives $$P_1(y)=-\\frac{1}{y},\\qquad Q_1(y)=2y.$$<br><b>Step 5: Final result</b><br>Therefore, the standard form is $$\\boxed{\\frac{dx}{dy}-\\frac{1}{y}x=2y}.$$ Both coefficient functions depend only on the independent variable $y$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dx}{dy}+\\frac{1}{y}x=2y$; $P_1(y)=\\frac{1}{y}$, $Q_1(y)=2y$",
+    "B": "$\\frac{dx}{dy}-\\frac{1}{y}x=2y^2$; $P_1(y)=-\\frac{1}{y}$, $Q_1(y)=2y^2$",
+    "C": "$\\frac{dx}{dy}-\\frac{1}{y}x=2y$; $P_1(y)=-\\frac{1}{y}$, $Q_1(y)=2y$",
+    "D": "$\\frac{dx}{dy}-yx=2y$; $P_1(y)=-y$, $Q_1(y)=2y$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

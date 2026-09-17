@@ -1,0 +1,29 @@
+{
+  "id": "69a86fcc64fcf4cdd5b4bb0a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "SA",
+  "question": "Given $y = [\\log_{\\sin x}(\\tan x)]$, find $\\frac{dy}{dx}$ in terms of $x$ for $x \\in (0, \\frac{\\pi}{2})$, $x \\ne \\frac{\\pi}{4}$, using the base change formula for logarithms.",
+  "answeroption": "B",
+  "explanation": "Recall $\\log_a b = \\frac{\\ln b}{\\ln a}$.<br /><br />So,<br /><br />$y = \\frac{\\ln(\\tan x)}{\\ln(\\sin x)}$<br /><br />Differentiate using quotient rule:<br /><br />$\\frac{dy}{dx} = \\frac{\\ln(\\sin x) \\cdot \\frac{d}{dx}[\\ln(\\tan x)] - \\ln(\\tan x) \\cdot \\frac{d}{dx}[\\ln(\\sin x)]}{[\\ln(\\sin x)]^2}$<br /><br />$\\frac{d}{dx}[\\ln(\\tan x)] = \\frac{\\sec^2 x}{\\tan x}$<br /><br />$\\frac{d}{dx}[\\ln(\\sin x)] = \\cot x$<br /><br />Plug in:<br /><br />$\\frac{dy}{dx} = \\frac{\\ln(\\sin x)\\frac{\\sec^2 x}{\\tan x} - \\ln(\\tan x)\\cot x}{[\\ln(\\sin x)]^2}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{\\ln(\\tan x)\\frac{\\sec^2 x}{\\tan x}-\\ln(\\sin x)\\cot x}{[\\ln(\\sin x)]^2}$",
+    "B": "$\\dfrac{\\ln(\\sin x)\\frac{\\sec^2 x}{\\tan x}-\\ln(\\tan x)\\cot x}{[\\ln(\\sin x)]^2}$",
+    "C": "$\\dfrac{\\sec^2 x}{\\tan x\\ln(\\sin x)}$",
+    "D": "$\\dfrac{\\cot x}{\\ln(\\tan x)}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:45:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

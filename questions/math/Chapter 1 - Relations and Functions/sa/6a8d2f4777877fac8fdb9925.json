@@ -1,0 +1,29 @@
+{
+  "id": "6a8d2f4777877fac8fdb9925",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40"
+  ],
+  "question_type": "SA",
+  "question": "Let $A=\\{1,2,3,4,5,6\\}$ and let $R$ be a relation on $A$ defined by $R=\\{(a,b)\\in A\\times A:3\\mid(a-b)\\}$. Verify whether $R$ is reflexive. Justify your answer.",
+  "answeroption": "A",
+  "explanation": "<b>Reflexivity condition</b><br>A relation $R$ on $A$ is reflexive if $(a,a)\\in R$ for every $a\\in A$.<br><br><b>Testing an arbitrary element</b><br>For any $a\\in A$,<br>$$a-a=0.$$<br>Since $3\\mid0$, we have $(a,a)\\in R$ for every $a\\in A$.<br><br><b>Conclusion</b><br>Therefore, $R$ is a reflexive relation on $A$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is reflexive because $3\\mid(a-a)=0$ for every $a\\in A$",
+    "B": "$R$ is not reflexive because $3$ does not divide every element of $A$",
+    "C": "$R$ is not reflexive because $(1,1)\\notin R$",
+    "D": "$R$ is irreflexive because $a-a=0$ for every $a\\in A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

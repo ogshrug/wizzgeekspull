@@ -1,0 +1,30 @@
+{
+  "id": "69a9ab6662be6a70cd184e0b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d61",
+    "69c65fbf40512f018fa94d51"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A$ and $B$ be $2 \\times 2$ matrices such that $AB = BA$. If $A = \\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix}$ and $B = \\begin{pmatrix} a & b \\\\ 0 & d \\end{pmatrix}$, find $d$ in terms of $a$.",
+  "answeroption": "C",
+  "explanation": "Calculating $AB$ and $BA$:<br /><br />$AB = \\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix}\\begin{pmatrix} a & b \\\\ 0 & d \\end{pmatrix} = \\begin{pmatrix} a & b+2d \\\\ 0 & d \\end{pmatrix}$<br /><br />$BA = \\begin{pmatrix} a & b \\\\ 0 & d \\end{pmatrix}\\begin{pmatrix} 1 & 2 \\\\ 0 & 1 \\end{pmatrix} = \\begin{pmatrix} a & 2a + b \\\\ 0 & d \\end{pmatrix}$<br /><br />Equate $b+2d = 2a + b \\implies d = a$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$d=2a$",
+    "B": "$d=a+b$",
+    "C": "$d=a$",
+    "D": "$d=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:12:22 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

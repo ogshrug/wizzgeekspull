@@ -1,0 +1,31 @@
+{
+  "id": "6a9010562e54880055a0a732",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f992",
+    "6a13eb338c819562f933f997",
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A quarter-elliptical lawn in the first quadrant is represented by $\\frac{x^2}{16}+\\frac{y^2}{9}=1$. The lawn lies inside a rectangular plot whose sides are along the coordinate axes and whose opposite vertex is formed by the positive intercepts of the ellipse. The portion of the rectangle outside the quarter ellipse is reserved for a walking path. Answer the following questions.(a) Determine the positive intercepts of the ellipse on the coordinate axes.(b) Express the upper boundary as $y$ in terms of $x$ and form the integral for the lawn area.(c) Evaluate the area of the quarter-elliptical lawn using integration.(d) Find the area of the walking path and the fraction of the rectangular plot occupied by the lawn.",
+  "answeroption": "C",
+  "explanation": "(a) On the $x$-axis, $y=0$, so $\\frac{x^2}{16}=1$, giving the positive intercept $x=4$. On the $y$-axis, $x=0$, so $\\frac{y^2}{9}=1$, giving the positive intercept $y=3$. Thus, the required intercepts are $(4,0)$ and $(0,3)$.(b) From the equation of the ellipse, `\\frac{y^2}{9}=1-\\frac{x^2}{16}.` In the first quadrant, `y=3\\sqrt{1-\\frac{x^2}{16}}.` Therefore, the lawn area is `A=\\int_0^4 3\\sqrt{1-\\frac{x^2}{16}}\\,dx.`(c) Put $x=4\\sin\\theta$, so $dx=4\\cos\\theta\\,d\\theta$. As $x$ varies from $0$ to $4$, $\\theta$ varies from $0$ to $\\frac{\\pi}{2}$. Therefore, `A=12\\int_0^{\\frac{\\pi}{2}}\\cos^2\\theta\\,d\\theta.` Using $\\cos^2\\theta=\\frac{1+\\cos2\\theta}{2}$, `A=12\\left[\\frac{\\theta}{2}+\\frac{\\sin2\\theta}{4}\\right]_0^{\\frac{\\pi}{2}}=12\\times\\frac{\\pi}{4}=3\\pi.` Hence, the lawn area is $3\\pi$ square units.(d) The area of the rectangular plot is `A_R=4\\times3=12.` Hence, the walking-path area is `A_R-A=12-3\\pi.` The fraction of the rectangular plot occupied by the lawn is `\\frac{3\\pi}{12}=\\frac{\\pi}{4}.` Therefore, the walking path has area $12-3\\pi$ square units, and the lawn occupies $\\frac{\\pi}{4}$ of the rectangular plot.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(4,0)$ and $(0,3)$<br>(b) $y=3\\sqrt{1-\\frac{x^2}{16}}$, $A=\\int_0^4 3\\sqrt{1-\\frac{x^2}{16}}\\,dx$<br>(c) Lawn area $=6\\pi$<br>(d) Path area $=12-6\\pi$; lawn fraction $=\\frac{\\pi}{2}$",
+    "B": "(a) $(3,0)$ and $(0,4)$<br>(b) $y=4\\sqrt{1-\\frac{x^2}{9}}$<br>(c) Lawn area $=3\\pi$<br>(d) Path area $=12-3\\pi$; lawn fraction $=\\frac{\\pi}{4}$",
+    "C": "(a) $(4,0)$ and $(0,3)$<br>(b) $y=3\\sqrt{1-\\frac{x^2}{16}}$, $A=\\int_0^4 3\\sqrt{1-\\frac{x^2}{16}}\\,dx$<br>(c) Lawn area $=3\\pi$<br>(d) Path area $=12-3\\pi$; lawn fraction $=\\frac{\\pi}{4}$",
+    "D": "(a) $(4,0)$ and $(0,3)$<br>(b) $y=3\\sqrt{1-\\frac{x^2}{16}}$, $A=\\int_0^4 3\\sqrt{1-\\frac{x^2}{16}}\\,dx$<br>(c) Lawn area $=\\frac{3\\pi}{2}$<br>(d) Path area $=12-\\frac{3\\pi}{2}$; lawn fraction $=\\frac{\\pi}{8}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

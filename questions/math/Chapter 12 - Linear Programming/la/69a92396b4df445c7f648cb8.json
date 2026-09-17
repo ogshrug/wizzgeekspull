@@ -1,0 +1,29 @@
+{
+  "id": "69a92396b4df445c7f648cb8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A company makes two products A and B. Each unit of product A requires 2 hours in machine I and 1 hour in machine II. Each unit of B requires 1 hour in machine I and 2 hours in machine II. Machine I is available for at most 10 hours per day and Machine II is available for at most 8 hours per day. The profit on each unit of A is Rs 30 and on B is Rs 50. Formulate the LPP, graph the feasible region, find all corner points, and determine the production plan for maximum profit.",
+  "answeroption": "A",
+  "explanation": "Let $x$ be number of units of A, $y$ be number of units of B.<br /><br />Step 1: Objective function:<br />$Z=30x+50y$<br /><br />Step 2: Machine I: $2x+y\\leq10$<br /><br />Step 3: Machine II: $x+2y \\leq 8$<br /><br />Step 4: $x\\geq0$, $y\\geq0$<br /><br />Step 5: Find intersection points:<br />First constraint: $y=10-2x$<br />Second: $x=8-2y\\implies y=4-x/2$<br />Set $y=10-2x$ and $y=4-x/2$<br />$10-2x=4-x/2 \\implies 10-4=2x-x/2\\implies6=3x/2\\implies x=4$<br />Plug $x=4$ in $y=10-2x=10-8=2$<br />So intersection at $(4,2)$<br /><br />Check intercepts for each:<br />$2x+y=10:\\ x=0,y=10$ & $y=0, x=5$<br />$x+2y=8:\\ x=0, y=4$ & $y=0, x=8$<br />For $(0,10)$: $x+2y=0+20=20>8$, so not feasible<br />For $(5,0)$: $5+2\\times0=5<8$; $2\\times5+0=10\\leq10$, so $(5,0)$ is feasible.<br />For $(0,4)$: $2\\times0+4=4\\leq10$, $0+2\\times4=8\\leq8$. So $(0,4)$ is feasible.<br />For $(8,0)$: $2\\times8=16>10$, not feasible.<br />So corner points: $(0,4), (4,2), (5,0), (0,0)$<br /><br />Step 6: Evaluate $Z$ at these points:<br />$(0,0):0$<br />$(0,4): 0+50\\times4=200$<br />$(4,2): 30\\times4+50\\times2=120+100=220$<br />$(5,0):30\\times5=150$<br /><br />Maximum profit is Rs 220 at $(4,2)$.<br />So, produce 4 units of A and 2 units of B per day.",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 4 units of A and 2 units of B; maximum profit Rs 220",
+    "B": "Produce 0 units of A and 4 units of B; maximum profit Rs 200",
+    "C": "Produce 5 units of A and 0 units of B; maximum profit Rs 150",
+    "D": "Produce 0 units of A and 0 units of B; maximum profit Rs 0"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:32:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

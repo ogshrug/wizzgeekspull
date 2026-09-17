@@ -1,0 +1,29 @@
+{
+  "id": "6a8d3dba550d28a069ec32f4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Consider the function $f:\\mathbb{N}\\to\\mathbb{N}$ defined by $f(n)=n+2$.<br><br>(i) Determine whether $1$ and $2$ have pre-images under $f$.<br><br>(ii) Hence examine whether $f$ is onto.",
+  "answeroption": "B",
+  "explanation": "<b>(i) Pre-image of $1$</b><br>If $f(n)=1$, then<br>$$n+2=1\\Rightarrow n=-1.$$<br>Since $-1\\notin\\mathbb{N}$, $1$ has no pre-image.<br><br><b>Pre-image of $2$</b><br>If $f(n)=2$, then<br>$$n+2=2\\Rightarrow n=0.$$<br>Since $0\\notin\\mathbb{N}$, $2$ has no pre-image.<br><br><b>(ii) Onto criterion</b><br>An onto function must provide a pre-image in the domain for every element of the co-domain.<br><br><b>Conclusion</b><br>Since $1$ and $2$ have no pre-images in $\\mathbb{N}$, $f$ is not onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$ has no pre-image, $2$ has the pre-image $0$, and $f$ is onto",
+    "B": "Neither $1$ nor $2$ has a pre-image in $\\mathbb{N}$, and $f$ is not onto",
+    "C": "Both $1$ and $2$ have pre-images in $\\mathbb{N}$, and $f$ is onto",
+    "D": "Neither $1$ nor $2$ has a pre-image in $\\mathbb{N}$, but $f$ is onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

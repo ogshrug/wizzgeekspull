@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed99b751910886affb9e4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "SA",
+  "question": "A rectangular field has an area of $800$ m$^2$. Find its dimensions for which the length of fencing required around it is minimum. Also determine the minimum perimeter.",
+  "answeroption": "D",
+  "explanation": "<b>Area constraint</b><br>Let the breadth be $x$ m. Then the length is $\\frac{800}{x}$ m.<br><b>Perimeter function</b><br>$$P(x)=2\\left(x+\\frac{800}{x}\\right)=2x+\\frac{1600}{x}$$<br><b>Stationary condition</b><br>$$P'(x)=2-\\frac{1600}{x^2}$$<br>Setting $P'(x)=0$ gives<br>$$x^2=800\\Rightarrow x=20\\sqrt{2}$$<br><b>Minimum verification</b><br>$$P''(x)=\\frac{3200}{x^3}>0$$<br>Thus, the perimeter is minimum. The length is also $20\\sqrt{2}$ m.<br><b>Minimum perimeter</b><br>$$P_{\\min}=4(20\\sqrt{2})=80\\sqrt{2}\\text{ m}$$<br><b>Conclusion</b><br>The field must be a square of side $20\\sqrt{2}$ m.",
+  "explanation_image": [],
+  "options": {
+    "A": "Dimensions $20$ m by $40$ m; minimum perimeter $120$ m",
+    "B": "Dimensions $10\\sqrt{8}$ m by $20\\sqrt{2}$ m; minimum perimeter $60\\sqrt{2}$ m",
+    "C": "Dimensions $40\\sqrt{2}$ m by $10\\sqrt{2}$ m; minimum perimeter $100\\sqrt{2}$ m",
+    "D": "Dimensions $20\\sqrt{2}$ m by $20\\sqrt{2}$ m; minimum perimeter $80\\sqrt{2}$ m"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

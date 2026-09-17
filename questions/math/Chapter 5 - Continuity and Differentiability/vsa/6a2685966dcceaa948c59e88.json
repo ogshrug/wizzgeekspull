@@ -1,0 +1,28 @@
+{
+  "id": "6a2685966dcceaa948c59e88",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "VSA",
+  "question": "If $x = a\\sin 2t, y = a(\\cos 2t + \\log\\tan t)$, then find $\\frac{dy}{dx}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate the parametric variable $x$ with respect to parameter $t$: $\\frac{dx}{dt} = a \\cos 2t \\cdot 2 = 2a\\cos 2t$.<br />**Step 2:** Differentiate the parametric variable $y$ with respect to $t$ using the chain rule on the log-tangent term: $\\frac{dy}{dt} = a\\left( -2\\sin 2t + \\frac{1}{\\tan t} \\cdot \\sec^2 t \\right) = a\\left( -2\\sin 2t + \\frac{\\cos t}{\\sin t \\cos^2 t} \\right) = a\\left( -2\\sin 2t + \\frac{2}{2\\sin t \\cos t} \\right) = a\\left( -2\\sin 2t + \\frac{2}{\\sin 2t} \\right)$. Simplifying gives $\\frac{dy}{dt} = 2a\\left( \\frac{1 - \\sin^2 2t}{\\sin 2t} \\right) = \\frac{2a\\cos^2 2t}{\\sin 2t}$.<br />**Step 3:** Combine these derivatives using the parametric chain rule formula: $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{\\frac{2a\\cos^2 2t}{\\sin 2t}}{2a\\cos 2t} = \\frac{\\cos 2t}{\\sin 2t} = \\cot 2t$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

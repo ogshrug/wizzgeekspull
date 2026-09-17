@@ -1,0 +1,28 @@
+{
+  "id": "6a22c08b864be73cfcf6d306",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "SA",
+  "question": "Find the distance between the lines: $\\vec{r}=(\\hat{i}+2\\hat{j}-4\\hat{k})+\\lambda(2\\hat{i}+3\\hat{j}+6\\hat{k})$; $\\vec{r}=(3\\hat{i}+3\\hat{j}-5\\hat{k})+\\mu(4\\hat{i}+6\\hat{j}+12\\hat{k})$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Notice that the direction vectors are parallel: $\\vec{b}_1 = 2\\hat{i}+3\\hat{j}+6\\hat{k}$ and $\\vec{b}_2 = 4\\hat{i}+6\\hat{j}+12\\hat{k} = 2\\vec{b}_1$. This means the lines are parallel. We use the shared direction vector $\\vec{b} = 2\\hat{i}+3\\hat{j}+6\\hat{k}$. Here $\\vec{a}_1 = \\hat{i}+2\\hat{j}-4\\hat{k}$ and $\\vec{a}_2 = 3\\hat{i}+3\\hat{j}-5\\hat{k}$.<br />**Step 2:** Calculate $\\vec{a}_2 - \\vec{a}_1 = 2\\hat{i} + \\hat{j} - \\hat{k}$. Now compute the cross product $\\vec{b} \\times (\\vec{a}_2 - \\vec{a}_1) = \\left|\\begin{matrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\ 2&3&6\\\\ 2&1&-1\\end{matrix}\\right| = \\hat{i}(-3-6) - \\hat{j}(-2-12) + \\hat{k}(2-6) = -9\\hat{i} + 14\\hat{j} - 4\\hat{k}$.<br />**Step 3:** Distance $d = \\frac{|\\vec{b} \\times (\\vec{a}_2 - \\vec{a}_1)|}{|\\vec{b}|} = \\frac{\\sqrt{(-9)^2 + 14^2 + (-4)^2}}{\\sqrt{2^2+3^2+6^2}} = \\frac{\\sqrt{81+196+16}}{\\sqrt{49}} = \\frac{\\sqrt{293}}{7}\\text{ units}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-2",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

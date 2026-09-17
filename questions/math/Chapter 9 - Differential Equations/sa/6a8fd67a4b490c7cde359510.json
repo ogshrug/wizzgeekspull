@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd67a4b490c7cde359510",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99f"
+  ],
+  "question_type": "SA",
+  "question": "Determine the degree, wherever defined, of the following differential equations. Give reason in each case:<br>(i) $\\left(\\frac{d^2y}{dx^2}\\right)^3+\\left(\\frac{dy}{dx}\\right)^2+y=0$<br>(ii) $\\frac{d^3y}{dx^3}+\\left(\\frac{dy}{dx}\\right)^5+y^2=0$<br>(iii) $\\sin\\left(\\frac{dy}{dx}\\right)+y=0$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Check polynomial form in derivatives</b><br>Degree is defined only when the differential equation is a polynomial equation in its derivatives. When defined, it is the highest positive integral power of the highest order derivative.<br><b>Step 2: Equation (i)</b><br>The highest order derivative is $\\frac{d^2y}{dx^2}$ and its power is $3$. The equation is polynomial in its derivatives. Hence, its degree is $3$.<br><b>Step 3: Equation (ii)</b><br>The highest order derivative is $\\frac{d^3y}{dx^3}$, whose power is $1$. Therefore, the degree is $1$. The fifth power of the lower-order derivative does not determine the degree.<br><b>Step 4: Equation (iii)</b><br>Here $\\frac{dy}{dx}$ occurs inside the sine function. Thus, the equation is not polynomial in its derivative, so its degree is not defined.<br><b>Step 5: Final answer</b><br>The degrees are respectively $3$, $1$ and not defined.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $2$<br>(ii) $5$<br>(iii) $1$",
+    "B": "(i) $3$<br>(ii) $1$<br>(iii) Not defined",
+    "C": "(i) $3$<br>(ii) $5$<br>(iii) Not defined",
+    "D": "(i) $2$<br>(ii) $1$<br>(iii) $1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

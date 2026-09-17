@@ -1,0 +1,31 @@
+{
+  "id": "69a95c4ed30adc5083911a65",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d73",
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "VSA",
+  "question": "For what values of $k$ do the equations<br /><br />$\\begin{aligned} 2x + 3y + kz &= 0 \\\\ x + 2y + 2z &= 0 \\\\ 3x + 4y + 5z &= 0 \\end{aligned}$<br /><br />have a non-trivial solution?",
+  "answeroption": "B",
+  "explanation": "For non-trivial solution determinant must be zero.<br />Let $\\Delta = \\begin{vmatrix} 2 & 3 & k \\\\ 1 & 2 & 2 \\\\ 3 & 4 & 5 \\end{vmatrix}$<br /><br />Expand along first row:<br />$= 2 \\begin{vmatrix} 2 & 2 \\\\ 4 & 5 \\end{vmatrix} - 3 \\begin{vmatrix} 1 & 2 \\\\ 3 & 5 \\end{vmatrix} + k \\begin{vmatrix} 1 & 2 \\\\ 3 & 4 \\end{vmatrix}$<br /><br />Calculate minors:<br />$\\begin{vmatrix} 2 & 2 \\\\ 4 & 5 \\end{vmatrix} = 2 \\times 5 - 2 \\times 4 = 10 - 8 = 2$<br />$\\begin{vmatrix} 1 & 2 \\\\ 3 & 5 \\end{vmatrix} = 1 \\cdot 5 - 2 \\cdot 3 = 5 - 6 = -1$<br />$\\begin{vmatrix} 1 & 2 \\\\ 3 & 4 \\end{vmatrix} = 1 \\cdot 4 - 2 \\cdot 3 = 4 - 6 = -2$<br /><br />So,<br />$2 \\cdot 2 - 3 \\cdot (-1) + k \\cdot (-2) = 0$<br />$4 + 3 - 2k = 0$<br />$7 - 2k = 0$<br />$k = \\frac{7}{2}$<br /><br />Thus, required value is $k = \\frac{7}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{5}{2}$",
+    "B": "$\\frac{7}{2}$",
+    "C": "$-\\frac{7}{2}$",
+    "D": "$2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:34:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a32840ed5dca7dcb0bf0ee2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977"
+  ],
+  "question_type": "VSA",
+  "question": "Show that $f(x) = \\frac{4\\sin x}{2+\\cos x} - x$ is an increasing function of x in $[0, \\frac{\\pi}{2}]$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate using quotient rule: $f'(x) = \\frac{(2+\\cos x)(4\\cos x) - (4\\sin x)(-\\sin x)}{(2+\\cos x)^2} - 1$.\n\n**Step 2:** Simplify numerator: $8\\cos x + 4\\cos^2 x + 4\\sin^2 x = 8\\cos x + 4(\\cos^2 x + \\sin^2 x) = 8\\cos x + 4$.\n\n**Step 3:** Substitute back: $f'(x) = \\frac{8\\cos x + 4}{(2+\\cos x)^2} - 1 = \\frac{8\\cos x + 4 - (4 + 4\\cos x + \\cos^2 x)}{(2+\\cos x)^2}$.\n\n**Step 4:** Final simplification yields $f'(x) = \\frac{4\\cos x - \\cos^2 x}{(2+\\cos x)^2} = \\frac{\\cos x(4-\\cos x)}{(2+\\cos x)^2}$.\n\n**Step 5:** In $[0, \\frac{\\pi}{2}]$, $\\cos x > 0$, $4-\\cos x > 0$, and $(2+\\cos x)^2 > 0$. Since $f'(x) \\ge 0$, it is strictly increasing.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

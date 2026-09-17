@@ -1,0 +1,31 @@
+{
+  "id": "6a8ef07bbe0ecc7866e90c0e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f",
+    "6a13e9908c819562f933f980",
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x)=\\sqrt[3]{x}$.<br><br>(a) Find the linear approximation of $f$ near $x=64$.<br><br>(b) Use it to approximate $\\sqrt[3]{64.8}$.<br><br>(c) Calculate the approximate percentage increase in the cube root when the number increases from $64$ to $64.8$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For $f(x)=x^{\\frac{1}{3}}$,<br>$$f'(x)=\\frac{1}{3x^{\\frac{2}{3}}}$$<br>At $x=64$,<br>$$f(64)=4$$<br>and<br>$$f'(64)=\\frac{1}{3(64)^{\\frac{2}{3}}}=\\frac{1}{3(16)}=\\frac{1}{48}$$<br>Therefore, the linear approximation near $x=64$ is<br>$$L(x)=4+\\frac{x-64}{48}$$<br><br><b>(b)</b><br>For $x=64.8$,<br>$$dx=64.8-64=0.8$$<br>Thus,<br>$$\\sqrt[3]{64.8}\\approx 4+\\frac{0.8}{48}$$<br>$$\\sqrt[3]{64.8}\\approx 4+\\frac{1}{60}$$<br>$$\\sqrt[3]{64.8}\\approx 4.0167$$<br><br><b>(c)</b><br>The approximate increase in the cube root is<br>$$df=\\frac{1}{60}$$<br>Therefore, the approximate percentage increase is<br>$$\\frac{df}{f(64)}\\times 100=\\frac{\\frac{1}{60}}{4}\\times 100$$<br>$$=\\frac{5}{12}\\%\\approx 0.4167\\%$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $L(x)=4+\\frac{x-64}{16}$<br>(b) $\\sqrt[3]{64.8}\\approx4.05$<br>(c) Percentage increase $1.25\\%$",
+    "B": "(a) $L(x)=4+\\frac{x-64}{24}$<br>(b) $\\sqrt[3]{64.8}\\approx4.0333$<br>(c) Percentage increase $0.8333\\%$",
+    "C": "(a) $L(x)=4+\\frac{x-64}{48}$<br>(b) $\\sqrt[3]{64.8}\\approx4.0167$<br>(c) Percentage increase $\\frac{5}{12}\\%\\approx0.4167\\%$",
+    "D": "(a) $L(x)=4-\\frac{x-64}{48}$<br>(b) $\\sqrt[3]{64.8}\\approx3.9833$<br>(c) Percentage decrease $0.4167\\%$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

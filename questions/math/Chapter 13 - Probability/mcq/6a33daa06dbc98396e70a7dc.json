@@ -1,0 +1,31 @@
+{
+  "id": "6a33daa06dbc98396e70a7dc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "MCQ",
+  "question": "A meeting will be held only if all three members A, B and C are present. The probability that member A does not turn up is 0.10, member B does not turn up is 0.20 and member C does not turn up is 0.05. The probability of the meeting being cancelled is :",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Calculate the independent probabilities that each individual member will be present at the meeting using the complement rule: $P(A) = 1 - 0.10 = 0.90$, $P(B) = 1 - 0.20 = 0.80$, and $P(C) = 1 - 0.05 = 0.95$.<br />**Step 2:** Find the joint probability that all three members turn up simultaneously so that the meeting can be held: $P(\\text{Held}) = P(A) \\cdot P(B) \\cdot P(C) = 0.90 \\times 0.80 \\times 0.95 = 0.684$.<br />**Step 3:** Use the complement rule to calculate the probability that the meeting is cancelled: $P(\\text{Cancelled}) = 1 - P(\\text{Held}) = 1 - 0.684 = 0.316$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0.35",
+    "B": "0.316",
+    "C": "0.001",
+    "D": "0.65"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

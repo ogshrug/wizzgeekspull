@@ -1,0 +1,29 @@
+{
+  "id": "6a8d24bc550d28a069ec32dc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "Consider $f:\\mathbb{Z}\\to\\mathbb{Z}$ defined by $f(x)=2x+1$. Determine whether the integer $6$ has a pre-image under $f$, and use this to comment on the onto nature of the function.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> An onto function must provide a pre-image in the domain for every element of the co-domain.<br><b>Step 2:</b> To check whether $6$ has a pre-image, solve $2x+1=6$.<br><b>Step 3:</b> This gives $2x=5$, so $x=\\frac{5}{2}$.<br><b>Step 4:</b> But $\\frac{5}{2}\\notin\\mathbb{Z}$, while the domain is $\\mathbb{Z}$. Hence, no integer is mapped to $6$.<br><b>Step 5:</b> Since at least one element of the co-domain has no pre-image, the function fails the required condition for being onto.<br><b>Final Answer:</b> $6$ has no pre-image in $\\mathbb{Z}$; therefore, $f$ is not onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$6$ has the pre-image $\\dfrac{5}{2}$; therefore, $f$ is onto",
+    "B": "$6$ has the pre-image $3$; therefore, $f$ is onto",
+    "C": "$6$ has no pre-image; however, $f$ is onto",
+    "D": "$6$ has no pre-image in $\\mathbb{Z}$; therefore, $f$ is not onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

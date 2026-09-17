@@ -1,0 +1,32 @@
+{
+  "id": "6a22a752864be73cfcf6d29d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cc",
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "MCQ",
+  "question": "Direction cosines of the line $\\frac{x-1}{2} = \\frac{1-y}{3} = \\frac{2z-1}{12}$ are:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** The standard Cartesian equation of a line is $\\frac{x-x_1}{a} = \\frac{y-y_1}{b} = \\frac{z-z_1}{c}$, where the coefficients of $x, y, z$ must be precisely positive 1.<br />**Step 2:** We must manipulate the given equation to match this standard form. The first term $\\frac{x-1}{2}$ is fine. For the second term, $\\frac{1-y}{3}$, multiply numerator and denominator by -1 to get $\\frac{y-1}{-3}$. For the third term, $\\frac{2z-1}{12}$, divide numerator and denominator by 2 to get $\\frac{z-1/2}{6}$.<br />**Step 3:** The standard form is $\\frac{x-1}{2} = \\frac{y-1}{-3} = \\frac{z-1/2}{6}$. The direction ratios $a, b, c$ are proportional to $(2, -3, 6)$.<br />**Step 4:** Calculate the magnitude of this direction vector: $\\sqrt{2^2 + (-3)^2 + 6^2} = \\sqrt{4+9+36} = \\sqrt{49} = 7$.<br />**Step 5:** The direction cosines are found by dividing each direction ratio by the magnitude. The direction cosines are $(\\frac{2}{7}, -\\frac{3}{7}, \\frac{6}{7})$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{7},\\frac{3}{7},\\frac{6}{7}$",
+    "B": "$\\frac{2}{\\sqrt{157}},-\\frac{3}{\\sqrt{157}},\\frac{12}{\\sqrt{157}}$",
+    "C": "$\\frac{2}{7},-\\frac{3}{7},-\\frac{6}{7}$",
+    "D": "$\\frac{2}{7},-\\frac{3}{7},\\frac{6}{7}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

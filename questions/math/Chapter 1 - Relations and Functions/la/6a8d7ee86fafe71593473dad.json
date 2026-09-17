@@ -1,0 +1,32 @@
+{
+  "id": "6a8d7ee86fafe71593473dad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "Let $L$ be the set of all lines in a plane and define a relation $R$ on $L$ by $L_1RL_2$ if $L_1$ is perpendicular to $L_2$. Examine the reflexive, symmetric and transitive properties of $R$ using suitable lines, and hence justify whether $R$ is an equivalence relation.",
+  "answeroption": "A",
+  "explanation": "<b>Reflexivity</b><br>A line cannot be perpendicular to itself. Therefore, for any $L_1\\in L$, $(L_1,L_1)\\notin R$. Hence, $R$ is not reflexive.<br><br><b>Symmetry</b><br>Suppose $(L_1,L_2)\\in R$. Then $L_1$ is perpendicular to $L_2$. Perpendicularity of lines is mutual, so $L_2$ is perpendicular to $L_1$. Hence, $(L_2,L_1)\\in R$. Therefore, $R$ is symmetric.<br><br><b>Transitivity</b><br>Consider the lines<br>$$L_1:y=0,\\qquad L_2:x=0,\\qquad L_3:y=1.$$<br>The line $L_1$ is perpendicular to $L_2$, so $(L_1,L_2)\\in R$. Also, $L_2$ is perpendicular to $L_3$, so $(L_2,L_3)\\in R$. However, $L_1$ and $L_3$ are parallel and therefore are not perpendicular. Thus, $(L_1,L_3)\\notin R$. Hence, $R$ is not transitive.<br><br><b>Final Result</b><br>The relation $R$ is symmetric but neither reflexive nor transitive. Therefore, it is not an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is symmetric but neither reflexive nor transitive; hence, it is not an equivalence relation",
+    "B": "$R$ is reflexive and symmetric but not transitive; hence, it is not an equivalence relation",
+    "C": "$R$ is reflexive, symmetric and transitive; hence, it is an equivalence relation",
+    "D": "$R$ is transitive but neither reflexive nor symmetric; hence, it is not an equivalence relation"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

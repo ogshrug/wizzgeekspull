@@ -1,0 +1,27 @@
+{
+  "id": "6a311282ed9d5eb2aa722a07",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a",
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Find $\\int\\frac{x+2}{\\sqrt{x^{2}-4x-5}}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1: Rewrite the Numerator as Derivative of Denominator**  \nLet $I = \\int \\frac{x+2}{\\sqrt{x^2-4x-5}} \\, dx$. We express $x+2$ as a combination of the derivative of $x^2-4x-5$ and a constant.  \nDerivative of denominator: $\\frac{d}{dx}(x^2-4x-5) = 2x-4$.  \nLet $x+2 = A(2x-4) + B$.  \nComparing coefficients: $1 = 2A \\Rightarrow A = \\frac{1}{2}$; and $2 = -4A + B \\Rightarrow 2 = -2 + B \\Rightarrow B = 4$.  \nSo, $x+2 = \\frac{1}{2}(2x-4) + 4$.\n\n**Step 2: Split the Integral**  \n$$I = \\int \\frac{\\frac{1}{2}(2x-4) + 4}{\\sqrt{x^2-4x-5}} \\, dx$$  \n$$I = \\frac{1}{2} \\int \\frac{2x-4}{\\sqrt{x^2-4x-5}} \\, dx + 4 \\int \\frac{1}{\\sqrt{x^2-4x-5}} \\, dx$$  \n$$I = I_1 + I_2$$  \nwhere $I_1 = \\frac{1}{2} \\int \\frac{2x-4}{\\sqrt{x^2-4x-5}} \\, dx$ and $I_2 = 4 \\int \\frac{1}{\\sqrt{x^2-4x-5}} \\, dx$.\n\n**Step 3: Evaluate $I_1$ Using Substitution**  \nLet $u = x^2-4x-5$, then $du = (2x-4) \\, dx$.  \n$$I_1 = \\frac{1}{2} \\int \\frac{du}{\\sqrt{u}} = \\frac{1}{2} \\cdot 2\\sqrt{u} = \\sqrt{u} = \\sqrt{x^2-4x-5}$$\n\n**Step 4: Evaluate $I_2$ by Completing the Square**  \nComplete the square in the denominator:  \n$$x^2-4x-5 = (x^2-4x+4) - 9 = (x-2)^2 - 9 = (x-2)^2 - 3^2$$  \nSo, $$I_2 = 4 \\int \\frac{1}{\\sqrt{(x-2)^2 - 3^2}} \\, dx$$  \nUsing the standard formula $\\int \\frac{1}{\\sqrt{x^2-a^2}} \\, dx = \\ln|x + \\sqrt{x^2-a^2}| + C$, we get:  \n$$I_2 = 4 \\ln\\left| (x-2) + \\sqrt{x^2-4x-5} \\right|$$\n\n**Step 5: Combine Results**  \n$$I = I_1 + I_2 = \\sqrt{x^2-4x-5} + 4\\ln\\left| x-2 + \\sqrt{x^2-4x-5} \\right| + C$$  \nThus, the required integral is:  \n$$\\boxed{\\sqrt{x^2-4x-5} + 4\\ln\\left| x-2 + \\sqrt{x^2-4x-5} \\right| + C}$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

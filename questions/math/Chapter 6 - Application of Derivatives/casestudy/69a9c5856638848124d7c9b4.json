@@ -1,0 +1,31 @@
+{
+  "id": "69a9c5856638848124d7c9b4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975",
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 3: Rate of Change and Tangency in a Biological Farm**<br /><br />A rectangular fish tank is being filled with water at a constant rate. The length $l$ of the tank is $2$ m, the width $w$ is $1.5$ m, and the water level $h$ (in m) increases at a rate of $0.02\\ \\text{m/min}$. At the moment when $h = 1$ m:<br /><br />(a) Calculate the rate at which the volume of water in the tank is increasing.<br /><br />(b) The price the farm can charge per $\\text{m}^3$ depends on the instantaneous rate at which the surface area in contact with air is changing. If the top surface is constant, compute $dA/dt$.<br /><br />(c) Suppose the owner introduces a sloping cover, so the top area is $A(h) = l w + kh$. Find $k$ such that the rate of change of $A$ with respect to time matches the increase of water level, and derive an equation for $h$ as a function of time.",
+  "answeroption": "D",
+  "explanation": "(a) $V = lwh$<br /><br />$\\frac{dV}{dt} = lw\\frac{dh}{dt} = 2 \\times 1.5 \\times 0.02 = 0.06 \\text{ m}^3/\\text{min}$<br /><br />(b) $A = lw = 3$ so $\\frac{dA}{dt} = 0$.<br /><br />(c) $A(h) = 3 + kh$<br /><br />$\\frac{dA}{dt} = k\\frac{dh}{dt}$<br /><br />If $\\frac{dA}{dt} = \\frac{dh}{dt}$ then $k = 1$.<br /><br />$h(t) = h_0 + 0.02t$ (if $h_0 = 0$, then $h(t) = 0.02t$).",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dV}{dt}=0.03\\text{ m}^3/\\text{min}$<br />(b) $\\frac{dA}{dt}=0.02$<br />(c) $k=2$ and $h(t)=h_0+0.02t$.",
+    "B": "(a) $\\frac{dV}{dt}=0.06\\text{ m}^3/\\text{min}$<br />(b) $\\frac{dA}{dt}=3$<br />(c) $k=1$ and $h(t)=0.06t$.",
+    "C": "(a) $\\frac{dV}{dt}=0.09\\text{ m}^3/\\text{min}$<br />(b) $\\frac{dA}{dt}=0$<br />(c) $k=3$ and $h(t)=h_0+0.02t$.",
+    "D": "(a) $\\frac{dV}{dt}=0.06\\text{ m}^3/\\text{min}$<br />(b) $\\frac{dA}{dt}=0$<br />(c) $k=1$ and $h(t)=h_0+0.02t$; if $h_0=0$, then $h(t)=0.02t$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:03:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

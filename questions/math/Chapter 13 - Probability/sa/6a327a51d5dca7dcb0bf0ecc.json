@@ -1,0 +1,26 @@
+{
+  "id": "6a327a51d5dca7dcb0bf0ecc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "SA",
+  "question": "Bag I contains 3 red and 4 black balls, Bag II contains 5 red and 2 black balls. Two balls are transferred at random from Bag I to Bag II and then a ball is drawn at random from Bag II. Find the probability that the drawn ball is red in colour.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Define events for transfer from Bag I (total 7 balls): $E_0 = 0 \\text{ Red}$ (2 Black), $E_1 = 1 \\text{ Red}$ (1 Black), $E_2 = 2 \\text{ Red}$. $P(E_0) = \\frac{\\binom{4}{2}}{\\binom{7}{2}} = \\frac{6}{21}$. $P(E_1) = \\frac{\\binom{3}{1}\\binom{4}{1}}{\\binom{7}{2}} = \\frac{12}{21}$. $P(E_2) = \\frac{\\binom{3}{2}}{\\binom{7}{2}} = \\frac{3}{21}$.\n\n**Step 2:** Find probability of drawing Red from Bag II given each event. Initially Bag II has 7 balls. After transferring 2 balls, it has 9 balls. $P(R|E_0) = \\frac{5+0}{9} = \\frac{5}{9}$. $P(R|E_1) = \\frac{5+1}{9} = \\frac{6}{9}$. $P(R|E_2) = \\frac{5+2}{9} = \\frac{7}{9}$.\n\n**Step 3:** Apply the Law of Total Probability: $P(R) = P(E_0)P(R|E_0) + P(E_1)P(R|E_1) + P(E_2)P(R|E_2) = \\left(\\frac{6}{21} \\times \\frac{5}{9}\\right) + \\left(\\frac{12}{21} \\times \\frac{6}{9}\\right) + \\left(\\frac{3}{21} \\times \\frac{7}{9}\\right)$.\n\n**Step 4:** Calculate final probability: $P(R) = \\frac{30 + 72 + 21}{189} = \\frac{123}{189} = \\frac{41}{63}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

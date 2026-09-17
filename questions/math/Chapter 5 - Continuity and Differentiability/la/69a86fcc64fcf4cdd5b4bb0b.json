@@ -1,0 +1,30 @@
+{
+  "id": "69a86fcc64fcf4cdd5b4bb0b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "LA",
+  "question": "Suppose $f(x) = \\sin^{-1}(\\sqrt{1-x^2})$ for $-1 \\leq x \\leq 1$. Show that: $\\frac{d^2f}{dx^2} + \\frac{x}{1-x^2} \\frac{df}{dx} = 0$",
+  "answeroption": "C",
+  "explanation": "Let $f(x) = \\sin^{-1}(\\sqrt{1-x^2})$<br /><br />First derivative:<br /><br />$\\frac{df}{dx} = -\\frac{1}{\\sqrt{1-x^2}}$<br /><br />Second derivative:<br /><br />$\\frac{d^2f}{dx^2} = -\\frac{x}{(1-x^2)^{3/2}}$<br /><br />Now,<br /><br />$\\frac{x}{1-x^2} \\frac{df}{dx} = -\\frac{x}{(1-x^2)^{3/2}}$<br /><br />Adding results gives 0.<br /><br />Thus proved.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2f}{dx^2}+\\frac{x}{1-x^2}\\frac{df}{dx}=1$",
+    "B": "$\\frac{d^2f}{dx^2}+\\frac{x}{1-x^2}\\frac{df}{dx}=-1$",
+    "C": "$\\frac{d^2f}{dx^2}+\\frac{x}{1-x^2}\\frac{df}{dx}=0$",
+    "D": "$\\frac{d^2f}{dx^2}+\\frac{x}{1-x^2}\\frac{df}{dx}=\\frac{1}{\\sqrt{1-x^2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:45:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

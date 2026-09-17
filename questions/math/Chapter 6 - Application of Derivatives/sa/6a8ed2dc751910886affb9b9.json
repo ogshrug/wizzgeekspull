@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed2dc751910886affb9b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973"
+  ],
+  "question_type": "SA",
+  "question": "For $y=\\sqrt{x^2+9}$, calculate the instantaneous rate of change of $y$ with respect to $x$ at $x=4$. Interpret the sign of the result.",
+  "answeroption": "C",
+  "explanation": "Given relation$$y=(x^2+9)^{\\frac{1}{2}}$$Differentiation using the chain rule$$\\frac{dy}{dx}=\\frac{1}{2}(x^2+9)^{-\\frac{1}{2}}(2x)$$Therefore,$$\\frac{dy}{dx}=\\frac{x}{\\sqrt{x^2+9}}$$Evaluation at $x=4$$$\\left.\\frac{dy}{dx}\\right|_{x=4}=\\frac{4}{\\sqrt{4^2+9}}=\\frac{4}{\\sqrt{25}}=\\frac{4}{5}$$Interpretation of the signThe derivative is positive, so $y$ increases as $x$ increases near $x=4$.Final resultThe instantaneous rate of change is $\\frac{4}{5}$ unit of $y$ per unit increase in $x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{4}{5}$; $y$ is decreasing near $x=4$",
+    "B": "$\\frac{5}{4}$; $y$ is increasing near $x=4$",
+    "C": "$\\frac{4}{5}$; $y$ is increasing near $x=4$",
+    "D": "$\\frac{4}{25}$; $y$ is increasing near $x=4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

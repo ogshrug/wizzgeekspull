@@ -1,0 +1,29 @@
+{
+  "id": "6a265c50850cc99714b54f2a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $(xe^{\\frac{y}{x}}+y)\\,dx=x\\,dy$, given that $y=1$ when $x=1$.",
+  "answeroption": "$e^{-y/x}=e^{-1}-\\log|x|$",
+  "explanation": "<b>Step 1</b> Rewrite the equation in differential form: $\\frac{dy}{dx}=e^{y/x}+\\frac{y}{x}$. Since the right-hand side is a function of $\\frac{y}{x}$, the equation is homogeneous.<br /><br /><b>Step 2</b> Put $y=vx$. Then $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$. Substituting gives: $v+x\\frac{dv}{dx}=e^v+v$. Hence, $x\\frac{dv}{dx}=e^v$.<br /><br /><b>Step 3</b> Separate the variables: $e^{-v}dv=\\frac{dx}{x}$. Integrating both sides gives $-e^{-v}=\\ln|x|+C$.<br /><br /><b>Step 4</b> Replace $v=\\frac{y}{x}$ to obtain $-e^{-y/x}=\\ln|x|+C$.<br /><br /><b>Step 5</b> Use the condition $y=1$ when $x=1$: $-e^{-1}=0+C$. Thus, $C=-e^{-1}$. Therefore, the required particular solution is $e^{-y/x}=e^{-1}-\\ln|x|$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

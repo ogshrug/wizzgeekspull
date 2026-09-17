@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed8164b490c7cde35949e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\int_2^5f(x)\\,dx=4$ and $\\int_5^2f(x)\\,dx=k$, determine $k$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1:</b> Use the property of definite integrals obtained by interchanging the limits: $$\\int_a^bf(x)\\,dx=-\\int_b^af(x)\\,dx.$$<br><b>Step 2:</b> Here, $\\int_2^5f(x)\\,dx=4$. Therefore, $$\\int_5^2f(x)\\,dx=-\\int_2^5f(x)\\,dx.$$<br><b>Step 3:</b> Substituting the given value gives $k=-4$.<br><b>Step 4:</b> Thus, reversing the upper and lower limits changes only the sign of the definite integral.<br><b>Step 5:</b> Hence, the required value is $\\boxed{k=-4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=-4$",
+    "B": "$k=4$",
+    "C": "$k=-2$",
+    "D": "$k=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa751a2a66c0f894c1a9ff",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "Given the points $A(1,2,3), B(3,0,1), C(-1,-2,-1)$, and the plane $P: x + 2y + z = 7$.\n\n(a) Find the equation of the line passing through $A$ and parallel to $\\vec{AB}$.\n\n(b) Determine the point where this line intersects the plane $P$.\n\n(c) Calculate the distance from $C$ to the plane $P$.\n\n(d) Find the equation of the plane passing through $A$ and perpendicular to $\\vec{AB}$.",
+  "answeroption": "A",
+  "explanation": "**Concepts Tested:** Three Dimensional Geometry, Line-Plane Intersection, Distance from a Point to a Plane, Equation of Plane<br /><br />(a) $\\vec{AB} = (3-1, 0-2, 1-3) = (2, -2, -2)$<br /><br />Equation: $\\vec{r} = (1,2,3) + \\lambda (2,-2,-2)$<br /><br />(b) Plug into $x + 2y + z = 7$<br /><br />Let $x=1+2\\lambda$, $y=2-2\\lambda$, $z=3-2\\lambda$<br /><br />$1+2\\lambda + 2(2-2\\lambda) + 3-2\\lambda = 7$<br /><br />$1+2\\lambda + 4-4\\lambda + 3-2\\lambda = 7$<br /><br />$(1+4+3)+(2\\lambda-4\\lambda-2\\lambda) = 7$<br /><br />$8 - 4\\lambda = 7$<br /><br />$\\lambda = \\frac{1}{4}$<br /><br />Point: $(1.5,1.5,2.5)$<br /><br />(c) Distance $= |ax_1 + by_1 + cz_1 - d|/\\sqrt{a^2+b^2+c^2}$ for $Ax+By+Cz=D$<br /><br />$= | -1 + 2(-2) + (-1) - 7|/\\sqrt{1+4+1} $<br /><br />$= |-1 -4 -1 -7|/\\sqrt{6}$<br /><br />$= |-13|/\\sqrt{6}$<br /><br />$= \\frac{13}{\\sqrt{6}}$<br /><br />(d) Plane through $A$ and normal to $\\vec{AB} =(2,-2,-2)$:<br /><br />$2(x-1) -2(y-2) -2(z-3) = 0$<br /><br />$2x -2 -2y +4 -2z +6 =0$<br /><br />$2x -2y -2z +8 = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec r=(1,2,3)+\\lambda(2,-2,-2)$<br />(b) Intersection point $=\\left(\\frac32,\\frac32,\\frac52\\right)$<br />(c) Distance from $C$ to $P$ $=\\frac{13}{\\sqrt6}$<br />(d) Required plane: $2x-2y-2z+8=0$",
+    "B": "(a) $\\vec r=(1,2,3)+\\lambda(2,2,2)$<br />(b) Intersection point $=\\left(\\frac12,\\frac32,\\frac52\\right)$<br />(c) Distance from $C$ to $P$ $=\\frac{7}{\\sqrt6}$<br />(d) Required plane: $2x+2y+2z+8=0$",
+    "C": "(a) $\\vec r=(3,0,1)+\\lambda(2,-2,-2)$<br />(b) Intersection point $=(2,1,2)$<br />(c) Distance from $C$ to $P$ $=\\frac{11}{\\sqrt6}$<br />(d) Required plane: $x+2y+z=7$",
+    "D": "(a) $\\vec r=(1,2,3)+\\lambda(-2,2,2)$<br />(b) Intersection point $=\\left(\\frac32,\\frac52,\\frac32\\right)$<br />(c) Distance from $C$ to $P$ $=\\sqrt6$<br />(d) Required plane: $2x-2y-2z=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:32:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

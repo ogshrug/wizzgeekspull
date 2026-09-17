@@ -1,0 +1,27 @@
+{
+  "id": "6a2296b4864be73cfcf6d237",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d85",
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "SA",
+  "question": "If $x=e^{cos~3t}$ and $y=e^{sin~3t}$, prove that $\\frac{dy}{dx}=-\\frac{y~log~x}{x~log~y}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** This is a problem involving parametric equations. We need to find $\\frac{dy}{dt}$ and $\\frac{dx}{dt}$ to ultimately find $\\frac{dy}{dx}$. A simpler approach is to take the natural logarithm of both given parametric equations to remove the exponential function. From $x = e^{\\cos 3t}$, we get $\\ln x = \\cos 3t$. From $y = e^{\\sin 3t}$, we get $\\ln y = \\sin 3t$.<br />**Step 2:** To eliminate the parameter $t$, we can square both of these newly formed logarithmic equations and add them together. This gives $(\\ln x)^2 + (\\ln y)^2 = \to \\cos^2(3t) + \\sin^2(3t)$.<br />**Step 3:** Using the fundamental trigonometric identity $\\cos^2\\theta + \\sin^2\\theta = 1$, the equation simplifies significantly to $(\\ln x)^2 + (\\ln y)^2 = 1$. We have now obtained an implicit equation relating $x$ and $y$ directly.<br />**Step 4:** Differentiate this entire implicit equation with respect to $x$. Use the chain rule for both terms. For the first term: $2(\\ln x) \\cdot \\frac{1}{x}$. For the second term: $2(\\ln y) \\cdot \\frac{1}{y} \\cdot \\frac{dy}{dx}$. The derivative of the constant $1$ on the right side is $0$. The equation becomes: $2\\frac{\\ln x}{x} + 2\\frac{\\ln y}{y} \\frac{dy}{dx} = 0$.<br />**Step 5:** Solve this equation algebraically for $\\frac{dy}{dx}$. First, divide the whole equation by 2. We get $\\frac{\\ln y}{y} \\frac{dy}{dx} = -\\frac{\\ln x}{x}$. Isolating the derivative yields $\\frac{dy}{dx} = -\\frac{y \\ln x}{x \\ln y}$. This perfectly matches the expression we were asked to prove.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

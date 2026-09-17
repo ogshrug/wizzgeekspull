@@ -1,0 +1,30 @@
+{
+  "id": "6a2266a8fbdd87b6dea73b8d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a heavy gaming session, the temperature of a student's laptop processor increases significantly. After the session, the processor begins to cool down, and the rate of cooling is proportional to the difference between the processor's temperature and the room temperature $(25^{\\circ}C)$. Initially the processor's temperature is $85^{\\circ}C$. The rate of cooling is defined by the equation $\\frac{d}{dt}(T(t))=-k(T(t)-25),$<br/><br/>where $T(t)$ represents the temperature of the processor at time t (in minutes) and k is a constant.<br/><br/>Based on the above information, answer the following questions:<br/>**(i)** Find the expression for temperature of processor, $T(t)$ given that $T(0)=85^{\\circ}C$.<br/>**(ii)** How long will it take for the processor's temperature to reach $40^{\\circ}C$? Given that $k=0.03$, $log_{e}4=1\\cdot3863$.",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> We solve the given differential equation $\\frac{dT}{dt} = -k(T - 25)$ by separating the variables: $\\frac{dT}{T - 25} = -k dt$. Integrate both sides of this expression: $\\int \\frac{dT}{T - 25} = \\int -k dt \\implies \\ln(T - 25) = -kt + C$.<br /><b>Step 2</b> Use the given initial boundary condition $T(0) = 85$ to solve for the integration constant $C$: $\\ln(85 - 25) = -k(0) + C \\implies C = \\ln(60)$. Substitute $C$ back into our equation: $\\ln(T - 25) = -kt + \\ln(60)$.<br /><b>Step 3</b> Group the logarithmic terms together and rewrite in exponential form: $\\ln\\left(\\frac{T - 25}{60}\\right) = -kt \\implies \\frac{T - 25}{60} = e^{-kt} \\implies T(t) = 25 + 60e^{-kt}$. This completes part (i).<br /><br /><b>(ii)</b><br /><br /><b>Step 4</b> To solve part (ii), set the temperature $T(t) = 40^{\\circ}\\text{C}$ and substitute the given constant value $k = 0.03$: $40 = 25 + 60e^{-0.03t} \\implies 15 = 60e^{-0.03t} \\implies e^{-0.03t} = \\frac{15}{60} = \\frac{1}{4}$.<br /><b>Step 5</b> Invert both sides of the exponential equation to remove the negative sign: $e^{0.03t} = 4$. Taking the natural logarithm on both sides yields: $0.03t = \\ln(4)$. Substituting $\\ln(4) = 1.3863$ gives $t = \\frac{1.3863}{0.03} = 46.21$ minutes.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2266a8fbdd87b6dea73b8d/1782196289-0.png?t=1782216093410"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

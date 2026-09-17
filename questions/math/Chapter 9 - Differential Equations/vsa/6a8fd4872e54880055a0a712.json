@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd4872e54880055a0a712",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a6",
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "VSA",
+  "question": "The family $y=ae^{3x}+be^{-2x}$ contains two arbitrary constants. Form the differential equation by eliminating $a$ and $b$.",
+  "answeroption": "C",
+  "explanation": "Step 1: Since the given family contains two arbitrary constants $a$ and $b$, differentiate successively twice.<br>Step 2: From $y=ae^{3x}+be^{-2x}$, we obtain $\\frac{dy}{dx}=3ae^{3x}-2be^{-2x}$.<br>Step 3: Differentiating again gives $\\frac{d^2y}{dx^2}=9ae^{3x}+4be^{-2x}$.<br>Step 4: Consider $\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-6y$. Substituting the three expressions gives $(9-3-6)ae^{3x}+[4+2-6]be^{-2x}=0$.<br>Step 5: Both arbitrary constants are eliminated. Therefore, the required differential equation is $\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-6y=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}+\\frac{dy}{dx}-6y=0$",
+    "B": "$\\frac{d^2y}{dx^2}-5\\frac{dy}{dx}+6y=0$",
+    "C": "$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}-6y=0$",
+    "D": "$\\frac{d^2y}{dx^2}+\\frac{dy}{dx}+6y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

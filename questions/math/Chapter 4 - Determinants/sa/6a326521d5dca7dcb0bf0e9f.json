@@ -1,0 +1,26 @@
+{
+  "id": "6a326521d5dca7dcb0bf0e9f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6b"
+  ],
+  "question_type": "SA",
+  "question": "Using determinants, find the area of $\\triangle PQR$ with vertices $P(3,1)$, $Q(9,3)$ and $R(5,7)$. Also, find the equation of line PQ using determinants.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Set up the determinant for the area of the triangle:  \n$$\\text{Area} = \\frac{1}{2} \\begin{vmatrix} 3 & 1 & 1 \\\\ 9 & 3 & 1 \\\\ 5 & 7 & 1 \\end{vmatrix}$$<br /><br />**Step 2:** Expand the determinant along the first row:  \n$$\\text{Area} = \\frac{1}{2} \\left| 3(3 \\cdot 1 - 1 \\cdot 7) - 1(9 \\cdot 1 - 1 \\cdot 5) + 1(9 \\cdot 7 - 3 \\cdot 5) \\right|$$  \n$$= \\frac{1}{2} \\left| 3(3-7) - 1(9-5) + 1(63-15) \\right|$$  \n$$= \\frac{1}{2} \\left| 3(-4) - 4 + 48 \\right|$$<br /><br />**Step 3:** Calculate the final area value:  \n$$\\text{Area} = \\frac{1}{2} \\left| -12 - 4 + 48 \\right| = \\frac{1}{2} \\left| 32 \\right| = 16 \\text{ sq. units}$$<br /><br />**Step 4:** Set up the determinant for the equation of line PQ:  \n$$\\begin{vmatrix} x & y & 1 \\\\ 3 & 1 & 1 \\\\ 9 & 3 & 1 \\end{vmatrix} = 0$$<br /><br />**Step 5:** Expand along the first row to find the equation:  \n$$x(1 \\cdot 1 - 1 \\cdot 3) - y(3 \\cdot 1 - 1 \\cdot 9) + 1(3 \\cdot 3 - 1 \\cdot 9) = 0$$  \n$$x(1-3) - y(3-9) + (9-9) = 0$$  \n$$-2x + 6y + 0 = 0 \\Rightarrow -2x + 6y = 0$$  \n$$x - 3y = 0$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

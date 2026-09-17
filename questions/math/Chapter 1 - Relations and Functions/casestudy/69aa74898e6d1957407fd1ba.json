@@ -1,0 +1,29 @@
+{
+  "id": "69aa74898e6d1957407fd1ba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 7 (Social Networks – Follower Analysis):**<br /><br />A microblogging site analyzes following patterns among a group $B = \\{P_1, P_2, P_3, P_4\\}$. Define the relation $F$ on $B$ as: $(P_i, P_j) \\in F$ if and only if $P_i$ follows $P_j$ and $P_j$ follows $P_i$.<br /><br />(a) Prove whether $F$ is an equivalence relation.<br /><br />(b) Suppose there are only two mutual-follower pairs: $(P_1, P_2)$, $(P_2, P_1)$, and $(P_3, P_4)$, $(P_4, P_3)$. Write all equivalence classes.<br /><br />(c) How many total possible relations can be defined on set $B$?",
+  "answeroption": "B",
+  "explanation": "(a)<br /><br />*Reflexivity*: $(P_i, P_i) \\in F$ only if $P_i$ follows themselves, which may not always be true. So, unless self-following is allowed, not reflexive.<br /><br />*Symmetry*: If $(P_i, P_j) \\in F$, $P_i$ follows $P_j$ and $P_j$ follows $P_i$, so $(P_j, P_i) \\in F$. So, symmetric.<br /><br />*Transitivity*: If $(P_1, P_2), (P_2, P_3) \\in F$, does $(P_1, P_3) \\in F$? Not necessarily, only if all follow each other.<br /><br />So, generally, $F$ is only symmetric.<br /><br />(b)<br /><br />Assuming no self-following.<br /><br />Given pairs: $(P_1, P_2)$, $(P_2, P_1)$; $(P_3, P_4)$, $(P_4, P_3)$.<br /><br />Equivalence classes:<br /><br />$[P_1] = [P_2] = \\{P_1, P_2\\}$<br /><br />$[P_3] = [P_4] = \\{P_3, P_4\\}$<br /><br />(c) **Total possible relations on set $B$: **<br /><br />$\\text{Number of elements in } B = 4$<br /><br />$\\text{Total ordered pairs in } B \\times B = 4 \\times 4 = 16$<br /><br />$\\text{Each ordered pair can either be included or not included in the relation}$<br /><br />$\\text{Total possible relations} = 2^{16} = 65536$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $F$ is always an equivalence relation.<br />(b) The only equivalence class is $B$.<br />(c) Total possible relations on $B$ are $4^2=16$.",
+    "B": "(a) In general, $F$ is symmetric but not necessarily reflexive or transitive, so it is not necessarily an equivalence relation.<br />(b) With the given mutual-follower pairs, the groups are $\\{P_1,P_2\\}$ and $\\{P_3,P_4\\}$, assuming self-pairs are included for equivalence-class interpretation.<br />(c) Since $|B\\times B|=16$, total possible relations on $B$ are $2^{16}=65536$.",
+    "C": "(a) $F$ is reflexive but not symmetric.<br />(b) The classes are $\\{P_1\\},\\{P_2\\},\\{P_3\\},\\{P_4\\}$.<br />(c) Total possible relations are $2^4=16$.",
+    "D": "(a) $F$ is transitive only.<br />(b) No grouping is possible even if self-pairs are included.<br />(c) Total possible relations are $4!=24$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:30:33 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

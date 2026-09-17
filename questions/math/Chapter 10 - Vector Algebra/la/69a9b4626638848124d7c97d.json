@@ -1,0 +1,31 @@
+{
+  "id": "69a9b4626638848124d7c97d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e766d837c8c7efa6b8c0",
+    "6a13e766d837c8c7efa6b8bc"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\vec{p} = 3\\hat{i} - 2\\hat{j} + 5\\hat{k}$ and $\\vec{q} = 2\\hat{i} + \\hat{j} - 4\\hat{k}$.<br /><br />(a) Find a unit vector perpendicular to both $\\vec{p}$ and $\\vec{q}$.<br /><br />(b) Find the area of the parallelogram formed by $\\vec{p}$ and $\\vec{q}$.<br /><br />(c) Find a vector of magnitude 14 perpendicular to both $\\vec{p}$ and $\\vec{q}$.",
+  "answeroption": "C",
+  "explanation": "(a) A vector perpendicular to both $\\vec{p}$ and $\\vec{q}$ is given by their cross product:<br /><br />$\\vec{p} \\times \\vec{q} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & -2 & 5 \\\\ 2 & 1 & -4 \\end{vmatrix}$<br /><br />$= \\hat{i}[(-2)(-4) - (5)(1)] - \\hat{j}[(3)(-4) - (5)(2)] + \\hat{k}[(3)(1) - (-2)(2)]$<br /><br />$= \\hat{i}[8 - 5] - \\hat{j}[-12 - 10] + \\hat{k}[3 + 4]$<br /><br />$= 3\\hat{i} + 22\\hat{j} + 7\\hat{k}$<br /><br />Magnitude: $|\\vec{p} \\times \\vec{q}| = \\sqrt{3^2 + 22^2 + 7^2} = \\sqrt{9 + 484 + 49} = \\sqrt{542}$<br /><br />Unit vector: $\\dfrac{3\\hat{i} + 22\\hat{j} + 7\\hat{k}}{\\sqrt{542}}$<br /><br />(b) Area of parallelogram = $|\\vec{p} \\times \\vec{q}| = \\sqrt{542}$ square units<br /><br />(c) A vector of magnitude 14 perpendicular to both $\\vec{p}$ and $\\vec{q}$ is:<br /><br />$\\vec{r} = 14 \\cdot \\dfrac{3\\hat{i} + 22\\hat{j} + 7\\hat{k}}{\\sqrt{542}} = \\dfrac{42}{\\sqrt{542}}\\hat{i} + \\dfrac{308}{\\sqrt{542}}\\hat{j} + \\dfrac{98}{\\sqrt{542}}\\hat{k}$<br /><br />Verification: $|\\vec{r}| = 14 \\cdot \\dfrac{\\sqrt{542}}{\\sqrt{542}} = 14$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Unit vector $=\\dfrac{3\\hat{i}-22\\hat{j}+7\\hat{k}}{\\sqrt{542}}$<br />(b) Area $=\\sqrt{542}$<br />(c) Vector $=\\dfrac{42\\hat{i}-308\\hat{j}+98\\hat{k}}{\\sqrt{542}}$",
+    "B": "(a) Unit vector $=\\dfrac{3\\hat{i}+22\\hat{j}+7\\hat{k}}{542}$<br />(b) Area $=542$<br />(c) Vector $=14(3\\hat{i}+22\\hat{j}+7\\hat{k})$",
+    "C": "(a) Unit vector $=\\dfrac{3\\hat{i}+22\\hat{j}+7\\hat{k}}{\\sqrt{542}}$<br />(b) Area $=\\sqrt{542}$<br />(c) Vector $=\\dfrac{42\\hat{i}+308\\hat{j}+98\\hat{k}}{\\sqrt{542}}$",
+    "D": "(a) Unit vector $=\\dfrac{3\\hat{i}+22\\hat{j}+7\\hat{k}}{\\sqrt{542}}$<br />(b) Area $=\\frac{\\sqrt{542}}{2}$<br />(c) Vector $=\\dfrac{14\\hat{i}+22\\hat{j}+7\\hat{k}}{\\sqrt{542}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:50:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

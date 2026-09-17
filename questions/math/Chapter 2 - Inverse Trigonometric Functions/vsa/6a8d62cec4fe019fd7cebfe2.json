@@ -1,0 +1,29 @@
+{
+  "id": "6a8d62cec4fe019fd7cebfe2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate the principal value of $\\cos^{-1}\\left(\\cos\\frac{4\\pi}{3}\\right)$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b><br>The principal value range of $\\cos^{-1}x$ is $[0,\\pi]$.<br><br><b>Step 2:</b><br>The given angle $\\frac{4\\pi}{3}$ does not lie in this interval, so it cannot be taken directly as the principal value.<br><br><b>Step 3:</b><br>Using the identity $\\cos(2\\pi-\\theta)=\\cos\\theta$, we obtain $$\\cos\\frac{4\\pi}{3}=\\cos\\left(2\\pi-\\frac{4\\pi}{3}\\right)=\\cos\\frac{2\\pi}{3}.$$<br><br><b>Step 4:</b><br>Since $\\frac{2\\pi}{3}\\in[0,\\pi]$, it belongs to the principal value range of the inverse cosine function.<br><br><b>Final Answer:</b><br>$$\\cos^{-1}\\left(\\cos\\frac{4\\pi}{3}\\right)=\\frac{2\\pi}{3}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{4\\pi}{3}$",
+    "B": "$\\frac{2\\pi}{3}$",
+    "C": "$\\frac{\\pi}{3}$",
+    "D": "$-\\frac{2\\pi}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

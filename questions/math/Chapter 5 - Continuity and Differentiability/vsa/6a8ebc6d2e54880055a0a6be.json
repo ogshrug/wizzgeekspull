@@ -1,0 +1,29 @@
+{
+  "id": "6a8ebc6d2e54880055a0a6be",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d88"
+  ],
+  "question_type": "VSA",
+  "question": "For $f(x)=x^3-3x$ on $[0,2]$, determine the value of $c\\in(0,2)$ satisfying the Mean Value Theorem.",
+  "answeroption": "B",
+  "explanation": "Step 1: Since $f(x)=x^3-3x$ is a polynomial, it is continuous on $[0,2]$ and differentiable on $(0,2)$. Therefore, the Mean Value Theorem applies.<br>Step 2: Evaluate the endpoint values: $f(0)=0$ and $f(2)=8-6=2$. Hence, the average rate of change is $\\frac{2-0}{2-0}=1$.<br>Step 3: Differentiate the function: $f'(x)=3x^2-3$.<br>Step 4: Set $f'(c)=1$. Thus, $3c^2-3=1$, giving $3c^2=4$ and $c^2=\\frac{4}{3}$.<br>Step 5: Since $c\\in(0,2)$, the admissible value is $c=\\frac{2}{\\sqrt{3}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{4}{3}$",
+    "B": "$\\frac{2}{\\sqrt{3}}$",
+    "C": "$\\frac{\\sqrt{3}}{2}$",
+    "D": "$\\frac{2}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

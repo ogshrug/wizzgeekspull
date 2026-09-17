@@ -1,0 +1,28 @@
+{
+  "id": "6a21665091ff8b4d45610992",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "SA",
+  "question": "Differentiate $\\tan^{-1}(\\frac{\\sqrt{1+x^{2}}-\\sqrt{1-x^{2}}}{\\sqrt{1+x^{2}}+\\sqrt{1-x^{2}}})$ with respect to $cos^{-1}x^{2}$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Define two variables for the functions: let $u = \\tan^{-1}\\left(\\frac{\\sqrt{1+x^2}-\\sqrt{1-x^2}}{\\sqrt{1+x^2}+\\sqrt{1-x^2}}\\right)$ and $v = \\cos^{-1}x^2$. Our goal is to evaluate $\\frac{du}{dv}$. We apply the substitution $x^2 = \\cos 2\\theta$, which directly means $v = 2\\theta \\implies \\theta = \\frac{1}{2}v$.<br /><br /><b>Step 2</b> Substitute $x^2 = \\cos 2\\theta$ into the terms inside $u$. Using basic trigonometric double-angle rules, we know $1+\\cos 2\\theta = 2\\cos^2\\theta$ and $1-\\cos 2\\theta = 2\\sin^2\\theta$. Taking square roots simplifies these terms to $\\sqrt{2}\\cos\\theta$ and $\\sqrt{2}\\sin\\theta$.<br /><br /><b>Step 3</b> Substitute these simplified expressions back into $u$: $u = \\tan^{-1}\\left(\\frac{\\sqrt{2}\\cos\\theta - \\sqrt{2}\\sin\\theta}{\\sqrt{2}\\cos\\theta + \\sqrt{2}\\sin\\theta}\\right) = \\tan^{-1}\\left(\\frac{\\cos\\theta - \\sin\\theta}{\\cos\\theta + \\sin\\theta}\\right)$. Dividing the terms by $\\cos\\theta$ gives $u = \\tan^{-1}\\left(\\frac{1-\\tan\\theta}{1+\\tan\\theta}\\right)$.<br /><br /><b>Step 4</b> Use the tangent subtraction angle identity to rewrite the interior term: $\\frac{1-\\tan\\theta}{1+\\tan\\theta} = \\tan\\left(\\frac{\\pi}{4} - \\theta\\right)$. This simplifies our expression for $u$ down to: $u = \\tan^{-1}\\left(\\tan\\left(\\frac{\\pi}{4}-\\theta\\right)\\right) = \\frac{\\pi}{4} - \\theta$.<br /><br /><b>Step 5</b> Substitute our parameter relation $\\theta = \\frac{1}{2}v$ into the expression for $u$, which gives $u = \\frac{\\pi}{4} - \\frac{1}{2}v$. Differentiating $u$ directly with respect to $v$ gives the final answer: $\\frac{du}{dv} = \\frac{d}{dv}\\left(\\frac{\\pi}{4} - \\frac{1}{2}v\\right) = -\\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

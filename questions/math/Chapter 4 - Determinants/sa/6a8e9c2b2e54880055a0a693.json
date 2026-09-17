@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9c2b2e54880055a0a693",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "SA",
+  "question": "Determine the number of solutions of $x+2y=3$ and $kx+4y=7$ for $k=2$ and for $k\\ne2$. Justify each case.",
+  "answeroption": "D",
+  "explanation": "<b>Coefficient determinant</b><br>$$D=\\begin{vmatrix}1&2\\\\k&4\\end{vmatrix}=4-2k$$<br><b>Case $k\\ne2$</b><br>When $k\\ne2$, $D\\ne0$. Therefore, the system has a unique solution.<br><b>Case $k=2$</b><br>The equations become $x+2y=3$ and $2x+4y=7$. The variable coefficients are proportional, but the constants are not because $2(3)=6\\ne7$.<br><b>Classification</b><br>Hence, the system has no solution when $k=2$ and exactly one solution when $k\\ne2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "For $k=2$, there are infinitely many solutions; for $k\\ne2$, there is a unique solution.",
+    "B": "For $k=2$, there is a unique solution; for $k\\ne2$, there is no solution.",
+    "C": "For $k=2$, there is no solution; for $k\\ne2$, there are infinitely many solutions.",
+    "D": "For $k=2$, there is no solution; for $k\\ne2$, there is a unique solution."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

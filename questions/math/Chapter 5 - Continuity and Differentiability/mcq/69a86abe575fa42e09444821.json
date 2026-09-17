@@ -1,0 +1,29 @@
+{
+  "id": "69a86abe575fa42e09444821",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "MCQ",
+  "question": "If $y = x^{x^x}$, then $y'(1) = ?$<br />",
+  "answeroption": "A",
+  "explanation": "Take log both sides:<br /><br />$\\ln y = x^x \\ln x$.<br /><br />Let $u = x^x$. At $x=1$, $u=1$ and $\\ln x=0$, so $\\ln y=0 \\Rightarrow y=1$.<br /><br />Differentiate both sides:<br /><br />$\\frac{1}{y} y' = \\frac{d}{dx}(x^x \\ln x)$.<br /><br />Using product rule with $u=x^x$, $v=\\ln x$:<br /><br />$u' = x^x(\\ln x + 1)$, so at $x=1$, $u'=1$.<br /><br />$v'=1/x$, so at $x=1$, $v'=1$.<br /><br />Thus, $\\frac{1}{y}y' = u'v + uv' = 1\\cdot0 + 1\\cdot1 = 1$.<br /><br />Since $y(1)=1$, we get $y'(1)=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$e$",
+    "C": "$e^{e}$",
+    "D": "$2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:24:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

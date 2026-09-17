@@ -1,0 +1,30 @@
+{
+  "id": "6a8f050e2e54880055a0a6dd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97d",
+    "6a13e98f8c819562f933f97e"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A classroom group studies the curve $x^2+4y^2=20$ at the points $P(2,2)$ and $Q(-2,2)$. The students use implicit differentiation to determine the tangent direction at each point. Since a normal is perpendicular to the tangent, its slope is obtained from the negative reciprocal of the derivative. The curve and the selected points are symmetric about the $y$-axis, so the group also examines whether the corresponding normal lines display the same symmetry.(a) Verify that $P$ and $Q$ lie on the curve.(b) Obtain $\\frac{dy}{dx}$ and calculate its value at both points.(c) Determine the equations of the normals at $P$ and $Q$.(d) Find the intersection of the normals and explain how it reflects the symmetry of the selected points.",
+  "answeroption": "B",
+  "explanation": "(a)At $P(2,2)$,`x^2+4y^2=(2)^2+4(2)^2=4+16=20`At $Q(-2,2)$,`x^2+4y^2=(-2)^2+4(2)^2=4+16=20`Therefore, both points lie on the curve.(b)Differentiating implicitly,`2x+8y\\frac{dy}{dx}=0`Therefore,`\\frac{dy}{dx}=-\\frac{x}{4y}`At $P(2,2)$,`\\left.\\frac{dy}{dx}\\right|_P=-\\frac{2}{4(2)}=-\\frac{1}{4}`At $Q(-2,2)$,`\\left.\\frac{dy}{dx}\\right|_Q=-\\frac{-2}{4(2)}=\\frac{1}{4}`These derivatives represent the tangent slopes at the respective points.(c)At $P$, the tangent slope is $-\\frac{1}{4}$, so the normal slope is $4$. Thus,`y-2=4(x-2)y=4x-6`At $Q$, the tangent slope is $\\frac{1}{4}$, so the normal slope is $-4$. Thus,`y-2=-4(x+2)y=-4x-6`(d)At the intersection of the normals,`4x-6=-4x-68x=0x=0`Substituting into either normal equation gives $y=-6$. Therefore, the normals intersect at $(0,-6)$. The point lies on the $y$-axis, and the normal slopes are equal in magnitude but opposite in sign. This reflects the symmetry of $P$ and $Q$ about the $y$-axis.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Both points lie on the curve<br>(b) $\\frac{dy}{dx}=-\\frac{4y}{x}$; slopes $-4,4$<br>(c) Normals $y-2=\\frac{1}{4}(x-2)$ and $y-2=-\\frac{1}{4}(x+2)$<br>(d) Intersection $(0,\\frac{3}{2})$",
+    "B": "(a) Both points lie on the curve<br>(b) $\\frac{dy}{dx}=-\\frac{x}{4y}$; slopes at $P,Q$ are $-\\frac{1}{4},\\frac{1}{4}$<br>(c) Normals $y=4x-6$ and $y=-4x-6$<br>(d) Intersection $(0,-6)$, on the symmetry axis",
+    "C": "(a) Only $P$ lies on the curve<br>(b) $\\frac{dy}{dx}=-\\frac{x}{2y}$; slopes $-\\frac{1}{2},\\frac{1}{2}$<br>(c) Normals $y=2x-2$ and $y=-2x-2$<br>(d) Intersection $(0,-2)$",
+    "D": "(a) Both points lie on the curve<br>(b) $\\frac{dy}{dx}=\\frac{x}{4y}$; slopes $\\frac{1}{4},-\\frac{1}{4}$<br>(c) Normals $y=-4x+10$ and $y=4x+10$<br>(d) Intersection $(0,10)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a22c014864be73cfcf6d2f0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "SA",
+  "question": "Differentiate $\\sec^{-1}(\\frac{1}{\\sqrt{1-x^{2}}})$ w.r.t. $\\sin^{-1}(2x\\sqrt{1-x^{2}})$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $u = \\sec^{-1}(\\frac{1}{\\sqrt{1-x^{2}}}) = \\cos^{-1}(\\sqrt{1-x^2})$. Put $x = \\sin \\theta$, then $u = \\cos^{-1}(\\cos \\theta) = \\theta = \\sin^{-1}x$. So, $\\frac{du}{dx} = \\frac{1}{\\sqrt{1-x^2}}$.<br />**Step 2:** Let $v = \\sin^{-1}(2x\\sqrt{1-x^{2}})$. Put $x = \\sin \\theta$, then $v = \\sin^{-1}(2\\sin\\theta\\cos\\theta) = \\sin^{-1}(\\sin 2\\theta) = 2\\theta = 2\\sin^{-1}x$. So, $\\frac{dv}{dx} = \\frac{2}{\\sqrt{1-x^2}}$.<br />**Step 3:** The required derivative is $\\frac{du}{dv} = \\frac{du/dx}{dv/dx} = \\frac{1/\\sqrt{1-x^2}}{2/\\sqrt{1-x^2}} = \\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-2",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

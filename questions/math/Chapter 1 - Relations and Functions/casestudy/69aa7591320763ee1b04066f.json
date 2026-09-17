@@ -1,0 +1,32 @@
+{
+  "id": "69aa7591320763ee1b04066f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43",
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Read the following text carefully and answer the questions that follow:<br /><br />Sohan is confused in the Mathematics topic 'Relation and equivalence relation'. To clear his concepts on the topic, he took help his elder brother. He has following notes on this topic.<br /><br />Relation: A relation R from a set A to a set B is a subset of the cartesian product A × B obtained by describing a relationship between first element x and the second element 'y' of the ordered pairs in A × B. A relation R in a set A is called:<br /><br />Reflexive: If (a, a) ∈ R ∀ a ∈ A.<br /><br />Symmetric: If (a₁, a₂) ∈ R ⇒ (a₂, a₁) ∈ R ∀ a₁, a₂ ∈ A.<br /><br />Transitive: If (a₁, a₂) ∈ R and (a₂, a₃) ∈ R ⇒ (a₁, a₃) ∈ R ∀ a₁, a₂, a₃ ∈ A<br /><br />Equivalence Relation: A relation R in a set A is an equivalence relation if R is reflexive, symmetric and transitive.<br /><br />1) Find the maximum number of equivalence relations on the set A = {1, 2, 3}.<br /><br />2) Consider the non-empty set consisting of children in a family and a relation R defined as aRb if a is brother of b. Then show that R is transitive but not symmetric.<br /><br />3) Show that relation defined by R₁ = {(x, y) | x² = y²} x, y ∈ R is an equivalence relation.",
+  "answeroption": "C",
+  "explanation": "1) Maximum number of equivalence relations on A = {1, 2, 3}<br /><br />Equivalence relations correspond to partitions of the set<br /><br />Possible partitions of {1, 2, 3}:<br /><br />- One block: {1, 2, 3} → 1 equivalence relation<br /><br />- Two blocks: {1}, {2, 3}; {2}, {1, 3}; {3}, {1, 2} → 3 equivalence relations<br /><br />- Three blocks: {1}, {2}, {3} → 1 equivalence relation<br /><br />Total = $1 + 3 + 1 = 5$ equivalence relations<br /><br />2) R defined as aRb if a is brother of b<br /><br />Check symmetric: If a is brother of b, is b brother of a?<br /><br />Only if b is male. If b is female, then NOT symmetric<br /><br />So NOT symmetric<br /><br />Check transitive: If a is brother of b and b is brother of c<br /><br />Then a is brother of c ✓ Transitive<br /><br />3) R₁ = {(x, y) | x² = y²} on ℝ<br /><br />Reflexive: x² = x² for all x ∈ ℝ ✓<br /><br />Symmetric: If x² = y², then y² = x² ✓<br /><br />Transitive: If x² = y² and y² = z², then x² = z² ✓<br /><br />So R₁ is an equivalence relation",
+  "explanation_image": [],
+  "options": {
+    "A": "1) There are $3$ equivalence relations on $\\{1,2,3\\}$.<br />2) The brother relation is symmetric and transitive.<br />3) $R_1$ is not an equivalence relation because it is not reflexive.",
+    "B": "1) There are $6$ equivalence relations on $\\{1,2,3\\}$.<br />2) The brother relation is reflexive and symmetric.<br />3) $R_1$ is symmetric only.",
+    "C": "1) There are $5$ equivalence relations on $\\{1,2,3\\}$, corresponding to the $5$ partitions of the set.<br />2) The brother relation is transitive but not symmetric, since if $a$ is brother of $b$, $b$ need not be brother of $a$ when $b$ is female.<br />3) $R_1=\\{(x,y):x^2=y^2\\}$ is reflexive, symmetric and transitive, so it is an equivalence relation.",
+    "D": "1) There is only $1$ equivalence relation on $\\{1,2,3\\}$.<br />2) The brother relation is neither transitive nor symmetric.<br />3) $R_1$ is not transitive."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:34:57 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "69a949d7d30adc5083911a48",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67",
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\begin{bmatrix} 2 & 1 \\\\ 7 & 4 \\end{bmatrix}$ and $B = \\begin{bmatrix} 5 & 6 \\\\ 0 & 3 \\end{bmatrix}$. Determine if $A$ and $B$ are invertible and verify whether $|AB| = |A||B|$.",
+  "answeroption": "C",
+  "explanation": "Compute $|A|$: $2*4-1*7=8-7=1\\ne0$<br />$A$ is invertible.<br />$|B|=5*3-6*0=15-0=15\\ne 0$, so $B$ is invertible.<br />Compute $|AB|$:<br />$AB = \\begin{bmatrix} 2*5+1*0 & 2*6+1*3 \\\\ 7*5+4*0 & 7*6+4*3 \\end{bmatrix} = \\begin{bmatrix} 10 & 12+3 \\\\ 35 & 42+12 \\end{bmatrix} = \\begin{bmatrix} 10 & 15 \\\\ 35 & 54 \\end{bmatrix}$<br />$|AB|=10*54-15*35=540-525=15$<br />Check $|A||B|=1*15=15$<br />Hence, $|AB|=|A||B|$ holds.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ is not invertible, $B$ is invertible, and $|AB|\\ne |A||B|$.",
+    "B": "$A$ and $B$ are both invertible, but $|AB|=30$ and $|A||B|=15$.",
+    "C": "$A$ and $B$ are both invertible, $|AB|=15$, $|A||B|=15$, so $|AB|=|A||B|$.",
+    "D": "$A$ is invertible, $B$ is not invertible, and $|AB|=0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:16:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

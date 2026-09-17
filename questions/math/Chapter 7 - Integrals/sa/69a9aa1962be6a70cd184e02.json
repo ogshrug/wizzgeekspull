@@ -1,0 +1,29 @@
+{
+  "id": "69a9aa1962be6a70cd184e02",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int \\frac{x^2}{x^2+4} dx$.",
+  "answeroption": "C",
+  "explanation": "Rewrite the numerator.<br /><br />$x^2=(x^2+4)-4$.<br /><br />Thus $\\int \\frac{x^2}{x^2+4}dx=\\int\\left(1-\\frac{4}{x^2+4}\\right)dx$.<br /><br />$=\\int1dx-4\\int\\frac{1}{x^2+4}dx$.<br /><br />$=x-4\\cdot\\frac{1}{2}\\tan^{-1}(\\frac{x}{2})+C$.<br /><br />Hence $x-2\\tan^{-1}(\\frac{x}{2})+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x+2\\tan^{-1}\\left(\\frac{x}{2}\\right)+C$",
+    "B": "$x-\\tan^{-1}\\left(\\frac{x}{2}\\right)+C$",
+    "C": "$x-2\\tan^{-1}\\left(\\frac{x}{2}\\right)+C$",
+    "D": "$2x-2\\tan^{-1}\\left(\\frac{x}{2}\\right)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:06:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

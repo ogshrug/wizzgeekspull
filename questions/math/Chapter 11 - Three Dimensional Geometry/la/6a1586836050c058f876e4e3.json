@@ -1,0 +1,24 @@
+{
+  "id": "6a1586836050c058f876e4e3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "Find the shortest distance between the lines $\\frac{x-8}{3}=\\frac{y+9}{-16}=\\frac{z-10}{7}$ and $\\frac{x-15}{3}=\\frac{y-29}{8}=\\frac{z-5}{-5}$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Extract coordinates and direction vectors**<br />From the given symmetric line equations, we identify a point on each line and their direction vectors:<br />- Line 1 passes through point $A_1(8, -9, 10) \\implies \\vec{a}_1 = 8\\hat{i} - 9\\hat{j} + 10\\hat{k}$ and has direction vector $\\vec{b}_1 = 3\\hat{i} - 16\\hat{j} + 7\\hat{k}$.<br />- Line 2 passes through point $A_2(15, 29, 5) \\implies \\vec{a}_2 = 15\\hat{i} + 29\\hat{j} + 5\\hat{k}$ and has direction vector $\\vec{b}_2 = 3\\hat{i} + 8\\hat{j} - 5\\hat{k}$.<br /><br />**Step 2: Compute the distance vector ($\\vec{a}_2 - \\vec{a}_1$)**<br />$\\vec{a}_2 - \\vec{a}_1 = (15-8)\\hat{i} + (29 - (-9))\\hat{j} + (5-10)\\hat{k} = 7\\hat{i} + 38\\hat{j} - 5\\hat{k}$<br /><br />**Step 3: Calculate the cross product of the direction vectors ($\\vec{b}_1 \\times \\vec{b}_2$)**<br />$\\vec{b}_1 \\times \\vec{b}_2 = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\3&-16&7\\\\3&8&-5\\end{vmatrix}$<br />$= \\hat{i}[(-16)(-5) - (7)(8)] - \\hat{j}[(3)(-5) - (7)(3)] + \\hat{k}[(3)(8) - (-16)(3)]$<br />$= \\hat{i}[80 - 56] - \\hat{j}[-15 - 21] + \\hat{k}[24 + 48] = 24\\hat{i} + 36\\hat{j} + 72\\hat{k}$<br />We can simplify the calculations by factoring out a scalar: $\\vec{b}_1 \\times \\vec{b}_2 = 12(2\\hat{i} + 3\\hat{j} + 6\\hat{k})$.<br />Find the magnitude of this cross product vector:<br />$|\\vec{b}_1 \\times \\vec{b}_2| = 12\\sqrt{2^2 + 3^2 + 6^2} = 12\\sqrt{4 + 9 + 36} = 12\\sqrt{49} = 12 \\cdot 7 = 84$<br /><br />**Step 4: Compute the shortest distance using the standard formula**<br />The shortest distance formula between two lines is given by $d = \\frac{|(\\vec{a}_2 - \\vec{a}_1) \\cdot (\\vec{b}_1 \\times \\vec{b}_2)|}{|\\vec{b}_1 \\times \\vec{b}_2|}$:<br />First, find the scalar dot product in the numerator:<br />$(\\vec{a}_2 - \\vec{a}_1) \\cdot (\\vec{b}_1 \\times \\vec{b}_2) = (7\\hat{i} + 38\\hat{j} - 5\\hat{k}) \\cdot 12(2\\hat{i} + 3\\hat{j} + 6\\hat{k})$<br />$= 12 \\cdot [7(2) + 38(3) + (-5)(6)] = 12 \\cdot [14 + 114 - 30] = 12 \\cdot [98] = 1176$<br />Now calculate the shortest distance by dividing by the magnitude:<br />$d = \\frac{1176}{84} = 14\\text{ units}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

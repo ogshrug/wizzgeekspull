@@ -1,0 +1,29 @@
+{
+  "id": "6a901bb7751910886affba27",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6"
+  ],
+  "question_type": "LA",
+  "question": "The point $P(k,2,-1)$ is at a perpendicular distance of $3$ units from the plane $2x-y+2z-5=0$. Determine all possible values of $k$ and verify that each corresponding point satisfies the given distance condition.",
+  "answeroption": "A",
+  "explanation": "<b>Applying the Distance Condition</b><br>The perpendicular distance of a point $(x_1,y_1,z_1)$ from the plane $Ax+By+Cz+D=0$ is<br>$$d=\\frac{|Ax_1+By_1+Cz_1+D|}{\\sqrt{A^2+B^2+C^2}}$$<br>For the point $P(k,2,-1)$ and the plane $2x-y+2z-5=0$, the given distance condition gives<br>$$3=\\frac{|2k-2+2(-1)-5|}{\\sqrt{2^2+(-1)^2+2^2}}$$<br>Simplifying,<br>$$3=\\frac{|2k-9|}{3}$$<br>Therefore,<br>$$|2k-9|=9$$<br>Hence either<br>$$2k-9=9$$<br>or<br>$$2k-9=-9$$<br>The first condition gives $2k=18$, so $k=9$. The second condition gives $2k=0$, so $k=0$.<br><br><b>Verification</b><br>For $k=9$, the point is $(9,2,-1)$ and its distance from the plane is<br>$$\\frac{|18-2-2-5|}{3}=\\frac{9}{3}=3$$<br>For $k=0$, the point is $(0,2,-1)$ and its distance is<br>$$\\frac{|0-2-2-5|}{3}=\\frac{9}{3}=3$$<br>Thus, both values satisfy the required condition.<br><br><b>Final Result</b><br>The possible values of $k$ are $0$ and $9$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=0$ or $k=9$; each corresponding point is $3$ units from the plane.",
+    "B": "$k=-9$ or $k=0$; each corresponding point is $3$ units from the plane.",
+    "C": "$k=3$ or $k=6$; each corresponding point is $3$ units from the plane.",
+    "D": "$k=0$ only."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8fd20a2e54880055a0a70c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "The parabola $y^2=4x$ and the line $x=y$ enclose a finite region.(a) Determine their points of intersection.(b) Identify the right and left boundaries when the area is evaluated with respect to $y$.(c) Form and evaluate the required definite integral to calculate the enclosed area.",
+  "answeroption": "A",
+  "explanation": "(a)For the line $x=y$, substitute $x=y$ in $y^2=4x$. Thus,`y^2=4yy\\left(y-4\\right)=0`Hence, $y=0$ or $y=4$. Since $x=y$, the corresponding points are $\\left(0,0\\right)$ and $\\left(4,4\\right)$.(b)The equations expressed in terms of $x$ are`x=y\\quad\\text{and}\\quad x=\\frac{y^2}{4}`For $0\\leq y\\leq4$,`y-\\frac{y^2}{4}=\\frac{y\\left(4-y\\right)}{4}\\geq0`Therefore, $x=y$ is the right boundary and $x=\\frac{y^2}{4}$ is the left boundary.(c)The enclosed area is`A=\\int_0^4\\left(y-\\frac{y^2}{4}\\right)dyA=\\left[\\frac{y^2}{2}-\\frac{y^3}{12}\\right]_0^4A=8-\\frac{16}{3}=\\frac{8}{3}`Hence, the area enclosed by the line and the parabola is $\\frac{8}{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,0)$ and $(4,4)$<br>(b) Right: $x=y$; left: $x=\\frac{y^2}{4}$<br>(c) Area $=\\frac{8}{3}$ square units",
+    "B": "(a) $(0,0)$ and $(4,4)$<br>(b) Right: $x=\\frac{y^2}{4}$; left: $x=y$<br>(c) Area $=\\frac{8}{3}$ square units",
+    "C": "(a) $(0,0)$ and $(2,2)$<br>(b) Right: $x=y$; left: $x=\\frac{y^2}{4}$<br>(c) Area $=\\frac{8}{3}$ square units",
+    "D": "(a) $(0,0)$ and $(4,4)$<br>(b) Right: $x=y$; left: $x=\\frac{y^2}{4}$<br>(c) Area $=\\frac{16}{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

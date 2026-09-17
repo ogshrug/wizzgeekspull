@@ -1,0 +1,31 @@
+{
+  "id": "6a8fcf9fbe0ecc7866e90c39",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f993",
+    "6a13eb338c819562f933f996"
+  ],
+  "question_type": "LA",
+  "question": "The right semicircle of $x^2+y^2=16$, together with the $y$-axis, encloses a region.(a) Express $x$ as a function of $y$ for the right semicircle and state the limits of integration.(b) Form a definite integral with respect to $y$ for the enclosed area.(c) Evaluate the integral using the substitution $y=4\\sin\\theta$.",
+  "answeroption": "C",
+  "explanation": "(a)From the equation of the circle,`x^2=16-y^2`For the right semicircle, $x\\geq0$. Therefore,`x=\\sqrt{16-y^2}`The semicircle extends from $y=-4$ to $y=4$. Thus, the limits are $-4$ and $4$.(b)The right boundary is $x=\\sqrt{16-y^2}$ and the left boundary is the $y$-axis, $x=0$. Hence,`A=\\int_{-4}^{4}\\sqrt{16-y^2}\\,dy`Since the integrand is an even function,`A=2\\int_0^4\\sqrt{16-y^2}\\,dy`(c)Put $y=4\\sin\\theta$. Then $dy=4\\cos\\theta\\,d\\theta$ and`\\sqrt{16-y^2}=4\\cos\\theta`As $y$ varies from $0$ to $4$, $\\theta$ varies from $0$ to $\\frac{\\pi}{2}$. Therefore,`A=32\\int_0^{\\frac{\\pi}{2}}\\cos^2\\theta\\,d\\theta`Using $\\cos^2\\theta=\\frac{1+\\cos2\\theta}{2}$,`A=16\\left[\\theta+\\frac{\\sin2\\theta}{2}\\right]_0^{\\frac{\\pi}{2}}A=16\\times\\frac{\\pi}{2}=8\\pi`Hence, the area enclosed by the right semicircle and the $y$-axis is $8\\pi$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $x=16-y^2$, $-4\\leq y\\leq4$<br>(b) $A=\\int_{-4}^{4}(16-y^2)\\,dy$<br>(c) $A=8\\pi$ square units",
+    "B": "(a) $x=\\sqrt{16-y^2}$, $0\\leq y\\leq4$<br>(b) $A=\\int_0^4\\sqrt{16-y^2}\\,dy$<br>(c) $A=8\\pi$ square units",
+    "C": "(a) $x=\\sqrt{16-y^2}$, $-4\\leq y\\leq4$<br>(b) $A=\\int_{-4}^{4}\\sqrt{16-y^2}\\,dy$<br>(c) $A=8\\pi$ square units",
+    "D": "(a) $x=-\\sqrt{16-y^2}$, $-4\\leq y\\leq4$<br>(b) $A=\\int_{-4}^{4}\\sqrt{16-y^2}\\,dy$<br>(c) $A=16\\pi$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

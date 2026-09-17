@@ -1,0 +1,29 @@
+{
+  "id": "6a8d23e277877fac8fdb991e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A=\\{1,2,3,4\\}$ and $B=\\{a,b,c\\}$. A function $f:A\\to B$ satisfies $f(1)=a$, $f(2)=b$ and $f(3)=c$. How many possible choices are there for $f(4)$ so that $f$ remains onto?",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> A function from $A$ to $B$ is onto if every element of $B$ occurs as the image of at least one element of $A$.<br><b>Step 2:</b> From the given information, $a$ is already the image of $1$, $b$ is the image of $2$, and $c$ is the image of $3$.<br><b>Step 3:</b> Hence, every element of $B=\\{a,b,c\\}$ already has a pre-image before assigning the image of $4$.<br><b>Step 4:</b> Therefore, $f(4)$ may be any element of $B$ without destroying the onto property.<br><b>Step 5:</b> The possible values are $a,b$ and $c$.<br><b>Final Answer:</b> There are $3$ possible choices for $f(4)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$3$",
+    "C": "$2$",
+    "D": "$4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

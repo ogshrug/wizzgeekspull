@@ -1,0 +1,31 @@
+{
+  "id": "6a9010562e54880055a0a731",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f993",
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A decorative region in the first quadrant is bounded by the curve $x=\\cos y$, the $x$-axis and the $y$-axis, where $0\\leq y\\leq\\frac{\\pi}{2}$. Since the curve is expressed as $x$ in terms of $y$, horizontal strips are are used for evaluating its area. A horizontal line through the region is required to divide it into two equal parts. Answer the following questions.(a) Determine the points where the curve meets the coordinate axes.(b) Form the integral representing the total bounded area.(c) Evaluate the total area of the region.(d) Determine the value of $k$ for which the line $y=k$ divides the region into two equal areas.",
+  "answeroption": "A",
+  "explanation": "(a) On the $x$-axis, $y=0$, so $x=\\cos0=1$. Hence, the curve meets the $x$-axis at $(1,0)$. On the $y$-axis, $x=0$, so $\\cos y=0$. In the given interval, $y=\\frac{\\pi}{2}$. Therefore, the curve meets the $y$-axis at $\\left(0,\\frac{\\pi}{2}\\right)$.(b) For a horizontal strip, the right boundary is $x=\\cos y$ and the left boundary is $x=0$. Therefore, the total area is represented by `A=\\int_0^{\\frac{\\pi}{2}}\\cos y\\,dy.`(c) Evaluating the integral gives `A=\\left[\\sin y\\right]_0^{\\frac{\\pi}{2}}=1-0=1.` Thus, the total bounded area is $1$ square unit.(d) If $y=k$ divides the region into two equal areas, the area below this line must be $\\frac{1}{2}$. Hence, `\\int_0^k\\cos y\\,dy=\\frac{1}{2}.` Therefore, `\\sin k=\\frac{1}{2}.` Since $0\\leq k\\leq\\frac{\\pi}{2}$, we obtain `k=\\frac{\\pi}{6}.` Thus, the line $y=\\frac{\\pi}{6}$ divides the region into two equal areas.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(1,0)$ and $(0,\\frac{\\pi}{2})$<br>(b) $A=\\int_0^{\\frac{\\pi}{2}}\\cos y\\,dy$<br>(c) Total area $=1$<br>(d) $k=\\frac{\\pi}{6}$",
+    "B": "(a) $(1,0)$ and $(0,\\pi)$<br>(b) $A=\\int_0^{\\pi}\\cos y\\,dy$<br>(c) Total area $=0$<br>(d) $k=\\frac{\\pi}{2}$",
+    "C": "(a) $(0,1)$ and $(\\frac{\\pi}{2},0)$<br>(b) $A=\\int_0^{\\frac{\\pi}{2}}\\cos y\\,dy$<br>(c) Total area $=1$<br>(d) $k=\\frac{\\pi}{6}$",
+    "D": "(a) $(1,0)$ and $(0,\\frac{\\pi}{2})$<br>(b) $A=\\int_0^{\\frac{\\pi}{2}}\\sin y\\,dy$<br>(c) Total area $=1$<br>(d) $k=\\frac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

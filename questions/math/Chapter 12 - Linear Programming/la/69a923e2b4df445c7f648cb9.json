@@ -1,0 +1,29 @@
+{
+  "id": "69a923e2b4df445c7f648cb9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "Formulate the following problem as a linear programming problem and solve it graphically: A dietician has to develop a special diet using two foods, A and B. Each kg of food A contains 10 units of vitamins and 20 units of minerals. Each kg of food B contains 20 units of vitamins and 10 units of minerals. The minimum daily requirement is 60 units of vitamins and 80 units of minerals. Food A costs ₹6/kg and food B costs ₹8/kg. The objective is to minimize the cost. Also, discuss whether the solution is unique or there exist multiple optimal solutions.",
+  "answeroption": "C",
+  "explanation": "Let $x = $ kg of food A, $y = $ kg of food B.<br /><br />Objective: Minimize $Z = 6x + 8y$<br /><br />Subject to:<br />$10x + 20y \\geq 60$ (vitamins)<br />$20x + 10y \\geq 80$ (minerals)<br />$x \\geq 0,\\ y \\geq 0$<br /><br />Divide first by 10: $x + 2y \\geq 6$<br />Divide second by 10: $2x + y \\geq 8$<br /><br />For graphing, also represent as:<br />$x + 2y = 6$, $2x + y = 8$<br /><br />Let’s solve for intersections:<br />Multiply first by 2: $2x + 4y = 12$<br />Subtract $2x + y = 8$:<br />$(2x + 4y) - (2x + y) = 12 - 8 \\implies 3y = 4 \\implies y = \\frac{4}{3}$<br />Then $x + 2(4/3) = 6 \\implies x = 6 - 8/3 = 10/3$<br />Intersection: $(10/3, 4/3)$<br /><br />Check where constraints meet axes:<br />For $x + 2y = 6, x=0 \\to y=3$<br />$y=0 \\to x=6$<br />For $2x + y = 8, x=0 \\to y=8, y=0 \\to x=4$<br /><br />The feasible region is above both lines and first quadrant.<br /><br />Check cost at the intersection and on axes:<br />(1) $(10/3, 4/3)$: $Z = 6\\times\\frac{10}{3} + 8\\times\\frac{4}{3} = 20 + 32/3 = 20 + 10.67 \\approx 30.67$<br />(2) $(6,0)$: $10\\times 6 + 20\\times 0 = 60$ (vitamin constraint OK), $2\\times6+0=12\\geq8$ (minerals OK)<br />$Z=6\\times6+8\\times0=36$<br />(3) $(0,8)$: $0+20\\times8=160\\geq 60$, $20\\times0+10\\times8=80\\geq80$ (OK)<br />$Z = 8\\times8 = 64$<br /><br />Since $Z$ is minimized at $(10/3,4/3)$, and not equal for any other point, unique solution exists.<br /><br />Thus, the dietician should choose $\\frac{10}{3}$ kg of A and $\\frac{4}{3}$ kg of B at minimum cost ₹30.67. The solution is unique as it occurs only at one corner point.",
+  "explanation_image": [],
+  "options": {
+    "A": "Choose 6 kg of A and 0 kg of B; minimum cost ₹36; unique solution",
+    "B": "Choose 0 kg of A and 8 kg of B; minimum cost ₹64; unique solution",
+    "C": "Choose $\\frac{10}{3}$ kg of A and $\\frac{4}{3}$ kg of B; minimum cost ₹30.67; unique solution",
+    "D": "Choose $\\frac{4}{3}$ kg of A and $\\frac{10}{3}$ kg of B; minimum cost ₹34.67; multiple optimal solutions"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:34:10 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

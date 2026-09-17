@@ -1,0 +1,26 @@
+{
+  "id": "6a1593f56050c058f876e510",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad",
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "LA",
+  "question": "Find the particular solution of the differential equation $x\\frac{dy}{dx}+2y=x^{2}\\log x$, given $y(1)=1$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Rearrange the terms into standard linear form**<br />We divide the entire equation by $x$ to isolate the derivative term $\\frac{dy}{dx}$ and match the standard first-order linear form $\\frac{dy}{dx} + P(x)y = Q(x)$:<br />$\\frac{dy}{dx} + \\frac{2}{x}y = x\\log x$<br />Here, we identify our coefficient functions as $P(x) = \\frac{2}{x}$ and $Q(x) = x\\log x$.<br /><br />**Step 2: Calculate the Integrating Factor ($IF$)**<br />$\\text{IF} = e^{\\int P(x)\\,dx} = e^{\\int \\frac{2}{x}\\,dx} = e^{2\\log|x|} = e^{\\log(x^2)} = x^2$<br /><br />**Step 3: Set up and solve the general solution equation**<br />The general solution is calculated using the formula $y \\cdot (\\text{IF}) = \\int Q(x) \\cdot (\\text{IF}) \\, dx + C$:<br />$y \\cdot x^2 = \\int (x\\log x) \\cdot x^2 \\, dx \\implies yx^2 = \\int x^3 \\log x \\, dx$<br />To solve $\\int x^3 \\log x \\, dx$, we apply Integration by Parts ($\\int u \\, dv = u \\cdot v - \\int v \\, du$):<br />Let $u = \\log x \\implies du = \\frac{1}{x} \\, dx$<br />Let $dv = x^3 \\, dx \\implies v = \\frac{x^4}{4}$<br />Applying the parts formula gives:<br />$\\int x^3 \\log x \\, dx = \\frac{x^4}{4}\\log x - \\int \\frac{x^4}{4} \\cdot \\frac{1}{x} \\, dx = \\frac{x^4}{4}\\log x - \\frac{1}{4} \\int x^3 \\, dx = \\frac{x^4}{4}\\log x - \\frac{x^4}{16}$<br />Substitute this evaluated integral back into our solution equation to get the general solution:<br />$yx^2 = \\frac{x^4}{4}\\log x - \\frac{x^4}{16} + C \\implies y = \\frac{x^2}{4}\\log x - \\frac{x^2}{16} + \\frac{C}{x^2}$<br /><br />**Step 4: Apply initial conditions to find the unique particular solution**<br />We are given the initial conditions $y = 1$ when $x = 1$. Substituting these values into our general solution equation:<br />$1 = \\frac{1^2}{4}\\log(1) - \\frac{1^2}{16} + \\frac{C}{1^2}$<br />Since $\\log(1) = 0$:<br />$1 = 0 - \\frac{1}{16} + C \\implies C = 1 + \\frac{1}{16} = \\frac{17}{16}$<br />Substituting this specific value for constant $C$ back into our equation gives the unique particular solution:<br />$y = \\frac{x^2}{4}\\log x - \\frac{x^2}{16} + \\frac{17}{16x^2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

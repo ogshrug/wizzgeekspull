@@ -1,0 +1,30 @@
+{
+  "id": "6a265a8f864be73cfcf6d359",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a game of Archery, each ring of the Archery target is valued. The centremost ring is worth 10 points and rest of the rings are allotted points 9 to 1 in sequential order moving outwards. Archer A is likely to earn 10 points with a probability of 0.8 and Archer B is likely to earn 10 points with a probability of 0.9.<br /><br />Based on the above information, answer the following questions:<br />If both of them hit the Archery target, then find the probability that:<br />**(a)** exactly one of them earns 10 points.<br />**(b)** both of them earn 10 points.",
+  "answeroption": "",
+  "explanation": "**(a)** **Step 1:** Let $A$ be the independent event that Archer A earns 10 points, and $B$ be the independent event that Archer B earns 10 points. We are given the values $P(A) = 0.8$ and $P(B) = 0.9$. First, calculate the individual complement probabilities of failing to score 10 points: $P(A') = 1 - 0.8 = 0.2$ and $P(B') = 1 - 0.9 = 0.1$. The event \"exactly one of them earns 10 points\" can happen in two disjoint ways: A succeeds and B fails, or A fails and B succeeds. This is represented by the expression: $P(A \\cap B') + P(A' \\cap B)$.<br />**Step 2:** Since the two archers shoot independently, the joint intersection probabilities can be written as simple products: $P(A)P(B') + P(A')P(B)$. Substituting our numerical values into this template formula gives: $(0.8 \\times 0.1) + (0.2 \\times 0.9) = 0.08 + 0.18 = 0.26$. Thus, the probability that exactly one of them earns 10 points is $0.26$.<br /><br />**(b)** **Step 1:** The event \"both of them earn 10 points\" requires both individual independent events $A$ and $B$ to occur simultaneously, which is represented by the intersection $P(A \\cap B)$. Since their performances are independent, apply the multiplication theorem for independent events directly: $P(A \\cap B) = P(A) \\times P(B)$. Substituting the given values yields: $0.8 \\times 0.9 = 0.72$. Therefore, the probability that both archers score 10 points is $0.72$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1",
+    "2022-4-2",
+    "2022-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a265a8f864be73cfcf6d359/1782279708-0.png?t=1782299509437"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

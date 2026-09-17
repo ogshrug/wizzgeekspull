@@ -1,0 +1,30 @@
+{
+  "id": "6a8c6be71cb3824448de86a9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Solve the equation $\\tan^{-1}x+\\tan^{-1}(2x)=\\dfrac{\\pi}{4}$ for real $x$ by using the inverse-tangent addition property and checking the resulting values against the original principal-value equation.",
+  "answeroption": "C",
+  "explanation": "<b>Formation of Equation</b><br>Taking tangent on both sides and using the addition formula gives<br>$$\\frac{x+2x}{1-2x^2}=\\tan\\frac{\\pi}{4}=1$$<br>The denominator cannot be zero for a solution of the original equation. Therefore,<br>$$3x=1-2x^2$$<br>$$2x^2+3x-1=0$$<br><br><b>Solving the Quadratic Equation</b><br>Using the quadratic formula,<br>$$x=\\frac{-3\\pm\\sqrt{3^2-4(2)(-1)}}{2(2)}$$<br>$$x=\\frac{-3\\pm\\sqrt{17}}{4}$$<br><br><b>Principal-Value Verification</b><br>For<br>$$x=\\frac{-3+\\sqrt{17}}{4}$$<br>the value of $x$ is positive. Hence, both $\\tan^{-1}x$ and $\\tan^{-1}(2x)$ are positive principal angles. Their sum lies between $0$ and $\\pi$, and its tangent is $1$. Since the sum is positive and less than $\\dfrac{\\pi}{2}$, it equals $\\dfrac{\\pi}{4}$. Thus, this value satisfies the original equation.<br><br>For<br>$$x=\\frac{-3-\\sqrt{17}}{4}$$<br>both $x$ and $2x$ are negative. Therefore, both inverse-tangent principal values are negative, making their sum negative. It cannot equal the positive value $\\dfrac{\\pi}{4}$. This root arose because angles differing by $\\pi$ have the same tangent and must be rejected.<br><br><b>Final Result</b><br>The only real solution is<br>$$x=\\frac{\\sqrt{17}-3}{4}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=\\dfrac{-3-\\sqrt{17}}{4}$ only",
+    "B": "$x=\\dfrac{-3+\\sqrt{17}}{4}$ or $x=\\dfrac{-3-\\sqrt{17}}{4}$",
+    "C": "$x=\\dfrac{\\sqrt{17}-3}{4}$ only",
+    "D": "$x=\\dfrac{3+\\sqrt{17}}{4}$ only"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

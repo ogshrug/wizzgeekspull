@@ -1,0 +1,27 @@
+{
+  "id": "6a22b879864be73cfcf6d2cc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f993",
+    "6a13eb348c819562f933f999"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, find the area of region bounded by line $y = \\sqrt{3}x$, the curve $y = \\sqrt{4 - x^2}$ and y-axis in first quadrant.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The first crucial step requires definitively locating the precise intersection point between the given straight line $y = \\sqrt{3}x$ and the circular curve $y = \\sqrt{4 - x^2}$. We achieve this by equating the functions: $\\sqrt{3}x = \\sqrt{4 - x^2}$. By carefully squaring both sides of the equation, we obtain $3x^2 = 4 - x^2$. This strictly simplifies to $4x^2 = 4$, yielding $x = 1$ in the first quadrant domain. The corresponding definitive coordinate is $(1, \\sqrt{3})$.<br />**Step 2:** We must calculate the specific enclosed area explicitly bounded by the curves and the y-axis. Integrating with respect to the y-axis provides the most streamlined approach. The geometric region is clearly divided into two separate vertical segments. The first segment is defined strictly by the straight line function from $y = 0$ to $y = \\sqrt{3}$, and the second overarching segment is dictated by the circular curve from $y = \\sqrt{3}$ to $y = 2$.<br />**Step 3:** Rearrange the original functions explicitly in terms of $y$. The line transforms to $x = \\frac{y}{\\sqrt{3}}$, and the circular curve meticulously transforms to $x = \\sqrt{4 - y^2}$. Set up the strict definite integrals: Area $= \\int_0^{\\sqrt{3}} \\frac{y}{\\sqrt{3}} dy + \\int_{\\sqrt{3}}^2 \\sqrt{4 - y^2} dy$.<br />**Step 4:** Evaluate the first linear integral: $[\\frac{y^2}{2\\sqrt{3}}]_0^{\\sqrt{3}} = \\frac{3}{2\\sqrt{3}} = \\frac{\\sqrt{3}}{2}$. Evaluate the second circular integral using standard formulas: $[\\frac{y}{2}\\sqrt{4 - y^2} + 2\\sin^{-1}(\\frac{y}{2})]_{\\sqrt{3}}^2$.<br />**Step 5:** Substituting the upper boundary gives $0 + 2(\\frac{\\pi}{2}) = \\pi$. Substituting the lower boundary provides $\\frac{\\sqrt{3}}{2} + 2(\\frac{\\pi}{3}) = \\frac{\\sqrt{3}}{2} + \\frac{2\\pi}{3}$. The second integral's final value is strictly $\\pi - (\\frac{\\sqrt{3}}{2} + \\frac{2\\pi}{3}) = \\frac{\\pi}{3} - \\frac{\\sqrt{3}}{2}$. By meticulously summing both integrated parts, the final geometric area equates to $\\frac{\\sqrt{3}}{2} + \\frac{\\pi}{3} - \\frac{\\sqrt{3}}{2} = \\frac{\\pi}{3}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

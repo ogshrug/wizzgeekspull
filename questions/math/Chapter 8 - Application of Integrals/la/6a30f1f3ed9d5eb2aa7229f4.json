@@ -1,0 +1,26 @@
+{
+  "id": "6a30f1f3ed9d5eb2aa7229f4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f994"
+  ],
+  "question_type": "LA",
+  "question": "Find the area of the region bounded by the lines $y=4x+5$, $x+y=5$ and $4y=x+5$, using integration.",
+  "answeroption": "",
+  "explanation": "**Step 1: Find the Points of Intersection (Vertices)**  \nWe have three lines:  \n$L_1: y = 4x+5$,  \n$L_2: x+y=5 \\Rightarrow y = 5-x$,  \n$L_3: 4y = x+5 \\Rightarrow y = \\frac{x+5}{4}$.  \nFind their intersections:  \n- Intersection of $L_1$ and $L_2$: $4x+5 = 5-x \\Rightarrow 5x = 0 \\Rightarrow x=0, y=5$. Vertex $A = (0,5)$.  \n- Intersection of $L_2$ and $L_3$: $5-x = \\frac{x+5}{4} \\Rightarrow 20 - 4x = x+5 \\Rightarrow 15 = 5x \\Rightarrow x=3, y=2$. Vertex $B = (3,2)$.  \n- Intersection of $L_1$ and $L_3$: $4x+5 = \\frac{x+5}{4} \\Rightarrow 16x+20 = x+5 \\Rightarrow 15x = -15 \\Rightarrow x=-1, y=1$. Vertex $C = (-1,1)$.  \nThus, the bounded region is a triangle with vertices $(-1,1)$, $(0,5)$, and $(3,2)$.\n\n**Step 2: Determine the Upper and Lower Functions**  \nFor integration, we split the region at $x=0$ where $L_1$ and $L_2$ intersect.  \n- For $x \\in [-1, 0]$: The upper boundary is $L_1: y = 4x+5$ and the lower boundary is $L_3: y = \\frac{x+5}{4}$.  \n- For $x \\in [0, 3]$: The upper boundary is $L_2: y = 5-x$ and the lower boundary is $L_3: y = \\frac{x+5}{4}$.  \nThis split is necessary because the top boundary changes at $x=0$.\n\n**Step 3: Set Up the Definite Integrals**  \nThe total area $A$ is the sum of the areas in the two intervals:  \n$$A = \\int_{-1}^{0} \\left[(4x+5) - \\left(\\frac{x+5}{4}\\right)\\right] dx + \\int_{0}^{3} \\left[(5-x) - \\left(\\frac{x+5}{4}\\right)\\right] dx$$\n\n**Step 4: Simplify and Evaluate the Integrals**  \nSimplify each integrand:  \nFirst integrand: $4x+5 - \\frac{x+5}{4} = \\frac{16x+20 - x - 5}{4} = \\frac{15x+15}{4} = \\frac{15}{4}(x+1)$.  \nSecond integrand: $5-x - \\frac{x+5}{4} = \\frac{20 - 4x - x - 5}{4} = \\frac{15 - 5x}{4} = \\frac{5}{4}(3-x)$.  \nNow integrate:  \n$$A = \\frac{15}{4} \\int_{-1}^{0} (x+1) \\, dx + \\frac{5}{4} \\int_{0}^{3} (3-x) \\, dx$$  \n$$= \\frac{15}{4} \\left[\\frac{(x+1)^2}{2}\\right]_{-1}^{0} + \\frac{5}{4} \\left[3x - \\frac{x^2}{2}\\right]_{0}^{3}$$  \n$$= \\frac{15}{4} \\cdot \\frac{(1)^2 - (0)^2}{2} + \\frac{5}{4} \\left[ \\left(9 - \\frac{9}{2}\\right) - 0 \\right]$$  \n$$= \\frac{15}{4} \\cdot \\frac{1}{2} + \\frac{5}{4} \\cdot \\frac{9}{2} = \\frac{15}{8} + \\frac{45}{8} = \\frac{60}{8} = \\frac{15}{2}$$\n\n**Step 5: State the Final Answer**  \nThus, the area of the region bounded by the three lines is:  \n$$\\boxed{\\frac{15}{2} \\text{ square units}}$$  \nThis matches the geometric expectation for a triangle with base and height derived from the vertices. The integration confirms the exact area.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

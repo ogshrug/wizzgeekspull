@@ -1,0 +1,32 @@
+{
+  "id": "6a91267f2e54880055a0a77b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8df",
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "SA",
+  "question": "An unbounded feasible region has corner points $A(0,4)$, $B(2,2)$ and $C(5,0)$. For the objective function $Z=3x+4y$, the open half-plane represented by $3x+4y<14$ has no point in common with the feasible region. Determine the minimum value of $Z$ and justify why it is an optimal value despite the feasible region being unbounded.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Evaluating $Z$ at $A(0,4)$</b><br>$$Z_A=3(0)+4(4)=16$$<br><b>Step 2: Evaluating $Z$ at $B(2,2)$</b><br>$$Z_B=3(2)+4(2)=6+8=14$$<br><b>Step 3: Evaluating $Z$ at $C(5,0)$</b><br>$$Z_C=3(5)+4(0)=15$$ Thus, the smallest corner-point value is $14$ at $B(2,2)$.<br><b>Step 4: Applying the condition for an unbounded feasible region</b><br>For an unbounded feasible region, the smallest corner-point value is the minimum only when the open half-plane corresponding to values smaller than it has no point in common with the feasible region.<br><b>Step 5: Using the given half-plane information</b><br>It is given that $3x+4y<14$ has no common point with the feasible region. Hence, no feasible solution can produce a value below $14$.<br><b>Step 6: Conclusion</b><br>Therefore, the minimum value is $14$, attained at $B(2,2)$, which is an optimal feasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "Minimum value $14$ at $B(2,2)$; it is optimal because no feasible point lies in $3x+4y<14$",
+    "B": "Minimum value $15$ at $C(5,0)$; it is optimal because the feasible region is unbounded",
+    "C": "Minimum value $16$ at $A(0,4)$; it is optimal because all corner points are feasible",
+    "D": "No minimum exists because every unbounded feasible region lacks an optimal value"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

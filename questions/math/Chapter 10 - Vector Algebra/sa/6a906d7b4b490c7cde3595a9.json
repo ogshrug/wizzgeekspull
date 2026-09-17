@@ -1,0 +1,29 @@
+{
+  "id": "6a906d7b4b490c7cde3595a9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "SA",
+  "question": "The angle between $\\lambda\\hat{i}+\\hat{j}$ and $\\hat{i}$ is $60^\\circ$. Find $\\lambda$ and justify the sign of the value obtained.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Scalar-product equation</b><br>Let $\\vec{a}=\\lambda\\hat{i}+\\hat{j}$ and $\\vec{b}=\\hat{i}$. Then<br>\\(\\vec{a}\\cdot\\vec{b}=\\lambda\\)<br>Also, $|\\vec{a}|=\\sqrt{\\lambda^2+1}$ and $|\\vec{b}|=1$.<br><b>Step 2: Use of the given angle</b><br>\\(\\lambda=\\sqrt{\\lambda^2+1}\\cos60^\\circ=\\frac{1}{2}\\sqrt{\\lambda^2+1}\\)<br><b>Step 3: Solution of the equation</b><br>Squaring gives $4\\lambda^2=\\lambda^2+1$, so $3\\lambda^2=1$ and $\\lambda=\\pm\\frac{1}{\\sqrt{3}}$.<br><b>Step 4: Sign justification</b><br>The angle is acute, so the scalar product must be positive. Hence, $\\lambda>0$.<br><b>Final Answer</b><br>$\\lambda=\\frac{1}{\\sqrt{3}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\lambda=-\\frac{1}{\\sqrt{3}}$ because the angle is acute.",
+    "B": "$\\lambda=\\frac{1}{\\sqrt{3}}$; the positive sign is required because an acute angle gives a positive scalar product.",
+    "C": "$\\lambda=\\pm\\frac{1}{\\sqrt{3}}$; both signs correspond to an angle of $60^\\circ$.",
+    "D": "$\\lambda=\\sqrt{3}$ because $\\tan60^\\circ=\\sqrt{3}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a33b691d5dca7dcb0bf0f4a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "VSA",
+  "question": "In a Linear Programming Program (LPP) for objective function $Z=14x-10y$ subject to constraints $x+y \\le 8$, $3x-2y \\ge -6$, $x,y \\ge 0$, shade the feasible region and mark the corner points in a neatly drawn graph.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Establish line equations from the linear constraints to map the boundaries: $x+y = 8$ and $3x-2y = -6$.\n\n**Step 2:** Calculate axis intercepts for plotting $x+y=8$: The points are $(8,0)$ and $(0,8)$.\n\n**Step 3:** Calculate axis intercepts for plotting $3x-2y=-6$: The points are $(-2,0)$ and $(0,3)$.\n\n**Step 4:** Determine the intersection point of the boundary lines using algebraic substitution: $3x - 2(8-x) = -6 \\Rightarrow 5x - 16 = -6 \\Rightarrow x = 2$. Using $x=2$ gives $y = 6$. The intersection coordinate is $(2,6)$.\n\n**Step 5:** Check inequalities for shading the feasible region: testing $(0,0)$ shows it's valid for $x+y \\le 8$ but invalid for $3x-2y \\ge -6$. Combining this with $x, y \\ge 0$, the bounded feasible region vertices are $(0,3)$, $(0,8)$, and $(2,6)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

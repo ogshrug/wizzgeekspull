@@ -1,0 +1,30 @@
+{
+  "id": "69aa74032a66c0f894c1a9f9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $A(x) = \\begin{pmatrix} x & x+1 \\\\ x+1 & x \\end{pmatrix}$. \n\n(a) For which real values of $x$ is $A(x)$ invertible?\n\n(b) Consider $f(x) = \\det(A(x))$. Find and discuss the monotonicity of $f(x)$.\n\n(c) For $x=2$, compute $A(2)^{-1}$.\n\n(d) Let $M = (A(2))^2 - 5I$. Find $\\det(M)$ and interpret its sign.",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:** Matrices, Determinants, Invertibility, Application of Derivatives, Matrix Powers<br /><br />(a) $|A(x)| = x^2 - (x+1)^2 = x^2 - (x^2 + 2x + 1) = -2x -1$<br /><br />So, invertible for $x \\neq -\\frac{1}{2}$<br /><br />(b) $f(x) = -2x - 1$, strictly decreasing for all $x$<br /><br />(c) $A(2) = \\begin{pmatrix}2 & 3 \\\\ 3 & 2 \\end{pmatrix}$<br /><br />$|A(2)| = -5$<br /><br />$A^{-1} = \\frac{1}{|A|} \\begin{pmatrix}2 & -3 \\\\ -3 & 2 \\end{pmatrix} = \\begin{pmatrix} -\\frac{2}{5} & \\frac{3}{5} \\\\ \\frac{3}{5} & -\\frac{2}{5} \\end{pmatrix}$<br /><br />(d) $A(2) = \\begin{pmatrix}2 & 3 \\\\ 3 & 2\\end{pmatrix}$<br /><br />$(A(2))^2 = \\begin{pmatrix}2 & 3 \\\\ 3 & 2\\end{pmatrix}\\begin{pmatrix}2 & 3 \\\\ 3 & 2\\end{pmatrix} = \\begin{pmatrix}13 & 12 \\\\ 12 & 13\\end{pmatrix}$<br /><br />$M = \\begin{pmatrix}13 & 12 \\\\ 12 & 13\\end{pmatrix} - 5I = \\begin{pmatrix}8 & 12 \\\\ 12 & 8\\end{pmatrix}$<br /><br />$|M| = 8\\cdot8 - 12^2 = 64 - 144 = -80$<br /><br />Negative sign indicates $M$ is indefinite.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A(x)$ is invertible for $x\\ne-\\frac12$<br />(b) $f(x)=\\det(A(x))=-2x-1$, which is strictly decreasing for all real $x$<br />(c) $A(2)^{-1}=\\begin{pmatrix}-\\frac25&\\frac35\\\\\\frac35&-\\frac25\\end{pmatrix}$<br />(d) $\\det(M)=-80$, so $M$ is indefinite",
+    "B": "(a) $A(x)$ is invertible for $x\\ne\\frac12$<br />(b) $f(x)=2x+1$, which is strictly increasing<br />(c) $A(2)^{-1}=\\begin{pmatrix}\\frac25&-\\frac35\\\\-\\frac35&\\frac25\\end{pmatrix}$<br />(d) $\\det(M)=80$, so $M$ is positive definite",
+    "C": "(a) $A(x)$ is invertible for all real $x$<br />(b) $f(x)=x^2+(x+1)^2$, which is increasing<br />(c) $A(2)^{-1}=\\begin{pmatrix}2&3\\\\3&2\\end{pmatrix}$<br />(d) $\\det(M)=0$, so $M$ is singular",
+    "D": "(a) $A(x)$ is invertible only for $x=-\\frac12$<br />(b) $f(x)=0$, which is constant<br />(c) $A(2)^{-1}=\\begin{pmatrix}-\\frac35&\\frac25\\\\\\frac25&-\\frac35\\end{pmatrix}$<br />(d) $\\det(M)=-40$, so $M$ is positive definite"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:28:19 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

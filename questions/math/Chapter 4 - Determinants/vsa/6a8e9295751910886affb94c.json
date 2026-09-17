@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9295751910886affb94c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "VSA",
+  "question": "For $A=\\begin{bmatrix}2&1\\\\4&3\\end{bmatrix}$, find the trace of $A(\\operatorname{adj}A)$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Use the adjoint identity</b><br>For every square matrix, $$A(\\operatorname{adj}A)=|A|I$$<br><b>Step 2: Calculate the determinant</b><br>For the given matrix, $$|A|=(2)(3)-(1)(4)=2$$<br><b>Step 3: Form the product</b><br>Therefore, $$A(\\operatorname{adj}A)=2I=\\begin{bmatrix}2&0\\\\0&2\\end{bmatrix}$$<br><b>Step 4: Find the trace</b><br>The trace is the sum of the principal diagonal entries. Hence, $$\\operatorname{tr}(A(\\operatorname{adj}A))=2+2=4$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$2$",
+    "B": "$8$",
+    "C": "$6$",
+    "D": "$4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

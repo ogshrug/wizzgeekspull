@@ -1,0 +1,29 @@
+{
+  "id": "69a9a5a862be6a70cd184dee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}\\left(\\frac{x}{a}\\right)+C$<br /><br />Reason (R): The derivative of $\\tan^{-1}x$ is $\\frac{1}{1+x^2}$.",
+  "answeroption": "B",
+  "explanation": "Assertion is correct since $\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}(\\frac{x}{a}) + C$.<br /><br />Reason is also true because $\\frac{d}{dx}(\\tan^{-1}x)=\\frac{1}{1+x^2}$.<br /><br />However the reason does not directly explain the presence of parameter $a$. Therefore option B is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both A and R are true and R is the correct explanation",
+    "B": "Both A and R are true but R is not the correct explanation",
+    "C": "A is true but R is false",
+    "D": "A is false but R is true"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:47:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

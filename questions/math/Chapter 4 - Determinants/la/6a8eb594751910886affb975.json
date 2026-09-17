@@ -1,0 +1,30 @@
+{
+  "id": "6a8eb594751910886affb975",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74",
+    "69c6603740512f018fa94d75"
+  ],
+  "question_type": "LA",
+  "question": "Two quantities $x$ and $y$ satisfy<br>$$x+y=18$$<br>$$2x-y=3$$<br><br><b>(a)</b> Write the system in the form $AX=B$ and determine $|A|$.<br><br><b>(b)</b> Solve the system using $X=A^{-1}B$.<br><br><b>(c)</b> Hence, find the value of $x^2+y^2$ and verify the original equations.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The matrix form is<br>$$\\begin{bmatrix}1 & 1\\\\2 & -1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}18\\\\3\\end{bmatrix}$$<br>Thus,<br>$$A=\\begin{bmatrix}1 & 1\\\\2 & -1\\end{bmatrix}$$<br>and<br>$$|A|=-1-2=-3\\neq0$$<br><br><b>(b)</b><br>$$A^{-1}=\\frac{1}{-3}\\begin{bmatrix}-1 & -1\\\\-2 & 1\\end{bmatrix}=\\frac{1}{3}\\begin{bmatrix}1 & 1\\\\2 & -1\\end{bmatrix}$$<br>Therefore,<br>$$\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\frac{1}{3}\\begin{bmatrix}1 & 1\\\\2 & -1\\end{bmatrix}\\begin{bmatrix}18\\\\3\\end{bmatrix}$$<br>$$=\\frac{1}{3}\\begin{bmatrix}21\\\\33\\end{bmatrix}=\\begin{bmatrix}7\\\\11\\end{bmatrix}$$<br>Hence, $x=7$ and $y=11$.<br><br><b>(c)</b><br>$$x^2+y^2=7^2+11^2=49+121=170$$<br>Verification:<br>$$7+11=18$$<br>$$2(7)-11=3$$<br>Thus, $x^2+y^2=170$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\begin{bmatrix}1&1\\\\2&-1\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}18\\\\3\\end{bmatrix}$, $|A|=-3$<br>(b) $(x,y)=(7,11)$<br>(c) $x^2+y^2=170$, and both original equations are satisfied",
+    "B": "(a) $|A|=3$<br>(b) $(x,y)=(11,7)$<br>(c) $x^2+y^2=170$, and both equations are satisfied",
+    "C": "(a) $|A|=-3$<br>(b) $(x,y)=(6,12)$<br>(c) $x^2+y^2=180$",
+    "D": "(a) $|A|=0$<br>(b) The system has infinitely many solutions<br>(c) $x^2+y^2$ cannot be uniquely determined"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

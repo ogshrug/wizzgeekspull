@@ -1,0 +1,28 @@
+{
+  "id": "6a21506591ff8b4d45610983",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Let n be a fixed positive integer. A relation R is defined in set Z such that $R=\\{(x,y):(x-y)\\text{ is divisible by } n, x, y\\in Z\\}$. Determine if R is an equivalence relation.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> An equivalence relation must strictly satisfy three properties: reflexivity, symmetry, and transitivity. We begin by checking reflexivity on the set of integers $Z$.<br /><br /><b>Step 2</b> For reflexivity, we must show $(x,x) \\in R$ for all $x \\in Z$. Evaluating the condition gives $x - x = 0$. Since $0 = 0 \\times n$, $0$ is divisible by any positive integer $n$. Thus, $(x,x) \\in R$ and the relation is reflexive.<br /><br /><b>Step 3</b> Next, check symmetry. Assume $(x,y) \\in R$, which implies $(x-y)$ is divisible by $n$. We can express this algebraically as $x - y = kn$ for some integer $k$.<br /><br /><b>Step 4</b> To determine if $(y,x) \\in R$, calculate $y - x$. Factoring out a negative sign gives $y - x = -(x - y) = -kn = (-k)n$. Since $-k$ is also an integer, $y - x$ is divisible by $n$, proving the relation is symmetric.<br /><br /><b>Step 5</b> Finally, check transitivity. Assume $(x,y) \\in R$ and $(y,z) \\in R$. This means $x - y = k_1 n$ and $y - z = k_2 n$ for integers $k_1$ and $k_2$.<br /><br /><b>Step 6</b> Add the two equations together: $(x - y) + (y - z) = k_1 n + k_2 n$. This simplifies to $x - z = (k_1 + k_2)n$. Because the sum of two integers $(k_1 + k_2)$ is another integer, $x - z$ is divisible by $n$. Thus, $(x,z) \\in R$, proving the relation is transitive. Since all three properties hold, R is an equivalence relation.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

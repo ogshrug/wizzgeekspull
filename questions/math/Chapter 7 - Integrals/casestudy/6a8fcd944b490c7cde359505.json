@@ -1,0 +1,30 @@
+{
+  "id": "6a8fcd944b490c7cde359505",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989",
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A class is studying integrals that become standard only after a linear change of variable. They consider $$I=\\int\\frac{dx}{\\sqrt{16-(3x-1)^2}}$$ The expression inside the square root resembles the particular form $a^2-u^2$, but the variable occurs as the linear expression $3x-1$. Students therefore need to combine an appropriate substitution with a standard integral formula. They must also examine the values of $x$ for which the original integrand is real and defined, since the expression beneath the square root must be positive when it appears in the denominator. The activity tests both transformation of an integral and correct use of a particular standard form.<br><br><b>(a)</b> Choose a suitable substitution for the linear expression occurring in the integrand.<br><br><b>(b)</b> Transform $I$ completely into an integral in the new variable.<br><br><b>(c)</b> Evaluate $I$ in terms of $x$.<br><br><b>(d)</b> Determine the interval of real values of $x$ for which the original integrand is defined.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>Choose $$u=3x-1$$ Then, $$du=3\\,dx$$ so that $$dx=\\frac{1}{3}du$$<br><br><b>(b)</b><br>Substituting $u=3x-1$, $$I=\\frac{1}{3}\\int\\frac{du}{\\sqrt{16-u^2}}$$ This is of the standard form $\\int\\frac{du}{\\sqrt{a^2-u^2}}$ with $a=4$.<br><br><b>(c)</b><br>Using $$\\int\\frac{du}{\\sqrt{a^2-u^2}}=\\sin^{-1}\\left(\\frac{u}{a}\\right)+C$$ we get $$I=\\frac{1}{3}\\sin^{-1}\\left(\\frac{u}{4}\\right)+C$$ Therefore, $$I=\\frac{1}{3}\\sin^{-1}\\left(\\frac{3x-1}{4}\\right)+C$$<br><br><b>(d)</b><br>Since the square root occurs in the denominator, we require $$16-(3x-1)^2>0$$ Thus, $$(3x-1)^2<16$$ so $$-4<3x-1<4$$ Adding $1$ gives $$-3<3x<5$$ and dividing by $3$ gives $$-1<x<\\frac{5}{3}$$ Hence, the integrand is real and defined for $x\\in\\left(-1,\\frac{5}{3}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $u=3x-1$<br>(b) $I=3\\int\\frac{du}{\\sqrt{16-u^2}}$<br>(c) $I=3\\sin^{-1}\\left(\\frac{3x-1}{4}\\right)+C$<br>(d) $-1\\leq x\\leq\\frac{5}{3}$",
+    "B": "(a) $u=3x-1$<br>(b) $I=\\frac{1}{3}\\int\\frac{du}{16-u^2}$<br>(c) $I=\\frac{1}{24}\\log\\left|\\frac{4+3x-1}{4-(3x-1)}\\right|+C$<br>(d) $-1<x<\\frac{5}{3}$",
+    "C": "(a) $u=3x-1$<br>(b) $I=\\frac{1}{3}\\int\\frac{du}{\\sqrt{16-u^2}}$<br>(c) $I=\\frac{1}{3}\\sin^{-1}\\left(\\frac{3x-1}{4}\\right)+C$<br>(d) $-1<x<\\frac{5}{3}$",
+    "D": "(a) $u=3x+1$<br>(b) $I=\\frac{1}{3}\\int\\frac{du}{\\sqrt{16-u^2}}$<br>(c) $I=\\frac{1}{3}\\sin^{-1}\\left(\\frac{3x+1}{4}\\right)+C$<br>(d) $-\\frac{5}{3}<x<1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9b6d36638848124d7c997",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "SA",
+  "question": "Find the area of the parallelogram defined by adjacent sides $\\vec{a} = 2\\hat{i} + 3\\hat{j} + \\hat{k}$ and $\\vec{b} = 4\\hat{i} - \\hat{j} + 5\\hat{k}$.",
+  "answeroption": "D",
+  "explanation": "Step 1: The area of the parallelogram is given by the magnitude of the cross product:<br /><br />$\\text{Area} = |\\vec{a} \\times \\vec{b}|$<br /><br />Step 2: Calculate $\\vec{a} \\times \\vec{b}$:<br /><br />$\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 3 & 1 \\\\ 4 & -1 & 5 \\end{vmatrix}$<br /><br />$= \\hat{i}(3 \\times 5 - 1 \\times (-1)) - \\hat{j}(2 \\times 5 - 1 \\times 4) + \\hat{k}(2 \\times (-1) - 3 \\times 4)$<br /><br />$= \\hat{i}(15 + 1) - \\hat{j}(10 - 4) + \\hat{k}(-2 - 12)$<br /><br />$= 16\\hat{i} - 6\\hat{j} - 14\\hat{k}$<br /><br />Step 3: Compute the magnitude:<br /><br />$|\\vec{a} \\times \\vec{b}| = \\sqrt{(16)^2 + (-6)^2 + (-14)^2}$<br /><br />$= \\sqrt{256 + 36 + 196}$<br /><br />$= \\sqrt{488}$<br /><br />$= 2\\sqrt{122}$<br /><br />Therefore, the area of the parallelogram is $2\\sqrt{122}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sqrt{122}$ square units",
+    "B": "$\\sqrt{488}/2$ square units",
+    "C": "$4\\sqrt{122}$ square units",
+    "D": "$2\\sqrt{122}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:01:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

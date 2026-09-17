@@ -1,0 +1,30 @@
+{
+  "id": "69a9728062be6a70cd184da6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "SA",
+  "question": "Define a function $f: \\mathbb{Z} \\to \\mathbb{Z}$ by $f(x) = \\begin{cases} \\frac{x}{2}, & x \\text{ even} \\\\ 3x+1, & x \\text{ odd} \\end{cases}$. Show $f$ is neither one-one nor onto. Justify.",
+  "answeroption": "B",
+  "explanation": "**Step 1: Test injectivity**<br /><br />Suppose $f(x_1) = f(x_2)$. Try $x_1=2, x_2=1$:<br /><br />$f(2) = 1$, $f(1) = 4$, so $1 \\neq 4$.<br /><br />Try $x_1=2, x_2=4$:<br /><br />$f(2) = 1$, $f(4) = 2$; still not equal.<br /><br />Equate cases where $x_1$ even and $x_2$ odd:<br /><br />$\\frac{x_1}{2} = 3x_2 + 1$<br /><br />This may have integer solutions — try $x_1=8$, $x_2=1$: $f(8)=4$, $f(1)=4$. So $f(8)=f(1)$ with $8 \\neq 1$. Hence $f$ is not injective.<br /><br />**Step 2: Test surjectivity**<br /><br />Check whether every integer is attained. For $y=11$, if $x$ is even then $f(x)=x/2=11 \\Rightarrow x=22$ (even) and $f(22)=11$. Thus values can be produced by even inputs.<br /><br />Hence $f$ is not one-one but it is onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one and onto",
+    "B": "$f$ is onto but not one-one",
+    "C": "$f$ is one-one but not onto",
+    "D": "$f$ is neither one-one nor onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:09:36 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

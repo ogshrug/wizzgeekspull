@@ -1,0 +1,30 @@
+{
+  "id": "69a95aebd30adc5083911a5a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603740512f018fa94d6d"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\begin{vmatrix} 2 & 7 & 3 \\\\ 5 & 2 & 6 \\\\ 1 & 4 & 3 \\end{vmatrix}$ using cofactor expansion along the first row.",
+  "answeroption": "C",
+  "explanation": "Let $\\Delta = \\begin{vmatrix} 2 & 7 & 3 \\\\ 5 & 2 & 6 \\\\ 1 & 4 & 3 \\end{vmatrix}$<br />expand along row 1:<br />$= 2\\begin{vmatrix}2 & 6 \\\\ 4 & 3\\end{vmatrix} - 7\\begin{vmatrix}5 & 6 \\\\ 1 & 3\\end{vmatrix} + 3\\begin{vmatrix}5 & 2 \\\\ 1 & 4\\end{vmatrix}$<br /><br />First minor: $2\\times3 - 6\\times4 = 6 - 24 = -18$<br />Second minor: $5\\times3 - 6\\times1 = 15 - 6 = 9$<br />Third minor: $5\\times4 - 2\\times1 = 20 - 2 = 18$<br /><br />So,<br />$= 2\\times(-18) - 7\\times9 + 3\\times18$<br />$= -36 - 63 + 54$<br />$= (-99) + 54 = -45$<br /><br />$\\boxed{-45}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$45$",
+    "B": "$-54$",
+    "C": "$-45$",
+    "D": "$54$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:28:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

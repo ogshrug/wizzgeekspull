@@ -1,0 +1,29 @@
+{
+  "id": "69a9209f575fa42e09444855",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "MCQ",
+  "question": "Suppose the feasible region for a Linear Programming Problem is unbounded and $Z$ is to be maximized. What should be checked to be sure that the maximum value found at a corner point is the true maximum?",
+  "answeroption": "C",
+  "explanation": "When the feasible region is unbounded, the objective function may increase indefinitely.<br /><br />After obtaining value $M$ at a corner point, check whether the feasible region overlaps with the region $ax + by > M$.<br /><br />If there is no overlap, then $M$ is the true maximum.",
+  "explanation_image": [],
+  "options": {
+    "A": "Observe if all inequalities are satisfied at that corner point",
+    "B": "Check if the corner point is at the origin",
+    "C": "Test whether the inequality of the form $ax + by > M$ has overlap with the feasible region",
+    "D": "No further check is needed"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:20:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

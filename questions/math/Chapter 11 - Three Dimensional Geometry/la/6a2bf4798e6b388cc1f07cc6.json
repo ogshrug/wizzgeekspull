@@ -1,0 +1,27 @@
+{
+  "id": "6a2bf4798e6b388cc1f07cc6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cf",
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the vector and cartesian equations of the line passing through the point of intersection of the lines $\\vec{r}=(\\hat{i}+\\hat{j}-\\hat{k})+\\lambda(3\\hat{i}-\\hat{j})$ and $\\vec{r}=(4\\hat{i}-\\hat{k})+\\mu(2\\hat{i}+3\\hat{k})$ and parallel to the line $\\frac{x-1}{-2}=\\frac{7-y}{-3}=z.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** We first need to find the specific point of intersection between the two given vector lines. The parametric positions of any general points on line one and line two can be written as $(1+3\\lambda, 1-\\lambda, -1)$ and $(4+2\\mu, 0, -1+3\\mu)$ respectively[cite: 2711]. Equating the corresponding z-coordinates from both lines gives the simple linear equation $-1 = -1 + 3\\mu$, which directly solves to yield $\\mu = 0$.<br /><br />**Step 2:** Substituting $\\mu = 0$ back into the second line's parametric equation immediately yields the coordinates of the unique point of intersection, which are $P(4, 0, -1)$. We can verify this point by equating the y-coordinates: $1 - \\lambda = 0 \\implies \\lambda = 1$. Substituting $\\lambda = 1$ into the x-coordinate gives $1 + 3(1) = 4$, confirming consistency across all dimensions.<br /><br />**Step 3:** Next, we extract the direction vector from the parallel line equation $\\frac{x-1}{-2}=\\frac{7-y}{-3}=z$[cite: 2711, 2712]. We must first rewrite this line in standard symmetric form by adjusting the y-term numerator: $\\frac{x-1}{-2} = \\frac{y-7}{3} = \\frac{z}{1}$[cite: 2712]. This reveals that the direction ratios of the required line are strictly proportional to $\\langle -2, 3, 1 \\rangle$.<br /><br />**Step 4:** Using the point $P(4, 0, -1)$ and the direction vector $\\vec{b} = -2\\hat{i} + 3\\hat{j} + \\hat{k}$, we formulate the equations. The vector equation path is expressed as $\\vec{r} = (4\\hat{i} - \\hat{k}) + t(-2\\hat{i} + 3\\hat{j} + \\hat{k})$. The corresponding Cartesian equation is given by $\\frac{x-4}{-2} = \\frac{y}{3} = \\frac{z+1}{1}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

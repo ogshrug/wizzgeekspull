@@ -1,0 +1,31 @@
+{
+  "id": "6a33b672d5dca7dcb0bf0f42",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int \\frac{a^x}{\\sqrt{1-a^{2x}}} dx$ is equal to:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Apply integration by substitution. Let $t = a^x$.\n\n**Step 2:** Find the differential $dt$ by taking the derivative with respect to $x$: $dt = a^x \\ln(a) \\, dx$, which can be rearranged to $a^x \\, dx = \\frac{dt}{\\ln(a)}$.\n\n**Step 3:** Substitute into the given integral: $\\int \\frac{a^x}{\\sqrt{1 - (a^x)^2}} dx = \\int \\frac{1}{\\sqrt{1-t^2}} \\cdot \\frac{dt}{\\ln(a)} = \\frac{1}{\\log_e a} \\int \\frac{1}{\\sqrt{1-t^2}} dt$.\n\n**Step 4:** Evaluate the standard integral: $\\frac{1}{\\log_e a} \\sin^{-1}(t) + C$. Substituting back $t = a^x$ yields $\\frac{\\sin^{-1}(a^x)}{\\log_e a} + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\sin^{-1}(a^x)}{\\log_e a} + C$",
+    "B": "$\\log_e(1-a^{2x}) + C$",
+    "C": "$\\frac{\\cos^{-1}(a^x)}{\\log_e a} + C$",
+    "D": "$\\frac{\\sin^{-1}(a^x)}{a^x} + C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

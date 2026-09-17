@@ -1,0 +1,29 @@
+{
+  "id": "69a9aece6638848124d7c976",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate the following integral using substitution: $\\int \\frac{2x}{x^2 + 1} dx$",
+  "answeroption": "A",
+  "explanation": "Let $u=x^2+1$. Then $du=2x dx$.<br /><br />Substitute into the integral:<br /><br />$\\int \\frac{2x}{x^2+1}dx = \\int \\frac{1}{u}du$.<br /><br />Integrating gives $\\ln|u|+C$.<br /><br />Substituting back gives $\\ln|x^2+1| + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\ln|x^2+1|+C$",
+    "B": "$\\frac{1}{2}\\ln|x^2+1|+C$",
+    "C": "$\\ln|2x|+C$",
+    "D": "$\\frac{2}{x^2+1}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:26:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

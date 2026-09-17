@@ -1,0 +1,30 @@
+{
+  "id": "6a902e7d2e54880055a0a744",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6",
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "LA",
+  "question": "A store receives $50\\%$ of its electric bulbs from supplier $A$, $30\\%$ from supplier $B$ and $20\\%$ from supplier $C$. The respective percentages of defective bulbs supplied by them are $1\\%$, $2\\%$ and $5\\%$. A bulb selected at random from the store is found to be defective. Determine the probability that it was supplied by $C$.",
+  "answeroption": "B",
+  "explanation": "<b>Given Information</b><br>Let $E_1,E_2,E_3$ denote the events that a bulb is supplied by $A,B,C$ respectively, and let $D$ denote the event that the bulb is defective.<br><br>Then<br>$$P(E_1)=0.50,\\quad P(E_2)=0.30,\\quad P(E_3)=0.20,$$<br>and<br>$$P(D|E_1)=0.01,\\quad P(D|E_2)=0.02,\\quad P(D|E_3)=0.05.$$<br><br><b>Applying Total Probability</b><br>Since $E_1,E_2,E_3$ form a partition of the sample space,<br>$$P(D)=P(E_1)P(D|E_1)+P(E_2)P(D|E_2)+P(E_3)P(D|E_3).$$<br>Hence,<br>$$P(D)=(0.50)(0.01)+(0.30)(0.02)+(0.20)(0.05).$$<br>Thus,<br>$$P(D)=0.005+0.006+0.010=0.021.$$<br><br><b>Applying Bayes’ Theorem</b><br>The required probability is<br>$$P(E_3|D)=\\frac{P(E_3)P(D|E_3)}{P(D)}.$$<br>Therefore,<br>$$P(E_3|D)=\\frac{(0.20)(0.05)}{0.021}=\\frac{0.010}{0.021}=\\frac{10}{21}.$$<br><br><b>Final Result</b><br>Hence, the probability that the defective bulb was supplied by $C$ is $\\frac{10}{21}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{5}{21}$",
+    "B": "$\\frac{10}{21}$",
+    "C": "$\\frac{2}{5}$",
+    "D": "$\\frac{1}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

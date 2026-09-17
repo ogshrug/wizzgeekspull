@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc9802e54880055a0a706",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int \\frac{x^2+5x+3}{x(x+1)^2}dx$ by resolving the rational function into partial fractions and simplifying the resulting integral completely.",
+  "answeroption": "C",
+  "explanation": "The given integrand is a proper rational function and its denominator contains a simple linear factor and a repeated linear factor. Therefore, write<br><br>$$\\frac{x^2+5x+3}{x(x+1)^2}=\\frac{A}{x}+\\frac{B}{x+1}+\\frac{C}{(x+1)^2}$$<br><br>Multiplying throughout by $x(x+1)^2$, we obtain<br><br>$$x^2+5x+3=A(x+1)^2+Bx(x+1)+Cx$$<br><br>Expanding,<br><br>$$x^2+5x+3=(A+B)x^2+(2A+B+C)x+A$$<br><br>Comparing coefficients of corresponding powers of $x$,<br><br>$$A+B=1$$<br><br>$$2A+B+C=5$$<br><br>$$A=3$$<br><br>Thus, $A=3$. From $A+B=1$, we get $B=-2$. Substituting $A=3$ and $B=-2$ in $2A+B+C=5$ gives<br><br>$$6-2+C=5$$<br><br>so $C=1$. Therefore,<br><br>$$\\frac{x^2+5x+3}{x(x+1)^2}=\\frac{3}{x}-\\frac{2}{x+1}+\\frac{1}{(x+1)^2}$$<br><br>Hence,<br><br>$$\\int \\frac{x^2+5x+3}{x(x+1)^2}dx=3\\int\\frac{dx}{x}-2\\int\\frac{dx}{x+1}+\\int\\frac{dx}{(x+1)^2}$$<br><br>Evaluating the integrals,<br><br>$$=3\\log|x|-2\\log|x+1|-\\frac{1}{x+1}+C$$<br><br>Therefore, the required integral is $3\\log|x|-2\\log|x+1|-\\frac{1}{x+1}+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$3\\log|x|-2\\log|x+1|+\\frac{1}{x+1}+C$",
+    "B": "$3\\log|x|+2\\log|x+1|-\\frac{1}{x+1}+C$",
+    "C": "$3\\log|x|-2\\log|x+1|-\\frac{1}{x+1}+C$",
+    "D": "$2\\log|x|-3\\log|x+1|-\\frac{1}{x+1}+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

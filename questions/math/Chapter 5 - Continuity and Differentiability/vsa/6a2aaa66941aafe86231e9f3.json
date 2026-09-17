@@ -1,0 +1,26 @@
+{
+  "id": "6a2aaa66941aafe86231e9f3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "VSA",
+  "question": "If $x=e^{t+\\frac{1}{t}}$ and $y=e^{t-\\frac{1}{t}}$, then find $\\frac{dy}{dx}$ at $t=-2$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate $x$ and $y$ with respect to $t$:<br />$\\frac{dx}{dt}=e^{t+\\frac{1}{t}}\\left(1-\\frac{1}{t^2}\\right)=x\\left(1-\\frac{1}{t^2}\\right)$,<br />$\\frac{dy}{dt}=e^{t-\\frac{1}{t}}\\left(1+\\frac{1}{t^2}\\right)=y\\left(1+\\frac{1}{t^2}\\right)$.<br /><br />**Step 2:** Using the parametric derivative formula,<br />$\\frac{dy}{dx}=\\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}}=\\frac{y\\left(1+\\frac{1}{t^2}\\right)}{x\\left(1-\\frac{1}{t^2}\\right)}$.<br /><br />**Step 3:** At $t=-2$,<br />$x=e^{-2-\\frac{1}{2}}=e^{-\\frac{5}{2}}$,<br />$y=e^{-2+\\frac{1}{2}}=e^{-\\frac{3}{2}}$.<br /><br />Therefore,<br />$\\frac{dy}{dx}=\\frac{e^{-\\frac{3}{2}}\\left(1+\\frac{1}{4}\\right)}{e^{-\\frac{5}{2}}\\left(1-\\frac{1}{4}\\right)}=\\frac{e^{-\\frac{3}{2}}\\cdot\\frac{5}{4}}{e^{-\\frac{5}{2}}\\cdot\\frac{3}{4}}=e\\cdot\\frac{5}{3}=\\boxed{\\frac{5e}{3}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

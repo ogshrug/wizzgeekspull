@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed3f2751910886affb9ca",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "SA",
+  "question": "Find all the critical points of $f(x)=x^4-8x^2+5$ and calculate the corresponding function values.",
+  "answeroption": "A",
+  "explanation": "<b>First derivative</b><br>$$f'(x)=4x^3-16x=4x(x^2-4)$$<br><b>Critical-point condition</b><br>Since the polynomial is differentiable everywhere, its critical points satisfy $f'(x)=0$. Thus,<br>$$4x(x-2)(x+2)=0$$<br>Therefore, $x=-2,0,2$.<br><b>Function value at $x=0$</b><br>$$f(0)=5$$<br><b>Function values at $x=\\pm2$</b><br>$$f(2)=f(-2)=16-32+5=-11$$<br><b>Conclusion</b><br>The critical points occur at $x=-2,0,2$. The corresponding points on the curve are $(-2,-11)$, $(0,5)$ and $(2,-11)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=-2,0,2$ with $f(-2)=-11$, $f(0)=5$, $f(2)=-11$",
+    "B": "$x=-2,2$ with $f(-2)=f(2)=-11$",
+    "C": "$x=-4,0,4$ with $f(-4)=f(4)=197$, $f(0)=5$",
+    "D": "$x=-2,0,2$ with $f(-2)=11$, $f(0)=5$, $f(2)=11$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a8ed1502e54880055a0a6d5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d80",
+    "69c6610140512f018fa94d81",
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During an investigation of functions in which both the base and exponent contain the variable, students consider $y=x^x$ for $x>0$. Direct use of the ordinary power rule is not suitable because the exponent is not constant. The class therefore applies logarithmic differentiation: first the natural logarithm is taken on both sides, then the logarithmic expression is differentiated, and finally the result is rewritten in terms of the original function. The students also examine the value of $x$ for which the derivative becomes zero, using the inverse relationship between logarithmic and exponential functions.<br><br><b>(a)</b> Take logarithms on both sides of $y=x^x$ and simplify the resulting relation.<br><br><b>(b)</b> Differentiate the logarithmic relation with respect to $x$.<br><br><b>(c)</b> Show that $\\frac{dy}{dx}=x^x(1+\\log x)$.<br><br><b>(d)</b> Determine the positive value of $x$ for which $\\frac{dy}{dx}=0$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>Given<br><br>$$y=x^x,\\quad x>0.$$<br><br>Taking natural logarithm on both sides,<br><br>$$\\log y=\\log(x^x).$$<br><br>Using the logarithmic law $\\log(a^b)=b\\log a$,<br><br>$$\\log y=x\\log x.$$<br><br><b>(b)</b><br>Differentiating both sides with respect to $x$,<br><br>$$\\frac{1}{y}\\frac{dy}{dx}=\\log x+x\\left(\\frac{1}{x}\\right).$$<br><br>Therefore,<br><br>$$\\frac{1}{y}\\frac{dy}{dx}=\\log x+1.$$<br><br><b>(c)</b><br>Multiplying both sides by $y$,<br><br>$$\\frac{dy}{dx}=y(1+\\log x).$$<br><br>Since $y=x^x$,<br><br>$$\\frac{dy}{dx}=x^x(1+\\log x).$$<br><br>Hence, the required derivative is obtained by logarithmic differentiation.<br><br><b>(d)</b><br>For $x>0$, $x^x>0$. Therefore, $\\frac{dy}{dx}=0$ requires<br><br>$$1+\\log x=0.$$<br><br>Thus,<br><br>$$\\log x=-1.$$<br><br>Using the inverse relationship between logarithmic and exponential functions,<br><br>$$x=e^{-1}=\\frac{1}{e}.$$<br><br>Hence, the required positive value is $x=\\frac{1}{e}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\log y=x+\\log x$<br>(b) $\\frac{1}{y}\\frac{dy}{dx}=1+\\frac{1}{x}$<br>(c) $\\frac{dy}{dx}=x^x\\left(1+\\frac{1}{x}\\right)$<br>(d) No positive solution",
+    "B": "(a) $\\log y=x\\log x$<br>(b) $\\frac{1}{y}\\frac{dy}{dx}=\\log x$<br>(c) $\\frac{dy}{dx}=x^x\\log x$<br>(d) $x=1$",
+    "C": "(a) $\\log y=\\log x$<br>(b) $\\frac{1}{y}\\frac{dy}{dx}=\\frac{1}{x}$<br>(c) $\\frac{dy}{dx}=x^{x-1}$<br>(d) $x=1$",
+    "D": "(a) $\\log y=x\\log x$<br>(b) $\\frac{1}{y}\\frac{dy}{dx}=1+\\log x$<br>(c) $\\frac{dy}{dx}=x^x(1+\\log x)$<br>(d) $x=\\frac{1}{e}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

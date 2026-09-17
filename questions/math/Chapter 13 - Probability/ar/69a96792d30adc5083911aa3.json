@@ -1,0 +1,29 @@
+{
+  "id": "69a96792d30adc5083911aa3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): If an unbiased coin is tossed three times, the probability of getting at least two heads is $\\frac{4}{8} = \\frac{1}{2}$.<br />Reason (R): The probability distribution of number of heads in 3 tosses is binomial with parameters n=3, p=1/2.",
+  "answeroption": "A",
+  "explanation": "The probability of getting at least two heads is $P(2 \\text{ heads}) + P(3 \\text{ heads})$.<br />$= \\binom{3}{2}\\left(\\frac{1}{2}\\right)^2\\left(\\frac{1}{2}\\right)^1 + \\binom{3}{3}\\left(\\frac{1}{2}\\right)^3$.<br />$= 3 \\times \\frac{1}{4} \\times \\frac{1}{2} + 1 \\times \\frac{1}{8}$.<br />$= \\frac{3}{8} + \\frac{1}{8} = \\frac{4}{8} = \\frac{1}{2}$.<br />Reason gives the correct distribution and thus is the explanation.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:22:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

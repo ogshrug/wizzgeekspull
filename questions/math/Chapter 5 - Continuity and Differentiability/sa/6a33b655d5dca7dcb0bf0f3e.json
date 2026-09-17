@@ -1,0 +1,26 @@
+{
+  "id": "6a33b655d5dca7dcb0bf0f3e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "SA",
+  "question": "Differentiate $\\log(x^x + \\csc^2 x)$ with respect to $x$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $y = \\log(x^x + \\csc^2 x)$. Apply the chain rule: $\\frac{dy}{dx} = \\frac{1}{x^x + \\csc^2 x} \\cdot \\frac{d}{dx}(x^x + \\csc^2 x)$.\n\n**Step 2:** To differentiate $x^x$, let $u = x^x$. Taking natural log on both sides gives $\\ln u = x \\ln x$. Differentiating implicitly yields $\\frac{1}{u} \\frac{du}{dx} = 1 \\cdot \\ln x + x \\cdot \\frac{1}{x} = 1 + \\log x$. Therefore, $\\frac{d}{dx}(x^x) = x^x(1 + \\log x)$.\n\n**Step 3:** Differentiate $\\csc^2 x$ using the chain rule: $\\frac{d}{dx}(\\csc^2 x) = 2\\csc x \\cdot (-\\csc x \\cot x) = -2\\csc^2 x \\cot x$.\n\n**Step 4:** Combine the individual derivatives into the main expression: $\\frac{dy}{dx} = \\frac{x^x(1 + \\log x) - 2\\csc^2 x \\cot x}{x^x + \\csc^2 x}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

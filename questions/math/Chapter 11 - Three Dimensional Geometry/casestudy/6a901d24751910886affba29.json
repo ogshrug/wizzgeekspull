@@ -1,0 +1,31 @@
+{
+  "id": "6a901d24751910886affba29",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cd",
+    "6a13e7cad837c8c7efa6b8ce",
+    "6a13e7cad837c8c7efa6b8cf"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom investigation of lines in space, a straight line $L$ is known to pass through the point $P(-2,1,4)$ and to have direction ratios $3,-2,6$. A point $Q(4,-3,16)$ has also been marked in the coordinate system, and students wish to determine whether it belongs to the same line. The investigation requires the line to be represented in both vector and Cartesian forms so that different descriptions of the same three-dimensional line can be compared. The coordinates of additional points on the line can then be obtained by assigning suitable values to the parameter in its vector equation.<br><br><b>(a)</b> Write the vector equation of the line $L$.<br><br><b>(b)</b> Obtain the Cartesian equation of $L$.<br><br><b>(c)</b> Verify whether $Q(4,-3,16)$ lies on $L$.<br><br><b>(d)</b> Determine the point on $L$ whose $x$-coordinate is $7$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The position vector of $P(-2,1,4)$ is<br>$$\\vec a=-2\\hat i+\\hat j+4\\hat k.$$<br>A vector parallel to the line having direction ratios $3,-2,6$ is<br>$$\\vec b=3\\hat i-2\\hat j+6\\hat k.$$<br>Hence the vector equation is<br>$$\\vec r=(-2\\hat i+\\hat j+4\\hat k)+\\lambda(3\\hat i-2\\hat j+6\\hat k).$$<br><br><b>(b)</b><br>From the vector equation,<br>$$x=-2+3\\lambda,\\quad y=1-2\\lambda,\\quad z=4+6\\lambda.$$<br>Therefore,<br>$$\\lambda=\\frac{x+2}{3}=\\frac{y-1}{-2}=\\frac{z-4}{6}.$$<br>Thus, the Cartesian equation of $L$ is<br>$$\\frac{x+2}{3}=\\frac{y-1}{-2}=\\frac{z-4}{6}.$$<br><br><b>(c)</b><br>For $Q(4,-3,16)$,<br>$$\\frac{4+2}{3}=2,\\quad \\frac{-3-1}{-2}=2,\\quad \\frac{16-4}{6}=2.$$<br>All three ratios are equal. Hence, $Q$ satisfies the Cartesian equation and therefore lies on $L$.<br><br><b>(d)</b><br>Using $x=-2+3\\lambda$ and $x=7$,<br>$$7=-2+3\\lambda.$$<br>Thus, $3\\lambda=9$ and $\\lambda=3$.<br>Therefore,<br>$$y=1-2(3)=-5$$<br>and<br>$$z=4+6(3)=22.$$<br>Hence, the required point is $(7,-5,22)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec r=(-2\\hat i+\\hat j+4\\hat k)+\\lambda(3\\hat i-2\\hat j+6\\hat k)$<br>(b) $\\frac{x+2}{3}=\\frac{y-1}{-2}=\\frac{z-4}{6}$<br>(c) $Q(4,-3,16)$ lies on $L$<br>(d) $(7,-5,22)$",
+    "B": "(a) $\\vec r=(-2\\hat i+\\hat j+4\\hat k)+\\lambda(3\\hat i+2\\hat j+6\\hat k)$<br>(b) $\\frac{x+2}{3}=\\frac{y-1}{2}=\\frac{z-4}{6}$<br>(c) $Q$ does not lie on $L$<br>(d) $(7,7,22)$",
+    "C": "(a) $\\vec r=(2\\hat i-\\hat j+4\\hat k)+\\lambda(3\\hat i-2\\hat j+6\\hat k)$<br>(b) $\\frac{x-2}{3}=\\frac{y+1}{-2}=\\frac{z-4}{6}$<br>(c) $Q$ lies on $L$<br>(d) $(7,-5,16)$",
+    "D": "(a) $\\vec r=(-2\\hat i+\\hat j+4\\hat k)+\\lambda(3\\hat i-2\\hat j+6\\hat k)$<br>(b) $\\frac{x+2}{3}=\\frac{y-1}{-2}=\\frac{z-4}{6}$<br>(c) $Q$ lies on $L$<br>(d) $(7,-3,22)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

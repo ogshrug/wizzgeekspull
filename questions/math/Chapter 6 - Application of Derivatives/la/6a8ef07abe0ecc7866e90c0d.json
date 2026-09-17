@@ -1,0 +1,31 @@
+{
+  "id": "6a8ef07abe0ecc7866e90c0d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f",
+    "6a13e9908c819562f933f980",
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "LA",
+  "question": "Using linear approximation, answer the following:<br><br>(a) Obtain the linear approximation of $f(x)=\\sqrt{x}$ near $x=25$.<br><br>(b) Hence, find an approximate value of $\\sqrt{25.3}$.<br><br>(c) Determine the approximate percentage change in the value of $\\sqrt{x}$ when $x$ changes from $25$ to $25.3$.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>For $f(x)=\\sqrt{x}$,<br>$$f'(x)=\\frac{1}{2\\sqrt{x}}$$<br>At $x=25$,<br>$$f(25)=5\\quad\\text{and}\\quad f'(25)=\\frac{1}{10}$$<br>The linear approximation near $x=25$ is<br>$$L(x)=f(25)+f'(25)(x-25)$$<br>Therefore,<br>$$L(x)=5+\\frac{x-25}{10}$$<br><br><b>(b)</b><br>For $x=25.3$, the change in $x$ is<br>$$dx=25.3-25=0.3$$<br>Using the linear approximation,<br>$$\\sqrt{25.3}\\approx 5+\\frac{0.3}{10}$$<br>$$\\sqrt{25.3}\\approx 5.03$$<br><br><b>(c)</b><br>The approximate change in $f$ is<br>$$df=f'(25)\\,dx=\\frac{1}{10}(0.3)=0.03$$<br>The approximate percentage change is<br>$$\\frac{df}{f(25)}\\times 100=\\frac{0.03}{5}\\times 100$$<br>$$=0.6\\%$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $L(x)=5+\\frac{x-25}{5}$<br>(b) $\\sqrt{25.3}\\approx5.06$<br>(c) Percentage change $1.2\\%$",
+    "B": "(a) $L(x)=5+\\frac{x-25}{10}$<br>(b) $\\sqrt{25.3}\\approx5.03$<br>(c) Percentage change $0.6\\%$",
+    "C": "(a) $L(x)=5+\\frac{x-25}{25}$<br>(b) $\\sqrt{25.3}\\approx5.012$<br>(c) Percentage change $0.24\\%$",
+    "D": "(a) $L(x)=25+\\frac{x-25}{10}$<br>(b) $\\sqrt{25.3}\\approx25.03$<br>(c) Percentage change $0.12\\%$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

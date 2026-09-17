@@ -1,0 +1,29 @@
+{
+  "id": "69a96ea6d8e9ca3b29345788",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Case Study: Let $A = \\{1, 2, 3, ..., 10\\}$, and define a relation $R$ on $A$ by $xRy$ if and only if $x^2 + y^2$ is divisible by 5.<br /><br />(a) Find all pairs $(x, y) \\in A \\times A$ such that $xRy$ holds.<br /><br />(b) Is $R$ an equivalence relation? Justify.",
+  "answeroption": "B",
+  "explanation": "Compute $x^2 \\bmod 5$ for $x=1$ to $10$: $1,4,4,1,0,1,4,4,1,0$.<br /><br />Thus $x^2 \\equiv 0$ for $x=5,10$; $x^2 \\equiv 1$ for $x=1,4,6,9$; $x^2 \\equiv 4$ for $x=2,3,7,8$.<br /><br />For $x^2+y^2 \\equiv 0 \\pmod{5}$:<br /><br />If $x^2\\equiv0$ then $y^2\\equiv0$ giving pairs $(5,5),(5,10),(10,5),(10,10)$.<br /><br />If $x^2\\equiv1$ then $y^2\\equiv4$, and if $x^2\\equiv4$ then $y^2\\equiv1$. Hence all pairs between $\\{1,4,6,9\\}$ and $\\{2,3,7,8\\}$ in both orders.<br /><br />For reflexivity we require $x^2+x^2=2x^2$ divisible by 5 for all $x$, which is not true (for example $x=1$ gives $2$).<br /><br />Hence $R$ is not reflexive and therefore not an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is an equivalence relation because it is reflexive, symmetric and transitive",
+    "B": "$R$ is not an equivalence relation because it is not reflexive",
+    "C": "$R$ is an equivalence relation with classes $\\{5,10\\}$ and $\\{1,2,3,4,6,7,8,9\\}$",
+    "D": "$R$ is not defined on $A$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:53:10 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

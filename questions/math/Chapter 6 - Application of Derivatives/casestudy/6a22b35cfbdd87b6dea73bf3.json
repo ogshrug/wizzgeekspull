@@ -1,0 +1,28 @@
+{
+  "id": "6a22b35cfbdd87b6dea73bf3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A carpenter needs to make a wooden cuboidal box, closed from all sides, which has a square base and fixed volume. Since he is short of the paint required to paint the box on completion, he wants the surface area to be minimum. On the basis of the above information, answer the following questions:<br /><br />**(i)** Taking length = breadth = x m and height = y m, express the surface area (S) of the box in terms of x and its volume (V), which is constant.<br />**(ii)** Find $\\frac{dS}{dx}$<br />**(iii) (a)** Find a relation between x and y such that the surface area (S) is minimum.<br />OR<br />**(iii) (b)** If surface area (S) is constant, the volume $V=\\frac{1}{4}(Sx-2x^{3})$, x being the edge of base. Show that volume (V) is maximum for $x=\\sqrt{\\frac{S}{6}}$",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> The cuboidal box has a square base of side length $x$ and height $y$. The fixed volume is given by $V = x^2 y$, which allows us to express height as $y = \\frac{V}{x^2}$. The total surface area of a closed cuboid is $S = 2x^2 + 4xy$. Substituting $y$ into this area equation gives: $S = 2x^2 + 4x\\left(\\frac{V}{x^2}\\right) = 2x^2 + \\frac{4V}{x}$.<br /><br /><b>(ii)</b><br /><br /><b>Step 2</b> Differentiate the surface area function $S = 2x^2 + 4Vx^{-1}$ with respect to $x$ by applying the power rule: $\\frac{dS}{dx} = \\frac{d}{dx}(2x^2) + \\frac{d}{dx}(4Vx^{-1}) = 4x - 4Vx^{-2} = 4x - \\frac{4V}{x^2}$.<br /><br /><b>(iii) (a)</b><br /><br /><b>Step 3</b> To minimize surface area, locate the critical points by setting the first derivative equal to zero: $4x - \\frac{4V}{x^2} = 0 \\implies 4x = \\frac{4V}{x^2} \\implies x^3 = V$.<br /><b>Step 4</b> Substitute the volume formula $V = x^2 y$ back into this equation: $x^3 = x^2 y$. Dividing both sides by $x^2$ yields the relation $x = y$. This proves that a perfect cube minimizes the surface area for a fixed volume.<br /><br /><b>(iii) (b)</b><br /><br /><b>Step 5</b> Given the volume function $V = \\frac{1}{4}(Sx - 2x^3)$, find its critical points by differentiating with respect to $x$ and setting it to zero: $\\frac{dV}{dx} = \\frac{1}{4}(S - 6x^2) = 0 \\implies S - 6x^2 = 0 \\implies 6x^2 = S \\implies x = \\sqrt{\\frac{S}{6}}$. The second derivative is $\\frac{d^2V}{dx^2} = -3x < 0$, which confirms a maximum volume according to the Second Derivative Test.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-3",
+    "2025-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

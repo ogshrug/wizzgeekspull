@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed5a7751910886affb9d3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int \\sin 3x\\cos 2x\\,dx$ by first reducing the integrand using a trigonometric identity.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> Use the product-to-sum identity $\\sin A\\cos B=\\frac{1}{2}[\\sin(A+B)+\\sin(A-B)]$.<br><b>Step 2:</b> Taking $A=3x$ and $B=2x$, we get $\\sin3x\\cos2x=\\frac{1}{2}[\\sin5x+\\sin x]$.<br><b>Step 3:</b> Therefore, $$\\int\\sin3x\\cos2x\\,dx=\\frac{1}{2}\\int\\sin5x\\,dx+\\frac{1}{2}\\int\\sin x\\,dx.$$<br><b>Step 4:</b> Now $\\int\\sin5x\\,dx=-\\frac{1}{5}\\cos5x$ and $\\int\\sin x\\,dx=-\\cos x$.<br><b>Step 5:</b> Hence the required integral is $$\\boxed{-\\frac{1}{10}\\cos5x-\\frac{1}{2}\\cos x+C}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{1}{10}\\cos5x+\\frac{1}{2}\\cos x+C$",
+    "B": "$-\\frac{1}{10}\\cos5x-\\frac{1}{2}\\cos x+C$",
+    "C": "$\\frac{1}{10}\\cos5x-\\frac{1}{2}\\cos x+C$",
+    "D": "$-\\frac{1}{5}\\cos5x-\\cos x+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a33d792d5dca7dcb0bf0f50",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following linear programming problem graphically:\nMaximize $Z=8000x+12000y$\nSubject to constraints\n$3x+4y\\le60$\n$x+3y\\le30$\n$x\\ge0, y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Establish the equations for the boundary lines from the given inequalities: $3x + 4y = 60$ and $x + 3y = 30$, restricting the graph to the first quadrant due to $x \\ge 0$ and $y \\ge 0$.\n\n**Step 2:** Identify the axes intercepts for plotting. The line $3x + 4y = 60$ connects $(20, 0)$ and $(0, 15)$. The line $x + 3y = 30$ connects $(30, 0)$ and $(0, 10)$.\n\n**Step 3:** Calculate the exact point of intersection by solving the linear system. Multiply the second equation by 3 to yield $3x + 9y = 90$, then subtract the first equation to find $5y = 30 \\Rightarrow y = 6$. Substituting $y = 6$ gives $x = 12$. The feasible region's corner points are $(0,0)$, $(20,0)$, $(12,6)$, and $(0,10)$.\n\n**Step 4:** Evaluate the objective function $Z = 8000x + 12000y$ at each valid corner point: $Z(0,0) = 0$, $Z(20,0) = 160000$, $Z(12,6) = 96000 + 72000 = 168000$, and $Z(0,10) = 120000$.\n\n**Step 5:** Conclude that the maximum value is $168000$, achieved at the optimal coordinates $(12,6)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a22b849864be73cfcf6d2bd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6b"
+  ],
+  "question_type": "MCQ",
+  "question": "If $(a, b)$, $(c, d)$ and $(e, f)$ are the vertices of $\\Delta ABC$ and $\\Delta$ denotes the area of $\\Delta ABC$, then $\\begin{vmatrix} a & c & e \\\\ b & d & f \\\\ 1 & 1 & 1 \\end{vmatrix}^2$ is equal to",
+  "answeroption": "B",
+  "explanation": "**Step 1:** The standard determinant formula for calculating the area of a coordinate triangle given its three vertices is $\\Delta = \\frac{1}{2} \\begin{vmatrix} a & b & 1 \\\\ c & d & 1 \\\\ e & f & 1 \\end{vmatrix}$.<br />**Step 2:** By applying determinant properties, the determinant of a specific matrix is perfectly equal to the determinant of its transposed matrix. Therefore, $\\begin{vmatrix} a & c & e \\\\ b & d & f \\\\ 1 & 1 & 1 \\end{vmatrix} = \\begin{vmatrix} a & b & 1 \\\\ c & d & 1 \\\\ e & f & 1 \\end{vmatrix}$.<br />**Step 3:** Based on step 1, this determinant evaluates precisely to $2\\Delta$.<br />**Step 4:** Squaring this entire determined value yields $(2\\Delta)^2 = 4\\Delta^2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2\\Delta^2$",
+    "B": "$4\\Delta^2$",
+    "C": "$2\\Delta$",
+    "D": "$4\\Delta$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2",
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

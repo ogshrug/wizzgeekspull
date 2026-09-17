@@ -1,0 +1,28 @@
+{
+  "id": "6a33b646d5dca7dcb0bf0f3a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d5b",
+    "69c65fbf40512f018fa94d51"
+  ],
+  "question_type": "VSA",
+  "question": "If $A = \\begin{bmatrix}1 & 0 \\\\ -1 & 5\\end{bmatrix}$, then find the value of $K$ if $A^2 = 6A + KI_2$, where $I_2$ is an identity matrix.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Calculate $A^2$ by multiplying matrix $A$ by itself: $\\begin{bmatrix}1 & 0 \\\\ -1 & 5\\end{bmatrix} \\begin{bmatrix}1 & 0 \\\\ -1 & 5\\end{bmatrix} = \\begin{bmatrix}(1)(1)+(0)(-1) & (1)(0)+(0)(5) \\\\ (-1)(1)+(5)(-1) & (-1)(0)+(5)(5)\\end{bmatrix} = \\begin{bmatrix}1 & 0 \\\\ -6 & 25\\end{bmatrix}$.\n\n**Step 2:** Calculate the right-hand side expression $6A + KI_2$: $6\\begin{bmatrix}1 & 0 \\\\ -1 & 5\\end{bmatrix} + K\\begin{bmatrix}1 & 0 \\\\ 0 & 1\\end{bmatrix} = \\begin{bmatrix}6 & 0 \\\\ -6 & 30\\end{bmatrix} + \\begin{bmatrix}K & 0 \\\\ 0 & K\\end{bmatrix} = \\begin{bmatrix}6+K & 0 \\\\ -6 & 30+K\\end{bmatrix}$.\n\n**Step 3:** Equate the matrices from Step 1 and Step 2: $\\begin{bmatrix}1 & 0 \\\\ -6 & 25\\end{bmatrix} = \\begin{bmatrix}6+K & 0 \\\\ -6 & 30+K\\end{bmatrix}$.\n\n**Step 4:** Compare the corresponding elements (e.g., $a_{11}$) to solve for $K$: $1 = 6 + K \\Rightarrow K = -5$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

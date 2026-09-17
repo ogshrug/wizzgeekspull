@@ -1,0 +1,31 @@
+{
+  "id": "69a8508864fcf4cdd5b4baba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "LA",
+  "question": "A box with a square base and open top is to have a volume of $256$ cubic units. What should be its dimensions so that the amount of material used is minimum?",
+  "answeroption": "B",
+  "explanation": "Let side of square base be $x$ and height be $h$.<br /><br />Volume constraint:<br /><br />$x^2h=256 \\Rightarrow h=\\frac{256}{x^2}$.<br /><br />Surface area (material used):<br /><br />$S=x^2+4xh$.<br /><br />Substitute $h$:<br /><br />$S=x^2+\\frac{1024}{x}$.<br /><br />Differentiate:<br /><br />$\\frac{dS}{dx}=2x-\\frac{1024}{x^2}$.<br /><br />Set equal to zero:<br /><br />$2x=\\frac{1024}{x^2}$<br /><br />$2x^3=1024$<br /><br />$x^3=512$<br /><br />$x=8$.<br /><br />Then $h=\\frac{256}{64}=4$.<br /><br />Second derivative $>0$, hence minimum.<br /><br />Dimensions: base side $=8$, height $=4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Base side $=4$ units, height $=16$ units.",
+    "B": "Base side $=8$ units, height $=4$ units.",
+    "C": "Base side $=16$ units, height $=1$ unit.",
+    "D": "Base side $=6$ units, height $=8$ units."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:32:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

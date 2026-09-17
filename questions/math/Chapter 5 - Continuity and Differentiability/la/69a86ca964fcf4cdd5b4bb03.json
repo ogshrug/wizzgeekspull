@@ -1,0 +1,29 @@
+{
+  "id": "69a86ca964fcf4cdd5b4bb03",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\ln (a ^{\\log_b x})$ for $a, b > 0$ and $a, b \\ne 1,\\ x>0$.\n\nUsing the base change formula for logarithms, find $\\dfrac{df}{dx}$ and simplify your answer as far as possible.",
+  "answeroption": "B",
+  "explanation": "Using base change formula:<br /><br />$\\log_b x = \\frac{\\ln x}{\\ln b}$<br /><br />So,<br /><br />$f(x) = \\ln \\left(a^{\\frac{\\ln x}{\\ln b}}\\right)$<br /><br />$= \\frac{\\ln a}{\\ln b} \\ln x$<br /><br />Differentiate:<br /><br />$\\frac{df}{dx} = \\frac{\\ln a}{\\ln b} \\cdot \\frac{1}{x}$<br /><br />$\\boxed{\\frac{df}{dx} = \\frac{\\ln a}{\\ln b}\\,\\frac{1}{x}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{\\ln b}{\\ln a}\\,\\dfrac{1}{x}$",
+    "B": "$\\dfrac{\\ln a}{\\ln b}\\,\\dfrac{1}{x}$",
+    "C": "$\\dfrac{\\ln a}{x}$",
+    "D": "$\\dfrac{1}{x\\ln b}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:32:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

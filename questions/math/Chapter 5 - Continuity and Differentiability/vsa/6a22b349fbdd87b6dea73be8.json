@@ -1,0 +1,28 @@
+{
+  "id": "6a22b349fbdd87b6dea73be8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "VSA",
+  "question": "Differentiate $\\frac{\\sin~x}{\\sqrt{\\cos~x}}$ with respect to x.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Apply the calculus Quotient Rule, which states that $\\frac{d}{dx}\\left(\\frac{u}{v}\\right) = \\frac{u'v - uv'}{v^2}$. Let $u = \\sin x \\implies u' = \\cos x$, and let $v = (\\cos x)^{1/2}$.<br /><br /><b>Step 2</b> Compute the derivative of the denominator $v$ using the Chain Rule: $v' = \\frac{1}{2}(\\cos x)^{-1/2} \\cdot (-\\sin x) = \\frac{-\\sin x}{2\\sqrt{\\cos x}}$.<br /><br /><b>Step 3</b> Substitute these expressions back into the Quotient Rule framework: $\\frac{dy}{dx} = \\frac{(\\cos x)(\\sqrt{\\cos x}) - (\\sin x)\\left(\\frac{-\\sin x}{2\\sqrt{\\cos x}}\\right)}{(\\sqrt{\\cos x})^2}$. Multiplying out the terms in the numerator gives $\\frac{2\\cos^2 x + \\sin^2 x}{2(\\cos x)^{3/2}} = \\frac{\\cos^2 x + 1}{2(\\cos x)^{3/2}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

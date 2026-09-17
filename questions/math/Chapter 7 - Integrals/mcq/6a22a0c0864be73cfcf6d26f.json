@@ -1,0 +1,31 @@
+{
+  "id": "6a22a0c0864be73cfcf6d26f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{1}{x(log~x)^{2}}dx$ is equal to:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** We need to evaluate the indefinite integral $\\int \\frac{1}{x(\\log x)^2} dx$. We can use the substitution method.<br />**Step 2:** Let $t = \\log x$ (assuming natural logarithm). Differentiate both sides with respect to $x$: $\\frac{dt}{dx} = \\frac{1}{x}$, which implies $dt = \\frac{1}{x} dx$.<br />**Step 3:** Substitute $t$ and $dt$ into the original integral. The $\\frac{1}{x} dx$ part becomes $dt$, and the denominator $(\\log x)^2$ becomes $t^2$. The integral transforms to $\\int \\frac{1}{t^2} dt$.<br />**Step 4:** Rewrite the integrand using negative exponents: $\\int t^{-2} dt$. Apply the power rule for integration $\\int t^n dt = \\frac{t^{n+1}}{n+1} + C$.<br />**Step 5:** This gives $\\frac{t^{-2+1}}{-2+1} + C = \\frac{t^{-1}}{-1} + C = -\\frac{1}{t} + C$. Substitute back $t = \\log x$ to get the final answer: $-\\frac{1}{\\log x} + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2~log(log~x)+c$",
+    "B": "$-\\frac{1}{log~x}+c$",
+    "C": "$\\frac{(log~x)^{3}}{3}+c$",
+    "D": "$\\frac{3}{(log~x)^{3}}+c$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

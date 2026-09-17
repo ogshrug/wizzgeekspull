@@ -1,0 +1,29 @@
+{
+  "id": "69a91e79575fa42e09444849",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "SA",
+  "question": "Consider the linear programming problem: Maximise $Z = 2x + y$ subject to $x + y \\leq 6$, $x + 2y \\leq 8$, $x \\geq 0$, $y \\geq 0$. Find all corner points and determine at which point(s) the maximum value of $Z$ occurs. If there are multiple points with the same maximum value, explain why.",
+  "answeroption": "A",
+  "explanation": "Constraints:<br /><br />$x + y \\leq 6$<br /><br />$x + 2y \\leq 8$<br /><br />$x \\geq 0, y \\geq 0$<br /><br />Step 1: Find intersections (vertices):<br /><br />(i) $x + y = 6$ and $x + 2y = 8$<br /><br />Subtract: $x + 2y - (x + y) = 8 - 6 \\implies y = 2$<br /><br />Substitute into $x + y = 6$: $x = 6 - 2 = 4$<br /><br />So, $(4,2)$<br /><br />(ii) $x + y = 6$, $y=0$: $x=6 \\implies (6,0)$<br /><br />(iii) $x + 2y = 8$, $x=0$: $2y=8\\implies y=4\\implies(0,4)$<br /><br />(iv) $x=0$, $y=0$<br /><br />Step 2: Verify feasibility<br /><br />$(0,0)$: $0+0\\leq6$, $0+0\\leq8$.<br /><br />$(6,0)$: $6\\leq6$, $6\\leq8$.<br /><br />$(0,4)$: $4\\leq6$, $0+8\\leq8$.<br /><br />$(4,2)$: $4+2 =6\\leq6$, $4+4=8\\leq8$.<br /><br />Step 3: Evaluate $Z$<br /><br />$(0,0): Z=0$<br /><br />$(6,0): Z=12$<br /><br />$(0,4): Z=4$<br /><br />$(4,2): Z=2\\times4+2=8+2=10$<br /><br />Largest $Z$ is at $(6,0)$: $Z=12$.<br /><br />Step 4: Is there more than one optimal solution?<br /><br />Compare $Z$ at each corner: only $(6,0)$ yields 12, so there is a unique optimal solution.<br /><br />Thus, the maximum value of $Z$ occurs at $(6,0)$ with $Z=12$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Corner points: $(0,0)$, $(6,0)$, $(4,2)$, $(0,4)$; maximum at $(6,0)$ with $Z=12$; unique optimal solution.",
+    "B": "Corner points: $(0,0)$, $(6,0)$, $(4,2)$, $(0,4)$; maximum at $(4,2)$ with $Z=10$; unique optimal solution.",
+    "C": "Corner points: $(0,0)$, $(6,0)$, $(4,2)$, $(0,4)$; maximum at $(0,4)$ with $Z=4$; multiple optimal solutions.",
+    "D": "Corner points: $(0,0)$, $(8,0)$, $(4,2)$, $(0,4)$; maximum at $(8,0)$ with $Z=16$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:11:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

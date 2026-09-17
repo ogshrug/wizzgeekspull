@@ -1,0 +1,29 @@
+{
+  "id": "6a8f18c0be0ecc7866e90c25",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991"
+  ],
+  "question_type": "SA",
+  "question": "Consider the curve $y=x^3+1$ over the interval $0\\leq x\\leq2$. (a) Find the area under the curve over this interval. (b) If the curve is shifted downward by $1$ unit, determine the corresponding area and hence find the decrease in area.",
+  "answeroption": "B",
+  "explanation": "Step 1: Area of the original curve The function $x^3+1$ is positive on $[0,2]$. Therefore, the required area is $A_1=\\int_0^2(x^3+1)\\,dx$. Step 2: Evaluation of the integral $A_1=\\left[\\frac{x^4}{4}+x\\right]_0^2=\\frac{16}{4}+2=6$. Step 3: Equation after vertical translation Shifting $y=x^3+1$ downward by $1$ unit gives $y=x^3$. Its area is $A_2=\\int_0^2x^3\\,dx=\\left[\\frac{x^4}{4}\\right]_0^2=4$. Step 4: Decrease in area $A_1-A_2=6-4=2$. Final Answer The original area is $6$ square units, the shifted area is $4$ square units, and the decrease is $2$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $4$ square units<br>(b) $6$ square units<br>Decrease $=-2$ square units",
+    "B": "(a) $6$ square units<br>(b) $4$ square units<br>Decrease $=2$ square units",
+    "C": "(a) $6$ square units<br>(b) $2$ square units<br>Decrease $=4$ square units",
+    "D": "(a) $4$ square units<br>(b) $4$ square units<br>Decrease $=0$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

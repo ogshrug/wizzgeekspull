@@ -1,0 +1,26 @@
+{
+  "id": "6a32953f6dbc98396e70a7a7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{\\sqrt{x}}{1+x^{3/2}}\\,dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use the substitution integration method by setting a new variable parameter: let $t=1+x^{3/2}$.<br />**Step 2:** Compute the differential: $dt=\\frac{3}{2}x^{1/2}\\,dx=\\frac{3}{2}\\sqrt{x}\\,dx\\implies \\sqrt{x}\\,dx=\\frac{2}{3}\\,dt$.<br />**Step 3:** Substitute into the integral: $\\int\\frac{2/3}{t}\\,dt=\\frac{2}{3}\\ln|t|+C$. Replacing $t$ gives the final answer $\\frac{2}{3}\\ln|1+x^{3/2}|+C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

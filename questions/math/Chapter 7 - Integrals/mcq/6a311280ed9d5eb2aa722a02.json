@@ -1,0 +1,31 @@
+{
+  "id": "6a311280ed9d5eb2aa722a02",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f988"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\frac{d}{dx}f(x)=2x+\\frac{3}{x}$ and $f(1)=1$, then f(x) is",
+  "answeroption": "B",
+  "explanation": "**Step 1:** To find the original function $f(x)$ from its given derivative $\\frac{d}{dx}f(x) = 2x+\\frac{3}{x}$, you must integrate the expression with respect to the variable x.\n\n**Step 2:** Integrating the terms individually using standard calculus rules produces the general anti-derivative formula $f(x) = x^2 + 3\\log|x| + C$, introducing the unknown integration constant C.\n\n**Step 3:** Apply the provided initial condition $f(1) = 1$ to solve for the constant C, substituting the values into our formula to get $1 = 1 + 0 + C$, meaning C is exactly 0. This confirms option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x^2+3\\log|x|+1$",
+    "B": "$x^2+3\\log|x|$",
+    "C": "$2-\\frac{3}{x^2}$",
+    "D": "$x^2+3\\log|x|-4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

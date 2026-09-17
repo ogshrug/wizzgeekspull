@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed3f2751910886affb9cf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "SA",
+  "question": "Analyse the intervals of increase and decrease of $f(x)=\\frac{x}{x^2+1}$ on $\\mathbb{R}$.",
+  "answeroption": "A",
+  "explanation": "<b>First derivative using the quotient rule</b><br>$$f'(x)=\\frac{(x^2+1)-2x^2}{(x^2+1)^2}=\\frac{1-x^2}{(x^2+1)^2}$$<br><b>Critical values</b><br>Since the denominator is always positive, $f'(x)=0$ when<br>$$1-x^2=0\\Rightarrow x=-1,1$$<br><b>Positive derivative interval</b><br>For $-1<x<1$, $1-x^2>0$, so $f'(x)>0$. Hence, the function is increasing on $(-1,1)$.<br><b>Negative derivative intervals</b><br>For $x<-1$ or $x>1$, $1-x^2<0$, so $f'(x)<0$.<br><b>Conclusion</b><br>The function is decreasing on $(-\\infty,-1)\\cup(1,\\infty)$ and increasing on $(-1,1)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Increasing on $(-1,1)$ and decreasing on $(-\\infty,-1)\\cup(1,\\infty)$",
+    "B": "Decreasing on $(-1,1)$ and increasing on $(-\\infty,-1)\\cup(1,\\infty)$",
+    "C": "Increasing on $(-\\infty,1)$ and decreasing on $(1,\\infty)$",
+    "D": "Decreasing on $(-\\infty,-1)$ and increasing on $(-1,\\infty)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

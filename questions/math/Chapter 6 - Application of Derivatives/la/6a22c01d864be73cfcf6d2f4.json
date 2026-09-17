@@ -1,0 +1,29 @@
+{
+  "id": "6a22c01d864be73cfcf6d2f4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Sum of two numbers is 5. If the sum of the cubes of these numbers is least, then find the sum of the squares of these numbers.",
+  "answeroption": "",
+  "explanation": "**Step 1 (Defining variables and objective function):** Let the two numbers be $x$ and $y$. From the problem statement, we are given that their sum is 5, which gives the linear constraint $x + y = 5$. We can express $y$ in terms of $x$ as $y = 5 - x$. The quantity to be minimized is the sum of their cubes, denoted by $S$. Therefore, $S = x^3 + y^3 = x^3 + (5 - x)^3$. This is a single-variable optimization problem since $y$ has been eliminated using the constraint. Our goal is to find the value(s) of $x$ that minimize $S$, and then compute the corresponding sum of squares $x^2 + y^2$ for those numbers.\n\n**Step 2 (Differentiation and finding critical points):** To minimize $S$, we differentiate $S$ with respect to $x$ and set the derivative equal to zero. First, compute the derivative: $\\frac{dS}{dx} = \\frac{d}{dx}[x^3] + \\frac{d}{dx}[(5 - x)^3]$. Using the power rule and chain rule, $\\frac{d}{dx}[x^3] = 3x^2$, and $\\frac{d}{dx}[(5 - x)^3] = 3(5 - x)^2 \\cdot (-1) = -3(5 - x)^2$. Thus, $\\frac{dS}{dx} = 3x^2 - 3(5 - x)^2$. Expanding $(5 - x)^2 = 25 - 10x + x^2$, we get $\\frac{dS}{dx} = 3x^2 - 3(25 - 10x + x^2) = 3x^2 - 75 + 30x - 3x^2 = 30x - 75$. Set $\\frac{dS}{dx} = 0$ to find critical points: $30x - 75 = 0 \\implies 30x = 75 \\implies x = \\frac{75}{30} = \\frac{5}{2} = 2.5$. To confirm that this critical point corresponds to a minimum, we compute the second derivative: $\\frac{d^2S}{dx^2} = \\frac{d}{dx}(30x - 75) = 30$, which is positive. A positive second derivative indicates that the function $S$ is concave up at $x = 2.5$, hence this point yields a local minimum. Since the function is a cubic with positive leading coefficient, this is also the global minimum over real numbers. Substituting back, $y = 5 - x = 5 - 2.5 = 2.5$. Therefore, the two numbers are equal, both $2.5$.\n\n**Step 3 (Computing the required sum of squares):** The problem asks: \"find the sum of the squares of these numbers.\" That is, compute $x^2 + y^2$ for the minimizing pair $(x, y) = (2.5, 2.5)$. First, $x^2 = (2.5)^2 = 6.25$. Similarly, $y^2 = (2.5)^2 = 6.25$. Adding them gives $x^2 + y^2 = 6.25 + 6.25 = 12.5$. Thus, when the sum of the cubes is minimized (under the constraint that the sum of the numbers is 5), the sum of the squares of the numbers is $12.5$. Alternatively, one could note that for two numbers with a fixed sum, the sum of cubes is minimized when the numbers are equal, which occurs at $x = y = 2.5$, leading directly to the same result.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-2",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a2166a091ff8b4d45610998",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "LA",
+  "question": "Find: $\\int\\frac{x}{(x-1)(x^{2}+4)}dx$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Write the partial fraction decomposition as $\\frac{x}{(x-1)(x^2+4)}=\\frac{A}{x-1}+\\frac{Bx+C}{x^2+4}$. Multiplying through by $(x-1)(x^2+4)$ gives $x=A(x^2+4)+(Bx+C)(x-1)$.<br /><br /><b>Step 2</b> Putting $x=1$ gives $1=5A$, so $A=\\frac{1}{5}$.<br /><br /><b>Step 3</b> Expanding and comparing coefficients, $x=(A+B)x^2+(C-B)x+(4A-C)$. Hence $A+B=0$, $C-B=1$ and $4A-C=0$. Using $A=\\frac{1}{5}$, we get $B=-\\frac{1}{5}$ and $C=\\frac{4}{5}$.<br /><br /><b>Step 4</b> Therefore, the integral becomes $\\frac{1}{5}\\int\\frac{dx}{x-1}-\\frac{1}{10}\\int\\frac{2x}{x^2+4}dx+\\frac{4}{5}\\int\\frac{dx}{x^2+4}$.<br /><br /><b>Step 5</b> Evaluating each integral gives $\\frac{1}{5}\\ln|x-1|-\\frac{1}{10}\\ln(x^2+4)+\\frac{2}{5}\\tan^{-1}\\left(\\frac{x}{2}\\right)+C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

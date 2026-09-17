@@ -1,0 +1,30 @@
+{
+  "id": "69aa65e0d30adc5083911b6e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\sin^{-1}(x)$ and $h(x) = \\sqrt{1 - x^2}$.\n\n(a) Find the derivative of $f(x) \\cdot h(x)$ with respect to $x$.\n\n(b) For what $x \\in [0,1]$ does this derivative vanish?\n\n(c) Let $A=\\begin{pmatrix}f(0) & h(0) \\\\ f(1/2) & h(1/2)\\end{pmatrix}$. Compute $\\det(A)$.\n\n(d) For $x=0$, evaluate $(f(x) \\cdot h(x))|_{x=0}$ and its derivative.\n\n(e) Justify whether $f(x)\\cdot h(x)$ is increasing or decreasing on $[0,1]$.",
+  "answeroption": "B",
+  "explanation": "**Concepts being tested:** Product rule, inverse trigonometric derivatives, determinants, monotonicity.<br /><br />(a)<br />Let $y=f(x)h(x)$.<br />$\\frac{d}{dx}(f(x)h(x))=f'(x)h(x)+f(x)h'(x)$.<br />$f'(x)=\\frac{1}{\\sqrt{1-x^2}}$, $h'(x)=\\frac{-x}{\\sqrt{1-x^2}}$.<br /><br />So derivative:<br />$1 - x\\frac{\\sin^{-1}(x)}{\\sqrt{1-x^2}}$.<br /><br />(b)<br />Equation $1 - x\\frac{\\sin^{-1}(x)}{\\sqrt{1-x^2}}=0$.<br />No exact solution in $[0,1]$.<br /><br />(c)<br />$f(0)=0$, $h(0)=1$.<br />$f(1/2)=\\frac{\\pi}{6}$, $h(1/2)=\\frac{\\sqrt3}{2}$.<br />$\\det(A)=0\\cdot\\frac{\\sqrt3}{2}-1\\cdot\\frac{\\pi}{6}=-\\frac{\\pi}{6}$.<br /><br />(d)<br />$(f(x)h(x))|_{0}=0$.<br />Derivative at $0=1$.<br /><br />(e)<br />Derivative positive on $[0,1)$, so $f(x)h(x)$ is strictly increasing.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{d}{dx}[f(x)h(x)]=\\frac{1}{\\sqrt{1-x^2}}$<br />(b) The derivative vanishes at $x=0$<br />(c) $\\det(A)=\\frac{\\pi}{6}$<br />(d) Value at $x=0$ is $1$ and derivative is $0$<br />(e) The function is decreasing on $[0,1]$",
+    "B": "(a) $\\frac{d}{dx}[f(x)h(x)]=1-\\frac{x\\sin^{-1}x}{\\sqrt{1-x^2}}$<br />(b) The derivative equation is $1-\\frac{x\\sin^{-1}x}{\\sqrt{1-x^2}}=0$, with no exact solution stated in $[0,1]$<br />(c) $A=\\begin{pmatrix}0&1\\\\\\frac{\\pi}{6}&\\frac{\\sqrt3}{2}\\end{pmatrix}$ and $\\det(A)=-\\frac{\\pi}{6}$<br />(d) At $x=0$, $f(x)h(x)=0$ and its derivative is $1$<br />(e) According to the derivative sign analysis, $f(x)h(x)$ is strictly increasing on $[0,1)$",
+    "C": "(a) $\\frac{d}{dx}[f(x)h(x)]=1+\\frac{x\\sin^{-1}x}{\\sqrt{1-x^2}}$<br />(b) The derivative vanishes at $x=1$<br />(c) $\\det(A)=0$<br />(d) At $x=0$, value is $0$ and derivative is $0$<br />(e) The function is constant",
+    "D": "(a) $\\frac{d}{dx}[f(x)h(x)]=\\sin^{-1}x\\sqrt{1-x^2}$<br />(b) The derivative vanishes for all $x$<br />(c) $\\det(A)=\\frac{\\sqrt3}{2}$<br />(d) At $x=0$, value is $0$ and derivative is undefined<br />(e) The function is not continuous"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:28:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

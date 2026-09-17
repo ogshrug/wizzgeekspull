@@ -1,0 +1,27 @@
+{
+  "id": "6a22a0e6864be73cfcf6d27c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e766d837c8c7efa6b8bc"
+  ],
+  "question_type": "SA",
+  "question": "Find a vector of magnitude 4 units perpendicular to each of the vectors $2\\hat{i}-\\hat{j}+\\hat{k}$ and $\\hat{i}+\\hat{j}-\\hat{k}$ and hence verify your answer.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $\\vec{a} = 2\\hat{i} - \\hat{j} + \\hat{k}$ and $\\vec{b} = \\hat{i} + \\hat{j} - \\hat{k}$. A vector perpendicular to both is found using the cross product: $\\vec{n} = \\vec{a} \\times \\vec{b}$.<br />**Step 2:** Calculate the cross product using a determinant: $\\vec{n} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & -1 & 1 \\\\ 1 & 1 & -1 \\end{vmatrix}$. Expanding gives $\\hat{i}(1 - 1) - \\hat{j}(-2 - 1) + \\hat{k}(2 - (-1)) = 0\\hat{i} + 3\\hat{j} + 3\\hat{k} = 3\\hat{j} + 3\\hat{k}$.<br />**Step 3:** Find the magnitude of this normal vector: $|\\vec{n}| = \\sqrt{0^2 + 3^2 + 3^2} = \\sqrt{9 + 9} = \\sqrt{18} = 3\\sqrt{2}$.<br />**Step 4:** Construct a unit vector in this direction: $\\hat{u} = \\frac{\\vec{n}}{|\\vec{n}|} = \\frac{3\\hat{j} + 3\\hat{k}}{3\\sqrt{2}} = \\frac{1}{\\sqrt{2}}\\hat{j} + \\frac{1}{\\sqrt{2}}\\hat{k}$.<br />**Step 5:** The required vector has a magnitude of 4. Multiply the unit vector by $\\pm 4$: $\\vec{v} = \\pm 4(\\frac{1}{\\sqrt{2}}\\hat{j} + \\frac{1}{\\sqrt{2}}\\hat{k}) = \\pm(2\\sqrt{2}\\hat{j} + 2\\sqrt{2}\\hat{k})$. Verification: check dot product with original vectors. $(2\\sqrt{2}\\hat{j} + 2\\sqrt{2}\\hat{k}) \\cdot (2\\hat{i} - \\hat{j} + \\hat{k}) = 0 - 2\\sqrt{2} + 2\\sqrt{2} = 0$. And $(2\\sqrt{2}\\hat{j} + 2\\sqrt{2}\\hat{k}) \\cdot (\\hat{i} + \\hat{j} - \\hat{k}) = 0 + 2\\sqrt{2} - 2\\sqrt{2} = 0$. Magnitude is $\\sqrt{(2\\sqrt{2})^2 + (2\\sqrt{2})^2} = \\sqrt{8+8} = 4$. Verified.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

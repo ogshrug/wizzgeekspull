@@ -1,0 +1,31 @@
+{
+  "id": "69a9c48962be6a70cd184e38",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A tech company is designing an open-top, rectangular box with a square base to minimize the cost of materials. The box must have a volume of $64 \\text{ cm}^3$. The material for the base costs Rs. 8 per $\\text{cm}^2$, and for the sides, Rs. 5 per $\\text{cm}^2$.<br /><br />(a) Formulate the cost function in terms of the base side $x$.<br /><br />(b) Find the dimensions that minimize the total cost using calculus.<br /><br />(c) Prove that the minimum occurs using the second derivative test.",
+  "answeroption": "D",
+  "explanation": "Let base side = $x$ cm, height = $h$ cm.<br /><br />Volume: $x^2 h = 64 \\implies h = \\frac{64}{x^2}$<br /><br />(a) Cost function:<br /><br />- Area of base: $x^2$ (costs Rs. 8 per cm$^2$)<br /><br />- Area of 4 sides: $4xh$ (costs Rs. 5 per cm$^2$)<br /><br />Total cost: $C = 8x^2 + 5 \\times 4xh = 8x^2 + 20xh$<br /><br />Substitute $h$: $C(x) = 8x^2 + 20x \\left(\\frac{64}{x^2}\\right) = 8x^2 + \\frac{1280}{x}$<br /><br />(b) Minimize $C$:<br /><br />$\\frac{dC}{dx} = 16x - \\frac{1280}{x^2}$<br /><br />Set $\\frac{dC}{dx} = 0$:<br /><br />$16x = \\frac{1280}{x^2}$<br /><br />$16x^3 = 1280$<br /><br />$x^3 = 80$<br /><br />$x = 2 \\sqrt[3]{10}$<br /><br />$h = \\frac{64}{x^2} = \\frac{64}{(2 \\sqrt[3]{10})^2} = \\frac{64}{4 \\sqrt[3]{100}} = 16/\\sqrt[3]{100}$<br /><br />(c) Second derivative:<br /><br />$\\frac{d^2C}{dx^2} = 16 + \\frac{2560}{x^3}$<br /><br />At $x = 2\\sqrt[3]{10}$, $\\frac{d^2C}{dx^2} > 0$ (positive), thus minimum.<br /><br />Minimum cost at $x = 2\\sqrt[3]{10}$ cm, $h = 16/\\sqrt[3]{100}$ cm.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $C(x)=5x^2+\\frac{2048}{x}$<br />(b) Dimensions are $x=4\\sqrt[3]{2}$ cm and $h=\\frac{64}{x^2}$ cm.<br />(c) $\\frac{d^2C}{dx^2}<0$, so the cost is maximum.",
+    "B": "(a) $C(x)=8x^2+\\frac{640}{x}$<br />(b) Dimensions are $x=\\sqrt[3]{40}$ cm and $h=\\frac{64}{x^2}$ cm.<br />(c) $\\frac{d^2C}{dx^2}>0$, so the cost is minimum.",
+    "C": "(a) $C(x)=8x^2+1280x$<br />(b) Dimensions are $x=2\\sqrt[3]{10}$ cm and $h=16\\sqrt[3]{100}$ cm.<br />(c) $\\frac{d^2C}{dx^2}=0$, so the test is inconclusive.",
+    "D": "(a) $C(x)=8x^2+\\frac{1280}{x}$<br />(b) Dimensions are $x=2\\sqrt[3]{10}$ cm and $h=\\frac{16}{\\sqrt[3]{100}}$ cm.<br />(c) $\\frac{d^2C}{dx^2}=16+\\frac{2560}{x^3}>0$, so the cost is minimum."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:59:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

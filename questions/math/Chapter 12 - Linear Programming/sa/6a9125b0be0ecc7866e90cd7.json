@@ -1,0 +1,29 @@
+{
+  "id": "6a9125b0be0ecc7866e90cd7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "SA",
+  "question": "The corner points of a feasible region are $A(0,4)$, $B(2,4)$, $C(5,1)$ and $D(5,0)$. For the objective function $Z=kx+3y$, find the value of $k>0$ for which both $B$ and $C$ give the same maximum value. Hence verify that they are optimal feasible solutions.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Equating the values at $B$ and $C$</b><br>At $B(2,4)$, $$Z_B=2k+3(4)=2k+12$$ At $C(5,1)$, $$Z_C=5k+3$$ For equal values, $$2k+12=5k+3$$<br><b>Step 2: Determining the parameter</b><br>Solving, $$9=3k\\Rightarrow k=3$$<br><b>Step 3: Evaluating all corner-point values</b><br>For $k=3$, $Z=3x+3y$. Hence, $$Z_A=12,\\quad Z_B=18,\\quad Z_C=18,\\quad Z_D=15$$<br><b>Step 4: Comparing the values</b><br>The greatest value among $12,18,18,15$ is $18$, attained at both $B$ and $C$.<br><b>Step 5: Conclusion</b><br>Therefore, $$k=3$$ and the maximum value is $18$. Thus, both $B(2,4)$ and $C(5,1)$ are optimal feasible solutions. Moreover, every feasible point on the segment joining $B$ and $C$ also gives this same maximum value.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=2$; maximum value $16$ at both $B$ and $C$",
+    "B": "$k=3$; maximum value $18$ at both $B$ and $C$",
+    "C": "$k=4$; maximum value $23$ at $C$ only",
+    "D": "$k=3$; maximum value $15$ at both $B$ and $C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

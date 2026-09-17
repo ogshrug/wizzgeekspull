@@ -1,0 +1,27 @@
+{
+  "id": "6a229bb1864be73cfcf6d25a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d56"
+  ],
+  "question_type": "LA",
+  "question": "If $A=\\begin{bmatrix}1&cot~x\\\\ -cot~x&1\\end{bmatrix}$, show that $A^{\\prime}A^{-1}=\\begin{bmatrix}-cos~2x&-sin~2x\\\\ sin~2x&-cos~2x\\end{bmatrix}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To prove this matrix relation, we must sequentially evaluate the transpose and the inverse of the given matrix A. First, let's explicitly state the transpose of matrix A. The transpose operation flips the matrix over its main diagonal. Thus, $A^{\\prime} = \\begin{bmatrix}1&-cot~x\\\\ cot~x&1\\end{bmatrix}$.<br />**Step 2:** Next, we compute the inverse of matrix A, denoted as $A^{-1}$. The formula for the inverse of a $2 \\times 2$ matrix is $\\frac{1}{|A|} \\text{adj}(A)$. We rigorously calculate the determinant of A: $|A| = (1)(1) - (cot~x)(-cot~x) = 1 + cot^2 x$. Using the fundamental trigonometric identity, $1 + cot^2 x = csc^2 x$. Therefore, the determinant is $csc^2 x$, which is strictly non-zero for defined values of $x$. The adjoint matrix of A is meticulously constructed by swapping the main diagonal elements and changing the signs of the off-diagonal elements, yielding $\\text{adj}(A) = \\begin{bmatrix}1&-cot~x\\\\ cot~x&1\\end{bmatrix}$. Consequently, the inverse matrix is exactly $A^{-1} = \\frac{1}{csc^2 x} \\begin{bmatrix}1&-cot~x\\\\ cot~x&1\\end{bmatrix} = sin^2 x \\begin{bmatrix}1&-cot~x\\\\ cot~x&1\\end{bmatrix}$.<br />**Step 3:** Now we execute the core operation: multiplying the transpose by the inverse, i.e., $A^{\\prime}A^{-1}$. We set up the multiplication: $\\begin{bmatrix}1&-cot~x\\\\ cot~x&1\\end{bmatrix} \\cdot \\left( sin^2 x \\begin{bmatrix}1&-cot~x\\\\ cot~x&1\\end{bmatrix} \\right)$. Because scalar multiplication is commutative, we neatly pull out the $sin^2 x$ term and multiply the two matrices.<br />**Step 4:** Perform the rigorous row-by-column matrix multiplication. Element (1,1): $1 - cot^2 x$. Element (1,2): $-2cot~x$. Element (2,1): $2cot~x$. Element (2,2): $1 - cot^2 x$. The resulting matrix expression is $sin^2 x \\begin{bmatrix}1-cot^2 x&-2cot~x\\\\ 2cot~x&1-cot^2 x\\end{bmatrix}$.<br />**Step 5:** Finally, we distribute the scalar $sin^2 x$ precisely into each element to simplify using deep trigonometric identities. For the diagonal elements: $sin^2 x (1 - \\frac{cos^2 x}{sin^2 x}) = sin^2 x - cos^2 x = -cos~2x$. For the off-diagonal elements: $sin^2 x (-2 \\frac{cos~x}{sin~x}) = -sin~2x$ and $sin^2 x (2 \\frac{cos~x}{sin~x}) = sin~2x$. Assembling these highly simplified elements back into the matrix yields exactly $\\begin{bmatrix}-cos~2x&-sin~2x\\\\ sin~2x&-cos~2x\\end{bmatrix}$. This completely establishes and definitively proves the required mathematical statement.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

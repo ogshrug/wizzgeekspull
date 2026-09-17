@@ -1,0 +1,29 @@
+{
+  "id": "69aa6639589ce36f368b48d3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Computer Graphics & Game Development**<br /><br />Camera at $R(1,4,2)$ reflects across plane $2x-3y+z=12$.<br /><br />(1) Find image of camera.<br /><br />(2) Equation of line joining camera and image.<br /><br />(3) Find angle this line makes with the plane.<br /><br />(4) Explain relevance in rendering reflections.",
+  "answeroption": "A",
+  "explanation": "Normal $(2,-3,1)$.<br /><br /> Foot of perpendicular $F(27/7,-2/7,24/7)$.<br /><br /> Image $P'(47/7,-32/7,34/7)$.<br /><br /> Line: $(1,4,2)+\\lambda(40/7,-60/7,20/7)$.<br /><br /> Angle between line and normal gives $\\cos\\theta=1$ so line is perpendicular to plane. <br /><br />Reflection uses normal direction ensuring accurate mirror rendering.",
+  "explanation_image": [],
+  "options": {
+    "A": "(1) Image of camera is $\\left(\\frac{47}{7},-\\frac{32}{7},\\frac{34}{7}\\right)$<br />(2) Line joining camera and image is $\\vec r=(1,4,2)+\\lambda\\left(\\frac{40}{7},-\\frac{60}{7},\\frac{20}{7}\\right)$<br />(3) The line is perpendicular to the plane, so it makes $90^\\circ$ with the plane<br />(4) Reflection uses the normal direction to ensure accurate mirror rendering",
+    "B": "(1) Image of camera is $\\left(\\frac{27}{7},-\\frac{2}{7},\\frac{24}{7}\\right)$<br />(2) Line joining camera and image is $\\vec r=(1,4,2)+\\lambda(2,-3,1)$<br />(3) The line lies in the plane, so angle is $0^\\circ$<br />(4) This gives only the foot of perpendicular",
+    "C": "(1) Image of camera is $\\left(-\\frac{47}{7},\\frac{32}{7},-\\frac{34}{7}\\right)$<br />(2) Line joining camera and image is $\\vec r=(1,4,2)+\\lambda(-2,3,-1)$<br />(3) The angle with plane is $45^\\circ$<br />(4) Reflection is independent of the plane normal",
+    "D": "(1) Image of camera is $(1,4,2)$<br />(2) Line joining camera and image is undefined<br />(3) The camera already lies on the plane<br />(4) No reflection is required"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:29:29 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

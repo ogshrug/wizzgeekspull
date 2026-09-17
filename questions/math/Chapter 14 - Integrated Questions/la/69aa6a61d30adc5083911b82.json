@@ -1,0 +1,30 @@
+{
+  "id": "69aa6a61d30adc5083911b82",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65c9340512f018fa94d47",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = x^3 - 3x + 1$.<br /><br />(a) Show that $f(x)$ is strictly increasing in $[1, \\infty)$.<br /><br />(b) Prove that $f(x)$ is invertible in $[1, \\infty)$.<br /><br />(c) Let $g(x) = f^{-1}(x)$ for $x \\geq f(1)$. Calculate $\\dfrac{d}{dx}(g(x))$ in terms of $x$.<br /><br />(d) If $A$ is a $2\\times2$ matrix whose entries are $A_{ij} = g(i+j+1)$ for $i,j=0,1$, compute $|A|$.",
+  "answeroption": "C",
+  "explanation": "**Concepts tested:** Application of Derivatives (monotonicity), Functions and Inverse Functions, Derivatives of Inverse Functions, Matrices, Determinants<br /><br />(a)<br />$f'(x) = 3x^2 - 3$<br />For $x \\geq 1$, $f'(x) = 3(x^2-1) \\geq 0$<br />Thus $f$ is strictly increasing in $[1, \\infty)$.<br /><br />(b)<br />Since $f$ is strictly increasing and continuous in $[1, \\infty)$, $\\implies$ injective and surjective $\\implies$ invertible on this interval.<br /><br />(c)<br />$g(x) = f^{-1}(x)$: $f(g(x)) = x \\implies g'(x) = \\frac{1}{f'(g(x))}$<br />Therefore, $g'(x) = \\dfrac{1}{3(g(x))^2 - 3}$<br /><br />(d)<br />For $i,j=0,1$, $i+j+1$ runs through $1,2,2,3$.<br />$A = \\begin{pmatrix}g(1) & g(2) \\\\ g(2) & g(3)\\end{pmatrix}$<br />But $g(1) = x$ such that $f(x)=1$, so $x^3-3x+1=1\\implies x^3-3x=0\\implies x(x^2-3)=0\\implies x=0, x=\\pm \\sqrt{3}$.<br />But for $x\\geq1$, only $g(1)=\\sqrt{3}$<br /><br />Similarly, $g(2)=$ the solution in $[1, \\infty)$ to $x^3-3x+1=2\\implies x^3-3x = 1$, a cubic, denote solution as $a$. $g(3)$ is solution to $x^3-3x+1=3\\implies x^3-3x=2$, call it $b$.<br /><br />Matrix:<br />$A = \\begin{pmatrix} \\sqrt{3} & a \\\\ a & b \\end{pmatrix}$<br />$|A| = \\sqrt{3}b - a^2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f$ is strictly decreasing in $[1,\\infty)$<br />(b) $f$ is not invertible on $[1,\\infty)$<br />(c) $g'(x)=3(g(x))^2-3$<br />(d) $|A|=0$",
+    "B": "(a) $f$ is strictly increasing only on $(-\\infty,1]$<br />(b) $f$ is invertible on $(-\\infty,1]$ only<br />(c) $g'(x)=\\frac{1}{3x^2-3}$<br />(d) $|A|=\\sqrt3+a+b$",
+    "C": "(a) $f'(x)=3x^2-3\\ge0$ for $x\\ge1$, so $f$ is strictly increasing on $[1,\\infty)$<br />(b) Since $f$ is strictly increasing and continuous on $[1,\\infty)$, it is invertible there<br />(c) If $g=f^{-1}$, then $g'(x)=\\frac{1}{3(g(x))^2-3}$<br />(d) $A=\\begin{pmatrix}\\sqrt3&a\\\\a&b\\end{pmatrix}$, where $a=g(2)$ and $b=g(3)$, so $|A|=\\sqrt3\\,b-a^2$",
+    "D": "(a) $f'(x)=3x-3$, so $f$ is strictly increasing on $[1,\\infty)$<br />(b) $f$ is invertible only for $x=\\sqrt3$<br />(c) $g'(x)=3x^2-3$<br />(d) $A=\\begin{pmatrix}1&2\\\\2&3\\end{pmatrix}$ and $|A|=-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:47:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

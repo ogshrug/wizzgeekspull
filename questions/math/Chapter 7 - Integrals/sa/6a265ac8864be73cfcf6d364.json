@@ -1,0 +1,28 @@
+{
+  "id": "6a265ac8864be73cfcf6d364",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Find: <br />$$\\int\\frac{1}{e^{x}+1}dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To evaluate the exponential integral $\\int\\frac{1}{e^{x}+1}dx$, we can simplify the integrand by dividing both the numerator and the denominator by $e^x$. This algebraic adjustment transforms the fraction into: $\\int \\frac{1/e^x}{(e^x/e^x) + (1/e^x)} dx = \\int \\frac{e^{-x}}{1 + e^{-x}} dx$.<br />**Step 2:** This newly modified form is ideal for the substitution method, because the numerator is a direct scalar multiple of the derivative of the denominator. Let $t = 1 + e^{-x}$. Differentiating both sides with respect to $x$ yields $dt = -e^{-x} dx$, which can be rewritten as $-dt = e^{-x} dx$.<br />**Step 3:** Substitute these expressions back into our integral to rewrite it in terms of variable $t$: $\\int \\frac{-dt}{t} = -\\int \\frac{1}{t} dt$. Integrating this standard rational form gives: $-\\log|t| + C$. Finally, reverse the initial substitution by replacing $t$ with $1 + e^{-x}$. This delivers the final general solution: $-\\log(1 + e^{-x}) + C$, which can also be written using log properties as $\\log\\left|\\frac{e^x}{e^x+1}\\right| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1",
+    "2022-4-2",
+    "2022-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

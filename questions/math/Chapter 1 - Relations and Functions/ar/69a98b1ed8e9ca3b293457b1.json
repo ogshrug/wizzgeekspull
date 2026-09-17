@@ -1,0 +1,29 @@
+{
+  "id": "69a98b1ed8e9ca3b293457b1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): The possible number of reflexive relations of a set $A$ whose $n(A) = 4$ is $2^{12}$.<br /><br />Reason (R): Number of reflexive relation on a set contain $n$ elements is $2^{n^2-n}$.",
+  "answeroption": "A",
+  "explanation": "Check Reason (R): Total ordered pairs in $A \\times A$ for a set with $n$ elements is $n^2$. A reflexive relation must include all $n$ diagonal elements $(a,a)$. The remaining $n^2-n$ pairs may or may not be included.<br /><br />Hence the number of reflexive relations is $2^{n^2-n}$. So the Reason is true.<br /><br />Check Assertion (A): For $n(A)=4$, using the formula we get $2^{4^2-4} = 2^{16-4} = 2^{12}$.<br /><br />Thus the Assertion is also true and the Reason correctly explains it.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:54:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8d884d2e54880055a0a655",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $X$ be a finite set containing $n$ elements and let $f:X\\to X$ be an onto function. Prove that $f$ must necessarily be one-one.",
+  "answeroption": "D",
+  "explanation": "<b>Given condition</b><br>The set $X$ contains $n$ elements and $f:X\\to X$ is onto. Therefore, every one of the $n$ elements of the co-domain $X$ must occur as the image of at least one element of the domain.<br><br><b>Contrary assumption</b><br>Suppose that $f$ is not one-one. Then there exist two distinct elements $x_1,x_2\\in X$ such that $$x_1\\neq x_2\\quad\\text{but}\\quad f(x_1)=f(x_2)$$ Thus, two of the $n$ elements of the domain have the same image.<br><br><b>Effect on the range</b><br>The remaining $n-2$ elements of the domain can contribute at most $n-2$ further distinct images. Together with the common image of $x_1$ and $x_2$, the range can therefore contain at most $$1+(n-2)=n-1$$ distinct elements.<br><br><b>Contradiction with onto property</b><br>Since the co-domain $X$ contains $n$ elements, an onto function must have all $n$ elements in its range. But the assumption that $f$ is not one-one gives at most $n-1$ elements in the range. This contradicts the fact that $f$ is onto.<br><br><b>Final Result</b><br>Hence, the assumption that $f$ is not one-one is false. Therefore, every onto function $f:X\\to X$ on a finite set $X$ is necessarily one-one.",
+  "explanation_image": [],
+  "options": {
+    "A": "An onto function $f:X\\to X$ need not be one-one because two elements of the domain may have the same image while every co-domain element still has a pre-image.",
+    "B": "The conclusion holds only when $n$ is even; for odd values of $n$, an onto function need not be one-one.",
+    "C": "The function must be constant because the domain and co-domain are the same finite set.",
+    "D": "The function must be one-one because if two distinct domain elements had the same image, the range would contain at most $n-1$ elements, contradicting the onto property."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

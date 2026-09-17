@@ -1,0 +1,24 @@
+{
+  "id": "6a183040d429e802c45d709e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Prove that: $\\tan^{-1}\\sqrt{x}=\\frac{1}{2}\\cos^{-1}(\\frac{1-x}{1+x}), x\\in[0,1]$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Apply substitution on the Right-Hand Side (RHS). Let $\\sqrt{x} = \\tan\\theta \\implies x = \\tan^2\\theta$, where $\\theta = \\tan^{-1}\\sqrt{x}$.<br /><br />**Step 2:** Substitute into the RHS expression: $\\frac{1}{2}\\cos^{-1}\\left(\\frac{1-\\tan^2\\theta}{1+\\tan^2\\theta}\\right)$.<br /><br />**Step 3:** Using the standard double-angle trigonometric identity $\\cos 2\\theta = \\frac{1-\\tan^2\\theta}{1+\\tan^2\\theta}$, the expression becomes $\\frac{1}{2}\\cos^{-1}(\\cos 2\\theta)$.<br /><br />**Step 4:** Since $\\cos^{-1}(\\cos 2\\theta) = 2\\theta$, simplifying gives $\\frac{1}{2}(2\\theta) = \\theta$. Replacing $\\theta$ with $\\tan^{-1}\\sqrt{x}$ matches the LHS, completing the proof.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "6a152f572a89680e5835cec8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8bc",
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "VSA",
+  "question": "Find the magnitude of vector $\\vec{a}$ given by $\\vec{a} = (\\hat{i} + 3\\hat{j} - 2\\hat{k}) \\times (-\\hat{i} + 3\\hat{k})$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Compute the cross product using determinant: <br /> $\\vec{a} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 3 & -2 \\\\ -1 & 0 & 3 \\end{vmatrix}$ <br /><br /> **Step 2:** Expand the determinant: <br /> $\\vec{a} = \\hat{i}(3 \\times 3 - (-2) \\times 0) - \\hat{j}(1 \\times 3 - (-2) \\times (-1)) + \\hat{k}(1 \\times 0 - 3 \\times (-1))$ <br /> $= \\hat{i}(9 - 0) - \\hat{j}(3 - 2) + \\hat{k}(0 + 3)$ <br /> $= 9\\hat{i} - \\hat{j} + 3\\hat{k}$ <br /><br /> **Step 3:** Find magnitude: <br /> $|\\vec{a}| = \\sqrt{9^2 + (-1)^2 + 3^2} = \\sqrt{81 + 1 + 9} = \\sqrt{91}$ <br /><br /> **Answer:** $\\sqrt{91}$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

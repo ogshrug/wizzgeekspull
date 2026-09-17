@@ -1,0 +1,29 @@
+{
+  "id": "69a9a6e7589ce36f368b484f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int_0^2 |x-1| dx$.",
+  "answeroption": "C",
+  "explanation": "Split the interval at $x=1$.<br /><br />For $x\\in[0,1]$, $|x-1|=1-x$.<br /><br />For $x\\in[1,2]$, $|x-1|=x-1$.<br /><br />Thus:<br /><br />$\\int_0^2|x-1|dx = \\int_0^1 (1-x)dx + \\int_1^2 (x-1)dx$.<br /><br />Each integral equals $\\frac{1}{2}$ so the result is $1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}$",
+    "B": "$2$",
+    "C": "$1$",
+    "D": "$0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:53:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

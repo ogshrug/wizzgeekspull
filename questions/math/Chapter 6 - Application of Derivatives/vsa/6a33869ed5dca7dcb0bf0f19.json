@@ -1,0 +1,26 @@
+{
+  "id": "6a33869ed5dca7dcb0bf0f19",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977"
+  ],
+  "question_type": "VSA",
+  "question": "Determine whether the function $f(x) = x^2 - 6x + 3$ is increasing or decreasing in $[4, 6]$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Find the Derivative**  \nFor a function to be increasing or decreasing on an interval, we check the sign of its derivative.  \n$$f'(x) = \\frac{d}{dx}(x^2 - 6x + 3) = 2x - 6$$  \n$$f'(x) = 2(x - 3)$$\n\n**Step 2: Analyze the Sign of Derivative on $[4, 6]$**  \nFor any $x \\in [4, 6]$, we have $x \\ge 4 > 3$. So, $x - 3 > 0$.  \nTherefore, $f'(x) = 2(x - 3) > 0$ for all $x \\in [4, 6]$.\n\n**Step 3: Conclusion**  \nSince $f'(x) > 0$ for all $x$ in the interval $[4, 6]$, the function $f(x)$ is strictly increasing on $[4, 6]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

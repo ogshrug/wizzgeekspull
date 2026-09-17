@@ -1,0 +1,31 @@
+{
+  "id": "6a8fd4892e54880055a0a719",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "VSA",
+  "question": "Using an appropriate substitution, solve the first-order homogeneous differential equation $\\frac{dy}{dx}=1+\\frac{y}{x}$.",
+  "answeroption": "A",
+  "explanation": "Step 1: The right-hand side depends only on $\\frac{y}{x}$, so put $y=vx$. Then $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$.<br>Step 2: Substitute into the equation: $v+x\\frac{dv}{dx}=1+v$.<br>Step 3: Cancelling $v$ gives $x\\frac{dv}{dx}=1$, so $dv=\\frac{dx}{x}$. This is the required variable separable form.<br>Step 4: Integrating both sides gives $v=\\log|x|+C$.<br>Step 5: Since $v=\\frac{y}{x}$, replace $v$ to obtain $\\frac{y}{x}=\\log|x|+C$. Therefore, the solution is $y=x(\\log|x|+C)$. The equation has been solved by reducing it through homogeneous substitution to separable form.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=x\\left(\\log|x|+C\\right)$",
+    "B": "$y=\\log|x|+Cx$",
+    "C": "$y=x\\left(1+\\log|x|\\right)+C$",
+    "D": "$y=x\\left(\\log|y|+C\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

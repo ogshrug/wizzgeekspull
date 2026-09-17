@@ -1,0 +1,29 @@
+{
+  "id": "69a9745a589ce36f368b4806",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Prove that the relation $R$ in the set $\\mathbb{Z}$ of integers defined by $R = \\{(a, b): a-b\\text{ is divisible by }5\\}$ is an equivalence relation, and find the set of all elements related to $7$.",
+  "answeroption": "D",
+  "explanation": "To prove $R$ is an equivalence relation:<br /><br />Reflexivity: For any $a$, $a-a=0$ is divisible by $5$, so $(a,a)\\in R$.<br /><br />Symmetry: If $(a,b)\\in R$ then $a-b$ is divisible by $5$, so $b-a=-(a-b)$ also divisible by $5$, so $(b,a)\\in R$.<br /><br />Transitivity: If $(a,b)\\in R$ and $(b,c)\\in R$, then $a-b$ and $b-c$ are divisible by $5$, so $(a-b)+(b-c)=a-c$ is divisible by $5$. So $(a,c)\\in R$.<br /><br />Consequently, $R$ is an equivalence relation.<br /><br />Set of all elements related to $7$ are those $b$ such that $7-b$ divisible by $5$, i.e., $7-b=5k$ for some $k\\in\\mathbb{Z}$.<br /><br />$\\implies b=7-5k$ for all $k\\in\\mathbb{Z}$.<br /><br />Or equivalently, $b\\equiv 7\\pmod{5} \\implies b\\equiv 2\\pmod{5}$.<br /><br />All integers congruent to $2 \\pmod{5}$ are related to $7$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is not an equivalence relation and no integer is related to $7$",
+    "B": "$R$ is an equivalence relation and the elements related to $7$ are only $\\{7\\}$",
+    "C": "$R$ is an equivalence relation and the elements related to $7$ are all multiples of $5$",
+    "D": "$R$ is an equivalence relation and the elements related to $7$ are all integers congruent to $2\\pmod{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:17:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

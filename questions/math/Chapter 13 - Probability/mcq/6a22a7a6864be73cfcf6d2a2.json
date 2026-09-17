@@ -1,0 +1,32 @@
+{
+  "id": "6a22a7a6864be73cfcf6d2a2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "MCQ",
+  "question": "If $P(A/B)=0\\cdot3$, $P(A)=0\\cdot4$ and $P(B)=0\\cdot8$, then $P(B/A)$ is equal to:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** The formula for conditional probability is $P(A/B) = \\frac{P(A \\cap B)}{P(B)}$. We can rearrange this to solve for the intersection: $P(A \\cap B) = P(A/B) \\cdot P(B)$.<br />**Step 2:** Substitute the given numerical values into the rearranged formula: $P(A \\cap B) = 0.3 \\cdot 0.8$.<br />**Step 3:** Calculating this gives $P(A \\cap B) = 0.24$.<br />**Step 4:** We need to find $P(B/A)$. The formula is $P(B/A) = \\frac{P(B \\cap A)}{P(A)}$. Note that $P(B \\cap A)$ is identical to $P(A \\cap B)$.<br />**Step 5:** Substitute the known values: $P(B/A) = \\frac{0.24}{0.4} = 0.6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "0.6",
+    "B": "0.3",
+    "C": "0.06",
+    "D": "0.4"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

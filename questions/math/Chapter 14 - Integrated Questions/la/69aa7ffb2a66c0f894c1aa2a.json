@@ -1,0 +1,30 @@
+{
+  "id": "69aa7ffb2a66c0f894c1aa2a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "A manufacturer produces two types of products, $A$ and $B$. Production of each $A$ requires 4 hours of machine time and 3 kg of raw materials; production of each $B$ requires 2 hours of machine time and 6 kg of raw materials. There are 60 hours of machine time and 72 kg of raw materials available per week.\n\nEach unit of $A$ clears a profit of Rs. 30, $B$ a profit of Rs. 50.\n\n(a) Formulate the appropriate linear programming problem to maximize profit.\n(b) Solve the problem graphically, finding all vertices and the maximum profit.\n(c) If the manufacturer is required to produce at least 2 units of $A$ per week, how does that affect the solution and the profit?",
+  "answeroption": "A",
+  "explanation": "**Concepts Being Tested:**<br />- Formulation of linear programming problem<br />- Graphical method for LPP<br />- Effect of additional constraints<br /><br />**Solution:**<br /><br />Let $x$ be the number of $A$ and $y$ be the number of $B$ to be produced per week.<br /><br />(a) Constraints:<br /><br />$4x + 2y \\leq 60$ (machine time)<br />$3x + 6y \\leq 72$ (raw materials)<br />$x \\geq 0, y \\geq 0$<br /><br />Profit: $Z = 30x + 50y$<br /><br />(b) Plot the constraints:<br /><br />$4x+2y = 60\\implies 2x+y=30$<br />So, $y=30-2x$<br />Intercepts: $x=0, y=30$; $y=0, x=15$<br /><br />$3x+6y=72\\implies x+2y=24$<br />$y=12-0.5x$<br />Intercepts: $x=0, y=12$; $y=0, x=24$<br /><br />Vertices of feasible region:<br />At $x=0$, $y=12$ (from 2nd)<br />At $y=0$, $x=15$ (from 1st)<br /><br />Intersection:<br />$2x+y=30$, $x+2y=24$<br />Multiply second by 2: $2x+4y=48$. Subtract first: $3y=18\\implies y=6$<br />Then $2x+6=30\\implies 2x=24\\implies x=12$<br />So intersection at $(12,6)$<br /><br />Vertices: $(0,0),(15,0),(12,6),(0,12)$<br /><br />Calculate $Z$ at each:<br />At $(0,0): 0$<br />At $(15,0): 450$<br />At $(0,12): 600$<br />At $(12,6): 30\\times 12 + 50\\times 6=360+300=660$<br /><br />So, maximum profit $= Rs. 660$ at $(12,6)$<br /><br />(c) If $x\\geq2$, consider $(12,6)$, $x=12\\geq2$ OK.<br />Check intersection with $x=2$:<br /><br />From (1): $4(2)+2y=60\\implies 8+2y=60\\implies 2y=52\\implies y=26$<br />From (2): $3(2)+6y=72\\implies 6+6y=72\\implies 6y=66\\implies y=11$<br /><br />At $x=2, y=11$, $Z=30\\times 2 + 50\\times 11=60+550=610$<br /><br />So, only the maximum at $(12,6)$ is unchanged and still satisfies $x\\geq2$.<br />No effect on maximum profit; profit still $Rs. 660$ at $(12,6)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Maximize $Z=30x+50y$ subject to $4x+2y\\le60$, $3x+6y\\le72$, $x,y\\ge0$<br />(b) Vertices are $(0,0),(15,0),(12,6),(0,12)$ and maximum profit is Rs. $660$ at $(12,6)$<br />(c) Adding $x\\ge2$ does not change the optimum; maximum profit remains Rs. $660$",
+    "B": "(a) Maximize $Z=50x+30y$ subject to $2x+4y\\le60$, $6x+3y\\le72$<br />(b) Maximum profit is Rs. $600$ at $(0,12)$<br />(c) Adding $x\\ge2$ reduces profit to Rs. $610$",
+    "C": "(a) Minimize $Z=30x+50y$<br />(b) Minimum occurs at $(0,0)$ with profit Rs. $0$<br />(c) Adding $x\\ge2$ makes the region empty",
+    "D": "(a) Maximize $Z=30x+50y$ subject only to $x+y\\le60$<br />(b) Maximum profit is Rs. $450$ at $(15,0)$<br />(c) Adding $x\\ge2$ changes the optimum to $(2,11)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:19:23 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

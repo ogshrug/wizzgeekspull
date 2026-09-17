@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8e1c4b490c7cde3593e9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "VSA",
+  "question": "Determine the value of $k$ for which $A=\\begin{bmatrix}k&2\\\\3&6\\end{bmatrix}$ has no inverse.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Use the condition for invertibility</b><br>A square matrix has no inverse when its determinant is zero.<br><b>Step 2: Calculate the determinant</b><br>For the given matrix, $$|A|=k(6)-(2)(3)$$ Therefore, $$|A|=6k-6$$<br><b>Step 3: Apply the non-invertibility condition</b><br>Set the determinant equal to zero: $$6k-6=0$$<br><b>Step 4: Solve for the parameter</b><br>This gives $6k=6$, and hence $$k=1$$<br>Therefore, the matrix has no inverse when $k=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=0$",
+    "B": "$k=1$",
+    "C": "$k=2$",
+    "D": "$k=3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

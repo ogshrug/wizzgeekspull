@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8e56751910886affb931",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d62"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A=\\begin{bmatrix}0&1\\\\0&0\\end{bmatrix}$ and $B=\\begin{bmatrix}1&0\\\\0&0\\end{bmatrix}$. If $AB=O$, can one conclude that $A=O$ or $B=O$? Justify.",
+  "answeroption": "D",
+  "explanation": "Step 1: Both given matrices are non-zero because $A$ contains the entry $1$ and $B$ also contains the entry $1$.<br>Step 2: Multiply them using the row-by-column rule: $$AB=\\begin{bmatrix}0&1\\\\0&0\\end{bmatrix}\\begin{bmatrix}1&0\\\\0&0\\end{bmatrix}.$$<br>Step 3: Every entry of the product is zero, so $$AB=\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}=O.$$<br>Step 4: Thus, the product is the zero matrix even though neither factor is the zero matrix.<br>Step 5: Therefore, from $AB=O$ one cannot conclude that $A=O$ or $B=O$. The zero-product rule for real numbers does not hold in this form for matrices.",
+  "explanation_image": [],
+  "options": {
+    "A": "Yes, $A=O$ must hold",
+    "B": "Yes, $B=O$ must hold",
+    "C": "Yes, at least one of $A$ or $B$ must be $O$",
+    "D": "No, both $A$ and $B$ can be non-zero while $AB=O$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a8561fb4df445c7f648c60",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97b",
+    "6a13e98f8c819562f933f97c"
+  ],
+  "question_type": "LA",
+  "question": "Find the points on the curve $x^2 + y^2 = 25$ at which the tangent is parallel to the line $3x + 4y = 1$.",
+  "answeroption": "B",
+  "explanation": "Slope of line $3x+4y=1$ is $-3/4$.<br /><br />For circle $x^2+y^2=25$, $\\frac{dy}{dx}=-x/y$.<br /><br />Set $-x/y=-3/4$ giving $4x=3y$.<br /><br />Substitute in circle: $(3y/4)^2+y^2=25$.<br /><br />Solving gives $y=4,-4$.<br /><br />Corresponding $x=3,-3$.<br /><br />Thus, points are $(3,4)$ and $(-3,-4)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(3,-4)$ and $(-3,4)$",
+    "B": "$(3,4)$ and $(-3,-4)$",
+    "C": "$(4,3)$ and $(-4,-3)$",
+    "D": "$(5,0)$ and $(0,5)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:56:15 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

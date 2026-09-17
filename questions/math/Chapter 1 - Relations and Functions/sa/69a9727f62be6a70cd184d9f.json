@@ -1,0 +1,31 @@
+{
+  "id": "69a9727f62be6a70cd184d9f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Given the function $f : \\mathbb{N} \\to \\mathbb{N}$ defined by <br />$f(n) = \\begin{cases} \\ n+1 & \\text{if } n \\text{ is odd} \\\\ n-1 & \\text{if } n \\text{ is even} \\end{cases}$<br />Prove that $f$ is bijective, and find $f^{-1}$ explicitly.",
+  "answeroption": "A",
+  "explanation": "**Step 1: Show f is injective (one-one):**<br /><br />Assume $f(n_1) = f(n_2)$<br /><br />Odd $n_1$ and odd $n_2$: $n_1+1 = n_2+1 \\implies n_1 = n_2$<br /><br />Even $n_1$ and even $n_2$: $n_1-1 = n_2-1 \\implies n_1 = n_2$<br /><br />Suppose $n_1$ odd and $n_2$ even: $n_1+1 = n_2-1 \\implies n_2 = n_1+2$, but $f(n_2) = n_2-1 = (n_1+2)-1 = n_1+1 = f(n_1)$. But $n_2$ even, $n_1$ odd leads to contradiction. Thus, only possible if $n_1 = n_2$.<br /><br />Thus, $f$ is injective.<br /><br />**Step 2: Show f is surjective (onto):**<br /><br />Take arbitrary $m \\in \\mathbb{N}$.<br /><br />If $m$ is even, $f(m-1) = (m-1)+1 = m$ (as $m-1$ is odd).<br /><br />If $m$ is odd, $f(m+1) = (m+1)-1 = m$ (as $m+1$ is even).<br /><br />Thus, every element in $\\mathbb{N}$ is covered, so $f$ is surjective.<br /><br />**Step 3: Therefore, $f$ is bijective.**<br /><br />**Step 4: Find the inverse.**<br /><br />Observe how $f$ acts:<br /><br />For $n$ odd: $f(n) = n+1$ (even)<br /><br />For $n$ even: $f(n) = n-1$ (odd)<br /><br />So, to invert:<br /><br />Given $m$:<br /><br />If $m$ is even, $f^{-1}(m) = m-1$ (which is odd)<br /><br />If $m$ is odd, $f^{-1}(m) = m+1$ (which is even)<br /><br />$f^{-1}(m) = \\begin{cases} m-1 & \\text{if } m \\text{ is even} \\\\ m+1 & \\text{if } m \\text{ is odd} \\end{cases}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is bijective and $f^{-1}(m)=\\begin{cases}m-1, & m \\text{ is even} \\\\ m+1, & m \\text{ is odd}\\end{cases}$",
+    "B": "$f$ is one-one but not onto, so $f^{-1}$ does not exist",
+    "C": "$f$ is onto but not one-one, so $f^{-1}$ does not exist",
+    "D": "$f$ is not bijective because odd numbers have no pre-image"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:09:35 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

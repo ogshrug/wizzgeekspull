@@ -1,0 +1,29 @@
+{
+  "id": "69a970ba589ce36f368b47f9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Let $A = \\mathbb{N}$ and define a relation $R$ on $A$ by $xRy$ if $x - y$ is a multiple of 5.<br /><br />(a) Prove that $R$ is an equivalence relation.<br /><br />(b) Find the equivalence class $[2]$.",
+  "answeroption": "B",
+  "explanation": "Reflexive: For any $x \\in A$, $x-x=0$ which is a multiple of $5$, so $xRx$.<br /><br />Symmetric: If $xRy$, then $x-y=5k$ for some integer $k$. Hence $y-x=-5k$, which is also a multiple of $5$, so $yRx$.<br /><br />Transitive: If $xRy$ and $yRz$, then $x-y=5k_1$ and $y-z=5k_2$. Adding gives $x-z=5(k_1+k_2)$, so $xRz$.<br /><br />Therefore $R$ is an equivalence relation.<br /><br />The equivalence class $[2]=\\{y \\in A : 2-y$ is a multiple of $5\\}$.<br /><br />Thus $[2]=\\{2,7,12,17,\\ldots\\}=\\{2+5k : k \\in \\mathbb{N}_0\\}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is not an equivalence relation and $[2]=\\emptyset$",
+    "B": "$R$ is an equivalence relation and $[2]=\\{2,7,12,17,\\ldots\\}$",
+    "C": "$R$ is an equivalence relation and $[2]=\\{1,2,3,4,5\\}$",
+    "D": "$R$ is not transitive, but $[2]=\\{2,7,12,17,\\ldots\\}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:02:02 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

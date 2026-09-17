@@ -1,0 +1,29 @@
+{
+  "id": "6a8e977b4b490c7cde359416",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d64"
+  ],
+  "question_type": "SA",
+  "question": "Let $$A=\\begin{bmatrix}1 & 1 \\\\ 0 & 1\\end{bmatrix},\\quad B=\\begin{bmatrix}1 & k \\\\ 0 & 1\\end{bmatrix}.$$ Find the value of $k$ for which $B$ is the inverse of $A$, and verify the result.",
+  "answeroption": "A",
+  "explanation": "<b>Product $AB$</b><br>$$AB=\\begin{bmatrix}1 & 1 \\\\ 0 & 1\\end{bmatrix}\\begin{bmatrix}1 & k \\\\ 0 & 1\\end{bmatrix}=\\begin{bmatrix}1 & k+1 \\\\ 0 & 1\\end{bmatrix}$$<br>For $AB=I$, $$k+1=0\\Rightarrow k=-1$$<br><b>Verification of the reverse product</b><br>For $k=-1$, $$B=\\begin{bmatrix}1 & -1 \\\\ 0 & 1\\end{bmatrix}$$<br>and $$BA=\\begin{bmatrix}1 & -1 \\\\ 0 & 1\\end{bmatrix}\\begin{bmatrix}1 & 1 \\\\ 0 & 1\\end{bmatrix}=\\begin{bmatrix}1 & 0 \\\\ 0 & 1\\end{bmatrix}=I$$<br><b>Existence of inverse</b><br>Since $AB=BA=I$, the inverse exists and $B=A^{-1}$ when $k=-1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=-1$; then $AB=BA=I_2$, so $B=A^{-1}$.",
+    "B": "$k=1$; then $AB=BA=I_2$.",
+    "C": "$k=0$; then $AB=BA=A$.",
+    "D": "$k=-2$; then $AB=BA=I_2$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

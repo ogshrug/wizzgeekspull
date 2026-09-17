@@ -1,0 +1,31 @@
+{
+  "id": "6a913acf2e54880055a0a796",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c7",
+    "6a13e767d837c8c7efa6b8c8",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\vec{a}=\\hat{i}+2\\hat{j}+2\\hat{k}$ and $\\vec{b}=2\\hat{i}-\\hat{j}+2\\hat{k}$.(a) Determine $\\lambda$ so that $\\vec{a}+\\lambda\\vec{b}$ is perpendicular to $\\vec{a}-\\vec{b}$.(b) Hence show that $\\vec{a}+\\vec{b}$ and $\\vec{a}-\\vec{b}$ are perpendicular.(c) Find the scalar projection of $\\vec{a}$ on $\\vec{b}$.",
+  "answeroption": "C",
+  "explanation": "(a)`\\vec{a}-\\vec{b}=-\\hat{i}+3\\hat{j}`Also,`\\vec{a}+\\lambda\\vec{b}=(1+2\\lambda)\\hat{i}+(2-\\lambda)\\hat{j}+(2+2\\lambda)\\hat{k}`For the vectors to be perpendicular, their scalar product must be zero.`\\left(\\vec{a}+\\lambda\\vec{b}\\right)\\cdot(\\vec{a}-\\vec{b})=0-(1+2\\lambda)+3(2-\\lambda)=0-1-2\\lambda+6-3\\lambda=05-5\\lambda=0\\Rightarrow \\lambda=1`(b)For $\\lambda=1$, the vectors become $\\vec{a}+\\vec{b}$ and $\\vec{a}-\\vec{b}$.`\\vec{a}+\\vec{b}=3\\hat{i}+\\hat{j}+4\\hat{k}\\vec{a}-\\vec{b}=-\\hat{i}+3\\hat{j}`Their scalar product is`\\left(\\vec{a}+\\vec{b}\\right)\\cdot(\\vec{a}-\\vec{b})=(3)(-1)+(1)(3)+(4)(0)=0`Hence, the vectors are perpendicular.(c)`\\vec{a}\\cdot\\vec{b}=(1)(2)+(2)(-1)+(2)(2)=4`Also,`|\\vec{b}|=\\sqrt{2^2+(-1)^2+2^2}=3`Therefore, the scalar projection of $\\vec{a}$ on $\\vec{b}$ is`\\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|}=\\frac{4}{3}`",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\lambda=-1$<br>(b) $\\vec{a}+\\vec{b}$ and $\\vec{a}-\\vec{b}$ are parallel.<br>(c) Scalar projection of $\\vec{a}$ on $\\vec{b}$ is $-\\frac{4}{3}$.",
+    "B": "(a) $\\lambda=\\frac{4}{3}$<br>(b) $\\vec{a}+\\vec{b}$ and $\\vec{a}-\\vec{b}$ are perpendicular.<br>(c) Scalar projection of $\\vec{a}$ on $\\vec{b}$ is $4$.",
+    "C": "(a) $\\lambda=1$<br>(b) $(\\vec{a}+\\vec{b})\\cdot(\\vec{a}-\\vec{b})=0$<br>(c) Scalar projection of $\\vec{a}$ on $\\vec{b}$ is $\\frac{4}{3}$.",
+    "D": "(a) $\\lambda=1$<br>(b) $\\vec{a}+\\vec{b}$ and $\\vec{a}-\\vec{b}$ are perpendicular.<br>(c) Scalar projection of $\\vec{a}$ on $\\vec{b}$ is $\\frac{4}{9}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

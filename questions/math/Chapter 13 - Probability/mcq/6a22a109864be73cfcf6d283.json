@@ -1,0 +1,33 @@
+{
+  "id": "6a22a109864be73cfcf6d283",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "MCQ",
+  "question": "If A and B are events such that $P(A/B)=P(B/A)\\ne0$ then :",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Start with the definition of conditional probability. The formula is $P(A/B) = \\frac{P(A \\cap B)}{P(B)}$ and $P(B/A) = \\frac{P(B \\cap A)}{P(A)}$. Note that $P(A \\cap B) = P(B \\cap A)$.<br />**Step 2:** Substitute these definitions into the given equation: $\\frac{P(A \\cap B)}{P(B)} = \\frac{P(A \\cap B)}{P(A)}$.<br />**Step 3:** The problem states the probability is non-zero, so $P(A \\cap B) \\ne 0$. This allows us to safely divide both sides of the equation by $P(A \\cap B)$.<br />**Step 4:** Dividing leaves us with $\\frac{1}{P(B)} = \\frac{1}{P(A)}$.<br />**Step 5:** Taking the reciprocal of both sides gives the final result: $P(A) = P(B)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A\\subset B$ but $A\\ne B$",
+    "B": "$A=B$",
+    "C": "$A\\cap B=\\phi$",
+    "D": "$P(A)=P(B)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

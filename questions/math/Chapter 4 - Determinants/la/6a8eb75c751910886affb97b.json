@@ -1,0 +1,32 @@
+{
+  "id": "6a8eb75c751910886affb97b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6c",
+    "69c6603740512f018fa94d6d",
+    "69c6603740512f018fa94d6e",
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "LA",
+  "question": "For the matrix $A=\\begin{bmatrix}0 & 1 & 1\\\\1 & 0 & 1\\\\1 & 1 & 0\\end{bmatrix}$, calculate its minors and cofactors to obtain $\\operatorname{adj}A$, hence determine $A^{-1}$, and verify the result using the relation $A^2=A+2I$.",
+  "answeroption": "B",
+  "explanation": "<b>Minors and cofactors</b><br>The minors of $A$ are<br>$$M_{11}=-1,\\quad M_{12}=-1,\\quad M_{13}=1$$<br>$$M_{21}=-1,\\quad M_{22}=-1,\\quad M_{23}=-1$$<br>$$M_{31}=1,\\quad M_{32}=-1,\\quad M_{33}=-1$$<br>Using $A_{ij}=(-1)^{i+j}M_{ij}$, the cofactor matrix is<br>$$C=\\begin{bmatrix}-1 & 1 & 1\\\\1 & -1 & 1\\\\1 & 1 & -1\\end{bmatrix}$$<br>Since $C$ is symmetric,<br>$$\\operatorname{adj}A=C^T=\\begin{bmatrix}-1 & 1 & 1\\\\1 & -1 & 1\\\\1 & 1 & -1\\end{bmatrix}$$<br><br><b>Determination of the inverse</b><br>Expanding $|A|$ along the first row using the cofactors,<br>$$|A|=0(-1)+1(1)+1(1)=2$$<br>Since $|A|=2\\neq0$, the inverse exists.<br>$$A^{-1}=\\frac{1}{|A|}\\operatorname{adj}A$$<br>Therefore,<br>$$A^{-1}=\\frac{1}{2}\\begin{bmatrix}-1 & 1 & 1\\\\1 & -1 & 1\\\\1 & 1 & -1\\end{bmatrix}$$<br><br><b>Verification</b><br>Direct multiplication gives<br>$$A^2=\\begin{bmatrix}2 & 1 & 1\\\\1 & 2 & 1\\\\1 & 1 & 2\\end{bmatrix}=A+2I$$<br>Thus,<br>$$A^2-A=2I$$<br>$$A(A-I)=2I$$<br>Multiplying by $\\frac{1}{2}$ gives<br>$$A\\left(\\frac{A-I}{2}\\right)=I$$<br>Now,<br>$$\\frac{A-I}{2}=\\frac{1}{2}\\begin{bmatrix}-1 & 1 & 1\\\\1 & -1 & 1\\\\1 & 1 & -1\\end{bmatrix}=A^{-1}$$<br>Hence, the inverse obtained through the adjoint method is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\operatorname{adj}A=\\begin{bmatrix}1&-1&-1\\\\-1&1&-1\\\\-1&-1&1\\end{bmatrix}$, $|A|=-2$, and $A^{-1}=-\\frac12\\operatorname{adj}A$",
+    "B": "$\\operatorname{adj}A=\\begin{bmatrix}-1&1&1\\\\1&-1&1\\\\1&1&-1\\end{bmatrix}$, $|A|=2$, $A^{-1}=\\frac12\\begin{bmatrix}-1&1&1\\\\1&-1&1\\\\1&1&-1\\end{bmatrix}$; also $A^2=A+2I$ gives $A^{-1}=\\frac{A-I}{2}$",
+    "C": "$\\operatorname{adj}A=\\begin{bmatrix}-1&1&1\\\\1&-1&1\\\\1&1&-1\\end{bmatrix}$, $|A|=1$, so $A^{-1}=\\operatorname{adj}A$",
+    "D": "$\\operatorname{adj}A=A$, $|A|=2$, and $A^2=A+2I$ gives $A^{-1}=\\frac{A+I}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

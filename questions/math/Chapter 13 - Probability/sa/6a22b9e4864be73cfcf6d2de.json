@@ -1,0 +1,28 @@
+{
+  "id": "6a22b9e4864be73cfcf6d2de",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "SA",
+  "question": "Two balls are drawn at random one by one with replacement from an urn containing equal number of red balls and green balls. Find the probability distribution of number of red balls. Also, find the mean of the random variable.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $p$ represent the probability of drawing a red ball. Since the urn contains an equal number of red and green balls, $p = \\frac{1}{2}$ and the probability of a green ball is $q = \\frac{1}{2}$. The number of draws is $n = 2$.<br />**Step 2:** Let $X$ be the random variable denoting the number of red balls drawn. $X$ can logically take the values 0, 1, or 2.<br />**Step 3:** Apply the binomial distribution formula to compute the probabilities: $P(X=0) = q^2 = (\\frac{1}{2})^2 = \\frac{1}{4}$. $P(X=1) = 2pq = 2(\\frac{1}{2})(\\frac{1}{2}) = \\frac{1}{2}$. $P(X=2) = p^2 = (\\frac{1}{2})^2 = \\frac{1}{4}$.<br />**Step 4:** The required probability distribution is explicitly $X: 0, 1, 2$ with corresponding probabilities $P(X): \\frac{1}{4}, \\frac{1}{2}, \\frac{1}{4}$.<br />**Step 5:** The mean of the random variable $X$ for a binomial distribution is given by $np$. Substituting the parameters gives $2 \\times \\frac{1}{2} = 1$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1",
+    "2023-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

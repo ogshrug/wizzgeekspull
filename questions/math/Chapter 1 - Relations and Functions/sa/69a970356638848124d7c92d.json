@@ -1,0 +1,29 @@
+{
+  "id": "69a970356638848124d7c92d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "SA",
+  "question": "If $f,g: \\mathbb{R} \\to \\mathbb{R}$ with $f(x) = \\cos x$, $g(x) = 3x^2$, compare $f \\circ g$ and $g \\circ f$, and determine if $f \\circ g = g \\circ f$.",
+  "answeroption": "A",
+  "explanation": "Compute the compositions. <br /><br />$g \\circ f(x)=g(f(x))=g(\\cos x)=3(\\cos x)^2=3\\cos^2 x$. <br /><br />$f \\circ g(x)=f(g(x))=f(3x^2)=\\cos(3x^2)$. <br /><br />Since $3\\cos^2 x$ and $\\cos(3x^2)$ are different expressions, the functions are not equal. <br /><br />For example at $x=0$, $g \\circ f(0)=3(1)^2=3$ while $f \\circ g(0)=\\cos 0=1$. <br /><br />Hence $f \\circ g \\ne g \\circ f$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f\\circ g(x)=\\cos(3x^2)$ and $g\\circ f(x)=3\\cos^2x$; hence $f\\circ g\\ne g\\circ f$",
+    "B": "$f\\circ g(x)=g\\circ f(x)=3\\cos^2x$",
+    "C": "$f\\circ g(x)=g\\circ f(x)=\\cos(3x^2)$",
+    "D": "$f\\circ g=g\\circ f$ because composition is always commutative"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:59:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

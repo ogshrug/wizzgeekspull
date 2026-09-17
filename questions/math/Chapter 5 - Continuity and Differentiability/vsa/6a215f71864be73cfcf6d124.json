@@ -1,0 +1,28 @@
+{
+  "id": "6a215f71864be73cfcf6d124",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "VSA",
+  "question": "Differentiate $x^x$ with respect to $x \\log x$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $u = x^x$ and $v = x \\log x$. We need to find $\\frac{du}{dv}$.<br />**Step 2:** Find $\\frac{du}{dx}$. Take log: $\\log u = x \\log x$. Differentiate: $\\frac{1}{u} \\frac{du}{dx} = 1 \\cdot \\log x + x \\cdot \\frac{1}{x} = \\log x + 1$. So $\\frac{du}{dx} = x^x(1 + \\log x)$.<br />**Step 3:** Find $\\frac{dv}{dx}$. Apply product rule: $\\frac{dv}{dx} = 1 \\cdot \\log x + x \\cdot \\frac{1}{x} = \\log x + 1$.<br />**Step 4:** Calculate $\\frac{du}{dv} = \\frac{\\frac{du}{dx}}{\\frac{dv}{dx}} = \\frac{x^x(1 + \\log x)}{1 + \\log x} = x^x$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

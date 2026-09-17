@@ -1,0 +1,32 @@
+{
+  "id": "6a9128792e54880055a0a77e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "Solve graphically the linear programming problem of minimising $Z=40x+30y$ subject to $2x+y\\ge 8$, $x+2y\\ge 10$, $x\\ge 0$, $y\\ge 0$, and justify that the least corner-point value is indeed the minimum even though the feasible region is unbounded.",
+  "answeroption": "C",
+  "explanation": "<b>Feasible Region</b><br>The boundary lines are $2x+y=8$ and $x+2y=10$. For $2x+y=8$, the intercepts are $(4,0)$ and $(0,8)$. For $x+2y=10$, the intercepts are $(10,0)$ and $(0,5)$. Since both inequalities are of the type $\\ge$, the common region satisfying these inequalities together with $x\\ge0$ and $y\\ge0$ is unbounded.<br><br>The two boundary lines intersect where $2x+y=8$ and $x+2y=10$. From $y=8-2x$, we get $x+2(8-2x)=10$, giving $-3x=-6$, so $x=2$ and $y=4$. Hence, the corner points are $(0,8)$, $(2,4)$ and $(10,0)$.<br><br><b>Evaluation of Objective Function</b><br>At $(0,8)$, $Z=40(0)+30(8)=240$. At $(2,4)$, $Z=40(2)+30(4)=200$. At $(10,0)$, $Z=400$. Thus, the least corner-point value is 200 at $(2,4)$.<br><br>Since the feasible region is unbounded, this value must be checked. The inequality corresponding to values smaller than 200 is $40x+30y<200$, or $4x+3y<20$. From the given constraints, multiplying $2x+y\\ge8$ by $\\frac{5}{3}$ and $x+2y\\ge10$ by $\\frac{2}{3}$ and adding gives $4x+3y\\ge20$. Hence no feasible point can satisfy $4x+3y<20$. Therefore, the open half-plane corresponding to a value smaller than 200 has no point in common with the feasible region.<br><br><b>Final Result</b><br>The minimum value of the objective function is $Z=200$, attained at $(x,y)=(2,4)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Minimum $Z=240$ at $(0,8)$; this is confirmed because no feasible point satisfies $Z<240$",
+    "B": "Minimum $Z=400$ at $(10,0)$; the unbounded region has no smaller feasible value",
+    "C": "Minimum $Z=200$ at $(2,4)$; no feasible point lies in the half-plane $4x+3y<20$",
+    "D": "No minimum exists because the feasible region is unbounded"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

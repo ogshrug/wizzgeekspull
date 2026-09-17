@@ -1,0 +1,26 @@
+{
+  "id": "6a2fbbd0b51101141dc0dc8e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate, using properties : $\\int_{-\\pi}^{\\pi}(3~sin~x-2)^{2}dx.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Expand the integrand: $(3sin~x - 2)^2 = 9sin^2x - 12sin~x + 4$. The integral becomes $\\int_{-\\pi}^{\\pi} (9sin^2x - 12sin~x + 4) dx$.<br />**Step 2:** Use the property of even/odd functions over symmetric limits $\\int_{-a}^{a} f(x) dx$. For an odd function $f(-x)=-f(x)$, the integral is $0$. For an even function $f(-x)=f(x)$, the integral is $2\\int_{0}^{a} f(x) dx$.<br />**Step 3:** Let $f_1(x) = -12sin~x$. Since $sin(-x) = -sin(x)$, $f_1$ is an odd function, so $\\int_{-\\pi}^{\\pi} -12sin~x dx = 0$.<br />**Step 4:** The remaining terms $9sin^2x + 4$ are even functions since $sin^2(-x) = sin^2x$. The integral becomes $2\\int_{0}^{\\pi} (9sin^2x + 4) dx$.<br />**Step 5:** Use the identity $sin^2x = \\frac{1 - cos(2x)}{2}$. The integral is $2\\int_{0}^{\\pi} (\\frac{9}{2}(1 - cos(2x)) + 4) dx = 2\\int_{0}^{\\pi} (\\frac{9}{2} - \\frac{9}{2}cos(2x) + 4) dx$.<br />**Step 6:** Simplify the integrand to $2\\int_{0}^{\\pi} (\\frac{17}{2} - \\frac{9}{2}cos(2x)) dx$. Integrate to get $2 [\\frac{17}{2}x - \\frac{9}{4}sin(2x)]_{0}^{\\pi}$.<br />**Step 7:** Evaluate limits: $2 [(\\frac{17}{2}\\pi - 0) - (0 - 0)] = 2(\\frac{17\\pi}{2}) = 17\\pi$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

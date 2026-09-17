@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc50a2e54880055a0a6f7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "LA",
+  "question": "Using a suitable property of definite integrals, evaluate $\\int_0^{\\frac{\\pi}{2}}\\frac{x}{(\\sin x+\\cos x)^2}\\,dx$ without first finding an indefinite integral of the complete integrand.",
+  "answeroption": "D",
+  "explanation": "Let<br><br>$$I=\\int_0^{\\frac{\\pi}{2}}\\frac{x}{(\\sin x+\\cos x)^2}\\,dx$$<br><br>Use the property $\\int_a^b f(x)\\,dx=\\int_a^b f(a+b-x)\\,dx$. Here, $a=0$ and $b=\\frac{\\pi}{2}$. Therefore,<br><br>$$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\frac{\\pi}{2}-x}{\\left[\\sin\\left(\\frac{\\pi}{2}-x\\right)+\\cos\\left(\\frac{\\pi}{2}-x\\right)\\right]^2}\\,dx$$<br><br>Since $\\sin\\left(\\frac{\\pi}{2}-x\\right)=\\cos x$ and $\\cos\\left(\\frac{\\pi}{2}-x\\right)=\\sin x$, this becomes<br><br>$$I=\\int_0^{\\frac{\\pi}{2}}\\frac{\\frac{\\pi}{2}-x}{(\\sin x+\\cos x)^2}\\,dx$$<br><br>Adding this expression to the original expression for $I$,<br><br>$$2I=\\frac{\\pi}{2}\\int_0^{\\frac{\\pi}{2}}\\frac{dx}{(\\sin x+\\cos x)^2}$$<br><br>Now, $\\sin x+\\cos x=\\sqrt{2}\\sin\\left(x+\\frac{\\pi}{4}\\right)$. Hence,<br><br>$$\\int_0^{\\frac{\\pi}{2}}\\frac{dx}{(\\sin x+\\cos x)^2}=\\frac{1}{2}\\int_0^{\\frac{\\pi}{2}}\\csc^2\\left(x+\\frac{\\pi}{4}\\right)dx$$<br><br>Therefore,<br><br>$$=\\frac{1}{2}\\left[-\\cot\\left(x+\\frac{\\pi}{4}\\right)\\right]_0^{\\frac{\\pi}{2}}$$<br><br>$$=\\frac{1}{2}\\left[-\\cot\\frac{3\\pi}{4}+\\cot\\frac{\\pi}{4}\\right]=\\frac{1}{2}[1+1]=1$$<br><br>Thus,<br><br>$$2I=\\frac{\\pi}{2}$$<br><br>and hence<br><br>$$I=\\frac{\\pi}{4}$$<br><br>Therefore, $\\int_0^{\\frac{\\pi}{2}}\\frac{x}{(\\sin x+\\cos x)^2}\\,dx=\\frac{\\pi}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{2}$",
+    "B": "$\\frac{\\pi}{8}$",
+    "C": "$\\frac{1}{2}$",
+    "D": "$\\frac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

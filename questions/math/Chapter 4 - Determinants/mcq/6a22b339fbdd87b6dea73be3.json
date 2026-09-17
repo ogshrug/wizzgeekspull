@@ -1,0 +1,33 @@
+{
+  "id": "6a22b339fbdd87b6dea73be3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A=[a_{ij}]$ is a $3\\times3$ diagonal matrix such that $a_{11}=1$, $a_{22}=5$ and $a_{33}=-2$ then $|A|$ is:",
+  "answeroption": "B",
+  "explanation": "<b>Step 1</b> Understand the layout of a diagonal matrix. A square matrix is a diagonal matrix if all entries outside the principal diagonal are zero. We can write out the full matrix as: $A = \\begin{bmatrix}1&0&0\\\\ 0&5&0\\\\ 0&0&-2\\end{bmatrix}$.<br /><br /><b>Step 2</b> Recall the determinant property specific to diagonal matrices, which states that the determinant is simply equal to the product of all its main diagonal entries.<br /><br /><b>Step 3</b> Compute this product using the given scalar components: $|A| = a_{11} \\times a_{22} \\times a_{33} = 1 \\times 5 \\times (-2) = -10$. This evaluates exactly to option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "-10",
+    "C": "10",
+    "D": "1"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

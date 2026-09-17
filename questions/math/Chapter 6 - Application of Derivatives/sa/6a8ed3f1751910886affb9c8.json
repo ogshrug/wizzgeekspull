@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed3f1751910886affb9c8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "SA",
+  "question": "Verify that the function $f(x)=\\frac{1}{x}$ is strictly decreasing on $(0,\\infty)$. Also compare the signs of $f'(x)$ on $(0,\\infty)$ and $(-\\infty,0)$.",
+  "answeroption": "B",
+  "explanation": "<b>Derivative of the function</b><br>Writing $f(x)=x^{-1}$ and differentiating,<br>$$f'(x)=-x^{-2}=-\\frac{1}{x^2}$$<br><b>Sign on the positive interval</b><br>For $x>0$, $x^2>0$. Therefore,<br>$$f'(x)=-\\frac{1}{x^2}<0$$<br>Hence, $f$ is strictly decreasing on $(0,\\infty)$.<br><b>Sign on the negative interval</b><br>For $x<0$, $x^2$ is still positive, so $f'(x)<0$ on $(-\\infty,0)$ as well.<br><b>Domain restriction</b><br>The intervals must be treated separately because the function is not defined at $x=0$.<br><b>Conclusion</b><br>The function is strictly decreasing on both $(-\\infty,0)$ and $(0,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f'(x)>0$ on both $(0,\\infty)$ and $(-\\infty,0)$; increasing on both intervals",
+    "B": "$f'(x)<0$ on both $(0,\\infty)$ and $(-\\infty,0)$; decreasing on both intervals",
+    "C": "$f'(x)<0$ on $(0,\\infty)$ and $f'(x)>0$ on $(-\\infty,0)$",
+    "D": "$f'(x)>0$ on $(0,\\infty)$ and $f'(x)<0$ on $(-\\infty,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

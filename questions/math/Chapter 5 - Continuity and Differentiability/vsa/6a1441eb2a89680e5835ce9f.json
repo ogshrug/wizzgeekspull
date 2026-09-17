@@ -1,0 +1,24 @@
+{
+  "id": "6a1441eb2a89680e5835ce9f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "Find the relationship between $a$ and $b$ so that the function $f$ defined by $f(x)=\\begin{cases}ax+1&\\text{if } x\\le3\\\\ bx+3&\\text{if } x>3\\end{cases}$ is continuous at $x=3$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** For continuity at $x=3$: LHL = RHL = $f(3)$. <br /><br /> **Step 2:** $f(3) = a(3) + 1 = 3a + 1$. <br /><br /> **Step 3:** LHL = $\\lim_{x \\to 3^-} f(x) = \\lim_{x \\to 3} (ax + 1) = 3a + 1$. <br /><br /> **Step 4:** RHL = $\\lim_{x \\to 3^+} f(x) = \\lim_{x \\to 3} (bx + 3) = 3b + 3$. <br /><br /> **Step 5:** Equate LHL and RHL: <br /> $3a + 1 = 3b + 3$ <br /> $3a - 3b = 2$ <br /> $a - b = \\frac{2}{3}$ <br /><br /> **Answer:** $a - b = \\frac{2}{3}$ (or $a = b + \\frac{2}{3}$)",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

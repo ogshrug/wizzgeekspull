@@ -1,0 +1,29 @@
+{
+  "id": "6a900ce04b490c7cde359559",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "Determine the equation of the unique plane passing through the three points $A(1,0,1)$, $B(2,1,0)$ and $C(0,2,1)$, expressing the result in both vector and Cartesian forms and verifying that the three given points lie on the obtained plane.",
+  "answeroption": "D",
+  "explanation": "<b>Formation of a Normal Vector</b><br>The vectors joining $A$ to $B$ and $A$ to $C$ are<br>$$\\overrightarrow{AB}=(2-1)\\hat{i}+(1-0)\\hat{j}+(0-1)\\hat{k}=\\hat{i}+\\hat{j}-\\hat{k}$$<br>and<br>$$\\overrightarrow{AC}=(0-1)\\hat{i}+(2-0)\\hat{j}+(1-1)\\hat{k}=-\\hat{i}+2\\hat{j}$$<br>Their cross product is<br>$$\\overrightarrow{AB}\\times\\overrightarrow{AC}=\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&1&-1\\\\-1&2&0\\end{vmatrix}=2\\hat{i}+\\hat{j}+3\\hat{k}$$<br>Since this cross product is non-zero, the three points are non-collinear and hence determine a unique plane. A normal vector to the plane is therefore $\\vec{N}=2\\hat{i}+\\hat{j}+3\\hat{k}$.<br><br><b>Vector Equation</b><br>The position vector of $A$ is $\\vec{a}=\\hat{i}+\\hat{k}$. The equation of a plane through the point with position vector $\\vec{a}$ and perpendicular to the normal vector $\\vec{N}$ is<br>$$\\left(\\vec{r}-\\vec{a}\\right)\\cdot\\vec{N}=0$$<br>Thus, the required vector equation is<br>$$\\left[\\vec{r}-(\\hat{i}+\\hat{k})\\right]\\cdot(2\\hat{i}+\\hat{j}+3\\hat{k})=0$$<br><br><b>Cartesian Form</b><br>Writing $\\vec{r}=x\\hat{i}+y\\hat{j}+z\\hat{k}$ gives<br>$$2(x-1)+y+3(z-1)=0$$<br>Therefore,<br>$$2x+y+3z-5=0$$<br><br><b>Verification</b><br>For $A(1,0,1)$, $2(1)+0+3(1)-5=0$. For $B(2,1,0)$, $2(2)+1+0-5=0$. For $C(0,2,1)$, $0+2+3-5=0$. Thus all three points satisfy the obtained equation.<br><br><b>Final Result</b><br>The vector equation of the plane is $\\left[\\vec{r}-(\\hat{i}+\\hat{k})\\right]\\cdot(2\\hat{i}+\\hat{j}+3\\hat{k})=0$, and its Cartesian equation is $2x+y+3z-5=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Vector form: $[\\vec r-(\\hat i+\\hat k)]\\cdot(2\\hat i-\\hat j+3\\hat k)=0$; Cartesian form: $2x-y+3z-5=0$",
+    "B": "Vector form: $[\\vec r-(\\hat i+\\hat k)]\\cdot(\\hat i+2\\hat j+3\\hat k)=0$; Cartesian form: $x+2y+3z-4=0$",
+    "C": "Vector form: $[\\vec r-(\\hat i+\\hat k)]\\cdot(2\\hat i+\\hat j-3\\hat k)=0$; Cartesian form: $2x+y-3z+1=0$",
+    "D": "Vector form: $[\\vec r-(\\hat i+\\hat k)]\\cdot(2\\hat i+\\hat j+3\\hat k)=0$; Cartesian form: $2x+y+3z-5=0$; all three given points satisfy it."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

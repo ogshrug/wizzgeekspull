@@ -1,0 +1,29 @@
+{
+  "id": "6a8d675824617f26890bdec2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "For $x\\in[-1,1]$, simplify $\\cos^{-1}(-x)+\\cos^{-1}x$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b><br>For $x\\in[-1,1]$, both $\\cos^{-1}x$ and $\\cos^{-1}(-x)$ are defined.<br><br><b>Step 2:</b><br>The relevant inverse trigonometric property is $$\\cos^{-1}(-x)=\\pi-\\cos^{-1}x.$$<br><br><b>Step 3:</b><br>Substitute this relation into the given expression: $$\\cos^{-1}(-x)+\\cos^{-1}x=\\pi-\\cos^{-1}x+\\cos^{-1}x.$$<br><br><b>Step 4:</b><br>The two inverse cosine terms cancel, leaving the constant value $\\pi$. Thus, the result does not depend on the particular value of $x$ within the specified interval.<br><br><b>Final Answer:</b><br>$$\\cos^{-1}(-x)+\\cos^{-1}x=\\pi.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$\\pi$",
+    "C": "$\\frac{\\pi}{2}$",
+    "D": "$2\\pi$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

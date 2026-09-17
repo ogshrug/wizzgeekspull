@@ -1,0 +1,26 @@
+{
+  "id": "6a33da876dbc98396e70a7da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Show that the line passing through the points $A(0,-1,-1)$ and B (4, 5, 1) intersects the line joining points $C(3,9,4)$ and $D(-4,4,4)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find the direction vector and Cartesian equations for the first line passing through points $A$ and $B$: $\\vec{d_1} = (4-0)\\hat{i} + (5 - (-1))\\hat{j} + (1 - (-1))\\hat{k} = 4\\hat{i} + 6\\hat{j} + 2\\hat{k}$. Simplifying gives the ratios as $(2, 3, 1)$. The line equation is $\\frac{x}{2} = \\frac{y+1}{3} = \\frac{z+1}{1} = \\lambda \\implies x = 2\\lambda, y = 3\\lambda - 1, z = \\lambda - 1$.<br /><br />**Step 2:** Find the direction ratios and equations for the second line passing through points $C$ and $D$: $\\vec{d_2} = (-4-3)\\hat{i} + (4-9)\\hat{j} + (4-4)\\hat{k} = -7\\hat{i} - 5\\hat{j} + 0\\hat{k}$. The line equation is $\\frac{x-3}{-7} = \\frac{y-9}{-5} = \\frac{z-4}{0} = \\mu \\implies x = -7\\mu + 3, y = -5\\mu + 9, z = 4$.<br /><br />**Step 3:** Equate the parametric coordinates from both lines to check for consistency across an intersection point. From the z-coordinate equation, we get $\\lambda - 1 = 4 \\implies \\lambda = 5$. Substituting $\\lambda = 5$ into the x and y components of the first line yields the coordinates $x = 10$ and $y = 14$.<br /><br />**Step 4:** Verify if these coordinates satisfy the equations for the second line: $10 = -7\\mu + 3 \\implies 7 = -7\\mu \\implies \\mu = -1$. Checking the y-component with $\\mu = -1$ gives $y = -5(-1) + 9 = 14$. Since both parameters yield a single unique common point $(10, 14, 4)$, the two lines intersect.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

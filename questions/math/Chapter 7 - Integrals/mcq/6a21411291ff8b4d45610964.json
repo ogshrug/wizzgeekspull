@@ -1,0 +1,31 @@
+{
+  "id": "6a21411291ff8b4d45610964",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int\\frac{dx}{2^{x}+2^{-x}}$ is equal to :",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> Simplify the integrand to remove the negative exponent. Multiply the numerator and the denominator by $2^x$. This transforms the integral into $\\int \\frac{2^x}{(2^x)^2 + 1} dx$.<br /><br /><b>Step 2</b> Use the method of substitution to simplify the integral further. Let $u = 2^x$. Differentiating both sides with respect to $x$ gives $\\frac{du}{dx} = 2^x \\log 2$, which means $dx = \\frac{du}{2^x \\log 2}$.<br /><br /><b>Step 3</b> Substitute $u$ and $dx$ back into the integral. The $2^x$ terms cancel out, leaving $\\int \\frac{1}{u^2 + 1} \\frac{du}{\\log 2}$. This integrates to $\\frac{1}{\\log 2} \\tan^{-1}(u) + C$. Replacing $u$ with $2^x$ gives the final answer $\\frac{\\tan^{-1}(2^x)}{\\log 2} + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$tan^{-1}(2^{x})+C$",
+    "B": "$tan^{-1}(2^{-x})+C$",
+    "C": "$\\frac{tan^{-1}(2^{x})}{log~2}+C$",
+    "D": "$(log~2)tan^{-1}(2^{x})+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

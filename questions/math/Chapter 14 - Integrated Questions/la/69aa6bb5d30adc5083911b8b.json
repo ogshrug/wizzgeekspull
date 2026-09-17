@@ -1,0 +1,30 @@
+{
+  "id": "69aa6bb5d30adc5083911b8b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7d",
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\cos^{-1}(x^2)$ for $x \\in [-1, 1]$. \n\n(a) Determine the interval where $f(x)$ is strictly decreasing.\n\n(b) Let $g(x) = f^{-1}(x)$ (the inverse function restricted appropriately). Find $g'(x)$.\n\n(c) If $h(x) = f^{-1}(x) + f(x)$, find $h'(x)$ and discuss its sign.\n\n(d) Construct the $2 \\times 2$ matrix $M$ with $M_{ij}=h(i+j-2)$, $i,j=1,2$, and compute its determinant.",
+  "answeroption": "A",
+  "explanation": "**Concepts tested:** Inverse Trigonometric Functions, Monotonicity, Application of Derivatives, Matrices, Determinants<br /><br />(a) $f(x) = \\cos^{-1}(x^2)$, $f'(x) = -\\frac{2x}{\\sqrt{1-(x^2)^2}}$<br /><br />For $x>0: f'(x) < 0$, so strictly decreasing in $(0,1)$<br /><br />For $x<0: f'(x) > 0$, so increasing.<br /><br />Thus, $f(x)$ is strictly decreasing in $(0,1)$<br /><br />(b) $g(x) = f^{-1}(x)$, $g'(x) = \\frac{1}{f'(g(x))}$<br /><br />(c) $h(x) = g(x) + f(x)$<br /><br />$h'(x) = g'(x) + f'(x)$<br /><br />Since $f(x)$ decreasing and $g(x)$ increasing, the sign depends on magnitudes of derivatives.<br /><br />(d) $M_{ij} = h(i+j-2)$<br /><br />Arguments: $h(0), h(1), h(1), h(2)$<br /><br />Since $h(1)$ repeats, matrix has two equal rows or columns.<br /><br />Thus determinant $=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $f(x)=\\cos^{-1}(x^2)$ is strictly decreasing on $(0,1)$<br />(b) $g'(x)=\\frac{1}{f'(g(x))}$ where $g=f^{-1}$ on the restricted interval<br />(c) $h'(x)=g'(x)+f'(x)$, and its sign depends on the magnitudes of these derivatives<br />(d) The determinant of $M$ is $0$",
+    "B": "(a) $f$ is strictly increasing on $(0,1)$<br />(b) $g'(x)=f'(x)$<br />(c) $h'(x)=0$ for all $x$<br />(d) The determinant of $M$ is $1$",
+    "C": "(a) $f$ is strictly decreasing on $(-1,0)$ only<br />(b) $g'(x)=-f'(g(x))$<br />(c) $h'(x)=g'(x)-f'(x)$<br />(d) The determinant of $M$ is $-1$",
+    "D": "(a) $f$ is strictly decreasing on the whole interval $[-1,1]$<br />(b) $g'(x)=\\sqrt{1-x^2}$<br />(c) $h'(x)=\\frac{1}{\\sqrt{1-x^2}}$<br />(d) The determinant of $M$ is $2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:52:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

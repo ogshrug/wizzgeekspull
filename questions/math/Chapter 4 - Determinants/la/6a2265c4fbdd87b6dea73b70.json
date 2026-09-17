@@ -1,0 +1,28 @@
+{
+  "id": "6a2265c4fbdd87b6dea73b70",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "LA",
+  "question": "If A is a $3\\times3$ invertible matrix, show that for any scalar $k\\ne0$, $(kA)^{-1}=\\frac{1}{k}A^{-1}.$ Hence calculate $(3A)^{-1},$ where $A=\\begin{bmatrix}2&-1&1\\\\ -1&2&-1\\\\ 1&-1&2\\end{bmatrix}.$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> To prove the matrix identity $(kA)^{-1} = \\frac{1}{k}A^{-1}$, we use the fundamental definition of a matrix inverse, which requires that $M \\cdot M^{-1} = I$. Let us multiply the matrix $(kA)$ by the proposed inverse expression: $(kA) \\cdot \\left(\\frac{1}{k}A^{-1}\\right) = \\left(k \\cdot \\frac{1}{k}\\right) \\cdot (A \\cdot A^{-1}) = 1 \\cdot I = I$. This confirms the identity.<br /><br /><b>Step 2</b> Now, let us calculate the determinant of matrix $A$ to find its inverse: $|A| = 2(4-1) - (-1)(-2 - (-1)) + 1(1-2) = 2(3) + 1(-1) + 1(-1) = 6 - 1 - 1 = 4$. Since $|A| = 4 \\neq 0$, the matrix is invertible.<br /><br /><b>Step 3</b> Compute the cofactor elements $C_{ij}$ for matrix $A$: $C_{11}=3, C_{12}=1, C_{13}=-1$; $C_{21}=1, C_{22}=3, C_{23}=1$; $C_{31}=-1, C_{32}=1, C_{33}=3$. Arranging these values and transposing gives the adjoint matrix: $\\text{adj}(A) = \\begin{bmatrix} 3 & 1 & -1 \\\\ 1 & 3 & 1 \\\\ -1 & 1 & 3 \\end{bmatrix}$.<br /><br /><b>Step 4</b> Find $A^{-1}$ by dividing the adjoint matrix by the determinant: $A^{-1} = \\frac{1}{4}\\begin{bmatrix} 3 & 1 & -1 \\\\ 1 & 3 & 1 \\\\ -1 & 1 & 3 \\end{bmatrix}$.<br /><br /><b>Step 5</b> Use our proven identity to compute $(3A)^{-1}$ by substituting $k = 3$: $(3A)^{-1} = \\frac{1}{3}A^{-1} = \\frac{1}{3} \\cdot \\left(\\frac{1}{4}\\begin{bmatrix} 3 & 1 & -1 \\\\ 1 & 3 & 1 \\\\ -1 & 1 & 3 \\end{bmatrix}\\right) = \\frac{1}{12}\\begin{bmatrix} 3 & 1 & -1 \\\\ 1 & 3 & 1 \\\\ -1 & 1 & 3 \\end{bmatrix}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-1",
+    "2025-4-2",
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

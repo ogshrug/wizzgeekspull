@@ -1,0 +1,31 @@
+{
+  "id": "6a9147e84b490c7cde3595c7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e1",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a classroom linear programming investigation, two non-negative variables $x$ and $y$ are required to satisfy $x+2y\\geq10$ and $3x+4y\\leq24$. A numerical score associated with any permitted pair is given by $Z=200x+500y$, and the aim is to obtain the smallest possible value of this score. The students first test individual ordered pairs to decide whether they satisfy all the restrictions. After analysing the boundary conditions, they identify $(0,5)$, $(4,3)$ and $(0,6)$ as the feasible corner points to be checked for the required minimum.<br><br><b>(a)</b> Verify whether $(2,4)$ is a feasible solution.<br><br><b>(b)</b> Determine whether $(5,2)$ is a feasible solution or an infeasible solution.<br><br><b>(c)</b> Evaluate $Z$ at the three given feasible corner points.<br><br><b>(d)</b> Identify the optimal feasible solution and justify your answer.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>For $(2,4)$,<br>$$2+2(4)=10\\geq10$$<br>and<br>$$3(2)+4(4)=6+16=22\\leq24$$<br>Also, both coordinates are non-negative. Therefore, $(2,4)$ satisfies all the restrictions and is a feasible solution.<br><br><b>(b)</b><br>For $(5,2)$,<br>$$5+2(2)=9<10$$<br>Thus, the restriction $x+2y\\geq10$ is not satisfied. Hence, $(5,2)$ is an infeasible solution.<br><br><b>(c)</b><br>The numerical score is $Z=200x+500y$.<br><br>At $(0,5)$,<br>$$Z=200(0)+500(5)=2500$$<br>At $(4,3)$,<br>$$Z=200(4)+500(3)=800+1500=2300$$<br>At $(0,6)$,<br>$$Z=200(0)+500(6)=3000$$<br><br><b>(d)</b><br>The smallest value among the feasible corner points is<br>$$Z=2300$$<br>at $(4,3)$. The point $(4,3)$ satisfies the restrictions and gives the required minimum value. Therefore, $(4,3)$ is the optimal feasible solution and the minimum value of $Z$ is 2300.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(2,4)$ is infeasible<br>(b) $(5,2)$ is feasible<br>(c) $Z(0,5)=2500$, $Z(4,3)=2300$, $Z(0,6)=3000$<br>(d) Minimum occurs at $(0,5)$",
+    "B": "(a) $(2,4)$ is feasible<br>(b) $(5,2)$ is infeasible<br>(c) $Z(0,5)=2500$, $Z(4,3)=2800$, $Z(0,6)=3000$<br>(d) Minimum occurs at $(0,5)$",
+    "C": "(a) $(2,4)$ is feasible<br>(b) $(5,2)$ is infeasible<br>(c) $Z(0,5)=2500$, $Z(4,3)=2300$, $Z(0,6)=3000$<br>(d) Optimal feasible solution is $(4,3)$ with minimum value $2300$",
+    "D": "(a) $(2,4)$ is feasible<br>(b) $(5,2)$ is feasible<br>(c) $Z(0,5)=2000$, $Z(4,3)=2300$, $Z(0,6)=2500$<br>(d) Minimum occurs at $(0,5)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e945e2e54880055a0a672",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "SA",
+  "question": "If $$A=\\begin{bmatrix}x & 2 & -5 \\\\ -2 & y & 3 \\\\ 5 & -3 & z\\end{bmatrix}$$ is skew-symmetric, find $x$, $y$ and $z$. Give reason.",
+  "answeroption": "B",
+  "explanation": "<b>Diagonal entries of a skew-symmetric matrix</b><br>For a skew-symmetric matrix, $A^T=-A$. Hence, for every diagonal entry $a_{ii}$, $$a_{ii}=-a_{ii}\\Rightarrow 2a_{ii}=0\\Rightarrow a_{ii}=0$$<br><b>Application to the given matrix</b><br>Therefore, $$x=0,\\quad y=0,\\quad z=0$$<br>The off-diagonal entries already occur in opposite pairs $2,-2$, $-5,5$ and $3,-3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=y=z=1$",
+    "B": "$x=y=z=0$",
+    "C": "$x=0,\\ y=3,\\ z=-3$",
+    "D": "$x=2,\\ y=0,\\ z=-5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

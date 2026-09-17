@@ -1,0 +1,32 @@
+{
+  "id": "6a22967b864be73cfcf6d22d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "MCQ",
+  "question": "If $F(x)=\\begin{bmatrix}cos~x&-sin~x&0\\\\ sin~x&cos~x&0\\\\ 0&0&1\\end{bmatrix}$ and $[F(x)]^{2}=F(kx)$, then the value of k is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Calculate $[F(x)]^2 = F(x) \\cdot F(x)$ using matrix multiplication.<br />**Step 2:** Multiply the rows of the first matrix by the columns of the second. The (1,1) element becomes $\\cos x \\cos x - \\sin x \\sin x = \\cos^2 x - \\sin^2 x = \\cos 2x$.<br />**Step 3:** The (1,2) element becomes $\\cos x(-\\sin x) - \\sin x \\cos x = -2\\sin x\\cos x = -\\sin 2x$.<br />**Step 4:** Evaluating all elements yields $\\begin{bmatrix}\\cos 2x&-\\sin 2x&0\\\\ \\sin 2x&\\cos 2x&0\\\\ 0&0&1\\end{bmatrix}$.<br />**Step 5:** Notice that this resulting matrix perfectly matches the format of $F(x)$ but with $2x$ as the argument. Therefore, $F(x) \\cdot F(x) = F(2x)$. Since we are given $[F(x)]^2 = F(kx)$, equating the arguments gives $k = 2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "0",
+    "D": "-2"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

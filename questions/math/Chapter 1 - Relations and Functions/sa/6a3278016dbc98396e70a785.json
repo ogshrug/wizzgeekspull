@@ -1,0 +1,26 @@
+{
+  "id": "6a3278016dbc98396e70a785",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Let R be a relation on set of real numbers $\\mathbb{R}$ defined as $\\{(x,y):x-y+\\sqrt{3}$ is an irrational number, $x, y\\in\\mathbb{R}\\}$ Verify R for reflexivity, symmetry and transitivity.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Test for reflexivity: For any real number $x \\in \\mathbb{R}$, we evaluate $(x,x)$ which gives $x - x + \\sqrt{3} = \\sqrt{3}$. Since $\\sqrt{3}$ is an irrational number, $(x,x) \\in R$ for all $x \\in \\mathbb{R}$. Hence, $R$ is reflexive.<br />**Step 2:** Test for symmetry: Let $(\\sqrt{3}, 0) \\in R$ because $\\sqrt{3} - 0 + \\sqrt{3} = 2\\sqrt{3}$, which is irrational. However, for $(0, \\sqrt{3})$, we get $0 - \\sqrt{3} + \\sqrt{3} = 0$, which is a rational number. Thus, $(0, \\sqrt{3}) \\notin R$, proving that $R$ is not symmetric.<br />**Step 3:** Test for transitivity: Let $(0, \\sqrt{2}) \\in R$ because $0 - \\sqrt{2} + \\sqrt{3}$ is irrational, and let $(\\sqrt{2}, \\sqrt{3}) \\in R$ because $\\sqrt{2} - \\sqrt{3} + \\sqrt{3} = \\sqrt{2}$, which is irrational. But for $(0, \\sqrt{3})$, we find $0 - \\sqrt{3} + \\sqrt{3} = 0$, which is rational. Thus, $(0, \\sqrt{3}) \\notin R$, proving that $R$ is not transitive.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

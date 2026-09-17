@@ -1,0 +1,27 @@
+{
+  "id": "6a2fdb9193496b2e4e0e7625",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate: $\\sin\\left[\\cos^{-1}\\left(\\cos\\left(\\frac{7\\pi}{6}\\right)\\right)\\right]$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The principal value branch of $\\cos^{-1}x$ is $[0, \\pi]$. Since $\\frac{7\\pi}{6}$ does not lie in this interval, we use trigonometric periodicity to rewrite the term: $\\cos\\left(\\frac{7\\pi}{6}\\right)=\\cos\\left(\\frac{5\\pi}{6}\\right)$.<br />**Step 2:** Since $\\frac{5\\pi}{6}\\in[0,\\pi]$, we have $\\cos^{-1}\\left(\\cos\\left(\\frac{5\\pi}{6}\\right)\\right)=\\frac{5\\pi}{6}$.<br />**Step 3:** Therefore, $\\sin\\left(\\frac{5\\pi}{6}\\right)=\\sin\\left(\\frac{\\pi}{6}\\right)=\\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

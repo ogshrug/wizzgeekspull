@@ -1,0 +1,33 @@
+{
+  "id": "6a22659b864be73cfcf6d1b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "MCQ",
+  "question": "The solution for the differential equation is: $\\log(\\frac{dy}{dx})=3x+4y$",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Convert the given logarithmic equation into its equivalent exponential form to isolate the derivative: $\\frac{dy}{dx} = e^{3x+4y}$.<br />**Step 2:** Use the laws of exponents to separate the variables: $\\frac{dy}{dx} = e^{3x} \\cdot e^{4y}$.<br />**Step 3:** Rearrange the terms to group $y$ with $dy$ and $x$ with $dx$: $e^{-4y} dy = e^{3x} dx$.<br />**Step 4:** Integrate both sides of the separated equation: $\\int e^{-4y} dy = \\int e^{3x} dx$.<br />**Step 5:** Perform the integration using basic rules: $\\frac{e^{-4y}}{-4} = \\frac{e^{3x}}{3} + C$, where C is the constant of integration.<br />**Step 6:** Multiply the entire equation by 12 to clear the denominators: $-3e^{-4y} = 4e^{3x} + 12C$.<br />**Step 7:** Rearrange all terms to one side to match the given options: $3e^{-4y} + 4e^{3x} + 12C = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$3e^{4y}+4e^{-3x}+C=0$",
+    "B": "$e^{3x+4y}+C=0$",
+    "C": "$3e^{-3y}+4e^{4x}+12C=0$",
+    "D": "$3e^{-4y}+4e^{3x}+12C=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd81d4b490c7cde35951a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "SA",
+  "question": "For the homogeneous differential equation $$(x-y)\\frac{dy}{dx}=x+2y,$$ use the substitution $y=vx$ and obtain the corresponding differential equation involving only $v$, $x$ and $\\frac{dv}{dx}$. Do not integrate.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Rewrite the differential equation</b><br>The given equation becomes $$\\frac{dy}{dx}=\\frac{x+2y}{x-y}.$$<br><b>Step 2: Introduce the substitution</b><br>Put $$y=vx.$$ Differentiating with respect to $x$, $$\\frac{dy}{dx}=v+x\\frac{dv}{dx}.$$<br><b>Step 3: Substitute for $y$ and $\\frac{dy}{dx}$</b><br>Therefore, $$v+x\\frac{dv}{dx}=\\frac{x+2vx}{x-vx}=\\frac{1+2v}{1-v}.$$<br><b>Step 4: Isolate the derivative of $v$</b><br>Hence, $$x\\frac{dv}{dx}=\\frac{1+2v}{1-v}-v.$$ Combining the terms gives $$x\\frac{dv}{dx}=\\frac{1+v+v^2}{1-v}.$$<br><b>Step 5: Final transformed equation</b><br>Thus, after the substitution $y=vx$, the required equation is $$x\\frac{dv}{dx}=\\frac{1+v+v^2}{1-v}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$x\\frac{dv}{dx}=\\frac{1-v-v^2}{1-v}$",
+    "B": "$x\\frac{dv}{dx}=\\frac{1+v+v^2}{1-v}$",
+    "C": "$x\\frac{dv}{dx}=\\frac{1+2v}{1-v}$",
+    "D": "$x\\frac{dv}{dx}=\\frac{1+v-v^2}{1+v}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

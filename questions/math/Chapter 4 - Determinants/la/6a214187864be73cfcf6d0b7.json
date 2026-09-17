@@ -1,0 +1,28 @@
+{
+  "id": "6a214187864be73cfcf6d0b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "LA",
+  "question": "If $\\begin{bmatrix}3 & -1 & \\sin 3x \\\\ -7 & 4 & \\cos 2x \\\\ -11 & 7 & 2\\end{bmatrix}$ is a singular matrix, then find all values of $x$ where $x \\in [0, \\frac{\\pi}{2}]$.",
+  "answeroption": "x = 0, π/6",
+  "explanation": "**Step 1:** Since the given matrix is singular, its determinant must mathematically evaluate to exactly zero. We set up the determinant equation $|A| = 0$ to begin solving.<br /><br />**Step 2:** Expand the determinant along the first row to get $3(8 - 7\\cos 2x) + 1(-14 + 11\\cos 2x) + \\sin 3x(-49 + 44) = 0$. This algebraically expands to $24 - 21\\cos 2x - 14 + 11\\cos 2x - 5\\sin 3x = 0$.<br /><br />**Step 3:** Combine the constant terms and like trigonometric terms to further simplify the algebraic expression. This results in the reduced equation $10 - 10\\cos 2x - 5\\sin 3x = 0$.<br /><br />**Step 4:** Divide the entire equation by a common factor of 5 to simplify the coefficients for easier calculation. This leaves us with the streamlined equation $2 - 2\\cos 2x - \\sin 3x = 0$.<br /><br />**Step 5:** Apply the multiple-angle trigonometric identities $\\cos 2x = 1 - 2\\sin^2 x$ and $\\sin 3x = 3\\sin x - 4\\sin^3 x$. Substituting these into the equation yields $2 - 2(1 - 2\\sin^2 x) - (3\\sin x - 4\\sin^3 x) = 0$.<br /><br />**Step 6:** Expand and simplify the expression to isolate all terms, forming a cubic polynomial equation in terms of $\\sin x$. The expression simplifies perfectly to $4\\sin^3 x + 4\\sin^2 x - 3\\sin x = 0$.<br /><br />**Step 7:** Factor out $\\sin x$ to get $\\sin x (4\\sin^2 x + 4\\sin x - 3) = 0$. Factoring the quadratic portion as $(2\\sin x + 3)(2\\sin x - 1) = 0$ yields $\\sin x = -\\frac{3}{2}$ (which is rejected) or $\\sin x = \\frac{1}{2}$.<br /><br />**Step 8:** Finally, solve for $x$ within the restricted domain $x \\in [0, \\frac{\\pi}{2}]$ for the valid equations $\\sin x = 0$ and $\\sin x = \\frac{1}{2}$. The only valid solutions in this interval are $x = 0$ and $x = \\frac{\\pi}{6}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

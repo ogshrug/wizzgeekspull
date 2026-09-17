@@ -1,0 +1,29 @@
+{
+  "id": "69a988986638848124d7c959",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $f: [-2, 2] \\to [0, 4]$ be defined by $f(x) = x^2$ and $g: [0,4] \\to [0,2]$ by $g(y) = \\sqrt{y}$. Which statement is true about the compositions $g \\circ f$ and $f \\circ g$ on their respective domains?",
+  "answeroption": "D",
+  "explanation": "For $g \\circ f(x) = g(f(x)) = g(x^2) = \\sqrt{x^2} = |x|$, for $x \\in [-2,2]$.<br /><br />For $f \\circ g(y) = f(g(y)) = f(\\sqrt{y}) = (\\sqrt{y})^2 = y$, for $y \\in [0,4]$.<br /><br />So $g \\circ f$ is $|x|$ and $f \\circ g$ is the identity on $[0,4]$.<br /><br />So, Option D is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both are bijections",
+    "B": "$g \\circ f$ is the modulus function $|x|$ for $x \\in [-2, 2]$",
+    "C": "$f \\circ g$ is the identity function on $[0,4]$",
+    "D": "Both B and C"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:43:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

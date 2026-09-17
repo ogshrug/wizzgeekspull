@@ -1,0 +1,30 @@
+{
+  "id": "69aa6bb4d30adc5083911b88",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65d9140512f018fa94d4d",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\sqrt{1 - x^2}$ for $|x| < 1$. Define $F(x) = \\int_{0}^{x} f(t) \\ dt$.\n\n(a) Show that $F(x)$ is differentiable on $(-1, 1)$.\n\n(b) Express $F(x)$ in terms of inverse trigonometric functions.\n\n(c) Define $g(x) = \\sin^{-1} x + \\cos^{-1} x$, prove $g(x)$ is constant and compute its value.\n\n(d) If $A = \\begin{pmatrix} F(x) & g(x) \\\\ g(x) & F(x) \\end{pmatrix}$, find $\\det A$ for any $|x| < 1$.",
+  "answeroption": "D",
+  "explanation": "**Concepts tested:** Inverse trigonometric functions, properties of definite integrals, differentiability, matrices, determinants.<br /><br />(a) $f(x) = \\sqrt{1-x^2}$ is continuous on $(-1,1)$, so $F(x)$ by the Fundamental Theorem of Calculus is differentiable on $(-1,1)$.<br /><br />(b) $F(x) = \\int_0^x \\sqrt{1-t^2} \\ dt$<br /><br />Let $t = \\sin \\theta$, $dt = \\cos \\theta d\\theta$, when $t=0$, $\\theta=0$; $t=x$, $\\theta = \\sin^{-1} x$.<br /><br />$\\int_0^x \\sqrt{1-t^2} dt = \\int_0^{\\sin^{-1} x} \\sqrt{1-\\sin^2 \\theta} \\cos \\theta d\\theta = \\int_0^{\\sin^{-1} x} \\cos^2 \\theta d\\theta$<br /><br />Using $\\cos^2 \\theta = (1+\\cos 2\\theta)/2$:<br /><br />$\\frac{1}{2} \\int_0^{\\sin^{-1} x} (1 + \\cos 2\\theta) d\\theta = \\frac{1}{2} \\left[ \\theta + \\frac{1}{2} \\sin 2\\theta \\right]_0^{\\sin^{-1} x}$<br /><br />Since $\\sin 2\\theta = 2\\sin \\theta \\cos \\theta$,<br /><br />$= \\frac{1}{2} \\left[ \\sin^{-1} x + x\\sqrt{1-x^2} \\right]$<br /><br />(c) $g(x) = \\sin^{-1} x + \\cos^{-1} x$<br /><br />For $x \\in (-1,1)$, $\\sin^{-1} x \\in [-\\pi/2, \\pi/2]$, $\\cos^{-1} x \\in [0,\\pi]$<br /><br />But $\\sin^{-1} x + \\cos^{-1} x = \\frac{\\pi}{2}$ for all $x$.<br /><br />(d) $A = \\begin{pmatrix} F(x) & \\frac{\\pi}{2} \\\\ \\frac{\\pi}{2} & F(x) \\end{pmatrix}$<br /><br />$\\det A = F(x)^2 - \\left(\\frac{\\pi}{2}\\right)^2 = F(x)^2 - \\frac{\\pi^2}{4}$<br /><br />So,<br /><br />$\\boxed{F(x)^2 - \\frac{\\pi^2}{4}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $F$ is not differentiable on $(-1,1)$<br />(b) $F(x)=\\sin^{-1}x$<br />(c) $g(x)=0$ for all $x$<br />(d) $\\det A=F(x)^2$",
+    "B": "(a) $F$ is differentiable only at $x=0$<br />(b) $F(x)=x\\sqrt{1-x^2}$<br />(c) $g(x)=\\pi$ for all $x$<br />(d) $\\det A=F(x)^2-\\pi^2$",
+    "C": "(a) $F$ is continuous but not differentiable<br />(b) $F(x)=\\frac{1}{2}\\sin^{-1}x$<br />(c) $g(x)=\\frac{\\pi}{4}$ for all $x$<br />(d) $\\det A=F(x)^2-\\frac{\\pi^2}{16}$",
+    "D": "(a) Since $f(x)=\\sqrt{1-x^2}$ is continuous on $(-1,1)$, $F$ is differentiable on $(-1,1)$<br />(b) $F(x)=\\frac{1}{2}\\left[\\sin^{-1}x+x\\sqrt{1-x^2}\\right]$<br />(c) $g(x)=\\sin^{-1}x+\\cos^{-1}x=\\frac{\\pi}{2}$<br />(d) $\\det A=F(x)^2-\\left(\\frac{\\pi}{2}\\right)^2=F(x)^2-\\frac{\\pi^2}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:52:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

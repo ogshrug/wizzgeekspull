@@ -1,0 +1,29 @@
+{
+  "id": "69a96d6462be6a70cd184d8a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "LA",
+  "question": "Solve the linear differential equation:\n$x \\frac{dy}{dx} + 2y = sin x$\nGiven that $y = 0$ when $x = 0$.",
+  "answeroption": "D",
+  "explanation": "First, write the given equation in standard linear form:<br /><br />$x\\frac{dy}{dx} + 2y = sin x$<br />$\\frac{dy}{dx} + \\frac{2}{x}y = \\frac{sin x}{x}$<br />Here, $P(x) = \\frac{2}{x}, Q(x) = \\frac{sin x}{x}$<br />Integrating factor (I.F.):<br />$I.F. = e^{\\int \\frac{2}{x} dx} = e^{2 \\ln|x|} = x^2$<br />Multiply both sides by $x^2$:<br />$x^2 \\frac{dy}{dx} + 2x y = x sin x$<br />The left is the derivative of $x^2 y$:<br />$\\frac{d}{dx}(x^2 y) = x sin x$<br />Integrate both sides:<br />$\\int \\frac{d}{dx}(x^2 y) dx = \\int x sin x dx$<br />LHS: $x^2 y$<br />RHS: $\\int x sin x dx$ (use integration by parts)<br />Let $u = x, dv = sin x dx$<br />$du = dx, v = -cos x$<br />$\\int x sin x dx = -x cos x + \\int cos x dx = -x cos x + sin x + C$<br />So:<br />$x^2 y = -x cos x + sin x + C$<br />Use $y = 0, x = 0$:<br />$0 = 0 + 0 + C \\implies C = 0$<br />Therefore,<br />$x^2 y = - x cos x + sin x$<br />$y = \\frac{-x cos x + sin x}{x^2}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\cos x$",
+    "B": "$y=\\frac{1}{\\sin x}$",
+    "C": "$y=\\sec x+1$",
+    "D": "$y=\\frac{1}{\\cos x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:47:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

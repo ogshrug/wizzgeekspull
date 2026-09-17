@@ -1,0 +1,32 @@
+{
+  "id": "6a8f005bbe0ecc7866e90c1d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978",
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a classroom investigation, students analyse the function $f(x)=\\frac{x^2}{x+1}$. They first identify the values for which the function exists and then use the sign of its derivative to study its behaviour. Particular attention is given to the distinction between a point where the derivative is zero and a value that does not belong to the domain. The students divide the domain into suitable intervals so that the sign of the derivative remains unchanged within each interval.(a) Determine the domain of $f$ and obtain $f'(x)$.(b) Find all critical points belonging to the domain.(c) Determine the intervals on which $f$ is increasing and decreasing.(d) Classify the critical points and explain why $x=-1$ is not a critical point.",
+  "answeroption": "D",
+  "explanation": "(a)The denominator must be non-zero. Therefore, the domain is`\\mathbb{R}\\setminus\\{-1\\}`Using the quotient rule,`f'(x)=\\frac{2x(x+1)-x^2}{(x+1)^2}f'(x)=\\frac{x(x+2)}{(x+1)^2}`(b)The derivative is zero when`x(x+2)=0`Therefore,`x=-2\\quad\\text{or}\\quad x=0`Both values belong to the domain, so they are the critical points.(c)Since $(x+1)^2>0$ throughout the domain, the sign of $f'(x)$ is determined by $x(x+2)$. The derivative is positive for $x<-2$ and $x>0$, and negative for $-2\\<x<0$. The excluded value $x=-1$ divides the negative-sign interval into two domain intervals.Hence, $f$ is increasing on`(-\\infty,-2)\\cup(0,\\infty)`and decreasing on`(-2,-1)\\cup(-1,0)`(d)At $x=-2$, the derivative changes from positive to negative. Therefore, the function changes from increasing to decreasing, and $x=-2$ is a point of local maximum. Its value is`f(-2)=\\frac{4}{-1}=-4`At $x=0$, the derivative changes from negative to positive. Therefore, $x=0$ is a point of local minimum, with`f(0)=0`Although the derivative is undefined at $x=-1$, the function itself is also undefined there. Since a critical point must belong to the domain, $x=-1$ is not a critical point.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain $\\mathbb{R}\\setminus\\{0\\}$, $f'(x)=\\frac{x(x+2)}{(x+1)^2}$<br>(b) Critical points $x=-2,-1$<br>(c) Increasing on $(-\\infty,-2)\\cup(-1,\\infty)$; decreasing on $(-2,-1)$<br>(d) $x=-2$ is a local maximum; $x=-1$ is a local minimum",
+    "B": "(a) Domain $\\mathbb{R}\\setminus\\{-1\\}$, $f'(x)=\\frac{x^2+2x+2}{(x+1)^2}$<br>(b) No critical points<br>(c) Increasing throughout its domain<br>(d) $x=-1$ is a critical point because $f'$ is undefined there",
+    "C": "(a) Domain $\\mathbb{R}\\setminus\\{-1\\}$, $f'(x)=\\frac{x(x+2)}{x+1}$<br>(b) Critical points $x=-2,0$<br>(c) Increasing on $(-\\infty,-2)\\cup(-1,0)$; decreasing on $(-2,-1)\\cup(0,\\infty)$<br>(d) Both critical points are local maxima",
+    "D": "(a) Domain $\\mathbb{R}\\setminus\\{-1\\}$, $f'(x)=\\frac{x(x+2)}{(x+1)^2}$<br>(b) Critical points $x=-2,0$<br>(c) Increasing on $(-\\infty,-2)\\cup(0,\\infty)$; decreasing on $(-2,-1)\\cup(-1,0)$<br>(d) $x=-2$ is a local maximum with value $-4$, $x=0$ is a local minimum with value $0$; $x=-1$ is outside the domain"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

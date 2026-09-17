@@ -1,0 +1,26 @@
+{
+  "id": "6a2658cd864be73cfcf6d346",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: <br />$$\\int_{0}^{2\\pi}\\frac{dx}{1+e^{sin~x}}$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the given definite integral be represented by $I = \\int_{0}^{2\\pi}\\frac{dx}{1+e^{\\sin x}}$. We can solve this efficiently by applying a fundamental property of definite integrals: $\\int_{a}^{b} f(x) dx = \\int_{a}^{b} f(a+b-x) dx$. For this specific integral, our lower limit is $a=0$ and our upper limit is $b=2\\pi$, so we substitute $(2\\pi - x)$ in place of every variable $x$ in the integrand. This gives the modified expression: $I = \\int_{0}^{2\\pi}\\frac{dx}{1+e^{\\sin(2\\pi - x)}}$.<br />**Step 2:** Simplify the trigonometric exponent. According to standard quadrant rules, the sine function in the fourth quadrant satisfies the identity $\\sin(2\\pi - x) = -\\sin x$. Substituting this back into the modified equation yields: $I = \\int_{0}^{2\\pi}\\frac{dx}{1+e^{-\\sin x}}$. We can rewrite the negative exponent as a fraction: $\\frac{1}{1 + \\frac{1}{e^{\\sin x}}} = \\frac{e^{\\sin x}}{e^{\\sin x} + 1}$. This gives us our second equation for the integral: $I = \\int_{0}^{2\\pi}\\frac{e^{\\sin x}}{1+e^{\\sin x}}dx$.<br />**Step 3:** Add the first original equation and the newly derived second equation together. Since both shares identical limits of integration and denominators, their numerators combine directly: $2I = \\int_{0}^{2\\pi} \\frac{1}{1+e^{\\sin x}} dx + \\int_{0}^{2\\pi} \\frac{e^{\\sin x}}{1+e^{\\sin x}} dx = \\int_{0}^{2\\pi} \\frac{1+e^{\\sin x}}{1+e^{\\sin x}} dx$. The fraction inside cancels out completely to become 1, leaving the simple integration problem: $2I = \\int_{0}^{2\\pi} 1 \\, dx$.<br />**Step 4:** Integrate the constant function to find the final value. The integral of $1$ with respect to $x$ is simply $x$, so evaluating it across the boundaries yields: $2I = [x]_{0}^{2\\pi} = 2\\pi - 0 = 2\\pi$. Dividing both sides of the equation by 2 isolates our target value, giving the final result: $I = \\pi$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

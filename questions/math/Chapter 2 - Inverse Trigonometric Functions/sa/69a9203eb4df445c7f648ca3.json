@@ -1,0 +1,29 @@
+{
+  "id": "69a9203eb4df445c7f648ca3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "If $\\cos^{-1}x + \\cos^{-1}y = \\pi$, find the relation between $x$ and $y$.",
+  "answeroption": "C",
+  "explanation": "Given $\\cos^{-1}x + \\cos^{-1}y = \\pi$.<br /><br />Then $\\cos^{-1}y = \\pi - \\cos^{-1}x$.<br /><br />Taking cosine on both sides,<br /><br />$y = \\cos(\\pi - \\cos^{-1}x)$.<br /><br />Using the identity $\\cos(\\pi-\\theta) = -\\cos\\theta$.<br /><br />Thus $y = -\\cos(\\cos^{-1}x)$.<br /><br />Hence $y = -x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=x$",
+    "B": "$x+y=1$",
+    "C": "$y=-x$",
+    "D": "$xy=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:18:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

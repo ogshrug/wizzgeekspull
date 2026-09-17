@@ -1,0 +1,29 @@
+{
+  "id": "6a8f1a914b490c7cde3594e3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995"
+  ],
+  "question_type": "SA",
+  "question": "For $a>0$, the area below the parabola $y=ax(3-x)$ from $x=0$ to $x=3$ is $18$ square units. Find $a$.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Position of the parabola</b><br>For $0\\leq x\\leq3$, both $x$ and $3-x$ are non-negative. Since $a>0$, the curve lies above the x-axis.<br><b>Step 2: Expressing the area in terms of $a$</b><br>\\(A=a\\int_0^3(3x-x^2)\\,dx\\)<br><b>Step 3: Evaluating the integral</b><br>\\(A=a\\left[\\frac{3x^2}{2}-\\frac{x^3}{3}\\right]_0^3=a\\left(\\frac{27}{2}-9\\right)=\\frac{9a}{2}\\)<br><b>Step 4: Applying the given area</b><br>\\(\\frac{9a}{2}=18\\Rightarrow9a=36\\Rightarrow a=4\\)<br><b>Final Answer</b><br>The required value of the parameter is $a=4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=4$",
+    "B": "$a=2$",
+    "C": "$a=6$",
+    "D": "$a=8$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

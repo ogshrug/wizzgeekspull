@@ -1,0 +1,26 @@
+{
+  "id": "6a2fea7ce9d6ca4a0a42b152",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "LA",
+  "question": "In a factory, machine A produces $30\\%$ of total output, machine B produces $25\\%$ and the machine C produces the remaining output. The defective items produced by machines A, B and C are $1\\%, 1.2\\%, 2\\%$ respectively. An item is picked at random from a day's output and found to be defective. Find the probability that it was produced by machine B?",
+  "answeroption": "",
+  "explanation": "**Step 1:** Define the events.<br />$E_1$: Item is produced by machine A. $P(E_1) = 0.30$<br />$E_2$: Item is produced by machine B. $P(E_2) = 0.25$<br />$E_3$: Item is produced by machine C. $P(E_3) = 1 - (0.30 + 0.25) = 0.45$<br />$D$: The item is defective.<br />**Step 2:** Write the conditional probabilities of producing a defective item.<br />$P(D|E_1) = 1\\% = 0.01$<br />$P(D|E_2) = 1.2\\% = 0.012$<br />$P(D|E_3) = 2\\% = 0.02$<br />**Step 3:** Use Bayes' theorem to find $P(E_2|D)$.<br />$P(E_2|D) = \\frac{P(E_2)P(D|E_2)}{P(E_1)P(D|E_1) + P(E_2)P(D|E_2) + P(E_3)P(D|E_3)}$<br />**Step 4:** Substitute the values and calculate.<br />Numerator = $0.25 \\times 0.012 = 0.003$<br />Denominator = $(0.30 \\times 0.01) + (0.25 \\times 0.012) + (0.45 \\times 0.02)$<br />Denominator = $0.003 + 0.003 + 0.009 = 0.015$<br />$P(E_2|D) = \\frac{0.003}{0.015} = \\frac{1}{5} = 0.2$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

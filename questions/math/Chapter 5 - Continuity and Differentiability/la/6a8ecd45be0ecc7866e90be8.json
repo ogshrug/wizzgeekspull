@@ -1,0 +1,31 @@
+{
+  "id": "6a8ecd45be0ecc7866e90be8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d81",
+    "69c6610140512f018fa94d83",
+    "69c6610240512f018fa94d88"
+  ],
+  "question_type": "LA",
+  "question": "Verify the Mean Value Theorem for the function $$f(x)=\\log x$$ on the interval $[1,e]$, and determine the value of $c\\in(1,e)$ satisfying the conclusion of the theorem.",
+  "answeroption": "D",
+  "explanation": "<b>Verification of the Conditions</b><br>The function $f(x)=\\log x$ is continuous for every $x>0$ and differentiable for every $x>0$. Hence, it is continuous on the closed interval $[1,e]$ and differentiable on the open interval $(1,e)$. Therefore, the conditions of the Mean Value Theorem are satisfied.<br><br><b>Applying the Mean Value Theorem</b><br>According to the Mean Value Theorem, there exists $c\\in(1,e)$ such that $$f'(c)=\\frac{f(e)-f(1)}{e-1}.$$ Since $$f(e)=\\log e=1$$ and $$f(1)=\\log1=0,$$ we obtain $$\\frac{f(e)-f(1)}{e-1}=\\frac{1}{e-1}.$$ Also, $$f'(x)=\\frac{1}{x}.$$ Therefore, $$f'(c)=\\frac{1}{c}.$$ Equating the two expressions, $$\\frac{1}{c}=\\frac{1}{e-1},$$ giving $$c=e-1.$$ Since $e>2$, we have $e-1>1$, and clearly $e-1<e$. Thus, $$c=e-1\\in(1,e).$$<br><br><b>Final Result</b><br>Hence, the Mean Value Theorem is verified for $f(x)=\\log x$ on $[1,e]$, and the required value is $$c=e-1.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "The Mean Value Theorem is verified and $c=\\frac{e-1}{e}$.",
+    "B": "The Mean Value Theorem is verified and $c=\\frac{e}{e-1}$.",
+    "C": "The Mean Value Theorem is verified and $c=\\log(e-1)$.",
+    "D": "The Mean Value Theorem is verified and $c=e-1$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

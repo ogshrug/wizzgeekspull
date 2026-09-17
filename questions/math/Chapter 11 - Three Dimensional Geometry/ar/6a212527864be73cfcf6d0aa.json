@@ -1,0 +1,33 @@
+{
+  "id": "6a212527864be73cfcf6d0aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d1"
+  ],
+  "question_type": "AR",
+  "question": "**Assertion (A):** Lines given by $x=py+q$, $z=ry+s$ and $x=p'y+q'$, $z=r'y+s'$ are perpendicular to each other when $pp'+rr'=1$.<br />**Reason (R):** Two lines $\\vec{r}=\\vec{a}_1+\\lambda\\vec{b}_1$ and $\\vec{r}=\\vec{a}_2+\\mu\\vec{b}_2$ are perpendicular to each other if $\\vec{b}_1 \\cdot \\vec{b}_2 = 0$.",
+  "answeroption": "D",
+  "explanation": "**Step 1: Reason (R) is true** – By definition, two lines are perpendicular iff their direction vectors have dot product zero.\n\n**Step 2: Convert given lines to symmetric form**\nFirst line: $x=py+q$, $z=ry+s$. Since $y$ is free, write $\\frac{x-q}{p} = \\frac{y}{1} = \\frac{z-s}{r}$. Direction vector $\\vec{b}_1 = (p, 1, r)$.\nSecond line: $x=p'y+q'$, $z=r'y+s'$ → $\\frac{x-q'}{p'} = \\frac{y}{1} = \\frac{z-s'}{r'}$, direction vector $\\vec{b}_2 = (p', 1, r')$.\n\n**Step 3: Perpendicular condition**\n$\\vec{b}_1 \\cdot \\vec{b}_2 = p p' + (1)(1) + r r' = pp' + rr' + 1 = 0$ → $pp' + rr' = -1$.\nThus the correct perpendicular condition is $pp' + rr' = -1$, not $+1$.\n\n**Step 4: Conclusion**\nAssertion (A) states $pp' + rr' = 1$, which is false. Reason (R) is true. Hence answer is D.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both A and R are true and R is correct explanation of A.",
+    "B": "Both A and R are true, but R is not correct explanation of A.",
+    "C": "A is true and R is false.",
+    "D": "A is false and R is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

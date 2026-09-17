@@ -1,0 +1,30 @@
+{
+  "id": "6a1830a3d429e802c45d70a6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78",
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): $f(x)=[x]$, $x\\in\\mathbb{R}$, the greatest integer function is not differentiable at $x=2$.<br />Reason (R): The greatest integer function is not continuous at any integral value.",
+  "answeroption": "A",
+  "explanation": "**Step 1:** Analyze Assertion (A). The greatest integer function $f(x)=[x]$ has jump discontinuities at every integer input. Since it is discontinuous at $x=2$, it cannot be differentiable there either. Thus, Assertion (A) is true.<br /><br />**Step 2:** Analyze Reason (R). Evaluating limits at an integer $n$ shows $\\lim_{x \\to n^-}[x] = n-1$ and $\\lim_{x \\to n^+}[x] = n$. Since these limits do not match, the function is discontinuous at all integer values, meaning Reason (R) is true.<br /><br />**Step 3:** Check the logical relationship. A function must be continuous to be differentiable. Since the function is discontinuous at integers, it is non-differentiable at $x=2$. Thus, Reason (R) provides the correct explanation for Assertion (A), matching Option A.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

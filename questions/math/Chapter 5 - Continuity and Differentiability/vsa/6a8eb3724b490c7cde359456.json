@@ -1,0 +1,31 @@
+{
+  "id": "6a8eb3724b490c7cde359456",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7c",
+    "69c6610140512f018fa94d7d"
+  ],
+  "question_type": "VSA",
+  "question": "For $-1<x<1$, let $F(x)=\\sin^{-1}x+\\cos^{-1}x$. Without evaluating $F(x)$ explicitly, determine $F'\\left(\\frac{1}{2}\\right)$.",
+  "answeroption": "C",
+  "explanation": "Step 1: Differentiate the two inverse trigonometric terms separately.<br>Step 2: For $-1<x<1$, $\\frac{d}{dx}(\\sin^{-1}x)=\\frac{1}{\\sqrt{1-x^2}}$.<br>Step 3: Also, $\\frac{d}{dx}(\\cos^{-1}x)=-\\frac{1}{\\sqrt{1-x^2}}$.<br>Step 4: Therefore, $F'(x)=\\frac{1}{\\sqrt{1-x^2}}-\\frac{1}{\\sqrt{1-x^2}}=0$. The two derivative terms cancel for every $x$ in the stated interval.<br>Step 5: Consequently, $F'\\left(\\frac{1}{2}\\right)=\\boxed{0}$. This conclusion follows directly from the derivative relations and does not require evaluating the inverse trigonometric values themselves.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{\\sqrt{3}}$",
+    "B": "$-\\frac{2}{\\sqrt{3}}$",
+    "C": "$0$",
+    "D": "$1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

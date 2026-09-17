@@ -1,0 +1,29 @@
+{
+  "id": "69a9a441589ce36f368b4838",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int \\frac{1}{a^2\\sin^2 x + b^2\\cos^2 x} dx$.",
+  "answeroption": "C",
+  "explanation": "Divide numerator and denominator by $\\cos^2x$.<br /><br />Integral becomes $\\int \\frac{\\sec^2x}{a^2\\tan^2x+b^2}dx$.<br /><br />Let $t=\\tan x$, $dt=\\sec^2x dx$.<br /><br />So $\\int \\frac{dt}{a^2t^2+b^2}$.<br /><br />Using standard formula gives $\\frac{1}{ab}\\tan^{-1}\\left(\\frac{a\\tan x}{b}\\right)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{a}{b}\\tan^{-1}\\left(\\frac{a\\tan x}{b}\\right)+C$",
+    "B": "$\\frac{1}{ab}\\tan^{-1}\\left(\\frac{b\\tan x}{a}\\right)+C$",
+    "C": "$\\frac{1}{ab}\\tan^{-1}\\left(\\frac{a\\tan x}{b}\\right)+C$",
+    "D": "$ab\\tan^{-1}\\left(\\frac{a\\tan x}{b}\\right)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:41:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

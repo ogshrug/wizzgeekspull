@@ -1,0 +1,30 @@
+{
+  "id": "6a158b8c6050c058f876e503",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d50",
+    "69c65fbf40512f018fa94d4f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $X$, $Y$ and $XY$ are matrices of order $2\\times3$, $m\\times n$ and $2\\times5$ respectively, then number of elements in matrix $Y$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1: Check conditions for matrix multiplication compatibility**<br />For the product matrix $XY$ to exist, the number of columns in the left matrix $X$ must equal the number of rows in the right matrix $Y$. Given that $X$ has an order of $2 \\times 3$, its column count is 3. Since $Y$ has an order of $m \\times n$, its row count is $m$. This gives us $m = 3$.<br /><br />**Step 2: Match dimensions of the product matrix**<br />The resulting product matrix $XY$ takes its row count from $X$ and its column count from $Y$, resulting in an order of $2 \\times n$. We are given that $XY$ has an order of $2 \\times 5$, which means $n = 5$.<br /><br />**Step 3: Determine elements in matrix $Y$**<br />The final dimensions of matrix $Y$ are $m \\times n = 3 \\times 5$. The total number of elements in matrix $Y$ is calculated as $3 \\times 5 = 15$. This matches Option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "6",
+    "B": "10",
+    "C": "15",
+    "D": "35"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

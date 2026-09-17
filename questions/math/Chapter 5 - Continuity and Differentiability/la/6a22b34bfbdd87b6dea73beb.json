@@ -1,0 +1,28 @@
+{
+  "id": "6a22b34bfbdd87b6dea73beb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "LA",
+  "question": "Find $\\frac{dy}{dx}$ if $y^{x}+x^{y}+x^{x}=a^{b}$, where a and b are constants.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Rewrite the equation using independent functional parts: $u + v + w = a^b$, where $u = y^x$, $v = x^y$, and $w = x^x$. Differentiating both sides with respect to $x$ gives: $\\frac{du}{dx} + \\frac{dv}{dx} + \\frac{dw}{dx} = 0$.<br /><br /><b>Step 2</b> Differentiate $u = y^x$ using logarithms: $\\ln u = x \\ln y \\implies \\frac{1}{u}\\frac{du}{dx} = \\ln y + \\frac{x}{y}\\frac{dy}{dx} \\implies \\frac{du}{dx} = y^x \\ln y + x y^{x-1}\\frac{dy}{dx}$.<br /><br /><b>Step 3</b> Differentiate $v = x^y$ similarly: $\\ln v = y \\ln x \\implies \\frac{1}{v}\\frac{dv}{dx} = \\frac{dy}{dx} \\ln x + \\frac{y}{x} \\implies \\frac{dv}{dx} = x^y \\ln x \\frac{dy}{dx} + y x^{y-1}$.<br /><br /><b>Step 4</b> Differentiate $w = x^x$: $\\ln w = x \\ln x \\implies \\frac{1}{w}\\frac{dw}{dx} = \\ln x + 1 \\implies \\frac{dw}{dx} = x^x(\\ln x + 1)$. Substitute these three derivatives back into the main equation: $\\left( y^x \\ln y + x y^{x-1}\\frac{dy}{dx} \\right) + \\left( x^y \\ln x \\frac{dy}{dx} + y x^{y-1} \\right) + x^x(\\ln x + 1) = 0$.<br /><br /><b>Step 5</b> Group all terms containing the derivative factor $\\frac{dy}{dx}$ on one side and isolate it: $\\left( x y^{x-1} + x^y \\ln x \\right) \\frac{dy}{dx} = -\\left( y^x \\ln y + y x^{y-1} + x^x(\\ln x + 1) \\right) \\implies \\frac{dy}{dx} = -\\frac{y^x \\ln y + y x^{y-1} + x^x(\\ln x + 1)}{x y^{x-1} + x^y \\ln x}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

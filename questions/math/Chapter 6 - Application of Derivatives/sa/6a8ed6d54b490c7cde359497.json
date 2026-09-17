@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed6d54b490c7cde359497",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "SA",
+  "question": "While calculating the volume of a cone, its radius is measured $1\\%$ greater and its height $2\\%$ greater than their actual values. Estimate the percentage error in the calculated volume and justify its sign.",
+  "answeroption": "A",
+  "explanation": "<b>Volume relation</b><br>The volume of a cone is<br>$$V=\\frac{1}{3}\\pi r^2h$$<br><b>Relative differential</b><br>Taking the relative change,<br>$$\\frac{dV}{V}=2\\frac{dr}{r}+\\frac{dh}{h}$$<br><b>Substitution of percentage errors</b><br>The radius has a positive error of $1\\%$ and the height has a positive error of $2\\%$. Therefore,<br>$$\\frac{dV}{V}\\times100=2(1\\%)+2\\%$$<br>$$=4\\%$$<br><b>Sign interpretation</b><br>Both measurements are greater than their actual values, so both contributions to the volume error are positive.<br><b>Conclusion</b><br>The calculated volume has an approximate positive error of $4\\%$ and is therefore overestimated.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4\\%$ positive error; the volume is overestimated",
+    "B": "$3\\%$ positive error; the volume is overestimated",
+    "C": "$4\\%$ negative error; the volume is underestimated",
+    "D": "$2\\%$ positive error; the volume is overestimated"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

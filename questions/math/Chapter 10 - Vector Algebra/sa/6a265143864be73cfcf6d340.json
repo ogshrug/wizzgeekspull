@@ -1,0 +1,28 @@
+{
+  "id": "6a265143864be73cfcf6d340",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e766d837c8c7efa6b8c0"
+  ],
+  "question_type": "SA",
+  "question": "If $\\vec{a}$ and $\\vec{b}$ are unit vectors and $\\theta$ is the angle between them, then prove that $$sin\\frac{\\theta}{2}=\\frac{1}{2}|\\vec{a}-\\vec{b}|.$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** We are given that $\\vec{a}$ and $\\vec{b}$ are unit vectors, which means their magnitudes are $|\\vec{a}| = 1$ and $|\\vec{b}| = 1$. The angle between them is defined as $\\theta$, so their dot product expands to $\\vec{a}\\cdot\\vec{b} = |\\vec{a}||\\vec{b}|\\cos\\theta = 1 \\cdot 1 \\cdot \\cos\\theta = \\cos\\theta$. Let's consider the squared magnitude of their difference vector, $|\\vec{a}-\\vec{b}|^2$.<br />**Step 2:** Expand the vector difference expression using dot product expansion laws: $|\\vec{a}-\\vec{b}|^2 = (\\vec{a}-\\vec{b})\\cdot(\\vec{a}-\\vec{b}) = |\\vec{a}|^2 - 2(\\vec{a}\\cdot\\vec{b}) + |\\vec{b}|^2$. Substituting our known unit values $|\\vec{a}|^2 = 1$, $|\\vec{b}|^2 = 1$, and dot product value $\\vec{a}\\cdot\\vec{b} = \\cos\\theta$ gives: $|\\vec{a}-\\vec{b}|^2 = 1 - 2\\cos\\theta + 1 = 2 - 2\\cos\\theta$.<br />**Step 3:** Factor out the number 2 to get $2(1 - \\cos\\theta)$. Now, apply the standard half-angle trigonometric identity $1 - \\cos\\theta = 2\\sin^2\\frac{\\theta}{2}$. Substituting this in results in the following expression: $|\\vec{a}-\\vec{b}|^2 = 2 \\left( 2\\sin^2\\frac{\\theta}{2} \\right) = 4\\sin^2\\frac{\\theta}{2}$.<br />**Step 4:** Take the positive square root of both sides, since half-angles in standard vector geometry fall within the range where sine is non-negative: $|\\vec{a}-\\vec{b}| = 2\\sin\\frac{\\theta}{2}$. Rearranging this equation to isolate the sine function yields $\\sin\\frac{\\theta}{2} = \\frac{1}{2}|\\vec{a}-\\vec{b}|$, which completes the proof.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1",
+    "2022-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

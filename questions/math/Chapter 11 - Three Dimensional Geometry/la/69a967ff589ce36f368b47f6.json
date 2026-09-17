@@ -1,0 +1,29 @@
+{
+  "id": "69a967ff589ce36f368b47f6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "LA",
+  "question": "Given the lines $\\vec r_1=(2\\hat i+\\hat j-\\hat k)+\\lambda(\\hat i-2\\hat j+3\\hat k)$ and $\\vec r_2=(\\hat i+2\\hat j+2\\hat k)+\\mu(2\\hat i-\\hat j+4\\hat k)$ show they are skew and find the shortest distance between them.",
+  "answeroption": "B",
+  "explanation": "Direction vectors are $(1,-2,3)$ and $(2,-1,4)$.<br /><br />They are not proportional so the lines are not parallel.<br /><br />Solving parametric equations shows they do not intersect.<br /><br />Hence the lines are skew.<br /><br />$\\vec a_2-\\vec a_1=(-1,1,3)$.<br /><br />Cross product $(\\vec b_1\\times\\vec b_2)=(-5,2,3)$.<br /><br />Magnitude $=\\sqrt{38}$.<br /><br />Scalar triple product $=16$.<br /><br />Shortest distance $=\\frac{16}{\\sqrt{38}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The lines are parallel and the shortest distance is $\\frac{16}{\\sqrt{38}}$.",
+    "B": "The direction vectors are not proportional and the lines do not intersect, so they are skew.<br />Shortest distance $=\\frac{16}{\\sqrt{38}}$.",
+    "C": "The lines intersect at $(2,1,-1)$, so the shortest distance is $0$.",
+    "D": "The lines are skew and the shortest distance is $\\frac{38}{16}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:24:47 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

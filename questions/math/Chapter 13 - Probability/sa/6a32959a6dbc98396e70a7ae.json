@@ -1,0 +1,26 @@
+{
+  "id": "6a32959a6dbc98396e70a7ae",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "SA",
+  "question": "In a city, a survey was conducted among residents about their preferred mode of commuting. It was found that 50% people preferred using public transport, 35% preferred using a bicycle and 20% use both public transport and a bicycle. If a person is selected at random, find the probability that :<br />(i) The person uses only public transport.<br />(ii) The person uses a bicycle, given that they also use the public transport.<br />(iii) The person uses neither public transport nor a bicycle.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Define events $A$ and $B$ as preferring public transport and a bicycle, respectively. The problem provides the probabilities: $P(A) = 0.50$, $P(B) = 0.35$, and $P(A \\cap B) = 0.20$.<br />**Step 2:** For part (i), find the probability of using only public transport by subtracting the joint intersection: $P(A \\cap B^{\\prime}) = P(A) - P(A \\cap B) = 0.50 - 0.20 = 0.30$.<br />**Step 3:** For part (ii), apply the standard conditional probability formula: $P(B|A) = \\frac{P(A \\cap B)}{P(A)} = \\frac{0.20}{0.50} = \\frac{2}{5} = 0.40$.<br />**Step 4:** For part (iii), find the union value: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0.50 + 0.35 - 0.20 = 0.65$. The probability of neither is the complement: $1 - 0.65 = 0.35$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

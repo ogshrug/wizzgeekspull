@@ -1,0 +1,32 @@
+{
+  "id": "6a91287a2e54880055a0a780",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "Solve graphically the linear programming problem of maximising $Z=3x+6y$ subject to $x+y\\le 8$, $x+2y\\le 10$, $x\\ge0$ and $y\\ge0$, and determine whether the maximum is attained at a unique feasible point, giving a mathematical justification for your conclusion.",
+  "answeroption": "B",
+  "explanation": "<b>Feasible Region</b><br>The boundary line $x+y=8$ has intercepts $(8,0)$ and $(0,8)$, while $x+2y=10$ has intercepts $(10,0)$ and $(0,5)$. Since both inequalities are of the type $\\le$ and $x,y\\ge0$, the feasible region is the bounded region in the first quadrant common to the corresponding half-planes.<br><br>The two oblique boundary lines intersect where $x+y=8$ and $x+2y=10$. Subtracting the first equation from the second gives $y=2$, and hence $x=6$. Therefore, the corner points are $(0,0)$, $(8,0)$, $(6,2)$ and $(0,5)$.<br><br><b>Evaluation</b><br>For $Z=3x+6y$, the corresponding values are $Z(0,0)=0$, $Z(8,0)=24$, $Z(6,2)=18+12=30$, and $Z(0,5)=30$. Thus, the same maximum value 30 occurs at the two adjacent corner points $(6,2)$ and $(0,5)$.<br><br>These two points lie on the boundary segment $x+2y=10$. Since $Z=3x+6y=3(x+2y)$, every point on this segment satisfies $Z=3(10)=30$. Hence the maximum is not attained at a unique point; every feasible point on the line segment joining $(6,2)$ and $(0,5)$ is optimal.<br><br><b>Final Result</b><br>The maximum value is $Z=30$, and there are infinitely many optimal feasible solutions on the line segment joining $(6,2)$ and $(0,5)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximum $Z=30$ only at $(6,2)$",
+    "B": "Maximum $Z=30$ at every feasible point on the segment joining $(6,2)$ and $(0,5)$; hence the optimum is not unique",
+    "C": "Maximum $Z=24$ at $(8,0)$; hence the optimum is unique",
+    "D": "Maximum $Z=30$ only at $(0,5)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

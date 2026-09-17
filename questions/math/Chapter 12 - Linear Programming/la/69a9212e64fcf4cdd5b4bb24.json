@@ -1,0 +1,29 @@
+{
+  "id": "69a9212e64fcf4cdd5b4bb24",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "A small industry produces two types of bags. Each type I bag requires 4 hours of cutting and 2 hours of sewing. Each type II bag requires 2 hours of cutting and 5 hours of sewing. Every day, at most 40 hours of cutting and 35 hours of sewing are available. Type I brings profit of Rs 60 per bag, type II Rs 90. How many bags should be made of each type for maximum profit? Write LPP, graph, and solve.",
+  "answeroption": "C",
+  "explanation": "Let $x$ = number of type I bags, $y$ = number of type II bags.<br /><br />Cutting constraint: $4x+2y\\leq40$.<br /><br />Sewing constraint: $2x+5y\\leq35$.<br /><br />Objective function: $Z=60x+90y$.<br /><br />Non-negativity: $x\\geq0, y\\geq0$.<br /><br />First constraint: $4x+2y=40\\implies2x+y=20\\implies y=20-2x$.<br /><br />Second constraint: $2x+5y=35\\implies y=(35-2x)/5$.<br /><br />Set equal: $20-2x=(35-2x)/5$.<br /><br />$5(20-2x)=35-2x\\implies100-10x=35-2x\\implies8x=65\\implies x=8.125$.<br /><br />$y=20-2×8.125=3.75$.<br /><br />Points: $(8.125,3.75)$, $(0,7)$, $(10,0)$.<br /><br />Evaluate $Z$.<br /><br />At $(0,7): 90×7=630$.<br /><br />At $(10,0): 60×10=600$.<br /><br />At $(8.125,3.75): 60×8.125+90×3.75=487.5+337.5=825$.<br /><br />Maximum profit Rs 825 at $(8.125,3.75)$. Approximately 8 type I bags and 4 type II bags.",
+  "explanation_image": [],
+  "options": {
+    "A": "Make 0 type I bags and 7 type II bags; maximum profit Rs 630.",
+    "B": "Make 10 type I bags and 0 type II bags; maximum profit Rs 600.",
+    "C": "Make 8.125 type I bags and 3.75 type II bags; maximum profit Rs 825.",
+    "D": "Make 8 type I bags and 4 type II bags; maximum profit Rs 840."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:22:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

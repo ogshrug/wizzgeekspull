@@ -1,0 +1,35 @@
+{
+  "id": "6a91338a2e54880055a0a789",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8de",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "Solve graphically the linear programming problem of maximising $Z=4x+5y$ subject to the constraints $2x+y\\le14$, $x+3y\\le15$, $x+y\\le8$, $x\\ge0$ and $y\\ge0$. Determine the bounded feasible region and hence obtain the optimal feasible solution and the maximum value of $Z$.",
+  "answeroption": "B",
+  "explanation": "<b>Graphical Representation</b><br>The boundary lines are $2x+y=14$, $x+3y=15$ and $x+y=8$, together with the coordinate axes. Since all three main inequalities are of the type $\\le$, the required half-planes contain the origin. Their common part in the first quadrant forms the feasible region.<br><br>The line $2x+y=14$ meets the $x$-axis at $(7,0)$. Solving $2x+y=14$ and $x+y=8$, subtraction gives $x=6$ and hence $y=2$, giving the point $(6,2)$. Solving $x+y=8$ and $x+3y=15$ gives $2y=7$, so $y=\\frac{7}{2}$ and $x=\\frac{9}{2}$. The line $x+3y=15$ meets the $y$-axis at $(0,5)$. Therefore, the corner points of the feasible region are $(0,0)$, $(7,0)$, $(6,2)$, $\\left(\\frac{9}{2},\\frac{7}{2}\\right)$ and $(0,5)$. The region is enclosed by finite line segments and is therefore bounded.<br><br><b>Evaluation of the Objective Function</b><br>At $(0,0)$, $Z=0$. At $(7,0)$, $Z=28$. At $(6,2)$, $Z=4(6)+5(2)=34$. At $\\left(\\frac{9}{2},\\frac{7}{2}\\right)$, $$Z=4\\left(\\frac{9}{2}\\right)+5\\left(\\frac{7}{2}\\right)=18+\\frac{35}{2}=\\frac{71}{2}.$$ At $(0,5)$, $Z=25$.<br><br><b>Final Result</b><br>The largest value is $\\frac{71}{2}$, attained at the feasible point $\\left(\\frac{9}{2},\\frac{7}{2}\\right)$. Hence the optimal feasible solution is $\\left(\\frac{9}{2},\\frac{7}{2}\\right)$ and the maximum value of $Z$ is $\\frac{71}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The feasible region is bounded with corner points $(0,0)$, $(7,0)$, $(6,2)$, $(4,4)$ and $(0,5)$; maximum $Z=36$ at $(4,4)$",
+    "B": "The feasible region is bounded with corner points $(0,0)$, $(7,0)$, $(6,2)$, $\\left(\\frac{9}{2},\\frac{7}{2}\\right)$ and $(0,5)$; maximum $Z=\\frac{71}{2}$ at $\\left(\\frac{9}{2},\\frac{7}{2}\\right)$",
+    "C": "The feasible region is unbounded; maximum $Z=34$ at $(6,2)$",
+    "D": "The feasible region is bounded; maximum $Z=28$ at $(7,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8f18c1be0ecc7866e90c2c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f993"
+  ],
+  "question_type": "SA",
+  "question": "The curve $x=3y-y^2$ and the y-axis enclose a region between $y=0$ and $y=3$. Calculate its area using horizontal strips.",
+  "answeroption": "C",
+  "explanation": "Step 1: Identifying the horizontal boundaries For $0\\leq y\\leq3$, $3y-y^2=y(3-y)$ is non-negative. Therefore, the curve lies to the right of the y-axis. Step 2: Forming the horizontal-strip integral The right boundary is $x=3y-y^2$, and the left boundary is $x=0$. Hence, $A=\\int_0^3(3y-y^2)\\,dy$. Step 3: Evaluating the integral $A=\\left[\\frac{3y^2}{2}-\\frac{y^3}{3}\\right]_0^3$. Step 4: Simplifying the result $A=\\frac{27}{2}-9=\\frac{9}{2}$. Final Answer The area between the curve and the y-axis is $\\frac{9}{2}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{27}{2}$ square units",
+    "B": "$9$ square units",
+    "C": "$\\frac{9}{2}$ square units",
+    "D": "$\\frac{3}{2}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

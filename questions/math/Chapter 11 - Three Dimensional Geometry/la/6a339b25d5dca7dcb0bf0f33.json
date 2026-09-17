@@ -1,0 +1,26 @@
+{
+  "id": "6a339b25d5dca7dcb0bf0f33",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Equations of sides of a parallelogram ABCD are as follows: AB: $\\frac{x+1}{1}=\\frac{y-2}{-2}=\\frac{z-1}{2}$, BC: $\\frac{x-1}{3}=\\frac{y+2}{-5}=\\frac{z-5}{3}$, CD: $\\frac{x-4}{1}=\\frac{y+7}{-2}=\\frac{z-8}{2}$, DA: $\\frac{x-2}{3}=\\frac{y+3}{-5}=\\frac{z-4}{3}$. Find the equation of diagonal BD.",
+  "answeroption": "",
+  "explanation": "**Step 1: Find Point B (Intersection of AB and BC)**  \nParametric form of AB: $x = \\lambda - 1$, $y = -2\\lambda + 2$, $z = 2\\lambda + 1$.  \nParametric form of BC: $x = 3\\mu + 1$, $y = -5\\mu - 2$, $z = 3\\mu + 5$.  \nEquating coordinates:  \n$\\lambda - 1 = 3\\mu + 1 \\Rightarrow \\lambda - 3\\mu = 2$  \n$-2\\lambda + 2 = -5\\mu - 2 \\Rightarrow 2\\lambda - 5\\mu = 4$  \nSolving gives $\\lambda = 2$, $\\mu = 0$.  \nSubstitute $\\lambda = 2$ in AB: $B(1, -2, 5)$.\n\n**Step 2: Find Point D (Intersection of CD and DA)**  \nParametric form of CD: $x = \\alpha + 4$, $y = -2\\alpha - 7$, $z = 2\\alpha + 8$.  \nParametric form of DA: $x = 3\\beta + 2$, $y = -5\\beta - 3$, $z = 3\\beta + 4$.  \nEquating coordinates:  \n$\\alpha + 4 = 3\\beta + 2 \\Rightarrow \\alpha - 3\\beta = -2$  \n$-2\\alpha - 7 = -5\\beta - 3 \\Rightarrow 2\\alpha - 5\\beta = -4$  \nSolving gives $\\alpha = -2$, $\\beta = 0$.  \nSubstitute $\\alpha = -2$ in CD: $D(2, -3, 4)$.\n\n**Step 3: Equation of Diagonal BD**  \nDirection ratios of BD: $(2-1, -3-(-2), 4-5) = (1, -1, -1)$.  \nEquation of BD passing through $B(1, -2, 5)$:  \n$$\\frac{x-1}{1} = \\frac{y+2}{-1} = \\frac{z-5}{-1}$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

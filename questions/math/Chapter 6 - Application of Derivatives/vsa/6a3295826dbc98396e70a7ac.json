@@ -1,0 +1,26 @@
+{
+  "id": "6a3295826dbc98396e70a7ac",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "VSA",
+  "question": "A cylindrical water container has developed a leak at the bottom. The water is leaking at the rate of $5~cm^{3}/s$ from the leak. If the radius of the container is 15 cm, find the rate at which the height of water is decreasing inside the container, when the height of water is 2 metres.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The standard formula for the volume of a geometric cylinder is given by $V = \\pi r^2 h$. Since the cylindrical walls are rigid, the radius is constant at $r = 15\\text{ cm}$. This simplifies the volume function to $V = 225\\pi h$.<br />**Step 2:** Differentiate the volume equation with respect to time $t$ to relate the structural rates of change: $\\frac{dV}{dt} = 225\\pi \\frac{dh}{dt}$.<br />**Step 3:** Substitute the given fluid leakage volume flow rate $\\frac{dV}{dt} = -5\\text{ cm}^3/s$ into the derivative formula: $-5 = 225\\pi \\frac{dh}{dt} \\implies \\frac{dh}{dt} = -\\frac{5}{225\\pi} = -\\frac{1}{45\\pi}\\text{ cm/s}$. Thus, the height decreases at a constant rate of $\\frac{1}{45\\pi}\\text{ cm/s}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

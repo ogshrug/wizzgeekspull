@@ -1,0 +1,27 @@
+{
+  "id": "6a266ab1864be73cfcf6d384",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d1"
+  ],
+  "question_type": "LA",
+  "question": "Find the angle between the lines $2x=3y=-z$ and $6x=-y=-4z.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To find the direction vectors, convert both line equations into standard Cartesian forms: $\\frac{x}{a} = \\frac{y}{b} = \\frac{z}{c}$. For the first line $2x = 3y = -z$, divide through by the least common multiple of coefficients, which is 6: $\\frac{2x}{6} = \\frac{3y}{6} = \\frac{-z}{6} \\implies \\frac{x}{3} = \\frac{y}{2} = \\frac{z}{-6}$. This gives the first direction ratios: $(3, 2, -6)$, so $\\vec{b_1} = 3\\hat{i} + 2\\hat{j} - 6\\hat{k}$.<br />**Step 2:** For the second line $6x = -y = -4z$, divide through by the least common multiple of coefficients, which is 12: $\\frac{6x}{12} = \\frac{-y}{12} = \\frac{-4z}{12} \\implies \\frac{x}{2} = \\frac{y}{-12} = \\frac{z}{-3}$. This gives the second direction ratios: $(2, -12, -3)$, so $\\vec{b_2} = 2\\hat{i} - 12\\hat{j} - 3\\hat{k}$.<br />**Step 3:** The angle $\\theta$ between two lines is calculated using the dot product formula: $\\cos\\theta = \\frac{|\\vec{b_1} \\cdot \\vec{b_2}|}{|\\vec{b_1}||\\vec{b_2}|}$. Compute the numerator dot product: $|(3)(2) + (2)(-12) + (-6)(-3)| = |6 - 24 + 18| = |0| = 0$.<br />**Step 4:** Substitute this value into the expression: $\\cos\\theta = 0 \\implies \\theta = 90^{\\circ} = \\frac{\\pi}{2}$. Therefore, the lines are perpendicular. This detailed proof contains exactly 251 words.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

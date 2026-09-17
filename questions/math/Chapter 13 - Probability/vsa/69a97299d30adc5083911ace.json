@@ -1,0 +1,30 @@
+{
+  "id": "69a97299d30adc5083911ace",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "VSA",
+  "question": "In a multiple-choice test with 5 questions, each having 4 options, what is the probability that a student guesses exactly 3 answers correctly?",
+  "answeroption": "A",
+  "explanation": "Probability of guessing correctly: $1/4$. Incorrect: $3/4$.<br />Number of questions $n=5$, number correct $k=3$.<br /><br />$P = {5\\choose 3}(1/4)^3(3/4)^{2} = 10 \\times 1/64 \\times 9/16 = 10 \\times 9/(64 \\times 16) = 90/1024 = 45/512$<br /><br />Final answer: $\\boxed{\\dfrac{45}{512}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{45}{512}$",
+    "B": "$\\frac{90}{512}$",
+    "C": "$\\frac{45}{1024}$",
+    "D": "$\\frac{27}{512}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:10:01 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

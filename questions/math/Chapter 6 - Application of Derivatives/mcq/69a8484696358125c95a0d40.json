@@ -1,0 +1,30 @@
+{
+  "id": "69a8484696358125c95a0d40",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f979",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "MCQ",
+  "question": "If the function $f(x)=x^3+ax^2+bx+c$ attains both a local maximum and a local minimum and $f'(0)=2$, then which of the following could be a possible value of $a$?",
+  "answeroption": "D",
+  "explanation": "First differentiate:<br /><br />$f'(x)=3x^2+2ax+b$<br /><br />Given $f'(0)=2 \\Rightarrow b=2$.<br /><br />For both local maximum and minimum, the quadratic $3x^2+2ax+2=0$ must have two distinct real roots.<br /><br />So discriminant $\\geq 0$:<br /><br />$(2a)^2 - 4(3)(2) \\geq 0$<br /><br />$4a^2 - 24 \\geq 0$<br /><br />$a^2 \\geq 6$<br /><br />Checking options:<br /><br />For $a=-4$, $a^2=16>6$ (satisfies condition).<br /><br />Hence, $a=-4$ is possible.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2$",
+    "B": "$0$",
+    "C": "$-2$",
+    "D": "$-4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 14:57:10 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:30:50 GMT"
+}

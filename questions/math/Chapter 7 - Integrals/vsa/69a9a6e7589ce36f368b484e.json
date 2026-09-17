@@ -1,0 +1,29 @@
+{
+  "id": "69a9a6e7589ce36f368b484e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate $\\int x^2 e^{3x}dx$.",
+  "answeroption": "A",
+  "explanation": "Use integration by parts twice.<br /><br />Let $u=x^2$, $dv=e^{3x}dx$. Then $du=2x dx$, $v=\\frac{1}{3}e^{3x}$.<br /><br />Substitute and repeat integration by parts for $\\int xe^{3x}dx$.<br /><br />After simplification the result becomes:<br /><br />$\\frac{e^{3x}}{27}(9x^2-6x+2)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{e^{3x}}{27}(9x^2-6x+2)+C$",
+    "B": "$\\frac{e^{3x}}{9}(9x^2-6x+2)+C$",
+    "C": "$\\frac{e^{3x}}{27}(9x^2+6x+2)+C$",
+    "D": "$\\frac{e^{3x}}{27}(9x^2-6x-2)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:53:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

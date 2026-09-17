@@ -1,0 +1,29 @@
+{
+  "id": "69a988986638848124d7c957",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "VSA",
+  "question": "Suppose $*$ is a binary operation on $\\mathbb{R}$ defined by $a*b = ab - a - b + 2$. Does there exist an identity element? If yes, specify it.",
+  "answeroption": "C",
+  "explanation": "Suppose identity element is $e$. For all $a \\in \\mathbb{R}$,<br /><br />$a * e = a \\implies a e - a - e + 2 = a$<br /><br />$\\implies a e - e + 2 = 2a$<br /><br />$\\implies (a-1)e = 2(a-1)$<br /><br />$\\implies (a-1)(e-2) = 0$<br /><br />For this to hold for all $a \\in \\mathbb{R}$, we must have $e-2 = 0$<br /><br />$\\implies e = 2$<br /><br />Check: $a * 2 = a(2) - a - 2 + 2 = 2a - a = a$<br /><br />$2 * a = 2(a) - 2 - a + 2 = 2a - a = a$<br /><br />Yes, identity element exists and is $e = 2$",
+  "explanation_image": [],
+  "options": {
+    "A": "No, identity element does not exist",
+    "B": "Yes, identity element exists and is $e=1$",
+    "C": "Yes, identity element exists and is $e=2$",
+    "D": "Yes, identity element exists and is $e=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:43:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

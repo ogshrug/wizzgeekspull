@@ -1,0 +1,31 @@
+{
+  "id": "69a981116638848124d7c93c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43",
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\{1, 2, 3, 4\\}$ and $R$ be a relation on $A$ defined by $R = \\{(a, b) : a \\leq b\\}$. Represent $R$ as a digraph. Is $R$ an equivalence relation? Justify your answer and find the total number of relations on $A$ that are reflexive and transitive.",
+  "answeroption": "A",
+  "explanation": "First, $R$ consists of all $(a,b)$ with $a \\leq b$:<br /><br />$(1,1)$, $(1,2)$, $(1,3)$, $(1,4)$, $(2,2)$, $(2,3)$, $(2,4)$, $(3,3)$, $(3,4)$, $(4,4)$.<br /><br />Draw a digraph with directed edges from $a$ to $b$ if $a \\leq b$.<br /><br />- Loops at all vertices (reflexive), arrows from a node to higher or same number.<br /><br />Test for equivalence relation:<br /><br />- Reflexive: All $(a,a)$ are present => Yes.<br /><br />- Symmetric: $(a,b) \\in R$ and $a \\neq b$ implies $b>a$, so $(b,a)\\notin R$. Not symmetric.<br /><br />- Transitive: If $(a,b), (b,c) \\in R$ then $a \\leq b$ and $b\\leq c \\implies a \\leq c$ so $(a,c)\\in R$. Yes.<br /><br />So, $R$ is reflexive and transitive but not symmetric => Not equivalence relation.<br /><br />Number of reflexive and transitive relations on $A$: For $n$-element set, counted by Dedekind numbers (no elementary formula).<br /><br />For $n=4$, Dedekind number $= 168$ (number of such relations is $168$).",
+  "explanation_image": [],
+  "options": {
+    "A": "Digraph has loops at $1,2,3,4$ and arrows from each element to every greater element: $(1,2),(1,3),(1,4),(2,3),(2,4),(3,4)$.<br />$R$ is reflexive and transitive but not symmetric, so it is not an equivalence relation.<br />The total number of reflexive and transitive relations on $A$ is $168$.",
+    "B": "Digraph has only loops at $1,2,3,4$.<br />$R$ is reflexive, symmetric and transitive, so it is an equivalence relation.<br />The total number of reflexive and transitive relations on $A$ is $16$.",
+    "C": "Digraph has arrows both ways between every pair of distinct elements.<br />$R$ is symmetric but not reflexive, so it is not an equivalence relation.<br />The total number of reflexive and transitive relations on $A$ is $64$.",
+    "D": "Digraph has arrows only from greater elements to smaller elements.<br />$R$ is transitive but neither reflexive nor symmetric, so it is not an equivalence relation.<br />The total number of reflexive and transitive relations on $A$ is $256$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:11:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

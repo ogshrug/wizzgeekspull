@@ -1,0 +1,30 @@
+{
+  "id": "69a968d7d30adc5083911ab3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 7: Lottery Drawing**<br />A lottery has 100 tickets, with 10 prizes and 90 non-prizes.<br />A person buys 5 tickets at random.<br /><br />(a) What is the probability that at least one ticket wins a prize?<br />(b) What is the probability that exactly one ticket wins a prize?<br />(c) If the person knows that the first ticket is not a winner, what is the probability that at least one of the other 4 tickets is a winner?",
+  "answeroption": "A",
+  "explanation": "Let X = number of winning tickets out of 5 drawn.<br />Total probability at least 1 = $1 - P(0\\ wins)$<br /><br />(a) $P(0\\ wins) = \\frac{\\binom{90}{5}}{\\binom{100}{5}}$<br />$P(\\ge 1\\ win) = 1 - \\frac{\\binom{90}{5}}{\\binom{100}{5}}$<br /><br />So $\\binom{90}{5} = \\frac{90\\times89\\times88\\times87\\times86}{120}$,<br />$\\binom{100}{5} = \\frac{100\\times99\\times98\\times97\\times96}{120}$<br /><br />Simplifies, but answer can be left as above.<br /><br />(b) $P(1\\ win) = \\frac{\\binom{10}{1}\\binom{90}{4}}{\\binom{100}{5}}$<br />$=\\frac{10\\times \\binom{90}{4}}{\\binom{100}{5}}$<br /><br />(c) Condition: first ticket non-winner. So select 4 from 99 tickets (of which 10 are prizes).<br />Probability at least one of 4 is a winner:<br />$=1-\\frac{\\binom{89}{4}}{\\binom{99}{4}}$<br /><br />Answers:<br />(a) $1-\\frac{\\binom{90}{5}}{\\binom{100}{5}}$<br />(b) $\\frac{10\\times \\binom{90}{4}}{\\binom{100}{5}}$<br />(c) $1-\\frac{\\binom{89}{4}}{\\binom{99}{4}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $1-\\frac{\\binom{90}{5}}{\\binom{100}{5}}$<br />(b) $\\frac{\\binom{10}{1}\\binom{90}{4}}{\\binom{100}{5}}$<br />(c) $1-\\frac{\\binom{89}{4}}{\\binom{99}{4}}$",
+    "B": "(a) $\\frac{\\binom{10}{5}}{\\binom{100}{5}}$<br />(b) $\\frac{\\binom{10}{1}\\binom{90}{4}}{\\binom{100}{5}}$<br />(c) $1-\\frac{\\binom{90}{4}}{\\binom{99}{4}}$",
+    "C": "(a) $1-\\frac{\\binom{90}{5}}{\\binom{100}{5}}$<br />(b) $\\frac{10}{100}$<br />(c) $\\frac{10}{99}$",
+    "D": "(a) $\\frac{\\binom{90}{5}}{\\binom{100}{5}}$<br />(b) $\\frac{\\binom{90}{1}\\binom{10}{4}}{\\binom{100}{5}}$<br />(c) $\\frac{\\binom{89}{4}}{\\binom{99}{4}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:28:23 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

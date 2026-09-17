@@ -1,0 +1,25 @@
+{
+  "id": "6a15882b6050c058f876e4eb",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f996"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, find the area of the region bounded by the curve $y=\\sqrt{4-x^{2}}$ the lines $x=-\\sqrt{2}$ and $x=\\sqrt{3}$ and the x-axis.",
+  "answeroption": "",
+  "explanation": "**Step 1: Set up the definite area integral**<br />The area bounded by the function $y = \\sqrt{4-x^2}$ and the horizontal axis within the vertical lines $x = -\\sqrt{2}$ and $x = \\sqrt{3}$ can be calculated using a standard definite integral:<br />$\\text{Area} = \\int_{-\\sqrt{2}}^{\\sqrt{3}} \\sqrt{4-x^2} \\, dx$<br /><br />**Step 2: Apply standard integration formulas**<br />This matches the standard integral circle equation form $\\int \\sqrt{a^2 - x^2} \\, dx = \\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2}\\sin^{-1}\\left(\\frac{x}{a}\\right)$. Here $a^2 = 4$, which means $a = 2$. Applying this gives:<br />$\\text{Area} = \\left[ \\frac{x}{2}\\sqrt{4-x^2} + 2\\sin^{-1}\\left(\\frac{x}{2}\\right) \\right]_{-\\sqrt{2}}^{\\sqrt{3}}$<br /><br />**Step 3: Evaluate at the upper integration limit ($x = \\sqrt{3}$)**<br />$\\text{Upper Value} = \\frac{\\sqrt{3}}{2}\\sqrt{4-(\\sqrt{3})^2} + 2\\sin^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right) = \\frac{\\sqrt{3}}{2}\\sqrt{4-3} + 2\\left(\\frac{\\pi}{3}\\right) = \\frac{\\sqrt{3}}{2} + \\frac{2\\pi}{3}$<br /><br />**Step 4: Evaluate at the lower integration limit ($x = -\\sqrt{2}$)**<br />$\\text{Lower Value} = \\frac{-\\sqrt{2}}{2}\\sqrt{4-(-\\sqrt{2})^2} + 2\\sin^{-1}\\left(\\frac{-\\sqrt{2}}{2}\\right) = -\\frac{\\sqrt{2}}{2}\\sqrt{4-2} + 2\\left(-\\frac{\\pi}{4}\\right)$<br />$= -\\frac{\\sqrt{2}}{2}\\sqrt{2} - \\frac{\\pi}{2} = -\\frac{2}{2} - \\frac{\\pi}{2} = -1 - \\frac{\\pi}{2}$<br /><br />**Step 5: Subtract the lower limit from the upper limit to find total area**<br />$\\text{Total Area} = \\text{Upper Value} - \\text{Lower Value} = \\left( \\frac{\\sqrt{3}}{2} + \\frac{2\\pi}{3} \\right) - \\left( -1 - \\frac{\\pi}{2} \\right)$<br />$\\text{Total Area} = \\frac{\\sqrt{3}}{2} + \\frac{2\\pi}{3} + 1 + \\frac{\\pi}{2} = 1 + \\frac{\\sqrt{3}}{2} + \\left( \\frac{4\\pi + 3\\pi}{6} \\right) = 1 + \\frac{\\sqrt{3}}{2} + \\frac{7\\pi}{6}\\text{ square units}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

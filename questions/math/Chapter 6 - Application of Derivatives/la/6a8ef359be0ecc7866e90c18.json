@@ -1,0 +1,33 @@
+{
+  "id": "6a8ef359be0ecc7866e90c18",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "LA",
+  "question": "A manufacturer can sell $x$ units of a product at a price of $₹(120-2x)$ per unit, while the total production cost is $₹(20x+100)$. Form the profit function, determine the production level that maximises profit using derivatives, and interpret the instantaneous rate of change of profit at the optimal production level.",
+  "answeroption": "D",
+  "explanation": "<b>Formation of Profit Function</b><br>The revenue from selling $x$ units is<br>$$R(x)=x(120-2x)=120x-2x^2$$<br>The cost is<br>$$C(x)=20x+100$$<br>Therefore, the profit is<br>$$P(x)=R(x)-C(x)$$<br>$$P(x)=100x-2x^2-100$$<br><br><b>Maximum Profit</b><br>The instantaneous rate of change of profit is<br>$$P'(x)=100-4x$$<br>For maximum profit,<br>$$100-4x=0$$<br>$$x=25$$<br>Also,<br>$$P''(x)=-4<0$$<br>Therefore, by the second derivative test, profit is maximum when $25$ units are produced and sold.<br><br><b>Evaluation and Interpretation</b><br>The maximum profit is<br>$$P(25)=100(25)-2(25)^2-100$$<br>$$P(25)=2500-1250-100=1150$$<br>At the optimal level,<br>$$P'(25)=0$$<br>Thus, the instantaneous rate of change of profit is zero at $25$ units, indicating that a small change in production near this level produces no first-order increase in profit. The maximum profit is $₹1150$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Profit $P(x)=120x-2x^2-100$; maximum at $x=30$; maximum profit ₹$1700$; $P'(30)=0$",
+    "B": "Profit $P(x)=100x-x^2-100$; maximum at $x=50$; maximum profit ₹$2400$; $P'(50)=0$",
+    "C": "Profit $P(x)=80x-2x^2-100$; maximum at $x=20$; maximum profit ₹$700$; $P'(20)=0$",
+    "D": "Profit $P(x)=100x-2x^2-100$; maximum at $x=25$; maximum profit ₹$1150$; $P'(25)=0$, so the instantaneous profit rate is zero at the optimum"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

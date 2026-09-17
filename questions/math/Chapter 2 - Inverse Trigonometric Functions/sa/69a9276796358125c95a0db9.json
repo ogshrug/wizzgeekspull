@@ -1,0 +1,29 @@
+{
+  "id": "69a9276796358125c95a0db9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Simplify $\\tan^{-1}\\left(\\frac{x}{\\sqrt{1-x^2}}\\right) + \\tan^{-1}\\left(\\frac{-x}{\\sqrt{1-x^2}}\\right)$ for $|x| < 1$.",
+  "answeroption": "B",
+  "explanation": "Let $A = \\tan^{-1}\\left(\\frac{x}{\\sqrt{1-x^2}}\\right)$ and $B = \\tan^{-1}\\left(\\frac{-x}{\\sqrt{1-x^2}}\\right)$.<br /><br />Using identity $\\tan^{-1}(-y) = -\\tan^{-1}(y)$.<br /><br />Thus $B = -A$.<br /><br />Therefore $A + B = 0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$0$",
+    "C": "$\\frac{\\pi}{2}$",
+    "D": "$-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:49:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

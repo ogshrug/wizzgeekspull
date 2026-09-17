@@ -1,0 +1,26 @@
+{
+  "id": "6a326585d5dca7dcb0bf0eb1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "SA",
+  "question": "Find the coordinates of the foot of the perpendicular drawn from point (5, 7, 3) to the line $\\frac{x-15}{3}=\\frac{y-29}{8}=\\frac{z-5}{-5}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let a general point Q on the given line be $(3\\lambda+15, 8\\lambda+29, -5\\lambda+5)$.\n\n**Step 2:** Let P be $(5, 7, 3)$. Find the direction vector of PQ: $\\vec{PQ} = ((3\\lambda+15)-5)\\hat{i} + ((8\\lambda+29)-7)\\hat{j} + ((-5\\lambda+5)-3)\\hat{k} = (3\\lambda+10)\\hat{i} + (8\\lambda+22)\\hat{j} + (-5\\lambda+2)\\hat{k}$.\n\n**Step 3:** Since PQ is perpendicular to the line, the dot product of $\\vec{PQ}$ and the line's direction vector $(3\\hat{i} + 8\\hat{j} - 5\\hat{k})$ is zero: $3(3\\lambda+10) + 8(8\\lambda+22) - 5(-5\\lambda+2) = 0$.\n\n**Step 4:** Solve for $\\lambda$: $9\\lambda + 30 + 64\\lambda + 176 + 25\\lambda - 10 = 0 \\Rightarrow 98\\lambda + 196 = 0 \\Rightarrow \\lambda = -2$.\n\n**Step 5:** Substitute $\\lambda = -2$ back into point Q to get the coordinates: $(3(-2)+15, 8(-2)+29, -5(-2)+5) = (9, 13, 15)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

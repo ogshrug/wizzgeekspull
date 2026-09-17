@@ -1,0 +1,30 @@
+{
+  "id": "69aa7f872a66c0f894c1aa24",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e9908c819562f933f987",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = x^3 - 6x^2 + 11x - 6$, and let $y = f(x)$. Define $y' = f'(x)$ and $y'' = f''(x)$. \n(a) Find and classify the critical points using $y'$ and $y''$.\n(b) Determine where the function is concave up/down.\n(c) Compute $\\displaystyle \\int_{1}^{3} (f(x))^2 dx$ using expansion and integration.\n(d) For $x$ where $f(x) = 0$, form a $3 \\times 3$ diagonal matrix whose diagonal entries are these $x$-values and compute its determinant.",
+  "answeroption": "A",
+  "explanation": "**Concepts Tested:** Application of Derivatives, Application of Integrals, Matrices, Determinants, Analysis<br /><br />(a) Find $y'= 3x^2 - 12x + 11$. Critical points: set $y'=0$:<br />$3x^2 - 12x + 11=0$<br />$x = \\frac{12 \\pm \\sqrt{144 - 132}}{6} = \\frac{12 \\pm \\sqrt{12}}{6} = 2 \\pm \\frac{\\sqrt{3}}{3}$<br /><br />Check $y''$ at these points: $y''=6x-12$<br />At $x=2 + \\sqrt{3}/3$, $y''=6(2+\\sqrt{3}/3)-12 = 12 + 2\\sqrt{3} - 12 = 2\\sqrt{3}>0$: local min.<br />At $x=2 - \\sqrt{3}/3$, $y''=12 - 2\\sqrt{3} -12 = -2\\sqrt{3}<0$: local max.<br /><br />(b) Concave up when $y''>0$: $x>2$. Down when $x<2$.<br /><br />(c) Expand $f(x)^2$ and integrate from $x=1$ to $x=3$:<br />Expand: $f(x) = (x-1)(x-2)(x-3)$. Square: $[(x-1)(x-2)(x-3)]^2$. Let $g(x) = (x-1)^2(x-2)^2(x-3)^2$. Integrate $g(x)$ from $1$ to $3$. Since $g(x)$ is zero at the endpoints and positive in between, can be done by expanding and integrating termwise.<br /><br />(d) Roots: Solve $f(x) = 0$: $x=1,2,3$. Form $D = \\operatorname{diag}(1,2,3)$. $|D| = 1\\times 2\\times 3 = 6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Critical points are $x=2\\pm\\frac{\\sqrt3}{3}$; $x=2-\\frac{\\sqrt3}{3}$ is a local maximum and $x=2+\\frac{\\sqrt3}{3}$ is a local minimum<br />(b) Concave down for $x<2$ and concave up for $x>2$<br />(c) $\\int_1^3(f(x))^2dx$ is obtained by expanding $[(x-1)(x-2)(x-3)]^2$ and integrating termwise<br />(d) Roots are $1,2,3$, so the diagonal matrix has determinant $6$",
+    "B": "(a) Critical points are $1,2,3$<br />(b) Concave up everywhere<br />(c) Integral is $0$<br />(d) Determinant is $0$",
+    "C": "(a) Critical point only at $x=2$<br />(b) Concave down everywhere<br />(c) Integral is $6$<br />(d) Determinant is $1$",
+    "D": "(a) No critical point exists<br />(b) No concavity change occurs<br />(c) Integral is undefined<br />(d) No roots exist"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:17:27 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8eb24b4b490c7cde35944d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78",
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "Let $f(x)=ax+b$ for $x\\leq1$ and $f(x)=x^2+c$ for $x>1$. If $f$ is differentiable at $x=1$ and $f(0)=2$, find $a+b+c$.",
+  "answeroption": "C",
+  "explanation": "Step 1: From $f(0)=2$ and the first branch, $a(0)+b=2$, so $b=2$.<br>Step 2: For differentiability at $x=1$, the left-hand and right-hand derivatives must be equal. The derivative of $ax+b$ is $a$, while the derivative of $x^2+c$ is $2x$.<br>Step 3: At $x=1$, derivative equality gives $a=2$.<br>Step 4: Differentiability also implies continuity at $x=1$. Hence $a+b=1+c$.<br>Step 5: Substituting $a=2$ and $b=2$ gives $4=1+c$, so $c=3$.<br>Step 6: Therefore, $a+b+c=2+2+3=\\boxed{7}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$5$",
+    "B": "$6$",
+    "C": "$7$",
+    "D": "$8$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

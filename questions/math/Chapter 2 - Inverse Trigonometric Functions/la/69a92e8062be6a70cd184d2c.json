@@ -1,0 +1,29 @@
+{
+  "id": "69a92e8062be6a70cd184d2c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "If $(\\tan^{-1}x)^2 + (\\cot^{-1}x)^2 = \\frac{5\\pi^2}{8}$, then find $x$.",
+  "answeroption": "B",
+  "explanation": "Let $\\tan^{-1}x=t$.<br /><br />Then $\\cot^{-1}x=\\frac{\\pi}{2}-t$.<br /><br />Substitute in the equation:<br /><br />$t^2 + (\\frac{\\pi}{2}-t)^2 = \\frac{5\\pi^2}{8}$.<br /><br />Expanding:<br /><br />$t^2 + \\frac{\\pi^2}{4} - \\pi t + t^2 = \\frac{5\\pi^2}{8}$.<br /><br />$2t^2 - \\pi t + \\frac{\\pi^2}{4} = \\frac{5\\pi^2}{8}$.<br /><br />Multiplying by 8:<br /><br />$16t^2 - 8\\pi t - 3\\pi^2 =0$.<br /><br />Let $u=\\frac{t}{\\pi}$. Then $16u^2-8u-3=0$.<br /><br />Solving gives $u=\\frac34$ or $u=-\\frac14$.<br /><br />Thus $t=\\frac{3\\pi}{4}$ or $t=-\\frac{\\pi}{4}$.<br /><br />But range of $\\tan^{-1}x$ is $(-\\frac{\\pi}{2},\\frac{\\pi}{2})$.<br /><br />Hence $t=-\\frac{\\pi}{4}$.<br /><br />Therefore $x=\\tan(-\\frac{\\pi}{4})=-1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=1$",
+    "B": "$x=-1$",
+    "C": "$x=0$",
+    "D": "$x=\\sqrt{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:19:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

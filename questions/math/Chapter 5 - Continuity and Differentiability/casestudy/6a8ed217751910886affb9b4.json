@@ -1,0 +1,30 @@
+{
+  "id": "6a8ed217751910886affb9b4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d85",
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a classroom investigation of parametric representation, students study two variables connected through a third variable $t$. They are given $$x=2at^2,\\quad y=at^4,$$ where $a>0$ is a constant and $t>0$ is the parameter. Instead of eliminating $t$ immediately, the students use the derivatives of $x$ and $y$ with respect to the parameter to determine the rate of change of $y$ with respect to $x$. They then examine the derivative at a particular point specified through its $x$-coordinate.<br><br><b>(a)</b> Determine the point $(x,y)$ corresponding to $t=1$.<br><br><b>(b)</b> Find $\\frac{dx}{dt}$ and $\\frac{dy}{dt}$.<br><br><b>(c)</b> Determine $\\frac{dy}{dx}$ in terms of the parameter $t$.<br><br><b>(d)</b> Evaluate $\\frac{dy}{dx}$ at the point for which $x=8a$.",
+  "answeroption": "C",
+  "explanation": "<b>(a)</b><br>At $t=1$,<br><br>$$x=2a(1)^2=2a$$<br><br>and<br><br>$$y=a(1)^4=a.$$<br><br>Hence, the required point is $(2a,a)$.<br><br><b>(b)</b><br>Given $x=2at^2$ and $y=at^4$, differentiating with respect to $t$ gives<br><br>$$\\frac{dx}{dt}=4at$$<br><br>and<br><br>$$\\frac{dy}{dt}=4at^3.$$<br><br><b>(c)</b><br>For a parametric function,<br><br>$$\\frac{dy}{dx}=\\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}},$$<br><br>provided $\\frac{dx}{dt}\\neq0$. Since $a>0$ and $t>0$, $4at\\neq0$. Therefore,<br><br>$$\\frac{dy}{dx}=\\frac{4at^3}{4at}=t^2.$$<br><br>Hence, $\\frac{dy}{dx}=t^2$.<br><br><b>(d)</b><br>At the required point, $x=8a$. Since<br><br>$$2at^2=8a,$$<br><br>and $a>0$,<br><br>$$t^2=4.$$<br><br>Therefore,<br><br>$$\\frac{dy}{dx}=t^2=4.$$<br><br>Hence, the required derivative is $4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(2a,a)$<br>(b) $\\frac{dx}{dt}=2at,\\ \\frac{dy}{dt}=4at^3$<br>(c) $\\frac{dy}{dx}=2t^2$<br>(d) $\\frac{dy}{dx}=8$",
+    "B": "(a) $(a,2a)$<br>(b) $\\frac{dx}{dt}=4at,\\ \\frac{dy}{dt}=4at^3$<br>(c) $\\frac{dy}{dx}=t^2$<br>(d) $\\frac{dy}{dx}=2$",
+    "C": "(a) $(2a,a)$<br>(b) $\\frac{dx}{dt}=4at,\\ \\frac{dy}{dt}=4at^3$<br>(c) $\\frac{dy}{dx}=t^2$<br>(d) $\\frac{dy}{dx}=4$",
+    "D": "(a) $(2a,a)$<br>(b) $\\frac{dx}{dt}=4at^2,\\ \\frac{dy}{dt}=4at^3$<br>(c) $\\frac{dy}{dx}=t$<br>(d) $\\frac{dy}{dx}=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a22b35cfbdd87b6dea73bf2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "SA",
+  "question": "Find the value of 'a' for which $f(x)=\\sqrt{3}\\sin~x-\\cos~x-2ax+6$ in R is decreasing.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> For a function to be decreasing across all real numbers, its first derivative must be less than or equal to zero everywhere: $f'(x) \\le 0$. First, compute the derivative: $f'(x) = \\sqrt{3}\\cos x - (-\\sin x) - 2a = \\sqrt{3}\\cos x + \\sin x - 2a$.<br /><br /><b>Step 2</b> Set up the inequality condition: $\\sqrt{3}\\cos x + \\sin x - 2a \\le 0 \\implies \\sqrt{3}\\cos x + \\sin x \\le 2a$. This condition must hold true across all real numbers, meaning $2a$ must be greater than or equal to the maximum possible value of the expression $\\sqrt{3}\\cos x + \\sin x$.<br /><br /><b>Step 3</b> Use the trigonometric identity for combinations of the form $A\\cos x + B\\sin x$, whose maximum value is given by $\\sqrt{A^2 + B^2}$. Here, $A = \\sqrt{3}$ and $B = 1$.<br /><br /><b>Step 4</b> Calculate this maximum value: $\\sqrt{(\\sqrt{3})^2 + 1^2} = \\sqrt{3+1} = \\sqrt{4} = 2$.<br /><br /><b>Step 5</b> Substitute this maximum value back into our inequality condition: $2a \\ge 2 \\implies a \\ge 1$. Therefore, the function is decreasing for all values of $a$ in the interval $[1, \\infty)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

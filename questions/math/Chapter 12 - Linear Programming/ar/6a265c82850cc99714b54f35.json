@@ -1,0 +1,36 @@
+{
+  "id": "6a265c82850cc99714b54f35",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A) : The corner points of the bounded feasible region of a L.P.P. are shown below. The maximum value of $Z=x+2y$ occurs at infinite points.\\\\Reason (R) : The optimal solution of a LPP having bounded feasible region must occur at corner points.",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Evaluate objective function values at the corner points: $Z(O)=0$, $Z(P)=60$, $Z(S)=80$, $Z(R)=60+2(30)=120$, and $Z(N)=0+2(60)=120$. Since the maximum value occurs at two adjacent vertices $R$ and $N$, it also occurs at all infinite points on the connecting segment, making Assertion (A) true.<br />**Step 2:** Reason (R) states a correct mathematical property of bounded linear programming problems, making it true independently.<br />**Step 3:** Since the reason does not explain the specific multi-vertex occurrence logic, option B is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a265c82850cc99714b54f35/1782263234-0.png?t=1782283034470"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

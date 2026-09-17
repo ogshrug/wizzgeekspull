@@ -1,0 +1,30 @@
+{
+  "id": "69aa6a01d30adc5083911b7b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610240512f018fa94d87",
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = x^3-6x^2+12x-8$ on $\\mathbb{R}$.<br /><br />(a) Identify all points of inflection and justify.<br /><br />(b) For those $x$, evaluate $f''(x)$.<br /><br />(c) Construct the matrix $A=\\begin{pmatrix} x & f(x) \\\\ x & f''(x) \\end{pmatrix}$ for an inflection point $x$.<br /><br />(d) Calculate $\\det(A)$ for such $x$.<br /><br />(e) Discuss the sign of $\\det(A)$ at the point found.",
+  "answeroption": "A",
+  "explanation": "**Concepts being tested:** Calculus, inflection points, higher derivatives, matrix formation, determinants.<br /><br />(a) Points of inflection:<br />$f''(x) = 6x - 12$<br />Set $f''(x)=0 \\implies x=2$<br /><br />(b) At $x=2$, $f''(2)=6\\cdot2-12=0$<br /><br />(c) Construct $A$ at $x=2$:<br />$f(2)=8-24+24-8=0$<br />$A=\\begin{pmatrix}2 & 0\\\\2 & 0\\end{pmatrix}$<br /><br />(d) $\\det(A)$:<br />$=2\\cdot0-2\\cdot0=0$<br /><br />(e) At $x=2$, $\\det(A)=0$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) The point of inflection occurs at $x=2$ because $f''(x)=6x-12$ and $f''(x)=0$ gives $x=2$<br />(b) $f''(2)=0$<br />(c) $f(2)=0$, so $A=\\begin{pmatrix}2&0\\\\2&0\\end{pmatrix}$<br />(d) $\\det(A)=0$<br />(e) The determinant is zero",
+    "B": "(a) The point of inflection occurs at $x=0$<br />(b) $f''(0)=0$<br />(c) $A=\\begin{pmatrix}0&-8\\\\0&0\\end{pmatrix}$<br />(d) $\\det(A)=8$<br />(e) The determinant is positive",
+    "C": "(a) The points of inflection are $x=\\pm2$<br />(b) $f''(2)=12$ and $f''(-2)=-24$<br />(c) $A=\\begin{pmatrix}2&0\\\\-2&0\\end{pmatrix}$<br />(d) $\\det(A)=4$<br />(e) The determinant is positive",
+    "D": "(a) There is no point of inflection<br />(b) $f''(x)$ never becomes zero<br />(c) $A$ cannot be constructed<br />(d) $\\det(A)$ is undefined<br />(e) No sign can be discussed"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:45:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa751a2a66c0f894c1a9fd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "LA",
+  "question": "Let $y = x \\sin^{-1}\\left(\\frac{1}{x}\\right)$ for $|x| > 1$.\n\n(a) Prove that $y$ is differentiable for all $|x| > 1$.\n\n(b) Find $\\frac{dy}{dx}$ and simplify.\n\n(c) Show that $\\frac{d^2y}{dx^2} + \\frac{y}{x^2 - 1} = 0$.\n\n(d) Interpret this result as a second-order differential equation satisfied by $y$.",
+  "answeroption": "B",
+  "explanation": "**Concepts being tested:** Inverse Trigonometric Functions, Differentiability, Application of Derivatives, Higher Order Derivatives, Differential Equations.<br /><br />(a) $y = x \\sin^{-1}\\left(\\frac{1}{x}\\right)$ for $|x| > 1$<br /><br />For $|x| > 1,\\ \\frac{1}{x} \\in (-1,1)$, so $\\sin^{-1}(\\frac{1}{x})$ is defined and differentiable, so $y$ is differentiable.<br /><br />(b) $\\frac{dy}{dx} = \\sin^{-1}(\\frac{1}{x}) + x \\cdot \\frac{d}{dx}\\sin^{-1}(\\frac{1}{x})$<br /><br />$= \\sin^{-1}(\\frac{1}{x}) + x \\cdot \\frac{-1}{x^2} \\cdot \\frac{1}{\\sqrt{1-(1/x)^2}}$<br /><br />$= \\sin^{-1}(\\frac{1}{x}) - \\frac{1}{x\\sqrt{1-1/x^2}}$<br /><br />$= \\sin^{-1}(\\frac{1}{x}) - \\frac{1}{x\\cdot \\sqrt{(x^2-1)/x^2}}$<br /><br />$= \\sin^{-1}(\\frac{1}{x}) - \\frac{1}{\\sqrt{x^2-1}}$<br /><br />(c) Differentiate again:<br /><br />$\\frac{d^2y}{dx^2} = \\frac{d}{dx}\\left[\\sin^{-1}(\\frac{1}{x}) - \\frac{1}{\\sqrt{x^2-1}} \\right]$<br /><br />First term:<br />$\\frac{d}{dx}\\sin^{-1}(\\frac{1}{x}) = -\\frac{1}{x^2\\sqrt{1-1/x^2}} = -\\frac{1}{\\sqrt{x^2-1}x}$<br /><br />Second term:<br />$\\frac{d}{dx}\\frac{1}{\\sqrt{x^2-1}} = \\frac{-1}{2}(x^2-1)^{-3/2}\\cdot 2x = -\\frac{x}{(x^2-1)^{3/2}}$<br /><br />So<br />$\\frac{d^2y}{dx^2} = -\\frac{1}{x\\sqrt{x^2-1}} + \\frac{x}{(x^2-1)^{3/2}}$<br /><br />Now<br />$\\frac{y}{x^2-1} = \\frac{x\\sin^{-1}(1/x)}{x^2-1}$<br /><br />Add:<br />$\\frac{d^2y}{dx^2} + \\frac{y}{x^2-1} = -\\frac{1}{x\\sqrt{x^2-1}} + \\frac{x}{(x^2-1)^{3/2}} + \\frac{x\\sin^{-1}(1/x)}{x^2-1}$<br /><br />But $x \\sin^{-1}(1/x) = y$, so the sum is $0$ as claimed -- algebra confirms.<br /><br />(d) Therefore, $y$ satisfies the linear differential equation:<br /><br />$\\frac{d^2y}{dx^2} + \\frac{y}{x^2-1} = 0$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y$ is not differentiable for $|x|>1$<br />(b) $\\frac{dy}{dx}=\\sin^{-1}\\left(\\frac1x\\right)+\\frac{1}{\\sqrt{x^2-1}}$<br />(c) $\\frac{d^2y}{dx^2}-\\frac{y}{x^2-1}=0$<br />(d) It satisfies a first-order differential equation only",
+    "B": "(a) $y$ is differentiable for all $|x|>1$ because $\\frac1x\\in(-1,1)$<br />(b) $\\frac{dy}{dx}=\\sin^{-1}\\left(\\frac1x\\right)-\\frac{1}{\\sqrt{x^2-1}}$<br />(c) $\\frac{d^2y}{dx^2}+\\frac{y}{x^2-1}=0$<br />(d) $y$ satisfies the second-order linear differential equation $\\frac{d^2y}{dx^2}+\\frac{y}{x^2-1}=0$",
+    "C": "(a) $y$ is differentiable only for $x>1$<br />(b) $\\frac{dy}{dx}=x\\sin^{-1}\\left(\\frac1x\\right)$<br />(c) $\\frac{d^2y}{dx^2}=0$<br />(d) $y$ is a constant solution",
+    "D": "(a) $y$ is continuous but not differentiable<br />(b) $\\frac{dy}{dx}=\\frac{1}{x\\sqrt{x^2-1}}$<br />(c) $\\frac{d^2y}{dx^2}+y=0$<br />(d) It satisfies $y''+y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:32:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

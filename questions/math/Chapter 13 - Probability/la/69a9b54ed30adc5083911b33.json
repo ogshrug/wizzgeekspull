@@ -1,0 +1,30 @@
+{
+  "id": "69a9b54ed30adc5083911b33",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e4",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "LA",
+  "question": "A question bank contains 15 easy, 10 medium and 5 hard questions. A student is to randomly select 4 questions.\n(a) What is the probability that all 4 are easy?\n(b) What is the probability that exactly 2 are easy and 2 are medium?\n(c) If at least one hard question is selected, what is the probability that it is exactly one hard question?",
+  "answeroption": "D",
+  "explanation": "Total questions = 15+10+5 = 30<br />(a) Ways to choose 4 easy: $C(15,4)$<br />Total: $C(30,4)$<br />$P = \\dfrac{C(15,4)}{C(30,4)}$<br /><br />(b) 2 easy: $C(15,2)$. 2 medium: $C(10,2)$. Total: $C(15,2)C(10,2)$<br />So, $P = \\dfrac{C(15,2)C(10,2)}{C(30,4)}$<br /><br />(c) At least one hard chosen. Total ways: $C(30,4) - C(25,4)$<br />Exactly one hard: $C(5,1)C(25,3)$<br />$P = \\dfrac{C(5,1)C(25,3)}{C(30,4)-C(25,4)}$<br /><br />Let's compute: $C(15,4)=1365$, $C(30,4)=27405$<br />$C(15,2)=105$, $C(10,2)=45$, $C(25,3)=2300$, $C(5,1)=5$, $C(25,4)=12650$<br /><br />(a) $P=\\dfrac{1365}{27405}$<br />(b) $P=\\dfrac{105\\times45}{27405}=\\dfrac{4725}{27405}$<br />(c) Numerator: $5\\times2300=11500$; Denominator: $27405-12650=14755$<br />$P=\\dfrac{11500}{14755}$<br /><br />Final answers:<br />(a) $\\dfrac{1365}{27405}$<br />(b) $\\dfrac{4725}{27405}$<br />(c) $\\dfrac{11500}{14755}$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{1365}{27405}$<br />(b) $\\frac{4725}{27405}$<br />(c) $\\frac{12650}{27405}$",
+    "B": "(a) $\\frac{15}{30}$<br />(b) $\\frac{105}{27405}$<br />(c) $\\frac{11500}{27405}$",
+    "C": "(a) $\\frac{\\binom{15}{4}}{\\binom{30}{4}}$<br />(b) $\\frac{\\binom{10}{2}}{\\binom{30}{4}}$<br />(c) $\\frac{\\binom{5}{1}\\binom{25}{3}}{\\binom{30}{4}}$",
+    "D": "(a) $\\frac{1365}{27405}$<br />(b) $\\frac{4725}{27405}$<br />(c) $\\frac{11500}{14755}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:54:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8d45a21cb3824448de86d0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "For every $x\\in[-1,1]$, a mathematics group defines $S(x)=\\sin^{-1}x+\\cos^{-1}x$. Although the two inverse functions have different principal ranges, their sum satisfies a standard inverse-trigonometric property. The group first evaluates the expression at a particular value and then establishes its general behaviour. This allows the students to determine whether $S$ varies with $x$ and to identify its range without drawing a graph.<br><br><b>(a)</b> Evaluate $S\\left(\\frac{1}{2}\\right)$.<br><br><b>(b)</b> Establish the value of $S(x)$ for an arbitrary $x\\in[-1,1]$.<br><br><b>(c)</b> Determine the range of $S$.<br><br><b>(d)</b> Evaluate $3S(x)-\\pi$ and justify why its value is independent of $x$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>Using principal values, $$\\sin^{-1}\\left(\\frac{1}{2}\\right)=\\frac{\\pi}{6}$$ and $$\\cos^{-1}\\left(\\frac{1}{2}\\right)=\\frac{\\pi}{3}$$ Therefore, $$S\\left(\\frac{1}{2}\\right)=\\frac{\\pi}{6}+\\frac{\\pi}{3}=\\frac{\\pi}{2}$$<br><br><b>(b)</b><br>The applicable property is $$\\sin^{-1}x+\\cos^{-1}x=\\frac{\\pi}{2},\\quad -1\\leq x\\leq1$$ Hence, $S(x)=\\frac{\\pi}{2}$ for every admissible $x$.<br><br><b>(c)</b><br>Since $S(x)$ has the same value $\\frac{\\pi}{2}$ for every $x\\in[-1,1]$, its range contains exactly one value. Therefore, the range is $\\left\\{\\frac{\\pi}{2}\\right\\}$.<br><br><b>(d)</b><br>Substituting $S(x)=\\frac{\\pi}{2}$ gives $$3S(x)-\\pi=3\\left(\\frac{\\pi}{2}\\right)-\\pi=\\frac{\\pi}{2}$$ The inverse-trigonometric property makes $S(x)$ constant, so $3S(x)-\\pi$ is also independent of $x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $S\\left(\\dfrac{1}{2}\\right)=\\dfrac{\\pi}{3}$<br><br>(b) $S(x)=\\cos^{-1}x$<br><br>(c) Range: $[0,\\pi]$<br><br>(d) $3S(x)-\\pi$ varies with $x$",
+    "B": "(a) $S\\left(\\dfrac{1}{2}\\right)=\\dfrac{2\\pi}{3}$<br><br>(b) $S(x)=\\pi$<br><br>(c) Range: $\\{\\pi\\}$<br><br>(d) $3S(x)-\\pi=2\\pi$",
+    "C": "(a) $S\\left(\\dfrac{1}{2}\\right)=\\dfrac{\\pi}{2}$<br><br>(b) $S(x)=\\dfrac{\\pi}{2}-2\\sin^{-1}x$<br><br>(c) Range: $\\left[-\\dfrac{\\pi}{2},\\dfrac{3\\pi}{2}\\right]$<br><br>(d) $3S(x)-\\pi$ depends on $x$",
+    "D": "(a) $S\\left(\\dfrac{1}{2}\\right)=\\dfrac{\\pi}{2}$<br><br>(b) $S(x)=\\dfrac{\\pi}{2}$ for every $x\\in[-1,1]$<br><br>(c) Range: $\\left\\{\\dfrac{\\pi}{2}\\right\\}$<br><br>(d) $3S(x)-\\pi=\\dfrac{\\pi}{2}$, independent of $x$ because $S$ is constant"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

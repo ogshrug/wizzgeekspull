@@ -1,0 +1,32 @@
+{
+  "id": "6a8fe6fc2e54880055a0a72f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad",
+    "6a13ebca8c819562f933f9ae",
+    "6a13ebca8c819562f933f9af"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A curve passes through the origin, and at every point $(x,y)$ on it the slope of the tangent is equal to the sum of the coordinates of that point. Thus, the geometric condition gives $\\frac{dy}{dx}=x+y$. To determine the equation of the curve, students must first rearrange this relation into the standard form of a first-order linear differential equation. They then use an integrating factor to obtain the general family and finally use the fact that the required curve passes through $(0,0)$ to select the appropriate member. The task connects the tangent-slope description of a curve with the solution of a linear differential equation.<br><br><b>(a)</b> Form the differential equation from the given slope condition and rewrite it in standard linear form.<br><br><b>(b)</b> Determine the integrating factor of the linear differential equation.<br><br><b>(c)</b> Solve the equation to obtain its general solution.<br><br><b>(d)</b> Use the fact that the curve passes through the origin to obtain the required equation of the curve.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>The slope of the tangent is $$\\frac{dy}{dx}=x+y$$<br><br>Rearranging, $$\\frac{dy}{dx}-y=x$$<br><br>This is of the standard form $\\frac{dy}{dx}+Py=Q$, where $$P=-1,\\qquad Q=x$$<br><br><b>(b)</b><br>The integrating factor is $$\\text{I.F.}=e^{\\int P\\,dx}=e^{\\int-1\\,dx}=e^{-x}$$<br><br><b>(c)</b><br>Multiplying the equation by $e^{-x}$, $$e^{-x}\\frac{dy}{dx}-e^{-x}y=xe^{-x}$$<br><br>Therefore, $$\\frac{d}{dx}(ye^{-x})=xe^{-x}$$<br><br>Integrating, $$ye^{-x}=\\int xe^{-x}\\,dx+C$$<br><br>Using integration by parts, $$\\int xe^{-x}\\,dx=-(x+1)e^{-x}$$<br><br>Hence, $$ye^{-x}=-(x+1)e^{-x}+C$$<br><br>Multiplying by $e^x$, $$y=-x-1+Ce^x$$<br><br><b>(d)</b><br>The curve passes through $(0,0)$. Therefore, substituting $x=0$ and $y=0$, $$0=-0-1+C$$<br><br>Thus, $C=1$.<br><br>Hence the required equation of the curve is $$y=e^x-x-1$$<br><br>This curve satisfies both the given tangent-slope condition and the condition of passing through the origin.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dy}{dx}+y=x$, so $P=1$<br>(b) I.F. $=e^x$<br>(c) $y=x-1+Ce^{-x}$<br>(d) Through the origin: $y=x-1+e^{-x}$",
+    "B": "(a) $\\frac{dy}{dx}-y=x$, so $P=-1$<br>(b) I.F. $=e^{-x}$<br>(c) $y=-x-1+Ce^x$<br>(d) Through the origin, $C=1$ and $y=e^x-x-1$",
+    "C": "(a) $\\frac{dy}{dx}-x=y$<br>(b) I.F. $=e^{-x^2/2}$<br>(c) $y=x+Ce^x$<br>(d) $y=x$",
+    "D": "(a) $\\frac{dy}{dx}-y=x$, so $P=-1$<br>(b) I.F. $=e^x$<br>(c) $y=x+1+Ce^{-x}$<br>(d) Through the origin: $y=x+1-e^{-x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

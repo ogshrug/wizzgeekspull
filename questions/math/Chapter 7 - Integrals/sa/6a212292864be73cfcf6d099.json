@@ -1,0 +1,26 @@
+{
+  "id": "6a212292864be73cfcf6d099",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{1} x \\tan^{-1}x dx$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Apply Integration by Parts**  \nLet $u = \\tan^{-1}x$ and $dv = x \\, dx$. Then $du = \\frac{1}{1+x^2} dx$ and $v = \\frac{x^2}{2}$.  \nUsing the formula $\\int u \\, dv = uv - \\int v \\, du$:  \n$$I = \\left[\\frac{x^2}{2} \\tan^{-1}x\\right]_0^1 - \\frac{1}{2}\\int_0^1 \\frac{x^2}{1+x^2} \\, dx$$\n\n**Step 2: Simplify the Remaining Integral**  \n$$\\frac{x^2}{1+x^2} = \\frac{1+x^2 - 1}{1+x^2} = 1 - \\frac{1}{1+x^2}$$  \nSo,  \n$$I = \\left[\\frac{x^2}{2} \\tan^{-1}x\\right]_0^1 - \\frac{1}{2}\\int_0^1 \\left(1 - \\frac{1}{1+x^2}\\right) dx$$  \n$$= \\left[\\frac{x^2}{2} \\tan^{-1}x\\right]_0^1 - \\frac{1}{2}\\left[ x - \\tan^{-1}x \\right]_0^1$$\n\n**Step 3: Evaluate the Limits**  \nAt $x=1$: $\\frac{1^2}{2} \\tan^{-1}1 = \\frac{1}{2} \\cdot \\frac{\\pi}{4} = \\frac{\\pi}{8}$  \nAt $x=0$: $\\frac{0^2}{2} \\tan^{-1}0 = 0$  \nAlso, $\\left[ x - \\tan^{-1}x \\right]_0^1 = (1 - \\frac{\\pi}{4}) - (0 - 0) = 1 - \\frac{\\pi}{4}$  \nSo, $I = \\frac{\\pi}{8} - \\frac{1}{2}\\left(1 - \\frac{\\pi}{4}\\right) = \\frac{\\pi}{8} - \\frac{1}{2} + \\frac{\\pi}{8} = \\frac{\\pi}{4} - \\frac{1}{2}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

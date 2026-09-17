@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9294751910886affb947",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=7$, find $\\begin{vmatrix}a+3c&b+3d\\\\c&d\\end{vmatrix}$ without expansion.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Observe the row operation</b><br>The first row of the original determinant has been replaced by the sum of the first row and three times the second row.<br><b>Step 2: Identify the property</b><br>The value of a determinant remains unchanged under the operation $$R_1\\to R_1+kR_2$$<br><b>Step 3: Apply the property</b><br>Here, the operation is $R_1\\to R_1+3R_2$. Therefore, $$\\begin{vmatrix}a+3c&b+3d\\\\c&d\\end{vmatrix}=\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}$$<br><b>Step 4: Use the given value</b><br>Hence, the required determinant is $7$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$21$",
+    "B": "$10$",
+    "C": "$7$",
+    "D": "$28$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

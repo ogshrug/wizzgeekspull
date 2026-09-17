@@ -1,0 +1,29 @@
+{
+  "id": "6a8e9c2c2e54880055a0a696",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "SA",
+  "question": "Solve $x+y+z=2$, $2x-y+z=5$ and $x+3y-2z=-6$. Hence, calculate $x-2y+z$.",
+  "answeroption": "A",
+  "explanation": "<b>First elimination</b><br>Subtracting the first equation from the second gives $$x-2y=3$$<br><b>Second elimination</b><br>Subtracting the first equation from the third gives $$2y-3z=-8$$<br><b>Determination of the variables</b><br>Using $x=3+2y$ and $z=\\frac{8+2y}{3}$ in $x+y+z=2$ gives $y=-1$. Therefore, $x=1$ and $z=2$.<br><b>Required expression</b><br>Hence, $$x-2y+z=1-2(-1)+2=5$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(x,y,z)=(1,-1,2)$ and $x-2y+z=5$",
+    "B": "$(x,y,z)=(1,1,0)$ and $x-2y+z=-1$",
+    "C": "$(x,y,z)=(2,-1,1)$ and $x-2y+z=5$",
+    "D": "$(x,y,z)=(1,-2,3)$ and $x-2y+z=8$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

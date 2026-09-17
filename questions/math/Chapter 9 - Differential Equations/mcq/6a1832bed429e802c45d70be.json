@@ -1,0 +1,29 @@
+{
+  "id": "6a1832bed429e802c45d70be",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "MCQ",
+  "question": "The general solution of the differential equation $\\frac{dy}{dx}=2x.e^{x^{2}+y}$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Separate the exponential functions using basic exponent rules: $\\frac{dy}{dx} = 2x \\cdot e^{x^2} \\cdot e^y$.<br /><br />**Step 2:** Rearrange terms to group variables on opposite sides of the equation: $\\frac{1}{e^y} \\, dy = 2x e^{x^2} \\, dx \\implies e^{-y} \\, dy = e^{x^2} (2x \\, dx)$.<br /><br />**Step 3:** Integrate both sides of the equation. Use substitution for the right side ($t = x^2 \\implies dt = 2x \\, dx$):<br />$\\int e^{-y} \\, dy = \\int e^t \\, dt \\implies -e^{-y} = e^{t} + C' \\implies -e^{-y} = e^{x^2} + C'$.<br /><br />**Step 4:** Rearrange the terms into standard final form: $e^{x^2} + e^{-y} = -C'$. Setting the arbitrary constant $-C' = C$, we get $e^{x^2} + e^{-y} = C$, matching Option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^{x^{2}+y}=C$",
+    "B": "$e^{x^{2}}+e^{-y}=C$",
+    "C": "$e^{x^{2}}=e^{y}+C$",
+    "D": "$e^{x^{2}-y}=C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

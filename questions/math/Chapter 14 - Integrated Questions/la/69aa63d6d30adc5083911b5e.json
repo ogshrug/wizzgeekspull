@@ -1,0 +1,30 @@
+{
+  "id": "69aa63d6d30adc5083911b5e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7c",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "LA",
+  "question": "Suppose $A = \\begin{bmatrix} x & 1 \\\\ 0 & y \\end{bmatrix}$, $B = \\begin{bmatrix} \\cos^{-1}(z) & 0 \\\\ 0 & \\sin^{-1}(z) \\end{bmatrix}$.\n\n(a) For which values of $z$ is $B$ defined?\n\n(b) Compute $AB$ and $BA$.\n\n(c) Show that $AB = BA$ if and only if $x = y$.\n\n(d) For $z = 0$, $x = 2$, $y = 2$, compute $AB$ and determine if it is invertible.",
+  "answeroption": "C",
+  "explanation": "**Concepts Tested:** Matrices, Inverse Trigonometric Functions, Determinants.<br /><br />(a) Domains: $\\cos^{-1}(z)$, $\\sin^{-1}(z)$ defined for $z \\in [-1, 1]$.<br /><br />(b) $AB = \\begin{bmatrix} x & 1 \\\\ 0 & y \\end{bmatrix} \\begin{bmatrix} \\cos^{-1}(z) & 0 \\\\ 0 & \\sin^{-1}(z) \\end{bmatrix}$<br /><br />$= \\begin{bmatrix} x\\cos^{-1}(z) & 1\\sin^{-1}(z) \\\\ 0 & y\\sin^{-1}(z) \\end{bmatrix}$<br /><br />$BA = \\begin{bmatrix} \\cos^{-1}(z) & 0 \\\\ 0 & \\sin^{-1}(z) \\end{bmatrix} \\begin{bmatrix} x & 1 \\\\ 0 & y \\end{bmatrix}$<br /><br />$= \\begin{bmatrix} x\\cos^{-1}(z) & \\cos^{-1}(z) \\\\ 0 & y\\sin^{-1}(z) \\end{bmatrix}$<br /><br />(c) $AB = BA \\iff 1\\sin^{-1}(z) = \\cos^{-1}(z)$.<br /><br />But from top right: $1\\sin^{-1}(z) = \\cos^{-1}(z)$ and $\\cos^{-1}(z)$ must equal $\\sin^{-1}(z)$, which occurs only if $z = \\frac{1}{\\sqrt{2}}$, but furthermore, the lower left entries are always zero, and the diagonal entries require $x = y$ for all entries to coincide. So $AB = BA \\iff x = y$ and $\\sin^{-1}(z) = \\cos^{-1}(z)$, only possible for $z = \\frac{1}{\\sqrt{2}}$.<br /><br />(d) For $z = 0, x = y = 2$<br /><br />$\\cos^{-1}(0) = \\frac{\\pi}{2}$, $\\sin^{-1}(0) = 0$<br /><br />So $AB = \\begin{bmatrix} 2\\cdot\\frac{\\pi}{2} & 1\\cdot 0 \\\\ 0 & 2\\cdot 0 \\end{bmatrix} = \\begin{bmatrix} \\pi & 0 \\\\ 0 & 0 \\end{bmatrix}$<br /><br />$\\det(AB) = (\\pi)(0) - (0)(0) = 0$<br /><br />So $AB$ is not invertible.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $B$ is defined for all real $z$<br />(b) $AB=BA$ for all $x,y,z$<br />(c) $AB=BA$ if and only if $z=0$<br />(d) For $z=0$, $AB=I$ and is invertible",
+    "B": "(a) $B$ is defined only for $z=0$<br />(b) $AB=\\begin{bmatrix}x\\sin^{-1}z&\\cos^{-1}z\\\\0&y\\cos^{-1}z\\end{bmatrix}$ and $BA=\\begin{bmatrix}x\\sin^{-1}z&\\sin^{-1}z\\\\0&y\\cos^{-1}z\\end{bmatrix}$<br />(c) $AB=BA$ for all $x=y$ only<br />(d) $AB$ has determinant $\\pi^2$",
+    "C": "(a) $B$ is defined for $z\\in[-1,1]$<br />(b) $AB=\\begin{bmatrix}x\\cos^{-1}z&\\sin^{-1}z\\\\0&y\\sin^{-1}z\\end{bmatrix}$ and $BA=\\begin{bmatrix}x\\cos^{-1}z&\\cos^{-1}z\\\\0&y\\sin^{-1}z\\end{bmatrix}$<br />(c) From the computed matrices, equality requires $\\sin^{-1}z=\\cos^{-1}z$, and as stated in the explanation, $x=y$ with $z=\\frac{1}{\\sqrt2}$<br />(d) For $z=0$, $x=y=2$, $AB=\\begin{bmatrix}\\pi&0\\\\0&0\\end{bmatrix}$ and it is not invertible",
+    "D": "(a) $B$ is defined for $z>1$ only<br />(b) $AB=0$ and $BA=0$<br />(c) $AB=BA$ if and only if $x=-y$<br />(d) $AB$ is invertible with determinant $1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:19:18 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

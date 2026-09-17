@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd67a4b490c7cde35950d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99d"
+  ],
+  "question_type": "SA",
+  "question": "A student claims that every equation containing two variables $x$ and $y$ is a differential equation. Examine the claim using the equations $x+y=7$ and $x\\frac{dy}{dx}+y=0$. Give mathematical justification for your answer.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Recall the essential condition</b><br>An equation is a differential equation when it involves a derivative of a dependent variable with respect to an independent variable. Merely containing two variables is not sufficient.<br><b>Step 2: Examine the first equation</b><br>In $x+y=7$, both $x$ and $y$ occur, but there is no derivative such as $\\frac{dy}{dx}$. Hence, $x+y=7$ is not a differential equation.<br><b>Step 3: Examine the second equation</b><br>In $x\\frac{dy}{dx}+y=0$, the derivative $\\frac{dy}{dx}$ occurs. Thus, the equation relates the dependent variable $y$, the independent variable $x$, and a derivative of $y$.<br><b>Step 4: Conclusion</b><br>The second equation is a differential equation, while the first is not. Therefore, the student's claim is false.",
+  "explanation_image": [],
+  "options": {
+    "A": "The claim is true because both equations contain the variables $x$ and $y$.",
+    "B": "The claim is false; neither equation is a differential equation.",
+    "C": "The claim is false; $x+y=7$ is not a differential equation, while $x\\frac{dy}{dx}+y=0$ is a differential equation.",
+    "D": "The claim is true only because $x\\frac{dy}{dx}+y=0$ contains two variables."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

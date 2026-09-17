@@ -1,0 +1,30 @@
+{
+  "id": "6a183063d429e802c45d709f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55",
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "MCQ",
+  "question": "If the matrix $A=[a_{ij}]_{2\\times2}$ is such that $a_{ij}=\\begin{cases}1,&\\text{if } i\\ne j\\\\ 0,&\\text{if } i=j\\end{cases}$ then $A+A^{2}$ is equal to:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Construct matrix $A$ from its definition requirements: diagonal elements $a_{11}=a_{22}=0$ and off-diagonal elements $a_{12}=a_{21}=1$, yielding $A = \\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}$.<br /><br />**Step 2:** Compute $A^2$ using matrix multiplication: $\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix} \\begin{bmatrix}0&1\\\\1&0\\end{bmatrix} = \\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$.<br /><br />**Step 3:** Perform addition: $A + A^2 = \\begin{bmatrix}0&1\\\\1&0\\end{bmatrix} + \\begin{bmatrix}1&0\\\\0&1\\end{bmatrix} = \\begin{bmatrix}1&1\\\\1&1\\end{bmatrix}$, which corresponds to Option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$",
+    "B": "$\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}$",
+    "C": "$\\begin{bmatrix}1&1\\\\1&1\\end{bmatrix}$",
+    "D": "$\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

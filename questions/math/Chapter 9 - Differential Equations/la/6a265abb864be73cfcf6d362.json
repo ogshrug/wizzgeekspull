@@ -1,0 +1,29 @@
+{
+  "id": "6a265abb864be73cfcf6d362",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9"
+  ],
+  "question_type": "LA",
+  "question": "Find the general solution of the differential equation $x(y^{3}+x^{3})dy=(2y^{4}+5x^{3}y) dx$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rearrange the given differential equation to isolate the derivative term $\\frac{dy}{dx}$: $\\frac{dy}{dx} = \\frac{2y^4 + 5x^3y}{x(y^3 + x^3)} = \\frac{2y^4 + 5x^3y}{xy^3 + x^4}$. To check if it is homogeneous, divide every term in both the numerator and denominator by the highest power of $x$, which is $x^4$. This transforms the equation into: $\\frac{dy}{dx} = \\frac{2(y/x)^4 + 5(y/x)}{(y/x)^3 + 1}$. Since the right side depends entirely on the ratio $\\frac{y}{x}$, it is a homogeneous equation. We substitute $y = vx$, which on differentiation gives $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 2:** Substitute these expressions back into our homogeneous layout: $v + x\\frac{dv}{dx} = \\frac{2v^4 + 5v}{v^3 + 1}$. Isolate the derivative term by subtracting $v$ from both sides: $x\\frac{dv}{dx} = \\frac{2v^4 + 5v}{v^3 + 1} - v = \\frac{2v^4 + 5v - v(v^3 + 1)}{v^3 + 1} = \\frac{2v^4 + 5v - v^4 - v}{v^3 + 1} = \\frac{v^4 + 4v}{v^3 + 1}$. This gives the simplified equation: $x\\frac{dv}{dx} = \\frac{v(v^3 + 4)}{v^3 + 1}$.<br />**Step 3:** Now, use the separation of variables method to group $v$ terms on the left side and $x$ terms on the right side: $\\frac{v^3 + 1}{v(v^3 + 4)} dv = \\frac{1}{x} dx$. To integrate the left side, we can split the numerator fraction to create simpler algebraic parts: $\\frac{v^3 + 4 - 3}{v(v^3 + 4)} dv = \\left( \\frac{1}{v} - \\frac{3}{v(v^3 + 4)} \\right) dv$. Integrating both sides gives: $\\int \\frac{1}{v} dv - \\int \\frac{3}{v(v^3 + 4)} dv = \\int \\frac{1}{x} dx$.<br />**Step 4:** The first term integrates to $\\log|v|$ and the right side integrates to $\\log|x|$. For the remaining middle term, multiply the top and bottom by $v^2$ to use substitution with $t = v^3$: $\\int \\frac{3v^2}{v^3(v^3+4)} dv = \\int \\frac{dt}{t(t+4)} = \\frac{1}{4}\\log|\\frac{t}{t+4}| = \\frac{1}{4}\\log|\\frac{v^3}{v^3+4}|$. Combining all parts together gives the implicit general solution: $\\log|v| - \\frac{1}{4}\\log\\left|\\frac{v^3}{v^3+4}\\right| = \\log|x| + C$. Substituting $v = \\frac{y}{x}$ back into the equation restores our original variables.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2022-4",
+  "set_key": [
+    "2022-4-1",
+    "2022-4-2",
+    "2022-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

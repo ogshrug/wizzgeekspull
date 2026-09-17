@@ -1,0 +1,31 @@
+{
+  "id": "6a215c2b864be73cfcf6d116",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77",
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Sports car racing is a form of motorsport which uses sports car prototypes. The competition is held on special tracks designed in various shapes. The equation of one such track is given as follows: $f(x)=\\begin{cases}x^{4}-4x^{2}+4,&0\\le x<3\\\\ x^{2}+40&,&x\\ge3\\end{cases}$ Based on given information, answer the following questions:<br /><br />**(i)** Find $f^{\\prime}(x)$ for $0<x<3$.<br />**(ii)** Find $f^{\\prime}(4)$.<br />**(iii) (a)** Test for continuity of $f(x)$ at $x=3$.<br />OR<br />**(iii) (b)** Test for differentiability of $f(x)$ at $x=3$.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** For the specific open interval $0 < x < 3$, the function is strictly defined as $f(x) = x^4 - 4x^2 + 4$.<br />**Step 2:** Differentiating with respect to $x$ using standard polynomial power rules yields $f^{\\prime}(x) = 4x^3 - 8x$.<br /><br />**(ii)** **Step 1:** The numerical value $x=4$ falls squarely in the interval $x \\ge 3$, where the function is defined as $f(x) = x^2 + 40$.<br />**Step 2:** The derivative for this specific piecewise segment is $f^{\\prime}(x) = 2x$. Substituting $x=4$ gives the exact value $f^{\\prime}(4) = 2(4) = 8$.<br /><br />**(iii) (a)** **Step 1:** Calculate the Left Hand Limit (LHL) as $x \\to 3^-$ using $x^4 - 4x^2 + 4$. Substituting $x=3$ gives $81 - 36 + 4 = 49$.<br />**Step 2:** Calculate the Right Hand Limit (RHL) and the exact function value at $x=3$ using $x^2 + 40$, which gives $9 + 40 = 49$.<br />**Step 3:** Since LHL = RHL = $f(3) = 49$, the piecewise function $f(x)$ is strictly continuous at $x=3$.<br /><br />**(iii) (b)** **Step 1:** Calculate the Left Hand Derivative (LHD) at the boundary $x=3$ using the left-side derivative formula $f^{\\prime}(x) = 4x^3 - 8x$. Substituting $x=3$ yields $4(27) - 8(3) = 108 - 24 = 84$.<br />**Step 2:** Calculate the Right Hand Derivative (RHD) at $x=3$ using the right-side derivative formula $f^{\\prime}(x) = 2x$. Substituting $x=3$ yields $2(3) = 6$.<br />**Step 3:** Because the LHD ($84$) explicitly does not equal the RHD ($6$), the function graph has a sharp corner and is not differentiable at $x=3$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1",
+    "2026-2-2",
+    "2026-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a215c2b864be73cfcf6d116/1782193937-0.png?t=1782213738220"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

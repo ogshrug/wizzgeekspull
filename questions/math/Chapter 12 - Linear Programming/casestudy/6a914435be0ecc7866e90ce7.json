@@ -1,0 +1,32 @@
+{
+  "id": "6a914435be0ecc7866e90ce7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A nutrition centre prepares a food blend using two foods P and Q. Each kilogram of P supplies 2 units of nutrient A and 1 unit of nutrient B, while each kilogram of Q supplies 1 unit of nutrient A and 2 units of nutrient B. The blend must contain at least 8 units each of nutrients A and B. Because of packaging limitations, the total quantity of the blend cannot exceed 10 kg. Food P costs Rs 5 per kg and Food Q costs Rs 7 per kg. Let $x$ kg of P and $y$ kg of Q be used. The centre wishes to obtain the required nutrition at minimum cost.<br><br><b>(a)</b> Translate the nutritional and packaging requirements into linear constraints.<br><br><b>(b)</b> Form the objective function representing the total cost.<br><br><b>(c)</b> Find the point of intersection of the boundary lines $2x+y=8$ and $x+2y=8$, and verify that it satisfies the packaging restriction.<br><br><b>(d)</b> The corner points obtained from the graphical analysis are $(0,8)$, $(0,10)$, $(10,0)$, $(8,0)$ and the point found in part (c). Determine the minimum cost and the corresponding quantities of P and Q.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Nutrient A requires at least 8 units. Since P supplies 2 units per kg and Q supplies 1 unit per kg,<br>$$2x+y\\geq 8$$<br><br>Nutrient B also requires at least 8 units. Hence,<br>$$x+2y\\geq 8$$<br><br>The total quantity cannot exceed 10 kg, so<br>$$x+y\\leq 10$$<br><br>Also,<br>$$x\\geq 0,\\quad y\\geq 0$$<br><br>Thus, the constraints are $2x+y\\geq 8$, $x+2y\\geq 8$, $x+y\\leq 10$, $x\\geq 0$ and $y\\geq 0$.<br><br><b>(b)</b><br>The cost of $x$ kg of P is Rs $5x$ and the cost of $y$ kg of Q is Rs $7y$. Therefore,<br>$$Z=5x+7y$$<br>The optimisation problem is to minimise $Z$.<br><br><b>(c)</b><br>Consider<br>$$2x+y=8$$<br>and<br>$$x+2y=8$$<br>Subtracting the equations appropriately gives $x=y$. Hence,<br>$$3x=8$$<br>so<br>$$x=y=\\frac{8}{3}$$<br><br>For the packaging restriction,<br>$$x+y=\\frac{8}{3}+\\frac{8}{3}=\\frac{16}{3}<10$$<br>Therefore, $\\left(\\frac{8}{3},\\frac{8}{3}\\right)$ satisfies the packaging restriction.<br><br><b>(d)</b><br>Evaluate $Z=5x+7y$ at the corner points.<br><br>At $(0,8)$, $Z=56$.<br>At $(0,10)$, $Z=70$.<br>At $(10,0)$, $Z=50$.<br>At $(8,0)$, $Z=40$.<br>At $\\left(\\frac{8}{3},\\frac{8}{3}\\right)$,<br>$$Z=5\\left(\\frac{8}{3}\\right)+7\\left(\\frac{8}{3}\\right)=12\\left(\\frac{8}{3}\\right)=32$$<br><br>The minimum value of the objective function is Rs 32. Therefore, the centre should use $\\frac{8}{3}$ kg of Food P and $\\frac{8}{3}$ kg of Food Q.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $2x+y\\geq8$, $x+2y\\geq8$, $x+y\\leq10$, $x,y\\geq0$<br>(b) Minimise $Z=5x+7y$<br>(c) Intersection is $\\left(\\frac{8}{3},\\frac{8}{3}\\right)$ and $x+y=\\frac{16}{3}<10$<br>(d) Minimum cost Rs $32$ at $\\left(\\frac{8}{3},\\frac{8}{3}\\right)$",
+    "B": "(a) $2x+y\\leq8$, $x+2y\\leq8$, $x+y\\leq10$, $x,y\\geq0$<br>(b) Minimise $Z=5x+7y$<br>(c) Intersection is $\\left(\\frac{8}{3},\\frac{8}{3}\\right)$<br>(d) Minimum cost Rs $32$ at $\\left(\\frac{8}{3},\\frac{8}{3}\\right)$",
+    "C": "(a) $2x+y\\geq8$, $x+2y\\geq8$, $x+y\\geq10$, $x,y\\geq0$<br>(b) Maximise $Z=5x+7y$<br>(c) Intersection is $(4,4)$<br>(d) Maximum cost Rs $70$ at $(0,10)$",
+    "D": "(a) $2x+y\\geq8$, $x+2y\\geq8$, $x+y\\leq10$, $x,y\\geq0$<br>(b) Minimise $Z=7x+5y$<br>(c) Intersection is $\\left(\\frac{8}{3},\\frac{8}{3}\\right)$<br>(d) Minimum cost Rs $40$ at $(8,0)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

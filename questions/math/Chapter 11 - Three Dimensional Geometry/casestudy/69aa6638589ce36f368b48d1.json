@@ -1,0 +1,29 @@
+{
+  "id": "69aa6638589ce36f368b48d1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Navigation – Minimal Path Between Skew Runways**<br /><br />Runway1: $R(3,2,0)$ to $S(7,8,6)$, Runway2: $P(5,-2,1)$ to $Q(9,2,7)$.<br /><br />(1) Write vector equations of both runways.<br /><br />(2) Find direction ratios.<br /><br />(3) Compute cross product of direction vectors.<br /><br />(4) Find vector $RP$.<br /><br />(5) Find shortest distance between runways.<br /><br />(6) State practical significance.",
+  "answeroption": "C",
+  "explanation": "Direction vectors: $RS=(4,6,6)$, $PQ=(4,4,6)$.<br /><br /> Cross product $(12,0,-8)$. Vector $RP=(2,-4,1)$.<br /><br /> Distance between skew lines $d=|((b_1×b_2)·(a_2-a_1))|/|b_1×b_2|=|16|/(4\\sqrt{13})=4/\\sqrt{13}$.<br /><br /> This minimal separation ensures runway safety spacing.",
+  "explanation_image": [],
+  "options": {
+    "A": "(1) Runway equations: $\\vec r=(3,2,0)+\\lambda(4,6,6)$ and $\\vec r=(5,-2,1)+\\mu(4,4,6)$<br />(2) Direction ratios: $(4,6,6)$ and $(4,4,6)$<br />(3) Cross product: $(12,0,-8)$<br />(4) $\\vec{RP}=(2,-4,1)$<br />(5) Shortest distance is $0$<br />(6) The runways intersect",
+    "B": "(1) Runway equations: $\\vec r=(3,2,0)+\\lambda(7,8,6)$ and $\\vec r=(5,-2,1)+\\mu(9,2,7)$<br />(2) Direction ratios: $(7,8,6)$ and $(9,2,7)$<br />(3) Cross product: $(12,0,-8)$<br />(4) $\\vec{RP}=(2,-4,1)$<br />(5) Shortest distance is $4\\sqrt{13}$<br />(6) It gives runway length",
+    "C": "(1) Runway equations: $\\vec r=(3,2,0)+\\lambda(4,6,6)$ and $\\vec r=(5,-2,1)+\\mu(4,4,6)$<br />(2) Direction ratios: $(4,6,6)$ and $(4,4,6)$<br />(3) $4\\ Cross product: $(12,0,-8)$<br />(4) $\\vec{RP}=(2,-4,1)$<br />(5) Shortest distance is $\\frac{4}{\\sqrt{13}}$<br />(6) This minimum separation helps ensure runway safety spacing",
+    "D": "(1) Runway equations: $\\vec r=(3,2,0)+\\lambda(4,6,6)$ and $\\vec r=(5,-2,1)+\\mu(4,4,6)$<br />(2) Direction ratios: $(4,6,6)$ and $(4,4,6)$<br />(3) Cross product: $(0,12,-8)$<br />(4) $\\vec{RP}=(-2,4,-1)$<br />(5) Shortest distance is $\\sqrt{13}/4$<br />(6) It gives angle between runways"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:29:28 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a92c9a589ce36f368b4775",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Prove that for $x \\in (-1,1)$, $\\tan^{-1}x + \\tan^{-1}\\left(\\frac{1-x}{1+x}\\right) = \\frac{\\pi}{4}$.",
+  "answeroption": "C",
+  "explanation": "Let $A = \\tan^{-1}x$ and $B = \\tan^{-1}\\left(\\frac{1-x}{1+x}\\right)$.<br /><br />Using tangent addition formula<br /><br />$A+B = \\tan^{-1}\\left(\\frac{x + \\frac{1-x}{1+x}}{1 - x\\left(\\frac{1-x}{1+x}\\right)}\\right)$.<br /><br />Simplify numerator: $x(1+x)+1-x = x^2+1$.<br /><br />Simplify denominator: $1+x-x(1-x) = 1+x^2$.<br /><br />Thus expression becomes $\\tan^{-1}(1)$.<br /><br />Since $\\tan^{-1}(1) = \\frac{\\pi}{4}$.<br /><br />Hence proved.",
+  "explanation_image": [],
+  "options": {
+    "A": "Using $\\tan(A+B)$ gives $\\frac{1-x^2}{1+x^2}$, so the sum is $\\tan^{-1}\\left(\\frac{1-x^2}{1+x^2}\\right)$.",
+    "B": "Using $\\tan(A+B)$ gives $0$, so the sum is $\\tan^{-1}(0)=0$.",
+    "C": "Using $\\tan(A+B)$ gives $1$, so the sum is $\\tan^{-1}(1)=\\frac{\\pi}{4}$.",
+    "D": "Using $\\tan(A+B)$ gives $\\sqrt{3}$, so the sum is $\\tan^{-1}(\\sqrt{3})=\\frac{\\pi}{3}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:11:22 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "6992c25118a0395770f0519c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "68d1102328bf24ed03579fcf",
+  "subtopic": "698eb6089d20b56bde515bb7",
+  "question": "A transistor-based LC oscillator uses a resonant tank circuit with inductance $L=10\\,\\text{mH}$ and capacitance $C=0.10\\,\\mu\\text{F}$. Assume the oscillation frequency is approximately the resonant frequency\n\n $f_0=\\frac{1}{2\\pi\\sqrt{LC}}.$ \n\n(a) Calculate $f_0$.\n\n(b) Explain how the transistor (used as an amplifier) compensates for energy losses in the LC tank to maintain oscillations.\n\n(c) State the Barkhausen criterion and explain what happens when $|A\\beta|<1$ and when $|A\\beta|>1$.\n\n(d) A student claims: “Once oscillations start, the supply is not needed because LC will keep oscillating forever.” Evaluate this claim using energy-loss reasoning.\n\n(e) Draw a schematic block diagram of an oscillator showing: amplifier, feedback network (LC tank/feedback path), and indicate where the output is taken.",
+  "options": {
+    "A": "$f_0\\approx 5.0\\,\\text{kHz}$; transistor supplies energy each cycle to compensate losses; Barkhausen: net phase $0^{\\circ}$ and $|A\\beta|=1$ for steady amplitude; without supply, losses damp oscillations.",
+    "B": "$f_0\\approx 50\\,\\text{Hz}$; transistor removes energy from tank to keep oscillations; Barkhausen: $|A\\beta|=0$; without supply, oscillations increase.",
+    "C": "$f_0\\approx 0.5\\,\\text{MHz}$; LC oscillates forever without losses so supply is unnecessary; Barkhausen: phase condition not required.",
+    "D": "$f_0$ cannot be computed without transistor $\\beta$; oscillation frequency depends mainly on $\\beta$ not on $L$ and $C$."
+  },
+  "question_type": "LA",
+  "category": "Analysing, Evaluating, Creating",
+  "imageurl": null
+}

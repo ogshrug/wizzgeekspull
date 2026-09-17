@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8e1c4b490c7cde3593e6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "VSA",
+  "question": "A matrix $A$ of order $2$ satisfies $|A|=4$. Determine the value of $|\\operatorname{adj}A|$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Use the determinant relation</b><br>For a square matrix $A$ of order $n$, $$|\\operatorname{adj}A|=|A|^{n-1}$$<br><b>Step 2: Identify the order</b><br>The given matrix has order $2$. Therefore, $n=2$.<br><b>Step 3: Substitute the known value</b><br>Using $|A|=4$, $$|\\operatorname{adj}A|=4^{2-1}$$<br><b>Step 4: Simplify</b><br>Thus, $$|\\operatorname{adj}A|=4$$<br>Hence, the determinant of the adjoint matrix is $4$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$16$",
+    "B": "$8$",
+    "C": "$2$",
+    "D": "$4$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

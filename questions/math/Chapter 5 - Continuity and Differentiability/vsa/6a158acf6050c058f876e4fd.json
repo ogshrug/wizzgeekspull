@@ -1,0 +1,25 @@
+{
+  "id": "6a158acf6050c058f876e4fd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610140512f018fa94d84"
+  ],
+  "question_type": "VSA",
+  "question": "If $y^{x}=x^{y}$, then find $\\frac{dy}{dx}$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Apply logarithms to separate exponential variables**<br />Taking the natural logarithm on both sides of the equation $y^x = x^y$ allows us to simplify the exponents:<br />$\\log(y^x) = \\log(x^y) \\implies x\\log y = y\\log x$<br /><br />**Step 2: Differentiate both sides using implicit differentiation**<br />Differentiating with respect to $x$ requires applying the Product Rule to both sides:<br />$\\frac{d}{dx}(x) \\cdot \\log y + x \\cdot \\frac{d}{dx}(\\log y) = \\frac{d}{dx}(y) \\cdot \\log x + y \\cdot \\frac{d}{dx}(\\log x)$<br />$1 \\cdot \\log y + x \\cdot \\left(\\frac{1}{y} \\cdot \\frac{dy}{dx}\\right) = \\frac{dy}{dx} \\cdot \\log x + y \\cdot \\left(\\frac{1}{x}\\right)$<br />$\\log y + \\frac{x}{y}\\frac{dy}{dx} = \\log x \\cdot \\frac{dy}{dx} + \\frac{y}{x}$<br /><br />**Step 3: Group the derivative terms**<br />Move all terms containing $\\frac{dy}{dx}$ to the left side and all other terms to the right side:<br />$\\frac{x}{y}\\frac{dy}{dx} - \\log x \\cdot \\frac{dy}{dx} = \\frac{y}{x} - \\log y$<br />Factor out $\\frac{dy}{dx}$:<br />$\\frac{dy}{dx} \\cdot \\left(\\frac{x}{y} - \\log x\\right) = \\frac{y}{x} - \\log y$<br /><br />**Step 4: Solve for $\\frac{dy}{dx}$**<br />Find a common denominator for the terms inside the parentheses on both sides:<br />$\\frac{dy}{dx} \\cdot \\left(\\frac{x - y\\log x}{y}\\right) = \\frac{y - x\\log y}{x}$<br />Isolate the derivative expression:<br />$\\frac{dy}{dx} = \\frac{y(y - x\\log y)}{x(x - y\\log x)}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69aa79bb320763ee1b040675",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A school canteen prepares sandwiches and burgers. Each sandwich requires 2 slices of bread and 1 cheese slice; each burger requires 1 bun and 2 cheese slices. There are 16 slices of bread, 6 buns, and 20 cheese slices available. The profit on a sandwich is ₹10 and on a burger is ₹15. How many sandwiches and burgers should be prepared to maximize profit? Solve graphically.",
+  "answeroption": "D",
+  "explanation": "Let $x$ = sandwiches, $y$ = burgers prepared.<br /><br />Maximize $Z=10x+15y$<br /><br />Subject to:<br /><br />Bread: $2x \\leq 16\\implies x\\leq 8$<br /><br />Buns: $y \\leq 6$<br /><br />Cheese: $x+2y \\leq 20$<br /><br />$x,y\\geq0$<br /><br />Constraints:<br /><br />$x\\leq8$<br /><br />$y\\leq6$<br /><br />$x+2y\\leq20$<br /><br />Check intersections:<br /><br />$x=8, x+2y=20 \\implies 8+2y=20\\implies y=6$, so $(8,6)$<br /><br />$y=6, x+2*6=20\\implies x=8$ so $(8,6)$<br /><br />x-intercept from $x+2y=20, y=0 \\implies x=20$ but $x\\leq 8$<br /><br />y-intercept: $x=0, 2y=20\\implies y=10$ but $y\\leq 6$<br /><br />So possible vertices are $(0,0),(0,6),(8,0),(8,6)$<br /><br />Check $(0,6): 0+2*6=12\\leq20$, good<br /><br />$(8,0): 8+0\\leq 20$, good<br /><br />$(8,6):8+12=20$, ok<br /><br />Compute Z values:<br /><br />$(0,0):0$<br /><br />$(0,6):15*6=90$<br /><br />$(8,0):80$<br /><br />$(8,6):10*8+15*6=80+90=170$<br /><br />Max profit is ₹170 at $(8,6)$. Sandwiches: 8, Burgers: 6.",
+  "explanation_image": [],
+  "options": {
+    "A": "Prepare 8 sandwiches and 0 burgers; maximum profit ₹80.",
+    "B": "Prepare 0 sandwiches and 6 burgers; maximum profit ₹90.",
+    "C": "Prepare 6 sandwiches and 8 burgers; maximum profit ₹180.",
+    "D": "Prepare 8 sandwiches and 6 burgers; maximum profit ₹170."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:52:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

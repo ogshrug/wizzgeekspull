@@ -1,0 +1,30 @@
+{
+  "id": "69a86ba5b4df445c7f648c79",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "SA",
+  "question": "If $y = \\tan^{-1}(x) + \\tan^{-1}(y)$, find $\\frac{dy}{dx}$ at $x=1$ and $y=1$.",
+  "answeroption": "A",
+  "explanation": "Rewrite: $ y - \\tan^{-1}(y) = \\tan^{-1}(x)$<br /><br />Differentiate both sides w.r.t. $x$:<br /><br />Left: $\\frac{dy}{dx} - \\frac{1}{1 + y^2}\\frac{dy}{dx}$, Right: $\\frac{1}{1 + x^2}$<br /><br />So:<br /><br />$\\left(1 - \\frac{1}{1 + y^2}\\right)\\frac{dy}{dx} = \\frac{1}{1 + x^2}$<br /><br />$\\frac{y^2}{1 + y^2}\\frac{dy}{dx} = \\frac{1}{1 + x^2}$<br /><br />$\\implies \\frac{dy}{dx} = \\frac{1 + y^2}{y^2 (1 + x^2)}$<br /><br />At $x=1, y=1$:<br /><br />$\\frac{dy}{dx} = \\frac{1 + 1}{1 \\cdot (1 + 1)} = \\frac{2}{2} = 1$<br /><br />Final boxed answer: $\\boxed{1}$ at $x=1, y=1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$0$",
+    "C": "$\\frac{1}{2}$",
+    "D": "$2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:28:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

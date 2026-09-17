@@ -1,0 +1,29 @@
+{
+  "id": "69a9ae30d8e9ca3b293457d8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "VSA",
+  "question": "Let $I=\\int_0^1 \\frac{dx}{\\sqrt{1-x^2}}$. Use the substitution $x=\\sin\\theta$ to evaluate $I$.",
+  "answeroption": "C",
+  "explanation": "Let $x=\\sin\\theta$ so $dx=\\cos\\theta d\\theta$.<br /><br />When $x=0$, $\\theta=0$ and when $x=1$, $\\theta=\\frac{\\pi}{2}$.<br /><br />Substitute into the integral:<br /><br />$I = \\int_0^{\\pi/2} \\frac{\\cos\\theta}{\\sqrt{1-\\sin^2\\theta}} d\\theta$.<br /><br />Since $\\sqrt{1-\\sin^2\\theta}=\\cos\\theta$, the integrand becomes 1.<br /><br />Thus $I = \\int_0^{\\pi/2} d\\theta = \\left[\\theta\\right]_0^{\\pi/2} = \\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{4}$",
+    "B": "$1$",
+    "C": "$\\frac{\\pi}{2}$",
+    "D": "$\\pi$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:24:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

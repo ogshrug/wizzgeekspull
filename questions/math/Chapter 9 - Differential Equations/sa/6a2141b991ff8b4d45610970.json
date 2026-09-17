@@ -1,0 +1,26 @@
+{
+  "id": "6a2141b991ff8b4d45610970",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation $2x^{2}\\frac{dy}{dx}=y^{2}+2xy$.",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Divide both sides by $2x^2$ to obtain $\\frac{dy}{dx}=\\frac{y^2+2xy}{2x^2}$. Since the right-hand side depends only on $y/x$, the equation is homogeneous.<br /><br /><b>Step 2</b> Put $y=vx$. Then $\\frac{dy}{dx}=v+x\\frac{dv}{dx}$.<br /><br /><b>Step 3</b> Substituting into the equation gives $v+x\\frac{dv}{dx}=\\frac{v^2+2v}{2}$.<br /><br /><b>Step 4</b> Simplifying, $x\\frac{dv}{dx}=\\frac{v^2}{2}$. Therefore, $\\frac{dv}{v^2}=\\frac{dx}{2x}$.<br /><br /><b>Step 5</b> Integrating both sides, $\\int v^{-2}dv=\\int\\frac{1}{2x}dx$, giving $-\\frac{1}{v}=\\frac{1}{2}\\ln|x|+C$. Replacing $v$ by $y/x$, the general solution is $-\\frac{x}{y}=\\frac{1}{2}\\ln|x|+C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

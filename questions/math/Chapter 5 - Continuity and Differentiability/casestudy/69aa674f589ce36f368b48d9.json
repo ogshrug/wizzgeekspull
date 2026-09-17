@@ -1,0 +1,30 @@
+{
+  "id": "69aa674f589ce36f368b48d9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 4: Logistics and Implicit Derivatives with Inverse Trigonometric/Pythagorean Constraints**<br /><br />A shipping company models the relationship between distance $d$ (in km), truck speed $v$ (in km/h), and time $t$ (in hours) as $d^2 = v^2 + t^2$. Moreover, $\\theta = \\cos^{-1}\\left(\\frac{v}{d}\\right)$.<br /><br />(a) Find $\\frac{dv}{dt}$ using implicit differentiation, holding $d$ constant.<br /><br />(b) If $\\frac{dt}{dv}$ is positive, analyze how $\\theta$ changes with respect to $t$ as $t$ increases.<br /><br />(c) Prove or disprove: As $t \\to d$, $\\theta$ approaches its maximum possible value; determine this value explicitly.",
+  "answeroption": "D",
+  "explanation": "(a) Given $d$ constant, $d^2 = v^2 + t^2$.<br /><br />Differentiate both sides w.r.t. $t$:<br /><br />$0 = 2v \\frac{dv}{dt} + 2t$<br /><br />$\\implies \\frac{dv}{dt} = -\\frac{t}{v}$<br /><br />(b) $\\theta = \\cos^{-1}(\\frac{v}{d})$<br /><br />Differentiating $\\theta$ w.r.t $t$:<br /><br />$\\frac{d\\theta}{dt} = -\\frac{1}{\\sqrt{1-(v/d)^2}} \\cdot \\frac{1}{d} \\cdot \\frac{dv}{dt}$<br /><br />Plug in $\\frac{dv}{dt}$:<br /><br />$= -\\frac{1}{\\sqrt{1-(v/d)^2}} \\cdot \\frac{1}{d} \\cdot ( -\\frac{t}{v})$<br /><br />$= \\frac{t}{v d \\sqrt{1-(v/d)^2}}$<br /><br />But $d^2 = v^2 + t^2$,<br /><br />$\\implies 1 - (v/d)^2 = \\frac{d^2 - v^2}{d^2} = \\frac{t^2}{d^2}$<br /><br />So $\\sqrt{1 - (v/d)^2} = \\frac{t}{d}$<br /><br />$\\implies \\frac{d\\theta}{dt} = \\frac{t}{v d (t/d)} = \\frac{1}{v}$<br /><br />If $\\frac{dt}{dv} > 0$ then as $t$ increases, $\\theta$ increases at a rate $\\frac{1}{v}$.<br /><br />(c) As $t \\to d$, $v^2 \\to 0$ (since $d^2 - t^2 = v^2$). So $v \\to 0$.<br /><br />$\\theta = \\cos^{-1}(0/d) = \\cos^{-1}(0) = \\frac{\\pi}{2}$<br /><br />So YES, $\\theta$ approaches its maximum value $= \\frac{\\pi}{2}$ as $t$ approaches $d$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dv}{dt}=\\frac{t}{v}$<br />(b) $\\theta$ decreases as $t$ increases<br />(c) As $t\\to d$, $\\theta\\to0$",
+    "B": "(a) $\\frac{dv}{dt}=-\\frac{v}{t}$<br />(b) $\\frac{d\\theta}{dt}=v$<br />(c) Maximum value of $\\theta$ is $\\pi$",
+    "C": "(a) $\\frac{dv}{dt}=0$<br />(b) $\\theta$ remains constant<br />(c) As $t\\to d$, $\\theta\\to\\frac{\\pi}{4}$",
+    "D": "(a) $\\frac{dv}{dt}=-\\frac{t}{v}$<br />(b) $\\frac{d\\theta}{dt}=\\frac{1}{v}$, so $\\theta$ increases as $t$ increases when $v>0$<br />(c) As $t\\to d$, $v\\to0$ and $\\theta\\to\\cos^{-1}(0)=\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:34:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

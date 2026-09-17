@@ -1,0 +1,31 @@
+{
+  "id": "6a311281ed9d5eb2aa722a06",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\int_{0}^{2\\pi}\\cos^{2}x\\ dx=k\\int_{0}^{\\pi/2}\\cos^{2}x\\ dx,$ then the value of k is",
+  "answeroption": "A",
+  "explanation": "**Step 1: Evaluate the Integral from 0 to 2π**  \nWe know that $\\cos^2 x = \\frac{1 + \\cos 2x}{2}$.  \n$$\\int_{0}^{2\\pi} \\cos^2 x \\, dx = \\int_{0}^{2\\pi} \\frac{1 + \\cos 2x}{2} \\, dx = \\frac{1}{2} \\int_{0}^{2\\pi} 1 \\, dx + \\frac{1}{2} \\int_{0}^{2\\pi} \\cos 2x \\, dx$$  \n$$= \\frac{1}{2}[x]_{0}^{2\\pi} + \\frac{1}{2}\\left[\\frac{\\sin 2x}{2}\\right]_{0}^{2\\pi} = \\frac{1}{2}(2\\pi) + 0 = \\pi$$\n\n**Step 2: Evaluate the Integral from 0 to π/2**  \n$$\\int_{0}^{\\pi/2} \\cos^2 x \\, dx = \\int_{0}^{\\pi/2} \\frac{1 + \\cos 2x}{2} \\, dx = \\frac{1}{2}[x]_{0}^{\\pi/2} + \\frac{1}{2}\\left[\\frac{\\sin 2x}{2}\\right]_{0}^{\\pi/2}$$  \n$$= \\frac{1}{2}\\left(\\frac{\\pi}{2}\\right) + 0 = \\frac{\\pi}{4}$$\n\n**Step 3: Find the Value of k**  \nGiven: $\\int_{0}^{2\\pi} \\cos^2 x \\, dx = k \\int_{0}^{\\pi/2} \\cos^2 x \\, dx$  \nSubstitute the evaluated values: $\\pi = k \\cdot \\frac{\\pi}{4}$  \n$$k = 4$$  \nThus, the correct option is **A**.",
+  "explanation_image": [],
+  "options": {
+    "A": "4",
+    "B": "2",
+    "C": "1",
+    "D": "0"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

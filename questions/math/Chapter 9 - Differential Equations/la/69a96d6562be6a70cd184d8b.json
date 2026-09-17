@@ -1,0 +1,29 @@
+{
+  "id": "69a96d6562be6a70cd184d8b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "LA",
+  "question": "A differential equation is given by:\n$\\frac{dy}{dx} + y = xe^{-x}$\nFind the particular solution for $y(0) = 1$.",
+  "answeroption": "B",
+  "explanation": "It's a linear equation: $P(x) = 1$<br />The integrating factor $I.F. = e^{\\int 1 dx} = e^x$<br />Multiply both sides by $e^x$:<br />$e^x \\frac{dy}{dx} + y e^x = x$<br />$\\frac{d}{dx}(y e^x) = x$<br />Integrate both sides:<br />$\\int \\frac{d}{dx}(y e^x) dx = \\int x dx$<br />$y e^x = \\frac{x^2}{2} + C$<br />Apply $y(0) = 1$:<br />$1*e^0 = 0 + C \\implies C = 1$<br />Therefore,<br />$y e^x = \\frac{x^2}{2} + 1$<br />$y = \\frac{x^2}{2}e^{-x} + e^{-x}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\frac{x^2}{2}e^x+e^x$",
+    "B": "$y=\\frac{x^2}{2}e^{-x}+e^{-x}$",
+    "C": "$y=x^2e^{-x}+e^{-x}$",
+    "D": "$y=\\frac{x^2}{2}e^{-x}-e^{-x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:47:49 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

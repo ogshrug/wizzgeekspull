@@ -1,0 +1,26 @@
+{
+  "id": "6a30f1cced9d5eb2aa7229ee",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "VSA",
+  "question": "If the product of two positive numbers is 9, find the numbers so that the sum of their squares is minimum.",
+  "answeroption": "",
+  "explanation": "**Step 1: Define Variables and Objective Function**  \nLet the two positive numbers be $x$ and $y$. Given $xy = 9$, we have $y = \\frac{9}{x}$. We need to minimize the sum of squares: $S = x^2 + y^2 = x^2 + \\frac{81}{x^2}$.\n\n**Step 2: Differentiate and Find Critical Point**  \nDifferentiate $S$ with respect to $x$:  \n$$\\frac{dS}{dx} = 2x - \\frac{162}{x^3}$$  \nSet $\\frac{dS}{dx} = 0$ for minimum:  \n$$2x - \\frac{162}{x^3} = 0 \\Rightarrow 2x^4 = 162 \\Rightarrow x^4 = 81 \\Rightarrow x = 3$$  \n(since $x > 0$).\n\n**Step 3: Verify Minimum and Find Second Number**  \nSecond derivative test: $\\frac{d^2S}{dx^2} = 2 + \\frac{486}{x^4} > 0$ for all $x > 0$, confirming a minimum at $x = 3$. Then $y = \\frac{9}{3} = 3$.\n\n**Final Answer:**  \nThe numbers are $\\boxed{3 \\text{ and } 3}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

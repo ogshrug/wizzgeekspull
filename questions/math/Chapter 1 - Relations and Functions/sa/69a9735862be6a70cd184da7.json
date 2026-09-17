@@ -1,0 +1,29 @@
+{
+  "id": "69a9735862be6a70cd184da7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d47"
+  ],
+  "question_type": "SA",
+  "question": "Let $f: \\mathbb{N} \\to \\mathbb{N}$ be given by $f(n) = n^2 + n + 1$. Is $f$ invertible? Justify. If not, restrict the domain suitably to make $f$ invertible, and then find $f^{-1}$.",
+  "answeroption": "C",
+  "explanation": "Check invertibility:<br /><br />Is $f$ one-one?<br /><br />Let $f(n_1) = f(n_2)$<br /><br />$\\implies n_1^2 + n_1 + 1 = n_2^2 + n_2 + 1$<br /><br />$\\implies n_1^2 - n_2^2 + n_1 - n_2 = 0$<br /><br />$\\implies (n_1-n_2)(n_1+n_2+1) = 0$<br /><br />So, $n_1 = n_2$ or $n_1+n_2+1=0$. For $n_1, n_2\\in \\mathbb{N}$, the latter is impossible.<br /><br />So $f$ is one-one.<br /><br />Is $f$ onto?<br /><br />Let $k \\in \\mathbb{N}$, then $(n^2+n+1) = k$; is $k$ always attainable?<br /><br />Try $n=1: 3$, $n=2:7$, $n=3:13$, $n=4:21$, etc. Only $k$ in set $\\{3,7,13,21,...\\}$. Not all values in $\\mathbb{N}$.<br /><br />So, $f$ is not onto $\\mathbb{N}$, thus not invertible as a function from $\\mathbb{N}\\to\\mathbb{N}$.<br /><br />Restrict codomain to $\\text{Im}(f) = \\{n^2 + n + 1 : n\\in \\mathbb{N}\\}$; then $f$ is invertible.<br /><br />To find $f^{-1}$:<br /><br />Let $k = n^2 + n + 1$<br /><br />$\\implies n^2 + n + (1-k) = 0$<br /><br />$\\implies n = \\frac{-1 \\pm \\sqrt{1-4(1-k)}}{2}$<br /><br />But for $k \\in \\text{Im}(f)$ and $n \\in \\mathbb{N}$, the positive value works:<br /><br />$f^{-1}(k) = \\frac{-1 + \\sqrt{4k-3}}{2}$, for $k \\in \\text{Im}(f)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is invertible as a function from $\\mathbb{N}$ to $\\mathbb{N}$",
+    "B": "$f$ is not one-one, so it cannot be made invertible",
+    "C": "$f$ is not onto $\\mathbb{N}$; with codomain restricted to $\\operatorname{Im}(f)$, $f^{-1}(k)=\\dfrac{-1+\\sqrt{4k-3}}{2}$",
+    "D": "$f$ is onto but not one-one"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:13:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

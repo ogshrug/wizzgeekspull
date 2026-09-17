@@ -1,0 +1,30 @@
+{
+  "id": "69a9b6d8d30adc5083911b46",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "VSA",
+  "question": "Three cards are drawn successively with replacement from a well-shuffled deck of 52 cards. What is the probability of getting at least one ace?",
+  "answeroption": "D",
+  "explanation": "Let p = probability of NOT getting an ace in one draw = $\\frac{48}{52} = \\frac{12}{13}$<br />Probability of getting no ace in 3 draws = $\\left(\\frac{12}{13}\\right)^3$<br /><br />So, required probability $= 1 - \\left(\\frac{12}{13}\\right)^3$<br /><br />Answer: $\\boxed{1 - \\left(\\frac{12}{13}\\right)^3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\left(\\frac{1}{13}\\right)^3$",
+    "B": "$\\left(\\frac{12}{13}\\right)^3$",
+    "C": "$1-\\left(\\frac{1}{13}\\right)^3$",
+    "D": "$1-\\left(\\frac{12}{13}\\right)^3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:01:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

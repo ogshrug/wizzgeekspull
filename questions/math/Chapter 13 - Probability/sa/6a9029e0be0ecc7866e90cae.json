@@ -1,0 +1,29 @@
+{
+  "id": "6a9029e0be0ecc7866e90cae",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "SA",
+  "question": "Events $E_1,E_2,E_3$ form a partition of a sample space such that $P(E_1)=\\frac14$, $P(E_2)=\\frac12$ and $P(E_3)=\\frac14$. For an event $A$, $P(A|E_1)=\\frac15$, $P(A|E_2)=\\frac25$ and $P(A)=\\frac25$. Find $P(A|E_3)$.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Identification of the unknown probability</b><br>Let $P(A|E_3)=x$. The events $E_1,E_2,E_3$ form a partition, so the theorem of total probability can be applied.<br><b>Step 2: Total probability relation</b><br>$$P(A)=P(E_1)P(A|E_1)+P(E_2)P(A|E_2)+P(E_3)P(A|E_3)$$<br><b>Step 3: Substitution of the given values</b><br>$$\\frac25=\\frac14\\times\\frac15+\\frac12\\times\\frac25+\\frac14x$$<br><b>Step 4: Simplification</b><br>$$\\frac25=\\frac1{20}+\\frac15+\\frac{x}{4}=\\frac14+\\frac{x}{4}$$<br>Therefore, $$\\frac{x}{4}=\\frac25-\\frac14=\\frac{3}{20}$$ and hence $$x=\\frac35.$$<br><b>Step 5: Conclusion</b><br>Thus, $$\\boxed{P(A|E_3)=\\frac35}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{5}$",
+    "B": "$\\frac{1}{2}$",
+    "C": "$\\frac{4}{5}$",
+    "D": "$\\frac{3}{5}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

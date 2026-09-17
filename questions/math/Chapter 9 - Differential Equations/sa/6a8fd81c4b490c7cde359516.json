@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd81c4b490c7cde359516",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a7"
+  ],
+  "question_type": "SA",
+  "question": "Form the differential equation representing the family $y=ae^x+be^{-x}$, where $a$ and $b$ are arbitrary constants. Use successive differentiation and show clearly how the constants are removed.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1: Identify the number of parameters</b><br>The family $$y=ae^x+be^{-x}$$ contains two arbitrary constants, $a$ and $b$. Therefore, successive differentiation is required to obtain enough relations for their elimination.<br><b>Step 2: First differentiation</b><br>Differentiating with respect to $x$, $$\\frac{dy}{dx}=ae^x-be^{-x}.$$<br><b>Step 3: Second differentiation</b><br>Differentiating once more, $$\\frac{d^2y}{dx^2}=ae^x+be^{-x}.$$<br><b>Step 4: Compare with the original family</b><br>The right-hand side of the second derivative is exactly the expression for $y$. Hence, $$\\frac{d^2y}{dx^2}=y.$$ The arbitrary constants have therefore been eliminated without needing to determine their individual values.<br><b>Step 5: Required differential equation</b><br>Rearranging gives $$\\frac{d^2y}{dx^2}-y=0.$$ This equation is satisfied by every member of the original family.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}+y=0$",
+    "B": "$\\frac{d^2y}{dx^2}+\\frac{dy}{dx}-y=0$",
+    "C": "$\\frac{d^2y}{dx^2}-\\frac{dy}{dx}=0$",
+    "D": "$\\frac{d^2y}{dx^2}-y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

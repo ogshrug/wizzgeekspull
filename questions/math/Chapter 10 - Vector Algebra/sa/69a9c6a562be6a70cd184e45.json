@@ -1,0 +1,31 @@
+{
+  "id": "69a9c6a562be6a70cd184e45",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8c0",
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8c7"
+  ],
+  "question_type": "SA",
+  "question": "Given the vectors $\\vec{a} = 2\\hat{i} - 3\\hat{j} + 4\\hat{k}$ and $\\vec{b} = -\\hat{i} + 5\\hat{j} - 2\\hat{k}$, find a unit vector $\\vec{c}$ such that $(\\vec{a} + \\vec{b}) \\cdot \\vec{c} = 0$ and $\\vec{c}$ is perpendicular to $\\hat{j}$.",
+  "answeroption": "A",
+  "explanation": "First compute $\\vec{a} + \\vec{b}$:<br /><br />$\\vec{a} + \\vec{b} = (2 - 1)\\hat{i} + (-3 + 5)\\hat{j} + (4 - 2)\\hat{k} = \\hat{i} + 2\\hat{j} + 2\\hat{k}$.<br /><br />Let $\\vec{c} = x \\hat{i} + y \\hat{j} + z \\hat{k}$. Since $\\vec{c} \\perp \\hat{j}$, $y = 0$.<br /><br />Thus $\\vec{c} = x \\hat{i} + z \\hat{k}$.<br /><br />Impose $(\\vec{a}+\\vec{b})\\cdot\\vec{c}=0$:<br /><br />$x + 2z = 0 \\Rightarrow x = -2z$.<br /><br />Let $z=t$, then $x=-2t$.<br /><br />So $\\vec{c} = -2t\\hat{i} + t\\hat{k}$.<br /><br />For unit vector:<br /><br />$\\sqrt{(-2t)^2 + t^2} = 1$<br /><br />$\\sqrt{5t^2}=1 \\Rightarrow |t|=\\frac{1}{\\sqrt{5}}$.<br /><br />Taking $t=\\frac{1}{\\sqrt{5}}$ gives<br /><br />$\\vec{c} = -\\frac{2}{\\sqrt{5}}\\hat{i} + \\frac{1}{\\sqrt{5}}\\hat{k}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-\\frac{2}{\\sqrt{5}}\\hat{i}+\\frac{1}{\\sqrt{5}}\\hat{k}$",
+    "B": "$\\frac{1}{\\sqrt{5}}\\hat{i}+\\frac{2}{\\sqrt{5}}\\hat{k}$",
+    "C": "$-\\frac{1}{\\sqrt{5}}\\hat{i}+\\frac{2}{\\sqrt{5}}\\hat{k}$",
+    "D": "$-\\frac{2}{\\sqrt{5}}\\hat{i}+\\frac{1}{\\sqrt{5}}\\hat{j}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:08:37 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

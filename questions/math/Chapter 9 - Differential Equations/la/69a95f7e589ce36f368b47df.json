@@ -1,0 +1,29 @@
+{
+  "id": "69a95f7e589ce36f368b47df",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "LA",
+  "question": "A differential equation is given by:<br /><br />$\\frac{dy}{dx} = y^2 \\sin x$<br /><br />Find the particular solution given $y(0) = 1$.",
+  "answeroption": "B",
+  "explanation": "Given $\\frac{dy}{dx} = y^2 \\sin x$<br /><br />Separate variables:<br /><br />$\\frac{dy}{y^2} = \\sin x dx$<br /><br />Integrate:<br /><br />$\\int y^{-2} dy = \\int \\sin x dx$<br /><br />$-y^{-1} = -\\cos x + C$<br /><br />$-\\frac{1}{y} = -\\cos x + C$<br /><br />$\\frac{1}{y} = \\cos x - C$<br /><br />Now apply $y(0) = 1$:<br /><br />$1 = 1 - C$<br /><br />$C = 0$<br /><br />So the particular solution is:<br /><br />$\\frac{1}{y} = \\cos x$<br /><br />$y = \\frac{1}{\\cos x}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$y=\\sin x-2\\cos x$",
+    "B": "$y=\\sin x+2\\cos x$",
+    "C": "$y=2\\sin x+\\cos x$",
+    "D": "$y=\\cos x+2\\sin x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:48:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a8f050e2e54880055a0a6de",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f",
+    "6a13e9908c819562f933f980",
+    "6a13e9908c819562f933f981",
+    "6a13e9908c819562f933f982"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A calibration system uses the relation $R(V)=\\frac{100}{V}$ to calculate a quantity $R$ from an input value $V$, where $V>0$. During routine operation, $V$ is close to $10$, so the system replaces the nonlinear function with its linear approximation near $V=10$. For one observation, the recorded value is $V=9.9$. The technicians compare the approximated result with the exact value to measure the accuracy of the linear model.(a) Obtain the linear approximation of $R(V)$ near $V=10$.(b) Use the approximation and differentials to estimate $R(9.9)$.(c) Calculate the exact value and absolute error in the approximation.(d) Determine the percentage error and comment on the accuracy of the approximation.",
+  "answeroption": "D",
+  "explanation": "(a)For`R(V)=\\frac{100}{V}`the derivative is`R'(V)=-\\frac{100}{V^2}`At $V=10$,`R(10)=10\\quad\\text{and}\\quad R'(10)=-1`The linear approximation is`L(V)=R(10)+R'(10)(V-10)L(V)=10-(V-10)=20-V`(b)For $V=9.9$,`dV=9.9-10=-0.1`Using differentials,`dR=R'(10)dV=(-1)(-0.1)=0.1`Hence,`R(9.9)\\approx R(10)+dR=10.1`This agrees with`L(9.9)=20-9.9=10.1`(c)The exact value is`R(9.9)=\\frac{100}{9.9}=\\frac{1000}{99}`The absolute error is`\\left|\\frac{1000}{99}-\\frac{101}{10}\\right|=\\left|\\frac{10000-9999}{990}\\right|=\\frac{1}{990}`Thus, the absolute error is approximately $0.00101$.(d)The percentage error is`\\frac{\\frac{1}{990}}{\\frac{1000}{99}}\\times100=0.01\\%`Since the percentage error is only $0.01\\%$, the linear approximation is highly accurate for $V=9.9$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $L(V)=V$<br>(b) $R(9.9)\\approx9.9$<br>(c) Exact value $\\frac{1000}{99}$; absolute error $\\frac{19}{990}$<br>(d) Percentage error about $0.19\\%$",
+    "B": "(a) $L(V)=10+(V-10)=V$<br>(b) $R(9.9)\\approx9.9$<br>(c) Exact value $\\frac{1000}{99}$; absolute error about $0.201$<br>(d) Percentage error about $1.99\\%$",
+    "C": "(a) $L(V)=20+V$<br>(b) $R(9.9)\\approx29.9$<br>(c) Exact value $\\frac{1000}{99}$; absolute error about $19.799$<br>(d) Percentage error about $196\\%$",
+    "D": "(a) $L(V)=20-V$<br>(b) $R(9.9)\\approx10.1$<br>(c) Exact value $\\frac{1000}{99}$; absolute error $\\frac{1}{990}\\approx0.00101$<br>(d) Percentage error $0.01\\%$, so the approximation is highly accurate"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

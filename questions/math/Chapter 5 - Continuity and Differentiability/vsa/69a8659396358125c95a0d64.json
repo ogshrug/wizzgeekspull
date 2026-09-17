@@ -1,0 +1,29 @@
+{
+  "id": "69a8659396358125c95a0d64",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "Verify that the function $f(x) = \\frac{2x+3}{x-5}$ is continuous at $x = 6$.",
+  "answeroption": "D",
+  "explanation": "Find $\\lim_{x\\to 6} \\frac{2x+3}{x-5} = \\frac{2\\times 6 + 3}{6-5} = \\frac{12+3}{1} = 15$<br /><br />Also $f(6) = \\frac{2\\times 6 + 3}{6 - 5} = 15$<br /><br />Therefore, $\\lim_{x\\to 6} f(x) = f(6)$. So $f(x)$ is continuous at $x=6$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The function is discontinuous at $x=6$ because the denominator is zero",
+    "B": "$\\lim_{x\\to6}f(x)=12$ and $f(6)=15$, so it is not continuous",
+    "C": "$\\lim_{x\\to6}f(x)=0$, so it is continuous",
+    "D": "$\\lim_{x\\to6}f(x)=f(6)=15$, so it is continuous at $x=6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:02:11 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

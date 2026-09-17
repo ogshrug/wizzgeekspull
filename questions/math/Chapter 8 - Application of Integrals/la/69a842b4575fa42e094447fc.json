@@ -1,0 +1,32 @@
+{
+  "id": "69a842b4575fa42e094447fc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "Find the area bounded by the circle $x^2+y^2=9$ and the straight line $y = x$.",
+  "answeroption": "B",
+  "explanation": "Intersection points satisfy $x^2+x^2=9 \\Rightarrow 2x^2=9 \\Rightarrow x=\\pm\\frac{3}{\\sqrt{2}}$.<br /><br />Area in first quadrant $= \\int_{0}^{\\frac{3}{\\sqrt{2}}} (\\sqrt{9-x^2}-x)dx$.<br /><br />Evaluating gives $\\frac{9\\pi}{8}$ for one quadrant.<br /><br />Doubling for symmetry gives total area $= \\frac{9\\pi}{4}$ square units.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69a842b4575fa42e094447fc/1778585303-0.jpeg?t=1778585303576"
+  ],
+  "options": {
+    "A": "$\\frac{9\\pi}{8}$ square units",
+    "B": "$\\frac{9\\pi}{4}$ square units",
+    "C": "$\\frac{9\\pi}{2}$ square units",
+    "D": "$9\\pi$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 14:33:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:30:50 GMT"
+}

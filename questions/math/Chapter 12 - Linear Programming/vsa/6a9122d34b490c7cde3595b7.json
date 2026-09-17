@@ -1,0 +1,29 @@
+{
+  "id": "6a9122d34b490c7cde3595b7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "VSA",
+  "question": "The corner points of a feasible region are $(0,0)$, $(5,0)$, $(3,2)$ and $(0,4)$. For $Z=4x+5y$, identify the optimal feasible solution when $Z$ is to be maximised.",
+  "answeroption": "D",
+  "explanation": "Step 1: For a linear programming problem, an optimal value, when it exists, occurs at a corner point of the feasible region.<br>Step 2: Evaluate $Z=4x+5y$ at $(0,0)$: $Z=0$.<br>Step 3: At $(5,0)$, $Z=4(5)+5(0)=20$. At $(3,2)$, $Z=4(3)+5(2)=12+10=22$.<br>Step 4: At $(0,4)$, $Z=4(0)+5(4)=20$.<br>Step 5: Comparing the values $0,20,22,20$, the greatest value is $22$.<br>Therefore, the optimal feasible solution for maximisation is $(3,2)$, and the corresponding maximum value is $Z=22$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(5,0)$ with maximum value $20$",
+    "B": "$(0,4)$ with maximum value $20$",
+    "C": "$(0,0)$ with maximum value $0$",
+    "D": "$(3,2)$ with maximum value $22$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

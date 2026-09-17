@@ -1,0 +1,28 @@
+{
+  "id": "6a227987864be73cfcf6d1f6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "SA",
+  "question": "Find the shortest distance between the lines : $\\vec{r}=(2\\hat{i}-\\hat{j}+3\\hat{k})+\\lambda(\\hat{i}-2\\hat{j}+3\\hat{k})$ and $\\vec{r}=(\\hat{i}+4\\hat{k})+\\mu(3\\hat{i}-6\\hat{j}+9\\hat{k})$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Analyze the direction vectors of the lines. For the first line, $\\vec{b_1} = \\hat{i} - 2\\hat{j} + 3\\hat{k}$. For the second line, $\\vec{b_2} = 3\\hat{i} - 6\\hat{j} + 9\\hat{k}$.<br />**Step 2:** Notice that $\\vec{b_2} = 3(\\hat{i} - 2\\hat{j} + 3\\hat{k}) = 3\\vec{b_1}$. Because their direction vectors are proportional, the lines are strictly parallel.<br />**Step 3:** The shortest distance $d$ between parallel lines is given by the formula $d = \\frac{|(\\vec{a_2} - \\vec{a_1}) \\times \\vec{b}|}{|\\vec{b}|}$, where $\\vec{b}$ is the common direction vector $\\hat{i} - 2\\hat{j} + 3\\hat{k}$.<br />**Step 4:** Extract the position vectors: $\\vec{a_1} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$ and $\\vec{a_2} = \\hat{i} + 0\\hat{j} + 4\\hat{k}$. Calculate their difference: $\\vec{a_2} - \\vec{a_1} = -\\hat{i} + \\hat{j} + \\hat{k}$.<br />**Step 5:** Calculate the cross product $(\\vec{a_2} - \\vec{a_1}) \\times \\vec{b} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\-1&1&1\\\\1&-2&3\\end{vmatrix} = \\hat{i}(3 - (-2)) - \\hat{j}(-3 - 1) + \\hat{k}(2 - 1) = 5\\hat{i} + 4\\hat{j} + \\hat{k}$.<br />**Step 6:** Compute the magnitude of this cross product: $\\sqrt{5^2 + 4^2 + 1^2} = \\sqrt{25 + 16 + 1} = \\sqrt{42}$.<br />**Step 7:** Compute the magnitude of $\\vec{b}$: $|\\vec{b}| = \\sqrt{1^2 + (-2)^2 + 3^2} = \\sqrt{1 + 4 + 9} = \\sqrt{14}$.<br />**Step 8:** Finally, calculate the distance: $d = \\frac{\\sqrt{42}}{\\sqrt{14}} = \\sqrt{\\frac{42}{14}} = \\sqrt{3}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8d6ff0eb84c621ac738dc5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "SA",
+  "question": "A student claims that $\\sin^{-1}(\\sin\\theta)=\\theta$ for every real value of $\\theta$. Examine the claim for $\\theta=\\frac{4\\pi}{3}$ and give mathematical justification.",
+  "answeroption": "A",
+  "explanation": "<b>Principal value restriction</b><br>The principal value range of $\\sin^{-1}x$ is $$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right].$$ The angle $\\frac{4\\pi}{3}$ does not lie in this interval, so it cannot directly be the value of $\\sin^{-1}\\left(\\sin\\frac{4\\pi}{3}\\right)$.<br><br><b>Evaluation of the sine value</b><br>Using the quadrant of $\\frac{4\\pi}{3}$, $$\\sin\\frac{4\\pi}{3}=-\\frac{\\sqrt{3}}{2}.$$<br><br><b>Selection of the principal angle</b><br>The angle in $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$ whose sine is $-\\frac{\\sqrt{3}}{2}$ is $-\\frac{\\pi}{3}$. Hence, $$\\sin^{-1}\\left(\\sin\\frac{4\\pi}{3}\\right)=-\\frac{\\pi}{3}.$$<br><br><b>Conclusion about the claim</b><br>Since $-\\frac{\\pi}{3}\\neq\\frac{4\\pi}{3}$, the claim is false for arbitrary real $\\theta$. The equality holds directly only when $\\theta$ lies in the principal value range of $\\sin^{-1}x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The claim is false; $\\sin^{-1}\\left(\\sin\\frac{4\\pi}{3}\\right)=-\\frac{\\pi}{3}$",
+    "B": "The claim is true; $\\sin^{-1}\\left(\\sin\\frac{4\\pi}{3}\\right)=\\frac{4\\pi}{3}$",
+    "C": "The claim is false; $\\sin^{-1}\\left(\\sin\\frac{4\\pi}{3}\\right)=\\frac{\\pi}{3}$",
+    "D": "The claim is false; $\\sin^{-1}\\left(\\sin\\frac{4\\pi}{3}\\right)=-\\frac{2\\pi}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

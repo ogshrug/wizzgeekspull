@@ -1,0 +1,29 @@
+{
+  "id": "6a8ec21cbe0ecc7866e90bb6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d88"
+  ],
+  "question_type": "SA",
+  "question": "Verify the Mean Value Theorem for $$f(x)=x^2-4x-3$$ on $[1,4]$ and determine the value of $c$ satisfying the theorem.",
+  "answeroption": "A",
+  "explanation": "<b>Verification of continuity and differentiability</b><br>The given polynomial is continuous on $[1,4]$ and differentiable on $(1,4)$.<br><b>Secant slope</b><br>$$f(1)=1-4-3=-6$$<br>and $$f(4)=16-16-3=-3.$$<br>Hence, $$\\frac{f(4)-f(1)}{4-1}=\\frac{-3-(-6)}{3}=1.$$<br><b>Application of the Mean Value Theorem</b><br>$$f'(x)=2x-4.$$<br>Therefore, $$f'(c)=1$$ gives $$2c-4=1.$$<br>Thus, $$c=\\frac{5}{2}.$$<br>Since $\\frac{5}{2}\\in(1,4)$, the Mean Value Theorem is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "The theorem is applicable and $c=\\frac{5}{2}$.",
+    "B": "The theorem is applicable and $c=\\frac{3}{2}$.",
+    "C": "The theorem is applicable and $c=3$.",
+    "D": "The theorem is not applicable because the endpoint values are unequal."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

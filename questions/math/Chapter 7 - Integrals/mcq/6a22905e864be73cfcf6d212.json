@@ -1,0 +1,31 @@
+{
+  "id": "6a22905e864be73cfcf6d212",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int_{a}^{b} f(x) dx$ is equal to:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** A fundamental property of definite integrals states that integrating $f(x)$ from $a$ to $b$ is equal to integrating $f(a+b-x)$ over the same limits.<br />**Step 2:** This is written as $\\int_a^b f(x) dx = \\int_a^b f(a + b - x) dx$.<br />**Step 3:** This is proved using the substitution $t = a + b - x$. Option B correctly reflects this property.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\int_{a}^{b} f(a-x) dx$",
+    "B": "$\\int_{a}^{b} f(a+b-x) dx$",
+    "C": "$\\int_{a}^{b} f(x-(a+b)) dx$",
+    "D": "$\\int_{a}^{b} f((a-x)+(b-x)) dx$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8fc50a2e54880055a0a6f5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int x^2e^x\\,dx$ by repeated application of integration by parts and simplify the result completely.",
+  "answeroption": "B",
+  "explanation": "For integration by parts, use the formula $\\int u\\,dv=uv-\\int v\\,du$. Take $u=x^2$ and $dv=e^x\\,dx$. Then $du=2x\\,dx$ and $v=e^x$. Therefore,<br><br>$$\\int x^2e^x\\,dx=x^2e^x-2\\int xe^x\\,dx$$<br><br>The remaining integral $\\int xe^x\\,dx$ is again evaluated by integration by parts. Take $u=x$ and $dv=e^x\\,dx$. Then $du=dx$ and $v=e^x$. Hence,<br><br>$$\\int xe^x\\,dx=xe^x-\\int e^x\\,dx$$<br><br>$$=xe^x-e^x$$<br><br>Substituting this result in the original expression,<br><br>$$\\int x^2e^x\\,dx=x^2e^x-2(xe^x-e^x)+C$$<br><br>$$=x^2e^x-2xe^x+2e^x+C$$<br><br>Taking $e^x$ common,<br><br>$$\\int x^2e^x\\,dx=e^x(x^2-2x+2)+C$$<br><br>Therefore, the required integral is $e^x(x^2-2x+2)+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^x(x^2+2x+2)+C$",
+    "B": "$e^x(x^2-2x+2)+C$",
+    "C": "$e^x(x^2-2x-2)+C$",
+    "D": "$e^x(x^2-x+1)+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

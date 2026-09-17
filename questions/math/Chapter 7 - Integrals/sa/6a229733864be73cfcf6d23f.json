@@ -1,0 +1,28 @@
+{
+  "id": "6a229733864be73cfcf6d23f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{1}{x[(log~x)^{2}-3~log~x-4]}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The integrand contains logarithmic terms and an $x$ in the denominator, suggesting a substitution. Let $t = \\log x$. Differentiating both sides with respect to $x$ gives $dt = \\frac{1}{x} dx$.<br />**Step 2:** Substitute these into the integral. The $dx/x$ term is completely replaced by $dt$, transforming the complex integral into a simpler rational integral: $\\int \\frac{dt}{t^2 - 3t - 4}$.<br />**Step 3:** The denominator is a quadratic polynomial that can be factored. Find two numbers that multiply to $-4$ and add to $-3$. These are $-4$ and $1$. So, $t^2 - 3t - 4 = (t-4)(t+1)$. The integral becomes $\\int \\frac{dt}{(t-4)(t+1)}$.<br />**Step 4:** Apply partial fraction decomposition. We express $\\frac{1}{(t-4)(t+1)} = \\frac{A}{t-4} + \\frac{B}{t+1}$. Multiply by the common denominator: $1 = A(t+1) + B(t-4)$. To find $A$, set $t = 4$: $1 = A(5) \\Rightarrow A = \\frac{1}{5}$. To find $B$, set $t = -1$: $1 = B(-5) \\Rightarrow B = -\\frac{1}{5}$.<br />**Step 5:** Substitute $A$ and $B$ back into the integral: $\\int (\\frac{1/5}{t-4} - \\frac{1/5}{t+1}) dt$. Integrate each term to get $\\frac{1}{5}\\log|t-4| - \\frac{1}{5}\\log|t+1| + C$. Use logarithm properties to combine: $\\frac{1}{5} \\log|\\frac{t-4}{t+1}| + C$. Finally, substitute back $t = \\log x$ to get the ultimate answer: $\\frac{1}{5} \\log|\\frac{\\log x - 4}{\\log x + 1}| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

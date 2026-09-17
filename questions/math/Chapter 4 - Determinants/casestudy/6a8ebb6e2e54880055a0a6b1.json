@@ -1,0 +1,30 @@
+{
+  "id": "6a8ebb6e2e54880055a0a6b1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics group is investigating the determinant of a product of two square matrices. They select $A=\\begin{bmatrix}2 & 1\\\\3 & 2\\end{bmatrix}$ and $B=\\begin{bmatrix}1 & -1\\\\2 & 3\\end{bmatrix}$. One student proposes that the determinant of $AB$ can be predicted from the individual determinants without first multiplying the matrices. The group decides to calculate both sides independently and compare the results to verify the proposed property.<br><br><b>(a)</b> Calculate $|A|$.<br><br><b>(b)</b> Calculate $|B|$ and hence predict $|AB|$.<br><br><b>(c)</b> Obtain the matrix $AB$.<br><br><b>(d)</b> Evaluate $|AB|$ directly and verify the proposed determinant property.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>$$|A|=\\begin{vmatrix}2 & 1\\\\3 & 2\\end{vmatrix}=2(2)-1(3)=1$$<br>Therefore, $|A|=1$.<br><br><b>(b)</b><br>$$|B|=\\begin{vmatrix}1 & -1\\\\2 & 3\\end{vmatrix}=1(3)-(-1)(2)=5$$<br>Using $|AB|=|A||B|$, the predicted value is<br>$$|AB|=(1)(5)=5$$<br><br><b>(c)</b><br>$$AB=\\begin{bmatrix}2 & 1\\\\3 & 2\\end{bmatrix}\\begin{bmatrix}1 & -1\\\\2 & 3\\end{bmatrix}$$<br>$$AB=\\begin{bmatrix}2+2 & -2+3\\\\3+4 & -3+6\\end{bmatrix}=\\begin{bmatrix}4 & 1\\\\7 & 3\\end{bmatrix}$$<br><br><b>(d)</b><br>$$|AB|=\\begin{vmatrix}4 & 1\\\\7 & 3\\end{vmatrix}=4(3)-1(7)=5$$<br>Also,<br>$$|A||B|=(1)(5)=5$$<br>Thus,<br>$$|AB|=|A||B|$$<br>The proposed property is verified for the given matrices.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|A|=1$<br>(b) $|B|=5$ and predicted $|AB|=5$<br>(c) $AB=\\begin{bmatrix}4&1\\\\7&3\\end{bmatrix}$<br>(d) $|AB|=5=|A||B|$",
+    "B": "(a) $|A|=1$<br>(b) $|B|=1$ and predicted $|AB|=1$<br>(c) $AB=\\begin{bmatrix}4&1\\\\7&3\\end{bmatrix}$<br>(d) $|AB|=5$, so $|AB|\\neq|A||B|$",
+    "C": "(a) $|A|=5$<br>(b) $|B|=1$ and predicted $|AB|=5$<br>(c) $AB=\\begin{bmatrix}4&7\\\\1&3\\end{bmatrix}$<br>(d) $|AB|=5=|A||B|$",
+    "D": "(a) $|A|=-1$<br>(b) $|B|=5$ and predicted $|AB|=-5$<br>(c) $AB=\\begin{bmatrix}4&1\\\\7&3\\end{bmatrix}$<br>(d) $|AB|=5$, so the determinant changes sign"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a9147e84b490c7cde3595c8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e0",
+    "6a13e844d837c8c7efa6b8e1",
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematical model uses non-negative variables $x$ and $y$ satisfying $x+3y\\leq60$, $x+y\\geq10$ and $x\\leq y$. The quantity to be maximised is $Z=3x+9y$. Analysis of the restrictions gives the feasible corner points $A(0,10)$, $B(5,5)$, $C(15,15)$ and $D(0,20)$. While comparing these points, students notice that more than one feasible solution may give the same best value. They also examine points between such solutions to understand the meaning of an optimal feasible solution when the optimum is not restricted to a single point.<br><br><b>(a)</b> Determine whether the point $(12,10)$ is a feasible solution or an infeasible solution.<br><br><b>(b)</b> Evaluate $Z$ at the four given feasible corner points.<br><br><b>(c)</b> Identify all the given corner points that are optimal feasible solutions for maximisation.<br><br><b>(d)</b> Verify that $(6,18)$ is also an optimal feasible solution.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>For $(12,10)$,<br>$$12+3(10)=42\\leq60$$<br>and<br>$$12+10=22\\geq10$$<br>However, the restriction $x\\leq y$ requires $12\\leq10$, which is false. Therefore, $(12,10)$ does not satisfy all the restrictions and is an infeasible solution.<br><br><b>(b)</b><br>The quantity is $Z=3x+9y$.<br><br>At $A(0,10)$,<br>$$Z=3(0)+9(10)=90$$<br>At $B(5,5)$,<br>$$Z=3(5)+9(5)=15+45=60$$<br>At $C(15,15)$,<br>$$Z=3(15)+9(15)=45+135=180$$<br>At $D(0,20)$,<br>$$Z=3(0)+9(20)=180$$<br><br><b>(c)</b><br>The maximum value among the given feasible corner points is 180. It is obtained at both $C(15,15)$ and $D(0,20)$. Therefore, both $C$ and $D$ are optimal feasible solutions.<br><br><b>(d)</b><br>For $(6,18)$,<br>$$6+3(18)=60\\leq60$$<br>$$6+18=24\\geq10$$<br>and<br>$$6\\leq18$$<br>with both coordinates non-negative. Hence, $(6,18)$ is feasible.<br><br>Now,<br>$$Z=3(6)+9(18)=18+162=180$$<br>This equals the maximum value obtained at $C$ and $D$. Therefore, $(6,18)$ is also an optimal feasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(12,10)$ is feasible<br>(b) $Z_A=90$, $Z_B=60$, $Z_C=180$, $Z_D=180$<br>(c) Only $C$ is optimal<br>(d) $(6,18)$ is not feasible",
+    "B": "(a) $(12,10)$ is infeasible because $x\\leq y$ fails<br>(b) $Z_A=90$, $Z_B=60$, $Z_C=180$, $Z_D=180$<br>(c) Both $C(15,15)$ and $D(0,20)$ are optimal corner points<br>(d) $(6,18)$ is feasible and also gives the maximum value $180$",
+    "C": "(a) $(12,10)$ is infeasible<br>(b) $Z_A=90$, $Z_B=60$, $Z_C=150$, $Z_D=180$<br>(c) Only $D$ is optimal<br>(d) $(6,18)$ gives $Z=168$",
+    "D": "(a) $(12,10)$ is feasible<br>(b) $Z_A=60$, $Z_B=90$, $Z_C=180$, $Z_D=180$<br>(c) $A$ and $B$ are optimal<br>(d) $(6,18)$ gives a value greater than $180$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

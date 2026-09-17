@@ -1,0 +1,29 @@
+{
+  "id": "6a21671091ff8b4d456109ad",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7",
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An NGO organises a charity event in which they decide to distribute woollen caps to protect children from winter. The caps to be distributed are in three separate boxes, Box I has 30 red caps, Box II has 20 red and 10 green caps, and Box III has 30 green caps. The probability that a Box i is selected and a cap picked out is $\\frac{i}{6}$ where $i=1,2,3$. Based on the above information, answer the following questions : A person selects a cap.<br /><br />**(i)** What is the probability that he selects a red cap ?<br />**(ii)** If he selects a green cap, what is the probability that the cap has come from Box II ?",
+  "answeroption": "",
+  "explanation": "<b>(i)</b><br /><br /><b>Step 1</b> Let $E_1, E_2,$ and $E_3$ be the events of selecting Box I, Box II, and Box III respectively. Their select probabilities are $P(E_1) = \\frac{1}{6}$, $P(E_2) = \\frac{2}{6} = \\frac{1}{3}$, and $P(E_3) = \\frac{3}{6} = \\frac{1}{2}$. Let $R$ be the event of drawing a red cap.<br /><br /><b>Step 2</b> Find the conditional probabilities of drawing a red cap from each box based on its contents: Box I has all red ($P(R|E_1) = 1$), Box II has 20 red out of 30 ($P(R|E_2) = \\frac{2}{3}$), and Box III has no red caps ($P(R|E_3) = 0$).<br /><br /><b>Step 3</b> Use the Theorem of Total Probability to find $P(R)$: $P(R) = P(E_1)P(R|E_1) + P(E_2)P(R|E_2) + P(E_3)P(R|E_3) = \\left(\\frac{1}{6}\\right)(1) + \\left(\\frac{2}{6}\\right)\\left(\\frac{2}{3}\\right) + \\left(\\frac{3}{6}\\right)(0) = \\frac{1}{6} + \\frac{4}{18} = \\frac{7}{18}$.<br /><br /><b>(ii)</b><br /><br /><b>Step 1</b> Let $G$ be the event of drawing a green cap. The total probability of drawing a green cap is the complement of drawing a red cap: $P(G) = 1 - P(R) = 1 - \\frac{7}{18} = \\frac{11}{18}$. Alternatively, summing the box components: $P(G) = \\left(\\frac{1}{6}\\right)(0) + \\left(\\frac{2}{6}\\right)\\left(\\frac{1}{3}\\right) + \\left(\\frac{3}{6}\\right)(1) = \\frac{2}{18} + \\frac{9}{18} = \\frac{11}{18}$.<br /><br /><b>Step 2</b> We use Bayes' Theorem to find the probability that the cap came from Box II given it is green, $P(E_2|G)$: $P(E_2|G) = \\frac{P(E_2) \\cdot P(G|E_2)}{P(G)}$. Substituting our values gives: $P(E_2|G) = \\frac{\\left(\\frac{2}{6}\\right)\\left(\\frac{1}{3}\\right)}{\\frac{11}{18}} = \\frac{\\frac{2}{18}}{\\frac{11}{18}} = \\frac{2}{11}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

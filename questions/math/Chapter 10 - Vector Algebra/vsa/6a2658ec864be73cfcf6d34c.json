@@ -1,0 +1,28 @@
+{
+  "id": "6a2658ec864be73cfcf6d34c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c8"
+  ],
+  "question_type": "VSA",
+  "question": "Write the projection of the vector $(\\vec{b}+\\vec{c})$ on the vector $\\vec{a}$, where $\\vec{a}=2\\hat{i}-2\\hat{j}+\\hat{k}$, $\\vec{b}=\\hat{i}+2\\hat{j}-2\\hat{k}$ and $\\vec{c}=2\\hat{i}-\\hat{j}+4\\hat{k}$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** We are given three vectors $\\vec{a}, \\vec{b},$ and $\\vec{c}$ and need to find the scalar projection of the combined vector $(\\vec{b}+\\vec{c})$ onto vector $\\vec{a}$. First, let's find the component sum vector $(\\vec{b}+\\vec{c})$ by adding their matching vector unit vectors: $(\\vec{b}+\\vec{c}) = (1+2)\\hat{i} + (2-1)\\hat{j} + (-2+4)\\hat{k} = 3\\hat{i} + \\hat{j} + 2\\hat{k}$.<br />**Step 2:** The formula for the scalar projection of any general vector $\\vec{v}$ onto another vector $\\vec{a}$ is given by the dot product quotient: $\\text{Projection} = \\frac{\\vec{v} \\cdot \\vec{a}}{|\\vec{a}|}$. In this case, our vector is $\\vec{v} = (\\vec{b}+\\vec{c})$. Let's compute the dot product in the numerator: $(\\vec{b}+\\vec{c}) \\cdot \\vec{a} = (3\\hat{i} + \\hat{j} + 2\\hat{k}) \\cdot (2\\hat{i} - 2\\hat{j} + \\hat{k}) = (3)(2) + (1)(-2) + (2)(1) = 6 - 2 + 2 = 6$.<br />**Step 3:** Next, compute the magnitude of target vector $\\vec{a}$ in the denominator using the square-root sum formula: $|\\vec{a}| = \\sqrt{2^2 + (-2)^2 + 1^2} = \\sqrt{4 + 4 + 1} = \\sqrt{9} = 3$. Substituting the calculated dot product and magnitude values back into our projection formula yields the final numeric result: $\\text{Projection} = \\frac{6}{3} = 2$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2022-3",
+  "set_key": [
+    "2022-3-1",
+    "2022-3-2",
+    "2022-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a266a7f864be73cfcf6d375",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{e^{x}}{\\sqrt{5-4e^{x}-e^{2x}}}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use variable substitution to simplify the exponential terms. Let $t = e^x$, then differentiating gives $dt = e^x dx$. Substituting these into the expression transforms the integral into: $\\int \\frac{dt}{\\sqrt{5 - 4t - t^2}}$.<br />**Step 2:** Complete the square for the quadratic expression under the radical root. Factor out a negative sign: $5 - (t^2 + 4t)$. Add and subtract the square of half the coefficient of $t$, which is $2^2 = 4$: $5 - (t^2 + 4t + 4 - 4) = 5 - (t+2)^2 + 4 = 9 - (t+2)^2 = 3^2 - (t+2)^2$.<br />**Step 3:** Substitute this back under the square root radical to get: $\\int \\frac{dt}{\\sqrt{3^2 - (t+2)^2}}$. This matches the standard integral form $\\int \\frac{1}{\\sqrt{a^2-u^2}} du = \\sin^{-1}(\\frac{u}{a}) + C$. Here $a=3$ and $u=t+2$, so integrating yields: $\\sin^{-1}\\left(\\frac{t+2}{3}\\right) + C$. Substitute back $t = e^x$ to find the final answer: $\\sin^{-1}\\left(\\frac{e^x+2}{3}\\right) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

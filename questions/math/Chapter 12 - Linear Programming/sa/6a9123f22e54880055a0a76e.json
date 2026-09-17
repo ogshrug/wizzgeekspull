@@ -1,0 +1,29 @@
+{
+  "id": "6a9123f22e54880055a0a76e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8"
+  ],
+  "question_type": "SA",
+  "question": "Two types of food packets $X$ and $Y$ provide nutrients $P$ and $Q$. Each packet of $X$ provides $3$ units of $P$ and $1$ unit of $Q$, whereas each packet of $Y$ provides $1$ unit of $P$ and $2$ units of $Q$. A diet must contain at least $12$ units of $P$ and $10$ units of $Q$. If $x$ and $y$ are the numbers of packets of $X$ and $Y$, respectively:<br>(i) Obtain the linear constraints.<br>(ii) Examine whether $(2,4)$ satisfies all the constraints. Give reason.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Forming the nutrient-$P$ constraint</b><br>The total amount of nutrient $P$ is $3x+y$. Since at least $12$ units are required, $$3x+y\\geq12$$<br><b>Step 2: Forming the nutrient-$Q$ constraint</b><br>The total amount of nutrient $Q$ is $x+2y$. Therefore, $$x+2y\\geq10$$<br><b>Step 3: Writing the non-negative restrictions</b><br>The number of packets cannot be negative, so $$x\\geq0,\\quad y\\geq0$$<br><b>Step 4: Checking $(2,4)$</b><br>For the first constraint, $$3(2)+4=10<12$$ Hence, the nutrient-$P$ requirement is not satisfied. For the second constraint, $$2+2(4)=10\\geq10$$<br><b>Step 5: Conclusion</b><br>Although the second constraint and non-negative restrictions are satisfied, the first constraint fails. Therefore, $(2,4)$ does not satisfy all the given constraints.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $3x+y\\leq12$, $x+2y\\leq10$, $x,y\\geq0$<br>(ii) $(2,4)$ satisfies all the constraints",
+    "B": "(i) $3x+y\\geq12$, $x+2y\\geq10$, $x,y\\geq0$<br>(ii) $(2,4)$ does not satisfy all the constraints",
+    "C": "(i) $x+3y\\geq12$, $2x+y\\geq10$, $x,y\\geq0$<br>(ii) $(2,4)$ satisfies all the constraints",
+    "D": "(i) $3x+y\\geq12$, $x+2y\\leq10$, $x,y\\geq0$<br>(ii) $(2,4)$ satisfies all the constraints"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

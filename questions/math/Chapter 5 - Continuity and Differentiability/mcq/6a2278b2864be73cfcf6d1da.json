@@ -1,0 +1,31 @@
+{
+  "id": "6a2278b2864be73cfcf6d1da",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "If $f(x)=\\begin{cases}1,&\\text{if }x\\le3\\\\ax+b,&\\text{if }3<x<5\\\\7,&\\text{if }5\\le x\\end{cases}$ is continuous in $R$, then the values of $a$ and $b$ are:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** For $f(x)$ to be continuous on $\\mathbb{R}$, it must be continuous at the \"break points\" $x = 3$ and $x = 5$.<br />**Step 2:** Check continuity at $x = 3$. The Left Hand Limit (LHL) is $\\lim_{x \\to 3^-} f(x) = 1$. The Right Hand Limit (RHL) is $\\lim_{x \\to 3^+} (ax+b) = 3a+b$. For continuity, $LHL = RHL$, so $3a + b = 1$.<br />**Step 3:** Check continuity at $x = 5$. The LHL is $\\lim_{x \\to 5^-} (ax+b) = 5a+b$. The RHL is $\\lim_{x \\to 5^+} f(x) = 7$. For continuity, $5a + b = 7$.<br />**Step 4:** Solve the system of linear equations: (i) $3a+b=1$ and (ii) $5a+b=7$.<br />**Step 5:** Subtract equation (i) from equation (ii): $(5a+b) - (3a+b) = 7 - 1 \\implies 2a = 6 \\implies a = 3$.<br />**Step 6:** Substitute $a=3$ into equation (i): $3(3) + b = 1 \\implies 9 + b = 1 \\implies b = -8$. Therefore, $a=3, b=-8$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a=3$, $b=-8$",
+    "B": "$a=3$, $b=8$",
+    "C": "$a=-3$, $b=-8$",
+    "D": "$a=-3$, $b=8$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a22a0a7864be73cfcf6d26a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "If $\\sqrt{1-x^{2}}+\\sqrt{1-y^{2}}=a(x-y)$ prove that $\\frac{dy}{dx}=\\sqrt{\\frac{1-y^{2}}{1-x^{2}}}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** This complex implicit equation can be radically simplified using trigonometric substitution. Let $x = \\sin \\alpha$ and $y = \\sin \\beta$. The equation transforms into $\\sqrt{1-\\sin^2\\alpha} + \\sqrt{1-\\sin^2\\beta} = a(\\sin \\alpha - \\sin \\beta)$. Using the fundamental identity, this becomes $\\cos \\alpha + \\cos \\beta = a(\\sin \\alpha - \\sin \\beta)$.<br />**Step 2:** Apply standard sum-to-product trigonometric formulas. $\\cos \\alpha + \\cos \\beta = 2 \\cos(\\frac{\\alpha+\\beta}{2}) \\cos(\\frac{\\alpha-\\beta}{2})$. Similarly, $\\sin \\alpha - \\sin \\beta = 2 \\cos(\\frac{\\alpha+\\beta}{2}) \\sin(\\frac{\\alpha-\\beta}{2})$.<br />**Step 3:** Substitute these back into our equation: $2 \\cos(\\frac{\\alpha+\\beta}{2}) \\cos(\\frac{\\alpha-\\beta}{2}) = a [2 \\cos(\\frac{\\alpha+\\beta}{2}) \\sin(\\frac{\\alpha-\\beta}{2})]$. Cancel the common term $2 \\cos(\\frac{\\alpha+\\beta}{2})$ from both sides (assuming it's non-zero). This leaves $\\cos(\\frac{\\alpha-\\beta}{2}) = a \\sin(\\frac{\\alpha-\\beta}{2})$.<br />**Step 4:** Rearrange to form a single trigonometric function: $\\cot(\\frac{\\alpha-\\beta}{2}) = a$. Isolate the angle expression: $\\frac{\\alpha-\\beta}{2} = \\cot^{-1}(a)$, which means $\\alpha - \\beta = 2 \\cot^{-1}(a)$. Now, substitute the original variables back: $\\sin^{-1}x - \\sin^{-1}y = 2 \\cot^{-1}(a)$.<br />**Step 5:** Differentiate this entire equation with respect to $x$. Since $a$ is a constant, $2 \\cot^{-1}(a)$ is also a constant, and its derivative is strictly 0. We obtain $\\frac{1}{\\sqrt{1-x^2}} - \\frac{1}{\\sqrt{1-y^2}} \\frac{dy}{dx} = 0$. A simple algebraic rearrangement yields the final required proof: $\\frac{dy}{dx} = \\frac{\\sqrt{1-y^2}}{\\sqrt{1-x^2}} = \\sqrt{\\frac{1-y^2}{1-x^2}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

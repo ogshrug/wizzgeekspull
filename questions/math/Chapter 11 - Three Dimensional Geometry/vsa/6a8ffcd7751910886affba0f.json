@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffcd7751910886affba0f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "VSA",
+  "question": "Find the shortest distance between the lines $\\vec{r}=\\lambda\\hat{i}$ and $\\vec{r}=4\\hat{k}+\\mu\\hat{j}$.",
+  "answeroption": "B",
+  "explanation": "Step 1: For the first line, take $\\vec{a_1}=\\vec{0}$ and $\\vec{b_1}=\\hat{i}$. For the second line, $\\vec{a_2}=4\\hat{k}$ and $\\vec{b_2}=\\hat{j}$. Step 2: The shortest distance between two non-parallel lines is $$d=\\frac{|(\\vec{a_2}-\\vec{a_1})\\cdot(\\vec{b_1}\\times\\vec{b_2})|}{|\\vec{b_1}\\times\\vec{b_2}|}.$$ Step 3: Here, $\\vec{b_1}\\times\\vec{b_2}=\\hat{i}\\times\\hat{j}=\\hat{k}$ and $\\vec{a_2}-\\vec{a_1}=4\\hat{k}$. Step 4: Hence, the numerator is $|4\\hat{k}\\cdot\\hat{k}|=4$ and the denominator is $|\\hat{k}|=1$. Step 5: Therefore, the shortest distance is $d=4$ units.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2$ units",
+    "B": "$4$ units",
+    "C": "$\\sqrt{2}$ units",
+    "D": "$8$ units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

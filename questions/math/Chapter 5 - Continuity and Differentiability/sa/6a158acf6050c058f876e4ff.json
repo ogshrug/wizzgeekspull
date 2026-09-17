@@ -1,0 +1,25 @@
+{
+  "id": "6a158acf6050c058f876e4ff",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610140512f018fa94d79"
+  ],
+  "question_type": "SA",
+  "question": "Find $\\frac{dy}{dx}$ if $y=(cos~x)^{x}+cos^{-1}\\sqrt{x}$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Split the function into two independent parts**<br />Let $y = u + v$, where $u = (\\cos x)^x$ and $v = \\cos^{-1}\\sqrt{x}$. The derivative can then be calculated as $\\frac{dy}{dx} = \\frac{du}{dx} + \\frac{dv}{dx}$.<br /><br />**Step 2: Differentiate the first part ($u$) using logarithmic differentiation**<br />Take the natural log of both sides for $u = (\\cos x)^x$:<br />$\\log u = \\log(\\cos x)^x \\implies \\log u = x\\log(\\cos x)$<br />Differentiate both sides with respect to $x$ using the Product Rule on the right side:<br />$\\frac{1}{u}\\frac{du}{dx} = 1 \\cdot \\log(\\cos x) + x \\cdot \\left(\\frac{1}{\\cos x} \\cdot (-\\sin x)\\right)$<br />$\\frac{1}{u}\\frac{du}{dx} = \\log(\\cos x) - x\\tan x$<br />Isolate $\\frac{du}{dx}$ by multiplying by $u$:<br />$\\frac{du}{dx} = (\\cos x)^x [\\log(\\cos x) - x\\tan x]$<br /><br />**Step 3: Differentiate the second part ($v$) using the Chain Rule**<br />For $v = \\cos^{-1}\\sqrt{x}$, apply the standard derivative rule $\\frac{d}{dw}(\\cos^{-1}w) = -\\frac{1}{\\sqrt{1-w^2}}$ where $w = \\sqrt{x}$:<br />$\\frac{dv}{dx} = -\\frac{1}{\\sqrt{1-(\\sqrt{x})^2}} \\cdot \\frac{d}{dx}(\\sqrt{x})$<br />$\\frac{dv}{dx} = -\\frac{1}{\\sqrt{1-x}} \\cdot \\frac{1}{2\\sqrt{x}} = -\\frac{1}{2\\sqrt{x(1-x)}} = -\\frac{1}{2\\sqrt{x-x^2}}$<br /><br />**Step 4: Combine both parts to find the final derivative**<br />$\\frac{dy}{dx} = (\\cos x)^x [\\log(\\cos x) - x\\tan x] - \\frac{1}{2\\sqrt{x-x^2}}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

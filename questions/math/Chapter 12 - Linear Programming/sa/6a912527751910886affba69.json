@@ -1,0 +1,29 @@
+{
+  "id": "6a912527751910886affba69",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "SA",
+  "question": "Consider the constraints $x+y\\leq10$, $2x+y\\leq14$, $x\\geq0$ and $y\\geq0$.<br>(i) Verify whether the points $P(2,6)$ and $Q(5,4)$ belong to the feasible region.<br>(ii) Determine whether either of these points lies on the boundary of the feasible region. Justify your answer.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Testing point $P(2,6)$</b><br>Substituting $x=2$ and $y=6$, we obtain $$2+6=8\\leq10$$ and $$2(2)+6=10\\leq14$$ Also, $2\\geq0$ and $6\\geq0$. Hence, $P(2,6)$ satisfies every constraint and belongs to the feasible region.<br><b>Step 2: Testing point $Q(5,4)$</b><br>For $Q(5,4)$, $$5+4=9\\leq10$$ and $$2(5)+4=14\\leq14$$ The non-negative restrictions are also satisfied. Therefore, $Q(5,4)$ is also feasible.<br><b>Step 3: Examining the boundary condition</b><br>At $P$, both principal inequalities are strict. At $Q$, $$2x+y=14$$ so $Q$ lies on the boundary line $2x+y=14$.<br><b>Step 4: Conclusion</b><br>Both $P$ and $Q$ belong to the feasible region, while $Q(5,4)$ lies on its boundary.",
+  "explanation_image": [],
+  "options": {
+    "A": "(i) $P$ is feasible and $Q$ is infeasible<br>(ii) $P$ lies on $x+y=10$",
+    "B": "(i) Both $P$ and $Q$ are feasible<br>(ii) $P$ lies on the boundary and $Q$ is interior",
+    "C": "(i) Both $P$ and $Q$ are feasible<br>(ii) $Q$ lies on the boundary $2x+y=14$, while $P$ is interior",
+    "D": "(i) Both $P$ and $Q$ are infeasible<br>(ii) Neither lies on the boundary"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

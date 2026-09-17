@@ -1,0 +1,26 @@
+{
+  "id": "6a3279f2d5dca7dcb0bf0ebf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "VSA",
+  "question": "The surface area of a cube increases at the rate of $72 \\text{ cm}^2/\\text{sec}$. Find the rate of change of its volume, when the edge of the cube measures 3 cm.",
+  "answeroption": "",
+  "explanation": "**Step 1:** The surface area of a cube is $S = 6x^2$. Differentiate with respect to time: $\\frac{dS}{dt} = 12x \\frac{dx}{dt}$.\n\n**Step 2:** Substitute $\\frac{dS}{dt} = 72$ to find $\\frac{dx}{dt}$: $72 = 12x \\frac{dx}{dt} \\implies \\frac{dx}{dt} = \\frac{6}{x}$.\n\n**Step 3:** The volume is $V = x^3$. Differentiate with respect to time: $\\frac{dV}{dt} = 3x^2 \\frac{dx}{dt}$.\n\n**Step 4:** Substitute $\\frac{dx}{dt}$ and $x = 3$: $\\frac{dV}{dt} = 3x^2 \\left(\\frac{6}{x}\\right) = 18x = 18(3) = 54 \\text{ cm}^3/\\text{sec}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

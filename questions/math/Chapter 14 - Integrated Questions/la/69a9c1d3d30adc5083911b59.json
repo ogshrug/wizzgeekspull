@@ -1,0 +1,30 @@
+{
+  "id": "69a9c1d3d30adc5083911b59",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7e",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "LA",
+  "question": "Let $y = \\tan^{-1} \\left( \\frac{2\\sqrt{x}}{1 - x} \\right )$ for $x \\in (0,1)$.<br /><br />(a) Prove that $y = 2 \\tan^{-1}(\\sqrt{x})$.<br /><br />(b) Find $\\frac{d^2y}{dx^2}$ in terms of $x$.<br /><br />(c) Compute $\\lim_{x \\to 0^+} \\frac{d^2y}{dx^2}$ and interpret the geometric meaning.",
+  "answeroption": "D",
+  "explanation": "**Concepts Tested:**<br />- Identities for inverse trigonometric functions (Inverse Trigonometric Functions)<br />- Second derivative computation (Continuity & Differentiability)<br />- Limiting process and geometric interpretation<br /><br /> (a) Prove $y = 2 \\tan^{-1}(\\sqrt{x})$<br />Set $\\theta = \\tan^{-1}(\\sqrt{x})$<br /><br />Then $\\tan 2\\theta = \\frac{2\\tan \\theta}{1 - (\\tan \\theta)^2} = \\frac{2 \\sqrt{x}}{1 - x}$<br /><br />Thus, $y = \\tan^{-1}(\\tan 2\\theta) = 2 \\tan^{-1}(\\sqrt{x})$ for $x \\in (0,1)$<br /><br /> (b) Compute $\\frac{d^2y}{dx^2}$:<br />$y = 2 \\tan^{-1}(\\sqrt{x})$<br /><br />First derivative:<br />$\\frac{dy}{dx} = 2 \\cdot \\frac{1}{1 + (\\sqrt{x})^2} \\cdot \\frac{1}{2\\sqrt{x}} = \\frac{1}{\\sqrt{x}(1+x)}$<br /><br />Second derivative:<br />$\\frac{d^2y}{dx^2} = \\frac{d}{dx}\\left( \\frac{1}{\\sqrt{x}(1+x)} \\right )$<br /><br />$= \\frac{d}{dx}\\left( (1+x)^{-1} x^{-1/2} \\right )$<br /><br />Use product rule:<br />Let $u = (1+x)^{-1}$, $v = x^{-1/2}$<br /><br />$u' = -(1+x)^{-2}$, $v' = -\\frac{1}{2} x^{-3/2}$<br /><br />Therefore<br />$= u v' + u' v$<br /><br />$= (1+x)^{-1} \\cdot \\left(-\\frac{1}{2} x^{-3/2}\\right) + \\left(- (1+x)^{-2}\\right) x^{-1/2}$<br /><br />$= -\\frac{1}{2} x^{-3/2} (1+x)^{-1} - x^{-1/2}(1+x)^{-2}$<br /><br />(c) $\\lim_{x \\to 0^+} \\frac{d^2y}{dx^2}$<br />First term: as $x\\to0^+$, $x^{-3/2}\\to\\infty$ (dominates), negative sign.<br /><br />Second term: likewise goes to $-\\infty$.<br /><br />Thus,<br />$\\lim_{x\\to0^+} \\frac{d^2y}{dx^2} = -\\infty$<br /><br />**Geometric meaning:**<br />At $x=0^+$ the curve $y$ has infinite negative concavity, so there's a cusp or an infinitely sharp bend at the origin.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y=\\tan^{-1}(\\sqrt{x})$<br />(b) $\\frac{d^2y}{dx^2}=\\frac{1}{2}x^{-3/2}(1+x)^{-1}+x^{-1/2}(1+x)^{-2}$<br />(c) Limit is $+\\infty$; concavity is infinitely positive",
+    "B": "(a) $y=2\\tan^{-1}(x)$<br />(b) $\\frac{d^2y}{dx^2}=-\\frac{2}{(1+x^2)^2}$<br />(c) Limit is $-2$; curve has finite concavity",
+    "C": "(a) $y=\\tan^{-1}\\left(\\frac{x}{2}\\right)$<br />(b) $\\frac{d^2y}{dx^2}=0$<br />(c) Limit is $0$; curve is locally linear",
+    "D": "(a) $y=2\\tan^{-1}(\\sqrt{x})$<br />(b) $\\frac{d^2y}{dx^2}=-\\frac{1}{2}x^{-3/2}(1+x)^{-1}-x^{-1/2}(1+x)^{-2}$<br />(c) $\\lim_{x\\to0^+}\\frac{d^2y}{dx^2}=-\\infty$; the curve has infinite negative concavity near $0^+$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:48:03 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

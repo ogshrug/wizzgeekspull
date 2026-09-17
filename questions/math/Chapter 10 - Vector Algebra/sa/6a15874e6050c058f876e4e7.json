@@ -1,0 +1,24 @@
+{
+  "id": "6a15874e6050c058f876e4e7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "SA",
+  "question": "If the vectors $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$ represent the three sides of a triangle, then show that $\\vec{a}\\times\\vec{b}=\\vec{b}\\times\\vec{c}=\\vec{c}\\times\\vec{a}$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Establish the triangle vector closing loop equation**<br />Since vectors $\\vec{a}$, $\\vec{b}$, and $\\vec{c}$ represent the ordered sides of a closed triangle in a continuous loop, their vector sum must equal zero:<br />$\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$<br /><br />**Step 2: Cross multiply by vector $\\vec{a}$**<br />Take the vector cross product with $\\vec{a}$ from the left side on both sides of our loop equation:<br />$\\vec{a} \\times (\\vec{a} + \\vec{b} + \\vec{c}) = \\vec{a} \\times \\vec{0}$<br />Using the distributive property of cross products:<br />$(\\vec{a} \\times \\vec{a}) + (\\vec{a} \\times \\vec{b}) + (\\vec{a} \\times \\vec{c}) = \\vec{0}$<br />Since the cross product of any vector with itself is zero ($\\vec{a} \\times \\vec{a} = \\vec{0}$):<br />$\\vec{0} + (\\vec{a} \\times \\vec{b}) + (\\vec{a} \\times \\vec{c}) = \\vec{0} \\implies \\vec{a} \\times \\vec{b} = -(\\vec{a} \\times \\vec{c})$<br />Using the anti-commutative property of cross products ($-(\\vec{a} \\times \\vec{c}) = \\vec{c} \\times \\vec{a}$):<br />$\\vec{a} \\times \\vec{b} = \\vec{c} \\times \\vec{a} \\quad \\text{--- (Equation 1)}$<br /><br />**Step 3: Cross multiply by vector $\\vec{b}$**<br />Similarly, take the vector cross product with $\\vec{b}$ from the left side on both sides of our original loop equation:<br />$\\vec{b} \\times (\\vec{a} + \\vec{b} + \\vec{c}) = \\vec{b} \\times \\vec{0}$<br />$(\\vec{b} \\times \\vec{a}) + (\\vec{b} \\times \\vec{b}) + (\\vec{b} \\times \\vec{c}) = \\vec{0}$<br />Since $\\vec{b} \\times \\vec{b} = \\vec{0}$:<br />$(\\vec{b} \\times \\vec{a}) + \\vec{0} + (\\vec{b} \\times \\vec{c}) = \\vec{0} \\implies \\vec{b} \\times \\vec{c} = -(\\vec{b} \\times \\vec{a})$<br />Using the anti-commutative property ($-(\\vec{b} \\times \\vec{a}) = \\vec{a} \\times \\vec{b}$):<br />$\\vec{b} \\times \\vec{c} = \\vec{a} \\times \\vec{b} \\quad \\text{--- (Equation 2)}$<br /><br />**Step 4: Combine equations to complete the proof**<br />Combining Equation 1 and Equation 2 gives:<br />$\\vec{a} \\times \\vec{b} = \\vec{b} \\times \\vec{c} = \\vec{c} \\times \\vec{a}$. This completes the proof.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

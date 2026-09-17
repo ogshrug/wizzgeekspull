@@ -1,0 +1,29 @@
+{
+  "id": "69a97274d8e9ca3b29345797",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "VSA",
+  "question": "Find the domain of the function $y = \\cos^{-1}(|x - 1|)$.",
+  "answeroption": "A",
+  "explanation": "For $\\cos^{-1}(u)$ to be defined, the argument must satisfy $-1 \\le u \\le 1$.<br /><br />Here $u = |x-1|$. Since absolute value is always non-negative, we require $|x-1| \\le 1$.<br /><br />This gives $-1 \\le x-1 \\le 1$.<br /><br />Adding 1 throughout gives $0 \\le x \\le 2$.<br /><br />Thus the domain is $[0,2]$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$[0,2]$",
+    "B": "$[-1,1]$",
+    "C": "$[1,2]$",
+    "D": "$(-\\infty,\\infty)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:09:24 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:53 GMT"
+}

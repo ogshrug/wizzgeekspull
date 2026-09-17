@@ -1,0 +1,29 @@
+{
+  "id": "6a8e94684b490c7cde3593f0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "SA",
+  "question": "A student claims that $\\begin{vmatrix}k&k+1\\\\k-1&k\\end{vmatrix}=1$ only when $k=0$. Examine the claim by evaluating the determinant and justify your conclusion.",
+  "answeroption": "D",
+  "explanation": "<b>Expansion of the given determinant</b><br>Using the determinant relation, $$\\begin{vmatrix}k&k+1\\\\k-1&k\\end{vmatrix}=k^2-(k+1)(k-1)$$<br><b>Simplification of the product</b><br>Since $$(k+1)(k-1)=k^2-1,$$ the determinant becomes $$k^2-(k^2-1)=1$$<br><b>Interpretation of the result</b><br>The simplified value is $1$ and does not depend on $k$. Therefore, every real value of $k$ satisfies the determinant equation.<br><b>Conclusion about the claim</b><br>The value $k=0$ is one possible value, but it is not the only one. Hence, the student's claim is incorrect; the determinant equals $1$ for all $k\\in\\mathbb{R}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The determinant is $k^2-1$, so it equals $1$ only for $k=\\pm\\sqrt{2}$; the claim is incorrect.",
+    "B": "The determinant is $k$, so it equals $1$ only for $k=1$; the claim is incorrect.",
+    "C": "The determinant is $1-k^2$, so it equals $1$ only for $k=0$; the claim is correct.",
+    "D": "The determinant is $1$ for every $k\\in\\mathbb{R}$; the claim that only $k=0$ works is incorrect."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

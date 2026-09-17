@@ -1,0 +1,26 @@
+{
+  "id": "6a33b662d5dca7dcb0bf0f3f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "SA",
+  "question": "Find dimensions of a rectangle of perimeter $12 \\text{ cm}$ which will generate maximum volume when swept along a circular rotation keeping the shorter side fixed as the axis.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let the sides of the rectangle be $x$ and $y$. The perimeter is $12 \\text{ cm}$, so $2x + 2y = 12 \\Rightarrow y = 6 - x$.\n\n**Step 2:** Assume $y$ is the shorter fixed side forming the height of the generated cylinder, and $x$ is the radius. The volume $V$ is $V = \\pi x^2 y$.\n\n**Step 3:** Express $V$ solely in terms of $x$: $V(x) = \\pi x^2(6 - x) = 6\\pi x^2 - \\pi x^3$.\n\n**Step 4:** Differentiate $V$ with respect to $x$ and set to zero to find critical points: $\\frac{dV}{dx} = 12\\pi x - 3\\pi x^2 = 0 \\Rightarrow 3\\pi x(4 - x) = 0$. Since $x \\neq 0$, $x = 4$.\n\n**Step 5:** Calculate the corresponding $y$ value: $y = 6 - 4 = 2$. Use the second derivative test to confirm it's a maximum: $\\frac{d^2V}{dx^2} = 12\\pi - 6\\pi x$. At $x=4$, $\\frac{d^2V}{dx^2} = 12\\pi - 24\\pi = -12\\pi < 0$. The dimensions are $4 \\text{ cm}$ and $2 \\text{ cm}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "69aa7c648e6d1957407fd1c3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f995",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Architecture/Engineering Case Study:**<br /><br />An architect is designing an arched bridge shaped as a parabola described by $y = 9 - 0.25x^2$ for $x$ in $[-6,6]$, where $y$ is in metres and $x$ is the horizontal coordinate. The deck of the bridge lies at $y = 0$.<br /><br />(a) Find the area of the cross-sectional arch above the deck (that is, the area bounded by the curve and the $x$-axis in $[-6, 6]$).<br /><br />(b) If the base width is doubled while keeping maximum height same, find the new quadratic equation and calculate the new arch area.<br /><br />(c) Critically discuss the implications on material cost and structural weight if the arch base is doubled, based on your calculations.",
+  "answeroption": "B",
+  "explanation": "**(a) Area of arch above deck:**<br /><br />Area between curve $y = 9 - 0.25x^2$ and $x$-axis from $x=-6$ to $x=6$:<br /><br />$\\text{Area} = \\int_{-6}^{6} (9 - 0.25x^2) dx$<br /><br />Integrate:<br /><br />$\\int_{-6}^{6} 9 dx = 9(x)\\Big|_{-6}^6 = 9 \\times (6 - (-6)) = 9 \\times 12 = 108$<br /><br />$\\int_{-6}^{6} 0.25x^2 dx = 0.25 \\int_{-6}^{6} x^2 dx = 0.25 \\times \\left[ \\frac{x^3}{3} \\right]_{-6}^{6} = 0.25 \\times \\left( \\frac{6^3 - (-6)^3}{3} \\right )$<br /><br />$6^3 = 216,\\ (-6)^3 = -216,\\ (216 - (-216)) = 432$<br /><br />$\\frac{432}{3} = 144,\\ 0.25 \\times 144 = 36$<br /><br />Therefore,<br /><br />$\\text{Area} = 108 - 36 = 72\\ \\, m^2$<br /><br />**(b) Doubling the base width:**<br /><br />Original width: $|x| \\leq 6$. New width: $|x| \\leq 12$. The parabola's vertex remains at $(0,9)$.<br /><br />Fit $y = 9 - kx^2$, using point $(12, 0)$:<br /><br />$0 = 9 - k (12)^2$<br /><br />$9 = 144k$<br /><br />$k = \\frac{9}{144} = 0.0625$<br /><br />Equation: $y = 9 - 0.0625x^2$<br /><br />Area:<br /><br />$\\int_{-12}^{12} (9 - 0.0625x^2) dx$<br /><br />$= 9(x)\\Big|_{-12}^{12} - 0.0625 \\int_{-12}^{12} x^2 dx$<br /><br />$= 9(24) - 0.0625 \\times \\left[ \\frac{x^3}{3} \\right]_{-12}^{12}$<br /><br />$9 \\times 24 = 216$<br /><br />$\\frac{12^3 - (-12)^3}{3} = \\frac{1728 - (-1728)}{3} = \\frac{3456}{3} = 1152$<br /><br />$0.0625 \\times 1152 = 72$<br /><br />So,<br /><br />$\\text{Area} = 216 - 72 = 144\\ \\, m^2$<br /><br />**(c) Material and weight implications:**<br /><br />When base doubles, area (and thus likely material required and structural weight) also doubles (from $72$ to $144\\ m^2$). This increases cost and may affect structural feasibility due to greater load, requiring stronger supports. The relation is quadratic: Doubling the base increases area by a factor of 2, not 4, because the shape spreads wider but flattens. Thus, material quantity grows linearly with base expansion if height is fixed.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69aa7c648e6d1957407fd1c3/1778586020-0.jpeg?t=1778586020951"
+  ],
+  "options": {
+    "A": "(a) Area $=36\\,m^2$.<br />(b) New equation $y=9-0.25x^2$ and new area $=72\\,m^2$.<br />(c) Material cost remains unchanged.",
+    "B": "(a) Area $=72\\,m^2$.<br />(b) New equation $y=9-0.0625x^2$ and new area $=144\\,m^2$.<br />(c) Material and structural weight likely double, increasing cost and support requirements.",
+    "C": "(a) Area $=144\\,m^2$.<br />(b) New equation $y=9-x^2$ and new area $=72\\,m^2$.<br />(c) Material cost is reduced by half.",
+    "D": "(a) Area $=108\\,m^2$.<br />(b) New equation $y=9-0.125x^2$ and new area $=216\\,m^2$.<br />(c) Area quadruples when base width doubles."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:04:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

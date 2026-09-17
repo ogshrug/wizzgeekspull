@@ -1,0 +1,28 @@
+{
+  "id": "6a22c08dfbdd87b6dea73c21",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "SA",
+  "question": "Find the intervals in which the function $f(x)=\\frac{\\log x}{x}$ is strictly increasing or strictly decreasing.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate $f(x)$ using the quotient rule: $f'(x) = \\frac{x(\\frac{1}{x}) - \\log x(1)}{x^2} = \\frac{1 - \\log x}{x^2}$.<br />**Step 2:** For strictly increasing, $f'(x) > 0 \\implies 1 - \\log x > 0 \\implies \\log x < 1 \\implies x < e$. Interval is $(0, e)$.<br />**Step 3:** For strictly decreasing, $f'(x) < 0 \\implies 1 - \\log x < 0 \\implies x > e$. Interval is $(e, \\infty)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1",
+    "2024-3-2",
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

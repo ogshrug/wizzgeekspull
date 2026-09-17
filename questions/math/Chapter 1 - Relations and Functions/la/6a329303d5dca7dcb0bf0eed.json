@@ -1,0 +1,26 @@
+{
+  "id": "6a329303d5dca7dcb0bf0eed",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "A relation R on set $A = \\{x : -10 \\le x \\le 10, x \\in Z\\}$ is defined as $R = \\{(x,y) : (x-y)$ is divisible by $5\\}$. Show that R is an equivalence relation. Also, write the equivalence class $[5]$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Reflexive: For any $x \\in A$, $x - x = 0 = 5(0)$. Since $0$ is an integer, $(x, x) \\in R$. Thus, $R$ is reflexive.\n\n**Step 2:** Symmetric: Let $(x, y) \\in R$. Then $x - y = 5k$ for some integer $k$. Multiplying by $-1$ gives $y - x = 5(-k)$. Since $-k$ is an integer, $(y, x) \\in R$. Thus, $R$ is symmetric.\n\n**Step 3:** Transitive: Let $(x, y) \\in R$ and $(y, z) \\in R$. Then $x - y = 5m$ and $y - z = 5n$. Adding both gives $(x - y) + (y - z) = 5m + 5n \\Rightarrow x - z = 5(m + n)$. Since $(m+n)$ is an integer, $(x, z) \\in R$. Thus, $R$ is transitive, making it an equivalence relation.\n\n**Step 4:** The equivalence class $[5] = \\{x \\in A : (x, 5) \\in R\\}$. This means $x - 5 = 5k \\Rightarrow x = 5k + 5$.\n\n**Step 5:** Substitute integer values for $k$ to find $x \\in A [-10, 10]$. For $k = -3, x = -10$; $k = -2, x = -5$; $k = -1, x = 0$; $k = 0, x = 5$; $k = 1, x = 10$. Therefore, $[5] = \\{-10, -5, 0, 5, 10\\}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

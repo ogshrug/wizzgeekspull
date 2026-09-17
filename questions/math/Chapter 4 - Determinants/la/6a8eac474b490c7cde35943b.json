@@ -1,0 +1,29 @@
+{
+  "id": "6a8eac474b490c7cde35943b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "LA",
+  "question": "Using properties of determinants, show that<br>$$D=\\begin{vmatrix}1+a & 1 & 1\\\\1 & 1+b & 1\\\\1 & 1 & 1+c\\end{vmatrix}=ab+bc+ca+abc$$<br>Hence, find the value of $D$ when $a=2$, $b=-1$, and $c=3$.",
+  "answeroption": "C",
+  "explanation": "<b>Transformation of the determinant</b><br>Apply $R_1\\to R_1-R_3$ and $R_2\\to R_2-R_3$:<br>$$D=\\begin{vmatrix}a & 0 & -c\\\\0 & b & -c\\\\1 & 1 & 1+c\\end{vmatrix}$$<br>Expanding along the first row,<br>$$D=a\\begin{vmatrix}b & -c\\\\1 & 1+c\\end{vmatrix}+(-c)\\begin{vmatrix}0 & b\\\\1 & 1\\end{vmatrix}$$<br>$$D=a\\left[b(1+c)+c\\right]+(-c)(-b)$$<br>$$D=ab+abc+ac+bc$$<br>Therefore,<br>$$D=ab+bc+ca+abc$$<br><br><b>Evaluation</b><br>For $a=2$, $b=-1$, and $c=3$,<br>$$D=(2)(-1)+(-1)(3)+(3)(2)+(2)(-1)(3)$$<br>$$D=-2-3+6-6=-5$$<br>Hence, $D=-5$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$D=ab+bc+ca-abc$, and for $a=2,b=-1,c=3$, $D=7$",
+    "B": "$D=ab-bc+ca+abc$, and for $a=2,b=-1,c=3$, $D=-11$",
+    "C": "$D=ab+bc+ca+abc$, and for $a=2,b=-1,c=3$, $D=-5$",
+    "D": "$D=a+b+c+abc$, and for $a=2,b=-1,c=3$, $D=-2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

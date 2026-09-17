@@ -1,0 +1,27 @@
+{
+  "id": "6a311281ed9d5eb2aa722a04",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f",
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "SA",
+  "question": "Find $\\int\\frac{\\sin^{-1}x}{(1-x^{2})^{3/2}}dx.$",
+  "answeroption": "",
+  "explanation": "**Step 1: Substitution**  \nLet $t = \\sin^{-1}x$, so $x = \\sin t$. Then $dx = \\cos t \\, dt$ and $\\sqrt{1-x^2} = \\cos t$. Also, $(1-x^2)^{3/2} = (\\cos^2 t)^{3/2} = \\cos^3 t$.\n\n**Step 2: Transform the Integral**  \n$$I = \\int \\frac{t}{\\cos^3 t} \\cdot \\cos t \\, dt = \\int t \\sec^2 t \\, dt$$\n\n**Step 3: Apply Integration by Parts**  \nUsing $\\int u \\, dv = uv - \\int v \\, du$, let $u = t$ and $dv = \\sec^2 t \\, dt$. Then $du = dt$ and $v = \\tan t$.  \n$$I = t \\tan t - \\int \\tan t \\, dt = t \\tan t - \\ln|\\sec t| + C$$\n\n**Step 4: Back-Substitute**  \nSince $t = \\sin^{-1}x$, we have $\\tan t = \\frac{x}{\\sqrt{1-x^2}}$ and $\\sec t = \\frac{1}{\\sqrt{1-x^2}}$.  \n$$I = \\sin^{-1}x \\cdot \\frac{x}{\\sqrt{1-x^2}} - \\ln\\left|\\frac{1}{\\sqrt{1-x^2}}\\right| + C$$\n\n**Step 5: Simplify**  \n$$I = \\frac{x \\sin^{-1}x}{\\sqrt{1-x^2}} + \\frac{1}{2}\\ln|1-x^2| + C$$  \nThus, the required integral is:  \n$$\\frac{x \\sin^{-1}x}{\\sqrt{1-x^2}} + \\frac{1}{2}\\ln|1-x^2| + C$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

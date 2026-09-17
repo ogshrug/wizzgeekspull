@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed00b2e54880055a0a6c7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97f"
+  ],
+  "question_type": "VSA",
+  "question": "Using the linear approximation of $f(x)=\\sqrt{x}$ at $x=4$, estimate the value of $\\sqrt{4.1}$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1:</b> For a value of $x$ close to $a$, the linear approximation is $$f(x)\\approx f(a)+f'(a)(x-a)$$<br><b>Step 2:</b> Take $f(x)=\\sqrt{x}$ and $a=4$. Then $f(4)=2$ and $$f'(x)=\\frac{1}{2\\sqrt{x}}$$<br><b>Step 3:</b> Therefore, $f'(4)=\\frac{1}{4}$. Here, $x-a=4.1-4=0.1$.<br><b>Step 4:</b> Substituting in the approximation, $$\\sqrt{4.1}\\approx2+\\frac{1}{4}(0.1)$$<br><b>Step 5:</b> Hence, $\\sqrt{4.1}\\approx2.025$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2.050$",
+    "B": "$2.025$",
+    "C": "$2.010$",
+    "D": "$2.250$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

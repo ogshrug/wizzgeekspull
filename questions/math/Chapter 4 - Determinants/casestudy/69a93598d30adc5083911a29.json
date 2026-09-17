@@ -1,0 +1,31 @@
+{
+  "id": "69a93598d30adc5083911a29",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d73",
+    "69c6603740512f018fa94d76"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**(Workforce Allocation for Project Management Case Study)**\n\nA consulting firm allocates three teams to three different projects. The initial manpower allocation is given by $M = \\begin{bmatrix}4 & 3 & 5 \\\\ 2 & 7 & 1 \\\\ 6 & 2 & 3\\end{bmatrix}$, rows are teams, columns are projects.\n\nEach project needs a minimum of $\\begin{bmatrix}20 \\\\ 18 \\\\ 22\\end{bmatrix}$ man-hours.\n\n(a) Form a system of equations and determine if the given allocation meets project requirements uniquely.  \n(b) If a unique allocation exists, calculate how much manpower each team must supply to each project by solving the system.  \n(c) Discuss critically how altering just one element of $M$ might affect the existence and uniqueness of the allocation.",
+  "answeroption": "B",
+  "explanation": "(a)<br />Let $X = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix}$ = hours supplied by each team.<br />$MX = B$<br /><br />(b)<br />Compute determinant:<br />$|M| = 4\\begin{vmatrix}7 & 1 \\\\ 2 & 3\\end{vmatrix} - 3\\begin{vmatrix}2 & 1 \\\\ 6 & 3\\end{vmatrix} + 5\\begin{vmatrix}2 & 7 \\\\ 6 & 2\\end{vmatrix}$<br />$= 4(7\\times3-1\\times2) - 3(2\\times3-1\\times6) + 5(2\\times2-7\\times6)$<br />$= 4(21-2) - 3(6-6) + 5(4-42)$<br />$= 4(19) - 3(0) + 5(-38)$<br />$= 76+ 0 - 190 = -114$<br />Unique solution exists.<br />Using adjugate, solve $X=M^{-1}B$.<br />Stepwise computation of all minors, cofactors, adjugate, and product.<br /><br />(c)<br />If any single element of $M$ is changed, $|M|$ may become zero or remain nonzero:<br />- If $|M| = 0$, system loses uniqueness—allocation may not be possible or becomes infinitely possible (if consistent).<br />- For project managers, careful assignment ensures unique, achievable allocations.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $MX=B$, where $M=\\begin{bmatrix}4&3&5\\\\2&7&1\\\\6&2&3\\end{bmatrix}$ and $B=\\begin{bmatrix}20\\\\18\\\\22\\end{bmatrix}$.<br />(b) Since $|M|=0$, the system has no unique solution.<br />(c) Any change in one element always makes the system inconsistent.",
+    "B": "(a) $MX=B$, where $M=\\begin{bmatrix}4&3&5\\\\2&7&1\\\\6&2&3\\end{bmatrix}$, $X=\\begin{bmatrix}x_1\\\\x_2\\\\x_3\\end{bmatrix}$, and $B=\\begin{bmatrix}20\\\\18\\\\22\\end{bmatrix}$.<br />(b) Since $|M|=-114\\ne0$, a unique solution exists and $X=\\begin{bmatrix}\\frac{51}{19}\\\\\\frac{32}{19}\\\\\\frac{16}{19}\\end{bmatrix}$.<br />(c) Altering one element may keep the determinant non-zero or make it zero; if it becomes zero, uniqueness is lost.",
+    "C": "(a) $MX=B$, where $M=\\begin{bmatrix}4&3&5\\\\2&7&1\\\\6&2&3\\end{bmatrix}$.<br />(b) Since $|M|=114\\ne0$, the unique solution is $X=\\begin{bmatrix}\\frac{16}{19}\\\\\\frac{32}{19}\\\\\\frac{51}{19}\\end{bmatrix}$.<br />(c) Altering one element has no effect on determinant or uniqueness.",
+    "D": "(a) $MX=B$, where $B=\\begin{bmatrix}x_1\\\\x_2\\\\x_3\\end{bmatrix}$.<br />(b) Since $|M|=-114$, the system is inconsistent.<br />(c) A non-zero determinant means no allocation is possible."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:49:44 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

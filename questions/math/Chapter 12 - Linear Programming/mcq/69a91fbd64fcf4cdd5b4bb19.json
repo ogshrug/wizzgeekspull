@@ -1,0 +1,29 @@
+{
+  "id": "69a91fbd64fcf4cdd5b4bb19",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "MCQ",
+  "question": "Suppose in an LPP, the feasible region is unbounded. If the maximum value of the objective function $Z=2x+3y$ at the corner point $(2,4)$ is $16$, which of the following must you check to confirm whether $16$ is indeed the maximum?",
+  "answeroption": "A",
+  "explanation": "For unbounded feasible regions, it is necessary to verify that no feasible point gives a value of the objective function greater than the candidate maximum.<br /><br />Thus we check whether any feasible point lies in the region $2x+3y>16$ (i.e., above the line $2x+3y=16$). If none exists, then $16$ is indeed the maximum.",
+  "explanation_image": [],
+  "options": {
+    "A": "Check if the region above the line $2x+3y=16$ contains any feasible points.",
+    "B": "Check if the region below the line $2x+3y=16$ contains any feasible points.",
+    "C": "Check if the region $2x+3y<16$ contains any feasible points.",
+    "D": "The maximum always occurs at a corner point, so no further check is needed."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:16:29 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a328391d5dca7dcb0bf0ed3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $e^{x^2y} = c$, then $\\frac{dy}{dx}$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** Take the natural logarithm of both sides: $x^2y = \\ln c$.\n\n**Step 2:** Isolate y: $y = \\frac{\\ln c}{x^2}$.\n\n**Step 3:** Differentiate with respect to x: $\\frac{dy}{dx} = \\frac{d}{dx} ((\\ln c) x^{-2}) = -2(\\ln c) x^{-3}$.\n\n**Step 4:** Substitute $\\ln c$ back as $x^2y$: $\\frac{dy}{dx} = \\frac{-2(x^2y)}{x^3} = \\frac{-2y}{x}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{xe^{x^2y}}{2y}$",
+    "B": "$\\frac{-2y}{x}$",
+    "C": "$\\frac{2y}{x}$",
+    "D": "$\\frac{x}{2y}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

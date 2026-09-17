@@ -1,0 +1,29 @@
+{
+  "id": "6a8fcefc4b490c7cde359508",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics group is analysing an integral involving the rational function $$I=\\int\\frac{x^2+1}{x^2-3x+2}\\,dx$$ They notice that the degree of the numerator is equal to the degree of the denominator, so the fraction is not a proper rational function. Before applying partial fractions, they must first use polynomial division to separate a polynomial term from a proper rational part. The denominator can then be factorised as $(x-1)(x-2)$, with $x=1$ and $x=2$ excluded from the domain. The investigation focuses on selecting the correct sequence of algebraic operations before integrating the resulting simpler expressions.<br><br><b>(a)</b> Reduce the given improper rational function to the sum of a polynomial and a proper rational function.<br><br><b>(b)</b> Decompose the proper rational part into partial fractions.<br><br><b>(c)</b> Evaluate the integral $I$.<br><br><b>(d)</b> Verify that the derivative of the obtained result equals the original integrand.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Since the numerator and denominator have the same degree, divide first. We have $$x^2+1=(x^2-3x+2)+(3x-1)$$ Therefore, $$\\frac{x^2+1}{x^2-3x+2}=1+\\frac{3x-1}{x^2-3x+2}$$ Since $x^2-3x+2=(x-1)(x-2)$, $$\\frac{x^2+1}{x^2-3x+2}=1+\\frac{3x-1}{(x-1)(x-2)}$$<br><br><b>(b)</b><br>Write $$\\frac{3x-1}{(x-1)(x-2)}=\\frac{A}{x-1}+\\frac{B}{x-2}$$ Hence, $$3x-1=A(x-2)+B(x-1)$$ Comparing coefficients gives $$A+B=3$$ and $$2A+B=1$$ Thus, $A=-2$ and $B=5$. Therefore, $$\\frac{3x-1}{(x-1)(x-2)}=-\\frac{2}{x-1}+\\frac{5}{x-2}$$<br><br><b>(c)</b><br>Therefore, $$I=\\int\\left(1-\\frac{2}{x-1}+\\frac{5}{x-2}\\right)dx$$ Hence, $$I=x-2\\log|x-1|+5\\log|x-2|+C$$ for $x\\neq1,2$, on any interval where the integrand is defined.<br><br><b>(d)</b><br>Differentiating, $$\\frac{dI}{dx}=1-\\frac{2}{x-1}+\\frac{5}{x-2}$$ Now, $$1-\\frac{2}{x-1}+\\frac{5}{x-2}=1+\\frac{3x-1}{(x-1)(x-2)}=\\frac{x^2+1}{x^2-3x+2}$$ Hence, the result is verified.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{x^2+1}{x^2-3x+2}=1+\\frac{3x-1}{(x-1)(x-2)}$<br>(b) $\\frac{3x-1}{(x-1)(x-2)}=-\\frac{2}{x-1}+\\frac{5}{x-2}$<br>(c) $I=x-2\\log|x-1|+5\\log|x-2|+C$<br>(d) Differentiation gives $\\frac{x^2+1}{x^2-3x+2}$",
+    "B": "(a) $\\frac{x^2+1}{x^2-3x+2}=1+\\frac{3x+1}{(x-1)(x-2)}$<br>(b) $\\frac{3x+1}{(x-1)(x-2)}=-\\frac{4}{x-1}+\\frac{7}{x-2}$<br>(c) $I=x-4\\log|x-1|+7\\log|x-2|+C$<br>(d) Differentiation gives the original integrand",
+    "C": "(a) $\\frac{x^2+1}{x^2-3x+2}=1-\\frac{3x-1}{(x-1)(x-2)}$<br>(b) $\\frac{3x-1}{(x-1)(x-2)}=-\\frac{2}{x-1}+\\frac{5}{x-2}$<br>(c) $I=x+2\\log|x-1|-5\\log|x-2|+C$<br>(d) Differentiation gives the original integrand",
+    "D": "(a) $\\frac{x^2+1}{x^2-3x+2}=\\frac{3x-1}{(x-1)(x-2)}$<br>(b) $A=-2,\\ B=5$<br>(c) $I=-2\\log|x-1|+5\\log|x-2|+C$<br>(d) Differentiation gives $\\frac{3x-1}{x^2-3x+2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

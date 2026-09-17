@@ -1,0 +1,27 @@
+{
+  "id": "6a2fdbff93496b2e4e0e762a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975",
+    "6a13e98e8c819562f933f973"
+  ],
+  "question_type": "SA",
+  "question": "A thin metallic wire in the shape of a circular ring has its enclosed area increasing at a uniform rate when heated. Show that the rate of change of circumference varies inversely as the radius.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $A$ represent the area, $C$ the circumference, and $r$ the radius of the ring. Given that $\\frac{dA}{dt}=k$, where $k$ is a constant.<br />**Step 2:** Using $A=\\pi r^2$ and differentiating with respect to time, $\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}=k$. Hence, $\\frac{dr}{dt}=\\frac{k}{2\\pi r}$.<br />**Step 3:** Since $C=2\\pi r$, differentiating gives $\\frac{dC}{dt}=2\\pi\\frac{dr}{dt}=2\\pi\\left(\\frac{k}{2\\pi r}\\right)=\\frac{k}{r}$. Therefore, $\\frac{dC}{dt}\\propto\\frac{1}{r}$, proving that the rate of change of circumference varies inversely as the radius.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

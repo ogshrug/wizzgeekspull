@@ -1,0 +1,31 @@
+{
+  "id": "6a2649db864be73cfcf6d31e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d4",
+    "6a13e7cad837c8c7efa6b8d2"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Electrical transmission wires which are laid down in winters are stretched tightly to accommodate expansion in summers. Two such wires lie along the following lines:<br />$l_{1}:\\frac{x+1}{3}=\\frac{y-3}{-2}=\\frac{z+2}{-1}$<br />$l_{2}:\\frac{x}{-1}=\\frac{y-7}{3}=\\frac{z+7}{-2}$<br /><br />Based on the given information, answer the following questions:<br />**(i)** Are the lines $l_{1}$ and $l_{2}$ coplanar? Justify your answer.<br />**(ii)** Find the point of intersection of the lines $l_{1}$ and $l_{2}$.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** From the equations of lines $l_1$ and $l_2$, identify passing points and direction ratios. For $l_1$, point $A = (-1, 3, -2)$ and direction vector $\\vec{b_1} = 3\\hat{i} - 2\\hat{j} - \\hat{k}$. For $l_2$, point $B = (0, 7, -7)$ and direction vector $\\vec{b_2} = -\\hat{i} + 3\\hat{j} - 2\\hat{k}$. Compute vector $\\vec{AB} = (0 - (-1))\\hat{i} + (7 - 3)\\hat{j} + (-7 - (-2))\\hat{k} = \\hat{i} + 4\\hat{j} - 5\\hat{k}$.<br />**Step 2:** Two lines are coplanar if the scalar triple product $[\\vec{AB}, \\vec{b_1}, \\vec{b_2}] = 0$. Set up the determinant matrix: $\\det \\begin{bmatrix} 1 & 4 & -5 \\\\ 3 & -2 & -1 \\\\ -1 & 3 & -2 \\end{bmatrix} = 1(4+3) - 4(-6-1) - 5(9-2) = 1(7) - 4(-7) - 5(7) = 7 + 28 - 35 = 0$. Since this determinant is 0, the lines are coplanar.<br /><br />**(ii)** **Step 1:** Express general points on lines $l_1$ and $l_2$. Let $\\frac{x+1}{3}=\\frac{y-3}{-2}=\\frac{z+2}{-1} = s \\implies P(3s-1, -2s+3, -s-2)$. Let $\\frac{x}{-1}=\\frac{y-7}{3}=\\frac{z+7}{-2} = t \\implies Q(-t, 3t+7, -2t-7)$. At the point of intersection, coordinates must match: $3s - 1 = -t \\implies 3s + t = 1$, and $-2s + 3 = 3t + 7 \\implies -2s - 3t = 4$.<br />**Step 2:** Solve the system of linear equations. Multiplying the first equation by 3 gives $9s + 3t = 3$. Adding this to $-2s - 3t = 4$ yields $7s = 7 \\implies s = 1$. Substituting $s = 1$ into $3(1) + t = 1$ gives $t = -2$. Substitute $s=1$ into coordinates of $P$: $x = 3(1)-1 = 2$, $y = -2(1)+3 = 1$, $z = -1-2 = -3$. Thus, the point of intersection is $(2, 1, -3)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-1",
+  "set_key": [
+    "2022-1-1",
+    "2022-1-2",
+    "2022-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a2649db864be73cfcf6d31e/1782278018-0.png?t=1782297818778"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

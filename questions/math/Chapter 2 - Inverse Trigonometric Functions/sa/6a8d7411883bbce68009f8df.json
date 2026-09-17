@@ -1,0 +1,31 @@
+{
+  "id": "6a8d7411883bbce68009f8df",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4c",
+    "69c65d9140512f018fa94d49",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "The function $f(x)=\\tan^{-1}(-x)+\\frac{\\pi}{2}$ is obtained from $y=\\tan^{-1}x$.<br><br>(i) Describe the transformations involved.<br><br>(ii) Express $f(x)$ using $\\tan^{-1}x$ and determine its range.<br><br>(iii) Find $f(0)$. Do not draw the graph.",
+  "answeroption": "C",
+  "explanation": "<b>Reflection and translation</b><br>Replacing $x$ by $-x$ reflects the graph of $y=\\tan^{-1}x$ in the $y$-axis. Adding $\\frac{\\pi}{2}$ then translates the reflected graph upward by $\\frac{\\pi}{2}$ units.<br><br><b>Odd-function property</b><br>The inverse tangent function is odd, so $$\\tan^{-1}(-x)=-\\tan^{-1}x.$$ Hence, $$f(x)=\\frac{\\pi}{2}-\\tan^{-1}x.$$<br><br><b>Range transformation</b><br>The range of $\\tan^{-1}x$ is $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$. Negation preserves this interval, and adding $\\frac{\\pi}{2}$ gives the range $$(0,\\pi).$$<br><br><b>Value at the origin</b><br>At $x=0$, $$f(0)=\\tan^{-1}0+\\frac{\\pi}{2}=\\frac{\\pi}{2}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Reflection in the $x$-axis followed by a downward shift of $\\frac{\\pi}{2}$; $f(x)=-\\frac{\\pi}{2}-\\tan^{-1}x$; Range: $(-\\pi,0)$; $f(0)=-\\frac{\\pi}{2}$",
+    "B": "Reflection in the $y$-axis followed by an upward shift of $\\frac{\\pi}{2}$; $f(x)=\\frac{\\pi}{2}+\\tan^{-1}x$; Range: $(0,\\pi)$; $f(0)=\\frac{\\pi}{2}$",
+    "C": "Reflection in the $y$-axis followed by an upward shift of $\\frac{\\pi}{2}$; $f(x)=\\frac{\\pi}{2}-\\tan^{-1}x$; Range: $(0,\\pi)$; $f(0)=\\frac{\\pi}{2}$",
+    "D": "Reflection in the $y$-axis followed by a downward shift of $\\frac{\\pi}{2}$; $f(x)=-\\frac{\\pi}{2}+\\tan^{-1}x$; Range: $(-\\pi,0)$; $f(0)=-\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

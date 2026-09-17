@@ -1,0 +1,29 @@
+{
+  "id": "6a8ebc6d2e54880055a0a6ba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "VSA",
+  "question": "For $y=e^{2x}+3e^{-x}$, determine $\\left.\\frac{d^2y}{dx^2}\\right|_{x=0}$.",
+  "answeroption": "B",
+  "explanation": "Step 1: Differentiate the given function once. For $y=e^{2x}+3e^{-x}$, we get $\\frac{dy}{dx}=2e^{2x}-3e^{-x}$.<br>Step 2: Differentiate the first derivative again with respect to $x$.<br>Step 3: Thus, $\\frac{d^2y}{dx^2}=4e^{2x}+3e^{-x}$.<br>Step 4: At $x=0$, both $e^{2(0)}$ and $e^{-0}$ are equal to $1$.<br>Step 5: Hence, $\\left.\\frac{d^2y}{dx^2}\\right|_{x=0}=4(1)+3(1)=7$. Therefore, the required second order derivative is $7$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$1$",
+    "B": "$7$",
+    "C": "$4$",
+    "D": "$-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

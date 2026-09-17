@@ -1,0 +1,28 @@
+{
+  "id": "6a227987864be73cfcf6d1f8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the image of the point $(-1,5,2)$ in the line $\\frac{2x-4}{2}=\\frac{y}{2}=\\frac{2-z}{3}$. Find the length of the line segment joining the points (given point and the image point).",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the line equation in standard form: $\\frac{2(x-2)}{2} = \\frac{y}{2} = \\frac{-(z-2)}{3} \\implies \\frac{x-2}{1} = \\frac{y}{2} = \\frac{z-2}{-3}$.<br />**Step 2:** A general point $M$ on the line is $(\\lambda+2, 2\\lambda, -3\\lambda+2)$. Let $M$ be the foot of the perpendicular from $P(-1,5,2)$ to the line.<br />**Step 3:** The direction ratios of segment $PM$ are $(\\lambda+2 - (-1), 2\\lambda - 5, -3\\lambda+2 - 2) = (\\lambda+3, 2\\lambda-5, -3\\lambda)$.<br />**Step 4:** Since $PM$ is perpendicular to the line with direction ratios $(1, 2, -3)$, their dot product is zero: $1(\\lambda+3) + 2(2\\lambda-5) - 3(-3\\lambda) = 0$.<br />**Step 5:** Solve for $\\lambda$: $\\lambda + 3 + 4\\lambda - 10 + 9\\lambda = 0 \\implies 14\\lambda - 7 = 0 \\implies \\lambda = \\frac{1}{2}$.<br />**Step 6:** Substitute $\\lambda$ to find coordinates of $M$: $M(\\frac{1}{2}+2, 2(\\frac{1}{2}), -3(\\frac{1}{2})+2) = (\\frac{5}{2}, 1, \\frac{1}{2})$.<br />**Step 7:** Let $P'(x,y,z)$ be the image. $M$ is the midpoint of $PP'$. Using midpoint formula: $\\frac{x-1}{2} = \\frac{5}{2} \\implies x=6$; $\\frac{y+5}{2} = 1 \\implies y=-3$; $\\frac{z+2}{2} = \\frac{1}{2} \\implies z=-1$. The image is $P'(6, -3, -1)$.<br />**Step 8:** The length of segment $PP'$ is $\\sqrt{(6 - (-1))^2 + (-3 - 5)^2 + (-1 - 2)^2} = \\sqrt{7^2 + (-8)^2 + (-3)^2} = \\sqrt{49 + 64 + 9} = \\sqrt{122}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

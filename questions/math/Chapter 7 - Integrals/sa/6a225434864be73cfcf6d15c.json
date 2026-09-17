@@ -1,0 +1,26 @@
+{
+  "id": "6a225434864be73cfcf6d15c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate : $\\int_{0}^{\\frac{\\pi}{4}} \\frac{dx}{\\cos^3 x \\sqrt{2\\sin 2x}}$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Express the integrand fundamentally in terms of $\\tan x$ and $\\sec x$. Notice that $\\sqrt{2\\sin 2x} = \\sqrt{4\\sin x \\cos x} = 2\\sqrt{\\sin x \\cos x}$. The integral becomes $\\int_0^{\\pi/4} \\frac{dx}{2\\cos^3 x \\sqrt{\\sin x \\cos x}}$.<br />**Step 2:** Divide the numerator and denominator inside the square root by $\\cos^2 x$, which effectively factors out a $\\cos x$. The integral becomes $\\int_0^{\\pi/4} \\frac{dx}{2\\cos^3 x \\cos x \\sqrt{\\tan x}} = \\int_0^{\\pi/4} \\frac{\\sec^4 x dx}{2\\sqrt{\\tan x}}$.<br />**Step 3:** Rewrite $\\sec^4 x$ using trigonometric identities as $\\sec^2 x \\cdot \\sec^2 x = (1 + \\tan^2 x)\\sec^2 x$. The integral is transformed to $\\frac{1}{2} \\int_0^{\\pi/4} \\frac{1 + \\tan^2 x}{\\sqrt{\\tan x}} \\sec^2 x dx$.<br />**Step 4:** Substitute $t = \\tan x$, so $dt = \\sec^2 x dx$. The limits of integration change correctly from 0 to 1. The integral becomes $\\frac{1}{2} \\int_0^1 \\frac{1 + t^2}{\\sqrt{t}} dt = \\frac{1}{2} \\int_0^1 (t^{-1/2} + t^{3/2}) dt$.<br />**Step 5:** Integrate utilizing the standard power rule: $\\frac{1}{2} [\\frac{t^{1/2}}{1/2} + \\frac{t^{5/2}}{5/2}]_0^1 = \\frac{1}{2} [2(1) + \\frac{2}{5}(1)] = 1 + \\frac{1}{5} = \\frac{6}{5}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

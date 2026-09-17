@@ -1,0 +1,30 @@
+{
+  "id": "6a9006b74b490c7cde359553",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a classroom investigation, two mathematical profiles are represented by $y=\\sin x$ and $y=\\sin^2x$ over the interval $0\\leq x\\leq\\pi$. The curves meet at the endpoints and at an interior point, dividing the enclosed region into two portions. Students examine the range of $\\sin x$ on the interval to decide which curve lies above the other. They then use a trigonometric identity to evaluate the total area and compare the portions on the two sides of $x=\\frac{\\pi}{2}$.(a) Determine all the points of intersection of the two curves.(b) Establish which curve forms the upper boundary.(c) Calculate the total area between the curves.(d) Determine the areas on the two sides of $x=\\frac{\\pi}{2}$ and compare them.",
+  "answeroption": "C",
+  "explanation": "(a)At the points of intersection,`\\sin x=\\sin^2x\\sin x\\left(1-\\sin x\\right)=0`Thus, $\\sin x=0$ or $\\sin x=1$. In $[0,\\pi]$, these conditions give $x=0$, $x=\\frac{\\pi}{2}$ and $x=\\pi$. Hence, the intersection points are $\\left(0,0\\right)$, $\\left(\\frac{\\pi}{2},1\\right)$ and $\\left(\\pi,0\\right)$.(b)On $[0,\\pi]$,`0\\leq\\sin x\\leq1`For any number $t$ satisfying $0\\leq t\\leq1$, $t\\geq t^2$. Therefore,`\\sin x\\geq\\sin^2x`Hence, $y=\\sin x$ is the upper boundary throughout the interval.(c)The total area is`A=\\int_0^{\\pi}\\left(\\sin x-\\sin^2x\\right)dx`Using $\\sin^2x=\\frac{1-\\cos2x}{2}$,`\\int_0^{\\pi}\\sin x\\,dx=2`and`\\int_0^{\\pi}\\sin^2x\\,dx=\\frac{\\pi}{2}`Therefore,`A=2-\\frac{\\pi}{2}`Hence, the total area is $2-\\frac{\\pi}{2}$ square units.(d)The area from $x=0$ to $x=\\frac{\\pi}{2}$ is`A_1=\\int_0^{\\frac{\\pi}{2}}\\left(\\sin x-\\sin^2x\\right)dxA_1=1-\\frac{\\pi}{4}`The functions satisfy $\\sin\\left(\\pi-x\\right)=\\sin x$, so the region is symmetric about $x=\\frac{\\pi}{2}$. Thus,`A_2=1-\\frac{\\pi}{4}`Therefore, the two portions have equal areas, each measuring $1-\\frac{\\pi}{4}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,0),(\\frac{\\pi}{2},1),(\\pi,0)$<br>(b) $y=\\sin^2x$ is upper throughout<br>(c) Area $=\\frac{\\pi}{2}-2$<br>(d) Each part $=\\frac{\\pi}{4}-1$",
+    "B": "(a) $(0,0),(\\frac{\\pi}{2},1),(\\pi,0)$<br>(b) $y=\\sin x$ is upper throughout<br>(c) Area $=2-\\frac{\\pi}{2}$<br>(d) Left $=1-\\frac{\\pi}{4}$, right $=\\frac{\\pi}{4}$",
+    "C": "(a) $(0,0),(\\frac{\\pi}{2},1),(\\pi,0)$<br>(b) $y=\\sin x$ is upper throughout<br>(c) Area $=2-\\frac{\\pi}{2}$<br>(d) Both parts equal $1-\\frac{\\pi}{4}$",
+    "D": "(a) $(0,0),(\\pi,0)$ only<br>(b) $y=\\sin x$ is upper throughout<br>(c) Area $=2-\\frac{\\pi}{2}$<br>(d) Both parts equal $1-\\frac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

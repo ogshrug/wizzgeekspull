@@ -1,0 +1,30 @@
+{
+  "id": "69a86ca964fcf4cdd5b4bb01",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "LA",
+  "question": "Let $y$ be defined implicitly as $\\cos (x + y) = x y$ for $|x| < 1$ and $|y| < 1$. Show that \n$\n\\frac{d^2y}{dx^2} = -\\frac{2 \\sin (x + y) + y^2\\cos(x + y)}{\\sin (x + y) + x \\cos(x + y)}\n$",
+  "answeroption": "D",
+  "explanation": "Differentiate both sides w.r.t $x$:<br /><br />$-\\sin (x + y) (1 + \\frac{dy}{dx}) = y + x \\frac{dy}{dx}$<br /><br />Let $u = \\frac{dy}{dx}$<br /><br />Solve to obtain:<br /><br />$u = -\\frac{ y + \\sin(x + y ) }{ \\sin(x + y) + x }$<br /><br />Differentiate again using quotient and chain rule and substitute $u$ appropriately.<br /><br />After simplification, we obtain:<br /><br />$\\boxed{\\frac{d^2 y}{dx^2} = -\\frac{2 \\sin (x + y) + y^2 \\cos(x + y)}{\\sin(x+y) + x \\cos(x+y)}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2}=\\frac{2\\sin(x+y)+y^2\\cos(x+y)}{\\sin(x+y)+x\\cos(x+y)}$",
+    "B": "$\\frac{d^2y}{dx^2}=-\\frac{2\\cos(x+y)+y^2\\sin(x+y)}{\\sin(x+y)+x\\cos(x+y)}$",
+    "C": "$\\frac{d^2y}{dx^2}=-\\frac{2\\sin(x+y)+x^2\\cos(x+y)}{\\sin(x+y)+y\\cos(x+y)}$",
+    "D": "$\\frac{d^2y}{dx^2}=-\\frac{2\\sin(x+y)+y^2\\cos(x+y)}{\\sin(x+y)+x\\cos(x+y)}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:32:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a2265b7864be73cfcf6d1be",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8c9"
+  ],
+  "question_type": "VSA",
+  "question": "If $\\vec{a}$ and $\\vec{b}$ are position vectors of point $A$ and point $B$ respectively, find the position vector of point $C$ on $BA$ produced such that $BC=3BA$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Analyze the geometric condition $BC = 3BA$. The phrase \"on BA produced\" signifies that the line segment starts at B, goes through A, and extends further to reach C. This means point A lies strictly between B and C.<br />**Step 2:** From $BC = 3BA$, we can deduce that the distance from A to C is $AC = BC - BA = 3BA - BA = 2BA$.<br />**Step 3:** This relationship establishes that point A divides the line segment BC internally in the ratio $BA:AC = 1:2$.<br />**Step 4:** Using the internal section formula, the position vector of point A is given by $\\vec{a} = \\frac{1 \\cdot \\vec{c} + 2 \\cdot \\vec{b}}{1 + 2}$, where $\\vec{c}$ is the unknown position vector of C.<br />**Step 5:** Simplify the equation: $\\vec{a} = \\frac{\\vec{c} + 2\\vec{b}}{3}$.<br />**Step 6:** Solve algebraically for $\\vec{c}$: $3\\vec{a} = \\vec{c} + 2\\vec{b}$, which leads directly to $\\vec{c} = 3\\vec{a} - 2\\vec{b}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

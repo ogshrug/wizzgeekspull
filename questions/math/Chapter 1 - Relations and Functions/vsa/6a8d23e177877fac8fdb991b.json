@@ -1,0 +1,29 @@
+{
+  "id": "6a8d23e177877fac8fdb991b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "Consider $f:\\mathbb{N}\\to\\mathbb{N}$ defined by $f(n)=n+3$. Identify one element of the co-domain which has no pre-image and hence determine whether $f$ is onto.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> For $f$ to be onto, every element of the co-domain $\\mathbb{N}$ must have at least one pre-image in $\\mathbb{N}$.<br><b>Step 2:</b> Suppose $1$ has a pre-image $n$. Then $f(n)=1$.<br><b>Step 3:</b> Using $f(n)=n+3$, we obtain $n+3=1$, so $n=-2$.<br><b>Step 4:</b> But $-2\\notin\\mathbb{N}$, so there is no natural number mapped to $1$.<br><b>Step 5:</b> Therefore, at least one element of the co-domain has no pre-image.<br><b>Final Answer:</b> The element $1$ has no pre-image, so $f$ is not onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$4$ has no pre-image; therefore, $f$ is not onto",
+    "B": "$5$ has no pre-image; therefore, $f$ is onto",
+    "C": "$1$ has no pre-image; therefore, $f$ is not onto",
+    "D": "$6$ has no pre-image; therefore, $f$ is onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

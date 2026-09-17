@@ -1,0 +1,29 @@
+{
+  "id": "6a9138abbe0ecc7866e90ce5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb"
+  ],
+  "question_type": "LA",
+  "question": "Let $\\vec{a}=\\hat{i}+2\\hat{j}-\\hat{k}$ and $\\vec{b}=2\\hat{i}-\\hat{j}+3\\hat{k}$.(a) Evaluate $\\vec{a}\\times\\vec{b}$.(b) Verify that the obtained vector is perpendicular to both $\\vec{a}$ and $\\vec{b}$.(c) Hence determine the areas of the parallelogram and the triangle having $\\vec{a}$ and $\\vec{b}$ as adjacent sides.",
+  "answeroption": "A",
+  "explanation": "(a)Using the determinant form of the vector product,\\\\vec{a}\\\\times\\\\vec{b}=\\\\begin{vmatrix}\\\\hat{i} & \\\\hat{j} & \\\\hat{k}\\\\\\\\1 & 2 & -1\\\\\\\\2 & -1 & 3\\\\end{vmatrix}Expanding along the first row,`\\vec{a}\\times\\vec{b}=\\hat{i}[2(3)-(-1)(-1)]-\\hat{j}[1(3)-(-1)(2)]+\\hat{k}[1(-1)-2(2)]\\vec{a}\\times\\vec{b}=5\\hat{i}-5\\hat{j}-5\\hat{k}`(b)To check perpendicularity with $\\vec{a}$,`\\vec{a}\\cdot(\\vec{a}\\times\\vec{b})=(1)(5)+(2)(-5)+(-1)(-5)=5-10+5=0`Therefore, $\\vec{a}\\times\\vec{b}$ is perpendicular to $\\vec{a}$.To check perpendicularity with $\\vec{b}$,`\\vec{b}\\cdot(\\vec{a}\\times\\vec{b})=(2)(5)+(-1)(-5)+(3)(-5)=10+5-15=0`Therefore, $\\vec{a}\\times\\vec{b}$ is also perpendicular to $\\vec{b}$.(c)The area of the parallelogram is`|\\vec{a}\\times\\vec{b}|=\\sqrt{5^2+(-5)^2+(-5)^2}=5\\sqrt{3}`The area of the triangle is one-half of the area of the parallelogram.`\\text{Area of triangle}=\\frac{1}{2}|\\vec{a}\\times\\vec{b}|=\\frac{5\\sqrt{3}}{2}`Final ResultThe area of the parallelogram is $5\\sqrt{3}$ square units, and the area of the triangle is $\\frac{5\\sqrt{3}}{2}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\vec{a}\\times\\vec{b}=5\\hat{i}-5\\hat{j}-5\\hat{k}$<br>(b) Its scalar product with each of $\\vec{a}$ and $\\vec{b}$ is $0$.<br>(c) Parallelogram area $=5\\sqrt{3}$ and triangle area $=\\frac{5\\sqrt{3}}{2}$.",
+    "B": "(a) $\\vec{a}\\times\\vec{b}=-5\\hat{i}+5\\hat{j}+5\\hat{k}$<br>(b) It is perpendicular to both vectors.<br>(c) Parallelogram area $=5\\sqrt{3}$ and triangle area $=5\\sqrt{3}$.",
+    "C": "(a) $\\vec{a}\\times\\vec{b}=5\\hat{i}+5\\hat{j}-5\\hat{k}$<br>(b) It is perpendicular only to $\\vec{a}$.<br>(c) Both areas equal $5\\sqrt{3}$.",
+    "D": "(a) $\\vec{a}\\times\\vec{b}=5\\hat{i}-5\\hat{j}-5\\hat{k}$<br>(b) It is parallel to both vectors.<br>(c) Parallelogram area $=\\frac{5\\sqrt{3}}{2}$ and triangle area $=5\\sqrt{3}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

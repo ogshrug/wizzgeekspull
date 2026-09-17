@@ -1,0 +1,29 @@
+{
+  "id": "6a8f173b2e54880055a0a6e5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991"
+  ],
+  "question_type": "VSA",
+  "question": "For the curve $y=\\frac{1}{1+x^2}$, determine the area lying below the curve from $x=0$ to $x=1$.",
+  "answeroption": "C",
+  "explanation": "Step 1: The function $\\frac{1}{1+x^2}$ is positive throughout $[0,1]$. Hence, its definite integral gives the required area. Step 2: The area is $A=\\int_0^1\\frac{1}{1+x^2}\\,dx$. Step 3: Using $\\int\\frac{1}{1+x^2}\\,dx=\\tan^{-1}x$, we get $A=\\left[\\tan^{-1}x\\right]_0^1$. Step 4: Therefore, $A=\\tan^{-1}(1)-\\tan^{-1}(0)=\\frac{\\pi}{4}$. Final Answer: The required area is $\\frac{\\pi}{4}$ square unit.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\pi}{2}$ square unit",
+    "B": "$\\frac{\\pi}{6}$ square unit",
+    "C": "$\\frac{\\pi}{4}$ square unit",
+    "D": "$\\frac{1}{2}$ square unit"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

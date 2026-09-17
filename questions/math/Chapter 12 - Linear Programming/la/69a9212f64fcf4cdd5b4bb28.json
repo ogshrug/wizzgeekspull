@@ -1,0 +1,29 @@
+{
+  "id": "69a9212f64fcf4cdd5b4bb28",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8e2"
+  ],
+  "question_type": "LA",
+  "question": "A shipping company has two types of containers: Type I holds 200 cubic feet and Type II holds 300 cubic feet of cargo. The company needs to ship at least 2,200 cubic feet of cargo. At most 10 containers can be shipped due to manpower limits, and at least 3 must be of Type II. The shipping cost is ₹3,000 for Type I and ₹4,000 for Type II. Formulate an LPP and determine the quantities that minimize cost. Also, state if alternate optimums exist.",
+  "answeroption": "D",
+  "explanation": "Let $x$ = number of Type I containers and $y$ = number of Type II containers.<br /><br />Constraints:<br /><br />$200x + 300y \\geq 2200$.<br /><br />$x + y \\leq 10$.<br /><br />$y \\geq 3$.<br /><br />$x, y \\geq 0$.<br /><br />Objective: Minimize $Z = 3000x + 4000y$.<br /><br />Try $y=3$.<br /><br />$200x + 900 \\geq 2200 \\implies x \\geq 6.5$. Smallest integer $x=7$.<br /><br />Cost $Z = 3000×7 + 4000×3 = 33000$.<br /><br />Try $y=4$.<br /><br />$200x + 1200 \\geq 2200 \\implies x \\geq 5$.<br /><br />Take $x=5$. Then $Z = 3000×5 + 4000×4 = 31000$.<br /><br />Try $y=5$.<br /><br />$200x + 1500 \\geq 2200 \\implies x \\geq 3.5$. Take $x=4$.<br /><br />$Z = 32000$.<br /><br />Minimum cost ₹31,000 occurs at $(x,y)=(5,4)$.<br /><br />Thus ship 5 Type I containers and 4 Type II containers. Solution is unique.",
+  "explanation_image": [],
+  "options": {
+    "A": "Ship 7 Type I containers and 3 Type II containers; minimum cost ₹33,000; unique solution",
+    "B": "Ship 4 Type I containers and 5 Type II containers; minimum cost ₹32,000; unique solution",
+    "C": "Ship 0 Type I containers and 8 Type II containers; minimum cost ₹32,000; alternate optimums exist",
+    "D": "Ship 5 Type I containers and 4 Type II containers; minimum cost ₹31,000; unique solution"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:22:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

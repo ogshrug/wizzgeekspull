@@ -1,0 +1,26 @@
+{
+  "id": "6a32795dd5dca7dcb0bf0eb6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Simplify : $\\cos^{-1}x + \\cos^{-1}\\left[\\frac{x}{2} + \\frac{\\sqrt{3-3x^2}}{2}\\right] ; \\frac{1}{2} \\le x \\le 1$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the second term using trigonometric identities. Let $x = \\cos\\theta$. The expression becomes $\\cos^{-1}(\\cos\\theta) + \\cos^{-1}\\left(\\frac{1}{2}\\cos\\theta + \\frac{\\sqrt{3}}{2}\\sin\\theta\\right)$.\n\n**Step 2:** Substitute standard angles: $\\theta + \\cos^{-1}\\left(\\cos\\left(\\frac{\\pi}{3}\\right)\\cos\\theta + \\sin\\left(\\frac{\\pi}{3}\\right)\\sin\\theta\\right)$.\n\n**Step 3:** Apply the cosine subtraction formula: $\\theta + \\cos^{-1}\\left(\\cos\\left(\\frac{\\pi}{3} - \\theta\\right)\\right) = \\theta + \\frac{\\pi}{3} - \\theta = \\frac{\\pi}{3}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

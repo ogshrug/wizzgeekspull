@@ -1,0 +1,30 @@
+{
+  "id": "6a8ecf632e54880055a0a6c5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a differentiation activity, students investigate the nested function $$F(x)=\\cos(\\sin(2x+1)).$$ They describe the calculation as a sequence of three operations: first the linear expression $2x+1$ is formed, then its sine is taken, and finally the cosine of that result is evaluated. Rather than expanding or transforming the expression, the class is asked to differentiate it by recognising the successive layers of composition. Each derivative must therefore be taken with respect to its own intermediate variable and then combined using the chain rule.<br><br><b>(a)</b> Express the three successive functions used to form $F(x)$.<br><br><b>(b)</b> Find the derivative of each successive function with respect to its own variable.<br><br><b>(c)</b> Determine $F'(x)$ using the chain rule.<br><br><b>(d)</b> Determine whether $x=-\\frac{1}{2}$ is a stationary point of $F$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>Let<br><br>$$u=2x+1,$$<br><br>$$v=\\sin u,$$<br><br>and<br><br>$$F=\\cos v.$$<br><br>Thus, $F$ is obtained by the composition of three differentiable functions.<br><br><b>(b)</b><br>The required derivatives are<br><br>$$\\frac{du}{dx}=2,$$<br><br>$$\\frac{dv}{du}=\\cos u,$$<br><br>and<br><br>$$\\frac{dF}{dv}=-\\sin v.$$<br><br><b>(c)</b><br>By the chain rule,<br><br>$$\\frac{dF}{dx}=\\frac{dF}{dv}\\cdot\\frac{dv}{du}\\cdot\\frac{du}{dx}.$$<br><br>Substituting the derivatives,<br><br>$$F'(x)=(-\\sin v)(\\cos u)(2).$$<br><br>Replacing $u$ and $v$ by their expressions,<br><br>$$F'(x)=-2\\sin(\\sin(2x+1))\\cos(2x+1).$$<br><br><b>(d)</b><br>At $x=-\\frac{1}{2}$,<br><br>$$2x+1=0.$$<br><br>Therefore,<br><br>$$F'\\left(-\\frac{1}{2}\\right)=-2\\sin(\\sin0)\\cos0=0.$$<br><br>Hence, $x=-\\frac{1}{2}$ is a stationary point of $F$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $u=2x+1,\\ v=\\cos u,\\ F=\\sin v$<br>(b) $\\frac{du}{dx}=2,\\ \\frac{dv}{du}=-\\sin u,\\ \\frac{dF}{dv}=\\cos v$<br>(c) $F'(x)=-2\\cos(\\cos(2x+1))\\sin(2x+1)$<br>(d) $x=-\\frac12$ is a stationary point",
+    "B": "(a) $u=2x+1,\\ v=\\sin u,\\ F=\\cos v$<br>(b) $\\frac{du}{dx}=1,\\ \\frac{dv}{du}=\\cos u,\\ \\frac{dF}{dv}=-\\sin v$<br>(c) $F'(x)=-\\sin(\\sin(2x+1))\\cos(2x+1)$<br>(d) $x=-\\frac12$ is a stationary point",
+    "C": "(a) $u=2x+1,\\ v=\\sin u,\\ F=\\cos v$<br>(b) $\\frac{du}{dx}=2,\\ \\frac{dv}{du}=\\sin u,\\ \\frac{dF}{dv}=-\\cos v$<br>(c) $F'(x)=-2\\cos(\\sin(2x+1))\\sin(2x+1)$<br>(d) $x=-\\frac12$ is not a stationary point",
+    "D": "(a) $u=2x+1,\\ v=\\sin u,\\ F=\\cos v$<br>(b) $\\frac{du}{dx}=2,\\ \\frac{dv}{du}=\\cos u,\\ \\frac{dF}{dv}=-\\sin v$<br>(c) $F'(x)=-2\\sin(\\sin(2x+1))\\cos(2x+1)$<br>(d) $x=-\\frac12$ is a stationary point"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

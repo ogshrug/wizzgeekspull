@@ -1,0 +1,29 @@
+{
+  "id": "69a9aecf6638848124d7c97a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate the following definite integral using properties of definite integrals and substitution: $\\int_{0}^{a} \\frac{x}{\\sqrt{a^2 - x^2}} dx$ where $a > 0$.",
+  "answeroption": "C",
+  "explanation": "Let $x=a\\sin\\theta$ so $dx=a\\cos\\theta d\\theta$.<br /><br />Limits change from $0$ to $\\frac{\\pi}{2}$.<br /><br />Substitute into the integral to get $a^2 \\int_0^{\\pi/2} \\frac{\\sin\\theta \\cos\\theta}{a\\cos\\theta} d\\theta$.<br /><br />This simplifies to $a\\int_0^{\\pi/2} \\sin\\theta d\\theta$.<br /><br />Evaluating gives $a[-\\cos\\theta]_0^{\\pi/2} = a(1) = a$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$a^2$",
+    "B": "$\\frac{a}{2}$",
+    "C": "$a$",
+    "D": "$\\frac{\\pi a}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:26:55 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

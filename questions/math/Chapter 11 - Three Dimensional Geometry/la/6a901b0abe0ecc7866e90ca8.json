@@ -1,0 +1,29 @@
+{
+  "id": "6a901b0abe0ecc7866e90ca8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d5"
+  ],
+  "question_type": "LA",
+  "question": "The planes $\\frac{x}{2}+\\frac{y}{3}+\\frac{z}{6}=1$ and $\\frac{x}{3}-\\frac{y}{2}+\\frac{z}{6}=1$ intersect in space. Determine both the acute and obtuse angles between the two planes.",
+  "answeroption": "A",
+  "explanation": "<b>Conversion to Cartesian Form</b><br>Multiplying the first equation by $6$ gives<br>$$3x+2y+z=6$$<br>Hence, a normal vector to the first plane is<br>$$\\vec{n_1}=3\\hat{i}+2\\hat{j}+\\hat{k}$$<br>Multiplying the second equation by $6$ gives<br>$$2x-3y+z=6$$<br>Hence, a normal vector to the second plane is<br>$$\\vec{n_2}=2\\hat{i}-3\\hat{j}+\\hat{k}$$<br><br><b>Applying the Formula</b><br>If $\\theta$ is the acute angle between the planes, then<br>$$\\cos\\theta=\\frac{|\\vec{n_1}\\cdot\\vec{n_2}|}{|\\vec{n_1}||\\vec{n_2}|}$$<br>Now,<br>$$\\vec{n_1}\\cdot\\vec{n_2}=3(2)+2(-3)+1(1)=1$$<br>Also,<br>$$|\\vec{n_1}|=\\sqrt{9+4+1}=\\sqrt{14}$$<br>and<br>$$|\\vec{n_2}|=\\sqrt{4+9+1}=\\sqrt{14}$$<br>Therefore,<br>$$\\cos\\theta=\\frac{1}{14}$$<br>Hence, the acute angle is<br>$$\\theta=\\cos^{-1}\\left(\\frac{1}{14}\\right)$$<br>The other angle between the planes is supplementary to the acute angle. Therefore, it is<br>$$180^\\circ-\\cos^{-1}\\left(\\frac{1}{14}\\right)$$<br><br><b>Final Result</b><br>The acute angle is $\\cos^{-1}\\left(\\frac{1}{14}\\right)$ and the obtuse angle is $180^\\circ-\\cos^{-1}\\left(\\frac{1}{14}\\right)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Acute angle $=\\cos^{-1}\\left(\\frac{1}{14}\\right)$; obtuse angle $=180^\\circ-\\cos^{-1}\\left(\\frac{1}{14}\\right)$",
+    "B": "Acute angle $=\\cos^{-1}\\left(\\frac{1}{7}\\right)$; obtuse angle $=180^\\circ-\\cos^{-1}\\left(\\frac{1}{7}\\right)$",
+    "C": "Acute angle $=\\sin^{-1}\\left(\\frac{1}{14}\\right)$; obtuse angle $=180^\\circ-\\sin^{-1}\\left(\\frac{1}{14}\\right)$",
+    "D": "Acute angle $=\\cos^{-1}\\left(\\frac{13}{14}\\right)$; obtuse angle $=180^\\circ-\\cos^{-1}\\left(\\frac{13}{14}\\right)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a94aae62be6a70cd184d4a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a2"
+  ],
+  "question_type": "LA",
+  "question": "Let $y(x)$ satisfy: $\\frac{dy}{dx} + y \\tan x = \\sin x$.<br /><br />(a) Find the general solution for $y(x)$.<br />(b) Evaluate the particular solution if $y\\left( \\frac{\\pi}{4} \\right) = 2$.<br />(c) Determine all values of $x$ (in $-\\frac{\\pi}{2} < x < \\frac{\\pi}{2}$) where $y(x)$ attains a local minimum.",
+  "answeroption": "D",
+  "explanation": "(a) Linear equation with $P(x) = \\tan x$, $Q(x) = \\sin x$<br />Integrating factor: $IF = e^{\\int \\tan x dx} = 1/\\cos x$<br />Multiply through:<br />$\\frac{d}{dx}(y/\\cos x) = \\tan x$<br />Integrate: $y/\\cos x = -\\ln|\\cos x| + C$<br />$y(x) = - \\cos x \\ln|\\cos x| + C \\cos x$<br /><br />(b) $y(\\pi/4) = 2$ yields $C = 2\\sqrt{2} - 1/2 \\ln 2$<br />Particular solution: $y(x) = -\\cos x \\ln|\\cos x| + (2\\sqrt{2} - 1/2 \\ln 2) \\cos x$<br /><br />(c) Critical points: $y'(x) = 0 \\Rightarrow y = \\cos x$<br />Substitute into solution: $|\\cos x| = e^{D-1}$<br />$y''(x) \\leq 0$, so local minima only at endpoints in given interval.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $y=\\cos x\\ln|\\cos x|+C\\cos x$<br />(b) $C=2\\sqrt2+\\frac12\\ln2$<br />(c) Local minimum at $x=0$",
+    "B": "(a) $y=-\\cos x\\ln|\\cos x|+C\\sin x$<br />(b) $C=2\\sqrt2-\\frac12\\ln2$<br />(c) Local minimum at $x=\\frac{\\pi}{4}$",
+    "C": "(a) $y=-\\cos x\\ln|\\cos x|+C\\cos x$<br />(b) $C=2\\sqrt2+\\frac12\\ln2$<br />(c) Local minimum at $x=0$",
+    "D": "(a) $y=-\\cos x\\ln|\\cos x|+C\\cos x$<br />(b) $C=2\\sqrt2-\\frac12\\ln2$<br />(c) No local minimum inside $-\\frac{\\pi}{2}<x<\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:19:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a906a2d2e54880055a0a75c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8c1"
+  ],
+  "question_type": "SA",
+  "question": "If $(\\lambda+\\mu-3)\\hat{i}+(\\lambda-\\mu+1)\\hat{j}+(2\\mu-4)\\hat{k}$ is a zero vector, determine $\\lambda$ and $\\mu$.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1: Vanishing of the $\\hat{k}$-component</b><br>Every component of a zero vector must be zero. Hence,<br>\\(2\\mu-4=0\\Rightarrow\\mu=2\\)<br><b>Step 2: Vanishing of the $\\hat{i}$-component</b><br>Using $\\mu=2$ in $\\lambda+\\mu-3=0$ gives<br>\\(\\lambda+2-3=0\\Rightarrow\\lambda=1\\)<br><b>Step 3: Verification through the $\\hat{j}$-component</b><br>For $\\lambda=1$ and $\\mu=2$,<br>\\(\\lambda-\\mu+1=1-2+1=0\\)<br><b>Step 4: Conclusion</b><br>All three scalar components become zero, so the given expression is indeed the zero vector.<br><b>Final Answer</b><br>$\\lambda=1$ and $\\mu=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\lambda=2$, $\\mu=1$",
+    "B": "$\\lambda=-1$, $\\mu=2$",
+    "C": "$\\lambda=1$, $\\mu=2$; all three components become zero.",
+    "D": "$\\lambda=1$, $\\mu=-2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

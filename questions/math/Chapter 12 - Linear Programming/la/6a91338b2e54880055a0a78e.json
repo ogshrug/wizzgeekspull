@@ -1,0 +1,34 @@
+{
+  "id": "6a91338b2e54880055a0a78e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8de",
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "LA",
+  "question": "Consider the system $x+y\\ge4$, $x+2y\\ge6$, $x\\ge0$ and $y\\ge0$. Determine its feasible region graphically and classify it as bounded or unbounded. Examine how the feasible region changes when the additional constraint $x+y\\le10$ is imposed, determine the new corner points, and identify which part of the original region becomes infeasible for the modified system.",
+  "answeroption": "C",
+  "explanation": "<b>Original Feasible Region</b><br>The line $x+y=4$ meets the axes at $(4,0)$ and $(0,4)$, while $x+2y=6$ meets them at $(6,0)$ and $(0,3)$. The inequalities are both of the type $\\ge$, so the required half-planes lie away from the origin. Solving $x+y=4$ and $x+2y=6$ gives $y=2$ and $x=2$. Thus the boundary vertices are $(0,4)$, $(2,2)$ and $(6,0)$. From $(0,4)$ the feasible region extends indefinitely upward, and from $(6,0)$ it extends indefinitely to the right. Hence the original feasible region is unbounded.<br><br><b>Effect of the Additional Constraint</b><br>The new constraint $x+y\\le10$ restricts the solutions to the side of the line $x+y=10$ containing the origin. This line meets the positive axes at $(10,0)$ and $(0,10)$. The common region is now enclosed by the segments joining $(0,4)$, $(2,2)$, $(6,0)$, $(10,0)$ and $(0,10)$. Thus the modified feasible region is bounded.<br><br>Every point of the original feasible region satisfying $x+y>10$ is excluded by the new constraint. Such points were feasible for the original system but are infeasible for the modified system because they violate $x+y\\le10$.<br><br><b>Final Result</b><br>The original feasible region is unbounded with boundary vertices $(0,4)$, $(2,2)$ and $(6,0)$. After adding $x+y\\le10$, the feasible region becomes the bounded polygon with vertices $(0,4)$, $(2,2)$, $(6,0)$, $(10,0)$ and $(0,10)$; the portion satisfying $x+y>10$ becomes infeasible.",
+  "explanation_image": [],
+  "options": {
+    "A": "The original region is bounded with vertices $(0,4)$, $(2,2)$ and $(6,0)$; adding $x+y\\leq10$ makes it unbounded",
+    "B": "The original region is unbounded; adding $x+y\\leq10$ gives a bounded quadrilateral with vertices $(0,4)$, $(2,2)$, $(6,0)$ and $(10,0)$",
+    "C": "The original region is unbounded with boundary vertices $(0,4)$, $(2,2)$ and $(6,0)$; after adding $x+y\\leq10$, the bounded region has vertices $(0,4)$, $(2,2)$, $(6,0)$, $(10,0)$ and $(0,10)$, and the part with $x+y>10$ becomes infeasible",
+    "D": "The original and modified regions are both unbounded; the new constraint removes only points with $x+y<10$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

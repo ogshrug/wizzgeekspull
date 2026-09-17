@@ -1,0 +1,29 @@
+{
+  "id": "6a8eadf4751910886affb96f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6f"
+  ],
+  "question_type": "LA",
+  "question": "Let $A=\\begin{bmatrix}k & 2\\\\3 & k-1\\end{bmatrix}$ and suppose that $|A|=-6$.<br><br><b>(a)</b> Determine all possible real values of $k$.<br><br><b>(b)</b> Find $A^{-1}$ corresponding to each value of $k$.<br><br><b>(c)</b> Verify that both matrices obtained for $A$ are invertible.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>$$|A|=k(k-1)-6$$<br>Given that $|A|=-6$,<br>$$k(k-1)-6=-6$$<br>$$k(k-1)=0$$<br>Therefore,<br>$$k=0\\quad\\text{or}\\quad k=1$$<br><br><b>(b)</b><br>For a matrix $\\begin{bmatrix}a & b\\\\c & d\\end{bmatrix}$, its inverse is<br>$$\\frac{1}{ad-bc}\\begin{bmatrix}d & -b\\\\-c & a\\end{bmatrix}$$<br>For $k=0$,<br>$$A=\\begin{bmatrix}0 & 2\\\\3 & -1\\end{bmatrix}$$<br>Therefore,<br>$$A^{-1}=-\\frac{1}{6}\\begin{bmatrix}-1 & -2\\\\-3 & 0\\end{bmatrix}=\\begin{bmatrix}\\frac{1}{6} & \\frac{1}{3}\\\\\\frac{1}{2} & 0\\end{bmatrix}$$<br>For $k=1$,<br>$$A=\\begin{bmatrix}1 & 2\\\\3 & 0\\end{bmatrix}$$<br>Therefore,<br>$$A^{-1}=-\\frac{1}{6}\\begin{bmatrix}0 & -2\\\\-3 & 1\\end{bmatrix}=\\begin{bmatrix}0 & \\frac{1}{3}\\\\\\frac{1}{2} & -\\frac{1}{6}\\end{bmatrix}$$<br><br><b>(c)</b><br>For both $k=0$ and $k=1$,<br>$$|A|=-6\\neq0$$<br>Therefore, both corresponding matrices are invertible.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $k=-1$ or $k=2$<br>(b) For $k=-1$, $A^{-1}=\\begin{bmatrix}\\frac13&\\frac13\\\\\\frac12&\\frac16\\end{bmatrix}$; for $k=2$, $A^{-1}=\\begin{bmatrix}-\\frac16&\\frac13\\\\\\frac12&-\\frac13\\end{bmatrix}$<br>(c) Both matrices are invertible",
+    "B": "(a) $k=0$ or $k=1$<br>(b) For $k=0$, $A^{-1}=\\begin{bmatrix}\\frac16&\\frac13\\\\\\frac12&0\\end{bmatrix}$; for $k=1$, $A^{-1}=\\begin{bmatrix}0&\\frac13\\\\\\frac12&-\\frac16\\end{bmatrix}$<br>(c) Both are invertible since $|A|=-6\\neq0$",
+    "C": "(a) $k=0$ only<br>(b) $A^{-1}=\\begin{bmatrix}\\frac16&\\frac13\\\\\\frac12&0\\end{bmatrix}$<br>(c) The matrix corresponding to $k=1$ is singular",
+    "D": "(a) $k=0$ or $k=1$<br>(b) The corresponding inverse matrices are the negatives of those in option B<br>(c) Both matrices are singular because $|A|=-6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

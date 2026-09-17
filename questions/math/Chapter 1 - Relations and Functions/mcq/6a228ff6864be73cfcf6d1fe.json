@@ -1,0 +1,32 @@
+{
+  "id": "6a228ff6864be73cfcf6d1fe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "MCQ",
+  "question": "A function $f: R_{+} \\rightarrow R$ (where $R_{+}$ is the set of all non-negative real numbers) defined by $f(x) = 4x + 3$ is:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** To check for a one-one function, assume $f(x_1) = f(x_2)$. This implies $4x_1 + 3 = 4x_2 + 3$, which simplifies to $4x_1 = 4x_2$, leading to $x_1 = x_2$. Thus, the function is strictly one-one.<br />**Step 2:** To check if it is onto, let $y = f(x) = 4x + 3$. We solve for $x$ to get $x = \\frac{y - 3}{4}$.<br />**Step 3:** Since the domain $R_{+}$ restricts $x$ to non-negative real numbers ($x \\ge 0$), we must have $\\frac{y - 3}{4} \\ge 0$, which means $y \\ge 3$.<br />**Step 4:** The range is therefore $[3, \\infty)$, which is not equal to the entire codomain $R$. Hence, the function is not onto. It is one-one but not onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "one-one but not onto",
+    "B": "onto but not one-one",
+    "C": "both one-one and onto",
+    "D": "neither one-one nor onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-1",
+  "set_key": [
+    "2024-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

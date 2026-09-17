@@ -1,0 +1,29 @@
+{
+  "id": "6a8fcefc4b490c7cde35950a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "During a mathematical discussion, students are asked to find an antiderivative of the inverse trigonometric function $\\tan^{-1}x$. The integral $$I=\\int\\tan^{-1}x\\,dx$$ is not written explicitly as a product, but the class observes that it can be regarded as $\\tan^{-1}x\\times1$. This allows integration by parts to be applied by treating the inverse trigonometric function as the first function and the constant function $1$ as the second. After one application of integration by parts, a simpler integral involving $\\frac{x}{1+x^2}$ appears. The students must evaluate this remaining integral and verify that their final expression is valid for every real value of $x$.<br><br><b>(a)</b> State a suitable choice of $u$ and $dv$ for integration by parts.<br><br><b>(b)</b> Apply integration by parts and reduce $I$ to a simpler integral.<br><br><b>(c)</b> Evaluate $I$ completely.<br><br><b>(d)</b> Verify the final result by differentiation and state its real-domain validity.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Write the integrand as $\\tan^{-1}x\\times1$. Choose $$u=\\tan^{-1}x,\\qquad dv=dx$$ Then, $$du=\\frac{1}{1+x^2}\\,dx,\\qquad v=x$$<br><br><b>(b)</b><br>Using integration by parts, $$I=x\\tan^{-1}x-\\int\\frac{x}{1+x^2}\\,dx$$ Thus, the original integral has been reduced to a simpler logarithmic-type integral.<br><br><b>(c)</b><br>For the remaining integral, put $$t=1+x^2$$ so that $dt=2x\\,dx$. Hence, $$\\int\\frac{x}{1+x^2}\\,dx=\\frac{1}{2}\\int\\frac{dt}{t}=\\frac{1}{2}\\log(1+x^2)$$ Therefore, $$I=x\\tan^{-1}x-\\frac{1}{2}\\log(1+x^2)+C$$<br><br><b>(d)</b><br>Differentiating, $$\\frac{d}{dx}\\left[x\\tan^{-1}x-\\frac{1}{2}\\log(1+x^2)\\right]=\\tan^{-1}x+\\frac{x}{1+x^2}-\\frac{x}{1+x^2}=\\tan^{-1}x$$ Also, $1+x^2>0$ for every real $x$, so the logarithmic term is defined for all real $x$. Hence, the antiderivative is valid for every $x\\in\\mathbb{R}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $u=x,\\ dv=\\tan^{-1}x\\,dx$<br>(b) $I=x\\tan^{-1}x-\\int\\frac{x}{1+x^2}\\,dx$<br>(c) $I=x\\tan^{-1}x+\\frac{1}{2}\\log(1+x^2)+C$<br>(d) Valid for all real $x$",
+    "B": "(a) $u=\\tan^{-1}x,\\ dv=dx$<br>(b) $I=x\\tan^{-1}x-\\int\\frac{x}{1+x^2}\\,dx$<br>(c) $I=x\\tan^{-1}x-\\frac{1}{2}\\log(1+x^2)+C$<br>(d) Differentiation gives $\\tan^{-1}x$, and the result is valid for all real $x$",
+    "C": "(a) $u=\\tan^{-1}x,\\ dv=x\\,dx$<br>(b) $I=\\frac{x^2}{2}\\tan^{-1}x-\\frac{1}{2}\\int\\frac{x^2}{1+x^2}\\,dx$<br>(c) $I=\\frac{x^2+1}{2}\\tan^{-1}x-\\frac{x}{2}+C$<br>(d) Valid for all real $x$",
+    "D": "(a) $u=\\tan^{-1}x,\\ dv=dx$<br>(b) $I=x\\tan^{-1}x+\\int\\frac{x}{1+x^2}\\,dx$<br>(c) $I=x\\tan^{-1}x+\\frac{1}{2}\\log(1+x^2)+C$<br>(d) Differentiation gives $\\tan^{-1}x+\\frac{2x}{1+x^2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e94674b490c7cde3593ec",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d66"
+  ],
+  "question_type": "SA",
+  "question": "Consider the matrices $A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$, $B=[5]$ and $C=\\begin{bmatrix}1&0&2\\\\3&1&4\\end{bmatrix}$. Identify the matrices for which determinants exist and evaluate those determinants. Justify why the remaining determinant is not defined.",
+  "answeroption": "A",
+  "explanation": "<b>Condition for the existence of a determinant</b><br>A determinant is defined only for a square matrix, in which the number of rows equals the number of columns.<br><b>Determinant of $A$</b><br>The matrix $A$ is square and has order $2$. Therefore, $$|A|=(1)(4)-(2)(3)=4-6=-2$$<br><b>Determinant of $B$</b><br>The matrix $B$ has order $1$. Hence, its determinant equals its only element: $$|B|=5$$<br><b>Examination of $C$</b><br>The matrix $C$ has order $2\\times3$. Since it is not square, $|C|$ is not defined.<br>Thus, the determinants of $A$ and $B$ are $-2$ and $5$, respectively, while the determinant of $C$ does not exist.",
+  "explanation_image": [],
+  "options": {
+    "A": "Determinants exist for $A$ and $B$: $|A|=-2$, $|B|=5$; $|C|$ is not defined because $C$ is non-square.",
+    "B": "Determinants exist for $A$ and $C$: $|A|=-2$, $|C|=4$; $|B|$ is not defined because $B$ has order $1$.",
+    "C": "Determinants exist only for $A$: $|A|=2$; $|B|$ and $|C|$ are not defined.",
+    "D": "Determinants exist for all three matrices: $|A|=-2$, $|B|=5$, $|C|=0$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

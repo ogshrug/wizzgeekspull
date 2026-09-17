@@ -1,0 +1,30 @@
+{
+  "id": "69a9a466d30adc5083911af2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7",
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A college has three departments: Science, Arts, and Commerce, with 300, 400, and 300 students respectively. The probabilities that a Science, Arts, or Commerce student gets a campus job are 0.6, 0.5, and 0.4. If a campus-placed student is randomly chosen:<br /><br />(a) What is the probability the student is from the Arts department?<br />(b) If a student is not placed, what is the probability they are from the Science department?<br />(c) Which department should be prioritized to improve placement rate most efficiently? Justify with suitable calculations.",
+  "answeroption": "C",
+  "explanation": "$P(S) = 0.3, P(A) = 0.4, P(C) = 0.3$<br />$P(J|S) = 0.6, P(J|A) = 0.5, P(J|C) = 0.4$<br /><br />$P(J) = 0.3 \\times 0.6 + 0.4 \\times 0.5 + 0.3 \\times 0.4 = 0.18 + 0.2 + 0.12 = 0.5$<br /><br />(a) $P(A|J) = \\frac{0.4 \\times 0.5}{0.5} = 0.4$<br /><br />(b) Not placed: $J'$<br />$P(J'|S) = 0.4, P(J'|A) = 0.5, P(J'|C) = 0.6$<br />$P(J') = 0.3 \\times 0.4 + 0.4 \\times 0.5 + 0.3 \\times 0.6 = 0.12 + 0.2 + 0.18 = 0.5$<br />$P(S|J') = \\frac{0.3 \\times 0.4}{0.5} = 0.24$<br /><br />(c)<br />Benefit of raising placement rate per point:<br />- Science: $0.3$<br />- Arts: $0.4$<br />- Commerce: $0.3$<br /><br />Thus, Arts department gives the maximum benefit for each point increase in placement rate.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $0.3$<br />(b) $0.24$<br />(c) Science, because its placement probability is highest",
+    "B": "(a) $0.4$<br />(b) $0.30$<br />(c) Commerce, because its placement probability is lowest",
+    "C": "(a) $0.4$<br />(b) $0.24$<br />(c) Arts, because its student proportion $0.4$ gives the highest overall gain per equal improvement",
+    "D": "(a) $0.5$<br />(b) $0.12$<br />(c) Science and Commerce equally, because both have 300 students"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:42:30 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

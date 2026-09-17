@@ -1,0 +1,29 @@
+{
+  "id": "6a8ffbc7751910886affba0a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8cd"
+  ],
+  "question_type": "VSA",
+  "question": "For the line joining $P(2,-1,4)$ and $Q(-4,5,-2)$, a student chooses $1,-1,1$ as its direction ratios. Determine whether this choice is valid, giving a mathematical reason.",
+  "answeroption": "C",
+  "explanation": "Step 1: Direction ratios of a line joining two points can be obtained from the differences of their corresponding coordinates. Step 2: For the direction from $P$ to $Q$, the differences are $$(-4-2,5-(-1),-2-4)=(-6,6,-6).$$ Step 3: Compare these with the student's proposed ratios $(1,-1,1)$. We have $$(-6,6,-6)=-6(1,-1,1).$$ Step 4: Since direction ratios need only be proportional to the actual coordinate differences, multiplication by any non-zero scalar gives another valid set of direction ratios. Step 5: Therefore, $(1,-1,1)$ is a valid set of direction ratios for the same line, although it represents the direction opposite to the set $(-6,6,-6)$ when considered as directed ratios.",
+  "explanation_image": [],
+  "options": {
+    "A": "Invalid, because the actual direction ratios are $(-6,6,-6)$ and direction ratios must be identical.",
+    "B": "Invalid, because direction ratios cannot contain negative components.",
+    "C": "Valid, because $(-6,6,-6)=-6(1,-1,1)$, so the two sets are proportional.",
+    "D": "Valid only if the line is directed from $Q$ to $P$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

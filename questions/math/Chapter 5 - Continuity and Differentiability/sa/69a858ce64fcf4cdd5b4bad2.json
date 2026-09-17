@@ -1,0 +1,29 @@
+{
+  "id": "69a858ce64fcf4cdd5b4bad2",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78"
+  ],
+  "question_type": "SA",
+  "question": "Find all real $k$ such that $f(x) = \\begin{cases} x^{k}, & x>0 \\\\ 0, & x\\leq 0 \\end{cases}$ is differentiable at $x=0$.",
+  "answeroption": "C",
+  "explanation": "Continuity at $x=0$:<br /><br />$\\lim_{x \\to 0^+} x^k = 0$ only if $k>0$. Since $f(0)=0$, function is continuous at $0$ if $k>0$.<br /><br />Now,<br /><br />$f'(0) = \\lim_{h \\to 0^+} \\frac{h^k}{h} = \\lim_{h \\to 0^+} h^{k-1}$.<br /><br />This limit exists and equals $0$ only if $k-1>0$.<br /><br />Thus, $k>1$.<br /><br />Therefore, $f(x)$ is differentiable at $x=0$ for $k>1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k>0$",
+    "B": "$k\\geq1$",
+    "C": "$k>1$",
+    "D": "$k<1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:07:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

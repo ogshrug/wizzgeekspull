@@ -1,0 +1,27 @@
+{
+  "id": "6a324333d5dca7dcb0bf0e94",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d6",
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Vertices B and C of $\\Delta ABC$ lie on the line $\\frac{x+2}{2} = \\frac{y-1}{1} = \\frac{z}{4}$. Find the area of $\\Delta ABC$ given that point A has coordinates $(1, -1, 2)$ and the line segment BC has length of 5 units.",
+  "answeroption": "",
+  "explanation": "**Step 1: Understand the Problem Setup**  \nWe are given that B and C lie on a fixed line L, and BC = 5 units. We need the area of triangle ABC. Since B and C are on the same line, BC is the base of the triangle. Area = $\\frac{1}{2} \\times BC \\times d$, where $d$ is the perpendicular distance from point A to the line L.\n\n**Step 2: Find a Point and Direction Vector of the Line**  \nThe line is $\\frac{x+2}{2} = \\frac{y-1}{1} = \\frac{z}{4}$.  \nA point on the line: P = $(-2, 1, 0)$ (by setting each ratio = 0).  \nDirection vector of the line: $\\vec{v} = \\langle 2, 1, 4 \\rangle$.\n\n**Step 3: Find Vector from Point P to A**  \nA = $(1, -1, 2)$ and P = $(-2, 1, 0)$.  \n$\\vec{PA} = \\vec{A} - \\vec{P} = (1-(-2), -1-1, 2-0) = \\langle 3, -2, 2 \\rangle$.\n\n**Step 4: Calculate the Perpendicular Distance**  \nThe perpendicular distance from A to the line L is:  \n$$d = \\frac{|\\vec{PA} \\times \\vec{v}|}{|\\vec{v}|}$$  \nFirst, compute $\\vec{PA} \\times \\vec{v}$:  \n$\\vec{PA} \\times \\vec{v} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & -2 & 2 \\\\ 2 & 1 & 4 \\end{vmatrix}$  \n$= \\hat{i}((-2)(4) - (2)(1)) - \\hat{j}((3)(4) - (2)(2)) + \\hat{k}((3)(1) - (-2)(2))$  \n$= \\hat{i}(-8-2) - \\hat{j}(12-4) + \\hat{k}(3+4) = \\langle -10, -8, 7 \\rangle$  \n$|\\vec{PA} \\times \\vec{v}| = \\sqrt{(-10)^2 + (-8)^2 + 7^2} = \\sqrt{100 + 64 + 49} = \\sqrt{213}$  \n$|\\vec{v}| = \\sqrt{2^2 + 1^2 + 4^2} = \\sqrt{4+1+16} = \\sqrt{21}$  \nSo, $d = \\frac{\\sqrt{213}}{\\sqrt{21}} = \\sqrt{\\frac{213}{21}} = \\sqrt{\\frac{71}{7}}$.\n\n**Step 5: Calculate the Area**  \nArea of triangle ABC = $\\frac{1}{2} \\times BC \\times d = \\frac{1}{2} \\times 5 \\times \\sqrt{\\frac{71}{7}} = \\frac{5}{2} \\sqrt{\\frac{71}{7}}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a32840ed5dca7dcb0bf0ee3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "VSA",
+  "question": "Show that the function f given by $f(x) = \\sin x + \\cos x$ is strictly decreasing in the interval $(\\frac{\\pi}{4}, \\frac{5\\pi}{4})$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Find the derivative of the function: $f'(x) = \\frac{d}{dx}(\\sin x + \\cos x) = \\cos x - \\sin x$.\n\n**Step 2:** For a function to be strictly decreasing, $f'(x) < 0$. This requires $\\cos x - \\sin x < 0 \\implies \\cos x < \\sin x$.\n\n**Step 3:** Examine the specified interval $(\\frac{\\pi}{4}, \\frac{5\\pi}{4})$. In this region, the sine curve lies strictly above the cosine curve on the standard unit circle.\n\n**Step 4:** Since $\\sin x > \\cos x$ holds true throughout the entirety of $(\\frac{\\pi}{4}, \\frac{5\\pi}{4})$, $f'(x)$ is always negative, proving the function is strictly decreasing.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

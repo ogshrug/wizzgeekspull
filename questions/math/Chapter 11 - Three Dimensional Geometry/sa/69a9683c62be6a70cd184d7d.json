@@ -1,0 +1,29 @@
+{
+  "id": "69a9683c62be6a70cd184d7d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "SA",
+  "question": "Find the equation of the plane which contains the line $\\frac{x-1}{2} = \\frac{y+2}{3} = \\frac{z-4}{-1}$ and is parallel to the vector $(1,5,2)$.",
+  "answeroption": "C",
+  "explanation": "Direction ratios of the line are $(2,3,-1)$.<br /><br />Since the plane is parallel to vector $(1,5,2)$, both vectors lie in the plane.<br /><br />Normal vector of the plane is the cross product $(2,3,-1) \\times (1,5,2)=(11,-5,7)$.<br /><br />The line passes through point $(1,-2,4)$.<br /><br />Using point-normal form: $11(x-1)-5(y+2)+7(z-4)=0$.<br /><br />Simplifying gives $11x-5y+7z=49$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$11x+5y+7z=49$",
+    "B": "$11x-5y+7z=0$",
+    "C": "$11x-5y+7z=49$",
+    "D": "$2x+3y-z=49$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:25:48 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:41 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "69a9bdce62be6a70cd184e33",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f976",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Temperature of an engine is modelled by $T(t)=100-60e^{-0.2t}$.<br /><br />(a) Find $\\frac{dT}{dt}$.<br /><br />(b) When is the rate of temperature increase maximum?<br /><br />(c) Find the limiting temperature as $t\\to\\infty$.<br /><br />(d) Explain the practical interpretation.<br /><br />(e) Find temperature after 10 minutes.",
+  "answeroption": "B",
+  "explanation": "(a) Differentiate:<br /><br />$\\frac{dT}{dt} = 12e^{-0.2t}$.<br /><br />(b) Maximum rate occurs when $e^{-0.2t}$ is largest → at $t=0$.<br /><br />(c) As $t\\to\\infty$, $e^{-0.2t} \\to 0$.<br /><br />Thus $T(t) \\to 100^\\circ C$.<br /><br />(d) Interpretation: the temperature increases rapidly at first and gradually stabilizes near $100^\\circ C$. This represents the steady operating temperature.<br /><br />(e) $T(10) = 100 - 60e^{-2} \\approx 91.88^\\circ C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dT}{dt}=60e^{-0.2t}$<br />(b) Maximum rate occurs at $t=10$.<br />(c) Limiting temperature is $60^\\circ C$.<br />(d) Temperature decreases and stabilizes.<br />(e) $T(10)\\approx86.47^\\circ C$.",
+    "B": "(a) $\\frac{dT}{dt}=12e^{-0.2t}$<br />(b) Maximum rate occurs at $t=0$.<br />(c) Limiting temperature is $100^\\circ C$.<br />(d) Temperature increases rapidly at first and gradually stabilizes near $100^\\circ C$.<br />(e) $T(10)\\approx91.88^\\circ C$.",
+    "C": "(a) $\\frac{dT}{dt}=-12e^{-0.2t}$<br />(b) Maximum rate occurs as $t\\to\\infty$.<br />(c) Limiting temperature is $0^\\circ C$.<br />(d) Temperature falls continuously.<br />(e) $T(10)\\approx8.12^\\circ C$.",
+    "D": "(a) $\\frac{dT}{dt}=12e^{0.2t}$<br />(b) Maximum rate occurs as $t\\to\\infty$.<br />(c) Limiting temperature does not exist.<br />(d) Temperature increases without bound.<br />(e) $T(10)\\approx108.12^\\circ C$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:30:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

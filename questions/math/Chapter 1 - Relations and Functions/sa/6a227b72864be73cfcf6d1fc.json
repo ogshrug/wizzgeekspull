@@ -1,0 +1,28 @@
+{
+  "id": "6a227b72864be73cfcf6d1fc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "SA",
+  "question": "Let $R$ be a relation defined on a set $N$ of natural numbers such that $R=\\{(x,y): xy \\text{ is a square of a natural number}, x, y\\in N\\}$. Determine if the relation $R$ is an equivalence relation.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Check for Reflexivity. A relation is reflexive if $(x,x) \\in R$ for all $x \\in N$. The product is $x \\cdot x = x^2$. Since $x$ is a natural number, $x^2$ is perfectly a square of a natural number. Thus, $R$ is reflexive.<br />**Step 2:** Check for Symmetry. A relation is symmetric if $(x,y) \\in R$ implies $(y,x) \\in R$. If $(x,y) \\in R$, then $xy$ is a perfect square, say $k^2$ where $k \\in N$. By the commutative property of multiplication, $yx = xy = k^2$. Therefore, $yx$ is also a perfect square, meaning $(y,x) \\in R$. Thus, $R$ is symmetric.<br />**Step 3:** Check for Transitivity. Assume $(x,y) \\in R$ and $(y,z) \\in R$. This means $xy = k_1^2$ and $yz = k_2^2$ for some natural numbers $k_1, k_2$.<br />**Step 4:** Multiplying these two equations gives $(xy)(yz) = k_1^2 k_2^2$, which simplifies to $xy^2z = (k_1k_2)^2$.<br />**Step 5:** Divide both sides by $y^2$ (which is valid since $y \\in N$): $xz = \\frac{(k_1k_2)^2}{y^2} = (\\frac{k_1k_2}{y})^2$.<br />**Step 6:** We must ensure $\\frac{k_1k_2}{y}$ is an integer. Let $x = a c^2$ and $y = a d^2$ where $a$ is the square-free part they share. Since $yz$ is a square, $z$ must also share the same square-free part, so $z = a e^2$. Thus, $xz = a^2 c^2 e^2 = (ace)^2$, making it a perfect square.<br />**Step 7:** Hence $(x,z) \\in R$, making the relation transitive. Since it satisfies all three properties, it is an equivalence relation.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a3386aed5dca7dcb0bf0f1b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "VSA",
+  "question": "Find the domain of $f(x) = \\cos^{-1}(1-x^2)$. Also, find its range.",
+  "answeroption": "",
+  "explanation": "**Step 1: Domain of $\\cos^{-1}$ Function**  \nFor $\\cos^{-1}(t)$ to be defined, we need $-1 \\le t \\le 1$. Here, $t = 1-x^2$. So,  \n$$-1 \\le 1-x^2 \\le 1$$  \nSubtract 1 from all parts: $-2 \\le -x^2 \\le 0$  \nMultiply by -1: $0 \\le x^2 \\le 2$  \nTaking square root: $|x| \\le \\sqrt{2}$  \nThus, domain is $[-\\sqrt{2}, \\sqrt{2}]$.\n\n**Step 2: Range of $\\cos^{-1}(1-x^2)$**  \nFor $x \\in [-\\sqrt{2}, \\sqrt{2}]$, the value $1-x^2$ ranges from 0 (at $x = \\pm\\sqrt{2}$) to 1 (at $x=0$). So, $1-x^2 \\in [0, 1]$.  \nSince $\\cos^{-1}$ is decreasing on $[0, 1]$, its range is from $\\cos^{-1}(1) = 0$ to $\\cos^{-1}(0) = \\frac{\\pi}{2}$.  \nThus, range is $[0, \\frac{\\pi}{2}]$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

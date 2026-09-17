@@ -1,0 +1,30 @@
+{
+  "id": "69a9a381d30adc5083911ae7",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "LA",
+  "question": "In a game, a box contains 5 white and 3 black balls. A player draws 2 balls at random and wins if both are of the same colour; otherwise, he loses. Let X be the random variable for the number of white balls drawn.\n(a) Find the probability distribution of X.\n(b) Find the mean and variance of X.\n(c) What is the probability that the player wins the game?",
+  "answeroption": "D",
+  "explanation": "(a) X can take values 0 (both black), 1 (one white, one black), 2 (both white)<br />Total ways: $\\binom{8}{2} = 28$<br />$P(X=0)$: both black = $\\binom{3}{2}/28 = 3/28$<br />$P(X=1)$: one white, one black = $\\binom{5}{1}\\binom{3}{1}/28 = 15/28$<br />$P(X=2)$: both white = $\\binom{5}{2}/28 = 10/28 = 5/14$<br /><br />Probability distribution:<br />| X | Probability |<br />|---|------------|<br />| 0 | $3/28$ |<br />| 1 | $15/28$ |<br />| 2 | $5/14$ |<br /><br />(b) Mean:<br />$E(X) = 0 \\times 3/28 + 1 \\times 15/28 + 2 \\times 5/14$<br />$= 0 + 15/28 + 10/14$<br />$= 15/28 + 20/28 = 35/28$<br /><br />Second moment:<br />$E(X^2) = 0^2 \\times 3/28 + 1^2 \\times 15/28 + 2^2 \\times 5/14 = 15/28 + 20/14 = 15/28 + 40/28 = 55/28$<br />Variance:<br />$Var(X) = E(X^2) - [E(X)]^2 = 55/28 - (35/28)^2$<br />$= 55/28 - 1225/784 = (55 \\times 28 - 1225)/784 = (1540 - 1225)/784 = 315/784$<br /><br />(c) Player wins when both balls are same colour:<br />$P(\\text{win}) = P(X=0) + P(X=2) = 3/28 + 5/14 = 3/28 + 10/28 = 13/28$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(0)=\\frac{3}{28}, P(1)=\\frac{10}{28}, P(2)=\\frac{15}{28}$<br />(b) Mean $=\\frac{5}{4}$, Variance $=\\frac{45}{112}$<br />(c) $\\frac{18}{28}$",
+    "B": "(a) $P(0)=\\frac{3}{28}, P(1)=\\frac{15}{28}, P(2)=\\frac{5}{14}$<br />(b) Mean $=\\frac{5}{4}$, Variance $=\\frac{315}{784}$<br />(c) $\\frac{15}{28}$",
+    "C": "(a) $P(0)=\\frac{5}{14}, P(1)=\\frac{15}{28}, P(2)=\\frac{3}{28}$<br />(b) Mean $=\\frac{3}{4}$, Variance $=\\frac{45}{112}$<br />(c) $\\frac{13}{28}$",
+    "D": "(a) $P(0)=\\frac{3}{28}, P(1)=\\frac{15}{28}, P(2)=\\frac{5}{14}$<br />(b) Mean $=\\frac{5}{4}$, Variance $=\\frac{45}{112}$<br />(c) $\\frac{13}{28}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:38:41 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

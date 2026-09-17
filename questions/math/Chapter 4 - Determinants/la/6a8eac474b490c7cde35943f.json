@@ -1,0 +1,30 @@
+{
+  "id": "6a8eac474b490c7cde35943f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6a",
+    "69c6603740512f018fa94d6b"
+  ],
+  "question_type": "LA",
+  "question": "The points $A(1,2)$, $B(4,6)$, and $C(k,10)$ form a triangle.<br><br><b>(a)</b> Determine the value of $k$ for which the three points are collinear.<br><br><b>(b)</b> Find the values of $k$ for which the area of $\\triangle ABC$ is $6$ square units.<br><br><b>(c)</b> Examine whether the collinear value obtained in part (a) lies between the two values obtained in part (b).",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>For three points to be collinear, the determinant representing twice their area must be zero:<br>$$\\begin{vmatrix}1 & 2 & 1\\\\4 & 6 & 1\\\\k & 10 & 1\\end{vmatrix}=0$$<br>Expanding,<br>$$1(6-10)-2(4-k)+(40-6k)=0$$<br>$$-4-8+2k+40-6k=0$$<br>$$28-4k=0$$<br>Therefore,<br>$$k=7$$<br><br><b>(b)</b><br>The area of the triangle is<br>$$\\text{Area}=\\frac{1}{2}|28-4k|$$<br>Given that the area is $6$ square units,<br>$$\\frac{1}{2}|28-4k|=6$$<br>$$|28-4k|=12$$<br>Thus,<br>$$28-4k=12\\quad\\text{or}\\quad28-4k=-12$$<br>Hence,<br>$$k=4\\quad\\text{or}\\quad k=10$$<br><br><b>(c)</b><br>The values obtained in part (b) are $4$ and $10$. Since<br>$$4<7<10$$<br>the collinear value $k=7$ lies between the two values for which the area is $6$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) The points are collinear when $k=7$<br>(b) The area is $6$ square units when $k=4$ or $k=10$<br>(c) Yes, $4<7<10$",
+    "B": "(a) The points are collinear when $k=6$<br>(b) The area is $6$ square units when $k=3$ or $k=9$<br>(c) Yes, the collinear value lies between them",
+    "C": "(a) The points are collinear when $k=7$<br>(b) The area is $6$ square units when $k=5$ or $k=9$<br>(c) Yes, $5<7<9$",
+    "D": "(a) The points are collinear when $k=7$<br>(b) The area is $6$ square units when $k=4$ or $k=10$<br>(c) No, $k=7$ does not lie between the two values"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

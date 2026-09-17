@@ -1,0 +1,29 @@
+{
+  "id": "6a9121e5751910886affba62",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dd"
+  ],
+  "question_type": "VSA",
+  "question": "For the system $2x+y \\le 7$, $x+y \\le 5$, $x \\ge 0$, $y \\ge 0$, determine whether the point $(3,3)$ lies in the feasible region or in the infeasible region.",
+  "answeroption": "A",
+  "explanation": "Step 1: Check the point $(3,3)$ against each restriction.<br>Step 2: In $2x+y \\le 7$, substitution gives $2(3)+3=9$. Since $9>7$, this inequality is not satisfied.<br>Step 3: In $x+y \\le 5$, substitution gives $3+3=6>5$, so this restriction is also violated.<br>Step 4: Although $x=3$ and $y=3$ satisfy the non-negative restrictions, a feasible point must satisfy all the constraints together.<br>Step 5: Since the given point violates the linear restrictions, it does not belong to the common solution region.<br>Hence, $(3,3)$ lies in the infeasible region.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(3,3)$ lies in the infeasible region",
+    "B": "$(3,3)$ lies in the feasible region",
+    "C": "$(3,3)$ satisfies $2x+y\\le7$ but violates $x+y\\le5$",
+    "D": "$(3,3)$ satisfies both linear inequalities"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9a467d30adc5083911af3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9"
+  ],
+  "question_type": "MCQ",
+  "question": "Three fair dice are tossed simultaneously. What is the probability that the sum of the numbers shown is exactly 9?",
+  "answeroption": "A",
+  "explanation": "We want the number of ways three dice can sum to 9.<br />Let the numbers shown be $(x, y, z), \\ x, y, z \\in \\{1,2,3,4,5,6\\}$ and $x + y + z = 9$.<br /><br />Count number of positive integer solutions such that $1 \\leq x, y, z \\leq 6$ and $x + y + z = 9$.<br /><br />The total number of integer solutions (without constraints) is:<br />Number of non-negative integer solutions to $x' + y' + z' = 6$ (where $x = x' + 1$, etc.)<br />So: $\\binom{6+3-1}{3-1} = \\binom{8}{2} = 28$<br />However, need to subtract cases where $x, y, z > 6$.<br />For $x > 6$, let $x = 7+q$, then $q + y + z = 2$, with $q \\geq 0, y \\geq 1, z \\geq 1$ so $y' + z' = 0$, only solution $y = 1, z = 1$. Similarly for $y>6$ and $z>6$.<br />Thus, subtract $3$.<br />So, valid: $28 - 3 = 25$<br /><br />Total possible outcomes: $6^3 = 216$<br />Probability: $\\dfrac{25}{216}$<br /><br />Option A is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\dfrac{25}{216}$",
+    "B": "$\\dfrac{21}{216}$",
+    "C": "$\\dfrac{18}{216}$",
+    "D": "$\\dfrac{12}{216}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 15:42:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:29 GMT"
+}

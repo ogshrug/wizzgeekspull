@@ -1,0 +1,29 @@
+{
+  "id": "6a8d757e883bbce68009f8e3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "SA",
+  "question": "Determine the domain of $$f(x)=\\sin^{-1}\\left(\\frac{x+1}{x-1}\\right).$$",
+  "answeroption": "C",
+  "explanation": "<b>Condition for inverse sine</b><br>The argument of $\\sin^{-1}$ must satisfy $$\\left|\\frac{x+1}{x-1}\\right|\\leq1,$$ with $x\\neq1$.<br><br><b>Removal of the absolute value</b><br>Since both sides are non-negative, the inequality may be squared: $$\\frac{(x+1)^2}{(x-1)^2}\\leq1.$$ As $(x-1)^2>0$ for $x\\neq1$, this gives $$(x+1)^2\\leq(x-1)^2.$$<br><br><b>Algebraic simplification</b><br>Expanding both sides, $$x^2+2x+1\\leq x^2-2x+1.$$ Hence, $4x\\leq0$, so $$x\\leq0.$$<br><br><b>Endpoint verification</b><br>At $x=0$, the argument is $-1$, which is permitted. The excluded value $x=1$ does not belong to $x\\leq0$.<br><br><b>Final domain</b><br>Therefore, the domain is $$(-\\infty,0].$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(-\\infty,0)$",
+    "B": "$[0,\\infty)$",
+    "C": "$(-\\infty,0]$",
+    "D": "$(-\\infty,1)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

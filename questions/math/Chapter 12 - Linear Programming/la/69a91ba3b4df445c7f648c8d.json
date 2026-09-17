@@ -1,0 +1,29 @@
+{
+  "id": "69a91ba3b4df445c7f648c8d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "A company produces two products, P and Q. Each unit of P requires 2 hours of labor and 1 kg of raw material, while each unit of Q requires 1 hour of labor and 3 kg of raw material. The company can use at most 100 hours of labor and has at most 90 kg of raw material available each week. The profit per unit is ₹40 for P and ₹60 for Q. Due to prior commitments, the company must produce at least 10 units of Q each week. Using the graphical method, determine the number of units of P and Q to be produced weekly to maximize profit. What is the maximum profit?",
+  "answeroption": "D",
+  "explanation": "Let x = units of P and y = units of Q.<br /><br />Objective function:<br />Maximize Z = 40x + 60y.<br /><br />Constraints:<br />2x + y ≤ 100.<br />x + 3y ≤ 90.<br />y ≥ 10.<br />x ≥ 0.<br /><br />Find intersection of first two equations:<br />2x + y = 100 ⇒ y = 100 − 2x.<br />Substitute in x + 3y = 90:<br />x + 3(100 − 2x) = 90 ⇒ −5x = −210 ⇒ x = 42.<br />y = 16.<br /><br />Other intersections:<br />(60,10) from x + 3y = 90 and y = 10.<br />(45,10) from 2x + y = 100 and y = 10.<br />(0,10) and (0,30).<br /><br />Evaluate Z:<br />(0,10): 600.<br />(45,10): 2400.<br />(42,16): 2640.<br />(0,30): 1800.<br /><br />Maximum profit = ₹2640 at (42,16).",
+  "explanation_image": [],
+  "options": {
+    "A": "Produce 0 units of P and 10 units of Q; maximum profit ₹600.",
+    "B": "Produce 45 units of P and 10 units of Q; maximum profit ₹2400.",
+    "C": "Produce 0 units of P and 30 units of Q; maximum profit ₹1800.",
+    "D": "Produce 42 units of P and 16 units of Q; maximum profit ₹2640."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 05:58:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

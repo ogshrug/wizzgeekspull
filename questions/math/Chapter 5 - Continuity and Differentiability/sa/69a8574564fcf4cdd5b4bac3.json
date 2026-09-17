@@ -1,0 +1,30 @@
+{
+  "id": "69a8574564fcf4cdd5b4bac3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78",
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "SA",
+  "question": "If $f(x) = |x-1| + |x+1|$, is $f(x)$ differentiable at $x=1$ and $x=-1$? Justify.",
+  "answeroption": "A",
+  "explanation": "Expand $f(x)$ in different intervals.<br /><br />For $x>1$: $f(x) = (x-1)+(x+1)=2x$.<br /><br />For $-1<x<1$: $f(x)=-(x-1)+(x+1)=2$.<br /><br />For $x<-1$: $f(x)=-(x-1)-(x+1)=-2x$.<br /><br />At $x=1$:<br /><br />Left derivative = $0$, Right derivative = $2$.<br /><br />Since they are not equal, $f(x)$ is not differentiable at $x=1$.<br /><br />At $x=-1$:<br /><br />Left derivative = $-2$, Right derivative = $0$.<br /><br />Since they are not equal, $f(x)$ is not differentiable at $x=-1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f(x)$ is not differentiable at both $x=1$ and $x=-1$ because one-sided derivatives are unequal at both points",
+    "B": "$f(x)$ is differentiable at both $x=1$ and $x=-1$",
+    "C": "$f(x)$ is differentiable at $x=1$ but not at $x=-1$",
+    "D": "$f(x)$ is differentiable at $x=-1$ but not at $x=1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:01:09 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

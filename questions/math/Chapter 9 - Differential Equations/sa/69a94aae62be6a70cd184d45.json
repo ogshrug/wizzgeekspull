@@ -1,0 +1,29 @@
+{
+  "id": "69a94aae62be6a70cd184d45",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9af"
+  ],
+  "question_type": "SA",
+  "question": "The rate of decay of a radioactive substance is proportional to its present amount. If it takes 2 hours for a sample to decay from 100 mg to 80 mg, find the time required for the sample to reduce to 40 mg. Use logarithmic properties to express your answer exactly.",
+  "answeroption": "B",
+  "explanation": "Let $Q$ be the quantity at time $t$.<br />$\\frac{dQ}{dt} = -k Q$<br />$\\int \\frac{dQ}{Q} = -k\\int dt$<br />$\\ln Q = -k t + C$<br />When $t = 0, Q = 100$:<br />$\\ln 100 = C$<br />So, $\\ln Q = -k t + \\ln 100$<br />$Q = 100 e^{-k t}$<br />At $t = 2$, $Q = 80$:<br />$0.8 = e^{-2k}$<br />$k = -\\frac{1}{2} \\ln 0.8$<br />For $Q = 40$:<br />$0.4 = e^{-kt}$<br />$t = -\\frac{\\ln 0.4}{k} = \\frac{2\\ln 0.4}{\\ln 0.8}$ hours",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{\\ln 0.4}{2\\ln 0.8}$ hours",
+    "B": "$\\frac{2\\ln 0.4}{\\ln 0.8}$ hours",
+    "C": "$\\frac{2\\ln 0.8}{\\ln 0.4}$ hours",
+    "D": "$\\frac{\\ln 0.8}{2\\ln 0.4}$ hours"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:19:42 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

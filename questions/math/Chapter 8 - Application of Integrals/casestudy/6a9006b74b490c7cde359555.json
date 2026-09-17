@@ -1,0 +1,29 @@
+{
+  "id": "6a9006b74b490c7cde359555",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A curved region in the first quadrant is bounded by the coordinate axes and the curve $y=\\sqrt{4-x}$. A horizontal divider $y=1$ separates the region into a lower portion and an upper portion. To calculate horizontal-strip areas, students rewrite the curve as $x=4-y^2$. They determine the axis intercepts, find the complete enclosed area, and compare the two portions created by the divider. The model is considered only where both $x$ and $y$ are non-negative.(a) Determine the points at which the curve meets the coordinate axes.(b) Calculate the total area enclosed by the curve and the coordinate axes using integration with respect to $y$.(c) Determine the area lying below $y=1$.(d) Calculate the area above $y=1$ and find the ratio of the lower area to the upper area.",
+  "answeroption": "D",
+  "explanation": "(a)On the $x$-axis, $y=0$. Therefore,`\\sqrt{4-x}=0x=4`giving the point $\\left(4,0\\right)$. On the $y$-axis, $x=0$, so`y=\\sqrt{4}=2`giving the point $\\left(0,2\\right)$.(b)Rewriting the curve gives`x=4-y^2`For $0\\leq y\\leq2$, the region extends from the $y$-axis to the curve. Hence,`A=\\int_0^2\\left(4-y^2\\right)dyA=\\left[4y-\\frac{y^3}{3}\\right]_0^2A=8-\\frac{8}{3}=\\frac{16}{3}`Thus, the total area is $\\frac{16}{3}$ square units.(c)The area below $y=1$ is`A_L=\\int_0^1\\left(4-y^2\\right)dyA_L=\\left[4y-\\frac{y^3}{3}\\right]_0^1A_L=4-\\frac{1}{3}=\\frac{11}{3}`Hence, the lower area is $\\frac{11}{3}$ square units.(d)The area above $y=1$ is`A_U=A-A_LA_U=\\frac{16}{3}-\\frac{11}{3}=\\frac{5}{3}`Therefore, the required ratio is`A_L:A_U=\\frac{11}{3}:\\frac{5}{3}=11:5`Thus, the lower portion and upper portion are in the ratio $11:5$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(4,0)$ and $(0,2)$<br>(b) Total area $=\\frac{16}{3}$<br>(c) Below $y=1$: $\\frac{5}{3}$<br>(d) Above $y=1$: $\\frac{11}{3}$; ratio $5:11$",
+    "B": "(a) $(4,0)$ and $(0,2)$<br>(b) Total area $=\\frac{8}{3}$<br>(c) Below $y=1$: $\\frac{11}{3}$<br>(d) Above $y=1$: $\\frac{5}{3}$; ratio $11:5$",
+    "C": "(a) $(2,0)$ and $(0,4)$<br>(b) Total area $=\\frac{16}{3}$<br>(c) Below $y=1$: $\\frac{11}{3}$<br>(d) Above $y=1$: $\\frac{5}{3}$; ratio $11:5$",
+    "D": "(a) $(4,0)$ and $(0,2)$<br>(b) Total area $=\\frac{16}{3}$<br>(c) Below $y=1$: $\\frac{11}{3}$<br>(d) Above $y=1$: $\\frac{5}{3}$; ratio $11:5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

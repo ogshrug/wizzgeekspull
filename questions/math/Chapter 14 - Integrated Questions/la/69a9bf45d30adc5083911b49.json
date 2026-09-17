@@ -1,0 +1,30 @@
+{
+  "id": "69a9bf45d30adc5083911b49",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "6a13e98f8c819562f933f97c"
+  ],
+  "question_type": "LA",
+  "question": "A function $y = f(x)$ is defined implicitly by $x^2y + ye^x = x$. Find $\\frac{dy}{dx}$ and hence find the equation of the tangent at the point where $x=0$. Further, determine the nature (increasing/decreasing) of the function at $x=0$.",
+  "answeroption": "A",
+  "explanation": "Given: $x^2y + ye^x = x$.<br /><br />Differentiate both sides wrt $x$:<br />$x^2\\frac{dy}{dx} + 2x y + \\frac{dy}{dx} e^x + y e^x = 1$<br />$\\left(x^2 + e^x\\right)\\frac{dy}{dx} + 2x y + y e^x = 1$<br /><br />$\\frac{dy}{dx} = \\frac{1 - 2x y - y e^x}{x^2 + e^x}$<br /><br />At $x=0$:<br />Substitute $x=0$ into original:<br />$0 + y = 0 \\implies y=0$<br /><br />$\\frac{dy}{dx} (x=0) = \\frac{1-0-0}{0+1} = 1$<br /><br />Equation of tangent at $(0,0)$:<br />$y-0 = 1(x-0) \\implies y = x$<br /><br />Nature: Since $\\frac{dy}{dx} = 1 > 0$, $f(x)$ is increasing at $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=\\frac{1-2xy-ye^x}{x^2+e^x}$<br />At $x=0$, $y=0$ and $\\frac{dy}{dx}=1$<br />Equation of tangent is $y=x$<br />The function is increasing at $x=0$",
+    "B": "$\\frac{dy}{dx}=\\frac{1+2xy+ye^x}{x^2+e^x}$<br />At $x=0$, $y=1$ and $\\frac{dy}{dx}=0$<br />Equation of tangent is $y=1$<br />The function is constant at $x=0$",
+    "C": "$\\frac{dy}{dx}=\\frac{x^2+e^x}{1-2xy-ye^x}$<br />At $x=0$, $y=0$ and $\\frac{dy}{dx}=-1$<br />Equation of tangent is $y=-x$<br />The function is decreasing at $x=0$",
+    "D": "$\\frac{dy}{dx}=\\frac{1-y e^x}{x^2}$<br />At $x=0$, derivative is undefined<br />No tangent exists at $x=0$<br />The nature cannot be determined"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:37:09 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

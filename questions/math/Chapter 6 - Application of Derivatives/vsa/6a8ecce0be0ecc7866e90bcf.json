@@ -1,0 +1,29 @@
+{
+  "id": "6a8ecce0be0ecc7866e90bcf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f978"
+  ],
+  "question_type": "VSA",
+  "question": "Examine the monotonic behaviour of $f(x)=-x^3-3x+5$ on $\\mathbb{R}$ using its first derivative.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> A differentiable function is strictly decreasing on an interval if its first derivative is negative throughout the interval.<br><b>Step 2:</b> Differentiate the given function: $$f'(x)=-3x^2-3$$<br><b>Step 3:</b> Since $x^2\\geq 0$ for all real $x$, $$-3x^2-3\\leq-3<0$$<br><b>Step 4:</b> Thus, $f'(x)<0$ for every real value of $x$.<br><b>Step 5:</b> Therefore, $f(x)=-x^3-3x+5$ is strictly decreasing on $(-\\infty,\\infty)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Strictly increasing on $(-\\infty,\\infty)$",
+    "B": "Increasing on $(-\\infty,0)$ and decreasing on $(0,\\infty)$",
+    "C": "Strictly decreasing on $(-\\infty,\\infty)$",
+    "D": "Decreasing on $(-\\infty,0)$ and increasing on $(0,\\infty)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

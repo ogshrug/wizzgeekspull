@@ -1,0 +1,29 @@
+{
+  "id": "69a91b3a96358125c95a0d89",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "MCQ",
+  "question": "Evaluate $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ given that $x = \\tan\\theta$, $\\theta \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. It is equal to:",
+  "answeroption": "B",
+  "explanation": "Let $x = \\tan\\theta$.<br /><br />Then $\\frac{2x}{1+x^2} = \\frac{2\\tan\\theta}{1+\\tan^2\\theta}$.<br /><br />Using identity $1+\\tan^2\\theta = \\sec^2\\theta$, we get $\\sin2\\theta$.<br /><br />Thus, $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right) = 2\\theta$.<br /><br />Since $\\theta = \\tan^{-1}x$, the answer is $2\\tan^{-1}x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$2\\sin^{-1}x$",
+    "B": "$2\\tan^{-1}x$",
+    "C": "$\\tan^{-1}x$",
+    "D": "$\\sin^{-1}x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 05:57:14 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

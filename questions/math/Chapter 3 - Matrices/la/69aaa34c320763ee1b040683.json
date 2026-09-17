@@ -1,0 +1,30 @@
+{
+  "id": "69aaa34c320763ee1b040683",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d51",
+    "69c65fc040512f018fa94d61"
+  ],
+  "question_type": "LA",
+  "question": "Let $A=\\begin{bmatrix}1 & x \\\\ 2 & y \\end{bmatrix}$ and $B=\\begin{bmatrix}2 & 0 \\\\ 1 & 3 \\end{bmatrix}$ be such that $AB = BA$. Determine the values of $x$ and $y$. Justify your solution by showing all steps and evaluating each stage for logic and potential errors.",
+  "answeroption": "C",
+  "explanation": "Compute $AB$ and $BA$:<br /><br />$AB = \\begin{bmatrix} 1 & x \\\\ 2 & y \\end{bmatrix}\\begin{bmatrix} 2 & 0 \\\\ 1 & 3 \\end{bmatrix} = \\begin{bmatrix} 1\\cdot2 + x\\cdot1 & 1\\cdot0 + x\\cdot3 \\\\ 2\\cdot2 + y\\cdot1 & 2\\cdot0 + y\\cdot3 \\end{bmatrix} = \\begin{bmatrix} 2 + x & 3x \\\\ 4 + y & 3y \\end{bmatrix}$<br /><br />$BA = \\begin{bmatrix} 2 & 0 \\\\ 1 & 3 \\end{bmatrix}\\begin{bmatrix} 1 & x \\\\ 2 & y \\end{bmatrix} = \\begin{bmatrix} 2\\cdot1 + 0\\cdot2 & 2\\cdot x + 0\\cdot y \\\\ 1\\cdot1 + 3\\cdot2 & 1\\cdot x + 3\\cdot y \\end{bmatrix} = \\begin{bmatrix} 2 & 2x \\\\ 1+6 & x + 3y \\end{bmatrix} = \\begin{bmatrix} 2 & 2x \\\\ 7 & x+3y \\end{bmatrix}$<br /><br />Set $AB = BA$:<br /><br />Compare each element:<br /><br />From position (1,1):<br />$2 + x = 2 \\implies x = 0$<br /><br />From position (1,2):<br />$3x = 2x \\implies x = 0$<br /><br />From position (2,1):<br />$4 + y = 7 \\implies y = 3$<br /><br />From position (2,2):<br />$3y = x + 3y \\implies x = 0$<br /><br />Thus, $x = 0$ and $y = 3$.<br /><br />Check:<br /><br />If $x = 0$, $y = 3$:<br /><br />$A = \\begin{bmatrix} 1 & 0 \\\\ 2 & 3 \\end{bmatrix}$<br /><br />$AB = \\begin{bmatrix} 1 & 0 \\\\ 2 & 3 \\end{bmatrix} \\begin{bmatrix} 2 & 0 \\\\ 1 & 3 \\end{bmatrix} = \\begin{bmatrix} 2 & 0 \\\\ 4 + 3 & 2\\cdot0+3\\cdot3 \\end{bmatrix} = \\begin{bmatrix} 2 & 0 \\\\ 7 & 9 \\end{bmatrix}$<br /><br />$BA = \\begin{bmatrix} 2 & 0 \\\\ 1 & 3 \\end{bmatrix} \\begin{bmatrix} 1 & 0 \\\\ 2 & 3 \\end{bmatrix} = \\begin{bmatrix} 2\\cdot1 + 0\\cdot2 & 2\\cdot0 + 0\\cdot3 \\\\ 1\\cdot1 + 3\\cdot2 & 1\\cdot0 + 3\\cdot3 \\end{bmatrix} = \\begin{bmatrix} 2 & 0 \\\\ 1 + 6 & 9 \\end{bmatrix} = \\begin{bmatrix} 2 & 0 \\\\ 7 & 9 \\end{bmatrix}$<br /><br />Hence, $AB = BA$ for $x = 0, y = 3$ (verified).<br /><br />Conclusion:<br />$x = 0, y = 3$ are the required values.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=3$, $y=0$",
+    "B": "$x=1$, $y=3$",
+    "C": "$x=0$, $y=3$",
+    "D": "$x=0$, $y=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 09:50:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "6a1830d3d429e802c45d70aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "VSA",
+  "question": "A ladder 13 m long is leaning against the wall. The bottom of the ladder is pulled along the ground away from the wall at the rate of $2\\text{ m/s}$. How fast is the height on the wall decreasing when the foot of the ladder is 12 m away from the wall?",
+  "answeroption": "",
+  "explanation": "**Step 1:** Set up the geometric model using the Pythagorean theorem: $x^2 + y^2 = 13^2 = 169$, where $x$ is the horizontal distance to the wall and $y$ is the vertical height up the wall.<br /><br />**Step 2:** Differentiate the relation with respect to time $t$: $2x\\frac{dx}{dt} + 2y\\frac{dy}{dt} = 0 \\implies x\\frac{dx}{dt} + y\\frac{dy}{dt} = 0$.<br /><br />**Step 3:** Calculate the height when the foot is 12 m away: $12^2 + y^2 = 169 \\implies y^2 = 25 \\implies y = 5$ m.<br /><br />**Step 4:** Substitute the given rate $\\frac{dx}{dt} = 2$ and coordinates into our rate relation: $12(2) + 5\\frac{dy}{dt} = 0 \\implies 5\\frac{dy}{dt} = -24 \\implies \\frac{dy}{dt} = -4.8\\text{ m/s}$. The height is decreasing at a rate of 4.8 m/s.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

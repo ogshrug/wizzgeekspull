@@ -1,0 +1,26 @@
+{
+  "id": "6a21662491ff8b4d45610989",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "SA",
+  "question": "If $A=\\begin{bmatrix}3&2&0\\\\ 1&4&0\\\\ 0&0&5\\end{bmatrix},$ then compute $A^{2}-7A+10~I$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> First, compute the squared matrix term $A^2 = A \\cdot A$. We multiply matrix $A$ by itself: $\\begin{bmatrix}3&2&0\\\\ 1&4&0\\\\ 0&0&5\\end{bmatrix} \\begin{bmatrix}3&2&0\\\\ 1&4&0\\\\ 0&0&5\\end{bmatrix}$.<br /><br /><b>Step 2</b> Perform the matrix row-by-column dot product operations: for row 1 we calculate $[3(3)+2(1), 3(2)+2(4), 0] = [11, 14, 0]$. For row 2 we compute $[1(3)+4(1), 1(2)+4(4), 0] = [7, 18, 0]$. For row 3 we obtain $[0, 0, 5(5)] = [0, 0, 25]$. This gives us $A^2 = \\begin{bmatrix} 11 & 14 & 0 \\\\ 7 & 18 & 0 \\\\ 0 & 0 & 25 \\end{bmatrix}$.<br /><br /><b>Step 3</b> Compute the scalar multiplication matrix $7A$ by multiplying every element inside matrix $A$ by the factor 7: $7A = \\begin{bmatrix} 21 & 14 & 0 \\\\ 7 & 28 & 0 \\\\ 0 & 0 & 35 \\end{bmatrix}$.<br /><br /><b>Step 4</b> Define the identity matrix product $10I$ scaled for a $3 \\times 3$ matrix structure: $10I = \\begin{bmatrix} 10 & 0 & 0 \\\\ 0 & 10 & 0 \\\\ 0 & 0 & 10 \\end{bmatrix}$.<br /><br /><b>Step 5</b> Combine all these derived components into the expression $A^2 - 7A + 10I$: $\\begin{bmatrix} 11 & 14 & 0 \\\\ 7 & 18 & 0 \\\\ 0 & 0 & 25 \\end{bmatrix} - \\begin{bmatrix} 21 & 14 & 0 \\\\ 7 & 28 & 0 \\\\ 0 & 0 & 35 \\end{bmatrix} + \\begin{bmatrix} 10 & 0 & 0 \\\\ 0 & 10 & 0 \\\\ 0 & 0 & 10 \\end{bmatrix} = \\begin{bmatrix} 11-21+10 & 14-14 & 0 \\\\ 7-7 & 18-28+10 & 0 \\\\ 0 & 0 & 25-35+10 \\end{bmatrix} = \\begin{bmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0 \\end{bmatrix}$. The result is a zero matrix.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

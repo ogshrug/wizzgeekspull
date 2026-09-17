@@ -1,0 +1,30 @@
+{
+  "id": "69aa79732a66c0f894c1aa0d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5",
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "LA",
+  "question": "Let $A$ and $B$ be two events in a sample space $S$ such that $P(A) = 0.7$, $P(B)=0.5$, and $P(A\\cap B)=0.3$.<br /><br />(a) Find $P(A\\cup B)$.<br /><br />(b) Are $A$ and $B$ independent? Justify.<br /><br />(c) If a random variable $X$ is defined as $X=1$ if $A$ or $B$ occurs and $0$ otherwise, find $E(X)$.<br /><br />(d) Suppose events $A$ and $B$ are such that $A^c$ and $B$ are disjoint, find $P(A|B)$.",
+  "answeroption": "A",
+  "explanation": "(a) $P(A\\cup B) = P(A) + P(B) - P(A\\cap B) = 0.7+0.5-0.3=0.9$<br /><br />(b) $A$ and $B$ are independent if $P(A\\cap B) = P(A)P(B)$<br />$P(A)P(B) = 0.7 \\times 0.5 = 0.35 \\neq 0.3$<br />So $A$ and $B$ are not independent.<br /><br />(c) $E(X) = 1 \\times P(A\\cup B) + 0 \\times P((A\\cup B)^c)$<br />$E(X) = P(A\\cup B) = 0.9$<br /><br />(d) If $A^c$ and $B$ are disjoint then $A^c \\cap B = \\varnothing \\implies B \\subseteq A$<br />Thus $P(A|B) = \\frac{P(A\\cap B)}{P(B)} = \\frac{P(B)}{P(B)} = 1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $P(A\\cup B)=0.9$<br />(b) $A$ and $B$ are not independent since $P(A)P(B)=0.35\\ne0.3$<br />(c) $E(X)=0.9$<br />(d) $P(A|B)=1$",
+    "B": "(a) $P(A\\cup B)=1.5$<br />(b) $A$ and $B$ are independent since $0.7+0.5=1.2$<br />(c) $E(X)=0.3$<br />(d) $P(A|B)=0$",
+    "C": "(a) $P(A\\cup B)=0.6$<br />(b) $A$ and $B$ are independent since $P(A\\cap B)=P(A)P(B)$<br />(c) $E(X)=0.6$<br />(d) $P(A|B)=0.7$",
+    "D": "(a) $P(A\\cup B)=0.9$<br />(b) $A$ and $B$ are independent<br />(c) $E(X)=0.5$<br />(d) $P(A|B)=0.3$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:51:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

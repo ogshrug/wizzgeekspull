@@ -1,0 +1,31 @@
+{
+  "id": "6a8c65821cb3824448de86a5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4c",
+    "69c65d9140512f018fa94d4a",
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "LA",
+  "question": "Using transformations of the graph $y=\\cos^{-1}x$, obtain the graph-related features of $y=\\pi-\\cos^{-1}\\left(\\dfrac{x+1}{2}\\right)$ and hence determine its domain, range, intercepts with the coordinate axes, and increasing or decreasing nature as one connected analysis.",
+  "answeroption": "D",
+  "explanation": "<b>Graph Transformations</b><br>Replacing $x$ by $\\dfrac{x+1}{2}$ stretches the graph of $y=\\cos^{-1}x$ horizontally by a factor of $2$ and then shifts it by $1$ unit to the left. The negative sign outside the inverse cosine expression reflects the resulting graph in the $x$-axis, and adding $\\pi$ shifts it upward by $\\pi$ units.<br><br><b>Domain and Range</b><br>The argument must satisfy<br>$$-1\\leq\\frac{x+1}{2}\\leq1$$<br>Multiplying by $2$ and subtracting $1$ gives<br>$$-3\\leq x\\leq1$$<br>Therefore, the domain is $[-3,1]$. Since<br>$$0\\leq\\cos^{-1}\\left(\\frac{x+1}{2}\\right)\\leq\\pi$$<br>subtracting these values from $\\pi$ gives<br>$$0\\leq y\\leq\\pi$$<br>Hence, the range is $[0,\\pi]$.<br><br><b>Intercepts</b><br>For the $x$-intercept, set $y=0$:<br>$$\\pi-\\cos^{-1}\\left(\\frac{x+1}{2}\\right)=0$$<br>Therefore,<br>$$\\cos^{-1}\\left(\\frac{x+1}{2}\\right)=\\pi$$<br>$$\\frac{x+1}{2}=-1$$<br>which gives $x=-3$. Thus, the $x$-intercept is $(-3,0)$.<br>For the $y$-intercept, set $x=0$:<br>$$y=\\pi-\\cos^{-1}\\left(\\frac{1}{2}\\right)=\\pi-\\frac{\\pi}{3}=\\frac{2\\pi}{3}$$<br>Hence, the $y$-intercept is $\\left(0,\\dfrac{2\\pi}{3}\\right)$.<br><br><b>Nature of the Graph</b><br>The graph of $\\cos^{-1}x$ is decreasing. The reflection in the $x$-axis reverses this nature, while the translations and positive horizontal stretch preserve it. Therefore, the transformed graph is increasing on $[-3,1]$.<br><br><b>Final Result</b><br>The graph has domain $[-3,1]$, range $[0,\\pi]$, intercepts $(-3,0)$ and $\\left(0,\\dfrac{2\\pi}{3}\\right)$, and is increasing throughout its domain.",
+  "explanation_image": [],
+  "options": {
+    "A": "Horizontal stretch by $2$, shift right by $1$, reflection in the $x$-axis and upward shift by $\\pi$; Domain: $[-1,3]$; Range: $[0,\\pi]$; intercepts: $(3,0)$ and $\\left(0,\\frac{\\pi}{3}\\right)$; decreasing on its domain",
+    "B": "Horizontal compression by $\\frac{1}{2}$, shift left by $1$, reflection in the $x$-axis and upward shift by $\\pi$; Domain: $[-3,1]$; Range: $[0,\\pi]$; intercepts: $(-3,0)$ and $\\left(0,\\frac{2\\pi}{3}\\right)$; decreasing on its domain",
+    "C": "Horizontal stretch by $2$, shift left by $1$ and downward shift by $\\pi$; Domain: $[-3,1]$; Range: $[-\\pi,0]$; intercepts: $(1,0)$ and $\\left(0,-\\frac{\\pi}{3}\\right)$; increasing on its domain",
+    "D": "Horizontal stretch by $2$, shift left by $1$, reflection in the $x$-axis and upward shift by $\\pi$; Domain: $[-3,1]$; Range: $[0,\\pi]$; intercepts: $(-3,0)$ and $\\left(0,\\frac{2\\pi}{3}\\right)$; increasing on its domain"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

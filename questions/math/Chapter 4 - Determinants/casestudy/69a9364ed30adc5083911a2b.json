@@ -1,0 +1,31 @@
+{
+  "id": "69a9364ed30adc5083911a2b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603740512f018fa94d6f",
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Confidential Communication using Matrix Cryptography**<br /><br />An organization uses the following key matrix for encrypting secret 3-letter codes:<br /><br />$K = \\begin{bmatrix} 2 & 3 & 1 \\\\ 1 & 1 & 4 \\\\ 3 & 0 & 2 \\end{bmatrix}$<br /><br />To encode the message 'ABC', each letter is represented by its alphabetical order (A=1, B=2, C=3), and encoded as column matrix<br /><br />$M = \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix}$.<br /><br />**(a)** Calculate the encoded matrix<br /><br />$C = K \\cdot M$.<br /><br />**(b)** Find the inverse $K^{-1}$, then decode the message using $K^{-1}$. (Show all steps: adjoint, determinant, calculation.)<br /><br />**(c)** Evaluate why the key matrix $K$ is suitable (or not) for this purpose, considering properties of determinants and invertibility.",
+  "answeroption": "B",
+  "explanation": "**(a) Encoding:**<br />$C = K \\cdot M = \\begin{bmatrix} 2 & 3 & 1 \\\\ 1 & 1 & 4 \\\\ 3 & 0 & 2 \\end{bmatrix}\\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix}$<br />First row: $2*1 + 3*2 + 1*3 = 2 + 6 + 3 = 11$<br />Second row: $1*1 + 1*2 + 4*3 = 1 + 2 + 12 = 15$<br />Third row: $3*1 + 0*2 + 2*3 = 3 + 0 + 6 = 9$<br />$C = \\begin{bmatrix} 11 \\\\ 15 \\\\ 9 \\end{bmatrix}$<br /><br />**(b) Decoding:**<br />First, find $|K|$.<br />$|K| = 2|(1\\ 4 \\\\ 0\\ 2)| - 3|(1\\ 4 \\\\ 3\\ 2)| + 1|(1\\ 1 \\\\ 3\\ 0)|$<br />Calculate minors:<br />$\\left|\\begin{matrix}1 & 4 \\\\ 0 & 2\\end{matrix}\\right| = 1*2-4*0=2$<br />$\\left|\\begin{matrix}1 & 4 \\\\ 3 & 2\\end{matrix}\\right| = 1*2-4*3=2-12=-10$<br />$\\left|\\begin{matrix}1 & 1 \\\\ 3 & 0\\end{matrix}\\right| = 1*0-1*3= -3$<br /><br />So,<br />$|K| = 2*2 - 3*(-10) + 1*(-3) = 4 + 30 - 3 = 31$<br /><br />Now, compute the cofactor matrix:<br />Row 1:<br />$C_{11} = +|1\\ 4 \\\\ 0\\ 2| = 2$<br />$C_{12} = -|1\\ 4 \\\\ 3\\ 2| = 10$<br />$C_{13} = +|1\\ 1 \\\\ 3\\ 0| = -3$<br /><br />Row 2:<br />$C_{21} = -|3\\ 1 \\\\ 0\\ 2| = -[3*2-1*0]=-(6-0)=-6$<br />$C_{22} = +|2\\ 1 \\\\ 3\\ 2| = 2*2-1*3=4-3=1$<br />$C_{23} = -|2\\ 3 \\\\ 3\\ 0| = -[2*0-3*3]=-(0-9)=9$<br /><br />Row 3:<br />$C_{31} = +|3\\ 1 \\\\ 1\\ 4| = 3*4-1*1=12-1=11$<br />$C_{32} = -|2\\ 1 \\\\ 1\\ 4| = -[2*4-1*1]=-(8-1)=-7$<br />$C_{33} = +|2\\ 3 \\\\ 1\\ 1| = 2*1-3*1=2-3=-1$<br /><br />So, cofactor matrix:<br />$\\begin{bmatrix} 2 & 10 & -3 \\\\ -6 & 1 & 9 \\\\ 11 & -7 & -1 \\end{bmatrix}$<br /><br />Adjugate is transpose:<br />$\\text{adj}(K) = \\begin{bmatrix} 2 & -6 & 11 \\\\ 10 & 1 & -7 \\\\ -3 & 9 & -1 \\end{bmatrix}$<br /><br />So $K^{-1} = \\frac{1}{31}\\begin{bmatrix}2 & -6 & 11 \\\\ 10 & 1 & -7 \\\\ -3 & 9 & -1\\end{bmatrix}$<br /><br />Now, decode $M = K^{-1}C$<br />First, $K^{-1}C = \\frac{1}{31}\\begin{bmatrix}2 & -6 & 11 \\\\ 10 & 1 & -7 \\\\ -3 & 9 & -1\\end{bmatrix} \\begin{bmatrix} 11 \\\\ 15 \\\\ 9 \\end{bmatrix}$<br />First row:<br />$2*11 - 6*15 + 11*9 = 22 - 90 + 99 = 31$<br />Second row:<br />$10*11 + 1*15 - 7*9 = 110 + 15 - 63 = 62$<br />Third row:<br />$-3*11 + 9*15 - 1*9 = -33 + 135 - 9 = 93$<br /><br />So, answer:<br />$\\frac{1}{31}\\begin{bmatrix}31 \\\\ 62 \\\\ 93 \\end{bmatrix} = \\begin{bmatrix}1 \\\\ 2 \\\\ 3 \\end{bmatrix}$<br />Thus, decoding recovers A=1, B=2, C=3.<br /><br />**(c) Suitability of K**<br />A matrix is suitable for cryptography only if it is invertible.<br />Here, $|K|=31 \\neq 0$, so $K$ is non-singular.<br />The determinant being non-zero ensures recoverability.<br />The relatively large determinant reduces risk of numerical error in modular reduction scenarios; the key is safe for small-scale cryptography by the rules explained.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $C=\\begin{bmatrix}11\\\\15\\\\9\\end{bmatrix}$<br />(b) $K^{-1}=\\frac{1}{31}\\begin{bmatrix}2&10&-3\\\\-6&1&9\\\\11&-7&-1\\end{bmatrix}$ and decoding gives $\\begin{bmatrix}1\\\\2\\\\3\\end{bmatrix}$.<br />(c) $K$ is not suitable because $|K|=0$.",
+    "B": "(a) $C=\\begin{bmatrix}11\\\\15\\\\9\\end{bmatrix}$<br />(b) $K^{-1}=\\frac{1}{31}\\begin{bmatrix}2&-6&11\\\\10&1&-7\\\\-3&9&-1\\end{bmatrix}$ and decoding gives $\\begin{bmatrix}1\\\\2\\\\3\\end{bmatrix}$.<br />(c) $K$ is suitable because $|K|=31\\ne0$, so it is invertible and decoding is unique.",
+    "C": "(a) $C=\\begin{bmatrix}9\\\\15\\\\11\\end{bmatrix}$<br />(b) $K^{-1}$ does not exist because $|K|=0$.<br />(c) $K$ is unsuitable because encoded messages cannot be decoded.",
+    "D": "(a) $C=\\begin{bmatrix}11\\\\15\\\\9\\end{bmatrix}$<br />(b) $K^{-1}=\\frac{1}{31}\\begin{bmatrix}2&-6&11\\\\10&1&-7\\\\-3&9&-1\\end{bmatrix}$ and decoding gives $\\begin{bmatrix}3\\\\2\\\\1\\end{bmatrix}$.<br />(c) $K$ is unsuitable because a non-zero determinant prevents decoding."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:52:46 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

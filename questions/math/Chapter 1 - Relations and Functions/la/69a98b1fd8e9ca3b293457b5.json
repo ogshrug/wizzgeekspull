@@ -1,0 +1,31 @@
+{
+  "id": "69a98b1fd8e9ca3b293457b5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42"
+  ],
+  "question_type": "LA",
+  "question": "For real numbers $x$ & $y$, a relation $R$ is defined as $xRy$ iff $x + y - \\sqrt{2}$ is an irrational number. Write whether $R$ is reflexive, symmetric or transitive.",
+  "answeroption": "C",
+  "explanation": "Reflexive: For $xRx$, we require $2x - \\sqrt{2}$ to be irrational for all $x$. But if $x = \\frac{\\sqrt{2}}{2}$ then $2x - \\sqrt{2} = 0$, which is rational. Hence the relation is not reflexive.<br /><br />Symmetric: If $xRy$ then $x+y-\\sqrt{2}$ is irrational. Since $y+x-\\sqrt{2}$ is the same expression, $yRx$ also holds. Hence the relation is symmetric.<br /><br />Transitive: If $xRy$ and $yRz$, it means $x+y-\\sqrt{2}$ and $y+z-\\sqrt{2}$ are irrational. This does not guarantee that $x+z-\\sqrt{2}$ is irrational. Therefore the relation is not transitive.<br /><br />Thus $R$ is symmetric but neither reflexive nor transitive.",
+  "explanation_image": [],
+  "options": {
+    "A": "$R$ is reflexive, symmetric and transitive",
+    "B": "$R$ is reflexive and symmetric but not transitive",
+    "C": "$R$ is symmetric but neither reflexive nor transitive",
+    "D": "$R$ is reflexive and transitive but not symmetric"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:54:39 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

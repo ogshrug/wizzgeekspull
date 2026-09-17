@@ -1,0 +1,30 @@
+{
+  "id": "69a86ca964fcf4cdd5b4bb02",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): For the equation $x^2 + y^2 = 1$, $\\frac{d^2y}{dx^2}$ exists at $(0, 1)$ and its value is $-1$.\n\nReason (R): If $x^2 + y^2 = 1$, differentiating both sides with respect to $x$ gives $\\frac{dy}{dx} = -\\frac{x}{y}$ and the second derivative is $-\\frac{y^2}{x^2}$ at $x = 0$, $y = 1$.",
+  "answeroption": "C",
+  "explanation": "First derivative: $\\frac{dy}{dx} = -\\frac{x}{y}$.<br /><br />Second derivative:<br /><br />$\\frac{d^2y}{dx^2} = -\\frac{y - x\\frac{dy}{dx}}{y^2}$.<br /><br />At $x=0$, $y=1$, $\\frac{dy}{dx}=0$, so $\\frac{d^2y}{dx^2} = -1$.<br /><br />The Reason's computation $-\\frac{y^2}{x^2}$ is incorrect.<br /><br />Correct option: (C)",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 17:32:25 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:27 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "69a9b8786638848124d7c99f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e766d837c8c7efa6b8bc",
+    "6a13e767d837c8c7efa6b8c7"
+  ],
+  "question_type": "SA",
+  "question": "Let $\\vec{a}$ and $\\vec{b}$ be non-zero vectors such that $\\vec{a} \\cdot \\vec{b} = 0$ and $|\\vec{a}| = 5$, $|\\vec{b}| = 4$. If $\\vec{c} = \\vec{a} + k \\vec{b}$ and $\\vec{c}$ makes an angle of $60^\\circ$ with $\\vec{a}$, determine the possible values of $k$.",
+  "answeroption": "C",
+  "explanation": "$\\vec{c} = \\vec{a} + k\\vec{b}$<br /><br />$|\\vec{a}| = 5$, $|\\vec{b}| = 4$, $\\vec{a} \\cdot \\vec{b} = 0$<br /><br />Angle $\\theta = 60^\\circ$ between $\\vec{c}$ and $\\vec{a}$<br /><br />So<br /><br />$\\vec{c} \\cdot \\vec{a} = |\\vec{c}|\\,|\\vec{a}|\\cos 60^\\circ$<br /><br />First, $\\vec{c} \\cdot \\vec{a} = \\vec{a} \\cdot \\vec{a} + k \\vec{b} \\cdot \\vec{a} = |\\vec{a}|^2 + k(0) = 25$<br /><br />Now, $|\\vec{c}| = \\sqrt{|\\vec{a}|^2 + k^2|\\vec{b}|^2}$<br /><br />$= \\sqrt{25 + 16k^2}$<br /><br />$25 = (\\sqrt{25+16k^2}) \\times 5 \\times \\frac{1}{2}$<br /><br />$25 = (\\sqrt{25+16k^2}) \\times 2.5$<br /><br />$25/2.5 = \\sqrt{25+16k^2}$<br /><br />$10 = \\sqrt{25+16k^2}$<br /><br />$100 = 25+16k^2$<br /><br />$16k^2 = 75$<br /><br />$k^2 = 75/16 = 4.6875$<br /><br />$k = \\pm \\sqrt{4.6875} = \\pm 2.165$<br /><br />Thus, $k = 2.165$ or $k = -2.165$ (rounded to 3 decimal places).",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=\\pm\\frac{5}{4}$",
+    "B": "$k=\\pm\\frac{5\\sqrt{2}}{4}$",
+    "C": "$k=\\pm\\frac{5\\sqrt{3}}{4}$",
+    "D": "$k=\\pm\\frac{3\\sqrt{5}}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:08:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a22c0a0864be73cfcf6d30b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e7"
+  ],
+  "question_type": "LA",
+  "question": "In answering a question on a multiple choice test, a student either knows the answer or guesses. Let $\\frac{3}{5}$ be the probability that he knows the answer and $\\frac{2}{5}$ be the probability that he guesses. Assuming that a student who guesses at the answer will be correct with probability $\\frac{1}{3}$. What is the probability that the student knows the answer, given that he answered it correctly?",
+  "answeroption": "",
+  "explanation": "**Step 1:** Define the events clearly. Let $E_1$ be the event that the student actually knows the correct answer. Let $E_2$ be the event that the student does not know and therefore decides to guess. Let $A$ be the event that the student answers the question correctly. From the problem statement, we are given the prior probabilities: $P(E_1) = \\frac{3}{5}$, which means there is a 60% chance the student knows the answer. Consequently, $P(E_2) = \\frac{2}{5}$, a 40% chance he guesses. We are also told that if the student guesses, his chance of being correct is $\\frac{1}{3}$. So $P(A|E_2) = \\frac{1}{3}$. If the student knows the answer, he will definitely be correct, meaning $P(A|E_1) = 1$.\n\n**Step 2:** Identify what is being asked. The question requires us to find the conditional probability that the student knew the answer, given that he answered correctly. In probability notation, this is $P(E_1|A)$. This is a classic application of Bayes' Theorem, which is used to reverse conditional probabilities when we have prior information.\n\n**Step 3:** State Bayes' Theorem for this scenario. The formula is: $P(E_1|A) = \\frac{P(E_1) \\cdot P(A|E_1)}{P(E_1) \\cdot P(A|E_1) + P(E_2) \\cdot P(A|E_2)}$. The numerator represents the probability that he knows the answer and answers correctly. The denominator is the total probability of answering correctly, regardless of whether he knew or guessed.\n\n**Step 4:** Substitute the given numerical values into the formula. This gives: $P(E_1|A) = \\frac{\\frac{3}{5} \\times 1}{\\frac{3}{5} \\times 1 + \\frac{2}{5} \\times \\frac{1}{3}}$.\n\n**Step 5:** Simplify the denominator step by step. First, calculate $\\frac{2}{5} \\times \\frac{1}{3} = \\frac{2}{15}$. Rewrite $\\frac{3}{5}$ with a denominator of 15 to combine the terms: $\\frac{3}{5} = \\frac{9}{15}$. So the denominator becomes $\\frac{9}{15} + \\frac{2}{15} = \\frac{11}{15}$.\n\n**Step 6:** Complete the division. The expression is now $P(E_1|A) = \\frac{\\frac{3}{5}}{\\frac{11}{15}} = \\frac{3}{5} \\times \\frac{15}{11}$. Simplify by canceling the common factor 5: $3 \\times \\frac{3}{11} = \\frac{9}{11}$.\n\n**Step 7:** Thus, the probability that the student knew the answer given that he answered correctly is $\\frac{9}{11}$, which is approximately 0.818 or 81.8%.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-2",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

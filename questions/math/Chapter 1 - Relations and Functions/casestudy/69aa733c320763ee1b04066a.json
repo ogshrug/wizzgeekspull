@@ -1,0 +1,29 @@
+{
+  "id": "69aa733c320763ee1b04066a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Case Study:<br /><br />Suppose in a college, students are enrolled in either Mathematics, Physics, or both. Let $S$ be the set of all students, $M$ is the set of students studying Mathematics, $P$ is the set of students studying Physics. A relation $R$ is defined by $xRy$ if $x$ and $y$ are enrolled in at least one common subject.<br /><br />(a) Express $R$ in terms of $M$ and $P$.<br /><br />(b) Is $R$ an equivalence relation? Prove.",
+  "answeroption": "D",
+  "explanation": "(a) $xRy \\iff$ either both $x,y \\in M$, or both $x,y \\in P$, or both (i.e., $x,y \\in M \\cup P$ and $[x, y \\in M]$ or $[x, y \\in P]$).<br /><br />(b) Reflexive: Every student shares at least one subject with themselves, so $xRx$ is always true.<br /><br />Symmetric: If $xRy$, then $yRx$ by the same reasoning.<br /><br />Transitive: If $xRy$ and $yRz$, then there exists a subject $A$ such that $x,y\\in A$ and $y,z\\in B$ for some $A,B$. However, suppose $x$ is in Math, $y$ in Math and Physics, $z$ in Physics only.<br /><br />$xRy$ since both in Math, $yRz$, both in Physics, but $x$ and $z$ might not share a common subject (if $z$ is not in Math). So, transitive fails.<br /><br />Hence, $R$ is **not** an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $xRy$ iff $x,y\\in M$ only.<br />(b) $R$ is an equivalence relation because it is reflexive, symmetric and transitive.",
+    "B": "(a) $xRy$ iff $x,y\\in P$ only.<br />(b) $R$ is not reflexive, so it is not an equivalence relation.",
+    "C": "(a) $xRy$ iff $x$ and $y$ are in different subjects.<br />(b) $R$ is transitive but not symmetric.",
+    "D": "(a) $xRy$ iff $x$ and $y$ both belong to $M$, or both belong to $P$, i.e., they share at least one common subject.<br />(b) $R$ is reflexive and symmetric, but not transitive; for example, $x\\in M$ only, $y\\in M\\cap P$, and $z\\in P$ only gives $xRy$ and $yRz$, but not $xRz$. Hence $R$ is not an equivalence relation."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:25:00 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

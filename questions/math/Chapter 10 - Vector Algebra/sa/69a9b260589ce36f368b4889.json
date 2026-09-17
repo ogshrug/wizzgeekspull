@@ -1,0 +1,31 @@
+{
+  "id": "69a9b260589ce36f368b4889",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8c7",
+    "6a13e767d837c8c7efa6b8c8"
+  ],
+  "question_type": "SA",
+  "question": "Let $\\vec{a} = 3\\hat{i} - 2\\hat{j} + 4\\hat{k}$ and $\\vec{b} = \\hat{i} + 4\\hat{j} - 2\\hat{k}$. Find the value of $\\lambda$ such that $\\vec{a} + \\lambda \\vec{b}$ is perpendicular to $\\vec{a} - \\lambda \\vec{b}$.",
+  "answeroption": "C",
+  "explanation": "Let $\\vec{u} = \\vec{a} + \\lambda \\vec{b}$ and $\\vec{v} = \\vec{a} - \\lambda \\vec{b}$<br /><br />Perpendicularity:<br /><br />$\\vec{u} \\cdot \\vec{v} = 0$<br /><br />$[\\vec{a} + \\lambda \\vec{b}] \\cdot [\\vec{a} - \\lambda \\vec{b}] = 0$<br /><br />$\\vec{a} \\cdot \\vec{a} - \\lambda^2 \\vec{b} \\cdot \\vec{b} = 0$<br /><br />Thus $\\vec{a}\\cdot\\vec{a} = \\lambda^2 \\vec{b}\\cdot\\vec{b}$<br /><br />$\\implies \\lambda^2 = \\dfrac{\\vec{a}\\cdot\\vec{a}}{\\vec{b}\\cdot\\vec{b}}$<br /><br />$\\vec{a} \\cdot \\vec{a} = 9 + 4 + 16 = 29$<br /><br />$\\vec{b} \\cdot \\vec{b} = 1 + 16 + 4 = 21$<br /><br />$\\lambda^2 = 29/21$, so $\\lambda = \\pm \\sqrt{\\dfrac{29}{21}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sqrt{\\dfrac{21}{29}}$",
+    "B": "$\\pm\\sqrt{\\dfrac{21}{29}}$",
+    "C": "$\\pm\\sqrt{\\dfrac{29}{21}}$",
+    "D": "$\\dfrac{29}{21}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:42:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

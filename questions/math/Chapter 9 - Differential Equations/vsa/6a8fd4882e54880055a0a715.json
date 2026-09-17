@@ -1,0 +1,29 @@
+{
+  "id": "6a8fd4882e54880055a0a715",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "VSA",
+  "question": "For what value of $k$ does $\\frac{dy}{dx}=\\frac{x^2+xy}{x^2+y^k}$ become a homogeneous differential equation of the first order?",
+  "answeroption": "D",
+  "explanation": "Step 1: For $\\frac{dy}{dx}=F(x,y)$ to be homogeneous, the right-hand side must be a homogeneous function of degree zero.<br>Step 2: The numerator is $x^2+xy$. Both terms have total degree $2$, so the numerator is homogeneous of degree $2$.<br>Step 3: The denominator is $x^2+y^k$. For it to be homogeneous of the same degree, both its terms must also have degree $2$.<br>Step 4: Since the degree of $y^k$ is $k$, we require $k=2$. Then numerator and denominator are both homogeneous functions of degree $2$, making their ratio homogeneous of degree zero.<br>Step 5: Hence, the required value is $k=2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=1$",
+    "B": "$k=3$",
+    "C": "$k=4$",
+    "D": "$k=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

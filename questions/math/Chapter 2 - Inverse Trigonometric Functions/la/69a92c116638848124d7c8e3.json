@@ -1,0 +1,29 @@
+{
+  "id": "69a92c116638848124d7c8e3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "Prove that for $x \\in (-1,1)$, $\\sin^{-1}x + \\sin^{-1}\\sqrt{1-x^2} = \\frac{\\pi}{2}$ and hence evaluate $\\sin^{-1}(\\frac{3}{5}) + \\sin^{-1}(\\frac{4}{5})$.",
+  "answeroption": "C",
+  "explanation": "Let $\\theta = \\sin^{-1}x$. Then $\\sin\\theta = x$ and $\\theta \\in [-\\frac{\\pi}{2},\\frac{\\pi}{2}]$.<br /><br />Now $\\sqrt{1-x^2} = \\sqrt{1-\\sin^2\\theta} = |\\cos\\theta|$.<br /><br />Since $\\theta$ lies in $[-\\frac{\\pi}{2},\\frac{\\pi}{2}]$, we have $\\cos\\theta \\ge 0$. Hence $|\\cos\\theta| = \\cos\\theta$.<br /><br />Let $\\phi = \\sin^{-1}(\\sqrt{1-x^2}) = \\sin^{-1}(\\cos\\theta)$.<br /><br />Using the identity $\\sin^{-1}(\\cos\\theta) = \\frac{\\pi}{2} - \\theta$.<br /><br />Thus $\\sin^{-1}x + \\sin^{-1}\\sqrt{1-x^2} = \\theta + \\left(\\frac{\\pi}{2}-\\theta\\right) = \\frac{\\pi}{2}$.<br /><br />For $x = \\frac{3}{5}$, we get $\\sqrt{1-x^2} = \\frac{4}{5}$.<br /><br />Therefore $\\sin^{-1}(\\frac{3}{5}) + \\sin^{-1}(\\frac{4}{5}) = \\frac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Let $\\theta=\\sin^{-1}x$. Then $\\sqrt{1-x^2}=\\sin\\theta$, so the sum becomes $2\\theta$; hence $\\sin^{-1}(\\frac{3}{5})+\\sin^{-1}(\\frac{4}{5})=\\frac{\\pi}{4}$.",
+    "B": "Let $\\theta=\\sin^{-1}x$. Then $\\sqrt{1-x^2}=\\tan\\theta$, so the sum becomes $\\tan^{-1}x$; hence the required value is $\\tan^{-1}(\\frac{3}{5})$.",
+    "C": "Let $\\theta=\\sin^{-1}x$. Then $\\sqrt{1-x^2}=\\cos\\theta$ and $\\sin^{-1}(\\cos\\theta)=\\frac{\\pi}{2}-\\theta$, so the sum is $\\frac{\\pi}{2}$; hence $\\sin^{-1}(\\frac{3}{5})+\\sin^{-1}(\\frac{4}{5})=\\frac{\\pi}{2}$.",
+    "D": "Let $\\theta=\\sin^{-1}x$. Then $\\sqrt{1-x^2}=\\cos\\theta$, so $\\sin^{-1}(\\sqrt{1-x^2})=\\theta$ and the required value is $2\\sin^{-1}(\\frac{3}{5})$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:09:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

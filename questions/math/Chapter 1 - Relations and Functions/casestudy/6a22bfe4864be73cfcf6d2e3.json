@@ -1,0 +1,32 @@
+{
+  "id": "6a22bfe4864be73cfcf6d2e3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43",
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "An organization conducted bike race under two different categories - Boys and Girls. There were 28 participants in all. Among all of them, finally three from category 1 and two from category 2 were selected for the final race. Ravi forms two sets B and G with these participants for his college project. Let $B=\\{b_{1},b_{2},b_{3}\\}$ and $G=\\{g_{1},g_{2}\\}$, where B represents the set of Boys selected and G the set of Girls selected for the final race.<br /><br />**(I)** How many relations are possible from B to G?<br />**(II)** Among all the possible relations from B to G, how many functions can be formed from B to G?<br />**(III)** Let $R:B\\rightarrow B$ be defined by $R=\\{(x,y)$: x and y are students of the same sex $\\}$. Check if R is an equivalence relation.<br />OR<br />**(III)** A function $f:B\\rightarrow G$ be defined by $f = \\{(b_1, g_1), (b_2, g_2), (b_3, g_1)\\}$. Check if f is bijective. Justify your answer.",
+  "answeroption": "",
+  "explanation": "**(I)** **Step 1:** The number of elements in set B is $n(B) = 3$ and in set G is $n(G) = 2$. The number of elements in the Cartesian product $B \\times G$ is $3 \\times 2 = 6$.<br />**Step 2:** The total number of relations possible from B to G is given by $2^{n(B) \\times n(G)} = 2^6 = 64$.<br /><br />**(II)** **Step 1:** The number of total functions from a set with $n$ elements to a set with $m$ elements is given by $m^n$. Here $n(B) = 3$ and $n(G) = 2$.<br />**Step 2:** Therefore, the number of possible functions is $2^3 = 8$.<br /><br />**(III)** **Step 1:** For reflexivity, every boy $x \\in B$ is of the same sex as himself, so $(x,x) \\in R$. Hence, $R$ is reflexive. For symmetry, if $(x,y) \\in R$, then $x$ and $y$ have the same sex, which means $y$ and $x$ have the same sex, so $(y,x) \\in R$. Thus, $R$ is symmetric. For transitivity, if $(x,y) \\in R$ and $(y,z) \\in R$, then $x, y$ have the same sex and $y, z$ have the same sex, implying $x, z$ have the same sex, so $(x,z) \\in R$.<br />**Step 2:** Since $R$ is reflexive, symmetric, and transitive, it is an equivalence relation.<br /><br />**OR**<br /><br />**(III)** **Step 1:** Check if $f$ is one-to-one (injecitve): We observe that $f(b_1) = g_1$ and $f(b_3) = g_1$. Since distinct elements $b_1$ and $b_3$ map to the same image $g_1$, $f$ is not one-to-one.<br />**Step 2:** Check if $f$ is onto (surjective): The range of $f$ is $\\{g_1, g_2\\}$, which equals the co-domain G. So, $f$ is onto. However, since $f$ is not one-to-one, it is not bijective.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-1",
+    "2023-5-2",
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a22bfe4864be73cfcf6d2e3/1782277410-0.png?t=1782297211269"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

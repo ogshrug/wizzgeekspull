@@ -1,0 +1,31 @@
+{
+  "id": "6a33b1da6dbc98396e70a7b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "MCQ",
+  "question": "The integrating factor of the differential equation $\\frac{dx}{dy}=\\frac{x \\log x}{\\frac{2}{x}\\log x-y}$ is:",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Take the reciprocal of both sides to rearrange the derivative into standard form with respect to $x$: $\\frac{dy}{dx} = \\frac{\\frac{2}{x}\\log x - y}{x\\log x} = \\frac{2}{x^2} - \\frac{y}{x\\log x}$.<br />**Step 2:** Move the linear variable $y$ to the left side to construct a standard first-order linear differential equation $\\frac{dy}{dx} + P(x)y = Q(x)$: $\\frac{dy}{dx} + \\left(\\frac{1}{x\\log x}\\right)y = \\frac{2}{x^2}$. Here, $P(x) = \\frac{1}{x\\log x}$.<br />**Step 3:** Apply the integrating factor formula $\\text{I.F.} = e^{\\int P(x) dx}$: $\\text{I.F.} = e^{\\int \\frac{1}{x\\log x} dx} = e^{\\ln|\\log x|} = \\log x$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{8x}$",
+    "B": "e",
+    "C": "$e^{log~x}$",
+    "D": "log x"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

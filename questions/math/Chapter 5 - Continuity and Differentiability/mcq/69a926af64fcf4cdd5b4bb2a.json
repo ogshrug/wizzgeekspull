@@ -1,0 +1,30 @@
+{
+  "id": "69a926af64fcf4cdd5b4bb2a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d84",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $y = x^x$. Which of the following is true for $\\frac{d^2y}{dx^2}$ at $x = 1$?",
+  "answeroption": "A",
+  "explanation": "Take $\\ln$:<br /><br />$\\ln y = x \\ln x$<br /><br />Differentiate:<br /><br />$\\frac{1}{y} \\frac{dy}{dx} = \\ln x + 1$<br /><br />$\\Rightarrow \\frac{dy}{dx} = y (\\ln x + 1) = x^x (\\ln x + 1)$<br /><br />$\\frac{d^2y}{dx^2} = \\frac{d}{dx}\\left[x^x(\\ln x + 1)\\right]$<br /><br />Let’s use product rule:<br /><br />$= \\frac{d}{dx}(x^x) \\cdot (\\ln x + 1) + x^x \\cdot \\frac{1}{x}$<br /><br />But $\\frac{d}{dx}(x^x) = x^x (\\ln x + 1)$<br /><br />Thus,<br /><br />$= x^x (\\ln x + 1)(\\ln x + 1) + x^x \\cdot \\frac{1}{x}$<br /><br />$= x^x (\\ln x + 1)^2 + x^{x-1}$<br /><br />At $x = 1$: $x^x = 1$, $\\ln 1 = 0$<br /><br />So,<br /><br />$= (0+1)^2 \\cdot 1 + 1^{1-1}$<br /><br />$= 1 + 1 = 2$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{d^2y}{dx^2} = 2$",
+    "B": "$\\frac{d^2y}{dx^2} = 1$",
+    "C": "$\\frac{d^2y}{dx^2} = 0$",
+    "D": "$\\frac{d^2y}{dx^2} = e$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:46:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8ec559be0ecc7866e90bbd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b",
+    "69c6610140512f018fa94d7d"
+  ],
+  "question_type": "LA",
+  "question": "Find and simplify the derivative of the function $$y=\\cos^{-1}(2x^2-1),\\quad 0<x<1,$$ giving due consideration to the restriction on $x$ while simplifying the radical occurring in the derivative.",
+  "answeroption": "D",
+  "explanation": "<b>Applying the Formula</b><br>For $y=\\cos^{-1}u$, $$\\frac{dy}{dx}=-\\frac{1}{\\sqrt{1-u^2}}\\frac{du}{dx}.$$ Here, $$u=2x^2-1,$$ so $$\\frac{du}{dx}=4x.$$ Therefore, $$\\frac{dy}{dx}=-\\frac{4x}{\\sqrt{1-(2x^2-1)^2}}.$$<br><br><b>Simplification</b><br>We have $$1-(2x^2-1)^2=1-(4x^4-4x^2+1)=4x^2-4x^4.$$ Thus, $$1-(2x^2-1)^2=4x^2(1-x^2).$$ Hence, $$\\sqrt{1-(2x^2-1)^2}=\\sqrt{4x^2(1-x^2)}=2|x|\\sqrt{1-x^2}.$$ Since $0<x<1$, $|x|=x$. Therefore, $$\\sqrt{1-(2x^2-1)^2}=2x\\sqrt{1-x^2}.$$ Substituting, $$\\frac{dy}{dx}=-\\frac{4x}{2x\\sqrt{1-x^2}}=-\\frac{2}{\\sqrt{1-x^2}}.$$<br><br><b>Final Result</b><br>Thus, for $0<x<1$, $$\\boxed{\\frac{dy}{dx}=-\\frac{2}{\\sqrt{1-x^2}}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{\\sqrt{1-x^2}}$",
+    "B": "$-\\frac{4x}{\\sqrt{1-x^2}}$",
+    "C": "$-\\frac{2x}{\\sqrt{1-x^2}}$",
+    "D": "$-\\frac{2}{\\sqrt{1-x^2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

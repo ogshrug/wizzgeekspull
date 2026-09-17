@@ -1,0 +1,28 @@
+{
+  "id": "6a264e83864be73cfcf6d326",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Find:<br />$$\\int\\frac{2x}{x^{2}+3x+2}dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To evaluate the rational function integral $\\int\\frac{2x}{x^{2}+3x+2}dx$, we factor the quadratic polynomial expression in the denominator. Splitting the middle term of $x^2 + 3x + 2$ yields $(x+1)(x+2)$. The integral can be rewritten as: $\\int \\frac{2x}{(x+1)(x+2)} dx$. We resolve this integrand using the method of partial fractions.<br />**Step 2:** Set up the partial fractions decomposition layout: $\\frac{2x}{(x+1)(x+2)} = \\frac{A}{x+1} + \\frac{B}{x+2}$. To solve for the unknown constants $A$ and $B$, multiply both sides by the lowest common denominator, obtaining the linear equation: $2x = A(x+2) + B(x+1)$. Use the method of convenient substitutions to find individual values. Setting $x = -1$ gives $2(-1) = A(-1+2) \\implies -2 = A \\implies A = -2$. Setting $x = -2$ gives $2(-2) = B(-2+1) \\implies -4 = -B \\implies B = 4$.<br />**Step 3:** Substitute the calculated constants back to split the integral: $\\int \\left( \\frac{-2}{x+1} + \\frac{4}{x+2} \\right) dx$. Integrate each term independently using standard logarithmic rules: $-2\\log|x+1| + 4\\log|x+2| + C$. Using logarithm power laws and quotient identities, this solution can be condensed into: $\\log(x+2)^4 - \\log(x+1)^2 + C = \\log\\left(\\frac{(x+2)^4}{(x+1)^2}\\right) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-2",
+    "2022-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

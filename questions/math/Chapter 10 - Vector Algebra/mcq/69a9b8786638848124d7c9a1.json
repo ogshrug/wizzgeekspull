@@ -1,0 +1,29 @@
+{
+  "id": "69a9b8786638848124d7c9a1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e766d837c8c7efa6b8bb"
+  ],
+  "question_type": "MCQ",
+  "question": "Which of the following is always true for non-zero vectors $\\vec{a}$ and $\\vec{b}$?",
+  "answeroption": "C",
+  "explanation": "$|\\vec{a} - \\vec{b}|^2 = (\\vec{a} - \\vec{b})\\cdot(\\vec{a} - \\vec{b}) = |\\vec{a}|^2 + |\\vec{b}|^2 - 2 \\vec{a}\\cdot\\vec{b}$<br /><br />So, Option D is false unless $\\vec{a},\\vec{b}$ anti-parallel.<br /><br />For Option C:<br /><br />$|\\vec{a} - \\vec{b}|^2 + 4(\\vec{a}\\cdot\\vec{b}) = |\\vec{a}|^2 + |\\vec{b}|^2 - 2\\vec{a}\\cdot\\vec{b} + 4\\vec{a}\\cdot\\vec{b}$<br /><br />$= |\\vec{a}|^2 + |\\vec{b}|^2 + 2 \\vec{a}\\cdot\\vec{b}$<br /><br />which is $(|\\vec{a}| + |\\vec{b}|)^2$. So Option C is always true.",
+  "explanation_image": [],
+  "options": {
+    "A": "$|\\vec{a} + \\vec{b}| = |\\vec{a}| + |\\vec{b}|$",
+    "B": "$|\\vec{a} - \\vec{b}|^2 + 4 (\\vec{a}\\cdot \\vec{b}) = (|\\vec{a}| - |\\vec{b}|)^2$",
+    "C": "$|\\vec{a} - \\vec{b}|^2 + 4(\\vec{a}\\cdot\\vec{b}) = (|\\vec{a}| + |\\vec{b}|)^2$",
+    "D": "$|\\vec{a} + \\vec{b}|^2 = |\\vec{a}|^2 + |\\vec{b}|^2 - 2 \\vec{a}\\cdot\\vec{b}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:08:08 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

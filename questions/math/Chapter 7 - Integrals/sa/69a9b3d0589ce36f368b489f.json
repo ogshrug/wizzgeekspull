@@ -1,0 +1,29 @@
+{
+  "id": "69a9b3d0589ce36f368b489f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\int \\frac{dx}{\\sin(x-a)\\sin(x-b)}$.",
+  "answeroption": "B",
+  "explanation": "Use the identity $\\frac{1}{\\sin(x-a)\\sin(x-b)}=\\frac{1}{\\sin(b-a)}[\\cot(x-a)-\\cot(x-b)]$.<br /><br />Thus the integral becomes $\\frac{1}{\\sin(b-a)}\\int[\\cot(x-a)-\\cot(x-b)]dx$.<br /><br />$=\\frac{1}{\\sin(b-a)}[\\ln|\\sin(x-a)|-\\ln|\\sin(x-b)|]+C$.<br /><br />$=\\frac{1}{\\sin(b-a)}\\ln\\left|\\frac{\\sin(x-a)}{\\sin(x-b)}\\right|+C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{\\sin(a-b)}\\ln\\left|\\frac{\\sin(x-a)}{\\sin(x-b)}\\right|+C$",
+    "B": "$\\frac{1}{\\sin(b-a)}\\ln\\left|\\frac{\\sin(x-a)}{\\sin(x-b)}\\right|+C$",
+    "C": "$\\frac{1}{\\sin(b-a)}\\ln\\left|\\frac{\\sin(x-b)}{\\sin(x-a)}\\right|+C$",
+    "D": "$\\sin(b-a)\\ln\\left|\\frac{\\sin(x-a)}{\\sin(x-b)}\\right|+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:48:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:56 GMT"
+}

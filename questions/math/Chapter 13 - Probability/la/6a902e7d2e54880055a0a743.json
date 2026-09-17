@@ -1,0 +1,29 @@
+{
+  "id": "6a902e7d2e54880055a0a743",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e6"
+  ],
+  "question_type": "LA",
+  "question": "Three production units $U_1$, $U_2$ and $U_3$ manufacture respectively $25\\%$, $35\\%$ and $40\\%$ of the total components produced by a company. The percentages of defective components produced by these units are $2\\%$, $3\\%$ and $5\\%$ respectively. If one component is selected at random from the total production, determine the probability that it is defective.",
+  "answeroption": "C",
+  "explanation": "<b>Given Information</b><br>Let $E_1$, $E_2$ and $E_3$ denote the events that the selected component is manufactured by $U_1$, $U_2$ and $U_3$ respectively, and let $D$ denote the event that the selected component is defective.<br><br>We have<br>$$P(E_1)=\\frac{25}{100}=0.25,\\quad P(E_2)=\\frac{35}{100}=0.35,\\quad P(E_3)=\\frac{40}{100}=0.40.$$<br>Also,<br>$$P(D|E_1)=0.02,\\quad P(D|E_2)=0.03,\\quad P(D|E_3)=0.05.$$<br><br>The events $E_1,E_2,E_3$ are mutually exclusive and exhaustive, and hence form a partition of the sample space. By the theorem of total probability,<br>$$P(D)=P(E_1)P(D|E_1)+P(E_2)P(D|E_2)+P(E_3)P(D|E_3).$$<br>Substituting the values,<br>$$P(D)=(0.25)(0.02)+(0.35)(0.03)+(0.40)(0.05).$$<br>Therefore,<br>$$P(D)=0.005+0.0105+0.020=0.0355.$$<br>Equivalently,<br>$$P(D)=\\frac{355}{10000}=\\frac{71}{2000}.$$<br><br><b>Final Result</b><br>Thus, the probability that a randomly selected component is defective is $0.0355$ or $\\frac{71}{2000}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0.0285=\\frac{57}{2000}$",
+    "B": "$0.0325=\\frac{13}{400}$",
+    "C": "$0.0355=\\frac{71}{2000}$",
+    "D": "$0.0405=\\frac{81}{2000}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

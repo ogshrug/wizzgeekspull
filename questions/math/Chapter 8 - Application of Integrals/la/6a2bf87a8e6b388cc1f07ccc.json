@@ -1,0 +1,27 @@
+{
+  "id": "6a2bf87a8e6b388cc1f07ccc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "LA",
+  "question": "Using integration, find the area of the region bounded by $y=5x+4$, $y=0$, $x=-1$ and $x=1$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To determine the total area bounded by the linear equation $y = 5x + 4$, the horizontal x-axis $y = 0$, and vertical lines $x = -1$ and $x = 1$, we must first identify where the line cuts the x-axis. Setting the expression $5x + 4 = 0$ gives the critical point $x = -\\frac{4}{5}$. This intercept lies strictly inside our given interval $[-1, 1]$. Consequently, the function values are strictly negative on the sub-interval $[-1, -\\frac{4}{5})$ and strictly positive on the sub-interval $(-\\frac{4}{5}, 1]$. This behavior requires splitting our integral into two distinct parts to calculate the absolute geometric area.<br /><br />**Step 2:** We set up the definitive integrals representing both regions with proper signs to ensure area values are positive: $\\text{Area} = \\int_{-1}^{-4/5} -(5x+4) \\, dx + \\int_{-4/5}^{1} (5x+4) \\, dx$. The standard antiderivative for the polynomial term is $\\int (5x+4)\\,dx = \\frac{5x^2}{2} + 4x$. Evaluating the first negative integral part between the boundary limits of $-1$ and $-\\frac{4}{5}$ yields $\\left| [\\frac{5(-4/5)^2}{2} + 4(-\\frac{4}{5})] - [\\frac{5(-1)^2}{2} + 4(-1)] \\right| = \\left| -\\frac{8}{5} - (-\\frac{3}{2}) \\right| = \\left| -0.1 \\right| = 0.1$ square units.<br /><br />**Step 3:** Next, we evaluate the second integral part across the positive domain region from $-\\frac{4}{5}$ to $1$. Substituting these limits into our antiderivative gives $[\\frac{5(1)^2}{2} + 4(1)] - [\\frac{5(-4/5)^2}{2} + 4(-\\frac{4}{5})] = \\frac{13}{2} - (-\\frac{8}{5}) = 6.5 + 1.6 = 8.1$ square units. Combining both independent components yields the final total area calculation: $0.1 + 8.1 = 8.2 = \\frac{41}{5}$ square units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

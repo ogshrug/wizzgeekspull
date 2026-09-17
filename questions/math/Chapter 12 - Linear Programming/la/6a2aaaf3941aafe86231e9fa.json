@@ -1,0 +1,27 @@
+{
+  "id": "6a2aaaf3941aafe86231e9fa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8dc"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following Linear Programming Problem graphically: Maximise $Z=12x+18y$ subject to the constraints $x+y\\le1200,$ $x-2y\\ge0,$ $x+3y\\ge600,$ $x\\ge0$, $y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** We convert the given linear inequalities into boundary lines: $x + y = 1200$, $x - 2y = 0 \\implies x = 2y$, and $x + 3y = 600$. Plotting these equations on a graph along with non-negativity constraints $x \\ge 0, y \\ge 0$ defines the boundaries of our feasible region. We determine the exact intersection points of these lines by solving them simultaneously: intersecting $x = 2y$ and $x + y = 1200$ gives $3y = 1200 \\implies y = 400, x = 800$, resulting in point $(800, 400)$. Intersecting $x = 2y$ and $x + 3y = 600$ gives $5y = 600 \\implies y = 120, x = 240$, resulting in point $(240, 120)$.<br /><br />**Step 2:** Next, we test the origin or directional points to determine the shaded region satisfying all inequalities simultaneously: $x + y \\le 1200$ (towards origin), $x - 2y \\ge 0$ (below line), and $x + 3y \\ge 600$ (away from origin). The intersection of these half-planes forms a bounded, closed polygonal feasible region. The corner points of this specific region are identified as $A(600, 0)$, $B(1200, 0)$, $C(800, 400)$, and $D(240, 120)$.<br /><br />**Step 3:** To maximize the objective function $Z = 12x + 18y$, we evaluate its value at each of the identified corner vertices. At vertex $A(600, 0)$, $Z = 12(600) + 0 = 7200$. At vertex $B(1200, 0)$, $Z = 12(1200) + 0 = 14400$. At vertex $C(800, 400)$, $Z = 12(800) + 18(400) = 9600 + 7200 = 16800$. At vertex $D(240, 120)$, $Z = 12(240) + 18(120) = 2880 + 2160 = 5040$. Comparing all these values, the maximum value of the objective function is $16800$, which occurs uniquely at the coordinate point $(800, 400)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

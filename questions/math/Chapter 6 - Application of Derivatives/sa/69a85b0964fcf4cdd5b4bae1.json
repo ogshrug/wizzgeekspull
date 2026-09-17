@@ -1,0 +1,30 @@
+{
+  "id": "69a85b0964fcf4cdd5b4bae1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987",
+    "6a13e98f8c819562f933f979"
+  ],
+  "question_type": "SA",
+  "question": "Suppose $y = e^x - 2x$. Prove that $y$ has exactly one minimum and no maximum. Determine the minimum point and value.",
+  "answeroption": "B",
+  "explanation": "Compute derivative: y' = e^x - 2.<br /><br />Set y' = 0: e^x - 2 = 0 implies e^x = 2 implies x = \\ln 2.<br /><br />Second derivative: y'' = e^x which is always positive.<br /><br />Therefore at x = \\ln 2, function has a minimum.<br /><br />Minimum value: y = e^{\\ln 2} - 2\\ln 2 = 2 - 2\\ln 2.<br /><br />As x → -∞, y → +∞ and as x → +∞, y → +∞, hence no maximum exists.",
+  "explanation_image": [],
+  "options": {
+    "A": "Minimum occurs at $x=2$ and the minimum value is $e^2-4$; no maximum exists.",
+    "B": "Minimum occurs at $x=\\ln2$ and the minimum value is $2-2\\ln2$; no maximum exists.",
+    "C": "Maximum occurs at $x=\\ln2$ and the maximum value is $2-2\\ln2$; no minimum exists.",
+    "D": "The function has neither maximum nor minimum because $e^x$ is always increasing."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:17:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8e775c4b490c7cde3593bc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "On the set $\\mathbb{N}$ of natural numbers, a mathematical operation $*$ is defined by $a*b=\\operatorname{LCM}(a,b)$. Students investigate whether this rule behaves as a binary operation and study some of its important properties. Since the least common multiple of two natural numbers is again a natural number, the operation can be applied repeatedly. The class examines the effect of interchanging the two inputs, changing the grouping of three inputs, and combining an element with a possible identity. Finally, they determine which natural numbers can possess inverses with respect to this operation.<br><br><b>(a)</b> Find $5*7$ and $12*18$.<br><br><b>(b)</b> Verify that $*$ is a binary operation on $\\mathbb{N}$ and determine whether it is commutative.<br><br><b>(c)</b> Determine whether $*$ is associative.<br><br><b>(d)</b> Find the identity element and determine all invertible elements of $\\mathbb{N}$ with respect to $*$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>$5*7=\\operatorname{LCM}(5,7)=35$. Also, $12*18=\\operatorname{LCM}(12,18)=36$.<br><br><b>(b)</b><br>For any $a,b\\in\\mathbb{N}$, $\\operatorname{LCM}(a,b)$ is a natural number. Hence $*$ is a binary operation on $\\mathbb{N}$. Further, $\\operatorname{LCM}(a,b)=\\operatorname{LCM}(b,a)$ for all $a,b\\in\\mathbb{N}$. Therefore, $a*b=b*a$, and the operation is commutative.<br><br><b>(c)</b><br>For natural numbers $a,b,c$, both $(a*b)*c$ and $a*(b*c)$ represent the least positive integer divisible by each of $a,b,c$. Therefore, $\\operatorname{LCM}(\\operatorname{LCM}(a,b),c)=\\operatorname{LCM}(a,\\operatorname{LCM}(b,c))$. Hence, $(a*b)*c=a*(b*c)$, so $*$ is associative.<br><br><b>(d)</b><br>The identity element $e$ must satisfy $a*e=a$ for every $a\\in\\mathbb{N}$. Since $\\operatorname{LCM}(a,1)=a$, the identity is $1$. An element $a$ is invertible if there exists $b\\in\\mathbb{N}$ such that $a*b=1$. Thus $\\operatorname{LCM}(a,b)=1$. This is possible only when $a=1$ and $b=1$. Therefore, the only invertible element is $1$, and its inverse is itself.",
+  "explanation_image": [],
+  "options": {
+    "A": "$5*7=35$ and $12*18=36$; $*$ is a commutative and associative binary operation with identity $1$, and the only invertible element is $1$.",
+    "B": "$5*7=12$ and $12*18=30$; $*$ is commutative but not associative, with identity $0$, and every natural number is invertible.",
+    "C": "$5*7=35$ and $12*18=216$; $*$ is associative but not commutative, with identity $1$, and only prime numbers are invertible.",
+    "D": "$5*7=35$ and $12*18=36$; $*$ is commutative but not associative, has no identity element, and therefore has no invertible elements."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

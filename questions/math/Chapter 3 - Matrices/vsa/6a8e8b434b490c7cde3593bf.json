@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8b434b490c7cde3593bf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fbf40512f018fa94d4e"
+  ],
+  "question_type": "VSA",
+  "question": "The numbers of notebooks and pens possessed by three students are respectively $(12,5)$, $(8,7)$ and $(10,6)$. If each row represents a student and the first and second columns represent notebooks and pens respectively, write the corresponding matrix.",
+  "answeroption": "C",
+  "explanation": "Step 1: The information contains data for three students and two different items, namely notebooks and pens.<br>Step 2: Since each row is assigned to one student, there will be three rows in the required matrix.<br>Step 3: The first column contains the numbers of notebooks: $12,8,10$. The second column contains the numbers of pens: $5,7,6$.<br>Step 4: Placing the entries row-wise according to the given order gives $$A=\\begin{bmatrix}12&5\\\\8&7\\\\10&6\\end{bmatrix}$$<br>Step 5: Thus, the given information is represented by a $3\\times2$ matrix, with each entry retaining its specified row and column meaning.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix}12&8&10\\\\5&7&6\\end{bmatrix}$",
+    "B": "$\\begin{bmatrix}5&12\\\\7&8\\\\6&10\\end{bmatrix}$",
+    "C": "$\\begin{bmatrix}12&5\\\\8&7\\\\10&6\\end{bmatrix}$",
+    "D": "$\\begin{bmatrix}12&7\\\\8&5\\\\10&6\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a21227e864be73cfcf6d094",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f975"
+  ],
+  "question_type": "VSA",
+  "question": "A room freshener bottle in the shape of an inverted cone sprays the perfume at regular intervals such that volume of the perfume in the bottle decreases at the steady rate of $1 \\text{ mm}^3/\\text{min}$. Find the rate at which level of perfume is dropping at an instant when level of perfume in the bottle is $10 \\text{ mm}$, if the semi-vertical angle of conical bottle is $\\frac{\\pi}{6}$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Establish the Relationship Between Radius and Height**  \nLet $r$ be the radius and $h$ be the height of the perfume level. The semi-vertical angle is $\\frac{\\pi}{6}$. From the cone geometry:  \n$$\\tan\\left(\\frac{\\pi}{6}\\right) = \\frac{r}{h} \\Rightarrow \\frac{1}{\\sqrt{3}} = \\frac{r}{h} \\Rightarrow r = \\frac{h}{\\sqrt{3}}$$\n\n**Step 2: Express Volume in Terms of Height**  \nVolume of cone: $V = \\frac{1}{3}\\pi r^2 h$. Substitute $r = \\frac{h}{\\sqrt{3}}$:  \n$$V = \\frac{1}{3}\\pi \\left(\\frac{h}{\\sqrt{3}}\\right)^2 h = \\frac{1}{3}\\pi \\cdot \\frac{h^2}{3} \\cdot h = \\frac{\\pi}{9}h^3$$\n\n**Step 3: Differentiate with Respect to Time**  \n$$\\frac{dV}{dt} = \\frac{\\pi}{9} \\cdot 3h^2 \\frac{dh}{dt} = \\frac{\\pi}{3}h^2 \\frac{dh}{dt}$$  \nGiven $\\frac{dV}{dt} = -1$ (decreasing) and $h = 10$:  \n$$-1 = \\frac{\\pi}{3}(10)^2 \\frac{dh}{dt} = \\frac{100\\pi}{3} \\frac{dh}{dt}$$  \n$$\\frac{dh}{dt} = -\\frac{3}{100\\pi} \\text{ mm/min}$$  \nThus, the level is dropping at the rate of $\\frac{3}{100\\pi}$ mm/min.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a21227e864be73cfcf6d094/1782192238-0.png?t=1782212039058"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

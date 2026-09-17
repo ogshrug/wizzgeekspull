@@ -1,0 +1,29 @@
+{
+  "id": "69a924b7575fa42e09444860",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8de"
+  ],
+  "question_type": "VSA",
+  "question": "Given the feasible region bounded by $y \\geq 0$, $x \\geq 0$, $x + y \\leq 6$, $x + 2y \\leq 8$, find the value of $Z = 3x + 2y$ at the corner point formed by $x + y = 6$ and $x + 2y = 8$.",
+  "answeroption": "A",
+  "explanation": "Solve:<br />$x + y = 6$<br />$x + 2y = 8$<br /><br />Subtract:<br />$(x+2y)-(x+y): y=2$<br />Plug in $y=2$ to $x+y=6$: $x=4$<br /><br />So, corner at $(4,2)$.<br />$Z=3*4+2*2=12+4=16$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$16$",
+    "B": "$14$",
+    "C": "$18$",
+    "D": "$12$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:37:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

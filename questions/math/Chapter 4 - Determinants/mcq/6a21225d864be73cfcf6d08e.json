@@ -1,0 +1,33 @@
+{
+  "id": "6a21225d864be73cfcf6d08e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d67"
+  ],
+  "question_type": "MCQ",
+  "question": "One of the values of $x$ for which $\\begin{vmatrix} \\cos x & \\sin x \\\\ -\\cos x & \\sin x \\end{vmatrix} = 1$ is",
+  "answeroption": "B",
+  "explanation": "**Step 1: Expand the Determinant**  \nFor a $2 \\times 2$ matrix $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix}$, the determinant is $ad - bc$.  \nHere, $a = \\cos x$, $b = \\sin x$, $c = -\\cos x$, $d = \\sin x$.  \nSo, determinant $= (\\cos x)(\\sin x) - (\\sin x)(-\\cos x)$  \n$$= \\cos x \\sin x + \\sin x \\cos x = 2\\sin x \\cos x$$\n\n**Step 2: Apply the Double-Angle Identity**  \nWe know that $2\\sin x \\cos x = \\sin 2x$. So, the determinant becomes:  \n$$\\sin 2x = 1$$\n\n**Step 3: Solve for x**  \n$\\sin 2x = 1 \\Rightarrow 2x = \\frac{\\pi}{2} \\Rightarrow x = \\frac{\\pi}{4}$ (within the principal range).  \nThus, one of the values of $x$ is $\\frac{\\pi}{4}$, which corresponds to option **B**.",
+  "explanation_image": [],
+  "options": {
+    "A": "$0$",
+    "B": "$\\frac{\\pi}{4}$",
+    "C": "$\\frac{\\pi}{3}$",
+    "D": "$\\frac{\\pi}{2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

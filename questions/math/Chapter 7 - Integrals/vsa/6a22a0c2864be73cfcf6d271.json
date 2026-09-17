@@ -1,0 +1,28 @@
+{
+  "id": "6a22a0c2864be73cfcf6d271",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "VSA",
+  "question": "Find: $\\int cos^{3}x~e^{log~sin~x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Before integrating, simplify the complex integrand using logarithmic properties. We know the fundamental identity $e^{\\log(z)} = z$.<br />**Step 2:** Applying this identity, the term $e^{\\log \\sin x}$ simplifies directly to $\\sin x$. The integral becomes $\\int \\cos^3 x \\sin x dx$.<br />**Step 3:** This is now a standard integral that can be solved via substitution. Let $t = \\cos x$. Then differentiating both sides gives $dt = -\\sin x dx$, which implies $\\sin x dx = -dt$.<br />**Step 4:** Substitute these expressions into the integral. We get $\\int t^3 (-dt) = -\\int t^3 dt$.<br />**Step 5:** Apply the power rule for integration: $-\\frac{t^4}{4} + C$. Finally, substitute the original expression for $t$ back in to get the final answer: $-\\frac{\\cos^4 x}{4} + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

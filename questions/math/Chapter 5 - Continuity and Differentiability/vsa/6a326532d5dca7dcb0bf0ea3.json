@@ -1,0 +1,26 @@
+{
+  "id": "6a326532d5dca7dcb0bf0ea3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "Find the value of k for which the function f given as $f(x)=\\begin{cases}\\frac{1-cos~x}{2x^{2}},&if~x\\ne0\\\\ k&,&if~x=0\\end{cases};$ is continuous at $x=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use the trigonometric identity $1 - \\cos(x) = 2\\sin^2(x/2)$ to rewrite the function limit as $x \\to 0$: $\\lim_{x \\to 0} \\frac{2\\sin^2(x/2)}{2x^2}$.\n\n**Step 2:** Simplify the expression: $\\lim_{x \\to 0} \\frac{\\sin^2(x/2)}{x^2}$.\n\n**Step 3:** Rearrange to apply standard limits: $\\lim_{x \\to 0} \\frac{1}{4} \\left( \\frac{\\sin(x/2)}{x/2} \\right)^2$.\n\n**Step 4:** Evaluate the limit using $\\lim_{\\theta \\to 0} \\frac{\\sin \\theta}{\\theta} = 1$: $\\frac{1}{4}(1)^2 = \\frac{1}{4}$.\n\n**Step 5:** For continuity at $x=0$, $f(0) = \\lim_{x \\to 0} f(x)$, hence $k = \\frac{1}{4}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-5",
+  "set_key": [
+    "2023-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

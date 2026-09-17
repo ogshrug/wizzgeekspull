@@ -1,0 +1,32 @@
+{
+  "id": "6a8eaccebe0ecc7866e90ba6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f",
+    "69c65fc040512f018fa94d63",
+    "69c65fc040512f018fa94d64",
+    "69c65fc140512f018fa94d65"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A class examines the inverse of a square matrix using the definition based on matrix multiplication. They are given $A=\\begin{bmatrix}2&3\\\\1&2\\end{bmatrix}$ and $B=\\begin{bmatrix}2&-3\\\\-1&2\\end{bmatrix}$. The teacher explains that a square matrix is invertible when another matrix of the same order multiplies with it on either side to give the identity matrix. After checking whether $B$ provides such a matrix for $A$, the students consider a hypothetical matrix $C$ that is also claimed to be an inverse of $A$. They must then use the associative property and the identity matrix to examine whether two different inverses of the same matrix can exist.<br><br><b>(a)</b> Calculate $AB$.<br><br><b>(b)</b> Calculate $BA$ and hence determine whether the inverse of $A$ exists and identify it.<br><br><b>(c)</b> Suppose $C$ is also an inverse of $A$. Using the inverse relations and associativity of matrix multiplication, show that $B=C$.<br><br><b>(d)</b> Determine whether $B$ is invertible and identify $B^{-1}$. Justify your conclusion.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>Using row-by-column multiplication, $AB=\\begin{bmatrix}2&3\\\\1&2\\end{bmatrix}\\begin{bmatrix}2&-3\\\\-1&2\\end{bmatrix}=\\begin{bmatrix}4-3&-6+6\\\\2-2&-3+4\\end{bmatrix}=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}=I$.<br><br><b>(b)</b><br>Similarly, $BA=\\begin{bmatrix}2&-3\\\\-1&2\\end{bmatrix}\\begin{bmatrix}2&3\\\\1&2\\end{bmatrix}=\\begin{bmatrix}4-3&6-6\\\\-2+2&-3+4\\end{bmatrix}=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}=I$. Since both $AB=I$ and $BA=I$, matrix $B$ is the inverse of $A$. Therefore, $A$ is invertible, the inverse exists, and $A^{-1}=B=\\begin{bmatrix}2&-3\\\\-1&2\\end{bmatrix}$.<br><br><b>(c)</b><br>If $C$ is also an inverse of $A$, then $AC=CA=I$. Since $B$ is an inverse of $A$, $BA=AB=I$. Now, $B=BI=B(AC)$. By associativity of matrix multiplication, $B(AC)=(BA)C$. Since $BA=I$, $(BA)C=IC=C$. Therefore, $B=C$. Hence, the inverse of a square matrix, if it exists, is unique.<br><br><b>(d)</b><br>From parts (a) and (b), $BA=AB=I$. Thus, $A$ is also an inverse of $B$. Therefore, $B$ is invertible and $B^{-1}=A=\\begin{bmatrix}2&3\\\\1&2\\end{bmatrix}$. This follows directly from the fact that two matrices whose products in both orders equal the identity matrix are inverses of each other.",
+  "explanation_image": [],
+  "options": {
+    "A": "<b>(a)</b> $AB=I$.<br><b>(b)</b> $BA=I$, so $A^{-1}=B$.<br><b>(c)</b> If $C$ is another inverse, $B=C$ by associativity.<br><b>(d)</b> $B$ is not invertible because only $A$ has an inverse.",
+    "B": "<b>(a)</b> $AB=I$.<br><b>(b)</b> $BA\\ne I$, so $B$ is only a right inverse of $A$.<br><b>(c)</b> Two different inverses of $A$ may exist.<br><b>(d)</b> $B^{-1}=A$.",
+    "C": "<b>(a)</b> $AB=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$.<br><b>(b)</b> $BA=I$, so $A^{-1}=B$.<br><b>(c)</b> If $C$ is another inverse, then $B=-C$.<br><b>(d)</b> $B^{-1}=\\begin{bmatrix}2&-3\\\\-1&2\\end{bmatrix}$.",
+    "D": "<b>(a)</b> $AB=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}=I$.<br><b>(b)</b> $BA=I$, hence $A$ is invertible and $A^{-1}=B=\\begin{bmatrix}2&-3\\\\-1&2\\end{bmatrix}$.<br><b>(c)</b> If $C$ is also an inverse, then $B=BI=B(AC)=(BA)C=IC=C$, so the inverse is unique.<br><b>(d)</b> $B$ is invertible and $B^{-1}=A=\\begin{bmatrix}2&3\\\\1&2\\end{bmatrix}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

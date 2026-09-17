@@ -1,0 +1,30 @@
+{
+  "id": "69a9c828d8e9ca3b29345804",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca",
+    "6a13e767d837c8c7efa6b8c7"
+  ],
+  "question_type": "VSA",
+  "question": "Two vectors $\\vec{a}$ and $\\vec{b}$ are such that $|\\vec{a}| = 4$, $|\\vec{b}| = 2$, and $\\vec{a} + \\vec{b}$ is perpendicular to $\\vec{a} - 2\\vec{b}$. Find the angle between $\\vec{a}$ and $\\vec{b}$.",
+  "answeroption": "B",
+  "explanation": "$(\\vec{a} + \\vec{b}) \\cdot (\\vec{a} - 2\\vec{b}) = 0$.<br /><br />$\\vec{a} \\cdot \\vec{a} - 2\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{a} - 2\\vec{b} \\cdot \\vec{b} = 0$.<br /><br />$|\\vec{a}|^2 - \\vec{a} \\cdot \\vec{b} - 2|\\vec{b}|^2 = 0$.<br /><br />$16 - \\vec{a} \\cdot \\vec{b} - 8 = 0 \\Rightarrow \\vec{a} \\cdot \\vec{b} = 8$.<br /><br />But $\\vec{a} \\cdot \\vec{b} = |\\vec{a}||\\vec{b}|\\cos\\theta = 4 \\times 2 \\cos\\theta = 8\\cos\\theta$.<br /><br />So $8\\cos\\theta = 8 \\Rightarrow \\cos\\theta = 1$.<br /><br />Hence the angle between the vectors is $0^{\\circ}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$90^{\\circ}$",
+    "B": "$0^{\\circ}$",
+    "C": "$60^{\\circ}$",
+    "D": "$180^{\\circ}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:15:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

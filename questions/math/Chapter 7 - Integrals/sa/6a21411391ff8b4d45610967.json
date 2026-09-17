@@ -1,0 +1,28 @@
+{
+  "id": "6a21411391ff8b4d45610967",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int tan^{-1}(\\frac{1-x}{1+x})dx$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Simplify the integrand using the standard inverse trigonometric formula $\\tan^{-1}(\\frac{A-B}{1+AB}) = \\tan^{-1}(A) - \\tan^{-1}(B)$. By setting $A=1$ and $B=x$, we rewrite the function as $\\tan^{-1}(1) - \\tan^{-1}(x)$, which is $\\frac{\\pi}{4} - \\tan^{-1}(x)$.<br /><br /><b>Step 2</b> Split the integral into two separate parts: $\\int \\frac{\\pi}{4} dx - \\int \\tan^{-1}(x) dx$.<br /><br /><b>Step 3</b> The first integral evaluates easily to $\\frac{\\pi}{4} x$. For the second integral, use the method of integration by parts. Choose $u = \\tan^{-1}(x)$ and $dv = 1 dx$.<br /><br /><b>Step 4</b> Differentiate $u$ to find $du = \\frac{1}{1+x^2} dx$, and integrate $dv$ to find $v = x$. Applying the integration by parts formula $\\int u dv = uv - \\int v du$ gives $x \\tan^{-1}(x) - \\int \\frac{x}{1+x^2} dx$.<br /><br /><b>Step 5</b> Solve the remaining integral using substitution. Let $w = 1+x^2$, so $dw = 2x dx$, which means $x dx = \\frac{dw}{2}$. The integral becomes $\\frac{1}{2} \\int \\frac{1}{w} dw = \\frac{1}{2} \\ln|1+x^2|$. Combining all parts, the final solution is $\\frac{\\pi}{4}x - x \\tan^{-1}(x) + \\frac{1}{2}\\ln(1+x^2) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-1",
+    "2026-3-2",
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

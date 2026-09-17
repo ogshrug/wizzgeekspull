@@ -1,0 +1,32 @@
+{
+  "id": "69aa7cd38e6d1957407fd1c5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f991",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A furniture manufacturer cuts desktop panels shaped like the area enclosed between $y = \\sin x$ and the $x$-axis, for $x = 0$ to $x = \\pi$. Each panel is made from a wood slab of the same length.<br /><br />(a) Find the area of one such desktop panel.<br /><br />(b) If the manufacturer wants to make a larger panel by extending the range to $x = 0$ to $x = 2\\pi$, what is the area of the larger panel?<br /><br />(c) Discuss how the choice of $x$-interval affects the area, and what happens if the range becomes $x = 0$ to $x = n\\pi$, for integer $n$.",
+  "answeroption": "D",
+  "explanation": "(a) The area between $y = \\sin x$ and the $x$-axis from $x = 0$ to $x = \\pi$:<br /><br />$A = \\int_0^{\\pi} \\sin x\\; dx$<br /><br />$= [ -\\cos x ]_0^{\\pi}$<br /><br />$= ( -\\cos \\pi ) - ( -\\cos 0 )$<br /><br />$= - ( -1 ) - ( -1 )$<br /><br />$= 1 + 1 = 2$<br /><br />So, area $= 2$ square units.<br /><br />(b) For $x = 0$ to $x = 2\\pi$:<br /><br />Since area is always positive, we take the absolute value of the function:<br /><br />$A = \\int_0^{\\pi} \\sin x\\; dx + \\int_{\\pi}^{2\\pi} |\\sin x|\\; dx$<br /><br />$= \\int_0^{\\pi} \\sin x\\; dx + \\int_{\\pi}^{2\\pi} (-\\sin x)\\; dx$<br /><br />$= [ -\\cos x ]_0^{\\pi} + [ \\cos x ]_{\\pi}^{2\\pi}$<br /><br />$= (1 + 1) + (1 - (-1))$<br /><br />$= 2 + 2 = 4$<br /><br />So, area $= 4$ square units.<br /><br />(c) The area for $x = 0$ to $x = n\\pi$:<br /><br />Since $\\sin x$ is positive on intervals $(2k\\pi, (2k+1)\\pi)$ and negative on intervals $((2k+1)\\pi, (2k+2)\\pi)$ for integer $k$, the total area is the sum of absolute areas:<br /><br />$A = n \\times \\int_0^{\\pi} \\sin x\\; dx = n \\times 2 = 2n$<br /><br />Therefore, as the interval increases by each additional $\\pi$ interval, the total area increases by 2 square units, regardless of whether $n$ is even or odd.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69aa7cd38e6d1957407fd1c5/1778585952-0.jpeg?t=1778585952743"
+  ],
+  "options": {
+    "A": "(a) Area $=1$ square unit.<br />(b) Larger area $=2$ square units.<br />(c) For $0$ to $n\\pi$, area $=n$.",
+    "B": "(a) Area $=2$ square units.<br />(b) Larger area $=0$ square units because positive and negative parts cancel.<br />(c) For $0$ to $n\\pi$, area $=0$.",
+    "C": "(a) Area $=\\pi$ square units.<br />(b) Larger area $=2\\pi$ square units.<br />(c) For $0$ to $n\\pi$, area $=n\\pi$.",
+    "D": "(a) Area $=2$ square units.<br />(b) Larger area $=4$ square units.<br />(c) For $0$ to $n\\pi$, total area $=2n$ square units."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:05:55 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

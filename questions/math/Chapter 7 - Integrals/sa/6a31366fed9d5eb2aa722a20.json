@@ -1,0 +1,26 @@
+{
+  "id": "6a31366fed9d5eb2aa722a20",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{-\\pi/2}^{\\pi/2}\\frac{\\sin^{100}x}{\\sin^{100}x+\\cos^{100}x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Begin by defining the given definite integral as I. Notice that the integration limits are symmetrically placed from $-\\pi/2$ to $\\pi/2$.\n\n**Step 2:** Apply the standard even/odd function property for definite integrals. Since the specific integrand is an even trigonometric function, rewrite I as $2 \\int_0^{\\pi/2} \\dots dx$.\n\n**Step 3:** Next, utilize the crucial definite integral identity property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$. This transforms the sine terms into cosine terms and vice versa.\n\n**Step 4:** Add this newly obtained integral equation to the previous integral equation. The complex denominators remain identical, while the numerators conveniently add up perfectly to match the denominator.\n\n**Step 5:** The combined sum simplifies the entire integrand to a constant 1. Integrate 1 over the interval to get $\\pi/2$, and then divide by 2 to conclude the final result.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

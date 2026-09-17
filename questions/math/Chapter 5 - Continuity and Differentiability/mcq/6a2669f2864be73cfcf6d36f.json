@@ -1,0 +1,33 @@
+{
+  "id": "6a2669f2864be73cfcf6d36f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "MCQ",
+  "question": "If $y=sin^{2}(x^{3})$, then $\\frac{dy}{dx}$ is equal to:",
+  "answeroption": "c",
+  "explanation": "**Step 1:** The function $y = \\sin^2(x^3)$ is a composite function, so we must apply the chain rule of differentiation. Differentiate the outermost squaring power function first: $\\frac{dy}{dx} = 2\\sin(x^3) \\cdot \\frac{d}{dx}[\\sin(x^3)]$.<br />**Step 2:** Next, differentiate the middle sine trigonometric function component, keeping its inner cubic argument unchanged: $\\frac{d}{dx}[\\sin(x^3)] = \\cos(x^3) \\cdot \\frac{d}{dx}[x^3]$. Finally, differentiate the innermost cubic polynomial argument using the power rule: $\\frac{d}{dx}[x^3] = 3x^2$.<br />**Step 3:** Chain all these derived factors together to find the full derivative expression: $\\frac{dy}{dx} = 2\\sin(x^3) \\cdot \\cos(x^3) \\cdot 3x^2$. Combining the numeric factors and rearranging terms gives: $6x^2\\sin(x^3)\\cos(x^3)$. This matches option (c).",
+  "explanation_image": [],
+  "options": {
+    "A": "$2\\sin x^{3}\\cos x^{3}$",
+    "B": "$3x^{3}\\sin x^{3}\\cos x^{3}$",
+    "C": "$6x^{2}\\sin x^{3}\\cos x^{3}$",
+    "D": "$2x^{2}\\sin^{2}(x^{3})$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-4",
+  "set_key": [
+    "2023-4-1",
+    "2023-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

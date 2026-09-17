@@ -1,0 +1,28 @@
+{
+  "id": "6a22c09ffbdd87b6dea73c29",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{2+sin~2x}{1+cos~2x}e^{x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Use half-angle identities to simplify the inner fraction: $\\frac{2 + 2\\sin x \\cos x}{2\\cos^2 x} e^x = (\\sec^2 x + \\tan x)e^x$.<br />**Step 2:** This matches the standard integral form $\\int e^x (f(x) + f'(x)) dx = e^x f(x) + C$.<br />**Step 3:** Setting $f(x) = \\tan x \\implies f'(x) = \\sec^2 x$, the final integrated result is $e^x \\tan x + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1",
+    "2024-3-2",
+    "2024-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

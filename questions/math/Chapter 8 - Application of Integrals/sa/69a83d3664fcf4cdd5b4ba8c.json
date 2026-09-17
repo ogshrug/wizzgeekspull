@@ -1,0 +1,32 @@
+{
+  "id": "69a83d3664fcf4cdd5b4ba8c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb338c819562f933f996",
+    "6a13eb338c819562f933f992"
+  ],
+  "question_type": "SA",
+  "question": "Calculate the area enclosed by a circle $x^2 + y^2 = 16$ above the x-axis.",
+  "answeroption": "B",
+  "explanation": "The upper half of the circle ($y \\geq 0$), $y = \\sqrt{16 - x^2}$.<br /><br />Limits: circle meets x-axis at $x = -4$ and $x = 4$.<br /><br />Area, $A = \\int_{-4}^{4} \\sqrt{16 - x^2} dx$.<br /><br />Use formula $\\int_{-a}^{a} \\sqrt{a^2 - x^2} dx = \\frac{\\pi a^2}{2}$.<br /><br />So,<br /><br />$A = \\frac{\\pi}{2} \\times 16 = 8\\pi$ square units.",
+  "explanation_image": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_explanations/69a83d3664fcf4cdd5b4ba8c/1778584148-0.jpg?t=1778584148618"
+  ],
+  "options": {
+    "A": "$16\\pi$ square units",
+    "B": "$8\\pi$ square units",
+    "C": "$4\\pi$ square units",
+    "D": "$32\\pi$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 14:09:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:30:50 GMT"
+}

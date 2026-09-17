@@ -1,0 +1,29 @@
+{
+  "id": "69a950ec589ce36f368b47bc",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cbd837c8c7efa6b8d7"
+  ],
+  "question_type": "MCQ",
+  "question": "If a line has direction ratios $2,-1,2$, what is the sine of the angle between this line and the plane $x+2y+2z=4$?",
+  "answeroption": "A",
+  "explanation": "For a line with direction ratios $(a,b,c)$ and plane $Ax+By+Cz+D=0$, the sine of the angle is $\\frac{|aA+bB+cC|}{\\sqrt{a^2+b^2+c^2}\\sqrt{A^2+B^2+C^2}}$.<br /><br />Substitute $a=2,b=-1,c=2$ and $A=1,B=2,C=2$.<br /><br />Numerator = $2*1 + (-1)*2 + 2*2 = 4$.<br /><br />Denominator = $\\sqrt{9} \\times \\sqrt{9} = 3*3 = 9$.<br /><br />Thus the sine value is $\\frac{4}{9}$.<br /><br />Hence option A represents the correct formula.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{|2*1 + (-1)*2 + 2*2|}{\\sqrt{2^2+(-1)^2+2^2}\\sqrt{1^2+2^2+2^2}}$",
+    "B": "$\\frac{|2*1 + (-1)*2 + 2*2|}{\\sqrt{2^2+(-1)^2+2^2}}$",
+    "C": "$\\frac{|2*1 + (-1)*2 + 2*2|}{\\sqrt{1^2+2^2+2^2}}$",
+    "D": "$\\frac{2-2+2}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:46:20 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

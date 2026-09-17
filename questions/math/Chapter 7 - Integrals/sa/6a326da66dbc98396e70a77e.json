@@ -1,0 +1,26 @@
+{
+  "id": "6a326da66dbc98396e70a77e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "SA",
+  "question": "If f and g are continuous functions on interval [a, b], and given that $f(a-x)=f(x)$ and $g(x)+g(a-x)=a$, show that $\\int_{0}^{a}f(x)g(x)dx=\\frac{a}{2}\\int_{0}^{a}f(x)dx.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $I = \\int_{0}^{a}f(x)g(x)dx$. Apply the definite integral property $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$ to rewrite the expression: $I = \\int_{0}^{a}f(a-x)g(a-x)dx$ .<br />**Step 2:** Substitute the given property $f(a-x) = f(x)$ into the equation: $I = \\int_{0}^{a}f(x)g(a-x)dx$ .<br />**Step 3:** Add the two integral equations for $I$ together: $2I = \\int_{0}^{a}f(x)g(x)dx + \\int_{0}^{a}f(x)g(a-x)dx = \\int_{0}^{a}f(x)[g(x) + g(a-x)]dx$ .<br />**Step 4:** Substitute the second given identity $g(x) + g(a-x) = a$: $2I = \\int_{0}^{a}a \\cdot f(x)dx \\implies I = \\frac{a}{2}\\int_{0}^{a}f(x)dx$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

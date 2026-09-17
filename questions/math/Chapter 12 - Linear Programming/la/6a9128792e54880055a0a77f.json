@@ -1,0 +1,32 @@
+{
+  "id": "6a9128792e54880055a0a77f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8da",
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "Determine graphically the minimum value of the objective function $Z=5x+3y$ subject to the constraints $x+y\\ge 6$, $x+3y\\ge 9$, $x\\le 6$, $y\\le 5$, $x\\ge 0$ and $y\\ge 0$, and identify the point at which this minimum is attained.",
+  "answeroption": "D",
+  "explanation": "<b>Graphical Construction</b><br>The boundary lines of the constraints are $x+y=6$, $x+3y=9$, $x=6$ and $y=5$. The inequalities $x+y\\ge6$ and $x+3y\\ge9$ require points on the appropriate upper sides of the first two lines, while $x\\le6$, $y\\le5$, $x\\ge0$ and $y\\ge0$ restrict the region to a bounded portion of the first quadrant.<br><br>The relevant corner points are obtained from intersections of the boundary lines. The lines $x+y=6$ and $y=5$ meet at $(1,5)$. The lines $x=6$ and $y=5$ meet at $(6,5)$. The lines $x=6$ and $x+3y=9$ give $6+3y=9$, so $y=1$, giving $(6,1)$. Finally, solving $x+y=6$ and $x+3y=9$ gives $2y=3$, so $y=\\frac{3}{2}$ and $x=\\frac{9}{2}$. Therefore, the corner points are $(1,5)$, $(6,5)$, $(6,1)$ and $\\left(\\frac{9}{2},\\frac{3}{2}\\right)$.<br><br><b>Evaluation of Objective Function</b><br>At $(1,5)$, $Z=5(1)+3(5)=20$. At $(6,5)$, $Z=30+15=45$. At $(6,1)$, $Z=30+3=33$. At $\\left(\\frac{9}{2},\\frac{3}{2}\\right)$, $Z=5\\left(\\frac{9}{2}\\right)+3\\left(\\frac{3}{2}\\right)=\\frac{45}{2}+\\frac{9}{2}=27$. Since the feasible region is bounded, the least of these corner-point values is the required minimum.<br><br><b>Final Result</b><br>The minimum value of $Z$ is 20, and it is attained at the point $(1,5)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Minimum $Z=27$ at $\\left(\\frac{9}{2},\\frac{3}{2}\\right)$",
+    "B": "Minimum $Z=33$ at $(6,1)$",
+    "C": "Minimum $Z=45$ at $(6,5)$",
+    "D": "Minimum $Z=20$ at $(1,5)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

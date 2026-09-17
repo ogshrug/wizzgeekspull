@@ -1,0 +1,29 @@
+{
+  "id": "6a265c74850cc99714b54f32",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d2",
+    "6a13e7cad837c8c7efa6b8ce"
+  ],
+  "question_type": "LA",
+  "question": "Find the distance between the line $\\frac{x}{2}=\\frac{2y-6}{4}=\\frac{1-z}{-1}$ and another line parallel to it passing through the point $(4, 0, -5)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Normalize the given Cartesian line equation into standard form to extract geometric attributes: $\\frac{x}{2} = \\frac{2(y-3)}{4} = \\frac{-(z-1)}{-1} \\implies \\frac{x}{2} = \\frac{y-3}{2} = \\frac{z-1}{1}$. From this format, we find that the first line passes through reference point $A(0, 3, 1)$ and moves parallel to the baseline direction vector $\\vec{b} = 2\\hat{i} + 2\\hat{j} + \\hat{k}$. The second line runs completely parallel to the first line, meaning it shares the identical vector direction direction paths while crossing through coordinates $P(4, 0, -5)$.<br />**Step 2:** Determine the spatial displacement vector separating the two fixed reference positions: $\\vec{AP} = (4 - 0)\\hat{i} + (0 - 3)\\hat{j} + (-5 - 1)\\hat{k} = 4\\hat{i} - 3\\hat{j} - 6\\hat{k}$. The standard mathematical formula for finding the exact shortest distance separating two parallel straight paths is given by the cross product magnitude ratio $d = \\frac{|\\vec{AP} \\times \\vec{b}|}{|\\vec{b}|}$.<br />**Step 3:** Construct the vector cross product using matrix determinants: $\\vec{AP} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 4 & -3 & -6 \\\\ 2 & 2 & 1 \\end{vmatrix} = \\hat{i}(-3 - (-12)) - \\hat{j}(4 - (-12)) + \\hat{k}(8 - (-6)) = 9\\hat{i} - 16\\hat{j} + 14\\hat{k}$.<br />**Step 4:** Calculate the magnitudes of the cross vector result and the direction vector to complete the calculations: $|\\vec{AP} \\times \\vec{b}| = \\sqrt{9^2 + (-16)^2 + 14^2} = \\sqrt{81 + 256 + 196} = \\sqrt{533}$. The magnitude length of the core direction is $|\\vec{b}| = \\sqrt{2^2 + 2^2 + 1^2} = \\sqrt{9} = 3$. Substituting these components into the formula provides the exact final separation distance: $d = \\frac{\\sqrt{533}}{3}$ units.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-1",
+    "2024-4-2",
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

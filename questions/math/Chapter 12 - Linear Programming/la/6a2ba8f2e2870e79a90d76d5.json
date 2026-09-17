@@ -1,0 +1,26 @@
+{
+  "id": "6a2ba8f2e2870e79a90d76d5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following Linear Programming Problem graphically: Maximize $Z=8x+8y$ subject to the constraints $x-20\\le0$ $2x+3y\\le120$ $2x+y\\le60$ $x\\ge0,y\\ge0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To solve this linear programming problem graphically, we first convert the given inequalities into corresponding linear boundary equations: $x = 20$, $2x + 3y = 120$, and $2x + y = 60$. We find the key coordinates where these boundary lines intersect each other in the first quadrant. Solving $2x + 3y = 120$ and $2x + y = 60$ simultaneously by subtraction gives $2y = 60 \\implies y = 30$, which then yields $2x + 30 = 60 \\implies x = 15$, pinpointing the intersection point at $(15, 30)$. Similarly, intersecting the line $x = 20$ with the line $2x + y = 60$ gives $2(20) + y = 60 \\implies y = 20$, which provides another boundary vertex at $(20, 20)$.<br /><br />**Step 2:** Next, we sketch these lines on a Cartesian plane and determine the feasible region by testing the direction of each constraint inequality. The constraints $x \\le 20$, $2x + 3y \\le 120$, and $2x + y \\le 60$, along with the non-negativity conditions $x \\ge 0$ and $y \\ge 0$, define a closed, bounded geometric region. The corner vertices of this feasible polygon are calculated as $(0, 0)$, $(20, 0)$, $(20, 20)$, $(15, 30)$, and $(0, 40)$.<br /><br />**Step 3:** Finally, we evaluate the objective profit function $Z = 8x + 8y$ at each corner vertex to determine the absolute maximum value. At $(0,0)$, $Z = 0$. At $(20,0)$, $Z = 160$. At $(0,40)$, $Z = 320$. At $(20,20)$, $Z = 8(20) + 8(20) = 320$. At $(15,30)$, $Z = 8(15) + 8(30) = 120 + 240 = 360$. Comparing these values, the maximum value of $Z$ is $360$, achieved at point $(15, 30)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-3",
+  "set_key": [
+    "2026-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69aa65dfd30adc5083911b6b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c6610140512f018fa94d7d",
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "LA",
+  "question": "Let $f(x) = \\frac{x^2 - 4}{x^2 + 4}$ and $g(x) = \\cos^{-1}(f(x))$.\n\n(a) Find the domain and range of $g$.\n\n(b) Find all values of $x$ such that $g$ is differentiable.\n\n(c) Compute $g'(x)$ and state where it attains maximum or minimum.\n\n(d) Consider the critical points of $g'(x)$ and classify them using the second derivative test.",
+  "answeroption": "D",
+  "explanation": "**Concepts Tested:** Range and domain, inverse trigonometric derivatives, maxima and minima.<br /><br />(a)<br />$f(x)$ satisfies $-1 \\le f(x) <1$.<br />Domain of $g$ is $\\mathbb{R}$.<br />Range of $g$ is $[0,\\pi]$.<br /><br />(b)<br />$g(x)$ differentiable when $-1 < f(x) <1$.<br />This excludes $x=0$ since $f(0)=-1$.<br /><br />(c)<br />$g'(x)= -\\frac{1}{\\sqrt{1-(f(x))^2}}f'(x)$.<br />After simplification:<br />For $x>0$, $g'(x)=-4/(x^2+4)$.<br />For $x<0$, $g'(x)=4/(x^2+4)$.<br /><br />(d)<br />$g'(x)=0$ only at $x=0$ but derivative undefined there.<br />Sign change indicates a local minimum of $g$ at $x=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Domain is $[-1,1]$ and range is $[-\\frac{\\pi}{2},\\frac{\\pi}{2}]$<br />(b) $g$ is differentiable for all real $x$<br />(c) $g'(x)=\\frac{4}{x^2+4}$ for all $x$<br />(d) $g$ has a local maximum at $x=0$",
+    "B": "(a) Domain is $\\mathbb{R}$ and range is $[0,\\frac{\\pi}{2}]$<br />(b) $g$ is differentiable only at $x=0$<br />(c) $g'(x)=0$ for all $x$<br />(d) Every point is critical",
+    "C": "(a) Domain is $\\mathbb{R}\\setminus\\{0\\}$ and range is $(0,\\pi)$<br />(b) $g$ is differentiable only for $x>0$<br />(c) $g'(x)=-\\frac{4x}{x^2+4}$<br />(d) $g$ has no extremum",
+    "D": "(a) Domain of $g$ is $\\mathbb{R}$ and range is $[0,\\pi]$<br />(b) $g$ is differentiable for all $x\\ne0$<br />(c) For $x>0$, $g'(x)=-\\frac{4}{x^2+4}$ and for $x<0$, $g'(x)=\\frac{4}{x^2+4}$<br />(d) $g'(x)$ is not defined at $x=0$; the sign change indicates a local minimum of $g$ at $x=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:27:59 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a21662391ff8b4d45610988",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d61"
+  ],
+  "question_type": "AR",
+  "question": "Assertion (A): If A and B are two square matrices such that AB and BA are defined, then it is not necessary that $AB=BA.$<br />Reason (R): Product of two diagonal matrices of same order is commutative.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1</b> Analyze the Assertion (A). Matrix multiplication is fundamentally non-commutative in standard algebra. Even if $A$ and $B$ are square matrices of equivalent dimensions ensuring both directional product sequences $AB$ and $BA$ are fully defined, the actual computed values differ because the dot products combine different rows and columns. Thus, the assertion statement is True.<br /><br /><b>Step 2</b> Evaluate the Reason (R). A diagonal matrix contains non-zero numeric entries exclusively along its principal diagonal path. When multiplying two diagonal matrices of identical dimensions, the entry calculation simplifies to a basic multiplication of corresponding scalar indices, which is commutative. Hence, the product is commutative, making the reason statement True.<br /><br /><b>Step 3</b> Check if the reason provides a logical explanation for the assertion. While both statements are independently correct, the property that a specific subgroup of matrices (diagonal ones) commutes does not provide the logical basis for why general square matrices fail to commute. Therefore, both are true but R is not the correct explanation of A.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+    "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+    "C": "Assertion (A) is true, but Reason (R) is false.",
+    "D": "Assertion (A) is false, but Reason (R) is true."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

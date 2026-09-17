@@ -1,0 +1,29 @@
+{
+  "id": "6a8e874f751910886affb92c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "VSA",
+  "question": "Determine $k$ if $\\begin{vmatrix}k&1&1\\\\1&k&1\\\\1&1&k\\end{vmatrix}=0$ and $k>0$.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Expand the determinant</b><br>Expanding along the first row gives $$k(k^2-1)-(k-1)+(1-k)$$<br><b>Step 2: Simplify the expression</b><br>The determinant becomes $$k^3-k-k+1+1-k=k^3-3k+2$$<br><b>Step 3: Factorise</b><br>We have $$k^3-3k+2=(k-1)^2(k+2)$$<br><b>Step 4: Apply the zero-determinant condition</b><br>Thus, $(k-1)^2(k+2)=0$, giving $k=1$ or $k=-2$.<br><b>Step 5: Use the stated restriction</b><br>Since $k>0$, $k=-2$ is rejected. Therefore, the required value is $$k=1$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=-2$",
+    "B": "$k=1$",
+    "C": "$k=0$",
+    "D": "$k=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a22a0c1864be73cfcf6d270",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of $\\int_{-1}^{1}x|x|dx:$ :",
+  "answeroption": "D",
+  "explanation": "**Step 1:** Let the integrand be defined as a function $f(x) = x|x|$. We are evaluating a definite integral over a symmetric interval $[-1, 1]$.<br />**Step 2:** It's useful to check if the function is even or odd. Evaluate $f(-x)$: $f(-x) = (-x)|-x|$.<br />**Step 3:** Since the absolute value function always returns a non-negative number, $|-x| = |x|$.<br />**Step 4:** Substitute this back: $f(-x) = -x|x| = -(x|x|) = -f(x)$.<br />**Step 5:** Because $f(-x) = -f(x)$, the function is an odd function. A key property of definite integrals states that the integral of an odd function over a symmetric interval $[-a, a]$ is always exactly 0. Thus, the value is 0.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{6}$",
+    "B": "$\\frac{1}{3}$",
+    "C": "$-\\frac{1}{6}$",
+    "D": "0"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

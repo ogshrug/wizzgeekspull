@@ -1,0 +1,28 @@
+{
+  "id": "6a21665091ff8b4d45610991",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f"
+  ],
+  "question_type": "SA",
+  "question": "If $xy=e^{x-y}$, then find $\\frac{dy}{dx}$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Given the implicit equation $xy = e^{x-y}$, simplify the differentiation process by taking the natural logarithm on both sides: $\\log(xy) = \\log\\left(e^{x-y}\\right)$. Using standard logarithm expansion properties, this gives $\\log x + \\log y = x - y$.<br /><br /><b>Step 2</b> Differentiate both sides of this expanded equation with respect to $x$. Applying standard differentiation rules and implicit differentiation yields: $\\frac{1}{x} + \\frac{1}{y}\\frac{dy}{dx} = 1 - \\frac{dy}{dx}$.<br /><br /><b>Step 3</b> Group all components containing the derivative term $\\frac{dy}{dx}$ onto the left side, and move all remaining terms over to the right side: $\\frac{1}{y}\\frac{dy}{dx} + \\frac{dy}{dx} = 1 - \\frac{1}{x}$.<br /><br /><b>Step 4</b> Factor out the derivative term $\\frac{dy}{dx}$ on the left side and establish a common denominator for both sides: $\\left(\\frac{1+y}{y}\\right)\\frac{dy}{dx} = \\frac{x-1}{x}$.<br /><br /><b>Step 5</b> Isolate $\\frac{dy}{dx}$ by multiplying both sides by the reciprocal fraction: $\\frac{dy}{dx} = \\frac{y(x-1)}{x(1+y)}$. This gives the final derivative.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

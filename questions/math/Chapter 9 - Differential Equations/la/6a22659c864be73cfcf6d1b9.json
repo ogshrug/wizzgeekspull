@@ -1,0 +1,29 @@
+{
+  "id": "6a22659c864be73cfcf6d1b9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation $(1+x^{2})\\frac{dy}{dx}+2xy-4x^{2}=0$ subject to initial condition $y(0)=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rewrite the equation in the standard linear form $\\frac{dy}{dx} + P(x)y = Q(x)$. Divide the entire equation by $(1+x^2)$: $\\frac{dy}{dx} + (\\frac{2x}{1+x^2})y = \\frac{4x^2}{1+x^2}$. Here, $P(x) = \\frac{2x}{1+x^2}$ and $Q(x) = \\frac{4x^2}{1+x^2}$.<br />**Step 2:** Find the Integrating Factor (IF), given by $e^{\\int P(x) dx}$. $\\int \\frac{2x}{1+x^2} dx = \\log(1+x^2)$ using substitution $u=1+x^2$. So, IF = $e^{\\log(1+x^2)} = 1+x^2$.<br />**Step 3:** The general solution is $y \\cdot \\text{IF} = \\int Q(x) \\cdot \\text{IF} \\, dx + C$.<br />**Step 4:** Substitute the calculated IF and $Q(x)$: $y(1+x^2) = \\int (\\frac{4x^2}{1+x^2}) (1+x^2) dx + C$.<br />**Step 5:** Simplify and integrate: $y(1+x^2) = \\int 4x^2 dx + C = \\frac{4x^3}{3} + C$. This is the general solution.<br />**Step 6:** Apply the initial condition $y=0$ when $x=0$ to find $C$: $0(1+0^2) = \\frac{4(0)^3}{3} + C \\implies C=0$.<br />**Step 7:** Substitute $C$ back to get the particular solution: $y(1+x^2) = \\frac{4x^3}{3}$, or $y = \\frac{4x^3}{3(1+x^2)}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

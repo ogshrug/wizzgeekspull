@@ -1,0 +1,30 @@
+{
+  "id": "6a8d23e277877fac8fdb9920",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "VSA",
+  "question": "A function $f:\\mathbb{R}\\to\\mathbb{R}$ is of the form $f(x)=ax+b$. If $f(1)=4$ and $f(3)=10$, determine whether $f$ is one-one and onto.",
+  "answeroption": "C",
+  "explanation": "<b>Step 1:</b> From $f(1)=4$, we obtain $a+b=4$. From $f(3)=10$, we obtain $3a+b=10$.<br><b>Step 2:</b> Subtracting the first equation from the second gives $2a=6$, so $a=3$. Hence, $b=1$ and $f(x)=3x+1$.<br><b>Step 3:</b> If $f(x_1)=f(x_2)$, then $3x_1+1=3x_2+1$, giving $x_1=x_2$. Thus, $f$ is one-one.<br><b>Step 4:</b> For any $y\\in\\mathbb{R}$, solving $y=3x+1$ gives $x=\\frac{y-1}{3}\\in\\mathbb{R}$. Thus, every real $y$ has a pre-image.<br><b>Final Answer:</b> $f$ is both one-one and onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is one-one but not onto",
+    "B": "$f$ is onto but not one-one",
+    "C": "$f$ is both one-one and onto",
+    "D": "$f$ is neither one-one nor onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

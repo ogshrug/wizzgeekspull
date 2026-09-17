@@ -1,0 +1,30 @@
+{
+  "id": "69aa79732a66c0f894c1aa0c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "A factory produces two types of products A and B. Each unit of product A requires 3 hours of labor and 2 units of raw material. Each unit of product B requires 4 hours of labor and 1 unit of raw material. The factory cannot have more than 120 hours of labor and 50 units of raw material weekly. The profit per unit is Rs. 50 for A and Rs. 40 for B.<br /><br />(a) Formulate the problem as a linear programming problem to maximize profit.<br /><br />(b) Draw the feasible region and identify the corner points.<br /><br />(c) Find the optimum production plan and maximum profit.\n(d) If the factory increases its raw material supply by 10 units, determine the effect on the optimum solution.",
+  "answeroption": "C",
+  "explanation": "(a) Let $x$ = units of A, $y$ = units of B.<br />Maximize $P = 50x + 40y$<br />Subject to:<br />$3x + 4y \\leq 120$<br />$2x + y \\leq 50$<br />$x, y \\geq 0$<br /><br />(b) Feasible region bounded by:<br />$3x+4y=120$, $2x+y=50$, $x \\geq 0$, $y \\geq 0$<br />Solve intersections:<br />$2x + y = 50$<br />$3x + 4y=120$<br />Multiply first by 4:<br />$8x + 4y = 200$<br />Subtract second:<br />$5x=80 \\implies x=16$<br />Substitute:<br />$2(16)+y=50 \\implies y=18$<br />Corner points: $(0,0), (0,30), (16,18), (25,0)$<br /><br />(c) Evaluate $P$:<br />$(0,0) \\to 0$<br />$(0,30) \\to 1200$<br />$(16,18) \\to 1520$<br />$(25,0) \\to 1250$<br />Maximum profit at $(16,18)$ with $P=1520$.<br /><br />(d) New constraint: $2x + y \\leq 60$<br />Intersect with $3x+4y=120$<br />$y=60-2x$<br />Substitute:<br />$3x+4(60-2x)=120$<br />$3x+240-8x=120$<br />$-5x=-120 \\implies x=24$<br />$y=60-48=12$<br />Profit $=50(24)+40(12)=1680$<br />Production becomes $24$ units of A and $12$ units of B.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Maximize $P=40x+50y$ subject to $3x+4y\\le120$, $2x+y\\le50$, $x,y\\ge0$<br />(b) Corner points: $(0,0),(0,30),(16,18),(25,0)$<br />(c) Maximum profit $=Rs.1520$ at $(18,16)$<br />(d) New solution $(12,24)$ with profit $Rs.1560$",
+    "B": "(a) Maximize $P=50x+40y$ subject to $4x+3y\\le120$, $x+2y\\le50$, $x,y\\ge0$<br />(b) Corner points: $(0,0),(0,25),(18,16),(30,0)$<br />(c) Maximum profit $=Rs.1600$ at $(30,0)$<br />(d) No change in optimum solution",
+    "C": "(a) Maximize $P=50x+40y$ subject to $3x+4y\\le120$, $2x+y\\le50$, $x,y\\ge0$<br />(b) Corner points: $(0,0),(0,30),(16,18),(25,0)$<br />(c) Optimum production is $16$ units of A and $18$ units of B with maximum profit $Rs.1520$<br />(d) With raw material increased to $60$, new optimum is $(24,12)$ with profit $Rs.1680$",
+    "D": "(a) Maximize $P=50x+40y$ subject to $3x+4y\\ge120$, $2x+y\\ge50$, $x,y\\ge0$<br />(b) Corner points: $(0,0),(30,0),(0,50)$<br />(c) Maximum profit $=Rs.1200$ at $(0,30)$<br />(d) New optimum is $(25,0)$ with profit $Rs.1250$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 06:51:31 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

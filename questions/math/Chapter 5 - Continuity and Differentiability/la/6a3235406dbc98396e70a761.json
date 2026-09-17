@@ -1,0 +1,26 @@
+{
+  "id": "6a3235406dbc98396e70a761",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "LA",
+  "question": "Differentiate $\\tan^{-1}\\left(\\frac{\\sqrt{1-x^{2}}}{x}\\right)$ w.r.t. $\\cos^{-1}\\left(2x\\sqrt{1-x^{2}}\\right),\\;x\\in\\left(\\frac{1}{\\sqrt{2}},1\\right)$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let<br />$$u=\\tan^{-1}\\left(\\frac{\\sqrt{1-x^2}}{x}\\right),\\qquad v=\\cos^{-1}\\left(2x\\sqrt{1-x^2}\\right).$$<br />The required derivative is<br />$$\\frac{du}{dv}=\\frac{du/dx}{dv/dx}.$$<br /><br />**Step 2:** Put $x=\\cos\\theta$. Since $x\\in\\left(\\frac{1}{\\sqrt2},1\\right)$, we have $\\theta\\in\\left(0,\\frac{\\pi}{4}\\right)$. Then<br />$$u=\\tan^{-1}\\left(\\frac{\\sin\\theta}{\\cos\\theta}\\right)=\\tan^{-1}(\\tan\\theta)=\\theta=\\cos^{-1}x.$$<br />Therefore,<br />$$\\frac{du}{dx}=-\\frac{1}{\\sqrt{1-x^2}}.$$<br /><br />**Step 3:** Again using $x=\\cos\\theta$,<br />$$v=\\cos^{-1}(2\\cos\\theta\\sin\\theta)=\\cos^{-1}(\\sin2\\theta).$$<br />Since $\\theta\\in\\left(0,\\frac{\\pi}{4}\\right)$, we have $\\frac{\\pi}{2}-2\\theta\\in\\left(0,\\frac{\\pi}{2}\\right)$, and<br />$$\\sin2\\theta=\\cos\\left(\\frac{\\pi}{2}-2\\theta\\right).$$<br />Hence,<br />$$v=\\cos^{-1}\\left(\\cos\\left(\\frac{\\pi}{2}-2\\theta\\right)\\right)=\\frac{\\pi}{2}-2\\theta=\\frac{\\pi}{2}-2\\cos^{-1}x.$$<br />Differentiating,<br />$$\\frac{dv}{dx}=\\frac{2}{\\sqrt{1-x^2}}.$$<br /><br />**Step 4:** Therefore,<br />$$\\frac{du}{dv}=\\frac{-\\frac{1}{\\sqrt{1-x^2}}}{\\frac{2}{\\sqrt{1-x^2}}}=-\\frac12.$$<br />Hence,<br />$$\\boxed{\\frac{d}{d\\left(\\cos^{-1}(2x\\sqrt{1-x^2})\\right)}\\left(\\tan^{-1}\\frac{\\sqrt{1-x^2}}{x}\\right)=-\\frac12}.$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-1",
+  "set_key": [
+    "2025-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

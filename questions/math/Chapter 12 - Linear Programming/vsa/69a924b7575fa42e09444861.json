@@ -1,0 +1,29 @@
+{
+  "id": "69a924b7575fa42e09444861",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8"
+  ],
+  "question_type": "VSA",
+  "question": "A diet is to contain at least 4 units of vitamin A and 6 units of vitamin B. Food X has 1 unit A, 2 units B per kg; food Y has 2 units A, 1 unit B per kg. If $x$ kg of X and $y$ kg of Y are used, write the constraints and find $x$ and $y$ at the intersection of both constraints.",
+  "answeroption": "D",
+  "explanation": "Constraints:<br />$1x + 2y \\geq 4$<br />$2x + 1y \\geq 6$<br /><br />Solve as equations:<br />$x + 2y = 4$<br />$2x + y = 6$<br /><br />Multiply first by 2: $2x + 4y = 8$<br />Subtract second: $2x + 4y - 2x - y = 8-6 \\implies 3y=2 \\implies y=2/3$<br /><br />Substitute to $x + 2(2/3)=4 \\implies x = 4 - 4/3 = 8/3$<br /><br />So, intersection at $(8/3, 2/3)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Constraints: $x+2y\\geq4$, $2x+y\\geq6$; intersection $(\\frac{2}{3},\\frac{8}{3})$",
+    "B": "Constraints: $x+2y\\leq4$, $2x+y\\leq6$; intersection $(\\frac{8}{3},\\frac{2}{3})$",
+    "C": "Constraints: $x+2y\\geq6$, $2x+y\\geq4$; intersection $(\\frac{8}{3},\\frac{2}{3})$",
+    "D": "Constraints: $x+2y\\geq4$, $2x+y\\geq6$; intersection $(\\frac{8}{3},\\frac{2}{3})$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:37:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

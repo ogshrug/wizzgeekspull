@@ -1,0 +1,28 @@
+{
+  "id": "6a22b371fbdd87b6dea73bf6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int\\frac{2x}{(x^{2}+3)(x^{2}-5)}dx$",
+  "answeroption": "",
+  "explanation": "<b>Step 1</b> Simplify the integral using variable substitution. Let $u = x^2$, which means its derivative is $du = 2x dx$. This transforms the integral expression into: $\\int \\frac{du}{(u+3)(u-5)}$.<br /><br /><b>Step 2</b> Decompose the fractional integrand using partial fractions: $\\frac{1}{(u+3)(u-5)} = \\frac{A}{u+3} + \\frac{B}{u-5}$. Multiplying through by the common denominator gives the identity: $1 = A(u - 5) + B(u + 3)$.<br /><br /><b>Step 3</b> Solve for the constants: substituting $u = -3$ gives $1 = A(-8) \\implies A = -\\frac{1}{8}$. Substituting $u = 5$ gives $1 = B(8) \\implies B = \\frac{1}{8}$.<br /><br /><b>Step 4</b> Reconstruct and integrate using these components: $\\int \\left( \\frac{-1/8}{u+3} + \\frac{1/8}{u-5} \\right) du = -\\frac{1}{8}\\ln|u+3| + \\frac{1}{8}\\ln|u-5| + C = \\frac{1}{8}\\ln\\left|\\frac{u-5}{u+3}\\right| + C$.<br /><br /><b>Step 5</b> Substitute the original variable back by replacing $u$ with $x^2$ to get the final solution: $\\frac{1}{8}\\ln\\left|\\frac{x^2-5}{x^2+3}\\right| + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1",
+    "2025-5-2",
+    "2025-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

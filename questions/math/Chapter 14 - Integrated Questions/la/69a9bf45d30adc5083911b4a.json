@@ -1,0 +1,30 @@
+{
+  "id": "69a9bf45d30adc5083911b4a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65fc040512f018fa94d63",
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "LA",
+  "question": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = \\sin^{-1}(x)$ for $-1 \\le x \\le 1$, and consider the matrix $A = \\begin{pmatrix} x & \\sqrt{1-x^2} \\\\ \\sqrt{1-x^2} & -x \\end{pmatrix}$ with $x \\in (-1,1)$. \n\n(a) Prove that $A$ is invertible for $x \\in (-1,1)$.\n\n(b) Find $A^{-1}$ in terms of $x$.\n\n(c) Let $g(x) = \\sin^{-1}(x) + \\sin^{-1}(\\sqrt{1-x^2})$. Prove that $g(x)$ is constant on $x \\in [0,1]$ and find its value.\n\n(d) If $h(x) = \\det A$, find $\\dfrac{dh}{dx}$ and relate it to $\\dfrac{df}{dx}$ at $x=\\frac{1}{2}$.",
+  "answeroption": "D",
+  "explanation": "**Concepts tested:** Inverse trigonometric functions, properties of determinants, matrix invertibility, differentiation.<br /><br />**Step 1: Prove that $A$ is invertible for $x \\in (-1,1)$**<br /><br />A matrix is invertible if its determinant is nonzero.<br /><br />$\\det A = x \\times (-x) - [\\sqrt{1-x^2}]^2 = -x^2 - (1-x^2) = -1$<br /><br />So $\\det A = -1$ for all $x \\in (-1,1)$, hence invertible.<br /><br />**Step 2: Find $A^{-1}$ in terms of $x$**<br /><br />For a 2x2 matrix $\\begin{pmatrix} a & b \\\\ b & d \\end{pmatrix}$,<br />$A^{-1} = \\frac{1}{\\det A}\\begin{pmatrix}-x & -\\sqrt{1-x^2} \\\\ -\\sqrt{1-x^2} & x\\end{pmatrix} = -\\begin{pmatrix}-x & -\\sqrt{1-x^2} \\\\ -\\sqrt{1-x^2} & x\\end{pmatrix}<br />= \\begin{pmatrix} x & \\sqrt{1-x^2} \\\\ \\sqrt{1-x^2} & -x \\end{pmatrix} = A$<br /><br />Thus, $A^{-1}=A$, so $A$ is its own inverse.<br /><br />**Step 3: $g(x) = \\sin^{-1}(x) + \\sin^{-1}(\\sqrt{1-x^2})$, prove $g$ is constant on $[0,1]$**<br /><br />Let $t=\\sin^{-1}(x)$, so $x=\\sin t$, $t \\in [0, \\frac{\\pi}{2}]$ for $x \\in [0,1]$.<br /><br />Then $\\sqrt{1-x^2} = \\cos t$<br /><br />Thus<br /><br />$\\sin^{-1}(x) + \\sin^{-1}(\\sqrt{1-x^2}) = t + \\sin^{-1}(\\cos t)$<br /><br />But for $t \\in [0,\\frac{\\pi}{2}]$, $\\sin^{-1}(\\cos t) = \\frac{\\pi}{2} - t$<br /><br />So $g(x) = t + (\\frac{\\pi}{2} - t) = \\frac{\\pi}{2}$<br /><br />Hence, $g(x)$ is constant$ = \\frac{\\pi}{2}$.<br /><br />**Step 4: $h(x) = \\det A$, find $\\frac{dh}{dx}$ and relate to $\\frac{df}{dx}$ at $x=\\frac{1}{2}$**<br /><br />$h(x) = \\det A = -1\\quad \\Rightarrow \\quad \\frac{dh}{dx} = 0$<br /><br />$f(x) = \\sin^{-1}(x) \\implies \\frac{df}{dx} = \\frac{1}{\\sqrt{1-x^2}}$<br /><br />At $x=\\frac{1}{2}$,<br /><br />$\\frac{df}{dx}\\Bigg|_{x=1/2} = \\frac{1}{\\sqrt{1 - (1/2)^2}} = \\frac{1}{\\sqrt{3/4}} = \\frac{2}{\\sqrt{3}}$<br /><br />So, at $x=\\frac{1}{2}$, $\\frac{dh}{dx} = 0$, $\\frac{df}{dx} = \\frac{2}{\\sqrt{3}}$ (nonzero); $h$ is constant while $f$ is not.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A$ is not invertible because $\\det A=0$<br />(b) $A^{-1}$ does not exist<br />(c) $g(x)=0$ on $[0,1]$<br />(d) $\\frac{dh}{dx}=1$ and $\\frac{df}{dx}\\big|_{x=1/2}=\\frac{\\sqrt3}{2}$",
+    "B": "(a) $A$ is invertible only at $x=0$<br />(b) $A^{-1}=I$<br />(c) $g(x)=\\pi$ on $[0,1]$<br />(d) $\\frac{dh}{dx}=2x$ and $\\frac{df}{dx}\\big|_{x=1/2}=2$",
+    "C": "(a) $A$ is invertible for $x\\in(-1,1)$ because $\\det A=1$<br />(b) $A^{-1}=-A$<br />(c) $g(x)=\\frac{\\pi}{4}$ on $[0,1]$<br />(d) $\\frac{dh}{dx}=0$ and $\\frac{df}{dx}\\big|_{x=1/2}=\\frac{1}{\\sqrt3}$",
+    "D": "(a) $A$ is invertible for $x\\in(-1,1)$ because $\\det A=-1$<br />(b) $A^{-1}=A$<br />(c) $g(x)=\\frac{\\pi}{2}$ on $[0,1]$<br />(d) $\\frac{dh}{dx}=0$ and $\\frac{df}{dx}\\big|_{x=1/2}=\\frac{2}{\\sqrt3}$; $h$ is constant while $f$ is not"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:37:09 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

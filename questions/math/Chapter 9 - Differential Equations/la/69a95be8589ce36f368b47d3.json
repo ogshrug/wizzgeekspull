@@ -1,0 +1,29 @@
+{
+  "id": "69a95be8589ce36f368b47d3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "Solve the following equation:<br /><br />$\\displaystyle (y - x) \\frac{dy}{dx} = y + x$",
+  "answeroption": "C",
+  "explanation": "Given:<br /><br />$(y-x) \\frac{dy}{dx} = y + x$<br /><br />$\\Rightarrow \\frac{dy}{dx} = \\frac{y + x}{y - x}$<br /><br />Let’s swap variables: $x$ as a function of $y$.<br /><br />$\\frac{dx}{dy} = \\frac{y - x}{y + x}$<br /><br />Let $u = y + x \\implies \\frac{du}{dy} = 1 + \\frac{dx}{dy}$<br /><br />So $\\frac{dx}{dy} = \\frac{du}{dy} - 1$<br /><br />From above:<br /><br />$\\frac{du}{dy} - 1 = \\frac{y - x}{u}$<br /><br />But $y - x = (u - 2x)$<br /><br />Replace $y$ by $u - x$:<br /><br />$(u - x) - x = u - 2x$<br /><br />Therefore,<br /><br />$\\frac{du}{dy} - 1 = \\frac{u - 2x}{u}$<br /><br />$\\frac{du}{dy} - 1 = 1 - \\frac{2x}{u}$<br /><br />$\\frac{du}{dy} = 2 - \\frac{2x}{u}$<br /><br />But $x = u - y$, so $\\frac{2x}{u} = 2 \\frac{u - y}{u} = 2 - \\frac{2y}{u}$<br /><br />Thus,<br /><br />$\\frac{du}{dy} = 2 - (2 - \\frac{2y}{u}) = \\frac{2y}{u}$<br /><br />$\\frac{du}{dy} = \\frac{2y}{u}$<br /><br />$u du = 2y dy$<br /><br />Integrate both sides:<br /><br />$\\int u du = 2 \\int y dy$<br /><br />$\\frac{1}{2} u^2 = y^2 + C$<br /><br />Recall $u = y + x$:<br /><br />$\\frac{1}{2}(y + x)^2 = y^2 + C$<br /><br />Solution:<br /><br />$(y + x)^2 = 2y^2 + C$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(y-x)^2=2y^2+C$",
+    "B": "$(y+x)^2=y^2+C$",
+    "C": "$(y+x)^2=2y^2+C$",
+    "D": "$(y+x)^2=2x^2+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 10:33:12 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

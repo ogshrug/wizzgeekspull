@@ -1,0 +1,29 @@
+{
+  "id": "6a902a20be0ecc7866e90cba",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "SA",
+  "question": "Two events $A$ and $B$ satisfy $P(A)=\\frac12$, $P(B)=\\frac13$ and $P(A\\cup B)=\\frac23$. Examine whether $A$ and $B$ are independent. Justify your answer.",
+  "answeroption": "A",
+  "explanation": "<b>Step 1: Determination of the intersection probability</b><br>Using the relation $$P(A\\cup B)=P(A)+P(B)-P(A\\cap B),$$ we obtain $$\\frac23=\\frac12+\\frac13-P(A\\cap B).$$<br><b>Step 2: Simplification</b><br>Therefore, $$P(A\\cap B)=\\frac12+\\frac13-\\frac23=\\frac16.$$<br><b>Step 3: Independence criterion</b><br>Two events $A$ and $B$ are independent if $$P(A\\cap B)=P(A)P(B).$$ Here, $$P(A)P(B)=\\frac12\\times\\frac13=\\frac16.$$<br><b>Step 4: Comparison</b><br>We have $$P(A\\cap B)=\\frac16=P(A)P(B).$$ Thus, the required independence condition is satisfied.<br><b>Step 5: Conclusion</b><br>Hence, the given events $A$ and $B$ are $$\\boxed{\\text{independent}}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$A$ and $B$ are independent because $P(A\\cap B)=\\frac{1}{6}=P(A)P(B)$",
+    "B": "$A$ and $B$ are not independent because $P(A\\cap B)=\\frac{1}{6}\\neq P(A)P(B)$",
+    "C": "$A$ and $B$ are mutually exclusive because $P(A\\cap B)=0$",
+    "D": "$A$ and $B$ are independent because $P(A\\cup B)=P(A)+P(B)$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

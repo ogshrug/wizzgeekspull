@@ -1,0 +1,32 @@
+{
+  "id": "6a8fde1f751910886affb9fe",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebc98c819562f933f99d",
+    "6a13ebc98c819562f933f99e",
+    "6a13ebc98c819562f933f99f",
+    "6a13ebc98c819562f933f9a0"
+  ],
+  "question_type": "LA",
+  "question": "Examine the equation $$\\sin\\left(\\frac{d^2y}{dx^2}\\right)+\\left(\\frac{dy}{dx}\\right)^3=x^2+y$$ and determine its type and order. Further, establish whether its degree can be defined, justifying your conclusion from the condition required for defining the degree of a differential equation.",
+  "answeroption": "C",
+  "explanation": "<b>Identification and Type</b><br>The equation $$\\sin\\left(\\frac{d^2y}{dx^2}\\right)+\\left(\\frac{dy}{dx}\\right)^3=x^2+y$$ contains derivatives of the dependent variable $y$ with respect to the independent variable $x$. Hence, it is a differential equation. Since all derivatives are with respect to the single independent variable $x$, it is an ordinary differential equation.<br><br><b>Determination of Order</b><br>The derivatives occurring in the equation are $\\frac{dy}{dx}$ and $\\frac{d^2y}{dx^2}$. The highest order derivative is $\\frac{d^2y}{dx^2}$. Therefore, the order of the differential equation is $2$.<br><br><b>Examination of Degree</b><br>The degree of a differential equation can be defined only when the equation is a polynomial equation in its derivatives. Here, the highest order derivative occurs inside the trigonometric expression $\\sin\\left(\\frac{d^2y}{dx^2}\\right)$. Therefore, the equation is not a polynomial in its derivatives.<br><br>Consequently, no positive integral power of the highest order derivative can be identified as the degree.<br><br><b>Final Result</b><br>The equation is an ordinary differential equation of order $2$, while its degree is not defined.",
+  "explanation_image": [],
+  "options": {
+    "A": "Ordinary differential equation; order $2$, degree $3$",
+    "B": "Ordinary differential equation; order $1$, degree not defined",
+    "C": "Ordinary differential equation; order $2$, degree not defined",
+    "D": "Partial differential equation; order $2$, degree $1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

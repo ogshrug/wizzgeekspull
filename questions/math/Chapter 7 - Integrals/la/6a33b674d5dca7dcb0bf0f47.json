@@ -1,0 +1,26 @@
+{
+  "id": "6a33b674d5dca7dcb0bf0f47",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate : $\\int_0^{\\pi/2} \\frac{x}{\\cos x+\\sin x} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $I = \\int_0^{\\pi/2} \\frac{x}{\\cos x+\\sin x} dx$. Use the definite integral property $\\int_0^a f(x)dx = \\int_0^a f(a-x)dx$ to write $I = \\int_0^{\\pi/2} \\frac{\\pi/2 - x}{\\cos(\\pi/2 - x) + \\sin(\\pi/2 - x)} dx = \\int_0^{\\pi/2} \\frac{\\pi/2 - x}{\\sin x + \\cos x} dx$.\n\n**Step 2:** Sum the two integral equations for $I$: $2I = \\int_0^{\\pi/2} \\frac{\\pi/2}{\\sin x + \\cos x} dx = \\frac{\\pi}{2} \\int_0^{\\pi/2} \\frac{1}{\\sin x + \\cos x} dx$.\n\n**Step 3:** Apply the auxiliary angle transform to the denominator: $\\sin x + \\cos x = \\sqrt{2} \\cos\\left(x - \\frac{\\pi}{4}\\right)$.\n\n**Step 4:** Substitute this expression to solve the integral: $2I = \\frac{\\pi}{2\\sqrt{2}} \\int_0^{\\pi/2} \\sec\\left(x - \\frac{\\pi}{4}\\right) dx = \\frac{\\pi}{2\\sqrt{2}} \\left[\\ln\\left|\\sec\\left(x - \\frac{\\pi}{4}\\right) + \\tan\\left(x - \\frac{\\pi}{4}\\right)\\right|\\right]_0^{\\pi/2}$.\n\n**Step 5:** Evaluate the limits. At the upper limit $x=\\frac{\\pi}{2}$, the evaluation yields $\\ln|\\sqrt{2}+1|$. At the lower limit $x=0$, it yields $\\ln|\\sqrt{2}-1|$. Thus $2I = \\frac{\\pi}{2\\sqrt{2}} \\ln\\left(\\frac{\\sqrt{2}+1}{\\sqrt{2}-1}\\right)$, producing final answer $I = \\frac{\\pi}{4\\sqrt{2}} \\ln\\left(\\frac{\\sqrt{2}+1}{\\sqrt{2}-1}\\right)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

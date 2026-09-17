@@ -1,0 +1,26 @@
+{
+  "id": "6a328dc76dbc98396e70a795",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "VSA",
+  "question": "Find the local maxima and local minima of the function $f(x)=\\frac{8}{3}x^{3}-12x^{2}+18x+5.$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To find the local extrema, we first calculate the first derivative of the function with respect to $x$: $f^{\\prime}(x) = 8x^2 - 24x + 18$. Factoring out the common constant yields $f^{\\prime}(x) = 2(4x^2 - 12x + 9) = 2(2x-3)^2$.<br />**Step 2:** Set the first derivative to zero to locate the critical points: $2(2x-3)^2 = 0 \\implies x = \\frac{3}{2}$. We observe that the term $(2x-3)^2$ is a perfect square and remains non-negative for all real values of $x$.<br />**Step 3:** Since $f^{\\prime}(x)$ does not change its algebraic sign as it passes through the critical value $x = \\frac{3}{2}$, the point is a point of inflection. Therefore, the function has no local maxima and no local minima.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

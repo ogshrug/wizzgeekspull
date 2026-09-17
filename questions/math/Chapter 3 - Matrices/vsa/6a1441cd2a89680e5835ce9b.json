@@ -1,0 +1,25 @@
+{
+  "id": "6a1441cd2a89680e5835ce9b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5b",
+    "69c65fc040512f018fa94d5d"
+  ],
+  "question_type": "VSA",
+  "question": "If $B=\\begin{bmatrix}1&-5\\\\ 0&-3\\end{bmatrix}$ and $A+2B=\\begin{bmatrix}0&4\\\\ -7&5\\end{bmatrix}$, find the matrix $A$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Given $A + 2B = \\begin{bmatrix}0 & 4 \\\\ -7 & 5\\end{bmatrix}$ and $B = \\begin{bmatrix}1 & -5 \\\\ 0 & -3\\end{bmatrix}$. <br /><br /> **Step 2:** Compute $2B$: <br /> $2B = 2 \\begin{bmatrix}1 & -5 \\\\ 0 & -3\\end{bmatrix} = \\begin{bmatrix}2 & -10 \\\\ 0 & -6\\end{bmatrix}$. <br /><br /> **Step 3:** Substitute into the equation: <br /> $A + \\begin{bmatrix}2 & -10 \\\\ 0 & -6\\end{bmatrix} = \\begin{bmatrix}0 & 4 \\\\ -7 & 5\\end{bmatrix}$. <br /><br /> **Step 4:** Solve for $A$: <br /> $A = \\begin{bmatrix}0 & 4 \\\\ -7 & 5\\end{bmatrix} - \\begin{bmatrix}2 & -10 \\\\ 0 & -6\\end{bmatrix}$. <br /><br /> **Step 5:** Subtract element-wise: <br /> $A = \\begin{bmatrix}0-2 & 4-(-10) \\\\ -7-0 & 5-(-6)\\end{bmatrix} = \\begin{bmatrix}-2 & 14 \\\\ -7 & 11\\end{bmatrix}$. <br /><br /> **Answer:** $A = \\begin{bmatrix}-2 & 14 \\\\ -7 & 11\\end{bmatrix}$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2021-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

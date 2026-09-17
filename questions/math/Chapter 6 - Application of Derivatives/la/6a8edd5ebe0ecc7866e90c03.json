@@ -1,0 +1,32 @@
+{
+  "id": "6a8edd5ebe0ecc7866e90c03",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f977",
+    "6a13e98f8c819562f933f978",
+    "6a13e98f8c819562f933f979",
+    "6a13e98f8c819562f933f97a"
+  ],
+  "question_type": "LA",
+  "question": "For the function $f(x)=x+\\frac{4}{x}$, where $x>0$, answer the following:<br><br>(a) Find the critical point of $f$.<br><br>(b) Determine the intervals on which the function is increasing and decreasing.<br><br>(c) Verify the change in behaviour by evaluating $f(1)$, $f(2)$ and $f(4)$.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br><b>Differentiation</b><br>$$f'(x)=1-\\frac{4}{x^2}$$<br>$$f'(x)=\\frac{x^2-4}{x^2}=\\frac{(x-2)(x+2)}{x^2}$$<br>For $x>0$, the derivative is zero when<br>$$x^2-4=0$$<br>Hence, the admissible critical point is<br>$$x=2$$<br><br><b>(b)</b><br>For $0<x<2$, we have $x^2-4<0$ and $x^2>0$. Therefore, $f'(x)<0$.<br>For $x>2$, we have $x^2-4>0$ and $x^2>0$. Therefore, $f'(x)>0$.<br>Hence, $f$ is decreasing on<br>$$(0,2)$$<br>and increasing on<br>$$(2,\\infty)$$<br><br><b>(c)</b><br>$$f(1)=1+\\frac{4}{1}=5$$<br>$$f(2)=2+\\frac{4}{2}=4$$<br>$$f(4)=4+\\frac{4}{4}=5$$<br>Since $f(1)>f(2)$, the function decreases as $x$ moves from $1$ to $2$. Since $f(2)<f(4)$, it increases as $x$ moves from $2$ to $4$. This verifies the intervals obtained using the first derivative.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Critical point $x=4$<br>(b) Decreasing on $(0,4)$ and increasing on $(4,\\infty)$<br>(c) $f(1)=5$, $f(2)=4$, $f(4)=5$",
+    "B": "(a) Critical point $x=2$<br>(b) Increasing on $(0,2)$ and decreasing on $(2,\\infty)$<br>(c) $f(1)=5$, $f(2)=4$, $f(4)=5$",
+    "C": "(a) Critical points $x=\\pm2$ in the given domain<br>(b) Decreasing on $(0,\\infty)$<br>(c) $f(1)=4$, $f(2)=5$, $f(4)=4$",
+    "D": "(a) Critical point $x=2$<br>(b) Decreasing on $(0,2)$ and increasing on $(2,\\infty)$<br>(c) $f(1)=5$, $f(2)=4$, $f(4)=5$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

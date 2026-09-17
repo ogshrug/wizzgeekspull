@@ -1,0 +1,32 @@
+{
+  "id": "69a98be46638848124d7c960",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $R$ be a relation on set of natural numbers defined by $\\{(x, y): x, y \\in N, 2x + y = 41\\}$ then $R$ is:",
+  "answeroption": "D",
+  "explanation": "Reflexive: For $(x,x)$ we need $2x + x = 41 \\Rightarrow 3x = 41$. Since $41/3$ is not a natural number, $R$ is not reflexive.<br /><br />Symmetric: If $(x,y) \\in R$, then $2x + y = 41$. But for $(y,x)$ we need $2y + x = 41$. Example: $(1,39) \\in R$ but $(39,1) \\notin R$. Hence not symmetric.<br /><br />Transitive: If $(x,y) \\in R$ and $(y,z) \\in R$, then $2x + y = 41$ and $2y + z = 41$. This does not imply $2x + z = 41$, so not transitive.<br /><br />Therefore $R$ is none of these.",
+  "explanation_image": [],
+  "options": {
+    "A": "Reflexive",
+    "B": "Symmetric",
+    "C": "Transitive",
+    "D": "None of these"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:57:56 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

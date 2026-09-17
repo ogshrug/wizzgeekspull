@@ -1,0 +1,31 @@
+{
+  "id": "69a988986638848124d7c956",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43",
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\{1, 2, 3, 4\\}$ and define a relation $R$ on $A$ as $R = \\{(a, b) : a + b$ is even$\\}$.<br /><br />(a) Prove that $R$ is an equivalence relation.<br /><br />(b) Find all equivalence classes of $R$.<br /><br />(c) For a subset $S \\subseteq A$, define $f_S : S \\to A$ by $f_S(x) = 5 - x$. For which subsets $S$ does $f_S$ define a bijection onto its range? Explain.",
+  "answeroption": "A",
+  "explanation": "(a) Reflexivity: For all $a \\in A$, $a + a = 2a$ which is always even, so $(a, a) \\in R$ for all $a$. Hence, $R$ is reflexive.<br /><br />Symmetry: If $(a, b) \\in R$, $a + b$ is even. But $a + b = b + a$ so $(b, a) \\in R$. Hence $R$ is symmetric.<br /><br />Transitivity: Suppose $(a, b) \\in R$ and $(b, c) \\in R$. So $a + b$ and $b + c$ are even. Their sum:<br /><br />$a + b + b + c = a + 2b + c$<br /><br />$a + c = (a + 2b + c) - 2b$ is even minus even = even. So $a + c$ is even, i.e., $(a, c) \\in R$. Hence $R$ is transitive.<br /><br />Thus $R$ is an equivalence relation.<br /><br />(b) The elements of $A$ are $1,2,3,4$. $a + b$ is even $\\iff a, b$ are both odd or both even. Odd elements: $1,3$; even: $2,4$. So equivalence classes:<br /><br />$[1]=[3]=\\{1,3\\}$, $[2]=[4]=\\{2,4\\}$.<br /><br />(c) $f_S$ is $f_S(x) = 5 - x$ for $x \\in S$. $f_S$ is injective: Suppose $f_S(x_1) = f_S(x_2) \\implies 5 - x_1 = 5 - x_2 \\implies x_1 = x_2$. Hence $f_S$ is injective for all $S$. For surjectivity onto its range, for every $y \\in f_S(S)$, there is $x \\in S$ with $f_S(x) = y$. This holds by definition of $f_S$.<br /><br />However, for $f_S$ to be a bijection from $S$ to its range, $f_S$ must be a mapping $S \\to T$ where $T = f_S(S)$, and $f_S$ is always bijective. But if the question requires $f_S(S) = S$, then $5-x \\in S$ exactly when $x \\in S$. That is, $S$ must be closed under $x \\mapsto 5 - x$. For $A = \\{1,2,3,4\\}$:<br /><br />- $f_A(A) = \\{4,3,2,1\\} = A$<br /><br />- For $S = \\{1,4\\}$, $f_S(1) = 4$, $f_S(4)=1$, so $f_S(S) = S$<br /><br />- For $S=\\{2,3\\}$, $f_S(2)=3$, $f_S(3)=2$, so $f_S(S)=S$<br /><br />Thus, $f_S$ defines a bijection onto $S$ precisely for $S = A, \\{1,4\\}, \\{2,3\\}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $R$ is reflexive, symmetric and transitive, so it is an equivalence relation.<br> (b) The equivalence classes are $\\{1,3\\}$ and $\\{2,4\\}$. <br>(c) $f_S$ is a bijection from $S$ onto its range for every subset $S\\subseteq A$; if the range is required to be $S$ itself, then $S=A,\\{1,4\\},\\{2,3\\}$.",
+    "B": "(a) $R$ is not an equivalence relation because it is not transitive. <br>(b) The equivalence classes are $\\{1,2\\}$ and $\\{3,4\\}$.<br> (c) $f_S$ is bijective only for singleton subsets.",
+    "C": "(a) $R$ is an equivalence relation.<br> (b) The only equivalence class is $A$.<br> (c) $f_S$ is never a bijection onto its range.",
+    "D": "(a) $R$ is reflexive but neither symmetric nor transitive. <br>(b) The equivalence classes are $\\{1\\},\\{2\\},\\{3\\},\\{4\\}$.<br> (c) $f_S$ is bijective only for $S=\\emptyset$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:43:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:17 GMT"
+}

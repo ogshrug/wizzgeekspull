@@ -1,0 +1,30 @@
+{
+  "id": "6a8c721a1cb3824448de86ae",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b",
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "LA",
+  "question": "(a) Establish that $\\sec^{-1}x=\\cos^{-1}\\left(\\dfrac{1}{x}\\right)$ for $|x|\\geq1$ and $\\csc^{-1}x=\\sin^{-1}\\left(\\dfrac{1}{x}\\right)$ for $|x|\\geq1$.<br><br>(b) Hence evaluate $\\sec^{-1}(-2)+\\csc^{-1}(-2)$ using principal values.",
+  "answeroption": "B",
+  "explanation": "<b>(a)</b><br>Let<br>$$\\theta=\\sec^{-1}x$$<br>Then $\\sec\\theta=x$, where $|x|\\geq1$. Therefore,<br>$$\\cos\\theta=\\frac{1}{x}$$<br>The principal-value range of $\\sec^{-1}$ agrees with the range of $\\cos^{-1}$ after excluding $\\dfrac{\\pi}{2}$. Hence,<br>$$\\theta=\\cos^{-1}\\left(\\frac{1}{x}\\right)$$<br>Thus,<br>$$\\sec^{-1}x=\\cos^{-1}\\left(\\frac{1}{x}\\right)$$<br>Similarly, let<br>$$\\phi=\\csc^{-1}x$$<br>Then $\\csc\\phi=x$, so<br>$$\\sin\\phi=\\frac{1}{x}$$<br>The principal-value ranges of $\\csc^{-1}$ and $\\sin^{-1}$ agree for the permitted non-zero values. Therefore,<br>$$\\csc^{-1}x=\\sin^{-1}\\left(\\frac{1}{x}\\right)$$<br><br><b>(b)</b><br>Using the established relations,<br>$$\\sec^{-1}(-2)=\\cos^{-1}\\left(-\\frac{1}{2}\\right)=\\frac{2\\pi}{3}$$<br>and<br>$$\\csc^{-1}(-2)=\\sin^{-1}\\left(-\\frac{1}{2}\\right)=-\\frac{\\pi}{6}$$<br>Therefore,<br>$$\\sec^{-1}(-2)+\\csc^{-1}(-2)=\\frac{2\\pi}{3}-\\frac{\\pi}{6}$$<br>$$=\\frac{4\\pi-\\pi}{6}=\\frac{\\pi}{2}$$<br>Hence, the required value is $\\dfrac{\\pi}{2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\sec^{-1}x=\\sin^{-1}\\left(\\dfrac{1}{x}\\right)$ and $\\csc^{-1}x=\\cos^{-1}\\left(\\dfrac{1}{x}\\right)$<br><br>(b) $-\\dfrac{\\pi}{2}$",
+    "B": "(a) $\\sec^{-1}x=\\cos^{-1}\\left(\\dfrac{1}{x}\\right)$ and $\\csc^{-1}x=\\sin^{-1}\\left(\\dfrac{1}{x}\\right)$ for $|x|\\geq1$<br><br>(b) $\\dfrac{\\pi}{2}$",
+    "C": "(a) $\\sec^{-1}x=\\cos^{-1}(x)$ and $\\csc^{-1}x=\\sin^{-1}(x)$ for $|x|\\geq1$<br><br>(b) $\\dfrac{5\\pi}{6}$",
+    "D": "(a) $\\sec^{-1}x=\\dfrac{1}{\\cos^{-1}x}$ and $\\csc^{-1}x=\\dfrac{1}{\\sin^{-1}x}$<br><br>(b) $\\dfrac{2\\pi}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

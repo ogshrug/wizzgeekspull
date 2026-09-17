@@ -1,0 +1,31 @@
+{
+  "id": "6a8fe35a2e54880055a0a722",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8",
+    "6a13ebca8c819562f933f9a9",
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "LA",
+  "question": "Solve the differential equation $$x^2\\frac{dy}{dx}=x^2+xy+y^2,$$ for $x\\neq 0$, by establishing its homogeneous form and using a suitable substitution to reduce it to a variable separable equation.",
+  "answeroption": "B",
+  "explanation": "<b>Homogeneous Form</b><br>Dividing the given equation by $x^2$, $$\\frac{dy}{dx}=1+\\frac{y}{x}+\\left(\\frac{y}{x}\\right)^2.$$ The right-hand side is a function of $\\frac{y}{x}$ only. Hence, the differential equation is homogeneous.<br><br><b>Substitution Method</b><br>Put $$y=vx.$$ Then $$\\frac{dy}{dx}=v+x\\frac{dv}{dx}.$$ Substituting, $$v+x\\frac{dv}{dx}=1+v+v^2.$$ Therefore, $$x\\frac{dv}{dx}=1+v^2.$$<br><br><b>Reduction to Variable Separable Form</b><br>Separating the variables, $$\\frac{dv}{1+v^2}=\\frac{dx}{x}.$$ Integrating both sides, $$\\tan^{-1}v=\\log|x|+C.$$ Replacing $v$ by $\\frac{y}{x}$ gives $$\\tan^{-1}\\left(\\frac{y}{x}\\right)=\\log|x|+C.$$<br><br><b>Final Result</b><br>The required solution is $$\\tan^{-1}\\left(\\frac{y}{x}\\right)-\\log|x|=C.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan^{-1}\\left(\\frac{y}{x}\\right)+\\log|x|=C$",
+    "B": "$\\tan^{-1}\\left(\\frac{y}{x}\\right)-\\log|x|=C$",
+    "C": "$\\tan^{-1}\\left(\\frac{x}{y}\\right)-\\log|x|=C$",
+    "D": "$\\tan^{-1}\\left(\\frac{y}{x}\\right)-2\\log|x|=C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a264e82864be73cfcf6d323",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a",
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "VSA",
+  "question": "Find:<br />$$\\int\\frac{sin~3x}{sin~x}dx$$",
+  "answeroption": "",
+  "explanation": "**Step 1:** To solve the trigonometric integration problem $\\int\\frac{\\sin 3x}{\\sin x}dx$, we apply the standard triple-angle identity from trigonometry: $\\sin 3x = 3\\sin x - 4\\sin^3 x$. Substituting this identity directly into the integrand expression gives: $\\int \\frac{3\\sin x - 4\\sin^3 x}{\\sin x} dx$.<br />**Step 2:** Factor out and cancel $\\sin x$ from both the numerator and denominator terms, assuming $\\sin x \\neq 0$. This breaks the rational form down into a simplified polynomial expression: $\\int (3 - 4\\sin^2 x) dx$. To integrate $\\sin^2 x$, apply the standard trigonometric power-reducing identity $\\sin^2 x = \\frac{1 - \\cos 2x}{2}$. Substituting this in results in: $\\int \\left(3 - 4\\left(\\frac{1 - \\cos 2x}{2}\\right)\\right) dx$.<br />**Step 3:** Distribute and simplify the internal values: $\\int (3 - 2(1 - \\cos 2x)) dx = \\int (3 - 2 + 2\\cos 2x) dx = \\int (1 + 2\\cos 2x) dx$. Now, perform term-by-term integration using basic standard calculus rules: $\\int 1 dx = x$ and $\\int 2\\cos 2x dx = 2\\left(\\frac{\\sin 2x}{2}\\right) = \\sin 2x$. Adding the integration constant yields the final result: $x + \\sin 2x + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-2",
+  "set_key": [
+    "2022-2-1",
+    "2022-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

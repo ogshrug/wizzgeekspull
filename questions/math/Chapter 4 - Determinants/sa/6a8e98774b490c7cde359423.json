@@ -1,0 +1,29 @@
+{
+  "id": "6a8e98774b490c7cde359423",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d73"
+  ],
+  "question_type": "SA",
+  "question": "For the system $x+ky=1$ and $2x+4y=2$, determine the number of solutions when $k=2$ and when $k\\ne2$.",
+  "answeroption": "D",
+  "explanation": "<b>Coefficient determinant</b><br>The coefficient determinant is $$\\begin{vmatrix}1&k\\\\2&4\\end{vmatrix}=4-2k$$<br><b>Case $k\\ne2$</b><br>If $k\\ne2$, then $4-2k\\ne0$. Therefore, the coefficient matrix is nonsingular and the system has exactly one solution.<br><b>Case $k=2$</b><br>The equations become $x+2y=1$ and $2x+4y=2$. The second equation is exactly twice the first equation.<br><b>Classification</b><br>Hence, the system has infinitely many solutions when $k=2$ and a unique solution when $k\\ne2$. There is no value of $k$ for which this system has no solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "For $k=2$, there is no solution; for $k\\ne2$, there are infinitely many solutions.",
+    "B": "For $k=2$, there is a unique solution; for $k\\ne2$, there are infinitely many solutions.",
+    "C": "For $k=2$, there is a unique solution; for $k\\ne2$, there is no solution.",
+    "D": "For $k=2$, there are infinitely many solutions; for $k\\ne2$, there is a unique solution."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6a30f1e4ed9d5eb2aa7229ef",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98a"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int \\frac{1+\\tan x}{1-\\tan x} dx$ is equal to:",
+  "answeroption": "C",
+  "explanation": "**Step 1: Simplify the Integrand Using Trigonometric Identity**  \nRecall the tangent addition formula: $\\tan\\left(\\frac{\\pi}{4} + x\\right) = \\frac{\\tan\\frac{\\pi}{4} + \\tan x}{1 - \\tan\\frac{\\pi}{4}\\tan x} = \\frac{1 + \\tan x}{1 - \\tan x}$.  \nThus, $\\frac{1+\\tan x}{1-\\tan x} = \\tan\\left(\\frac{\\pi}{4} + x\\right)$.\n\n**Step 2: Rewrite the Integral**  \nThe integral becomes:  \n$$\\int \\frac{1+\\tan x}{1-\\tan x} \\, dx = \\int \\tan\\left(\\frac{\\pi}{4} + x\\right) \\, dx$$\n\n**Step 3: Evaluate the Integral**  \nThe integral of $\\tan u$ with respect to $u$ is $\\ln|\\sec u| + C$. Here $u = \\frac{\\pi}{4} + x$, so $du = dx$. Therefore:  \n$$\\int \\tan\\left(\\frac{\\pi}{4} + x\\right) \\, dx = \\ln\\left|\\sec\\left(\\frac{\\pi}{4} + x\\right)\\right| + C$$\n\n**Step 4: Match with the Given Options**  \nThe result $\\ln\\left|\\sec\\left(\\frac{\\pi}{4} + x\\right)\\right| + C$ matches option **C**.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sec^2(\\frac{\\pi}{4}+x) + C$",
+    "B": "$\\sec^2(\\frac{\\pi}{4}-x) + C$",
+    "C": "$\\log|\\sec(\\frac{\\pi}{4}+x)| + C$",
+    "D": "$\\log|\\sec(\\frac{\\pi}{4}-x)| + C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

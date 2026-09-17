@@ -1,0 +1,29 @@
+{
+  "id": "6a8fe109be0ecc7866e90c77",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ab"
+  ],
+  "question_type": "LA",
+  "question": "Find the equation of the curve passing through $(1,1)$ if the slope of the tangent at any point $(x,y)$ on the curve is $$\\frac{y-x}{x+y}.$$ Show that the resulting differential equation is homogeneous and obtain the required curve by a suitable substitution.",
+  "answeroption": "A",
+  "explanation": "<b>Formation of Equation</b><br>The slope of the tangent at any point $(x,y)$ is $\\frac{dy}{dx}$. Hence, $$\\frac{dy}{dx}=\\frac{y-x}{x+y}.$$ Dividing the numerator and denominator on the right by $x$, $$\\frac{dy}{dx}=\\frac{\\frac{y}{x}-1}{1+\\frac{y}{x}}.$$ Thus the right-hand side is a function of $\\frac{y}{x}$ only, so the differential equation is homogeneous.<br><br><b>Applying the Substitution</b><br>Put $y=vx$. Then $$\\frac{dy}{dx}=v+x\\frac{dv}{dx}.$$ Therefore, $$v+x\\frac{dv}{dx}=\\frac{v-1}{1+v}.$$ Hence, $$x\\frac{dv}{dx}=\\frac{v-1-v-v^2}{1+v}=-\\frac{1+v^2}{1+v}.$$ Separating the variables, $$\\frac{1+v}{1+v^2}dv=-\\frac{dx}{x}.$$<br><br><b>Evaluation</b><br>Integrating, $$\\int\\frac{dv}{1+v^2}+\\int\\frac{v}{1+v^2}dv=-\\int\\frac{dx}{x}.$$ Therefore, $$\\tan^{-1}v+\\frac{1}{2}\\log(1+v^2)=-\\log|x|+C.$$ Replacing $v$ by $\\frac{y}{x}$ and simplifying the logarithmic terms gives $$\\tan^{-1}\\left(\\frac{y}{x}\\right)+\\frac{1}{2}\\log(x^2+y^2)=C.$$<br><br>The curve passes through $(1,1)$. Therefore, $$C=\\tan^{-1}(1)+\\frac{1}{2}\\log 2=\\frac{\\pi}{4}+\\frac{1}{2}\\log 2.$$<br><br><b>Final Result</b><br>The required curve is $$\\tan^{-1}\\left(\\frac{y}{x}\\right)+\\frac{1}{2}\\log(x^2+y^2)=\\frac{\\pi}{4}+\\frac{1}{2}\\log 2.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\tan^{-1}\\left(\\frac{y}{x}\\right)+\\frac{1}{2}\\log(x^2+y^2)=\\frac{\\pi}{4}+\\frac{1}{2}\\log 2$",
+    "B": "$\\tan^{-1}\\left(\\frac{y}{x}\\right)-\\frac{1}{2}\\log(x^2+y^2)=\\frac{\\pi}{4}-\\frac{1}{2}\\log 2$",
+    "C": "$\\tan^{-1}\\left(\\frac{x}{y}\\right)+\\frac{1}{2}\\log(x^2+y^2)=\\frac{\\pi}{4}+\\frac{1}{2}\\log 2$",
+    "D": "$\\tan^{-1}\\left(\\frac{y}{x}\\right)+\\log(x^2+y^2)=\\frac{\\pi}{4}+\\log 2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

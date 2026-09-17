@@ -1,0 +1,29 @@
+{
+  "id": "6a8e8bef4b490c7cde3593c9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d58"
+  ],
+  "question_type": "VSA",
+  "question": "The matrix $A=\\begin{bmatrix}0&3&2x\\\\-3&0&-4\\\\-6&4&0\\end{bmatrix}$ is skew-symmetric. Determine $x$.",
+  "answeroption": "A",
+  "explanation": "Step 1: For a skew-symmetric matrix, $A^T=-A$. Hence, corresponding off-diagonal elements satisfy $a_{ji}=-a_{ij}$.<br>Step 2: In the given matrix, $a_{13}=2x$ and $a_{31}=-6$.<br>Step 3: Using the skew-symmetric condition, $a_{31}=-a_{13}$. Therefore, $$-6=-2x.$$<br>Step 4: Dividing both sides by $-2$, we obtain $x=3$.<br>Step 5: The remaining pairs also satisfy the condition since $a_{12}=3$, $a_{21}=-3$, $a_{23}=-4$ and $a_{32}=4$, while all diagonal elements are zero. Hence, the required value is $x=3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$3$",
+    "B": "$-3$",
+    "C": "$6$",
+    "D": "$-6$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

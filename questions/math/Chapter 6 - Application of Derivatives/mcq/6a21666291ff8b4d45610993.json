@@ -1,0 +1,31 @@
+{
+  "id": "6a21666291ff8b4d45610993",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973"
+  ],
+  "question_type": "MCQ",
+  "question": "The surface area of a sphere when its volume changes at the same rate as its radius is :",
+  "answeroption": "B",
+  "explanation": "<b>Step 1</b> State the geometric equations for a sphere. The volume is $V = \\frac{4}{3}\\pi r^3$ and the surface area is $S = 4\\pi r^2$, where $r$ is the radius.<br /><br /><b>Step 2</b> Find the rate of change of volume with respect to time $t$ by differentiating using the chain rule: $\\frac{dV}{dt} = \\frac{4}{3}\\pi \\left(3r^2 \\frac{dr}{dt}\\right) = 4\\pi r^2 \\frac{dr}{dt}$.<br /><br /><b>Step 3</b> The problem states that the volume changes at the same rate as the radius, meaning $\\frac{dV}{dt} = \\frac{dr}{dt}$. Substituting this gives $\\frac{dr}{dt} = 4\\pi r^2 \\frac{dr}{dt}$. Canceling $\\frac{dr}{dt}$ from both sides yields $4\\pi r^2 = 1$. Since $S = 4\\pi r^2$, the surface area equals exactly $1$ sq. unit, matching option (B).",
+  "explanation_image": [],
+  "options": {
+    "A": "4π sq. units",
+    "B": "1 sq. unit",
+    "C": "4 sq. units",
+    "D": "π sq. units"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

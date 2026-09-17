@@ -1,0 +1,26 @@
+{
+  "id": "6a30f204ed9d5eb2aa7229f6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac"
+  ],
+  "question_type": "SA",
+  "question": "Find the particular solution of the differential equation $\\frac{dy}{dx} + \\cot x \\cdot y = \\cos^2 x$, given that when $x=\\frac{\\pi}{2}$, $y=0$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Identify the Linear Form and Compute Integrating Factor**  \nThe given equation is:  \n$$\\frac{dy}{dx} + (\\cot x) y = \\cos^2 x$$  \nThis is a first-order linear ODE of the form $\\frac{dy}{dx} + P(x)y = Q(x)$, where $P(x) = \\cot x$ and $Q(x) = \\cos^2 x$.  \nThe integrating factor is:  \n$$\\text{IF} = e^{\\int P(x) \\, dx} = e^{\\int \\cot x \\, dx} = e^{\\ln|\\sin x|} = \\sin x$$  \n(Assuming $\\sin x > 0$ in the interval of interest).\n\n**Step 2: Multiply and Simplify the Equation**  \nMultiply the entire differential equation by IF $\\sin x$:  \n$$\\sin x \\frac{dy}{dx} + \\sin x \\cot x \\, y = \\sin x \\cos^2 x$$  \nSince $\\sin x \\cot x = \\sin x \\cdot \\frac{\\cos x}{\\sin x} = \\cos x$, the left side becomes:  \n$$\\sin x \\frac{dy}{dx} + y \\cos x = \\frac{d}{dx}(y \\sin x)$$  \nThus, the equation simplifies to:  \n$$\\frac{d}{dx}(y \\sin x) = \\sin x \\cos^2 x$$\n\n**Step 3: Integrate Both Sides**  \nIntegrate with respect to $x$:  \n$$y \\sin x = \\int \\sin x \\cos^2 x \\, dx$$  \nLet $u = \\cos x$, then $du = -\\sin x \\, dx$, so $\\sin x \\, dx = -du$.  \nThe integral becomes:  \n$$\\int \\sin x \\cos^2 x \\, dx = \\int u^2 (-du) = -\\int u^2 \\, du = -\\frac{u^3}{3} + C = -\\frac{\\cos^3 x}{3} + C$$  \nTherefore, the general solution is:  \n$$y \\sin x = -\\frac{\\cos^3 x}{3} + C$$\n\n**Step 4: Apply the Initial Condition**  \nGiven $x = \\frac{\\pi}{2}$ and $y = 0$:  \n- $\\sin\\left(\\frac{\\pi}{2}\\right) = 1$  \n- $\\cos\\left(\\frac{\\pi}{2}\\right) = 0$  \nSubstitute into the general solution:  \n$$0 \\cdot 1 = -\\frac{0^3}{3} + C \\Rightarrow 0 = 0 + C \\Rightarrow C = 0$$\n\n**Step 5: Write the Particular Solution**  \nWith $C = 0$, the particular solution is:  \n$$y \\sin x = -\\frac{\\cos^3 x}{3}$$  \nDividing both sides by $\\sin x$ (provided $\\sin x \\neq 0$):  \n$$y = -\\frac{\\cos^3 x}{3 \\sin x} = -\\frac{1}{3} \\cos^3 x \\csc x$$  \nThis is the required particular solution satisfying the given initial condition.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

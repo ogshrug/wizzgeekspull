@@ -1,0 +1,31 @@
+{
+  "id": "6a90056fbe0ecc7866e90c8c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f998",
+    "6a13eb348c819562f933f999",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A parabolic container has its inner boundary represented by $y=x^2$. A horizontal line $y=4$ represents the maximum filling level, and the enclosed cross-section lies between this line and the parabola. A second horizontal marker at $y=2$ separates the lower and upper portions of the cross-section. Since horizontal strips are convenient for this model, the area is evaluated with respect to $y$ by expressing the two branches of the parabola as functions of $y$.(a) Determine the points at which the filling line meets the parabola.(b) Identify the left and right boundaries for integration with respect to $y$.(c) Calculate the total enclosed area.(d) Calculate the areas below and above $y=2$ and determine which portion is larger.",
+  "answeroption": "D",
+  "explanation": "(a)At the points of intersection,`x^2=4x=\\pm2`Therefore, the filling line meets the parabola at $\\left(-2,4\\right)$ and $\\left(2,4\\right)$.(b)From $y=x^2$,`x=\\pm\\sqrt{y}`For $0\\leq y\\leq4$, the left boundary is $x=-\\sqrt{y}$ and the right boundary is $x=\\sqrt{y}$. Thus, the horizontal width is`\\sqrt{y}-\\left(-\\sqrt{y}\\right)=2\\sqrt{y}`(c)The total area is`A=\\int_0^4 2\\sqrt{y}\\,dyA=2\\left[\\frac{2y^{3/2}}{3}\\right]_0^4A=\\frac{4}{3}\\times8=\\frac{32}{3}`Hence, the total enclosed area is $\\frac{32}{3}$ square units.(d)The area below $y=2$ is`A_L=\\int_0^2 2\\sqrt{y}\\,dyA_L=\\frac{4}{3}\\left(2\\right)^{3/2}=\\frac{8\\sqrt{2}}{3}`The area above $y=2$ is`A_U=\\frac{32}{3}-\\frac{8\\sqrt{2}}{3}=\\frac{32-8\\sqrt{2}}{3}`The difference is`A_U-A_L=\\frac{32-16\\sqrt{2}}{3}>0`Therefore, the portion above $y=2$ is larger.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(-2,4)$ and $(2,4)$<br>(b) Left $x=-\\sqrt{y}$, right $x=\\sqrt{y}$<br>(c) Total area $=\\frac{16}{3}$<br>(d) Below $y=2$: $\\frac{8\\sqrt{2}}{3}$; above: $\\frac{16-8\\sqrt{2}}{3}$; lower larger",
+    "B": "(a) $(-2,4)$ and $(2,4)$<br>(b) Left $x=-\\sqrt{y}$, right $x=\\sqrt{y}$<br>(c) Total area $=\\frac{32}{3}$<br>(d) Below $y=2$: $\\frac{16\\sqrt{2}}{3}$; above: $\\frac{32-16\\sqrt{2}}{3}$; lower larger",
+    "C": "(a) $(-4,2)$ and $(4,2)$<br>(b) Left $x=-\\sqrt{y}$, right $x=\\sqrt{y}$<br>(c) Total area $=\\frac{32}{3}$<br>(d) Below $y=2$: $\\frac{8\\sqrt{2}}{3}$; above: $\\frac{32-8\\sqrt{2}}{3}$; upper larger",
+    "D": "(a) $(-2,4)$ and $(2,4)$<br>(b) Left $x=-\\sqrt{y}$, right $x=\\sqrt{y}$<br>(c) Total area $=\\frac{32}{3}$<br>(d) Below $y=2$: $\\frac{8\\sqrt{2}}{3}$; above: $\\frac{32-8\\sqrt{2}}{3}$; upper larger"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

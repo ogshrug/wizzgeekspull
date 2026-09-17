@@ -1,0 +1,31 @@
+{
+  "id": "69a9cc5762be6a70cd184e4b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d56",
+    "69c65fbf40512f018fa94d54"
+  ],
+  "question_type": "SA",
+  "question": "If $A$ is a $2 \\times 2$ invertible matrix and $A + A' = 2I$, where $A'$ is the transpose of $A$, show that $A$ is symmetric and $A = I$.",
+  "answeroption": "C",
+  "explanation": "Given $A + A' = 2I$.<br /><br />Let $A = \\begin{pmatrix}a & b\\\\c & d\\end{pmatrix}$ and $A' = \\begin{pmatrix}a & c\\\\b & d\\end{pmatrix}$.<br /><br />Then $A + A' = \\begin{pmatrix}2a & b + c\\\\b + c & 2d\\end{pmatrix} = 2I$.<br /><br />Comparing elements gives $a = 1$, $d = 1$, and $b + c = 0 \\Rightarrow b = -c$.<br /><br />Thus $A = \\begin{pmatrix}1 & b\\\\-b & 1\\end{pmatrix}$.<br /><br />For $A$ to be symmetric we require $b = 0$.<br /><br />Hence $A = I$, which is symmetric.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A+ A'=2I$ implies $A=I$ for every invertible matrix $A$",
+    "B": "$A+ A'=2I$ implies $A$ is always symmetric but not necessarily $I$",
+    "C": "$A+ A'=2I$ gives $A=\\begin{pmatrix}1&b\\\\-b&1\\end{pmatrix}$; hence $A$ need not be symmetric or equal to $I$ unless $b=0$",
+    "D": "$A+ A'=2I$ implies $A$ must be skew-symmetric"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 18:32:55 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:20 GMT"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6a30f1bfed9d5eb2aa7229ec",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "VSA",
+  "question": "If $x = \\sqrt{a^{\\tan^{-1} t}}$ and $y = \\sqrt{a^{\\cot^{-1} t}}$, then show that $x \\frac{dy}{dx} + y = 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Express the Product of x and y**  \nWe have $x = \\sqrt{a^{\\tan^{-1} t}}$ and $y = \\sqrt{a^{\\cot^{-1} t}}$. Multiply them:  \n$$xy = \\sqrt{a^{\\tan^{-1} t}} \\cdot \\sqrt{a^{\\cot^{-1} t}} = \\sqrt{a^{\\tan^{-1} t} \\cdot a^{\\cot^{-1} t}} = \\sqrt{a^{\\tan^{-1} t + \\cot^{-1} t}}$$  \nUsing the identity $\\tan^{-1} t + \\cot^{-1} t = \\frac{\\pi}{2}$ (valid for all real $t$), we get:  \n$$xy = \\sqrt{a^{\\pi/2}}$$  \nSince $a$ is a constant (presumably $a > 0$), $\\sqrt{a^{\\pi/2}}$ is also a constant. Let this constant be $k$.\n\n**Step 2: Differentiate the Constant Product with Respect to x**  \nWe have established that $xy = k$, where $k$ is a constant. Differentiate both sides with respect to $x$:  \n$$\\frac{d}{dx}(xy) = \\frac{d}{dx}(k)$$  \nUsing the product rule on the left side:  \n$$x \\frac{dy}{dx} + y \\cdot 1 = 0$$  \n$$x \\frac{dy}{dx} + y = 0$$\n\n**Step 3: Conclude the Proof**  \nThus, we have successfully shown that $x \\frac{dy}{dx} + y = 0$ without explicitly finding $\\frac{dy}{dx}$. The key was recognizing that the product $xy$ is constant due to the complementary inverse trigonometric identity.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

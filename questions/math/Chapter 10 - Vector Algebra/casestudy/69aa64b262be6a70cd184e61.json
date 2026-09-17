@@ -1,0 +1,30 @@
+{
+  "id": "69aa64b262be6a70cd184e61",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8cb",
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 4: Computer Graphics—Surface Normal Calculation**<br /><br />A 3D modeling software creates a triangular surface using points A (1,2,3), B (2,4,5), and C (5,3,9) (all units in pixels). Lighting calculations require the normal vector for this triangle for realistic rendering.<br /><br />a) Find the normal vector to the triangle’s surface using cross product.<br /><br />b) Determine the area of the triangle.<br /><br />c) If a light source vector $\\vec{L} = 2\\hat{i} + 4\\hat{j} + 7\\hat{k}$ shines on the triangle, calculate the cosine of the angle between the normal and the light source.",
+  "answeroption": "C",
+  "explanation": "a) $\\overrightarrow{AB} = (2-1)\\hat{i} + (4-2)\\hat{j} + (5-3)\\hat{k} = 1\\hat{i} + 2\\hat{j} + 2\\hat{k}$<br /><br />$\\overrightarrow{AC} = (5-1)\\hat{i} + (3-2)\\hat{j} + (9-3)\\hat{k} = 4\\hat{i} + 1\\hat{j} + 6\\hat{k}$<br /><br />Normal vector $\\vec{N} = \\overrightarrow{AB} \\times \\overrightarrow{AC}$<br /><br />$=\\left|\\begin{array}{ccc} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & 2 \\\\ 4 & 1 & 6 \\end{array}\\right|$<br /><br />$= \\hat{i}(2\\cdot6-2\\cdot1)-\\hat{j}(1\\cdot6-2\\cdot4)+\\hat{k}(1\\cdot1-2\\cdot4)$<br /><br />$= \\hat{i}(12-2)-\\hat{j}(6-8)+\\hat{k}(1-8)$<br /><br />$= 10\\hat{i} + 2\\hat{j} - 7\\hat{k}$<br /><br />b) Area of triangle:<br /><br />$|\\vec{N}| = \\sqrt{10^2 + 2^2 + 7^2} = \\sqrt{100+4+49} = \\sqrt{153}$<br /><br />Area $= \\frac{1}{2}|\\vec{N}| = \\frac{1}{2}\\sqrt{153}$ pixels²<br /><br />c) Cosine of angle between $\\vec{N}$ and $\\vec{L}$:<br /><br />$\\vec{N} \\cdot \\vec{L} = (10)(2) + (2)(4) + (-7)(7) = 20 + 8 - 49 = -21$<br /><br />$|\\vec{N}| = \\sqrt{153}$<br /><br />$|\\vec{L}| = \\sqrt{2^2 + 4^2 + 7^2} = \\sqrt{4 + 16 + 49} = \\sqrt{69}$<br /><br />$\\cos\\theta = \\dfrac{-21}{\\sqrt{153}\\sqrt{69}}$",
+  "explanation_image": [],
+  "options": {
+    "A": "a) $\\vec{N}=10\\hat{i}-2\\hat{j}+7\\hat{k}$<br />b) Area $=\\frac{1}{2}\\sqrt{153}$ pixels²<br />c) $\\cos\\theta=\\frac{21}{\\sqrt{153}\\sqrt{69}}$",
+    "B": "a) $\\vec{N}=8\\hat{i}+2\\hat{j}-7\\hat{k}$<br />b) Area $=\\frac{1}{2}\\sqrt{117}$ pixels²<br />c) $\\cos\\theta=\\frac{-21}{\\sqrt{117}\\sqrt{69}}$",
+    "C": "a) $\\vec{N}=10\\hat{i}+2\\hat{j}-7\\hat{k}$<br />b) Area $=\\frac{1}{2}\\sqrt{153}$ pixels²<br />c) $\\cos\\theta=\\frac{-21}{\\sqrt{153}\\sqrt{69}}$",
+    "D": "a) $\\vec{N}=10\\hat{i}+2\\hat{j}+7\\hat{k}$<br />b) Area $=\\sqrt{153}$ pixels²<br />c) $\\cos\\theta=\\frac{77}{\\sqrt{153}\\sqrt{69}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:22:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

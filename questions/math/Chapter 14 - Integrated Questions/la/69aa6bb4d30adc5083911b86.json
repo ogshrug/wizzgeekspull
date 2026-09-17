@@ -1,0 +1,30 @@
+{
+  "id": "69aa6bb4d30adc5083911b86",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9bdf4681ebad58354030e",
+  "topic": [
+    "69c65fc040512f018fa94d5c",
+    "69c65fc040512f018fa94d63"
+  ],
+  "question_type": "LA",
+  "question": "Let $A = \\begin{pmatrix} 1 & \\alpha \\\\ 0 & 1 \\end{pmatrix}$ and $B = \\begin{pmatrix} 1 & 0 \\\\ \\beta & 1 \\end{pmatrix}$ with $\\alpha, \\beta \\in \\mathbb{R}$. <br /><br />(a) Compute $AB$ and $BA$. <br /><br />(b) Show that $A$ and $B$ commute if and only if $\\alpha \\cdot \\beta = 0$. <br /><br />c) If $\\alpha = 1, \\beta = -1$, is $AB$ invertible? Find its determinant. <br /><br />(d) For $\\alpha = t$, $\\beta = 1/t\\ (t \\neq 0)$, consider the function $f(t) = \\det(AB)$. Find the values of $t$ for which $AB$ is non-invertible and the nature of $f(t)$ at $t = 0$. <br /><br />(e) Discuss the continuity and differentiability of $f(t)$ at $t=0$.",
+  "answeroption": "C",
+  "explanation": "**Concepts tested:** Matrices (Matrix multiplication, determinant, invertibility, parameterization), Determinants, Continuity & Differentiability<br /><br />(a)<br /><br />$AB = \\begin{pmatrix} 1 & \\alpha \\\\ 0 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 0 \\\\ \\beta & 1 \\end{pmatrix} = \\begin{pmatrix}1 + \\alpha \\beta & \\alpha \\\\ \\beta & 1 \\end{pmatrix}$<br /><br />$BA = \\begin{pmatrix} 1 & 0 \\\\ \\beta & 1 \\end{pmatrix} \\begin{pmatrix} 1 & \\alpha \\\\ 0 & 1 \\end{pmatrix} = \\begin{pmatrix}1 & \\alpha \\\\ \\beta & 1+\\alpha\\beta \\end{pmatrix}$<br /><br />(b) $AB=BA$ iff corresponding entries are equal. So,<br /><br />$1 + \\alpha\\beta = 1$<br /><br />$\\implies \\alpha \\beta = 0$,<br /><br />Other entries: same.<br /><br />So, $A,B$ commute iff $\\alpha \\beta = 0$.<br /><br />(c) $\\alpha=1, \\beta=-1\\Rightarrow AB = \\begin{pmatrix}0 & 1 \\\\ -1 & 1\\end{pmatrix},\\ \\det(AB) = (0)(1)-(1)(-1) = 1>0$. So $AB$ is invertible.<br /><br />(d) $\\alpha = t, \\beta = 1/t, t \\neq 0$<br /><br />$AB = \\begin{pmatrix} 1 + t \\cdot \\frac{1}{t} & t \\\\ \\frac{1}{t} & 1 \\end{pmatrix} = \\begin{pmatrix}2 & t \\\\ 1/t & 1 \\end{pmatrix}$<br /><br />$\\det(AB) = 2 \\times 1 - t \\cdot \\frac{1}{t} = 2-1=1$ for all $t \\neq 0$<br /><br />At $t=0$ is not defined since $\\beta=\\frac{1}{0}$.<br /><br />So $AB$ is always invertible for $t \\neq 0$.<br /><br />(e) $f(t)=1$ for all $t \\neq 0$. At $t=0$, $f(t)$ is undefined.<br /><br />So, $f$ has a removable discontinuity at $t=0$ and is not differentiable at $t=0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $AB=\\begin{pmatrix}1&\\alpha\\\\\\beta&1+\\alpha\\beta\\end{pmatrix}$ and $BA=\\begin{pmatrix}1+\\alpha\\beta&\\alpha\\\\\\beta&1\\end{pmatrix}$<br />(b) $A$ and $B$ commute for all $\\alpha,\\beta$<br />(c) For $\\alpha=1,\\beta=-1$, $AB$ is not invertible and determinant is $0$<br />(d) For $\\alpha=t,\\beta=1/t$, $AB$ is non-invertible for all $t\\ne0$<br />(e) $f(t)$ is continuous and differentiable at $t=0$",
+    "B": "(a) $AB=BA=I$<br />(b) $A$ and $B$ commute iff $\\alpha+\\beta=0$<br />(c) For $\\alpha=1,\\beta=-1$, determinant is $-1$<br />(d) $AB$ is non-invertible only at $t=1$<br />(e) $f(t)$ has an infinite discontinuity at $t=0$",
+    "C": "(a) $AB=\\begin{pmatrix}1+\\alpha\\beta&\\alpha\\\\\\beta&1\\end{pmatrix}$ and $BA=\\begin{pmatrix}1&\\alpha\\\\\\beta&1+\\alpha\\beta\\end{pmatrix}$<br />(b) $A$ and $B$ commute iff $\\alpha\\beta=0$<br />(c) For $\\alpha=1,\\beta=-1$, $AB=\\begin{pmatrix}0&1\\\\-1&1\\end{pmatrix}$ and $\\det(AB)=1$, so $AB$ is invertible<br />(d) For $\\alpha=t,\\beta=\\frac{1}{t}$, $f(t)=\\det(AB)=1$ for all $t\\ne0$, so $AB$ is never non-invertible for $t\\ne0$<br />(e) $f(t)$ is undefined at $t=0$, so it has a removable discontinuity and is not differentiable at $t=0$",
+    "D": "(a) $AB=\\begin{pmatrix}\\alpha&1\\\\1&\\beta\\end{pmatrix}$ and $BA=\\begin{pmatrix}\\beta&1\\\\1&\\alpha\\end{pmatrix}$<br />(b) $A$ and $B$ commute iff $\\alpha=\\beta$<br />(c) For $\\alpha=1,\\beta=-1$, determinant is $2$<br />(d) $f(t)=t^2$ and $AB$ is non-invertible at $t=0$ only<br />(e) $f$ is differentiable at $t=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:52:52 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:46 GMT"
+}

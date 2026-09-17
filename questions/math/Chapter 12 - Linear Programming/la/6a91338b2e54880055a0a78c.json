@@ -1,0 +1,33 @@
+{
+  "id": "6a91338b2e54880055a0a78c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8d8",
+    "6a13e844d837c8c7efa6b8d9",
+    "6a13e844d837c8c7efa6b8dc",
+    "6a13e844d837c8c7efa6b8dd",
+    "6a13e844d837c8c7efa6b8e1"
+  ],
+  "question_type": "LA",
+  "question": "A factory produces batches of two products A and B. One batch of A requires $2$ hours on machine I and $1$ hour on machine II, while one batch of B requires $1$ hour on machine I and $2$ hours on machine II. Each machine is available for at most $15$ hours, and the factory is required to produce at least $12$ batches altogether. The profit on each batch of A and B is $\\text{Rs }300$ and $\\text{Rs }400$ respectively. Formulate the proposed linear programming problem and examine whether any feasible production plan exists, hence state whether an optimal profit can be obtained.",
+  "answeroption": "D",
+  "explanation": "<b>Mathematical Formulation</b><br>Let $x$ and $y$ denote the number of batches of products A and B respectively. The machine I restriction gives $2x+y\\le15$, while the machine II restriction gives $x+2y\\le15$. The production requirement gives $x+y\\ge12$, and $x\\ge0$, $y\\ge0$. The proposed objective function is $$Z=300x+400y,$$ which is to be maximised.<br><br><b>Verification of Feasibility</b><br>Adding the two machine constraints gives $$3x+3y\\le30.$$ Dividing by $3$ gives $$x+y\\le10.$$ However, the production requirement demands $x+y\\ge12$. No pair $(x,y)$ can satisfy both $x+y\\le10$ and $x+y\\ge12$ simultaneously.<br><br>Therefore, the half-planes represented by all the constraints have no common region. Hence there is no feasible region and no feasible solution. Every proposed production plan must violate at least one of the stated restrictions and is therefore an infeasible solution to the complete system.<br><br><b>Final Result</b><br>The proposed linear programming problem has no feasible production plan. Consequently, an optimal profit cannot be obtained under the given conditions.",
+  "explanation_image": [],
+  "options": {
+    "A": "Maximise $Z=300x+400y$ subject to $2x+y\\leq15$, $x+2y\\leq15$, $x+y\\leq12$, $x,y\\geq0$; a bounded feasible region exists",
+    "B": "Maximise $Z=300x+400y$ subject to $2x+y\\leq15$, $x+2y\\leq15$, $x+y\\geq12$, $x,y\\geq0$; the optimum occurs at $x+y=12$",
+    "C": "Minimise $Z=300x+400y$ subject to $2x+y\\leq15$, $x+2y\\leq15$, $x+y\\geq12$, $x,y\\geq0$; no feasible solution exists",
+    "D": "Maximise $Z=300x+400y$ subject to $2x+y\\leq15$, $x+2y\\leq15$, $x+y\\geq12$, $x,y\\geq0$; no feasible production plan exists, so no optimal profit can be obtained"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

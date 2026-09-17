@@ -1,0 +1,31 @@
+{
+  "id": "6a328dea6dbc98396e70a799",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "MCQ",
+  "question": "The integrating factor of the differential equation $\\frac{dy}{dx}+y~tan~x-sec~x=0$ is:",
+  "answeroption": "B",
+  "explanation": "**Step 1:** To determine the integrating factor, we first rewrite the given differential equation in the standard linear format: $\\frac{dy}{dx} + P(x)y = Q(x)$. By comparison, we identify the coefficient function as $P(x) = \\tan x$.<br />**Step 2:** The standard formula to calculate the integrating factor is $\\text{I.F.} = e^{\\int P(x) \\, dx}$. Substituting our function gives $\\text{I.F.} = e^{\\int \\tan x \\, dx}$.<br />**Step 3:** Since the standard integral of $\\tan x$ is $\\ln|\\sec x|$, the expression evaluates to $e^{\\ln|\\sec x|} = \\sec x$, which perfectly matches option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "$-cos~x$",
+    "B": "sec x",
+    "C": "log sec x",
+    "D": "$e^{sec~x}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-4",
+  "set_key": [
+    "2025-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

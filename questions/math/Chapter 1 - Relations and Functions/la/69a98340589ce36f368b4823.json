@@ -1,0 +1,29 @@
+{
+  "id": "69a98340589ce36f368b4823",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "LA",
+  "question": "On $\\mathbb{R}$, define a binary operation by $a * b = a + b + ab$.<br /><br />(a) Find the identity element $e \\in \\mathbb{R}$ under $*$.<br /><br />(b) For $a \\neq -1$, find the inverse of $a$ under $*$, if it exists.<br /><br />(c) Is $*$ a commutative and/or associative binary operation on $\\mathbb{R}$? Justify.",
+  "answeroption": "C",
+  "explanation": "(a) Need $a * e = a$ for every $a$:<br /><br />$a * e = a + e + a e = a \\implies e + a e = 0 \\implies e (1 + a) = 0$.<br /><br />For all $a \\in \\mathbb{R}, 1 + a \\neq 0$, i.e., $a \\neq -1$.<br /><br />But when $a = -1$, $e$ can be any real number.<br /><br />Thus, no unique identity exists for all $a$, so $*$ does not have an identity element on $\\mathbb{R}$.<br /><br />But if you restrict to $\\mathbb{R} \\setminus \\{-1\\}$, then for $a \\neq -1$, $1 + a \\neq 0$, so $e = 0$ is the only possible identity. Test:<br /><br />$a * 0 = a + 0 + a \\cdot 0 = a$ and $0 * a = 0 + a + 0 \\cdot a = a$. So $e = 0$ is identity for $a \\neq -1$.<br /><br />(b) For $a \\neq -1$, $a * b = 0 \\implies a + b + ab = 0 \\implies (1 + a) b = -a \\implies b = \\frac{-a}{1+a}$.<br /><br />Thus, the inverse of $a$ is $\\boxed{\\frac{-a}{1+a}}$ for $a \\neq -1$.<br /><br />(c) Commutativity:<br /><br />$a * b = a + b + a b = b + a + b a = b * a$; so $*$ is commutative.<br /><br />Associativity: Check $a * (b * c)$ vs $(a * b) * c$:<br /><br />$b * c = b + c + b c$<br /><br />$a * (b * c) = a + (b + c + b c) + a(b + c + b c)$<br /><br />$= a + b + c + b c + ab + ac + a b c$<br /><br />Similarly, $(a * b) * c = (a + b + ab) * c = (a + b + a b) + c + (a + b + a b)c$<br /><br />$= a + b + a b + c + ac + bc + a b c$<br /><br />Comparing, both expressions are equal, so $*$ is associative.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) There is no identity element.<br />(b) No element has an inverse.<br />(c) $*$ is neither commutative nor associative.",
+    "B": "(a) The identity element is $1$.<br />(b) The inverse of $a$ is $\\frac{1}{a}$.<br />(c) $*$ is commutative but not associative.",
+    "C": "(a) The identity element is $e=0$.<br />(b) For $a\\ne -1$, the inverse of $a$ is $\\frac{-a}{1+a}$; $a=-1$ has no inverse.<br />(c) $*$ is both commutative and associative on $\\mathbb{R}$.",
+    "D": "(a) The identity element is $-1$.<br />(b) The inverse of $a$ is $-a$.<br />(c) $*$ is associative but not commutative."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 13:21:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

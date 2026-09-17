@@ -1,0 +1,26 @@
+{
+  "id": "6a2265d7864be73cfcf6d1c3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e5"
+  ],
+  "question_type": "SA",
+  "question": "A person is Head of two independent selection committees I and II. If the probability of making a wrong selection in committee I is 0.03 and that in committee II is 0.01, then find the probability that the person makes the correct decision of selection:<br /><br />**(i)** in both committees<br />**(ii)** in only one committee",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** Let $W_1$ be the event of making a wrong selection in committee I, and $W_2$ for committee II. $P(W_1) = 0.03, P(W_2) = 0.01$.<br />**Step 2:** Find the probabilities of making a correct selection: $P(C_1) = 1 - 0.03 = 0.97$ and $P(C_2) = 1 - 0.01 = 0.99$.<br />**Step 3:** Since the committees operate independently, the probability of correct selection in both is the product: $P(C_1) \\times P(C_2) = 0.97 \\times 0.99 = 0.9603$.<br /><br />**(ii)** **Step 1:** Correct decision in \"only one committee\" means either (Correct in I AND Wrong in II) OR (Wrong in I AND Correct in II).<br />**Step 2:** Formulate the expression: $P(C_1)P(W_2) + P(W_1)P(C_2)$.<br />**Step 3:** Substitute values: $(0.97 \\times 0.01) + (0.03 \\times 0.99)$.<br />**Step 4:** Calculate: $0.0097 + 0.0297 = 0.0394$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

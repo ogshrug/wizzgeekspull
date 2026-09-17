@@ -1,0 +1,29 @@
+{
+  "id": "6a8e977a4b490c7cde35940e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5f"
+  ],
+  "question_type": "SA",
+  "question": "For $$A=\\begin{bmatrix}1 & 2 \\\\ -1 & 3\\end{bmatrix},\\quad B=\\begin{bmatrix}2 & 0 \\\\ 1 & 1\\end{bmatrix},\\quad C=\\begin{bmatrix}1 & -1 \\\\ 2 & 3\\end{bmatrix},$$ verify that $A(B+C)=AB+AC$.",
+  "answeroption": "A",
+  "explanation": "<b>Addition before multiplication</b><br>$$B+C=\\begin{bmatrix}3 & -1 \\\\ 3 & 4\\end{bmatrix}$$<br>Therefore, $$A(B+C)=\\begin{bmatrix}1 & 2 \\\\ -1 & 3\\end{bmatrix}\\begin{bmatrix}3 & -1 \\\\ 3 & 4\\end{bmatrix}=\\begin{bmatrix}9 & 7 \\\\ 6 & 13\\end{bmatrix}$$<br><b>Separate products</b><br>$$AB=\\begin{bmatrix}4 & 2 \\\\ 1 & 3\\end{bmatrix},\\quad AC=\\begin{bmatrix}5 & 5 \\\\ 5 & 10\\end{bmatrix}$$<br>Hence, $$AB+AC=\\begin{bmatrix}9 & 7 \\\\ 6 & 13\\end{bmatrix}$$<br><b>Distributive property</b><br>Thus, $A(B+C)=AB+AC$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$A(B+C)=AB+AC=\\begin{bmatrix}9&7\\\\6&13\\end{bmatrix}$",
+    "B": "$A(B+C)=AB+AC=\\begin{bmatrix}9&5\\\\6&13\\end{bmatrix}$",
+    "C": "$A(B+C)=\\begin{bmatrix}9&7\\\\6&13\\end{bmatrix}$ but $AB+AC=\\begin{bmatrix}9&7\\\\4&13\\end{bmatrix}$",
+    "D": "$A(B+C)=AB+AC=\\begin{bmatrix}3&-1\\\\3&4\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

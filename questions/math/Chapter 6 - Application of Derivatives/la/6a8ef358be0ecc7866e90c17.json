@@ -1,0 +1,32 @@
+{
+  "id": "6a8ef358be0ecc7866e90c17",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f984",
+    "6a13e9908c819562f933f985",
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "A rectangle is placed above the $x$-axis with its lower vertices on the $x$-axis and its upper vertices on the parabola $y=12-x^2$. Determine the dimensions of the rectangle having maximum area and verify the maximum using derivatives.",
+  "answeroption": "B",
+  "explanation": "<b>Formation of Area Function</b><br>Let the upper-right vertex be $(x,12-x^2)$, where $0<x<2\\sqrt{3}$. By symmetry, the upper-left vertex is $(-x,12-x^2)$. Therefore, the width and height are<br>$$2x\\quad\\text{and}\\quad 12-x^2$$<br>respectively. The area is<br>$$A(x)=2x(12-x^2)=24x-2x^3$$<br><br><b>Maximum Area</b><br>$$A'(x)=24-6x^2$$<br>For a critical value,<br>$$24-6x^2=0$$<br>$$x^2=4$$<br>Since $x>0$, $x=2$. The first derivative is positive for $0<x<2$ and negative for $2<x<2\\sqrt{3}$. Hence, the first derivative test shows that $A$ is maximum at $x=2$.<br>Also,<br>$$A''(x)=-12x$$<br>$$A''(2)=-24<0$$<br>The second derivative test confirms the maximum.<br><br><b>Final Result</b><br>The width is<br>$$2x=4\\ \\text{units}$$<br>and the height is<br>$$12-x^2=12-4=8\\ \\text{units}$$<br>Thus, the required dimensions are $4\\ \\text{units}$ by $8\\ \\text{units}$, and the maximum area is<br>$$A(2)=4(8)=32\\ \\text{square units}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "Width $8$ units, height $4$ units; maximum area $32$ square units",
+    "B": "Width $4$ units, height $8$ units; maximum area $32$ square units",
+    "C": "Width $6$ units, height $3$ units; maximum area $18$ square units",
+    "D": "Width $2\\sqrt{3}$ units, height $9$ units; maximum area $18\\sqrt{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

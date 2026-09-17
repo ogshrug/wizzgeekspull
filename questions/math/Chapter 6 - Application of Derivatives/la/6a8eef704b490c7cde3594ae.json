@@ -1,0 +1,32 @@
+{
+  "id": "6a8eef704b490c7cde3594ae",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97b",
+    "6a13e98f8c819562f933f97c",
+    "6a13e98f8c819562f933f97d",
+    "6a13e98f8c819562f933f97e"
+  ],
+  "question_type": "LA",
+  "question": "For the curve $y=x^3-3x$, answer the following:(a) Determine all points at which the tangent is parallel to the $x$-axis.(b) Obtain the equations of the tangents at these points.(c) Determine the corresponding equations of the normals and explain their geometrical orientation.",
+  "answeroption": "D",
+  "explanation": "(a)A tangent parallel to the $x$-axis has slope $0$. Differentiating,$$\\frac{dy}{dx}=3x^2-3$$Therefore,$$3x^2-3=0$$$$x^2=1$$Thus, $x=1$ or $x=-1$.At $x=1$,$$y=(1)^3-3(1)=-2$$At $x=-1$,$$y=(-1)^3-3(-1)=2$$Hence, the required points are $(1,-2)$ and $(-1,2)$.(b)Since the slope is $0$, the tangent at $(1,-2)$ is$$y=-2$$The tangent at $(-1,2)$ is$$y=2$$(c)A normal is perpendicular to the tangent. Since both tangents are horizontal, the corresponding normals are vertical.The normal at $(1,-2)$ is$$x=1$$The normal at $(-1,2)$ is$$x=-1$$Thus, the tangents are parallel to the $x$-axis and the normals are parallel to the $y$-axis.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Points $(1,2)$ and $(-1,-2)$<br>(b) Tangents $y=2$ and $y=-2$<br>(c) Normals $x=1$ and $x=-1$",
+    "B": "(a) Points $(1,-2)$ and $(-1,2)$<br>(b) Tangents $x=1$ and $x=-1$<br>(c) Normals $y=-2$ and $y=2$",
+    "C": "(a) Point $(0,0)$ only<br>(b) Tangent $y=0$<br>(c) Normal $x=0$",
+    "D": "(a) Points $(1,-2)$ and $(-1,2)$<br>(b) Tangents $y=-2$ and $y=2$<br>(c) Normals $x=1$ and $x=-1$, which are parallel to the $y$-axis"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a9b16662be6a70cd184e16",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f989"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate $\\int \\frac{x^2}{(x^2 + 1)^2} dx$ using the most suitable method.",
+  "answeroption": "B",
+  "explanation": "Write $x^2=(x^2+1)-1$.<br /><br />Then $\\int \\frac{x^2}{(x^2+1)^2}dx = \\int \\frac{1}{x^2+1}dx - \\int \\frac{1}{(x^2+1)^2}dx$.<br /><br />First integral: $\\int \\frac{1}{x^2+1}dx = \\tan^{-1}x$.<br /><br />Using the standard result $\\int \\frac{1}{(x^2+1)^2}dx = \\frac{x}{2(x^2+1)} + \\frac{1}{2}\\tan^{-1}x$.<br /><br />Substituting gives $\\frac{1}{2}\\tan^{-1}x - \\frac{x}{2(x^2+1)} + C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{2}\\tan^{-1}x+\\frac{x}{2(x^2+1)}+C$",
+    "B": "$\\frac{1}{2}\\tan^{-1}x-\\frac{x}{2(x^2+1)}+C$",
+    "C": "$\\tan^{-1}x-\\frac{x}{2(x^2+1)}+C$",
+    "D": "$\\frac{x}{2(x^2+1)}-\\frac{1}{2}\\tan^{-1}x+C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 16:37:58 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:42 GMT"
+}

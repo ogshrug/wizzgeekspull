@@ -1,0 +1,32 @@
+{
+  "id": "69a949d7d30adc5083911a47",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d73",
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Supply Chain Risk Analysis via Singular Matrix Properties**<br /><br />A logistics analyst models 3 supply routes with the following matrix:\n$L = \\begin{bmatrix} 1 & 2 & 3 \\\\ 2 & 4 & 6 \\\\ 3 & 6 & 9 \\end{bmatrix}$\nDemand vector: $D = \\begin{bmatrix}10 \\\\ 20 \\\\ 30\\end{bmatrix}$<br /><br />(a) Use determinants to analyze the likelihood of a unique supply solution.<br /><br />(b) If delivery losses on route 1 are doubled (row 1 doubled), what is the impact on the determinant?<br /><br />(c) Suggest and justify a modification to $L$ that would ensure the system becomes invertible for unique allocation of supplies.",
+  "answeroption": "B",
+  "explanation": "(a)<br />Determinant Analysis:<br />Rows are multiples of each other (linearly dependent).<br />$|L|=0$, so no unique solution exists; the supply system is singular.<br /><br />(b)<br />Doubling first row changes the determinant according to property: The value multiplies by the scalar, but since $|L|=0$, doubling keeps $|L|=0$.<br /><br />(c)<br />Modification:<br />To ensure invertibility, any one row (or column) must be altered to break dependence.<br />For example, change row 2 to $[2, 5, 6]$.<br />The determinant will then be nonzero (calculate to confirm), making the matrix non-singular, i.e., supports a unique supply allocation solution – essential for robust logistics planning.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $|L|\\ne0$, so a unique supply solution exists.<br />(b) Doubling row 1 makes the determinant double and non-zero.<br />(c) No modification is needed.",
+    "B": "(a) $|L|=0$ because $R_2=2R_1$ and $R_3=3R_1$, so no unique solution exists.<br />(b) Doubling row 1 keeps the determinant zero.<br />(c) A modification such as $L'=\\begin{bmatrix}1&2&3\\\\2&5&6\\\\3&6&10\\end{bmatrix}$ gives $|L'|=1\\ne0$, so the system becomes invertible.",
+    "C": "(a) $|L|=0$, but a unique solution still exists because the demand vector is also proportional.<br />(b) Doubling row 1 makes $|L|=2$.<br />(c) Changing row 2 to $[2,5,6]$ alone always makes the matrix invertible.",
+    "D": "(a) $|L|=1$, so the matrix is non-singular.<br />(b) Doubling row 1 makes the determinant zero.<br />(c) The matrix cannot be modified to become invertible."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 09:16:07 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:15 GMT"
+}

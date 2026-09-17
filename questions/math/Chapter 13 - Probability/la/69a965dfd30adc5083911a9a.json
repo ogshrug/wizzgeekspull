@@ -1,0 +1,30 @@
+{
+  "id": "69a965dfd30adc5083911a9a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e9",
+    "6a13e88ad837c8c7efa6b8e8"
+  ],
+  "question_type": "LA",
+  "question": "A box contains 4 red balls and 6 black balls. Three balls are drawn one by one with replacement. Find the probability distribution of the number of red balls drawn. Also, find the mean and variance of the distribution.",
+  "answeroption": "D",
+  "explanation": "Let X: number of red balls in 3 draws. Since draws are with replacement, probability red in one draw = $\\frac{4}{10}=0.4$; black = 0.6 <br /> <br /> X can be 0,1,2,3 <br /> <br /> $P(X=0)=\\text{all black}=(0.6)^3=0.216$ <br /> $P(X=1)=\\text{1 red, 2 black}=3\\times 0.4\\times (0.6)^2=3\\times 0.144=0.432$ <br /> $P(X=2)=3\\times (0.4)^2\\times 0.6=3\\times 0.096=0.288$ <br /> $P(X=3)=(0.4)^3=0.064$ <br /> <br /> Check sum: $0.216+0.432+0.288+0.064=1$ <br /> <br /> Mean $=\\mu=E(X)=\\sum x_i P(X=x_i) = 0\\times0.216+1\\times0.432+2\\times0.288+3\\times0.064=0+0.432+0.576+0.192=1.2$ <br /> <br /> Variance $=E(X^2)-[E(X)]^2$ <br /> $E(X^2)=0^2\\times0.216+1^2\\times0.432+2^2\\times0.288+3^2\\times0.064=0+0.432+1.152+0.576=2.16$ <br /> Variance $=2.16-(1.2)^2=2.16-1.44=0.72$",
+  "explanation_image": [],
+  "options": {
+    "A": "Distribution: $P(0)=\\frac{8}{125}, P(1)=\\frac{36}{125}, P(2)=\\frac{54}{125}, P(3)=\\frac{27}{125}$<br />Mean $=\\frac{6}{5}$, Variance $=\\frac{18}{25}$",
+    "B": "Distribution: $P(0)=\\frac{27}{125}, P(1)=\\frac{54}{125}, P(2)=\\frac{36}{125}, P(3)=\\frac{8}{125}$<br />Mean $=\\frac{3}{5}$, Variance $=\\frac{18}{25}$",
+    "C": "Distribution: $P(0)=\\frac{27}{125}, P(1)=\\frac{36}{125}, P(2)=\\frac{54}{125}, P(3)=\\frac{8}{125}$<br />Mean $=\\frac{6}{5}$, Variance $=\\frac{6}{25}$",
+    "D": "Distribution: $P(0)=\\frac{27}{125}, P(1)=\\frac{54}{125}, P(2)=\\frac{36}{125}, P(3)=\\frac{8}{125}$<br />Mean $=\\frac{6}{5}$, Variance $=\\frac{18}{25}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:15:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

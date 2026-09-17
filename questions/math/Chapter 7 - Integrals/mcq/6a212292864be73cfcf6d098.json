@@ -1,0 +1,33 @@
+{
+  "id": "6a212292864be73cfcf6d098",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f990"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of $\\int_{-1}^{1} \\frac{x^3}{x^2 + 2|x| + 1} dx$ is",
+  "answeroption": "A",
+  "explanation": "**Step 1: Define the Function**  \nLet $f(x) = \\frac{x^3}{x^2 + 2|x| + 1}$. We need to evaluate $\\int_{-1}^{1} f(x) \\, dx$.\n\n**Step 2: Check if f(x) is Odd**  \nA function is odd if $f(-x) = -f(x)$. Compute $f(-x)$:  \n$$f(-x) = \\frac{(-x)^3}{(-x)^2 + 2|-x| + 1} = \\frac{-x^3}{x^2 + 2|x| + 1} = -\\frac{x^3}{x^2 + 2|x| + 1} = -f(x)$$  \nThus, $f(x)$ is an odd function.\n\n**Step 3: Apply the Property of Odd Functions**  \nFor an odd function $f(x)$, we know that $\\int_{-a}^{a} f(x) \\, dx = 0$.  \nHere, $a = 1$, so:  \n$$\\int_{-1}^{1} \\frac{x^3}{x^2 + 2|x| + 1} \\, dx = 0$$  \nThus, the value of the integral is $0$, which corresponds to option **A**.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "$\\log 2$",
+    "C": "$2 \\log 2$",
+    "D": "$\\frac{1}{2} \\log 2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

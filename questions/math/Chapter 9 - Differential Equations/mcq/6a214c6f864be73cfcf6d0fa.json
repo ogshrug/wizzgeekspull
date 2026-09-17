@@ -1,0 +1,31 @@
+{
+  "id": "6a214c6f864be73cfcf6d0fa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9aa"
+  ],
+  "question_type": "MCQ",
+  "question": "The general solution of the differential equation $\\frac{dy}{dx}=\\frac{\\sqrt{y}}{\\sqrt{x}}$ is",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Separate the variables by moving $y$ terms to the left side and $x$ terms to the right side: $\\frac{dy}{\\sqrt{y}} = \\frac{dx}{\\sqrt{x}}$.<br /><br />**Step 2:** Express as fractional exponents for easier integration: $y^{-1/2} dy = x^{-1/2} dx$.<br /><br />**Step 3:** Integrate both sides: $\\int y^{-1/2} dy = \\int x^{-1/2} dx$.<br /><br />**Step 4:** Applying power rule yields $2y^{1/2} = 2x^{1/2} + C'$.<br /><br />**Step 5:** Dividing the entire equation by $2$ and replacing the arbitrary constant $C'/2$ with $C$, we obtain $\\sqrt{y} - \\sqrt{x} = C$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$log\\sqrt{y}=log\\sqrt{x}+C$",
+    "B": "$\\sqrt{y}+\\sqrt{x}=C$",
+    "C": "$\\sqrt{y}-\\sqrt{x}=C$",
+    "D": "$log\\sqrt{y}+log\\sqrt{x}=C$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2026-2",
+  "set_key": [
+    "2026-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69a966e462be6a70cd184d73",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9269f681ebad583540308",
+  "topic": [
+    "6a13e7cad837c8c7efa6b8d3"
+  ],
+  "question_type": "LA",
+  "question": "A plane passes through the point $(1,0,2)$ and is perpendicular to the line of intersection of the planes $x-y+2z=5$ and $2x+y-z=3$. Find the equation of this plane, and the length of the perpendicular from the origin to this plane.",
+  "answeroption": "D",
+  "explanation": "Normals of planes are $(1,-1,2)$ and $(2,1,-1)$.<br /><br />Direction of their line of intersection is the cross product $(1,-1,2) \\times (2,1,-1) = (-1,5,3)$.<br /><br />This vector becomes the normal to the required plane.<br /><br />Using point $(1,0,2)$: $-1(x-1)+5(y-0)+3(z-2)=0$.<br /><br />Simplifying gives $x-5y-3z+5=0$.<br /><br />Distance of origin from plane: $d=\\frac{|5|}{\\sqrt{1^2+5^2+3^2}}=\\frac{5}{\\sqrt{35}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "Plane equation: $x+5y+3z+5=0$<br />Perpendicular distance from origin: $\\frac{5}{\\sqrt{35}}$",
+    "B": "Plane equation: $x-5y-3z-5=0$<br />Perpendicular distance from origin: $\\frac{5}{\\sqrt{35}}$",
+    "C": "Plane equation: $-x+5y+3z+5=0$<br />Perpendicular distance from origin: $\\frac{35}{5}$",
+    "D": "Plane equation: $x-5y-3z+5=0$<br />Perpendicular distance from origin: $\\frac{5}{\\sqrt{35}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 11:20:04 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:28 GMT"
+}

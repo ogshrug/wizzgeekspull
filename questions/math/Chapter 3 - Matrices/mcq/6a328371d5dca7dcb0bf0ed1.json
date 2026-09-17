@@ -1,0 +1,31 @@
+{
+  "id": "6a328371d5dca7dcb0bf0ed1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d55"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A = \\begin{bmatrix}3 & 1 \\\\ -1 & 2\\end{bmatrix}$ and $A^2 + 7I = kA$, then the value of k is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Determine the characteristic equation for a $2 \\times 2$ matrix: $\\lambda^2 - \\text{Tr}(A)\\lambda + |A| = 0$.\n\n**Step 2:** Compute trace and determinant: $\\text{Tr}(A) = 3 + 2 = 5$ and $|A| = 6 - (-1) = 7$.\n\n**Step 3:** Applying Cayley-Hamilton Theorem, $A^2 - 5A + 7I = 0 \\implies A^2 + 7I = 5A$. Hence, $k = 5$.",
+  "explanation_image": [],
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "5",
+    "D": "7"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

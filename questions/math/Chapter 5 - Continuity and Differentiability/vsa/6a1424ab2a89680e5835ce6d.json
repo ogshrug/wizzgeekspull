@@ -1,0 +1,24 @@
+{
+  "id": "6a1424ab2a89680e5835ce6d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "VSA",
+  "question": "Function $f$ is defined as<br />$f(x)=\\begin{cases}2x+2,&\\text{if } x<2\\\\ k,&\\text{if } x=2\\\\ 3x,&\\text{if } x>2\\end{cases}$<br />Find the value of $k$ for which the function $f$ is continuous at $x=2$.",
+  "answeroption": "",
+  "explanation": "**Step 1: Evaluate Left Hand Limit.** $\\lim_{x \\to 2^-} (2x+2) = 2(2)+2 = 6$.<br />**Step 2: Evaluate Right Hand Limit.** $\\lim_{x \\to 2^+} (3x) = 3(2) = 6$.<br />**Step 3: Apply continuity condition.** For a continuous function, LHL = RHL = $f(2)$. Since $f(2) = k$, we get $k = 6$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

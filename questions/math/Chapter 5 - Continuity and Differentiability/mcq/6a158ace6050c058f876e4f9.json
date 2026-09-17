@@ -1,0 +1,30 @@
+{
+  "id": "6a158ace6050c058f876e4f9",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d83"
+  ],
+  "question_type": "MCQ",
+  "question": "If $y=log\\sqrt{sec\\sqrt{x}}$, then the value of $\\frac{dy}{dx}$ at $x=\\frac{\\pi^{2}}{16}$ is:",
+  "answeroption": "A",
+  "explanation": "**Step 1: Simplify using logarithm properties**<br />We rewrite the square root function as a fractional power to simplify the expression:<br />$y = \\log\\left(\\sec\\sqrt{x}\\right)^{1/2} = \\frac{1}{2}\\log\\left(\\sec\\sqrt{x}\\right)$<br /><br />**Step 2: Differentiate using the Chain Rule**<br />$\\frac{dy}{dx} = \\frac{1}{2} \\cdot \\frac{1}{\\sec\\sqrt{x}} \\cdot \\frac{d}{dx}\\left(\\sec\\sqrt{x}\\right)$<br />$\\frac{dy}{dx} = \\frac{1}{2\\sec\\sqrt{x}} \\cdot \\left(\\sec\\sqrt{x}\\tan\\sqrt{x}\\right) \\cdot \\frac{d}{dx}\\left(\\sqrt{x}\\right)$<br />Canceling the common term $\\sec\\sqrt{x}$ and differentiating $\\sqrt{x}$ gives:<br />$\\frac{dy}{dx} = \\frac{1}{2} \\cdot \\tan\\sqrt{x} \\cdot \\frac{1}{2\\sqrt{x}} = \\frac{\\tan\\sqrt{x}}{4\\sqrt{x}}$<br /><br />**Step 3: Evaluate at point $x = \\frac{\\pi^2}{16}$**<br />First find the square root of the target point: $\\sqrt{x} = \\sqrt{\\frac{\\pi^2}{16}} = \\frac{\\pi}{4}$.<br />Substitute this value back into the derivative equation:<br />$\\frac{dy}{dx} = \\frac{\\tan(\\pi/4)}{4(\\pi/4)} = \\frac{1}{\\pi}$. This matches Option A.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{1}{\\pi}$",
+    "B": "$\\pi$",
+    "C": "$\\frac{1}{2}$",
+    "D": "$\\frac{1}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

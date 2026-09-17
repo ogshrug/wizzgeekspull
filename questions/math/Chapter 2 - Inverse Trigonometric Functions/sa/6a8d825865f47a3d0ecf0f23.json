@@ -1,0 +1,29 @@
+{
+  "id": "6a8d825865f47a3d0ecf0f23",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d49"
+  ],
+  "question_type": "SA",
+  "question": "Determine the range of $$f(x)=\\sec^{-1}(-x^2-1),\\qquad x\\in\\mathbb{R}.$$ Also state whether the endpoints of the obtained interval are included.",
+  "answeroption": "A",
+  "explanation": "<b>Range of the inner expression</b><br>Since $x^2\\geq0$, we have $$-x^2-1\\leq-1.$$ At $x=0$, the inner expression equals $-1$. As $|x|$ increases without bound, the expression decreases without bound. Hence, its range is $(-\\infty,-1]$.<br><br><b>Corresponding inverse secant values</b><br>For arguments in $(-\\infty,-1]$, the principal values of inverse secant lie in the second quadrant. At the argument $-1$, $$\\sec^{-1}(-1)=\\pi.$$<br><br><b>Behaviour for unbounded negative arguments</b><br>As the argument decreases without bound, its reciprocal approaches $0$ from the negative side. The corresponding inverse secant value approaches $\\frac{\\pi}{2}$ from above but never equals $\\frac{\\pi}{2}$.<br><br><b>Final range</b><br>Therefore, the range is $$\\left(\\frac{\\pi}{2},\\pi\\right].$$ The endpoint $\\pi$ is included, whereas $\\frac{\\pi}{2}$ is excluded.",
+  "explanation_image": [],
+  "options": {
+    "A": "Range: $\\left(\\frac{\\pi}{2},\\pi\\right]$; $\\frac{\\pi}{2}$ is excluded and $\\pi$ is included",
+    "B": "Range: $\\left[\\frac{\\pi}{2},\\pi\\right)$; $\\frac{\\pi}{2}$ is included and $\\pi$ is excluded",
+    "C": "Range: $\\left(\\frac{\\pi}{2},\\pi\\right)$; both endpoints are excluded",
+    "D": "Range: $\\left[\\frac{\\pi}{2},\\pi\\right]$; both endpoints are included"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

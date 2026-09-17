@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9efc4b490c7cde359429",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d66",
+    "69c6603640512f018fa94d68"
+  ],
+  "question_type": "LA",
+  "question": "Let $A=\\begin{bmatrix}1 & 2 & -1\\\\2 & 1 & 3\\\\3 & -1 & 2\\end{bmatrix}$.<br><br><b>(a)</b> Evaluate $|A|$ by expanding along the first row.<br><br><b>(b)</b> Evaluate $|A|$ again by expanding along the second column.<br><br><b>(c)</b> Compare the results and justify whether the value of a determinant depends on the row or column selected for expansion.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Expanding along the first row,<br>$$|A|=1\\begin{vmatrix}1 & 3\\\\-1 & 2\\end{vmatrix}-2\\begin{vmatrix}2 & 3\\\\3 & 2\\end{vmatrix}+(-1)\\begin{vmatrix}2 & 1\\\\3 & -1\\end{vmatrix}$$<br>$$|A|=1(2+3)-2(4-9)-1(-2-3)$$<br>$$|A|=5+10+5=20$$<br><br><b>(b)</b><br>Expanding along the second column, the signs of the cofactors are negative, positive and negative:<br>$$|A|=-2\\begin{vmatrix}2 & 3\\\\3 & 2\\end{vmatrix}+1\\begin{vmatrix}1 & -1\\\\3 & 2\\end{vmatrix}-(-1)\\begin{vmatrix}1 & -1\\\\2 & 3\\end{vmatrix}$$<br>$$|A|=-2(4-9)+(2+3)+(3+2)$$<br>$$|A|=10+5+5=20$$<br><br><b>(c)</b><br>Both expansions give<br>$$|A|=20$$<br>Therefore, the value of a determinant is independent of the row or column chosen for expansion, provided the signs and corresponding minors are used correctly.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) First-row expansion gives $|A|=20$<br>(b) Second-column expansion also gives $|A|=20$<br>(c) The determinant is independent of the row or column chosen for expansion",
+    "B": "(a) First-row expansion gives $|A|=-20$<br>(b) Second-column expansion gives $|A|=20$<br>(c) The determinant depends on the chosen row or column",
+    "C": "(a) First-row expansion gives $|A|=20$<br>(b) Second-column expansion gives $|A|=-20$<br>(c) Expansion along a column reverses the sign",
+    "D": "(a) First-row expansion gives $|A|=10$<br>(b) Second-column expansion gives $|A|=10$<br>(c) The value depends only on the number of non-zero entries"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

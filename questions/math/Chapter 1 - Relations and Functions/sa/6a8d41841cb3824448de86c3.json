@@ -1,0 +1,29 @@
+{
+  "id": "6a8d41841cb3824448de86c3",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d46"
+  ],
+  "question_type": "SA",
+  "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ and $g:\\mathbb{R}\\to\\mathbb{R}$ be given by $f(x)=|x|$ and $g(x)=|5x-2|$. Find $g\\circ f$ and $f\\circ g$. Hence examine whether the two composite functions are equal.",
+  "answeroption": "C",
+  "explanation": "<b>Composition $g\\circ f$</b><br>$$(g\\circ f)(x)=g(|x|)=\\left|5|x|-2\\right|.$$<br><br><b>Composition $f\\circ g$</b><br>$$(f\\circ g)(x)=f(|5x-2|)=\\left||5x-2|\\right|=|5x-2|.$$<br><br><b>Comparison at a suitable value</b><br>For $x=-1$,<br>$$(g\\circ f)(-1)=|5-2|=3,$$<br>whereas<br>$$(f\\circ g)(-1)=|-5-2|=7.$$<br><br><b>Conclusion</b><br>Since the composite functions have different values at $x=-1$,<br>$$g\\circ f\\ne f\\circ g.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$(g\\circ f)(x)=|5x-2|$ and $(f\\circ g)(x)=\\left|5|x|-2\\right|$; hence, they are equal",
+    "B": "$(g\\circ f)(x)=5|x|-2$ and $(f\\circ g)(x)=5x-2$; hence, they are unequal",
+    "C": "$(g\\circ f)(x)=\\left|5|x|-2\\right|$ and $(f\\circ g)(x)=|5x-2|$; hence, they are unequal",
+    "D": "$(g\\circ f)(x)=(f\\circ g)(x)=|5x-2|$ for every $x\\in\\mathbb{R}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

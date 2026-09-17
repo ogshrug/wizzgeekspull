@@ -1,0 +1,29 @@
+{
+  "id": "6a8d23e277877fac8fdb991d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44"
+  ],
+  "question_type": "VSA",
+  "question": "For $k\\in\\mathbb{R}$, the function $f:\\mathbb{R}\\to\\mathbb{R}$ is given by $f(x)=kx+5$. Determine the condition on $k$ for $f$ to be one-one.",
+  "answeroption": "D",
+  "explanation": "<b>Step 1:</b> Assume $f(x_1)=f(x_2)$ for arbitrary $x_1,x_2\\in\\mathbb{R}$.<br><b>Step 2:</b> Using the given rule, $kx_1+5=kx_2+5$.<br><b>Step 3:</b> Simplifying gives $k(x_1-x_2)=0$.<br><b>Step 4:</b> If $k\\ne0$, then $x_1-x_2=0$, which gives $x_1=x_2$. Hence, the function is one-one.<br><b>Step 5:</b> If $k=0$, then $f(x)=5$ for every real $x$, so distinct inputs have the same image.<br><b>Final Answer:</b> The function is one-one precisely when $k\\ne0$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k>0$ only",
+    "B": "$k=0$",
+    "C": "$k<0$ only",
+    "D": "$k\\ne0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

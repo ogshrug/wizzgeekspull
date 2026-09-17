@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd504751910886affb9f6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "VSA",
+  "question": "For the differential equation $\\frac{dy}{dx}+ky=\\sin x$, the integrating factor is known to be $e^{2x}$. Determine the value of $k$.",
+  "answeroption": "D",
+  "explanation": "Step 1: The given equation $\\frac{dy}{dx}+ky=\\sin x$ is already in the standard linear form $\\frac{dy}{dx}+Py=Q$.<br>Step 2: Hence, $P=k$. The integrating factor is therefore $e^{\\int k\\,dx}=e^{kx}$.<br>Step 3: According to the given condition, this integrating factor is $e^{2x}$.<br>Step 4: Comparing the exponents, $kx=2x$ for all relevant $x$. Therefore, $k=2$.<br>Step 5: Hence, the required value of the parameter is $k=2$, for which the integrating factor of the differential equation becomes $e^{2x}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$k=-2$",
+    "B": "$k=1$",
+    "C": "$k=4$",
+    "D": "$k=2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

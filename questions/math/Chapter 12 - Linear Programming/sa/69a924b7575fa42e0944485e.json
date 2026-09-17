@@ -1,0 +1,29 @@
+{
+  "id": "69a924b7575fa42e0944485e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8df"
+  ],
+  "question_type": "SA",
+  "question": "Minimize $Z = 2x + y$ subject to $x + y \\geq 3$, $2x + y \\geq 6$, $x \\geq 0, y \\geq 0$, and determine whether the minimum value occurs at a bounded or unbounded region. Justify your answer and compute the minimum value with corresponding $(x,y)$.",
+  "answeroption": "D",
+  "explanation": "Step 1: List constraints<br />$x + y \\geq 3$<br />$2x + y \\geq 6$<br />$x \\geq 0$<br />$y \\geq 0$<br /><br />Step 2: Find intersection points<br />(i) $x + y = 3$<br />(ii) $2x + y = 6$<br />Subtract: $x + y - (2x + y) = 3-6 \\implies -x = -3 \\implies x=3$<br />So, $x = 3$, $y = 0$ satisfies both boundaries.<br />Now, solve for $y$:<br />$x + y = 3$, $x = 3$, $y = 0$.<br /><br />(ii) Set $x=0$ in $x + y = 3$: $y=3$; $2x + y = y = 3$, but $2x + y \\geq 6 \\implies y \\geq 6$ for $x = 0$. Thus, $(0, 3)$ not feasible.<br />Try $y = 0$ in $2x + y = 6$: $2x = 6 \\implies x=3$; $x + y = 3 + 0 = 3\\geq3$ ok.<br />So, $(3,0)$ is feasible and on both boundaries.<br /><br />For unboundedness, graphically, since constraints are both 'greater than or equal to', region is unbounded towards infinity $(x,y \\to \\infty)$.<br /><br />Step 3: Try $x \\to \\infty, y = 0$: $x + y \\geq 3$ and $2x + y \\geq 6$ always met.<br />$Z = 2x + y = 2x \\to \\infty$. But since we are minimizing, minimum occurs at the smallest possible values, likely at $(3,0)$.<br /><br />Step 4: $Z_{min} = 2\\times3+0 = 6$<br /><br />Thus, the minimum is $6$ at $(3,0)$ and the region is unbounded, but $Z$ cannot become smaller than $6$ due to the given constraints.",
+  "explanation_image": [],
+  "options": {
+    "A": "Minimum value $=3$ at $(0,3)$; region is bounded.",
+    "B": "Minimum value $=6$ at $(0,6)$; region is unbounded.",
+    "C": "Minimum value $=0$ at $(0,0)$; region is bounded.",
+    "D": "Minimum value $=6$ at $(3,0)$; region is unbounded."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:37:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

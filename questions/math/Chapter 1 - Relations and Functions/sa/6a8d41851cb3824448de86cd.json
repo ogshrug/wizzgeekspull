@@ -1,0 +1,29 @@
+{
+  "id": "6a8d41851cb3824448de86cd",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "SA",
+  "question": "Let $*$ be the binary operation on $\\mathbb{N}$ defined by $a*b=\\operatorname{LCM}(a,b)$.<br><br>(i) Find $6*8$ and $9*15$.<br><br>(ii) Show that $*$ is commutative.<br><br>(iii) Find the identity element and determine which elements of $\\mathbb{N}$ are invertible with respect to $*$.",
+  "answeroption": "C",
+  "explanation": "<b>(i) Evaluation of the operation</b><br>$$6*8=\\operatorname{LCM}(6,8)=24$$<br>and<br>$$9*15=\\operatorname{LCM}(9,15)=45.$$<br><br><b>(ii) Commutativity</b><br>For all $a,b\\in\\mathbb{N}$,<br>$$\\operatorname{LCM}(a,b)=\\operatorname{LCM}(b,a).$$<br>Hence,<br>$$a*b=b*a,$$<br>so $*$ is commutative.<br><br><b>(iii) Identity element</b><br>For every $a\\in\\mathbb{N}$,<br>$$\\operatorname{LCM}(a,1)=a.$$<br>Therefore, $1$ is the identity element.<br><br><b>Invertible elements</b><br>If $a$ has an inverse $b$, then<br>$$a*b=1\\Rightarrow\\operatorname{LCM}(a,b)=1.$$<br>This is possible only when $a=b=1$.<br><br><b>Conclusion</b><br>The identity element is $1$, and the only invertible element of $\\mathbb{N}$ with respect to $*$ is $1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$6*8=14$, $9*15=24$; $*$ is not commutative; the identity is $0$; every element is invertible",
+    "B": "$6*8=48$, $9*15=135$; $*$ is commutative; the identity is $1$; every element is invertible",
+    "C": "$6*8=24$, $9*15=45$; $*$ is commutative; the identity is $1$; only $1$ is invertible",
+    "D": "$6*8=24$, $9*15=45$; $*$ is not commutative; the identity is $0$; no element is invertible"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

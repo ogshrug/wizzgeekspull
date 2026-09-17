@@ -1,0 +1,29 @@
+{
+  "id": "6a215f72864be73cfcf6d126",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610140512f018fa94d81"
+  ],
+  "question_type": "LA",
+  "question": "If $y \\sqrt{x^2+1} = \\log\\sqrt{x^2+1} - x$, show that $(x^2+1)\\frac{dy}{dx} + xy + 1 = 0$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Differentiate the given equation implicitly with respect to x.<br />**Step 2:** LHS: Apply product rule. $\\frac{dy}{dx}\\sqrt{x^2+1} + y\\frac{x}{\\sqrt{x^2+1}}$.<br />**Step 3:** RHS: $\\frac{d}{dx}(\\frac{1}{2}\\log(x^2+1) - x) = \\frac{1}{2}\\frac{2x}{x^2+1} - 1 = \\frac{x}{x^2+1} - 1 = \\frac{x - x^2 - 1}{x^2+1}$.<br />**Step 4:** Multiply the entire differentiated equation by $\\sqrt{x^2+1}$ to simplify.<br />**Step 5:** Rearrange terms to yield $(x^2+1)\\frac{dy}{dx} + xy + 1 = 0$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a215f8b864be73cfcf6d12e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate: $\\int_{0}^{2} \\frac{1}{\\sqrt{x^2+2x+3}} dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Complete the square for the quadratic expression in the denominator: $x^2+2x+3 = (x+1)^2 + 2$.<br />**Step 2:** The integral becomes $\\int_{0}^{2} \\frac{1}{\\sqrt{(x+1)^2+(\\sqrt{2})^2}} dx$.<br />**Step 3:** Use the standard formula $\\int \\frac{1}{\\sqrt{u^2+a^2}} du = \\log|u + \\sqrt{u^2+a^2}|$.<br />**Step 4:** Apply limits from 0 to 2: $[\\log|(x+1) + \\sqrt{(x+1)^2+2}|]_0^2$.<br />**Step 5:** Upper limit: $\\log|3 + \\sqrt{3^2+2}| = \\log(3+\\sqrt{11})$. Lower limit: $\\log|1 + \\sqrt{1^2+2}| = \\log(1+\\sqrt{3})$.<br />**Step 6:** Answer is $\\log(\\frac{3+\\sqrt{11}}{1+\\sqrt{3}})$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-5",
+  "set_key": [
+    "2026-5-1",
+    "2026-5-2",
+    "2026-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

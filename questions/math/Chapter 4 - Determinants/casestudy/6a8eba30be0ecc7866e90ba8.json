@@ -1,0 +1,30 @@
+{
+  "id": "6a8eba30be0ecc7866e90ba8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d6a",
+    "69c6603740512f018fa94d6b"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A surveyor records the vertices of a quadrilateral as $A(0,0)$, $B(6,0)$, $C(8,4)$, and $D(2,6)$, taken in order. To check the area calculation, the surveyor first divides the quadrilateral along diagonal $AC$ and later repeats the calculation using diagonal $BD$. The determinant formula for the area of a triangle is used in both divisions so that the two independently obtained totals can be compared.<br><br><b>(a)</b> Calculate the area of $\\triangle ABC$.<br><br><b>(b)</b> Calculate the area of $\\triangle ACD$.<br><br><b>(c)</b> Hence, determine the area of quadrilateral $ABCD$.<br><br><b>(d)</b> Verify the result by finding the areas of $\\triangle ABD$ and $\\triangle BCD$.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>Using the determinant formula,<br>$$\\text{Area of }\\triangle ABC=\\frac{1}{2}\\left|\\begin{vmatrix}0 & 0 & 1\\\\6 & 0 & 1\\\\8 & 4 & 1\\end{vmatrix}\\right|$$<br>$$=\\frac{1}{2}|0-0+(24-0)|=12$$<br>Therefore, the area of $\\triangle ABC$ is $12$ square units.<br><br><b>(b)</b><br>$$\\text{Area of }\\triangle ACD=\\frac{1}{2}\\left|\\begin{vmatrix}0 & 0 & 1\\\\8 & 4 & 1\\\\2 & 6 & 1\\end{vmatrix}\\right|$$<br>$$=\\frac{1}{2}|0-0+(48-8)|=20$$<br>Therefore, the area of $\\triangle ACD$ is $20$ square units.<br><br><b>(c)</b><br>Diagonal $AC$ divides the quadrilateral into $\\triangle ABC$ and $\\triangle ACD$. Hence,<br>$$\\text{Area of }ABCD=12+20=32$$<br>Thus, the area of the quadrilateral is $32$ square units.<br><br><b>(d)</b><br>Using diagonal $BD$,<br>$$\\text{Area of }\\triangle ABD=\\frac{1}{2}\\left|\\begin{vmatrix}0 & 0 & 1\\\\6 & 0 & 1\\\\2 & 6 & 1\\end{vmatrix}\\right|=\\frac{1}{2}(36)=18$$<br>Also,<br>$$\\text{Area of }\\triangle BCD=\\frac{1}{2}\\left|\\begin{vmatrix}6 & 0 & 1\\\\8 & 4 & 1\\\\2 & 6 & 1\\end{vmatrix}\\right|$$<br>$$=\\frac{1}{2}|6(4-6)+(48-8)|$$<br>$$=\\frac{1}{2}|-12+40|=14$$<br>Therefore,<br>$$\\text{Area of }ABCD=18+14=32$$<br>The area obtained using diagonal $BD$ agrees with the earlier result.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $12$ square units<br>(b) $20$ square units<br>(c) $32$ square units<br>(d) $[\\triangle ABD]=18$ and $[\\triangle BCD]=14$ square units, giving $32$ square units",
+    "B": "(a) $12$ square units<br>(b) $16$ square units<br>(c) $28$ square units<br>(d) $[\\triangle ABD]=18$ and $[\\triangle BCD]=10$ square units, giving $28$ square units",
+    "C": "(a) $24$ square units<br>(b) $20$ square units<br>(c) $44$ square units<br>(d) $[\\triangle ABD]=36$ and $[\\triangle BCD]=8$ square units, giving $44$ square units",
+    "D": "(a) $12$ square units<br>(b) $20$ square units<br>(c) $32$ square units<br>(d) $[\\triangle ABD]=14$ and $[\\triangle BCD]=18$ square units, so the two diagonal calculations disagree"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a912074751910886affba5a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8dd"
+  ],
+  "question_type": "VSA",
+  "question": "A linear programming problem has constraints $x+y \\le 5$, $x+3y \\le 9$, $x \\ge 0$ and $y \\ge 0$. Decide whether the point $(4,2)$ represents a feasible or an infeasible solution.",
+  "answeroption": "C",
+  "explanation": "Step 1: To test the point $(4,2)$, substitute its coordinates into each constraint.<br>Step 2: For $x+y \\le 5$, we obtain $4+2=6$. Since $6>5$, the first constraint is violated.<br>Step 3: For $x+3y \\le 9$, we obtain $4+3(2)=10$. Since $10>9$, this constraint is also violated.<br>Step 4: Although $x=4$ and $y=2$ satisfy the non-negative restrictions, satisfying only some constraints is not sufficient.<br>Step 5: A feasible solution must satisfy every constraint simultaneously. Since $(4,2)$ violates the given inequalities, it lies outside the feasible region.<br>Therefore, $(4,2)$ represents an infeasible solution.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(4,2)$ is feasible because both coordinates are non-negative",
+    "B": "$(4,2)$ is feasible because $x+y \\le 6$",
+    "C": "$(4,2)$ is infeasible because it violates the given linear inequalities",
+    "D": "$(4,2)$ is feasible because it lies in the first quadrant"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

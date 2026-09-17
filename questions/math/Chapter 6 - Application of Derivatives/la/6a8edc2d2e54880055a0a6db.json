@@ -1,0 +1,31 @@
+{
+  "id": "6a8edc2d2e54880055a0a6db",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98e8c819562f933f973",
+    "6a13e98f8c819562f933f975",
+    "6a13e98f8c819562f933f976"
+  ],
+  "question_type": "LA",
+  "question": "An approximately circular oil patch spreads over the surface of water. At an instant when its radius is $6\\ \\text{m}$, its area is increasing at $18\\pi\\ \\text{m}^2/\\text{min}$.<br><br>(a) Determine the instantaneous rate at which the radius is increasing.<br><br>(b) Find the rate of change of the circumference of the patch at that instant.<br><br>(c) If the rate found in part (a) remains constant for the next $2$ minutes, calculate the increase in the radius during this period.",
+  "answeroption": "A",
+  "explanation": "<b>(a)</b><br>The area of the circular patch is<br>$$A=\\pi r^2$$<br>Differentiating with respect to time,<br>$$\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}$$<br>Substituting $\\frac{dA}{dt}=18\\pi$ and $r=6$,<br>$$18\\pi=2\\pi(6)\\frac{dr}{dt}$$<br>Therefore,<br>$$\\frac{dr}{dt}=\\frac{18\\pi}{12\\pi}=\\frac{3}{2}\\ \\text{m/min}$$<br><br><b>(b)</b><br>The circumference is<br>$$C=2\\pi r$$<br>Differentiating with respect to time,<br>$$\\frac{dC}{dt}=2\\pi\\frac{dr}{dt}$$<br>$$\\frac{dC}{dt}=2\\pi\\left(\\frac{3}{2}\\right)=3\\pi\\ \\text{m/min}$$<br><br><b>(c)</b><br>If the radius continues to increase at $\\frac{3}{2}\\ \\text{m/min}$ for $2$ minutes, its increase is<br>$$\\Delta r=\\frac{3}{2}\\times 2=3\\ \\text{m}$$",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\frac{dr}{dt}=\\frac{3}{2}$ m/min<br>(b) $\\frac{dC}{dt}=3\\pi$ m/min<br>(c) Radius increases by $3$ m",
+    "B": "(a) $\\frac{dr}{dt}=3$ m/min<br>(b) $\\frac{dC}{dt}=6\\pi$ m/min<br>(c) Radius increases by $6$ m",
+    "C": "(a) $\\frac{dr}{dt}=\\frac{3}{4}$ m/min<br>(b) $\\frac{dC}{dt}=\\frac{3\\pi}{2}$ m/min<br>(c) Radius increases by $\\frac{3}{2}$ m",
+    "D": "(a) $\\frac{dr}{dt}=\\frac{1}{2}$ m/min<br>(b) $\\frac{dC}{dt}=\\pi$ m/min<br>(c) Radius increases by $1$ m"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

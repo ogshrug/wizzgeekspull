@@ -1,0 +1,30 @@
+{
+  "id": "69a9bdce62be6a70cd184e32",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A window is in the form of a rectangle surmounted by a semicircle. The total perimeter is 20 m.<br /><br />(a) Express the height of the rectangle in terms of radius.<br /><br />(b) Form the area function.<br /><br />(c) Determine the dimensions that maximize the area.",
+  "answeroption": "D",
+  "explanation": "Let width $=2r$ and height $=h$.<br /><br />(a) Perimeter: $2h + 2r + \\pi r = 20$.<br /><br />So $h = \\frac{20 - 2r - \\pi r}{2}$.<br /><br />(b) Area: $A = 2rh + \\frac{1}{2}\\pi r^2$.<br /><br />Substitute $h$:<br /><br />$A = 20r - 2r^2 - \\frac{\\pi}{2}r^2$.<br /><br />(c) Differentiate:<br /><br />$\\frac{dA}{dr} = 20 - (4+\\pi)r$.<br /><br />Set equal to zero:<br /><br />$r = \\frac{20}{4+\\pi}$.<br /><br />Thus width $=2r$ and height follows from the earlier relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $h=20-2r-\\pi r$<br />(b) $A=20r-4r^2-\\pi r^2$<br />(c) $r=\\frac{10}{4+\\pi}$ and width $=2r$.",
+    "B": "(a) $h=\\frac{20-2r-\\pi r}{2}$<br />(b) $A=20r+2r^2+\\frac{\\pi}{2}r^2$<br />(c) $r=\\frac{20}{4-\\pi}$ and width $=2r$.",
+    "C": "(a) $h=\\frac{20-r-\\pi r}{2}$<br />(b) $A=20r-r^2-\\frac{\\pi}{2}r^2$<br />(c) $r=\\frac{20}{2+\\pi}$ and width $=r$.",
+    "D": "(a) $h=\\frac{20-2r-\\pi r}{2}$<br />(b) $A=20r-2r^2-\\frac{\\pi}{2}r^2$<br />(c) $r=\\frac{20}{4+\\pi}$ and width $=2r$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 17:30:54 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:08 GMT"
+}

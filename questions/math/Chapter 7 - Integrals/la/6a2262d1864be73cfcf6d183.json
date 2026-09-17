@@ -1,0 +1,26 @@
+{
+  "id": "6a2262d1864be73cfcf6d183",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98b"
+  ],
+  "question_type": "LA",
+  "question": "Find: $\\int\\frac{x^{2}+x+1}{(x+2)(x^{2}+1)}dx$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Decompose the rational function using the method of partial fractions. Assume $\\frac{x^2+x+1}{(x+2)(x^2+1)} = \\frac{A}{x+2} + \\frac{Bx+C}{x^2+1}$.<br />**Step 2:** Multiply both sides by the common denominator $(x+2)(x^2+1)$ to clear the fractions: $x^2+x+1 = A(x^2+1) + (Bx+C)(x+2)$.<br />**Step 3:** Determine the constant $A$ by strategically choosing $x = -2$. Substitute this value: $(-2)^2 + (-2) + 1 = A((-2)^2+1)$. This simplifies to $3 = 5A$, giving $A = \\frac{3}{5}$.<br />**Step 4:** To find $B$ and $C$, expand the right side and equate the coefficients of corresponding powers of $x$. For $x^2$, we have $1 = A + B$. Substituting $A$, $1 = \\frac{3}{5} + B \\implies B = \\frac{2}{5}$.<br />**Step 5:** Equate the constant terms: $1 = A + 2C$. Substitute $A$, $1 = \\frac{3}{5} + 2C \\implies \\frac{2}{5} = 2C \\implies C = \\frac{1}{5}$.<br />**Step 6:** Rewrite the original integral using the resolved partial fractions: $\\int (\\frac{3/5}{x+2} + \\frac{(2/5)x + 1/5}{x^2+1}) dx$. Split this into three separate integrals: $\\frac{3}{5}\\int \\frac{1}{x+2} dx + \\frac{1}{5}\\int \\frac{2x}{x^2+1} dx + \\frac{1}{5}\\int \\frac{1}{x^2+1} dx$.<br />**Step 7:** Evaluate each integral individually. The first is a basic logarithmic integral: $\\frac{3}{5}\\log|x+2|$. The second uses substitution ($u=x^2+1$) yielding $\\frac{1}{5}\\log|x^2+1|$. The third is a standard arctangent formula yielding $\\frac{1}{5}\\tan^{-1}(x)$.<br />**Step 8:** Combine the results to get the final general solution: $\\frac{3}{5}\\log|x+2| + \\frac{1}{5}\\log|x^2+1| + \\frac{1}{5}\\tan^{-1}(x) + C$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-2",
+  "set_key": [
+    "2025-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

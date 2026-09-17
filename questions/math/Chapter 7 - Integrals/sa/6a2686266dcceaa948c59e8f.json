@@ -1,0 +1,28 @@
+{
+  "id": "6a2686266dcceaa948c59e8f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98c"
+  ],
+  "question_type": "SA",
+  "question": "Find: $\\int x^{2}\\log(x^{2}+1)dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Take $u=\\log(x^2+1)$ and $dv=x^2dx$. Then $du=\\frac{2x}{x^2+1}dx$ and $v=\\frac{x^3}{3}$.<br /><br />**Step 2:** By integration by parts,<br />$\\int x^2\\log(x^2+1)dx=\\frac{x^3}{3}\\log(x^2+1)-\\frac{2}{3}\\int\\frac{x^4}{x^2+1}dx$.<br /><br />**Step 3:** Divide:<br />$\\frac{x^4}{x^2+1}=x^2-1+\\frac{1}{x^2+1}$.<br /><br />**Step 4:** Therefore,<br />$\\frac{x^3}{3}\\log(x^2+1)-\\frac{2}{3}\\int\\left(x^2-1+\\frac{1}{x^2+1}\\right)dx$.<br /><br />**Step 5:** Integrating termwise gives<br />$\\boxed{\\frac{x^3}{3}\\log(x^2+1)-\\frac{2}{9}x^3+\\frac{2}{3}x-\\frac{2}{3}\\tan^{-1}x+C}$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

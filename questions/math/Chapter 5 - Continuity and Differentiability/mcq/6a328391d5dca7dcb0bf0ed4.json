@@ -1,0 +1,31 @@
+{
+  "id": "6a328391d5dca7dcb0bf0ed4",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "The value of constant $c$ that makes the function $f$ defined by $f(x) = \\begin{cases}x^2 - c^2, & \\text{if } x < 4 \\\\ cx + 20, & \\text{if } x \\ge 4\\end{cases}$ continuous for all real numbers is:",
+  "answeroption": "A",
+  "explanation": "**Step 1:** For $f(x)$ to be continuous at $x=4$, the left-hand limit must equal the right-hand limit: $\\lim_{x \\to 4^-} f(x) = \\lim_{x \\to 4^+} f(x)$.\n\n**Step 2:** Evaluate the limits: $4^2 - c^2 = 4c + 20 \\implies 16 - c^2 = 4c + 20$.\n\n**Step 3:** Form a quadratic equation: $c^2 + 4c + 4 = 0$.\n\n**Step 4:** Factor and solve: $(c + 2)^2 = 0 \\implies c = -2$.",
+  "explanation_image": [],
+  "options": {
+    "A": "-2",
+    "B": "-1",
+    "C": "0",
+    "D": "2"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

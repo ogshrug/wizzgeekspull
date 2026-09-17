@@ -1,0 +1,28 @@
+{
+  "id": "6a22a0d9864be73cfcf6d279",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "SA",
+  "question": "Solve the following differential equation: $x^{2}dy+y(x+y)dx=0$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Rearrange the equation to express $\\frac{dy}{dx}$. $x^2 dy = -y(x+y) dx \\Rightarrow \\frac{dy}{dx} = \\frac{-xy - y^2}{x^2}$. This is a homogeneous differential equation because each term in the numerator and denominator is of degree 2.<br />**Step 2:** Apply the standard substitution $y = vx$. Then differentiate to find $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$.<br />**Step 3:** Substitute into the differential equation: $v + x\\frac{dv}{dx} = \\frac{-x(vx) - (vx)^2}{x^2} = \\frac{-x^2v - x^2v^2}{x^2} = -v - v^2$.<br />**Step 4:** Isolate variables. $x\\frac{dv}{dx} = -v - v^2 - v = -2v - v^2 = -(v^2 + 2v)$. Separate $v$ and $x$ terms: $\\frac{dv}{v^2+2v} = -\\frac{dx}{x}$. The left side can be integrated using partial fractions or completing the square. $\\int \\frac{dv}{v(v+2)} = \\int \\frac{1}{2}(\\frac{1}{v} - \\frac{1}{v+2}) dv$.<br />**Step 5:** Integrate both sides: $\\frac{1}{2}(\\ln|v| - \\ln|v+2|) = -\\ln|x| + C'$. This becomes $\\frac{1}{2}\\ln|\\frac{v}{v+2}| = -\\ln|x| + C'$. Multiply by 2: $\\ln|\\frac{v}{v+2}| = -2\\ln|x| + 2C' = \\ln(x^{-2}) + C$. Taking exponential, $\\frac{v}{v+2} = A x^{-2}$. Substitute back $v = \\frac{y}{x}$: $\\frac{y/x}{y/x + 2} = \\frac{A}{x^2} \\Rightarrow \\frac{y}{y+2x} = \\frac{A}{x^2}$. The final implicit solution is $x^2y = A(y+2x)$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-5",
+  "set_key": [
+    "2024-5-1",
+    "2024-5-2",
+    "2024-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

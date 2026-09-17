@@ -1,0 +1,31 @@
+{
+  "id": "69a9337bd30adc5083911a1d",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603640512f018fa94d68",
+    "69c6603640512f018fa94d69",
+    "69c6603740512f018fa94d6e"
+  ],
+  "question_type": "VSA",
+  "question": "Let $A$ be a $3 \\times 3$ non-singular matrix such that $\\text{adj}(A) = 3A$. Find $|A|$.",
+  "answeroption": "A",
+  "explanation": "Use the property $|\\text{adj}(A)| = |A|^{2}$ for a $3 \\times 3$ matrix.<br />Given $\\text{adj}(A) = 3A$.<br />Take determinant on both sides.<br />$|\\text{adj}(A)| = |3A|$.<br />$|3A| = 3^3 |A| = 27|A|$.<br />Also $|\\text{adj}(A)| = |A|^2$.<br />Thus $|A|^2 = 27|A|$.<br />$|A|(|A| - 27) = 0$.<br />Since the matrix is non-singular, $|A| \\neq 0$.<br />Therefore $|A| = 27$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$27$",
+    "B": "$9$",
+    "C": "$3$",
+    "D": "$0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:40:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

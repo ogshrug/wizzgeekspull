@@ -1,0 +1,30 @@
+{
+  "id": "6a8eca6f4b490c7cde359470",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d79",
+    "69c6610140512f018fa94d7a"
+  ],
+  "question_type": "LA",
+  "question": "For the composite function $$y=\\sin\\left(\\cos x^2\\right),$$ obtain $\\frac{dy}{dx}$ by successive application of the chain rule and hence evaluate the derivative at $x=\\sqrt{\\frac{\\pi}{2}}$.",
+  "answeroption": "A",
+  "explanation": "<b>Applying the Chain Rule</b><br>The given function contains successive compositions. Let $$u=x^2,\\qquad v=\\cos u,\\qquad y=\\sin v.$$ By the chain rule, $$\\frac{dy}{dx}=\\frac{dy}{dv}\\frac{dv}{du}\\frac{du}{dx}.$$ Now, $$\\frac{dy}{dv}=\\cos v,$$ $$\\frac{dv}{du}=-\\sin u$$ and $$\\frac{du}{dx}=2x.$$ Therefore, $$\\frac{dy}{dx}=\\cos v(-\\sin u)(2x).$$ Substituting $u=x^2$ and $v=\\cos x^2$, we get $$\\frac{dy}{dx}=-2x\\sin x^2\\cos\\left(\\cos x^2\\right).$$<br><br><b>Evaluation</b><br>At $$x=\\sqrt{\\frac{\\pi}{2}},$$ we have $$x^2=\\frac{\\pi}{2},\\qquad \\sin x^2=1,\\qquad \\cos x^2=0.$$ Hence, $$\\cos\\left(\\cos x^2\\right)=\\cos0=1.$$ Therefore, $$\\left.\\frac{dy}{dx}\\right|_{x=\\sqrt{\\frac{\\pi}{2}}}=-2\\sqrt{\\frac{\\pi}{2}}=-\\sqrt{2\\pi}.$$<br><br><b>Final Result</b><br>Thus, $$\\frac{dy}{dx}=-2x\\sin x^2\\cos\\left(\\cos x^2\\right)$$ and at $x=\\sqrt{\\frac{\\pi}{2}}$, $$\\frac{dy}{dx}=-\\sqrt{2\\pi}.$$",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{dy}{dx}=-2x\\sin x^2\\cos(\\cos x^2)$; at $x=\\sqrt{\\frac{\\pi}{2}}$, $\\frac{dy}{dx}=-\\sqrt{2\\pi}$",
+    "B": "$\\frac{dy}{dx}=2x\\sin x^2\\cos(\\cos x^2)$; at $x=\\sqrt{\\frac{\\pi}{2}}$, $\\frac{dy}{dx}=\\sqrt{2\\pi}$",
+    "C": "$\\frac{dy}{dx}=-2x\\cos x^2\\sin(\\cos x^2)$; at $x=\\sqrt{\\frac{\\pi}{2}}$, $\\frac{dy}{dx}=0$",
+    "D": "$\\frac{dy}{dx}=-2x\\sin x^2\\sin(\\cos x^2)$; at $x=\\sqrt{\\frac{\\pi}{2}}$, $\\frac{dy}{dx}=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

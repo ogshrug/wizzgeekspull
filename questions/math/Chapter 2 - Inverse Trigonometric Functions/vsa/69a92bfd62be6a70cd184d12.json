@@ -1,0 +1,29 @@
+{
+  "id": "69a92bfd62be6a70cd184d12",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "VSA",
+  "question": "Find the value of $\\sin^{-1}\\left(2x\\sqrt{1-x^2}\\right)$ when $x = \\sin \\alpha$ and $\\alpha \\in \\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$.",
+  "answeroption": "C",
+  "explanation": "Given $x = \\sin\\alpha$.<br /><br />Then $2x\\sqrt{1-x^2} = 2\\sin\\alpha\\sqrt{1-\\sin^2\\alpha}$.<br /><br />Since $\\sqrt{1-\\sin^2\\alpha} = \\cos\\alpha$, we obtain $2\\sin\\alpha\\cos\\alpha$.<br /><br />Using the identity $2\\sin\\alpha\\cos\\alpha = \\sin2\\alpha$.<br /><br />Thus $\\sin^{-1}(2x\\sqrt{1-x^2}) = \\sin^{-1}(\\sin2\\alpha)$.<br /><br />For $\\alpha \\in [-\\frac{\\pi}{4},\\frac{\\pi}{4}]$, $2\\alpha$ lies in the principal range of $\\sin^{-1}$ and hence the value is $2\\alpha$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\alpha$",
+    "B": "$\\frac{\\alpha}{2}$",
+    "C": "$2\\alpha$",
+    "D": "$\\pi - 2\\alpha$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:08:45 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:51 GMT"
+}

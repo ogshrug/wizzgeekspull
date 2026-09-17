@@ -1,0 +1,32 @@
+{
+  "id": "6a8e72c22e54880055a0a658",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d40",
+    "69c65c9340512f018fa94d41",
+    "69c65c9340512f018fa94d42",
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "In a coordinate-geometry activity, let $L$ be the set of all straight lines in the plane. A relation $R$ is defined on $L$ by $lRm$ if and only if the line $l$ is perpendicular to the line $m$. To investigate this relation, three lines are considered: $l_1:y=2x+1$, $l_2:y=-\\frac{1}{2}x+3$ and $l_3:y=2x-5$. The students use the slopes of these lines and the definition of the relation to examine its properties. They must decide whether perpendicularity can divide the set of lines into equivalence classes.<br><br><b>(a)</b> Determine which of the ordered pairs $(l_1,l_2)$, $(l_2,l_1)$ and $(l_1,l_3)$ belong to $R$.<br><br><b>(b)</b> Determine whether $R$ is reflexive and justify your answer.<br><br><b>(c)</b> Verify that $R$ is symmetric.<br><br><b>(d)</b> Determine whether $R$ is transitive and hence decide whether it is an equivalence relation.",
+  "answeroption": "D",
+  "explanation": "<b>(a)</b><br>The slopes of $l_1$, $l_2$ and $l_3$ are $2$, $-\\frac{1}{2}$ and $2$, respectively. Since $2\\times\\left(-\\frac{1}{2}\\right)=-1$, $l_1$ is perpendicular to $l_2$. Hence $(l_1,l_2)\\in R$. Similarly, $l_2$ is perpendicular to $l_1$, so $(l_2,l_1)\\in R$. Since $l_1$ and $l_3$ have the same slope, they are parallel and not perpendicular. Therefore, $(l_1,l_3)\\notin R$.<br><br><b>(b)</b><br>For $R$ to be reflexive, every line $l\\in L$ must satisfy $lRl$, which would mean that every line is perpendicular to itself. A line cannot be perpendicular to itself. Thus $(l,l)\\notin R$ for every $l\\in L$. Hence, $R$ is not reflexive.<br><br><b>(c)</b><br>Suppose $(l,m)\\in R$. Then $l$ is perpendicular to $m$. Perpendicularity of lines is mutual, so $m$ is perpendicular to $l$. Therefore, $(m,l)\\in R$. Hence, $R$ is symmetric.<br><br><b>(d)</b><br>We have $l_1Rl_2$ because $l_1$ is perpendicular to $l_2$. Also, $l_2Rl_3$ because the slopes of $l_2$ and $l_3$ are $-\\frac{1}{2}$ and $2$, whose product is $-1$. However, $l_1$ and $l_3$ have the same slope and are therefore parallel, so $l_1Rl_3$ is false. Thus, $R$ is not transitive. Since $R$ is neither reflexive nor transitive, it is not an equivalence relation.",
+  "explanation_image": [],
+  "options": {
+    "A": "Only $(l_1,l_2)\\in R$; the relation is reflexive and transitive but not symmetric, so it is not an equivalence relation.",
+    "B": "$(l_1,l_2)$, $(l_2,l_1)$ and $(l_1,l_3)$ all belong to $R$; the relation is reflexive, symmetric and transitive, so it is an equivalence relation.",
+    "C": "$(l_1,l_3)\\in R$, while $(l_1,l_2)$ and $(l_2,l_1)$ do not belong to $R$; the relation is not reflexive but is symmetric and transitive.",
+    "D": "$(l_1,l_2),(l_2,l_1)\\in R$, but $(l_1,l_3)\\notin R$; the relation is symmetric but neither reflexive nor transitive, so it is not an equivalence relation."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

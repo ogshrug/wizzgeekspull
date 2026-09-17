@@ -1,0 +1,30 @@
+{
+  "id": "6a26869a6dcceaa948c59ea6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A volleyball player serves the ball which takes a parabolic path given by the equation $h(t)=-\\frac{7}{2}t^{2}+\\frac{13}{2}t+1$ where h(t) is the height of ball at any time t (in seconds), $(t\\ge0)$.<br /><br />Based on the above information, answer the following questions:<br />**(i)** Is h(t) a continuous function? Justify.<br />**(ii)** Find the time at which the height of the ball is maximum.",
+  "answeroption": "",
+  "explanation": "**(i)** **Step 1:** The given function height rule is $h(t) = -\\frac{7}{2}t^2 + \\frac{13}{2}t + 1$. This is a quadratic polynomial function in terms of variable $t$.<br />**Step 2:** By fundamental continuity theorems, every polynomial function is continuous everywhere on the real line. Hence, $h(t)$ is continuous across its entire domain $t \\ge 0$.<br /><br />**(ii)** **Step 1:** Differentiate the function to find local extrema: $\\frac{dh}{dt} = \\frac{d}{dt}\\left(-\\frac{7}{2}t^2 + \\frac{13}{2}t + 1\\right) = -7t + \\frac{13}{2}$. Set derivative to zero: $-7t + \\frac{13}{2} = 0$.<br />**Step 2:** Solve for $t$: $7t = \\frac{13}{2} \\implies t = \\frac{13}{14}$ seconds. Since the second derivative is $\\frac{d^2h}{dt^2} = -7 < 0$, this point maximizes height.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-3",
+  "set_key": [
+    "2023-3-1",
+    "2023-3-2",
+    "2023-3-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a26869a6dcceaa948c59ea6/1782274495-0.png?t=1782294296172"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

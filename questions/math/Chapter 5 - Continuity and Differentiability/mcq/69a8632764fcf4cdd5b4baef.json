@@ -1,0 +1,30 @@
+{
+  "id": "69a8632764fcf4cdd5b4baef",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d78",
+    "69c6610140512f018fa94d77"
+  ],
+  "question_type": "MCQ",
+  "question": "Suppose $f(x)$ is defined by $\\begin{cases} \\sin x, & x < 0 \\\\ x^2, & x \\geq 0 \\end{cases}$. Which is true at $x=0$?",
+  "answeroption": "A",
+  "explanation": "Left limit at $0$: $\\sin 0 = 0$.<br /><br />Right limit at $0$: $0^2 = 0$.<br /><br />Since both limits equal $f(0)=0$, the function is continuous at $0$.<br /><br />Left derivative at $0$: $\\cos 0 = 1$.<br /><br />Right derivative at $0$: $2 \\cdot 0 = 0$.<br /><br />Since derivatives are not equal, the function is not differentiable at $0$.<br /><br />Therefore, (A) is correct.",
+  "explanation_image": [],
+  "options": {
+    "A": "$f$ is continuous but not differentiable at $x=0$",
+    "B": "$f$ is differentiable at $x=0$",
+    "C": "$f$ is not continuous at $x=0$",
+    "D": "$f''(0)$ exists"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 16:51:51 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:13 GMT"
+}

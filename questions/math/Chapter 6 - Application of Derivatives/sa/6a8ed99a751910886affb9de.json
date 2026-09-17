@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed99a751910886affb9de",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f985"
+  ],
+  "question_type": "SA",
+  "question": "Find all the critical points of $f(x)=x^4-2x^2$ and classify them using the second derivative test.",
+  "answeroption": "B",
+  "explanation": "<b>First derivative</b><br>$$f'(x)=4x^3-4x=4x(x-1)(x+1)$$<br>Hence, the critical points are $x=-1,0,1$.<br><b>Second derivative</b><br>$$f''(x)=12x^2-4$$<br><b>Classification at $x=0$</b><br>$$f''(0)=-4<0$$<br>Therefore, $x=0$ is a point of local maximum, with $f(0)=0$.<br><b>Classification at $x=\\pm1$</b><br>$$f''(1)=f''(-1)=8>0$$<br>Therefore, $x=\\pm1$ are points of local minimum.<br><b>Minimum values</b><br>$$f(1)=f(-1)=1-2=-1$$<br><b>Conclusion</b><br>The local maximum value is $0$ at $x=0$, and the local minimum value is $-1$ at $x=\\pm1$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$x=0$ is a local minimum with value $0$; $x=\\pm1$ are local maxima with value $-1$",
+    "B": "$x=0$ is a local maximum with value $0$; $x=\\pm1$ are local minima with value $-1$",
+    "C": "$x=\\pm1$ are local maxima with value $1$; $x=0$ is neither",
+    "D": "All three critical points $x=-1,0,1$ are local minima"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

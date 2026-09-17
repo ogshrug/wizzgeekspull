@@ -1,0 +1,29 @@
+{
+  "id": "6a8ed99a751910886affb9e1",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e9908c819562f933f986"
+  ],
+  "question_type": "SA",
+  "question": "Find the point on the parabola $y^2=4x$ that is nearest to the point $(2,0)$. Also calculate the minimum distance.",
+  "answeroption": "A",
+  "explanation": "<b>Point on the parabola</b><br>Since $y^2=4x$,<br>$$x=\\frac{y^2}{4}$$<br><b>Distance function</b><br>The square of the distance from $(2,0)$ is<br>$$D^2=\\left(\\frac{y^2}{4}-2\\right)^2+y^2$$<br><b>Simplification</b><br>$$D^2=\\frac{y^4}{16}-y^2+4+y^2=\\frac{y^4}{16}+4$$<br><b>Minimum condition</b><br>Since $y^4\\geq0$, the least value occurs when $y=0$. Then $x=0$.<br><b>Minimum distance</b><br>$$D_{\\min}=\\sqrt{(0-2)^2}=2$$<br><b>Conclusion</b><br>The nearest point on the parabola is $(0,0)$, and the minimum distance is $2$ units.",
+  "explanation_image": [],
+  "options": {
+    "A": "Nearest point $(0,0)$; minimum distance $2$ units",
+    "B": "Nearest point $(1,2)$; minimum distance $\\sqrt{5}$ units",
+    "C": "Nearest points $(2,\\pm2\\sqrt{2})$; minimum distance $2\\sqrt{2}$ units",
+    "D": "Nearest point $(2,0)$; minimum distance $0$ units"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

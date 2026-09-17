@@ -1,0 +1,32 @@
+{
+  "id": "69a93597d30adc5083911a25",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8665d681ebad5835402ff",
+  "topic": [
+    "69c6603740512f018fa94d70",
+    "69c6603740512f018fa94d76",
+    "69c6603740512f018fa94d73",
+    "69c6603740512f018fa94d74"
+  ],
+  "question_type": "LA",
+  "question": "Given the system \n$x + 2y + 3z = 4$\n$2x + 3y + 8z = 11$\n$4x + 5y + kz = m$.\n\n(a) For which values of $k$ does the system have a unique solution regardless of $m$? \n\n(b) Find the solution for $k=5, m=21$ using the inverse matrix method.",
+  "answeroption": "B",
+  "explanation": "(a) $A = \\begin{bmatrix}1 & 2 & 3\\\\2 & 3 & 8\\\\4 & 5 & k\\end{bmatrix}$<br /><br />Compute $|A|$:<br />$|A| = 1\\begin{vmatrix}3&8\\\\5&k\\end{vmatrix}-2\\begin{vmatrix}2&8\\\\4&k\\end{vmatrix}+3\\begin{vmatrix}2&3\\\\4&5\\end{vmatrix}$<br /><br />$3k-8*5=3k-40$<br />$2(2k-4*8)=2(2k-32)=4k-64$<br />$3(2*5-4*3)=3(10-12)=3*(-2)=-6$<br /><br />$|A|=3k-40-(4k-64)-6=3k-40-4k+64-6=(-k)+18$<br /><br />For unique solution, $|A|\\neq0\\implies k\\neq18$<br /><br />(b) For $k=5,m=21$:<br />$A=\\begin{bmatrix}1&2&3\\\\2&3&8\\\\4&5&5\\end{bmatrix}$<br />$B=\\begin{bmatrix}4\\\\11\\\\21\\end{bmatrix}$<br />Compute $|A|=-5+18=13\\neq0$, so unique solution.<br />Find $A^{-1}$ (tedious, omitted for brevity), then $X=A^{-1}B$ gives $x,y,z$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Unique solution exists when $k=18$.<br />(b) For $k=5,m=21$, $x=\\frac{102}{13}$, $y=-\\frac{31}{13}$, $z=\\frac{4}{13}$.",
+    "B": "(a) Unique solution exists when $k\\ne18$.<br />(b) For $k=5,m=21$, $x=\\frac{102}{13}$, $y=-\\frac{31}{13}$, $z=\\frac{4}{13}$.",
+    "C": "(a) Unique solution exists when $k\\ne5$.<br />(b) For $k=5,m=21$, no unique solution exists.",
+    "D": "(a) Unique solution exists when $k\\ne18$.<br />(b) For $k=5,m=21$, $x=-\\frac{102}{13}$, $y=\\frac{31}{13}$, $z=-\\frac{4}{13}$."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 07:49:43 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:32:03 GMT"
+}

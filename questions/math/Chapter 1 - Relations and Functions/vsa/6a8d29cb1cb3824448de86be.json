@@ -1,0 +1,29 @@
+{
+  "id": "6a8d29cb1cb3824448de86be",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d48"
+  ],
+  "question_type": "VSA",
+  "question": "On $X=\\mathbb{R}\\setminus\\{-1\\}$, a binary operation $*$ is defined by $a*b=a+b+ab$. Find the inverse of $2$ with respect to this operation.",
+  "answeroption": "B",
+  "explanation": "<b>Step 1: Determine the identity element</b><br>Let $e$ be the identity element. Then<br>$$a*e=a+e+ae=a.$$<br>Therefore,<br>$$e(1+a)=0.$$<br>Since $a\\ne-1$, we obtain $e=0$.<br><br><b>Step 2: Apply the inverse condition</b><br>Let $b$ be the inverse of $2$. Then<br>$$2*b=0.$$<br>Using the given operation,<br>$$2*b=2+b+2b=2+3b.$$<br><br><b>Step 3: Solve for the inverse</b><br>$$2+3b=0$$<br>gives<br>$$b=-\\frac{2}{3}.$$<br><br><b>Step 4: Verify membership in $X$</b><br>Since $-\\frac{2}{3}\\ne-1$, it belongs to $X$ and is an admissible inverse.<br><br><b>Final Answer:</b> The inverse of $2$ is $\\boxed{-\\frac{2}{3}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{2}{3}$",
+    "B": "$-\\frac{2}{3}$",
+    "C": "$-\\frac{3}{2}$",
+    "D": "$0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6a8e9ca52e54880055a0a69b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d62",
+    "69c65fc040512f018fa94d61"
+  ],
+  "question_type": "LA",
+  "question": "Let $$A=\\begin{bmatrix}1&-1\\\\1&-1\\end{bmatrix}$$ and $$B=\\begin{bmatrix}1&1\\\\1&1\\end{bmatrix}.$$ Establish by direct multiplication that two non-zero matrices can have a zero matrix as their product, and further examine the reverse product to justify that the order of multiplication is significant.",
+  "answeroption": "C",
+  "explanation": "<b>Evaluation of the Product $AB$</b><br><br>Both $A$ and $B$ contain non-zero entries, so neither matrix is the zero matrix. Now, $$AB=\\begin{bmatrix}1&-1\\\\1&-1\\end{bmatrix}\\begin{bmatrix}1&1\\\\1&1\\end{bmatrix}$$ $$=\\begin{bmatrix}1(1)+(-1)(1)&1(1)+(-1)(1)\\\\1(1)+(-1)(1)&1(1)+(-1)(1)\\end{bmatrix}=\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}=O$$ Thus $AB=O$ although $A\\ne O$ and $B\\ne O$. Hence, unlike real numbers, the product of two non-zero matrices may be the zero matrix.<br><br><b>Examination of the Reverse Product</b><br><br>Now, $$BA=\\begin{bmatrix}1&1\\\\1&1\\end{bmatrix}\\begin{bmatrix}1&-1\\\\1&-1\\end{bmatrix}$$ $$=\\begin{bmatrix}2&-2\\\\2&-2\\end{bmatrix}$$ which is not the zero matrix. Thus, $AB=O$ but $BA\\ne O$. Therefore, the zero product property for real numbers does not hold in the same way for matrices, and the reverse product also confirms the significance of the order of matrix multiplication.",
+  "explanation_image": [],
+  "options": {
+    "A": "$AB=O$ and $BA=O$",
+    "B": "$AB=\\begin{bmatrix}2&-2\\\\2&-2\\end{bmatrix}$ and $BA=O$",
+    "C": "$AB=O$ and $BA=\\begin{bmatrix}2&-2\\\\2&-2\\end{bmatrix}$",
+    "D": "$AB=BA=\\begin{bmatrix}2&-2\\\\2&-2\\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a22968e864be73cfcf6d231",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "A relation R is defined on $N\\times N$ (where N is the set of natural numbers) as:<br />(a, b) R (c, d) $\\Leftrightarrow$ a-c=b-d<br />Show that R is an equivalence relation.",
+  "answeroption": "",
+  "explanation": "**Step 1:** To comprehensively prove that a mathematical relation is an equivalence relation, we must systematically prove it possesses three distinct properties: reflexivity, symmetry, and transitivity. Let's begin with checking reflexivity. A relation is reflexive if every element relates to itself. Let $(a, b)$ be an arbitrary element in the Cartesian product $N \\times N$. We apply the defined relation rule to check if $(a, b) R (a, b)$ holds true. According to the rule, this translates to evaluating if $a - a = b - b$. Since $0 = 0$ is an universally true mathematical statement, we conclude $(a, b) R (a, b)$ for all $(a,b) \\in N \\times N$. Thus, the relation R is strictly reflexive.<br />**Step 2:** Next, we rigorously verify the property of symmetry. A relation is symmetric if $(x) R (y)$ implies $(y) R (x)$. Let us assume that $(a, b) R (c, d)$ holds for some elements $(a,b)$ and $(c,d)$ in $N \\times N$. By the exact definition of our relation, this means $a - c = b - d$. We must algebraically manipulate this to show $(c, d) R (a, b)$, which requires proving $c - a = d - b$. If we simply multiply our given equation $a - c = b - d$ by $-1$ on both sides, we get $-(a - c) = -(b - d)$, which perfectly simplifies to $c - a = d - b$. This directly satisfies the condition for $(c, d) R (a, b)$. Therefore, the relation R is definitively symmetric.<br />**Step 3:** Finally, we must prove the crucial property of transitivity. A relation is transitive if $(x) R (y)$ and $(y) R (z)$ together logically imply $(x) R (z)$. Let us assume that $(a, b) R (c, d)$ and $(c, d) R (e, f)$ hold simultaneously for elements in $N \\times N$. Using the relation's definition, we obtain two core equations: (1) $a - c = b - d$ and (2) $c - e = d - f$. Our ultimate objective is to establish that $(a, b) R (e, f)$, which strictly means we need to prove $a - e = b - f$.<br />**Step 4:** We can achieve this by performing a simple algebraic addition of the two core equations we derived. Adding equation (1) and equation (2) yields: $(a - c) + (c - e) = (b - d) + (d - f)$. By carefully canceling out the intermediate terms $-c$ and $+c$ on the left side, and $-d$ and $+d$ on the right side, the equation perfectly collapses down to $a - e = b - f$.<br />**Step 5:** This final derived equation, $a - e = b - f$, is the exact mathematical definition required to state that $(a, b) R (e, f)$. Because we have successfully proven that the assumption of the first two relations mathematically guarantees the third, the relation R is strictly transitive. Since relation R has been rigorously proven to be reflexive, symmetric, and transitive, it fully satisfies all criteria and is therefore classified as an equivalence relation.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

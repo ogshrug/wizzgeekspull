@@ -1,0 +1,31 @@
+{
+  "id": "69aa7da3320763ee1b04067c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d57",
+    "69c65fc040512f018fa94d58",
+    "69c65fc040512f018fa94d56"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study: Network Traffic Analysis Using Matrix Multiplication and Transpose**<br /><br />A network administrator models data transferred (in GB) among three servers S1, S2, S3 over a week using this matrix:<br />$D=\\begin{bmatrix} 0 & 20 & 15 \\\\ 18 & 0 & 16 \\\\ 12 & 10 & 0 \\end{bmatrix}$<br /><br />Diagonal entries represent zero self-transfer. Another matrix $A=\\begin{bmatrix} 0 & a & b \\\\ c & 0 & d \\\\ e & f & 0 \\end{bmatrix}$ models an attack traffic pattern. The admin analyzes symmetric and skew-symmetric parts of $A$.<br /><br />(a) Express $A$ as the sum of its symmetric and skew-symmetric parts.<br /><br />(b) For $a=20, b=15, c=18, d=16, e=12, f=10$, write $A$ and calculate $A'$ (transpose).<br /><br />(c) Check if $A$ is symmetric or skew-symmetric and discuss the significance of each in the context of network security evaluation.",
+  "answeroption": "B",
+  "explanation": "(a)<br /><br />Recall: Any square matrix $A$ can be written as $\\frac{1}{2}(A+A') + \\frac{1}{2}(A-A')$.<br /><br />Symmetric part: $S=\\frac{1}{2}(A+A')$<br /><br />Skew-symmetric part: $K=\\frac{1}{2}(A-A')$.<br /><br />(b)<br /><br />Given $a=20, b=15, c=18, d=16, e=12, f=10$,<br /><br />$A=\\begin{bmatrix} 0 & 20 & 15 \\\\ 18 & 0 & 16 \\\\ 12 & 10 & 0 \\end{bmatrix}$<br /><br />$A'=\\begin{bmatrix} 0 & 18 & 12 \\\\ 20 & 0 & 10 \\\\ 15 & 16 & 0 \\end{bmatrix}$.<br /><br />(c)<br /><br />A is symmetric if $A=A'$, skew-symmetric if $A=-A'$.<br /><br />Comparing $A$ and $A'$:<br /><br />First: $20\\neq18, 15\\neq12, 16\\neq10$, so $A\\neq A'$, also $A\\neq -A'$. So $A$ is neither symmetric nor skew-symmetric.<br /><br />In context: A symmetric matrix would indicate reciprocal (equal) traffic between server pairs, while skew-symmetric entries would mean one-way dominance (differential attack patterns). The analysis helps identify anomalies and assess security by separating regular (symmetric) from suspicious/asymmetric traffic.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $A=A'+A$.<br />(b) $A=\\begin{bmatrix}0&18&12\\\\20&0&10\\\\15&16&0\\end{bmatrix}$ and $A'=\\begin{bmatrix}0&20&15\\\\18&0&16\\\\12&10&0\\end{bmatrix}$.<br />(c) $A$ is symmetric.",
+    "B": "(a) $A=\\frac12(A+A')+\\frac12(A-A')$, where $\\frac12(A+A')$ is symmetric and $\\frac12(A-A')$ is skew-symmetric.<br />(b) $A=\\begin{bmatrix}0&20&15\\\\18&0&16\\\\12&10&0\\end{bmatrix}$ and $A'=\\begin{bmatrix}0&18&12\\\\20&0&10\\\\15&16&0\\end{bmatrix}$.<br />(c) $A$ is neither symmetric nor skew-symmetric; symmetry would mean reciprocal traffic, while skew-symmetry would represent directional imbalance.",
+    "C": "(a) $A=\\frac12(A-A')$ only.<br />(b) $A'=A$.<br />(c) $A$ is skew-symmetric.",
+    "D": "(a) No decomposition exists for a $3\\times3$ matrix.<br />(b) The transpose is not defined.<br />(c) Symmetry cannot be discussed for network matrices."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 07:09:23 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:59 GMT"
+}

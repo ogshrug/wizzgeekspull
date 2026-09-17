@@ -1,0 +1,33 @@
+{
+  "id": "6a21669f91ff8b4d45610997",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "If $\\int_{0}^{1}\\frac{dx}{e^{x}+e^{-x}}=\\tan^{-1}e+k,$ then the value of $k$ is:",
+  "answeroption": "D",
+  "explanation": "<b>Step 1</b> Rewrite the integrand as $\\frac{1}{e^x+e^{-x}}=\\frac{e^x}{e^{2x}+1}$. Thus, the integral becomes $\\int_0^1\\frac{e^x}{e^{2x}+1}\\,dx$.<br /><br /><b>Step 2</b> Let $u=e^x$. Then $du=e^xdx$. The limits change from $x=0$ and $x=1$ to $u=1$ and $u=e$ respectively.<br /><br /><b>Step 3</b> The integral becomes $\\int_1^e\\frac{du}{u^2+1}=\\left[\\tan^{-1}u\\right]_1^e=\\tan^{-1}e-\\tan^{-1}1=\\tan^{-1}e-\\frac{\\pi}{4}$. Comparing with $\\tan^{-1}e+k$, we get $k=-\\frac{\\pi}{4}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "e",
+    "B": "$\\frac{\\pi}{4}$",
+    "C": "0",
+    "D": "$-\\frac{\\pi}{4}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-4",
+  "set_key": [
+    "2026-4-1",
+    "2026-4-2",
+    "2026-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

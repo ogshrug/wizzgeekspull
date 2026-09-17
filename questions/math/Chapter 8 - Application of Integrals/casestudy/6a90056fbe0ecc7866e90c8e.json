@@ -1,0 +1,29 @@
+{
+  "id": "6a90056fbe0ecc7866e90c8e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99c"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "A mathematics group studies the curve $y=\\log\\left(4-x\\right)$ in the first quadrant. The curve meets both coordinate axes and encloses a finite region with them. A vertical line $x=2$ divides this region into two portions. The students use definite integration to calculate the complete area and compare the portions, noting that integrating a logarithmic function requires a different method from the polynomial and circular models previously examined. Throughout the study, $\\log$ denotes the natural logarithm.(a) Determine the points at which the curve meets the coordinate axes.(b) Calculate the total area enclosed by the curve and the coordinate axes.(c) Determine the area lying between $x=0$ and $x=2$.(d) Calculate the remaining area and find the exact difference between the two portions.",
+  "answeroption": "A",
+  "explanation": "(a)On the $y$-axis, $x=0$. Therefore,`y=\\log4`giving the point $\\left(0,\\log4\\right)$. On the $x$-axis, $y=0$. Hence,`\\log\\left(4-x\\right)=04-x=1x=3`Thus, the curve meets the $x$-axis at $\\left(3,0\\right)$.(b)The total area is`A=\\int_0^3\\log\\left(4-x\\right)dx`Put $u=4-x$, so $du=-dx$. The limits change from $x=0$ and $x=3$ to $u=4$ and $u=1$. Therefore,`A=\\int_1^4\\log u\\,du`Using $\\int\\log u\\,du=u\\log u-u$,`A=\\left[u\\log u-u\\right]_1^4A=4\\log4-3`Hence, the total enclosed area is $4\\log4-3$ square units.(c)The area between $x=0$ and $x=2$ is`A_1=\\int_0^2\\log\\left(4-x\\right)dx`With $u=4-x$,`A_1=\\int_2^4\\log u\\,duA_1=\\left[u\\log u-u\\right]_2^4A_1=4\\log4-2\\log2-2=6\\log2-2`Thus, the first portion has area $6\\log2-2$ square units.(d)Since $4\\log4-3=8\\log2-3$, the remaining area is`A_2=\\left(8\\log2-3\\right)-\\left(6\\log2-2\\right)A_2=2\\log2-1`The exact difference is`A_1-A_2=\\left(6\\log2-2\\right)-\\left(2\\log2-1\\right)A_1-A_2=4\\log2-1`Therefore, the portion between $x=0$ and $x=2$ is larger by $4\\log2-1$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(0,\\log4)$ and $(3,0)$<br>(b) Total area $=4\\log4-3$<br>(c) Area $[0,2]=6\\log2-2$<br>(d) Remaining $=2\\log2-1$; difference $=4\\log2-1$",
+    "B": "(a) $(0,\\log4)$ and $(4,0)$<br>(b) Total area $=4\\log4-3$<br>(c) Area $[0,2]=6\\log2-2$<br>(d) Remaining $=2\\log2-1$; difference $=4\\log2-1$",
+    "C": "(a) $(0,\\log4)$ and $(3,0)$<br>(b) Total area $=4\\log4-4$<br>(c) Area $[0,2]=6\\log2-2$<br>(d) Remaining $=2\\log2-2$; difference $=4\\log2$",
+    "D": "(a) $(0,\\log4)$ and $(3,0)$<br>(b) Total area $=4\\log4-3$<br>(c) Area $[0,2]=2\\log2-1$<br>(d) Remaining $=6\\log2-2$; difference $=4\\log2-1$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

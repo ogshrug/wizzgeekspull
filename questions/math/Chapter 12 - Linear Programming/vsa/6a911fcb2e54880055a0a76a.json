@@ -1,0 +1,30 @@
+{
+  "id": "6a911fcb2e54880055a0a76a",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db",
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "VSA",
+  "question": "A bounded feasible region has consecutive corner points A$(2,6)$ and B$(6,2)$. If $Z=x+y$ has the same maximum value at A and B, what can be concluded about every point on the line segment AB?",
+  "answeroption": "D",
+  "explanation": "Step 1: Evaluate the objective function at A$(2,6)$: $Z=2+6=8$.<br>Step 2: At B$(6,2)$, $Z=6+2=8$. Thus, both endpoints give the same maximum value.<br>Step 3: For a linear objective function, if two corner points joined by an edge of the feasible region give the same maximum value, then every point on the line segment joining them also gives that same maximum value.<br>Step 4: Here the common maximum value is $8$.<br>Step 5: Therefore, every feasible point lying on the line segment AB is an optimal solution.<br>Hence, $Z=8$ at every point on AB, giving infinitely many optimal solutions along that segment.",
+  "explanation_image": [],
+  "options": {
+    "A": "Only the midpoint of AB is optimal",
+    "B": "Only A and B are optimal",
+    "C": "Every point on AB is feasible but gives a different value of $Z$",
+    "D": "Every point on AB is an optimal solution and gives $Z=8$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "69aa5e6d6638848124d7c9cf",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4a"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "Drone ascent model: $h=d\\sin^{-1}\\left(\\frac{v-f}{v+f}\\right)$ where $v,f>0$. <br /><br />(a) Determine values for which $h$ is defined.<br /><br />(b) If $v=3$, $f=1$, $d=100$, compute $h$.",
+  "answeroption": "D",
+  "explanation": "(a) Since domain of $\\sin^{-1}$ is $[-1,1]$, we require $|\\frac{v-f}{v+f}|\\le1$.<br /><br /> For positive values this holds when $v>f>0$. <br /><br />(b) Substituting values gives $h=100\\sin^{-1}(1/2)=100(\\pi/6)=50\\pi/3$.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $v=f=0$ only; (b) $h=\\frac{100\\pi}{3}$",
+    "B": "(a) $v<f$ only; (b) $h=\\frac{25\\pi}{3}$",
+    "C": "(a) $v>0$, $f=0$ only; (b) $h=50\\pi$",
+    "D": "(a) $v>f>0$; (b) $h=\\frac{50\\pi}{3}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 04:56:13 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a2651ac864be73cfcf6d343",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "Find the area bounded by the curves $y=|x-1|$ and $y=1$, using integration.",
+  "answeroption": "",
+  "explanation": "**Step 1:** Identify the boundary curves and find their points of intersection. The first curve is the absolute value function $y = |x-1|$. This can be split into a piecewise linear form: $y = -(x-1) = 1-x$ for $x < 1$, and $y = x-1$ for $x \\ge 1$. The second boundary line is a horizontal line $y = 1$. To find where they cross, equate both functions to 1: $|x-1| = 1 \\implies x-1 = 1$ or $x-1 = -1$, yielding intersection points at $x = 2$ and $x = 0$.<br />**Step 2:** The bounded region is shaped like a triangle symmetric about the vertical line $x = 1$. The horizontal line $y=1$ forms the top ceiling boundary, and the V-shaped curve $y=|x-1|$ forms the bottom floor boundary across the interval $[0, 2]$. Due to perfect symmetry about $x=1$, we can integrate over the half-interval $[0, 1]$ and multiply by two: $\\text{Total Area} = 2 \\int_{0}^{1} (y_{\\text{top}} - y_{\\text{bottom}}) dx$.<br />**Step 3:** Substitute the corresponding branch functions into this symmetric integral template. On the interval $[0, 1]$, $y_{\\text{bottom}} = 1-x$. This gives: $\\text{Area} = 2 \\int_{0}^{1} \\left( 1 - (1-x) \\right) dx = 2 \\int_{0}^{1} x \\, dx$.<br />**Step 4:** Integrate the single variable expression directly using the standard power rule calculus formula: $2 \\left[ \\frac{x^2}{2} \\right]_{0}^{1} = \\left[ x^2 \\right]_{0}^{1}$. Substituting the upper boundary limit of 1 and lower boundary limit of 0 delivers the final numeric answer: $1^2 - 0 = 1$ square unit.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2022-5",
+  "set_key": [
+    "2022-5-1",
+    "2022-5-2",
+    "2022-5-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

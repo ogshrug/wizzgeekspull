@@ -1,0 +1,28 @@
+{
+  "id": "6a227b68864be73cfcf6d1fa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "SA",
+  "question": "A shopkeeper sells 50 Chemistry, 60 Physics and 35 Maths books on day I and sells 40 Chemistry, 45 Physics and 50 Maths books on day II. If the selling price for each such subject book is ₹150 (Chemistry), ₹ 175 (Physics) and ₹ 180 (Maths), then find his total sale in two days, using matrix method. If cost price of all the books together is ₹ 35,000, what profit did he earn after the sale of two days?",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let matrix $A$ represent the number of books sold, with rows for Day I and Day II, and columns for Chemistry, Physics, and Maths: $A = \\begin{bmatrix} 50 & 60 & 35 \\\\ 40 & 45 & 50 \\end{bmatrix}$.<br />**Step 2:** Let matrix $B$ represent the selling price of each book as a column matrix: $B = \\begin{bmatrix} 150 \\\\ 175 \\\\ 180 \\end{bmatrix}$.<br />**Step 3:** The total sale for each day is calculated by the matrix product $AB$: $\\begin{bmatrix} 50 & 60 & 35 \\\\ 40 & 45 & 50 \\end{bmatrix} \\begin{bmatrix} 150 \\\\ 175 \\\\ 180 \\end{bmatrix}$.<br />**Step 4:** Calculate the sales for Day I (first row of product): $50(150) + 60(175) + 35(180) = 7500 + 10500 + 6300 = 24300$.<br />**Step 5:** Calculate the sales for Day II (second row of product): $40(150) + 45(175) + 50(180) = 6000 + 7875 + 9000 = 22875$.<br />**Step 6:** The total sales amount over both days is the sum of these values: $24300 + 22875 = 47175$.<br />**Step 7:** Calculate the total profit by subtracting the total cost price from the total sales: Profit $= 47175 - 35000 = 12175$. Thus, the profit earned is ₹ 12,175.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2025-7",
+  "set_key": [
+    "2025-7-1",
+    "2025-7-2",
+    "2025-7-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

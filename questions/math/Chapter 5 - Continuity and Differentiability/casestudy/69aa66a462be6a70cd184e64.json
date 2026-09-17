@@ -1,0 +1,31 @@
+{
+  "id": "69aa66a462be6a70cd184e64",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610140512f018fa94d7b",
+    "69c6610240512f018fa94d87"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 2: Economics - Cost Function (Implicit Differentiation & Inverse Trigonometric Functions)**<br /><br />An economic model relates revenue $R$ and price $P$ with a constraint:<br />$\\sin^{-1}\\left( \\frac{P}{A} \\right) + \\tan^{-1}\\left( \\frac{R}{B} \\right) = \\frac{\\pi}{2}$ where $A,B > 0$ are constants and $-A < P < A$.<br /><br />(a) Find $\\frac{dR}{dP}$ in terms of $P, R, A, B$ using implicit differentiation.<br />(b) If $P = \\frac{A}{2}$ and $B = 1$, find $R$.<br />(c) Compute $\\frac{d^2R}{dP^2}$ at $P = \\frac{A}{2}$, $A=2$, $B=1$.",
+  "answeroption": "A",
+  "explanation": "Step 1: Differentiate both sides w.r.t $P$:<br /><br />$\\frac{d}{dP} \\left[ \\sin^{-1}(\\frac{P}{A}) \\right] + \\frac{d}{dP} \\left[ \\tan^{-1}(\\frac{R}{B}) \\right] = 0$<br /><br />$\\frac{1}{\\sqrt{A^2 - P^2}} + \\frac{1}{1 + (R/B)^2} \\cdot \\frac{1}{B} \\cdot \\frac{dR}{dP} = 0$<br /><br />But $\\frac{d}{dP} [\\tan^{-1}(\\frac{R}{B})] = \\frac{1}{1 + (R/B)^2} \\cdot \\frac{1}{B} \\cdot \\frac{dR}{dP}$<br /><br />Let $T = \\tan^{-1}(R/B)$:<br /><br />$\\Rightarrow \\frac{1}{\\sqrt{A^2 - P^2}} + \\frac{1}{B[1 + (R/B)^2]} \\frac{dR}{dP} = 0$<br /><br />$\\Rightarrow \\frac{dR}{dP} = -B[1 + (R/B)^2] \\cdot \\frac{1}{\\sqrt{A^2 - P^2}}$<br /><br />Step 2: For $P = A/2, B = 1$<br /><br />Plug $P = A/2$ into first equation:<br />$\\sin^{-1} (1/2) + \\tan^{-1} (R/1) = \\pi/2$<br />$\\sin^{-1}(1/2) = \\pi/6$<br />So,<br />$\\tan^{-1}(R) = \\pi/2 - \\pi/6 = \\pi/3$<br />So $R = \\tan(\\pi/3) = \\sqrt{3}$<br /><br />Step 3: Compute $\\frac{d^2R}{dP^2}$ at $P = 1$ ($A=2, P = A/2$) and $R = \\sqrt{3}$, $B = 1$.<br /><br />Recall:<br />$\\frac{dR}{dP} = -[1 + R^2] \\cdot \\frac{1}{\\sqrt{A^2 - P^2}}$<br />Let $u = 1 + R^2$, $v = \\frac{1}{\\sqrt{A^2 - P^2}}$<br /><br />Now, $\\frac{d^2R}{dP^2} = \\frac{d}{dP}(uv)$. Use product rule:<br /><br />$\\frac{d}{dP}(uv) = u \\cdot \\frac{dv}{dP} + v \\cdot \\frac{du}{dP}$<br /><br />First,<br />$u = 1 + R^2$ so $\\frac{du}{dP} = 2R \\frac{dR}{dP}$<br /><br />$v = \\frac{1}{\\sqrt{A^2 - P^2}}$<br />$\\frac{dv}{dP} = \\frac{-1}{2} (A^2-P^2)^{-3/2} \\cdot (-2P) = \\frac{P}{(A^2-P^2)^{3/2}}$<br /><br />So,<br />$\\frac{d^2R}{dP^2} = [1+R^2] \\cdot \\frac{P}{(A^2-P^2)^{3/2}} + \\frac{1}{\\sqrt{A^2-P^2}} \\cdot 2R \\frac{dR}{dP}$<br /><br />Plug in $A=2, P=1, R=\\sqrt{3}, \\frac{dR}{dP} = -[1+3]/\\sqrt{4-1} = -4/\\sqrt{3}$<br /><br />So,<br />$[1+R^2]=4$<br />$\\frac{P}{(A^2-P^2)^{3/2}} = \\frac{1}{(4-1)^{3/2}} = \\frac{1}{(3)^{3/2}} = \\frac{1}{3\\sqrt{3}}$<br /><br />So first term: $4 \\cdot \\frac{1}{3\\sqrt{3}} = \\frac{4}{3\\sqrt{3}}$<br /><br />Second term:<br />$\\frac{1}{\\sqrt{4-1}} = \\frac{1}{\\sqrt{3}}$<br />$2R = 2\\sqrt{3}$<br />$2R \\frac{dR}{dP} = 2\\sqrt{3} \\cdot (-4/\\sqrt{3}) = -8$<br />So, second term: $\\frac{1}{\\sqrt{3}} \\cdot (-8) = -\\frac{8}{\\sqrt{3}}$<br /><br />Total:<br />$\\frac{d^2R}{dP^2} = \\frac{4}{3\\sqrt{3}} - \\frac{8}{\\sqrt{3}} = -\\frac{20}{3\\sqrt{3}}$<br /><br />Thus, $-\\frac{20}{3\\sqrt{3}}$ is the required value.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $\\dfrac{dR}{dP}=-\\dfrac{B\\left[1+(R/B)^2\\right]}{\\sqrt{A^2-P^2}}$<br />(b) $R=\\sqrt3$<br />(c) $\\dfrac{d^2R}{dP^2}=-\\dfrac{20}{3\\sqrt3}$",
+    "B": "(a) $\\dfrac{dR}{dP}=\\dfrac{B\\left[1+(R/B)^2\\right]}{\\sqrt{A^2-P^2}}$<br />(b) $R=\\frac{1}{\\sqrt3}$<br />(c) $\\dfrac{d^2R}{dP^2}=\\dfrac{20}{3\\sqrt3}$",
+    "C": "(a) $\\dfrac{dR}{dP}=-\\dfrac{B}{\\sqrt{A^2-P^2}}$<br />(b) $R=1$<br />(c) $\\dfrac{d^2R}{dP^2}=-\\dfrac{4}{3\\sqrt3}$",
+    "D": "(a) $\\dfrac{dR}{dP}=-\\dfrac{1}{B\\sqrt{A^2-P^2}}$<br />(b) $R=\\sqrt2$<br />(c) $\\dfrac{d^2R}{dP^2}=0$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:31:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

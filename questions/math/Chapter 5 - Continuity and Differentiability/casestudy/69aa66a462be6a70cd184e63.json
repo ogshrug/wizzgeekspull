@@ -1,0 +1,30 @@
+{
+  "id": "69aa66a462be6a70cd184e63",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d7f",
+    "69c6610140512f018fa94d7b"
+  ],
+  "question_type": "CASESTUDY",
+  "question": "**Case Study 2: Investment Growth with Implicit and Inverse Trigonometric Modeling**  <br />A company models the value $V$ and time $t$ with the implicit equation:  <br />$\\sin^{-1}\\left(\\frac{V}{10}\\right) + \\cos^{-1}\\left(\\frac{t}{10}\\right) = \\frac{\\pi}{2}$, where $0 < V < 10$, $0 < t < 10$.  <br /><br />(a) Express $V$ explicitly in terms of $t$ using trigonometric identities.  <br />(b) Use implicit differentiation to compute $\\frac{dV}{dt}$ and simplify your answer.  <br />(c) Interpret the economic significance of the sign of $\\frac{dV}{dt}$ when $t$ increases from 4 to 6.",
+  "answeroption": "C",
+  "explanation": "(a)<br /><br />Let $\\sin^{-1}(\\frac{V}{10}) + \\cos^{-1}(\\frac{t}{10}) = \\frac{\\pi}{2}$<br />Recall: $\\sin^{-1} x + \\cos^{-1} x = \\frac{\\pi}{2}$, so $\\cos^{-1} y = \\frac{\\pi}{2} - \\sin^{-1} y$<br />Apply this identity:<br />$\\sin^{-1}(\\frac{V}{10}) + \\cos^{-1}(\\frac{t}{10}) = \\frac{\\pi}{2} \\implies \\sin^{-1}(\\frac{V}{10}) = \\frac{\\pi}{2} - \\cos^{-1}(\\frac{t}{10})$<br />$= \\sin^{-1}(\\frac{t}{10})$<br />So, $\\frac{V}{10} = \\frac{t}{10} \\implies V = t$<br /><br />(b) Differentiate both sides implicitly with respect to $t$:<br />$\\frac{d}{dt}[\\sin^{-1}(\\frac{V}{10}) + \\cos^{-1}(\\frac{t}{10})] = 0$<br /><br />$\\Rightarrow \\frac{1}{\\sqrt{1-(\\frac{V}{10})^2}} \\cdot \\frac{1}{10} \\frac{dV}{dt} - \\frac{1}{\\sqrt{1-(\\frac{t}{10})^2}} \\cdot \\frac{1}{10} = 0$<br /><br />$\\Rightarrow \\frac{1}{\\sqrt{1-(V/10)^2}}\\frac{dV}{dt} = \\frac{1}{\\sqrt{1-(t/10)^2}}$<br /><br />$\\Rightarrow \\frac{dV}{dt} = \\frac{\\sqrt{1-(V/10)^2}}{\\sqrt{1-(t/10)^2}}$<br />But from (a): $V = t$.<br />So $\\frac{dV}{dt} = \\frac{\\sqrt{1-(t/10)^2}}{\\sqrt{1-(t/10)^2}} = 1$<br /><br />(c)<br /><br />Interpretation:<br />When $t$ increases, $\\frac{dV}{dt} > 0$ (specifically always $1$ in this model), meaning that as time passes, investment value increases at a constant rate—this suggests a linear growth regime, characteristic of risk-free simple interest economic models, not compounded or diminishing returns.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $V=10-t$<br />(b) $\\frac{dV}{dt}=-1$<br />(c) Investment value decreases as $t$ increases from 4 to 6.",
+    "B": "(a) $V=t^2$<br />(b) $\\frac{dV}{dt}=2t$<br />(c) Investment value increases at an increasing rate.",
+    "C": "(a) $V=t$<br />(b) $\\frac{dV}{dt}=1$<br />(c) Since $\\frac{dV}{dt}>0$, the investment value increases at a constant rate as $t$ increases from 4 to 6.",
+    "D": "(a) $V=\\sqrt{100-t^2}$<br />(b) $\\frac{dV}{dt}=-\\frac{t}{\\sqrt{100-t^2}}$<br />(c) Investment value decreases non-linearly."
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Fri, 06 Mar 2026 05:31:16 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:34:34 GMT"
+}

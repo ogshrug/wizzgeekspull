@@ -1,0 +1,29 @@
+{
+  "id": "69a97c48d8e9ca3b2934579c",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9a8"
+  ],
+  "question_type": "LA",
+  "question": "Let $y(x)$ be defined by the implicit solution to $\\frac{dy}{dx} = \\frac{x^2 + y^2}{2 x y}$.<br />(a) Show that the equation is homogeneous and use the substitution $y = v x$ to separate variables.<br />(b) Find the general solution and discuss the geometric implications of the solution in the $xy$-plane.<br />(c) For $x > 0$, find the envelope of the family of curves represented by the solution.",
+  "answeroption": "C",
+  "explanation": "(a) Substitute $y = v x$, then $\\frac{dy}{dx} = v + x \\frac{dv}{dx}$<br />Equation becomes: $v + x\\frac{dv}{dx} = \\frac{1+v^2}{2v}$<br />$x \\frac{dv}{dx} = \\frac{1 - v^2}{2v}$<br />Integrate: $\\int \\frac{2v}{1-v^2} dv = \\int \\frac{dx}{x} \\Rightarrow -\\ln|1-v^2| = \\ln|x| + C$<br />Return to $y$: $|x^2 - y^2| = K x$<br />(b) $x^2 - y^2 = k x$, i.e., $y^2 = x^2 - k x$<br />(c) Envelope: $\\frac{\\partial F}{\\partial k} = x = 0$, so envelope is tangent at origin",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) Not homogeneous<br />(b) $x^2+y^2=kx$<br />(c) Envelope is $y=0$",
+    "B": "(a) Homogeneous with $y=vx$<br />(b) $x^2+y^2=kx$<br />(c) Envelope is $x=1$",
+    "C": "(a) Homogeneous with $y=vx$<br />(b) $x^2-y^2=kx$, i.e., $y^2=x^2-kx$<br />(c) Envelope condition gives $x=0$, tangent at origin",
+    "D": "(a) Homogeneous with $x=vy$<br />(b) $y^2-x^2=ky$<br />(c) Envelope is $y=x$"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 12:51:20 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:33:04 GMT"
+}

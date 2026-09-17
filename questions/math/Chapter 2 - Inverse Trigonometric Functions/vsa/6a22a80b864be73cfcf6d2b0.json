@@ -1,0 +1,28 @@
+{
+  "id": "6a22a80b864be73cfcf6d2b0",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4b"
+  ],
+  "question_type": "VSA",
+  "question": "Evaluate: $\\sin^{-1}(\\sin\\frac{3\\pi}{4})+\\cos^{-1}(\\cos\\frac{3\\pi}{4})+\\tan^{-1}(1)$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Evaluate each inverse trigonometric term separately using their specific principal value branches. The principal branch for $\\sin^{-1}(x)$ is $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$. The angle $\\frac{3\\pi}{4}$ falls outside this range. We use trigonometric properties to rewrite it: $\\sin(\\frac{3\\pi}{4}) = \\sin(\\pi - \\frac{\\pi}{4}) = \\sin(\\frac{\\pi}{4})$. Because $\\frac{\\pi}{4}$ firmly lies within the principal range, $\\sin^{-1}(\\sin\\frac{3\\pi}{4}) = \\sin^{-1}(\\sin\\frac{\\pi}{4}) = \\frac{\\pi}{4}$.<br />**Step 2:** The principal value branch for $\\cos^{-1}(x)$ is definitively $[0, \\pi]$. The angle $\\frac{3\\pi}{4}$ lies perfectly within this closed interval. Therefore, the function and its inverse directly cancel out: $\\cos^{-1}(\\cos\\frac{3\\pi}{4}) = \\frac{3\\pi}{4}$.<br />**Step 3:** The final term is $\\tan^{-1}(1)$. We know from basic trigonometry that $\\tan(\\frac{\\pi}{4}) = 1$. The principal branch for $\\tan^{-1}(x)$ is $(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$, and $\\frac{\\pi}{4}$ lies inside. Thus, $\\tan^{-1}(1) = \\frac{\\pi}{4}$.<br />**Step 4:** Sum the exact evaluated terms together: $\\frac{\\pi}{4} + \\frac{3\\pi}{4} + \\frac{\\pi}{4}$.<br />**Step 5:** Performing the fractional addition yields $\\frac{1\npi + 3\npi + 1\npi}{4} = \\frac{5\\pi}{4}$. This is the completely evaluated final result.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2023-1",
+  "set_key": [
+    "2023-1-1",
+    "2023-1-2",
+    "2023-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

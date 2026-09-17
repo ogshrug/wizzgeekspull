@@ -1,0 +1,28 @@
+{
+  "id": "6a328425d5dca7dcb0bf0ee5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8db"
+  ],
+  "question_type": "SA",
+  "question": "The corner points of the feasible region determined by the system of linear constraints are as shown in the following figure: A(0, 8), B(4, 10), C(6, 8), D(6, 5), E(4, 0). (i) If $Z = 3x - 4y$ be the objective function, then find the maximum value of Z. (ii) If $Z = px + qy$ where p, $q>0$ be the objective function. Find the condition on p and q so that maximum value of Z occurs at $B(4,10)$ and $C(6,8)$.",
+  "answeroption": "",
+  "explanation": "**Step 1:** For part (i), evaluate $Z = 3x - 4y$ at every given corner point to find the maximum.\n\n**Step 2:** Calculation: $Z(0,8)=-32$; $Z(4,10)=12-40=-28$; $Z(6,8)=18-32=-14$; $Z(6,5)=18-20=-2$; $Z(4,0)=12$; $Z(0,0)=0$.\n\n**Step 3:** The maximum value is 12, occurring at $E(4,0)$.\n\n**Step 4:** For part (ii), if the maximum occurs at two adjacent points, the objective function values at these points must be equal.\n\n**Step 5:** Equate $Z(B)$ and $Z(C)$: $p(4) + q(10) = p(6) + q(8) \\implies 4p + 10q = 6p + 8q \\implies 2p = 2q \\implies p = q$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-4",
+  "set_key": [
+    "2024-4-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": true,
+  "diagram": [
+    "https://d-p-s.s3.ap-south-1.amazonaws.com/maths_question_diagrams/6a328425d5dca7dcb0bf0ee5/1782263453-0.png?t=1782283254443"
+  ],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

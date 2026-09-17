@@ -1,0 +1,31 @@
+{
+  "id": "6a22c079fbdd87b6dea73c1b",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d86"
+  ],
+  "question_type": "MCQ",
+  "question": "The derivative of $2^{x}$ w.r.t. $3^{x}$ is:",
+  "answeroption": "C",
+  "explanation": "**Step 1:** Let $u = 2^x$ and $v = 3^x$. Then $\\frac{du}{dx} = 2^x \\log 2$ and $\\frac{dv}{dx} = 3^x \\log 3$.<br />**Step 2:** The derivative of $u$ with respect to $v$ is given by $\\frac{du}{dv} = \\frac{du/dx}{dv/dx} = \\frac{2^x \\log 2}{3^x \\log 3} = \\left(\\frac{2}{3}\\right)^x \\frac{\\log 2}{\\log 3}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$(\\frac{3}{2})^{x}\\frac{\\log 2}{\\log 3}$",
+    "B": "$(\\frac{2}{3})^{x}\\frac{\\log 3}{\\log 2}$",
+    "C": "$(\\frac{2}{3})^{x}\\frac{\\log 2}{\\log 3}$",
+    "D": "$(\\frac{3}{2})^{x}\\frac{\\log 3}{\\log 2}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

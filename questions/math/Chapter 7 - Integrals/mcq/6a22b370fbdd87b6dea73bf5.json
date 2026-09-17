@@ -1,0 +1,31 @@
+{
+  "id": "6a22b370fbdd87b6dea73bf5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaab8c819562f933f98f"
+  ],
+  "question_type": "MCQ",
+  "question": "$\\int_{0}^{\\pi/2}\\cos~x.e^{\\sin~x}dx$ is equal to :",
+  "answeroption": "C",
+  "explanation": "<b>Step 1</b> Evaluate the integral using substitution. Let $u = \\sin x$, which gives $du = \\cos x dx$. This matches the terms in our integrand.<br /><br /><b>Step 2</b> Update the limits of integration: when $x = 0$, $u = \\sin(0) = 0$. When $x = \\frac{\\pi}{2}$, $u = \\sin\\left(\\frac{\\pi}{2}\\right) = 1$. The definite integral becomes $\\int_{0}^{1} e^u du$.<br /><br /><b>Step 3</b> Perform the integration and substitute the limits: $\\int_{0}^{1} e^u du = [e^u]_{0}^{1} = e^1 - e^0 = e - 1$. This corresponds to option C.",
+  "explanation_image": [],
+  "options": {
+    "A": "0",
+    "B": "1-e",
+    "C": "e-1",
+    "D": "e"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2025-5",
+  "set_key": [
+    "2025-5-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

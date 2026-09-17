@@ -1,0 +1,30 @@
+{
+  "id": "6a8fd0a7be0ecc7866e90c3f",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a83154681ebad5835402fa",
+  "topic": [
+    "6a13eb348c819562f933f999",
+    "6a13eb348c819562f933f99a"
+  ],
+  "question_type": "LA",
+  "question": "The line $x=2$ cuts the circle $x^2+y^2=16$. Determine the area of the smaller region lying between the line and the circle.(a) Find the points at which the line intersects the circle.(b) Form a definite integral with respect to $y$ for the required region.(c) Evaluate the integral and obtain the exact area.",
+  "answeroption": "A",
+  "explanation": "(a)Substituting $x=2$ in the equation of the circle gives`4+y^2=16y^2=12y=\\pm2\\sqrt{3}`Hence, the points of intersection are $\\left(2,2\\sqrt{3}\\right)$ and $\\left(2,-2\\sqrt{3}\\right)$.(b)For the right half of the circle,`x=\\sqrt{16-y^2}`The required region lies between $x=2$ and $x=\\sqrt{16-y^2}$. Therefore,`A=\\int_{-2\\sqrt{3}}^{2\\sqrt{3}}\\left(\\sqrt{16-y^2}-2\\right)dy`By symmetry,`A=2\\int_0^{2\\sqrt{3}}\\left(\\sqrt{16-y^2}-2\\right)dy`(c)Put $y=4\\sin\\theta$. Then $dy=4\\cos\\theta\\,d\\theta$. When $y=0$, $\\theta=0$, and when $y=2\\sqrt{3}$, $\\theta=\\frac{\\pi}{3}$. Thus,`\\int_0^{2\\sqrt{3}}\\sqrt{16-y^2}\\,dy=16\\int_0^{\\frac{\\pi}{3}}\\cos^2\\theta\\,d\\theta=16\\left[\\frac{\\theta}{2}+\\frac{\\sin2\\theta}{4}\\right]_0^{\\frac{\\pi}{3}}=\\frac{8\\pi}{3}+2\\sqrt{3}`Also,`\\int_0^{2\\sqrt{3}}2\\,dy=4\\sqrt{3}`Therefore,`A=2\\left(\\frac{8\\pi}{3}+2\\sqrt{3}-4\\sqrt{3}\\right)A=\\frac{16\\pi}{3}-4\\sqrt{3}`Hence, the area of the smaller region is $\\frac{16\\pi}{3}-4\\sqrt{3}$ square units.",
+  "explanation_image": [],
+  "options": {
+    "A": "(a) $(2,2\\sqrt{3})$ and $(2,-2\\sqrt{3})$<br>(b) $A=\\int_{-2\\sqrt{3}}^{2\\sqrt{3}}(\\sqrt{16-y^2}-2)\\,dy$<br>(c) $A=\\frac{16\\pi}{3}-4\\sqrt{3}$ square units",
+    "B": "(a) $(2,2)$ and $(2,-2)$<br>(b) $A=\\int_{-2}^{2}(\\sqrt{16-y^2}-2)\\,dy$<br>(c) $A=\\frac{16\\pi}{3}-4\\sqrt{3}$ square units",
+    "C": "(a) $(2,2\\sqrt{3})$ and $(2,-2\\sqrt{3})$<br>(b) $A=\\int_{-2\\sqrt{3}}^{2\\sqrt{3}}(2-\\sqrt{16-y^2})\\,dy$<br>(c) $A=\\frac{16\\pi}{3}+4\\sqrt{3}$ square units",
+    "D": "(a) $(2,2\\sqrt{3})$ and $(2,-2\\sqrt{3})$<br>(b) $A=\\int_{-2\\sqrt{3}}^{2\\sqrt{3}}(\\sqrt{16-y^2}-2)\\,dy$<br>(c) $A=\\frac{8\\pi}{3}-4\\sqrt{3}$ square units"
+  },
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

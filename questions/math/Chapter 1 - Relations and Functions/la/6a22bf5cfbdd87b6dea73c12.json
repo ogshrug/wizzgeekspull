@@ -1,0 +1,26 @@
+{
+  "id": "6a22bf5cfbdd87b6dea73c12",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d43"
+  ],
+  "question_type": "LA",
+  "question": "A relation $R$ on the set $A=\\{-4,-3,-2,-1,0,1,2,3,4\\}$ is defined by<br />$$R=\\{(x,y):x+y\\text{ is an integer divisible by }2\\}.$$<br />Show that $R$ is an equivalence relation. Also, write the equivalence class $[2]$.",
+  "answeroption": "$[2]=\\{-4,-2,0,2,4\\}$",
+  "explanation": "<b>Step 1 (Reflexive)</b><br />A relation is reflexive if $(x,x)\\in R$ for every $x\\in A$. Here:<br />$$x+x=2x$$<br />which is divisible by $2$ for every integer $x$. Therefore, $(x,x)\\in R$ for all $x\\in A$. Hence, $R$ is reflexive.<br /><br /><b>Step 2 (Symmetric)</b><br />Suppose $(x,y)\\in R$. Then $x+y$ is divisible by $2$. Since addition is commutative,<br />$$y+x=x+y$$<br />is also divisible by $2$. Therefore, $(y,x)\\in R$. Hence, $R$ is symmetric.<br /><br /><b>Step 3 (Transitive)</b><br />Suppose $(x,y)\\in R$ and $(y,z)\\in R$. Then there exist integers $m$ and $n$ such that:<br />$$x+y=2m$$<br />$$y+z=2n$$<br />Adding these equations gives:<br />$$x+2y+z=2(m+n)$$<br />$$x+z=2(m+n-y)$$<br />Since $m,n,$ and $y$ are integers, $m+n-y$ is an integer. Therefore, $x+z$ is divisible by $2$, implying $(x,z)\\in R$. Hence, $R$ is transitive.<br /><br /><b>Step 4</b><br />Since $R$ is reflexive, symmetric, and transitive, it is an equivalence relation.<br /><br /><b>Step 5 (Equivalence Class of 2)</b><br />The equivalence class of $2$ is:<br />$$[2]=\\{x\\in A:(x,2)\\in R\\}$$<br />This requires $x+2$ to be divisible by $2$, so $x$ must be even. The even elements of $A$ are:<br />$$\\{-4,-2,0,2,4\\}$$<br />Therefore,<br />$$\\boxed{[2]=\\{-4,-2,0,2,4\\}}.$$",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

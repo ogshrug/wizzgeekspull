@@ -1,0 +1,31 @@
+{
+  "id": "6a22b83d864be73cfcf6d2b8",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f29681ebad583540304",
+  "topic": [
+    "69c65fc040512f018fa94d5c"
+  ],
+  "question_type": "MCQ",
+  "question": "If $A = \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix}$, then $A^{2023}$ is equal to",
+  "answeroption": "C",
+  "explanation": "**Step 1:** To find $A^{2023}$, evaluate the square of matrix $A$ first: $A^2 = A \\times A$.<br />**Step 2:** Multiply the matrices: $\\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix} \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix} = \\begin{bmatrix} 0+0 & 0+0 \\\\ 0+0 & 0+0 \\end{bmatrix}$.<br />**Step 3:** The result is $A^2 = \\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix}$, which is the zero matrix $O$.<br />**Step 4:** Any subsequent power of a zero matrix remains a zero matrix. Therefore, $A^{2023} = (A^2)^{1011} \\cdot A = O$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix}$",
+    "B": "$\\begin{bmatrix} 0 & 2023 \\\\ 0 & 0 \\end{bmatrix}$",
+    "C": "$\\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix}$",
+    "D": "$\\begin{bmatrix} 2023 & 0 \\\\ 0 & 2023 \\end{bmatrix}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2023-2",
+  "set_key": [
+    "2023-2-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a22658d864be73cfcf6d1b5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a9740f681ebad58354030b",
+  "topic": [
+    "6a13eaaa8c819562f933f98d"
+  ],
+  "question_type": "LA",
+  "question": "Evaluate: $\\int_{0}^{\\pi/2}\\frac{x}{\\sin x+\\cos x}dx$",
+  "answeroption": "",
+  "explanation": "**Step 1:** Let $I = \\int_{0}^{\\pi/2}\\frac{x}{\\sin x+\\cos x}dx$. Use the property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$.<br />**Step 2:** Applying the property, $I = \\int_{0}^{\\pi/2}\\frac{\\pi/2 - x}{\\sin(\\pi/2 - x)+\\cos(\\pi/2 - x)}dx$.<br />**Step 3:** Using trigonometric co-function identities, this simplifies to $I = \\int_{0}^{\\pi/2}\\frac{\\pi/2 - x}{\\cos x+\\sin x}dx$.<br />**Step 4:** Add the two expressions for $I$: $2I = \\int_{0}^{\\pi/2} \\frac{x + \\pi/2 - x}{\\sin x + \\cos x} dx = \\frac{\\pi}{2} \\int_{0}^{\\pi/2} \\frac{1}{\\sin x + \\cos x} dx$.<br />**Step 5:** To evaluate the new integral, convert sine and cosine into half-angle tangents: $\\sin x = \\frac{2\\tan(x/2)}{1+\\tan^2(x/2)}$ and $\\cos x = \\frac{1-\\tan^2(x/2)}{1+\\tan^2(x/2)}$.<br />**Step 6:** Substitute and simplify: $2I = \\frac{\\pi}{2} \\int_{0}^{\\pi/2} \\frac{\\sec^2(x/2)}{2\\tan(x/2) + 1 - \\tan^2(x/2)} dx$.<br />**Step 7:** Let $t = \\tan(x/2)$, then $dt = \\frac{1}{2}\\sec^2(x/2) dx$. When $x=0$, $t=0$; when $x=\\pi/2$, $t=1$.<br />**Step 8:** The integral becomes $2I = \\frac{\\pi}{2} \\int_{0}^{1} \\frac{2}{-t^2+2t+1} dt = \\pi \\int_{0}^{1} \\frac{1}{2 - (t-1)^2} dt$.<br />**Step 9:** Use the standard formula $\\int \\frac{1}{a^2 - x^2} dx = \\frac{1}{2a}\\log|\\frac{a+x}{a-x}|$ with $a=\\sqrt{2}$. Resulting in $I = \\frac{\\pi}{4\\sqrt{2}} \\log|\\frac{\\sqrt{2}+1}{\\sqrt{2}-1}|$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Hard",
+  "year": "2025-6",
+  "set_key": [
+    "2025-6-1",
+    "2025-6-2",
+    "2025-6-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

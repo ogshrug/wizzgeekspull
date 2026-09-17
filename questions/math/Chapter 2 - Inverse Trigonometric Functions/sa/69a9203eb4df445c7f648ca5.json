@@ -1,0 +1,29 @@
+{
+  "id": "69a9203eb4df445c7f648ca5",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e72681ebad583540302",
+  "topic": [
+    "69c65d9140512f018fa94d4d"
+  ],
+  "question_type": "SA",
+  "question": "Evaluate $\\sin(\\tan^{-1}x)$ and $\\cos(\\tan^{-1}x)$ for $x \\in \\mathbb{R}$ in surd form.",
+  "answeroption": "C",
+  "explanation": "Let $\\theta = \\tan^{-1}x$.<br /><br />Then $\\tan\\theta = x$.<br /><br />Construct a right triangle where opposite side $=x$ and adjacent side $=1$.<br /><br />Hypotenuse $=\\sqrt{1+x^2}$.<br /><br />Thus $\\sin\\theta = \\frac{x}{\\sqrt{1+x^2}}$ and $\\cos\\theta = \\frac{1}{\\sqrt{1+x^2}}$.<br /><br />Therefore $\\sin(\\tan^{-1}x)=\\frac{x}{\\sqrt{1+x^2}}$ and $\\cos(\\tan^{-1}x)=\\frac{1}{\\sqrt{1+x^2}}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\sin(\\tan^{-1}x)=\\frac{1}{\\sqrt{1+x^2}},\\cos(\\tan^{-1}x)=\\frac{x}{\\sqrt{1+x^2}}$",
+    "B": "$\\sin(\\tan^{-1}x)=\\frac{x}{1+x^2},\\cos(\\tan^{-1}x)=\\frac{1}{1+x^2}$",
+    "C": "$\\sin(\\tan^{-1}x)=\\frac{x}{\\sqrt{1+x^2}},\\cos(\\tan^{-1}x)=\\frac{1}{\\sqrt{1+x^2}}$",
+    "D": "$\\sin(\\tan^{-1}x)=\\frac{x}{\\sqrt{1-x^2}},\\cos(\\tan^{-1}x)=\\frac{1}{\\sqrt{1-x^2}}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:18:38 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6a8eb85d2e54880055a0a6aa",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a8317b681ebad5835402fc",
+  "topic": [
+    "69c6610140512f018fa94d82"
+  ],
+  "question_type": "VSA",
+  "question": "If $f(x)=e^{x^2-3x}$, find $f'(1)$.",
+  "answeroption": "B",
+  "explanation": "Step 1: The function is an exponential function with exponent $u=x^2-3x$.<br>Step 2: For $f(x)=e^u$, differentiation gives $f'(x)=e^u\\frac{du}{dx}$.<br>Step 3: Here, $\\frac{du}{dx}=2x-3$. Therefore, $f'(x)=e^{x^2-3x}(2x-3)$.<br>Step 4: At $x=1$, the exponent is $1^2-3(1)=-2$, while $2(1)-3=-1$.<br>Step 5: Hence, $f'(1)=e^{-2}(-1)=-e^{-2}$. Therefore, the required derivative is $-e^{-2}$.",
+  "explanation_image": [],
+  "options": {
+    "A": "$e^{-2}$",
+    "B": "$-e^{-2}$",
+    "C": "$-2e^{-2}$",
+    "D": "$e^2$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

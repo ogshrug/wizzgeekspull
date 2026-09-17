@@ -1,0 +1,33 @@
+{
+  "id": "6a21285d864be73cfcf6d0af",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90f56681ebad583540305",
+  "topic": [
+    "6a13e88ad837c8c7efa6b8e3"
+  ],
+  "question_type": "AR",
+  "question": "**Assertion (A):** In an experiment of throwing an unbiased die, the probability of getting a prime number given that number appearing on the die being odd is $\\frac{2}{3}$.<br /><br />**Reason (R):** For any two events A and B, $P(A|B)=\\frac{P(A\\cup B)}{P(B)}$<br /><br />",
+  "answeroption": "(C)",
+  "explanation": "**Step 1:** To verify Assertion (A), first define the sample space of the condition, which is obtaining an odd number on a standard die. This set is $B = \\{1, 3, 5\\}$.<br /><br />**Step 2:** Identify the prime numbers within this specific subset, which constitutes event $A \\cap B$. The prime numbers in set B are strictly $\\{3, 5\\}$, making $n(A \\cap B) = 2$.<br /><br />**Step 3:** Calculate the conditional probability using the actual subset counts: $P(A|B) = \\frac{n(A \\cap B)}{n(B)} = \\frac{2}{3}$. This proves that Assertion (A) is mathematically true.<br /><br />**Step 4:** Evaluate Reason (R) by recalling the fundamental axiom of conditional probability. The correct mathematical formula is $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$, utilizing the intersection, not the union. Thus, Reason (R) is explicitly false.",
+  "explanation_image": [],
+  "options": {
+    "A": "Both A and R are true and R is correct explanation",
+    "B": "Both A and R are true but R is not correct explanation",
+    "C": "A is true and R is false",
+    "D": "A is false and R is true"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2026-1",
+  "set_key": [
+    "2026-1-1",
+    "2026-1-2",
+    "2026-1-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

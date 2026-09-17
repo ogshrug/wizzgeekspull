@@ -1,0 +1,29 @@
+{
+  "id": "6a15874e6050c058f876e4e6",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a973b3681ebad583540309",
+  "topic": [
+    "6a13e767d837c8c7efa6b8ca"
+  ],
+  "question_type": "MCQ",
+  "question": "What is the value of $\\frac{\\text{projection of }\\vec{a}\\text{ on }\\vec{b}}{\\text{projection of }\\vec{b}\\text{ on }\\vec{a}}$ for vectors $\\vec{a}=2\\hat{i}-3\\hat{j}-6\\hat{k}$ and $\\vec{b}=2\\hat{i}-2\\hat{j}+\\hat{k}$?",
+  "answeroption": "B",
+  "explanation": "**Step 1: Compute the scalar dot product of both vectors**<br />$\\vec{a} \\cdot \\vec{b} = (2)(2) + (-3)(-2) + (-6)(1) = 4 + 6 - 6 = 4$<br /><br />**Step 2: Compute individual vector magnitudes**<br />- Magnitude of vector $\\vec{a}$: $|\\vec{a}| = \\sqrt{2^2 + (-3)^2 + (-6)^2} = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7$<br />- Magnitude of vector $\\vec{b}$: $|\\vec{b}| = \\sqrt{2^2 + (-2)^2 + 1^2} = \\sqrt{4 + 4 + 1} = \\sqrt{9} = 3$<br /><br />**Step 3: Apply standard vector projection formulas**<br />- The projection of vector $\\vec{a}$ onto vector $\\vec{b}$ is calculated as: $P_1 = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} = \\frac{4}{3}$<br />- The projection of vector $\\vec{b}$ onto vector $\\vec{a}$ is calculated as: $P_2 = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}|} = \\frac{4}{7}$<br /><br />**Step 4: Find the final requested ratio**<br />$\\text{Ratio} = \\frac{P_1}{P_2} = \\frac{\\frac{4}{3}}{\\frac{4}{7}} = \\frac{4}{3} \\cdot \\frac{7}{4} = \\frac{7}{3}$. This matches Option B.",
+  "explanation_image": [],
+  "options": {
+    "A": "$\\frac{3}{7}$",
+    "B": "$\\frac{7}{3}$",
+    "C": "$\\frac{4}{3}$",
+    "D": "$\\frac{4}{7}$"
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "2024-compartment",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

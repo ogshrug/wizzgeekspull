@@ -1,0 +1,31 @@
+{
+  "id": "69a8555596358125c95a0d53",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a6c574681ebad5835402ee",
+  "topic": [
+    "6a13e98f8c819562f933f97b",
+    "6a13e98f8c819562f933f979",
+    "6a13e9908c819562f933f987"
+  ],
+  "question_type": "LA",
+  "question": "Find the points on the curve $y = x^3 - 3x^2 + 4$ at which the tangent is parallel to the x-axis. Also, determine whether each such point is a local maximum, local minimum, or neither.",
+  "answeroption": "B",
+  "explanation": "To find where the tangent is parallel to the x-axis, we set $\\frac{dy}{dx} = 0$.<br /><br />Given $y = x^3 - 3x^2 + 4$<br /><br />$\\frac{dy}{dx} = 3x^2 - 6x = 3x(x-2)$<br /><br />Setting $\\frac{dy}{dx}=0$ gives $x=0$ or $x=2$.<br /><br />At $x=0$, $y=4$ so point is $(0,4)$.<br /><br />At $x=2$, $y=0$ so point is $(2,0)$.<br /><br />Second derivative: $\\frac{d^2y}{dx^2}=6x-6$.<br /><br />At $x=0$, $\\frac{d^2y}{dx^2}=-6<0$ so local maximum at $(0,4)$.<br /><br />At $x=2$, $\\frac{d^2y}{dx^2}=6>0$ so local minimum at $(2,0)$.",
+  "explanation_image": [],
+  "options": {
+    "A": "The tangent is parallel to the x-axis at $(0,4)$ and $(2,0)$; $(0,4)$ is a local minimum and $(2,0)$ is a local maximum.",
+    "B": "The tangent is parallel to the x-axis at $(0,4)$ and $(2,0)$; $(0,4)$ is a local maximum and $(2,0)$ is a local minimum.",
+    "C": "The tangent is parallel to the x-axis only at $(0,4)$, and it is a local maximum.",
+    "D": "The tangent is parallel to the x-axis only at $(2,0)$, and it is a local minimum."
+  },
+  "is_options_image": false,
+  "difficulty": "Easy",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Wed, 04 Mar 2026 15:52:53 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:01 GMT"
+}

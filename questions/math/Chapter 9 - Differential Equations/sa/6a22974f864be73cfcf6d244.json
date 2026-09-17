@@ -1,0 +1,29 @@
+{
+  "id": "6a22974f864be73cfcf6d244",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90e2e681ebad583540301",
+  "topic": [
+    "6a13ebca8c819562f933f9ac",
+    "6a13ebca8c819562f933f9ad"
+  ],
+  "question_type": "SA",
+  "question": "Find the general solution of the differential equation : $y~dx=(x+2y^{2})dy$",
+  "answeroption": "",
+  "explanation": "**Step 1:** The given equation is not readily separable or homogeneous in its current form. Let's try to express it as a linear differential equation. Divide by $y~dy$ to see if it's linear in $x$: $\\frac{dx}{dy} = \\frac{x+2y^2}{y}$.<br />**Step 2:** Rearrange this into the standard linear form $\\frac{dx}{dy} + P(y)x = Q(y)$. We obtain $\\frac{dx}{dy} - \\frac{1}{y}x = 2y$. This perfectly matches the standard linear differential equation format where $P(y) = -\\frac{1}{y}$ and $Q(y) = 2y$.<br />**Step 3:** The next crucial step is to calculate the Integrating Factor (I.F.). The formula is I.F. $= e^{\\int P(y) dy}$. Substituting our $P(y)$, we get $e^{\\int -\\frac{1}{y} dy} = e^{-\\ln|y|} = e^{\\ln(|y|^{-1})} = |y|^{-1}$. Assuming $y>0$, the I.F. is $\\frac{1}{y}$.<br />**Step 4:** The general solution for this type of linear differential equation is given by the formula $x \\cdot \\text{I.F.} = \\int Q(y) \\cdot \\text{I.F.} \\, dy + C$. Substitute the known values into this formula: $x \\cdot (\\frac{1}{y}) = \\int (2y) \\cdot (\\frac{1}{y}) \\, dy + C$.<br />**Step 5:** Simplify the integral expression on the right side. The $y$ terms cancel out, leaving $\\int 2 \\, dy + C$. Integrating gives $2y + C$. So, the equation is $\\frac{x}{y} = 2y + C$. Finally, multiply by $y$ to solve for $x$ and present the general solution in a standard format: $x = 2y^2 + Cy$.",
+  "explanation_image": [],
+  "options": {},
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-2",
+  "set_key": [
+    "2024-2-1",
+    "2024-2-2",
+    "2024-2-3"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6a22bf5bfbdd87b6dea73c11",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a92678681ebad583540307",
+  "topic": [
+    "69c65c9340512f018fa94d44",
+    "69c65c9340512f018fa94d45"
+  ],
+  "question_type": "MCQ",
+  "question": "Let $R_+$ denote the set of all non-negative real numbers. Then the function $f:R_+\\to R_+$ defined by $f(x)=x^2+1$ is:",
+  "answeroption": "A",
+  "explanation": "<b>Step 1</b> To check whether the function is one-one (injective), let $f(x_1)=f(x_2)$. Then:<br />$$x_1^2+1=x_2^2+1$$<br />$$x_1^2=x_2^2$$<br />Since $x_1,x_2\\in R_+$ (non-negative real numbers), it follows that:<br />$$x_1=x_2$$<br />Hence, $f$ is one-one.<br /><br /><b>Step 2</b> To check whether the function is onto (surjective), let $y=f(x)=x^2+1$. Then:<br />$$x=\\sqrt{y-1}$$<br />For $x$ to be a real number, we must have $y\\ge 1$. Therefore, the range of $f$ is:<br />$$[1,\\infty)$$<br />But the codomain is $R_+=[0,\\infty)$. Since values in $[0,1)$ are not attained by the function, $f$ is not onto.<br /><br /><b>Step 3</b> Therefore, the function is one-one but not onto.",
+  "explanation_image": [],
+  "options": {
+    "A": "one-one but not onto",
+    "B": "onto but not one-one",
+    "C": "both one-one and onto",
+    "D": "neither one-one nor onto"
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "2024-3",
+  "set_key": [
+    "2024-3-1"
+  ],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Mon, 07 Sep 2026 11:54:00 GMT",
+  "updated_at": "Mon, 07 Sep 2026 11:54:00 GMT"
+}

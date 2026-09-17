@@ -1,0 +1,29 @@
+{
+  "id": "69a91e79575fa42e0944484e",
+  "subject": "68cc04ec9e8dfa8163c0c559",
+  "chapter": "69a6c4e8681ebad5835402ec",
+  "subtopic": "69a90ed5681ebad583540303",
+  "topic": [
+    "6a13e844d837c8c7efa6b8da"
+  ],
+  "question_type": "LA",
+  "question": "A farmer wants to mix two fertilizers $A$ and $B$. Each kg of $A$ contains 3 kg nitrogen and 1 kg potassium; $B$ contains 2 kg nitrogen and 4 kg potassium. The field needs at least 24 kg nitrogen and 24 kg potassium. $A$ costs Rs 30/kg and $B$ Rs 20/kg. Find the least expensive way to fertilize the field.",
+  "answeroption": "A",
+  "explanation": "Let $x$ kg $A$, $y$ kg $B$.<br /><br />Step 1: Nitrogen: $3x+2y\\geq24$<br /><br />Step 2: Potassium: $x+4y\\geq24$<br /><br />Step 3: $Z=30x+20y$ (minimize)<br /><br />$x\\geq0, y\\geq0$<br /><br />$3x+2y=24\\implies y=(24-3x)/2$<br /><br />$x+4y=24\\implies y=(24-x)/4$<br /><br />Set $(24-3x)/2=(24-x)/4\\implies2(24-3x)=24-x\\implies48-6x=24-x\\implies-5x=-24\\implies x=24/5=4.8$<br /><br />$y=24-3x=24-14.4=9.6/2=4.8$<br /><br />Try $(0,6)$: nitrogen $=12<24$ not feasible.<br /><br />Try $(8,0)$: potassium $=8<24$ not feasible.<br /><br />Thus only feasible corner intersection is $(4.8,4.8)$.<br /><br />Cost $Z=30\\times4.8+20\\times4.8=144+96=240$.<br /><br />So minimum cost is Rs 240 with 4.8 kg each.",
+  "explanation_image": [],
+  "options": {
+    "A": "Use 4.8 kg of $A$ and 4.8 kg of $B$; minimum cost Rs 240.",
+    "B": "Use 0 kg of $A$ and 6 kg of $B$; minimum cost Rs 120.",
+    "C": "Use 8 kg of $A$ and 0 kg of $B$; minimum cost Rs 240.",
+    "D": "Use 6 kg of $A$ and 0 kg of $B$; minimum cost Rs 180."
+  },
+  "is_options_image": false,
+  "difficulty": "Medium",
+  "year": "",
+  "set_key": [],
+  "year_multiple": [],
+  "is_diagram": false,
+  "diagram": [],
+  "created_at": "Thu, 05 Mar 2026 06:11:05 GMT",
+  "updated_at": "Thu, 17 Sep 2026 11:31:38 GMT"
+}
